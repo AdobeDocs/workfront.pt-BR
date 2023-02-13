@@ -8,7 +8,7 @@ description: É possível importar campos personalizados com várias opções no
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 5e0e1425f45886a805726de49357c43b0aecb7f4
+source-git-commit: 80ad604330e8b55037f1607b754cc8bb34f6a3ec
 workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 0%
@@ -25,16 +25,20 @@ Exemplos de campos personalizados com várias opções são:
 * Menu suspenso com múltipla escolha
 * Suspenso
 * Caixa de Seleção
-* Botões de seleção.
+* Botões de seleção
 
 Às vezes, esses campos podem ter muitas (às vezes centenas) opções. Importá-los usando a funcionalidade Kick-Start pode salvá-lo, como administrador do Workfront, muito tempo e garantir que você evite erros.
 
-Você deve seguir as etapas descritas nas seções abaixo, nesta ordem, para importar campos personalizados com várias opções usando um início:
+>[!IMPORTANT]
+>
+>Você deve seguir as etapas descritas nas seções abaixo, nesta ordem, para importar campos personalizados com várias opções usando um início:
+>
+>1. Exportar dados personalizados existentes do Workfront (etapa opcional)
+>1. Exportar o modelo de início rápido para dados personalizados
+>1. Preencher a planilha Início Rápido do Excel
+>1. Fazer upload da planilha do Excel para o Workfront
 
-1. Exportar dados personalizados existentes do Workfront (etapa opcional)
-1. Exportar o modelo de início rápido para dados personalizados
-1. Preencher a planilha Início Rápido do Excel
-1. Fazer upload da planilha do Excel para o Workfront
+
 
 ## Exportar dados personalizados existentes do Workfront (etapa opcional)
 
@@ -115,15 +119,20 @@ Para preencher a planilha do Excel com informações para os novos campos person
 
 1. Abra a planilha do Excel que você baixou na seção anterior e observe várias planilhas. Cada folha representa um objeto no aplicativo.
 
-   Por exemplo: **Parâmetro** (que se refere ao campo personalizado), **Opção de parâmetro**(que se refere à opção Campo personalizado ), **Categoria** (que se refere ao Formulário personalizado).
+   >[!INFO]
+   >
+   >Por exemplo, **Parâmetro** (que se refere ao campo personalizado), **Opção de parâmetro**(que se refere à opção Campo personalizado), **Categoria** (que se refere ao Formulário personalizado).
+   >
+   >Você deve gravar os nomes dos objetos e seus atributos no formato suportado pelo banco de dados do Workfront.
+   >
+   >Para obter informações sobre o significado desses objetos, consulte o [Glossário do Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >
+   >Para obter informações sobre os nomes dos objetos no banco de dados do Workfront, consulte o [API Explorer](../../../wf-api/general/api-explorer.md).
+   >
+   >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
-   Você deve gravar os nomes dos objetos e seus atributos no formato suportado pelo banco de dados do Workfront.
 
-   Para obter informações sobre o significado desses objetos, consulte o [Glossário do Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-   Para obter informações sobre os nomes dos objetos no banco de dados do Workfront, consulte o [API Explorer](../../../wf-api/general/api-explorer.md).
-
-   ![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 
 1. Verifique se as seguintes informações estão formatadas corretamente:
@@ -164,7 +173,9 @@ Para preencher a planilha do Excel com informações para os novos campos person
 
    * **`setName`** = digite o nome dos campos personalizados, conforme desejar, exibido no Workfront.
 
-      Por exemplo, podemos importar dois campos personalizados, chamados de _Marca_, um campo de caixa de seleção e _Mídia_, um campo de botão de opção.
+      >[!INFO]
+      >
+      >Por exemplo, podemos importar dois campos personalizados, chamados de _Marca_, um campo de caixa de seleção e _Mídia_, um campo de botão de opção.
 
    * O **`setName`** e **`setValue`** geralmente contêm as mesmas informações e devem refletir os nomes desejados na interface do Workfront para o novo campo.
    O valor de um campo é o nome que aparece nos relatórios, por exemplo, enquanto o nome é exibido nos formulários personalizados anexados aos objetos.
