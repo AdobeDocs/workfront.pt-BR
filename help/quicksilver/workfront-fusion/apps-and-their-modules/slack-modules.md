@@ -1,0 +1,1533 @@
+---
+content-type: reference
+product-previous: workfront-fusion
+product-area: workfront-integrations
+keywords: conector
+navigation-topic: apps-and-their-modules
+title: Módulos Slack
+description: Em um [!DNL Adobe Workfront Fusion] você pode automatizar workflows que usam o Slack, bem como conectá-lo a vários aplicativos e serviços de terceiros.
+author: Becky
+feature: Workfront Fusion
+exl-id: ba5bad6a-3cb3-4024-82f7-d38ee9a8e0b5
+source-git-commit: aacdfccfb5c050d72f343fe7567979a8b0c9445b
+workflow-type: tm+mt
+source-wordcount: '1729'
+ht-degree: 0%
+
+---
+
+# [!DNL Slack] módulos
+
+Em um [!DNL Adobe Workfront Fusion] , é possível automatizar workflows que usam [!DNL Slack], bem como conectá-lo a vários aplicativos e serviços de terceiros.
+
+Se precisar de instruções para criar um cenário, consulte [Crie um cenário em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+
+Para obter informações sobre módulos, consulte [Módulos em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+
+## Requisitos de acesso
+
+Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano*</td>
+  <td> <p>[!UICONTROL Pro] ou superior</p> </td>
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença*</td>
+   <td> <p>[!UICONTROL Plano], [!UICONTROL Trabalho]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
+   <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Produto</td> 
+   <td>Sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+
+Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+
+## Pré-requisitos
+
+Para usar [!DNL Slack] módulos, você deve ter um [!DNL Slack] conta.
+
+## [!DNL Slack] módulos e seus campos
+
+Ao configurar [!DNL Slack] módulos, [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, [!DNL Slack] podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
+
+Se o botão de mapa for exibido acima de um campo ou função, é possível usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+
+![](assets/map-toggle-350x74.png)
+
+* [Mensagens](#messages)
+* [Arquivos](#files)
+* [Canais](#channels)
+* [Reações](#reactions)
+* [Estrelas](#stars)
+* [Itens salvos](#saved-items)
+* [Pins](#pins)
+* [Usuários](#users)
+* [Lembretes](#reminders)
+* [Eventos](#events)
+* [Perfil](#profile)
+* [Outro](#other)
+
+### Mensagens
+
++++**[!UICONTROL Assista a mensagens de canal público]**
+
+Esse módulo de acionador inicia o cenário quando uma nova mensagem é adicionada a um canal público.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL Slack] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Canal] </td> 
+   <td> <p>Selecione o canal público que deseja observar em busca de novas mensagens.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limite] </td> 
+   <td> <p>Definir o número máximo de mensagens [!DNL Workfront Fusion] retornará durante um ciclo de execução.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++**[!UICONTROL Assista a mensagens de canal privadas]**
+
+Esse módulo de acionador inicia o cenário quando uma nova mensagem é adicionada a um canal privado (grupo).
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL Slack] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Canal] </td> 
+   <td> <p>Selecione o canal privado que deseja observar em busca de novas mensagens.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limite] </td> 
+   <td> <p>Definir o número máximo de mensagens [!DNL Workfront Fusion] retornará durante um ciclo de execução.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
+<!--
+
++++ **[!UICONTROL Watch Direct Messages]**
+
+This trigger module starts the scenario when a new message is added to a direct message.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Channel] </td> 
+   <td> <p>Select the direct message conversation you want to watch for new messages.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit] </td> 
+   <td> <p>Set the maximum number of messages [!DNL Workfront Fusion] will return during one execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Watch Multiparty Direct Messages]**
+
+This trigger module starts the scenario when a new message is added to a multiparty direct message channel.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Channel] </td> 
+   <td> <p>Select the direct message conversation you want to watch for new messages.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit] </td> 
+   <td> <p>Set the maximum number of messages [!DNL Workfront Fusion] will return during one execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Search for Message]**
+
+This search module returns messages matching a search query.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Query]</td> 
+   <td> <p>Enter the query that you want to search by. </p> <p>For information on creating formulas from the mapping panel, see <a href="../../workfront-fusion/functions/map-using-functions.md" class="MCXref xref">Map items using functions in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit] </td> 
+   <td> <p>Set the maximum number of messages [!DNL Workfront Fusion] will return during one execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
+-->
+
++++ **[!UICONTROL Obter uma mensagem de canal privado]**
+
+Esse módulo de ação recupera os detalhes de uma mensagem de um canal selecionado.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL Slack] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL ID do canal]</p> </td> 
+   <td> <p>Insira (mapa) a ID do canal.</p> <p>Observação: A ID do canal pode ser recuperada usando o módulo [!UICONTROL List Channels].</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL ID da mensagem (Carimbo de data/hora)]</p> </td> 
+   <td> <p> Insira ou mapeie o carimbo de data e hora da mensagem sobre a qual deseja recuperar informações.</p> <p>Observação: O carimbo de data e hora pode ser recuperado usando-se outro módulo, como o módulo [!UICONTROL Watch Public Channel].</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Obter uma mensagem de canal público]**
+
+Esse módulo de ação retorna uma mensagem com uma determinada ID de um canal público especificado.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL Slack] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL ID do canal]</p> </td> 
+   <td> <p>Insira ou mapeie a ID do canal.</p> <p>Observação: A ID do canal pode ser recuperada usando o módulo [!UICONTROL List Channels].</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID da mensagem (Carimbo de data/hora)]</td> 
+   <td> <p> Insira ou mapeie o carimbo de data e hora da mensagem sobre a qual deseja recuperar informações.</p> <p>Observação: O carimbo de data e hora pode ser recuperado usando-se outro módulo, como o módulo [!UICONTROL Watch Public Channel].</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
+<!--
+
++++ **[!UICONTROL List replies]**
+
+This action module retrieves a thread of messages posted to a conversation.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Channel type]</td> 
+   <td>Select the type of channel that contains the message that you want to retrieve replies for, then select the channel.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Parent message ID (Time stamp)]</td> 
+   <td> <p> Enter or map the message time stamp of the message you want to retrieve replies for.</p> <p>Note: The time stamp can be retrieved using another module, such as the [!UICONTROL Watch Public Channel] module.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Enter or map the maximum number of replies you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
+-->
+
++++ **[!UICONTROL Criar uma mensagem]**
+
+Esse módulo de ação cria uma nova mensagem.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL Slack] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Inserir uma ID de canal ou nome]</p> </td> 
+   <td> <p>Escolha como deseja selecionar o canal em que deseja criar uma mensagem.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>No <strong>[!UICONTROL ID ou nome do canal]</strong> , insira ou mapeie a ID do canal ou o nome do canal em que deseja postar a mensagem.</p> <p>Observação: A ID do canal pode ser recuperada usando o módulo [!UICONTROL List Channels].</p> </li> 
+     <li> <p><strong>[!UICONTROL Selecionar na lista]</strong> </p> <p>Selecione o tipo de canal e selecione o canal .</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Texto]</p> </td> 
+   <td> <p>Insira o conteúdo do texto da mensagem que deseja criar.</p> <p>Observação: Para obter informações detalhadas sobre a formatação de texto, consulte <a href="https://api.slack.com/reference/surfaces/formatting">Formatação de texto para superfícies do aplicativo</a> no [!DNL Slack] documentação.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Blocos]</td> 
+   <td>Os blocos são componentes reutilizáveis que podem ser usados para personalizar e organizar suas mensagens. Para obter mais informações sobre blocos, consulte <a href="https://api.slack.com/block-kit">Kit de Bloco</a> no [!DNL Slack] documentação.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID da mensagem de encadeamento (carimbo de data e hora)]</td> 
+   <td>Se a nova mensagem for uma resposta, insira o carimbo de data e hora da mensagem que deseja responder. Não insira o carimbo de data/hora de uma mensagem que já seja uma resposta.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Responder transmissão]</td> 
+   <td> <p>Selecionar <strong>[!UICONTROL Sim]</strong> se ambas as condições se aplicarem:</p> 
+    <ul> 
+     <li> <p>A nova mensagem é uma resposta a outra mensagem</p> </li> 
+     <li> <p>A nova mensagem deve estar visível para todos no canal</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Nomes de links]</p> </td> 
+   <td> <p>Habilite esta opção para permitir que nomes e canais usem <code>@username</code> ou <code>#channel</code> formato. </p> <p>Para obter mais informações, consulte <a href="https://api.slack.com/docs/formatting">Formatação de texto para superfícies do aplicativo</a> no [!DNL Slack] documentação.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Analisar texto da mensagem]</p> </td> 
+   <td> <p>Ative essa opção para permitir a análise automática. </p> <p>Para obter mais informações, consulte <a href="https://api.slack.com/docs/formatting">Formatação de texto para superfícies do aplicativo</a> no [!DNL Slack] documentação.</p> <p>Observação: Se você usou as opções [!UICONTROL Link names] ou [!UICONTROL Parse message text] na mensagem original, também deve especificá-las ao executar o módulo [!UICONTROL Update a Message].</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Usar marcação]</p> </td> 
+   <td> <p>Habilite esta opção para permitir [!DNL Slack] para usar marcação no texto.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Descarregar principalmente conteúdo baseado em texto]</p> </td> 
+   <td> <p>Habilite essa opção para permitir a divulgação principalmente de conteúdo baseado em texto. </p> <p>Para obter mais informações sobre como fazer a liberação no [!DNL Slack], consulte <a href="https://api.slack.com/reference/messaging/link-unfurling">Desfazer links em mensagens</a> no [!DNL Slack] documentação.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Descarregar conteúdo de mídia]</p> </td> 
+   <td> <p>Habilite esta opção para permitir a despromoção do conteúdo de mídia. </p> <p>Para obter mais informações sobre como fazer a liberação no [!DNL Slack], consulte <a href="https://api.slack.com/reference/messaging/link-unfurling">Desfazer links em mensagens</a> no [!DNL Slack] documentação.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Atualizar uma mensagem]**
+
+Este módulo de ação permite editar uma mensagem existente.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL Slack] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Inserir uma ID de canal ou nome]</p> </td> 
+   <td> <p>Escolha como deseja selecionar a mensagem que deseja .</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>No <strong>[!UICONTROL ID ou nome do canal]</strong> , insira ou mapeie a ID do canal ou do canal que contém a mensagem e insira o <strong>[!UICONTROL Carimbo de data e hora (ID da mensagem)]</strong> da mensagem. .</p> <p>Observação: A ID do canal pode ser recuperada usando o módulo [!UICONTROL List Channels].</p> </li> 
+     <li> <p><strong>[!UICONTROL Selecionar na lista]</strong> </p> <p>Selecione o tipo de canal, selecione o canal e selecione a mensagem.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Texto]</p> </td> 
+   <td> <p>Insira o novo conteúdo de texto da mensagem que deseja atualizar.</p> <p>Para obter mais informações, consulte <a href="https://api.slack.com/docs/formatting">Formatação de texto para superfícies do aplicativo</a> no [!DNL Slack] documentação.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Blocos]</td> 
+   <td>Os blocos são componentes reutilizáveis que podem ser usados para personalizar e organizar suas mensagens. Para obter mais informações sobre blocos, consulte <a href="https://api.slack.com/block-kit">Kit de Bloco</a> no [!DNL Slack] documentação.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Nomes de links]</p> </td> 
+   <td> <p>Habilite esta opção para permitir que nomes e canais usem <code>@username</code> ou <code>#channel</code> formato. </p> <p>Para obter mais informações, consulte <a href="https://api.slack.com/docs/formatting">Formatação de texto para superfícies do aplicativo</a> no [!DNL Slack] documentação.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Analisar texto da mensagem]</p> </td> 
+   <td> <p>Ative essa opção para permitir a análise automática. </p> <p> Para obter mais informações, consulte <a href="https://api.slack.com/docs/formatting">Formatação de texto para superfícies do aplicativo</a> no [!DNL Slack] documentação.</p> <p>Observação: Se você usou as opções [!UICONTROL Link names] ou [!UICONTROL Parse message text] na mensagem original, você também deve especificá-las ao executar o módulo Atualizar uma mensagem.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Excluir uma mensagem]**
+
+Esse módulo de ação exclui uma mensagem especificada.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL Slack] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL ID do canal]</p> </td> 
+   <td> <p>Insira ou mapeie a ID do canal.</p> <p>Observação: A ID do canal pode ser recuperada usando o módulo [!UICONTROL List Channels].</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID da mensagem]</td> 
+   <td> <p> Insira ou mapeie o carimbo de data e hora da mensagem que deseja excluir.</p> <p>Observação: O carimbo de data e hora pode ser recuperado por meio de outro módulo, como o Watch Private Channel Module.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
+<!--
+
+### Files 
+
++++ **[!UICONTROL Watch Files]**
+
+This trigger module starts a scenario when a new file is added.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Type]</td> 
+   <td>Select the type of file that you want the module to watch.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Channel type]</td> 
+   <td> <p>Select the type of channel you want to watch for files, then select the channel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit] </td> 
+   <td> <p>Enter or map the maximum number of files you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL List Files]**
+
+This action module returns a list of files based on the specified filter.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Type] </td> 
+   <td> <p>Select the type(s) of files you want to retrieve.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Channel type]</p> </td> 
+   <td> <p>Select the type of channel representing the channel that you want to list files from, then select the channel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Created by]</td> 
+   <td> <p>Select a user to return only files created by that user.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Date from]</td> 
+   <td>Enter the earliest date that you want to return files from. For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref" data-mc-variable-override="">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Date to]</td> 
+   <td>Enter the latest date that you want to return files from. For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref" data-mc-variable-override="">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td>Enter or map the maximum number of files you want the module to return during each scenario execution cycle.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Get a File]**
+
+This action module returns details about the specified file.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL File ID]</td> 
+   <td> <p>Enter or map the ID of the file that you want to retrieve. </p> <p>Note: The file ID can be retrieved using another module, such as the [!DNL Watch Files] Module.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Download a File]**
+
+This action module downloads a file from a URL. It must follow the [!UICONTROL Slack] >[!UICONTROL Get a File] module in a scenario.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL URL private download]</td> 
+   <td> <p>Map the <b>[!UICONTROL URL Private download]</b> value from the [!DNL Slack] >[!UICONTROL Get a File] module.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Upload a File]**
+
+This action module creates or uploads a file to [!DNL Slack]
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Channels]</td> 
+   <td> <p>For each channel you want to upload the file to, click <b>[!UICONTROL Add item]</b>, then select the channel type and channel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
+   <td>Select a source file from a previous module, or map the source file's name and data.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Title]</td> 
+   <td>Enter a title for the file you want to upload</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Thread ID (timestamp)]</td> 
+   <td> <p>If you are uploading the file as a reply, enter or map the time stamp of the message you want to reply to.</p> <p>Note: The time stamp can be retrieved using another module, such as the [!UICONTROL Watch Private Channel] module.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Initial Comment]</td> 
+   <td> <p>Enter or map the text of the message that introduces the file.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Create a Text File]**
+
+This action module creates a text file.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Channels]</td> 
+   <td> <p>For each channel you want to upload the file to, click <b>[!UICONTROL Add item]</b>, then select the channel type and channel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
+   <td>Select a source file from a previous module, or map the source file's name and data.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Title]</td> 
+   <td>Enter a title for the file you want to upload</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Thread ID (timestamp)]</td> 
+   <td> <p>If you are uploading the file as a reply, enter or map the time stamp of the message you want to reply to.</p> <p>Note: The time stamp can be retrieved using another module, such as the[!UICONTROL  Watch Private Channel] module.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Initial Comment]</td> 
+   <td> <p>Enter or map the text of the message that introduces the file.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Delete a File]**
+
+This action module returns deletes the specified file.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL File ID]</td> 
+   <td> <p>Enter or map the ID of the file that you want to delete. </p> <p>Note: The file ID can be retrieved using another module, such as the [!DNL Watch Files] Module.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
+-->
+
+### Canais
+
++++ **[!UICONTROL Canais de lista]**
+
+Esse módulo de pesquisa retorna uma lista de todos os canais em um espaço de trabalho.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL Slack] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Excluir arquivado]</p> </td> 
+   <td> <p>Selecione [!UICONTROL Sim] para excluir canais arquivados nos resultados.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Tipo] </td> 
+   <td> <p>Selecione os tipos de canais que deseja recuperar.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limite] </td> 
+   <td> <p>Definir o número máximo de canais [!DNL Workfront Fusion] retornará durante um ciclo de execução.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Obter um canal]**
+
+Esse módulo de ação retorna informações sobre um canal de espaço de trabalho.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL Slack] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL ID do canal]</p> </td> 
+   <td> <p>Insira ou mapeie a ID do canal sobre o qual você deseja recuperar informações.</p> <p>Observação: A ID do canal pode ser recuperada usando o módulo [!UICONTROL List Channels].</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Listar membros no canal]**
+
+Este módulo de pesquisa retorna uma lista de usuários no canal selecionado.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL Slack] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Tipo de canal]</td> 
+   <td>Selecione o tipo de canal que contém a lista de membros que deseja listar.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Público] / [!UICONTROL Canal privado]</td> 
+   <td>Selecione o canal do qual deseja listar os membros.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limite] </td> 
+   <td> <p>Definir o número máximo de membros [!DNL Workfront Fusion] retornará durante um ciclo de execução.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
+<!--
+
++++ **[!UICONTROL Set the Topic of a Channel]**
+
+This action module changes the topic of a channel
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Channel type]</td> 
+   <td>Select the type of channel that you want to change the topic for.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Public] / [!UICONTROL Private] / [!UICONTROL Multiple IM Channel] / [!UICONTROL User]</td> 
+   <td>Select the channel or user that you want to change the topic for.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Topic]</td> 
+   <td>Enter or map the new topic of the channel. This field does not support formatting or links.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Set the Purpose of a Channel]**
+
+This action module changes the purpose of a channel
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Channel type]</td> 
+   <td>Select the type of channel that you want to change the purpose for.</td> 
+  </tr> 
+  <tr> 
+>[!MORELIKETHIS]
+>
+   <td role="rowheader">[!UICONTROL Public] / [!UICONTROL Private] / [!UICONTROL Multiple IM Channel] / User</td> 
+
+   <td>Select the channel or user that you want to change the purpose for.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Purpose]</td> 
+   <td>Enter or map the new purpose of the channel. This field does not support formatting or links.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Join a Channel]**
+
+This action module joins the user to a channel.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Channel ID]</p> </td> 
+   <td> <p>Enter or map the ID of the channel that you want to join.</p> <p>Note: The Channel ID can be retrieved using the [!UICONTROL List Channels] module.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Leave a Channel]**
+
+This action module removes the user from a channel.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Channel ID]</p> </td> 
+   <td> <p>Enter or map the ID of the channel that you want to leave.</p> <p>Note: The Channel ID can be retrieved using the [!UICONTROL List Channels] module.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Create a Channel]**
+
+This action module creates a new channel.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Name]</p> </td> 
+   <td> <p>Enter or map a name for the new channel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Is private]</td> 
+   <td>Enable this option to set the new channel as private.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Archive a Channel]**
+
+This action module archives a  channel.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Channel ID]</p> </td> 
+   <td> <p>Enter or map the ID of the channel that you want to archive.</p> <p>Note: The Channel ID can be retrieved using the [!UICONTROL List Channels] module.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Unarchive a Channel]**
+
+This action module unarchives a channel.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Channel ID]</p> </td> 
+   <td> <p>Enter or map the ID of the channel that you want to unarchive.</p> <p>Note: The Channel ID can be retrieved using the [!UICONTROL List Channels] module.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
+### Reactions
+
++++ **[!UICONTROL List reactions]**
+
+This action module returns reactions that a user made.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL User]</p> </td> 
+   <td> <p>Select the user that made the reactions that you want to list.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Enter or map the maximum number of reactions you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Add a reaction]**
+
+This action module adds a reaction to an item.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Channel type]</td> 
+   <td>Select the type of channel that you want to add a reaction to.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Public] / [!UICONTROL Private] / [!UICONTROL Multiple IM channel] / [!UICONTROL User]</td> 
+   <td>Select the channel or user that you want to add a reaction to.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Message ID]</td> 
+   <td> <p> Enter or map the time stamp of the message you want to add a reaction to.</p> <p>Note: The time stamp can be retrieved using another module, such as the [!UICONTROL Watch Private Channel] module.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Reaction (emoji) name]</td> 
+   <td>Enter or map the name of the emoji that you want to use for a reaction. Example: <code>thumbsup</code>. </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Remove a reaction]**
+
+This action module adds a reaction to an item.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Channel type]</td> 
+   <td>Select the type of channel that you want to remove a reaction from.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Public] / [!UICONTROL Private] / [!UICONTROL Multiple IM channel] / [!UICONTROL User]</td> 
+   <td>Select the channel or user that you want to add a reaction from.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Message ID]</td> 
+   <td> <p> Enter or map the time stamp of the message you want to add a reaction to.</p> <p>Note: The time stamp can be retrieved using another module, such as the [!UICONTROL Watch Private Channel] module.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Reaction (emoji) name]</td> 
+   <td>Enter or map the name of the emoji that you want to remove from the message. Example: <code>thumbsup</code>. </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
+### Stars 
+
++++ **[!UICONTROL Add a star]**
+
+This action module makes a channel a starred channel.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Channel type]</td> 
+   <td>Select the type of channel that you want to add a star to.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Public] / [!UICONTROL Private] / [!UICONTROL IM] / [!UICONTROL Multiple IM channel]</td> 
+   <td>Select the channel or user that you want to add a star to.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Remove a star]**
+
+This action module removed the star from a starred channel.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Channel type]</td> 
+   <td>Select the type of channel that you want to add a star to.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Public] / [!UICONTROL Private] / [!UICONTROL IM] / [!UICONTROL Multiple IM channel]</td> 
+   <td>Select the channel or user that you want to add a star to.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
+### Saved Items
+
++++ **[!UICONTROL Save an Item]**
+
+This action module adds an item to saved items.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Message ID (Time stamp)]</td> 
+   <td> <p> Enter or map the time stamp of the message you want to save.</p> <p>Note: The time stamp can be retrieved using another module, such as the [!UICONTROL Watch Private Channel] module.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL File ID]</td> 
+   <td> <p>Enter or map the file that you want to save.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Remove Saved Item]**
+
+This action module adds an item to saved items.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Message ID (Time stamp)]</td> 
+   <td> <p> Enter or map the time stamp of the message you want to remove from saved items.</p> <p>Note: The time stamp can be retrieved using another module, such as the [!UICONTROL Watch Private Channel] module.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL File ID]</td> 
+   <td> <p>Enter or map the file you want to remove from saved items.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
+### Pins
+
++++ **[!UICONTROL Pin an Item]**
+
+This action module pins an item, such as a file or file comment, to a channel.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Channel type]</td> 
+   <td>Select the type of channel that you want to pin an item to.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Public] / [!UICONTROL Private] / [!UICONTROL Multiple IM channel] / [!UICONTROL User]</td> 
+   <td>Select the channel or user that you want to pin an item to.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Message ID]</td> 
+   <td> <p> Enter or map the time stamp of the message you want to pin.</p> <p>Note: The time stamp can be retrieved using another module, such as the [!UICONTROL Watch Private Channel] module.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Unpin an Item]**
+
+This action module unpins an item from a channel. You can unpin files, file comments, channel messages, or group messages.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Channel type]</td> 
+   <td>Select the type of channel that you want to unpin an item from.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Public] / [!UICONTROL Private] / [!UICONTROL Multiple IM channel] / [!UICONTROL User]</td> 
+   <td>Select the channel or user that you want to unpin an item from.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Message ID]</td> 
+   <td> <p> Enter or map the time stamp of the message you want to unpin.</p> <p>Note: The time stamp can be retrieved using another module, such as the [!UICONTROL Watch Private Channel] module.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
+### Users 
+
++++ **[!UICONTROL Watch Users]**
+
+This trigger module starts the scenario when a new user is added to the [!DNL Slack] workspace.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit] </td> 
+   <td> <p>Set the maximum number of users [!DNL Workfront Fusion] will return during one execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Search for User]**
+
+This action module retrieves details about a single user, by using their email address.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Email] </p> </td> 
+   <td> <p>Enter or map the email address of the user you want to retrieve details about.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL List Users]**
+
+This action module returns a list of all users in a workspace.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Limit]</p> </td> 
+   <td> <p>Enter or map the maximum number of users you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Get a User]**
+
+This action module retrieves details about a member of a workspace.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL User ID]</p> </td> 
+   <td> <p>Enter or map the User ID of the user you want to retrieve details for.</p> <p>Note: The User ID can be retrieved using another module, such as the [!DNL List Users] module.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Invite Users]**
+
+This action module invites 1-30 users to a public or private channel.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Channel type]</td> 
+   <td>Select the type of channel that you want invite users to.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Public] / [!UICONTROL Private] / [!UICONTROL Multiple IM channel] / [!UICONTROL User]</td> 
+   <td>Select the channel or user that you want to invite users to.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Users]</td> 
+   <td> <p>Select the users that you want to add to the channel.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Kick a User]**
+
+This action module removes a user from a channel.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Channel type]</td> 
+   <td>Select the type of channel that you want remove a user from.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Public] / [!UICONTROL Private channel]</td> 
+   <td>Select the channel that you want to remove a user from.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Users]</td> 
+   <td> <p>Select the user that you want to remove from the channel.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
+### Reminders
+
++++ **[!UICONTROL List Reminders]**
+
+This action module returns a list of all reminders created by or given to the currently authenticated user.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Limit]</p> </td> 
+   <td> <p>Enter or map the maximum number of reminders you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Get a Reminder]**
+
+This action module retrieves details about a specific reminder.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Reminder ID]</p> </td> 
+   <td> <p>Enter or map the Reminder ID of the reminder you want to retrieve details for.</p> <p>Note: The Reminder ID can be retrieved using another module, such as the [!UICONTROL List Reminders] module.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Create a Reminder]**
+
+This action module creates a reminder.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Text]</td> 
+   <td>Enter or map the content of the reminder</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Time]</td> 
+   <td> <p>Enter or map the date and time when this reminder should happen. Enter one of the following: </p> 
+    <ul> 
+     <li> <p>The Unix timestamp (up to five years from now)</p> </li> 
+     <li> <p>The number of seconds until the reminder (if within 24 hours) </p> </li> 
+     <li> <p>A natural language description (Examples: "in 15 minutes" or "every Thursday")</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL User] </p> </td> 
+   <td> <p>Select the user that receives the reminder.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Complete a Reminder]**
+
+This action module completes a specific reminder.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Reminder ID]</p> </td> 
+   <td> <p>Enter or map the Reminder ID of the reminder you want to complete.</p> <p>Note: The Reminder ID can be retrieved using another module, such as the [!UICONTROL List Reminders] module.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++ **[!UICONTROL Delete a Reminder]**
+
+This action module deletes a specific reminder.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Reminder ID]</p> </td> 
+   <td> <p>Enter or map the Reminder ID of the reminder you want to delete.</p> <p>Note: The Reminder ID can be retrieved using another module, such as the [!UICONTROL List Reminders] module.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
+### Events
+
++++ **[!UICONTROL New Event]**
+
+This instant trigger starts a scenario when a new message or other event is created.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Webhook]</p> </td> 
+   <td> <p>Select the webhook you want to use.</p> <p>Or</p> <p>Create a new webhook.</p> 
+    <ol> 
+     <li value="1"> <p>Click <b>[!UICONTROL Add]</b>.</p> </li> 
+     <li value="2"> <p>Select the event type.</p> </li> 
+     <li value="3"> <p>Select or add a connection. For instructions about connecting your [!DNL Slack] account to [!UICONTROL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!UICONTROL Adobe Workfront Fusion] - Basic instructions</a></p> </li> 
+     <li value="4"> <p>If prompted, select the channel that you want to watch.</p> </li> 
+     <li value="5"> <p>Click <b>[!UICONTROL Save]</b> to save the webhook and return to the module.</p> </li> 
+    </ol> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
+### Profile
+
++++ **[!UICONTROL Set a status]**
+
+This action module updates a user's current status.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Slack] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Status text]</p> </td> 
+   <td> <p>Enter or map the status text. Consider the following:</p> 
+    <ul> 
+     <li> <p>You can enter up to 100 characters.</p> </li> 
+     <li> <p>You can use markup or other formatting, such as user mentions.</p> </li> 
+     <li> <p>You can include emojis in the status text by using the format <code>:emojiname:</code>.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Status Emoji]</td> 
+   <td> <p>Enter or map the emoji that you want to use to represent your status. Use the format <code>:emojiname:</code>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Status expiration]</td> 
+   <td>Enter or map the date and time you want the status to expire. For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref" data-mc-variable-override="">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
+-->
+
+### Outro
+
++++ **[!UICONTROL Faça uma chamada de API]**
+
+Esse módulo de ação permite que você faça uma chamada autenticada personalizada para o [!DNL Slack] API. Dessa forma, você pode criar uma automação de fluxo de dados que não pode ser realizada pela outra [!DNL Slack] módulos.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL Slack] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL URL]</td> 
+   <td>Insira um caminho relativo a <code>https://slack.com/api/</code>. Exemplo: <code>/users/identity</code>.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Método]</td> 
+   td&gt; <p>Selecione o método de solicitação HTTP que você precisa configurar a chamada da API. Para obter mais informações, consulte <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitação HTTP em [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Cabeçalhos]</td> 
+   <td> <p>Adicione os cabeçalhos da solicitação no formato de um objeto JSON padrão.</p> <p>Por exemplo, <code>{"Content-type":"application/json"}</code></p> <p>O [!UICONTROL Workfront Fusion] adiciona os cabeçalhos de autorização para você.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Sequência de consulta]</td> 
+   <td> <p>Adicione a query para a chamada de API no formato de um objeto JSON padrão.</p> <p>Por exemplo: <code>{"name":"something-urgent"}</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Corpo]</td> 
+   <td> <p>Adicione o conteúdo do corpo para a chamada da API no formato de um objeto JSON padrão.</p> <p>Nota:  <p>Ao usar declarações condicionais como <code>if</code> no JSON, coloque as aspas fora da declaração condicional.</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL URL base]</td> 
+   <td>Selecione o URL base que deseja usar para a chamada da API.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
+## Terminologia
+
+A seguinte terminologia pode ser útil ao configurar [!DNL Slack] módulos:
+
+* **DM**: [!UICONTROL Mensagem direta]
+* **IM**: [!UICONTROL Mensagem instantânea]
+* **Canal privado**: former [!UICONTROL Grupo]
+* **Mensagem direta**: former [!UICONTROL IM]
+* **Canal**: [!UICONTROL Conversa] na documentação da API, [!UICONTROL canal] no [!DNL Slack] aplicativo.

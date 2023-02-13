@@ -1,0 +1,110 @@
+---
+product-area: resource-management
+navigation-topic: resource-planning
+title: Compartilhar a visualização do usuário do Resource Planner com um link
+description: O Adobe Workfront pode gerar um URL exclusivo para a Visualização de Usuário do Planejador de Recursos, que pode ser incorporado em um painel como uma Página Externa, ou abri-lo separadamente em uma nova guia do navegador. Isso é útil ao compartilhar as informações do Planejador de Recursos com usuários que podem não ter acesso direto à área Recursos.
+author: Alina
+feature: Resource Management
+exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
+source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+workflow-type: tm+mt
+source-wordcount: '708'
+ht-degree: 0%
+
+---
+
+# Compartilhar a visualização do usuário do Resource Planner com um link
+
+O Adobe Workfront pode gerar um URL exclusivo para a Visualização de Usuário do Planejador de Recursos, que pode ser incorporado em um painel como uma Página Externa, ou abri-lo separadamente em uma nova guia do navegador. Isso é útil ao compartilhar as informações do Planejador de Recursos com usuários que podem não ter acesso direto à área Recursos.
+
+![](assets/rp-user-view-with-link-highlight-350x49.png)
+
+## Requisitos de acesso
+
+Você deve ter o seguinte:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Plano Adobe Workfront*</td> 
+   <td> <p>Pro e superior</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td> <p>Plano </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurações de nível de acesso*</td> 
+   <td> <p>Visualizar ou obter mais acesso ao Gerenciamento de recursos, Projetos e Usuários</p> <p>Exibir o acesso aos Dados Financeiros para exibir informações de custo </p> <p><b>OBSERVAÇÃO</b> Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Permissões de objeto</td> 
+   <td> <p>Exibir permissões ou permissões superiores aos projetos que você deseja exibir no Planejador de Recursos</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+
+
+Considere o seguinte ao gerar o URL exclusivo para a Exibição de Usuário do Planejador de Recursos:
+
+* Você pode obter um URL exclusivo somente para a Exibição do usuário. A opção para gerar o URL não existe no Projeto ou nas Exibições de função.
+* Você pode compartilhar o URL com outros usuários, incluindo usuários licenciados do Work and Review .\
+   Eles devem ter acesso para visualizar outros usuários para visualizar as informações no Planejador de Recursos do URL que você compartilha com eles.
+* As seguintes informações são salvas quando você compartilha o URL com outros usuários:
+
+   * O tipo de período (semana, mês, trimestre).
+   * Os filtros que você aplica.
+   * O tipo de exibição (Horas ou FTE).
+
+Para obter um URL exclusivo na Visualização de usuário do Planejador de Recursos e compartilhá-lo com outros usuários:
+
+1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
+
+1. Clique em **Recursos**.
+1. Em , selecione **Exibir por usuário**.
+1. (Opcional) Selecione o período pelo qual deseja exibir as informações no Planejador de Recursos. Selecione uma das opções a seguir:
+
+   * Semana
+   * Mês
+   * Trimestre
+
+1. (Opcional) Selecione se deseja exibir as informações por **FTE** ou **Horas**.\
+   ![RP_hours_or_fte_in_user_view.png](assets/rp-hours-or-fte-in-user-view.png)
+
+1. (Opcional) Aplique filtros ao Planejador de Recursos.\
+   Para obter informações sobre como aplicar filtros, consulte [Filtrar informações no Planejador de Recursos](../../resource-mgmt/resource-planning/filter-resource-planner.md) .
+
+1. Clique no botão **hiperlink** ícone .\
+   ![RP_Storm_generate_URL_with_copy_URL_link.png](assets/rp-storm-generate-url-with-copy-url-link-350x182.png)
+
+1. Clique em **Copiar URL**.\
+   Isso copia o URL exclusivo do Planejador de recursos na Visualização de usuário para a área de transferência.
+
+1. (Opcional) Siga um destes procedimentos:  
+
+   * Cole o URL em outro aplicativo para enviá-lo a outro usuário.\
+      O usuário deve estar conectado ao Workfront para exibir o Planejador de Recursos na exibição Usuário.
+   * Abra uma nova guia ou janela do navegador e cole o link copiado, em seguida, clique em Enter no teclado para abrir o Planejador de Recursos em uma nova guia ou janela.
+   * Faça o seguinte:
+
+      <!--   
+     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
+     (NOTE:&nbsp;turn this into a numbered list)   
+     </MadCap:conditionalText>   
+     -->
+
+      1. Ir para **Relatório**>**Painéis**>**Novo painel**>**Adicionar página externa.**
+
+      1. Cole o link copiado para a área de transferência no **URL** campo.
+      1. Clique em **Salvar**, em seguida **Salvar + Fechar**.\
+         Isso incorporará o URL ao painel e a exibição Usuário do Planejador de Recursos será exibida em um painel separado.
+
+1. (Opcional) Se você tiver incorporado o URL em um painel, considere adicioná-lo a um modelo de layout ou compartilhá-lo com outros usuários que podem não ter acesso à área de Gerenciamento de recursos.\
+   Para obter informações sobre como adicionar painéis a um modelo de layout, consulte [Criar e gerenciar modelos de layout](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) .\
+   Para obter informações sobre compartilhamento de painéis, consulte [Compartilhar um painel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md) .\
+   Ao visualizar o URL compartilhado, os usuários podem ver as informações com as configurações que você aplicou originalmente ao Planejador de Recursos. Eles devem estar conectados ao Workfront para exibir o URL compartilhado.\
+   ![user_view_dashoard_from_unique_url.png](assets/user-view-dashoard-from-unique-url-350x85.png)

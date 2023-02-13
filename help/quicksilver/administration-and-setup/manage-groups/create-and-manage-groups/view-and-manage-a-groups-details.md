@@ -1,0 +1,109 @@
+---
+title: Exibir e gerenciar os detalhes de um grupo
+description: Você pode exibir e editar a página Detalhes do grupo para um grupo ou subgrupo que gerencia.
+author: Caroline
+feature: System Setup and Administration, People Teams and Groups
+role: Admin
+exl-id: edd2c58a-f912-4638-b6a3-ff3b1b622f48
+source-git-commit: fe399743ee495334face9d4d632686d9472bc8ef
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 1%
+
+---
+
+# Exibir e gerenciar os detalhes de um grupo
+
+Você pode exibir e editar a página Detalhes do grupo para um grupo ou subgrupo que gerencia. Esta página inclui:
+
+* Uma descrição do grupo
+* Os nomes do Líder Empresarial e dos Administradores do Grupo
+* Uma opção que permite tornar o grupo e seus subgrupos públicos ou privados
+
+   <!--
+  <li>An option that allows you to deactivate or reactivate a group and its subgroups.
+  DRAFTED IN FLARE:
+  Make this change when Callisto adds the
+  <b>Is active</b>
+   option to the Details pag
+  </li>
+  -->
+
+Para obter informações sobre outras maneiras de gerenciar um grupo, consulte [Criar um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+
+Para obter informações sobre como desativar ou reativar um grupo, consulte [Desativar ou reativar um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+
+<!--
+DRAFTED IN FLARE:
+Delete this paragraph when Callisto adds the
+<b>Is active</b>
+ option to the Details pag
+-->
+
+## Requisitos de acesso
+
+Você deve ter o seguinte para executar as etapas neste artigo:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Plano Workfront*</td> 
+   <td>Qualquer Um</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td> <p>Plano </p> <p>Você deve ser um administrador de grupo do grupo ou um administrador do Workfront. Para obter mais informações, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores do grupo</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder ao usuário acesso administrativo total</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Se precisar descobrir qual plano ou tipo de licença você tem, entre em contato com o administrador da Workfront.
+
+## Exibir e gerenciar os detalhes de um grupo
+
+1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, em seguida, clique em **Configuração** ![](assets/gear-icon-settings.png).
+
+1. Clique em **Grupos**.
+
+   Na lista que é exibida, é possível ver os grupos gerenciados, juntamente com os subgrupos que eles possuem. Os administradores do Adobe Workfront podem visualizar todos os grupos.
+
+1. Clique no nome do grupo de nível superior que deseja editar.
+1. Se você deseja desativar ou reativar o grupo,
+1. No menu esquerdo, clique em **Detalhes do grupo**, em seguida, execute um dos seguintes procedimentos:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Descrição</td> 
+      <td> <p>É possível digitar até 512 caracteres.</p> <p>Se o campo estiver em branco, clique em <strong>Adicionar</strong> para digitar uma descrição.</p> </td> 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Está ativo</td> 
+      <td> <p>(Ativado por padrão) Torna o grupo ativo na instância do Workfront.</p> <p>Em campos do tipo forward como o mostrado abaixo, quando usuários regulares pesquisam um grupo para anexá-lo a um objeto ou para compartilhar um objeto com ele, somente grupos ativos são exibidos na lista.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Para simplificar isso para seus usuários, você pode desativar a opção Está ativo para grupos que não estão em uso no momento.</p> <p>É possível exibir, filtrar e agrupar facilmente a lista de Grupos com base no status ativo ou inativo usando esse campo. Para obter informações sobre o uso de exibições, filtros e agrupamentos em listas, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Elementos de relatório: filtros, visualizações e agrupamentos</a>.</p> <p>Para obter informações sobre grupos inativos, consulte a seção <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md#inactive" class="MCXref xref">Considerações para grupos inativos</a> no artigo <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md" class="MCXref xref">Excluir ou desativar um formulário personalizado</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Acessibilidade de grupo</td> 
+      <td> <p>(Disponível somente se você estiver visualizando Detalhes de um grupo, não de um subgrupo.) Ative ou desative a opção <strong>Tornar este grupo e subgrupos privados</strong>.</p> <p>Para um grupo público, qualquer usuário (dentro ou fora do grupo) que tenha acesso de usuário de edição pode adicionar o grupo ao perfil de outros usuários. Eles não podem fazer isso por um grupo privado.</p> <p>Você pode editar essa opção somente no grupo principal superior em uma hierarquia de grupos que tenha mais de um nível. Todos os subgrupos do grupo pai herdam sua configuração.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Partes interessadas do grupo</td> 
+      <td> 
+       <ul> 
+        <li><strong>Administradores de grupo</strong>: Adicione ou remova usuários com uma licença do Planejador como administradores de grupo do grupo. Comece a digitar o nome de um usuário e clique no nome quando ele for exibido no menu suspenso.</li> 
+        <li><strong>Líder da empresa</strong>: Siga um destes procedimentos:
+         <ul>
+          <li>Se você ainda não atribuiu um Líder de Negócios para o grupo, clique em <strong>Adicionar</strong>, comece digitando o nome do usuário que deseja atribuir e clique no nome da pessoa quando ele for exibido.</li>
+          <li>Se o grupo já tiver um Líder de Negócios e você quiser alterá-lo, clique duas vezes no nome do Líder de Negócios existente. Exclua o nome, comece a digitar o nome do usuário que deseja atribuir e clique no nome da pessoa quando ele for exibido.</li>
+         </ul></li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Adicionar um formulário personalizado</td> 
+      <td>Se o nível de acesso permitir gerenciar formulários personalizados, adicione um formulário personalizado ao grupo. Para obter mais informações, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Formulários personalizados</a>.</td> 
+     </tr> 
+    </tbody> 
+   </table>
