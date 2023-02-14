@@ -7,14 +7,18 @@ description: Você pode converter um email externo (não gerado por [!DNL Adobe 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
 
 # Crie um [!DNL Adobe Workfront] problema em [!DNL G Suite] uso de conteúdo de email
+
+>[!NOTE]
+>
+>Existe um [problema conhecido](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) com a versão atual de [!DNL Workfront for G Suite] não funciona conforme o esperado. Estamos trabalhando em uma nova versão e esperamos que ela seja lançada para o [!DNL Google Marketplace] num futuro próximo.
 
 Você pode converter um email externo (não gerado por [!DNL Adobe Workfront]) a um [!DNL Workfront] problema.
 

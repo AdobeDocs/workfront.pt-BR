@@ -7,14 +7,18 @@ description: Você pode acessar seu [!DNL Adobe Workfront] Conteúdo doméstico,
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
 # Acesso [!DNL Adobe Workfront] [!UICONTROL Início] conteúdo de [!DNL G Suite]
+
+>[!NOTE]
+>
+>Existe um [problema conhecido](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) com a versão atual de [!DNL Workfront for G Suite] não funciona conforme o esperado. Estamos trabalhando em uma nova versão e esperamos que ela seja lançada para o [!DNL Google Marketplace] num futuro próximo.
 
 Você pode acessar seu [!DNL Adobe Workfront] [!UICONTROL Início] conteúdo, incluindo todas as tarefas, emissões, aprovações e solicitações de acesso atribuídas a você, sem sair do G Suite.
 

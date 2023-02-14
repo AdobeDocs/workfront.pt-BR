@@ -7,14 +7,18 @@ description: No G Suite, ao abrir um Adobe de email de notificação [!DNL Workf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
 
 # Gerenciar [!DNL Adobe Workfront] detalhes de notificação de [!DNL G Suite]
+
+>[!NOTE]
+>
+>Existe um [problema conhecido](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) com a versão atual de [!DNL Workfront for G Suite] não funciona conforme o esperado. Estamos trabalhando em uma nova versão e esperamos que ela seja lançada para o [!DNL Google Marketplace] num futuro próximo.
 
 Em [!DNL G Suite], ao abrir um email de notificação [!DNL Adobe Workfront] tiver enviado, você poderá visualizar os detalhes do item de trabalho associado e responder sem sair de [!UICONTROL Caixa de entrada]. Se ações estiverem disponíveis, como a aprovação de uma solicitação, você pode executar essas ações diretamente de [!DNL Workfront for G Suite].
 
