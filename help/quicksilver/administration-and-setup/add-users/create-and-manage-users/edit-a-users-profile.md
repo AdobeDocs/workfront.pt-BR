@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Como administrador do Adobe Workfront, você pode criar novos usuários e gerenciar os perfis dos existentes.
-author: Caroline
+author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 1ebdb3797e30a7e06f4dfd4a7e0e5f540351c126
+source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
 workflow-type: tm+mt
 source-wordcount: '2557'
 ht-degree: 0%
@@ -16,6 +16,42 @@ ht-degree: 0%
 ---
 
 # Editar o perfil de um usuário
+
+<!--drafted for Work Time field: 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+
+In the table below, under Resource Planning, add the "Work Time" field and update the "FTE" field:
+
+<b><span class="preview">Work Time</span></b>: <span class="preview">Represents the percentage of the Full Time Equivalent (FTE) time that the user is available for actual work, not including overhead. Work Time must be a decimal number up to 1, and it cannot be 0. For example, a 20% availability for actual work would be 0.2.</span> 
+
+<span class="preview">The field's default is 1, indicating that a user spends their entire FTE on actual, project-related work.</span>  
+
+<span class="preview">The system uses this number to calculate the availability of the user for actual, project-related work.</span> 
+
+<span class="preview">For more information about creating schedules in Workfront, see Create a schedule.</span>
+
+<span class="preview">Schedule exceptions and time off might also affect the user capacity. 
+
+Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area. For more information, see Configure Resource Management preferences. (*****INSERT LINK****)
+
+
+***UPDATED FTE FIELD***
+
+FTE: This is the Full Time Equivalent of the user. Workfront uses this number to calculate the availability of the user based on the Default Schedule only when the Resource Management Preferences at the system level are set to The Default Schedule. The FTE indicates the amount of time that the user can spend at work. This includes overhead, and  time that is not spent on project work, but on other type of work. For example, time that is spent in meetings, or training is also included in the FTE. 
+
+The FTE must be a decimal number up to 1, and it cannot be 0. 
+The field's default is 1.
+
+For example, if the FTE value is 0.5 and the Default Schedule in Workfront is 40 hours, the user is available for 20 hours a week. 
+
+Schedule exceptions, time off might, <span class="preview">and the value of Work Time</span> may affect the amount of available hours or the FTE. 
+
+Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area. For more information, see Configure Resource Management preferences. (*****INSERT LINK****)
+
+If the Resource Management Preferences at the system level are set to The User's Schedule, the value you specify here is ignored and the user is considered to be available according to what is specified in their schedule. 
+
+For more information about creating schedules in Workfront, see Create a schedule. (*****INSERT LINK*****)
+-->
 
 >[!IMPORTANT]
 >
@@ -132,7 +168,7 @@ Você deve ter o seguinte para executar as etapas neste artigo:
      <tr> 
       <td role="rowheader">Planejamento de recursos </td> 
       <td> 
-       <ul> 
+       <ul>
        <li><b>Agendar desativação</b>: Marque essa caixa se desejar agendar a desativação deste usuário após um período de tempo. </li> 
        <li><b>Data de desativação programada</b>: A data após a qual o usuário se torna desativado. Para obter informações sobre como programar usuários para desativação, consulte o <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Agendar usuários para desativação</a> em <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Desativar ou reativar um usuário</a>.</li> 
        <li> <p><b>Função principal</b>: Essa é a função de trabalho principal que o usuário pode atender no Workfront. Todas as tarefas e problemas que o usuário está atribuído também são atribuídos a essa função de trabalho. As funções de trabalho são essenciais no gerenciamento de recursos. Você pode atualizar este campo somente se tiver uma licença do Plan com acesso administrativo de usuário ou se for um administrador do Workfront. Para obter mais informações sobre como configurar usuários com acesso administrativo, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> <p>Somente as funções de trabalho ativas são exibidas na lista. </p> </li> 

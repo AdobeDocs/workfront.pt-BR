@@ -5,7 +5,7 @@ description: Como parte do planejamento de recursos, você pode usar o Planejado
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 0%
@@ -13,6 +13,10 @@ ht-degree: 0%
 ---
 
 # Recursos de orçamento no Caso de negócios usando o Planejador de recursos
+
+<!--drafted for the Budgeted Hours story: 
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 Como parte do planejamento de recursos, você pode usar o Planejador de Recursos no nível do projeto para orçar as funções de trabalho necessárias para concluir o trabalho em um projeto ao criar o caso comercial.
 
@@ -169,3 +173,7 @@ Para aplicar Pools de Recursos e recursos de projeto de orçamento no Caso de Ne
    O custo é exibido no Caso de negócios na moeda do projeto.
 
    As informações de orçamento especificadas no Caso de Negócios também são exibidas no Planejador de Recursos.
+
+   <!--drafted for Budgeted Hours: 
+   <span class="preview">When you copy a project, you have the option to also copy the Budgeted Hours to the new project. Only hours budgeted in the Resource Planner are copied. For more information, see [Copy a project](../manage-projects/copy-project.md)</span>
+   -->

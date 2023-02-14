@@ -5,14 +5,18 @@ description: Como parte do planejamento de recursos, você pode usar o Planejado
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: ffd7a588c0c9449b7a6aa18e6df7baa7c9872926
+source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
 
 # Recursos de orçamento no Caso de negócios usando o Planejador de cenário
+
+<!--drafted for the Budgeted Hours story: 
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 Como parte do planejamento de recursos, você pode usar o Planejador de Cenários da Adobe Workfront para orçar as funções de trabalho necessárias para concluir o trabalho em um projeto ao criar o caso comercial.
 
@@ -126,15 +130,19 @@ Você pode orçar seus recursos por um período de 15 anos. Se você orçar recu
 
       ![](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
 
-      O Workfront usa as horas necessárias da função de cargo a partir da iniciativa vinculada para calcular o Custo de Mão de obra Orçada do projeto. Essa é a opção recomendada. O custo é exibido no Caso de negócios na moeda do projeto.
+      O Workfront usa as horas necessárias da função de cargo a partir da iniciativa vinculada para calcular o Custo da Mão de obra Orçada e as Horas Orçadas do projeto. Essa é a opção recomendada. O custo é exibido no Caso de negócios na moeda do projeto.
 
-      >[!IMPORTANT]
-      Quando você usa o Planejador de Cenário para orçar recursos para o projeto, o Custo da Mão-de-Obra Orçada é exibido nas seguintes áreas do Workfront:
-      * Área do Orçamento dos Recursos do Caso de Negócios
-      * O Planejador de Cenário no nível do sistema como o Custo de Pessoas da iniciativa vinculada ao projeto. Para obter mais informações, consulte [Criar e editar iniciativas no Planejador de Cenário](../../../scenario-planner/create-and-edit-initiatives.md).
+      <!--drafted for Budgeted Hours:
+   <span class="preview">Ao copiar um projeto e optar por copiar as Horas Orçadas para o novo projeto, as horas orçadas usando o Planejador de Cenário não são copiadas para o novo projeto. Somente as horas orçadas no Planejador de Recursos são copiadas. Para obter mais informações, consulte [Copiar um projeto](../manage-projects/copy-project.md)</span>
+—>
+
+   >[!IMPORTANT]
+   Quando você usa o Planejador de Cenário para orçar recursos para o projeto, o Custo da Mão-de-Obra Orçada é exibido nas seguintes áreas do Workfront:
+   * Área do Orçamento dos Recursos do Caso de Negócios
+   * O Planejador de Cenário no nível do sistema como o Custo de Pessoas da iniciativa vinculada ao projeto. Para obter mais informações, consulte [Criar e editar iniciativas no Planejador de Cenário](../../../scenario-planner/create-and-edit-initiatives.md).
 
 
-1. (Opcional) Clique em **Exibir no Planejador de Cenário** abrir o plano que contém a iniciativa ligada ao projeto. Isso abre o Planejador de cenário em uma nova guia do navegador.
+1. (Opcional) Clique em **Exibir no Planejador de Cenário** abrir o plano que contém a iniciativa ligada ao projeto. Isso abre o Planejador de cenário em uma nova guia do navegador.
 1. (Opcional) Atualize as informações sobre a iniciativa. Para obter mais informações, consulte [Criar e editar iniciativas no Planejador de Cenário](../../../scenario-planner/create-and-edit-initiatives.md).
 
    >[!NOTE]
