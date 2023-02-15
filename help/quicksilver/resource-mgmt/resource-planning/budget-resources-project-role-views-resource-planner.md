@@ -6,9 +6,9 @@ description: Você pode orçar recursos no Planejador de Recursos do Adobe Workf
 author: Alina
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2160'
 ht-degree: 0%
 
 ---
@@ -146,6 +146,8 @@ Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele defi
    Para obter mais informações sobre como entender a área de Orçamento de Recursos do Caso de Negócios, consulte a seção &quot;Orçamento de Recursos&quot; no artigo [Visão geral das áreas do caso comercial](../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
 1. (Opcional) Selecione a Visualização de usuário para notar qualquer sobrecarga ou subutilização de usuário entre as Horas Disponíveis e Planejadas para cada usuário. As Horas Orçadas não estão visíveis na exibição Usuário.
+
+   Para obter informações sobre como o Workfront calcula a disponibilidade de um usuário, consulte [Configurar preferências do Gerenciamento de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ### Recursos de orçamento na exibição Função {#budget-resources-in-the-role-view}
 

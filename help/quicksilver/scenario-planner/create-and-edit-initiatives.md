@@ -6,9 +6,9 @@ description: Ao usar o Adobe Workfront Scenario Planner, você pode criar inicia
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -133,13 +133,18 @@ Para criar iniciativas do zero:
      </tr> 
      <tr> 
       <td role="rowheader">Seção Funções de Trabalho Obrigatórias </td> 
-      <td> <p>Clique no botão <strong>[!UICONTROL Iniciar a digitação da função de trabalho]</strong> e selecione uma função na lista ou comece a digitar o nome de um<span>n ativo</span> função profissional. </p> <p><span>Dependendo se o plano está configurado para usar FTEs ou horas,</span> adicionar o número de funções necessárias para esta iniciativa em FTE <span><span>ou horas</span></span><span> para cada mês na iniciativa</span>. <span>Os três primeiros meses da iniciativa são exibidos por padrão.</span></p> <p><span>Atualizar as informações de função de cargo para a iniciativa também atualiza as informações de função de cargo Obrigatório para o plano.</span> </p> <p>Para obter informações sobre como configurar o plano para usar FTE ou horas, consulte <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Crie e edite planos na [!DNL Scenario Planner]</a>. </p> <p>Dica:  
-        <ul> 
-         <li> <p><span>Use a tecla [!UICONTROL Tab] para ir para o mês seguinte.</span> </p> </li> 
-         <li> <p> Todos <span>ative</span> as funções de trabalho no sistema são listadas ao clicar neste campo. </p> </li> 
-         <li> <p>As funções de job que já foram adicionadas às funções de job Disponíveis do plano são exibidas primeiro. Para obter informações sobre como adicionar funções de job disponíveis a um plano, consulte <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Criar e editar planos no Planejador de Cenário</a>. </p> </li> 
-         <li> <p>[!DNL Workfront] considera que um equivalente a tempo inteiro é de 160 horas por mês. </p> </li> 
-        </ul> </p> <p>Você pode inserir um número menor que 1 FTE ou números decimais para FTE <span>ou</span> <span data-mc-edit-date="2021-04-22T16:51:21.5923499-04:00" data-mc-editor="alinawilson" data-mc-comment=" yellow" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2021-04-19T13:45:00.3159349-04:00">horas</span>. Por exemplo, uma função de consultor de 0,5 significaria que um consultor dedicaria metade de seu FTE (normalmente, 4 horas, onde 8 horas é 1 FTE) a trabalhar nesta iniciativa. </p> <p>Para todos os cálculos no Planejador de Cenário, o Workfront usa o seguinte valor: 1 FTE = 8 Horas. </p> </td> 
+      <td> <p>Clique no botão <strong>[!UICONTROL Iniciar a digitação da função de trabalho]</strong> e selecione uma função na lista ou comece a digitar o nome de um<span>n ativo</span> função profissional. </p> <p><span>Dependendo se o plano está configurado para usar FTEs ou horas,</span> adicionar o número de funções necessárias para esta iniciativa em FTE <span><span>ou horas</span></span><span> para cada mês na iniciativa</span>. <span>Os três primeiros meses da iniciativa são exibidos por padrão.</span></p> <p><span>Atualizar as informações de função de cargo para a iniciativa também atualiza as informações de função de cargo Obrigatório para o plano.</span> </p> <p>Para obter informações sobre como configurar o plano para usar FTE ou horas, consulte <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Crie e edite planos na [!DNL Scenario Planner]</a>. </p>
+      <p><b>IMPORTANTE</b></p>  
+      <p>Para todos os cálculos na [!DNL Scenario Planner], [!DNL Workfront] O usa o seguinte valor: 1 FTE = 8 Horas. </p>
+
+   <p><b>DICA</b></p>
+
+   <ul> 
+       <li> <p><span>Use a tecla [!UICONTROL Tab] para ir para o mês seguinte.</span> </p> </li> 
+      <li> <p> Todos <span>ative</span> as funções de trabalho no sistema são listadas ao clicar neste campo. </p> </li> 
+       <li> <p>As funções de job que já foram adicionadas às funções de job Disponíveis do plano são exibidas primeiro. Para obter informações sobre como adicionar funções de job disponíveis a um plano, consulte <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Criar e editar planos no Planejador de Cenário</a>. </p> </li> 
+       <li> <p>[!DNL Workfront] considera que um equivalente a tempo inteiro é de 160 horas por mês. </p> <p>Para todos os cálculos no Planejador de Cenário, o Workfront usa o seguinte valor: 1 FTE = 8 Horas. </p></li> 
+      </ul> </p> <p>Você pode inserir um número menor que 1 FTE ou números decimais para FTE <span>ou</span> <span>horas</span>. Por exemplo, uma função de consultor de 0,5 significaria que um consultor dedicaria metade de seu FTE (normalmente, 4 horas, onde 8 horas é 1 FTE) a trabalhar nesta iniciativa. </p>  </td> 
      </tr> 
      <tr> 
       <td rowspan="3" role="rowheader">Seção Custos</td> 

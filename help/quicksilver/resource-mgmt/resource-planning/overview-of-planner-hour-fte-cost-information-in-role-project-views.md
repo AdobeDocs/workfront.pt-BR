@@ -7,9 +7,9 @@ description: Visão geral de horas, FTE e informações de custo nas exibições
 author: Alina
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2958'
+source-wordcount: '2973'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: relink all articles pointing to this section to the new article)</p>
 -->
 
-A orçamentação dos recursos para o trabalho que devem realizar em um projeto é a função principal do Planejador de Recursos. Você pode visualizar o tempo disponível dos recursos, bem como alocar o tempo para os projetos nos quais eles são atribuídos.
+A orçamentação dos recursos para o trabalho que devem realizar em um projeto é a função principal do Planejador de Recursos. Você pode visualizar o tempo disponível dos recursos, bem como alocar seu tempo para os projetos nos quais eles são atribuídos.
 
 Para obter informações sobre como orçar recursos no Planejador de Recursos, consulte [Recursos de orçamento no Planejador de Recursos usando as exibições Projeto e Função](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
 
@@ -127,7 +127,8 @@ As tabelas a seguir mostram as informações de alocação e disponibilidade exi
      <li>horas orçamentadas para outros projetos. </li> 
     </ul> <p>As Horas, FTEs ou Custo Disponíveis para um usuário mudam de acordo com o seguinte: </p> 
     <ul> 
-     <li>como a programação e o FTE são calculados com base nas Preferências de Gerenciamento de Recursos no nível do sistema.<br>Para obter mais informações sobre o cálculo da disponibilidade de usuário e função de trabalho, consulte o artigo <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Visão geral do cálculo de horas e FTE para usuários e funções no Planejador de Recursos</a>.</li> 
+     <li>como a programação e o FTE são calculados com base nas Preferências de Gerenciamento de Recursos no nível do sistema.<br><p>Para obter mais informações sobre o cálculo da disponibilidade de usuário e função de trabalho, consulte o artigo <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Visão geral do cálculo de horas e FTE para usuários e funções no Planejador de Recursos</a>.</p>
+     Para obter mais informações sobre como configurar preferências de Gerenciamento de Recursos no Workfront, consulte <a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurar preferências do Gerenciamento de recursos</a></li> 
     </ul> 
     <ul> 
      <li>o <strong>Prioridade de planejamento do projeto</strong>, se o usuário estiver orçado para trabalho.<br>Para obter mais informações sobre como a Prioridade de planejamento de projeto afeta as Horas Disponíveis de um usuário, consulte <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">Visão geral da navegação do Planejador de recursos </a>. </li> 
@@ -135,6 +136,8 @@ As tabelas a seguir mostram as informações de alocação e disponibilidade exi
   </tr> 
  </tbody> 
 </table>
+
+
 
 ### Coluna PLN (planejada) {#the-pln-planned-column}
 
@@ -303,7 +306,7 @@ Considere o seguinte ao trabalhar com Horas Orçadas:
       <li> <p>A diferença entre o tempo ou custo Disponível e o tempo ou custo Orçado para a função:</p> <p><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Budgeted Hours, FTE, or Cost</code> </p> </li> 
       <li> <p><span>A diferença entre o tempo ou custo Disponível e o tempo ou custo planejado para a função, quando os valores de Uso Planejado (PLN) na configuração de cálculos LÍQUIDOS são ativados:</span> </p> <p><span><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code></span> </p> <p><b>DICA</b> <span>
 
-Essa opção é aplicada somente quando você personaliza a exibição na seção Exibir itens selecionados .</span> </p> <p><span>Para obter mais informações, consulte</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Revise a disponibilidade e alocação de recursos usando o Adobe Workfront Resource Planner</a> </p> </li>
+Essa opção é aplicada somente quando você personaliza a exibição na seção Exibir itens selecionados .</span> </p> <p><span>Para obter mais informações, consulte </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Revise a disponibilidade e alocação de recursos usando o Adobe Workfront Resource Planner</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 
@@ -316,7 +319,7 @@ Essa opção é aplicada somente quando você personaliza a exibição na seçã
       <li> <p>A diferença entre o tempo ou custo Disponível e o tempo ou custo Orçado para o usuário:</p> <p><code>User Net Hours, FTE, or Cost = USer Available Hours, FTE, or Cost - User Budgeted Hours, FTE, or Cost</code> </p> </li> 
       <li> <p><span>A diferença entre o tempo ou custo Disponível e o tempo ou custo planejado para o usuário, quando os valores de Uso Planejado (PLN) na configuração de cálculos LÍQUIDOS são ativados:</span> </p> <p><span><code>User Net Hours, FTE, or Cost = User Available Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code></span> </p> <p><b>DICA</b> <span>
 
-Essa opção é aplicada somente quando você personaliza a exibição na seção Exibir itens selecionados .</span> </p> <p><span>Para obter mais informações, consulte</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Revise a disponibilidade e alocação de recursos usando o Adobe Workfront Resource Planner</a> </p> </li>
+Essa opção é aplicada somente quando você personaliza a exibição na seção Exibir itens selecionados .</span> </p> <p><span>Para obter mais informações, consulte </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Revise a disponibilidade e alocação de recursos usando o Adobe Workfront Resource Planner</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 

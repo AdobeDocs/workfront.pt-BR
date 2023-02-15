@@ -6,9 +6,9 @@ description: Você pode criar planos como parte do uso do Workfront Scenario Pla
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2401'
+source-wordcount: '2402'
 ht-degree: 1%
 
 ---
@@ -127,12 +127,14 @@ Para criar ou editar um plano:
       <td role="rowheader"><span>FTE ([!UICONTROL Equivalente em tempo integral]) ou [!UICONTROL Hours]</span> </td> 
       <td> <p><span>Selecione uma das seguintes opções para indicar como deseja estimar as informações de função de cargo para este plano:</span> </p> 
        <ul> 
-        <li> <p><span><strong>FTE</strong>. Esse é o padrão </span> </p> <!--
-          <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>
-         --> <p>Para todos os cálculos na [!DNL Scenario Planner], [!DNL Workfront] O usa o seguinte valor: 1 FTE = 8 Horas. </p> </li> 
-        <li> <p><strong>[!UICONTROL Hours]</strong> </p> </li> 
-       </ul> <p>Importante: <span>A opção selecionada aqui determina como as informações sobre a função de cargo são exibidas para o plano, os cenários do plano e as iniciativas.</span> </p> </td> 
-     </tr> 
+      <li> <p><span><strong>FTE</strong>. Esse é o padrão </span> </p> 
+      <p><b>IMPORTANTE</b></p>  
+      <p>Para todos os cálculos na [!DNL Scenario Planner], [!DNL Workfront] O usa o seguinte valor: 1 FTE = 8 Horas. </p> </li> 
+      <li> <p><strong>[!UICONTROL Hours]</strong> </p> </li> 
+       </ul> <p><b>IMPORTANTE</b></p>
+
+   A opção selecionada aqui determina como as informações sobre a função de cargo são exibidas para o plano, os cenários do plano e as iniciativas</p> </td>
+   </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Data de início]</td> 
       <td> <p>Selecione o mês e o ano em que deseja que o plano tenha início. É possível selecionar apenas meses neste campo. [!DNL Workfront] parte do princípio que a data de início do plano é o primeiro dia do mês selecionado e a data de término é o último dia do fim do mês em sua duração. </p> </td> 
@@ -148,6 +150,8 @@ Para criar ou editar um plano:
      </tr> 
     </tbody> 
    </table>
+
+<!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
 
 1. (Condicional) Clique em **[!UICONTROL Próximo]**.
 

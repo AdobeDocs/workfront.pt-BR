@@ -6,9 +6,9 @@ description: Como Gerenciador de Recursos, você pode atribuir trabalho aos usu�
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2757'
+source-wordcount: '2787'
 ht-degree: 0%
 
 ---
@@ -207,7 +207,12 @@ Como parte da atribuição de trabalho aos usuários, você pode modificar as al
       >Modificar alocações quando essa configuração está ativada faz com que o número total na linha do usuário diminua.
 
    1. **Projeto** no **Selecionar tema de cor** seção. Isso exibe cada projeto e seus respectivos itens de trabalho em cores exclusivas e facilita compreender quais itens pertencem a qual projeto.
-   1. **Porcentagem** no **Exibir alocação de usuário em** seção. Isso exibe alocações como um valor percentual. A capacidade do usuário de acordo com seu cronograma é considerada de 100%. Por exemplo, se um usuário estiver associado a um agendamento de 8 horas por dia, 8 horas serão iguais a 100% da capacidade. Se quiser alocar o usuário para trabalhar 4 horas em um dia, atualize sua alocação para 50%.
+   1. **Porcentagem** no **Exibir alocação de usuário em** seção. Isso exibe alocações como um valor percentual. A capacidade do usuário de acordo com o cronograma é considerada de 100%. Por exemplo, se um usuário estiver associado a um agendamento de 8 horas por dia, 8 horas serão iguais a 100% da capacidade. Se quiser alocar o usuário para trabalhar 4 horas em um dia, atualize sua alocação para 50%.
+
+      >[!NOTE]
+      >
+      >O administrador do Workfront decide qual programação usar em seu sistema para calcular a capacidade do usuário na área Gerenciamento de Recursos da Configuração. Para obter mais informações, consulte [Configurar preferências do Gerenciamento de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
 
 1. Clique no botão **Mais** menu ![](assets/qs-more-menu.png) para um item de trabalho, clique em **Editar alocações**.
 
