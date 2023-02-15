@@ -220,10 +220,10 @@ Consulte também [Notificações: Solicitações que fiz](../../../workfront-bas
   <tr> 
    <td> <p>Documento</p> </td> 
    <td> <p>Documento incluído na solicitação de Help Desk para o originador do problema</p> </td> 
-   <td> <p>Um documento foi alterado ou caregado sobre um problema para o qual sou o contato primário.</p> <p>O contato principal do problema recebe uma notificação por email quando um documento é carregado ou alterado no problema, a menos que o usuário que carregou ou alterou o documento também seja o contato principal.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual e se o projeto tiver a opção "Publicar como fila de solicitações de ajuda" ativada na guia Configuração da fila. &lt;!— DESENHADO EM FLARE: Para obter mais informações sobre como publicar um projeto como uma fila de solicitações de ajuda, consulte 
+   <td> <p>Um documento foi alterado ou caregado sobre um problema para o qual sou o contato primário.</p> <p>O contato principal do problema recebe uma notificação por email quando um documento é carregado ou alterado no problema, a menos que o usuário que carregou ou alterou o documento também seja o contato principal.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual e se o projeto tiver a opção "Publicar como fila de solicitações de ajuda" ativada na guia Configuração da fila. <!-- DESENHADO EM FLARE: Para obter mais informações sobre como publicar um projeto como uma fila de solicitações de ajuda, consulte 
        <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Visão geral da guia Detalhes da fila em um projeto</a>.
 
-    —>&lt;/p> &lt;/td>
+    --></p> </td>
 <td> <p>Ativo</p> </td> 
   </tr> 
   <tr> 
@@ -429,10 +429,10 @@ Consulte também [Notificações: Informações sobre o trabalho que me foi atri
   <tr> 
    <td> <p>Documento</p> </td> 
    <td> <p>Documento incluído na solicitação de Help Desk parO problema atribuída à</p> </td> 
-   <td> <p>Documentos foram adicionados ou alterados na minha requisição.</p> <p>O destinatário do problema recebe uma notificação por email quando os documentos são carregados ou alterados em um problema adicionado.</p> <p>Uma notificação por email não é enviada se o usuário que inseriu o problema for o destinatário.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual e se o projeto tiver a opção "Publicar como fila de solicitações de ajuda" ativada na guia Configuração da fila.&lt;!— DESENHADO EM FLARE: Para obter mais informações sobre como publicar um projeto como uma fila de solicitações de ajuda, consulte 
+   <td> <p>Documentos foram adicionados ou alterados na minha requisição.</p> <p>O destinatário do problema recebe uma notificação por email quando os documentos são carregados ou alterados em um problema adicionado.</p> <p>Uma notificação por email não é enviada se o usuário que inseriu o problema for o destinatário.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual e se o projeto tiver a opção "Publicar como fila de solicitações de ajuda" ativada na guia Configuração da fila.<!-- DESENHADO EM FLARE: Para obter mais informações sobre como publicar um projeto como uma fila de solicitações de ajuda, consulte 
        <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Visão geral da guia Detalhes da fila em um projeto</a>.
 
-    —>&lt;/p> &lt;/td>
+    --></p> </td>
 <td> <p>Ativo</p> </td> 
   </tr> 
   <tr> 

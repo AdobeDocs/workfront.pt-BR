@@ -134,16 +134,19 @@ Você pode orçar seus recursos por um período de 15 anos. Se você orçar recu
 
       <!--drafted for Budgeted Hours:
    <span class="preview">Ao copiar um projeto e optar por copiar as Horas Orçadas para o novo projeto, as horas orçadas usando o Planejador de Cenário não são copiadas para o novo projeto. Somente as horas orçadas no Planejador de Recursos são copiadas. Para obter mais informações, consulte [Copiar um projeto](../manage-projects/copy-project.md)</span>
-—>
+-->
 
    >[!IMPORTANT]
-   Quando você usa o Planejador de Cenário para orçar recursos para o projeto, o Custo da Mão-de-Obra Orçada é exibido nas seguintes áreas do Workfront:
-   * Área do Orçamento dos Recursos do Caso de Negócios
-   * O Planejador de Cenário no nível do sistema como o Custo de Pessoas da iniciativa vinculada ao projeto. Para obter mais informações, consulte [Criar e editar iniciativas no Planejador de Cenário](../../../scenario-planner/create-and-edit-initiatives.md).
+   > 
+   >Quando você usa o Planejador de Cenário para orçar recursos para o projeto, o Custo da Mão-de-Obra Orçada é exibido nas seguintes áreas do Workfront:
+   > 
+   >* Área do Orçamento dos Recursos do Caso de Negócios
+   >* O Planejador de Cenário no nível do sistema como o Custo de Pessoas da iniciativa vinculada ao projeto. Para obter mais informações, consulte [Criar e editar iniciativas no Planejador de Cenário](../../../scenario-planner/create-and-edit-initiatives.md).
 
 
 1. (Opcional) Clique em **Exibir no Planejador de Cenário** abrir o plano que contém a iniciativa ligada ao projeto. Isso abre o Planejador de cenário em uma nova guia do navegador.
 1. (Opcional) Atualize as informações sobre a iniciativa. Para obter mais informações, consulte [Criar e editar iniciativas no Planejador de Cenário](../../../scenario-planner/create-and-edit-initiatives.md).
 
    >[!NOTE]
-   Você deve publicar a iniciativa após cada alteração da área de Orçamento de Recursos no projeto a ser atualizado.
+   > 
+   >Você deve publicar a iniciativa após cada alteração da área de Orçamento de Recursos no projeto a ser atualizado.
