@@ -2,9 +2,9 @@
 user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 feature-set: Workfront
-source-git-commit: 8d9717a5b24c98f31d8248a87145fb7aa4244219
+source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
 workflow-type: tm+mt
-source-wordcount: '12675'
+source-wordcount: '12683'
 ht-degree: 1%
 
 ---
@@ -891,6 +891,7 @@ ht-degree: 1%
       * [Usar placas conectadas em placas](agile/get-started-with-boards/connected-cards.md)
       * [Gerenciar cartões](agile/get-started-with-boards/move-board-items.md)
       * [Gerenciar itens da lista de verificação em cartões](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+      * [Personalizar quais campos são exibidos em um cartão](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
       * [Excluir ou arquivar um cartão de um quadro](agile/get-started-with-boards/delete-board-items.md)
       * [Filtrar e pesquisar em um quadro](agile/get-started-with-boards/filter-search-in-board.md)
       * [Adicionar tags](agile/get-started-with-boards/add-tags.md)
@@ -1668,8 +1669,8 @@ ht-degree: 1%
       * [Delegar solicitação de aprovação](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [Associar um processo de aprovação novo ou existente ao trabalho](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [Recolher as aprovações enviadas](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-   *  Prova{#proofing}
-      * [ Prova](review-and-approve-work/proofing/proofing.md)
+   * Prova {#proofing}
+      * [Prova](review-and-approve-work/proofing/proofing.md)
       * Visão geral da revisão de texto {#proofing-overview}
          * [Visão geral da revisão de texto](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [Visão geral do perfil de permissão de prova](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
