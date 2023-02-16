@@ -6,16 +6,22 @@ title: Excluir ou arquivar um quadro
 description: Você pode excluir ou arquivar um quadro no Workfront. A exclusão de um quadro o remove permanentemente do Workfront, enquanto o arquivamento de um quadro retém todos os cartões e permite que ele seja restaurado posteriormente.
 author: Lisa
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 67870f1bd9b1795b58ced827e888572aa407c28e
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '354'
 ht-degree: 1%
 
 ---
 
 # Excluir ou arquivar um quadro
 
-Você pode excluir ou arquivar um quadro em [!DNL Workfront]. Excluir um quadro o remove permanentemente [!DNL Workfront], enquanto o arquivamento de um quadro retém todas as placas e permite que ele seja restaurado posteriormente.
+{{highlighted-preview}}
+
+Você pode excluir ou arquivar um quadro em [!DNL Workfront]. Excluir um quadro o remove permanentemente [!DNL Workfront], enquanto o arquivamento de um quadro retém todas as placas e permite que ele seja restaurado posteriormente. <span class="preview">Essas opções se aplicam a quadros independentes e a quadros que fazem parte de coleções.</span>
+
+>[!NOTE]
+>
+>As coleções estão disponíveis somente por meio da opção de aceitação antecipada de recursos para os Workfront Boards.
 
 ## Requisitos de acesso
 

@@ -7,16 +7,18 @@ description: À medida que você cria um quadro usando placas ad hoc e conectada
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: abed861ff3902d1142fec4139a60cffe5f8fa1c0
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
 
 # Visão geral das ferramentas de planejamento ágil
 
-À medida que você cria um quadro usando placas ad hoc e conectadas, pode aproveitar as ferramentas adicionais de planejamento ágil, incluindo limites de coluna WIP, agrupamento de cartões em faixas de swimlanes e uma coluna de entrada que pode ser usada para um backlog.
+{{highlighted-preview}}
+
+À medida que você cria um quadro usando cartões ad hoc e conectados, pode aproveitar as vantagens das ferramentas adicionais de planejamento ágil, incluindo limites de coluna WIP, agrupamento de cartões em faixas, uma coluna de entrada que pode ser usada para um backlog e <span class="preview">coleções de quadros</span>.
 
 Você pode usar qualquer uma ou todas essas ferramentas de uma maneira que funcione para você e sua equipe, sem se comprometer com uma metodologia ágil específica, como Kanban ou Scrum.
 
@@ -26,3 +28,4 @@ Esta seção contém os seguintes artigos:
 * [Adicionar uma coluna de entrada a um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 * [Usar grupos em um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
 * [Configurar fallout de cartão](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+* [Gerenciar coleções](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)

@@ -6,9 +6,9 @@ title: Opt-in do recurso anterior para [!DNL Adobe Workfront] Quadros
 description: Leia este artigo para saber mais sobre o [!DNL Workfront Boards] opt-in de recurso antecipado.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 4b494093110edaa82ade13756b5f6717e4013efa
+source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ A tabela a seguir descreve os principais recursos das placas, juntamente com seu
   </tr>
   <tr>
    <td>Criar coleções de quadros</td>
-   <td>Planejado</td>
+   <td>Parcialmente liberado</td>
   </tr>
   <tr>
    <td>Criar iterações</td>
@@ -162,7 +162,7 @@ Os recursos anteriores para quadros estão disponíveis para todas as organizaç
 Somente [!DNL Workfront] os administradores podem aderir aos recursos iniciais dos quadros. Quando uma [!DNL Workfront] O administrador ativa recursos precoces e todos os usuários da organização são aceitos.
 
 1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront], depois clique em **[!UICONTROL Quadros]**.
-1. Clique em **[!UICONTROL Aceitação de recursos antecipados]** na parte superior da tela do painel.
+1. Clique em ![Aceitação de recursos antecipados](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Aceitação de recursos antecipados]na parte superior da tela do painel.
 1. Clique em **[!UICONTROL Habilitar]**.
 1. Comece a usar os recursos iniciais dos quadros.
 
@@ -192,5 +192,5 @@ No entanto, a variável [!DNL Workfront] o administrador pode ocultar a opção 
 Somente [!DNL Workfront] os administradores podem recusar o recebimento de recursos antecipados. Se uma [!DNL Workfront] Se o administrador desativar os recursos iniciais, todos os usuários da organização serão excluídos.
 
 1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront], depois clique em **[!UICONTROL Quadros]**.
-1. Clique em **[!UICONTROL Aceitação de recurso antecipado ativada]** na parte superior da tela do painel.
+1. Clique em ![Aceitação de recurso antecipado ativada](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Aceitação de recurso antecipado ativada]na parte superior da tela do painel.
 1. Clique em **[!UICONTROL Desativar]**.

@@ -6,9 +6,9 @@ description: Você pode filtrar um quadro para exibir somente determinados cart�
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -55,21 +55,21 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
 1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront], depois clique em **[!UICONTROL Quadros]**.
 1. Acesse um quadro. Para obter mais informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
-1. Clique no ícone de filtro ![Filtro](assets/filter-icon-spectrum-25x25.png), expanda a [!UICONTROL Membros] e selecione a pessoa ou pessoas cujos cartões você deseja visualizar. Também é possível exibir cartões não atribuídos.
+1. Clique em [!UICONTROL **Filtro**], expanda a [!UICONTROL Membros] e selecione a pessoa ou pessoas cujos cartões você deseja visualizar. Também é possível exibir cartões não atribuídos.
 
    ![Filtrar por membro](assets/boards-filter-by-assignees-0822.png)
 
 ## Filtrar um quadro por tags
 
 1. Acesse o quadro.
-1. Clique no ícone de filtro ![Filtro](assets/filter-icon-spectrum-25x25.png), expanda a [!UICONTROL Tags] e selecione as tags que deseja visualizar.
+1. Clique em [!UICONTROL **Filtro**], expanda a [!UICONTROL Tags] e selecione as tags que deseja visualizar.
 
    ![Filtrar por tag](assets/boards-filter-by-tags-0822.png)
 
 ## Filtrar um quadro por status
 
 1. Acesse o quadro.
-1. Clique no ícone de filtro ![Filtro](assets/filter-icon-spectrum-25x25.png), expanda a [!UICONTROL Status] e selecione os tipos de status que deseja visualizar.
+1. Clique em [!UICONTROL **Filtro**], expanda a [!UICONTROL Status] e selecione os tipos de status que deseja visualizar.
 
    Você também pode ocultar cartões concluídos.
 
@@ -78,7 +78,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 ## Filtrar um quadro por data de vencimento
 
 1. Acesse o quadro.
-1. Clique no ícone de filtro ![Filtro](assets/filter-icon-spectrum-25x25.png), expanda a [!UICONTROL Data de vencimento] e selecione as opções de data que deseja visualizar.
+1. Clique em [!UICONTROL **Filtro**], expanda a [!UICONTROL Data de vencimento] e selecione as opções de data que deseja visualizar.
 
    Somente os cartões nos intervalos de datas selecionados são exibidos.
 
@@ -89,7 +89,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 Por padrão, somente os cartões ativos são exibidos em um quadro. Você pode filtrar o quadro para também exibir os cartões arquivados.
 
 1. Acesse o quadro.
-1. Clique no ícone de filtro ![Filtro](assets/filter-icon-spectrum-25x25.png), expanda a [!UICONTROL Cartões arquivados] e selecione **[!UICONTROL Cartões arquivados]** para exibir qualquer cartão arquivado.
+1. Clique em [!UICONTROL **Filtro**], expanda a [!UICONTROL Cartões arquivados] e selecione **[!UICONTROL Cartões arquivados]** para exibir qualquer cartão arquivado.
 
    O filtro mostra o número de cartões arquivados.
 
@@ -100,7 +100,7 @@ Por padrão, somente os cartões ativos são exibidos em um quadro. Você pode f
 ## Filtrar um quadro por conexão
 
 1. Acesse o quadro.
-1. Clique no ícone de filtro ![Filtro](assets/filter-icon-spectrum-25x25.png), expanda a [!UICONTROL Conexão] e selecione o [!DNL Workfront] projetos para os cartões conectados que você deseja visualizar.
+1. Clique em [!UICONTROL **Filtro**], expanda a [!UICONTROL Conexão] e selecione o [!DNL Workfront] projetos para os cartões conectados que você deseja visualizar.
 
    Também é possível exibir cartões que não estão conectados a um projeto.
 
@@ -109,7 +109,7 @@ Por padrão, somente os cartões ativos são exibidos em um quadro. Você pode f
 ## Pesquisar em um quadro
 
 1. Acesse o quadro.
-1. Clique no ícone de pesquisa ![Pesquisar](assets/search-icon.png) e digite um termo de pesquisa. Em seguida, pressione Enter.
+1. Clique em [!UICONTROL **Pesquisar**] e digite um termo de pesquisa. Em seguida, pressione Enter.
 
    Todos os cartões que contêm o termo de pesquisa são exibidos.
 
