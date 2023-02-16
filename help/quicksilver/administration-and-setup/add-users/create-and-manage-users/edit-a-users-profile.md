@@ -8,54 +8,17 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
 workflow-type: tm+mt
-source-wordcount: '2557'
+source-wordcount: '2760'
 ht-degree: 0%
 
 ---
 
 # Editar o perfil de um usuário
 
-<!--drafted for Work Time field: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
-In the table below, under Resource Planning, add the "Work Time" field and update the "FTE" field:
-
-<b><span class="preview">Work Time</span></b>: <span class="preview">Represents the percentage of the Full Time Equivalent (FTE) time that the user is available for actual work, not including overhead. Work Time must be a decimal number up to 1, and it cannot be 0. For example, a 20% availability for actual work would be 0.2.</span> 
-
-<span class="preview">The field's default is 1, indicating that a user spends their entire FTE on actual, project-related work.</span>  
-
-<span class="preview">The system uses this number to calculate the availability of the user for actual, project-related work. </span> 
-
-<span class="preview">For more information about creating schedules in Workfront, see Create a schedule.</span>
-
-<span class="preview">Schedule exceptions and time off might also affect the user capacity. 
-
-Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area. For more information, see Configure Resource Management preferences. (*****INSERT LINK****)
-
-<b>TIP</b>
-
-<span class="preview">Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.</span>
-
-
-***UPDATED FTE FIELD***
-
-FTE: This is the Full Time Equivalent of the user. Workfront uses this number to calculate the availability of the user based on the Default Schedule only when the Resource Management Preferences at the system level are set to The Default Schedule. The FTE indicates the amount of time that the user can spend at work. This includes overhead, and  time that is not spent on project work, but on other type of work. For example, time that is spent in meetings, or training is also included in the FTE. 
-
-The FTE must be a decimal number up to 1, and it cannot be 0. 
-The field's default is 1.
-
-For example, if the FTE value is 0.5 and the Default Schedule in Workfront is 40 hours, the user is available for 20 hours a week. 
-
-Schedule exceptions, time off might, <span class="preview">and the value of Work Time</span> may affect the amount of available hours or the FTE. 
-
-Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area. For more information, see Configure Resource Management preferences. (*****INSERT LINK****)
-
-If the Resource Management Preferences at the system level are set to The User's Schedule, the value you specify here is ignored and the user is considered to be available according to what is specified in their schedule. 
-
-For more information about creating schedules in Workfront, see Create a schedule. (*****INSERT LINK*****)
--->
+<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Está disponível somente no ambiente de Visualização.</span>
 
 >[!IMPORTANT]
 >
@@ -144,16 +107,16 @@ Você deve ter o seguinte para executar as etapas neste artigo:
       <td role="rowheader">Acesso</td> 
       <td> 
        <ul> 
-        <li><b>Está ativo:</b> Selecione essa caixa para indicar que o usuário está ativo. Usuários ativos usam uma licença do Workfront. Limpar a caixa desativa o usuário.</li> 
-        <li> <p><b>Nível de acesso:</b> Selecione o nível de acesso a ser atribuído a este usuário.</p> 
-        <p>Ao atribuir um nível de acesso a um usuário, é possível atribuir um nível igual ou inferior ao seu próprio nível de acesso. (Por exemplo, se o nível de acesso for Planejador, você não poderá atribuir o nível de acesso Administrador.) No entanto, não é possível atribuir um nível de acesso que, por padrão, seja menor do que o seu próprio nível de acesso se o administrador do Workfront tiver ativado permissões não padrão no nível de acesso que também não estão ativadas em seu próprio nível de acesso (por meio das configurações de Ajuste Otimizado, conforme descrito em <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>). </p> 
-        <p>Para obter mais informações sobre níveis de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configuração do acesso ao Adobe Workfront</a>.</p> </li> 
-        <li> <p><b>Modelo de layout</b>: Escolha um modelo de layout para o usuário. Este Modelo de Layout tem precedência sobre qualquer Modelo de Layout atribuído ao Grupo Doméstico do usuário, Equipe Inicial ou função de trabalho principal. Para obter mais informações sobre a prioridade de atribuição de Modelos de Layout, consulte <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Criar e gerenciar modelos de layout</a>.</p> <p><b>Nota</b>:  <p>A lista de modelos disponíveis neste campo depende do seu acesso:</p> 
-          <ul> 
-           <li>Como administrador do Workfront, você pode ver todos os modelos de layout de nível de sistema e de grupo.</li> 
-           <li>Como administrador de grupo, você pode ver o modelo de layout no nível do sistema, bem como os associados aos grupos que você gerencia.</li> 
-           <li>Como usuário com uma licença de Plano e acesso para editar usuários, você pode ver apenas Modelos de Layout no nível do sistema.</li> 
-          </ul> <p>Para obter mais informações sobre Modelos de layout em nível de grupo, consulte <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Criar e gerenciar modelos de layout</a>.</p> </p> </li> 
+      <li><b>Está ativo:</b> Selecione essa caixa para indicar que o usuário está ativo. Usuários ativos usam uma licença do Workfront. Limpar a caixa desativa o usuário.</li> 
+       <li> <p><b>Nível de acesso:</b> Selecione o nível de acesso a ser atribuído a este usuário.</p> 
+       <p>Ao atribuir um nível de acesso a um usuário, é possível atribuir um nível igual ou inferior ao seu próprio nível de acesso. (Por exemplo, se o nível de acesso for Planejador, você não poderá atribuir o nível de acesso Administrador.) No entanto, não é possível atribuir um nível de acesso que, por padrão, seja menor do que o seu próprio nível de acesso se o administrador do Workfront tiver ativado permissões não padrão no nível de acesso que também não estão ativadas em seu próprio nível de acesso (por meio das configurações de Ajuste Otimizado, conforme descrito em <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>). </p> 
+       <p>Para obter mais informações sobre níveis de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configuração do acesso ao Adobe Workfront</a>.</p> </li> 
+       <li> <p><b>Modelo de layout</b>: Escolha um modelo de layout para o usuário. Este Modelo de Layout tem precedência sobre qualquer Modelo de Layout atribuído ao Grupo Doméstico do usuário, Equipe Inicial ou função de trabalho principal. Para obter mais informações sobre a prioridade de atribuição de Modelos de Layout, consulte <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Criar e gerenciar modelos de layout</a>.</p> <p><b>Nota</b>:  <p>A lista de modelos disponíveis neste campo depende do seu acesso:</p> 
+       <ul> 
+       <li>Como administrador do Workfront, você pode ver todos os modelos de layout de nível de sistema e de grupo.</li> 
+       <li>Como administrador de grupo, você pode ver o modelo de layout no nível do sistema, bem como os associados aos grupos que você gerencia.</li> 
+       <li>Como usuário com uma licença de Plano e acesso para editar usuários, você pode ver apenas Modelos de Layout no nível do sistema.</li> 
+       </ul> <p>Para obter mais informações sobre Modelos de layout em nível de grupo, consulte <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Criar e gerenciar modelos de layout</a>.</p> </p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -173,7 +136,24 @@ Você deve ter o seguinte para executar as etapas neste artigo:
       <td role="rowheader">Planejamento de recursos </td> 
       <td> 
        <ul>
-       <li><b>Agendar desativação</b>: Marque essa caixa se desejar agendar a desativação deste usuário após um período de tempo. </li> 
+       <li>
+       <b><span class="preview">Tempo de trabalho</span></b>: <span class="preview">Representa a porcentagem do tempo FTE (Equivalente de Tempo Total) que o usuário está disponível para o trabalho real, não incluindo a sobrecarga. O Tempo de Trabalho deve ser um número decimal de até 1 e não pode ser 0. Por exemplo, uma disponibilidade de 20% para o trabalho real seria de 0,2.</span>
+
+   <span class="preview">O padrão do campo é 1, indicando que um usuário gasta o FTE inteiro no trabalho real relacionado ao projeto.</span>
+
+   <span class="preview">O sistema usa esse número para calcular a disponibilidade do usuário para o trabalho real relacionado ao projeto. </span>
+
+   <span class="preview">Para obter mais informações sobre como criar programações no Workfront, consulte <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Criar um agendamento</a>.</span>
+
+   <span class="preview">As exceções de agendamento e o tempo limite também podem afetar a capacidade do usuário.
+
+   O Workfront calcula a disponibilidade de um usuário dependendo das preferências do Gerenciamento de Recursos na área Configurar . Para obter mais informações, consulte <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurar preferências do Gerenciamento de recursos</a>.
+
+   <b>DICA</b>
+
+   <span class="preview">Defina o valor Tempo de trabalho como 1 para indicar que o usuário está disponível para trabalho relacionado ao projeto e todo o seu equivalente em tempo integral.</span>
+   </li> 
+      <li> <b>Agendar desativação</b>: Marque essa caixa se desejar agendar a desativação deste usuário após um período de tempo. </li> 
        <li><b>Data de desativação programada</b>: A data após a qual o usuário se torna desativado. Para obter informações sobre como programar usuários para desativação, consulte o <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Agendar usuários para desativação</a> em <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Desativar ou reativar um usuário</a>.</li> 
        <li> <p><b>Função principal</b>: Essa é a função de trabalho principal que o usuário pode atender no Workfront. Todas as tarefas e problemas que o usuário está atribuído também são atribuídos a essa função de trabalho. As funções de trabalho são essenciais no gerenciamento de recursos. Você pode atualizar este campo somente se tiver uma licença do Plan com acesso administrativo de usuário ou se for um administrador do Workfront. Para obter mais informações sobre como configurar usuários com acesso administrativo, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> <p>Somente as funções de trabalho ativas são exibidas na lista. </p> </li> 
        <li>Se você selecionou um <b>Função principal</b>, o <b>Porcentagem de disponibilidade de FTE</b> é exibido. Especifique a porcentagem de tempo do agendamento do usuário alocada para esta função de trabalho. O valor padrão da Porcentagem de Disponibilidade de FTE para a Função Principal é 100%. </li> 
@@ -188,9 +168,28 @@ Você deve ter o seguinte para executar as etapas neste artigo:
       </ul></p> </li> 
        <li><b>Tipo de hora padrão</b>: Selecione o tipo de hora padrão para o usuário. Esse é o tipo de hora usado por padrão quando o usuário registra a hora.</li> 
        <li><b>Tipos de hora disponíveis</b>: Selecione os tipos de hora que devem estar disponíveis para o usuário. Esses tipos de hora estão visíveis em qualquer lugar no Workfront, onde o usuário pode registrar o tempo. Um usuário só pode ver os tipos de hora que estão ativados no nível do projeto, bem como o nível do usuário. Para obter mais informações sobre quais tipos de hora estão disponíveis para os usuários, consulte <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Definir os tipos de hora e a disponibilidade das folhas de horas</a>.</li> 
-       <li><b>Tempo de logon:</b> Selecione se o usuário deve registrar o tempo nos itens de trabalho em horas ou dias. Para obter mais informações, consulte <a href="../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md" class="MCXref xref">Configurar se a hora é registrada em horas ou dias</a>.</li> 
-       <li> <p><b>FTE</b>: O sistema usa esse número para calcular a disponibilidade do usuário com base na Programação Padrão somente quando as Preferências de Gerenciamento de Recursos no nível do sistema estão definidas como <b>O agendamento padrão</b>. O valor deve ser <i>0</i> ou entre <i>.1</i> e <i>1</i>.</p> <p>Por exemplo, se o valor FTE for 0,5 e o Horário padrão for 40 horas, o usuário estará disponível para trabalhar 20 horas por semana.</p> <p>Se as Preferências de Gerenciamento de Recursos no nível do sistema estiverem definidas como <b>O cronograma do usuário</b>, o valor especificado aqui é ignorado e o usuário é considerado disponível de acordo com o que é especificado em sua programação. Nesse caso, o FTE do usuário para o Planejador de Recursos é calculado pela seguinte fórmula:</p> <p ><code>User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours</code><em><br></em> </p> <p>Para obter mais informações sobre como calcular o FTE do usuário, consulte <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Visão geral do cálculo de horas e FTE para usuários e funções no Planejador de Recursos</a>.<br>Para obter mais informações sobre como criar programações no Workfront, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Criar um agendamento</a>.</p> <p>As exceções de programação e o tempo de folga podem afetar a quantidade de Horas Planejadas ou FTE. Para obter mais informações, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurar preferências do Gerenciamento de recursos</a>. </p> </li> 
-        <li><b>Pools de Recursos</b>: Associe o usuário aos Pools de Recursos. Para obter mais informações, consulte <a href="../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md" class="MCXref xref">Associar pools de recursos a usuários </a>.</li> 
+       <li><b>Tempo de logon:</b> Selecione se o usuário deve registrar o tempo nos itens de trabalho em horas ou dias. Para obter mais informações, consulte <a href="../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md" class="MCXref xref">Configurar se a hora é registrada em horas ou dias</a>.</li>
+
+   <li> <b>FTE</b>: Este é o Equivalente de Tempo Total do usuário. A Workfront usa esse número para calcular a disponibilidade do usuário com base na Programação Padrão somente quando as Preferências de Gerenciamento de Recursos no nível do sistema estão definidas como A Programação Padrão.
+
+   <p>O FTE indica o tempo que o usuário pode gastar no trabalho. Isso inclui despesas gerais, bem como tempo gasto no trabalho do projeto. Por exemplo, o tempo gasto em reuniões ou treinamento também é incluído no ETI.</p>
+
+   O FTE deve ser um número decimal até 1 e não pode ser 0. Por exemplo, se o valor FTE for 0,5 e o Horário padrão no Workfront for de 40 horas, o usuário estará disponível por 20 horas por semana.
+
+   O padrão do campo é 1.
+
+   Exceções de agendamento, o tempo limite pode, <span class="preview">e o valor do Tempo de Trabalho</span> pode afetar a disponibilidade do usuário.
+
+   O Workfront calcula a disponibilidade de um usuário dependendo das preferências do Gerenciamento de Recursos na área Configurar .
+
+   Se as Preferências do Gerenciamento de Recursos no nível do sistema estiverem definidas como O Agendamento do Usuário, o valor especificado aqui será ignorado e o usuário será considerado como disponível de acordo com o que é especificado em seu agendamento.
+
+   Para obter mais informações, consulte <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurar preferências do Gerenciamento de recursos</a>.
+
+   Para obter mais informações sobre como criar programações no Workfront, consulte <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Criar um agendamento</a>.
+   </li>
+
+   <li><b>Pools de Recursos</b>: Associe o usuário aos Pools de Recursos. Para obter mais informações, consulte <a href="../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md" class="MCXref xref">Associar pools de recursos a usuários </a>.</li> 
         <li><b>Custo por hora</b>: A quantidade de custo por hora para o usuário. </li> 
         <li><b>Faturamento por hora</b>: A quantidade de faturamento por hora para o usuário.</li> 
        </ul> </td> 

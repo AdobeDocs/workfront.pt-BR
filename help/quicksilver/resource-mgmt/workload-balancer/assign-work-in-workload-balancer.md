@@ -6,18 +6,16 @@ description: Como gerenciador de recursos, você pode usar o Balanceador de Carg
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
 
 # Visão Geral da atribuição de trabalho no Balanceador de Carga de Trabalho
 
-<!--drafted for Work Time story:
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
+<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Está disponível somente no ambiente de Visualização.</span>
 
 Como gerenciador de recursos, você pode usar o Balanceador de Carga de Trabalho do Adobe Workfront para exibir itens de trabalho que ainda não foram atribuídos aos usuários, bem como atribuir esses itens a eles.
 
@@ -52,8 +50,7 @@ O Workfront usa as seguintes informações para calcular a capacidade do usuári
 
    Para obter mais informações, consulte [Configurar o horário pessoal no Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
-<!--drafted for Work Time: 
-* The user's Work Time. This indicates the percentage of FTE time that the user is available to perform actual project-related work, not including overhead. Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent. -->
+* <span class="preview">O Tempo de Trabalho do usuário. Isso indica a porcentagem do tempo FTE que o usuário está disponível para executar trabalho relacionado ao projeto, sem incluir sobrecarga. Defina o valor Tempo de trabalho como 1 para indicar que o usuário está disponível para trabalho relacionado ao projeto e todo o seu equivalente em tempo integral.</span>
 
 ## Atribuir trabalho no Balanceador de Carga de Trabalho
 
