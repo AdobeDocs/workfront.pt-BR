@@ -6,7 +6,7 @@ title: Configurar fallout de cartão
 description: Você pode configurar um quadro de forma que os cartões sejam arquivados, ou caem do quadro, de acordo com um agendamento.
 author: Lisa
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 5114a135c510d5a7020fd0a0862f9dcc61d9ad93
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
    ![Configurações de fallout de cartão](assets/card-falloff-switch.png)
 
-1. Selecione quando arquivar cartões do quadro. Você pode escolher até 4 semanas ou até 30 dias.
+1. Selecione quando arquivar cartões do quadro. Você pode escolher até 8 semanas ou até 60 dias.
 
    A data é determinada a partir de quando o cartão foi modificado pela última vez.
 
