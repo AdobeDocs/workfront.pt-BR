@@ -6,9 +6,9 @@ title: Opt-in do recurso anterior para [!DNL Adobe Workfront] Quadros
 description: Leia este artigo para saber mais sobre o [!DNL Workfront Boards] opt-in de recurso antecipado.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 814765092d5906417513966d9f563ae5e097d1d1
+source-git-commit: d02c6cd8ed8234bc9f8757835956290334f41e30
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -139,6 +139,10 @@ A tabela a seguir descreve os principais recursos das placas, juntamente com seu
   <tr>
    <td>Importar subtarefas como itens de lista de verificação em cartões</td>
    <td>Planejado</td>
+  </tr>
+  <tr>
+   <td>Definir um status padrão para cartões movidos para colunas</td>
+   <td>Parcialmente liberado</td>
   </tr>
  </tbody> 
 </table>

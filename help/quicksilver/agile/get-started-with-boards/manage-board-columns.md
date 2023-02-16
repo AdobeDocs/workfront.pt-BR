@@ -6,14 +6,16 @@ description: Um novo quadro contém três colunas por padrão. Você pode adicio
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 3032fe730d57418d0680f2423ebb389cbe8bae1e
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
 
 # Gerenciar colunas do quadro
+
+{{highlighted-preview}}
 
 Um novo quadro contém três colunas por padrão. Você pode adicionar mais colunas, alterar a ordem das colunas, renomear colunas e excluir quaisquer colunas desnecessárias.
 
@@ -119,12 +121,18 @@ Se você estiver usando o limite WIP em uma coluna, um contador de cartão separ
       As opções de tradução de status para cartões conectados também são exibidas. (A tradução de status não se aplica aos cartões ad hoc.) Essas opções determinam o status aplicado à tarefa ou ocorrência em [!DNL Workfront] quando uma placa conectada é movida para essa coluna.
 
    1. Para alterar as seleções de tradução de status padrão, clique no botão **[!UICONTROL Editar]** ícone ![Ícone Editar](assets/edit-icon-spectrum.png).
-   1. Selecione um status para tarefas e um status para problemas. Somente o padrão [!DNL Workfront] os status estão disponíveis, não os status personalizados.
+   1. <span class="preview">No ambiente de Visualização: Selecione um [!UICONTROL **Personalizado**] e um [!UICONTROL **Sistema**] status a ser aplicado ao cartão, para tarefas e problemas.</span>
 
-   >[!NOTE]
-   >
-   >Se você usar status personalizados em [!DNL Workfront], na primeira vez que você mover um cartão conectado para essa coluna, será solicitado a escolher um status. Por exemplo, se o projeto conectado tiver vários tipos de status que correspondem a [!UICONTROL Concluído], você deve escolher em qual status usar [!DNL Workfront]. Você pode definir sua escolha como padrão, de modo que não precise fazer a seleção sempre que mover um cartão para a coluna.
-   >Para obter mais informações sobre status, consulte [Visão geral dos status](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+      <span class="preview">Quando um cartão é movido para esta coluna, [!DNL Workfront] O primeiro tenta aplicar o status personalizado (por exemplo, Resolvido). Se o status personalizado não estiver disponível para esse cartão, a Workfront aplicará o status do sistema (por exemplo, Fechado).</span>
+
+      <span class="preview">Além disso, se o status na tarefa ou problema conectado for alterado para o status personalizado ou do sistema definido na política de coluna, o cartão será movido automaticamente para a coluna .</span>
+
+   1. No ambiente Produção: Selecione um status para tarefas e um status para problemas. Somente o padrão [!DNL Workfront] os status estão disponíveis, não os status personalizados.
+
+      >[!NOTE]
+      >
+      >Se você usar status personalizados em [!DNL Workfront], na primeira vez que você mover um cartão conectado para essa coluna, será solicitado a escolher um status. Por exemplo, se o projeto conectado tiver vários tipos de status que correspondem a [!UICONTROL Concluído], você deve escolher em qual status usar [!DNL Workfront]. Você pode definir sua escolha como padrão, de modo que não precise fazer a seleção sempre que mover um cartão para a coluna.
+      >Para obter mais informações sobre status, consulte [Visão geral dos status](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 1. (Opcional) Defina um valor para os destinatários do cartão:
 
