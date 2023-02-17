@@ -7,9 +7,9 @@ description: Você pode criar e editar tags e aplicá-las a provas e arquivos. I
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb720a1b-5136-4158-9ea0-bcb5755e1761
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Para obter mais informações sobre esses perfis e permissões, consulte [Perfis
 1. Clique em **[!UICONTROL Tags]** > **[!UICONTROL Gerenciar tags]** logo acima da lista.
 
 1. No [!UICONTROL Tags] guia exibida, gerencie suas tags conforme descrito acima em [Criação, edição ou exclusão de uma guia.](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
-   Uma tag é aplicada a todos os itens selecionados quando a marca de seleção na caixa de seleção ao lado da tag é cinza escuro. Se for cinza claro, somente alguns dos itens em um lote selecionado são marcados com ele. Se você deseja remover uma tag de todos os itens selecionados, verifique se a caixa de verificação ao lado da tag está vazia.\
+   Uma tag é aplicada a todos os itens selecionados quando a caixa de seleção ao lado da tag está cinza escuro. Se for cinza claro, somente alguns dos itens em um lote selecionado são marcados com ele. Se você deseja remover uma tag de todos os itens selecionados, verifique se a caixa de verificação ao lado da tag está vazia.\
    ![Tags_menu_-_Dark_and_light_check.png](assets/tags-menu---dark-and-light-checks-350x217.png)
 
 ## Gerenciamento de tags a partir de detalhes de prova ou detalhes do arquivo
