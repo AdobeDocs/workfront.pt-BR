@@ -4,10 +4,10 @@ description: Atualizações de aparência e comportamento durante o período de 
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 1010c762d51b379b9734900d3a84a150ed33e675
+source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 4%
+source-wordcount: '439'
+ht-degree: 2%
 
 ---
 
@@ -42,3 +42,19 @@ Para obter mais informações e exibir uma demonstração em vídeo de um recurs
 ## Ícone Versão do documento atualizado em Detalhes do documento
 
 Atualizamos a aparência do ícone Versão do documento. O ícone agora exibe um ponto vermelho observando quando você está em uma versão anterior, bem como um cursor que diz &quot;Versão anterior&quot;.
+
+## Nova experiência ao copiar uma ou várias tarefas de modelo
+
+>[!NOTE]
+>
+>Versão de visualização: 16 de fevereiro de 2023; Versão de produção planejada: 2 de março de 2023
+
+Para tornar seu uso do Adobe Workfront consistente em todo o aplicativo, reprojetamos a interface ao copiar ou mover uma tarefa de modelo. Isso está disponível no momento ao copiar uma tarefa de modelo no nível da tarefa ou copiar uma tarefa ou várias tarefas em uma lista.
+
+Algumas das melhorias incluem:
+
+* Todas as informações que você deve atualizar antes de copiar ou mover a tarefa do modelo são exibidas em uma página contínua.
+* O Workfront verifica se você tem acesso ao modelo de destino imediatamente após escolher o modelo. Antes desse aprimoramento, uma mensagem de aviso indicando que você não tem o acesso correto era exibida depois de confirmar a cópia ou o movimento, o que resultava em etapas extras e a ação não era permitida.
+* Capacidade de solicitar acesso para um modelo no qual você deseja copiar ou mover a tarefa do modelo sem sair da caixa Copiar ou Mover tarefa do modelo .
+
+Para obter mais informações, consulte [Copiar e mover tarefas do modelo](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md).

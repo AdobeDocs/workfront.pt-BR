@@ -4,9 +4,9 @@ description: Visão geral da versão 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 711f1ca5cfa4a8eec67d4bc8307824fd36b0b53e
+source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Para obter dicas sobre como se preparar para a próxima versão, consulte [Prepa
 
 * [Aprimoramentos do administrador](#administrator-enhancements)
 * [Melhorias ágeis](#agile-enhancements)
+* [Melhorias no gerenciamento de projetos](#project-management-enhancements)
+* [Melhorias no gerenciamento de recursos](#resource-management-enhancements)
 * [Outras melhorias](#other-enhancements)
 
 ### Aprimoramentos do administrador
@@ -81,6 +83,57 @@ Para obter dicas sobre como se preparar para a próxima versão, consulte [Prepa
                         </p>
                     </td>
                 </tr>
+              <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Personalizar exibição de campos em um cartão</a><span style="color: #ff0000;"> Novo na Visualização!</span></p>
+                        <p>A personalização agora está disponível para configurar quais campos são exibidos em um cartão, tanto na visualização completa quando o cartão está aberto, quanto na visualização condensada do cartão no quadro. Quando você desativa, um campo não é exibido em nenhuma das exibições. Você também pode ativar um campo na visualização completa e ocultá-lo da visualização condensada.</p>
+                    </td>
+                    <td><p><b>Disponível nestas datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de visualização: 16 de fevereiro de 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Versão de produção para participação inicial: 23 de fevereiro de 2023 <span style="color: #ff0000;"> Esse recurso está disponível em produção nesta data somente por meio da opção de aceitação antecipada de recursos para as placas Workfront.</span></p>
+                                <p>Versão de produção para todos os clientes: Com a versão 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Definir um status padrão para os cartões movidos para uma coluna do quadro</a><span style="color: #ff0000;"> Novo na Visualização!</span></p>
+                        <p>Agora é possível definir um status padrão para aplicar aos cartões movidos para uma coluna específica, selecionando um status personalizado e um status do sistema nas políticas de coluna. Quando você move um cartão para a coluna, o Workfront tenta primeiro aplicar o status personalizado (por exemplo, Aguardando feedback). Se o status personalizado não estiver disponível para esse cartão, a Workfront aplicará o status do sistema (por exemplo, Em espera). Além disso, se o status na tarefa ou problema conectado for alterado para o status personalizado ou do sistema definido na política de coluna, o cartão será movido automaticamente para a coluna .</p>
+                    </td>
+                    <td><p><b>Disponível nestas datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de visualização: 16 de fevereiro de 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Versão de produção para participação inicial: 23 de fevereiro de 2023 <span style="color: #ff0000;"> Esse recurso está disponível em produção nesta data somente por meio da opção de aceitação antecipada de recursos para as placas Workfront.</span></p>
+                                <p>Versão de produção para todos os clientes: Com a versão 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Coleções agora disponíveis nos Adobe Workfront Boards</a><span style="color: #ff0000;"> Novo na Visualização!</span></p>
+                        <p>Agora você pode criar coleções no painel de quadros. Uma coleção é um grupo de quadros para colaborar no trabalho. Depois de nomear a coleção, você pode adicionar quadros à coleção usando um conjunto de modelos que oferecem configurações predefinidas, como nomes de colunas.</p>
+                    </td>
+                    <td><p><b>Disponível nestas datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de visualização: 16 de fevereiro de 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Versão de produção para participação inicial: 23 de fevereiro de 2023 <span style="color: #ff0000;"> Esse recurso está disponível em produção nesta data somente por meio da opção de aceitação antecipada de recursos para as placas Workfront.</span></p>
+                                <p>Versão de produção para todos os clientes: Com a versão 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">O campo Estimativa em cartões conectados mapeia para o campo Pontos de história em objetos Workfront</a></p>
@@ -99,7 +152,6 @@ Para obter dicas sobre como se preparar para a próxima versão, consulte [Prepa
                         </ul>
                     </td>
                 </tr>
-                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">Visualizar cartão na coluna de entrada</a></p>
@@ -113,6 +165,77 @@ Para obter dicas sobre como se preparar para a próxima versão, consulte [Prepa
                             <li>
                                  <p>Versão de produção para participação inicial: 2 de fevereiro de 2023 <span style="color: #ff0000;"> Esse recurso está disponível em produção nesta data somente por meio da opção de aceitação antecipada de recursos para as placas Workfront.</span></p>
                                 <p>Versão de produção para todos os clientes: Com a versão 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### Melhorias no gerenciamento de projetos
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Recurso</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Datas de lançamento</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Copiar Horas Orçadas ao copiar um projeto</a><span style="color: #ff0000;"> Novo na Visualização!</span>
+                        <p>Agora, você tem a opção de copiar as horas orçadas na área Orçamento de Recursos do Caso de Negócios ou do Planejador de Recursos ao copiar um projeto. Antes dessa melhoria, as horas orçadas para o projeto não eram transferidas para o projeto copiado.</p>
+                    </td>
+                    <td><p><b>Disponível nestas datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de visualização: 16 de fevereiro de 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Versão de produção: 2 de março de 2023 (fora do ciclo)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### Melhorias no gerenciamento de recursos
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Recurso</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Datas de lançamento</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Introdução do campo Tempo de trabalho para calcular com precisão a capacidade do usuário</a><span style="color: #ff0000;"> Novo na Visualização!</span>
+                        <p>Para permitir que os gerentes de recursos calculem com precisão a disponibilidade de seus usuários e contabilizem o tempo que os usuários dedicam ao trabalho real relacionado ao projeto, estamos introduzindo o conceito de Tempo de Trabalho na Adobe Workfront.</p>
+                        <p>Você pode definir o valor do campo Tempo de trabalho para cada usuário, ao criar ou editar seu perfil.</p>
+                    </td>
+                    <td><p><b>Disponível nestas datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de visualização: 16 de fevereiro de 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Versão de produção: 2 de março de 2023 (fora do ciclo)</span></p>
                             </li>
                         </ul>
                     </td>
@@ -138,8 +261,8 @@ Para obter dicas sobre como se preparar para a próxima versão, consulte [Prepa
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Exportar pranchetas como PDF único ou vários arquivos PDF no Adobe Workfront para XD</span></a><span style="color: #ff0000;"> Novo em produção!</span>
-                        <p>No plug-in Adobe Workfront for XD, agora é possível optar por exportar as pranchetas como um único arquivo de PDF ou vários arquivos de PDF.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Exportar pranchetas como PDF único ou vários arquivos PDF no Adobe Workfront para XD</span></a>
+                        </span></a><p>No plug-in Adobe Workfront for XD, agora é possível optar por exportar as pranchetas como um único arquivo de PDF ou vários arquivos de PDF.</p>
                     </td>
                     <td><p><b>Disponível nestas datas:</b></p>
                         <ul>
