@@ -2,19 +2,19 @@
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: Remova resultados, atividades e projetos das metas nas metas do Adobe Workfront
+title: Remova indicadores de progresso das metas no Adobe Workfront Metas
 description: Você pode remover resultados, atividades e projetos de metas nas Metas da Adobe Workfront, quando eles não forem mais relevantes.
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
 
-# Remova resultados, atividades e projetos das metas nas metas do Adobe Workfront
+# Remova indicadores de progresso das metas no Adobe Workfront Metas
 
 <!-- for goal redesign PRODUCTION RELEASE: Should this article be called "Remove or disconnect progress indicators from goals" when this is available to ALL progress indicators (including "disconnect goals")-- if yes, updte the title everywhere else where this is linked?
 -->

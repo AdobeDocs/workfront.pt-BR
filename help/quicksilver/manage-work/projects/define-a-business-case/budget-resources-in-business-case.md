@@ -5,9 +5,9 @@ description: Como parte do planejamento de recursos, você pode orçar as funç�
 author: Alina
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Como parte do planejamento de recursos, você pode orçar as funções de trabal
 
 >[!NOTE]
 >
->Os recursos orçamentários não são o mesmo que programar recursos para um projeto. Ao orçar recursos, você estima as funções que podem ser necessárias para concluir o trabalho em um projeto. Para realmente programar ou atribuir usuários ao trabalho em um projeto, consulte [Introdução ao Agendamento de recursos](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md). Para obter informações sobre o planejamento de recursos no Adobe Workfront, consulte [Introdução ao planejamento de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+>Os recursos orçamentários não são o mesmo que programar recursos para um projeto. Ao orçar recursos, você estima as funções que podem ser necessárias para concluir o trabalho em um projeto. Para realmente programar ou atribuir usuários ao trabalho em um projeto, consulte [Gerenciar alocações de usuários no Balanceador de Carga de Trabalho](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
 Você deve associar funções de cargo ao projeto antes de poder orçar os recursos para ele. Veja a seguir formas de alocar funções de cargo a um projeto:
 

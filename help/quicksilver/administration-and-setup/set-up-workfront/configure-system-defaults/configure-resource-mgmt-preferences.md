@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,9 @@ Ao calcular a capacidade de um usuário, a Workfront considera as seguintes info
 * [!UICONTROL Agendar] [!UICONTROL Exceções] (dependendo de [!UICONTROL Agendar] for usada, poderá ser as exceções do agendamento do usuário ou aquelas associadas à variável [!DNL Workfront] [!UICONTROL Programação padrão])
 * Tempo limite do usuário
 * O valor do Equivalente de Tempo Total ([!UICONTROL FTE]) do usuário ou do [!DNL Workfront] sistema. O [!UICONTROL FTE] é igual a 1 quando o usuário trabalha em tempo integral, conforme definido no cronograma.
-* <span class="preview">O valor de [!UICONTROL Tempo de trabalho] para o usuário que se refere ao tempo que o usuário gasta no trabalho relacionado ao projeto. Isso não inclui tempo de despesas gerais, como reuniões e treinamento. O [!UICONTROL Tempo de trabalho] é igual a 1 quando o usuário está disponível para o trabalho o tempo todo, conforme indicado pelo [!UICONTROL FTE] ou o calendário, o que significa que eles não gastam tempo em trabalhos não relacionados ao projeto, como reuniões ou treinamentos.</span>
+<div class="preview">
+* O valor de [!UICONTROL Tempo de trabalho] para o usuário que se refere ao tempo que o usuário gasta no trabalho relacionado ao projeto. Isso não inclui tempo de despesas gerais, como reuniões e treinamento. O [!UICONTROL Work Time] é igual a 1 quando o usuário está disponível para trabalhar o tempo todo, conforme indicado pelo [!UICONTROL FTE] ou pelo agendamento, o que significa que ele não gasta tempo em trabalhos não relacionados ao projeto, como reuniões ou treinamentos.
+</div>
 
 Para obter informações sobre planejamento e programação de recursos em [!DNL Workfront], consulte [Introdução ao Gerenciamento de recursos](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 

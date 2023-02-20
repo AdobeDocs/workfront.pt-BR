@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Goals
 exl-id: 86d3b8d3-cf91-4f67-9be7-244fc296f43c
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,12 @@ Continuamos a fazer melhorias na maneira como você usa as Metas da Workfront co
 
 * Atualização da experiência de impressão de uma lista de metas com um link de impressão mais intuitivo na seção Lista de metas.
 
-   Para obter informações sobre metas de impressão, consulte [Imprima a lista de metas nas metas do Adobe Workfront](../../../workfront-goals/goal-management/print-the-goal-list.md).
+   Para obter informações sobre como imprimir metas, consulte &quot;Imprimir a lista de metas nas metas do Adobe Workfront&quot;.
+
+   >[!NOTE]
+   >
+   >  A funcionalidade de imprimir metas foi descontinuada e removida do Workfront.
+
 
 * Foram adicionadas mais informações sobre Resultados e atividades no painel Detalhes da meta , para que você possa entender claramente a diferença entre eles.
 

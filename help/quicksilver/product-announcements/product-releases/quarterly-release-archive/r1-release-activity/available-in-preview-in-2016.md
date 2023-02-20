@@ -6,9 +6,9 @@ description: Os seguintes recursos foram disponibilizados no ambiente de Visuali
 author: Luke
 feature: Product Announcements
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: aa1bf796982fa91ff9096d92fef1fb95c2e29778
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,23 @@ Os seguintes recursos foram disponibilizados no ambiente de Visualização em 20
 
 ## Melhorias no agendamento de recursos
 
-Agora é possível ver todas as tarefas em projetos para os quais você é o Gerenciador de Recursos, permitindo que você seja mais informado ao tomar decisões de agendamento. 
+>[!NOTE]
+>
+>As ferramentas de Agendamento de recursos foram descontinuadas e removidas do Workfront com a versão 23.1. Para obter informações sobre como programar recursos usando o Balanceador de Carga de Trabalho, consulte [Visão Geral do Balanceador de Carga de Trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-Para obter informações gerais sobre as ferramentas disponíveis para agendar recursos, consulte [Introdução ao Agendamento de recursos](../../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md)
+Agora é possível ver todas as tarefas em projetos para os quais você é o Gerenciador de Recursos, permitindo que você seja mais informado ao tomar decisões de agendamento.
 
-Para ajustar as informações exibidas na linha do tempo do agendamento, crie um filtro, conforme descrito em [Filtrar informações na área Agendamento](../../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)
+Para obter informações gerais sobre as ferramentas disponíveis para agendar recursos, consulte &quot;Introdução ao Agendamento de Recursos&quot;.
 
-Além de exibir tarefas nos projetos pelos quais você é responsável, você pode usar a linha do tempo de agendamento para fazer alterações nas atribuições de recursos. Para obter informações sobre como gerenciar atribuições de usuários na linha do tempo de agendamento, consulte [Atribuir manualmente tarefas e problemas não atribuídos nas áreas de Agendamento](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
+Para ajustar as informações exibidas na linha do tempo do agendamento, crie um filtro, conforme descrito em &quot;Filtrar informações na área Agendamento&quot;.
+
+Além de exibir tarefas nos projetos pelos quais você é responsável, você pode usar a linha do tempo de agendamento para fazer alterações nas atribuições de recursos. Para obter informações sobre como gerenciar atribuições de usuários na linha do tempo de agendamento, consulte &quot;Atribuir manualmente tarefas não atribuídas e problemas nas áreas de agendamento&quot;.
 
 ## Gerenciar alocações de usuário na linha do tempo de agendamento
 
 Agora, ao programar recursos com as novas ferramentas de agendamento de recursos, é possível determinar como as horas planejadas de uma tarefa ou problema são alocadas aos usuários. Você pode dividir horas entre dias na duração da tarefa e entre usuários atribuídos.
 
-Para obter mais informações, consulte [Gerenciar alocações de usuários nas áreas de Agendamento](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
+Para obter mais informações, consulte &quot;Gerenciar alocações de usuários nas áreas de Agendamento&quot;.
 
 ## As alocações de usuários são desativadas por padrão
 
@@ -39,7 +43,7 @@ Sombreamento de alocação de usuário na linha do tempo de agendamento quando o
 
 Anteriormente, o sombreamento de alocação era exibido por padrão e não podia ser desativado.
 
-Para obter mais informações sobre como ativar as opções de alocação de usuários, consulte [Gerenciar alocações de usuários nas áreas de Agendamento](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md) em  [Gerenciar alocações de usuários nas áreas de Agendamento](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
+Para obter mais informações sobre como ativar as opções de alocação de usuários, consulte &quot;Gerenciar alocações de usuários nas áreas de agendamento&quot;.
 
 ## Modelo de layout determina se o calendário novo ou herdado é exibido na área de trabalho Minha
 

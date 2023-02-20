@@ -6,9 +6,9 @@ description: Planejar uma visão geral do projeto
 author: Alina
 feature: Work Management
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 1834439ed43fb97c5287fc33abf860de77683e1b
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
@@ -144,11 +144,11 @@ Ao definir tarefas, considere o seguinte:
 
    Para obter mais informações sobre Horas Planejadas, consulte o artigo [Visão geral das Horas Planejadas](../../../manage-work/tasks/task-information/planned-hours.md).
 
-* Atribua cada tarefa a um usuário ou equipe responsável por concluí-la. 
+* Atribua cada tarefa a um usuário ou equipe responsável por concluí-la.
 * Verifique a disponibilidade dos usuários que você está atribuindo às tarefas. Certifique-se de que eles sejam livres para trabalhar e não sobrealocados para que possam concluir suas tarefas atribuídas. Se os usuários estiverem com alocação excessiva ou tiverem tempo de folga em suas programações, considere um dos seguintes:
 
    * Reduza as Horas Planejadas de cada tarefa.
    * Adicione mais usuários a uma tarefa para garantir que ela possa ser concluída durante o tempo alocado para ela.
    * Atribua novamente as tarefas a usuários que estão disponíveis sem outras restrições.\
       Para obter mais informações sobre o planejamento dos recursos do projeto, consulte o artigo [Planejamento de recursos no Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
-      Para obter mais informações sobre como programar seus recursos para realizar o trabalho em um projeto, consulte o artigo [Agendamento de recursos](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
+      Para obter mais informações sobre como programar seus recursos para realizar o trabalho em um projeto, consulte [Visão Geral do Balanceador de Carga de Trabalho](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

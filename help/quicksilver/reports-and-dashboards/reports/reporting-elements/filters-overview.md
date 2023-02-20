@@ -7,9 +7,9 @@ description: Você pode usar filtros no Adobe Workfront para reduzir a quantidad
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: a74cc358c547e11a55cce728ad5330712ed0bd49
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1840'
 ht-degree: 1%
 
 ---
@@ -81,9 +81,6 @@ Você pode usar filtros integrados ou criar filtros personalizados nas seguintes
 * Relatório de utilização
 
    Para obter mais informações, consulte a seção [Filtrar informações de utilização](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filtering-utilization-information) no artigo [Exibir informações de utilização de recursos](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
-
-* Áreas de agendamento de recursos\
-   Para obter informações, consulte o artigo [Filtrar informações na área Agendamento](../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md).
 
 * Balanceador de carga de trabalho
 

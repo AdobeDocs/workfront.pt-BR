@@ -6,9 +6,9 @@ description: Esta página descreve todas as alterações disponíveis no ambient
 author: Luke
 feature: Product Announcements
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1345'
 ht-degree: 2%
 
 ---
@@ -31,6 +31,10 @@ Para obter mais informações, consulte  [Vincular documentos de aplicativos ex
 
 ## Equipe Atualizada Trabalhando No Calendário
 
+>[!NOTE]
+>
+>As ferramentas de Agendamento de recursos foram descontinuadas e removidas do Workfront com a versão 23.1. Para obter informações sobre como programar recursos usando o Balanceador de Carga de Trabalho, consulte [Visão Geral do Balanceador de Carga de Trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+
 O calendário Trabalhar no , disponível para equipes, agora contém funcionalidades adicionais e uma aparência atualizada. O calendário Trabalho em equipe agora funciona de forma semelhante à ferramenta de agendamento de recursos para projetos.
 
 A equipe atualizada Trabalhando no calendário inclui as seguintes melhorias:
@@ -52,22 +56,26 @@ Diferenças da ferramenta de agendamento de recursos ao agendar recursos para pr
 * Os problemas são exibidos por padrão no calendário Trabalhando da equipe.\
    Ao programar recursos para projetos, os problemas não são exibidos por padrão.
 
-Para obter mais informações sobre como usar a equipe atualizada do calendário, consulte [Agendamento de recursos](../../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
+Para obter mais informações sobre como usar a equipe atualizada no calendário, consulte &quot;Agendamento de recursos&quot;.
 
 ## Aprimoramentos no agendamento de recursos
 
 A linha do tempo de programação inclui as seguintes melhorias:
 
-* [Usar o filtro para controlar quais usuários são exibidos na linha do tempo de agendamento](#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline)
-* [Os usuários permanecem na linha do tempo depois de receberem uma tarefa](#users-remain-on-the-timeline-after-being-assigned-a-task)
+* &quot;Use o filtro para controlar quais usuários são exibidos na linha do tempo do agendamento&quot;
+* &quot;Os usuários permanecem na linha do tempo depois de receber uma tarefa&quot;
 
 ### Usar o filtro para controlar quais usuários são exibidos na linha do tempo de agendamento {#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline}
+
+>[!NOTE]
+>
+>As ferramentas de Agendamento de recursos foram descontinuadas e removidas do Workfront com a versão 23.1. Para obter informações sobre como programar recursos usando o Balanceador de Carga de Trabalho, consulte [Visão Geral do Balanceador de Carga de Trabalho](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 O filtro agora pode ser usado para controlar quais usuários são exibidos na linha do tempo do agendamento, além de quais tarefas e problemas são exibidos na área Não atribuído. Quando os usuários são selecionados no filtro, somente os usuários selecionados são exibidos, independentemente de terem uma atribuição de função que corresponda à atribuição de função de tarefas na área Não atribuído. Todas as tarefas atribuídas a esse usuário também são exibidas.
 
 Antes dessa alteração, o filtro controlava somente quais tarefas e problemas eram exibidos na área Não atribuído. Os usuários eram exibidos na linha do tempo de agendamento somente se o usuário correspondesse à atribuição de função de uma tarefa na área Não atribuído.
 
-Para obter mais informações sobre como usar o filtro para controlar o que é exibido na linha do tempo do agendamento, consulte  [Filtrar informações na área Agendamento](../../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)e  [Atribuir manualmente tarefas e problemas não atribuídos nas áreas de Agendamento](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md#automatically-assigning-unassigned-tasks-and-issues) em [Atribuir manualmente tarefas e problemas não atribuídos nas áreas de Agendamento](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+Para obter mais informações sobre como usar o filtro para controlar o que é exibido na linha do tempo de agendamento, consulte &quot;Filtrar informações na área Agendamento&quot; e &quot;Atribuir manualmente tarefas e problemas não atribuídos nas áreas de Agendamento&quot;.
 
 ### Os usuários permanecem na linha do tempo depois de receberem uma tarefa {#users-remain-on-the-timeline-after-being-assigned-a-task}
 
@@ -75,7 +83,7 @@ Os usuários permanecem na linha do tempo de agendamento depois de receberem uma
 
 Antes dessa alteração, os usuários desapareciam da linha do tempo de agendamento imediatamente depois de receberem uma tarefa ou problema se não houvesse tarefas ou problema restantes na área Não atribuído com uma atribuição de função correspondente.
 
-Para obter mais informações, consulte  [Atribuir manualmente tarefas e problemas não atribuídos nas áreas de Agendamento](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md#automatically-assigning-unassigned-tasks-and-issues) em [Atribuir manualmente tarefas e problemas não atribuídos nas áreas de Agendamento](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+Para obter mais informações, consulte &quot;Atribuir manualmente tarefas e problemas não atribuídos nas áreas de agendamento&quot;.
 
 ## Personalizar a terminologia do Workfront ao alterar os nomes dos objetos
 

@@ -6,9 +6,9 @@ description: Definir uma Estrutura de Detalhamento de Trabalho (WBS) para um pro
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1738'
 ht-degree: 1%
 
 ---
@@ -108,7 +108,7 @@ No início de um ano fiscal ou trimestre, você pode gerenciar seus recursos em 
 Para obter informações sobre o planejamento do uso de seus recursos em um nível superior, consulte o artigo [Introdução ao planejamento de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 Ao gerenciar os recursos no contexto da criação da Estrutura de Detalhamento do Trabalho de um projeto e garantir que cada tarefa seja atribuída ao recurso correto, você estará pronto para agendar os recursos para o trabalho que precisa ser feito.\
-Para obter informações sobre como programar seus recursos, consulte os artigos na [Agendamento de recursos](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md) seção.
+Para obter informações sobre como programar seus recursos, consulte os artigos na [O Balanceador de Carga de Trabalho](../../../resource-mgmt/workload-balancer/workload-balancer.md) seção.
 
 ## Estimativa das finanças dos projetos
 

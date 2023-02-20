@@ -6,9 +6,9 @@ description: Ao gerenciar atribuições de tarefas, você pode modificá-las sim
 author: Alina
 feature: Work Management
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '976'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,6 @@ Ao gerenciar atribuições de tarefas, você pode modificá-las simultaneamente 
 
 Este artigo se refere à modificação de várias atribuições de usuário para várias tarefas em uma lista de tarefas. Consulte também os seguintes artigos para modificar atribuições em várias tarefas em outras áreas:
 
-* Para obter informações sobre modificação de atribuições em várias tarefas na área Agendamento, consulte [Modificar várias atribuições de usuários para tarefas nas áreas de Agendamento](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
 * Para obter informações sobre a atribuição de tarefas usando o Balanceador de Carga de Trabalho, consulte [Visão Geral da atribuição de trabalho no Balanceador de Carga de Trabalho](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 Para obter informações sobre como atribuir uma tarefa a um recurso em uma lista, consulte [Atribuir tarefas](../../../manage-work/tasks/assign-tasks/assign-tasks.md).

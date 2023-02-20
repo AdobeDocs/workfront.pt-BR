@@ -7,9 +7,9 @@ description: Os resultados e as atividades são indicadores de progresso para um
 author: Alina
 feature: Workfront Goals
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
-source-git-commit: a9a43cba127917be5c030b79fa099a960c1dcd56
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,8 @@ For additional information about access to Workfront Goals, see [Requirements to
 >  Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Metas.
 >
 >Para obter informações adicionais sobre o acesso às Metas da Workfront, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+Para registrar o progresso nas Metas do Workfront, você deve associar indicadores de progresso às metas. Além dos resultados e atividades, você também pode associar projetos ou metas secundárias a uma meta para registrar o progresso.
 
 Esta seção contém os seguintes artigos:
 

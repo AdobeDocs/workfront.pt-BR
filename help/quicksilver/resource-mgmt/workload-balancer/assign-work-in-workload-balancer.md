@@ -6,7 +6,7 @@ description: Como gerenciador de recursos, você pode usar o Balanceador de Carg
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 0%
@@ -49,8 +49,9 @@ O Workfront usa as seguintes informações para calcular a capacidade do usuári
 * O tempo de folga do usuário. Isso indica quais dias o usuário planeja decolar.
 
    Para obter mais informações, consulte [Configurar o horário pessoal no Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
-
-* <span class="preview">O Tempo de Trabalho do usuário. Isso indica a porcentagem do tempo FTE que o usuário está disponível para executar trabalho relacionado ao projeto, sem incluir sobrecarga. Defina o valor Tempo de trabalho como 1 para indicar que o usuário está disponível para trabalho relacionado ao projeto e todo o seu equivalente em tempo integral.</span>
+<div class="preview">
+* O horário de trabalho do usuário. Isso indica a porcentagem do tempo FTE que o usuário está disponível para executar trabalho relacionado ao projeto, sem incluir sobrecarga. Defina o valor Tempo de trabalho como 1 para indicar que o usuário está disponível para trabalho relacionado ao projeto e todo o seu equivalente em tempo integral.
+</div>
 
 ## Atribuir trabalho no Balanceador de Carga de Trabalho
 

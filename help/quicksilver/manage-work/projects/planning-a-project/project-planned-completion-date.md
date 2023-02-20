@@ -7,7 +7,7 @@ description: A Data de conclusão planejada de um projeto é a data na qual o pr
 author: Alina
 feature: Work Management
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Para agendar um projeto a partir da Data de conclusão:
 
 1. Selecionar **Detalhes do projeto** no painel esquerdo, em seguida, clique no botão **Editar projeto** no canto superior direito.
 
-1. No **Agendar de** , selecione **Data de conclusão**.
+1. No **Modo de agendamento** , selecione **Data de conclusão**.
 
 1. Especifique a **Data de Conclusão Planejada** do projeto.
 1. Clique em **Salvar alterações**.
@@ -119,7 +119,7 @@ Para agendar um projeto a partir da Data inicial:
 
 1. Selecionar **Detalhes do projeto** no painel esquerdo, em seguida, clique no botão **Editar projeto** no canto superior direito.
 
-1. No **Agendar de** , selecione **Data inicial**.
+1. No **Modo de agendamento** , selecione **Data inicial**.
 
 1. Especifique a **Data de início planejada** do projeto.
 1. Clique em **Salvar alterações**.

@@ -7,9 +7,9 @@ description: Revise os seguintes artigos para saber onde você começa com as Me
 author: Alina
 feature: Workfront Goals
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,5 @@ Analise os seguintes artigos para saber onde você começa com as Metas do Workf
 * [Visão geral do progresso e condição da meta nas Metas da Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md)
 * [Filtrar informações em metas do Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 * [Gerenciar comentários da meta nas Metas da Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md)
-* [Imprima a lista de metas nas metas do Adobe Workfront](../../workfront-goals/goal-management/print-the-goal-list.md)
 * [Atualizar metas na seção Detalhes da meta em Metas da Adobe Workfront](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
 * [Analisar metas em andamento nas metas da Adobe Workfront](../../workfront-goals/goal-management/view-in-trouble-goals.md)

@@ -7,7 +7,7 @@ description: Você pode atribuir tarefas ou cancelar a atribuição de tarefas d
 author: Alina
 feature: Work Management
 exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
-source-git-commit: 7e77223595d3c9cf0d6592a09e893142439adb2c
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Este artigo contém informações gerais sobre o impacto da modificação de atr
 
 * Para obter informações sobre atribuição de tarefas, consulte [Atribuir tarefas](../../../manage-work/tasks/assign-tasks/assign-tasks.md) e [Modificar várias atribuições de usuário em uma lista de tarefas](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
-* Para obter informações sobre modificação de atribuições em várias tarefas na área Agendamento, consulte [Modificar várias atribuições de usuários para tarefas nas áreas de Agendamento](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
+* Para obter informações sobre a modificação de atribuições em várias tarefas na área Agendamento, consulte &quot;Modificar várias atribuições de usuários para tarefas nas áreas de Agendamento&quot;.
 * Para obter informações sobre a atribuição de tarefas usando o Balanceador de Carga de Trabalho, consulte [Visão Geral da atribuição de trabalho no Balanceador de Carga de Trabalho](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 Algumas informações neste artigo também se aplicam a atribuições para problemas. Para obter mais informações sobre atribuição de problemas e considerações adicionais, consulte [Modificar visão geral de atribuições de emissão](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).

@@ -6,7 +6,7 @@ description: Você pode programar recursos para um único projeto para indicar a
 author: Alina
 feature: Work Management
 exl-id: d59f6083-49d3-4fe6-ac60-656f992363d9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 2%
@@ -59,7 +59,7 @@ Para acessar a ferramenta Agendamento em um projeto:
 1. Vá para o projeto para o qual deseja agendar recursos.
 1. Clique no botão **Agendamento** ou na seção Balanceador de carga de trabalho no painel esquerdo. A seção Scheduling ou Workload Balancer pode estar localizada em **Mostrar mais**.
 
-   Para obter informações sobre como agendar recursos usando a ferramenta Agendamento em um projeto, consulte o [Modificar atribuições e alocações de usuários](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md#modify) no artigo [Introdução ao Agendamento de recursos](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
+   Para obter informações sobre como agendar recursos usando a ferramenta Agendamento em um projeto, consulte a seção &quot;Modificar atribuições e alocações de usuários&quot; no artigo &quot;Introdução ao agendamento de recursos&quot;.
 
 1. (Condicional e recomendado) Se você clicou em Agendamento, clique em **Alternar para Balanceador de Carga de Trabalho** para programar recursos usando o Balanceador de Carga de Trabalho.
 

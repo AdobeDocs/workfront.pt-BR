@@ -2,9 +2,9 @@
 user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 feature-set: Workfront
-source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '12695'
+source-wordcount: '12587'
 ht-degree: 1%
 
 ---
@@ -1626,18 +1626,6 @@ ht-degree: 1%
       * [Exportar informações do Planejador de Recursos](resource-mgmt/resource-planning/export-resource-planner.md)
       * [Relatório sobre Horas Orçadas do Planejador de Recursos](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
       * [Limitações de exibição do Planejador de recursos](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
-   * Agendamento de recursos {#resource-scheduling}
-      * [Agendamento de recursos](resource-mgmt/resource-scheduling/resource-scheduling-overview.md)
-      * [Introdução ao Agendamento de recursos](resource-mgmt/resource-scheduling/get-started-resource-scheduling.md)
-      * [Visão geral das áreas de Agendamento](resource-mgmt/resource-scheduling/overview-scheduling-areas.md)
-      * [Definir configurações nas áreas de Agendamento](resource-mgmt/resource-scheduling/configure-settings-scheduling-areas.md)
-      * [Permitir atribuições de usuários independentemente da função e associação de grupo nas áreas de Programação](resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md)
-      * [Atribuir automaticamente tarefas e problemas não atribuídos nas áreas de Agendamento](resource-mgmt/resource-scheduling/automatically-assign-items-scheduling-areas.md)
-      * [Configure como o Workfront calcula a hora do recurso e a disponibilidade do FTE para a área de Agendamento](resource-mgmt/resource-scheduling/calculate-hours-fte-scheduling-area.md)
-      * [Filtrar informações na área Agendamento](resource-mgmt/resource-scheduling/filter-scheduling-area.md)
-      * [Gerenciar alocações de usuários nas áreas de Agendamento](resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
-      * [Atribuir manualmente tarefas e problemas não atribuídos nas áreas de Agendamento](resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
-      * [Modificar várias atribuições de usuários para tarefas nas áreas de Agendamento](resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md)
    * Utilização de Recursos {#resource-utilization}
       * [Utilização de Recursos](resource-mgmt/resource-utilization/resource-utilization.md)
       * [Exibir informações de utilização de recursos](resource-mgmt/resource-utilization/view-utilization-information.md)
@@ -1853,7 +1841,6 @@ ht-degree: 1%
       * [Filtrar informações em metas do Adobe Workfront](workfront-goals/goal-management/filter-information-wf-goals.md)
       * [Visão geral do status da meta em Metas da Adobe Workfront](workfront-goals/goal-management/goal-status-overview.md)
       * [Gerenciar comentários da meta nas Metas da Adobe Workfront](workfront-goals/goal-management/manage-goal-comments.md)
-      * [Imprima a lista de metas nas metas do Adobe Workfront](workfront-goals/goal-management/print-the-goal-list.md)
       * [Atualizar metas na seção Detalhes da meta em Metas da Adobe Workfront](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
       * [Analisar metas em andamento nas metas da Adobe Workfront](workfront-goals/goal-management/view-in-trouble-goals.md)
    * Alinhamento da meta em metas do Adobe Workfront {#goal-alignment}
@@ -1869,7 +1856,6 @@ ht-degree: 1%
       * [Atualizar o progresso da meta nas Metas da Adobe Workfront](workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
       * [Gerenciar metas na Lista de metas da Adobe Workfront](workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
       * [Analise gráficos para entender as tendências de progresso da meta nas metas do Adobe Workfront](workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)
-      * [Analisar metas na seção Publicação de metas da Adobe Workfront](workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md)
    * Resultados e atividades nas Metas da Adobe Workfront {#results-activities-adobe-workfront-goals}
       * [Resultados e atividades nas Metas da Adobe Workfront](workfront-goals/results-and-activities/results-and-activities.md)
       * [Adicionar atividades às metas em Metas da Adobe Workfront](workfront-goals/results-and-activities/add-activities-to-goals.md)
@@ -1877,7 +1863,7 @@ ht-degree: 1%
       * [Adicionar projetos às metas em Metas da Adobe Workfront](workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
       * [Editar resultados e atividades nas Metas da Adobe Workfront](workfront-goals/results-and-activities/edit-results-and-activities.md)
       * [Introdução aos resultados e atividades nas Metas da Adobe Workfront](workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
-      * [Remova resultados, atividades e projetos das metas nas metas do Adobe Workfront](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
+      * [Remova indicadores de progresso das metas no Adobe Workfront Metas](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
    * Configurações de metas do Adobe Workfront {#adobe-workfront-goal-settings}
       * [Configurações de metas do Adobe Workfront](workfront-goals/workfront-goals-settings/wf-goals-settings.md)
       * [Personalizar a terminologia do Adobe Workfront Metas](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
