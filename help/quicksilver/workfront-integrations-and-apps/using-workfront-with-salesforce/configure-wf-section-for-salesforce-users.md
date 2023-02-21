@@ -6,9 +6,9 @@ description: Depois de instalar [!DNL Adobe Workfront] para o Salesforce as a [!
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '705'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,6 @@ Você deve ter o seguinte acesso para usar a funcionalidade descrita neste artig
    Clique em **[!UICONTROL Novo]** para adicionar um novo layout.
 
 1. (Opcional) Arraste o **[!UICONTROL Seção]** para o layout e solte-o na posição desejada.\
-   ![salesforce_new_section_properties.png](assets/salesforce-new-section-properties-350x210.png)
 
 1. (Opcional) Especifique um nome para a nova seção.
 
@@ -82,15 +81,13 @@ Você deve ter o seguinte acesso para usar a funcionalidade descrita neste artig
 1. Clique em **[!UICONTROL OK]**.
 1. No **[!UICONTROL Layout]** , clique em **[!UICONTROL Páginas da força de visita].**
 
-1. Arraste e solte a **[!UICONTROL OportunidadesDaFrente]** para a nova seção na **[!UICONTROL Oportunidades]** Layout.
+1. Arraste e solte a **[!UICONTROL OportunidadesDaFrente DeTrabalhos]** para a nova seção na **[!UICONTROL Oportunidades]** Layout.
 
    Ou
 
    Arraste e solte a **[!UICONTROL WorkfrontAccounts]** para a nova seção na  **[!UICONTROL Conta]** Layout.\
-   ![[!DNL WorkfrontAccounts_component].png](assets/workfrontaccounts-component-350x139.png)
 
-1. Clique no botão **[!UICONTROL Propriedades]** no canto superior direito do componente recém-adicionado.\
-   ![](assets/salesforce-visualforce-page-properties-350x174.png)
+1. Clique no botão **[!UICONTROL Propriedades]** ícone no canto superior direito do componente recém-adicionado.\
 
 1. Para obter uma exibição ideal, especifique as seguintes propriedades para a variável [!DNL Workfront Visualforce] página:
 
@@ -104,8 +101,6 @@ Você deve ter o seguinte acesso para usar a funcionalidade descrita neste artig
    Todos os usuários que têm esse layout atribuído a eles agora podem ver a variável [!DNL Workfront] seção sobre os [!UICONTROL Oportunidades] ou [!UICONTROL Contas] objetos.
 
    Os usuários veem um [!DNL Workfront] tela de logon na [!DNL Workfront] seção. Se não tiverem uma [!DNL Workfront] , eles podem recolher a seção, mas não removê-la de seu layout.
-
-   ![[!DNL salesforce_classic_opportunity_with_workfront_panel].png](assets/salesforce-classic-opportunity-with-workfront-panel-350x161.png)
 
 ## Configure o [!DNL Workfront] na seção [!DNL Salesforce Lightning Experience] estrutura
 
@@ -142,14 +137,11 @@ Você pode adicionar o [!DNL Workfront] para o layout de um [!DNL Salesforce] [!
 1. Ir para um **[!UICONTROL Oportunidade]** ou **[!UICONTROL Conta]**.
 
 1. Clique no botão **[!UICONTROL Configuração]** ícone e, em seguida, clique em **[!UICONTROL Editar página]**.\
-   ![salesforce_lightning_offer_edit_area.png](assets/salesforce-lightning-opportunity-edit-area-350x116.png)
 
 1. Expanda o **[!UICONTROL Personalizado gerenciado]** seção.
 1. Arraste e solte a **[!DNL Workfront]** no seu [!UICONTROL Oportunidade] ou página Conta.
 
    Recomendamos o uso da largura total da página para o [!DNL Workfront] em vez de uma das colunas do layout.
-
-   ![[!DNL salesforce_lightning_builder].png](assets/salesforce-lightning-builder-350x229.png)
 
 1. Clique em **[!UICONTROL Salvar]**.
 
@@ -159,4 +151,3 @@ Você pode adicionar o [!DNL Workfront] para o layout de um [!DNL Salesforce] [!
    >
    >Os usuários veem um [!DNL Workfront] tela de logon na [!DNL Workfront] seção. Se não tiverem uma [!DNL Workfront] , eles podem recolher a seção, mas não removê-la de seu layout. Os usuários podem fazer logon usando o método de autenticação habilitado: Autenticação aprimorada ou o URL de SAML (Security Assertion Markup Language).
 
-   ![[!DNL salesforce_lightning__workfront_panel].png](assets/salesforce-lightning--workfront-panel-350x127.png)

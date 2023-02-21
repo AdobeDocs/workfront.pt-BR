@@ -6,16 +6,16 @@ description: Você pode procurar por [!DNL Workfront] em qualquer [!DNL Adobe Wo
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '412'
 ht-degree: 1%
 
 ---
 
 # Pesquisar e compartilhar [!DNL Adobe Workfront] itens em [!DNL Microsoft Teams]
 
-Você pode procurar por [!DNL Workfront] em qualquer [!DNL Adobe WorkfrontWorkfront] no canal em [!DNL Microsoft Teams] e compartilhar esses itens com membros de suas equipes.
+Você pode procurar por [!DNL Workfront] em qualquer [!DNL Adobe Workfront] no canal em [!DNL Microsoft Teams] e compartilhar esses itens com membros de suas equipes.
 
 * [Pré-requisitos para compartilhamento [!DNL Workfront] itens em [!DNL Microsoft Teams]](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
 * [Pesquisar e compartilhar [!DNL Workfront] itens em [!DNL Microsoft Teams]](#search-for-and-share-adobe-workfront-items-in-microsoft-teams)
@@ -94,5 +94,5 @@ Para pesquisar uma [!DNL Workfront] item de [!DNL Microsoft Teams] e compartilh�
    Isso envia a mensagem, incluindo o [!DNL Workfront] ao seu canal.\
    Todos os membros do canal podem ver essa mensagem, incluindo as informações sobre o [!DNL Workfront] cartão.
 
-1. Clique em **[!UICONTROL Exibir no Workfront]** para exibir o item no Workfront.\
-   Somente usuários que têm uma [!DNL Workfront] licença pode visualizar um item no Workfront.
+1. Clique em **[!UICONTROL Exibir no Workfront]** para exibir o item em [!DNL Workfront].\
+   Somente usuários que têm uma [!DNL Workfront] a licença pode exibir um item em [!DNL Workfront].

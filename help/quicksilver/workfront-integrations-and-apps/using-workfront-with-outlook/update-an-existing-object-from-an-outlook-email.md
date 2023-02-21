@@ -6,9 +6,9 @@ description: Você pode atualizar um projeto, tarefa ou problema existente com i
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 297eb1c4-ee9f-4bb3-a412-18f23c74b0eb
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,10 @@ Seu [!DNL Workfront] o administrador deve habilitar [!DNL Outlook for Office] co
 1. Clique no botão **[!DNL Workfront]** ícone no canto superior direito da mensagem de email para exibir o complemento Workfront.\
    Talvez seja necessário clicar na seta apontando para baixo no canto superior direito do email para acessar o [!DNL Workfront] ícone .
 
-1. Clique no botão **[!UICONTROL Menu]** ícone para exibir a lista de [!DNL Workfront] opções.\
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+1. Clique no botão **[!UICONTROL Menu]** ícone ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) para exibir a lista de [!DNL Workfront] opções.\
+
 
 1. Clique em **[!UICONTROL Atualizar] no Workfront**.\
-   ![outlook_Update_in_workfront_menu.png](assets/outlook-update-in-workfront-menu-253x345.png)\
    Você pode atualizar as seguintes informações do email antes que ele seja salvo como uma tarefa:
 
    * **[!UICONTROL Tipo]**: Selecione o tipo de objeto que você está atualizando. Você pode selecionar **[!UICONTROL Projeto]**, **[!UICONTROL Tarefa]** ou **[!UICONTROL Problema]**. O objeto selecionado determina os resultados exibidos na **[!UICONTROL Nome]** abaixo. Se não tiver certeza do tipo de objeto, selecione **[!UICONTROL Todos]** para procurar projetos, tarefas e problemas simultaneamente.
@@ -67,7 +66,6 @@ Seu [!DNL Workfront] o administrador deve habilitar [!DNL Outlook for Office] co
 1. (Opcional) Clique em **[!UICONTROL Incluir outros]**, comece digitando o nome dos usuários que deseja incluir na atualização e clique no nome quando ele for exibido na lista suspensa.\
    Repita esse processo para incluir usuários adicionais e clique em **[!UICONTROL Concluído]**.\
    Por padrão, o usuário que você está respondendo recebe uma notificação independentemente de incluí-los.\
-   ![o365_addin_include.png](assets/o365-addin-includeothers.png)
 
 1. (Opcional) Clique no botão **[!UICONTROL Bloquear]** para restringir essa atualização aos usuários em sua empresa. Quando a atualização é bloqueada, os usuários fora da empresa não podem visualizá-la.
 

@@ -6,9 +6,9 @@ description: Você pode receber notificações de [!DNL Adobe Workfront] sobre i
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,7 @@ Considere o seguinte ao trabalhar com [!DNL Workfront] notificações de [!DNL M
 
 Para gerenciar a [!DNL Workfront] notificações que você pode receber em [!DNL Microsoft Teams]:
 
-1. Clique no botão **[!UICONTROL Mais adição]** ícone aplicativos na barra de navegação esquerda em [!DNL Microsoft Teams].
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. Clique no botão **[!UICONTROL Mais adição]** Ícone de aplicativos (três pontos) na barra de navegação esquerda em [!DNL Microsoft Teams].
 
 1. Clique em [!DNL Workfront] na lista exibida.
 1. Selecione o **[!UICONTROL Configurações]** guia .

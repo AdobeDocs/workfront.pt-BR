@@ -6,9 +6,9 @@ description: Ao vincular [!DNL Jira] problemas para [!DNL Adobe Workfront] taref
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1703'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ A lista a seguir mostra qual [!DNL Workfront] campos sincronizam com [!DNL Jira]
   </tr> 
   <tr> 
    <td>Forms personalizado e campos personalizados</td> 
-   <td> <p> Exibir no [!DNL Workfront] painel direito do [!DNL Jira] problema. <br>Somente os Campos personalizados que têm um valor real são exibidos no painel.<br><img src="assets/new-custom-form-in-workfront-side-panel-1012x1314.png" alt="custom_form_in_workfront_side_panel.png" style="width: 1012;height: 1014;"></p> <p>Observação: As seções de Formulário personalizado são exibidas com o nível de acesso da variável [!DNL Workfront] administrador. </p> </td> 
+   <td> <p> Exibir no [!DNL Workfront] painel direito do [!DNL Jira] problema. <br>Somente os Campos personalizados que têm um valor real são exibidos no painel.<br></p> <p>Observação: As seções de Formulário personalizado são exibidas com o nível de acesso da variável [!DNL Workfront] administrador. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Problema ou Prioridade da tarefa]</td> 
@@ -201,8 +201,7 @@ Para registrar o tempo de um item em [!DNL Jira] e faça com que registre ambos 
 
 1. Faça logon [!DNL Jira].
 1. Vá para o [!DNL Jira] problema que está vinculado à variável [!DNL Workfront] item.
-1. Expanda o **[!UICONTROL Mais]** e clique em **[!UICONTROL Trabalho de registro]**.\
-   ![log_time_from_More_menu_in_Jira.png](assets/new-log-time-from-more-menu-in-jira-994x594.png)
+1. Expanda o **[!UICONTROL Mais]** e clique em **[!UICONTROL Trabalho de registro]**.
 
 1. No **[!UICONTROL Tempo gasto]** , especifique a quantidade de tempo gasto trabalhando nesse problema. Você deve especificar o tempo usando os seguintes períodos:
 
@@ -225,8 +224,6 @@ Você pode registrar o tempo apenas para o link [!DNL Workfront] do [!DNL Jira] 
 
 1. Clique no botão **[!UICONTROL Hora de registro]** ícone .
 
-   ![Log_time_in_Jira.png](assets/log-time-in-jira.png)
-
 1. Especifique a quantidade de **[!UICONTROL Horas]** e **[!UICONTROL Minutes]** você deseja registrar o problema.
 
 1. Clique em **[!UICONTROL Hora de registro]**.
@@ -246,7 +243,7 @@ Para comentar de [!DNL Jira] para [!DNL Workfront] item:
 
    Os detalhes da [!DNL Workfront] deve ser exibido na [!DNL Workfront] painel direito do problema.
 
-1. Clique no botão **[!UICONTROL Comentários]** no ícone na [!DNL Workfront] ou na **[!UICONTROL Comentários]** guia . ![Jira_comments_icon.png](assets/jira-comments-icon.png)
+1. Clique no botão **[!UICONTROL Comentários]** no ícone na [!DNL Workfront] ou no **[!UICONTROL Comentários]** guia .
 
 1. Comece digitando um comentário e clique em **[!UICONTROL Enviar]**.
 

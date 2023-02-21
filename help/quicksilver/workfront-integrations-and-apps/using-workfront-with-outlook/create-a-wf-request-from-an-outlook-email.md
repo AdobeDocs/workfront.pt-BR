@@ -6,9 +6,9 @@ description: Você pode criar um [!DNL Adobe Workfront] de um email no Outlook.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -56,14 +56,10 @@ Para criar um [!DNL Workfront] Solicitação de [!DNL Outlook]:
 1. Clique no botão **[!DNL Workfront]** ícone no canto superior direito da mensagem de email para exibir o complemento Workfront.\
    Talvez seja necessário clicar na seta apontando para baixo no canto superior direito do email para acessar o [!DNL Workfront] ícone .
 
-1. Clique no botão **[!UICONTROL Menu]** ícone para exibir a lista de [!DNL Workfront] opções.
-
-   ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png)
+1. Clique no botão **[!UICONTROL Menu]** ícone ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png) para exibir a lista de [!DNL Workfront] opções.
 
 1. Clique em **[!UICONTROL Enviar solicitação]**.
 1. No **[!UICONTROL Selecionar um Tipo de Solicitação]** selecione a fila de solicitações à qual deseja enviar a solicitação.
-
-   ![o365_addin_submitrequest.png](assets/o365-addin-submitrequest.png)
 
 1. Especifique as seguintes informações:\
    Dependendo de como a fila de solicitações foi configurada, os campos disponíveis podem variar. Para obter uma lista completa e a descrição de possíveis campos, consulte [Criar e enviar [!DNL Adobe Workfront] requests](../../manage-work/requests/create-requests/create-submit-requests.md) artigo 10. o
@@ -79,4 +75,3 @@ Para criar um [!DNL Workfront] Solicitação de [!DNL Outlook]:
 
 1. (Opcional) Navegue de volta para [!DNL Outlook]e selecione o email original.\
    Na parte superior do [!DNL Workfront] painel de complementos, observe a confirmação com um link de que o email foi adicionado ao Workfront como uma solicitação. O link inclui a data em que foi convertido.\
-   ![outlook_submit_as_a_request.png](assets/outlook-submitted-as-a-request-350x130.png)

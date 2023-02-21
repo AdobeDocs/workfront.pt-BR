@@ -6,9 +6,9 @@ description: É possível converter emails em [!DNL Adobe Workfront] tarefas ou 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 00755c27-9fc9-4357-a39b-4f9772484252
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -49,13 +49,11 @@ Seu [!DNL Workfront] o administrador deve habilitar [!DNL Outlook for Office] co
 
    Talvez seja necessário clicar na seta apontando para baixo no canto superior direito do email para acessar o [!DNL Workfront] ícone .
 
-1. Clique no botão **[!UICONTROL Menu]** ícone para exibir a lista de [!DNL Workfront] opções.
+1. Clique no botão **[!UICONTROL Menu]** ícone ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) para exibir a lista de [!DNL Workfront] opções.
 
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+
 
 1. Clique em **[!UICONTROL Adicionar ao trabalho]**.
-
-   ![outlook__add_to_work.png](assets/outlook---add-to-work-302x413.png)
 
 1. Selecione o **[!UICONTROL Adicionar ao projeto]** campo.
 1. Comece a digitar o nome de um projeto no **[!UICONTROL Projeto]** e selecione-o quando aparecer na lista.
@@ -95,4 +93,3 @@ Seu [!DNL Workfront] o administrador deve habilitar [!DNL Outlook for Office] co
 
    Na parte superior do [!DNL Workfront] painel complementar, observe a confirmação com um link ao qual o email foi adicionado [!DNL Workfront] como uma tarefa ou um problema. O link inclui a data em que foi convertido.
 
-   ![outlook_this_email_was_added_as_an_issue.png](assets/outlook-this-email-was-added-as-an-issue-350x126.png)

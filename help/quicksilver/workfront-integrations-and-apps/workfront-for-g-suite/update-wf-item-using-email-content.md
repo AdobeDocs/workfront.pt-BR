@@ -7,7 +7,7 @@ description: Você pode atualizar um projeto, tarefa ou problema existente com i
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -57,8 +57,6 @@ Antes de atualizar uma [!DNL Workfront] item usando conteúdo de email de [!DNL 
 1. Em **[!UICONTROL Tipo]**, clique na seta suspensa e, em seguida, clique no tipo de objeto ao qual deseja adicionar a atualização.
 1. Clique no botão **[!UICONTROL Procurar por]** , comece digitando o nome do objeto ao qual deseja adicionar a atualização e selecione o item quando ele for exibido na lista abaixo.
 
-   ![](assets/click-search-for-task-issue.png)
-
    Essa opção varia, dependendo do que você selecionou na etapa 3. Pode ser **[!UICONTROL Pesquisar um projeto]**, **[!UICONTROL Procurar uma tarefa]** ou **[!UICONTROL Pesquisar por um problema]**.
 
    >[!NOTE]
@@ -90,8 +88,6 @@ Antes de atualizar uma [!DNL Workfront] item usando conteúdo de email de [!DNL 
 1. Clique em **[!UICONTROL Atualizar]**.
 
    Ao atualizar o navegador, uma mensagem com um link na parte inferior do [!DNL Workfront for G Suite] O painel confirma que você converteu o email em uma atualização:
-
-   ![](assets/email-was-converted-as-update.png)
 
    Você pode clicar no link para acessar o [!UICONTROL Atualizações] em [!DNL Workfront] para o objeto especificado na etapa 4.
 

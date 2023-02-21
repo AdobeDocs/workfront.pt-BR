@@ -7,7 +7,7 @@ description: Você pode acessar seu [!DNL Adobe Workfront] Conteúdo doméstico,
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -56,11 +56,7 @@ Antes de poder acessar [!UICONTROL Início] conteúdo de [!DNL G Suite], você d
 1. Se a variável [!UICONTROL Workfront para G Suite] não for exibido, clique no botão [!DNL Workfront] ícone ![](assets/wf-lion-icon.png) no [!DNL G Suite] barra lateral dos complementos na extremidade direita da página.
 1. Se você vir uma seta para a esquerda na parte superior de [!DNL Workfront] para [!DNL G Suite], clique na seta para acessar o [!UICONTROL Início] área.
 
-   ![](assets/left-arrow-to-home.png)
-
 1. No **[!UICONTROL Classificar por]** clique na seta expandir ![](assets/dropdown-arrow.png), em seguida, clique em uma opção para especificar como deseja agrupar os itens de trabalho, de modo que possa encontrar o que deseja.
-
-   ![](assets/sort-by-area.png)
 
    Ao classificar por **[!UICONTROL Data da confirmação]** ou **[!UICONTROL Conclusão planejada]** data, os itens de trabalho mais antigos estão no topo.
 

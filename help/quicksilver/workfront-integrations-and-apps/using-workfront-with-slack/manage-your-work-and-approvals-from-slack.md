@@ -6,9 +6,9 @@ description: Você pode acessar sua Lista de trabalho inicial, revisar e concord
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---
@@ -62,8 +62,7 @@ Antes de gerenciar seu trabalho e aprovações da [!DNL Slack], você deve
    >* Você pode iniciar seu comando com `/wf` em vez de `/workfront`.
 
 
-   Os botões dos quais você pode acessar listas de suas tarefas, emissões e aprovações são exibidos. Clicar em um dos botões exibe os 20 primeiros itens de cada lista em [!DNL Slack].\
-   ![](assets/slack-home-buttons-350x80.png)
+   Os botões dos quais você pode acessar listas de suas tarefas, emissões e aprovações são exibidos. Clicar em um dos botões exibe os 20 primeiros itens de cada lista em [!DNL Slack].
 
 1. (Opcional) Clique em **[!UICONTROL Tarefas]** para exibir todas as suas tarefas.
 
@@ -95,8 +94,7 @@ Antes de gerenciar seu trabalho e aprovações da [!DNL Slack], você deve
    >* Você pode iniciar seu comando com `/wf` em vez de `/workfront`.
 
 
-   As primeiras 20 tarefas na lista são exibidas.\
-   ![](assets/slack-two-tasks-350x286.png)
+   As primeiras 20 tarefas na lista são exibidas.
 
 1. Clique em **[!UICONTROL +`<remaining number>` more]** para exibir tarefas adicionais.
 1. Considere revisar as seguintes informações sobre seus itens de trabalho:
@@ -141,8 +139,7 @@ Antes de gerenciar seu trabalho e aprovações da [!DNL Slack], você deve
    >* Você pode iniciar seu comando com `/wf` em vez de `/workfront`.
 
 
-   Os primeiros 20 problemas na lista são exibidos.\
-   ![](assets/slack-two-issues-350x323.png)
+   Os primeiros 20 problemas na lista são exibidos.
 
 1. Clique em **[!UICONTROL + restante `<number>` more]** para exibir itens adicionais.
 1. Considere revisar as seguintes informações sobre seus itens de trabalho:
@@ -179,12 +176,6 @@ Antes de gerenciar seu trabalho e aprovações da [!DNL Slack], você deve
    Os primeiros 20 itens em seu **[!UICONTROL Aprovações]** exibição de lista. Informações adicionais sobre os itens também são exibidas, como o nome do usuário que o solicitou ou o nome do projeto ao qual o item pertence.
 
 1. Clique em **[!UICONTROL + restante `<number>` more]** para exibir itens adicionais.
-
-   ![slack_access_approvals_list.png](assets/slack-access-approvals-list-350x213.png)
-
-   ![](assets/slack-approve-a-document-350x362.png)
-
-   ![](assets/slack-approve-task-notification-350x105.png)
 
 1. Considere o gerenciamento de aprovações para os seguintes objetos:
 

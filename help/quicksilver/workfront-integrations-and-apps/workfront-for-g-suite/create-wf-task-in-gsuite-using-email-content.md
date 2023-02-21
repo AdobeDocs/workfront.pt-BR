@@ -7,7 +7,7 @@ description: Você pode converter um email externo (não gerado pelo Adobe) [!DN
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -59,8 +59,6 @@ Antes de criar um [!DNL Workfront] tarefa em [!DNL G Suite], você deve
 1. Se a variável [!UICONTROL Workfront para G Suite] não for exibido, clique no botão [!DNL Workfront] ícone ![](assets/wf-lion-icon.png) no [!DNL G Suite] barra lateral dos complementos na extremidade direita da página.
 1. Com a mensagem de email aberta em [!DNL G Suite], clique em uma opção em [!DNL Workfront for G Suite] para converter o email em um novo [!DNL Workfront] tarefa.
 
-   ![](assets/convert-email-task-issue-update.png)
-
 1. Selecione um **[!UICONTROL Criar novo]** opção para indicar se a tarefa fará parte de um projeto ou de uma tarefa pessoal independente de um projeto.
 1. Se quiser anexar a tarefa a um projeto pai, clique em **[!UICONTROL Nome do projeto]**, comece digitando o nome do projeto onde deseja que a tarefa seja executada e clique no nome do projeto quando ele for exibido na lista abaixo.
 1. Faça qualquer uma dessas alterações:
@@ -107,8 +105,6 @@ Antes de criar um [!DNL Workfront] tarefa em [!DNL G Suite], você deve
    Na parte inferior do **[!UICONTROL Detalhes]** , você também pode clicar em **[!UICONTROL Exibir em[!DNL Workfront]]** para acessar a nova tarefa no Workfront.
 
    Ao atualizar o navegador, uma mensagem com um link na parte inferior do [!DNL Workfront for G Suite] O painel confirma que você converteu o email em uma tarefa:
-
-   ![](assets/email-was-converted.png)
 
    Você pode clicar no link para ir para a exibição Detalhes, dentro do [!DNL Workfront for G Suite] painel, para a tarefa criada.
 

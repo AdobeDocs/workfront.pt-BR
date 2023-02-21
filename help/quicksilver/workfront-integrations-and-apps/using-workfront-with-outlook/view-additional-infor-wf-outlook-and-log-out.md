@@ -6,9 +6,9 @@ description: Você pode visualizar detalhes sobre a versão do complemento Adobe
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f2200d71-c81e-4b15-b631-07e08562609b
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -47,8 +47,6 @@ Seu [!DNL Workfront] o administrador deve habilitar [!DNL Outlook for Office] co
 1. Selecione um email em [!DNL Outlook].
 1. Clique em **[!DNL Workfront]** para exibir o complemento Workfront.
 1. Clique na seta suspensa ao lado do nome de usuário.
-
-   ![outlook_additional_information_for_the_app.png](assets/outlook-additional-information-for-the-app-249x341.png)
 
 1. Clique em uma das seguintes opções:
 

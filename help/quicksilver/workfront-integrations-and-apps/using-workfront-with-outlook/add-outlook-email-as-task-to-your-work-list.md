@@ -6,9 +6,9 @@ description: Você pode converter [!DNL Outlook] emails para [!DNL Adobe Workfro
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: fcd02116-ffeb-43d3-8541-5e30e6cfdc5e
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,10 @@ Seu [!DNL Workfront] o administrador deve habilitar [!DNL Outlook for Office] co
 1. Clique no botão **[!DNL Workfront]** ícone no canto superior direito da mensagem de email para exibir o [!DNL Workfront] suplemento.\
    Talvez seja necessário clicar na seta apontando para baixo no canto superior direito do email para acessar o [!DNL Workfront] ícone .
 
-1. Clique no botão **[!UICONTROL Menu]** ícone para exibir a lista de [!DNL Workfront] opções.\
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+1. Clique no botão **[!UICONTROL Menu]** ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) ícone para exibir a lista de [!DNL Workfront] opções.\
+
 
 1. Clique em **[!UICONTROL Adicionar ao trabalho]**.\
-   ![outlook_add_to_work_menu.png](assets/outlook-add-to-work-menu-242x337.png)
 
 1. Desmarque a opção **[!UICONTROL Adicionar ao projeto]** campo.
 1. (Opcional) Você pode atualizar as seguintes informações do email antes que ele seja salvo como uma tarefa:
@@ -68,4 +67,3 @@ Seu [!DNL Workfront] o administrador deve habilitar [!DNL Outlook for Office] co
 
 1. (Opcional) Navegue de volta para [!DNL Outlook]e selecione o email original.\
    Na parte superior do [!DNL Workfront] painel de complementos, observe a confirmação com um link de que o email foi adicionado ao Workfront como uma tarefa. O link inclui a data em que foi convertido.\
-   ![outlook_standalone_task_add.png](assets/outlook-standalone-task-added-350x123.png)

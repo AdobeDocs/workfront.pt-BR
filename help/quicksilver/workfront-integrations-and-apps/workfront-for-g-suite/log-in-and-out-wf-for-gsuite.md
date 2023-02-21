@@ -7,7 +7,7 @@ description: Este artigo descreve como fazer logon ou sair do [!DNL Adobe Workfr
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 1%
@@ -69,8 +69,6 @@ Antes de poder fazer logon ou sair de [!DNL Workfront for G Suite], você deve
 
 1. Se a variável [!UICONTROL Workfront para G Suite] não for exibido, clique no botão [!DNL Workfront] ícone ![](assets/wf-lion-icon.png) no [!DNL G Suite] barra lateral dos complementos na extremidade direita da página.
 1. Clique no botão **[!UICONTROL Mais ações]** na parte superior do [!DNL Workfront for G Suite] painel.
-
-   ![](assets/more-actions-icon.png)
 
 1. Clique em **[!UICONTROL Logout]** no menu exibido.
 

@@ -6,9 +6,9 @@ description: Depois que o proprietário da equipe instalar o Adobe Workfront par
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 0cb2ddf2a7d9cd9f1d257829097d467c9f0a5666
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '500'
 ht-degree: 1%
 
 ---
@@ -49,9 +49,7 @@ Seu [!DNL Microsoft Teams] o proprietário da equipe deve instalar [!DNL Workfro
 
 ## Enviar [!DNL Workfront] solicitações de [!DNL Microsoft Teams]
 
-1. Clique no botão **[!UICONTROL Mais aplicativos adicionados]** ícone na barra de navegação esquerda em Microsoft Teams.
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. Clique no botão **[!UICONTROL Mais aplicativos adicionados]** Ícone (três pontos) na barra de navegação esquerda em [!DNL Microsoft Teams].
 
 1. Clique em **[!DNL Workfront]** na lista exibida.
 1. Clique no botão **[!UICONTROL Solicitações]** guia .
@@ -89,14 +87,10 @@ Seu [!DNL Microsoft Teams] o proprietário da equipe deve instalar [!DNL Workfro
 
 ## Exibir [!DNL Workfront] solicitações enviadas em [!DNL Microsoft Teams]
 
-1. Clique no botão **[!UICONTROL Mais aplicativos adicionados]** ícone na barra de navegação esquerda em Microsoft Teams.
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. Clique no botão **[!UICONTROL Mais aplicativos adicionados]** Ícone (três pontos) na barra de navegação esquerda em [!DNL Microsoft Teams].
 
 1. Clique em **[!DNL Workfront]** na lista exibida.
 1. Clique no botão **[!UICONTROL Solicitações]** guia .
-
-   ![](assets/ms-teams-requests-page-with-count-350x198.png)
 
    As solicitações enviadas são listadas na [!UICONTROL Minhas solicitações enviadas] área do [!UICONTROL Solicitações] guia . Não é possível configurar as informações exibidas nessa guia sobre as solicitações enviadas.
 
