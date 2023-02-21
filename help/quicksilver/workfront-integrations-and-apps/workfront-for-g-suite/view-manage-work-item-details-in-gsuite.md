@@ -7,7 +7,7 @@ description: Você pode visualizar e gerenciar os detalhes de um item de trabalh
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: f818eadcfbb5a897485a25c25fc25ad057567116
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 0%
@@ -57,7 +57,6 @@ Antes de visualizar e gerenciar os detalhes do item de trabalho em [!DNL G Suite
 
    Quando você seleciona uma tarefa ou um problema, a variável **[!UICONTROL Detalhes]** está aberta. A área acima da **[!UICONTROL Detalhes]** exibe o nome do objeto pai, o nome da tarefa ou problema e a variável [!UICONTROL Data de vencimento] (se for uma tarefa) ou [!UICONTROL Data de prioridade] (se for um problema).
 
-   ![](assets/details-tab.png)
 
    Você pode executar várias tarefas nesta guia sem sair [!DNL G Suite], incluindo o seguinte:
 

@@ -7,7 +7,7 @@ description: Ao receber uma notificação sobre uma atualização em [!DNL Adobe
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: f818eadcfbb5a897485a25c25fc25ad057567116
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 >
 >Existe um [problema conhecido](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) com a versão atual de [!DNL Workfront for G Suite] não funciona conforme o esperado. Estamos trabalhando em uma nova versão e esperamos que ela seja lançada para o [!DNL Google Marketplace] num futuro próximo.
 
-Ao receber uma notificação sobre uma atualização em [!DNL Adobe] [!DNL Workfront], você pode postar rapidamente uma resposta de [!DNL Workfront for G Suite].
+Ao receber uma notificação sobre uma atualização em [!DNL Adobe Workfront], você pode postar rapidamente uma resposta de [!DNL Workfront for G Suite].
 
 ## Requisitos de acesso
 
