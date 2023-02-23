@@ -6,7 +6,7 @@ description: Substituição de API - Interno
 author: John
 feature: Workfront API
 exl-id: 45b42fe8-7ce3-441d-8fbc-b8db7f9b254e
-source-git-commit: 606d19b8a83b833aba6d6b15231a8683aa2cee40
+source-git-commit: c1cec2c08c66c704385cde1abd0c019fd59702da
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -39,8 +39,8 @@ O exemplo a seguir mostra o URI que chama API-Unsupported:
 https://<domainname>.my.workfront.com/attask/api/api-unsupported/proj/4c70...
 ```
 
-O exemplo a seguir mostra um URI que chama a Versão 7.0 da API:
+O exemplo a seguir mostra um URI que chama a Versão 15.0 da API:
 
 ```
-https://<domainname>.my.workfront.com/attask/api/v7.0/proj/4c70…
+https://<domainname>.my.workfront.com/attask/api/v15.0/proj/4c70…
 ```

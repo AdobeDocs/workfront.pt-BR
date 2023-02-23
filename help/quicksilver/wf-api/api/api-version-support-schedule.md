@@ -6,10 +6,10 @@ description: Controle de versão da API e cronograma de suporte
 author: John
 feature: Workfront API
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 183f7b766fd6f02b51625778e380cf00c5ecf61f
+source-git-commit: 5804eed9451084614cc6331a4234ae88d9b58b3c
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 10%
+source-wordcount: '217'
+ht-degree: 11%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 
 
-O Adobe Workfront lança novas versões da API semestralmente, a cada seis a oito meses. As versões da API são compatíveis por 3 anos após o lançamento. As versões de API com mais de 3 anos não são mais compatíveis.
+O Adobe Workfront lança regularmente novas versões da API, normalmente duas vezes por ano. As versões da API são compatíveis por 3 anos após o lançamento. As versões de API com mais de 3 anos não são mais compatíveis.
 
 A tabela a seguir mostra o cronograma de versão e suporte da API do Workfront.
 
