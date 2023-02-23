@@ -6,14 +6,16 @@ description: Você pode adicionar um cartão ao seu quadro que esteja conectado 
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: de7be49c7ee3fb58c332edd2f6367b31f2f79c17
+source-git-commit: 2a71ffd9180f2fe783675ae005165e1fd078178a
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Usar placas conectadas em placas
+
+{{highlighted-preview}}
 
 Você pode adicionar um cartão ao seu quadro que esteja conectado a tarefas e problemas existentes em [!DNL Workfront].
 
@@ -182,3 +184,27 @@ Depois de criar um cartão ad hoc, você pode convertê-lo em um cartão conecta
    O nome do projeto é exibido na área Conexão nos detalhes do cartão.
 
 1. Clique em **[!UICONTROL Fechar]** para retornar ao quadro.
+
+<div class="preview">
+
+## Registrar horas em uma placa conectada
+
+>[!NOTE]
+>
+>Esse recurso está disponível somente por meio da aceitação antecipada de recursos para as placas Workfront.
+
+Você deve ter as permissões corretas para registrar horas na tarefa ou problema conectado.
+
+Os campos de registro de tempo não são exibidos nos cartões conectados por padrão. Você deve ativar [!UICONTROL **Horas**] no [!UICONTROL Configurar] área sob [!UICONTROL Cartões]. Para obter mais informações, consulte [Personalizar quais campos são exibidos em um cartão](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+
+1. Insira o número de horas para a tarefa ou emissão.
+1. Selecione um [!UICONTROL Tipo de hora] no menu suspenso, se for diferente do padrão.
+1. Clique em [!UICONTROL **Hora de registro**].
+
+   ![Registrar horas no cartão](assets/log-hours-on-card.png)
+
+   O tempo de logon no cartão também é salvo na tarefa ou problema conectado.
+
+O tempo de logon no cartão é igual ao tempo de registro em uma tarefa ou problema. Para obter mais informações, consulte &quot;Log time on a project, task or issue&quot; (Tempo de logon em um projeto, tarefa ou problema) no artigo [Tempo de registro](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+</div>

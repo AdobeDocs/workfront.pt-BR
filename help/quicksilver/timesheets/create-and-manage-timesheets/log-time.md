@@ -6,14 +6,16 @@ description: Você pode registrar o tempo dos itens de trabalho no &Adobe Workfr
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 23a08c929b0a227c7a555af70ff731ef2df7a179
+source-git-commit: 4fc7e3b62f6518c9c4f93e711017fd27f0ecad4e
 workflow-type: tm+mt
-source-wordcount: '2897'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Tempo de registro
+
+{{highlighted-preview}}
 
 Você pode registrar o tempo para itens de trabalho no Adobe Workfront para indicar o número de horas que você gastou trabalhando neles. Você também pode registrar tempo que não esteja relacionado ao trabalho, como férias, tempo de doença ou tempo gasto em reuniões. A hora em que você registra é exibida na sua folha de horas.
 
@@ -96,6 +98,7 @@ Você pode registrar o tempo nas seguintes áreas no Workfront:
 * [Página inicial](#home)
 * [Projeto, tarefa ou problema](#project-task-or-issue)
 * [Painel Resumo](#summary-panel)
+* <span class="preview">[Quadros](#boards)</span>
 * [Aplicativo móvel](#mobile-app)
 
 ### Planilha de horas {#timesheet}
@@ -394,7 +397,20 @@ Para obter mais informações, consulte [Visão geral do resumo](../../workfront
 
 ![](assets/summary-hour-log.png)
 
+<div class="preview">
+
+### Quadros {#boards}
+
+>[!NOTE]
+>
+>Esse recurso está disponível somente por meio da aceitação antecipada de recursos para as placas Workfront.
+
+Você pode registrar o tempo em placas conectadas em um quadro do Workfront. Esse é o mesmo processo que registrar o tempo em uma tarefa ou problema, e as horas registradas no cartão são salvas na tarefa ou problema conectado.
+Para obter mais informações, consulte [Usar placas conectadas em placas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+</div>
 
 ### Aplicativo móvel {#mobile-app}
 
 Você pode registrar o tempo no aplicativo móvel do Workfront.
+Para obter mais informações, consulte [Adobe Workfront para Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) ou [Adobe Workfront para iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
