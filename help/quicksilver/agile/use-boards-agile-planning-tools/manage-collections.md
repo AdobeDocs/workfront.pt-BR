@@ -6,7 +6,7 @@ title: Gerenciar coleções
 description: Uma coleção é um grupo configurável de quadros para colaborar no trabalho.
 author: Lisa
 feature: Agile
-source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 4%
@@ -14,8 +14,6 @@ ht-degree: 4%
 ---
 
 # Gerenciar coleções
-
-{{highlighted-preview-article-level}}
 
 Uma coleção é um grupo configurável de quadros para colaborar no trabalho. As coleções podem incluir diferentes tipos de quadros criados de modelos.
 

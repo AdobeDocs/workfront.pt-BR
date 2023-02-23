@@ -6,7 +6,7 @@ description: No [!UICONTROL quadros] no painel, você pode criar um novo quadro 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 67870f1bd9b1795b58ced827e888572aa407c28e
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 5%
@@ -15,11 +15,9 @@ ht-degree: 5%
 
 # Criar ou editar um quadro
 
-{{highlighted-preview}}
-
 No [!UICONTROL quadros] no painel, você pode criar um novo quadro ou editar um quadro existente.
 
-<span class="preview">Para adicionar um quadro a uma coleção, consulte [Gerenciar coleções](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+Para adicionar um quadro a uma coleção, consulte [Gerenciar coleções](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Requisitos de acesso
 
@@ -45,15 +43,13 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 ## Criar um novo quadro
 
 1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront], depois clique em **[!UICONTROL Quadros]**.
-1. Para criar um quadro independente, clique em **[!UICONTROL Criar novo]** no [!UICONTROL Quadros] área. <span class="preview">Para adicionar um quadro a uma coleção, consulte [Gerenciar coleções](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+1. Para criar um quadro independente, clique em **[!UICONTROL Criar novo]** no [!UICONTROL Quadros] área. Para adicionar um quadro a uma coleção, consulte [Gerenciar coleções](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
    >[!NOTE]
    >
    > As coleções estão disponíveis somente por meio da opção de aceitação antecipada de recursos para [!DNL Workfront] [!UICONTROL Quadros].
 
-1. <span class="preview">Selecione um modelo para o quadro.</span>
-
-   <div class="preview">
+1. Selecione um modelo para o quadro.
 
    | Modelo | Descrição |
    |---------|----------|
@@ -64,8 +60,6 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
    >[!NOTE]
    >
    > Os modelos de placa estão disponíveis somente por meio da opção de aceitação antecipada de recursos para [!DNL Workfront] [!UICONTROL Quadros].
-
-   </div>
 
 1. Digite um nome para o quadro na **[!UICONTROL Placa]** e pressione Enter.
 1. Configure a placa conforme necessário.
