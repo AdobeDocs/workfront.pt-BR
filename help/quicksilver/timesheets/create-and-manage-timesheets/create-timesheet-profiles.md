@@ -2,13 +2,13 @@
 product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: Criar, editar e atribuir perfis de folha de ponto
-description: Você pode criar, editar e atribuir perfis de folha de ponto que geram folhas de ponto recorrentes para seus usuários sem nenhuma outra intervenção sua. Isso economiza tempo e garante que os seguintes itens sejam consistentes entre os usuários - EDITE-ME.
+description: Você pode criar, editar e atribuir perfis de folha de ponto que geram folhas de ponto recorrentes para seus usuários sem nenhuma outra intervenção sua. Isso economiza tempo e garante a consistência entre os usuários.
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 7e2a4b02277e8b82ac6ee92a7994250fcdebb0b0
+source-git-commit: 43f1ad86784532ed3a5a3baa12d135ca35f16d21
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1505'
 ht-degree: 1%
 
 ---
@@ -101,10 +101,12 @@ Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele defi
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Criar planilhas de horas</strong> </td> 
-      <td> <p> <p>Especifique quando o perfil de folha de ponto deve gerar as folhas de ponto. Uma folha de ponto pode ser configurada para gerar automaticamente em uma base semanal, quinzenal, semimensal ou mensal. Selecione o dia da semana em que deseja que a folha de horas seja produzida.</p> <p><b>Nota</b>
+      <td> <p> <p>Especifique quando o perfil de folha de ponto deve gerar as folhas de ponto. Uma folha de ponto pode ser configurada para gerar automaticamente em uma base semanal, quinzenal, semimensal ou mensal. Selecione o dia da semana em que deseja que a folha de horas seja produzida.</p>
+      <p>Uma folha de horas semanal começa na data em que é gerada. Por exemplo, se você criar folhas de horas semanais todas as quintas-feiras, o primeiro dia da semana na folha de horas será quinta-feira.</p>
+      <p><b>Nota</b></p>
 
-   Se você configurar um perfil de folha de ponto para criar folhas de ponto em uma sexta-feira, os usuários não poderão gravar horas na sexta, sábado e domingo para a semana atual.</p> <p>O Workfront sempre cria duas folhas de ponto por vez: a primeira folha de ponto sempre inclui a data atual e a segunda folha de ponto começa quando o período da primeira termina.</p> </p> </td>
-   </tr> 
+   <p>O Workfront sempre cria duas folhas de ponto por vez: a primeira folha de ponto sempre inclui a data atual e a segunda folha de ponto começa quando o período da primeira termina.</p> </p> </td> 
+    </tr> 
      <tr> 
       <td role="rowheader"><p><strong>Aprovadores</strong></p> </td> 
       <td> <p> <p>Aprovadores são usuários que aprovam a folha de ponto para os usuários associados à folha de ponto. Você pode identificar até 7 usuários como aprovadores em uma folha de ponto. Identificar vários usuários é útil para garantir que um aprovador esteja disponível quando alguém estiver fora do escritório. Todos os aprovadores são notificados quando um usuário envia a folha de ponto para aprovação. Somente um usuário é necessário aprovar a folha de ponto para que ela seja aprovada.</p> <p>Somente usuários com direitos administrativos de folha de ponto podem ser definidos como aprovadores. Para obter mais informações sobre os direitos administrativos da folha de ponto, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder aos usuários acesso administrativo a determinadas áreas</a>.</p> <p>Use o menu suspenso para selecionar o aprovador da folha de ponto (se um aprovador for necessário). Você pode selecionar entre as seguintes opções:</p> 
