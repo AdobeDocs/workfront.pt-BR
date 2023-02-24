@@ -6,14 +6,16 @@ title: Gerenciar coleções
 description: Uma coleção é um grupo configurável de quadros para colaborar no trabalho.
 author: Lisa
 feature: Agile
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: d14713f75857d00376f576e4b70f036c9b43e503
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '510'
 ht-degree: 4%
 
 ---
 
 # Gerenciar coleções
+
+{{highlighted-preview-article-level}}
 
 Uma coleção é um grupo configurável de quadros para colaborar no trabalho. As coleções podem incluir diferentes tipos de quadros criados de modelos.
 
@@ -60,7 +62,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
 | Modelo | Descrição |
 |---------|----------|
-| Quadro básico | Três colunas padrão são fornecidas no quadro. Você pode adicionar novas colunas e renomear ou excluir as colunas padrão. <p>Três colunas padrão são fornecidas no quadro. Você pode adicionar novas colunas e renomear ou excluir as colunas padrão. |
+| Quadro básico | Três colunas padrão são fornecidas no quadro. Você pode adicionar novas colunas e renomear ou excluir as colunas padrão. <p>Nenhuma política de coluna é aplicada. |
 | Quadro Kanban | As seguintes colunas são fornecidas no quadro: Backlog, Novo, Em Andamento, Concluído e Em Retenção. Você pode adicionar novas colunas e renomear ou excluir as colunas padrão.<p>Para usar o backlog, você deve configurar filtros para a coluna de entrada. Para obter mais informações, consulte [Adicionar uma coluna de entrada a um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Para revisar as políticas padrão de cada coluna, clique no botão [!UICONTROL **Mais** menu] em uma coluna e selecione [!UICONTROL **Editar**]. Você pode alterar qualquer uma dessas políticas predefinidas. Para obter mais informações, consulte [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 | Quadro retrospectivo | As seguintes colunas são fornecidas no quadro: O que deu certo? O que pode ser melhorado? O que devemos comemorar? O que podemos fazer para agilizar? Você pode adicionar novas colunas e renomear ou excluir as colunas padrão. <p>Nenhuma política de coluna é aplicada. |
 
