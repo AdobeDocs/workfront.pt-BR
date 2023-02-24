@@ -4,7 +4,7 @@ description: Atualizações de aparência e comportamento durante o período de 
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
+source-git-commit: 8ccfa470f7d09a3a7ca0b8414c53e31c1e03f185
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 2%
@@ -22,7 +22,7 @@ Para obter uma lista de todas as alterações disponíveis com a versão 23.2, c
 
 >[!NOTE]
 >
->Versão de visualização: 9 de fevereiro de 2023; Versão de produção planejada: 23 de fevereiro de 2023
+>Versão de visualização: 9 de fevereiro de 2023; Versão de produção planejada: 2 de março de 2023
 
 Informações adicionais do usuário agora são exibidas quando você adiciona usuários nas seguintes áreas:
 
