@@ -6,24 +6,22 @@ title: Gerenciar coleções
 description: Uma coleção é um grupo configurável de quadros para colaborar no trabalho.
 author: Lisa
 feature: Agile
-source-git-commit: d14713f75857d00376f576e4b70f036c9b43e503
+source-git-commit: 5202756d21224d6a704750eec00fcfa24241fb6b
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '520'
 ht-degree: 4%
 
 ---
 
 # Gerenciar coleções
 
-{{highlighted-preview-article-level}}
+>[!NOTE]
+>
+>As coleções estão disponíveis somente por meio da opção de aceitação antecipada de recursos para [!UICONTROL [!DNL Workfront] Quadros]. Para obter detalhes, consulte [Opt-in de recurso antecipado para placas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 Uma coleção é um grupo configurável de quadros para colaborar no trabalho. As coleções podem incluir diferentes tipos de quadros criados de modelos.
 
 As coleções são exibidas no painel junto com quadros individuais aos quais você tem acesso que não fazem parte de uma coleção. Para obter informações sobre o painel de quadros, consulte [Usar o painel de quadros](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). Você pode clicar em qualquer nome de quadro no painel para abri-lo.
-
->[!NOTE]
->
->As coleções estão disponíveis somente por meio da opção de aceitação antecipada de recursos para [!UICONTROL [!DNL Workfront] Quadros].
 
 ## Requisitos de acesso
 
