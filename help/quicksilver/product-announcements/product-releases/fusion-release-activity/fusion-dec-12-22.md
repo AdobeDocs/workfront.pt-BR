@@ -4,9 +4,9 @@ description: Atividade de lançamento do Workfront Fusion Semana de 12 de dezemb
 author: Becky
 feature: Product Announcements, Workfront Fusion
 hidefromtoc: true
-source-git-commit: 1efe7580ea0af38479ec60595a4e93678bb34bd2
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Esta página descreve todas as melhorias feitas no Adobe Workfront Fusion na sem
 
 Para obter uma lista de todas as alterações recentes, consulte [Atividade de versão do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) e verifique se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
+Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verifique se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
 
 ## Melhorias da fusão para o crescimento futuro
 

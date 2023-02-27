@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 00113f7e-2f69-445d-847e-14fd464241de
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ As barras de ferramentas nas listas e relatórios a seguir agora têm uma aparê
 ### Versão de visualização: 10 de fevereiro de 2022; Versão de produção: 3 de março de 2022
 
 >[!NOTE]
-A barra de ferramentas para esses mesmos relatórios nos painéis também foi atualizada em Produção com o formato semanal [Atualização de manutenção](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) em 3 de março de 2022.
+A barra de ferramentas para esses mesmos relatórios nos painéis também foi atualizada em Produção com o formato semanal [Atualização de manutenção](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) em 3 de março de 2022.
 
 * Relatórios de projeto
 * Relatórios de tarefa

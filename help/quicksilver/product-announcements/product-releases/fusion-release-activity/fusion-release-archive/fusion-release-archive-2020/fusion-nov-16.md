@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 9221a69e-2482-478b-95a9-f62dd28538d6
 hidefromtoc: true
-source-git-commit: e18b23e7d58aced4c95c5df51769a6e959fa3d57
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Esta página descreve todas as melhorias feitas no Adobe Workfront Fusion na sem
 
 Para obter uma lista de todas as alterações recentes, consulte [Atividade de versão do Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) e verifique se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
+Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verifique se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
 
 ## Atualizações no conector da Jira Cloud
 

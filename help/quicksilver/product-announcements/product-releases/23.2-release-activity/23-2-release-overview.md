@@ -4,9 +4,9 @@ description: Visão geral da versão 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 10c7e95f542cb3e05de62cff24f24439af140c0c
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -339,7 +339,7 @@ Para obter informações sobre versões da API, consulte [Controle de versão da
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão 23.2, consulte [Atualizações de manutenção do Workfront](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão 23.2, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 

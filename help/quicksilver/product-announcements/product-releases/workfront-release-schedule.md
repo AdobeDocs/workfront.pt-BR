@@ -7,9 +7,9 @@ description: O ambiente de visualização é atualizado uma vez por semana com n
 author: Luke
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Geralmente, os recursos na Visualização são disponibilizados no ambiente Prod
 
 ### Atualizações de manutenção
 
-Correções de problemas do produto Adobe Workfront são disponibilizadas no ambiente de produção toda semana. Consulte a [Atualizações de manutenção do Workfront](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) para ver o que foi corrigido recentemente.
+Correções de problemas do produto Adobe Workfront são disponibilizadas no ambiente de produção toda semana. Consulte a [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) para ver o que foi corrigido recentemente.
 
 ## Recursos removidos de uma versão trimestral
 

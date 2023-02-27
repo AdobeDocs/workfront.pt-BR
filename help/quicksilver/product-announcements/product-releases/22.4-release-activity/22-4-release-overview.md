@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: 80fa784e15c3b4a927ee8ba2d18a80a2d84f4a91
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '3273'
+source-wordcount: '3274'
 ht-degree: 0%
 
 ---
@@ -733,7 +733,7 @@ Para obter informações sobre versões da API, consulte [Controle de versão da
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão 2.3, consulte [Atualizações de manutenção do Workfront](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão 2.3, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Webinar da versão 2.4
 
