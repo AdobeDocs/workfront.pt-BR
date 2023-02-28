@@ -1,29 +1,29 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Desinstale o conector aprimorado Workfront for Adobe Experience Manager
+title: Desinstale o conector aprimorado do Workfront para Adobe Experience Manager
 description: Você deve desinstalar o conector aprimorado do Workfront com Adobe Experience Manager para a integração nativa mais recente que conecta o Workfront e o Adobe Experience Manager Assets as a Cloud Service.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: c6203c71-a4c4-41ee-ac4e-57137661e5b3
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: 9673009f12509b5e7051ee91e142d311f333f215
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
 
 ---
 
-# Desinstale o Workfront com o conector aprimorado Adobe Experience Manager
+# Desinstale o conector aprimorado do Workfront com Adobe Experience Manager
 
 Você deve desinstalar o conector aprimorado do Workfront com Adobe Experience Manager para a integração nativa mais recente que conecta o Workfront e o Adobe Experience Manager Assets as a Cloud Service.
 
 ## Pré-requisitos
 
-* (Opcional) Se necessário, reverta quaisquer alterações feitas na configuração de firewall do Workfront e AEM configurações do dispatcher.
+* (Opcional) Se necessário, reverta quaisquer alterações feitas nas configurações do Workfront firewall e do AEM dispatcher.
 
 ## Desinstale o conector aprimorado
 
-1. Acesse e clone seu repositório as a Cloud Service AEM no Cloud Manager.
+1. Acesse e clone seu repositório as a Cloud Service de AEM do Cloud Manager.
 
 1. Abra o repositório Git clonado no IDE de sua escolha.
 
@@ -49,7 +49,7 @@ Você deve desinstalar o conector aprimorado do Workfront com Adobe Experience M
 
    >[!NOTE]
    >
-   >Verifique se a versão referenciada no bloco de código acima, ou seja, 1.8.0, reflete a versão que está sendo desinstalada do código.
+   >Verifique se a versão referenciada no bloco de código acima, ou seja, a 1.8.0, reflete a versão que está sendo desinstalada do código.
 
 1. Remova a seguinte dependência do arquivo pom.xml do submódulo do projeto chamado **all**.
 
@@ -62,7 +62,8 @@ Você deve desinstalar o conector aprimorado do Workfront com Adobe Experience M
        <target>/apps/<path-to-project-install-folder>/install</target>
    </embedded>
    ```
-1. Remova o seguinte arquivo incorporado do arquivo pom.xml do submódulo do projeto chamado todos.
+
+1. Remova o seguinte incorporado do arquivo pom.xml do submódulo do projeto chamado all.
 
    ```
    <!-- Workfront Tools -->
