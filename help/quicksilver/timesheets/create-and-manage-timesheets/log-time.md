@@ -6,7 +6,7 @@ description: Você pode registrar horas para itens de trabalho no &Adobe Workfro
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1817f3b1a5950823ff6ce600b1fef09ff4ca6767
+source-git-commit: f87f71be1b5f60b95859f3632bae4cf392cc5e84
 workflow-type: tm+mt
 source-wordcount: '2973'
 ht-degree: 0%
@@ -96,7 +96,7 @@ Você pode registrar horas nas seguintes áreas no Workfront:
 * [Página inicial](#home)
 * [Projeto, tarefa ou problema](#project-task-or-issue)
 * [Painel Resumo](#summary-panel)
-* <span class="preview">[Quadros](#boards)</span>
+* [Quadros](#boards)
 * [Aplicativo móvel](#mobile-app)
 
 ### Planilha de horas {#timesheet}
