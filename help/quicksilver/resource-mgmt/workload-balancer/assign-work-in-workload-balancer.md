@@ -1,88 +1,86 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Visão Geral da atribuição de trabalho no Balanceador de Carga de Trabalho
-description: Como gerenciador de recursos, você pode usar o Balanceador de Carga de Trabalho do Adobe Workfront para exibir itens de trabalho que ainda não foram atribuídos aos usuários, bem como atribuir esses itens a eles.
+title: Visão geral da atribuição de trabalho no Balanceador de carga de trabalho
+description: Como gerenciador de recursos, você pode usar o Balanceador de carga de trabalho do Adobe Workfront para exibir itens de trabalho que ainda não foram atribuídos aos usuários, bem como atribuir esses itens a eles.
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
 
-# Visão Geral da atribuição de trabalho no Balanceador de Carga de Trabalho
+# Visão geral da atribuição de trabalho no Balanceador de carga de trabalho
 
-<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Está disponível somente no ambiente de Visualização.</span>
+Como gerenciador de recursos, você pode usar o Balanceador de carga de trabalho do Adobe Workfront para exibir itens de trabalho que ainda não foram atribuídos aos usuários, bem como atribuir esses itens a eles.
 
-Como gerenciador de recursos, você pode usar o Balanceador de Carga de Trabalho do Adobe Workfront para exibir itens de trabalho que ainda não foram atribuídos aos usuários, bem como atribuir esses itens a eles.
+Para obter informações gerais sobre o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-Para obter informações gerais sobre o Balanceador de Carga de Trabalho, consulte [Visão Geral do Balanceador de Carga de Trabalho](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
-
-Você pode atribuir itens de trabalho (tarefas e problemas) a usuários em outras áreas do Workfront. No entanto, usando o Balanceador de Carga de Trabalho, é possível entender facilmente a disponibilidade dos usuários e ver claramente todos os outros itens aos quais eles estão atribuídos antes de atribuir mais trabalho a eles.
+É possível atribuir itens de trabalho (tarefas e problemas) a usuários em outras áreas do Workfront. No entanto, usando o Balanceador de carga de trabalho, é possível entender facilmente a disponibilidade dos usuários e visualizar claramente todos os outros itens aos quais eles estão atribuídos antes de atribuir mais trabalho.
 
 Para obter informações sobre como atribuir itens de trabalho em outras áreas do Workfront, consulte os seguintes artigos:
 
 * [Atribuir tarefas](../../manage-work/tasks/assign-tasks/assign-tasks.md)
 * [Atribuir problemas](../../manage-work/issues/manage-issues/assign-issues.md)
 
-## Disponibilidade do usuário no Balanceador de Carga de Trabalho
+## Disponibilidade do usuário no Balanceador de carga de trabalho
 
-Você pode atribuir trabalho no Balanceador de Carga de Trabalho para corresponder ao tempo disponível dos usuários. Para garantir que você atribua a quantidade certa de trabalho e não sobreatribua o usuário, o total das Horas Planejadas dos itens de trabalho atribuídos ao usuário deve corresponder às alocações diárias ou semanais do usuário.
+Você pode atribuir trabalho no Balanceador de carga de trabalho para corresponder ao tempo disponível dos usuários. Para garantir que você atribua a quantidade certa de trabalho e não superaloque o usuário, o total de Horas planejadas dos itens de trabalho atribuídos ao usuário deve corresponder às alocações diárias ou semanais do usuário.
 
 Você deve entender como o Workfront calcula o tempo disponível para um usuário.
 
-O Workfront usa as seguintes informações para calcular a capacidade do usuário no Balanceador de Carga de Trabalho:
+O Workfront usa as seguintes informações para calcular a capacidade do usuário no Balanceador de carga de trabalho:
 
-* As Preferências do Gerenciamento de Recursos. O administrador do Workfront determina como o tempo disponível é calculado para o sistema, selecionando para usar uma das seguintes opções na área Gerenciamento de recursos em Configurar:
+* As Preferências De Gerenciamento De Recursos. O administrador do Workfront determina como o tempo disponível é calculado para o sistema, selecionando para usar um dos seguintes itens na área Gerenciamento de recursos em Configuração:
 
-   * O agendamento padrão do sistema Workfront e o FTE do usuário.
-   * O agendamento do usuário, conforme indicado na área Perfil do usuário .
+   * O cronograma padrão do sistema Workfront e o FTE do usuário.
+   * A programação do usuário, conforme indicado na área Perfil do usuário.
 
-      Isso calcula a disponibilidade diária e semanal do usuário. Quaisquer exceções de programação na programação selecionada são refletidas na capacidade do usuário no Balanceador de Carga de Trabalho.
-   Para obter mais informações, consulte [Configurar preferências do Gerenciamento de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+      Isso calcula a disponibilidade diária e semanal do usuário. Quaisquer exceções de agendamento no agendamento selecionado são refletidas na capacidade do usuário no Balanceador de carga de trabalho.
+   Para obter mais informações, consulte [Configurar preferências de gerenciamento de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
    Para obter informações sobre programações, consulte [Criar um agendamento](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
-* O tempo de folga do usuário. Isso indica quais dias o usuário planeja decolar.
+* A folga do usuário. Isso indica quais dias o usuário planeja decolar.
 
-   Para obter mais informações, consulte [Configurar o horário pessoal no Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
-<div class="preview">
-* O horário de trabalho do usuário. Isso indica a porcentagem do tempo FTE que o usuário está disponível para executar trabalho relacionado ao projeto, sem incluir sobrecarga. Defina o valor Tempo de trabalho como 1 para indicar que o usuário está disponível para trabalho relacionado ao projeto e todo o seu equivalente em tempo integral.
-</div>
+   Para obter mais informações, consulte [Configurar o tempo de folga pessoal no Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
-## Atribuir trabalho no Balanceador de Carga de Trabalho
+* O Horário Comercial do usuário. Isso indica a porcentagem de tempo FTE em que o usuário está disponível para executar o trabalho real relacionado ao projeto, sem incluir as despesas gerais. Defina o valor de Tempo de trabalho como 1 para indicar que o usuário está disponível para trabalho relacionado ao projeto em todo o equivalente de tempo integral.
 
-Você pode atribuir itens de trabalho que ainda não foram atribuídos a um usuário ou reatribuir itens que foram atribuídos a usuários no Balanceador de Carga de Trabalho.
 
-Você pode atribuir trabalhos no Balanceador de Carga de Trabalho das seguintes maneiras:
+## Atribuir trabalho no Balanceador de carga de trabalho
 
-* Um item de cada vez atribuindo manualmente cada item.
+Você pode atribuir itens de trabalho que ainda não foram atribuídos a um usuário ou reatribuir itens que foram atribuídos a usuários no Balanceador de carga de trabalho.
 
-   Você pode fazer Atribuições avançadas ao atribuir itens manualmente, uma de cada vez.
+Você pode atribuir trabalhos no Balanceador de carga de trabalho das seguintes maneiras:
 
-   Para obter mais informações, consulte [Atribuir trabalho manualmente usando o Balanceador de Carga de Trabalho](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+* Um item de cada vez, atribuindo manualmente cada item.
+
+   Você pode fazer atribuições avançadas ao atribuir itens manualmente, uma de cada vez.
+
+   Para obter mais informações, consulte [Atribuir trabalho manualmente usando o Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
 * Um item de cada vez, arrastando e soltando itens de trabalho para o usuário que precisa ser atribuído.
 
-   Para obter mais informações, consulte [Atribua trabalho ao Balanceador de Carga de Trabalho arrastando e soltando](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+   Para obter mais informações, consulte [Atribuir trabalho no Balanceador de carga de trabalho arrastando e soltando](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
-* Vários itens de cada vez, usando a opção Atribuições em massa . Você pode definir regras pelas quais os itens são atribuídos a vários usuários de cada vez.
+* Vários itens de cada vez, usando a opção Atribuições em massa. Você pode definir regras pelas quais os itens são atribuídos a vários usuários de cada vez.
 
-   Para obter mais informações, consulte [Atribua trabalho em massa usando o Balanceador de Carga de Trabalho](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+   Para obter mais informações, consulte [Atribuir trabalho em massa usando o Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
-Para obter informações sobre como cancelar a atribuição de trabalho, consulte [Cancelar atribuição de trabalho no Balanceador de Carga de Trabalho](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+Para obter informações sobre o cancelamento da atribuição de trabalho, consulte [Cancelar atribuição de trabalho no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 
-## Áreas de atribuição no Balanceador de Carga de Trabalho
+## Áreas de atribuição no Balanceador de carga de trabalho
 
-Você pode atribuir trabalhos a usuários usando o Balanceador de Carga de Trabalho na área Recursos, no projeto ou no nível da equipe. Para obter mais informações sobre onde o Balanceador de Carga de Trabalho está localizado no Workfront, consulte [Localizar o Balanceador de Carga de Trabalho](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Você pode atribuir trabalho aos usuários usando o Balanceador de carga de trabalho na área Recursos, no projeto ou no nível da equipe. Para obter mais informações sobre onde o Balanceador de carga de trabalho está localizado no Workfront, consulte [Localize o Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-Há duas áreas no Balanceador de Carga de Trabalho onde você pode exibir itens de trabalho:
+Há duas áreas no Balanceador de carga de trabalho em que você pode exibir itens de trabalho:
 
-* **Trabalho Não Atribuído**: exibe itens que não são atribuídos a usuários.
-* **Trabalho Atribuído**: exibe itens que são atribuídos a usuários.
+* **Trabalho não atribuído**: exibe itens que não estão atribuídos aos usuários.
+* **Trabalho atribuído**: exibe itens atribuídos aos usuários.
 
 A tabela a seguir descreve quais itens são exibidos em cada área com base em suas atribuições:
 
@@ -131,36 +129,36 @@ A tabela a seguir descreve quais itens são exibidos em cada área com base em s
    <td>✔</td> 
   </tr> 
   <tr> 
-   <td>Usuário, função e equipe</td> 
+   <td>Usuário, Função e Equipe</td> 
    <td>✔*</td> 
    <td>✔**</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Usuário e função</p> </td> 
+   <td> <p>Usuário e Função</p> </td> 
    <td><span data-mc-edit-date="2019-11-15T13:37:42.5435254-05:00" data-mc-editor="alinawilson" data-mc-comment="drafted because it's not in the Unassigned" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2019-11-15T13:37:33.3097484-05:00">✔</span>*</td> 
    <td>✔**</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Quando um item de trabalho é atribuído a um usuário e a uma função, ele é exibido na área Trabalho não atribuído somente quando a função é o Destinatário Principal.
+&#42;Quando um item de trabalho é atribuído a um usuário e a uma função, ele é exibido na área Trabalho não atribuído somente quando a função é o Destinatário principal.
 
-&#42;&#42;Quando um item de trabalho é atribuído a um usuário e outra entidade, ele é exibido na área de Trabalho atribuído somente quando o usuário é o Destinatário Principal.
+&#42;&#42;Quando um item de trabalho é atribuído a um usuário e a outra entidade, ele é exibido na área Trabalho atribuído somente quando o usuário é o Destinatário principal.
 
-Para obter mais informações sobre as áreas Não Atribuído e Atribuído do Balanceador de Carga de Trabalho, consulte [Navegar pelo Balanceador de Carga de Trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obter mais informações sobre as áreas Não atribuído e atribuído do Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-## Considerações para várias atribuições em funções, equipes e usuários
+## Considerações para várias atribuições para funções de trabalho, equipes e usuários
 
 Considere o seguinte ao atribuir vários recursos a um item de trabalho:
 
-* Os usuários podem ter mais de uma função de trabalho associada ao perfil. Para obter informações sobre como associar usuários a funções de jobs, consulte [Editar o perfil de um usuário](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* Os usuários podem ter mais de uma função de trabalho associada ao seu perfil. Para obter informações sobre como associar usuários a funções de trabalho, consulte [Editar o perfil de um usuário](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-* Tarefas ou problemas normalmente são atribuídas pela primeira vez a uma ou várias funções de trabalho ou a uma equipe. Quando os projetos estiverem prontos para o início, eles também poderão precisar ser atribuídos aos usuários.\
-   Se uma tarefa ou um problema for atribuído a uma ou várias funções e você também atribuir um usuário, o Adobe Workfront decide qual função de trabalho associar ao usuário adicional (se houver) de acordo com as seguintes regras:
+* Geralmente, tarefas ou problemas são atribuídos primeiro a uma ou várias funções de trabalho ou a uma equipe. Quando os projetos estiverem prontos para serem iniciados, talvez também seja necessário atribuí-los aos usuários.\
+   Se uma tarefa ou um problema for atribuído a uma ou várias funções e você também atribuir um usuário, o Adobe Workfront decide qual função de trabalho deve ser associada ao usuário adicional (se houver) de acordo com as seguintes regras:
 
-   * Se houver apenas uma função de trabalho atribuída e ela corresponder à Função Principal do usuário, a tarefa ou problema será atribuído somente ao usuário que cumpre sua Função Principal.
-   * Se houver várias funções atribuídas e pelo menos uma delas corresponder às funções secundárias do usuário, a tarefa ou problema será atribuído ao usuário que cumpre uma de suas Outras funções — que o Workfront seleciona aleatoriamente se houver várias correspondências — bem como quaisquer funções adicionais atribuídas.
-   * Se houver uma ou mais funções de trabalho atribuídas e não houver correspondências com as funções do usuário, a tarefa ou problema será atribuído tanto à função ou às funções como ao usuário.
+   * Se houver apenas uma função de trabalho atribuída e ela corresponder à função principal do usuário, a tarefa ou o problema será atribuído apenas ao usuário que desempenha sua função principal.
+   * Se houver várias funções atribuídas e pelo menos uma das funções corresponder às funções secundárias do usuário, a tarefa ou o problema será atribuído ao usuário que desempenha uma de suas Outras funções — que o Workfront seleciona aleatoriamente se houver várias correspondências — bem como quaisquer funções adicionais atribuídas.
+   * Se houver uma ou mais funções de trabalho atribuídas e não houver correspondência entre as funções do usuário, a tarefa ou o problema será atribuído à função ou às funções, bem como ao usuário.
 
 * Se uma tarefa ou um problema for atribuído a uma equipe e você também atribuir um usuário, a tarefa ou o problema permanecerá atribuído à equipe e ao usuário.
 
