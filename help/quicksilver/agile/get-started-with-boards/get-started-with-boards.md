@@ -1,24 +1,25 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Introdução a quadros em [!DNL Adobe Workfront]
-description: Consulte estes artigos para saber como usar quadros no Workfront.
+title: Introdução a painéis no [!DNL Adobe Workfront]
+description: Leia estes artigos para saber como usar quadros no Workfront.
 author: Lisa
 feature: Agile
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
+source-git-commit: 53781e0df0c748310d254ca149ec371757b90303
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
 
-# Introdução a quadros em [!DNL Adobe Workfront]
+# Introdução a painéis no [!DNL Adobe Workfront]
 
 Esta seção contém os seguintes artigos:
 
-* [Opt-in do recurso inicial dos quadros](../../agile/get-started-with-boards/boards-early-feature-opt-in.md)
-* [Usar o painel de quadros](../../agile/get-started-with-boards/use-boards-page.md)
+* [Demonstrações de vídeo das placas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
+* [Aceitação antecipada de recursos dos painéis](../../agile/get-started-with-boards/boards-early-feature-opt-in.md)
+* [Usar o painel de painéis](../../agile/get-started-with-boards/use-boards-page.md)
 * [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md)
 * [Excluir ou arquivar um quadro](/help/quicksilver/agile/get-started-with-boards/delete-archive-board.md)
 * [Adicionar ou remover membros de um quadro](../../agile/get-started-with-boards/add-members-to-board.md)
