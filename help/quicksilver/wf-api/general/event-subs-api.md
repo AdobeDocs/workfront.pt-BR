@@ -6,9 +6,9 @@ description: API de assinatura de evento
 author: Becky
 feature: Workfront API
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: e06f6e8ca40da6741982b4ed8c5c53bdbfb253ca
 workflow-type: tm+mt
-source-wordcount: '2203'
+source-wordcount: '2109'
 ht-degree: 3%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 3%
 {{highlighted-preview}}
 -->
 
-Quando uma ação ocorre em um objeto Adobe Workfront compatível com assinaturas de evento, você pode configurar o Workfront para enviar uma resposta ao terminal desejado. Isso significa que aplicativos de terceiros podem receber atualizações das interações do Workfront por meio da API do Workfront logo após a ocorrência. Em geral, você pode esperar receber notificações de webhook em menos de 5 segundos a partir da alteração de dados que está sendo registrada. Em média, os clientes recebem notificações de webhook em menos de 1 segundo a partir da alteração de dados que está sendo registrada.  
+Quando ocorre uma ação em um objeto do Adobe Workfront que é compatível com assinaturas de evento, você pode configurar o Workfront para enviar uma resposta para o endpoint desejado. Isso significa que aplicativos de terceiros podem receber atualizações das interações do Workfront por meio da API do Workfront logo após ocorrerem. Em geral, você pode esperar receber notificações de webhook em menos de 5 segundos a partir da alteração de dados que está sendo registrada. Em média, os clientes recebem notificações de webhook em menos de 1 segundo a partir da alteração de dados que está sendo registrada.  
 
-Para receber cargas de assinaturas de eventos por meio do firewall, você deve adicionar os seguintes endereços IP à sua lista de permissões:
+Para receber payloads de assinatura de evento por meio do firewall, você deve adicionar os seguintes endereços IP à inclui na lista de permissões do:
 
 **Para clientes na Europa:**
 
@@ -44,11 +44,11 @@ Para receber cargas de assinaturas de eventos por meio do firewall, você deve a
 * 54.218.48.56
 * 52.39.217.230
 
-Os seguintes tópicos são compatíveis com a API de assinatura de evento:
+Os seguintes tópicos oferecem suporte à API de assinatura de evento:
 
-## Objetos Suportados por Assinaturas de Eventos
+## Objetos com Suporte por Assinaturas de Eventos
 
-Os seguintes objetos Workfront são compatíveis com assinaturas de evento.
+Os seguintes objetos do Workfront são suportados por assinaturas de evento.
 
 * Atribuição
 * Empresa
@@ -67,71 +67,16 @@ Os seguintes objetos Workfront são compatíveis com assinaturas de evento.
 * Planilha de horas
 * Usuário
 
-Para obter uma lista de campos suportados por objetos de assinatura de evento, consulte [Campos de recurso de assinatura de evento](../../wf-api/api/event-sub-resource-fields.md).
+Para obter uma lista de campos suportados por objetos de assinatura de evento, consulte [Campos de recurso de assinatura do evento](../../wf-api/api/event-sub-resource-fields.md).
 
 ## Autenticação de assinatura de evento
 
-Para criar, consultar ou excluir uma assinatura de evento, o usuário do Workfront precisa do seguinte:
+Para criar, consultar ou excluir uma assinatura de evento, seu usuário do Workfront precisa do seguinte:
 
-* Um nível de acesso de &quot;Administrador do sistema&quot;
-* Uma apiKey
+* Um nível de acesso de &quot;Administrador do sistema&quot; é necessário para usar Assinaturas de eventos.
+* A `sessionID`  é necessário um cabeçalho para usar a API de Assinaturas de Eventos
 
-   >[!NOTE]
-   >
-   >Se o usuário já estiver utilizando a API do Workfront, ele já deve ter uma apiKey. Você pode recuperar a apiKey através da seguinte solicitação HTTP:
-
-**URL da solicitação:**
-
-```
-PUT https://<HOSTNAME>/attask/api/v15.0/USER?action=getApiKey&username=<USERNAME>&password=<PASSWORD>
-```
-
-**Cabeçalhos da solicitação:**
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th> <p>Nome do cabeçalho</p> </th> 
-   <th> <p>Valor do cabeçalho</p> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Tipo de conteúdo</p> </td> 
-   <td> <p>text/html</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-**Códigos de resposta:**
-
-| Código de resposta | Descrição |
-|---|---|
-| 200 (OK) | A solicitação foi processada com êxito e a apiKey existente para o usuário deve ser retornada no corpo da resposta. |
-| 401 (Não autorizado) | O servidor reconhece a solicitação, mas não pode processá-la porque o apiKey/usuário solicitante não tem acesso para fazer essa solicitação. |
-
-{style=&quot;table-layout:auto&quot;}
-
-**Exemplo de corpo de resposta:**
-
-```
-{
-               "data"{
-               "result": "rekxqndrw9783j4v79yhdsakl56bu1jn"
-               }
-      }
-```
-
->[!NOTE]
->
-> Se esta for a primeira vez que você usa a API do Workfront, é necessário gerar uma apiKey que pode ser feita por meio deste link:
-
-
-```
-PUT https://<HOSTNAME>/attask/api/v15.0/USER/generateApiKey?username=<USERNAME>&password=<PASSWORD>
-```
+   Para obter mais informações, consulte [Autenticação](api-basics.md#authentication) in [Noções básicas sobre API](api-basics.md).
 
 ## Formar o recurso de assinatura
 
@@ -139,11 +84,11 @@ O recurso de assinatura contém os seguintes campos.
 
 * objId (opcional)
 
-   * **String** - A ID do objeto do objCode especificado para o qual os eventos são acionados. Se esse campo não for especificado, o usuário receberá eventos para todos os objetos do tipo especificado.
+   * **String** - A ID do objeto do objCode especificado para o qual os eventos são disparados. Se esse campo não for especificado, o usuário receberá eventos para todos os objetos do tipo especificado.
 
 * objCode (obrigatório)
 
-   * **String** - O objCode do objeto que está sendo inscrito nas alterações. Os valores possíveis para objCode estão listados na tabela abaixo.
+   * **String** - O objCode do objeto que está sendo inscrito para alterações. Os valores possíveis para objCode estão listados na tabela abaixo.
 
       <table style="table-layout:auto"> 
       <col> 
@@ -157,11 +102,11 @@ O recurso de assinatura contém os seguintes campos.
       <tbody> 
        <tr> 
         <td scope="col">Atribuição</td> 
-        <td scope="col"><p>ASSGN</p></td> 
+        <td scope="col"><p>ATRIBUIR</p></td> 
        </tr> 
        <tr> 
         <td scope="col">Empresa </td> 
-        <td scope="col"><p>CMPY</p></td> 
+        <td scope="col"><p>COMPY</p></td> 
        </tr> 
        <tr> 
         <td scope="col">Painel de Controle</td> 
@@ -169,7 +114,7 @@ O recurso de assinatura contém os seguintes campos.
        </tr> 
        <tr> 
         <td scope="col"><p>Documento</p></td> 
-        <td scope="col">DOU </td> 
+        <td scope="col">DOCU </td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Despesa</p></td> 
@@ -213,7 +158,7 @@ O recurso de assinatura contém os seguintes campos.
        </tr> 
        <tr> 
         <td scope="col">Planilha de horas</td> 
-        <td scope="col">TSHET</td> 
+        <td scope="col">FOLHA</td> 
        </tr> 
        <tr> 
         <td scope="col">Usuário</td> 
@@ -224,34 +169,34 @@ O recurso de assinatura contém os seguintes campos.
 
 * eventType (obrigatório)
 
-   * **String** - Um valor que representa o tipo de evento para o qual o objeto foi assinado. Os tipos de evento disponíveis incluem:
+   * **String** - Um valor que representa o tipo de evento ao qual o objeto está inscrito. Os tipos de evento disponíveis incluem:
 
       * CRIAR
       * EXCLUIR 
-      * ATUALIZAÇÃO
+      * ATUALIZAR
 
 * url (obrigatório)
 
-   * **String** - O URL do endpoint para o qual as cargas do evento de assinatura são enviadas por HTTP.
+   * **String** - O URL do endpoint para o qual as cargas do evento de assinatura são enviadas por meio de HTTP.
 
 * authToken (obrigatório)
 
-   * **String** - O token portador OAuth2 usado para autenticar com o URL especificado no campo &quot;URL&quot;. 
+   * **String** - O token de portador OAuth2 usado para autenticar com o URL especificado no campo &quot;URL&quot;. 
 
 ## Criação de solicitações de API de assinatura de evento
 
-Depois de garantir que o usuário tenha acesso de administrador e forme o recurso de assinatura, você estará pronto para criar assinaturas de evento.
+Depois de garantir que o usuário tenha acesso de administrador e formar o recurso de assinatura, você estará pronto para criar assinaturas de evento.
 
 Use a sintaxe a seguir para criar o URL.
 
-**URL da solicitação:**
+**URL de solicitação:**
 
 
 ```
 POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 ```
 
-**Cabeçalhos da solicitação:**
+**Cabeçalhos de solicitação:**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -268,13 +213,13 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
    <td> <p>application/json</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Autorização</p> </td> 
-   <td> <p>valor apiKey</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>valor sessionID</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemplo de corpo da solicitação:**
+**Exemplo do corpo da solicitação:**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -289,39 +234,40 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 | Código de resposta | Descrição |
 |---|---|
-| 201 (Criado) | A assinatura de evento foi criada com êxito. |
+| 201 (Criado) | A inscrição no evento foi criada com êxito. |
 | 400 (Solicitação inválida) | O campo URL do recurso de assinatura foi considerado inválido. |
-| 401 (Não autorizado) | A apiKey fornecida estava vazia ou era considerada inválida. |
-| 403 (Proibido) | O usuário, que corresponde à apiKey fornecida, não tem acesso de administrador. |
+| 401 (Não autorizado) | A sessionID fornecida estava vazia ou era considerada inválida. |
+| 403 (Proibido) | O usuário que corresponde à sessionID fornecida não tem acesso de administrador. |
 
-Passar um recurso de assinatura como o corpo de uma solicitação (com o tipo de conteúdo sendo &quot;aplicativo/json&quot;) resulta na criação de uma assinatura de evento para o objeto especificado. Um código de resposta 201 (Criado) indica que a assinatura foi criada. Um código de resposta diferente de 201 significa que a assinatura foi **NOT** criado.
+Transmitir um recurso de assinatura como o corpo de uma solicitação (com o tipo de conteúdo sendo &quot;application/json&quot;) resulta na criação de uma assinatura de evento para o objeto especificado. Um código de resposta 201 (Criado) indica que a assinatura foi criada. Um código de resposta diferente de 201 significa que a assinatura foi **NOT** criado.
 
 >[!NOTE]
- O cabeçalho de resposta &quot;Location&quot; contém o URI da assinatura de evento recém-criada.
+>
+> O cabeçalho de resposta &quot;Local&quot; contém o URI da assinatura de evento recém-criada.
 
 **Exemplo de cabeçalhos de resposta:**
 
 | Cabeçalhos de resposta | Exemplo |
 |---|---|
-| Duração do conteúdo | `→0` |
+| Largura do conteúdo | `→0` |
 | Data | `→Wed, 05 Apr 2017 21:23:33 GMT` |
 | Localização | `→https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/750a636c-5628-48f5-ba26-26b7ce537ac2` |
 | Servidor | `→Apache-Coyote/1.1` |
 
-## Consulta de assinaturas de evento
+## Consultando Assinaturas de Evento
 
-Ao consultar HTTP Workfront, use o método GET. Há duas maneiras de consultar assinaturas de eventos: Consultar por ID de assinatura (veja abaixo) ou consultar todas as assinaturas de evento.
+Ao consultar o HTTP do Workfront, use o método GET. Há duas maneiras de consultar assinaturas de evento: Consultar por ID de assinatura (veja abaixo) ou consultar todas as assinaturas de evento.
 
-### Consultar Todas as Assinaturas de Eventos
+### Consultar todas as assinaturas de eventos
 
-Você pode consultar todas as subscrições de eventos de um cliente, conforme especificado pelo valor apiKey. Você também pode usar as seguintes opções para gerenciar a resposta:
+É possível consultar todas as assinaturas de eventos para um cliente, conforme especificado pelo valor apiKey. Você também pode usar as seguintes opções para gerenciar a resposta:
 
 * **página**: opção de parâmetro de consulta para especificar o número de páginas a serem retornadas. O padrão é 1.
 * **limite**: opção de parâmetro de consulta para especificar o número de resultados a serem retornados por página. O padrão é 100 com um máximo de 1000.
 
-A sintaxe de solicitação para listar todas as subscrições de eventos de um cliente específico é a seguinte:
+A sintaxe de solicitação para listar todas as assinaturas de evento para um cliente específico é a seguinte:
 
-**URL da solicitação:**
+**URL de solicitação:**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -329,7 +275,7 @@ A sintaxe de solicitação para listar todas as subscrições de eventos de um c
 GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 ```
 
-**Cabeçalhos da solicitação:**
+**Cabeçalhos de solicitação:**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -342,8 +288,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Autorização</p> </td> 
-   <td> <p>valor apiKey</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>valor sessionID</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -352,9 +298,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 | Código de resposta | Descrição |
 |---|---|
-| 200 (OK) | A solicitação retornou com todas as assinaturas de evento encontradas para o cliente que correspondia à apiKey fornecida. |
-| 401 (Não autorizado) | A apiKey fornecida estava vazia. |
-| 403 (Proibido) | O usuário, que corresponde à apiKey fornecida, não tem acesso de administrador. |
+| 200 (OK) | A solicitação retornou com todas as assinaturas de evento encontradas para o cliente que corresponde à sessionID fornecida. |
+| 401 (Não autorizado) | A sessionID fornecida estava vazia. |
+| 403 (Proibido) | O usuário, que corresponde à sessionID fornecida, não tem acesso de administrador. |
 
 
 **Exemplo de cabeçalhos de resposta:**
@@ -364,7 +310,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | Tipo de conteúdo | `→application/json;charset=UTF-8` |
 | Data | `→Wed, 05 Apr 2017 21:29:32 GMT` |
 | Servidor | `→Apache-Coyote/1.1` |
-| Codificação de transferência | `→chunked` |
+| Transfer-Encoding | `→chunked` |
 
 
 **Exemplo de corpo de resposta:**
@@ -408,13 +354,13 @@ Onde
 
 * **página** e **limite** são os valores fornecidos na solicitação ou o padrão se nenhum valor for fornecido
 * **page_count** é o número total de páginas que podem ser consultadas.
-* **total_count** é o número total de subscrições que correspondem ao query.
+* **total_count** é o número total de assinaturas que correspondem à consulta.
 
-### Consultar pela ID de assinatura do evento
+### Consulta pela ID de inscrição do evento
 
-Você pode consultar as subscrições de eventos pela ID da assinatura do evento. A sintaxe de solicitação para listar assinaturas de eventos é a seguinte:
+Você pode consultar assinaturas de evento pela ID de assinatura de evento. A sintaxe de solicitação para listar assinaturas de evento é a seguinte:
 
-**URL da solicitação:**
+**URL de solicitação:**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -422,7 +368,7 @@ Você pode consultar as subscrições de eventos pela ID da assinatura do evento
 GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>
 ```
 
-**Cabeçalhos da solicitação:**
+**Cabeçalhos de solicitação:**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -435,8 +381,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Autorização</p> </td> 
-   <td> <p>valor apiKey</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>valor sessionID</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -446,8 +392,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 | Código de resposta | Descrição |
 |---|---|
 | 200 (OK) | A solicitação retornou com a assinatura de evento correspondente à ID de assinatura fornecida. |
-| 401 (Não autorizado) | A apiKey fornecida estava vazia. |
-| 403 (Proibido) | O usuário, que corresponde à apiKey fornecida, não tem acesso de administrador. |
+| 401 (Não autorizado) | A sessionID fornecida estava vazia. |
+| 403 (Proibido) | O usuário, que corresponde à sessionID fornecida, não tem acesso de administrador. |
 
 
 **Exemplo de corpo de resposta:**
@@ -468,30 +414,30 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 ## Filtragem de assinatura de evento
 
-A filtragem de assinatura de evento pode ser usada para garantir que você receba apenas mensagens relevantes. Criar filtros para suas assinaturas pode diminuir significativamente o número de mensagens que seu terminal precisa consumir.
+A filtragem por assinatura de evento pode ser usada para garantir que você receba apenas mensagens relevantes. Criar filtros para suas assinaturas pode diminuir significativamente o número de mensagens que seu terminal precisa consumir.
 
-Por exemplo, uma **ATUALIZAÇÃO - TAREFA** a assinatura de evento só pode ser definida para acionar quando a variável **newState** de uma carga útil de evento define a variável **taskStatus** as **atual**.
+Por exemplo, uma variável **ATUALIZAR - TAREFA** a inscrição no evento pode ser definida para acionar somente quando a variável **newState** de uma carga útil do evento define o **taskStatus** as **atual**.
 
 >[!IMPORTANT]
-Os atributos a seguir se aplicam à filtragem de assinatura de evento
+Os seguintes atributos se aplicam à filtragem de assinatura de evento
 
-* Quando um campo de filtro tem um valor não vazio apenas mensagens com um **newState** contendo as chaves de filtro e os valores são enviados para o URL assinado
-* Você pode filtrar por dados personalizados incluídos na variável **newState** E/OU **oldState** do objeto
-* Os filtros são avaliados apenas se são iguais ou não a um valor específico
-* Se a sintaxe do filtro estiver incorreta ou não corresponder a nenhum dado contido na variável **newState** da carga, uma mensagem de validação não será retornada para indicar que ocorreu um erro
-* Os filtros não podem ser atualizados em uma assinatura que existe no momento; uma nova assinatura deve ser criada com novos parâmetros de filtro.
-* Vários filtros podem ser aplicados a uma única assinatura e a assinatura só será entregue quando todas as condições do filtro forem atendidas.
-* Aplicar vários filtros a uma única assinatura é uma prática equivalente ao uso de um **E** operador lógico.
-* Várias assinaturas de evento podem ser aplicadas a um único objeto, desde que um ou mais parâmetros de campo de assinatura de evento sejam diferentes entre cada assinatura de evento.
-* Quando várias assinaturas de evento são atribuídas a um único objeto, todas as assinaturas de evento associadas a esse objeto podem ser retornadas a um único terminal. Essa prática pode ser usada como um substituto equivalente para o operador lógico **OU** que não pode ser definido usando parâmetros de filtro.
+* Quando um campo de filtro tem um valor não vazio, apenas mensagens com um **newState** contendo as chaves de filtro e os valores são enviados ao URL assinado
+* Você pode filtrar pelos dados personalizados incluídos na **newState** E/OU **oldState** do objeto
+* Os filtros são avaliados somente se forem iguais ou não a um valor específico
+* Se a sintaxe do filtro estiver incorreta ou não corresponder a nenhum dado contido no **newState** da carga, uma mensagem de validação não será retornada para indicar que ocorreu um erro
+* Os filtros não podem ser atualizados em uma assinatura existente; uma nova assinatura deve ser criada com novos parâmetros de filtro.
+* Vários filtros podem ser aplicados a uma única assinatura, e a assinatura só será entregue quando todas as condições de filtro forem atendidas.
+* Aplicar vários filtros a uma única assinatura é uma prática equivalente a usar um **E** operador lógico.
+* Várias assinaturas de evento podem ser aplicadas a um único objeto, desde que um ou mais parâmetros de campo de assinatura de evento sejam diferentes em cada assinatura de evento.
+* Quando várias assinaturas de evento são atribuídas a um único objeto, todas as assinaturas de evento associadas a esse objeto podem ser retornadas a um único endpoint. Esta prática pode ser usada como um substituto equivalente para o operador lógico **OU** que não podem ser definidas usando parâmetros de filtro.
 
 ### Uso de operadores de comparação
 
-Você pode especificar um campo de comparação junto com o campo de filtro. Use um operador de comparação neste campo para filtrar por resultados comparativos. Por exemplo, você pode criar uma assinatura UPDATE - TASK que envia apenas uma carga se o status da tarefa NÃO for igual ao atual. Você pode usar os seguintes operadores de comparação:
+Você pode especificar um campo de comparação juntamente com o campo de filtro. Use um operador de comparação neste campo para filtrar por resultados comparativos. Por exemplo, você pode criar uma assinatura UPDATE - TASK que somente envia uma carga se o status da tarefa NÃO for igual ao atual. Você pode usar os seguintes operadores de comparação:
 
 #### eq: equal
 
-Esse filtro permite que as mensagens sejam exibidas se a alteração que ocorreu corresponder `fieldValue` no filtro exatamente. O `fieldValue` faz distinção entre maiúsculas e minúsculas.
+Esse filtro permite a entrada de mensagens se a alteração que ocorreu for correspondente `fieldValue` no filtro exatamente. A variável `fieldValue` O valor diferencia maiúsculas de minúsculas.
 
 ```
 {
@@ -511,7 +457,7 @@ Esse filtro permite que as mensagens sejam exibidas se a alteração que ocorreu
 
 #### ne: diferente de
 
-Este filtro permite que as mensagens passem se a alteração que ocorreu não corresponder `fieldValue` no filtro exatamente. O `fieldValue` faz distinção entre maiúsculas e minúsculas.
+Esse filtro permite a entrada de mensagens se a alteração que ocorreu não corresponder `fieldValue` no filtro exatamente. A variável `fieldValue` O valor diferencia maiúsculas de minúsculas.
 
 ```
 {
@@ -531,7 +477,7 @@ Este filtro permite que as mensagens passem se a alteração que ocorreu não co
 
 #### gt: maior que
 
-Esse filtro permite que as mensagens sejam exibidas se a atualização no filtro especificado `fieldName` é maior que o valor de `fieldValue`.
+Esse filtro permite a entrada de mensagens se a atualização no `fieldName` é maior que o valor de `fieldValue`.
 
 ```
 {
@@ -549,9 +495,9 @@ Esse filtro permite que as mensagens sejam exibidas se a atualização no filtro
 }
 ```
 
-#### gte: maior que ou igual a
+#### get: maior que ou igual a
 
-Esse filtro permite que as mensagens sejam exibidas se a atualização no filtro especificado `fieldName` é maior que ou igual ao valor de `fieldValue`.
+Esse filtro permite a entrada de mensagens se a atualização no `fieldName` é maior que ou igual ao valor de `fieldValue`.
 
 ```
 {
@@ -571,7 +517,7 @@ Esse filtro permite que as mensagens sejam exibidas se a atualização no filtro
 
 #### lt: menor que
 
-Esse filtro permite que as mensagens sejam exibidas se a atualização no filtro especificado `fieldName` é menor que o valor de `fieldValue`.
+Esse filtro permite a entrada de mensagens se a atualização no `fieldName` é menor que o valor de `fieldValue`.
 
 ```
 {
@@ -591,7 +537,7 @@ Esse filtro permite que as mensagens sejam exibidas se a atualização no filtro
 
 #### lte: menor que ou igual a
 
-Esse filtro permite que as mensagens sejam exibidas se a atualização no filtro especificado `fieldName` é menor que ou igual ao valor de `fieldValue`.
+Esse filtro permite a entrada de mensagens se a atualização no `fieldName` é menor que ou igual ao valor de `fieldValue`.
 
 ```
 {
@@ -611,7 +557,7 @@ Esse filtro permite que as mensagens sejam exibidas se a atualização no filtro
 
 #### contém
 
-Esse filtro permite que as mensagens sejam exibidas se a alteração que ocorreu contiver a variável `fieldValue` no filtro . O `fieldValue` o valor diferencia maiúsculas e minúsculas
+Esse filtro permite a entrada de mensagens se a alteração que ocorreu contiver o `fieldValue` no filtro. A variável `fieldValue` o valor diferencia maiúsculas de minúsculas
 
 ```
 {
@@ -631,7 +577,7 @@ Esse filtro permite que as mensagens sejam exibidas se a alteração que ocorreu
 
 #### alteração
 
-Esse filtro permite que as mensagens sejam exibidas somente se o campo especificado (`fieldName`) tem um valor diferente em oldstate e newstate. Atualização de outros campos além do especificado (`fieldName`) não retornará essa alteração.
+Esse filtro permite a entrada de mensagens somente se o campo especificado (`fieldName`) tem um valor diferente em oldstate e newstate. Atualização de outros campos além do especificado (`fieldName`) não retornará essa alteração.
 
 >[!NOTE]
 `fieldValue` na matriz de filtros abaixo não tem efeito.
@@ -658,8 +604,8 @@ Esse conector faz com que o filtro se aplique ao novo estado ou ao estado antigo
 `oldState` não é possível em CREATE `eventTypes`.
 
 >[!NOTE]
-A assinatura abaixo com o filtro fornecido só retornará mensagens onde o nome da tarefa contém `again` no `oldState`, o que era antes de uma atualização ser feita na tarefa.
-Um caso de uso para isso seria encontrar as mensagens objCode que foram alteradas de uma coisa para outra. Por exemplo, para descobrir todas as tarefas que mudaram de &quot;Research Some name&quot; para &quot;Research TeamName Some name&quot;
+A assinatura abaixo com o filtro fornecido só retornará mensagens cujo nome da tarefa contenha `again` no `oldState`, o que era antes de uma atualização ser feita na tarefa.
+Um caso de uso para isso seria encontrar as mensagens objCode que mudaram de uma coisa para outra. Por exemplo, para descobrir todas as tarefas que foram alteradas de &quot;Pesquisar algum nome&quot; para &quot;Pesquisar nome da equipe Algum nome&quot;
 
 ```
 {
@@ -680,7 +626,7 @@ Um caso de uso para isso seria encontrar as mensagens objCode que foram alterada
 
 ### Uso de campos de conector
 
-O `filterConnector` no payload da assinatura permite escolher como os filtros devem ser aplicados. O padrão é &quot;AND&quot;, onde os filtros devem ser `true` para que a mensagem de assinatura seja exibida. Se &quot;OR&quot; for especificado, apenas um filtro deverá corresponder para a mensagem de subscrição ser exibida.
+A variável `filterConnector` no payload da subscrição permite escolher como os filtros devem ser aplicados. O padrão é &quot;E&quot;, onde os filtros devem ser todos `true` para que a mensagem de subscrição seja recebida. Se &quot;OR&quot; for especificado, somente um filtro deverá corresponder para que a mensagem de subscrição seja recebida.
 
 ```
 {
@@ -704,11 +650,11 @@ O `filterConnector` no payload da assinatura permite escolher como os filtros de
 }
 ```
 
-## Exclusão de assinaturas de evento
+## Exclusão de Assinaturas de Eventos
 
-Ao excluir HTTP do Workfront, use o método DELETE. A sintaxe de solicitação para excluir uma assinatura de evento único por ID de assinatura é a seguinte:
+Ao excluir o HTTP do Workfront, use o método DELETE. A sintaxe de solicitação para excluir uma única assinatura de evento por ID de assinatura é a seguinte:
 
-**URL da solicitação:**
+**URL de solicitação:**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -716,7 +662,7 @@ Ao excluir HTTP do Workfront, use o método DELETE. A sintaxe de solicitação p
 DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>
 ```
 
-**Cabeçalhos da solicitação:**
+**Cabeçalhos de solicitação:**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -729,8 +675,8 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Autorização</p> </td> 
-   <td> <p> apiKey do usuário </p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p> valor sessionID </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -749,15 +695,15 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  <tbody> 
   <tr> 
    <td>200 (Sem conteúdo)</td> 
-   <td>O servidor removeu com êxito a subscrição de evento correspondente à subscriptionID fornecida.</td> 
+   <td>O servidor removeu com êxito a inscrição de evento correspondente à subscriptionID fornecida.</td> 
   </tr> 
   <tr> 
    <td>401 (Não autorizado)</td> 
-   <td>A apiKey fornecida estava vazia.</td> 
+   <td>A sessionID fornecida estava vazia.</td> 
   </tr> 
   <tr> 
    <td>403 (Proibido)</td> 
-   <td>O usuário que corresponde à apiKey fornecida não tem acesso de administrador.</td> 
+   <td>O usuário que corresponde à sessionID fornecida não tem acesso de administrador.</td> 
   </tr> 
   <tr> 
    <td>404 (Não encontrado)</td> 
@@ -776,11 +722,11 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
 
 **Exemplo de corpo de resposta:** N/D
 
-## Exemplos de cargas de evento
+## Exemplos de payloads de evento
 
-A carga útil que um usuário recebe varia dependendo do tipo de objeto, mas há um formato consistente para o qual essas cargas variáveis são entregues.
+A carga útil que um usuário recebe varia dependendo do tipo de objeto, mas há um formato consistente para o qual essas cargas úteis variáveis são entregues.
 
-Por exemplo, as seguintes propriedades permanecem consistentes em todas as cargas de evento:
+Por exemplo, as seguintes propriedades permanecem consistentes em todas as cargas do evento:
 
 * eventType
 * subscriptionId
@@ -788,11 +734,11 @@ Por exemplo, as seguintes propriedades permanecem consistentes em todas as carga
 * newState
 * eventTime
 
-Embora seja consistente no formato , os valores contidos nas propriedades variam entre diferentes objetos e tipos de objetos.
+Embora consistentes no formato, os valores contidos nas propriedades variam entre diferentes objetos e tipos de objeto.
 
-Exemplos de cargas para um evento UPDATE e um evento CREATE são mostrados abaixo. Observe no exemplo UPDATE que os objetos oldState e newState são os mesmos, enquanto no exemplo CREATE o objeto oldState está vazio (não NULL).
+Amostras de cargas para um evento UPDATE e um evento CREATE são mostradas abaixo. Observe que no exemplo UPDATE os objetos oldState e newState são iguais, enquanto no exemplo CREATE o objeto oldState está vazio (não NULL).
 
-A seguir, um exemplo de carga para um evento UPDATE :
+Veja a seguir um exemplo de carga para um evento UPDATE:
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -860,7 +806,7 @@ A seguir, um exemplo de carga para um evento UPDATE :
                 }
 ```
 
-A seguir, um exemplo de carga para um evento CREATE :
+Veja a seguir um exemplo de carga para um evento CREATE:
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -901,19 +847,19 @@ A seguir, um exemplo de carga para um evento CREATE :
             }
 ```
 
-## Codificação base 64
+## Codificação de base 64
 
-Se uma assinatura de evento estiver sendo rejeitada devido a um conflito entre caracteres especiais contidos em suas assinaturas de evento e suas configurações de rede, você poderá usar a codificação Base64 para passar suas assinaturas de evento. Base64 é um conjunto de esquemas de codificação que podem traduzir quaisquer dados arbitrários em um formato de string ASCII. É importante observar que Base64 não é uma forma de criptografia de segurança.
+Se uma assinatura de evento estiver sendo rejeitada devido a um conflito entre os caracteres especiais contidos nas assinaturas de evento e as configurações de rede, você poderá usar a codificação Base64 para enviar as assinaturas de evento. Base64 é um conjunto de esquemas de codificação que podem traduzir quaisquer dados arbitrários em um formato de string ASCII. É importante observar que Base64 não é uma forma de criptografia de segurança.
 
-### Campo de codificação base 64
+### Campo de codificação de base 64
 
 O campo base64Encoding é um campo opcional usado para habilitar a codificação Base64 de cargas de assinatura de evento. O valor padrão é false e os valores possíveis são: true, false e &quot; &quot; (em branco).
 
 ### Exemplo de uma solicitação usando o campo base64Encoding
 
-Se uma solicitação for feita usando o campo base64Encoding definido como true, então a variável **newState** e **oldState** os objetos na carga útil são entregues como strings de codificação base 64. Se o campo base64Encoding estiver definido como false, deixado em branco ou não estiver incluído na solicitação, a carga útil retornada não será codificada na base 64.
+Se uma solicitação for feita usando o campo base64Encoding definido como true, o campo **newState** e **oldState** os objetos na carga são entregues como strings de codificação de base 64. Se o campo base64Encoding for definido como false, deixado em branco ou não incluído na solicitação, a carga retornada não será codificada na base 64.
 
-Este é um exemplo de solicitação que usa o campo base64Encoding :
+Este é um exemplo de uma solicitação que usa o campo base64Encoding:
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -927,7 +873,7 @@ Este é um exemplo de solicitação que usa o campo base64Encoding :
             }
 ```
 
-### Exemplos de cargas de resposta na codificação base 64
+### Exemplos de cargas de resposta na codificação de base 64
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -947,9 +893,9 @@ Este é um exemplo de solicitação que usa o campo base64Encoding :
 
 ## Método obsoleto para consultar todas as assinaturas de evento
 
-O ponto de extremidade da API a seguir está obsoleto e não deve ser usado para novas implementações. Também recomendamos a transição de implementações antigas para o método no **Consulta de assinaturas de evento** seção descrita acima.
+O endpoint da API a seguir está obsoleto e não deve ser usado para novas implementações. Também recomendamos a transição de implementações antigas para o método no **Consultando Assinaturas de Evento** descrito acima.
 
-Você pode consultar todas as subscrições de eventos de um cliente, conforme especificado pelo valor apiKey. A sintaxe de solicitação para listar todas as subscrições de eventos de um cliente específico é o seguinte URL:
+É possível consultar todas as assinaturas de evento para um cliente, conforme especificado pelo valor sessionID. A sintaxe de solicitação para listar todas as assinaturas de evento para um cliente específico é o seguinte URL:
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -957,7 +903,7 @@ Você pode consultar todas as subscrições de eventos de um cliente, conforme e
 GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
 ```
 
-**Cabeçalhos da solicitação:**
+**Cabeçalhos de solicitação:**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -970,8 +916,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Autorização</p> </td> 
-   <td> <p> apiKey do usuário </p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p> valor sessionID </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -994,18 +940,18 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
   </tr> 
   <tr> 
    <td>401 (Não autorizado)</td> 
-   <td>A apiKey fornecida estava vazia.</td> 
+   <td>A sessionID fornecida estava vazia.</td> 
   </tr> 
   <tr> 
    <td>403 (Proibido)</td> 
-   <td>O usuário que corresponde à apiKey fornecida não tem acesso de administrador.</td> 
+   <td>O usuário que corresponde à sessionID fornecida não tem acesso de administrador.</td> 
   </tr> 
  </tbody> 
 </table>
 
  
 
-### Exemplo de corpo de resposta
+### Exemplo de Corpo de Resposta
 
 <!-- [Copy](javascript:void(0);) -->
 
