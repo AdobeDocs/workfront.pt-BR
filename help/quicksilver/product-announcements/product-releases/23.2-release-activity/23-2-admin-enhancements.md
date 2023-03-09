@@ -4,9 +4,9 @@ description: 23.2 Aprimoramentos do administrador
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2cfcec04151329918c071b7ed7cb48519d553095
+source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ Com o novo designer de formulários, adicionamos a capacidade de
 
 * **Alterar o tamanho para Texto descritivo**: agora é possível atribuir tamanhos pequeno, médio ou grande a campos de texto Descritivo. Também é possível usá-los na mesma linha com outros campos. <span style="color: #ff0000;"> A alteração do tamanho do texto descritivo foi adiada temporariamente, mas será adicionada em breve.</span></li>
 
-Para obter mais informações, consulte [Visão geral do designer do formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).<!--link is to new article-->
+Para obter mais informações, consulte [Visão geral do designer do formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
+
+[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3416586/){target=_blank}
 
 ## Renomear pinos no modelo de layout
 
@@ -37,4 +39,4 @@ Agora é possível renomear fixações em um modelo de layout para ter mais sign
 
 Para obter mais informações, consulte [Personalizar páginas fixadas usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md). Para obter detalhes sobre como os usuários podem renomear suas páginas pessoais fixadas, consulte [Fixar páginas para personalizar o espaço de trabalho](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3414364/)
+[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3414364/){target=_blank}
