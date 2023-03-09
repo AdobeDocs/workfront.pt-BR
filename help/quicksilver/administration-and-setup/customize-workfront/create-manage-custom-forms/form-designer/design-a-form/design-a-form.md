@@ -7,9 +7,9 @@ description: Você pode criar um formulário personalizado com o designer do for
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f416fc6a021a63e3a0cbd905de8e5892455f21a9
+source-git-commit: b56cf20e054b2658ade8aef6c179128e001603c2
 workflow-type: tm+mt
-source-wordcount: '3618'
+source-wordcount: '3803'
 ht-degree: 4%
 
 ---
@@ -124,7 +124,9 @@ Você pode usar campos novos ou existentes ao criar o formulário personalizado.
    >[!NOTE]
    >
    >Os campos de texto com formatação não estão disponíveis para aplicativos móveis Workfront (disponíveis nas próximas versões).
+
 * **Texto descritivo**: permite incluir instruções e vincular a páginas fora do Workfront.
+
 +++
 
 Para adicionar um campo de texto:
@@ -134,7 +136,7 @@ Para adicionar um campo de texto:
    * Texto em linha única:
    * Texto de parágrafo
    * Campo de texto com formatação
-   * Textos descritivos
+   * Texto descritivo
 
    ![](assets/drag-field-to-section.png)
 
@@ -145,6 +147,17 @@ Para adicionar um campo de texto:
     <td>Entrada em</td>
     <td>Descrição</td>
     <td>Disponível para </td>
+    </tr>
+    <tr>
+    <td>Tamanho</td>
+    <td><p>Altere o tamanho dos campos de texto no formulário.<p>
+   </td>
+    <td><ul>
+    <li>Texto de linha única</li>
+    <li>Texto de parágrafo</li>
+    <li>Texto com formatação</li>
+    <li>Texto descritivo - Em breve</li>
+    </ul></td>
     </tr>
     <tr>
     <td>Rótulo</td>
@@ -209,6 +222,14 @@ Para adicionar um campo de texto:
     <td><ul><li>Texto descritivo</li></ul></td>
     </tr>
    </table>
+
+1. (Opcional) Repita a etapa anterior para adicionar outros campos ou widgets.
+
+   ou
+
+   Para copiar um campo, passe o mouse sobre um campo e clique no ícone de cópia.
+
+   ![ícone copiar](assets/copy-field.png)
 
 1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando seu formulário.
 
@@ -346,6 +367,20 @@ Para adicionar botões de opção e caixas de seleção:
     </tbody> 
     </table>
 
+1. (Opcional) Repita a etapa anterior para adicionar outros campos ou widgets.
+
+   ou
+
+   Para copiar um campo, passe o mouse sobre um campo e clique no ícone de cópia.
+
+   ![ícone copiar](assets/copy-field.png)
+
+1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando seu formulário.
+
+   ou
+
+   Clique em **Salvar e fechar**.
+
 ### Adicionar campos de digitação antecipada e data
 
 Você pode adicionar campos de digitação antecipada e data a um formulário personalizado.
@@ -445,6 +480,14 @@ Para adicionar campos de data de digitação antecipada:
     </tbody> 
    </table>
 
+1. (Opcional) Repita a etapa anterior para adicionar outros campos ou widgets.
+
+   ou
+
+   Para copiar um campo, passe o mouse sobre um campo e clique no ícone de cópia.
+
+   ![ícone copiar](assets/copy-field.png)
+
 1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando seu formulário.
 
    ou
@@ -520,6 +563,14 @@ Para adicionar imagens, PDF ou vídeos:
     </tbody> 
    </table>
 
+1. (Opcional) Repita a etapa anterior para adicionar outros campos ou widgets.
+
+   ou
+
+   Para copiar um campo, passe o mouse sobre um campo e clique no ícone de cópia.
+
+   ![ícone copiar](assets/copy-field.png)
+
 1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando seu formulário.
 
    ou
@@ -588,6 +639,14 @@ Para adicionar um arquivo Adobe XD:
      </tr> 
     </tbody> 
    </table>
+
+1. (Opcional) Repita a etapa anterior para adicionar outros campos ou widgets.
+
+   ou
+
+   Para copiar um campo, passe o mouse sobre um campo e clique no ícone de cópia.
+
+   ![ícone copiar](assets/copy-field.png)
 
 1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando seu formulário.
 
