@@ -6,17 +6,16 @@ description: Você pode atualizar a ordem na qual os formulários personalizados
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 78de23b4d5814e5e2ead6bb61a80bba7bd2aed33
+source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
 
 # Gerenciar formulários personalizados anexados a objetos
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>  -->
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização.</span>
 
 Você pode atualizar a ordem na qual os formulários personalizados anexados a um objeto são exibidos, removê-los ou editar em massa a forma como os formulários personalizados são exibidos em vários objetos.
 
@@ -98,13 +97,11 @@ Você pode fazer com que o mesmo campo apareça em vários formulários personal
 ## Gerenciar vários formulários personalizados ao editar objetos em massa
 
 <!--
-drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:
+drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:-->
 
 >[!NOTE]
 >
-><span class="preview">For information about managing custom forms on projects in bulk in the Preview environment, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
-
--->
+><span class="preview">Para obter informações sobre como gerenciar formulários personalizados em projetos em massa no ambiente de Pré-visualização, consulte o artigo [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
 
 Ao editar objetos em massa que têm vários formulários personalizados aplicados, você pode editar a forma como os formulários personalizados são exibidos nesses objetos, bem como editar campos comuns entre os formulários personalizados.
 

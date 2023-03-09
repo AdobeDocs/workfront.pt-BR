@@ -6,9 +6,9 @@ description: Conjuntos de recursos são coleções de usuários que ajudam você
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 78de23b4d5814e5e2ead6bb61a80bba7bd2aed33
+source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,13 @@ ht-degree: 0%
 # Associar conjuntos de recursos a projetos e modelos
 
 
-<!-- drafted for bulk editing projects: make this live when we release edit projects in bulk and replace the screen shot below (marked) and make the shot in yellow showing adding resource pools to multiple projects:
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<!-- drafted for bulk editing projects: keep this in yellow till this releases to ALL customers - May 1, 2023
 
+Also - take out all the references to Preview and Prod at prod final
 -->
+
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização.</span>
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -103,11 +106,12 @@ Para associar conjuntos de recursos a vários projetos em massa:
 
    >[!NOTE]
    >
-   >Ao editar projetos ou modelos em massa, somente os conjuntos de recursos comuns a todos os projetos ou modelos selecionados aparecem nesse campo. Se os projetos selecionados não tiverem conjuntos de recursos compartilhados, esse campo estará vazio. Os conjuntos de recursos especificados aqui substituirão os conjuntos de recursos individuais dos projetos ou modelos.
+   >* No ambiente de Produção, ao editar projetos ou modelos em massa, somente os conjuntos de recursos comuns a todos os projetos ou modelos selecionados aparecem nesse campo. Se os projetos selecionados não tiverem conjuntos de recursos compartilhados, esse campo estará vazio. Os conjuntos de recursos especificados aqui substituirão os conjuntos de recursos individuais dos projetos ou modelos.
+   >
+   >* <span class="preview">No ambiente de Pré-visualização, ao editar projetos em massa, há um indicador &quot;Vários valores&quot; se os projetos selecionados tiverem conjuntos de recursos diferentes. Se você adicionar conjuntos de recursos em massa, todos eles serão adicionados ao projeto selecionado, substituindo os conjuntos de recursos originais.</span>
 
-   <!--drafted note for bulk editing projects - update the screen shot below for Edit Projects with the new UI in bulk and add the preview tags to the picture for Preview-->
 
-   ![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
+   <span class="preview">![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)</span>
 
 1. Clique em **Salvar alterações**.\
    Quando o conjunto de recursos estiver associado aos projetos ou modelos, você poderá estimar as alocações de usuário para os projetos dentro do Planejador de recursos.\
