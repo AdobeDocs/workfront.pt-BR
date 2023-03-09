@@ -1,0 +1,33 @@
+---
+title: 23.2 Aprimoramentos em dispositivos móveis
+description: 23.2 Aprimoramentos em dispositivos móveis
+author: Courtney
+draft: Probably
+feature: Product Announcements
+source-git-commit: be47ec2d4118c1816b1babfcc4af2e04f83781af
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 0%
+
+---
+
+# 23.2 Aprimoramentos em dispositivos móveis
+
+Esta página descreve todas as outras melhorias feitas na versão 23.2 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão 23.2.
+
+Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo de versão 23.2, consulte [23.2 Visão geral da versão](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Coleções biométricas de logon e painéis no aplicativo móvel
+
+>[!NOTE]
+>
+>Esses recursos estarão disponíveis na loja da Apple App Store e da Google Play na semana de 13 de março. As melhorias gerais no logon estarão disponíveis no início de abril.
+
+
+O logon biométrico agora é uma opção para fazer logon mais rápido no aplicativo móvel! Depois que a verificação biométrica for configurada após um logon inicial, os usuários poderão usar o reconhecimento de impressão digital ou facial para fazer logon rapidamente no aplicativo com apenas uma reverificação ocasional de senha. Além disso, haverá várias melhorias na aparência e comportamento da experiência de logon geral, chegando em uma atualização posterior.
+
+Para obter mais informações, consulte [Efetue logon no [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+
+As coleções de quadros agora também são compatíveis com o aplicativo móvel, permitindo que os usuários móveis visualizem quaisquer coleções às quais tenham acesso na versão para desktop da lista de Quadros móveis.
+
+Para obter mais informações, consulte [[!DNL Adobe Workfront] [!UICONTROL Boards] para dispositivos móveis](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).

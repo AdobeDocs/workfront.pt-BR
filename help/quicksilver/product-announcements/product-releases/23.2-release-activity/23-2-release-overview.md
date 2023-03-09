@@ -4,9 +4,9 @@ description: Visão geral da versão 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 26e15632013bc4ecdad67dd3843bc42ca9cc3ddb
+source-git-commit: 4f3764665b902cd52fa15c56294df084111e3399
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '2237'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,13 @@ As melhorias nesta página estão disponíveis no ambiente de Pré-visualizaçã
 
 Para obter dicas sobre como se preparar para a próxima versão, consulte [Preparar-se para uma versão trimestral do Adobe Workfront](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
 
-<!-- The 23.2 release webinar will be held on ___. You can [register for the webinar here](link). -->
+## Webinar de lançamento
+
+No lugar de um webinário de lançamento, convidamos você a se registrar no Adobe Summit para assistir às seguintes sessões do Workfront:
+
+[Experiências impactantes: da criação de conteúdo à personalização](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) em 21 de março de 2023, para conhecer novas maneiras de criar, gerenciar e personalizar conteúdo e fornecer experiências impactantes com mais eficiência. Esta sessão será transmitida ao vivo para públicos virtuais.
+
+[O futuro do Adobe Workfront](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) em 23 de março de 2023, para ver a visão do Workfront e seu lugar no ecossistema do Adobe e dar uma olhada no futuro roteiro. Esta sessão será gravada e disponibilizada posteriormente como conteúdo sob demanda.
 
 <span class="preview">Os recursos fora do ciclo (aqueles que estão sendo lançados para produção antes da data de lançamento da versão 23.2) estão destacados em amarelo.</span>
 
@@ -30,6 +36,7 @@ Para obter dicas sobre como se preparar para a próxima versão, consulte [Prepa
 * [Aprimoramentos do Agile](#agile-enhancements)
 * [Aprimoramentos no gerenciamento de projetos](#project-management-enhancements)
 * [Melhorias no gerenciamento de recursos](#resource-management-enhancements)
+* [Melhorias na mobilidade](#mobile-enhancements)
 * [Outras melhorias](#other-enhancements)
 
 ### Melhorias do administrador
@@ -50,7 +57,30 @@ Para obter dicas sobre como se preparar para a próxima versão, consulte [Prepa
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Renomear pinos no modelo de layout</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Criar formulários personalizados com o novo designer de formulário</a><span style="color: #ff0000;"> Novo na visualização!</span>
+                        <p>O novo designer de formulário tem um novo espaço de trabalho no estilo da tela de desenho que permite exibir os campos, a tela de desenho e as configurações de campo, tudo ao mesmo tempo.</p>
+                        <p>Com o novo designer de formulários, adicionamos a capacidade de 
+                        <ul>
+                        <li><strong>Copiar um campo</strong>: Agora é possível copiar campos existentes clicando no ícone Copiar nos campos diretamente da tela.</li>
+                        <li><strong>Usar uma seção padrão</strong>: se o criador do formulário não tiver adicionado uma seção na parte superior do formulário, uma seção Padrão agora estará visível na tela, para que os usuários possam ajustar as permissões para campos que não tenham uma seção personalizada atribuída. </li>
+                        <li><strong>Alterar o tamanho para Texto descritivo</strong>: agora é possível atribuir tamanhos pequeno, médio ou grande a campos de texto Descritivo. Também é possível usá-los na mesma linha com outros campos. <span style="color: #ff0000;"> A alteração do tamanho do texto descritivo foi adiada temporariamente, mas será adicionada em breve.</span></li> 
+                        </ul>
+                        </p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 9 de março de 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Versão de produção: com a versão 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Renomear pinos no modelo de layout</span></a>
                         </span></a><p>Agora é possível renomear fixações em um modelo de layout para ter mais significado para seus usuários, em vez de usar o nome padrão para a página fixada. Os fixadores criados pelos administradores são exibidos para todos os usuários atribuídos ao modelo de layout e os usuários não podem renomeá-los.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -82,26 +112,26 @@ Para obter dicas sobre como se preparar para a próxima versão, consulte [Prepa
                         <p><span class="bold">Datas de lançamento</span>
                         </p>
                     </td>
-                </tr><!--
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-27.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues to Workfront Boards from lists and reports</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>You can now add existing tasks or issues to a Workfront board directly from a list or report view. Any items you add to the board will become connected cards.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adicionar tarefas e problemas a painéis do Workfront a partir de listas e relatórios</a><span style="color: #ff0000;"> Novo na visualização!</span></p>
+                        <p>Agora é possível adicionar tarefas ou problemas existentes a um quadro do Workfront diretamente de uma lista ou exibição de relatório. Quaisquer itens adicionados ao quadro se tornarão cartões conectados.</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: March 2, 2023<br /></p>
+                                <p>Versão de pré-visualização: 2 de março de 2023<br /></p>
                             </li>
                             <li>
-                                <p>Production release: With the 23.2 release</p>
+                                <p>Versão de produção: com a versão 23.2</p>
                             </li>
                         </ul>
                     </td>
-                </tr>-->
+                </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">Registra horas em cartões conectados em um quadro</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Registra horas em cartões conectados em um quadro</a></p>
                         <p>Agora é possível registrar horas em cartões conectados, da mesma maneira que você faria em uma tarefa ou problema. Você deve ter as permissões corretas para a tarefa ou problema para registrar o tempo.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -118,7 +148,7 @@ Para obter dicas sobre como se preparar para a próxima versão, consulte [Prepa
                 </tr>
               <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Personalizar a exibição de campos em um cartão</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Personalizar a exibição de campos em um cartão</a></p>
                         <p>A personalização agora está disponível para configurar quais campos são exibidos em um cartão, tanto na exibição completa quando o cartão está aberto quanto na exibição condensada de cartão no quadro. Quando você desativa, um campo não é exibido em nenhuma exibição. Você também pode ativar um campo na exibição completa e ocultá-lo da exibição condensada.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -135,7 +165,7 @@ Para obter dicas sobre como se preparar para a próxima versão, consulte [Prepa
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Definir um status padrão para cartões movidos para uma coluna de quadro</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Definir um status padrão para cartões movidos para uma coluna de quadro</a></p>
                         <p>Agora é possível definir um status padrão para aplicar aos cartões movidos para uma coluna específica, selecionando um status personalizado e um status de sistema nas políticas de coluna. Quando você move um cartão para a coluna, o Workfront primeiro tenta aplicar o status personalizado (por exemplo, Aguardando feedback). Se o status personalizado não estiver disponível para essa placa, a Workfront aplicará o status do sistema (por exemplo, Em espera). Além disso, se o status na tarefa ou problema conectado for alterado para o status personalizado ou do sistema definido na política de coluna, o cartão será movido automaticamente para a coluna.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -152,7 +182,7 @@ Para obter dicas sobre como se preparar para a próxima versão, consulte [Prepa
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Coleções agora disponíveis em painéis do Adobe Workfront</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Coleções agora disponíveis em painéis do Adobe Workfront</a></p>
                         <p>Agora é possível criar coleções no painel de quadros. Uma coleção é um grupo de conselhos para colaborar no trabalho. Depois de nomear a coleção, você pode adicionar quadros a ela usando um conjunto de modelos que oferecem configurações predefinidas, como nomes de colunas.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -169,7 +199,7 @@ Para obter dicas sobre como se preparar para a próxima versão, consulte [Prepa
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">O campo Estimativa em cartões conectados é mapeado para o campo Pontos de história em objetos Workfront</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">O campo Estimativa em cartões conectados é mapeado para o campo Pontos de história em objetos Workfront</a></p>
                         <p>O campo Estimativa em cartões conectados em Workfront Boards agora mapeia para o campo Pontos de história do objeto Workfront associado. </p>
                         <p>O novo campo Pontos da história é um campo de forma livre editável que pode ser adicionado a uma exibição em uma lista ou relatório para tarefas ou problemas. Não está vinculado às horas planejadas ou atribuições de equipe.</p>
                     </td>
@@ -187,7 +217,7 @@ Para obter dicas sobre como se preparar para a próxima versão, consulte [Prepa
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">Visualizar cartão na coluna de entrada</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Visualizar cartão na coluna de entrada</a></p>
                         <p>Agora é possível clicar em um cartão conectado na coluna de entrada para ver uma versão somente para visualização do conteúdo. Não é possível editar o conteúdo do cartão até que ele seja movido da coluna de entrada para outra coluna no quadro.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -223,7 +253,23 @@ Para obter dicas sobre como se preparar para a próxima versão, consulte [Prepa
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Experiência de filtro aprimorada geralmente disponível no Adobe Workfront<span style="color: #ff0000;"> Novo na visualização!</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nova experiência ao editar projetos em massa</a><span style="color: #ff0000;"> Novo na visualização!</span>
+                        <p>Como parte da atualização da aparência da experiência do Workfront, reprojetamos a caixa Editar projetos ao editar vários projetos ao mesmo tempo, Em massa. Você pode acessar a nova caixa Editar projetos ao selecionar vários projetos ao mesmo tempo em uma lista de projetos.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 9 de março de 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Versão de produção: a partir de 23 de março, essa versão será liberada para produção em uma implantação em fases que será concluída em 11 de maio de 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Experiência de filtro aprimorada geralmente disponível no Adobe Workfront</a>
                         <p>A experiência de filtro aprimorada estará disponível no geral e se tornará o construtor de filtros padrão na Pré-visualização em 2 de março de 2023. Uma implantação em fases na Produção também terá início em 2 de março, com disponibilidade para todos os clientes na versão 23.2.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -239,7 +285,7 @@ Para obter dicas sobre como se preparar para a próxima versão, consulte [Prepa
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Copiar horas orçadas ao copiar um projeto</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Copiar horas orçadas ao copiar um projeto</a>
                         <p>Agora, você tem a opção de copiar as horas orçadas na área Orçamento de recursos do Business Case ou do Planejador de recursos ao copiar um projeto. Antes dessa melhoria, as horas orçadas para o projeto não eram transferidas para o projeto copiado.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -274,7 +320,7 @@ Para obter dicas sobre como se preparar para a próxima versão, consulte [Prepa
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Introdução ao campo Horário de trabalho para calcular com precisão a capacidade do usuário</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Introdução ao campo Horário de trabalho para calcular com precisão a capacidade do usuário</a>
                         <p>Para permitir que os gerentes de recursos calculem com precisão a disponibilidade de seus usuários e contabilizem o tempo que os usuários dedicam ao trabalho real relacionado ao projeto, estamos introduzindo o conceito de Tempo de trabalho ao Adobe Workfront.</p>
                         <p>Você pode definir o valor do campo Horário de trabalho para cada usuário ao criar ou editar seu perfil.</p>
                     </td>
@@ -285,6 +331,42 @@ Para obter dicas sobre como se preparar para a próxima versão, consulte [Prepa
                             </li>
                             <li>
                                  <p><span class="preview">Versão de produção: 2 de março de 2023 (fora do ciclo)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### Melhorias na mobilidade
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Recurso</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Datas de lançamento</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Coleções biométricas de logon e painéis no aplicativo móvel</span></a><span style="color: #ff0000;"> Em breve!</span>
+                        <p>O logon biométrico agora é uma opção para fazer logon mais rápido no aplicativo móvel! Depois que a verificação biométrica for configurada após um logon inicial, os usuários poderão usar o reconhecimento de impressão digital ou facial para fazer logon rapidamente no aplicativo com apenas uma reverificação ocasional de senha. Além disso, haverá várias melhorias na aparência e comportamento da experiência de logon geral, chegando em uma atualização posterior.</p>
+                        <p>As coleções de quadros agora também são compatíveis com o aplicativo móvel, permitindo que os usuários móveis visualizem quaisquer coleções às quais tenham acesso na versão para desktop da lista de Quadros móveis.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: N/D<br /></p>
+                            </li>
+                            <li>
+                                 <p>Versão de produção: disponível na Apple App Store e na Google Play Store em 13 de março de 2023</p>
                             </li>
                         </ul>
                     </td>
@@ -310,7 +392,46 @@ Para obter dicas sobre como se preparar para a próxima versão, consulte [Prepa
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Exportar pranchetas como um único PDF ou vários arquivos PDF no Adobe Workfront para XD</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Novos clientes de rede a serem integrados à experiência unificada do Adobe</a><span style="color: #ff0000;"> Em breve!</span></p>
+                        <p>A Experiência unificada do Adobe inclui:
+                        <ul>
+                        <li>Um login único para todos os aplicativos Adobe por meio do Adobe Experience Cloud</li>
+                        <li>Um "alternador de organização" para alternar entre organizações e ambientes do Workfront</li>
+                        <li>Navegação com opções para páginas do Workfront, preferências do Adobe Experience Cloud e seu perfil do Workfront</li>
+                        </ul>
+                        </p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: N/D<br /></p>
+                            </li>
+                            <li>
+                                <p>Versão de produção: de meados a final de março de 2023</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">O visualizador de provas é aberto em uma nova guia para usuários na Experiência unificada</a><span style="color: #ff0000;"> Em breve!</span></p>
+                        <p>O visualizador de provas agora abre em uma nova guia para usuários na Experiência unificada.
+                        </p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: N/D<br /></p>
+                            </li>
+                            <li>
+                                <p>Versão de produção: de meados a final de março de 2023</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Exportar pranchetas como um único PDF ou vários arquivos PDF no Adobe Workfront para XD</span></a>
                         </span></a><p>No plug-in Adobe Workfront for XD, agora é possível exportar as pranchetas como um único arquivo de PDF ou vários arquivos de PDF.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -380,6 +501,10 @@ Explore as atualizações mais recentes feitas em programas de aprendizado, cami
 ### Funcionalidade que será removida em breve do Workfront
 
 A seguinte funcionalidade será removida do Workfront em breve:
+
+#### **As páginas externas do painel não são mais compatíveis com URLs de painel**
+
+Para melhorar a estabilidade do painel e os tempos de carregamento, as páginas externas nos painéis não poderão mais fazer referência aos URLs do painel. Os administradores do sistema para contas que contenham qualquer página externa que faça referência a painéis receberão uma notificação no aplicativo para alertá-los sobre essa alteração. Para obter mais informações, consulte [Incorporar uma página externa em um painel](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 #### **Alterações na API padrão do Workfront**
 
