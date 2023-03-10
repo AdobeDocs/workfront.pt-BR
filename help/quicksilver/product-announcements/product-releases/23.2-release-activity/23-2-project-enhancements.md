@@ -4,9 +4,9 @@ description: 23.2 Aprimoramentos do projeto
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
+source-git-commit: c4cb27085ddc3bea86081ddd14a88640d0ed5f90
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Além de uma aparência atualizada da interface, as seguintes alterações tamb�
 * Indicação de quais formulários personalizados já estão anexados aos projetos selecionados e o número de projetos que têm um determinado formulário já anexado.
 
 * Removemos a funcionalidade de comentários da caixa Editar projetos.
+
+* Eliminamos a opção Recalcular cartões de pontuação ao editar projetos em massa.
 
 Para obter informações, consulte [Editar projetos](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
