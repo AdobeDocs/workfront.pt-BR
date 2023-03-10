@@ -6,9 +6,9 @@ description: Você pode editar um projeto no Adobe Workfront sempre que necessá
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 5eddd7765dfafed24b67b58aaf6f6f0e8a4a96ee
+source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
 workflow-type: tm+mt
-source-wordcount: '7664'
+source-wordcount: '7666'
 ht-degree: 2%
 
 ---
@@ -786,7 +786,7 @@ Para editar projetos em massa:
 
 <div class="preview">
 
-### Editar projetos no ambiente de Pré-visualização
+### Editar projetos em massa no ambiente de Pré-visualização
 
 Considere o seguinte ao editar projetos em massa no ambiente de Pré-visualização:
 

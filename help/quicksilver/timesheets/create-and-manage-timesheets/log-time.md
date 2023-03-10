@@ -6,9 +6,9 @@ description: Você pode registrar horas para itens de trabalho no &Adobe Workfro
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: f87f71be1b5f60b95859f3632bae4cf392cc5e84
+source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
 workflow-type: tm+mt
-source-wordcount: '2973'
+source-wordcount: '3000'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,11 @@ Para obter mais informações sobre o tipo de horas em que você pode fazer logo
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Current license: Light or higher</p>
-   <p>Legacy license: Review or higher</p> </td> 
+   <p>Review or higher</p> 
+   <p><b>NOTE</b></p>
+
+   <ul><li>Reviewers can log only General Hours in a timesheet</li>
+   <li>You must have a Work license or higher to log hours on a project, task, or issue</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -60,7 +64,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo e registra
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Revisar ou superior</p> </td> 
+   <td> <p>Revisar ou superior</p> 
+   <p><b>Nota</b></p>
+
+<ul><li>Os revisores podem registrar somente Horas gerais em uma folha de horas</li>
+   <li>Você deve ter uma licença de Trabalho ou superior para registrar horas em um projeto, tarefa ou problema</li></ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
