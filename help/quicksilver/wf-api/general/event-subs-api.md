@@ -6,9 +6,9 @@ description: API de assinatura de evento
 author: Becky
 feature: Workfront API
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: e06f6e8ca40da6741982b4ed8c5c53bdbfb253ca
+source-git-commit: 34810c67de5578479ae56cd72865656a89d35aa9
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2111'
 ht-degree: 3%
 
 ---
@@ -260,7 +260,7 @@ Ao consultar o HTTP do Workfront, use o método GET. Há duas maneiras de consul
 
 ### Consultar todas as assinaturas de eventos
 
-É possível consultar todas as assinaturas de eventos para um cliente, conforme especificado pelo valor apiKey. Você também pode usar as seguintes opções para gerenciar a resposta:
+Você pode consultar todas as assinaturas de eventos para um cliente ou usar o seguinte para gerenciar a resposta. Você também pode usar as seguintes opções para gerenciar a resposta:
 
 * **página**: opção de parâmetro de consulta para especificar o número de páginas a serem retornadas. O padrão é 1.
 * **limite**: opção de parâmetro de consulta para especificar o número de resultados a serem retornados por página. O padrão é 100 com um máximo de 1000.
