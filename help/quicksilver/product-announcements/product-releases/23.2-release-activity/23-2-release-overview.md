@@ -4,7 +4,7 @@ description: Visão geral da versão 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
+source-git-commit: 14178b9dadc5da0d858fd3b8d19fde2e7764aaee
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 0%
@@ -399,7 +399,7 @@ No lugar de um webinário de lançamento, convidamos você a se registrar no Ado
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão de pré-visualização: 9 de março de 2023<br /></p>
+                                <p>Versão de pré-visualização: 20 de março de 2023<br /></p>
                             </li>
                             <li>
                                  <p><span class="preview">Versão de produção: com a versão 23.2 </span></p>
