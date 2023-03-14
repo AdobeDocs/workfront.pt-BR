@@ -6,9 +6,9 @@ description: É possível adicionar comentários a todas as metas que você pode
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
+source-git-commit: d7ae3d47cbc4426630260ab5e726380e4775096a
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -197,7 +197,7 @@ Isso abre a lista de metas.
 1. Localize a meta à qual deseja adicionar comentários e clique no nome dela para abrir a página de metas.
 1. Clique em  **Atualizações** no painel esquerdo.
 1. Clique em **Comentários** no canto superior esquerdo da área Atualizações.
-1. Comece a inserir um comentário no **Escreva um comentário** caixa.
+1. Comece a inserir um comentário no **Novo comentário** caixa.
 
    ![](assets/comment-box-empty-unshimmed.png)
 
@@ -205,7 +205,7 @@ Isso abre a lista de metas.
    >
    >Sair da seção Atualizações antes de terminar de digitar e enviar um comentário mantém o comentário na página no modo de rascunho mesmo depois de fazer logoff e logon novamente. Comentários em rascunho só ficam visíveis para o usuário que os digita.
 
-1. (Opcional) Na **Notificar** digite o nome ou o email de um usuário ou de uma equipe que deseja incluir neste comentário e, em seguida, selecione-o quando ele for exibido na lista.
+1. (Opcional) Na **Marcar pessoas ou equipes** digite o nome ou o email de um usuário ou de uma equipe que deseja incluir neste comentário e, em seguida, selecione-o quando ele for exibido na lista.
 1. Clique em **Enviar**.
 1. (Opcional) Clique em **Responder** para responder a um comentário existente, siga as etapas 5 a 7 acima. <!--insure this stays accurate-->
 1. (Opcional) Clique no link **Curtir** ícone![](assets/like-icon.png) para gostar de um comentário que outra pessoa adicionou. O ícone é atualizado com o número de curtidas.
