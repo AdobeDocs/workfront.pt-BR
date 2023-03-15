@@ -65,8 +65,8 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
    >Considere o seguinte ao usar um modelo de Fluxo de trabalho automatizado:
    >   
    >* As configurações de um modelo de Fluxo de trabalho automatizado determinam o que você pode fazer com o Fluxo de trabalho automatizado para uma prova. Por exemplo, se o botão Add a stage estiver desativado no template, ele não estará visível à medida que você trabalha com as configurações do Automated Workflow para a prova.
-   >* Quando uma pessoa é adicionada a uma página em um modelo de Fluxo de trabalho automatizado, mas também já está presente como um revisor na prova, a aplicação do modelo remove o revisor do estágio. Se você não adicionar outro revisor ao palco, uma mensagem solicitará que você adicione um.
-   >* A capacidade de modificar um modelo de Fluxo de trabalho automatizado depende das configurações do modelo definidas pelo administrador do Workfront, conforme descrito em . Se a capacidade de modificar o modelo estiver desativada, somente o proprietário do modelo poderá modificá-lo.
+   * Quando uma pessoa é adicionada a uma página em um modelo de Fluxo de trabalho automatizado, mas também já está presente como um revisor na prova, a aplicação do modelo remove o revisor do estágio. Se você não adicionar outro revisor ao palco, uma mensagem solicitará que você adicione um.
+   * A capacidade de modificar um modelo de Fluxo de trabalho automatizado depende das configurações do modelo definidas pelo administrador do Workfront, conforme descrito em . Se a capacidade de modificar o modelo estiver desativada, somente o proprietário do modelo poderá modificá-lo.
 
 
 1. Configure o primeiro estágio do fluxo de trabalho automatizado:
@@ -75,16 +75,14 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
    1. No **Recipients** para o palco, adicione revisores ao palco.
 
       >[!NOTE]
-      > 
-      >Considere o seguinte ao adicionar revisores a um estágio:
-      > 
-      >* Você pode adicionar usuários externos a um palco com um endereço de email.
-      >* Depois de adicionar um usuário a um palco, você pode definir as configurações para esse usuário na prova.
-      >* Você pode arrastar usuários diretamente para outro palco, ou pode arrastar usuários para um palco no palco **Estágios** diagrama. Para selecionar vários usuários, pressione Shift+Ctrl (no Windows) ou Shift+Command (no Mac).
-      >* É possível adicionar um revisor a uma prova apenas uma vez, o que significa que não é possível adicionar a mesma pessoa a mais de um estágio na prova.
-      >* Os revisores que não são adicionados a uma fase privada não podem ver essa fase na prova ou nos comentários feitos nessa fase.
-      >* Por padrão, adicionar um usuário a um palco concede a esse usuário acesso para visualizar a prova a partir do momento em que a prova é criada.\
-      >   O administrador do Workfront pode impedir que os usuários acessem a prova até que o workflow entre no estágio em que o usuário foi adicionado.
+      Considere o seguinte ao adicionar revisores a um estágio:
+      * Você pode adicionar usuários externos a um palco com um endereço de email.
+      * Depois de adicionar um usuário a um palco, você pode definir as configurações para esse usuário na prova.
+      * Você pode arrastar usuários diretamente para outro palco, ou pode arrastar usuários para um palco no palco **Estágios** diagrama. Para selecionar vários usuários, pressione Shift+Ctrl (no Windows) ou Shift+Command (no Mac).
+      * É possível adicionar um revisor a uma prova apenas uma vez, o que significa que não é possível adicionar a mesma pessoa a mais de um estágio na prova.
+      * Os revisores que não são adicionados a uma fase privada não podem ver essa fase na prova ou nos comentários feitos nessa fase.
+      * Por padrão, adicionar um usuário a um palco concede a esse usuário acesso para visualizar a prova a partir do momento em que a prova é criada.\
+         O administrador do Workfront pode impedir que os usuários acessem a prova até que o workflow entre no estágio em que o usuário foi adicionado.
 
 
    1. Clique em **Configurações de preparo**.

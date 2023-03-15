@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
 source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 2%
+source-wordcount: '1447'
+ht-degree: 1%
 
 ---
 
@@ -94,21 +94,21 @@ Para indicar vários períodos de tempo e vários pontos no tempo (futuro ou pas
 | **m** | mês |
 | **y** | ano |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **Qualificadores** |  |
 |---|---|
 | **b** | início da semana (domingo) |
 | **e** | fim da semana (sábado) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **Operadores** |  |
 |---|---|
 | **+** | adicionar valor ao valor curinga |
 | **-** | subtrair valor do valor curinga |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Por exemplo, o curinga `$$TODAYb+2w` refere-se a &quot;2 semanas desde o início desta semana&quot;. O curinga *`$$NOW+2h` refere-se a &quot;daqui a 2 horas&quot;.
 

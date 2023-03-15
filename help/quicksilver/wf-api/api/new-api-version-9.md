@@ -8,8 +8,8 @@ feature: Workfront API
 exl-id: 29d922f4-f4c6-45e5-b9fa-43e2068ec66d
 source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 25%
+source-wordcount: '168'
+ht-degree: 16%
 
 ---
 
@@ -40,7 +40,7 @@ Esta é uma lista de recursos novos na API versão 9, para ver uma lista de atua
 | `nameKey` |  |  |  |  |  |  |
 | `securityModelType` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### AccessLevelPermissions
 
@@ -53,7 +53,7 @@ Esta é uma lista de recursos novos na API versão 9, para ver uma lista de atua
 | `objObjCode` |  |  |  |  |  |  |
 | `secondaryActions` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### PreferênciaRegraAcesso
 
@@ -61,7 +61,7 @@ Esta é uma lista de recursos novos na API versão 9, para ver uma lista de atua
 |---|---|---|---|---|---|---|
 | `ID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### HoraDeOrçamento
 
@@ -75,7 +75,7 @@ Esta é uma lista de recursos novos na API versão 9, para ver uma lista de atua
 | `roleID`  |   |   |   |   |   |   |
 | `userID`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### SeçãoPortalCalendário
 
@@ -90,7 +90,7 @@ Esta é uma lista de recursos novos na API versão 9, para ver uma lista de atua
 | `objID`  |   |   |   |   |   |   |
 | `objObjCode`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### SeçãoCalendário
 
@@ -107,7 +107,7 @@ Esta é uma lista de recursos novos na API versão 9, para ver uma lista de atua
 | `plannedDate` |   |   |   |   |   |   |
 | `startDate` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### SeçãoExterna
 
@@ -135,7 +135,7 @@ Esta é uma lista de recursos novos na API versão 9, para ver uma lista de atua
 | `url` |   |   |   |   |   |   |
 | `viewID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 

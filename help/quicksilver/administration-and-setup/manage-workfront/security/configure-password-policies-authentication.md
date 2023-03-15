@@ -10,8 +10,8 @@ role: Admin
 exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
 source-git-commit: fe399743ee495334face9d4d632686d9472bc8ef
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 2%
+source-wordcount: '710'
+ht-degree: 1%
 
 ---
 
@@ -114,6 +114,6 @@ Para configurar preferências de autenticação aprimoradas:
    | Números | Exigir pelo menos um número |
    | Caracteres especiais | Exigir pelo menos um caractere especial |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Clique em **Salvar**.

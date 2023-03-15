@@ -4,7 +4,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
-description: Você pode criar um formulário personalizado que os usuários podem anexar a um objeto do Workfront. Os usuários que trabalham no objeto podem preencher o formulário personalizado para fornecer informações sobre o objeto.
+description: É possível criar um formulário personalizado que os usuários podem anexar a um objeto do Workfront. Os usuários que trabalham no objeto podem preencher o formulário personalizado para fornecer informações sobre ele.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -18,7 +18,7 @@ ht-degree: 8%
 
 # Formulários personalizados
 
-* [Visão geral de formulários personalizados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
-* [Construtor de formulários personalizados herdados](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
+* [Visão geral dos formulários personalizados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
+* [Construtor de formulários personalizado herdado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
 * [Designer de formulários](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
 

@@ -6,7 +6,7 @@ feature: Reports and Dashboards
 exl-id: ce33888f-344d-4f69-b527-9679340d134b
 source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1039'
 ht-degree: 2%
 
 ---
@@ -45,7 +45,7 @@ Antes de começar, você deve se inscrever no beta da Tela de relatórios. Para 
    | Mover uma coluna | Para reorganizar a ordem das colunas em uma tabela, clique em um nome de coluna e arraste-a para um novo local. |
    | Excluir uma coluna | Para excluir uma coluna de uma tabela, clique na coluna que deseja excluir e clique no x no lado direito do nome da coluna. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Para configurar uma coluna, clique no nome da coluna que deseja modificar na linha de cabeçalho da tabela e, em seguida, em uma das seguintes guias no painel direito:
 

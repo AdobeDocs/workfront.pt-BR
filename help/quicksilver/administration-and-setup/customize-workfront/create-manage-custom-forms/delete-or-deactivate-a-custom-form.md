@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Excluir um formulário personalizado
-description: Você pode excluir um formulário personalizado do sistema.
+description: É possível excluir um formulário personalizado do sistema.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
@@ -17,22 +17,22 @@ ht-degree: 1%
 
 # Excluir um formulário personalizado
 
-Você pode excluir um formulário personalizado do sistema.
+É possível excluir um formulário personalizado do sistema.
 
 >[!CAUTION]
 >
->A exclusão de um formulário personalizado também exclui todos os dados personalizados nos objetos associados ao formulário. Os dados excluídos não podem ser recuperados. Considere desativar um formulário personalizado. Ao desativar um formulário personalizado que não é mais usado, todos os dados históricos associados serão retidos. Para obter mais informações, consulte [Reativar ou desativar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
+>A exclusão de um formulário personalizado também exclui todos os dados personalizados dos objetos associados ao formulário. Os dados excluídos não podem ser recuperados. Considere desativar um formulário personalizado em vez disso — ao desativar um formulário personalizado que não é mais usado, você mantém todos os dados históricos associados. Para obter mais informações, consulte [Reativar ou desativar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte para executar as etapas deste artigo:
+Você deve ter o seguinte para executar as etapas neste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plano do Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>Plano Adobe Workfront*</p> </td> 
    <td>Qualquer Um</td> 
   </tr> 
   <tr> 
@@ -46,12 +46,12 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir quais configurações de plano, tipo de licença ou nível de acesso você tem, entre em contato com o administrador do Workfront.
+&#42;Para descobrir que plano, tipo de licença ou configurações de nível de acesso você possui, entre em contato com o administrador da Workfront.
 
 ## Excluir um formulário personalizado
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, em seguida, clique em **Configuração** ![](assets/gear-icon-settings.png).
 
-1. Clique em **Forms personalizado.**
+1. Clique em **Forms personalizada.**
 1. Selecione o formulário personalizado e clique em **Excluir**.
-1. Se tiver certeza de que deseja excluir permanentemente o formulário personalizado e todos os dados associados nos objetos aos quais ele foi anexado, clique em **Sim, exclua.**.
+1. Se tiver certeza de que deseja excluir permanentemente o formulário personalizado e todos os dados associados nos objetos aos quais ele foi anexado, clique em **Sim, Excluir**.

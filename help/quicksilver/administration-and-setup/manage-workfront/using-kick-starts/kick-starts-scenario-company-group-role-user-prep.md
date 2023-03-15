@@ -11,8 +11,8 @@ role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
 source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 10%
+source-wordcount: '1085'
+ht-degree: 9%
 
 ---
 
@@ -83,7 +83,7 @@ As tabelas a seguir exibem os usuários a serem importados e vários atributos d
 | **Grupo padrão** | Marketing |
 | **Função de trabalho** | Analista de negócios |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Usuário 2
 
@@ -97,7 +97,7 @@ As tabelas a seguir exibem os usuários a serem importados e vários atributos d
 | **Grupo padrão** | Marketing |
 | **Função de trabalho** | Gerente de Projeto |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Usuário 3
 
@@ -111,7 +111,7 @@ As tabelas a seguir exibem os usuários a serem importados e vários atributos d
 | **Grupo padrão** | Vendas |
 | **Função de trabalho** | Representante de vendas |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Usuário 4
 
@@ -125,7 +125,7 @@ As tabelas a seguir exibem os usuários a serem importados e vários atributos d
 | **Grupo padrão** | Finanças |
 | **Função de trabalho** | Controlador |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Usuário 5
 
@@ -139,7 +139,7 @@ As tabelas a seguir exibem os usuários a serem importados e vários atributos d
 | **Grupo padrão** | Marketing |
 | **Função de trabalho** | IT |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Usuário 6
 
@@ -153,7 +153,7 @@ As tabelas a seguir exibem os usuários a serem importados e vários atributos d
 | **Grupo padrão** | Gerenciador de Recursos |
 | **Função de trabalho** | nenhum |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Baixar um modelo de início rápido
 

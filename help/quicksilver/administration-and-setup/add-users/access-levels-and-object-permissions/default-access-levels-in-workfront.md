@@ -12,8 +12,8 @@ role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
 source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 6%
+source-wordcount: '1499'
+ht-degree: 5%
 
 ---
 
@@ -94,7 +94,7 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
 | Planejador de cenários |   |   | ✓ (A configuração padrão é Sem acesso.) |
 | Workfront Goals |   |   | ✓ (A configuração padrão é Sem acesso.) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Nível de acesso do trabalhador
 
@@ -130,7 +130,7 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
 | Planejador de cenários |   |   | ✓ (A configuração padrão é Sem acesso.) |
 | Workfront Goals |   |   | ✓ (A configuração padrão é Sem acesso.) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Nível de acesso do revisor
 
@@ -284,7 +284,7 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
 | Planejador de cenários | ✓ |   |   |
 | Workfront Goals |   |   | ✓ (A configuração padrão é Sem acesso.) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Nível de acesso do usuário externo
 

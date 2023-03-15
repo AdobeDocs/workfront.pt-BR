@@ -25,7 +25,7 @@ A Sandbox de atualização personalizada é um ambiente em que você pode testar
 >Isso é diferente da sandbox de visualização, que também é um ambiente de teste que replica o [!DNL Workfront] ambiente de produção.
 >
 >* Novos recursos são introduzidos na sandbox de visualização antes de serem disponibilizados na produção.
->* Os novos recursos não são introduzidos na Caixa de proteção de atualização personalizada antes de serem disponibilizados em Produção.
+>* Os novos recursos não são introduzidos na sandbox de atualização personalizada antes de serem disponibilizados em produção.
 >
 >  Além disso, há um custo adicional para obter a Sandbox de atualização personalizada que não é necessária para a Sandbox de visualização.
 >

@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
 source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 2%
+source-wordcount: '1351'
+ht-degree: 1%
 
 ---
 
@@ -128,7 +128,7 @@ Você pode usar as seguintes teclas no teclado para navegar ou concluir ações 
 | **Teclas de seta** | Navegue até datas no widget de calendário, por meio de opções de filtro ao adicionar um filtro e por meio de opções em todos os menus suspensos nas visualizações |
 | **Barra de espaço** | Selecione datas no widget calendário, selecione um tipo de filtro ao adicionar um filtro, selecione uma opção de exportação no menu suspenso de cada visualização e selecione opções nos menus suspensos nas visualizações de Burndown, Tarefas em andamento e Mapa de árvore do projeto |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Se você estiver usando um software de leitura de tela ou um plug-in, o leitor de tela lê as informações na tela e descreve as ações que você está concluindo à medida que usa as teclas listadas acima.
 

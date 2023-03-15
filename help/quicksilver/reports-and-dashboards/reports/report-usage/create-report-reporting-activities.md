@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: 3861ac81-d2e4-4dec-b9cd-96eee0b66a38
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 2%
+source-wordcount: '670'
+ht-degree: 1%
 
 ---
 
@@ -63,7 +63,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
    | **Cadastrado por** | Este é o proprietário do relatório. |
    | **Última data da visualização** | Esta é a data e a hora em que o relatório foi visualizado pela última vez por um usuário. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (Opcional) Para limitar sua lista de relatórios a usuários desativados específicos:
 

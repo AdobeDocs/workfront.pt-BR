@@ -8,8 +8,8 @@ feature: Work Management
 exl-id: 2f01566c-c3e0-4f59-bf53-2a67806a205c
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 3%
+source-wordcount: '337'
+ht-degree: 2%
 
 ---
 
@@ -69,7 +69,7 @@ Para atualizar o Tipo de duração de uma tarefa:
    | Atribuição Calculada | Para obter mais informações, consulte [Visão geral do Tipo de duração: Atribuição calculada](../../../manage-work/tasks/taskdurtn/calculated-assignment.md). |
    | Simples | Para obter mais informações, consulte [Visão geral do Tipo de duração: Simples](../../../manage-work/tasks/taskdurtn/simple-duration-type.md). |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Clique em **Salvar** **Alterações**.
 

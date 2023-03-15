@@ -132,7 +132,7 @@ As seguintes informações estão disponíveis no relatório Utilização ao ras
  </thead> 
  <tbody> 
   <tr> 
-   <td scope="col"><strong>Horas Orçadas</strong> </td> 
+   <td scope="col"><strong>Horas orçadas</strong> </td> 
    <td scope="col"> <p>O total de horas orçamentadas nos projetos incluídos. Você pode exibir o total de horas orçadas para a vida geral dos projetos incluídos ou pode exibir o total de horas orçadas somente para o intervalo de datas especificado (você pode especificar uma semana ou mês individual). </p> <p>As Horas Orçamentadas são preenchidas a partir das informações disponíveis na nova área de Orçamento de Recursos do Caso de Negócios ou do Planejador de Recursos<em>.</em></p> <p>As Horas Orçadas aparecem no relatório Utilização em qualquer uma das seguintes linhas:</p> 
     <ul> 
      <li> As horas orçadas são resumidas por função de cargo e por usuário individual no relatório de Utilização, da seguinte forma:<br><strong>Usuário individual:</strong> As Horas Orçadas são resumidas para cada usuário no relatório de utilização. Essas Horas Orçadas estão associadas às tarefas e aos problemas que o usuário é atribuído nos projetos incluídos. (É possível expandir a linha da função de trabalho correspondente para exibir uma lista de usuários com essa função de trabalho.)<br><strong>Função da Tarefa:</strong> As Horas Orçamentadas são resumidas por função de cargo no relatório de utilização.<br>As Horas Orçamentadas aparecem em uma função de trabalho específica como resultado de qualquer um dos seguintes cenários: 

@@ -89,7 +89,7 @@ Para executá-los para um grupo, você deve ser um gerente desse grupo.</p> <p><
    * Documentos
    * Modelos
    * Análise
-   *  Prova
+   * Prova
    * Metas
 
       >[!NOTE]

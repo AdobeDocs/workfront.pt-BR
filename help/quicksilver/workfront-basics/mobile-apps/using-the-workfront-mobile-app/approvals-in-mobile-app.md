@@ -8,8 +8,8 @@ feature: Get Started with Workfront
 exl-id: 92259a17-209b-4bc1-8c14-826969b08a63
 source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 5%
+source-wordcount: '267'
+ht-degree: 4%
 
 ---
 
@@ -66,7 +66,7 @@ As provas seguem um processo de aprovação separado. Não é possível aprovar 
    | ![Aprovar prova com alterações da tarefa](assets/mobile-approveproofwithcommentsfromtask.png) | [!UICONTROL Aprovar com alterações] (disponível apenas para documentos) |
    | ![Rejeitar prova da tarefa](assets/mobile-rejectprooffromtask.png) | [!UICONTROL Rejeitar] |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (Opcional) Selecione **[!UICONTROL Adicionar comentário]** na mensagem de confirmação na parte inferior da tela para adicionar comentários à decisão. Esses comentários são exibidos nas atualizações da aprovação.\
    ![Adicionar comentário](assets/mobile-addcommenttoapproval-350x123.png)\

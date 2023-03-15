@@ -10,7 +10,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
 source-git-commit: 699c1d73d768e79890464654a14bdd4573de02c8
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1381'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Por padrão, o Painel abrirá a exibição Total de provas. Esta exibição most
 | **Visualização recente** | Inclui as provas que você acessou recentemente e que é seu proprietário, tem permissões para ver de acordo com as permissões do perfil e que foram compartilhadas com você. Essa exibição mostra apenas as provas que você mesmo abriu (por meio da variável [!DNL Workfront Proof] Visualizador ou por meio da página Detalhes da prova ). |
 | **Link de email** | Para abrir uma prova do seu email, basta abrir o email no seu aplicativo de email, clique no link [!UICONTROL Ir para prova] no link do botão no email (1) e você será levado à prova no [!DNL Workfront Proof] aplicativo. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Revisar uma prova estática no aplicativo
 

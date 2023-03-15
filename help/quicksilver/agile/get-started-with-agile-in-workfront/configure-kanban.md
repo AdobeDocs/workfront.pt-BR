@@ -6,7 +6,7 @@ description: Você pode configurar as seguintes opções para as equipes móveis
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 7fc6230643d0a24c3b483df8165294ceca6dcce7
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%

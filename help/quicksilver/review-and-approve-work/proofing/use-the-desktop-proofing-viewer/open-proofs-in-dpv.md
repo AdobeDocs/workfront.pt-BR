@@ -9,7 +9,7 @@ exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
 source-git-commit: 69b1677835ea783aa9baf5026e782440395013f0
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -48,7 +48,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
 ## Pré-requisitos
 
-* Você deve instalar o Desktop Proofing Viewer. Para obter mais informações, consulte [Instale o Desktop Proofing Viewer](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+* Você deve instalar o Desktop Proofing Viewer. Para obter mais informações, consulte [Instalar o Visualizador de prova para desktop](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
 ## Abrir provas do visualizador de prova de desktop
 

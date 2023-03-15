@@ -11,8 +11,8 @@ role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
 source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 9%
+source-wordcount: '1462'
+ht-degree: 8%
 
 ---
 
@@ -42,7 +42,7 @@ Esse cenário presume que os usuários já estejam importados para o Adobe Workf
    | Grupo | Marketing |
    | Empresa | *Sua empresa* |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Implementar o Sistema HR.
 
@@ -53,7 +53,7 @@ Esse cenário presume que os usuários já estejam importados para o Adobe Workf
    | Grupo | Marketing |
    | Empresa | *Sua empresa* |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Implementar o sistema de gerenciamento de documentos.
 
@@ -64,7 +64,7 @@ Esse cenário presume que os usuários já estejam importados para o Adobe Workf
    | Grupo | IT |
    | Empresa | *Sua empresa* |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Implemente o novo sistema de calendário.
 
@@ -75,7 +75,7 @@ Esse cenário presume que os usuários já estejam importados para o Adobe Workf
    | Grupo | IT |
    | Empresa | *Sua empresa* |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 ### Lista de tarefas {#task-list}
 
@@ -238,7 +238,7 @@ As tarefas pai herdam as tarefas Duração, Trabalho e Porcentagem de conclusão
    | Pred | 1, 6, 7 |
    |---|---|
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Usuários do treinamento.
 

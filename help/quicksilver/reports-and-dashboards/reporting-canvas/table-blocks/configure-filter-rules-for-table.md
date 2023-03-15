@@ -138,7 +138,7 @@ Antes de começar, você deve se inscrever no beta da Tela de relatórios. Para 
        </col> 
        <tbody> 
         <tr> 
-         <td role="rowheader"> <p>AND</p> </td> 
+         <td role="rowheader"> <p>E</p> </td> 
          <td> <p>Ao associar regras de filtragem ou conjuntos de regras ao operador AND, você indica que deseja que todas as regras do mesmo nível sejam atendidas.</p> <p>Por padrão, as instruções em um filtro são unidas pelo operador AND .</p> </td> 
         </tr> 
         <tr> 

@@ -8,8 +8,8 @@ feature: Workfront API
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
 source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 37%
+source-wordcount: '529'
+ht-degree: 26%
 
 ---
 
@@ -29,7 +29,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 |---|---|---|---|---|---|---|
 | ação¹  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Alterações aos valores possíveis
 
@@ -41,7 +41,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 | ações proibidas² |   |   |   |   |   |   |
 | secundárioActions² |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Sinalizador removido: REPORTABLE\
 ² Alterações a valores possíveis
@@ -55,7 +55,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 | backlogParent |   |   |   |   |   |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹Alterações em valores possíveis\
 ² Sinalizadores adicionados: DYNAMIC, LAZY_READ e NOT_GROUPABLE
@@ -68,7 +68,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 |   |   |   |   | swapUsersOnTasks | getUnassignAssignmentsForTasks |   |   |   |   |   |
 |   |   |   |   | unassignUserFromTasks |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Cliente
 
@@ -77,7 +77,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 | bizRuleExclusions¹ |   |   |   | getPackagingOptionValue |   |   |
 | proofPlan¹ |   |   |   | isPackagingOptionEnabled |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹Alterações em valores possíveis
 
@@ -87,7 +87,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 |---|---|---|---|---|---|---|
 | name¹ |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹Alterações em valores possíveis
 
@@ -97,7 +97,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 |---|---|---|---|---|---|---|
 | ID¹ |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹Flag acrescentou: NOT_FILTERABLE
 
@@ -107,7 +107,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 |---|---|---|---|---|---|---|
 | ativeProofStages |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Grupo
 
@@ -115,7 +115,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 |---|---|---|---|---|---|---|
 |   |   | proprietários |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### HourType
 
@@ -123,7 +123,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 |---|---|---|---|---|---|---|
 | appGlobalID¹ |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹Flag acrescentou: NOT_FILTERABLE
 
@@ -133,7 +133,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 |---|---|---|---|---|---|---|
 |   |   |   |   | moveStories |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Curtir
 
@@ -141,7 +141,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 |---|---|---|---|---|---|---|
 | `endorsementID` | `endorsement` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Nota
 
@@ -149,7 +149,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 |---|---|---|---|---|---|---|
 | auditType¹ |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹Alterações em valores possíveis
 
@@ -163,7 +163,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 | estimativa |   |   |   |   |   |   |
 | iterationID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹Alterações em valores possíveis
 
@@ -173,7 +173,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 |---|---|---|---|---|---|---|
 | auditTypes¹ |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹Alterações em valores possíveis
 
@@ -183,7 +183,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 |---|---|---|---|---|---|---|
 | auditTypes¹ |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹Alterações em valores possíveis
 
@@ -193,7 +193,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 |---|---|---|---|---|---|---|
 | auditTypes¹ |   | resourcePools |   |   | defaultShownTimesheetProjects |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹Alterações em valores possíveis
 
@@ -206,7 +206,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 | ID¹ |   |   |   |   |   |   |
 | proofCreationDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹Flag acrescentou: NOT_FILTERABLE
 
@@ -217,7 +217,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 | requestorCoreAction¹ |   |   |   |   |   |   |
 | requestorForbiddenActions¹ |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹Alterações em valores possíveis
 
@@ -229,7 +229,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 | name |   |   |   |   |   |   |
 | startDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ReservedTime
 
@@ -237,7 +237,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 |---|---|---|---|---|---|---|
 | extRefID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ResourceManager
 
@@ -245,7 +245,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 |---|---|---|---|---|---|---|
 | projectPriority |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Tarefa
 
@@ -255,7 +255,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 | backlogParent | kanbanBoard |   |   |   | defaultShownTimesheetTasks |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹Alterações em valores possíveis
 
@@ -269,7 +269,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 | TeamStoryBoardIssueStatus |   |   |   |   |   |   |
 | wipLimit |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Modelo
 
@@ -277,7 +277,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 |---|---|---|---|---|---|---|
 |   |   | resourcePools |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### TemplateTask
 
@@ -285,7 +285,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 |---|---|---|---|---|---|---|
 | auditTypes¹ |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹Alterações em valores possíveis
 
@@ -295,7 +295,7 @@ Atualizar
 |---|---|---|---|---|---|---|
 | updateType¹ | `updateEndorsement` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹Alterações em valores possíveis
 
@@ -307,7 +307,7 @@ Atualizar
 |   |   | userGroups |   |   |   |   |   |   |
 |   |   | userRoles |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserNote
 
@@ -317,7 +317,7 @@ Atualizar
 | `endorsementShareID` | `endorsementShare` |   |   |   |   |   |
 | eventType¹ |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹Alterações em valores possíveis
 
@@ -330,7 +330,7 @@ Atualizar
 | backlogParent  |   |   |   |   |   |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹Alterações em valores possíveis\
 ² Sinalizadores adicionados: DYNAMIC, LAZY_READ e NOT_GROUPABLE

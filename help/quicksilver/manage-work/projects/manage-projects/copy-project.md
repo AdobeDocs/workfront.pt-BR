@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: manage-projects
 title: Copiar um projeto
-description: Você pode copiar um projeto em vez de criá-lo do zero. Você pode copiar apenas um projeto por vez. Não é possível copiar projetos em massa.
+description: Você pode copiar um projeto em vez de criar um do zero. Você pode copiar apenas um projeto de cada vez. Não é possível copiar projetos em massa.
 author: Alina
 feature: Work Management
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
@@ -19,29 +19,29 @@ ht-degree: 5%
 <(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
 -->
 
-Você pode copiar um projeto em vez de criá-lo do zero. Você pode copiar apenas um projeto por vez. Não é possível copiar projetos em massa.
+Você pode copiar um projeto em vez de criar um do zero. Você pode copiar apenas um projeto de cada vez. Não é possível copiar projetos em massa.
 
 >[!IMPORTANT]
 >
->Os seguintes itens nunca são copiados de um projeto existente para um novo:
+>Os itens a seguir nunca são copiados de um projeto existente para um novo:
 >
 >* Problemas
 >* Preços
 >* Registro de cobrança
 >* Notas
 >* Horas
->* Predecessoras entre projetos
+>* Antecessores entre projetos
 >* Horas orçadas
 >
->Os seguintes itens são sempre copiados de um projeto existente para um novo:
+>Os itens a seguir são sempre copiados de um projeto existente para um novo:
 >
 >* Tarefas
 >* Modelo
 >* Riscos
->* Informações de Configuração da Fila
+>* Informações de configuração da fila
 >* Portfolio e Programa
 >* Scorecard
->* Informações Padrão de Tarefa (Processo de Aprovação Padrão de Tarefa, Forms Personalizado Padrão de Tarefa)
+>* Informações Padrão da Tarefa (Processo de Aprovação Padrão da Tarefa, Forms Personalizado Padrão da Tarefa)
 >
 
 
@@ -83,7 +83,7 @@ Você deve ter o seguinte:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>plano do Adobe Workfront*</p> </td> 
+   <td> <p>Plano Adobe Workfront*</p> </td> 
    <td>Qualquer Um</td> 
   </tr> 
   <tr> 
@@ -92,18 +92,18 @@ Você deve ter o seguinte:
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Configurações de nível de acesso*</strong> </td> 
-   <td> <p>Editar acesso a projetos com capacidade para criar <span>e Copiar</span> projetos</p> <p><b>Nota</b>
+   <td> <p>Editar acesso a Projetos com capacidade de Criar <span>e Copiar</span> projetos</p> <p><b>Nota</b>
 
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
+Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
 </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Permissões de objeto</strong> </p> </td> 
-   <td> <p>Exibir permissões ou superiores para o projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões ou superiores ao projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
 
 ## Copiar um único projeto
 
@@ -117,7 +117,7 @@ Para copiar um projeto:
 
    Ou
 
-   Vá para uma lista de projetos ou relatório, selecione um projeto e clique no botão **Mais** ícone ![](assets/qs-more-menu.png) no topo da lista.
+   Vá para uma lista de projetos ou relatório, selecione um projeto e clique no botão **Mais** ícone ![](assets/qs-more-menu.png) na parte superior da lista.
 
    ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
@@ -133,7 +133,7 @@ Para copiar um projeto:
 
    Por padrão, a variável **Status** corresponde ao do projeto original.
 
-1. (Opcional) Desmarque os itens que você não quer copiar para o novo projeto. A tabela a seguir descreve o que acontece quando você desmarca os itens:
+1. (Opcional) Desmarque os itens que você não deseja copiar para o novo projeto. A tabela a seguir descreve o que acontece quando você desmarca os itens:
 
 
    <table style="table-layout:auto"> 
@@ -152,11 +152,11 @@ Para copiar um projeto:
      </tr> 
      <tr> 
       <td role="rowheader">Progresso</td> 
-      <td>Remove o progresso de todas as tarefas e elas são exibidas como Novas. </td> 
+      <td>Remove o progresso em todas as tarefas e são exibidas como Novo. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dados personalizados</td> 
-      <td> <p>Remove as informações do formulário personalizado no projeto, bem como as informações nos formulários personalizados associados aos seguintes itens:</p> 
+      <td> <p>Remove as informações do formulário personalizado do projeto, bem como as informações sobre os formulários personalizados associados aos seguintes itens:</p> 
        <ul> 
         <li>Tarefas</li> 
         <li>Despesas</li> 
@@ -170,28 +170,28 @@ Para copiar um projeto:
       <td> <p>Remove tudo na guia documentos, incluindo versões de documentos, documentos vinculados e pastas.</p> <p>Por padrão, provas e aprovações de documentos não podem ser copiadas para outro projeto. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Todos os predecessores</td> 
-      <td> <p>Remove todas as relações predecessoras entre as tarefas do projeto. </p> <p><b>DICA</b>
+      <td role="rowheader">Todos os antecessores</td> 
+      <td> <p>Remove todos os relacionamentos do antecessor entre as tarefas no projeto. </p> <p><b>DICA</b>
 
-   Predecessoras entre projetos nunca são transferidas para o novo projeto, independentemente de isso estar selecionado ou não. </p> </td>
+   Os antecessores de vários projetos nunca são transferidos para o novo projeto, independentemente de ele estar selecionado ou não. </p> </td>
    </tr>
 
 <tr> 
       <td role="rowheader">Horas orçadas</td> 
-      <td> <p>Remove as horas orçadas na área Planejamento de recursos do Business Case do projeto copiado.</p>
+      <td> <p>Remove do projeto copiado as horas orçadas na área Planejamento de Recursos do Caso de Negócios do projeto.</p>
 
 <b>Nota</b>
 
-Horas orçadas usando o Planejador de cenários nunca são copiadas para o novo projeto porque o novo projeto não está vinculado a uma iniciativa no Planejador de cenários. Para obter mais informações, consulte <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Recursos de orçamento no Business Case usando o Planejador de Cenários</a>
+As horas orçadas usando o Planejador de Cenário nunca são copiadas para o novo projeto porque o novo projeto não está vinculado a uma iniciativa no Planejador de Cenário. Para obter mais informações, consulte <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Recursos de orçamento no Caso de negócios usando o Planejador de cenário</a>
 </tr></td>
     <tr> 
       <td role="rowheader">Informações financeiras</td> 
       <td> <p>Remove as informações nas seguintes áreas: </p> 
        <ul> 
         <li>Subguia Finanças do projeto</li> 
-        <li> Benefício planejado no Business Case</li> 
+        <li> Benefício planejado no caso comercial</li> 
         <li>Informações financeiras de todas as tarefas<br></li> 
-       </ul> <p>Para obter mais informações sobre a subguia Project Finance, consulte <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Gerenciar informações na área de finanças do projeto</a>.</p> </td> 
+       </ul> <p>Para obter mais informações sobre a subguia Financiamento do projeto, consulte <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Gerenciar informações na área de finanças do projeto</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Processo de aprovação</td> 
@@ -203,7 +203,7 @@ Horas orçadas usando o Planejador de cenários nunca são copiadas para o novo 
      </tr> 
      <tr> 
       <td role="rowheader">Despesas</td> 
-      <td>Remove despesas associadas às tarefas ou ao projeto. </td> 
+      <td>Remove as despesas associadas às tarefas ou ao projeto. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Permissões</td> 
@@ -216,4 +216,4 @@ Horas orçadas usando o Planejador de cenários nunca são copiadas para o novo 
 
    Isso cria um novo projeto semelhante ao projeto copiado.
 
-   Você pode começar a fazer alterações no novo projeto copiado, como revisar atribuições de tarefas ou ajustar linhas do tempo.
+   Você pode começar a fazer alterações no novo projeto copiado, como revisar atribuições de tarefa ou ajustar linhas do tempo.

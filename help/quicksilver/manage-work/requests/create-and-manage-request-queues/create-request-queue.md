@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
 source-git-commit: e83d4742106bc3cb5adb939040997959315dd1e2
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2545'
 ht-degree: 2%
 
 ---
@@ -139,7 +139,7 @@ Para criar uma Fila de solicitações:
       | Pessoas da empresa deste projeto  | Os usuários que pertencem à empresa associada a este projeto podem visualizar e adicionar solicitações a esta fila. Se houver uma empresa associada ao projeto, o nome da empresa será listado entre parênteses após essa configuração. |
       | Pessoas do grupo deste projeto  | Os usuários que pertencem ao grupo associado a este projeto podem visualizar e adicionar solicitações a esta fila. Se houver um grupo associado ao projeto, o nome do grupo será listado entre parênteses após essa configuração. |
 
-      {style=&quot;table-layout:auto&quot;}
+      {style="table-layout:auto"}
 
    * **Compartilhe com estes links:** As opções a seguir permitem fornecer acesso direto à Fila de solicitações e aos formulários associados a ela a usuários fora do Workfront ou a usuários do Workfront usando uma página externa. Para obter informações sobre como incorporar uma fila de solicitações em um painel como uma página externa, consulte [Incorporar uma fila de solicitações em um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
 
@@ -275,7 +275,7 @@ Para criar uma Fila de solicitações:
       | Pessoas com direito de acesso de visualização neste projeto (Planejar Licença) | Os usuários com uma licença do Plano que também têm direitos de Exibição para este projeto podem ver os campos selecionados, bem como os campos não selecionados. O restante dos usuários que podem enviar solicitações para este projeto podem ver apenas os campos selecionados. |
       | Sem usuário | Nenhum usuário pode ver os campos não selecionados. Todos os usuários que podem enviar solicitações para este projeto só podem ver os campos selecionados. |
 
-      {style=&quot;table-layout:auto&quot;}
+      {style="table-layout:auto"}
 
    * **Forms personalizada**: Selecione um formulário personalizado para associar à Fila de solicitações. Somente Emitir Forms Personalizado estão disponíveis para seleção no menu suspenso. Todos os problemas enviados para a Fila de solicitações terão os formulários selecionados associados a eles.\
       Se você tiver vários Tópicos da fila associados a uma Fila de solicitação, recomendamos que associe formulários personalizados aos Tópicos da fila. Para obter mais informações sobre como criar subseções para a Fila de solicitações, consulte [Criar Tópicos da Fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).

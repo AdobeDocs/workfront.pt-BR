@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: de628881-c016-4521-bc33-3bcfba19a88f
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '469'
 ht-degree: 1%
 
 ---
@@ -72,6 +72,6 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
    |---|---|
    | Baseado em Custo | O Workfront usa o Custo Planejado da Mão de obra para calcular o CPI e o EAC do projeto, e o EAC é exibido como um valor de moeda. Ao selecionar essa opção, verifique se os destinatários da tarefa (funções de trabalho ou usuários) estão associados a taxas de custo. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Clique em **Salvar** **Alterações**.

@@ -89,7 +89,7 @@ O perfil de permissão selecionado é concedido aos usuários para cada prova ex
       <td> Os usuários recebem permissões de Administrador no Workfront Proof e podem editar configurações da conta. Os usuários podem gerenciar e exibir todas as provas criadas na conta de sua organização. Isso inclui adicionar e remover revisores, provas e comentários.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Predefinido</strong> </td> 
+      <td role="rowheader"><strong>Personalizado</strong> </td> 
       <td> <p>Disponível somente se você tiver configurado um perfil de permissão personalizado no Workfront Proof.</p> <p><b>Nota</b>:  <p>Certifique-se de que o perfil de permissão que você conceder aqui não forneça acesso maior do que a configuração Nível de acesso do usuário no Workfront (consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>). Se ele fornecer um acesso mais alto, o usuário poderá acessar provas dentro da Workfront de que não poderá acessar no Workfront.</p> <p>Isso é especialmente importante se você planeja permitir que todos os usuários do Workfront acessem o Workfront Proof diretamente da Workfront, conforme descrito em <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md" class="MCXref xref">Acessar o Workfront Proof do Adobe Workfront</a>.</p> <p>Por padrão, somente os administradores do Workfront têm acesso a um link direto para o site da Workfront Proof na Barra de navegação global do Workfront.</p> </p> </td> 
      </tr> 
     </tbody> 

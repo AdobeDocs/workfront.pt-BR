@@ -10,7 +10,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 7a3f1d96-103d-41cf-8470-3fc69e4bd507
 source-git-commit: 699c1d73d768e79890464654a14bdd4573de02c8
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1989'
 ht-degree: 1%
 
 ---
@@ -151,7 +151,7 @@ Texto de prova em qualquer lugar está realmente no [!DNL Workfront Proof] aplic
    | **[!UICONTROL Excluir]** | Pega o texto e adiciona [DELETE] na caixa de comentários. |
    | **[!UICONTROL Inserir depois de]** | Adicionadas [INSERIR APÓS] na caixa de comentários. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (Opcional) Para colar o texto de outro documento que você salvou no tablet, toque e segure o dedo na caixa de comentários até ver uma opção para colar o texto copiado do documento.
 

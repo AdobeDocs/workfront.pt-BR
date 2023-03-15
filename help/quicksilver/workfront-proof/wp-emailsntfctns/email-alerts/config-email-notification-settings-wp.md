@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
 source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
 workflow-type: tm+mt
-source-wordcount: '1998'
+source-wordcount: '1995'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Para obter informações sobre configurações de prova, consulte [!DNL Workfron
    |---|---|
    | **[!UICONTROL Modelo de mensagem de prova]** | Exibe na página Nova prova, na página Nova versão, na página Mensagem e na página Lembrar. Pode ser editado antes de ser enviado. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 ## Alterar alertas de email de um recipient
 

@@ -9,8 +9,8 @@ feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
 source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 1%
+source-wordcount: '436'
+ht-degree: 0%
 
 ---
 
@@ -66,7 +66,7 @@ Os gerentes de projeto entendem que um valor de SPI de 1 significa que o projeto
 | > 1 (maior que 1) | Antes do horário |
 | &lt; 1 (menos de 1) | Programação atrasada |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Como a Workfront calcula o SPI  {#how-workfront-calculates-spi}
 

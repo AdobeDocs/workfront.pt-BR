@@ -1,9 +1,9 @@
 ---
-title: Visão geral do designer do formulário
+title: Visão geral do designer de formulários
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Você pode criar um formulário personalizado que os usuários podem anexar a um objeto do Workfront. Os usuários que trabalham no objeto podem preencher o formulário personalizado para fornecer informações sobre o objeto.
+description: É possível criar um formulário personalizado que os usuários podem anexar a um objeto do Workfront. Os usuários que trabalham no objeto podem preencher o formulário personalizado para fornecer informações sobre ele.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 ---
 
-# Visão geral do designer do formulário
+# Visão geral do designer de formulários
 
 {{highlighted-preview-article-level}}
 
-Você pode usar o novo designer de formulário para criar um formulário personalizado que os usuários podem anexar a um objeto do Workfront. Os usuários que trabalham no objeto podem preencher o formulário personalizado para fornecer informações sobre o objeto.
+Você pode usar o novo designer de formulário para criar um formulário personalizado que os usuários podem anexar a um objeto do Workfront. Os usuários que trabalham no objeto podem preencher o formulário personalizado para fornecer informações sobre ele.
 
-O novo designer de formulário tem um novo espaço de trabalho no estilo da tela de desenho que permite exibir os campos, a tela de desenho e as configurações de campo, tudo ao mesmo tempo. Ela também permite arrastar e soltar campos nas seções ao criar o formulário.
+O novo designer de formulário tem um novo espaço de trabalho de estilo tela que permite exibir os campos, a tela e as configurações de campo ao mesmo tempo. Também permite arrastar e soltar campos nas seções ao projetar o formulário.
 
 <!-- add screenshot when field settings empty state is ready -->
 
@@ -32,47 +32,47 @@ Há um novo botão na parte superior do novo designer de formulário e do constr
 
 ## Nova funcionalidade disponível com o designer de formulário
 
-Com o novo designer de formulários, adicionamos a capacidade de
+Com o novo designer de formulário, adicionamos a capacidade de
 
 * **Copiar um campo**: Agora é possível copiar campos existentes clicando no ícone Copiar nos campos diretamente da tela.
 
-* **Alterar o tamanho para Texto descritivo**: agora é possível atribuir tamanhos pequeno, médio ou grande a campos de texto Descritivo. Também é possível usá-los na mesma linha com outros campos.
+* **Alterar o tamanho do texto Descritivo**: Agora é possível atribuir tamanhos pequenos, médios ou grandes a campos de texto descritivo. Também é possível usá-los na mesma linha com outros campos.
 
-* **Usar uma seção padrão**: se o criador do formulário não tiver adicionado uma seção na parte superior do formulário, uma seção Padrão agora estará visível na tela, para que os usuários possam ajustar as permissões para campos que não tenham uma seção personalizada atribuída.
+* **Usar uma seção padrão**: Se o criador do formulário não tiver adicionado uma seção na parte superior do formulário, uma seção Padrão agora estará visível na tela, para que os usuários possam ajustar as permissões para campos que não têm nenhuma seção personalizada atribuída.
 
    >[!NOTE]
    >
-   >A seção padrão não fica visível dentro dos objetos depois que o formulário é anexado ao objeto.
+   >A seção padrão não fica visível nos objetos depois que o formulário é anexado ao objeto.
 
 ## Funcionalidade em breve
 
-Os itens a seguir não estão disponíveis no momento no designer do formulário, mas serão adicionados em breve:
+Os itens a seguir não estão disponíveis no designer de formulários, mas serão adicionados em breve:
 
-* Ajustar o tamanho do texto descritivo
+* Ajuste o tamanho do texto descritivo
 
-* Lógica de exibição/salto
+* Exibir/ignorar lógica
 
-* Filtro para campos de digitação antecipada
+* Filtrar para campos de digitação antecipada
 
 >[!IMPORTANT]
 >
->As configurações existentes para filtros de lógica e digitação antecipada não serão afetadas ao trabalhar com o novo designer de formulário.
+>As configurações existentes para filtros de lógica e de digitação não serão afetadas quando você trabalhar com o novo designer de formulário.
 
-## Funcionalidade removida do designer do formulário
+## Funcionalidade removida do designer de formulários
 
-Removemos as seguintes funcionalidades do designer de formulário interno:
+Removemos a seguinte funcionalidade de dentro do designer de formulários:
 
 
-* Guias Configurações de formulário, Compartilhamento de formulários, Compartilhamento de campos
+* Configurações do formulário, Compartilhamento de formulário, Guias de Compartilhamento de campo
 
-   * As configurações de formulário agora estão disponíveis na parte superior da tela
+   * As configurações do formulário agora estão disponíveis na parte superior da tela
 
    * Guia principal Compartilhamento de formulário e subguia Compartilhamento de campo
    >[!NOTE]
    >
-   >É possível controlar o compartilhamento de formulários e campos na guia Configurar > Forms personalizado > Forms ou Campos.
+   >É possível controlar o compartilhamento de formulário e campo em Configurar > Forms personalizado > Forms ou guia Campos.
 
 * Rastrear alterações de campo nos campos de atualização
    >[!NOTE]
    >
-   >Você pode encontrar isso em Configuração > Interface > Feeds de atualização
+   >Você pode encontrar isso em Configuração > Interface > Atualizar feeds

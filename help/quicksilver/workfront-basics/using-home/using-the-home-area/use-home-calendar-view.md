@@ -265,7 +265,7 @@ Para atualizar os eventos de calendário integrados no [!UICONTROL Calendário d
 
 ## Navegar para uma semana diferente
 
-1. Vá para o seu [!UICONTROL Calendário doméstico] , conforme explicado em [Visualize o [!UICONTROL Calendário doméstico]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
+1. Vá para o [!UICONTROL Calendário doméstico] , conforme explicado em [Visualize o [!UICONTROL Calendário doméstico]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
 1. No **[!UICONTROL Barra de ferramentas do calendário]**, clique na seta para a esquerda do indicador de data para mover a exibição do calendário para trás uma semana ou para a direita para avançar uma semana.
 
    ![](assets/week-arrows-350x206.png)

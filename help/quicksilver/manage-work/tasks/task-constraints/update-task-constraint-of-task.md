@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '355'
 ht-degree: 9%
 
 ---
@@ -69,7 +69,7 @@ Você deve ter o seguinte para alterar a Restrição de Tarefa de uma tarefa:
    | Não Terminar Depois De | Para obter mais informações, consulte [Visão geral da restrição de tarefa: Concluir O Mais Tarde Que](../../../manage-work/tasks/task-constraints/finish-no-later-than.md). |
    | Concluir não antes de | Para obter mais informações, consulte [Visão geral da restrição de tarefa: Concluir não antes de](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Clique em **Salvar** **Alterações**.
 

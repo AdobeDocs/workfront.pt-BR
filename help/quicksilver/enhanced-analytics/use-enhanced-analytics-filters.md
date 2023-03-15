@@ -8,8 +8,8 @@ feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 0%
+source-wordcount: '1498'
+ht-degree: 1%
 
 ---
 
@@ -109,7 +109,7 @@ Os seguintes tipos de filtro de campo de projeto estão disponíveis:
 | **Patrocinador** | Exibe dados somente para projetos com o(s) patrocinador(es) selecionado(s) |
 | **Proprietário do projeto** | Exibe dados apenas para projetos com o(s) proprietário(s) do projeto selecionado(s) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Os filtros de Formulário personalizado funcionam de forma diferente. Para obter mais informações, consulte [Adicionar um filtro de campo de projeto](#add-a-project-field-filter).
 

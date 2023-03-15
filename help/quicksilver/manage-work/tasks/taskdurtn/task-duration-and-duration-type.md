@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1380'
 ht-degree: 2%
 
 ---
@@ -65,7 +65,7 @@ Ao atualizar a Duração das tarefas em uma lista, você pode usar as seguintes 
 | Semanas corridas | EW |
 | Meses decorridos | ET |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **Exemplo:** Se quiser indicar que a Duração de uma tarefa é 3 Dias de Atraso, digite &quot;3 ED&quot; no campo Duração em uma lista de tarefas .  Você também pode selecionar a opção preferencial para a Unidade de duração de tempo no menu suspenso disponível ao editar uma tarefa ou na seção Detalhes da tarefa . Para obter informações sobre edição de tarefas, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 

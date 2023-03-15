@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 87c8aff7-b638-4d14-9c5a-7e316f1ec608
 source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Primeiro, é necessário configurar a seção Campo personalizado à qual você 
    | **Pesquisável** | Permite que os usuários encontrem itens pesquisando nos dados do campo Personalizado. |
    | **Oculto** | Oculta o campo personalizado no [!UICONTROL Nova prova], Novo convidado e [!UICONTROL Novo usuário] páginas |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Clique em **[!UICONTROL Salvar]**.
 1. No **Campo personalizado** página exibida, clique no botão **[!UICONTROL Configurações de campos personalizados]** para atualizar a página.

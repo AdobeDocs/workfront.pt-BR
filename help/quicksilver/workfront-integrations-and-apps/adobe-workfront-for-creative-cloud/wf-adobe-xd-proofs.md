@@ -9,7 +9,7 @@ exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
 source-git-commit: 4a7fb18674b399b138fd981907f3a9da8e0bb30e
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -186,7 +186,7 @@ Você pode criar uma prova interativa para suas pranchetas com a [!DNL Workfront
 
    >[!IMPORTANT]
    >
-   >Os usuários devem ter acesso ao [!UICONTROL Visualizador de prova de desktop] para revisar e aprovar provas interativas. Para obter mais informações, consulte [Instale o [!UICONTROL Visualizador de prova de desktop]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+   >Os usuários devem ter acesso ao [!UICONTROL Visualizador de prova de desktop] para revisar e aprovar provas interativas. Para obter mais informações, consulte [[!UICONTROL Instalar o Visualizador de prova para desktop]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
 ## Fazer upload de uma nova versão de prova
 

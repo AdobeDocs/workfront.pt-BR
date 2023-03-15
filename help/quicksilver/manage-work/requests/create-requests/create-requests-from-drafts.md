@@ -8,8 +8,8 @@ feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 2%
+source-wordcount: '572'
+ht-degree: 1%
 
 ---
 
@@ -67,7 +67,7 @@ Você deve fazer o seguinte antes de criar uma solicitação a partir de um rasc
    | Data de Entrada | A data em que você iniciou a criação da solicitação. |
    | Última data de atualização | A última atualização. Se você não a atualizou desde que iniciou a solicitação, a Data de entrada e a Data da última atualização devem ser as mesmas. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (Opcional) Clique em **Filtrar por tipo de solicitação** no canto superior direito da lista de rascunhos, selecione a fila de solicitações que contém os rascunhos que deseja exibir.
 1. Clique no nome de um rascunho para abri-lo.

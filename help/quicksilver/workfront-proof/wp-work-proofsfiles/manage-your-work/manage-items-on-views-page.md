@@ -53,7 +53,7 @@ Para alterar o que você vê no [!UICONTROL Exibições] lista:
    * **[!UICONTROL Provas bloqueadas]**: Somente provas bloqueadas.
    * **[!UICONTROL Provas arquivadas]**: Somente provas arquivadas (consulte [Arquivar em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)).
 
-   * **[!UICONTROL Minhas provas]**: Mostra apenas provas para as quais você é o proprietário e que são delegadas a você. Para obter mais informações, consulte [Designando Proprietários Temporários de Prova em [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
+   * **[!UICONTROL Minhas provas]**: Mostra somente provas para as quais você é o proprietário e que são delegadas a você. Para obter mais informações, consulte [Designando Proprietários Temporários de Prova em [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
 
    * **[!UICONTROL Provas que aguardam decisão]**: Mostra somente provas nas quais você precisa tomar uma decisão
    * **[!UICONTROL Provas atrasadas]**: Mostra apenas provas cujo prazo foi ultrapassado

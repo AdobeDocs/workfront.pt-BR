@@ -114,7 +114,7 @@ As exceções de programação e o tempo de folga podem afetar a quantidade de H
 Além das Horas Disponíveis ou do FTE, as seguintes informações de tempo também são exibidas no Planejador de Recursos:
 
 * Horas planejadas
-* Horas Orçadas
+* Horas orçadas
 * Variação de hora
 * Horas Líquidas\
    Para obter mais informações sobre esses valores, consulte [Visão geral de horas, FTE e informações de custo nas exibições Projeto e Função do Planejador de Recursos](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)

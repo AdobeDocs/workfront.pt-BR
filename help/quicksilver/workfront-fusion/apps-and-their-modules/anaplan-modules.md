@@ -273,7 +273,7 @@ Este módulo de ação lê um único registro.
      <li> <p><b>Lista de modelos</b> </p> <p>Selecione ou mapeie as IDs do Workspace e do Modelo que contêm a Lista que você deseja ler e selecione a Lista. No campo [!UICONTROL Data type] , selecione se deseja ler dados ou metadados.</p> </li> 
      <li> <p><b>Versão do modelo</b> </p> <p>Selecione ou mapeie a ID do Modelo que deseja ler.</p> </li> 
      <li> <p><b>Usuário</b> </p> <p>Selecione se deseja retornar dados sobre o proprietário da conta que está sendo usada ou outro usuário. Se você selecionar outro usuário, selecione o nome dele.</p> </li> 
-     <li> <p><b>Workspace</b> </p> <p>Selecione ou mapeie a ID do espaço de trabalho que deseja ler.</p> </li> 
+     <li> <p><b>Espaço de trabalho</b> </p> <p>Selecione ou mapeie a ID do espaço de trabalho que deseja ler.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

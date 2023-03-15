@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
 source-git-commit: 68baff382c1c5e6b69906bb021fb20fd513dad0f
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 5%
+source-wordcount: '267'
+ht-degree: 4%
 
 ---
 
@@ -65,7 +65,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
    | Data de início | A Data inicial do período de tempo de folga que o usuário indicou. |
    | Data Final | A Data Final do período de tempo de folga que o usuário indicou. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (Opcional) Termine de criar o relatório editando qualquer uma das seguintes guias:
 

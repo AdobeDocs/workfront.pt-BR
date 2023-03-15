@@ -9,8 +9,8 @@ feature: Digital Content and Documents
 exl-id: 72ce147b-29c9-4c3b-a03c-2da0758bc178
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 2%
+source-wordcount: '864'
+ht-degree: 0%
 
 ---
 
@@ -46,7 +46,7 @@ A lista a seguir pode ajudá-lo a entender qual Visualizador de prova você pode
 | Publicar comentário em várias páginas | ✓ (disponível em todas as exibições) | ✓&#42; (disponível em todas as visualizações) |
 | Atalhos avançados de prova estática | ✓ (para obter mais informações, consulte [Atalhos de teclado no visualizador de prova](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;(para obter mais informações, consulte [Atalhos de teclado no visualizador de prova](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Essa funcionalidade funciona somente se o administrador do Workfront tiver configurado o Desktop Proofing Viewer como o visualizador padrão para todas as provas.
 
@@ -65,7 +65,7 @@ A lista a seguir pode ajudá-lo a entender qual Visualizador de prova você pode
 | Revisar provas de vídeo (os vídeos são concluídos e iniciados automaticamente) | ✓ | ✓&#42;  |
 | Atalhos avançados de vídeo | ✓ (para obter mais informações, consulte [Atalhos de teclado no visualizador de prova](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Essa funcionalidade funciona somente se o Desktop Proofing Viewer estiver configurado como o visualizador padrão para todas as provas.
 
@@ -80,7 +80,7 @@ A lista a seguir pode ajudá-lo a entender qual Visualizador de prova você pode
 | Revisar sites não protegidos (HTTP) | Não suportado | ✓ |
 | Revisar sites protegidos pelo iFrame (sites protegidos de serem visualizados em um iFrame) | Não suportado | ✓ |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Comentários
 
@@ -231,7 +231,7 @@ A lista a seguir pode ajudá-lo a entender qual Visualizador de prova você pode
 | Tome decisões | ✓ | ✓ |
 | Personalizar decisões | ✓ | ✓ |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Comparar provas
 
@@ -373,7 +373,7 @@ A lista a seguir pode ajudá-lo a entender qual Visualizador de prova você pode
 |---|---|---|
 | Código incorporado | Planejado para o futuro para provas de vídeo estáticas e nativas | Não suportado  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Traduções
 

@@ -149,7 +149,7 @@ Para criar uma conexão para [!DNL Adobe Experience Manager Assets] módulos:
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL URL da instância sem uma barra à direita]</td>
-                <td>Insira o URL do seu [!DNL Adobe Experience Manager] instância. Não inclua uma barra <code>/</code> no final do URL.</td>
+                <td>Insira o URL do [!DNL Adobe Experience Manager] instância. Não inclua uma barra <code>/</code> no final do URL.</td>
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL Nome de usuário]</td>

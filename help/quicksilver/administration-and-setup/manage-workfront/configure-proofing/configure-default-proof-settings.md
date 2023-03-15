@@ -30,7 +30,7 @@ Essas configurações permitem definir valores padrão que se aplicam a todas as
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader" colspan="2"><b>Recipients</b></td> 
+      <td role="rowheader" colspan="2"><b>Destinatários</b></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Exigir logon</td> 

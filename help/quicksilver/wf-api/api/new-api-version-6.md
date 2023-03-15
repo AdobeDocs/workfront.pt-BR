@@ -8,8 +8,8 @@ feature: Workfront API
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
 source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 41%
+source-wordcount: '495'
+ht-degree: 33%
 
 ---
 
@@ -63,7 +63,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 | updateType¹ |   |   |   |   | `sinceDate` |   |
 |   |   |   |   |   | objectUpdatesByCommentID² |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Alterações aos valores possíveis
 
@@ -81,7 +81,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 | syncBurndownDate |   |   |   |   |   |   |
 | workRequired² |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Validação de data adicionada
 
@@ -95,7 +95,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 |---|---|---|---|---|---|---|---|
 |  |  | `attachedApprovalPaths` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -107,7 +107,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 |---|---|---|---|---|---|---|
 | approvalType¹ |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Alterações nos valores possíveis
 
@@ -128,7 +128,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 | lastUpdateByID |   |   |   |   |   |   |
 | name² |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Alterado para Reportável
 
@@ -143,7 +143,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 | constraintDate¹ |   |   |   | getMyWorkCountFiltered |   |   |
 | workRequired² |   |   |   | workItemStatusLabels  |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Validação de data adicionada
 
@@ -159,7 +159,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 |   |   |   |   | swapUsersOnProjects |   |   |
 |   |   |   |   | unassignUserFromProjects |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -169,7 +169,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 |---|---|---|---|---|---|---|
 | workRequired¹ |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Sinalizador não_filtrável adicionado
 
@@ -181,7 +181,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 |---|---|---|---|---|---|---|
 | workRequired¹ |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Sinalizador não_filtrável adicionado
 
@@ -193,7 +193,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 |---|---|---|---|---|---|---|
 | billingDate¹ |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ adição do sinalizador de campo NO_TIME
 
@@ -204,7 +204,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 | eventInitiator |   |   |   |   |   | `ADD` |
 |   |   |   |   |   |   | `DELETE` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -215,7 +215,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 |   |   |   |   | getCascadingRules |   |   |
 |   |   |   |   | reorderCategories |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -227,7 +227,7 @@ Enumerado Personalizado 
 |   |   |   |   | isPossibleToUnlockStatus | projectGroupStatus |   |
 |   |   |   |   |   | taskGroupStatus |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -238,7 +238,7 @@ Documento 
 | `checkedOutByID` | `checkedOutBy`  |   |  isDir |   |   |   |
 | `isDir`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -248,7 +248,7 @@ Taxa de câmbio 
 |---|---|---|---|---|---|---|
 | rate¹ |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Validador de PRECISÃO alterado para 8 a 9
 
@@ -260,7 +260,7 @@ Taxa de câmbio 
 |---|---|---|---|---|---|---|
 | syncBurndownDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -270,7 +270,7 @@ Taxa de câmbio 
 |---|---|---|---|---|---|---|
 | changeType¹ |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Alterações nos valores possíveis
 
@@ -282,7 +282,7 @@ Taxa de câmbio 
 |---|---|---|---|---|---|---|
 | workRequired² |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Sinalizado como RESTAURÁVEL
 
@@ -301,7 +301,7 @@ Taxa de câmbio 
 | trabalho |   |   |   |   |   |   |
 | workRequired |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Sinalizado como RESTORABLE e RESOURCE_MANAGEABLE
 
@@ -316,7 +316,7 @@ Taxa de câmbio 
 | constraintDate² |   |   |   |   |   |   |
 | workRequired³ |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Sinalizado como RESTAURÁVEL
 
@@ -333,7 +333,7 @@ Taxa de câmbio 
 | `myWorkViewID` |  `myWorkView` |   |   |   |   |   |
 | `requestsViewID`  | `myRequestsView`  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -343,7 +343,7 @@ Taxa de câmbio 
 |---|---|---|---|---|---|---|
 |   |   | resourceManagers | resourceManagerIDs |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Sinalizado como RESTORABLE e RESOURCE_MANAGEABLE
 
@@ -353,7 +353,7 @@ Taxa de câmbio 
 |---|---|---|---|---|---|---|
 | workRequired² |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Sinalizado como RESTAURÁVEL
 
@@ -367,7 +367,7 @@ Taxa de câmbio 
 |---|---|---|---|---|---|---|
 | myInfo¹ |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Violadores MAX_LENGTH
 
@@ -379,7 +379,7 @@ Taxa de câmbio 
 |---|---|---|---|---|---|---|
 | eventType¹ |   |   |   |   | myNotifications² |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Valores possíveis alterados
 

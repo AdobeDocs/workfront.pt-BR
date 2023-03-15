@@ -39,7 +39,7 @@ Para obter uma lista de todas as alterações disponíveis com a versão 22.1, c
 
 Para fornecer uma experiência mais integrada entre o Workfront e a Proof, fizemos várias melhorias com relação aos recursos de prova para Revisores e Solicitantes:
 
-Você pode conceder funções de Moderador ou Autor a qualquer usuário no Workfront, independentemente de ter uma licença de Verificação de Revisores, dando-lhe direitos adicionais, como aplicar ações ou resolver comentários.
+Você pode conceder funções de Moderador ou Autor a qualquer usuário no Workfront, independentemente de ter uma licença de Revisor de Provas, dando a ele direitos adicionais, como aplicar ações ou resolver comentários.
 
 Você pode adicionar Revisores e Solicitantes a provas que exigem logon ou que precisam ser assinadas eletronicamente.
 

@@ -8,8 +8,8 @@ feature: Workfront API
 exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
 source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 46%
+source-wordcount: '472'
+ht-degree: 34%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 46%
 |   |   |   |   |   |   | GET |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### CalendarEntry
 
@@ -44,7 +44,7 @@ ht-degree: 46%
 |   |   |   |   |   |   | RELATÓRIO  |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### CalendarEntryExternalReference
 
@@ -55,7 +55,7 @@ ht-degree: 46%
 |   |   |   |   |   |   | RELATÓRIO  |
 |   |   |   |   |   |   | SEARCH  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ExternalAuthToken
 
@@ -69,7 +69,7 @@ ht-degree: 46%
 |   |   |   |   |   |   | RELATÓRIO  |
 |   |   |   |   |   |   | SEARCH  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### LicenseTypeGroupLimit
 
@@ -83,7 +83,7 @@ ht-degree: 46%
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserHomeCalendarPreference
 
@@ -98,7 +98,7 @@ ht-degree: 46%
 | userID |   |   |   |   |   | SEARCH |
 | workDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **Recursos atualizados**
 
@@ -120,7 +120,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Wor
 | projectRoi  |   |   |   |   |   |   |
 | resourcePlannerBudgetedLaborCost  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 `¹ Type changed from null to boolean`
 
@@ -131,7 +131,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Wor
 | assignPercent `¹` |   |   |   |   |   |   |
 | viewedByAssignedToUser |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 `¹`adicionado validador LESS_THAN_EQUAL
 
@@ -141,7 +141,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Wor
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -151,7 +151,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Wor
 |---|---|---|---|---|---|---|
 | name `¹` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Alterações nos valores possíveis
 
@@ -161,7 +161,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Wor
 |---|---|---|---|---|---|---|
 |   |   |   |   | getMetadataForDocument |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Documento
 
@@ -169,7 +169,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Wor
 |---|---|---|---|---|---|---|
 | `masterTaskID` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### DocumentRequest
 
@@ -177,7 +177,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Wor
 |---|---|---|---|---|---|---|
 | `masterTaskID` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 DocumentVersion
 
@@ -188,7 +188,7 @@ DocumentVersion
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Alterações nos valores possíveis
 
@@ -198,7 +198,7 @@ Despesa
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Grupo
 
@@ -207,7 +207,7 @@ Despesa
 |   | licenseTypeLimit |   |   | addRemoveLicenseTypeLimits  |   |   |
 |   |   |   |   | setLicenseTypeLimit |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### LinkedFolder
 
@@ -215,7 +215,7 @@ Despesa
 |---|---|---|---|---|---|---|
 | externalIntegrationType¹ |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Alterações nos valores possíveis
 
@@ -225,7 +225,7 @@ Despesa
 |---|---|---|---|---|---|---|
 | priorityColor |  |  | pendingApproval¹ |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Tipo alterado de nulo para booleano
 
@@ -235,7 +235,7 @@ Despesa
 |---|---|---|---|---|---|---|
 |  |  |  | groupIDs |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Portfólio
 
@@ -244,7 +244,7 @@ Despesa
 | portfolioNetValue |  |  |  |  |  |  |
 | portfólioRoi |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Projeto
 
@@ -255,7 +255,7 @@ Despesa
 | projectRoi |   |   |   |   |   |   |
 | resourcePlannerBudgetedLaborCost |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### AprovaçãoDeProva
 
@@ -263,7 +263,7 @@ Despesa
 |---|---|---|---|---|---|---|
 | aproverDecision |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Taxa
 
@@ -271,7 +271,7 @@ Despesa
 |---|---|---|---|---|---|---|
 | rateValue ¹ |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹MOEDA do validador adicionado
 
@@ -283,7 +283,7 @@ Despesa
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -293,7 +293,7 @@ Despesa
 |---|---|---|---|---|---|---|
 | horasPorPonto ¹ |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ validador adicionado LESS_THAN
 
@@ -303,7 +303,7 @@ Despesa
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### TeamTask
 
@@ -311,7 +311,7 @@ Despesa
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Planilha de horas
 
@@ -319,7 +319,7 @@ Despesa
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Atualizar
 
@@ -327,7 +327,7 @@ Despesa
 |---|---|---|---|---|---|---|
 | updateType `¹` |   |   |   |   |   | objectUpdatesWithNoteAndJournalEntryIndex  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ alterações nos valores possíveis
 
@@ -337,7 +337,7 @@ Despesa
 |---|---|---|---|---|---|---|
 |   | accessLevel  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserNote
 
@@ -345,7 +345,7 @@ Despesa
 |---|---|---|---|---|---|---|
 | eventType ¹ |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ alterações nos valores possíveis
 
@@ -357,7 +357,7 @@ Despesa
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Tipo alterado de nulo para booleano
 
@@ -375,7 +375,7 @@ Despesa
 | roleID |   |   |   |   |   | RELATÓRIO  |
 | userID |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 

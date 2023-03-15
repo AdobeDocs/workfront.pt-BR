@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 4%
+source-wordcount: '383'
+ht-degree: 3%
 
 ---
 
@@ -82,7 +82,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
    | **Início** | Este é o início do tempo esgotado para o usuário que fez as delegações. |
    | **Fim** | Este é o fim do tempo limite para o usuário que fez as delegações. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (Opcional) No Construtor de relatórios, modifique o seguinte:
 

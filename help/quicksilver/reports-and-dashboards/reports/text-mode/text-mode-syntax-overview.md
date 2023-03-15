@@ -361,7 +361,7 @@ Você pode usar os seguintes elementos para criar filtros e prompts personalizad
 
 * Um conector de instrução que conecta várias instruções de filtro:
 
-   * AND
+   * E
 
       Esse é o conector padrão entre instruções de filtro.
 

@@ -133,14 +133,18 @@ Especifique parâmetros e valores no formato JSON.
 >
 >**Exemplo:**
 >
->```
+>
+```
 >{"user":"12345c2ecu1hq42ypqzhswbyam34",
 >
->"token":"123459evz8aepwtxydndydgyumbfx",
 >
->"message":"Hello World!",
+"token":"123459evz8aepwtxydndydgyumbfx",
 >
->"title":"The Push Notification"}
+>
+"message":"Hello World!",
+>
+>
+"title":"The Push Notification"}
 >```
 
 <table style="table-layout:auto"> 

@@ -10,8 +10,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 96162fe8-eef9-40f4-bc94-02911b970f02
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 17%
+source-wordcount: '557'
+ht-degree: 16%
 
 ---
 
@@ -38,7 +38,7 @@ O perfil de permissão também afeta os direitos que você tem sobre pastas púb
 | **Gerente** | não | Sim | Sim | não | Sim | não | Sim |
 | **Observador** | não | Sim | não | não | não | não | não |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Se a pasta pública for de propriedade de um gerente, ele poderá excluir a pasta raiz e qualquer subpasta.
 
@@ -57,7 +57,7 @@ Se uma pasta for privada, outros usuários na mesma conta não poderão visualiz
 | **Gerente** | não | Sim | não | não | não | não | não |
 | **Observador** | não | Sim | não | não | não | não | não |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Por exemplo, se você quiser que seu Gerenciador de projetos e suas equipes vejam apenas pastas específicas, ele poderá configurar uma pasta privada e compartilhar a pasta com usuários específicos.
 

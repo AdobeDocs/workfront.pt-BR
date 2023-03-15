@@ -9,7 +9,7 @@ feature: Workfront API
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
 source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
-source-wordcount: '3661'
+source-wordcount: '3646'
 ht-degree: 3%
 
 ---
@@ -396,7 +396,7 @@ GET /files
 |---|---|
 | parentId  | A ID da pasta. Para obter os metadados do diretório raiz, use o valor &#39;/&#39;. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 No momento, a API de Webhooks de documento não suporta paginação.
 
@@ -533,7 +533,7 @@ GET /miniatura
 | id  | A ID do documento. |
 | size  |  A largura da miniatura |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -728,7 +728,7 @@ POST /createFolder
 | parentId  | A ID da pasta na qual a pasta deve ser criada |
 | name  | O nome da nova pasta |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -776,7 +776,7 @@ PUT /delete
 | documentId  | A ID do documento a ser excluída |
 | folderId  |  A ID da pasta a ser excluída |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Resposta Uma string JSON indicando sucesso ou falha, conforme especificado na seção Tratamento de erros abaixo.
 
@@ -814,7 +814,7 @@ PUT /rename
 | id | O documento ou ID da pasta a ser renomeado |
 | name  | O novo nome do documento ou pasta |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 

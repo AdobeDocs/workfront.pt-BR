@@ -6,8 +6,8 @@ feature: Reports and Dashboards
 exl-id: 38beccf6-d7bc-478f-8bba-56607d315e6f
 source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 3%
+source-wordcount: '256'
+ht-degree: 2%
 
 ---
 
@@ -64,7 +64,7 @@ Antes de começar, você deve se inscrever no beta da Tela de relatórios. Para 
       |---|---|
       | Mostrar fonte de dados | Ative essa opção para mostrar a tabela de origem da visualização na tela do relatório ou desative a opção para ocultá-la. |
 
-      {style=&quot;table-layout:auto&quot;}
+      {style="table-layout:auto"}
 
       <!--   
       NOLAN-FLAG: convert table to html. 

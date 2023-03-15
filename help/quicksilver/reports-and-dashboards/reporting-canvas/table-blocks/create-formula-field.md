@@ -7,7 +7,7 @@ feature: Reports and Dashboards
 exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
 source-git-commit: d649decb2875a3af4fd40c323a7836d4468bf04b
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '653'
 ht-degree: 7%
 
 ---
@@ -67,6 +67,6 @@ Antes de começar, você deve se inscrever no beta da Tela de relatórios. Para 
    | DATEDIFF | Calcula o número total de dias entre duas datas, arredondado para uma casa decimal. | Número |
    | WEEKDAYDIFF | Calcula o número de dias da semana entre duas datas, arredondado para uma casa decimal. | Número |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Clique no botão **Voltar** no canto superior esquerdo da tela para retornar à tabela.

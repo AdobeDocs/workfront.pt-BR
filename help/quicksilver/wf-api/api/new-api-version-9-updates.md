@@ -8,8 +8,8 @@ feature: Workfront API
 exl-id: 51892846-d93f-4363-8416-4118fb2ef84d
 source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 47%
+source-wordcount: '248'
+ht-degree: 36%
 
 ---
 
@@ -30,7 +30,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 | `opTaskID`<sup>2</sup> |  |  |  |  |  |  |
 | `taskID`<sup>2</sup> |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Sinalizador removido: REPORTABLE\
 ² Sinalizador removido: NOT_GROUPABLE
@@ -41,7 +41,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 |---|---|---|---|---|---|---|
 | `storyBoardOrder` | `agileWork` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Atribuição
 
@@ -52,7 +52,7 @@ Atribuição
 |  |  |  |  | `swapUsersOnProjects`<sup>1</sup> |  |  |
 |  |  |  |  | `swapUsersOnTasks`<sup>1</sup> |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Campo adicionado: lockToRole
 
@@ -62,7 +62,7 @@ Atribuição
 |---|---|---|---|---|---|---|
 | `name`<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Alterações nos valores possíveis
 
@@ -73,7 +73,7 @@ Atribuição
 | `days` |  |  |  |  |  |  |
 | `workHoursPerDay` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Iteração
 
@@ -81,7 +81,7 @@ Atribuição
 |---|---|---|---|---|---|---|
 |  |  |  |  | `moveIssues` |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Modelos de layout
 
@@ -89,7 +89,7 @@ Atribuição
 |---|---|---|---|---|---|---|
 | `groupID` | `group` |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Nota
 
@@ -99,7 +99,7 @@ Atribuição
 | `json` |  |  |  |  |  |  |
 | `richTextNoteID` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### OpTask
 
@@ -110,7 +110,7 @@ Atribuição
 | `storyBoardOrder` |  |  |  | `linkExternalObject` |  |  |
 |  |  |  |  | `unlinkExternalObject` |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ResourceBudget
 
@@ -118,7 +118,7 @@ Atribuição
 |---|---|---|---|---|---|---|
 | `ID` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹ Sinalizador removido: REPORTABLE
 
@@ -128,7 +128,7 @@ Atribuição
 |---|---|---|---|---|---|---|
 | `homeGroupID` | `homeGroup` |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Tarefa
 
@@ -138,7 +138,7 @@ Atribuição
 |  |  |  |  | `linkExternalObject` |  |  |
 |  |  |  |  | `unlinkExternalObject` |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Equipe
 
@@ -146,7 +146,7 @@ Atribuição
 |---|---|---|---|---|---|---|
 | `includeIssues` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### TimesheetProfile
 
@@ -154,7 +154,7 @@ Atribuição
 |---|---|---|---|---|---|---|
 | `groupID` | `group` |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UIFilter
 
@@ -162,7 +162,7 @@ Atribuição
 |---|---|---|---|---|---|---|
 |  |  |  |  |  | `filtersForObjCode` |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UIView
 
@@ -170,7 +170,7 @@ Atribuição
 |---|---|---|---|---|---|---|
 |  |  |  |  |  | `viewsForObjCode` |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Usuário
 
@@ -179,7 +179,7 @@ Atribuição
 | `logTimeInDays` |  |  |  |  |  |  |
 | `workHoursPerDay` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Trabalho
 

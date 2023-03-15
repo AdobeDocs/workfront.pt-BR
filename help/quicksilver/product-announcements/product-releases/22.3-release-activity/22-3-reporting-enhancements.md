@@ -27,7 +27,7 @@ Para refletir as informações de orçamento de recursos do Planejador de Recurs
 
 Os seguintes campos de orçamento de recursos foram removidos de listas e relatórios porque se referiam a ferramentas obsoletas que foram removidas do Workfront em versões anteriores:
 
-* Horas Orçadas
+* Horas orçadas
 
 * Custos de mão de obra orçados
 
