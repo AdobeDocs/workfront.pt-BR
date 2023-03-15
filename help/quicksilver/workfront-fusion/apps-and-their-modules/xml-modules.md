@@ -181,26 +181,26 @@ O [!UICONTROL XML] > [!UICONTROL Criar XML] O módulo converte um pacote em um t
 </table>
 
 >[!INFO]
-**Exemplo:**
-Um caso de uso comum é transformar dados de um [!DNL Google] >planilha em XML.
-1. Coloque o [!DNL Google Sheets] > [!UICONTROL Selecionar linhas] no seu cenário para buscar os dados. Configurar o módulo para recuperar linhas de seu [!DNL Google] planilha. Defina o &#x200B;**[!UICONTROL Número máximo de linhas retornadas]** para um número pequeno, mas maior que um para fins de teste (exemplo, três). Execute o [!DNL Google Sheets] clicando com o botão direito do mouse e escolhendo &quot;**[!UICONTROL Executar este módulo somente]**.&quot; Verifique a saída do módulo.
-1. Conecte o [!UICONTROL Agregador de matriz] após a [!DNL Google Sheets] módulo. Na configuração do módulo, escolha [!DNL Google Sheets] no **[!UICONTROL Nó de origem]** campo. Deixe os outros campos como estão no momento.
-1. Conecte o [!UICONTROL XML] > [!UICONTROL Criar XML] após a [!UICONTROL Agregador de matriz] módulo.
-   A configuração do módulo requer uma estrutura de dados que descreve a estrutura da saída XML. Clique no botão **[!UICONTROL Adicionar]** para abrir a configuração da estrutura de dados. A maneira mais fácil de criar essa estrutura de dados é gerá-la automaticamente a partir de uma amostra XML.
-1. Clique no botão **[!UICONTROL Gerador]** e cole sua amostra XML no botão [!UICONTROL Dados de exemplo] campo :
-
-![](assets/sample-data-field-350x146.png)
-1. Clique em **[!UICONTROL Salvar]**. O campo Specification na estrutura Data agora contém a estrutura gerada.
-1. Altere o nome da sua estrutura de dados para algo mais específico e clique em **[!UICONTROL Salvar]**. Um campo correspondente ao atributo da matriz raiz é exibido como um campo mapeável na configuração do módulo JSON.
-1. Clique no botão **[!UICONTROL Mapa]** ao lado do campo e mapeie a variável `Array[]` do [!UICONTROL Agregador de matriz] para ele:
-1. Clique em **[!UICONTROL OK]** para fechar a configuração do módulo XML.
-1. Abra a configuração do [!UICONTROL Agregador de matriz] módulo. Altere o **[!UICONTROL Estrutura do Target]** do campo Personalizado para um módulo XML correspondente ao elemento XML principal.Mapeie itens do [!DNL Google Sheets] aos campos apropriados.
-1. Clique em **[!UICONTROL OK]** para fechar a configuração do módulo Array Aggregator.
-1. Execute o cenário.
-
-   O módulo XML gera o arquivo XML correto.
-1. Abra a configuração do [!DNL Google Sheets] e aumente o [!UICONTROL Número máximo de linhas retornadas] número para ser maior que o número de linhas na planilha para processar todos os dados.
-   O XML resultante pode ser salvo em [!DNL Dropbox], enviado como anexo por email, carregado via FTP para um servidor e assim por diante.
+>**Exemplo:**
+>Um caso de uso comum é transformar dados de um [!DNL Google] >planilha em XML.
+>1. Coloque o [!DNL Google Sheets] > [!UICONTROL Selecionar linhas] no seu cenário para buscar os dados. Configurar o módulo para recuperar linhas de seu [!DNL Google] planilha. Defina o &#x200B;**[!UICONTROL Número máximo de linhas retornadas]** para um número pequeno, mas maior que um para fins de teste (exemplo, três). Execute o [!DNL Google Sheets] clicando com o botão direito do mouse e escolhendo &quot;**[!UICONTROL Executar este módulo somente]**.&quot; Verifique a saída do módulo.
+>1. Conecte o [!UICONTROL Agregador de matriz] após a [!DNL Google Sheets] módulo. Na configuração do módulo, escolha [!DNL Google Sheets] no **[!UICONTROL Nó de origem]** campo. Deixe os outros campos como estão no momento.
+>1. Conecte o [!UICONTROL XML] > [!UICONTROL Criar XML] após a [!UICONTROL Agregador de matriz] módulo.>
+>   A configuração do módulo requer uma estrutura de dados que descreve a estrutura da saída XML. Clique no botão **[!UICONTROL Adicionar]** para abrir a configuração da estrutura de dados. A maneira mais fácil de criar essa estrutura de dados é gerá-la automaticamente a partir de uma amostra XML.
+>1. Clique no botão **[!UICONTROL Gerador]** e cole sua amostra XML no botão [!UICONTROL Dados de exemplo] campo :
+>
+>![](assets/sample-data-field-350x146.png)
+>1. Clique em **[!UICONTROL Salvar]**. O campo Specification na estrutura Data agora contém a estrutura gerada.
+>1. Altere o nome da sua estrutura de dados para algo mais específico e clique em **[!UICONTROL Salvar]**. Um campo correspondente ao atributo da matriz raiz é exibido como um campo mapeável na configuração do módulo JSON.
+>1. Clique no botão **[!UICONTROL Mapa]** ao lado do campo e mapeie a variável `Array[]` do [!UICONTROL Agregador de matriz] para ele:
+>1. Clique em **[!UICONTROL OK]** para fechar a configuração do módulo XML.
+>1. Abra a configuração do [!UICONTROL Agregador de matriz] módulo. Altere o **[!UICONTROL Estrutura do Target]** do campo Personalizado para um módulo XML correspondente ao elemento XML principal.Mapeie itens do [!DNL Google Sheets] aos campos apropriados.
+>1. Clique em **[!UICONTROL OK]** para fechar a configuração do módulo Array Aggregator.
+>1. Execute o cenário.
+>
+>   O módulo XML gera o arquivo XML correto.
+>1. Abra a configuração do [!DNL Google Sheets] e aumente o [!UICONTROL Número máximo de linhas retornadas] número para ser maior que o número de linhas na planilha para processar todos os dados.
+>   O XML resultante pode ser salvo em [!DNL Dropbox], enviado como anexo por email, carregado via FTP para um servidor e assim por diante.
 
 
 ## Adição de atributos XML
