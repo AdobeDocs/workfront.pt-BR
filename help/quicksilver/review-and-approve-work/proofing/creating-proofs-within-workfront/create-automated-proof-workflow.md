@@ -82,7 +82,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
       >* É possível adicionar um revisor a uma prova apenas uma vez, o que significa que não é possível adicionar a mesma pessoa a mais de um estágio na prova.
       >* Os revisores que não são adicionados a uma fase privada não podem ver essa fase na prova ou nos comentários feitos nessa fase.
       >* Por padrão, adicionar um usuário a um palco concede a esse usuário acesso para visualizar a prova a partir do momento em que a prova é criada.\
-         O administrador do Workfront pode impedir que os usuários acessem a prova até que o workflow entre no estágio em que o usuário foi adicionado.
+      >  O administrador do Workfront pode impedir que os usuários acessem a prova até que o workflow entre no estágio em que o usuário foi adicionado.
 
 
    1. Clique em **Configurações de preparo**.
