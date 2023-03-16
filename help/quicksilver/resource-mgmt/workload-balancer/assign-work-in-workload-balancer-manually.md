@@ -6,9 +6,9 @@ description: Você pode atribuir itens de trabalho manualmente a usuários usand
 author: Alina
 feature: Resource Management
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '730'
 ht-degree: 2%
 
 ---
@@ -33,8 +33,8 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Planejar, ao usar o Balanceador de Carga de Trabalho para uma equipe ou na área Recursos </p>
-   <p>Trabalhe, ao usar o Balanceador de Carga de Trabalho de um projeto </p>
+   <td> <p>Planejar, ao usar o Balanceador de Carga de Trabalho na área Recursos</p>
+   <p>Trabalhe, ao usar o Balanceador de Carga de Trabalho de uma equipe ou projeto</p>
  </td> 
   </tr> 
   <tr> 

@@ -7,9 +7,9 @@ description: Você pode usar o Balanceador de Carga de Trabalho para programar r
 author: Alina
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 87f02f3908c86575ca2dfacd7d88146b9967a804
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '767'
 ht-degree: 1%
 
 ---
@@ -53,8 +53,8 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Planejar, ao usar o Balanceador de Carga de Trabalho para uma equipe ou na área Recursos </p>
-   <p>Trabalhe, ao usar o Balanceador de Carga de Trabalho de um projeto </p>
+   <td> <p>Planejar, ao usar o Balanceador de Carga de Trabalho na área Recursos</p>
+   <p>Trabalhe, ao usar o Balanceador de Carga de Trabalho de uma equipe ou projeto</p>
  </td> 
   </tr> 
   <tr> 

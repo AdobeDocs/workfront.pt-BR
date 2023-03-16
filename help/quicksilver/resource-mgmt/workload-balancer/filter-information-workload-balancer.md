@@ -6,9 +6,9 @@ description: Para encontrar itens de trabalho com eficiência e se concentrar no
 author: Alina
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 10b905c8a66f2507cbfac7c15a01f38d40ab3e00
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '2466'
+source-wordcount: '2464'
 ht-degree: 0%
 
 ---
@@ -49,8 +49,8 @@ Você deve ter o seguinte:
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Planejar, ao usar o Balanceador de Carga de Trabalho para uma equipe ou na área Recursos </p>
-   <p>Trabalhe, ao usar o Balanceador de Carga de Trabalho de um projeto </p>
+   <td> <p>Planejar, ao usar o Balanceador de Carga de Trabalho na área Recursos</p>
+   <p>Trabalhe, ao usar o Balanceador de Carga de Trabalho de uma equipe ou projeto</p>
  </td> 
   </tr> 
   <tr> 

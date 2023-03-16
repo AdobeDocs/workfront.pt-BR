@@ -6,7 +6,7 @@ description: Você pode atribuir tarefas a usuários, funções ou equipes para 
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: e83d4742106bc3cb5adb939040997959315dd1e2
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
 source-wordcount: '1789'
 ht-degree: 1%
@@ -139,9 +139,9 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
       <li>Se várias funções forem atribuídas e pelo menos uma delas corresponder a uma das outras funções do usuário, a tarefa ou problema será atribuído ao usuário (a função será selecionada aleatoriamente se houver várias correspondências), juntamente com quaisquer funções adicionais atribuídas</li>
       <li>Se pelo menos uma função de trabalho for atribuída e não houver correspondências com as funções de trabalho do usuário, a tarefa ou o problema será atribuído à função ou às funções e ao usuário.</li>
      </ul>
-   <p>Para obter informações sobre a função principal de um usuário e outras funções, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Editar o perfil de um usuário</a>.</p>
-   </td>
-  </tr>
+   <p>Para obter informações sobre a função principal de um usuário e outras funções, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Editar o perfil de um usuário</a>.</p>
+   </td> 
+     </tr>
   </tbody>
   </table>
 

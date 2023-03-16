@@ -6,10 +6,10 @@ description: Sem acesso ou permissões corretas, talvez você não consiga visua
 author: Alina
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: bba51ba60ad6d2452fa368fd8b0bd708d005a82a
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 1%
+source-wordcount: '535'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ A tabela a seguir ilustra a conexão entre o plano Workfront que sua empresa tem
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano da Workfront</td> 
+   <td role="rowheader"><p>Plano da Workfront</p></td> 
    <td> <p>Áreas onde você pode acessar o Balanceador de Carga de Trabalho</p> </td> 
   </tr> 
   <tr> 
@@ -56,7 +56,8 @@ Você deve ter o seguinte acesso para exibir o Balanceador de Carga de Trabalho:
  <tbody> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> </td> 
+   <td> <p>Planejar a exibição do Balanceador de Carga de Trabalho na área Recursos</p>
+   <p>Trabalhe para exibir o Balanceador de Carga de Trabalho de uma equipe ou projeto</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
@@ -83,8 +84,8 @@ Você deve ter o seguinte acesso para gerenciar o Balanceador de Carga de Trabal
  <tbody> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> 
-   <p>Trabalho, para gerenciar recursos no Balanceador de Carga de Trabalho de um projeto</p>
+   <td> <p>Planejar o gerenciamento de atribuições no Balanceador de Carga de Trabalho na área Recursos</p>
+   <p>Trabalhe para gerenciar atribuições no Balanceador de Carga de Trabalho de uma equipe ou projeto</p>
    </td> 
   </tr> 
   <tr> 

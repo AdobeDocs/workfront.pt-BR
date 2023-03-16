@@ -6,9 +6,9 @@ description: Você pode compartilhar o Balanceador de Carga de Trabalho com outr
 author: Alina
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: a74cc358c547e11a55cce728ad5330712ed0bd49
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,8 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Planejar ou superior</p> </td> 
+   <td> <p>Planejar, ao usar o Balanceador de Carga de Trabalho na área Recursos</p>
+   <p>Trabalhe, ao usar o Balanceador de Carga de Trabalho de uma equipe ou projeto</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 

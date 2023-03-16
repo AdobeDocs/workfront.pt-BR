@@ -6,9 +6,9 @@ description: Como Gerenciador de Recursos, você pode atribuir trabalho aos usu�
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '2787'
+source-wordcount: '2785'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,8 @@ Você deve ter o seguinte:
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Planejar, ao usar o Balanceador de Carga de Trabalho para uma equipe ou na área Recursos </p>
-   <p>Trabalhe, ao usar o Balanceador de Carga de Trabalho de um projeto </p>
+   <td> <p>Planejar, ao usar o Balanceador de Carga de Trabalho na área Recursos</p>
+   <p>Trabalhe, ao usar o Balanceador de Carga de Trabalho de uma equipe ou projeto</p>
  </td> 
   </tr> 
   <tr> 

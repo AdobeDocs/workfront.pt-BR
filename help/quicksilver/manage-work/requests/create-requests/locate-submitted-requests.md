@@ -6,9 +6,9 @@ description: Saiba mais sobre as áreas do Adobe Workfront onde é possível loc
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '880'
 ht-degree: 1%
 
 ---
@@ -121,7 +121,11 @@ Para localizar solicitações que você ou outros usuários enviaram:
 
    Se um problema foi convertido em uma tarefa ou projeto e o problema foi excluído no processo de conversão, o painel Resumo fica em branco. Para obter informações sobre conversão de problemas, consulte [Visão geral da conversão de problemas no Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. No **Ícone Filtro** ![](assets/filter-nwepng.png) na parte superior direita da lista, selecione um dos seguintes filtros:
+1. No **Ícone Filtro** ![](assets/filter-nwepng.png) na parte superior direita da lista, selecione qualquer um dos filtros listados na tabela abaixo.
+
+   >[!TIP]
+   >
+   >Não é possível modificar filtros na área Solicitações. Além disso, não há opções para modificar ou alterar a exibição da área Solicitações.
 
    <table style="table-layout:auto"> 
     <col> 

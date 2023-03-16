@@ -6,9 +6,9 @@ description: Você pode atribuir itens de trabalho usando o Balanceador de Carga
 author: Alina
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: a1ffec0d8a50ff7f025ff23370afa746cf0d6d3f
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '901'
 ht-degree: 1%
 
 ---
@@ -35,8 +35,8 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Planejar, ao usar o Balanceador de Carga de Trabalho para uma equipe ou na área Recursos </p>
-   <p>Trabalhe, ao usar o Balanceador de Carga de Trabalho de um projeto </p>
+   <td> <p>Plano para atribuir trabalho no Balanceador de Carga de Trabalho na área Recursos</p>
+   <p>Trabalhe para atribuir trabalho no Balanceador de Carga de Trabalho de uma equipe ou projeto</p>
  </td> 
   </tr> 
   <tr> 

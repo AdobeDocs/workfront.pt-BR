@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '2475'
+source-wordcount: '2509'
 ht-degree: 1%
 
 ---
@@ -179,8 +179,15 @@ Configure qualquer uma das preferências a seguir para projetos recém-criados e
        <ul> 
         <li>Ter um status de [!UICONTROL Atual]</li> 
         <li>Tiveram uma atualização nos últimos 3 meses</li> 
-       </ul> </p> </li> 
-     <li> <p><strong>Quando o escopo de um projeto é alterado</strong>: Selecione essa opção para recalcular as linhas do tempo do projeto imediatamente, conforme ocorre uma alteração no escopo do projeto. Para obter informações sobre o que constitui uma alteração no escopo do projeto, consulte <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Recalcular linhas do tempo do projeto</a>.</p> </li> 
+        <li>Tiveram um Tipo de atualização de um dos seguintes:</li>
+        <ul>
+        <li>Automático e Mediante alteração</li>
+        <li>Somente mediante alteração</li>
+        <li>Somente automática</li> 
+      </ul>       
+    <b>DICA</b>
+    <p>Os projetos que têm um Tipo de Atualização Manual Somente não são afetados por essa configuração.</p>
+    <li> <p><strong>Quando o escopo de um projeto é alterado</strong>: Selecione essa opção para recalcular as linhas do tempo do projeto imediatamente, conforme ocorre uma alteração no escopo do projeto. Para obter informações sobre o que constitui uma alteração no escopo do projeto, consulte <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Recalcular linhas do tempo do projeto</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
