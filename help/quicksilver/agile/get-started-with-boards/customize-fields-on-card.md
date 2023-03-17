@@ -5,15 +5,17 @@ title: Personalizar quais campos são exibidos em um cartão
 description: Você pode personalizar quais campos são exibidos em um cartão desabilitando um campo para que ele não seja exibido no cartão completo ou na visualização condensada, ou ocultando um campo na visualização condensada do cartão.
 author: Lisa
 feature: Agile
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 88d0ce017401e7767ceeff9abc7a65986a07f0b9
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
 
 
 # Personalizar quais campos são exibidos em um cartão
+
+{{highlighted-preview}}
 
 >[!NOTE]
 >
@@ -25,6 +27,8 @@ Por padrão, todos os campos disponíveis são exibidos em um cartão, tanto na 
 * Ocultar um campo na visualização de cartão condensado
 
 Se um campo contiver um valor e você desativar o campo, o valor será retido se o campo for ativado novamente mais tarde.
+
+Também é possível exibir campos personalizados que foram criados anteriormente. Não é possível criar e criar novos campos personalizados dentro de um quadro.
 
 >[!NOTE]
 >
@@ -53,7 +57,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
 &#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
 
-## Configurar cartões
+## Configurar cartões {#configure-cards}
 
 1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront], depois clique em **[!UICONTROL Quadros]**.
 1. Acesse um quadro. Para obter mais informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
@@ -66,3 +70,26 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 1. Clique no ícone Ocultar ![Ícone Ocultar](assets/eye-hide-icon.png) ao lado de um campo para ocultá-lo na exibição condensada.
 1. Para exibir todos os campos em ambas as exibições, clique em [!UICONTROL **Restaurar todos os campos como padrão**].
 1. Clique em [!UICONTROL **Ocultar configuração**] para fechar o painel Configurar .
+
+<div class="preview">
+
+## Adicionar campos personalizados aos cartões
+
+>[!NOTE]
+>
+>Ao adicionar um campo personalizado aos cartões, os dados no cartão são somente leitura. Além disso, campos personalizados só estão disponíveis em cartões conectados.
+
+1. Acesse um quadro e clique em [!UICONTROL **Configurar**] para abrir o painel Configurar .
+1. Expandir [!UICONTROL **Cartões**].
+1. Em [!UICONTROL Campos de cartão], clique em [!UICONTROL **Adicionar campo personalizado**].
+1. Selecionar [!UICONTROL **Tarefa**] ou [!UICONTROL **Problema**].
+
+   As categorias de campos disponíveis para tarefas ou problemas são exibidas. Expanda uma categoria para ver todos os campos. Também é possível procurar um campo.
+
+   ![Procurar campo personalizado](assets/boards-search-for-custom-field.png)
+
+1. Selecione o nome do campo.
+
+   O campo personalizado é adicionado à lista de campos disponíveis e é ativado por padrão. Você pode desativar ou ocultar o campo personalizado seguindo as etapas da [Configurar cartões](customize-fields-on-card.md#configure-cards) ou exclua do quadro.
+
+</div>
