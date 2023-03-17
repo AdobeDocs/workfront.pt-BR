@@ -6,7 +6,7 @@ description: Para instalar o aplicativo antes que ele fique disponível na vari�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
+source-git-commit: 254ffae14b21dbef19b8f6b66a1c11e348c85c85
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 1%
@@ -71,11 +71,11 @@ Para instalar o aplicativo antes que ele esteja disponível:
 
 1. No ambiente de Produção, acesse
 
-   `https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002aUZY`
+   `https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002eRjb`
 
    No ambiente do Sandbox, acesse
 
-   `https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002aUZY`
+   `https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002eRjb`
 
 1. Verifique a **[!UICONTROL Sim, conceder acesso a esses sites de terceiros]** caixa.
 
