@@ -4,9 +4,9 @@ description: 23.2 Melhorias no ágil
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
+source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,27 @@ Observe que as coleções foram renomeadas para fluxos de trabalho. Fluxos de tr
 
 Para obter mais informações, consulte [Gerenciar fluxos de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Criar uma iteração](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)e [Usar a lista de cartões](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Os dois segundos artigos não estarão disponíveis em Principal até que eu publique minha ramificação.
 
-## Adicionar tarefas e problemas aos fluxos de trabalho do Placas a partir de listas e relatórios
+## Adicionar tarefas e problemas de listas e relatórios a uma lista de cartões de fluxo de trabalho
 
 Agora é possível adicionar tarefas ou problemas existentes a um fluxo de trabalho nos Workfront Boards diretamente de uma lista ou exibição de relatório. Todos os itens adicionados ao fluxo de trabalho são adicionados à lista de cartões como cartões não planejados.
+
+Para obter mais informações, consulte [Adicionar tarefas ou problemas existentes a um quadro](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+
+## Adicionar campos personalizados aos cartões em um quadro
+
+Agora é possível incluir campos personalizados nos Adobe Workfront Boards. O campo já deve ser criado no Workfront. Não é possível criar e criar novos campos personalizados dentro de um quadro.
+
+Como os campos padrão, você pode optar por exibir o campo personalizado na visualização completa de um cartão e na visualização condensada no quadro.
+
+Todos os dados do campo personalizado no cartão são somente leitura.
+
+Para obter mais informações, consulte [Personalizar quais campos são exibidos em um cartão](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+
+## Adicionar tarefas e problemas de listas e relatórios a um quadro do Workfront
+
+Agora é possível adicionar tarefas ou problemas existentes a um quadro do Workfront diretamente de uma lista ou exibição de relatório. Qualquer item adicionado ao quadro se tornará placas conectadas.
+
+Além disso, o campo Quadros agora está disponível para adicionar a listas e relatórios para tarefas ou problemas. Este campo exibe todos os quadros aos quais uma tarefa ou problema foi adicionado.
 
 Para obter mais informações, consulte [Adicionar tarefas ou problemas existentes a um quadro](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
@@ -48,13 +66,6 @@ Os campos de registro de tempo não são exibidos nos cartões conectados por pa
 
 Para obter mais informações, consulte [Usar placas conectadas em placas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-## Adicionar tarefas e problemas aos Workfront Boards a partir de listas e relatórios
-
-Agora é possível adicionar tarefas ou problemas existentes a um quadro do Workfront diretamente de uma lista ou exibição de relatório. Qualquer item adicionado ao quadro se tornará placas conectadas.
-
-Além disso, o campo Quadros agora está disponível para adicionar a listas e relatórios para tarefas ou problemas. Este campo exibe todos os quadros aos quais uma tarefa ou problema foi adicionado.
-
-Para obter mais informações, consulte [Adicionar tarefas ou problemas existentes a um quadro](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Personalizar exibição de campos em um cartão
 

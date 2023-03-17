@@ -4,9 +4,9 @@ description: Visão geral da versão 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
+source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2574'
 ht-degree: 0%
 
 ---
@@ -138,7 +138,7 @@ Em vez de um webinário de versão, convidamos você para se registrar no Adobe 
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adicionar tarefas e problemas aos fluxos de trabalho do Placas a partir de listas e relatórios</a><span style="color: #ff0000;"> Novo na Visualização!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adicionar tarefas e problemas de listas e relatórios a uma lista de cartões de fluxo de trabalho</a><span style="color: #ff0000;"> Novo na Visualização!</span></p>
                         <p>Agora é possível adicionar tarefas ou problemas existentes a um fluxo de trabalho nos Workfront Boards diretamente de uma lista ou exibição de relatório. Todos os itens adicionados ao fluxo de trabalho são adicionados à lista de cartões como cartões não planejados.</p>
                     </td>
                     <td><p><b>Disponível nestas datas:</b></p>
@@ -170,7 +170,7 @@ Em vez de um webinário de versão, convidamos você para se registrar no Adobe 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adicionar tarefas e problemas aos Workfront Boards a partir de listas e relatórios</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adicionar tarefas e problemas de listas e relatórios a um quadro do Workfront</a></p>
                         <p>Agora é possível adicionar tarefas ou problemas existentes a um quadro do Workfront diretamente de uma lista ou exibição de relatório. Qualquer item adicionado ao quadro se tornará placas conectadas.</p>
                     </td>
                     <td><p><b>Disponível nestas datas:</b></p>
