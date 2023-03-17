@@ -4,9 +4,9 @@ description: Visão geral da versão 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 03908f6ebb5693e48b36f93150267e9986dc1069
+source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
 workflow-type: tm+mt
-source-wordcount: '2299'
+source-wordcount: '2376'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Em vez de um webinário de versão, convidamos você para se registrar no Adobe 
 * [Melhorias ágeis](#agile-enhancements)
 * [Melhorias no gerenciamento de projetos](#project-management-enhancements)
 * [Melhorias no gerenciamento de recursos](#resource-management-enhancements)
-* [Aprimoramentos de relatórios e painéis]
+* [Aprimoramentos de relatórios e painéis](#reports-and-dashboards-enhancements)
 * [Aprimoramentos móveis](#mobile-enhancements)
 * [Outras melhorias](#other-enhancements)
 
@@ -377,8 +377,8 @@ Em vez de um webinário de versão, convidamos você para se registrar no Adobe 
             </tbody>
         </table>
 
-<!--
-### Reports and Dashboards enhancements
+
+### Aprimoramentos de relatórios e painéis
 
 
 <table>
@@ -387,34 +387,32 @@ Em vez de um webinário de versão, convidamos você para se registrar no Adobe 
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Feature</span>
+                        <p><span class="bold">Recurso</span>
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Release dates</span>
+                        <p><span class="bold">Datas de lançamento</span>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Canvas Dashboards</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>Canvas Dashboards has been added as a work-in-progress feature for Dashboards that can be enabled in layout templates. Canvas Dashboards will allow Reporting Canvas visualizations to be combined with existing reports in addition to new layout options. Currently only list reports are supported, but more options will be added as development continues.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Painéis de Tela</a><span style="color: #ff0000;"> Novo na Visualização!</span></p>
+                        <p>Painéis de Tela foi adicionado como um recurso em andamento para Painéis que pode ser ativado em modelos de layout. Painéis da tela permitirão que as visualizações da Tela de relatório sejam combinadas com relatórios existentes, além de novas opções de layout. Atualmente, somente os relatórios de lista são suportados, mas mais opções serão adicionadas enquanto o desenvolvimento continuar.</p>
                     </td>
-                    <td><p><b>Available on these dates: N/A</b></p>
+                    <td><p><b>Disponível nestas datas: N/D</b></p>
                         <ul>
                             <li>
-                                <p>Preview release:<br /></p>
+                                <p>Versão de visualização:<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release: With the 23.2 release</span></p>
+                                <p><span class="preview">Versão de produção: Com a versão 23.2</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
             </tbody>
         </table>
-
-        -->
 
 ### Aprimoramentos móveis
 
