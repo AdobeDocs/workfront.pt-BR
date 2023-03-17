@@ -4,9 +4,9 @@ description: Visão geral da versão 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
+source-git-commit: 77a4d3291882e0a5284971fa0bc054b8d81e6349
 workflow-type: tm+mt
-source-wordcount: '2376'
+source-wordcount: '2375'
 ht-degree: 0%
 
 ---
@@ -397,13 +397,13 @@ Em vez de um webinário de versão, convidamos você para se registrar no Adobe 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Painéis de Tela</a><span style="color: #ff0000;"> Novo na Visualização!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Painéis de Tela</a><span style="color: #ff0000;"> Em breve!</span></p>
                         <p>Painéis de Tela foi adicionado como um recurso em andamento para Painéis que pode ser ativado em modelos de layout. Painéis da tela permitirão que as visualizações da Tela de relatório sejam combinadas com relatórios existentes, além de novas opções de layout. Atualmente, somente os relatórios de lista são suportados, mas mais opções serão adicionadas enquanto o desenvolvimento continuar.</p>
                     </td>
-                    <td><p><b>Disponível nestas datas: N/D</b></p>
+                    <td><p><b>Disponível nestas datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão de visualização:<br /></p>
+                                <p>Versão de visualização:N/D<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Versão de produção: Com a versão 23.2</span></p>
