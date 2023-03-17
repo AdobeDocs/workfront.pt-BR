@@ -2,9 +2,9 @@
 user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 feature-set: Workfront
-source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
+source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
 workflow-type: tm+mt
-source-wordcount: '12763'
+source-wordcount: '12773'
 ht-degree: 1%
 
 ---
@@ -928,7 +928,10 @@ ht-degree: 1%
       * [Adicionar uma coluna de entrada a um quadro](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [Usar grupos em um quadro](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [Configurar fallout de cartão](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-      * [Gerenciar coleções](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+      * [Gerenciar fluxos de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+      * [Usar a lista de cartões](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
+      * [Criar uma iteração](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)
+      * [Revisar métricas de iteração](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
    * Kanban em uma equipe ágil {#kanban}
       * [Kanban em uma equipe ágil](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [Visão geral do Kanban](agile/use-kanban-in-an-agile-team/kanban-overview.md)

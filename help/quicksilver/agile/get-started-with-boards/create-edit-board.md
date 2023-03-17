@@ -6,10 +6,10 @@ description: No [!UICONTROL quadros] no painel, você pode criar um novo quadro 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 03feb17020cb5b8e1c595fd4d8ab683900e2fbfa
+source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 5%
+source-wordcount: '524'
+ht-degree: 4%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 No [!UICONTROL quadros] no painel, você pode criar um novo quadro ou editar um quadro existente.
 
-Para adicionar um quadro a uma coleção, consulte [Gerenciar coleções](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+Para adicionar um quadro a um fluxo de trabalho, consulte [Gerenciar fluxos de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Requisitos de acesso
 
@@ -43,11 +43,11 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 ## Criar um novo quadro
 
 1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront], depois clique em **[!UICONTROL Quadros]**.
-1. Para criar um quadro independente, clique em **[!UICONTROL Adicionar quadro]** no [!UICONTROL Quadros] área. Para adicionar um quadro a uma coleção, consulte [Gerenciar coleções](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+1. Para criar um quadro independente, clique em **[!UICONTROL Adicionar quadro]** no [!UICONTROL Quadros] área. Para adicionar um quadro a um fluxo de trabalho, consulte [Gerenciar fluxos de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
    >[!NOTE]
    >
-   > As coleções estão disponíveis somente por meio da opção de aceitação antecipada de recursos para [!DNL Workfront] [!UICONTROL Quadros].
+   >Os fluxos de trabalho estão disponíveis no ambiente de Visualização e em Produção por meio da opção inicial de aceitação de recursos para [!UICONTROL [!DNL Workfront] Quadros]. Para obter detalhes, consulte [Opt-in de recurso antecipado para placas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 1. Selecione um modelo para o quadro.
 
@@ -59,7 +59,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
    >[!NOTE]
    >
-   > Os modelos de placa estão disponíveis somente por meio da opção de aceitação antecipada de recursos para [!DNL Workfront] [!UICONTROL Quadros].
+   > Os modelos de placa estão disponíveis somente por meio da opção de aceitação antecipada de recursos para [!DNL Workfront] [!UICONTROL Quadros]. Caso contrário, você estará limitado à placa básica.
 
 1. Digite um nome para o quadro na **[!UICONTROL Placa]** e pressione Enter.
 1. Configure a placa conforme necessário.

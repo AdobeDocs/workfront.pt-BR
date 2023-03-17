@@ -7,18 +7,36 @@ description: À medida que você cria um quadro usando placas ad hoc e conectada
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 3b15ac31cc2f5f63d218e2f1efaccc250d17b00c
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
 
 # Visão geral das ferramentas de planejamento ágil
 
-À medida que você cria um quadro usando cartões ad hoc e conectados, pode aproveitar as ferramentas adicionais de planejamento ágil, incluindo limites de coluna WIP, agrupamento de cartões em faixas, uma coluna de entrada que pode ser usada para backlog e coleções de quadros.
+{{highlighted-preview}}
 
-Você pode usar qualquer uma ou todas essas ferramentas de uma maneira que funcione para você e sua equipe, sem se comprometer com uma metodologia ágil específica, como Kanban ou Scrum.
+À medida que você cria um quadro usando cartões ad hoc e conectados, pode aproveitar as vantagens das ferramentas adicionais de planejamento ágil.
+
+Ferramentas úteis para Kanban incluem:
+
+* Limites WIP em colunas
+* Agrupamento de cartões em pingos
+* Uma coluna de entrada que pode ser usada para um backlog
+
+<div class="preview">
+
+As ferramentas úteis para a Soma incluem:
+
+* Fluxos de trabalho e quadros de iteração
+* Lista de cartões ou registro retroativo
+* Métricas de iteração
+
+</div>
+
+Você pode usar qualquer uma ou todas essas ferramentas de uma maneira que funcione para você e sua equipe, sem se comprometer com uma metodologia ágil específica.
 
 Esta seção contém os seguintes artigos:
 
@@ -26,4 +44,7 @@ Esta seção contém os seguintes artigos:
 * [Adicionar uma coluna de entrada a um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 * [Usar grupos em um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
 * [Configurar fallout de cartão](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-* [Gerenciar coleções](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+* [Gerenciar fluxos de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+* [Usar a lista de cartões](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
+* [Criar uma iteração](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)
+* [Revisar métricas de iteração](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)

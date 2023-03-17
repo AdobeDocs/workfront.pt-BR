@@ -6,20 +6,21 @@ title: Excluir ou arquivar um quadro
 description: Você pode excluir ou arquivar um quadro no Workfront. A exclusão de um quadro o remove permanentemente do Workfront, enquanto o arquivamento de um quadro retém todos os cartões e permite que ele seja restaurado posteriormente.
 author: Lisa
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 463585bb3368b0061957c42516f790ed085711d2
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '378'
 ht-degree: 1%
 
 ---
 
 # Excluir ou arquivar um quadro
 
-Você pode excluir ou arquivar um quadro em [!DNL Workfront]. Excluir um quadro o remove permanentemente [!DNL Workfront], enquanto o arquivamento de um quadro retém todas as placas e permite que ele seja restaurado posteriormente. Essas opções se aplicam a quadros independentes e a quadros que fazem parte de coleções.
+Você pode excluir ou arquivar um quadro em [!DNL Workfront]. Excluir um quadro o remove permanentemente [!DNL Workfront], enquanto o arquivamento de um quadro retém todas as placas e permite que ele seja restaurado posteriormente. Essas opções se aplicam a quadros independentes e a quadros que fazem parte de fluxos de trabalho.
 
 >[!NOTE]
 >
->As coleções estão disponíveis somente por meio da opção de aceitação antecipada de recursos para os Workfront Boards.
+>A versão anterior dos fluxos de trabalho, chamada de coleções, está disponível somente por meio da opção de aceitação antecipada de recursos para [!UICONTROL [!DNL Workfront] Quadros]. Para obter detalhes, consulte [Opt-in de recurso antecipado para placas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+>Os fluxos de trabalho estão disponíveis para todos no ambiente de Visualização.
 
 ## Requisitos de acesso
 

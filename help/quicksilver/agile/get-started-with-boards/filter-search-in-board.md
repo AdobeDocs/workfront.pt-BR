@@ -6,7 +6,7 @@ description: Você pode filtrar um quadro para exibir somente determinados cart�
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
+source-git-commit: 4f59548cc539adced6af6795517dd7d7c0965e6d
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%
@@ -115,4 +115,4 @@ Por padrão, somente os cartões ativos são exibidos em um quadro. Você pode f
 
    Clique no X para limpar a pesquisa.
 
-   ![[!UICONTROL Pesquisar por cartões em um quadro]](assets/boards-searchbox.png)
+   ![Pesquisar por cartões em um quadro](assets/boards-searchbox.png)
