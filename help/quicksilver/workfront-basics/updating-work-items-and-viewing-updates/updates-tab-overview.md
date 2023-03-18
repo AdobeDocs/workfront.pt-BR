@@ -2,27 +2,56 @@
 content-type: overview
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Visão geral da guia Atualizações
-description: A guia Atualizações mostra até 200 das atualizações mais recentes feitas nos últimos 90 dias.
+title: Visão geral da seção Atualizações
+description: A seção Atualizações mostra até 200 das atualizações mais recentes feitas nos últimos 90 dias.
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 19872953e847921c0fee6d383026641c05012ead
+source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 7%
+source-wordcount: '592'
+ht-degree: 6%
 
 ---
 
-# Visão geral da guia Atualizações
+# Visão geral da seção Atualizações
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
+<!--take "Beta" references out when we remove the beta-->
 
-<!-- for preview commenting beta: at the release of commenting beta: change the title to: Updates section overview - also update ALL articles from which this is linked-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
-A guia Atualizações mostra até 200 das atualizações mais recentes feitas nos últimos 90 dias.
+>[!NOTE]
+>
+>We are currently redesigning the Updates section of an object. You can access the new design by enabling the commenting Beta. 
+Currently, the Beta is available for <span class="preview">issues</span>. 
+For more information about the new commenting  experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
 
-Você pode fazer comentários e responder a atualizações nos seguintes objetos:
+-->
+
+A seção Atualizações de um objeto exibe os comentários que os usuários fazem sobre as atualizações de objeto ou sistema que rastreiam as alterações no objeto.
+
+## Visão geral da seção Atualizações
+
+<!--drafted for the commenting beta for issues: 
+The information is organized differently in the Updates section, depending on which environment you access it from. 
+
+###  Overview of the current Updates section 
+-->
+
+A seção Atualizações de um objeto exibe até 200 das atualizações mais recentes feitas nos últimos 90 dias.
+
+<!--drafted for the commenting beta for issues: 
+The current Updates section shows the following information:
+
+************** AND REMOVE THE SENTENCE BELOW WHEN MAKING THIS LIVE:
+-->
+
+A seção Atualizações mostra as seguintes informações:
+
+* Comentários feitos pelos usuários e respostas a esses comentários.
+* Atualizações do sistema que são mensagens informativas criadas pelo Workfront para registrar determinados eventos em um objeto. Por exemplo, você pode capturar alterações em campos de status, nome ou personalizados com atualizações do sistema. Seu Workfront ou administrador de grupo pode ativar atualizações do sistema para seus objetos. Para obter mais informações, consulte [Configurar atualizações do sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+A seção Atualizações é exibida para os seguintes objetos:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,11 +81,43 @@ Você pode fazer comentários e responder a atualizações nos seguintes objetos
  </tbody> 
 </table>
 
+<!--drafted for the commenting beta for issues: 
+###  Overview of the Updates section in the Beta commenting experience
+
+The Updates section displays information in the following tabs in the Beta commenting experience: 
+
+* **Updates**: Displays comments made by users and replies to those comments. 
+* **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your ojects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+Currenlty, you can make comments and reply to updates using the Beta commenting experience on the following objects:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li>Goals</li> 
+     </ul> </td> 
+   <td> 
+    <ul> 
+     <li><span class="preview">Issues</span></li> 
+     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>The commenting experience Beta is the default current experience for goals. You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
+
 ## Atualizações que também aparecem em objetos de classificação superior
 
-Como mostrado na tabela a seguir, as respostas às atualizações em determinados objetos também aparecem na guia Atualizações de objetos classificados mais alto.
+Como mostrado na tabela a seguir, as respostas feitas às atualizações em determinados objetos também aparecem na seção Atualizações de objetos classificados mais alto.
 
-Por exemplo, quando você adiciona uma atualização a uma tarefa, a atualização aparece na guia Updates da tarefa e na guia Updates do projeto que contém a tarefa.
+Por exemplo, quando você adiciona uma atualização a uma tarefa, a atualização aparece na seção Atualizações da tarefa e na seção Atualizações do projeto que contém a tarefa.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -125,18 +186,18 @@ Por exemplo, quando você adiciona uma atualização a uma tarefa, a atualizaç�
 <!-- drafted for the new commenting experience for issues in beta: Add this paragraph to the note above: 
 ><span class="preview"> It is not possible to reply to system updates in the new commenting experience Beta. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span> -->
 
-## Limitações da guia Atualizações
+## Limitações da seção de atualizações
 
 ### Limitações para usuários e equipes
 
-Não é possível fazer atualizações em equipes. A guia Atualizações para equipes é preenchida por atualizações inseridas nos seguintes objetos:
+Não é possível fazer atualizações em equipes. A seção Atualizações para equipes é preenchida por atualizações inseridas nos seguintes objetos:
 
 * Usuários
 * Folhas de horas
 * Histórias
 * Iterações
 
-Na guia Atualizações de usuários e equipes, é possível visualizar as atualizações inseridas nos últimos 90 dias.
+Na seção Atualizações de usuários e equipes, é possível visualizar as atualizações inseridas nos últimos 90 dias.
 
 Se quiser ver todas as atualizações feitas em um usuário ou equipe, além do limite de 90 dias, crie um relatório para observações. O relatório não deve ter um filtro de tempo que exiba todas as atualizações feitas para usuários ou equipes. Para obter mais informações, consulte [Criar um relatório personalizado](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

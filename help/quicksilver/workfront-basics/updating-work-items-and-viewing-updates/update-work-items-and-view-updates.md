@@ -3,22 +3,24 @@ content-type: reference
 product-area: projects
 navigation-topic: get-started-with-workfront
 title: Atualizar itens de trabalho e visualizar atualizações
-description: Consulte estes artigos para saber como trabalhar com atualizações no Adobe Workfront.
+description: Você pode usar a seção Atualizações da maioria dos objetos para adicionar comentários, respostas ou para seguir atualizações rastreadas pelo sistema sobre alterações que ocorrem no objeto.
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: a4bd798e3d6c6f5d7e55a8b0f5b5269a3dbf83e4
+source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
 
 # Atualizar itens de trabalho e visualizar atualizações
 
+Você pode usar a seção Atualizações da maioria dos objetos para adicionar comentários, respostas ou para seguir atualizações rastreadas pelo sistema sobre alterações que ocorrem no objeto.
+
 Esta seção contém os seguintes artigos:
 
-* [Visão geral da guia Atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+* [Visão geral da seção Atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
 * [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
 * [Limites de caracteres em campos](../../workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
 * [Responder atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
