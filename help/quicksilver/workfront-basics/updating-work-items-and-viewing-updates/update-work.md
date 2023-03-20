@@ -6,7 +6,7 @@ description: É possível adicionar uma atualização em um objeto do Adobe Work
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 661688a5217589da47b8c7a0b043c8292fb346db
 workflow-type: tm+mt
 source-wordcount: '2674'
 ht-degree: 1%
@@ -218,15 +218,16 @@ O
       ![](assets/real-time-new-red-indicator-unified-commenting.png)-->
 
 1. Clique em **Enviar** para adicionar a atualização ao objeto do Workfront.
-1. (Opcional) Para editar um comentário, clique no botão **Mais** menu ![](assets/more-menu.png) à direita do ícone Curtir e, em seguida, clique em **Editar**.
-1. Edite as informações no comentário ou remova qualquer um dos usuários marcados.
-É possível editar seu comentário em 15 após enviá-lo. Um indicador &quot;Editado&quot; é adicionado à esquerda do carimbo de data que é exibido quando o comentário é atualizado.
+1. <span class="preview">(Opcional) Para editar um comentário, clique no botão **Mais** menu ![](assets/more-menu.png) à direita do ícone Curtir e, em seguida, clique em **Editar**.</span>
+1. <span class="preview">Edite as informações no comentário ou remova qualquer um dos usuários marcados. </span>
+
+   <span class="preview">É possível editar seu comentário em 15 após enviá-lo. Um indicador &quot;Editado&quot; é adicionado à esquerda do carimbo de data que é exibido quando o comentário é atualizado. </span>
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   Um email é gerado para notificar os usuários sobre sua atualização somente quando você envia a atualização original. Nenhum email é gerado após você ter editado sua atualização.
+   >   <span class="preview">Um email é gerado para notificar os usuários sobre sua atualização somente quando você envia a atualização original. Nenhum email é gerado após você ter editado sua atualização.</span>
 1. (Opcional) Clique em **Responder** para responder a um comentário existente, siga as etapas 4 a 7 acima. <!--(**************insure this stays accurate***********)-->. Para obter informações sobre como responder a uma atualização, consulte [Responder atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Opcional) Clique no botão **Like** ícone![](assets/like-icon.png). O ícone é atualizado com o número de curtidas.
 1. (Condicional e Opcional) Se você incluiu pessoas adicionais em seu comentário, clique no número de membros incluídos na atualização para exibir uma lista de entidades com as quais o comentário inserido foi compartilhado.
