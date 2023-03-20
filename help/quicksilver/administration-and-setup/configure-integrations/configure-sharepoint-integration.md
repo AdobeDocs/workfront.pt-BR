@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 1290b29ce816673ffc678a1991aea16f0cf5e83f
+source-git-commit: 8799c4e3a1e14c286b0a19e80e483370aea64bb8
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,7 @@ Esse acesso é concedido pelo usuário na primeira vez que ele usa a integraçã
 
 Considere o seguinte em relação ao acesso a [!DNL SharePoint] através da [!DNL Workfront] [!DNL SharePoint] integração:
 
+* As permissões solicitadas para essa integração são **delegado** permissões.
 * [!DNL Workfront] solicita o acesso mínimo necessário para executar operações na integração.
 * Acesso para exibir, editar ou excluir um [!DNL Adobe Workfront] documento vinculado a [!DNL SharePoint] é baseado no acesso do usuário no [!DNL Workfront]. No entanto, qualquer navegação, download ou edição de um [!DNL SharePoint] arquivo ou pasta requer acesso a [!DNL SharePoint]e o acesso a essas ações é controlado por [!DNL SharePoint].
 * Os usuários podem visualizar miniaturas e visualizar imagens provenientes de [!DNL SharePoint]e pode ver os nomes de arquivo e pasta em [!DNL SharePoint], sem fazer logon em [!DNL SharePoint].
