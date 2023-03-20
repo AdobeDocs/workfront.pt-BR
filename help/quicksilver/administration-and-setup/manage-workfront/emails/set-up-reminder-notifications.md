@@ -1,13 +1,13 @@
 ---
 title: Configurar notificações de lembrete
 description: Configurar notificações de lembrete
-author: Lisa, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1146'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,15 @@ Para obter informações sobre como criar um modelo de email, consulte [Configur
      </tr> 
      <tr> 
       <td role="rowheader">Intervalo</td> 
-      <td> <p>Selecione o evento que aciona a notificação de lembrete a ser agendada.</p> <p>Se a notificação de lembrete for destinada a projetos, tarefas ou problemas, as opções disponíveis estarão relacionadas à Data de conclusão ou Data inicial. A notificação de lembrete leva em conta o carimbo de data e hora de conclusão e de início de projetos, tarefas e problemas.</p> <p>Se a notificação de lembrete for destinada às Folhas de horas, as opções disponíveis estarão relacionadas à Data final, Data inicial ou Data da última atualização. A notificação de lembrete para Folhas de Horas leva em consideração o carimbo de data e hora do Fim da Folha de Horas, Início e Data da Última Atualização. A Folha de Horas começa à meia-noite no dia da Data de Início (12:00 AM) e termina logo antes da meia-noite na Data de Término (11:59 PM).</p> </td> 
+      <td> <p>Selecione o evento que aciona a notificação de lembrete a ser agendada.</p> <p>Se a notificação de lembrete for destinada a projetos, tarefas ou problemas, as opções disponíveis estarão relacionadas à Data de conclusão ou Data inicial. A notificação de lembrete leva em conta o carimbo de data e hora de conclusão e de início de projetos, tarefas e problemas.</p>
+
+   <p>Se a notificação de lembrete for destinada às Folhas de horas, as opções disponíveis estarão relacionadas à Data final, Data inicial ou Data da última atualização. A notificação de lembrete para Folhas de Horas leva em consideração o carimbo de data e hora do Fim da Folha de Horas, Início e Data da Última Atualização. A Folha de Horas começa à meia-noite no dia da Data de Início (12:00 AM) e termina logo antes da meia-noite na Data de Término (11:59 PM).</p>
+
+   <p><b>Nota</b></p>
+      <p>As notificações de lembrete da folha de horas são distribuídas apenas uma vez a cada 24 horas.</p> <p>Ao configurar várias notificações de lembrete em um período de 24 horas, o Workfront envia um email de notificação com todos os lembretes incluídos nessa notificação.</p>
+      <p>Por exemplo, se você configurar três notificações de lembrete para serem acionadas 10 horas antes, 2 horas antes e 1 hora antes de uma data de vencimento, os três lembretes serão combinados na mesma notificação se ocorrerem durante o mesmo dia.</p> <p>No entanto, se você definir uma notificação de lembrete para 26 horas antes e outra para 1 hora antes de uma data de vencimento, os usuários receberão duas notificações separadas. </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Critério</td> 

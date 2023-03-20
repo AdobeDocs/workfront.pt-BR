@@ -6,9 +6,9 @@ description: É possível adicionar uma atualização em um objeto do Adobe Work
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '2690'
+source-wordcount: '2674'
 ht-degree: 1%
 
 ---
@@ -21,13 +21,24 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->No momento, estamos reprojetando a maneira como você atualiza o trabalho ao usar a seção Atualizações de um objeto.
->
->Você pode acessar o novo design ativando o comentário Beta.
->
->Atualmente, o Beta está disponível para <span class="preview">problemas</span>.
->
+>No momento, estamos reprojetando a experiência de comentários no Adobe Workfront.
 >Para obter mais informações sobre a nova experiência de atualização, consulte [Nova experiência de comentário](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>
+>Você pode acessar o novo design para os seguintes objetos:
+> * <span class="preview">Problemas ao ativar o comentário Beta. </span>
+   >
+   >     <span class="preview">Essa funcionalidade está disponível somente para a seção Atualizações de problemas e não está disponível para as seguintes áreas:</span>
+   >
+   >     * <span class="preview">Página inicial</span>
+   >     * <span class="preview">Painel Resumo em listas</span>
+   >     * <span class="preview">Painel Resumo nas folhas de horas</span>
+>
+> * Metas
+   >   A nova experiência de comentário é o padrão para metas. Você deve ter uma licença adicional para acessar as Metas da Workfront. Para obter mais informações, consulte [Requisitos para usar as metas da Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+   >
+   >    Para obter informações sobre comentários sobre metas, consulte [Gerenciar comentários da meta nas Metas da Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 Você pode adicionar comentários à maioria dos objetos no Adobe Workfront na seção Atualizações . Para obter mais informações sobre quais objetos exibem a seção Atualizações , consulte [Visão geral da seção Atualizações](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -173,26 +184,6 @@ A adição de uma atualização a um item de trabalho é diferente, dependendo d
 1. Para responder a uma atualização, consulte [Responder atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 ### Adicionar uma atualização a um item de trabalho usando os comentários da experiência Beta
-
-
->[!NOTE]
->
->A funcionalidade descrita nesta seção está disponível para os seguintes objetos:
->
->* <span class="preview">Problemas, ao ativar a experiência de comentário Beta.</span>
-   >
-   >   <span class="preview">Essa funcionalidade está disponível somente para a seção Atualizações de problemas e não está disponível para as seguintes áreas:</span>
-   >
-   >   * <span class="preview">Página inicial</span>
-   >   * <span class="preview">Painel Resumo em listas</span>
-   >   * <span class="preview">Painel Resumo nas folhas de horas</span>
->* Metas
-
-   >
-   >   A nova experiência de comentário é a experiência atual padrão para metas.
-   >   Você deve ter uma licença adicional para acessar as Metas da Workfront. Para obter mais informações, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-
 
 1. Localize o objeto que deseja atualizar e clique em seu nome para abrir a página do objeto.
 1. Clique em  **Atualizações** no painel esquerdo.

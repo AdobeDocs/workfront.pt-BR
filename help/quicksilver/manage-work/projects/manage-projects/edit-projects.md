@@ -6,9 +6,9 @@ description: Você pode editar um projeto no Adobe Workfront sempre que necessá
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '7666'
+source-wordcount: '7705'
 ht-degree: 2%
 
 ---
@@ -270,7 +270,15 @@ Algumas configurações mencionadas neste artigo podem ser modificadas a partir 
        <ul> 
        <li> <p><span>Quando o projeto é criado a partir da área Projetos, o Grupo inicial do criador do projeto é associado ao projeto.</span> </p> <p>Isso também ocorre quando o projeto é criado na seção Projetos em um portfólio ou programa.</p> </li> 
        <li> <p>Quando o projeto é criado a partir da página principal de um grupo na área Configuração, esse grupo é associado ao projeto.</p> </li> 
-       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>Se o projeto, ou suas tarefas ou problemas já estiverem associados a um processo de aprovação em nível de grupo usando status personalizados em nível de grupo, alterar o grupo pode criar um conflito entre os status de aprovação do grupo anterior e aqueles existentes no nível do sistema. Considere remover os processos de aprovação em nível de grupo no projeto, ou suas tarefas ou problemas antes de atualizar o grupo. Para obter informações sobre como criar processos de aprovação em nível de grupo, consulte <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Processos de aprovação no nível do grupo</a>. Para obter informações sobre como criar um status personalizado em nível de grupo, consulte <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Criar ou editar um status de grupo</a></p> </td> 
+       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
+       <p><b>NOTAS</b></p>
+
+   <ul>
+      <li><p>Se o projeto, ou suas tarefas ou problemas estiverem associados a um Status personalizado em nível de grupo, alterar o Grupo do projeto pode fazer com que o Status do projeto, das tarefas ou dos problemas sejam alterados para corresponder ao novo grupo.</p></li>
+      <li><p>Se o projeto, ou suas tarefas ou problemas já estiverem associados a um processo de aprovação em nível de grupo usando status personalizados em nível de grupo, alterar o grupo pode criar um conflito entre os status de aprovação do grupo anterior e aqueles existentes no nível do sistema.</p>
+      <p>Considere remover os processos de aprovação em nível de grupo no projeto, ou suas tarefas ou problemas antes de atualizar o grupo.</p>
+      <p>Para obter informações sobre como criar processos de aprovação em nível de grupo, consulte <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Processos de aprovação no nível do grupo</a>.</p>
+      <p>Para obter informações sobre como criar um status personalizado em nível de grupo, consulte <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Criar ou editar um status de grupo</a></p></li></ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Empresa</strong> </td> 

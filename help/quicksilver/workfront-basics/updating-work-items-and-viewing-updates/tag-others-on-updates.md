@@ -6,9 +6,9 @@ description: Ao fornecer comentários de atualização em um objeto do Adobe Wor
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: ba1d8d5a23da7e252e8c182a6bdb1cdd1e304eab
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '1370'
 ht-degree: 0%
 
 ---
@@ -17,22 +17,31 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!-- Drafted for commenting experience: 
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Está disponível somente no ambiente de Visualização.
 
 >[!NOTE]
 >
->We are currently redesigning the commenting experience in Adobe Workfront.
->For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
+>No momento, estamos reprojetando a experiência de comentários no Adobe Workfront.
+>Para obter mais informações sobre a nova experiência de atualização, consulte [Nova experiência de comentário](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->You can access the new design for the following objects:
-> * <span class="preview">Issues, when enabling the commenting Beta. </span>
-> * Goals
->   The new commenting experience is the default for goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+>Você pode acessar o novo design para os seguintes objetos:
+> * <span class="preview">Problemas ao ativar o comentário Beta. </span>
+   >
+   >     <span class="preview">Essa funcionalidade está disponível somente para a seção Atualizações de problemas e não está disponível para as seguintes áreas:</span>
+   >
+   >     * <span class="preview">Página inicial</span>
+   >     * <span class="preview">Painel Resumo em listas</span>
+   >     * <span class="preview">Painel Resumo nas folhas de horas</span>
+>
+> * Metas
+   >   A nova experiência de comentário é o padrão para metas. Você deve ter uma licença adicional para acessar as Metas da Workfront. Para obter mais informações, consulte [Requisitos para usar as metas da Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
--->
+   >
+   >    Para obter informações sobre comentários sobre metas, consulte [Gerenciar comentários da meta nas Metas da Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+
+
+
 É possível marcar usuários ao fazer uma atualização em um objeto, caso deseje chamar a atenção para um objeto que, de outra forma, eles talvez não sigam.
 Em vez de incluir esses usuários no objeto, atribuindo-os a ele ou fazendo com que eles se inscrevam nele, você pode marcá-los na atualização para compartilhá-los com eles. Os usuários marcados receberão uma notificação sobre a atualização inserida.
 
@@ -85,11 +94,9 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
 ## Marcar outras pessoas em atualizações
 
-<!--
-Tagging others in an update differs depending on which experience and which object you select.
+A marcação de outras pessoas em uma atualização varia de acordo com a experiência e o objeto selecionado.
 
-### Tag others on updates in the current Updates section
--->
+### Marque outras pessoas em atualizações na seção Atualizações atuais
 
 1. Comece a atualizar um item de trabalho, conforme descrito em [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. No **Notificar** , comece a digitar o nome do usuário ou da equipe que deseja incluir e clique no nome quando ele for exibido na lista suspensa.
@@ -125,47 +132,43 @@ Tagging others in an update differs depending on which experience and which obje
 
    Para obter informações sobre a funcionalidade adicional que está disponível ao atualizar um item de trabalho, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-<!--
 <div class="preview">
 
-### Tag others on updates in the commenting Beta experience
+### Marque outras em atualizações na experiência de comentário Beta
 
-1. Begin updating a work item, as described in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. In the **Tag people or teams** field, begin typing the name of the user or team you want to include, then click the name when it appears in the drop-down list.
+1. Comece a atualizar um item de trabalho, conforme descrito em [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. No **Marcar pessoas ou equipes** , comece a digitar o nome do usuário ou da equipe que deseja incluir e clique no nome quando ele for exibido na lista suspensa.
 
-   <!- ********************* this doesn't seem to work in Beta - keep drafted for now: 
-   Or
+   Ou
 
-   Type the @ symbol in the **Start a new update** area, begin typing the name of the user or team you want to include on the update, then click the name when it appears in the drop-down list. ************close draft
+   Digite o símbolo @ no **Escreva um comentário** , comece a digitar o nome do usuário ou da equipe que deseja incluir na atualização e clique no nome quando ele for exibido na lista suspensa.
 
    >[!TIP]
    >
-   >To identify the correct user when there are users with similar or identical names, notice the avatar, the user's Primary Role, or their email address. Users must be associated with at least one job role to view it as you tag them in an update.
+   >Para identificar o usuário correto quando há usuários com nomes semelhantes ou idênticos, observe o avatar, a função primária do usuário ou seu endereço de email. Os usuários devem estar associados a pelo menos uma função de trabalho para exibi-la à medida que você os marcar em uma atualização.
 
    ![](assets/tag-others-unified-commenting.png)
 
-      <!-******************* this might not be there for issues yet - keep drafted if not: 
-      1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company.
-
-         >[!NOTE]
-         >
-         >* This option displays only when the user is associated with a Company.
-         >* Tagged users outside the company could still receive an in-app notification or email, even though they will not see the private comments on the Updates tab. We recommend not to tag external users on an update if you do not want to share the information with them. - ************close draft 
-      
-1. (Optional) To add multiple users and teams, repeat step 2.
+1. (Opcional) Para tornar a atualização privada, habilite **Privado da minha empresa** no canto inferior direito da caixa de atualização. Isso torna a atualização visível apenas para os usuários em sua empresa.
 
    >[!NOTE]
    >
-   >All users and team members listed in the "Tag people or teams" field receive an in-app notification for the update and might receive an email, depending on the configuration of their email notification settings. Users who tag themselves in a comment or reply receive a notification for that comment or reply and can see their name in listed as a member of the thread for the remainder of the thread, but they do not receive another notification unless they tag themselves again. For more information, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) and [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   >* Essa opção é exibida somente quando o usuário está associado a uma Empresa.
+   >* Os usuários marcados fora da empresa ainda podem receber uma notificação no aplicativo ou email, mesmo que não vejam os comentários privados na guia Atualizações . Recomendamos não adicionar tags a usuários externos em uma atualização se você não quiser compartilhar as informações com eles.
 
-1. Click **Submit**.  
-   Users included in the update are automatically granted View permission to the object and can view and respond to updates made to the object.
 
-   You can see who has been tagged in each reply under the text of the update, in the Members area. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object.
-1. (Optional) Cick the number of members included in the update to display a list of entities that the update you entered is shared with. 
+1. (Opcional) Para adicionar vários usuários e equipes, repita a etapa 2. <!--insure this stays accurate-->
+
+   >[!NOTE]
+   >
+   >Todos os usuários e membros da equipe listados no campo &quot;Pessoas ou equipes de tags&quot; recebem uma notificação no aplicativo para a atualização e podem receber um email, dependendo da configuração de suas configurações de notificação por email. Os usuários que marcam a si mesmos em um comentário ou resposta recebem uma notificação para esse comentário ou resposta e podem ver seu nome em listado como um membro do encadeamento para o restante do encadeamento, mas não recebem outra notificação, a menos que sejam marcadas novamente. Para obter mais informações, consulte [Ativar ou desativar suas próprias notificações de evento](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) e [Configurar notificações de evento para todos no sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+
+1. Clique em **Enviar**.\
+   Os usuários incluídos na atualização recebem automaticamente permissão de Exibição para o objeto e podem visualizar e responder atualizações feitas no objeto.
+
+   Você pode ver quem foi marcado em cada resposta sob o texto da atualização, na área Membros . Esses usuários, juntamente com qualquer usuário inscrito no objeto, recebem uma notificação sempre que uma atualização ou resposta for feita no objeto.
+1. (Opcional) Clique no número de **Membros** incluído na atualização para exibir uma lista de entidades com as quais a atualização inserida é compartilhada.
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
-   For information about the additional functionality that is available when updating a work item, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
--->
+   Para obter informações sobre a funcionalidade adicional que está disponível ao atualizar um item de trabalho, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

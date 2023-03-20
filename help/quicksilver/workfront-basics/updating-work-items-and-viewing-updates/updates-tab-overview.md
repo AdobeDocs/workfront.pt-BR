@@ -7,9 +7,9 @@ description: A seção Atualizações de um objeto exibe os comentários que os 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '928'
 ht-degree: 4%
 
 ---
@@ -22,11 +22,30 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->No momento, estamos reprojetando a seção Atualizações de um objeto. Você pode acessar o novo design ativando o comentário Beta.
+>No momento, estamos reprojetando a seção Atualizações de um objeto.
 >
->Atualmente, o Beta está disponível para <span class="preview">problemas</span>.
+>Para obter mais informações sobre a nova experiência de atualização, consulte [Nova experiência de comentário](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->Para obter mais informações sobre a nova experiência de comentário, consulte [Nova experiência de comentário](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>Você pode acessar o novo design nos seguintes objetos e ambientes:
+>
+>* <span class="preview">Ao ativar a experiência de comentário Beta para os seguintes objetos:</span>
+   >
+   >     * <span class="preview">Problemas</span>
+
+   >     
+   >     <span class="preview">Essa funcionalidade está disponível somente para a seção Atualizações de problemas e não está disponível para as seguintes áreas:</span>
+   >
+   >     * <span class="preview">Página inicial</span>
+   >     * <span class="preview">Painel Resumo em listas</span>
+   >     * <span class="preview">Painel Resumo nas folhas de horas</span>
+>
+>* Por padrão, como a experiência atual de comentário para os seguintes objetos:
+   >
+   >     * Metas
+
+   >
+   >     Você deve ter uma licença adicional para acessar as Metas da Workfront. Para obter mais informações, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). Para obter informações sobre comentários sobre metas, consulte [Gerenciar comentários da meta nas Metas da Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 A seção Atualizações de um objeto exibe os comentários que os usuários fazem sobre as atualizações de objeto ou sistema que rastreiam as alterações no objeto.
 
@@ -79,9 +98,9 @@ A seção Atualizações é exibida para os seguintes objetos:
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-A seção Atualizações exibe informações nas seguintes guias da experiência de comentário Beta:
+A seção Atualizações exibe informações nas seguintes guias da nova experiência de comentário:
 
-* **Atualizações**: Exibe comentários feitos por usuários e respostas a esses comentários. Para obter informações sobre como atualizar objetos na nova experiência de comentários, consulte [Atualizar trabalho](../updating-work-items-and-viewing-updates/update-work.md).
+* **Comentários**: Exibe comentários feitos por usuários e respostas a esses comentários. Para obter informações sobre como atualizar objetos na nova experiência de comentários, consulte [Atualizar trabalho](../updating-work-items-and-viewing-updates/update-work.md).
 * **Atividade do sistema**: Exibe atualizações do sistema que são mensagens informativas criadas pelo Workfront para registrar determinados eventos em um objeto. Por exemplo, você pode capturar alterações em campos de status, nome ou personalizados com atualizações do sistema. Seu Workfront ou administrador de grupo pode ativar atualizações do sistema para seus objetos. Para obter mais informações, consulte [Configurar atualizações do sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 No momento, é possível fazer comentários e responder atualizações usando a experiência de Comentários beta nos seguintes objetos:
@@ -102,14 +121,6 @@ No momento, é possível fazer comentários e responder atualizações usando a 
   </tr> 
  </tbody> 
 </table>
-
->[!NOTE]
->
->A experiência Beta de comentário é a experiência atual padrão para metas. Você deve ter uma licença adicional para acessar as Metas da Workfront.
->
->Para obter mais informações, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
->
->Para obter informações sobre comentários sobre metas, consulte [Gerenciar comentários da meta nas Metas da Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 ## Atualizações que também aparecem em objetos de classificação superior
 
