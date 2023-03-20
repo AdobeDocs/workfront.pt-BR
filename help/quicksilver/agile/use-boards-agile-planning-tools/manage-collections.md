@@ -6,10 +6,10 @@ title: Gerenciar fluxos de trabalho
 description: Um fluxo de trabalho é um grupo configurável de quadros e cartões para colaborar no trabalho.
 author: Lisa
 feature: Agile
-source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 2%
+source-wordcount: '868'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 Um fluxo de trabalho é um grupo configurável de quadros e cartões para colaborar no trabalho. Fluxos de trabalho podem incluir diferentes tipos de quadros criados a partir de modelos, <span class="preview">e uma lista de cartões de itens de trabalho. Em uma sequência de trabalho, você pode rastrear o trabalho em iterações ou impressões.</span>
 
-<span class="preview">Para obter mais informações, consulte [Usar a lista de cartões](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) e [Criar uma iteração](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).</span>
+<span class="preview">Para obter mais informações, consulte [Usar a lista de cartões](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) e [Criar uma iteração em uma sequência de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).</span>
 
 Os fluxos de trabalho são exibidos no painel junto com quadros individuais aos quais você tem acesso que não fazem parte de uma fluxo de trabalho. Para obter informações sobre o painel de quadros, consulte [Usar o painel de quadros](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). Você pode clicar em qualquer nome de quadro no painel para abri-lo.
 
@@ -111,7 +111,7 @@ Pessoas e equipes devem ser adicionadas à sequência de trabalho como membros a
 
    O número total de cartões, o número de cartões apontados e o número de iterações são exibidos na seção Lista de cartões . Clique em [!UICONTROL **Exibir lista**] para abrir a lista e adicionar cartões. Para obter mais informações, consulte [Usar a lista de cartões](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-   Se uma iteração tiver sido definida, sua data inicial, número de cartões e número de pontos serão exibidos. Clique em [!UICONTROL **Exibir quadro de iteração**] para abrir o quadro. Para obter mais informações, consulte [Criar uma iteração](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).
+   Se uma iteração tiver sido definida, sua data inicial, número de cartões e número de pontos serão exibidos. Clique em [!UICONTROL **Exibir quadro de iteração**] para abrir o quadro. Para obter mais informações, consulte [Criar uma iteração em uma sequência de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. Clique em [!UICONTROL **Adicionar origem**] para definir uma origem para importar cartões na sequência de trabalho. No momento, a única fonte disponível é [!DNL Adobe Workfront].
 1. Adicione filtros para importar tarefas e problemas do Workfront como cartões.

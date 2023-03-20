@@ -4,9 +4,9 @@ description: 23.2 Melhorias no ágil
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Vários novos recursos disponíveis nas Workfront Boards possibilitam o uso da f
 
 Observe que as coleções foram renomeadas para fluxos de trabalho. Fluxos de trabalho ajudam você a visualizar dados de diferentes maneiras. Você pode exibir itens em cartões em uma lista, em um quadro ou em uma iteração. Os cartões em uma sequência de trabalho também podem ser compartilhados entre vários quadros. Você pode facilitar facilmente os fluxos de trabalho usando cartões e quadros em uma sequência de trabalho.
 
-Para obter mais informações, consulte [Gerenciar fluxos de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Criar uma iteração](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)e [Usar a lista de cartões](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Os dois segundos artigos não estarão disponíveis em Principal até que eu publique minha ramificação.
+Para obter mais informações, consulte [Gerenciar fluxos de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Criar uma iteração em uma sequência de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)e [Usar a lista de cartões](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Os dois segundos artigos não estarão disponíveis em Principal até que eu publique minha ramificação.
 
 ## Adicionar tarefas e problemas de listas e relatórios a uma lista de cartões de fluxo de trabalho
 

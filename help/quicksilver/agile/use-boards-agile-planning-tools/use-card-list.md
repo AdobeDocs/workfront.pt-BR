@@ -6,9 +6,9 @@ title: Usar a lista de cartões
 description: Você pode criar uma lista de cartões em um fluxo de trabalho e adicionar os cartões às iterações.
 author: Lisa
 feature: Agile
-source-git-commit: e5f65106226d82b24c7fa359e53136226f3d1239
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ Clique no X para limpar a pesquisa.
 
 >[!NOTE]
 >
->Você deve criar uma iteração antes de poder adicionar cartões a ela. Para obter mais informações, consulte [Criar uma iteração](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).
+>Você deve criar uma iteração antes de poder adicionar cartões a ela. Para obter mais informações, consulte [Criar uma iteração em uma sequência de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. Acesse a lista de cartões para o fluxo de trabalho.
 1. Selecione o [!UICONTROL **Exibição de iteração**] para ver quais cartões são atribuídos a uma iteração e quais não são planejados.
