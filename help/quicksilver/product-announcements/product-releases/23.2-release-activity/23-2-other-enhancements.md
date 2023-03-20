@@ -4,9 +4,9 @@ description: 23.2 Outras melhorias
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b1c9a72587c0c7128feee6b5992e2069668af4f7
+source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Com esse redesign, removemos a adição de comentários às atualizações do si
 Mais recursos serão adicionados em versões futuras, já que esses aprimoramentos continuam a ser adicionados a outros objetos.
 
 Para obter informações sobre o que a nova experiência de comentário oferece, consulte [Experiência de comentário unificada](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3416962/){target=_blank}
 
 ## Exportar pranchetas como PDF único ou vários arquivos PDF no Adobe Workfront para XD
 
