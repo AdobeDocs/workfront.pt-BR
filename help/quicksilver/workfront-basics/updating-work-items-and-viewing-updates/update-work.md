@@ -3,36 +3,35 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Atualizar trabalho
 description: É possível adicionar uma atualização em um objeto do Adobe Workfront (projeto, tarefa ou problema) para se comunicar sobre o progresso do objeto. Os usuários que estiverem atribuídos ou inscritos no objeto poderão visualizar sua atualização. Também é possível marcar usuários para chamar a atenção para a atualização.
-author: Lisa and Alina
+author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
+source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '2690'
 ht-degree: 1%
 
 ---
 
 # Atualizar trabalho
 
-<!-- Drafted for commenting experience: 
-
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Está disponível somente no ambiente de Visualização.</span>
 
 >[!NOTE]
 >
->We are currently redesigning the way you update work when using the Updates section of an object. 
->You can access the new design by enabling the commenting Beta. 
->Currently, the Beta is available for <span class="preview">issues</span>. 
-For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
-
--->
+>No momento, estamos reprojetando a maneira como você atualiza o trabalho ao usar a seção Atualizações de um objeto.
+>
+>Você pode acessar o novo design ativando o comentário Beta.
+>
+>Atualmente, o Beta está disponível para <span class="preview">problemas</span>.
+>
+>Para obter mais informações sobre a nova experiência de atualização, consulte [Nova experiência de comentário](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 Você pode adicionar comentários à maioria dos objetos no Adobe Workfront na seção Atualizações . Para obter mais informações sobre quais objetos exibem a seção Atualizações , consulte [Visão geral da seção Atualizações](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-É possível adicionar uma atualização em um objeto do Workfront (projeto, tarefa ou problema) para se comunicar sobre o progresso no objeto, conforme você comenta no objeto. Os usuários que estiverem atribuídos ou inscritos no objeto poderão visualizar sua atualização. Também é possível marcar usuários para chamar a atenção para a atualização. Os usuários marcados receberão uma notificação no aplicativo e um email sobre a atualização.
+É possível adicionar uma atualização em um objeto do Workfront (projeto, tarefa ou problema) para se comunicar sobre o progresso no objeto, conforme você comenta no objeto. Os usuários que estiverem atribuídos ou inscritos no objeto poderão visualizar sua atualização. Também é possível marcar usuários para chamar a atenção para a atualização. Os usuários marcados recebem uma notificação no aplicativo e um email sobre a atualização.
 
 As informações nesta página descrevem como você pode comentar os objetos do Workfront e como você atualiza projetos, tarefas e problemas. Para obter informações sobre comentários sobre metas, consulte [Gerenciar comentários da meta nas Metas da Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md). Você deve ter uma licença adicional para acessar as Metas da Workfront.
 
@@ -111,17 +110,15 @@ Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele defi
 
 ## Adicionar uma atualização a um item de trabalho
 
-<!--drafted for the commenting experience - change the NOTE at the top of the following section with every new release to other objects
+<!--drafted for the commenting experience - change the NOTE at the top of the following section with every new release to other objects -->
 
-Adding an update to a work item differs depending on what version of the Updates section and what object you choose. 
+A adição de uma atualização a um item de trabalho é diferente, dependendo da versão da seção Atualizações e do objeto escolhido.
 
-### Add an update to a work item in the current Updates section
+### Adicionar uma atualização a um item de trabalho na seção Atualizações atuais
 
 >[!NOTE]
 >
->The following functionality is available for all objects except for goals. You must have an additional license to access Workfront Goals. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md)
-
--->
+>A funcionalidade a seguir está disponível para todos os objetos, exceto para metas. Você deve ter uma licença adicional para acessar as Metas da Workfront. Para obter informações sobre comentários sobre metas, consulte [Gerenciar comentários da meta nas Metas da Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md)
 
 1. Vá para o item de trabalho para o qual deseja fornecer uma atualização (como um projeto, tarefa ou problema).
 1. Clique no botão **Atualizações** seção.
@@ -135,7 +132,7 @@ Adding an update to a work item differs depending on what version of the Updates
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Notificar</strong></td> 
-      <td>Identifique usuários que precisam ser notificados sobre a atualização. Os usuários atribuídos ou inscritos no objeto recebem automaticamente uma notificação quando uma atualização é feita.<br><p>Para obter informações sobre como incluir outras pessoas em uma atualização, consulte <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Marcar outras pessoas em atualizações</a>.</p></td> 
+      <td>Identifique usuários que devem ser notificados sobre a atualização. Os usuários atribuídos ou inscritos no objeto recebem automaticamente uma notificação quando uma atualização é feita.<br><p>Para obter informações sobre como incluir outras pessoas em uma atualização, consulte <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Marcar outras pessoas em atualizações</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Data de confirmação</strong></td> 
@@ -175,94 +172,91 @@ Adding an update to a work item differs depending on what version of the Updates
 
 1. Para responder a uma atualização, consulte [Responder atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-<!--
-
-### Add an update to a work item using the commenting Beta experience
+### Adicionar uma atualização a um item de trabalho usando os comentários da experiência Beta
 
 
 >[!NOTE]
 >
->The functionality described in this section is available for the following objects:
+>A funcionalidade descrita nesta seção está disponível para os seguintes objetos:
 >
->* <span class="preview">Issues, when you enable the commenting Beta experience.</span>
->
->   <span class="preview">This functionality is available only for the Updates section of issues, and it is not available for the following areas:</span>
->
->   * <span class="preview">Home</span>
->   * <span class="preview">Summary panel in lists</span>
->   * <span class="preview">Summary panel in timesheets</span>
->* Goals
->
->   The commenting experience Beta is the default current experience for goals.
->   You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>* <span class="preview">Problemas, ao ativar a experiência de comentário Beta.</span>
+   >
+   >   <span class="preview">Essa funcionalidade está disponível somente para a seção Atualizações de problemas e não está disponível para as seguintes áreas:</span>
+   >
+   >   * <span class="preview">Página inicial</span>
+   >   * <span class="preview">Painel Resumo em listas</span>
+   >   * <span class="preview">Painel Resumo nas folhas de horas</span>
+>* Metas
+
+   >
+   >   A nova experiência de comentário é a experiência atual padrão para metas.
+   >   Você deve ter uma licença adicional para acessar as Metas da Workfront. Para obter mais informações, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 
-1. Locate the object you want to update, then click its name to open the object's page.
-1. Click  **Updates** in the left panel. 
-1. Click **Try out the commenting Beta** button in the lower-right corner of the Updates area, then click **Agree** on the Beta agreement. This switches the Updates area to the commenting Beta experience. 
-   The **Comments** tab is selected by default. 
-1. Start entering a comment in the **New comment** box. 
-   
+
+1. Localize o objeto que deseja atualizar e clique em seu nome para abrir a página do objeto.
+1. Clique em  **Atualizações** no painel esquerdo.
+1. <span class="preview">Clique em **Experimente o comentário Beta** no canto inferior direito da área Atualizações e clique em **Concordar** sobre o contrato Beta. Isso alterna a área Atualizações para a experiência Beta de comentário. </span>
+O 
+**Comentários** é selecionada por padrão.
+1. Comece a inserir um comentário na **Novo comentário** caixa.
+
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
-   >Navigating away from the Updates section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Drafted comments are only visible to the user entering them.
+   >Navegar para fora da seção Atualizações antes de terminar de digitar e enviar um comentário mantém o comentário na página no modo de rascunho mesmo depois de fazer logoff e logon novamente. Os comentários rascunhados são visíveis apenas para o usuário que os insere.
 
-1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
-1. (Optional) To add rich text formatting to your update, use any of the following options from the **Rich Text** toolbar to enhance your text: 
+1. (Opcional) Na seção **Marcar pessoas ou equipes** , comece digitando o nome ou o email de um usuário ou de uma equipe que você gostaria de incluir neste comentário e selecione-o quando ele for exibido na lista.
+1. (Opcional) Para adicionar formatação Rich Text à atualização, use qualquer uma das seguintes opções da **Texto formatado** barra de ferramentas para aprimorar o texto:
 
-   * Bold
-   * Italics
-   * Underline
+   * Negrito
+   * Itálico
+   * Sublinhar
    * Link
-   * Bulleted List
-   * Numbered List
-   * Add attachment (mark this parenthesis as draft: ************ this might be renamed)
-   
-   For more information, see the "Use Rich Text in a Workfront update" section in this article.
+   * Lista com marcadores
+   * Lista numerada
+   * Adicionar anexo <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
 
-   >[!TIP]
-   >
-   >   If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
-   >
-   > ![](assets/real-time-new-red-indicator-unified-commenting.png)
+   Para obter mais informações, consulte a seção &quot;Usar rich text em uma atualização do Workfront&quot; neste artigo. <!--remove this list, above, when we get to parity for Rich Text-->
 
+   <!--not available yet in preview - should be live with production: format this as a TIP: 
+      * If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. 
+      * The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
+      * The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience. 
+      ![](assets/real-time-new-red-indicator-unified-commenting.png)-->
 
-
-1. Click **Submit** to add the update to the Workfront object. 
-1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**. 
-1. Edit the information in the comment, or remove any of the tagged users. 
-   You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated. 
+1. Clique em **Enviar** para adicionar a atualização ao objeto do Workfront.
+1. (Opcional) Para editar um comentário, clique no botão **Mais** menu ![](assets/more-menu.png) à direita do ícone Curtir e, em seguida, clique em **Editar**.
+1. Edite as informações no comentário ou remova qualquer um dos usuários marcados.
+É possível editar seu comentário em 15 após enviá-lo. Um indicador &quot;Editado&quot; é adicionado à esquerda do carimbo de data que é exibido quando o comentário é atualizado.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
-1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-7 above. (**************insure this stays accurate***********). For information about replying to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
-1. (Optional) Click the **Like** icon![](assets/like-icon.png). The icon updates with the number of likes.
-1. (Conditional and Optional) If you included additional people in your comment, click the number of members included in the update to display a list of entities that the comment you entered is shared with. 
+   >   Um email é gerado para notificar os usuários sobre sua atualização somente quando você envia a atualização original. Nenhum email é gerado após você ter editado sua atualização.
+1. (Opcional) Clique em **Responder** para responder a um comentário existente, siga as etapas 4 a 7 acima. <!--(**************insure this stays accurate***********)-->. Para obter informações sobre como responder a uma atualização, consulte [Responder atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Opcional) Clique no botão **Like** ícone![](assets/like-icon.png). O ícone é atualizado com o número de curtidas.
+1. (Condicional e Opcional) Se você incluiu pessoas adicionais em seu comentário, clique no número de membros incluídos na atualização para exibir uma lista de entidades com as quais o comentário inserido foi compartilhado.
 
    ![](assets/members-icons-expanded-unshimmed.png)
-1. (Optional) Click the **System Activity** tab to view updates logged by the system. When the object or any of its children are updated, Workfront generates a note about that update and displays it in the System Activity tab. 
+1. (Opcional) Clique no botão **Atividade do sistema** para exibir as atualizações registradas pelo sistema. Quando o objeto ou qualquer um de seus filhos é atualizado, o Workfront gera uma nota sobre essa atualização e a exibe na guia Atividade do sistema.
 
-   For more information see [Updates section  overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
+   Para obter mais informações, consulte [Visão geral da seção Atualizações](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
 
    >[!TIP]
    >
-   >You cannot add a comment to a system update.
--->
+   >Não é possível adicionar um comentário a uma atualização do sistema.
 
 
 ## Usar rich text em uma atualização do Workfront
 
-<!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.
+<!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
 >[!NOTE]
 >
->Some of the options in the Rich Text toolbar are not available for the commenting Beta experience.-->
-
+>Algumas das opções na barra de ferramentas Rich Text podem não estar disponíveis para os comentários da experiência Beta.
 
 Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários itens a ele, como emojis, links ou imagens.
 
@@ -326,17 +320,16 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
    >* As imagens são acessíveis somente na guia Atualizações em um objeto e não estão disponíveis na guia Documentos.
    >* Você pode enviar uma atualização com uma imagem e sem texto.
 
-1. Clique em **Atualizar**  <!--<span class="preview">or **Submit**</span>, in the commenting Beta experience-->.
+1. Clique em **Atualizar**  <span class="preview">ou **Enviar**</span>, na experiência de comentário em Beta.
 
 
 ## Copiar informações de atualização
 
-<!--drafted for beta release toggle - remove when copying an update will be available: 
+<!--drafted for beta release toggle - remove when copying an update will be available:-->
 
 >[!NOTE]
 >
->Copying an update is not possible when using the Beta commenting experience.
--->
+>Não é possível copiar uma atualização ao usar a experiência de comentário Beta.
 
 Há várias maneiras de copiar uma atualização. Depois de copiar um link, você pode compartilhá-lo com outras pessoas para direcioná-los para a atualização.
 
@@ -382,7 +375,7 @@ Nenhum usuário do Workfront (incluindo o administrador do Workfront) pode exclu
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Na mensagem que aparece, clique em **Confirmar** <!--<span class="preview">or **Delete**</span>, in the commenting Beta experience-->.
+1. Na mensagem que aparece, clique em **Confirmar** <span class="preview">ou **Excluir**</span>, na experiência de comentário em Beta.
 
 >[!NOTE]
 >
@@ -409,16 +402,16 @@ Nenhum usuário do Workfront (incluindo o administrador do Workfront) pode exclu
 
 ## Ativar ou desativar atualizações do sistema
 
-<!--remove preview with 23.2 production: 
+<!--remove the preview tag with 23.2 production, but keep the note till we remove Beta and it becomed the only exprience: -->
 
-<div class="preview">
+
+
 >[!NOTE]
 >
->It is not possible to disable system updates when using the Beta commenting experience. 
->The information in this section refers only to functionality available in the current Updtes section. 
->For more information about system updates in the Beta version, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md) 
-</div>
--->
+><span class="preview">Não é possível desativar as atualizações do sistema ao usar a experiência de comentário Beta. </span>
+><span class="preview">As informações nesta seção se referem apenas à funcionalidade disponível na seção Atualizações atuais. </span>
+><span class="preview">Para obter mais informações sobre atualizações do sistema na versão Beta, consulte [Visão geral da seção Atualizações](../updating-work-items-and-viewing-updates/updates-tab-overview.md). </span>
+
 
 A seção Atualizações de um objeto do Workfront exibe dois tipos de informações:
 

@@ -6,16 +6,16 @@ description: Você pode adicionar comentários em todas as metas que pode visual
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
+source-git-commit: 0d53b8651da3602e6f3233597680eede55f847a1
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
 
 # Gerenciar comentários da meta nas Metas da Adobe Workfront
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Está disponível somente no ambiente de Visualização.</span>
 
 Você pode adicionar comentários em todas as metas que pode visualizar no Adobe Workfront Metas.
 
@@ -118,77 +118,7 @@ Você deve ter o seguinte antes de começar:
 
 * Um modelo de layout que inclui a área Metas no Menu principal.
 
-## Localize a área Comentários
-
-<!--
-Locating goal comments differs depending on what environment you use. 
-
-### Locate goal comments in the Production environment
-
-You can add comments to goals in the following areas of Workfront Goals:
-
-* The Goal Details panel
-* The Check-in section 
-* The Pulse section
-
-Although the process for adding comments to goals is similar in these areas, there are differences in being able to edit, delete, or react to a comment when using one area versus another. When you enter a comment in any of these areas, the comment is visible in all areas where goal comments display.
-
->[!NOTE]
->
->You cannot add comments to results and activities.
-
--->
-
-<!--
-## Add comments to goals in the Goal Details panel
-
-Adding comments to goals differs depending on what environment you use.
-
-### Add comments to goals in the Production environment
-
-
-You can add comments to goals in the Goal Details panel, as part of updating an individual goal.
-
-You can edit or delete a comment that you entered in this area, or you can like comments.
-
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
-
-   (Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner))
-   
-
-   This opens the Workfront Goals area. 
-
-1. Locate the goal you want to add comments to, then click its name to open the Goal Details panel to the right. 
-1. Click the **Updates** tab.
-1. Type your comment in the **Comment here** field, then click **Post**. 
-1. (Optional and conditional) Select the **Comments** option at the top of the list to view your comment at the top of the list. It is enabled by default and comments display here with the most recent comment first. 
-1. (Optional) Click **Edit** to edit your comment, then click **Save** to save your changes, or **Cancel** to revert to the original update.
-
-   >[!TIP]
-   >
-   >* You can only edit comments you entered. 
-   >* There is no time limit for how long after you enter a comment you are allowed to edit it.
-
-1. (Optional) Click **Delete** to delete your comment, then click **Yes, Delete** to confirm.
-
-   >[!TIP]
-   >
-   >* You can only delete comments you entered. 
-   >* There is no time limit for how long after you enter a comment you are allowed to delete it.
-
-1. (Optional) Click the **Like icon** ![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes. 
-
-1. (Optional) Click the number of likes next to a comment and a list with the names of the users who liked the comment displays in the right panel.
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this functionality might change)</p>
-   
-
-   ![](assets/list-of-likes-users-350x121.png)
-
-1. (Conditional) Click **Back to Updates** to return to the Updates tab of the Goal Details panel, or click the **X icon** in the upper-right corner to close the right panel.
-
--->
+## Localize a seção Atualizações
 
 Você pode adicionar comentários às metas na seção Atualizações da página de uma meta.
 
@@ -208,34 +138,35 @@ Isso abre a lista de metas.
    >Navegar para fora da seção Atualizações antes de terminar de digitar e enviar um comentário mantém o comentário na página no modo de rascunho mesmo depois de fazer logoff e logon novamente. Os comentários rascunhados são visíveis apenas para o usuário que os insere.
 
 1. (Opcional) Na seção **Marcar pessoas ou equipes** , comece digitando o nome ou o email de um usuário ou de uma equipe que você gostaria de incluir neste comentário e selecione-o quando ele for exibido na lista.
+1. <span class="preview">(Opcional) Para editar um comentário, clique no botão **Mais** menu ![](assets/more-icon.png) à direita do ícone Curtir e, em seguida, clique em **Editar**. </span>
+1. <span class="preview">Edite as informações no comentário ou remova qualquer um dos usuários marcados. </span>
 
-<!--drafted for beta release 23.2:
-1. <span class="preview">(Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**. </span>
-1. <span class="preview">Edit the information in the comment, or remove any of the tagged users. </span>
-   <span class="preview">You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated.</span> 
+   <span class="preview">É possível editar seu comentário em 15 após enviá-lo. Um indicador &quot;Editado&quot; é adicionado à esquerda do carimbo de data que é exibido quando o comentário é atualizado.</span>
 
    <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
 
    >[!TIP]
    >
-   >   <span class="preview">An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.</span>
--->
+   >   <span class="preview">Um email é gerado para notificar os usuários sobre sua atualização somente quando você envia a atualização original. Nenhum email é gerado após você ter editado sua atualização.</span>
+
 1. Clique em **Enviar**.
 
-<!--drafted for 23.2 beta release: 
+   <!--drafted for 23.2 beta release: 
+      >[!TIP]
+      >
+      >   <span class="preview">If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. </span>
+      >
+      ><span class="preview">The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience.</span>
+      >
+      >![](assets/real-time-new-red-indicator-unified-commenting.png)-->
 
-   >[!TIP]
-   >
-   >   <span class="preview">If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. </span>
-   >
-   > ![](assets/real-time-new-red-indicator-unified-commenting.png)-->
-
-1. (Opcional) Clique em **Responder** para responder a um comentário existente, siga as etapas 5 a 7 acima. <!--insure this stays accurate-->
+1. (Opcional) Clique em **Responder** para responder a um comentário existente, siga as etapas 5 a 9 acima. <!--insure this stays accurate-->
 1. (Opcional) Clique no botão **Like** ícone![](assets/like-icon.png) para gostar de um comentário que outra pessoa adicionou. O ícone é atualizado com o número de curtidas.
 1. (Opcional) Para adicionar formatação Rich Text à atualização, use qualquer atributo na barra de ferramentas Rich Text à medida que você digita. Para obter mais informações, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Clique no botão **Atividade do sistema** para exibir as atualizações registradas pelo sistema. Quando uma meta é atualizada, a Workfront gera uma nota sobre essa atualização e a exibe na guia Atividade do sistema. O Workfront também registra uma atualização do sistema quando um resultado, atividade ou projeto é adicionado à meta ou quando é atualizado. <!--ensure the casing on the tab has not changed-->
 
-<!--
+<!--BELOW IS OLD, ATIIM/ WORKFRONT GOALS INFORMATION ABOUT COMMENTS: 
+
 ## Add comments to goals in the Check-in section
 
 <div class="preview">
@@ -315,6 +246,76 @@ You can also like goal comments that other users have added to mark your approva
 1. (Optional) Click the **Like icon** ![](assets/like-icon.png) to like a comment. The icon updates with the number of likes. 
 
 1. (Optional) Click the number of likes next to a comment and a list with the names of the users who liked the comment displays in the right panel.
+
+   ![](assets/list-of-likes-users-350x121.png)
+
+1. (Conditional) Click **Back to Updates** to return to the Updates tab of the Goal Details panel, or click the **X icon** in the upper-right corner to close the right panel.
+
+-->
+
+<!--
+Locating goal comments differs depending on what environment you use. 
+
+### Locate goal comments in the Production environment
+
+You can add comments to goals in the following areas of Workfront Goals:
+
+* The Goal Details panel
+* The Check-in section 
+* The Pulse section
+
+Although the process for adding comments to goals is similar in these areas, there are differences in being able to edit, delete, or react to a comment when using one area versus another. When you enter a comment in any of these areas, the comment is visible in all areas where goal comments display.
+
+>[!NOTE]
+>
+>You cannot add comments to results and activities.
+
+-->
+
+<!--
+## Add comments to goals in the Goal Details panel
+
+Adding comments to goals differs depending on what environment you use.
+
+### Add comments to goals in the Production environment
+
+
+You can add comments to goals in the Goal Details panel, as part of updating an individual goal.
+
+You can edit or delete a comment that you entered in this area, or you can like comments.
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+
+   (Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner))
+   
+
+   This opens the Workfront Goals area. 
+
+1. Locate the goal you want to add comments to, then click its name to open the Goal Details panel to the right. 
+1. Click the **Updates** tab.
+1. Type your comment in the **Comment here** field, then click **Post**. 
+1. (Optional and conditional) Select the **Comments** option at the top of the list to view your comment at the top of the list. It is enabled by default and comments display here with the most recent comment first. 
+1. (Optional) Click **Edit** to edit your comment, then click **Save** to save your changes, or **Cancel** to revert to the original update.
+
+   >[!TIP]
+   >
+   >* You can only edit comments you entered. 
+   >* There is no time limit for how long after you enter a comment you are allowed to edit it.
+
+1. (Optional) Click **Delete** to delete your comment, then click **Yes, Delete** to confirm.
+
+   >[!TIP]
+   >
+   >* You can only delete comments you entered. 
+   >* There is no time limit for how long after you enter a comment you are allowed to delete it.
+
+1. (Optional) Click the **Like icon** ![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes. 
+
+1. (Optional) Click the number of likes next to a comment and a list with the names of the users who liked the comment displays in the right panel.
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this functionality might change)</p>
+   
 
    ![](assets/list-of-likes-users-350x121.png)
 

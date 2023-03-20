@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: get-started-with-workfront
 title: Atualizar itens de trabalho e visualizar atualizações
 description: Você pode usar a seção Atualizações da maioria dos objetos para adicionar comentários, respostas ou para seguir atualizações rastreadas pelo sistema sobre alterações que ocorrem no objeto.
-author: Lisa and Alina
+author: Alina
 feature: Get Started with Workfront
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
+source-git-commit: 98db73f8c807ff3f6bffcb1ec839a416d9c4111d
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 0%
