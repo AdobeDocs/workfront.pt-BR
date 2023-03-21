@@ -6,9 +6,9 @@ description: Um novo quadro contém três colunas por padrão. Você pode adicio
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: ba6b5db8416e0e564b155dd040933b41fe87c286
+source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -116,12 +116,11 @@ Se você estiver usando o limite WIP em uma coluna, um contador de cartão separ
 
       ![Status para colunas](assets/boards-column-status.png)
 
-      As opções de tradução de status para cartões conectados também são exibidas. (A tradução de status não se aplica aos cartões ad hoc.) Essas opções determinam o status aplicado à tarefa ou ocorrência em [!DNL Workfront] quando uma placa conectada é movida para essa coluna.
+      As opções de tradução de status para cartões conectados também são exibidas. (A tradução de status não se aplica aos cartões ad hoc.) Essas opções determinam o status personalizado aplicado à tarefa ou problema em [!DNL Workfront] quando uma placa conectada é movida para essa coluna.
 
-   1. Para alterar as seleções de tradução de status padrão, clique no botão **[!UICONTROL Editar]** ícone ![Ícone Editar](assets/edit-icon-spectrum.png).
-   1. Se estiver usando a participação inicial do recurso: Selecione um [!UICONTROL **Personalizado**] status a ser aplicado ao cartão, para tarefas e problemas.
+   1. Se estiver usando a participação inicial do recurso: Selecione um [!UICONTROL **Personalizado**] status a ser aplicado ao cartão para tarefas e problemas.
 
-      Quando um cartão é movido para esta coluna, [!DNL Workfront] O primeiro tenta aplicar o status personalizado (por exemplo, Resolvido). Se o status personalizado não estiver disponível para esse cartão, a Workfront aplicará o status do sistema (por exemplo, Fechado). O status do sistema é o status selecionado na etapa b acima.
+      Quando um cartão é movido para esta coluna, [!DNL Workfront] O primeiro tenta aplicar o status personalizado (por exemplo, Resolvido). Se o status personalizado selecionado não estiver disponível para esse cartão, você será solicitado a escolher outro status que corresponda ao status do sistema (da etapa b acima).
 
       Além disso, se o status na tarefa ou problema conectado for alterado para o status personalizado ou do sistema definido na política de coluna, o cartão será movido automaticamente para a coluna .
 
