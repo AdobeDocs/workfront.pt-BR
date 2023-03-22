@@ -6,10 +6,10 @@ description: Você pode instalar o plugin Workfront for Creative Cloud no Adobe 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 95bedadeb2a0a4e4e91f82c193f6e95e034a6a34
+source-git-commit: 6b6d0794b21f34eb448a1bc4b728cb8e5fe0df72
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -119,8 +119,11 @@ Para instalar o [!DNL Adobe Workfront for design and video] plug-in:
 
    >[!TIP]
    >
-   >Para localizar seu domínio, abra um navegador, navegue até [!DNL Workfront] e copie a primeira parte do URL:\
-   >![](assets/domain-350x50.png)   >
+   >* Para localizar seu domínio, abra um navegador, navegue até [!DNL Workfront] e copie a primeira parte do URL:\
+      >![](assets/domain-350x50.png)
+   >
+   > * Se a instância do Workfront estiver integrada ao Experience Cloud, peça ao administrador para fornecer o domínio do Workfront encontrado em Produto > Workfront no Admin Console.
+
 
 1. No navegador, digite o [!DNL Workfront] credenciais, em seguida, clique em **[!UICONTROL Fazer logon]**. Se sua empresa usa um logon único (SSO), você será direcionado para a página do provedor de SSO para fazer logon.
 

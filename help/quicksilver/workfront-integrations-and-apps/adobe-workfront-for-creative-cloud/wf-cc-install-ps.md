@@ -6,9 +6,9 @@ description: Você pode instalar o plug-in Adobe Workfront for Photoshop no Adob
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 95bedadeb2a0a4e4e91f82c193f6e95e034a6a34
+source-git-commit: 6b6d0794b21f34eb448a1bc4b728cb8e5fe0df72
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '451'
 ht-degree: 1%
 
 ---
@@ -102,8 +102,11 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
    >[!TIP]
    >
-   >Para localizar seu domínio, abra um navegador, navegue até [!DNL Workfront] e copie a primeira parte do URL:\
-   >![](assets/domain-350x50.png)   >
+   >* Para localizar seu domínio, abra um navegador, navegue até [!DNL Workfront] e copie a primeira parte do URL:\
+      >![](assets/domain-350x50.png)
+   >
+   > * Se a instância do Workfront estiver integrada ao Experience Cloud, peça ao administrador para fornecer o domínio do Workfront encontrado em Produto > Workfront no Admin Console.
+
 
 1. No navegador, digite o [!DNL Workfront] credenciais, em seguida, clique em **[!UICONTROL Fazer logon]**. Se sua empresa usa um logon único (SSO), você será direcionado para a página do provedor de SSO para fazer logon.
 
