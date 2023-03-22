@@ -7,9 +7,9 @@ description: O Adobe Workfront tem limites para quantos objetos podem ser associ
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: 11c4028038fe3d410ee0d4f238d2138435d9a3fa
+source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,20 @@ Os seguintes objetos associados aos projetos têm os seguintes limites:
  <tbody> 
   <tr> 
    <td role="rowheader"><p>Tarefas</p></td> 
-   <td>  <p>O número máximo de tarefas por projeto é de 5.000. Uma mensagem de aviso é exibida quando o número de tarefas se aproxima desse máximo. Quando o máximo é atingido, uma mensagem de erro é exibida e tarefas adicionais não podem ser adicionadas ao projeto.</p> <p>Para evitar atingir esse máximo, mova as tarefas que são fechadas para outro projeto designado para tarefas fechadas. Talvez seja necessário adaptar os relatórios sobre estes projetos.</p> </td> 
+   <td>  <p>O número máximo de tarefas por projeto é de 5.000. Uma mensagem de aviso é exibida quando o número de tarefas se aproxima desse máximo. Quando o máximo é atingido, uma mensagem de erro é exibida e tarefas adicionais não podem ser adicionadas ao projeto.</p> <p>Para evitar atingir esse máximo, mova as tarefas que são fechadas para outro projeto designado para tarefas fechadas. Talvez seja necessário adaptar os relatórios sobre estes projetos.</p>
+
+<b>IMPORTANTE</b>
+
+Para projetos em que as tarefas têm muitas dependências, recomendamos que o número de tarefas nos projetos seja muito menor do que o máximo permitido de 5.000 tarefas.
+
+Alguns exemplos de dependências de tarefas que podem influenciar ou impedir o recálculo da linha do tempo do projeto são:
+
+<ul><li>Número de filhos</li>
+   <li>Vários níveis de recuo da tarefa</li>
+   <li>Número de antecessores</li>
+   <li>Várias atribuições</li>
+   </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Problemas</p></td> 

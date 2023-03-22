@@ -6,9 +6,9 @@ description: É possível adicionar uma atualização em um objeto do Adobe Work
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 661688a5217589da47b8c7a0b043c8292fb346db
+source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
 workflow-type: tm+mt
-source-wordcount: '2674'
+source-wordcount: '2756'
 ht-degree: 1%
 
 ---
@@ -183,13 +183,14 @@ A adição de uma atualização a um item de trabalho é diferente, dependendo d
 
 1. Para responder a uma atualização, consulte [Responder atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
+<div class="preview">
+
 ### Adicionar uma atualização a um item de trabalho usando os comentários da experiência Beta
 
 1. Localize o objeto que deseja atualizar e clique em seu nome para abrir a página do objeto.
 1. Clique em  **Atualizações** no painel esquerdo.
-1. <span class="preview">Clique em **Experimente o comentário Beta** no canto inferior direito da área Atualizações e clique em **Concordar** sobre o contrato Beta. Isso alterna a área Atualizações para a experiência Beta de comentário. </span>
-O 
-**Comentários** é selecionada por padrão.
+1. Clique em **Experimente o comentário Beta** no canto inferior direito da área Atualizações e clique em **Concordar** sobre o contrato Beta. Isso alterna a área Atualizações para a experiência Beta de comentário.
+O **Comentários** é selecionada por padrão.
 1. Comece a inserir um comentário na **Novo comentário** caixa.
 
    ![](assets/comment-box-empty-unshimmed.png)
@@ -211,23 +212,26 @@ O
 
    Para obter mais informações, consulte a seção &quot;Usar rich text em uma atualização do Workfront&quot; neste artigo. <!--remove this list, above, when we get to parity for Rich Text-->
 
-   <!--not available yet in preview - should be live with production: format this as a TIP: 
-      * If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. 
-      * The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
-      * The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience. 
-      ![](assets/real-time-new-red-indicator-unified-commenting.png)-->
+   >[!TIP]
+   >
+   >Se outro usuário enviar um comentário para o mesmo item que você está atualizando, haverá uma linha vermelha com um indicador &quot;Novo&quot; para informá-lo sobre os comentários mais recentes.
+   >
+   >O indicador só é exibido depois que o comentário foi enviado no item, e não quando o comentário ainda é composto.
+   >
+   >O indicador &quot;Novo&quot; é exibido somente quando o usuário que inseriu uma nova atualização, bem como o usuário que está inserindo uma atualização no momento estão usando a nova experiência de comentário.
+   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+
 
 1. Clique em **Enviar** para adicionar a atualização ao objeto do Workfront.
-1. <span class="preview">(Opcional) Para editar um comentário, clique no botão **Mais** menu ![](assets/more-menu.png) à direita do ícone Curtir e, em seguida, clique em **Editar**.</span>
-1. <span class="preview">Edite as informações no comentário ou remova qualquer um dos usuários marcados. </span>
-
-   <span class="preview">É possível editar seu comentário em 15 após enviá-lo. Um indicador &quot;Editado&quot; é adicionado à esquerda do carimbo de data que é exibido quando o comentário é atualizado. </span>
+1. (Opcional) Para editar um comentário, clique no botão **Mais** menu ![](assets/more-menu.png) à direita do ícone Curtir e, em seguida, clique em **Editar**.
+1. Edite as informações no comentário ou remova qualquer um dos usuários marcados.
+É possível editar seu comentário em 15 após enviá-lo. Um indicador &quot;Editado&quot; é adicionado à esquerda do carimbo de data que é exibido quando o comentário é atualizado.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   <span class="preview">Um email é gerado para notificar os usuários sobre sua atualização somente quando você envia a atualização original. Nenhum email é gerado após você ter editado sua atualização.</span>
+   >   Um email é gerado para notificar os usuários sobre sua atualização somente quando você envia a atualização original. Nenhum email é gerado após você ter editado sua atualização.
 1. (Opcional) Clique em **Responder** para responder a um comentário existente, siga as etapas 4 a 7 acima. <!--(**************insure this stays accurate***********)-->. Para obter informações sobre como responder a uma atualização, consulte [Responder atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Opcional) Clique no botão **Like** ícone![](assets/like-icon.png). O ícone é atualizado com o número de curtidas.
 1. (Condicional e Opcional) Se você incluiu pessoas adicionais em seu comentário, clique no número de membros incluídos na atualização para exibir uma lista de entidades com as quais o comentário inserido foi compartilhado.
@@ -241,6 +245,7 @@ O
    >
    >Não é possível adicionar um comentário a uma atualização do sistema.
 
+</div>
 
 ## Usar rich text em uma atualização do Workfront
 
