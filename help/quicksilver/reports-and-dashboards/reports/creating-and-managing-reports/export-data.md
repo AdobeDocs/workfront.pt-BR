@@ -6,9 +6,9 @@ description: Alguns dos motivos para exportar dados são - EDITE-ME.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 754ff1d13cd2549f09cfb127786a0a1eeda51a9d
 workflow-type: tm+mt
-source-wordcount: '2116'
+source-wordcount: '2181'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ As informações podem ser exportadas nos seguintes formatos:
 ### Limites de exportação {#export-limits}
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."])</p>
+NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."]
 -->
 
 Há várias limitações no modo como os relatórios são exibidos no Workfront, bem como na maneira como são exportados por meio de uma exportação manual, de um relatório fornecido ou da API.
@@ -106,9 +106,13 @@ Há várias limitações no modo como os relatórios são exibidos no Workfront,
    * Para arquivos .xlsx do Excel, esse limite é **100.000 linhas**.
    * Esses limites excluem os cabeçalhos de coluna, bem como as linhas para agrupamentos no relatório. Por exemplo, se você tiver 6 agrupamentos em um relatório e 50.000 linhas ou dados, o arquivo exportado terá 50.000 linhas.
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >Se o seu relatório tiver mais itens do que esses limites, você receberá um erro informando que a exportação não foi bem-sucedida. Reduza o número de itens que você vê na tela para um número menor ou igual a esses limites para poder exportar os resultados.
+   >Exportar um relatório que inclui uma referência de coleção em uma coluna pode resultar em um erro, mesmo que o relatório esteja dentro dos limites de exportação listados. Se a coleção referenciada for muito grande, o tempo limite do processo de exportação expirará e, subsequentemente, resultará em um erro.
+   >
+   >Para evitar esse erro, exclua as colunas que fazem referência a coleções grandes ou reduza o tamanho das coleções referenciadas antes de exportar.
+
+   Se o seu relatório tiver mais itens do que esses limites, você receberá um erro informando que a exportação não foi bem-sucedida. Reduza o número de itens que você vê na tela para um número menor ou igual a esses limites para poder exportar os resultados.
 
    Se seu relatório tiver mais de 50.000/ 65.000/ 100.000 linhas e desejar exportar todos os dados, sugerimos que você use filtros ou prompts para obter cargas menores de dados e executar várias exportações.
 
