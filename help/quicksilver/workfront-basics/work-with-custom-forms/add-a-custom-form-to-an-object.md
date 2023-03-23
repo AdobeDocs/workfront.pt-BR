@@ -7,16 +7,16 @@ description: É possível adicionar um formulário personalizado existente a qua
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '869'
 ht-degree: 1%
 
 ---
 
 # Adicionar um formulário personalizado a um objeto
 
-<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Está disponível somente no ambiente de Visualização.</span>
+<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Ele está disponível para todos os clientes no ambiente de Visualização e para um grupo selecionado de clientes no ambiente de Produção.</span>
 
 É possível adicionar um formulário personalizado existente a qualquer um dos objetos listados abaixo. Um formulário personalizado contém campos personalizados, onde você pode armazenar informações sobre o objeto.
 

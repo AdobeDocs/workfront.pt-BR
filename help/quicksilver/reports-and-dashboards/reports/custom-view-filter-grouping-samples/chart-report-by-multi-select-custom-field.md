@@ -7,16 +7,16 @@ description: Não é possível criar um gráfico de relatório por um campo pers
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
 # Gráfico de um relatório por um campo personalizado de várias seleções
 
-<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Está disponível somente no ambiente de Visualização.</span>
+<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Ele está disponível para todos os clientes no ambiente de Visualização e para um grupo selecionado de clientes no ambiente de Produção.</span>
 
 Não é possível criar um gráfico de relatório por um campo personalizado de várias seleções. É necessário criar um campo calculado adicional que faça referência ao campo personalizado de várias seleções para também fazer o gráfico do relatório pelo valor do campo personalizado de várias seleções.
 

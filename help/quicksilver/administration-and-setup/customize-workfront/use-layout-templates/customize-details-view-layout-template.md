@@ -8,16 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 # Personalizar a visualização de Detalhes usando um modelo de layout
 
-<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Está disponível somente no ambiente de Visualização.</span>
+<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Ele está disponível para todos os clientes no ambiente de Visualização e para um grupo selecionado de clientes no ambiente de Produção.</span>
 
 Como administrador do Adobe Workfront, você pode usar um modelo de layout para determinar quais informações serão exibidas quando um usuário clicar no ícone Detalhes ![](assets/project-details-icon.png) no painel esquerdo, ao visualizar uma tarefa, problema, documento, programa ou portfólio.
 

@@ -6,16 +6,16 @@ description: É possível atualizar a ordem em que os formulários personalizado
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
 
 # Gerenciar formulários personalizados anexados a objetos
 
-<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Está disponível somente no ambiente de Visualização.</span>
+<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Ele está disponível para todos os clientes no ambiente de Visualização e para um grupo selecionado de clientes no ambiente de Produção.</span>
 
 É possível atualizar a ordem em que os formulários personalizados anexados a um objeto são exibidos, removê-los ou editar em massa a forma como os formulários personalizados são exibidos em vários objetos.
 

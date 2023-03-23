@@ -5,16 +5,16 @@ description: Você pode usar um scorecard para medir o grau de alinhamento de um
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
 # Aplicar um scorecard a um projeto e gerar uma Pontuação de alinhamento
 
-<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Está disponível somente no ambiente de Visualização.</span>
+<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Ele está disponível para todos os clientes no ambiente de Visualização e para um grupo selecionado de clientes no ambiente de Produção.</span>
 
 Você pode usar um scorecard para medir o grau de alinhamento de um projeto aos critérios estabelecidos anteriormente de um portfólio. Um scorecard geralmente reflete a missão, os valores e os objetivos estratégicos de uma organização.
 
