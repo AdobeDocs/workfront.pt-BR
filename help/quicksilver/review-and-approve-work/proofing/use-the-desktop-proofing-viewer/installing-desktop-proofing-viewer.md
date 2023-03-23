@@ -6,7 +6,7 @@ description: O Desktop Proofing Viewer, desenvolvido principalmente para verific
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 7ef1d55a7d743d83bd4f6625252848442919b9f4
+source-git-commit: c3c19f1913d5bab233a0d218ba87c69dead82215
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 0%
@@ -53,8 +53,8 @@ Se esse não for o caso, você poderá seguir as etapas abaixo.
 
 1. Siga um destes procedimentos para baixar o aplicativo:
 
-   * Se você estiver usando o ambiente de Produção, clique em  [Download de produção do Mac para o visualizador de prova de desktop.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.22.pkg)
-   * Se estiver usando o ambiente de Visualização, clique em  [Download da visualização do Mac para o visualizador de prova de desktop.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.22.pkg)
+   * Se você estiver usando o ambiente de Produção, clique em  [Download de produção do Mac para o visualizador de prova de desktop.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.23.pkg)
+   * Se estiver usando o ambiente de Visualização, clique em  [Download da visualização do Mac para o visualizador de prova de desktop.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.23.pkg)
 
 1. Abra o arquivo que acabou de baixar para iniciar a instalação.
 1. Na caixa de instalação exibida, clique em **Continuar**, depois clique em **Instalar**.
@@ -76,8 +76,8 @@ Você pode usar a linha de comando para instalar o Desktop Proofing Viewer execu
 
 1. Siga um destes procedimentos para baixar o aplicativo:
 
-   * No ambiente Produção, clique em  [Download de produção do Windows para o Visualizador de Verificação de Verificação de Verificação de Verificação de Desktop.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.22.exe)
-   * No ambiente de Visualização, clique em  [Download da Visualização do Windows para o Visualizador de Verificação Linguística da Área de Trabalho](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.22.exe).
+   * No ambiente Produção, clique em  [Download de produção do Windows para o Visualizador de Verificação de Verificação de Verificação de Verificação de Desktop.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.23.exe)
+   * No ambiente de Visualização, clique em  [Download da Visualização do Windows para o Visualizador de Verificação Linguística da Área de Trabalho](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.23.exe).
 
 1. Abra o arquivo que acabou de baixar para iniciar a instalação.
 1. Na caixa de instalação exibida, abra o arquivo que acabou de baixar para iniciar a instalação.
