@@ -7,10 +7,10 @@ description: A Data de Destino é a data em que uma tarefa fica disponível para
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: 161084a3b459d4a9598fa780132d420bf0890c71
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -76,7 +76,7 @@ O Workfront usa as seguintes regras para calcular a Data de handoff de uma taref
 
    Os seguintes cenários existem:
 
-   * Quando a tarefa tem uma restrição de Deve Iniciar em ou Iniciar não antes de, a Data de Aprovação é a Data da Restrição, a menos que haja uma Data de Início Real na tarefa. Se houver uma Data de Início Real na tarefa, a Data de Entrega será a Data de Conclusão Real do antecessor.
+   * Quando a tarefa tem uma restrição de Deve Iniciar em ou Iniciar Não Antes de, a Data de Aprovação é a Data da Restrição, a menos que haja uma Data de Início Real na tarefa. Se houver uma Data de Início Real na tarefa, a Data de Entrega será a Data de Conclusão Real do antecessor.
    * Quando a tarefa tem uma restrição de Deve Concluir Em ou Iniciar Não Mais Tarde, a Data de Apresentação é sempre a Data de Conclusão Real do antecessor, independentemente de haver ou não uma Data de Início Real na tarefa.
    * Quando a tarefa tem uma restrição de Datas Fixas, a Data de Apresentação é a Data Inicial Planejada da tarefa, independentemente de ter ou não um antecessor e independentemente de o antecessor ser concluído ou não.
 
