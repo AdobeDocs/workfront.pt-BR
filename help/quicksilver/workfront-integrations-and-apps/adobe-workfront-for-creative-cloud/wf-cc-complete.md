@@ -6,9 +6,9 @@ description: Você pode ficar nos aplicativos Adobe Creative Cloud e concluir se
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
+source-git-commit: 012c2fbe923ed75587c236bc32436196bab9d9d0
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -60,5 +60,11 @@ Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contat
 
 1. No **[!UICONTROL Lista de Trabalho]**, selecione a tarefa ou o problema que deseja marcar como concluído.
 1. Clique em **[!UICONTROL Concluído]**.\
-   Isso marca o item concluído no Workfront.\
-   ![](assets/complete-work-350x529.png)
+   Isso marca o item concluído no Workfront.
+
+   >[!NOTE]
+   >
+   >Se o item de trabalho tiver predecessores, o botão Concluir fica cinza até que esses predecessores sejam marcados como concluídos. Para exibir os antecessores dentro de [!DNL Workfront], clique no nome da tarefa.
+   >![](assets/navigate-to-workfront.png)
+
+<!-- I dont think we need this one ![](assets/complete-work-350x529.png) -->
