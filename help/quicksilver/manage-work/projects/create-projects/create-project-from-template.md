@@ -2,26 +2,33 @@
 product-area: projects;templates
 navigation-topic: create-projects
 title: Criar um projeto usando um modelo
-description: Você pode usar modelos como uma estrutura para criar novos projetos. Se você tiver projetos que se repetem com frequência, usar modelos para a linha do tempo geral do novo projeto evita que você tenha que criar os mesmos projetos repetidamente.
+description: Você pode usar modelos como uma estrutura para criar projetos. Se você tiver projetos que se repetem com frequência, usar modelos para a linha do tempo geral do novo projeto evita que você tenha que criar os mesmos projetos repetidamente.
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: e38411056b3f9be6d0241ee18e71984ef2a678a0
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1104'
 ht-degree: 1%
 
 ---
 
 # Criar um projeto usando um modelo
 
-Você pode usar modelos como uma estrutura para criar novos projetos. Se você tiver projetos que se repetem com frequência, usar modelos para a linha do tempo geral do novo projeto evita que você tenha que criar os mesmos projetos repetidamente.
+Você pode usar modelos como uma estrutura para criar projetos. Se você tiver projetos que se repetem com frequência, usar modelos para a linha do tempo geral do novo projeto evita que você tenha que criar os mesmos projetos repetidamente.
 
-Os modelos fornecem uma maneira de capturar todos os processos, informações e configurações repetíveis associados aos projetos. Todas as informações associadas a um modelo são transferidas para o projeto. Isso inclui tarefas, atribuições, durações, documentos, detalhes financeiros, riscos e formulários personalizados.
+Os modelos fornecem uma maneira de capturar processos, informações e configurações repetíveis associados aos projetos. As informações associadas a um modelo são transferidas para o projeto. Isso inclui tarefas, atribuições, durações, documentos, detalhes financeiros, riscos e formulários personalizados.
 
 >[!TIP]
 >
->O status de um novo projeto criado a partir de um modelo corresponde ao status definido pelo administrador do Workfront na área principal Preferências do projeto ou por um administrador de grupo (ou administrador do Workfront) na área Preferências do projeto de um grupo. Para obter informações sobre como configurar as preferências do projeto, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) ou [Configurar preferências de projeto para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>O Workfront define o Grupo e o Status do novo projeto da seguinte maneira:
+>
+>* O status padrão de um novo projeto criado a partir de um modelo corresponde ao status definido pelo administrador do Workfront na área principal Preferências do projeto ou por um administrador de grupo (ou administrador do Workfront) na área Preferências do projeto de um grupo. Para obter informações sobre como configurar as preferências do projeto, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) ou [Configurar preferências de projeto para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>
+>* O Grupo do novo projeto é o Grupo do modelo. Se o modelo não estiver associado a um Grupo, o Grupo do projeto será o Grupo Doméstico do usuário que cria o projeto.
+>
+>* Os status disponíveis para um novo projeto correspondem aos status do Grupo do projeto, que é o Grupo do modelo, ou o Grupo inicial do usuário que cria o projeto.
+
 
 Você tem as seguintes opções para criar um projeto a partir de um modelo:
 
