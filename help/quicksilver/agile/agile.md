@@ -7,22 +7,24 @@ description: Revise os artigos nessas áreas para saber como usar o Agile no Ado
 author: Lisa
 feature: Agile
 exl-id: c9bce921-0aee-42ba-9d6d-dd855762dc76
-source-git-commit: 11009f24cd482e83319ed9f1ecf3f7a2f4e79d52
+source-git-commit: 25580047b2fe586852b9143f1f33c9858f51ee9f
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 3%
+source-wordcount: '99'
+ht-degree: 2%
 
 ---
 
 # Agile
 
+[!DNL Adobe Workfront] O oferece várias ferramentas para ajudar você a definir fluxos de trabalho ágeis. Os quadros são ferramentas simples, mas flexíveis, para colaboração em equipe. As ferramentas de planejamento ágil herdadas incluem um backlog e um quadro de histórias para equipes Kanban ou Scrum.
+
 Esta seção contém as seguintes subseções:
 
-* [Visão geral ágil](../agile/agile-overview.md)
 * [Visão geral das placas](../agile/boards-overview.md)
-* [Ágil em projetos](../agile/agile-in-projects/agile-in-projects.md)
-* [Introdução ao ágil em [!DNL Adobe Workfront]](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
 * [Introdução a quadros em [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md)
+* [Usar ferramentas de planejamento ágil em quadros](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
+* [Visão geral ágil](../agile/agile-overview.md)
+* [Introdução ao ágil em [!DNL Adobe Workfront]](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
 * [Kanban em uma equipe ágil](../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
 * [Soma em uma equipe ágil](../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
 * [Trabalhar em um ambiente ágil](../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)

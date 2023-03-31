@@ -2,9 +2,9 @@
 user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 feature-set: Workfront
-source-git-commit: 4588327c6b02b0d243e2a49f98cb88baac3e1270
+source-git-commit: 25580047b2fe586852b9143f1f33c9858f51ee9f
 workflow-type: tm+mt
-source-wordcount: '12783'
+source-wordcount: '12775'
 ht-degree: 1%
 
 ---
@@ -895,16 +895,7 @@ ht-degree: 1%
       * [Os botões de filtro não são exibidos nos cabeçalhos da página](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
 * Agile {#agile}
    * [Agile](agile/agile.md)
-   * [Visão geral ágil](agile/agile-overview.md)
    * [Visão geral das placas](agile/boards-overview.md)
-   * Ágil em projetos {#agile-in-projects}
-      * [Ágil em projetos](agile/agile-in-projects/agile-in-projects.md)
-      * [Projeto Ágil](agile/agile-in-projects/use-agile-on-a-project.md)
-   * Introdução ao ágil no Adobe Workfront {#agile-in-workfront}
-      * [Introdução ao ágil no Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
-      * [Criar uma equipe ágil](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
-      * [Configurar Kanban](agile/get-started-with-agile-in-workfront/configure-kanban.md)
-      * [Configurar Sombra](agile/get-started-with-agile-in-workfront/configure-scrum.md)
    * Introdução a quadros no Adobe Workfront {#boards-in-workfront}
       * [Introdução a quadros no Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
       * [Demonstrações em vídeo de placas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
@@ -933,6 +924,12 @@ ht-degree: 1%
       * [Usar a lista de cartões](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
       * [Criar uma iteração em uma sequência de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
       * [Revisar métricas de iteração](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
+   * [Visão geral ágil](agile/agile-overview.md)
+   * Introdução ao ágil no Adobe Workfront {#agile-in-workfront}
+      * [Introdução ao ágil no Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
+      * [Criar uma equipe ágil](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
+      * [Configurar Kanban](agile/get-started-with-agile-in-workfront/configure-kanban.md)
+      * [Configurar Sombra](agile/get-started-with-agile-in-workfront/configure-scrum.md)
    * Kanban em uma equipe ágil {#kanban}
       * [Kanban em uma equipe ágil](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [Visão geral do Kanban](agile/use-kanban-in-an-agile-team/kanban-overview.md)
