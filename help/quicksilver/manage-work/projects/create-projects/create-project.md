@@ -6,9 +6,9 @@ description: Um projeto é uma grande unidade de trabalho no Adobe Workfront. Vo
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 590fd9e5b9ad6cce9c66b708959033ee780b1f10
+source-git-commit: 9125e2f7dbff41625166dcd358bab44d7c1b971b
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1371'
 ht-degree: 1%
 
 ---
@@ -123,9 +123,9 @@ Ao criar um projeto, o Workfront aplica um conjunto de configurações padrão a
 
 Considere o seguinte:
 
-* Como administrador do Workfront ou administrador de grupo, você pode definir as configurações padrão de um novo projeto ao definir Preferências do projeto.
+* Como administrador do Workfront ou administrador de grupo, você pode definir as configurações padrão de um novo projeto ao definir Preferências de projeto para sua instância do Workfront ou para um grupo.
 * A Workfront aplica as configurações do grupo, se houver, antes de aplicar as configurações definidas pelo administrador do Workfront.
-* Se você criar um projeto usando um modelo, as configurações do modelo terão prioridade sobre as configurações estabelecidas pelo administrador do grupo ou da Workfront.
+* O Status padrão de um novo projeto corresponde ao status definido pelo administrador do Workfront na área principal Preferências do projeto ou por um administrador de grupo (ou administrador do Workfront) na área Preferências do projeto de um grupo.
 
    >[!NOTE]
    >
@@ -133,15 +133,23 @@ Considere o seguinte:
    >
    >Para obter mais informações sobre como configurar o status padrão e outras configurações padrão para um novo projeto, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) ou [Configurar preferências de projeto para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
-* O Workfront define o Grupo e o Status do novo projeto da seguinte maneira:
+* Existem os seguintes cenários para a forma como o Workfront define o Grupo e o Status de um novo projeto:
 
-   * O status padrão de um novo projeto criado a partir de um modelo corresponde ao status definido pelo administrador do Workfront na área principal Preferências do projeto ou por um administrador de grupo (ou administrador do Workfront) na área Preferências do projeto de um grupo.
+   * Se você criar um projeto do zero, o Grupo do projeto será seu Grupo doméstico.
 
-   * O Grupo do novo projeto é o Grupo do modelo. Se o modelo não estiver associado a um Grupo, o Grupo do projeto será o Grupo Doméstico do usuário que cria o projeto.
+      O Status do projeto é o status padrão nas Preferências do projeto do seu Grupo doméstico, se houver um, ou da sua instância do Workfront. Você pode alterar o status padrão ao criar o projeto para qualquer status disponível para o Grupo do projeto.
 
-   * Os status disponíveis para um novo projeto correspondem aos status do Grupo do projeto, que é o Grupo do modelo, ou o Grupo inicial do usuário que cria o projeto.
+   * Se você criar um projeto usando um modelo, as configurações do modelo terão prioridade sobre as configurações estabelecidas pelo administrador do grupo ou da Workfront.
 
-   * O grupo de um novo projeto criado pela conversão de um problema em um projeto é o Grupo do projeto existente do problema. Se o usuário que está convertendo o problema não tiver acesso ao projeto do problema, o Grupo do novo projeto será o Grupo Doméstico do usuário que está convertendo o problema. Os status do novo projeto correspondem aos status do grupo associado ao projeto, que é o Grupo do projeto original ou o Grupo inicial do usuário que está convertendo o problema.
+      O Grupo do novo projeto é o Grupo do modelo. Se o modelo não estiver associado a um Grupo, o Grupo do projeto será o Grupo Doméstico do usuário que cria o projeto.
+
+      O status padrão de um novo projeto criado a partir de um modelo corresponde ao status definido pelo administrador do Workfront na área principal Preferências do projeto ou por um administrador de grupo (ou administrador do Workfront) na área Preferências do projeto do grupo. Você pode alterar o status padrão ao criar um projeto a partir de um modelo, para qualquer um dos status do Grupo do projeto que seja o Grupo do modelo ou o Grupo inicial do usuário que cria o projeto.
+
+   * Se você criar um projeto convertendo um problema, o grupo de um novo projeto é o Grupo do projeto existente do problema. Se o usuário que está convertendo o problema não tiver acesso ao projeto do problema ou se o projeto do problema não tiver um Grupo, o Grupo do novo projeto será o Grupo Doméstico do usuário que está convertendo o problema.
+
+      Os status do novo projeto correspondem aos status do grupo associado ao projeto, que é o Grupo do projeto original ou o Grupo inicial do usuário que está convertendo o problema.
+
+      Se estiver usando um modelo ao criar o projeto convertendo o problema, consulte o segundo cenário acima para entender qual Grupo e qual Status Workfront se aplicam ao novo projeto.
 
 ## Criar um projeto do zero
 

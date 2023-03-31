@@ -6,9 +6,9 @@ description: Você pode incorporar uma nova fila de solicitações em um painel 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 2894161b61a00dab04c17ef642ace4a45179eb17
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1178'
 ht-degree: 1%
 
 ---
@@ -97,11 +97,9 @@ Quando você compartilha um link para um tipo de solicitação, o tipo de solici
 
    O código deve ser semelhante ao seguinte:
 
-   ```
-   <samp>https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=</samp>
-   ```
+   `https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=`
 
-   Este é o link para a fila de solicitações associada ao projeto selecionado. O Tipo de Solicitação é pré-selecionado.
+   Esse é o link para a fila de solicitações associada ao projeto selecionado. O Tipo de solicitação é pré-selecionado.
 
    Os usuários podem selecionar qualquer grupo de tópicos ou tópico da fila que precisarem, ou podem escolher outro tipo de solicitação.
 
@@ -120,19 +118,15 @@ Quando você compartilha um link para um tipo de solicitação pré-selecionada,
 
    O código deve ser semelhante ao seguinte:
 
-   ```
-   <samp><iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe></samp>
-   ```
+   `<iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe>`
 
 1. Edite o código para preservar somente as informações abaixo:
 
-   ```
-   <samp>https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71</samp>
-   ```
+   `https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71`
 
    >[!TIP]
    >
-   >Você pode preservar o `<samp>iframe </samp>` ao incorporar o código em um aplicativo diferente do Workfront.
+   >Você pode adicionar uma `<samp>iframe </samp>` ao incorporar o código em um aplicativo diferente do Workfront.
 
    Esse é o link para a fila de solicitações associada ao projeto selecionado. O Tipo de solicitação é pré-selecionado e não pode ser alterado.
 
