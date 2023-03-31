@@ -4,9 +4,9 @@ description: Dicas, truques e solução de problemas para [!DNL Adobe Workfront]
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
@@ -25,5 +25,4 @@ Esta seção contém os seguintes artigos:
 * [Processos de aprovação duplicados que são exibidos na [!UICONTROL Lista de Trabalho Doméstica]](../../workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
 * [Os botões de filtro não são exibidos nos cabeçalhos da página](../../workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
 * [Alterar o formato das datas em [!DNL Adobe Workfront]](../tips-tricks-and-troubleshooting/change-date-format-chrome.md)
-
-
+* [O filtro Projetos em que estou inclui resultados inesperados](../tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)

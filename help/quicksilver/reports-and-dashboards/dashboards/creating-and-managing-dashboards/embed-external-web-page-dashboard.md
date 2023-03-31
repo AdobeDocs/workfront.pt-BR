@@ -6,9 +6,9 @@ description: Você pode incorporar uma página da Web externa em um painel para 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: a8a3aec50b5538de5867ce3ba7723d92c046b50d
+source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,9 @@ Por exemplo, se sua organização tiver um repositório de documentos baseado na
 
 >[!IMPORTANT]
 >
->Páginas de painel não são mais suportadas como páginas externas incorporadas em Painéis. Especificamente, os seguintes subdomínios Workfront.com não são mais compatíveis:
+>Páginas de painel não são mais suportadas como páginas externas incorporadas em Painéis. Embora os painéis existentes não sejam modificados automaticamente para remover essas páginas externas, qualquer modificação em um painel que inclua tal referência não poderá ser salva até que a referência seja removida ou alterada.
+>
+>Especificamente, os seguintes subdomínios Workfront.com não são mais compatíveis:
 >
 >* /painéis &#x200B;
 >* /dashboard/:ID &#x200B;
@@ -44,7 +46,8 @@ Por exemplo, se sua organização tiver um repositório de documentos baseado na
 >* /requests/:ID/content-dashboard_:dashboardID &#x200B;
 >* /group/:ID/content-dashboard_:dashboardID &#x200B;
 >* /billingrecord/:ID/content-dashboard__:dashboardID
-
+>
+>Como solução alternativa, considere incluir um relatório de lista no painel, como explicado em [Adicionar um relatório a um painel](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
 
 ## Requisitos de acesso
 
@@ -85,7 +88,7 @@ Para obter informações sobre como criar painéis, consulte [Criar um painel](.
 
 >[!IMPORTANT]
 >
->Você pode remover uma Página externa de um painel se ela não for mais necessária. No entanto, não é possível excluir uma página externa após sua criação no Workfront. Você pode excluir uma página externa somente usando a API . Para obter mais informações, consulte [Remover uma página externa de um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+>Você pode remover uma Página externa de um painel se ela não for mais necessária. No entanto, não é possível excluir uma página externa depois de sua criação no Workfront. Você pode excluir uma página externa somente usando a API . Para obter mais informações, consulte [Remover uma página externa de um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
 
 1. Localize o URL da página a ser exibida no Workfront e copie o URL localizado na barra de endereços.
 

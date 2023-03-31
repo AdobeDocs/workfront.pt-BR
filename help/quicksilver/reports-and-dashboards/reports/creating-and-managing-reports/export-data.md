@@ -6,9 +6,9 @@ description: Alguns dos motivos para exportar dados são - EDITE-ME.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 754ff1d13cd2549f09cfb127786a0a1eeda51a9d
+source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2182'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ Há várias limitações no modo como os relatórios são exibidos no Workfront,
 
    >[!IMPORTANT]
    >
-   >Exportar um relatório que inclui uma referência de coleção em uma coluna pode resultar em um erro, mesmo que o relatório esteja dentro dos limites de exportação listados. Se a coleção referenciada for muito grande, o tempo limite do processo de exportação expirará e, subsequentemente, resultará em um erro.
+   >Exportar um relatório que inclui uma referência de coleção em uma coluna pode resultar em um erro, mesmo que o relatório esteja dentro dos limites de exportação listados. Se a coleção referenciada for muito grande, o processo de exportação expirará e, subsequentemente, resultará em um erro.
    >
    >Para evitar esse erro, exclua as colunas que fazem referência a coleções grandes ou reduza o tamanho das coleções referenciadas antes de exportar.
 
