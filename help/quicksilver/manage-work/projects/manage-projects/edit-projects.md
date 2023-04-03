@@ -6,9 +6,9 @@ description: Você pode editar um projeto no Adobe Workfront sempre que necessá
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '7718'
+source-wordcount: '7787'
 ht-degree: 2%
 
 ---
@@ -323,6 +323,7 @@ Ao selecionar mais de um projeto para editá-los em massa, os seguintes cenário
 * Se você não tiver permissões para Editar formulário personalizado em pelo menos um dos projetos selecionados, não poderá editar os campos em nenhum dos formulários personalizados anexados. Você só pode exibir os campos nos formulários personalizados anexados
 * Se você tiver o acesso Exibir (e não Editar) a uma seção em um formulário personalizado, não poderá editar os campos nessa seção. Você só pode exibir os campos nessa seção.
 * Se você não tiver acesso a uma seção em um dos formulários personalizados anexados a pelo menos um dos projetos, a seção não será exibida na caixa Editar projetos .
+* Se você tiver campos obrigatórios em qualquer um dos formulários personalizados anexados a todos os projetos e selecionar um campo sem realmente editá-lo, você deve descartar as alterações nesse campo ou adicionar informações a ele antes de poder salvar os projetos selecionados. Se não selecionar um campo obrigatório, será possível salvar os projetos selecionados mesmo se o campo obrigatório estiver em branco.
 
 Para obter informações sobre o acesso personalizado ao formulário, consulte os seguintes artigos:
 

@@ -6,9 +6,9 @@ description: É possível adicionar uma atualização em um objeto do Adobe Work
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2758'
 ht-degree: 1%
 
 ---
@@ -189,7 +189,7 @@ A adição de uma atualização a um item de trabalho é diferente, dependendo d
 
 1. Localize o objeto que deseja atualizar e clique em seu nome para abrir a página do objeto.
 1. Clique em  **Atualizações** no painel esquerdo.
-1. Clique em **Experimente o comentário Beta** no canto inferior direito da área Atualizações e clique em **Concordar** sobre o contrato Beta. Isso alterna a área Atualizações para a experiência Beta de comentário.
+1. Ative o **Beta de comentários** alterne no canto superior direito da área Atualizações e clique em **Concordar** sobre o contrato Beta. Isso alterna a área Atualizações para a experiência Beta de comentário.
 O **Comentários** é selecionada por padrão.
 1. Comece a inserir um comentário na **Novo comentário** caixa.
 
@@ -224,7 +224,7 @@ O **Comentários** é selecionada por padrão.
 
 1. Clique em **Enviar** para adicionar a atualização ao objeto do Workfront.
 1. (Opcional) Para editar um comentário, clique no botão **Mais** menu ![](assets/more-menu.png) à direita do ícone Curtir e, em seguida, clique em **Editar**.
-1. Edite as informações no comentário ou remova qualquer um dos usuários marcados.
+1. Edite as informações no comentário ou remova qualquer um dos usuários marcados. <!--check to make sure you can still remove the users in preview or production. At one point, they were removing this functionality-->
 É possível editar seu comentário em 15 após enviá-lo. Um indicador &quot;Editado&quot; é adicionado à esquerda do carimbo de data que é exibido quando o comentário é atualizado.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -322,11 +322,12 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
 
 ## Copiar informações de atualização
 
-<!--drafted for beta release toggle - remove when copying an update will be available:-->
+<!--drafted for beta release toggle - remove when copying an update will be available:
 
 >[!NOTE]
 >
->Não é possível copiar uma atualização ao usar a experiência de comentário Beta.
+>Copying an update is not possible when using the Beta commenting experience.
+-->
 
 Há várias maneiras de copiar uma atualização. Depois de copiar um link, você pode compartilhá-lo com outras pessoas para direcioná-los para a atualização.
 
@@ -348,7 +349,7 @@ Essa opção copia o texto de uma atualização específica para a área de tran
 Essa opção copia o link de encadeamento completo para a área de transferência para que você possa compartilhar o encadeamento com outros usuários.
 
 1. Vá para o thread de atualização que deseja copiar.
-1. Clique no botão **Mais** , em seguida, clique em **Copiar link de encadeamento**.
+1. Clique no botão **Mais** , em seguida, clique em **Copiar link de encadeamento** <span class="preview">ou **Copiar link** ao usar a experiência Beta</span>.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -357,7 +358,7 @@ Essa opção copia o link de encadeamento completo para a área de transferênci
 Essa opção copia um link de atualização específico para a área de transferência. Quando você compartilha o link de atualização, o usuário que o segue vê uma borda ao redor da atualização.
 
 1. Vá para a atualização ou resposta que deseja copiar.
-1. Clique no botão **Mais** ao lado da atualização individual, em seguida, clique em **Copiar link de atualização**.
+1. Clique no botão **Mais** ao lado da atualização individual, em seguida, clique em **Copiar link de atualização** <span class="preview">ou **Copiar link** ao usar a experiência Beta</span>.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
