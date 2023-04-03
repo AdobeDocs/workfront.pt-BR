@@ -6,9 +6,9 @@ description: Você pode alterar o idioma em que exibe o Adobe Workfront e os ema
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 961eba73186f8fe3f10affc0c6e52067f997ef31
+source-git-commit: 3d2e1dd5121b2495f984bed1ec1b9939de89f175
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,16 @@ A terminologia do Workfront é atualizada para os idiomas compatíveis com cada 
 
 O Workfront oferece suporte para os seguintes idiomas:
 
-* Chinês - Simplificado (zh-CN)
-* Chinês - Tradicional (zh-TW)
 * Inglês (EN-US)
 * Francês (FR)
 * Alemão (DE)
-* Italiano (it_IT)
 * Japonês (JA)
+* Espanhol (ES)
+* Italiano (it_IT)
 * Português (pt-BR)
-* Espanhol - América Latina
+* Coreano (KO)
+* Chinês - Simplificado (zh-CN)
+* Chinês - Tradicional (zh-TW)
 
 O idioma usado para exibir o Workfront em seu navegador é controlado pelas configurações de idioma do navegador. Certifique-se de selecionar um idioma para o navegador que esteja listado na lista de idiomas suportados.
 
