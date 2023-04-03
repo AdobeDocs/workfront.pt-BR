@@ -6,9 +6,9 @@ description: Você pode fazer upload de seus quadros de arte como documentos par
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: aaca183e-75e5-4a5c-b75b-a7809ccd1274
-source-git-commit: 9ed0fcb4344d72d6629cafd16f1a81dee4063a1e
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,10 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 1. Clique no botão **[!UICONTROL Documento]** ícone ![](assets/documents.png) na barra de navegação.
 
 1. Clique em **[!UICONTROL Novo arquivo]** próximo à parte inferior do plug-in.
-1. Escolha a **[!UICONTROL Tipo de ativo]** no menu suspenso.
 1. (Opcional) Digite um comentário no **[!UICONTROL Atualizações]** área.
-1. Clique em **[!UICONTROL Upload]**, configure as opções de exportação desejadas com base no tipo de ativo escolhido acima.
+1. Escolha a **[!UICONTROL Tipo de ativo]** no menu suspenso.
+1. Abra o **[!UICONTROL Definir configurações do arquivo de exportação]** em seguida, configure as opções de exportação desejadas com base no tipo de ativo escolhido acima.
+
+   ![](assets/file-export-settings.png)
+1. Clique em **[!UICONTROL Upload]**.
 O documento é exibido na [!UICONTROL Documentos] no plug-in e no aplicativo de desktop.

@@ -6,9 +6,9 @@ description: Você pode instalar o plug-in Adobe Workfront for Photoshop no Adob
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '465'
 ht-degree: 1%
 
 ---
@@ -64,13 +64,9 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 >Se você for um [!DNL Adobe Admin Console] administrador, você pode incluir o plug-in em [!DNL Creative Cloud] pacotes de implantação. Para obter mais informações, consulte [Inclusão de plug-ins no seu pacote](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
 
-1. Abra o [!DNL Adobe Creative Cloud] aplicativo.
-1. Clique no botão **[!UICONTROL Marketplace]** na parte superior da janela.
-1. No **[!UICONTROL Pesquisar todos os plug-ins]** caixa, tipo *Workfront* e pressione **[!UICONTROL Enter]**.
-
-   ![](assets/adobe-marketplace-350x218.png)
-
-1. Quando o plug-in Adobe Workfront for Photoshop for exibido nos resultados da pesquisa, clique em **[!UICONTROL Get]**.
+1. Vá para o [Página de instalação do Adobe Workfront for Photoshop](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) no Adobe Exchange.
+1. Na caixa de diálogo exibida, clique em **Abrir [!DNL Adobe Creative Cloud] aplicativo de desktop**.
+1. Uma vez [!DNL Adobe Photoshop] o gerenciador de plug-ins é aberto, clique em **[!UICONTROL Instalar]**.
 1. Leia as informações na caixa de diálogo e clique em **[!UICONTROL OK]**.
 
 1. Prossiga para a seção a seguir para obter informações sobre como abrir o plug-in.
@@ -97,7 +93,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
 1. No **[!UICONTROL Plug-ins]** na parte superior do ecrã, selecione **[!UICONTROL Painel de plug-ins]**.
 1. Selecionar **[!DNL Adobe Workfront for Photoshop]**.
-1. Insira seu domínio e clique em **[!UICONTROL Fazer logon]**. Uma página do navegador é aberta.
+1. Insira seu domínio e clique em **[!UICONTROL Fazer logon]**. Uma página do navegador é aberta. Talvez seja necessário conceder permissão ao Photoshop para abrir o navegador.
 
    >[!TIP]
    >
