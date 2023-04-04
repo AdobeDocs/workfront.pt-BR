@@ -6,7 +6,7 @@ description: É possível adicionar uma atualização em um objeto do Adobe Work
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
 workflow-type: tm+mt
 source-wordcount: '2758'
 ht-degree: 1%
@@ -232,6 +232,7 @@ O **Comentários** é selecionada por padrão.
    >[!TIP]
    >
    >   Um email é gerado para notificar os usuários sobre sua atualização somente quando você envia a atualização original. Nenhum email é gerado após você ter editado sua atualização.
+
 1. (Opcional) Clique em **Responder** para responder a um comentário existente, siga as etapas 4 a 7 acima. <!--(**************insure this stays accurate***********)-->. Para obter informações sobre como responder a uma atualização, consulte [Responder atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Opcional) Clique no botão **Like** ícone![](assets/like-icon.png). O ícone é atualizado com o número de curtidas.
 1. (Condicional e Opcional) Se você incluiu pessoas adicionais em seu comentário, clique no número de membros incluídos na atualização para exibir uma lista de entidades com as quais o comentário inserido foi compartilhado.
@@ -349,7 +350,12 @@ Essa opção copia o texto de uma atualização específica para a área de tran
 Essa opção copia o link de encadeamento completo para a área de transferência para que você possa compartilhar o encadeamento com outros usuários.
 
 1. Vá para o thread de atualização que deseja copiar.
-1. Clique no botão **Mais** , em seguida, clique em **Copiar link de encadeamento** <span class="preview">ou **Copiar link** ao usar a experiência Beta</span>.
+
+1. Clique no botão **Mais** , em seguida, clique em **Copiar link de encadeamento**
+
+   ou
+
+   <span class="preview">**Copiar link** ao usar a experiência Beta</span>.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -358,7 +364,11 @@ Essa opção copia o link de encadeamento completo para a área de transferênci
 Essa opção copia um link de atualização específico para a área de transferência. Quando você compartilha o link de atualização, o usuário que o segue vê uma borda ao redor da atualização.
 
 1. Vá para a atualização ou resposta que deseja copiar.
-1. Clique no botão **Mais** ao lado da atualização individual, em seguida, clique em **Copiar link de atualização** <span class="preview">ou **Copiar link** ao usar a experiência Beta</span>.
+1. Clique no botão **Mais** ao lado da atualização individual, em seguida, clique em **Copiar link de atualização**
+
+   ou
+
+   <span class="preview">**Copiar link** ao usar a experiência Beta</span>.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -373,7 +383,11 @@ Nenhum usuário do Workfront (incluindo o administrador do Workfront) pode exclu
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Na mensagem que aparece, clique em **Confirmar** <span class="preview">ou **Excluir**</span>, na experiência de comentário em Beta.
+1. Na mensagem que aparece, clique em **Confirmar**
+
+   ou
+
+   <span class="preview"> **Excluir**, na experiência de comentário Beta</span>.
 
 >[!NOTE]
 >

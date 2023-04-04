@@ -6,14 +6,16 @@ description: Além de usar os rascunhos disponíveis que a Workfront sugere para
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '606'
 ht-degree: 1%
 
 ---
 
 # Criar solicitações de rascunhos
+
+<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Está disponível somente no ambiente de Visualização.</span>
 
 Além de usar os rascunhos disponíveis que a Workfront sugere para você ao inserir uma nova solicitação, também é possível acessar uma solicitação de rascunho a partir da seção Rascunhos e finalizar o envio a partir dessa seção.
 
@@ -53,11 +55,13 @@ Você deve fazer o seguinte antes de criar uma solicitação a partir de um rasc
 ## Criar solicitações de rascunhos
 
 1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Workfront.
-1. Clique em **Solicitações** > **Rascunhos**.
+1. Clique em **Solicitações** > **Rascunhos**.
 
    Um rascunho para cada tópico da fila de cada fila de solicitações é exibido nessa lista.
 
    ![](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
+
+1. <span class="preview">(Opcional) Clique em um cabeçalho de coluna para classificar a lista pela coluna.</span>
 
 1. Revise as informações sobre cada rascunho nas seguintes colunas da lista Rascunhos:
 
@@ -69,8 +73,7 @@ Você deve fazer o seguinte antes de criar uma solicitação a partir de um rasc
 
    {style="table-layout:auto"}
 
-1. (Opcional) Clique em **Filtrar por tipo de solicitação** no canto superior direito da lista de rascunhos, selecione a fila de solicitações que contém os rascunhos que deseja exibir.
-1. Clique no nome de um rascunho para abri-lo.
+1. <span class="preview">(Opcional) Usando o filtro rápido no canto superior direito da lista Rascunhos, comece a digitar o nome de uma solicitação elaborada, a fila de solicitações, o tópico da fila ou o grupo de tópicos e, em seguida, clique no nome de um rascunho para abri-lo. </span>
 1. Atualize as informações para a solicitação conforme descrito em [Criar e enviar solicitações do Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. (Opcional e condicional) Em qualquer ponto durante a inserção da solicitação, clique em **Descartar** rascunho se desejar excluir o rascunho. Isso exclui o rascunho que não pode ser recuperado. Para obter mais informações sobre exclusão de rascunhos, consulte [Excluir um rascunho de solicitação](../../../manage-work/requests/create-requests/delete-request-draft.md).
 
