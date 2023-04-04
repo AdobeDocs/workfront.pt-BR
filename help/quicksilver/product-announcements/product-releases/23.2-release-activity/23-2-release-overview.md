@@ -4,9 +4,9 @@ description: Visão geral da versão 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 1dfe9305e7d9de1dfdf9b149ba185b2f061cba2e
+source-git-commit: 2049958745516d37f41938fbd4b6398f57378959
 workflow-type: tm+mt
-source-wordcount: '2692'
+source-wordcount: '2698'
 ht-degree: 0%
 
 ---
@@ -625,7 +625,7 @@ Não há atualizações da Workfront Proof neste ponto da versão. Essa área se
 
 ### Aprimoramentos das metas da Workfront
 
-Não há atualizações de Metas da Workfront neste momento no lançamento. Essa área será atualizada quando houver atualizações disponíveis.
+Novos recursos que chegam ao lançamento dos Objetivos do Workfront com a versão 23.2. Para obter informações sobre esses novos recursos agora disponíveis em Visualização, consulte [Metas da Adobe Workfront com a versão 23.2](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
 
 ### API versão 15
 
