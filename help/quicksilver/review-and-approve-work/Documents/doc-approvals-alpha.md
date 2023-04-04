@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management
 hide: true
 hidefromtoc: true
-source-git-commit: 7b1c52da63507e36b6000e74fcb502f9436e19d1
+source-git-commit: 11855fef5f1f1c48ab51cce62a540afae0efba15
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,21 @@ Para participar desta versão Alfa, certifique-se de ter sido adicionado ao Alfa
 
 ## Versão mais recente
 
+### Versão Alfa 3 - Março De 2023
+
+Nesta terceira versão Alfa, incorporamos seu feedback ao introduzir mensagens de sucesso exibidas ao concluir ações como adicionar ou remover aprovadores e revisores. Além disso, esta versão oferece visibilidade aprimorada de aprovações pendentes, que agora podem ser visualizadas nas páginas Início e Minhas atualizações , permitindo que os usuários aprovem documentos facilmente diretamente dessas páginas.
+
+Confira o vídeo completo abaixo:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3417854/)
+
+## _Versões anteriores_
+
 ### Versão Alfa 2 - Janeiro de 2023
 
 Com esta versão Alfa 2, você pode adicionar indivíduos e equipes como revisores ou aprovadores e tomar decisões de aprovação diretamente da página de detalhes do documento.
 
->[!VIDEO](https://video.tv.adobe.com/v/3413941/?quality=12)
-
-## _Versões anteriores_
+Observe a [apresentação de vídeo](https://video.tv.adobe.com/v/3413941){target=_blank}.
 
 ### Versão Alfa 1 - novembro de 2022
 
