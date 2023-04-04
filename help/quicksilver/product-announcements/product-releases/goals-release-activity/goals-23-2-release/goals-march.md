@@ -6,9 +6,9 @@ title: Atividade de lançamento do Adobe Workfront Metas 23.2 Semana de 20 de ma
 description: Esta página descreve todas as melhorias feitas com a versão 23.2 das Metas do Adobe Workfront para o ambiente de Visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção na semana de 20 de março de 2023.
 author: Courtney
 feature: Product Announcements, Workfront Goals
-source-git-commit: 69fbdd87bcb7a2743aec6d6ad06246b018b9ff16
+source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

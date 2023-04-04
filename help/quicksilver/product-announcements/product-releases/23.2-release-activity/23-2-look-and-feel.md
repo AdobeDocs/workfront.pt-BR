@@ -4,10 +4,10 @@ description: Atualizações de aparência e comportamento durante o período de 
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8ccfa470f7d09a3a7ca0b8414c53e31c1e03f185
+source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +17,21 @@ ht-degree: 2%
 Esta página descreve pequenas atualizações na aparência de várias áreas do aplicativo Adobe Workfront que foram feitas dentro do período de tempo da versão 23.2. Esses aprimoramentos serão disponibilizados no ambiente de Produção no mínimo 2 semanas após o lançamento da Pré-visualização.
 
 Para obter uma lista de todas as alterações disponíveis com a versão 23.2, consulte [Visão geral da versão 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Atualizações na aparência da lista de Rascunhos na área Solicitações
+
+>[!NOTE]
+>
+>Versão de visualização: 4 de abril de 2023; Versão de produção planejada: 18 de abril de 2023
+
+Atualizamos a lista Rascunhos na área Solicitações para torná-la consistente com listas mais recentes no Workfront.
+Algumas das atualizações incluem:
+
+* Substituído o filtro &quot;Filtrar por tipo de solicitação&quot; pelo filtro rápido padrão
+* Remoção da imagem da lista de Rascunhos quando a lista não contém solicitações
+* Adição de paginação e classificação de coluna à lista.
+
+Para obter mais informações, consulte [Criar solicitações de rascunhos](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
 
 ## Seleção de usuário inteligente disponível em outras áreas do Workfront
 
