@@ -6,9 +6,9 @@ description: Os pools de recursos são coleções de usuários que ajudam a gere
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 Also - take out all the references to Preview and Prod at prod final
 -->
 
-<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Ele está disponível para todos os clientes no ambiente de Visualização e para um grupo selecionado de clientes no ambiente de Produção.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 
 <!--
@@ -104,9 +104,9 @@ Para associar pools de recursos a vários projetos em massa:
 
    >[!NOTE]
    >
-   >* No ambiente Produção, ao editar projetos ou modelos em massa, somente os pools de recursos comuns a todos os projetos ou modelos selecionados aparecem nesse campo. Se os projetos selecionados não tiverem pools de recursos compartilhados, esse campo estará vazio. Os pools de recursos especificados aqui substituirão os pools de recursos individuais dos projetos ou modelos.
+   >* Ao editar modelos em massa, somente os pools de recursos comuns a todos os modelos selecionados aparecem nesse campo. Se os modelos selecionados não tiverem pools de recursos compartilhados, esse campo estará vazio. Os pools de recursos especificados aqui substituem os pools de recursos individuais dos projetos ou modelos.
    >
-   >* <span class="preview">No ambiente de Visualização, ao editar projetos em massa, há um indicador &quot;Vários valores&quot; se os projetos selecionados tiverem pools de recursos diferentes. Se você adicionar pools de recursos em massa, todos os pools serão adicionados ao projeto selecionado, substituindo os pools de recursos originais.</span>
+   >* Ao editar projetos em massa, há um indicador &quot;Vários valores&quot; se os projetos selecionados tiverem pools de recursos diferentes. Se você adicionar pools de recursos em massa para projetos, todos os pools serão adicionados ao projeto selecionado, substituindo os pools de recursos originais.</span>
 
 
    <span class="preview">![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)</span>

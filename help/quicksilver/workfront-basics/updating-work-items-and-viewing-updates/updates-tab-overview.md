@@ -7,9 +7,9 @@ description: A seção Atualizações de um objeto exibe os comentários que os 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '896'
 ht-degree: 4%
 
 ---
@@ -18,33 +18,28 @@ ht-degree: 4%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Está disponível somente no ambiente de Visualização.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 >[!NOTE]
 >
->No momento, estamos reprojetando a seção Atualizações de um objeto.
->
+>No momento, estamos reprojetando a experiência de comentários no Adobe Workfront.
 >Para obter mais informações sobre a nova experiência de atualização, consulte [Nova experiência de comentário](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->Você pode acessar o novo design nos seguintes objetos e ambientes:
+>Você pode acessar o novo design para os seguintes objetos:
+> * Problemas ao ativar o comentário Beta.
+   >
+   >     Essa funcionalidade está disponível somente para a seção Atualizações de problemas e não está disponível para as seguintes áreas:
+   >
+   >     * Página inicial
+   >     * Painel Resumo em listas
+   >     * Painel Resumo nas folhas de horas
 >
->* <span class="preview">Ao ativar a experiência de comentário Beta para os seguintes objetos:</span>
-   >
-   >     * <span class="preview">Problemas</span>
-
-   >     
-   >     <span class="preview">Essa funcionalidade está disponível somente para a seção Atualizações de problemas e não está disponível para as seguintes áreas:</span>
-   >
-   >     * <span class="preview">Página inicial</span>
-   >     * <span class="preview">Painel Resumo em listas</span>
-   >     * <span class="preview">Painel Resumo nas folhas de horas</span>
->
->* Por padrão, como a experiência atual de comentário para os seguintes objetos:
-   >
-   >     * Metas
+> * Metas
 
    >
-   >     Você deve ter uma licença adicional para acessar as Metas da Workfront. Para obter mais informações, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). Para obter informações sobre comentários sobre metas, consulte [Gerenciar comentários da meta nas Metas da Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+   >   A nova experiência de comentário é o padrão para metas. Você deve ter uma licença adicional para acessar as Metas da Workfront. Para obter mais informações, consulte [Requisitos para usar as metas da Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   >
+   >    Para obter informações sobre comentários sobre metas, consulte [Gerenciar comentários da meta nas Metas da Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 A seção Atualizações de um objeto exibe os comentários que os usuários fazem sobre as atualizações de objeto ou sistema que rastreiam as alterações no objeto.
@@ -116,7 +111,7 @@ No momento, é possível fazer comentários e responder atualizações usando a 
      </ul> </td> 
    <td> 
     <ul> 
-     <li><span class="preview">Problemas</span></li> 
+     <li>Problemas</li> 
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -192,7 +187,7 @@ Por exemplo, quando você adiciona uma atualização a uma tarefa, a atualizaç�
 >
 >Para obter informações sobre a hierarquia de objetos no Adobe Workfront, consulte [Entender objetos no Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-><span class="preview"> Não é possível responder a atualizações do sistema na nova experiência beta de comentários. Para obter mais informações, consulte [Nova experiência de comentário](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span>
+> Não é possível responder a atualizações do sistema na nova experiência beta de comentários. Para obter mais informações, consulte [Nova experiência de comentário](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 ## Limitações da seção de atualizações
 

@@ -6,16 +6,16 @@ description: Você pode editar um projeto no Adobe Workfront sempre que necessá
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '7787'
+source-wordcount: '7310'
 ht-degree: 2%
 
 ---
 
 # Editar projetos
 
-<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Ele está disponível para todos os clientes no ambiente de Visualização e para um grupo selecionado de clientes no ambiente de Produção.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -694,110 +694,11 @@ Os seguintes campos são incluídos no cabeçalho do projeto, por padrão.
 
 É possível editar projetos em massa e atualizar informações de todos os projetos selecionados ao mesmo tempo.
 
+Considere o seguinte ao editar projetos em massa:
 
-As informações que você está alterando em todos os projetos selecionados substituem as informações existentes em projetos individuais, exceto no campo Gerenciador de recursos .
+* As informações que você está alterando em todos os projetos selecionados substituem as informações existentes em projetos individuais, exceto no campo Gerenciador de recursos .
 
-Adicionar um novo gerenciador de recursos ao editar projetos em massa adiciona esse gerenciador a todos os projetos selecionados. Se outros gerentes de recursos estiverem associados aos projetos selecionados, eles permanecerão nos projetos, além do que foi adicionado por meio da edição em massa.
-
-A edição de projetos em massa varia dependendo do ambiente em que você escolhe atualizá-los.
-
-### Editar projetos em massa no ambiente de Produção
-
-Para editar projetos em massa:
-
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
-
-1. Clique em **Projetos**.
-1. Selecione vários projetos na lista.
-1. Clique em **Editar**.
-
-   O **Editar projetos** será aberta.
-
-   ![](assets/edit-projects-in-bulk-nwe-350x303.png)
-
-1. Especifique as informações sobre todos os projetos selecionados nas seguintes seções:
-
-   * **Visão geral**
-
-      Para obter informações, consulte o [Visão geral](#overview) neste artigo.
-
-   * **Finanças**
-
-      Para obter informações, consulte o [Finanças](#finance) neste artigo.
-
-   * **Portfólio**
-
-      Para obter informações, consulte a seção &quot;Associação de projeto&quot; na seção [Visão geral](#overview) neste artigo.
-
-   * **Configurações**
-
-      Para obter informações, consulte o [Configurações do projeto](#project-settings) neste artigo.
-
-   * **Acesso**
-
-      Para obter informações, consulte o [Acesso](#access) neste artigo.
-
-   * **Formulários personalizados**
-
-      Para obter mais informações, continue com a etapa 7 abaixo.
-
-      <!--   
-     <p>(NOTE:&nbsp;make sure this stays accurate)</p>   
-     -->
-
-   * **Tarefas**
-
-      Para obter informações, consulte o [Configurações da tarefa](#task-settings) neste artigo.
-
-   * **Problemas**
-
-      Para obter informações, consulte o   [Configurações do problema](#issue-settings) neste artigo.
-
-   * **Comentário**
-
-      Para obter mais informações, continue com a etapa 9 abaixo.
-
-      <!--   
-     <p>(NOTE: ensure this step stays accurate)</p>   
-     -->
-
-
-1. (Opcional) Na área Configurações , selecione qualquer uma das seguintes opções:
-
-   * **Recalcular Custos e Receitas**: Selecione essa opção para recalcular Custos e Receitas em todos os projetos selecionados.
-   * **Recalcular Linhas do Tempo**: Selecione esta opção para recalcular as Linhas do tempo de todos os projetos selecionados.
-   * **Recalcular Scorecards**: Selecione essa opção para recalcular os valores do Scorecard para todos os projetos selecionados.
-
-   ![recalculate_cost_scorecards__etc_in_bulk_edit_for_projects.PNG](assets/recalculate-costs--scorecards--etc-in-bulk-edit-for-projects-350x225.png)
-
-1. Clique em **Forms personalizada** para editar os formulários personalizados anexados a todos os projetos selecionados.
-
-   Se os projetos selecionados não tiverem formulários personalizados comuns, nenhum formulário será listado nesta seção.
-
-   É possível editar apenas os campos nos formulários anexados a todos os projetos selecionados e que você tem permissões para editar.
-
-1. (Opcional) Na seção Forms personalizado , selecione o **Recalcular expressões personalizadas** para garantir que todos os campos personalizados calculados na Forms personalizada anexada aos projetos selecionados estejam atualizados.
-
-   >[!IMPORTANT]
-   >
-   >Recomendamos não selecionar mais de 500 projetos por vez quando você recalcular expressões personalizadas.
-
-1. (Opcional) Clique em **Comentário**, selecione a caixa Postar uma atualização em cada projeto e especifique um comentário que deseja exibir no fluxo de atualizações do projeto no campo disponível e execute um dos seguintes procedimentos:
-
-   * Clique no botão **Pessoas** ícone ![](assets/people-icon-updates-classic.png) para marcar um usuário que será notificado sobre seu comentário.
-   * Clique no botão **Bloquear** ícone ![](assets/lock-icon-open-updates-classic.png) para restringir seu comentário somente às pessoas na empresa.
-
-   Este comentário está visível para todos com acesso de Exibição ao projeto e com acesso para visualizar Notas.
-
-1. Clique em **Salvar alterações**.
-
-   Todas as alterações feitas agora estão visíveis em todos os projetos selecionados.
-
-<div class="preview">
-
-### Editar projetos em massa no ambiente de Visualização
-
-Considere o seguinte ao editar projetos em massa no ambiente de Visualização:
+   Adicionar um novo gerenciador de recursos ao editar projetos em massa adiciona esse gerenciador a todos os projetos selecionados. Se outros gerentes de recursos estiverem associados aos projetos selecionados, eles permanecerão nos projetos, além do que foi adicionado por meio da edição em massa.
 
 * Ao selecionar projetos que têm valores diferentes para o mesmo campo, o campo exibe um indicador &quot;Multiple values&quot; na caixa Editar projetos. Os campos que são caixas de seleção, botões de opção e alternadores têm um indicador &quot;Vários valores&quot; ao lado deles.
 
@@ -826,7 +727,7 @@ Considere o seguinte ao editar projetos em massa no ambiente de Visualização:
 
 * Ao selecionar vários projetos que pertencem a grupos diferentes, os status exibidos no campo Status são status do sistema e não status do grupo.
 
-Para editar projetos no ambiente de visualização:
+Para editar projetos em massa:
 
 1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
 1. Clique em **Projetos**.
@@ -863,9 +764,9 @@ Dependendo de como o administrador do Workfront ou o administrador do Grupo modi
 
    Formulários personalizados adicionais que podem ser associados a projetos, mas não são anexados a nenhum dos projetos selecionados, são exibidos na **Forms para adicionar** na seção **Adicionar formulário personalizado** campo.
 
-1. Clique em para selecionar o formulário personalizado adicional no **Adicionar formulário personalizado** ou **Forms para adicionar** subseções quando exibido na lista.
+1. Clique para selecionar outros formulários personalizados na guia **Adicionar formulário personalizado** ou **Forms para adicionar** subseções quando exibido na lista.
 
-   Quando um formulário personalizado já está anexado a alguns dos projetos selecionados, há uma indicação ao lado do nome do formulário de quantos projetos já têm o formulário selecionado ao adicionar um formulário.
+   Quando um formulário personalizado já está anexado a alguns dos projetos selecionados, há uma indicação ao lado do nome do formulário sobre quantos projetos já têm o formulário anexado ao adicionar um formulário.
 
 1. (Opcional) Clique no botão **x** ícone à direita do nome de um formulário personalizado e clique em **Remover** para removê-lo de todos os projetos selecionados.
 
@@ -892,5 +793,100 @@ Para obter mais informações sobre como editar a área de acesso, consulte a se
 1. (Opcional) Clique em **Cancelar** na parte inferior do **Editar projetos** para remover todas as alterações feitas em todos os projetos.
 1. Clique em **Salvar**.
 
-</div>
 
+
+<!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
+
+### Edit projects in bulk in the Production environment
+
+To edit projects in bulk:
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+
+1. Click **Projects**.  
+1. Select several projects in the list.
+1. Click **Edit**.
+
+   The **Edit Projects** dialog box opens.
+
+   ![](assets/edit-projects-in-bulk-nwe-350x303.png)
+
+1. Specify the information on all selected projects in the following sections:
+
+   * **Overview**
+
+     For information, see the [Overview](#overview) section in this article.
+   
+   * **Finance**
+
+     For information, see the [Finance](#finance) section in this article.
+   
+   * **Portfolio**
+
+     For information, see the "Project association" section in the [Overview](#overview) section in this article.
+   
+   * **Settings**
+
+     For information, see the [Project Settings](#project-settings) section in this article.
+   
+   * **Access**
+
+     For information, see the [Access](#access) section in this article.
+   
+   * **Custom Forms**
+
+     For information, continue with step 7 below.
+
+     <!--   
+     <p>(NOTE:&nbsp;make sure this stays accurate)</p>   
+     
+
+   * **Tasks**
+
+     For information, see the [Task Settings](#task-settings) section in this article.
+   
+   * **Issues**
+
+     For information, see the   [Issue Settings](#issue-settings) section in this article.
+   
+   * **Comment**
+
+     For information, continue with step 9 below.
+
+     <!--   
+     <p>(NOTE: ensure this step stays accurate)</p>   
+     
+
+
+1. (Optional) In the Settings area, select any of the following options:
+
+   * **Recalculate Costs and Revenues**: Select this option to recalculate Costs and Revenues on all projects selected.
+   * **Recalculate Timelines**: Select this option to recalculate the Timelines of all projects selected.
+   * **Recalculate Scorecards**: Select this option to recalculate the Scorecard values for all projects selected.
+
+   ![recalculate_costs__scorecards__etc_in_bulk_edit_for_projects.PNG](assets/recalculate-costs--scorecards--etc-in-bulk-edit-for-projects-350x225.png)
+
+1. Click **Custom Forms** to edit the custom forms attached to all the projects selected.
+
+   If the projects selected do not have any common custom forms, no forms are listed in this section.
+
+   You can edit only the fields on the forms that are attached to all projects selected and which you have permissions to edit. 
+
+1. (Optional) In the Custom Forms section, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the Custom Forms attached to the projects selected are up to date.
+
+   >[!IMPORTANT]
+   >
+   >We recommend not to select more than 500 projects at a time when you recalculate custom expressions.
+
+1. (Optional) Click **Comment**, then select the Post an update to each project box and specify a comment that you want to display in the updates stream of the project in the available field and do one of the following:
+
+   * Click the **People** icon ![](assets/people-icon-updates-classic.png) to tag a user who will be notified about your comment.
+   * Click the **Lock** icon ![](assets/lock-icon-open-updates-classic.png) to restrict your comment only to people within your company.
+
+   This comment is visible for everyone with View access to the project and with access to view Notes.
+
+1. Click **Save Changes**.
+
+   All changes you made are now visible on all the selected projects.
+
+-->

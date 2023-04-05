@@ -6,9 +6,9 @@ description: É possível adicionar uma atualização em um objeto do Adobe Work
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2732'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Está disponível somente no ambiente de Visualização.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 >[!NOTE]
 >
@@ -25,17 +25,18 @@ ht-degree: 1%
 >Para obter mais informações sobre a nova experiência de atualização, consulte [Nova experiência de comentário](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
 >Você pode acessar o novo design para os seguintes objetos:
-> * <span class="preview">Problemas ao ativar o comentário Beta. </span>
+> * Problemas ao ativar o comentário Beta.
    >
-   >     <span class="preview">Essa funcionalidade está disponível somente para a seção Atualizações de problemas e não está disponível para as seguintes áreas:</span>
+   >     Essa funcionalidade está disponível somente para a seção Atualizações de problemas e não está disponível para as seguintes áreas:
    >
-   >     * <span class="preview">Página inicial</span>
-   >     * <span class="preview">Painel Resumo em listas</span>
-   >     * <span class="preview">Painel Resumo nas folhas de horas</span>
+   >     * Página inicial
+   >     * Painel Resumo em listas
+   >     * Painel Resumo nas folhas de horas
 >
 > * Metas
-   >   A nova experiência de comentário é o padrão para metas. Você deve ter uma licença adicional para acessar as Metas da Workfront. Para obter mais informações, consulte [Requisitos para usar as metas da Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+   >
+   >   A nova experiência de comentário é o padrão para metas. Você deve ter uma licença adicional para acessar as Metas da Workfront. Para obter mais informações, consulte [Requisitos para usar as metas da Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
    >    Para obter informações sobre comentários sobre metas, consulte [Gerenciar comentários da meta nas Metas da Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -183,8 +184,6 @@ A adição de uma atualização a um item de trabalho é diferente, dependendo d
 
 1. Para responder a uma atualização, consulte [Responder atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-<div class="preview">
-
 ### Adicionar uma atualização a um item de trabalho usando os comentários da experiência Beta
 
 1. Localize o objeto que deseja atualizar e clique em seu nome para abrir a página do objeto.
@@ -224,7 +223,7 @@ O **Comentários** é selecionada por padrão.
 
 1. Clique em **Enviar** para adicionar a atualização ao objeto do Workfront.
 1. (Opcional) Para editar um comentário, clique no botão **Mais** menu ![](assets/more-menu.png) à direita do ícone Curtir e, em seguida, clique em **Editar**.
-1. Edite as informações no comentário ou remova qualquer um dos usuários marcados. <!--check to make sure you can still remove the users in preview or production. At one point, they were removing this functionality-->
+1. Editar as informações no comentário <!--or remove any of the tagged users-->.
 É possível editar seu comentário em 15 após enviá-lo. Um indicador &quot;Editado&quot; é adicionado à esquerda do carimbo de data que é exibido quando o comentário é atualizado.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -246,7 +245,6 @@ O **Comentários** é selecionada por padrão.
    >
    >Não é possível adicionar um comentário a uma atualização do sistema.
 
-</div>
 
 ## Usar rich text em uma atualização do Workfront
 
@@ -318,7 +316,7 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
    >* As imagens são acessíveis somente na guia Atualizações em um objeto e não estão disponíveis na guia Documentos.
    >* Você pode enviar uma atualização com uma imagem e sem texto.
 
-1. Clique em **Atualizar**  <span class="preview">ou **Enviar**</span>, na experiência de comentário em Beta.
+1. Clique em **Atualizar**  ou **Enviar**, ao usar a experiência de comentário Beta.
 
 
 ## Copiar informações de atualização
@@ -351,11 +349,7 @@ Essa opção copia o link de encadeamento completo para a área de transferênci
 
 1. Vá para o thread de atualização que deseja copiar.
 
-1. Clique no botão **Mais** , em seguida, clique em **Copiar link de encadeamento**
-
-   ou
-
-   <span class="preview">**Copiar link** ao usar a experiência Beta</span>.
+1. Clique no botão **Mais** , em seguida, clique em **Copiar link de encadeamento** ou **Copiar link**, ao usar a experiência Beta.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -364,11 +358,7 @@ Essa opção copia o link de encadeamento completo para a área de transferênci
 Essa opção copia um link de atualização específico para a área de transferência. Quando você compartilha o link de atualização, o usuário que o segue vê uma borda ao redor da atualização.
 
 1. Vá para a atualização ou resposta que deseja copiar.
-1. Clique no botão **Mais** ao lado da atualização individual, em seguida, clique em **Copiar link de atualização**
-
-   ou
-
-   <span class="preview">**Copiar link** ao usar a experiência Beta</span>.
+1. Clique no botão **Mais** ao lado da atualização individual, em seguida, clique em **Copiar link de atualização** ou **Copiar link**, ao usar a experiência Beta.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -383,11 +373,7 @@ Nenhum usuário do Workfront (incluindo o administrador do Workfront) pode exclu
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Na mensagem que aparece, clique em **Confirmar**
-
-   ou
-
-   <span class="preview"> **Excluir**, na experiência de comentário Beta</span>.
+1. Na mensagem que aparece, clique em **Confirmar** ou **Excluir**, ao usar a experiência de comentário Beta.
 
 >[!NOTE]
 >
@@ -416,13 +402,11 @@ Nenhum usuário do Workfront (incluindo o administrador do Workfront) pode exclu
 
 <!--remove the preview tag with 23.2 production, but keep the note till we remove Beta and it becomed the only exprience: -->
 
-
-
 >[!NOTE]
 >
-><span class="preview">Não é possível desativar as atualizações do sistema ao usar a experiência de comentário Beta. </span>
-><span class="preview">As informações nesta seção se referem apenas à funcionalidade disponível na seção Atualizações atuais. </span>
-><span class="preview">Para obter mais informações sobre atualizações do sistema na versão Beta, consulte [Visão geral da seção Atualizações](../updating-work-items-and-viewing-updates/updates-tab-overview.md). </span>
+>Não é possível desativar as atualizações do sistema ao usar a experiência de comentário Beta.
+>As informações nesta seção se referem apenas à funcionalidade disponível na seção Atualizações atuais.
+>Para obter mais informações sobre atualizações do sistema na versão Beta, consulte [Visão geral da seção Atualizações](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 A seção Atualizações de um objeto do Workfront exibe dois tipos de informações:

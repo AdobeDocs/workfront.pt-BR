@@ -8,16 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
 # Personalizar a visualização de Detalhes usando um modelo de layout
 
-<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Ele está disponível para todos os clientes no ambiente de Visualização e para um grupo selecionado de clientes no ambiente de Produção.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 Como administrador do Adobe Workfront, você pode usar um modelo de layout para determinar quais informações serão exibidas quando um usuário clicar no ícone Detalhes ![](assets/project-details-icon.png) no painel esquerdo, ao visualizar uma tarefa, problema, documento, programa ou portfólio.
 
@@ -38,9 +38,9 @@ As alterações feitas na exibição Detalhes de um objeto também determinam a 
    ![](assets/edit-task-screen.png)
 
 
-* <span class="preview">Telas &quot;Editar objetos&quot; ao editar projetos em massa, como Editar projetos</span>
+* Telas &quot;Editar objetos&quot; ao editar objetos em massa. Atualmente, isso é compatível com a edição de projetos em massa.
 
-   <span>![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)</span>
+   ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
 * Resumo ![](assets/summary-panel-icon.png) painel para listas de tarefas e problemas
