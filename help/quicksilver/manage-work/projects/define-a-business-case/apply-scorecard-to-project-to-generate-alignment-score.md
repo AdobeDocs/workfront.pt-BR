@@ -5,16 +5,14 @@ description: Você pode usar um scorecard para medir o grau de alinhamento de um
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1292'
 ht-degree: 0%
 
 ---
 
 # Aplicar um scorecard a um projeto e gerar uma Pontuação de alinhamento
-
-<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Ele está disponível para todos os clientes no ambiente de Visualização e para um grupo selecionado de clientes no ambiente de Produção.</span>
 
 Você pode usar um scorecard para medir o grau de alinhamento de um projeto aos critérios estabelecidos anteriormente de um portfólio. Um scorecard geralmente reflete a missão, os valores e os objetivos estratégicos de uma organização.
 
@@ -95,17 +93,20 @@ Para aplicar um scorecard a um projeto:
 
    O scorecard agora está associado ao projeto e o projeto é pontuado.
 
-1. (Condicional) Quando as alterações ocorrem nos valores das perguntas do scorecard, você deve recalcular o scorecard para refletir os novos valores da pontuação do projeto. Para recalcular o scorecard, faça o seguinte:
+<!--This functionality was removed when we redesigned bulk editing projects with 23.2: 
 
-   1. Acesse uma lista de projetos e selecione todos os projetos na lista.
-   1. Clique no botão **Editar** na parte superior da lista.
-   1. Clique em **Configurações** no painel esquerdo e, em seguida, verifique o **Recalcular Scorecards** no final da área Configurações .
-   1. Clique em Salvar. Isso recalcula o valor da pontuação com base nos scorecards anexados para todos os projetos selecionados.
+1. (Conditional) When changes occur in the values of scorecard questions, you must recalculate the scorecard to reflect the new values for the project score. To recaulate the scorecard, do the following: 
+
+   1. Go to a list of projects and select all projects in the list. 
+   1. Click the **Edit** icon at the top of the list. 
+   1. Click **Settings** in the left panel, then check the **Recalculate Scorecards** option at the end of the Settings area. 
+   1. Click Save. This recalculates the score value based on the scorecards attached for all the selected projects.  
 
       >[!NOTE]
       >
-      >   <span class="preview">A opção para recalcular os scorecards foi removida do ambiente de Visualização, ao editar projetos em massa. </span>
+      >   The option to recalculate scorecards has been removed from the Preview environment, when editing projects in bulk. 
 
+-->
 
 ## Gerar uma pontuação de alinhamento
 

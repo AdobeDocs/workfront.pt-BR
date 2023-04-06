@@ -7,16 +7,16 @@ description: Não é possível criar um gráfico de relatório por um campo pers
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
 
 # Gráfico de um relatório por um campo personalizado de várias seleções
 
-<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Ele está disponível para todos os clientes no ambiente de Visualização e para um grupo selecionado de clientes no ambiente de Produção.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 Não é possível criar um gráfico de relatório por um campo personalizado de várias seleções. É necessário criar um campo calculado adicional que faça referência ao campo personalizado de várias seleções para também fazer o gráfico do relatório pelo valor do campo personalizado de várias seleções.
 
@@ -109,7 +109,7 @@ Para criar o campo personalizado calculado que faz referência ao campo personal
 
    >[!NOTE]
    >
-   ><span class="preview">Essa opção foi eliminada da edição de projetos em massa no ambiente de Visualização.  Você ainda pode recalcular expressões para projetos em massa clicando em **Mais** ![](assets/more-icon-45x33.png) na parte superior de uma lista de projetos, em seguida **Recalcular expressões**. </span>
+   >Essa opção foi eliminada da edição de projetos em massa.  Você ainda pode recalcular expressões para projetos em massa clicando no botão **Mais** ícone ![](assets/more-icon-45x33.png) na parte superior de uma lista de projetos, em seguida **Recalcular expressões**.
 
 
 1. Vá para o relatório onde deseja adicionar o gráfico do campo calculado que faz referência ao campo personalizado de várias seleções.
