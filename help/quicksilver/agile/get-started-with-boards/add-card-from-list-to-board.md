@@ -5,7 +5,7 @@ title: Adicionar tarefas ou problemas existentes a um quadro ou fluxo de trabalh
 description: É possível adicionar qualquer tarefa ou problema a um quadro no Adobe Workfront a partir de uma lista ou exibição de relatório.
 author: Lisa
 feature: Agile
-source-git-commit: 36144b10a55a4732b7c50c2aea8e2ebb219efc4c
+source-git-commit: a1ab72b3ee416a6a47343eadf4d3dec317e4e27a
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # Adicionar tarefas ou problemas existentes a um [!DNL Adobe Workfront] quadro ou fluxo de trabalho
-
-{{highlighted-preview-article-level}}
 
 Você pode adicionar qualquer tarefa ou problema a um quadro ou fluxo de trabalho em [!DNL Adobe Workfront] em uma lista, exibição de relatório ou nos detalhes do objeto.
 
