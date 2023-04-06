@@ -8,16 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 0a32193f54e919972b0a1b10e9f15fea2b6b5b8e
+source-git-commit: 0e6a7c0b5e83c85f848208ac0f79cd6eb7b8b1b2
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Personalizar páginas fixas usando um modelo de layout
-
-{{highlighted-preview}}
 
 Em um modelo de layout, é possível fixar as páginas que você deseja que os usuários sempre tenham disponível na parte superior do Adobe Workfront. Estas podem ser as páginas acessadas através do Menu Principal ![](assets/main-menu-icon.png) ou painéis.
 
@@ -70,9 +68,9 @@ Para executá-los para um grupo, você deve ser um gerente desse grupo.</p> <p><
 
 1. Repita a etapa anterior para fixar qualquer outra página.
 
-1. <span class="preview"> (Opcional) Para renomear um pino, passe o mouse sobre o pino, clique na seta ao lado do nome do pino e selecione **Renomear pino**. Digite o novo nome do pino e clique no ícone de marca de seleção ou pressione Enter.</span>
+1. (Opcional) Para renomear um pino, passe o mouse sobre o pino, clique na seta ao lado do nome do pino e selecione **Renomear pino**. Digite o novo nome do pino e clique no ícone de marca de seleção ou pressione Enter.
 
-   <span class="preview"> Uma pequena janela pop-up é exibida por vários segundos após clicar na marca de seleção ou pressionar Enter para desfazer a alteração do nome do pino antes de salvá-lo.</span>
+   Uma pequena janela pop-up é exibida por vários segundos após clicar na marca de seleção ou pressionar Enter para desfazer a alteração do nome do pino antes de salvá-lo.
 
 1. Continue personalizando o modelo de layout.
 
