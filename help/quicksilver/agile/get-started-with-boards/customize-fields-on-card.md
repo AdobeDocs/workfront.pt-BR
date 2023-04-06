@@ -5,21 +5,15 @@ title: Personalizar quais campos são exibidos em um cartão
 description: Você pode personalizar quais campos são exibidos em um cartão desabilitando um campo para que ele não seja exibido no cartão completo ou na visualização condensada, ou ocultando um campo na visualização condensada do cartão.
 author: Lisa
 feature: Agile
-source-git-commit: 88d0ce017401e7767ceeff9abc7a65986a07f0b9
+source-git-commit: 48dc1bcbaa5755888c45fdafbd6471c9ee073a45
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
 
 
 # Personalizar quais campos são exibidos em um cartão
-
-{{highlighted-preview}}
-
->[!NOTE]
->
->Esse recurso está disponível somente por meio da aceitação antecipada de recursos para [!DNL Workfront] [!UICONTROL Quadros]. Para obter detalhes, consulte [Opt-in de recurso antecipado para placas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 Por padrão, todos os campos disponíveis são exibidos em um cartão, tanto na exibição completa quando o cartão está aberto, quanto na exibição condensada do cartão no quadro. Você pode personalizar quais campos são exibidos ao:
 
@@ -71,13 +65,13 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 1. Para exibir todos os campos em ambas as exibições, clique em [!UICONTROL **Restaurar todos os campos como padrão**].
 1. Clique em [!UICONTROL **Ocultar configuração**] para fechar o painel Configurar .
 
-<div class="preview">
-
 ## Adicionar campos personalizados aos cartões
+
+Os campos personalizados estão disponíveis em cartões conectados. Eles só são visíveis na visualização completa do cartão, não na visualização condensada no quadro.
 
 >[!NOTE]
 >
->Ao adicionar um campo personalizado aos cartões, os dados no cartão são somente leitura. Além disso, campos personalizados só estão disponíveis em cartões conectados.
+>Ao adicionar um campo personalizado aos cartões, os dados no cartão são somente leitura.
 
 1. Acesse um quadro e clique em [!UICONTROL **Configurar**] para abrir o painel Configurar .
 1. Expandir [!UICONTROL **Cartões**].
@@ -88,8 +82,16 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
    ![Procurar campo personalizado](assets/boards-search-for-custom-field.png)
 
+   >[!NOTE]
+   >
+   >Os seguintes tipos de campo não estão disponíveis para adicionar cartões: Adobe XD, Imagem, PDF, Vídeo.
+
 1. Selecione o nome do campo.
+1. (Opcional) Clique em no **[!UICONTROL Valor do campo]** para alterar esse campo personalizado para outro.
+1. (Opcional) Altere o **[!UICONTROL Rótulo do campo]** ao nome do campo que você deseja exibir nos cartões.
+1. Quando terminar de fazer alterações, clique em [!UICONTROL **Salvar campo**].
 
-   O campo personalizado é adicionado à lista de campos disponíveis e é ativado por padrão. Você pode desativar ou ocultar o campo personalizado seguindo as etapas da [Configurar cartões](customize-fields-on-card.md#configure-cards) ou exclua do quadro.
+   ![Valor e rótulo do campo personalizado](assets/save-custom-field-value-label.png)
 
-</div>
+   O campo personalizado é adicionado à lista de campos disponíveis e é ativado por padrão. Você pode desativar o campo personalizado seguindo as etapas da variável [Configurar cartões](customize-fields-on-card.md#configure-cards) seção acima, edite o campo ou exclua-o de todos os cartões.
+
