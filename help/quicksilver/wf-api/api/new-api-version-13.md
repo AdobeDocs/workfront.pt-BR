@@ -6,7 +6,7 @@ description: A Adobe Workfront lançou a API versão 13 em 22 de abril de 2021. 
 author: Becky
 feature: Workfront API
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 1ea7e1a0435e9d199c3d828723d11ce530a80540
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 2%
@@ -456,7 +456,7 @@ Um objeto de Folha de Horas representa um cartão de ponto virtual que permite q
 
 ### UITemplate {#uitemplate}
 
-Os administradores do Adobe Workfront ou administradores de grupo podem criar modelos para personalizar os elementos de layout no Adobe Workfront. O objeto LayoutTemplate é específico para a nova experiência do Adobe Workfront.
+Os administradores do Adobe Workfront ou administradores de grupo podem criar modelos para personalizar os elementos de layout no Adobe Workfront. O objeto UITemplate é específico para a nova experiência do Adobe Workfront.
 
 Para o objeto que representa modelos de layout no Adobe Workfront Classic, consulte [LayoutTemplate](#layouttemplate).
 

@@ -2,9 +2,9 @@
 user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 feature-set: Workfront
-source-git-commit: 2049958745516d37f41938fbd4b6398f57378959
+source-git-commit: 6e711f208d14bb8d1d4b57733a2327b46fa7969b
 workflow-type: tm+mt
-source-wordcount: '12799'
+source-wordcount: '12804'
 ht-degree: 1%
 
 ---
@@ -2449,6 +2449,7 @@ ht-degree: 1%
       * [Configure e use os aplicativos OAuth 2 personalizados de sua organização usando o fluxo JWT](wf-api/api/oauth-app-jwt-flow.md)
       * [Configure e use os aplicativos OAuth 2 personalizados de sua organização usando o fluxo PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Substituição de API - Interno](wf-api/api/deprecation-api-internal.md)
+      * [Novidades da API versão 16](wf-api/api/new-api-version-16.md)
       * [Novidades da API versão 15](wf-api/api/new-api-version-15.md)
       * [Novidades da API versão 14](wf-api/api/new-api-version-14.md)
       * [Novidades da API versão 13](wf-api/api/new-api-version-13.md)
