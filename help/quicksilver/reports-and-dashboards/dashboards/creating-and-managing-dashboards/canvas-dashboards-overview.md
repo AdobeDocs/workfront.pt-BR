@@ -5,7 +5,7 @@ title: Visão geral dos painéis da tela de desenho
 description: Você pode criar Painéis de Tela que integram visualizações de Tela de relatórios com relatórios tradicionais e apresentar novas opções de layout.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 4203de3dcbb0f6675dd840a7f6b883907794ce02
+source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -23,7 +23,6 @@ Esse recurso está em desenvolvimento e ainda não oferece suporte a:
 * integração de calendário
 * relatórios solicitados
 * distribuição por meio de templates de layout
-
 
 ## Painéis da Tela de Acesso
 

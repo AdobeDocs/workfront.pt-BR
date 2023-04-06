@@ -7,9 +7,9 @@ description: Você pode ver se um relatório é adicionado a um painel no Adobe 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -62,10 +62,13 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
 ## Exibir informações do painel na Exibição de uma lista de relatórios
 
+>[!WARNING]
+>
+>Incluir a coluna Painéis em uma lista de relatórios pode aumentar significativamente o tempo de carregamento, especialmente para listas de relatórios longos.
+
 Para criar uma exibição com informações de painel para uma lista de relatórios:
 
 1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Workfront, em seguida, clique em **Relatórios**.
-
 1. Na lista de relatórios, clique no botão **Exibir** menu suspenso.
 1. Clique em **Nova exibição**.
 1. Clique em **Adicionar coluna**.

@@ -6,186 +6,37 @@ description: Informações sobre o programa beta para a próxima ferramenta Tela
 author: Nolan
 feature: Product Announcements
 exl-id: cc0adf28-08ab-4330-b901-219ab687f02f
-source-git-commit: edad50a392c2d7c474a725254486588b09a12a65
+source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 3%
+source-wordcount: '1060'
+ht-degree: 1%
 
 ---
 
 
 # Beta da Tela de Relatório: visão geral
 
-## O beta da Tela de relatórios
+## Tela de relatórios
 
-Uma reformulação completa dos relatórios no Workfront, a nova ferramenta de Tela de relatórios está quase sendo concluída e estará disponível em breve para testes públicos. No desenvolvimento da Tela de relatórios, trabalhamos duro para fornecer uma experiência que ofereça flexibilidade máxima, juntamente com um design intuitivo e modular, para que os usuários como você possam aproveitar seus próprios dados com mais eficiência na criação e no compartilhamento de relatórios. Por meio de um novo tipo de relatório unificado que permite arrastar e soltar quase todos os elementos em uma tela sem limites, criar uma obra-prima de dados visuais será mais fácil do que nunca.
+Uma reformulação completa dos relatórios no Workfront, a nova ferramenta Tela de relatórios está em desenvolvimento no momento. Ao projetar a Tela de relatórios, trabalhamos duro para fornecer uma experiência que ofereça flexibilidade máxima, juntamente com um design intuitivo e modular, para que os usuários como você possam aproveitar seus próprios dados com mais eficiência na criação e no compartilhamento de relatórios. Por meio de um novo tipo de relatório unificado que permite arrastar e soltar quase todos os elementos em uma tela sem limites, criar uma obra-prima de dados visuais será mais fácil do que nunca.
 
-Este artigo contém informações sobre como o beta funcionará e como sua organização pode nos ajudar a melhorar a Tela de relatórios antes de seu lançamento oficial.
+Este artigo contém informações sobre o beta privado atual, que é limitado a clientes específicos. Os novos recursos da Tela de relatórios agora estão sendo implantados por meio dos Painéis de tela. Consulte **Plano de desenvolvimento** abaixo para obter mais informações.
 
-### Programação de lançamento
+### Plano de desenvolvimento
 
-* Beta atual: O beta atual é privado e limitado a um número específico de clientes.
-* Lançamento público beta: TBD (Quando uma data for anunciada, começaremos a permitir que todos os clientes acessem o beta da Tela de relatórios.)
-* Versão oficial: TBD
+Estamos nos estágios finais para resolver um problema de qualidade de dados que observamos no início do beta da Tela de relatórios. Em breve, retomaremos o trabalho para fornecer novas visualizações, expandir a seleção de objetos Workfront reportáveis e melhorar a criação de relatórios e as experiências de distribuição, que são integrantes à realização de nossas metas para a Tela de relatórios.
 
-### Recursos
-
-No desenvolvimento da Tela de relatórios, reprojetamos radicalmente alguns recursos e criamos alguns novos desde o início para simplificar a criação de relatórios. A tabela a seguir descreve os principais recursos da Tela de relatórios em comparação às ferramentas de relatório existentes, bem como seu status de versão atual:
-
->[!NOTE]
->
->Para obter uma lista cronológica de recursos adicionados e problemas resolvidos, consulte [Beta da Tela de Relatório: atividade de lançamento](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md).
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <th>Descrição do recurso</th> 
-   <th>Terminologia herdada </th> 
-   <th>Terminologia da Tela de Relatório</th> 
-   <th>Status</th> 
-  </tr> 
-  <tr> 
-   <td>Relatórios</td> 
-   <td>Relatório</td> 
-   <td>Tela de relatórios</td> 
-   <td>Lançado</td> 
-  </tr> 
-  <tr> 
-   <td>Painéis</td> 
-   <td>Painel de Controle</td> 
-   <td>Tela de relatórios</td> 
-   <td>Lançado</td> 
-  </tr> 
-  <tr> 
-   <td>Tabelas</td> 
-   <td>Guia Details</td> 
-   <td>Bloco de tabela</td> 
-   <td>Lançado</td> 
-  </tr> 
-  <tr> 
-   <td>Gráficos</td> 
-   <td>Guia Gráfico</td> 
-   <td>Bloco de visualização</td> 
-   <td>Lançado</td> 
-  </tr> 
-  <tr> 
-   <td>Subtotais</td> 
-   <td>Guia Resumo</td> 
-   <td>Visualização de KPI</td> 
-   <td>Lançado</td> 
-  </tr> 
-  <tr> 
-   <td>Caminho do detalhamento</td> 
-   <td>modal do visualizador de relatórios</td> 
-   <td>Sobreposição do visualizador de relatórios</td> 
-   <td>Lançado</td> 
-  </tr> 
-  <tr> 
-   <td>Colunas</td> 
-   <td>Guia Exibir</td> 
-   <td>Edição de tabela</td> 
-   <td>Lançado</td> 
-  </tr> 
-  <tr> 
-   <td>Filtros</td> 
-   <td>Guia Filtro</td> 
-   <td>Edição de tabela</td> 
-   <td>Lançado</td> 
-  </tr> 
-  <tr> 
-   <td>Grupos</td> 
-   <td>Guia Grupo</td> 
-   <td>Edição de tabela</td> 
-   <td>Lançado</td> 
-  </tr> 
-  <tr> 
-   <td>Configuração do campo<br>(agregações e formatação condicional)</td> 
-   <td>Guia Exibir</td> 
-   <td>Edição de tabela (coluna selecionada)</td> 
-   <td>Lançado</td> 
-  </tr> 
-  <tr> 
-   <td>Redimensionamento de colunas</td> 
-   <td>Modo texto</td> 
-   <td>Edição de tabela (coluna selecionada)</td> 
-   <td>Lançado</td> 
-  </tr> 
-   <tr> 
-   <td>Conteúdo externo</td> 
-   <td>Página externa</td> 
-   <td>Bloco de conteúdo da Web</td> 
-   <td>Lançado</td> 
-  </tr> 
-   <tr> 
-   <td>Exportando</td> 
-   <td>Ações de relatório</td> 
-   <td><strong>Mais</strong> menu no visualizador</td> 
-   <td>Parcialmente liberado</td> 
-  </tr> 
-  <tr> 
-   <td>Compartilhamento de colunas</td> 
-   <td>Modo texto</td> 
-   <td>Construtor de campos</td> 
-   <td>Parcialmente liberado</td> 
-  </tr> 
-  <tr> 
-   <td>Colunas calculadas</td> 
-   <td>Modo texto</td> 
-   <td>Construtor de campos</td> 
-   <td>Parcialmente liberado</td> 
-  </tr> 
-  <tr> 
-   <td>Estilo do gráfico</td> 
-   <td>Guia Gráfico</td> 
-   <td>Bloco de visualização (guia Estilo)</td> 
-   <td>Planejado</td> 
-  </tr> 
-  <tr> 
-   <td>Delivery agendado</td> 
-   <td>Ações de relatório</td> 
-   <td><strong>Mais</strong> menu no visualizador</td> 
-   <td>Planejado</td> 
-  </tr> 
-  <tr> 
-   <td>Conceder acesso ao relatório</td> 
-   <td>Ações de relatório</td> 
-   <td><strong>Mais</strong> menu no visualizador</td> 
-   <td>Planejado</td> 
-  </tr> 
-  <tr> 
-   <td>Acesso não autenticado ao painel</td> 
-   <td>Ações do painel</td> 
-   <td><strong>Mais</strong> menu no visualizador</td> 
-   <td>Planejado</td> 
-  </tr> 
-  <tr> 
-   <td>Edição de dados de relatório</td> 
-   <td>Edição em linha</td> 
-   <td>Painel de resumo</td> 
-   <td>Planejado</td> 
-  </tr> 
-  <tr> 
-   <td>Filtragem de página</td> 
-   <td>N/A</td> 
-   <td>Filtro de tela de desenho</td> 
-   <td>Planejado</td> 
-  </tr> 
- </tbody> 
-</table>
-
->[!NOTE]
->
->Os recursos listados aqui serão lançados como parte de um esquema de lançamento de produto hierárquico. Os recursos aos quais você tem acesso neste beta podem não estar disponíveis na versão completa, com base no plano de sua organização.
+Forneceremos essas novas experiências de forma incremental, a partir da versão 23.2, por meio da nova página Painéis de Tela que agora está disponível em seu ambiente de Visualização. Os Painéis de Tela permitem exibir relatórios existentes junto com os novos recursos de relatório que estamos criando e servirão como nosso ambiente principal para implantar e testar novos recursos para a Tela de relatórios. Para obter mais informações sobre como ativar e usar Painéis de Tela, consulte [Visão geral dos painéis da tela de desenho](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
 
 ## Participe do beta
 
+>[!IMPORTANT]
+>
+>As informações beta abaixo são para administradores que já foram incluídos no beta da Tela de relatórios, que não está mais aceitando novos participantes. Se quiser testar novos recursos da Tela de relatórios à medida que são adicionados, consulte **Plano de desenvolvimento** acima para obter informações sobre como ativar Painéis de Tela.
+
 ### Disponibilidade
 
-O beta da Tela de relatórios estará disponível para todas as organizações que estão no AWS, independentemente da região.
+O beta da Tela de relatórios está disponível para todas as organizações que estão no AWS, independentemente da região.
 
 ### Associe-se ao beta
 

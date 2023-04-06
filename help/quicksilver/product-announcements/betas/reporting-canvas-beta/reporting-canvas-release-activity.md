@@ -1,15 +1,11 @@
 ---
-content-type: reference
-navigation-topic: betas
 title: 'Versão beta da tela de relatórios: atividade de lançamento'
 description: Atividade de versão semanal da Tela de relatórios do Adobe Workfront beta
-author: Nolan
-feature: Product Announcements
-exl-id: 41742569-d4bb-48c0-b0a1-f3af57a6c4e5
-source-git-commit: d649decb2875a3af4fd40c323a7836d4468bf04b
+hidefromtoc: true
+source-git-commit: 4d41779e2e93e40f295bcff2bbdc0c84ea290b41
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 0%
+source-wordcount: '543'
+ht-degree: 4%
 
 ---
 
@@ -77,3 +73,152 @@ Para obter informações gerais sobre o beta da Tela de relatórios, consulte [B
 
 * #Valor! é mostrado na célula quando um cálculo não pode ser executado com base em linha
 * Validação adicionada ao arrastar e soltar certos tipos de dados em determinadas funções no Construtor de campos
+
+## Recursos planejados
+
+No desenvolvimento da Tela de relatórios, reprojetamos radicalmente alguns recursos e criamos alguns novos desde o início para simplificar a criação de relatórios. A tabela a seguir descreve os principais recursos da Tela de relatórios em comparação às ferramentas de relatório existentes, bem como seu status de versão atual:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>Descrição do recurso</th> 
+   <th>Terminologia herdada </th> 
+   <th>Terminologia da Tela de Relatório</th> 
+   <th>Status</th> 
+  </tr> 
+  <tr> 
+   <td>Relatórios</td> 
+   <td>Relatório</td> 
+   <td>Tela de relatórios</td> 
+   <td>Lançado</td> 
+  </tr> 
+  <tr> 
+   <td>Painéis</td> 
+   <td>Painel de Controle</td> 
+   <td>Tela de relatórios</td> 
+   <td>Lançado</td> 
+  </tr> 
+  <tr> 
+   <td>Tabelas</td> 
+   <td>Guia Details</td> 
+   <td>Bloco de tabela</td> 
+   <td>Lançado</td> 
+  </tr> 
+  <tr> 
+   <td>Gráficos</td> 
+   <td>Guia Gráfico</td> 
+   <td>Bloco de visualização</td> 
+   <td>Lançado</td> 
+  </tr> 
+  <tr> 
+   <td>Subtotais</td> 
+   <td>Guia Resumo</td> 
+   <td>Visualização de KPI</td> 
+   <td>Lançado</td> 
+  </tr> 
+  <tr> 
+   <td>Caminho do detalhamento</td> 
+   <td>modal do visualizador de relatórios</td> 
+   <td>Sobreposição do visualizador de relatórios</td> 
+   <td>Lançado</td> 
+  </tr> 
+  <tr> 
+   <td>Colunas</td> 
+   <td>Guia Exibir</td> 
+   <td>Edição de tabela</td> 
+   <td>Lançado</td> 
+  </tr> 
+  <tr> 
+   <td>Filtros</td> 
+   <td>Guia Filtro</td> 
+   <td>Edição de tabela</td> 
+   <td>Lançado</td> 
+  </tr> 
+  <tr> 
+   <td>Grupos</td> 
+   <td>Guia Grupo</td> 
+   <td>Edição de tabela</td> 
+   <td>Lançado</td> 
+  </tr> 
+  <tr> 
+   <td>Configuração do campo<br>(agregações e formatação condicional)</td> 
+   <td>Guia Exibir</td> 
+   <td>Edição de tabela (coluna selecionada)</td> 
+   <td>Lançado</td> 
+  </tr> 
+  <tr> 
+   <td>Redimensionamento de colunas</td> 
+   <td>Modo texto</td> 
+   <td>Edição de tabela (coluna selecionada)</td> 
+   <td>Lançado</td> 
+  </tr> 
+   <tr> 
+   <td>Conteúdo externo</td> 
+   <td>Página externa</td> 
+   <td>Bloco de conteúdo da Web</td> 
+   <td>Lançado</td> 
+  </tr> 
+   <tr> 
+   <td>Exportando</td> 
+   <td>Ações de relatório</td> 
+   <td><strong>Mais</strong> menu no visualizador</td> 
+   <td>Parcialmente liberado</td> 
+  </tr> 
+  <tr> 
+   <td>Compartilhamento de colunas</td> 
+   <td>Modo texto</td> 
+   <td>Construtor de campos</td> 
+   <td>Parcialmente liberado</td> 
+  </tr> 
+  <tr> 
+   <td>Colunas calculadas</td> 
+   <td>Modo texto</td> 
+   <td>Construtor de campos</td> 
+   <td>Parcialmente liberado</td> 
+  </tr> 
+  <tr> 
+   <td>Estilo do gráfico</td> 
+   <td>Guia Gráfico</td> 
+   <td>Bloco de visualização (guia Estilo)</td> 
+   <td>Planejado</td> 
+  </tr> 
+  <tr> 
+   <td>Delivery agendado</td> 
+   <td>Ações de relatório</td> 
+   <td><strong>Mais</strong> menu no visualizador</td> 
+   <td>Planejado</td> 
+  </tr> 
+  <tr> 
+   <td>Conceder acesso ao relatório</td> 
+   <td>Ações de relatório</td> 
+   <td><strong>Mais</strong> menu no visualizador</td> 
+   <td>Planejado</td> 
+  </tr> 
+  <tr> 
+   <td>Acesso não autenticado ao painel</td> 
+   <td>Ações do painel</td> 
+   <td><strong>Mais</strong> menu no visualizador</td> 
+   <td>Planejado</td> 
+  </tr> 
+  <tr> 
+   <td>Edição de dados de relatório</td> 
+   <td>Edição em linha</td> 
+   <td>Painel de resumo</td> 
+   <td>Planejado</td> 
+  </tr> 
+  <tr> 
+   <td>Filtragem de página</td> 
+   <td>N/A</td> 
+   <td>Filtro de tela de desenho</td> 
+   <td>Planejado</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>Os recursos listados aqui serão lançados como parte de um esquema de lançamento de produto hierárquico. Os recursos aos quais você tem acesso neste beta podem não estar disponíveis na versão completa, com base no plano de sua organização.
