@@ -6,9 +6,9 @@ description: Você pode registrar o tempo dos itens de trabalho no &Adobe Workfr
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: 27e9cfff363ab38c6469b99a8cbb04439f2df61c
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '2979'
 ht-degree: 0%
 
 ---
@@ -400,10 +400,6 @@ Para obter mais informações, consulte [Visão geral do resumo](../../workfront
 ![](assets/summary-hour-log.png)
 
 ### Quadros {#boards}
-
->[!NOTE]
->
->Esse recurso está disponível somente por meio da aceitação antecipada de recursos para as placas Workfront.
 
 Você pode registrar o tempo em placas conectadas em um quadro do Workfront. Esse é o mesmo processo que registrar o tempo em uma tarefa ou problema, e as horas registradas no cartão são salvas na tarefa ou problema conectado.
 Para obter mais informações, consulte [Usar placas conectadas em placas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).

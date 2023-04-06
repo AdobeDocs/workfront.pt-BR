@@ -6,10 +6,10 @@ description: Você pode adicionar um cartão ao seu quadro que esteja conectado 
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 1817f3b1a5950823ff6ce600b1fef09ff4ca6767
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 0%
+source-wordcount: '1181'
+ht-degree: 1%
 
 ---
 
@@ -124,7 +124,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimativa]</strong></td>
-      <td><p>O número de horas para a conclusão do cartão.</p><p>Se você usar a opção de aceitação de recursos antecipada para [!DNL Workfront] [!UICONTROL Quadros], alterar a estimativa também altera o valor dos pontos de história no [!DNL Workfront] objeto.</p><p>Se você não estiver optando por recursos iniciais, esse campo será apenas uma entrada manual e o valor não poderá ser maior que 99.</p></td>
+      <td><p>O número de horas para a conclusão do cartão.</p><p>Alterar a estimativa também altera o valor dos pontos de história no [!DNL Workfront] objeto.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td>
@@ -184,10 +184,6 @@ Depois de criar um cartão ad hoc, você pode convertê-lo em um cartão conecta
 1. Clique em **[!UICONTROL Fechar]** para retornar ao quadro.
 
 ## Registrar horas em uma placa conectada
-
->[!NOTE]
->
->Esse recurso está disponível somente por meio da aceitação antecipada de recursos para as placas Workfront.
 
 Você deve ter as permissões corretas para registrar horas na tarefa ou problema conectado.
 

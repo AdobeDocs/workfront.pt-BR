@@ -6,9 +6,9 @@ title: Opt-in do recurso anterior para [!DNL Adobe Workfront] Quadros
 description: Leia este artigo para saber mais sobre o [!DNL Workfront Boards] opt-in de recurso antecipado.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -118,23 +118,23 @@ A tabela a seguir descreve os principais recursos das placas, juntamente com seu
   </tr>
   <tr>
    <td>Cartões somente visualização na coluna de entrada</td>
-   <td>Parcialmente liberado</td>
+   <td>Lançado</td>
   </tr>
   <tr>
    <td>Mapear campo Estimativa no cartão para o campo Pontos de história na tarefa</td>
-   <td>Parcialmente liberado</td>
+   <td>Lançado</td>
   </tr>
   <tr>
    <td>Criar fluxos de trabalho e adicionar quadros a fluxos de trabalho</td>
-   <td>Parcialmente liberado</td>
+   <td>Lançado</td>
   </tr>
   <tr>
    <td>Criar iterações</td>
-   <td>Parcialmente lançado (disponível em Visualização)</td>
+   <td>Lançado</td>
   </tr>
   <tr>
    <td>Definir lista de cartões ou backlog</td>
-   <td>Parcialmente lançado (disponível em Visualização)</td>
+   <td>Lançado</td>
   </tr>
   <tr>
    <td>Importar subtarefas como itens de lista de verificação em cartões</td>
@@ -142,19 +142,31 @@ A tabela a seguir descreve os principais recursos das placas, juntamente com seu
   </tr>
   <tr>
    <td>Personalizar exibição de campos em um cartão</td>
-   <td>Parcialmente liberado</td>
+   <td>Lançado</td>
   </tr>  
   <tr>
    <td>Definir um status padrão para cartões movidos para colunas</td>
-   <td>Parcialmente liberado</td>
+   <td>Lançado</td>
   </tr>
   <tr>
    <td>Registrar horas em cartões conectados</td>
-   <td>Parcialmente liberado</td>
+   <td>Lançado</td>
   </tr>
   <tr>
    <td>Adicionar campos personalizados a cartões conectados</td>
-   <td>Parcialmente lançado (disponível em Visualização)</td>
+   <td>Lançado</td>
+  </tr>
+  <tr>
+   <td>Definir notificações por email para quadros</td>
+   <td>Planejado</td>
+  </tr>
+  <tr>
+   <td>Migrar cartões kanban herdados para quadros</td>
+   <td>Planejado</td>
+  </tr>
+  <tr>
+   <td>Criar quadros dinâmicos</td>
+   <td>Planejado</td>
   </tr>
  </tbody> 
 </table>

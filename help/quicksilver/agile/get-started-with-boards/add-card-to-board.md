@@ -6,7 +6,7 @@ description: Você pode adicionar rapidamente um cartão ad hoc a um quadro e at
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: ed87ad7de2c3ea6dde4a9d0b89882c2717c4fc80
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 0%
@@ -79,7 +79,7 @@ Um cartão ad hoc não está conectado a um item de trabalho em [!DNL Adobe Work
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Estimativa]</strong></td> 
-      <td><p>Digite o número estimado de horas para o cartão ser concluído. Esta é apenas uma entrada manual.</p></td>
+      <td>Digite o número estimado de horas para o cartão ser concluído. Esta é apenas uma entrada manual.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Data de vencimento]</strong></td> 

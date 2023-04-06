@@ -6,9 +6,9 @@ description: Um novo quadro contém três colunas por padrão. Você pode adicio
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
+source-git-commit: df0e23de7ed84d8c13b60866e1814fe19a877c0b
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -118,22 +118,11 @@ Se você estiver usando o limite WIP em uma coluna, um contador de cartão separ
 
       As opções de tradução de status para cartões conectados também são exibidas. (A tradução de status não se aplica aos cartões ad hoc.) Essas opções determinam o status personalizado aplicado à tarefa ou problema em [!DNL Workfront] quando uma placa conectada é movida para essa coluna.
 
-   1. Se estiver usando a participação inicial do recurso: Selecione um [!UICONTROL **Personalizado**] status a ser aplicado ao cartão para tarefas e problemas.
+   1. Selecione um [!UICONTROL **Personalizado**] status a ser aplicado ao cartão para tarefas e problemas.
 
-      Quando um cartão é movido para esta coluna, [!DNL Workfront] O primeiro tenta aplicar o status personalizado (por exemplo, Resolvido). Se o status personalizado selecionado não estiver disponível para esse cartão, você será solicitado a escolher outro status que corresponda ao status do sistema (da etapa b acima).
+      Quando um cartão é movido para esta coluna, [!DNL Workfront] O primeiro tenta aplicar o status personalizado (por exemplo, Resolvido). Se o status personalizado selecionado não estiver disponível para esse cartão, você será solicitado a escolher outro status que corresponda ao status do sistema (da etapa b acima). Para obter mais informações sobre status, consulte [Visão geral dos status](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
       Além disso, se o status na tarefa ou problema conectado for alterado para o status personalizado ou do sistema definido na política de coluna, o cartão será movido automaticamente para a coluna .
-
-      >[!NOTE]
-      >
-      >A configuração de um status personalizado padrão para a coluna está disponível somente por meio da aceitação antecipada do recurso. Para obter detalhes, consulte [Opt-in de recurso antecipado para placas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
-   1. Se você não estiver usando o opt-in de recurso antecipado: Selecione um status para tarefas e um status para problemas. Somente o padrão [!DNL Workfront] os status estão disponíveis, não os status personalizados.
-
-      >[!NOTE]
-      >
-      >Se você usar status personalizados em [!DNL Workfront], na primeira vez que você mover um cartão conectado para essa coluna, será solicitado a escolher um status. Por exemplo, se o projeto conectado tiver vários tipos de status que correspondem a [!UICONTROL Concluído], você deve escolher em qual status usar [!DNL Workfront]. Você pode definir sua escolha como padrão, de modo que não precise fazer a seleção sempre que mover um cartão para a coluna.
-      >Para obter mais informações sobre status, consulte [Visão geral dos status](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 1. (Opcional) Defina um valor para os destinatários do cartão:
 

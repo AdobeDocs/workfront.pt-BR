@@ -7,9 +7,9 @@ description: Opcionalmente, é possível adicionar uma coluna de entrada ao quad
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 622a1c48af8612e32ff8aa23971d55aff26eea48
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -96,10 +96,6 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
    ![Coluna de entrada](assets/intake-column-added3.png)
 
    Os cartões na coluna de entrada não são editáveis até que você os mova para outras colunas da placa. Você pode clicar no cartão para abri-lo em uma visualização somente leitura ou clicar em ![Abrir tarefa ou problema](assets/boards-launch-icon.png) para abrir a tarefa ou o problema em uma nova guia do navegador.
-
-   >[!NOTE]
-   >
-   >A exibição somente leitura dos cartões na coluna de entrada está disponível somente por meio da opção de aceitação antecipada de recursos para [!DNL Workfront] [!UICONTROL Quadros].
 
    Você pode reordenar manualmente os itens na coluna de entrada.
 
