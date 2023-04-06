@@ -4,9 +4,9 @@ description: Visão geral da versão 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2049958745516d37f41938fbd4b6398f57378959
+source-git-commit: c3ab0f47d8cb31094eb39e314ff11099a647a9f9
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2677'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,7 @@ ht-degree: 0%
 
 # Visão geral da versão 23.2
 
-Esta página fornece informações sobre a funcionalidade incluída na versão 23.2 programada para a semana de 3 de abril de 2023.
-
-As melhorias nesta página estão disponíveis no ambiente de Visualização. Esta página será atualizada com melhorias adicionais, à medida que a versão 23.2 se aproxima da versão de produção planejada.
+Esta página fornece informações sobre a funcionalidade incluída na versão 23.1. Esses aprimoramentos foram disponibilizados no ambiente de Produção com a versão 23.2 de 6 e 7 de abril de 2023.
 
 Para obter dicas sobre como se preparar para a próxima versão, consulte [Preparar para uma versão trimestral do Adobe Workfront](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
 
@@ -116,7 +114,7 @@ Em vez de um webinário de versão, convidamos você para se registrar no Adobe 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adicionar tarefas e problemas dos detalhes do objeto a uma placa ou fluxo de trabalho da Workfront</a><span style="color: #ff0000;"> Novo na Visualização!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adicionar tarefas e problemas dos detalhes do objeto a uma placa ou fluxo de trabalho da Workfront</a></p>
                         <p>Agora é possível adicionar tarefas ou problemas existentes a um quadro do Workfront ou a uma lista de cartões de fluxo de trabalho diretamente dos detalhes do objeto. Todos os itens adicionados a um quadro se tornarão cartões conectados, e quaisquer itens adicionados a um fluxo de trabalho serão adicionados à lista de cartões como cartões não planejados.</p>
                     </td>
                     <td><p><b>Disponível nestas datas:</b></p>
@@ -429,7 +427,7 @@ Em vez de um webinário de versão, convidamos você para se registrar no Adobe 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Painéis de Tela</a><span style="color: #ff0000;"> Em breve!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Painéis de tela</a></p>
                         <p>Painéis de Tela foi adicionado como um recurso em andamento para Painéis que pode ser ativado em modelos de layout. Painéis da tela permitirão que as visualizações da Tela de relatório sejam combinadas com relatórios existentes, além de novas opções de layout. Atualmente, somente os relatórios de lista são suportados, mas mais opções serão adicionadas enquanto o desenvolvimento continuar.</p>
                     </td>
                     <td><p><b>Disponível nestas datas:</b></p>
@@ -464,8 +462,8 @@ Em vez de um webinário de versão, convidamos você para se registrar no Adobe 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Logon biométrico e coleções de quadros no aplicativo móvel</span></a><span style="color: #ff0000;"> Em breve!</span>
-                        <p>Logon biométrico agora é uma opção para fazer logon mais rápido no aplicativo móvel! Depois que a verificação biométrica for configurada após um logon inicial, os usuários poderão usar impressão digital ou reconhecimento facial para fazer logon novamente rapidamente no aplicativo, com apenas ocasionalmente a reverificação de senha. Além disso, haverá várias melhorias de aparência à experiência geral de logon que chegarão em uma atualização posterior.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Logon biométrico e coleções de quadros no aplicativo móvel</span></a>
+                        </span></a><p>Logon biométrico agora é uma opção para fazer logon mais rápido no aplicativo móvel! Depois que a verificação biométrica for configurada após um logon inicial, os usuários poderão usar impressão digital ou reconhecimento facial para fazer logon novamente rapidamente no aplicativo, com apenas ocasionalmente a reverificação de senha. Além disso, haverá várias melhorias de aparência à experiência geral de logon que chegarão em uma atualização posterior.</p>
                         <p>As coleções de placas agora também são suportadas no aplicativo móvel, permitindo que os usuários móveis visualizem qualquer coleção à qual tenham acesso na versão desktop, a partir da lista de placas móveis.</p>
                     </td>
                     <td><p><b>Disponível nestas datas:</b></p>
@@ -537,7 +535,7 @@ Em vez de um webinário de versão, convidamos você para se registrar no Adobe 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Novos clientes líquidos a serem integrados à experiência unificada do Adobe</a><span style="color: #ff0000;"> Em breve!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Novos clientes líquidos a serem integrados à experiência unificada do Adobe</a></p>
                         <p>A experiência unificada do Adobe inclui:
                         <ul>
                         <li>Um único logon para todos os aplicativos Adobe por meio do Adobe Experience Cloud</li>
@@ -559,7 +557,7 @@ Em vez de um webinário de versão, convidamos você para se registrar no Adobe 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">O visualizador de prova é aberto em uma nova guia para usuários na Experiência unificada</a><span style="color: #ff0000;"> Em breve!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">O visualizador de prova é aberto em uma nova guia para usuários na Experiência unificada</a></p>
                         <p>O visualizador de prova agora é aberto em uma nova guia para usuários na Experiência unificada.
                         </p>
                     </td>
@@ -627,11 +625,11 @@ Não há atualizações da Workfront Proof neste ponto da versão. Essa área se
 
 Novos recursos que chegam ao lançamento dos Objetivos do Workfront com a versão 23.2. Para obter informações sobre esses novos recursos agora disponíveis em Visualização, consulte [Metas da Adobe Workfront com a versão 23.2](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
 
-### API versão 15
+### API versão 16
 
-Para a API versão 15, modificamos alguns recursos e endpoints. Algumas das alterações são compatíveis com novas funcionalidades e outras facilitam o uso das informações disponíveis por meio da API.
+A API versão 16 será lançada com a versão 2.3. Para a API versão 16, modificamos alguns recursos e endpoints. Algumas das alterações são compatíveis com novas funcionalidades e outras facilitam o uso das informações disponíveis por meio da API.
 
-Para obter informações sobre as novidades e atualizações, consulte [Novidades da API versão 15](/help/quicksilver/wf-api/api/new-api-version-15.md).
+Para obter informações sobre as novidades e atualizações, consulte [Novidades da API versão 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
 
 Para obter informações sobre versões da API, consulte [Controle de versão da API e cronograma de suporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

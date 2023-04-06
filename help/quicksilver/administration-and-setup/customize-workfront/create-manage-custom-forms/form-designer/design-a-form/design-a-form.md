@@ -7,17 +7,15 @@ description: Você pode criar um formulário personalizado com o designer de for
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: b56cf20e054b2658ade8aef6c179128e001603c2
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
-source-wordcount: '3803'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Projetar um formulário com o designer de formulários
-
-{{highlighted-preview-article-level}}
 
 Você pode criar um formulário personalizado com o designer de formulário. É possível anexar formulários personalizados a diferentes objetos Workfront para capturar dados sobre esses objetos.
 
@@ -332,7 +330,7 @@ Para adicionar botões de opção e caixas de seleção:
     </ul></td>
     </tr> 
      <tr> 
-    <td role="rowheader">Criar um campo obrigatório</td> 
+    <td role="rowheader">Tornar um campo obrigatório</td> 
     <td>Selecione essa opção se desejar que o campo seja obrigatório para que o usuário preencha o formulário personalizado. </td> 
     <td><ul>
     <li>Botões de seleção</li>
@@ -470,7 +468,7 @@ Para adicionar campos de data de digitação antecipada:
     </ul></td>
      </tr>
      <tr> 
-      <td role="rowheader">Criar um campo obrigatório</td> 
+      <td role="rowheader">Tornar um campo obrigatório</td> 
       <td>Selecione essa opção se desejar que o campo seja obrigatório para que o usuário preencha o formulário personalizado. </td> 
        <td><ul>
     <li>Typeahead</li>

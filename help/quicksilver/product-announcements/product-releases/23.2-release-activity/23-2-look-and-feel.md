@@ -4,7 +4,7 @@ description: Atualizações de aparência e comportamento durante o período de 
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
+source-git-commit: f10e84b4afffee5d80a32161300bbcf4b0d20f73
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Para obter uma lista de todas as alterações disponíveis com a versão 23.2, c
 
 >[!NOTE]
 >
->Versão de visualização: 4 de abril de 2023; Versão de produção planejada: 18 de abril de 2023
+>Versão de visualização: 4 de abril de 2023; Versão de produção planejada: 20 de abril de 2023
 
 Atualizamos a lista Rascunhos na área Solicitações para torná-la consistente com listas mais recentes no Workfront.
 Algumas das atualizações incluem:

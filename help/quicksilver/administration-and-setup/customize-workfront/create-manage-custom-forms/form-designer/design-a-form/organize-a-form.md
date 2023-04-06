@@ -7,17 +7,15 @@ description: Você pode organizar um formulário personalizado com o Designer de
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 529de9d31be883325d425dceb286d750397c5d8e
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
 # Organizar e visualizar um formulário com o designer de formulário
-
-{{highlighted-preview-article-level}}
 
 Você pode organizar um formulário personalizado com o designer de formulário.
 

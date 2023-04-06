@@ -7,17 +7,15 @@ description: É possível adicionar ou remover tipos de objetos de formulários 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: c0082dd73e3db8123f9cc08f1798ef8e70730625
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
 # Adicionar ou excluir tipos de objetos de um formulário personalizado existente com o designer de formulários
-
-{{highlighted-preview-article-level}}
 
 É possível adicionar ou excluir tipos de objetos de um formulário personalizado existente com o designer de formulários.
 

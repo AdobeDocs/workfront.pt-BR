@@ -7,17 +7,15 @@ description: Você pode criar um formulário personalizado a partir de uma cópi
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 4700e5650f6ef9de5291f36072db8706bade92ee
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
 # Criar um formulário a partir de uma cópia com o designer de formulários
-
-{{highlighted-preview-article-level}}
 
 Você pode criar um novo formulário personalizado baseado em um formulário existente. É possível anexar formulários personalizados a diferentes objetos Workfront para capturar dados sobre esses objetos.
 
