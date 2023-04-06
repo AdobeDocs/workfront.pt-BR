@@ -6,16 +6,14 @@ description: Especificar uma versão da API em suas integrações
 author: Becky
 feature: Workfront API
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 2b9eacc9b2c8f499cdd1794a55879a56224051c8
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Especificar uma versão da API em suas integrações
-
-<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Ela está disponível somente no ambiente Preview Sandbox .</span>
 
 Todos os URIs do Adobe Workfront devem referenciar uma versão específica da API após a parte &quot;attask/api&quot; do URI. O exemplo a seguir chama a Versão 15.0:
 
@@ -31,11 +29,9 @@ Para obter mais informações sobre a cadência da versão e o agendamento de de
 
 >[!IMPORTANT]
 >
->* Após a versão 23.2, a versão padrão da API será definida como a versão mais recente. Qualquer chamada de API sem a versão especificada usará a versão padrão. Sempre que o Workfront lançar uma nova versão da API, a versão padrão será atualizada para a versão mais recente. Portanto, depois que uma nova versão da API do Workfront for lançada, todas as chamadas de API que usam a versão padrão deverão ser verificadas para garantir que a funcionalidade ainda seja suportada.
+>* A versão padrão da API é definida como a versão mais recente. Qualquer chamada de API sem a versão especificada usará a versão padrão. Sempre que o Workfront lançar uma nova versão da API, a versão padrão será atualizada para a versão mais recente. **Portanto, depois que uma nova versão da API do Workfront for lançada, todas as chamadas de API que usam a versão padrão deverão ser verificadas para garantir que a funcionalidade ainda seja suportada.**
 >
 >* Se sua organização estiver usando atualmente a API padrão, o administrador do Workfront recebeu uma mensagem da Central de anúncios com mais instruções relacionadas à API padrão.
->
->* <span class="preview">A API padrão no ambiente de Visualização é definida como a versão mais recente. A API padrão no ambiente de produção será definida como a versão mais recente após a versão 23.2 (abril de 2023)</span>.
 >
 >Para ver a versão mais recente da API, consulte [Controle de versão da API e cronograma de suporte](../../wf-api/api/api-version-support-schedule.md).
 
