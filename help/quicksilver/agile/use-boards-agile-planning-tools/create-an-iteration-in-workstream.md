@@ -6,9 +6,9 @@ title: Criar uma iteração em uma sequência de trabalho
 description: Uma iteração é um período de tempo definido reservado para a conclusão do trabalho. Algumas equipes ágeis podem se referir a uma iteração como uma ramificação.
 author: Lisa
 feature: Agile
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+source-git-commit: cc1411f0308e3415a09403e8e3a65d8af2886de9
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '350'
 ht-degree: 1%
 
 ---
@@ -86,3 +86,8 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
    Depois que uma iteração for iniciada, você só poderá alterar o nome da iteração.
 
+## Excluir uma iteração
+
+1. Clique no botão [!UICONTROL **Lista de cartões**] na sequência de trabalho e abra a visualização de iteração.
+1. Clique no botão **Excluir** ícone ao lado da iteração.
+1. Clique em [!UICONTROL **Excluir iteração**] na mensagem de confirmação.
