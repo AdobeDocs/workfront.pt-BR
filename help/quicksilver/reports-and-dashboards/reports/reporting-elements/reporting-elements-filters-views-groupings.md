@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: '"Elementos do relatório: filtros, visualizações e agrupamentos'
 description: Os principais elementos que cada lista e relatório devem ter no Workfront são um filtro, uma visualização e um agrupamento. Cada elemento fornece informações diferentes em qualquer relatório.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 0%

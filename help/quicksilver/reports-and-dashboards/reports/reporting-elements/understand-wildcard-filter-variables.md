@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Variáveis de filtro curinga
 description: Ao usar curingas em filtros, é possível fazer referência a um usuário ou data genérica em vez de um usuário ou data específica. Dessa forma, os elementos criados são dinâmicos e os resultados mudam de acordo com o contexto em que são usados.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 1%

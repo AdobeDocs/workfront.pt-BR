@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Criar ou editar exibições no Adobe Workfront
 description: Você pode personalizar o tipo de informações exibidas na tela usando as exibições. Você pode usar vários tipos de exibições no Adobe Workfront.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '1748'
 ht-degree: 1%

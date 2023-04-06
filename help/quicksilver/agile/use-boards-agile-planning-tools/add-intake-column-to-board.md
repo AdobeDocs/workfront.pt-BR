@@ -7,7 +7,7 @@ description: Opcionalmente, é possível adicionar uma coluna de entrada ao quad
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -77,7 +77,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
    Este exemplo mostra um filtro para tarefas de um projeto específico que estão no status de [!UICONTROL Novo] ou [!UICONTROL Em Andamento]e são atribuídas a mim.
 
-   Para obter detalhes sobre como criar um filtro, consulte a seção &quot;Criar ou editar um filtro no construtor beta&quot; no artigo [Criar ou editar filtros em [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   Para obter detalhes sobre como criar um filtro, consulte a seção &quot;Criar ou editar um filtro no construtor padrão&quot; no artigo [Criar ou editar filtros em [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 1. Nomeie o filtro e clique em **[!UICONTROL Salvar]**.
 

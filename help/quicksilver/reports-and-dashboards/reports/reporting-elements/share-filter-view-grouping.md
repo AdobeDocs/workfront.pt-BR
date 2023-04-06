@@ -3,12 +3,12 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Compartilhar um filtro, visualização ou agrupamento
 description: É possível compartilhar filtros, visualizações e agrupamentos que você pode visualizar com outros usuários.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: b56e6591c7da166bd1548420b562b838cc7fe0f2
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1227'
 ht-degree: 1%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 1%
 <p>(NOTE: This is linked from the TOC article in WF Basics > permissions section)&nbsp;</p>
 </div>
 -->
-
-<span class="preview">Observe que, no ambiente de Visualização, a experiência aprimorada de filtro (anteriormente chamada de &quot;beta&quot;) agora é o padrão. Esses filtros aprimorados agora são &quot;padrão&quot; e a experiência de filtro mais antiga é &quot;herdada&quot;.</span>
 
 O administrador do Adobe Workfront concede aos usuários acesso para visualizar ou editar objetos quando eles atribuem níveis de acesso. Para obter mais informações sobre a concessão de acesso a objetos, consulte [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -73,94 +71,20 @@ Você deve ter o seguinte:
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)</p>
 -->
 
-É possível compartilhar filtros em listas selecionadas usando as seguintes interfaces:
+O compartilhamento de filtros em listas selecionadas é diferente, dependendo da interface usada para compartilhar o filtro de: padrão ou herdado. Para obter informações sobre os tipos de interfaces de criação de filtros, consulte [Criar ou editar filtros no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
-* Interface padrão
-* Interface do criador de beta
+Você pode compartilhar exibições e agrupamentos somente na interface herdada.
 
-O compartilhamento de filtros em listas selecionadas é diferente, dependendo da interface usada para compartilhar o filtro. Para obter informações sobre os tipos de interfaces de criação de filtros, consulte [Criar ou editar filtros no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+### Compartilhamento de filtros usando a interface padrão do construtor
 
-Você pode compartilhar exibições e agrupamentos somente na interface padrão.
+É possível compartilhar um filtro na interface padrão a partir de listas de projetos, tarefas, problemas, portfólios, programas, usuários, modelos ou grupos. A interface padrão do construtor para filtros não está disponível para nenhum outro objeto ou para exibições ou agrupamentos.
 
-* [Compartilhamento de filtros, visualizações e agrupamentos usando a interface padrão](#share-with-standard-interface)
-* [Compartilhamento de filtros usando a interface do construtor beta](#share-with-beta-builder-interface)
-
-### Compartilhamento de filtros, visualizações e agrupamentos usando a interface padrão {#share-with-standard-interface}
-
-O compartilhamento de filtros, visualizações e agrupamentos na interface padrão é idêntico.
-
-1. Vá para uma lista de objetos ou um relatório.
-1. (Condicional) Em uma lista, clique no botão **Filtro**, **Exibir** ou **Agrupamento** , depois passe o mouse sobre o filtro, a visualização ou o agrupamento que deseja compartilhar, clique no link **Mais** ícone ![Ícone Mais](assets/more-icon.png), em seguida **Compartilhar**.
-
-   Em um relatório, clique no botão **Filtro**, **Exibir** ou **Agrupamento** selecione o filtro, a visualização ou o agrupamento que deseja compartilhar.
-
-1. (Condicional) Se estiver compartilhando um relatório, clique no botão **Filtro**, **Exibir** ou **Agrupamento** menu suspenso novamente e clique em **Compartilhar filtro**, **Compartilhar Exibição** ou **Agrupamento de compartilhamento**.\
-   O **Filtrar acesso**, **Ver Acesso** ou **Agrupar acesso** será exibida.
-
-   ![Compartilhar filtro](assets/share-filter-people-box-nwe-350x458.png)
-
-1. Conclua uma das opções a seguir, dependendo de com quem você deseja compartilhar:
-
-   **Para compartilhar com usuários individuais, equipes, funções, grupos ou empresas:** No campo fornecido, comece a digitar o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar e clique no nome quando ele for exibido na lista suspensa.\
-   Repita esse processo para compartilhar o acesso com vários usuários, equipes, funções, grupos ou empresas.
-
-   >[!TIP]
-   >
-   >O compartilhamento com grupos dá permissões para filtrar, exibir ou agrupar os membros do grupo e de todos os subgrupos.
-
-
-   **Para compartilhar com todos os usuários no sistema:** Clique no botão **Configurações** ícone e, em seguida, clique em **Tornar esse sistema visível**.\
-   O administrador deve selecionar a opção Compartilhar todo o sistema para que essa opção esteja disponível. Para obter mais informações, consulte os artigos [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) e [Compartilhar relatórios, painéis e calendários](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
-
-1. (Condicional) Se você estiver compartilhando com usuários individuais, equipes, funções, grupos ou empresas, clique no menu suspenso para definir o nível de acesso que deseja conceder.
-
-   Você pode selecionar entre as seguintes opções:
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"><strong>Visualizar o projeto</strong></td> 
-      <td> <p>Selecione essa opção para permitir que os destinatários do compartilhamento usem somente o Filtro, a Exibição ou o Agrupamento compartilhado. Quando essa opção é selecionada, os recipients não podem fazer modificações no item compartilhado.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Gerenciar o projeto</strong></td> 
-      <td> <p>Selecione esta opção para permitir que os destinatários do compartilhamento usem e modifiquem o Filtro, Exibição ou Agrupamento compartilhado.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Compartilhar</strong></td> 
-      <td> <p>Clique em <strong>Configurações avançadas</strong>, em seguida, selecione ou desmarque a <strong>Compartilhar</strong> , dependendo se deseja que os recipients possam compartilhar com outras pessoas.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-1. Clique em **Salvar**.
-
-   Os usuários com quem você compartilhou o filtro, a visualização ou o agrupamento podem acessá-lo clicando no botão **Filtro**, **Exibir** ou **Agrupamento** menu suspenso ou ícone e rolando para baixo até o **Compartilhado comigo** seção.
-
-### Compartilhamento de filtros usando a interface do construtor beta {#share-with-beta-builder-interface}
-
-Ao compartilhar filtros de listas de projetos, tarefas ou problemas, você pode compartilhá-los usando a interface beta builder em vez da interface padrão.
-
-A interface do construtor beta não está disponível para nenhum outro objeto no Workfront.
-
-Não é possível criar filtros na interface do construtor beta ao criar relatórios.
-
-Compartilhe um filtro usando a interface do construtor beta:
+Compartilhe um filtro usando a interface padrão do construtor:
 
 1. Vá para uma lista de projetos, tarefas ou problemas.
-1. Clique no botão **Filtro** ícone ![Ícone Filtro](assets/filter-nwepng.png), em seguida, ative a **Configuração beta** ![Configuração beta](assets/beta-toggle-white-on-existing-filters.png) para acessar o criador beta. Está desativado por padrão.
+1. Clique no botão **Filtro** ícone ![Ícone Filtro](assets/filter-nwepng.png).
 
-   Em seguida, concorde com o contrato beta, se necessário.
-
-   Isso abre a interface do criador de filtros beta.
-
-   >[!TIP]
-   >
-   >O cabeçalho da interface do construtor muda para azul quando você ativa o construtor beta. Depois de habilitar a interface do criador beta, a Workfront a mantém habilitada para todas as áreas em que está disponível.
-
-   ![Construtor de filtros beta](assets/new-filters-all-filter-types.png)
+   ![Construtor de filtros padrão](assets/new-filters-all-filter-types.png)
 
 1. Revise as seguintes listas de filtros:
 
@@ -193,7 +117,7 @@ Compartilhe um filtro usando a interface do construtor beta:
 
    A caixa Compartilhamento de filtro é exibida.
 
-1. Ative a configuração Exibir no sistema. Isso dá a qualquer pessoa no Workfront permissão para visualizar o filtro.
+1. Ative o **Exibir todo o sistema** configuração. Isso dá a qualquer pessoa no Workfront permissão para visualizar o filtro.
 
    >[!IMPORTANT]
    >
@@ -228,4 +152,58 @@ Compartilhe um filtro usando a interface do construtor beta:
    Os filtros compartilhados são exibidos na **Compartilhado comigo** seção do painel de filtro para essas entidades.
 
    ![Filtros compartilhados comigo](assets/new-filters-shared-with-me.png)
+
+### Compartilhar filtros, visualizações e agrupamentos usando a interface herdada
+
+O compartilhamento de filtros, visualizações e agrupamentos na interface herdada é idêntico.
+
+1. Vá para uma lista de objetos ou um relatório.
+1. (Condicional) Em uma lista, clique no botão **Filtro**, **Exibir** ou **Agrupamento** , depois passe o mouse sobre o filtro, a visualização ou o agrupamento que deseja compartilhar, clique no link **Mais** ícone ![Ícone Mais](assets/more-icon.png), em seguida **Compartilhar**.
+
+   Em um relatório, clique no botão **Filtro**, **Exibir** ou **Agrupamento** selecione o filtro, a visualização ou o agrupamento que deseja compartilhar.
+
+1. (Condicional) Se estiver compartilhando um relatório, clique no botão **Filtro**, **Exibir** ou **Agrupamento** menu suspenso novamente e clique em **Compartilhar filtro**, **Compartilhar Exibição** ou **Agrupamento de compartilhamento**.\
+   O **Filtrar acesso**, **Ver Acesso** ou **Agrupar acesso** será exibida.
+
+   ![Compartilhar filtro](assets/share-filter-people-box-nwe-350x458.png)
+
+1. Conclua uma das opções a seguir, dependendo de com quem você deseja compartilhar:
+
+   **Para compartilhar com usuários individuais, equipes, funções, grupos ou empresas:** No campo fornecido, comece a digitar o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar e clique no nome quando ele for exibido na lista suspensa.\
+   Repita esse processo para compartilhar o acesso com vários usuários, equipes, funções, grupos ou empresas.
+
+   >[!TIP]
+   >
+   >O compartilhamento com grupos dá permissões para filtrar, exibir ou agrupar os membros do grupo e de todos os subgrupos.
+
+   **Para compartilhar com todos os usuários no sistema:** Clique no botão **Configurações** ícone e, em seguida, clique em **Tornar esse sistema visível**.\
+   O administrador deve selecionar a opção Compartilhar todo o sistema para que essa opção esteja disponível. Para obter mais informações, consulte os artigos [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) e [Compartilhar relatórios, painéis e calendários](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+
+1. (Condicional) Se você estiver compartilhando com usuários individuais, equipes, funções, grupos ou empresas, clique no menu suspenso para definir o nível de acesso que deseja conceder.
+
+   Você pode selecionar entre as seguintes opções:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>Visualizar o projeto</strong></td> 
+      <td> <p>Selecione essa opção para permitir que os destinatários do compartilhamento usem somente o Filtro, a Exibição ou o Agrupamento compartilhado. Quando essa opção é selecionada, os recipients não podem fazer modificações no item compartilhado.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Gerenciar o projeto</strong></td> 
+      <td> <p>Selecione esta opção para permitir que os destinatários do compartilhamento usem e modifiquem o Filtro, Exibição ou Agrupamento compartilhado.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Compartilhar</strong></td> 
+      <td> <p>Clique em <strong>Configurações avançadas</strong>, em seguida, selecione ou desmarque a <strong>Compartilhar</strong> , dependendo se deseja que os recipients possam compartilhar com outras pessoas.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Clique em **Salvar**.
+
+   Os usuários com quem você compartilhou o filtro, a visualização ou o agrupamento podem acessá-lo clicando no botão **Filtro**, **Exibir** ou **Agrupamento** menu suspenso ou ícone e rolando para baixo até o **Compartilhado comigo** seção.
+
 

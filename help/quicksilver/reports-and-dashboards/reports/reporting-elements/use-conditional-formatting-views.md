@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Usar formatação condicional em exibições
 description: À medida que você compartilha seus relatórios com outros usuários no Adobe Workfront, considere personalizar a visualização dos relatórios para facilitar a leitura ou destacar algumas informações.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 2%
