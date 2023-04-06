@@ -6,7 +6,7 @@ title: Usar a lista de cartões
 description: Você pode criar uma lista de cartões em um fluxo de trabalho e adicionar os cartões às iterações.
 author: Lisa
 feature: Agile
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Usar a lista de cartões
-
-{{highlighted-preview-article-level}}
 
 Você pode criar uma lista de cartões em um fluxo de trabalho e adicionar os cartões às iterações.
 

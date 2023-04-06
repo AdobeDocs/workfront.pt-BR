@@ -6,7 +6,7 @@ title: Criar uma iteração em uma sequência de trabalho
 description: Uma iteração é um período de tempo definido reservado para a conclusão do trabalho. Algumas equipes ágeis podem se referir a uma iteração como uma ramificação.
 author: Lisa
 feature: Agile
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 1%
@@ -14,8 +14,6 @@ ht-degree: 1%
 ---
 
 # Criar uma iteração em uma sequência de trabalho
-
-{{highlighted-preview-article-level}}
 
 Uma iteração é um período de tempo definido reservado para a conclusão do trabalho. Algumas equipes ágeis podem se referir a uma iteração como uma ramificação.
 

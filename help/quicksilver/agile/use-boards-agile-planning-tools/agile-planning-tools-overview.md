@@ -7,7 +7,7 @@ description: À medida que você cria um quadro usando placas ad hoc e conectada
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Visão geral das ferramentas de planejamento ágil
-
-{{highlighted-preview}}
 
 À medida que você cria um quadro usando cartões ad hoc e conectados, pode aproveitar as vantagens das ferramentas adicionais de planejamento ágil.
 
@@ -26,15 +24,11 @@ Ferramentas úteis para Kanban incluem:
 * Agrupamento de cartões em pingos
 * Uma coluna de entrada que pode ser usada para um backlog
 
-<div class="preview">
-
 As ferramentas úteis para a Soma incluem:
 
 * Fluxos de trabalho e quadros de iteração
 * Lista de cartões ou registro retroativo
 * Métricas de iteração
-
-</div>
 
 Você pode usar qualquer uma ou todas essas ferramentas de uma maneira que funcione para você e sua equipe, sem se comprometer com uma metodologia ágil específica.
 

@@ -6,18 +6,16 @@ title: Revisar métricas de iteração
 description: As métricas estão disponíveis para cada iteração em uma sequência de trabalho, no quadro do processo de iteração.
 author: Lisa
 feature: Agile
-source-git-commit: 463585bb3368b0061957c42516f790ed085711d2
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 1%
+source-wordcount: '201'
+ht-degree: 0%
 
 ---
 
 # Revisar métricas de iteração
 
-{{highlighted-preview-article-level}}
-
-As métricas estão disponíveis para cada iteração em uma sequência de trabalho, no quadro do processo de iteração.
+As métricas estão disponíveis para cada iteração em uma sequência de trabalho, no quadro do processo de iteração e no painel.
 
 ## Requisitos de acesso
 

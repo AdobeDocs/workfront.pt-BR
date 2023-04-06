@@ -6,27 +6,21 @@ description: O [!UICONTROL quadros] painel mostra a lista de quadros aos quais v
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
+source-git-commit: 0bf2de8cbdcbb21936ac36bdb8cd21552211a8cf
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
 
 # Usar o painel de quadros
 
-{{highlighted-preview}}
-
 O painel de quadros mostra a lista de quadros e fluxos de trabalho aos quais você tem acesso, incluindo quadros que você criou e quadros aos quais você foi adicionado. Os quadros individuais aos quais você tem acesso que não fazem parte de uma fluxo de trabalho são exibidos primeiro.
-
->[!NOTE]
->
->Os fluxos de trabalho estão disponíveis no ambiente de Visualização e em Produção por meio da opção inicial de aceitação de recursos para [!UICONTROL [!DNL Workfront] Quadros]. Para obter detalhes, consulte [Opt-in de recurso antecipado para placas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 No painel, você pode fazer o seguinte para quadros e fluxos de trabalho:
 
-* Arquivar um quadro <span class="preview">ou fluxo de trabalho</span>
-* Filtrar os quadros <span class="preview">e fluxos de trabalho</span>
+* Arquivar um quadro ou fluxo de trabalho
+* Filtrar quadros e fluxos de trabalho
 * Classifique a lista de quadros por nome da placa ou data de modificação
 * Pesquisar por um quadro ou fluxo de trabalho
 * Excluir um quadro ou fluxo de trabalho
@@ -54,7 +48,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
 &#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
 
-## Filtrar quadros <span class="preview">e fluxos de trabalho</span> {#filter-boards}
+## Filtrar quadros e fluxos de trabalho {#filter-boards}
 
 Você pode filtrar o painel de quadros para mostrar ativos, arquivados ou todos os quadros ou fluxos de trabalho.
 
@@ -85,7 +79,7 @@ Você pode pesquisar na área Quadros por um quadro específico ou pesquisar na 
 
    ![Pesquisar quadros no painel](assets/boards-searchbox.png)
 
-## Arquivar um quadro <span class="preview">ou um fluxo de trabalho</span>
+## Arquivar um quadro ou fluxo de trabalho
 
 O arquivamento de um quadro ou de um fluxo de trabalho o envia para o arquivo e você pode restaurá-lo posteriormente.
 
@@ -123,17 +117,18 @@ A exclusão de uma sequência de trabalho também exclui todos os quadros na seq
 
 1. Clique em **[!UICONTROL Excluir quadro]** ou [!UICONTROL **Excluir fluxo de trabalho**] na mensagem de confirmação.
 
-## Mover um quadro para uma sequência de trabalho
+<!-- ## Move a board to a workstream
 
-Você pode mover um quadro independente para uma sequência de trabalho ou mover um quadro de uma sequência de trabalho para outra.
+You can move a standalone board into a workstream, or move a board from one workstream to another workstream.
 
 >[!NOTE]
 >
->Você só pode mover quadros que criou, não quadros aos quais você foi adicionado.
+>You can only move boards that you created, not boards that you were added to.
 
-1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront], depois clique em **[!UICONTROL Quadros]**.
-1. Clique no botão **[!UICONTROL Mais]** menu ![[!UICONTROL Menu Mais]](assets/more-icon-spectrum.png) no quadro e selecione [!UICONTROL **Mover para fluxo de trabalho**].
-1. Selecione em qual fluxo de trabalho o quadro será adicionado e clique em [!UICONTROL **Mover**].
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+1. Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the board, and select [!UICONTROL **Move to workstream**].
+1. Select which workstream to add the board to, and click [!UICONTROL **Move**].
 
-   O quadro é movido para o fluxo de trabalho e não é mais exibido no [!UICONTROL Quadros] área.
-Se você ainda não criou uma fluxo de trabalho, será solicitado a criar uma para mover o quadro.
+   The board is moved into the workstream and no longer appears in the [!UICONTROL Boards] area.
+   If you have not created a workstream yet, you are prompted to create one to move the board into.
+-->

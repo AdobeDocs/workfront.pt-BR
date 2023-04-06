@@ -6,24 +6,18 @@ title: Gerenciar fluxos de trabalho
 description: Um fluxo de trabalho é um grupo configurável de quadros e cartões para colaborar no trabalho.
 author: Lisa
 feature: Agile
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '841'
 ht-degree: 3%
 
 ---
 
 # Gerenciar fluxos de trabalho
 
-{{highlighted-preview}}
+Um fluxo de trabalho é um grupo configurável de quadros e cartões para colaborar no trabalho. Fluxos de trabalho podem incluir diferentes tipos de quadros criados de modelos e uma lista de cartões de itens de trabalho. Em uma sequência de trabalho, você pode rastrear o trabalho em iterações ou impressões.
 
->[!NOTE]
->
->Os fluxos de trabalho estão disponíveis no ambiente de Visualização e em Produção por meio da opção inicial de aceitação de recursos para [!UICONTROL [!DNL Workfront] Quadros]. Para obter detalhes, consulte [Opt-in de recurso antecipado para placas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
-Um fluxo de trabalho é um grupo configurável de quadros e cartões para colaborar no trabalho. Fluxos de trabalho podem incluir diferentes tipos de quadros criados a partir de modelos, <span class="preview">e uma lista de cartões de itens de trabalho. Em uma sequência de trabalho, você pode rastrear o trabalho em iterações ou impressões.</span>
-
-<span class="preview">Para obter mais informações, consulte [Usar a lista de cartões](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) e [Criar uma iteração em uma sequência de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).</span>
+Para obter mais informações, consulte [Usar a lista de cartões](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) e [Criar uma iteração em uma sequência de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 Os fluxos de trabalho são exibidos no painel junto com quadros individuais aos quais você tem acesso que não fazem parte de uma fluxo de trabalho. Para obter informações sobre o painel de quadros, consulte [Usar o painel de quadros](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). Você pode clicar em qualquer nome de quadro no painel para abri-lo.
 
@@ -68,7 +62,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 | Quadro básico | Três colunas padrão são fornecidas no quadro. Você pode adicionar novas colunas e renomear ou excluir as colunas padrão. <p>Nenhuma política de coluna é aplicada. |
 | Quadro Kanban | As seguintes colunas são fornecidas no quadro: Backlog, Novo, Em Andamento, Concluído e Em Retenção. Você pode adicionar novas colunas e renomear ou excluir as colunas padrão.<p>Para usar o backlog, você deve configurar filtros para a coluna de entrada. Para obter mais informações, consulte [Adicionar uma coluna de entrada a um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Para revisar as políticas padrão de cada coluna, clique no botão [!UICONTROL **Mais** menu] em uma coluna e selecione [!UICONTROL **Editar**]. Você pode alterar qualquer uma dessas políticas predefinidas. Para obter mais informações, consulte [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 | Quadro retrospectivo | As seguintes colunas são fornecidas no quadro: O que deu certo? O que pode ser melhorado? O que devemos comemorar? O que podemos fazer para agilizar? Você pode adicionar novas colunas e renomear ou excluir as colunas padrão. <p>Nenhuma política de coluna é aplicada. |
-| <span class="preview">Processo de iteração</span> | <span class="preview">Este é o quadro usado para definir e executar uma iteração. <p>As seguintes colunas são fornecidas no quadro: Backlog, Novo, Em Andamento, Concluído e Em Retenção. Não é possível adicionar nenhuma coluna ao quadro. <p>Para revisar as políticas padrão de cada coluna, clique no botão [!UICONTROL **Mais**] em uma coluna e selecione [!UICONTROL **Editar**]. Você pode alterar qualquer uma dessas políticas predefinidas. Para obter mais informações, consulte [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).</span> |
+| Processo de iteração | Este é o quadro usado para definir e executar uma iteração. <p>As seguintes colunas são fornecidas no quadro: Backlog, Novo, Em Andamento, Concluído e Em Retenção. Não é possível adicionar nenhuma coluna ao quadro. <p>Para revisar as políticas padrão de cada coluna, clique no botão [!UICONTROL **Mais**] em uma coluna e selecione [!UICONTROL **Editar**]. Você pode alterar qualquer uma dessas políticas predefinidas. Para obter mais informações, consulte [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 Para obter mais informações sobre como configurar o quadro, consulte [Criar ou editar um quadro](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
@@ -99,8 +93,6 @@ Pessoas e equipes devem ser adicionadas à sequência de trabalho como membros a
 
    Esse é o mesmo processo que adicionar membros a um quadro. Para obter mais informações, consulte [Adicionar ou remover membros de um quadro](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-<div class="preview">
-
 ## Configurar uma sequência de trabalho
 
 {{step1-to-boards}}
@@ -118,4 +110,3 @@ Pessoas e equipes devem ser adicionadas à sequência de trabalho como membros a
 
    Adicionar filtros para fontes de fluxo de trabalho é o mesmo que adicionar filtros para uma coluna de entrada em um quadro básico ou um quadro Kanban. Para obter mais informações, consulte [Adicionar uma coluna de entrada a um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
-</div>
