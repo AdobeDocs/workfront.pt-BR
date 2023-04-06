@@ -1,35 +1,35 @@
 ---
-title: Visão geral das licenças do Adobe Workfront
+title: Visão geral de licenças herdadas
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: licença,tipo
 navigation-topic: access-levels
 description: Sua organização adquiriu um determinado número de licenças ao adquirir a Adobe Workfront. Como administrador do Workfront, você fornece um dos quatro tipos de licenças pagas do Workfront para cada usuário ao atribuir um nível de acesso ao usuário.
-author: Caroline
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 253a116e04e0b3a729331f5d0a29405e82808390
+source-git-commit: 6a62398de46f23701ee663b9effd074ae6b2dd35
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '361'
 ht-degree: 2%
 
 ---
 
-# Visão geral das licenças do Adobe Workfront
+# Visão geral de licenças herdadas
 
-Sua organização adquiriu um determinado número de licenças ao adquirir a Adobe Workfront. Como administrador do Workfront, você fornece um dos quatro tipos de licenças pagas do Workfront para cada usuário ao atribuir um nível de acesso ao usuário.
+Sua organização adquiriu um determinado número de licenças herdadas ao adquirir o Adobe Workfront. Como administrador do Workfront, você fornece um dos quatro tipos de licenças herdadas do Workfront pagas para cada usuário ao atribuir um nível de acesso ao usuário.
 
-## Como as licenças e os níveis de acesso do Workfront são vinculados
+## Como as licenças herdadas e os níveis de acesso herdados são vinculados
 
-Os 4 tipos de licenças pagas da Workfront permitem diferentes níveis de acesso ao Workfront. Cada nível de acesso é anexado a uma dessas licenças.
+Os 4 tipos de licenças herdadas do Workfront pagas permitem diferentes níveis de acesso ao Workfront. Cada nível de acesso herdado é anexado a uma dessas licenças herdadas.
 
-Como administrador do Workfront, em vez de atribuir uma licença a um usuário, você atribui a ele o nível de acesso anexado a essa licença.
+Como administrador do Workfront, em vez de atribuir uma licença herdada a um usuário, você atribui a ele o nível de acesso herdado anexado a essa licença herdada.
 
 Esta tabela e diagrama mostram os principais níveis de acesso ao Workfront:
 
-| Licença | Nível de acesso associado |
+| Licença herdada | Nível de acesso herdado associado |
 |--- |--- |
 | Plano | Administrador do sistema, Planejador |
 | Trabalho | Trabalhador |
@@ -38,9 +38,7 @@ Esta tabela e diagrama mostram os principais níveis de acesso ao Workfront:
 
 >[!NOTE]
 >
->A licença External não é uma licença paga. Ele foi projetado principalmente para compartilhar documentos com colaboradores que não usam o Workfront. Para obter mais informações, consulte [Níveis de acesso integrados no Adobe Workfront](default-access-levels-in-workfront.md).
-
-![](assets/licenses-and-access-levels.png)
+>A licença External não é uma licença paga. Ele foi projetado principalmente para compartilhar documentos com colaboradores que não usam o Workfront. Para obter mais informações, consulte [Níveis de acesso integrados no Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
 ## Como uma licença define um nível de acesso
 

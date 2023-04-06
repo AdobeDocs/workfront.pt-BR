@@ -10,16 +10,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 1bd454246419e199e5cfd0d8d1d73cd30c0b13b1
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1515'
 ht-degree: 5%
 
 ---
 
-# Níveis de acesso integrados no Adobe Workfront
+# Níveis de acesso herdados incorporados no Adobe Workfront
 
-Cada um dos seis níveis de acesso integrados é projetado para um tipo específico de usuário:
+Cada um dos seis níveis de acesso herdados incorporados foi projetado para um tipo específico de usuário:
 
 * Administrador de Sistema
 * Planejador
@@ -28,7 +28,7 @@ Cada um dos seis níveis de acesso integrados é projetado para um tipo específ
 * Solicitante
 * Usuário externo
 
-Dependendo do nível de acesso, até 3 configurações estão disponíveis para a maioria dos tipos de objetos Workfront:
+Dependendo do nível de acesso herdado, até 3 configurações estão disponíveis para a maioria dos tipos de objetos Workfront:
 
 <table style="table-layout:auto">
     <tr>
@@ -45,25 +45,25 @@ Dependendo do nível de acesso, até 3 configurações estão disponíveis para 
     </tr>
 </table>
 
-Se você precisar de um nível de acesso personalizado de Planejador, Trabalhador, Solicitante ou Revisor, poderá copiar o nível de acesso integrado e determinar a quantidade de acesso que deseja que ele permita para os vários tipos de objetos Workfront. Para obter informações sobre como criar um nível de acesso personalizado ou modificar um dos níveis de acesso incorporados, consulte [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Se você precisar de um nível de acesso personalizado de Planejador, Trabalhador, Solicitante ou Revisor, poderá copiar o nível de acesso herdado integrado e determinar a quantidade de acesso que deseja que ele permita para os vários tipos de objetos Workfront. Para obter informações sobre como criar um nível de acesso personalizado ou modificar um dos níveis de acesso herdados incorporados, consulte [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 >[!IMPORTANT]
 >
->É altamente recomendável deixar os níveis de acesso integrados inalterados para que você possa fazer referência a eles depois de configurar seus usuários.
+>É altamente recomendável deixar os níveis de acesso herdados integrados inalterados para que você possa consultá-los depois de configurar seus usuários.
 
 Para obter informações gerais sobre esses níveis de acesso, consulte [Visão geral dos níveis de acesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
-## Nível de acesso do Administrador do sistema
+## Nível de acesso herdado do Administrador do sistema
 
-Anexado à licença do Plano, esse nível de acesso integrado foi projetado para um usuário responsável pela administração do sistema Adobe Workfront. Não é possível modificar esse nível de acesso integrado.
+Anexado à licença do Plano, esse nível de acesso herdado integrado foi projetado para um usuário responsável pela administração do sistema Adobe Workfront. Não é possível modificar esse nível de acesso integrado.
 
-Os usuários com o nível de acesso Administrador do sistema podem fazer tudo no Workfront. Eles podem exibir e editar todos os objetos e informações do Workfront inseridos no Workfront por todos os outros usuários.
+Os usuários com o nível de acesso herdado Administrador do sistema podem fazer tudo no Workfront. Eles podem exibir e editar todos os objetos e informações do Workfront inseridos no Workfront por todos os outros usuários.
 
 Eles também têm acesso à área de configuração completa, onde podem alterar qualquer configuração no nível do sistema. E podem acessar todas as áreas no Menu principal ![](assets/main-menu-icon.png).
 
 Para obter mais informações, consulte [Conceder ao usuário acesso administrativo total](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-## Nível de acesso do planejador
+## Nível de acesso herdado do planejador
 
 Também anexado à licença do Plano, esse nível de acesso foi projetado para:
 
@@ -73,9 +73,9 @@ Também anexado à licença do Plano, esse nível de acesso foi projetado para:
 * Usuários que criam relatórios e aprovam folhas de horas, itens de trabalho e documentos
 * Usuários que precisam de acesso a todas as áreas no Menu principal ![](assets/main-menu-icon.png)
 
-Você pode criar uma versão personalizada do nível de acesso integrado do Planejador e determinar a quantidade de acesso que ele permite para os vários tipos de objetos Workfront. Para obter mais informações, consulte [Níveis de acesso integrados no Adobe Workfront](#Customiz) neste artigo.
+Você pode criar uma versão personalizada do nível de acesso herdado integrado do Planejador e determinar a quantidade de acesso que ele permite para os vários tipos de objetos Workfront. Para obter mais informações, consulte [Níveis de acesso integrados no Adobe Workfront](#Customiz) neste artigo.
 
-Estas são as configurações de acesso mais altas disponíveis para objetos no nível de acesso do Planejador:
+Estas são as configurações de acesso mais altas disponíveis para objetos no nível de acesso herdado do Planejador:
 
 | Tipo de objeto Workfront | Sem acesso | Exibir acesso | Editar acesso |
 |---|---|---|---|
@@ -96,9 +96,9 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
 
 {style="table-layout:auto"}
 
-## Nível de acesso do trabalhador
+## Nível de acesso herdado do trabalhador
 
-Anexado à licença de Trabalho, esse nível de acesso integrado é projetado para usuários que realizam o trabalho no Workfront. Não planeiam o trabalho; eles concluem.
+Anexado à licença de Trabalho, esse nível de acesso é projetado para usuários que realizam o trabalho no Workfront. Não planeiam o trabalho; eles concluem.
 
 Usuários com este nível de acesso:
 
@@ -109,7 +109,7 @@ Usuários com este nível de acesso:
 * Pode acessar todas as áreas no Menu principal ![](assets/main-menu-icon.png), mas a área &quot;Usuários&quot; é chamada de Equipes. Na área Equipes, os usuários com esse nível de acesso podem exibir somente as equipes às quais pertencem, juntamente com o trabalho atribuído a essas equipes.
 * Ter capacidade limitada para criar objetos, eles não podem criar projetos, portfólios, programas ou relatórios.
 
-Você pode criar uma versão personalizada do nível de acesso integrado do Worker e determinar a quantidade de acesso que ele permite para os vários tipos de objetos Workfront. Para obter mais informações, consulte [Níveis de acesso integrados no Adobe Workfront](#Customiz) neste artigo.
+Você pode criar uma versão personalizada do nível de acesso herdado integrado do Worker e determinar a quantidade de acesso que ele permite para os vários tipos de objetos Workfront. Para obter mais informações, consulte [Níveis de acesso integrados no Adobe Workfront](#Customiz) neste artigo.
 
 Estas são as configurações de acesso mais altas disponíveis para objetos no nível de acesso do Trabalhador:
 
@@ -132,7 +132,7 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
 
 {style="table-layout:auto"}
 
-## Nível de acesso do revisor
+## Nível de acesso herdado do revisor
 
 Anexado à licença de Revisão, esse nível de acesso é projetado para executivos que solicitam trabalho de outros usuários e que revisam e aprovam o trabalho. Esses não são proprietários de projetos ou membros da equipe, mas precisam acessar o Workfront para ver os itens de trabalho que eles supervisionam.
 
@@ -144,7 +144,7 @@ Usuários com o nível de acesso do Revisor:
 * Pode acessar solicitações e documentos no Menu principal ![](assets/main-menu-icon.png).
 * Ter capacidade limitada para criar objetos, eles não podem criar projetos, portfólios, programas ou relatórios.
 
-Você pode criar uma versão personalizada do nível de acesso integrado do Revisor e determinar a quantidade de acesso que ele permite para os vários tipos de objetos Workfront. Para obter mais informações, consulte [Níveis de acesso integrados no Adobe Workfront](#Customiz) neste artigo.
+Você pode criar uma versão personalizada do nível de acesso herdado integrado do Revisor e determinar a quantidade de acesso que ele permite para os vários tipos de objetos Workfront. Para obter mais informações, consulte [Níveis de acesso integrados no Adobe Workfront](#Customiz) neste artigo.
 
 Mais limitadas para projetos e tarefas do que o nível de acesso do Trabalhador, as configurações de acesso mais alto disponíveis para objetos no nível de acesso do Revisor são as seguintes:
 
@@ -249,13 +249,13 @@ Mais limitadas para projetos e tarefas do que o nível de acesso do Trabalhador,
  </tbody> 
 </table>
 
-## Nível de acesso do solicitante
+## Nível de acesso herdado do solicitante
 
-Anexado à licença da Solicitação, esse nível de acesso integrado foi projetado para usuários que fazem e recebem solicitações de trabalho simples no Workfront. Por padrão, eles estão limitados à área Solicitações .
+Anexado à licença de Solicitação, esse nível de acesso é projetado para usuários que fazem e recebem solicitações de trabalho simples no Workfront. Por padrão, eles estão limitados à área Solicitações .
 
 Por exemplo, um usuário pode registrar problemas na fila de solicitações de suporte técnico de sua organização.
 
-Usuários com este nível de acesso integrado:
+Usuários com este nível de acesso:
 
 * Pode fazer solicitações e atualizar essas solicitações
 * Pode carregar e aprovar documentos
@@ -263,7 +263,7 @@ Usuários com este nível de acesso integrado:
 * Não pode ser atribuído a itens de trabalho
 * Pode acessar solicitações somente no Menu principal ![](assets/main-menu-icon.png). Para obter mais informações sobre filas de solicitação, consulte [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-Você pode criar uma versão personalizada do nível de acesso integrado do Requester e determinar a quantidade de acesso que ele permite para os vários tipos de objetos Workfront. Para obter mais informações, consulte [Níveis de acesso integrados no Adobe Workfront](#Customiz) neste artigo.
+Você pode criar uma versão personalizada do nível de acesso herdado integrado do Requester e determinar a quantidade de acesso que ele permite para os vários tipos de objetos Workfront. Para obter mais informações, consulte [Níveis de acesso integrados no Adobe Workfront](#Customiz) neste artigo.
 
 Estas são as configurações de acesso mais altas disponíveis para objetos no nível de acesso do Solicitante:
 
@@ -286,7 +286,7 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
 
 {style="table-layout:auto"}
 
-## Nível de acesso do usuário externo
+## Nível de acesso herdado do usuário externo
 
 Esse nível de acesso não está anexado a uma licença paga da Workfront. É o nível de acesso mais restritivo, projetado principalmente para colaboradores, como consultores externos que não fazem logon no Workfront, mas precisam revisar, baixar ou exibir documentos ocasionalmente.
 

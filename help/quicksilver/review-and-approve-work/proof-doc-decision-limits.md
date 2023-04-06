@@ -5,12 +5,10 @@ title: Visão geral de documento limitado e decisão de prova para usuários nã
 description: As decisões de prova e documento são limitadas para todas as licenças Workfront não pagas. Limita a redefinição por usuário a cada mês.
 author: Courtney
 feature: Work Management
-hide: true
-hidefromtoc: true
-source-git-commit: 6961bc960312d364ee785543e13a7d75035ef326
+source-git-commit: 4a91a00c8089eb3cf424aa10d4ae86219bd6413f
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 8%
+source-wordcount: '225'
+ht-degree: 6%
 
 ---
 
@@ -74,13 +72,13 @@ Se um usuário externo atingir o limite de decisão, ele não perderá o acesso 
 
 ## Usuários colaboradores
 
-Quando um usuário com uma licença do Contributor atingir o limite de decisão, ele será atualizado automaticamente para a licença Light com provas ilimitadas e decisões de documento. <!-- For more information about the Light license, see the [Light access level](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) section in the [Access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) article.-->
+Quando um usuário com uma licença do Contributor atingir o limite de decisão, ele será atualizado automaticamente para a licença Light com provas ilimitadas e decisões de documento. Para obter mais informações sobre a licença Light, consulte o [Nível de acesso leve](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) na seção [Visão geral dos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) artigo 10. o
 
 >[!NOTE]
 >
->Tanto o administrador do Workfront quanto o usuário receberão uma notificação por email sobre essa atualização.
+>O administrador do Workfront receberá uma notificação por email referente a essa atualização.
 
-<!-- 
-## View the number of decisions for a user
 
-You can view the number of decisions for a user in the Users area of Workfront. For more information, see [View the number of decisions for all users](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md). -->
+## Exibir o número de decisões de um usuário
+
+Você pode visualizar o número de decisões de um usuário na área Usuários do Workfront. Para obter mais informações, consulte [Exibir o número de decisões para todos os usuários](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).

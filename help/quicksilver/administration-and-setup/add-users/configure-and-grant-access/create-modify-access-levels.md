@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 4a7999e6cb46d5b6933f44f1f19ff1979cb68a85
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1405'
 ht-degree: 6%
 
 ---
@@ -19,13 +19,14 @@ ht-degree: 6%
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.-->
 
-Como administrador do Adobe Workfront, você pode criar níveis de acesso personalizados e aplicá-los aos usuários, como explicado em [Visão geral dos níveis de acesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Como administrador do Adobe Workfront, você pode criar níveis de acesso personalizados e aplicá-los aos usuários. À medida que você trabalha com níveis de acesso, é importante entender como eles trabalham junto com as permissões de objeto que os usuários concedem quando compartilham objetos uns com os outros. Para obter mais informações sobre níveis de acesso, consulte
 
-À medida que você trabalha com níveis de acesso, é importante entender como eles trabalham junto com as permissões de objeto que os usuários concedem quando compartilham objetos uns com os outros. Para obter mais informações, consulte [Como os níveis de acesso e as permissões funcionam em conjunto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+* [Visão geral dos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [Visão geral dos níveis de acesso herdados](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!IMPORTANT]
 >
->É altamente recomendável deixar os níveis de acesso integrados inalterados para que você possa fazer referência a eles depois de configurar seus usuários. Para personalizar um nível de acesso, copie o nível de acesso padrão e modifique a cópia. (Você pode fazer isso para cada nível de acesso, exceto Administrador do sistema e Usuário externo.)
+>É altamente recomendável deixar os níveis de acesso integrados inalterados para que você possa fazer referência a eles depois de configurar seus usuários. Para personalizar um nível de acesso, copie o nível de acesso padrão e modifique a cópia. Você pode fazer isso para todos os níveis de acesso, exceto Administrador do sistema e Usuário externo.
 
 ## Requisitos de acesso
 
@@ -41,11 +42,13 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Licença Adobe Workfront</td> 
-   <td>Plano</td> 
+   <td>Plano atual: Padrão
+   <p>ou</p>
+   <p>Plano herdado: Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Você deve ser um administrador do Workfront.</p> <p><b>OBSERVAÇÃO</b>: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="#" class="MCXref xref selected">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Você deve ser um administrador do Workfront.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,7 +72,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
     <tbody> 
      <tr> 
       <td role="rowheader">Nome</td> 
-      <td> <p>Digite um nome para seu nível de acesso. </p> <p>Se você acabou de copiar um nível de acesso para criar um novo, o nome padrão é Nome do nível de acesso (Cópia), onde Nome do nível de acesso é o nível de acesso que você copiou.</p> <p><strong>Ponta</strong>: Recomendamos que você inclua o nome original do nível de acesso no nome da cópia. Por exemplo, na empresa ACME, uma cópia do nível de acesso do Planejador pode ser chamada ACME Planner.</p> </td> 
+      <td> <p>Digite um nome para seu nível de acesso. </p> <p>Se você acabou de copiar um nível de acesso para criar um novo, o nome padrão é Nome do nível de acesso (Cópia), onde Nome do nível de acesso é o nível de acesso que você copiou.</p> <p><strong>Ponta</strong>: Recomendamos que você inclua o nome original do nível de acesso no nome da cópia. Por exemplo, na empresa ACME, uma cópia do nível de acesso Padrão pode ser chamada ACME Standard.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Descrição </td> 
@@ -77,12 +80,12 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">Tipo de Licença</td> 
-      <td>Certifique-se de que a licença selecionada aqui seja a mais associada ao tipo de nível de acesso que você está criando ou editando. A licença selecionada determina quais configurações estão disponíveis para o nível de acesso. Para obter mais informações, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças do Adobe Workfront</a>.</td> 
+      <td>Certifique-se de que a licença selecionada aqui seja a mais associada ao tipo de nível de acesso que você está criando ou editando. A licença selecionada determina quais configurações estão disponíveis para o nível de acesso. Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Visão geral de licenças herdadas</a> ou <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral de licenças herdadas do Adobe Workfront</a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Condicional) Se **Plano** é selecionado no **Tipo de licença** , role até a seção **Permitir acesso administrativo para** e selecione permissões de acesso administrativo para aqueles que terão esse nível de acesso.
+1. (Condicional) Se **Padrão** ou **Plano** é selecionado no **Tipo de licença** , role até a seção **Permitir acesso administrativo para** e selecione permissões de acesso administrativo para aqueles que terão esse nível de acesso.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -121,7 +124,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
         <li>Adicionar novas funções de trabalho</li> 
         <li>Editar taxas de custo e faturamento de função</li> 
        </ul> 
-       <p>Para obter informações importantes sobre o acesso a dados financeiros que estão disponíveis para um usuário do Planejador com acesso administrativo a funções de cargo, consulte <a href="#planner-users-with-administrative-access-to-job-roles">Usuários do planejador com acesso administrativo a funções de trabalho</a>.</p>
+       <p>Para obter informações importantes sobre o acesso a dados financeiros que está disponível para um usuário do Standard ou do Planner com acesso administrativo a funções de jobs, consulte <a href="#planner-users-with-administrative-access-to-job-roles">Usuários padrão ou do Planner com acesso administrativo a funções de cargo</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -134,7 +137,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">Horas e planilhas de horas</td> 
-      <td> <p>Os administradores de grupo podem atribuir perfis de folha de ponto aos usuários nos grupos e subgrupos que gerenciam.</p> <p>Sem essa opção ativada, os administradores de grupo não podem atribuir perfis de folha de ponto a outros usuários nos grupos e subgrupos que gerenciam, embora possam criá-los.</p> <p>Todos os outros usuários com uma licença de Plano podem exibir todas as horas e folhas de horas no Workfront.</p> <p>Sem essa opção ativada, os usuários podem exibir horas somente em:</p> 
+      <td> <p>Os administradores de grupo podem atribuir perfis de folha de ponto aos usuários nos grupos e subgrupos que gerenciam.</p> <p>Sem essa opção ativada, os administradores de grupo não podem atribuir perfis de folha de ponto a outros usuários nos grupos e subgrupos que gerenciam, embora possam criá-los.</p> <p>Todos os outros usuários com uma licença Standard ou Plan podem exibir todas as horas e folhas de horas no Workfront.</p> <p>Sem essa opção ativada, os usuários podem exibir horas somente em:</p> 
        <ul> 
         <li>Projetos, tarefas ou problemas que eles gerenciam</li> 
         <li>Sua própria folha de ponto</li> 
@@ -203,9 +206,9 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
    Para obter informações sobre como um administrador do Adobe atribui um nível de acesso de Administrador do sistema a um usuário, consulte [Conceder ao usuário acesso administrativo total](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-## Usuários do planejador com acesso administrativo a funções de trabalho {#planner-users}
+## Usuários padrão ou do Planner com acesso administrativo a funções de cargo {#planner-users}
 
-Se você conceder a um Usuário do Planejador acesso administrativo a funções de cargo, a configuração Editar Faturamento de Função e Taxas de Custo será automaticamente ativada para o usuário automaticamente.
+Se você conceder acesso administrativo de usuário Padrão ou Planejador a funções de cargo, a configuração Editar Faturamento de Função e Taxas de Custo será automaticamente ativada para o usuário automaticamente.
 
 Posteriormente, se você desativar o acesso administrativo às funções de trabalho para o usuário, as funções de trabalho ainda estarão visíveis para o usuário porque a configuração Editar Faturamento de Função e Taxas de Custo ainda está ativada.
 
