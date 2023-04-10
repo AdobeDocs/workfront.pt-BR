@@ -6,16 +6,16 @@ title: Visão geral das integrações integradas do Adobe Workfront
 description: É possível integrar [!DNL Adobe Workfront] com aplicativos de terceiros. Essas integrações podem estender o utilitário de [!DNL Workfront] e adequá-lo às necessidades de sua organização. Por exemplo, se você for um trabalhador criativo no setor de marketing, poderá usar o complemento Adobe Creative Cloud para exportar ativos diretamente do Photoshop para o Workfront.
 feature: Workfront Integrations and Apps
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 5c5c198645006506cb4187196d5bffab72cd1d56
+source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Visão geral das integrações integradas do Adobe Workfront
 
-É possível integrar [!DNL Adobe Workfront] com aplicativos de terceiros. Essas integrações podem estender o utilitário de [!DNL Workfront] e adequá-lo às necessidades de sua organização. Por exemplo, se você for um trabalhador criativo no setor de marketing, poderá usar o complemento Adobe Creative Cloud para exportar ativos diretamente do Photoshop para o Workfront.
+É possível integrar [!DNL Adobe Workfront] com aplicativos de terceiros, bem como outros [!DNL Adobe] produtos. Essas integrações podem estender o utilitário de [!DNL Workfront] e adequá-lo às necessidades de sua organização. Por exemplo, se você for um trabalhador criativo no setor de marketing, poderá usar o [!DNL Adobe Workfront] plugin para [!DNL Creative Cloud] aplicativos para exportar ativos diretamente do Photoshop para o Workfront.
 
 Seu [!DNL Workfront] o administrador deve habilitar e configurar integrações integradas antes que você possa usá-las. Para saber quais integrações internas são usadas em sua organização, entre em contato com seu [!DNL Workfront] administrador.
 
