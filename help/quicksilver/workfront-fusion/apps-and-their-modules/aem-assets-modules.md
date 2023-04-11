@@ -10,7 +10,7 @@ description: Com o [!DNL Adobe Experience Manager Assets] conector para [!DNL Ad
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: c978a0eed86e399824d5b383c6db004deb0ec0ce
 workflow-type: tm+mt
 source-wordcount: '1496'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Para criar uma conexão para [!DNL Adobe Experience Manager Assets] módulos:
 
       Essa configuração requer informações do [!DNL Adobe Admin Console].
 
-   * **[!DNL AEM Assets Basic]**
+   * **[!DNL AEM Assets Basic]([!DNL Adobe Managed Services])**
 
       Essa configuração requer um nome de usuário e senha.
 
@@ -79,7 +79,7 @@ Para criar uma conexão para [!DNL Adobe Experience Manager Assets] módulos:
 
    Para [!DNL AEM Assets as a Cloud Service], consulte [Configure a conexão para [!DNL AEM Assets as a Cloud Service]](#configure-the-connection-for-aem-assets-as-a-cloud-service).
 
-   Para [!UICONTROL AEM Assets Basic], consulte [Configure a conexão para [!UICONTROL AEM Assets Basic]](#configure-the-connection-for-aem-assets-basic).
+   Para [!UICONTROL AEM Assets Basic] ([!DNL Adobe Managed Services]), consulte [Configure a conexão para [!UICONTROL AEM Assets Basic]](#configure-the-connection-for-aem-assets-basic).
 
 4. Clique em **[!UICONTROL Continuar]** para salvar a conexão e retornar ao módulo.
 
@@ -135,7 +135,7 @@ Para criar uma conexão para [!DNL Adobe Experience Manager Assets] módulos:
       </table>
 
 
-### Configure a conexão para [!DNL AEM Assets Basic]
+### Configure a conexão para [!DNL AEM Assets Basic] ([!DNL Adobe Managed Services])
 
 <table style="table-layout:auto"> 
         <col/>
