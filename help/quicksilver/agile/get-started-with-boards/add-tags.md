@@ -6,7 +6,7 @@ description: Você pode adicionar tags a cartões para mostrar visualmente que s
 author: Lisa
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 887e8c162764d5d69605b5323f6315de3a2992f3
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 1%
@@ -93,7 +93,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
    Clique no botão **[!UICONTROL Mais]** menu ![[!UICONTROL Menu Mais]](assets/more-icon-spectrum.png) no cartão e selecione **[!UICONTROL Editar]**.
 
-1. Encontre a tag que deseja remover do cartão e clique no botão **[!UICONTROL Remover]**&#x200B;Ícone &#x200B; ![Remover tag](assets/copy-of-boards-remove-30x23.png).
+1. Encontre a tag que deseja remover do cartão e clique no botão **[!UICONTROL Remover]** ícone ![Remover tag](assets/copy-of-boards-remove-30x23.png).
 1. Clique em **[!UICONTROL Fechar]**.
 
 ## Excluir uma tag
