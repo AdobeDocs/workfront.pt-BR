@@ -6,9 +6,9 @@ description: Você pode vincular manualmente a resolução de um problema à res
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ea430157da539507c11a559a4dce6b24aca9e5a6
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -68,19 +68,30 @@ Antes de começar, você deve:
    ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
 1. Vá para o **Visão geral** na **Detalhes do problema** seção.
-1. Clique no botão **Resolvido por** e selecione um dos seguintes tipos de resolução de objetos:  
+1. Clique no botão **Resolvido por** e selecione um dos seguintes tipos de resolução de objetos:
 
    * **Projeto**
    * **Tarefa**
    * **Problema**
 
-1. O campo para o objeto de resolução é exibido.
-1. Depois de selecionar o objeto, comece a digitar o nome de um projeto, tarefa ou problema específico no campo disponível e selecione-o quando ele for exibido na lista suspensa.
-1. Clique em **Salvar** **Alterações**.\
+   Dependendo do objeto selecionado, os seguintes campos serão exibidos:
+
+   * **Resolvendo projeto**
+   * **Resolvendo tarefa**
+   * **Resolvendo problema**
+
+
+1. Comece a digitar o nome de um projeto, tarefa ou problema específico na **Resolvendo projeto**, **Tarefa** ou **Problema** , em seguida, clique nele quando ele for exibido na lista.
+
+   >[!NOTE]
+   >
+   >Não é possível vincular a resolução de um problema à tarefa ou ao projeto no qual o problema está localizado. A tarefa ou projeto do problema não é exibido nos campos Resolvendo Tarefa ou Resolvendo Tarefa.
+
+
+1. Clique em **Salvar alterações**.
+
    O problema original torna-se o Objeto Resolvível para o projeto, tarefa ou problema selecionado nas etapas 4 e 5. Isso significa que o problema original é concluído quando o objeto de resolução (o projeto, a tarefa ou o problema ao qual você o vinculou) é concluído.
 
    >[!NOTE]
    >
    >Um projeto, tarefa ou problema pode ter vários problemas como Objetos Resolvíveis.
-
- 
