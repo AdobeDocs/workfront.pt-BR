@@ -2,9 +2,9 @@
 user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 feature-set: Workfront
-source-git-commit: 4df80a89134ce63903d3d83813fd4ca7c857cd00
+source-git-commit: 5e049780167b5acf680090e88164d85f661a15a5
 workflow-type: tm+mt
-source-wordcount: '12867'
+source-wordcount: '12875'
 ht-degree: 1%
 
 ---
@@ -2149,6 +2149,7 @@ ht-degree: 1%
    * Adobe Workfront para G Suite {#workfront-for-g-suite}
       * [Adobe Workfront para G Suite](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
       * [Instalar o Adobe Workfront para G Suite](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
+      * [Privacidade e permissões no Workfront para G Suite](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
       * [Fazer logon e sair do Adobe Workfront para G Suite](workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
       * [Acesse o conteúdo inicial do Adobe Workfront do G Suite](workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
       * [Atualizar um objeto do Adobe Workfront do G Suite](workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)

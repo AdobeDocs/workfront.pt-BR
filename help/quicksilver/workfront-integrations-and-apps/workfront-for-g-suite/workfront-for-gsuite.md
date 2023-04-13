@@ -4,13 +4,13 @@ product-area: workfront-integrations
 keywords: google,doc,documento,planilha,slide
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront para G Suite
-description: O Adobe Workfront for G Suite conecta você ao seu trabalho mais importante e permite que você colabore com outras pessoas enquanto permanece dentro do Gmail, do Google Calendar e do Google Drive. Sem sair desses aplicativos, você pode capturar solicitações enviadas por email ou atualizações de trabalho e adicioná-las ao Workfront. Você pode verificar o que está acontecendo no Workfront, incluindo datas de vencimento, prioridade, documentos, atualizações e contexto adicional, sem sair da caixa. Você pode tomar decisões de aprovação, responder a comentários ou aceitar novas solicitações de trabalho. E você pode converter seus emails em tarefas pessoais do projeto ou atribuir trabalho e prioridade a outras pessoas.
+description: O Adobe Workfront for G Suite conecta você ao seu trabalho mais importante e permite que você colabore com outras pessoas enquanto permanece dentro do Gmail, do Google Calendar e do Google Drive. Sem sair desses aplicativos, você pode capturar solicitações por email ou atualizações de trabalho e adicioná-las ao Workfront. Você pode verificar o que está acontecendo no Workfront, incluindo datas de vencimento, prioridade, documentos, atualizações e contexto adicional, sem sair da caixa. Você pode tomar decisões de aprovação, responder a comentários ou aceitar novas solicitações de trabalho. E você pode converter seus emails em tarefas pessoais do projeto ou atribuir trabalho e prioridade a outras pessoas.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
-source-git-commit: 66b7d2fa6d6ee2e1c7f096382b183c7ea4e479c4
+source-git-commit: 0862af846ca77c33132ec631cf1e3eae253d3cd8
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 0%
 Estes artigos de Ajuda podem ajudar você a começar a usar [!DNL Workfront for G Suite]:
 
 * [Instalar [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
+* [Privacidade e permissões no Workfront para G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
 * [Fazer logon e sair de [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
 
 Isso explica como gerenciar [!DNL Workfront] objetos sem sair [!DNL G Suite]:
