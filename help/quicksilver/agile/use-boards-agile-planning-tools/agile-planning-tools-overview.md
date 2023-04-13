@@ -7,9 +7,9 @@ description: À medida que você cria um quadro usando placas ad hoc e conectada
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+source-git-commit: 4df80a89134ce63903d3d83813fd4ca7c857cd00
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -41,4 +41,5 @@ Esta seção contém os seguintes artigos:
 * [Gerenciar fluxos de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
 * [Usar a lista de cartões](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
 * [Criar uma iteração em uma sequência de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
+* [Configurar o backlog em uma placa de fluxo de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
 * [Revisar métricas de iteração](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
