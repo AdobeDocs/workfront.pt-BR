@@ -6,9 +6,9 @@ description: Consulte estes artigos para saber como usar quadros no Workfront.
 author: Lisa
 feature: Agile
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: c224114b3516937ef7b074f4bf5a403ad9fc41fa
+source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -33,3 +33,4 @@ Esta seção contém os seguintes artigos:
 * [Excluir ou arquivar um cartão de um quadro](../../agile/get-started-with-boards/delete-board-items.md)
 * [Filtrar e pesquisar em um quadro](../../agile/get-started-with-boards/filter-search-in-board.md)
 * [Adicionar tags](../../agile/get-started-with-boards/add-tags.md)
+* [Notificações e preferências de email do Quadros](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)

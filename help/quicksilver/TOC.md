@@ -2,9 +2,9 @@
 user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 feature-set: Workfront
-source-git-commit: 5e049780167b5acf680090e88164d85f661a15a5
+source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
 workflow-type: tm+mt
-source-wordcount: '12875'
+source-wordcount: '12880'
 ht-degree: 1%
 
 ---
@@ -924,6 +924,7 @@ ht-degree: 1%
       * [Excluir ou arquivar um cartão de um quadro](agile/get-started-with-boards/delete-board-items.md)
       * [Filtrar e pesquisar em um quadro](agile/get-started-with-boards/filter-search-in-board.md)
       * [Adicionar tags](agile/get-started-with-boards/add-tags.md)
+      * [Notificações e preferências de email do Quadros](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
    * Usar ferramentas de planejamento ágil em quadros {#agile-planning-boards}
       * [Visão geral das ferramentas de planejamento ágil](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
       * [Gerenciar o limite de trabalho em andamento (WIP) em um quadro](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)

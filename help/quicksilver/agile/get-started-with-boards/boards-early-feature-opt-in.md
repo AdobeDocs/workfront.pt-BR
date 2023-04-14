@@ -6,9 +6,9 @@ title: Opt-in do recurso anterior para [!DNL Adobe Workfront] Quadros
 description: Leia este artigo para saber mais sobre o [!DNL Workfront Boards] opt-in de recurso antecipado.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
+source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ A tabela a seguir descreve os principais recursos das placas, juntamente com seu
   </tr>
   <tr>
    <td>Definir notificações por email para quadros</td>
-   <td>Planejado</td>
+   <td>Parcialmente liberado</td>
   </tr>
   <tr>
    <td>Migrar cartões kanban herdados para quadros</td>
