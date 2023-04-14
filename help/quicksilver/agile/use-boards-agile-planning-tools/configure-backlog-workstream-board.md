@@ -5,10 +5,11 @@ navigation-topic: boards
 title: Configurar o backlog em uma placa de fluxo de trabalho
 description: Você pode optar por exibir uma coluna de backlog em um quadro em um fluxo de trabalho e definir uma consulta para os cartões que são extraídos para o backlog do quadro na lista de cartões de fluxo de trabalho.
 author: Lisa
-source-git-commit: b58831d50c2be421c666515808091aa4863bb471
+exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
+source-git-commit: 75bb5af9564947a39e1cb46f9d6be2c03eb07acc
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 1%
+source-wordcount: '416'
+ht-degree: 0%
 
 ---
 
@@ -51,6 +52,11 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
    A coluna de backlog é adicionada à esquerda do quadro. Permanece em branco até que você aplique uma consulta a ele.
 
 1. Expandir [!UICONTROL **Consulta de backlog**].
+
+   >[!NOTE]
+   >
+   >Uma consulta padrão pode já ser aplicada ao registro retroativo, mostrando todos os itens de trabalho da lista de cartões que não pertencem a uma iteração e que não estão no status Concluído.
+
 1. Clique em [!UICONTROL **Adicionar condição**] e clique em no campo &quot;empty&quot; .
 1. Selecione o campo para o qual consultar.
 
@@ -58,13 +64,13 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
 1. Selecione o modificador de consulta.
 
-   As opções são: é igual, não é igual, existe e não existe.
-
-   Exemplo: Se você escolher Data de vencimento e existir, o registro retroativo exibirá cartões com datas de vencimento atribuídas. Qualquer cartão sem data de vencimento não será recebido no backlog.
+   As opções do modificador dependem dos campos aos quais podem ser aplicadas. Por exemplo, o campo &quot;name&quot; não tem &quot;greater than&quot; ou &quot;less than&quot; como opções do modificador, pois esses modificadores se aplicam apenas a números.
 
 1. Selecione o valor .
 
-   O valor só está disponível quando você usa igual ou não é igual ao modificador.
+   O valor não está disponível quando você usa &quot;existe&quot; ou &quot;não existe&quot; como o modificador.
+
+   Por exemplo, se você escolher &quot;Data de vencimento&quot; e &quot;existe&quot;, o registro retroativo exibirá cartões com datas de vencimento atribuídas. Qualquer cartão sem data de vencimento não será recebido no backlog.
 
 1. (Opcional) Clique em [!UICONTROL **Adicionar condição**] para adicionar outra condição ao query.
 
