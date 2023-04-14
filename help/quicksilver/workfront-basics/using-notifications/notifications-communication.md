@@ -6,9 +6,9 @@ description: As notificações a seguir alertam sobre a comunicação, como um c
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 473e1760-f85a-4622-beff-9431046d655e
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 2af2a1f7d1a4d0b06cf4e7bfd2b9997ff8b9a6bf
 workflow-type: tm+mt
-source-wordcount: '1546'
+source-wordcount: '1534'
 ht-degree: 4%
 
 ---
@@ -70,7 +70,7 @@ Consulte também [Notificações de evento](../../workfront-basics/using-notific
    <td><strong>[!UICONTROL diariamente]</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Quando alguém comentar no item de trabalho, envie email para os atribuídos</strong> </p> <p>O destinatário do item de trabalho recebe uma notificação por email sempre que um usuário adiciona uma atualização a um item de trabalho, a menos que o usuário que adiciona a atualização também seja o destinatário. </p> <p>Quando um comentário for postado em uma solicitação, envie um email para o contato principal da ocorrência.</p> <p>O contato principal de um problema recebe uma notificação por email quando um comentário é postado em uma solicitação, a menos que o usuário que postou o comentário também seja o contato principal para o problema.</p> <p>Qualquer usuário que esteja incluído diretamente no comentário também receberá uma notificação por email.</p> <p>Uma notificação é enviada somente se o status do projeto for [!UICONTROL Atual].</p> <p>O assunto do email de notificação instantânea é: <em>[!UICONTROL Comentário sobre] &lt;work item="" name=""&gt; on &lt;project name="" ref="" work="" item="" reference="" number=""&gt;)</em></p> <p> O objeto da notificação diária de resumo é:<em> [!UICONTROL Resumo da comunicação] &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
+   <td> <p><strong>Quando alguém comentar no item de trabalho, envie email para os atribuídos</strong> </p> <p>O destinatário do item de trabalho recebe uma notificação por email sempre que um usuário adiciona uma atualização a um item de trabalho, a menos que o usuário que adiciona a atualização também seja o destinatário. </p> <p>Quando um comentário for postado em uma solicitação, envie um email para o contato principal da ocorrência.</p> <p>O contato principal de um problema recebe uma notificação por email quando um comentário é postado em uma solicitação, a menos que o usuário que postou o comentário também seja o contato principal para o problema.</p> <p>Qualquer usuário que esteja incluído diretamente no comentário também receberá uma notificação por email.</p> <p>O assunto do email de notificação instantânea é: <em>[!UICONTROL Comentário sobre] &lt;work item="" name=""&gt; on &lt;project name="" ref="" work="" item="" reference="" number=""&gt;)</em></p> <p> O objeto da notificação diária de resumo é:<em> [!UICONTROL Resumo da comunicação] &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
    <td> Nome do Item de Trabalho<br>Nome do projeto<br>Número de Referência do Item de Trabalho<br>Nome do usuário que comentou o Item de Trabalho<br>Texto do comentário feito no item de trabalho<br>Data e hora em que o comentário foi feito<br>*Número total de comentários recebidos<br>*Número de comentários recebidos para cada objeto<br>*Nome do projeto<br>*<strong>[!UICONTROL Ver todas as notificações]</strong> botão<br>*Data da compilação diária </td> 
    <td><strong>Diariamente</strong> </td> 
   </tr> 
