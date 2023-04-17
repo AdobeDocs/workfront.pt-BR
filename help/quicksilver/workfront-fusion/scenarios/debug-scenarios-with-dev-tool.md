@@ -7,7 +7,7 @@ description: A Adobe Workfront Fusion DevTool permite compreender e solucionar p
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: c7946e975c82f54c1a20e716f73d0cf8053ee1a6
+source-git-commit: c7d3a5927996c76b4f7e66302809c2b46dd5f1d7
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 0%
@@ -68,8 +68,8 @@ To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
 Você pode adicionar o [!DNL Workfront Fusion] DevTool para [!DNL Chrome] através da [!UICONTROL [!DNL Chrome] Loja da Web].
 
 1. Clique em [este link](https://chrome.google.com/webstore/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) para acessar o [!DNL Workfront Fusion] DevTool no [!UICONTROL [!DNL Chrome] Loja da Web].
-1. Clique em [!UICONTROL Adicionar a [!DNL Chrome]].
-1. Na janela que abre, examine as permissões. Se você concordar com as permissões, clique em [!UICONTROL Adicionar extensão].
+1. Clique em **[!UICONTROL Adicionar a[!DNL Chrome]]**.
+1. Na janela que abre, examine as permissões. Se você concordar com as permissões, clique em **[!UICONTROL Adicionar extensão]**.
 
 O [!DNL Workfront Fusion] A extensão DevTool é adicionada a seu [!DNL Chrome] extensões.
 
