@@ -6,9 +6,9 @@ description: Você pode adicionar comentários em todas as metas que pode visual
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -170,6 +170,11 @@ Isso abre a lista de metas.
 
 1. (Opcional) Clique no botão **Mais** menu ![](assets/more-icon.png) à direita de um comentário, em seguida, clique em **Excluir** para excluir um comentário adicionado.
 1. (Opcional) Clique em **Responder** para responder a um comentário existente, siga as etapas 5 a 9 acima. <!--insure this stays accurate-->
+1. (Condicional e opcional) Se outros usuários adicionaram comentários que são exibidos fora da área visível na seção Atualizações , clique em **Exibir** dentro do azul **banner de novos comentários** na parte inferior da tela para exibir esses comentários.
+
+   ![](assets/blue-new-comments-banner-with-view-button.png)
+
+   Comentários adicionais são exibidos na parte inferior da tela.
 1. (Opcional) Clique no botão **Like** ícone![](assets/like-icon.png) para gostar de um comentário que outra pessoa adicionou. O ícone é atualizado com o número de curtidas.
 1. (Opcional) Para adicionar formatação Rich Text à atualização, use qualquer atributo na barra de ferramentas Rich Text à medida que você digita. Para obter mais informações, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Clique no botão **Atividade do sistema** para exibir as atualizações registradas pelo sistema. Quando uma meta é atualizada, a Workfront gera uma nota sobre essa atualização e a exibe na guia Atividade do sistema. O Workfront também registra uma atualização do sistema quando um resultado, atividade ou projeto é adicionado à meta ou quando é atualizado. <!--ensure the casing on the tab has not changed-->

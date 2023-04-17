@@ -6,9 +6,9 @@ description: Quando alguém adiciona ou responde a uma atualização em um objet
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1114'
 ht-degree: 1%
 
 ---
@@ -106,7 +106,7 @@ Responder a um comentário ou resposta é diferente dependendo de qual experiên
 
    Você pode ver os usuários que estão ativamente envolvidos na conversa na parte inferior da **Novo comentário** e você pode adicionar ou remover os que não são mais relevantes. Esses usuários, juntamente com qualquer usuário inscrito no objeto, recebem uma notificação sempre que uma atualização ou resposta for feita no objeto. Você também pode adicionar tags a mais usuários para incluí-los em sua resposta.  Para marcar mais usuários, consulte [Marcar outras pessoas em atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-1. Comece digitando sua resposta e use quaisquer opções adicionais na barra de ferramentas Rich Text. Para obter informações sobre como usar Rich Text, consulte a seção &quot;Usar Rich Text em uma atualização do Workfront&quot; em [Atualizar trabalho](../updating-work-items-and-viewing-updates/update-work.md).
+1. Comece digitando sua resposta e use quaisquer opções adicionais na barra de ferramentas Rich Text. Para obter informações sobre o uso de Rich Text ou outros recursos de atualização, consulte [Atualizar trabalho](../updating-work-items-and-viewing-updates/update-work.md).
 
 1. Clique em **Enviar** para salvar a resposta.
 

@@ -6,9 +6,9 @@ description: É possível adicionar uma atualização em um objeto do Adobe Work
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '2732'
+source-wordcount: '2814'
 ht-degree: 1%
 
 ---
@@ -233,6 +233,17 @@ O **Comentários** é selecionada por padrão.
    >   Um email é gerado para notificar os usuários sobre sua atualização somente quando você envia a atualização original. Nenhum email é gerado após você ter editado sua atualização.
 
 1. (Opcional) Clique em **Responder** para responder a um comentário existente, siga as etapas 4 a 7 acima. <!--(**************insure this stays accurate***********)-->. Para obter informações sobre como responder a uma atualização, consulte [Responder atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Condicional e opcional) Se outros usuários adicionaram comentários que são exibidos fora da área visível na seção Atualizações , clique em **Exibir** dentro do azul **banner de novos comentários** na parte inferior da tela para exibir esses comentários.
+
+   ![](assets/blue-new-comments-banner-with-view-button.png)
+
+   Comentários adicionais são exibidos na parte inferior da tela.
+
+   >[!NOTE]
+   >
+   >   O indicador &quot;novos comentários&quot; e o botão &quot;Exibir&quot; são exibidos somente quando os usuários que inseriram as novas atualizações, bem como o usuário que está visualizando as atualizações atualmente, usam a nova experiência de comentário.
+
+
 1. (Opcional) Clique no botão **Like** ícone![](assets/like-icon.png). O ícone é atualizado com o número de curtidas.
 1. (Condicional e Opcional) Se você incluiu pessoas adicionais em seu comentário, clique no número de membros incluídos na atualização para exibir uma lista de entidades com as quais o comentário inserido foi compartilhado.
 

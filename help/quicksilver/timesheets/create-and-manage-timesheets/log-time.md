@@ -6,9 +6,9 @@ description: Você pode registrar o tempo dos itens de trabalho no &Adobe Workfr
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 27e9cfff363ab38c6469b99a8cbb04439f2df61c
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '2979'
+source-wordcount: '3016'
 ht-degree: 0%
 
 ---
@@ -246,9 +246,15 @@ Você pode registrar horas gerais ou horas específicas do projeto em uma folha 
 
    >[!IMPORTANT]
    >
-   >Se uma função de trabalho para a qual você fez o logon tiver sido alterada e a variável **Atribuir funções de tarefa a entradas de hora manualmente** tiver sido desativada, você deve salvar manualmente as entradas de tempo. A folha de ponto salvará novamente seu tempo automaticamente apenas quando não houver mais tempo registrado para a função de trabalho que foi alterada.
+   >Você deve salvar a folha de ponto manualmente se qualquer um dos seguintes cenários ocorrer:
    >
-   >Se a função tiver sido alterada e a função **Atribuir funções de tarefa a entradas de hora manualmente** estiver ativada, você poderá registrar o tempo ou atualizar a função e suas alterações serão salvas automaticamente.
+   >* A função de trabalho associada ao tempo que você fez logon anteriormente foi alterada e a função **Atribuir funções de tarefa a entradas de hora manualmente** foi desativada. O tempo de registro de novas datas o associará a uma função de trabalho diferente.
+      >   
+      >   Se a função tiver sido alterada e a função **Atribuir funções de tarefa a entradas de hora manualmente** estiver ativada, você poderá registrar o tempo ou atualizar a função e suas alterações serão salvas automaticamente.
+   >
+   >* A função de trabalho atribuída a uma tarefa ou problema é diferente da função de trabalho com a qual o proprietário da folha de ponto está registrando tempo <!--or assigned to them_ this last  piece came from a Support note but but sure what role it's referring to. Leaving it out for now.-->.
+   >
+   >A folha de ponto salvará novamente o tempo automaticamente quando não houver mais entradas conflitantes entre as duas funções.
 
 1. (Opcional) Especifique a quantidade de horas extras no campo Hora extra no cabeçalho da folha de horas.
 
