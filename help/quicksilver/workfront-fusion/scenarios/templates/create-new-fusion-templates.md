@@ -7,9 +7,9 @@ description: Você pode criar novos modelos de cenário em [!DNL Adobe] Workfron
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: 612de6a98965552da6d534d9d2536237a96f7715
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,13 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
 
 ## Criar um novo modelo
 
+Você pode criar um template em um processo semelhante à criação de um cenário. Os administradores Fusion também podem criar modelos a partir de cenários existentes.
+
+* [Criar um modelo](#build-a-template)
+* [Criar um modelo a partir de um cenário](#create-a-template-from-a-scenario)
+
+### Criar um modelo
+
 1. Clique em **[!UICONTROL Modelos]** ![](assets/fusion-template-icon.png) no painel de navegação esquerdo.
 1. Clique em **[!UICONTROL Criar um novo modelo]** no canto superior direito.
 1. (Opcional) Renomeie o modelo ao substituir o padrão **[!UICONTROL Novo nome de modelo]** no canto superior esquerdo.
@@ -81,6 +88,36 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
 >[!NOTE]
 >
 >Ao salvar seu modelo, você o torna visível para todos os membros da equipe. Se quiser que seu modelo seja acessível fora da equipe, publique-o e use um link compartilhado, ou peça ao administrador para aprovar e publicar o modelo.
+
+### Criar um modelo a partir de um cenário
+
+>[!NOTE]
+>
+>Você deve ser um administrador do Fusion para criar um template a partir de um cenário.
+
+1. Abra a página de detalhes do cenário para o cenário do qual deseja criar um cenário.
+1. Clique no botão **Administrador** menu suspenso próximo ao canto superior direito da página.
+1. Selecionar **Clonar como modelo**.
+
+   O cenário é copiado em uma página de Novo modelo.
+1. (Opcional) Renomeie o modelo ao substituir o padrão **[!UICONTROL Novo nome de modelo]** no canto superior esquerdo.
+1. (Opcional) Para alterar o idioma do modelo, clique em **[!UICONTROL Configurar um modelo]** ![](assets/fusion-scenario-settings-icon.png) e selecione o idioma no menu suspenso Idioma .
+
+   >[!IMPORTANT]
+   >
+   >A seleção de Idiomas corresponde aos idiomas disponíveis nas configurações do sistema e diz respeito somente ao nome do modelo público e sua descrição. Não é possível alterar um idioma de modelo depois que o modelo for salvo.
+
+1. (Opcional) Para inserir uma descrição do modelo, clique em **[!UICONTROL Configurar um modelo]** ![](assets/fusion-scenario-settings-icon.png) e insira a descrição.
+1. Edite aplicativos, módulos e ferramentas da mesma maneira que faria ao editar um cenário padrão.
+
+   Para adicionar ajuda contextual aos módulos, consulte [Configurar [!UICONTROL Assistente] funcionalidade](#set-up-wizard-functionality) neste artigo.
+
+   >[!NOTE]
+   >
+   >Se o modelo incluir módulos que exijam a adição da conexão, credenciais ou outras informações confidenciais, essas informações não serão compartilhadas com os usuários do modelo.
+
+1. (Opcional) Clique em **[!UICONTROL Executar uma vez]** para testar seu modelo.
+1. Clique no botão **[!UICONTROL Salvar]** ícone ![](assets/save-icon.png).
 
 ## Configurar [!UICONTROL Assistente] funcionalidade {#set-up-wizard-functionality}
 
