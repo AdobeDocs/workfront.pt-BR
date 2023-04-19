@@ -6,10 +6,10 @@ description: Conecte seu trabalho com seu conteúdo no Experience Manager Assets
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 059cfa79c57f071b3c7efd690b583099f46c99fb
+source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 6%
+source-wordcount: '531'
+ht-degree: 5%
 
 ---
 
@@ -21,6 +21,7 @@ Conecte seu trabalho com seu conteúdo no Experience Manager Assets Essentials &
 * Vincule ativos do Experience Manager Assets Essentials a seus projetos e tarefas no Workfront &#x200B;
 * Facilitar os fluxos de trabalho de controle de versão para ativos enviados ao Experience Manager Assets Essentials
 
+Também é possível conectar vários repositórios Experience Manager Assets a um ambiente Workfront ou vários ambientes Workfront a um repositório Experience Manager Assets por meio de IDs de organização. Siga as instruções de configuração neste artigo para cada integração que você deseja configurar.
 
 ## Requisitos de acesso
 
