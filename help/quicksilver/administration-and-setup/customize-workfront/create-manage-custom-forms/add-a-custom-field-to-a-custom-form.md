@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: f9fce2715cad3e2ea2bf16de5f4ba457f981725c
 workflow-type: tm+mt
-source-wordcount: '2208'
-ht-degree: 2%
+source-wordcount: '2264'
+ht-degree: 3%
 
 ---
 
@@ -156,11 +156,12 @@ Você deve ter o seguinte para executar as etapas neste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">Formatar</td> 
-      <td> <p>Selecione o tipo de dados que será capturado no campo personalizado.</p> <p><b>Nota</b>:   
-        <ul> 
-         <li>Este campo não pode ser editado depois que o formulário é salvo. Se você pretende usar seu campo em cálculos matemáticos, selecione um formato de Número ou Moeda.<br></li> 
-         <li>Quando você seleciona Número ou Moeda, o sistema trunca automaticamente os números que começam com 0.</li> 
-        </ul> </p> </td> 
+      <td> <p>Selecione o tipo de dados que será capturado no campo personalizado. É possível alterar a seleção de formato após salvar o formulário, mas o novo formato deve oferecer suporte ao valor inserido.</p>
+
+   <p><strong>Exemplo:</strong> Se você salvar um valor numérico para um campo com formato Text em pelo menos um objeto e depois alterar o formato para Number ou Currency, um erro não será encontrado. </p>
+      <p>No entanto, se você salvar um valor alfanumérico em um campo com formato de Texto em pelo menos um objeto e tentar alterar o formato para Número ou Moeda, ocorrerá um erro, pois o valor alfanumérico salvo não é compatível com os formatos Número ou Moeda. </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tipo de Exibição</td> 
@@ -204,7 +205,7 @@ Você deve ter o seguinte para executar as etapas neste artigo:
       <td>(Somente campos de Texto descritivo) Se quiser aplicar um hiperlink ao Texto descritivo digitado, adicione-o aqui.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Criar um campo obrigatório</td> 
+      <td role="rowheader">Tornar um campo obrigatório</td> 
       <td>Selecione essa opção se desejar que o campo seja obrigatório para que o usuário preencha o formulário personalizado. </td> 
      </tr> 
      <tr> 
