@@ -7,9 +7,9 @@ description: Os seguintes templates públicos estão disponíveis no Adobe Workf
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: b397e93842db742456f374a0baf130495b711a2c
+source-git-commit: f0ab9a14fc397b36c5e3dffe07306ebc43e76500
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,10 @@ Esse modelo captura uma linha de base do projeto em qualquer alteração de stat
 ### Workfront - Criação da linha de base semanalmente
 
 Este modelo captura uma linha de base de projeto semanalmente a cada segunda-feira às 6:00 AM ET em projetos filtrados por portfólio, e cria uma atualização no fluxo de atualização para registro.
+
+### Encontrar modelos de projeto não usados em tempo de política e notificar
+
+Uma vez por mês, revise os modelos de projeto usando sua própria política com este modelo fácil de gerenciar que notifica os usuários apropriados sobre modelos em violação de sua política.
 
 ## Workfront - Modelos de prova do Workfront
 
