@@ -6,14 +6,16 @@ description: Você pode adicionar um cartão ao seu quadro que esteja conectado 
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
+source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 1%
+source-wordcount: '1242'
+ht-degree: 0%
 
 ---
 
 # Usar placas conectadas em placas
+
+{{highlighted-preview}}
 
 Você pode adicionar um cartão ao seu quadro que esteja conectado a tarefas e problemas existentes em [!DNL Workfront].
 
@@ -96,11 +98,11 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Name]</strong></td> 
-      <td> <p>Alterar o nome também altera o nome no [!DNL Workfront] objeto.</p> </td> 
+      <td>Alterar o nome também altera o nome no [!DNL Workfront] objeto.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Descrição]</strong></td> 
-      <td> <p>Alterar a descrição também altera a descrição no [!DNL Workfront] objeto.</p> </td> 
+      <td>Alterar a descrição também altera a descrição no [!DNL Workfront] objeto. <span class="preview">Você pode adicionar URLs na descrição e eles se tornarão links clicáveis quando o cartão for salvo.</span></td> 
      </tr> 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Destinatários]</strong></td>
@@ -110,7 +112,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Coluna]</strong></td>
-      <td><p>Selecione a coluna do cartão.</p></td>
+      <td>Selecione a coluna do cartão.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Status]</strong></td>
@@ -120,7 +122,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Conclusão planejada]</strong></td>
-      <td><p>Alterar essa data também altera a data de conclusão planejada no [!DNL Workfront] objeto.</p></td>
+      <td>Alterar essa data também altera a data de conclusão planejada no [!DNL Workfront] objeto.</td>
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimativa]</strong></td>
@@ -137,6 +139,12 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
      </tr>
     </tbody> 
    </table>
+
+   <span class="preview">Use o painel de navegação à esquerda para se mover entre grupos de campos nos detalhes do cartão.</span>
+
+   >[!NOTE]
+   >
+   >O painel de navegação esquerdo e a capacidade de adicionar links clicáveis no campo Descrição estão disponíveis apenas por meio da opção de aceitação antecipada de recursos para placas Workfront.
 
 1. Clique em **[!UICONTROL Fechar]** para retornar ao quadro.
 O objeto conectado, os destinatários, as tags, a data de vencimento, o contador da lista de verificação, as horas estimadas e o status são exibidos no cartão.
