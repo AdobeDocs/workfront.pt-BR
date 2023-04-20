@@ -4,7 +4,8 @@ description: 23.2 Outras melhorias
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
+exl-id: 565c365b-d611-4a9a-80a9-bfb7a5b0f319
+source-git-commit: 781a6e28b759863f8bc4635c0a8850abb173e038
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
@@ -48,7 +49,7 @@ Com esse redesign, removemos a adição de comentários às atualizações do si
 
 Mais recursos serão adicionados em versões futuras, já que esses aprimoramentos continuam a ser adicionados a outros objetos.
 
-Para obter informações sobre o que a nova experiência de comentário oferece, consulte [Experiência de comentário unificada](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+Para obter informações sobre o que a nova experiência de comentário oferece, consulte [Nova experiência de comentário](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 [Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3416962/){target=_blank}
 
