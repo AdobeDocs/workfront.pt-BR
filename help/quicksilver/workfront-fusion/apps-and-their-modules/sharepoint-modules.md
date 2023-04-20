@@ -9,9 +9,9 @@ description: Em um [!DNL Adobe Workfront Fusion] você pode automatizar workflow
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 8283022f24913988248005da0c8e583b29f19652
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: '2371'
 ht-degree: 0%
 
 ---
@@ -90,11 +90,122 @@ Se o botão de mapa for exibido acima de um campo ou função, é possível usá
 
 ![](assets/map-toggle-350x74.png)
 
+* [Item da unidade](#drive-item)
 * [Item](#item)
 * [Lista](#list)
 * [Página (Beta)](#page-beta)
 * [Site](#site)
 * [Outro](#other)
+
+### Item da unidade
+
+* [Criar um arquivo](#create-a-file)
+* [Criar uma pasta](#create-a-folder)
+* [Obter um arquivo](#get-a-file)
+* [Ver itens da pasta](#watch-folder-items)
+
+#### Criar um arquivo
+
+Esse módulo de ação cria um novo arquivo no SharePoint.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Inserir IDs de site, unidade e pasta]</td> 
+   <td> <p>Selecione como deseja identificar o local do arquivo que deseja criar.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie a variável <strong>[!UICONTROL ID do site]</strong>, <strong>[!UICONTROL List ID]</strong>e <strong>[!UICONTROL ID da pasta]</strong> nos campos exibidos.</p> </li> 
+     <li> <p><strong>[!UICONTROL Selecionar na lista que você segue]</strong> </p> <p>Selecione o local onde deseja criar o arquivo. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Arquivo de origem]</td> 
+   <td>Selecione um arquivo de origem de um módulo anterior ou mapeie o nome e os dados do arquivo de origem.</td> 
+  </tr>  </tbody> 
+</table>
+
+#### Criar uma pasta
+
+Esse módulo de ação cria uma nova pasta no SharePoint.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Inserir IDs de site, unidade e pasta]</td> 
+   <td> <p>Selecione como deseja identificar o local da pasta que deseja criar.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie a variável <strong>[!UICONTROL ID do site]</strong>, <strong>[!UICONTROL List ID]</strong>e <strong>[!UICONTROL ID da pasta]</strong> nos campos exibidos.</p> </li> 
+     <li> <p><strong>[!UICONTROL Selecionar na lista que você segue]</strong> </p> <p>Selecione o local onde deseja criar a pasta. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Nome da pasta]</td> 
+   <td>Insira ou mapeie um nome para a nova pasta.</td> 
+  </tr>
+  </tbody> 
+</table>
+
+#### Obter um arquivo
+
+Esse módulo de ação recupera o arquivo SharePoint especificado.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Inserir IDs de site, unidade e pasta]</td> 
+   <td> <p>Selecione como deseja identificar o local do arquivo que deseja obter.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie a variável <strong>[!UICONTROL ID do site]</strong>, <strong>[!UICONTROL List ID]</strong>e <strong>[!UICONTROL ID do arquivo]</strong> nos campos exibidos.</p> </li> 
+     <li> <p><strong>[!UICONTROL Selecionar na lista que você segue]</strong> </p> <p>Selecione o local do arquivo. </p> </li> 
+    </ul> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+#### Ver itens da pasta
+
+Este módulo de acionador inicia um cenário quando um item é atualizado em uma pasta selecionada.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Inserir IDs de site, unidade e pasta]</td> 
+   <td> <p>Selecione como deseja identificar o local do arquivo que deseja obter.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie a variável <strong>[!UICONTROL ID do site]</strong>, <strong>[!UICONTROL List ID]</strong>e <strong>[!UICONTROL ID da pasta]</strong> nos campos exibidos.</p> </li> 
+     <li> <p><strong>[!UICONTROL Selecionar na lista que você segue]</strong> </p> <p>Selecione o local da pasta que deseja visualizar. </p> </li> 
+    </ul> </td> 
+  </tr> 
+   <td role="rowheader">[!UICONTROL Limite]</td> 
+   <td>Inserir o número máximo de itens [!DNL Workfront Fusion] deve retornar durante um ciclo de execução de cenário.</td> 
+  <tr>
+  </tr>
+</tbody> 
+</table>
 
 ### Item
 
