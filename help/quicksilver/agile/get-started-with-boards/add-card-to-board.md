@@ -6,14 +6,16 @@ description: Você pode adicionar rapidamente um cartão ad hoc a um quadro e at
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
+source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
 
 # Adicionar um cartão ad hoc a um quadro
+
+{{highlighted-preview}}
 
 Você pode adicionar rapidamente um cartão a um quadro e atribuí-lo a um membro no quadro. O cartão pode representar uma tarefa, ocorrência, pessoa, grupo ou qualquer tipo de item que você deseja incluir no quadro.
 
@@ -63,7 +65,7 @@ Um cartão ad hoc não está conectado a um item de trabalho em [!DNL Adobe Work
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Descrição]</strong> </td> 
-      <td>Uma descrição do cartão.</td> 
+      <td>Uma descrição do cartão. <span class="preview">Você pode adicionar URLs na descrição e eles se tornarão links clicáveis quando o cartão for salvo.</span></td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Destinatários]</strong> </td> 
@@ -96,7 +98,17 @@ Um cartão ad hoc não está conectado a um item de trabalho em [!DNL Adobe Work
     </tbody> 
    </table>
 
+   Exemplo de imagem de detalhes do cartão no ambiente de Produção:
    ![Detalhes do cartão ad hoc](assets/boards-edit-ad-hoc-card-071822.png)
+
+   <span class="preview">Exemplo de imagem de detalhes do cartão no ambiente de Visualização:
+   ![Detalhes do cartão ad hoc](assets/boards-edit-ad-hoc-card-041723.png)</span>
+
+   <span class="preview">Use o painel de navegação à esquerda para se mover entre grupos de campos nos detalhes do cartão.</span>
+
+   >[!NOTE]
+   >
+   >O painel de navegação esquerdo e a capacidade de adicionar links clicáveis no campo Descrição estão disponíveis apenas por meio da opção de aceitação antecipada de recursos para placas Workfront.
 
 1. Clique em **[!UICONTROL Fechar]** para adicionar o cartão ao quadro.
 
