@@ -5,13 +5,13 @@ title: Fazer upload de provas do Illustrator
 description: Você pode fazer upload de seus quadros de arte como documentos para uma revisão e aprovação rápidas ou simplesmente armazenar no Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 9330ba5e5f828738a8726a3641f39a9b279d2ed0
+exl-id: e98f27d4-7c07-44cc-8df5-e04472ec946e
+source-git-commit: 9684dff5ea84ffbfc28c49271c2382e6bd0adb27
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Fazer upload de provas de [!DNL Illustrator]
 
@@ -99,9 +99,9 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
 1. No **[!UICONTROL Aprovações de prova]** seção , selecione **[!UICONTROL Automatizado]**.
 1. (Opcional) Na seção **[!UICONTROL Modelo de fluxo de trabalho]** digite o nome de um template de workflow de prova.
-
+<!--
 {{adjust-proof-settings}}
-
+-->
 1. (Opcional) Digite um comentário no **[!UICONTROL Atualizações]** área.
 
    ![](assets/copy-of-proof-approvals-advanced-350x424.png) <!-- new screenshot -->

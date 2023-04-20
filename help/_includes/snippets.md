@@ -1,7 +1,7 @@
 ---
-source-git-commit: c3c19f1913d5bab233a0d218ba87c69dead82215
+source-git-commit: e990b521c20a5bad973c62cbd239e96aca09919b
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -138,83 +138,82 @@ Você deve instalar o plug-in correto para o aplicativo Adobe Creative Cloud que
 
 ## Ajustar configurações de prova automática {#adjust-proof-settings}
 
-1. (Opcional) Ajustar configurações de prova automatizada
+1. (Opcional) Ajustar configurações de fluxo de trabalho de prova automatizada
 
    <table>
-   <tr>
-      <td colspan="2" ><strong>Etapas de prova</strong>
-      </td>
-   </tr>
-   <tr>
-      <td>Desativar estágios
-      </td>
-      <td>
-   <ol>
+      <tr>
+         <td colspan="2" ><strong>Etapas de prova</strong>
+         </td>
+      </tr>
+      <tr>
+         <td>Desativar estágios
+         </td>
+         <td>
+      <ol>
 
    <li>Alterne Selecionar tudo para desativar todos os estágios. 
-   <p>Ou</p></li>
-   <li>Alternar estágios individuais.</li>
+      <p>Ou</p></li>
+      <li>Alternar estágios individuais.</li>
 
    </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>Adicionar recipients
-      </td>
-      <td>
-   <ol>
+         </td>
+      </tr>
+      <tr>
+         <td>Adicionar recipients
+         </td>
+         <td>
+      <ol>
 
    <li>Na caixa Add new recipient , comece a digitar o nome do usuário.
-
-   Observação: Não é possível adicionar destinatários externos por email a partir do plug-in.
 
    <li>Especifique a função de prova.
 
    <li>Escolha o tipo de alertas de email para o recipient. 
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>Definir um prazo
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td>Definir um prazo
+         </td>
+         <td>
+      <ol>
 
    <li>Escolha um prazo.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td colspan="2" ><strong>Notificações de email</strong>
-      </td>
-   </tr>
-   <tr>
-      <td>Notificar destinatários sobre a prova
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td colspan="2" ><strong>Notificações de email</strong>
+         </td>
+      </tr>
+      <tr>
+         <td>Notificar destinatários sobre a prova
+         </td>
+         <td>
+      <ol>
 
    <li>Ative a caixa de seleção para notificar os usuários quando a prova for criada.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>Adicionar uma mensagem personalizada
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td>Adicionar uma mensagem personalizada
+         </td>
+         <td>
+      <ol>
 
    <li>Digite um assunto.
 
    <li>Digite a mensagem personalizada.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   </table>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      </table>
+
 
 
 
