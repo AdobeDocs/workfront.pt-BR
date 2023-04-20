@@ -3,13 +3,13 @@ title: Visão geral da versão 23.3
 description: Visão geral da versão 23.3
 author: Becky
 feature: Product Announcements
-source-git-commit: c1ea77a65df5922f49e2f52091e54584e8a304e5
+exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
+source-git-commit: 3add9b96e2faae0fba2f3b0561271dafd484d281
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
-
 
 # Visão geral da versão 23.3
 
@@ -27,6 +27,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Melhorias na Adobe Workfront
 
 * [Melhorias ágeis](#agile-enhancements)
+* [Outras melhorias](#other-enhancements)
 
 ### Melhorias ágeis
 
@@ -46,7 +47,61 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Notificações e preferências de email do Quadros</a><span style="color: #ff0000;"> Novo na Visualização!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Modelo de quadro dinâmico</a><span style="color: #ff0000;"> Novo na Visualização!</span></p>
+                        <p>Um novo modelo, placa dinâmica, está disponível agora para placas independentes. Este modelo não está disponível para quadros dentro de uma fluxo de trabalho.</p>
+                    </td>
+                    <td><p><b>Disponível nestas datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de visualização: 20 de abril de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>Versão de produção para participação inicial: 27 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na produção somente por meio da aceitação antecipada de recursos para as placas Workfront.</span></p>
+                                <p>Versão de produção para todos os clientes: Com a versão 23.3</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Migrar cartões kanban de equipe ágil para quadros</a><span style="color: #ff0000;"> Novo na Visualização!</span></p>
+                        <p>Um novo <b>Adicionar quadros</b> botão em grupos ágeis Quadros kanban permite adicionar todos os cartões do quadro kanban a um quadro do Workfront. Você pode optar por criar um novo quadro do Workfront ou adicionar os cartões a um quadro existente.</p>
+                    </td>
+                    <td><p><b>Disponível nestas datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de visualização: 20 de abril de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>Versão de produção para participação inicial: 27 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na produção somente por meio da aceitação antecipada de recursos para as placas Workfront.</span></p>
+                                <p>Versão de produção para todos os clientes: Com a versão 23.3</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Navegação à esquerda adicionada aos detalhes do cartão nos quadros</a><span style="color: #ff0000;"> Novo na Visualização!</span></p>
+                        <p>À medida que mais opções de campo são adicionadas aos cartões nas placas do Workfront, os detalhes do cartão aumentaram mais. Um novo painel de navegação à esquerda dos detalhes do cartão permite selecionar uma seção e mover-se automaticamente para esse grupo de campos.</p>
+                    </td>
+                    <td><p><b>Disponível nestas datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de visualização: 20 de abril de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>Versão de produção para participação inicial: 27 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na produção somente por meio da aceitação antecipada de recursos para as placas Workfront.</span></p>
+                                <p>Versão de produção para todos os clientes: Com a versão 23.3</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md" class="MCXref xref" xrefformat="{para}">Notificações e preferências de email do Quadros</a></p>
                         <p>As notificações por email agora estão disponíveis para Adobe Workfront Boards. As notificações são ativadas por padrão e você pode selecionar em suas preferências quais emails deseja receber. Você receberá um email quando for adicionado a um quadro e quando um cartão for atribuído a você.</p>
                     </td>
                     <td><p><b>Disponível nestas datas:</b></p>
@@ -82,7 +137,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         <p><span class="bold">Datas de lançamento</span>
                         </p>
                     </td>
-                </tr>
+                </tr><!--
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3--apr-17.md" class="MCXref xref" xrefformat="{para}">Profiles without avatars now display user initials</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>To make it easier to find specific users within large lists, profiles without customized avatars now display the user's initials on a colored background in lists and legacy reports. This is a minor cosmetic change, and does not apply if an avatar photo is already being used or the user is deactivated.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;April 20, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release:&#160;With the 23.3 release</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>-->
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Atualizações de aparência e comportamento durante o período de lançamento da versão 23.3</a></p>
@@ -106,7 +177,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Melhorias na Workfront Fusion
 
-Não há atualizações do Workfront Fusion neste ponto da versão. Essa área será atualizada quando houver atualizações disponíveis.
+Novos recursos no Workfront Fusion estão disponíveis em Produção em uma cadência fora do cronograma da versão 23.3. Para obter mais informações sobre os recursos mais recentes, consulte [Atividade de versão do Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Aprimoramentos no Workfront Scenario Planner
 
