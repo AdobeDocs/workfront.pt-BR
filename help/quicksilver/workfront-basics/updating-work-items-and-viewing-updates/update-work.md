@@ -6,9 +6,9 @@ description: É possível adicionar uma atualização em um objeto do Adobe Work
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '2814'
+source-wordcount: '2945'
 ht-degree: 1%
 
 ---
@@ -196,7 +196,7 @@ O **Comentários** é selecionada por padrão.
 
    >[!TIP]
    >
-   >Navegar para fora da seção Atualizações antes de terminar de digitar e enviar um comentário mantém o comentário na página no modo de rascunho mesmo depois de fazer logoff e logon novamente. Os comentários rascunhados são visíveis apenas para o usuário que os insere.
+   >Navegar para fora da seção Atualizações antes de terminar de digitar e enviar um comentário mantém o comentário na página no modo de rascunho mesmo depois de fazer logoff e logon novamente. Todas as imagens adicionadas ao comentário também são salvas no rascunho. Os rascunhos são salvos por 7 dias após os quais são descartados e não podem ser recuperados. Os comentários rascunhados são visíveis apenas para o usuário que os insere.
 
 1. (Opcional) Na seção **Marcar pessoas ou equipes** , comece digitando o nome ou o email de um usuário ou de uma equipe que você gostaria de incluir neste comentário e selecione-o quando ele for exibido na lista.
 1. (Opcional) Para adicionar formatação Rich Text à atualização, use qualquer uma das seguintes opções da **Texto formatado** barra de ferramentas para aprimorar o texto:
@@ -223,7 +223,7 @@ O **Comentários** é selecionada por padrão.
 
 1. Clique em **Enviar** para adicionar a atualização ao objeto do Workfront.
 1. (Opcional) Para editar um comentário, clique no botão **Mais** menu ![](assets/more-menu.png) à direita do ícone Curtir e, em seguida, clique em **Editar**.
-1. Editar as informações no comentário <!--or remove any of the tagged users-->.
+1. Edite as informações no comentário ou remova qualquer um dos usuários marcados.
 É possível editar seu comentário em 15 após enviá-lo. Um indicador &quot;Editado&quot; é adicionado à esquerda do carimbo de data que é exibido quando o comentário é atualizado.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -316,9 +316,13 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
    1. Em **Texto a ser exibido**, digite ou cole o texto do link.
    1. Clique em **Salvar**.
 
-1. (Opcional) Para anexar uma imagem à sua atualização, clique no botão **Imagem** ícone ![](assets/addimageicon-35x32.png) e navegue até a imagem em seu computador.\
-   Ou\
-   Arraste a imagem para a área de atualização.
+1. (Opcional) Para anexar uma imagem à sua atualização, execute um dos procedimentos a seguir, dependendo do ambiente usado:
+
+   * Clique no botão **Imagem** ícone ![](assets/addimageicon-35x32.png) e navegue até a imagem em seu computador ou arraste a imagem para a área de atualização, ao usar a experiência de atualização atual
+
+   Ou
+
+   Clique no botão **Adicionar anexo** ícone ![](assets/add-image-paperclip-icon.png) e navegue até a imagem em seu computador, ao usar a experiência beta de comentários.
 
    >[!NOTE]
    >
@@ -384,11 +388,19 @@ Nenhum usuário do Workfront (incluindo o administrador do Workfront) pode exclu
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Na mensagem que aparece, clique em **Confirmar** ou **Excluir**, ao usar a experiência de comentário Beta.
+1. Na mensagem que aparece, clique em **Confirmar** ou clique em **Excluir**, ao usar a experiência de comentário Beta.
 
->[!NOTE]
->
->A exclusão de uma atualização com uma imagem anexada exclui o comentário e a imagem.
+   >[!NOTE]
+   >
+   >A exclusão de uma atualização com uma imagem anexada exclui o comentário e a imagem.
+
+   Quando o comentário excluído tem respostas associadas a ele, há uma indicação de que o comentário foi removido com o nome do usuário que o removeu.
+
+   ![](assets/removed-comment-indicator-new-experience.png)
+
+   Ao usar os comentários Beta da experiência, os comentários excluídos são removidos imediatamente do Workfront. Um usuário que usa a seção Atualizações vê um comentário sendo excluído por outro usuário em tempo real.
+
+   <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
 
 ## Adicionar uma atualização a uma Folha de Horas
 
