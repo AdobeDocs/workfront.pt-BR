@@ -6,7 +6,7 @@ description: O Adobe Workfront envia notificações por email, notificações no
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
+source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 1%
@@ -14,8 +14,6 @@ ht-degree: 1%
 ---
 
 # [!DNL Adobe Workfront] notificações
-
-{{highlighted-preview}}
 
 [!DNL Adobe Workfront] O envia notificações por email, notificações no aplicativo e notificações no seu dispositivo móvel.
 
@@ -130,15 +128,11 @@ As notificações do lembrete são enviadas pelo endereço de email de que a var
 
 Para obter informações sobre como configurar e ativar notificações de lembrete, consulte [Configurar notificações de lembrete](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
-<span class="preview">
-
 ### Notificações de quadros
 
 [!DNL Adobe Workfront] [!UICONTROL Quadros] envia um email quando você é adicionado a um quadro e quando um cartão é atribuído a você.
 
 Você pode selecionar quais emails deseja receber em suas preferências de Quadros. Para obter mais informações, consulte [Notificações e preferências de email do Quadros](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
-
-</span>
 
 ### Outras [!DNL Workfront] emails
 
