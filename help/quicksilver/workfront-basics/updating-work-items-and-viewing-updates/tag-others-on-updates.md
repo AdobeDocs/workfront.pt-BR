@@ -6,9 +6,9 @@ description: Ao fornecer comentários de atualização em um objeto do Adobe Wor
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ A marcação de outras pessoas em uma atualização varia de acordo com a experi
 
    ![](assets/tag-users-in-update.png)
 
-1. (Opcional) Para tornar a atualização privada, habilite **Privado da minha empresa** no canto inferior direito da caixa de atualização. Isso torna a atualização visível apenas para os usuários em sua empresa.
+1. (Opcional) Para tornar a atualização privada, habilite **Privado da minha empresa** no canto inferior direito da caixa de atualização. Isso torna a atualização visível apenas para os usuários em sua empresa. O **Privado da minha empresa** está disponível somente quando uma Empresa é especificada no seu perfil do Workfront.
 
    >[!NOTE]
    >
@@ -135,6 +135,8 @@ A marcação de outras pessoas em uma atualização varia de acordo com a experi
 
 ### Marque outras em atualizações na experiência de comentário Beta
 
+Você pode adicionar uma tag a outras pessoas sobre atualizações na experiência em comentários Beta. Também é possível remover usuários marcados por engano ao editar um comentário.
+
 1. Comece a atualizar um item de trabalho, conforme descrito em [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. No **Marcar pessoas ou equipes** , comece a digitar o nome do usuário ou da equipe que deseja incluir e clique no nome quando ele for exibido na lista suspensa.
 
@@ -148,7 +150,7 @@ A marcação de outras pessoas em uma atualização varia de acordo com a experi
 
    ![](assets/tag-others-unified-commenting.png)
 
-1. (Opcional) Para tornar a atualização privada, habilite **Privado da minha empresa** no canto inferior direito da caixa de atualização. Isso torna a atualização visível apenas para os usuários em sua empresa.
+1. (Opcional) Para tornar a atualização privada, habilite **Privado da minha empresa** no canto inferior direito da caixa de atualização. Isso torna a atualização visível apenas para os usuários em sua empresa. O **Privado da minha empresa** está disponível somente quando uma Empresa é especificada no seu perfil do Workfront.
 
    >[!NOTE]
    >
@@ -171,3 +173,5 @@ A marcação de outras pessoas em uma atualização varia de acordo com a experi
    ![](assets/members-icons-expanded-unshimmed.png)
 
    Para obter informações sobre a funcionalidade adicional que está disponível ao atualizar um item de trabalho, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+1. (Opcional) Clique no botão **Mais** menu ![](assets/more-menu.png) à direita do ícone Curtir e, em seguida, clique em **Editar**. Remova qualquer um dos usuários marcados e clique em **Enviar**. É possível editar um comentário somente em 15 minutos depois de inseri-lo. Só é possível editar os comentários adicionados.
