@@ -6,9 +6,9 @@ description: Você pode adicionar comentários em todas as metas que pode visual
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -137,11 +137,29 @@ Isso abre a lista de metas.
 
    >[!TIP]
    >
-   >Navegar para fora da seção Atualizações antes de terminar de digitar e enviar um comentário mantém o comentário na página no modo de rascunho mesmo depois de fazer logoff e logon novamente. Os comentários rascunhados são visíveis apenas para o usuário que os insere.
+   >Navegar para fora da seção Atualizações antes de terminar de digitar e enviar um comentário mantém o comentário na página no modo de rascunho mesmo depois de fazer logoff e logon novamente. Todas as imagens adicionadas ao comentário também são salvas no rascunho. Os rascunhos são salvos por 7 dias após os quais são descartados e não podem ser recuperados. Os comentários rascunhados são visíveis apenas para o usuário que os insere.
 
+1. (Opcional) Para adicionar formatação Rich Text à sua atualização, um hiperlink ou uma imagem, use quaisquer opções na barra de ferramentas Rich Text ou os ícones adjacentes a ela. Para obter mais informações, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Na seção **Marcar pessoas ou equipes** , comece digitando o nome ou o email de um usuário ou de uma equipe que você gostaria de incluir neste comentário e selecione-o quando ele for exibido na lista.
+1. Selecione o **Privado da minha empresa** para tornar o comentário visível somente para as pessoas na empresa.
+
+   >[!TIP]
+   >
+   >Você deve ter uma Empresa especificada no seu perfil para ter essa opção disponível na área Atualizações .
+
+1. Clique em **Enviar**.
+
+   >[!TIP]
+   >
+   >Se outro usuário enviar um comentário para o mesmo item que você está atualizando, haverá uma linha vermelha com um indicador &quot;Novo&quot; para informá-lo sobre os comentários mais recentes.
+   >
+   >O indicador só é exibido depois que o comentário foi enviado no item, e não quando o comentário ainda é composto.
+   >
+   >O indicador &quot;Novo&quot; é exibido somente quando o usuário que inseriu uma nova atualização, bem como o usuário que está inserindo uma atualização no momento estão usando a nova experiência de comentário.
+   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+
 1. (Opcional) Para editar um comentário, clique no botão **Mais** menu ![](assets/more-icon.png) à direita do ícone Curtir e, em seguida, clique em **Editar**.
-1. Edite as informações no comentário&lt;<!--, or remove any of the tagged users-->.
+1. Edite as informações no comentário ou remova qualquer um dos usuários marcados.
 É possível editar seu comentário em 15 após enviá-lo. Um indicador &quot;Editado&quot; é adicionado à esquerda do carimbo de data que é exibido quando o comentário é atualizado.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -157,18 +175,7 @@ Isso abre a lista de metas.
 
          Para obter mais informações, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. Clique em **Enviar**.
-
-   >[!TIP]
-   >
-   >Se outro usuário enviar um comentário para o mesmo item que você está atualizando, haverá uma linha vermelha com um indicador &quot;Novo&quot; para informá-lo sobre os comentários mais recentes.
-   >
-   >O indicador só é exibido depois que o comentário foi enviado no item, e não quando o comentário ainda é composto.
-   >
-   >O indicador &quot;Novo&quot; é exibido somente quando o usuário que inseriu uma nova atualização, bem como o usuário que está inserindo uma atualização no momento estão usando a nova experiência de comentário.
-   >![](assets/real-time-new-red-indicator-unified-commenting.png)
-
-1. (Opcional) Clique no botão **Mais** menu ![](assets/more-icon.png) à direita de um comentário, em seguida, clique em **Excluir** para excluir um comentário adicionado.
+1. (Opcional) Clique no botão **Mais** menu ![](assets/more-icon.png) à direita de um comentário, em seguida, clique em **Excluir** para excluir um comentário adicionado. Para obter mais informações, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Clique em **Responder** para responder a um comentário existente, siga as etapas 5 a 9 acima. <!--insure this stays accurate-->
 1. (Condicional e opcional) Se outros usuários adicionaram comentários que são exibidos fora da área visível na seção Atualizações , clique em **Exibir** dentro do azul **banner de novos comentários** na parte inferior da tela para exibir esses comentários.
 
@@ -176,7 +183,7 @@ Isso abre a lista de metas.
 
    Comentários adicionais são exibidos na parte inferior da tela.
 1. (Opcional) Clique no botão **Like** ícone![](assets/like-icon.png) para gostar de um comentário que outra pessoa adicionou. O ícone é atualizado com o número de curtidas.
-1. (Opcional) Para adicionar formatação Rich Text à atualização, use qualquer atributo na barra de ferramentas Rich Text à medida que você digita. Para obter mais informações, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
 1. (Opcional) Clique no botão **Atividade do sistema** para exibir as atualizações registradas pelo sistema. Quando uma meta é atualizada, a Workfront gera uma nota sobre essa atualização e a exibe na guia Atividade do sistema. O Workfront também registra uma atualização do sistema quando um resultado, atividade ou projeto é adicionado à meta ou quando é atualizado. <!--ensure the casing on the tab has not changed-->
 
 <!--BELOW IS OLD, ATIIM/ WORKFRONT GOALS INFORMATION ABOUT COMMENTS: 
