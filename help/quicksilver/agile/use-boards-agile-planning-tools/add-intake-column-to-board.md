@@ -7,9 +7,9 @@ description: Opcionalmente, é possível adicionar uma coluna de entrada ao quad
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 622a1c48af8612e32ff8aa23971d55aff26eea48
+source-git-commit: 81d68656c5dc4811884cde53193139856f290f4d
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 Opcionalmente, é possível adicionar uma coluna de entrada ao quadro que extrai automaticamente tarefas e problemas como cartões conectados quando eles são adicionados em [!DNL Workfront], com base nos filtros definidos. A coluna de entrada pode servir como coluna de backlog para uma equipe de Kanban, um local de entrada para uma equipe de suporte para ver os problemas à medida que são adicionados a uma fila de solicitações ou qualquer outro propósito que você precise.
 
 Apenas uma coluna de entrada é permitida em um quadro, e sempre aparece como a coluna mais à esquerda.
+
+A coluna de entrada não está disponível em um quadro dinâmico.
 
 A coluna de entrada está limitada a 300 tarefas e 300 problemas. Elas são classificadas pela prioridade definida nos itens. Para obter informações sobre prioridade, consulte [Atualizar prioridade da tarefa](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) e [Atualizar prioridade do problema](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
 
