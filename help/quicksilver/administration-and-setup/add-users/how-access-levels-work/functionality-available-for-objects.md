@@ -4,19 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: acessar,modelo,funil,diagrama,níveis,permissões
 navigation-topic: access-levels
-title: Funcionalidade disponível para cada tipo de objeto
+title: Funcionalidade disponível para cada tipo de objeto para novos níveis de acesso
 description: As tabelas a seguir listam a funcionalidade disponível para cada tipo de objeto nos vários níveis de acesso.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 14652fb34dbd9f830dd7a5ee397b2583869e02f9
+exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1250'
 ht-degree: 12%
 
 ---
 
-# Funcionalidade disponível para cada tipo de objeto para vários níveis de acesso
+# Funcionalidade disponível para cada tipo de objeto para novos níveis de acesso
 
 As tabelas a seguir listam a funcionalidade disponível para cada tipo de objeto nos vários níveis de acesso.
 
@@ -229,7 +230,7 @@ Os usuários com uma licença do Standard podem ter acesso total aos relatórios
 | Adicionar atualizações e comentários | ✓ | ✓ | ✓ |   |
 | Fazer upload de nova versão | ✓ | ✓ | ✓ |   |
 | Excluir uma versão | ✓ | ✓ | ✓ |   |
-| Pré-visualização | ✓ | ✓ | ✓ | ✓ |
+| Visualização | ✓ | ✓ | ✓ | ✓ |
 |  Prova | ✓ | ✓ | ✓ | ✓ |
 | Gerar prova | ✓ |   |   |   |
 | Remover prova | ✓ | ✓ | ✓ |   |

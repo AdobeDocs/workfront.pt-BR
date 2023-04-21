@@ -6,9 +6,9 @@ navigation-topic: configure-proofing-functionality
 title: Configure se as provas são geradas automaticamente
 description: Você pode configurar se o sistema gera provas automaticamente quando os usuários especificados adicionam documentos ao Workfront. Esta configuração é desativada por padrão.
 author: Courtney
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Você deve ter o seguinte:
    <td>Qualquer Um</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral de licenças herdadas</a>*</td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças</a>*</td> 
    <td>Plano</td> 
   </tr> 
   <tr> 

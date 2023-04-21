@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: a39720a4529dcd974483f7730b6feb4d6cd6f994
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Para exibir informações de licença no seu sistema:
 
 1. Na parte inferior do painel esquerdo, clique em **Sistema** > **Licenças**.
 
-   Para obter mais informações sobre as licenças listadas nesta página, consulte [Visão geral de licenças herdadas](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+   Para obter mais informações sobre as licenças listadas nesta página, consulte [Visão geral das licenças](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
    >[!NOTE]
    >
@@ -91,11 +91,11 @@ If an organization has other paid add-on products, their license information als
 
 ## Exibir informações sobre provas mensais e alocações de decisão de documento
 
-As decisões de prova e documento são limitadas para todas as licenças Workfront não pagas. Limita a redefinição por usuário a cada mês.
-
 >[!IMPORTANT]
 >
->Os limites de decisão de prova e documento não se aplicam aos usuários em [licenças e níveis de acesso herdados do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>Os limites de decisão de prova e documento se aplicam apenas aos usuários das novas licenças. Para obter mais informações, consulte [Visão geral de novas licenças](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+
+As decisões de prova e documento são limitadas para todas as licenças Workfront não pagas. Limita a redefinição por usuário a cada mês.
 
 Os limites de decisão para cada licença diferem dependendo do plano em que você está. Você pode exibir sua alocação mensal em Configurar > Licenças.
 

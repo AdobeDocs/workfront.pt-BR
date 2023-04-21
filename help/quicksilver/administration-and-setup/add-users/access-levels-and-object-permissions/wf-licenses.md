@@ -1,5 +1,5 @@
 ---
-title: Visão geral de licenças herdadas
+title: Visão geral das licenças
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,26 +10,26 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 6a62398de46f23701ee663b9effd074ae6b2dd35
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
 
-# Visão geral de licenças herdadas
+# Visão geral das licenças
 
-Sua organização adquiriu um determinado número de licenças herdadas ao adquirir o Adobe Workfront. Como administrador do Workfront, você fornece um dos quatro tipos de licenças herdadas do Workfront pagas para cada usuário ao atribuir um nível de acesso ao usuário.
+Sua organização adquiriu um determinado número de licenças ao adquirir a Adobe Workfront. Como administrador do Workfront, você fornece um dos quatro tipos de licenças pagas do Workfront para cada usuário ao atribuir um nível de acesso ao usuário.
 
-## Como as licenças herdadas e os níveis de acesso herdados são vinculados
+## Como as licenças e os níveis de acesso estão ligados
 
-Os 4 tipos de licenças herdadas do Workfront pagas permitem diferentes níveis de acesso ao Workfront. Cada nível de acesso herdado é anexado a uma dessas licenças herdadas.
+Os 4 tipos de licenças pagas da Workfront permitem diferentes níveis de acesso ao Workfront. Cada nível de acesso é anexado a uma dessas licenças.
 
-Como administrador do Workfront, em vez de atribuir uma licença herdada a um usuário, você atribui a ele o nível de acesso herdado anexado a essa licença herdada.
+Como administrador do Workfront, em vez de atribuir uma licença a um usuário, você atribui a ele o nível de acesso anexado a essa licença.
 
 Esta tabela e diagrama mostram os principais níveis de acesso ao Workfront:
 
-| Licença herdada | Nível de acesso herdado associado |
+| Licença | Nível de acesso associado |
 |--- |--- |
 | Plano | Administrador do sistema, Planejador |
 | Trabalho | Trabalhador |

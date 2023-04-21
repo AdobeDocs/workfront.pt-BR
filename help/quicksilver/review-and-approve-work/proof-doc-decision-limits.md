@@ -5,23 +5,19 @@ title: Visão geral de documento limitado e decisão de prova para usuários nã
 description: As decisões de prova e documento são limitadas para todas as licenças Workfront não pagas. Limita a redefinição por usuário a cada mês.
 author: Courtney
 feature: Work Management
-source-git-commit: 4a91a00c8089eb3cf424aa10d4ae86219bd6413f
+exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
+source-git-commit: a1435e58328b592be749541f47af66c51331759c
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '219'
 ht-degree: 6%
 
 ---
 
-
 # Visão geral de documento limitado e decisão de prova para usuários não pagos
 
-As decisões de prova e documento são limitadas para todas as licenças Workfront não pagas. Limita a redefinição por usuário a cada mês.
+As decisões de prova e documento são limitadas para todas as licenças Workfront não pagas nos novos planos. Para obter mais informações, consulte [Visão geral de novas licenças](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
->[!IMPORTANT]
->
->Os limites de decisão de prova e documento não se aplicam aos usuários em [licenças e níveis de acesso herdados do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
-
-Os limites de decisão para cada licença diferem dependendo do plano no qual você está:
+Limita a redefinição por usuário a cada mês. Os limites de decisão para cada licença diferem dependendo do plano no qual você está:
 
 <table>
   <tr>

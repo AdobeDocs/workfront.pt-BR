@@ -1,5 +1,5 @@
 ---
-title: Visão geral dos níveis de acesso
+title: Nova visão geral dos níveis de acesso
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -9,23 +9,24 @@ description: Todos os usuários devem ter um nível de acesso para fazer logon e
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 5baf629b368649ec07a789ea8970ed70ea750d68
+exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
+source-git-commit: 4af7a72a3633f1b669cbc681f230727cc4f54d1e
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1626'
 ht-degree: 4%
 
 ---
 
-# Visão geral dos níveis de acesso
+# Nova visão geral dos níveis de acesso
 
 Como administrador do Adobe Workfront, você atribui um nível de acesso a um usuário para duas finalidades:
 
 * Todos os usuários devem ter um nível de acesso para fazer logon e trabalhar no Workfront.
 * Use o nível de acesso para controlar o que um usuário pode ver e fazer com determinados objetos e áreas do Workfront.
 
-## Níveis de acesso integrados no Adobe Workfront {#built-in-access}
+## Novos níveis de acesso integrados no Adobe Workfront {#built-in-access}
 
-A Workfront tem 6 níveis de acesso integrados:
+A Workfront tem 6 novos níveis de acesso integrados:
 
 * Administrador de Sistema
 * Padrão

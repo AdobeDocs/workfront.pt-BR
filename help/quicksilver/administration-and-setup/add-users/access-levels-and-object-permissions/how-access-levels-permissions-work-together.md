@@ -10,14 +10,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 1bd454246419e199e5cfd0d8d1d73cd30c0b13b1
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 1%
+source-wordcount: '906'
+ht-degree: 2%
 
 ---
 
-# Como os níveis de acesso e as permissões herdadas funcionam juntos
+# Como os níveis de acesso e as permissões funcionam em conjunto
 
 O administrador do Adobe Workfront determina qual nível de acesso cada usuário deve ter. Esse nível de acesso define o que os usuários podem ver e fazer com tipos de objetos e áreas no sistema.
 
@@ -31,11 +31,11 @@ Por exemplo, se o seu nível de acesso indicar que você pode criar tarefas, mas
 
 Este artigo explica como essa combinação funciona.
 
-## Nível de acesso herdado
+## Nível de acesso
 
 O nível de acesso atribuído a cada usuário por um administrador do Workfront é necessário para fazer logon no Workfront.
 
-Os níveis de acesso herdados padrão são:
+Os níveis de acesso padrão são:
 
 * Administrador do sistema (anexado à licença do Plano)
 * Planejador (anexado à licença do Plano)

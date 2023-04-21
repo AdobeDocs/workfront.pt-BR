@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: Acesso herdado a objetos e áreas por tipo de licença
-description: A tabela abaixo informa o mais alto nível de acesso (Editar ou Exibir) que cada licença herdada do Adobe Workfront permite para os objetos e áreas no Workfront.
+title: Acesso a objetos e áreas por tipo de licença
+description: A tabela abaixo informa o mais alto nível de acesso (Editar ou Exibir) que cada licença do Adobe Workfront permite para objetos e áreas no Workfront.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
+source-git-commit: 4644edd2aac8c77508e940ec42c597aa702c4df1
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '430'
 ht-degree: 19%
 
 ---
 
-# Acesso herdado a objetos e áreas por tipo de licença
+# Acesso a objetos e áreas por tipo de licença
 
-A tabela abaixo informa o mais alto nível de acesso herdado (Editar ou Exibir) que cada licença do Adobe Workfront permite para objetos e áreas no Workfront.
+A tabela abaixo informa o mais alto nível de acesso (Editar ou Exibir) que cada licença do Adobe Workfront permite para objetos e áreas no Workfront.
 
 * **Exibir**: O usuário pode revisar e compartilhar itens.
 * **Editar**: O usuário pode criar, editar, excluir e compartilhar itens.
@@ -49,11 +49,11 @@ A tabela abaixo informa o mais alto nível de acesso herdado (Editar ou Exibir) 
 
 >[!NOTE]
 >
->Os usuários com uma licença de Revisão ou uma licença de Solicitação têm recursos de compartilhamento limitados. Para obter mais informações, consulte [Visão geral das licenças do Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) ou [Visão geral de licenças herdadas do Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>Os usuários com uma licença de Revisão ou uma licença de Solicitação têm recursos de compartilhamento limitados. Para obter mais informações, consulte [Visão geral das licenças do Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) ou [Visão geral das licenças do Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 >
 >Usuários externos não podem pesquisar itens no Workfront. Eles podem exibir documentos e calendários compartilhados especificamente com eles. Eles também podem ver os usuários que compartilham itens com eles.
 
-Você pode encontrar informações detalhadas sobre o que os níveis de acesso herdados permitem para cada objeto e área nos seguintes artigos:
+Você pode encontrar informações detalhadas sobre o que os níveis de acesso permitem para cada objeto e área nos seguintes artigos:
 
 * [Conceder acesso aos projetos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
 * [Conceder acesso a tarefas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)

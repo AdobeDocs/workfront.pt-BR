@@ -1,28 +1,29 @@
 ---
-title: Visão geral das licenças
+title: Visão geral de novas licenças
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: licença,tipo
 navigation-topic: access-levels
-description: Sua organização adquiriu um determinado número de licenças ao comprar a Adobe Workfront. Como administrador do Workfront, você atribui um de três tipos de licenças pagas do Workfront a cada usuário ao atribuir um nível de acesso ao usuário.
+description: Sua organização adquiriu um determinado número de licenças ao comprar a Adobe Workfront. Como administrador do Workfront, você atribui um de três tipos de novas licenças pagas do Workfront a cada usuário ao atribuir um nível de acesso ao usuário.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6c1103ad00d7ac255aab1a2eb08df7b8b398b923
+exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '351'
 ht-degree: 2%
 
 ---
 
-# Visão geral das licenças
+# Visão geral de novas licenças
 
 Sua organização adquiriu um determinado número de licenças ao comprar a Adobe Workfront. Como administrador do Workfront, você atribui um de três tipos de licenças pagas do Workfront a cada usuário ao atribuir um nível de acesso ao usuário.
 
-## Como as licenças e os níveis de acesso do Workfront são vinculados
+## Como novas licenças do Workfront e novos níveis de acesso são vinculados
 
-Os 3 tipos de licenças pagas da Workfront permitem diferentes níveis de acesso ao Workfront. Cada nível de acesso é anexado a uma dessas licenças.
+Os três tipos de novas licenças pagas do Workfront permitem diferentes níveis de acesso ao Workfront. Cada nível de acesso é anexado a uma dessas licenças.
 
 Como administrador do Workfront, em vez de atribuir uma licença a um usuário, você atribui a ele o nível de acesso anexado a essa licença.
 
@@ -56,4 +57,3 @@ Por exemplo, se você atribuir o nível de acesso Padrão a um usuário, seu nú
 Você pode visualizar as licenças e os níveis de acesso atribuídos aos seus usuários. Para obter mais informações, consulte [Liste os níveis de acesso e as licenças dos usuários](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).<!-- MAY NEED NEW LINK -->
 
 Para obter informações sobre como gerenciar suas licenças, consulte [Gerencie as licenças disponíveis em seu sistema](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).<!-- MAY NEED NEW LINK -->
-

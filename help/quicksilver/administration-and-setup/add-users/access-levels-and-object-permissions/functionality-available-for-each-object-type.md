@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: acessar,modelo,funil,diagrama,níveis,permissões
 navigation-topic: access-levels
-title: Funcionalidade disponível para cada tipo de objeto para vários níveis de acesso herdados
+title: Funcionalidade disponível para cada tipo de objeto para vários níveis de acesso
 description: As tabelas a seguir listam a funcionalidade disponível para cada tipo de objeto nos vários níveis de acesso.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 1949879ec86e2203c422d1fc05fcb19edf19b4fd
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1444'
 ht-degree: 11%
 
 ---
 
-# Funcionalidade disponível para cada tipo de objeto para vários níveis de acesso herdados
+# Funcionalidade disponível para cada tipo de objeto para vários níveis de acesso
 
 As tabelas a seguir listam a funcionalidade disponível para cada tipo de objeto nos vários níveis de acesso.
 
@@ -296,7 +296,7 @@ Os usuários com uma licença do Plan podem ter acesso total aos relatórios. To
 | Adicionar atualizações e comentários | ✓ | ✓ | ✓ | ✓ |   |
 | Fazer upload de nova versão | ✓ | ✓ | ✓ | ✓ |   |
 | Excluir uma versão | ✓ | ✓ | ✓ | ✓ |   |
-| Pré-visualização | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Visualização | ✓ | ✓ | ✓ | ✓ | ✓ |
 |  Prova | ✓ | ✓ | ✓ | ✓ |   |
 | Gerar prova | ✓ | ✓ |   |   |   |
 | Remover prova | ✓ | ✓ | ✓ | ✓ |   |

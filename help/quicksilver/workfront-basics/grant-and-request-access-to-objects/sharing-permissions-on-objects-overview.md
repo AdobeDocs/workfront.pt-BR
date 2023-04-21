@@ -6,7 +6,7 @@ description: É possível compartilhar ou remover permissões de um objeto criad
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
+source-git-commit: 4644edd2aac8c77508e940ec42c597aa702c4df1
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Não é necessário ser um administrador do Adobe Workfront para compartilhar permissões em objetos aos quais você tem acesso, mas as permissões em objetos funcionam dentro dos níveis de acesso definidos pelo administrador do Workfront.
 
-É possível compartilhar ou remover permissões de um objeto criado ou compartilhado com você. Quando você não é o criador do objeto, deve ter acesso de Compartilhamento no objeto que deseja compartilhar no nível de acesso, além de Compartilhar permissões no objeto. Para obter informações sobre níveis de acesso, consulte [Visão geral dos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) ou [Visão geral dos níveis de acesso herdados](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+É possível compartilhar ou remover permissões de um objeto criado ou compartilhado com você. Quando você não é o criador do objeto, deve ter acesso de Compartilhamento no objeto que deseja compartilhar no nível de acesso, além de Compartilhar permissões no objeto. Para obter informações sobre níveis de acesso, consulte [Nova visão geral dos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) ou [Visão geral dos níveis de acesso](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!NOTE]
 >

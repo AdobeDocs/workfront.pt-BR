@@ -1,5 +1,5 @@
 ---
-title: Visão geral dos níveis de acesso herdados
+title: Visão geral dos níveis de acesso
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,14 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
 
-# Visão geral dos níveis de acesso herdados
+# Visão geral dos níveis de acesso
 
 Como administrador do Adobe Workfront, você atribui um nível de acesso a um usuário para duas finalidades:
 
@@ -42,7 +42,7 @@ Para obter informações sobre tópicos relacionados, consulte os seguintes arti
  <tbody> 
   <tr> 
    <td>Licenças</td> 
-   <td> <p>A licença anexada a um nível de acesso determina como o nível de acesso pode ser configurado.</p> <p>Para obter mais informações, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral de licenças herdadas</a>.</p> <p><strong>Ponta</strong>: Você pode ver qual nível de acesso e licença são atribuídos a cada usuário ao exibir uma lista de usuários ou um relatório. Para obter instruções, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">Liste os níveis de acesso e as licenças dos usuários</a>.</p> </td> 
+   <td> <p>A licença anexada a um nível de acesso determina como o nível de acesso pode ser configurado.</p> <p>Para obter mais informações, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças</a>.</p> <p><strong>Ponta</strong>: Você pode ver qual nível de acesso e licença são atribuídos a cada usuário ao exibir uma lista de usuários ou um relatório. Para obter instruções, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">Liste os níveis de acesso e as licenças dos usuários</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Níveis de acesso integrados</td> 

@@ -5,9 +5,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 4343f0ff-2f78-4556-801f-db9d94f80c95
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Você deve ter o seguinte:
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Revise ou superior. Para obter mais informações, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref" data-mc-variable-override="">Visão geral de licenças herdadas</a>.</p> </td> 
+   <td> <p>Revise ou superior. Para obter mais informações, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref" data-mc-variable-override="">Visão geral das licenças</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 

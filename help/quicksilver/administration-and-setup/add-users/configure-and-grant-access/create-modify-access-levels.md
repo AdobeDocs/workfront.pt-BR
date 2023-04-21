@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 4a7999e6cb46d5b6933f44f1f19ff1979cb68a85
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1402'
 ht-degree: 6%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 6%
 
 Como administrador do Adobe Workfront, você pode criar níveis de acesso personalizados e aplicá-los aos usuários. À medida que você trabalha com níveis de acesso, é importante entender como eles trabalham junto com as permissões de objeto que os usuários concedem quando compartilham objetos uns com os outros. Para obter mais informações sobre níveis de acesso, consulte
 
-* [Visão geral dos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [Visão geral dos níveis de acesso herdados](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+* [Nova visão geral dos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [Visão geral dos níveis de acesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!IMPORTANT]
 >
@@ -80,7 +80,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">Tipo de Licença</td> 
-      <td>Certifique-se de que a licença selecionada aqui seja a mais associada ao tipo de nível de acesso que você está criando ou editando. A licença selecionada determina quais configurações estão disponíveis para o nível de acesso. Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Visão geral de licenças herdadas</a> ou <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral de licenças herdadas do Adobe Workfront</a>.</td> 
+      <td>Certifique-se de que a licença selecionada aqui seja a mais associada ao tipo de nível de acesso que você está criando ou editando. A licença selecionada determina quais configurações estão disponíveis para o nível de acesso. Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Visão geral de novas licenças</a> ou <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Visão geral das licenças</a>.</td> 
      </tr> 
     </tbody> 
    </table>
