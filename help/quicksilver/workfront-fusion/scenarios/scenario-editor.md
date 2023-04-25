@@ -7,7 +7,7 @@ description: O editor de cenários permite criar e editar cenários em uma inter
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: aa58a64ea6b09192f93fa89a42a4bf6731052d10
+source-git-commit: 27db607fd0543b06a502032a9b6b0c88d4ecec41
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 0%
@@ -158,3 +158,4 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
      <td>Clique em <strong>[!UICONTROL Executar uma vez]</strong> para verificar se o cenário é executado conforme o esperado antes de ativá-lo. Depois de ativado, o cenário será executado de acordo com seu agendamento. Se tudo não for executado conforme o esperado, visite nossa seção de tratamento de erros para saber como lidar com erros.</td> 
    </tr> 
 </tbody>
+</table>
