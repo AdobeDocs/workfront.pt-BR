@@ -9,9 +9,9 @@ description: Você pode usar o conector Adobe Workfront Fusion Adobe Workfront p
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 97f063a2e73c28a54cb1e1f99d66a8979ff3718c
 workflow-type: tm+mt
-source-wordcount: '5276'
+source-wordcount: '5288'
 ht-degree: 3%
 
 ---
@@ -771,7 +771,7 @@ Ao configurar esse módulo, os seguintes campos são exibidos.
   </tr> 
   <tr> 
    <td>[!UICONTROL Critérios de pesquisa]</td> 
-   <td> <p>Insira o campo que deseja pesquisar, o operador que deseja usar na query e o valor que está procurando no campo .</p> <p>Observação: Não utilizar <code>username </code>em seus critérios de pesquisa. Incluindo <code>username </code>em uma consulta de API para [!DNL Workfront] registra o usuário no Workfront e a pesquisa não será bem-sucedida.</p> </td> 
+   <td> <p>Insira o campo que deseja pesquisar, o operador que deseja usar na query e o valor que está procurando no campo .</p> <p>Observação: Não utilizar <code>username </code>em seus critérios de pesquisa. Incluindo <code>username </code>em uma consulta de API para [!DNL Workfront] registra o usuário no Workfront e a pesquisa não será bem-sucedida.</p> <p>Observação: <code>In</code> e <code>NotIn</code>trabalhe com arrays. As entradas devem estar no formato de matriz.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Saídas]</td> 
