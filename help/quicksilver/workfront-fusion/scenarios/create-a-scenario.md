@@ -7,9 +7,9 @@ description: As seguintes tarefas explicam como criar um [!DNL Adobe Workfront F
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: a3fd1da2f0d144fe9d6444c038ac21baba3cd848
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -62,12 +62,6 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
 1. Clique em **[!UICONTROL Cenários]** ![](assets/scenarios-icon.png) no painel esquerdo.
 
 1. Clique em **[!UICONTROL Criar um novo cenário]** no canto superior direito da página.
-1. (Opcional) Em **[!UICONTROL Quais serviços você deseja integrar]**, se estiver criando um novo cenário, selecione os aplicativos com os quais deseja trabalhar no cenário, em seguida, clique em **[!UICONTROL Continuar]**.
-
-   Ou
-
-   Clique em **[!UICONTROL Ignorar]** se desejar escolher os aplicativos no editor de cenário.
-
 1. Na tela exibida (o editor de cenário), se você estiver criando um novo cenário, clique em **[!UICONTROL Novo cenário]** no canto superior esquerdo e digite um nome para o cenário.
 1. Continue para [Adicionar um módulo em um cenário](#add-a-module-in-a-scenario).
 

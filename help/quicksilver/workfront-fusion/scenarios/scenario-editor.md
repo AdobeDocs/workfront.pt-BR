@@ -7,9 +7,9 @@ description: O editor de cenários permite criar e editar cenários em uma inter
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: 27db607fd0543b06a502032a9b6b0c88d4ecec41
+source-git-commit: c19e8c104ac1e93d67300637437d32b6f8534e99
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
@@ -61,12 +61,6 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
 
    Para editar um cenário existente, clique no cenário.
 
-1. (Condicional) Se você estiver criando um novo cenário, em **[!UICONTROL Quais serviços você deseja integrar]**, selecione os aplicativos com os quais deseja trabalhar no cenário e clique em **[!UICONTROL Continuar]**.
-
-   Ou
-
-   Clique em **[!UICONTROL Ignorar]** se preferir escolher os aplicativos no editor de cenário.
-
    No editor de cenário exibido, é possível fazer tudo o que está listado na tabela abaixo. Para obter mais informações, consulte [Crie um cenário em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 1. Ao terminar de editar um cenário (ou a qualquer momento durante a edição), clique no link [!UICONTROL Salvar] ícone . ![](assets/save-icon.gif)
@@ -76,6 +70,8 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
    >Depois de salvar o cenário, uma nova versão estará disponível no menu de três pontos, caso você precise acessá-la no futuro. As versões de cenário salvas anteriormente só estão disponíveis por 60 dias.
 
 ## Ações disponíveis do editor de cenário
+
+As seguintes ações estão disponíveis no Editor de cenário:
 
 <table style="table-layout:auto"> 
 <tbody>
