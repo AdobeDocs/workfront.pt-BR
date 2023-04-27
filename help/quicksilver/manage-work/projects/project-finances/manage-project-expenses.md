@@ -6,7 +6,7 @@ description: O processo para criar e gerenciar despesas é o mesmo para despesas
 author: Alina
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 1%
@@ -52,10 +52,9 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
 1. Vá para o projeto onde deseja informar despesas.\
    Se quiser adicionar despesas a uma tarefa, navegue até uma tarefa. 
-1. Clique em **Mostrar**** Mais** e clique em **Despesas.**
-1. Clique em **Adicione uma Despesa.**
-O 
-**Adicionar uma Despesa** será exibida.
+1. Clique em **Mostrar mais**, depois clique em **Despesas**.
+1. Clique em **Adicionar uma Despesa** .
+O **Adicionar uma Despesa** será exibida.
 1. Atualize o seguinte:
 
    * **Descrição:** Descrição da despesa.
@@ -76,12 +75,12 @@ O
 
 1. Selecione um **Formulário personalizado** e especificar quaisquer informações adicionais necessárias. Você deve criar um formulário personalizado antes de associá-lo a uma despesa. Somente os formulários personalizados ativos são exibidos na lista. Para obter informações sobre como criar formulários personalizados, consulte o artigo [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-1. Clique em **Salvar alterações.**
+1. Clique em **Salvar alterações**.
 
 ## Apagar Despesas
 
 1. Vá para o projeto no qual deseja excluir despesas.
-1. Clique em **Mostrar****Mais**, depois clique em **Despesas.**
+1. Clique em **Mostrar mais**, depois clique em **Despesas**.
 1. Selecione as despesas que deseja excluir e clique em **Excluir** ![Excluir](assets/delete.png).
 
-1. Clique em **Sim, Excluir** para confirmar a exclusão. 
+1. Clique em **Sim, Excluir** para confirmar a exclusão.

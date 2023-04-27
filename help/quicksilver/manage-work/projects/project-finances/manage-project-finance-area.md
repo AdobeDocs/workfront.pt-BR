@@ -6,7 +6,7 @@ description: Gerenciar informações na área de finanças do projeto
 author: Alina
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 2%
@@ -189,22 +189,18 @@ Para editar informações na subguia Financiamento de projeto:
       <td>Especifique o orçamento para este projeto.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Custo Fixo</strong> </td> 
+      <td role="rowheader">Custo Fixo</td> 
       <td>Especifique o custo fixo para este projeto. Isso não deve incluir custos de mão de obra ou despesas.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Receita com Valor Fixo</strong> </td> 
+      <td role="rowheader">Receita com Valor Fixo</td> 
       <td> <p>Especifique a receita fixa deste projeto. Tal não deve incluir as receitas provenientes de quaisquer registros de faturação cobrados a parceiros ou a terceiros.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Moeda do projeto</td> 
       <td> <p>Especifique uma moeda para este projeto, se ela for diferente da moeda padrão em seu sistema. A moeda padrão em seu sistema é definida pelo administrador do Workfront. Para obter mais informações sobre como configurar taxas de câmbio no Workfront, consulte o artigo <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar taxas de câmbio</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
-     </tr> 
+     </tr>
     </tbody> 
    </table>
 
-1. Clique em **Salvar***Alterações**.
+1. Clique em **Salvar alterações**.
