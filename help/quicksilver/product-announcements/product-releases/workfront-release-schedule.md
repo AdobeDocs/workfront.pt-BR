@@ -7,9 +7,9 @@ description: O ambiente de visualização é atualizado uma vez por semana com n
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: c7994ea14dd51c9a78e3bb5b5ec7bb5d7e21f4cd
+source-git-commit: d012f197cc56121c823a08789ba49d6d6a28a3cb
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,12 @@ A seguir estão os tipos de programas beta disponíveis no Workfront:
    * Informações sobre quando os recursos são lançados em um beta público são incluídas nas páginas de lançamento do produto.
 
 Para obter informações sobre as notas de versão do produto, consulte [Versões do produto](../../product-announcements/product-releases/product-releases.md).
+
+## Outras versões
+
+Às vezes, a Workfront pode lançar recursos que podem não estar documentados nas notas de versão, atualizações de manutenção ou em nenhum dos artigos da documentação real. Isso acontece em um esforço para testar novos recursos antes de torná-los permanentes. Normalmente, esses testes são lançados para um número limitado de clientes, mas pode haver um momento em que podem ser lançados para todos.
+
+Se você encontrar algo no sistema que não corresponda à documentação, pedimos que contate a equipe de Suporte ao cliente. Para obter mais informações, consulte [Entre em contato com o Suporte ao cliente](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## Notas de versão
 

@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Calcular custos no Planejador de Recursos
-description: "Alina: ***Vinculado ao Planejamento no artigo Planejador de Recursos, Noções Gerais das áreas do Planejador de Recursos. - não mover/ alterar/ excluir.)"
-author: Alina
+description: Você pode orçar seus recursos no Planejador de Recursos do Adobe Workfront usando valores de Custo, em vez de Valores de Horas ou FTE. Os valores de custo não estão disponíveis para a exibição**Exibir por usuário** no Planejador de recursos.
+author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1390'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)</p>
 -->
+
+<!--'(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'-->
 
 Você pode orçar seus recursos no Planejador de Recursos do Adobe Workfront usando valores de Custo, em vez de Valores de Horas ou FTE. Os valores de custo não estão disponíveis para a variável **Exibir por usuário** no Planejador de recursos.
 
@@ -70,7 +72,7 @@ Para exibir informações Disponíveis, Planejadas e Orçadas por Custo no Plane
 1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
 
 1. Clique em **Recursos**.
-1. Vá para .
+1. Vá para o Planejador de Recursos.
 1. (Condicional) Selecionar **Exibir por projeto** ou **Exibir por função**.\
    Por padrão **Exibir por projeto** está selecionada.\
    As informações de alocação e disponibilidade são exibidas em Horas.
