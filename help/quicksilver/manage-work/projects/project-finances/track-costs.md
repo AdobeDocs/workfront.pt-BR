@@ -7,9 +7,9 @@ description: Você pode acompanhar os custos de projetos, tarefas e problemas no
 author: Alina
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
+source-git-commit: 7e78ca8c8ea7f037b55b06e7452ac5c562b99eca
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2418'
 ht-degree: 1%
 
 ---
@@ -158,12 +158,18 @@ $100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expen
 
 >[!NOTE]
 >
+>O Custo Real de Despesa do projeto é calculado da seguinte maneira:
+>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>
+>Esses custos não são duplicados no cálculo de Custo Real. Por exemplo, se um Custo Fixo fizer parte do Custo de Despesa Real do projeto, ele não será adicionado separadamente ao Custo Real.
+
+>[!NOTE]
+>
 >Ao registrar o tempo em um projeto, os seguintes cenários existem ao calcular o Custo Real da Mão de Obra para o projeto:
 >
 >* Por padrão, o Workfront usa a taxa de Custo por Hora do usuário para calcular o Custo Real da Mão de obra.
 >* Se o usuário que está registrando a hora não estiver associado a nenhum custo, o Workfront usará a taxa de Custo por Hora da Função Principal do usuário.
 >* Se o administrador da Workfront ativou a variável **Atribuir Funções de Trabalho a entradas de hora manualmente** na área Folhas de Horas e Preferências de Horas e o tempo de logon do usuário no projeto seleciona uma função diferente para associar a esse tempo, o Custo Real do projeto é calculado com base na função especificada quando as horas foram registradas. Para obter informações sobre como ativar o tempo de registro para uma função de trabalho específica, consulte o artigo [Configurar preferências de hora e folha de ponto](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
->
 
 
 ### Como a Workfront calcula os Tipos de Custo para tarefas {#how-workfront-calculates-cost-types-for-tasks}
