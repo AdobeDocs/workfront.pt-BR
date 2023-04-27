@@ -6,9 +6,9 @@ description: Você pode fazer upload de seus quadros de arte como provas diretam
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: ab523ea5136b11a3ee1b6fa5746a1165f4b9d397
+source-git-commit: 698affafa8771e9e91b725908d4782a2af12c0b8
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -66,22 +66,21 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 1. Clique no botão **[!UICONTROL Documento]** ícone ![](assets/documents.png) na barra de navegação.
 1. Clique em **[!UICONTROL Novo arquivo]** próximo à parte inferior do plug-in.
 1. Ative o **[!UICONTROL Criar uma prova]** alternar.
-1. Escolha a **[!UICONTROL Tipo de ativo]** no menu suspenso.
-
-   ![](assets/plugin-create-proof-350x182.png)
-
+1. (Opcional) Digite um nome para a prova no **[!UICONTROL Nome da prova]** caixa de texto.
 1. No **[!UICONTROL Aprovações de prova]** seção , selecione **[!UICONTROL Básico]**.
 1. (Opcional) Adicione aprovadores.
 1. (Opcional) Digite um comentário no **[!UICONTROL Atualizações]** área.
 
-   ![](assets/plugin-proof-approvals-350x450.png)
+   ![](assets/add-comment.png)
 
-1. (Opcional) Digite um nome para a prova no **[!UICONTROL Nome da prova]** caixa de texto.
+1. Escolha a **[!UICONTROL Tipo de ativo]** no menu suspenso.
+
 1. (Opcional) Selecione **[!UICONTROL Adicionar arquivo externo]** para adicionar um arquivo de seu computador.
-1. Clique em **[!UICONTROL Upload]**.
+1. Clique em **[!UICONTROL Upload]**, configure as opções de exportação desejadas com base no tipo de ativo escolhido acima.
 
    ![](assets/plugin-files-350x307.png)\
    O documento é exibido na [!UICONTROL Documentos] no plug-in e no aplicativo de desktop.
+
 
 ## Fazer upload de uma prova automatizada
 
@@ -93,25 +92,26 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 1. Clique no botão **[!UICONTROL Documento]** ícone ![](assets/documents.png) na barra de navegação.
 
 1. Clique em **[!UICONTROL Novo arquivo]** próximo à parte inferior do plug-in.
-1. Ative o **[!UICONTROL Criar uma prova]** alternar e, em seguida, escolher **[!UICONTROL Tipo de ativo]** no menu suspenso.
-
-   ![](assets/plugin-create-proof-350x182.png)
-
+1. Ative o **[!UICONTROL Criar uma prova]** alternar.
+1. (Opcional) Digite um nome para a prova no **[!UICONTROL Nome da prova]** caixa de texto.
 1. No **[!UICONTROL Aprovações de prova]** seção , selecione **[!UICONTROL Automatizado]**.
 1. (Opcional) Na seção **[!UICONTROL Modelo de fluxo de trabalho]** digite o nome de um template de workflow de prova.
 
-<!-- {{adjust-proof-settings}} -->
+{{adjust-proof-settings}}
+
+>[!NOTE]
+>
+> Se houver campos obrigatórios em branco no modelo de fluxo de trabalho, as configurações de prova automatizada serão abertas automaticamente e você deverá preencher esses campos para fazer upload da prova.
+
 
 1. (Opcional) Digite um comentário no **[!UICONTROL Atualizações]** área.
 
-   ![](assets/copy-of-proof-approvals-advanced-350x424.png) <!--new screenshot -->
+   ![](assets/add-comment-automated-approval.png)
 
-1. (Opcional) Digite um nome para a prova no **[!UICONTROL Nome da prova]** caixa de texto.
+1. Escolha a **[!UICONTROL Tipo de ativo]** no menu suspenso.
 1. (Opcional) Selecione **[!UICONTROL Adicionar arquivo externo]** para adicionar um arquivo de seu computador.
-1. Clique em **[!UICONTROL Upload]**.
-
-   ![](assets/plugin-files-350x307.png)\
-   O documento é exibido na [!UICONTROL Documentos] no plug-in e no aplicativo de desktop.
+1. Clique em **[!UICONTROL Upload]**, configure as opções de exportação desejadas com base no tipo de ativo escolhido acima.
+O documento é exibido na [!UICONTROL Documentos] no plug-in e no aplicativo de desktop.
 
 ## Fazer upload de uma nova versão de prova
 
@@ -125,15 +125,13 @@ Você pode fazer upload de uma nova versão de uma prova. O plug-in lembra do fl
 1. Clique no botão **[!UICONTROL Documento]** ícone ![](assets/documents.png)na barra de navegação.
 
 1. Clique em **[!UICONTROL Nova versão]** próximo à parte inferior do plug-in.
-1. Escolha a **[!UICONTROL Tipo de ativo]** no menu suspenso.
-1. Ative o **[!UICONTROL Criar uma prova]** alternar e, em seguida, escolher **[!UICONTROL Tipo de ativo]** no menu suspenso.
+1. Ative o **[!UICONTROL Criar uma prova]** alternar.
 
-   ![](assets/plugin-create-proof-350x182.png)
-
-1. No **[!UICONTROL Aprovações de prova]** seção , escolha **[!UICONTROL Básico]** ou **[!UICONTROL Automatizado]**.
+1. No *[!UICONTROL *Aprovações de prova]**, escolha **[!UICONTROL Básico]** ou **[!UICONTROL Automatizado]**.
 
 1. Adicionar **[!UICONTROL Revisores]** ou **[!UICONTROL Modelo de fluxo de trabalho]** com base no tipo de aprovação selecionado na etapa 7.
 
 1. (Opcional) Digite um comentário no **[!UICONTROL Atualizações]** área.
-1. Clique em **[!UICONTROL Upload]**.\
-   O documento é exibido na [!UICONTROL Documentos] no plug-in e no aplicativo de desktop.
+1. Escolha a **[!UICONTROL Tipo de ativo]** no menu suspenso.
+1. Clique em **[!UICONTROL Upload]**, configure as opções de exportação desejadas com base no tipo de ativo escolhido acima.
+O documento é exibido na [!UICONTROL Documentos] no plug-in e no aplicativo de desktop.

@@ -6,9 +6,9 @@ description: Você pode instalar o plug-in Adobe Workfront for Photoshop no Adob
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
+source-git-commit: 48856487ee145ca4ad4959aa3fb37931dc101095
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '505'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> -->
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td>Você deve ter um [!DNL Adobe Creative Cloud] além de um [!DNL Workfront] licença.</td> 
+   <td><p>Você deve ter um [!DNL Adobe Creative Cloud] além de um [!DNL Workfront] licença.</p><p>Para obter mais informações, consulte <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Política de suporte do Creative Cloud</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>

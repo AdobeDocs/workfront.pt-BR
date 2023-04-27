@@ -6,7 +6,7 @@ description: Você pode fazer upload de suas pranchetas como provas diretamente 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 4a7fb18674b399b138fd981907f3a9da8e0bb30e
+source-git-commit: d0afdfc7be9177f6ff45dcc247253faa9dc57967
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 1%
@@ -99,6 +99,8 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
     </tbody> 
    </table>
 
+{{adjust-proof-settings}}
+
 1. (Opcional) Digite um comentário no **[!UICONTROL Atualizações]** área.
 
    ![](assets/proof-approvals-xd-350x396.png)
@@ -173,6 +175,8 @@ Você pode criar uma prova interativa para suas pranchetas com a [!DNL Workfront
     </tbody> 
    </table>
 
+{{adjust-proof-settings}}
+
 1. (Opcional) Digite um comentário no **[!UICONTROL Atualizações]** área.
 
    ![](assets/proof-approvals-xd-350x396.png)
@@ -186,7 +190,7 @@ Você pode criar uma prova interativa para suas pranchetas com a [!DNL Workfront
 
    >[!IMPORTANT]
    >
-   >Os usuários devem ter acesso ao [!UICONTROL Visualizador de prova de desktop] para revisar e aprovar provas interativas. Para obter mais informações, consulte [[!UICONTROL Instalar o Visualizador de prova para desktop]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+   >Os usuários devem ter acesso ao [!UICONTROL Visualizador de prova de desktop] para revisar e aprovar provas interativas. Para obter mais informações, consulte [Instalar o [!UICONTROL Visualizador de prova para desktop]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
 ## Fazer upload de uma nova versão de prova
 
@@ -229,6 +233,8 @@ Você pode fazer upload de uma nova versão de uma prova. O plug-in lembra do fl
      </tr> 
     </tbody> 
    </table>
+
+{{adjust-proof-settings}}
 
 1. Escolha o formato de exportação no **[!UICONTROL Tipo de ativo]** menu suspenso.
 
