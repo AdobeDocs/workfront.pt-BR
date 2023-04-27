@@ -6,7 +6,7 @@ description: Você pode adicionar um cartão ao seu quadro que esteja conectado 
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
+source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Usar placas conectadas em placas
-
-{{highlighted-preview}}
 
 Você pode adicionar um cartão ao seu quadro que esteja conectado a tarefas e problemas existentes em [!DNL Workfront].
 
@@ -102,7 +100,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Descrição]</strong></td> 
-      <td>Alterar a descrição também altera a descrição no [!DNL Workfront] objeto. <span class="preview">Você pode adicionar URLs na descrição e eles se tornarão links clicáveis quando o cartão for salvo.</span></td> 
+      <td>Alterar a descrição também altera a descrição no [!DNL Workfront] objeto. Você pode adicionar URLs na descrição e eles se tornarão links clicáveis quando o cartão for salvo.</td> 
      </tr> 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Destinatários]</strong></td>
@@ -140,7 +138,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
     </tbody> 
    </table>
 
-   <span class="preview">Use o painel de navegação à esquerda para se mover entre grupos de campos nos detalhes do cartão.</span>
+   Use o painel de navegação à esquerda para se mover entre grupos de campos nos detalhes do cartão.
 
    >[!NOTE]
    >

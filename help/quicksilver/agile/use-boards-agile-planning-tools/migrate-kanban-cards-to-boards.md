@@ -4,22 +4,25 @@ navigation-topic: boards
 title: Migrar cartões kanban de equipe ágil para quadros do Workfront
 description: Você pode migrar seus itens de trabalho de um quadro kanban de equipe ágil para um quadro novo ou existente do Workfront.
 author: Lisa
-source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
+exl-id: c40b6453-5869-437b-a1e0-f20dd833d2b8
+source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
 
 # Migrar cartões kanban de equipe ágil para quadros do Workfront
 
-{{highlighted-preview-article-level}}
-
 Você pode migrar seus itens de trabalho de um quadro kanban de equipe ágil para um quadro novo ou existente do Workfront. Quando você executa a migração, todos os cartões no quadro Kanban são copiados para o quadro do Workfront. Você não tem permissão para escolher cartões específicos.
 
 O posicionamento dos cartões na placa Workfront é baseado nas políticas de coluna. (Por exemplo, uma política pode mover todos os cartões com o status &quot;Em andamento&quot; para uma coluna específica. Para obter mais informações sobre políticas de coluna, consulte [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).) Se não houver políticas ou se os cartões não corresponderem às políticas, os cartões serão colocados na coluna mais à esquerda do quadro. No momento, os cartões na coluna Backlog do quadro herdado não são adicionados ao quadro do Workfront.
 
 Os cartões não são removidos do quadro Kanban da equipe ágil e as alterações de status do cartão serão sincronizadas em ambos os quadros. Você pode manter as duas placas ativas até estar pronto para mudar para os Workfront Boards.
+
+>[!NOTE]
+>
+>Esse recurso está disponível somente por meio da aceitação antecipada de recursos para as placas Workfront.
 
 ## Requisitos de acesso
 

@@ -6,16 +6,14 @@ description: Você pode adicionar rapidamente um cartão ad hoc a um quadro e at
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
+source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
 
 # Adicionar um cartão ad hoc a um quadro
-
-{{highlighted-preview}}
 
 Você pode adicionar rapidamente um cartão a um quadro e atribuí-lo a um membro no quadro. O cartão pode representar uma tarefa, ocorrência, pessoa, grupo ou qualquer tipo de item que você deseja incluir no quadro.
 
@@ -65,7 +63,7 @@ Um cartão ad hoc não está conectado a um item de trabalho em [!DNL Adobe Work
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Descrição]</strong> </td> 
-      <td>Uma descrição do cartão. <span class="preview">Você pode adicionar URLs na descrição e eles se tornarão links clicáveis quando o cartão for salvo.</span></td>
+      <td>Uma descrição do cartão. Você pode adicionar URLs na descrição e eles se tornarão links clicáveis quando o cartão for salvo.</td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Destinatários]</strong> </td> 
@@ -98,13 +96,13 @@ Um cartão ad hoc não está conectado a um item de trabalho em [!DNL Adobe Work
     </tbody> 
    </table>
 
-   Exemplo de imagem de detalhes do cartão no ambiente de Produção:
+   Exemplo de imagem de detalhes do cartão no ambiente de Produção sem acesso antecipado aos recursos habilitado:
    ![Detalhes do cartão ad hoc](assets/boards-edit-ad-hoc-card-071822.png)
 
-   <span class="preview">Exemplo de imagem de detalhes do cartão no ambiente de Visualização:
-   ![Detalhes do cartão ad hoc](assets/boards-edit-ad-hoc-card-041723.png)</span>
+   Exemplo de imagem de detalhes do cartão no ambiente de Produção com acesso antecipado aos recursos ativado:
+   ![Detalhes do cartão ad hoc](assets/boards-edit-ad-hoc-card-041723.png)
 
-   <span class="preview">Use o painel de navegação à esquerda para se mover entre grupos de campos nos detalhes do cartão.</span>
+   Use o painel de navegação à esquerda para se mover entre grupos de campos nos detalhes do cartão.
 
    >[!NOTE]
    >
