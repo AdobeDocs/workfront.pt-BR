@@ -7,9 +7,9 @@ description: Você pode usar expressões de dados para definir campos de dados p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 22438c38727f5cc36b07b3530818f5bda2b0bacf
+source-git-commit: 1e91514f86a307ffa71cde650b35a2e3b8f0fa88
 workflow-type: tm+mt
-source-wordcount: '2270'
+source-wordcount: '2302'
 ht-degree: 7%
 
 ---
@@ -104,11 +104,11 @@ As listas abaixo definem as expressões disponíveis que podem ser usadas ao cri
  <tbody> 
   <tr> 
    <td><strong>ADDDAYS</strong> </td> 
-   <td> <p>Essa expressão adiciona o número de dias à data e é formatada da seguinte maneira:</p><pre>ADDDAYS(data, número)</pre> </td> 
+   <td> <p>Essa expressão adiciona o número de dias à data. O valor do número pode incluir dias parciais (por exemplo, 1,5 adicionará um dia e meio à data).</p> <p>A expressão é formatada da seguinte maneira:</p><pre>ADDDAYS(data, número)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>ADICIONARDIASDASEMANA</strong> </td> 
-   <td> <p>Essa expressão adiciona o número de dias da semana à data e é formatada da seguinte maneira:</p><pre>ADICIONARDIASDASEMANA(data, número)</pre> </td> 
+   <td> <p>Essa expressão adiciona o número de dias da semana à data. Essa expressão adiciona apenas valores inteiros à data, arredondando para baixo. </p> <p>A expressão é formatada da seguinte maneira:</p><pre>ADICIONARDIASDASEMANA(data, número)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>ADDMONTHS</strong> </td> 
