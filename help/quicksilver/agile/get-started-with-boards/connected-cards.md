@@ -6,9 +6,9 @@ description: Você pode adicionar um cartão ao seu quadro que esteja conectado 
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -139,10 +139,6 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
    </table>
 
    Use o painel de navegação à esquerda para se mover entre grupos de campos nos detalhes do cartão.
-
-   >[!NOTE]
-   >
-   >O painel de navegação esquerdo e a capacidade de adicionar links clicáveis no campo Descrição estão disponíveis apenas por meio da opção de aceitação antecipada de recursos para placas Workfront.
 
 1. Clique em **[!UICONTROL Fechar]** para retornar ao quadro.
 O objeto conectado, os destinatários, as tags, a data de vencimento, o contador da lista de verificação, as horas estimadas e o status são exibidos no cartão.

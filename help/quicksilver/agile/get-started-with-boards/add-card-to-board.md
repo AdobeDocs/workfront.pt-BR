@@ -6,9 +6,9 @@ description: Você pode adicionar rapidamente um cartão ad hoc a um quadro e at
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -96,17 +96,9 @@ Um cartão ad hoc não está conectado a um item de trabalho em [!DNL Adobe Work
     </tbody> 
    </table>
 
-   Exemplo de imagem de detalhes do cartão no ambiente de Produção sem acesso antecipado aos recursos habilitado:
-   ![Detalhes do cartão ad hoc](assets/boards-edit-ad-hoc-card-071822.png)
-
-   Exemplo de imagem de detalhes do cartão no ambiente de Produção com acesso antecipado aos recursos ativado:
    ![Detalhes do cartão ad hoc](assets/boards-edit-ad-hoc-card-041723.png)
 
    Use o painel de navegação à esquerda para se mover entre grupos de campos nos detalhes do cartão.
-
-   >[!NOTE]
-   >
-   >O painel de navegação esquerdo e a capacidade de adicionar links clicáveis no campo Descrição estão disponíveis apenas por meio da opção de aceitação antecipada de recursos para placas Workfront.
 
 1. Clique em **[!UICONTROL Fechar]** para adicionar o cartão ao quadro.
 

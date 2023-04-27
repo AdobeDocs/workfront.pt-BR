@@ -4,9 +4,9 @@ description: Visão geral da versão 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 8e7adb5aefd58c52f30a81e7ec4916701de808b3
+source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -57,9 +57,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Versão de visualização: 27 de abril de 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">
                                  <p>Versão de produção para participação inicial: 28 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na produção somente por meio da aceitação antecipada de recursos para as placas Workfront.</span></p>
-                                <p>Versão de produção para todos os clientes: Com a versão 23.3</p></span></p>
+                                <p>Versão de produção para todos os clientes: Com a versão 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -75,9 +74,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Versão de visualização: 20 de abril de 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">
                                  <p>Versão de produção para participação inicial: 28 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na produção somente por meio da aceitação antecipada de recursos para as placas Workfront.</span></p>
-                                <p>Versão de produção para todos os clientes: Com a versão 23.3</p></span></p>
+                                <p>Versão de produção para todos os clientes: Com a versão 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -93,9 +91,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Versão de visualização: 20 de abril de 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">
                                  <p>Versão de produção para participação inicial: 28 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na produção somente por meio da aceitação antecipada de recursos para as placas Workfront.</span></p>
-                                <p>Versão de produção para todos os clientes: Com a versão 23.3</p></span></p>
+                                <p>Versão de produção para todos os clientes: Com a versão 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -111,9 +108,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Versão de visualização: 20 de abril de 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">
-                                 <p>Versão de produção para participação inicial: 28 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na produção somente por meio da aceitação antecipada de recursos para as placas Workfront.</span></p>
-                                <p>Versão de produção para todos os clientes: Com a versão 23.3</p></span></p>
+                                <p><span class="preview">Versão de produção para todos os clientes: 27 de abril de 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -129,9 +124,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Versão de visualização: 13 de abril de 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">
-                                 <p>Versão de produção para participação inicial: 13 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na produção somente por meio da aceitação antecipada de recursos para as placas Workfront.</span></p>
-                                <p>Versão de produção para todos os clientes: Com a versão 23.3</p></span></p>
+                                 <p>Versão de produção para participação inicial: 13 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na produção somente por meio da aceitação antecipada de recursos para as placas Workfront.</p>
+                                <p>Versão de produção para todos os clientes: Com a versão 23.3</p>
                             </li>
                         </ul>
                     </td>
