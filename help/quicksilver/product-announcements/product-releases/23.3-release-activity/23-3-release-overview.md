@@ -4,9 +4,9 @@ description: Visão geral da versão 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
+source-git-commit: 3a052c8f6d22c513763875526d6d2b57f20da0cb
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Ajustar configurações de modelo de fluxo de trabalho de prova automatizada usando o Adobe Workfront for Creative Cloud</a><span style="color: #ff0000;"> Novo na Visualização!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Ajustar configurações de modelo de fluxo de trabalho de prova automatizada usando o Adobe Workfront for Creative Cloud</a></p>
                         <p>Agora é possível ajustar as configurações existentes do modelo de fluxo de trabalho automatizado diretamente no Creative Cloud.</p>
                     </td>
                     <td><p><b>Disponível nestas datas:</b></p>
