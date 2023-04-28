@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 513e0831-5571-4432-ade3-4f11b7e97266
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -44,8 +44,6 @@ Antes dessa melhoria, você só podia atribuir um usuário a um item de trabalho
 As novas Atribuições em massa também incluem novos recursos de filtragem por Projeto e Status da tarefa, além de Nome.
 
 Para obter mais informações, consulte [Visão Geral da atribuição de trabalho no Balanceador de Carga de Trabalho](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
-
-Para obter informações sobre a desativação das ferramentas de Agendamento, consulte [Substituição das ferramentas de Agendamento de Recursos no Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 ## Substituir moeda ao gerenciar funções de cargo
 

@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '3274'
+source-wordcount: '3238'
 ht-degree: 0%
 
 ---
@@ -760,11 +760,7 @@ Os seguintes recursos serão removidos com a versão 22.4 para produção:
 >
 >A desaprovação do Agendador de recursos foi adiada para logo após a versão 22.4.
 
-O Balanceador de Carga de Trabalho está substituindo o Agendador de Recursos. Para obter mais informações sobre a descontinuação e como você pode se preparar para usar o Balanceador de Carga de Trabalho, consulte os seguintes recursos:
-
-* [Substituição das ferramentas de Agendamento de Recursos no Adobe Workfront](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
-
-* [Migrar do Agendamento de Recursos para o Balanceador de Carga de Trabalho](/help/quicksilver/resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
+O Balanceador de Carga de Trabalho está substituindo o Agendador de Recursos.
 
 * Integração de zoom
 

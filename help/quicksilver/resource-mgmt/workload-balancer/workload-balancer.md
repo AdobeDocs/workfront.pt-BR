@@ -3,26 +3,18 @@ content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: O Balanceador de Carga de Trabalho
-description: O Balanceador de Carga de Trabalho é uma ferramenta de agendamento de recursos que eventualmente substituirá as ferramentas atuais de agendamento de recursos que estão obsoletas no momento.
+description: O Balanceador de Carga de Trabalho é uma ferramenta de agendamento de recursos que permite atribuir itens de trabalho aos seus recursos.
 author: Alina
 feature: Resource Management
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: 94799ba026e29f614e98444ebfc5ed2c665b29ab
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
 
 # O Balanceador de Carga de Trabalho
-
->[!IMPORTANT]
->
->O Balanceador de Carga de Trabalho é uma ferramenta de agendamento de recursos que está substituindo as ferramentas de Agendamento que estão obsoletas no momento.
->
->Para obter mais informações sobre como remover as ferramentas de agendamento de recursos e substituí-las pelo Balanceador de Carga de Trabalho, consulte [Substituição das ferramentas de Agendamento de Recursos no Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
->
->Recomendamos que você use o Balanceador de Carga de Trabalho para agendar seus recursos.
 
 Para obter informações sobre o que é o Balanceador de Carga de Trabalho, como navegar nele e como atribuir trabalhos usando ele, consulte os seguintes artigos:
 

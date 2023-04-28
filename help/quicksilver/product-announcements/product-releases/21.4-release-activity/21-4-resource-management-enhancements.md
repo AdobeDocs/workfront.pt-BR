@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: c978e88b-ee07-4af9-b5df-cb62dab4b3ac
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ Para obter informações sobre a atribuição de itens de trabalho no Balanceado
 ## Nova opção padrão para Balanceador de Carga de Trabalho
 
 Como parte do nosso esforço para descontinuar o agendamento e tornar a ferramenta de atribuição de recursos principal do Workfront do Balanceador de Carga de Trabalho, tornamos o Balanceador de Workfront a opção padrão para todos os novos usuários. Atualmente, Scheduling é a opção padrão. Essa alteração se aplica a todas as áreas em que você pode acessar o Agendamento, a partir das quais inclui a área Recursos (na nova experiência do Adobe Workfront) ou a área Pessoas (no Adobe Workfront Classic), bem como no nível do projeto e da equipe.
-
-Para obter informações sobre como descontinuar o Agendamento, consulte [Substituição das ferramentas de Agendamento de Recursos no Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
 
 ## Nova experiência de filtro no Balanceador de Carga de Trabalho
 

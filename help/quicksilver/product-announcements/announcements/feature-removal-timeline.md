@@ -7,9 +7,9 @@ description: Vários recursos estão sendo retirados do produto Adobe Workfront.
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Vários recursos estão sendo retirados do produto Adobe Workfront. Veja a segui
    <td>Não há mais suporte para a versão 21.2</td> 
   </tr> 
   <tr> 
-   <td> <p>Agendamento de recursos</p> <p>O Balanceador de carga de trabalho fornece uma experiência aprimorada na programação de recursos.</p> <p>Para obter informações mais detalhadas sobre o Balanceador de Carga de Trabalho e comparações de recursos com as ferramentas de Agendamento de Recursos, consulte <a href="../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md" class="MCXref xref">Substituição das ferramentas de Agendamento de Recursos no Adobe Workfront</a>.</p> </td> 
+   <td> <p>Agendamento de recursos</p> <p>O Balanceador de carga de trabalho fornece uma experiência aprimorada na programação de recursos.</p> <p>Para obter informações mais detalhadas sobre o Balanceador de Carga de Trabalho, consulte <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">Visão Geral do Balanceador de Carga de Trabalho</a>.</p> </td> 
    <td> </td> 
    <td> <p>Não é mais suportado em 9 de novembro de 2020 (com a versão 20.4)</p> <p>--</p> <p>Removido da plataforma Workfront após o primeiro semestre de 2022</p> </td> 
   </tr> 

@@ -6,9 +6,9 @@ description: Se precisar de mais trabalho para concluir um problema após o envi
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 44f01128ef4e6581dc8eaca318a999f2e7274f2a
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1048'
 ht-degree: 2%
 
 ---
@@ -107,9 +107,11 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
    >[!TIP]
    >
-   >Se um formulário personalizado de vários objetos anexado ao problema for configurado para uso com problemas e tarefas, o formulário será anexado por padrão. Todas as informações salvas no formulário de problema são retidas para a tarefa ao fazer a conversão.
-   >
-   >Se o projeto de destino tiver qualquer formulário padrão definido no campo Forms Personalizado da Tarefa ao editar o projeto, esses formulários de tarefa também serão adicionados à nova tarefa. Todos os campos personalizados que são comuns entre a edição original e os campos nos formulários de tarefa padrão são preenchidos previamente com informações dos campos de edição.
+   >* Se um formulário personalizado de vários objetos anexado ao problema for configurado para uso com problemas e tarefas, todas as informações salvas no formulário serão retidas quando você fizer a conversão se os campos existirem no problema, bem como os formulários personalizados da tarefa.
+   >* Se um formulário personalizado de vários objetos com um campo calculado for anexado ao problema e à tarefa, o problema e a tarefa deverão ser compatíveis com todos os campos referenciados nos campos personalizados calculados do formulário. Se houver uma incompatibilidade, uma mensagem alertará você para fazer ajustes. Para obter mais informações, consulte a seção &quot;Campos personalizados calculados em formulários personalizados com vários objetos&quot; na seção [Adicionar dados calculados a um formulário personalizado com o construtor de formulários herdado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+   >* Se o projeto de destino tiver qualquer formulário padrão definido no campo Forms Personalizado da Tarefa ao editar o projeto, esses formulários de tarefa também serão adicionados à nova tarefa. Todos os campos personalizados que são comuns entre a edição original e os campos nos formulários de tarefa padrão são preenchidos previamente com informações dos campos de edição.
+
+
 
 1. Clique em [!UICONTROL **Converter em tarefa**].
 

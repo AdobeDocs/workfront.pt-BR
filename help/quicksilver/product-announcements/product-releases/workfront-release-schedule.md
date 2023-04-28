@@ -7,9 +7,9 @@ description: O ambiente de visualização é atualizado uma vez por semana com n
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: d012f197cc56121c823a08789ba49d6d6a28a3cb
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -68,9 +68,9 @@ Para obter informações sobre as notas de versão do produto, consulte [Versõe
 
 ## Outras versões
 
-Às vezes, a Workfront pode lançar recursos que podem não estar documentados nas notas de versão, atualizações de manutenção ou em nenhum dos artigos da documentação real. Isso acontece em um esforço para testar novos recursos antes de torná-los permanentes. Normalmente, esses testes são lançados para um número limitado de clientes, mas pode haver um momento em que podem ser lançados para todos.
+Às vezes, a Workfront pode lançar recursos que podem não estar documentados nas notas de versão, atualizações de manutenção ou em nenhum dos artigos da documentação. Isso acontece em um esforço para testar novos recursos antes de torná-los permanentes. Normalmente, esses testes são lançados para um número limitado de clientes, mas pode haver um momento em que podem ser lançados para todos. Eles podem ser lançados para os ambientes Preview ou Production .
 
-Se você encontrar algo no sistema que não corresponda à documentação, pedimos que contate a equipe de Suporte ao cliente. Para obter mais informações, consulte [Entre em contato com o Suporte ao cliente](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Se você encontrar algo no sistema que não corresponde à documentação e sobre o qual você pode ter dúvidas, pedimos que entre em contato com a equipe de Suporte ao cliente. Para obter mais informações, consulte [Entre em contato com o Suporte ao cliente](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## Notas de versão
 
