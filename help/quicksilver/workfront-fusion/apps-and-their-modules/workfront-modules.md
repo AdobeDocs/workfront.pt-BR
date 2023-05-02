@@ -9,9 +9,9 @@ description: Você pode usar o conector Adobe Workfront Fusion Adobe Workfront p
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 97f063a2e73c28a54cb1e1f99d66a8979ff3718c
+source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
 workflow-type: tm+mt
-source-wordcount: '5288'
+source-wordcount: '5345'
 ht-degree: 3%
 
 ---
@@ -1665,7 +1665,26 @@ Ao usar filtros de assinatura de evento, os usuários do Fusion podem criar assi
 
 Isso é diferente de configurar um filtro na variável [!DNL Workfront Fusion] . Sem um filtro de assinatura de evento, o webhook recebe todos os eventos relacionados ao tipo de objeto selecionado. A maioria desses eventos seria irrelevante para o cenário e deve ser filtrada para que o cenário possa continuar.
 
+Os seguintes operadores estão disponíveis no filtro Workfront > Watch events :
+
+* Igual
+* Não é igual
+* Maior que
+* Menor que
+* Maior que ou igual a
+* Menor que ou igual a
+* Contém
+* Existe
+* Não existe
+* Alterado
+
 >[!NOTE]
+>
+> * O `Exists`, `Does not exist`e `Changed` Os operadores não exigem um valor e o campo de valor está ausente dessas opções.
+> * O `Changed` ignora o campo State .
+
+
+>[!IMPORTANT]
 >
 >Não é possível editar filtros em [!DNL Workfront] webhooks. Para configurar filtros diferentes para [!DNL Workfront] assinaturas de evento, remova o webhook atual e crie um novo.
 
