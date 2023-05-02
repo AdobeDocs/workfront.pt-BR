@@ -5,9 +5,9 @@ description: Saiba mais sobre as versões beta atuais no Adobe Workfront.
 author: Alina
 feature: Product Announcements
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: 781a6e28b759863f8bc4635c0a8850abb173e038
+source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Os artigos vinculados nesta página descrevem os programas beta atuais disponív
 Os artigos a seguir contêm informações sobre recursos atualmente em beta:
 
 * [Beta da Tela de Relatório: visão geral](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
-* [Nova experiência de comentário](../../workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
+* [Nova experiência beta de comentário](../betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
 * [Visão geral do designer de formulários](../../administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)
 
 
@@ -36,8 +36,8 @@ The features described in this page are currently available as part of beta prog
 
 ## New commenting exprience Beta
 
-* [New commenting experience](../../workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
-* [New commenting experience beta release activity](../betas/new-commenting-experience-beta-release-activity.md)
+* [New commenting experience](../betas/new-commenting-experience-beta/unified-commenting-experience.md)
+* [New commenting experience beta release activity](../betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
 
 ## New form designer Beta
 

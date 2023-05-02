@@ -6,7 +6,8 @@ title: Atividade de lançamento do Adobe Workfront Metas 23.2 Semana de 20 de ma
 description: Esta página descreve todas as melhorias feitas com a versão 23.2 das Metas do Adobe Workfront para o ambiente de Visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção na semana de 20 de março de 2023.
 author: Courtney
 feature: Product Announcements, Workfront Goals
-source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
+exl-id: 2397339a-7a78-41ee-8882-0606309e356c
+source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -25,4 +26,4 @@ A partir da versão 23.1, introduzimos uma nova experiência de comentário para
 
 A partir da versão 23.2, a experiência de comentário para metas corresponderá à nova experiência de comentário Beta, lançada em caso de problemas. Continuamos lançando atualizações nessa área durante todas as versões em 2023.
 
-Para obter informações sobre quais recursos estão disponíveis na experiência de comentários Beta, consulte [Nova experiência de comentário](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+Para obter informações sobre quais recursos estão disponíveis na experiência de comentários Beta, consulte [Nova experiência de comentário](../../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
