@@ -8,15 +8,14 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: fed4713d1e9044879db6d34dc4725245a2516634
+source-git-commit: 0bf30319978e1ec41a7ba4dc08788e15024cd03f
 workflow-type: tm+mt
-source-wordcount: '2786'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
 
 # Editar o perfil de um usuário
-
 
 >[!IMPORTANT]
 >
@@ -200,11 +199,11 @@ Você deve ter o seguinte para executar as etapas neste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">Formulários personalizados</td> 
-      <td>Associe um formulário personalizado do usuário existente a este usuário. É necessário criar um formulário personalizado antes de associá-lo a um usuário. Somente os formulários personalizados ativos são exibidos na lista. Para obter informações sobre como criar formulários personalizados, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Criar ou editar um formulário personalizado</a>.</td> 
+      <td><p>Associe um formulário personalizado do usuário existente a este usuário. É necessário criar um formulário personalizado antes de associá-lo a um usuário. Somente os formulários personalizados ativos são exibidos na lista. Os campos que você não tem acesso para editar não são exibidos em um formulário personalizado individual.</p> <p>Para obter informações sobre como criar formulários personalizados, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Criar ou editar um formulário personalizado</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Comentário</td> 
-      <td> <p>Digite o comentário que deseja enviar aos usuários e à área Atualizações de seus perfis de usuário.</p> </td> 
+      <td>Digite o comentário que deseja enviar aos usuários e à área Atualizações de seus perfis de usuário.</td> 
      </tr> 
     </tbody> 
    </table>
