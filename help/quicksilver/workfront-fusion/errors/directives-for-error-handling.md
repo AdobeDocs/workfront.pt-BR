@@ -10,7 +10,7 @@ feature: Workfront Fusion
 exl-id: dcf4f7e3-78d8-4eb4-9483-8a1c18b0e436
 source-git-commit: f4e43d34068c987755559573b4ecd618ff710686
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
