@@ -7,7 +7,7 @@ description: Em alguns casos, é útil executar novamente um módulo com falha p
 author: Becky
 feature: Workfront Fusion
 exl-id: 1058905c-6c95-4a8c-8956-e1606f1486d9
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 184033c8957e955b3011f7e0845a73029f6b7aba
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 0%
@@ -71,11 +71,11 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
 * O intervalo mínimo de tentativas é de um minuto.
 * Se o módulo estiver processando vários pacotes e o processamento de um pacote falhar, a execução parcial (somente o pacote que causou o erro) será movida para a pasta de execuções incompletas e agendada para tentativas de acordo com o [!UICONTROL Quebra] configurações de diretiva. No entanto, a execução atual continua e o módulo continua a processar os pacotes subsequentes. Você pode ativar o &quot;[!UICONTROL Processamento sequencial]&quot; na [!UICONTROL Configurações de cenário] para impedir que o cenário seja executado novamente até que a execução armazenada na pasta Execuções incompletas seja resolvida com êxito.
 
-Para obter mais informações sobre execuções incompletas, consulte [Exibir e resolver execuções incompletas em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+   Para obter mais informações sobre execuções incompletas, consulte [Exibir e resolver execuções incompletas em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
 ### Use o [!UICONTROL Repetidor] módulo
 
-1. Aplique o **[!UICONTROL Repetidor]** e defina seu [!UICONTROL Repetir] para o número máximo de tentativas.
+1. Aplique o **[!UICONTROL Repetidor]** e defina seu **[!UICONTROL Repetir]** para o número máximo de tentativas.
 1. Vincule o módulo que apresenta falha potencial ao **[!UICONTROL Repetidor]** módulo.
 1. Anexe uma rota do manipulador de erros para este módulo (consulte [Tratamento de erros em [!DNL Adobe Workfront Fusio]n](../../workfront-fusion/errors/error-handling.md)).
 1. Vincule o **[!UICONTROL Ferramentas] > [!UICONTROL Suspensão]** para a rota do manipulador de erros e defina seu **[!UICONTROL Atraso]** para o número de segundos entre as tentativas.
