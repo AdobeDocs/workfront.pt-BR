@@ -8,9 +8,9 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '5070'
+source-wordcount: '5008'
 ht-degree: 26%
 
 ---
@@ -220,11 +220,8 @@ Consulte também [Notificações: Solicitações que fiz](../../../workfront-bas
   <tr> 
    <td> <p>Documento</p> </td> 
    <td> <p>Documento incluído na solicitação de Help Desk para o originador do problema</p> </td> 
-   <td> <p>Um documento foi alterado ou caregado sobre um problema para o qual sou o contato primário.</p> <p>O contato principal do problema recebe uma notificação por email quando um documento é carregado ou alterado no problema, a menos que o usuário que carregou ou alterou o documento também seja o contato principal.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual e se o projeto tiver a opção "Publicar como fila de solicitações de ajuda" ativada na guia Configuração da fila. <!-- DESENHADO EM FLARE: Para obter mais informações sobre como publicar um projeto como uma fila de solicitações de ajuda, consulte 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Visão geral da guia Detalhes da fila em um projeto</a>.
-
-    --></p> </td>
-<td> <p>Ativo</p> </td> 
+   <td> <p>Um documento foi alterado ou caregado sobre um problema para o qual sou o contato primário.</p> <p>O contato principal do problema recebe uma notificação por email quando um documento é carregado ou alterado no problema, a menos que o usuário que carregou ou alterou o documento também seja o contato principal.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual e se o projeto tiver a opção "Publicar como fila de solicitações de ajuda" ativada na guia Configuração da fila.</p> </td> 
+   <td> <p>Ativo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problema</p> </td> 
@@ -234,6 +231,11 @@ Consulte também [Notificações: Solicitações que fiz](../../../workfront-bas
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE:
+       For more information on publishing a project as a Help Request Queue, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.-->
 
 ## Comunicação
 
@@ -268,10 +270,8 @@ Consulte também [Notificações: Comunicação](../../../workfront-basics/using
   <tr> 
    <td> <p>Usuário</p> </td> 
    <td>Atualização Direcionada ao Usuário</td> 
-   <td> <p>Alguém tiver me incluído em uma atualização direcionada.</p> <p>Uma atualização direcionada ocorre quando um usuário inclui especificamente outro usuário em uma atualização, conforme descrito em <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Marcar outras pessoas em atualizações</a>.</p> <p>Nesse caso, o usuário que está incluído na atualização direcionada recebe uma notificação por email sobre a atualização.</p> <p>A notificação por email é enviada somente se o usuário tiver direitos de acesso ao objeto&lt;!&gt;— DESENHADO EM FLARE: e não é o mesmo usuário que insere a atualização
-
-    -->. &lt;/p> &lt;p>Esta notificação de evento é ativada por padrão e não pode ser desativada.&lt;/p> &lt;/td>
-<td> <p>Ativo</p> </td> 
+   <td> <p>Alguém tiver me incluído em uma atualização direcionada.</p> <p>Uma atualização direcionada ocorre quando um usuário inclui especificamente outro usuário em uma atualização, conforme descrito em <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Marcar outras pessoas em atualizações</a>.</p> <p>Nesse caso, o usuário que está incluído na atualização direcionada recebe uma notificação por email sobre a atualização.</p> <p>A notificação por email é enviada somente se o usuário tiver direitos de acesso ao objeto e se ele o mantiver ativado em seu perfil.  </p> <p>Esta notificação de evento é ativada por padrão e não pode ser desativada.</p> </td> 
+   <td> <p>Ativo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Equipe</p> </td> 
@@ -308,6 +308,10 @@ Consulte também [Notificações: Comunicação](../../../workfront-basics/using
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: for the directed update above, it also mentions:
+        ... and is not the same user that enters the update-->
 
 ## Informações de aprovação
 
@@ -429,11 +433,8 @@ Consulte também [Notificações: Informações sobre o trabalho que me foi atri
   <tr> 
    <td> <p>Documento</p> </td> 
    <td> <p>Documento incluído na solicitação de Help Desk parO problema atribuída à</p> </td> 
-   <td> <p>Documentos foram adicionados ou alterados na minha requisição.</p> <p>O destinatário do problema recebe uma notificação por email quando os documentos são carregados ou alterados em um problema adicionado.</p> <p>Uma notificação por email não é enviada se o usuário que inseriu o problema for o destinatário.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual e se o projeto tiver a opção "Publicar como fila de solicitações de ajuda" ativada na guia Configuração da fila.<!-- DESENHADO EM FLARE: Para obter mais informações sobre como publicar um projeto como uma fila de solicitações de ajuda, consulte 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Visão geral da guia Detalhes da fila em um projeto</a>.
-
-    --></p> </td>
-<td> <p>Ativo</p> </td> 
+   <td> <p>Documentos foram adicionados ou alterados na minha requisição.</p> <p>O destinatário do problema recebe uma notificação por email quando os documentos são carregados ou alterados em um problema adicionado.</p> <p>Uma notificação por email não é enviada se o usuário que inseriu o problema for o destinatário.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual e se o projeto tiver a opção "Publicar como fila de solicitações de ajuda" ativada na guia Configuração da fila.</p> </td> 
+   <td> <p>Ativo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tarefa</p> </td> 
@@ -461,6 +462,11 @@ Consulte também [Notificações: Informações sobre o trabalho que me foi atri
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: from the Request document add to issue assigned to: 
+        For more information on publishing a project as a Help Request Queue, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>. -->
 
 ## Informações sobre projetos em que estou
 
@@ -739,12 +745,7 @@ Consulte também [Notificações: Informações diversas](../../../workfront-bas
    <td> </td> 
    <td> <p>Notificação de erro</p> </td> 
    <td> <p>Foi encontrado um erro que necessita da sua atenção.</p> <p>Uma notificação por email é gerada depois que o Workfront tenta e falha ao se conectar a uma conta POP. Após 25 tentativas, o Workfront desativa a conexão com a conta POP para preservar os recursos e envia uma notificação. </p> <p>A notificação por email é enviada ao Proprietário do projeto, se o email POP estiver associado a uma fila de solicitações ou aos administradores do Workfront, se a conta POP estiver associada ao recurso "Email de entrada" na Configuração de email.
-     <!--
-      DRAFTED IN FLARE:
-       <br>For more information on how to associate a request queue with a POP account, see 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
-       For more information on how to enable a POP account for incoming mail, see .
-      --></p> </td> 
+   </p> </td> 
    <td> <p>Ativo</p> </td> 
   </tr> 
   <tr> 
@@ -797,6 +798,14 @@ Consulte também [Notificações: Informações diversas](../../../workfront-bas
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: from Error notification above: 
+      
+       <br>For more information on how to associate a request queue with a POP account, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
+       For more information on how to enable a POP account for incoming mail, see .
+      -->
 
 ## Delegação
 

@@ -5,9 +5,9 @@ title: "Nova atividade de versão beta da experiência de comentário"
 description: Revise a atividade semanal da versão para ver a nova experiência em Beta de comentários do Adobe Workfront.
 author: Alina
 feature: Product Announcements
-source-git-commit: cb770bc7c433f1eac31be39f26893016c1a465fc
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,7 @@ We are changing the way attachments work when removing or editing a comment that
 
 Available for issue commenting Beta experience and for Workfront Goals on the following dates:
 
-* Preview: May 3, 2023
-* Production: May 4, 2023
-
+* Preview and Production: May 4, 2023
 -->
 
 ## 27 de abril de 2023

@@ -6,10 +6,10 @@ description: Quando alguém adiciona ou responde a uma atualização em um objet
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1114'
+ht-degree: 1%
 
 ---
 
@@ -22,9 +22,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >No momento, estamos reprojetando a experiência de comentários no Adobe Workfront.
->Para obter mais informações sobre a nova experiência de atualização, consulte [Nova experiência de comentário](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Você pode acessar o novo design para os seguintes objetos:
+>Para obter mais informações sobre a nova experiência de comentário, consulte [Nova experiência de comentário](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>Você pode acessar a nova experiência para os seguintes objetos:
 > * Problemas ao ativar o comentário Beta.
    >
    >     Essa funcionalidade está disponível somente para a seção Atualizações de problemas e não está disponível para as seguintes áreas:

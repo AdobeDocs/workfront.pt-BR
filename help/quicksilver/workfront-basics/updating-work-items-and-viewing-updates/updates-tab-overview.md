@@ -7,10 +7,10 @@ description: A seção Atualizações de um objeto exibe os comentários que os 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '903'
+ht-degree: 4%
 
 ---
 
@@ -23,9 +23,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >No momento, estamos reprojetando a experiência de comentários no Adobe Workfront.
->Para obter mais informações sobre a nova experiência de atualização, consulte [Nova experiência de comentário](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Você pode acessar o novo design para os seguintes objetos:
+>Para obter mais informações sobre a nova experiência de comentário, consulte [Nova experiência de comentário](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>Você pode acessar a nova experiência para os seguintes objetos:
 > * Problemas ao ativar o comentário Beta.
    >
    >     Essa funcionalidade está disponível somente para a seção Atualizações de problemas e não está disponível para as seguintes áreas:

@@ -6,9 +6,9 @@ description: Você pode adicionar comentários em todas as metas que pode visual
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '875'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ Isso abre a lista de metas.
    >
    >Navegar para fora da seção Atualizações antes de terminar de digitar e enviar um comentário mantém o comentário na página no modo de rascunho mesmo depois de fazer logoff e logon novamente. Todas as imagens adicionadas ao comentário também são salvas no rascunho. Os rascunhos são salvos por 7 dias após os quais são descartados e não podem ser recuperados. Os comentários rascunhados são visíveis apenas para o usuário que os insere.
 
-1. (Opcional) Para adicionar formatação Rich Text à sua atualização, um hiperlink ou uma imagem, use quaisquer opções na barra de ferramentas Rich Text ou os ícones adjacentes a ela. Para obter mais informações, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Opcional) Para adicionar formatação Rich Text à sua atualização, a um hiperlink ou a uma imagem, use quaisquer opções na barra de ferramentas Rich Text ou nos ícones adjacentes a ela. Para obter mais informações, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Na seção **Marcar pessoas ou equipes** , comece digitando o nome ou o email de um usuário ou de uma equipe que você gostaria de incluir neste comentário e selecione-o quando ele for exibido na lista.
 1. Selecione o **Privado da minha empresa** para tornar o comentário visível somente para as pessoas na empresa.
 
@@ -160,7 +160,7 @@ Isso abre a lista de metas.
 
 1. (Opcional) Para editar um comentário, clique no botão **Mais** menu ![](assets/more-icon.png) à direita do ícone Curtir e, em seguida, clique em **Editar**.
 1. Edite as informações no comentário, adicione ou remova imagens ou remova qualquer um dos usuários marcados.
-É possível editar seu comentário em 15 após enviá-lo. Um indicador &quot;Editado&quot; é adicionado à esquerda do carimbo de data que é exibido quando o comentário é atualizado.
+Você pode editar seu comentário em 15 minutos após enviá-lo. Um indicador &quot;Editado&quot; é adicionado à esquerda do carimbo de data que é exibido quando o comentário é atualizado.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 

@@ -6,10 +6,10 @@ description: É possível adicionar uma atualização em um objeto do Adobe Work
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: cb770bc7c433f1eac31be39f26893016c1a465fc
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3012'
+ht-degree: 1%
 
 ---
 
@@ -22,9 +22,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >No momento, estamos reprojetando a experiência de comentários no Adobe Workfront.
->Para obter mais informações sobre a nova experiência de atualização, consulte [Nova experiência de comentário](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Você pode acessar o novo design para os seguintes objetos:
+>Para obter mais informações sobre a nova experiência de comentário, consulte [Nova experiência de comentário](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>Você pode acessar a nova experiência para os seguintes objetos:
 > * Problemas ao ativar o comentário Beta.
    >
    >     Essa funcionalidade está disponível somente para a seção Atualizações de problemas e não está disponível para as seguintes áreas:
@@ -135,7 +136,7 @@ A adição de uma atualização a um item de trabalho é diferente, dependendo d
 1. Vá para o item de trabalho para o qual deseja fornecer uma atualização (como um projeto, tarefa ou problema).
 1. Clique no botão **Atualizações** seção.
 1. Clique em **Iniciar uma nova atualização,** em seguida, digite a atualização.
-1. (Opcional) Use Rich Text ou adicione emojis, links ou imagens à sua atualização para aprimorar seu conteúdo. Para obter mais informações, consulte a seção &quot;Usar rich text em uma atualização do Workfront&quot; neste artigo
+1. (Opcional) Use Rich Text ou adicione emojis, links ou imagens à sua atualização para aprimorar seu conteúdo. Para obter mais informações, consulte o [Usar rich text em uma atualização do Workfront](#use-rich-text-in-a-workfront-update) seção neste artigo
 1. (Opcional) Atualize qualquer uma das seguintes informações sobre o item de trabalho:
 
    <table style="table-layout:auto"> 
@@ -209,7 +210,7 @@ O **Comentários** é selecionada por padrão.
    * Lista numerada
    * Adicionar anexo <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
 
-   Para obter mais informações, consulte a seção &quot;Usar rich text em uma atualização do Workfront&quot; neste artigo. <!--remove this list, above, when we get to parity for Rich Text-->
+   Para obter mais informações, consulte o [Usar rich text em uma atualização do Workfront](#use-rich-text-in-a-workfront-update) neste artigo. <!--remove this list, above, when we get to parity for Rich Text-->
 
    >[!TIP]
    >
@@ -257,7 +258,7 @@ O **Comentários** é selecionada por padrão.
    >Não é possível adicionar um comentário a uma atualização do sistema.
 
 
-## Usar rich text em uma atualização do Workfront
+## Usar rich text em uma atualização do Workfront{#use-rich-text-in-a-workfront-update}
 
 <!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
@@ -322,13 +323,16 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
 
    Ou
 
-   Clique no botão **Adicionar anexo** ícone ![](assets/add-image-paperclip-icon.png) e navegue até a imagem em seu computador, ao usar a experiência beta de comentários.
+   Clique no botão **Adicionar anexo** ícone ![](assets/add-image-paperclip-icon.png) e navegue até a imagem em seu computador, ao usar a experiência beta de comentários. <!--the name of the icon and the icon for it might change-->
 
    >[!NOTE]
    >
-   >* O administrador do Workfront deve habilitar a adição de imagens antes de visualizar o ícone Imagem.
+   >* O administrador do Workfront deve habilitar a adição de imagens na seção Atualizar preferências de feeds da área da interface do Workfront antes que você possa ver os ícones Imagem ou Adicionar anexo. Para obter mais informações, consulte [Configurar preferências para atualizações do usuário](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* O tamanho máximo do arquivo de imagem é de 7 MB. Os tipos de arquivos de imagem suportados são .jpg, .gif e .png.
-   >* As imagens são acessíveis somente na guia Atualizações em um objeto e não estão disponíveis na guia Documentos.
+   >* As imagens são acessíveis na seção Atualizações de um objeto e também estão disponíveis na área Documentos.
+   >* <!--In the current commenting experience,--> Ao excluir um comentário que contém uma imagem, a imagem permanece na área Documentos, mas não fica mais visível na seção Atualizações .
+
+   > <!--* In the new commenting experience, when you delete a comment that contains an image, or when you edit a comment and remove the image from it, the image is removed from the Updates section as well as from the Documents area. -->
    >* Você pode enviar uma atualização com uma imagem e sem texto.
 
 1. Clique em **Atualizar**  ou **Enviar**, ao usar a experiência de comentário Beta.
@@ -392,7 +396,7 @@ Nenhum usuário do Workfront (incluindo o administrador do Workfront) pode exclu
 
    >[!NOTE]
    >
-   >A exclusão de uma atualização com uma imagem anexada exclui o comentário e a imagem.
+   >A exclusão de uma atualização com uma imagem anexada exclui o comentário e a imagem. Para obter mais informações, consulte o [Usar rich text em uma atualização do Workfront](#use-rich-text-in-a-workfront-update) neste artigo.
 
    Quando o comentário excluído tem respostas associadas a ele, há uma indicação de que o comentário foi removido com o nome do usuário que o removeu.
 
