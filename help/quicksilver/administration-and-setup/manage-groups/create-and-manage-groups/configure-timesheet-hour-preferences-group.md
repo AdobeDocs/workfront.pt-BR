@@ -5,30 +5,32 @@ keywords: grupo,preferências,tarefa,grupos,problema,desbloquear
 navigation-topic: create-and-manage-groups
 title: Configurar as preferências de hora e folha de ponto para um grupo
 description: No nível do sistema, um administrador do Adobe Workfront pode desbloquear as seções de folha de ponto e hora de preferência Preferências Gerais e Preencher folhas de ponto com. Isso permite que os administradores de grupo configurem as opções nessas seções de maneira independente para seus próprios grupos.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 4%
+source-wordcount: '1368'
+ht-degree: 5%
 
 ---
 
 # Configurar as preferências de hora e folha de ponto para um grupo
 
+{{highlighted-preview}}
+
 Um administrador do Adobe Workfront pode desbloquear as seguintes seções de folhas de horas e preferências de hora no nível do sistema para que os administradores de grupo possam configurá-las independentemente para seus próprios grupos:
 
-* Preferências Gerais
-* Preencher folhas de horas previamente com
+* Preferências gerais
+* <span class="preview">Onde os usuários podem registrar o tempo</span>
+* Preencher previamente folhas de ponto
 
 Se houver algum grupo acima do grupo que você gerencia, os administradores também poderão fazer isso para o seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo).
 
 As seguintes seções na página Folha de Horas e Preferências de Horas são configuráveis somente no nível do sistema e não podem ser desbloqueadas para grupos:
 
-* Hora de registro
-* Preferências de exclusão de projetos, tarefas ou problemas
+* Projetos, tarefas e problemas excluídos
 
 Para obter informações sobre como um administrador do Workfront desbloqueia uma folha de ponto e uma preferência de hora, consulte a seção [Desbloquear folha de horas e preferências de hora para grupos](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) no artigo [Configurar preferências de hora e folha de ponto](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -134,7 +136,32 @@ Considere as seguintes informações sobre a configuração de uma folha de pont
     </tbody> 
    </table>
 
-1. No **Preencha previamente as folhas de ponto com** configure qualquer uma das seguintes opções:
+1. <span class="preview">No **Onde os usuários podem registrar o tempo** configure qualquer uma das seguintes opções:</span>
+
+   <table style="table-layout:auto">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td role="rowheader"><span class="preview">Registrar o tempo diretamente nos projetos</span></td> 
+      <td><span class="preview">Permite que os usuários façam logon no projeto (tanto na guia Atualizações quanto na folha de horas). Se quiser restringir o tempo de gravação dos usuários no nível do projeto, deixe essa opção desmarcada.</span></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Registrar o tempo em projetos concluídos</span></td>
+      <td><span class="preview">Permite que os usuários registrem o tempo em um projeto que foi marcado como concluído. Se essa opção estiver desativada, os usuários não poderão registrar tempo para o trabalho que concluíram nos projetos no status Concluído .</span></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Registrar o tempo em projetos mortos</span></td> 
+      <td><span class="preview">Quando essa opção é ativada, os usuários podem registrar horas em projetos com um status de Inativo.</span></td>
+     </tr>
+    </tbody>
+   </table>
+
+   >[!NOTE]
+   >
+   >Essa preferência é aplicada com base na configuração das preferências do Grupo doméstico do usuário. Se essas configurações estiverem ativadas nas preferências do Grupo doméstico do usuário, ele poderá registrar o tempo diretamente nos projetos, incluindo projetos concluídos ou inativos, independentemente das preferências de grupo do projeto permitirem ou não.
+
+1. No **Preencher previamente folhas de ponto** configure qualquer uma das seguintes opções:
 
    <table style="table-layout:auto"> 
     <col> 

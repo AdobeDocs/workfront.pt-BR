@@ -6,9 +6,9 @@ title: Opt-in do recurso anterior para [!DNL Adobe Workfront] Quadros
 description: Leia este artigo para saber mais sobre o [!DNL Workfront Boards] opt-in de recurso antecipado.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 0e838c75bddb97d53f5fa791d609be9b6d8d27f8
+source-git-commit: 4c59a63d08efe6dcd6be294c49ec98ebf70feed6
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,7 @@ A tabela a seguir descreve os principais recursos das placas, juntamente com seu
   </tr>
   <tr>
    <td>Migrar cartões kanban herdados para quadros</td>
-   <td>Parcialmente liberado</td>
+   <td>Esse recurso estará disponível em produção em 4 de maio de 2023 e não faz parte da participação inicial no recurso.</td>
   </tr>
   <tr>
    <td>Criar quadros dinâmicos</td>
