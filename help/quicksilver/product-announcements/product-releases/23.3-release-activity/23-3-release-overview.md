@@ -4,9 +4,9 @@ description: Visão geral da versão 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 99c53f74554e559e5857eff9f5931dc6f70f93b1
+source-git-commit: 7ee8257daa6b621d1b69d784717a13818ea9e098
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -218,7 +218,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
-            </tbody>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">Novos aprimoramentos da experiência beta de comentários</a></p>
+                        <p>Os aprimoramentos na seção Atualizações estão sendo disponibilizados no período de lançamento da versão 23.3 para a nova experiência beta de comentários. Esses aprimoramentos serão disponibilizados no ambiente de Produção com a versão 23.3, a menos que especificado de outra forma. 
+ </p>
+                    </td>
+                    <td><p><b>Disponível nestas datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de visualização: durante todo o período da versão 23.3<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versão de produção: com a versão 23.3 (salvo especificação em contrário)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
         </table>
 
 ## Avisos
@@ -237,7 +254,7 @@ Não há atualizações da Workfront Proof neste ponto da versão. Essa área se
 
 ### Aprimoramentos das metas da Workfront
 
-Não há atualizações de Metas da Workfront neste momento no lançamento. Essa área será atualizada quando houver atualizações disponíveis.
+Novos recursos que chegam ao Workfront Metas são lançados dentro do prazo da versão 23.3. Para obter informações sobre esses novos recursos agora disponíveis em Visualização, consulte [Metas da Adobe Workfront com a versão 23.3](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md).
 
 ### API versão 16
 
