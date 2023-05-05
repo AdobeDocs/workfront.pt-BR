@@ -7,7 +7,7 @@ description: Como gerente de projeto, você pode usar as taxas de faturamento pa
 author: Alina
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: 518a552845598a30fd547d432aa9d22dfef6ec8e
+source-git-commit: 3649e206a294918e7dc42d75bab6538609d22d20
 workflow-type: tm+mt
 source-wordcount: '3313'
 ht-degree: 0%
@@ -106,7 +106,7 @@ A tabela a seguir mostra os tipos de receita associados a tarefas, problemas e p
  <tbody> 
   <tr> 
    <td role="rowheader">Receita Planejada</td> 
-   <td> <p>Para tarefas, essa é a receita associada às Horas Planejadas de tarefas. As Horas Planejadas de todas as tarefas são acumuladas até as Horas Planejadas do projeto para contribuir com o cálculo das Horas Planejadas do projeto. </p> <p>Para obter mais informações sobre as Horas Planejadas no Workfront, consulte <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Visão geral das Horas Planejadas</a>. </p> <p>A Workfront calcula a Receita planejada para tarefas e projetos usando as seguintes fórmulas:</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) +&nbsp;Fixed Revenue</code> </p> 
+   <td> <p>Para tarefas, essa é a receita associada às Horas Planejadas de tarefas. As Horas Planejadas de todas as tarefas são acumuladas até as Horas Planejadas do projeto para contribuir com o cálculo das Horas Planejadas do projeto. </p> <p>Para obter mais informações sobre as Horas Planejadas no Workfront, consulte <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Visão geral das Horas Planejadas</a>. </p> <p>A Workfront calcula a Receita planejada para tarefas e projetos usando as seguintes fórmulas:</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code> </p> 
    <p><b>Nota</b>
 
 <p>A Receita Planejada do projeto exibida na área Detalhes do projeto e nos relatórios do projeto é diferente da Receita Planejada exibida no relatório Utilização. </p> <p>A Receita Planejada na área Detalhes do Projeto reflete a receita da tarefa associada à tarefa Horas Planejadas, bem como a Receita Fixa do projeto. A Receita Planejada no Relatório de Utilização exibe a Receita Planejada associada somente às Horas Planejadas das atribuições de tarefa no projeto. </p> 
@@ -120,7 +120,7 @@ A tabela a seguir mostra os tipos de receita associados a tarefas, problemas e p
   </tr> 
   <tr> 
    <td role="rowheader">Receita Efetivo*</td> 
-   <td> <p>Associado às Horas Reais de Tarefas, Problemas e Projetos. </p> <p>Geralmente, a Workfront calcula a Receita Real usando esta fórmula:</p> <p><code>Planned Revenue = Planned Hours * Billing rate</code> </p> <p>Para obter informações sobre cálculos de Receita Real no Relatório de Utilização, consulte <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Exibir informações de utilização de recursos </a>. </p> <p><b>DICA</b>
+   <td> <p>Associado às Horas Reais de Tarefas, Problemas e Projetos. </p> <p>Geralmente, a Workfront calcula a Receita Real usando esta fórmula:</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p>Para obter informações sobre cálculos de Receita Real no Relatório de Utilização, consulte <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Exibir informações de utilização de recursos </a>. </p> <p><b>DICA</b>
 
 Não é possível visualizar a Receita Real no nível da edição, mas a receita associada às Horas Reais nos problemas contribui para a Receita Real do projeto. </p> </td>
 </tr> 
