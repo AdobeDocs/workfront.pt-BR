@@ -6,9 +6,9 @@ description: Você pode fazer upload de suas pranchetas como provas diretamente 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: d0afdfc7be9177f6ff45dcc247253faa9dc57967
+source-git-commit: d5255968a96452d9501a285408f67be7da10d933
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '1007'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,9 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
    >[!TIP]
    >
-   >Para selecionar mais de uma prancheta, clique e arraste o mouse sobre as pranchetas desejadas.
+   >* Os quadros aparecerão na prova na ordem em que foram selecionados. O primeiro quadro selecionado será a primeira página na prova e assim por diante.
+   >* Para selecionar mais de uma prancheta rapidamente, clique e arraste o mouse sobre as pranchetas desejadas. Isso não permite controlar a ordem das pranchetas na prova.
+
 
 1. Habilitar **[!UICONTROL Criar uma prova]**.
 
