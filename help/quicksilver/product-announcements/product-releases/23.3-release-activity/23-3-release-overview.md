@@ -4,9 +4,9 @@ description: Visão geral da versão 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 52f6c51a8843852b7eb1880661e3d53f8675c470
+source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                                <tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Filtros simples disponíveis nas colunas de entrada de bordo</a><span style="color: #ff0000;"> Novo na Visualização!</span></p>
+                        <p>Filtros simplificados foram adicionados à configuração da coluna de entrada para permitir que você defina a coluna de entrada mais rapidamente. Os filtros disponíveis são projetos Workfront e atribuições por equipe ou usuário. Você pode alternar para os filtros avançados, se preferir.</p>
+                    </td>
+                    <td><p><b>Disponível nestas datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de visualização: 10 de maio de 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Versão de produção para participação inicial: 10 de maio de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na produção somente por meio da aceitação antecipada de recursos para as placas Workfront.</span></p>
+                                <p>Versão de produção para todos os clientes: Com a versão 23.3</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Filtros simples adicionados ao modelo dinâmico de quadro</a></p>
                         <p>Os filtros no modelo de quadro dinâmico foram simplificados para permitir que você crie um quadro mais rapidamente.</p>
@@ -186,6 +203,38 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Mapear valores de campo do Workfront para tags no Experience Manager Assets</a><span style="color: #ff0000;"> Novo em produção!</span></p>
+                        <p>Agora, você pode categorizar e encontrar rapidamente ativos com base em dados do Workfront. Você pode mapear esses dados como parte de sua configuração de metadados no Workfront para integração com o Experience Manager Assets.</p>
+                    </td>
+                    <td><p><b>Disponível nestas datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de visualização: 10 de maio de 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versão de produção: 10 de maio de 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Mapear campos do Workfront para campos de metadados personalizados do Experience Manager Assets</a><span style="color: #ff0000;"> Novo em produção!</span></p>
+                        <p>Com a integração nativa, agora é possível mapear campos do Workfront nativos e incorporados para campos de esquema de metadados personalizados no Experience Manager Assets as a Cloud Service.</p>
+                    </td>
+                    <td><p><b>Disponível nestas datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de visualização: 10 de maio de 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versão de produção: 10 de maio de 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Ajustar configurações de modelo de fluxo de trabalho de prova automatizada usando o Adobe Workfront for Creative Cloud</a></p>
@@ -285,7 +334,7 @@ Não há atualizações do Scenario Planner neste momento na versão. Essa área
 
 ### Melhorias na prova do Workfront
 
-Não há atualizações da Workfront Proof neste ponto da versão. Essa área será atualizada quando houver atualizações disponíveis.
+Novos recursos que vêm para a versão Workfront Proof no período da versão 23.3. Para obter informações sobre esses novos recursos agora disponíveis em Visualização, consulte [Adobe Workfront Proof com a versão 23.3](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md).
 
 ### Aprimoramentos das metas da Workfront
 
