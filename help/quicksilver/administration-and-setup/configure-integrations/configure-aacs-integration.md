@@ -5,9 +5,9 @@ title: Integrações do Adobe Experience Manager Assets
 description: Você pode conectar seu trabalho com as seguintes Integrações de ativos da Adobe Experience Manager.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
+source-git-commit: 96f4d2b65aa630e86fdd4ee28b460069c5fd4987
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '1347'
 ht-degree: 0%
 
 ---
@@ -101,21 +101,76 @@ Você pode mapear [!DNL Workfront] dados de objeto para campos de mídia de ativ
 >
 >Você pode mapear metadados somente em uma direção: from [!DNL Workfront] para [!DNL Experience Manager]. Metadados para documentos vinculados a [!DNL Workfront] from [!DNL Experience Manager] não pode ser transferido para [!DNL Workfront].
 
-
-
 ### Configurar campos de metadados
 
+Antes de começar a mapear campos de metadados, você deve configurar campos de metadados no Workfront e no Experience Manager Assets.
+
+Para configurar campos de metadados:
+
 1. Configurar um esquema de metadados em [!DNL Experience Manager Assets] como explicado em [Configurar o mapeamento de metadados de ativos entre o Adobe [!DNL Workfront] e [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
+
 1. Configure campos de formulário personalizados no Workfront. [!DNL Workfront] O tem muitos campos personalizados incorporados que podem ser usados. No entanto, também é possível criar seus próprios campos personalizados, conforme explicado em [Criar ou editar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
++++ **Expanda para ver mais informações sobre campos do Workfront e Experience Manager Assets compatíveis**
 
-### Ativos
+**Tags do Experience Manager Assets**
+
+Você pode mapear qualquer campo suportado pelo Workfront para uma tag no Experience Manager Assets. Para fazer isso, você deve garantir que os valores de tag no Experience Manager Assets correspondam ao Workfront.
+
+* Os valores dos campos Tags e Workfront devem ser uma correspondência exata na ortografia e no formato.
+* Os valores do campo Workfront que são mapeados para as tags de ativos do Experience Manager devem estar em letras minúsculas, mesmo que a tag no Experience Manager Assets pareça ter letras maiúsculas.
+* Os valores do campo Workfront não devem incluir espaços.
+* O valor do campo no Workfront também deve incluir a estrutura de pasta da tag Experience Manager Assets .
+* Para mapear vários campos de texto de linha única para tags, insira uma lista separada por vírgulas dos valores da tag no lado Workfront do mapeamento de metadados, e `xcm:keywords` no lado do Experience Manager Assets. Cada valor de campo mapeia para uma tag separada. Você pode usar um campo calculado para combinar vários campos Workfront em um único campo de texto separado por vírgulas.
+* Você pode mapear valores de campos suspensos, de botões de opção ou de caixas de seleção inserindo uma lista separada por vírgulas dos valores disponíveis nesse campo.
+
+
+>[!INFO]
+>
+>**Exemplo**: Para corresponder a tag mostrada na estrutura de pastas aqui, o valor do campo no Workfront seria `landscapes:trees/spruce`. Observe as letras minúsculas no valor do campo Workfront .
+>
+>Se desejar que a tag seja o item mais à esquerda na árvore de tags, ela deve ser seguida de dois pontos. Neste exemplo, para mapear para a tag landscapes , o valor do campo no Workfront seria `landscapes:`.
+>
+>![Estrutura de pastas em AEM](assets/aem-folder-structure-with-red-boxes.png)
+
+
+Após criar as tags no Experience Manager Assets, elas serão exibidas no menu suspenso Tags da seção Metadados . Para vincular um campo a uma tag, selecione `xcm:keywords` na lista suspensa do campo Experience Manager Assets na área de mapeamento de metadados.
+
+Para obter mais informações sobre tags no Experience Manager Assets, incluindo como criar e gerenciar tags, consulte [Administração de tags](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html).
+
+**Campos de esquema de metadados personalizados do Experience Manager Assets**
+
+Você pode mapear campos Workfront incorporados e personalizados para campos de esquema de metadados personalizados no Experience Manager Assets.
+
+Os campos de metadados personalizados criados no Experience Manager Assets são organizados em sua própria seção na área Configuração de metadados .
+
+![seção de metadados personalizados](assets/custom-metadata.png)
+
+<!-- 
+link to documentation about creating schema - waiting on response from Anuj about best article to link to
+-->
+
+**Campos Workfront**
+
+Você pode mapear campos integrados e personalizados do Workfront para o Experience Manager Assets. Os seguintes valores de campo devem corresponder em letras maiúsculas e minúsculas e entre o Workfront e o Experience Manager Assets:
+
+* Campos suspensos
+* Seleção múltipla de campos
+
+>[!TIP]
+>
+> Para verificar se os valores de campo correspondem exatamente, acesse
+>
+> * Configuração > Forms personalizado no Workfront ou no campo no objeto
+> * Ativos > esquemas de metadados no Experience Manager Assets
+
+
++++
+
+### Mapear metadados para ativos
 
 Os metadados mapeiam quando um ativo é enviado de [!DNL Workfront] pela primeira vez. Documentos com os campos incorporados ou personalizados são mapeados automaticamente para os campos especificados na primeira vez que um ativo é enviado para [!DNL Experience Manager Assets].
-
->[!NOTE]
->
->Essa integração não oferece suporte a metadados personalizados do [!DNL Adobe Experience Manager].
 
 Para mapear metadados para ativos:
 
@@ -125,13 +180,15 @@ Para mapear metadados para ativos:
    >[!NOTE]
    >
    >Você pode mapear um único [!DNL Workfront] campo para vários [!UICONTROL Experience Manager Assets] campos. Não é possível mapear vários [!DNL Workfront] campos para um único [!DNL Experience Manager Assets] campo.
+   ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
+
 
 1. No [!DNL Experience Manager Assets] , pesquise pelas categorias pré-preenchidas ou insira pelo menos duas letras no campo de pesquisa para acessar categorias adicionais.
 1. Repita as etapas 2 e 3 conforme necessário.
    ![campos de metadados](assets/asset-metadata.png)
 1. Clique em [!UICONTROL Salvar] ou vá para a [Pastas](#folders) neste artigo.
 
-### Pastas
+### Mapear metadados para pastas
 
 Quando os usuários criam uma pasta vinculada em um projeto, os dados associados do projeto, do portfólio e do programa são mapeados para os campos de metadados da pasta em [!DNL Experience Manager Assets].
 
