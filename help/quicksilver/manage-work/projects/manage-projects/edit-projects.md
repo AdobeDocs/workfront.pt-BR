@@ -6,16 +6,16 @@ description: Você pode editar um projeto no Adobe Workfront sempre que necessá
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
 workflow-type: tm+mt
-source-wordcount: '7310'
+source-wordcount: '7344'
 ht-degree: 2%
 
 ---
 
 # Editar projetos
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Ele está disponível para todos os clientes no ambiente de Visualização e para um grupo selecionado de clientes no ambiente de Produção.</span>
 
 <!--
 <p>***Linked to many articles,</p>
@@ -467,7 +467,7 @@ Para editar campos na área de finanças:
        </ul></p> </td> 
        </tr> 
        <tr> 
-       <td role="rowheader"><strong>Cronograma</strong> </td> 
+       <td role="rowheader"><strong>Agendar</strong> </td> 
        <td> <p>Selecione um agendamento para o seu projeto. Esse deve ser o mesmo agendamento atribuído à maioria das pessoas que estão trabalhando no projeto. Você deve criar um agendamento antes de atribuí-lo a um projeto ou usuário. Se você não tiver criado agendamentos personalizados em seu sistema, a Programação Padrão será selecionada.</p> <p>Para obter mais informações sobre como criar programações, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Criar um agendamento</a>. </p> </td> 
        </tr> 
        <tr> 
@@ -690,6 +690,8 @@ Os seguintes campos são incluídos no cabeçalho do projeto, por padrão.
 * Status
 * Tome decisões de aprovação se você estiver definido como aprovador em um processo de aprovação atual
 
+<div class="preview">
+
 ## Editar projetos em massa
 
 É possível editar projetos em massa e atualizar informações de todos os projetos selecionados ao mesmo tempo.
@@ -793,7 +795,7 @@ Para obter mais informações sobre como editar a área de acesso, consulte a se
 1. (Opcional) Clique em **Cancelar** na parte inferior do **Editar projetos** para remover todas as alterações feitas em todos os projetos.
 1. Clique em **Salvar**.
 
-
+</div>
 
 <!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
 

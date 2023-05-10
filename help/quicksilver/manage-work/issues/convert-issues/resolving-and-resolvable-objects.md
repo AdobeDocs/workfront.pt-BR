@@ -7,7 +7,7 @@ description: Um Objeto Resolvível é um problema cuja resolução está vincula
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: cd0adf2bd44a5c9f093e005b5af54b54ad019e34
+source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
 workflow-type: tm+mt
 source-wordcount: '1732'
 ht-degree: 1%
@@ -141,7 +141,7 @@ Os seguintes status padrão para tarefas acionam as seguintes alterações nos s
 | Em andamento | Em andamento |
 | Completo | Fechado |
 
-Os seguintes status padrão para projetos acionam as seguintes alterações nos status padrão para problemas, quando o problema é definido como um Objeto Resolvível de um projeto. Alguns status do projeto não acionam alterações no status dos problemas. Os problemas permanecem no status em que estavam antes de o projeto ser transformado em um desses status:
+Os seguintes status padrão para projetos acionam as seguintes alterações nos status padrão para problemas, quando o problema é definido como um Objeto Resolvível de um projeto. Alguns status do projeto não acionam alterações no status dos problemas. Os problemas permanecem no status em que estavam antes que o projeto fosse transformado em um desses status:
 
 | **STATUS DO PROJETO** | **STATUS DO PROBLEMA** |
 |---|---|
@@ -169,7 +169,7 @@ Quando você altera o status da tarefa ou do projeto para um status personalizad
 
 Você pode criar status personalizados com a mesma chave para problemas e projetos ou tarefas. Quando o projeto ou a tarefa (como um Objeto de Resolução) é alterado para o status personalizado, a alteração também reflete sobre o status do problema. A chave de status deve ser a mesma para o problema e os status do projeto ou da tarefa.
 
-Por exemplo, crie um status personalizado de projeto chamado &quot;Lançado&quot; com o código de três letras &quot;LCD&quot; que equivale a &quot;Atual&quot;. Além disso, crie um status personalizado de problema chamado &quot;Projeto iniciado&quot;, também com a letra &quot;LCD&quot; que equivale a &quot;Em andamento&quot;. Ao marcar o projeto como &quot;Iniciado&quot;, o problema alterará automaticamente o status para &quot;Projeto iniciado&quot;. Se a configuração &quot;Automatically****set issue statuses to match the resolver object using the Status keys&quot; não estivesse ativada, o status da ocorrência seria alterado para &quot;In Progress&quot; (o status padrão).
+Por exemplo, crie um status personalizado de projeto chamado &quot;Lançado&quot; com o código de três letras &quot;LCD&quot; que equivale a &quot;Atual&quot;. Além disso, crie um status personalizado de problema chamado &quot;Projeto iniciado&quot;, também com a letra &quot;LCD&quot; que equivale a &quot;Em andamento&quot;. Ao marcar o projeto como &quot;Iniciado&quot;, o problema alterará automaticamente o status para &quot;Projeto iniciado&quot;. Se a configuração &quot;Atualizar automaticamente o status do problema resolvível quando o status do objeto de resolução for alterado&quot; não estiver ativada, o status do problema será alterado para &quot;Em andamento&quot; (o status padrão).
 
 Para obter mais informações sobre como criar um status personalizado, consulte [Criar ou editar um status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
