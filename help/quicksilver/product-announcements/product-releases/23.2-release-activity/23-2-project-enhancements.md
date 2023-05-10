@@ -4,7 +4,8 @@ description: 23.2 Melhorias do projeto
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: c4cb27085ddc3bea86081ddd14a88640d0ed5f90
+exl-id: 02eb390b-b733-4080-86cb-ed28c99cf2b4
+source-git-commit: da05e02c51627cd732517dbce729bf28e65db63b
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -21,7 +22,7 @@ Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo 
 
 >[!NOTE]
 >
->A partir de 23 de março, a produção será lançada em fases, que serão concluídas em 11 de maio de 2023.
+>A partir de 23 de março, a produção será lançada em um lançamento em fases que será concluído após 11 de maio de 2023.
 
 Como parte da atualização da aparência da experiência do Workfront, reprojetamos a caixa Editar projetos , ao editar vários projetos ao mesmo tempo, em massa. Você pode acessar a nova caixa Editar projetos ao selecionar vários projetos ao mesmo tempo em uma lista de projetos.
 

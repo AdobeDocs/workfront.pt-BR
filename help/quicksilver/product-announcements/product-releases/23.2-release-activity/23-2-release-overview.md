@@ -5,7 +5,7 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: 9965ec9f436724e438fbbc5977f22761cc673878
+source-git-commit: da05e02c51627cd732517dbce729bf28e65db63b
 workflow-type: tm+mt
 source-wordcount: '2730'
 ht-degree: 0%
@@ -347,7 +347,7 @@ Em vez de um webinário de versão, convidamos você para se registrar no Adobe 
                                 <p>Versão de visualização: 9 de março de 2023<br /></p>
                             </li>
                             <li>
-                                 <p><span class="preview">Versão de produção: A partir de 23 de março, a produção será lançada em fases, que serão concluídas em 11 de maio de 2023</span></p>
+                                 <p><span class="preview">Versão de produção: A partir de 23 de março, a produção será lançada em um lançamento em fases que será concluído após 11 de maio de 2023</span></p>
                             </li>
                         </ul>
                     </td>
