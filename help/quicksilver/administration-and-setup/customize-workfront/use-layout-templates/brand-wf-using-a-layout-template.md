@@ -8,14 +8,20 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront de marca usando um modelo de layout
+
+>[!IMPORTANT]
+>
+>O procedimento descrito nesta página se aplica somente às organizações que ainda não estão integradas ao [!DNL Adobe Experience Cloud].
+>
+> Se sua organização tiver sido integrada ao [!DNL Adobe Experience Cloud], a marca não está disponível.
 
 Você pode usar um modelo de layout para personalizar os logotipos na área de navegação superior e no Menu principal para determinados grupos, equipes, funções de trabalho e usuários. Isso é especialmente útil para grupos em uma grande organização que têm sua própria marca.
 
@@ -23,7 +29,7 @@ Para obter informações sobre modelos de layout para grupos, consulte [Criar e 
 
 >[!NOTE]
 >
->Um administrador do Workfront pode fazer as mesmas personalizações de marca para toda a organização no nível do sistema, conforme explicado em [Marca sua instância do Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Mas a marca em um modelo de layout substitui a marca no nível do sistema. >
+>Um administrador do Workfront pode fazer as mesmas personalizações de marca para toda a organização no nível do sistema, conforme explicado em [Marca sua instância do Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Mas a marca em um modelo de layout substitui a marca no nível do sistema.
 ><!--
 >Maybe add a section about deleting these 2 settings to revert to default branding?
 >-->

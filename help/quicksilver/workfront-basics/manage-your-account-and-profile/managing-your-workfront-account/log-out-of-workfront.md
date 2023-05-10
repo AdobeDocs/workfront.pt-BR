@@ -3,13 +3,13 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Fazer logoff de [!DNL Adobe Workfront]
 description: Por motivos de segurança, é importante fazer logoff do [!DNL Adobe Workfront] regularmente. Por padrão, [!DNL Workfront] faz logout automático dos usuários após 8 horas de inatividade.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: 0dd5577fc937a98900fab17fb434b70e023385af
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 1%
+source-wordcount: '212'
+ht-degree: 0%
 
 ---
 
@@ -26,6 +26,12 @@ Por motivos de segurança, é importante fazer logoff do [!DNL Adobe Workfront] 
 >TEMPORARY note! Remove and update how this works after IMS takes over. There's another note like this in Manage Workfront/Security/configure-security-preferences.html>
 ></MadCap:conditionalText>
 -->
+
+>[!IMPORTANT]
+>
+>O procedimento descrito nesta página se aplica somente às organizações que ainda não estão integradas ao [!DNL Adobe Experience Cloud].
+>
+> Se sua organização tiver sido integrada ao [!DNL Adobe Experience Cloud], você fará logoff clicando na imagem do seu perfil na navegação superior e selecionando [!UICONTROL **Fazer logoff**] no menu . Para obter mais informações, consulte [[!DNL Adobe Unified Experience] para [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ## Requisitos de acesso
 

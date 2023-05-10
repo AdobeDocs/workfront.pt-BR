@@ -3,11 +3,11 @@ content-type: overview
 title: Visão geral da barra de navegação superior
 description: A barra de navegação superior, que aparece na parte superior da tela no novo [!DNL Adobe Workfront] experiência — permite localizar e navegar facilmente para outras áreas da plataforma.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: d8ca244e430f8a0e96b201bf09eba8b83b774a57
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ A barra de navegação superior, que aparece na parte superior da tela em [!DNL 
 ## [!UICONTROL Ícone do Início]
 
 O **[!UICONTROL Início]** ícone ![](assets/home-icon.png) leva você ao [!UICONTROL Início] página, que é a página de aterrissagem padrão. Para saber mais sobre o Início, consulte [Use o [!UICONTROL Início] area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-
-Um [!DNL Adobe Workfront] o administrador pode personalizar o [!UICONTROL Início] ícone para corresponder à marca da sua empresa. Para obter mais informações, consulte [Marca seu [!DNL Adobe Workfront] instância](../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ## Páginas fixadas
 
@@ -59,6 +57,12 @@ O **[!UICONTROL Pesquisar]** ícone ![](assets/search-icon.png) no canto superio
 Para saber mais sobre pesquisa, consulte [Pesquisar [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
 ## [!UICONTROL Menu principal]
+
+>[!IMPORTANT]
+>
+>O Menu Principal descrito nesta página aplica-se apenas a organizações que ainda não estão integradas ao [!DNL Adobe Experience Cloud].
+>
+> Se sua organização tiver sido integrada ao [!DNL Adobe Experience Cloud], consulte [[!DNL Adobe Unified Experience] para [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 O **[!UICONTROL Menu principal]** ícone ![Menu principal](assets/main-menu-icon.png) abre o [!UICONTROL Menu principal], que permite navegar para uma área diferente do Workfront.
 
