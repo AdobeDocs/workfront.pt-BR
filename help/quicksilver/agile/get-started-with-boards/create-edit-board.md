@@ -6,9 +6,9 @@ description: No [!UICONTROL quadros] no painel, você pode criar um novo quadro 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '736'
 ht-degree: 3%
 
 ---
@@ -62,6 +62,12 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
       Todos os objetos aparecem no quadro como placas conectadas.
 
       O [!UICONTROL **Cartões adicionados**] mostra quantos cartões estarão no quadro. Por exemplo, se você selecionar um projeto com 100 tarefas e problemas, o contador exibirá 100. Se você adicionar uma atribuição de usuário e essa pessoa for atribuída a 5 tarefas no projeto, o contador mostrará 5.
+
+   1. (Opcional) Selecione [!UICONTROL **Incluir trabalho concluído**] para incluir cartões preenchidos no quadro.
+
+      >[!NOTE]
+      >
+      >Se essa opção não estiver selecionada, quando cartões em outros status forem marcados como concluídos, eles &quot;desistirão&quot; do quadro e não serão mais exibidos.
 
    1. (Opcional) Clique em [!UICONTROL **Usar filtros avançados**] para exibir opções de filtro adicionais.
 

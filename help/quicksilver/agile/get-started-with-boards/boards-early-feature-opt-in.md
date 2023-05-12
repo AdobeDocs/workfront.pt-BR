@@ -6,9 +6,9 @@ title: Opt-in do recurso anterior para [!DNL Adobe Workfront] Quadros
 description: Leia este artigo para saber mais sobre o [!DNL Workfront Boards] opt-in de recurso antecipado.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: f77a44a31e57ad8430b162b1c5e6ef355b5fe74d
+source-git-commit: 9278d70e5a44b0dbd26dec705f51d132792418ed
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,7 @@ A tabela a seguir descreve os principais recursos das placas, juntamente com seu
   </tr>
   <tr>
    <td>Usar filtros simplificados na coluna de entrada</td>
-   <td>Planejado</td>
+   <td>Parcialmente liberado</td>
   </tr>
  </tbody> 
 </table>

@@ -7,9 +7,9 @@ description: Opcionalmente, é possível adicionar uma coluna de entrada ao quad
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 81d68656c5dc4811884cde53193139856f290f4d
+source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,11 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
 &#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
 
-## Criar uma coluna de entrada
+## Criar uma coluna de entrada usando filtros simples
+
+>[!NOTE]
+>
+>Filtros simples só estão disponíveis por meio da aceitação antecipada de recursos para as placas Adobe Workfront.
 
 1. Clique no botão **[!UICONTROL Menu principal]** ícone ![Menu principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, em seguida, clique em **[!UICONTROL Quadros]**.
 1. Acesse um quadro. Para obter mais informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
@@ -57,11 +61,38 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 1. Expandir **[!UICONTROL Placa]**.
 1. Ligar **[!UICONTROL Incorporar dinamicamente itens ao quadro]**.
 
-   ![Criar coluna de entrada](assets/create-intake-column2.png)
+   ![Opções de filtro simples da coluna de entrada](assets/intake-column-simple-filters.png)
 
    A coluna de entrada é adicionada à esquerda do quadro. Permanece em branco até que você aplique filtros a ele.
 
+1. (Opcional) Procure e selecione [!DNL Workfront] [!UICONTROL **Projetos**].
+1. (Opcional) Pesquise e selecione usuário ou equipe [!UICONTROL **Atribuições**].
+1. Selecionar [!UICONTROL **Incluir trabalho concluído**] para exibir tarefas e problemas com um status Concluído na coluna de entrada.
+
+   >[!NOTE]
+   >
+   >Se essa opção não estiver selecionada, quando cartões em outros status forem marcados como concluídos, eles &quot;desistirão&quot; do quadro e não serão mais exibidos.
+
+1. Clique em [!UICONTROL **Aplicar**].
+
+   Todos os objetos aparecem na coluna de entrada da placa como placas conectadas.
+
+   ![Coluna de entrada](assets/intake-column-added3.png)
+
+## Criar uma coluna de entrada usando filtros avançados
+
+1. Clique no botão **[!UICONTROL Menu principal]** ícone ![Menu principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, em seguida, clique em **[!UICONTROL Quadros]**.
+1. Acesse um quadro. Para obter mais informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
+1. Clique em **[!UICONTROL Configurar]** à direita do quadro para abrir o painel Configurar .
+1. Expandir **[!UICONTROL Placa]**.
+1. Ligar **[!UICONTROL Incorporar dinamicamente itens ao quadro]**.
+
+   A coluna de entrada é adicionada à esquerda do quadro. Permanece em branco até que você aplique filtros a ele.
+
+1. Clique em [!UICONTROL **Usar filtros avançados**].
 1. Clique em **[!UICONTROL Filtrar fontes]** e selecione **[!UICONTROL Tarefas]** ou **[!UICONTROL Problemas]**.
+
+   ![Opções de filtro avançado da coluna de entrada](assets/intake-column-advanced-filters1.png)
 
    >[!NOTE]
    >
@@ -97,15 +128,18 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
    ![Coluna de entrada](assets/intake-column-added3.png)
 
-   Os cartões na coluna de entrada não são editáveis até que você os mova para outras colunas da placa. Você pode clicar no cartão para abri-lo em uma visualização somente leitura ou clicar em ![Abrir tarefa ou problema](assets/boards-launch-icon.png) para abrir a tarefa ou o problema em uma nova guia do navegador.
-
-   Você pode reordenar manualmente os itens na coluna de entrada.
-
-   Os ícones na parte superior direita da coluna de entrada mostram quantos cartões estão atualmente na coluna e quantos filtros são aplicados.
-
    >[!NOTE]
    >
    >Você pode atualizar os filtros a qualquer momento abrindo o painel Configurar , clicando em **[!UICONTROL Filtrar fontes]** e selecionando **[!UICONTROL Tarefas]** ou **[!UICONTROL Problemas]**.
+
+## Usar a coluna de entrada
+
+Os cartões na coluna de entrada não são editáveis até que você os mova para outras colunas da placa. Você pode clicar no cartão para abri-lo em uma visualização somente leitura ou clicar em ![Abrir tarefa ou problema](assets/boards-launch-icon.png) para abrir a tarefa ou o problema em uma nova guia do navegador.
+
+
+Você pode reordenar manualmente os itens na coluna de entrada.
+
+Os ícones na parte superior direita da coluna de entrada mostram quantos cartões estão atualmente na coluna e quantos filtros são aplicados.
 
 1. (Opcional) Para procurar um item na coluna de entrada, clique em ![Ícone de Pesquisa](assets/search-icon.png) na coluna .
 1. (Opcional) Para mover um cartão da coluna de entrada para outra coluna, arraste e solte o cartão na posição que deseja que ele apareça.
