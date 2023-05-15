@@ -6,9 +6,9 @@ description: Você pode adicionar documentos a projetos, tarefas ou problemas na
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: c4ec9363bdcf683b4b56eedee17ebf4388e6cee2
+source-git-commit: fe9f1da23f1196dac468ec33aae776950ce49f2c
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '727'
 ht-degree: 1%
 
 ---
@@ -111,8 +111,13 @@ O site do Workfront impede que vírus e outros conteúdos mal-intencionados entr
 
 ### Como o Workfront detecta arquivos corrompidos {#how-workfront-detects-corrupted-files}
 
-O Workfront verifica vírus quando um documento é carregado. Se você tentar carregar um documento corrompido, o Workfront descontinuará o processo de upload e uma mensagem será exibida indicando que o arquivo está corrompido. Você também recebe uma notificação por email quando o Workfront detecta conteúdo potencialmente mal-intencionado e o arquivo está marcado para remoção.\
-Todos os arquivos corrompidos são removidos em 24 horas após a detecção, a menos que você os remova manualmente. Se você excluir um arquivo corrompido, o Workfront rastreia essa ação como uma atualização. Se você permitir que o Workfront o remova, nenhuma atualização será registrada.
+A digitalização de documentos é ativada para sua organização somente mediante solicitação.
+
+Se a digitalização de documentos estiver ativada, os arquivos com menos de 25 MB serão digitalizados quando forem carregados. Arquivos com mais de 25 MB não são digitalizados.
+
+Se o Workfront detectar um documento corrompido, o Workfront descontinuará o processo de upload e será exibida uma mensagem indicando que o arquivo está corrompido. Você também recebe uma notificação por email quando o Workfront detecta conteúdo potencialmente mal-intencionado e o arquivo está marcado para remoção.
+
+Arquivos corrompidos são removidos em 24 horas após a detecção, a menos que você o remova manualmente. Se você excluir um arquivo corrompido, o Workfront rastreia essa ação como uma atualização. Se você permitir que o Workfront o remova, nenhuma atualização será registrada.
 
 ### Restrições de nome de arquivo {#file-name-restrictions}
 
