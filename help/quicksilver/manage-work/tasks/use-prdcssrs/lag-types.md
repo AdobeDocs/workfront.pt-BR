@@ -7,9 +7,9 @@ description: Atraso é a quantidade de tempo que deve decorrer após a conclusã
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: ad6ade3ff700f1e73c05dfc59aa0108a5d113f2e
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1502'
 ht-degree: 0%
 
 ---
@@ -164,7 +164,9 @@ A tabela a seguir ilustra os Tipos de atraso e como indicar a quantidade de temp
   </tr> 
   <tr> 
    <td> <p>Porcentagem (p ou pe)</p> </td> 
-   <td> <p>O atraso é expresso como uma porcentagem do tempo estimado para concluir a tarefa antecessora. </p> <p>Por exemplo, se houver uma dependência de finalização com atraso de 20% entre uma tarefa de antecessor de 10 dias, o sistema calculará quantos dias são 20% da duração da tarefa antecessores e usará isso como atraso. Nesse caso, seriam 2 dias após a conclusão da tarefa. </p> <p>Observação: O limite máximo de atraso para porcentagem é de 2000%.</p> </td> 
+   <td> <p>O atraso é expresso como uma porcentagem do tempo estimado para concluir a tarefa antecessora. </p> <p>Por exemplo, se houver uma dependência de início com atraso de 20% em uma tarefa antecessora de 10 dias, o sistema calculará quantos dias representam 20% da duração da tarefa antecessores e usará isso como atraso. Nesse caso, seriam 2 dias após a conclusão da tarefa. </p>
+
+<p><b>Nota</b></p> O limite máximo de atraso para porcentagem é de 2000%.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dia da semana (w) </p> </td> 
@@ -177,7 +179,17 @@ A tabela a seguir ilustra os Tipos de atraso e como indicar a quantidade de temp
      <li>Quinta-feira=5</li> 
      <li>Sexta=6</li> 
      <li>Sábado=7</li> 
-    </ul> <p>Se você quiser indicar que a Data Inicial Planejada do sucessor deve cair em uma terça-feira da semana atual e que a terça-feira é anterior à Data de Conclusão Planejada do antecessor, você codificaria seu sucessor com a seguinte fórmula: </p> <p><code style="font-style: normal;">4fs-3w</code> </p> <p>Observação: Se a terça-feira tiver passado pela semana da Data de Conclusão Planejada do antecessor, a Data Inicial Planejada da tarefa sucessora será o primeiro dia útil disponível dessa semana. </p> <p>Se você quiser indicar que o atraso deve ocorrer em um sábado da semana atual e que o sábado é posterior à Data de conclusão planejada do antecessor, você codificaria seu sucessor com a seguinte fórmula:</p> <p><code style="font-style: normal;">4fs+7w</code> </p> <p>Se sábado for um dia inútil, o próximo dia disponível depois de sábado (para indicar atraso positivo) é selecionado como a Data inicial planejada do sucessor. </p> <p>Para indicar semanas passadas ou futuras, é possível adicionar um número na frente do número do dia para o tipo de atraso. </p> <p>Por exemplo, para indicar a segunda-feira de 10 semanas atrás, você pode usar esse código para indicar o antecessor do seu sucessor:</p> <p><code>4fs-102w</code> </p> <p>10 indica 10 semanas atrás e 2 é o número atribuído a Segunda-feira. </p> </td> 
+    </ul> <p>Se você quiser indicar que a Data Inicial Planejada do sucessor deve cair em uma terça-feira da semana atual e que a terça-feira é anterior à Data de Conclusão Planejada do antecessor, você codificaria seu sucessor com a seguinte fórmula: </p> <p><code style="font-style: normal;">4fs-3w</code> </p>
+
+<p><b>Nota</b></p>
+
+Se a terça-feira tiver passado pela semana da Data de Conclusão Planejada do antecessor, a Data Inicial Planejada da tarefa sucessora será o primeiro dia útil disponível dessa semana. </p> <p>Se você quiser indicar que o atraso deve ocorrer em um sábado da semana atual e que o sábado é posterior à Data de conclusão planejada do antecessor, você codificaria seu sucessor com a seguinte fórmula:</p> <p>4fs+7w</code> </p> <p>Se sábado for um dia inútil, o próximo dia disponível depois de sábado (para indicar atraso positivo) é selecionado como a Data inicial planejada do sucessor. </p>
+
+<p>Isso não se aplica às exceções de programação. No caso de uma data também ser uma exceção de programação e a Data inicial do sucessor ser calculada para ser esse dia, o sistema tenta encontrar a data disponível mais próxima, que é o dia da semana especificado na expressão do antecessor.</p>
+
+<p>Por exemplo, se a Data de início for calculada para ser uma determinada terça-feira e esse dia for uma exceção de programação e o atraso do antecessor for positivo, ele escolherá a terça-feira seguinte (se também for um dia útil) como a Data de início do sucessor. Se o atraso for negativo, o sistema escolhe a terça-feira anterior como a Data inicial.</p>
+
+<p>Para indicar semanas passadas ou futuras, é possível adicionar um número na frente do número do dia para o tipo de atraso. </p> <p>Por exemplo, para indicar a segunda-feira de 10 semanas atrás, você pode usar esse código para indicar o antecessor do seu sucessor:</p> <p><code>4fs-102w</code> </p> <p>10 indica 10 semanas atrás e 2 é o número atribuído a Segunda-feira. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dia da semana Não zero (k)</p> </td> 

@@ -7,9 +7,9 @@ description: Depois de criar um modelo, você pode editar informações sobre as
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: ad6ade3ff700f1e73c05dfc59aa0108a5d113f2e
 workflow-type: tm+mt
-source-wordcount: '2470'
+source-wordcount: '2503'
 ht-degree: 6%
 
 ---
@@ -152,7 +152,7 @@ Antes de começar, você deve
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Horas planejadas</strong> </td> 
-      <td> <p>Especifique a quantidade de Horas Planejadas para a tarefa futura no projeto criado com este modelo. Essa é a quantidade de tempo real que os destinatários da tarefa precisariam para concluí-la. Você só pode especificar a quantidade de Horas Planejadas para uma tarefa quando a variável<strong>Tipo de duração</strong> está definida como <strong>Atribuição calculada</strong>. </p> </td> 
+      <td> <p>Especifique o número de Horas Planejadas para a tarefa futura no projeto criado com este modelo. Essa é a quantidade de tempo real que os destinatários da tarefa precisariam para concluí-la. Você só pode especificar o número de Horas Planejadas para uma tarefa quando a variável<strong>Tipo de duração</strong> está definida como <strong>Atribuição calculada</strong>. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Esforço do trabalho </td> 
@@ -276,6 +276,14 @@ Antes de começar, você deve
     <col> 
     <col> 
     <tbody> 
+   <tr> 
+      <td role="rowheader"><strong><p>Etapa</p></strong> </td> 
+      <td> <p>Escolha um marco para associar à tarefa de modelo selecionada.</p>
+
+   <p><b>IMPORTANTE</b></p>
+   <p>Você deve associar um caminho de marco a um modelo para que esse campo seja exibido. Para obter mais informações, consulte <a href="../create-and-manage-templates/edit-templates.md">Editar modelos de projeto</a>.</p> 
+   </td> 
+     </tr>
      <tr> 
       <td role="rowheader"><strong>Modo de Acompanhamento</strong> </td> 
       <td> <p>Especifique como o status do progresso da tarefa futura será acompanhado. </p> <p>Selecione dentre as seguintes opções:</p> 
@@ -348,7 +356,7 @@ Antes de começar, você deve
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
-1. Selecione o(s) formulário(s) personalizado(s) que deseja associar à tarefa modelo. Você deve criar os formulários personalizados antes que eles estejam disponíveis para seleção neste campo. Somente os formulários personalizados ativos são exibidos na lista. Para obter mais informações sobre como criar formulários personalizados, consulte [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).Você pode adicionar até dez formulários personalizados a uma tarefa de modelo. Os formulários são adicionados automaticamente às tarefas criadas a partir do modelo.
+1. Selecione o(s) formulário(s) personalizado(s) que deseja associar à tarefa modelo. Você deve criar os formulários personalizados antes que eles estejam disponíveis para seleção neste campo. Somente os formulários personalizados ativos são exibidos na lista. Para obter mais informações sobre como criar formulários personalizados, consulte [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). É possível adicionar até dez formulários personalizados a uma tarefa de modelo. Os formulários são adicionados automaticamente às tarefas criadas a partir do modelo.
 1. (Condicional e opcional) Se um formulário personalizado foi anexado à tarefa do modelo, edite quaisquer campos no formulário. Você deve especificar todos os campos obrigatórios antes de poder salvar a tarefa do template.
 
    >[!NOTE]
