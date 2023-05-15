@@ -6,9 +6,9 @@ description: O Desktop Proofing Viewer, desenvolvido principalmente para verific
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: c3c19f1913d5bab233a0d218ba87c69dead82215
+source-git-commit: 0e8cc1e307dc82a4c1745d50de062024a5007da6
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -53,8 +53,8 @@ Se esse não for o caso, você poderá seguir as etapas abaixo.
 
 1. Siga um destes procedimentos para baixar o aplicativo:
 
-   * Se você estiver usando o ambiente de Produção, clique em  [Download de produção do Mac para o visualizador de prova de desktop.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.23.pkg)
-   * Se estiver usando o ambiente de Visualização, clique em  [Download da visualização do Mac para o visualizador de prova de desktop.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.23.pkg)
+   * Se você estiver usando o ambiente de Produção, clique em [Download de produção do Mac para o visualizador de prova de desktop.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.24.pkg)
+   * Se estiver usando o ambiente de Visualização, clique em [Download da visualização do Mac para o visualizador de prova de desktop.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.24.pkg)
 
 1. Abra o arquivo que acabou de baixar para iniciar a instalação.
 1. Na caixa de instalação exibida, clique em **Continuar**, depois clique em **Instalar**.
@@ -65,27 +65,28 @@ Se esse não for o caso, você poderá seguir as etapas abaixo.
 
 >[!NOTE]
 >
->Se o Desktop Proofing Viewer não for iniciado quando você abrir uma prova interativa, isso provavelmente significa que o administrador do Workfront ou do Workfront Proof precisa configurar o Desktop Proofing Viewer como o visualizador padrão para provas interativas, conforme descrito em .
+>Se o Desktop Proofing Viewer não for iniciado quando você abrir uma prova interativa, isso provavelmente significa que o administrador do Workfront ou Workfront Proof precisa configurar o Desktop Proofing Viewer como o visualizador padrão para provas interativas, conforme descrito em [Configuração do usuário para abrir provas não interativas no visualizador de prova de Desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
 
 ## Instale o Desktop Proofing Viewer no Windows
 
 Se o administrador do Workfront ou do Workfront Proof tiver baixado o aplicativo em sua estação de trabalho e configurado o Desktop Proofing Viewer como o visualizador padrão para provas interativas, você poderá concluir a instalação simplesmente abrindo uma prova interativa na área Documentos.
 
 >[!TIP]
-Você pode usar a linha de comando para instalar o Desktop Proofing Viewer executando `Workfront Proof Setup 2.1.20.exe" /S`
+>
+>Você pode usar a linha de comando para instalar o Desktop Proofing Viewer executando `Workfront Proof Setup 2.1.20.exe" /S`
 
 1. Siga um destes procedimentos para baixar o aplicativo:
 
-   * No ambiente Produção, clique em  [Download de produção do Windows para o Visualizador de Verificação de Verificação de Verificação de Verificação de Desktop.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.23.exe)
-   * No ambiente de Visualização, clique em  [Download da Visualização do Windows para o Visualizador de Verificação Linguística da Área de Trabalho](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.23.exe).
+   * No ambiente Produção, clique em [Download de produção do Windows para o Visualizador de Verificação de Verificação de Verificação de Verificação de Desktop.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.24.exe)
+   * No ambiente de Visualização, clique em [Download da Visualização do Windows para o Visualizador de Verificação Linguística da Área de Trabalho](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.24.exe).
 
 1. Abra o arquivo que acabou de baixar para iniciar a instalação.
 1. Na caixa de instalação exibida, abra o arquivo que acabou de baixar para iniciar a instalação.
 
    ![Screen_Shot_2018-05-02_at_10.56.55_AM.png](assets/screen-shot-2018-05-02-at-10.56.55-am-350x271.png)
 
-1. Na caixa de aviso de segurança que aparece, clique em **Executar.**O Desktop Proofing Viewer instala e executa automaticamente. 
+1. Na caixa de aviso de segurança exibida, clique em **Executar**. O Desktop Proofing Viewer instala e executa automaticamente.
 1. (Condicional) Se você instalar o aplicativo usando o Internet Explorer, atualize a página de inicialização no navegador após a instalação do aplicativo.
 1. Abra uma prova interativa na área Documents .
 
-Depois que o Desktop Proofing Viewer estiver instalado, todas as provas interativas serão abertas no Desktop Proofing Viewer. Se o Desktop Proofing Viewer não for iniciado quando você abrir uma prova interativa, isso provavelmente significa que o administrador do Workfront ou do Workfront Proof precisa configurar o Desktop Proofing Viewer como o visualizador padrão para provas interativas, conforme descrito em .
+Depois que o Desktop Proofing Viewer estiver instalado, todas as provas interativas serão abertas no Desktop Proofing Viewer. Se o Desktop Proofing Viewer não for iniciado quando você abrir uma prova interativa, isso provavelmente significa que o administrador do Workfront ou Workfront Proof precisa configurar o Desktop Proofing Viewer como o visualizador padrão para provas interativas, conforme descrito em [Configuração do usuário para abrir provas não interativas no visualizador de prova de Desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
