@@ -5,17 +5,17 @@ title: "Nova atividade de versão beta da experiência de comentário"
 description: Revise a atividade semanal da versão para ver a nova experiência em Beta de comentários do Adobe Workfront.
 author: Alina
 feature: Product Announcements
-source-git-commit: 3d34d3c6fe9b1d4d825de91b60359215f1afeec0
+source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 0%
+source-wordcount: '553'
+ht-degree: 9%
 
 ---
 
 
 # Nova atividade de versão da experiência beta de comentário
 
-As informações nesta página se referem à atividade de lançamento semanalmente da nova experiência beta de comentário. A página inclui novos recursos que são adicionados e problemas que são resolvidos para a nova experiência beta de comentário.
+As informações nesta página se referem à atividade de lançamento semanalmente dos recursos incluídos na nova experiência beta de comentários. A página lista novos recursos que são adicionados e problemas que são resolvidos para a nova experiência beta de comentário.
 
 Para obter informações gerais sobre a nova experiência beta de comentários, incluindo uma lista de recursos que estão disponíveis no momento ou em pesquisa, consulte [Nova experiência de comentário](../new-commenting-experience-beta/unified-commenting-experience.md).
 
@@ -23,11 +23,26 @@ Para obter informações gerais sobre a nova experiência beta de comentários, 
 >
 >A nova experiência de comentário lançada em Beta com a versão 23.2. Para obter informações sobre a versão original, consulte [Visão geral da versão 23.2](../../product-releases/23.2-release-activity/23-2-release-overview.md).
 >
->Os recursos de comentário que são lançados na experiência beta para objetos do Workfront também são lançados na seção Atualizações das Metas do Workfront .
+>Os recursos de comentários que são lançados para a experiência beta de objetos do Workfront também são lançados para a seção Atualizações de um objeto de meta nas Metas do Workfront.
 
 As seções a seguir listam os recursos que foram adicionados após a versão original, começando pelos lançados mais recentemente.
 
-## Semana de 2 de maio de 2023
+## Semana de 15 de maio de 2023
+
+### Experiência aprimorada ao adicionar hiperlinks aos comentários (título)
+
+Agora é possível adicionar hiperlinks aos comentários usando as seguintes teclas de atalho:
+
+* CTRL + V (CMD + V para Mac) cola um link sobre o texto selecionado
+* CTRL + K (CMD + K para Mac) abre a caixa Adicionar links .
+
+Antes desses aprimoramentos, você só podia adicionar hiperlinks clicando no ícone de link na barra de ferramentas Rich Text. Para obter mais informações, consulte [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+Visualizar: 17 de maio de 2023
+
+Produção: 18 de maio de 2023
+
+## Semana de 1 de maio de 2023
 
 ### As imagens são removidas da área Documentos quando os anexos são removidos dos comentários ou quando os comentários contendo um anexo são removidos
 
@@ -48,13 +63,13 @@ Editar imagens anexadas ao editar um comentário. Para obter informações, cons
 
 A seguinte atualização de manutenção foi lançada para problemas de comentário beta e de metas:
 
-Mantenha as imagens como rascunho ao afastar-se de uma atualização para metas e problemas na experiência beta de comentários. Para obter informações, consulte a seção &quot;Atualização de manutenção em 20 de abril&quot; no artigo <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Atualizações em abril de 2023</a>.
+Manter imagens como rascunho ao sair de uma seção Atualização de metas ou de uma seção Atualização de problemas na experiência beta de comentários. Para obter informações, consulte a seção &quot;Atualização de manutenção em 20 de abril&quot; no artigo <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Atualizações em abril de 2023</a>.
 
 ## 17 de abril de 2023
 
 A seguinte atualização de manutenção foi lançada para problemas de comentário beta e de metas:
 
-Mostre novos comentários fora da área da tela visível na seção Atualizações de problemas (novo comentário da experiência Beta) e Metas. Para obter informações, consulte a seção &quot;Atualização de manutenção em 17 de abril&quot; no artigo  <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Atualizações em abril de 2023</a>.
+Mostrar novos comentários fora da área visível da tela na seção Atualizações de problemas (nova experiência Beta de comentários) e na de Metas. Para obter informações, consulte a seção &quot;Atualização de manutenção em 17 de abril&quot; no artigo  <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Atualizações em abril de 2023</a>.
 
 
 ## Semana de 6 de abril de 2023

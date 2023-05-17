@@ -6,9 +6,9 @@ description: É possível adicionar uma atualização em um objeto do Adobe Work
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4383d0d8178028d13f3d97189acfcabfa5766c41
+source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
 workflow-type: tm+mt
-source-wordcount: '3085'
+source-wordcount: '3153'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Está disponível somente no ambiente de Visualização.</span>
 
 >[!NOTE]
 >
@@ -271,17 +271,19 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
 1. Vá para a área Atualizações e comece a digitar um comentário.
 1. (Opcional) Para adicionar formatação Rich Text à atualização, use quaisquer atributos na **Texto formatado** barra de ferramentas ao digitar.
 
-   | **Atributo** | **Botão da barra de ferramentas** | **Teclas de atalho do Mac** | **Teclas de atalho do PC** |
+   | **Atributo** | **Botão Barra de ferramentas** | **Teclas de atalho Mac** | **Teclas de atalho do Windows** |
    |---|---|---|---|
    | Negrito | ![mceclip10.png](assets/mceclip10.png) | Alt+b | Ctrl+B |
    | Itálico | ![mceclip9.png](assets/mceclip9.png) | Perguntas frequentes | Ctrl+I |
    | Sublinhar | ![mceclip8.png](assets/mceclip8.png) | Perguntas frequentes | Ctrl+U |
-   | Hiperlink | ![mceclip7.png](assets/mceclip7.png) | ⌘+K | Ctrl+K |
+   | Hiperlink | ![mceclip7.png](assets/mceclip7.png) | <br>Para abrir a caixa Criar links ou Adicionar links : AC+K</br> <br><span class="preview">Na experiência beta de comentários, para colar um link sobre o texto selecionado: AC+V</span></br> | <br>Para abrir a caixa Criar links ou Adicionar links : Ctrl+K</br> <br><span class="preview">Na experiência beta de comentários, para colar um link sobre o texto selecionado: Ctrl+V</span></br> |
    | Lista com marcadores | ![mceclip6.png](assets/mceclip6.png) | Alt+Shift+8 | Ctrl+Shift+8 |
    | Lista numerada | ![mceclip5.png](assets/mceclip5.png) | Alt+Shift+7 | Ctrl+Shift+7 |
    | Cotação de bloco | ![](assets/block-quote-icon-large.png) | Alt+Shift+9 | Ctrl+Shift+9 |
 
    Para interromper a formatação do texto, desmarque o atributo no **Texto formatado** barra de ferramentas.
+
+   <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment-->
 
    >[!NOTE]
    >
