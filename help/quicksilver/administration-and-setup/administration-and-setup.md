@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
 title: Administração e configuração
-description: Encontre as informações necessárias para gerenciar o sistema Workfront nesta seção.
+description: Encontre as informações necessárias para gerenciar o sistema do Workfront nesta seção.
 feature: System Setup and Administration
 role: Admin
 exl-id: f80bb267-be96-41d4-98c5-398bde66499e

@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: product-announcements
 title: Versões do produto
-description: A seguir estão links para as notas de versão atuais e anteriores.
+description: A seguir estão os links para as notas de versão atuais e anteriores.
 author: Luke
 feature: Product Announcements
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
@@ -15,7 +15,7 @@ ht-degree: 14%
 
 # Versões do produto
 
-A seguir estão links para as notas de versão atuais e anteriores.
+A seguir estão os links para as notas de versão atuais e anteriores.
 
 Para obter informações sobre o cronograma de lançamento do Adobe Workfront, consulte [Cronograma e processo de lançamento do Adobe Workfront](../../product-announcements/product-releases/workfront-release-schedule.md).
 

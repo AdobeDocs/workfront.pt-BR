@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Noções básicas do Adobe Workfront
-description: Revise essas áreas para obter uma compreensão das noções básicas do Adobe Workfront.
+description: Revise essas áreas para entender as noções básicas do Adobe Workfront.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
