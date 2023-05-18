@@ -5,9 +5,9 @@ title: Integrações do Adobe Experience Manager Assets
 description: Você pode conectar seu trabalho com as seguintes Integrações de ativos da Adobe Experience Manager.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 96f4d2b65aa630e86fdd4ee28b460069c5fd4987
+source-git-commit: 337aead90dba40a3c9104fb0183897c17f2cd66d
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -220,7 +220,25 @@ Um [!DNL Experience Manager] campos mapeados para [!DNL Workfront] os campos por
 >Os usuários devem ter acesso de gravação em [!DNL Experience Manager] para ativos que vivem no objeto para que os metadados sejam sincronizados quando atualizados.
 
 1. Ative o **[!UICONTROL Sincronizar metadados do objeto]** campo.
-1. Clique em Salvar ou vá para a página [Configurar pastas vinculadas (Opcional)](#set-up-linked-folders-optional) neste artigo.
+1. Clique em **Salvar** ou vá para a [Configurar workflows (Opcional)](#set-up-workflows-optional) neste artigo.
+
+<!--Courtney start here-->
+
+## Configurar workflows (Opcional)
+
+Um fluxo de trabalho é um conjunto de ações que conectam o Workfront ao Adobe Experience Manager as a Cloud Service. Como administrador do Workfront, você pode configurar fluxos de trabalho no Workfront e atribuí-los a Modelos de projeto. Quando um Projeto é criado usando um Modelo de projeto ao qual um fluxo de trabalho é atribuído, as ações definidas no fluxo de trabalho são acionadas.
+
+Os valores padrão do fluxo de trabalho definidos na integração podem ser substituídos nos níveis Modelo do projeto e Projeto .
+
+### Configurar um fluxo de trabalho para a criação de pastas vinculadas do Adobe Experience Manager
+
+1. Ative o **[!UICONTROL Criar pasta vinculada]** em.
+1. Escolha um caminho de pasta para indicar onde deseja que todas as pastas vinculadas sejam associadas a essa integração.
+   ![Navegação de pastas vinculadas](assets/select-folder-aem-integration.png)
+1. Ative o **Anexar nomes de Portfolio e programas** opção para incluir automaticamente nomes de Portfolio e Programa no final do nome da pasta vinculada.
+1. Clique em **Salvar** ou vá para a [Configurar pastas vinculadas (Opcional)](#set-up-linked-folders-optional) neste artigo.
+
+<!--Courtney end here-->
 
 ## Configurar pastas vinculadas (Opcional)
 
