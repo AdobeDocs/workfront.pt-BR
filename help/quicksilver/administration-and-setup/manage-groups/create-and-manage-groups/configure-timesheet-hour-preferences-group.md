@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
+source-git-commit: df55d6659fac7588610bc05ea0380a766b4277a2
 workflow-type: tm+mt
 source-wordcount: '1368'
 ht-degree: 5%
@@ -18,12 +18,10 @@ ht-degree: 5%
 
 # Configurar as preferências de hora e folha de ponto para um grupo
 
-{{highlighted-preview}}
-
 Um administrador do Adobe Workfront pode desbloquear as seguintes seções de folhas de horas e preferências de hora no nível do sistema para que os administradores de grupo possam configurá-las independentemente para seus próprios grupos:
 
 * Preferências gerais
-* <span class="preview">Onde os usuários podem registrar o tempo</span>
+* Onde os usuários podem registrar o tempo
 * Preencher previamente folhas de ponto
 
 Se houver algum grupo acima do grupo que você gerencia, os administradores também poderão fazer isso para o seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo).
@@ -136,23 +134,23 @@ Considere as seguintes informações sobre a configuração de uma folha de pont
     </tbody> 
    </table>
 
-1. <span class="preview">No **Onde os usuários podem registrar o tempo** configure qualquer uma das seguintes opções:</span>
+1. No **Onde os usuários podem registrar o tempo** configure qualquer uma das seguintes opções:
 
    <table style="table-layout:auto">
     <col>
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><span class="preview">Registrar o tempo diretamente nos projetos</span></td> 
-      <td><span class="preview">Permite que os usuários façam logon no projeto (tanto na guia Atualizações quanto na folha de horas). Se quiser restringir o tempo de gravação dos usuários no nível do projeto, deixe essa opção desmarcada.</span></td>
+      <td role="rowheader">Registrar o tempo diretamente nos projetos</td> 
+      <td>Permite que os usuários façam logon no projeto (tanto na guia Atualizações quanto na folha de horas). Se quiser restringir o tempo de gravação dos usuários no nível do projeto, deixe essa opção desmarcada.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Registrar o tempo em projetos concluídos</span></td>
-      <td><span class="preview">Permite que os usuários registrem o tempo em um projeto que foi marcado como concluído. Se essa opção estiver desativada, os usuários não poderão registrar tempo para o trabalho que concluíram nos projetos no status Concluído .</span></td>
+      <td role="rowheader">Registrar o tempo em projetos concluídos</td>
+      <td>Permite que os usuários registrem o tempo em um projeto que foi marcado como concluído. Se essa opção estiver desativada, os usuários não poderão registrar tempo para o trabalho que concluíram nos projetos no status Concluído .</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Registrar o tempo em projetos mortos</span></td> 
-      <td><span class="preview">Quando essa opção é ativada, os usuários podem registrar horas em projetos com um status de Inativo.</span></td>
+      <td role="rowheader">Registrar o tempo em projetos mortos</td> 
+      <td>Quando essa opção é ativada, os usuários podem registrar horas em projetos com um status de Inativo.</td>
      </tr>
     </tbody>
    </table>
