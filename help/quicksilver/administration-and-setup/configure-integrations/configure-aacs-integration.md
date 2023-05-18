@@ -5,14 +5,16 @@ title: Integrações do Adobe Experience Manager Assets
 description: Você pode conectar seu trabalho com as seguintes Integrações de ativos da Adobe Experience Manager.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 337aead90dba40a3c9104fb0183897c17f2cd66d
+source-git-commit: 9080dfe7e46a3780d493b59c8f2a3c4efbc011e7
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
 
 # Configure o [!UICONTROL Experience Manager Assets as a Cloud Service] integração
+
+<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Ela está disponível somente no ambiente Preview Sandbox .</span>
 
 Você pode conectar seu trabalho com seu conteúdo em [!DNL Experience Manager Assets]&#x200B;:
 
@@ -224,6 +226,8 @@ Um [!DNL Experience Manager] campos mapeados para [!DNL Workfront] os campos por
 
 <!--Courtney start here-->
 
+<div class="preview">
+
 ## Configurar workflows (Opcional)
 
 Um fluxo de trabalho é um conjunto de ações que conectam o Workfront ao Adobe Experience Manager as a Cloud Service. Como administrador do Workfront, você pode configurar fluxos de trabalho no Workfront e atribuí-los a Modelos de projeto. Quando um Projeto é criado usando um Modelo de projeto ao qual um fluxo de trabalho é atribuído, as ações definidas no fluxo de trabalho são acionadas.
@@ -237,6 +241,8 @@ Os valores padrão do fluxo de trabalho definidos na integração podem ser subs
    ![Navegação de pastas vinculadas](assets/select-folder-aem-integration.png)
 1. Ative o **Anexar nomes de Portfolio e programas** opção para incluir automaticamente nomes de Portfolio e Programa no final do nome da pasta vinculada.
 1. Clique em **Salvar** ou vá para a [Configurar pastas vinculadas (Opcional)](#set-up-linked-folders-optional) neste artigo.
+
+</div>
 
 <!--Courtney end here-->
 
