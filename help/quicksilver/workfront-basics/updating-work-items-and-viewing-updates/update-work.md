@@ -6,9 +6,9 @@ description: É possível adicionar uma atualização em um objeto do Adobe Work
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
+source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
 workflow-type: tm+mt
-source-wordcount: '3153'
+source-wordcount: '3132'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">As informações destacadas nesta página se referem à funcionalidade ainda não disponível no geral. Está disponível somente no ambiente de Visualização.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -276,7 +276,7 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
    | Negrito | ![mceclip10.png](assets/mceclip10.png) | Alt+b | Ctrl+B |
    | Itálico | ![mceclip9.png](assets/mceclip9.png) | Perguntas frequentes | Ctrl+I |
    | Sublinhar | ![mceclip8.png](assets/mceclip8.png) | Perguntas frequentes | Ctrl+U |
-   | Hiperlink | ![mceclip7.png](assets/mceclip7.png) | <br>Para abrir a caixa Criar links ou Adicionar links : AC+K</br> <br><span class="preview">Na experiência beta de comentários, para colar um link sobre o texto selecionado: AC+V</span></br> | <br>Para abrir a caixa Criar links ou Adicionar links : Ctrl+K</br> <br><span class="preview">Na experiência beta de comentários, para colar um link sobre o texto selecionado: Ctrl+V</span></br> |
+   | Hiperlink | ![mceclip7.png](assets/mceclip7.png) | <br>Para abrir a caixa Criar links ou Adicionar links : AC+K</br> <br>Na experiência beta de comentários, para colar um link sobre o texto selecionado: AC+V</br> | <br>Para abrir a caixa Criar links ou Adicionar links : Ctrl+K</br> <br>Na experiência beta de comentários, para colar um link sobre o texto selecionado: Ctrl+V</br> |
    | Lista com marcadores | ![mceclip6.png](assets/mceclip6.png) | Alt+Shift+8 | Ctrl+Shift+8 |
    | Lista numerada | ![mceclip5.png](assets/mceclip5.png) | Alt+Shift+7 | Ctrl+Shift+7 |
    | Cotação de bloco | ![](assets/block-quote-icon-large.png) | Alt+Shift+9 | Ctrl+Shift+9 |

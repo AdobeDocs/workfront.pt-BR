@@ -6,7 +6,7 @@ description: Os pools de recursos são coleções de usuários que ajudam a gere
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 0%
@@ -106,10 +106,10 @@ Para associar pools de recursos a vários projetos em massa:
    >
    >* Ao editar modelos em massa, somente os pools de recursos comuns a todos os modelos selecionados aparecem nesse campo. Se os modelos selecionados não tiverem pools de recursos compartilhados, esse campo estará vazio. Os pools de recursos especificados aqui substituem os pools de recursos individuais dos projetos ou modelos.
    >
-   >* Ao editar projetos em massa, há um indicador &quot;Vários valores&quot; se os projetos selecionados tiverem pools de recursos diferentes. Se você adicionar pools de recursos em massa para projetos, todos os pools serão adicionados ao projeto selecionado, substituindo os pools de recursos originais.</span>
+   >* Ao editar projetos em massa, há um indicador &quot;Vários valores&quot; se os projetos selecionados tiverem pools de recursos diferentes. Se você adicionar pools de recursos em massa para projetos, todos os pools serão adicionados ao projeto selecionado, substituindo os pools de recursos originais.
 
 
-   <span class="preview">![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)</span>
+   ![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
 
 1. Clique em **Salvar alterações**.\
    Quando os pools de recursos estão associados a seus projetos ou modelos, você pode orçar alocações de usuários para seus projetos dentro do Planejador de Recursos.\
