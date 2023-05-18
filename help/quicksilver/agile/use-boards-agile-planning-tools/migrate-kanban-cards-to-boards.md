@@ -5,7 +5,7 @@ title: Migrar cartões kanban de equipe ágil para quadros do Workfront
 description: Você pode migrar seus itens de trabalho de um quadro kanban de equipe ágil para um quadro novo ou existente do Workfront.
 author: Lisa
 exl-id: c40b6453-5869-437b-a1e0-f20dd833d2b8
-source-git-commit: c990b897a4e6722515c6b065ee2a5832fdc31231
+source-git-commit: a788a8d39c714463f7ea9aa32f0c5a0f050eabdc
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # Migrar cartões kanban de equipe ágil para quadros do Workfront
-
-{{highlighted-preview-article-level}}
 
 Você pode migrar seus itens de trabalho de um quadro kanban de equipe ágil para um quadro novo ou existente do Workfront. Quando você executa a migração, todos os cartões no quadro Kanban são copiados para o quadro do Workfront. Você não tem permissão para escolher cartões específicos.
 
