@@ -4,9 +4,9 @@ description: Visão geral da versão 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
+source-git-commit: 674dcf567b0c77d31072193d8cbc349bbac2029f
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">Controle de nível de grupo disponível para a folha de horas e a preferência de hora "em que os usuários podem registrar o tempo"</a> <span style="color: #ff0000;"> Novo na Visualização!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">Controle de nível de grupo disponível para a folha de horas e a preferência de hora "em que os usuários podem registrar o tempo"</a></p>
                         <p>O administrador do sistema agora pode bloquear e desbloquear a folha de ponto e a preferência de hora "onde os usuários podem registrar a hora". Quando essa preferência é desbloqueada, os administradores de grupo podem definir as configurações de "Onde os usuários podem registrar a hora" separadamente para cada grupo.</p>
                     </td>
                     <td><p><b>Disponível nestas datas:</b></p>
@@ -83,7 +83,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Filtros simples disponíveis nas colunas de entrada de bordo</a><span style="color: #ff0000;"> Novo na Visualização!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Filtros simples disponíveis nas colunas de entrada de bordo</a></p>
                         <p>Filtros simplificados foram adicionados à configuração da coluna de entrada para permitir que você defina a coluna de entrada mais rapidamente. Os filtros disponíveis são projetos Workfront e atribuições por equipe ou usuário. Você pode alternar para os filtros avançados, se preferir.</p>
                     </td>
                     <td><p><b>Disponível nestas datas:</b></p>
@@ -205,7 +205,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Mapear valores de campo do Workfront para tags no Experience Manager Assets</a><span style="color: #ff0000;"> Novo em produção!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Criar automaticamente pastas vinculadas ao Adobe Experience Manager Assets ao criar um projeto</a><span style="color: #ff0000;"> Novo em produção!</span></p>
+                        <p>Com o novo fluxo de trabalho Criar pasta vinculada para a integração do Adobe Experience Manager, é possível configurar a integração com um caminho para uma pasta do Adobe Experience Manager Assets. Quando a integração é adicionada a um modelo de projeto, qualquer projeto criado a partir do modelo criará automaticamente uma subpasta vinculada no Experience Manager Assets na pasta especificada. </p>
+                    </td>
+                    <td><p><b>Disponível nestas datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de visualização: 11 de maio de 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versão de produção: 18 de maio de 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Mapear valores de campo do Workfront para tags no Experience Manager Assets</a></p>
                         <p>Agora, você pode categorizar e encontrar rapidamente ativos com base em dados do Workfront. Você pode mapear esses dados como parte de sua configuração de metadados no Workfront para integração com o Experience Manager Assets.</p>
                     </td>
                     <td><p><b>Disponível nestas datas:</b></p>
@@ -221,7 +237,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Mapear campos do Workfront para campos de metadados personalizados do Experience Manager Assets</a><span style="color: #ff0000;"> Novo em produção!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Mapear campos do Workfront para campos de metadados personalizados do Experience Manager Assets</a></p>
                         <p>Com a integração nativa, agora é possível mapear campos do Workfront nativos e incorporados para campos de esquema de metadados personalizados no Experience Manager Assets as a Cloud Service.</p>
                     </td>
                     <td><p><b>Disponível nestas datas:</b></p>
