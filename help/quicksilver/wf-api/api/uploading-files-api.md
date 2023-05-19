@@ -6,28 +6,28 @@ description: Upload de arquivos por meio da API
 author: Becky
 feature: Workfront API
 exl-id: 4e0b73b6-0d6d-4971-a87a-dfec85fb031a
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
 
 # Upload de arquivos por meio da API
 
-Você pode fazer upload de arquivos usando APIs do Workfront com ferramentas de API, como Postman, ou com comandos cURL simples.
+Você pode fazer upload de arquivos usando APIs do Workfront com ferramentas de API, como o Postman, ou com comandos cURL simples.
 
-Para fazer upload de documentos, consulte as instruções para **Fazer upload de documentos** no Workfront [Comportamento da publicação](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWF_API%2FGeneral%2Fapi-basics.html). Também é possível usar essas mesmas instruções para solicitações de cURL.
+Para fazer upload de documentos, consulte as instruções de **Carregando Documentos** no Workfront [Comportamento da publicação](/help/quicksilver/wf-api/general/api-basics.md#post-behavior). Você também pode usar essas mesmas instruções para solicitações cURL.
 
 **Ao usar ferramentas de API para fazer upload de arquivos, siga estas diretrizes:**
 
-* Use a opção da ferramenta de API para carregar o arquivo. Geralmente, essa é uma **Escolher arquivo** na tela de solicitação.
+* Use a opção da ferramenta API para fazer upload do arquivo. Muitas vezes, trata-se de uma **Escolher arquivo** na tela de solicitação.
 
-* Use o método POST HTTP para fazer a solicitação para fazer upload do arquivo.
+* Use o método HTTP POST para fazer a solicitação para carregar o arquivo.
 
-* Sua solicitação deve resultar em uma resposta que inclua um valor para seu identificador.
+* Sua solicitação deve resultar em uma resposta que inclui um valor para o identificador.
 
-* Use o valor de identificador, o tipo de objeto e o valor de GUID para objID em uma carga JSON para fazer uma chamada subsequente. Isso é para criar o objeto para o arquivo, como no exemplo a seguir:
+* Use o valor do identificador, o tipo de objeto e o valor da GUID para a objID em uma carga JSON para fazer uma chamada subsequente. Isso é para criar o objeto para o arquivo, como no exemplo a seguir:
 
 ```
 }

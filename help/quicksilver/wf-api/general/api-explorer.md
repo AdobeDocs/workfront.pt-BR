@@ -6,7 +6,7 @@ description: API Explorer
 author: Becky
 feature: Workfront API
 exl-id: c71ac171-cf94-47f4-b1ac-eb53be7cf2d9
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 0%
@@ -16,6 +16,6 @@ ht-degree: 0%
 
 # API Explorer
 
-É possível exibir todos os objetos que estão disponíveis por meio da API do Adobe Workfront no API Explorer. Para exibir o API Explorer, clique em [here](https://one.workfront.com/s/api-explorer).
+Você pode exibir todos os objetos que estão disponíveis por meio da API do Adobe Workfront no explorador de API. Para exibir o explorador de API, clique em [aqui](https://developer.adobe.com/workfront/api-explorer/).
 
-Para obter informações mais detalhadas sobre o uso do API Explorer, consulte [Uso do API Explorer](../../wf-api/general/using-api-explorer.md).
+Para obter informações mais detalhadas sobre o uso do API Explorer, consulte [Utilização do API Explorer](../../wf-api/general/using-api-explorer.md).
