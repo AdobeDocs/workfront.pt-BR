@@ -9,9 +9,9 @@ description: Em um [!DNL Adobe Workfront Fusion] você pode automatizar workflow
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 83914e54638ffbef2b3ccee12c71b84ca7cc61d2
+source-git-commit: aee0778b08e00b2fc94f6829e6b2cd957ff0fe23
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
@@ -236,12 +236,12 @@ Este módulo de ação copia um item existente em uma lista do SharePoint.
    <td> <p>Selecione como deseja identificar o site e a lista que contém o item que deseja copiar.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie a variável <strong>[!UICONTROL ID do site]</strong>, <strong>[!UICONTROL List ID]</strong>e <strong>[!UICONTROL ID do item]</strong> nos campos exibidos.</p> </li> 
-     <li> <p><strong>[!UICONTROL Selecionar da lista que você segue]</strong> </p> <p>No campo Copiar tipo de item , selecione se você está movendo um campo ou uma pasta.  Selecione o site que contém o item que você deseja copiar, selecione a lista e selecione o item. </p> </li> 
+     <li> <p><strong>[!UICONTROL Selecionar da lista que você segue]</strong> </p> <p>No campo Tipo de item , selecione se você está movendo um campo ou uma pasta.  Selecione o site que contém o item que você deseja copiar, selecione a lista e selecione o item. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID de destino]</td> 
-   <td>  </td> 
+   <td> Insira ou mapeie a ID da pasta para a qual deseja copiar o item. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Novo nome]</td> 
@@ -367,12 +367,12 @@ Este módulo de ação copia um item existente em uma lista do SharePoint.
    <td> <p>Selecione como deseja identificar o site e a lista que contém o item que deseja mover.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie a variável <strong>[!UICONTROL ID do site]</strong>, <strong>[!UICONTROL List ID]</strong>e <strong>[!UICONTROL ID do item]</strong> nos campos exibidos.</p> </li> 
-     <li> <p><strong>[!UICONTROL Selecionar da lista que você segue]</strong> </p> <p>No campo Copiar tipo de item , selecione se você está movendo um campo ou uma pasta. Selecione o site que contém o item que você deseja copiar, selecione a lista e selecione o item. </p> </li> 
+     <li> <p><strong>[!UICONTROL Selecionar da lista que você segue]</strong> </p> <p>No campo Tipo de item , selecione se você está movendo um campo ou uma pasta. Selecione o site que contém o item que você deseja copiar, selecione a lista e selecione o item. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID de destino]</td> 
-   <td>  </td> 
+   <td> Insira ou mapeie a ID da pasta para a qual deseja mover o item. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Novo nome]</td> 
@@ -643,6 +643,33 @@ Este módulo de ação pesquisa sites por um parâmetro especificado.
 </table>
 
 ### Outro
+
+#### Obter alterações
+
+Esse módulo recupera adições, atualizações e exclusões feitas na pasta SharePoint.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL SharePoint] para [!DNL Workfront Fusion], consulte <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Inserir IDs de site, unidade e pasta]</td> 
+   <td> <p>Selecione como deseja identificar o site e a lista que contém o item que deseja atualizar.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Inserir manualmente]</strong> </p> <p>Insira ou mapeie a variável <strong>[!UICONTROL ID do site]</strong>, <strong>[!UICONTROL ID da unidade]</strong>e <strong>[!UICONTROL ID da pasta]</strong> nos campos exibidos.</p> </li> 
+     <li> <p><strong>[!UICONTROL Selecionar na lista]</strong> </p> <p>Selecione o site que contém o item que você deseja atualizar, selecione a unidade e selecione a pasta. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Token]</td> 
+   <td> O token identifica a partir de que ponto o módulo deve começar a recuperar as alterações.  </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Faça uma chamada de API]
 
