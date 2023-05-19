@@ -2,42 +2,42 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Exibir: exibir objetos que não estão incluídos na interface padrão'''
-description: É possível exibir em uma exibição objetos que não estão incluídos na interface do modo padrão. Você só pode fazer isso referenciando-os por meio do modo de texto. Você pode determinar quais campos podem ser incluídos em uma exibição de qualquer uma das seguintes maneiras - EDITE-ME.
+title: "View: objetos de exibição que não estão incluídos na interface padrão"
+description: 'Você pode exibir em uma view objetos que não estão incluídos na interface de modo padrão. Você pode fazer isso somente referenciando-os pelo modo de texto. Você pode determinar quais campos podem ser incluídos em uma exibição de uma das seguintes maneiras: EDIT ME.'
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: 89a6d856f9f87a67b6a2ccfb4282f9f6200b977c
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
-# Exibir: exibir objetos que não estão incluídos na interface padrão
+# View: objetos de exibição que não estão incluídos na interface padrão
 
-É possível exibir em uma exibição objetos que não estão incluídos na interface do modo padrão. Você só pode fazer isso referenciando-os por meio do modo de texto.\
-Você pode determinar quais campos podem ser incluídos em uma exibição de uma das seguintes maneiras:
+Você pode exibir em uma view objetos que não estão incluídos na interface de modo padrão. Você pode fazer isso somente referenciando-os pelo modo de texto.\
+Você pode determinar quais campos podem ser incluídos em uma view de uma das seguintes maneiras:
 
-* Use o [API Explorer](https://one.workfront.com/s/api-explorer) para descobrir outros objetos que podem ser referenciados por meio do modo de texto.\
-   Nem todos os campos documentados no API Explorer são campos válidos para o modo de texto. Alguns campos só podem ser reportados por meio da API.
+* Use o [API Explorer](../../../wf-api/general/api-explorer.md) para descobrir outros objetos que podem ser referenciados no modo texto.\
+   Nem todos os campos documentados no API Explorer são campos válidos para o modo de texto. Alguns campos só podem ser relatados por meio da API.
 
 * Localize o campo ID do objeto em uma coluna. A maioria dos objetos que têm uma ID de campo também tem uma coluna ou nome de campo correspondente que pode não ser acessível por meio da interface de modo padrão.
 
-   Você pode usar o modo de texto para incluir em uma exibição o nome da coluna ou do campo, em vez da ID, substituindo o `fieldnameID` com o `fieldname:name`.
+   Você pode usar o modo de texto para incluir em uma visualização o nome da coluna ou do campo, em vez da ID, substituindo a variável `fieldnameID` com o `fieldname:name`.
 
-   Por exemplo, na interface de modo padrão, a variável **ID do proprietário do Portfolio** está disponível para uma visualização de projeto, mas o campo **Nome do proprietário do Portfolio** não é. Você pode usar o modo de texto para exibir a variável **Nome do proprietário do Portfolio** na coluna de uma exibição.
+   Por exemplo, na interface de modo padrão, a variável **ID do proprietário do Portfolio** O campo está disponível para uma exibição de projeto, mas a variável **Nome do proprietário do Portfolio** O campo não é. Você pode usar o modo texto para exibir a variável **Nome do proprietário do Portfolio** na coluna de uma exibição.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> <p>Qualquer Um</p> </td> 
   </tr> 
   <tr> 
@@ -46,27 +46,27 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a Relatórios, Painéis, Calendários</p> <p>Editar acesso a filtros, visualizações, agrupamentos</p> <p>Observação: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Editar acesso a relatórios, painéis, calendários</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões de um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
-## Exemplo: adicionar a coluna Nome do Proprietário do Portfolio a uma exibição de projeto
+## Exemplo: adicionar a coluna Nome do proprietário do Portfolio a uma visualização do projeto
 
-1. Acesse uma lista de projetos.
-1. No **Exibir** , clique em **Nova exibição**.
+1. Ir para uma lista de projetos.
+1. No **Exibir** clique em **Nova visualização**.
 
-1. Clique em **Adicionar coluna** em seguida, comece a digitar &quot;ID de proprietário do Portfolio&quot; no **Mostrar nesta coluna** e, em seguida, selecione-o quando for exibido na lista.
+1. Clique em **Adicionar coluna** em seguida, comece digitando &quot;ID do proprietário do Portfolio&quot; no **Mostrar nesta coluna** e selecione-o quando ele for exibido na lista.
 
-1. Clique em **Alternar para o modo de texto**.
-1. Passe o mouse sobre a área do modo de texto e clique em **Clique para editar texto**.
-1. Substitua o `valuefield` linha (`valuefield=portfolio:ownerID`) com a seguinte linha:
+1. Clique em **Alternar para modo de texto**.
+1. Passe o mouse sobre a área do modo de texto e clique em **Clique para editar o texto**.
+1. Substitua o `valuefield` linha (`valuefield=portfolio:ownerID`) pela seguinte linha:
 
    ```
    valuefield=portfolio:owner:name
@@ -74,7 +74,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
    Ou
 
-   Remova o texto que você encontrar no **Modo de texto** e substitua-a pelo seguinte código:
+   Remova o texto localizado na **Modo de texto** e substitua-o pelo seguinte código:
 
    ```
    valuefield=portfolio:owner:name
@@ -84,10 +84,10 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
    linkedname=portfolio
    ```
 
-   Neste exemplo específico, o relatório classificará o relatório pela ID de proprietário do Portfolio, conforme indicado pela variável `querysort` linha.
+   Neste exemplo específico, o relatório classificará pelo ID de proprietário do Portfolio, conforme indicado pelo `querysort` linha.
 
    >[!TIP]
    >
-   >Para substituir qualquer campo `ID` com o campo `name` usando o modo de texto, sempre substituir `ID` com `:name` no `valuefield` linha.
+   >Para substituir qualquer campo `ID` com o campo `name` usando o modo texto, sempre substituir `ID` com `:name` no `valuefield` linha.
 
-1. Clique em **Salvar**, em seguida **Salvar exibição**.
+1. Clique em **Salvar**, depois **Salvar visualização**.

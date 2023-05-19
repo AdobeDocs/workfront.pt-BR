@@ -6,9 +6,9 @@ description: Visão geral do modo de texto
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -27,36 +27,36 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This will be linked to the Ninja feature about adding a filter to the User typeahead field (which originally is open only for text mode filters). Update the Context Sensitive sheet at release time) </p>
 -->
 
-Você pode criar um relatório ou uma lista no Adobe Workfront usando a interface de modo padrão ou de texto ao criar os elementos que compõem o relatório ou a lista. A interface padrão permite fazer referência a campos e atributos que estão prontamente disponíveis na interface do Workfront. Usando o modo de texto, você pode fazer referência a campos e atributos que podem não estar disponíveis no modo padrão, mas estão disponíveis no banco de dados do Workfront.
+Você pode criar um relatório ou uma lista no Adobe Workfront usando a interface padrão ou de modo de texto ao criar os elementos que compõem o relatório ou a lista. A interface padrão permite referenciar campos e seus atributos que estão prontamente disponíveis na interface do Workfront. Usando o modo texto, você pode fazer referência a campos e atributos que podem não estar disponíveis no modo padrão, mas estão disponíveis no banco de dados do Workfront.
 
 ## Considerações antes de usar o modo de texto
 
 >[!TIP]
 >
->Também é possível expandir os recursos de campos personalizados calculados usando uma versão do modo de texto para campos personalizados. A sintaxe e as regras para criar um campo personalizado calculado são diferentes daquelas usadas nos relatórios e listas. Para obter informações sobre como adicionar um campo personalizado calculado, consulte [Adicionar dados calculados a um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+>Também é possível expandir os recursos de campos personalizados calculados usando uma versão do modo de texto para campos personalizados. A sintaxe e as regras para criar um campo personalizado calculado são diferentes daquelas usadas em relatórios e listas. Para obter informações sobre como adicionar um campo personalizado calculado, consulte [Adicionar dados calculados a um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-* Antes de começar a usar o modo de texto em seus relatórios, recomendamos que você utilize nossas classes em relatórios avançados para obter uma compreensão mais profunda de nosso idioma do modo de texto. Para obter materiais de treinamento em relatórios, consulte [Caminhos de aprendizagem de relatórios e painéis do Workfront](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).
-* Recomendamos que você use o modo padrão para garantir que os relatórios criados permaneçam intactos quando o software Workfront for atualizado. Embora o modo de texto permita que você crie visualizações, filtros e agrupamentos mais complexos, também é mais complicado manter e não é garantido quando o software Workfront é atualizado.
-* Recomendamos que você sempre tente criar todos os elementos de relatório na interface padrão e alternar para o construtor de modo de texto somente para alguns ajustes.
+* Antes de começar a usar o modo de texto em seus relatórios, recomendamos que você faça nossas aulas sobre relatórios avançados para obter uma compreensão mais profunda da linguagem do modo de texto. <!--outdated: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
+* Recomendamos que você use o modo padrão para garantir que os relatórios criados permaneçam intactos quando o software da Workfront for atualizado. Embora o modo de texto permita a criação de exibições, filtros e agrupamentos mais complexos, sua manutenção também é mais complicada e não é garantida quando o software do Workfront é atualizado.
+* Recomendamos que você sempre tente criar todos os elementos de relatórios na interface padrão e alternar para o construtor de modo de texto somente para alguns ajustes.
 
    >[!TIP]
    >
-   >O uso do construtor padrão oferece blocos de construção importantes e padrões de código que você pode usar ao modificar o código no modo de texto.
+   >Usar o construtor padrão fornece blocos de construção e padrões de código importantes que você pode usar ao modificar o código no modo de texto.
 
-* Há um conjunto de regras e uma sintaxe exclusiva que você deve usar para criar relatórios e listas com êxito no modo de texto. Familiarize-se com a sintaxe do Workfront para o modo de texto antes de começar.
+* Há um conjunto de regras e uma sintaxe exclusiva que você deve usar para criar relatórios e listas no modo de texto com êxito. Familiarize-se com a sintaxe do Workfront para o modo de texto antes de começar.
 
-   Para obter informações sobre a sintaxe e as regras para usar o modo de texto, consulte [Visão geral da sintaxe do modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+   Para obter informações sobre sintaxe e regras para usar o modo de texto, consulte [Visão geral da sintaxe do modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
-* Depois de personalizar um elemento de relatório no modo de texto, talvez você não consiga voltar ao modo padrão (em uma visualização) ou o código do elemento criado pode ser excluído (em filtros e agrupamentos). Isso ocorre porque nem todos os campos compatíveis no modo de texto são compatíveis no modo padrão.
+* Depois de personalizar um elemento de relatório no modo de texto, talvez você não consiga voltar para o modo padrão (em uma exibição) ou o código do elemento criado pode ser excluído (em filtros e agrupamentos). Isso ocorre porque nem todos os campos compatíveis com o modo de texto são compatíveis com o modo padrão.
 
-## Interface do modo Padrão
+## Interface do modo padrão
 
-A interface do Modo Padrão exibe campos para mapear os elementos do aplicativo que você deseja exibir em um relatório ou lista. A interface de modo padrão é um conjunto de menus suspensos dos quais é possível selecionar os campos que deseja exibir em seus relatórios ou listas.
+A interface do Modo Padrão exibe campos para mapear os elementos do aplicativo que você deseja exibir em um relatório ou uma lista. A interface do modo padrão é um conjunto de menus suspensos a partir dos quais você pode selecionar os campos que deseja exibir em seus relatórios ou listas.
 
-Para obter mais informações sobre a interface do modo padrão e saber como criar um relatório ou uma lista, consulte:
+Para obter mais informações sobre a interface de modo padrão e aprender a criar um relatório ou uma lista, consulte:
 
 * [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-* [Elementos de relatório: filtros, visualizações e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
+* [Elementos de relatórios: filtros, visualizações e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 
 ## Interface do modo de texto
 
@@ -64,20 +64,20 @@ Para obter mais informações sobre a interface do modo padrão e saber como cri
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: add a section or note with a link to an another article about the syntax of text mode >> link to the Calc custom fields vc calc. columns)</p>
 -->
 
-O modo de texto permite criar exibições, filtros, agrupamentos e prompts mais complexos, permitindo que você use campos que não estão disponíveis na interface de modo padrão. No modo de texto Workfront está uma coleção de instruções codificadas que indicam quais objetos você deseja exibir em um relatório ou em uma lista.
+O modo de texto permite que você crie exibições, filtros, agrupamentos e prompts mais complexos, permitindo que você use campos que não estão disponíveis na interface do modo padrão. No modo de texto Workfront, há uma coleção de instruções codificadas que indicam quais objetos você deseja exibir em um relatório ou uma lista.
 
-Para obter uma lista completa de todos os campos relatáveis, consulte [API Explorer](../../../wf-api/general/api-explorer.md).
+Para obter uma lista completa de todos os campos reportáveis, consulte [API Explorer](../../../wf-api/general/api-explorer.md).
 
 >[!NOTE]
 >
->Nem todos os campos disponíveis por meio da API estão disponíveis por meio da interface do modo de texto. Se você usar o campo correto no código do modo de texto e não exibir os resultados esperados, o campo poderá ser reportável apenas por meio da API.
+>Nem todos os campos disponíveis por meio da API estão disponíveis por meio da interface do modo de texto. Se você usar o campo correto no código do modo de texto e não exibir os resultados esperados, o campo poderá ser reportado somente por meio da API.
 
-* [Acessar elementos de relatório e editar modo de texto](#access-reporting-elements-and-edit-text-mode)
+* [Acessar elementos de relatórios e editar modo de texto](#access-reporting-elements-and-edit-text-mode)
 * [Motivos comuns para usar o modo de texto](#common-reasons-to-use-text-mode)
 
-## Acessar elementos de relatório e editar modo de texto {#access-reporting-elements-and-edit-text-mode}
+## Acessar elementos de relatórios e editar modo de texto {#access-reporting-elements-and-edit-text-mode}
 
-O acesso à interface do modo de texto é semelhante para exibições, agrupamentos e filtros ao acessá-los a partir de um relatório ou de uma lista.
+O acesso à interface do modo de texto é semelhante para exibições, agrupamentos e filtros ao acessá-los de um relatório ou lista.
 
 Para obter informações sobre como usar o modo de texto em exibições, filtros e agrupamentos, consulte:
 
@@ -85,13 +85,13 @@ Para obter informações sobre como usar o modo de texto em exibições, filtros
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see what articles these sections are linked to and edit those articles to link to the individual ones)</p>
 -->
 
-* [Editar uma exibição usando o modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+* [Editar uma visualização usando o modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
 * [Editar um filtro usando o modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-* [Editar modo de texto em um agrupamento](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+* [Modo de edição de texto em um agrupamento](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
-Os prompts personalizados só podem ser editados no modo de texto. Você pode acessar prompts somente de um relatório.
+Solicitações personalizadas só podem ser editadas no modo texto. Você pode acessar prompts somente a partir de um relatório.
 
-Para obter informações sobre como acessar a interface do modo de texto para prompts personalizados, consulte [Adicionar um prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+Para obter informações sobre como acessar a interface do modo texto para prompts personalizados, consulte [Adicionar um prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Editing the text mode code inside views, filters, and groupings has some differences outlined below.</p>
@@ -538,19 +538,19 @@ We recommend that you build as much of the grouping as possible in standard mode
    -->
 
     &lt;!—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>O primeiro agrupamento do relatório tem um número de grupo de 0. Todas as linhas que se referem ao primeiro agrupamento começam com group.0.&lt;/code>&lt;/li>
+    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>O primeiro agrupamento do relatório tem um número de grupo de 0. Todas as linhas referentes ao primeiro agrupamento começam com group.0.&lt;/code>&lt;/li>
     —>
     
     &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>O segundo agrupamento do relatório tem um número de grupo 1. Todas as linhas que se referem ao segundo agrupamento começam com &lt;code>group.1&lt;/code>.&lt;/em>&lt;/li>
+    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>O segundo agrupamento do relatório tem um número de grupo de 1. Todas as linhas que fazem referência ao segundo agrupamento começam com &lt;code>group.1&lt;/code>.&lt;/em>&lt;/li>
     —>
     
     &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>O terceiro agrupamento do relatório tem um grupo de 2. Todas as linhas que se referem ao terceiro agrupamento começam com &lt;code>group.2&lt;/code>.&lt;/em>&lt;/li>
+    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>O terceiro agrupamento do relatório tem um número de grupo de 2. Todas as linhas que fazem referência ao terceiro agrupamento começam com &lt;code>group.2&lt;/code>.&lt;/em>&lt;/li>
     —>
     
     &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>Somente no modo de texto, é possível adicionar um número de grupo de 3, para um quarto agrupamento. Todas as linhas que se referem ao quarto agrupamento começam com &lt;code>group.3&lt;/code>.&lt;/em>&lt;/li>
+    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>Somente no modo de texto é possível adicionar um número de grupo de 3, para um quarto agrupamento. Todas as linhas que fazem referência ao quarto agrupamento começam com &lt;code>group.3&lt;/code>.&lt;/em>&lt;/li>
     —>
 
 <!--
@@ -585,9 +585,9 @@ We recommend that you build as much of the grouping as possible in standard mode
 
 >[!TIP]
 >
->Ao ajustar manualmente os agrupamentos ao visualizar uma lista, o Workfront lembra de sua preferência manual até que você saia. Quando você faz logon novamente, a lista é exibida de acordo com essa configuração.
+>Quando você ajusta agrupamentos manualmente ao visualizar uma lista, o Workfront lembra de sua preferência manual até que você faça logout. Ao fazer logon novamente, a lista é exibida de acordo com essa configuração.
 >
->Os resultados de um agrupamento sempre são exibidos expandidos depois de acessá-los a partir de um elemento de gráfico.
+>Os resultados de um agrupamento sempre são exibidos expandidos depois de acessados de um elemento do gráfico.
 
 <!--
    <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Apply</strong> if you want to save your changes and continue editing the report.</li>
@@ -611,6 +611,6 @@ We recommend that you build as much of the grouping as possible in standard mode
 
 ## Motivos comuns para usar o modo de texto {#common-reasons-to-use-text-mode}
 
-Fora da criação de prompts personalizados que só podem ser configurados usando o modo de texto, recomendamos que você use o Construtor de relatórios para criar exibições, filtros e agrupamentos. No entanto, há algumas instâncias em que você pode usar o modo de texto para aprimorar seus relatórios e listas.
+Além de criar prompts personalizados que só podem ser configurados usando o modo de texto, recomendamos que você use o Report Builder para criar seus modos de exibição, filtros e agrupamentos. No entanto, há algumas instâncias em que você pode usar o modo de texto para aprimorar seus relatórios e listas.
 
-Para obter mais informações sobre usos comuns do modo de texto, consulte [Visão geral dos usos comuns do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Para obter mais informações sobre usos comuns do modo de texto, consulte [Visão geral de usos comuns do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).

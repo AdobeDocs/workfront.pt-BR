@@ -1,38 +1,38 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: Usar curingas baseadas em usuário para generalizar relatórios
-description: Você pode generalizar um relatório usando curingas em vez de informações específicas ao criar determinados elementos de relatório.
+title: Usar curingas com base no usuário para generalizar relatórios
+description: Você pode generalizar um relatório usando curingas em vez de informações específicas ao criar determinados elementos de relatórios.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 0%
+source-wordcount: '500'
+ht-degree: 1%
 
 ---
 
-# Usar curingas baseadas em usuário para generalizar relatórios
+# Usar curingas com base no usuário para generalizar relatórios
 
-Você pode generalizar um relatório usando curingas em vez de informações específicas ao criar determinados elementos de relatório. Por exemplo, se você quiser criar um relatório que mostre as tarefas atribuídas a um usuário específico, poderá usar o nome do usuário no campo Atribuído a do filtro. No entanto, se você quiser criar um relatório que mostre as tarefas atribuídas ao usuário conectado, independentemente de quem seja esse usuário, poderá usar um curinga que indica que, quando alguém exibir o relatório, exibirá informações pertencentes somente a ele. Dessa forma, você cria o relatório uma vez, mas, como você usa um curinga no filtro, ele produz resultados diferentes sempre que outra pessoa o ler.
+Você pode generalizar um relatório usando curingas em vez de informações específicas ao criar determinados elementos de relatórios. Por exemplo, se você deseja criar um relatório que mostre as tarefas atribuídas a um usuário específico, é possível usar o nome do usuário no campo Assigned To do filtro. No entanto, se você quiser criar um relatório que mostre tarefas atribuídas ao usuário conectado, independentemente de quem seja esse usuário, você poderá usar um curinga que indique que, quando alguém exibir o relatório, ele exibirá informações pertencentes a ele. Dessa forma, você cria o relatório uma vez, mas como você usa um curinga no filtro, ele produz resultados diferentes sempre que outra pessoa o lê.
 
-Você pode usar curingas com base no usuário ao criar os seguintes elementos de relatório:
+Você pode usar curingas baseados no usuário ao criar os seguintes elementos de relatórios:
 
 * Filtros
-* Solicitações personalizadas
+* Prompts personalizados
 * Exibições ao adicionar regras para colunas
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Plano Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>plano do Adobe Workfront*</strong></td> 
    <td> <p>Qualquer Um</p> </td> 
   </tr> 
   <tr> 
@@ -41,43 +41,43 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>Editar acesso a filtros, visualizações, agrupamentos</p> <p>Editar o acesso a Relatórios, Painéis, Calendários para editar elementos de relatório em um relatório</p> <p>Observação: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Editar acesso a relatórios, painéis e calendários para editar elementos de relatórios em um relatório</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Gerenciar permissões de um relatório para editar elementos de relatório em um relatório</p> <p>Gerencie permissões em uma visualização ou filtro para editá-las</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório para editar elementos de relatórios em um relatório</p> <p>Gerenciar permissões em uma exibição ou um filtro para editá-las</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
 ## Pré-requisitos
 
-Você deve criar um relatório antes de poder adicionar uma variável curinga a ele.
+Você deve criar um relatório antes de adicionar uma variável curinga a ele.
 
 Para obter instruções sobre como criar relatórios, consulte [Criar um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
-## Etapas de instruções
+## Etapas passo a passo
 
-Para inserir um curinga baseado em usuário em um relatório:
+Para inserir um curinga baseado no usuário em um relatório:
 
-1. Vá para um relatório para o qual deseja inserir um curinga baseado em usuário.
-1. Clique em **Ações de Relatório**, em seguida **Editar**.
+1. Ir para um relatório para o qual você deseja inserir um curinga baseado em usuário.
+1. Clique em **Ações de Relatório**, depois **Editar**.
 
-1. Clique no botão **Filtros** guia .
+1. Clique em **Filtros** guia.
 1. Clique em **Adicionar uma regra de filtro**.
-1. Comece digitando o nome do campo que deseja filtrar.\
-   Você deve digitar campos que fazem referência ao objeto do usuário ou informações sobre usuários.
-1. Selecionar **Igual** no menu suspenso da variável de filtro.
+1. Comece digitando o nome do campo pelo qual deseja filtrar.\
+   Você deve digitar campos que façam referência ao objeto do usuário ou informações sobre os usuários.
+1. Selecionar **Igual** no menu suspenso para a variável de filtro.
 
    >[!TIP]
    >
-   >Você sempre deve selecionar a variável **Igual** variável de filtro ao trabalhar com curingas no Adobe Workfront.
+   >Você sempre deve selecionar o **Igual** ao trabalhar com curingas no Adobe Workfront.
 
-1. No **Começar a digitar nome ...** caixa, tipo: `$$USER.ID` ou `$$USER.name` se desejar que o relatório exiba informações sobre o usuário que faz logon, com base em seu nome. Você pode inserir outros curingas que se referem ao Grupo, Equipe, Empresa ou outras informações do usuário conectado.
+1. No **Comece a digitar o nome...** digite: `$$USER.ID` ou `$$USER.name` se desejar que o relatório exiba informações sobre o usuário que faz logon, com base em seu nome. Você pode inserir outros curingas que se referem a Grupo, Equipe, Empresa ou outras informações do usuário conectado.
 
-   Para obter uma lista completa de curingas com base em usuários, consulte [Variáveis de filtro curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   Para obter uma lista completa de curingas com base no usuário, consulte [Variáveis de filtro curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
    ![](assets/user-based-wildcard-in-project-filter-350x74.png)
 
@@ -87,7 +87,7 @@ Para inserir um curinga baseado em usuário em um relatório:
 
 Consulte também:
 
-* [Programa básico de criação de relatórios](https://one.workfront.com/s/basic-report-creation-program)
+<!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
 * [Variáveis de filtro curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Criar ou editar filtros no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [Visão geral dos filtros no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)

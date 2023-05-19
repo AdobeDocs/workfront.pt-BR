@@ -1,38 +1,38 @@
 ---
 content-type: overview;reference
 navigation-topic: workfront-navigation
-title: Entender objetos em [!DNL Adobe Workfront]
-description: Entender objetos em [!DNL Adobe Workfront]
+title: Entender objetos no [!DNL Adobe Workfront]
+description: Entender objetos no [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 9c78d8e08e62c86a4e1340644ed76c61ce7f2674
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2263'
 ht-degree: 6%
 
 ---
 
-# Entender objetos em [!DNL Adobe Workfront]
+# Entender objetos no [!DNL Adobe Workfront]
 
 <!--
 <***Linked to several articles, do not remove/ change. 
 -->
 
-As informações exibidas em [!DNL Adobe Workfront] é representado por objetos armazenados no [!DNL Workfront] banco de dados. Os objetos são o que direciona as informações [!DNL Workfront].
+As informações exibidas na [!DNL Adobe Workfront] é representado por objetos armazenados no [!DNL Workfront] banco de dados. Os objetos são o que direciona as informações [!DNL Workfront].
 
-Como entender como os objetos são definidos em [!DNL Workfront] é importante para que você possa usar o objeto correto para as necessidades necessárias em sua organização.
+Como entender como os objetos são definidos no [!DNL Workfront] é importante para que você possa usar o objeto correto para as necessidades necessárias em sua organização.
 
-Por exemplo, quando você planeja uma grande quantidade de trabalho, é necessário usar a variável [!UICONTROL Projeto] para definir esse trabalho. Para dividir esse trabalho em incrementos planejados menores, você pode usar a variável [!UICONTROL Tarefa] objeto. Para uma quantidade menor de trabalho não planejado e que pode ocorrer inesperadamente, é possível usar o objeto Issue . Se você quiser acompanhar o progresso e a adesão ao orçamento e à linha do tempo de um grupo de projetos, poderá organizá-los em [!UICONTROL Portfolio] e [!UICONTROL Programas]. Para definir outros elementos que ajudam a resolver seu trabalho, você deseja usar outros objetos armazenados em [!UICONTROL Projetos], [!UICONTROL Tarefas], [!UICONTROL Problemas]ou [!UICONTROL Portfolio], como [!UICONTROL Documentos], [!UICONTROL Notas], [!UICONTROL Horas], [!UICONTROL Usuários]ou [!UICONTROL Funções do Trabalho].
+Por exemplo, quando você planeja uma grande quantidade de trabalho, é necessário usar a variável [!UICONTROL Projeto] para definir esse trabalho. Para dividir esse trabalho em incrementos planejados menores, você pode usar o [!UICONTROL Tarefa] objeto. Para uma quantidade menor de trabalho que não é planejado e pode ocorrer inesperadamente, você pode usar o objeto Problema. Se você quiser acompanhar o progresso e a adesão ao orçamento e à linha do tempo de um grupo de projetos, é possível organizá-los em [!UICONTROL Portfolio] e [!UICONTROL Programas]. Para definir outros elementos que ajudam a resolver seu trabalho, use outros objetos armazenados em [!UICONTROL Projetos], [!UICONTROL Tarefas], [!UICONTROL Problemas]ou [!UICONTROL Portfolio], como [!UICONTROL Documentos], [!UICONTROL Notas], [!UICONTROL Horas], [!UICONTROL Usuários]ou [!UICONTROL Funções de trabalho].
 
-[!UICONTROL Relatórios] e [!UICONTROL Painéis] são outro exemplo de objetos que pode ajudar a organizar a quantidade de dados que você tem em [!DNL Workfront] visualmente, para facilitar o acesso para todos os usuários.
+[!UICONTROL Relatórios] e [!UICONTROL Painéis] são outro exemplo de objetos que podem ajudá-lo a organizar a quantidade de dados que você tem no [!DNL Workfront] visualmente, para torná-lo facilmente acessível a todos os usuários.
 
 Para obter uma lista completa de objetos em [!DNL Workfront], consulte o [API Explorer](../../../wf-api/general/api-explorer.md).
 
 ## Interdependência e hierarquia de objetos
 
-Os objetos são vinculados uns aos outros no [!UICONTROL Workfront]. Por exemplo, uma tarefa ou um problema nunca pode existir independentemente fora de um projeto. [!UICONTROL Tarefas] e [!UICONTROL problemas] são exemplos de objetos armazenados no [!UICONTROL projeto] objeto. [!UICONTROL Tarefas] e [!UICONTROL problemas] são considerados objetos filhos de projetos.
+Objetos são vinculados entre si no [!UICONTROL Workfront]. Por exemplo, uma tarefa ou um problema nunca pode existir independentemente fora de um projeto. [!UICONTROL Tarefas] e [!UICONTROL problemas] são exemplos de objetos armazenados no [!UICONTROL projeto] objeto. [!UICONTROL Tarefas] e [!UICONTROL problemas] são considerados objetos filho de projetos.
 
-Veja a seguir alguns dos objetos usados com mais frequência em [!DNL Workfront] e seus respectivos objetos pai e filho:
+Veja a seguir alguns dos objetos usados com mais frequência no [!DNL Workfront] e seus respectivos objetos pai e filho:
 
 | **Objeto** | **Objetos pai** | **Objetos filho** |
 |---|---|---|
@@ -41,7 +41,7 @@ Veja a seguir alguns dos objetos usados com mais frequência em [!DNL Workfront]
 | [!UICONTROL Projetos] | [!UICONTROL Portfolio], [!UICONTROL Programas] | [!UICONTROL Tarefas], [!UICONTROL Problemas], [!UICONTROL Documentos], [!UICONTROL Notas], [!UICONTROL Horas], [!UICONTROL Usuários] |
 | [!UICONTROL Tarefas] | [!UICONTROL Projetos] | [!UICONTROL Problemas], [!UICONTROL Tarefas Filhas], [!UICONTROL Documentos], [!UICONTROL Notas], [!UICONTROL Horas], [!UICONTROL Usuários] |
 | [!UICONTROL Problemas] | [!UICONTROL Tarefas], [!UICONTROL Projetos] | [!UICONTROL Documentos], [!UICONTROL Notas], [!UICONTROL Horas], [!UICONTROL Usuários] |
-| [!UICONTROL Painéis] |  | [!UICONTROL Relatórios], Páginas externas |
+| [!UICONTROL Painéis] |  | [!UICONTROL Relatórios], Páginas Externas |
 | [!UICONTROL Relatórios] | [!UICONTROL Painéis] |  |
 | [!UICONTROL Grupos] |  | [!UICONTROL Usuários] |
 | [!UICONTROL Equipes] |  | [!UICONTROL Usuários] |
@@ -53,34 +53,34 @@ Veja a seguir alguns dos objetos usados com mais frequência em [!DNL Workfront]
 
 Para obter uma lista completa de objetos em [!DNL Workfront], consulte o [API Explorer](../../../wf-api/general/api-explorer.md).
 
-*Os planos são os objetos da variável [!DNL Workfront Scenario Planner]. Para obter informações sobre o [!DNL Scenario Planner], consulte [O [!UICONTROL Planejador de Cenário] visão geral](../../../scenario-planner/scenario-planner-overview.md).
+*Os planos são os objetos do [!DNL Workfront Scenario Planner]. Para obter informações sobre o [!DNL Scenario Planner], consulte [A variável [!UICONTROL Planejador de cenários] visão geral](../../../scenario-planner/scenario-planner-overview.md).
 
-*[!UICONTROL Metas] são objetos de [!DNL Workfront Goals]. Para obter informações sobre [!DNL Workfront Goals], consulte [[!DNL Adobe Workfront Goals] visão geral](../../../workfront-goals/goal-management/wf-goals-overview.md).
+*[!UICONTROL Metas] são os objetos de [!DNL Workfront Goals]. Para obter informações sobre [!DNL Workfront Goals], consulte [[!DNL Adobe Workfront Goals] visão geral](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
 
 ## Personalizar nomes de objetos
 
-Como um [!DNL Workfront] administrador, é possível personalizar os nomes de objetos em [!DNL Workfront] usando um  [!UICONTROL Modelo de layout].
+Como um [!DNL Workfront] administrador, você pode personalizar nomes de objetos em [!DNL Workfront] usando uma  [!UICONTROL Modelo de layout].
 
 Para obter mais informações sobre como personalizar nomes de objetos usando um  [!UICONTROL Modelo de layout], consulte [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-Após personalizar um modelo de layout e atribuí-lo aos usuários, eles visualizarão os nomes personalizados dos objetos. Os usuários que foram atribuídos ao modelo de layout não veem mais os nomes padrão dos objetos em qualquer lugar no aplicativo Web.
+Depois de personalizar um modelo de layout e atribuí-lo aos usuários, esses usuários verão os nomes personalizados dos objetos. Os usuários atribuídos ao modelo de layout não verão mais os nomes padrão dos objetos em nenhum lugar no aplicativo web.
 
 >[!NOTE]
 >
->Para que os novos nomes dos objetos fiquem visíveis para os usuários, eles devem fazer logoff e logon novamente no [!DNL Workfront] depois de salvar o  [!UICONTROL Modelo de layout].
+>Para que os novos nomes dos objetos fiquem visíveis para os usuários, eles devem efetuar logout e efetuar logon novamente no [!DNL Workfront] depois de salvar o  [!UICONTROL Modelo de layout].
 
 >[!IMPORTANT]
 >
->O [!DNL Workfront] a documentação sempre se refere aos nomes padrão dos objetos. Como um [!DNL Workfront] administrador, certifique-se de notificar os usuários sobre as alterações nos nomes de objetos, para que eles possam entender como usar a variável [!DNL Workfront] documentação, bem como as áreas dos aplicativos que não refletem as alterações nos nomes dos objetos.
+>A variável [!DNL Workfront] A documentação do sempre se refere aos nomes padrão dos objetos. Como um [!DNL Workfront] administrador, certifique-se de notificar os usuários sobre as alterações nos nomes de objetos para que eles possam entender como usar o [!DNL Workfront] documentação, bem como as áreas dos aplicativos que não refletem as alterações nos nomes dos objetos.
 
 * [Nomes de objetos que podem ser personalizados usando um  [!UICONTROL Modelo de layout]](#object-names-that-can-be-customized-using-a-layout-template)
-* [Áreas de [!DNL Workfront] que refletem os nomes de objeto personalizados](#areas-of-workfront-that-reflect-the-customized-object-names)
+* [Áreas de [!DNL Workfront] que refletem os nomes de objetos personalizados](#areas-of-workfront-that-reflect-the-customized-object-names)
 * [Áreas de [!DNL Workfront] que não refletem os nomes de objetos personalizados](#areas-of-workfront-that-do-not-reflect-the-customized-object-names)
 
 ### Nomes de objetos que podem ser personalizados usando um [!UICONTROL Modelo de layout]
 
-Como um [!DNL Workfront] administrador, é possível personalizar os nomes dos seguintes objetos para corresponder à terminologia na organização:
+Como um [!DNL Workfront] administrador, você pode personalizar os nomes dos seguintes objetos para corresponder à terminologia em sua organização:
 
 * [!UICONTROL Portfólio]
 * [!UICONTROL Programa]
@@ -91,32 +91,32 @@ Como um [!DNL Workfront] administrador, é possível personalizar os nomes dos s
 * [!UICONTROL Resultado]*
 * [!UICONTROL Atividade]*
 
-   *[!UICONTROL Metas], [!UICONTROL resultados]e [!UICONTROL atividades] só estarão disponíveis se sua empresa tiver comprado [!DNL Workfront Goals]. Para obter informações sobre [!DNL Workfront Goals], consulte [[!DNL Adobe Workfront Goals] visão geral](../../../workfront-goals/goal-management/wf-goals-overview.md).
+   *[!UICONTROL Metas], [!UICONTROL resultados], e [!UICONTROL atividades] só estarão disponíveis se sua empresa tiver comprado [!DNL Workfront Goals]. Para obter informações sobre [!DNL Workfront Goals], consulte [[!DNL Adobe Workfront Goals] visão geral](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
 * [!UICONTROL Iniciativa]**
 * [!UICONTROL Cenário]**
 * [!UICONTROL Plano]**
 
-   **[!UICONTROL Iniciativas], [!UICONTROL cenários]e [!UICONTROL planos] estão disponíveis somente se sua empresa adquiriu o [!DNL Workfront Scenario Planner]. Para obter informações sobre o [!DNL Scenario Planner], consulte [Introdução ao [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md).
+   **[!UICONTROL Iniciativas], [!UICONTROL cenários], e [!UICONTROL planos] estão disponíveis somente se sua empresa adquiriu o [!DNL Workfront Scenario Planner]. Para obter informações sobre o [!DNL Scenario Planner], consulte [Introdução ao [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md).
 
 
-Por exemplo, se a quantidade maior de trabalho em sua organização for conhecida como &quot;Envolvimento&quot;, você poderá substituir o nome &quot;[!UICONTROL Projeto]&quot; por &quot;Envolvimento&quot;. Seu [!DNL Workfront] a interface mostra &quot;Envolvimento&quot; em vez de &quot;[!UICONTROL Projeto]&#39; em todos os locais onde o nome &#39;[!UICONTROL Projeto]&#39; apareceria.
+Por exemplo, se a maior quantidade de trabalho em sua organização for conhecida como &quot;Envolvimento&quot;, você poderá substituir o nome &quot;Vínculo&quot;[!UICONTROL Projeto]&#39; por &#39;Envolvimento&#39;. Seu [!DNL Workfront] A interface mostra &quot;Envolvimento&quot; em vez de &quot;[!UICONTROL Projeto]&#39; em todos os locais onde o nome &#39;[!UICONTROL Projeto]&#39; apareceria.
 
 Para obter mais informações sobre como personalizar nomes de objetos usando  [!UICONTROL Modelos de layout], consulte [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 Não é possível personalizar os nomes de nenhum outro objeto no Workfront. Para obter uma lista completa de objetos em [!DNL Workfront], consulte o [API Explorer](../../../wf-api/general/api-explorer.md).
 
-Quando você personaliza o nome de um objeto, o novo nome desse objeto aparece na maioria das áreas da variável [!DNL Workfront] aplicativo onde esse nome de objeto seria exibido.
+Quando você personaliza o nome de um objeto, o novo nome desse objeto aparece na maioria das áreas do [!DNL Workfront] aplicativo em que esse nome de objeto seria exibido.
 
-### Áreas de [!DNL Workfront] que refletem os nomes de objeto personalizados
+### Áreas de [!DNL Workfront] que refletem os nomes de objetos personalizados
 
-As seguintes áreas mostram o nome atualizado dos objetos:
+As áreas a seguir mostram o nome atualizado dos objetos:
 
 * Navegação Superior
-* Todas as seções no painel de navegação esquerdo
+* Todas as seções na navegação do painel esquerdo
 * Todos os menus
 * Notificações no aplicativo
-* Construtor de relatórios e elementos de relatório (exibições, filtros e agrupamentos)
+* Elementos do Report Builder e de relatórios (exibições, filtros e agrupamentos)
 * [!UICONTROL Salvar] botões
 * Arquivos exportados
 * Emails
@@ -124,7 +124,7 @@ As seguintes áreas mostram o nome atualizado dos objetos:
 
 ### Áreas de [!DNL Workfront] que não refletem os nomes de objetos personalizados
 
-As seguintes áreas não mostram o nome atualizado dos objetos:
+As áreas a seguir não mostram o nome atualizado dos objetos:
 
 <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Referenced Object Type selection for a Typeahead field in a Custom Form </p> <p>(NOTE: drafting this because I don't think this is true)</p> </li>
@@ -134,14 +134,14 @@ As seguintes áreas não mostram o nome atualizado dos objetos:
 
 ## Implicações da personalização de nomes de objetos
 
-Você deve estar ciente do seguinte ao personalizar nomes de objetos em [!DNL Workfront]:
+Você deve estar ciente do seguinte ao personalizar nomes de objetos no [!DNL Workfront]:
 
-* Você pode encontrar erros estilísticos ou gramaticais nas exibições do sistema. Por exemplo, se você renomear &#39;[!UICONTROL Problema]&#39; para &#39;Solicitar&#39; e você vê em qualquer lugar do sistema a frase &#39;Uma solicitação&#39;, isso está funcionando como pretendido e não deve ser considerado um erro.
-* Os nomes personalizados dos objetos não são traduzíveis. Somente a variável [!DNL Workfront] os nomes padrão podem ser traduzidos nos idiomas suportados. Para obter mais informações sobre idiomas compatíveis com o [!DNL Workfront], consulte [Idiomas suportados em [!DNL Adobe Workfront]](../../../workfront-basics/supported-languages-in-workfront.md). Os campos de nome de objeto personalizado oferecem suporte a caracteres estrangeiros para que você possa inserir a terminologia em qualquer idioma.
-* Ao personalizar nomes de objetos usando uma  [!UICONTROL Modelo de layout], recomendamos que você atribua sua  [!UICONTROL Modelos de layout] em torno de suas unidades comerciais (equipes ou grupos).\
-   Recomendamos que você use nomes que sejam claramente entendidos pelos usuários dessas unidades de negócios, para evitar confusão.
-* As notificações por email e os relatórios entregues sempre contêm nomes de objetos, conforme definido pelo  [!UICONTROL Modelo de layout] do usuário que gera o email. Seus usuários devem estar preparados para ver nomes de objetos em seus emails que não estejam relacionados a seus grupos ou equipes, se receberem notificações por email de usuários em outras equipes e grupos.\
-   Como um [!DNL Workfront] administrador, aconselhe os usuários a notarem os ícones associados a cada objeto. Os ícones permanecem consistentes entre vários nomes de objetos e são consistentes com o objeto padrão, como ele aparece no banco de dados. Para uma lista de todos [!DNL Workfront] ícones associados a objetos, consulte [Ícones de objeto](#object-icons).
+* Você pode encontrar erros estilísticos ou gramaticais em exibições do sistema. Por exemplo, se você renomear &#39;[!UICONTROL Problema]&#39; para &#39;Solicitação&#39; e você verá em qualquer lugar do sistema a frase &#39;Uma solicitação&#39;, ela está funcionando como pretendido e não deve ser considerada um erro.
+* Os nomes personalizados dos objetos não podem ser traduzidos. Somente o [!DNL Workfront] os nomes padrão podem ser traduzidos nos idiomas compatíveis. Para obter mais informações sobre os idiomas compatíveis com o [!DNL Workfront], consulte [Idiomas com suporte no [!DNL Adobe Workfront]](../../../workfront-basics/supported-languages-in-workfront.md). Os campos de nome de objeto personalizados oferecem suporte a caracteres estrangeiros para que você possa inserir a terminologia em qualquer idioma.
+* Quando você personaliza nomes de objetos usando um  [!UICONTROL Modelo de layout], recomendamos que você atribua sua  [!UICONTROL Modelos de layout] em torno de suas unidades de negócios (equipes ou grupos).\
+   Recomendamos que você use nomes claramente compreendidos pelos usuários dessas unidades de negócios para evitar confusão.
+* As notificações por email e os relatórios entregues sempre contêm nomes de objetos conforme definidos pela  [!UICONTROL Modelo de layout] do usuário que gera o email. Seus usuários devem estar preparados para ver nomes de objetos em seus emails que não estão relacionados ao seu grupo ou equipe, se eles receberem notificações por email de usuários em outras equipes e grupos.\
+   Como um [!DNL Workfront] administrador, avise os usuários para que eles notem os ícones associados a cada objeto. Os ícones permanecem consistentes entre vários nomes de objeto e consistentes com o objeto padrão, conforme ele aparece no banco de dados. Para obter uma lista de todas as [!DNL Workfront] ícones associados a objetos, consulte [Ícones de objeto](#object-icons).
 
    >[!TIP]
    >
@@ -149,7 +149,7 @@ Você deve estar ciente do seguinte ao personalizar nomes de objetos em [!DNL Wo
 
 ## Ícones de objeto
 
-O [!DNL Workfront] a documentação sempre se refere aos nomes padrão dos objetos. Se os objetos tiverem seus nomes personalizados, você poderá confiar no ícone associado a eles para entender qual objeto personalizado corresponde ao qual [!DNL Workfront] objeto padrão.
+A variável [!DNL Workfront] A documentação do sempre se refere aos nomes padrão de objetos. Se os objetos tiverem seus nomes personalizados, você poderá confiar no ícone associado a eles para entender qual objeto personalizado corresponde a qual [!DNL Workfront] objeto padrão.
 
 Para obter mais informações sobre quais objetos podem ter nomes personalizados em [!DNL Workfront], consulte [Nomes de objetos que podem ser personalizados usando um  [!UICONTROL Modelo de layout]](#object-names-that-can-be-customized-using-a-layout-template).
 
@@ -162,7 +162,7 @@ Veja a seguir uma lista de objetos e seus ícones correspondentes no Workfront.
 | [!UICONTROL Meta] | ![](assets/nwe-goal-icon.png) | ✔ |
 | [!UICONTROL Grupo] | ![](assets/groups-icon-nwe.png)  , ![](assets/nwe-group-icon.png) |  |
 | [!UICONTROL Problema] | ![](assets/issue-icon-nwe.png)  , ![](assets/nwe-issues-icon.png) | ✔ |
-| [!UICONTROL Função de trabalho] | ![job_role_icon.png](assets/job-role-icon-52x50.png), ![job_role_icon_1_.png](assets/job-role-icon--1--53x44.png), ![](assets/job-role-nwe-no-color.png), ![](assets/job-role-icon-nwe-color.png) |  |
+| [!UICONTROL Função de trabalho] | ![job_role_icon.png](assets/job-role-icon-52x50.png), ![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png), ![](assets/job-role-nwe-no-color.png), ![](assets/job-role-icon-nwe-color.png) |  |
 | [!UICONTROL Plano] | ![](assets/plan-icon.png), ![](assets/nwe-plan-icon-60x57.png) |  |
 | [!UICONTROL Portfólio] | ![](assets/portfolio-icon-nwe.png)  , ![](assets/nwe-portfolios-icon.png) | ✔ |
 | [!UICONTROL Programa] | ![](assets/program-icon-nwe.png)  , ![](assets/nwe-programs-icon.png) | ✔ |
@@ -174,15 +174,15 @@ Veja a seguir uma lista de objetos e seus ícones correspondentes no Workfront.
 
 ## Números de referência de objetos
 
-Cada objeto criado em [!DNL Workfront] é atribuído um número de referência exclusivo. Os números de referência são úteis na distinção entre dois objetos similares (como tarefas com o mesmo nome). É possível pesquisar objetos usando seus números de referência e incluir números de referência em relatórios.
+Cada objeto criado em [!DNL Workfront] é atribuído a um número de referência exclusivo. Números de referência são úteis na distinção entre dois objetos semelhantes (como tarefas com o mesmo nome). Você pode pesquisar objetos usando seus números de referência e pode incluir números de referência em relatórios.
 
 Para obter informações sobre como pesquisar objetos por número de referência, consulte [Usar o número de referência de objetos](../../../workfront-basics/navigate-workfront/search/reference-number-of-objects.md).
 
 ## Pesquisas específicas por objeto
 
-É possível pesquisar em todos os objetos pesquisáveis no [!DNL Workfront]ou você pode selecionar um objeto específico para procurar em suas pesquisas básicas e avançadas.
+Você pode pesquisar em todos os objetos que podem ser pesquisados no [!DNL Workfront]ou você pode selecionar um objeto específico para procurar em suas pesquisas básicas e avançadas.
 
-Nem todos os objetos podem ser pesquisados no [!DNL Workfront]. Você pode executar pesquisas básicas e avançadas para os seguintes objetos em [!DNL Workfront]:
+Nem todos os objetos são pesquisáveis em [!DNL Workfront]. Você pode executar pesquisas básicas e avançadas para os seguintes objetos em [!DNL Workfront]:
 
 | **Objeto** | **Pesquisa Básica** | **Busca Avançada** |
 |---|---|---|
@@ -199,29 +199,29 @@ Nem todos os objetos podem ser pesquisados no [!DNL Workfront]. Você pode execu
 | [!UICONTROL Empresas] | ✓ | ✓ |
 | [!UICONTROL Notas] | ✓ |  |
 
-Para obter mais informações sobre como executar pesquisas básicas e avançadas no [!DNL Workfront], consulte [Pesquisar [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
+Para obter mais informações sobre a execução de pesquisas básicas e avançadas no [!DNL Workfront], consulte [Pesquisar [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
 ## Relatório sobre objetos
 
-Compreender a hierarquia e a interdependência de objetos é extremamente importante antes de começar a criar relatórios em [!DNL Workfront]. Os relatórios são específicos do objeto. Você deve selecionar o objeto correto para seu relatório antes de poder exibir os dados desejados.
+Entender a hierarquia e a interdependência de objetos é extremamente importante antes de começar a criar relatórios no [!DNL Workfront]. Os relatórios são específicos de objetos. Você deve selecionar o objeto correto para seu relatório antes de exibir os dados desejados.
 
-Dependendo do objeto selecionado para o relatório, é possível acessar apenas os objetos que estão diretamente vinculados ao objeto do relatório.
+Dependendo do objeto selecionado para o relatório, é possível acessar apenas os objetos diretamente vinculados ao objeto do relatório.
 
 >[!IMPORTANT]
 >
->É possível criar relatórios somente sobre o objeto selecionado e os objetos pai no mesmo relatório. Não é possível ter informações sobre os objetos filhos em um relatório de objeto pai. Por exemplo, você pode exibir informações do projeto em um relatório de tarefa, mas não informações de tarefa em um relatório de projeto.
+>Você pode relatar somente o objeto selecionado e os objetos pai no mesmo relatório. Você não pode ter informações sobre os objetos filhos em um relatório de objeto pai. Por exemplo, você pode exibir informações do projeto em um relatório de tarefa, mas não informações da tarefa em um relatório de projeto.
 
-Você pode criar relatórios sobre todos os objetos no banco de dados usando nossa API aberta. Para obter uma lista completa de todos os objetos no banco de dados, consulte [API Explorer](../../../wf-api/general/api-explorer.md).
+Você pode relatar todos os objetos no banco de dados usando nossa API aberta. Para obter uma lista completa de todos os objetos no banco de dados, consulte [API Explorer](../../../wf-api/general/api-explorer.md).
 
 >[!NOTE]
 >
->Se você personalizou os nomes dos objetos usando um modelo de layout, os nomes dos objetos no construtor de relatórios também foram personalizados. Saiba quais objetos foram personalizados e procure o nome personalizado no construtor de relatórios. Para obter mais informações sobre quais objetos podem ter nomes personalizados em [!DNL Workfront], consulte *[Nomes de objetos que podem ser personalizados usando um  [!UICONTROL Modelo de layout]](#object-names-that-can-be-customized-using-a-layout-template).*
->Ao usar o modo de texto em seus relatórios, os nomes dos objetos em expressões de modo de texto são os nomes padrão em [!DNL Workfront]e não os nomes de objeto personalizados. Para obter mais informações sobre como usar o modo de texto nos relatórios, consulte [Visão geral do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+>Se você tiver personalizado os nomes dos objetos usando um modelo de layout, os nomes do objeto no Report Builder também serão personalizados. Verifique se você sabe quais objetos foram personalizados e procure o nome personalizado no Report Builder. Para obter mais informações sobre quais objetos podem ter nomes personalizados em [!DNL Workfront], consulte *[Nomes de objetos que podem ser personalizados usando um  [!UICONTROL Modelo de layout]](#object-names-that-can-be-customized-using-a-layout-template).*
+>Ao usar o modo de texto em seus relatórios, os nomes dos objetos em expressões de modo de texto são os nomes padrão em [!DNL Workfront], e não os nomes de objeto personalizados. Para obter mais informações sobre como usar o modo de texto em relatórios, consulte [Visão geral do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-Para obter mais informações sobre como criar um relatório, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).\
+Para obter mais informações sobre criação de relatório, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).\
 Para obter mais informações sobre nossa API, consulte [API Explorer](../../../wf-api/general/api-explorer.md).
 
-Você pode criar relatórios sobre os seguintes objetos ao usar o construtor de relatórios na [!DNL Workfront] aplicação web:
+Você pode criar relatórios sobre os seguintes objetos ao usar o Report Builder na [!DNL Workfront] aplicativo web:
 
 * [!UICONTROL Projeto]
 * [!UICONTROL Tarefa]
@@ -240,18 +240,18 @@ Você pode criar relatórios sobre os seguintes objetos ao usar o construtor de 
 * [!UICONTROL Registro de Cobrança]
 * [!UICONTROL Hora orçada]
 
-   Este é o [!UICONTROL Horas Orçamentadas], conforme aparecem no nas ferramentas de gerenciamento de recursos mais antigas e obsoletas.
+   Este é o [!UICONTROL Horas orçadas], conforme aparecem no em ferramentas de gerenciamento de recursos obsoletas e mais antigas.
 
-   O &quot;Bud&quot;. Campo &quot;Horas&quot; na [!UICONTROL Hora do Orçamento] relatório refere-se às horas orçadas para funções de cargo na [!UICONTROL Planejador de recursos]. Para obter mais informações, consulte [Entender [!UICONTROL Custo de Mão-de-Obra Orçada] e [!UICONTROL Horas Orçamentadas] para projetos](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
+   O &quot;Bud. Hours&quot; no campo [!UICONTROL Hora orçada] refere-se às horas orçadas para funções de trabalho na [!UICONTROL Planejador de recursos]. Para obter mais informações, consulte [Compreender [!UICONTROL Custo do Trabalho Orçado] e [!UICONTROL Horas orçadas] para projetos](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
 
 * [!UICONTROL Evento de calendário]
-* [!UICONTROL Categoria] ou [!UICONTROL Formulário personalizado])
+* [!UICONTROL Categoria] (ou [!UICONTROL Formulário personalizado])
 * [!UICONTROL Empresa]
 * [!UICONTROL Painel de Controle]
 * [!UICONTROL Documento]
 * [!UICONTROL Aprovação de documento]
 * [!UICONTROL Versão do Documento]\
-   Permite exibir várias informações sobre a versão do documento, o documento ao qual a versão está associada, quem criou a versão e o usuário que criou a prova na versão do documento, se existir (Criador de prova).
+   Permite exibir várias informações sobre a versão do documento, o documento ao qual a versão está associada, quem criou a versão e o usuário que criou a prova na versão do documento, se existir (Criador da prova).
 * [!UICONTROL Modelo de email]
 * [!UICONTROL Despesa]
 * [!UICONTROL Tipo de Despesa]
@@ -260,7 +260,7 @@ Você pode criar relatórios sobre os seguintes objetos ao usar o construtor de 
 * [!UICONTROL Filtro]
 * [!UICONTROL Meta]
 
-   Você pode criar um relatório para metas estratégicas ou pode exibir informações relacionadas à meta em um relatório de projeto quando os projetos estão associados a metas como atividades de meta. Você pode criar metas estratégicas e conectar projetos somente se sua organização tiver comprado um [!DNL Workfront Goals] licença. Para obter informações sobre [!DNL Workfront Goals], consulte [[!DNL Workfront Goals] visão geral](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en). Para obter informações sobre como conectar projetos a metas estratégicas, consulte [Adicionar projetos às metas em Metas da Adobe Workfront](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FResults_and_activities%2Fconnect-projects-to-goals-overview.htm&amp;_LANG=en).
+   Você pode criar um relatório para metas estratégicas ou exibir informações relacionadas a metas em um relatório de projeto quando os projetos são associados a metas como atividades de meta. Você pode criar metas estratégicas e conectá-las a projetos somente se a organização tiver comprado uma [!DNL Workfront Goals] licença. Para obter informações sobre [!DNL Workfront Goals], consulte [[!DNL Workfront Goals] visão geral](../../../workfront-goals/goal-management/wf-goals-overview.md). Para obter informações sobre como conectar projetos a metas estratégicas, consulte [Adicionar projetos às metas no Adobe Workfront Goals](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
    <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -270,36 +270,26 @@ Você pode criar relatórios sobre os seguintes objetos ao usar o construtor de 
 
    >[!TIP]
    >
-   >Não é possível relatar as metas do projeto associadas a um [!UICONTROL Caso de negócios]. Para obter informações sobre metas de projeto versus metas estratégicas, consulte [Glossário de [!DNL Adobe Workfront] terminologia](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >Não é possível relatar metas do projeto associadas a um [!UICONTROL Business Case]. Para obter informações sobre metas do projeto e metas estratégicas, consulte [Glossário de [!DNL Adobe Workfront] terminologia](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * [!UICONTROL Grupo]
 * [!UICONTROL Agrupamento]
 * [!UICONTROL Tipo de hora]
 * [!UICONTROL Iniciativa]
 
-   Você pode criar um relatório para iniciativas que são objetos filhos de um plano somente se sua empresa adquiriu um [!DNL Workfront Scenario Planner] licença. Para obter informações sobre iniciativas, consulte [Visão geral das iniciativas na [!DNL Workfront Scenario Planner]](https://one.workfront.com/s/csh?context=2066&amp;pubname=the-new-workfront-experience).
+   Você pode criar um relatório para iniciativas que são objetos secundários de um plano somente se sua empresa tiver comprado um [!DNL Workfront Scenario Planner] licença. Para obter informações sobre iniciativas, consulte [Visão geral das iniciativas no [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md).
 
-   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: this link is hardcoded)
-  </MadCap:conditionalText>
-  -->
 
 * Função de trabalho da iniciativa
 
-   Você pode criar um relatório para as funções de cargo associadas às iniciativas em um plano somente se a empresa adquiriu um [!DNL Workfront Scenario Planner] licença. Para obter informações sobre como criar iniciativas e associá-las a funções de cargo, consulte [Crie e edite iniciativas na [!DNL Workfront Scenario Planner]](https://one.workfront.com/s/csh?context=2061&amp;pubname=the-new-workfront-experience).
+   Você pode criar um relatório para as funções de trabalho associadas às iniciativas em um plano somente se sua empresa tiver comprado um [!DNL Workfront Scenario Planner] licença. Para obter informações sobre como criar iniciativas e associá-las a funções de trabalho, consulte [Criar e editar iniciativas no [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md).
 
-   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: this link is hardcoded)
-  </MadCap:conditionalText>
-  -->
 
 * [!UICONTROL Iteração]
 * [!UICONTROL Função de trabalho]
 * [!UICONTROL Entrada no Relatório]
 
-   Você pode criar relatórios sobre atualizações rastreadas do sistema no [!UICONTROL Atualizações] área de objetos como tarefas, projetos, problemas, etc. Para saber mais, consulte [Relatório sobre [!UICONTROL Atualizações] area](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+   Você pode criar relatórios sobre atualizações de sistema rastreadas na [!UICONTROL Atualizações] área de objetos como tarefas, projetos, problemas, etc. Para saber mais, consulte [Relatório sobre a [!UICONTROL Atualizações] área](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 * [!UICONTROL Modelo de Layout]
 * [!UICONTROL Etapa]
@@ -308,47 +298,47 @@ Você pode criar relatórios sobre os seguintes objetos ao usar o construtor de 
 
    >[!NOTE]
    >
-   >É possível criar relatórios sobre comentários adicionados por usuários individuais.
+   >Você pode relatar comentários adicionados por usuários individuais.
 
-* [!UICONTROL Parâmetro] ou [!UICONTROL Campo personalizado])
-* [!UICONTROL Grupo de parâmetros] ou [!UICONTROL Quebra de seção])
-* [!UICONTROL Perfil do portal] (isso exibe informações que foram substituídas)
+* [!UICONTROL Parâmetro] (ou [!UICONTROL Campo personalizado])
+* [!UICONTROL Grupo de Parâmetros] (ou [!UICONTROL Quebra de seção])
+* [!UICONTROL Perfil de Portal] (exibe informações que foram descontinuadas)
 * [!UICONTROL Portfólio]
 * [!UICONTROL Programa]
 * [!UICONTROL Projeto] ([!UICONTROL Dados financeiros])
 
    >[!NOTE]
    >
-   >As informações financeiras são preenchidas em [!UICONTROL Projeto] ([!UICONTROL Dados financeiros]) relata somente quando os dados associados a ela tiverem menos de 5 anos. Por exemplo, se uma função de trabalho foi alocada para uma tarefa em janeiro de 2015 e hoje é setembro de 2021, um campo financeiro como o [!UICONTROL Data de alocação] para a função de trabalho não é preenchida na variável [!UICONTROL Projeto (Dados Financeiros)] relatório.
+   >As informações financeiras são preenchidas em [!UICONTROL Projeto] ([!UICONTROL Dados financeiros]) relatórios somente quando os dados associados a eles tiverem menos de cinco anos. Por exemplo, se uma função de trabalho foi alocada para uma tarefa em janeiro de 2015 e hoje é setembro de 2021, um campo financeiro como o [!UICONTROL Data de Alocação] para a função de trabalho não é preenchida na [!UICONTROL Projeto (Dados Financeiros)] relatório.
 
 * [!UICONTROL Aprovação da revisão]\
-   Permite exibir várias informações sobre a aprovação de prova, incluindo: a prova que foi submetida para aprovação, informações sobre a [!UICONTROL Aprovador], informações sobre o Requerente (se o Requerente for um licenciado) [!DNL Workfront] usuário), informações de versão, a ID da prova e a data de criação da prova.\
-   [!UICONTROL Aprovação de prova] Os relatórios incluem somente provas que estão disponíveis nas áreas Meu trabalho dos usuários, onde as decisões ainda não foram tomadas.\
-   As aprovações de prova são atribuídas em [!DNL Workfront] conforme descrito [Adicionar usuários a uma prova](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) em [Compartilhar uma prova em [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+   Permite exibir várias informações sobre a aprovação de prova, incluindo: a prova que foi enviada para aprovação, informações sobre a [!UICONTROL Aprovador], informações sobre o Solicitante (se o Solicitante for um licenciado [!DNL Workfront] usuário), informações de versão, a ID da prova e a data de criação da prova.\
+   [!UICONTROL Aprovação da prova] Os relatórios do incluem somente provas que estão disponíveis nas áreas Meu trabalho dos usuários, onde ainda não foram tomadas decisões.\
+   Aprovações de provas são atribuídas em [!DNL Workfront] conforme descrito [Adicionar usuários a uma prova](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) in [Compartilhar uma prova no [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
 * [!UICONTROL Fila]
 * [!UICONTROL Enfileirar tópico]
-* [!UICONTROL Rate] (isso exibe a função de trabalho [!UICONTROL Taxa de Faturamento] informações)
+* [!UICONTROL Taxa] (isso exibe a função de trabalho [!UICONTROL Taxa de cobrança] informações)
 * [!UICONTROL Lembrete de Notificação]
 * [!UICONTROL Relatório]
 * [!UICONTROL Conjunto de Recursos]
 * [!UICONTROL Risco]
 * [!UICONTROL Tipo de Risco]
-* [!UICONTROL Cronograma]
+* [!UICONTROL Agendar]
 * [!UICONTROL Scorecard]
 * [!UICONTROL Equipe]
 * [!UICONTROL Modelo]
 * [!UICONTROL Modelo de Tarefa]
 * [!UICONTROL Folga]
 
-   Você pode relatar o tempo de folga de um usuário, conforme indicado pelo usuário em seu perfil.
+   Você pode relatar o tempo de folga de um usuário conforme indicado pelo usuário em seu perfil.
 
 * [!UICONTROL Planilha de horas]
 * [!UICONTROL Perfil da Planilha de Horas]
 * [!UICONTROL Grupo de Tópicos]
 * [!UICONTROL Delegação de usuários]
 
-   Você pode relatar usuários que foram delegados para executar tarefas e problemas de outras pessoas enquanto estão fora do escritório. Este relatório exibe o usuário que está fora do escritório, bem como o usuário que cumpre suas funções enquanto está fora.
+   Você pode relatar usuários que foram delegados a executar tarefas e problemas de outras pessoas enquanto estiverem fora do escritório. Esse relatório exibe o usuário que está fora do escritório, bem como o usuário que cumpre suas obrigações enquanto está fora.
 
 * [!UICONTROL Exibir]
-* [!UICONTROL Item de Trabalho] (refere-se a tarefas e questões)
+* [!UICONTROL Item de trabalho] (refere-se a tarefas e problemas)
