@@ -6,10 +6,10 @@ description: A seguir estão os links para as notas de versão atuais e anterior
 author: Luke
 feature: Product Announcements
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: e9faaf52158030cd48ad11938186054594992c34
+source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 14%
+source-wordcount: '160'
+ht-degree: 15%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 14%
 
 A seguir estão os links para as notas de versão atuais e anteriores.
 
-Para obter informações sobre o cronograma de lançamento do Adobe Workfront, consulte [Cronograma e processo de lançamento do Adobe Workfront](../../product-announcements/product-releases/workfront-release-schedule.md).
+Para obter informações sobre a programação de lançamento do Adobe Workfront, consulte [Programação e processo de lançamento do Adobe Workfront](../../product-announcements/product-releases/workfront-release-schedule.md).
 
-Para obter informações sobre como ajudar sua organização a se ajustar sem problemas a novas versões, consulte [Prontidão da versão](../../product-announcements/product-releases/release-readiness.md).
+Para obter informações sobre como ajudar sua organização a se ajustar sem problemas a novas versões, consulte [Disponibilidade de lançamento](../../product-announcements/product-releases/release-readiness.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,55 +30,55 @@ Para obter informações sobre como ajudar sua organização a se ajustar sem pr
    <td>Outras versões de produtos</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Versões de 2023</p> 
+   <td> <p>Versões em 2023</p> 
     <ul> 
-    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão 23.3</a> </p> </li>
-    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão 23.2</a> </p> </li>
+    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md" class="MCXref xref" xrefformat="{para}">23.3 Visão geral da versão</a> </p> </li>
+    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md" class="MCXref xref" xrefformat="{para}">23.2 Visão geral da versão</a> </p> </li>
     <li> <p><a href="../../product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão 23.1</a> </p> </li>
     </ul> </td> 
    <td>    <ul> 
-     <li> <p><a href="../../product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md" class="MCXref xref" xrefformat="{para}">Metas da Adobe Workfront com a versão 23.3</a> </p> </li> 
-     <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Atividade de versão do Adobe Workfront Fusion</a> </p> </li> 
+     <li> <p><a href="../../product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Goals com a versão 23.3</a> </p> </li> 
+     <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Atividade de lançamento do Adobe Workfront Fusion</a> </p> </li> 
     </ul></td> 
   </tr>
   <tr data-mc-conditions=""> 
-   <td> <p>Versões de 2022</p> 
+   <td> <p>Versões em 2022</p> 
     <ul> 
-    <li> <p><a href="../../product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão 2.4</a> </p> </li>
-    <li> <p><a href="../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão 2.3</a> </p> </li>
-     <li> <p><a href="../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão 2.2</a> </p> </li> 
-     <li> <p><a href="../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão 2.1</a> </p> </li> 
+    <li> <p><a href="../../product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md" class="MCXref xref" xrefformat="{para}">22.4 Visão geral da versão</a> </p> </li>
+    <li> <p><a href="../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão 22.3</a> </p> </li>
+     <li> <p><a href="../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão 22.2</a> </p> </li> 
+     <li> <p><a href="../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão 22.1</a> </p> </li> 
     </ul> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Versões de 2021</p> 
+   <td> <p>Versões em 2021</p> 
     <ul> 
-     <li> <p><a href="../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão 21.4</a> </p> </li> 
-     <li> <p><a href="../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão 21.3</a> </p> </li> 
-     <li> <p><a href="../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão 21.2</a> </p> </li> 
+     <li> <p><a href="../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md" class="MCXref xref" xrefformat="{para}">21.4 Visão geral da versão</a> </p> </li> 
+     <li> <p><a href="../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md" class="MCXref xref" xrefformat="{para}">21.3 Visão geral da versão</a> </p> </li> 
+     <li> <p><a href="../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md" class="MCXref xref" xrefformat="{para}">21.2 Visão geral da versão</a> </p> </li> 
      <li> <p><a href="../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão 21.1</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md" class="MCXref xref" xrefformat="{para}">Metas da Adobe Workfront com a versão 21.2</a> </p> </li> 
-     <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Atividade de versão do Adobe Workfront Fusion</a> </p> </li> 
+     <li> <p><a href="../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Goals com a versão 21.2</a> </p> </li> 
+     <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Atividade de lançamento do Adobe Workfront Fusion</a> </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td> <p>Versões de 2020</p> 
+   <td> <p>Versões em 2020</p> 
     <ul> 
-     <li><a href="../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão 20.4</a> <li><a href="../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão 20.3</a> </li> <li><a href="https://one.workfront.com/s/article/2020-2-release-overview-439776658?language=en_US">Visão geral da versão 2020.2</a> </li> <li><a href="../../product-announcements/product-releases/2020.1-release-activity/2020.1-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão 2020.1</a> </li> </li> 
-    </ul> <p>Versões de 2019</p> 
+     <li><a href="../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão 20.4</a> <li><a href="../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão 20.3</a> </li> <li><a href="/help/quicksilver/product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md">Visão geral da versão 2020.2</a> </li> <li><a href="../../product-announcements/product-releases/2020.1-release-activity/2020.1-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão 2020.1</a> </li> </li> 
+    </ul> <p>Versões em 2019</p> 
     <ul> 
-     <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019.3-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da atividade da versão 2019.3</a> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019.2-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da atividade da versão 2019.2</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019.1-release-activity.md" class="MCXref xref" xrefformat="{para}">Atividade de versão 2019.1</a> </li> </li> 
+     <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019.3-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da atividade da versão 2019.3</a> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019.2-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da atividade da versão 2019.2</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019.1-release-activity.md" class="MCXref xref" xrefformat="{para}">Atividade da versão 2019.1</a> </li> </li> 
     </ul> <p>Versões anteriores</p> 
     <ul> 
-     <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018.3-release-activity.md" class="MCXref xref" xrefformat="{para}">Atividade de versão 2018.3</a> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018.2-release-activity.md" class="MCXref xref" xrefformat="{para}">Atividade de versão 2018.2</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018.1-release-activity.md" class="MCXref xref" xrefformat="{para}">Atividade de versão 2018.1</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017.3-release-activity.md" class="MCXref xref" xrefformat="{para}">Atividade de versão 2017.3</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017.2-release-activity.md" class="MCXref xref" xrefformat="{para}">Atividade de versão 2017.2</a> </li> </li> 
+     <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018.3-release-activity.md" class="MCXref xref" xrefformat="{para}">Atividade da versão 2018.3</a> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018.2-release-activity.md" class="MCXref xref" xrefformat="{para}">Atividade da versão 2018.2</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018.1-release-activity.md" class="MCXref xref" xrefformat="{para}">Atividade da versão 2018.1</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017.3-release-activity.md" class="MCXref xref" xrefformat="{para}">Atividade da versão 2017.3</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017.2-release-activity.md" class="MCXref xref" xrefformat="{para}">Atividade da versão 2017.2</a> </li> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li><a href="../../product-announcements/product-releases/goals-release-activity/goals-release-activity.md" class="MCXref xref" xrefformat="{para}">Atividade de liberação das Metas do Adobe Workfront</a> <li><a href="../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md" class="MCXref xref" xrefformat="{para}">Atividade de lançamento do Adobe Workfront Scenario Planner</a> </li> <li><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Atividade de versão do Adobe Workfront Fusion</a> </li> </li> 
+     <li><a href="../../product-announcements/product-releases/goals-release-activity/goals-release-activity.md" class="MCXref xref" xrefformat="{para}">Atividade de lançamento do Adobe Workfront Goals</a> <li><a href="../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md" class="MCXref xref" xrefformat="{para}">Atividade de lançamento do Planejador de cenários do Adobe Workfront</a> </li> <li><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Atividade de lançamento do Adobe Workfront Fusion</a> </li> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
