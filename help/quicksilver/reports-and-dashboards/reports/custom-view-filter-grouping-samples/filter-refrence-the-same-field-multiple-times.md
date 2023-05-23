@@ -2,23 +2,23 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filtro: criar várias regras de filtro que fazem referência ao mesmo campo (instruções 'AND')"
-description: Na interface do modo padrão, ao tentar criar vários filtros que fazem referência ao mesmo campo (usando o qualificador AND), um dos filtros é excluído ao salvar o relatório e sair do construtor de relatórios.
+title: '"Filtro: crie várias regras de filtro que fazem referência ao mesmo campo (instruções "AND")"'
+description: Na interface do modo padrão, ao tentar criar vários filtros que fazem referência ao mesmo campo (usando o qualificador AND), um dos filtros é excluído quando você salva o relatório e sai do Report Builder.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: fb167e9f-c8bd-43f6-84c9-9a87e80c3eb2
-source-git-commit: 8b6324302a70319f387d1e09d1eb92fbdabf7e32
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
 
-# Filtro: criar várias regras de filtro que fazem referência ao mesmo campo (instruções &quot;AND&quot;)
+# Filtro: crie várias regras de filtro que fazem referência ao mesmo campo (&quot;AND&quot; instruções)
 
-Na interface do modo padrão, ao tentar criar vários filtros que fazem referência ao mesmo campo (usando o qualificador AND), um dos filtros é excluído ao salvar o relatório e sair do construtor de relatórios.
+Na interface do modo padrão, ao tentar criar vários filtros que fazem referência ao mesmo campo (usando o qualificador AND), um dos filtros é excluído quando você salva o relatório e sai do Report Builder.
 
-**Exemplo:** Talvez você queira exibir apenas as tarefas que contêm a palavra &quot;verde&quot;, mas não contêm a palavra &quot;vermelho&quot; no nome. O Adobe Workfront não permite salvar as seguintes regras de filtro usando a interface de modo padrão, pois ela faz referência ao mesmo campo (Nome da Tarefa), mas usa modificadores diferentes e faz referência a valores diferentes:
+**Exemplo:** Talvez você queira exibir apenas as tarefas que contenham a palavra &quot;verde&quot;, mas que não contenham a palavra &quot;vermelho&quot; no nome. O Adobe Workfront não permite salvar as seguintes regras de filtro usando a interface de modo padrão, pois faz referência ao mesmo campo (Nome da tarefa), mas usa modificadores diferentes e faz referência a valores diferentes:
 
 * Nome da tarefa > Contém > Verde
 * Nome da tarefa > Não contém > Vermelho
@@ -27,40 +27,43 @@ No entanto, é possível criar esse filtro usando o modo de texto.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> <p>Qualquer Um</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> </td> 
+   <td> <p>Solicitação para modificar um filtro </p>
+   <p>Planejar a modificação de um relatório</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a Relatórios, Painéis, Calendários</p> <p>Editar acesso a filtros, visualizações, agrupamentos</p> <p>Observação: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
-  </tr> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> <p><b>Nota</b>
+
+Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões de um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
 ## Criar várias regras de filtro que fazem referência ao mesmo campo
 
-1. Vá para uma lista de tarefas.
-1. No **Filtro** , selecione **Novo filtro**.
-1. Clique em **Alternar para o modo de texto**.
-1. Passe o mouse sobre a área do modo de texto e clique em **Clique para editar texto**.
-1. Na área Definir regras de filtro para seu relatório , adicione o seguinte código:
+1. Ir para uma lista de tarefas.
+1. No **Filtro** selecione **Novo Filtro**.
+1. Clique em **Alternar para modo de texto**.
+1. Passe o mouse sobre a área do modo de texto e clique em **Clique para editar o texto**.
+1. Na área Definir regras de filtro para relatórios, adicione o seguinte código:
 
    ```
    name=green
@@ -71,7 +74,7 @@ Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contat
 
    >[!TIP]
    >
-   >Para criar filtros semelhantes, crie a primeira instrução primeiro. Por exemplo:
+   >Para construir filtros semelhantes, crie a primeira instrução primeiro. Por exemplo:
    >
    >
    ```
@@ -79,13 +82,13 @@ Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contat
    >name_Mod=cicontains
    >```
    >
-   >Copie e cole a declaração quantas vezes forem necessárias. Em seguida, é possível adicionar quantas instruções forem necessárias para fazer referência ao mesmo campo (no nosso caso, &quot;name&quot;) e fazer as seguintes modificações nas declarações adicionais:
+   >Copie e cole a instrução quantas vezes forem necessárias. Em seguida, você pode adicionar quantas instruções forem necessárias para fazer referência ao mesmo campo (no nosso caso, &quot;nome&quot;) e fazer as seguintes modificações nas instruções adicionais:
    >
-   >1. Preceder as duas linhas copiadas com &quot;AND:1:&quot;, &quot;E:2:&quot;, &quot;E:3:&quot;, etc para cada novo valor possível de campo.
+   >1. Preceda as duas linhas copiadas com &quot;AND:1:&quot;, &quot;E:2:&quot;, &quot;E:3:&quot;, etc para cada novo valor de campo possível.
    >1. Substitua a linha de campo pelo novo valor de campo (após o sinal &quot;=&quot;).
    >1. Substitua a linha do modificador (_Mod) pelo novo modificador.
 
    >   
-   >Essas instruções diferenciam maiúsculas de minúsculas.
+   >Essas instruções fazem distinção entre maiúsculas e minúsculas.
 
-1. Clique em **Concluído**, em seguida **Salvar filtro**.
+1. Clique em **Concluído**, depois **Salvar Filtro**.

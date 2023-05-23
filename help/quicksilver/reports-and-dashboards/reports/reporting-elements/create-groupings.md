@@ -6,9 +6,9 @@ description: Você pode criar um agrupamento personalizado do zero ou personaliz
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -25,23 +25,23 @@ Você pode criar um agrupamento personalizado do zero ou personalizar um agrupam
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Plano Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>plano do Adobe Workfront*</strong></td> 
    <td> <p>Qualquer Um</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
-   <td> <p>Plano </p> </td> 
+   <td> <p>Solicitação ou superior </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>Editar acesso a filtros, visualizações, agrupamentos</p> <p>Editar acesso a Relatórios, Painéis, Calendários para criar um agrupamento em um relatório</p> <p>Observação: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Editar acesso a Relatórios, Painéis, Calendários para criar um agrupamento em um relatório</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
@@ -50,22 +50,22 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
 ## Criar um agrupamento
 
-1. Vá para o relatório ou a lista onde deseja criar o agrupamento personalizado.
-1. Clique no botão **Agrupamento** ícone .
+1. Vá para o relatório ou lista onde deseja criar o agrupamento personalizado.
+1. Clique em **Agrupamento** ícone .
 
    ![Selecionar novo agrupamento](assets/newgrouping-nwe-standard-350x304.png)
 
-1. Clique em **Novo agrupamento**.
+1. Clique em **Novo Agrupamento**.
 O construtor de interface para criar as inicializações de agrupamento.
 
-1. No **Visualização de agrupamento** seção , clique em **Adicionar agrupamento** para definir como deseja que as informações no relatório sejam organizadas. Uma visualização da aparência do agrupamento no relatório é mostrada abaixo.
+1. No **Visualização do agrupamento** clique em **Adicionar Agrupamento** para definir como você deseja que as informações no relatório sejam organizadas. Uma visualização da aparência do agrupamento no relatório é mostrada abaixo.
 
-1. Comece digitando o nome do campo que representa a maneira como você deseja organizar as informações no relatório e clique nele quando ele for exibido na lista suspensa.
-1. (Opcional e condicional) Ao criar um agrupamento em uma lista atualizada, selecione **Recolher este agrupamento por predefinição** se desejar que os resultados no agrupamento exibam os resultados recolhidos em vez de expandidos. Essa configuração é desativada por padrão e os resultados do agrupamento sempre são exibidos na lista expandida.
+1. Comece digitando o nome do campo que representa a maneira como deseja organizar as informações no relatório e, em seguida, clique nele quando ele aparecer na lista suspensa.
+1. (Opcional e condicional) Ao criar um agrupamento em uma lista atualizada, selecione **Recolher este agrupamento por padrão** se desejar que os resultados no agrupamento sejam exibidos recolhidos, em vez de expandidos. Essa configuração é desabilitada por padrão e os resultados do agrupamento sempre são exibidos na lista expandida.
 
    Para obter informações sobre listas atualizadas e herdadas, consulte a seção [A diferença entre as listas atualizadas e herdadas](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) no artigo [Introdução a listas no Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
@@ -75,12 +75,12 @@ O construtor de interface para criar as inicializações de agrupamento.
 
    >[!TIP]
    >
-   >* Ao ajustar manualmente os agrupamentos ao visualizar uma lista, o Workfront lembra de sua preferência manual até que você saia. Quando você faz logon novamente, a lista é exibida de acordo com essa configuração.
-   >* Os resultados de um agrupamento sempre são expandidos depois de acessá-los a partir de um elemento de gráfico ou em uma lista herdada. Nesses casos, essa configuração é ignorada.
+   >* Quando você ajusta agrupamentos manualmente ao visualizar uma lista, o Workfront lembra de sua preferência manual até que você faça logout. Ao fazer logon novamente, a lista é exibida de acordo com essa configuração.
+   >* Os resultados de um agrupamento sempre são exibidos expandidos depois de acessá-los a partir de um elemento do gráfico ou em uma lista herdada. Nesses casos, essa configuração é ignorada.
 
 
-1. Repita as Etapas 4, 5 e 6 para definir agrupamentos adicionais.\
-   É possível definir até três agrupamentos para organizar informações. Você pode ainda organizar suas informações com até quatro agrupamentos, criando um relatório de matriz. Para obter mais informações sobre relatórios de matriz, consulte [Criar um relatório de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+1. Repita as etapas 4, 5 e 6 para definir agrupamentos adicionais.\
+   É possível definir até três agrupamentos para organizar as informações. Você pode organizar ainda mais suas informações com até quatro agrupamentos criando um relatório de matriz. Para obter mais informações sobre relatórios de matriz, consulte [Criar um relatório de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
 1. Clique em **Salvar Agrupamento**.
 
@@ -88,8 +88,8 @@ O construtor de interface para criar as inicializações de agrupamento.
 
 Consulte também:
 
-* [Visão geral dos agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
-* [Elementos de relatório: filtros, visualizações e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
+* [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+* [Elementos de relatórios: filtros, visualizações e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 * [Editar agrupamentos existentes](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
 
 <!--

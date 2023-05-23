@@ -3,85 +3,88 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: Agrupar um relatório por um campo personalizado de várias seleções
-description: É possível agrupar pelo valor em um campo personalizado de várias seleções em um relatório do Adobe Workfront. Exemplos de campos personalizados de seleção múltipla são - EDITE-ME.
+description: Você pode agrupar pelo valor em um campo personalizado de várias seleções em um relatório do Adobe Workfront. Exemplos de campos personalizados de seleção múltipla são - EDIT ME.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
 # Agrupar um relatório por um campo personalizado de várias seleções
 
-É possível agrupar pelo valor em um campo personalizado de várias seleções em um relatório do Adobe Workfront. Exemplos de campos personalizados de seleção múltipla são:
+Você pode agrupar pelo valor em um campo personalizado de várias seleções em um relatório do Adobe Workfront. Exemplos de campos personalizados de seleção múltipla são:
 
 * Caixa de Seleção
 * Menus suspensos de seleção múltipla
 
-É possível agrupar por esse tipo de campo apenas usando o modo de texto. Para obter informações sobre como usar o modo de texto, consulte o artigo [Visão geral do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Você pode agrupar por esse tipo de campo somente usando o modo de texto. Para obter informações sobre como usar o modo de texto, consulte o artigo [Visão geral do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 >[!NOTE]
 >
->Não é possível criar um gráfico de relatório por um campo personalizado de várias seleções. É necessário criar um campo calculado adicional que faça referência ao campo personalizado de várias seleções para também fazer o gráfico do relatório pelo valor do campo personalizado de várias seleções. Para obter mais informações, consulte [Gráfico de um relatório por um campo personalizado de várias seleções](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
+>Não é possível criar um relatório por meio de um campo personalizado de várias seleções. É necessário criar um campo calculado adicional que se refira ao campo personalizado de seleção múltipla para também representar o gráfico do relatório pelo valor do campo personalizado de seleção múltipla. Para obter mais informações, consulte [Criar um gráfico de um relatório por um campo personalizado de várias seleções](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> <p>Qualquer Um</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> </td> 
+   <td> <p>Solicitação para modificar um agrupamento </p>
+   <p>Planejar a modificação de um relatório</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a Relatórios, Painéis, Calendários</p> <p>Editar acesso a filtros, visualizações, agrupamentos</p> <p>Observação: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
-  </tr> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um agrupamento</p> <p><b>Nota</b>
+
+Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
+</tr>  
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões de um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
-## Agrupar um relatório por campos personalizados de várias seleções
+## Agrupar um relatório por campos personalizados de seleção múltipla
 
-Para poder agrupar por um campo personalizado de várias seleções, você deve ter os seguintes pré-requisitos:
+Para poder agrupar por um campo personalizado de seleção múltipla, você deve ter os seguintes pré-requisitos:
 
 * Crie o campo personalizado de várias seleções em um formulário personalizado.\
    Para obter informações sobre como criar formulários personalizados e adicionar campos personalizados a eles, consulte o artigo [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-* Anexe o formulário personalizado aos objetos.
+* Anexe o formulário personalizado a objetos.
 * Preencha o campo personalizado de várias seleções com um valor em cada objeto. 
 
 Para agrupar por um campo personalizado de várias seleções em um relatório:
 
-1. Crie um relatório ou edite um existente onde deseja adicionar um agrupamento para um campo personalizado de várias seleções.\
+1. Crie um relatório ou edite um existente onde deseja adicionar um agrupamento para um campo personalizado de seleção múltipla.\
    Para obter informações sobre como criar relatórios, consulte o artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Selecione o **Agrupamentos** guia .
-1. Clique em **Alternar para o modo de texto**.
+1. Selecione o **Agrupamentos** guia.
+1. Clique em **Alternar para modo de texto**.
 
-1. Selecione o texto no **Agrupar seu relatório** e substitua-a pelo seguinte código:
+1. Selecione o texto no campo **Agrupar seu relatório** e substitua-o pelo seguinte código:
 
-   <pre>group.0.displayname=Nome de campo personalizado multisseleção<br>group.0.valueexpression={DE:Multi-select Custom Field Name}<br>group.0.value.format=HTML<br>textmode=true</pre>
+   <pre>group.0.displayname=Nome de campo personalizado de seleção múltipla<br>group.0.valueexpression={DE:Multi-select Custom Field Name}<br>group.0.valueformat=HTML<br>textmode=true</pre>
 
-1. Substitua &quot;Multi-select Custom Field Name&quot; pelo nome real do seu campo personalizado multisseleção, conforme exibido no Workfront.  
+1. Substitua &quot;Nome do campo personalizado de seleção múltipla&quot; pelo nome real do seu campo personalizado de seleção múltipla, como exibido no Workfront.  
 1. Clique em **Salvar e fechar**.\
-   Os objetos no relatório são agrupados pelos valores do campo personalizado de várias seleções.\
-   O nome dos agrupamentos do relatório são os nomes do campo personalizado de várias seleções seguido dos valores selecionados no campo . 
+   Os objetos no relatório são agrupados pelos valores do campo personalizado de seleção múltipla.\
+   Os nomes dos agrupamentos do relatório são os nomes do campo personalizado de seleção múltipla seguido dos valores selecionados no campo. 
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

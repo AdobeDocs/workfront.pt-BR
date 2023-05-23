@@ -2,40 +2,40 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Relatório: tarefa combinada e emissão Exibir e Agrupar'''
-description: Este relatório de Item de Trabalho mostra tarefas e problemas que os usuários aceitaram para trabalhar em um relatório. É melhor quando combinado com um agrupamento personalizado.
+title: "Relatório: visualização e agrupamento combinados de tarefas e problemas"
+description: Este relatório de Item de trabalho mostra tarefas e problemas em que os usuários aceitaram trabalhar em um relatório. É melhor quando combinado com um agrupamento personalizado.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
 
 ---
 
-# Relatório: tarefa combinada e emissão Exibir e Agrupar
+# Relatório: Exibição e Agrupamento combinados de tarefas e problemas
 
-Este relatório de Item de Trabalho mostra tarefas e problemas que os usuários aceitaram para trabalhar em um relatório. É melhor quando combinado com um agrupamento personalizado.
+Este relatório de Item de trabalho mostra tarefas e problemas em que os usuários aceitaram trabalhar em um relatório. É melhor quando combinado com um agrupamento personalizado.
 
-Esse relatório usa `sharecol=true` na visualização para combinar vários campos sob o mesmo cabeçalho de coluna. Para obter mais informações sobre o `sharecol` tag , consulte [Exibir: unir informações de várias colunas em uma coluna compartilhada](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+Este relatório usa `sharecol=true` na visualização para combinar vários campos no mesmo cabeçalho de coluna. Para obter mais informações sobre o `sharecol` , consulte [Exibição: mesclar informações de várias colunas em uma coluna compartilhada](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 >[!TIP]
 >
-> A exibição Item de trabalho exibe somente tarefas e problemas que foram aceitos pelos usuários atribuídos a eles. Este relatório não exibe itens de trabalho que não foram movidos das listas Solicitações de Trabalho ou Solicitações de Equipe para a lista Trabalhando no usuário.
+> A exibição Item de trabalho exibe somente tarefas e problemas que foram aceitos pelos usuários atribuídos a eles. Este relatório não exibe itens de trabalho que não foram movidos das listas Solicitações de Trabalho ou Solicitações da Equipe para a lista Trabalhando em.
 
 ![work_item_report.png](assets/work-item-report-350x46.png)
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> <p>Qualquer Um</p> </td> 
   </tr> 
   <tr> 
@@ -44,29 +44,31 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a Relatórios, Painéis, Calendários</p> <p>Editar acesso a filtros, visualizações, agrupamentos</p> <p>Observação: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
-  </tr> 
+   <td> <p>Editar acesso a relatórios, painéis, calendários</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p><b>Nota</b>
+
+Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões de um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
-## Criar um relatório com tarefa combinada e ocorrência Exibir e Agrupar
+## Criar um relatório com Exibição e Agrupamento combinados de tarefas e problemas
 
 Para criar um relatório com esta exibição:
 
 1. No **Menu principal** ![](assets/main-menu-icon.png), clique em **Relatórios**.
 
-1. Clique em **Novo relatório** e selecione o objeto **Item de Trabalho** no menu suspenso.
+1. Clique em **Novo Relatório** e selecione o objeto **Item de trabalho** no menu suspenso.
 
-1. No **Visualização de coluna** , clique no cabeçalho da única coluna exibida.
-1. Clique em **Alternar para o modo de texto**.
-1. Passe o mouse sobre a área do modo de texto e clique em **Clique para editar texto**.
-1. Remova o texto que você encontrar no **Modo de texto** e substitua-a pelo seguinte código:
+1. No **Visualização da coluna** clique no cabeçalho da única coluna exibida.
+1. Clique em **Alternar para modo de texto**.
+1. Passe o mouse sobre a área do modo de texto e clique em **Clique para editar o texto**.
+1. Remova o texto localizado na **Modo de texto** e substitua-o pelo seguinte código:
 
    ```
    column.0.description=Task or Issue 
@@ -258,7 +260,7 @@ Para criar um relatório com esta exibição:
    ```
 
 1. (Opcional) Clique em **Agrupamentos** para adicionar um agrupamento ao relatório.
-1. (Opcional) Se estiver adicionando um agrupamento, clique em **Alternar para o modo de texto**.
+1. (Opcional) Se você estiver adicionando um agrupamento, clique em **Alternar para modo de texto**.
 1. (Opcional) Substitua o texto dentro da área do modo de texto de agrupamento pelo seguinte código:
 
    ```
@@ -268,6 +270,6 @@ Para criar um relatório com esta exibição:
    textmode=true
    ```
 
-   Esse agrupamento agrupa todas as Tarefas e todos os Problemas.
+   Esse agrupamento agrupa todas as tarefas e todos os problemas.
 
 1. Clique em **Salvar + Fechar**.

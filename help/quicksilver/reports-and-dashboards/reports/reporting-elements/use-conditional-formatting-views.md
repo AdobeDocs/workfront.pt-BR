@@ -2,83 +2,83 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Usar formatação condicional em exibições
-description: À medida que você compartilha seus relatórios com outros usuários no Adobe Workfront, considere personalizar a visualização dos relatórios para facilitar a leitura ou destacar algumas informações.
+description: Ao compartilhar seus relatórios com outros usuários no Adobe Workfront, considere personalizar a exibição dos relatórios para facilitar a leitura de determinadas informações ou apenas destacá-las.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1150'
 ht-degree: 2%
 
 ---
 
 # Usar formatação condicional em exibições
 
-À medida que você compartilha seus relatórios com outros usuários no Adobe Workfront, considere personalizar a visualização dos relatórios para facilitar a leitura ou destacar algumas informações.
+Ao compartilhar seus relatórios com outros usuários no Adobe Workfront, considere personalizar a exibição dos relatórios para facilitar a leitura de determinadas informações ou apenas destacá-las.
 
-Você pode personalizar a guia Detalhes de seus relatórios, adicionando formatação especial ou condicional à exibição dos relatórios.
+Você pode personalizar a guia Detalhes de seus relatórios adicionando formatação especial ou condicional à exibição de seus relatórios.
 
-Você deve ter permissões de gerenciamento no relatório para editá-lo e adicionar formatação especial à exibição.
+Você deve ter permissões de gerenciamento no relatório para poder editá-lo e adicionar formatação especial à exibição.
 
 Para obter mais informações sobre como criar relatórios, consulte o artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Ao formatar condicionalmente colunas na exibição do relatório, é possível configurar regras que afetam a forma como o relatório é exibido. Quando essas condições ou regras são cumpridas, a formatação especial é aplicada.
+Ao formatar condicionalmente colunas na exibição do relatório, você pode configurar regras que afetam a maneira como o relatório é exibido. Quando essas condições ou regras são atendidas, a formatação especial é aplicada.
 
-Por exemplo, se a porcentagem completa de uma tarefa for menor que 20%, você poderá realçar o campo mostrando o número da porcentagem em negrito, texto vermelho e uma cor de fundo amarela.
+Por exemplo, se a porcentagem concluída de uma tarefa for inferior a 20%, é possível realçar o campo mostrando o número da porcentagem em negrito, texto vermelho e uma cor de fundo amarela.
 
-Com uma exibição formatada condicionalmente, é possível:
+Com uma view formatada condicionalmente, você pode:
 
-* Altere o cabeçalho de uma coluna.
-* Altere o valor de uma coluna para texto personalizado ou uma imagem.
-* Formate a exibição de um campo alterando o tipo da fonte, a cor, o alinhamento ou a cor do plano de fundo.
+* Alterar o cabeçalho de uma coluna.
+* Altere o valor de uma coluna para texto ou imagem personalizados.
+* Formate a exibição de um campo alterando o tipo de fonte, cor, alinhamento ou a cor do plano de fundo.
 
 As alterações feitas na visualização do relatório só têm efeito na guia Details do relatório. Essas alterações não afetam as guias Resumo, Matriz ou Gráfico do relatório.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Plano Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>plano do Adobe Workfront*</strong></td> 
    <td> <p>Qualquer Um</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
-   <td> <p>Plano </p> </td> 
+   <td> <p>Solicitação ou superior </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>Editar acesso a filtros, visualizações, agrupamentos</p> <p>Editar o acesso a Relatórios, Painéis, Calendários para editar uma visualização em um relatório</p> <p>Observação: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Editar acesso a Relatórios, Painéis, Calendários para editar uma visualização em um relatório</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Gerenciar permissões de um relatório para criar ou editar uma visualização em um relatório</p> <p>Gerenciar permissões para uma exibição</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório para criar ou editar uma visualização em um relatório</p> <p>Gerenciar permissões para uma exibição</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
 ## Pré-requisitos
 
-Você deve criar um relatório antes de poder adicionar formatação condicional a ele.
+Você deve criar um relatório antes de adicionar formatação condicional a ele.
 
 Para obter informações sobre como criar um relatório, consulte [Criar um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
 ## Criar uma exibição formatada condicionalmente
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Workfront, em seguida, clique em **Relatórios**.
+1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Workfront e clique em **Relatórios**.
 
-1. Clique no nome de um relatório onde deseja criar uma view formatada condicionalmente.
+1. Clique no nome de um relatório em que você deseja criar uma exibição formatada condicionalmente.
 
    Ou
 
-   Clique em **Ações de Relatório**, depois clique em **Editar**.
+   Clique em **Ações de Relatório** e, em seguida, clique em **Editar**.
 
 1. (Condicional) Se você editou um relatório, selecione uma coluna existente ou crie uma nova coluna.
 1. Clique em **Opções avançadas**.
@@ -91,11 +91,11 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Personalizar rótulo da coluna</strong></td> 
-      <td> <p>Especifique um nome para a coluna.</p> <p>Se você estiver editando uma coluna existente, especificar um nome aqui altera o nome da coluna existente.</p> </td> 
+      <td> <p>Especifique um nome para a coluna.</p> <p>Se você estiver editando uma coluna existente, a especificação de um nome aqui altera o nome da coluna existente.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Formato do campo</strong></td> 
-      <td>Escolha o formato no qual o valor na coluna é exibido. Dependendo do campo de coluna, é possível definir como as datas, números ou moedas são exibidos.</td> 
+      <td>Escolha o formato em que o valor na coluna é exibido. Dependendo do campo de coluna, permite definir como datas, números ou moeda serão exibidos.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Mostrar esta coluna quando estiver em um Painel</strong></td> 
@@ -104,7 +104,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
     </tbody> 
    </table>
 
-1. Clique em **Adicionar uma regra para esta coluna**.
+1. Clique em **Adicionar uma Regra para esta Coluna**.
 
    <!--
    <note type="note">
@@ -112,7 +112,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
    </note>
    -->
 
-1. No **Quando:** , defina uma declaração de condição para a coluna. Por exemplo: quando a porcentagem de tarefas concluída é igual a (distinção entre maiúsculas e minúsculas) 50.
+1. No **Quando a:** defina uma declaração de condição para a coluna. Por exemplo: quando o Percentual de Conclusão da Tarefa for igual a (Diferencia maiúsculas de minúsculas) 50.
 1. No **Mostrar o campo desta forma:** especifique a aparência desse campo quando a condição definida acima for atendida.
 
    Especifique as seguintes informações:
@@ -123,7 +123,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Cor do texto</strong></td> 
-      <td> <p>Selecione a cor na qual o texto é exibido. Há 8 cores disponíveis.</p> <p>Observação: Se o campo contiver um hiperlink, as seleções de cor do texto não serão aplicadas a esse campo.</p> </td> 
+      <td> <p>Selecione a cor na qual o texto será exibido. Há 8 cores disponíveis.</p> <p>Observação: se o campo contiver um hiperlink, as seleções de cor do texto não serão aplicadas a esse campo.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Formato do texto</strong></td> 
@@ -131,7 +131,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Alinhamento do texto</strong></td> 
-      <td>Selecione se o texto deve ser alinhado à direita, ao centro ou à esquerda dentro da coluna.</td> 
+      <td>Selecione se deseja alinhar o texto à direita, no centro ou à esquerda dentro da coluna.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Plano de fundo</strong></td> 
@@ -139,37 +139,37 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Mostrar ícone</strong></td> 
-      <td>Selecione de um dos 16 ícones, se desejar exibir um ícone em vez do valor real para essa coluna.</td> 
+      <td>Selecione um dos 16 ícones, se desejar exibir um ícone em vez do valor real para essa coluna.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Mostrar texto</strong></td> 
-      <td> <p>Selecione essa opção para exibir um rótulo personalizado para essa coluna, em vez de seu valor real. Especifique o texto a ser exibido em vez do valor no campo fornecido.</p> <p>Importante: Selecionar <strong>Mostrar texto</strong> desativa a capacidade de editar o texto em linha nesta coluna.<br>Além disso, não é possível alterar o valor de uma coluna Predecessor porque ela contém uma lógica incorporada.</p> </td> 
+      <td> <p>Selecione essa opção para exibir um rótulo personalizado para essa coluna, em vez do valor real. Especifique o texto a ser exibido em vez do valor no campo fornecido.</p> <p>Importante: seleção <strong>Mostrar texto</strong> desativa a capacidade de editar o texto em linha nesta coluna.<br>Além disso, não é possível alterar o valor de uma coluna Predecessora porque ela contém lógica interna.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Aplicar a toda a linha</strong></td> 
-      <td>Selecione essa opção para aplicar configurações à linha inteira, em vez de aplicar configurações somente à coluna selecionada.</td> 
+      <td>Selecione esta opção para aplicar configurações a toda a linha, em vez de aplicar configurações apenas à coluna selecionada.</td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Clique em **Adicionar regra**.\
-   Você pode adicionar regras à mesma coluna ou adicionar regras a outras colunas.
+   É possível adicionar regras à mesma coluna ou adicionar regras a outras colunas.
 
-   As regras são aplicadas na ordem em que foram criadas. Elas são combinadas, mas não se substituem, embora uma regra de coluna tenha precedência sobre uma regra de linha na mesma célula.
+   As regras são aplicadas na ordem em que foram criadas. Eles são combinados, mas não se substituem, embora uma regra de coluna tenha precedência sobre uma regra de linha na mesma célula.
 
-   Exemplo 1: Primeiro, você pode criar uma regra que declara quando o Status do projeto é Criação, a cor do texto é violeta e negrito. Em seguida, você cria uma segunda regra que declara quando o Nome da tarefa não está em branco, a cor do texto é vermelha e em itálico e a cor do plano de fundo é verde. Neste exemplo, ocorre o seguinte:
+   Exemplo 1: primeiro, você pode criar uma regra que declara que, quando o Status do projeto for Criação, a cor do texto será roxa e negrito. Em seguida, você cria uma segunda regra que informa quando o Nome da tarefa não está em branco, a cor do texto é vermelha e em itálico e a cor do plano de fundo é verde. Neste exemplo, ocorre o seguinte:
 
    * As tarefas cujo status do projeto é Criação são exibidas em texto roxo e negrito. Se o nome da tarefa não estiver em branco, as tarefas também terão um plano de fundo verde.
-   * As tarefas cujo Status do projeto seja qualquer coisa diferente de Criação (e o Nome da tarefa não estiver em branco) são exibidas em um texto vermelho e itálico com um plano de fundo verde.
+   * Tarefas cujo Status do Projeto é qualquer coisa diferente de Criação (e o Nome da Tarefa não está em branco) são exibidas em um texto vermelho e em itálico com um fundo verde.
 
-   Exemplo 2: Crie uma regra na Data de Conclusão Planejada do Projeto que afete a linha inteira, tornando o plano de fundo cinza se o projeto for cancelado (Status = &quot;Morto&quot;). Em seguida, crie uma regra de coluna que torne o plano de fundo vermelho quando a Data de conclusão planejada do projeto for menor que hoje (o que significa que o projeto está atrasado). Neste exemplo, se um projeto cancelado tiver uma data de conclusão tardia, essa célula aparecerá vermelha mesmo que as outras células na linha sejam cinza. Para corrigir essa formatação:
+   Exemplo 2: criar uma regra na Data de conclusão planejada do projeto que afete toda a linha, tornando o plano de fundo cinza se o projeto for cancelado (Status = &quot;Inativo&quot;). Em seguida, crie uma regra de coluna que torne o plano de fundo vermelho quando a Data de conclusão planejada do projeto for anterior à data de hoje (o que significa que o projeto está atrasado). Neste exemplo, se um projeto cancelado tiver uma data de conclusão atrasada, essa célula aparecerá vermelha mesmo que as outras células na linha estejam em cinza. Para corrigir essa formatação:
 
-   * Edite a formatação da Data de conclusão planejada e exclua a regra de coluna para o plano de fundo vermelho em projetos atrasados.
-   * Adicione uma regra de coluna com a mesma formatação da regra de linha (fundo cinza quando o Status do projeto = &quot;Morto&quot;).
-   * Adicione a regra da coluna novamente para o plano de fundo vermelho em projetos atrasados.
+   * Edite a formatação para a Data de conclusão planejada e exclua a regra de coluna para o plano de fundo vermelho em projetos atrasados.
+   * Adicione uma regra de coluna com a mesma formatação da regra de linha (plano de fundo cinza quando o Status do projeto = &quot;Inativo&quot;).
+   * Adicione a regra de coluna novamente para o plano de fundo vermelho em projetos atrasados.
    * Ao salvar as regras e a visualização, o plano de fundo vermelho não é aplicado a um projeto cancelado.
 
 
 1. Clique em **Concluído**.
 1. Clique em **Salvar + Fechar**.\
-   No relatório, os usuários veem alterações no formato se as condições especificadas foram atendidas.
+   No relatório, os usuários veem as alterações no formato se as condições especificadas tiverem sido atendidas.

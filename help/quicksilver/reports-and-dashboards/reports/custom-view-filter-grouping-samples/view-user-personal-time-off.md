@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Exibir: hora pessoal do usuário desligada'
-description: '"Exibir: hora pessoal do usuário desligada'
+title: "Exibição: tempo de folga pessoal do usuário"
+description: "Exibição: tempo de folga pessoal do usuário"
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: 68baff382c1c5e6b69906bb021fb20fd513dad0f
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '284'
 ht-degree: 4%
 
 ---
@@ -20,54 +20,57 @@ ht-degree: 4%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider hiding this article because this is not a custom view anymore.)</p>
 -->
 
-É possível criar um relatório de Tempo de desativação para capturar as informações de tempo de folga dos usuários.
+Você pode criar um relatório de Folga para capturar as informações de folga dos usuários.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> <p>Qualquer Um</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> </td> 
+   <td> <p>Solicitação para modificar uma exibição </p>
+   <p>Planejar a modificação de um relatório</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a Relatórios, Painéis, Calendários</p> <p>Editar acesso a filtros, visualizações, agrupamentos</p> <p>Observação: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
-  </tr> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> <p><b>Nota</b>
+
+Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
+</tr>  
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões de um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
-## Exibir tempo pessoal do usuário desligado
+## Exibir tempo de folga pessoal do usuário
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito, em seguida, clique em **Relatórios > Novo relatório**.
+1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito e clique em **Relatórios > Novo relatório**.
 
-1. No menu suspenso , selecione **Hora de desligar**.
+1. No menu suspenso, selecione **Folga**.
 1. Clique em **Salvar + Fechar**.
 
-   O relatório exibe os seguintes campos na visualização por padrão:
+   O relatório exibe os seguintes campos na exibição por padrão:
 
-   | Usuário | O nome do usuário que indicou a hora de folga em seu perfil. |
+   | Usuário | O nome do usuário que indicou a folga em seu perfil. |
    |---|---|
-   | Data de início | A Data inicial do período de tempo de folga que o usuário indicou. |
-   | Data Final | A Data Final do período de tempo de folga que o usuário indicou. |
+   | Data de início | A Data inicial do período de folga indicado pelo usuário. |
+   | Data Final | A Data final do período de folga indicado pelo usuário. |
 
    {style="table-layout:auto"}
 
-1. (Opcional) Termine de criar o relatório editando qualquer uma das seguintes guias:
+1. (Opcional) Conclua a criação do relatório editando qualquer uma das guias a seguir:
 
    * Colunas (visualizar)
    * Agrupamento
@@ -78,7 +81,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
    >[!TIP]
    >
-   >Recomendamos adicionar um agrupamento para o objeto User , para facilitar a leitura do relatório.
+   >Recomendamos adicionar um agrupamento para o objeto do usuário, para facilitar a leitura do relatório.
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Add Time Off information to a user report</h2>
