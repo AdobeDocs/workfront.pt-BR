@@ -4,7 +4,7 @@ description: Visão geral da versão 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 7fb37ca286649a1556cd0098f6570786eea8a4c1
+source-git-commit: 3e72e4a5562e06df8e398c37ca1b9e2c19b98187
 workflow-type: tm+mt
 source-wordcount: '1291'
 ht-degree: 0%
@@ -230,7 +230,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Versão de pré-visualização: 11 de maio de 2023</p>
                             </li>
                             <li>
-                                <p><span class="preview">Versão de produção: 18 de maio de 2023</span></p>
+                                <p><span class="preview">Versão de produção: 24 de maio de 2023</span></p>
                             </li>
                         </ul>
                     </td>
