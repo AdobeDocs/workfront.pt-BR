@@ -7,10 +7,10 @@ description: Um fluxo de trabalho é um grupo configurável de placas e cartões
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: 14175ce94c1395138a31f47ad72951f0120f11ee
+source-git-commit: dd1bd5a27a2ed29af29b88b028d8fd34a592aae2
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 3%
+source-wordcount: '905'
+ht-degree: 2%
 
 ---
 
@@ -94,20 +94,28 @@ Pessoas e equipes devem ser adicionadas ao fluxo de trabalho como membros antes 
 
    Esse é o mesmo processo que adicionar membros a um quadro. Para obter mais informações, consulte [Adicionar ou remover membros de um quadro](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
+## Adicionar fontes a um fluxo de trabalho
+
+Uma origem determina de onde vêm os cartões na sequência de trabalho.
+
+{{step1-to-boards}}
+
+1. Clique em [!UICONTROL **Origens**] ícone ![Ícone Fontes](assets/sources-icon.png) para definir uma origem para importar cartões no fluxo de trabalho. No momento, a única origem disponível é [!DNL Adobe Workfront].
+1. Adicione filtros para importar tarefas e problemas do Workfront como cartões.
+
+   Adicionar filtros para fontes de fluxo de trabalho é o mesmo que adicionar filtros avançados para uma coluna de entrada em um quadro básico ou quadro Kanban. Para obter mais informações, consulte [Adicionar uma coluna de entrada a um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
 ## Configurar um fluxo de trabalho
 
 {{step1-to-boards}}
 
 1. No painel, clique em [!UICONTROL **Exibir fluxo de trabalho**] para abrir um workflow.
 1. Clique em [!UICONTROL **Configurar**] para abrir o [!UICONTROL Configurar fluxo de trabalho] painel.
-1. (Opcional) Digite uma descrição do fluxo de trabalho. Essa descrição é exibida no painel.
-1. (Opcional) Adicione tags ao fluxo de trabalho. Para obter mais informações, consulte [Adicionar tags](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
+1. (Opcional) Expandir [!UICONTROL **Fluxo de trabalho**] e digite uma descrição do fluxo de trabalho. Essa descrição é exibida no painel.
+1. (Opcional) Expandir [!UICONTROL **Iterações**] para definir um processo de iteração para este fluxo de trabalho.
 
    O número total de cartões, o número de cartões apontados e o número de iterações são exibidos na seção Lista de cartões. Clique em [!UICONTROL **Exibir lista**] para abrir a lista e adicionar cartões. Para obter mais informações, consulte [Usar a lista de cartões](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-   Se uma iteração tiver sido definida, sua data de início, número de cartões e número de pontos serão exibidos. Clique em [!UICONTROL **Exibir quadro de iteração**] para abrir o quadro. Para obter mais informações, consulte [Criar uma iteração em um fluxo de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+   Se uma iteração já tiver sido definida, sua data de início, número de cartões e número de pontos serão exibidos. Clique em [!UICONTROL **Exibir quadro**] para abrir o quadro de iteração. Para obter mais informações, consulte [Criar uma iteração em um fluxo de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
-1. Clique em [!UICONTROL **Adicionar fonte**] para definir uma origem para importar cartões no fluxo de trabalho. No momento, a única origem disponível é [!DNL Adobe Workfront].
-1. Adicione filtros para importar tarefas e problemas do Workfront como cartões.
-
-   Adicionar filtros para fontes de fluxo de trabalho é o mesmo que adicionar filtros para uma coluna de entrada em um quadro básico ou quadro Kanban. Para obter mais informações, consulte [Adicionar uma coluna de entrada a um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+1. (Opcional) Expandir [!UICONTROL **Tags**] para adicionar tags ao workflow. Procure uma tag ou digite um novo nome de tag na caixa de pesquisa e pressione Enter para criá-la.
