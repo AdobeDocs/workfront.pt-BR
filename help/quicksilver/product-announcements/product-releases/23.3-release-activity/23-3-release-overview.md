@@ -4,9 +4,9 @@ description: Visão geral da versão 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 3e72e4a5562e06df8e398c37ca1b9e2c19b98187
+source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1295'
 ht-degree: 0%
 
 ---
@@ -386,7 +386,7 @@ Para obter informações sobre as atualizações de manutenção feitas durante 
 
 ### Atualizações de treinamento
 
-Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte [Página de atualizações da versão de treinamento](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; do [Página do Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 <!-- Uncomment if there are any deprecations
 
