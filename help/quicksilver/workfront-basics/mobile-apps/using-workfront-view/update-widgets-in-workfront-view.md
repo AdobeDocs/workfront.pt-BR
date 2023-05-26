@@ -1,12 +1,12 @@
 ---
 product-previous: mobile
 navigation-topic: use-workfront-view
-title: Atualizar widgets na exibição Detalhes do projeto
-description: Você pode exibir informações adicionais sobre o [!UICONTROL projeto] depois de acessá-lo na lista de projetos, adicionando widgets a seu [!UICONTROL Detalhes do projeto] tela. Cada usuário pode personalizar seus próprios widgets.
-author: Lisa
+title: Atualizar widgets na visualização Detalhes do projeto
+description: É possível exibir informações adicionais sobre o [!UICONTROL projeto] depois de acessá-lo na lista do projeto, adicionando widgets à sua [!UICONTROL Detalhes do projeto] tela. Cada usuário pode personalizar seus próprios widgets.
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 1%
@@ -15,11 +15,11 @@ ht-degree: 1%
 
 # Atualizar widgets na [!UICONTROL Detalhes do projeto] exibir
 
-Você pode exibir informações adicionais sobre o [!UICONTROL projeto] depois de acessá-lo na lista de projetos, adicionando widgets a seu [!UICONTROL Detalhes do projeto] tela. Cada usuário pode personalizar seus próprios widgets.
+É possível exibir informações adicionais sobre o [!UICONTROL projeto] depois de acessá-lo na lista do projeto, adicionando widgets à sua [!UICONTROL Detalhes do projeto] tela. Cada usuário pode personalizar seus próprios widgets.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso em [!DNL Workfront] para executar as etapas neste artigo:
+Você deve ter o seguinte acesso no [!DNL Workfront] para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,54 +38,54 @@ Você deve ter o seguinte acesso em [!DNL Workfront] para executar as etapas nes
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
 
-## Atualize os widgets no [!UICONTROL Detalhes do projeto] exibir
+## Atualizar os widgets na [!UICONTROL Detalhes do projeto] exibir
 
-1. No [!DNL Adobe Workfront View] página inicial, navegue até um projeto tocando em seu nome.
+1. No [!DNL Adobe Workfront View] home page, navegue até um projeto tocando no seu nome.
 1. Toque na guia na parte inferior do meio da tela.\
-   O [!UICONTROL widget] será exibida.\
-   Percorra os widgets deslizando da esquerda para a direita.\
+   A variável [!UICONTROL widget] é exibida.\
+   Percorra os widgets deslizando o dedo da esquerda para a direita.\
    ![](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
 
-1. Arraste e solte um widget para personalizar o layout da página do projeto.\
-   É possível ter até quatro widgets exibidos de uma vez.\
+1. Arraste e solte um widget para personalizar o layout da página do seu projeto.\
+   Você pode ter até quatro widgets exibidos de uma só vez.\
    Você pode reorganizar os widgets arrastando-os e soltando-os em outro local.\
-   A disposição do widget é salva quando você navega entre projetos.
+   A organização do widget é salva quando você navega entre projetos.
 
 1. Selecione um dos seguintes widgets:
 
-   * **[!UICONTROL Condição de tarefa]**: Exibe todas as tarefas no projeto por [!UICONTROL Condição] em um gráfico de pizza.
-   * **[!UICONTROL Problemas]**: Exibe a linha do tempo de todos os problemas em um gráfico de linhas. O número de problemas em aberto é indicado entre parênteses.
-   * **[!UICONTROL Horas]**: Exibe a [!UICONTROL Real] e [!UICONTROL Horas Planejadas] sobre as tarefas do projeto em um gráfico de linhas combinado.
-   * **[!UICONTROL Problema]** [!UICONTROL Status]: Exibe todos os problemas por Status em um gráfico de pizza.
-   * **[!UICONTROL Atualizações]**: Exibe todas as atualizações e comentários no projeto.
-   * **[!UICONTROL Custos]**: Exibe a [!UICONTROL Real] e [!UICONTROL Custo Planejado] do projeto em um gráfico de barras combinado.
-   * **[!UICONTROL Receita]**: Exibe a [!UICONTROL Real] e [!UICONTROL Receita planejada] do projeto em um gráfico de barras combinado.
-   * **[!UICONTROL Andamento da tarefa]**: Exibe todas as tarefas no projeto por [!UICONTROL Status de progresso] em um gráfico de pizza.
-   * **[!UICONTROL Tarefas futuras]**: Exibe até 6 tarefas futuras. O widget classifica as tarefas do projeto na seguinte ordem:
+   * **[!UICONTROL Condição da tarefa]**: exibe todas as tarefas no projeto por [!UICONTROL Condição] em um gráfico de pizza.
+   * **[!UICONTROL Problemas]**: exibe a linha do tempo de todos os problemas em um gráfico de linhas. O número de problemas abertos é indicado entre parênteses.
+   * **[!UICONTROL Horas]**: exibe o [!UICONTROL Efetivo] e [!UICONTROL Horas planejadas] nas tarefas do projeto em um gráfico de linhas combinado.
+   * **[!UICONTROL Problema]** [!UICONTROL Status]: exibe todos os problemas por Status em um gráfico de pizza.
+   * **[!UICONTROL Atualizações]**: exibe todas as atualizações e comentários do projeto.
+   * **[!UICONTROL Custos]**: exibe o [!UICONTROL Efetivo] e a variável [!UICONTROL Custo Planejado] do projeto em um gráfico de barras combinado.
+   * **[!UICONTROL Receita]**: exibe o [!UICONTROL Efetivo] e a variável [!UICONTROL Receita Planejada] do projeto em um gráfico de barras combinado.
+   * **[!UICONTROL Progresso da tarefa]**: exibe todas as tarefas no projeto por [!UICONTROL Status do progresso] em um gráfico de pizza.
+   * **[!UICONTROL Próximas tarefas]**: exibe até 6 tarefas futuras. O widget classifica as tarefas do projeto na seguinte ordem:
 
-      * primeiro, pelo [!UICONTROL Data de Vencimento Estimada]
-      * segundo, por [!UICONTROL Estrutura de detalhamento do trabalho]
+      * em primeiro lugar, [!UICONTROL Data de vencimento estimada]
+      * segundo, por [!UICONTROL Estrutura do detalhamento do trabalho]
 
-      Ele exibe as duas últimas tarefas completas (se aplicável) e as próximas 4 tarefas. Para entender quais tarefas serão exibidas na [!DNL Workfront] Para exibir o aplicativo móvel, você pode criar um relatório de tarefa para o projeto que está visualizando e classificá-lo pela Data de Vencimento Estimada e, em seguida, pela [!DNL Workfront] Estrutura de detalhamento. As primeiras 6 tarefas serão as tarefas listadas no aplicativo móvel Exibição do Workfront na [!UICONTROL Em breve] Dispositivo de tarefas.
+      Ela exibe as duas últimas tarefas concluídas (se aplicável) e as próximas 4 tarefas. Para entender quais tarefas serão exibidas na variável [!DNL Workfront] Para visualizar o aplicativo móvel, você pode criar um relatório de tarefas para o projeto que está visualizando e classificá-lo pela Data de vencimento estimada e, em seguida, pelo [!DNL Workfront] Estrutura de detalhamento. As primeiras 6 tarefas serão as tarefas listadas no aplicativo móvel Workfront View na [!UICONTROL Próximos] Widget de Tarefas.
 
-   * **[!UICONTROL Tarefas restantes]**: Exibe as tarefas incompletas em um gráfico de linhas.
-   * **[!UICONTROL Documentos]**: Exibe uma lista de documentos anexados ao projeto.\
+   * **[!UICONTROL Tarefas restantes]**: exibe as tarefas incompletas em um gráfico de linhas.
+   * **[!UICONTROL Documentos]**: exibe uma lista de documentos anexados ao projeto.\
 
-      Você pode abrir os seguintes formatos de documento com [!DNL Workfront View]:
+      É possível abrir os seguintes formatos de documento com [!DNL Workfront View]:
 
       * todos os arquivos de texto
       * .pdf
-      * arquivos de imagem (.jpg, .jpeg, .png etc)
+      * arquivos de imagem (.jpg, .jpeg, .png etc.)
       * .xls
-   * **[!UICONTROL Detalhes]**: Exibe os seguintes detalhes sobre o projeto:
+   * **[!UICONTROL Detalhes]**: exibe os seguintes detalhes sobre o projeto:
 
       * Nome do Projeto
       * Nome do criador do projeto
       * Status do projeto
       * Grupo do Projeto
-      * Agendamento do projeto
-   * **[!UICONTROL Equipe]**: Exibe os nomes dos usuários que estão na Equipe do Projeto.\
+      * Cronograma do Projeto
+   * **[!UICONTROL Equipe]**: exibe os nomes dos usuários que fazem parte da Equipe do projeto.\
 
-      Para obter mais informações sobre equipes de projeto, consulte [Visão geral da equipe do projeto](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+      Para obter mais informações sobre as equipes de projeto, consulte [Visão geral da equipe do projeto](../../../manage-work/projects/planning-a-project/project-team-overview.md).

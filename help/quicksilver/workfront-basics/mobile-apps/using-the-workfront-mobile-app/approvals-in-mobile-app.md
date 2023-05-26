@@ -1,21 +1,21 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: Aprovações na [!DNL Adobe Workfront] aplicativo móvel
-description: Você pode gerenciar aprovações atribuídas ou delegadas a você a partir do [!UICONTROL Aprovações] na [!DNL Adobe Workfront] aplicativo móvel.
-author: Lisa
+title: Aprovações no [!DNL Adobe Workfront] aplicativo móvel
+description: Você pode gerenciar aprovações atribuídas ou delegadas a você pelo [!UICONTROL Aprovações] na área [!DNL Adobe Workfront] aplicativo móvel.
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 92259a17-209b-4bc1-8c14-826969b08a63
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 4%
 
 ---
 
-# Aprovações na [!DNL Adobe Workfront] aplicativo móvel
+# Aprovações no [!DNL Adobe Workfront] aplicativo móvel
 
-Você pode gerenciar aprovações atribuídas ou delegadas a você a partir do [!UICONTROL Aprovações] na [!DNL Adobe Workfront] aplicativo móvel. No [!UICONTROL aprovações] , você pode aprovar:
+Você pode gerenciar aprovações atribuídas ou delegadas a você pelo [!UICONTROL Aprovações] na área [!DNL Adobe Workfront] aplicativo móvel. No [!UICONTROL aprovações] é possível aprovar:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Você pode gerenciar aprovações atribuídas ou delegadas a você a partir do [
  </tbody> 
 </table>
 
-As provas seguem um processo de aprovação separado. Não é possível aprovar uma prova a partir de um item de trabalho ou aprovação de documento. Para obter informações sobre revisão e aprovação de provas, consulte [Revisar e tomar decisões sobre provas no [!DNL Adobe Workfront] aplicativo móvel](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+As provas seguem um processo de aprovação separado. Você não pode aprovar uma prova de um item de trabalho ou aprovação de documento. Para obter informações sobre revisão e aprovação de provas, consulte [Revisar e tomar decisões sobre provas no [!DNL Adobe Workfront] aplicativo móvel](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ## Revisar uma aprovação
 
@@ -53,9 +53,9 @@ As provas seguem um processo de aprovação separado. Não é possível aprovar 
 
    Este exemplo mostra uma aprovação de tarefa. Outros tipos de aprovação podem conter informações diferentes.
 
-   ![Exemplo de aprovação de tarefa](assets/mobile-taskapproval-350x664.png)
+   ![Amostra de aprovação de tarefa](assets/mobile-taskapproval-350x664.png)
 
-## Tome uma decisão sobre uma aprovação
+## Tomar uma decisão sobre uma aprovação
 
 1. Abra a aprovação.
 1. Selecione uma decisão. A lista de opções de decisão depende do tipo de aprovação que você está visualizando.
@@ -63,12 +63,12 @@ As provas seguem um processo de aprovação separado. Não é possível aprovar 
    | Ícone | Decisão |
    |---|---|
    | ![Aprovar prova da tarefa](assets/mobile-approveprooffromtask.png) | [!UICONTROL Aprovar] |
-   | ![Aprovar prova com alterações da tarefa](assets/mobile-approveproofwithcommentsfromtask.png) | [!UICONTROL Aprovar com alterações] (disponível apenas para documentos) |
+   | ![Aprovar prova com alterações da tarefa](assets/mobile-approveproofwithcommentsfromtask.png) | [!UICONTROL Aprovar com alterações] (disponível somente para documentos) |
    | ![Rejeitar prova da tarefa](assets/mobile-rejectprooffromtask.png) | [!UICONTROL Rejeitar] |
 
    {style="table-layout:auto"}
 
-1. (Opcional) Selecione **[!UICONTROL Adicionar comentário]** na mensagem de confirmação na parte inferior da tela para adicionar comentários à decisão. Esses comentários são exibidos nas atualizações da aprovação.\
+1. (Opcional) Selecione **[!UICONTROL Adicionar comentário]** na mensagem de confirmação na parte inferior da tela para adicionar comentários à decisão. Esses comentários aparecem nas atualizações para aprovação.\
    ![Adicionar comentário](assets/mobile-addcommenttoapproval-350x123.png)\
    Ou\
-   Selecione a seta no canto superior esquerdo da aprovação para retornar ao [!UICONTROL Aprovações] página.
+   Selecione a seta na parte superior esquerda da aprovação para voltar para a [!UICONTROL Aprovações] página.
