@@ -6,9 +6,9 @@ description: Acelere o engajamento e simplifique o trabalho para equipes e indiv
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: aa00992e3d5c8d78dfb3f1b88471fe95a17ec0db
+source-git-commit: 389a4cce56b5b81db521217c9bdd2a9a25850e1c
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Acelere o engajamento e simplifique o trabalho para equipes e indivíduos em sua
 * Mantenha seu fluxo de trabalho em andamento com ações de uma etapa
 * Permaneça produtivo em movimento
 
-Você pode baixar e instalar o aplicativo pela [Apple App Store](https://www.apple.com/app-store/) ou o [loja da Google Play](https://play.google.com/store/apps;).
+Você pode baixar e instalar o aplicativo pela [Apple App Store](https://apps.apple.com/us/app/adobe-workfront/id1033282981) ou o [loja da Google Play](https://play.google.com/store/apps/details?id=com.workfront.android.aware).
 
 No aplicativo móvel, você pode concluir itens de trabalho e visualizar informações como na versão do navegador do [!DNL Workfront]. Estes recursos e muito mais estão disponíveis:
 
