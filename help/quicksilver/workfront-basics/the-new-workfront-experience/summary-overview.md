@@ -1,21 +1,21 @@
 ---
 content-type: overview
 title: Visão geral do resumo
-description: Você pode usar o painel Resumo para revisar e atualizar informações do item de trabalho diretamente de uma lista de tarefas, problemas, documentos ou de outras áreas de [!DNL Adobe Workfront] que exibem tarefas e problemas.
+description: Você pode usar o painel Resumo para revisar e atualizar informações sobre o item de trabalho diretamente de uma lista de tarefas, problemas, documentos ou de outras áreas do [!DNL Adobe Workfront] que exibem tarefas e problemas.
 feature: Get Started with Workfront
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: d8ca244e430f8a0e96b201bf09eba8b83b774a57
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '894'
 ht-degree: 2%
 
 ---
 
 # [!UICONTROL Resumo] visão geral
 
-Você pode usar o [!UICONTROL Resumo] painel para revisar e atualizar informações do item de trabalho diretamente de uma lista de tarefas, problemas, documentos ou de outras áreas de [!DNL Adobe Workfront] que exibem tarefas e problemas.
+Você pode usar o [!UICONTROL Resumo] painel para revisar e atualizar as informações sobre o item de trabalho diretamente de uma lista de tarefas, problemas, documentos ou de outras áreas do [!DNL Adobe Workfront] que exibem tarefas e problemas.
 
-A tabela a seguir exibe as áreas onde você pode localizar e usar o [!UICONTROL Resumo] painel:
+A tabela a seguir exibe as áreas em que você pode localizar e usar o [!UICONTROL Resumo] painel:
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -31,7 +31,7 @@ A tabela a seguir exibe as áreas onde você pode localizar e usar o [!UICONTROL
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Tarefas nas áreas de trabalho [!UICONTROL não atribuído] e [!UICONTROL atribuído] da [!DNL Workload Balancer]</td> 
+   <td>Tarefas nas áreas de trabalho [!UICONTROL Não atribuído] e [!UICONTROL Atribuído] do [!UICONTROL Balanceador de carga de trabalho]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Problemas</td> 
@@ -45,7 +45,7 @@ A tabela a seguir exibe as áreas onde você pode localizar e usar o [!UICONTROL
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Problemas na área [!UICONTROL Trabalho atribuído] da [!DNL Workload Balancer]</td> 
+   <td>Problemas na área [!UICONTROL Trabalho atribuído] do [!UICONTROL Balanceador de carga de trabalho]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Problemas na seção [!UICONTROL Enviado] da área [!UICONTROL Solicitações]</td> 
@@ -57,7 +57,7 @@ A tabela a seguir exibe as áreas onde você pode localizar e usar o [!UICONTROL
    <td>Área [!UICONTROL Documentos]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Seção [!UICONTROL Documentos] de qualquer objeto (projeto, tarefa, emissão, programa, portfólio, modelo, tarefa do modelo, usuário)</td> 
+   <td>Seção [!UICONTROL Documentos] de qualquer objeto (projeto, tarefa, problema, programa, portfólio, modelo, tarefa de modelo, usuário)</td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,13 +68,13 @@ A tabela a seguir exibe as áreas onde você pode localizar e usar o [!UICONTROL
 
 Este artigo descreve como acessar e usar o [!UICONTROL Resumo] painel para tarefas e problemas em listas.
 
-Para obter informações sobre como acessar o [!UICONTROL Resumo] no [!DNL Workload Balancer], consulte [Atualize os itens de trabalho na [!DNL Workload Balancer] usando o [!UICONTROL Resumo]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
+Para obter informações sobre como acessar o [!UICONTROL Resumo] no [!UICONTROL Balanceador de carga de trabalho], consulte [Atualizar itens de trabalho na [!UICONTROL Balanceador de carga de trabalho] usando o [!UICONTROL Resumo]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
-Para obter informações sobre como acessar o [!UICONTROL Resumo] para documentos, consulte [[!UICONTROL Resumo] visão geral dos documentos](../../documents/managing-documents/summary-for-documents.md).
+Para obter informações sobre como acessar o [!UICONTROL Resumo] para documentos, consulte [[!UICONTROL Resumo] para obter uma visão geral dos documentos](../../documents/managing-documents/summary-for-documents.md).
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -90,98 +90,98 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>[!UICONTROL View] ou acesso superior a Tarefas, Problemas, Documentos</p> <p>[!UICONTROL Exibir] ou acesso superior a quaisquer objetos para os quais deseja exibir documentos' [!UICONTROL Resumo]</p> <p>Observação: Se ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais em seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>[!UICONTROL Exibir] ou superior acesso a Tarefas, Problemas, Documentos</p> <p>[!UICONTROL Exibir] ou maior acesso a quaisquer objetos para os quais você deseja exibir documentos' [!UICONTROL Resumo]</p> <p>Observação: se você ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais no seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>[!UICONTROL View] ou permissões superiores para uma tarefa, problema ou documento</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>[!UICONTROL Exibir] ou permissões superiores para uma tarefa, problema ou documento</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
 
-## Visualize o [!UICONTROL Resumo] em uma lista de tarefas ou problemas
+## Exibir o [!UICONTROL Resumo] em uma lista de tarefas ou problemas
 
 1. Vá para uma tarefa ou problema e selecione um item na lista.
-1. Clique no botão **[!UICONTROL Resumo]** ícone ![](assets/qs-summary-in-new-toolbar-small.png)
+1. Clique em **[!UICONTROL Resumo]** ícone ![](assets/qs-summary-in-new-toolbar-small.png)
 
    ou
 
-   Clique no botão **[!UICONTROL Abrir resumo]** ícone ![](assets/open-summary-with-text-nwe.png) no [!UICONTROL Enviado] da seção [!UICONTROL Solicitações] área.
+   Clique em **[!UICONTROL Abrir resumo]** ícone ![](assets/open-summary-with-text-nwe.png) no [!UICONTROL Enviado] seção do [!UICONTROL Solicitações] área.
 
-   Após abrir o Resumo, ele permanece aberto à medida que você clica ou seleciona outras tarefas ou problemas e permanece aberto até que você o feche manualmente.
+   Após abrir o Resumo, ele permanece aberto quando você clica ou seleciona outras tarefas ou problemas e permanece aberto até que você o feche manualmente.
 
    >[!TIP]
    >
-   >Você só pode selecionar uma tarefa ou um problema por vez para exibir seus detalhes na [!UICONTROL Resumo] painel.
+   >Você só pode selecionar uma tarefa ou um problema de cada vez para ver seus detalhes na [!UICONTROL Resumo] painel.
 
    ![](assets/summary-overview--open-task-from-summary-icon-350x112.png)
 
-1. (Opcional) Para fechar o [!UICONTROL Resumo] , execute um dos seguintes procedimentos:
+1. (Opcional) Para fechar o [!UICONTROL Resumo] , siga um destes procedimentos:
 
    * Em uma lista de tarefas ou problemas, clique no botão **[!UICONTROL Abrir resumo]** ícone ![](assets/summary-panel-icon.png)
 
       Ou
 
-      Clique no botão **X** no canto superior direito do [!UICONTROL Resumo] painel.
+      Clique em **X** no canto superior direito da caixa [!UICONTROL Resumo] painel.
 
-   * No [!UICONTROL Enviado] da seção [!UICONTROL Solicitações] clique no botão **[!UICONTROL Fechar resumo]** ícone ![](assets/close-summary-with-text-nwe.png)
+   * No [!UICONTROL Enviado] seção do [!UICONTROL Solicitações] clique na guia **[!UICONTROL Fechar resumo]** ícone ![](assets/close-summary-with-text-nwe.png)
 
       Ou
 
-      Clique no botão **X** no canto superior direito do painel Resumo.
+      Clique em **X** no canto superior direito do painel Resumo.
 
 ## [!UICONTROL Percentual concluído]
 
-Use a barra de progresso na parte superior do [!UICONTROL Resumo] para atualizar a porcentagem concluída para a tarefa ou problema selecionado. Insira um número ou arraste a barra até a porcentagem correta.
+Use a barra de progresso na parte superior da [!UICONTROL Resumo] para atualizar o percentual concluído da tarefa ou problema selecionado. Insira um número ou arraste a barra até a porcentagem correta.
 
 ![](assets/summary-overview-percent-complete-350x395.png)
 
 ## [!UICONTROL Atualizações]
 
-Use o [!UICONTROL Atualizações] da seção [!UICONTROL Resumo] para exibir atualizações recentes e fazer atualizações na tarefa ou problema selecionado. Clique em **[!UICONTROL Ver tudo]** para acessar diretamente o [!UICONTROL Atualizações] na tarefa.
+Use o [!UICONTROL Atualizações] seção do [!UICONTROL Resumo] para exibir atualizações recentes e fazer atualizações na tarefa ou problema selecionado. Clique em **[!UICONTROL Ver tudo]** para ir diretamente para o [!UICONTROL Atualizações] na tarefa.
 
 ![](assets/summary-updates-with-block-quote-350x290.png)
 
 ## [!UICONTROL Documentos]
 
-Use o [!UICONTROL Documentos] da seção [!UICONTROL Resumo] para ver documentos anexados à tarefa ou edição que você selecionou. Clique na miniatura para abrir uma visualização de documento. Para acessar diretamente o [!UICONTROL Documentos] na tarefa ou problema, clique no botão **[!UICONTROL Documentos]** título.
+Use o [!UICONTROL Documentos] seção do [!UICONTROL Resumo] para ver documentos anexados à tarefa ou problema selecionado. Clique na miniatura para abrir uma visualização de documento. Para ir diretamente para o [!UICONTROL Documentos] na tarefa ou problema, clique no botão **[!UICONTROL Documentos]** título.
 
 ![](assets/summary-overview-documents-350x84.png)
 
 ## [!UICONTROL Detalhes]
 
-Use o [!UICONTROL Detalhes] da seção [!UICONTROL Resumo] para exibir detalhes de itens de trabalho de alto nível, fazer atribuições ou adicionar datas de início. Clique em **[!UICONTROL Ver tudo]** para acessar diretamente o [!UICONTROL Detalhes] na tarefa ou problema.
+Use o [!UICONTROL Detalhes] seção do [!UICONTROL Resumo] para exibir detalhes de item de trabalho de alto nível, faça atribuições ou adicione datas de início. Clique em **[!UICONTROL Ver tudo]** para ir diretamente para o [!UICONTROL Detalhes] na tarefa ou problema.
 
 >[!NOTE]
 >
->Os campos que aparecem nesta seção são os mesmos campos que aparecem no painel direito na página inicial. Você pode personalizar esses campos [Personalizar [!UICONTROL Início] e [!UICONTROL Resumo] uso de um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>Os campos exibidos nesta seção são os mesmos campos exibidos no painel direito da Página inicial. Você pode personalizar esses campos [Personalizar [!UICONTROL Início] e [!UICONTROL Resumo] uso de um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 ![](assets/summary-overview-details-new-350x278.png)
 
 ## [!UICONTROL Subtarefas]
 
-Esta seção só está disponível para tarefas. Use o [!UICONTROL Subtarefas] da seção [!UICONTROL Resumo] para visualizar [!UICONTROL Novo], [!UICONTROL Em Andamento]e [!UICONTROL Fechado] subtarefas na tarefa selecionada. Clique no botão **[!UICONTROL Status]** menu suspenso para alternar entre status. Para acessar diretamente o [!UICONTROL Subtarefas] na tarefa, clique no botão **[!UICONTROL Subtarefas]**&#x200B; título.
+Esta seção só está disponível para tarefas. Use o [!UICONTROL Subtarefas] seção do [!UICONTROL Resumo] para exibir [!UICONTROL Novo], [!UICONTROL Em andamento], e [!UICONTROL Fechado] subtarefas na tarefa selecionada. Clique em **[!UICONTROL Status]** para alternar entre os status. Para ir diretamente para o [!UICONTROL Subtarefas] na tarefa, clique na guia **[!UICONTROL Subtarefas]**&#x200B;título.
 
-Se você não tiver adicionado subtarefas à tarefa, clique em **[!UICONTROL Adicione um aqui]** para acessar diretamente o [!UICONTROL Subtarefas] na tarefa.
+Se não tiver adicionado nenhuma subtarefa à tarefa, clique em **[!UICONTROL Adicionar um aqui]** para ir diretamente para o [!UICONTROL Subtarefas] na tarefa.
 
 ![](assets/summary-overview-subtasks-350x140.png)
 
 ## [!UICONTROL Horas]
 
-Use o [!UICONTROL Horas] da seção [!UICONTROL Resumo] para registrar horas na tarefa ou problema selecionado. Clique em **[!UICONTROL Hora de registro]** e insira suas horas. Para ir diretamente para a guia Hours na tarefa ou problema, clique no botão **[!UICONTROL Horas]** título.
+Use o [!UICONTROL Horas] seção do [!UICONTROL Resumo] para registrar horas na tarefa ou problema selecionado. Clique em **[!UICONTROL Registro de tempo]** e insira suas horas. Para ir diretamente para a guia Horas na tarefa ou problema, clique na guia **[!UICONTROL Horas]** título.
 
-A contagem de horas na [!UICONTROL Resumo] exibe as horas que você registra. Outros usuários terão totais de horas diferentes na [!UICONTROL Resumo] dependendo do tempo em que fazem logon na tarefa.
+A contagem de horas no [!UICONTROL Resumo] exibe as horas registradas. Outros usuários terão diferentes totais de horas na variável [!UICONTROL Resumo] dependendo da hora em que eles fazem logon na tarefa.
 
-Se não houver planos [!UICONTROL horas] na tarefa ou problema e você tiver registrado o tempo, a barra de horas exibe vermelho.
+Se não houver planos [!UICONTROL horas] na tarefa ou problema e você tiver registrado o tempo, a barra de horas será exibida em vermelho.
 
 ![](assets/summary-overview-hours-350x96.png)
 
 ## Aprovações
 
-Use o [!UICONTROL Aprovações] da seção [!UICONTROL Resumo] para exibir aprovações anexadas à tarefa ou emissão selecionada. Se você não tiver adicionado aprovações, selecione uma aprovação existente no menu suspenso ou clique em **[!UICONTROL Criar processo de aprovação de uso único]** para acessar diretamente o [!UICONTROL Aprovações] na tarefa ou problema.
+Use o [!UICONTROL Aprovações] seção do [!UICONTROL Resumo] para exibir aprovações anexadas à tarefa ou problema selecionado. Se você não tiver adicionado nenhuma aprovação, selecione uma aprovação existente no menu suspenso ou clique em **[!UICONTROL Criar processo de aprovação de uso único]** para ir diretamente para o [!UICONTROL Aprovações] na tarefa ou problema.
 
-Para acessar diretamente o [!UICONTROL Aprovações] na tarefa ou problema, clique no botão **[!UICONTROL Aprovações]** título.
+Para ir diretamente para o [!UICONTROL Aprovações] na tarefa ou problema, clique no botão **[!UICONTROL Aprovações]** título.
 
 ![](assets/summary-overview-approvals-350x122.png)
