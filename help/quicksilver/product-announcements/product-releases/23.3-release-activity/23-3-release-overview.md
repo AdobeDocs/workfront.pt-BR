@@ -4,9 +4,9 @@ description: Visão geral da versão 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
+source-git-commit: a6dd604db7c12c00048150004323e8426e45cf2b
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -222,7 +222,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Criar automaticamente pastas vinculadas ao Adobe Experience Manager Assets ao criar um projeto</a><span style="color: #ff0000;"> Novo na produção!</span></p>
-                        <p>Com o novo fluxo de trabalho Criar pasta vinculada para a integração do Adobe Experience Manager, é possível configurar a integração com um caminho para uma pasta do Adobe Experience Manager Assets. Quando a integração é adicionada a um modelo de projeto, qualquer projeto criado a partir do modelo criará automaticamente uma subpasta vinculada no Experience Manager Assets na pasta especificada. </p>
+                        <p>Com o novo fluxo de trabalho Criar pasta vinculada para a integração do Adobe Experience Manager, é possível configurar a integração com um caminho para uma pasta do Adobe Experience Manager Assets. Quando a integração é adicionada a um modelo de projeto, qualquer projeto criado a partir do modelo criará automaticamente uma subpasta vinculada no Experience Manager Assets na pasta especificada. </p><p>Essa funcionalidade só está disponível com uma integração do Adobe Experience Manager as a Cloud Service no Workfront.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
