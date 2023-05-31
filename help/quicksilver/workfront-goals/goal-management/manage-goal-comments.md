@@ -1,25 +1,25 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Gerenciar comentários da meta nas Metas da Adobe Workfront
-description: Você pode adicionar comentários em todas as metas que pode visualizar no Adobe Workfront Metas.
+title: Gerenciar comentários de meta em Metas do Adobe Workfront
+description: É possível adicionar comentários a todas as metas que você pode exibir no Adobe Workfront Goals.
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
 
-# Gerenciar comentários da meta nas Metas da Adobe Workfront
+# Gerenciar comentários de meta em Metas do Adobe Workfront
 
 <!--consider retiring this article when goals and all objects are in parity - after the new commenting experience goes to production GA-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
-Você pode adicionar comentários em todas as metas que pode visualizar no Adobe Workfront Metas.
+É possível adicionar comentários a todas as metas que você pode exibir no Adobe Workfront Goals.
 
 <!--drafted for P&P:
 
@@ -82,7 +82,7 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> <p>Pro ou superior</p> </td> 
   </tr> 
   <tr> 
@@ -91,100 +91,103 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td> <p>Você deve comprar uma licença adicional para a funcionalidade Metas da Adobe Workfront para acessar descrita neste artigo. </p> <p>Para obter mais informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td> 
+   <td> <p>Você deve comprar uma licença adicional para que o Adobe Workfront Goals acesse a funcionalidade descrita neste artigo. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nível de acesso*</td> 
-   <td> <p>Visualizar ou aumentar o acesso às metas</p> <p><b>Nota</b><p>Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte:</p> 
+   <td> <p>Acesso maior ou igual a Metas</p> <p><b>Nota</b><p>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Conceder acesso às Metas da Adobe Workfront</a></span> </p> </li> 
+      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Conceder acesso ao Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Permissões de objeto</td> 
    <td> 
     <div> 
-     <p>Visualizar ou aumentar permissões em metas</p> 
-     <p>Para obter informações sobre como compartilhar metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartilhar uma meta na Workfront</a>. </p> 
+     <p>Exibir ou aumentar permissões sobre metas</p> 
+     <p>Para obter informações sobre como compartilhar metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartilhar uma meta no Workfront Goals</a>. </p> 
     </div> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
 
 ## Pré-requisitos
 
-Você deve ter o seguinte antes de começar:
+Você deve ter o seguinte antes de iniciar:
 
-* Um modelo de layout que inclui a área Metas no Menu principal.
+* Um Modelo de layout que inclui a área Metas no Menu principal.
 
 ## Localize a seção Atualizações
 
 Você pode adicionar comentários às metas na seção Atualizações da página de uma meta.
 
-É possível responder ou curtir um comentário que você ou outras pessoas adicionaram nesta área.
+Você pode responder ou curtir um comentário que você ou outras pessoas adicionaram nesta área.
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) > **Metas** no canto superior direito.
+1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) > **Metas** no canto superior direito.
 Isso abre a lista de metas.
-1. Localize a meta à qual deseja adicionar comentários e clique no nome para abrir a página de meta.
+1. Localize a meta à qual deseja adicionar comentários e clique no nome dela para abrir a página de metas.
 1. Clique em  **Atualizações** no painel esquerdo.
-1. Clique no botão **Comentários** no canto superior esquerdo da área Atualizações.
-1. Comece a inserir um comentário na **Novo comentário** caixa.
+1. Clique em **Comentários** no canto superior esquerdo da área Atualizações.
+1. Comece a inserir um comentário no **Novo comentário** caixa.
 
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
-   >Navegar para fora da seção Atualizações antes de terminar de digitar e enviar um comentário mantém o comentário na página no modo de rascunho mesmo depois de fazer logoff e logon novamente. Todas as imagens adicionadas ao comentário também são salvas no rascunho. Os rascunhos são salvos por 7 dias após os quais são descartados e não podem ser recuperados. Os comentários rascunhados são visíveis apenas para o usuário que os insere.
+   >Sair da seção Atualizações antes de terminar de digitar e enviar um comentário mantém o comentário na página no modo de rascunho mesmo depois de fazer logoff e logon novamente. As imagens adicionadas ao comentário também são salvas no rascunho. Os rascunhos são salvos por 7 dias após os quais são descartados e não podem ser recuperados. Comentários em rascunho só ficam visíveis para o usuário que os digita.
 
-1. (Opcional) Para adicionar formatação Rich Text à sua atualização, a um hiperlink ou a uma imagem, use quaisquer opções na barra de ferramentas Rich Text ou nos ícones adjacentes a ela. Para obter mais informações, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Opcional) Na seção **Marcar pessoas ou equipes** , comece digitando o nome ou o email de um usuário ou de uma equipe que você gostaria de incluir neste comentário e selecione-o quando ele for exibido na lista.
-1. Selecione o **Privado da minha empresa** para tornar o comentário visível somente para as pessoas na empresa.
+1. (Opcional) Para adicionar formatação de rich text à atualização, a um hiperlink ou a uma imagem, use as opções na barra de ferramentas Rich Text ou nos ícones adjacentes a ela. Para obter mais informações, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Opcional) Na **Marcar pessoas ou equipes** digite o nome ou o email de um usuário ou de uma equipe que deseja incluir neste comentário e, em seguida, selecione-o quando ele for exibido na lista.
+1. Selecione o **Privativo(s) de minha empresa** ativar para tornar o comentário visível somente para pessoas em sua empresa.
 
    >[!TIP]
    >
-   >Você deve ter uma Empresa especificada no seu perfil para ter essa opção disponível na área Atualizações .
+   >É necessário ter uma Empresa especificada em seu perfil para disponibilizar essa opção na área Atualizações.
 
 1. Clique em **Enviar**.
 
    >[!TIP]
    >
-   >Se outro usuário enviar um comentário para o mesmo item que você está atualizando, haverá uma linha vermelha com um indicador &quot;Novo&quot; para informá-lo sobre os comentários mais recentes.
+   >Se outro usuário enviar um comentário para o mesmo item que você está atualizando, haverá uma linha vermelha com um indicador &quot;Novo&quot; para informá-lo dos comentários mais recentes.
    >
-   >O indicador só é exibido depois que o comentário foi enviado no item, e não quando o comentário ainda é composto.
+   >O indicador só é exibido depois que o comentário foi enviado sobre o item, e não quando o comentário ainda está composto.
    >
-   >O indicador &quot;Novo&quot; é exibido somente quando o usuário que inseriu uma nova atualização, bem como o usuário que está inserindo uma atualização no momento estão usando a nova experiência de comentário.
+   >O indicador &quot;Novo&quot; é exibido somente quando o usuário que inseriu uma nova atualização, bem como o usuário que está inserindo uma atualização no momento, estão usando a nova experiência de comentário.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. (Opcional) Para editar um comentário, clique no botão **Mais** menu ![](assets/more-icon.png) à direita do ícone Curtir e, em seguida, clique em **Editar**.
+1. (Opcional) Para editar um comentário, **Mais** menu ![](assets/more-icon.png) à direita do ícone Curtir e, em seguida, clique em **Editar**.
 1. Edite as informações no comentário, adicione ou remova imagens ou remova qualquer um dos usuários marcados.
-Você pode editar seu comentário em 15 minutos após enviá-lo. Um indicador &quot;Editado&quot; é adicionado à esquerda do carimbo de data que é exibido quando o comentário é atualizado.
+Você pode editar seu comentário dentro de 15 minutos a partir do envio. Um indicador &quot;editado&quot; é adicionado à esquerda do carimbo de data que é exibido quando o comentário é atualizado.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   > Um email é gerado para notificar os usuários sobre sua atualização somente quando você envia a atualização original. Nenhum email é gerado após você ter editado sua atualização.
+   > * Um email é gerado para notificar os usuários sobre sua atualização somente quando você envia a atualização original. Nenhum email é gerado após a edição da atualização.
+   >
+   > * O carimbo de data é a data do comentário original e não a data da última atualização.
 
-   1. (Opcional) Clique no botão **Mais** menu ![](assets/more-icon.png)e, em seguida, clique em qualquer uma das seguintes opções para copiar informações de um comentário para a área de transferência:
+
+   1. (Opcional) Clique no link **Mais** menu ![](assets/more-icon.png), em seguida, clique em qualquer uma das seguintes opções para copiar informações de um comentário para a área de transferência:
 
       * **Copiar link** para copiar o link de uma atualização, sem as respostas.
       * **Copiar texto do corpo** para copiar o texto de uma atualização.
 
          Para obter mais informações, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Opcional) Clique no botão **Mais** menu ![](assets/more-icon.png) à direita de um comentário, em seguida, clique em **Excluir** para excluir um comentário adicionado. Para obter mais informações, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Opcional) Clique no link **Mais** menu ![](assets/more-icon.png) à direita de um comentário e clique em **Excluir** para excluir um comentário adicionado. Para obter mais informações, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Clique em **Responder** para responder a um comentário existente, siga as etapas 5 a 9 acima. <!--insure this stays accurate-->
-1. (Condicional e opcional) Se outros usuários adicionaram comentários que são exibidos fora da área visível na seção Atualizações , clique em **Exibir** dentro do azul **banner de novos comentários** na parte inferior da tela para exibir esses comentários.
+1. (Condicional e opcional) Se outros usuários tiverem adicionado comentários que são exibidos fora da área visível na seção Atualizações, clique em **Exibir** dentro do azul **novo banner de comentários** na parte inferior da tela para exibir esses comentários.
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
 
    Comentários adicionais são exibidos na parte inferior da tela.
-1. (Opcional) Clique no botão **Like** ícone![](assets/like-icon.png) para gostar de um comentário que outra pessoa adicionou. O ícone é atualizado com o número de curtidas.
+1. (Opcional) Clique no link **Curtir** ícone![](assets/like-icon.png) para gostar de um comentário que outra pessoa adicionou. O ícone é atualizado com o número de curtidas.
 
-1. (Opcional) Clique no botão **Atividade do sistema** para exibir as atualizações registradas pelo sistema. Quando uma meta é atualizada, a Workfront gera uma nota sobre essa atualização e a exibe na guia Atividade do sistema. O Workfront também registra uma atualização do sistema quando um resultado, atividade ou projeto é adicionado à meta ou quando é atualizado. <!--ensure the casing on the tab has not changed-->
+1. (Opcional) Clique no link **Atividade do sistema** para ver as atualizações registradas pelo sistema. Quando uma meta é atualizada, o Workfront gera uma observação sobre essa atualização e a exibe na guia Atividade do sistema. O Workfront também registra uma atualização do sistema quando um resultado, atividade ou projeto é adicionado à meta ou quando é atualizado. <!--ensure the casing on the tab has not changed-->
 
 <!--BELOW IS OLD, ATIIM/ WORKFRONT GOALS INFORMATION ABOUT COMMENTS: 
 
