@@ -6,7 +6,7 @@ description: Quando alguém adiciona ou responde a uma atualização em um objet
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: 66e843ea0430a86b89b68f6f469763f5e4a348d7
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização.
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização.</span>
 
 >[!NOTE]
 >
@@ -26,22 +26,22 @@ ht-degree: 1%
 >Para obter mais informações sobre a nova experiência de comentários, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Você pode acessar a nova experiência para os seguintes objetos:
-> * Problemas, <span class="preview">projetos, tarefas e documentos</span>.
-   >
-   >     Isso está disponível quando você ativa a experiência de comentários Beta.\
-   >     Essa funcionalidade está disponível somente para a seção Atualizações e não está disponível para as seguintes áreas:
-   >
-   >     * Página inicial
-   >     * Painel Resumo em listas
-   >     * Painel Resumo em Planilhas de Horas
 >
-> * Metas
-
-   >
-   >   A nova experiência de comentários é o padrão para metas. Você deve ter uma licença adicional para acessar o Workfront Goals. Para obter mais informações, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    Para obter informações sobre comentários sobre metas, consulte [Gerenciar comentários de meta em Metas do Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>* Problemas, <span class="preview">projetos, tarefas e documentos</span>.
+>
+>  Isso está disponível quando você ativa a experiência de comentários Beta.
+>
+>  Essa funcionalidade está disponível somente para a seção Atualizações e não está disponível para as seguintes áreas:
+>
+>  * Página inicial
+>  * Painel Resumo em listas
+>  * Painel Resumo em Planilhas de Horas
+>
+>* Metas
+>
+>  A nova experiência de comentários é o padrão para metas. Você deve ter uma licença adicional para acessar o Workfront Goals. Para obter mais informações, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>  Para obter informações sobre comentários sobre metas, consulte [Gerenciar comentários de meta em Metas do Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 Quando alguém responde a um comentário ou a uma atualização do sistema em um objeto de trabalho, sua resposta é exibida no thread de comunicação na seção Atualizações do objeto.
 
@@ -100,6 +100,7 @@ Responder a um comentário ou resposta difere de acordo com a experiência e o o
    Você pode ver os usuários que estão ativamente envolvidos na conversa ou marcados em cada resposta na parte superior da thread de atualização. Esses usuários, juntamente com quaisquer usuários que se inscreveram no objeto, recebem uma notificação sempre que uma atualização ou resposta é feita no objeto. Você também pode adicionar tags a mais usuários para incluí-los em sua resposta.  Para marcar mais usuários, consulte [Marcar outros usuários em atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
    ![](assets/tagging-transparency-350x192.png)
+
 1. (Opcional) Para incluir texto de uma atualização anterior em sua resposta, clique no link **Mais** ao lado da atualização ou resposta que deseja citar, clique em **Citar resposta**. O texto da atualização anterior é exibido na área de entrada, marcado com uma linha cinza vertical.
 1. (Opcional) Use formatação, emojis, links de inclusão ou imagens, conforme explicado na seção &quot;Usar Rich Text em uma atualização do Workfront&quot; no artigo [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Clique em **Responder** para salvar a resposta.
