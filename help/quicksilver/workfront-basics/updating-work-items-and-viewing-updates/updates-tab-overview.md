@@ -7,9 +7,9 @@ description: A seção Atualizações de um objeto exibe comentários que os usu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '968'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização.</span>
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 4%
 >Para obter mais informações sobre a nova experiência de comentários, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Você pode acessar a nova experiência para os seguintes objetos:
-> * Problemas, <!--<span class="preview">projects, tasks, and documents</span>,--> ao ativar o comentário Beta.
+> * Problemas, <span class="preview">projetos, tarefas e documentos</span> ao ativar o comentário Beta.
    >
    >     Essa funcionalidade está disponível somente para a seção Atualizações e não está disponível para as seguintes áreas:
    >
@@ -99,7 +99,7 @@ A seção Atualizações exibe informações nas seguintes guias na nova experi�
 * **Comentários**: exibe comentários feitos por usuários e responde a esses comentários. Para obter informações sobre como atualizar objetos na nova experiência de comentários, consulte [Atualizar trabalho](../updating-work-items-and-viewing-updates/update-work.md).
 * **Atividade do sistema**: exibe as atualizações do sistema que são mensagens informativas criadas pelo Workfront para registrar determinados eventos em um objeto. Por exemplo, você pode capturar alterações em campos de status, nome ou personalizados com atualizações do sistema. O administrador do Workfront ou de grupo pode habilitar atualizações de sistema para seus objetos. Para obter mais informações, consulte [Configurar atualizações do sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-Atualmente, você pode fazer comentários e responder a atualizações usando a experiência de comentários beta nos seguintes objetos:
+Atualmente, você pode adicionar comentários e responder às atualizações usando a experiência de comentários beta nos seguintes objetos:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -111,39 +111,17 @@ Atualmente, você pode fazer comentários e responder a atualizações usando a 
      <li><p>Metas</p>
      <p>Esta é a experiência padrão para metas</p>
      </li> 
-      </ul> </td> 
+     <li><span class="preview">Projetos</span></li>
+     </ul> </td> 
    <td> 
     <ul> 
      <li>Problemas</li> 
+     <li><span class="preview">Tarefas</span></li>
+     <li><span class="preview">Documentos</span></li>
      </ul> </td> 
   </tr> 
  </tbody> 
 </table>
-
-<!--replace table above with this: 
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li><p>Goals</p>
-     <p>This is the default experience for goals</p>
-     </li> 
-     <li><span class="preview">Projects</span></li>
-     </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Issues</li> 
-     <li><span class="preview">Tasks</span></li>
-     <li><span class="preview">Documents</span></li>
-     </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 ## Atualizações que também aparecem em objetos de classificação mais alta
 
@@ -151,17 +129,15 @@ Comentários ou respostas feitas a atualizações em determinados objetos també
 
 Por exemplo, quando você adiciona uma atualização a uma tarefa, a atualização aparece na seção Atualizações da tarefa e na seção Atualizações do projeto que contém a tarefa.
 
-<!--
 >[!NOTE]
 >
->When enabling the new commenting Beta experience, comments display on the following higher-ranking objects and in the following environments: 
+>Ao ativar a nova experiência beta de comentários, os comentários são exibidos nos seguintes objetos de classificação mais alta e nos seguintes ambientes:
 >
->* Issues, in the Preview and Production environments
->* <span class="preview">Projects and tasks, in the Preview environment</span>
+>* Problemas
+>* <span class="preview">Projetos</span>
+>* <span class="preview">Tarefas</span>
 >
->For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
-
--->
+>Para obter mais informações, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 A tabela a seguir mostra os objetos cujos comentários também são exibidos em seus objetos de classificação mais alta:
 

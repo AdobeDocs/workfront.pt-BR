@@ -6,9 +6,9 @@ description: Você pode adicionar uma atualização em um objeto do Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '3151'
+source-wordcount: '3176'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização.</span>
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 1%
 >Para obter mais informações sobre a nova experiência de comentários, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Você pode acessar a nova experiência para os seguintes objetos:
-> * Problemas, <!--<span class="preview">projects, tasks, and documents</span>,--> ao ativar o comentário Beta.
+> * Problemas, <span class="preview">projetos, tarefas e documentos</span>, ao ativar o comentário Beta.
    >
    >     Essa funcionalidade está disponível somente para a seção Atualizações e não está disponível para as seguintes áreas:
    >
@@ -193,7 +193,7 @@ Adicionar uma atualização a um item de trabalho difere dependendo de qual vers
 A variável **Comentários** é selecionada por padrão.
 1. Comece a inserir um comentário no **Novo comentário** caixa.
 
-   ![](assets/comment-box-empty-unshimmed.png)
+   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
 
    >[!TIP]
    >
@@ -314,7 +314,7 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
 1. (Opcional) Para adicionar um link de URL a fontes de informações adicionais:
 
    1. Clique em na atualização em que deseja inserir um link.
-   1. No **Rich Text** barra de ferramentas, clique no link **Hiperlink** ícone. ![](assets/link-icon.png)
+   1. No **Rich Text** barra de ferramentas, clique no link **Hiperlink** ícone ![](assets/link-icon.png).
 
    1. No **Criar link** que aparece, em **URL**, digite ou cole o URL da origem à qual deseja vincular.
 
