@@ -7,9 +7,9 @@ description: A seção Atualizações de um objeto exibe comentários que os usu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
+source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '968'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,9 @@ ht-degree: 4%
 >Para obter mais informações sobre a nova experiência de comentários, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Você pode acessar a nova experiência para os seguintes objetos:
-> * Problemas, <span class="preview">projetos</span>, <span class="preview">tarefas</span>, e <span class="preview">documentos</span>, ao ativar o comentário Beta.
+> * Problemas, <span class="preview">projetos, tarefas e documentos</span>.
+   >
+   >     Isso está disponível quando você ativa a experiência de comentários Beta.
    >
    >     Essa funcionalidade está disponível somente para a seção Atualizações e não está disponível para as seguintes áreas:
    >
