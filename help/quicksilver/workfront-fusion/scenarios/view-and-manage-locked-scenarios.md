@@ -2,25 +2,25 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Exibir e gerenciar cenários bloqueados em [!DNL Adobe Workfront Fusion]
-description: Exibir e gerenciar cenários bloqueados em [!DNL Adobe Workfront Fusion]
+title: Gerenciar cenários bloqueados no [!DNL Adobe Workfront Fusion]
+description: Gerenciar cenários bloqueados no [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
-source-git-commit: dcc4d37af99bae36ba5592cb4ca82ff473ec1cb5
+exl-id: 014434dc-7548-42d1-bacd-89ddf627b647
+source-git-commit: 9050684504f2335f5631f63978a9f65c25fd8d5f
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
 
 # Gerenciar cenários bloqueados no [!DNL Adobe Workfront Fusion]
 
-Em alguns casos, um cenário pode ser temporariamente bloqueado pela variável [!DNL Workfront Fusion] equipe de engenharia porque o cenário está causando desempenho ou outros problemas. As execuções bloqueadas serão automaticamente desbloqueadas dentro de 2 a 4 horas. Você também pode desbloquear cenários manualmente.
+Em alguns casos, um cenário pode estar temporariamente bloqueado [!DNL Workfront Fusion]. As execuções bloqueadas serão automaticamente desbloqueadas dentro de 2 a 4 horas. Também é possível desbloquear cenários manualmente.
 
 >[!IMPORTANT]
 >
 >Desbloquear um cenário manualmente pode causar erros nas execuções de um cenário.
-
 
 ## Requisitos de acesso
 
@@ -39,8 +39,8 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
    <td> <p>[!UICONTROL Plano], [!UICONTROL Trabalho]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da [!UICONTROL Adobe Workfront Fusion]**</td> 
-  <td> <p>[!UICONTROL [!DNL Workfront Fusion] para automação e integração de trabalho] </p><p>[!UICONTROL [!DNL Workfront Fusion] para Automação de Trabalho] </p>  </td>    </tr> 
+   <td role="rowheader">Licença [!UICONTROL Adobe Workfront Fusion]**</td> 
+  <td> <p>[!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p><p>[!UICONTROL [!DNL Workfront Fusion] para automação de trabalho] </p>  </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
@@ -49,19 +49,31 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
  </tbody> 
 </table>
 
-Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
+## Noções básicas sobre cenários bloqueados
+
+Os cenários podem ser bloqueados por vários motivos.
+
+O Workfront Fusion não oferece suporte ao processamento paralelo de cenários agendados. Esses cenários são bloqueados no início da execução do cenário e desbloqueados quando ele é concluído. Se a execução for interrompida, o cenário pode não ser desbloqueado. Isso pode ocorrer quando um usuário força manualmente o cenário ou quando há um problema no sistema.
+
+Além disso, a equipe de engenharia do Workfront Fusion pode bloquear um cenário porque ele está causando desempenho ou outros problemas.
+
+Independentemente da causa de um cenário bloqueado, o cenário será desbloqueado automaticamente de 2 a 4 horas após ser bloqueado.
+
 ## Desbloquear um cenário bloqueado
 
-Os cenários bloqueados serão desbloqueados de 2 a 4 horas a partir do momento em que foram bloqueados. Você pode desbloquear um cenário manualmente antes que ele seja programado para desbloquear automaticamente.
+Cenários bloqueados serão desbloqueados de 2 a 4 horas a partir do momento em que foram bloqueados. É possível desbloquear um cenário manualmente antes de seu desbloqueio automático ser agendado.
+
+Desbloquear um cenário manualmente pode causar erros nas execuções de um cenário. Recomendamos desbloquear manualmente os cenários somente quando um cenário está bloqueado devido à execução e interrupção de execuções como parte do design do cenário. Em outras circunstâncias, recomendamos que você aguarde até que o cenário seja desbloqueado automaticamente.
 
 >[!IMPORTANT]
 >
 >Desbloquear um cenário manualmente pode causar erros nas execuções de um cenário.
 
-1. Vá para a página Detalhes do cenário bloqueado .
+1. Vá para a página Detalhes do cenário do cenário bloqueado.
 1. Clique em **[!UICONTROL Opções]** no canto superior direito da tela.
 1. Selecionar **[!UICONTROL Desbloquear execução]**.
 1. Clique em **[!UICONTROL Desbloquear]**.
