@@ -2,11 +2,11 @@
 product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Criar seções personalizadas
-description: As informações que você vê no [!DNL Workfront] o aplicativo web é frequentemente exibido nas seções no painel esquerdo por padrão. Cada seção contém informações diferentes sobre uma [!DNL Workfront] área ou objeto.
-author: Lisa
+description: As informações que você vê na [!DNL Workfront] o aplicativo web geralmente é exibido nas seções no painel esquerdo por padrão. Cada seção contém informações diferentes sobre um [!DNL Workfront] área ou objeto.
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 2%
@@ -17,19 +17,19 @@ ht-degree: 2%
 
 ## [!DNL Adobe Workfront] seções
 
-As informações que você vê no [!DNL Workfront] o aplicativo web é frequentemente exibido nas seções do painel esquerdo por padrão. Cada seção contém informações diferentes sobre uma [!DNL Workfront] área ou objeto.\
+As informações que você vê na [!DNL Workfront] o aplicativo web geralmente é exibido nas seções do painel esquerdo por padrão. Cada seção contém informações diferentes sobre um [!DNL Workfront] área ou objeto.\
 Para obter mais informações sobre as áreas padrão de [!DNL Workfront], consulte o artigo [Sobre o padrão [!DNL Adobe Workfront] layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
-Além das seções que vêm com [!DNL Workfront] por padrão, você pode adicionar um painel no qual pode exibir informações relevantes ao seu fluxo de trabalho. Não é possível adicionar um painel a todas as áreas e objetos.
+Além das seções que vêm com o [!DNL Workfront] por padrão, é possível adicionar um painel no qual você pode exibir informações relevantes ao seu fluxo de trabalho. Não é possível adicionar um painel a todas as áreas e objetos.
 
-A tabela a seguir lista todos os [!DNL Workfront] áreas e objetos que contêm seções no painel esquerdo e quais deles podem ser personalizados:
+A tabela a seguir lista todas as [!DNL Workfront] áreas e objetos que contêm seções no painel esquerdo e quais deles podem ser personalizados:
 
 | **[!DNL Workfront]área ou objeto** | **Seções padrão do sistema** | **Seções personalizadas** |
 |---|---|---|
-| [!UICONTROL Projetos] area | ✓ | ✓ |
+| [!UICONTROL Projetos] área | ✓ µ | ✓ |
 | [!UICONTROL Equipe] | ✓ |   |
-| [!UICONTROL Solicitações] area | ✓ |   |
-| [!UICONTROL Folhas de Horas] area | ✓ |   |
+| [!UICONTROL Solicitações] área | ✓ |   |
+| [!UICONTROL Planilhas de Horas] área | ✓ |   |
 | [!UICONTROL Portfólio] | ✓ | ✓ |
 | [!UICONTROL Programa] | ✓ | ✓ |
 | [!UICONTROL Projeto] | ✓ | ✓ |
@@ -42,7 +42,7 @@ A tabela a seguir lista todos os [!DNL Workfront] áreas e objetos que contêm s
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -64,42 +64,42 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td>Exibir acesso ao tipo de objeto</td> 
+   <td>Visualizar acesso ao tipo de objeto</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano ou tipo de licença você possui, entre em contato com seu [!DNL Workfront] administrador.
+&#42;Para saber que tipo de plano ou licença você tem, entre em contato com o [!DNL Workfront] administrador.
 
 ## Adicionar um painel no painel esquerdo de um [!DNL Workfront] objeto ou área
 
 Antes de adicionar um painel, você deve criar o painel com todas as informações que deseja exibir nele. Você também pode criar uma página externa.\
 Para obter mais informações sobre a criação de painéis, consulte o artigo [Criar um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).\
-Para obter mais informações sobre a criação de páginas externas, consulte o artigo [Incorporar uma página da Web externa em um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+Para obter mais informações sobre a criação de páginas externas, consulte o artigo [Incorporar uma página externa da Web em um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
-Depois de criar o painel ou a página externa, você pode adicioná-los ao painel esquerdo.
+Após criar o painel ou a página externa, é possível adicioná-los ao painel esquerdo.
 
-1. Vá para um dos [!DNL Workfront] áreas ou objetos onde você pode adicionar uma seção personalizada no painel esquerdo.\
+1. Vá para uma das [!DNL Workfront] áreas ou objetos em que você pode adicionar uma seção personalizada no painel esquerdo.\
    Ou
-1. Ir para um objeto ao qual você pode adicionar um [!UICONTROL painel] no painel esquerdo.\
-   Para obter mais informações sobre quais áreas e objetos você pode adicionar seções personalizadas, consulte [[!DNL Adobe Workfront] seções](#adobe-workfront-sections).
+1. Ir para um objeto no qual você pode adicionar um [!UICONTROL painel] no painel esquerdo.\
+   Para obter mais informações sobre a quais áreas e objetos você pode adicionar seções personalizadas, consulte [[!DNL Adobe Workfront] seções](#adobe-workfront-sections).
 1. Clique em **[!UICONTROL Adicionar painel]** no painel esquerdo.
-1. Digite um nome para o painel na **[!UICONTROL Nome do link rápido]** campo. Isso é visível somente para você.
-1. Comece a digitar o nome de um painel existente ou de uma página externa no **[!UICONTROL Escolher um painel]** , em seguida, selecione o painel quando ele for exibido na lista.
+1. Digite um nome para o painel no campo **[!UICONTROL Nome do link rápido]** campo. Isso é visível apenas para você.
+1. Comece digitando o nome de um painel existente ou página externa no **[!UICONTROL Escolher um painel]** e selecione o painel quando ele for exibido na lista.
 1. Clique em **[!UICONTROL Adicionar]**.
 1. (Opcional) Arraste e solte as seções na ordem em que deseja exibi-las.
 
    A seção superior é a seção padrão da página.
 
-   As seções criadas para objetos individuais são exibidas quando você acessa todos os objetos do mesmo tipo e eles estão disponíveis somente para você.
+   As seções criadas para objetos individuais são exibidas quando você acessa todos os objetos do mesmo tipo e só estão disponíveis para você.
 
 ## Exibir painéis no painel esquerdo de objetos
 
 Para obter mais informações sobre como adicionar um painel em um objeto, consulte a seção [[!UICONTROL Adicionar um painel] no painel esquerdo de um objeto ou área do Workfront](#add-a-dashboard-in-the-left-panel-of-a-workfront-object-or-area) neste artigo.
 
-Ao adicionar um painel a uma seção personalizada em um objeto, o objeto atua como um filtro para o painel. Por exemplo, se você adicionar um relatório de tarefa em um painel e adicionar o painel a um projeto, a seção personalizada que contém o painel no projeto exibirá somente as tarefas no projeto que você estiver visualizando.
+Ao adicionar um painel a uma seção personalizada em um objeto, o objeto atua como um filtro para o painel. Por exemplo, se você adicionar um relatório de tarefa em um painel e adicionar o painel a um projeto, a seção personalizada que contém o painel no projeto exibirá somente tarefas no projeto que você está visualizando.
 
-Os seguintes objetos são filtrados para o objeto sob o qual são exibidos, se esse objeto for maior em hierarquia do que eles:
+Os seguintes objetos são filtrados para o objeto sob o qual são exibidos, se esse objeto estiver mais alto em hierarquia do que eles:
 
 * Projeto
 * Tarefa
@@ -108,10 +108,10 @@ Os seguintes objetos são filtrados para o objeto sob o qual são exibidos, se e
 * Nota
 * Documento
 
-Para obter mais informações sobre a hierarquia e interdependência de objetos, consulte a seção [Interdependência e hierarquia de objetos](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) no artigo [Entender objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Para obter mais informações sobre a hierarquia e a interdependência de objetos, consulte a seção [Interdependência e hierarquia de objetos](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) no artigo [Entender objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Personalizar o painel esquerdo em um modelo de layout
 
-Ao adicionar painéis ao [!DNL Workfront] , elas só são visíveis para você.
+Ao adicionar painéis ao seu [!DNL Workfront] instância, elas só estarão visíveis para você.
 
 Você pode personalizar as seções em [!DNL Workfront] e compartilhar o novo layout com vários usuários em um modelo de layout. Somente um administrador de sistema ou de grupo pode compartilhá-los com outros usuários em um modelo de layout. Para obter mais informações sobre como personalizar o painel esquerdo com um modelo de layout, consulte [Personalizar o painel esquerdo usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
