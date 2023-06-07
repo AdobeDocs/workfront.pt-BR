@@ -2,21 +2,21 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Visão geral da restrição de tarefa: Hora Disponível Mais Antiga'
-description: Hora Disponível Mais Antiga é uma Restrição de Tarefa que agenda uma tarefa para começar o mais cedo possível após considerar qualquer relação de antecessor.
+title: "Visão geral da Restrição da Tarefa: Primeiro Horário Disponível"
+description: Primeiro Horário Disponível é uma Restrição de Tarefa que programa uma tarefa para iniciar no primeiro horário disponível depois de considerar quaisquer relacionamentos com predecessores.
 author: Alina
 feature: Work Management
 exl-id: 9c01e4bd-c6ca-4540-a0f1-ecdd44df84e0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 18f26f976a47af003817f2f82f8550bdfbc0ab90
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
-# Visão geral da restrição de tarefa: Hora Disponível Anterior
+# Visão geral de Restrição de Tarefa: Horário Mais Cedo Disponível
 
-Hora Disponível Mais Antiga é uma Restrição de Tarefa que agenda uma tarefa para começar o mais cedo possível após considerar qualquer relação de antecessor.
+Primeiro Horário Disponível é uma Restrição de Tarefa que programa uma tarefa para iniciar no primeiro horário disponível depois de considerar quaisquer relacionamentos com predecessores.
 
 Para obter informações sobre como atualizar a Restrição de Tarefa em uma tarefa, consulte [Atualizar a Restrição de Tarefa de uma tarefa](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
@@ -52,28 +52,32 @@ Para obter informações sobre como atualizar a Restrição de Tarefa em uma tar
    <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Save Changes</strong>.</li>
    -->
 
-## A diferença entre o horário disponível mais cedo e o mais rápido possível
+## A diferença entre o Horário Mais Antigo Disponível e o Mais Breve Possível
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"])</p>
 -->
 
-A restrição de Tempo Disponível Mais Antiga difere da restrição Assim que Possível quando todos os seguintes critérios existem:
+A restrição Primeiro Horário Disponível difere da restrição O Mais Breve Possível quando todos os critérios a seguir existem:
 
-* O projeto está programado desde a conclusão
-* As tarefas no projeto têm uma relação predecessora
+* O projeto está agendado a partir da conclusão
+* As tarefas no projeto têm um relacionamento predecessor
 * A tarefa predecessora tem uma restrição de tarefa flexível
 
 Nesta situação:
 
-* **Hora Disponível Mais Antiga:** Usar a restrição de Tempo Disponível Mais Antiga na tarefa sucessora dá prioridade à restrição flexível do antecessor.
+* **Hora Mais Antiga Disponível:** O uso da restrição Primeiro Horário Disponível na tarefa sucessora dá prioridade à restrição flexível da predecessora.
 
-   **Exemplo:** A Tarefa A é um antecessor da Tarefa B. A Tarefa B tem a Restrição de Tempo Disponível Mais Antiga e a Tarefa A tem a restrição O Mais Tarde Possível. Nesta situação, a Tarefa B é agendada o mais próximo possível da conclusão do projeto.
+   **EXEMPLO**
 
-   ![Primeira restrição de Tempo Disponível quando a tarefa tiver as datas próximas à Data de Conclusão do projeto](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
+   A Tarefa A é predecessora da Tarefa B. A Tarefa B tem a restrição Tempo Mais Cedo Disponível e a Tarefa A tem a restrição O Mais Tarde Possível. Nessa situação, a Tarefa B é agendada o mais próximo possível da conclusão do projeto.
 
-* **Assim Que Possível:** Nesse cenário, o uso da restrição Assim que Possível na tarefa sucessora dá prioridade à tarefa sucessora.
+   ![Restrição de Primeiro Tempo Disponível quando a tarefa tem datas próximas à Data de Término do projeto](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
 
-   **Exemplo:**  A Tarefa A é antecessora da Tarefa B. A Tarefa B tem a restrição Logo que Possível e a Tarefa A tem a restrição O Mais Tarde Possível. Nessa situação, a Tarefa B é agendada o mais próximo possível do início do projeto.
+* **Assim Que Possível:** Nesse cenário, usar a restrição Assim que Possível na tarefa sucessora dá prioridade à tarefa sucessora.
 
-   ![Assim que possível, a restrição quando a tarefa tiver as datas próximas à Data inicial do projeto](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)
+   **EXEMPLO**
+
+   A Tarefa A é antecessora da Tarefa B. A Tarefa B tem a restrição O Mais Breve Possível e a Tarefa A tem a restrição O Mais Tarde Possível. Nessa situação, a Tarefa B é agendada o mais próximo possível do início do projeto.
+
+   ![Restrição O Mais Breve Possível quando a tarefa tiver as datas próximas à Data de Início do projeto](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)
