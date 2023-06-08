@@ -4,9 +4,9 @@ description: Visão geral da versão 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 8e12a80b904a13f60c5c946b48cfed325bb07acf
+source-git-commit: e6ccf6f8f46b61e10ad100a1724e0131207319f3
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1594'
 ht-degree: 0%
 
 ---
@@ -223,6 +223,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Experiência aprimorada ao mover um documento para uma pasta vinculada com arrastar e soltar</a><span style="color: #ff0000;"> Novo na visualização!</span></p> 
+                        <p>Adicionamos transparência ao processo de arrastar e soltar um documento em uma pasta vinculada. Agora, o documento que você moveu para uma pasta vinculada permanece na lista de documentos até que seja totalmente movido. As opções de documento estão desabilitadas, mas você ainda pode abrir o documento para exibição enquanto ele estiver sendo movido. Quando o documento tiver concluído a transferência, ele desaparecerá da lista de documentos, pois agora está totalmente localizado na pasta vinculada. </p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 7 de junho de 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versão de produção: 15 de junho de 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Criar automaticamente pastas vinculadas ao Adobe Experience Manager Assets ao criar um projeto</a></p>
                         <p>Com o novo fluxo de trabalho Criar pasta vinculada para a integração do Adobe Experience Manager, é possível configurar a integração com um caminho para uma pasta do Adobe Experience Manager Assets. Quando a integração é adicionada a um modelo de projeto, qualquer projeto criado a partir do modelo criará automaticamente uma subpasta vinculada no Experience Manager Assets na pasta especificada. </p>
                     </td>
@@ -306,7 +322,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Novas aprovações de documentos</a> <span style="color: #ff0000;"> Novo na visualização!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Alteração de suporte para provas do Microsoft Office</a> </p>
+                        <p>Para manter uma solução de processamento de prova robusta e escalonável, estamos alterando nossos tipos de arquivo do Microsoft Office e limites de tamanho de arquivo compatíveis.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 8 de junho de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versão de produção: 8 de junho de 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Novas aprovações de documentos</a> </p>
                         <p>As aprovações de documentos estão sendo reprojetadas em uma implantação em fases que será disponibilizada para mais usuários com cada versão.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -343,7 +375,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Novo comentário sobre experiência beta para projetos, tarefas e documentos</a> <span style="color: #ff0000;"> Novo na visualização!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Novo comentário sobre experiência beta para projetos, tarefas e documentos</a> </p>
                         <p>A nova experiência de comentário Beta agora está disponível para projetos, tarefas e documentos. Antes desta atualização, a experiência beta de comentários estava disponível somente para problemas e metas.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -406,6 +438,25 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">Novas melhorias na experiência do Canvas Dashboard</a></p>
+                        <p>As melhorias no Painel de controle do Canvas estão sendo disponibilizadas no período da versão 23.3. Esses aprimoramentos serão disponibilizados no ambiente de Produção com a versão 23.3, a menos que especificado de outra forma. 
+ </p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: ao longo do período da versão 23.3<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versão de produção: com a versão 23.3 (salvo especificação em contrário)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>   
            </tbody>
         </table>
 
