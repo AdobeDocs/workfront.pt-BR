@@ -1,58 +1,58 @@
 ---
 product-area: reporting
 navigation-topic: other-blocks
-title: Adicionar ou editar um bloco de conteúdo da Web na Tela de relatórios
+title: Adicionar ou editar um bloco de conteúdo da Web na Tela de relatório
 description: Os blocos de conteúdo da Web permitem exibir informações de sites externos diretamente no relatório.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 2%
+source-wordcount: '320'
+ht-degree: 1%
 
 ---
 
 
-# Adicionar ou editar um bloco de conteúdo da Web na Tela de relatórios
+# Adicionar ou editar um bloco de conteúdo da Web na Tela de relatório
 
 Os blocos de conteúdo da Web permitem exibir informações de sites externos diretamente no relatório.
 
 ## Pré-requisitos
 
-Antes de começar, você deve se inscrever no beta da Tela de relatórios. Para obter mais informações, consulte [Beta da Tela de Relatório: visão geral](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Antes de começar, você deve se inscrever na versão beta da Tela de relatório. Para obter mais informações, consulte [Versão beta do relatório do Canvas: visão geral](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Adicionar ou editar um bloco de conteúdo da Web
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, em seguida, clique em **Relatório**.
+1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Relatórios**.
 1. Clique em **Novo relatório**.
 
    Ou
 
-   Vá para um relatório existente, clique no botão **Mais** ícone ![](assets/more-icon-27x15.png) no cabeçalho do relatório, em seguida, clique em **Editar**.
+   Vá para um relatório existente, clique no link **Mais** ícone ![](assets/more-icon-27x15.png) no cabeçalho do relatório, depois clique em **Editar**.
 
-1. No lado direito do ecrã, debaixo de **Adicionar um bloco** ou:
+1. No lado direito da tela, em **Adicionar um bloco**, ou:
 
-   Arraste o **Conteúdo da Web** ícone na tela diretamente no local desejado.
+   Arraste o **Conteúdo da Web** ícone na tela de desenho diretamente para o local desejado.
 
    Ou
 
-   Clique duas vezes no botão **Conteúdo da Web** ícone para adicionar um bloco à parte superior da tela.
+   Clique duas vezes no ícone **Conteúdo da Web** ícone para adicionar um bloco à parte superior da tela.
 
    >[!TIP]
    >
-   >É possível alterar o tamanho do bloco depois de colocá-lo, arrastando as alças dos cantos.
+   >Você pode alterar o tamanho do bloco depois que ele for colocado arrastando suas alças de canto.
 
 1. Clique em **Conteúdo da Web sem título** no cabeçalho do bloco, digite um título para o bloco.
-1. Clique no botão **Editar** ícone ![](assets/edit-icon.png) no cabeçalho do bloco.
+1. Clique em **Editar** ícone ![](assets/edit-icon.png) no cabeçalho do bloco.
 
    ![](assets/web-content-block-header-350x76.png)
 
-1. No **Configurações** painel que é aberto, insira o URL completo da página que você deseja exibir (incluindo &quot;https://&quot;) no **URL** campo.
+1. No **Configurações** que for aberto, insira o URL completo da página que deseja exibir (incluindo &quot;https://&quot;) na caixa **URL** campo.
 
    >[!NOTE]
    >
-   >Atualmente, somente sites de domínios selecionados podem ser exibidos. Os domínios que podem ser usados atualmente são:
+   >Atualmente, somente os sites de domínios selecionados podem ser exibidos. Os domínios que podem ser usados atualmente são:
    >   
    >   * workfront.com
    >   * google.com
@@ -63,19 +63,19 @@ Antes de começar, você deve se inscrever no beta da Tela de relatórios. Para 
    >   * looker.com
 
 
-   Um aviso é exibido abaixo do URL inserido, caso ele não possa ser incorporado. Esses avisos incluem:
+   Um aviso será exibido abaixo do URL inserido se ele não puder ser incorporado. Esses avisos incluem:
 
    | Nome do aviso | Motivo |
    |---|---|
    | URL inválido | O URL inserido não retorna um site válido. |
-   | Restrições do site do provedor | O site que você está tentando incorporar não é permitido. |
+   | Restrições de site do provedor | O site que você está tentando incorporar não é permitido. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
-1. (Opcional) Clique no botão **Envio de parâmetros** para abrir uma lista de parâmetros de transmissão disponíveis.
+1. (Opcional) Clique no link **Passar parâmetros** ativar para abrir uma lista de parâmetros de aprovação disponíveis.
 
    >[!WARNING]
    >
-   >Os parâmetros de aprovação estão desabilitados no momento.
+   >Os parâmetros de envio estão desabilitados no momento.
 
-1. Clique em **Incorporar URL** para salvar suas seleções e retornar ao relatório.
+1. Clique em **URL incorporado** para salvar as seleções e retornar ao relatório.

@@ -2,7 +2,7 @@
 user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 feature-set: Workfront
-source-git-commit: 0d5f0df35136f3a643b2c7a6cfe1c2377671352f
+source-git-commit: 1536d7425b5c5d3c676ff0c8c6a2a9531690ac3e
 workflow-type: tm+mt
 source-wordcount: '13064'
 ht-degree: 1%
@@ -352,9 +352,9 @@ ht-degree: 1%
          * [Remover SMTP personalizado como uma opção de email de saída](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
    * Programas Beta {#beta}
       * [Programas Beta](product-announcements/betas/betas.md)
-      * Versão beta do relatório do Canvas {#reporting-canvas-beta}
-         * [Visão geral beta da Tela de relatório](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
-         * [Relatório sobre a tela beta: atividade de lançamento](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
+      * Painéis do Canvas beta {#canvas-dashboards-beta}
+         * [Visão geral beta da Tela de relatório](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
+         * [Painéis do Canvas beta: atividade de lançamento](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
       * Nova experiência de comentário beta {#new-commenting-experience-beta}
          * [Novo comentário sobre informações de experiência beta](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
          * [Nova experiência de comentários](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
@@ -926,8 +926,8 @@ ht-degree: 1%
       * [Processos de aprovação duplicados exibidos na Lista de trabalho da página inicial](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
       * [Os botões de filtro não são exibidos nos cabeçalhos da página](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [O filtro Projetos em que estou trabalhando inclui resultados inesperados](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
-* Agile {#agile}
-   * [Agile](agile/agile.md)
+* Ágil {#agile}
+   * [Ágil](agile/agile.md)
    * [Visão geral dos painéis](agile/boards-overview.md)
    * Introdução aos painéis no Adobe Workfront {#boards-in-workfront}
       * [Introdução aos painéis no Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)

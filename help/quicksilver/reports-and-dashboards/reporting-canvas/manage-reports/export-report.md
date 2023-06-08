@@ -1,42 +1,42 @@
 ---
-title: Exportar um relatório na Tela de relatórios
-description: Exportar um relatório na Tela de relatórios
+title: Exportar um relatório na Tela de relatório
+description: Exportar um relatório na Tela de relatório
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: edad50a392c2d7c474a725254486588b09a12a65
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 1%
 
 ---
 
-# Exportar um relatório na Tela de relatórios
+# Exportar um relatório na Tela de relatório
 
-Você pode exportar um relatório inteiro, ou um bloco específico, para um formato de arquivo que atenda às suas necessidades. É possível exportar para:
+É possível exportar um relatório inteiro, ou um bloco específico, em um formato de arquivo adequado às suas necessidades. É possível exportar para:
 
-* PDF (atualmente desabilitado)
+* PDF (desabilitado no momento)
 * CSV
 * Imagem PNG
 * XLSX
 
 ## Pré-requisitos
 
-Antes de começar, você deve se inscrever no beta da Tela de relatórios. Para obter mais informações, consulte [Beta da Tela de Relatório: visão geral](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Antes de começar, você deve se inscrever na versão beta da Tela de relatório. Para obter mais informações, consulte [Versão beta do relatório do Canvas: visão geral](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Exportar um relatório
 
 1. Navegue até o relatório que deseja exportar.
-1. No cabeçalho do relatório, clique no botão **Mais** ícone ![](assets/more-icon-27x15.png), clique em **Exportar** e selecione o formato de arquivo que deseja criar.
+1. No cabeçalho do relatório, clique na guia **Mais** ícone ![](assets/more-icon-27x15.png), clique em **Exportar**, em seguida, selecione o formato de arquivo que deseja criar.
 
    >[!NOTE]
    >
    >Considere o seguinte em relação aos arquivos exportados:
    >
-   >   * Se você exportar um relatório que contém várias tabelas para um formato XLSX, o arquivo exportado contém uma planilha separada para cada tabela.
-   >   * Se você exportar um relatório que contém várias tabelas para um formato CSV, o resultado exportado é uma pasta compactada que contém um arquivo separado para cada tabela.
-   >   * Se você exportar uma tabela que contém linhas agrupadas para um formato CSV, o arquivo CSV incluirá todas as linhas, mas não serão exibidas em grupos.
+   >   * Se você exportar um relatório que contém várias tabelas para um formato XLSX, o arquivo exportado conterá uma planilha separada para cada tabela.
+   >   * Se exportar um relatório que contém várias tabelas para um formato CSV, o resultado exportado será uma pasta compactada que contém um arquivo separado para cada tabela.
+   >   * Se você exportar uma tabela que contém linhas agrupadas para um formato CSV, o arquivo CSV incluirá todas as linhas, mas elas não serão exibidas em grupos.
 
 
 <!-- 1. (Conditional) If you selected **PDF**, configure the fields below to format the exported file, then click **Download PDF**.

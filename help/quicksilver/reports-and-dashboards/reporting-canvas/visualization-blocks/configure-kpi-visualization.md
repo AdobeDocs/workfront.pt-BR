@@ -1,10 +1,10 @@
 ---
-title: Configurar uma visualização de KPI na Tela de relatórios
-description: Configurar uma visualização de KPI na Tela de relatórios
+title: Configurar uma visualização de KPI na Tela de relatório
+description: Configurar uma visualização de KPI na Tela de relatório
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 38beccf6-d7bc-478f-8bba-56607d315e6f
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 2%
@@ -12,25 +12,25 @@ ht-degree: 2%
 ---
 
 
-# Configurar uma visualização de KPI na Tela de relatórios
+# Configurar uma visualização de KPI na Tela de relatório
 
-Uma visualização de KPI (indicador principal de desempenho) pode ajudar você a transmitir rapidamente o desempenho atual de sua organização.
+Uma visualização do Indicador chave de desempenho (KPI) pode ajudá-lo a transmitir rapidamente o desempenho atual de sua organização.
 
 ## Pré-requisitos
 
-Antes de começar, você deve se inscrever no beta da Tela de relatórios. Para obter mais informações, consulte [Beta da Tela de Relatório: visão geral](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Antes de começar, você deve se inscrever na versão beta da Tela de relatório. Para obter mais informações, consulte [Versão beta do relatório do Canvas: visão geral](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Configurar uma visualização de KPI
 
 >[!TIP]
 >
->Todas as alterações são salvas automaticamente à medida que você cria e edita os blocos em seu relatório.
+>Todas as alterações são salvas automaticamente à medida que você cria e edita os blocos no relatório.
 
-1. Comece adicionando um bloco de visualização com o **KPI** tipo de visualização para um relatório, conforme explicado em [Adicionar ou editar um bloco de visualização na Tela de relatórios](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
+1. Comece adicionando um bloco de visualização com o **KPI** tipo de visualização para um relatório, conforme explicado em [Adicionar ou editar um bloco de visualização na Tela de relatório](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
 
 1. Clique no ícone Editar visualização ![](assets/edit-icon.png) no canto superior direito da visualização, siga um destes procedimentos.
 
-   1. No **Configurações** guia :
+   1. No **Configurações** guia:
 
       <table style="table-layout:auto">
        <col>
@@ -38,31 +38,31 @@ Antes de começar, você deve se inscrever no beta da Tela de relatórios. Para 
        <tbody>
         <tr>
          <td role="rowheader">Tipo de visualização</td>
-         <td><p>Alternar para um tipo diferente de visualização. Se isso for feito, as opções subsequentes no menu poderão ser alteradas.</p></td>
+         <td><p>Alterne para um tipo diferente de visualização. Se você fizer isso, as opções subsequentes no menu poderão mudar.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Campo de origem</td>
-         <td>Selecione os dados que deseja representar na visualização.</td>
+         <td>Selecione os dados que você deseja representar na visualização.</td>
         </tr>
         <tr>
          <td role="rowheader">Tipo de agregação</td>
-         <td><p> Indique como deseja que os valores sejam resumidos:</p>
+         <td><p> Indique como você deseja que os valores sejam resumidos:</p>
           <ul>
-           <li><p><b>Contagem</b>: O número de valores</p></li>
-           <li><p><b>Soma</b>: O total de todos os valores </p></li>
+           <li><p><b>Contagem</b>: o número de valores</p></li>
+           <li><p><b>Sum</b>: o total de todos os valores </p></li>
            <li><p><b>Média</b>: a média de todos os valores</p></li>
            <li><p><b>Mínimo</b>: somente o valor mais baixo</p></li>
-           <li><p>Máximo: somente o valor mais alto</p></li>
+           <li><p>Maximum: somente o valor mais alto</p></li>
           </ul></td>
         </tr>
        </tbody>
       </table>
 
-   1. No **Dados** guia :
+   1. No **Dados** guia:
 
       | Fonte de dados (menu suspenso) | Altere a fonte de dados da visualização para outra tabela na tela do relatório. |
       |---|---|
-      | Mostrar fonte de dados | Ative essa opção para mostrar a tabela de origem da visualização na tela do relatório ou desative a opção para ocultá-la. |
+      | Mostrar fonte de dados | Ative esta opção para mostrar a tabela de origem da visualização na tela do relatório ou desative a opção para ocultá-la. |
 
       {style="table-layout:auto"}
 
