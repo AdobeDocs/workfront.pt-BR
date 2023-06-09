@@ -4,9 +4,9 @@ description: Visão geral da versão 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: e6ccf6f8f46b61e10ad100a1724e0131207319f3
+source-git-commit: b7b50ef85e38384251fadd57974d9b52a1d1525a
 workflow-type: tm+mt
-source-wordcount: '1594'
+source-wordcount: '1556'
 ht-degree: 0%
 
 ---
@@ -319,23 +319,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         <p><span class="bold">Datas de lançamento</span>
                         </p>
                     </td>
-                </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Alteração de suporte para provas do Microsoft Office</a> </p>
-                        <p>Para manter uma solução de processamento de prova robusta e escalonável, estamos alterando nossos tipos de arquivo do Microsoft Office e limites de tamanho de arquivo compatíveis.</p>
-                    </td>
-                    <td><p><b>Disponível nas seguintes datas:</b></p>
-                        <ul>
-                            <li>
-                                <p>Versão de pré-visualização: 8 de junho de 2023<br /></p>
-                            </li>
-                            <li>
-                                <p><span class="preview">Versão de produção: 8 de junho de 2023</span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Novas aprovações de documentos</a> </p>
@@ -373,7 +356,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                 <tr>
+            <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Novo comentário sobre experiência beta para projetos, tarefas e documentos</a> </p>
                         <p>A nova experiência de comentário Beta agora está disponível para projetos, tarefas e documentos. Antes desta atualização, a experiência beta de comentários estava disponível somente para problemas e metas.</p>
