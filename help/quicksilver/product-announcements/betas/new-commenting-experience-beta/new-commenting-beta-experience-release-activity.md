@@ -6,10 +6,10 @@ description: Revise a atividade de lançamento semanal para a nova experiência 
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 6%
+source-wordcount: '871'
+ht-degree: 5%
 
 ---
 
@@ -26,6 +26,24 @@ Para obter informações gerais sobre a nova experiência beta de comentários, 
 >Os recursos de comentário que são lançados para a experiência beta para objetos do Workfront também são lançados para a seção Atualizações de um objeto de meta no Workfront Goals.
 
 As seções a seguir listam os recursos que foram adicionados após a versão original, começando com os lançados mais recentemente.
+
+## Semana de 13 de junho de 2023
+
+### Experiência aprimorada ao editar comentários
+
+Agora você pode usar as seguintes teclas de atalho ao editar comentários:
+
+* CTRL + Z (CMD + Z para Mac) para desfazer uma alteração
+
+* CTRL + Y (CMD + Y para Mac) para refazer uma alteração
+
+Antes desses aprimoramentos, não era possível desfazer ou refazer alterações ao editar um comentário. Para obter mais informações, consulte [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+Visualização: 13 de junho de 2023
+
+Produção: 13 de junho de 2023
+
+<!--I used the date when I found them in Prod. Not sure when these released, but it could have been before this date-->
 
 ## Semana de 29 de maio de 2023
 

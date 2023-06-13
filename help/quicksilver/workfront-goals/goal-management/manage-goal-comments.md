@@ -6,9 +6,9 @@ description: É possível adicionar comentários a todas as metas que você pode
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -139,6 +139,9 @@ Isso abre a lista de metas.
    >
    >Sair da seção Atualizações antes de terminar de digitar e enviar um comentário mantém o comentário na página no modo de rascunho mesmo depois de fazer logoff e logon novamente. As imagens adicionadas ao comentário também são salvas no rascunho. Os rascunhos são salvos por 7 dias após os quais são descartados e não podem ser recuperados. Comentários em rascunho só ficam visíveis para o usuário que os digita.
 
+1. (Opcional) Para desfazer ou refazer uma alteração, use as seguintes teclas de atalho:
+   * CTRL + Z (⌘+z para Mac) para desfazer uma alteração
+   * CTRL + Y (⌘+y para Mac) para refazer uma alteração
 1. (Opcional) Para adicionar formatação de rich text à atualização, a um hiperlink ou a uma imagem, use as opções na barra de ferramentas Rich Text ou nos ícones adjacentes a ela. Para obter mais informações, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Na **Marcar pessoas ou equipes** digite o nome ou o email de um usuário ou de uma equipe que deseja incluir neste comentário e, em seguida, selecione-o quando ele for exibido na lista.
 1. Selecione o **Privativo(s) de minha empresa** ativar para tornar o comentário visível somente para pessoas em sua empresa.
@@ -170,13 +173,12 @@ Você pode editar seu comentário dentro de 15 minutos a partir do envio. Um ind
    >
    > * O carimbo de data é a data do comentário original e não a data da última atualização.
 
-
    1. (Opcional) Clique no link **Mais** menu ![](assets/more-icon.png), em seguida, clique em qualquer uma das seguintes opções para copiar informações de um comentário para a área de transferência:
 
       * **Copiar link** para copiar o link de uma atualização, sem as respostas.
       * **Copiar texto do corpo** para copiar o texto de uma atualização.
 
-         Para obter mais informações, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+        Para obter mais informações, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Opcional) Clique no link **Mais** menu ![](assets/more-icon.png) à direita de um comentário e clique em **Excluir** para excluir um comentário adicionado. Para obter mais informações, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Clique em **Responder** para responder a um comentário existente, siga as etapas 5 a 9 acima. <!--insure this stays accurate-->
