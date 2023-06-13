@@ -5,13 +5,13 @@ product-area: workfront-integrations
 keywords: conector
 navigation-topic: workfront-fusion-2-0
 title: Aplicativos e seus módulos
-description: Atualmente, o Adobe Workfront Fusion oferece conectores dedicados para os aplicativos desta lista. Se o aplicativo com o qual você deseja trabalhar não estiver nessa lista, você pode se conectar a ele usando os módulos HTTP, SOAP ou JSON.
+description: O Adobe Workfront Fusion atualmente oferece conectores dedicados para os aplicativos desta lista. Se o aplicativo com o qual deseja trabalhar não estiver nessa lista, você poderá se conectar a ele usando os módulos HTTP, SOAP ou JSON.
 author: Becky
 feature: Workfront Fusion
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 8806688a8e766efd046c49a2980d00d95999d05c
+source-git-commit: 57c6a93dffbf171adfb5b3c9d05f0f820cde8567
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '206'
 ht-degree: 27%
 
 ---
@@ -20,13 +20,12 @@ ht-degree: 27%
 
 >[!IMPORTANT]
 >
->O Adobe Workfront Fusion pode se conectar a quase qualquer serviço da Web. Não está limitado apenas aos aplicativos desta lista. Se o aplicativo com o qual você deseja trabalhar não estiver nessa lista, você pode usar os seguintes módulos para se conectar diretamente ao serviço da Web:
+>O Adobe Workfront Fusion pode se conectar a quase qualquer serviço da Web. Não está limitado apenas aos aplicativos dessa lista. Se o aplicativo com o qual deseja trabalhar não estiver nessa lista, você poderá usar os seguintes módulos para se conectar diretamente ao serviço Web:
 >
 >* [[!UICONTROL HTTP] módulos](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
 >* [[!UICONTROL SOAP] módulo](../../workfront-fusion/apps-and-their-modules/soap-module.md)
 >* [[!UICONTROL JSON] módulos](../../workfront-fusion/apps-and-their-modules/json-modules.md)
 >
-
 
 ## Aplicativos Workfront Fusion e seus módulos
 
@@ -49,7 +48,7 @@ Esta seção contém os seguintes artigos:
 * [[!DNL Azure Active Directory] módulos](../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md)
 * [[!DNL Azure DevOps] módulos](../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/barcodes.md" class="MCXref xref" xrefformat="{para}">Barcodes</a> </li>
   -->
 
@@ -57,18 +56,18 @@ Esta seção contém os seguintes artigos:
 * [[!DNL Bynder] módulos](../../workfront-fusion/apps-and-their-modules/bynder-modules.md)
 * [[!DNL CloudConvert] módulos](../../workfront-fusion/apps-and-their-modules/cloud-convert-modules.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/converter-modules.md" class="MCXref xref" xrefformat="{para}">Converter</a> (More information coming soon)</li>
   -->
 
 * [[!UICONTROL CSV]](../../workfront-fusion/apps-and-their-modules/csv.md)
 * [[!DNL Cvent] módulos](../../workfront-fusion/apps-and-their-modules/cvent-modules.md)
 * [[!DNL Datadog] módulos](../../workfront-fusion/apps-and-their-modules/datadog-modules.md)
-* [Módulos do armazenamento de dados](../../workfront-fusion/apps-and-their-modules/data-store-modules.md)
+* [Módulos de armazenamento de dados](../../workfront-fusion/apps-and-their-modules/data-store-modules.md)
 * [[!DNL DocuSign] módulos](../../workfront-fusion/apps-and-their-modules/docusign-modules.md)
 * [[!DNL Dropbox] módulos](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/egnyte-modules.md" class="MCXref xref" xrefformat="{para}">Egnyte modules</a> </li>
   -->
 
@@ -91,16 +90,17 @@ Esta seção contém os seguintes artigos:
 * [[!UICONTROL HTTP] módulos](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
 * [[!DNL HubSpot CRM] módulos](../../workfront-fusion/apps-and-their-modules/hubspot-crm-modules.md)
 * [Módulos de imagem](../../workfront-fusion/apps-and-their-modules/image-module.md)
-* [[!DNL Intacct] módulos](../../workfront-fusion/apps-and-their-modules/intacct-modules.md)
-
-   <!--
+<!--
+* [[!DNL Intacct] modules](../../workfront-fusion/apps-and-their-modules/intacct-modules.md)
+-->
+<!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/iso-modules.md" class="MCXref xref" xrefformat="{para}">ISO modules</a> </li>
   -->
 
 * [[!DNL Jira] Módulos de software](../../workfront-fusion/apps-and-their-modules/jira-software-modules.md)
 * [[!UICONTROL JSON] módulos](../../workfront-fusion/apps-and-their-modules/json-modules.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/mailchimp-modules.md" class="MCXref xref" xrefformat="{para}">MailChimp modules</a> </li>
   -->
 
