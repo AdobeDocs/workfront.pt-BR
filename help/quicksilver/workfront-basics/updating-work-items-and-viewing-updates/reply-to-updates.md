@@ -6,7 +6,7 @@ description: Quando alguém adiciona ou responde a uma atualização em um objet
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 1%
@@ -26,8 +26,7 @@ ht-degree: 1%
 >Para obter mais informações sobre a nova experiência de comentários, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Você pode acessar a nova experiência para os seguintes objetos:
->
->* Problemas, <span class="preview">projetos, tarefas e documentos</span>.
+> * Problemas, <span class="preview">projetos, tarefas e documentos</span>.
 >
 >     Isso está disponível quando você ativa a experiência de comentários Beta.
 >
@@ -37,11 +36,11 @@ ht-degree: 1%
 >     * Painel Resumo em listas
 >     * Painel Resumo em Planilhas de Horas
 >
->* Metas
+> * Metas<!--, <span class="preview">Cards in the Boards area</span>-->
 >
->  A nova experiência de comentários é o padrão para metas. Você deve ter uma licença adicional para acessar o Workfront Goals. Para obter mais informações, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   A nova experiência de comentários é o padrão para metas <!--<span class="preview">and cards</span>-->. Você deve ter uma licença adicional para acessar o Workfront Goals. Para obter mais informações, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->  Para obter informações sobre comentários sobre metas, consulte [Gerenciar comentários de meta em Metas do Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+>    Para obter informações sobre comentários sobre metas, consulte [Gerenciar comentários de meta em Metas do Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 Quando alguém responde a um comentário ou a uma atualização do sistema em um objeto de trabalho, sua resposta é exibida no thread de comunicação na seção Atualizações do objeto.
 

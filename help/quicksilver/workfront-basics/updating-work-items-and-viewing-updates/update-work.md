@@ -6,7 +6,7 @@ description: Você pode adicionar uma atualização em um objeto do Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
 source-wordcount: '3211'
 ht-degree: 1%
@@ -36,9 +36,9 @@ ht-degree: 1%
 >     * Painel Resumo em listas
 >     * Painel Resumo em Planilhas de Horas
 >
-> * Metas
+> * Metas<!--, <span class="preview">Cards in the Boards area</span>-->
 >
->   A nova experiência de comentários é o padrão para metas. Você deve ter uma licença adicional para acessar o Workfront Goals. Para obter mais informações, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   A nova experiência de comentários é o padrão para metas <!--<span class="preview">and cards</span>-->. Você deve ter uma licença adicional para acessar o Workfront Goals. Para obter mais informações, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
 >    Para obter informações sobre comentários sobre metas, consulte [Gerenciar comentários de meta em Metas do Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -283,7 +283,7 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
    | Hiperlink | ![mceclip7.png](assets/mceclip7.png) | <br>Para abrir a caixa Criar links ou Adicionar links: ⌘+K</br> <br>Na experiência de comentário beta, para colar um link sobre o texto selecionado: ⌘+V</br> | <br>Para abrir a caixa Criar links ou Adicionar links: Ctrl+K</br> <br>Na experiência de comentário beta, para colar um link sobre o texto selecionado: Ctrl+V</br> |
    | Lista com marcadores | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | Lista numerada | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
-   | Cotação de bloco | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | Ctrl+Shift+9 |
+   | Cotação de bloco | <span class="preview">![](assets/block-quote-icon-large.png)</span> | ⌘+Shift+9 | Ctrl+Shift+9 |
 
    Para interromper a formatação do texto, desmarque o atributo no **Rich Text** barra de ferramentas.
 

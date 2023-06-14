@@ -6,9 +6,9 @@ description: Revise a atividade de lançamento semanal para a nova experiência 
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '953'
 ht-degree: 5%
 
 ---
@@ -27,7 +27,27 @@ Para obter informações gerais sobre a nova experiência beta de comentários, 
 
 As seções a seguir listam os recursos que foram adicionados após a versão original, começando com os lançados mais recentemente.
 
-## Semana de 13 de junho de 2023
+## Semana de 12 de junho de 2023
+
+### Novo comentário sobre experiência beta para cartões na área Quadros
+
+A nova experiência beta de comentários agora está disponível para cartões na área Quadros. Para obter mais informações, consulte [Visão geral da versão 23.3](../../product-releases/23.3-release-activity/23-3-release-overview.md).
+
+Visualização: 15 de junho de 2023
+
+Versão de produção para aceitação antecipada: 22 de junho de 2023
+
+Produção para todos os clientes: com a versão 23.3
+
+### Adicionar aspas de bloco a um comentário
+
+Agora é possível adicionar aspas de bloco a um comentário usando uma opção da barra de ferramentas Rich Text na nova experiência de comentário Beta.
+
+Para obter mais informações, consulte [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+Visualização: 14 de junho de 2023
+
+Produção: 15 de junho de 2023
 
 ### Experiência aprimorada ao editar comentários
 
