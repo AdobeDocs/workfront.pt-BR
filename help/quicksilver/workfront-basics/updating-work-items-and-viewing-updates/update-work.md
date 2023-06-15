@@ -6,9 +6,9 @@ description: Você pode adicionar uma atualização em um objeto do Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '3211'
+source-wordcount: '3373'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,11 @@ ht-degree: 1%
 >     * Painel Resumo em listas
 >     * Painel Resumo em Planilhas de Horas
 >
-> * Metas<!--, <span class="preview">Cards in the Boards area</span>-->
+> * Metas, <span class="preview">cartões na área Quadros</span>
 >
->   A nova experiência de comentários é o padrão para metas <!--<span class="preview">and cards</span>-->. Você deve ter uma licença adicional para acessar o Workfront Goals. Para obter mais informações, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   A nova experiência de comentários é a única experiência com metas <span class="preview">e cartões</span>. Você deve ter uma licença adicional para acessar o Workfront Goals. Para obter mais informações, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->    Para obter informações sobre comentários sobre metas, consulte [Gerenciar comentários de meta em Metas do Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     Você pode adicionar e exibir atualizações a cartões nas áreas Quadro ao ativar as seções Comentários e Atividade do sistema em um cartão. Para obter mais informações, consulte [Adicionar um cartão ad hoc a um quadro](../../agile/get-started-with-boards/add-card-to-board.md).
 
 Você pode adicionar comentários à maioria dos objetos no Adobe Workfront na seção Atualizações. Para obter mais informações sobre quais objetos exibem a seção Atualizações, consulte [Visão geral da seção Atualizações](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -131,7 +131,9 @@ Adicionar uma atualização a um item de trabalho difere dependendo de qual vers
 
 >[!NOTE]
 >
->A seguinte funcionalidade está disponível para todos os objetos, exceto metas. Você deve ter uma licença adicional para acessar o Workfront Goals. Para obter informações sobre comentários sobre metas, consulte [Gerenciar comentários de meta em Metas do Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md)
+>A seguinte funcionalidade está disponível para todos os objetos, exceto metas e cartões. Você deve ter uma licença adicional para acessar o Workfront Goals. Para obter informações sobre comentários sobre metas, consulte [Gerenciar comentários de meta em Metas do Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+>
+>Você pode adicionar e exibir atualizações a cartões nas áreas Quadro ao ativar as seções Comentários e Atividade do sistema em um cartão. Para obter mais informações, consulte [Adicionar um cartão ad hoc a um quadro](../../agile/get-started-with-boards/add-card-to-board.md).
 
 1. Vá para o item de trabalho para o qual deseja fornecer uma atualização (como um projeto, tarefa ou problema).
 1. Clique em **Atualizações** seção.
@@ -283,7 +285,7 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
    | Hiperlink | ![mceclip7.png](assets/mceclip7.png) | <br>Para abrir a caixa Criar links ou Adicionar links: ⌘+K</br> <br>Na experiência de comentário beta, para colar um link sobre o texto selecionado: ⌘+V</br> | <br>Para abrir a caixa Criar links ou Adicionar links: Ctrl+K</br> <br>Na experiência de comentário beta, para colar um link sobre o texto selecionado: Ctrl+V</br> |
    | Lista com marcadores | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | Lista numerada | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
-   | Cotação de bloco | <span class="preview">![](assets/block-quote-icon-large.png)</span> | ⌘+Shift+9 | Ctrl+Shift+9 |
+   | Cotação de bloco | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | Ctrl+Shift+9 |
 
    Para interromper a formatação do texto, desmarque o atributo no **Rich Text** barra de ferramentas.
 
@@ -346,20 +348,17 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
 
 ## Copiar informações de atualização
 
-<!--drafted for beta release toggle - remove when copying an update will be available:
-
->[!NOTE]
->
->Copying an update is not possible when using the Beta commenting experience.
--->
-
 Há várias maneiras de copiar uma atualização. Depois de copiar um link, você pode compartilhá-lo com outras pessoas para direcioná-las para a atualização.
+
+Copiar uma atualização é diferente, dependendo da experiência de comentário usada.
+
+### Copiar uma atualização na experiência de comentários atual
 
 * [Copiar a atualização](#copy-the-update)
 * [Copiar o link da thread](#copy-the-thread-link)
 * [Copiar o link de atualização](#copy-the-update-link)
 
-### Copiar a atualização {#copy-the-update}
+#### Copiar a atualização {#copy-the-update}
 
 Esta opção copia o texto de uma atualização específica para a área de transferência.
 
@@ -368,24 +367,47 @@ Esta opção copia o texto de uma atualização específica para a área de tran
 
    ![Selecionar Copiar texto do corpo](assets/update-stream-copy-body-text-350x152.png)
 
-### Copiar o link da thread {#copy-the-thread-link}
+#### Copiar o link da thread {#copy-the-thread-link}
 
 Essa opção copia o link completo da thread para a área de transferência, para que você possa compartilhar a thread com outros usuários.
 
 1. Vá para o thread de atualização que deseja copiar.
 
-1. Clique em **Mais** e clique em **Copiar link da discussão** ou **Copiar link**, ao usar a experiência Beta.
+1. Clique em **Mais** e clique em **Copiar link da discussão**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-### Copiar o link de atualização {#copy-the-update-link}
+#### Copiar o link de atualização {#copy-the-update-link}
 
 Esta opção copia um link de atualização específico para a área de transferência. Quando você compartilha o link de atualização, o usuário que o segue vê uma borda ao redor da atualização.
 
 1. Vá para a atualização ou resposta que deseja copiar.
-1. Clique em **Mais** ao lado da atualização individual e clique em **Copiar link de atualização** ou **Copiar link**, ao usar a experiência Beta.
+1. Clique em **Mais** ao lado da atualização individual e clique em **Copiar link de atualização**.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
+
+
+### Copiar uma atualização na nova experiência de comentários
+
+<!--when we remove and deprecate the legacy stream, add screen shots in the secitons below-->
+
+* [Copiar link](#copy-link)
+* [Copiar texto do corpo](#copy-body-text)
+
+#### Copiar link
+
+Essa opção copia o comentário ou o link da thread para a área de transferência para que você possa compartilhar o comentário ou toda a thread com outros usuários.
+
+1. Vá para a atualização cujo link deseja copiar.
+
+1. Clique em **Mais** e clique em **Copiar link**.
+
+#### Copiar texto do corpo
+
+Esta opção copia o texto de uma atualização específica para a área de transferência.
+
+1. Vá para a atualização ou resposta que deseja copiar.
+1. Clique em **Mais** e clique em **Copiar texto do corpo**.
 
 ## Excluir uma atualização ou resposta
 

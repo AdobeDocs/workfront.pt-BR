@@ -7,9 +7,9 @@ description: A seção Atualizações de um objeto exibe comentários que os usu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 2544bbedfeae731d4cde2ce75d7e09b96c54e32a
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '1041'
 ht-degree: 4%
 
 ---
@@ -37,11 +37,11 @@ ht-degree: 4%
 >     * Painel Resumo em listas
 >     * Painel Resumo em Planilhas de Horas
 >
-> * Metas<!--, <span class="preview">Cards in the Boards area</span>-->
+> * Metas, <span class="preview">cartões na área Quadros</span>
 >
->   A nova experiência de comentários é o padrão para metas <!--<span class="preview">and cards</span>-->. Você deve ter uma licença adicional para acessar o Workfront Goals. Para obter mais informações, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   A nova experiência de comentários é a única experiência com metas <span class="preview">e cartões</span>. Você deve ter uma licença adicional para acessar o Workfront Goals. Para obter mais informações, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->    Para obter informações sobre comentários sobre metas, consulte [Gerenciar comentários de meta em Metas do Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     Você pode adicionar e exibir atualizações a cartões nas áreas Quadro ao ativar as seções Comentários e Atividade do sistema em um cartão. Para obter mais informações, consulte [Adicionar um cartão ad hoc a um quadro](../../agile/get-started-with-boards/add-card-to-board.md).
 
 A seção Atualizações de um objeto exibe comentários que os usuários fazem no objeto ou atualizações de sistema que controlam alterações no objeto.
 
@@ -84,7 +84,7 @@ A seção Atualizações é exibida para os seguintes objetos:
      <li>Modelos</li> 
      <li>Modelo de Tarefa</li> 
      <li>Folhas de horas</li> 
-     <li>Usuários</li> 
+     <li>Usuários</li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -99,7 +99,7 @@ A seção Atualizações exibe informações nas seguintes guias na nova experi�
 * **Comentários**: exibe comentários feitos por usuários e responde a esses comentários. Para obter informações sobre como atualizar objetos na nova experiência de comentários, consulte [Atualizar trabalho](../updating-work-items-and-viewing-updates/update-work.md).
 * **Atividade do sistema**: exibe as atualizações do sistema que são mensagens informativas criadas pelo Workfront para registrar determinados eventos em um objeto. Por exemplo, você pode capturar alterações em campos de status, nome ou personalizados com atualizações do sistema. O administrador do Workfront ou de grupo pode habilitar atualizações de sistema para seus objetos. Para obter mais informações, consulte [Configurar atualizações do sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-Atualmente, você pode adicionar comentários e responder às atualizações usando a experiência de comentários beta nos seguintes objetos:
+Atualmente, você pode adicionar comentários e responder às atualizações usando a nova experiência de comentários nos seguintes objetos:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -109,10 +109,11 @@ Atualmente, você pode adicionar comentários e responder às atualizações usa
    <td> 
     <ul> 
      <li><p>Metas</p>
-     <p>Esta é a experiência padrão para metas</p>
+     <li><span class="preview">Cartões na área Quadros</span></li>
+      Esta é a única experiência para metas do <span class="preview">e cartões</span>.
      </li> 
      <li><span class="preview">Projetos</span></li>
-     </ul> </td> 
+    </ul> </td> 
    <td> 
     <ul> 
      <li>Problemas</li> 
@@ -123,12 +124,10 @@ Atualmente, você pode adicionar comentários e responder às atualizações usa
  </tbody> 
 </table>
 
-<!--for 23.3 preview - June 15: 
-Add this to the table for 23.3 preview - under Goals:
 
-<li><span class="preview">Cards in the Boards area</span></li>
-This is the default experience for goals <span class="preview">and cards</span>. 
--->
+>[!NOTE]
+>
+>Você pode adicionar e exibir atualizações a cartões nas áreas Quadro ao ativar as seções Comentários e Atividade do sistema em um cartão. Para obter mais informações, consulte [Adicionar um cartão ad hoc a um quadro](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## Atualizações que também aparecem em objetos de classificação mais alta
 

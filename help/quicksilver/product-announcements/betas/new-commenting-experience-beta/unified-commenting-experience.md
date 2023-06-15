@@ -6,9 +6,9 @@ description: Uma atualização para a experiência de comentários no Adobe Work
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '621'
 ht-degree: 1%
 
 ---
@@ -47,13 +47,15 @@ A nova experiência de comentários inclui melhorias e alterações no fluxo de 
 Entre as melhorias incluídas na nova experiência de comentários estão as seguintes:
 
 * Melhor desempenho e experiência do usuário
-* Separação dos comentários do usuário das atualizações de atividade do sistema.
+* Separação dos comentários do usuário das atualizações de atividade do sistema
 * Indicador em tempo real quando novos comentários são adicionados a um objeto
-* Editar comentários depois de enviá-los.
+* Edição de comentários após o envio
 
 Os seguintes recursos foram removidos da nova experiência:
 
-* Comentar em uma atualização do sistema.
+* Comentar em uma atualização do sistema
+* Capacidade de editar status, condição e data de confirmação ao comentar
+* Editar formulário personalizado
 
 A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiência de comentários, bem como sua disponibilidade em áreas onde são compatíveis:
 
@@ -295,7 +297,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
   <tr>
@@ -309,7 +311,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td>
    </td>
   </tr>
   <tr>
@@ -413,9 +415,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   </tr>
 </table>
 
-## Novo comentário sobre a atividade de lançamento de experiência beta
+## Linha do tempo de lançamento
 
-Para obter informações sobre os recursos lançados recentemente, consulte [Novo comentário sobre a atividade de lançamento de experiência beta](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Para obter informações sobre os recursos recém-lançados na nova experiência de comentários, bem como uma linha do tempo de lançamento, consulte [Novo comentário sobre a atividade de lançamento de experiência beta](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## Localizar a nova experiência de comentários
 
@@ -423,21 +425,18 @@ A nova experiência de comentários é atualmente compatível com os seguintes o
 
 * Ao habilitar a experiência Beta na seção Atualizações:
 
-   * Problemas, <span class="preview">projetos, tarefas e documentos</span>
+   * Problemas, <span class="preview">projetos, tarefas, histórias e documentos</span>
 
   Para obter mais informações sobre o gerenciamento de atualizações para objetos do Workfront, consulte [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 * Por padrão, como a principal experiência de comentários:
 
-   * Metas
+   * Metas, <span class="preview">cartões na área Quadros</span>
 
   >[!NOTE]
   >
   >Você deve ter uma licença adicional para acessar o Adobe Workfront Goals para acessar essa área do Workfront. Para obter mais informações, consulte [Requisitos para usar as metas do Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-  Para obter mais informações sobre o gerenciamento de atualizações de metas, consulte [Gerenciar comentários de meta em Metas do Adobe Workfront](../../../workfront-goals/goal-management/manage-goal-comments.md).
-
 
 Para ativar a nova experiência de comentários Beta:
 
