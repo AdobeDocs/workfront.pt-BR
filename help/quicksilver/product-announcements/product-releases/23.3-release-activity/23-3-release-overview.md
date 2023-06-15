@@ -4,9 +4,9 @@ description: Visão geral da versão 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: b7b50ef85e38384251fadd57974d9b52a1d1525a
+source-git-commit: 8e30fbc97ce083802ae705466b3a9ee3abaecbaf
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1561'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td>
                         <p><span class="bold">Datas de lançamento</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-12.md" class="MCXref xref" xrefformat="{para}">Adicionar comentários a cartões em quadros</a> <span style="color: #ff0000;"> Novo na visualização!</span></p>
+                        <p>Agora é possível adicionar comentários a cartões ad hoc e conectados em quadros e marcar outros usuários nos comentários. Os comentários estão disponíveis nos detalhes do cartão. O recurso de comentário para quadros usa a nova experiência de comentário do Adobe Workfront.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 15 de junho de 2023</p>
+                            </li>
+                            <li>
+                                 <p>Versão de produção para aceitação antecipada: 22 de junho de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na produção somente por meio da aceitação antecipada de recursos para placas Workfront.</span></p>
+                                <p>Versão de produção para todos os clientes: com a versão 23.3</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -223,7 +240,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Experiência aprimorada ao mover um documento para uma pasta vinculada com arrastar e soltar</a><span style="color: #ff0000;"> Novo na visualização!</span></p> 
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Experiência aprimorada ao mover um documento para uma pasta vinculada com arrastar e soltar</a></p> 
                         <p>Adicionamos transparência ao processo de arrastar e soltar um documento em uma pasta vinculada. Agora, o documento que você moveu para uma pasta vinculada permanece na lista de documentos até que seja totalmente movido. As opções de documento estão desabilitadas, mas você ainda pode abrir o documento para exibição enquanto ele estiver sendo movido. Quando o documento tiver concluído a transferência, ele desaparecerá da lista de documentos, pois agora está totalmente localizado na pasta vinculada. </p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -390,22 +407,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Atualizações de aparência durante o período de lançamento da versão 23.3</a></p>
-                        <p>Pequenas atualizações na aparência de várias áreas do aplicativo Adobe Workfront estão sendo feitas dentro do período da versão 23.3. Essas melhorias serão disponibilizadas no ambiente de Produção no mínimo 2 semanas após o lançamento para Pré-visualização. </p>
-                    </td>
-                    <td><p><b>Disponível nas seguintes datas:</b></p>
-                        <ul>
-                            <li>
-                                <p>Versão de pré-visualização: ao longo do período da versão 23.3<br /></p>
-                            </li>
-                            <li>
-                                <p><span class="preview">Versão de produção: um mínimo de 2 semanas após o lançamento para Pré-visualização (a menos que especificado de outra forma)</span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                 <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">Novos aprimoramentos na experiência beta de comentários</a></p>
                         <p>As melhorias na seção Atualizações estão sendo disponibilizadas no período da versão 23.3 para a nova experiência de comentário beta. Esses aprimoramentos serão disponibilizados no ambiente de Produção com a versão 23.3, a menos que especificado de outra forma. 
  </p>
@@ -430,10 +431,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão de pré-visualização: ao longo do período da versão 23.3<br /></p>
+                                <p>Versão de pré-visualização: 5 de junho de 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Versão de produção: com a versão 23.3 (salvo especificação em contrário)</span></p>
+                                <p><span class="preview">Versão de produção: 5 de junho de 2023</span></p>
                             </li>
                         </ul>
                     </td>
