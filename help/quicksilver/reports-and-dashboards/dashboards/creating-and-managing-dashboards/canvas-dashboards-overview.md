@@ -6,9 +6,9 @@ description: Você pode criar Painéis do Canvas que integram visualizações do
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: 45043c96f2dbacbae7b593727a46a9f52bc7eab2
+source-git-commit: da55003a14851d7894693fb95bff866c20938849
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -50,3 +50,44 @@ Uma nova opção Painéis de tela de desenho no painel esquerdo da página de at
 1. Clique no ícone Menu principal ![](assets/main-menu-icon.png)e, em seguida, clique em **Painéis**.
 
 1. No painel esquerdo, clique em **Painéis do Canvas**.
+
+## Utilização de painéis do Canvas
+
+### Criar um novo painel da tela de desenho
+
+1. Abra os Painéis do Canvas conforme descrito em **Abrir Painéis de Controle de Tela** acima.
+
+1. Clique em **+ Novo painel**
+
+1. Clique em **Sem título** no canto superior esquerdo, para inserir um nome para o painel.
+
+1. Clique em **Concluído** no canto superior direito para salvar o novo painel ou começar a adicionar widgets, conforme descrito em **Adicionar um relatório a um painel da tela** abaixo.
+
+### Adicionar um relatório a um painel da tela
+
+1. Abra os Painéis do Canvas conforme descrito em **Abrir Painéis de Controle de Tela** acima.
+
+1. Clique no painel ao qual deseja adicionar um relatório da lista de painéis.
+
+1. Clique em **Gerenciar widgets** no canto superior direito e clique em **Adicionar widget**.
+
+1. Passe o mouse sobre o tipo de dispositivo de relatório que deseja adicionar e clique na caixa de seleção exibida.
+
+1. Quando tiver selecionado todos os widgets que deseja adicionar, clique em **Adicionar** no canto superior direito.
+
+1. Os widgets selecionados aparecerão no painel. Clique em **Configuração** no centro de um widget para escolher qual relatório será exibido.
+
+1. Comece a digitar o nome do relatório que deseja exibir no campo **Localizar Relatório** campo. Ao visualizar o relatório na lista, clique em **Relatório de Lista** ou **Relatório de Gráfico** ícone ao lado do nome para exibir as informações desse relatório no formato escolhido.
+
+>[!WARNING]
+> Embora a adição de vários widgets que exibem informações do mesmo relatório seja possível no momento, recomendamos exibir cada relatório apenas uma vez, pois isso pode afetar o desempenho do painel.
+
+### Editar um widget em um painel do Canvas
+
+1. Abra os Painéis do Canvas conforme descrito em **Abrir Painéis de Controle de Tela** acima.
+
+1. Clique no painel que deseja editar na lista de painéis.
+
+1. (Opcional) Para redimensionar um widget, arraste e solte o **Redimensionar** no canto inferior esquerdo do widget para o tamanho desejado.
+
+1. (Opcional) Para reposicionar um widget, arraste o espaço em branco da borda do widget e arraste-o para a posição relativa desejada no painel.
