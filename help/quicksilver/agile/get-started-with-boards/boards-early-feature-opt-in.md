@@ -2,20 +2,20 @@
 filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
-title: Opt-in do recurso anterior para [!DNL Adobe Workfront] Quadros
-description: Leia este artigo para saber mais sobre o [!DNL Workfront Boards] opt-in de recurso antecipado.
+title: Aceitação antecipada de recursos para [!DNL Adobe Workfront] Quadros
+description: Leia este artigo para saber mais sobre [!DNL Workfront Boards] aceitação antecipada de recursos.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 9278d70e5a44b0dbd26dec705f51d132792418ed
+source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
 
-# Opt-in do recurso anterior para [!DNL Adobe Workfront] [!UICONTROL Quadros]
+# Aceitação antecipada de recursos para [!DNL Adobe Workfront] [!UICONTROL Quadros]
 
-Placas com placas ad hoc e conectadas estão disponíveis para todos os usuários, e estamos animados em abrir recursos adicionais de placas para a aceitação antecipada de recursos a partir de julho de 2022.
+Placas com cartões ad hoc e conectados estão disponíveis para todos os usuários, e estamos animados em abrir recursos adicionais de placas para a inclusão antecipada de recursos a partir de julho de 2022.
 
 [!DNL Adobe Workfront] [!UICONTROL Quadros] são ferramentas flexíveis que permitem a colaboração em equipe, fornecendo acesso a um quadro compartilhado que contém colunas e cartões.
 
@@ -23,12 +23,12 @@ Para obter informações gerais sobre quadros, consulte [[!UICONTROL Quadros] vi
 
 ## Programação de lançamento
 
-* Início da aceitação de recursos na Visualização: 22 de julho de 2022
+* Lançamento antecipado do opt-in de recursos na Pré-visualização: 22 de julho de 2022
 * Lançamento oficial: 28 de julho de 2022
 
 ## Recursos
 
-A tabela a seguir descreve os principais recursos das placas, juntamente com seu status de versão atual. Os recursos que você pode acessar por meio da aceitação antecipada de recursos podem não estar disponíveis na versão completa, com base na entrada que recebemos.
+A tabela a seguir descreve os principais recursos das placas, juntamente com o status da versão atual. Os recursos que você pode acessar por meio da aceitação antecipada de recursos podem não estar disponíveis na versão completa, com base na entrada que recebemos.
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -37,15 +37,15 @@ A tabela a seguir descreve os principais recursos das placas, juntamente com seu
    <th><strong>Status</strong></th> 
   </tr>
   <tr>
-   <td>Área [!UICONTROL Quadros] no [!UICONTROL Menu principal]</td>
+   <td>Área [!UICONTROL Quadros] no [!UICONTROL Menu Principal]</td>
    <td>Lançado</td>
   </tr>
     <tr>
-   <td>Criar quadros e cartões ad hoc</td>
+   <td>Criar painéis e cartões ad hoc</td>
    <td>Lançado</td>
   </tr>
   <tr>
-   <td>Editar quadros e cartões ad hoc</td>
+   <td>Editar painéis e cartões ad hoc</td>
    <td>Lançado</td>
   </tr>
   <tr>
@@ -53,7 +53,7 @@ A tabela a seguir descreve os principais recursos das placas, juntamente com seu
    <td>Lançado</td>
   </tr>
   <tr>
-   <td>Criar cartões conectados a [!DNL Workfront] objetos</td>
+   <td>Criar cartões conectados ao [!DNL Workfront] objetos</td>
    <td>Lançado</td>
   </tr>
   <tr>
@@ -65,7 +65,7 @@ A tabela a seguir descreve os principais recursos das placas, juntamente com seu
    <td>Lançado</td>
   </tr>
   <tr>
-   <td>Adicionar limites do [!UICONTROL Work in Progress] às colunas</td>
+   <td>Adicionar limites de [!UICONTROL Trabalho em Andamento] a colunas</td>
    <td>Lançado</td>
   </tr>
   <tr>
@@ -73,7 +73,7 @@ A tabela a seguir descreve os principais recursos das placas, juntamente com seu
    <td>Lançado</td>
   </tr>
   <tr>
-   <td>Adicionar um grupo a um quadro ou cartão</td>
+   <td>Adicionar uma equipe a um quadro ou cartão</td>
    <td>Lançado</td>
   </tr>
   <tr>
@@ -97,11 +97,11 @@ A tabela a seguir descreve os principais recursos das placas, juntamente com seu
    <td>Lançado</td>
   </tr>
   <tr>
-   <td>Definir a queda do cartão</td>
+   <td>Definir fallout do cartão</td>
    <td>Lançado</td>
   </tr>
   <tr>
-   <td>Pesquise por um quadro e classifique o painel</td>
+   <td>Procure um quadro e classifique o painel</td>
    <td>Lançado</td>
   </tr>
   <tr>
@@ -113,7 +113,7 @@ A tabela a seguir descreve os principais recursos das placas, juntamente com seu
    <td>Lançado</td>
   </tr>
   <tr>
-   <td>Mapear data de vencimento do cartão para a data de conclusão planejada da tarefa</td>
+   <td>Mapear a data de vencimento do cartão para a data de conclusão planejada da tarefa</td>
    <td>Lançado</td>
   </tr>
   <tr>
@@ -121,7 +121,7 @@ A tabela a seguir descreve os principais recursos das placas, juntamente com seu
    <td>Lançado</td>
   </tr>
   <tr>
-   <td>Mapear campo Estimativa no cartão para o campo Pontos de história na tarefa</td>
+   <td>Mapear o campo Estimativa no cartão para o campo Pontos da história na tarefa</td>
    <td>Lançado</td>
   </tr>
   <tr>
@@ -137,11 +137,11 @@ A tabela a seguir descreve os principais recursos das placas, juntamente com seu
    <td>Lançado</td>
   </tr>
   <tr>
-   <td>Importar subtarefas como itens de lista de verificação em cartões</td>
+   <td>Importar subtarefas como itens da lista de verificação em cartões</td>
    <td>Planejado</td>
   </tr>
   <tr>
-   <td>Personalizar exibição de campos em um cartão</td>
+   <td>Personalizar a exibição de campos em um cartão</td>
    <td>Lançado</td>
   </tr>  
   <tr>
@@ -149,7 +149,7 @@ A tabela a seguir descreve os principais recursos das placas, juntamente com seu
    <td>Lançado</td>
   </tr>
   <tr>
-   <td>Registrar horas em cartões conectados</td>
+   <td>Registra horas em cartões conectados</td>
    <td>Lançado</td>
   </tr>
   <tr>
@@ -157,41 +157,45 @@ A tabela a seguir descreve os principais recursos das placas, juntamente com seu
    <td>Lançado</td>
   </tr>
   <tr>
-   <td>Definir notificações por email para quadros</td>
+   <td>Definir notificações por email para Quadros</td>
    <td>Parcialmente liberado</td>
   </tr>
   <tr>
-   <td>Migrar cartões kanban herdados para quadros</td>
-   <td>Esse recurso estará disponível em produção em 18 de maio de 2023 e não faz parte da participação inicial no recurso.</td>
+   <td>Migrar cartões Kanban herdados para Quadros</td>
+   <td>Esse recurso estará disponível na Produção em 18 de maio de 2023 e não faz parte da aceitação antecipada de recursos.</td>
   </tr>
   <tr>
-   <td>Criar quadros dinâmicos</td>
+   <td>Criar painéis dinâmicos</td>
    <td>Parcialmente liberado</td>
   </tr>
   <tr>
-   <td>Usar a navegação à esquerda em detalhes do cartão</td>
+   <td>Usar navegação à esquerda nos detalhes do cartão</td>
    <td>Parcialmente liberado</td>
   </tr>
   <tr>
    <td>Usar filtros simplificados na coluna de entrada</td>
    <td>Parcialmente liberado</td>
   </tr>
+  <tr>
+   <td>Usar comentários em cartões ad hoc e conectados</td>
+   <td>Parcialmente liberado</td>
+  </tr>
  </tbody> 
 </table>
 
-## Aceitar os recursos iniciais
+## Aceitar os recursos anteriores
 
 ### Disponibilidade
 
-Os recursos anteriores para quadros estão disponíveis para todas as organizações. O envolvimento é completamente opcional.
+Os recursos iniciais dos conselhos de administração estão disponíveis para todas as organizações. O envolvimento é totalmente opcional.
 
-### Aceitar
+### Opção de participação
 
-Somente [!DNL Workfront] os administradores podem aderir aos recursos iniciais dos quadros. Quando uma [!DNL Workfront] O administrador ativa recursos precoces e todos os usuários da organização são aceitos.
+Somente [!DNL Workfront] os administradores podem optar pelos recursos antecipados dos painéis de discussão. Quando um [!DNL Workfront] o administrador habilita recursos antecipados, todos os usuários na organização são aceitos.
 
-1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront], depois clique em **[!UICONTROL Quadros]**.
-1. Clique em ![Aceitação de recursos antecipados](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Aceitação de recursos antecipados]na parte superior da tela do painel.
-1. Clique em **[!UICONTROL Habilitar]**.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Quadros]**.
+1. Clique em ![Aceitação antecipada de recursos](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Aceitação antecipada de recursos]) na parte superior da tela do painel.
+1. Clique em **[!UICONTROL Ativar]**.
 1. Comece a usar os recursos iniciais dos quadros.
 
 ## Enviar feedback
@@ -199,26 +203,26 @@ Somente [!DNL Workfront] os administradores podem aderir aos recursos iniciais d
 1. Em um quadro, clique no botão **[!UICONTROL Feedback]** botão.
 1. Preencha o formulário e clique em **[!UICONTROL Enviar]**.
 
-## Perguntas frequentes sobre a aceitação de recursos antecipados
+## Perguntas frequentes sobre a adesão antecipada aos recursos
 
-### Como faço para saber se minha organização optou por participar dos recursos iniciais?
+### Como sei se minha organização optou pelos recursos iniciais?
 
-Quando o [!DNL Workfront] o administrador ativou recursos antecipados para quadros; você verá um [!UICONTROL Aceitação de recursos antecipados] Botão Ativado na parte superior da tela do painel. Clique no botão para ver quais recursos estão habilitados.
+Quando o [!DNL Workfront] administrador tiver ativado recursos antecipados para placas, você verá um [!UICONTROL Aceitação antecipada de recursos] Botão Habilitado na parte superior da tela do painel. Clique no botão para ver quais recursos estão habilitados.
 
-### Os recursos iniciais podem ser ativados somente para determinados usuários?
+### Os recursos antecipados podem ser habilitados somente para determinados usuários?
 
-Quando a variável [!DNL Workfront] O administrador habilita recursos antecipados para quadros; todos os usuários da organização são aceitos.
+Quando a variável [!DNL Workfront] o administrador habilita recursos antecipados para quadros; todos os usuários na organização são aceitos.
 
-No entanto, a variável [!DNL Workfront] o administrador pode ocultar a opção Quadros do [!UICONTROL Menu principal] para usuários individuais ou grupos de usuários com um modelo de layout. Para obter mais informações, consulte [Personalize o [!UICONTROL Menu principal] uso de um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+No entanto, a [!DNL Workfront] O administrador pode ocultar a opção Quadros da variável [!UICONTROL Menu principal] para usuários individuais ou grupos de usuários com um modelo de layout. Para obter informações, consulte [Personalize o [!UICONTROL Menu principal] uso de um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 >[!NOTE]
 >
->Isso não impede que os usuários acessem quadros usando um URL. Isso só impede que eles vejam a variável [!DNL Boards] na [!UICONTROL Menu principal].
+>Isso não impede que os usuários acessem quadros usando um URL. Isso só os impede de ver o [!DNL Boards] opção no [!UICONTROL Menu principal].
 
 ### Posso recusar os recursos iniciais depois de entrar?
 
-Somente [!DNL Workfront] os administradores podem recusar o recebimento de recursos antecipados. Se uma [!DNL Workfront] Se o administrador desativar os recursos iniciais, todos os usuários da organização serão excluídos.
+Somente [!DNL Workfront] os administradores podem recusar o recebimento de recursos antecipados. Se um [!DNL Workfront] O administrador desativa os recursos iniciais, todos os usuários na organização optam por não participar.
 
-1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront], depois clique em **[!UICONTROL Quadros]**.
-1. Clique em ![Aceitação de recurso antecipado ativada](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Aceitação de recurso antecipado ativada]na parte superior da tela do painel.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Quadros]**.
+1. Clique em ![Aceitação antecipada de recursos habilitada](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Aceitação antecipada de recursos habilitada]) na parte superior da tela do painel.
 1. Clique em **[!UICONTROL Desativar]**.
