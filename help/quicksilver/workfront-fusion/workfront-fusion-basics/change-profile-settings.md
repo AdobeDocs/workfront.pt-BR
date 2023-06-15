@@ -2,19 +2,19 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
-title: Alterar as configurações do perfil em [!DNL Adobe Workfront Fusion]
+title: Alterar configurações de perfil no [!DNL Adobe Workfront Fusion]
 description: Você pode alterar as informações em [!DNL Adobe Workfront Fusion] perfil da conta.
 author: Becky
 feature: Workfront Fusion
 exl-id: 590c8549-0877-46f4-bf73-174b6b10638c
-source-git-commit: aa58a64ea6b09192f93fa89a42a4bf6731052d10
+source-git-commit: b911af09c6df14f6504f6fc06adcf1f3a6d2626b
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
 
-# Alterar as configurações do perfil em [!DNL Adobe Workfront Fusion]
+# Alterar configurações de perfil no [!DNL Adobe Workfront Fusion]
 
 Você pode alterar as informações em [!DNL Adobe Workfront Fusion] perfil da conta.
 
@@ -35,8 +35,8 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
    <td> <p>[!UICONTROL Plano], [!UICONTROL Trabalho]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para automação e integração de trabalho] </p><p>[!UICONTROL [!DNL Workfront Fusion] para Automação de Trabalho]</p>   </td> 
+   <td role="rowheader">Licença [!UICONTROL Adobe Workfront Fusion]**</td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p><p>[!UICONTROL [!DNL Workfront Fusion] para automação de trabalho]</p>   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
@@ -45,16 +45,34 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
  </tbody> 
 </table>
 
-Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Alterar configurações do perfil
+## Alterar configurações de perfil
 
-Para alterar informações no seu perfil de conta:
+O processo para alterar a configuração do perfil é diferente dependendo se sua organização está no Adobe Unified Shell.
 
-1. Clique no avatar na parte inferior do painel esquerdo e, em seguida, clique em **[!UICONTROL Perfil]**.
-1. Clique em: **[!UICONTROL Opções gerais]** e, em seguida, altere qualquer uma das seguintes opções:
+* [Alterar configurações de perfil no Unified Shell](#change-profile-settings-on-the-unified-shell)
+* [Alterar configurações de perfil sem o Unified Shell](#change-profile-settings-without-the-unified-shell)
+
+### Alterar configurações de perfil no Unified Shell
+
+Se sua organização estiver no Adobe Unified Shell, você poderá acessar as opções de perfil e preferências clicando na imagem do perfil na área de navegação superior.
+
+Esse menu permite:
+
+* Escolher **[!UICONTROL Tema escuro]** formatação para [!DNL Adobe Experience Cloud].
+* Definir **[!UICONTROL Preferências]** para [!DNL Adobe Experience Cloud], incluindo preferências de idioma principal e secundário.
+* Acessar o **[!UICONTROL [!DNL Workfront]Perfil]**. Quando estiver no perfil, clique no link **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**. Para obter mais informações sobre o perfil, consulte [Definir minhas configurações](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+* **[!UICONTROL Sair]** do Adobe Experience Cloud.
+
+### Alterar configurações de perfil sem o Unified Shell
+
+Para alterar informações no perfil da conta em organizações que não usam os Adobe Unified ShellS:
+
+1. Clique no seu avatar na parte inferior do painel esquerdo e, em seguida, clique em **[!UICONTROL Perfil]**.
+1. Clique em: **[!UICONTROL Opções gerais]**, em seguida, altere qualquer uma das seguintes opções:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -62,19 +80,19 @@ Para alterar informações no seu perfil de conta:
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Organizações]</td> 
-      <td> <p>Selecione a organização em que deseja trabalhar.<br></p> </td> 
+      <td> <p>Selecione a organização na qual deseja trabalhar.<br></p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Opções de fuso horário]</td> 
+      <td role="rowheader">[!UICONTROL Opções de Fuso Horário]</td> 
       <td> 
        <ul> 
-        <li><strong>[!UICONTROL Web]</strong>: Alterar o fuso horário usado para datas e horas exibidas no [!DNL Workfront Fusion] site.</li> 
-        <li><strong>[!UICONTROL Cenários]</strong>: Altere o fuso horário usado para analisar e formatar datas e horas durante execuções de cenário (quando você não especificar o fuso horário explicitamente). Você pode escolher um fuso horário para cada configuração.</li> 
+        <li><strong>[!UICONTROL Web]</strong>: Altere o fuso horário usado para datas e horas exibidas na variável [!DNL Workfront Fusion] site.</li> 
+        <li><strong>[!UICONTROL Cenários]</strong>: altere o fuso horário usado para analisar e formatar datas e horas durante execuções de cenário (quando você não especifica o fuso horário explicitamente). Você pode escolher um fuso horário para cada configuração.</li> 
        </ul> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL API]</td> 
-      <td> <p>Você pode adicionar um token de API que deseja usar nas chamadas entre [!DNL Workfront Fusion] e outro aplicativo ou serviço da Web. Este é um recurso avançado.</p> </td> 
+      <td> <p>Você pode adicionar um token de API que deseja usar para chamadas entre [!DNL Workfront Fusion] e outro aplicativo ou serviço da web. Este é um recurso avançado.</p> </td> 
      </tr> 
     </tbody> 
    </table>

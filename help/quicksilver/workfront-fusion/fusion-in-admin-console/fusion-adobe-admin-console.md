@@ -4,12 +4,11 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: fusion-in-admin-console
 title: Diferenças de administração baseadas em plataforma (Adobe Workfront Fusion/Adobe Business Platform)
-description: Como administrador do Adobe Workfront Fusion, suas responsabilidades e procedimentos de administração são diferentes com base no fato de sua organização ter sido integrada à Adobe Business Platform. Este artigo lista os procedimentos que devem ser tratados de forma diferente e vincula às instruções para processos no Workfront Fusion e na Adobe Admin Console.
+description: Como administrador do Adobe Workfront Fusion, suas responsabilidades e procedimentos de administração são diferentes conforme sua organização é integrada à Plataforma de negócios Adobe. Este artigo lista os procedimentos que devem ser tratados de forma diferente e vincula às instruções para processos no Workfront Fusion e no Adobe Admin Console.
 author: Becky
 feature: Workfront Fusion
 exl-id: 86f8cc24-c1a2-4f47-bd08-39bb0f6b2940
-hidefromtoc: true
-source-git-commit: 7df10d5e48a460579b6b4acbbdc85aa46bd8d438
+source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -18,31 +17,31 @@ ht-degree: 0%
 
 # Diferenças de administração baseadas em plataforma ([!DNL Adobe Workfront Fusion]/[!DNL Adobe Admin Console])
 
-Se sua organização tiver sido integrada à [!DNL Adobe Admin Console], seus usuários usam o [!DNL Adobe Admin Console] para acessar [!DNL Adobe Workfront Fusion]. Isso significa que:
+Se sua organização foi integrada à [!DNL Adobe Admin Console], seus usuários usam o [!DNL Adobe Admin Console] para acessar [!DNL Adobe Workfront Fusion]. Isso significa que:
 
-* O gerenciamento de usuários é feito em grande parte por meio do [!DNL Adobe Admin Console]
-* A autenticação é realizada por meio do [!DNL Adobe Identity Management System] (IMS) em vez de [!DNL Workfront Fusion]
+* O gerenciamento de usuários é feito principalmente por meio de [!DNL Adobe Admin Console]
+* A autenticação é tratada por meio da variável [!DNL Adobe Identity Management System] (IMS) e não por meio de [!DNL Workfront Fusion]
 
 ## Diferenças para [!DNL Workfront Fusion] usuários
 
-Para assistir a um vídeo que descreve como a alteração na variável [!DNL Adobe Admin Console] afeta sua experiência como um [!DNL Workfront Fusion] usuário, consulte [[!DNL Fusion] no Adobe IMS - Usuário comum](https://video.tv.adobe.com/v/3412465/){target=_blank}.
+Para assistir a um vídeo descrevendo como a mudança para a [!DNL Adobe Admin Console] afeta sua experiência como um [!DNL Workfront Fusion] usuário, consulte [[!DNL Fusion] no Adobe IMS - Usuário regular](https://video.tv.adobe.com/v/3412465/){target=_blank}.
 
 ## Diferenças para [!DNL Workfront Fusion] administradores
 
-Como um [!DNL Adobe Workfront Fusion] administrador, suas responsabilidades e procedimentos administrativos diferem com base em sua organização estar integrada à [!DNL Adobe Admin Console].
+Como um [!DNL Adobe Workfront Fusion] administrador, suas responsabilidades e procedimentos administrativos diferem com base no fato de sua organização ter sido integrada na [!DNL Adobe Admin Console].
 
-Para assistir a um vídeo que descreve como a alteração na variável [!DNL Adobe Admin Console] afeta sua experiência como administrador do Workfront Fusion, consulte [[!DNL Fusion] no Adobe IMS](https://video.tv.adobe.com/v/3412464/){target=_blank}.
+Para assistir a um vídeo descrevendo como a mudança para a [!DNL Adobe Admin Console] afeta sua experiência como administrador do Workfront Fusion, consulte [[!DNL Fusion] no Adobe IMS](https://video.tv.adobe.com/v/3412464/){target=_blank}.
 
-A tabela a seguir lista os procedimentos que devem ser tratados de forma diferente e vincula às instruções para processos em ambos [!DNL Workfront Fusion] e [!DNL Adobe Admin Console].
+A tabela a seguir lista os procedimentos que devem ser tratados de forma diferente e os links para instruções de processos em ambos [!DNL Workfront Fusion] e a variável [!DNL Adobe Admin Console].
 
-| Ação | Para obter instruções em [!DNL Workfront Fusion], consulte | Para obter instruções na seção [!DNL Adobe Admin Console], consulte |
+| Ação | Para obter instruções em [!DNL Workfront Fusion], consulte | Para obter instruções na guia [!DNL Adobe Admin Console], consulte |
 |---|---|---|
-| Adicionar/convidar um usuário | [Adicionar usuário a uma organização em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/add-user-to-an-organization.md) | A seção &quot;Adicionar usuários&quot; em [Gerenciar usuários individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) |
-| Definir funções de usuário | [Adicionar usuário a uma organização em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/add-user-to-an-organization.md) | A seção &quot;Editar detalhes do usuário&quot; em [Gerenciar usuários individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) |
-| Exibir funções de usuário | A seção [Exibir ou editar funções de usuário](../../workfront-fusion/organizations/manage-fusion-users.md#view) em [Gerenciar [!DNL Adobe Workfront Fusion] usuários em sua organização](../../workfront-fusion/organizations/manage-fusion-users.md) | A seção &quot;Exibir lista de usuários&quot; em [Gerenciar usuários individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) |
-| Editar detalhes do usuário | A seção [Exibir ou editar detalhes do usuário](../../workfront-fusion/organizations/manage-fusion-users.md#view2) em  [Gerenciar [!DNL Adobe Workfront Fusion] usuários em sua organização](../../workfront-fusion/organizations/manage-fusion-users.md) | A seção &quot;Editar detalhes do usuário&quot; em [Gerenciar usuários individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) |
-| Desativar um usuário | A seção [Excluir um usuário](../../workfront-fusion/organizations/manage-fusion-users.md#delete) em [Gerenciar [!DNL Adobe Workfront Fusion] usuários em sua organização](../../workfront-fusion/organizations/manage-fusion-users.md) | A seção &quot;Remover usuários&quot; em [Gerenciar usuários individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) |
-| Alterar detalhes do usuário | [Alterar as configurações do perfil em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md) | A seção &quot;Editar detalhes do usuário&quot; no artigo [Gerenciar usuários individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) |
+| Adicionar/convidar um usuário | [Adicionar um usuário a uma organização no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/add-user-to-an-organization.md) | A seção &quot;Adicionar usuários&quot; em [Gerenciar usuários individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) |
+| Definir funções de usuário | [Adicionar um usuário a uma organização no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/add-user-to-an-organization.md) | A seção &quot;Editar detalhes do usuário&quot; em [Gerenciar usuários individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) |
+| Exibir funções de usuário | A seção [Exibir ou editar funções de usuário](../../workfront-fusion/organizations/manage-fusion-users.md#view) in [Gerenciar [!DNL Adobe Workfront Fusion] usuários em sua organização](../../workfront-fusion/organizations/manage-fusion-users.md) | A seção &quot;Exibir lista de usuários&quot; em [Gerenciar usuários individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) |
+| Editar detalhes do usuário | A seção [Exibir ou editar detalhes do usuário](../../workfront-fusion/organizations/manage-fusion-users.md#view2) in  [Gerenciar [!DNL Adobe Workfront Fusion] usuários em sua organização](../../workfront-fusion/organizations/manage-fusion-users.md) | A seção &quot;Editar detalhes do usuário&quot; em [Gerenciar usuários individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) |
+| Desativar um usuário | A seção [Excluir um usuário](../../workfront-fusion/organizations/manage-fusion-users.md#delete) in [Gerenciar [!DNL Adobe Workfront Fusion] usuários em sua organização](../../workfront-fusion/organizations/manage-fusion-users.md) | A seção &quot;Remover usuários&quot; em [Gerenciar usuários individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) |
+| Alterar detalhes do usuário | [Alterar configurações de perfil no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md) | A seção &quot;Editar detalhes do usuário&quot; no artigo [Gerenciar usuários individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) |
 
 {style="table-layout:auto"}
 
