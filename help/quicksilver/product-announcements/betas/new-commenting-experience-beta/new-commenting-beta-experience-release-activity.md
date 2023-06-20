@@ -6,9 +6,9 @@ description: Revise a atividade de lançamento semanal para a nova experiência 
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: 26e2a8ed6b0c6c1e4b51fc27b385b9753072faf9
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1203'
 ht-degree: 4%
 
 ---
@@ -44,10 +44,9 @@ Esta é uma linha do tempo planejada para o lançamento da nova experiência de 
    * Nova experiência de comentários para modelos, tarefas de modelo, programas, portfólios, equipes, usuários e folhas de horas (como a única experiência)
 * Com a versão 23.4 (início de outubro de 2023)
    * Nova experiência de comentários para modelos, tarefas de modelo, programas, portfólios, equipes, usuários e folhas de horas (como a única experiência)
-  <!--wait for Ani to confirm this after June 19, 2023: * Add the new commenting experience to Home and the Summary panel. -->
+  <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
 * Final de 2023:
-   * Remova a experiência herdada dos objetos que ainda a têm.
-   * Os seguintes objetos têm a nova experiência de comentários como a única experiência: projetos, tarefas, problemas, histórias, documentos, modelos, tarefas de modelo, programas, portfólios, equipes, usuários e folhas de horas, metas e cartões.
+   * Os seguintes objetos têm a nova experiência de comentários como padrão: projetos, tarefas, problemas, histórias, documentos, modelos, tarefas de modelo, programas, portfólios, equipes, usuários e folhas de horas, metas e cartões. A experiência de comentários herdada permanecerá como uma opção.
 
   >[!NOTE]
   >
