@@ -5,7 +5,7 @@ author: Alina
 draft: Probably
 feature: Work Management
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 2%
@@ -14,11 +14,9 @@ ht-degree: 2%
 
 # Copiar e enviar solicitações
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this is NWE only - hard code it in classic articles!)</p>
--->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
-Quando você envia solicitações similares frequentemente, é possível copiar uma solicitação enviada existente. Nesse caso, você pode copiar uma solicitação existente, fazer alterações mínimas nela e ressubmetê-la como uma nova solicitação.
+Ao submeter solicitações semelhantes com frequência, você pode copiar uma solicitação submetida existente. Nesse caso, você pode copiar uma solicitação existente, fazer alterações mínimas nela e reenviá-la como uma nova solicitação.
 
 ## Requisitos de acesso
 
@@ -51,14 +49,14 @@ Quando você envia solicitações similares frequentemente, é possível copiar 
  </tbody> 
 </table>
 -->
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> <p>Qualquer Um</p> </td> 
   </tr> 
   <tr> 
@@ -67,85 +65,92 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a problemas</p> <p><b>Nota</b>
+   <td> <p>Editar acesso a ocorrências</p> <p><b>Nota</b>
 
-Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
+Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Acesso para adicionar solicitações a uma fila de solicitações</p> <p>Exibir permissões ou permissões superiores na solicitação existente</p> <p>Para obter informações sobre como configurar uma fila de solicitações, consulte <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Criar uma fila de solicitações</a>. </p> </td> 
+   <td> <p>Acesso para adicionar solicitações a uma fila de solicitações</p> <p>Exibir permissões ou mais altas na solicitação existente</p> <p>Para obter informações sobre como configurar uma fila de solicitações, consulte <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Criar uma fila de solicitações</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
 ## Pré-requisitos
 
-Você deve ter uma solicitação que você ou alguém em sua organização enviou anteriormente para poder copiá-la e reenviá-la. Se a solicitação pertencer a outra pessoa, você deverá ter pelo menos acesso a Exibi-la para poder copiá-la e enviá-la como nova.
+Você deve ter uma solicitação enviada anteriormente por você ou por alguém em sua organização para poder copiá-la e reenviá-la. Se a solicitação pertencer a outra pessoa, você deverá ter pelo menos acesso para Visualizá-la para poder copiá-la e enviá-la como nova.
 
-## Considerações sobre cópia e envio de solicitações como novas
+## Considerações sobre a cópia e o envio de solicitações como novas
 
-* Você só pode copiar e enviar solicitações enviadas. Não é possível copiar solicitações elaboradas.
-* Você pode copiar e enviar solicitações que você enviou originalmente ou solicitações que outras pessoas enviaram e que você tem acesso a, pelo menos, Exibir.
-* Você sempre tem acesso para copiar e enviar uma cópia de suas próprias solicitações, a menos que alguém tenha removido suas permissões para elas.
-* O acesso a copiar e enviar solicitações originalmente enviadas por outras pessoas pode ser concedido automaticamente para pessoas na mesma empresa quando o criador da fila de solicitações ativar o **Pessoas da mesma empresa herdarão as mesmas permissões para todas as solicitações** nas áreas Detalhes da fila ou Editar projeto . Desativar essa configuração permite que somente o solicitante original exiba suas próprias solicitações.
+* Você só pode copiar e enviar solicitações enviadas. Não é possível copiar solicitações em rascunho.
+* Você pode copiar e submeter solicitações que submeteu originalmente ou solicitações que outras pessoas submeteram e que você tem acesso a pelo menos Exibir.
+* Você sempre tem acesso para copiar e enviar uma cópia de suas próprias solicitações, a menos que alguém tenha removido suas permissões.
+* O acesso para copiar e enviar solicitações originalmente enviadas por outros pode ser concedido automaticamente a pessoas na mesma empresa quando o criador da fila de solicitações habilitar a **As pessoas da mesma empresa herdarão as mesmas permissões para todas as solicitações** nas áreas Detalhes da fila ou Editar projeto. Desativar essa configuração permite que somente o solicitante original visualize suas próprias solicitações.
 
-   Para obter mais informações, consulte os seguintes artigos:
+  Para obter mais informações, consulte os seguintes artigos:
 
    * [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
    * [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md)
 
-* Você pode atualizar a cópia da solicitação original antes de enviá-la novamente como uma nova solicitação.
-* Se as seguintes alterações ocorrerem após o envio da solicitação original, você não poderá mais copiá-la e reenviá-la:
+* Você pode atualizar a cópia da solicitação original antes de reenviá-la como uma nova solicitação.
+* Se as seguintes alterações ocorrerem depois que a solicitação original for enviada, você não poderá mais copiá-la e reenviá-la:
 
    * A fila de solicitações foi excluída.
    * O tópico da fila foi excluído.
 
-      >[!TIP]
-      >
-      >Se o tópico da fila for o único na fila de solicitações, você ainda poderá copiar e enviar a solicitação e ela será salva sob a própria fila de solicitações.
+     >[!TIP]
+     >
+     >Se o tópico da fila for o único na fila de solicitações, você ainda poderá copiar e enviar a solicitação e ela será salva na própria fila de solicitações.
 
-   * A fila de solicitações não é mais publicada como uma Fila de solicitações de ajuda. Para obter mais informações, consulte [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
-   * Se a fila de solicitações não tiver um tópico na fila e a solicitação original tiver sido enviada antes de janeiro de 2022.
+   * A fila de solicitações não é mais publicada como uma Fila de solicitações de ajuda. Para obter informações, consulte [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   * Se a fila de solicitações não tiver um tópico da fila e a solicitação original tiver sido enviada antes de janeiro de 2022.
 
-   * O Status do projeto associado à fila de solicitações não é mais Atual.
+   * O status do projeto associado à fila de solicitações não é mais atual.
 
-* Você pode copiar e enviar uma cópia de uma solicitação convertida se ela tiver sido preservada no processo de conversão. Para obter mais informações, consulte [Visão geral da conversão de problemas no Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+* Você poderá copiar e enviar uma cópia de uma solicitação convertida se ela tiver sido preservada no processo de conversão. Para obter mais informações, consulte [Visão geral da conversão de problemas no Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-   >[!TIP]
-   >
-   >A solicitação copiada não está vinculada a um objeto de resolução.
+  >[!TIP]
+  >
+  >A solicitação copiada não está vinculada a um objeto de resolução.
 
 ## Copiar e enviar solicitações
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, em seguida, clique em **Solicitações**.
+1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Solicitações**.
 1. (Condicional) Se a seção Enviada não for exibida por padrão, clique em **Enviado** no painel esquerdo.
-1. Localize a solicitação que você deseja copiar e enviar como nova e siga um destes procedimentos:
+1. Localize a solicitação que você deseja copiar e submeter como nova e siga um destes procedimentos:
 
-   * Selecione-o e clique no botão **Copiar e enviar como novo** ícone ![](assets/copy-and-submit-as-new-requests-area-nwe.png) no canto superior esquerdo da lista de solicitações enviadas.
-   * Clique no botão **Mais** menu ![](assets/more-icon.png) à direita do nome da solicitação, em seguida, clique em **Copiar e enviar como novo**
+   * Selecione-a e clique no botão **Copiar e enviar como novo** ícone ![](assets/copy-and-submit-as-new-requests-area-nwe.png) no canto superior esquerdo da lista Solicitações enviadas. <!--update this icon AND change its name to "Copy" with the 23.3 preview release, or shortly after-->
 
-      Ou
+   <!-- reveal this tip for 23.3 preview release:
+   >[!TIP]
+   >
+   > <span class="preview">If you did not select a request first, the Copy icon is dimmed.</span> 
+   -->
 
-      Clique com o botão direito do mouse na solicitação selecionada e depois clique em **Copiar e enviar como novo**.
+   * Clique em **Mais** menu ![](assets/more-icon.png) à direita do nome da solicitação e clique em **Copiar e enviar como novo** <!--ensure this does not change with the Copy icon improvements with 23.3 preview-->
 
-      ![](assets/request-selected-more-menu-options-nwe-350x191.png)
+     Ou
 
-      >[!TIP]
-      >
-      >Quando não tem acesso para criar problemas, você recebe um aviso de que o administrador o restringiu a criar solicitações.
+     Clique com o botão direito do mouse na solicitação selecionada e clique em **Copiar e enviar como novo**.
+
+     ![](assets/request-selected-more-menu-options-nwe-350x191.png)
+
+     >[!TIP]
+     >
+     >Quando você não tem acesso para criar problemas, você recebe um aviso de que o administrador restringiu você de criar solicitações.
 
 1. (Opcional) Atualize as seguintes informações, se necessário:
 
-   * **Tipo de solicitação**: a fila de solicitações na qual a solicitação copiada é salva. Por padrão, a solicitação copiada é salva na fila de solicitações da solicitação original.
-   * **Grupos de tópicos** e **Tópicos da fila**, se estiverem selecionadas. Os nomes ou grupos de tópicos e tópicos da fila são personalizados para o seu ambiente. Por padrão, a solicitação copiada é salva nos grupos de tópicos e nos tópicos da fila da solicitação original.
+   * **Tipo de solicitação**: a fila de solicitações em que a solicitação copiada é salva. Por padrão, a solicitação copiada é salva na fila de solicitações da solicitação original.
+   * **Grupos de Tópicos** e **Enfileirar tópicos**, se estiverem selecionados. Os nomes ou grupos de tópicos e tópicos da fila são personalizados para o seu ambiente. Por padrão, a solicitação copiada é salva nos grupos de tópicos e nos tópicos da fila da solicitação original.
 
-      >[!TIP]
-      >
-      >Se o caminho mudar do caminho da solicitação original, então o criador da fila de solicitações modificou a fila.
+     >[!TIP]
+     >
+     >Se o caminho mudar do caminho da solicitação original, o criador da fila de solicitações modificará a fila.
 
-1. (Opcional) Atualize quaisquer informações da solicitação copiada. Dependendo de quais campos o criador da fila de solicitações ativou no **Campos da nova edição** da seção **Detalhes da fila** na subguia do projeto, é possível encontrar um dos seguintes campos:
+1. (Opcional) Atualize quaisquer informações da solicitação copiada. Dependendo de quais campos o criador da fila de solicitações ativou no campo **Campos do novo problema** seção do **Detalhes da fila** no projeto, você poderá encontrar qualquer um dos seguintes campos:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -153,19 +158,19 @@ Você deve ter uma solicitação que você ou alguém em sua organização envio
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Assunto</strong> </td> 
-      <td>Exibe o nome da solicitação original. Atualize-o, se necessário. Caso contrário, o Workfront nomeia a solicitação copiada <b>Cópia de &lt;name of="" original="" request=""&gt;</b>. Este é um campo obrigatório.</td> 
+      <td>Exibe o nome da solicitação original. Atualize-a, se necessário. Caso contrário, o Workfront nomeia a solicitação copiada <b>Cópia de &lt;name of="" original="" request=""&gt;</b>. Este campo é obrigatório.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Descrição</strong> </td> 
-      <td>Exibe a descrição da solicitação original. Atualize-o, se necessário.</td> 
+      <td>Exibe a descrição da solicitação original. Atualize-a, se necessário.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>URL</strong> </td> 
-      <td> <p>Exibe o URL da solicitação original. Atualize-o, se necessário.</p> </td> 
+      <td> <p>Exibe o URL da solicitação original. Atualize-a, se necessário.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Prioridade</strong> </td> 
-      <td> <p>Especifique a prioridade da sua solicitação. A prioridade deve definir a velocidade com que você acha que essa solicitação deve ser resolvida. As opções padrão são:</p> 
+      <td> <p>Especifique a prioridade da solicitação. A prioridade deve definir a velocidade com que você acha que essa solicitação deve ser resolvida. As opções padrão são:</p> 
        <ul> 
         <li>Nenhum(a)</li> 
         <li>Baixa</li> 
@@ -176,7 +181,7 @@ Você deve ter uma solicitação que você ou alguém em sua organização envio
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Severidade</strong> </td> 
-      <td> <p>Especifique a gravidade da sua solicitação. A severidade deve definir o impacto que essa solicitação tem em seu trabalho, caso ele não seja resolvido a tempo. As opções padrão são:</p> 
+      <td> <p>Especifique a severidade da solicitação. A severidade deve definir o impacto que essa solicitação terá no seu trabalho se não for resolvida a tempo. As opções padrão são:</p> 
        <ul> 
         <li>Cosmética</li> 
         <li>Causa Confusão</li> 
@@ -187,38 +192,38 @@ Você deve ter uma solicitação que você ou alguém em sua organização envio
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Contato Primário</strong> </td> 
-      <td>O Contato Principal de uma solicitação é padronizado para você, pois você é a pessoa-ponto para tratar de qualquer pergunta relacionada à solicitação. No entanto, é possível alterar para qualquer outro usuário do Workfront.</td> 
+      <td>O contato principal de uma solicitação é assumido como padrão por você, já que você é a pessoa certa para responder a qualquer pergunta relacionada à solicitação. No entanto, é possível alterá-lo para qualquer outro usuário do Workfront.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span><strong>Atribuições</strong></span> </td> 
-      <td> <p>Indique o nome de um usuário ativo, função de trabalho ou equipe ao qual a solicitação deve ser atribuída. </p> <p> Você pode especificar mais de um usuário, função de trabalho ou equipe. </p> <p>Dependendo de como a fila de solicitações foi configurada, você pode atribuir a solicitação somente a um ou dois tipos de recursos, em vez de todos os três. </p> <p>Recomendamos o uso das Regras de roteamento para suas Filas de solicitação para que elas possam ser encaminhadas automaticamente para os recursos apropriados. </p> </td> 
+      <td> <p>Indique o nome de um usuário, função de trabalho ou equipe ativa à qual a solicitação deve ser atribuída. </p> <p> Você pode especificar mais de um usuário, função de trabalho ou equipe. </p> <p>Dependendo de como a fila de solicitações foi configurada, você pode atribuir a solicitação somente a um ou dois tipos de recursos, em vez de todos os três. </p> <p>Recomendamos o uso das Regras de roteamento para suas Filas de solicitações, para que elas possam ser roteadas automaticamente para os recursos apropriados. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader" colspan="2"> <p><p style="font-weight: normal;">Dependendo de como a fila de solicitações foi configurada, você pode atribuir apenas um tipo de recurso à solicitação (por exemplo, usuários). Se uma regra de roteamento também estiver associada à fila de solicitações e ela encaminhar automaticamente a solicitação a um tipo diferente de recurso (por exemplo, uma equipe), sua solicitação será atribuída à entidade que você especificar manualmente ao enviar a solicitação (usuários) e ao recurso especificado na regra de roteamento (a equipe).</p> <p style="font-weight: normal;">Para obter mais informações, consulte os seguintes artigos:</p> 
+      <td role="rowheader" colspan="2"> <p><p style="font-weight: normal;">Dependendo de como a fila de solicitações foi configurada, você pode atribuir apenas um tipo de recurso à solicitação (por exemplo, usuários). Se uma regra de roteamento também estiver associada à fila de solicitações e ela rotear automaticamente a solicitação para um tipo diferente de recurso (por exemplo, uma equipe), sua solicitação será atribuída à entidade especificada manualmente ao enviar a solicitação (usuários) e ao recurso especificado na regra de roteamento (a equipe).</p> <p style="font-weight: normal;">Para obter mais informações, consulte os seguintes artigos:</p> 
         <ul> 
          <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Criar uma fila de solicitações</a> </p> </li> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Criar regras de roteamento</a> <br> </p> </li> 
+         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Criar Regras de Encaminhamento</a> <br> </p> </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Horas planejadas</strong> </td> 
-      <td> <p>Estime quantas horas levaria para essa solicitação ser concluída.</p> </td> 
+      <td> <p>Estime quantas horas essa solicitação levaria para ser concluída.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Data de início planejado</strong> </td> 
-      <td> <p>A data em que o trabalho nessa solicitação deve ser iniciado.</p> </td> 
+      <td> <p>A data em que o trabalho nesta solicitação deve começar.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Data de conclusão planejada</strong> </td> 
-      <td>A data em que deseja que essa solicitação seja resolvida.</td> 
+      <td>A data em que você deseja que esta solicitação seja resolvida.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Status</strong> </td> 
-      <td>O status padrão de uma nova solicitação é "Novo". O administrador do Workfront pode ter alterado o nome desse status. Também é possível alterar o status para outro item no menu suspenso.</td> 
+      <td>O status padrão de uma nova solicitação é "Novo". O administrador do Workfront pode ter alterado o nome desse status. Você também pode alterar o status para algo diferente nesse menu suspenso.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Documentos</strong> </td> 
-      <td> <p>Adicione documentos a sua solicitação. Os documentos anexados ao pedido original não são transferidos para o pedido copiado.</p> <p><b>DICA</b>
+      <td> <p>Adicione documentos à sua solicitação. Os documentos anexados à solicitação original não são transferidos para a solicitação copiada.</p> <p><b>DICA</b>
 
    Dependendo de como a fila de solicitações foi configurada, a seção Documentos pode ser exibida antes ou depois dos campos personalizados.</p> <p> </p> </td>
    </tr> 
@@ -232,7 +237,6 @@ Você deve ter uma solicitação que você ou alguém em sua organização envio
    >* Todos os formulários personalizados anexados à solicitação original e os valores incluídos nos campos personalizados são transferidos para a solicitação copiada. Isso inclui campos que contêm lógica.
    >* Não é possível remover formulários personalizados da solicitação copiada.
 
-
 1. Clique em **Enviar**.
 
-   A solicitação copiada é enviada como uma nova solicitação na fila de solicitações que você especificou.
+   A solicitação copiada é submetida como uma nova solicitação na fila de solicitações especificada.

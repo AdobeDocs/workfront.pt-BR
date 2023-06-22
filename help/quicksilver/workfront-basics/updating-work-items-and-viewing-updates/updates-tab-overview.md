@@ -7,9 +7,9 @@ description: A seção Atualizações de um objeto exibe comentários que os usu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1076'
 ht-degree: 4%
 
 ---
@@ -79,7 +79,7 @@ A seção Atualizações é exibida para os seguintes objetos:
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Histórias</li> 
+     <li>Histórias*</li> 
      <li>Tarefas</li> 
      <li>Modelos</li> 
      <li>Modelo de Tarefa</li> 
@@ -89,10 +89,13 @@ A seção Atualizações é exibida para os seguintes objetos:
   </tr> 
  </tbody> 
 </table>
+*Histórias são tarefas. Todas as informações relacionadas às tarefas também estão disponíveis para histórias.
 
 ### Visão geral da seção Atualizações na experiência de comentários em versões beta
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
+
+Para obter informações sobre quais recursos estão disponíveis para a nova experiência de comentários e para quais objetos, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 A seção Atualizações exibe informações nas seguintes guias na nova experiência de comentários:
 
@@ -109,7 +112,7 @@ Atualmente, você pode adicionar comentários e responder às atualizações usa
    <td> 
     <ul> 
      <li><p>Metas</p>
-     <li><span class="preview">Cartões na área Quadros</span></li>
+     <li><span class="preview">Placas na área Placas*</span></li>
       Esta é a única experiência para metas do <span class="preview">e cartões</span>.
      </li> 
      <li><span class="preview">Projetos</span></li>
@@ -124,10 +127,7 @@ Atualmente, você pode adicionar comentários e responder às atualizações usa
  </tbody> 
 </table>
 
-
->[!NOTE]
->
->Você pode adicionar e exibir atualizações a cartões nas áreas Quadro ao ativar as seções Comentários e Atividade do sistema em um cartão. Para obter mais informações, consulte [Adicionar um cartão ad hoc a um quadro](../../agile/get-started-with-boards/add-card-to-board.md).
+*Você pode adicionar e exibir atualizações para cartões nas áreas Quadro ao ativar as seções Comentários e Atividade do sistema em um cartão. Para obter mais informações, consulte [Adicionar um cartão ad hoc a um quadro](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## Atualizações que também aparecem em objetos de classificação mais alta
 

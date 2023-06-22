@@ -6,9 +6,9 @@ description: É possível adicionar comentários a todas as metas que você pode
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ Você pode editar seu comentário dentro de 15 minutos a partir do envio. Um ind
         Para obter mais informações, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Opcional) Clique no link **Mais** menu ![](assets/more-icon.png) à direita de um comentário e clique em **Excluir** para excluir um comentário adicionado. Para obter mais informações, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Opcional) Clique em **Responder** para responder a um comentário existente, siga as etapas 5 a 9 acima. <!--insure this stays accurate-->
+1. (Opcional) Clique em **Responder** para responder a um comentário existente, siga as etapas 5 a 9 acima. Para obter mais informações sobre como responder a atualizações, consulte [Responder a atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). <!--insure this stays accurate-->
 1. (Condicional e opcional) Se outros usuários tiverem adicionado comentários que são exibidos fora da área visível na seção Atualizações, clique em **Exibir** dentro do azul **novo banner de comentários** na parte inferior da tela para exibir esses comentários.
 
    ![](assets/blue-new-comments-banner-with-view-button.png)

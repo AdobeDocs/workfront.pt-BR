@@ -6,9 +6,9 @@ description: Uma atualização para a experiência de comentários no Adobe Work
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '620'
 ht-degree: 1%
 
 ---
@@ -425,7 +425,7 @@ A nova experiência de comentários é atualmente compatível com os seguintes o
 
 * Ao habilitar a experiência Beta na seção Atualizações:
 
-   * Problemas, <span class="preview">projetos, tarefas, histórias e documentos</span>
+   * Problemas, <span class="preview">projetos, tarefas e documentos</span>
 
   Para obter mais informações sobre o gerenciamento de atualizações para objetos do Workfront, consulte [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
