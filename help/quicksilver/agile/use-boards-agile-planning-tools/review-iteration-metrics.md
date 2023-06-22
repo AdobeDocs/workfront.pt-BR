@@ -3,23 +3,26 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: boards
 title: Revisar métricas de iteração
-description: As métricas estão disponíveis para cada iteração em uma sequência de trabalho, no quadro do processo de iteração.
+description: As métricas estão disponíveis para cada iteração em um workflow, no quadro do processo de iteração.
 author: Lisa
 feature: Agile
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
+source-git-commit: 563e0f443ecef9ee99e9f9bfb5a0d579aa50cef4
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
 # Revisar métricas de iteração
 
-As métricas estão disponíveis para cada iteração em uma sequência de trabalho, no quadro do processo de iteração e no painel.
+{{highlighted-preview}}
+
+As métricas estão disponíveis para cada iteração em um fluxo de trabalho, no quadro do processo de iteração e no painel.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,18 +45,18 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
 {{step1-to-boards}}
 
-1. Para abrir um fluxo de trabalho, clique em [!UICONTROL **Exibir fluxo de trabalho**].
-1. Selecione o [!UICONTROL Processo de iteração] quadro.
-1. Revise a área de métricas acima do quadro na parte superior direita. Clique nas setas para cima e para baixo para mover-se entre as iterações.
+1. Para abrir um workflow, clique em [!UICONTROL **Exibir fluxo de trabalho**].
+1. Selecione o [!UICONTROL Processo de iteração] placa.
+1. Revise a área de métricas acima do quadro na parte superior direita. Clique nas setas para cima e para baixo para se mover entre as iterações.
 
-   As seguintes métricas são exibidas: número total de pontos atribuídos à iteração, os pontos restantes ainda não concluídos na iteração e o número de pontos concluídos na iteração.
+   As seguintes métricas são exibidas: número total de pontos atribuídos à iteração, os pontos restantes ainda não concluídos na iteração, o número de pontos concluídos na iteração, <span class="preview">e o número de metas criadas e concluídas na iteração</span>.
 
-1. (Opcional) Clique no botão [!UICONTROL **Detalhes da iteração**] ícone ![Detalhes da iteração](assets/iteration-details-button.png) para abrir a caixa de diálogo de detalhes da iteração selecionada.
+1. (Opcional) Clique no link [!UICONTROL **Detalhes da iteração**] ícone ![Detalhes da iteração](assets/iteration-details-button.png) para abrir a caixa de diálogo de detalhes da iteração selecionada.
 
 ## Revisar métricas de iteração no painel
 
 {{step1-to-boards}}
 
-As seguintes métricas são exibidas no painel para a iteração atual da fluxo de trabalho: número total de pontos atribuídos à iteração, o número de pontos concluídos e os pontos restantes ainda não concluídos na iteração.
+As seguintes métricas são exibidas no painel para a iteração atual do fluxo de trabalho: número total de pontos atribuídos à iteração, o número de pontos concluídos e os pontos restantes ainda não concluídos na iteração.
 
-Para revisar métricas para outras iterações, você deve abrir o quadro de iteração.
+Para analisar métricas de outras iterações, abra o quadro de iteração.
