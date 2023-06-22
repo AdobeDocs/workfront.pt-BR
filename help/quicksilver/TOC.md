@@ -2,9 +2,9 @@
 user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 feature-set: Workfront
-source-git-commit: b7ed3f9f38ab96270709d76fda80466b1b50f1ea
+source-git-commit: bb25e08bd81c6c5c2fa35fde7912e8607b894284
 workflow-type: tm+mt
-source-wordcount: '13080'
+source-wordcount: '13086'
 ht-degree: 1%
 
 ---
@@ -2166,6 +2166,7 @@ ht-degree: 1%
          * [Atualize seu trabalho usando o plug-in do Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Marcar itens de trabalho como concluídos usando o plug-in do Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Registrar tempo usando o plug-in do Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
+         * [Gerenciar [!DNL Adobe Workfront] notificações do Adobe Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Fazer upload de documentos e provas com o plug-in do Adobe Workfront para aplicativos Creative Cloud {#upload-docs-proofs-wf-cc}
          * [Fazer upload de documentos e provas do [!DNL Adobe Workfront plugin] para o [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Fazer upload de documentos e provas com o plug-in do Adobe Workfront para aplicativos Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
