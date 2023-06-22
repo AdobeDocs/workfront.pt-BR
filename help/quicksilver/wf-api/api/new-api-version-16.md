@@ -2,10 +2,11 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: Novidades da API versão 16
-description: A Adobe Workfront lançou a API versão 16 em 6 de abril de 2022. A API versão 16 apresenta as seguintes alterações da versão 15.
+description: O Adobe Workfront lançou a API versão 16 em 6 de abril de 2022. A API versão 16 apresenta as seguintes alterações da versão 15.
 author: Becky
 feature: Workfront API
-source-git-commit: 19978aaa2886008afc3c0faa9cfd18bd7c4b2555
+exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
+source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # Novidades da API versão 16
 
-A Adobe Workfront lançou a API versão 16 em 6 de abril de 2022. A API versão 16 apresenta as seguintes alterações da versão 15.
+O Adobe Workfront lançou a API versão 16 em 6 de abril de 2022. A API versão 16 apresenta as seguintes alterações da versão 15.
 
 ## Recursos adicionados
 
@@ -26,25 +27,25 @@ Nenhum recurso foi removido para a API versão 16
 
 ## Recursos modificados
 
-* <!--[AccessLevel (ACSLVL)](#accesslevel-acslvl)-->
-* [Homologação (APROVAÇÃO)](#approval-approval)
+<!--* [AccessLevel (ACSLVL)](#accesslevel-acslvl)-->
+* [Aprovação (APPROVAL)](#approval-approval)
 * [Preferências do cliente (CUSTPR)](#customerpreferences-custpr)
-* [Seção Externa (EXTSEC)](#externalsection-extsec)
+* [ExternalSection (EXTSEC)](#externalsection-extsec)
 * [Hora (HORA)](#hour-hour)
 * [Modelo de layout (UITMPL)](#layouttemplate-uitmpl)
-* [Nota (OBSERVAÇÃO)](#note-note)
-* [OpTask / Problema (OPTASK)](#note-note)
+* [Nota (NOTA)](#note-note)
+* [OpTask/Problema (OPTASK)](#note-note)
 * [Projeto (PROJ)](#project-proj)
-* [Taxa (TAXA)](#rate-rate)
-* [RichTextNote (NOTA)](#richtextnote-rhnote)
-* [Função / Função de trabalho (FUNÇÃO)](#role--job-role-role)
-* [Tarefa (TAREFA)](#task-task)
-* [Folha de Horas (TSHET)](#timesheet-tshet)
+* [Taxa (RATE)](#rate-rate)
+* [RichTextNote (Nota)](#richtextnote-rhnote)
+* [Função/Função (ROLE)](#role--job-role-role)
+* [Tarefa (TASK)](#task-task)
+* [Planilha de horas (TSHET)](#timesheet-tshet)
 * [UIFilter / Filtro (UIFT)](#uifilter--filter-uift)
-* [UIGroupBy / Grouping (UIGB)](#uigroupby--grouping-uigb)
-* [UIView / View (UIVW)](#uiview--view-uivw)
-* [Usuário (USUÁRIO)](#user-user)
-* [UserNote (USRNOT)](#usernote-usrnot)
+* [UIGroupBy / Agrupamento (UIGB)](#uigroupby--grouping-uigb)
+* [UIView / Visualização (UIVW)](#uiview--view-uivw)
+* [Usuário (USER)](#user-user)
+* [Nota de Usuário (USRNOT)](#usernote-usrnot)
 
 <!--
 
@@ -78,9 +79,9 @@ An AccessLevel object is associated with users, and describes the set of AccessL
 
 -->
 
-### Homologação (APROVAÇÃO)
+### Aprovação (APPROVAL)
 
-Um determinado item de trabalho, como uma tarefa, documento ou folha de ponto, pode exigir que um supervisor ou outro usuário faça logoff no item de trabalho. Um objeto Approval representa a ação de desconectar-se em um item de trabalho.
+Um determinado item de trabalho, como uma tarefa, um documento ou uma folha de horas, pode exigir que um supervisor ou outro usuário faça logoff no item de trabalho. Um objeto de Aprovação representa a ação de desconectar em um item de trabalho.
 
 <table>
   <col/>
@@ -93,7 +94,7 @@ Um determinado item de trabalho, como uma tarefa, documento ou folha de ponto, p
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Este campo foi adicionado e mostra o número de minutos de trabalho por dia que você precisa fazer. Ele tem o formato <code>YYYY-MM-DD: (number of minutes)</code>e considera o fuso horário.</p>
+            <p>Este campo foi adicionado e mostra quantos minutos de trabalho por dia são necessários. Tem o formato <code>YYYY-MM-DD: (number of minutes)</code>, e considera o fuso horário.</p>
           </li>
         </ul>
       </td>
@@ -103,7 +104,7 @@ Um determinado item de trabalho, como uma tarefa, documento ou folha de ponto, p
 
 ### Atribuição (ASSGN)
 
-Um objeto de atribuição representa a conexão entre um item de trabalho e o usuário, a equipe ou o grupo atribuído para trabalhar nele.
+Um objeto de atribuição representa a conexão entre um item de trabalho e o usuário, equipe ou grupo atribuído para trabalhar nele.
 
 <table>
   <col/>
@@ -116,12 +117,12 @@ Um objeto de atribuição representa a conexão entre um item de trabalho e o us
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Este campo foi adicionado e mostra o número de minutos de trabalho por dia que você precisa fazer. Ele tem o formato <code>YYYY-MM-DD: (number of minutes)</code>e considera o fuso horário.</p>
+            <p>Este campo foi adicionado e mostra quantos minutos de trabalho por dia são necessários. Tem o formato <code>YYYY-MM-DD: (number of minutes)</code>, e considera o fuso horário.</p>
           </li>
           <li>
-            <p><b>isContered</b>
+            <p><b>isContoured</b>
             </p>
-            <p>Este campo foi adicionado e é um booleano que reflete se a atribuição está contida. Se os minutos da atribuição por dia tiverem sido editados no Balanceador de Carga de Trabalho, a atribuição terá sido contornada.</p>
+            <p>Este campo foi adicionado, e é um booleano que reflete se a atribuição está com contorno. Se os minutos por dia da atribuição tiverem sido editados no Balanceador de carga de trabalho, a atribuição terá sido contornada.</p>
           </li>
         </ul>
       </td>
@@ -169,7 +170,7 @@ Um objeto CustomerPreferences representa o conjunto de preferências que um clie
           <li>
             <p><b>name</b>
             </p>
-            <p>Os seguintes valores possíveis foram adicionados:</p>
+            <p>Foram adicionados os seguintes valores possíveis:</p>
             <ul>
               <li>
                 <p><code>customer:config.general.autoupgradedisabled</code></p>
@@ -186,16 +187,16 @@ Um objeto CustomerPreferences representa o conjunto de preferências que um clie
           <li>
             <p><b>getIsAutoUpgradeDisabled</b>
             </p>
-            <p>Essa ação retorna um booleano que descreve se o cliente desabilitou a opção de atualizar automaticamente os titulares de licenças do Contribuidor.</p>
+            <p>Esta ação retorna um valor booleano que descreve se o cliente desativou a opção de atualizar automaticamente os titulares da licença do Colaborador.</p>
          </li>
         </ul>
       </td>
     </tr>  </tbody>
 </table>
 
-### Seção Externa (EXTSEC)
+### ExternalSection (EXTSEC)
 
-Um objeto ExternalSection é uma página da Web externa incorporada em um relatório do Workfront.
+Um objeto ExternalSection é uma página externa da Web incorporada em um relatório do Workfront.
 
 <table>
   <col/>
@@ -208,7 +209,7 @@ Um objeto ExternalSection é uma página da Web externa incorporada em um relat�
            <li>
             <p><b>calculateIframeURL</b>
             </p>
-            <p>Isso foi adicionado e calcula o URL de um iFrame incorporado em um relatório.</p>
+            <p>Ele foi adicionado e calcula o URL de um iFrame incorporado em um relatório.</p>
          </li>
           <li>
             <p><b>calculateIframeURLS</b>
@@ -222,7 +223,7 @@ Um objeto ExternalSection é uma página da Web externa incorporada em um relat�
 
 ### Hora (HORA)
 
-Um objeto Hora representa uma hora registrada por um usuário em uma folha de ponto.
+Um objeto Hour representa uma hora registrada por um usuário em uma folha de horas.
 
 <table>
   <col/>
@@ -235,7 +236,7 @@ Um objeto Hora representa uma hora registrada por um usuário em uma folha de po
           <li>
             <p><b>timesheetHourIdentifier</b>
             </p>
-            <p>Adicionado. Esse parâmetro é usado para identificar as horas criadas com <code>batchSave</code>. </p>
+            <p>Adicionado. Este parâmetro é usado para identificar as horas criadas com <code>batchSave</code>. </p>
            </li>
         </ul>
       </td>
@@ -274,9 +275,9 @@ Adobe Workfront administrators or group administrators can create templates to c
 </table>
 -->
 
-### Nota (OBSERVAÇÃO)
+### Nota (NOTA)
 
-Um objeto Nota é um comentário ou atualização feito em um objeto Workfront.
+Um objeto Note é um comentário ou uma atualização feita em um objeto Workfront.
 
 <table>
   <col/>
@@ -287,7 +288,7 @@ Um objeto Nota é um comentário ou atualização feito em um objeto Workfront.
       <td>
         <ul>
           <li>
-            <p><b>AttachedDocuments</b>
+            <p><b>anexadosDocumentos</b>
             </p>
             <p>Este campo foi adicionado e representa uma lista de documentos anexados ao comentário.</p>
           </li>
@@ -297,9 +298,9 @@ Um objeto Nota é um comentário ou atualização feito em um objeto Workfront.
  </tbody>
 </table>
 
-### OpTask / Problema (OPTASK)
+### OpTask/Problema (OPTASK)
 
-Um objeto OpTask é normalmente conhecido como um problema. Um problema é um item de trabalho que geralmente indica que há um problema que impede a conclusão de uma tarefa ou projeto. Um problema também pode ser uma solicitação de suporte técnico. Pedidos de alteração, solicitações e bugs também são problemas.
+Um objeto OpTask é comumente conhecido como um Problema. Um problema é um item de trabalho que geralmente indica que há um problema que impede a conclusão de uma tarefa ou projeto. Um problema também pode ser uma solicitação de Help Desk. Pedidos de alteração, solicitações e bugs também são problemas.
 
 <table>
   <col/>
@@ -312,7 +313,7 @@ Um objeto OpTask é normalmente conhecido como um problema. Um problema é um it
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Este campo foi adicionado e mostra o número de minutos de trabalho por dia que você precisa fazer. Ele tem o formato <code>YYYY-MM-DD: (number of minutes)</code>e considera o fuso horário.</p>
+            <p>Este campo foi adicionado e mostra quantos minutos de trabalho por dia são necessários. Tem o formato <code>YYYY-MM-DD: (number of minutes)</code>, e considera o fuso horário.</p>
           </li>
         </ul>
       </td>
@@ -324,7 +325,7 @@ Um objeto OpTask é normalmente conhecido como um problema. Um problema é um it
            <li>
             <p><b>assignMultiple</b>
             </p>
-            <p>Esta ação adicionou o campo <code>teamIDs</code> para dar suporte à funcionalidade de atribuir várias equipes a uma tarefa ou problema.</p>
+            <p>Essa ação adicionou o campo <code>teamIDs</code> para oferecer suporte à funcionalidade de atribuir várias equipes a uma tarefa ou problema.</p>
          </li>
         </ul>
       </td>
@@ -334,7 +335,7 @@ Um objeto OpTask é normalmente conhecido como um problema. Um problema é um it
 
 ### Projeto (PROJ)
 
-Os projetos são itens de trabalho no Workfront e são um elemento essencial na maneira como o Workfront ajuda as pessoas a trabalhar. Um objeto Project representa um grupo de tarefas com um objetivo comum e específico.
+Os projetos são itens de trabalho no Workfront e um elemento principal da maneira como o Workfront ajuda as pessoas a trabalhar. Um objeto Projeto representa um grupo de tarefas com uma meta comum e específica.
 
 <table>
   <col/>
@@ -347,7 +348,7 @@ Os projetos são itens de trabalho no Workfront e são um elemento essencial na 
           <li>
             <p><b>resourcePlannerBudgetedHours</b>
             </p>
-            <p>Este campo foi adicionado e representa a soma de todas as Horas Orçadas no projeto.</p>
+            <p>Este campo foi adicionado e representa a soma de todas as horas orçadas no projeto.</p>
           </li>
         </ul>
       </td>
@@ -355,9 +356,9 @@ Os projetos são itens de trabalho no Workfront e são um elemento essencial na 
  </tbody>
 </table>
 
-### Taxa (TAXA)
+### Taxa (RATE)
 
-Um objeto Rate representa uma taxa de faturamento no Workfront.
+Um objeto de Taxa representa uma taxa de cobrança no Workfront.
 
 <table>
   <col/>
@@ -372,10 +373,10 @@ Um objeto Rate representa uma taxa de faturamento no Workfront.
             <p><b>LocalBillingPerHour</b></p>
             <p><b>localCostPerHour</b></p>
             <p><b>localCurrency</b></p>
-           <p>Esses parâmetros foram movidos para o objeto Rate a partir do objeto Role , de modo que os objetos Role e User possam ter vários valores (para intervalos de datas separados).</p>
+           <p>Esses parâmetros foram movidos do objeto Função para o objeto Taxa, de modo que os objetos Função e Usuário possam ter vários valores (para intervalos de datas separados).</p>
           </li>
           <li><p><b>objID</b></p><p><b>objObjCode</b></p>
-          <p>Esses parâmetros representam a ID e o código do objeto ao qual a Taxa é anexada.
+          <p>Esses parâmetros representam a ID e o código do objeto ao qual a Taxa está anexada.
           </li>
         </ul>
       </td>
@@ -386,7 +387,7 @@ Um objeto Rate representa uma taxa de faturamento no Workfront.
         <ul>
           <li>
              <p><b>setRateForObject</b></p>
-           <p>Essa ação foi adicionada e anexa os objetos Rate ao Objeto especificado. Esse ponto de extremidade funciona para todos os objetos de Taxa anexável.</p>
+           <p>Esta ação foi adicionada e anexa objetos Taxa ao objeto fornecido. Esse endpoint funciona para todos os objetos de Taxa Anexável.</p>
           </li>
         </ul>
       </td>
@@ -394,15 +395,15 @@ Um objeto Rate representa uma taxa de faturamento no Workfront.
  </tbody>
 </table>
 
-### RichTextNote (NOTA)
+### RichTextNote (Nota)
 
-Um objeto RichTextNote é um comentário ou atualização feito em um objeto Workfront, que inclui rich text, como negrito ou itálico.
+Um objeto RichTextNote é um comentário ou uma atualização feita em um objeto do Workfront, que inclui rich text, como negrito ou itálico.
 
 O objeto RichTextNote removeu o sinalizador `REPORTABLE`.
 
-### Função / Função de trabalho (FUNÇÃO)
+### Função/Função (ROLE)
 
-Um objeto de Função (função de trabalho) representa uma capacidade funcional ou um conjunto de habilidades que um usuário pode preencher, como o Designer ou o Gerenciador de Produtos.
+Um objeto Função (função de trabalho) representa uma capacidade funcional ou um conjunto de habilidades que um usuário pode preencher, como Designer ou Gerente de produto.
 
 <table>
   <col/>
@@ -415,16 +416,16 @@ Um objeto de Função (função de trabalho) representa uma capacidade funcional
            <li>
             <p><b>taxas</b>
             </p>
-            <p>Isso foi adicionado e representa os objetos Rate anexados a essa função.</p>
+            <p>Foi adicionado e representa os objetos de Taxa anexados a esta função.</p>
          </li>
         </ul>
       </td>
     </tr>  </tbody>
 </table>
 
-### Tarefa (TAREFA)
+### Tarefa (TASK)
 
-Um objeto Task representa um item de trabalho que deve ser executado como uma etapa para atingir uma meta final (conclusão de um projeto).
+Um objeto Tarefa representa um item de trabalho que deve ser executado como uma etapa para atingir uma meta final (concluir um Projeto).
 
 <table>
   <col/>
@@ -437,7 +438,7 @@ Um objeto Task representa um item de trabalho que deve ser executado como uma et
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Este campo foi adicionado e mostra o número de minutos de trabalho por dia que você precisa fazer. Ele tem o formato <code>YYYY-MM-DD: (number of minutes)</code>e considera o fuso horário.</p>
+            <p>Este campo foi adicionado e mostra quantos minutos de trabalho por dia são necessários. Tem o formato <code>YYYY-MM-DD: (number of minutes)</code>, e considera o fuso horário.</p>
           </li>
         </ul>
       </td>
@@ -449,7 +450,7 @@ Um objeto Task representa um item de trabalho que deve ser executado como uma et
            <li>
             <p><b>assignMultiple</b>
             </p>
-            <p>Esta ação adicionou o campo <code>teamIDs</code> para dar suporte à funcionalidade de atribuir várias equipes a uma tarefa ou problema.</p>
+            <p>Essa ação adicionou o campo <code>teamIDs</code> para oferecer suporte à funcionalidade de atribuir várias equipes a uma tarefa ou problema.</p>
          </li>
         </ul>
       </td>
@@ -457,32 +458,32 @@ Um objeto Task representa um item de trabalho que deve ser executado como uma et
 </table>
 
 
-### Folha de Horas (TSHET)
+### Planilha de horas (TSHET)
 
-Um objeto de Folha de Horas representa um cartão de ponto virtual que permite que os usuários insiram horas reais trabalhadas para Tarefas, Projetos e Tipos de Horário de Custo.
+Um objeto de Planilha de Horas representa um cartão de ponto virtual que permite aos Usuários inserir as horas reais trabalhadas para Tarefas, Projetos e Tipos de Horas Gerais.
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Campos Diretos</td>
+      <td role="rowheader">Campos diretos</td>
       <td>
         <ul>
            <li>
             <p><b>availableActions</b>
             </p>
-            <p>Este parâmetro removeu o sinalizador <code>READ_ONLY</code>.</p>
+            <p>Esse parâmetro removeu o sinalizador <code>READ_ONLY</code>.</p>
          </li>
            <li>
             <p><b>isEditable</b>
             </p>
-            <p>Este parâmetro removeu o sinalizador <code>READ_ONLY</code>.</p>
+            <p>Esse parâmetro removeu o sinalizador <code>READ_ONLY</code>.</p>
          </li>
            <li>
             <p><b>totalDays</b>
             </p>
-            <p>Esse parâmetro foi adicionado e armazena a duração das folhas de horas em dias, independentemente das alterações em "Horas equivalentes para Workday completo".  Por exemplo, se Horas Equivalentes for definido como 6 e um dia for registrado, Horas Equivalentes será alterado para 8 horas, <code>totalDays</code> O ainda tem um valor de 1.</p>
+            <p>Esse parâmetro foi adicionado e armazena a duração da folha de horas em dias, independentemente das alterações em "Horas equivalentes para Full Workday".  Por exemplo, se Equivalent Hours (Horas equivalentes) estiver definido como 6 e um dia for registrado, então Equivalent Hours (Horas equivalentes) será alterado para 8 hours (8 horas), <code>totalDays</code> ainda tem um valor de 1.</p>
          </li>
         </ul>
       </td>
@@ -502,9 +503,9 @@ Um objeto de Folha de Horas representa um cartão de ponto virtual que permite q
       <td>
         <ul>
           <li>
-            <p><b>addJoinForNullabelFields</b>
+            <p><b>addJoinForNullableFields</b>
             </p>
-            <p>Essa ação foi adicionada e obtém um mapa de consulta de filtro e adiciona a variável <code>allowingnull</code> unir para campos que podem ser nulos.</p>
+            <p>Esta ação foi adicionada, pega um mapa de consulta de filtro e adiciona o <code>allowingnull</code> junte-se para campos anuláveis.</p>
          </li>
          <li>
             <p><b>disableSystemWideVisibility
@@ -512,14 +513,14 @@ Um objeto de Folha de Horas representa um cartão de ponto virtual que permite q
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Essas ações oferecem suporte à capacidade de compartilhar filtros, visualizações e agrupamentos em todo o sistema.</p><p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Disponibilizar filtros, visualizações ou agrupamentos para todos os usuários</a>.</p>
+            <p>Essas ações oferecem suporte à capacidade de compartilhar filtros, visualizações e agrupamentos em todo o sistema.</p><p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Disponibilizar filtros, visualizações ou agrupamentos a todos os usuários</a>.</p>
          </li>
         </ul>
       </td>
     </tr>  </tbody>
 </table>
 
-### UIGroupBy / Grouping (UIGB)
+### UIGroupBy / Agrupamento (UIGB)
 
 
 <table>
@@ -536,7 +537,7 @@ Um objeto de Folha de Horas representa um cartão de ponto virtual que permite q
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Essas ações oferecem suporte à capacidade de compartilhar filtros, visualizações e agrupamentos em todo o sistema.</p><p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Disponibilizar filtros, visualizações ou agrupamentos para todos os usuários</a>.</p>
+            <p>Essas ações oferecem suporte à capacidade de compartilhar filtros, visualizações e agrupamentos em todo o sistema.</p><p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Disponibilizar filtros, visualizações ou agrupamentos a todos os usuários</a>.</p>
          </li>
         </ul>
       </td>
@@ -544,7 +545,7 @@ Um objeto de Folha de Horas representa um cartão de ponto virtual que permite q
 </table>
 
 
-### UIView / View (UIVW)
+### UIView / Visualização (UIVW)
 
 <table>
   <col/>
@@ -577,14 +578,14 @@ Um objeto de Folha de Horas representa um cartão de ponto virtual que permite q
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Essas ações oferecem suporte à capacidade de compartilhar filtros, visualizações e agrupamentos em todo o sistema.</p><p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Disponibilizar filtros, visualizações ou agrupamentos para todos os usuários</a>.</p>
+            <p>Essas ações oferecem suporte à capacidade de compartilhar filtros, visualizações e agrupamentos em todo o sistema.</p><p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Disponibilizar filtros, visualizações ou agrupamentos a todos os usuários</a>.</p>
          </li>
         </ul>
       </td>
     </tr>  </tbody>
 </table>
 
-### Usuário (USUÁRIO)
+### Usuário (USER)
 
 Um objeto Usuário representa uma pessoa com uma conta no Workfront que pode fazer logon e interagir com o sistema.
 
@@ -599,14 +600,14 @@ Um objeto Usuário representa uma pessoa com uma conta no Workfront que pode faz
            <li>
             <p><b>taxas</b>
             </p>
-            <p>Isso foi adicionado e representa os objetos Rate anexados a esse usuário.</p>
+            <p>Ele foi adicionado e representa os objetos de Taxa anexados a esse usuário.</p>
          </li>
         </ul>
       </td>
     </tr>  </tbody>
 </table>
 
-### UserNote (USRNOT)
+### Nota de Usuário (USRNOT)
 
 Um objeto UserNote é uma notificação.
 
@@ -615,7 +616,7 @@ Um objeto UserNote é uma notificação.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Queries</td>
+      <td role="rowheader">Consultas</td>
       <td>
         <ul>
           <li>
@@ -633,9 +634,9 @@ Um objeto UserNote é uma notificação.
     </tr>  </tbody>
 </table>
 
-### Trabalho (TRABALHO)
+### Trabalho (WORK)
 
-Um objeto de trabalho é uma interface comum que Tarefa e OpTask herdam e compartilha um código comum entre os dois.
+Um objeto Trabalho é uma interface comum que tanto Tarefa quanto OpTask herdam e compartilha código comum entre os dois.
 
 <table>
   <col/>
@@ -648,7 +649,7 @@ Um objeto de trabalho é uma interface comum que Tarefa e OpTask herdam e compar
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Este campo foi adicionado e mostra o número de minutos de trabalho por dia que você precisa fazer. Ele tem o formato <code>YYYY-MM-DD: (number of minutes)</code>e considera o fuso horário.</p>
+            <p>Este campo foi adicionado e mostra quantos minutos de trabalho por dia são necessários. Tem o formato <code>YYYY-MM-DD: (number of minutes)</code>, e considera o fuso horário.</p>
           </li>
         </ul>
       </td>

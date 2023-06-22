@@ -2,23 +2,23 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: Metas da Adobe Workfront com a versão 23.3
-description: Esta página fornece informações sobre a funcionalidade dos Objetivos do Adobe Workfront na nova experiência do Adobe Workfront que está sendo lançada para o ambiente de Produção com a versão 23.3.
+title: Adobe Workfront Goals com a versão 23.3
+description: Esta página fornece informações sobre a funcionalidade do Adobe Workfront Goals na nova experiência do Adobe Workfront que está sendo lançada no ambiente de Produção com a versão 23.3.
 author: Courtney
 feature: Product Announcements, Workfront Goals
-source-git-commit: af605e10362c780ea82c2ea73d2aaf9d78ec4498
+exl-id: 21ee2e02-8c24-4931-9cf4-630668c47b01
+source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
 
+# Adobe Workfront Goals com a versão 23.3
 
-# Metas da Adobe Workfront com a versão 23.3
+Esta página fornece informações sobre a funcionalidade do Adobe Workfront Goals que está sendo lançada no ambiente de Produção dentro do período da versão 23.3.
 
-Esta página fornece informações sobre a funcionalidade do Adobe Workfront Targets que está sendo lançada para o ambiente de Produção dentro do período de lançamento da versão 23.3.
-
-Para obter uma lista de todas as alterações disponíveis para todas as áreas do Workfront neste ponto do ciclo de versão 23.3, consulte [Visão geral da versão 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis para todas as áreas do Workfront neste momento do ciclo de versão 23.3, consulte [23.3 Visão geral da versão](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 <table>
             <col style="width: 50%;" />
@@ -36,18 +36,18 @@ Para obter uma lista de todas as alterações disponíveis para todas as áreas 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md">Melhorias da seção de atualizações</a></p>
-                        <p>Os aprimoramentos na seção Atualizações das metas estão sendo disponibilizados dentro do período de lançamento da versão 23.3. Esses aprimoramentos serão disponibilizados no ambiente de Produção logo após o lançamento da Visualização.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md">Atualiza as melhorias na seção</a></p>
+                        <p>As melhorias na seção Atualizações das metas estão sendo disponibilizadas no período da versão 23.3, ao mesmo tempo que as atualizações sendo lançadas para a nova experiência beta de comentários. Essas melhorias serão disponibilizadas no ambiente de Produção logo após o lançamento para Pré-visualização.</p>
                     </td>
-                    <td><p><b>Disponível nestas datas:</b></p>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>Versão de visualização: durante todo o período da versão 23.3<br /></p>
+                                <p>Versão de pré-visualização: ao longo do período da versão 23.3<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Versão de produção: com a versão 23.3, salvo especificação em contrário</span></p>
+                                <p><span class="preview">Versão de produção: com a versão 23.3, a menos que especificado de outra forma</span></p>
                             </li>
                         </ul>
                     </td>

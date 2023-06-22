@@ -7,9 +7,9 @@ description: Esta página fornece informações sobre a funcionalidade do Adobe 
 author: Nolan
 feature: Product Announcements, Workfront Proof
 exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
-source-git-commit: ea47e5eae09b7acc9af70b46ecb70c4f8ffcbbea
+source-git-commit: 6f1327ea52dc17d8fac0c80d030c40ccb5b4da2a
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -34,10 +34,25 @@ Para obter uma lista de todas as alterações disponíveis para todas as áreas 
                         </p>
                     </td>
                 </tr>
-                </tr>
-                 <tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Alteração de suporte para provas do Microsoft Office</a><span style="color: #ff0000;"> Novo na produção!</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md" class="MCXref xref" xrefformat="{para}">Adiar atualizações para o Visualizador de provas de desktop</a> </p>
+                        <p>Com base no feedback dos usuários, estamos adicionando a opção de adiar atualizações para o Visualizador de provas de desktop. Agora os usuários podem optar por atrasar uma atualização e continuar com seu trabalho, mas serão lembrados de que uma atualização estará disponível sempre que abrirem o Visualizador de provas de desktop.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: com a versão 23.3</p>
+                            </li>
+                            <li>
+                                <p>Versão de produção: com a versão 23.3</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Alteração de suporte para provas do Microsoft Office</a></p>
                         <p>Para manter uma solução de processamento de prova robusta e escalonável, estamos alterando nossos tipos de arquivo do Microsoft Office e limites de tamanho de arquivo compatíveis.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -50,7 +65,8 @@ Para obter uma lista de todas as alterações disponíveis para todas as áreas 
                             </li>
                         </ul>
                     </td>
-                </tr>                <tr>
+                </tr>                
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">Atualização do Visualizador de provas de desktop</a></p>
                         <p>O Visualizador de provas de desktop foi atualizado para a versão 2.1.24! Essa atualização inclui suporte ao Chrome v100 para revisar provas interativas, bem como várias correções de problemas.</p>

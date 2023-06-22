@@ -7,9 +7,9 @@ description: Esta página descreve todas as melhorias feitas na versão 23.3 do 
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 5fd2e141-af8d-4934-a5f6-a4cdf5820082
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,8 @@ Esses aprimoramentos serão disponibilizados no ambiente de Produção com a ver
 
 ## Atualiza as melhorias na seção
 
-As melhorias na seção Atualizações das metas do estão sendo disponibilizadas no período da versão 23.3. Essas melhorias serão disponibilizadas no ambiente de Produção logo após o lançamento para Pré-visualização.
+As melhorias na seção Atualizações das metas estão sendo disponibilizadas no período da versão 23.3, ao mesmo tempo que as atualizações sendo lançadas para a nova experiência beta de comentários. Essas melhorias serão disponibilizadas no ambiente de Produção logo após o lançamento para Pré-visualização.
 
 As melhorias de comentários disponibilizadas para as metas são as mesmas lançadas com a nova experiência beta de comentários para outros objetos do Workfront.
 
-Para obter mais detalhes, consulte [Nova atividade de lançamento de experiência de comentário](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Para obter mais informações, consulte [Nova atividade de lançamento de experiência de comentário](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).

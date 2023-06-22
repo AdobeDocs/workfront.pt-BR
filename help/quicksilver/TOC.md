@@ -2,9 +2,9 @@
 user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 feature-set: Workfront
-source-git-commit: bb25e08bd81c6c5c2fa35fde7912e8607b894284
+source-git-commit: c75b418f02ea05905d712efe6fd608c8217ba310
 workflow-type: tm+mt
-source-wordcount: '13086'
+source-wordcount: '13071'
 ht-degree: 1%
 
 ---
@@ -20,15 +20,13 @@ ht-degree: 1%
       * [Preparar-se para uma versão trimestral do Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Versão 23.3 {#release-23-3}
          * [23.3 Visão geral da versão](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
-         * [23.3 semana da atividade de lançamento de 10 de abril de 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md)
-         * [23.3 semana da atividade de lançamento de 17 de abril de 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md)
-         * [23.3 semana da atividade de lançamento de 24 de abril de 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md)
-         * [23.3 semana da atividade de lançamento: 1 de maio de 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md)
-         * [Atividade de lançamento do 23.3 semana de 8 de maio de 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
-         * [Semana da atividade de lançamento do 23.3 de 15 de maio de 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md)
-         * [23.3 semana da atividade de lançamento de 29 de maio de 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md)
-         * [Semana da atividade de lançamento do 23.3 de 5 de junho de 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md)
-         * [Semana da atividade de lançamento do 23.3 de 12 de junho de 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-12.md)
+         * [23.3 Aprimoramentos do administrador](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md)
+         * [23.3 Melhorias na agilidade](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md)
+         * [23.3 Aprimoramentos de integração](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md)
+         * [23.3 Aprimoramentos do projeto](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md)
+         * [23.3 Aprimoramentos em dispositivos móveis](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md)
+         * [23.3 Outras melhorias](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
+         * [Atualizações de aparência durante o período de lançamento da versão 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * Versão 23.2 {#release-23-2}
          * [23.2 Visão geral da versão](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Aprimoramentos do administrador](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
@@ -215,6 +213,7 @@ ht-degree: 1%
       * Atividade de lançamento do Workfront Proof {#proof-release}
          * Prova com versão 23.3 {#proof-23-3-release}
             * [Adobe Workfront Proof com a versão 23.3](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
+            * [Atividade de lançamento do Adobe Workfront Proof 23.3: Semana de 17 de julho de 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md)
             * [Atividade de lançamento do Adobe Workfront Proof 23.3: Semana de 5 de junho de 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md)
             * [Atividade de lançamento do Adobe Workfront Proof 23.3: Semana de 8 de maio de 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Atividade de lançamento do Workfront Proof: semana de 17 de maio de 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
