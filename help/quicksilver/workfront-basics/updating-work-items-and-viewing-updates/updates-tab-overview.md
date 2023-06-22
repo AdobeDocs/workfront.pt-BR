@@ -7,9 +7,9 @@ description: A seção Atualizações de um objeto exibe comentários que os usu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1079'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização.</span>
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ele está disponível para todos os clientes somente no ambiente de Pré-visualização.</span>
 
 >[!NOTE]
 >
@@ -37,9 +37,9 @@ ht-degree: 4%
 >     * Painel Resumo em listas
 >     * Painel Resumo em Planilhas de Horas
 >
-> * Metas, <span class="preview">cartões na área Quadros</span>
+> * Metas, cartões na área Quadros
 >
->   A nova experiência de comentários é a única experiência com metas <span class="preview">e cartões</span>. Você deve ter uma licença adicional para acessar o Workfront Goals. Para obter mais informações, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   A nova experiência de comentários é a única experiência para metas e cartões. Você deve ter uma licença adicional para acessar o Workfront Goals. Para obter mais informações, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
 >     É possível adicionar e exibir atualizações em cartões na área Quadros ao ativar as seções Comentários e Atividade do sistema em um cartão. Para obter mais informações, consulte [Adicionar um cartão ad hoc a um quadro](../../agile/get-started-with-boards/add-card-to-board.md).
 
@@ -112,8 +112,8 @@ Atualmente, você pode adicionar comentários e responder às atualizações usa
    <td> 
     <ul> 
      <li><p>Metas</p>
-     <li><span class="preview">Placas na área Placas*</span></li>
-      Esta é a única experiência para metas do <span class="preview">e cartões</span>.
+     <li>Placas na área Placas*</li>
+      Essa é a única experiência para metas e cartões.
      </li> 
      <li><span class="preview">Projetos</span></li>
     </ul> </td> 

@@ -6,7 +6,7 @@ description: Quando alguém adiciona ou responde a uma atualização em um objet
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 0%
@@ -36,9 +36,9 @@ ht-degree: 0%
 >     * Painel Resumo em listas
 >     * Painel Resumo em Planilhas de Horas
 >
-> * Metas, <span class="preview">cartões na área Quadros</span>
+> * Metas, cartões na área Quadros
 >
->   A nova experiência de comentários é a única experiência com metas <span class="preview">e cartões</span>. Você deve ter uma licença adicional para acessar o Workfront Goals. Para obter mais informações, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   A nova experiência de comentários é a única experiência para metas e cartões. Você deve ter uma licença adicional para acessar o Workfront Goals. Para obter mais informações, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
 >     É possível adicionar e exibir atualizações em cartões na área Quadros ao ativar as seções Comentários e Atividade do sistema em um cartão. Para obter mais informações, consulte [Adicionar um cartão ad hoc a um quadro](../../agile/get-started-with-boards/add-card-to-board.md).
 

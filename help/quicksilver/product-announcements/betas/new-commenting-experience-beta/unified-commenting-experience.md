@@ -6,16 +6,16 @@ description: Uma atualização para a experiência de comentários no Adobe Work
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '623'
 ht-degree: 1%
 
 ---
 
 # Nova experiência de comentários
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização.</span>
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ele está disponível para todos os clientes somente no ambiente de Pré-visualização.</span>
 
 Uma atualização para a experiência de comentários no Adobe Workfront está em desenvolvimento no momento. Esta atualização inclui uma nova interface, novos recursos e melhor desempenho na seção Atualizações de objetos selecionados.
 
@@ -432,7 +432,7 @@ A nova experiência de comentários é atualmente compatível com os seguintes o
 
 * Por padrão, como a principal experiência de comentários:
 
-   * Metas, <span class="preview">cartões na área Quadros</span>
+   * Metas, cartões na área Quadros
 
   >[!NOTE]
   >
