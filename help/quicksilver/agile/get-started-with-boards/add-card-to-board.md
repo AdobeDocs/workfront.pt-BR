@@ -6,16 +6,14 @@ description: Você pode adicionar rapidamente um cartão ad hoc a um quadro e at
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: c1fab97289f1806676f9d80ccaa640fffa5192e5
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
 # Adicionar um cartão ad hoc a um quadro
-
-{{highlighted-preview}}
 
 Você pode adicionar rapidamente um cartão a um quadro e atribuí-lo a um membro do quadro. O cartão pode representar uma tarefa, problema, pessoa, grupo ou qualquer tipo de item que você deseja incluir no quadro.
 
@@ -100,18 +98,18 @@ Um cartão ad hoc não está conectado a um item de trabalho no [!DNL Adobe Work
       <td> <p>Clique em <strong>[!UICONTROL Adicionar item de lista de verificação]</strong>. Em seguida, digite o título do item e pressione Enter. Outro item é adicionado automaticamente. Continue inserindo títulos para adicionar mais itens.</p> <p>O contador na parte superior da lista de verificação mostra o número de itens concluídos e o número total de itens.</p> <p>Para obter mais informações sobre os itens da lista de verificação, consulte <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gerenciar itens da lista de verificação em cartões</a>.</p> </td> 
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Comentários]</strong></span> </td>
-      <td><span class="preview"><p>Clique em <strong>[!UICONTROL Novo comentário]</strong> e digite seu comentário. Use as ferramentas de formatação para formatar o texto e clique no <strong>Adicionar anexo</strong> ícone <img src="assets/attachment-icon.png" alt="Ícone de anexo"> para anexar um arquivo ao comentário. Para marcar uma pessoa ou equipe, use a caixa de pesquisa na parte inferior da área de comentários. O usuário não precisa ser membro do painel.</p><p><strong>NOTA:</strong> No momento, os usuários marcados em comentários em cartões ad hoc não recebem uma notificação por email.
+      <td role="rowheader"><strong>[!UICONTROL Comentários]</strong></td>
+      <td><p>Clique em <strong>[!UICONTROL Novo comentário]</strong> e digite seu comentário. Use as ferramentas de formatação para formatar o texto e clique no <strong>Adicionar anexo</strong> ícone <img src="assets/attachment-icon.png" alt="Ícone de anexo"> para anexar um arquivo ao comentário. Para marcar uma pessoa ou equipe, use a caixa de pesquisa na parte inferior da área de comentários. O usuário não precisa ser membro do painel.</p><p><strong>NOTA:</strong> No momento, os usuários marcados em comentários em cartões ad hoc não recebem uma notificação por email.
       </p><p>Clique em <strong>[!UICONTROL Enviar]</strong> para adicionar o comentário ao cartão.</p>
-      <p><strong>NOTA:</strong> A área de comentários nos cartões usa a nova experiência de comentários do Adobe Workfront. Para obter mais informações, consulte <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nova experiência de comentários</a>.</p></span></td>
+      <p><strong>NOTA:</strong> A área de comentários nos cartões usa a nova experiência de comentários do Adobe Workfront. Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Atualizar trabalho</a>.</p><p><strong>NOTA:</strong> Os comentários sobre cartões estão disponíveis apenas por meio da opção de inclusão antecipada para painéis do Workfront.</p></td>
      </tr>
     </tbody> 
    </table>
 
-   Imagem de amostra no ambiente de produção:
+   Amostra de imagem no ambiente de Produção quando a aceitação antecipada do recurso não é usada:
    ![Detalhes do cartão ad hoc](assets/boards-edit-ad-hoc-card-041723.png)
 
-   <span class="preview">Imagem de exemplo no ambiente de Pré-visualização:</span>
+   Amostra de imagem no ambiente de Produção quando a aceitação antecipada do recurso está habilitada:
    ![Detalhes do cartão ad hoc](assets/ad-hoc-card-details-with-comments.png)
 
    Use o painel de navegação esquerdo para se mover entre seções de campos nos detalhes do cartão.
