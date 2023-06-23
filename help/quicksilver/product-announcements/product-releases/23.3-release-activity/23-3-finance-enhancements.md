@@ -3,7 +3,7 @@ title: 23.3 Melhorias no Financial Management
 description: 23.3 Melhorias no Financial Management
 author: Lisa
 feature: Product Announcements
-source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
+source-git-commit: 2644afeda2c839ff45c9ee2a89d79b429daed1f0
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -24,4 +24,4 @@ Além disso, os conjuntos de funções de trabalho de data efetiva agora estão 
 
 Um novo recurso, cartões de taxa, permite definir várias taxas de cobrança por função de trabalho, com base na localização. Uma taxa de cobrança para uma função de trabalho e um local também pode incluir datas de efetivação. Cartões de taxa podem ser anexados a projetos para aplicar todas as informações de taxa de uma só vez para a função de trabalho e o local específicos. Funções baseadas em localização também podem ser atribuídas a tarefas com a possibilidade de substituir suas taxas no nível de atribuição.
 
-Todos esses recursos serão lançados para visualização em julho de 2023, e a documentação atualizada do usuário estará disponível nesse momento.
+Todos esses recursos serão lançados para visualização em 29 de julho de 2023 e a documentação atualizada do usuário estará disponível nesse momento.
