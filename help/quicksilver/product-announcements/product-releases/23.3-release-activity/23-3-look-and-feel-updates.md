@@ -4,9 +4,9 @@ description: Atualizações de aparência durante o período de lançamento da v
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 0f4cdc190ad841a843c5c3d0195b4c654450aa83
+source-git-commit: b34325813af7abd0e5107174734f06d6694acfd6
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Para obter uma lista de todas as alterações disponíveis com a versão 23.3, c
 
 >[!NOTE]
 >
->Versões de visualização e produção: a ser anunciado (antes da versão 23.3)
+>Versão de visualização planejada: 28 de junho de 2023; Versão de produção planejada: 13 de julho de 2023
 
 Melhorias na interface da lista de Solicitações enviadas.
 
@@ -36,8 +36,16 @@ Para obter mais informações, consulte [Copiar e enviar solicitações](/help/q
 
 >[!NOTE]
 >
->Versão de pré-visualização: a ser anunciada (antes da versão 23.3); Versão de produção: com a versão 23.3
+>Versão de visualização planejada: 5 de julho de 2023; Versão de produção planejada: com a versão 23.3
 
 Atualizamos a caixa Nova solicitação, que é exibida ao enviar uma nova solicitação. Agora, a interface corresponde à caixa Novo problema que é exibida ao adicionar um novo problema a um projeto.
 
 Para obter mais informações, consulte [Criar e enviar solicitações do Adobe Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+## Lista de taxas de cobrança atualizada
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 29 de junho de 2023; Versão de produção planejada para clientes da versão rápida: a ser anunciada, após a versão de produção 23.3; Versão de produção planejada para todos os clientes: com a versão 23.4
+
+A lista Taxas de cobrança do projeto agora tem a aparência mais moderna encontrada na maioria das outras listas no Workfront.

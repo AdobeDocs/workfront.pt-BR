@@ -3,9 +3,9 @@ title: 23.3 Melhorias na agilidade
 description: 23.3 Melhorias na agilidade
 author: Lisa
 feature: Product Announcements
-source-git-commit: 0f4cdc190ad841a843c5c3d0195b4c654450aa83
+source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 Esta página descreve todas as melhorias ágeis feitas com a versão 23.3 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão 23.3.
 
 Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo de versão 23.3, consulte [23.3 Visão geral da versão](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
+Para obter detalhes sobre como aderir aos novos recursos de Quadros antes da versão trimestral, consulte [Aceitação antecipada de recursos para painéis do Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## A Exibição Agile de um projeto exibe um quadro kanban
 
@@ -28,24 +30,6 @@ Enquanto estiver no quadro, você pode optar por alternar para a Exibição Agil
 
 A documentação da Exibição Agile do projeto atualizada será disponibilizada com a versão para visualização.
 
-## O modo escuro agora está disponível em placas Adobe Workfront
-
-Agora é possível exibir todas as placas e fluxos de trabalho no modo escuro. A nova configuração está disponível por meio das preferências no painel Quadros.
-
->[!NOTE]
->
->Se a instância do Workfront da sua organização tiver sido integrada à Experiência unificada do Adobe, você poderá ativar a formatação de tema escuro para todo o Adobe Experience Cloud no menu de preferências (a imagem do seu perfil), e não verá uma opção separada de modo escuro para placas Workfront.
-
-Para obter mais informações, consulte [Notificações e preferências de email dos painéis](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
-
-## Melhorias nas iterações de fluxo de trabalho nos Adobe Workfront Boards
-
-Adicionamos a capacidade de adicionar metas a uma iteração, sem precisar listar as metas em um cartão. As metas são adicionadas em um formato de lista de verificação e podem ser marcadas como concluídas. A área de métricas na parte superior direita da iteração mostra quantas metas existem e quantas foram concluídas.
-
-Além disso, a coluna Próxima iteração agora está disponível nos quadros de iteração. Quando você coloca um cartão nessa coluna, ele é automaticamente carregado para a próxima iteração e não retorna ao backlog. Na próxima iteração, o cartão aparece na coluna que corresponde ao seu status.
-
-Para obter mais informações sobre esses dois recursos, consulte [Criar uma iteração em um fluxo de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
-
 ## Classificar por colunas do quadro
 
 Adicionamos a capacidade de classificar os cartões nas colunas em um quadro. Quando você seleciona uma opção para classificar por, todas as colunas são classificadas. Não é possível classificar uma única coluna, e a coluna de backlog ou de entrada não é classificada.
@@ -56,6 +40,24 @@ A opção &quot;ordem do usuário&quot; retorna os cartões na ordem em que fora
 
 Para obter mais informações, consulte [Filtrar e pesquisar em um quadro](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
+## O modo escuro agora está disponível em placas Adobe Workfront
+
+Agora é possível exibir todas as placas e fluxos de trabalho no modo escuro. A nova configuração está disponível por meio das preferências no painel Quadros.
+
+>[!NOTE]
+>
+>Se a instância do Workfront da sua organização tiver sido integrada à Experiência unificada do Adobe, você poderá ativar a formatação de tema escuro para todo o Adobe Experience Cloud no menu de preferências (a imagem do seu perfil), e não verá uma opção separada de modo escuro para placas Workfront.
+
+Para obter mais informações, consulte [Notificações e preferências de email dos painéis](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+
+## Metas disponíveis em iterações de fluxo de trabalho em painéis do Adobe Workfront
+
+Adicionamos a capacidade de adicionar metas a uma iteração, sem precisar listar as metas em um cartão. As metas são adicionadas em um formato de lista de verificação e podem ser marcadas como concluídas. A área de métricas na parte superior direita da iteração mostra quantas metas existem e quantas foram concluídas.
+
+<!--Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.-->
+
+Para obter mais informações, consulte [Criar uma iteração em um fluxo de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+
 ## Adicionar comentários a cartões em quadros
 
 >[!NOTE]
@@ -65,6 +67,8 @@ Para obter mais informações, consulte [Filtrar e pesquisar em um quadro](/help
 Agora é possível adicionar comentários a cartões ad hoc e conectados em quadros e marcar outros usuários nos comentários. Os comentários estão disponíveis nos detalhes do cartão. O recurso de comentário para quadros usa a nova experiência de comentário do Adobe Workfront.
 
 Para obter mais informações, consulte [Adicionar um cartão ad hoc a um quadro](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) e [Usar placas conectadas em placas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3420832/){target=_blank}
 
 ## Melhorias no gerenciador de tags das placas
 

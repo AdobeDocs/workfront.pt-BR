@@ -2,9 +2,9 @@
 user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 feature-set: Workfront
-source-git-commit: 19ae3a7c21047c4abf476d051e1cbefd09559e84
+source-git-commit: 06dc88ee79736a8a0f4b5667370849827d771ca1
 workflow-type: tm+mt
-source-wordcount: '13088'
+source-wordcount: '13091'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 1%
          * [23.3 Visão geral da versão](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
          * [23.3 Aprimoramentos do administrador](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md)
          * [23.3 Melhorias na agilidade](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md)
+         * [23.3 Melhorias no Financial Management](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md)
          * [23.3 Aprimoramentos de integração](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md)
          * [23.3 Aprimoramentos do projeto](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md)
          * [23.3 Aprimoramentos em dispositivos móveis](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md)
