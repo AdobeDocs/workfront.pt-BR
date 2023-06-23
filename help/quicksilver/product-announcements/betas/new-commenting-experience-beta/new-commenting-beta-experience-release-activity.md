@@ -6,9 +6,9 @@ description: Revise a atividade de lançamento semanal para a nova experiência 
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1492'
 ht-degree: 3%
 
 ---
@@ -71,15 +71,25 @@ Os recursos listados nesta seção estão planejados para lançamento logo após
 
 Agora, você pode copiar o conteúdo de um comentário e adicioná-lo como uma nova cotação a uma resposta na mesma thread ao usar a nova experiência de comentário.
 
-Para obter mais informações, consulte [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Para obter mais informações, consulte [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). A documentação será atualizada no momento da versão.
 
-Pré-visualização e produção: planejado para 29 de junho de 2023
+Versão de pré-visualização e produção planejada: 29 de junho de 2023
+
+#### Nova interface para registro de tempo
+
+Reprojetamos a interface para registrar tempo da área Atualizações na nova experiência de comentários.
+
+Para obter mais informações, consulte [Registrar tempo](../../../timesheets/create-and-manage-timesheets/log-time.md). A documentação será atualizada no momento da versão.
+
+Lançamento de visualização planejado: 29 de junho de 2023
+
+Versão de produção planejada: com a versão 23.3
 
 #### Adicionar emojis a uma atualização
 
 Agora é possível adicionar emojis a um comentário usando uma opção da barra de ferramentas Rich Text na nova experiência de comentário.
 
-Para obter mais informações, consulte [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Para obter mais informações, consulte [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). A documentação será atualizada no momento da versão.
 
 Pré-visualização: a ser anunciado (durante a versão 23.3)
 
@@ -91,11 +101,11 @@ A nova experiência de comentários estará disponível para os seguintes objeto
 
 Esta será a única experiência de comentários para esses objetos, pois a experiência de comentários herdada é removida quando você os acessa.
 
-Para obter mais informações, consulte [Nova experiência de comentários](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Para obter mais informações, consulte [Nova experiência de comentários](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). A documentação será atualizada no momento da versão.
 
 Versão de pré-visualização: a ser anunciada após a versão de produção 23.3 (20 de julho de 2023)
 
-Versão de produção para clientes da versão rápida: a ser anunciada, após a versão de produção 23.3
+Versão de produção para clientes da versão rápida: a ser anunciada, após a versão 23.3
 
 Versão de produção para todos os clientes: com a versão 23.4
 
