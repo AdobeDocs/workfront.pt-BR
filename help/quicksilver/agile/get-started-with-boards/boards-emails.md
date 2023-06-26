@@ -6,9 +6,9 @@ title: Notificações e preferências de email dos painéis
 description: Os Adobe Workfront Boards enviam um email quando você é adicionado a um quadro e quando um cartão é atribuído a você.
 author: Lisa
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
+source-git-commit: bda865111eacf5df874a09f184db039b5f837765
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '166'
 ht-degree: 1%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 1%
 >[!NOTE]
 >
 >As notificações por email estão disponíveis somente através da opção de inclusão antecipada dos painéis do Workfront.
-
-<span class="preview">Preferências adicionais permitem ativar o modo escuro para todas as placas e fluxos de trabalho.</span>
 
 ## Requisitos de acesso
 
