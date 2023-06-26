@@ -6,7 +6,7 @@ description: O botão Concluído pode definir automaticamente o status de uma ta
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 1%
@@ -22,7 +22,7 @@ A variável [!UICONTROL Concluído] pode definir automaticamente o status de uma
 Os usuários com determinadas permissões podem configurar o [!UICONTROL Concluído] para refletir determinados status no sistema. Existem 3 maneiras diferentes de [!UICONTROL Concluído] botão funciona para problemas no [!DNL Workfront]:
 
 * Se o usuário tiver um atribuído [!UICONTROL Equipe interna], um [!DNL Workfront] administrador ou um usuário com uma [!UICONTROL Plano] a licença pode configurar o [!UICONTROL Concluído] para refletir determinados status para os membros da equipe. Consulte [Configure o [!UICONTROL Concluído] botão para uma Equipe](#configure-the-uicontrol-done-button-for-a-team) neste artigo.
-* Se o usuário não tiver uma [!UICONTROL Equipe interna], mas eles têm[!UICONTROL Outras equipes] em seu perfil, o Workfront procura a configuração da variável [!UICONTROL Concluído] em qualquer equipe associada ao usuário. A seleção é aleatória e o status associado a qualquer uma das equipes é usado para o problema.
+* Se o usuário não tiver uma [!UICONTROL Equipe interna], mas eles têm [!UICONTROL Outras equipes] em seu perfil, o Workfront procura a configuração da variável [!UICONTROL Concluído] em qualquer equipe associada ao usuário. A seleção é aleatória e o status associado a qualquer uma das equipes é usado para o problema.
 * Se o usuário não tiver uma [!UICONTROL Equipe interna] atribuído, o [!UICONTROL Concluído] para problemas está vinculado a um evento gerado pelo sistema [!UICONTROL Resolvido] status que tem o código de três letras [!UICONTROL RLV]. Não há opções de configuração disponíveis neste cenário. A variável [!UICONTROL Concluído] automaticamente assume esse status como padrão.
 * Se a variável [!UICONTROL Resolvido] ([!UICONTROL RLV]) for excluído e o usuário marcar o problema como [!UICONTROL Concluído] não tem [!UICONTROL Equipe interna], o status padrão do problema será vinculado ao que for definido como o padrão para [!UICONTROL Fechado] para o grupo atribuído ao projeto ao qual o problema pertence. O administrador do Workfront pode definir uma configuração padrão em todo o sistema para o grupo. Consulte [Configure o [!UICONTROL Concluído] botão quando a variável [!UICONTROL Resolvido] O status foi excluído](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted) neste artigo.
 
