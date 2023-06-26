@@ -6,16 +6,14 @@ title: Notificações e preferências de email dos painéis
 description: Os Adobe Workfront Boards enviam um email quando você é adicionado a um quadro e quando um cartão é atribuído a você.
 author: Lisa
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: e5e8819db11f39734d9fcada833a2cb808bc88fe
+source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 0%
+source-wordcount: '181'
+ht-degree: 1%
 
 ---
 
 # Notificações e preferências de email dos painéis
-
-{{highlighted-preview}}
 
 [!DNL Adobe Workfront] [!UICONTROL Quadros] O envia um email quando você é adicionado a um quadro e quando um cartão é atribuído a você. As notificações são ativadas por padrão e você pode selecionar em suas preferências de Quadros quais emails deseja receber.
 
@@ -59,19 +57,23 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    As preferências definidas para emails se aplicam a todos os quadros.
 
+<!--
+
 <div class="preview">
 
-## Definir a preferência do modo escuro
+## Set the dark mode preference
 
 >[!NOTE]
 >
->Se a instância do Workfront da sua organização tiver sido integrada à Experiência unificada do Adobe, você poderá ativar a formatação de tema escuro para todo o Adobe Experience Cloud no menu de preferências (a imagem do seu perfil), e não verá uma opção separada de modo escuro para placas Workfront. Para obter mais informações, consulte [Experiência unificada do Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>If your organization's instance of Workfront has been onboarded to the Adobe Unified Experience, you can enable dark theme formatting for all of Adobe Experience Cloud through your preferences menu (your profile picture), and you will not see a separate dark mode option for Workfront Boards. For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 {{step1-to-boards}}
 
-1. Clique em [!UICONTROL **Preferências**] no painel de painéis.
-1. Na área Temas, ative ou desative o modo Escuro.
+1. Click [!UICONTROL **Preferences**] on the boards dashboard.
+1. In the Themes area, enable or disable Dark mode.
 
-   A preferência definida para o modo escuro se aplica a todas as placas, fluxos de trabalho e ao painel.
+   The preference you set for dark mode applies to all of your boards and workstreams, and the dashboard.
 
 </div>
+
+-->
