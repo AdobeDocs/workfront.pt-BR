@@ -3,9 +3,9 @@ title: 23.3 Melhorias na agilidade
 description: 23.3 Melhorias na agilidade
 author: Lisa
 feature: Product Announcements
-source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
+source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ A opção &quot;ordem do usuário&quot; retorna os cartões na ordem em que fora
 
 Para obter mais informações, consulte [Filtrar e pesquisar em um quadro](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3420932/){target=_blank}
+
 ## O modo escuro agora está disponível em placas Adobe Workfront
 
 Agora é possível exibir todas as placas e fluxos de trabalho no modo escuro. A nova configuração está disponível por meio das preferências no painel Quadros.
@@ -54,7 +56,7 @@ Para obter mais informações, consulte [Notificações e preferências de email
 
 Adicionamos a capacidade de adicionar metas a uma iteração, sem precisar listar as metas em um cartão. As metas são adicionadas em um formato de lista de verificação e podem ser marcadas como concluídas. A área de métricas na parte superior direita da iteração mostra quantas metas existem e quantas foram concluídas.
 
-<!--Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.-->
+Além disso, a coluna Próxima iteração agora está disponível nos quadros de iteração. Quando você coloca um cartão nessa coluna, ele é automaticamente carregado para a próxima iteração e não retorna ao backlog. Na próxima iteração, o cartão aparece na coluna que corresponde ao seu status.
 
 Para obter mais informações, consulte [Criar uma iteração em um fluxo de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
