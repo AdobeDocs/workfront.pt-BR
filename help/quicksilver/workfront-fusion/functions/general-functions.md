@@ -4,18 +4,18 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Funções gerais no Adobe Workfront Fusion
-description: As seguintes funções gerais estão disponíveis no painel de mapeamento do Adobe Workfront Fusion.
+description: As seguintes funções gerais estão disponíveis no painel Mapeamento do Adobe Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 2%
+source-wordcount: '299'
+ht-degree: 3%
 
 ---
 
-# Funções gerais em [!DNL Adobe Workfront Fusion]
+# Funções gerais no [!DNL Adobe Workfront Fusion]
 
 ## Requisitos de acesso
 
@@ -34,21 +34,29 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
    <td> <p>[!UICONTROL Plano], [!UICONTROL Trabalho]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para automação e integração de trabalho] </p><p>[!UICONTROL [!DNL Workfront Fusion] para Automação de Trabalho]</p>  </td> 
+   <td role="rowheader">Licença [!UICONTROL Adobe Workfront Fusion]**</td> 
+   <td>
+   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Ou</p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td>Sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</td> 
+   <td>
+   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Ou</p>
+   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL get (objeto ou matriz; path)]
+## [!UICONTROL get (objeto ou matriz; caminho)]
 
 Retorna o caminho do valor de um objeto ou matriz. Para acessar objetos aninhados, use a notação de pontos. O primeiro item em uma matriz é o índice 1.
 
@@ -61,46 +69,43 @@ Retorna o caminho do valor de um objeto ou matriz. Para acessar objetos aninhado
 >* `get( object ; raw_name )`
 >* `get( object ; raw_name.sub_raw_name )`
 
+## [!UICONTROL if (expressão; valor1; valor2)]
 
-## [!UICONTROL if (expressão; valor1; value2)]
-
-Retorna o `value1` se a expressão for avaliada como true; caso contrário, retornará a variável `value2`.
+Retorna a variável `value1` se a expressão for avaliada como verdadeira; caso contrário, retornará a variável `value2`.
 
 >[!INFO]
 >
 >**Exemplos:**
 >
 >* `if( 1 = 1 ; A ; B )`
-   >
-   >    Retorna A
+>
+>    Retorna A
 >
 >* `if( = 2 ; A ; B )`
-   >
-   >   Retorna B
+>
+>   Devoluções B
 
+## [!UICONTROL ifempty (valor1; valor2)]
 
-## [!UICONTROL ifempty (valor1; value2)]
-
-Retorna o `value1` se este valor não estiver vazio; caso contrário, retornará a variável `value2`.
+Retorna a variável `value1` se este valor não estiver vazio; caso contrário, retorna o valor `value2`.
 
 >[!INFO]
 >
 >**Exemplos:**
 >
 >* `ifempty(` `A` `;` `B` )
-   >
-   >   Retorna A
+>
+>   Retorna A
 >
 >* `ifempty(` `unknown` `;` `B` )
-   >
-   >   Retorna B
+>
+>   Devoluções B
 >
 >* `ifempty(` `""` `;` `B` )
-   >
-   >   Retorna B
+>
+>   Devoluções B
 
-
-## [!UICONTROL switch (expressão; valor1; resultado1; [valor2; Resultado2; ...]; [else])]
+## [!UICONTROL opção (expressão; valor1; resultado1; [valor2; resultado2; ...]; [else])]
 
 Avalia um valor (chamado de expressão) em relação a uma lista de valores; retorna o resultado correspondente ao primeiro valor correspondente.
 
@@ -109,20 +114,20 @@ Avalia um valor (chamado de expressão) em relação a uma lista de valores; ret
 >**Exemplos:**
 >
 >* `switch( B ; A ; 1 ; B ; 2 ; C ; 3 )`
-   >
-   >   Retorna 2
+>
+>   Devoluções 2
 >
 >* `switch( C ; A ; 1 ; B ; 2 ; C ; 3 )`
-   >
-   >   Retorna 3
+>
+>   Devoluções 3
 >
 >* `switch( X ; A ; 1 ; B ; 2 ; C ; 3 ; 4 )`
 >
->  Retorna 4
+>  Devoluções 4
 
-## [!UICONTROL omit(object; chave1; [chave2; ...])]
+## [!UICONTROL omit( objeto; chave1; [key2; ...])]
 
-Omite as teclas fornecidas do objeto e retorna o restante.
+Omite as chaves fornecidas do objeto e retorna o restante.
 
 >[!INFO]
 >
@@ -132,9 +137,9 @@ Omite as teclas fornecidas do objeto e retorna o restante.
 >
 >Retorna uma coleção das informações do usuário, excluindo a senha.
 
-## [!UICONTROL select(object; chave1; [chave2; ...])]
+## [!UICONTROL pick( objeto; chave1; [key2; ...])]
 
-Seleciona apenas as teclas fornecidas a partir do objeto.
+Seleciona somente as chaves fornecidas do objeto.
 
 >[!INFO]
 >

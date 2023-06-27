@@ -3,19 +3,19 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: conector
 navigation-topic: connections-annd-webhooks
-title: Connect [!DNL Adobe Workfront Fusion] para [!DNL Google Services] com medidas de segurança atualizadas
-description: A Google introduziu recentemente restrições sobre como os usuários podem usar sua API. Este artigo descreve como se conectar [!DNL Adobe Workfront Fusion] para a Google, contabilizando essas medidas de segurança de atualização.
+title: Conectar [!DNL Adobe Workfront Fusion] para [!DNL Google Services] com medidas de segurança atualizadas
+description: A Google introduziu recentemente restrições sobre como os usuários podem usar sua API. Este artigo descreve como se conectar [!DNL Adobe Workfront Fusion] para o Google, levando em conta essas medidas de segurança de atualização.
 author: Becky
 feature: Workfront Fusion
 exl-id: 32dfef7a-7942-4025-8cb9-055d4e28090b
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
 
-# Connect [!DNL Adobe Workfront Fusion] para [!DNL Google Services] com medidas de segurança atualizadas
+# Conectar [!DNL Adobe Workfront Fusion] para [!DNL Google Services] com medidas de segurança atualizadas
 
 ## Requisitos de acesso
 
@@ -35,28 +35,36 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para automação e integração de trabalho] </p> </td> 
+   <td>
+   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Ou</p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td>Sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</td> 
+   <td>
+   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Ou</p>
+   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!DNL Google Services] restrições
 
-[!DNL Google] introduziu restrições sobre como os usuários podem usar sua API a partir de 1º de junho de 2020. Estas medidas de segurança protegem [!DNL Google] usuários de fugas ou uso indevido de seus dados pessoais em [!DNL Google]. As restrições estão relacionadas com a [!DNL Gmail] e [!DNL Google Drive] aplicativos. Para obter mais informações sobre essas restrições, consulte &quot;Requisitos adicionais para escopos de API específicos&quot; na seção [[!DNL Google] Política de dados do usuário dos serviços de API](https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes)
+[!DNL Google] introdução de restrições sobre como os usuários podem usar sua API a partir de 1º de junho de 2020. Essas medidas de segurança protegem [!DNL Google] utilizadores de dados pessoais provenientes de fugas ou de utilização [!DNL Google]. As restrições estão relacionadas ao [!DNL Gmail] e [!DNL Google Drive] aplicativos. Para obter mais informações sobre essas restrições, consulte &quot;Requisitos adicionais para escopos específicos da API&quot; no [[!DNL Google] Política de Dados do Usuário dos Serviços de API](https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes)
 
-Para acessar escopos restritos, o serviço conectado ([!DNL Adobe Workfront Fusion] ou qualquer outro serviço que deseje acessar os dados do usuário por meio da API) deve ser verificado e deve ter uma Carta de Avaliação para provar que o serviço é seguro e transparente sobre como eles usam os dados. [!DNL Workfront Fusion] cumpre com todas as [!DNL Google]Exigências de acesso aos escopos restritos. No entanto, a maioria dos serviços conectados de terceiros em [!DNL Workfront Fusion] não têm a Carta de Avaliação e, portanto, não estão em conformidade com [!DNL Google] termos. Por causa disso, [!DNL Workfront Fusion] não tem permissão para enviar dados para esses serviços.
+Para acessar escopos restritos, o serviço conectado ([!DNL Adobe Workfront Fusion] ou qualquer outro serviço que deseje acessar os dados do usuário por meio da API) devem ser verificados e devem ter uma Carta de Avaliação para provar que o serviço é seguro e transparente sobre como eles usam os dados. [!DNL Workfront Fusion] está em conformidade com todos [!DNL Google]Requisitos do para acessar escopos restritos. No entanto, a maioria dos serviços conectados de terceiros em [!DNL Workfront Fusion] não possuem a Carta de Avaliação e, portanto, não estão em conformidade com [!DNL Google] termos. Por causa disso, [!DNL Workfront Fusion] O não tem permissão para enviar dados para esses serviços.
 
 ## Exceções a [!DNL Google Services] restrições
 
-Existem algumas exceções que permitem enviar dados para um serviço de terceiros não aprovado que não tem a Carta de Avaliação sem violar qualquer uma das novas restrições. Elas diferem com base em [!DNL G Suite] com o [!DNL Workfront Fusion] cliente OAuth, [!DNL G Suite] com outro cliente OAuth, ou [!DNL @gmail.com] e [!DNL @google.mail.com].
+Há algumas exceções que permitem enviar dados a um serviço de terceiros não aprovado que não tenha a Carta de Avaliação sem violar nenhuma das novas restrições. Eles diferem com base em [!DNL G Suite] com o [!DNL Workfront Fusion] cliente OAuth, [!DNL G Suite] com outro cliente OAuth ou [!DNL @gmail.com] e [!DNL @google.mail.com].
 
 * [[!DNL G suite] com [!DNL Workfront Fusion] Cliente OAuth](#g-suite-with-workfront-fusion-oauth-client)
 * [[!DNL G suite] com outro cliente OAuth](#g-suite-with-another-oauth-client)
@@ -64,47 +72,47 @@ Existem algumas exceções que permitem enviar dados para um serviço de terceir
 
 ### [!DNL G suite] com [!DNL Workfront Fusion] Cliente OAuth
 
-[!DNL Workfront Fusion] usa a variável [!UICONTROL Instalação em todo o domínio] exceção. A Instalação em todo o domínio é adequada para [!DNL G Suite] e permite que os usuários integrem serviços não aprovados sem limitações. Se você for um usuário do G Suite, não precisará executar etapas adicionais e poderá se conectar diretamente a serviços não aprovados.
+[!DNL Workfront Fusion] usa o [!UICONTROL Instalação em todo o domínio] exceção. A instalação em todo o domínio é adequada para [!DNL G Suite] e permite que os usuários integrem serviços não aprovados sem qualquer limitação. Se você for um usuário do G Suite, não precisará executar etapas adicionais e poderá se conectar diretamente a serviços não aprovados.
 
 ### [!DNL G suite] com outro cliente OAuth
 
-[!DNL G Suite] usuários que preferem usar seu próprio cliente OAuth em vez de usar o [!DNL Workfront Fusion] O cliente OAuth pode se conectar a [!DNL Google Services] através da [!UICONTROL Interno] Abordagem de uso. Essa opção destina-se a usuários avançados. Para obter instruções, consulte [Connect [!DNL Adobe Workfront Fusion] para [!DNL Google Services] usando um cliente OAuth personalizado](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
+[!DNL G Suite] usuários que preferem usar seu próprio cliente OAuth em vez de usar o [!DNL Workfront Fusion] O cliente OAuth pode se conectar a [!DNL Google Services] por meio da [!UICONTROL Interno] Use a abordagem. Essa opção destina-se a usuários avançados. Para obter instruções, consulte [Conectar [!DNL Adobe Workfront Fusion] para [!DNL Google Services] uso de um cliente OAuth personalizado](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
 
 ### [!DNL @gmail.com] e [!DNL @googlemail.com] {#gmailcom-and-googlemailcom}
 
-Usuário que acessa [!DNL Google Services] through [!DNL @gmail.com] ou [!DNL @googlemail.com] pode se conectar a [!DNL Google Services] através da abordagem de uso pessoal. Essa opção destina-se a usuários avançados. Para obter instruções, consulte [Connect [!DNL Adobe Workfront Fusion] para [!DNL Google Services] usando um cliente OAuth personalizado](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
+Usuário que acessa [!DNL Google Services] até [!DNL @gmail.com] ou [!DNL @googlemail.com] pode se conectar a [!DNL Google Services] através da abordagem de uso pessoal. Essa opção destina-se a usuários avançados. Para obter instruções, consulte [Conectar [!DNL Adobe Workfront Fusion] para [!DNL Google Services] uso de um cliente OAuth personalizado](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
 
 ## Perguntas frequentes
 
-* [Quais aplicativos são [!DNL Adobe Workfront Fusion] são afetadas?](#what-apps-in-adobe-workfront-fusion-are-affected)
+* [Quais aplicativos estão em [!DNL Adobe Workfront Fusion] são afetados?](#what-apps-in-adobe-workfront-fusion-are-affected)
 * [Tenho uma conta do [!DNL G Suite]?](#do-i-have-a-g-suite-account)
-* [O que devo fazer se eu estiver [!DNL @gmail.com] ou [!DNL @googlemail.com] usuário?](#what-should-i-do-if-im-gmailcom-or-googlemailcom-user)
-* [O que devo fazer se for um usuário do [!DNL G Suite]?](#what-should-i-do-if-im-a-g-suite-user)
+* [O que devo fazer se for [!DNL @gmail.com] ou [!DNL @googlemail.com] usuário?](#what-should-i-do-if-im-gmailcom-or-googlemailcom-user)
+* [O que devo fazer se sou um usuário do [!DNL G Suite]?](#what-should-i-do-if-im-a-g-suite-user)
 
-### Quais aplicativos são [!DNL Adobe Workfront Fusion] são afetadas? {#what-apps-in-adobe-workfront-fusion-are-affected}
+### Quais aplicativos estão em [!DNL Adobe Workfront Fusion] são afetados? {#what-apps-in-adobe-workfront-fusion-are-affected}
 
-[!DNL Google Drive], [!DNL Gmail]e Email (conectado ao [!DNL Gmail] conta).
+[!DNL Google Drive], [!DNL Gmail], e Email (conectado a [!DNL Gmail] conta).
 
 ### Eu tenho um [!DNL G Suite] conta? {#do-i-have-a-g-suite-account}
 
-Se seu endereço de email terminar com [!DNL @gmail.com] ou [!DNL @googlemail.com] sua conta não é [!DNL G Suite] conta. Se o seu [!DNL Google] a conta termina com um domínio personalizado, como @my-company.com , então é uma [!DNL G Suite] conta.
+Se o seu endereço de email terminar com [!DNL @gmail.com] ou [!DNL @googlemail.com] sua conta não é uma [!DNL G Suite] conta. Se o seu [!DNL Google] conta termina com um domínio personalizado, como @my-company.com, então é um [!DNL G Suite] conta.
 
-### O que devo fazer se eu estiver [!DNL @gmail.com] ou [!DNL @googlemail.com] usuário? {#what-should-i-do-if-im-gmailcom-or-googlemailcom-user}
+### O que devo fazer se for [!DNL @gmail.com] ou [!DNL @googlemail.com] usuário? {#what-should-i-do-if-im-gmailcom-or-googlemailcom-user}
 
-Essas novas restrições só se aplicam se você estiver integrando o [!DNL Google Drive] ou [!DNL Gmail]. Se você deseja se conectar ao [!DNL Google Drive] ou [!DNL Gmail], você pode
+Essas novas restrições só se aplicam se você estiver integrando [!DNL Google Drive] ou [!DNL Gmail]. Se quiser se conectar a [!DNL Google Drive] ou [!DNL Gmail], você pode
 
-* Mudar para [!DNL G Suite]
+* Alternar para [!DNL G Suite]
 
-   ou
+  ou
 
 * Crie um cliente OAuth personalizado. Essa opção destina-se a usuários avançados.
 
-   Para obter instruções, consulte [Connect [!DNL Adobe Workfront Fusion] para [!DNL Google Services] usando um cliente OAuth personalizado](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
+  Para obter instruções, consulte [Conectar [!DNL Adobe Workfront Fusion] para [!DNL Google Services] uso de um cliente OAuth personalizado](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
 
-Se quiser integrar qualquer outro serviço que não [!DNL Google Drive] ou [!DNL Gmail], estas restrições não se aplicam.
+Se quiser integrar qualquer serviço diferente do [!DNL Google Drive] ou [!DNL Gmail], essas restrições não se aplicam.
 
-Para obter instruções sobre como conectar outros [!DNL Google Services] para [!DNL Workfront Fusion], consulte [Conecte o aplicativo ou o serviço da Web do módulo ao [!DNL Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md#connect) no artigo [Crie um cenário em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Para obter instruções sobre como conectar outros [!DNL Google Services] para [!DNL Workfront Fusion], consulte [Conecte o aplicativo ou serviço Web do módulo ao [!DNL Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md#connect) no artigo [Criar um cenário no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-### O que devo fazer se eu for um [!DNL G Suite] usuário? {#what-should-i-do-if-im-a-g-suite-user}
+### O que devo fazer se sou um [!DNL G Suite] usuário? {#what-should-i-do-if-im-a-g-suite-user}
 
-Não há ação necessária.
+Não há nenhuma ação necessária.

@@ -5,20 +5,20 @@ product-area: workfront-integrations
 keywords: conector
 navigation-topic: apps-and-their-modules
 title: Módulos do GitHub
-description: Em um [!DNL Adobe Workfront Fusion] você pode automatizar fluxos de trabalho que usam o GitHub, bem como conectá-lo a vários aplicativos e serviços de terceiros.
+description: Em um [!DNL Adobe Workfront Fusion] Nesse cenário, você pode automatizar workflows que usam o GitHub, bem como conectá-lo a vários aplicativos e serviços de terceiros.
 author: Becky
 feature: Workfront Fusion
 exl-id: 5e520aab-8307-4a52-96b6-13b284f9cb53
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: '1844'
 ht-degree: 0%
 
 ---
 
 # [!DNL GitHub] módulos
 
-Em um [!DNL Adobe Workfront Fusion] , é possível automatizar workflows que usam [!UICONTROL GitHub], bem como conectá-lo a vários aplicativos e serviços de terceiros.
+Em um [!DNL Adobe Workfront Fusion] cenário, é possível automatizar workflows que usam [!UICONTROL GitHub], bem como conectá-lo a vários aplicativos e serviços de terceiros.
 
 ## Requisitos de acesso
 
@@ -38,32 +38,40 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para automação e integração de trabalho] </p> </td> 
+   <td>
+   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Ou</p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td>Sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</td> 
+   <td>
+   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Ou</p>
+   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Pré-requisitos
 
-Para usar [!DNL GitHub] módulos, você deve ter um [!DNL GitHub] conta.
+Para usar [!DNL GitHub] módulos, você deve abrir um [!DNL GitHub] conta.
 
-## Connect [!DNL GitHub] para [!DNL Workfront Fusion]
+## Conectar [!DNL GitHub] para [!DNL Workfront Fusion]
 
-Para obter instruções sobre como conectar seu [!DNL GitHub] para [!UICONTROL Workfront Fusion], consulte [Criar uma conexão com [!UICONTROL Adobe Workfront Fusion] - Instruções básicas](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Para obter instruções sobre como conectar seu [!DNL GitHub] conta para [!UICONTROL Workfront Fusion], consulte [Criar uma conexão com o [!UICONTROL Adobe Workfront Fusion] - Instruções básicas](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
-## [!DNL GitHub] e seus campos.
+## [!DNL GitHub] módulos e seus campos.
 
-Ao configurar [!DNL GitHub] módulos, [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, [!DNL GitHub] podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
+Ao configurar [!DNL GitHub] módulos, [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, [!DNL GitHub] Os campos podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
 
-Se o botão de mapa for exibido acima de um campo ou função, é possível usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -72,13 +80,13 @@ Se o botão de mapa for exibido acima de um campo ou função, é possível usá
 
 ### Triggers
 
-* [[!UICONTROL Problemas de monitoramento]](#watch-issues)
-* [[!UICONTROL Monitorar Repositórios]](#watch-repositories)
-* [[!UICONTROL Relógios de Relógio]](#watch-forks)
-* [[!UICONTROL Observar comentários]](#watch-comments)
-* [[!UICONTROL Monitorar solicitações de pull]](#watch-pull-requests)
+* [[!UICONTROL Assistir Problemas]](#watch-issues)
+* [[!UICONTROL Observar repositórios]](#watch-repositories)
+* [[!UICONTROL Bifurcações de relógio]](#watch-forks)
+* [[!UICONTROL Assistir a comentários]](#watch-comments)
+* [[!UICONTROL Observar solicitações de pull]](#watch-pull-requests)
 
-#### [!UICONTROL Problemas de monitoramento]
+#### [!UICONTROL Assistir Problemas]
 
 Esse módulo é acionado quando um novo problema é adicionado ou um problema existente é modificado.
 
@@ -87,179 +95,179 @@ Esse módulo é acionado quando um novo problema é adicionado ou um problema ex
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL I want to watch]</td> 
-   <td>Selecione se deseja assistir a todos os repositórios ou somente a um repositório.</td> 
+   <td role="rowheader">[!UICONTROL que eu quero assistir]</td> 
+   <td>Selecione se deseja observar todos os repositórios ou somente um repositório.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Repository]</td> 
-   <td>Se você optou por assistir a problemas em apenas um repositório, selecione o repositório que deseja observar.</td> 
+   <td role="rowheader">[!UICONTROL Repositório]</td> 
+   <td>Se você optou por observar problemas em apenas um repositório, selecione o repositório que deseja observar.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Número máximo de problemas retornados]</td> 
-   <td>Defina o número máximo de resultados que [!DNL Workfront Fusion] funcionará durante um ciclo. </td> 
+   <td>Defina o número máximo de resultados que [!DNL Workfront Fusion] funcionará com durante um ciclo. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Watch]</td> 
-   <td>Selecione se deseja procurar apenas novos problemas ou novos problemas e todas as alterações.</td> 
+   <td role="rowheader">[!UICONTROL Observar]</td> 
+   <td>Selecione se deseja observar somente novos problemas ou novos problemas e todas as alterações.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Filtro]</td> 
-   <td> <p>Você pode filtrar os problemas que deseja observar por como está associado a eles.</p> 
+   <td> <p>Você pode filtrar os problemas que deseja observar pela maneira como está associado a eles.</p> 
     <ul> 
      <li>[!UICONTROL Todos os problemas]</li> 
      <li>[!UICONTROL Somente problemas atribuídos a mim]</li> 
      <li>[!UICONTROL Somente problemas criados por mim]</li> 
-     <li>[!UICONTROL Apenas problemas mencionando-me]</li> 
-     <li>[!UICONTROL Somente problemas dos quais eu estou inscrito para atualizações]</li> 
+     <li>[!UICONTROL Somente problemas que me mencionam]</li> 
+     <li>[!UICONTROL Somente problemas para os quais me inscrevi para receber atualizações]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Estado]</td> 
-   <td>Selecione se deseja ver apenas problemas em aberto ou somente problemas fechados. </td> 
+   <td>Selecione se você deseja assistir somente a problemas abertos ou somente a problemas fechados. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Rótulos]</td> 
-   <td>Adicione uma tag. O módulo procura problemas com essa tag.</td> 
+   <td>Adicione uma tag. O módulo observa problemas com essa tag.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Monitorar Repositórios]
+#### [!UICONTROL Observar repositórios]
 
-Esse módulo dispara quando um repositório é criado ou modificado.
+Esse módulo é acionado quando um repositório é criado ou modificado.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Número máximo de repositórios retornados]</td> 
-   <td>Defina o número máximo de resultados que [!DNL Workfront Fusion] funcionará durante um ciclo. </td> 
+   <td>Defina o número máximo de resultados que [!DNL Workfront Fusion] funcionará com durante um ciclo. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Watch]</td> 
-   <td>Selecione se deseja procurar novos repositórios e todas as alterações ou apenas novos repositórios.</td> 
+   <td role="rowheader">[!UICONTROL Observar]</td> 
+   <td>Selecione se deseja observar novos repositórios e todas as alterações ou somente novos repositórios.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Relógios de Relógio]
+#### [!UICONTROL Bifurcações de relógio]
 
-Esse módulo dispara quando uma nova bifurcação é criada.
+Este módulo dispara quando uma nova bifurcação é criada.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Repository]</td> 
-   <td>Selecione o repositório que deseja observar para as bifurcações.</td> 
+   <td role="rowheader">[!UICONTROL Repositório]</td> 
+   <td>Selecione o repositório que deseja observar por bifurcações.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Número máximo de bifurcações retornadas]</td> 
-   <td>Defina o número máximo de resultados que [!DNL Workfront Fusion] funcionará durante um ciclo. </td> 
+   <td>Defina o número máximo de resultados que [!DNL Workfront Fusion] funcionará com durante um ciclo. </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Observar comentários]
+#### [!UICONTROL Assistir a comentários]
 
-Esse módulo dispara quando um novo comentário é adicionado ou um comentário existente é modificado.
+Este módulo dispara quando um novo comentário é adicionado ou um comentário existente é modificado.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Repository]</td> 
-   <td>Selecione o repositório que deseja visualizar.</td> 
+   <td role="rowheader">[!UICONTROL Repositório]</td> 
+   <td>Selecione o repositório que deseja observar.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Número do problema]</td> 
-   <td>Se quiser restringir a pesquisa pesquisando apenas novos comentários feitos em um problema específico, insira o número do problema.</td> 
+   <td role="rowheader">[!UICONTROL Número de Problema]</td> 
+   <td>Se quiser restringir a pesquisa apenas pesquisando novos comentários feitos em uma ocorrência específica, informe o número da ocorrência.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Número máximo de problemas retornados]</td> 
-   <td>Defina o número máximo de resultados que [!DNL Workfront Fusion] funcionará durante um ciclo. </td> 
+   <td>Defina o número máximo de resultados que [!DNL Workfront Fusion] funcionará com durante um ciclo. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Watch]</td> 
-   <td>Selecione se deseja procurar apenas novos comentários, comentários e todas as alterações.</td> 
+   <td role="rowheader">[!UICONTROL Observar]</td> 
+   <td>Selecione se deseja observar somente novos comentários ou comentários e todas as alterações.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Monitorar solicitações de pull]
+#### [!UICONTROL Observar solicitações de pull]
 
-Esse módulo dispara quando uma nova solicitação de pull é adicionada ou uma solicitação de pull existente é modificada.
+Este módulo dispara quando uma nova solicitação de pull é adicionada ou uma solicitação de pull existente é modificada.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Repository]</td> 
-   <td>Selecione o repositório que deseja visualizar.</td> 
+   <td role="rowheader">[!UICONTROL Repositório]</td> 
+   <td>Selecione o repositório que deseja observar.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Número máximo de solicitações de pull retornadas]</td> 
-   <td>Defina o número máximo de resultados que [!DNL Workfront Fusion] funcionará durante um ciclo. </td> 
+   <td>Defina o número máximo de resultados que [!DNL Workfront Fusion] funcionará com durante um ciclo. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Estado]</td> 
-   <td>Selecione se deseja assistir a solicitações do [!UICONTROL somente de pull aberto], do [!UICONTROL somente as fechadas] ou de todas as solicitações de pull. </td> 
+   <td>Selecione se deseja observar solicitações [!UICONTROL somente abertura de pull], [!UICONTROL somente fechadas] ou todas as solicitações de pull. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Watch]</td> 
-   <td>Selecione se deseja monitorar apenas novas solicitações de pull, ou novas solicitações de pull e todas as alterações.</td> 
+   <td role="rowheader">[!UICONTROL Observar]</td> 
+   <td>Selecione se deseja observar somente novas solicitações de baixa automática ou novas solicitações de baixa automática e todas as alterações.</td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Ações
 
-* [[!UICONTROL Pesquisar por um problema]](#search-for-an-issue)
+* [[!UICONTROL Procurar um problema]](#search-for-an-issue)
 * [[!UICONTROL Criar um problema]](#create-an-issue)
 * [[!UICONTROL Atualizar um problema]](#update-an-issue)
 * [[!UICONTROL Obter um problema]](#get-an-issue)
-* [[!UICONTROL Adicionar destinatários]](#add-assignees)
-* [[!UICONTROL Remover destinatários]](#remove-assignees)
+* [[!UICONTROL Adicionar responsáveis]](#add-assignees)
+* [[!UICONTROL Remover responsáveis]](#remove-assignees)
 * [[!UICONTROL Adicionar rótulos a um problema]](#add-labels-to-an-issue)
 * [[!UICONTROL Remover um rótulo de um problema]](#remove-a-label-from-an-issue)
 * [[!UICONTROL Criar um comentário]](#create-a-comment)
 * [[!UICONTROL Listar comentários]](#list-comments)
 
-#### [!UICONTROL Pesquisar por um problema]
+#### [!UICONTROL Procurar um problema]
 
-Este módulo pesquisa por problemas que correspondam aos seus critérios de pesquisa.
+Este módulo procura por problemas que correspondam aos seus critérios de busca.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Número máximo de problemas retornados]</td> 
@@ -276,39 +284,39 @@ Este módulo pesquisa por problemas que correspondam aos seus critérios de pesq
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Direção da classificação]</td> 
-   <td> <p>Selecione crescente ou decrescente. </p> <p>Para datas, selecione <strong>[!UICONTROL decrescente]</strong> retornará a data mais recente primeiro. </p> <p>Para [!UICONTROL número de comentários], selecionando <strong>[!UICONTROL decrescente]</strong> O retornará o problema com o maior número de comentários primeiro.</p> </td> 
+   <td role="rowheader">[!UICONTROL Direção de classificação]</td> 
+   <td> <p>Selecione crescente ou decrescente. </p> <p>Para datas, seleção <strong>[!UICONTROL em ordem decrescente]</strong> retornará a data mais recente primeiro. </p> <p>Para [!UICONTROL número de comentários], selecione <strong>[!UICONTROL em ordem decrescente]</strong> retornará o problema com o maior número de comentários primeiro.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Consulta]</td> 
-   <td>Insira ou mapeie sua consulta de pesquisa. Para obter uma descrição detalhada das opções de pesquisa, consulte <a href="https://docs.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests">Pesquisar problemas e obter solicitações</a> no [!DNL GitHub] site de ajuda.</td> 
+   <td>Insira ou mapeie a consulta de pesquisa. Para obter uma descrição detalhada das opções de pesquisa, consulte <a href="https://docs.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests">Pesquisando problemas e pull requests</a> no [!DNL GitHub] site de ajuda.</td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Criar um problema]
 
-Esse módulo cria um novo problema no repositório selecionado.
+Este módulo cria um novo problema no repositório selecionado.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Repository]</td> 
+   <td role="rowheader">[!UICONTROL Repositório]</td> 
    <td>Selecione o repositório no qual deseja criar um problema.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Destinatário]</td> 
-   <td>Selecione as pessoas que deseja atribuir ao problema. Os destinatários disponíveis incluem qualquer pessoa com permissões de gravação no repositório e membros da organização com permissões de leitura no repositório. </td> 
+   <td role="rowheader">[!UICONTROL Atribuído]</td> 
+   <td>Selecione as pessoas que você deseja atribuir à ocorrência. Os designados disponíveis incluem qualquer pessoa com permissões de gravação no repositório e membros da organização com permissões de leitura no repositório. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Marco]</td> 
-   <td>Selecione o marco que deseja associar à nova edição. </td> 
+   <td role="rowheader">[!UICONTROL Etapa]</td> 
+   <td>Selecione a etapa que você deseja associar à nova ocorrência. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Rótulos]</td> 
@@ -316,7 +324,7 @@ Esse módulo cria um novo problema no repositório selecionado.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Título]</td> 
-   <td>Insira ou mapeie um título para a nova ocorrência.</td> 
+   <td>Insira ou mapeie um título para o novo problema.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Corpo]</td> 
@@ -327,27 +335,27 @@ Esse módulo cria um novo problema no repositório selecionado.
 
 #### [!UICONTROL Atualizar um problema]
 
-Esse módulo atualiza um [!DNL GitHub] problema.
+Este módulo atualiza um existente [!DNL GitHub] problema.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Repository]</td> 
+   <td role="rowheader">[!UICONTROL Repositório]</td> 
    <td>Selecione o repositório no qual deseja atualizar um problema.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Destinatário]</td> 
-   <td>Selecione as pessoas que deseja atribuir ao problema. Os destinatários disponíveis incluem qualquer pessoa com permissões de gravação no repositório e membros da organização com permissões de leitura no repositório. </td> 
+   <td role="rowheader">[!UICONTROL Atribuído]</td> 
+   <td>Selecione as pessoas que você deseja atribuir à ocorrência. Os designados disponíveis incluem qualquer pessoa com permissões de gravação no repositório e membros da organização com permissões de leitura no repositório. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Marco]</td> 
-   <td>Selecione o marco que deseja associar ao problema. </td> 
+   <td role="rowheader">[!UICONTROL Etapa]</td> 
+   <td>Selecione a etapa que você deseja associar à ocorrência. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Rótulos]</td> 
@@ -355,11 +363,11 @@ Esse módulo atualiza um [!DNL GitHub] problema.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Número]</td> 
-   <td>Insira ou mapeie o número do problema que deseja atualizar. </td> 
+   <td>Insira ou mapeie o número do problema que você deseja atualizar. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Estado]</td> 
-   <td>Selecione o estado para o qual deseja atualizar o problema.</td> 
+   <td>Selecione o estado para o qual você deseja atualizar o problema.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Título]</td> 
@@ -374,95 +382,95 @@ Esse módulo atualiza um [!DNL GitHub] problema.
 
 #### [!UICONTROL Obter um problema]
 
-Esse módulo recupera detalhes sobre o problema especificado
+Este módulo recupera detalhes sobre o problema especificado
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Repository]</td> 
-   <td>Selecione o repositório que contém o problema sobre o qual você deseja recuperar detalhes.</td> 
+   <td role="rowheader">[!UICONTROL Repositório]</td> 
+   <td>Selecione o repositório que contém o problema sobre o qual deseja recuperar detalhes.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Número]</td> 
-   <td>Insira ou mapeie o número do problema sobre o qual deseja recuperar detalhes. </td> 
+   <td>Insira ou mapeie o número do problema sobre o qual você deseja recuperar detalhes. </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Adicionar destinatários]
+#### [!UICONTROL Adicionar responsáveis]
 
-Esse módulo adiciona destinatários ao problema especificado
+Este módulo adiciona responsáveis ao problema especificado
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Repository]</td> 
-   <td>Selecione o repositório que contém o problema ao qual deseja adicionar destinatários.</td> 
+   <td role="rowheader">[!UICONTROL Repositório]</td> 
+   <td>Selecione o repositório que contém o problema ao qual você deseja adicionar atribuídos.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Destinatário]</td> 
-   <td>Selecione as pessoas que deseja atribuir ao problema. Os destinatários disponíveis incluem qualquer pessoa com permissões de gravação no repositório e membros da organização com permissões de leitura no repositório. </td> 
+   <td role="rowheader">[!UICONTROL Atribuído]</td> 
+   <td>Selecione as pessoas que você deseja atribuir à ocorrência. Os designados disponíveis incluem qualquer pessoa com permissões de gravação no repositório e membros da organização com permissões de leitura no repositório. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Número]</td> 
-   <td>Insira ou mapeie o número da ocorrência do problema ao qual deseja adicionar os destinatários. </td> 
+   <td>Insira ou mapeie o número do problema ao qual você deseja adicionar atribuídos. </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Remover destinatários]
+#### [!UICONTROL Remover responsáveis]
 
-Esse módulo remove os destinatários do problema especificado.
+Este módulo remove os atribuídos do problema especificado.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Repository]</td> 
-   <td>Selecione o repositório que contém o problema do qual deseja remover os destinatários.</td> 
+   <td role="rowheader">[!UICONTROL Repositório]</td> 
+   <td>Selecione o repositório que contém o problema do qual você deseja remover os atribuídos.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Destinatário]</td> 
-   <td>Selecione as pessoas que deseja remover do problema. </td> 
+   <td role="rowheader">[!UICONTROL Atribuído]</td> 
+   <td>Selecione as pessoas que você deseja remover do problema. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Número]</td> 
-   <td>Insira ou mapeie o número do problema do qual deseja remover os destinatários. </td> 
+   <td>Informe ou mapeie o número do problema do qual deseja remover os designados. </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Adicionar rótulos a um problema]
 
-Esse módulo adiciona rótulos a um problema. Rótulos são definidos no nível do repositório e só podem ser criados por alguém com acesso de gravação ao repositório.
+Este módulo adiciona rótulos a um problema. Os rótulos são definidos no nível do repositório e só podem ser criados por alguém com acesso de gravação ao repositório.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Repository]</td> 
+   <td role="rowheader">[!UICONTROL Repositório]</td> 
    <td>Selecione o repositório que contém o problema ao qual deseja adicionar rótulos.</td> 
   </tr> 
   <tr> 
@@ -478,19 +486,19 @@ Esse módulo adiciona rótulos a um problema. Rótulos são definidos no nível 
 
 #### [!UICONTROL Remover um rótulo de um problema]
 
-Esse módulo remove um único rótulo de um problema.
+Este módulo remove um único rótulo de um problema.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Repository]</td> 
-   <td>Selecione o repositório que contém o problema do qual você deseja remover um rótulo.</td> 
+   <td role="rowheader">[!UICONTROL Repositório]</td> 
+   <td>Selecione o repositório que contém o problema do qual deseja remover um rótulo.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Rótulos]</td> 
@@ -505,23 +513,23 @@ Esse módulo remove um único rótulo de um problema.
 
 #### [!UICONTROL Criar um comentário]
 
-Esse módulo cria um comentário sobre o problema especificado.
+Este módulo cria um comentário sobre o problema especificado.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Repository]</td> 
+   <td role="rowheader">[!UICONTROL Repositório]</td> 
    <td>Selecione o repositório que contém o problema no qual deseja criar um comentário.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Número]</td> 
-   <td>Insira ou mapeie o número da ocorrência do problema em que deseja criar um comentário.</td> 
+   <td>Insira ou mapeie o número do problema no qual deseja criar um comentário.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Corpo]</td> 
@@ -532,31 +540,31 @@ Esse módulo cria um comentário sobre o problema especificado.
 
 #### [!UICONTROL Listar comentários]
 
-Esse módulo lista todos os comentários sobre o problema especificado.
+Este módulo lista todos os comentários sobre o problema especificado.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL GitHub] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Repository]</td> 
+   <td role="rowheader">[!UICONTROL Repositório]</td> 
    <td>Selecione o repositório que contém o problema do qual deseja listar comentários.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Número]</td> 
-   <td>Insira ou mapeie o número do problema do qual deseja listar comentários.</td> 
+   <td>Insira ou mapeie o número da ocorrência da qual deseja listar comentários.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Since]</td> 
-   <td>O módulo retornará comentários criados após essa data. Para obter uma lista de formatos de data compatíveis, consulte <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Coação de tipo em [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td role="rowheader">[!UICONTROL Desde]</td> 
+   <td>O módulo retornará comentários criados após essa data. Para obter uma lista de formatos de data compatíveis, consulte <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Coerção de tipo em [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Número máximo de comentários retornados]</td> 
-   <td>Defina o número máximo de resultados que [!DNL Workfront Fusion] funcionará durante um ciclo. </td> 
+   <td>Defina o número máximo de resultados que [!DNL Workfront Fusion] funcionará com durante um ciclo. </td> 
   </tr> 
  </tbody> 
 </table>

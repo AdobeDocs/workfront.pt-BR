@@ -1,24 +1,24 @@
 ---
-title: Módulos de MariaDB
-description: Em um [!DNL Adobe Workfront Fusion] , é possível automatizar workflows que usam [!DNL MariaDB], bem como conectá-lo a vários aplicativos e serviços de terceiros.
+title: Módulos do MariaDB
+description: Em um [!DNL Adobe Workfront Fusion] cenário, é possível automatizar workflows que usam [!DNL MariaDB], bem como conectá-lo a vários aplicativos e serviços de terceiros.
 author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 45d4d7fe-a70c-4906-adb4-f913a870fe47
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '593'
 ht-degree: 1%
 
 ---
 
 # [!DNL MariaDB] módulos
 
-Em um [!DNL Adobe Workfront Fusion] , é possível automatizar workflows que usam [!DNL MariaDB], bem como conectá-lo a vários aplicativos e serviços de terceiros.
+Em um [!DNL Adobe Workfront Fusion] cenário, é possível automatizar workflows que usam [!DNL MariaDB], bem como conectá-lo a vários aplicativos e serviços de terceiros.
 
-Se precisar de instruções para criar um cenário, consulte [Crie um cenário em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Se precisar de instruções sobre como criar um cenário, consulte [Criar um cenário no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Para obter informações sobre módulos, consulte [Módulos em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Para obter informações sobre módulos, consulte [Módulos no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Requisitos de acesso
 
@@ -38,28 +38,36 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para automação e integração de trabalho] </p> </td> 
+   <td>
+   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Ou</p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td>Sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</td> 
+   <td>
+   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Ou</p>
+   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Pré-requisitos
 
-Para usar [!DNL MariaDB] módulos, você deve ter um [!DNL MariaDB] conta.
+Para usar [!DNL MariaDB] módulos, você deve ter uma [!DNL MariaDB] conta.
 
-## Connect [!DNL MariaDB] para [!DNL Workfront Fusion]
+## Conectar [!DNL MariaDB] para [!DNL Workfront Fusion]
 
-Você pode criar uma conexão com o [!DNL MariaDB] conta diretamente de dentro de uma [!DNL MariaDB] módulo.
+Você pode criar uma conexão com o seu [!DNL MariaDB] conta diretamente de dentro de um [!DNL MariaDB] módulo.
 
-1. Em qualquer [!DNL MariaDB] módulo, clique em **[!UICONTROL Adicionar]** ao lado do [!UICONTROL Conexão] campo.
+1. Em qualquer [!DNL MariaDB] , clique em **[!UICONTROL Adicionar]** ao lado da [!UICONTROL Conexão] campo.
 1. Configure os seguintes campos:
 
    <table style="table-layout:auto"> 
@@ -67,23 +75,23 @@ Você pode criar uma conexão com o [!DNL MariaDB] conta diretamente de dentro d
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL Nome da conexão]</p> </td> 
-      <td> <p>Digite um nome para a nova conexão.</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Nome da Conexão]</p> </td> 
+      <td> <p>Insira um nome para a nova conexão.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Host]</td> 
-      <td> <p>Insira o endereço IP ou o nome do host da instância do banco de dados. Esse host deve ser acessível de fora da sua rede.</p> <p>Exemplo: <code>[!DNL mariadb.hwoh2j5h.us-east-1.rds.amazon.com]</code></p> </td> 
+      <td> <p>Informe o endereço IP ou o nome do host da instância do banco de dados. Esse host deve ser acessível de fora da rede.</p> <p>Exemplo: <code>[!DNL mariadb.hwoh2j5h.us-east-1.rds.amazon.com]</code></p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Port]</td> 
-      <td>A porta padrão é 3306. Se você estiver usando uma porta não padrão, defina esse número como sua porta. </td> 
+      <td role="rowheader">[!UICONTROL Porta]</td> 
+      <td>A porta padrão é 3306. Se você estiver usando uma porta não padrão, defina esse número para sua porta. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Nome do banco de dados]</td> 
-      <td>Insira o nome do banco de dados com o qual deseja interagir.</td> 
+      <td role="rowheader">[!UICONTROL Nome do Banco de Dados]</td> 
+      <td>Insira o nome do banco de dados com o qual você deseja interagir.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Nome de usuário]</td> 
+      <td role="rowheader">[!UICONTROL Nome de Usuário]</td> 
       <td>Entre com seu nome de usuário.</td> 
      </tr> 
      <tr> 
@@ -93,67 +101,67 @@ Você pode criar uma conexão com o [!DNL MariaDB] conta diretamente de dentro d
     </tbody> 
    </table>
 
-1. Clique em **[!UICONTROL Continuar]** para criar a conexão e retornar ao módulo .
+1. Clique em **[!UICONTROL Continuar]** para criar a conexão e voltar ao módulo.
 
 ## [!DNL MariaDB] Módulos e seus campos
 
-Ao configurar [!DNL MariaDB] módulos, [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, [!DNL MariaDB] podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
+Ao configurar [!DNL MariaDB] módulos, [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, [!DNL MariaDB] Os campos podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
 
-Se o botão de mapa for exibido acima de um campo ou função, é possível usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-### Executar um query (avançado)
+### Executar uma consulta (avançado)
 
-Esse módulo de ação recupera informações do banco de dados, com base em uma consulta fornecida.
+Este módulo de ação recupera informações do banco de dados, com base em uma consulta fornecida por você.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Para obter instruções sobre como conectar seu [!DNL MariaDB] para [!DNL Workfront Fusion], consulte <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">Connect [!DNL MariaDB] para [!DNL Workfront Fusion]</a> neste artigo.</td> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td>Para obter instruções sobre como conectar seu [!DNL MariaDB] conta para [!DNL Workfront Fusion], consulte <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">Conectar [!DNL MariaDB] para [!DNL Workfront Fusion]</a> neste artigo.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Consulta]</td> 
-   <td> <p>Insira a consulta SQL que você deseja que o módulo use para recuperar dados.</p> <p>Importante: As variáveis usadas no query não são apagadas. Certifique-se de limpar as variáveis corretamente para evitar a injeção de SQL.</p> </td> 
+   <td> <p>Insira a consulta SQL que você deseja que o módulo use para recuperar dados.</p> <p>Importante: as variáveis usadas na consulta não são limpas. Certifique-se de limpar as variáveis corretamente para impedir a injeção de SQL.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### [!UICONTROL Selecionar linhas de uma tabela (avançado)]
 
-Esse módulo lê o registro do banco de dados.
+Esse módulo lê registros do banco de dados.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Para obter instruções sobre como conectar seu [!DNL MariaDB] para [!DNL Workfront Fusion], consulte <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">Connect [!DNL MariaDB] para [!DNL Workfront Fusion]</a> neste artigo.</td> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td>Para obter instruções sobre como conectar seu [!DNL MariaDB] conta para [!DNL Workfront Fusion], consulte <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">Conectar [!DNL MariaDB] para [!DNL Workfront Fusion]</a> neste artigo.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tabela]</td> 
-   <td> <p>Selecione a tabela que contém os registros que deseja ler.</p> </td> 
+   <td> <p>Selecione a tabela que contém os registros que você deseja ler.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Filtro]</td> 
-   <td> <p>Configure o filtro pelo qual deseja selecionar as linhas</p> 
+   <td> <p>Configure o filtro pelo qual deseja selecionar linhas</p> 
     <ul> 
-     <li> <p>Selecione o campo que deseja pesquisar por</p> </li> 
-     <li> <p>Selecione o operador que pretende utilizar para a pesquisa</p> </li> 
-     <li> <p>Insira ou mapeie o valor que deseja pesquisar.</p> </li> 
+     <li> <p>Selecione o campo pelo qual deseja pesquisar</p> </li> 
+     <li> <p>Selecione o operador que deseja usar na pesquisa</p> </li> 
+     <li> <p>Insira ou mapeie o valor que você deseja pesquisar.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Classificar] </td> 
-   <td> <p>Para cada nível pelo qual você deseja que os resultados sejam classificados, clique em <strong>[!UICONTROL Adicionar item]</strong>, selecione o campo no qual deseja classificar os resultados e se deseja classificar crescente ou decrescente</p> </td> 
+   <td> <p>Para cada nível cujos resultados você deseja classificar, clique em <strong>[!UICONTROL Adicionar item]</strong>, selecione o campo pelo qual deseja classificar os resultados e se deseja classificar em ordem crescente ou decrescente</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limite]</td> 
-   <td> <p>Insira ou mapeie o número máximo de registros que você deseja que o módulo retorne durante cada ciclo de execução de cenário.</p> </td> 
+   <td> <p>Insira ou mapeie o número máximo de registros que deseja que o módulo retorne durante cada ciclo de execução de cenário.</p> </td> 
   </tr> 
  </tbody> 
 </table>

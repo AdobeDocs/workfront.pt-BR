@@ -4,24 +4,24 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Funções da organização em [!DNL Adobe Workfront Fusion]
-description: Este artigo inclui informações sobre o acesso e as permissões das funções em [!DNL Adobe] Workfront Fusion.
+description: Este artigo inclui informações sobre o acesso e as permissões das funções no [!DNL Adobe] Workfront Fusion
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: e58ff769015b8c4e34b34eea653f55a296eea371
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 0%
+source-wordcount: '486'
+ht-degree: 1%
 
 ---
 
 # Funções da organização em [!DNL Adobe Workfront Fusion]
 
-Este artigo descreve o acesso e a funcionalidade disponíveis para as diferentes funções da organização em [!DNL Workfront Fusion].
+Este artigo descreve o acesso e a funcionalidade disponíveis para as diferentes funções da organização no [!DNL Workfront Fusion].
 
 >[!NOTE]
 >
->As funções da organização são separadas das funções da equipe em [!DNL Workfront Fusion]. Para obter mais informações sobre funções da equipe, consulte [Funções da Equipe](../organizations/organizations-and-teams.md#team-roles-team-roles).
+>As funções da organização são separadas das funções da equipe no [!DNL Workfront Fusion]. Para obter mais informações sobre funções de equipe, consulte [Funções da equipe](../organizations/organizations-and-teams.md#team-roles-team-roles).
 
 ## Requisitos de acesso
 
@@ -44,12 +44,20 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
     <td> <p>[!UICONTROL Plano], [!UICONTROL Trabalho]</p> </td> 
    </tr>
    <tr> 
-   <td role="rowheader">Licença da [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>Workfront Fusion para Automação e Integração do Trabalho,</p>  </td> 
+   <td role="rowheader">Licença [!UICONTROL Adobe Workfront Fusion]**</td> 
+   <td>
+   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Ou</p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho], [!UICONTROL [!DNL Workfront Fusion] para automação de trabalho]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td>Sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</td> 
+   <td>
+   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Ou</p>
+   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
@@ -61,7 +69,7 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
  </tbody> 
 </table>
 
-Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -184,7 +192,7 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Procurar histórico de execução do cenário</p> </td> 
+   <td> <p style="text-align: left;">Procurar histórico de execução de cenário</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
@@ -212,7 +220,7 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Editar programador de cenário</p> </td> 
+   <td> <p style="text-align: left;">Editar agendador de cenários</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
@@ -240,7 +248,7 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Visualizar cenários</p> </td> 
+   <td> <p style="text-align: left;">Exibir cenários</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
@@ -275,7 +283,7 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Eliminar ligações</p> </td> 
+   <td> <p style="text-align: left;">Excluir conexões</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
@@ -347,7 +355,7 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
  </tbody> 
 </table>
 
-## Repositórios de dados
+## Armazenamentos de dados
 
 <table style="table-layout:auto"> 
  <col> 
@@ -501,7 +509,7 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
  </tbody> 
 </table>
 
-## Teclas
+## Chaves
 
 <table style="table-layout:auto">
  <col> 
@@ -527,7 +535,7 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Excluir teclas</p> </td> 
+   <td> <p style="text-align: left;">Excluir chaves</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
@@ -541,7 +549,7 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Chaves de lista</p> </td> 
+   <td> <p style="text-align: left;">Listar chaves</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 

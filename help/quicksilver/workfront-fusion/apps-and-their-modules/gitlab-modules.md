@@ -6,12 +6,12 @@ product-area: workfront-integrations
 keywords: conector
 navigation-topic: apps-and-their-modules
 title: Módulos do GitLab
-description: O Adobe Workfront Fusion exige uma licença do Adobe Workfront Fusion além de uma licença da Adobe Workfront.
+description: O Adobe Workfront Fusion exige uma licença do Adobe Workfront Fusion, além de uma licença do Adobe Workfront.
 author: Becky
 exl-id: bf6c1d82-7926-4bf9-8424-e658650ee6b1
-source-git-commit: d55ddd97a69f00a1f42d84dc55a12d2017855776
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '4370'
+source-wordcount: '4485'
 ht-degree: 0%
 
 ---
@@ -19,21 +19,60 @@ ht-degree: 0%
 
 # [!UICONTROL GitLab] módulos
 
-O Adobe Workfront Fusion exige uma licença do Adobe Workfront Fusion além de uma licença da Adobe Workfront.
+O Adobe Workfront Fusion exige uma licença do Adobe Workfront Fusion, além de uma licença do Adobe Workfront.
 
-Em um [!DNL Adobe Workfront Fusion] , é possível automatizar workflows que usam [!UICONTROL GitLab], bem como conectá-lo a vários aplicativos e serviços de terceiros.
+Em um [!DNL Adobe Workfront Fusion] cenário, é possível automatizar workflows que usam [!UICONTROL GitLab], bem como conectá-lo a vários aplicativos e serviços de terceiros.
 
 >[!NOTE]
 >
->Este artigo espera alguma familiaridade com a documentação da API e do [!DNL GitLab] em geral.
+>Este artigo espera alguma familiaridade com a documentação da API e de [!DNL GitLab] funcionalidade em geral.
 
-Se precisar de instruções para criar um cenário, consulte [Crie um cenário em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Se precisar de instruções sobre como criar um cenário, consulte [Criar um cenário no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Para obter informações sobre módulos, consulte [Módulos em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Para obter informações sobre módulos, consulte [Módulos no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
-## Connect [!DNL GitLab] para [!DNL Workfront Fusion] {#connect-gitlab-to-workfront-fusion}
+## Requisitos de acesso
 
-1. Em qualquer [!DNL Workfront Fusion] [!DNL Gitlab] módulo, clique em **[!UICONTROL Adicionar]** ao lado do campo de conexão.
+Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano*</td>
+  <td> <p>[!UICONTROL Pro] ou superior</p> </td>
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença*</td>
+   <td> <p>[!UICONTROL Plano], [!UICONTROL Trabalho]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
+   <td>
+   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Ou</p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Produto</td> 
+   <td>
+   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Ou</p>
+   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+
+Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Conectar [!DNL GitLab] para [!DNL Workfront Fusion] {#connect-gitlab-to-workfront-fusion}
+
+1. Em qualquer [!DNL Workfront Fusion] [!DNL Gitlab] , clique em **[!UICONTROL Adicionar]** ao lado do campo de conexão.
 1. Configure os seguintes campos:
 
    <table style="table-layout:auto"> 
@@ -41,16 +80,16 @@ Para obter informações sobre módulos, consulte [Módulos em [!DNL Adobe Workf
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Nome da conexão]</td> 
-      <td> <p>Digite um nome para a conexão.</p> </td> 
+      <td role="rowheader">[!UICONTROL Nome da Conexão]</td> 
+      <td> <p>Insira um nome para a conexão.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL [!DNL GitLab] URL]</td> 
       <td>Insira o URL do [!DNL GitLab] instância.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Access Token]</td> 
-      <td><p>Insira seu [!UICONTROL Private Token] ou [!UICONTROL Personal Access Token].</p><p>Para obter informações sobre como localizar ou criar um token de acesso pessoal em [!DNL GitLab], consulte "Criar um token de acesso pessoal" em <a href="https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html">Tokens de acesso pessoais</a> no [!DNL GitLab] documentação.</p></td> 
+      <td role="rowheader">[!UICONTROL Token de Acesso]</td> 
+      <td><p>Digite o [!UICONTROL Token privado] ou o [!UICONTROL Token de acesso pessoal].</p><p>Para obter informações sobre como localizar ou criar um token de acesso pessoal no [!DNL GitLab], consulte "Criar um token de acesso pessoal" em <a href="https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html">Tokens de acesso pessoal</a> no [!DNL GitLab] documentação.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -61,17 +100,17 @@ Para obter informações sobre módulos, consulte [Módulos em [!DNL Adobe Workf
 
 ## [!DNL GitLab] módulos e seus campos
 
-Ao configurar [!DNL GitLab] módulos, [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, [!DNL GitLab] podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
+Ao configurar [!DNL GitLab] módulos, [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, [!DNL GitLab] Os campos podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
 
-Se o botão de mapa for exibido acima de um campo ou função, é possível usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
 ### Triggers
 
-+++**[!UICONTROL Monitorar o status de criação]**
++++**[!UICONTROL Observar o status da compilação]**
 
-Esse módulo de acionador instantâneo inicia um cenário quando o status de uma build é alterado.
+Esse módulo de acionador instantâneo inicia um cenário quando o status de uma criação é alterado.
 
 <table style="table-layout:auto"> 
    <col> 
@@ -79,14 +118,14 @@ Esse módulo de acionador instantâneo inicia um cenário quando o status de uma
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Selecione o webhook que deseja usar para este acionador ou adicione um novo webhook. </p><p>Para adicionar um novo webhook, <ol><li>Clique em <b>[!UICONTROL Adicionar]</b> ao lado do campo [!UICONTROL webhook] .</li><li>Insira o seguinte: <ul><li>Um nome para o webhook</li><li>A conexão que você deseja usar para este webhook</li><li>O projeto que você deseja que o webhook monitore para ver as alterações de status da criação</li></ul></li><li>Clique em <b>[!UICONTROL Salvar]</b> para salvar o webhook e retornar ao módulo . </td> 
+   <td><p>Selecione o webhook que deseja usar para este acionador ou adicione um novo webhook. </p><p>Para adicionar um novo webhook, <ol><li>Clique em <b>[!UICONTROL Adicionar]</b> ao lado do campo [!UICONTROL webhook].</li><li>Insira o seguinte: <ul><li>Um nome para o webhook</li><li>A conexão que você deseja usar com este webhook</li><li>O projeto que você deseja que o webhook observe para alterações de status da compilação</li></ul></li><li>Clique em <b>[!UICONTROL Salvar]</b> para salvar o webhook e retornar ao módulo. </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL Assista aos comentários de commit/MR/issue/snippet]**
++++**[!UICONTROL Assista a comentários de confirmação/MR/problema/trecho]**
 
 Esse módulo de acionador instantâneo inicia um cenário quando um comentário é feito em uma confirmação, solicitação de mesclagem, problema ou trecho de código.
 
@@ -96,14 +135,14 @@ Esse módulo de acionador instantâneo inicia um cenário quando um comentário 
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Selecione o webhook que deseja usar para este acionador ou adicione um novo webhook. </p><p>Para adicionar um novo webhook, <ol><li>Clique em <b>[!UICONTROL Adicionar]</b> ao lado do campo [!UICONTROL webhook] .</li><li>Insira o seguinte: <ul><li>Um nome para o webhook</li><li>A conexão que você deseja usar para este webhook</li><li>O projeto que você deseja que o webhook assista para comentários</li></ul></li><li>Clique em <b>[!UICONTROL Salvar]</b> para salvar o webhook e retornar ao módulo . </td> 
+   <td><p>Selecione o webhook que deseja usar para este acionador ou adicione um novo webhook. </p><p>Para adicionar um novo webhook, <ol><li>Clique em <b>[!UICONTROL Adicionar]</b> ao lado do campo [!UICONTROL webhook].</li><li>Insira o seguinte: <ul><li>Um nome para o webhook</li><li>A conexão que você deseja usar com este webhook</li><li>O projeto que você deseja que o webhook assista para comentários</li></ul></li><li>Clique em <b>[!UICONTROL Salvar]</b> para salvar o webhook e retornar ao módulo. </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL Observar compromissos (empurra)]**
++++**[!UICONTROL Observar confirmações (envios por push)]**
 
 Esse módulo de acionador instantâneo inicia um cenário quando uma confirmação é enviada para um repositório. Esse módulo não inicia um cenário quando uma tag é enviada.
 
@@ -113,16 +152,16 @@ Esse módulo de acionador instantâneo inicia um cenário quando uma confirmaç�
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Selecione o webhook que deseja usar para este acionador ou adicione um novo webhook. </p><p>Para adicionar um novo webhook, <ol><li>Clique em <b>[!UICONTROL Adicionar]</b> ao lado do campo [!UICONTROL webhook] .</li><li>Insira o seguinte: <ul><li>Um nome para o webhook</li><li>A conexão que você deseja usar para este webhook</li><li>O projeto que você deseja que o webhook observe para confirmar</li></ul></li><li>Clique em <b>[!UICONTROL Salvar]</b> para salvar o webhook e retornar ao módulo . </td> 
+   <td><p>Selecione o webhook que deseja usar para este acionador ou adicione um novo webhook. </p><p>Para adicionar um novo webhook, <ol><li>Clique em <b>[!UICONTROL Adicionar]</b> ao lado do campo [!UICONTROL webhook].</li><li>Insira o seguinte: <ul><li>Um nome para o webhook</li><li>A conexão que você deseja usar com este webhook</li><li>O projeto que você deseja que o webhook assista para confirmações</li></ul></li><li>Clique em <b>[!UICONTROL Salvar]</b> para salvar o webhook e retornar ao módulo. </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL Observar comentário da edição]**
++++**[!UICONTROL Assistir ao comentário sobre o problema]**
 
-Esse módulo de acionador instantâneo inicia um cenário quando um comentário é feito em um problema.
+Este módulo de acionamento instantâneo inicia um cenário quando um comentário é feito sobre um problema.
 
 <table style="table-layout:auto"> 
    <col> 
@@ -130,16 +169,16 @@ Esse módulo de acionador instantâneo inicia um cenário quando um comentário 
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Selecione o webhook que deseja usar para este acionador ou adicione um novo webhook. </p><p>Para adicionar um novo webhook, <ol><li>Clique em <b>[!UICONTROL Adicionar]</b> ao lado do campo [!UICONTROL webhook] .</li><li>Insira o seguinte: <ul><li>Um nome para o webhook</li><li>A conexão que você deseja usar para este webhook</li><li>O projeto que você deseja que o webhook assista para comentários de problemas</li></ul></li><li>Clique em <b>[!UICONTROL Salvar]</b> para salvar o webhook e retornar ao módulo . </td> 
+   <td><p>Selecione o webhook que deseja usar para este acionador ou adicione um novo webhook. </p><p>Para adicionar um novo webhook, <ol><li>Clique em <b>[!UICONTROL Adicionar]</b> ao lado do campo [!UICONTROL webhook].</li><li>Insira o seguinte: <ul><li>Um nome para o webhook</li><li>A conexão que você deseja usar com este webhook</li><li>O projeto que você deseja que o webhook assista para comentários do problema</li></ul></li><li>Clique em <b>[!UICONTROL Salvar]</b> para salvar o webhook e retornar ao módulo. </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL Problemas de observação]**
++++**[!UICONTROL Assistir a problemas]**
 
-Essa [!UICONTROL acionador instantâneo] O módulo inicia um cenário quando um problema é criado ou quando um problema existente é atualizado, fechado ou reaberto.
+Este [!UICONTROL acionador instantâneo] O módulo inicia um cenário quando um problema é criado ou quando um problema existente é atualizado, fechado ou reaberto.
 
 <table style="table-layout:auto"> 
    <col> 
@@ -147,19 +186,19 @@ Essa [!UICONTROL acionador instantâneo] O módulo inicia um cenário quando um 
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Selecione o webhook que deseja usar para este acionador ou adicione um novo webhook. </p><p>Para adicionar um novo webhook, <ol><li>Clique em <b>[!UICONTROL Adicionar]</b> ao lado do campo [!UICONTROL webhook] .</li><li>Insira o seguinte: <ul><li>Um nome para o webhook</li><li>A conexão que você deseja usar para este webhook</li><li>O projeto que você deseja que o webhook observe para solucionar problemas</li></ul></li><li>Clique em <b>[!UICONTROL Salvar]</b> para salvar o webhook e retornar ao módulo . </td> 
+   <td><p>Selecione o webhook que deseja usar para este acionador ou adicione um novo webhook. </p><p>Para adicionar um novo webhook, <ol><li>Clique em <b>[!UICONTROL Adicionar]</b> ao lado do campo [!UICONTROL webhook].</li><li>Insira o seguinte: <ul><li>Um nome para o webhook</li><li>A conexão que você deseja usar com este webhook</li><li>O projeto que você deseja que o webhook observe para problemas</li></ul></li><li>Clique em <b>[!UICONTROL Salvar]</b> para salvar o webhook e retornar ao módulo. </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL Assista às solicitações de mesclagem]**
++++**[!UICONTROL Assistir solicitações de mesclagem]**
 
-Esse módulo de acionador instantâneo inicia um cenário quando um dos seguintes ocorre:
+Esse módulo de acionador instantâneo inicia um cenário quando uma das situações a seguir ocorre:
 
 * Uma nova solicitação de mesclagem é criada
-* Uma solicitação de mesclagem existente é atualizada, mesclada ou fechada
+* Uma solicitação de mesclagem existente foi atualizada, mesclada ou fechada
 * Uma confirmação é adicionada na ramificação de origem
 
 
@@ -169,16 +208,16 @@ Esse módulo de acionador instantâneo inicia um cenário quando um dos seguinte
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Selecione o webhook que deseja usar para este acionador ou adicione um novo webhook. </p><p>Para adicionar um novo webhook, <ol><li>Clique em <b>[!UICONTROL Adicionar]</b> ao lado do campo [!UICONTROL webhook] .</li><li>Insira o seguinte: <ul><li>Um nome para o webhook</li><li>A conexão que você deseja usar para este webhook</li><li>O projeto que você deseja que o webhook observe para solicitações de mesclagem</li></ul></li><li>Clique em <b>[!UICONTROL Salvar]</b> para salvar o webhook e retornar ao módulo . </td> 
+   <td><p>Selecione o webhook que deseja usar para este acionador ou adicione um novo webhook. </p><p>Para adicionar um novo webhook, <ol><li>Clique em <b>[!UICONTROL Adicionar]</b> ao lado do campo [!UICONTROL webhook].</li><li>Insira o seguinte: <ul><li>Um nome para o webhook</li><li>A conexão que você deseja usar com este webhook</li><li>O projeto que você deseja que o webhook assista para solicitações de mesclagem</li></ul></li><li>Clique em <b>[!UICONTROL Salvar]</b> para salvar o webhook e retornar ao módulo. </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL Observar comentários de solicitação de mesclagem]**
++++**[!UICONTROL Observar comentários da solicitação de mesclagem]**
 
-Esse módulo de acionador instantâneo inicia um cenário quando um comentário é feito em uma solicitação de mesclagem.
+Este módulo de acionamento instantâneo inicia um cenário quando um comentário é feito em uma solicitação de mesclagem.
 
 <table style="table-layout:auto"> 
    <col> 
@@ -186,16 +225,16 @@ Esse módulo de acionador instantâneo inicia um cenário quando um comentário 
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Selecione o webhook que deseja usar para este acionador ou adicione um novo webhook. </p><p>Para adicionar um novo webhook, <ol><li>Clique em <b>[!UICONTROL Adicionar]</b> ao lado do campo [!UICONTROL webhook] .</li><li>Insira o seguinte: <ul><li>Um nome para o webhook</li><li>A conexão que você deseja usar para este webhook</li><li>O projeto que você deseja que o webhook assista para obter comentários de solicitação de mesclagem</li></ul></li><li>Clique em <b>[!UICONTROL Salvar]</b> para salvar o webhook e retornar ao módulo . </td> 
+   <td><p>Selecione o webhook que deseja usar para este acionador ou adicione um novo webhook. </p><p>Para adicionar um novo webhook, <ol><li>Clique em <b>[!UICONTROL Adicionar]</b> ao lado do campo [!UICONTROL webhook].</li><li>Insira o seguinte: <ul><li>Um nome para o webhook</li><li>A conexão que você deseja usar com este webhook</li><li>O projeto que você deseja que o webhook assista para comentários de solicitação de mesclagem</li></ul></li><li>Clique em <b>[!UICONTROL Salvar]</b> para salvar o webhook e retornar ao módulo. </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL Monitorar o status do pipeline]**
++++**[!UICONTROL Observar o status do pipeline]**
 
-Esse módulo de acionador instantâneo inicia um cenário quando o status de um pipeline muda.
+Esse módulo de acionador instantâneo inicia um cenário quando o status de um pipeline é alterado.
 
 <table style="table-layout:auto"> 
    <col> 
@@ -203,24 +242,24 @@ Esse módulo de acionador instantâneo inicia um cenário quando o status de um 
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Selecione o webhook que deseja usar para este acionador ou adicione um novo webhook. </p><p>Para adicionar um novo webhook, <ol><li>Clique em <b>[!UICONTROL Adicionar]</b> ao lado do campo [!UICONTROL webhook] .</li><li>Insira o seguinte: <ul><li>Um nome para o webhook</li><li>A conexão que você deseja usar para este webhook</li><li>O projeto que você deseja que o webhook monitore para ver as alterações de status do pipeline</li></ul></li><li>Clique em <b>[!UICONTROL Salvar]</b> para salvar o webhook e retornar ao módulo . </td> 
+   <td><p>Selecione o webhook que deseja usar para este acionador ou adicione um novo webhook. </p><p>Para adicionar um novo webhook, <ol><li>Clique em <b>[!UICONTROL Adicionar]</b> ao lado do campo [!UICONTROL webhook].</li><li>Insira o seguinte: <ul><li>Um nome para o webhook</li><li>A conexão que você deseja usar com este webhook</li><li>O projeto que você deseja que o webhook observe para alterações de status do pipeline</li></ul></li><li>Clique em <b>[!UICONTROL Salvar]</b> para salvar o webhook e retornar ao módulo. </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL Ver projetos]**
++++**[!UICONTROL Assistir a projetos]**
 
-Esse módulo de acionador agendado inicia um cenário quando um novo projeto é adicionado, do qual o usuário autenticado é membro.
+Esse módulo de acionamento agendado inicia um cenário quando um novo projeto é adicionado, do qual o usuário autenticado é membro.
 
 <table style="table-layout:auto"> 
    <col> 
    <col> 
    <tbody> 
    <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Para obter instruções sobre como conectar seu [!DNL GitLab] para [!DNL Workfront] Fusão, consulte <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect [!DNL GitLab] para [!DNL Workfront] Fusão</a> neste artigo.</td> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td>Para obter instruções sobre como conectar seu [!DNL GitLab] conta para [!DNL Workfront] Fusion, consulte <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Conectar [!DNL GitLab] para [!DNL Workfront] Fusão</a> neste artigo.</td> 
    </tr> 
    <tr> 
    <td role="rowheader">Máximo de Resultados</td> 
@@ -231,7 +270,7 @@ Esse módulo de acionador agendado inicia um cenário quando um novo projeto é 
 
 +++
 
-+++**[!UICONTROL Assistir ramificações do repositório]**
++++**[!UICONTROL Observar ramificações do repositório]**
 
 Esse módulo de acionador agendado inicia um cenário quando uma nova ramificação é adicionada a um repositório.
 
@@ -240,8 +279,8 @@ Esse módulo de acionador agendado inicia um cenário quando uma nova ramificaç
    <col> 
    <tbody> 
    <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Para obter instruções sobre como conectar seu [!DNL GitLab] para [!DNL Workfront] Fusão, consulte <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect [!DNL GitLab] para [!DNL Workfront] Fusão</a> neste artigo.</td> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td>Para obter instruções sobre como conectar seu [!DNL GitLab] conta para [!DNL Workfront] Fusion, consulte <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Conectar [!DNL GitLab] para [!DNL Workfront] Fusão</a> neste artigo.</td> 
    </tr> 
    <tr> 
    <td role="rowheader">Máximo de Resultados</td> 
@@ -252,7 +291,7 @@ Esse módulo de acionador agendado inicia um cenário quando uma nova ramificaç
 
 +++
 
-+++**[!UICONTROL Assista às tags de repositório]**
++++**[!UICONTROL Observar tags do repositório]**
 
 Esse módulo de acionador instantâneo inicia um cenário quando uma tag é criada ou excluída em um repositório.
 
@@ -262,16 +301,16 @@ Esse módulo de acionador instantâneo inicia um cenário quando uma tag é cria
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Selecione o webhook que deseja usar para este acionador ou adicione um novo webhook. </p><p>Para adicionar um novo webhook, <ol><li>Clique em <b>[!UICONTROL Adicionar]</b> ao lado do campo [!UICONTROL webhook] .</li><li>Insira o seguinte: <ul><li>Um nome para o webhook</li><li>A conexão que você deseja usar para este webhook</li><li>O projeto que você deseja que o webhook procure por tags</li></ul></li><li>Clique em <b>[!UICONTROL Salvar]</b> para salvar o webhook e retornar ao módulo . </td> 
+   <td><p>Selecione o webhook que deseja usar para este acionador ou adicione um novo webhook. </p><p>Para adicionar um novo webhook, <ol><li>Clique em <b>[!UICONTROL Adicionar]</b> ao lado do campo [!UICONTROL webhook].</li><li>Insira o seguinte: <ul><li>Um nome para o webhook</li><li>A conexão que você deseja usar com este webhook</li><li>O projeto que você deseja que o webhook assista para tags</li></ul></li><li>Clique em <b>[!UICONTROL Salvar]</b> para salvar o webhook e retornar ao módulo. </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL Ver comentários do trecho]**
++++**[!UICONTROL Observar comentários de trecho]**
 
-Esse módulo de acionador instantâneo inicia um cenário quando um novo comentário é feito em um trecho.
+Este módulo de acionamento instantâneo inicia um cenário quando um novo comentário é feito em um trecho.
 
 <table style="table-layout:auto"> 
    <col> 
@@ -279,16 +318,16 @@ Esse módulo de acionador instantâneo inicia um cenário quando um novo coment�
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Selecione o webhook que deseja usar para este acionador ou adicione um novo webhook. </p><p>Para adicionar um novo webhook, <ol><li>Clique em <b>[!UICONTROL Adicionar]</b> ao lado do campo [!UICONTROL webhook] .</li><li>Insira o seguinte: <ul><li>Um nome para o webhook</li><li>A conexão que você deseja usar para este webhook</li><li>O projeto que você deseja que o webhook assista para comentários</li></ul></li><li>Clique em <b>[!UICONTROL Salvar]</b> para salvar o webhook e retornar ao módulo . </td> 
+   <td><p>Selecione o webhook que deseja usar para este acionador ou adicione um novo webhook. </p><p>Para adicionar um novo webhook, <ol><li>Clique em <b>[!UICONTROL Adicionar]</b> ao lado do campo [!UICONTROL webhook].</li><li>Insira o seguinte: <ul><li>Um nome para o webhook</li><li>A conexão que você deseja usar com este webhook</li><li>O projeto que você deseja que o webhook assista para comentários</li></ul></li><li>Clique em <b>[!UICONTROL Salvar]</b> para salvar o webhook e retornar ao módulo. </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL Assista a todos]**
++++**[!UICONTROL Assistir a todos]**
 
-Este módulo de acionador agendado inicia um cenário quando uma nova tarefa é adicionada. Quando nenhum filtro é aplicado, o acionador é executado quando uma nova tarefa pendente é adicionada.
+Este módulo de acionamento agendado inicia um cenário quando uma nova tarefa é adicionada. Quando nenhum filtro é aplicado, o acionador é executado quando uma nova tarefa pendente é adicionada.
 
 Para obter informações sobre campos, consulte [Obter uma lista de tarefas](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos) no [!DNL GitLab] documentação.
 
@@ -296,7 +335,7 @@ Para obter informações sobre campos, consulte [Obter uma lista de tarefas](htt
 
 +++**[!UICONTROL Assista à página wiki]**
 
-Esse módulo de acionador instantâneo inicia um cenário quando uma página wiki é criada ou editada.
+Este módulo de acionamento instantâneo inicia um cenário quando uma página wiki é criada ou editada.
 
 <table style="table-layout:auto"> 
    <col> 
@@ -304,7 +343,7 @@ Esse módulo de acionador instantâneo inicia um cenário quando uma página wik
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Selecione o webhook que deseja usar para este acionador ou adicione um novo webhook. </p><p>Para adicionar um novo webhook, <ol><li>Clique em <b>[!UICONTROL Adicionar]</b> ao lado do campo [!UICONTROL webhook] .</li><li>Insira o seguinte: <ul><li>Um nome para o webhook</li><li>A conexão que você deseja usar para este webhook</li><li>O projeto que você deseja que o webhook assista para páginas wiki</li></ul></li><li>Clique em <b>[!UICONTROL Salvar]</b> para salvar o webhook e retornar ao módulo . </td> 
+   <td><p>Selecione o webhook que deseja usar para este acionador ou adicione um novo webhook. </p><p>Para adicionar um novo webhook, <ol><li>Clique em <b>[!UICONTROL Adicionar]</b> ao lado do campo [!UICONTROL webhook].</li><li>Insira o seguinte: <ul><li>Um nome para o webhook</li><li>A conexão que você deseja usar com este webhook</li><li>O projeto que você deseja que o webhook assista para páginas wiki</li></ul></li><li>Clique em <b>[!UICONTROL Salvar]</b> para salvar o webhook e retornar ao módulo. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -315,7 +354,7 @@ Esse módulo de acionador instantâneo inicia um cenário quando uma página wik
 
 +++**[!UICONTROL Aceitar solicitação de mesclagem]**
 
-Esse módulo de ação mescla as alterações enviadas com a solicitação de mesclagem fornecida.
+Este módulo de ação mescla as alterações enviadas com a solicitação de mesclagem fornecida.
 
 Para obter informações sobre campos, consulte [Aceitar solicitação de mesclagem](https://docs.gitlab.com/ee/api/merge_requests.html#accept-mr) no [!DNL GitLab] documentação.
 
@@ -323,49 +362,49 @@ Para obter informações sobre campos, consulte [Aceitar solicitação de mescla
 
 +++**[!UICONTROL Cancelar uma criação]**
 
-Esse módulo de ação cancela uma única build de um projeto.
+Este módulo de ação cancela uma única build de um projeto.
 
 <table style="table-layout:auto"> 
    <col> 
    <col> 
    <tbody> 
    <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Para obter instruções sobre como conectar seu [!DNL GitLab] para [!DNL Workfront] Fusão, consulte <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect [!DNL GitLab] para [!DNL Workfront] Fusão</a> neste artigo.</td> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td>Para obter instruções sobre como conectar seu [!DNL GitLab] conta para [!DNL Workfront] Fusion, consulte <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Conectar [!DNL GitLab] para [!DNL Workfront] Fusão</a> neste artigo.</td> 
    </tr> 
    <tr> 
-   <td role="rowheader">[!UICONTROL ID do projeto]</td> 
-   <td> <p>Selecione ou mapeie o projeto que contém a build que deseja cancelar.</p> </td> 
+   <td role="rowheader">[!UICONTROL ID de Projeto]</td> 
+   <td> <p>Selecione ou mapeie o projeto que contém a build que você deseja cancelar.</p> </td> 
    </tr> 
    <tr> 
-   <td role="rowheader">[!UICONTROL Build ID]</td> 
+   <td role="rowheader">[!UICONTROL ID de Compilação]</td> 
    <td>Selecione ou mapeie a build que deseja cancelar.</td> 
    </tr> 
    <tr> 
-   <td role="rowheader">[!UICONTROL Mesclar mensagem de confirmação]</td> 
+   <td role="rowheader">[!UICONTROL mesclar mensagem de confirmação]</td> 
    <td> Insira ou mapeie uma mensagem de confirmação para a mesclagem.
     </td> 
    </tr> 
    <tr> 
-   <td role="rowheader">[!UICONTROL Deve remover a ramificação de origem]</td> 
-   <td>Selecione se deseja remover a ramificação de origem quando a mesclagem estiver concluída.</td> 
+   <td role="rowheader">[!UICONTROL Deve remover ramificação de origem]</td> 
+   <td>Selecione se deseja remover a ramificação de origem quando a mesclagem for concluída.</td> 
    </tr> 
    <tr> 
-   <td role="rowheader">[!UICONTROL Mesclar ao criar com êxito]</td> 
-   <td>Selecione se deseja mesclar a solicitação de mesclagem assim que a build for concluída.</td> 
+   <td role="rowheader">[!UICONTROL Mesclar quando a compilação for bem-sucedida]</td> 
+   <td>Selecione se deseja mesclar a solicitação de mesclagem assim que a compilação for concluída.</td> 
    </tr> 
    <tr> 
    <td role="rowheader">[!UICONTROL SHA]</td> 
-   <td>Se estiver presente, esse SHA deverá corresponder ao HEAD da ramificação de origem. Se não corresponder, a mesclagem falhará.</td> 
+   <td>Se presente, esse SHA deve corresponder ao HEAD da ramificação de origem. Se não corresponder, a mesclagem falhará.</td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL Cancelar as criações de um pipeline]**
++++**[!UICONTROL Cancelar as compilações de um pipeline]**
 
-Esse módulo de ação cancela as criações de um único pipeline.
+Esse módulo de ação cancela as builds de um único pipeline.
 
 Para obter informações sobre campos, consulte [Cancelar os trabalhos de um pipeline](https://docs.gitlab.com/ee/api/pipelines.html#cancel-a-pipelines-jobs) no [!DNL GitLab] documentação.
 
@@ -373,23 +412,23 @@ Para obter informações sobre campos, consulte [Cancelar os trabalhos de um pip
 
 +++**[!UICONTROL Cancelar mesclagem quando o pipeline tiver êxito]**
 
-Se uma solicitação de mesclagem for definida para mesclar quando um pipeline tiver êxito, esse módulo de ação cancelará essa ação.
+Se uma solicitação de mesclagem for definida para mesclar quando um pipeline for bem-sucedido, esse módulo de ação cancelará essa ação.
 
 Para obter informações sobre campos, consulte [Cancelar mesclagem quando o pipeline tiver êxito](https://docs.gitlab.com/ee/api/merge_requests.html) no [!DNL GitLab] documentação.
 
 +++
 
-+++**[!UICONTROL Cherry escolhe um compromisso]**
++++**[!UICONTROL Escolher uma confirmação de cereja]**
 
-Essa cereja do módulo de ação escolhe uma confirmação para uma determinada ramificação.
+Essa cereja do módulo de ação escolhe uma confirmação em uma determinada ramificação.
 
-Para obter informações sobre campos, consulte [Cherry escolhe um compromisso](https://docs.gitlab.com/ee/api/commits.html#cherry-pick-a-commit) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Escolher uma confirmação de cereja](https://docs.gitlab.com/ee/api/commits.html#cherry-pick-a-commit) no [!DNL GitLab] documentação.
 
 +++
 
 +++**[!UICONTROL Criar um novo rótulo]**
 
-Esse módulo de ação cria um novo rótulo para o repositório em questão.
+Esse módulo de ação cria um novo rótulo para o repositório especificado.
 
 Para obter informações sobre campos, consulte [Criar um novo rótulo](https://docs.gitlab.com/ee/api/labels.html#create-a-new-label) no [!DNL GitLab] documentação.
 
@@ -397,7 +436,7 @@ Para obter informações sobre campos, consulte [Criar um novo rótulo](https://
 
 +++**[!UICONTROL Criar um novo pipeline]**
 
-Esse módulo de ação cria um novo pipeline para o projeto em questão.
+Este módulo de ação cria um novo pipeline para o projeto fornecido.
 
 Para obter informações sobre campos, consulte [Criar um novo pipeline](https://docs.gitlab.com/ee/api/pipelines.html#create-a-new-pipeline) no [!DNL GitLab] documentação.
 
@@ -405,7 +444,7 @@ Para obter informações sobre campos, consulte [Criar um novo pipeline](https:/
 
 +++**[!UICONTROL Criar uma nova versão]**
 
-Esse módulo de ação adiciona notas de versão à tag git existente.
+Este módulo de ação adiciona notas de versão à tag do Git existente.
 
 Para obter informações sobre campos, consulte [Criar uma versão](https://docs.gitlab.com/ee/api/releases/#create-a-release) no [!DNL GitLab] documentação.
 
@@ -423,21 +462,21 @@ Para obter informações sobre campos, consulte [Criar uma nova tag](https://doc
 
 Este módulo de ação cria uma tarefa para o usuário atual sobre o problema selecionado. O usuário atual é o usuário identificado pelas credenciais na conexão usada para este módulo.
 
-Para obter informações sobre campos, consulte [Criar um para fazer](https://docs.gitlab.com/ee/api/issues.html#create-a-todo) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Criar uma tarefa pendente](https://docs.gitlab.com/ee/api/issues.html#create-a-todo) no [!DNL GitLab] documentação.
 
 +++
 
-+++**[!UICONTROL Criar uma tarefa em uma solicitação de mesclagem]**
++++**[!UICONTROL Criar uma tarefa para uma solicitação de mesclagem]**
 
 Este módulo de ação cria uma tarefa para o usuário atual na solicitação de mesclagem selecionada. O usuário atual é o usuário identificado pelas credenciais na conexão usada para este módulo.
 
-Para obter informações sobre campos, consulte [Criar um item a fazer](https://docs.gitlab.com/ee/api/merge_requests.html#create-a-todo) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Criar uma tarefa](https://docs.gitlab.com/ee/api/merge_requests.html#create-a-todo) no [!DNL GitLab] documentação.
 
 +++
 
 +++**[!UICONTROL Criar solicitação de mesclagem]**
 
-Esse módulo de ação cria uma nova solicitação de mesclagem em um projeto.
+Este módulo de ação cria uma nova solicitação de mesclagem em um projeto.
 
 Para obter informações sobre campos, consulte [Criar solicitação de mesclagem](https://docs.gitlab.com/ee/api/merge_requests.html#create-mr) no [!DNL GitLab] documentação.
 
@@ -451,49 +490,49 @@ Para obter informações sobre campos, consulte [Criar novo arquivo no repositó
 
 +++
 
-+++**[!UICONTROL Criar nova nota de edição]**
++++**[!UICONTROL Criar nova nota de problema]**
 
-Esse módulo de ação cria uma nota de problema para um único problema de projeto.
+Este módulo de ação cria uma nota de problema para um único problema do projeto.
 
-Para obter informações sobre campos, consulte [Criar nova nota de edição](https://docs.gitlab.com/ee/api/notes.html#create-new-issue-note) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Criar nova nota de problema](https://docs.gitlab.com/ee/api/notes.html#create-new-issue-note) no [!DNL GitLab] documentação.
 
 +++
 
 +++**[!UICONTROL Criar nova nota de solicitação de mesclagem]**
 
-Esse módulo de ação cria notas para uma única solicitação de mesclagem.
+Este módulo de ação cria uma observação para uma única solicitação de mesclagem.
 
 Para obter informações sobre campos, consulte [Criar nova nota de solicitação de mesclagem](https://docs.gitlab.com/ee/api/notes.html#create-new-merge-request-note) no [!DNL GitLab] documentação.
 
 +++
 
-+++**[!UICONTROL Criar um novo marco]**
++++**[!UICONTROL Criar uma nova etapa]**
 
-Esse módulo de ação cria um novo marco para um projeto.
+Este módulo de ação cria uma nova etapa para um projeto.
 
-Para obter informações sobre campos, consulte [Criar novo marco](https://docs.gitlab.com/ee/api/milestones.html#create-new-milestone) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Criar nova etapa](https://docs.gitlab.com/ee/api/milestones.html#create-new-milestone) no [!DNL GitLab] documentação.
 
 +++
 
 +++**[!UICONTROL Criar nova nota de trecho]**
 
-Esse módulo de ação cria uma nova nota para um único trecho. Notas de trecho são comentários que os usuários podem publicar em um trecho.
+Este módulo de ação cria uma nova nota para um único trecho. As notas de trecho são comentários que os usuários podem publicar em um trecho.
 
 Para obter informações sobre campos, consulte [Criar nova nota de trecho](https://docs.gitlab.com/ee/api/notes.html#create-new-snippet-note) no [!DNL GitLab] documentação.
 
 +++
 
-+++**[!UICONTROL Criar ramificação de repositório]**
++++**[!UICONTROL Criar ramificação do repositório]**
 
 Esse módulo de ação cria uma única ramificação de repositório.
 
-Para obter informações sobre campos, consulte [Criar ramificação de repositório](https://docs.gitlab.com/ee/api/branches.html#create-repository-branch) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Criar ramificação do repositório](https://docs.gitlab.com/ee/api/branches.html#create-repository-branch) no [!DNL GitLab] documentação.
 
 +++
 
-+++**[!UICONTROL Criar variável de compilação]**
++++**[!UICONTROL Criar variável de build]**
 
-Esse módulo de ação cria uma nova variável de build.
+Este módulo de ação cria uma nova variável de build.
 
 Para obter informações sobre campos, consulte [Criar variável](https://docs.gitlab.com/ee/api/project_level_variables.html#create-variable) no [!DNL GitLab] documentação.
 
@@ -509,46 +548,46 @@ Para obter informações sobre campos, consulte [Excluir uma solicitação de me
 
 +++**[!UICONTROL Excluir arquivo existente no repositório]**
 
-Esse módulo de ação exclui um arquivo existente do repositório.
+Este módulo de ação exclui um arquivo existente do repositório.
 
 Para obter informações sobre campos, consulte [Excluir arquivo existente no repositório](https://docs.gitlab.com/ee/api/repository_files.html#delete-existing-file-in-repository) no [!DNL GitLab] documentação.
 
 +++
 
-+++**[!UICONTROL Excluir ramificação de repositório]**
++++**[!UICONTROL Excluir ramificação do repositório]**
 
-Esse módulo de ação exclui uma ramificação do repositório.
+Este módulo de ação exclui uma ramificação do repositório.
 
-Para obter informações sobre campos, consulte [Excluir ramificação de repositório](https://docs.gitlab.com/ee/api/branches.html#delete-repository-branch) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Excluir ramificação do repositório](https://docs.gitlab.com/ee/api/branches.html#delete-repository-branch) no [!DNL GitLab] documentação.
 
 +++
 
 +++**[!UICONTROL Editar problema]**
 
-Este módulo de ação atualiza um problema de projeto existente. Essa chamada também é usada para marcar um problema como fechado.
+Este módulo de ação atualiza um problema existente do projeto. Esta chamada também é usada para marcar um problema como encerrado.
 
 Para obter informações sobre campos, consulte [Editar problema](https://docs.gitlab.com/ee/api/issues.html#edit-issue) no [!DNL GitLab] documentação.
 
 +++
 
-+++**[!UICONTROL Editar marco]**
++++**[!UICONTROL Editar Etapa]**
 Este módulo de ação atualiza um marco de projeto existente.
 
-Para obter informações sobre campos, consulte [Editar marco](https://docs.gitlab.com/ee/api/milestones.html#edit-milestone) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Editar etapa](https://docs.gitlab.com/ee/api/milestones.html#edit-milestone) no [!DNL GitLab] documentação.
 
 +++
 
 +++**[!UICONTROL Apagar uma criação]**
 
-Esse módulo de ação apaga uma criação de um projeto (remove artefatos de trabalho e registro de tarefas).
+Esse módulo de ação apaga uma criação de um projeto (remove artefatos e o log de trabalhos).
 
-Para obter informações sobre campos, consulte [Apagar uma tarefa](https://docs.gitlab.com/ee/api/jobs.html#erase-a-job) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Apagar um trabalho](https://docs.gitlab.com/ee/api/jobs.html#erase-a-job) no [!DNL GitLab] documentação.
 
 +++
 
-+++**[!UICONTROL Obter uma lista de todos]**
++++**[!UICONTROL Obter uma lista de tarefas]**
 
-Este módulo de pesquisa recupera uma lista de itens a fazer.
+Este módulo de pesquisa recupera uma lista de itens por- fazer.
 
 Para obter informações sobre campos, consulte [Obter uma lista de tarefas](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos) no [!DNL GitLab] documentação.
 
@@ -556,39 +595,39 @@ Para obter informações sobre campos, consulte [Obter uma lista de tarefas](htt
 
 +++**[!UICONTROL Obter uma única build]**
 
-Esse módulo de ação recupera um único trabalho de um projeto.
+Este módulo de ação recupera um único trabalho de um projeto.
 
-Para obter informações sobre campos, consulte [Obter um único trabalho](https://docs.gitlab.com/ee/api/jobs.html#get-a-single-job) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Obtenha um único emprego](https://docs.gitlab.com/ee/api/jobs.html#get-a-single-job) no [!DNL GitLab] documentação.
 
 +++
 
-+++**[!UICONTROL Obter uma única tag de repositório]**
++++**[!UICONTROL Obter uma tag de repositório única]**
 
-Esse módulo de ação recupera uma tag de repositório específica determinada por seu nome.
+Esse módulo de ação recupera uma tag de repositório específica determinada pelo nome.
 
-Para obter informações sobre campos, consulte [Obter uma única tag de repositório](https://docs.gitlab.com/ee/api/tags.html#get-a-single-repository-tag) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Obter uma tag de repositório única](https://docs.gitlab.com/ee/api/tags.html#get-a-single-repository-tag) no [!DNL GitLab] documentação.
 
 +++
 
 +++**[!UICONTROL Obter uma implantação específica]**
 
-Esse módulo de ação recupera uma implantação específica.
+Este módulo de ação recupera uma implantação específica.
 
 Para obter informações sobre campos, consulte [Obter uma implantação específica](https://docs.gitlab.com/ee/api/deployments.html#get-a-specific-deployment) no [!DNL GitLab] documentação.
 
 +++
 
-+++**[!UICONTROL Obter todos os problemas atribuídos a um único marco]**
++++**[!UICONTROL Obter todos os problemas atribuídos a uma única etapa]**
 
-Este módulo de pesquisa recupera todos os problemas atribuídos a um único marco do projeto.
+Este módulo de pesquisa recupera todos os problemas atribuídos a uma única etapa do projeto.
 
-Para obter informações sobre campos, consulte [Obter todos os problemas atribuídos a um único marco](https://docs.gitlab.com/ee/api/milestones.html#get-all-issues-assigned-to-a-single-milestone) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Obter todos os problemas atribuídos a uma única etapa](https://docs.gitlab.com/ee/api/milestones.html#get-all-issues-assigned-to-a-single-milestone) no [!DNL GitLab] documentação.
 
 +++
 
 +++**[!UICONTROL Obter arquivo do repositório]**
 
-Esse módulo de ação recupera informações sobre um arquivo no repositório, como nome, tamanho ou conteúdo.
+Este módulo de ação recupera informações sobre um arquivo no repositório, como nome, tamanho ou conteúdo.
 
 Para obter informações sobre campos, consulte [Obter arquivo do repositório](https://docs.gitlab.com/ee/api/repository_files.html#get-file-from-repository) no [!DNL GitLab] documentação.
 
@@ -596,30 +635,30 @@ Para obter informações sobre campos, consulte [Obter arquivo do repositório](
 
 +++**[!UICONTROL Obter usuários do projeto]**
 
-Esse módulo de pesquisa recupera os usuários do projeto.
+Este módulo de pesquisa recupera os usuários do projeto.
 
 Para obter informações sobre campos, consulte [Obter usuários do projeto](https://docs.gitlab.com/ee/api/projects.html#get-project-users) no [!DNL GitLab] documentação.
 
 +++
 
-+++**[!UICONTROL Obter um único problema]**
++++**[!UICONTROL Obtenha um único problema]**
 
-Esse módulo de ação recupera detalhes do problema.
+Este módulo de ação recupera os detalhes do problema.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Para criar uma nova conexão, consulte <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect [!DNL GitLab] para o Workfront Fusion]</a> neste artigo.</td> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td>Para criar uma nova conexão, consulte <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL Conectar [!DNL GitLab] para o Workfront Fusion]</a> neste artigo.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Project]</td> 
+   <td role="rowheader">[!UICONTROL Projeto]</td> 
    <td> <p>Selecione o projeto que contém o problema sobre o qual deseja recuperar detalhes.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ID do problema]</td> 
+   <td role="rowheader">[!UICONTROL Identificação de Problema]</td> 
    <td> <p>Insira ou mapeie o nome do problema sobre o qual deseja recuperar detalhes.</p> </td> 
   </tr> 
  </tbody> 
@@ -629,7 +668,7 @@ Esse módulo de ação recupera detalhes do problema.
 
 +++**[!UICONTROL Obter nota de problema único]**
 
-Esse módulo de ação recupera uma única nota para um problema específico do projeto.
+Este módulo de ação recupera uma única nota para um problema de projeto específico.
 
 Para obter informações sobre campos, consulte [Obter nota de problema único](https://docs.gitlab.com/ee/api/notes.html#get-single-issue-note) no [!DNL GitLab] documentação.
 
@@ -637,7 +676,7 @@ Para obter informações sobre campos, consulte [Obter nota de problema único](
 
 +++**[!UICONTROL Obter solicitação de mesclagem única]**
 
-Esse módulo de ação recupera informações sobre uma única solicitação de mesclagem.
+Este módulo de ação recupera informações sobre uma única solicitação de mesclagem.
 
 Para obter informações sobre campos, consulte [Obter solicitação de mesclagem única](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr) no [!DNL GitLab] documentação.
 
@@ -645,23 +684,23 @@ Para obter informações sobre campos, consulte [Obter solicitação de mesclage
 
 +++**[!UICONTROL Obter alterações de solicitação de mesclagem única]**
 
-Esse módulo de pesquisa recupera informações sobre a solicitação de mesclagem, incluindo seus arquivos e alterações.
+Este módulo de pesquisa recupera informações sobre a solicitação de mesclagem, incluindo seus arquivos e alterações.
 
 Para obter informações sobre campos, consulte [Obter alterações de solicitação de mesclagem única](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-changes) no [!DNL GitLab] documentação.
 
 +++
 
-+++**[!UICONTROL Obter compromissos de solicitação de mesclagem única]**
++++**[!UICONTROL Obter confirmações únicas de solicitação de mesclagem]**
 
-Esse módulo de ação recupera uma lista de confirmações de solicitação de mesclagem.
+Este módulo de ação recupera uma lista de confirmações de solicitações de mesclagem.
 
-Para obter informações sobre campos, consulte [Obter compromissos de solicitação de mesclagem única](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-commits) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Obter confirmações únicas de solicitação de mesclagem](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-commits) no [!DNL GitLab] documentação.
 
 +++
 
 +++**[!UICONTROL Obter nota de solicitação de mesclagem única]**
 
-Esse módulo de ação retorna uma única nota para uma determinada solicitação de mesclagem.
+Este módulo de ação retorna uma única nota para uma determinada solicitação de mesclagem.
 
 Para obter informações sobre campos, consulte [Obter nota de solicitação de mesclagem única](https://docs.gitlab.com/ee/api/notes.html#get-single-merge-request-note) no [!DNL GitLab] documentação.
 
@@ -669,55 +708,55 @@ Para obter informações sobre campos, consulte [Obter nota de solicitação de 
 
 +++**[!UICONTROL Obter um marco]**
 
-Esse módulo de ação recupera detalhes do marco.
+Este módulo de ação recupera os detalhes das etapas.
 
 Para obter informações sobre campos, consulte [Obter um único marco](https://docs.gitlab.com/ee/api/milestones.html#get-single-milestone) no [!DNL GitLab] documentação.
 
 +++
 
-+++**[!UICONTROL Obter projeto único]**
++++**[!UICONTROL Obter um único projeto]**
 
 Este módulo de ação recupera os detalhes do projeto.
 
-Para obter informações sobre campos, consulte [Obter projeto único](https://docs.gitlab.com/ee/api/projects.html#get-single-project) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Obter um único projeto](https://docs.gitlab.com/ee/api/projects.html#get-single-project) no [!DNL GitLab] documentação.
 
 +++
 
-+++**[!UICONTROL Obter uma única ramificação de repositório]**
++++**[!UICONTROL Obter ramificação única do repositório]**
 
-Esse módulo de ação recupera detalhes da ramificação do repositório.
+Este módulo de ação recupera os detalhes da ramificação do repositório.
 
-Para obter informações sobre campos, consulte [Obter uma única ramificação de repositório](https://docs.gitlab.com/ee/api/branches.html#get-single-repository-branch) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Obter ramificação única do repositório](https://docs.gitlab.com/ee/api/branches.html#get-single-repository-branch) no [!DNL GitLab] documentação.
 
 +++
 
 +++**[!UICONTROL Obter nota de trecho]**
 
-Esse módulo recupera uma única nota para um determinado trecho.
+Este módulo recupera uma única nota para um determinado trecho.
 
-Para obter informações sobre campos, consulte [Obter uma única nota de trecho](https://docs.gitlab.com/ee/api/notes.html#get-single-snippet-note) no [!DNL GitLab] documentação.
-
-+++
-
-+++**[!UICONTROL Obter os comentários de um compromisso]**
-
-Esse módulo de pesquisa recupera comentários de uma confirmação em um projeto.
-
-Para obter informações sobre campos, consulte [Obter os comentários de um compromisso](https://docs.gitlab.com/ee/api/commits.html#get-the-comments-of-a-commit) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Obter uma única nota de fragmento](https://docs.gitlab.com/ee/api/notes.html#get-single-snippet-note) no [!DNL GitLab] documentação.
 
 +++
 
-+++**[!UICONTROL Obter o diferencial de um commit]**
++++**[!UICONTROL Obter os comentários de uma confirmação]**
 
-Esse módulo de ação obtém o diferencial de uma confirmação em um projeto.
+Este módulo de pesquisa recupera comentários de uma confirmação em um projeto.
 
-Para obter informações sobre campos, consulte [Obter o diferencial de um commit](https://docs.gitlab.com/ee/api/commits.html#get-the-diff-of-a-commit) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Obter os comentários de uma confirmação](https://docs.gitlab.com/ee/api/commits.html#get-the-comments-of-a-commit) no [!DNL GitLab] documentação.
+
++++
+
++++**[!UICONTROL Obter a diferença de uma confirmação]**
+
+Este módulo de ação obtém a diferença de uma confirmação em um projeto.
+
+Para obter informações sobre campos, consulte [Obter a diferença de uma confirmação](https://docs.gitlab.com/ee/api/commits.html#get-the-diff-of-a-commit) no [!DNL GitLab] documentação.
 
 +++
 
 +++**[!UICONTROL Manter artefatos]**
 
-Impede que artefatos sejam excluídos quando a expiração for definida.
+Impede que artefatos sejam excluídos quando a expiração é definida.
 
 Para obter informações sobre campos, consulte [Manter artefatos](https://docs.gitlab.com/ee/api/job_artifacts.html#keep-artifacts) no [!DNL GitLab] documentação.
 
@@ -733,13 +772,13 @@ Para obter informações sobre campos, consulte [Listar todas as notas de solici
 
 +++**[!UICONTROL Listar todas as notas de trecho]**
 
-Este módulo obtém uma lista de todas as notas para um único snippet. Notas de trecho são comentários que os usuários podem publicar em um trecho.
+Este módulo obtém uma lista de todas as notas de um único trecho. As notas de trecho são comentários que os usuários podem publicar em um trecho.
 
 Para obter informações sobre campos, consulte [??](https://docs.gitlab.com/ee/api/notes.html#list-all-snippet-notes) no [!DNL GitLab] documentação.
 
 +++
 
-+++**[!UICONTROL Listar criações de confirmação]**
++++**[!UICONTROL Listar builds de confirmação]**
 
 Este módulo de pesquisa retorna uma lista de builds para uma confirmação específica em um projeto.
 
@@ -748,16 +787,16 @@ Este módulo de pesquisa retorna uma lista de builds para uma confirmação espe
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Para criar uma nova conexão, consulte <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect [!DNL GitLab] para o Workfront Fusion]</a> neste artigo.</td> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td>Para criar uma nova conexão, consulte <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL Conectar [!DNL GitLab] para o Workfront Fusion]</a> neste artigo.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ID do projeto]</td> 
-   <td> <p>Selecione o projeto que contém a confirmação para a qual deseja listar as criações.</p> </td> 
+   <td role="rowheader">[!UICONTROL ID de Projeto]</td> 
+   <td> <p>Selecione o projeto que contém a confirmação que você deseja listar builds.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Escopo]</td> 
-   <td> Para limitar a pesquisa a ser criada com um status específico, selecione o status . Deixar esse campo em branco retorna todas as criações da confirmação.  </td> 
+   <td> Para limitar a pesquisa a ser criada com um status específico, selecione o status. Deixar esse campo em branco retorna todas as criações da confirmação.  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -766,23 +805,23 @@ Este módulo de pesquisa retorna uma lista de builds para uma confirmação espe
 
 +++**[!UICONTROL Listar problemas]**
 
-Este módulo de pesquisa retorna todos os problemas pelas configurações de filtro especificadas.
+Este módulo de pesquisa retorna todos os problemas de acordo com as configurações de filtro especificadas.
 
 Para obter informações sobre campos, consulte [Listar problemas](https://docs.gitlab.com/ee/api/issues.html#list-issues) no [!DNL GitLab] documentação.
 
 +++
 
-+++**[!UICONTROL Listar problemas que fecham na mesclagem]**
++++**[!UICONTROL Listar problemas que serão fechadas na mesclagem]**
 
-Esse módulo de pesquisa recupera todos os problemas que seriam fechados ao mesclar a solicitação de mesclagem fornecida.
+Este módulo de pesquisa recupera todos os problemas que seriam fechados ao mesclar a solicitação de mesclagem fornecida.
 
-Para obter informações sobre campos, consulte [Listar problemas que serão fechados na mesclagem](https://docs.gitlab.com/ee/api/merge_requests.html#list-issues-that-will-close-on-merge) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Listar problemas que serão encerradas ao mesclar](https://docs.gitlab.com/ee/api/merge_requests.html#list-issues-that-will-close-on-merge) no [!DNL GitLab] documentação.
 
 +++
 
 +++**[!UICONTROL Rótulos de lista]**
 
-Esse módulo de pesquisa recupera todos os rótulos no projeto.
+Este módulo de pesquisa recupera todos os rótulos no projeto.
 
 Para obter informações sobre campos, consulte [Listar rótulos](https://docs.gitlab.com/ee/api/labels.html#list-labels) no [!DNL GitLab] documentação.
 
@@ -790,25 +829,25 @@ Para obter informações sobre campos, consulte [Listar rótulos](https://docs.g
 
 +++**[!UICONTROL Listar solicitações de mesclagem]**
 
-Esse módulo de pesquisa recupera todas as solicitações de mesclagem pelas configurações de filtro.
+Este módulo de pesquisa recupera todas as solicitações de mesclagem pelas configurações de filtro.
 
 Para obter informações sobre campos, consulte [Listar solicitações de mesclagem](https://docs.gitlab.com/ee/api/merge_requests.html#list-merge-requests) no [!DNL GitLab] documentação.
 
 +++
 
-+++**[!UICONTROL Listar projetos próprios]**
++++**[!UICONTROL Listar Projetos Próprios]**
 
-Esse módulo de pesquisa recupera projetos em que o usuário autenticado é definido como proprietário.
+Este módulo de pesquisa recupera projetos em que o usuário autenticado está definido como proprietário.
 
-Para obter informações sobre campos, consulte [Listar projetos de usuários](https://docs.gitlab.com/ee/api/projects.html#list-all-projects) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Listar projetos de usuário](https://docs.gitlab.com/ee/api/projects.html#list-all-projects) no [!DNL GitLab] documentação.
 
 +++
 
-+++**[!UICONTROL Listar criações de projeto]**
++++**[!UICONTROL Listar compilações de projeto]**
 
-Esse módulo de pesquisa recupera uma lista de builds em um projeto.
+Este módulo de pesquisa recupera uma lista de builds em um projeto.
 
-Para obter informações sobre campos, consulte [Listar trabalhos de projeto](https://docs.gitlab.com/ee/api/jobs.html#list-project-jobs) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Listar trabalhos do projeto](https://docs.gitlab.com/ee/api/jobs.html#list-project-jobs) no [!DNL GitLab] documentação.
 
 +++
 
@@ -820,11 +859,11 @@ Para obter informações sobre campos, consulte [Listar implantações de projet
 
 +++
 
-+++**[!UICONTROL Listar notas de problema do projeto]**
++++**[!UICONTROL Listar notas de problemas do projeto]**
 
-Esse módulo de pesquisa recupera uma lista de todas as notas de um único problema.
+Este módulo de pesquisa recupera uma lista de todas as notas para um único problema.
 
-Para obter informações sobre campos, consulte [Listar notas de problema do projeto](https://docs.gitlab.com/ee/api/notes.html#list-project-issue-notes) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Listar notas de problemas do projeto](https://docs.gitlab.com/ee/api/notes.html#list-project-issue-notes) no [!DNL GitLab] documentação.
 
 +++
 
@@ -838,7 +877,7 @@ Para obter informações sobre campos, consulte [Listar problemas do projeto](ht
 
 +++**[!UICONTROL Listar etapas do projeto]**
 
-Esse módulo de pesquisa recupera todos os marcos do projeto.
+Este módulo de pesquisa recupera todos os marcos no projeto.
 
 Para obter informações sobre campos, consulte [Listar etapas do projeto](https://docs.gitlab.com/ee/api/milestones.html#list-project-milestones) no [!DNL GitLab] documentação.
 
@@ -846,23 +885,23 @@ Para obter informações sobre campos, consulte [Listar etapas do projeto](https
 
 +++**[!UICONTROL Listar pipelines de projeto]**
 
-Esse módulo de pesquisa recupera todos os pipelines do projeto.
+Este módulo de pesquisa recupera todos os pipelines do projeto.
 
 Para obter informações sobre campos, consulte [Listar pipelines de projeto](https://docs.gitlab.com/ee/api/pipelines.html#list-project-pipelines) no [!DNL GitLab] documentação.
 
 +++
 
-+++**[!UICONTROL Listar tags de repositório do projeto]**
++++**[!UICONTROL Listar tags do repositório do projeto]**
 
-Esse módulo de pesquisa recupera uma lista de tags de repositório de um projeto, classificadas por nome em ordem alfabética reversa.
+Este módulo de pesquisa recupera uma lista de tags do repositório de um projeto, classificadas por nome em ordem alfabética inversa.
 
-Para obter informações sobre campos, consulte [Listar tags de repositório do projeto](https://docs.gitlab.com/ee/api/tags.html#list-project-repository-tags) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Listar tags do repositório do projeto](https://docs.gitlab.com/ee/api/tags.html#list-project-repository-tags) no [!DNL GitLab] documentação.
 
 +++
 
 +++**[!UICONTROL Listar variáveis de projeto]**
 
-Esse módulo de pesquisa recupera uma lista das variáveis de um projeto.
+Este módulo de pesquisa recupera uma lista de variáveis de um projeto.
 
 Para obter informações sobre campos, consulte [Listar variáveis de projeto](https://docs.gitlab.com/ee/api/project_level_variables.html#list-project-variables) no [!DNL GitLab] documentação.
 
@@ -870,23 +909,23 @@ Para obter informações sobre campos, consulte [Listar variáveis de projeto](h
 
 +++**[!UICONTROL Listar projetos]**
 
-Esse módulo de pesquisa recupera todos os projetos dos quais o usuário autenticado é membro.
+Este módulo de pesquisa recupera todos os projetos dos quais o usuário autenticado é membro.
 
 Para obter informações sobre campos, consulte [Listar todos os projetos](https://docs.gitlab.com/ee/api/projects.html#list-all-projects) no [!DNL GitLab] documentação.
 
 +++
 
-+++**[!UICONTROL Listar ramificações de repositório]**
++++**[!UICONTROL Listar ramificações do repositório]**
 
-Esse módulo pesquisa ramificações de repositório pelo termo de pesquisa.
+Este módulo pesquisa ramificações de repositório pelo termo de pesquisa.
 
-Para obter informações sobre campos, consulte [Listar ramificações de repositório](https://docs.gitlab.com/ee/api/branches.html#list-repository-branches) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Listar ramificações do repositório](https://docs.gitlab.com/ee/api/branches.html#list-repository-branches) no [!DNL GitLab] documentação.
 
 +++
 
 +++**[!UICONTROL Listar confirmações do repositório]**
 
-Esse módulo de pesquisa recupera uma lista de confirmações de repositório em um projeto.
+Este módulo de pesquisa recupera uma lista de confirmações de repositório em um projeto.
 
 Para obter informações sobre campos, consulte [Listar confirmações do repositório](https://docs.gitlab.com/ee/api/commits.html#list-repository-commits) no [!DNL GitLab] documentação.
 
@@ -894,23 +933,23 @@ Para obter informações sobre campos, consulte [Listar confirmações do reposi
 
 +++**[!UICONTROL Listar colaboradores do repositório]**
 
-Este módulo de pesquisa recupera uma lista de contribuidores do repositório.
+Este módulo de pesquisa recupera uma lista de colaboradores do repositório.
 
-Para obter informações sobre campos, consulte [Contribuidores](https://docs.gitlab.com/ee/api/repositories.html#contributors) no [!DNL GitLab] documentação.
-
-+++
-
-+++**[!UICONTROL Árvore do repositório de lista]**
-
-Esse módulo de pesquisa recupera uma lista de arquivos e diretórios de repositório em um projeto.
-
-Para obter informações sobre campos, consulte [Árvore do repositório de lista](https://docs.gitlab.com/ee/api/repositories.html#list-repository-tree) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Colaboradores](https://docs.gitlab.com/ee/api/repositories.html#contributors) no [!DNL GitLab] documentação.
 
 +++
 
-+++**[!UICONTROL Marcar um todo como feito]**
++++**[!UICONTROL Árvore de repositório de lista]**
 
-Esse módulo de ação marca um único item pendente fornecido pela ID para o usuário atual, conforme concluído.
+Este módulo de pesquisa recupera uma lista de arquivos e diretórios do repositório em um projeto.
+
+Para obter informações sobre campos, consulte [Árvore de repositório de lista](https://docs.gitlab.com/ee/api/repositories.html#list-repository-tree) no [!DNL GitLab] documentação.
+
++++
+
++++**[!UICONTROL Marcar uma tarefa como concluída]**
+
+Este módulo de ação marca um único item pendente fornecido por sua ID para o usuário atual como concluído.
 
 Para obter informações sobre campos, consulte [Marcar um item para fazer como concluído](https://docs.gitlab.com/ee/api/todos.html#mark-a-todo-as-done) no [!DNL GitLab] documentação.
 
@@ -942,72 +981,72 @@ Para obter informações sobre campos, consulte [Modificar nota de trecho existe
 
 +++**[!UICONTROL Novo problema]**
 
-Esse módulo de ação cria um novo problema de projeto.
+Este módulo de ação cria um novo problema de projeto.
 
 Para obter informações sobre campos, consulte [Novo problema](https://www.integromat.com/en/help/app/gitlab) no [!DNL GitLab] documentação.
 
 +++
 
-+++**[!UICONTROL Reproduzir uma criação]**
++++**[!UICONTROL Executar uma criação]**
 
-Esse módulo de ação aciona uma ação manual para iniciar uma tarefa.
+Este módulo de ação dispara uma ação manual para iniciar um trabalho.
 
 Para obter informações sobre campos, consulte [Reproduzir um trabalho](https://docs.gitlab.com/ee/api/jobs.html#play-a-job) no [!DNL GitLab] documentação.
 
 +++
 
-+++**[!UICONTROL Publicar comentário para confirmação]**
++++**[!UICONTROL Publicar comentário para confirmar]**
 
-Esse módulo de ação adiciona um comentário a uma confirmação.
+Este módulo de ação adiciona um comentário a uma confirmação.
 
-Para obter informações sobre campos, consulte [Publicar comentário para confirmação](https://docs.gitlab.com/ee/api/commits.html#post-comment-to-commit) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Publicar comentário para confirmar](https://docs.gitlab.com/ee/api/commits.html#post-comment-to-commit) no [!DNL GitLab] documentação.
 
 +++
 
 +++**[!UICONTROL Remover variável]**
 
-Esse módulo de ação remove a variável de um projeto.
+Este módulo de ação remove a variável de um projeto.
 
 Para obter informações sobre campos, consulte [Remover variável](https://docs.gitlab.com/ee/api/project_level_variables.html#remove-variable) no [!DNL GitLab] documentação.
 
 +++
 
-+++**[!UICONTROL Repetir uma criação]**
++++**[!UICONTROL Tentar novamente uma build]**
 
-Este módulo de ação tenta novamente uma única build em uma confirmação.
+Este módulo de ação tenta novamente um único build em uma confirmação.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Para criar uma nova conexão, consulte <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect [!DNL GitLab] para o Workfront Fusion]</a> neste artigo.</td> 
+   <td role="rowheader">[!UICONTROL Conexão]</td> 
+   <td>Para criar uma nova conexão, consulte <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL Conectar [!DNL GitLab] para o Workfront Fusion]</a> neste artigo.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ID do projeto]</td> 
-   <td> <p>Selecione o projeto que contém a build que você deseja repetir.</p> </td> 
+   <td role="rowheader">[!UICONTROL ID de Projeto]</td> 
+   <td> <p>Selecione o projeto que contém a build que você deseja tentar novamente.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Build ID]</td> 
-   <td> Selecione a build que deseja repetir. </td> 
+   <td role="rowheader">[!UICONTROL ID de Compilação]</td> 
+   <td> Selecione a build que deseja tentar novamente. </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL Repetir tarefas com falha em um pipeline]**
++++**[!UICONTROL Repetir trabalhos com falha em um pipeline]**
 
-Este módulo de ação tenta compilações com falha em um pipeline.
+Este módulo de ação tenta novamente builds com falha em um pipeline.
 
-Para obter informações sobre campos, consulte [Repetir tarefas em um pipeline](https://docs.gitlab.com/ee/api/pipelines.html#retry-jobs-in-a-pipeline) no [!DNL GitLab] documentação.
+Para obter informações sobre campos, consulte [Repetir trabalhos em um pipeline](https://docs.gitlab.com/ee/api/pipelines.html#retry-jobs-in-a-pipeline) no [!DNL GitLab] documentação.
 
 +++
 
 +++**[!UICONTROL Obter uma variável]**
 
-Esse módulo recupera detalhes da variável específica de um projeto.
+Este módulo recupera detalhes da variável específica de um projeto.
 
 Para obter informações sobre campos, consulte [Mostrar detalhes da variável](https://docs.gitlab.com/ee/api/project_level_variables.html#show-variable-details) no [!DNL GitLab] documentação.
 
@@ -1023,7 +1062,7 @@ Para obter informações sobre campos, consulte [Atualizar uma versão](https://
 
 +++**[!UICONTROL Atualizar solicitação de mesclagem]**
 
-Esse módulo de ação atualiza uma solicitação de mesclagem existente. Você pode alterar a ramificação de destino, o título ou até mesmo fechar o MR.
+Este módulo de ação atualiza uma solicitação de mesclagem existente. Você pode alterar a ramificação de destino, o título ou até mesmo fechar a MR.
 
 Para obter informações sobre campos, consulte [Atualizar solicitação de mesclagem](https://docs.gitlab.com/ee/api/merge_requests.html#update-mr) no [!DNL GitLab] documentação.
 
@@ -1031,7 +1070,7 @@ Para obter informações sobre campos, consulte [Atualizar solicitação de mesc
 
 +++**[!UICONTROL Atualizar uma variável]**
 
-Esse módulo de ação atualiza a variável de um projeto.
+Este módulo de ação atualiza a variável de um projeto.
 
 Para obter informações sobre campos, consulte [Atualizar variável](https://docs.gitlab.com/ee/api/project_level_variables.html#update-variable) no [!DNL GitLab] documentação.
 

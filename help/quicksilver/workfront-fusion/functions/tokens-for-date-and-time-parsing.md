@@ -4,18 +4,18 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Tokens para análise de data e hora no Adobe Workfront Fusion
-description: Os seguintes tokens para análise de data e hora estão disponíveis na variável [!DNL Adobe Workfront Fusion mapping] painel.
+description: Os seguintes tokens para análise de data e hora estão disponíveis no [!DNL Adobe Workfront Fusion mapping] painel.
 author: Becky
 feature: Workfront Fusion
 exl-id: f5a92ccb-cdc6-4f7d-8373-31fd17d314d3
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 7%
+source-wordcount: '278'
+ht-degree: 6%
 
 ---
 
-# Tokens para análise de data e hora em [!DNL Adobe Workfront Fusion]
+# Tokens para análise de data e hora no [!DNL Adobe Workfront Fusion]
 
 ## Requisitos de acesso
 
@@ -34,17 +34,25 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
    <td> <p>[!UICONTROL Plano], [!UICONTROL Trabalho]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para automação e integração de trabalho] </p><p>[!UICONTROL [!DNL Workfront Fusion] para Automação de Trabalho]</p>  </td> 
+   <td role="rowheader">Licença [!UICONTROL Adobe Workfront Fusion]**</td> 
+   <td>
+   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Ou</p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td>Sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</td> 
+   <td>
+   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Ou</p>
+   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -70,17 +78,17 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
   <tr> 
    <td><code>YY</code></td> 
    <td><code>14</code></td> 
-   <td> <p>Ano com 2 dígitos</p> </td> 
+   <td> <p>Ano de 2 dígitos</p> </td> 
   </tr> 
   <tr> 
    <td><code>Y</code> </td> 
    <td><code>-25</code> </td> 
-   <td> <p>[!UICONTROL Ano com qualquer número de dígitos e sinal]</p> </td> 
+   <td> <p>[!UICONTROL Year com qualquer número de dígitos e sinal]</p> </td> 
   </tr> 
   <tr> 
    <td><code>Q</code> </td> 
    <td><code>1..4</code> </td> 
-   <td> <p> Trimestre do ano. Define mês para primeiro mês do trimestre.</p> </td> 
+   <td> <p> Trimestre do ano. Define o mês como o primeiro mês do trimestre.</p> </td> 
   </tr> 
   <tr> 
    <td><code>M MM</code> </td> 
@@ -115,12 +123,12 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
   <tr> 
    <td><code>x</code> </td> 
    <td><code>1410715640579</code> </td> 
-   <td> <p> Carimbo de data e hora de ms Unix</p> </td> 
+   <td> <p> Carimbo de data/hora MS Unix</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Semana, semana e tokens de dia da semana
+## Tokens de semana, ano e dia da semana
 
 <table style="table-layout:auto"> 
  <col> 
@@ -142,12 +150,12 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
   <tr> 
    <td><code>GGGG</code> </td> 
    <td><code>2014</code> </td> 
-   <td> <p> Ano da semana com 4 dígitos da ISO</p> </td> 
+   <td> <p> Ano semanal com 4 dígitos ISO</p> </td> 
   </tr> 
   <tr> 
    <td><code>GG </code> </td> 
    <td><code>14</code> </td> 
-   <td> <p> Ano da semana com 2 dígitos da ISO</p> </td> 
+   <td> <p> Ano semanal com 2 dígitos ISO</p> </td> 
   </tr> 
   <tr> 
    <td><code>W WW</code> </td> 
@@ -162,7 +170,7 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
  </tbody> 
 </table>
 
-## Hora, minuto, segundo, milissegundos e tokens de deslocamento
+## Tokens de hora, minuto, segundo, milissegundo e deslocamento
 
 <table style="table-layout:auto"> 
  <col> 
@@ -189,12 +197,12 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
   <tr> 
    <td><code>k kk</code> </td> 
    <td><code>1..24</code> </td> 
-   <td> <p> Horas (24 horas de 1 a 24)</p> </td> 
+   <td> <p> Horas (tempo de 24 horas, de 1 a 24)</p> </td> 
   </tr> 
   <tr> 
    <td><code>a A</code> </td> 
    <td><code>am pm</code> </td> 
-   <td> <p> Postar ou meridiar (Note que o caractere a p também é considerado válido)</p> </td> 
+   <td> <p> Meridioma post ou ante (Note que um caractere a p também é considerado válido)</p> </td> 
   </tr> 
   <tr> 
    <td><code>m mm</code> </td> 
@@ -204,7 +212,7 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
   <tr> 
    <td><code>s ss</code> </td> 
    <td><code>0..59</code> </td> 
-   <td> <p> Seconds</p> </td> 
+   <td> <p> Segundos</p> </td> 
   </tr> 
   <tr> 
    <td><code>S SS SSS</code> </td> 
@@ -214,7 +222,7 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
   <tr> 
    <td><code>Z ZZ</code> </td> 
    <td><code>+12:00</code> </td> 
-   <td> <p> Deslocamento do UTC como +-HH:mm, +-HHmm ou Z</p> </td> 
+   <td> <p> Deslocamento de UTC como +-HH:mm, +-HHmm ou Z</p> </td> 
   </tr> 
  </tbody> 
 </table>

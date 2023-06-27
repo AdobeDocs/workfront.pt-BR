@@ -3,25 +3,25 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
-title: Módulos de marcação
-description: Em um [!DNL Adobe Workfront Fusion] você pode usar os módulos do Markdown para converter o Markdown para o HTML e o HTML para o Markdown.
+title: Módulos do Markdown
+description: Em um [!DNL Adobe Workfront Fusion] cenário, é possível usar os módulos do Markdown para converter o Markdown em HTML e o HTML em Markdown.
 author: Becky
 feature: Workfront Fusion
 exl-id: 9e810302-4897-494a-9b50-667d87ce9cb7
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 0%
+source-wordcount: '285'
+ht-degree: 1%
 
 ---
 
 # [!UICONTROL Markdown] módulos
 
-Em um [!DNL Adobe Workfront Fusion] você pode usar a variável [!UICONTROL Markdown] módulos para converter o Markdown em HTML e HTML para o Markdown.
+Em um [!DNL Adobe Workfront Fusion] cenário, você pode usar a variável [!UICONTROL Markdown] módulos para converter Markdown em HTML e HTML em Markdown.
 
-Se precisar de instruções para criar um cenário, consulte [Crie um cenário em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Se precisar de instruções sobre como criar um cenário, consulte [Criar um cenário no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Para obter informações sobre módulos, consulte [Módulos em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Para obter informações sobre módulos, consulte [Módulos no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Requisitos de acesso
 
@@ -41,40 +41,48 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para automação e integração de trabalho] </p>  <p>[!UICONTROL [!DNL Workfront Fusion] para Automação de Trabalho] </p>  </td> 
+   <td>
+   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Ou</p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td>Sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</td> 
+   <td>
+   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Ou</p>
+   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   </td> 
   </tr>
  </tbody> 
 </table>
 
-Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL Markdown to HTML]
+## [!UICONTROL Markdown para HTML]
 
 Esse módulo converte o Markdown em HTML.
 
-Ao configurar esse módulo, os seguintes campos são exibidos.
+Ao configurar esse módulo, os campos a seguir são exibidos.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Markdown]</td> 
-   <td> <p>Insira o texto sem formatação do Markdown.</p> </td> 
+   <td role="rowheader">[!UICONTROL Marcação]</td> 
+   <td> <p>Insira o texto simples formatado para Markdown.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL GitHub Flavored Markdown] </td> 
-   <td> <p>Ative essa opção para converter o Markdown Flavored do GitHub para o HTML.</p> <p>Para obter mais informações, consulte o Mar[!DNL ]gabarito no kdown [!DNL GitHub] documentação.</p> </td> 
+   <td> <p>Ative esta opção para converter o GitHub Flavored Markdown em HTML.</p> <p>Para obter mais informações, consulte a página[!DNL ]kdown cheatsheet no [!DNL GitHub] documentação.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Sanitize]</td> 
-   <td>Selecione uma opção para indicar se você deseja remover tags de HTML do texto ou do HTML de escape.</td> 
+   <td role="rowheader">[!UICONTROL Limpar]</td> 
+   <td>Selecione uma opção para indicar se você deseja remover as tags HTML do texto ou HTML de escape.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,12 +96,12 @@ Esse módulo converte o código HTML para Markdown.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Markdown]</td> 
-   <td> <p>Insira o código HTML que você deseja converter para o Markdown.</p> </td> 
+   <td role="rowheader">[!UICONTROL Marcação]</td> 
+   <td> <p>Insira o código HTML que deseja converter para Markdown.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL GitHub Flavored Markdown] </td> 
-   <td> <p>Ative esta opção para converter o HTML para [!DNL GitHub Flavored Markdown].</p> <p>Para obter mais informações, consulte a planilha do Markdown no [!DNL GitHub] documentação.</p> </td> 
+   <td> <p>Ative esta opção para converter o HTML em [!DNL GitHub Flavored Markdown].</p> <p>Para obter mais informações, consulte a folha de características do Markdown na [!DNL GitHub] documentação.</p> </td> 
   </tr> 
  </tbody> 
 </table>

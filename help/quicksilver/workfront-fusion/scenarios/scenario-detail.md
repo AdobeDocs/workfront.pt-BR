@@ -7,18 +7,18 @@ description: Detalhes do cenário em [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
-source-git-commit: aa58a64ea6b09192f93fa89a42a4bf6731052d10
+source-git-commit: 759472ada4595625e3a02b55c455564e24343743
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
 
 # Detalhes do cenário em [!DNL Adobe Workfront Fusion]
 
-A página de detalhes do cenário é a página inicial de um cenário específico. Ele fornece acesso a informações específicas para o cenário que é representado na página.
+A página de detalhes do cenário é a página inicial de um cenário específico. Ele fornece acesso a informações específicas para o cenário representado na página.
 
-Ele também fornece acesso ao [O editor de cenário em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), onde é possível editar o cenário.
+Ele também fornece acesso à [O editor de cenários no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), em que você pode editar o cenário.
 
 ## Requisitos de acesso
 
@@ -37,29 +37,33 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
    <td> <p>[!UICONTROL Plano], [!UICONTROL Trabalho]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para automação e integração de trabalho] </p><p>[!UICONTROL [!DNL Workfront Fusion] para Automação de Trabalho] </p><p>[!UICONTROL [!DNL Workfront Fusion] para Automação de Trabalho]</p>   </td> 
+   <td role="rowheader">Licença [!UICONTROL Adobe Workfront Fusion]**</td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p><p>[!UICONTROL [!DNL Workfront Fusion] para automação de trabalho] </p><p>[!UICONTROL [!DNL Workfront Fusion] para automação de trabalho]</p>   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td>Sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</td> 
+   <td>
+   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Ou</p>
+   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Abra o [!UICONTROL Detalhes do cenário] página:
 
-1. Clique no botão **[!UICONTROL Cenário]** no painel esquerdo, em seguida, clique em um cenário no qual deseja obter detalhes.
+1. Clique em **[!UICONTROL Cenário]** no painel esquerdo e clique no cenário no qual deseja obter detalhes.
 
    Ou
 
-   Se você estiver trabalhando no cenário na [O editor de cenário em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), clique na seta para a esquerda ![](assets/exit-editing-arrow.png) próximo ao canto superior esquerdo da janela.
+   Se estiver trabalhando no cenário no [O editor de cenários no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), clique na seta para a esquerda ![](assets/exit-editing-arrow.png) próximo ao canto superior esquerdo da janela.
 
-1. Na página que é exibida, é possível revisar os elementos listados na tabela abaixo.
+1. Na página exibida, é possível revisar os elementos listados na tabela abaixo.
 
    ![](assets/scenario-detail-350x207.png)
 
@@ -68,12 +72,12 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Diagrama de módulos] </td> 
-      <td>Essa guia exibe a representação visual do cenário. O Diagrama é o mesmo que você verá no editor de cenários</td> 
+      <td role="rowheader">[!UICONTROL Diagrama de Módulos] </td> 
+      <td>Essa guia exibe a representação visual do cenário. O diagrama é o mesmo que você verá no editor de cenários</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Histórico] (guia ) </td> 
-      <td> <p>Abra esta guia para ver um histórico do cenário, incluindo qualquer edição do cenário. </p> <p>A guia [!UICONTROL Histórico] também fornece o histórico de execução de cada execução, incluindo o seguinte:</p> 
+      <td role="rowheader">[!UICONTROL Histórico] (guia) </td> 
+      <td> <p>Abra esta guia para ver um histórico do cenário, incluindo qualquer edição do cenário. </p> <p>A guia [!UICONTROL Histórico] também fornece o histórico de execução de cada execução de cenário, que inclui o seguinte:</p> 
        <ul> 
         <li>Status de cada execução (sucesso ou erro)</li> 
         <li>Duração da execução</li> 
@@ -84,7 +88,7 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Execuções incompletas]</td> 
-      <td> <p>Esta guia fornece informações sobre execuções incompletas do cenário. Ele inclui as seguintes informações para cada execução incompleta:</p> 
+      <td> <p>Essa guia fornece informações sobre qualquer execução incompleta do cenário. Ela inclui as seguintes informações para cada execução incompleta:</p> 
        <ul> 
         <li>Data de criação</li> 
         <li>Tamanho da transferência de dados</li> 
@@ -94,30 +98,30 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Ativar cenário] (Botão Ativar/Desativar)</td> 
-      <td>Depois que um cenário é criado, ele precisa ser ativado para que seja executado de acordo com sua programação. Ao clicar no botão Ligar/desligar próximo ao canto superior direito, é possível ativar ou desativar o cenário. Depois de ativado, o cenário é executado de acordo com seu agendamento.</td> 
+      <td role="rowheader">[!UICONTROL Ativar cenário] (botão Ligar/Desligar)</td> 
+      <td>Depois que um cenário é criado, ele precisa ser ativado para ser executado de acordo com seu agendamento. Ao clicar no botão Ligar/Desligar próximo ao canto superior direito, você pode ativar ou desativar o cenário. Quando ativado, o cenário é executado de acordo com seu agendamento.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Editar]</td> 
-      <td>Clique nesse botão no canto superior direito para abrir o editor de cenário, onde você pode trabalhar no cenário.</td> 
+      <td>Clique nesse botão no canto superior direito para abrir o editor de cenários, onde você pode trabalhar em seu cenário.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Opções]</td> 
-      <td> <p>Esse menu fornece opções extras sem precisar abrir o editor de cenário. Isso inclui:</p> 
+      <td> <p>Esse menu fornece opções adicionais sem precisar abrir o editor de cenários. Isso inclui:</p> 
        <ul> 
         <li>[!UICONTROL Agendamento]</li> 
         <li>[!UICONTROL Renomear]</li> 
-        <li>[!UICONTROL Clone]</li> 
+        <li>[!UICONTROL Clonar]</li> 
         <li>[!UICONTROL Excluir]</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Em execução no momento]</td> 
-      <td>Essa área mostra informações relacionadas à execução em execução no momento.</td> 
+      <td>Esta área mostra informações relacionadas à execução atual.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Histórico] (área)</p> <p> </p> </td> 
-      <td> <p>Essa área mostra informações relacionadas às últimas execuções do cenário. Para cada execução, ele exibe:</p> 
+      <td> <p>Essa área mostra informações relacionadas às últimas execuções do cenário. Para cada execução exibida:</p> 
        <ul> 
         <li>Data de execução</li> 
         <li>Status (sucesso ou falha)</li> 
@@ -128,7 +132,7 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Estatísticas]</p>  </td> 
-      <td>Este gráfico permite que você visualize a quantidade de transferência de dados e operações usadas ao longo das execuções do cenário em um gráfico da [!UICONTROL line].</td> 
+      <td>Este gráfico permite exibir a quantidade de transferências de dados e operações usadas nas execuções do cenário em um gráfico de [!UICONTROL linha].</td> 
      </tr> 
     </tbody> 
    </table>

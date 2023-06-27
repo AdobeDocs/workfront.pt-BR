@@ -7,16 +7,16 @@ description: Acessar o Workfront Fusion por meio do Adobe Experience Cloud ofere
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 2ce444ac32a0f2de64170f7c901b08063c7e04d3
+source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Unified Experience] por [!DNL Workfront Fusion]
 
-Acesso ao [!DNL Workfront Fusion] até [!DNL Adobe Experience Cloud] oferece uma experiência perfeita e unificada para gerenciar todos os seus anúncios[!DNL]aplicativos Adobe. O gerenciamento de identidade única fornece um local para fazer logon, sem vários URLs ou IDs de logon.
+Acesso ao [!DNL Workfront Fusion] até [!DNL Adobe Experience Cloud] oferece uma experiência perfeita e unificada para gerenciar todos os seus [!DNL Adobe] aplicativos. O gerenciamento de identidade única fornece um local para fazer logon, sem vários URLs ou IDs de logon.
 
 Para assistir a um vídeo que descreve a navegação no [!DNL Fusion] no [!DNL Adobe Experience Cloud], consulte:
 
@@ -40,11 +40,18 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p> <p>[!UICONTROL [!DNL Workfront Fusion] para automação de trabalho] </p>  </td> 
+   <td>
+   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Ou</p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td>Sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</td> 
+   <td>
+   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Ou</p>
+   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>

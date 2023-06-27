@@ -4,20 +4,20 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Módulos SFTP
-description: O [!DNL Adobe Workfront Fusion SFTP] Os módulos permitem monitorar as alterações de arquivo em uma pasta/subpasta selecionada, fazer upload de novos arquivos para a pasta desejada, modificar ou excluir arquivos existentes que já estão em uma pasta ou alterar permissões de arquivo.
+description: A variável [!DNL Adobe Workfront Fusion SFTP] Os módulos do permitem monitorar as alterações de arquivos em uma pasta/subpasta selecionada, fazer upload de novos arquivos para a pasta desejada, modificar ou excluir arquivos existentes que já estão em uma pasta ou alterar as permissões de arquivos.
 author: Becky
 feature: Workfront Fusion
 exl-id: aacc61f8-ffc3-48db-9f54-188685c52067
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1931'
 ht-degree: 0%
 
 ---
 
 # Módulos SFTP
 
-O [!DNL Adobe Workfront Fusion] SFOs módulos TP permitem monitorar as alterações de arquivo em uma pasta/subpasta selecionada, fazer upload de novos arquivos para a pasta desejada, modificar ou excluir arquivos existentes que já estão em uma pasta ou alterar permissões de arquivo.
+A variável [!DNL Adobe Workfront Fusion] SFOs módulos TP permitem monitorar as alterações de arquivos em uma pasta/subpasta selecionada, fazer upload de novos arquivos para a pasta desejada, modificar ou excluir arquivos existentes que já estão em uma pasta ou alterar as permissões de arquivos.
 
 ## Requisitos de acesso
 
@@ -37,16 +37,24 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para automação e integração de trabalho] </p> </td> 
+   <td>
+   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Ou</p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td>Sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</td> 
+   <td>
+   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Ou</p>
+   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -54,32 +62,32 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
 
 Para usar o SFTP com [!DNL Workfront Fusion], é necessário ter uma conta SFTP (como [!DNL GoDaddy] hospedagem na web).
 
-## Conectar SFTP ao [!DNL Workfront Fusion] {#connect-sftp-to-workfront-fusion}
+## Conectar SFTP a [!DNL Workfront Fusion] {#connect-sftp-to-workfront-fusion}
 
-Para conectar sua conta SFTP a [!DNL Workfront Fusion] você precisa inserir o host de destino e as credenciais SFTP (nome de usuário e senha ou nome de usuário e chave) no módulo [!UICONTROL Criar uma conexão] caixa de diálogo.
+Para conectar sua conta SFTP ao [!DNL Workfront Fusion] Você precisa digitar o host de destino e as credenciais SFTP (nome de usuário e senha ou nome de usuário e chave) para o [!UICONTROL Criar uma conexão] diálogo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Nome da conexão]</td> 
+   <td role="rowheader">[!UICONTROL Nome da Conexão]</td> 
    <td> <p> Insira o nome da conexão SFTP.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Host]</p> </td> 
-   <td> <p>Insira o nome do host do servidor SFTP que você deseja conectar.</p> </td> 
+   <td> <p>Digite o nome de host do servidor SFTP que deseja conectar.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Port] </td> 
+   <td role="rowheader">[!UICONTROL Porta] </td> 
    <td> <p>Insira a porta do servidor SFTP. Por exemplo, 22.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Auth type]</p> </td> 
-   <td> <p>Selecione o método de autorização que deseja usar para se conectar ao servidor SFTP.</p> 
+   <td role="rowheader"> <p>[!UICONTROL Tipo de autenticação]</p> </td> 
+   <td> <p>Selecione o método de autorização que deseja usar para a conexão com o servidor SFTP.</p> 
     <ul> 
      <li><strong>[!UICONTROL Nome de usuário e senha]</strong>: Insira suas credenciais.</li> 
-     <li> <p><strong>[!UICONTROL Nome de usuário e chave]</strong>: Insira seu nome de usuário e a chave privada/certificado</p> <p>Faça upload da chave privada para usar a autorização do lado do cliente ou faça upload do certificado (arquivo P12 ou PFX) se desejar usar o TLS usando o certificado autoassinado. Se estiver usando a autorização de certificado do lado do cliente, você pode inserir o certificado da autoridade de certificação aqui.</p> <p>[!DNL Workfront Fusion] não retém ou armazena dados (arquivos, senhas) fornecidos aqui. O arquivo e a senha são usados apenas para extrair uma chave privada/certificado.</p> </li> 
+     <li> <p><strong>[!UICONTROL Nome de usuário e chave]</strong>: Insira seu nome de usuário e a chave privada/certificado</p> <p>Carregue a chave privada para usar a autorização do lado do cliente ou carregue seu certificado (arquivo P12 ou PFX) se quiser usar TLS usando seu certificado autoassinado. Se você estiver usando a autorização de certificado do lado do cliente, insira seu certificado de autoridade de certificação aqui.</p> <p>[!DNL Workfront Fusion] O não retém nem armazena dados (arquivos, senhas) que você fornecer aqui. O arquivo e a senha são usados apenas para extrair uma chave/certificado privado.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -89,15 +97,15 @@ Depois de inserir as informações de conexão, clique em **[!UICONTROL Continua
 
 ## [!UICONTROL SFTP] módulos e seus campos
 
-Ao configurar [!UICONTROL SFTP] módulos, [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, [!UICONTROL SFTP] podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
+Ao configurar [!UICONTROL SFTP] módulos, [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, [!UICONTROL SFTP] Os campos podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
 
-Se o botão de mapa for exibido acima de um campo ou função, é possível usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
 ### Triggers
 
-#### [!UICONTROL Assistir arquivos em uma pasta]
+#### [!UICONTROL Observar arquivos em uma pasta]
 
 Retorna arquivos com detalhes quando um arquivo é criado ou alterado em uma pasta especificada.
 
@@ -106,25 +114,25 @@ Retorna arquivos com detalhes quando um arquivo é criado ou alterado em uma pas
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
-   <td> <p>Para obter instruções sobre como conectar sua conta SFTP a [!DNL Workfront Fusion], consulte <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Conectar SFTP ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td>[!UICONTROL Conexão] </td>
+   <td> <p>Para obter instruções sobre como conectar sua conta SFTP ao [!DNL Workfront Fusion], consulte <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Conectar SFTP a [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Pasta] </td> 
-   <td> <p>Insira ou mapeie a pasta que deseja assistir. Você pode especificar um caminho absoluto, como <code>/home/user/</code>. Ou você pode especificar um caminho relativo apontando para uma pasta específica do usuário conectado, como <code>./.</code></p> </td> 
+   <td> <p>Insira ou mapeie a pasta que deseja observar. Você pode especificar um caminho absoluto, como <code>/home/user/</code>. Ou você pode especificar um caminho relativo que aponte para uma pasta específica do usuário conectado, como <code>./.</code></p> </td> 
   </tr> 
   <tr> 
    <td>Tamanho do buffer [B]</td> 
-   <td> <p> Insira o tamanho do buffer em bytes. O valor define o tamanho das partes transferidas do servidor. Alguns servidores podem causar problemas ou arquivos corrompidos quando o valor é muito alto.</p> </td> 
+   <td> <p> Insira o tamanho do buffer em bytes. O valor define o tamanho das partes transferidas do servidor. Alguns servidores podem causar problemas ou corromper arquivos quando o valor é muito alto.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Número máximo de arquivos retornados]</td> 
-   <td> <p> Defina o número máximo de arquivos que [!DNL Workfront Fusion] funcionará durante um ciclo</p> </td> 
+   <td> <p> Defina o número máximo de arquivos que [!DNL Workfront Fusion] funcionará com durante um ciclo</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Observação de subpastas em uma pasta]
+#### [!UICONTROL Observar subpastas em uma pasta]
 
 Retorna pastas com detalhes quando uma pasta é criada ou alterada em uma pasta especificada.
 
@@ -133,12 +141,12 @@ Retorna pastas com detalhes quando uma pasta é criada ou alterada em uma pasta 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>Para obter instruções sobre como conectar sua conta SFTP a [!DNL Workfront Fusion], consulte <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Conectar SFTP ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td>[!UICONTROL Conexão] </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta SFTP ao [!DNL Workfront Fusion], consulte <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Conectar SFTP a [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Pasta] </td> 
-   <td> <p>Insira ou mapeie a pasta que deseja assistir. Você pode especificar um caminho absoluto, como <code>/home/user/</code>. Ou você pode especificar um caminho relativo apontando para uma pasta específica do usuário conectado, como <code>./.</code></p> </td> 
+   <td> <p>Insira ou mapeie a pasta que deseja observar. Você pode especificar um caminho absoluto, como <code>/home/user/</code>. Ou você pode especificar um caminho relativo que aponte para uma pasta específica do usuário conectado, como <code>./.</code></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Número máximo de arquivos retornados]</td> 
@@ -156,31 +164,31 @@ Retorna pastas com detalhes quando uma pasta é criada ou alterada em uma pasta 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
-   <td> <p>Para obter instruções sobre como conectar sua conta SFTP a [!DNL Workfront Fusion], consulte <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Conectar SFTP ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td>[!UICONTROL Conexão] </td>
+   <td> <p>Para obter instruções sobre como conectar sua conta SFTP ao [!DNL Workfront Fusion], consulte <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Conectar SFTP a [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Show] </td> 
+   <td>[!UICONTROL Mostrar] </td> 
    <td> <p>Selecione se deseja recuperar arquivos, pastas ou ambos.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Pasta] </td> 
-   <td> <p>Insira ou mapeie a pasta que contém os arquivos ou pastas que deseja listar. Você pode especificar um caminho absoluto, como <code>/home/user/</code>. Ou você pode especificar um caminho relativo apontando para uma pasta específica do usuário conectado, como <code>./.</code></p> </td> 
+   <td> <p>Insira ou mapeie a pasta que contém os arquivos ou pastas que deseja listar. Você pode especificar um caminho absoluto, como <code>/home/user/</code>. Ou você pode especificar um caminho relativo que aponte para uma pasta específica do usuário conectado, como <code>./.</code></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Search] </td> 
-   <td> <p>Insira ou mapeie o termo de pesquisa. Por exemplo, se você deseja pesquisar por arquivos com a extensão de arquivo .txt, insira <code>.txt</code>.Também é possível inserir ou mapear o nome do arquivo que deseja pesquisar.</p> </td> 
+   <td>[!UICONTROL Pesquisar] </td> 
+   <td> <p>Insira ou mapeie o termo de pesquisa. Por exemplo, se você deseja pesquisar arquivos com a extensão .txt, digite <code>.txt</code>. Você também pode inserir ou mapear o nome do arquivo que deseja pesquisar.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Classificar por]</td> 
-   <td> <p> Selecione se deseja classificar os resultados por nome de arquivo, tamanho, data de último acesso ou data da última modificação.</p> </td> 
+   <td> <p> Selecione se deseja classificar os resultados por nome de arquivo, tamanho, data do último acesso ou data da última modificação.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Ordem de classificação] </td> 
+   <td>[!UICONTROL Ordem de Classificação] </td> 
    <td> <p>Selecione se o resultado deve ser retornado em ordem crescente ou decrescente.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Continuar a execução da rota mesmo se o módulo não retornar nenhum resultado]</p> </td> 
+   <td> <p>[!UICONTROL Continuar a execução da rota mesmo se o módulo não retornar resultados]</p> </td> 
    <td>Ative essa opção para garantir que esse módulo não interrompa o cenário se não retornar resultados.</td> 
   </tr> 
   <tr> 
@@ -192,38 +200,38 @@ Retorna pastas com detalhes quando uma pasta é criada ou alterada em uma pasta 
 
 #### [!UICONTROL Obter arquivos]
 
-Esse módulo lista arquivos de uma pasta especificada.
+Este módulo lista os arquivos de uma pasta especificada.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
-   <td> <p>Para obter instruções sobre como conectar sua conta SFTP a [!DNL Workfront Fusion], consulte <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Conectar SFTP ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td>[!UICONTROL Conexão] </td>
+   <td> <p>Para obter instruções sobre como conectar sua conta SFTP ao [!DNL Workfront Fusion], consulte <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Conectar SFTP a [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Tamanho do buffer [B]]</td> 
-   <td> <p> Insira o tamanho do buffer em bytes. O valor define o tamanho das partes transferidas do servidor. Alguns servidores podem causar problemas ou arquivos corrompidos quando o valor é muito alto.</p> </td> 
+   <td>[!UICONTROL Tamanho do Buffer [B]]</td> 
+   <td> <p> Insira o tamanho do buffer em bytes. O valor define o tamanho das partes transferidas do servidor. Alguns servidores podem causar problemas ou corromper arquivos quando o valor é muito alto.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Pasta] </td> 
-   <td> <p>Insira ou mapeie a pasta que contém os arquivos ou pastas que deseja listar. Você pode especificar um caminho absoluto, como <code>/home/user/</code>. Ou você pode especificar um caminho relativo apontando para uma pasta específica do usuário conectado, como <code>./.</code></p> </td> 
+   <td> <p>Insira ou mapeie a pasta que contém os arquivos ou pastas que deseja listar. Você pode especificar um caminho absoluto, como <code>/home/user/</code>. Ou você pode especificar um caminho relativo que aponte para uma pasta específica do usuário conectado, como <code>./.</code></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Search] </td> 
-   <td> <p>Insira ou mapeie o termo de pesquisa. Por exemplo, se você deseja pesquisar por arquivos com a extensão de arquivo .txt, insira <code>.txt</code>.Também é possível inserir ou mapear o nome do arquivo que deseja pesquisar.</p> </td> 
+   <td>[!UICONTROL Pesquisar] </td> 
+   <td> <p>Insira ou mapeie o termo de pesquisa. Por exemplo, se você deseja pesquisar arquivos com a extensão .txt, digite <code>.txt</code>. Você também pode inserir ou mapear o nome do arquivo que deseja pesquisar.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Classificar por]</td> 
-   <td> <p> Selecione se deseja classificar os resultados pelo nome do arquivo, tamanho, data de último acesso ou data da última modificação.</p> </td> 
+   <td> <p> Selecione se deseja classificar os resultados pelo nome do arquivo, tamanho, data do último acesso ou data da última modificação.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Ordem de classificação]</td> 
+   <td>[!UICONTROL Ordem de Classificação]</td> 
    <td> <p> Selecione se o resultado deve ser retornado em ordem crescente ou decrescente.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Continuar a execução da rota mesmo se o módulo não retornar nenhum resultado]</p> </td> 
+   <td> <p>[!UICONTROL Continuar a execução da rota mesmo se o módulo não retornar resultados]</p> </td> 
    <td>Ative essa opção para garantir que esse módulo não interrompa o cenário se não retornar resultados.</td> 
   </tr> 
   <tr> 
@@ -235,28 +243,28 @@ Esse módulo lista arquivos de uma pasta especificada.
 
 #### [!UICONTROL Obter um arquivo]
 
-Esse módulo recupera detalhes do arquivo, incluindo os dados de um arquivo.
+Este módulo recupera detalhes do arquivo, incluindo dados do arquivo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
-   <td> <p>Para obter instruções sobre como conectar sua conta SFTP a [!DNL Workfront Fusion], consulte <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Conectar SFTP ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td>[!UICONTROL Conexão] </td>
+   <td> <p>Para obter instruções sobre como conectar sua conta SFTP ao [!DNL Workfront Fusion], consulte <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Conectar SFTP a [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Tamanho do buffer [B]]</td> 
-   <td> <p> Insira o tamanho do buffer em bytes. O valor define o tamanho das partes transferidas do servidor. Alguns servidores podem causar problemas ou arquivos corrompidos quando o valor é muito alto.</p> </td> 
+   <td>[!UICONTROL Tamanho do Buffer [B]]</td> 
+   <td> <p> Insira o tamanho do buffer em bytes. O valor define o tamanho das partes transferidas do servidor. Alguns servidores podem causar problemas ou corromper arquivos quando o valor é muito alto.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Caminho do arquivo] </td> 
-   <td> <p>Insira o caminho para o arquivo. Você pode especificar um caminho absoluto, como <code>/home/user/file.txt</code>. Ou você pode especificar um caminho relativo apontando para uma pasta específica do usuário conectado, como <code>./file.txt</code>.</p> </td> 
+   <td>[!UICONTROL Caminho do Arquivo] </td> 
+   <td> <p>Insira o caminho para o arquivo. Você pode especificar um caminho absoluto, como <code>/home/user/file.txt</code>. Ou você pode especificar um caminho relativo que aponte para uma pasta específica do usuário conectado, como <code>./file.txt</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Fazer upload de um arquivo]
+#### [!UICONTROL Carregar um arquivo]
 
 Esse módulo permite fazer upload de um arquivo para o servidor SFTP.
 
@@ -265,20 +273,20 @@ Esse módulo permite fazer upload de um arquivo para o servidor SFTP.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
-   <td> <p>Para obter instruções sobre como conectar sua conta SFTP a [!DNL Workfront Fusion], consulte <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Conectar SFTP ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td>[!UICONTROL Conexão] </td>
+   <td> <p>Para obter instruções sobre como conectar sua conta SFTP ao [!DNL Workfront Fusion], consulte <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Conectar SFTP a [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Pasta] </td> 
-   <td> <p>Especifique uma pasta existente como o local de armazenamento do arquivo. Você pode especificar um caminho absoluto, como <code>/home/user/</code>. Ou você pode especificar um caminho relativo apontando para uma pasta específica do usuário conectado, como <code>./.</code></p> </td> 
+   <td> <p>Especifique uma pasta existente como local de armazenamento para o arquivo. Você pode especificar um caminho absoluto, como <code>/home/user/</code>. Ou você pode especificar um caminho relativo que aponte para uma pasta específica do usuário conectado, como <code>./.</code></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Arquivo de origem]</td> 
-   <td> <p> Mapeie o arquivo de origem de um módulo anterior, como [!UICONTROL Dropbox] &gt; [!UICONTROL Obter arquivo]. Você também pode inserir ou mapear o nome do arquivo e os dados do arquivo.</p> </td> 
+   <td>[!UICONTROL Arquivo de Origem]</td> 
+   <td> <p> Mapeie o arquivo de origem de um módulo anterior, como [!UICONTROL Dropbox] &gt; [!UICONTROL Obter Arquivo]. Você também pode inserir ou mapear o nome do arquivo e os dados do arquivo.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Permissões]</p> </td> 
-   <td> <p>Defina as permissões desejadas para o arquivo ou pasta. Use parâmetros de chmod. Por exemplo: <code>777 </code>ou <code>-rwxrwxrwx</code>.</p> <p>Para obter mais detalhes sobre o chmod, consulte o <a href="https://ss64.com/bash/chmod.html">documentação do chmod</a>.</p> </td> 
+   <td> <p>Defina as permissões desejadas para o arquivo ou pasta. Use parâmetros chmod. Por exemplo: <code>777 </code>ou <code>-rwxrwxrwx</code>.</p> <p>Para obter mais detalhes sobre chmod, consulte o <a href="https://ss64.com/bash/chmod.html">documentação de chmod</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -292,16 +300,16 @@ Renomeia um arquivo.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
-   <td> <p>Para obter instruções sobre como conectar sua conta SFTP a [!DNL Workfront Fusion], consulte <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Conectar SFTP ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td>[!UICONTROL Conexão] </td>
+   <td> <p>Para obter instruções sobre como conectar sua conta SFTP ao [!DNL Workfront Fusion], consulte <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Conectar SFTP a [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Caminho do arquivo]</td> 
-   <td> <p> Insira o caminho para o arquivo que deseja renomear. Você pode especificar um caminho absoluto, como <code>/home/user/file.txt</code>. Ou você pode especificar um caminho relativo apontando para uma pasta específica do usuário conectado, como <code>./file.txt</code>.</p> </td> 
+   <td>[!UICONTROL Caminho do Arquivo]</td> 
+   <td> <p> Insira o caminho para o arquivo que você deseja renomear. Você pode especificar um caminho absoluto, como <code>/home/user/file.txt</code>. Ou você pode especificar um caminho relativo que aponte para uma pasta específica do usuário conectado, como <code>./file.txt</code>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Novo nome de arquivo]</td> 
-   <td> <p> Insira o novo nome do arquivo, incluindo a extensão de arquivo.</p> </td> 
+   <td> <p> Insira o novo nome do arquivo, incluindo a extensão.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -313,16 +321,16 @@ Renomeia um arquivo.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
-   <td> <p>Para obter instruções sobre como conectar sua conta SFTP a [!DNL Workfront Fusion], consulte <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Conectar SFTP ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td>[!UICONTROL Conexão] </td>
+   <td> <p>Para obter instruções sobre como conectar sua conta SFTP ao [!DNL Workfront Fusion], consulte <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Conectar SFTP a [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Caminho do arquivo]</td> 
-   <td> <p> Insira o caminho para o arquivo que deseja mover. Você pode especificar um caminho absoluto, como <code>/home/user/file.txt</code>. Ou você pode especificar um caminho relativo apontando para uma pasta específica do usuário conectado, como <code>./file.txt</code>.</p> </td> 
+   <td>[!UICONTROL Caminho do Arquivo]</td> 
+   <td> <p> Insira o caminho para o arquivo que deseja mover. Você pode especificar um caminho absoluto, como <code>/home/user/file.txt</code>. Ou você pode especificar um caminho relativo que aponte para uma pasta específica do usuário conectado, como <code>./file.txt</code>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Nova pasta]</td> 
-   <td> <p> Insira o caminho para o novo local do arquivo. Você pode especificar um caminho absoluto, como <code>/home/user/</code>. Ou você pode especificar um caminho relativo apontando para uma pasta específica do usuário conectado, como <code>./.</code></p> </td> 
+   <td>[!UICONTROL Nova Pasta]</td> 
+   <td> <p> Insira o caminho para o novo local do arquivo. Você pode especificar um caminho absoluto, como <code>/home/user/</code>. Ou você pode especificar um caminho relativo que aponte para uma pasta específica do usuário conectado, como <code>./.</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -334,12 +342,12 @@ Renomeia um arquivo.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
-   <td> <p>Para obter instruções sobre como conectar sua conta SFTP a [!DNL Workfront Fusion], consulte <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Conectar SFTP ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td>[!UICONTROL Conexão] </td>
+   <td> <p>Para obter instruções sobre como conectar sua conta SFTP ao [!DNL Workfront Fusion], consulte <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Conectar SFTP a [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Caminho do arquivo]</td> 
-   <td> <p> Insira o caminho para o arquivo que deseja excluir. Você pode especificar um caminho absoluto, como <code>/home/user/file.txt</code>. Ou você pode especificar um caminho relativo apontando para uma pasta específica do usuário conectado, como <code>./file.txt</code>.</p> </td> 
+   <td>[!UICONTROL Caminho do Arquivo]</td> 
+   <td> <p> Insira o caminho para o arquivo que deseja excluir. Você pode especificar um caminho absoluto, como <code>/home/user/file.txt</code>. Ou você pode especificar um caminho relativo que aponte para uma pasta específica do usuário conectado, como <code>./file.txt</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -353,16 +361,16 @@ Permite alterar as permissões do arquivo.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
-   <td> <p>Para obter instruções sobre como conectar sua conta SFTP a [!DNL Workfront Fusion], consulte <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Conectar SFTP ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td>[!UICONTROL Conexão] </td>
+   <td> <p>Para obter instruções sobre como conectar sua conta SFTP ao [!DNL Workfront Fusion], consulte <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Conectar SFTP a [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Caminho do arquivo]</td> 
-   <td> <p> Insira o caminho para o arquivo que deseja mover. Você pode especificar um caminho absoluto, como <code>/home/user/file.txt</code>. Ou você pode especificar um caminho relativo apontando para uma pasta específica do usuário conectado, como <code>./file.txt</code>.</p> </td> 
+   <td>[!UICONTROL Caminho do Arquivo]</td> 
+   <td> <p> Insira o caminho para o arquivo que deseja mover. Você pode especificar um caminho absoluto, como <code>/home/user/file.txt</code>. Ou você pode especificar um caminho relativo que aponte para uma pasta específica do usuário conectado, como <code>./file.txt</code>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Permissões]</p> </td> 
-   <td> <p>Defina as permissões de arquivo desejadas. Use os parâmetros de chmod. Por exemplo, <code>777 </code>ou <code>-rwxrwxrwx</code>.</p> <p>Deve corresponder ao padrão <code> /(.?([r-][w-][x-]){3})|[0-7]{3}/.</code></p> <p>Para obter mais detalhes sobre o chmod, consulte o <a href="https://ss64.com/bash/chmod.html">documentação do chmod</a>.</p> </td> 
+   <td> <p>Defina as permissões de arquivo desejadas. Use os parâmetros chmod. Por exemplo, <code>777 </code>ou <code>-rwxrwxrwx</code>.</p> <p>Deve corresponder ao padrão <code> /(.?([r-][w-][x-]){3})|[0-7]{3}/.</code></p> <p>Para obter mais detalhes sobre chmod, consulte o <a href="https://ss64.com/bash/chmod.html">documentação de chmod</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -373,27 +381,27 @@ Cria uma nova pasta no local especificado.
 
 >[!NOTE]
 >
->Se a pasta já existir, o módulo emitirá um erro. Para continuar o fluxo sem interrupções, anexe uma rota do manipulador de erros ao módulo para capturar o erro e usar o [!UICONTROL Retomar] diretiva para continuar o fluxo. Para obter informações sobre como anexar uma rota do manipulador de erros, consulte [Tratamento de erros em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-handling.md). Para obter informações sobre a rota do manipulador de erros, consulte [Diretivas relativas ao tratamento de erros [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md).
+>Se a pasta já existir, o módulo emitirá um erro. Para continuar o fluxo sem interrupções, anexe uma rota de manipulador de erros ao módulo para capturar o erro e empregue o [!UICONTROL Retomar] diretiva para continuar o fluxo. Para obter informações sobre como anexar uma rota de manipulador de erros, consulte [Tratamento de erros no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-handling.md). Para obter informações sobre a rota do manipulador de erros, consulte [Diretivas para tratamento de erros no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md).
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
-   <td> <p>Para obter instruções sobre como conectar sua conta SFTP a [!DNL Workfront Fusion], consulte <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Conectar SFTP ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td>[!UICONTROL Conexão] </td>
+   <td> <p>Para obter instruções sobre como conectar sua conta SFTP ao [!DNL Workfront Fusion], consulte <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Conectar SFTP a [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Pasta] </td> 
-   <td> <p>Especifique uma pasta existente como o local de armazenamento para a nova pasta. Você pode especificar um caminho absoluto, como <code>/home/user/file.txt</code>. Ou você pode especificar um caminho relativo apontando para uma pasta específica do usuário conectado, como <code>./</code>.</p> </td> 
+   <td> <p>Especifique uma pasta existente como local de armazenamento para a nova pasta. Você pode especificar um caminho absoluto, como <code>/home/user/file.txt</code>. Ou você pode especificar um caminho relativo que aponte para uma pasta específica do usuário conectado, como <code>./</code>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Nome da pasta]</td> 
+   <td>[!UICONTROL Nome da Pasta]</td> 
    <td> <p> Insira o nome da pasta.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Permissões]</p> </td> 
-   <td> <p>Defina as permissões de pasta desejadas. Use parâmetros de chmod. Por exemplo, <code>777 </code>ou <code>-rwxrwxrwx</code>.</p> <p>Deve corresponder ao padrão <code>/(.?([r-][w-][x-]){3})|[0-7]{3}/.</code></p> <p>Para obter mais detalhes sobre o chmod, consulte o <a href="https://ss64.com/bash/chmod.html">Página do Homem de Moda</a>.</p> </td> 
+   <td> <p>Defina as permissões de pasta desejadas. Use parâmetros chmod. Por exemplo, <code>777 </code>ou <code>-rwxrwxrwx</code>.</p> <p>Deve corresponder ao padrão <code>/(.?([r-][w-][x-]){3})|[0-7]{3}/.</code></p> <p>Para obter mais detalhes sobre chmod, consulte o <a href="https://ss64.com/bash/chmod.html">Página principal do chmod</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -405,12 +413,12 @@ Cria uma nova pasta no local especificado.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
-   <td> <p>Para obter instruções sobre como conectar sua conta SFTP a [!DNL Workfront Fusion], consulte <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Conectar SFTP ao [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td>[!UICONTROL Conexão] </td>
+   <td> <p>Para obter instruções sobre como conectar sua conta SFTP ao [!DNL Workfront Fusion], consulte <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Conectar SFTP a [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!DNL Folder Path]</td> 
-   <td> <p> Especifique o caminho para a pasta que deseja excluir. Você pode especificar um caminho absoluto, como <code>/home/user/</code>. Ou você pode especificar um caminho relativo apontando para uma pasta específica do usuário conectado, como <code>./.</code></p> </td> 
+   <td> <p> Especifique o caminho para a pasta que deseja excluir. Você pode especificar um caminho absoluto, como <code>/home/user/</code>. Ou você pode especificar um caminho relativo que aponte para uma pasta específica do usuário conectado, como <code>./.</code></p> </td> 
   </tr> 
  </tbody> 
 </table>

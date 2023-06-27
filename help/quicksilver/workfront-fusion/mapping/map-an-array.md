@@ -2,19 +2,19 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
-title: Mapear uma matriz em [!DNL Adobe] Workfront Fusion
+title: Mapear uma matriz no [!DNL Adobe] Workfront Fusion
 description: Você pode mapear uma matriz para um campo de módulo no Adobe Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: 725e0c24-cb4b-46c4-9c00-4f9cc334fbc7
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
 
-# Mapear uma matriz em [!DNL Adobe Workfront Fusion]
+# Mapear uma matriz no [!DNL Adobe Workfront Fusion]
 
 Uma matriz é um tipo especial de item que pode conter o seguinte:
 
@@ -23,9 +23,9 @@ Uma matriz é um tipo especial de item que pode conter o seguinte:
 
 >[!INFO]
 >
->**Exemplo:** O [!UICONTROL Assistir a emails] retorna uma matriz de anexos para cada email. Cada anexo representa uma coleção que pode conter um nome, conteúdo, tamanho e assim por diante.
+>**Exemplo:** A variável [!UICONTROL Assistir a emails] O módulo retorna uma matriz de anexos para cada email. Cada anexo representa uma coleção que pode conter um nome, conteúdo, tamanho e assim por diante.
 
-Para obter mais informações, consulte [Tipos de dados de item em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
+Para obter mais informações, consulte [Tipos de dados de item no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
 
 ## Requisitos de acesso
 
@@ -44,34 +44,42 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
    <td> <p>[!UICONTROL Plano], [!UICONTROL Trabalho]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para automação e integração de trabalho] </p>  </td> 
+   <td role="rowheader">Licença [!UICONTROL Adobe Workfront Fusion]**</td> 
+   <td>
+   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Ou</p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td>Sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</td> 
+   <td>
+   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Ou</p>
+   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Mapear uma matriz
 
-1. Clique no botão localizado no campo target.
+1. Clique no botão localizado no campo de destino.
 
    >[!INFO]
    >
-   >  **Exemplo:** No exemplo acima, você clicaria no botão [!UICONTROL Adicionar um anexo] para um email.
+   >  **Exemplo:** Para o exemplo acima, você clicaria em [!UICONTROL Adicionar um anexo] para um email.
    >
    >![](assets/add-an-attachment-button-350x152.jpg)
 
-1. Na caixa exibida, digite o item.
+1. Na caixa exibida, insira o item.
 
-   O painel permite mapear campos da mesma forma que com qualquer outro tipo de item. Se você não quiser preencher cada item separadamente, mas quiser mapear outra matriz para o campo de destino, use o [!UICONTROL Mapa] botão. Nesse caso, verifique se ambas as matrizes (a matriz de origem e a matriz de destino) têm a mesma estrutura.
+   O painel permite mapear campos da mesma forma que com qualquer outro tipo de item. Se não quiser preencher cada item separadamente, mas quiser mapear outra matriz no campo de destino, use o [!UICONTROL Mapa] botão. Nesse caso, verifique se ambos os storages (o storage de origem e o storage de destino) têm a mesma estrutura.
 
    Você pode adicionar qualquer número de itens a uma matriz.
 
-Você pode dividir um array em pacotes individuais usando um iterador. Para obter mais informações, consulte [[!UICONTROL Iterador] módulo em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md).
+É possível dividir uma matriz em pacotes individuais usando um iterador. Para obter mais informações, consulte [[!UICONTROL Iterador] módulo no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md).
