@@ -5,10 +5,11 @@ title: Nova experiência de comentários
 description: Uma atualização para a experiência de comentários no Adobe Workfront está em desenvolvimento no momento. Esta atualização inclui uma nova interface, novos recursos e melhor desempenho na seção Atualizações de objetos selecionados.
 author: Alina
 feature: Product Announcements
+role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
+source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '673'
 ht-degree: 1%
 
 ---
@@ -61,12 +62,12 @@ Os seguintes recursos foram removidos da nova experiência:
 >
 >Os objetos listados abaixo têm apenas comentários e atualizações do sistema do ano passado (a partir de junho de 2022) disponíveis ao habilitar a experiência beta.
 >
+>Você pode exibir comentários e atualizações do sistema nesses objetos anteriores a junho de 2022 ao visualizar a seção Atualizações na experiência atual:
 >* Problemas
 >* <span class="preview">Projetos</span>
 >* <span class="preview">Tarefas</span>
 >* <span class="preview">Documentos</span>
->
->Você pode visualizar comentários e atualizações do sistema anteriores a junho de 2022 ao visualizar a seção Atualizações na experiência atual.
+
 
 
 A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiência de comentários, bem como sua disponibilidade em áreas onde são compatíveis:
@@ -135,7 +136,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td> <!--<span class="preview">✓</span>-->
    </td>
    <td> ✓
    </td>

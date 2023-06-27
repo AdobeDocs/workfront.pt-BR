@@ -5,8 +5,10 @@ title: Responder a atualizações
 description: Quando alguém adiciona ou responde a uma atualização em um objeto de trabalho, sua resposta é exibida no thread de comunicação na seção Atualizações do objeto. Você pode adicionar uma resposta a uma atualização ou Curtir se tiver acesso de Visualização ao objeto.
 author: Lisa and Alina
 feature: Get Started with Workfront
+role: User
+topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 0%
@@ -111,7 +113,7 @@ Para obter informações sobre quais recursos estão disponíveis para a nova ex
 
 1. Vá para o objeto ao qual deseja adicionar uma resposta.
 1. Clique em **Atualizações** e, em seguida, clique na guia **Comentários** para o objeto e localize o comentário ou resposta à qual deseja responder.
-   <!-- Ensure this link is called and cased the same way as  before: 1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a vertical gray line.-->
+   <!--1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote reply**. Text from the previous update appears in the input area, marked with a vertical gray line.-->
 1. Clique em **Responder**.
 
    Você pode ver os usuários que estão ativamente envolvidos na conversa na parte inferior da **Novo comentário** e você poderá adicionar ou remover as que não são mais relevantes. Esses usuários, juntamente com quaisquer usuários que se inscreveram no objeto, recebem uma notificação sempre que uma atualização ou resposta é feita no objeto. Você também pode adicionar tags a mais usuários para incluí-los em sua resposta.  Para marcar mais usuários, consulte [Marcar outros usuários em atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
