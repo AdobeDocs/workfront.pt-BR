@@ -4,9 +4,9 @@ description: Atualizações de aparência durante o período de lançamento da v
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: b34325813af7abd0e5107174734f06d6694acfd6
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,17 @@ As melhorias são:
 * agora há um indicador de carregamento quando a página é carregada;
 * o ícone Copiar é persistente e acompanhado de texto e é desativado quando nenhuma solicitação é selecionada.
 
-Para obter mais informações, consulte [Copiar e enviar solicitações](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Para obter mais informações, consulte [Copiar e enviar solicitações](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md). A documentação será atualizada após os lançamentos de recursos.
 
-## Design atualizado ao enviar uma nova solicitação
+## Design atualizado ao adicionar um novo problema a um projeto
 
 >[!NOTE]
 >
 >Versão de visualização planejada: 5 de julho de 2023; Versão de produção planejada: com a versão 23.3
 
-Atualizamos a caixa Nova solicitação, que é exibida ao enviar uma nova solicitação. Agora, a interface corresponde à caixa Novo problema que é exibida ao adicionar um novo problema a um projeto.
+Atualizamos a caixa Novo problema que é exibida ao enviar um novo problema para um projeto. Agora, a interface corresponde à caixa Nova solicitação, que é exibida ao enviar uma nova solicitação para uma fila de solicitações.
 
-Para obter mais informações, consulte [Criar e enviar solicitações do Adobe Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Para obter mais informações, consulte [Criar problemas](../../../manage-work/issues/manage-issues/create-issues.md). A documentação será atualizada após os lançamentos de recursos.
 
 ## Lista de taxas de cobrança atualizada
 

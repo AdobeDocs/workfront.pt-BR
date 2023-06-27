@@ -6,9 +6,9 @@ description: Uma atualização para a experiência de comentários no Adobe Work
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '670'
 ht-degree: 1%
 
 ---
@@ -56,6 +56,18 @@ Os seguintes recursos foram removidos da nova experiência:
 * Comentar em uma atualização do sistema
 * Capacidade de editar status, condição e data de confirmação ao comentar
 * Editar formulário personalizado
+
+>[!NOTE]
+>
+>Os objetos listados abaixo têm apenas comentários e atualizações do sistema do ano passado (a partir de junho de 2022) disponíveis ao habilitar a experiência beta.
+>
+>* Problemas
+>* <span class="preview">Projetos</span>
+>* <span class="preview">Tarefas</span>
+>* <span class="preview">Documentos</span>
+>
+>Você pode visualizar comentários e atualizações do sistema anteriores a junho de 2022 ao visualizar a seção Atualizações na experiência atual.
+
 
 A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiência de comentários, bem como sua disponibilidade em áreas onde são compatíveis:
 

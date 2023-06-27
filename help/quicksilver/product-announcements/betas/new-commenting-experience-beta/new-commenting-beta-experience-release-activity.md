@@ -6,9 +6,9 @@ description: Revise a atividade de lançamento semanal para a nova experiência 
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1500'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,9 @@ Para obter informações gerais sobre a nova experiência de comentários, inclu
 >
 >A nova experiência de comentários lançada em Beta com a versão 23.2. Para obter informações sobre a versão original, consulte [23.2 Visão geral da versão](../../product-releases/23.2-release-activity/23-2-release-overview.md).
 >
->Os recursos de comentário que são lançados para a experiência beta para objetos do Workfront também são lançados para a seção Atualizações de um objeto de meta no Workfront Goals.
+>Os recursos de comentários lançados para a experiência beta para objetos do Workfront também são lançados para a seção Atualizações dos seguintes objetos como a única experiência de comentários:
+>* Metas
+>* Cartões na área Quadros.
 
 ## Linha do tempo de lançamento
 
