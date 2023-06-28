@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1262'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização.</span>
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ele está disponível para todos os clientes somente no ambiente de Pré-visualização.</span>
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ Para obter informações sobre quais recursos estão disponíveis para a nova ex
 
 1. Vá para o objeto ao qual deseja adicionar uma resposta.
 1. Clique em **Atualizações** e, em seguida, clique na guia **Comentários** para o objeto e localize o comentário ou resposta à qual deseja responder.
-   <!--1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote reply**. Text from the previous update appears in the input area, marked with a vertical gray line.-->
+1. <span class="preview">(Opcional) Para incluir texto de uma atualização anterior em sua resposta, clique no link **Mais** ao lado da atualização ou resposta que deseja citar, clique em **Citar resposta**. O texto da atualização anterior é exibido na área de entrada, marcado com uma linha cinza vertical.</span>
 1. Clique em **Responder**.
 
    Você pode ver os usuários que estão ativamente envolvidos na conversa na parte inferior da **Novo comentário** e você poderá adicionar ou remover as que não são mais relevantes. Esses usuários, juntamente com quaisquer usuários que se inscreveram no objeto, recebem uma notificação sempre que uma atualização ou resposta é feita no objeto. Você também pode adicionar tags a mais usuários para incluí-los em sua resposta.  Para marcar mais usuários, consulte [Marcar outros usuários em atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
