@@ -80,25 +80,25 @@ A variável [!UICONTROL SOAP] no momento, o módulo está na versão beta e não
 ><complexType name="ArrayOfFloat">
 >
 >   
-  <complexContent>
+>  <complexContent>
 >
 >      
-     <restriction base="soapenc:Array">
+>     <restriction base="soapenc:Array">
 >
 >         
-        <attribute ref="soapenc:arrayType"
+>        <attribute ref="soapenc:arrayType"
 >
 >            
-           wsdl:arrayType="xsd:integer[]"/>
+>           wsdl:arrayType="xsd:integer[]"/>
 >
 >      
-     </restriction>
+>     </restriction>
 >
 >   
-  </complexContent>
+>  </complexContent>
 >
 >
-</complexType>
+></complexType>
 >```
 
 Inclui a `soapenc:Array`, `soapenc:arrayType` e `wsdl:arrayType` referências, que ainda não são compatíveis com o [!UICONTROL Workfront Fusion].
