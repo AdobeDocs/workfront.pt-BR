@@ -2,29 +2,29 @@
 product-area: workfront-integrations
 keywords: google,doc,documento,planilha,slide
 navigation-topic: workfront-for-g-suite
-title: Acesso [!DNL Adobe Workfront] Conteúdo doméstico do G Suite
-description: Você pode acessar seu [!DNL Adobe Workfront] Conteúdo doméstico, incluindo todas as tarefas, emissões, aprovações e solicitações de acesso atribuídas a você, sem sair do G Suite.
+title: Access [!DNL Adobe Workfront] Conteúdo inicial do G Suite
+description: Você pode acessar seu [!DNL Adobe Workfront] Conteúdo doméstico, incluindo todas as tarefas, problemas, aprovações e solicitações de acesso atribuídas a você, sem sair do G Suite.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
 
-# Acesso [!DNL Adobe Workfront] [!UICONTROL Início] conteúdo de [!DNL G Suite]
+# Access [!DNL Adobe Workfront] [!UICONTROL Início] conteúdo de [!DNL G Suite]
 
 >[!NOTE]
 >
->Existe um [problema conhecido](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) com a versão atual de [!DNL Workfront for G Suite] não funciona conforme o esperado. Estamos trabalhando em uma nova versão e esperamos que ela seja lançada para o [!DNL Google Marketplace] num futuro próximo.
+>A versão mais recente do plug-in do Adobe Workfront para Google foi lançada em 26 de junho de 2023.
 
-Você pode acessar seu [!DNL Adobe Workfront] [!UICONTROL Início] conteúdo, incluindo todas as tarefas, emissões, aprovações e solicitações de acesso atribuídas a você, sem sair do G Suite.
+Você pode acessar seu [!DNL Adobe Workfront] [!UICONTROL Início] conteúdo, incluindo todas as tarefas, problemas, aprovações e solicitações de acesso atribuídas a você, sem sair do G Suite.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,38 +41,38 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
 
 ## Pré-requisitos
 
-Antes de poder acessar [!UICONTROL Início] conteúdo de [!DNL G Suite], você deve
+Antes que você possa acessar o [!UICONTROL Início] conteúdo de [!DNL G Suite], você deve
 
 * Instalar [!DNL Workfront for G suite]\
    Para obter instruções, consulte [Instalar [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Acesso [!DNL Workfront] [!UICONTROL Início] from [!DNL G Suite]
+## Access [!DNL Workfront] [!UICONTROL Início] de [!DNL G Suite]
 
 1. Verifique se você está conectado no [!DNL Workfront].
-1. Se a variável [!UICONTROL Workfront para G Suite] não for exibido, clique no botão [!DNL Workfront] ícone ![](assets/wf-lion-icon.png) no [!DNL G Suite] barra lateral dos complementos na extremidade direita da página.
-1. Se você vir uma seta para a esquerda na parte superior de [!DNL Workfront] para [!DNL G Suite], clique na seta para acessar o [!UICONTROL Início] área.
+1. Se a variável [!UICONTROL Workfront para G Suite] não for exibido, clique na guia [!DNL Workfront] ícone ![](assets/wf-lion-icon.png) no [!DNL G Suite] barra lateral de complementos na extremidade direita da página.
+1. Se você vir uma seta para a esquerda na parte superior de [!DNL Workfront] para [!DNL G Suite], clique na seta para ir para a [!UICONTROL Início] área.
 
-1. No **[!UICONTROL Classificar por]** clique na seta expandir ![](assets/dropdown-arrow.png), em seguida, clique em uma opção para especificar como deseja agrupar os itens de trabalho, de modo que possa encontrar o que deseja.
+1. No **[!UICONTROL Classificar por]** clique na seta de expansão ![](assets/dropdown-arrow.png), em seguida, clique em uma opção para especificar como você deseja agrupar seus itens de trabalho para encontrar o item desejado.
 
-   Ao classificar por **[!UICONTROL Data da confirmação]** ou **[!UICONTROL Conclusão planejada]** data, os itens de trabalho mais antigos estão no topo.
+   Ao classificar por **[!UICONTROL Data de confirmação]** ou **[!UICONTROL Término planejado]** os itens de trabalho mais antigos estão na parte superior.
 
-   Ao classificar por **[!UICONTROL Projeto]**, itens de trabalho aparecem na ordem de seus projetos-pai, listados alfabeticamente de A a Z. Itens de trabalho sem um projeto-pai são exibidos em **[!UICONTROL Sem projeto]**.
+   Ao classificar por **[!UICONTROL Projeto]**, os itens de trabalho aparecem na ordem de seus projetos principais, listados alfabeticamente de A a Z. Os itens de trabalho sem um projeto principal são exibidos em **[!UICONTROL Nenhum projeto]**.
 
 1. Clique na seta de expansão ![](assets/dropdown-arrow.png) para o agrupamento que deseja exibir.
 
-   O número de itens contidos em cada grupo é exibido entre parênteses. Ao clicar no botão [!UICONTROL expandir] , todos os itens de trabalho no grupo são exibidos.
+   O número de itens contidos em cada grupo é exibido entre parênteses. Ao clicar no botão [!UICONTROL expandir] , todos os itens de trabalho no grupo serão exibidos.
 
-   Os itens de trabalho são exibidos da seguinte maneira:
+   Os itens de trabalho aparecem da seguinte forma:
 
-   * ![](assets/task-icon.png) **Tarefas** exibir o nome do projeto pai, o nome da tarefa e a data de conclusão planejada.
+   * ![](assets/task-icon.png) **Tarefas** exibe o nome do projeto pai, o nome da tarefa e a data de conclusão planejada.
 
-   * ![](assets/issue-icon.png) **Problemas** exibir o nome do projeto pai, o nome da ocorrência e a data de conclusão planejada.
+   * ![](assets/issue-icon.png) **Problemas** exibe o nome do projeto pai, o nome do problema e a data de conclusão planejada.
 
    * ![](assets/document-icon.png)  **Aprovações** exibir o nome do solicitante, o nome do documento e a data de envio.
-   * **Solicitações de acesso** exibir o nome do solicitante, o nome do objeto e a data de envio. O ícone para o tipo de objeto é exibido à esquerda.
+   * **Solicitações de acesso** exibir o nome do solicitante, o nome do objeto e a data de envio. O ícone do tipo de objeto é exibido à esquerda.
 
-1. Clique em qualquer lugar de um item de trabalho para ver seus detalhes, atualizações e documentos.
+1. Clique em qualquer lugar em um item de trabalho para ver seus detalhes, atualizações e documentos.
