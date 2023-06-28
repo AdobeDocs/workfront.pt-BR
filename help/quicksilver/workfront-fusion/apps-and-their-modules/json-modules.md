@@ -240,25 +240,25 @@ Esse módulo de ação transforma um objeto em uma sequência de caracteres json
 >
 **Exemplo:**
 >   
-```
-{
-
-"books": [
-
-{
-
-"id": "ID",
-
-"title": "Title",
-
-"author": "Author"
-
-}
-
-]
-
-}
-```
+>```
+>{
+>
+>"books": [
+>
+>{
+>
+>"id": "ID",
+>
+>"title": "Title",
+>
+>"author": "Author"
+>
+>}
+>
+>]
+>
+>}
+>```
 >
 1. Clique em **[!UICONTROL Salvar]**. A variável [!UICONTROL Especificação] O campo na estrutura de dados agora contém a estrutura gerada.
 1. Altere o nome da estrutura de dados para algo mais específico e clique em **[!UICONTROL Salvar]**. Um campo correspondente ao atributo de matriz raiz aparece como um campo mapeável na configuração do módulo JSON.
