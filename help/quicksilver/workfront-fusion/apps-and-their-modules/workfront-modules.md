@@ -9,9 +9,9 @@ description: Você pode usar o conector do Adobe Workfront Fusion Adobe Workfron
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 3604e67309b76c4e0e8c3af1341b80a607b95d6f
 workflow-type: tm+mt
-source-wordcount: '5426'
+source-wordcount: '5428'
 ht-degree: 3%
 
 ---
@@ -993,6 +993,12 @@ Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usa
    <td> </td> 
   </tr> 
   <tr> 
+   <td>Aprovação da revisão</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
    <td>Tempo reservado* </td> 
    <td> </td> 
    <td>✓</td> 
@@ -1722,3 +1728,4 @@ Para obter mais informações sobre assinaturas de evento, consulte [Perguntas f
 Para obter mais informações sobre webhooks, consulte [Acionadores instantâneos (webhooks) no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
 
 Para obter mais informações sobre filtros em cenários, consulte [Adicionar um filtro a um cenário no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md).
+
