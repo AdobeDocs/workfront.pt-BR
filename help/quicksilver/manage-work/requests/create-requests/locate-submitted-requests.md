@@ -6,16 +6,16 @@ description: Saiba mais sobre as áreas do Adobe Workfront em que você pode loc
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '890'
 ht-degree: 1%
 
 ---
 
 # Localizar solicitações enviadas
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização.</span>
 
 Você pode localizar os seguintes tipos de solicitações que você ou outra pessoa submeteu ou as solicitações que você iniciou, mas que nunca terminou de submeter. Você pode localizar essas solicitações nas seguintes áreas do Adobe Workfront:
 
@@ -62,7 +62,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 Para localizar solicitações que você ou outros usuários submeteram:
 
 1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
-1. Clique em **Enviado** no painel esquerdo para exibir todas as solicitações enviadas.
+1. Clique em **Enviado** no painel esquerdo para exibir todas as solicitações enviadas.
 
    É possível exibir até 2000 solicitações, que podem ser exibidas em várias páginas.
 
@@ -70,44 +70,43 @@ Para localizar solicitações que você ou outros usuários submeteram:
    >
    >Não é possível personalizar as colunas na lista Solicitação enviada.
 
-   ![](assets/nwe-submitted-requests-new-list-350x57.png)
+   <span class="preview">![](assets/nwe-submitted-requests-new-list-350x57.png)</span>
 
-   <!--update the shot above when we release the new Copy button to preview - for or after the 23.3 release-->
 
 1. As seguintes colunas são exibidas por padrão:
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Nome</td> 
-      <td> <p>O nome da solicitação.</p> <p>Clique no nome de uma solicitação para abri-la. </p> <p><b>DICA</b>
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">Nome</td> 
+         <td> <p>O nome da solicitação.</p> <p>Clique no nome de uma solicitação para abri-la. </p> <p><b>DICA</b>
 
    Se o problema não foi preservado quando foi convertido em uma tarefa ou um projeto, o nome do problema estará esmaecido e não poderá mais ser clicado. Para obter informações sobre a conversão de problemas, consulte <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">Visão geral da conversão de problemas no Adobe Workfront</a>. </p> </td>
    </tr> 
-     <tr> 
-      <td role="rowheader">Convertido para</td> 
-      <td> <p>O nome do objeto de resolução que pode ser uma tarefa ou um projeto para o qual a solicitação foi convertida. </p> <p>Clique no nome da tarefa ou do projeto para abri-los. </p> <p>Se a solicitação não foi convertida, esse campo fica vazio. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Caminho</td> 
-      <td>O nome da fila de solicitações, dos grupos de tópicos e dos tópicos da fila em que a solicitação foi originalmente enviada. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Status</td> 
-      <td>O status atual da solicitação ou do objeto de resolução (tarefa ou projeto)</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Data de Entrada</td> 
-      <td>A data em que a solicitação foi enviada ou a data em que o objeto de resolução foi criado se a solicitação foi excluída quando convertida. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Última data de atualização</td> 
-      <td> <p>A data em que a solicitação foi atualizada pela última vez.</p> <p>Por padrão, a lista Solicitações enviadas é classificada por esse campo. </p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+      <tr> 
+         <td role="rowheader">Convertido para</td> 
+         <td> <p>O nome do objeto de resolução que pode ser uma tarefa ou um projeto para o qual a solicitação foi convertida. </p> <p>Clique no nome da tarefa ou do projeto para abri-los. </p> <p>Se a solicitação não foi convertida, esse campo fica vazio. </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Caminho</td> 
+         <td>O nome da fila de solicitações, dos grupos de tópicos e dos tópicos da fila em que a solicitação foi originalmente enviada. </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Status</td> 
+         <td>O status atual da solicitação ou do objeto de resolução (tarefa ou projeto)</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Data de Entrada</td> 
+         <td>A data em que a solicitação foi enviada ou a data em que o objeto de resolução foi criado se a solicitação foi excluída quando convertida. </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Última data de atualização</td> 
+         <td> <p>A data em que a solicitação foi atualizada pela última vez.</p> <p>Por padrão, a lista Solicitações enviadas é classificada por esse campo. </p> </td> 
+      </tr> 
+      </tbody> 
+      </table>
 
 1. (Opcional) Clique no cabeçalho de uma coluna para classificar por ela.
 
