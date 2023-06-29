@@ -6,46 +6,41 @@ description: Planos, tipos de licença e acesso necessários Adobe Workfront Pla
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
 
 # Gerenciar um projeto na visualização Agile
 
-Planos, tipos de licença e acesso necessários
+{{highlighted-preview}}
+
+<!--
+Required plans, license types, and access
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><a href="https://www.workfront.com/plans" target="_blank">Plano do Adobe Workfront</a> </p> </td> 
-   <td> <p>Team, Pro, Business ou Enterprise </p> </td> 
+   <td> <p><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront Plan</a> </p> </td> 
+   <td> <p>Team, Pro, Business, or Enterprise </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Tipo de licença da Workfront</p> </td> 
-   <td> <p>Revisar, Trabalho ou Plano </p> </td> 
-  </tr> <!--
+   <td> <p>Workfront License Type</p> </td> 
+   <td> <p>Review, Work, or Plan </p> </td> 
+  </tr> 
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p>Permissions in the access model</p> </td> 
     <td> <li>Edit access and ability to create reports, dashboards, and calendars</li> </td> 
    </tr>
-  --> 
  </tbody> 
 </table>
-
-Você pode aproveitar a funcionalidade ágil para o seu projeto
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-(such as story boards and burndown charts)
-</MadCap:conditionalText>
 -->
 
- sem os desafios administrativos que normalmente acompanham as práticas ágeis (como gerenciar um backlog de equipe ou criar iterações).
+Você pode aproveitar a funcionalidade ágil para o seu projeto sem os desafios administrativos que normalmente acompanham as práticas ágeis (como gerenciar um backlog da equipe ou criar iterações).
 
 Se você quiser trabalhar em um ambiente ágil que use um backlog de equipe e permita criar iterações de tarefas no backlog, siga as instruções em [Trabalhe em um ambiente ágil](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
@@ -85,6 +80,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Entender projetos Agile
 
+>[!NOTE]
+>
+><span class="preview">Esta seção se aplica somente à visualização Agile herdada, não à visualização de quadro de um projeto.</span>
+
 * [Funcionalidade Agile em um projeto](#agile-functionality-in-a-project)
 * [Diferenças ao usar a visualização Agile em um projeto ou em uma iteração](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration)
 
@@ -93,10 +92,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 A seguinte funcionalidade ágil está disponível ao gerenciar um projeto em uma visualização ágil:
 
 * Status de Término\
-   Para obter informações mais detalhadas sobre o status de conclusão, consulte [Visão geral do status de conclusão da iteração](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md).
+  Para obter informações mais detalhadas sobre o status de conclusão, consulte [Visão geral do status de conclusão da iteração](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md).
 
 * Storyboard\
-   Para obter informações mais detalhadas sobre o storyboard, consulte o [Quadro Scrum](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md) seção.
+  Para obter informações mais detalhadas sobre o storyboard, consulte o [Quadro Scrum](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md) seção.
 
 Há algumas diferenças ao usar visualizações ágeis em um projeto em vez de trabalhar em um ambiente puramente ágil (com registros pendentes e iterações). Para obter mais informações, consulte [Diferenças ao usar a visualização Agile em um projeto ou em uma iteração](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration) neste artigo.
 
@@ -112,19 +111,19 @@ Há algumas diferenças ao usar visualizações ágeis em um projeto em vez de t
 #### As tarefas e subtarefas seguem regras de exibição diferentes no Storyboard {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
 
 * As tarefas que não têm uma tarefa pai nem uma subtarefa são sempre exibidas como um único storyboard no storyboard.\
-   Por exemplo, essas tarefas aparecem da seguinte maneira na exibição de lista do projeto:
+  Por exemplo, essas tarefas aparecem da seguinte maneira na exibição de lista do projeto:
 
-   ![Lista de projetos Agile - tarefas sem tarefas principais ou secundárias](assets/agile-project-single-list-nwe.png) Essas tarefas aparecem da seguinte maneira na exibição ágil do projeto:
+  ![Lista de projetos Agile - tarefas sem tarefas principais ou secundárias](assets/agile-project-single-list-nwe.png) Essas tarefas aparecem da seguinte maneira na exibição ágil do projeto:
 
-   ![Visualização Agile do projeto - tarefas sem tarefas principais ou secundárias](assets/agile-project-singlecard-nwe.png)
+  ![Visualização Agile do projeto - tarefas sem tarefas principais ou secundárias](assets/agile-project-singlecard-nwe.png)
 
 * As tarefas pai que têm subtarefas são sempre exibidas na variável **Histórias** coluna do storyboard. As subtarefas são exibidas na raia da tarefa pai.\
-   Por exemplo, essas tarefas aparecem da seguinte maneira na exibição de lista do projeto:
+  Por exemplo, essas tarefas aparecem da seguinte maneira na exibição de lista do projeto:
 
-   ![Lista de projetos Agile - tarefas com pais e subtarefas](assets/agile-project-parent-list-nwe.png)\
-   Essas tarefas aparecem da seguinte maneira na exibição ágil do projeto:
+  ![Lista de projetos Agile - tarefas com pais e subtarefas](assets/agile-project-parent-list-nwe.png)\
+  Essas tarefas aparecem da seguinte maneira na exibição ágil do projeto:
 
-   ![Visualização de projeto Agile - tarefas com pais e subtarefas](assets/agile-project-parent-nwe.png)
+  ![Visualização de projeto Agile - tarefas com pais e subtarefas](assets/agile-project-parent-nwe.png)
 
 * Subtarefas de segundo nível (subtarefas de subtarefas) são exibidas como um cartão cinza suspenso da tarefa pai imediata.
 * Subtarefas de terceiro nível (subtarefas de subtarefas) nunca são exibidas no storyboard.
@@ -160,40 +159,72 @@ Diferentemente de uma iteração ágil, os usuários de um projeto podem persona
 
 Em uma iteração ágil, as informações disponíveis no storyboard de agile (como colunas de status disponíveis) são determinadas no nível da equipe.
 
-Para obter informações sobre como personalizar uma visualização ágil, consulte  [Criar ou personalizar uma visualização Agile](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in  [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md). 
+Para obter informações sobre como personalizar uma visualização ágil, consulte [Criar ou personalizar uma visualização Agile](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Exibir um projeto na exibição Agile
 
 1. Vá para o projeto que deseja visualizar em uma visualização ágil.
-1. Clique em **Agile** ícone.\
-   ![Ícone Agile](assets/agile-icon-nwe.png)\
-   O projeto é exibido na visualização ágil padrão.\
-   Se você visualizou o projeto anteriormente em uma visualização ágil personalizada, o projeto será exibido nessa visualização, em vez da visualização ágil padrão.
+1. Clique em **Agile** ícone ![Ícone Agile](assets/agile-icon-nwe.png).
 
-1. (Opcional) Se você tiver criado uma visualização ágil personalizada, ou se outro usuário tiver criado uma visualização ágil personalizada e compartilhá-la com você, você poderá visualizá-la em vez da visualização ágil padrão.\
+   <span class="preview">Ou</span>
+
+   <span class="preview">Clique em **Quadro** ícone ![Ícone do painel](assets/board-icon-for-agile-view.png).</span>
+
+   O projeto é exibido na visualização ágil padrão.
+
+   <span class="preview">No ambiente de Pré-visualização, a visualização do quadro é exibida por padrão.</span>
+
+   ![Exibição do painel do projeto](assets/project-agile-board-view.png)
+
+   (Somente visualização Agile herdada) Se você visualizou o projeto anteriormente em uma visualização Agile personalizada, o projeto será exibido nessa visualização, em vez da visualização Agile padrão.
+
+1. <span class="preview">(Opcional) Clique em **Configurar** para definir opções para as colunas e cartões.</span>
+
+   <span class="preview">Para obter mais informações, consulte [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) e [Personalizar quais campos são exibidos em um cartão](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Observe que você não pode definir políticas de coluna na exibição de quadro de um projeto.</span>
+
+1. <span class="preview">(Opcional) Clique em **Usar ágil legado** para usar a visualização ágil herdada em vez da visualização de quadro.</span>
+
+1. (Opcional - somente visualização ágil herdada) Se você tiver criado uma visualização ágil personalizada ou se outro usuário tiver criado uma visualização ágil personalizada e a compartilhou com você, você poderá visualizá-la em vez da visualização ágil padrão.
+
    Clique em **Exibir** e clique na exibição ágil personalizada que deseja visualizar.
 
-   A exibição ágil personalizada será usada na próxima vez que você clicar no botão **Agile** ícone.\
-   Para obter informações sobre como criar uma nova visualização ágil, consulte [Criar e personalizar visualizações Agile](#create-and-customize-agile-views).\
+   A exibição ágil personalizada será usada na próxima vez que você clicar no botão **Agile** ícone.
+
+   Para obter informações sobre como criar uma nova visualização ágil, consulte [Criar e personalizar visualizações Agile](#create-and-customize-agile-views).
+
    O projeto é exibido na visualização ágil personalizada.
 
-1. (Condicional) Se tarefas no seu projeto estiverem usando status diferentes de &quot;Novo&quot;, &quot;Em andamento&quot; ou &quot;Concluído&quot; (os status padrão da exibição Agile), você deverá adicionar os status adicionais à exibição Agile para que todas as tarefas nesses status sejam exibidas.\
-   Se as tarefas tiverem um status que não seja exibido no storyboard Agile, a própria tarefa não será exibida no storyboard Agile (no entanto, o Percentual concluído dessas tarefas ainda contribuirá para o Percentual concluído de qualquer tarefa pai e o Percentual concluído do projeto geral).\
+1. (Condicional - somente visualização Agile herdada) Se as tarefas no seu projeto estiverem usando status diferentes de &quot;Novo&quot;, &quot;Em andamento&quot; ou &quot;Concluído&quot; (os status padrão da visualização Agile), você deverá adicionar os status adicionais à visualização Agile para que todas as tarefas nesses status sejam exibidas.
+
+   Se as tarefas tiverem um status que não seja exibido no storyboard Agile, a própria tarefa não será exibida no storyboard Agile (no entanto, o Percentual concluído dessas tarefas ainda contribuirá para o Percentual concluído de qualquer tarefa pai e o Percentual concluído do projeto geral).
+
    Para adicionar status à visualização Agile, crie uma nova visualização Agile ou personalize uma visualização Agile existente, conforme descrito na seção &quot;Criar ou personalizar uma visualização Agile&quot; no artigo [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 1. (Opcional) Para retornar à exibição em lista, clique no link **Lista** ícone.\
-   ![](assets/list-icon.png)
+   ![Ícone de Lista](assets/list-icon.png)
 
 ## Criar e personalizar visualizações Agile {#create-and-customize-agile-views}
 
+>[!NOTE]
+>
+><span class="preview">Esta seção se aplica somente à visualização Agile herdada, não à visualização de quadro de um projeto.</span>
+
 Assim como com as exibições padrão no Workfront, você pode personalizar Exibições ágeis existentes ou criar novas Exibições ágeis do zero. Diferentemente das exibições padrão, não é possível criar novas Exibições ágeis com base em Exibições ágeis existentes.
 
-Para obter mais informações sobre como criar e personalizar exibições Agile, consulte a seção &quot;Criar ou personalizar uma exibição Agile&quot; no artigo [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md). 
+Para obter mais informações sobre como criar e personalizar exibições Agile, consulte a seção &quot;Criar ou personalizar uma exibição Agile&quot; no artigo [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Compartilhar uma visualização Agile existente
+
+>[!NOTE]
+>
+><span class="preview">Esta seção se aplica somente à visualização Agile herdada, não à visualização de quadro de um projeto.</span>
 
 Para obter informações sobre como compartilhar uma visualização ágil, consulte [Compartilhar um filtro, uma exibição ou um agrupamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Remover uma visualização Agile existente
 
-Para obter informações sobre como excluir uma exibição, consulte a seção &quot;Remover uma exibição&quot; no artigo [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md). 
+>[!NOTE]
+>
+><span class="preview">Esta seção se aplica somente à visualização Agile herdada, não à visualização de quadro de um projeto.</span>
+
+Para obter informações sobre como excluir uma exibição, consulte a seção &quot;Remover uma exibição&quot; no artigo [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).

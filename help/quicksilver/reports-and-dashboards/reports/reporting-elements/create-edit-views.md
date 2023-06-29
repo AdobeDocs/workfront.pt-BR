@@ -6,14 +6,16 @@ description: Você pode personalizar o tipo de informação exibida na tela usan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1787'
 ht-degree: 1%
 
 ---
 
 # Criar ou editar exibições no Adobe Workfront
+
+{{highlighted-preview}}
 
 Você pode personalizar o tipo de informação exibida na tela usando visualizações. Você pode usar vários tipos de visualizações no Adobe Workfront.
 
@@ -72,12 +74,12 @@ Você pode criar uma nova view-padrão ou personalizar uma view-padrão existent
    * Ajuste a ordem em que as colunas aparecem arrastando o título da coluna para um novo local.
 
       * (Opcional) Na **Configurações de coluna** clique na guia **Resumir esta coluna por** e, em seguida, selecione uma das opções disponíveis para resumir as informações. Quando você escolhe essa opção, as informações em sua coluna são agregadas nos agrupamentos do relatório.\
-         Para campos de data, é possível resumir os valores pelas seguintes opções:
+        Para campos de data, é possível resumir os valores pelas seguintes opções:
 
          * Máximo
          * Mínimo
 
-         Para campos de número e moeda, é possível resumir os valores pelas seguintes opções:
+        Para campos de número e moeda, é possível resumir os valores pelas seguintes opções:
 
          * Contagem
          * Sum
@@ -85,20 +87,21 @@ Você pode criar uma nova view-padrão ou personalizar uma view-padrão existent
          * Máximo
          * Mínimo
 
-         >[!NOTE]
-         >
-         >As exceções a seguir se aplicam a objetos pai (por exemplo, tarefas pai) quando você está agregando valores para os seguintes campos em agrupamentos:
-         >   
-         >   * Todos os campos de número e moeda, exceto Horas Reais (por exemplo, Custo de Trabalho Planejado/Efetivo, Custo de Despesas Planejado/Efetivo, Custo Planejado/Efetivo, Horas Planejadas) agregam apenas os valores das tarefas filhas e tarefas independentes. Eles não agregam os valores das tarefas pai ou pai dos pais.
-         >   * As Horas Reais agregam os valores das tarefas pai principal e independente; elas não agregam os números para as tarefas pai ou filho.
-         >   * Os campos de dados personalizados para valores de número e moeda agregam todas as tarefas: pais, filhos, pais dos pais e tarefas independentes.
+        >[!NOTE]
+        >
+        >As exceções a seguir se aplicam a objetos pai (por exemplo, tarefas pai) quando você está agregando valores para os seguintes campos em agrupamentos:
+        >   
+        >   * Todos os campos de número e moeda, exceto Horas Reais (por exemplo, Custo de Trabalho Planejado/Efetivo, Custo de Despesas Planejado/Efetivo, Custo Planejado/Efetivo, Horas Planejadas) agregam apenas os valores das tarefas filhas e tarefas independentes. Eles não agregam os valores das tarefas pai ou pai dos pais.
+        >   * As Horas Reais agregam os valores das tarefas pai principal e independente; elas não agregam os números para as tarefas pai ou filho.
+        >   * Os campos de dados personalizados para valores de número e moeda agregam todas as tarefas: pais, filhos, pais dos pais e tarefas independentes.
+        >   
+        >
 
-
-         Para obter mais informações sobre o uso de agrupamentos em um relatório, consulte o artigo [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+        Para obter mais informações sobre o uso de agrupamentos em um relatório, consulte o artigo [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
       * (Opcional) Clique em **Opções avançadas** para especificar as seguintes informações para a coluna:
 
-         <table style="table-layout:auto"> 
+        <table style="table-layout:auto"> 
          <col> 
          <col> 
          <tbody> 
@@ -121,9 +124,7 @@ Você pode criar uma nova view-padrão ou personalizar uma view-padrão existent
          </tbody> 
         </table>
 
-         Para obter mais informações sobre a formatação condicional de exibições nos relatórios, consulte o artigo [Usar formatação condicional no Modo de texto](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
-
-
+        Para obter mais informações sobre a formatação condicional de exibições nos relatórios, consulte o artigo [Usar formatação condicional no Modo de texto](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
 1. (Condicional) Se você clicou em **Opções avançadas**, clique em **Concluído**.
 
@@ -147,14 +148,18 @@ Você pode criar uma nova view-padrão ou personalizar uma view-padrão existent
 
 Para obter mais informações sobre visualizações Agile, consulte o artigo [Gerenciar um projeto na visualização Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: [! The information in the following steps is more or less duplicated in "Creating and Managing Agile Teams."])</p>
--->
+>[!NOTE]
+>
+><span class="preview">Esse procedimento se aplica somente à visualização Agile herdada, não à visualização de quadro de um projeto.</span>
 
 Para criar ou personalizar uma visualização Agile:
 
 1. Vá para a lista de tarefas em um projeto.
-1. Clique em **Storyboard Agile** ícone ![](assets/agile-storyboard-nwe.png).
+1. Clique em **Storyboard Agile** ícone ![Ícone Storyboard Agile](assets/agile-storyboard-nwe.png).
+
+   <span class="preview">Ou</span>
+
+   <span class="preview">Clique em **Quadro** ícone ![Ícone do painel](assets/board-icon-for-agile-view.png)e clique em **Usar ágil legado** na exibição do quadro.</span>
 
 1. (Condicional) Para personalizar uma exibição Agile existente:
 
@@ -239,7 +244,7 @@ Para criar ou personalizar uma visualização Agile:
 
    * Nome da história com um link diretamente para a tarefa
    * O nome do projeto com um link direto para o projeto\
-      Esse link é exibido somente ao usar a visualização Agile em uma iteração; ele não é exibido ao usar uma visualização Agile em um projeto.
+     Esse link é exibido somente ao usar a visualização Agile em uma iteração; ele não é exibido ao usar uma visualização Agile em um projeto.
    * A descrição da tarefa
    * Compromisso atual
    * Exiba e edite o percentual concluído ajustando o próprio percentual concluído ou ajustando o número de pontos ou horas concluídos
