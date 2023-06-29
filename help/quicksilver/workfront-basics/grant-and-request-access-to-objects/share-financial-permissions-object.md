@@ -2,22 +2,24 @@
 title: Compartilhar permissões financeiras em um objeto
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
-description: O administrador do Adobe Workfront pode conceder acesso para visualizar ou editar dados financeiros ao atribuir seu nível de acesso. Para obter mais informações, consulte Conceder acesso a dados financeiros.
+description: O administrador do Adobe Workfront pode conceder acesso para exibir ou editar dados financeiros ao atribuir seu nível de acesso. Para obter mais informações, consulte Conceder acesso a dados financeiros.
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '549'
 ht-degree: 3%
 
 ---
 
 # Compartilhar permissões financeiras em um objeto
 
-O administrador do Adobe Workfront pode conceder acesso para visualizar ou editar dados financeiros ao atribuir seu nível de acesso. Para obter mais informações, consulte [Conceder acesso aos dados financeiros](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+{{highlighted-preview}}
 
-Juntamente com o nível de acesso que os usuários recebem, você também pode conceder permissões para Exibir ou Gerenciar finanças de projetos, tarefas ou problemas específicos que você tem acesso para compartilhar.
+O administrador do Adobe Workfront pode conceder acesso para exibir ou editar dados financeiros ao atribuir seu nível de acesso. Para obter mais informações, consulte [Conceder acesso a dados financeiros](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+
+Juntamente com o nível de acesso concedido aos usuários, você também pode conceder a eles permissões para Exibir ou Gerenciar finanças de projetos, tarefas ou problemas específicos que você tenha acesso para compartilhar.
 
 Para obter informações sobre o que os usuários em cada nível de acesso podem fazer com dados financeiros, consulte a seção [Dados financeiros](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) no artigo [Funcionalidade disponível para cada tipo de objeto](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
@@ -59,7 +61,7 @@ Você deve ter o seguinte para compartilhar informações de dados financeiros s
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> <p>Qualquer Um </p> </td> 
   </tr> 
   <tr> 
@@ -68,34 +70,34 @@ Você deve ter o seguinte para compartilhar informações de dados financeiros s
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Visualizar ou aumentar o acesso a Projetos, Tarefas, Problemas e Dados Financeiros</p> <p>Observação: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Visualizar ou ter maior acesso a Projetos, Tarefas, Problemas e Dados Financeiros</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões ou superiores a projetos, tarefas e problemas que incluam pelo menos permissões do View Finance</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões ou permissões superiores para projetos, tarefas e problemas que incluam pelo menos permissões de Exibir Finanças</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
 ## Compartilhar um objeto e conceder permissões financeiras
 
 Considere o seguinte ao conceder permissões financeiras a objetos:
 
-* Você pode conceder permissões financeiras a projetos, tarefas e problemas.
-* As permissões podem ser herdadas: se você tiver permissões de Exibição de finanças em um projeto, herdará automaticamente as permissões de Exibição de finanças para as tarefas e problemas do projeto.
+* Você pode conceder permissões financeiras a projetos, tarefas, problemas, <span class="preview">e cartões de taxa</span>.
+* As permissões podem ser herdadas: se você tiver permissões do View Finance para um projeto, herdará automaticamente permissões do View Finance para as tarefas e problemas no projeto.
 
 Para conceder permissões financeiras a um objeto:
 
-1. Vá para uma tarefa, projeto ou problema que deseja compartilhar com outras pessoas.
-1. Ao lado do nome do objeto, clique no menu Mais ![](assets/more-icon.png), depois clique em **Compartilhamento**.
+1. Vá para uma tarefa, projeto ou problema que você deseja compartilhar com outras pessoas.
+1. Próximo ao nome do objeto, clique no menu Mais ![](assets/more-icon.png)e, em seguida, clique em **Compartilhamento**.
 
-1. No **Dar `<Object name>` acesso a** comece a digitar o nome de um usuário, equipe, função, grupo ou empresa com o qual você deseja compartilhar o objeto.
+1. No **Conceder `<Object name>` acesso a** comece digitando o nome de um usuário, equipe, função, grupo ou uma empresa com a qual deseja compartilhar o objeto.
 
    >[!TIP]
    >
-   >É possível compartilhar um objeto somente com usuários, equipes, funções ou empresas ativas.
+   >Você pode compartilhar um objeto somente com usuários, equipes, funções ou empresas ativos.
 
 1. Se um menu suspenso for exibido à direita do nome selecionado, clique em uma das seguintes opções que estão disponíveis:
 
@@ -103,18 +105,18 @@ Para conceder permissões financeiras a um objeto:
    * **Contribuir com o projeto**
    * **Gerenciar o projeto**
 
-      ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
+     ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
 
-1. No mesmo menu suspenso, clique em **Configurações avançadas**, em seguida, execute um dos seguintes procedimentos:
+1. No mesmo menu suspenso, clique em **Configurações avançadas**, siga um destes procedimentos:
 
-   * Se você selecionou uma das três opções na etapa anterior, verifique se **Exibir Finanças** está selecionada.
+   * Se você selecionou uma das três opções na etapa anterior, verifique se **Exibir finanças** está selecionada.
    * Se você selecionou **Gerenciar finanças** na etapa anterior, verifique se **Gerenciar finanças** está selecionada.
 
 1. Clique em **Salvar**.
 
 ## Permissão financeira para todos os níveis de compartilhamento
 
-A tabela a seguir exibe quais permissões financeiras os usuários recebem quando você concede permissões de Exibição, Contribuição ou Gerenciamento a eles em objetos: 
+A tabela a seguir mostra quais permissões financeiras os usuários obtêm ao conceder a eles permissões de Exibição, Contribute ou Gerenciar em objetos: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -131,19 +133,19 @@ A tabela a seguir exibe quais permissões financeiras os usuários recebem quand
  </thead> 
  <tbody> 
   <tr> 
-   <td>Gerenciar Registros de Faturamento</td> 
-   <td>✓</td> 
+   <td>Gerenciar registros de cobrança</td> 
+   <td>✓ µ</td> 
    <td> <p> </p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Gerenciar/Exibir Faturamento de Função e Taxas de Custo</td> 
+   <td>Gerenciar/visualizar taxas de custo e cobrança de função</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Gerenciar/ exibir Faturamento do Usuário e Taxas de Custo</td> 
+   <td>Gerenciar/visualizar taxas de custo e cobrança de usuário</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
@@ -155,19 +157,31 @@ A tabela a seguir exibe quais permissões financeiras os usuários recebem quand
    <td> ✓</td> 
   </tr> 
   <tr> 
+   <td><span class="preview">Gerenciar cartões de taxa</span></td> 
+   <td>✓</td> 
+   <td> <p> </p> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><span class="preview">Exibir cartões de taxa</span></td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> ✓</td> 
+  </tr>
+  <tr> 
    <td>Exibir informações por Custo nas ferramentas de Planejamento de Recursos</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Recursos de orçamento nas ferramentas de Planejamento de Recursos*</td> 
+   <td>Recursos de orçamento nas ferramentas de planejamento de recursos*</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Visualizar recursos nas ferramentas de Planejamento de Recursos*</td> 
+   <td>Exibir recursos nas ferramentas de Planejamento de recursos*</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td> <p>✓</p> </td> 
@@ -175,6 +189,6 @@ A tabela a seguir exibe quais permissões financeiras os usuários recebem quand
  </tbody> 
 </table>
 
-&#42;Requer acesso adicional ao Gerenciamento de Recursos.
+&#42;Requer acesso adicional ao Gerenciamento de recursos.
 
-Para obter informações sobre o acesso ao Gerenciamento de Recursos, consulte [Conceder acesso ao gerenciamento de recursos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+Para obter informações sobre o acesso de Gerenciamento de recursos, consulte [Conceder acesso ao Gerenciamento de recursos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).

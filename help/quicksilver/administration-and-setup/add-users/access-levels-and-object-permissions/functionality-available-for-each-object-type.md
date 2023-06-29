@@ -2,7 +2,7 @@
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: acessar,modelo,funil,diagrama,níveis,permissões
+keywords: acesso,modelo,funil,diagrama,níveis,permissões
 navigation-topic: access-levels
 title: Funcionalidade disponível para cada tipo de objeto para vários níveis de acesso
 description: As tabelas a seguir listam a funcionalidade disponível para cada tipo de objeto nos vários níveis de acesso.
@@ -10,14 +10,16 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1447'
 ht-degree: 11%
 
 ---
 
 # Funcionalidade disponível para cada tipo de objeto para vários níveis de acesso
+
+{{highlighted-preview}}
 
 As tabelas a seguir listam a funcionalidade disponível para cada tipo de objeto nos vários níveis de acesso.
 
@@ -25,7 +27,7 @@ Também indica quais ações os administradores do Workfront podem desativar ou 
 
 ## Projetos
 
-Somente os usuários com uma licença do Plano podem ter acesso total aos projetos.
+Somente os usuários com uma licença de Plano podem receber acesso total aos projetos.
 
 | Ação | Planejador | Trabalhador | Oliveira | Solicitante | Usuário externo |
 |---|---|---|---|---|---|
@@ -33,7 +35,7 @@ Somente os usuários com uma licença do Plano podem ter acesso total aos projet
 | Copiar | ✓&#42; |   |   |   |   |
 | Excluir | ✓&#42; |   |   |   |   |
 | Compartilhar | ✓&#42; | ✓&#42; |   |   |   |
-| Compartilhar todo o sistema | ✓&#42; |   |   |   |   |
+| Compartilhar em todo o sistema | ✓&#42; |   |   |   |   |
 | Exibir | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
 | Adicionar um formulário personalizado | ✓ |   |   |   |   |
 | Atualizar campos personalizados | ✓ | ✓ |   |   |   |
@@ -44,7 +46,7 @@ Somente os usuários com uma licença do Plano podem ter acesso total aos projet
 | Adicionar  tarefas | ✓ | ✓ |   |   |   |
 | Fornecer atualizações/comentários | ✓ | ✓ | ✓ |   |   |
 | Alterar status | ✓ |   |   |   |   |
-| Horas de registro | ✓ | ✓ |   |   |   |
+| Registrar horas | ✓ | ✓ |   |   |   |
 | Editar atribuições | ✓ | ✓ |   |   |   |
 | Gerenciar uma linha de base | ✓ |   |   |   |   |
 | Gerenciar riscos | ✓ |   |   |   |   |
@@ -52,11 +54,11 @@ Somente os usuários com uma licença do Plano podem ter acesso total aos projet
 | Adicionar/editar despesas | ✓ | ✓ |   |   |   |
 | Anexar modelos | ✓ |   |   |   |   |
 | Salvar como modelo | ✓ |   |   |   |   |
-| Adicionar/editar um caso comercial | ✓ |   |   |   |   |
+| Adicionar/editar um business case | ✓ |   |   |   |   |
 | Editar detalhes do projeto | ✓ |   |   |   |   |
-| Editar equipe | ✓ |   |   |   |   |
+| Editar pessoal | ✓ |   |   |   |   |
 | Exportar para o MS Project | ✓ | ✓ | ✓ |   |   |
-| Recalcular linha do tempo/financiamento | ✓ |   |   |   |   |
+| Recalcular finanças/linha do tempo | ✓ |   |   |   |   |
 | Definir propriedades da fila | ✓ |   |   |   |   |
 
 
@@ -70,25 +72,25 @@ Somente os usuários com uma licença do Plano podem ter acesso total aos projet
 | Criar | ✓&#42; | ✓&#42; |   |   |   |
 | Excluir | ✓&#42; | ✓&#42; |   |   |   |
 | Compartilhar | ✓&#42; | ✓&#42; |   |   |   |
-| Compartilhar todo o sistema | ✓&#42; |   |   |   |   |
+| Compartilhar em todo o sistema | ✓&#42; |   |   |   |   |
 | Exibir | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Adicionar predecessores | ✓ | ✓ |   |   |   |
 | Adicionar  problemas | ✓ | ✓ |   |   |   |
-| Editar uma tarefa (excluindo status) | ✓ | ✓ |   |   |   |
+| Editar uma tarefa (excluindo o status) | ✓ | ✓ |   |   |   |
 | Alterar status da tarefa | ✓ | ✓ |   |   |   |
 | Adicionar documentos | ✓ | ✓ | ✓ |   |   |
 | Copiar uma tarefa | ✓ | ✓ |   |   |   |
 | Mover uma tarefa | ✓ | ✓ |   |   |   |
-| Horas de registro | ✓ | ✓ |   |   |   |
+| Registrar horas | ✓ | ✓ |   |   |   |
 | Aceitar uma atribuição | ✓ | ✓ |   |   |   |
-| Fazer uma atribuição | ✓ | ✓ | Somente edição em linha | Somente edição em linha |   |
+| Fazer uma atribuição | ✓ | ✓ | Somente em edição em linha | Somente em edição em linha |   |
 | Anexar um formulário personalizado | ✓ | ✓ |   |   |   |
 | Editar campos personalizados | ✓ | ✓ |   |   |   |
 | Criar um processo de aprovação | ✓ | ✓ |   |   |   |
 | Aprovar uma tarefa | ✓ | ✓ | ✓ |   |   |
 | Editar finanças | ✓ |   |   |   |   |
 | Adicionar/editar despesas | ✓ | ✓ |   |   |   |
-| Exibir financiamento | ✓ | ✓ | ✓ |   |   |
+| Exibir finanças | ✓ | ✓ | ✓ |   |   |
 | Atualizações/comentários | ✓ | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
@@ -103,7 +105,7 @@ Somente os usuários com uma licença do Plano podem ter acesso total aos projet
 | Editar | ✓ | ✓ | ✓ | ✓ |   |
 | Excluir | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Compartilhar | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Compartilhar todo o sistema | ✓&#42; |   |   |   |   |
+| Compartilhar em todo o sistema | ✓&#42; |   |   |   |   |
 | Exibir | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Anexar formulários personalizados | ✓ | ✓ | ✓ | ✓ |   |
 | Editar campos personalizados | ✓ | ✓ | ✓ | ✓ |   |
@@ -112,9 +114,9 @@ Somente os usuários com uma licença do Plano podem ter acesso total aos projet
 | Adicionar documentos | ✓ | ✓ | ✓ | ✓ |   |
 | Copiar problemas | ✓ | ✓ | ✓ | ✓ |   |
 | Mover problemas | ✓ | ✓ | ✓ | ✓ |   |
-| Horas de registro | ✓ | ✓ |   |   |   |
+| Registrar horas | ✓ | ✓ |   |   |   |
 | Converter um problema em um projeto | ✓ | ✓ |   |   |   |
-| Converter um problema em uma tarefa para | ✓ |   |   |   |   |
+| Converter um problema em tarefa | ✓ |   |   |   |   |
 | Aceitar atribuições | ✓ | ✓ |   |   |   |
 | Fazer atribuições | ✓ | ✓ |   |   |   |
 | Adicionar atualizações e comentários | ✓ | ✓ | ✓ | ✓ |   |
@@ -125,21 +127,21 @@ Somente os usuários com uma licença do Plano podem ter acesso total aos projet
 
 ## Portfólios
 
-Somente os usuários com uma licença de Plano podem ter acesso total a portfólios.
+Somente os usuários com uma licença de Plano podem ter acesso total aos portfólios.
 
 | Ação | Planejador | Trabalhador | Oliveira | Solicitante | Usuário externo |
 |---|---|---|---|---|---|
 | Criar | ✓&#42; |   |   |   |   |
 | Excluir | ✓&#42; |   |   |   |   |
 | Compartilhar | ✓&#42; |   |   |   |   |
-| Compartilhar todo o sistema | ✓&#42; |   |   |   |   |
+| Compartilhar em todo o sistema | ✓&#42; |   |   |   |   |
 | Exibir | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
 | Editar detalhes | ✓ |   |   |   |   |
 | Anexar formulários personalizados | ✓ |   |   |   |   |
 | Editar campos personalizados | ✓ |   |   |   |   |
 | Adicionar e remover projetos | ✓ |   |   |   |   |
 | Aprovar projetos | ✓ |   |   |   |   |
-| Otimização de Portfolio | ✓ |   |   |   |   |
+| otimização de Portfolio | ✓ |   |   |   |   |
 | Adicionar documentos | ✓ | ✓ | ✓ |   |   |
 | Adicionar atualizações e comentários | ✓ | ✓ | ✓ |   |   |
 
@@ -149,14 +151,14 @@ Somente os usuários com uma licença de Plano podem ter acesso total a portfól
 
 ## Programas
 
-Somente os usuários com uma licença do Plano podem ter acesso total a programas.
+Somente os usuários com uma licença de Plano podem ter acesso total aos programas.
 
 | Ação | Planejador | Trabalhador | Oliveira | Solicitante | Usuário externo |
 |---|---|---|---|---|---|
 | Criar | ✓&#42; |   |   |   |   |
 | Excluir | ✓&#42; |   |   |   |   |
 | Compartilhar | ✓&#42; |   |   |   |   |
-| Compartilhar todo o sistema | ✓&#42; |   |   |   |   |
+| Compartilhar em todo o sistema | ✓&#42; |   |   |   |   |
 | Exibir | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
 | Editar detalhes | ✓ |   |   |   |   |
 | Anexar formulários personalizados | ✓ |   |   |   |   |
@@ -173,7 +175,7 @@ Somente os usuários com uma licença do Plano podem ter acesso total a programa
 
 ## Relatórios, painéis e calendários
 
-Os usuários com uma licença do Plan podem ter acesso total aos relatórios. Todos os outros Níveis de Acesso têm Acesso de Exibição aos relatórios.
+Os usuários com uma licença de Plano podem ter acesso total aos relatórios. Todos os outros Níveis de Acesso têm acesso de Visualização aos relatórios.
 
 | Ação | Planejador | Trabalhador | Oliveira | Solicitar | Usuário externo |
 |---|---|---|---|---|---|
@@ -182,7 +184,7 @@ Os usuários com uma licença do Plan podem ter acesso total aos relatórios. To
 | Exibir relatórios internos | ✓&#42; |   |   |   |   |
 | Compartilhar | ✓&#42; | ✓ | ✓ |   |   |
 | Compartilhar calendários e relatórios publicamente | ✓&#42; |   |   |   |   |
-| Compartilhar todo o sistema | ✓&#42; |   |   |   |   |
+| Compartilhar em todo o sistema | ✓&#42; |   |   |   |   |
 | Exibir | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Editar | ✓ |   |   |   |   |
 | Copiar | ✓ |   |   |   |   |
@@ -246,7 +248,7 @@ Os usuários com uma licença do Plan podem ter acesso total aos relatórios. To
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Compartilhar todo o sistema</td> 
+   <td>Compartilhar em todo o sistema</td> 
    <td>✓*</td> 
    <td>✓*</td> 
    <td>✓*</td> 
@@ -282,7 +284,7 @@ Os usuários com uma licença do Plan podem ter acesso total aos relatórios. To
 | Excluir (documentos e pastas) | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Compartilhar | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Compartilhar publicamente (externamente) | ✓&#42; |   |   |   |   |
-| Compartilhar todo o sistema | ✓&#42; | ✓&#42; |   |   |   |
+| Compartilhar em todo o sistema | ✓&#42; | ✓&#42; |   |   |   |
 | Exibir | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Editar detalhes | ✓ | ✓ | ✓ | ✓ |   |
 | Baixar | ✓ | ✓ | ✓ | ✓ | ✓ |
@@ -294,13 +296,13 @@ Os usuários com uma licença do Plan podem ter acesso total aos relatórios. To
 | Mover para (objeto) | ✓ | ✓ | ✓ | ✓ |   |
 | Enviar para (integração) | ✓ | ✓ | ✓ | ✓ |   |
 | Adicionar atualizações e comentários | ✓ | ✓ | ✓ | ✓ |   |
-| Fazer upload de nova versão | ✓ | ✓ | ✓ | ✓ |   |
+| Carregar nova versão | ✓ | ✓ | ✓ | ✓ |   |
 | Excluir uma versão | ✓ | ✓ | ✓ | ✓ |   |
 | Visualização | ✓ | ✓ | ✓ | ✓ | ✓ |
 |  Prova | ✓ | ✓ | ✓ | ✓ |   |
 | Gerar prova | ✓ | ✓ |   |   |   |
 | Remover prova | ✓ | ✓ | ✓ | ✓ |   |
-| Adicionar/remover&#42;&#42; | ✓ | ✓ | ✓ | ✓ |   |
+| Adicionar/Remover&#42;&#42; | ✓ | ✓ | ✓ | ✓ |   |
 | Renomear&#42;&#42; | ✓ | ✓ | ✓ | ✓ |   |
 | Link (com integração) | ✓ | ✓ | ✓ | ✓ |   |
 | Desvincular (com integração) | ✓ | ✓ | ✓ | ✓ |   |
@@ -309,7 +311,7 @@ Os usuários com uma licença do Plan podem ter acesso total aos relatórios. To
 
 &#42; Usando um nível de acesso, os administradores do Workfront podem desativar ou ativar essa funcionalidade. Para obter mais informações, consulte [Acesso configurável à funcionalidade para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-&#42;&#42;Disponível apenas para pastas de documentos, não documentos
+&#42;&#42;Disponível somente para pastas de documentos, não documentos
 
 ## Usuários
 
@@ -354,7 +356,7 @@ Os usuários com uma licença do Plan podem ter acesso total aos relatórios. To
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Editar, excluir, desativar, fazer logon como ou redefinir a senha de qualquer usuário</td> 
+   <td>Editar, excluir, desativar, fazer logon como ou redefinir a senha para qualquer usuário</td> 
    <td>✓*</td> 
    <td> </td> 
    <td> </td> 
@@ -362,7 +364,7 @@ Os usuários com uma licença do Plan podem ter acesso total aos relatórios. To
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Editar, excluir, desativar, fazer logon como ou redefinir a senha de qualquer usuário de um grupo que eles administram</td> 
+   <td>Editar, excluir, desativar, fazer logon como ou redefinir a senha de qualquer usuário em um grupo que ele administra</td> 
    <td>✓*</td> 
    <td> </td> 
    <td> </td> 
@@ -390,7 +392,7 @@ Os usuários com uma licença do Plan podem ter acesso total aos relatórios. To
 
 &#42; Usando um nível de acesso, os administradores do Workfront podem desativar ou ativar essa funcionalidade. Para obter mais informações, consulte [Acesso configurável à funcionalidade para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-&#42;&#42;Usuários externos só podem pesquisar por outros usuários
+&#42;&#42;Usuários externos podem pesquisar somente por outros usuários
 
 ## Equipes
 
@@ -429,7 +431,7 @@ Os usuários com uma licença do Plan podem ter acesso total aos relatórios. To
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Editar equipes nas quais eles estão</td> 
+   <td>Editar equipes em que estão</td> 
    <td>✓*</td> 
    <td>✓*</td> 
    <td> </td> 
@@ -437,7 +439,7 @@ Os usuários com uma licença do Plan podem ter acesso total aos relatórios. To
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Editar equipes em grupos que eles gerenciam</td> 
+   <td>Editar equipes nos grupos que elas gerenciam</td> 
    <td>✓*</td> 
    <td> </td> 
    <td> </td> 
@@ -472,7 +474,7 @@ Os usuários com uma licença do Plan podem ter acesso total aos relatórios. To
 | Criar | ✓&#42; |   |   |   |   |
 | Excluir | ✓&#42; |   |   |   |   |
 | Compartilhar | ✓&#42; |   |   |   |   |
-| Compartilhar todo o sistema | ✓&#42; |   |   |   |   |
+| Compartilhar em todo o sistema | ✓&#42; |   |   |   |   |
 | Exibir | ✓&#42; |   |   |   |   |
 | Copiar | ✓ |   |   |   |   |
 | Editar detalhes do modelo | ✓ |   |   |   |   |
@@ -483,21 +485,22 @@ Os usuários com uma licença do Plan podem ter acesso total aos relatórios. To
 
 ## Dados financeiros
 
-Somente os usuários com uma licença do Plano podem ter acesso total a dados financeiros.
+Somente os usuários com uma licença de Plano podem ter acesso total aos dados financeiros.
 
-Os tipos de licença Solicitação e Usuário Externo não estão incluídos aqui porque eles não têm acesso a [selecionar objeto ou área].
+Os tipos de licença de Solicitação e Usuário Externo não estão incluídos aqui porque eles não têm acesso a esses objetos e áreas.
 
 | Ação | Planejador | Trabalhador | Oliveira |
 |---|---|---|---|
-| Editar taxas de custo e faturamento de função | ✓&#42; |   |   |
-| Editar faturamento do usuário e taxas de custo | ✓&#42; |   |   |
-| Exibir taxas de faturamento e custo de função | ✓&#42; |   |   |
-| Exibir faturamento do usuário e taxas de custo | ✓&#42; |   |   |
-| Gerenciar registros de faturamento | ✓ |   |   |
+| Editar taxas de custo e cobrança de função | ✓&#42; |   |   |
+| Editar taxas de custo e cobrança de usuário | ✓&#42; |   |   |
+| Exibir taxas de custo e cobrança de função | ✓&#42; |   |   |
+| Exibir taxas de custo e cobrança de usuário | ✓&#42; |   |   |
+| Gerenciar registros de cobrança | ✓ |   |   |
 | Gerenciar despesas | ✓ | ✓ |   |
 | Exibir dados financeiros | ✓&#42; | ✓&#42; | ✓&#42; |
+| <span class="preview">Gerenciar cartões de taxa</span> | ✓ |   |   |
 | Exibir informações por Custo nas ferramentas de Planejamento de Recursos | ✓ |   |   |
-| Recursos de Orçamento nas ferramentas de Planejamento de Recursos&#42;&#42; | ✓ |   |   |
+| Recursos de orçamento nas ferramentas de planejamento de recursos&#42;&#42; | ✓ |   |   |
 | Exibir alocação de recursos nas ferramentas de Planejamento de Recursos&#42; | ✓ | ✓ | ✓ |
 | Criar riscos em projetos | ✓ |   |   |
 | Exibir riscos em projetos | ✓ | ✓ | ✓ |
@@ -506,68 +509,68 @@ Os tipos de licença Solicitação e Usuário Externo não estão incluídos aqu
 
 &#42; Usando um nível de acesso, os administradores do Workfront podem desativar ou ativar essa funcionalidade. Para obter mais informações, consulte [Acesso configurável à funcionalidade para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-&#42;&#42;Requer acesso adicional ao Gerenciamento de Recursos.
+&#42;&#42;Requer acesso adicional ao Gerenciamento de recursos.
 
 ## Gerenciamento de recursos
 
-Somente os usuários com uma licença do Plano podem ter acesso total a [selecionar objeto ou área]. Outros tipos de licença podem ter acesso limitado ou inexistente ao Gerenciamento de recursos no Workfront.
+Somente os usuários com uma licença de Plano podem ter acesso total a [selecionar objeto ou área]. Outros tipos de licença podem ter acesso limitado ou inexistente ao Gerenciamento de recursos no Workfront.
 
 | Ação | Planejador | Trabalhador | Oliveira | Solicitante | Usuário externo |
 |---|---|---|---|---|---|
 | Editar prioridades e horas de orçamento no Planejador | ✓&#42; |   |   |   |   |
 | Criar, editar, excluir Conjuntos de Recursos&#42;&#42; | ✓&#42; |   |   |   |   |
 | `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | `✓*` |   |   |   |   |
-| Exibir as prioridades do projeto no Planejador de Recursos | ✓&#42; |   |   |   |   |
+| Exibir prioridades de projeto no Planejador de Recursos | ✓&#42; |   |   |   |   |
 | Exibir alocação de recursos nas ferramentas de Planejamento de Recursos | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
-| Exibir Pools de Recursos | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
-| Recursos de orçamento nas ferramentas de Planejamento de Recursos&#42;&#42; | ✓ |   |   |   |   |
-| Anexar pools de recursos a projetos, modelos e usuários | ✓ |   |   |   |   |
+| Exibir Conjuntos de Recursos | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
+| Recursos de orçamento nas ferramentas de Planejamento de recursos&#42;&#42; | ✓ |   |   |   |   |
+| Anexar Conjuntos de Recursos a projetos, modelos e usuários | ✓ |   |   |   |   |
 
 {style="table-layout:auto"}
 
 &#42; Usando um nível de acesso, os administradores do Workfront podem desativar ou ativar essa funcionalidade. Para obter mais informações, consulte [Acesso configurável à funcionalidade para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-&#42;&#42;Requer acesso adicional aos Dados financeiros e permissões para as finanças do projeto. Se você conceder acesso ao Gerenciamento de Recursos a um usuário do Planejador que não tem acesso a Dados Financeiros, o usuário ainda poderá ver as alocações por hora no Planejador de Recursos, mas não poderá alternar para a Visualização de Custo ou exibir o Caso de Negócios. Para obter mais informações, consulte [Conceder acesso aos dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) e [Compartilhar permissões financeiras em um objeto](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+&#42;&#42;Requer acesso adicional a dados financeiros e permissões para finanças do projeto. Se você conceder acesso ao Gerenciamento de recursos a um usuário do Planejador que não tem acesso aos Dados financeiros, o usuário ainda poderá ver as alocações por hora no Planejador de recursos, mas não poderá alternar para a visualização de custos ou visualizar o Business Case. Para obter mais informações, consulte [Conceder acesso a dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) e [Compartilhar permissões financeiras em um objeto](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
-&#42;&#42;&#42;Requer permissão para Contribuir para o objeto, com Tornar atribuições ativadas em Configurações avançadas. Para obter mais informações, consulte a seção [Entender as permissões herdadas e a hierarquia de objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) no artigo [Visão geral do compartilhamento de permissões em objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+&#42;&#42;&#42;Requer permissão para Contribuir com o objeto, com a opção Fazer atribuições ativada em Configurações avançadas. Para obter informações, consulte a seção [Compreender as permissões herdadas e a hierarquia de objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) no artigo [Visão geral das permissões de compartilhamento em objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-## Área do Planejador de Cenário
+## Área do Planejador de Cenários
 
 | Ação | Planejador | Trabalhador | Oliveira | Solicitante | Usuário externo |
 |---|---|---|---|---|---|
 | Criar/editar planos e iniciativas existentes | ✓ | ✓ | ✓ |   |   |
-| Adicionar ou editar informações de função de trabalho em planos e iniciativas&#42; | ✓ | ✓ | ✓ |   |   |
-| Adicionar ou editar informações de custo sobre planos e iniciativas&#42; | ✓ | ✓ | ✓ |   |   |
+| Adicionar ou editar informações de funções de trabalho em planos e iniciativas&#42; | ✓ | ✓ | ✓ |   |   |
+| Adicionar ou editar informações de custo em planos e iniciativas&#42; | ✓ | ✓ | ✓ |   |   |
 | Excluir planos e iniciativas | ✓ | ✓ | ✓ |   |   |
-| Visualizar cenários no menu principal ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ |  |   |
-| Visualizar planos e iniciativas que o usuário criou&#42; | ✓ | ✓ | ✓ |   |   |
+| Exibir cenários no menu principal ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |   |
+| Exibir planos e iniciativas criados pelo usuário&#42; | ✓ | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->Os usuários podem exibir um plano criado por outro usuário somente se um link para o plano for compartilhado com eles.
+>Os usuários poderão exibir um plano que outro usuário criou somente se um link para o plano for compartilhado com eles.
 
-&#42; Para que os usuários visualizem dados financeiros em um plano ou iniciativa, eles precisam ter acesso aos dados financeiros. Para obter mais informações, consulte [Conceder acesso aos dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+&#42; Para que os usuários visualizem dados financeiros em um plano ou iniciativa, eles precisam de acesso a Dados Financeiros. Para obter mais informações, consulte [Conceder acesso a dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-## Área de metas do Workfront
+## Área Metas do Workfront
 
 | Ações | Exibir | Editar |
 |---|---|---|
 | Criar |   | ✓ |
 | Editar/excluir todas as metas |   | ✓ |
-| Exibir metas no menu principal | ✓ | ✓ |
-| Exibir a área de Metas a partir de um link compartilhado | ✓ | ✓ |
-| Ver todas as metas no sistema | ✓ | ✓ |
-| Ativar/desativar/fechar todas as metas |   | ✓ |
-| Criar/editar/excluir atividades |   | ✓ |
-| Criar/editar/excluir resultados |   | ✓ |
+| Exibir Metas no menu Principal | ✓ | ✓ |
+| Exibir a área Metas de um link compartilhado | ✓ | ✓ |
+| Exibir todas as metas no sistema | ✓ | ✓ |
+| Ativar/ desativar/ fechar todas as metas |   | ✓ |
+| Criar/ editar/ excluir atividades |   | ✓ |
+| Criar/ editar/ excluir resultados |   | ✓ |
 | Adicionar uma meta alinhada |   | ✓ |
-| Atualizar o progresso em um resultado ou atividade |   | ✓ |
+| Atualizar progresso em um resultado ou atividade |   | ✓ |
 | Ter uma meta, resultado ou atividade | ✓ | ✓ |
-| Comentário sobre uma meta | ✓ | ✓ |
+| Comentar em uma meta | ✓ | ✓ |
 | Copiar metas |   | ✓ |
 | Exibir a seção Lista de metas no painel esquerdo | ✓ | ✓ |
 | Exibir a seção Gráficos no painel esquerdo | ✓ | ✓ |
-| Exibir a seção Alinhamento da meta no painel esquerdo | ✓ | ✓ |
+| Exibir a seção Alinhamento de metas no painel esquerdo | ✓ | ✓ |
 
