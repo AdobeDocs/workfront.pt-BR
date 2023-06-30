@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
+source-git-commit: 9f6338dc79740e13b71e9266fed17f6dc61039e1
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '781'
 ht-degree: 5%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 5%
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
+
+{{highlighted-preview}}
 
 {{important-admin-console-onboard}}
 
@@ -67,6 +69,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
     <col> 
     <col> 
     <tbody> 
+     <tr> 
+      <td role="rowheader"> <p><span class="preview">Habilitar processo de revisão rápido</span></p> </td> 
+      <td><span class="preview">Permite ativar versões mensais do Workfront para sua organização em vez de versões trimestrais.</p><p>Para obter mais informações sobre o processo de lançamento rápido, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Habilitar ou desabilitar versões rápidas para sua organização</a>.</span></p></td> 
+     </tr> 
      <tr> 
       <td role="rowheader"> <p>Permitir incorporação de <strong>Workfront</strong> em um iframe</p> </td> 
       <td>Permite incorporar o Workfront em um iframe.<p>Essa opção está desativada por padrão.</p><p><b>IMPORTANTE</b>: a exibição de um aplicativo baseado na Web em um iframe torna o aplicativo susceptível a uma vulnerabilidade de segurança de clickjacking.</p></td> 
