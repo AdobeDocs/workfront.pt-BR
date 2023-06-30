@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 62db557f6347004836fac1ea37e55d557dcc6b87
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1514'
 ht-degree: 3%
 
 ---
@@ -86,9 +86,11 @@ Reprojetamos a interface para registrar tempo da área Atualizações na nova ex
 
 Para obter mais informações, consulte [Registrar tempo](../../../timesheets/create-and-manage-timesheets/log-time.md). A documentação será atualizada no momento da versão.
 
-Lançamento de visualização planejado: 29 de junho de 2023
+Versão de visualização planejada para projetos, tarefas e problemas: 5 de julho de 2023
 
-Versão de produção planejada: com a versão 23.3
+Versão de produção planejada para problemas: 6 de julho de 2023
+
+Versão de produção planejada para projetos e tarefas: com a versão 23.3
 
 #### Adicionar emojis a uma atualização
 
@@ -188,7 +190,7 @@ Você pode registrar tempo para problemas, tarefas e projetos na área Atualiza�
 
 Visualização: 1 de junho de 2023
 
-Produção: a ser anunciada
+Produção: com a versão 23.3
 
 ### Semana de 15 de maio de 2023
 
