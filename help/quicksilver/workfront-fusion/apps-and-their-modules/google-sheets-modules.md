@@ -9,9 +9,9 @@ description: Para utilizar [!DNL Google Sheets] com [!DNL Adobe Workfront Fusion
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 6f4e5042054f3936fa0e387bfbebaa1775d16573
 workflow-type: tm+mt
-source-wordcount: '3942'
+source-wordcount: '3941'
 ht-degree: 0%
 
 ---
@@ -698,7 +698,7 @@ Veja mais detalhes em [developers.google.com/sheets/api/limits](https://develope
 ### Como obter células vazias de um [!DNL Google Sheet]
 
 Use o [!UICONTROL Pesquisar Linhas (Avançado)] módulo &amp; use esta fórmula para obter as colunas que estão vazias.
-<pre>selecione * [!UICONTROL onde E é nulo​]</pre>Aqui, "E" é a coluna e "é nulo" é a condição. Você pode criar uma consulta mais avançada usando o [Google Query Lang.](https://developers.google.com/chart/interactive/docs/querylanguage)
+<pre>selecione * onde E é nulo</pre>Aqui, "E" é a coluna e "é nulo" é a condição. Você pode criar uma consulta mais avançada usando o [Google Query Lang](https://developers.google.com/chart/interactive/docs/querylanguage).
 
 ### Adicionar um botão em uma planilha para executar um cenário
 
