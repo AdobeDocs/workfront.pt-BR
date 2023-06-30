@@ -4,9 +4,9 @@ description: Visão geral da versão 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 186c102a0b1751ab0eba03bd86d2d9db6de9ec5b
+source-git-commit: 5b4aa5c806d0f930250e9238d460833cd1aed71a
 workflow-type: tm+mt
-source-wordcount: '2701'
+source-wordcount: '2737'
 ht-degree: 0%
 
 ---
@@ -530,6 +530,22 @@ O webinário da versão 23.3 do será realizado em 29 de junho de 2023. Você po
                             </li>
                         </ul>
                         <p><span style="color: #ff0000;">Esse recurso faz parte de uma versão em fases e está disponível no momento apenas para clientes específicos.</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Novo botão Compartilhar</a> </p>
+                        <p>A opção Compartilhar foi retirada do menu Mais para projetos, tarefas e problemas, tornando o compartilhamento mais intuitivo.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 22 de junho de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Versão de produção: com a versão 23.3</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
            </tbody>
