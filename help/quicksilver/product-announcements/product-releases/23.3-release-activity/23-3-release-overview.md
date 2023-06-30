@@ -4,9 +4,9 @@ description: Visão geral da versão 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2701'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ O webinário da versão 23.3 do será realizado em 29 de junho de 2023. Você po
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">A Exibição Agile de um projeto exibe um quadro kanban</a><span style="color: #ff0000;"> Em breve!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">A Exibição Agile de um projeto exibe um quadro kanban</a><span style="color: #ff0000;"> Novo na visualização!</span></p>
                         <p>A Exibição Agile de um projeto agora inclui funcionalidades adicionais para filtrar, agrupar e classificar trabalho em um quadro kanban. O novo design flexível da visualização inclui um recurso de pesquisa robusto e a capacidade de adicionar novas tarefas ao projeto diretamente do quadro.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -332,7 +332,7 @@ O webinário da versão 23.3 do será realizado em 29 de junho de 2023. Você po
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Taxas de custo e faturamento efetivas na data</a><span style="color: #ff0000;"> Em breve!</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Taxas de custo e faturamento efetivas na data</a><span style="color: #ff0000;"> Novo na visualização!</span> </p>
                         <p>As taxas de custo e cobrança com data efetiva estão agora disponíveis nos objetos de empresa, usuário e função de trabalho na Workfront. Quando taxas de efetivação de data são aplicadas a um projeto e horas são registradas em tarefas do projeto, os custos e a receita são calculados usando as taxas especificadas para cada período.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -342,7 +342,8 @@ O webinário da versão 23.3 do será realizado em 29 de junho de 2023. Você po
                             </li>
                             <li>
                                 <p>Versão de produção para clientes da versão rápida: a ser anunciada, após a versão de produção 23.3</p>
-                                <p>Versão de produção para todos os clientes: com a versão 23.4</p>
+                                <p>Versão de produção para todos os clientes: com a versão 23.4<br>
+                                <span style="color: #ff0000;"> O recurso de substituição de taxa de atribuição foi temporariamente desabilitado na Pré-visualização em 30 de junho de 2023.</span></p>
                             </li>
                         </ul>
                     </td>

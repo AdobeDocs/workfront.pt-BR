@@ -6,9 +6,9 @@ description: Você pode gerenciar atribuições de tarefas ou problemas usando a
 author: Alina
 feature: Work Management
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 2b48377653a77d3d71c90fac9c64cb48fc7877a3
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # Criar atribuições avançadas
 
 {{highlighted-preview}}
+
+>[!IMPORTANT]
+>
+>O recurso de substituição de taxa de atribuição foi temporariamente desabilitado na Pré-visualização em 30 de junho de 2023.
 
 Você pode gerenciar atribuições de tarefas ou problemas usando as Atribuições Avançadas.
 

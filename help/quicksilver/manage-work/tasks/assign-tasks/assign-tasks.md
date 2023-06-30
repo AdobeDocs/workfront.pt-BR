@@ -6,9 +6,9 @@ description: É possível atribuir tarefas a usuários, funções ou equipes par
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1913'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 # Atribuir tarefas
 
 {{highlighted-preview}}
+
+>[!IMPORTANT]
+>
+>O recurso de substituição de taxa de atribuição foi temporariamente desabilitado na Pré-visualização em 30 de junho de 2023.
 
 É possível atribuir tarefas a usuários, funções de trabalho ou equipes para indicar quem é responsável por concluir as tarefas. É possível atribuir uma tarefa a mais de um recurso por vez.
 

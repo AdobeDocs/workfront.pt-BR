@@ -3,9 +3,9 @@ title: 23.3 Melhorias na agilidade
 description: 23.3 Melhorias na agilidade
 author: Lisa
 feature: Product Announcements
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1305'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ A Exibição Agile de um projeto agora inclui funcionalidades adicionais para fi
 Enquanto estiver no quadro, você pode optar por alternar para a Exibição Agile herdada.
 
 Para obter mais informações, consulte [Gerenciar um projeto na visualização Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3421283/){target=_blank}
 
 ## Classificar por colunas do quadro
 
