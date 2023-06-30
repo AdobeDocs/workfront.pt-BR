@@ -7,9 +7,9 @@ description: O ambiente de Pré-visualização é atualizado uma vez por semana 
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -24,21 +24,26 @@ O ambiente de Pré-visualização é atualizado uma vez por semana com novos rec
 
 ### Recursos do produto
 
-Normalmente, os recursos em Pré-visualização são disponibilizados no ambiente de Produção com a próxima versão trimestral. No entanto, em alguns casos, os recursos são disponibilizados no ambiente de Produção fora de uma versão trimestral. Essas alterações permanecem na Pré-visualização por um mínimo de 2 semanas para fornecer tempo adequado para que você se familiarize com as alterações. Essas alterações também são comunicadas por meio do Centro de anúncios no momento em que são adicionadas à Pré-visualização.
+
+A Adobe Workfront tem dois modelos para lançar novos recursos e atualizações. Sua organização pode escolher se deseja receber novas funcionalidades trimestralmente ou em uma programação de lançamento mais rápida.
+
+Normalmente, os recursos na Pré-visualização são disponibilizados em seu ambiente de Produção com a próxima versão. No entanto, em alguns casos, os recursos são disponibilizados no ambiente de Produção fora de uma versão programada. Essas alterações permanecem na Pré-visualização por um mínimo de 2 semanas para fornecer tempo adequado para que você se familiarize com as alterações. Essas alterações também são comunicadas por meio do Centro de anúncios no momento em que são adicionadas à Pré-visualização.
+
+Para obter mais informações sobre os processos de lançamentos trimestrais e rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ### Atualizações de manutenção
 
 As correções de problemas do produto Adobe Workfront são disponibilizadas no ambiente de Produção toda semana. Consulte a [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) para ver o que foi corrigido recentemente.
 
-## Recursos removidos de uma versão trimestral
+## Recursos removidos de uma versão agendada
 
-Todos os recursos associados a uma determinada versão trimestral estão disponíveis para teste em Pré-visualização por um mínimo de 2 a 4 semanas antes da versão final para produção. Se os recursos forem removidos da versão trimestral antes dessa data, as seguintes ações serão executadas para informar os clientes:
+Todos os recursos associados a uma determinada versão (mensal ou trimestral) estão disponíveis para teste em Pré-visualização por um mínimo de 2 a 4 semanas antes do lançamento final para produção. Se os recursos forem removidos da versão agendada antes dessa hora, as seguintes ações serão executadas para informar os clientes:
 
-* As notas de versão da versão trimestral (encontradas no [Versões do produto](../../product-announcements/product-releases/product-releases.md) ) são atualizadas para indicar que o recurso foi removido.
+* As notas de versão da versão agendada (encontradas no [Versões do produto](../../product-announcements/product-releases/product-releases.md) ) são atualizadas para indicar que o recurso foi removido.
 
-Se os recursos forem removidos da versão trimestral depois que todos eles estiverem disponíveis para teste em Pré-visualização, as seguintes ações serão executadas para informar aos clientes:
+Se os recursos forem removidos da versão agendada depois que todos estiverem disponíveis para teste na Pré-visualização, as seguintes ações serão executadas para informar aos clientes:
 
-* As notas de versão da versão trimestral (encontradas no [Versões do produto](../../product-announcements/product-releases/product-releases.md) ) são atualizadas para indicar que o recurso foi removido.
+* As notas de versão da versão (encontradas no [Versões do produto](../../product-announcements/product-releases/product-releases.md) ) são atualizadas para indicar que o recurso foi removido.
 * Uma publicação é adicionada à Comunidade do Workfront informando que o recurso foi removido.
 * Uma mensagem é enviada a todos os clientes pelo Centro de notificações informando que o recurso foi removido. (O Centro de notificações é o centro de notificações no aplicativo da Workfront. Para obter mais informações, consulte [Enviar notificações](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
 
@@ -74,9 +79,9 @@ Se você encontrar algo no sistema que não corresponda à documentação e sobr
 
 ## Notas de versão
 
-Use as notas de versão da próxima versão trimestral para ver quais novos recursos estão disponíveis em Pré-visualização e quando serão lançados para produção.
+Use as notas de versão da próxima versão agendada para ver quais novos recursos estão disponíveis na Pré-visualização e quando serão lançados para Produção.
 
-Para encontrar as notas da próxima versão trimestral, consulte [Versões do produto](../../product-announcements/product-releases/product-releases.md), em seguida, clique no link para levá-lo à página de visão geral da versão futura.
+Para encontrar as notas de versão para a próxima versão programada, consulte [Versões do produto](../../product-announcements/product-releases/product-releases.md), em seguida, clique no link para levá-lo à página de visão geral da versão futura.
 
 As notas de versão fornecem uma tabela com uma lista de recursos na coluna à esquerda, com uma breve descrição de cada recurso. Você pode clicar em um link de recurso para ver um vídeo de demonstração do novo recurso, bem como acessar a documentação sobre o novo recurso. Na coluna à direita, você verá as seguintes informações para cada recurso:
 
