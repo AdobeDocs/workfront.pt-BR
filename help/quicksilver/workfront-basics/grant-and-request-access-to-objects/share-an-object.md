@@ -183,7 +183,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
      >[!NOTE]
      >
-      O administrador do Workfront ou o criador do objeto tem a capacidade de remover permissões dessas entidades.
+     > O administrador do Workfront ou o criador do objeto tem a capacidade de remover permissões dessas entidades.
 
       
 
