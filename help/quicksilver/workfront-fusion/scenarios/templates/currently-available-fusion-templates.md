@@ -7,9 +7,9 @@ description: Os seguintes modelos públicos estão disponíveis no Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 4e618a0b91a44a6232ff6a72b9c7384b774b0fda
+source-git-commit: 3897606db8a80d04a3b8d8f0cba69365ceb86c17
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,26 @@ Esses modelos recuperam informações de um serviço Web e trazem essas informa�
 ### APILayer > Workfront - Atualização da Taxa de Câmbio Diária (EUR)
 
 Esse modelo cria um cenário que automatiza a atualização de uma taxa de câmbio em um ponto definido no tempo. Este cenário extrai a taxa de euros (EUR) para dólares (USD) de uma API APIlayers.com e atualiza a taxa no Workfront.
+
+## Modelos Workfront-Marketo
+
+Esses modelos oferecem suporte à integração Workfront-Marketo.
+
+>[!NOTE]
+>
+> Você deve ter uma licença do Workfront Fusion for Work Automation and Integration para usar modelos nesta seção.
+
+### Aprovar o rascunho de email do Marketo Engage com os fluxos de trabalho de aprovação do Workfront
+
+Isso faz parte da integração Revisar e aprovar entre o Workfront e o Marketo Engage. Esse modelo detecta se uma Prova de email no Workfront foi aprovada e atualiza o email correspondente no Marketo Engage como aprovado.
+
+### Receber solicitações de campanha de marketing no Workfront e automatizar a criação de campanhas no Marketo Engage
+
+Esse cenário fornece uma maneira programática de criar campanhas de email e webinário no Marketo Engage a partir de uma solicitação feita no Workfront. Usando a automação para criar, organizar e configurar campanhas, as equipes podem melhorar a eficiência.
+
+### Revise uma prova de email do seu rascunho de email do Marketo Engage no Workfront
+
+Esse modelo detecta se uma tarefa do Workfront foi definida como um status pronto para revisão e, em seguida, exporta o rascunho de email do Marketo Engage para salvá-lo como uma Prova no Workfront.
 
 ## Modelos Workfront-Anaplan
 
