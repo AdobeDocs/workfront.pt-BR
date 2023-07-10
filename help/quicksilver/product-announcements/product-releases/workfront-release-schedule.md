@@ -7,9 +7,9 @@ description: O ambiente de Pré-visualização é atualizado uma vez por semana 
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
+source-git-commit: f3807e83a2d9fdbe351269bb1ecc9c6defc78a76
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ O ambiente de Pré-visualização é atualizado uma vez por semana com novos rec
 
 
 A Adobe Workfront tem dois modelos para lançar novos recursos e atualizações. Sua organização pode escolher se deseja receber novas funcionalidades trimestralmente ou em uma programação de lançamento mais rápida.
+
+Os lançamentos mensais e trimestrais estão planejados para estarem disponíveis na última quinta-feira do mês.
 
 Normalmente, os recursos na Pré-visualização são disponibilizados em seu ambiente de Produção com a próxima versão. No entanto, em alguns casos, os recursos são disponibilizados no ambiente de Produção fora de uma versão programada. Essas alterações permanecem na Pré-visualização por um mínimo de 2 semanas para fornecer tempo adequado para que você se familiarize com as alterações. Essas alterações também são comunicadas por meio do Centro de anúncios no momento em que são adicionadas à Pré-visualização.
 

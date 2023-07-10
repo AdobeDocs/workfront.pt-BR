@@ -4,9 +4,9 @@ description: Visão geral da versão 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 5b4aa5c806d0f930250e9238d460833cd1aed71a
+source-git-commit: f3807e83a2d9fdbe351269bb1ecc9c6defc78a76
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2752'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ O webinário da versão 23.3 do será realizado em 29 de junho de 2023. Você po
 >|----|----|
 >| <ul><li>23.8 (agosto de 2023)</li><li>23.9 (setembro de 2023)</li><li>23.10 (outubro de 2023)</li></ul> | <ul><li>23.10 (outubro de 2023)</li></ul> |
 >| <ul><li>23.11 (novembro de 2023)</li><li>23.12 (dezembro de 2023)</li><li>24.1 (janeiro de 2024)</li></ul> | <ul><li>24.1 (janeiro de 2024)</li></ul> |
+>
+>Os lançamentos mensais e trimestrais estão planejados para estarem disponíveis na última quinta-feira do mês.
 
 ## Aprimoramentos do Adobe Workfront
 
@@ -69,7 +71,7 @@ O webinário da versão 23.3 do será realizado em 29 de junho de 2023. Você po
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão de pré-visualização: N/D</p>
+                                <p>Versão de pré-visualização: 22 de junho de 2023</p>
                             </li>
                             <li>
                                 <p>Versão de produção: com a versão 23.3</p>
