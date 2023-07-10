@@ -4,9 +4,9 @@ description: Atualizações de aparência durante o período de lançamento da v
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,9 @@ Para obter mais informações, consulte [Copiar e enviar solicitações](/help/q
 
 >[!NOTE]
 >
->Versão de visualização planejada: 6 de julho de 2023; Versão de produção planejada: com a versão 23.3
+>Versão de visualização planejada: a ser anunciada; Versão de produção planejada: a ser anunciada.
+>
+>Este recurso foi originalmente planejado para ser lançado com a versão 23.3 e foi posteriormente adiado.
 
 Atualizamos a caixa Novo problema que é exibida ao enviar um novo problema para um projeto. Agora, a interface corresponde à caixa Nova solicitação, que é exibida ao enviar uma nova solicitação para uma fila de solicitações.
 

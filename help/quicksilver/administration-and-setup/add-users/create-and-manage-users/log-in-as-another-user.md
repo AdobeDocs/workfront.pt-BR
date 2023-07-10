@@ -3,35 +3,37 @@ title: Fazer logon como outro usuário
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: Como administrador do Adobe Workfront, às vezes você pode precisar acessar o Workfront em nome de outro usuário.
+description: Como administrador do Adobe Workfront, às vezes pode ser necessário acessar o Workfront em nome de outro usuário.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
 
 # Fazer logon como outro usuário
 
+
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ele está disponível para todos os usuários somente no ambiente de Pré-visualização.</span>
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
 
 >[!IMPORTANT]
 >
->O procedimento descrito nesta página se aplica somente a organizações que ainda não foram integradas à Adobe Admin Console. Se sua organização tiver sido integrada à Adobe Admin Console, essa ação não estará disponível.
+>O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas à Adobe Admin Console. Se sua organização tiver sido integrada à Adobe Admin Console, essa ação não estará disponível.
 >
->Para obter uma lista de procedimentos diferentes com base no fato de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Para obter uma lista de procedimentos que diferem dependendo de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Como administrador do Adobe Workfront, às vezes você pode precisar acessar o Workfront em nome de outro usuário.
+Como administrador do Adobe Workfront, às vezes pode ser necessário acessar o Workfront em nome de outro usuário.
 
-Ou, como administrador de grupo, talvez seja necessário acessar o Workfront em nome de um usuário que é membro de um grupo que você gerencia.
+Ou, como administrador de grupo, talvez seja necessário acessar o Workfront em nome de um usuário que seja membro de um grupo que você gerencia.
 
-Por exemplo, se uma tarefa não puder progredir até que um usuário em férias execute uma determinada ação, você poderá fazer logon como esse usuário e executar a ação.
+Por exemplo, se uma tarefa não puder progredir até que um usuário de férias execute uma determinada ação, você poderá fazer logon como esse usuário e executar a ação.
 
 <!--
 <note type="note">
@@ -44,63 +46,62 @@ Some users, such as executives, need to be able to control which administrators 
 
 >[!NOTE]
 >
->Como uma integração de documento pode se conectar a arquivos pessoais privados, os administradores não podem acessar integrações de documentos enquanto estiverem conectados como outro usuário.
+>Como uma integração de documentos pode se conectar a arquivos pessoais privados, os administradores não podem acessar integrações de documentos enquanto estiverem conectados como outro usuário.
 >
 >Para obter mais informações sobre integrações de documentos, consulte [Configurar integrações de documentos](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte para executar as etapas neste artigo:
+Você deve ter o seguinte para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td>Qualquer Um</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença Adobe Workfront</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>Plano</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Com o nível de acesso Administrador do sistema, você pode fazer logon como qualquer pessoa. Para obter informações sobre esse nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder ao usuário acesso administrativo total</a>. </p> <p>Com um nível de acesso do Planejador, você pode fazer logon como um usuário com um nível de licença mais baixo se a variável <b>Usuários</b> a configuração no nível de acesso é configurada para <b>Editar</b> acesso, com <b>Criar</b> e pelo menos um dos dois <b>Administrador do usuário</b> opções ativadas em <b>Ajustar as configurações</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p><b>OBSERVAÇÃO</b>: Dessas duas opções, se Usuário <b>Administrador (usuários do grupo)</b> estiver habilitado, você deve ser um administrador de grupo de um grupo no qual o usuário é membro.</p> 
-   <p>Para obter mais informações sobre o <b>Usuários</b> configurar em um nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </td> 
+   <td> <p>Com o nível de acesso de Administrador do sistema, você pode fazer logon como qualquer pessoa. Para obter informações sobre esse nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acesso administrativo total a um usuário</a>. </p> <p>Com um nível de acesso de Planejador, você pode fazer logon como um usuário com um nível de licença mais baixo se a <b>Usuários</b> no nível de acesso estiver definida como <b>Editar</b> acesso, com <b>Criar</b> e pelo menos um dos dois <b>Administrador de Usuários</b> opções ativadas em <b>Ajuste as configurações</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
+   <p><b>NOTA</b>: dessas duas opções, se o Usuário <b>Administrador (Usuários de grupo)</b> estiver ativado, você deve ser um administrador de grupo de um grupo do qual o usuário seja membro.</p> 
+   <p>Para obter mais informações sobre o <b>Usuários</b> em um nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Fazer logon e executar ações como outro usuário
 
-1. Faça logon no Workfront como administrador do Workfront ou como administrador de grupo.
+1. Faça logon no Workfront como administrador do Workfront ou administrador de grupo.
 
    >[!NOTE]
    >
-   >* Se você for um administrador de grupo, é possível fazer logon somente como usuários dos grupos que você gerencia. Além disso, a permissão Administrador de usuário (usuários do grupo) deve ser ativada em seu nível de acesso:
+   >* Se você for um administrador de grupo, poderá efetuar login somente como usuários nos grupos que gerencia. Além disso, a permissão Administrador de usuários (usuários de grupo) deve estar ativada em seu nível de acesso:
    >   
    >  ![](assets/group-admin-user.png)
    >   
-   >  Esta configuração é desativada por padrão. Para obter mais informações, consulte [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+   >  Essa configuração é desativada por padrão. Para obter mais informações, consulte [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
    >   
    >* Não é possível redefinir a senha de um administrador do Workfront.
 
-
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, em seguida, clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
 
 1. No painel esquerdo, clique em **Fazer logon como**.
 
-1. No **Usuários** na caixa **Fazer logon como** , comece a digitar o nome do usuário e clique no nome quando ele for exibido na lista suspensa.
+1. No **Usuários** na caixa **Fazer logon como** comece digitando o nome do usuário e clique no nome quando ele aparecer na lista suspensa.
 
    O usuário deve ter um nível de acesso definido no Workfront. Não é possível fazer logon no sistema Workfront como um usuário que não tem direitos para fazer logon.
 
    >[!NOTE]
    >
-   >Os administradores de grupo podem fazer logon somente como os usuários membros dos grupos que gerenciam. Eles não podem fazer logon como administrador do Workfront.
+   >Os administradores de grupo podem fazer logon somente como usuários membros dos grupos que gerenciam. Eles não podem fazer logon como administrador do Workfront.
 
-1. Clique em **Faça logon.**
+1. Clique em **Fazer logon.**
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Might come in a future story:</p>
@@ -127,36 +128,43 @@ Você deve ter o seguinte para executar as etapas neste artigo:
    </div>
    -->
 
-   Quando você estiver conectado como outro usuário, uma notificação é exibida na parte superior da tela para indicar isso.
+   Quando você estiver conectado como outro usuário, uma notificação será exibida na parte superior da tela para indicar isso.
 
-1. Depois de executar as ações necessárias como usuário, clique em **Faça logoff.**
+1. Depois de executar as ações necessárias como usuário, clique em **Fazer logoff.**
 
 ## Atividade de rastreamento e auditoria enquanto um administrador está conectado como outro usuário
 
 O Workfront fornece mecanismos para rastrear e auditar atividades que ocorrem enquanto o administrador está conectado como outro usuário.
 
-Ao efetuar logon como outro usuário, a última data de logon é modificada para esse usuário até a data em que o administrador do sistema ou do grupo fizer logon como esse usuário.
+Quando você efetua login como outro usuário, a última data de login é modificada para esse usuário para a data em que o administrador do sistema ou do grupo efetuar login como esse usuário.
 
 * [Exibir indicadores em itens](#view-indicators-on-items)
 * [Exibir informações de auditoria](#view-audit-information)
 
 ### Exibir indicadores em itens {#view-indicators-on-items}
 
-Ao fazer logon no Workfront como outro usuário e executar uma ação, o Workfront claramente indica que qualquer ação executada é feita por você em nome do usuário com o qual você está conectado.
+Ao fazer logon no Workfront como outro usuário e executar uma ação, o Workfront indica claramente que qualquer ação executada é feita por você em nome do usuário com o qual você está conectado.
 
-Por exemplo, se você comentar um item enquanto estava conectado como outro usuário, uma declaração indica que o comentário foi feito por você em nome do usuário.
+Por exemplo, se você comentar em um item enquanto estiver conectado como outro usuário, uma instrução indicará que o comentário foi feito por você em nome do usuário.
+
+>[!NOTE]
+>
+><span class="preview">Ao usar a nova experiência de comentários, o comentário é adicionado como o usuário que fez logon como outro usuário e não há indicação de que ele esteja adicionando um comentário em nome de outra pessoa.
+>
+>Por exemplo, se um administrador do Workfront fizer logon como outro usuário, o usuário associado ao comentário será o administrador do Workfront. Para obter mais informações, consulte [Nova experiência de comentários](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+
 
 ### Exibir informações de auditoria {#view-audit-information}
 
 1. Faça logon no Workfront como administrador do Workfront ou administrador de grupo.
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, em seguida, clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
 
-1. Clique em **Fazer logon como,** em seguida, clique no botão **Log de acesso** guia .
+1. Clique em **Fazer logon como,** em seguida, clique no link **Log de acesso** guia.
 
-   Sempre que um administrador de sistema ou de grupo fizer logon no Workfront como outro usuário, o evento será registrado na trilha de auditoria. Além disso, quaisquer ações auditáveis que ocorrem enquanto o administrador está conectado como outro usuário são registradas na trilha de auditoria.
+   Sempre que um administrador de sistema ou de grupo fizer logon no Workfront como outro usuário, o evento será conectado na trilha de auditoria. Além disso, todas as ações auditáveis que ocorrem enquanto o administrador está conectado como outro usuário são conectadas na trilha de auditoria.
 
 1. (Opcional) Você pode filtrar os resultados exibidos na trilha de auditoria das seguintes maneiras:
 
    * Por usuário que fez logon
-   * Por usuário que foi conectado como
+   * Por usuário que fez logon como
    * Por data

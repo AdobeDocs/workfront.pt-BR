@@ -7,10 +7,10 @@ description: A seção Atualizações de um objeto exibe comentários que os usu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 38f46324219f297523ff262b083f41a2dd388579
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 4%
+source-wordcount: '1141'
+ht-degree: 3%
 
 ---
 
@@ -232,7 +232,18 @@ Se quiser ver todas as atualizações feitas em um usuário ou uma equipe, além
 
 ### Limitações ao inserir comentários em nome de outro usuário
 
-Os administradores do Adobe Workfront e de grupos podem fazer logon como outros usuários e executar ações no Workfront, como inserir comentários. (Para obter informações, consulte [Fazer logon como outro usuário](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).) Quaisquer comentários feitos em nome de outro usuário são indicados no comentário.
+Os administradores do Adobe Workfront e de grupos podem fazer logon como outros usuários e executar ações no Workfront, como inserir comentários.
+
+Para obter informações, consulte [Fazer logon como outro usuário](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+
+Quaisquer comentários feitos em nome de outro usuário são indicados no comentário.
+
+>[!NOTE]
+>
+><span class="preview">Ao usar a nova experiência de comentários, o comentário é adicionado como o usuário que fez logon como outro usuário e não há indicação de que ele esteja adicionando um comentário em nome de outra pessoa.
+>
+>Por exemplo, se um administrador do Workfront fizer logon como outro usuário, o usuário associado ao comentário será o administrador do Workfront. Para obter mais informações, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+
 
 Um administrador de grupo pode comentar em nome de outra pessoa, mas não pode excluir esse comentário. Somente um administrador do Adobe Workfront pode excluir um comentário feito em nome de outro usuário.
 

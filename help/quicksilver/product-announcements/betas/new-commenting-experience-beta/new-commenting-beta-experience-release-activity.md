@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 62db557f6347004836fac1ea37e55d557dcc6b87
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1606'
 ht-degree: 3%
 
 ---
@@ -32,9 +32,9 @@ Para obter informações gerais sobre a nova experiência de comentários, inclu
 
 Estamos planejando lançar a nova experiência de comentários interativamente. Isso afetará os objetos selecionados em cada versão. Um pequeno conjunto de recursos pode ser lançado no início e mais recursos serão adicionados aos objetos restantes ao longo do tempo.
 
-Para obter informações sobre quais objetos do Workfront exibem a seção Atualizações, consulte   [Visão geral da seção Atualizações](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+Para obter informações sobre quais objetos do Workfront exibem a seção Atualizações, consulte   [Visão geral da seção Atualizações](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Esta é uma linha do tempo planejada para o lançamento da nova experiência de comentários para o ambiente de Produção:
+Veja a seguir uma linha do tempo planejada com marcos importantes para o lançamento da nova experiência de comentários no ambiente de produção. Além dos marcos abaixo, continuaremos a melhorar a experiência de comentários com aprimoramentos menores. Para obter detalhes sobre todos os recursos lançados, consulte a [Recursos lançados](#released-features) neste artigo.
 
 * Com a versão 23.2 (6 de abril de 2023):
    * Comentando a experiência beta para problemas
@@ -51,24 +51,41 @@ Esta é uma linha do tempo planejada para o lançamento da nova experiência de 
 * Final de 2023:
    * A experiência de comentários herdada permanecerá como uma opção para os seguintes objetos: projetos, tarefas, problemas e documentos.
 
-     Modelos, tarefas de modelo, programas, portfólios, equipes, usuários e folhas de horas, metas e cartões têm a nova experiência de comentários como a única opção.
-
   >[!NOTE]
   >
   >    As iterações continuarão tendo a experiência de comentários herdada.
 
-A seção a seguir contém uma lista de recursos que foram adicionados após a versão original, começando com os lançados mais recentemente.
-
 ## Recursos lançados
 
-As informações a seguir se referem à atividade de lançamento semanalmente dos recursos incluídos na nova experiência beta de comentários. A página lista novos recursos que são adicionados e problemas que são resolvidos para a nova experiência de comentários.
+A seção a seguir contém uma lista de recursos que foram adicionados após a versão original, começando com os lançados mais recentemente.
 
+As informações a seguir se referem à atividade de lançamento semanalmente dos recursos incluídos na nova experiência beta de comentários. Este artigo lista novos recursos que são adicionados e problemas que são resolvidos para a nova experiência de comentários.
 
 ### Recursos lançados após 19 de junho de 2023
 
 <!--restructure this section with actual weeks and dates, when we know them-->
 
 Os recursos listados nesta seção estão planejados para lançamento logo após a semana de 19 de junho de 2023.
+
+#### Marcar automaticamente todos os participantes do thread
+
+Um proprietário de comentário agora é marcado automaticamente em um thread. Antes desta atualização, somente os usuários que foram marcados usando as tags &quot;@name&quot; ou adicionando-os à seção &quot;Marcar pessoas ou equipes&quot; eram exibidos na lista de usuários marcados. Com isso, agora é possível remover o proprietário de um comentário da thread, se necessário, mesmo que eles não tenham sido marcados manualmente antes.
+
+Lançamento de visualização planejado: 12 de julho de 2023
+
+Versão de produção planejada: 13 de julho de 2023
+
+#### Nova interface para registro de tempo
+
+Reprojetamos a interface para registrar tempo da área Atualizações na nova experiência de comentários.
+
+Para obter mais informações, consulte [Registrar tempo](../../../timesheets/create-and-manage-timesheets/log-time.md). A documentação será atualizada no momento da versão.
+
+Versão de pré-visualização para projetos, tarefas e problemas: 5 de julho de 2023
+
+Versão de produção para problemas: 6 de julho de 2023
+
+Versão de produção planejada para projetos e tarefas: com a versão 23.3
 
 #### Citar conteúdo do comentário em uma nova resposta
 
@@ -80,27 +97,13 @@ Visualização: 28 de junho de 2023
 
 Versão de produção: 29 de junho de 2023
 
-#### Nova interface para registro de tempo
-
-Reprojetamos a interface para registrar tempo da área Atualizações na nova experiência de comentários.
-
-Para obter mais informações, consulte [Registrar tempo](../../../timesheets/create-and-manage-timesheets/log-time.md). A documentação será atualizada no momento da versão.
-
-Versão de visualização planejada para projetos, tarefas e problemas: 5 de julho de 2023
-
-Versão de produção planejada para problemas: 6 de julho de 2023
-
-Versão de produção planejada para projetos e tarefas: com a versão 23.3
-
 #### Adicionar emojis a uma atualização
 
 Agora é possível adicionar emojis a um comentário usando uma opção da barra de ferramentas Rich Text na nova experiência de comentário.
 
 Para obter mais informações, consulte [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). A documentação será atualizada no momento da versão.
 
-Pré-visualização: a ser anunciado (durante a versão 23.3)
-
-Produção: a ser anunciado. Antes da versão 23.3.
+Pré-visualização e produção: a ser anunciado (durante ou logo após a versão 23.3)
 
 #### Nova experiência de comentários para objetos adicionais
 

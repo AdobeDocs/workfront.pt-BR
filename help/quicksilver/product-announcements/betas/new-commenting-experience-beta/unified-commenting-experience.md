@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -57,6 +57,7 @@ Os seguintes recursos foram removidos da nova experiência:
 * Comentar em uma atualização do sistema
 * Capacidade de editar status, condição e data de confirmação ao comentar
 * Editar formulário personalizado
+* A informação &quot;em nome de &lt; user name >&quot; quando um administrador de Workfront ou grupo faz logon como outro usuário e adiciona um comentário em nome dele.
 
 >[!NOTE]
 >
@@ -115,8 +116,23 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    <td> 
    </td>
   </tr>
-  <tr>
- <tr>
+
+<tr>
+   <td>Rich text (emojis)
+   </td>
+   <td>✓ 
+   </td>
+   <td>
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+
+<tr>
    <td>Rich text (aspas de bloco)
    </td>
    <td>✓ 
@@ -188,13 +204,13 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
   </tr>
   <tr>
-   <td>Remover pessoas do thread 
+   <td>Marcar automaticamente todos os participantes do thread
    </td>
    <td> 
    </td>
-   <td>✓
+   <td>
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -299,35 +315,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    <td> 
    </td>
   </tr>
-  <tr>
-   <td>Editar formulário personalizado 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Capacidade de editar status, condição e data de confirmação ao comentar 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
+    <tr>
    <td>Copiar link da discussão 
    </td>
    <td>✓ 
@@ -360,9 +348,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td><span class="preview">✓</span> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td>2 o trim. de 2023 
    </td>
@@ -411,9 +399,50 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    <td>✓ 
    </td>
   </tr>
-
+<tr>
+   <td>Editar formulário personalizado 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>Capacidade de editar status, condição e data de confirmação ao comentar 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+  </tr>
 <tr>
    <td>Responder a atualizações do sistema 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> 
+   </td>
+  </tr>
+<tr>
+   <td>Exibir "em nome de" ao adicionar comentários conectados como outro usuário
    </td>
    <td> ✓
    </td>
