@@ -6,7 +6,7 @@ description: Você pode registrar horas para itens de trabalho no &Adobe Workfro
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
 workflow-type: tm+mt
 source-wordcount: '3336'
 ht-degree: 0%
@@ -385,7 +385,7 @@ Para registrar horas na seção Atualizações de um projeto, tarefa ou problema
 1. No painel esquerdo, selecione **Atualizações**.
 1. Clique em **Registro de tempo**.
 
-   A caixa de diálogo Enter Hours (Inserir horas) é exibida.
+   <span class="preview">A caixa de diálogo Log Time (Registrar horário) é exibida. </span>
 
    >[!TIP]
    >
@@ -393,7 +393,7 @@ Para registrar horas na seção Atualizações de um projeto, tarefa ou problema
    >   
    >   Há uma indicação no canto superior direito da caixa Inserir dias de quantas horas são incluídas em um dia.
 
-   ![](assets/log-time-box-in-updates-stream.png)
+   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
 
 1. Especifique as seguintes informações:
 
