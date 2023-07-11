@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: fda9c07ee43cc4e6ba1a26ea937ca820367800a8
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -83,11 +83,11 @@ Você deve ter o seguinte:
      <tr> 
       <td role="rowheader">[!UICONTROL Custo/ H.]</td> 
       <td><p>Esta é a taxa de custo por hora da função de trabalho. Esse valor calcula os custos planejados e reais de tarefas e problemas associados à função e, por fim, os custos planejados e reais dos projetos. Insira a taxa usando a [!UICONTROL Moeda base].</p> 
-      <p><span class="preview">Para taxas de custo efetivas por data, clique em <strong>[!UICONTROL Adicionar Taxa]</strong>. Insira o valor de custo/hora para o período e atribua uma [!UICONTROL Data de Início] e uma [!UICONTROL Data de Término] conforme necessário. A primeira taxa de custo não terá uma data inicial e a última taxa de custo não terá uma data final.</span></p> <p><span class="preview">Algumas datas são adicionadas automaticamente. Por exemplo, se a primeira taxa de custo não tiver uma data final e você adicionar uma segunda taxa de custo com uma data inicial de 1º de maio de 2023, uma data final de 30 de abril de 2023 será adicionada à primeira taxa de custo para que não haja lacunas.</span></p></td> 
+      <p><span class="preview">Para taxas de custo efetivas por data, clique em <strong>[!UICONTROL Adicionar Taxa]</strong>. Insira o valor de custo/hora para o período e atribua uma [!UICONTROL Data de Início] e uma [!UICONTROL Data de Término] conforme necessário. A primeira taxa de custo não terá uma data inicial e a última taxa de custo não terá uma data final.</span></p> <p><span class="preview">Algumas datas são adicionadas automaticamente. Por exemplo, se a primeira taxa de custo não tiver uma data final e você adicionar uma segunda taxa de custo com uma data inicial de 1º de maio de 2023, uma data final de 30 de abril de 2023 será adicionada à primeira taxa de custo para que não haja lacunas.</span></p> <p><span class="preview">Dica: ao editar uma função de trabalho existente, você pode selecionar <strong>Classificar por data de início</strong> para ver a data de início mais recente no topo da lista de taxas. </span></p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Fatura/ Hr.] </td> 
-      <td><p>Esta é a taxa de cobrança por hora da função de trabalho. Esse valor calcula as receitas planejadas e reais de tarefas e problemas associados à função e, por fim, as receitas planejadas e reais dos projetos. Insira a taxa usando a [!UICONTROL Moeda base].</p> <p><span class="preview">Para taxas de cobrança efetivas por data, clique em <strong>[!UICONTROL Adicionar Taxa]</strong>. Insira o valor de faturamento/hora para o período e atribua uma [!UICONTROL Data de Início] e uma [!UICONTROL Data de Término] conforme necessário. A primeira taxa de cobrança não terá uma data inicial e a última taxa de cobrança não terá uma data final.</span></p> <p><span class="preview">Algumas datas são adicionadas automaticamente. Por exemplo, se a primeira taxa de cobrança não tiver uma data final e você adicionar um segundo com uma data inicial de 1º de maio de 2023, uma data final de 30 de abril de 2023 será adicionada à primeira taxa de cobrança para que não haja lacunas.</span></p> </td> 
+      <td><p>Esta é a taxa de cobrança por hora da função de trabalho. Esse valor calcula as receitas planejadas e reais de tarefas e problemas associados à função e, por fim, as receitas planejadas e reais dos projetos. Insira a taxa usando a [!UICONTROL Moeda base].</p> <p><span class="preview">Para taxas de cobrança efetivas por data, clique em <strong>[!UICONTROL Adicionar Taxa]</strong>. Insira o valor de faturamento/hora para o período e atribua uma [!UICONTROL Data de Início] e uma [!UICONTROL Data de Término] conforme necessário. A primeira taxa de cobrança não terá uma data inicial e a última taxa de cobrança não terá uma data final.</span></p> <p><span class="preview">Algumas datas são adicionadas automaticamente. Por exemplo, se a primeira taxa de cobrança não tiver uma data final e você adicionar um segundo com uma data inicial de 1º de maio de 2023, uma data final de 30 de abril de 2023 será adicionada à primeira taxa de cobrança para que não haja lacunas.</span></p> <p><span class="preview">Dica: ao editar uma função de trabalho existente, você pode selecionar <strong>Classificar por data de início</strong> para ver a data de início mais recente no topo da lista de taxas. </span></p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL Substituir Moeda]</span> </td> 
