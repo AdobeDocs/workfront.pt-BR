@@ -1,38 +1,37 @@
 ---
 product-area: setup
 navigation-topic: notifications
-title: Ativar ou desativar suas próprias notificações de evento
-description: O administrador do Adobe Workfront configura quais notificações de evento os usuários recebem quando os eventos ocorrem no Workfront.
+title: Ativar ou desativar suas próprias notificações de eventos
+description: O administrador do Adobe Workfront configura quais notificações de evento os usuários recebem quando eventos ocorrem no Workfront.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: ea16b13b6ecb6ecea365c6c4d31ee23b7bb712c6
+source-git-commit: cfa1439ac2c08c5304457041fe246639b7512dde
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
 
 ---
 
-# Ativar ou desativar suas próprias notificações de evento
+# Ativar ou desativar suas próprias notificações de eventos
 
-Seu Adobe [!DNL Workfront] O administrador configura quais notificações de evento os usuários recebem quando os eventos ocorrem no Workfront (como descrito em [[!UICONTROL Configurar evento] notificações para todos no sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
+Seu Adobe [!DNL Workfront] O administrador configura quais notificações de eventos os usuários recebem quando eventos ocorrem no Workfront (conforme descrito em [[!UICONTROL Configurar evento] notificações para todos no sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
-O administrador de grupo também pode configurar quais notificações de evento são ativadas para você e para os usuários do Grupo doméstico. Se o seu [!UICONTROL Grupo Doméstico] for um subgrupo, você receberá as notificações de evento ativadas para o grupo de nível superior acima do seu grupo.
+O administrador do grupo também pode configurar quais notificações de evento serão ativadas para você e para os usuários do Grupo padrão. Se o seu [!UICONTROL Grupo padrão] for um subgrupo, você receberá as notificações de evento ativadas para o grupo de nível superior acima do seu grupo.
 
-Você pode personalizar isso ainda mais, configurando quais notificações recebe. Você também pode escolher se deseja receber notificações como eventos ou em um email de resumo diário.
+Você pode personalizar ainda mais esse conteúdo configurando quais notificações você recebe. Você também pode escolher se deseja receber notificações conforme os eventos ocorrem ou em um email de resumo diário.
 
 Para obter informações sobre notificações por email, consulte [[!DNL Adobe Workfront] notificações](../../workfront-basics/using-notifications/wf-notifications.md).
 
 >[!NOTE]
 >
->* Se você ativar um tipo de notificação e depois descobrir que não está recebendo notificações desse tipo, pode ser porque esse tipo não se aplica à sua função.
->* O [!DNL Workfront] administrador ou um administrador de grupo não pode configurar notificações para [!DNL Workfront Goals]. Para obter mais informações sobre quais notificações a variável [!DNL Workfront] administrador pode configurar, consulte [Configurar notificações de evento para todos no sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). Para obter informações sobre como configurar notificações individuais para [!DNL Workfront Goals] continue lendo este artigo.
+>* Se você ativar um tipo de notificação e descobrir que não está recebendo notificações desse tipo, pode ser porque esse tipo não se aplica à sua função.
+>* A variável [!DNL Workfront] administrador ou um administrador de grupo não pode configurar notificações para [!DNL Workfront Goals]. Para obter mais informações sobre quais notificações o [!DNL Workfront] administrador pode configurar, consulte [Configurar notificações de eventos para todos no sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). Para obter informações sobre como configurar notificações individuais para [!DNL Workfront Goals] continue lendo este artigo.
 >
-
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,46 +45,46 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!UICONTROL Trabalho] ou superior</p> </td> 
+   <td> <p>[!UICONTROL Solicitação] ou superior</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano ou tipo de licença você possui, entre em contato com seu [!DNL Workfront] administrador.
+&#42;Para saber que tipo de plano ou licença você tem, entre em contato com o [!DNL Workfront] administrador.
 
 ## Exibir e modificar as configurações de notificação por email
 
-1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique no nome de usuário ao lado da imagem do perfil.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique no nome de usuário ao lado da imagem do perfil.
 
-1. Clique no botão **[!UICONTROL Mais]** ícone ![](assets/more-icon.png) , depois clique em **[!UICONTROL Editar]**.
+1. Clique em **[!UICONTROL Mais]** ícone ![](assets/more-icon.png) e, em seguida, clique em **[!UICONTROL Editar]**.
 
-1. No **[!UICONTROL Editar Pessoa]** for exibida, vá para a caixa **[!UICONTROL Notificações]** seção.
+1. No **[!UICONTROL Editar pessoa]** que for exibida, vá para a caixa **[!UICONTROL Notificação]** seção.
 
 1. Clique em uma categoria para exibir as configurações de notificação relacionadas a essa categoria.
 
    ![](assets/my-profile-notifications.png)
 
-1. Marque ou desmarque as caixas de seleção à direita para especificar se deseja receber ou não notificações diariamente, instantaneamente ou em ambos.
+1. Marque ou desmarque as caixas de seleção à direita para especificar se deseja receber ou não notificações diariamente, instantaneamente ou ambas.
 
    Você também pode usar as caixas de seleção de uma categoria para ativar ou desativar todas as notificações nessa categoria.
 
    >[!NOTE]
    >
-   >Se você for membro da equipe de um projeto, continuará recebendo notificações por email até que seja removido da equipe, mesmo que não tenha mais acesso ao projeto. Para obter instruções sobre como remover usuários de uma equipe, consulte [Remover usuários de projetos](../../manage-work/projects/manage-projects/remove-users-from-projects.md).
+   >Se você for um membro da equipe de um projeto, continuará a receber notificações por email sobre ele até ser removido da equipe, mesmo se não tiver mais acesso ao projeto. Para obter instruções sobre como remover usuários de uma equipe, consulte [Remover usuários dos projetos](../../manage-work/projects/manage-projects/remove-users-from-projects.md).
 
-   Para o **[!UICONTROL Comunicação]** , você pode selecionar notificações individuais somente para delivery instantâneo. Para que as notificações sejam entregues em um resumo diário, selecione todas.
+   Para o **[!UICONTROL Comunicação]** você pode selecionar notificações individuais somente para entrega instantânea. Para que as notificações sejam entregues em um resumo diário, selecione todas elas.
 
-   Se todas as notificações por email de uma determinada categoria forem ativadas, a caixa no título da categoria aparecerá como selecionada. Se todas as notificações por email em uma determinada categoria estiverem desativadas, a caixa não estará selecionada. Se algumas notificações forem ativadas e outras forem desativadas, a caixa de seleção categoria aparecerá como uma linha reta.\
-   Quando você modifica uma configuração de notificação, o rótulo **[!UICONTROL Editado]** for exibido para essa configuração de notificação, para que você saiba que essa configuração de notificação foi modificada.
+   Se todas as notificações por email de uma determinada categoria estiverem ativadas, a caixa no título da categoria será exibida como selecionada. Se todas as notificações por email em uma determinada categoria estiverem desativadas, a caixa será desmarcada. Se algumas notificações forem ativadas e outras forem desativadas, a caixa de seleção de categoria aparecerá como uma linha reta.\
+   Quando você modifica uma configuração de notificação, o rótulo **[!UICONTROL Editado]** é exibida para essa configuração de notificação, para que você saiba que essa configuração de notificação foi modificada.
 
-1. Se você selecionou notificações para serem enviadas como resumo diário, selecione a hora do dia em que deseja recebê-las na parte superior do **[!UICONTROL Notificações]** na seção **[!UICONTROL Receita diária por email após]** menu.
+1. Se você selecionou qualquer notificação para ser enviada como um resumo diário, selecione a hora do dia que deseja receber na parte superior do **[!UICONTROL Notificação]** na seção **[!UICONTROL Enviar o resumo diário por email depois de]** menu.
 
    ![](assets/digest-time-stamp-my-settings-350x78.png)
 
-   O resumo diário inclui eventos que atendem aos critérios das notificações 24 horas antes do horário selecionado. Você recebe um email de resumo diário para cada tipo de notificação.\
-   O resumo diário pode chegar após o tempo selecionado, dependendo de quantos emails estão na fila para entrega no sistema. A hora listada é a hora local, conforme especificado nas configurações do navegador.
+   O resumo diário inclui eventos que atendem aos critérios das notificações 24 horas antes da hora selecionada. Você recebe um email de resumo diário para cada tipo de notificação.\
+   O resumo diário pode chegar depois do tempo selecionado, dependendo de quantos emails estão na fila para entrega no sistema. A hora listada é a hora local especificada nas configurações do navegador.
 
-1. (Condicional e opcional) Ao modificar as configurações de notificações por email no ambiente de Visualização, ative a **[!UICONTROL Receber emails deste ambiente de teste]** configuração para receber emails. Os emails não são gerados automaticamente do ambiente de Visualização.
+1. (Condicional e opcional) Ao modificar configurações de notificações por email no ambiente de Pré-visualização, ative a opção **[!UICONTROL Receber emails deste ambiente de teste]** configuração para receber emails. Os emails não são gerados automaticamente do ambiente de Pré-visualização.
 
    ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
