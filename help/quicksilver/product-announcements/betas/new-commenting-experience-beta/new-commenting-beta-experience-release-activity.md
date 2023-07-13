@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 3f12cc51897b1fd090f14f3c58c98eb9f74ec33c
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1569'
 ht-degree: 3%
 
 ---
@@ -79,7 +79,7 @@ Versão de produção planejada: 13 de julho de 2023
 
 Reprojetamos a interface para registrar tempo da área Atualizações na nova experiência de comentários.
 
-Para obter mais informações, consulte [Registrar tempo](../../../timesheets/create-and-manage-timesheets/log-time.md). A documentação será atualizada no momento da versão.
+Para obter mais informações, consulte [Registrar tempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 Versão de pré-visualização: 5 de julho de 2023
 
@@ -89,7 +89,7 @@ Versão de produção: com a versão 23.3
 
 Agora, você pode copiar o conteúdo de um comentário e adicioná-lo como uma nova cotação a uma resposta na mesma thread ao usar a nova experiência de comentário.
 
-Para obter mais informações, consulte [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). A documentação será atualizada no momento da versão.
+Para obter mais informações, consulte [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Visualização: 28 de junho de 2023
 
