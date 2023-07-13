@@ -6,16 +6,16 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1346'
 ht-degree: 2%
 
 ---
 
 # Copiar e enviar solicitações
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Ao submeter solicitações semelhantes com frequência, você pode copiar uma solicitação submetida existente. Nesse caso, você pode copiar uma solicitação existente, fazer alterações mínimas nela e reenviá-la como uma nova solicitação.
 
@@ -122,11 +122,11 @@ Você deve ter uma solicitação enviada anteriormente por você ou por alguém 
 1. (Condicional) Se a seção Enviada não for exibida por padrão, clique em **Enviado** no painel esquerdo.
 1. Localize a solicitação que você deseja copiar e submeter como nova e siga um destes procedimentos:
 
-   * Selecione-o e clique em <span class="preview"> **Copiar** ![](assets/copy-and-submit-as-new-requests-area-nwe.png)</span> no canto superior esquerdo da lista Solicitações enviadas.
+   * Selecione-o e clique em **Copiar** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) no canto superior esquerdo da lista Solicitações enviadas.
 
    >[!TIP]
    >
-   > <span class="preview">Se você não tiver selecionado uma solicitação primeiro, o ícone Copiar ficará esmaecido.</span>
+   > Se você não tiver selecionado uma solicitação primeiro, o ícone Copiar ficará esmaecido.
 
    * Clique em **Mais** menu ![](assets/more-icon.png) à direita do nome da solicitação e clique em **Copiar e enviar como novo**
 

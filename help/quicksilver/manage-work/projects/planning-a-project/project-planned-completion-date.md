@@ -5,11 +5,12 @@ navigation-topic: plan-a-project
 title: Definir a data de conclusão planejada do projeto
 description: A Data de conclusão planejada de um projeto é a data na qual o projeto está definido para ser concluído.
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -18,9 +19,9 @@ ht-degree: 0%
 
 A Data de conclusão planejada de um projeto é a data na qual o projeto está definido para ser concluído.
 
-As Datas de Início Planejado e de Conclusão Planejada de um projeto dependem das datas das tarefas no projeto. Este artigo descreve como você pode definir manualmente ou automaticamente a Data de conclusão planejada de um projeto. Para obter mais informações sobre a Data de Conclusão Planejada de uma tarefa, consulte [Visão geral da data de conclusão planejada da tarefa](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+O Início planejado e as Datas de conclusão planejadas de um projeto dependem das datas das tarefas no projeto. Este artigo descreve como definir manual ou automaticamente a Data de conclusão planejada de um projeto. Para obter mais informações sobre a Data de conclusão planejada de uma tarefa, consulte [Visão geral da Data de conclusão planejada da tarefa](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
-A Data de conclusão planejada de um projeto pode ser definida manualmente ou automaticamente, dependendo de você programar o projeto a partir da Data de início ou de conclusão.
+A Data de conclusão planejada de um projeto pode ser definida manual ou automaticamente, dependendo se você agenda o projeto a partir do Início ou da Data de conclusão.
 
 ## Requisitos de acesso
 
@@ -55,14 +56,14 @@ A Data de conclusão planejada de um projeto pode ser definida manualmente ou au
 </table>
 -->
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> <p>Qualquer Um</p> </td> 
   </tr> 
   <tr> 
@@ -71,9 +72,9 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a Projetos</p> <p><b>Nota</b>
+   <td> <p>Editar acesso a projetos</p> <p><b>Nota</b>
 
-Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
+Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -82,53 +83,58 @@ Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele defi
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
-## Definir manualmente a Data de conclusão planejada de um projeto
+## Definir manualmente a data de conclusão planejada de um projeto
 
-Você deve definir manualmente a Data de conclusão planejada de um projeto ao agendar o projeto a partir da Data de conclusão. 
+Você deve definir manualmente a Data de conclusão planejada de um projeto ao programar o projeto a partir da Data de conclusão.
 
-Para agendar um projeto a partir da Data de conclusão:
+>[!NOTE]
+>
+>Quando você define manualmente a Data de conclusão planejada de um projeto, o Workfront calcula automaticamente a Data inicial planejada do projeto com base na Duração de todas as tarefas.
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito, em seguida, clique em **Projetos**.
 
-1. Clique em **Novo projeto** then **Novo projeto**.
+Para programar um projeto a partir da Data de Término:
 
-   Para obter mais informações sobre como criar projetos, consulte o artigo [Criar um projeto](../../../manage-work/projects/create-projects/create-project.md).
+1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito e clique em **Projetos**.
 
-1. Selecionar **Detalhes do projeto** no painel esquerdo, em seguida, clique no botão **Editar projeto** no canto superior direito.
-
-1. No **Modo de agendamento** , selecione **Data de conclusão**.
-
-1. Especifique a **Data de Conclusão Planejada** do projeto.
-1. Clique em **Salvar alterações**.
-
-   À medida que você começa a adicionar tarefas ao seu projeto, a **Data de início planejada** O do projeto é calculado com base na Duração total de todas as tarefas. 
-
-## Definir automaticamente a Data de conclusão planejada de um projeto
-
-A Data de conclusão planejada de um projeto é calculada automaticamente pela Adobe Workfront quando você agenda o projeto a partir da Data inicial. 
-
-Para agendar um projeto a partir da Data inicial:
-
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito, em seguida, clique em **Projetos**.
-
-1. Clique em **Novo projeto** then **Novo projeto**.
+1. Clique em **Novo projeto** depois **Novo projeto**.
 
    Para obter mais informações sobre como criar projetos, consulte o artigo [Criar um projeto](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Selecionar **Detalhes do projeto** no painel esquerdo, em seguida, clique no botão **Editar projeto** no canto superior direito.
+1. Selecionar **Detalhes do projeto** no painel esquerdo, clique na guia **Editar Projeto** no canto superior direito.
 
-1. No **Modo de agendamento** , selecione **Data inicial**.
+1. No **Modo de Cronograma** selecione **Data de Término**.
 
-1. Especifique a **Data de início planejada** do projeto.
+1. Especifique a **Data de Término Planejada** do projeto.
 1. Clique em **Salvar alterações**.
 
-   À medida que você começa a adicionar tarefas ao seu projeto, a **Data de Conclusão Planejada** O do projeto é calculado com base na Duração total de todas as tarefas. 
+   Ao começar a adicionar tarefas ao seu projeto, a variável **Data de Início Planejada** do projeto é calculada com base na Duração total de todas as tarefas. 
+
+## Definir automaticamente a data de conclusão planejada de um projeto
+
+A Data de conclusão planejada de um projeto é calculada automaticamente pela Workfront quando você agenda o projeto a partir da Data de início. 
+
+Para programar um projeto a partir da Data Inicial:
+
+1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito e clique em **Projetos**.
+
+1. Clique em **Novo projeto** depois **Novo projeto**.
+
+   Para obter mais informações sobre como criar projetos, consulte o artigo [Criar um projeto](../../../manage-work/projects/create-projects/create-project.md).
+
+1. Selecionar **Detalhes do projeto** no painel esquerdo, clique na guia **Editar Projeto** no canto superior direito.
+
+1. No **Modo de Cronograma** selecione **Data de início**.
+
+1. Especifique a **Data de Início Planejada** do projeto.
+1. Clique em **Salvar alterações**.
+
+   Ao começar a adicionar tarefas ao seu projeto, a variável **Data de Término Planejada** do projeto é calculada com base na Duração total de todas as tarefas. 
 
    Para obter mais informações sobre a Duração da tarefa, consulte o artigo [Visão Geral da Duração da Tarefa e do Tipo de Duração](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-   A Data de conclusão planejada do projeto coincide, nesse caso, com a Data de conclusão planejada da última tarefa no projeto.
+   A Data de conclusão planejada do projeto coincide, neste caso, com a Data de conclusão planejada da última tarefa do projeto.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

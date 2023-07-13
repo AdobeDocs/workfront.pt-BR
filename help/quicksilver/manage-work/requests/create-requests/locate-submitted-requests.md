@@ -4,18 +4,20 @@ navigation-topic: create-requests
 title: Localizar solicitações enviadas
 description: Saiba mais sobre as áreas do Adobe Workfront em que você pode localizar solicitações enviadas por você ou por outra pessoa, ou solicitações que você nunca enviou e que foram salvas como rascunhos.
 author: Alina
-feature: Work Management
+feature: Requests
+topic: Collaboration
+role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '869'
 ht-degree: 1%
 
 ---
 
 # Localizar solicitações enviadas
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Você pode localizar os seguintes tipos de solicitações que você ou outra pessoa submeteu ou as solicitações que você iniciou, mas que nunca terminou de submeter. Você pode localizar essas solicitações nas seguintes áreas do Adobe Workfront:
 
@@ -70,7 +72,7 @@ Para localizar solicitações que você ou outros usuários submeteram:
    >
    >Não é possível personalizar as colunas na lista Solicitação enviada.
 
-   <span class="preview">![](assets/nwe-submitted-requests-new-list-350x57.png)</span>
+   ![](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. As seguintes colunas são exibidas por padrão:
