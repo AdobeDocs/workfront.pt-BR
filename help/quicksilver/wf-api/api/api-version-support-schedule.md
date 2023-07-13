@@ -1,25 +1,25 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Controle de versão da API e cronograma de suporte
-description: Controle de versão da API e cronograma de suporte
+title: Controle de versão da API e programação de suporte
+description: Controle de versão da API e programação de suporte
 author: Becky
 feature: Workfront API
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: bcf8c8a5ce9cbaf596878b85aa134245e811d07d
+source-git-commit: 5a4868451384718e359bfd5f876081961b16485d
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 11%
 
 ---
 
-# Controle de versão da API e cronograma de suporte
+# Controle de versão da API e programação de suporte
 
 
 
-O Adobe Workfront lança regularmente novas versões da API, normalmente duas vezes por ano. As versões da API são compatíveis por 3 anos após o lançamento. As versões de API com mais de 3 anos não são mais compatíveis.
+O Adobe Workfront lança regularmente novas versões da API, geralmente duas vezes por ano. As versões da API são compatíveis por 3 anos após o lançamento. As versões da API com mais de 3 anos não são mais compatíveis.
 
-A tabela a seguir mostra o cronograma de versão e suporte da API do Workfront.
+A tabela a seguir mostra a versão e a programação de suporte da API do Workfront.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +33,7 @@ A tabela a seguir mostra o cronograma de versão e suporte da API do Workfront.
   </tr> 
  </thead> 
  <tbody> 
-   <td>14</td> 
+   <td>16</td> 
    <td> <p>Abril de 2023</p> <p>(com a versão 23.2)</p> </td> 
    <td> <p>**durante 2026</p> <p>(com a versão 26.2)</p> </td> 
   </tr> 
@@ -125,8 +125,8 @@ A tabela a seguir mostra o cronograma de versão e suporte da API do Workfront.
  </tbody> 
 </table>
 
-&#42;Problemas relacionados a versões não suportadas da API não serão resolvidos pela Workfront.
+&#42;Problemas relacionados a versões não compatíveis da API não serão solucionados pelo Workfront.
 
-&#42;&#42;Datas sujeitas a alteração.
+&#42;&#42;Datas sujeitas a alterações.
 
-Para obter informações sobre o uso de versões específicas da API, consulte [Especificar uma versão da API em suas integrações](../../wf-api/api/specify-api-version-integrations.md)
+Para obter informações sobre o uso de versões específicas da API, consulte [Especifique uma Versão da API em suas integrações](../../wf-api/api/specify-api-version-integrations.md)
