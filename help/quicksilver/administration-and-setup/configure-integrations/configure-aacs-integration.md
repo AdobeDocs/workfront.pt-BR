@@ -5,7 +5,7 @@ title: Integrações do Adobe Experience Manager Assets
 description: Você pode conectar seu trabalho às seguintes integrações do Adobe Experience Manager Assets.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 3849bd8ce80f40ae7d05b81e0dd8e846851dffc0
+source-git-commit: e03e6a3cacc8eb65764d86854a9847eb414aa340
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 0%
@@ -23,7 +23,9 @@ Você pode conectar seu trabalho ao seu conteúdo no [!DNL Experience Manager As
 * Rastrear metadados de ativos e pastas
 * Sincronizar metadados de projeto entre [!DNL Workfront] e [!DNL Experience Manager Assets]
 
-Você também pode conectar vários repositórios Experience Manager Assets a um ambiente Workfront, ou vários ambientes Workfront a um repositório Experience Manager Assets em IDs de organização. Siga as instruções de configuração neste artigo para cada integração que você deseja configurar.
+>[!NOTE]
+>
+>Você também pode conectar vários repositórios Experience Manager Assets a um ambiente Workfront, ou vários ambientes Workfront a um repositório Experience Manager Assets em IDs de organização. Siga as instruções de configuração neste artigo para cada integração que você deseja configurar.
 
 ## Requisitos de acesso
 
@@ -165,7 +167,6 @@ Você pode mapear campos do Workfront incorporados e personalizados para o Exper
 > * Configuração > Forms personalizado no Workfront ou o campo no objeto
 > * Ativos > esquemas de metadados no Experience Manager Assets
 
-
 +++
 
 ### Mapear metadados para ativos
@@ -181,7 +182,6 @@ Para mapear metadados de ativos:
    >
    >Você pode mapear um único [!DNL Workfront] campo para vários [!UICONTROL Experience Manager Assets] campos. Não é possível mapear vários [!DNL Workfront] para um único [!DNL Experience Manager Assets] campo.
    ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
-
 
 1. No [!DNL Experience Manager Assets] , pesquise as categorias pré-preenchidas ou insira pelo menos duas letras no campo de pesquisa para acessar categorias adicionais.
 1. Repita as etapas 2 e 3 conforme necessário.
