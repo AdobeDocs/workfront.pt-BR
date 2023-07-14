@@ -2,11 +2,11 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Configurar a integração do Experience Manager Assets Essentials
-description: Conecte seu trabalho com seu conteúdo no Experience Manager Assets Essentials - EDITE-ME.
+description: Conecte seu trabalho ao seu conteúdo no Experience Manager Assets Essentials - EDITE-ME.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 9965ec9f436724e438fbbc5977f22761cc673878
+source-git-commit: a6cb6d4780f2b1c3e77547caf7324e882d2dab4f
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 4%
@@ -15,13 +15,15 @@ ht-degree: 4%
 
 # Configurar a integração do Experience Manager Assets Essentials
 
-Conecte seu trabalho com seu conteúdo no Experience Manager Assets Essentials &#x200B;:
+Conecte seu trabalho ao seu conteúdo no Experience Manager Assets Essentials&#x200B;:
 
-* Envie ativos e metadados do Adobe Workfront para o Experience Manager Assets Essentials &#x200B;
-* Vincule ativos do Experience Manager Assets Essentials a seus projetos e tarefas no Workfront &#x200B;
-* Facilitar os fluxos de trabalho de controle de versão para ativos enviados ao Experience Manager Assets Essentials
+* Enviar ativos e metadados do Adobe Workfront para o Experience Manager Assets Essentials&#x200B;
+* Vincule ativos do Experience Manager Assets Essentials aos seus projetos e tarefas na Workfront&#x200B;
+* Facilitar workflows de controle de versão para ativos enviados para o Experience Manager Assets Essentials
 
-Também é possível conectar vários repositórios Experience Manager Assets a um ambiente Workfront ou vários ambientes Workfront a um repositório Experience Manager Assets por meio de IDs de organização. Siga as instruções de configuração neste artigo para cada integração que você deseja configurar.
+>[!NOTE]
+>
+>Você também pode conectar vários repositórios Experience Manager Assets a um ambiente Workfront, ou vários ambientes Workfront a um repositório Experience Manager Assets em IDs de organização. Siga as instruções de configuração neste artigo para cada integração que você deseja configurar.
 
 ## Requisitos de acesso
 
@@ -29,13 +31,13 @@ Você deve ter o seguinte:
 
 <table>
   <tr>
-   <td><strong>Plano Adobe Workfront*</strong>
+   <td><strong>plano do Adobe Workfront*</strong>
    </td>
    <td>Qualquer Um
    </td>
   </tr>
   <tr>
-   <td><strong>Licenças Adobe Workfront*</strong>
+   <td><strong>Licenças da Adobe Workfront*</strong>
    </td>
    <td>Plano
    </td>
@@ -49,25 +51,25 @@ Você deve ter o seguinte:
   <tr>
    <td><strong>Produto</strong>
    </td>
-   <td>Você deve ter o Experience Manager Assets Essentials e deve ser adicionado ao produto como usuário no Admin Console.
+   <td>Você deve ter o Experience Manager Assets Essentials e ser adicionado ao produto como usuário no Admin Console.
    </td>
   </tr>
   <tr>
    <td><strong>Configurações de nível de acesso</strong>
    </td>
-   <td>Você deve ser um administrador do Workfront. Para obter informações sobre administradores do Workfront, consulte <strong>Conceder ao usuário acesso administrativo total</strong>.
+   <td>Você deve ser um administrador do Workfront. Para obter informações sobre administradores do Workfront, consulte <strong>Conceder acesso administrativo total a um usuário</strong>.
    </td>
   </tr>
 </table>
 
 
-*Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
 
 
 ## Configurar a integração
 
-1. Clique no botão **Menu principal** no canto superior direito do Adobe Workfront, em seguida, clique em **Configuração**.
-1. Selecionar  **Documentos** ![ícone de documentos](assets/document-icon.png) no painel esquerdo e selecione **Integração do Experience Manager**.
+1. Clique em **Menu principal** no canto superior direito do Adobe Workfront e clique em **Configuração**.
+1. Selecionar  **Documentos** ![ícone documentos](assets/document-icon.png) no painel esquerdo, selecione **Integração do Experience Manager**.
 1. Selecionar **Adicionar integração de Experience Manager**.
 1. Especifique o seguinte:
 
@@ -75,26 +77,26 @@ Você deve ter o seguinte:
    <tr>
       <td><strong>Nome</strong>
       </td>
-      <td>Insira o nome que deseja que os usuários vejam no botão Add new na área Documents .
+      <td>Insira o nome que você deseja que os usuários vejam no botão Adicionar novo na área Documentos.
       </td>
    </tr>
    <tr>
       <td><strong>URL de navegação</strong>
       </td>
-      <td>O sistema preenche automaticamente o URL de navegação. Esse URL é usado para vincular à instância do Assets Essentials de sua organização no Menu principal para acesso rápido.
+      <td>O sistema preenche automaticamente o URL de navegação. Esse URL é usado para vincular a instância do Assets Essentials da sua organização no menu principal para acesso rápido.
       </td>
    </tr>
    <tr>
       <td>
-      <strong>Repositório Experience Manager Assets</strong>
+      <strong>Repositório do Experience Manager Assets</strong>
       </td>
       <td>
-      O sistema preenche automaticamente o repositório do Experience Manager associado à ID da organização.
+      O sistema preenche automaticamente o repositório de Experience Manager associado à ID da organização.
       </td>
    </tr>
    </table>
 
-1. Clique em **Salvar** ou vá para a [Configurar metadados (opcional)](#set-up-metadata-optional) neste artigo.
+1. Clique em **Salvar** ou vá para a página [Configurar metadados (opcional)](#set-up-metadata-optional) neste artigo.
 
 
 ## Configurar metadados (opcional)
@@ -106,18 +108,18 @@ Mapeie dados de objetos do Workfront para campos de mídia do Experience Manager
 
 Antes de começar, você deve
 
-* Configure um esquema de metadados no Experience Manager Assets Essentials, conforme explicado em [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e a Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
-* (Opcional) Configure campos de formulário personalizados no Workfront. O Workfront tem muitos campos personalizados incorporados que podem ser usados. No entanto, também é possível criar seus próprios campos personalizados. Para obter mais informações, consulte [Criar ou editar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* Configure um esquema de metadados no Experience Manager Assets Essentials conforme explicado em [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+* (Opcional) Configure campos de formulário personalizados no Workfront. O Workfront tem muitos campos personalizados internos que você pode usar. No entanto, você também pode criar seus próprios campos personalizados. Para obter mais informações, consulte [Criar ou editar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-+++ **Campos compatíveis com Workfront e Experience Manager Assets**
++++ **Campos Workfront e Experience Manager Assets compatíveis**
 
 **Palavra-chave AEM**
 
-Você pode mapear qualquer campo suportado pelo Workfront para uma palavra-chave no Experience Manager Assets Essentials.
+Você pode mapear qualquer campo compatível com o Workfront para uma palavra-chave no Experience Manager Assets Essentials.
 
-Para vincular um campo a uma palavra-chave, selecione `dc:subject` na lista suspensa do campo Experience Manager Assets na área de mapeamento de metadados.
+Para vincular um campo a uma palavra-chave, selecione `dc:subject` na lista suspensa do campo Experience Manager Assets, na área mapeamento de metadados.
 
-Para mapear vários campos de texto de linha única para palavras-chave, insira uma lista separada por vírgulas dos valores de palavras-chave no lado Workfront do mapeamento de metadados, e `dc:subject` no lado do Experience Manager Assets. Cada valor de campo mapeia para uma palavra-chave separada. Você pode usar um campo calculado para combinar vários campos Workfront em um único campo de texto separado por vírgulas.
+Para mapear vários campos de texto de linha única para palavras-chave, insira uma lista separada por vírgulas dos valores de palavra-chave no lado do Workfront do mapeamento de metadados e `dc:subject` no lado do Experience Manager Assets. Cada valor de campo mapeia para uma palavra-chave separada. Você pode usar um campo calculado para combinar vários campos do Workfront em um único campo de texto separado por vírgulas.
 
 <!--
 Look for essentials article
@@ -129,18 +131,18 @@ For more information on keywords in Experience Manager Assets, including how to 
 
 ### Ativos
 
-Os metadados mapeiam quando um ativo é enviado do Workfront pela primeira vez. Documentos com os campos incorporados ou personalizados mapeiam automaticamente para os campos especificados na primeira vez que um ativo é enviado para o Experience Manager Assets Essentials.
+Os metadados são mapeados quando um ativo é enviado por push do Workfront pela primeira vez. Documentos com campos incorporados ou personalizados são mapeados automaticamente para os campos especificados na primeira vez que um ativo é enviado ao Experience Manager Assets Essentials.
 
-1. No **Campo Workfront** escolha um campo Workfront incorporado ou personalizado.
+1. No **Campo do Workfront** escolha um campo Workfront incorporado ou personalizado.
    >[!NOTE]
    >
    >Você pode mapear um único campo do Workfront para vários campos do Experience Manager Assets. Não é possível mapear vários campos do Workfront para um único campo do Experience Manager Assets.
 1. No **Experience Manager** escolha um campo Experience Manager Assets.
 
-   Para mapear um campo Workfront para uma tag Experience Manager Assets, selecione `dc:subject`.
+   Para mapear um campo do Workfront para uma tag do Experience Manager Assets, selecione `dc:subject`.
 1. Repita as etapas 1 e 2 conforme necessário.
-   ![habilitar metadados](assets/metadata-assets-essentials.png)
-1. Clique em **Salvar** ou vá para a [Configurar pastas vinculadas (opcional)](#set-up-linked-folders-optional) neste artigo.
+   ![ativar metadados](assets/metadata-assets-essentials.png)
+1. Clique em **Salvar** ou vá para a página [Configurar pastas vinculadas (opcional)](#set-up-linked-folders-optional) neste artigo.
 
 
 ## Configurar pastas vinculadas (opcional)
