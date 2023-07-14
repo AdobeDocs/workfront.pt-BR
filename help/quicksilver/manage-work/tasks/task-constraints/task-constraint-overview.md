@@ -2,89 +2,109 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-constraints
-title: Visão geral da restrição de tarefa
+title: Visão geral de Restrição de Tarefa
 description: As restrições de tarefa determinam quando uma tarefa deve iniciar e terminar em um projeto.
 author: Alina
 feature: Work Management
 exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 10%
+source-wordcount: '684'
+ht-degree: 6%
 
 ---
 
-# Visão geral da restrição de tarefa
+# Visão geral de Restrição de Tarefa
 
 As restrições de tarefa determinam quando uma tarefa deve iniciar e terminar em um projeto.
 
 ## Visão Geral das Restrições de Tarefa
 
-Conforme você cria o plano do projeto, toma decisões sobre a sequência e o período de suas tarefas no projeto. As tarefas podem funcionar independentemente de qualquer sequência de tarefas, mas podem afetar a linha do tempo do projeto. As Restrições de Tarefa permitem que um gerente de projeto planeje quando determinadas tarefas podem ser iniciadas ou concluídas em um projeto.
+À medida que você constrói seu plano de projeto, toma decisões sobre a sequência e o período das tarefas no projeto. As tarefas podem funcionar independentemente de qualquer sequência de tarefas, mas podem afetar a linha do tempo do projeto. Restrições de Tarefa permitem que um gerente de projeto planeje quando determinadas tarefas podem ser iniciadas ou concluídas em um projeto.
 
 Dependendo da restrição usada, talvez seja necessário especificar uma Data Inicial Planejada, uma Data de Conclusão Planejada ou ambas para a tarefa.
 
-Os tipos de restrição que exigem datas definidas afetam as relações dos predecessores.
+Os tipos de restrição que exigem datas definidas afetam os relacionamentos de predecessores.
 
 >[!TIP]
 >
->Considere usar um tipo de restrição que não requer datas específicas se estiver usando relações do antecessor entre tarefas.
+>Considere o uso de um tipo de restrição que não exija datas específicas se estiver usando relações de predecessoras entre tarefas.
 
-A tabela a seguir exibe cada restrição e sua abreviação. As abreviações são usadas em listas de tarefas e ao criar arquivos de importação de Início Rápido. Clique no título vinculado de cada restrição de tarefa para obter mais informações sobre esse tipo de restrição.
+A tabela a seguir exibe cada restrição e sua abreviação. As abreviações são usadas em listas de tarefas e ao criar arquivos de importação do Kickstart. Clique no título vinculado de cada restrição de tarefa para obter mais informações sobre esse tipo de restrição.
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
  <col> 
+ <col>
  <thead> 
   <tr> 
-   <th> <p><strong>Nome da restrição</strong> </p> </th> 
+   <th> <p><strong>Nome da Restrição</strong> </p> </th> 
    <th> <p><strong>Abreviação</strong> </p> </th> 
+   <th> <p><strong>Descrição</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-soon-as-possible.md" class="MCXref xref">Visão geral da restrição de tarefa: Logo Que Possível</a> </p> </td> 
-   <td scope="col"> <p>OMBP</p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-soon-as-possible.md" class="MCXref xref">Visão geral da restrição de tarefas: o mais rápido possível</a> </p> </td> 
+   <td scope="col"> <p>OMBP</p> </td>
+   <td scope="col"> <p>Coloca a hora de início da tarefa o mais próximo possível do início do projeto.</p> 
+   <p>É a restrição padrão se o projeto usar um Modo de Cronograma a partir da Data Inicial e se a data inicial padrão do sistema para uma nova tarefa for definida como Baseado na Data Planejada do Projeto. </p>
+   </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-late-as-possible.md" class="MCXref xref">Visão geral da restrição de tarefa: O Mais Tarde Possível </a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-late-as-possible.md" class="MCXref xref">Visão geral de Restrição de tarefa: o mais tarde possível </a> </p> </td> 
    <td scope="col"> <p>OMTP</p> </td> 
+   <td scope="col"> <p>Coloca a hora de conclusão da tarefa o mais próximo possível do fim do projeto.</p> 
+   <p>Essa é a restrição padrão quando o Modo de Programação do projeto começa na Data de conclusão e o padrão do sistema ou grupo para a Data inicial de uma tarefa é Baseado na Data Planejada do Projeto. </p>
+   </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/earliest-available-time.md" class="MCXref xref">Visão geral da restrição de tarefa: Hora Disponível Anterior</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/earliest-available-time.md" class="MCXref xref">Visão geral de Restrição de Tarefa: Horário Mais Cedo Disponível</a> </p> </td> 
    <td scope="col"> <p>MMCD</p> </td> 
+ <td scope="col"> <p>Agenda uma tarefa para começar na hora mais próxima disponível depois de considerar quaisquer relações de predecessoras.</p> </td>
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/latest-available-time.md" class="MCXref xref">Visão geral da restrição de tarefa: Hora Disponível Mais Recente</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/latest-available-time.md" class="MCXref xref">Visão geral de Restrição de Tarefa: Último Tempo Disponível</a> </p> </td> 
    <td scope="col"> <p>OMTD</p> </td> 
+   <td scope="col"> <p>Agendar uma tarefa para começar no último horário disponível depois de considerar as relações predecessor-sucessor no projeto.</p> </td>
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-earlier-than.md" class="MCXref xref">Visão geral da restrição de tarefa: Iniciar Não Anterior a</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-earlier-than.md" class="MCXref xref">Visão geral de Restrição de tarefa: não iniciar antes de</a> </p> </td> 
    <td scope="col"> <p>NIAD</p> </td> 
+   <td scope="col"> <p>Agenda uma tarefa para iniciar depois da data que você especificar.</p> 
+   <p>Essa é a restrição padrão se o Modo de Cronograma do projeto for a Data Inicial e se a Data Inicial padrão do sistema ou grupo para uma nova tarefa for definida como Hoje.   </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-later-than.md" class="MCXref xref">Visão geral da restrição de tarefa: Iniciar Não Mais Tarde</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-later-than.md" class="MCXref xref">Visão geral de Restrição de tarefa: não iniciar depois de</a> </p> </td> 
    <td scope="col"> <p>NIDD</p> </td> 
+   <td scope="col"> <p>Agenda uma tarefa para iniciar antes da data que você especificar.</p> 
+   <p>Essa é a restrição padrão se o Modo de programação do projeto for a partir da Data de conclusão e o padrão do sistema ou grupo para a Data inicial de uma tarefa for Hoje. 
+   </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md" class="MCXref xref">Visão geral da restrição de tarefa: Concluir não antes de</a> </p> </td> 
-   <td scope="col"> <p>NTAD</p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md" class="MCXref xref">Visão geral de Restrição de Tarefa: Não Concluir Antes de</a> </p> </td> 
+   <td scope="col"> <p>NTAD</p> </td>
+   <td scope="col"> <p>Agenda uma tarefa para ser concluída após a data que você especificar.</p> </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-later-than.md" class="MCXref xref">Visão geral da restrição de tarefa: Concluir O Mais Tarde Que</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-later-than.md" class="MCXref xref">Visão geral da restrição de tarefas: não terminar depois de</a> </p> </td> 
    <td scope="col"> <p>NTDD</p> </td> 
+   <td scope="col"> <p>Agenda uma tarefa para ser concluída antes da data que você especificar.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-start-on.md" class="MCXref xref">Visão geral da restrição de tarefa: Deve Iniciar em</a> </p> </td> 
+   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-start-on.md" class="MCXref xref">Visão geral de Restrição de Tarefa: Deve Iniciar em</a> </p> </td> 
    <td scope="col"> <p>PIE</p> </td> 
+   <td scope="col"> <p>Agenda uma tarefa para iniciar exatamente em uma data específica.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-finish-on.md" class="MCXref xref">Visão geral da restrição de tarefa: Deve terminar em</a> </p> </td> 
+   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-finish-on.md" class="MCXref xref">Visão geral da Restrição da tarefa: deve ser concluída em</a> </p> </td> 
    <td scope="col"> <p>PTE</p> </td> 
+   <td scope="col"> <p>Agenda uma tarefa para terminar em uma data específica.</p> </td>
   </tr> 
   <tr> 
-   <td> <p><a href="../../../manage-work/tasks/task-constraints/fixed-dates.md" class="MCXref xref">Visão geral da restrição de tarefa: Datas fixas</a> </p> </td> 
+   <td> <p><a href="../../../manage-work/tasks/task-constraints/fixed-dates.md" class="MCXref xref">Visão geral de Restrição de tarefa: datas fixas</a> </p> </td> 
    <td> <p>Dt Fixas</p> </td> 
+   <td> <p>Agenda uma tarefa para iniciar e encerrar em datas específicas.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,19 +115,19 @@ Quando você cria novas tarefas, uma Restrição de tarefa é automaticamente se
 
 O Workfront usa duas variáveis para decidir qual Restrição de Tarefa é selecionada por padrão para uma nova tarefa:
 
-* O **Agendamento do projeto a partir de** no projeto.
+* A variável **Cronograma do Projeto de** no projeto.
 
-   Para obter informações sobre o campo Agendar de projeto, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
+  Para obter informações sobre o campo Cronograma do Projeto - De, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-* O **Data inicial** preferência configurada pelo administrador da Workfront ou do grupo na **Tarefas e problemas** área de **Configuração**.
+* A variável **Data de início** configurada pelo Workfront ou administrador de grupo na variável **Tarefas e problemas** área de **Configuração**.
 
-   Para obter informações sobre as Preferências de Tarefas e Problemas, consulte a seção &quot;Novos Padrões de Tarefas&quot; em [Configurar preferências de emissão e tarefa em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Para obter informações sobre Preferências de tarefas e problemas, consulte a seção &quot;Novos padrões de tarefa&quot; em [Configurar preferências de tarefas e problemas em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 A tabela a seguir mostra a Restrição de Tarefa padrão ao escolher variáveis diferentes para seu projeto e suas novas tarefas:
 
-| Agendamento do projeto a partir de | Data de início da tarefa | Padrão de Restrição de Tarefa |
+| Cronograma do Projeto de | Data de Início da Tarefa | Padrão de Restrição de Tarefa |
 |---|---|---|
 | Data de início | Com base na Data de planejamento de projeto | O Mais Breve Possível |
 | Data de início | Hoje | Não Iniciar Antes De |
-| Data de término | Com base na Data de planejamento de projeto | O Mais Tarde Possível |
+| Data de término | Com base na Data de planejamento de projeto | O mais tarde possível |
 | Data de término | Hoje | Não Iniciar Depois De |

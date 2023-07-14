@@ -5,9 +5,9 @@ title: Glossário de [!DNL Adobe Workfront] terminologia
 description: A variável [!DNL Adobe Workfront] listas de glossário termos comumente usados no Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '19551'
+source-wordcount: '19720'
 ht-degree: 0%
 
 ---
@@ -2103,8 +2103,17 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Alinhamento Estratégico]</td> 
    <td>Medir e alinhar metas da empresa em portfólios e programas.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td><code>[!UICONTROL stretch]</code></td> 
+   <td><p>Isso é usado nas colunas do relatório ao usar a interface do Modo de texto. </p>
+   <p>A variável <code>[!UICONTROL stretch]</code> é usado para identificar quais colunas ocupam espaço extra não necessário para a exibição. A largura da interface do usuário do espaço de trabalho para um usuário típico é de cerca de 850 pixels. Isso significa que se você tiver uma exibição com quatro colunas (150 pixels cada), sua exibição ocupará 600 de 850 pixels. Há 250 pixels extras na interface do usuário que serão adicionados às colunas com uma porcentagem de ampliação fornecida. </p>
+   <p>O alongamento de uma coluna é aplicado ao usar a linha de código adicional: <code>[!UICONTROL usewidths=true]</code> para pelo menos uma das colunas na exibição. 
+   </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Assinantes]</td> 
    <td> <p>Usuários que assinam projetos, tarefas ou problemas.</p> <p>Quando você usa esse campo em um relatório, uma lista de assinantes é exibida, com cada assinante separado por vírgula.</p> <p>Para obter mais informações, consulte o artigo <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Inscrever-se em itens no [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
@@ -2304,11 +2313,22 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
   <tr> 
    <td>[!UICONTROL Exibe Este Ano]</td> 
    <td>Em uma lista de relatórios, é exibido o número de vezes que o relatório foi visualizado durante este ano.<br>Para obter mais informações sobre uso em listas de relatórios, consulte o artigo <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md">Visualizar uso do relatório</a>.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr>
+  <td> <code>[!UICONTROL width]</code>
+  </td>
+<td> Em um relatório, ao usar a interface [!UICONTROL Text Mode], a linha de código em que é possível especificar a largura de cada coluna em pixels. O Workfront fornece uma largura sugerida para cada campo, embora dependendo do tipo de campo e do formato, talvez você queira fazer ajustes.
+Você deve usar o adicional <code>[!UICONTROL usewidths=true]</code> linha de código para impor a largura especificada para a coluna. 
+  </td>
+
+</tr>
+
+<tr> 
    <td><code>[!UICONTROL work]</code> </td> 
    <td> <p>Em um relatório de projeto, tarefa ou problema, usando a seguinte instrução no modo de texto, as Horas Planejadas do projeto, tarefa ou problema são exibidas:</p>
-   <p></p><p></p> 
+   <code><p>valuefield=work</p>
+   <p>valueformat=HTML</p></code> 
    <p>Para obter informações sobre como usar o modo de texto, consulte <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Visão geral da sintaxe do modo de texto</a>. </p> 
    <p><b>DICA</b> 
    <p>Em um relatório de problemas, a adição de um dos campos [!UICONTROL Horas planejadas] adiciona o <code>work </code>ao relatório. </p> </td> 
@@ -2396,7 +2416,10 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
   <tr> 
    <td><code>[!UICONTROL workRequiredExpression]</code> </td> 
    <td> <p>Em um relatório de projeto, tarefa ou problema, usar a seguinte instrução no modo de texto exibe o número de Horas planejadas do projeto, tarefa ou problema seguido da palavra "Horas":</p>
-   <p></p><p></p>
+   <code>
+   <p>valuefield=workRequiredExpression</p>
+   <p>valueformat=HTML</p>
+   </code>
     <p>Para obter informações sobre como usar o modo de texto, consulte <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Visão geral da sintaxe do modo de texto</a>. </p> </td> 
   </tr> 
  </tbody> 

@@ -7,9 +7,9 @@ description: Você pode modificar temporariamente a largura das colunas arrastan
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,8 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 >[!IMPORTANT]
 >
 >Se você modificar manualmente a largura de uma coluna conforme descrito na seção &quot;Modifique temporariamente a largura e a ordem das colunas&quot; no artigo [Modificar a largura e a ordem da coluna](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) depois de modificar permanentemente a largura da coluna, ela será preservada de acordo com o redimensionamento manual e a largura da coluna atualizada de acordo com as etapas a seguir será substituída. Você pode visualizar a coluna de acordo com a largura definida nas etapas a seguir depois de limpar o cache ou fazer logon em outro navegador.
+>
+>Para obter informações adicionais sobre como personalizar a largura das colunas ao usar a interface do Modo de texto, consulte as definições de &quot;largura&quot; e &quot;ampliação&quot; na [Glossário da terminologia do Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 1. Ir para uma lista de objetos.
 1. No **Exibir** clique em **Nova visualização**.
@@ -79,3 +81,5 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
    Para o **largura** especifique qualquer número (em pixels) que represente a largura desejada para a exibição da coluna na exibição.
 
 1. Clique em **Salvar**, depois **Salvar visualização**.
+
+

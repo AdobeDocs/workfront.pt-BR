@@ -4,12 +4,12 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
-description: O layout padrão é a disposição do Menu principal , do painel esquerdo e das exibições, agrupamentos e filtros antes que um administrador do Adobe Workfront faça qualquer alteração usando um modelo de layout.
-author: Caroline
+description: O layout padrão é a organização do Menu principal, do painel esquerdo e das exibições, agrupamentos e filtros antes que um administrador do Adobe Workfront faça alterações usando um modelo de layout.
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 14%
@@ -18,19 +18,19 @@ ht-degree: 14%
 
 # Sobre o layout padrão do Adobe Workfront
 
-O esquema predefinido é a disposição do Menu Principal ![](assets/main-menu-icon.png), o painel à esquerda e as exibições, agrupamentos e filtros antes que um administrador do Adobe Workfront faça qualquer alteração usando um modelo de layout.
+O layout padrão é a organização do menu principal ![](assets/main-menu-icon.png), o painel esquerdo e as exibições, agrupamentos e filtros antes que um administrador do Adobe Workfront faça alterações usando um modelo de layout.
 
-Para obter informações sobre como um administrador do Workfront pode modificar o layout padrão de um usuário atribuindo um modelo de layout a ele, consulte [Atribuir usuários a um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+Para obter informações sobre como um administrador do Workfront pode modificar o layout padrão de um usuário atribuindo um modelo de layout ao usuário, consulte [Atribuir usuários a um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
 >[!NOTE]
 >
->Os usuários podem alterar seu próprio layout editando suas preferências de perfil do usuário. Para obter mais informações, consulte o [Preferências](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) seção em [Definir minhas configurações](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+>Os usuários podem alterar seu próprio layout editando suas preferências de perfil de usuário. Para obter mais informações, consulte [Preferências](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) seção em [Definir minhas configurações](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
 ## Layouts padrão para cada nível de acesso
 
-O layout padrão de cada usuário depende do nível de acesso. Alguns usuários podem não ver determinadas áreas no Menu principal ou determinados itens do painel esquerdo, dependendo do nível de acesso atribuído a eles.
+O layout padrão de cada usuário depende de seu nível de acesso. Alguns usuários podem não ver determinadas áreas no Menu principal ou determinados itens no painel esquerdo, dependendo do nível de acesso atribuído a eles.
 
-A tabela a seguir mostra quais itens do painel esquerdo são exibidos para cada nível de acesso, por padrão. A área de aterrissagem padrão para cada nível de acesso também é indicada:
+A tabela a seguir mostra quais itens do painel esquerdo são exibidos por padrão para cada nível de acesso. A área de aterrissagem padrão para cada nível de acesso também é indicada:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -102,7 +102,7 @@ A tabela a seguir mostra quais itens do painel esquerdo são exibidos para cada 
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="5"><strong>Pessoas</strong> (renomeado para <strong>Equipes</strong> para usuários com uma licença de Trabalho)</td> 
+   <td rowspan="5"><strong>Pessoas</strong> (renomeado para <strong>Equipes</strong> para usuários com uma licença de trabalho)</td> 
    <td><strong>Equipes</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 

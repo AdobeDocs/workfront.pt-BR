@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: ddb8f39e3ef400b02b443230f237b6a563d99d5f
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2597'
 ht-degree: 2%
 
 ---
@@ -117,6 +117,11 @@ Este artigo descreve como criar uma fila de solicitações a partir de um projet
 ## Criar uma fila de solicitações
 
 Ao configurar um projeto como uma Fila de solicitações, o status do projeto deve ser Atual para ser exibido na área Solicitações do Workfront.
+
+>[!TIP]
+>
+>O administrador do Workfront ou do grupo pode atribuir a você um modelo de layout personalizado que pode não incluir algumas das seções descritas nas etapas a seguir.
+
 
 Para criar uma Fila de solicitações:
 

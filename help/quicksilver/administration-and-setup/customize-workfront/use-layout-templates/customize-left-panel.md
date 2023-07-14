@@ -3,21 +3,21 @@ title: Personalizar o painel esquerdo usando um modelo de layout
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Em um modelo de layout, é possível personalizar o que os usuários veem na área do painel esquerdo em todo o Adobe Workfront.
-author: Caroline
+description: Em um modelo de layout, você pode personalizar o que os usuários veem na área do painel esquerdo em todo o Adobe Workfront.
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: c0b0102eb1e1f45e794f962f7e905349f9e241eb
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
 
 # Personalizar o painel esquerdo usando um modelo de layout
 
-Em um modelo de layout, é possível personalizar o que os usuários veem na área do painel esquerdo em todo o [!DNL Adobe Workfront].
+Em um modelo de layout, você pode personalizar o que os usuários veem na área do painel esquerdo em todo o [!DNL Adobe Workfront].
 
 Por exemplo, você pode determinar qual dos seguintes itens os usuários veem no painel esquerdo ao visualizar uma tarefa:
 
@@ -25,13 +25,17 @@ Por exemplo, você pode determinar qual dos seguintes itens os usuários veem no
 
 >[!IMPORTANT]
 >
->As alterações feitas na ordem e na visibilidade são refletidas no aplicativo móvel.
+>As alterações feitas no pedido e na visibilidade são refletidas no aplicativo móvel.
 
-Para obter informações sobre modelos de layout para grupos, consulte [Criar e modificar modelos de layout de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Para obter informações sobre como criar modelos de layout, consulte [Criar e gerenciar modelos de layout](../use-layout-templates/create-and-manage-layout-templates.md).
+
+Para obter informações sobre modelos de layout para grupos, consulte [Criar e modificar os modelos de layout de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+Após configurar um modelo de layout, você deve atribuí-lo aos usuários para que as alterações feitas fiquem visíveis para outros usuários. Para obter informações sobre como atribuir um modelo de layout aos usuários, consulte [Atribuir usuários a um modelo de layout](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,30 +47,29 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td>[!UICONTROL Plano]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> Para executar essas etapas no nível do sistema, é necessário o nível de acesso [!UICONTROL System Administrator].<p>Para executá-los para um grupo, você deve ser um gerente desse grupo.</p> <p><b>OBSERVAÇÃO</b>: Se ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais em seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> Para executar essas etapas no nível do sistema, você precisa do nível de acesso [!UICONTROL Administrador do Sistema].<p>Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><b>NOTA</b>: Se ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais no seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Personalize o painel esquerdo para uma área em [!DNL Workfront]:
+## Personalizar o painel esquerdo para uma área no [!DNL Workfront]:
 
 1. Comece a trabalhar em um modelo de layout, conforme descrito em [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Clique na seta para baixo ![](assets/dropdown-arrow.png) under **[!UICONTROL Personalize o que os usuários veem]** e clique no painel esquerdo que deseja personalizar.
+1. Clique na seta para baixo ![](assets/dropdown-arrow.png) em **[!UICONTROL Personalize o que os usuários veem]** e, em seguida, clique no painel esquerdo que deseja personalizar.
 
    >[!NOTE]
    >
-   >Para obter informações sobre o [!UICONTROL Início] nesta lista suspensa, consulte [Personalizar [!UICONTROL Início] e [!UICONTROL Resumo] uso de um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). Para obter informações sobre a opção Listas , consulte [Personalizar filtros, exibições e agrupamentos usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   >Para obter informações sobre o [!UICONTROL Início] nesta lista suspensa, consulte [Personalizar [!UICONTROL Início] e [!UICONTROL Resumo] uso de um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). Para obter informações sobre a opção Listas, consulte [Personalizar filtros, visualizações e agrupamentos usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. No **[!UICONTROL Painel esquerdo]** , siga um destes procedimentos para determinar o que os usuários verão no painel esquerdo para a opção ([!DNL Workfront] área ou tipo de objeto) que você selecionou:
+1. No **[!UICONTROL Painel esquerdo]** faça o seguinte para determinar o que os usuários verão no painel esquerdo para a opção ([!DNL Workfront] tipo de objeto) que você selecionou:
 
    * Mostrar ![](assets/add-secondary-nav-item.png) ou ocultar ![](assets/delete-secondary-nav-item.png) itens. Qualquer item sem ![](assets/add-secondary-nav-item.png) ou ![](assets/delete-secondary-nav-item.png) não pode ser oculto.
 
-   * Arrastar itens ![](assets/move-icon---dots.png) para alterar sua ordem no painel esquerdo.
-
+   * Arrastar itens ![](assets/move-icon---dots.png) para alterar a ordem no painel esquerdo.
    <table style="table-layout:auto"> 
     <col> 
     <col> 
@@ -74,25 +77,25 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
     <thead> 
      <tr> 
       <th>Opção</th> 
-      <th>Quando os usuários clicam no seguinte...</th> 
-      <th>Eles veem os itens do painel esquerdo escolhidos dentre os itens a seguir:</th> 
+      <th>Quando os usuários clicarem no seguinte...</th> 
+      <th>Eles verão os itens do painel esquerdo que você escolher entre os seguintes:</th> 
      </tr> 
     </thead> 
     <tbody> 
      <tr> 
-      <td>[!UICONTROL Project]</td> 
+      <td>[!UICONTROL Projeto]</td> 
       <td>O nome de um projeto</td> 
-      <td>[!UICONTROL Tarefas], [!UICONTROL Detalhes do projeto], [!UICONTROL Caso de negócios], [!UICONTROL Atualizações], [!UICONTROL Documentos], [!UICONTROL Problemas], [!UICONTROL Risks], [!UICONTROL Aprovações], [!UICONTROL Linhas de base], [!UICONTROL Taxas de faturamento], [!UICONTROL Registros de faturamento] , [!UICONTROL Despesas], [!UICONTROL Horas], [!UICONTROL Balanceador de carga de trabalho], [!UICONTROL Pessoas], [!UICONTROL Utilização], [!UICONTROL Detalhes da fila], [!UICONTROL Regras de roteamento], [!UICONTROL Tópico da fila], [!UICONTROL Grupo de tópico], [!UICONTROL Métricas]</td> 
+      <td>[!UICONTROL Tarefas], [!UICONTROL Detalhes do Projeto], [!UICONTROL Business Case], [!UICONTROL Atualizações], [!UICONTROL Documentos], [!UICONTROL Problemas], [!UICONTROL Riscos], [!UICONTROL Aprovações], [!UICONTROL Linhas de Base], [!UICONTROL Taxas de Cobrança], [!UICONTROL Registros de Cobrança], [!UICONTROL Despesas], [!UICONTROL CONTROL Hours, [!UICONTROL Balanceador de Carga de Trabalho], [!UICONTROL People], [!UICONTROL Utilização], [!UICONTROL Detalhes da Fila], [!UICONTROL Regras de Roteamento], [!UICONTROL Tópico de Fila], [!UICONTROL Grupo de Tópicos], [!UICONTROL Métricas]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Tarefa]</td> 
       <td>O nome de uma tarefa</td> 
-      <td> [!UICONTROL Atualizações], [!UICONTROL Documentos], [!UICONTROL Detalhes da tarefa], [!UICONTROL Subtarefa], [!UICONTROL Problemas], [!UICONTROL Horas], [!UICONTROL Aprovações], [!UICONTROL Despesas], [!UICONTROL Predecessores]</td> 
+      <td> [!UICONTROL Atualizações], [!UICONTROL Documentos], [!UICONTROL Detalhes da Tarefa], [!UICONTROL Subtarefa], [!UICONTROL Problemas], [!UICONTROL Horas], [!UICONTROL Aprovações], [!UICONTROL Despesas], [!UICONTROL Predecessoras]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Problema]</td> 
       <td>O nome de um problema</td> 
-      <td> [!UICONTROL Atualizações], [!UICONTROL Documentos], [!UICONTROL Detalhes da edição], [!UICONTROL Hours], [!UICONTROL Aprovações]</td> 
+      <td> [!UICONTROL Atualizações], [!UICONTROL Documentos], [!UICONTROL Detalhes do Problema], [!UICONTROL Horas], [!UICONTROL Aprovações]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Portfolio]</td> 
@@ -100,19 +103,19 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
       <td>[!UICONTROL Projetos], [!UICONTROL Programas], [!UICONTROL Detalhes do Portfolio], [!UICONTROL Portfolio] [!UICONTROL Otimização], [!UICONTROL Documentos], [!UICONTROL Atualizações]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Program]</td> 
+      <td>[!UICONTROL Programa]</td> 
       <td>O nome de um programa</td> 
-      <td>[!UICONTROL Projetos], [!UICONTROL Detalhes do programa], [!UICONTROL Atualizações], [!UICONTROL Documentos]</td> 
+      <td>[!UICONTROL Projetos], [!UICONTROL Detalhes do Programa], [!UICONTROL Atualizações], [!UICONTROL Documentos]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Modelo]</td> 
       <td>O nome de um modelo de projeto</td> 
-      <td>[!UICONTROL Tarefas de modelo], [!UICONTROL Detalhes do modelo], [!UICONTROL Atualizações], [!UICONTROL Documentos], [!UICONTROL Risks], [!UICONTROL Despesas], [!UICONTROL Pessoas], [!UICONTROL Aprovações], [!UICONTROL Taxas de faturamento], [!UICONTROL Detalhes da fila], [!UICONTROL Regras de roteamento], [!UICONTROL Tópico da fila], [!UICONTROL Grupo de tópicos]</td> 
+      <td>[!UICONTROL Tarefas de Modelo], [!UICONTROL Detalhes de Modelo], [!UICONTROL Atualizações], [!UICONTROL Documentos], [!UICONTROL Riscos], [!UICONTROL Despesas], [!UICONTROL Pessoas], [!UICONTROL Aprovações], [!UICONTROL Taxas de Cobrança], [!UICONTROL Detalhes da Fila], [!UICONTROL Regras de Roteamento], [!UICONTROL Tópico de Fila], [!UICONTROL!UICONTROL Grupo de Tópicos]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Tarefa de modelo]</td> 
+      <td>[!UICONTROL Modelo de Tarefa]</td> 
       <td>O nome de uma tarefa de modelo</td> 
-      <td>[!UICONTROL Atualizações], [!UICONTROL Documentos], [!UICONTROL Detalhes da tarefa do modelo], [!UICONTROL Subtarefas], [!UICONTROL Despesas], [!UICONTROL Aprovações], [!UICONTROL Predecessores]</td>
+      <td>[!UICONTROL Atualizações], [!UICONTROL Documentos], [!UICONTROL Detalhes da Tarefa de Modelo], [!UICONTROL Subtarefas], [!UICONTROL Despesas], [!UICONTROL Aprovações], [!UICONTROL Predecessoras]</td>
      </tr>
      <!--
       <tr> 
@@ -122,9 +125,9 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
       </tr>
      --> 
      <tr> 
-      <td> [!UICONTROL Registro de Faturamento]</td> 
-      <td>O nome de um registro de faturamento de um projeto</td> 
-      <td>[!UICONTROL Detalhes do registro de faturamento], [!UICONTROL Horas faturáveis], [!UICONTROL Despesas faturáveis], [!UICONTROL Receitas fixas]</td> 
+      <td> [!UICONTROL Registro de Cobrança]</td> 
+      <td>O nome de um registro de cobrança para um projeto</td> 
+      <td>[!UICONTROL Detalhes de Registro de Cobrança], [!UICONTROL Horas Faturáveis], [!UICONTROL Despesas Faturáveis], [!UICONTROL Receitas Fixas]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Projetos]</td> 
@@ -134,32 +137,32 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
      <tr> 
       <td>[!UICONTROL Solicitações]</td> 
       <td>O nome de uma solicitação</td> 
-      <td>[!UICONTROL Nova solicitação], [!UICONTROL Solicitações enviadas], [!UICONTROL Todas as solicitações], [!UICONTROL Rascunhos]</td> 
+      <td>[!UICONTROL Nova Solicitação], [!UICONTROL Solicitações Enviadas], [!UICONTROL Todas as Solicitações], [!UICONTROL Rascunhos]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Painéis]</td> 
       <td>O nome de um painel</td> 
-      <td>[!UICONTROL Meus painéis], [!UICONTROL Painéis compartilhados], [!UICONTROL Todos os painéis]<p><b>OBSERVAÇÃO</b>: Se você criou guias personalizadas para a área [!UICONTROL Relatórios] usando um modelo de layout em [!DNL Adobe Workfront Classic], serão exibidos na parte inferior dessa lista. Para usuários, eles são exibidos na parte inferior do painel esquerdo na área [!UICONTROL Painéis] .</p> </td> 
+      <td>[!UICONTROL Meus Painéis], [!UICONTROL Painéis Compartilhados], [!UICONTROL Todos os Painéis]<p><b>NOTA</b>: se você criou guias personalizadas para a área [!UICONTROL Reports] usando um modelo de layout em [!DNL Adobe Workfront Classic], elas são exibidas na parte inferior desta lista. Para usuários, eles são exibidos na parte inferior do painel esquerdo na área [!UICONTROL Dashboards].</p> </td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Equipe de verificação]</td> 
-      <td>O nome de uma equipe do Scrum</td> 
-      <td><p>[!UICONTROL Iterações], [!UICONTROL iteração atual], [!UICONTROL Backlog], [!UICONTROL Workload Balancer], [!UICONTROL Atualizações], [!UICONTROL Configurações da equipe]</p> <p><strong>OBSERVAÇÃO:</strong> O <strong>[!UICONTROL iteração atual]</strong> item é exibido somente no painel esquerdo quando há pelo menos uma tarefa ou problema na iteração.</p></td> 
+      <td>[!UICONTROL Equipe de Scrum]</td> 
+      <td>O nome de uma equipe Scrum</td> 
+      <td><p>[!UICONTROL Iterações], [!UICONTROL Iteração atual], [!UICONTROL Lista de Pendências], [!UICONTROL Balanceador de Carga de Trabalho], [!UICONTROL Atualizações], [!UICONTROL Configurações de Equipe]</p> <p><strong>NOTA:</strong> A variável <strong>[!UICONTROL Iteração atual]</strong> o item só é exibido no painel esquerdo quando há pelo menos uma tarefa ou problema na iteração.</p></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Equipe Kanban]</td> 
-      <td>O nome de uma equipe kanban</td> 
-      <td>[!UICONTROL Balanceador de carga de trabalho], [!UICONTROL Kanban board], [!UICONTROL Backlog], [!UICONTROL Atualizações], [!UICONTROL Configurações da equipe]</td> 
+      <td>O nome de uma equipe Kanban</td> 
+      <td>[!UICONTROL Balanceador de Carga], [!UICONTROL Quadro Kanban], [!UICONTROL Lista de Pendências], [!UICONTROL Atualizações], [!UICONTROL Configurações de Equipe]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Equipe de cascata]</td> 
-      <td>O nome de uma equipe de Quebra d'água</td> 
-      <td>[!UICONTROL Balanceador de carga de trabalho], [!UICONTROL Atualizações], [!UICONTROL Solicitações da equipe], [!UICONTROL Configurações da equipe]</td> 
+      <td>[!UICONTROL Equipe de Cascata]</td> 
+      <td>O nome de uma equipe do Waterfall</td> 
+      <td>[!UICONTROL Balanceador de Carga], [!UICONTROL Atualizações], [!UICONTROL Solicitações de Equipe], [!UICONTROL Configurações de Equipe]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Iteration]</td> 
+      <td>[!UICONTROL Iteração]</td> 
       <td>O nome de uma iteração</td> 
-      <td>[!UICONTROL Histórias], [!UICONTROL Problemas], [!UICONTROL Story Board], [!UICONTROL Visão geral], [!UICONTROL Forms personalizado], [!UICONTROL Atualizações] </td> 
+      <td>[!UICONTROL Histórias], [!UICONTROL Problemas], [!UICONTROL Story Board], [!UICONTROL Visão Geral], [!UICONTROL Custom Forms], [!UICONTROL Atualizações] </td> 
      </tr> 
      <!--
       <tr> 
@@ -194,19 +197,20 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
    >[!NOTE]
    >
-   >Os últimos 3 itens no **[!UICONTROL Personalize o que os usuários veem]** lista suspensa ([!UICONTROL Listas], [!UICONTROL Início e resumo]e [!UICONTROL Marca]) são para configurar áreas diferentes do painel esquerdo. Para obter informações sobre eles, consulte estes artigos:
->   * [Personalizar filtros, exibições e agrupamentos usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >Os últimos 3 itens na **[!UICONTROL Personalize o que os usuários veem]** lista suspensa ([!UICONTROL Listas], [!UICONTROL Página inicial e resumo], e [!UICONTROL Marcas]) são para configurar áreas diferentes do painel esquerdo. Para obter informações sobre eles, consulte estes artigos:
+>   >   
+* [Personalizar filtros, visualizações e agrupamentos usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 >* [Personalizar [!UICONTROL Início] e [!UICONTROL Resumo] uso de um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
 * [Adobe da marca [!DNL Workfront] uso de um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
+1. (Opcional) Se quiser adicionar um item do painel esquerdo que se vincule a um dos painéis de sua organização, clique em **[!UICONTROL Adicionar seção personalizada]**, digite um **[!UICONTROL Título da seção personalizada]** para o item, em seguida, adicione o painel.
 
-1. (Opcional) Se quiser adicionar um item de painel esquerdo vinculado a um dos painéis de sua organização, clique em **[!UICONTROL Adicionar seção personalizada]**, digite a **[!UICONTROL Título da seção personalizada]** para o item, em seguida, adicione o painel.
-
-   Os itens do painel aparecem na parte inferior do painel esquerdo. Os usuários veem o título da seção Personalizada que você digita ao lado do item do painel ao passar o mouse sobre o painel esquerdo.
+   Os itens do painel são exibidos na parte inferior do painel esquerdo. Os usuários veem o título da seção Personalizada que você digita ao lado do item do painel quando passam o mouse sobre o painel esquerdo.
 
    >[!NOTE]
-   Os usuários podem adicionar itens personalizados do painel ao seu próprio painel esquerdo. Quando você adiciona itens de painel personalizados em um modelo de layout, seus itens se mesclam aos deles, sem sobrescrever ou redefinir. Isso também acontece se você atribuir usuários a um novo modelo de layout com itens personalizados do painel. Para obter informações sobre como os usuários podem personalizar o painel esquerdo, consulte [Criar guias ou seções personalizadas](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   >
+   Os usuários podem adicionar itens personalizados do painel a seu próprio painel esquerdo. Quando você adiciona itens personalizados do painel em um modelo de layout, seus itens são mesclados com os deles, sem substituir ou redefini-los. Isso também é verdadeiro se você atribuir usuários a um novo modelo de layout com itens de painel personalizados. Para obter informações sobre como os usuários podem personalizar o painel esquerdo, consulte [Criar guias ou seções personalizadas](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
    Para obter informações sobre painéis, consulte [Painéis](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
@@ -217,4 +221,5 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
    Se tiver terminado de personalizar, clique em **[!UICONTROL Salvar]**.
 
    >[!TIP]
-   Você pode clicar em [!UICONTROL Salvar] a qualquer momento para salvar seu progresso, continue modificando o template posteriormente.
+   >
+   Você pode clicar em [!UICONTROL Salvar] a qualquer momento para salvar seu progresso e, em seguida, continuar modificando o modelo posteriormente.
