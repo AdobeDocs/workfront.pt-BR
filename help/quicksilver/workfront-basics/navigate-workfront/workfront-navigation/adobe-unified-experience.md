@@ -6,7 +6,7 @@ description: Acesso ao [!DNL Workfront] o Adobe Experience Cloud oferece uma exp
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: b6008546089a420e5bb487d2035b8d87782905c1
+source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -99,6 +99,6 @@ Se sua organização usar um aplicativo separado para gerenciar senhas, você al
 
 Se sua senha for gerenciada por [!DNL Adobe], você pode alterar a senha da sua conta Adobe.
 
-[Consulte este artigo para alterar a senha do Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}.
+[Consulte este artigo para alterar a senha do Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Para obter mais informações sobre como alterar sua senha, entre em contato com o administrador.

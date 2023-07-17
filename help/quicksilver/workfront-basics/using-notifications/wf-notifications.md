@@ -2,149 +2,151 @@
 content-type: overview;reference
 navigation-topic: notifications
 title: Notificações do Adobe Workfront
-description: O Adobe Workfront envia notificações por email, notificações no aplicativo e notificações no seu dispositivo móvel.
+description: O Adobe Workfront envia notificações por email, notificações no aplicativo e notificações em seu dispositivo móvel.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
+source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1317'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront] notificações
 
-[!DNL Adobe Workfront] O envia notificações por email, notificações no aplicativo e notificações no seu dispositivo móvel.
+[!DNL Adobe Workfront] O envia notificações por email, notificações no aplicativo e notificações no dispositivo móvel.
 
 ## Notificações de email
 
-[!DNL Workfront] O envia várias notificações por email para alertar os usuários sobre a atividade no Workfront e fornecer informações e links úteis.
+[!DNL Workfront] O envia várias notificações por email para alertar os usuários sobre atividades no Workfront e fornecer informações e links úteis.
+
+Para alterar as preferências das notificações por email, consulte [Ativar ou desativar suas próprias notificações de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
->Se quiser receber notificações por email do ambiente Sandbox, ative emails do seu perfil de usuário nesse ambiente.
+>Se você quiser receber notificações por email do ambiente de sandbox, ative os emails do seu perfil de usuário nesse ambiente.
 
 Você pode receber as seguintes notificações por email de [!DNL Workfront]:
 
-* [Notificações de evento](#event-notifications)
-* [Notificações de resumo diário](#daily-digest-notifications)
-* [Notificação de comentários postados](#notification-of-posted-comments)
+* [Notificações de eventos](#event-notifications)
+* [Notificações de resumo diárias](#daily-digest-notifications)
+* [Notificação de comentários publicados](#notification-of-posted-comments)
 * [Lembretes automáticos](#automatic-reminders)
 * [Notificações de lembrete](#reminder-notifications)
-* [Notificações de quadros](#boards-notifications)
-* [Outras [!DNL Workfront] emails](#other-workfront-emails)
+* [Notificações de painéis](#boards-notifications)
+* [Outro [!DNL Workfront] emails](#other-workfront-emails)
 
-### Notificações de evento
+### Notificações de eventos
 
-As notificações de evento são predefinidas em [!DNL Workfront]. Normalmente, elas são acionadas por determinados eventos.
+As notificações de eventos são predefinidas em [!DNL Workfront]. Normalmente, são acionadas por determinados eventos.
 
-Depois que as notificações de evento forem ativadas pelo [!DNL Workfront] administrador ou administrador de grupo, você pode selecionar os que deseja receber editando seu [!UICONTROL Notificações] preferências no seu perfil de usuário. Você também pode escolher se deseja receber notificações conforme os eventos ocorrem ou se deseja receber eventos resumidos em um email de resumo diário.
+Depois que as notificações de eventos forem ativadas pelo [!DNL Workfront] administrador ou administrador de grupo, você pode selecionar quais deseja receber editando [!UICONTROL Notificação] preferências no seu perfil de usuário. Você também pode escolher se deseja receber notificações conforme os eventos ocorrem ou se deseja receber eventos resumidos em um email de resumo diário.
 
-Dependendo de como o [!DNL Workfront] o administrador configurou notificações de evento para seu [!DNL Workfront] (conforme descrito em [Configurar notificações de evento para todos no sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)), você pode ver apenas um subconjunto dessas notificações em suas configurações.
+Dependendo de como a variável [!DNL Workfront] O administrador configurou notificações de eventos para o [!DNL Workfront] (conforme descrito no [Configurar notificações de eventos para todos no sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)), você poderá ver apenas um subconjunto dessas notificações em suas configurações.
 
-O status padrão mostra quais notificações (diárias, instantâneas ou ambas) são ativadas por padrão para novos usuários ao criar os novos usuários.
+O status padrão mostra quais notificações (diárias, instantâneas ou ambas) são ativadas por padrão para novos usuários quando você cria os novos usuários.
 
-Para obter uma lista completa das notificações do evento e informações sobre como elas são ativadas e configuradas no nível do sistema, no nível do grupo ou no nível do usuário, consulte [Notificações de evento disponíveis em [!DNL Adobe Workfront]](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Para obter uma lista completa das notificações de eventos e informações sobre como elas são ativadas e configuradas no nível do sistema, do grupo ou do usuário, consulte [Notificações de eventos disponíveis em [!DNL Adobe Workfront]](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-Para obter informações sobre como escolher quais notificações de eventos você deseja receber, consulte [Ativar ou desativar suas próprias notificações de evento](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
-
->[!NOTE]
->
->As notificações de eventos são as únicas notificações que podem ser configuradas para serem entregues em atualizações diárias de resumo.
-
-### Notificações de resumo diário
-
-Para obter uma lista completa de quais notificações por email foram ativadas para um delivery de email de resumo diário, bem como informações sobre todas as categorias para notificações por email, consulte [Notificações de evento](../../workfront-basics/using-notifications/event-notifications.md#understanding-instant-and-daily-digest-notifications).
+Para obter informações sobre como escolher quais notificações de evento você deseja receber, consulte [Ativar ou desativar suas próprias notificações de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
->[!UICONTROL Workfront] não envia notificações de resumo diário para o [!UICONTROL Diversos] e [!DNL Goals] categorias de eventos. Não é possível desativar as Notificações diárias para essas categorias.
+>As notificações de eventos são as únicas notificações que podem ser configuradas para serem entregues em atualizações de resumo diárias.
 
-Há várias coisas que devem ser levadas em conta ao receber notificações diárias de resumo:
+### Notificações de resumo diárias
 
-* Cada [!UICONTROL notificações] na sua seção **[!UICONTROL Minhas configurações]** O painel gera seu próprio email de resumo diário. Você pode ter tantos emails diários de resumo todos os dias quanto configurações de notificação ativadas para emails de resumo diários.\
-   Por exemplo, se você optou por receber um email de resumo diário para várias ações no **[!UICONTROL Informações sobre projetos I] Próprio,** você recebe uma notificação por email listando todos os eventos atendidos nessa área.
+Para obter uma lista completa de quais notificações por email foram ativadas para um delivery diário de email de resumo, bem como informações sobre todas as categorias de notificações por email, consulte [Notificações de eventos](../../workfront-basics/using-notifications/event-notifications.md#understanding-instant-and-daily-digest-notifications).
 
-* As notificações em um email de resumo diário são agrupadas por vários critérios. Por exemplo, no caso de **[!UICONTROL Informações sobre projetos possuo]**, os eventos são agrupados pelo nome do projeto.
+>[!NOTE]
+>
+>[!UICONTROL Workfront] não envia notificações de Resumo diário para o [!UICONTROL Diversos] e [!DNL Goals] categorias de eventos. Não é possível desativar as notificações Diárias para essas categorias.
 
-   Para o **[!UICONTROL Comunicação]** , as notificações são agrupadas pelo objeto em que a comunicação ocorreu.
+Há vários fatores que devem ser levados em conta ao receber notificações de resumo diárias:
 
-* O email de resumo diário lista os eventos que ocorreram para as ações em uma área específica (como **Informações sobre os projetos que possuo**) nas 24 horas anteriores ao horário escolhido para a entrega.
-* O fuso horário do horário selecionado para o delivery de resumo diário corresponde ao fuso horário, conforme configurado no navegador.
+* Each [!UICONTROL notificações] seção no seu **[!UICONTROL Minhas configurações]** O painel gera seu próprio email de resumo diário do. Você pode ter quantos emails de resumo diário todos os dias quanto as configurações de notificação que estão ativadas para emails de resumo diário.\
+   Por exemplo, se você optou por receber um email de resumo diário para várias ações na **[!UICONTROL Informações sobre Projetos I] Próprio,** você receberá uma notificação por e-mail listando todos os eventos encontrados para essa área.
+
+* As notificações em um email de resumo diário são agrupadas por vários critérios. Por exemplo, no caso de **[!UICONTROL Informações sobre Projetos dos quais sou proprietário]**, os eventos são agrupados pelo nome do projeto.
+
+  Para o **[!UICONTROL Comunicação]** , as notificações são agrupadas pelo objeto no qual ocorreu a comunicação.
+
+* O email de resumo diário lista os eventos que ocorreram para as ações em uma área específica (como **Informações sobre projetos dos quais sou proprietário**) nas 24 horas anteriores ao horário escolhido para a entrega.
+* O fuso horário do horário selecionado para o delivery de resumo diário corresponde ao seu fuso horário, conforme configurado no navegador.
 * Os emails de resumo diário têm o nome da seção na linha de assunto, bem como a data em que são entregues.
-* Pelo menos um evento deve acionar uma notificação para que o resumo diário seja entregue. Os digests diários não são enviados se nenhum evento marcado para emails de resumo diários for atendido.
+* Pelo menos um evento deve acionar uma notificação para que o resumo diário seja entregue. Os resumos diários não são enviados se nenhum evento marcado para emails de resumo diários for atendido.
 
-### Notificação de comentários postados
+### Notificação de comentários publicados
 
-As notificações na [!UICONTROL Comunicação] alerte para os comentários que foram publicados na [!UICONTROL Atualizar] fluxo de um item específico.
+As notificações na lista [!UICONTROL Comunicação] categoria alertá-lo sobre comentários que foram publicados no [!UICONTROL Atualizar] fluxo de um item específico.
 
-Emails de resumo diários para o [!UICONTROL Comunicação] são selecionadas para todas as notificações disponíveis.
+Emails de resumo diários para o [!UICONTROL Comunicação] categoria são selecionadas para todas as notificações disponíveis.
 
-As informações são resumidas para o objeto em que a comunicação ocorreu e um número total de mensagens de comunicação é exibido para cada objeto.
+As informações são resumidas para o objeto em que a comunicação aconteceu, e um número total de mensagens de comunicação é exibido para cada objeto.
 
-Para obter mais informações sobre como configurar notificações por email, consulte [Ativar ou desativar suas próprias notificações de evento](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Para obter mais informações sobre como configurar notificações por email, consulte [Ativar ou desativar suas próprias notificações de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-Para obter instruções sobre como comentar sobre [!UICONTROL Comunicação] emails, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Para obter instruções sobre como comentar em [!UICONTROL Comunicação] emails, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Para saber mais sobre [!UICONTROL Comunicação] emails, consulte [Ativar ou desativar suas próprias notificações de evento](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Para saber mais sobre [!UICONTROL Comunicação] emails, consulte [Ativar ou desativar suas próprias notificações de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-Para obter mais informações sobre como ativar notificações de resumo diário, consulte [Ativar ou desativar suas próprias notificações de evento](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Para obter mais informações sobre como ativar notificações de resumo diárias, consulte [Ativar ou desativar suas próprias notificações de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### Lembretes automáticos
 
-Os lembretes automáticos são ativados pelo seu [!DNL Workfront] administrador para alertá-lo sobre tarefas e problemas que estão vencidos, atrasados ou próximos da data de conclusão planejada. Para notificações tardias, o email é enviado noturna até que a tarefa ou o problema seja concluído. Depois que o administrador configurá-los, você não poderá desativá-los. Além disso, não é possível alterar o conteúdo ou a linha de assunto de um email acionado por um lembrete automático.
+Os lembretes automáticos são ativados pelo [!DNL Workfront] administrador para alertá-lo sobre tarefas e problemas que estão vencidos, atrasados ou próximos da data de conclusão planejada. Para notificações de atraso, o email é enviado à noite até que a tarefa ou o problema seja concluído. Depois que o administrador configurar, não será possível desabilitá-los. Além disso, não é possível alterar o conteúdo ou a linha de assunto de um email acionado por um lembrete automático.
 
-Eles podem ser enviados para um ou mais dos seguintes:
+Eles podem ser enviados para um ou mais dos itens a seguir:
 
 * Os usuários atribuídos a uma tarefa ou problema
 * O gerente imediato do usuário
 * O gerente do gerente imediato
 
-Os emails de lembrete automático são enviados pelo endereço de email de que sua [!DNL Workfront] administrador selecionado para lidar com emails de saída.
+Os emails de lembrete automáticos são enviados pelo endereço de email que seu [!DNL Workfront] administrador selecionado para lidar com emails de saída.
 
 Dependendo do lembrete automático ativado, os seguintes tipos de informações estão disponíveis no email de lembrete automático:
 
-* A data em que a tarefa ou o problema foi criado
-* Nome da tarefa ou da emissão
-* O nome do projeto em que a tarefa ou emissão reside
+* A data em que a tarefa ou problema foi criado
+* Nome da tarefa ou problema
+* O nome do projeto onde a tarefa ou problema reside
 * Descrição da tarefa ou problema
-* Uma lista de usuários atribuídos à tarefa ou ocorrência
-* O nome do usuário que inseriu a tarefa ou o problema
-* A prioridade da tarefa ou do problema
-* Data em que a tarefa ou o problema ficou vencido
+* Uma lista de usuários atribuídos à tarefa ou problema
+* O nome do usuário que inseriu a tarefa ou problema
+* A prioridade da tarefa ou problema
+* Data em que a tarefa ou o problema venceu
 
 Para obter informações sobre como ativar lembretes automáticos, consulte [Configurar lembretes automáticos](../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md).
 
 ### Notificações de lembrete
 
-A [!DNL Workfront] administrador (ou um usuário com uma [!UICONTROL Planejador] nível de acesso e acesso administrativo às notificações de lembrete) pode criar notificações de lembrete sobre a aproximação dos prazos e anexá-las a projetos, tarefas, problemas e folhas de ponto. Para obter mais informações sobre como obter o acesso administrativo necessário, consulte [Conceder aos usuários acesso administrativo a determinadas áreas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+A [!DNL Workfront] administrador (ou um usuário com uma [!UICONTROL Planejador] nível de acesso e acesso administrativo a notificações de lembrete) podem criar notificações de lembrete sobre a aproximação de prazos e anexá-los a projetos, tarefas, problemas e folhas de horas. Para obter mais informações sobre como obter o acesso administrativo necessário, consulte [Conceder aos usuários acesso administrativo a determinadas áreas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 >[!IMPORTANT]
 >
->Se o prazo for alterado depois que um usuário receber uma notificação de lembrete para qualquer um dos objetos mencionados acima, o usuário não receberá outra notificação de lembrete.
+>Se o prazo mudar depois que um usuário receber uma notificação de lembrete para qualquer um dos objetos mencionados acima, o usuário não receberá outra notificação de lembrete.
 
-As notificações do lembrete são enviadas pelo endereço de email de que a variável [!DNL Workfront] administrador selecionado para lidar com emails de saída.
+Notificações de lembrete são enviadas pelo endereço de email que o [!DNL Workfront] administrador selecionado para lidar com emails de saída.
 
 Para obter informações sobre como configurar e ativar notificações de lembrete, consulte [Configurar notificações de lembrete](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
-### Notificações de quadros
+### Notificações de painéis
 
-[!DNL Adobe Workfront] [!UICONTROL Quadros] envia um email quando você é adicionado a um quadro e quando um cartão é atribuído a você.
+[!DNL Adobe Workfront] [!UICONTROL Quadros] O envia um email quando você é adicionado a um quadro e quando um cartão é atribuído a você.
 
-Você pode selecionar quais emails deseja receber em suas preferências de Quadros. Para obter mais informações, consulte [Notificações e preferências de email do Quadros](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+Você pode selecionar quais emails deseja receber nas preferências de Quadros. Para obter mais informações, consulte [Notificações e preferências de email dos painéis](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 
-### Outras [!DNL Workfront] emails
+### Outro [!DNL Workfront] emails
 
-Há outros emails que você pode receber [!DNL Workfront] que não podem ser configuradas. Os emails a seguir são enviados automaticamente por [!DNL Workfront] quando estas condições forem cumpridas:
+Há outros emails que você pode receber [!DNL Workfront] que não pode ser configurado. Os emails a seguir são enviados automaticamente pelo [!DNL Workfront] quando estas condições forem satisfeitas:
 
-* Restaurar um item: Quando a variável [!DNL Workfront] o administrador restaura um objeto do [!UICONTROL Reciclar] Bin, um email é enviado para o [!DNL Workfront] administrador.
-* Falha ao restaurar: Quando a variável [!DNL Workfront] o administrador tenta restaurar um objeto da Lixeira e a restauração falha, um email é enviado para a [!DNL Workfront] administrador.
+* Restaurar um item: quando a variável [!DNL Workfront] O administrador restaura um objeto do [!UICONTROL Reciclar] Bin, um email é enviado para o [!DNL Workfront] administrador.
+* Falha ao ser restaurado: quando a variável [!DNL Workfront] administrador tenta restaurar um objeto da Lixeira e a restauração falha, um email é enviado para a [!DNL Workfront] administrador.
 
-Os emails a seguir só podem ser configurados no nível do perfil do usuário. Eles não podem ser ativados ou desativados no nível do sistema:
+Os emails a seguir podem ser configurados somente no nível do perfil do usuário. Eles não podem ser ativados ou desativados no nível do sistema:
 
 * Conclusão da tarefa pessoal: quando uma tarefa pessoal atribuída a outra pessoa for concluída, você receberá um email.
-* Comentário adicionado ao usuário: quando alguém comenta no seu perfil de usuário, você receberá um email.
+* Comentário adicionado ao usuário: quando alguém comentar no seu perfil de usuário, você receberá um email.
 
 ## Notificações no aplicativo
 
@@ -152,11 +154,11 @@ Você pode receber notificações dentro do [!DNL Workfront] aplicação web, qu
 
 Para obter mais informações sobre notificações no aplicativo, consulte [Exibir e gerenciar notificações no aplicativo](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
-## Notificações por email no aplicativo de email móvel
+## Notificações por email no aplicativo de email para dispositivos móveis
 
 Você pode receber [!DNL Workfront] notificações por email no aplicativo de email móvel, no dispositivo móvel.
 
-Se você tiver a variável [!DNL Workfront] O aplicativo móvel instalado no seu telefone, tocar nos links no email os abrirá no [!DNL Workfront] Aplicativo móvel. Isso inclui tocar em qualquer um dos seguintes botões de ação:
+Se você tiver o [!DNL Workfront] aplicativo móvel instalado no telefone, tocar nos links no email os abrirá no [!DNL Workfront] Aplicativo móvel. Isso inclui tocar em qualquer um dos seguintes botões de ação:
 
 * [!UICONTROL Trabalhar na tarefa]
 * [!UICONTROL Comentário]
@@ -166,4 +168,4 @@ Se você tiver a variável [!DNL Workfront] O aplicativo móvel instalado no seu
 * [!UICONTROL Começar]
 * [!UICONTROL Ver mais detalhes]
 
-Para obter mais informações sobre o [!DNL Workfront] Aplicativo para dispositivos móveis, consulte [Use o [!DNL Adobe Workfront] aplicativo móvel](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
+Para obter mais informações sobre o [!DNL Workfront] Aplicativo móvel, consulte [Use o [!DNL Adobe Workfront] aplicativo móvel](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).

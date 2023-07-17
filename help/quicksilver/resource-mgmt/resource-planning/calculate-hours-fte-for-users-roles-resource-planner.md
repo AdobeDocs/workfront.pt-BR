@@ -2,54 +2,54 @@
 content-type: reference
 product-area: resource-management
 navigation-topic: resource-planning
-title: Visão geral do cálculo de horas e FTE para usuários e funções no Planejador de Recursos
-description: Visão geral do cálculo de horas e FTE para usuários e funções no Planejador de Recursos
+title: Visão geral do cálculo de horas e FTE para usuários e funções no Planejador de recursos
+description: Visão geral do cálculo de horas e FTE para usuários e funções no Planejador de recursos
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 1%
 
 ---
 
-# Visão geral do cálculo de horas e FTE para usuários e funções no Planejador de Recursos
+# Visão geral do cálculo de horas e FTE para usuários e funções no Planejador de recursos
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina:KEEP THIS:***Linked to: Configuring My Settings, Editing User Accounts, Planning in the Resource Planner -- *** Some of this documentation is also duplicated in this article (Scheduling): https://support.workfront.com/hc/en-us/articles/360000557174)</p>
 -->
 
-Você pode exibir a alocação e a disponibilidade dos recursos no Planejador de Recursos por Horas, FTE ou Custo.\
-Para obter mais informações sobre o cálculo de Custos no Planejador de Recursos, consulte [Calcular custos no Planejador de Recursos](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+Você pode exibir a alocação e a disponibilidade de seus recursos no Planejador de Recursos por Horas, FTE ou Custo.\
+Para obter mais informações sobre o cálculo de Custos no Planejador de Recursos, consulte [Calcular custos no Planejador de recursos](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
-&quot;FTE&quot; significa equivalente a tempo inteiro. É uma medida de tempo que representa a quantidade de horas dedicadas ao trabalho real durante um dia ou semana para um usuário ou função de trabalho.
+&quot;FTE&quot; significa Equivalente a Tempo Integral. É uma medida de tempo que representa a quantidade de horas dedicadas ao trabalho real durante um dia ou semana para um usuário ou função de trabalho.
 
-Os seguintes conjuntos de informações de recursos são calculados de forma diferente no Planejador de Recursos:
+Os conjuntos de informações de recursos a seguir são calculados de forma diferente no Planejador de recursos:
 
-* Os valores Horas Disponíveis ou FTE são calculados com base na forma como o Administrador do Sistema configura as preferências de Gerenciamento de Recursos em seu sistema.\
-   Para obter mais informações sobre como os valores de Horas e FTE disponíveis são calculados, consulte [Calcular Horas Disponíveis ou FTE para usuários e funções de trabalho no Planejador de Recursos](#calculate-available-hours-or-fte-for-users-and-job-roles-in-the-resource-planner).\
-   Para obter mais informações sobre como definir as preferências de Gerenciamento de Recursos para o sistema Adobe Workfront, consulte [Configurar preferências do Gerenciamento de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+* Os valores de Horas Disponíveis ou FTE são calculados com base na forma como o Administrador do Sistema configura as preferências de Gerenciamento de Recursos no sistema.\
+  Para obter mais informações sobre como os valores de Horas Disponíveis e FTE são calculados, consulte [Calcular Horas Disponíveis ou FTE para usuários e funções de trabalho no Planejador de Recursos](#calculate-available-hours-or-fte-for-users-and-job-roles-in-the-resource-planner).\
+  Para obter mais informações sobre como definir as preferências de Gerenciamento de Recursos para o sistema Adobe Workfront, consulte [Configurar preferências de gerenciamento de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-* Todos os outros valores de FTE são calculados com base na programação Padrão do Sistema.\
-   Para obter mais informações sobre como todos os outros valores são exibidos no Planejador de Recursos ao usar FTE, consulte a seção [Calcular todos os outros valores de hora e FTE para usuários e funções de trabalho no Planejador de Recursos](#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner) neste artigo.
+* Todos os outros valores de FTE são calculados com base no agendamento Padrão do sistema.\
+  Para obter mais informações sobre como todos os outros valores são exibidos no Planejador de recursos ao usar FTE, consulte a seção [Calcular todos os outros valores de hora e FTE para usuários e funções de trabalho no Planejador de recursos](#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner) neste artigo.
 
-É importante entender o que é o FTE para cada um dos usuários e suas funções de trabalho para gerenciar com precisão seus recursos à medida que você os atribui para trabalhar.
+É importante entender o que é o FTE para cada um dos usuários e suas funções de trabalho para gerenciar com precisão os recursos à medida que você os atribui para trabalhar.
 
 ## Calcular Horas Disponíveis ou FTE para usuários e funções de trabalho no Planejador de Recursos {#calculate-available-hours-or-fte-for-users-and-job-roles-in-the-resource-planner}
 
-* [Calcular as Horas e o FTE disponíveis para um usuário no Planejador de recursos](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner)
-* [Calcular as Horas e o FTE disponíveis para uma função de trabalho no Planejador de Recursos](#calculate-the-available-hours-and-fte-for-a-job-role-in-the-resource-planner)
-* [Calcule as Horas e o FTE disponíveis para um usuário no Planejador de recursos (exemplo)](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner-example)
+* [Calcular as Horas Disponíveis e o FTE de um usuário no Planejador de Recursos](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner)
+* [Calcular as Horas Disponíveis e o FTE para uma função de trabalho no Planejador de Recursos](#calculate-the-available-hours-and-fte-for-a-job-role-in-the-resource-planner)
+* [Calcular as Horas Disponíveis e o FTE de um usuário no Planejador de Recursos (Exemplo)](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner-example)
 
-### Calcular as Horas e o FTE disponíveis para um usuário no Planejador de recursos {#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner}
+### Calcular as Horas Disponíveis e o FTE de um usuário no Planejador de Recursos {#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner}
 
-O administrador do Workfront determina como o tempo disponível para um usuário é calculado selecionando para usar um dos seguintes na área Gerenciamento de Recursos em Configurar:
+O administrador do Workfront determina como o tempo disponível para um usuário é calculado ao selecionar para usar um dos seguintes itens na área Gerenciamento de recursos em Configuração:
 
-* O agendamento padrão do sistema e o FTE do usuário.
-* O cronograma do usuário.
+* O Cronograma Padrão do sistema e o FTE do usuário.
+* A programação do usuário.
 
-Para obter mais informações, consulte [Configurar preferências do Gerenciamento de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+Para obter mais informações, consulte [Configurar preferências de gerenciamento de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -74,70 +74,68 @@ If the user is not associated with a schedule, the Available Hours for the user 
 </div>
 -->
 
-### Calcular as Horas e o FTE disponíveis para uma função de trabalho no Planejador de Recursos {#calculate-the-available-hours-and-fte-for-a-job-role-in-the-resource-planner}
+### Calcular as Horas Disponíveis e o FTE para uma função de trabalho no Planejador de Recursos {#calculate-the-available-hours-and-fte-for-a-job-role-in-the-resource-planner}
 
-Primeiro, é necessário calcular a disponibilidade do usuário e, em seguida, calcular a disponibilidade de cada uma de suas funções.
+Primeiro, é necessário calcular a disponibilidade do usuário e, em seguida, calcular a disponibilidade de cada uma de suas funções de trabalho.
 
-A disponibilidade de funções de cargo no Planejador de Recursos leva em conta a disponibilidade total do usuário e a **Porcentagem de disponibilidade de FTE** associado a cada função do usuário.\
+A disponibilidade de funções de trabalho no Planejador de recursos leva em conta a disponibilidade total do usuário e a **Porcentagem de Disponibilidade de FTE** associado a cada função do usuário.\
 ![percent_of_fte_availability_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level-350x144.png)
 
-Para obter mais informações sobre como associar um **Porcentagem de disponibilidade de FTE** com uma função de trabalho para um usuário, consulte [Editar o perfil de um usuário](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Para obter mais informações sobre como associar uma **Porcentagem de Disponibilidade de FTE** com uma função de trabalho para um usuário, consulte [Editar o perfil de um usuário](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-Por exemplo, se o valor de Horas Disponíveis para um usuário for 40 e ele puder cumprir uma Função Primária por 75% desse tempo e uma Outra Função por 25% desse tempo, o Planejador de Recursos mostrará que a variável **Horas disponíveis** O valor da Função primária para uma semana é 30 horas e o valor da função principal para **Horas disponíveis** O valor para a outra função é de 10 horas. Nesse caso, o FTE para a Função primária é 0,75 e o FTE para a outra função é 0,25.
+Por exemplo, se o valor de Horas Disponíveis para um usuário for 40 e ele puder cumprir uma Função Principal por 75% desse tempo e uma Outra Função por 25% desse tempo, o Planejador de Recursos mostrará que **Horas Disponíveis** para a Função principal por uma semana é de 30 horas e que o valor **Horas Disponíveis** para a Outra função é 10 horas. Nesse caso, o FTE da Função principal é 0,75 e o FTE da outra função é 0,25.
 
 >[!NOTE]
 >
->O tempo total disponível para o usuário é calculado por um dos dois métodos descritos no [Calcular as Horas e o FTE disponíveis para um usuário no Planejador de recursos](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner) neste artigo.
+>O tempo total disponível para o usuário é calculado por um dos dois métodos descritos no [Calcular as Horas Disponíveis e o FTE de um usuário no Planejador de Recursos](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner) neste artigo.
 
-Ao visualizar o Planejador de Recursos na Visualização de Função, a disponibilidade de uma função de trabalho é um total da disponibilidade de todos os usuários que podem cumprir essa função de trabalho.\
-Para obter mais informações sobre a disponibilidade de recursos no Planejador de Recursos, consulte o [Visão geral do Planejador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Ao visualizar o Planejador de recursos na visualização Função, a disponibilidade de uma função de trabalho é um total da disponibilidade de todos os usuários que podem desempenhar essa função de trabalho.\
+Para obter mais informações sobre a disponibilidade de recursos no Planejador de recursos, consulte [Visão geral do Planejador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-### Calcule as Horas e o FTE disponíveis para um usuário no Planejador de recursos (exemplo) {#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner-example}
+### Calcular as Horas Disponíveis e o FTE de um usuário no Planejador de Recursos (Exemplo) {#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner-example}
 
 A tabela a seguir ilustra como as Horas Disponíveis e o FTE Disponível são calculados para o usuário no Planejador de Recursos, dependendo de qual método é usado pelo administrador do sistema para o cálculo do FTE nas Preferências de Gerenciamento de Recursos.
 
 Neste exemplo, estamos usando os seguintes números:
 
-* Um agendamento padrão do sistema de 40 horas
-* Um agendamento de usuário de 20 horas
-* Um FTE de usuário de 0,75.
+* Um calendário padrão do sistema de 40 horas
+* Uma programação de usuário de 20 horas
+* Um FTE de usuário de 0,75
 
-| Método para Cálculo de FTE (Configuração do Sistema) | **Horas a partir do agendamento do usuário** | **Horas a partir do agendamento padrão** | **Campo FTE do usuário** | **Horas disponíveis no Planejador de recursos** | **FTE disponível no Planejador de recursos** |
+| Método de Cálculo de FTE (Configuração do Sistema) | **Horas a partir do Cronograma do Usuário** | **Horas a partir do calendário padrão** | **Campo FTE do usuário** | **Horas Disponíveis no Planejador de Recursos** | **FTE disponível no Planejador de recursos** |
 |---|---|---|---|---|---|
-| **O Cronograma Padrão** | Ignorada | 40 | 0.75 | **30º** (calculado) | **0.75** |
+| **O Cronograma Padrão** | Ignorada | 40 | 0.75 | **30** (calculado) | **0.75** |
 | **O Cronograma do Usuário** | 20 | 40 | Ignorada | **20** | **0,5** (calculado) |
 
-As exceções de programação e o tempo de folga podem afetar a quantidade de Horas Planejadas ou FTE. Para obter mais informações, consulte [Configurar preferências do Gerenciamento de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+Exceções de cronograma e folga podem afetar a quantidade de Horas planejadas ou FTE. Para obter mais informações, consulte [Configurar preferências de gerenciamento de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-## Calcular todos os outros valores de hora e FTE para usuários e funções de trabalho no Planejador de Recursos {#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner}
+## Calcular todos os outros valores de hora e FTE para usuários e funções de trabalho no Planejador de recursos {#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner}
 
-Além das Horas Disponíveis ou do FTE, as seguintes informações de tempo também são exibidas no Planejador de Recursos:
+Além das Horas Disponíveis ou FTE, as seguintes informações de tempo também são exibidas no Planejador de Recursos:
 
 * Horas planejadas
 * Horas orçadas
-* Variação de hora
-* Horas Líquidas\
-   Para obter mais informações sobre esses valores, consulte [Visão geral de horas, FTE e informações de custo nas exibições Projeto e Função do Planejador de Recursos](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
+* Variação de Hora
+* Horas líquidas\
+  Para obter mais informações sobre esses valores, consulte [Visão geral de horas, FTE e informações de custo nas visualizações Projeto e Função do Planejador de recursos](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
 
-* Diferença de hora\
-   Para obter mais informações sobre o que esse valor representa, consulte [Visão geral de horas, FTE e informações de custo nas exibições Projeto e Função do Planejador de Recursos](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+* Diferença de Hora\
+  Para obter mais informações sobre o que esse valor representa, consulte [Visão geral de horas, FTE e informações de custo nas visualizações Projeto e Função do Planejador de recursos](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
-Você pode exibir as mesmas informações no Planejador de Recursos que FTE ou como horas.
+Você pode exibir as mesmas informações no Planejador de recursos que o FTE ou as horas.
 
 O Workfront usa a seguinte fórmula para exibir todos os outros valores como FTE no Planejador de Recursos:
 
-```
-FTE = Resource Planner Hours/ Default Schedule Hours
-```
+`FTE = Resource Planner Hours/ Default Schedule Hours`
 
 >[!NOTE]
 >
->A programação do usuário é ignorada ao calcular o FTE para todos os valores, exceto para os valores FTE disponíveis (AVL), no Planejador de Recursos. Somente a Programação Padrão é levada em conta para o cálculo.
+>O cronograma do usuário é ignorado ao calcular o FTE para todos os valores, exceto para os valores de FTE Disponíveis (AVL) no Planejador de recursos. Somente o Cronograma Padrão é considerado para o cálculo.
 
-Este cálculo aplica-se aos seguintes valores:
+Esse cálculo se aplica aos seguintes valores:
 
-* ETI planejada (PLN)
-* ETI orçamentada (DG)
+* ETC planejado (PLN)
+* FTE orçado (BDG)
 * Variação FTE (VAR)
-* NET FTE
+* FTE LÍQUIDO
 * Diferença FTE (DIF)
