@@ -7,10 +7,10 @@ description: A Adobe Workfront não foi projetada para replicar ou substituir se
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
+source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 0%
+source-wordcount: '398'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,6 @@ As ferramentas de Gerenciamento de Recursos também usam sua folga pessoal para 
 >* [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 >* [Editar o perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 >
-
 
 ## Requisitos de acesso
 
@@ -63,7 +62,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Configurar o tempo de folga pessoal no [!DNL Workfront]
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique no nome de usuário ao lado da imagem do perfil.
+1. {#step1-click-profile-pic}
 
 1. No painel esquerdo, clique em **[!UICONTROL Folga]**.
 1. Selecione a data desejada para sua folga pessoal.
@@ -71,4 +70,4 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    Deixe-a desmarcada se estiver tirando menos de um dia inteiro de folga e indique as horas de início e término de sua folga.
 
 1. Clique em **[!UICONTROL Salvar]**.\
-   Sua folga agora está visível em todo o [!DNL Workfront] em ferramentas de agendamento como a Grade de Recursos. Quando você recebe um trabalho durante esse período, uma dica de ferramenta é exibida informando ao usuário que você programou uma folga.
+   Sua folga agora está visível em todo o [!DNL Workfront] nas ferramentas de gerenciamento de recursos, como o Planejador de recursos e o Balanceador de carga de trabalho. Quando você recebe um trabalho durante esse período, uma dica de ferramenta é exibida informando ao usuário que você programou uma folga.
