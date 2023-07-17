@@ -7,10 +7,10 @@ description: A Adobe Workfront não foi projetada para replicar ou substituir se
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
+source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 1%
+source-wordcount: '438'
+ht-degree: 0%
 
 ---
 
@@ -62,8 +62,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Configurar o tempo de folga pessoal no [!DNL Workfront]
 
-1. {#step1-click-profile-pic}
-
+1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, clique no nome de usuário ao lado da imagem do perfil. Ou (se disponível) clique na imagem do perfil na área de navegação superior e, em seguida, clique em **[!UICONTROL Perfil do Workfront]**.
 1. No painel esquerdo, clique em **[!UICONTROL Folga]**.
 1. Selecione a data desejada para sua folga pessoal.
 1. Selecionar **[!UICONTROL O dia todo]**, se você estiver tirando um dia de folga.\
