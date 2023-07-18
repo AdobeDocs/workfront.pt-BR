@@ -2,64 +2,66 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Criar e modificar agendamentos de um grupo
-description: Ao visualizar um grupo que você gerencia na área Grupos , é possível visualizar e trabalhar com os agendamentos para os quais os administradores do grupo, ou um de seus subgrupos, têm acesso administrativo.
+title: Criar e modificar as agendas de um grupo
+description: Ao visualizar um grupo gerenciado na área Grupos, você pode visualizar e trabalhar com os agendamentos para os quais os administradores do grupo, ou um de seus subgrupos, têm acesso administrativo.
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a2a39746-331b-41d6-8c3c-e6a1eb68b43a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
-# Criar e modificar agendamentos de um grupo
+# Criar e modificar as agendas de um grupo
 
-Ao visualizar um grupo que você gerencia na área Grupos , é possível visualizar e trabalhar com os agendamentos para os quais os administradores do grupo, ou um de seus subgrupos, têm acesso administrativo.
+Ao visualizar um grupo gerenciado na área Grupos, você pode visualizar e trabalhar com os agendamentos para os quais os administradores do grupo, ou um de seus subgrupos, têm acesso administrativo.
 
-Se houver algum grupo acima do grupo que você gerencia, os administradores também poderão fazer isso para o seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo).
+Se houver algum grupo acima do grupo gerenciado por você, os administradores também poderão fazer isso pelo seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo).
 
-Para obter informações gerais sobre a criação e edição de uma programação, consulte [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+Para obter informações gerais sobre como criar e editar um agendamento, consulte [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 >[!NOTE]
 >
->Os administradores de grupo e usuários com uma licença de Plano que podem editar outros usuários podem adicionar um agendamento de nível de sistema ou de grupo a outro usuário quando estiverem editando o perfil do usuário.
+>Administradores de grupo e usuários com uma licença de plano que podem editar outros usuários podem adicionar um agendamento no nível do sistema ou no nível do grupo a outro usuário quando eles estiverem editando o perfil desse usuário.
+
+Para obter informações sobre como as programações são usadas no planejamento de recursos, consulte [Visão geral dos cronogramas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) e [Visão geral do Planejador de recursos](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte para executar as etapas neste artigo:
+Você deve ter o seguinte para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Workfront*</td> 
+   <td role="rowheader">plano do Workfront*</td> 
    <td>Qualquer Um</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> <p>Você deve ser um administrador de grupo do grupo ou um administrador do Workfront. Para obter mais informações, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores do grupo</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder ao usuário acesso administrativo total</a>.</p> </td> 
+   <td> <p>Plano </p> <p>Você deve ser um administrador de grupo do grupo ou um administrador do Workfront. Para obter mais informações, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores de grupo</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acesso administrativo total a um usuário</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Se precisar descobrir qual plano ou tipo de licença você tem, entre em contato com o administrador da Workfront.
+&#42;Se precisar descobrir o tipo de plano ou licença que possui, entre em contato com o administrador do Workfront.
 
-## Criar ou modificar as programações de um grupo
+## Criar ou modificar as agendas de um grupo
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, em seguida, clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
 
 1. Clique em **Grupos**.
 
-   Na lista que é exibida, é possível ver os grupos gerenciados, juntamente com os subgrupos que eles possuem. Os administradores do Adobe Workfront podem visualizar todos os grupos.
+   Na lista exibida, você pode ver os grupos que gerencia, juntamente com quaisquer subgrupos que eles tenham. Os administradores do Adobe Workfront podem visualizar todos os grupos.
 
-1. Clique no nome do grupo no qual deseja exibir as programações.
+1. Clique no nome do grupo no qual deseja exibir os agendamentos.
 1. No painel esquerdo, clique em **Agendamentos**.
 1. Siga um destes procedimentos:
 
-   * Clique em **Novo agendamento** para criar um novo agendamento
-   * Selecione um agendamento e use os controles na barra de ferramentas para **Editar**, **Copiar** ou **Excluir** sim.
-   * **Exportar** a lista de agendamentos para o grupo.
+   * Clique em **Nova programação** para criar um novo agendamento
+   * Selecione um cronograma e use os controles na barra de ferramentas para **Editar**, **Copiar** ou **Excluir** o mesmo.
+   * **Exportar** a lista de agendamentos do grupo.
