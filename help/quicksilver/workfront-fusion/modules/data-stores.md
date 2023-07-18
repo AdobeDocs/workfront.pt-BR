@@ -8,9 +8,9 @@ description: Um armazenamento de dados, semelhante a um banco de dados ou a uma 
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 259ffbbaeddeea64ea2e7f77db258472162c9d8d
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1253'
 ht-degree: 1%
 
 ---
@@ -111,7 +111,7 @@ Antes de usar um armazenamento de dados em um módulo, você deve criar o armaze
      </tr> 
      <tr> 
       <td> <p>[!UICONTROL Tamanho do armazenamento de dados em MB]</p> </td> 
-      <td> <p>Aloque o tamanho do armazenamento de dados do armazenamento de dados interno total.</p> <p>Nota: A quantia reservada pode ser alterada a qualquer momento.</p>  </td> 
+      <td> <p>Aloque o tamanho do armazenamento de dados do armazenamento de dados interno total.</p> <p> O valor padrão é 10 MB. Se você tiver menos de 10 MB de espaço não alocado do Armazenamento de dados em sua alocação de 500 MB, o tamanho padrão será a quantidade de armazenamento não alocado.  <p>Nota: A quantia reservada pode ser alterada a qualquer momento.</p>  </td> 
      </tr> 
     </tbody> 
    </table>
