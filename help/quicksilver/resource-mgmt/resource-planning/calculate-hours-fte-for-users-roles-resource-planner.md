@@ -7,7 +7,7 @@ description: Visão geral do cálculo de horas e FTE para usuários e funções 
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
+source-git-commit: 243d177857e37e4ea406b112d667b946e7e7e8a8
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 1%
@@ -68,21 +68,22 @@ Com base em como essa configuração é definida, a disponibilidade dos usuário
      Para obter mais informações sobre programações, incluindo a Programação Padrão, consulte [Criar um agendamento](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
    * A variável **FTE disponível** para o usuário no Planejador de recursos é igual ao FTE do usuário especificado nas configurações do usuário.
-Por exemplo, se o FTE do usuário for 0,5 nas configurações do usuário, o FTE disponível do usuário será 0,5 no Planejador de recursos. Para obter mais informações sobre o valor do FTE do usuário conforme exibido nas configurações do usuário, consulte [Editar o perfil de um usuário](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+     Por exemplo, se o FTE do usuário for 0,5 nas configurações do usuário, o FTE disponível do usuário será 0,5 no Planejador de recursos. Para obter mais informações sobre o valor do FTE do usuário conforme exibido nas configurações do usuário, consulte [Editar o perfil de um usuário](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * **O Cronograma do Usuário**: o Agendamento do usuário é usado para determinar a disponibilidade do usuário no Planejador de recursos. O valor do FTE do usuário é ignorado. Neste caso:
 
    * A variável **Horas Disponíveis** no Planejador de recursos são as mesmas horas do cronograma do usuário.
 
-  Por exemplo, se o Cronograma do usuário tiver 40 horas por semana disponíveis para trabalho, o usuário estará disponível para trabalhar 40 horas por semana no Planejador de recursos.
+     Por exemplo, se o Cronograma do usuário tiver 40 horas por semana disponíveis para trabalho, o usuário estará disponível para trabalhar 40 horas por semana no Planejador de recursos.
 
    * A variável **FTE disponível** no Planejador de recursos é calculada pela seguinte fórmula:
 
-  `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
+     `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
 
-  Por exemplo, se o Cronograma do usuário tiver 20 horas disponíveis para trabalhar e o Cronograma padrão no Workfront tiver 40 horas disponíveis para trabalhar, o FTE do usuário será 0,5.
+     Por exemplo, se o Cronograma do usuário tiver 20 horas disponíveis para trabalhar e o Cronograma padrão no Workfront tiver 40 horas disponíveis para trabalhar, o FTE do usuário será 0,5.
 
-  Para obter mais informações sobre programações, incluindo a Programação Padrão, consulte [Criar um agendamento](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+     Para obter mais informações sobre programações, incluindo a Programação Padrão, consulte [Criar um agendamento](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 >[!NOTE]
 >
