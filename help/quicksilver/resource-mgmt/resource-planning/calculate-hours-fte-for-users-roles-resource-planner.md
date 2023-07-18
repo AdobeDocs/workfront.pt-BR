@@ -7,7 +7,7 @@ description: Visão geral do cálculo de horas e FTE para usuários e funções 
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: 243d177857e37e4ea406b112d667b946e7e7e8a8
+source-git-commit: de015496d4cb960b10368e4dfa0f7abec1b7d989
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 1%
@@ -115,7 +115,7 @@ Neste exemplo, estamos usando os seguintes números:
 
 * Um calendário padrão do sistema de 40 horas
 * Uma programação de usuário de 20 horas
-* Um FTE de usuário de 0,75
+* Um FTE de usuário de 0,8
 
 | Método de Cálculo de FTE (Configuração do Sistema) | **Horas a partir do Cronograma do Usuário** | **Horas a partir do calendário padrão** | **Campo FTE do usuário** | **Horas Disponíveis no Planejador de Recursos** | **FTE disponível no Planejador de recursos** |
 |---|---|---|---|---|---|
