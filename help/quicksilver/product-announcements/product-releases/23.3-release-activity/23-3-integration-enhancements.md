@@ -3,9 +3,9 @@ title: 23.3 Aprimoramentos de integração
 description: 23.3 Aprimoramentos de integração
 author: Lisa
 feature: Product Announcements
-source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
+source-git-commit: 75e035bcdf75501e34fd9de57dd6eab85d9e5542
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -50,13 +50,17 @@ Para obter mais informações, consulte [Exibir e gerenciar [!DNL Adobe Workfron
 
 Para obter informações sobre como instalar os plug-ins do Workfront para Creative Cloud, consulte [Instalar o plug-in do Adobe Workfront para aplicativos Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
 
-## Experiência aprimorada ao mover um documento para uma pasta vinculada com arrastar e soltar
+<!--
 
-Adicionamos transparência ao processo de arrastar e soltar um documento em uma pasta vinculada. Agora, o documento que você moveu para uma pasta vinculada permanece na lista de documentos até que seja totalmente movido. As opções de documento estão desabilitadas, mas você ainda pode abrir o documento para exibição enquanto ele estiver sendo movido. Quando o documento tiver concluído a transferência, ele desaparecerá da lista de documentos, pois agora está totalmente localizado na pasta vinculada.
+## Improved experience when moving a document to a linked folder with drag and drop
 
-Anteriormente, os documentos desapareceriam imediatamente da lista de documentos, antes de terminarem de ser movidos para a pasta vinculada.
+We've added some transparency to the process of dragging and dropping a document into a linked folder. Now, the document that you moved to a linked folder remains in the document list until it has fully moved. The document options are disabled, but you can still open the document for view while it is moving. When the document has completed the transfer, it disappears from the document list, because it is now fully located in the linked folder.
 
-Para obter mais informações, consulte [Vincular documentos de aplicativos externos](/help/quicksilver/documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Previously, documents would immediately disappear from the document list, before they had finished moving to the linked folder.
+
+For more information, see [Link documents from external applications](/help/quicksilver/documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+
+-->
 
 ## Criar automaticamente pastas vinculadas ao Adobe Experience Manager Assets ao criar um projeto
 
