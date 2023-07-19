@@ -7,16 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: ba1450e247bd47b775f3171e722bd4e70773b98e
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '689'
 ht-degree: 1%
 
 ---
 
 # Nova experiência de comentários
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ele está disponível para todos os clientes somente no ambiente de Pré-visualização.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 Uma atualização para a experiência de comentários no Adobe Workfront está em desenvolvimento no momento. Esta atualização inclui uma nova interface, novos recursos e melhor desempenho na seção Atualizações de objetos selecionados.
 
@@ -74,9 +74,9 @@ Os seguintes recursos foram removidos da nova experiência:
 >
 >Você pode exibir comentários e atualizações do sistema nesses objetos anteriores a junho de 2022 ao visualizar a seção Atualizações na experiência atual:
 >* Problemas
->* <span class="preview">Projetos</span>
->* <span class="preview">Tarefas</span>
->* <span class="preview">Documentos</span>
+>* Projetos
+>* Tarefas
+>* Documentos
 
 A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiência de comentários, bem como sua disponibilidade em áreas onde são compatíveis:
 
@@ -159,7 +159,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td>✓ 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -215,7 +215,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span>
+   <td>✓
    </td>
    <td> 
    </td>
@@ -231,7 +231,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span>
+   <td>✓
    </td>
    <td> 
    </td>
@@ -330,7 +330,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">✓</span>
+   <td>✓
    </td>
    <td> 
    </td>
@@ -372,7 +372,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">✓</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -491,7 +491,7 @@ A nova experiência de comentários é atualmente compatível com os seguintes o
 
 * Ao habilitar a experiência Beta na seção Atualizações:
 
-   * Problemas, <span class="preview">projetos, tarefas e documentos</span>
+   * Problemas, projetos, tarefas e documentos
 
   Para obter mais informações sobre o gerenciamento de atualizações para objetos do Workfront, consulte [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

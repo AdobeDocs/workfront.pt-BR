@@ -6,9 +6,9 @@ description: Ao fornecer comentários de atualização em um objeto do Adobe Wor
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 <!--take "Beta" references out when we remove the beta-->
 
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização.
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 >Para obter mais informações sobre a nova experiência de comentários, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Você pode acessar a nova experiência para os seguintes objetos:
-> * Problemas, <span class="preview" style="display-inline">projetos, tarefas e documentos</span>.
+> * Problemas, projetos, tarefas e documentos.
 >
 >     Isso está disponível quando você ativa a experiência de comentários Beta.
 >
@@ -138,16 +138,16 @@ Você pode marcar os usuários manualmente na seção Atualizações atual.
 
 Você pode adicionar tags a outras pessoas em atualizações na nova experiência de comentários das seguintes maneiras:
 
-* <span class="preview"> **Automaticamente**: quando um usuário adiciona um comentário ou uma resposta, ele é automaticamente marcado e adicionado à área Marcar pessoas ou equipes da caixa de comentários. </span>
+* **Automaticamente**: quando um usuário adiciona um comentário ou uma resposta, ele é automaticamente marcado e adicionado à área Marcar pessoas ou equipes da caixa de comentários.
 * **Manualmente**: ao adicionar manualmente um usuário à área Marcar pessoas da caixa de comentários.
 
 Também é possível remover usuários que foram marcados por engano ao editar ou responder a um comentário.
 
-1. Comece a atualizar um item de trabalho, conforme descrito em [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). <span class="preview">Como proprietário do comentário, você é automaticamente marcado e adicionado à área Marcar pessoas ou equipes da caixa de comentários. </span>
+1. Comece a atualizar um item de trabalho, conforme descrito em [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). Como proprietário do comentário, você é automaticamente marcado e adicionado à área Marcar pessoas ou equipes da caixa de comentários.
 
    >[!TIP]
    >
-   ><span class="preview">O proprietário do comentário não pode ver seu próprio nome na área Marcar pessoas ou equipes da caixa de comentários.</span>
+   >O proprietário do comentário não pode ver seu próprio nome na área Marcar pessoas ou equipes da caixa de comentários.
 
 1. No **Marcar pessoas ou equipes** comece digitando o nome do usuário ou da equipe que deseja incluir e clique no nome quando ele aparecer na lista suspensa.
 

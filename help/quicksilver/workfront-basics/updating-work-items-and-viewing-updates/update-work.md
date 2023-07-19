@@ -6,9 +6,9 @@ description: Você pode adicionar uma atualização em um objeto do Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '3497'
+source-wordcount: '3471'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ele está disponível para todos os clientes somente no ambiente de Pré-visualização.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 1%
 >Para obter mais informações sobre a nova experiência de comentários, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Você pode acessar a nova experiência para os seguintes objetos:
-> * Problemas, <span class="preview">projetos, tarefas e documentos</span>.
+> * Problemas, projetos, tarefas e documentos.
 >
 >     Isso está disponível quando você ativa a experiência de comentários Beta.
 >
@@ -47,13 +47,13 @@ ht-degree: 1%
 
 * Você pode adicionar comentários à maioria dos objetos no Adobe Workfront na seção Atualizações. Para obter mais informações sobre quais objetos exibem a seção Atualizações, consulte [Visão geral da seção Atualizações](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-* Você pode adicionar uma atualização em um objeto do Workfront (projeto, tarefa ou problema) para comunicar o progresso no objeto enquanto comenta no objeto. Os usuários atribuídos ou inscritos no objeto podem exibir sua atualização.
+* É possível adicionar uma atualização em um objeto do Workfront (projeto, tarefa ou problema) para comunicar o progresso no objeto, à medida que você comenta sobre o objeto. Os usuários atribuídos ou inscritos no objeto podem exibir sua atualização.
 
 * É possível marcar os usuários para chamar a atenção deles para a atualização. Os usuários marcados receberão uma notificação no aplicativo e um email sobre a atualização.
 
   >[!TIP]
   >
-  >   <span class="preview">Na nova experiência de comentários, os proprietários dos comentários são marcados automaticamente. Para obter mais informações, consulte [Marcar outros usuários em atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).</span>
+  >   Na nova experiência de comentários, os proprietários dos comentários são marcados automaticamente. Para obter mais informações, consulte [Marcar outros usuários em atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
   <!--take the "in the new commenting experience" out when this is the only experience-->
 
 * Você pode adicionar um comentário a um objeto que pode ser exibido ou pode fazer logon como administrador de grupo ou da Workfront e adicionar um comentário em nome de outro usuário. Para obter mais informações, consulte [Fazer logon como outro usuário](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
@@ -174,7 +174,7 @@ Adicionar uma atualização a um item de trabalho difere dependendo de qual vers
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Status</strong></td> 
-      <td>Clique na seta ao lado do status atual e selecione o status desejado no menu suspenso. Para obter informações sobre como configurar um Status, consulte <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Atualizar status da tarefa</a>.<p>A atualização do status de um item de trabalho não altera automaticamente o status de um projeto. Dependendo de como seu projeto está configurado, você pode fazer atualizações no status do projeto separadamente. Para obter mais informações sobre os vários tipos de atualização de projeto, consulte <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Selecione o tipo de atualização do projeto </a>.</p><p><b>Nota</b>
+      <td>Clique na seta ao lado do status atual e selecione o status desejado no menu suspenso. Para obter informações sobre como configurar um Status, consulte <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Atualizar status da tarefa</a>.<p>A atualização do status de um item de trabalho não altera automaticamente o status de um projeto. Dependendo de como seu projeto está configurado, você pode atualizar o status do projeto separadamente. Para obter mais informações sobre os vários tipos de atualização de projeto, consulte <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Selecione o tipo de atualização do projeto </a>.</p><p><b>Nota</b>
 
    Você não pode alterar o status de um item de trabalho enquanto ele estiver no status Aprovação pendente.</p></td>
    </tr> 
@@ -212,7 +212,7 @@ Para obter informações sobre quais recursos estão disponíveis para a nova ex
 A variável **Comentários** é selecionada por padrão.
 1. Comece a inserir um comentário no **Novo comentário** caixa.
 
-   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
+   ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
@@ -238,7 +238,7 @@ A variável **Comentários** é selecionada por padrão.
    >
    >Se outro usuário enviar um comentário para o mesmo item que você está atualizando, haverá uma linha vermelha com um indicador &quot;Novo&quot; para informá-lo dos comentários mais recentes.
    >
-   >O indicador só é exibido depois que o comentário foi enviado sobre o item, e não quando o comentário ainda está composto.
+   >O indicador é exibido somente depois que o comentário foi enviado no item, e não quando o comentário ainda está composto.
    >
    >O indicador &quot;Novo&quot; é exibido somente quando o usuário que inseriu uma nova atualização, bem como o usuário que está inserindo uma atualização no momento, estão usando a nova experiência de comentário.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
@@ -462,7 +462,7 @@ Nenhum usuário do Workfront (incluindo o administrador do Workfront) pode exclu
 
    ![timesheet_update_stream.png](assets/timesheet-update-stream-350x50.png)
 
-1. (Condicional)Para salvar sua atualização sem enviar a Planilha de horas para aprovação, clique em **Salvar para mais tarde**.
+1. (Condicional) Para salvar sua atualização sem enviar a Planilha de horas para aprovação, clique em **Salvar para mais tarde**.
 
    Ou
 
@@ -478,7 +478,7 @@ Nenhum usuário do Workfront (incluindo o administrador do Workfront) pode exclu
 
 >[!NOTE]
 >
->Não é possível desativar as atualizações do sistema ao usar a experiência de comentários Beta.
+>Não é possível desativar as atualizações do sistema ao usar a nova experiência de comentários.
 >As informações nesta seção se referem apenas à funcionalidade disponível na seção Atualizações atual.
 >Para obter mais informações sobre atualizações do sistema na versão Beta, consulte [Visão geral da seção Atualizações](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 

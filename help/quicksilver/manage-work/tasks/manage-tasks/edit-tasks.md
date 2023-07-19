@@ -6,9 +6,9 @@ description: É possível editar informações sobre tarefas que você criou ou 
 author: Alina
 feature: Work Management
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '3663'
+source-wordcount: '3711'
 ht-degree: 4%
 
 ---
@@ -356,7 +356,7 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Duração por Ocorrência</td> 
-      <td> <p>É exibido apenas no pai de tarefas recorrentes. Ela exibe a duração de cada tarefa recorrente. Para obter informações sobre como criar tarefas recorrentes, consulte <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Criar tarefas recorrentes</a>. </p> <p> <b>Nota</b>
+      <td> <p>É exibido apenas no pai de tarefas recorrentes. Ela exibe a duração de cada tarefa recorrente, conforme definido quando a tarefa foi criada. Para obter informações sobre como criar tarefas recorrentes, consulte <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Criar tarefas recorrentes</a>. </p> <p> <b>Nota</b>
 
    As durações modificadas em tarefas recorrentes individuais não exibem o valor indicado neste campo. </p> </td>
    </tr> 
@@ -437,7 +437,13 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
    </tr> 
    <tr> 
    <td role="rowheader">Horas planejadas</td> 
-   <td> <p>Especifique a quantidade de Horas Planejadas para a tarefa, em horas. Essa é a quantidade de tempo real que os atribuídos da tarefa levariam para concluí-la. Você só poderá especificar a quantidade de Horas Planejadas para uma tarefa quando o Tipo de Duração estiver definido como Atribuição Calculada. Para obter mais informações sobre tipos de duração, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Visão Geral da Duração da Tarefa e do Tipo de Duração</a>.</p> </td> 
+   <td> <p>Especifique a quantidade de Horas Planejadas para a tarefa, em horas. Essa é a quantidade de tempo real que os atribuídos da tarefa levariam para concluí-la. Você só poderá especificar a quantidade de Horas Planejadas para uma tarefa quando o Tipo de Duração estiver definido como Atribuição Calculada. Para obter mais informações sobre tipos de duração, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Visão Geral da Duração da Tarefa e do Tipo de Duração</a>.</p> 
+   <b>Nota</b>
+   <p>
+   Ao criar tarefas recorrentes, as Horas planejadas são as de cada ocorrência. As horas planejadas das tarefas pai são o total de todas as horas planejadas de todas as ocorrências. Para obter informações sobre como criar tarefas recorrentes, consulte <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Criar tarefas recorrentes</a>.
+   </p>
+
+   </td> 
    </tr> 
    <tr> 
    <td role="rowheader">Alocação</td> 

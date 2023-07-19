@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,8 @@ ht-degree: 0%
 # Fazer logon como outro usuário
 
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ele está disponível para todos os usuários somente no ambiente de Pré-visualização.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
+
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
@@ -147,11 +148,13 @@ Ao fazer logon no Workfront como outro usuário e executar uma ação, o Workfro
 
 Por exemplo, se você comentar em um item enquanto estiver conectado como outro usuário, uma instrução indicará que o comentário foi feito por você em nome do usuário.
 
+<!--you might need to reword this note when we go to a global way for the update stream; or refer to areas where this is possible as something else than "New commenting" - not sure if this will affect areas that stay old, like iterations???-->
+
 >[!NOTE]
 >
-><span class="preview">Ao usar a nova experiência de comentários, o comentário é adicionado como o usuário que fez logon como outro usuário e não há indicação de que ele esteja adicionando um comentário em nome de outra pessoa.
+>Ao usar a nova experiência de comentários, o comentário é adicionado como o usuário que fez logon como outro usuário e não há indicação de que ele esteja adicionando um comentário em nome de outra pessoa.
 >
->Por exemplo, se um administrador do Workfront fizer logon como outro usuário, o usuário associado ao comentário será o administrador do Workfront. Para obter mais informações, consulte [Nova experiência de comentários](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+>Por exemplo, se um administrador do Workfront fizer logon como outro usuário, o usuário associado ao comentário será o administrador do Workfront. Para obter mais informações, consulte [Nova experiência de comentários](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 ### Exibir informações de auditoria {#view-audit-information}
