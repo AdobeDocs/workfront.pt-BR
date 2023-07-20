@@ -6,16 +6,14 @@ description: Planos, tipos de licença e acesso necessários Adobe Workfront Pla
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
 
 # Gerenciar um projeto na visualização Agile
-
-{{highlighted-preview}}
 
 <!--
 Required plans, license types, and access
@@ -82,7 +80,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 >[!NOTE]
 >
-><span class="preview">Esta seção se aplica somente à visualização Agile herdada, não à visualização de quadro de um projeto.</span>
+>Esta seção se aplica somente à visualização Agile herdada, não à visualização de quadro de um projeto.
 
 * [Funcionalidade Agile em um projeto](#agile-functionality-in-a-project)
 * [Diferenças ao usar a visualização Agile em um projeto ou em uma iteração](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration)
@@ -164,25 +162,19 @@ Para obter informações sobre como personalizar uma visualização ágil, consu
 ## Exibir um projeto na exibição Agile
 
 1. Vá para o projeto que deseja visualizar em uma visualização ágil.
-1. Clique em **Agile** ícone ![Ícone Agile](assets/agile-icon-nwe.png).
+1. Clique em **Quadro** ícone ![Ícone do painel](assets/board-icon-for-agile-view.png).
 
-   <span class="preview">Ou</span>
-
-   <span class="preview">Clique em **Quadro** ícone ![Ícone do painel](assets/board-icon-for-agile-view.png).</span>
-
-   O projeto é exibido na visualização ágil padrão.
-
-   <span class="preview">No ambiente de Pré-visualização, a visualização do quadro é exibida por padrão.</span>
+   A exibição de quadro do projeto é exibida por padrão.
 
    ![Exibição do painel do projeto](assets/project-agile-board-view.png)
 
-   (Somente visualização Agile herdada) Se você visualizou o projeto anteriormente em uma visualização Agile personalizada, o projeto será exibido nessa visualização, em vez da visualização Agile padrão.
+   <!--(Legacy agile view only) If you previously viewed the project in a custom agile view, the project is displayed in that view rather than in the default agile view.-->
 
-1. <span class="preview">(Opcional) Clique em **Configurar** para definir opções para as colunas e cartões.</span>
+1. (Opcional) Clique em **Configurar** para definir opções para as colunas e cartões.
 
-   <span class="preview">Para obter mais informações, consulte [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) e [Personalizar quais campos são exibidos em um cartão](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Observe que você não pode definir políticas de coluna na exibição de quadro de um projeto.</span>
+   Para obter mais informações, consulte [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) e [Personalizar quais campos são exibidos em um cartão](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Observe que você não pode definir políticas de coluna na exibição de quadro de um projeto.
 
-1. <span class="preview">(Opcional) Clique em **Usar ágil legado** para usar a visualização ágil herdada em vez da visualização de quadro.</span>
+1. (Opcional) Clique em **Usar ágil legado** para usar a visualização ágil herdada em vez da visualização de quadro.
 
 1. (Opcional - somente visualização ágil herdada) Se você tiver criado uma visualização ágil personalizada ou se outro usuário tiver criado uma visualização ágil personalizada e a compartilhou com você, você poderá visualizá-la em vez da visualização ágil padrão.
 
@@ -200,14 +192,13 @@ Para obter informações sobre como personalizar uma visualização ágil, consu
 
    Para adicionar status à visualização Agile, crie uma nova visualização Agile ou personalize uma visualização Agile existente, conforme descrito na seção &quot;Criar ou personalizar uma visualização Agile&quot; no artigo [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. (Opcional) Para retornar à exibição em lista, clique no link **Lista** ícone.\
-   ![Ícone de Lista](assets/list-icon.png)
+1. (Opcional) Para retornar à exibição em lista, clique no link **Lista** ícone.
 
 ## Criar e personalizar visualizações Agile {#create-and-customize-agile-views}
 
 >[!NOTE]
 >
-><span class="preview">Esta seção se aplica somente à visualização Agile herdada, não à visualização de quadro de um projeto.</span>
+>Esta seção se aplica somente à visualização Agile herdada, não à visualização de quadro de um projeto.
 
 Assim como com as exibições padrão no Workfront, você pode personalizar Exibições ágeis existentes ou criar novas Exibições ágeis do zero. Diferentemente das exibições padrão, não é possível criar novas Exibições ágeis com base em Exibições ágeis existentes.
 
@@ -217,7 +208,7 @@ Para obter mais informações sobre como criar e personalizar exibições Agile,
 
 >[!NOTE]
 >
-><span class="preview">Esta seção se aplica somente à visualização Agile herdada, não à visualização de quadro de um projeto.</span>
+>Esta seção se aplica somente à visualização Agile herdada, não à visualização de quadro de um projeto.
 
 Para obter informações sobre como compartilhar uma visualização ágil, consulte [Compartilhar um filtro, uma exibição ou um agrupamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
@@ -225,6 +216,6 @@ Para obter informações sobre como compartilhar uma visualização ágil, consu
 
 >[!NOTE]
 >
-><span class="preview">Esta seção se aplica somente à visualização Agile herdada, não à visualização de quadro de um projeto.</span>
+>Esta seção se aplica somente à visualização Agile herdada, não à visualização de quadro de um projeto.
 
 Para obter informações sobre como excluir uma exibição, consulte a seção &quot;Remover uma exibição&quot; no artigo [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).

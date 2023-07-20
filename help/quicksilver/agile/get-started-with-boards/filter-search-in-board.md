@@ -6,7 +6,7 @@ description: Você pode filtrar um quadro para exibir apenas determinados cartõ
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Filtrar e pesquisar em um quadro
-
-{{highlighted-preview}}
 
 Você pode filtrar um quadro para exibir:
 
@@ -26,7 +24,7 @@ Você pode filtrar um quadro para exibir:
 * Cartões arquivados
 * Cartões conectados a um projeto específico
 
-<span class="preview">A classificação do quadro classifica todos os cartões nas colunas. Não é possível classificar uma única coluna, e a coluna de backlog ou de entrada não é classificada.</span>
+A classificação do quadro classifica todos os cartões nas colunas. Não é possível classificar uma única coluna, e a coluna de backlog ou de entrada não é classificada.
 
 A pesquisa também ajuda a localizar um cartão específico no quadro.
 
@@ -110,8 +108,6 @@ Por padrão, somente os cartões ativos são exibidos em um quadro. Você pode f
 
    ![Filtrar por conexão](assets/boards-filter-by-connection.png)
 
-<div class="preview">
-
 ## Classificar em um quadro
 
 Quando você seleciona uma opção para classificar por, todas as colunas são classificadas. Não é possível classificar uma única coluna, e a coluna de backlog ou de entrada não é classificada.
@@ -130,8 +126,6 @@ Quando você seleciona uma opção para classificar por, todas as colunas são c
    Quando uma classificação diferente do padrão é aplicada, um indicador é exibido no ícone de classificação ![Classificação aplicada](assets/sort-applied-boards.png).
 
    ![Classificar por colunas em um quadro](assets/sort-by-columns-in-board.png)
-
-</div>
 
 ## Pesquisar em um quadro
 

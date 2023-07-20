@@ -6,16 +6,14 @@ description: Você pode personalizar o tipo de informação exibida na tela usan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1777'
 ht-degree: 1%
 
 ---
 
 # Criar ou editar exibições no Adobe Workfront
-
-{{highlighted-preview}}
 
 Você pode personalizar o tipo de informação exibida na tela usando visualizações. Você pode usar vários tipos de visualizações no Adobe Workfront.
 
@@ -150,16 +148,12 @@ Para obter mais informações sobre visualizações Agile, consulte o artigo [Ge
 
 >[!NOTE]
 >
-><span class="preview">Esse procedimento se aplica somente à visualização Agile herdada, não à visualização de quadro de um projeto.</span>
+>Esse procedimento se aplica somente à visualização Agile herdada, não à visualização de quadro de um projeto.
 
 Para criar ou personalizar uma visualização Agile:
 
 1. Vá para a lista de tarefas em um projeto.
-1. Clique em **Storyboard Agile** ícone ![Ícone Storyboard Agile](assets/agile-storyboard-nwe.png).
-
-   <span class="preview">Ou</span>
-
-   <span class="preview">Clique em **Quadro** ícone ![Ícone do painel](assets/board-icon-for-agile-view.png)e clique em **Usar ágil legado** na exibição do quadro.</span>
+1. Clique em **Quadro** ícone ![Ícone do painel](assets/board-icon-for-agile-view.png)e clique em **Usar ágil legado** na exibição do quadro.
 
 1. (Condicional) Para personalizar uma exibição Agile existente:
 
@@ -255,4 +249,4 @@ Para criar ou personalizar uma visualização Agile:
 1. Clique em **Salvar**.\
    Seu acesso determina como a visualização é salva. Se você criou a visualização originalmente, é possível salvar as alterações; caso contrário, será solicitado que você salve uma versão. Lembre-se de que as alterações feitas na exibição afetam os usuários com os quais a exibição foi compartilhada.
 
-1. (Opcional) Clique no link **Exibição de lista** ícone ![](assets/list-view-in-agile-view-for-tasks.png) para retornar à lista de tarefas.
+1. (Opcional) Clique no link **Lista** ícone para retornar à lista de tarefas.

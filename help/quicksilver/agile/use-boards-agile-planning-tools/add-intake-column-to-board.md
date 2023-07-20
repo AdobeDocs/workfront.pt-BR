@@ -7,9 +7,9 @@ description: Opcionalmente, é possível adicionar uma coluna de entrada ao quad
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 9b389a1d7116b15106d995fa1b08c09847aeb64d
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -52,10 +52,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 &#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
 
 ## Criar uma coluna de entrada usando filtros simples
-
->[!NOTE]
->
->Filtros simples só estão disponíveis através da aceitação antecipada de recursos para painéis do Adobe Workfront.
 
 1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **[!UICONTROL Quadros]**.
 1. Acessar um quadro. Para obter informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).

@@ -6,9 +6,9 @@ title: Aceitação antecipada de recursos para [!DNL Adobe Workfront] Quadros
 description: Leia este artigo para saber mais sobre [!DNL Workfront Boards] aceitação antecipada de recursos.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ A tabela a seguir descreve os principais recursos das placas, juntamente com o s
   </tr>
   <tr>
    <td>Definir notificações por email para Quadros</td>
-   <td>Parcialmente liberado</td>
+   <td>Lançado</td>
   </tr>
   <tr>
    <td>Migrar cartões Kanban herdados para Quadros</td>
@@ -166,19 +166,19 @@ A tabela a seguir descreve os principais recursos das placas, juntamente com o s
   </tr>
   <tr>
    <td>Criar painéis dinâmicos</td>
-   <td>Parcialmente liberado</td>
+   <td>Lançado</td>
   </tr>
   <tr>
    <td>Usar navegação à esquerda nos detalhes do cartão</td>
-   <td>Parcialmente liberado</td>
+   <td>Lançado</td>
   </tr>
   <tr>
    <td>Usar filtros simplificados na coluna de entrada</td>
-   <td>Parcialmente liberado</td>
+   <td>Lançado</td>
   </tr>
   <tr>
    <td>Usar comentários em cartões ad hoc e conectados</td>
-   <td>Parcialmente liberado</td>
+   <td>Lançado</td>
   </tr>
  </tbody> 
 </table>

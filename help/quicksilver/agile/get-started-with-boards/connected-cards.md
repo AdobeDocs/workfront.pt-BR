@@ -6,9 +6,9 @@ description: Você pode adicionar um cartão ao seu quadro conectado a tarefas e
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 4b006b18b0532d3162be2361807962986d5e2e1b
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1415'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -146,11 +146,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comentários]</strong></td>
       <td><p>Clique em <strong>[!UICONTROL Novo comentário]</strong> e digite seu comentário. Use as ferramentas de formatação para formatar o texto e clique no <strong>Adicionar anexo</strong> ícone <img src="assets/attachment-icon.png" alt="Ícone de anexo"> para anexar um arquivo ao comentário. Para marcar uma pessoa ou equipe, use a caixa de pesquisa na parte inferior da área de comentários. O usuário não precisa ser membro do painel. Os usuários marcados em cartões conectados receberão notificações por email.</p><p>Clique em <strong>[!UICONTROL Enviar]</strong> para adicionar o comentário ao cartão.</p>
-      <p><strong>NOTA:</strong> A área de comentários nos cartões usa a nova experiência de comentários do Adobe Workfront. Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Atualizar trabalho</a>.</p><p><strong>NOTA:</strong> Os comentários sobre cartões estão disponíveis apenas por meio da opção de inclusão antecipada para painéis do Workfront.</p></td>
+      <p><strong>NOTA:</strong> A área de comentários nos cartões usa a nova experiência de comentários do Adobe Workfront. Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Atualizar trabalho</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Atividade do sistema]</strong></td> 
-      <td><p>Se você tiver <strong>Atividade do sistema</strong> ativada como uma seção de cartão, a atividade é exibida nesta área.</p> <p>Para obter mais informações, consulte <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Personalizar quais campos são exibidos em um cartão</a> e <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">Atualizações rastreadas pelo sistema</a>.</p><p><strong>NOTA:</strong> A atividade do sistema só está disponível através da inclusão antecipada de recursos para as placas Workfront.</p></td>
+      <td><p>Se você tiver <strong>Atividade do sistema</strong> ativada como uma seção de cartão, a atividade é exibida nesta área.</p> <p>Para obter mais informações, consulte <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Personalizar quais campos são exibidos em um cartão</a> e <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">Atualizações rastreadas pelo sistema</a>.</p></td>
      </tr>     
     </tbody> 
    </table>

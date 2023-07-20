@@ -6,9 +6,9 @@ title: Notificações e preferências de email dos painéis
 description: Os Adobe Workfront Boards enviam um email quando você é adicionado a um quadro e quando um cartão é atribuído a você.
 author: Lisa
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: bda865111eacf5df874a09f184db039b5f837765
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '153'
 ht-degree: 1%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 1%
 # Notificações e preferências de email dos painéis
 
 [!DNL Adobe Workfront] [!UICONTROL Quadros] O envia um email quando você é adicionado a um quadro e quando um cartão é atribuído a você. As notificações são ativadas por padrão e você pode selecionar em suas preferências de Quadros quais emails deseja receber.
-
->[!NOTE]
->
->As notificações por email estão disponíveis somente através da opção de inclusão antecipada dos painéis do Workfront.
 
 ## Requisitos de acesso
 
