@@ -4,9 +4,10 @@ navigation-topic: create-tasks
 title: Criar tarefas recorrentes
 description: É possível criar tarefas recorrentes para tarefas que você precisa repetir como parte de um único projeto.
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -66,7 +67,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    >[!TIP]
    >
-   >   A Duração e as Horas planejadas indicadas para uma nova tarefa recorrente são a Duração e as Horas planejadas de cada recorrência. A Duração da tarefa pai é o tempo entre a Data de Início Planejada da tarefa mais antiga e a Data de Conclusão Planejada da tarefa mais recente. As Horas Planejadas da tarefa pai é o total de todas as Horas Planejadas de todas as recorrências.
+   >   A Duração e as Horas planejadas indicadas para uma nova tarefa recorrente são a Duração e as Horas planejadas de cada ocorrência. A Duração da tarefa pai é o tempo entre a Data de Início Planejada da tarefa mais antiga e a Data de Conclusão Planejada da tarefa mais recente. As Horas Planejadas da tarefa pai é o total de todas as Horas Planejadas de todas as ocorrências.
 
 1. Clique em **Visão geral** no painel esquerdo.
 1. Role para baixo até **Agendamento recorrente** e selecione o **Tornar esta uma tarefa recorrente** opção.

@@ -6,12 +6,13 @@ navigation-topic: manage-tasks
 title: Visão geral das tarefas recorrentes
 description: Visão geral das tarefas recorrentes
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '679'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -60,11 +61,11 @@ Considere o seguinte ao criar tarefas recorrentes no Workfront:
 
       * Simples
       * Controlado pelo empenho
-* A Duração e as Horas planejadas indicadas para uma nova tarefa recorrente são a Duração e as Horas planejadas de cada recorrência. A Duração da tarefa pai é o tempo entre a Data de Início Planejada da tarefa mais antiga e a Data de Conclusão Planejada da tarefa mais recente. As Horas Planejadas da tarefa pai é o total de todas as Horas Planejadas de todas as recorrências.
+* A Duração e as Horas planejadas indicadas para uma nova tarefa recorrente são a Duração e as Horas planejadas de cada ocorrência. A Duração da tarefa pai é o tempo entre a Data de Início Planejada da tarefa mais antiga e a Data de Conclusão Planejada da tarefa mais recente. As Horas Planejadas da tarefa pai é o total de todas as Horas Planejadas de todas as ocorrências.
 
 ## Considerações para edição de tarefas recorrentes
 
-Algumas alterações feitas em uma tarefa pai recorrente podem não ser atualizadas em todas as recorrências existentes. As tarefas filho que mostrarem progresso ou tiverem sido atualizadas individualmente não serão atualizadas quando você atualizar o pai. A Workfront considera que uma tarefa mostra o progresso nas seguintes situações:
+Algumas alterações feitas em uma tarefa pai recorrente podem não ser atualizadas em todas as ocorrências existentes. As tarefas filho que mostrarem progresso ou tiverem sido atualizadas individualmente não serão atualizadas quando você atualizar o pai. A Workfront considera que uma tarefa mostra o progresso nas seguintes situações:
 
 * O status é atualizado e a tarefa não é mais Nova
 * A Porcentagem Concluída da tarefa é maior que zero
@@ -75,14 +76,14 @@ A tabela a seguir ilustra se as alterações feitas nas atualizações do aciona
 | Campos atualizados na tarefa pai | Transferência de atualizações para filhos não editados ou filhos sem progresso registrado |
 |---|---|
 | Frequência de recorrência* | ✔ |
-| Atribuições&#42;&#42; | ✔ |
+| Atribuições | ✔ |
 | Nome | ✔ |
 | Descrição | ✔ |
 | Prioridade | ✔ |
 | Duração | ✔ |
 | Horas planejadas | ✔ |
 | Tipo de Custo | ✔ |
-| Tipo de receita | ✔ |
+| Tipo de Receita | ✔ |
 | Nivelamento de recurso | ✔ |
 | Atraso de Nivelamento | ✔ |
 | Restrição de Tarefa | Não atualiza os filhos |
