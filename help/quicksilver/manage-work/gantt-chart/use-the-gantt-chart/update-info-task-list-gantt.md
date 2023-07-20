@@ -6,9 +6,9 @@ description: O Gráfico de Gantt da lista de tarefas mostra detalhes sobre taref
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1036'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ Você deve ter o seguinte para seguir as etapas deste artigo:
 
    A variável **[!UICONTROL Salvamento automático]** for selecionada por padrão, nesse caso, todas as alterações serão salvas automaticamente.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![Clique no ícone Gráfico de Gantt](assets/click-gantt-chart-icon.png)
 
 1. (Opcional) Clique no link **[!UICONTROL Modo de plano]** e selecione **[!UICONTROL Salvamento manual padrão]** ou **[!UICONTROL Planejamento da linha do tempo]** para salvar as alterações manualmente.
 
@@ -131,7 +131,7 @@ Você deve ter o seguinte para seguir as etapas deste artigo:
 
    Todas as alterações são salvas automaticamente quando o **[!UICONTROL Salvamento automático]** está ativada. Ela é ativada por padrão.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![Clique no ícone Gráfico de Gantt](assets/click-gantt-chart-icon.png)
 
 1. (Opcional) Clique no link **[!UICONTROL Modo de plano]** e selecione **[!UICONTROL Salvamento manual padrão]** ou **[!UICONTROL Planejamento da linha do tempo]** para salvar as alterações manualmente.
 
@@ -178,7 +178,7 @@ Você deve ter o seguinte para seguir as etapas deste artigo:
 1. Vá para o projeto que deseja modificar.
 1. No **[!UICONTROL Tarefas]** clique na guia **[!UICONTROL Gráfico de Gantt]** ícone.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![Clique no ícone Gráfico de Gantt](assets/click-gantt-chart-icon.png)
 
    Todas as alterações são salvas automaticamente quando o **[!UICONTROL Salvamento automático]** está ativada. Ela é ativada por padrão.
 
