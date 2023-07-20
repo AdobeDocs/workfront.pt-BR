@@ -7,7 +7,7 @@ description: Você pode escolher se deseja receber a nova funcionalidade do Work
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9f6338dc79740e13b71e9266fed17f6dc61039e1
+source-git-commit: 9ebcbf43d4cf84d1f68aeff7e443f41193a9fe76
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -15,8 +15,6 @@ ht-degree: 1%
 ---
 
 # Habilitar ou desabilitar versões rápidas para sua organização
-
-{{highlighted-preview-article-level}}
 
 A Adobe Workfront tem dois modelos para lançar novos recursos e atualizações. Você pode escolher se deseja receber novas funcionalidades trimestralmente ou em uma programação de lançamento mais rápida.
 
