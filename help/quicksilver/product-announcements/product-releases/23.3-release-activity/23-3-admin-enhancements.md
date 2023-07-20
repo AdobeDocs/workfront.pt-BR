@@ -3,16 +3,16 @@ title: 23.3 Aprimoramentos do administrador
 description: 23.3 Aprimoramentos do administrador
 author: Lisa
 feature: Product Announcements
-source-git-commit: f49f1275ec0911cc05a74c694436bf654a02bfe2
+source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
 
 # 23.3 Aprimoramentos do administrador
 
-Esta página descreve todas as melhorias de administrador feitas com a versão 23.3 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão 23.3.
+Esta página descreve todas as melhorias de administrador feitas na versão 23.3. Essas melhorias foram disponibilizadas no ambiente de Produção com a versão 23.3 do em 20 e 21 de julho de 2023.
 
 Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo de versão 23.3, consulte [23.3 Visão geral da versão](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 

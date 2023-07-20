@@ -4,20 +4,18 @@ description: Visão geral da versão 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: bcb657df8b38c6bdea5c24a917a9adad51da017d
+source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
 workflow-type: tm+mt
-source-wordcount: '2657'
+source-wordcount: '2648'
 ht-degree: 0%
 
 ---
 
 # Visão geral da versão 23.3
 
-Esta página fornece informações sobre a funcionalidade incluída na versão 23.3 do programada para a semana de 17 de julho de 2023.
+Esta página fornece informações sobre a funcionalidade incluída na versão 23.3 do. Essas melhorias foram disponibilizadas no ambiente de Produção com a versão 23.3 do em 20 e 21 de julho de 2023.
 
-As melhorias nesta página estão disponíveis no ambiente de Pré-visualização. Esta página será atualizada com melhorias adicionais à medida que a versão 23.3 se aproximar da versão de Produção planejada.
-
-O webinário da versão 23.3 do será realizado em 29 de junho de 2023. Você pode [inscreva-se aqui para o webinário](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
+O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2023. Você pode [cadastre-se no webinário para ver uma gravação sob demanda aqui](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
 <span class="preview">Os recursos fora do ciclo (aqueles que estão sendo lançados para produção antes da data de lançamento da versão 23.3) estão destacados em amarelo.</span>
 
@@ -116,7 +114,7 @@ O webinário da versão 23.3 do será realizado em 29 de junho de 2023. Você po
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">A Exibição Agile de um projeto exibe um quadro kanban</a><span style="color: #ff0000;"> Novo na visualização!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">A Exibição Agile de um projeto exibe um quadro kanban</a></p>
                         <p>A Exibição Agile de um projeto agora inclui funcionalidades adicionais para filtrar, agrupar e classificar trabalho em um quadro kanban. O novo design flexível da visualização inclui um recurso de pesquisa robusto e a capacidade de adicionar novas tarefas ao projeto diretamente do quadro.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -132,7 +130,7 @@ O webinário da versão 23.3 do será realizado em 29 de junho de 2023. Você po
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Classificar por colunas do quadro</a><span style="color: #ff0000;"> Novo na visualização!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Classificar por colunas do quadro</a></p>
                         <p>Adicionamos a capacidade de classificar os cartões nas colunas em um quadro. Quando você seleciona uma opção para classificar por, todas as colunas são classificadas. Não é possível classificar uma única coluna, e a coluna de backlog ou de entrada não é classificada.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -189,7 +187,7 @@ O webinário da versão 23.3 do será realizado em 29 de junho de 2023. Você po
                                 <p>Versão de pré-visualização: 15 de junho de 2023</p>
                             </li>
                             <li>
-                                 <p>Versão de produção para aceitação antecipada: 22 de junho de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na produção somente por meio da aceitação antecipada de recursos para placas Workfront.</span></p>
+                                 <p>Versão de produção para aceitação antecipada: 22 de junho de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na Produção nessa data somente por meio da aceitação antecipada do recurso para placas Workfront.</span></p>
                                 <p>Versão de produção para todos os clientes: com a versão 23.3</p>
                             </li>
                         </ul>
@@ -222,7 +220,7 @@ O webinário da versão 23.3 do será realizado em 29 de junho de 2023. Você po
                                 <p>Versão de pré-visualização: 10 de maio de 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Versão de produção para aceitação antecipada: 10 de maio de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na produção somente por meio da aceitação antecipada de recursos para placas Workfront.</span></p>
+                                 <p>Versão de produção para aceitação antecipada: 10 de maio de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na Produção nessa data somente por meio da aceitação antecipada do recurso para placas Workfront.</span></p>
                                 <p>Versão de produção para todos os clientes: com a versão 23.3</p>
                             </li>
                         </ul>
@@ -239,7 +237,7 @@ O webinário da versão 23.3 do será realizado em 29 de junho de 2023. Você po
                                 <p>Versão de pré-visualização: 27 de abril de 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Versão de produção para aceitação antecipada: 28 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na produção somente por meio da aceitação antecipada de recursos para placas Workfront.</span></p>
+                                 <p>Versão de produção para aceitação antecipada: 28 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na Produção nessa data somente por meio da aceitação antecipada do recurso para placas Workfront.</span></p>
                                 <p>Versão de produção para todos os clientes: com a versão 23.3</p>
                             </li>
                         </ul>
@@ -256,7 +254,7 @@ O webinário da versão 23.3 do será realizado em 29 de junho de 2023. Você po
                                 <p>Versão de pré-visualização: 20 de abril de 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Versão de produção para aceitação antecipada: 28 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na produção somente por meio da aceitação antecipada de recursos para placas Workfront.</span></p>
+                                 <p>Versão de produção para aceitação antecipada: 28 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na Produção nessa data somente por meio da aceitação antecipada do recurso para placas Workfront.</span></p>
                                 <p>Versão de produção para todos os clientes: com a versão 23.3</p>
                             </li>
                         </ul>
@@ -273,7 +271,7 @@ O webinário da versão 23.3 do será realizado em 29 de junho de 2023. Você po
                                 <p>Versão de pré-visualização: 20 de abril de 2023<br /></p>
                             </li>
                             <li>
-                                 <s><p>Versão de produção para aceitação antecipada: 28 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na produção somente por meio da aceitação antecipada de recursos para placas Workfront.</span></p></s>
+                                 <s><p>Versão de produção para aceitação antecipada: 28 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na Produção nessa data somente por meio da aceitação antecipada do recurso para placas Workfront.</span></p></s>
                                  </li>
                                  <li>
                                 <p><span class="preview">Versão de produção para todos os clientes: 18 de maio de 2023</span></p>
@@ -308,7 +306,7 @@ O webinário da versão 23.3 do será realizado em 29 de junho de 2023. Você po
                                 <p>Versão de pré-visualização: 13 de abril de 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Versão de produção para aceitação antecipada: 13 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na produção somente por meio da aceitação antecipada de recursos para placas Workfront.</p>
+                                 <p>Versão de produção para aceitação antecipada: 13 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na Produção nessa data somente por meio da aceitação antecipada do recurso para placas Workfront.</p>
                                 <p>Versão de produção para todos os clientes: com a versão 23.3</p>
                             </li>
                         </ul>
@@ -335,7 +333,7 @@ O webinário da versão 23.3 do será realizado em 29 de junho de 2023. Você po
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Taxas de custo e faturamento efetivas na data</a><span style="color: #ff0000;"> Novo na visualização!</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Taxas de custo e faturamento efetivas na data</a></p>
                         <p>As taxas de custo e cobrança com data efetiva estão agora disponíveis nos objetos de empresa, usuário e função de trabalho na Workfront. Quando taxas de efetivação de data são aplicadas a um projeto e horas são registradas em tarefas do projeto, os custos e a receita são calculados usando as taxas especificadas para cada período.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -346,7 +344,7 @@ O webinário da versão 23.3 do será realizado em 29 de junho de 2023. Você po
                             <li>
                                 <p>Versão de produção para clientes da versão rápida: a ser anunciada, após a versão de produção 23.3</p>
                                 <p>Versão de produção para todos os clientes: com a versão 23.4<br>
-                                <span style="color: #ff0000;"> O recurso de substituição de taxa de atribuição foi temporariamente desabilitado na Pré-visualização de 30 de junho a 13 de julho de 2023.</span></p>
+                                O recurso de substituição de taxa de atribuição foi temporariamente desabilitado na Pré-visualização de 30 de junho a 13 de julho de 2023.</p>
                             </li>
                         </ul>
                     </td>
@@ -606,7 +604,7 @@ O webinário da versão 23.3 do será realizado em 29 de junho de 2023. Você po
                 </tr>
             <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nova experiência na página inicial</a><span style="color: #ff0000;"> Novo na visualização!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nova experiência na página inicial</a></p>
                         <p>Para capacitar melhor os usuários de todos os tipos a utilizar o Workfront para suas necessidades específicas, a Página inicial recebeu uma atualização importante! A nova experiência da Página inicial oferece personalização visual e de conteúdo para sua Página inicial, proporcionando flexibilidade para exibir somente as informações mais relevantes ao seu trabalho.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
