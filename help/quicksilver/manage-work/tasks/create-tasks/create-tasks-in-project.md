@@ -6,9 +6,9 @@ description: Você só pode criar tarefas em um projeto depois de criá-lo.
 author: Alina
 feature: Work Management
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: af6e906035073cde4782b73bdab39b02026cb20a
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '792'
 ht-degree: 1%
 
 ---
@@ -23,8 +23,8 @@ Para obter informações sobre como criar tarefas pessoais que não estão em um
 
 Este artigo descreve como criar tarefas do zero. Você também pode criar tarefas das seguintes maneiras:
 
-* Copiando ou duplicando tarefas existentes. Para obter informações, consulte [Copiar e duplicar tarefas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
-* Movendo tarefas de um projeto para outro. Para obter informações, consulte [Mover tarefas](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+* Copiando ou duplicando tarefas existentes. Para obter informações, consulte [Copiar e duplicar tarefas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+* Movendo tarefas de um projeto para outro. Para obter informações, consulte [Mover tarefas](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Requisitos de acesso
 
@@ -89,7 +89,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. (Condicional) Se você estiver visualizando a lista de tarefas em uma exibição ágil, clique no link **Exibição de lista** ícone ![](assets/list-view-in-agile-view-for-tasks.png) no canto superior direito para exibir a lista de tarefas.
 1. (Opcional) Clique no link **Modo de plano** ícone ![](assets/nwe-plan-mode-icon-task-list.png) e selecione **Salvamento manual** e selecione **Padrão** ou **Planejamento da linha do tempo**. Isso desativa o **Salvamento automático** que está ativada por padrão.
 
-   ![](assets/nwe-autosave-off-manual-highlighted-350x58.png)
+   ![Selecione Salvar manualmente](assets/manual-save-option.png)
 
    >[!TIP]
    >

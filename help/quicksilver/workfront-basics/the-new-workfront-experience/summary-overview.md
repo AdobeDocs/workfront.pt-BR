@@ -4,9 +4,9 @@ title: Visão geral do resumo
 description: Você pode usar o painel Resumo para revisar e atualizar informações sobre o item de trabalho diretamente de uma lista de tarefas, problemas, documentos ou de outras áreas do [!DNL Adobe Workfront] que exibem tarefas e problemas.
 feature: Get Started with Workfront
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '896'
 ht-degree: 2%
 
 ---
@@ -116,21 +116,21 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >
    >Você só pode selecionar uma tarefa ou um problema de cada vez para ver seus detalhes na [!UICONTROL Resumo] painel.
 
-   ![](assets/summary-overview--open-task-from-summary-icon-350x112.png)
+   ![Painel Resumo](assets/summary-panel-for-task.png)
 
 1. (Opcional) Para fechar o [!UICONTROL Resumo] , siga um destes procedimentos:
 
    * Em uma lista de tarefas ou problemas, clique no botão **[!UICONTROL Abrir resumo]** ícone ![](assets/summary-panel-icon.png)
 
-      Ou
+     Ou
 
-      Clique em **X** no canto superior direito da caixa [!UICONTROL Resumo] painel.
+     Clique em **X** no canto superior direito da caixa [!UICONTROL Resumo] painel.
 
    * No [!UICONTROL Enviado] seção do [!UICONTROL Solicitações] clique na guia **[!UICONTROL Fechar resumo]** ícone ![](assets/close-summary-with-text-nwe.png)
 
-      Ou
+     Ou
 
-      Clique em **X** no canto superior direito do painel Resumo.
+     Clique em **X** no canto superior direito do painel Resumo.
 
 ## [!UICONTROL Percentual concluído]
 
