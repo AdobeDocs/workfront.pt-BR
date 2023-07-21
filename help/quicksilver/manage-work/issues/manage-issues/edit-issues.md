@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '2467'
+source-wordcount: '2493'
 ht-degree: 3%
 
 ---
@@ -201,7 +201,8 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
 
    <b>DICA</b>
 
-   Ao adicionar um usuário de contato principal, observe o avatar, a função principal do usuário e seu endereço de email para distinguir entre usuários com nomes idênticos. Os usuários devem ser associados a pelo menos uma função de trabalho para visualizá-la à medida que forem adicionados.
+   <p>Ao adicionar um usuário de contato principal, observe o avatar, a função principal do usuário e seu endereço de email para distinguir entre usuários com nomes idênticos. Os usuários devem ser associados a pelo menos uma função de trabalho para visualizá-la à medida que forem adicionados.</p>
+      <p> Você deve ter a configuração Exibir informações de contato ativada no seu nível de acesso para que os usuários visualizem os emails dos usuários. Para obter informações, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Conceder acesso aos usuários</a>.</p>
 
 
    </td> 
