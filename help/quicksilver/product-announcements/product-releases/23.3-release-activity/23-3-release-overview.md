@@ -4,9 +4,9 @@ description: Visão geral da versão 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2704'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,22 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                             </li>
                             <li>
                                 <p><span class="preview">Versão de produção: 18 de maio de 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Exibir lógica e ignorar indicadores e regras de lógica exibidos no designer de formulário beta</a></p>
+                        <p>O beta público do designer de formulário foi reativado na Pré-visualização e Produção em 21 de julho de 2023. Além disso, agora é possível visualizar as regras de lógica existentes criadas em formulários personalizados herdados no designer de formulários.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 21 de julho de 2023</p>
+                            </li>
+                            <li>
+                                <p>Versão de produção: 21 de julho de 2023</p>
                             </li>
                         </ul>
                     </td>

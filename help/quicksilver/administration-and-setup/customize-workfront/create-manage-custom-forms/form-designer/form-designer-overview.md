@@ -4,22 +4,18 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Você pode criar um formulário personalizado que os usuários podem anexar a um objeto do Workfront. Os usuários que trabalham no objeto podem preencher o formulário personalizado para fornecer informações sobre o objeto.
-author: Courtney
+author: Courtney / Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 1%
+source-wordcount: '606'
+ht-degree: 0%
 
 ---
 
 # Visão geral do designer do formulário
-
->[!IMPORTANT]
->
->O designer do formulário foi temporariamente desativado em 24 de maio de 2023. Você pode usar o criador de formulários herdados para criar e editar seus formulários personalizados. Consulte [Criar ou editar um formulário personalizado com o construtor de formulários herdado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md).
 
 Você pode usar o novo designer de formulário para criar um formulário personalizado que os usuários podem anexar a um objeto do Workfront. Os usuários que trabalham no objeto podem preencher o formulário personalizado para fornecer informações sobre o objeto.
 
@@ -31,7 +27,7 @@ O novo designer de formulário tem um novo espaço de trabalho no estilo da tela
 
 Há um novo botão na parte superior do novo designer de formulário e do construtor de formulários herdado. Você pode usar esse botão para alternar entre o construtor herdado e o novo designer.
 
-![](assets/switch-views.png)
+![Mudar para o novo designer de formulário](assets/switch-views.png)
 
 ## Nova funcionalidade disponível com o designer de formulário
 
@@ -43,9 +39,9 @@ Com o novo designer de formulários, adicionamos a capacidade de
 
 * **Usar uma seção padrão**: se o criador do formulário não tiver adicionado uma seção na parte superior do formulário, uma seção Padrão agora estará visível na tela, para que os usuários possam ajustar as permissões para campos que não tenham uma seção personalizada atribuída.
 
-   >[!NOTE]
-   >
-   >A seção padrão não fica visível dentro dos objetos depois que o formulário é anexado ao objeto.
+  >[!NOTE]
+  >
+  >A seção padrão não fica visível dentro dos objetos depois que o formulário é anexado ao objeto.
 
 ## Funcionalidade em breve
 
@@ -59,6 +55,20 @@ Os itens a seguir não estão disponíveis no momento no designer do formulário
 >
 >As configurações existentes para filtros de lógica e digitação antecipada não serão afetadas ao trabalhar com o novo designer de formulário.
 
+### Lógica de exibição/salto
+
+Embora ainda não seja possível adicionar a lógica de exibição/salto ao criar um novo formulário personalizado, é possível exibir a lógica de exibição/salto existente nos formulários criados no construtor de formulários herdado.
+
+Os ícones em um campo no designer do formulário indicam que a lógica é aplicada ao campo.
+
+A variável **D** O ícone na parte inferior esquerda significa que o campo é o campo de destino da lógica de exibição (se uma seleção específica for feita no formulário, esse campo será exibido). A variável **D** O ícone na parte inferior direita significa que o campo é usado para definir a lógica de exibição (uma seleção ou um valor específico nesse campo exibirá o campo de destino).
+
+A variável **S** O ícone na parte inferior esquerda significa que o campo é o campo de destino para a lógica de salto (se uma seleção específica for feita no formulário, o formulário pulará adiante para esse campo). A variável **S** O ícone na parte inferior direita significa que o campo é usado para definir a lógica de salto (uma seleção específica ou um valor neste campo ignorará outros campos e irá diretamente para o campo de destino).
+
+Selecionar um campo com lógica aplicada exibe as regras de lógica existentes nas configurações do campo.
+
+![Regras lógicas](assets/form-designer-view-only-logic.png)
+
 ## Funcionalidade removida do designer do formulário
 
 Removemos as seguintes funcionalidades do designer de formulário interno:
@@ -69,11 +79,12 @@ Removemos as seguintes funcionalidades do designer de formulário interno:
    * As configurações de formulário agora estão disponíveis na parte superior da tela
 
    * Guia principal Compartilhamento de formulário e subguia Compartilhamento de campo
-   >[!NOTE]
-   >
-   >É possível controlar o compartilhamento de formulários e campos na guia Configurar > Forms personalizado > Forms ou Campos.
+
+  >[!NOTE]
+  >
+  >É possível controlar o compartilhamento de formulários e campos na guia Configurar > Forms personalizado > Forms ou Campos.
 
 * Rastrear alterações de campo nos campos de atualização
-   >[!NOTE]
-   >
-   >Você pode encontrar isso em Configuração > Interface > Feeds de atualização
+  >[!NOTE]
+  >
+  >Você pode encontrar isso em Configuração > Interface > Feeds de atualização

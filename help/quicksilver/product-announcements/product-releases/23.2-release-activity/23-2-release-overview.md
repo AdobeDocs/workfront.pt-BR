@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2751'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ No lugar de um webinário de lançamento, convidamos você a se registrar no Ado
                             </li>
                             <li>
                                  <p>Versão de produção: com a versão 23.2<br />
-                                 <span style="color: #ff0000;">O designer de formulário beta foi temporariamente desativado na Pré-visualização e Produção em 24 de maio de 2023.</span></p>
+                                 <span style="color: #ff0000;">O designer de formulário beta foi temporariamente desativado na Pré-visualização e Produção de 24 de maio a 21 de julho de 2023.</span></p>
                             </li>
                         </ul>
                     </td>
@@ -97,7 +97,7 @@ No lugar de um webinário de lançamento, convidamos você a se registrar no Ado
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Renomear pinos no modelo de layout</span></a>
-                        </span></a><p>Agora é possível renomear fixações em um modelo de layout para ter mais significado para seus usuários, em vez de usar o nome padrão para a página fixada. Os fixadores criados pelos administradores são exibidos para todos os usuários atribuídos ao modelo de layout e os usuários não podem renomeá-los.</p>
+                        <p>Agora é possível renomear fixações em um modelo de layout para ter mais significado para seus usuários, em vez de usar o nome padrão para a página fixada. Os fixadores criados pelos administradores são exibidos para todos os usuários atribuídos ao modelo de layout e os usuários não podem renomeá-los.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -480,7 +480,7 @@ No lugar de um webinário de lançamento, convidamos você a se registrar no Ado
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Coleções biométricas de logon e painéis no aplicativo móvel</span></a>
-                        </span></a><p>O logon biométrico agora é uma opção para fazer logon mais rápido no aplicativo móvel! Depois que a verificação biométrica for configurada após um logon inicial, os usuários poderão usar o reconhecimento de impressão digital ou facial para fazer logon rapidamente no aplicativo com apenas uma reverificação ocasional de senha. Além disso, haverá várias melhorias na aparência e comportamento da experiência de logon geral, chegando em uma atualização posterior.</p>
+                        <p>O logon biométrico agora é uma opção para fazer logon mais rápido no aplicativo móvel! Depois que a verificação biométrica for configurada após um logon inicial, os usuários poderão usar o reconhecimento de impressão digital ou facial para fazer logon rapidamente no aplicativo com apenas uma reverificação ocasional de senha. Além disso, haverá várias melhorias na aparência e comportamento da experiência de logon geral, chegando em uma atualização posterior.</p>
                         <p>As coleções de quadros agora também são compatíveis com o aplicativo móvel, permitindo que os usuários móveis visualizem quaisquer coleções às quais tenham acesso na versão para desktop da lista de Quadros móveis.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -592,7 +592,7 @@ No lugar de um webinário de lançamento, convidamos você a se registrar no Ado
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Exportar pranchetas como um único PDF ou vários arquivos PDF no Adobe Workfront para XD</span></a>
-                        </span></a><p>No plug-in Adobe Workfront for XD, agora é possível exportar as pranchetas como um único arquivo de PDF ou vários arquivos de PDF.</p>
+                        <p>No plug-in Adobe Workfront for XD, agora é possível exportar as pranchetas como um único arquivo de PDF ou vários arquivos de PDF.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>

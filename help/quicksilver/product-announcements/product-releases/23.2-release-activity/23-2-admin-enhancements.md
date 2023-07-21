@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
-source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,6 @@ Para obter mais informações sobre essa funcionalidade no Experience Manager As
 Para obter mais informações sobre essa funcionalidade no Experience Manager Assets Essentials, [Configurar a integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Criar formulários personalizados com o novo designer de formulário beta
-
->[!IMPORTANT]
->
->O designer de formulário beta foi temporariamente desativado em 24 de maio de 2023. Você pode usar o criador de formulários herdados para criar e editar seus formulários personalizados. Consulte [Criar ou editar um formulário personalizado com o construtor de formulários herdado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md).
 
 Agora disponível em uma versão beta pública, o novo designer de formulário tem um novo espaço de trabalho no estilo da tela de desenho que permite exibir os campos, a tela de desenho e as configurações de campo, tudo ao mesmo tempo.
 
