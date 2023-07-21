@@ -8,9 +8,9 @@ author: Courtney / Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
+source-git-commit: ad04b732adac345bc015bb290dfd12898bb0a604
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,11 @@ Embora ainda não seja possível adicionar a lógica de exibição/salto ao cria
 
 Os ícones em um campo no designer do formulário indicam que a lógica é aplicada ao campo.
 
-A variável **D** O ícone na parte inferior esquerda significa que o campo é o campo de destino da lógica de exibição (se uma seleção específica for feita no formulário, esse campo será exibido). A variável **D** O ícone na parte inferior direita significa que o campo é usado para definir a lógica de exibição (uma seleção ou um valor específico nesse campo exibirá o campo de destino).
+A variável ![Lógica de exibição para campo de destino](assets/display-logic-bottom-left.png) O ícone na parte inferior esquerda significa que o campo é o campo de destino da lógica de exibição (se uma seleção específica for feita no formulário, esse campo será exibido). A variável ![Definir ícone da lógica de exibição](assets/display-logic-bottom-right.png) O ícone na parte inferior direita significa que o campo é usado para definir a lógica de exibição (uma seleção ou um valor específico nesse campo exibirá o campo de destino).
 
-A variável **S** O ícone na parte inferior esquerda significa que o campo é o campo de destino para a lógica de salto (se uma seleção específica for feita no formulário, o formulário pulará adiante para esse campo). A variável **S** O ícone na parte inferior direita significa que o campo é usado para definir a lógica de salto (uma seleção específica ou um valor neste campo ignorará outros campos e irá diretamente para o campo de destino).
+A variável ![Lógica de salto para o campo de destino](assets/skip-logic-bottom-left.png) O ícone na parte inferior esquerda significa que o campo é o campo de destino para a lógica de salto (se uma seleção específica for feita no formulário, o formulário pulará adiante para esse campo). A variável ![Definir ícone para ignorar a lógica](assets/skip-logic-bottom-right.png) O ícone na parte inferior direita significa que o campo é usado para definir a lógica de salto (uma seleção específica ou um valor neste campo ignorará outros campos e irá diretamente para o campo de destino).
+
+![Ícones lógicos](assets/logic-icons-3.png)
 
 Selecionar um campo com lógica aplicada exibe as regras de lógica existentes nas configurações do campo.
 
