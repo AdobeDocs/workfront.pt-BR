@@ -7,9 +7,9 @@ description: Você pode compartilhar e revisar vários tipos de arquivos com seu
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Você pode compartilhar e revisar vários tipos de arquivos com seus revisores, 
 O Workfront tem os seguintes limites:
 
 * Os arquivos devem ter menos de 4 GB por arquivo.
-* Os arquivos do Microsoft Word (DOC, DOCX) e PowerPoint (PPT, PPTX) devem ter menos de 512 MB.
+* Os arquivos do Microsoft Word (DOC, DOCX) e PowerPoint (PPT, PPTX) devem ter menos de 512 MB. (Isso também se aplica ao desarquivamento de provas desses tipos de arquivos criados antes da implementação do limite de tamanho.)
 * Os arquivos XLS e XLSX devem ter menos de 100 MB.
 * Os arquivos anexados a comentários sobre provas devem ter menos de 30 MB.
 * PNGs devem ter altura e largura inferiores a 65535px.
@@ -180,11 +180,15 @@ O Workfront tem os seguintes limites:
 > * XLT - Modelo do Microsoft Excel
 > * XLTX - Modelo do Microsoft Excel
 
+>[!WARNING]
+> Não há suporte temporário para o seguinte tipo de arquivo estático devido a um problema de segurança:
+>
+> * EPS - PostScript encapsulado
+
 * AI - Arte do Adobe Illustrator
 * AIT - Modelo do Adobe Illustrator
 * DOC - Documento do Microsoft Word
 * DOCX - Documento do Microsoft Word
-* EPS - PostScript encapsulado
 * PDF - Arquivo de documento portátil Adobe
 * PPT - Apresentação do PowerPoint
 * PPTX - PowerPoint Presentation 2007 PS - PostScript File (PPTX - Apresentação do PowerPoint 2007 PS - Arquivo PostScript)

@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">História</td> 
-       <td> <p>Adicione um texto que contextualize as informações no relatório.</p> <p>Para obter mais informações, consulte [eventual link].</p> </td> 
+       <td> <p>Adicione um texto que contextualize as informações no relatório.</p> </td> 
       </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader">Conteúdo da Web</td> 
@@ -61,7 +61,7 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Filtro de tela de desenho</td> 
-       <td> <p>Adicione um filtro que permita aos usuários observar diferentes aspectos de um relatório. Esse filtro se aplica a todos os dados no relatório.</p> <p>Para obter mais informações, consulte [eventual link].</p> </td> 
+       <td> <p>Adicione um filtro que permita aos usuários observar diferentes aspectos de um relatório. Esse filtro se aplica a todos os dados no relatório.</p> </td> 
       </tr>
     </tbody> 
    </table>
@@ -107,7 +107,7 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
      </tr> 
      <tr> 
       <td role="rowheader">Marcar o relatório como favorito</td> 
-      <td>Depois de sair do painel de edição, clique no botão <strong>Estrela</strong> ícone [icon] ao lado do nome do relatório para adicioná-lo à lista de relatórios favoritos.</td> 
+      <td>Depois de sair do painel de edição, clique no botão <strong>Estrela</strong> ícone ao lado do nome do relatório para adicioná-lo à lista de relatórios favoritos.</td> 
      </tr> 
     </tbody> 
    </table>
