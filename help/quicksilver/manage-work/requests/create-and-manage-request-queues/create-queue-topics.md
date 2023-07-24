@@ -4,11 +4,12 @@ navigation-topic: create-and-manage-request-queues
 title: Criar Tópicos de Fila
 description: Tópicos de fila trabalham em conjunto com Regras de roteamento para atribuir automaticamente o trabalho recebido a um usuário, função de trabalho, equipe ou para colocá-lo em um projeto. Os Tópicos de Fila definem as condições que precisam existir para que a Regra de Encaminhamento seja implementada.
 author: Alina
-feature: Work Management
+feature: Work Management, Requests
+role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '890'
 ht-degree: 3%
 
 ---
@@ -140,14 +141,18 @@ Você deve ter o seguinte:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Tipos de solicitação</strong> </td> 
-      <td> <p>Escolha que tipo de solicitações este tópico da fila armazena. As opções visíveis são definidas no <strong>Detalhes da fila</strong> do projeto. Este campo é obrigatório. </p> <p>Observação: Os Tipos de Solicitação são exibidos como uma seleção na área Solicitações somente se o Tipo de Solicitação for selecionado nas páginas Detalhes da Fila e Tópico da Fila. Para obter informações sobre como configurar a área Detalhes da fila de um projeto, consulte <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Criar uma fila de solicitações</a>. </p> <p>Selecione entre os seguintes tipos:</p> 
-       <ul> 
-        <li>Registro de Defeito</li> 
-        <li>Pedido de alteração</li> 
-        <li>Problema</li> 
-        <li>Solicitar</li> 
-       </ul> <p>O administrador do Workfront pode ter renomeado algumas dessas opções. </p> </td> 
-     </tr> 
+      <td> <p>Escolha que tipo de solicitações este tópico da fila armazena. As opções visíveis são definidas no <strong>Detalhes da fila</strong> do projeto. Este campo é obrigatório. </p>
+
+   <p><b>Nota</b>:
+
+   Os tipos são exibidos como uma seleção na área Solicitações somente se o Tipo de solicitação for selecionado nas páginas Detalhes da fila e Tópico da fila. Para obter informações sobre como configurar a área Detalhes da fila de um projeto, consulte <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Criar uma fila de solicitações</a>. </p> <p>Selecione entre os seguintes tipos:</p>
+   <ul>
+   <li>Registro de Defeito</li>
+   <li>Pedido de alteração</li>
+   <li>Problema</li>
+   <li>Solicitar</li>
+   </ul> <p>O administrador do Workfront pode ter renomeado algumas dessas opções. </p> </td>
+   </tr> 
     </tbody> 
    </table>
 

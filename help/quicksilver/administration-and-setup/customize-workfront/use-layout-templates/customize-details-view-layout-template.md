@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -35,9 +35,12 @@ Após configurar um modelo de layout, você deve atribuí-lo aos usuários para 
 
 As alterações feitas na view Detalhes de um objeto também determinam a disponibilidade e a ordem dos campos que os usuários veem nas seguintes áreas:
 
-* Caixas &quot;Novo objeto&quot;, como Nova tarefa e Novo problema
+<!-- the New box is not affected by the LT yet. Might be in the future. Commenting this one out for now: 
+* "New object" boxes, such as New Task and New Issue
 
   ![](assets/new-task-dialog.png)
+
+-->
 
 * Telas &quot;Editar objeto&quot;, como Editar tarefa, Editar problema e Editar projeto
 

@@ -1,23 +1,25 @@
 ---
 product-area: requests
 navigation-topic: create-and-manage-request-queues
-title: Criar regras de roteamento
-description: As Regras de Roteamento controlam o que o Adobe Workfront faz com problemas quando são submetidos a uma Fila de Solicitações. Para obter mais informações sobre como criar Filas de solicitações, consulte Criar uma fila de solicitações.
+title: Criar Regras de Encaminhamento
+description: As Regras de Encaminhamento controlam o que o Adobe Workfront faz com os problemas quando eles são enviados para uma Fila de solicitações. Para obter mais informações sobre como criar Filas de solicitações, consulte Criar uma fila de solicitações.
 author: Alina
-feature: Work Management
+feature: Work Management, Requests
+topic: Collaboration
+role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 2%
 
 ---
 
-# Criar regras de roteamento
+# Criar Regras de Encaminhamento
 
-As regras de roteamento controlam o que o Adobe Workfront faz com problemas quando são enviados para uma fila de solicitações. Para obter mais informações sobre como criar Filas de Solicitação, consulte [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+As regras de roteamento controlam o que o Adobe Workfront faz com os problemas quando são enviadas para uma fila de solicitações. Para obter mais informações sobre como criar Filas de solicitações, consulte [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-As regras de roteamento enviam problemas para usuários específicos ou funções de trabalho mais bem equipadas para resolver o problema ou a solicitação enviada. As regras de roteamento geralmente são associadas a tópicos da fila, que são usados para controlar qual regra de roteamento será aplicada à emissão ou solicitação.
+As regras de roteamento enviam problemas para usuários específicos ou funções de trabalho mais bem equipadas para resolver o problema ou a solicitação enviada. As regras de roteamento geralmente são associadas a tópicos de fila, que são usados para controlar qual regra de roteamento será aplicada à ocorrência ou solicitação.
 
 ## Requisitos de acesso
 
@@ -58,7 +60,7 @@ Você deve ter o seguinte:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> <p>Qualquer Um </p> </td> 
   </tr> 
   <tr> 
@@ -67,9 +69,9 @@ Você deve ter o seguinte:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a Projetos</p> <p><b>Nota</b>
+   <td> <p>Editar acesso a projetos</p> <p><b>Nota</b>
 
-Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
+Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -78,14 +80,14 @@ Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele defi
  </tbody> 
 </table>
 
-*Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront
+*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront
 
-## Criar uma regra de roteamento
+## Criar uma Regra de Encaminhamento
 
 1. Vá para o projeto ao qual deseja adicionar as regras de roteamento para suas solicitações.
-1. Clique em **Regras de roteamento** no painel esquerdo. Talvez seja necessário clicar em **Mostrar mais**, em seguida **Regras de roteamento**.
-1. Clique em **Novas Regras de Roteamento** para adicionar a nova regra.
-1. Especifique as seguintes informações para a Regra de Roteamento:
+1. Clique em **Regras de Encaminhamento** no painel esquerdo. Talvez seja necessário clicar em **Mostrar mais**, depois **Regras de Encaminhamento**.
+1. Clique em **Novas Regras de Encaminhamento** para adicionar a nova regra.
+1. Especifique as seguintes informações para a Regra de Encaminhamento:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -95,7 +97,7 @@ Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele defi
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Nome</strong> </td> 
-      <td> <p>O nome da regra de roteamento. Você pode ver a regra de roteamento se tiver acesso para ver essas informações no projeto.</p> </td> 
+      <td> <p>O nome da regra de roteamento. Você poderá ver a regra de roteamento se tiver acesso para ver essas informações no projeto.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Descrição</strong> </td> 
@@ -103,7 +105,7 @@ Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele defi
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Atribuidor padrão*</strong> </td> 
-      <td>Adicione um usuário ativo ou uma função de trabalho ativa para a qual os novos problemas devem ser atribuídos. Você só pode ter um destinatário padrão neste campo. </td> 
+      <td>Adicione um usuário ativo ou uma função de trabalho ativa à qual os novos problemas devem ser atribuídos. Você só pode ter um destinatário padrão nesse campo. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Equipe padrão*</strong> </td> 
@@ -111,29 +113,29 @@ Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele defi
 
    <p><b>Nota</b></p>
 
-   Depois que o problema for enviado, você poderá editar suas atribuições e atribuir outros usuários, funções ou equipes. Para obter mais informações, consulte  <a href="../../../manage-work/issues/manage-issues/assign-issues.md">Atribuir problemas </a>.
+   Depois que o problema for enviado, você poderá editar suas atribuições e atribuir outros usuários, funções ou equipes. Para obter informações, consulte  <a href="../../../manage-work/issues/manage-issues/assign-issues.md">Atribuir problemas </a>.
 
    </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Roteamento para o Projeto</strong> </td> 
-      <td>Este é o projeto ao qual o problema é adicionado.</td> 
+      <td>Este é o projeto no qual o problema é adicionado.</td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!NOTE]
    >
-   >*Se um usuário, uma função de trabalho ou uma equipe forem desativados depois de serem associados a uma regra de roteamento, as solicitações continuarão a ser roteadas para elas. Você deve fazer periodicamente um inventário de todas as regras de roteamento e substituir atribuições desativadas por atribuições ativas.
+   >*Se um usuário, função de trabalho ou equipe for desativado depois de ser associado a uma regra de roteamento, as solicitações continuarão a ser encaminhadas para eles. Periodicamente, você deve fazer um inventário de todas as regras de roteamento e substituir atribuições desativadas por ativas.
 
-   Quando você direciona um problema para um projeto, os usuários com permissões sobre o problema recebem as permissões definidas nesse projeto. Para obter informações sobre como definir permissões em projetos, consulte [Compartilhar um projeto no Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+   Ao rotear um problema para um projeto, os usuários com permissões sobre o problema recebem as permissões definidas nesse projeto. Para obter informações sobre como configurar permissões em projetos, consulte [Compartilhar um projeto no Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
    ![](assets/new-routing-rule-box-nwe-350x419.png)
 
 1. Clique em **Salvar**.
 
-   Esse processo só define a Regra de Roteamento. Para garantir que o problema seja roteado quando for enviado para a fila de solicitações, você deve selecionar a regra de roteamento no **Detalhes da fila** guia em **Rota padrão**.
+   Esse processo define apenas a Regra de Encaminhamento. Para garantir que a ocorrência seja roteada quando for enviada para a fila de solicitações, você deverá selecionar a regra de roteamento no **Detalhes da fila** em **Rota Padrão**.
 
-   Para obter informações sobre como adicionar uma Rota Padrão a uma fila de solicitações, consulte [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Para obter informações sobre como adicionar uma Rota padrão a uma fila de solicitações, consulte [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-   Se quiser associar várias regras de roteamento à fila de solicitações, crie vários tópicos de fila e associe cada um a uma regra de roteamento separada. Para obter mais informações sobre como criar um tópico de fila, consulte [Criar Tópicos da Fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+   Se quiser associar várias regras de roteamento à fila de solicitações, você deverá criar vários tópicos de fila e associar cada um a uma regra de roteamento separada. Para obter mais informações sobre como criar um tópico de fila, consulte [Criar Tópicos de Fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
