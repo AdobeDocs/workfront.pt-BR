@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: e6f5f09876afad6979e3ff05c152f561a3632701
+source-git-commit: 38e548594b37ef3109d7df436955a5255881bb6d
 workflow-type: tm+mt
-source-wordcount: '13126'
+source-wordcount: '13125'
 ht-degree: 1%
 
 ---
@@ -447,7 +447,7 @@ ht-degree: 1%
          * [Como funcionam os novos níveis de acesso](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
          * [Visão geral dos novos níveis de acesso](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
          * [Visão geral de novas licenças](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-         * [Acesso a objetos e áreas pelo para novas licenças](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+         * [Acesso a objetos e áreas por novas licenças](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
          * [Funcionalidade disponível para cada tipo de objeto para novos níveis de acesso](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
          * [Desabilitar a opção de atualização automática para usuários não pagos no novo plano de licenciamento](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
       * Como os níveis de acesso funcionam {#legacy-access-levels}
@@ -1875,7 +1875,7 @@ ht-degree: 1%
       * [Definir tipos de horas e disponibilidade para folhas de horas](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
       * [Criar uma planilha de horas de uso único](timesheets/create-and-manage-timesheets/create-tmshts.md)
       * [Editar informações da folha de horas](timesheets/create-and-manage-timesheets/edit-timesheets.md)
-      * [Registrar tempo](timesheets/create-and-manage-timesheets/log-time.md)
+      * [Registrar de tempo](timesheets/create-and-manage-timesheets/log-time.md)
       * [Enviar uma planilha de horas para aprovação](timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md)
       * [Aprovar uma planilha de horas](timesheets/create-and-manage-timesheets/timesheet-approvals.md)
       * [Exibir horas totais na folha de horas](timesheets/create-and-manage-timesheets/view-total-hours-timesheets.md)
