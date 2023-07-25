@@ -6,14 +6,20 @@ description: Siga estas dicas para atualizar sem problemas sua organização par
 author: Becky
 feature: Product Announcements
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
+source-git-commit: 062ab8f2acfa2d5c43b333f8ee95fef817fd4fce
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
 
 # Preparar-se para um [!DNL Adobe Workfront] lançamento programado
+
+>[!NOTE]
+>
+>A Workfront oferece dois modelos para o lançamento de novos recursos e atualizações. Sua organização pode escolher se deseja receber novas funcionalidades trimestralmente ou em uma programação de lançamento mais rápida. O processo de preparação para uma versão é semelhante, independentemente do modelo usado por sua organização.
+>
+>Para obter uma explicação detalhada dos dois modelos de versão, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 [!DNL Adobe Workfront] O lança atualizações importantes no ambiente de produção regularmente. Como um [!DNL Workfront] administrador, você tem a oportunidade de garantir que sua organização tenha uma transição suave para cada nova versão do [!DNL Workfront] produto.
 
@@ -50,7 +56,7 @@ Recomendamos que você considere algumas ou todas as seguintes ações que podem
 
 As notas de versão para determinado recurso são publicadas quando ele vai para a sua [!UICONTROL Visualizar sandbox] ambiente. Dessa forma, você pode conhecer e explorar o recurso antes que ele faça parte do ambiente de produção.
 
-Cada versão do tem uma página de visão geral da versão com descrições breves de cada recurso e links para notas mais detalhadas que contêm informações adicionais, bem como vídeos de demonstração. Essas notas detalhadas são organizadas por semana, à medida que ocorrem as versões para visualização, e são reorganizadas por área mais próxima da data real de lançamento da Produção.
+Cada versão do tem uma página de visão geral da versão com descrições breves de cada recurso e links para notas mais detalhadas que contêm informações adicionais, bem como vídeos de demonstração. Essas notas detalhadas são organizadas por semana, à medida que ocorrem as versões para visualização, e são reorganizadas por área mais próxima da data real de lançamento trimestral da Produção.
 
 É altamente recomendável assistir aos vídeos de demonstração disponíveis nas notas de versão. Eles podem ser especialmente úteis para ver o recurso em ação ou para dar uma olhada rápida no contexto do recurso se você estiver com pouco tempo.
 
@@ -78,7 +84,7 @@ Como um [!DNL Workfront] administrador, você receberá uma mensagem do Centro d
 
 ### Explore o [!UICONTROL Visualizar sandbox] ambiente
 
-A variável [!UICONTROL Visualizar sandbox] também conhecido como [!UICONTROL Visualizar] , serve como um ambiente em que os usuários em sua organização podem testar e trabalhar com segurança com uma cópia separada de seus dados do ambiente de produção. [!UICONTROL Workfront] O lança novos recursos e funcionalidades no ambiente de Pré-visualização bem antes de serem lançados para o ambiente de Produção. Você tem a oportunidade de se familiarizar com esses recursos antes que eles sejam lançados nos fluxos de trabalho diários de seus usuários. Em seguida, se os usuários tiverem dificuldade em aproveitar os novos recursos, você poderá ajudá-los a se adaptar mais facilmente.
+A variável [!UICONTROL Visualizar sandbox] também conhecido como [!UICONTROL Visualizar] , serve como um ambiente em que os usuários em sua organização podem testar e trabalhar com segurança com uma cópia separada de seus dados do ambiente de produção. [!UICONTROL Workfront] O geralmente lança novos recursos e funcionalidades no ambiente de Pré-visualização pelo menos duas semanas antes de serem lançados para o ambiente de Produção. Você tem a oportunidade de se familiarizar com esses recursos antes que eles sejam lançados nos fluxos de trabalho diários de seus usuários. Em seguida, se os usuários tiverem dificuldade em aproveitar os novos recursos, você poderá ajudá-los a se adaptar mais facilmente.
 
 >[!TIP]
 >
