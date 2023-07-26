@@ -2,25 +2,26 @@
 filename: change-date-format-chrome
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: Alterar o formato das datas em [!DNL Adobe Workfront]
-description: Alteração do formato de data para as datas em [!DNL Adobe Workfront] você deve alterar as configurações de idioma no seu navegador.
+title: Alterar o formato de datas no [!DNL Adobe Workfront]
+description: Para alterar o formato de data para as datas em [!DNL Adobe Workfront] você deve alterar as configurações de idioma no navegador.
+feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
 
 ---
 
-# Alterar o formato das datas em [!DNL Adobe Workfront]
+# Alterar o formato de datas no [!DNL Adobe Workfront]
 
 <!--this article used to be called "Change the date format in Adobe Workfront when using Chrome". The team decieded to make it more generic and hide the steps. Also see drafted content below-->
 
-Alteração do formato das datas em [!DNL Adobe Workfront], como [!UICONTROL Data de Conclusão Planejada], [!UICONTROL Data de conclusão real]ou [!UICONTROL Data de Conclusão Projetada], de DD/MM/AAAA a MM/DD/AAAA ou vice-versa, por exemplo, você deve alterar as configurações de idioma no navegador.
+Para alterar o formato de datas em [!DNL Adobe Workfront], como [!UICONTROL Data de Término Planejada], [!UICONTROL Data de término efetivo]ou [!UICONTROL Data de Término Projetada], de DD/MM/AAAA a MM/DD/AAAA ou vice-versa, por exemplo, você deve alterar as configurações de idioma no navegador.
 
-Se o idioma padrão em seu navegador estiver definido como *[!UICONTROL Inglês (Estados Unidos)]*, as datas são exibidas no formato MM/DD/AAAA .
+Se o idioma padrão do navegador estiver definido como *[!UICONTROL Inglês (Estados Unidos)]*, as datas são exibidas no formato MM/DD/AAAA.
 
-Para alterar as configurações de idioma em [!DNL Chrome] Para qualquer outro navegador, você deve modificar as configurações desse navegador. As etapas para modificar as configurações de um navegador variam de navegador para navegador. Consulte o [!UICONTROL Ajuda], [!UICONTROL Preferências]ou [!UICONTROL Configurações] para saber como modificar suas configurações.
+Para alterar as configurações de idioma no [!DNL Chrome] ou qualquer outro navegador, você deve modificar as configurações desse navegador. As etapas para modificar as configurações de um navegador variam de um navegador para outro. Consulte o do seu navegador [!UICONTROL Ajuda], [!UICONTROL Preferências]ou [!UICONTROL Configurações] áreas para saber como modificar suas configurações.
 
 <!--drafted because we should not document steps for a third-party application
 

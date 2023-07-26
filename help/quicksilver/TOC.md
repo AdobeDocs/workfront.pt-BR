@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 5c47b09550c54b7ea4f8319bb42e93572e06324b
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '13127'
+source-wordcount: '13125'
 ht-degree: 1%
 
 ---
@@ -676,7 +676,7 @@ ht-degree: 1%
          * [Configurar preferências de tarefas de grupo e problemas](administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
          * [Desbloquear a configuração de preferências de subgrupo](administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)
          * [Preferências de Horas e Planilha de Horas do Grupo](administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md)
-         * [Desbloquear planilha de horas e preferência de horas](administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md)
+         * [Desbloquear a preferência de horas e planilhas de horas](administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md)
          * [Mover um grupo](administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md)
          * [Desativar ou reativar um grupo](administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)
          * [Excluir um grupo](administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
@@ -2583,7 +2583,6 @@ ht-degree: 1%
       * [Visão geral](proofhq-api/general/overview.md)
       * [Amostras de código](proofhq-api/general/code-samples.md)
       * [Perguntas frequentes sobre a API SOAP](proofhq-api/general/soap-api-faqs.md)
-* [Arquivo oculto](hidden-test.md)
 
 <!--
 Moved and commented out sections from line 1477 - I believe the entire section is duped but need to verify

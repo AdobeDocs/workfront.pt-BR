@@ -7,8 +7,9 @@ navigation-topic: apps-and-their-modules
 title: Módulos FTP
 description: Os módulos FTP permitem monitorar as alterações de arquivos em uma pasta selecionada, fazer upload de novos arquivos para a pasta desejada e modificar ou excluir arquivos existentes que já estão em uma pasta.
 author: Becky
+feature: Workfront Fusion
 exl-id: 360825a4-4580-4039-894e-583e82132ed6
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 0%

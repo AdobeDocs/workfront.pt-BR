@@ -1,11 +1,12 @@
 ---
 title: '[!DNL Adobe Workfront] documentação'
 description: Documentação para [!DNL Adobe Workfront].
+feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 757fcb4dae232e90850b77a7d77c23e181519183
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -15,7 +16,7 @@ Bem-vindo à página inicial da documentação técnica e do produto do Adobe Wo
 
 Use os seguintes documentos, tutoriais e recursos adicionais do Adobe Workfront para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 
-As seções a seguir apontam para links úteis neste guia, organizados por público-alvo com base em funções de trabalho típicas:
+As seguintes seções apontam para links úteis neste guia, organizados por público-alvo com base em funções de trabalho típicas:
 
 ## Administradores
 
@@ -27,7 +28,7 @@ Consulte [Introdução à administração do Adobe Workfront](/help/quicksilver/
 
 ### Adobe Workfront Fusion
 
-O Workfront Fusion conecta seus aplicativos e serviços da Web de maneira simples, para que você possa se concentrar em novas tarefas em vez de repetir as mesmas tarefas várias vezes.
+O Workfront Fusion conecta perfeitamente seus aplicativos e serviços da Web para que você possa se concentrar em novas tarefas, em vez de repetir as mesmas tarefas repetidamente.
 
 Consulte [Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/workfront-fusion-2.md).
 
@@ -35,31 +36,31 @@ Consulte [Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/workfront-f
 
 ### Noções básicas para usuários
 
-Comece a usar o Workfront dominando as noções básicas.
+Introdução ao Workfront dominando as noções básicas.
 
 Consulte [Noções básicas do Adobe Workfront](/help/quicksilver/workfront-basics/workfront-basics.md).
 
-### Ágil no Workfront
+### Agile no Workfront
 
-A funcionalidade ágil no Workfront permite que as equipes concluam pequenas quantidades de trabalho gerenciáveis em um ritmo consistente.
+A funcionalidade Ágil do Workfront permite que as equipes concluam trabalhos pequenos e gerenciáveis em uma cadência consistente.
 
-Consulte [Visão geral ágil](/help/quicksilver/agile/agile-overview.md).
+Consulte [Visão geral do Agile](/help/quicksilver/agile/agile-overview.md).
 
-### Relatório do modo de texto
+### Relatórios do modo de texto
 
-Se você não conseguir descobrir como criar o relatório necessário no Workfront, a solução que está procurando pode ser encontrada usando o Modo de texto.
+Se você não conseguir descobrir como criar o relatório necessário no Workfront, a solução que você está procurando pode ser encontrada usando o Modo de texto.
 
 Consulte [Recursos do modo de texto](/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md).
 
-### O Balanceador de Carga de Trabalho
+### O Balanceador de carga de trabalho
 
-Use o Balanceador de Carga de Trabalho como uma alternativa para programar recursos no Workfront.
+Use o Balanceador de carga de trabalho como uma alternativa para agendar recursos no Workfront.
 
-Consulte [O Balanceador de Carga de Trabalho](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
+Consulte [O Balanceador de carga de trabalho](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
 
 ### Informações sobre a versão do Workfront
 
-Saiba todos os detalhes sobre as novidades do Workfront!
+Saiba mais sobre todas as novidades do Workfront.
 
 Consulte [Versões de produto do Workfront](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
@@ -67,12 +68,12 @@ Consulte [Versões de produto do Workfront](/help/quicksilver/product-announceme
 
 ### Noções básicas sobre API
 
-Saiba mais sobre as noções básicas da API do Workfront.
+Aprenda os conceitos básicos da API do Workfront.
 
-Consulte [Noções básicas da API](/help/quicksilver/wf-api/general/api-basics.md).
+Consulte [Noções básicas sobre API](/help/quicksilver/wf-api/general/api-basics.md).
 
 ### API Explorer
 
-É possível exibir todos os objetos que estão disponíveis por meio da API do Adobe Workfront no API Explorer.
+Você pode exibir todos os objetos que estão disponíveis por meio da API do Adobe Workfront no explorador de API.
 
 Consulte a [Workfront API Explorer em developer.adobe.com](https://developer.adobe.com/workfront/api-explorer/).

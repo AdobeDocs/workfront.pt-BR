@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Excluir um campo ou widget personalizado do sistema
 description: Para melhorar o desempenho do sistema e facilitar o uso de formulários para os usuários, remova campos e widgets personalizados do seu sistema quando eles não estiverem mais sendo usados.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: f43a0aae33b96f5a061d9134122078d73fc21e40
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
@@ -74,8 +74,8 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
       * Se estiver usando o construtor de formulários personalizado, consulte [Reutilizar um campo ou widget personalizado em um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
       * Se o designer do formulário for usado, consulte [Adicionar campos novos ou existentes ao formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form).
-   1. Salve o novo formulário personalizado.
 
+   1. Salve o novo formulário personalizado.
 
 1. Limite o acesso ao formulário personalizado a usuários com acesso administrativo, conforme descrito em [Compartilhar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
 1. Aplique o novo formulário personalizado aos objetos em que o formulário personalizado original já está aplicado, conforme descrito em [Adicionar um formulário personalizado a um objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).

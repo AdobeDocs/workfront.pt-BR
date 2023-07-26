@@ -1,34 +1,34 @@
 ---
-title: Renomear um formulário personalizado com o designer de formulário
+title: Renomear um formulário personalizado com o designer do formulário
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: É possível renomear formulários personalizados existentes com o designer de formulários.
+description: É possível renomear formulários personalizados existentes com o designer do formulário.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
+# Renomear um formulário personalizado com o designer do formulário
 
-# Renomear um formulário personalizado com o designer de formulário
-
-É possível renomear um formulário personalizado a qualquer momento depois de ele ter sido criado com o designer de formulário.
+É possível renomear um formulário personalizado a qualquer momento após sua criação com o designer do formulário.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte para executar as etapas neste artigo:
+Você deve ter o seguinte para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Plano Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>plano do Adobe Workfront*</p> </td> 
    <td>Qualquer Um</td> 
   </tr> 
   <tr> 
@@ -36,7 +36,7 @@ Você deve ter o seguinte para executar as etapas neste artigo:
    <td>
    <p>Plano atual: Padrão</p>
    <p>ou</p>
-   <p>Plano herdado: Plano</p></td> 
+   <p>Plano herdado: plano</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
@@ -45,22 +45,22 @@ Você deve ter o seguinte para executar as etapas neste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir que plano, tipo de licença ou configurações de nível de acesso você possui, entre em contato com o administrador da Workfront.
+&#42;Para descobrir quais configurações de plano, tipo de licença ou nível de acesso você tem, entre em contato com o administrador do Workfront.
 
-## Renomear um formulário personalizado com o designer de formulário
+## Renomear um formulário personalizado com o designer do formulário
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, em seguida, clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
 
-1. Clique em **Forms personalizada** no painel esquerdo.
+1. Clique em **Forms personalizado** no painel esquerdo.
 
-   Na exibição exibida, é possível revisar todos os formulários personalizados que foram criados para sua organização. Você também pode ver quem criou cada formulário, com qual tipo de objeto ele funciona e se ele está ativo.
+   Na exibição exibida, você pode revisar todos os formulários personalizados que foram criados para sua organização. Você também pode ver quem criou cada formulário, com que tipo de objeto ele funciona e se ele está ativo.
 
 1. Selecione o formulário personalizado que deseja renomear e clique em **Editar**.
 1. Para alterar o título, clique no nome do formulário.
-1. Para alterar a descrição, clique na caixa de texto descrição.
+1. Para alterar a descrição, clique na caixa de texto de descrição.
 
 1. Clique em **Salvar e fechar**.
 
    >[!TIP]
    >
-   >Você pode clicar em **Aplicar** em qualquer momento durante a criação de um formulário personalizado para salvar suas alterações e manter o formulário aberto.
+   >Você pode clicar em **Aplicar** a qualquer momento enquanto estiver criando um formulário personalizado para salvar suas alterações e manter o formulário aberto.

@@ -3,36 +3,37 @@ filename: document-webhooks-api
 content-type: api
 product-area: documents
 navigation-topic: workfront-api
-title: Visão geral da API do Document Webhooks
-description: Tópicos da API do Document Webhooks
+title: Visão geral da API de webhooks do documento
+description: Tópicos da API de webhooks do documento
 author: Becky
+feature: Workfront API
 exl-id: e946c988-6a97-4ef1-a381-4b3bd10ced99
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
 
 ---
 
-# Visão geral da API do Document Webhooks
+# Visão geral da API de webhooks do documento
 
 Esta seção contém os seguintes artigos:
 
-* [Visão geral dos Webhooks](../../wf-api/doc-wbhks-api/webhooks-overview.md)
+* [Visão geral do Webhooks](../../wf-api/doc-wbhks-api/webhooks-overview.md)
 * [Registrar uma integração do Webhook](../../wf-api/doc-wbhks-api/register-webhook-integration.md)
-* [Autenticação para Webhooks de Documento](../../wf-api/doc-wbhks-api/auth-for-docu-webhook.md)
+* [Autenticação para webhooks de documentos](../../wf-api/doc-wbhks-api/auth-for-docu-webhook.md)
 * [Obter tokens do OAuth2](../../wf-api/doc-wbhks-api/get-oath-token-webhooks.md)
-* [Obter metadados para um arquivo ou pasta](../../wf-api/doc-wbhks-api/get-metadata-file-folder.md)
+* [Obter metadados de um arquivo ou pasta](../../wf-api/doc-wbhks-api/get-metadata-file-folder.md)
 * [Obter lista de itens do conteúdo da pasta](../../wf-api/doc-wbhks-api/get-list-folder-contents.md)
-* [Pesquisar via Webhooks do Documento](../../wf-api/doc-wbhks-api/docu-webhook-search.md)
-* [Obter conteúdo de documento via Webhooks](../../wf-api/doc-wbhks-api/get-docu-content-webhook.md)
+* [Pesquisar por webhooks de documentos](../../wf-api/doc-wbhks-api/docu-webhook-search.md)
+* [Obter conteúdo de documento por meio de Webhooks](../../wf-api/doc-wbhks-api/get-docu-content-webhook.md)
 * [Obter uma miniatura de um documento](../../wf-api/doc-wbhks-api/get-thmbnl-doc.md)
-* [Upload de arquivo via Webhooks de documento](../../wf-api/doc-wbhks-api/file-upload-docu-webhook.md)
-* [Criar uma pasta com Webhooks de documento](../../wf-api/doc-wbhks-api/create-folder-docu-webhook.md)
-* [Excluir um documento ou pasta (ainda não implementado)](../../wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
+* [Upload de arquivo por meio de webhooks de documentos](../../wf-api/doc-wbhks-api/file-upload-docu-webhook.md)
+* [Criar uma pasta com webhooks de documento](../../wf-api/doc-wbhks-api/create-folder-docu-webhook.md)
+* [Excluir um documento ou uma pasta (Ainda não implementado)](../../wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
 * [Obter informações sobre o serviço (ainda não implementado)](../../wf-api/doc-wbhks-api/get-service-info-webhook.md)
-* [Renomear um documento ou pasta (ainda não implementado)](../../wf-api/doc-wbhks-api/rename-docu-or-folder.md)
+* [Renomear um documento ou uma pasta (ainda não implementado)](../../wf-api/doc-wbhks-api/rename-docu-or-folder.md)
 * [Executar uma ação personalizada (ainda não implementada)](../../wf-api/doc-wbhks-api/perform-custom-action.md)
-* [Tratamento de Erros de Webhooks de Documentos](../../wf-api/doc-wbhks-api/docu-webhooks-errors.md)
+* [Tratamento de erros de webhooks de documentos](../../wf-api/doc-wbhks-api/docu-webhooks-errors.md)
 * [Testar conexões do Webhook](../../wf-api/doc-wbhks-api/test-webhook-connections.md)
-* [API de Webhooks de documento](../../wf-api/doc-wbhks-api/docu-webhook-api.md)
+* [API de webhooks do documento](../../wf-api/doc-wbhks-api/docu-webhook-api.md)

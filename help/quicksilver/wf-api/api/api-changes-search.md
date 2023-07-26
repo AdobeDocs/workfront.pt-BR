@@ -3,29 +3,30 @@ filename: api-changes-search
 content-type: api
 keywords: objeto,status,pesquisa,melhor,prática,resposta
 navigation-topic: api-navigation-topic
-title: "Alterações na API principal: Respostas de pesquisa de status"
-description: Alterações na maneira como o Workfront armazena objetos de status.
+title: "Alterações na API principal: respostas de pesquisa de status"
+description: Alterações na forma como o Workfront armazena objetos de status.
+feature: Workfront API
 exl-id: 322f1525-d1d5-4845-a590-e34eb94ccdc2
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 1%
 
 ---
 
-# Alterações na API principal: Respostas de pesquisa de status
+# Alterações na API principal: respostas da pesquisa de status
 
-Foram feitas alterações na maneira como o Workfront armazena objetos de status. Essas alterações não afetam como as solicitações de pesquisa de status são feitas, mas afetarão a resposta retornada pelas solicitações de API que incluem uma pesquisa por objetos de status retornando uma lista incompleta de status de grupo.
+Foram feitas alterações no modo como o Workfront armazena objetos de status. Essas alterações não afetam como as solicitações de pesquisa de status são feitas, mas afetarão a resposta retornada pelas solicitações de API que incluem uma pesquisa por objetos de status retornando uma lista incompleta de status de grupo.
 
 ## Práticas recomendadas
 
-Para obter com confiança a lista completa de status disponíveis para um grupo, as seguintes solicitações são consideradas práticas recomendadas.
+Para obter de maneira confiável a lista completa de status disponíveis para um grupo, as solicitações a seguir são consideradas práticas recomendadas.
 
 >[!NOTE]
 >
->Essas estruturas de solicitação são recomendadas para todos os usuários, independentemente de as alterações de pesquisa de status terem ou não sido feitas no cluster.
+>Essas estruturas de solicitação são recomendadas para todos os usuários independentemente de as alterações na pesquisa de status terem ou não sido feitas no cluster.
 
-Para Status do Grupo de Projetos:
+Para Status do Grupo de Projeto:
 
 >**Exemplo:**
 
@@ -49,9 +50,9 @@ Para Status do Grupo de Problemas:
 /attask/api/<VERSION>/CSTEM/opTaskGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d
 ```
 
-Todos os três pontos finais aceitam o **includeHidden=true** para buscar os status ocultos do projeto/tarefa/emissão de um determinado grupo. Modelar suas consultas de pesquisa de status após esses exemplos de práticas recomendadas garantirá que todas as informações de status do grupo sejam incluídas com cada resposta.
+Todos os três endpoints aceitam o **includeHidden=true** para obter os status ocultos de projeto/tarefa/problema de um determinado grupo. Modelar as consultas de pesquisa de status após esses exemplos de práticas recomendadas garantirá que todas as informações de status do grupo sejam incluídas em cada resposta.
 
-Este é um exemplo de uma consulta de pesquisa de status sendo feita para um grupo de tarefas que inclui um status bloqueado no nível do sistema **Personalizado_1** e um status desbloqueado **Personalizado_2**:
+Este é um exemplo de uma consulta de pesquisa de status sendo feita a um grupo de tarefas que inclui um status bloqueado no nível do sistema **Personalizado_1** e um status desbloqueado **Personalizado_2**:
 
 >**Exemplo:**
 
@@ -108,11 +109,11 @@ Usar esse formato garante que sua resposta inclua todos os itens a seguir:
 }
 ```
 
-## Noções básicas das alterações feitas na consulta de pesquisa de status herdada
+## Noções básicas sobre as alterações feitas na consulta de pesquisa de status herdada
 
-No sistema herdado, uma consulta de pesquisa de status copiaria todos os status do sistema disponíveis para todos os grupos incluídos em uma consulta. A resposta herdada incluiria todos os status do sistema e status de nível de grupo disponíveis para cada grupo na query.
+No sistema herdado, uma consulta de pesquisa de status copiaria todos os status de sistema disponíveis para todos os grupos incluídos em uma consulta. A resposta herdada incluiria todos os status do sistema e os status de nível de grupo disponíveis para cada grupo na consulta.
 
-Por exemplo, esta query (que não segue as práticas recomendadas atuais):
+Por exemplo, esta consulta (que não segue as práticas recomendadas atuais):
 
 >**Exemplo:**
 
@@ -120,7 +121,7 @@ Por exemplo, esta query (que não segue as práticas recomendadas atuais):
 /attask/api/<VERSION>/CSTEM/search?groupID=602d27640000bb3b779f770d5fb95d6d&enumClass=STATUS_TASK
 ```
 
-Teria a seguinte resposta sob o sistema herdado, que inclui todos os status de objeto:
+Teria a seguinte resposta no sistema herdado, que inclui todos os status de objeto:
 
 ```
 {
@@ -169,11 +170,11 @@ Teria a seguinte resposta sob o sistema herdado, que inclui todos os status de o
 }
 ```
 
-No entanto, após as atualizações feitas na maneira como os status são armazenados e usados, os status não são copiados para grupos e são herdados por cada grupo no nível do sistema. Como resultado, a consulta da API de pesquisa lê apenas os status que estão diretamente associados a um grupo específico, de modo que a resposta inclui os status bloqueados e desbloqueados do sistema, mas somente para os grupos que foram criados após a adição do status em questão.
+No entanto, após as atualizações feitas no modo como os status são armazenados e usados, os status não são copiados para grupos e são herdados por cada grupo no nível do sistema. Como resultado, a consulta da API de pesquisa lê apenas os status que estão diretamente associados a um grupo específico, portanto, a resposta inclui status bloqueados e desbloqueados pelo sistema, mas apenas para os grupos que foram criados após a adição do status em questão.
 
-Se os métodos de práticas recomendadas atualizados não forem usados para fazer consultas de pesquisa de status depois que o sistema herdado tiver sido atualizado, uma lista incompleta de status de grupo será retornada na resposta.
+Falha ao usar os métodos de práticas recomendadas atualizadas para fazer consultas de pesquisa de status após a atualização do sistema herdado resultará em uma lista incompleta de status de grupo retornados na resposta.
 
-Este é um exemplo do que essa estrutura de solicitação desatualizada retorna depois que o sistema herdado é atualizado:
+Este é um exemplo do que essa estrutura de solicitação desatualizada retorna após a atualização do sistema herdado:
 
 >**Exemplo:**
 
@@ -181,7 +182,7 @@ Este é um exemplo do que essa estrutura de solicitação desatualizada retorna 
 /attask/api/<VERSION>/CSTEM/search?groupID=602d27640000bb3b779f770d5fb95d6d&enumClass=STATUS_TASK
 ```
 
-Observe que essa resposta inclui apenas status específicos do grupo e exclui os status que foram declarados no nível do sistema:
+Observe que essa resposta inclui apenas status específicos do grupo e deixa de fora os status que foram declarados no nível do sistema:
 
 ```
 {

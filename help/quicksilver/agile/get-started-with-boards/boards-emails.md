@@ -5,8 +5,9 @@ navigation-topic: boards
 title: Notificações e preferências de email dos painéis
 description: Os Adobe Workfront Boards enviam um email quando você é adicionado a um quadro e quando um cartão é atribuído a você.
 author: Lisa
+feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 1%

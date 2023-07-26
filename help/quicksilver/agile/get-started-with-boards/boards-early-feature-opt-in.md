@@ -5,8 +5,9 @@ navigation-topic: boards
 title: Aceitação antecipada de recursos para [!DNL Adobe Workfront] Quadros
 description: Leia este artigo para saber mais sobre [!DNL Workfront Boards] aceitação antecipada de recursos.
 author: Lisa
+feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
