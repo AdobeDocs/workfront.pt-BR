@@ -4,9 +4,9 @@ description: Atualizações de aparência durante o período de lançamento da v
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+source-git-commit: 2fc3799b97e353e124a3ee2f181ad62fbadec592
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Para obter mais informações, consulte [Copiar e enviar solicitações](/help/q
 
 >[!NOTE]
 >
->Versão de visualização planejada: a ser anunciada; Versão de produção planejada: a ser anunciada.
+>Versão de visualização planejada: 27 de julho de 2023; Produção planejada para lançamento rápido: com o lançamento 23.8. Produção planejada para lançamento trimestral: com a versão 23.10
 >
 >Este recurso foi originalmente planejado para ser lançado com a versão 23.3 e foi posteriormente adiado.
 
