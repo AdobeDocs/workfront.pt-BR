@@ -93,14 +93,14 @@ A [!DNL Microsoft Word] o modelo é regular [!DNL Microsoft Word] documento (arq
 Uma tag de valor simples é simplesmente substituída por um valor correspondente. O nome da tag corresponde à variável [!UICONTROL Chave] o valor do campo, que é colocado dentro de chaves duplas; por exemplo,
 
 
-<pre>{{name}}</pre>
+<pre>&#123;&#123;name&#125;&#125;</pre>
 
 
 .
 
 **Exemplo:** Para criar um documento que diga &quot;Olá, Petr!&quot;, você pode usar um [!DNL Microsoft Word Template] para criar o seguinte modelo:
 
-<pre>&gt; Olá {{name}}!</pre>
+<pre>&gt; Olá &#123;&#123;name&#125;&#125;!</pre>
 
 Para fazer isso, você configuraria o módulo da seguinte maneira:
 
@@ -111,7 +111,7 @@ Para fazer isso, você configuraria o módulo da seguinte maneira:
 Você pode usar uma tag de condição para quebrar o texto que deve ser renderizado somente quando determinadas condições forem atendidas. Para quebrar o texto, coloque-o entre as tags de condição de abertura e fechamento, como &quot;hasPhone&quot;, se a condição for se os dados incluem ou não um número de telefone. O nome de uma tag de abertura é anexado ao sinal de hash #; o nome de uma tag de fechamento é anexado a uma barra /, como mostrado no exemplo abaixo.
 
 **Exemplo:** Para produzir um documento que inclua o número de telefone de um cliente, se os dados de entrada incluírem um número de telefone, mas nenhum endereço de email, você poderá usar um [!DNL Microsoft Word Template] e crie o seguinte template:
-<pre>&gt; {{#hasPhone}}Telefone: {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}}Email: {{email}} {{/hasEmail}}</pre>Para fazer isso, você configuraria o módulo da seguinte maneira:
+<pre>&gt; &#123;&#123;#hasPhone&#125;&#125;Telefone: &#123;&#123;phone&#125;&#125; &#123;&#123;/hasPhone&#125;&#125;</pre><pre>&gt; &#123;&#123;#hasEmail&#125;&#125;Email: &#123;&#123;email&#125;&#125; &#123;&#123;/hasEmail&#125;&#125;</pre>Para fazer isso, você configuraria o módulo da seguinte maneira:
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -129,7 +129,7 @@ Você pode usar uma tag de loop, também conhecida como tag de seção, para rep
 
 **Exemplo:** Para produzir um documento que liste o nome e o número de telefone de cada contato em uma lista de clientes, você pode usar um [!DNL Microsoft Word Template] e crie o seguinte template:
 
-<pre>&gt; {{#contact}}</pre><pre>&gt;     {{name}}, {{phone}}</pre><pre>&gt; {{/contact}}</pre>
+<pre>&gt; &#123;&#123;#contact&#125;&#125;</pre><pre>&gt;     &#123;&#123;name&#125;&#125;, &#123;&#123;phone&#125;&#125;</pre><pre>&gt; &#123;&#123;/contact&#125;&#125;</pre>
 
 Para fazer isso, você configuraria o módulo da seguinte maneira:
 
