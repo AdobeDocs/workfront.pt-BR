@@ -7,9 +7,9 @@ description: Esta página fornece informações sobre a funcionalidade do Adobe 
 author: Nolan
 feature: Product Announcements, Workfront Proof
 exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
-source-git-commit: 6f1327ea52dc17d8fac0c80d030c40ccb5b4da2a
+source-git-commit: fde4d0abf494c32cb53d3c4bc1b150f1825df433
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -42,10 +42,12 @@ Para obter uma lista de todas as alterações disponíveis para todas as áreas 
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão de pré-visualização: com a versão 23.3</p>
+                                <p><i>Para usuários que utilizam instalação manual, com a versão 2.1.26</i></p>
+                                <p>Versão de pré-visualização e produção: 27 de julho de 2023</p>
                             </li>
                             <li>
-                                <p>Versão de produção: com a versão 23.3</p>
+                                <p><i>Para usuários que utilizam instalação automática, com a versão 2.1.27</i></p>
+                                <p>Versão de pré-visualização e produção: 3 de agosto de 2023</p>
                             </li>
                         </ul>
                     </td>
