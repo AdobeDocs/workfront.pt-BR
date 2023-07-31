@@ -6,9 +6,9 @@ description: É possível adicionar comentários a todas as metas que você pode
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -154,11 +154,9 @@ Isso abre a lista de metas.
 
    >[!TIP]
    >
-   >Se outro usuário enviar um comentário para o mesmo item que você está atualizando, haverá uma linha vermelha com um indicador &quot;Novo&quot; para informá-lo dos comentários mais recentes.
+   >Se outro usuário enviar um comentário para o mesmo item que você está atualizando, haverá uma linha vermelha com um indicador &quot;Novo&quot; para informá-lo sobre os comentários mais recentes, bem como uma notificação azul na parte inferior da tela indicando o número de novos comentários.
    >
    >O indicador só é exibido depois que o comentário foi enviado sobre o item, e não quando o comentário ainda está composto.
-   >
-   >O indicador &quot;Novo&quot; é exibido somente quando o usuário que inseriu uma nova atualização, bem como o usuário que está inserindo uma atualização no momento, estão usando a nova experiência de comentário.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. (Opcional) Para editar um comentário, **Mais** menu ![](assets/more-icon.png) à direita do ícone Curtir e, em seguida, clique em **Editar**.
