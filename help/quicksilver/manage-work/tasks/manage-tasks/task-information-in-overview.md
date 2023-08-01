@@ -6,9 +6,9 @@ description: Gerenciar informações da tarefa na área Visão geral de detalhes
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 7e591a8eb801da463f05b574c091f68278974ad7
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2089'
 ht-degree: 5%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 5%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, do it in both articles)</p>
 -->
 
-Você pode exibir ou editar as informações de uma tarefa acessando a área Visão geral da seção Detalhes da tarefa . Há um número limitado de campos que você pode visualizar ou editar nessa área. Para obter informações sobre como editar todas as informações de uma tarefa, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+É possível exibir ou editar as informações de uma tarefa acessando a área Visão Geral da seção Detalhes da Tarefa. Há um número limitado de campos que você pode exibir ou editar nessa área. Para obter informações sobre como editar todas as informações de uma tarefa, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-Este artigo descreve como exibir ou editar informações na área Visão geral dos detalhes da tarefa. Para obter informações sobre como atualizar outras áreas de Detalhes da tarefa , consulte os seguintes artigos:
+Este artigo descreve como exibir ou editar informações na área Visão geral dos Detalhes da tarefa. Para obter informações sobre a atualização de outras áreas de Detalhes da Tarefa, consulte os seguintes artigos:
 
 * [Gerenciar finanças da tarefa na seção Detalhes da tarefa](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 * [Adicionar um formulário personalizado a um objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
@@ -33,7 +33,7 @@ Você deve ter o seguinte:
 
 <table style="table-layout:auto"> 
  <caption style="text-align: left;">
-   *Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront. 
+   *Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront. 
  </caption> 
  <col> 
  <col> 
@@ -44,15 +44,23 @@ Você deve ter o seguinte:
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront<b> licença*</b> </p> </td> 
-   <td> <p>Trabalho ou superior</p> </td> 
+   <td> <p>Trabalhar ou superior</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Configurações de nível de acesso*</strong> </td> 
-   <td> <p>Visualizar ou aumentar o acesso a Projetos e Tarefas</p> <p>Se você tiver o nível de acesso correto, mas ainda não conseguir editar a seção Detalhes da tarefa, pergunte à Adobe Workfront se eles definiram restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Acesso de visualização ou superior a projetos e tarefas</p> <p>Se você tiver o nível de acesso correto, mas ainda não puder editar a seção Detalhes da tarefa, pergunte à Adobe Workfront se ela definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Permissões de objeto</strong> </p> </td> 
-   <td> <p>Contribuir ou permissões mais altas para o projeto</p> <p>Permissões de visualização para a tarefa para exibir informações na seção Detalhes . </p> <p>Gerencie permissões da tarefa para atualizar informações na seção Detalhes .</p> </td> 
+   <td> <p>Permissões do Contribute ou superior para o projeto</p> <p>Exiba permissões da tarefa para exibir informações na seção Detalhes. </p> 
+   <p>Contribua com permissões para que a tarefa atualize as seguintes informações na seção Detalhes:</p>
+
+<ul>
+   <li>Descrição</li>
+   <li>Status</li>
+   </ul>
+
+<p>Gerencie permissões para que a tarefa atualize todas as informações na seção Detalhes.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,24 +69,24 @@ Você deve ter o seguinte:
 
 1. Vá para uma tarefa que deseja exibir ou editar.
 1. Clique em **Detalhes da tarefa** no painel esquerdo .
-1. Vá para o **Visão geral** para exibir mais informações sobre a tarefa.
+1. Vá para a **Visão geral** para exibir mais informações sobre a tarefa.
 
-   Por padrão, a Visão geral é a primeira área na seção Detalhes da tarefa e é expandida.
+   Por padrão, Visão geral é a primeira área na seção Detalhes da tarefa e ela é expandida.
 
    >[!NOTE]
    >
-   >Dependendo de como o administrador do Workfront ou o administrador do Grupo configura nosso Modelo de layout, os campos na seção Detalhes da tarefa podem ser reorganizados ou não serem exibidos. Para obter mais informações, consulte [Personalizar a visualização de Detalhes usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Dependendo de como o administrador do Workfront ou do Administrador de grupo configura nosso Modelo de layout, os campos na seção Detalhes da tarefa podem ser reorganizados ou não ser exibidos. Para obter informações, consulte [Personalizar a exibição de Detalhes usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. Clique no botão **Editar** ícone ![](assets/edit-icon.png) no canto superior direito da seção Detalhes e clique em **Visão geral**.
+1. Clique em **Editar** ícone ![](assets/edit-icon.png) no canto superior direito da seção Detalhes e clique em **Visão geral**.
 
    >[!TIP]
    >
-   >Não é possível editar campos gerados automaticamente pelo Workfront ou que você não tem permissões para editar.
+   >Não é possível editar campos gerados automaticamente pelo Workfront ou que você não tenha permissões para editar.
 
-1. Edite qualquer campo disponível para edição, clicando uma vez no campo ou clicando em **+Adicionar** para adicionar informações a um campo vazio.
-1. Exiba ou edite qualquer um dos seguintes campos listados.
+1. Edite qualquer campo que esteja disponível para edição, clicando uma vez no campo ou clicando em **+Adicionar** para adicionar informações a um campo vazio.
+1. Exiba ou edite qualquer um dos campos a seguir listados.
 
-   Nem todos os campos podem ser editados.  
+   Nem todos os campos são editáveis.  
 
    <table style="table-layout:auto"> 
     <col> 
@@ -90,26 +98,26 @@ Você deve ter o seguinte:
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Número de Referência</td> 
-      <td>Esse é um valor exclusivo para a tarefa gerada pelo Workfront para todos os objetos no sistema. </td> 
+      <td>É um valor exclusivo para a tarefa gerada pelo Workfront para todos os objetos no sistema. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
-      <td> <p>Os usuários com permissões de gerenciamento em uma tarefa podem especificar um link para uma página interna ou externa nesse campo.</p> </td> 
+      <td> <p>Os usuários com permissões para Gerenciar uma tarefa podem especificar um link para uma página interna ou externa neste campo.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Status</td> 
-      <td> <p>Selecione o status da tarefa que indica em qual estágio de desenvolvimento a tarefa está.</p> <p>Dica: Você pode atualizar o Status da tarefa no cabeçalho da tarefa. </p> </td> 
+      <td> <p>Selecione o status da tarefa que indica em qual estágio de desenvolvimento a tarefa está.</p> <p>Dica: você pode atualizar o Status da tarefa no cabeçalho da tarefa. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Prioridade</td> 
-      <td> <p>Esse é um sinalizador visual para você, que permite priorizar suas tarefas. </p> <p>Selecione dentre as seguintes opções: </p> 
+      <td> <p>Este é um sinalizador visual para você que permite priorizar suas tarefas. </p> <p>Selecione entre as seguintes opções: </p> 
        <ul> 
         <li> <p> Nenhum(a)</p> </li> 
         <li> <p> Baixa </p> </li> 
         <li> <p>Normal </p> </li> 
         <li> <p>Alta </p> </li> 
         <li> <p> Urgente </p> </li> 
-       </ul> <p>Dependendo das Preferências do projeto selecionadas pelo administrador do Workfront, os nomes das prioridades podem ser diferentes para você. Para obter informações sobre as prioridades da tarefa, consulte <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">Atualizar Prioridade da Tarefa</a>. </p> </td> 
+       </ul> <p>Dependendo das Preferências do projeto selecionadas pelo administrador do Workfront, os nomes das prioridades podem ser diferentes para você. Para obter informações sobre prioridades de tarefas, consulte <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">Atualizar prioridade da tarefa</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tipo de Duração</td> 
@@ -118,7 +126,7 @@ Você deve ter o seguinte:
         <li> <p>O número de recursos atribuídos a uma tarefa </p> </li> 
         <li> <p>O esforço total necessário para concluir a tarefa </p> </li> 
         <li> <p> A duração total da tarefa. </p> </li> 
-       </ul> <p>Seu administrador do Workfront <span> ou um administrador de grupo</span> seleciona a configuração padrão Tipo de duração para as tarefas em seu sistema ou grupo. Para obter informações sobre a definição de padrões do projeto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar preferências de projeto em todo o sistema</a>. </p> <p>Os Tipos de duração permitem definir atribuições de recursos consistentes com base nas necessidades da tarefa. Para obter mais informações sobre o Tipo de duração de uma tarefa, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Visão Geral da Duração da Tarefa e do Tipo de Duração</a>. </p> <p>Selecione dentre as seguintes opções: </p> 
+       </ul> <p>Seu administrador do Workfront <span> ou um administrador de grupo</span> seleciona a configuração padrão Tipo de duração para as tarefas em seu sistema ou grupo. Para obter informações sobre como configurar os padrões do projeto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar preferências de projeto em todo o sistema</a>. </p> <p>Os Tipos de duração permitem definir atribuições de recursos consistentes com base nas necessidades da tarefa. Para obter mais informações sobre o Tipo de Duração de uma tarefa, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Visão Geral da Duração da Tarefa e do Tipo de Duração</a>. </p> <p>Selecione entre as seguintes opções: </p> 
        <ul> 
         <li> <p>Atribuição Calculada </p> </li> 
         <li> <p> Trabalho Calculado </p> </li> 
@@ -131,19 +139,19 @@ Você deve ter o seguinte:
       <td> 
        <div> 
         <div> 
-         <p>Esse é o período de tempo durante o qual uma tarefa pode permanecer aberta antes de ser concluída. </p> 
-         <p>Importante: Como a duração da tarefa normalmente é a quantidade de tempo entre o Início Planejado e as Datas de Conclusão Planejadas, ela afeta a linha do tempo do projeto.</p> 
+         <p>Período em que você permite que uma tarefa permaneça aberta antes de ser concluída. </p> 
+         <p>Importante: como a duração da tarefa normalmente é a quantidade de tempo entre o Início planejado e as Datas de conclusão planejadas, ela afeta a linha do tempo do projeto.</p> 
          <p>Para indicar a Duração da tarefa e a unidade de tempo, faça o seguinte:</p> 
          <ul> 
-          <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Digite a duração de tempo e selecione a partir das unidades de tempo disponíveis no menu suspenso.</p> </li> </ul>
+          <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Digite o tempo e selecione nas unidades de tempo disponíveis no menu suspenso.</p> </li> </ul>
 
-   <p><strong>DICA</strong></p> <p> Ao atualizar a Duração das tarefas em uma lista de tarefas, você pode usar a abreviação da unidade de tempo. </p>      <p> Você pode escolher entre as opções de tempo regular ou de tempo decorrido na tabela a seguir: </p> 
+   <p><strong>DICA</strong></p> <p> Ao atualizar a Duração das tarefas em uma lista de tarefas, você pode usar a abreviação da unidade de tempo. </p>      <p> Você pode escolher entre as opções de tempo regular ou tempo decorrido na tabela a seguir: </p> 
          <table style="table-layout:auto"> 
           <col> 
           <col data-mc-conditions=""> 
           <tbody> 
            <tr> 
-            <td>Unidade de tempo</td> 
+            <td>Unidade de Tempo</td> 
             <td>Abreviação</td> 
            </tr> 
            <tr> 
@@ -160,7 +168,7 @@ Você deve ter o seguinte:
            </tr> 
            <tr> 
             <td>Semanas</td> 
-            <td>Q</td> 
+            <td>S</td> 
            </tr> 
            <tr> 
             <td>Meses</td> 
@@ -180,7 +188,7 @@ Você deve ter o seguinte:
            </tr> 
            <tr> 
             <td>Semanas corridas</td> 
-            <td>EW</td> 
+            <td>NOVO</td> 
            </tr> 
            <tr> 
             <td>Meses decorridos</td> 
@@ -189,7 +197,7 @@ Você deve ter o seguinte:
           </tbody> 
          </table> 
          <p><strong>Nota</strong> </p>
-         <p> Tempo decorrido é uma unidade de tempo para a Duração de uma tarefa. É o tempo entre a Data inicial planejada e a Data de conclusão planejada de uma tarefa que inclui feriados, finais de semana e tempo limite. Por outras palavras, o tempo decorrido é a passagem dos dias de calendário. O tempo normal leva em consideração feriados, finais de semana e tempo de folga e os exclui da Duração da tarefa. Para obter mais informações sobre a duração da tarefa, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Visão Geral da Duração da Tarefa e do Tipo de Duração</a>. </p> 
+         <p> Tempo decorrido é uma unidade de tempo da Duração de uma tarefa. É o tempo entre a Data de Início Planejada e a Data de Conclusão Planejada de uma tarefa que inclui feriados, finais de semana e folga. Em outras palavras, o tempo decorrido é a passagem de dias do calendário. O tempo normal leva em conta feriados, fins de semana e folga e os exclui da Duração da tarefa. Para obter mais informações sobre a duração da tarefa, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Visão Geral da Duração da Tarefa e do Tipo de Duração</a>. </p> 
          <p> 
          <!--You cannot specify the Duration of a task when the Duration Type of the task is Simple, or when the Task Constraint is Fixed Dates. (NOTE: Anna said this is now possible for all duration types in the Assignments area. It's not here, but to clear confusion, I am drafting this out of here.)--></p> 
         </div> 
@@ -197,97 +205,97 @@ Você deve ter o seguinte:
      </tr> 
      <tr> 
       <td role="rowheader">Duração do Projeto</td> 
-      <td> <p>A diferença em dias entre a data de início projetada e a data de conclusão projetada. </p> </td> 
+      <td> <p>A diferença em dias entre a data de início projetada e a data de término projetada. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Duração real</td> 
-      <td> <p>A diferença em dias entre a data de início real e a data de conclusão real. Foi quanto tempo levou para concluir o trabalho. </p> </td> 
+      <td role="rowheader">Duração Efetiva</td> 
+      <td> <p>A diferença em dias entre a data de início real e a data de término real. Esse é o tempo que realmente levou para completar o trabalho. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Horas Planejadas</td> 
-      <td> <p>Especifique a quantidade de Horas Planejadas para a tarefa, em horas. Essa é a quantidade de tempo real que os destinatários da tarefa precisariam para concluí-la. Você só pode especificar a quantidade de Horas Planejadas para uma tarefa quando o Tipo de Duração estiver definido como Atribuição Calculada. Para obter mais informações sobre tipos de duração, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Visão Geral da Duração da Tarefa e do Tipo de Duração</a>.</p> </td> 
+      <td role="rowheader">Horas planejadas</td> 
+      <td> <p>Especifique a quantidade de Horas Planejadas para a tarefa, em horas. Essa é a quantidade de tempo real que os atribuídos da tarefa levariam para concluí-la. Você só poderá especificar a quantidade de Horas Planejadas para uma tarefa quando o Tipo de Duração estiver definido como Atribuição Calculada. Para obter mais informações sobre tipos de duração, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Visão Geral da Duração da Tarefa e do Tipo de Duração</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Horas efetivas</td> 
-      <td>Horas registradas por usuários na tarefa. </td> 
+      <td>Horas registradas pelos usuários na tarefa. </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Esforço do trabalho </td> 
       <td> 
        <div> 
-        <p>A quantidade de esforço necessária para concluir a tarefa. O gerente do projeto pode decidir usar esse campo em vez de Horas Planejadas para estimar o esforço necessário para concluir uma tarefa. Este campo fica visível somente quando as seguintes condições são atendidas:</p> 
+        <p>O esforço necessário para concluir a tarefa. Seu gerente de projeto pode decidir usar esse campo em vez do Trabalho necessário para estimar o esforço necessário para concluir uma tarefa. Este campo fica visível somente quando as seguintes condições são atendidas:</p> 
         <ul> 
-         <li> <p>A tarefa tem um Tipo de duração simples. </p> <p>Dica: Se você alterar o Tipo de duração da tarefa, esse campo ficará esmaecido. </p> </li> 
-         <li>O gerente de projeto habilitou o campo Usar Esforço de Trabalho para calcular automaticamente as Horas Planejadas da tarefa no projeto. </li> 
+         <li> <p>A tarefa tem um tipo de duração simples. </p> <p>Dica: se você alterar o Tipo de Duração da tarefa, esse campo ficará esmaecido. </p> </li> 
+         <li>O gerente de projeto ativou o campo Usar esforço do trabalho para calcular automaticamente as Horas planejadas das tarefas no projeto. </li> 
         </ul> 
-        <p>Selecione dentre as seguintes opções:</p> 
+        <p>Selecione entre as seguintes opções:</p> 
         <ul> 
          <li>Pequena</li> 
-         <li>Médio <span style="font-weight: normal;">(esse é o valor padrão para uma nova tarefa)</span></li> 
+         <li>Medium <span style="font-weight: normal;">(esse é o valor padrão para uma nova tarefa)</span></li> 
          <li>Grande</li> 
         </ul> 
         <p><strong>Nota</strong></p> 
-        <p> Atualizar a quantidade de esforço poderia atualizar a tarefa Horas Planejadas. A atualização é imediata se o Tipo de atualização do projeto for Automático. Quando o Tipo de Atualização do projeto é Manual, você deve recalcular a linha do tempo para ver as Horas Planejadas atualizadas. </p> 
-        <p>Para obter informações sobre como usar o Esforço de Trabalho em vez de Horas Planejadas para estimar o esforço da tarefa, consulte <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Visão geral do esforço de trabalho</a>. </p> 
+        <p> A atualização da quantidade de esforço pode atualizar as Horas planejadas da tarefa. A atualização será imediata se o Tipo de atualização do projeto for Automático. Quando o Tipo de atualização do projeto é Manual, você deve recalcular a linha do tempo para ver as Horas planejadas atualizadas. </p> 
+        <p>Para obter informações sobre como usar o Esforço de trabalho em vez das Horas planejadas para estimar o esforço da tarefa, consulte <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Visão geral do esforço de trabalho</a>. </p> 
        </div> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Restrição de Tarefa</td> 
-      <td> <p>Decida quando a tarefa deve ser concluída especificando uma Restrição de Tarefa. </p> <p>Selecione dentre as seguintes opções: </p> 
+      <td> <p>Decida quando a tarefa deve ser concluída especificando uma Restrição de Tarefa. </p> <p>Selecione entre as seguintes opções: </p> 
        <ul> 
-        <li> <p><span>Datas Fixas</span> </p> <p>Especifique um <strong>Início planejado</strong> e <strong>Data de Conclusão Planejada</strong>. </p> </li> 
-        <li> <p><span>Precisa Iniciar Em</span> </p> <p>Especifique um <strong>Data de início planejada</strong>. </p> </li> 
-        <li> <p><span>Precisa Terminar Em</span> </p> <p>Especifique um <strong>Data de Conclusão Planejada</strong>. </p> </li> 
+        <li> <p><span>Datas Fixas</span> </p> <p>Especificar um <strong>Início Planejado</strong> e uma <strong>Data de Término Planejada</strong>. </p> </li> 
+        <li> <p><span>Precisa Iniciar Em</span> </p> <p>Especificar um <strong>Data de Início Planejada</strong>. </p> </li> 
+        <li> <p><span>Precisa Terminar Em</span> </p> <p>Especificar um <strong>Data de Término Planejada</strong>. </p> </li> 
        </ul> 
        <ul> 
-        <li> <p><span>O Mais Rapidamente Possível</span></p> </li> 
-        <li> <p><span>O Mais Tarde Possível</span></p> </li> 
+        <li> <p><span>Assim que possível</span></p> </li> 
+        <li> <p><span>O mais tarde possível</span></p> </li> 
         <li> <p><span>Momento Mais Cedo Disponível</span></p> </li> 
         <li> <p> <span>O Mais Tarde Disponível</span></p> </li> 
         <li> <p><span>Não Iniciar Depois De</span> </p> </li> 
         <li> <p>Especificar uma Data de Início Planejada</p> </li> 
-        <li> <p><span>Não Iniciar Antes De</span> </p> <p>Especifique um <strong>Data de início planejada</strong>. </p> </li> 
-        <li> <p> Concluir <span>Não mais tarde do que</span></p> <p>Especifique um <strong>Data de Conclusão Planejada</strong>. </p> </li> 
-        <li> <p> Concluir <span>Não Anterior a</span></p> <p>Especifique um <strong>Data de Conclusão Planejada</strong></p> </li> 
-       </ul> <p>Para obter mais informações sobre a Restrição de Tarefa, consulte <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Visão geral da restrição de tarefa</a>.</p> </td> 
+        <li> <p><span>Não Iniciar Antes De</span> </p> <p>Especificar um <strong>Data de Início Planejada</strong>. </p> </li> 
+        <li> <p> Concluir <span>Não É Posterior A</span></p> <p>Especificar um <strong>Data de Término Planejada</strong>. </p> </li> 
+        <li> <p> Concluir <span>Não Antes De</span></p> <p>Especificar um <strong>Data de Término Planejada</strong></p> </li> 
+       </ul> <p>Para obter mais informações sobre Restrição de Tarefa, consulte <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Visão geral de Restrição de Tarefa</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Data de início planejado</td> 
       <td> <p>Quando a tarefa estiver planejada para iniciar. A data de início planejada de uma tarefa é definida e influenciada por vários fatores:</p> 
        <ul> 
-        <li>Dependendo da preferência em todo o sistema pela data de início planejada da tarefa, a data de início de uma nova tarefa em um projeto pode ser hoje ou a data de início do projeto, por padrão. <span>O administrador do grupo para o grupo associado ao projeto também pode definir essa preferência para o grupo.</span> Para obter mais informações sobre as preferências de tarefa no nível do sistema ou de grupo, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configurar preferências de emissão e tarefa em todo o sistema</a>.</li> 
-        <li>Dependendo dos antecessores da tarefa, a data de início planejada é escolhida pelo Workfront para ser a próxima data disponível depois que os antecessores terminarem ou começarem, dependendo do relacionamento do antecessor. Para obter mais informações sobre os relacionamentos do antecessor, consulte <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Visão geral dos antecessores de tarefas</a>.</li> 
-        <li>O gerente do projeto ou o proprietário da tarefa podem definir manualmente a data de início planejada quando a restrição da tarefa for Datas fixas ou Deve iniciar em. Para obter mais informações sobre restrições de tarefa, consulte <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Visão geral da restrição de tarefa</a>.</li> 
+        <li>Dependendo da preferência do sistema para a data de início planejada da tarefa, a data de início de uma nova tarefa em um projeto pode ser hoje ou a data de início do projeto, por padrão. <span>O administrador de grupo do grupo associado ao projeto também pode definir essa preferência para o grupo.</span> Para obter mais informações sobre as preferências de tarefas no nível do sistema ou do grupo, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configurar preferências de tarefas e problemas em todo o sistema</a>.</li> 
+        <li>Dependendo dos predecessores da tarefa, a data de início planejada é escolhida pelo Workfront para ser a próxima data disponível após a conclusão ou início dos predecessores, dependendo do relacionamento do antecessor. Para obter mais informações sobre relacionamentos predecessores, consulte <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Visão geral das predecessoras da tarefa</a>.</li> 
+        <li>O gerente de projeto ou o proprietário da tarefa pode definir manualmente a data de início planejada quando a restrição da tarefa for Datas Fixas ou Deve Iniciar em. Para obter mais informações sobre restrições de tarefa, consulte <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Visão geral de Restrição de Tarefa</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Data de Início Projetada</td> 
-      <td> <p>A data da "vida real" de quando a tarefa será iniciada com base no progresso e na conclusão de tarefas anteriores. Este é um campo calculado e não pode ser editado manualmente.</p> <p> A data de início projetada e a data de início planejada começam sendo as mesmas, quando um projeto é planejado pela primeira vez. A data de início projetada pode se afastar do início planejado, se o projeto evoluir e a tarefa ainda não for iniciada. Para obter mais informações sobre as datas de início projetadas, consulte <a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">Visão geral da data de início prevista do projeto</a>. </p> </td> 
+      <td> <p>A data "na vida real" de quando a tarefa será iniciada com base no progresso e na conclusão de tarefas anteriores. Este é um campo calculado e não pode ser editado manualmente.</p> <p> A data de início projetada e a data de início planejada começam sendo as mesmas, quando um projeto é planejado pela primeira vez. A data de início projetada pode se afastar do início planejado, se o projeto evoluir e a tarefa ainda não tiver sido iniciada. Para obter mais informações sobre as datas de início projetadas, consulte <a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">Visão Geral da Data de Início Projetada do projeto</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Data de início real</td> 
-      <td> <p>Especifique uma Data de Início Real para a tarefa. O padrão normalmente é preenchido automaticamente quando você altera o status da tarefa para Em andamento. A data de início real também pode ser modificada manualmente pelo gerente do projeto ou pelo proprietário da tarefa. </p> </td> 
+      <td role="rowheader">Data do Início Efetivo</td> 
+      <td> <p>Especifique uma Data de Início Real para a tarefa. Normalmente, o padrão é preenchido automaticamente quando você altera o status da tarefa para In Progress. A data de início real também pode ser modificada manualmente pelo gerente do projeto ou pelo proprietário da tarefa. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Data de Conclusão Planejada</td> 
-      <td> <p>A data de conclusão antecipada conforme mostrado quando a tarefa é planejada. A data de conclusão planejada pode ser definida por vários fatores:</p> 
+      <td role="rowheader">Data de Término Planejada</td> 
+      <td> <p>A data de conclusão prevista, conforme mostrado quando a tarefa é planejada. A data de conclusão planejada pode ser definida por vários fatores:</p> 
        <ul> 
-        <li>A data de conclusão planejada é calculada a partir da data de início planejada adicionando a Duração da tarefa à data de início planejada. Quando o gerente do projeto ou o Workfront especifica a Duração da tarefa, isso dispara uma atualização para a data de conclusão planejada. Se a data planejada for alterada, geralmente será porque a Duração da campanha foi atualizada.</li> 
-        <li>O gerente do projeto ou o proprietário da tarefa podem definir manualmente a data de conclusão planejada quando a restrição da tarefa for Datas Fixas ou Deve Concluir em. Para obter mais informações sobre restrições de tarefa, consulte <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Visão geral da restrição de tarefa</a>.</li> 
-        <li>Se o Tipo de duração da tarefa for alterado e o número de recursos nas tarefas for alterado ao mesmo tempo, a data de conclusão planejada também será alterada. Para obter mais informações sobre tipos de duração, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Visão Geral da Duração da Tarefa e do Tipo de Duração</a>.</li> 
+        <li>A data de conclusão planejada é calculada a partir da data de início planejada adicionando a Duration da tarefa à data de início planejada. Quando o gerente de projeto ou o Workfront especifica a Duração da tarefa, isso aciona uma atualização para a data de conclusão planejada. Se a data planejada mudar, isso acontece com frequência porque a Duração da atualização foi atualizada.</li> 
+        <li>O gerente de projeto ou o proprietário da tarefa pode definir manualmente a data de conclusão planejada quando a restrição da tarefa for Datas Fixas ou Deve Terminar em. Para obter mais informações sobre restrições de tarefa, consulte <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Visão geral de Restrição de Tarefa</a>.</li> 
+        <li>Se o Tipo de Duração da tarefa for alterado, e o número de recursos nas tarefas for alterado ao mesmo tempo, a data de conclusão planejada também será alterada. Para obter mais informações sobre tipos de duração, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Visão Geral da Duração da Tarefa e do Tipo de Duração</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Data de Término Projetada</td> 
-      <td> <p>A data da "vida real" de quando a tarefa será concluída com base no progresso de tarefas anteriores e nas atualizações de progresso feitas na tarefa pelo destinatário. Este é um campo calculado e não pode ser editado manualmente.</p> <p> A data de conclusão prevista e a data de conclusão prevista começam por ser as mesmas, quando um projeto é planejado pela primeira vez. A data de conclusão projetada pode se afastar da conclusão planejada, se o projeto evoluir e a tarefa ainda não tiver sido iniciada. Para obter mais informações sobre datas de conclusão projetadas, consulte <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Visão geral da data de conclusão projetada para projetos, tarefas e problemas</a>.</p> </td> 
+      <td> <p>A data "na vida real" de quando a tarefa será concluída com base no progresso de tarefas anteriores e nas atualizações de progresso feitas na tarefa pelo destinatário. Este é um campo calculado e não pode ser editado manualmente.</p> <p> A data de conclusão projetada e a data de conclusão planejada começam sendo a mesma, quando um projeto é planejado pela primeira vez. A data de conclusão projetada pode se afastar da conclusão planejada, se o projeto evoluir e a tarefa ainda não tiver sido iniciada. Para obter mais informações sobre as datas de conclusão projetadas, consulte <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Visão geral da Data de conclusão projetada para projetos, tarefas e problemas</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Data de conclusão real</td> 
-      <td> <p>Especifique a data e a hora reais em que a tarefa é concluída. A data e a hora padrão em que uma tarefa é concluída sempre coincide com a hora real em que o status se torna Concluído. A data de conclusão real também pode ser modificada manualmente pelo gerente do projeto ou pelo proprietário da tarefa. </p> </td> 
+      <td role="rowheader">Data de término efetivo</td> 
+      <td> <p>Especifique a data e a hora reais em que a tarefa é concluída. A data e hora padrão em que uma tarefa é concluída sempre coincide com a hora real em que o status se torna Concluído. A data de conclusão real também pode ser modificada manualmente pelo gerente do projeto ou pelo proprietário da tarefa. </p> </td> 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Data de confirmação</td> 
-      <td> <p>Esta é a data pela qual o usuário atribuído à tarefa se compromete a completá-la. Pode ser diferente da Data de conclusão planejada. Somente as pessoas atribuídas podem editar este campo. Para obter informações sobre datas de confirmação no Workfront, consulte <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Visão geral da data de confirmação</a>.</p> </td> 
+      <td> <p>Essa é a data na qual o usuário atribuído à tarefa se compromete a tê-la concluída. Pode ser diferente da Data de conclusão planejada. Somente as pessoas atribuídas podem editar este campo. Para obter informações sobre Datas de confirmação no Workfront, consulte <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Visão geral da data de compromisso</a>.</p> </td> 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Data de Entrada</td> 
@@ -299,7 +307,7 @@ Você deve ter o seguinte:
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Data da última atualização</td> 
-      <td> <p>A data em que a tarefa foi atualizada pela última vez. </p> <p>Dica: O Workfront registra uma Data atualizada sempre que alguém editar e salvar uma tarefa.</p> </td> 
+      <td> <p>A data em que a tarefa foi atualizada pela última vez. </p> <p>Dica: o Workfront registra uma Data atualizada sempre que alguém edita e salva uma tarefa.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Última Atualização realizada por</td> 
@@ -307,11 +315,11 @@ Você deve ter o seguinte:
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Frequência de recorrência</td> 
-      <td> <p>Isso é exibido somente no pai das tarefas recorrentes. É a frequência com que as tarefas na recorrência ocorrem. Para obter informações sobre como criar tarefas recorrentes, consulte <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Criar tarefas recorrentes</a>. </p> </td> 
+      <td> <p>É exibido apenas no pai de tarefas recorrentes. É a frequência com que as tarefas na recorrência ocorrem. Para obter informações sobre como criar tarefas recorrentes, consulte <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Criar tarefas recorrentes</a>. </p> </td> 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Duração por Ocorrência</td> 
-      <td> <p>Isso é exibido somente no pai das tarefas recorrentes. Ele exibe a duração de cada tarefa recorrente. Para obter informações sobre como criar tarefas recorrentes, consulte <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Criar tarefas recorrentes</a>. </p> <p><strong>Nota</strong></p> <p> As durações modificadas em tarefas recorrentes individuais não exibem o valor indicado neste campo. </p> </td> 
+      <td> <p>É exibido apenas no pai de tarefas recorrentes. Ela exibe a duração de cada tarefa recorrente. Para obter informações sobre como criar tarefas recorrentes, consulte <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Criar tarefas recorrentes</a>. </p> <p><strong>Nota</strong></p> <p> As durações modificadas em tarefas recorrentes individuais não exibem o valor indicado neste campo. </p> </td> 
      </tr> 
     </tbody> 
    </table>

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '3711'
+source-wordcount: '3712'
 ht-degree: 4%
 
 ---
@@ -53,8 +53,13 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
    <td role="rowheader">Permissões de objeto</td> 
    <td> 
     <ul> 
-     <li> <p>Contribuir com permissões para uma tarefa para editá-la na área Detalhes da tarefa </p> </li> 
-     <li> <p>Gerenciar permissões para uma tarefa para editá-la na caixa Editar tarefa</p> </li> 
+     <li> <p>Contribua com permissões para uma tarefa para editar as seguintes informações na área Detalhes da tarefa: </p>
+     <ul>
+     <li>Descrição</li>
+     <li>Status</li>
+     </ul>  
+      </li> 
+     <li> <p>Gerenciar permissões de uma tarefa para editar todas as informações na área Detalhes e na caixa Editar Tarefa</p> </li> 
     </ul> 
     <ul> 
      <li> <p>Contribute ou tem permissões mais altas para o projeto</p> </li> 
@@ -80,7 +85,7 @@ Considere o seguinte ao editar tarefas:
 
 * Você sempre pode editar as seguintes informações em uma tarefa quando o projeto tiver sido marcado como Concluído, Inativo ou estiver em um Processo de aprovação:
 
-   * Registrar tempo
+   * Registrar de tempo
    * Editar despesas existentes
    * Anexar um formulário personalizado
 
@@ -103,7 +108,7 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
 1. Clique em **Projetos**, em seguida, clique no nome de um projeto para abri-lo.
 1. Clique em **Tarefas** no painel esquerdo.
 1. Clique na tarefa que deseja editar.
-1. (Condicional) Para editar informações limitadas sobre uma tarefa, como um usuário com permissões do Contribute, clique em **Detalhes da tarefa** no painel esquerdo.
+1. (Condicional) Para editar informações limitadas sobre uma tarefa, clique em **Detalhes da tarefa** no painel esquerdo.
 
    ![](assets/nwe-task-details-expanded-350x273.png)
 
