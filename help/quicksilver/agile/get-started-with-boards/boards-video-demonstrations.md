@@ -7,9 +7,9 @@ description: Estes vídeos apresentarão a você os diferentes tipos de placas d
 author: Lisa
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1f4975a883206126fee7536cb6abb9d32b7ff1a7
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '347'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,12 @@ Um quadro básico ou simples permite que você comece rapidamente a usar quadros
 Um quadro kanban pode conter uma lista de pendências, ou coluna de entrada, que é configurada com filtros para trazer tarefas e problemas da Workfront para o quadro.
 
 [Exibir uma demonstração em vídeo de um quadro kanban.](https://video.tv.adobe.com/v/3416383/){target=_blank}
+
+### Quadro dinâmico
+
+Um quadro dinâmico permite preencher automaticamente um quadro com cartões com base em um projeto do Workfront. Usando filtros, os cartões são adicionados às colunas com base em seus status.
+
+[Assista a uma demonstração em vídeo de uma placa dinâmica.](https://video.tv.adobe.com/v/3422404/){target=_blank}
 
 ### Quadro para dispositivos móveis
 
