@@ -6,7 +6,7 @@ description: Planos, tipos de licença e acesso necessários Adobe Workfront Pla
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
+source-git-commit: 0b6b71fae698d34e9c96ba5a699006b3df294a5c
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 0%
@@ -163,7 +163,7 @@ Para obter informações sobre como personalizar uma visualização ágil, consu
 
 ## Exibir um projeto na exibição Agile
 
-1. Vá para o projeto que deseja visualizar em uma exibição ágil, na lista de tarefas <span class="preview">ou a lista de problemas</span>.
+1. <span class="preview">Vá para o projeto que deseja visualizar em uma visualização Agile, na lista de tarefas ou na lista de problemas.</span>
 1. Clique em **Quadro** ícone ![Ícone do painel](assets/board-icon-for-agile-view.png).
 
    A exibição de quadro do projeto é exibida por padrão.
