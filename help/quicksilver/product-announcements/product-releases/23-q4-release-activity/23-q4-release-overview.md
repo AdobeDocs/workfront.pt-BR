@@ -3,9 +3,9 @@ title: Visão geral da versão do quarto trimestre de 2023
 description: Visão geral da versão do quarto trimestre de 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: c6edc9530b2731ecd8ae0cc0feb208049cb16105
+source-git-commit: 3bb44437bb1c994497735132f26a00da34bd7874
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,76 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 
 ## Aprimoramentos do Adobe Workfront
 
-* Aprimoramentos do projeto
+* [Melhorias nas placas](#boards-enhancements)
+* [Aprimoramentos do projeto](#project-enhancements)
+
+### Melhorias nas placas
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Recurso</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Datas de lançamento</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Documentos disponíveis em cartões conectados como somente visualização</a><span style="color: #ff0000;"> Novo na visualização!</span> </p><p>Para cartões conectados em placas Adobe Workfront, agora é possível visualizar documentos como imagens e PDF. Você pode visualizar um documento no navegador ou baixá-lo no computador. </p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 3 de agosto de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produção para acesso antecipado a placas: 10 de agosto de 2023</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão rápida: com a versão 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão trimestral: com a versão 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">Recurso</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Datas de lançamento</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Visualização do quadro de um projeto agora disponível para problemas</a><span style="color: #ff0000;"> Novo na visualização!</span> </p><p>Agora você pode acessar a exibição Quadro de uma lista de problemas de projeto. O quadro Kanban pode ajudar você a acompanhar o progresso dos problemas de uma maneira mais visual do que visualizá-los na lista. </p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 3 de agosto de 2023<br /></p>
+                            </li>
+                             <li>
+                                <p>Produção para versão rápida: com a versão 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão trimestral: com a versão 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
 
 ### Aprimoramentos do projeto
 
@@ -80,7 +149,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
            </tbody>
         </table>
 
-## Avisos
+## Anúncios
 
 ### Aprimoramentos do Workfront Fusion
 
