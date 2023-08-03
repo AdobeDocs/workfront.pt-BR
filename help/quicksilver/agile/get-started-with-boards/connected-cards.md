@@ -6,14 +6,16 @@ description: Você pode adicionar um cartão ao seu quadro conectado a tarefas e
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: c063bd9505a785ea738d07e082328871245216f2
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1434'
 ht-degree: 0%
 
 ---
 
 # Usar placas conectadas em placas
+
+{{preview-and-fast-release}}
 
 Você pode adicionar um cartão ao seu quadro que esteja conectado a tarefas e problemas existentes no [!DNL Workfront].
 
@@ -122,7 +124,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Atribuídos]</strong></td>
       <td><p>Para atribuir mais pessoas ou uma equipe ao cartão, comece digitando um nome no campo de pesquisa e selecione-o quando ele for exibido na lista. Você pode adicionar indivíduos e equipes. Somente uma atribuição de equipe é permitida em um cartão conectado.</p>
-      <p>Os atribuídos devem ser membros do painel de discussão ou não aparecerão na lista de seleção. Quando uma equipe é membro do painel, os membros de cada equipe podem ser atribuídos ao cartão.</p>
+      <p>Os atribuídos devem ser membros do painel de discussão ou não aparecerão na lista de seleção. Quando uma equipe é um membro do painel, os membros de cada equipe podem ser atribuídos ao cartão.</p>
       <p>Todos os atribuídos selecionados também são atribuídos à tarefa ou problema no [!DNL Workfront].</p></td>
      </tr>
      <tr>
@@ -138,6 +140,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Lista de Verificação]</strong> </td> 
       <td> <p>Clique em <strong>[!UICONTROL Adicionar item de lista de verificação]</strong>. Em seguida, digite o título do item e pressione Enter. Outro item é adicionado automaticamente. Continue inserindo títulos para adicionar mais itens.</p> <p>O contador na parte superior da lista de verificação mostra o número de itens concluídos e o número total de itens.</p> <p>Para obter mais informações sobre os itens da lista de verificação, consulte <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gerenciar itens da lista de verificação em cartões</a>.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Documentos]</strong></span></td>
+      <td><span class="preview"><p>Passe o mouse sobre a miniatura do documento e clique em <strong>Visualizar</strong> para exibir o arquivo no navegador ou <strong>Baixar</strong> para baixar o arquivo no seu computador.</p></span>
+      <span class="preview"><p><strong>NOTA:</strong> Nesse momento, um documento deve ser carregado na tarefa do Workfront para estar disponível no cartão conectado.</p></span></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Horas]</strong></td>

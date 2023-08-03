@@ -7,9 +7,9 @@ description: Opcionalmente, é possível adicionar uma coluna de entrada ao quad
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,17 @@ A coluna de entrada não está disponível em uma placa dinâmica.
 
 A coluna de entrada não está disponível em placas que fazem parte de um fluxo de trabalho. Em vez disso, você pode configurar uma coluna de backlog para obter cartões da lista de cartões. Para obter informações sobre como adicionar uma coluna de backlog a um quadro em um workflow, consulte [Configurar o backlog em uma placa de workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md).
 
-A coluna de entrada é limitada a 300 tarefas e 300 problemas. Elas são classificadas pela prioridade definida nos itens. Para obter informações sobre a prioridade, consulte [Atualizar prioridade da tarefa](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) e [Atualizar prioridade do problema](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
+A coluna de entrada é limitada a 300 tarefas e 300 problemas. A ordem padrão dos itens na coluna de entrada é a seguinte:
+
+Tarefas:
+
+* Ordem principal: Nome do projeto
+* Ordem secundária: estrutura de detalhamento de trabalho
+
+Problemas:
+
+* Ordem principal: Nome do projeto
+* Ordem secundária: número de referência
 
 Para obter mais informações sobre colunas, consulte [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Para obter informações sobre placas conectadas, consulte [Usar placas conectadas em placas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
