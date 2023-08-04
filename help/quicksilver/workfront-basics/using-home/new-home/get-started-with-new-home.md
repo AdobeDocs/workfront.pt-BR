@@ -5,10 +5,10 @@ title: Introdução à nova página inicial no Adobe Workfront
 description: A nova Página inicial é um novo recurso poderoso para gerenciar seu trabalho.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 63aa6bcbdf7e31a61a497f8d89c3bfe3debd5ff1
+source-git-commit: 40eccf1fa13b4221ca599b74c0adff9063b7249a
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 21%
+source-wordcount: '1048'
+ht-degree: 20%
 
 ---
 
@@ -55,16 +55,65 @@ Os widgets são a base da Nova página inicial. Ao adicionar widgets à sua pág
 * **Lista de afazeres**\
     Este widget exclusivo permite adicionar itens de texto a uma lista de verificação pessoal que você pode editar livremente.
 
-Por padrão, a Página inicial é preenchida com alguns widgets específicos com base no seu tipo de licença. A tabela abaixo descreve quais widgets os usuários de cada tipo de licença veem quando navegam pela primeira vez para a Nova página inicial.
+  >[!NOTE]
+  >
+  >Você precisa ter permissão para criar tarefas para criar tarefas no widget de tarefas.
 
-| **Tipo de licença herdada** | **Widgets padrão** | **Tipo de licença atual** | **Widgets padrão** |
-|---|---|---|---|
-| Plano | Meus Projetos, Menções, Tarefas | Padrão | Meus projetos, Meu trabalho, Menções, Tarefas pendentes |
-| Trabalho | Meu trabalho, menções, tarefas | Leve | Meu trabalho, esperando minha aprovação, tarefas pendentes |
-| Revisar | Meu trabalho, menções, tarefas | Colaborador | Meu trabalho, menções, tarefas |
-| Limitado | Meus Projetos, Aguardando Minha Aprovação, Tarefas Pendentes | Externo | Aguardando minha aprovação, tarefas pendentes |
-| Colaborador | Meu trabalho, menções, tarefas |  |  |
-| Externo | Aguardando minha aprovação, tarefas pendentes |  |  |
+Por padrão, a Página inicial é preenchida com alguns widgets específicos com base no seu tipo de licença. As tabelas abaixo descrevem quais widgets os usuários de cada tipo de licença veem quando navegam pela primeira vez para a Nova página inicial.
+
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>Tipo de licença atual</b></td>
+        <td><b>Widgets padrão</b></td>
+    </tr>
+    <tr>
+        <td>Padrão</td>
+        <td>Meus projetos, Meu trabalho, Menções, Tarefas pendentes</td>
+    </tr>
+    <tr>
+        <td>Leve</td>
+        <td>Meu trabalho, esperando minha aprovação, tarefas pendentes</td>
+    </tr>
+    <tr>
+        <td>Colaborador</td>
+        <td>Meu trabalho, menções, tarefas</td>
+    </tr>
+    <tr>
+        <td>Externo</td>
+        <td>Aguardando minha aprovação, tarefas pendentes</td>
+    </tr>
+</table>
+
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>Tipo de licença herdada</b></td>
+        <td><b>Widgets padrão</b></td>
+    </tr>
+    <tr>
+        <td>Plano</td>
+        <td>Meus Projetos, Menções, Tarefas</td>
+    </tr>
+    <tr>
+        <td>Trabalho</td>
+        <td>Meu trabalho, menções, tarefas</td>
+    </tr>
+    <tr>
+        <td>Revisar</td>
+        <td>Meu trabalho, menções, tarefas</td>
+    </tr>
+    <tr>
+        <td>Limitado</td>
+        <td>Meus Projetos, Aguardando Minha Aprovação, Tarefas Pendentes</td>
+    </tr>
+    <tr>
+        <td>Colaborador</td>
+        <td>Meu trabalho, menções, tarefas</td>
+    </tr>
+    <tr>
+        <td>Externo</td>
+        <td>Aguardando minha aprovação, tarefas pendentes</td>
+    </tr>
+</table>
 
 Para obter informações sobre como adicionar, mover, redimensionar ou excluir widgets, consulte [Adicionar, editar ou remover widgets na Nova página inicial](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
