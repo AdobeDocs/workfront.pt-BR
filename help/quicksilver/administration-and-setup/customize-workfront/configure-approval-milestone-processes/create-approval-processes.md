@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
 workflow-type: tm+mt
 source-wordcount: '2227'
 ht-degree: 2%
@@ -16,6 +16,8 @@ ht-degree: 2%
 ---
 
 # Criar um processo de aprovação para itens de trabalho
+
+<!--see below the "hidden" content for the redesigned tabs - August 2023-->
 
 Você pode criar um processo de aprovação que os usuários podem anexar a um item de trabalho (projeto, tarefa, problema, modelo ou tarefa de modelo), um documento ou uma prova. Um processo de aprovação garante que os designados atribuídos ao objeto revisem determinadas alterações antes que o objeto avance no sistema.
 
@@ -71,6 +73,10 @@ Você deve ter o seguinte:
    Ou
 
    Se você estiver criando um processo de aprovação em nível de grupo, clique em **Grupos** ![](assets/groups-icon.png), clique no nome do grupo e clique em **Aprovações**.
+
+   <!--hidden for the new tab redesign - August 2023: 
+   ![](assets/approvals-area-in-setup-processes.png)
+   -->
 
 1. Clique em **Aprovações de projetos**, **Aprovações de tarefas** ou **Aprovação de problemas** dependendo do tipo de processo de aprovação que deseja criar.
 
