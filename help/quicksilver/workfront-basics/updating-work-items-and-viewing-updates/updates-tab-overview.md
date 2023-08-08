@@ -7,9 +7,9 @@ description: A seção Atualizações de um objeto exibe comentários que os usu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1127'
 ht-degree: 4%
 
 ---
@@ -51,83 +51,99 @@ As informações na seção Atualizações são organizadas de forma diferente, 
 
 ### Visão geral da seção Atualizações atual
 
-A seção Atualizações de um objeto mostra até 200 das atualizações mais recentes feitas nos últimos 90 dias.
+* A seção Atualizações de um objeto mostra até 200 das atualizações mais recentes feitas nos últimos 90 dias.
 
-![](assets/updates-tab-before-unified-experience-for-issues.png)
+  ![](assets/updates-tab-before-unified-experience-for-issues.png)
 
-A seção Atualizações atuais mostra as seguintes informações:
+* A seção Atualizações é exibida para os seguintes objetos:
 
-* Comentários feitos pelos usuários e respostas a esses comentários.
-* Atualizações de sistema que são mensagens informativas criadas pelo Workfront para registrar determinados eventos em um objeto. Por exemplo, você pode capturar alterações em campos de status, nome ou personalizados com atualizações do sistema. O administrador do Workfront ou de grupo pode habilitar atualizações de sistema para seus objetos. Para obter mais informações, consulte [Configurar atualizações do sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  <table style="table-layout:auto"> 
+  <col> 
+  <col> 
+  <tbody> 
+    <tr> 
+    <td> 
+      <ul> 
+      <li>Documentos</li> 
+      <li>Metas</li> 
+      <li>Problemas</li> 
+      <li>Iterações</li> 
+      <li>Projetos</li> 
+      <li>Programas</li> 
+      <li>Portfólios</li> 
+      </ul> </td> 
+    <td> 
+      <ul> 
+      <li>Histórias*</li> 
+      <li>Tarefas</li> 
+      <li>Modelos</li> 
+      <li>Modelo de Tarefa</li> 
+      <li>Folhas de horas</li> 
+      <li>Usuários</li>
+      </ul> </td> 
+    </tr> 
+  </tbody> 
+  </table>
 
-A seção Atualizações é exibida para os seguintes objetos:
+  *Histórias são tarefas. Todas as informações relacionadas às tarefas também estão disponíveis para histórias.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li>Documentos</li> 
-     <li>Metas</li> 
-     <li>Problemas</li> 
-     <li>Iterações</li> 
-     <li>Projetos</li> 
-     <li>Programas</li> 
-     <li>Portfólios</li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Histórias*</li> 
-     <li>Tarefas</li> 
-     <li>Modelos</li> 
-     <li>Modelo de Tarefa</li> 
-     <li>Folhas de horas</li> 
-     <li>Usuários</li>
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-*Histórias são tarefas. Todas as informações relacionadas às tarefas também estão disponíveis para histórias.
+* A seção Atualizações atuais mostra as seguintes informações:
+
+   * Atualizações do usuário: comentários feitos pelos usuários e respostas a esses comentários.
+   * Atualizações do sistema: mensagens informativas criadas pelo Workfront para registrar determinados eventos em um objeto. Por exemplo, você pode capturar alterações em campos de status, nome ou personalizados com atualizações do sistema. O administrador do Workfront ou de grupo pode habilitar atualizações de sistema para seus objetos. Para obter mais informações, consulte [Configurar atualizações do sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+* Os seguintes objetos não registram atualizações do sistema:
+
+   * Equipe
+   * Modelo
+   * Modelo de Tarefa
 
 ### Visão geral da seção Atualizações na experiência de comentários em versões beta
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
-
 Para obter informações sobre quais recursos estão disponíveis para a nova experiência de comentários e para quais objetos, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-A seção Atualizações exibe informações nas seguintes guias na nova experiência de comentários:
+![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-* **Comentários**: exibe comentários feitos por usuários e responde a esses comentários. Para obter informações sobre como atualizar objetos na nova experiência de comentários, consulte [Atualizar trabalho](../updating-work-items-and-viewing-updates/update-work.md).
-* **Atividade do sistema**: exibe as atualizações do sistema que são mensagens informativas criadas pelo Workfront para registrar determinados eventos em um objeto. Por exemplo, você pode capturar alterações em campos de status, nome ou personalizados com atualizações do sistema. O administrador do Workfront ou de grupo pode habilitar atualizações de sistema para seus objetos. Para obter mais informações, consulte [Configurar atualizações do sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* A seção Atualizações exibe informações nas seguintes guias na nova experiência de comentários:
 
-Atualmente, você pode adicionar comentários e responder às atualizações usando a nova experiência de comentários nos seguintes objetos:
+   * **Comentários**: exibe comentários feitos por usuários e responde a esses comentários. Para obter informações sobre como atualizar objetos na nova experiência de comentários, consulte [Atualizar trabalho](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Atividade do sistema**: exibe as atualizações do sistema que são mensagens informativas criadas pelo Workfront para registrar determinados eventos em um objeto. Por exemplo, você pode capturar alterações em campos de status, nome ou personalizados com atualizações do sistema. O administrador do Workfront ou de grupo pode habilitar atualizações de sistema para seus objetos. Para obter mais informações, consulte [Configurar atualizações do sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li><p>Metas</p>
-     <li>Placas na área Placas*</li>
-      Essa é a única experiência para metas e cartões.
-     </li> 
-     <li>Projetos</li>
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Problemas</li> 
-     <li>Tarefas</li>
-     <li>Documentos</li>
-     </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+* Atualmente, você pode adicionar comentários e responder às atualizações usando a nova experiência de comentários nos seguintes objetos:
 
-*Você pode adicionar e exibir atualizações para cartões nas áreas Quadro ao ativar as seções Comentários e Atividade do sistema em um cartão. Para obter mais informações, consulte [Adicionar um cartão ad hoc a um quadro](../../agile/get-started-with-boards/add-card-to-board.md).
+  <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+      <tr> 
+      <td> 
+        <ul> 
+        <li><p>Metas</p>
+        <li>Placas na área Placas*</li>
+          Essa é a única experiência para metas e cartões.
+        </li> 
+        <li>Projetos</li>
+        </ul> </td> 
+      <td> 
+        <ul> 
+        <li>Problemas</li> 
+        <li>Tarefas</li>
+        <li>Documentos</li>
+        </ul> </td> 
+      </tr> 
+    </tbody> 
+    </table>
+
+  *Você pode adicionar e exibir atualizações para cartões nas áreas Quadro ao ativar as seções Comentários e Atividade do sistema em um cartão. Para obter mais informações, consulte [Adicionar um cartão ad hoc a um quadro](../../agile/get-started-with-boards/add-card-to-board.md).
+
+<!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this: 
+
+* The following objects don't have a System Activity tab:
+
+  * Team
+  * Template
+  * Template Task
+-->
 
 ## Atualizações que também aparecem em objetos de classificação mais alta
 

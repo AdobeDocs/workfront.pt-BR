@@ -6,14 +6,16 @@ description: Você pode adicionar uma atualização em um objeto do Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
 workflow-type: tm+mt
-source-wordcount: '3471'
+source-wordcount: '3486'
 ht-degree: 1%
 
 ---
 
 # Atualizar trabalho
+
+<!--for the August 10 release: look for these words to see the edits: "August 10"-->
 
 <!--take "Beta" references out when we remove the beta-->
 
@@ -47,7 +49,13 @@ ht-degree: 1%
 
 * Você pode adicionar comentários à maioria dos objetos no Adobe Workfront na seção Atualizações. Para obter mais informações sobre quais objetos exibem a seção Atualizações, consulte [Visão geral da seção Atualizações](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-* É possível adicionar uma atualização em um objeto do Workfront (projeto, tarefa ou problema) para comunicar o progresso no objeto, à medida que você comenta sobre o objeto. Os usuários atribuídos ou inscritos no objeto podem exibir sua atualização.
+* Você pode adicionar comentários a objetos do Workfront de outros aplicativos integrados ao Workfront ou do aplicativo móvel Workfront.
+
+  Nem todos os aplicativos integrados ao Workfront têm a capacidade de adicionar comentários a objetos do Workfront.
+
+  Nem todos os recursos disponíveis na seção Atualizações de um objeto no Workfront estão disponíveis em outros aplicativos, ao acessar objetos do Workfront pelo aplicativo. Por exemplo, os recursos de Rich Text ou tornar um comentário privado para a Empresa de alguém podem não estar disponíveis ao adicionar comentários a um objeto do Workfront a partir de um aplicativo de terceiros.
+
+* Você pode se comunicar sobre o progresso em um objeto do Workfront (projeto, tarefa ou problema), conforme comenta no objeto. Os usuários atribuídos ou inscritos no objeto podem receber uma notificação sobre sua atualização. Qualquer pessoa com acesso de Visualização ao objeto pode visualizar sua atualização.
 
 * É possível marcar os usuários para chamar a atenção deles para a atualização. Os usuários marcados receberão uma notificação no aplicativo e um email sobre a atualização.
 
@@ -62,8 +70,7 @@ ht-degree: 1%
 
    * De um objeto do Workfront, na seção Atualizações
    * Na área Início (para tarefas e problemas)
-   * No painel Resumo, em uma lista de objetos (para tarefas e problemas)
-   * Na folha de horas (para tarefas e problemas)
+   * No painel Resumo, em uma lista de objetos ou em uma folha de horas (para tarefas e problemas)
 
 As informações nesta página descrevem como você pode comentar em objetos do Workfront e como atualizar projetos, tarefas e problemas.
 
@@ -148,12 +155,12 @@ Adicionar uma atualização a um item de trabalho difere dependendo de qual vers
 >
 >A seguinte funcionalidade está disponível para todos os objetos, exceto metas e cartões. Você deve ter uma licença adicional para acessar o Workfront Goals. Para obter informações sobre comentários sobre metas, consulte [Gerenciar comentários de meta em Metas do Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 >
->Você pode adicionar e exibir atualizações a cartões nas áreas Quadro ao ativar as seções Comentários e Atividade do sistema em um cartão. Para obter mais informações, consulte [Adicionar um cartão ad hoc a um quadro](../../agile/get-started-with-boards/add-card-to-board.md).
+>É possível adicionar e exibir atualizações em cartões na área Quadros ao ativar as seções Comentários e Atividade do sistema em um cartão. Para obter mais informações, consulte [Adicionar um cartão ad hoc a um quadro](../../agile/get-started-with-boards/add-card-to-board.md).
 
 1. Vá para o item de trabalho para o qual deseja fornecer uma atualização (como um projeto, tarefa ou problema).
 1. Clique em **Atualizações** seção.
 1. Clique em **Iniciar uma nova atualização,** em seguida, digite a atualização.
-1. (Opcional) Use Rich Text ou adicione emojis, links ou imagens à atualização para aprimorar o conteúdo. Para obter mais informações, consulte [Usar Rich Text em uma atualização do Workfront](#use-rich-text-in-a-workfront-update) neste artigo
+1. (Opcional) Use Rich Text ou adicione emojis, links ou imagens à atualização para aprimorar o conteúdo. Para obter mais informações, consulte [Usar Rich Text em uma atualização do Workfront](#use-rich-text-in-a-workfront-update) neste artigo.
 1. (Opcional) Atualize qualquer uma das seguintes informações sobre o item de trabalho:
 
    <table style="table-layout:auto"> 
@@ -222,17 +229,7 @@ A variável **Comentários** é selecionada por padrão.
    * CTRL + Z (⌘+z para Mac) para desfazer uma alteração
    * CTRL + Y (⌘+y para Mac) para refazer uma alteração
 1. (Opcional) Na **Marcar pessoas ou equipes** digite o nome ou o email de um usuário ou de uma equipe que deseja incluir neste comentário e, em seguida, selecione-o quando ele for exibido na lista.
-1. (Opcional) Para adicionar formatação de rich text à atualização, use uma das seguintes opções no **Rich Text** barra de ferramentas para aprimorar o texto:
-
-   * Negrito
-   * Itálico
-   * Sublinhar
-   * Link
-   * Lista com marcadores
-   * Lista numerada
-   * Adicionar anexo <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
-
-   Para obter mais informações, consulte [Usar Rich Text em uma atualização do Workfront](#use-rich-text-in-a-workfront-update) neste artigo. <!--remove this list, above, when we get to parity for Rich Text-->
+1. (Opcional) Use Rich Text ou adicione <!--hidden for August 10: emojis,--> links ou imagens para sua atualização, para aprimorar seu conteúdo. Para obter mais informações, consulte [Usar Rich Text em uma atualização do Workfront](#use-rich-text-in-a-workfront-update) neste artigo.
 
    >[!TIP]
    >
@@ -243,6 +240,7 @@ A variável **Comentários** é selecionada por padrão.
    >O indicador &quot;Novo&quot; é exibido somente quando o usuário que inseriu uma nova atualização, bem como o usuário que está inserindo uma atualização no momento, estão usando a nova experiência de comentário.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
+1. Clique em **Adicionar anexo** ícone ![](assets/add-image-paperclip-icon.png) <!--replace this icon with this new one for August 10: ![](assets/add-image-mountain-with-plus-icon.png)--> para adicionar uma imagem ao seu comentário. A imagem deve ser salva no computador antes de ser anexada. <!--**************** this might be renamed to "Add image")-->
 
 1. Clique em **Enviar** para adicionar a atualização ao objeto do Workfront.
 1. (Opcional) Para editar um comentário, **Mais** menu ![](assets/more-menu.png) à direita do ícone Curtir e, em seguida, clique em **Editar**.
@@ -256,7 +254,7 @@ Você pode editar seu comentário em até 15 dias a partir do envio. Um indicado
    >* Um email é gerado para notificar os usuários sobre sua atualização somente quando você envia a atualização original. Nenhum email é gerado após a edição da atualização.
    >* O carimbo de data ao lado do comentário é a data do comentário original, não a data da última edição.
 
-1. (Opcional) Clique em **Responder** para responder a um comentário existente, siga as etapas 4 a 7 acima. <!--(**************insure this stays accurate***********)-->. Para obter informações sobre como responder a uma atualização, consulte [Responder a atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Opcional) Clique em **Responder** para responder a um comentário existente, siga as etapas 4 a 8 acima. <!--(**************insure this stays accurate***********)--> Para obter informações sobre como responder a uma atualização, consulte [Responder a atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Condicional e opcional) Se outros usuários tiverem adicionado comentários que são exibidos fora da área visível na seção Atualizações, clique em **Exibir** dentro do azul **novo banner de comentários** na parte inferior da tela para exibir esses comentários.
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
@@ -283,7 +281,7 @@ Você pode editar seu comentário em até 15 dias a partir do envio. Um indicado
 
 ## Usar Rich Text em uma atualização do Workfront{#use-rich-text-in-a-workfront-update}
 
-<!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
+<!--August 10: remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
 >[!NOTE]
 >
@@ -291,8 +289,8 @@ Você pode editar seu comentário em até 15 dias a partir do envio. Um indicado
 
 Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários itens a ele, como emojis, links ou imagens.
 
-1. Vá para a área Atualizações e comece a digitar um comentário.
-1. (Opcional) Para adicionar formatação de rich text à atualização, use os atributos na variável **Rich Text** à medida que você digita.
+1. Vá para a **Atualizações** de um objeto do Workfront e comece a digitar um comentário.
+1. (Opcional) Para adicionar uma formatação de Rich Text à atualização, use os atributos na **Rich Text** à medida que você digita. <!--on August 10, add a screen shot of the complete Rich Text bar here, before the table-->
 
    | **Atributo** | **Botão da barra de ferramentas** | **Teclas de atalho do Mac** | **Teclas de atalho do Windows** |
    |---|---|---|---|
@@ -303,6 +301,7 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
    | Lista com marcadores | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | Lista numerada | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
    | Cotação de bloco | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | Ctrl+Shift+9 |
+   | Emoji | ![](assets/emoji-icon.png) | ⌘+. | ⊞+. |
 
    Para interromper a formatação do texto, desmarque o atributo no **Rich Text** barra de ferramentas.
 
@@ -324,7 +323,7 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
    >[!NOTE]
    >
    >* O Workfront não substitui emoticons de pontuação, como :) por emojis.
-   >* Os emojis não estão disponíveis para atualizações feitas na área Folhas de horas ou para objetos de Nota e Última condição exibidos em um relatório.
+   >* Os emojis não estão disponíveis para os objetos Nota e Última Condição exibidos em um relatório.
    >* O recurso emoji no Workfront utiliza caracteres Unicode e, como tal, é exibido apenas em navegadores e sistemas operacionais que oferecem suporte a pontos de código Unicode. Usuários em uma plataforma, navegador ou versão de sistema operacional diferente da sua podem não ter acesso aos mesmos emojis.
    >* Um emoji não suportado é representado por uma caixa preta ou branca.
    >* O Windows 7 suporta apenas emojis em preto-e-branco.
@@ -443,7 +442,7 @@ Nenhum usuário do Workfront (incluindo o administrador do Workfront) pode exclu
 
    >[!NOTE]
    >
-   >Excluir uma atualização com uma imagem anexada exclui o comentário e a imagem. Para obter mais informações, consulte [Usar rich text em uma atualização do Workfront](#use-rich-text-in-a-workfront-update) neste artigo.
+   >Excluir uma atualização com uma imagem anexada exclui o comentário e a imagem. Para obter mais informações, consulte [Usar Rich Text em uma atualização do Workfront](#use-rich-text-in-a-workfront-update) neste artigo.
 
    Quando o comentário excluído tiver respostas associadas, há uma indicação de que o comentário foi removido com o nome do usuário que o removeu.
 
@@ -453,24 +452,28 @@ Nenhum usuário do Workfront (incluindo o administrador do Workfront) pode exclu
 
    <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
 
-## Adicionar uma atualização em uma Planilha de Horas
+<!--this is no longer needed - adding timesheet comments is just like adding comments to any other object now
 
-1. Vá para uma Planilha de Horas na qual você deseja fazer uma atualização.
-1. Clique na Planilha de horas para abri-la.
-1. Na parte inferior da Planilha de horas, clique em **Incluir um comentário**.
-1. Na caixa exibida na parte inferior da Planilha de horas, digite uma atualização.
+## Add an update on a Timesheet
+
+1. Go to a Timesheet on which you want to make an update.
+1. Click the Timesheet to open it.
+1. At the bottom of the Timesheet, click **Include a comment**.
+1. In the box that displays at the bottom of the Timesheet, type an update.
 
    ![timesheet_update_stream.png](assets/timesheet-update-stream-350x50.png)
 
-1. (Condicional) Para salvar sua atualização sem enviar a Planilha de horas para aprovação, clique em **Salvar para mais tarde**.
+1. (Conditional) To save your update without submitting the Timesheet for approval, click **Save for Later**.
 
-   Ou
+   Or
 
-   Para salvar sua atualização e enviar a Planilha de horas para aprovação, clique em **Enviar para aprovação**.
+   To save your update and submit the Timesheet for approval, click **Submit for Approval**.
 
-   Ou
+   Or
 
-   Se sua Planilha de Horas não estiver configurada com um aprovador, clique em **Salvar e fechar planilha de horas** para salvar a atualização.
+   If your Timesheet is not set up with an approver, click **Save and Close Timesheet** to save your update.
+
+-->
 
 ## Ativar ou desativar atualizações do sistema
 
@@ -493,9 +496,13 @@ A seção Atualizações de um objeto do Workfront exibe dois tipos de informaç
 
   ![](assets/system-updates-cl-350x277.png)
 
-Dependendo da sua licença do Workfront, as atualizações do sistema podem ser ativadas por padrão. Os administradores do Workfront podem determinar o que é rastreado nas atualizações do sistema, conforme explicado em [Atualizações rastreadas pelo sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). Você também pode filtrar as atualizações ou atividades do sistema para ver apenas as atualizações do usuário para todos os objetos.
+  Dependendo da sua licença do Workfront, as atualizações do sistema podem ser ativadas por padrão. Os administradores do Workfront podem determinar o que é rastreado nas atualizações do sistema, conforme explicado em [Atualizações rastreadas pelo sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). Você também pode filtrar as atualizações ou atividades do sistema para ver apenas as atualizações do usuário para todos os objetos.
 
-Para obter mais informações sobre a diferença entre atualizações do usuário e do sistema, consulte [Atualizações rastreadas pelo sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  Os seguintes objetos não têm atualizações geradas pelo sistema:
+
+   * Equipe
+   * Modelo
+   * Modelo de Tarefa
 
 Para ativar ou desativar as atualizações do sistema:
 
@@ -505,4 +512,11 @@ Para ativar ou desativar as atualizações do sistema:
    ![](assets/show-system-updates-qs-350x55.png)
 
    Essa opção é mantida em todos os objetos no Workfront e permanece na posição selecionada, mesmo que você faça logout do Workfront.
+
+   >[!TIP]
+   >
+   >   Os objetos que não registram atualizações do sistema não têm a opção Mostrar Atualizações do Sistema na área Atualizações.
+
+   <!--when Anna adds the new updates stream to ALL objects, she will remove the System Activity tab from the objects that don't record system updates - add another line to the TIP above to say: The System Activity tab is not available for objects that don't record system-generated updates.*************** OR: maybe make this part of the statement where we list which objects these are, above???  -->
+
 

@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 3%
@@ -101,7 +101,7 @@ Agora é possível adicionar emojis a um comentário usando uma opção da barra
 
 Para obter mais informações, consulte [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). A documentação será atualizada no momento da versão.
 
-Pré-visualização e produção: a ser anunciado (durante ou logo após a versão 23.3)
+Pré-visualização e produção: a ser anunciado (durante ou logo após a versão 23.3) <!--August 10, 2023-->
 
 #### Nova experiência de comentários para objetos adicionais
 
