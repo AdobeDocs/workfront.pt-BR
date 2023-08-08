@@ -7,9 +7,9 @@ description: A Adobe Workfront não foi projetada para replicar ou substituir se
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
+source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -65,8 +65,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, clique no nome de usuário ao lado da imagem do perfil. Ou (se disponível) clique na imagem do perfil na área de navegação superior e, em seguida, clique em **[!UICONTROL Perfil do Workfront]**.
 1. No painel esquerdo, clique em **[!UICONTROL Folga]**.
 1. Selecione a data desejada para sua folga pessoal.
-1. Selecionar **[!UICONTROL O dia todo]**, se você estiver tirando um dia de folga.\
+
+   ![Calendário de folga pessoal](assets/personal-time-off-calendar.png)
+
+1. Selecionar **[!UICONTROL O dia todo]**, se você estiver tirando um dia de folga.
+
    Deixe-a desmarcada se estiver tirando menos de um dia inteiro de folga e indique as horas de início e término de sua folga.
 
-1. Clique em **[!UICONTROL Salvar]**.\
+1. Clique em **[!UICONTROL Salvar]**.
+
    Sua folga agora está visível em todo o [!DNL Workfront] nas ferramentas de gerenciamento de recursos, como o Planejador de recursos e o Balanceador de carga de trabalho. Quando você recebe um trabalho durante esse período, uma dica de ferramenta é exibida informando ao usuário que você programou uma folga.
