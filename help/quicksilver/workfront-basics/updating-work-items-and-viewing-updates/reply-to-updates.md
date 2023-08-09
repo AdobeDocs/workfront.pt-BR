@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
 &#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
-## Responder a uma atualização ou a uma resposta
+## Responder a uma atualização ou uma resposta no Workfront
 
 Você pode responder a um comentário na thread de um objeto que pode ser exibido ou pode fazer logon como administrador de Workfront ou de grupo e responder a um comentário em nome de outro usuário. Para obter mais informações, consulte [Fazer logon como outro usuário](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
@@ -127,53 +127,23 @@ Para obter informações sobre quais recursos estão disponíveis para a nova ex
 1. (Opcional) Clique no link **Mais** menu ![](assets/more-menu.png) ao lado da atualização para obter mais opções para gerenciar a resposta. Para obter mais informações, consulte [Atualizar trabalho](../updating-work-items-and-viewing-updates/update-work.md).
 
 
-## Responder a uma atualização por notificação por email
+## Resposta a uma atualização de uma notificação por email
 
 Dependendo de como suas notificações por email estão configuradas, você poderá receber uma notificação por email quando for feita uma atualização em determinados objetos aos quais tem acesso.
 
->[!NOTE]
->
->A resposta a atualizações por email não está disponível para ambientes no Cluster 6.
+Você pode responder a uma atualização por meio de uma notificação por email das seguintes maneiras:
+
+* Responda ao email recebido. O email de resposta é adicionado como uma resposta do Workfront ao comentário original.
+* Use o botão Comentário no email para navegar de volta para o Workfront e responder à atualização na área Atualizações.
 
 Este é um exemplo de uma notificação por email acionada como resultado de uma atualização feita na guia Updates de uma tarefa:
 
 ![email.png](assets/email-350x202.png)
 
-No email, você pode adicionar facilmente uma resposta diretamente ao thread de comunicação do objeto no Workfront. Você também pode adicionar uma resposta sem fazer logon no Workfront, em um email gerado a partir de comentários feitos aos seguintes objetos:
+Para obter informações, consulte [Responder a notificações por email](../updating-work-items-and-viewing-updates/reply-to-email-notifications.md).
 
-* Projeto
-* Tarefa
-* Problema
-* Documento
-* Modelo e tarefa de modelo
-* Portfólio
-* Programa
-* Iteração
-* Planilha de horas
 
-### Resposta a uma atualização de uma notificação por email
 
-Ao receber uma notificação por email, você pode abrir rapidamente o objeto do Workfront associado e adicionar uma resposta diretamente ao thread de comunicação.
 
-1. Clique em **Comentário** na notificação por email.
 
-   A página Detalhes do objeto é aberta no Workfront.
 
-1. Vá para a atualização à qual deseja adicionar uma resposta.
-
-   Além de ver os usuários que estão ativamente envolvidos na conversa, você pode ver quem foi marcado em cada resposta na parte superior da thread de atualização. Esses usuários, juntamente com quaisquer usuários que se inscreveram no objeto, recebem notificação sempre que uma atualização ou resposta é feita no objeto. Para marcar mais usuários, consulte [Marcar outros usuários em atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-
-1. Clique em **Responder,** digite sua resposta e clique em **Responder**.
-
-### Adicionar uma atualização a um objeto fora do Workfront
-
-Ao receber uma notificação por email do Workfront, você pode adicionar rapidamente uma atualização ao thread de comunicação sem fazer logon no Workfront.
-
-Para adicionar uma atualização a um email do Workfront:
-
-1. No aplicativo de email, abra o email do Workfront ao qual deseja responder e abra uma janela de email de resposta.
-1. Digite sua atualização.\
-   Anexos não são permitidos e qualquer formatação de Rich Text aplicada a uma atualização em um email não é exibida na atualização quando visualizada na guia Atualizações.
-1. Clique em **Enviar**.
-
-   Sua atualização é adicionada ao thread de comunicação do objeto.
