@@ -4,9 +4,9 @@ description: Visão geral da versão 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 368ad085a1f07ea9301bd1d5279add76b9cd86d9
+source-git-commit: 53c124eec4d78b59e5b44e95ec28db7de779aec7
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: '2738'
 ht-degree: 0%
 
 ---
@@ -729,7 +729,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                                 <p>Versão de pré-visualização: ao longo do período da versão 23.3</p>
                             </li>
                             <li>
-                                <p><span class="preview">Um mínimo de 2 semanas após o lançamento para Pré-visualização (a menos que especificado de outra forma)</span></p>
+                                <p><span class="preview">Versão de produção: um mínimo de 2 semanas após o lançamento para Pré-visualização (a menos que especificado de outra forma)</span></p>
                             </li>
                         </ul>
                     </td>
@@ -739,7 +739,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
            </tbody>
         </table>
 
-## Avisos
+## Anúncios
 
 ### Aprimoramentos do Workfront Fusion
 
