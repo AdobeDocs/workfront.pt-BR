@@ -5,7 +5,7 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
+source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 1%
@@ -13,8 +13,6 @@ ht-degree: 1%
 ---
 
 # Configurar notificações de lembrete
-
-<!--hidden content for the tab redesign in August 2023-->
 
 As notificações de lembrete enviam emails para recipients com base em critérios especificados. Como administrador do Adobe Workfront ou usuário com nível de acesso de Planejador e acesso administrativo a notificações de lembrete, você pode associar manualmente notificações de lembrete a itens de trabalho, como projetos, tarefas, problemas e folhas de horas.
 
@@ -68,9 +66,8 @@ Para obter informações sobre como criar um template de email, consulte [Config
 
 1. Clique em **E-mail** > **Notificação** > **Notificações de lembrete**.
 
-   <!--hidden for the tab redesign for August 2023:
    ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
-   -->
+
 1. Clique em **Nova Notificação de Lembrete**.
 
 1. Na lista suspensa, clique no tipo de objeto que deseja associar à notificação de lembrete.

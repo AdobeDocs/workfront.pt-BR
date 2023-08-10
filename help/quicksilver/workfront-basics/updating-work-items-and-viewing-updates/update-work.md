@@ -6,9 +6,9 @@ description: Você pode adicionar uma atualização em um objeto do Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
 workflow-type: tm+mt
-source-wordcount: '3486'
+source-wordcount: '3460'
 ht-degree: 1%
 
 ---
@@ -240,8 +240,6 @@ A variável **Comentários** é selecionada por padrão.
    >O indicador &quot;Novo&quot; é exibido somente quando o usuário que inseriu uma nova atualização, bem como o usuário que está inserindo uma atualização no momento, estão usando a nova experiência de comentário.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. Clique em **Adicionar anexo** ícone ![](assets/add-image-paperclip-icon.png) <!--replace this icon with this new one for August 10: ![](assets/add-image-mountain-with-plus-icon.png)--> para adicionar uma imagem ao seu comentário. A imagem deve ser salva no computador antes de ser anexada. <!--**************** this might be renamed to "Add image")-->
-
 1. Clique em **Enviar** para adicionar a atualização ao objeto do Workfront.
 1. (Opcional) Para editar um comentário, **Mais** menu ![](assets/more-menu.png) à direita do ícone Curtir e, em seguida, clique em **Editar**.
 1. Edite as informações no comentário, adicione ou remova imagens ou remova qualquer um dos usuários marcados.
@@ -301,7 +299,6 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
    | Lista com marcadores | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | Lista numerada | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
    | Cotação de bloco | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | Ctrl+Shift+9 |
-   | Emoji | ![](assets/emoji-icon.png) | ⌘+. | ⊞+. |
 
    Para interromper a formatação do texto, desmarque o atributo no **Rich Text** barra de ferramentas.
 
@@ -345,7 +342,7 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
 
    Ou
 
-   Clique em **Adicionar anexo** ícone ![](assets/add-image-paperclip-icon.png) e navegue até a imagem em seu computador ao usar a experiência de comentários Beta. <!--the name of the icon and the icon for it might change-->
+   Clique em **Adicionar anexo** ícone ![](assets/add-image-mountain-with-plus-icon.png) e navegue até a imagem em seu computador ao usar a experiência de comentários Beta. <!--**************** the tooltip of this icon might be renamed to "Add image")-->
 
    >[!NOTE]
    >
