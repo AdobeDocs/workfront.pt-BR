@@ -5,10 +5,10 @@ title: Introdução à nova página inicial no Adobe Workfront
 description: A nova Página inicial é um novo recurso poderoso para gerenciar seu trabalho.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 40eccf1fa13b4221ca599b74c0adff9063b7249a
+source-git-commit: 8c18753f5bd51a90f74357b8630ca6404e779f8f
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 20%
+source-wordcount: '1095'
+ht-degree: 19%
 
 ---
 
@@ -23,7 +23,9 @@ A nova página inicial foi projetada para ser altamente personalizável, permiti
 
 ### Dispositivos
 
-Os widgets são a base da Nova página inicial. Ao adicionar widgets à sua página inicial, você pode escolher o tipo de informação que é exibida para melhor atender às suas necessidades de trabalho. Alguns widgets só estão disponíveis para tipos específicos de licença, pois os objetos que eles rastreiam só estão disponíveis para essas licenças. Abaixo estão os dez widgets disponíveis atualmente para escolher, bem como um resumo das informações que eles exibem:
+Os widgets são a base da Nova página inicial. Ao adicionar widgets à sua página inicial, você pode escolher o tipo de informação que é exibida para melhor atender às suas necessidades de trabalho. Alguns widgets só estão disponíveis para tipos específicos de licença, pois os objetos que eles rastreiam só estão disponíveis para essas licenças. Para obter informações sobre como adicionar, mover, redimensionar ou excluir widgets, consulte [Adicionar, editar ou remover widgets na Nova página inicial](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+
+Abaixo estão os dez widgets disponíveis atualmente para escolher, bem como um resumo das informações que eles exibem:
 
 * **Meu trabalho**\
     Um ótimo lugar para começar a gerenciar uma variedade de trabalhos, este dispositivo exibe todos os problemas, solicitações e tarefas atribuídas a você em um só lugar.
@@ -50,7 +52,7 @@ Os widgets são a base da Nova página inicial. Ao adicionar widgets à sua pág
     Exibe todas as aprovações de sua organização em uma tabela com colunas personalizáveis, além de uma barra de pesquisa que permite pesquisar aprovações específicas.
 
 * **Menções**\
-    Exibe tópicos de comentários recentes que @mentions você no Workfront, bem como um botão de resposta que permite redigir uma resposta no dispositivo.
+    Exibe tópicos de comentários recentes que @mentions você no Workfront, bem como um botão de resposta que permite redigir uma resposta no dispositivo. Este widget também mostra comentários feitos sobre tarefas e problemas atribuídos a você, atribuídos a outro usuário, de sua propriedade, do qual você é o contato principal ou que você criou, desde que a tarefa ou problema tenha sido atualizado nos últimos 30 dias.
 
 * **Lista de afazeres**\
     Este widget exclusivo permite adicionar itens de texto a uma lista de verificação pessoal que você pode editar livremente.
@@ -114,8 +116,6 @@ Por padrão, a Página inicial é preenchida com alguns widgets específicos com
         <td>Aguardando minha aprovação, tarefas pendentes</td>
     </tr>
 </table>
-
-Para obter informações sobre como adicionar, mover, redimensionar ou excluir widgets, consulte [Adicionar, editar ou remover widgets na Nova página inicial](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
 ### Personalização de plano de fundo
 
