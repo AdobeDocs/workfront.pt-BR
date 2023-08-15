@@ -6,20 +6,45 @@ description: Você pode adicionar uma atualização em um objeto do Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
+source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
 workflow-type: tm+mt
-source-wordcount: '3460'
+source-wordcount: '3430'
 ht-degree: 1%
 
 ---
 
 # Atualizar trabalho
 
-<!--for the August 10 release: look for these words to see the edits: "August 10"-->
 
-<!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
+<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+
+<!--after August 17: 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+
+<!--replace the note below with this at August 17: 
+>[!NOTE]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets
+
+-->
+
+<!-- with October 26 release: add somewhere this:
+
+>[!NOTE]
+>
+>Iterations display the legacy commenting experience.-->
+
 
 >[!NOTE]
 >
@@ -151,6 +176,8 @@ Adicionar uma atualização a um item de trabalho difere dependendo de qual vers
 
 ### Adicionar uma atualização a um item de trabalho na seção Atualizações atual
 
+<!--on October 26, replace "current" with "legacy"-->
+
 >[!NOTE]
 >
 >A seguinte funcionalidade está disponível para todos os objetos, exceto metas e cartões. Você deve ter uma licença adicional para acessar o Workfront Goals. Para obter informações sobre comentários sobre metas, consulte [Gerenciar comentários de meta em Metas do Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
@@ -209,15 +236,16 @@ Adicionar uma atualização a um item de trabalho difere dependendo de qual vers
 
 1. Para responder a uma atualização, consulte [Responder a atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-### Adicionar uma atualização a um item de trabalho usando a experiência de comentário Beta
+### Adicionar uma atualização a um item de trabalho usando a nova experiência de comentários
 
 Para obter informações sobre quais recursos estão disponíveis para a nova experiência de comentários e para quais objetos, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 1. Localize o objeto que você deseja atualizar e clique no nome dele para abrir a página do objeto.
 1. Clique em  **Atualizações** no painel esquerdo.
-1. Ativar o **Comentando Beta** no canto superior direito da área Atualizações, clique em **Concordo** no acordo Beta. Isso alterna a área Atualizações para a experiência de comentários Beta.
-A variável **Comentários** é selecionada por padrão.
+
+   A variável **Comentários** é selecionada por padrão.
 1. Comece a inserir um comentário no **Novo comentário** caixa.
+   <!-- August 17 - add new screen shot and make yellow-->
 
    ![](assets/comment-box-empty-unshimmed.png)
 
@@ -241,9 +269,11 @@ A variável **Comentários** é selecionada por padrão.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. Clique em **Enviar** para adicionar a atualização ao objeto do Workfront.
-1. (Opcional) Para editar um comentário, **Mais** menu ![](assets/more-menu.png) à direita do ícone Curtir e, em seguida, clique em **Editar**.
+1. Para editar um comentário, clique no link **Mais** menu ![](assets/more-menu.png) à direita do ícone Curtir e, em seguida, clique em **Editar**.
 1. Edite as informações no comentário, adicione ou remova imagens ou remova qualquer um dos usuários marcados.
 Você pode editar seu comentário em até 15 dias a partir do envio. Um indicador &quot;Editado&quot; é adicionado à esquerda do carimbo de data que é exibido quando o comentário é atualizado.
+
+   <!--August 17 - new screen shot and make yellow-->
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
@@ -254,6 +284,8 @@ Você pode editar seu comentário em até 15 dias a partir do envio. Um indicado
 
 1. (Opcional) Clique em **Responder** para responder a um comentário existente, siga as etapas 4 a 8 acima. <!--(**************insure this stays accurate***********)--> Para obter informações sobre como responder a uma atualização, consulte [Responder a atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Condicional e opcional) Se outros usuários tiverem adicionado comentários que são exibidos fora da área visível na seção Atualizações, clique em **Exibir** dentro do azul **novo banner de comentários** na parte inferior da tela para exibir esses comentários.
+
+   <!--August 17 - new screen shot and make yellow-->
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
 
@@ -267,7 +299,9 @@ Você pode editar seu comentário em até 15 dias a partir do envio. Um indicado
 1. (Opcional) Clique no link **Curtir** ícone![](assets/like-icon.png). O ícone é atualizado com o número de curtidas.
 1. (Condicional e Opcional) Se você incluiu outras pessoas no seu comentário, clique no número de membros incluídos na atualização para exibir uma lista de entidades com as quais o comentário inserido é compartilhado.
 
-   ![](assets/members-icons-expanded-unshimmed.png)
+<!--August 17 - new screen shot and make yellow-->
+
+![](assets/members-icons-expanded-unshimmed.png)
 1. (Opcional) Clique no link **Atividade do sistema** para ver as atualizações registradas pelo sistema. Quando o objeto ou qualquer um de seus filhos é atualizado, o Workfront gera uma observação sobre essa atualização e a exibe na guia Atividade do sistema.
 
    Para obter mais informações, consulte [Visão geral da seção Atualizações](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -313,6 +347,8 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
 
 1. (Opcional) Se quiser incluir texto de atualizações anteriores ou de outras fontes e diferenciá-lo da sua própria atualização, você poderá marcá-lo como uma Cotação de Bloqueio. Clique em **Cotação de bloco** ícone ![](assets/block-quote-small.png) e digite o texto que deseja citar. O texto citado é exibido marcado com uma linha cinza vertical. Clique em **Cotação de bloco** para retornar à formatação normal.
 
+   <!--August 17 - new screen shot and make yellow-->
+
    ![](assets/block-quote-marked-350x144.png)
 
 1. (Opcional) Adicione emojis à atualização.
@@ -342,7 +378,7 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
 
    Ou
 
-   Clique em **Adicionar anexo** ícone ![](assets/add-image-mountain-with-plus-icon.png) e navegue até a imagem em seu computador ao usar a experiência de comentários Beta. <!--**************** the tooltip of this icon might be renamed to "Add image")-->
+   Clique em **Adicionar anexo** ícone ![](assets/add-image-mountain-with-plus-icon.png) e navegue até a imagem no computador ao usar a nova experiência de comentários. <!--**************** the tooltip of this icon might be renamed to "Add image")--> <!--in October 26 - leave this as the only icon instead of the OR option-->
 
    >[!NOTE]
    >
@@ -366,6 +402,8 @@ Há várias maneiras de copiar uma atualização. Depois de copiar um link, voc�
 Copiar uma atualização é diferente, dependendo da experiência de comentário usada.
 
 ### Copiar uma atualização na experiência de comentários atual
+
+<!--October 26 - replace current with legacy-->
 
 * [Copiar a atualização](#copy-the-update)
 * [Copiar o link da thread](#copy-the-thread-link)
@@ -431,7 +469,7 @@ Dependendo do acesso que seu administrador do Workfront fornecer, talvez você p
 Nenhum usuário do Workfront (incluindo o administrador do Workfront) pode excluir atualizações feitas por outro usuário. No entanto, se o nível de acesso de um usuário permitir que ele exclua suas próprias atualizações, o administrador do Workfront poderá fazer logon como esse usuário e excluir as atualizações feitas. Para obter mais informações, consulte [Criar ou modificar níveis de acesso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) e [Fazer logon como outro usuário](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 1. Vá para a atualização ou resposta que deseja excluir.
-1. Clique em **Mais** menu ao lado da atualização ou resposta que deseja excluir e clique em **Excluir**.
+1. Clique em **Mais** menu ao lado da atualização ou resposta que deseja excluir e clique em **Excluir**. <!--October 26 - replace screen shot here-->
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -442,6 +480,8 @@ Nenhum usuário do Workfront (incluindo o administrador do Workfront) pode exclu
    >Excluir uma atualização com uma imagem anexada exclui o comentário e a imagem. Para obter mais informações, consulte [Usar Rich Text em uma atualização do Workfront](#use-rich-text-in-a-workfront-update) neste artigo.
 
    Quando o comentário excluído tiver respostas associadas, há uma indicação de que o comentário foi removido com o nome do usuário que o removeu.
+
+   <!-- August 17 - replace screen shot??? - if yes, make it yellow-->
 
    ![](assets/removed-comment-indicator-new-experience.png)
 
@@ -481,17 +521,17 @@ Nenhum usuário do Workfront (incluindo o administrador do Workfront) pode exclu
 >[!NOTE]
 >
 >Não é possível desativar as atualizações do sistema ao usar a nova experiência de comentários.
->As informações nesta seção se referem apenas à funcionalidade disponível na seção Atualizações atual.
+>As informações nesta seção se referem apenas à funcionalidade disponível na seção Atualizações atual. <!--October 26: replace current with legacy-->
 >Para obter mais informações sobre atualizações do sistema na versão Beta, consulte [Visão geral da seção Atualizações](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 A seção Atualizações de um objeto do Workfront exibe dois tipos de informações:
 
-* **Atualizações de usuário:** Atualizações de usuário são comentários que você e outros usuários do sistema inseriram.
+* **Atualizações de usuário:** Atualizações de usuário são comentários que você e outros usuários do sistema inseriram. <!--August 17 - new screen shot and make yellow-->
 
   ![](assets/user-update-cl-350x277.png)
 
-* **Atualizações do sistema:** As atualizações de sistema registram a remoção de ativos, a adição ou exclusão de versões, a anexação ou remoção de uma solicitação de aprovação, bem como quaisquer edições ou alterações feitas nos documentos no objeto.
+* **Atualizações do sistema:** As atualizações de sistema registram a remoção de ativos, a adição ou exclusão de versões, a anexação ou remoção de uma solicitação de aprovação, bem como quaisquer edições ou alterações feitas nos documentos no objeto. <!--August 17 - new screen shot and make yellow-->
 
   ![](assets/system-updates-cl-350x277.png)
 
