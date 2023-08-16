@@ -7,7 +7,9 @@ description: Visão geral do gerenciamento de relatórios
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 535b81a4-77bb-4c6b-84e0-e83f080e802e
-source-git-commit: 01b27ffa881dae44c0f9d84f9a4853c4b4d32b5f
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '25'
 ht-degree: 0%
@@ -19,5 +21,5 @@ ht-degree: 0%
 
 Esta seção contém os seguintes artigos:
 
-* [Criar um relatório na Tela de relatórios](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
-* [Exportar um relatório na Tela de relatórios](../../../reports-and-dashboards/reporting-canvas/manage-reports/export-report.md)
+* [Criar um relatório na tela de relatórios](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
+* [Exportar um relatório na Tela de relatório](../../../reports-and-dashboards/reporting-canvas/manage-reports/export-report.md)

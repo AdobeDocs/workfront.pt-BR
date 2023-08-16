@@ -6,7 +6,9 @@ description: Os blocos de conteúdo da Web permitem exibir informações de site
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 1%
@@ -61,7 +63,6 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
    >   * powerbi.com
    >   * domo.com
    >   * looker.com
-
 
    Um aviso será exibido abaixo do URL inserido se ele não puder ser incorporado. Esses avisos incluem:
 

@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 7%
@@ -41,7 +43,7 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
    >
    >À medida que você cria o campo de fórmula, a variável **Visualização do campo** à direita, são exibidos exemplos do campo resultante.
 
-   Cada função contém um número de retângulos pontilhados vazios que serão usados como argumentos no cálculo de um resultado. Eles podem ser preenchidos digitando texto estático ou números, arrastando e soltando um campo do painel esquerdo (usando o valor do campo no cálculo) ou arrastando e soltando outra função (criando uma função aninhada). As possíveis funções incluem:
+   Cada função contém um número de retângulos pontilhados vazios que serão usados como argumentos no cálculo de um resultado. Esses podem ser preenchidos inserindo texto ou números estáticos, arrastando e soltando um campo do painel esquerdo (usando o valor do campo no cálculo) ou arrastando e soltando outra função (criando uma função aninhada). As possíveis funções incluem:
 
    | Função | Descrição | Output |
    |---|---|---|

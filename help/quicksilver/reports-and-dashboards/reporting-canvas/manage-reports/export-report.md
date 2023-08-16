@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 1%
@@ -37,7 +39,7 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
    >   * Se você exportar um relatório que contém várias tabelas para um formato XLSX, o arquivo exportado conterá uma planilha separada para cada tabela.
    >   * Se exportar um relatório que contém várias tabelas para um formato CSV, o resultado exportado será uma pasta compactada que contém um arquivo separado para cada tabela.
    >   * Se você exportar uma tabela que contém linhas agrupadas para um formato CSV, o arquivo CSV incluirá todas as linhas, mas elas não serão exibidas em grupos.
-
+   >   
 
 <!-- 1. (Conditional) If you selected **PDF**, configure the fields below to format the exported file, then click **Download PDF**.
 

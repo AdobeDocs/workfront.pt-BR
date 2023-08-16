@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 355bbe5b-9c66-4b6b-b479-a48a20b53fe6
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 2%
@@ -95,7 +97,7 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
    * Para adicionar outro grupo, arraste outro campo do painel lateral.
    * Para exibir linhas em um grupo recolhido por padrão, clique no link **Menu Mais** ícone ![](assets/more-icon.png) ao lado do grupo, clique em **Recolher grupo**.
 
-      Cada grupo pode ser configurado individualmente para ser exibido com linhas recolhidas ou expandidas. Por padrão, todas as linhas agrupadas são recolhidas.
+     Cada grupo pode ser configurado individualmente para ser exibido com linhas recolhidas ou expandidas. Por padrão, todas as linhas agrupadas são recolhidas.
 
    * Para exibir uma contagem na linha do grupo, clique no **Menu Mais** ícone ![](assets/more-icon-27x15.png) ao lado do grupo, clique em **Contagem da exibição**.
    * Para remover um grupo, clique no link **Menu Mais** ícone ![](assets/more-icon.png) ao lado do grupo, clique em **Remover grupo**.

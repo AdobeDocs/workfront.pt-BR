@@ -5,10 +5,12 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 1838b142-d845-4795-b27f-80bfba18e9d4
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '857'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -89,7 +91,7 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
       <td> <p>O campo que você está filtrando existe e recebeu um valor.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Is Less Than</strong> </td> 
+      <td role="rowheader"><strong>É menor que</strong> </td> 
       <td> <p>Pesquisa todos os resultados com um valor menor do que o inserido, sem incluir o valor inserido.</p> </td> 
      </tr> 
      <tr> 
@@ -113,7 +115,7 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
       <td> <p>Pesquisa o texto especificado em uma cadeia de caracteres de texto inteira.</p> <p>Por exemplo, usar "Contém Inf" captura qualquer coisa com "Inf" ou "inf", como a palavra "Infinito".</p> <p>Observação: O Adobe Workfront pesquisa a palavra ou frase inteira que você informa para cada regra de filtro. Por exemplo, se você estiver procurando campos com a frase "novo projeto" no nome, o Workfront não exibirá projetos que tenham somente "novo" ou "projeto" no nome ou frases que contenham palavras extras entre eles, como "novo projeto principal". O filtro localiza somente projetos com a frase exata "novo projeto" no nome.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Não Contém (Distingue maiúsc. e minúsc.)</strong> </td> 
+      <td role="rowheader"><strong>Não Contém</strong> </td> 
       <td> <p>Isso filtra os itens que não têm texto especificado.</p> <p>Por exemplo, "não contém inf" retorna qualquer campo sem "Inf" ou "inf" em seus nomes.</p> </td> 
      </tr> 
     </tbody> 
