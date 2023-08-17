@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: a751b0fab898130bbe681bfd824cc8026eb3607c
+source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1723'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,9 @@ Este blueprint contém a configuração de estruturas organizacionais para expan
 
 **[!UICONTROL Configuração da organização de tecnologia da informação]**
 Este blueprint contém a configuração de estruturas organizacionais para expandir para um caso de uso de Tecnologia da informação.
+
+**[!UICONTROL Noções básicas de instância herdada | Lista de verificação]**
+Este blueprint contém um modelo de projeto (ou lista de verificação) que pode ser revisado com uma pequena lista de perguntas, recursos e links para compreender claramente como a instância do Workfront foi configurada. Use-a quando tiver herdado recentemente uma instância do Workfront e precisar de orientação sobre onde começar.
 
 **[!UICONTROL Execução integrada de campanha]**
 A variável [!UICONTROL Execução integrada de campanha] o blueprint contém um único modelo de projeto que organiza o trabalho distribuído em várias equipes para executar uma campanha com vários canais.

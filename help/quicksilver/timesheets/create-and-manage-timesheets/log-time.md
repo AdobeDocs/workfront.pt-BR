@@ -1,24 +1,27 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Registrar tempo
+title: Registrar de tempo
 description: Você pode registrar horas para itens de trabalho no &Adobe Workfront para indicar o número de horas que você gasta trabalhando neles. Você também pode registrar horas que não estejam relacionadas ao trabalho, como férias, licença médica ou tempo gasto em reuniões. O horário registrado é exibido em sua folha de horas.
 author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
 workflow-type: tm+mt
-source-wordcount: '3337'
+source-wordcount: '3409'
 ht-degree: 0%
 
 ---
 
-# Registrar tempo
+# Registrar de tempo
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>\
+<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+
+<span class="preview">Para obter informações sobre a programação de lançamento atual, consulte [Visão geral da versão do quarto trimestre de 2023](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
 
 Você pode registrar o tempo para itens de trabalho no Adobe Workfront para indicar o número de horas que você gasta trabalhando neles. Você também pode registrar horas que não estejam relacionadas ao trabalho, como férias, licença médica ou tempo gasto em reuniões. O horário registrado é exibido em sua folha de horas.
 
@@ -97,7 +100,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo e registra
 * O número máximo de itens exibidos em uma folha de horas é 45. Se houver mais de 45 itens cujas datas correspondam ao período da folha de horas, apenas os itens atualizados mais recentemente serão exibidos.
 * As entradas de horas incluídas nos registros de cobrança são esmaecidas e não podem ser editadas na folha de horas. Para obter mais informações, consulte [Criar registros de cobrança](../../manage-work/projects/project-finances/create-billing-records.md).
 
-## Registrar tempo
+## Registrar de tempo
 
 Você pode registrar horas nas seguintes áreas no Workfront:
 
@@ -362,7 +365,7 @@ Você pode registrar o tempo específico do projeto em um projeto, tarefa ou pro
 
 #### Atualiza a seção{#updates-section}
 
-<!--remove the note below when the -->
+<!--remove the note below - October 2023 -->
 
 >[!NOTE]
 >
@@ -394,7 +397,7 @@ Para registrar horas na seção Atualizações de um projeto, tarefa ou problema
    >   
    >   Há uma indicação no canto superior direito da caixa Inserir dias de quantas horas são incluídas em um dia.
 
-   ![](assets/log-time-box-in-updates-stream.png)
+   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
 
 1. Especifique as seguintes informações:
 

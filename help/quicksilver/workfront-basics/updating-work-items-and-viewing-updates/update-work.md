@@ -6,9 +6,9 @@ description: Você pode adicionar uma atualização em um objeto do Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
+source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
 workflow-type: tm+mt
-source-wordcount: '3430'
+source-wordcount: '3496'
 ht-degree: 1%
 
 ---
@@ -19,56 +19,55 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
 
-<!--after August 17: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>\
+<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
 
-<!--replace the note below with this at August 17: 
->[!NOTE]
->
->We are currently redesigning the commenting experience in Adobe Workfront.
->Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
->For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
->
->The new commenting experience is available only for the Updates section, and it is not available for the following areas:
->
-> * Home
-> * Summary panel in lists
-> * Summary panel in timesheets
+<span class="preview">Para obter informações sobre a programação de lançamento atual, consulte [Visão geral da versão do quarto trimestre de 2023](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
 
--->
+>[!IMPORTANT]
+>
+>No momento, estamos reprojetando a experiência de comentários no Adobe Workfront.
+>Dependendo do ambiente e de quais objetos você acessa a experiência de comentários, você pode ver funcionalidades diferentes na seção Atualizações.
+>
+>Para obter mais informações sobre a nova experiência de comentários e sua disponibilidade, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>A nova experiência de comentários está disponível somente para a seção Atualizações e não está disponível para as seguintes áreas:
+>
+> * Página inicial
+> * Painel Resumo em listas
+> * Painel Resumo em Planilhas de Horas
 
-<!-- with October 26 release: add somewhere this:
+<!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
 >[!NOTE]
 >
 >Iterations display the legacy commenting experience.-->
 
+<!--old message, before Auhust 17: 
 
 >[!NOTE]
 >
->No momento, estamos reprojetando a experiência de comentários no Adobe Workfront.
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >
->Para obter mais informações sobre a nova experiência de comentários, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
->Você pode acessar a nova experiência para os seguintes objetos:
-> * Problemas, projetos, tarefas e documentos.
+>You can access the new experience for the following objects:
+> * Issues, projects, tasks, and documents.
 >
->     Isso está disponível quando você ativa a experiência de comentários Beta.
+>     This is available when you enable the commenting Beta experience.
 >
->     Essa funcionalidade está disponível somente para a seção Atualizações e não está disponível para as seguintes áreas:
+>     This functionality is available only for the Updates section, and it is not available for the following areas:
 >
->     * Página inicial
->     * Painel Resumo em listas
->     * Painel Resumo em Planilhas de Horas
+>     * Home
+>     * Summary panel in lists
+>     * Summary panel in timesheets
 >
-> * Metas, cartões na área Quadros
+> * Goals, cards in the Boards area
 >
->   A nova experiência de comentários é a única experiência para metas e cartões. Você deve ter uma licença adicional para acessar o Workfront Goals. Para obter mais informações, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
->     É possível adicionar e exibir atualizações em cartões na área Quadros ao ativar as seções Comentários e Atividade do sistema em um cartão. Para obter mais informações, consulte [Adicionar um cartão ad hoc a um quadro](../../agile/get-started-with-boards/add-card-to-board.md).
-
+>     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
+-->
 
 ## Considerações sobre a atualização do trabalho
 
@@ -170,8 +169,6 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
 ## Adicionar uma atualização a um item de trabalho
 
-<!--drafted for the commenting experience - change the NOTE at the top of the following section with every new release to other objects -->
-
 Adicionar uma atualização a um item de trabalho difere dependendo de qual versão da seção Atualizações e qual objeto você escolhe.
 
 ### Adicionar uma atualização a um item de trabalho na seção Atualizações atual
@@ -245,9 +242,8 @@ Para obter informações sobre quais recursos estão disponíveis para a nova ex
 
    A variável **Comentários** é selecionada por padrão.
 1. Comece a inserir um comentário no **Novo comentário** caixa.
-   <!-- August 17 - add new screen shot and make yellow-->
 
-   ![](assets/comment-box-empty-unshimmed.png)
+   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
 
    >[!TIP]
    >
@@ -257,7 +253,7 @@ Para obter informações sobre quais recursos estão disponíveis para a nova ex
    * CTRL + Z (⌘+z para Mac) para desfazer uma alteração
    * CTRL + Y (⌘+y para Mac) para refazer uma alteração
 1. (Opcional) Na **Marcar pessoas ou equipes** digite o nome ou o email de um usuário ou de uma equipe que deseja incluir neste comentário e, em seguida, selecione-o quando ele for exibido na lista.
-1. (Opcional) Use Rich Text ou adicione <!--hidden for August 10: emojis,--> links ou imagens para sua atualização, para aprimorar seu conteúdo. Para obter mais informações, consulte [Usar Rich Text em uma atualização do Workfront](#use-rich-text-in-a-workfront-update) neste artigo.
+1. (Opcional) Use Rich Text ou adicione emojis, links ou imagens à atualização para aprimorar o conteúdo. Para obter mais informações, consulte [Usar Rich Text em uma atualização do Workfront](#use-rich-text-in-a-workfront-update) neste artigo.
 
    >[!TIP]
    >
@@ -266,16 +262,14 @@ Para obter informações sobre quais recursos estão disponíveis para a nova ex
    >O indicador é exibido somente depois que o comentário foi enviado no item, e não quando o comentário ainda está composto.
    >
    >O indicador &quot;Novo&quot; é exibido somente quando o usuário que inseriu uma nova atualização, bem como o usuário que está inserindo uma atualização no momento, estão usando a nova experiência de comentário.
-   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+   ><span class="preview">![](assets/real-time-new-red-indicator-unified-commenting.png)</span>
 
 1. Clique em **Enviar** para adicionar a atualização ao objeto do Workfront.
-1. Para editar um comentário, clique no link **Mais** menu ![](assets/more-menu.png) à direita do ícone Curtir e, em seguida, clique em **Editar**.
+1. Para editar um comentário, clique no link **Mais** menu ![](assets/more-menu.png)  <span class="preview">no canto superior direito do comentário</span>e, em seguida, clique em **Editar**.
 1. Edite as informações no comentário, adicione ou remova imagens ou remova qualquer um dos usuários marcados.
 Você pode editar seu comentário em até 15 dias a partir do envio. Um indicador &quot;Editado&quot; é adicionado à esquerda do carimbo de data que é exibido quando o comentário é atualizado.
 
-   <!--August 17 - new screen shot and make yellow-->
-
-   ![](assets/edited-tag-on-comment-unified-commenting.png)
+   <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
 
    >[!TIP]
    >
@@ -283,13 +277,19 @@ Você pode editar seu comentário em até 15 dias a partir do envio. Um indicado
    >* O carimbo de data ao lado do comentário é a data do comentário original, não a data da última edição.
 
 1. (Opcional) Clique em **Responder** para responder a um comentário existente, siga as etapas 4 a 8 acima. <!--(**************insure this stays accurate***********)--> Para obter informações sobre como responder a uma atualização, consulte [Responder a atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+
+   >[!TIP]
+   >
+   >   <span class="preview">Para adicionar mais respostas a uma resposta existente, comece digitando a **Adicionar resposta...** ou clique em **Responder** sobre o comentário original. Sua resposta é adicionada ao final da thread.</span>
+
+
 1. (Condicional e opcional) Se outros usuários tiverem adicionado comentários que são exibidos fora da área visível na seção Atualizações, clique em **Exibir** dentro do azul **novo banner de comentários** na parte inferior da tela para exibir esses comentários.
 
-   <!--August 17 - new screen shot and make yellow-->
-
-   ![](assets/blue-new-comments-banner-with-view-button.png)
+   <span class="preview">![](assets/blue-new-comments-banner-with-view-button.png)</span>
 
    Comentários adicionais são exibidos na parte inferior da tela.
+
+
 
    >[!NOTE]
    >
@@ -299,9 +299,12 @@ Você pode editar seu comentário em até 15 dias a partir do envio. Um indicado
 1. (Opcional) Clique no link **Curtir** ícone![](assets/like-icon.png). O ícone é atualizado com o número de curtidas.
 1. (Condicional e Opcional) Se você incluiu outras pessoas no seu comentário, clique no número de membros incluídos na atualização para exibir uma lista de entidades com as quais o comentário inserido é compartilhado.
 
-<!--August 17 - new screen shot and make yellow-->
+   <span class="preview">![](assets/members-icons-expanded-unshimmed.png)</span>
 
-![](assets/members-icons-expanded-unshimmed.png)
+   >[!TIP]
+   >
+   >   <span class="preview">Os nomes das duas primeiras entidades marcadas são exibidos ao lado de seus avatares. Se mais de duas entidades forem marcadas, somente o nome da primeira e o número de entidades adicionais serão exibidos.</span>
+
 1. (Opcional) Clique no link **Atividade do sistema** para ver as atualizações registradas pelo sistema. Quando o objeto ou qualquer um de seus filhos é atualizado, o Workfront gera uma observação sobre essa atualização e a exibe na guia Atividade do sistema.
 
    Para obter mais informações, consulte [Visão geral da seção Atualizações](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -310,19 +313,22 @@ Você pode editar seu comentário em até 15 dias a partir do envio. Um indicado
    >
    >Não é possível adicionar um comentário a uma atualização do sistema.
 
-
 ## Usar Rich Text em uma atualização do Workfront{#use-rich-text-in-a-workfront-update}
 
-<!--August 10: remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
+<!--October 2023: remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
 >[!NOTE]
 >
->Algumas das opções na barra de ferramentas de Rich Text podem não estar disponíveis para a experiência de comentários Beta.
+>Algumas das opções na barra de ferramentas de Rich Text podem não estar disponíveis para a nova experiência de comentário.
 
 Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários itens a ele, como emojis, links ou imagens.
 
 1. Vá para a **Atualizações** de um objeto do Workfront e comece a digitar um comentário.
-1. (Opcional) Para adicionar uma formatação de Rich Text à atualização, use os atributos na **Rich Text** à medida que você digita. <!--on August 10, add a screen shot of the complete Rich Text bar here, before the table-->
+1. (Opcional) Para adicionar uma formatação de Rich Text à atualização, use os atributos na **Rich Text** à medida que você digita.
+
+   ![](assets/rich-text-toolbar.png)
+
+   <!--October 2023: the individual icons in the toolbar will need replacing-->
 
    | **Atributo** | **Botão da barra de ferramentas** | **Teclas de atalho do Mac** | **Teclas de atalho do Windows** |
    |---|---|---|---|
@@ -336,7 +342,7 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
 
    Para interromper a formatação do texto, desmarque o atributo no **Rich Text** barra de ferramentas.
 
-   <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment-->
+   <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment - with October 2023-->
 
    >[!NOTE]
    >
@@ -347,9 +353,7 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
 
 1. (Opcional) Se quiser incluir texto de atualizações anteriores ou de outras fontes e diferenciá-lo da sua própria atualização, você poderá marcá-lo como uma Cotação de Bloqueio. Clique em **Cotação de bloco** ícone ![](assets/block-quote-small.png) e digite o texto que deseja citar. O texto citado é exibido marcado com uma linha cinza vertical. Clique em **Cotação de bloco** para retornar à formatação normal.
 
-   <!--August 17 - new screen shot and make yellow-->
-
-   ![](assets/block-quote-marked-350x144.png)
+   <span class="preview">![](assets/block-quote-marked-350x144.png)</span>
 
 1. (Opcional) Adicione emojis à atualização.
 
@@ -416,7 +420,7 @@ Esta opção copia o texto de uma atualização específica para a área de tran
 1. Vá para a atualização ou resposta que deseja copiar.
 1. Clique em **Mais** e clique em **Copiar texto do corpo**.
 
-   ![Selecionar Copiar texto do corpo](assets/update-stream-copy-body-text-350x152.png)
+   ![](assets/update-stream-comment-menu-marked-350x152.png)
 
 #### Copiar o link da thread {#copy-the-thread-link}
 
@@ -435,14 +439,13 @@ Esta opção copia um link de atualização específico para a área de transfer
 1. Vá para a atualização ou resposta que deseja copiar.
 1. Clique em **Mais** ao lado da atualização individual e clique em **Copiar link de atualização**.
 
-   ![](assets/update-stream-reply-menu-marked-350x182.png)
-
+   ![](assets/copy-update-link-old-ui.png)
 
 ### Copiar uma atualização na nova experiência de comentários
 
 Para obter informações sobre quais recursos estão disponíveis para a nova experiência de comentários e para quais objetos, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--when we remove and deprecate the legacy stream, add screen shots in the sections below-->
+<!--when we remove and deprecate the legacy stream, add screen shots in the sections below- October 2023-->
 
 * [Copiar link](#copy-link)
 * [Copiar texto do corpo](#copy-body-text)
@@ -469,7 +472,7 @@ Dependendo do acesso que seu administrador do Workfront fornecer, talvez você p
 Nenhum usuário do Workfront (incluindo o administrador do Workfront) pode excluir atualizações feitas por outro usuário. No entanto, se o nível de acesso de um usuário permitir que ele exclua suas próprias atualizações, o administrador do Workfront poderá fazer logon como esse usuário e excluir as atualizações feitas. Para obter mais informações, consulte [Criar ou modificar níveis de acesso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) e [Fazer logon como outro usuário](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 1. Vá para a atualização ou resposta que deseja excluir.
-1. Clique em **Mais** menu ao lado da atualização ou resposta que deseja excluir e clique em **Excluir**. <!--October 26 - replace screen shot here-->
+1. Clique em **Mais** menu ao lado da atualização ou resposta que deseja excluir e clique em **Excluir**. <!--October 2023 - replace screen shot here-->
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -481,9 +484,7 @@ Nenhum usuário do Workfront (incluindo o administrador do Workfront) pode exclu
 
    Quando o comentário excluído tiver respostas associadas, há uma indicação de que o comentário foi removido com o nome do usuário que o removeu.
 
-   <!-- August 17 - replace screen shot??? - if yes, make it yellow-->
-
-   ![](assets/removed-comment-indicator-new-experience.png)
+   <span class="preview">![](assets/removed-comment-indicator-new-experience.png)</span>
 
    Ao usar a experiência de comentários Beta, os comentários excluídos são removidos imediatamente do Workfront. Um usuário que usa a seção Atualizações vê um comentário sendo excluído por outro usuário em tempo real.
 
@@ -514,9 +515,9 @@ Nenhum usuário do Workfront (incluindo o administrador do Workfront) pode exclu
 
 ## Ativar ou desativar atualizações do sistema
 
-<!--remove the preview tag with 23.2 production, but keep the note till we remove Beta and it becomed the only exprience: -->
+<!--October 2023: remove the whole section because this is no longer possible -->
 
-<!--when the new stream goes to all objects production, consider updating this article also, to say there is no System Activity tab to be disabled for objects anymore: help\quicksilver\administration-and-setup\set-up-workfront\system-tracked-update-feeds\system-tracked-update-feeds.md-->
+<!--October 2023: when the new stream goes to all objects production, consider updating this article also, to say there is no System Activity tab to be disabled for objects anymore: help\quicksilver\administration-and-setup\set-up-workfront\system-tracked-update-feeds\system-tracked-update-feeds.md-->
 
 >[!NOTE]
 >
@@ -527,11 +528,11 @@ Nenhum usuário do Workfront (incluindo o administrador do Workfront) pode exclu
 
 A seção Atualizações de um objeto do Workfront exibe dois tipos de informações:
 
-* **Atualizações de usuário:** Atualizações de usuário são comentários que você e outros usuários do sistema inseriram. <!--August 17 - new screen shot and make yellow-->
+* **Atualizações de usuário:** Atualizações de usuário são comentários que você e outros usuários do sistema inseriram. <!--October 2023 - new screen shot -->
 
   ![](assets/user-update-cl-350x277.png)
 
-* **Atualizações do sistema:** As atualizações de sistema registram a remoção de ativos, a adição ou exclusão de versões, a anexação ou remoção de uma solicitação de aprovação, bem como quaisquer edições ou alterações feitas nos documentos no objeto. <!--August 17 - new screen shot and make yellow-->
+* **Atualizações do sistema:** As atualizações de sistema registram a remoção de ativos, a adição ou exclusão de versões, a anexação ou remoção de uma solicitação de aprovação, bem como quaisquer edições ou alterações feitas nos documentos no objeto. <!--October 2023 - new screen shot -->
 
   ![](assets/system-updates-cl-350x277.png)
 
