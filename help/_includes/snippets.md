@@ -1,7 +1,7 @@
 ---
-source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
+source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1669'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,14 @@ ht-degree: 0%
 ## Pré-visualização e lançamento rápido no quarto trimestre de 2023 {#preview-and-fast-release}
 
 <span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente Produção para clientes que ativaram versões rápidas.</span>
+
+<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Para obter informações sobre a versão atual, consulte [Visão geral da versão do quarto trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
+
+## Nível do artigo - Pré-visualização e lançamento rápido no quarto trimestre de 2023 {#article-preview-and-fast-release}
+
+<span class="preview">As informações nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente Produção para clientes que ativaram versões rápidas.</span>
 
 <span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
@@ -298,7 +306,7 @@ Você pode alterar o status aplicado ao item de trabalho com o botão Concluído
    >   * Problema
    >   * Solicitar
    >   * Pedido de alteração
-   >   * Registro de Defeito
+   >   * Relatório de erro
 
    Se a tarefa ou problema for atribuído a vários usuários, você verá a opção &quot;Concluído com minha parte&quot; no menu suspenso, além dos vários status escolhidos para sua equipe.
 

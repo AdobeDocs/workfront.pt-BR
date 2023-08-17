@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
+source-git-commit: 6871cd4faea6b02cf0ed3f89e32f6963fd4b4df9
 workflow-type: tm+mt
-source-wordcount: '13160'
+source-wordcount: '13164'
 ht-degree: 1%
 
 ---
@@ -962,6 +962,7 @@ ht-degree: 1%
       * [Adicionar tarefas ou problemas existentes a um quadro](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
       * [Gerenciar cartões](agile/get-started-with-boards/move-board-items.md)
       * [Gerenciar itens da lista de verificação em cartões](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+      * [Adicionar documentos em cartões](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md)
       * [Personalizar quais campos são exibidos em um cartão](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
       * [Excluir ou arquivar um cartão de um quadro](agile/get-started-with-boards/delete-board-items.md)
       * [Filtrar e pesquisar em um quadro](agile/get-started-with-boards/filter-search-in-board.md)
@@ -1088,15 +1089,15 @@ ht-degree: 1%
          * [Visão geral das integrações do Adobe Experience Manager Assets](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
          * [Vincular ativos e pastas do Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
          * [Exibir metadados mapeados para Experience Manager Assets ou Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
-         * [Exibir ou baixar um ativo vinculado da Experience Manager Assets ou da Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
-         * [Enviar um documento para o Experience Manager Assets ou Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
+         * [Exibir ou baixar um ativo vinculado do Experience Manager Assets ou do Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
+         * [Enviar um documento para o Experience Manager Assets ou o Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
          * [Criar uma prova de um ativo vinculado do Experience Manager Assets ou do Asset Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
          * [Criar uma pasta vinculada ao Experience Manager Assets ou Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
          * [Usar fluxos de trabalho na integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [Solução de problemas de integração do Adobe Experience Manager](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * Migrar dos conectores herdados ou aprimorados {#migrate-from-legacy-enhanced-connectors}
       * [Migrar dos conectores herdados ou aprimorados](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
-      * [Migração do conector herdado ou aprimorado para o Workfront para integração as a Cloud Service do Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
+      * [Migração do conector herdado ou aprimorado para o Workfront para integração as a Cloud Service do Adobe Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
       * [Migração do conector herdado para o conector aprimorado](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
       * [Desinstale o conector herdado do Workfront com Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
       * [Desinstale o conector aprimorado do Workfront com Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
