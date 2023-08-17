@@ -3,9 +3,9 @@ title: Visão geral da versão do quarto trimestre de 2023
 description: Visão geral da versão do quarto trimestre de 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
+source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '1286'
 ht-degree: 0%
 
 ---
@@ -59,8 +59,8 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                         <p><span class="bold">Datas de lançamento</span>
                         </p>
                     </td>
-                 </tr>  
-                 <tr>
+                </tr>  
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Documentos disponíveis em cartões conectados como somente visualização</a></p><p>Para cartões conectados em placas Adobe Workfront, agora é possível visualizar documentos como imagens e PDF. Você pode visualizar um documento no navegador ou baixá-lo no computador. </p>
                     </td>
@@ -83,16 +83,6 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 </tr>
                 <tr>
                     <td>
-                        <p><span class="bold">Recurso</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Datas de lançamento</span>
-                        </p>
-                    </td>
-                 </tr>  
-                 <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Visualização do quadro de um projeto agora disponível para problemas</a></p><p>Agora você pode acessar a exibição Quadro de uma lista de problemas de projeto. O quadro Kanban pode ajudar você a acompanhar o progresso dos problemas de uma maneira mais visual do que visualizá-los na lista. </p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -101,6 +91,26 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                                 <p>Versão de pré-visualização: 3 de agosto de 2023<br /></p>
                             </li>
                              <li>
+                                <p>Produção para versão rápida: com a versão 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão trimestral: com a versão 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Adicionar documentos em cartões conectados</a></p><p>Agora é possível anexar documentos em cartões conectados em Adobe Workfront Boards. Qualquer documento adicionado ao cartão fica disponível na guia Documents da tarefa ou problema conectado, e os mesmos tipos de arquivo são suportados em ambas as áreas.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 17 de agosto de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produção para acesso antecipado a placas: 24 de agosto de 2023</p>
+                            </li>
+                            <li>
                                 <p>Produção para versão rápida: com a versão 23.8</p>
                             </li>
                             <li>
@@ -147,8 +157,105 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                         </ul>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Recálculo dinâmico de campos calculados em formulários</a> </p>
+                        <p>Os campos calculados em um formulário anexado a um objeto agora são recalculados dinamicamente em tempo real quando valores dependentes de qualquer formulário na página são modificados. Isso permite que você veja os resultados atualizados sem salvar o formulário.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 17 de agosto de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produção para versão rápida: com a versão 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão trimestral: com a versão 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Definir horas planejadas em tarefas filho recorrentes com tipo de duração Simples sem atribuições</a></p>
+                        <p>Fizemos uma alteração na maneira como as Horas planejadas são alocadas para tarefas recorrentes sem atribuições e com um tipo de duração Simples. Agora, quando você define Horas Planejadas em uma nova tarefa recorrente com um Tipo de Duração Simples e sem atribuições, as horas também são alocadas para as recorrências individuais. Antes dessa alteração, as horas não eram salvas para recorrências individuais quando as tarefas pai eram desatribuídas.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 17 de agosto de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produção para versão rápida: com a versão 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão trimestral: com a versão 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
            </tbody>
         </table>
+
+<!--
+### Financial management enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Date effective cost and billing rates</a> </p><p>This update has been announced with the 23.3 release.</p>
+                        <p>Date effective cost and billing rates are now available on the company, user, and job role objects in Workfront. When date effective rates are applied to a project, and hours are logged on project tasks, the costs and revenue are calculated using the specified rates for each time period.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: June 29, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.8 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Bulk delete rates from rate cards</a> </p>
+                        <p>You can now remove multiple rates at one time from a rate card in the Setup area.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 17, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.8 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+-->
 
 ### Outras melhorias
 
@@ -165,27 +272,64 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                         <p><span class="bold">Datas de lançamento</span>
                         </p>
                     </td>
-                 </tr>
-                 <!--
-                 <tr>
+                </tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-7.md" class="MCXref xref" xrefformat="{para}">Dynamic re-calculation of calculated fields on native and custom forms</a> <span style="color: #ff0000;"> New in Preview!</span></p><p>Calculated fields on a form attached to an object are now dynamically re-calculated in real time when dependent values on any form on the page are modified. This allows you to see the updated results without saving the form.</p>
+                        <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">Novos aprimoramentos na experiência de comentários beta</a> </p>
+                        <p>As melhorias na seção Atualizações estão sendo disponibilizadas no período da versão do Quarto trimestre de 2023 para a versão beta de experiência de comentários. Esses aprimoramentos serão disponibilizados no ambiente de produção para todos os clientes com a versão do quarto trimestre de 2023 (outubro de 2023).</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: August 17, 2023</p>
+                                <p>Versão de pré-visualização: durante todo o período de lançamento do quarto trimestre de 2023<br /></p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 23.8 release</p>
+                                <p>Produção para versão rápida: a partir da versão 23.8</p>
                             </li>
                             <li>
-                                <p>Production for quarterly release: With the 23.10 release</p>
+                                <p>Produção para versão trimestral: com a versão 23.10 (a menos que especificado de outra forma)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
-                -->
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">Novos aprimoramentos na versão beta dos Painéis do Canvas</a> </p>
+                        <p>As melhorias nos painéis do Canvas estão sendo disponibilizadas no período do quarto trimestre de 2023 como parte da versão beta em andamento. Esses aprimoramentos serão disponibilizados no ambiente de produção para todos os clientes com a versão do quarto trimestre de 2023 (outubro de 2023).</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: durante todo o período de lançamento do quarto trimestre de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produção para versão rápida: a partir da versão 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão trimestral: com a versão 23.10 (a menos que especificado de outra forma)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Mudar para o conjunto de widgets padrão do Novo Início</a> </p>
+                        <p>O widget de tarefas, que requer permissão para criar tarefas, agora está presente apenas no widget padrão definido para usuários com os tipos de licença Padrão, Plano ou Trabalho. Além disso, o widget foi removido automaticamente das páginas iniciais dos usuários com todos os outros tipos de licença.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 17 de agosto de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produção para lançamento rápido: 17 de agosto de 2023</p>
+                            </li>
+                            <li>
+                                <p>Produção para lançamento trimestral: 17 de agosto de 2023</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Atualizações da aparência durante o período do quarto trimestre de 2023</a></p><p>Pequenas atualizações na aparência de várias áreas do aplicativo Adobe Workfront estão sendo feitas no período do quarto trimestre de 2023. Revise as notas de versão individuais para datas de lançamento específicas.</p>
