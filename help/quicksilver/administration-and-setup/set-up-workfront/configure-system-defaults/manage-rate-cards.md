@@ -7,9 +7,9 @@ description: Cartões de tarifa permitem definir várias taxas de cobrança por 
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
+source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -53,12 +53,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 {{step-1-to-setup}}
 
 1. No painel esquerdo, clique em [!UICONTROL **Cartões de taxa**].
-1. Clique em [!UICONTROL **Novo cartão de taxa**] e, em seguida, digite o nome e a descrição do cartão de taxa na lista.
-1. Para adicionar taxas de cobrança, clique no nome do cartão de taxa na lista.
-1. Na tela do cartão, clique em [!UICONTROL **Nova taxa de cobrança**].
-1. Na caixa de diálogo Novo preço, selecione um [!UICONTROL **Função de trabalho**] para definir taxas de faturamento.
+1. Clique em [!UICONTROL **Novo cartão de taxa**], em seguida, digite um nome para o cartão de taxa na [!UICONTROL **Cartão de taxa**] para substituir &quot;Cartão de tarifa sem título&quot;.
+1. Na tela do cartão, clique em [!UICONTROL **Adicionar função de trabalho**].
+1. Na caixa de diálogo, selecione uma [!UICONTROL **Função de trabalho**] para definir taxas de faturamento.
 
-   A Taxa de Faturamento Padrão exibe a taxa no nível do sistema para esta função de trabalho.
+   A Taxa de Faturamento Padrão exibe a taxa no nível do sistema para essa função de trabalho, se houver uma definida.
 
    ![Caixa de diálogo Nova taxa de cobrança](assets/location-rate-for-rate-card.png)
 
@@ -79,7 +78,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      A Taxa de Cobrança 1 não terá uma data inicial e a última taxa de cobrança não terá uma data final. Algumas datas são adicionadas automaticamente. Por exemplo, se a Taxa de cobrança 1 não tiver uma data final e você adicionar a Taxa de cobrança 2 com uma data inicial de 1º de maio de 2023, uma data final de 30 de abril de 2023 será adicionada à Taxa de cobrança 1 para que não haja lacunas.
 
 1. Clique em [!UICONTROL **Salvar**].
-1. (Opcional) Para adicionar outra taxa de cobrança, para a mesma função de trabalho em outro local ou para uma função de trabalho separada, clique em [!UICONTROL **Nova taxa de cobrança**].
+1. (Opcional) Para adicionar outra taxa de cobrança, para a mesma função de trabalho em outro local ou para uma função de trabalho separada, clique em [!UICONTROL **Adicionar função de trabalho**].
+1. (Opcional) Para editar uma taxa de cobrança, selecione a taxa no cartão de taxa e clique no **Editar** ícone.
 
 ## Copiar um cartão de taxa
 
@@ -90,7 +90,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Um cartão de taxa duplicado é adicionado. Clique no nome do cartão de taxa na lista para alterar seu nome.
 
-## Excluir um cartão de taxa
+## Excluir um cartão de taxa inteiro
 
 {{step-1-to-setup}}
 
