@@ -3,9 +3,9 @@ title: Visão geral da versão do quarto trimestre de 2023
 description: Visão geral da versão do quarto trimestre de 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: 3764fba07e9d6ac80e793d92edd960281162c805
+source-git-commit: a84c879fac143c898ea11b7b71ebf22818adbd78
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1493'
 ht-degree: 0%
 
 ---
@@ -307,6 +307,63 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                             </li>
                             <li>
                                 <p>Produção para versão trimestral: com a versão 23.10 (a menos que especificado de outra forma)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Novas opções de filtro para Nova página inicial</a> </p>
+                        <p>Novas opções de filtro agora estão disponíveis para o widget Meu trabalho em Nova página inicial. As opções incluem filtros para tipos de objeto (tarefas, problemas e solicitações) e status (não pronto, pronto para iniciar, trabalhando e concluído).</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 17 de agosto de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produção para versão rápida: com a versão 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão trimestral: com a versão 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Suporte a terminologia personalizada para a nova página inicial</a> </p>
+                        <p>Para atender melhor às necessidades exclusivas das organizações, a Nova página inicial agora utiliza a terminologia personalizada para objetos, conforme definido nos modelos de layout de uma instância. Por exemplo, se os objetos "Projeto" tiverem sido renomeados como "Campanhas" na instância do Workfront, o widget Meus projetos será exibido como Minhas campanhas em Nova página inicial.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 17 de agosto de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produção para versão rápida: com a versão 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão trimestral: com a versão 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">O botão Tentar Nova Página Inicial foi removido para contas que desativaram a Nova Página Inicial</a> </p>
+                        <p>O botão Tentar nova página inicial não está mais presente nas contas em que a opção Nova página inicial foi desativada. A Nova página inicial deve ser reativada pelo administrador do sistema para que usuários individuais possam usar o botão para experimentar a Nova página inicial.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 17 de agosto de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produção para versão rápida: com a versão 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão trimestral: com a versão 23.10</p>
                             </li>
                         </ul>
                     </td>
