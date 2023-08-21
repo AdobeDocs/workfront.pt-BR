@@ -3,7 +3,7 @@ title: Visão geral da versão do quarto trimestre de 2023
 description: Visão geral da versão do quarto trimestre de 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: a84c879fac143c898ea11b7b71ebf22818adbd78
+source-git-commit: e2ecd03aea12892b6eb4b2660133998aa430c916
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão de pré-visualização: 3 de agosto de 2023<br /></p>
+                                <p>Versão de pré-visualização: 3 de agosto de 2023</p>
                             </li>
                             <li>
                                 <p>Produção para acesso antecipado a placas: 10 de agosto de 2023</p>
@@ -88,7 +88,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão de pré-visualização: 3 de agosto de 2023<br /></p>
+                                <p>Versão de pré-visualização: 3 de agosto de 2023</p>
                             </li>
                              <li>
                                 <p>Produção para versão rápida: com a versão 23.8</p>
@@ -105,10 +105,10 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão de pré-visualização: 21 de agosto de 2023<br /></p>
+                                <p>Versão de pré-visualização: 21 de agosto de 2023</p>
                             </li>
                             <li>
-                                <p>Produção para painéis de acesso antecipado: a ser definido</p>
+                                <p>Produção para acesso antecipado a placas: 24 de agosto de 2023</p>
                             </li>
                             <li>
                                 <p>Produção para lançamento rápido: a ser definido</p>
