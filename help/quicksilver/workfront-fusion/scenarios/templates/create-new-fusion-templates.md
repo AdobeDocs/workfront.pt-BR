@@ -7,9 +7,9 @@ description: Você pode criar novos modelos de cenário no [!DNL Adobe] Workfron
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: b7879e8f2d4590d6347762d66c82de293d00c995
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Você pode criar um modelo em um processo semelhante à criação de um cenário
 
 >[!NOTE]
 >
->Ao salvar seu modelo, você o torna visível para todos os membros da equipe. Se quiser que o modelo seja acessível fora da equipe, publique-o e use um link compartilhado ou peça ao administrador para aprovar e publicar o modelo.
+>Ao salvar seu modelo, você o torna visível para todos os membros da equipe. Se quiser que o modelo seja acessível fora da equipe, você deverá enviar uma solicitação para que ele seja aprovado e publicado. A solicitação é enviada ao Adobe Workfront para aprovação e, uma vez aprovada, o modelo pode ser acessado por outras pessoas fora da equipe.
 
 ### Criar um modelo a partir de um cenário
 
