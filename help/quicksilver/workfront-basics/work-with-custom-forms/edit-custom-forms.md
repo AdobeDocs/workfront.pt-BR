@@ -7,9 +7,9 @@ description: Você pode editar informações em um formulário personalizado dep
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 7cc8c27848082c0547440ae98e4c4ec62809f5bd
+source-git-commit: b2bb5d1292291cb6632cc5d1b1fb32ce37e594a6
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ A edição de informações em um formulário personalizado anexado a um objeto 
 
    Quando alguém altera dados em outro objeto referenciado por campos personalizados calculados em seu objeto, as alterações não são refletidas automaticamente no objeto. Para obter informações sobre a atualização manual de todos os campos personalizados calculados no objeto, consulte [Recalcular todos os campos personalizados calculados para um objeto](#recalculate-all-calculated-custom-fields-for-an-object) neste artigo.
 
-   <span class="preview">Quando campos dependentes da página são modificados, os campos calculados no formulário personalizado são recalculados dinamicamente em tempo real. Você pode ver os resultados atualizados sem salvar o formulário. Isso se aplica aos campos calculados em formulários padrão, bem como formulários personalizados.</span>
+   <span class="preview">Quando campos dependentes da página são modificados, os campos calculados no formulário personalizado são recalculados dinamicamente em tempo real. Você pode ver o novo valor do campo calculado sem salvar o formulário, mas ele não é realmente aplicado ao formulário e ao objeto até que você salve as alterações. Isso se aplica aos campos calculados em formulários padrão, bem como formulários personalizados.</span>
 
    Você também pode atualizar manualmente todos os campos personalizados calculados de um objeto ao editá-lo em massa junto com outros objetos em uma lista. Para obter instruções, consulte [Recalcular todos os campos personalizados calculados para vários objetos em uma lista ao editar os objetos](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) neste artigo.
 
