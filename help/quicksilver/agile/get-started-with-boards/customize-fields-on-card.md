@@ -6,9 +6,9 @@ description: Você pode personalizar quais campos são exibidos em um cartão de
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: 0beb96dc3869e6f913d87f699aa9a51c5aaa8f79
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -96,3 +96,7 @@ Campos personalizados estão disponíveis em cartões conectados. Eles só são 
    ![Valor e rótulo do campo personalizado](assets/save-custom-field-value-label.png)
 
    O campo personalizado é adicionado à lista de campos disponíveis e é ativado por padrão. Você pode desativar o campo personalizado seguindo as etapas na [Configurar cartões](customize-fields-on-card.md#configure-cards) acima, edite o campo ou exclua-o de todos os cartões.
+
+>[!NOTE]
+>
+>Posteriormente, se você renomear o campo personalizado no Workfront, deverá editar o rótulo do campo no painel Configurar para corresponder, ou o campo não será exibido nos cartões.
