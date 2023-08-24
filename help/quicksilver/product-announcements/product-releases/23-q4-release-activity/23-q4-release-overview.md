@@ -3,9 +3,9 @@ title: Visão geral da versão do quarto trimestre de 2023
 description: Visão geral da versão do quarto trimestre de 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: e2ecd03aea12892b6eb4b2660133998aa430c916
+source-git-commit: 06f7c4b940e4b658b35bbee13d5027f622892700
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1636'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 ## Aprimoramentos do Adobe Workfront
 
 * [Melhorias nas placas](#boards-enhancements)
+* [Aprimoramentos de integração](#integration-enhancements)
 * [Aprimoramentos do projeto](#project-enhancements)
 * [Outras melhorias](#other-enhancements)
 
@@ -60,6 +61,42 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                         </p>
                     </td>
                 </tr>  
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Aprimoramentos nas atribuições de usuários em quadros e cartões</a><span style="color: #ff0000;"> Novo na visualização!</span></p><p>Agora estão disponíveis aprimoramentos que adicionam flexibilidade ao adicionar usuários a quadros e cartões em Adobe Workfront Boards.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 21 de agosto de 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produção para todos os clientes: 24 de agosto de 2023</span>
+                            </li> 
+                       </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Adicionar documentos em cartões conectados</a></p><p>Agora é possível anexar documentos em cartões conectados em Adobe Workfront Boards. Qualquer documento adicionado ao cartão fica disponível na guia Documents da tarefa ou problema conectado, e os mesmos tipos de arquivo são suportados em ambas as áreas.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 21 de agosto de 2023</p>
+                            </li>
+                            <li>
+                                <p>Produção para acesso antecipado a placas: 24 de agosto de 2023</p>
+                            </li>
+                            <li>
+                                <p>Produção para lançamento rápido: a ser definido</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão trimestral: com a versão 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Documentos disponíveis em cartões conectados como somente visualização</a></p><p>Para cartões conectados em placas Adobe Workfront, agora é possível visualizar documentos como imagens e PDF. Você pode visualizar um documento no navegador ou baixá-lo no computador. </p>
@@ -98,29 +135,65 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                             </li>
                         </ul>
                     </td>
+                </tr>    
+           </tbody>
+        </table>
+
+### Aprimoramentos de integração
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Adicionar documentos em cartões conectados</a></p><p>Agora é possível anexar documentos em cartões conectados em Adobe Workfront Boards. Qualquer documento adicionado ao cartão fica disponível na guia Documents da tarefa ou problema conectado, e os mesmos tipos de arquivo são suportados em ambas as áreas.</p>
+                        <p><span class="bold">Recurso</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Datas de lançamento</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Melhorias na experiência ao enviar documentos para o SharePoint (GraphAPI)</a><span style="color: #ff0000;"> Novo na visualização!</span> </p><p>Fizemos algumas alterações para facilitar a localização de pastas ao enviar documentos para suas pastas do SharePoint (GraphAPI)</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão de pré-visualização: 21 de agosto de 2023</p>
-                            </li>
-                            <li>
-                                <p>Produção para acesso antecipado a placas: 24 de agosto de 2023</p>
+                                <p>Versão de pré-visualização: 24 de agosto<br /></p>
                             </li>
                             <li>
                                 <p>Produção para lançamento rápido: a ser definido</p>
                             </li>
                             <li>
-                                <p>Produção para versão trimestral: com a versão 23.10</p>
+                                <p>Produção para lançamento trimestral: a ser definido</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Atualizações para arrastar e soltar para integrações de documentos</a><span style="color: #ff0000;"> Novo na visualização!</span> </p><p>Fizemos alguns aprimoramentos para esclarecer e remover erros do usuário ao arrastar e soltar um arquivo em uma pasta vinculada.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 24 de agosto<br /></p>
+                            </li>
+                            <li>
+                                <p>Produção para lançamento rápido: a ser definido</p>
+                            </li>
+                            <li>
+                                <p>Produção para lançamento trimestral: a ser definido</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
            </tbody>
         </table>
+
 
 ### Aprimoramentos do projeto
 
