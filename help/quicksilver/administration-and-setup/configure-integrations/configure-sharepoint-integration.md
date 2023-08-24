@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: e08b56b3bc212d49fd594912b6b28cd8e8f77b8b
+source-git-commit: 80e0bd0cd391372f48e8dddc4228fc431f54d052
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1573'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,27 @@ Para obter instruções sobre como vincular documentos por meio do novo [!DNL Sh
 >* A [!DNL SharePoint] A integração pode se conectar a um único [!DNL SharePoint] instância. Portanto, um usuário pode configurar uma integração para um [!DNL SharePoint], mas não pode configurar uma integração para um segundo [!DNL SharePoint], mesmo que eles tenham permissões para e documentos no segundo [!DNL SharePoint].
 >
 >* Um usuário tem acesso aos mesmos sites, coleções, pastas, subpastas e arquivos por meio do [!DNL Workfront] [!DNL SharePoint] integração, tal como acontece na sua [!DNL SharePoint] conta.
+
+### Vincular documentos do SharePoint
+
+Para obter instruções sobre como vincular documentos do SharePoint com a nova [!DNL SharePoint] integração, consulte [Vincular um documento externo a [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
+
+### Enviar documentos para o SharePoint
+
+Para enviar um documento ao SharePoint:
+
+1. Clique em **Enviar para** ícone ![Enviar para](assets/send-to-icon.png) e selecione SharePoint (Graph API).
+1. (Opcional) Pesquise na barra de pesquisa o site ou pasta para onde deseja enviar o documento.
+1. Selecione o site ou pasta na lista.
+
+   * Os sites estão marcados com ![Ícone do site](assets/site-icon.png).
+
+   * As pastas estão marcadas com ![Ícone de pasta](assets/folder-icon.png).
+
+   * Os arquivos não são marcados com um ícone.
+
+1. Clique em **Salvar**.
+
 
 ## Informações de segurança, acesso e autorização para o [!DNL SharePoint] integração
 
