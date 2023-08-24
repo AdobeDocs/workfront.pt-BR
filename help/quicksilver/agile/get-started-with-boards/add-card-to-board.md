@@ -6,9 +6,9 @@ description: Você pode adicionar rapidamente um cartão ad hoc a um quadro e at
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 964273ad38230e28411083cf616617e14b2d2d0e
+source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -82,8 +82,8 @@ Um cartão ad hoc não está conectado a um item de trabalho no [!DNL Adobe Work
       <td>Digite o número estimado de horas para a conclusão do cartão. Esta entrada é apenas manual.</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Atribuídos]</strong> </td> 
-      <td> <p>Para atribuir o cartão, comece digitando um nome no campo de pesquisa e, em seguida, selecione-o quando ele for exibido na lista. Você pode adicionar indivíduos e equipes e atribuir mais de uma pessoa ou equipe a um cartão.</p> <p>Os atribuídos devem ser membros do painel de discussão ou não aparecerão na lista de seleção. Quando uma equipe é membro do painel, os membros de cada equipe podem ser atribuídos ao cartão.</p></td>
+      <td role="rowheader"><strong>[!UICONTROL Atribuições]</strong> </td> 
+      <td>Para atribuir o cartão, clique em <strong>[!UICONTROL Adicionar Atribuição]</strong> e comece digitando um nome no campo de pesquisa. Em seguida, selecione-o quando ele for exibido na lista de resultados. Você pode adicionar indivíduos e equipes e atribuir mais de uma pessoa ou equipe a um cartão.</td>
      </tr>     
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Marcas]</strong></td> 

@@ -7,9 +7,9 @@ description: Leia este artigo para saber mais sobre [!DNL Workfront Boards] acei
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 1594382c48d18a4da99bc5c47ddbbd4f63b76cd4
+source-git-commit: 28fd1872b05c620cf4e86a4044317cd7958e4482
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -212,7 +212,7 @@ Somente [!DNL Workfront] os administradores podem optar pelos recursos antecipad
 
 ### Como sei se minha organização optou pelos recursos iniciais?
 
-Quando o [!DNL Workfront] administrador tiver ativado recursos antecipados para placas, você verá um [!UICONTROL Aceitação antecipada de recursos] Botão Habilitado na parte superior da tela do painel. Clique no botão para ver quais recursos estão habilitados.
+Entre em contato com [!DNL Workfront] administrador para descobrir se eles habilitaram recursos antecipados para placas.
 
 ### Os recursos antecipados podem ser habilitados somente para determinados usuários?
 

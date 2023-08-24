@@ -6,9 +6,9 @@ description: Um novo quadro contém três colunas por padrão. Você pode adicio
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
+source-git-commit: 8097842fedb468d8f0e5c9eed94bf74d489edd2b
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -135,10 +135,10 @@ Se você estiver usando o limite de WIP em uma coluna, não será adicionado um 
 
       * **[!UICONTROL Adicionar responsáveis]:** Os atribuídos selecionados são adicionados à lista existente de atribuídos em um cartão quando ele é movido para essa coluna.
       * **[!UICONTROL Substituir responsáveis]:** Os atribuídos selecionados substituem todos os outros atribuídos e se tornam os únicos atribuídos em um cartão quando ele é movido para essa coluna.
-   1. Selecione os atribuídos na lista suspensa. Somente os membros do painel estão disponíveis para escolha. Para obter mais informações, consulte [Adicionar ou remover membros de um quadro](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+
+   1. Clique em [!UICONTROL **Adicionar atribuição**] e procure um usuário. Selecione os atribuídos nos resultados da pesquisa. Todos os usuários e equipes do Workfront estão disponíveis para escolha.
 
       ![Responsáveis pela coluna](assets/boards-column-assignees.png)
-
 
 1. (Opcional) Defina um valor para as tags do cartão:
 
@@ -147,10 +147,10 @@ Se você estiver usando o limite de WIP em uma coluna, não será adicionado um 
 
       * **[!UICONTROL Adicionar em tags]:** As tags selecionadas são adicionadas à lista existente de tags em um cartão quando ele é movido para essa coluna.
       * **[!UICONTROL Substituir tags]:** As tags selecionadas substituem todas as outras tags e se tornam as únicas tags em um cartão quando ele é movido para essa coluna.
+
    1. Selecione as tags na lista suspensa. Somente as tags já criadas na [!UICONTROL Gerenciador de tags] estão disponíveis para escolha. Para obter informações sobre como adicionar novas tags, consulte [Adicionar tags](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
 
       ![Tags para a coluna](assets/boards-column-tags.png)
-
 
 1. Ativar o **[!UICONTROL Limite de trabalho em andamento]** política para limitar o número de cartões que podem ser adicionados à coluna. Em seguida, digite o número do limite na caixa **[!UICONTROL Definir limite]** campo.
 

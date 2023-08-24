@@ -6,9 +6,9 @@ description: Você pode adicionar um cartão ao seu quadro conectado a tarefas e
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
+source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1375'
 ht-degree: 0%
 
 ---
@@ -80,10 +80,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    O cartão é adicionado na parte inferior da coluna mais à esquerda. O conectado [!DNL Workfront] objeto e seus atribuídos são exibidos no cartão.
 
-   >[!NOTE]
-   >
-   >Se um destinatário na lista [!DNL Workfront] tarefa ou problema não é um membro do painel, eles não estão atribuídos ao cartão.
-
    ![Cartão conectado](assets/boards-connected-card-first-added.png)
 
 1. Clique em ![Abrir tarefa ou problema](assets/boards-launch-icon.png) para abrir o [!DNL Workfront] tarefa ou problema em uma nova guia do navegador.
@@ -124,9 +120,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
       <td><p>O número de horas para a conclusão do cartão.</p><p>Alterar a estimativa também altera o valor de pontos da história no [!DNL Workfront] objeto.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Atribuídos]</strong></td>
-      <td><p>Para atribuir mais pessoas ou uma equipe ao cartão, comece digitando um nome no campo de pesquisa e selecione-o quando ele for exibido na lista. Você pode adicionar indivíduos e equipes. Somente uma atribuição de equipe é permitida em um cartão conectado.</p>
-      <p>Os atribuídos devem ser membros do painel de discussão ou não aparecerão na lista de seleção. Quando uma equipe é membro do painel, os membros de cada equipe podem ser atribuídos ao cartão.</p>
+      <td role="rowheader"><strong>[!UICONTROL Atribuições]</strong></td>
+      <td><p>Para atribuir mais pessoas ou uma equipe ao cartão, clique em <strong>[!UICONTROL Adicionar Atribuição]</strong> e comece digitando um nome no campo de pesquisa. Em seguida, selecione-o quando ele for exibido na lista de resultados. Você pode adicionar indivíduos e equipes. Somente uma atribuição de equipe é permitida em um cartão conectado.</p>
       <p>Todos os atribuídos selecionados também são atribuídos à tarefa ou problema no [!DNL Workfront].</p></td>
      </tr>
      <tr>
