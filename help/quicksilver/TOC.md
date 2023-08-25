@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 4501594415c21deb2ff00afad05ca257266f656c
+source-git-commit: fdf53e84054a51ae7bcf2a888740c03171941f32
 workflow-type: tm+mt
-source-wordcount: '13192'
+source-wordcount: '13201'
 ht-degree: 1%
 
 ---
@@ -528,6 +528,7 @@ ht-degree: 1%
          * [Acesso administrativo para modelos de layout](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
          * [Atribuir usuários a modelos de layout](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
          * [Copiar um modelo de layout](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
+         * [Excluir os modelos de layout clássicos usando uma chamada de API](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
       * Formulários personalizados {#custom-forms}
          * [Formulários personalizados](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [Visão geral de formulários personalizados](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)

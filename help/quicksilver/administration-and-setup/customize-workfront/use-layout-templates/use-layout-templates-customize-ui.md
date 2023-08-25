@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: f8961140-948f-4bea-956b-a8126008b8cb
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: c68b63230b07ea8c8475b710e256b5e0f049b1eb
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '151'
 ht-degree: 2%
 
 ---
@@ -35,3 +35,4 @@ Esta seção contém os seguintes artigos:
 * [Conceder acesso administrativo a um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
 * [Atribuir usuários a um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 * [Copiar um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
+* [Excluir os modelos de layout clássicos usando uma chamada de API](../../../administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
