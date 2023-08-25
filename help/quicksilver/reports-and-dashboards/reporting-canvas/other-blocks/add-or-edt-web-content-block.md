@@ -1,14 +1,9 @@
 ---
-product-area: reporting
-navigation-topic: other-blocks
 title: Adicionar ou editar um bloco de conteúdo da Web na Tela de relatório
 description: Os blocos de conteúdo da Web permitem exibir informações de sites externos diretamente no relatório.
-author: Nolan
-feature: Reports and Dashboards
-exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
 hidefromtoc: true
 hide: true
-source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
+source-git-commit: 350d64577bac677bb0cc9bcb804c32b0301bc5d4
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 1%
