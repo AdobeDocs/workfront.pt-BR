@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 7df70ed43b9ee7320bae5f0f6b5e632000af78c3
+source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1976'
 ht-degree: 2%
 
 ---
@@ -68,6 +68,16 @@ Veja a seguir uma linha do tempo planejada com marcos importantes para o lançam
 A seção a seguir contém uma lista de recursos que foram adicionados após a versão original 23.2, começando com os lançados mais recentemente.
 
 As informações a seguir se referem à atividade de lançamento semanalmente dos recursos incluídos na nova experiência beta de comentários. Este artigo lista novos recursos que são adicionados e problemas que são resolvidos para a nova experiência de comentários.
+
+### Semana de 21 de agosto de 2023
+
+#### Alterar o formato do carimbo de data e hora na guia Comentários
+
+Atualizamos o formato de carimbo de data e hora dos comentários do usuário na guia Comentários do novo fluxo de comentários. Como parte dessa alteração, os comentários do ano atual não exibem mais o ano no carimbo de data e hora. Passar o mouse sobre um carimbo de data e hora exibe a data completa, incluindo o ano.
+
+As alterações não afetam as atualizações do sistema na guia Atividade do sistema.
+
+Pré-visualização e produção: 24 de agosto de 2023
 
 ### Semana de 14 de agosto de 2023
 
