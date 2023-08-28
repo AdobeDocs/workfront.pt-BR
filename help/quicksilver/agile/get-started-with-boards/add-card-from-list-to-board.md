@@ -1,24 +1,25 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Adicionar tarefas ou problemas existentes a um quadro ou fluxo de trabalho da Adobe Workfront
-description: É possível adicionar qualquer tarefa ou problema a um quadro no Adobe Workfront a partir de uma lista ou exibição de relatório.
+title: Adicionar tarefas ou problemas existentes a um quadro ou fluxo de trabalho do Adobe Workfront
+description: Você pode adicionar qualquer tarefa ou problema a um quadro no Adobe Workfront a partir de uma lista ou exibição de relatório.
 author: Lisa
 feature: Agile
-source-git-commit: a1ab72b3ee416a6a47343eadf4d3dec317e4e27a
+exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
+source-git-commit: eb337ec6b467cd4f52d852dc90975c0679ef59fe
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
 
 # Adicionar tarefas ou problemas existentes a um [!DNL Adobe Workfront] quadro ou fluxo de trabalho
 
-Você pode adicionar qualquer tarefa ou problema a um quadro ou fluxo de trabalho em [!DNL Adobe Workfront] em uma lista, exibição de relatório ou nos detalhes do objeto.
+Você pode adicionar qualquer tarefa ou problema a um quadro ou fluxo de trabalho em [!DNL Adobe Workfront] de uma lista ou exibição de relatório, ou dos detalhes do objeto.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto">
  <col>
@@ -30,61 +31,64 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr>
   <tr>
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td>
-   <td> <p>[!UICONTROL Trabalho] ou superior</p> </td>
+   <td> <p>[!UICONTROL Work] ou superior</p> </td>
   </tr>
   <tr>
    <td role="rowheader"><strong>Permissões de objeto</strong></td>
-   <td> <p>[!UICONTROL View] ou permissões superiores para a tarefa ou problema</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td>
+   <td> <p>[!UICONTROL Exibir] ou permissões superiores para a tarefa ou problema</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td>
   </tr>
  </tbody>
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
 
-## Adicionar tarefas ou problemas existentes a um quadro ou fluxo de trabalho de uma lista
+## Adicionar tarefas ou problemas existentes a um quadro ou workflow a partir de uma lista
 
-1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront].
-1. Escolha uma das opções a seguir: **[!UICONTROL Projetos]**, **[!UICONTROL Relatório]** ou **[!UICONTROL Painéis]**.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront].
+1. Escolha uma das seguintes opções: **[!UICONTROL Projetos]**, **[!UICONTROL Relatórios]** ou **[!UICONTROL Painéis]**.
 1. Vá para o projeto, relatório ou painel que contém a tarefa ou problema que deseja adicionar ao quadro ou fluxo de trabalho.
 1. Selecione uma ou mais tarefas ou problemas.
-1. Clique em [!UICONTROL **Mais**] > [!UICONTROL **Adicionar quadros**] ou [!UICONTROL **Adicionar a fluxos de trabalho**].
-1. No [!UICONTROL Adicionar a] , selecione o quadro ou fluxo de trabalho para adicionar os itens.
 
-   Para um quadro, somente quadros independentes estão disponíveis, não placas que fazem parte de fluxos de trabalho.
+   Se você selecionar uma subtarefa, ela também será adicionada como um cartão no quadro.
+
+1. Clique em [!UICONTROL **Mais**] > [!UICONTROL **Adicionar a painéis**] ou [!UICONTROL **Adicionar a fluxos de trabalho**].
+1. No [!UICONTROL Adicionar a] , selecione o quadro ou fluxo de trabalho ao qual adicionar os itens.
+
+   Para uma placa, somente placas independentes estão disponíveis, não placas que fazem parte de fluxos de trabalho.
 
 1. Clique em [!UICONTROL **Adicionar**].
 
-   Para um quadro: A tarefa ou problema é adicionado ao quadro. Se o quadro tiver políticas de coluna aplicadas para o status , o cartão será adicionado na coluna correspondente ao seu status. Caso contrário, ele aparecerá na primeira coluna à esquerda, sem incluir a coluna de entrada.
+   Para um quadro: a tarefa ou problema é adicionado ao quadro como um cartão. Se o quadro tiver políticas de coluna aplicadas ao status, o cartão será adicionado na coluna correspondente ao seu status. Caso contrário, ele aparecerá na primeira coluna à esquerda, sem incluir a coluna de entrada.
 
    Para obter informações sobre políticas de coluna, consulte [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-   Para uma sequência de trabalho: A tarefa ou problema é adicionado à lista de cartões da sequência de trabalho como um cartão não planejado.
+   Para um workflow: a tarefa ou problema é adicionada à lista de cartões do workflow como um cartão não planejado.
 
-## Adicionar tarefa ou problemas existentes a um quadro ou fluxo de trabalho dos detalhes do objeto
+## Adicionar tarefa ou problemas existentes a um quadro ou fluxo de trabalho a partir dos detalhes do objeto
 
-1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront].
+1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront].
 1. Clique em [!UICONTROL **Projetos**], em seguida, clique no nome de um projeto para abri-lo.
 1. Clique em [!UICONTROL **Tarefas**] ou [!UICONTROL **Problemas**] no painel esquerdo.
-1. Clique na tarefa ou problema que deseja adicionar a um quadro ou fluxo de trabalho.
-1. Clique no botão **[!UICONTROL Mais]** ao lado do nome do objeto e selecione [!UICONTROL **Adicionar quadros**] ou [!UICONTROL **Adicionar a fluxos de trabalho**].
-1. No [!UICONTROL Adicionar a] , selecione o quadro ou fluxo de trabalho para adicionar os itens.
+1. Clique na tarefa, subtarefa ou problema que deseja adicionar a um quadro ou workflow.
+1. Clique em **[!UICONTROL Mais]** ao lado do nome do objeto e selecione [!UICONTROL **Adicionar a painéis**] ou [!UICONTROL **Adicionar a fluxos de trabalho**].
+1. No [!UICONTROL Adicionar a] , selecione o quadro ou fluxo de trabalho ao qual adicionar os itens.
 
-   Para um quadro, somente quadros independentes estão disponíveis, não placas que fazem parte de fluxos de trabalho.
+   Para uma placa, somente placas independentes estão disponíveis, não placas que fazem parte de fluxos de trabalho.
 
 1. Clique em [!UICONTROL **Adicionar**].
 
-   Para um quadro: A tarefa ou problema é adicionado ao quadro. Se o quadro tiver políticas de coluna aplicadas para o status , o cartão será adicionado na coluna correspondente ao seu status. Caso contrário, ele aparecerá na primeira coluna à esquerda, sem incluir a coluna de entrada.
+   Para um quadro: a tarefa ou problema é adicionado ao quadro como um cartão. Se o quadro tiver políticas de coluna aplicadas ao status, o cartão será adicionado na coluna correspondente ao seu status. Caso contrário, ele aparecerá na primeira coluna à esquerda, sem incluir a coluna de entrada.
 
    Para obter informações sobre políticas de coluna, consulte [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-   Para uma sequência de trabalho: A tarefa ou problema é adicionado à lista de cartões da sequência de trabalho como um cartão não planejado.
+   Para um workflow: a tarefa ou problema é adicionada à lista de cartões do workflow como um cartão não planejado.
 
 ## Mostrar os quadros associados a uma tarefa ou problema de uma lista
 
-1. Vá para o projeto, relatório ou painel que contém a tarefa ou o problema para o qual deseja visualizar as informações do quadro.
+1. Vá para o projeto, relatório ou painel que contém a tarefa ou problema para o qual deseja ver informações de quadros.
 1. Selecione uma exibição que inclua a coluna Quadros ou crie uma nova exibição com a coluna Quadros.
-Para obter informações sobre visualizações, consulte [Criar ou editar exibições no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
-1. Clique em [!UICONTROL **Mostrar**] na coluna para exibir a lista de quadros em que a tarefa ou o problema está.
+Para obter informações sobre exibições, consulte [Criar ou editar exibições no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+1. Clique em [!UICONTROL **Mostrar**] na coluna para exibir a lista de quadros em que a tarefa ou problema está.
 
    ![Mostrar quadros na coluna](assets/show-boards-in-column.png)
 
