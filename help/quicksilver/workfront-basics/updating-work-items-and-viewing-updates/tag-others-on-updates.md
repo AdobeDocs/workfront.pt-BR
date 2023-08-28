@@ -6,9 +6,9 @@ description: Ao fornecer comentários de atualização em um objeto do Adobe Wor
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Marcar outros usuários em atualizações
 
 <!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+
+<!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
 
 <span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>\
 <span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
@@ -163,7 +165,12 @@ Você pode marcar os usuários manualmente na seção Atualizações atual.
 
 Você pode adicionar tags a outras pessoas em atualizações na nova experiência de comentários das seguintes maneiras:
 
-* **Automaticamente**: quando um usuário adiciona um comentário ou uma resposta, ele é automaticamente marcado e adicionado à área Marcar pessoas ou equipes da caixa de comentários.
+* **Automaticamente**: quando um usuário inicia um thread, adiciona um comentário ou adiciona uma resposta, ele é automaticamente marcado e adicionado à área Marcar pessoas ou equipes da caixa de comentários. <!--remove the tip below when the new commenting stream is the only stream and the legacy commenting is removed-->
+
+  >[!TIP]
+  >
+  >Quando a thread é iniciada na experiência de comentários herdada, os participantes da thread não são marcados automaticamente.
+
 * **Manualmente**: ao adicionar manualmente um usuário à área Marcar pessoas da caixa de comentários.
 
 Também é possível remover usuários que foram marcados por engano ao editar ou responder a um comentário.
@@ -213,3 +220,10 @@ Também é possível remover usuários que foram marcados por engano ao editar o
    Para obter informações sobre a funcionalidade adicional disponível ao atualizar um item de trabalho, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Opcional) Clique no link **Mais** menu ![](assets/more-menu.png) <span class="preview">no canto superior direito do comentário</span>e, em seguida, clique em **Editar**. Remova os usuários marcados e clique em **Enviar**. Você pode editar um comentário somente dentro de 15 minutos após inseri-lo. Só é possível editar os comentários adicionados.
+
+   >[!TIP]
+   >
+   >Ao usar a experiência de comentários herdada para adicionar comentários e respostas, os proprietários de comentários que não foram marcados especificamente não podem ser removidos manualmente pelas pessoas que usam a nova experiência de comentários.
+
+
+

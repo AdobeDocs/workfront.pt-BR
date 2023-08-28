@@ -6,9 +6,9 @@ description: Como um usuário com acesso administrativo a Folhas de horas, você
 author: Alina
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '817'
 ht-degree: 2%
 
 ---
@@ -111,6 +111,16 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
      <tr> 
       <td role="rowheader"><strong>Data Final</strong> </td> 
       <td> Esta é a data de término da folha de horas.</td> 
+     </tr>
+<tr> 
+      <td role="rowheader"><strong>Status</strong> </td> 
+      <td> Este é o status da folha de horas.
+      A seguir estão opções possíveis de status da folha de horas: 
+      <ul><li><b>Abertura</b>: A folha de horas está aberta e as entradas de horas podem ser editadas.</li>
+      <li><b>Enviado</b>: a folha de horas é enviada para aprovação dos aprovadores designados.</li>
+      <li><b>Rejeitado</b>: a folha de horas não foi aprovada pelos aprovadores e agora está disponível novamente para que o usuário edite as entradas de tempo.</li>
+      <li><b>Fechado</b>: A folha de horas foi fechada pelo usuário ou aprovada pelo aprovador e, como resultado, agora está fechada. Não é possível adicionar horas a uma folha de horas fechada.</li>
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Aprovadores</strong> </td> 
@@ -127,4 +137,4 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
     </tbody> 
    </table>
 
-1. Clique em Salvar.
+1. Clique em **Salvar**.

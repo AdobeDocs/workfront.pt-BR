@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1380'
 ht-degree: 2%
 
 ---
@@ -68,7 +68,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader">Configurações de nível de acesso*</td> 
    <td> <p>Editar acesso a ocorrências</p> <p><b>Nota</b>
 
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
+Se você não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -120,6 +120,11 @@ Você deve ter uma solicitação enviada anteriormente por você ou por alguém 
 
 1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Solicitações**.
 1. (Condicional) Se a seção Enviada não for exibida por padrão, clique em **Enviado** no painel esquerdo.
+
+   >[!TIP]
+   >
+   >   O administrador do Workfront ou de grupo pode personalizar o modelo de layout e remover áreas do menu Principal ou do painel esquerdo do ambiente. Nesse caso, elas podem não estar disponíveis para você.
+
 1. Localize a solicitação que você deseja copiar e submeter como nova e siga um destes procedimentos:
 
    * Selecione-o e clique em **Copiar** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) no canto superior esquerdo da lista Solicitações enviadas.
@@ -206,7 +211,7 @@ Você deve ter uma solicitação enviada anteriormente por você ou por alguém 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Horas planejadas</strong> </td> 
-      <td> <p>Estime quantas horas essa solicitação levaria para ser concluída.</p> </td> 
+      <td> <p>Estime quantas horas levaria para essa solicitação ser concluída.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Data de início planejado</strong> </td> 
