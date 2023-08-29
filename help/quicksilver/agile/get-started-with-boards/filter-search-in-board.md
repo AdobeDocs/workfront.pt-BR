@@ -6,9 +6,9 @@ description: Você pode filtrar um quadro para exibir apenas determinados cartõ
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 44ced4ec8af150bc373699389bd63d150cc387f6
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ A classificação do quadro classifica todos os cartões nas colunas. Não é po
 
 A pesquisa também ajuda a localizar um cartão específico no quadro.
 
-Quando os filtros são aplicados, um indicador é exibido no quadro ![Filtro aplicado ao quadro](assets/boards-filterapplied-30x30.png). Clique em **[!UICONTROL Limpar tudo]** para remover todos os filtros do quadro, e clique em **[!UICONTROL Ocultar filtros]** para fechar o painel de filtro.
+Quando os filtros são aplicados, um indicador é exibido no quadro ![Filtro aplicado ao quadro](assets/boards-filterapplied-30x30.png). Clique em **[!UICONTROL Limpar tudo]** para remover todos os filtros do quadro, e clique no ícone recolher para fechar o painel filtro.
 
-![Painel Filtro](assets/boards-all-filters-collapsed-1022.png)
+![Painel Filtro](assets/boards-all-filters-collapsed-0823.png)
 
 ## Requisitos de acesso
 
