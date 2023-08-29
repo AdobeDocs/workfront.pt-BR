@@ -5,9 +5,9 @@ title: Integrações do Adobe Experience Manager Assets
 description: Você pode conectar seu trabalho às seguintes integrações do Adobe Experience Manager Assets.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: e03e6a3cacc8eb65764d86854a9847eb414aa340
+source-git-commit: 69f1ee95754207ea9e6bcaf8ee2d270a15c9fc6b
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,7 @@ Antes de começar,
 
 1. Clique em **[!UICONTROL Menu principal]** no canto superior direito do Adobe Workfront e clique em **[!UICONTROL Configuração]** .
 1. Selecionar **[!UICONTROL Documentos]** no painel esquerdo, selecione **[!UICONTROL [!DNL Experience Manager]Integração]**.
+
    >[!NOTE]
    >
    >Essa área de configuração será exibida somente se o [!DNL Workfront] O ambiente está incluído em um [!DNL Adobe Admin Console].
@@ -214,6 +215,8 @@ Para mapear metadados para pastas:
 ### Sincronização de metadados de objeto
 
 Um [!DNL Experience Manager] campos que estão mapeados para [!DNL Workfront] os campos portfólio, programa, projeto, tarefa, problema e documento são atualizados automaticamente quando o campo é alterado no [!DNL Workfront].
+
+Quando essa opção está ativada, qualquer ativo enviado para o Adobe Experience Manager inclui um cartão na página Detalhes do documento que exibe uma visualização em tempo real dos metadados Adobe Experience Manager do documento.
 
 >[!IMPORTANT]
 >
