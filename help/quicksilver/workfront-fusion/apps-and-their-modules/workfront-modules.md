@@ -9,9 +9,9 @@ description: Você pode usar o conector do Adobe Workfront Fusion Adobe Workfron
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 3604e67309b76c4e0e8c3af1341b80a607b95d6f
+source-git-commit: 0810f2db8ef85b73de591649712580f23b72b5af
 workflow-type: tm+mt
-source-wordcount: '5428'
+source-wordcount: '5468'
 ht-degree: 3%
 
 ---
@@ -497,6 +497,14 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
 
 Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] object types available for each [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
 
+>[!NOTE]
+>
+>Recomendamos a configuração do cenário a seguir para evitar a possibilidade de registros não serem excluídos devido a operações assíncronas.
+>
+>1. Excluir o registro de forma síncrona.
+>1. Adicione a manipulação de erros ao módulo Delete Record para Ignorar o erro causado pelo tempo limite de 40 segundos.
+
+
 +++
 
 +++ **[!UICONTROL Baixar Documento]**
@@ -564,7 +572,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL ID]</td> 
-   <td>Insira ou mapeie o único [!DNL Workfront] ID do registro com o qual você deseja que o módulo interaja.<p>Para obter a ID, abra o [!DNL Workfront] no navegador e copie o texto no final do URL após "ID=". Por exemplo: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p></td> 
+   <td>Insira ou mapeie o [!DNL Workfront] ID do registro com o qual você deseja que o módulo interaja.<p>Para obter a ID, abra o [!DNL Workfront] no navegador e copie o texto no final do URL após "ID=". Por exemplo: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p></td> 
   </tr> 
  </tbody> 
 </table>
