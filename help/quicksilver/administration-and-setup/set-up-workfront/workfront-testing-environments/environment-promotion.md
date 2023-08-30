@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 5d3c8e3626dabf88394bd6b3c2dd48e6168b56c4
+source-git-commit: f886c67c80439e2e8158c4616479ffabaa53c3d3
 workflow-type: tm+mt
-source-wordcount: '2325'
-ht-degree: 2%
+source-wordcount: '2334'
+ht-degree: 3%
 
 ---
 
@@ -126,7 +126,7 @@ O recurso de Promoção do ambiente tem como objetivo fornecer a capacidade de m
 
 A API autentica cada solicitação para garantir que o cliente tenha acesso para visualizar ou modificar um objeto solicitado.
 
-A autenticação é realizada transmitindo uma ID de sessão ou chave de API, que pode ser fornecida usando um dos seguintes métodos:
+A autenticação é realizada transmitindo uma ID de sessão ou chave de API, que pode ser fornecida usando o seguinte método:
 
 ### Solicitar autenticação de cabeçalho
 
@@ -192,7 +192,14 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 ```json
 {
     "apikey": "**********",
-    - or -
+    "Content-Type": "application/json"
+}
+```
+
+Ou
+
+```json
+{
     "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
@@ -288,9 +295,15 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+Ou
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
@@ -349,9 +362,15 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+Ou
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
@@ -418,9 +437,15 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+Ou
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
@@ -531,7 +556,12 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 ```json
 {
     "apikey": "**********",
-    - or -
+    "Content-Type": "application/json"
+}
+```
+
+```json
+{
     "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
@@ -658,7 +688,14 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
 ```json
 {
     "apikey": "**********",
-    - or -
+    "Content-Type": "application/json"
+}
+```
+
+Ou
+
+```json
+{
     "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
@@ -735,9 +772,15 @@ DELETE https://{domain}.{environment}.workfront.com/environment-promotion/api/v1
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+Ou
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
@@ -804,7 +847,14 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/t
 ```json
 {
     "apikey": "**********",
-    - or -
+    "Content-Type": "application/json"
+}
+```
+
+Ou
+
+```json
+{
     "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
@@ -856,7 +906,14 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
 ```json
 {
     "apikey": "**********",
-    - or -
+    "Content-Type": "application/json"
+}
+```
+
+Ou
+
+```json
+{
     "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
@@ -904,9 +961,15 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1v1/
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+Ou
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
@@ -995,9 +1058,15 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/in
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+Ou
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
