@@ -10,7 +10,7 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: f886c67c80439e2e8158c4616479ffabaa53c3d3
+source-git-commit: b0142b75e507081ebfb6ce700f37d5c287c72cde
 workflow-type: tm+mt
 source-wordcount: '2334'
 ht-degree: 3%
@@ -839,7 +839,7 @@ No momento, não há suporte para uma ATUALIZAÇÃO `action` nos recursos alfa d
 #### URL
 
 ```
-POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/translationmap
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/:id/prepare-installation
 ```
 
 #### Cabeçalhos
@@ -891,14 +891,14 @@ Esta chamada inicia uma tentativa de instalação de um pacote de promoção no 
 
 #### Opções
 
-Se um `translationmap` não for fornecido no corpo do POST, o processo iniciará automaticamente o `/translationmap` chame. A variável `translationmap` que é devolvido será usado como está, sem a oportunidade de revisar ou fazer ajustes nele.
+Se um `translationmap` não for fornecido no corpo do POST, o processo iniciará automaticamente o `/prepare-installation` chame. A variável `translationmap` que é devolvido será usado como está, sem a oportunidade de revisar ou fazer ajustes nele.
 
 Se um `translationmap` for fornecido no corpo do POST, o processo de instalação usará o mapeamento fornecido. Isso dá ao usuário que está instalando a oportunidade de revisar e fazer ajustes, conforme necessário, antes de executar uma tentativa de instalação.
 
 #### URL
 
 ```
-POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/install
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations/{id}/install
 ```
 
 #### Cabeçalhos
@@ -954,7 +954,7 @@ Os resultados incluem eventos de instalação de todos os ambientes nos quais o 
 #### URL
 
 ```
-GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1v1/installations?environmentPromotionPackageId={environmentPromotionPackageId}
+GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations?environmentPromotionPackageId={environmentPromotionPackageId}
 ```
 
 #### Cabeçalhos
