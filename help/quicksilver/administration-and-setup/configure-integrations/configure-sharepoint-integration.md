@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: d76dde079748e11949acd322dbe6a4400c0d4ca9
+source-git-commit: 2a5e793077e520e34fdbb9187ba17f1e1bde43e9
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1573'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
-
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente Visualização da sandbox.</span>
 
 >[!IMPORTANT]
 >
@@ -93,12 +91,12 @@ Para obter instruções sobre como vincular documentos do SharePoint com a nova 
 Para enviar um documento ao SharePoint:
 
 1. Clique em **Enviar para** ícone ![Enviar para](assets/send-to-icon.png) e selecione SharePoint (Graph API).
-1. <span class="preview">(Opcional) Pesquise na barra de pesquisa o site ou pasta para onde deseja enviar o documento.</span>
+1. (Opcional) Pesquise na barra de pesquisa o site ou pasta para onde deseja enviar o documento.
 1. Selecione o site ou pasta na lista.
 
-   * <span class="preview">Os sites estão marcados com ![Ícone do site](assets/site-icon.png).</span>
+   * Os sites estão marcados com ![Ícone do site](assets/site-icon.png).
 
-   * <span class="preview">As pastas estão marcadas com ![Ícone de pasta](assets/folder-icon.png).</span>
+   * As pastas estão marcadas com ![Ícone de pasta](assets/folder-icon.png).
 
    * Os arquivos não são marcados com um ícone.
 
