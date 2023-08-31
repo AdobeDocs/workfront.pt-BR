@@ -3,9 +3,9 @@ title: Visão geral da versão do quarto trimestre de 2023
 description: Visão geral da versão do quarto trimestre de 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: eb337ec6b467cd4f52d852dc90975c0679ef59fe
+source-git-commit: c23586101f1d4d44598a55793fd6cb9247e1b796
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Aprimoramentos nas atribuições de usuários em quadros e cartões</a><span style="color: #ff0000;"> Novo na visualização!</span></p><p>Agora estão disponíveis aprimoramentos que adicionam flexibilidade ao adicionar usuários a quadros e cartões em Adobe Workfront Boards.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Aprimoramentos nas atribuições de usuários em quadros e cartões</a></p><p>Agora estão disponíveis aprimoramentos que adicionam flexibilidade ao adicionar usuários a quadros e cartões em Adobe Workfront Boards.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -127,6 +127,9 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                             <li>
                                 <p>Versão de pré-visualização: 3 de agosto de 2023</p>
                             </li>
+                            <li>
+                                <p>Produção para acesso antecipado a placas: N/D</p>
+                            </li>
                              <li>
                                 <p>Produção para lançamento rápido: N/D</p>
                             </li>
@@ -157,7 +160,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Melhorias na experiência ao enviar documentos para o SharePoint (GraphAPI)</a><span style="color: #ff0000;"> Novo na visualização!</span> </p><p>Fizemos algumas alterações para facilitar a localização de pastas ao enviar documentos para suas pastas do SharePoint (GraphAPI)</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Melhorias na experiência ao enviar documentos para o SharePoint (GraphAPI)</a></p><p>Fizemos algumas alterações para facilitar a localização de pastas ao enviar documentos para suas pastas do SharePoint (GraphAPI)</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -165,17 +168,14 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                                 <p>Versão de pré-visualização: 24 de agosto<br /></p>
                             </li>
                             <li>
-                                <p>Produção para lançamento rápido: a ser definido</p>
-                            </li>
-                            <li>
-                                <p>Produção para lançamento trimestral: a ser definido</p>
+                                <p><span class="preview">Produção para todos os clientes: 31 de agosto de 2023</span>
                             </li>
                         </ul>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Atualizações para arrastar e soltar para integrações de documentos</a><span style="color: #ff0000;"> Novo na visualização!</span> </p><p>Fizemos alguns aprimoramentos para esclarecer e remover erros do usuário ao arrastar e soltar um arquivo em uma pasta vinculada.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Atualizações para arrastar e soltar para integrações de documentos</a></p><p>Fizemos alguns aprimoramentos para esclarecer e remover erros do usuário ao arrastar e soltar um arquivo em uma pasta vinculada.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -183,10 +183,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                                 <p>Versão de pré-visualização: 24 de agosto<br /></p>
                             </li>
                             <li>
-                                <p>Produção para lançamento rápido: a ser definido</p>
-                            </li>
-                            <li>
-                                <p>Produção para lançamento trimestral: a ser definido</p>
+                                <p><span class="preview">Produção para todos os clientes: 31 de agosto de 2023</span>
                             </li>
                         </ul>
                     </td>
@@ -213,8 +210,10 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md" class="MCXref xref" xrefformat="{para}">Design atualizado ao adicionar um novo problema a um projeto</a> </p><p>Esta atualização foi anunciada com a versão 23.3 do.
-                        <p>Atualizamos a caixa Novo problema que é exibida ao enviar um novo problema para um projeto. Agora, a interface corresponde à caixa Nova solicitação, que é exibida ao enviar uma nova solicitação para uma fila de solicitações.  </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md" class="MCXref xref" xrefformat="{para}">Design atualizado ao adicionar um novo problema a um projeto</a> </p>
+                        <p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
+                        <p>Esta atualização foi anunciada com a versão 23.3 do.</p>
+                        <p>Atualizamos a caixa Novo problema que é exibida ao enviar um novo problema para um projeto. Agora, a interface corresponde à caixa Nova solicitação, que é exibida ao enviar uma nova solicitação para uma fila de solicitações.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -232,7 +231,8 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Recálculo dinâmico de campos calculados em formulários</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Recálculo dinâmico de campos calculados em formulários</a></p>
+                        <p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
                         <p>Os campos calculados em um formulário anexado a um objeto agora são recalculados dinamicamente em tempo real quando valores dependentes de qualquer formulário na página são modificados. Isso permite que você veja os resultados atualizados sem salvar o formulário.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -252,6 +252,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Definir horas planejadas em tarefas filho recorrentes com tipo de duração Simples sem atribuições</a></p>
+                        <p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
                         <p>Fizemos uma alteração na maneira como as Horas planejadas são alocadas para tarefas recorrentes sem atribuições e com um tipo de duração Simples. Agora, quando você define Horas Planejadas em uma nova tarefa recorrente com um Tipo de Duração Simples e sem atribuições, as horas também são alocadas para as recorrências individuais. Antes dessa alteração, as horas não eram salvas para recorrências individuais quando as tarefas pai eram desatribuídas.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -349,6 +350,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">Novos aprimoramentos na experiência de comentários beta</a> </p>
+                        <p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
                         <p>As melhorias na seção Atualizações estão sendo disponibilizadas no período da versão do Quarto trimestre de 2023 para a versão beta de experiência de comentários. Esses aprimoramentos serão disponibilizados no ambiente de produção para todos os clientes com a versão do quarto trimestre de 2023 (outubro de 2023).</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -368,6 +370,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">Novos aprimoramentos na versão beta dos Painéis do Canvas</a> </p>
+                        <p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
                         <p>As melhorias nos painéis do Canvas estão sendo disponibilizadas no período do quarto trimestre de 2023 como parte da versão beta em andamento. Esses aprimoramentos serão disponibilizados no ambiente de produção para todos os clientes com a versão do quarto trimestre de 2023 (outubro de 2023).</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -387,6 +390,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Novas opções de filtro para Nova página inicial</a> </p>
+                        <p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
                         <p>Novas opções de filtro agora estão disponíveis para o widget Meu trabalho em Nova página inicial. As opções incluem filtros para tipos de objeto (tarefas, problemas e solicitações) e status (não pronto, pronto para iniciar, trabalhando e concluído).</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -425,6 +429,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">O botão Tentar Nova Página Inicial foi removido para contas que desativaram a Nova Página Inicial</a> </p>
+                        <p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
                         <p>O botão Tentar nova página inicial não está mais presente nas contas em que a opção Nova página inicial foi desativada. A Nova página inicial deve ser reativada pelo administrador do sistema para que usuários individuais possam usar o botão para experimentar a Nova página inicial.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -444,6 +449,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Mudar para o conjunto de widgets padrão do Novo Início</a> </p>
+                        <p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
                         <p>O widget de tarefas, que requer permissão para criar tarefas, agora está presente apenas no widget padrão definido para usuários com os tipos de licença Padrão, Plano ou Trabalho. Além disso, o widget foi removido automaticamente das páginas iniciais dos usuários com todos os outros tipos de licença.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
