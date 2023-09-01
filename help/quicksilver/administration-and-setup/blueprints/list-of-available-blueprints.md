@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
+source-git-commit: e21758ba410dd75440ff28e00a2fb5ba88c3d18a
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 0%
@@ -61,10 +61,10 @@ A variável [!UICONTROL Iniciativa estratégica interna geral] o blueprint cont�
 **[!UICONTROL Configuração da Organização de Recursos Humanos]**
 Este blueprint contém a configuração de estruturas organizacionais para expandir para um departamento de Recursos Humanos.
 
-[!BADGE Novo!]{type=Informative}**[!UICONTROL Configuração da organização de tecnologia da informação]**
+**[!UICONTROL Configuração da organização de tecnologia da informação]**
 Este blueprint contém a configuração de estruturas organizacionais para expandir para um caso de uso de Tecnologia da informação.
 
-**[!UICONTROL Noções básicas de instância herdada | Lista de verificação]**
+[!BADGE Novo!]{type=Informative}**[!UICONTROL Noções básicas de instância herdada | Lista de verificação]**
 Este blueprint contém um modelo de projeto (ou lista de verificação) que pode ser revisado com uma pequena lista de perguntas, recursos e links para compreender claramente como a instância do Workfront foi configurada. Use-a quando tiver herdado recentemente uma instância do Workfront e precisar de orientação sobre onde começar.
 
 **[!UICONTROL Execução integrada de campanha]**
