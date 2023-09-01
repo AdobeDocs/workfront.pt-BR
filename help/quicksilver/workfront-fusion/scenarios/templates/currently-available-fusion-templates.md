@@ -7,9 +7,9 @@ description: Os seguintes modelos públicos estão disponíveis no Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3897606db8a80d04a3b8d8f0cba69365ceb86c17
+source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,13 @@ Para exibir os modelos disponíveis, clique no link **Modelos** ícone ![](asset
 
 Esses modelos automatizam processos e fluxos de trabalho do Workfront.
 
-### Workfront - Copiar Forms e dados de campo personalizados do programa para novos projetos associados
+### [!BADGE Novo!]{type=Informative}
 
 Essa automação observa novos projetos em programas com formulários personalizados. Em seguida, adiciona esses formulários e campos personalizados do programa aos novos projetos.
+
+### [!BADGE Novo!]{type=Informative}
+
+Essa automação observa novos projetos em portfólios com formulários personalizados. Em seguida, ele adiciona esses formulários e campos personalizados do portfólio aos novos projetos.
 
 ### Workfront - Converter problema aprovado em projeto
 
@@ -54,7 +58,7 @@ Este modelo captura uma linha de base do projeto após qualquer alteração de s
 
 Este modelo captura uma linha de base do projeto todas as segundas-feiras às 6h00 ET em projetos filtrados por portfólio e cria uma atualização no fluxo de atualização para registro em log.
 
-### Localizar modelos de projeto não usados no tempo da política e notificar
+### [!BADGE Novo!]{type=Informative}
 
 Uma vez por mês, revise os modelos de projeto usando sua própria política com esse modelo fácil de gerenciar que notifica os usuários apropriados sobre os modelos em violação de sua política.
 

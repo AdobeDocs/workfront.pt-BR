@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
+source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1898'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ A variável [!UICONTROL Iniciativa estratégica interna geral] o blueprint cont�
 **[!UICONTROL Configuração da Organização de Recursos Humanos]**
 Este blueprint contém a configuração de estruturas organizacionais para expandir para um departamento de Recursos Humanos.
 
-**[!UICONTROL Configuração da organização de tecnologia da informação]**
+[!BADGE Novo!]{type=Informative}**[!UICONTROL Configuração da organização de tecnologia da informação]**
 Este blueprint contém a configuração de estruturas organizacionais para expandir para um caso de uso de Tecnologia da informação.
 
 **[!UICONTROL Noções básicas de instância herdada | Lista de verificação]**
@@ -78,6 +78,10 @@ Este blueprint contém um modelo de [!DNL Workfront professional services] A org
 
 **[!UICONTROL Nova Disponibilidade de Admissão]**
 Este blueprint contém um modelo de [!DNL Workfront] a organização de serviços profissionais tem usado por anos durante os contratos de implementação com as equipes de Recursos Humanos para solicitar que especialistas em RH e gerentes de contratação concluam atividades essenciais para tornar notável o primeiro dia de um novo funcionário.
+
+[!BADGE Novo!]{type=Informative}**Desintegração | Painel do usuário de saída**
+
+Este blueprint contém um único painel com 13 relatórios para ajudar você a localizar, reatribuir ou gerenciar os objetos e atribuições associados a um usuário que sai do Workfront. Você também pode usar esses relatórios para um usuário que está mudando para uma nova função ou grupo para reatribuir seu trabalho.
 
 **[!UICONTROL Pós-implementação: implantação de um novo caso de uso]**
 Este blueprint contém um único modelo que organiza o trabalho que um [!DNL Workfront] o cliente precisará concluir o gerenciamento da expansão para os próximos processos após a implementação inicial.
@@ -100,6 +104,10 @@ Este blueprint contém a configuração de estruturas organizacionais para expan
 **[!UICONTROL Rastreamento do Processo de Recrutamento]**
 Este blueprint define uma lista de verificação para recursos de recrutamento interno a ser usada para ajudar as partes interessadas a acompanhar o progresso das solicitações de efetivo de pessoal. Ele foi projetado para oferecer suporte a um nível de maturidade gerenciado.
 
+[!BADGE Novo!]{type=Informative}**Preparação do gerenciamento de recursos**
+
+Use este Modelo de projeto e Relatório de usuário para garantir que você tenha as configurações e informações corretas necessárias para gerar dados precisos do Gerenciamento de recursos.
+
 **[!UICONTROL Autoavaliação do Controle de Risco: Planejamento da Redução de Risco Principal]**
 [!UICONTROL Autoavaliação do Controle de Risco] O (RSCA) define um processo para identificar riscos e medir os controles que você tem em vigor para mitigar esses riscos. Esse modelo formaliza o processo para que você avalie novos riscos, garanta que controles apropriados sejam implementados e saiba como medir e documentar a eficácia do controle.
 
@@ -117,6 +125,14 @@ Este blueprint contém um modelo de [!DNL Workfront] a organização de serviço
 
 **[!UICONTROL Painel de Manutenção do Administrador do Sistema]**
 Este blueprint contém um único painel de controle para ajudar administradores de sistema a manter e limpar o sistema periodicamente de diversos resíduos que podem aumentar com o tempo.
+
+[!BADGE Novo!]{type=Informative}**Percepção de valor | Painel de valores principais**
+
+Este blueprint contém um único painel com 21 relatórios para ajudar você a medir o valor do Workfront. Esses relatórios ajudam a traduzir os benefícios da Centralização de trabalho e do Gerenciamento de processos de trabalho em valores mensuráveis que você pode rastrear ao longo do tempo para gerar melhores resultados.
+
+[!BADGE Novo!]{type=Informative}**Percepção de valor | Revisar e aprovar painel**
+
+Este blueprint contém um único painel com 7 relatórios para ajudar você a obter o valor do Workfront. Esses relatórios ajudam a traduzir os valores de Revisão e Aprovação do trabalho em benefícios mensuráveis que você pode rastrear ao longo do tempo para gerar melhores resultados.
 
 **[!UICONTROL Produção de ativo de vídeo] (Integrado)**
 A variável [!UICONTROL Produção de ativo de vídeo] O pacote contém um modelo que organiza o processo de trabalho de um processo padrão de produção de vídeo. O modelo fornece um processo simples para a criação do ativo de vídeo original para uma equipe que depende de procedimentos operacionais padrão para definir como realizar o trabalho e usa o projeto apenas para priorizar o trabalho e acompanhar o progresso.
