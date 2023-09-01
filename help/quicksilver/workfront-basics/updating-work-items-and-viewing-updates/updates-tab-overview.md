@@ -7,9 +7,9 @@ description: A seção Atualizações de um objeto exibe comentários que os usu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 5b9ee4d5d792d78f127f88bac3a0e4fea5cdf788
+source-git-commit: 096d4a50ae4c392f149d4dd54b19c6f1c86c5b1b
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1189'
 ht-degree: 4%
 
 ---
@@ -142,14 +142,12 @@ Para obter informações sobre quais recursos estão disponíveis para a nova ex
    * **Comentários**: exibe comentários feitos por usuários e responde a esses comentários. Para obter informações sobre como atualizar objetos na nova experiência de comentários, consulte [Atualizar trabalho](../updating-work-items-and-viewing-updates/update-work.md).
    * **Atividade do sistema**: exibe as atualizações do sistema que são mensagens informativas criadas pelo Workfront para registrar determinados eventos em um objeto. Por exemplo, você pode capturar alterações em campos de status, nome ou personalizados com atualizações do sistema. O administrador do Workfront ou de grupo pode habilitar atualizações de sistema para seus objetos. Para obter mais informações, consulte [Configurar atualizações do sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-  <!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this - on or before October 2023: 
+      * Os seguintes objetos não têm a guia Atividade do sistema:
 
-  * The following objects don't have a System Activity tab:
-
-  * Team
-  * Template
-  * Template Task
-    -->
+         * Equipe
+         * Modelo
+         * Modelo de Tarefa
+         * Cartão ad-hoc
 
 * Atualmente, você pode adicionar comentários e responder às atualizações usando a nova experiência de comentários nos seguintes objetos:
 
