@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: db4d0e82f0f12d4e8c210565231a6f6569d7d90c
+source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
 workflow-type: tm+mt
-source-wordcount: '13214'
+source-wordcount: '13223'
 ht-degree: 1%
 
 ---
@@ -528,7 +528,7 @@ ht-degree: 1%
          * [Acesso administrativo para modelos de layout](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
          * [Atribuir usuários a modelos de layout](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
          * [Copiar um modelo de layout](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
-         * [Excluir os modelos de layout clássicos usando uma chamada de API](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
+         * [Exclua os modelos de layout clássicos usando uma chamada de API](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
       * Formulários personalizados {#custom-forms}
          * [Formulários personalizados](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [Visão geral de formulários personalizados](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
@@ -740,6 +740,7 @@ ht-degree: 1%
       * [Desativar integrações de documentos](administration-and-setup/configure-integrations/disable-document-integrations.md)
       * [Configurar a integração do SharePoint](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
       * [Configurar mapeamento de metadados](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
+      * [Criar [!UICONTROL [!DNL Adobe Workfront] para [!DNL Creative Cloud]] pacotes para seus usuários na [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
       * [Criar aplicativos OAuth2 para integrações do Workfront](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [Exibir e gerenciar aplicativos OAuth2 personalizados](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
       * [Configurar a integração do JumpSeat](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
