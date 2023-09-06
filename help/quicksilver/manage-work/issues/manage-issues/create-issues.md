@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: b6ea67f28b498cc0de4325a2350545c660574d4c
+source-git-commit: bdbb970aa0bb49fe9e69a15f93c96609eb2c1bfe
 workflow-type: tm+mt
-source-wordcount: '2024'
+source-wordcount: '2035'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--remove Preview and Prod references when this comes to Prod-->
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente Produção para clientes que ativaram versões rápidas. </span>
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
 <span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -113,7 +113,7 @@ Para criar um problema em uma tarefa ou um projeto:
 
 1. (Condicional) Se o criador do projeto permitiu a **Tipo de solicitação** para ser exibido no formulário Novo problema, selecione o tipo do seu problema dentre as seguintes opções:
 
-   * Registro de Defeito
+   * Relatório de erro
    * Pedido de alteração
    * Problema
    * Solicitar\
@@ -173,7 +173,7 @@ A caixa Nova ocorrência é exibida.
 
 1. (Condicional) Se o criador do projeto permitiu a **Tipo de solicitação** para ser exibido no formulário Novo problema, selecione o tipo do seu problema dentre as seguintes opções:
 
-   * Registro de Defeito
+   * Relatório de erro
    * Pedido de alteração
    * Problema
    * Solicitar\

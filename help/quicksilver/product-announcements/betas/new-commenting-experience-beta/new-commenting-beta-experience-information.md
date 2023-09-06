@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 5909b09d-626e-4294-9048-6db940f45e37
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: bdbb970aa0bb49fe9e69a15f93c96609eb2c1bfe
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
@@ -20,4 +20,4 @@ No momento, estamos lançando uma nova experiência de comentários na seção A
 
 * [Nova atividade de lançamento de experiência de comentário](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
 * [Nova experiência de comentários](../new-commenting-experience-beta/unified-commenting-experience.md)
-  <!--* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)-->
+* [Perguntas frequentes sobre a nova experiência de comentários](../new-commenting-experience-beta/new-commenting-faq.md)
