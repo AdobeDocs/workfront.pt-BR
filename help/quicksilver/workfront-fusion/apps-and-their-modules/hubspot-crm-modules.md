@@ -4,9 +4,9 @@ description: A variável [!DNL Adobe Workfront Fusion] Os módulos CRM do HubSpo
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5bb394c2fffb4426d66a8b144802db8f7c97afe1
 workflow-type: tm+mt
-source-wordcount: '2533'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -730,6 +730,19 @@ Exclui um tíquete existente por sua ID.
 ### [!UICONTROL Fazer uma chamada de API]
 
 Permite executar uma chamada de API personalizada.
+
+>[!NOTE]
+>
+>Os seguintes endpoints foram descontinuados na API HubSpot em 31 de agosto de 2023 e não podem mais ser usados em módulos do Fusion.
+>
+>* Listar eventos de conteúdo
+>* Listar eventos sociais
+>* Listar eventos de tarefas do calendário
+>* Listar todos os eventos do calendário
+>* Criar tarefa de calendário
+>* Obter tarefa de calendário por ID
+>* Atualizar tarefa de calendário
+>* Excluir uma tarefa de calendário
 
 <table style="table-layout:auto"> 
  <col> 
