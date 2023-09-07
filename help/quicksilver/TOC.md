@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
+source-git-commit: 01f91f31cf97ece80d7f7b98a96e846b4c8ad914
 workflow-type: tm+mt
-source-wordcount: '13223'
+source-wordcount: '13232'
 ht-degree: 1%
 
 ---
@@ -132,6 +132,7 @@ ht-degree: 1%
          * [21.1 Outras melhorias](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Atividade de lançamento do Adobe Workfront Fusion {#fusion-release}
          * [Atividade de lançamento do Adobe Workfront Fusion](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Atividade de lançamento do Workfront Fusion: semana de 1 de setembro de 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-9-1.md)
          * [Atividade de lançamento do Workfront Fusion: semana de 21 de agosto de 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-21.md)
          * [Atividade de lançamento do Workfront Fusion: semana de 7 de agosto de 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-7.md)
          * [Atividade de lançamento do Workfront Fusion: semana de 10 de julho de 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-7-10.md)
@@ -2004,6 +2005,7 @@ ht-degree: 1%
       * [Conexões no Adobe Workfront Fusion](workfront-fusion/connections/connections.md)
       * [Sobre como conectar o Adobe Workfront Fusion a um aplicativo ou serviço](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
       * [Criar conexões no Adobe Workfront Fusion](workfront-fusion/connections/connection-instruction-toc.md)
+      * [Metadados da conexão](/help/quicksilver/workfront-fusion/connections/connection-metadata.md)
       * [Criar uma conexão com o Adobe Workfront Fusion - instruções básicas](workfront-fusion/connections/connect-to-fusion-general.md)
       * [Conectar o Adobe Workfront Fusion a qualquer serviço da Web](workfront-fusion/connections/connect-wf-fusion-to-any-web-service.md)
       * [Conectar o Adobe Workfront Fusion a um serviço Web que usa a autorização do token de API](workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
