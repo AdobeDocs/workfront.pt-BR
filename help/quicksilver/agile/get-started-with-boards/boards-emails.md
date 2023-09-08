@@ -7,16 +7,18 @@ description: Os Adobe Workfront Boards enviam um email quando você é adicionad
 author: Lisa
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 9a9b64ce2bacbffbde40a15a201c4be35dfc3097
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 1%
+source-wordcount: '204'
+ht-degree: 0%
 
 ---
 
 # Notificações e preferências de email dos painéis
 
 [!DNL Adobe Workfront] [!UICONTROL Quadros] O envia um email quando você é adicionado a um quadro e quando um cartão é atribuído a você. As notificações são ativadas por padrão e você pode selecionar em suas preferências de Quadros quais emails deseja receber.
+
+Você também receberá um email quando estiver marcado em um comentário em um cartão conectado, dependendo das configurações de notificação por email. Para obter mais informações, consulte [Ativar ou desativar suas próprias notificações de eventos](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). No momento, os usuários marcados em comentários em cartões ad hoc não recebem uma notificação por email.
 
 ## Requisitos de acesso
 
