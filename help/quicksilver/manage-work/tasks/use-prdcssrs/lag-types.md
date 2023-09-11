@@ -7,9 +7,9 @@ description: Atraso é o tempo que deve decorrer após a conclusão de um predec
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
+source-git-commit: a2d3032b32d321c0089839dafad6c9b3c5ba153a
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -164,7 +164,7 @@ A tabela a seguir ilustra os Tipos de Defasagem e como indicar a quantidade de t
 <p><b>Nota</b></p> O limite máximo de atraso para a porcentagem é 2000%.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Dia da semana (c) </p> </td> 
+   <td> <p>Dia da Semana (w ou we) </p> </td> 
    <td> <p>O atraso entre duas tarefas é medido indicando os dias da semana da semana que contém a Data de conclusão planejada do antecessor.</p> <p>Para esse Tipo de Defasagem, cada dia da semana está associado a um número:</p> 
     <ul> 
      <li>Domingo=1</li> 
@@ -187,7 +187,7 @@ Se a Data Inicial da sucessora for calculada para ser uma determinada terça-fei
 <p>Para indicar semanas passadas ou futuras, você pode adicionar um número na frente do número do dia para o tipo de atraso. </p> <p>Por exemplo, para indicar a segunda-feira de 10 semanas atrás, você pode usar esse código para indicar o antecessor do seu sucessor:</p> <p><code>4fs-102w</code> </p> <p>10 indica 10 semanas atrás e 2 é o número atribuído à segunda-feira. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Dia da semana diferente de zero (k)</p> </td> 
+   <td> <p>Dia da semana diferente de zero (k ou ke)</p> </td> 
    <td> <p>O atraso entre duas tarefas é medido de forma idêntica ao tipo de atraso Dia da semana, exceto se o tempo do antecessor terminar no mesmo dia da semana especificada. O tempo de atraso é calculado para a semana adjacente (+/-). </p> <p>Nesse caso, o tempo de atraso nunca pode ser 0.</p> </td> 
   </tr> 
  </tbody> 
