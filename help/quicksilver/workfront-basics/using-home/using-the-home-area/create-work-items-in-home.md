@@ -6,9 +6,9 @@ description: Criar itens de trabalho a partir da Área da página inicial
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>[!UICONTROL Worker]</p> <p>Observação: se você ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais no seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker]</p> <p><b>Nota</b></p> 
+   <p>Se você ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais no seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
@@ -72,6 +73,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 >
 >* Diferentemente das tarefas de projeto comuns, as tarefas pessoais têm um conjunto limitado de campos que são visíveis na interface do Workfront e não influenciam a linha do tempo ou o progresso de nenhum projeto. Reatribuir uma tarefa pessoal a outro usuário adiciona todos os campos de tarefa a uma tarefa pessoal, mas a tarefa permanece no projeto pessoal do usuário que criou a tarefa.
 >
+>
+>* As tarefas pessoais são exibidas na folha de horas somente quando têm horas registradas ou estão fixadas na folha de horas. Você só pode fixar uma tarefa pessoal em uma folha de horas quando há horas registradas para a tarefa. Para obter mais informações, consulte [Registrar tempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
+> 
 >* Recomendamos que você crie um projeto e mova quaisquer tarefas pessoais para ele, se quiser fazer com que as tarefas pessoais façam parte do fluxo de trabalho normal.
 >
 > ![[!UICONTROL Projeto para tarefas pessoais]](assets/createworkitems-personal--project-350x105.png)
