@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Visão geral do modo de texto
-description: Visão geral do modo de texto
+description: Você pode criar um relatório ou uma lista no Adobe Workfront usando a interface padrão ou de modo de texto ao criar os elementos que compõem o relatório ou a lista.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 0%
 
 Você pode criar um relatório ou uma lista no Adobe Workfront usando a interface padrão ou de modo de texto ao criar os elementos que compõem o relatório ou a lista. A interface padrão permite referenciar campos e seus atributos que estão prontamente disponíveis na interface do Workfront. Usando o modo texto, você pode fazer referência a campos e atributos que podem não estar disponíveis no modo padrão, mas estão disponíveis no banco de dados do Workfront.
 
+Para obter mais informações sobre como criar relatórios usando o modo de texto, incluindo classes, vídeos e tutoriais, consulte a seção Saiba mais no site do Adobe Experience League.
+
 ## Considerações antes de usar o modo de texto
 
 >[!TIP]
@@ -39,13 +41,13 @@ Você pode criar um relatório ou uma lista no Adobe Workfront usando a interfac
 * Recomendamos que você use o modo padrão para garantir que os relatórios criados permaneçam intactos quando o software da Workfront for atualizado. Embora o modo de texto permita a criação de exibições, filtros e agrupamentos mais complexos, sua manutenção também é mais complicada e não é garantida quando o software do Workfront é atualizado.
 * Recomendamos que você sempre tente criar todos os elementos de relatórios na interface padrão e alternar para o construtor de modo de texto somente para alguns ajustes.
 
-   >[!TIP]
-   >
-   >Usar o construtor padrão fornece blocos de construção e padrões de código importantes que você pode usar ao modificar o código no modo de texto.
+  >[!TIP]
+  >
+  >Usar o construtor padrão fornece blocos de construção e padrões de código importantes que você pode usar ao modificar o código no modo de texto.
 
 * Há um conjunto de regras e uma sintaxe exclusiva que você deve usar para criar relatórios e listas no modo de texto com êxito. Familiarize-se com a sintaxe do Workfront para o modo de texto antes de começar.
 
-   Para obter informações sobre sintaxe e regras para usar o modo de texto, consulte [Visão geral da sintaxe do modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+  Para obter informações sobre sintaxe e regras para usar o modo de texto, consulte [Visão geral da sintaxe do modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
 * Depois de personalizar um elemento de relatório no modo de texto, talvez você não consiga voltar para o modo padrão (em uma exibição) ou o código do elemento criado pode ser excluído (em filtros e agrupamentos). Isso ocorre porque nem todos os campos compatíveis com o modo de texto são compatíveis com o modo padrão.
 

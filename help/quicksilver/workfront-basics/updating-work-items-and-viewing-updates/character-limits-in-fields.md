@@ -3,24 +3,26 @@ content-type: reference
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Limites de caracteres em campos
-description: Determinados campos no Adobe Workfront limitam o número de caracteres que podem ser incluídos no campo. O Workfront indexa o conteúdo para que ele possa ser pesquisado posteriormente. Um limite de caracteres é aplicado para garantir um desempenho de alta qualidade do sistema Workfront.
+description: Determinados campos no Adobe Workfront limitam o número de caracteres que podem ser incluídos no campo. O Workfront indexa o conteúdo para que ele possa ser pesquisado posteriormente. Um limite de caracteres é aplicado para garantir o desempenho de alta qualidade do sistema Workfront.
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f09dadf4-24f2-46d9-85ae-6081731d917d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '248'
 ht-degree: 5%
 
 ---
 
 # Limites de caracteres em campos
 
-Determinados campos no Adobe Workfront limitam o número de caracteres que podem ser incluídos no campo. O Workfront indexa o conteúdo para que ele possa ser pesquisado posteriormente. Um limite de caracteres é aplicado para garantir um desempenho de alta qualidade do sistema Workfront.
+Determinados campos no Adobe Workfront limitam o número de caracteres que podem ser incluídos no campo. O Workfront indexa o conteúdo para que ele possa ser pesquisado posteriormente. Um limite de caracteres é aplicado para garantir o desempenho de alta qualidade do sistema Workfront.
 
-Quando você se aproxima do limite, um contador é exibido. Quando você excede o limite, os caracteres em excesso são realçados e não é possível publicar o texto. Exclua caracteres até que você esteja dentro do limite permitido.
+Quando você se aproxima do limite, um contador é exibido. Quando o limite é excedido, os caracteres em excesso são realçados e não é possível publicar o texto. Exclua os caracteres até que esteja dentro do limite permitido.
 
-O limite de caracteres varia de acordo com o campo usado. Os limites mostrados abaixo aplicam-se aos idiomas que usam um alfabeto latino (como inglês). O limite pode ser menor para idiomas que contêm caracteres estendidos ou de byte duplo.
+O limite de caracteres difere dependendo do campo que você está usando. Os limites mostrados abaixo se aplicam aos idiomas que usam o alfabeto latino (como inglês). O limite pode ser menor para idiomas que contenham caracteres estendidos ou de byte duplo.
+
+Os administradores de grupo ou Workfront não podem modificar os limites de caracteres nos campos.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,7 +61,7 @@ O limite de caracteres varia de acordo com o campo usado. Os limites mostrados a
    <td> <p>2,000</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Campo Descrição no Report Builder</p> </td> 
+   <td> <p>Campo de descrição no Report Builder</p> </td> 
    <td> <p>512</p> </td> 
   </tr> 
   <tr> 

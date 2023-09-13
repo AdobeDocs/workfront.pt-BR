@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 2%
+source-wordcount: '1020'
+ht-degree: 3%
 
 ---
 
@@ -54,9 +54,9 @@ Os seguintes recursos foram removidos da nova experiência:
 
 >[!NOTE]
 >
->Os objetos listados abaixo têm apenas comentários e atualizações do sistema do ano passado (a partir de junho de 2022) disponíveis ao habilitar a experiência beta.
+>Os objetos listados abaixo têm apenas comentários e atualizações do sistema a partir de 1° de janeiro de 2019 disponíveis na nova experiência de comentários.
 >
->Você pode exibir comentários e atualizações do sistema nesses objetos anteriores a junho de 2022 ao visualizar a seção Atualizações na experiência atual:
+>Você pode exibir comentários e atualizações do sistema nesses objetos anteriores a 1° de janeiro de 2019 ao visualizar a seção Atualizações na experiência atual:
 >
 >* Problemas
 >* Projetos

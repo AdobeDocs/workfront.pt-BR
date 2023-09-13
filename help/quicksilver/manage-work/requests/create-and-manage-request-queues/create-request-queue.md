@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '2597'
+source-wordcount: '2630'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 2%
 -->
 
 Você pode configurar uma Fila de solicitações onde os usuários podem inserir solicitações ocasionais que não são trabalhos planejados em um projeto. Por exemplo, uma fila de solicitações de Help Desk pode ser configurada para capturar todas as solicitações de usuário que chegam a um departamento de TI.
+
+Este artigo descreve como criar uma fila de solicitações na qual os usuários podem enviar solicitações. Para obter informações sobre como submeter uma nova solicitação a uma fila de solicitações, consulte [Copiar e enviar solicitações](../create-requests/copy-and-submit-requests.md).
 
 ## Requisitos de acesso
 
@@ -209,7 +211,7 @@ Para criar uma Fila de solicitações:
 
      O administrador do Workfront pode renomear os tipos de solicitação padrão. Para obter mais informações sobre como renomear os tipos de solicitação, consulte [Personalizar tipos de problemas padrão](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
-      * Registro de Defeito
+      * Relatório de erro
       * Pedido de alteração
       * Problema
       * Solicitar

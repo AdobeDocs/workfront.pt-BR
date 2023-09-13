@@ -3,9 +3,9 @@ title: Atividade de lançamento do Adobe Maestri
 description: Use o Maestri para criar objetos, campos e espaços de trabalho personalizados.
 hidefromtoc: true
 hide: true
-source-git-commit: 6e219089f68db651f5eb8369e3c6df83b6cd823b
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1431'
 ht-degree: 0%
 
 ---
@@ -155,7 +155,7 @@ Agora é possível selecionar um ícone personalizado para um tipo de registro e
 
 Pré-visualização e produção: 13 de julho de 2023
 
-Agora você pode adicionar um tipo de campo Caixa de seleção aos tipos de registro Mestre. Você pode usar o tipo de campo Caixa de seleção para adicionar uma única opção de caixa de seleção a um registro. Você pode usar esse campo para indicar um atributo ou status específico para esse registro específico. Por exemplo, você pode usá-lo como um sinalizador para rastrear a conclusão, a aprovação ou qualquer outro atributo binário para cada registro.
+Agora você pode adicionar um tipo de campo Caixa de seleção aos tipos de registro Mestre. Você pode usar um campo do tipo Caixa de seleção para adicionar uma única opção de caixa de seleção a um registro. Você pode usar esse campo para indicar um atributo ou status específico para esse registro específico. Por exemplo, você pode usá-lo como um sinalizador para rastrear a conclusão, a aprovação ou qualquer outro atributo binário para cada registro.
 
 ## Semana de 26 de junho de 2023
 

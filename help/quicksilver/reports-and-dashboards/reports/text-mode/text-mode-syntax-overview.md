@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1857'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Você pode usar a interface do modo de texto para criar exibições, filtros, ag
 Para obter informações e considerações sobre o modo de texto antes de começar, consulte [Visão geral do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 Para obter uma lista completa de todos os campos reportáveis e seus atributos, consulte [API Explorer](../../../wf-api/general/api-explorer.md).
+
+Para obter mais informações sobre como criar relatórios usando o modo de texto, incluindo classes, vídeos e tutoriais, consulte a seção Saiba mais no site do Adobe Experience League.
 
 ## Considerações sobre a sintaxe do modo de texto
 

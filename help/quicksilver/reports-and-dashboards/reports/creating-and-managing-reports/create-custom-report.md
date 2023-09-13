@@ -6,9 +6,9 @@ description: Entender como criar relatórios ajuda a fornecer acesso às informa
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1809'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,11 @@ ht-degree: 1%
 
 Entender como criar relatórios ajuda a fornecer acesso às informações de que sua organização precisa no Adobe Workfront. Você pode usar qualquer um dos relatórios internos disponíveis no Workfront ou criar seus próprios relatórios do zero.
 
-Para obter mais informações sobre relatórios internos, consulte [Usar relatórios integrados do Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md). Para obter informações sobre como criar um relatório copiando-o, consulte [Criar uma cópia de um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+Para obter mais informações sobre relatórios internos, consulte [Usar relatórios integrados do Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
+
+Para obter informações sobre como criar um relatório copiando-o, consulte [Criar uma cópia de um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+
+Para obter mais informações sobre como criar e gerenciar relatórios, incluindo aulas, vídeos e tutoriais, consulte a seção Saiba mais no site do Adobe Experience League.
 
 ## Requisitos de acesso
 
@@ -149,7 +153,6 @@ Para assistir a um vídeo sobre como criar um relatório, consulte esta [Criar u
    >* As Horas Reais agregam os valores das tarefas pai principal e independente; elas não agregam os números para as tarefas pai ou filho.
    >* Os campos de dados personalizados para valores de número e moeda agregam todas as tarefas: pais, filhos, pais dos pais e tarefas independentes.
 
-
    Para obter mais informações sobre o uso de agrupamentos em um relatório, consulte [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. (Opcional) Clique em **Opções avançadas** para especificar as seguintes informações para a coluna:
@@ -205,7 +208,6 @@ Para assistir a um vídeo sobre como criar um relatório, consulte esta [Criar u
    >
    >* Quando você ajusta agrupamentos manualmente ao visualizar uma lista, o Workfront lembra de sua preferência manual até que você faça logout. Ao fazer logon novamente, a lista é exibida de acordo com essa configuração.
    >* Os resultados de um agrupamento sempre são exibidos expandidos depois de acessados de um elemento do gráfico.
-
 
 1. (Opcional) É possível optar por criar um agrupamento de matriz para mostrar os resultados em um formato de grade.
 
