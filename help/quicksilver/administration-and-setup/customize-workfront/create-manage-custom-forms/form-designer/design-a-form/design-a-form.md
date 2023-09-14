@@ -8,14 +8,16 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 365d4b9e6f88031ca92d37df0f89923911484525
 workflow-type: tm+mt
-source-wordcount: '3803'
+source-wordcount: '4675'
 ht-degree: 4%
 
 ---
 
 # Criar um formulário com o designer de formulário
+
+{{preview-and-fast-release}}
 
 Você pode criar um formulário personalizado com o designer do formulário. Você pode anexar formulários personalizados a diferentes objetos do Workfront para capturar dados sobre esses objetos.
 
@@ -492,9 +494,93 @@ Para adicionar campos de data de digitação antecipada:
 
    Clique em **Salvar e fechar**.
 
+<div class="preview">
+
+### Adicionar campos de pesquisa externos
+
+Um campo de pesquisa externo chama uma API externa e retorna valores como opções em um campo suspenso. Os usuários que trabalham com o objeto ao qual o formulário personalizado está anexado podem selecionar uma dessas opções na lista suspensa.
+
+Para adicionar uma pesquisa externa:
+
+1. No lado esquerdo da tela, localize **Pesquisa externa** e arraste-a para uma seção na tela.
+1. No lado direito da tela, configure as opções do campo personalizado:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Rótulo</td> 
+      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo personalizado. Você pode alterar o rótulo a qualquer momento.</p> <p><b>IMPORTANTE</b>: Evite usar caracteres especiais neste rótulo. Eles não são exibidos corretamente nos relatórios.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Nome</td> 
+      <td> <p>(Obrigatório) Esse nome é a forma como o sistema identifica o campo personalizado.</p> <p>Ao configurar o campo personalizado pela primeira vez e digitar o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Mas os campos Label e Name não são sincronizados — isso dá a você a liberdade de alterar o rótulo que seus usuários veem sem precisar alterar o nome que o sistema vê.</p> 
+      <p><b>IMPORTANTE</b>:   
+      <ul> 
+      <li>Embora seja possível fazer isso, recomendamos que você não altere esse nome depois que você ou outros usuários começarem a usar o formulário personalizado no Workfront. Se você fizer isso, o sistema não reconhecerá mais o campo personalizado onde ele pode agora ser referenciado em outras áreas do Workfront. <p>Por exemplo, se você adicionar o campo personalizado a um relatório e depois alterar seu nome, o Workfront não o reconhecerá no relatório e ele deixará de funcionar corretamente lá, a menos que você o adicione novamente ao relatório usando o novo nome.</p> </li>
+      <li> <p>Recomendamos que você não digite um nome que já esteja sendo usado para campos integrados do Workfront.</p> </li>
+      <li><p>Recomendamos que você não use o caractere ponto no nome do campo personalizado para evitar erros ao usar o campo em diferentes áreas do Workfront.</p></li>
+      </ul> <p>Cada nome de campo personalizado deve ser exclusivo na instância do Workfront da organização. Dessa forma, é possível reutilizar um que já foi criado para outro formulário personalizado. Para obter mais informações, consulte <a href="#Add" class="MCXref xref">Adicionar um campo personalizado a um formulário personalizado</a> neste artigo.</p> </td>
+     </tr> 
+      <td role="rowheader">Instruções</td> 
+      <td> <p>Digite quaisquer informações adicionais sobre o campo personalizado. Quando os usuários preencherem o formulário personalizado, poderão passar o mouse sobre o ícone de ponto de interrogação para exibir uma dica de ferramenta contendo as informações digitadas aqui.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Formatar</td>
+      <td><p>Selecione o tipo de dados que será capturado no campo personalizado.</p>
+      <p><strong>Nota:</strong></p>
+      <ul><li>É possível alterar o tipo de formato depois que o formulário é salvo, com uma limitação: todos os valores existentes em objetos devem poder ser convertidos para o novo tipo. (Por exemplo, se o tipo de formato for Texto e um objeto estiver armazenando o valor "abc", você não poderá converter o campo e receberá um erro de que o sistema não poderá converter "abc" em número/moeda.) Se você pretende usar seu campo em cálculos matemáticos, certifique-se de selecionar um formato de Número ou Moeda.</li>
+      <li>Ao selecionar Número ou Moeda, o sistema trunca automaticamente os números que começam com 0.</li></ul></td>
+     </tr> 
+     <tr> 
+      <td role="rowheader">URL base da API</td> 
+      <td><p>Digite ou cole o URL da API.</p><p>O URL da API deve retornar um conteúdo JSON das opções que você deseja mostrar na lista suspensa. Você pode usar o campo Caminho JSON para selecionar os valores específicos das opções suspensas do JSON retornado.</p><p>Ao inserir o URL da API, você pode passar os seguintes valores no URL:</p>
+      <ul><li>$$query - Representa o texto de pesquisa que o usuário final digita no campo e permite implementar a filtragem de consultas para seus usuários finais. (O usuário pesquisará pelo valor na lista suspensa.)</li>
+      <li>{fieldName} - Onde fieldName é qualquer campo personalizado ou nativo no Workfront. Dessa forma, você pode implementar filtros de opção de lista suspensa em cascata ao passar o valor de um campo já selecionado para o campo Pesquisa externa para filtrar opções. (Por exemplo, o campo Região já existe no formulário e você está restringindo uma lista de países da API para aqueles que estão em uma região específica.)</li></ul>
+      <p><strong>NOTA:</strong> Revise a documentação da API com a qual você está trabalhando para as consultas específicas que você pode definir.</p></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Método HTTP</td> 
+      <td>Selecionar <strong>Obter</strong>, <strong>Publicar</strong>ou <strong>Put</strong> para o método.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Caminho JSON</td>
+      <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções suspensas.</p><p>Por exemplo, se o URL da API retornar JSON neste formato:</br>
+      <pre>
+      { data: { { name: "EUA"}, { name: "Canadá"} } }
+      </pre>
+      </p>
+      <p>em seguida, use "$.data[*].name" para selecionar EUA e Canadá como opções suspensas.</p> <p>Para obter mais informações sobre o Caminho JSON e garantir que você escreva o Caminho JSON correto, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Cabeçalhos</td>
+      <td>Clique em <strong>Adicionar cabeçalho</strong>e digite ou cole o par de valores chave necessário para autenticação com a API.</td>
+     </tr>
+    </tbody>
+   </table>
+
+1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando seu formulário.
+
+   ou
+
+   Clique em **Salvar e fechar**.
+
+>[!NOTE]
+>
+>Limitações técnicas da chamada para a API externa:
+>
+>* Número máximo de opções: 200 (somente as primeiras 200 opções do JSON retornado são exibidas)
+>* Tempo limite: 3 segundos
+>* Número de tentativas: 3
+>* Duração da espera entre tentativas: 500 ms
+>* Status de resposta esperados: 2xx
+
+</div>
+
 ### Adicionar imagens, PDF e vídeos
 
-Você pode adicionar imagens, PDF e Vídeos a um formulário personalizado. Os usuários que trabalham com o objeto ao qual o formulário personalizado está anexado podem ver a imagem, o PDF ou o vídeo somente nas seguintes áreas:
+Você pode adicionar imagens, PDF e vídeos a um formulário personalizado. Os usuários que trabalham com o objeto ao qual o formulário personalizado está anexado podem ver a imagem, o PDF ou o vídeo somente nas seguintes áreas:
 
 * A área Detalhes do objeto (por exemplo, para um projeto, a área Detalhes do projeto)
 * A caixa Editar do objeto, se ele tiver a nova aparência da experiência do Adobe Workfront (por exemplo, as caixas Editar projeto e Editar tarefa )
