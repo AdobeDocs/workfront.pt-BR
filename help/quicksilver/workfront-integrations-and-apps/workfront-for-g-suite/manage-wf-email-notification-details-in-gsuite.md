@@ -7,9 +7,9 @@ description: No G Suite, ao abrir um Adobe de email de notificação [!DNL Workf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '478'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Entrada [!DNL G Suite], quando você abre um email de notificação [!DNL Adobe 
 
 >[!NOTE]
 >
-> [!DNL Workfront for G Suite] O suporta quase todos os tipos de notificação por email que você pode receber do [!DNL Workfront] (cerca de 120 tipos diferentes). [!UICONTROL Resumo diário] emails enviados de [!DNL Workfront] não aparecem em [!DNL Workfront for G Suite]. Para obter informações sobre o [!DNL Workfront] tipos de notificação por email, consulte [Ativar ou desativar suas próprias notificações de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+> [!DNL Workfront for G Suite] O suporta quase todos os tipos de notificação por email que você pode receber do [!DNL Workfront] (cerca de 120 tipos diferentes). [!UICONTROL Resumo diário] emails enviados de [!DNL Workfront] não aparecem em [!DNL Workfront for G Suite]. Para obter informações sobre o [!DNL Workfront] tipos de notificação por email, consulte [Modificar suas próprias notificações por email](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Requisitos de acesso
 
@@ -92,7 +92,7 @@ Antes de gerenciar os detalhes da notificação no [!DNL G Suite], você deve
      </tr> 
      <tr> 
       <td>Solicitação de aprovação</td> 
-      <td><strong>[!UICONTROL Aprovar]</strong> ou <strong>[!UICONTROL Rejeitar]</strong> (você pode mudar de ideia clicando na outra opção), baixá-lo, exibir seu proprietário ou exibir seu número de referência</td> 
+      <td><strong>[!UICONTROL Aprovar]</strong> ou <strong>[!UICONTROL Rejeitar]</strong> (você pode mudar de ideia clicando na outra opção), baixá-la, exibir o proprietário ou exibir o número de referência</td> 
      </tr> 
      <tr> 
       <td>Uma alteração no status de um projeto</td> 

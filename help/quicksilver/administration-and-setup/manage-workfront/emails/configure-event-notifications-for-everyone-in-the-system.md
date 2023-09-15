@@ -5,9 +5,9 @@ author: Caroline, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 207a8c8a642f3204a2d007789eb7ee8cd9379f1b
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Dependendo do evento que você ativar e o usuário manter ativado em seu própri
 
 Primeiro, especifique quais notificações você deseja que todos os usuários recebam na área Configuração da sua instância do Workfront. Depois de ativar uma notificação na área Configuração, ela é exibida como ativada para cada usuário na página de perfil.
 
-Depois que as notificações forem ativadas na área Configuração e aparecerem nas páginas de perfil dos usuários, os usuários individuais ou outro usuário com uma licença de Plano também poderão configurar as notificações ativadas em um perfil de usuário para controlar quais notificações esse usuário específico recebe e com que frequência. Para obter mais informações, consulte [Ativar ou desativar suas próprias notificações de eventos](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Depois que as notificações forem ativadas na área Configuração e aparecerem nas páginas de perfil dos usuários, os usuários individuais ou outro usuário com uma licença de Plano também poderão configurar as notificações ativadas em um perfil de usuário para controlar quais notificações esse usuário específico recebe e com que frequência. Para obter mais informações, consulte [Modificar suas próprias notificações por email](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Para obter uma lista de todas as notificações de eventos que você pode ativar e desativar, consulte [Notificações de eventos disponíveis no Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 

@@ -4,14 +4,14 @@ product-area: system-administration
 keywords: modificar,email,notificação,configurações,em massa,edição em massa,configurar,vários,usuários
 navigation-topic: emails-administration
 title: Modificar configurações de notificação por email nos perfis dos usuários
-description: Se você for um administrador do Adobe Workfront ou tiver um nível de acesso de Planejador que permita editar as configurações de outros usuários, poderá definir as configurações de notificação para vários usuários de uma vez. Isso inclui especificar se os usuários recebem notificações conforme os eventos ocorrem ou em um email de resumo diário, conforme descrito nas notificações do Adobe Workfront. Para obter informações sobre o nível de acesso necessário para editar usuários, consulte Conceder acesso aos usuários.
-author: Lisa, Caroline
+description: Este artigo fornece informações para a Workfront ou administradores de grupo sobre como eles podem atualizar as notificações por email de outros usuários.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Ao definir as configurações de notificação em massa, você pode alterar apen
 
 >[!NOTE]
 >
->Você também pode configurar notificações por email para um usuário por vez, incluindo seu próprio perfil. Para obter mais informações, consulte [Ativar ou desativar suas próprias notificações de eventos](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>Você também pode configurar notificações por email para um usuário por vez, incluindo seu próprio perfil. Para obter mais informações, consulte [Modificar suas próprias notificações por email](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 ## Requisitos de acesso

@@ -6,9 +6,9 @@ description: O Adobe Workfront envia notificações por email, notificações no
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1307'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 [!DNL Workfront] O envia várias notificações por email para alertar os usuários sobre atividades no Workfront e fornecer informações e links úteis.
 
-Para alterar as preferências das notificações por email, consulte [Ativar ou desativar suas próprias notificações de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Para alterar as preferências das notificações por email, consulte [Modificar suas próprias notificações por email](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ O status padrão mostra quais notificações (diárias, instantâneas ou ambas) 
 
 Para obter uma lista completa das notificações de eventos e informações sobre como elas são ativadas e configuradas no nível do sistema, do grupo ou do usuário, consulte [Notificações de eventos disponíveis em [!DNL Adobe Workfront]](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-Para obter informações sobre como escolher quais notificações de evento você deseja receber, consulte [Ativar ou desativar suas próprias notificações de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Para obter informações sobre como escolher quais notificações de evento você deseja receber, consulte [Modificar suas próprias notificações por email](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -85,13 +85,13 @@ Emails de resumo diários para o [!UICONTROL Comunicação] categoria são selec
 
 As informações são resumidas para o objeto em que a comunicação aconteceu, e um número total de mensagens de comunicação é exibido para cada objeto.
 
-Para obter mais informações sobre como configurar notificações por email, consulte [Ativar ou desativar suas próprias notificações de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Para obter mais informações sobre como configurar notificações por email, consulte [Modificar suas próprias notificações por email](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Para obter instruções sobre como comentar em [!UICONTROL Comunicação] emails, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Para saber mais sobre [!UICONTROL Comunicação] emails, consulte [Ativar ou desativar suas próprias notificações de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Para saber mais sobre [!UICONTROL Comunicação] emails, consulte [Modificar suas próprias notificações por email](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-Para obter mais informações sobre como ativar notificações de resumo diárias, consulte [Ativar ou desativar suas próprias notificações de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Para obter mais informações sobre como ativar notificações de resumo diárias, consulte [Modificar suas próprias notificações por email](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### Lembretes automáticos
 

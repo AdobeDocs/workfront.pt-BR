@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '933'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 1%
 # Adicionar lógica de exibição e lógica de salto a um formulário personalizado com o construtor de formulários herdado
 
 Você pode decidir quais seções de um formulário personalizado devem ser exibidas ou ignoradas com base nas escolhas que um usuário faz ao preenchê-lo.
+
+>[!NOTE]
+>
+>A lógica se aplica somente a um formulário e não pode ser baseada em seleções de um formulário diferente.
 
 ## Requisitos de acesso
 

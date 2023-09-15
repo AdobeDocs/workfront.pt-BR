@@ -6,9 +6,9 @@ description: Seu [!DNL Adobe Workfront] o perfil contém informações sobre voc
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '3248'
+source-wordcount: '3246'
 ht-degree: 1%
 
 ---
@@ -356,7 +356,7 @@ Especifique o que deseja exibir no [!DNL Workfront] nesta seção.
 
 ### [!UICONTROL Notificações]
 
-Especifique de quais notificações você deseja receber [!DNL Workfront]. Para obter mais informações sobre como configurar notificações, consulte [Ativar ou desativar suas próprias notificações de eventos](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Especifique de quais notificações você deseja receber [!DNL Workfront]. Para obter mais informações sobre como configurar notificações, consulte [Modificar suas próprias notificações por email](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### [!UICONTROL Acesso]
 
@@ -393,7 +393,7 @@ Somente um [!DNL Workfront] o administrador pode visualizar e editar todos os ca
   --> 
   <tr> 
    <td role="rowheader"><strong>(Condicional) [!UICONTROL Usuário pode gerar provas (... de ... licenças de prova restantes)]</strong></td> 
-   <td>Este campo só estará disponível se sua empresa usar um antigo [!DNL Workfront] e adquiriu o [!DNL Workfront Proof] componente. Quando essa opção estiver selecionada, você será ativado como um usuário de prova. Ele também exibe o número de licenças de prova usadas em seu sistema do número total de licenças de prova adquiridas. Este campo fica visível e pode ser editado somente para usuários que também [!DNL Workfront] administradores. Para obter mais informações sobre as opções do plano para prova no [!DNL Workfront], consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Acesso à funcionalidade de prova no [!DNL Workfront]</a>.</td>
+   <td>Este campo só estará disponível se sua empresa usar um antigo [!DNL Workfront] e adquiriu o [!DNL Workfront Proof] componente. Quando essa opção estiver selecionada, você será ativado como um usuário de prova. Ele também exibe o número de licenças de prova usadas em seu sistema do número total de licenças de prova adquiridas. Este campo fica visível e pode ser editado somente para usuários que também [!DNL Workfront] administradores. Para obter mais informações sobre as opções de plano para prova no [!DNL Workfront], consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Acesso à funcionalidade de prova no [!DNL Workfront]</a>.</td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Condicional) [!UICONTROL Perfil de Permissão]</strong></td> 

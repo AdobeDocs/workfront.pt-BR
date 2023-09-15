@@ -6,9 +6,9 @@ description: As notificações a seguir alertam sobre atividades que ocorrem em 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5d7fdee8-cb5c-4ab8-bec3-beff9851b8f6
-source-git-commit: 901605917347297a1ee077f00905b03427582650
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '2090'
+source-wordcount: '2088'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 As notificações a seguir alertam sobre atividades que ocorrem em um item de trabalho atribuído a você.
 
-Para obter informações sobre como configurar as notificações recebidas, consulte [Ativar ou desativar suas próprias notificações de eventos](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Para obter informações sobre como configurar as notificações recebidas, consulte [Modificar suas próprias notificações por email](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Consulte também [Notificações de eventos](../../workfront-basics/using-notifications/event-notifications.md).
 
@@ -115,7 +115,7 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
    <td> <p><strong>Instantâneo</strong> </p> <p><strong>e diariamente</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td><strong>O status é alterado em uma tarefa para a qual fui atribuído</strong> <p>O Destinatário da tarefa recebe uma notificação por email quando o status da tarefa é alterado, a menos que o usuário que alterou o status também seja o destinatário.</p> <p>Observação: esta notificação não é enviada quando o status da tarefa é alterado para concluído. Uma notificação separada é usada para tarefas concluídas. Consulte <a href="#a-task-i-m-assigned-to-is-completed" class="MCXref xref">Quando uma tarefa for concluída, enviar email para o usuário atribuído</a>, acima.</p> <p>Uma notificação só será enviada se o status do projeto for [!UICONTROL Atual].</p> <p>Os usuários com uma licença de [!UICONTROL Review] ou [!UICONTROL Requestor] não recebem uma notificação.</p> <p>O assunto do email de notificação instantânea é: <em>&lt;task name=""&gt; de &lt;project name=""&gt; é &lt;new status=""&gt;</em></p> <p> </p> <p> O assunto da notificação de resumo diário é: <em> [!UICONTROL Resumo do Trabalho Atribuído a Você] &lt;date of="" daily="" digest=""&gt; </em></p> </td> 
+   <td><strong>O status é alterado em uma tarefa para a qual fui atribuído</strong> <p>O Destinatário da tarefa recebe uma notificação por e-mail quando o status da tarefa é alterado, a menos que o usuário que alterou o status também seja o destinatário.</p> <p>Observação: esta notificação não é enviada quando o status da tarefa é alterado para concluído. Uma notificação separada é usada para tarefas concluídas. Consulte <a href="#a-task-i-m-assigned-to-is-completed" class="MCXref xref">Quando uma tarefa for concluída, enviar email para o usuário atribuído</a>, acima.</p> <p>Uma notificação só será enviada se o status do projeto for [!UICONTROL Atual].</p> <p>Os usuários com uma licença de [!UICONTROL Review] ou [!UICONTROL Requestor] não recebem uma notificação.</p> <p>O assunto do email de notificação instantânea é: <em>&lt;task name=""&gt; de &lt;project name=""&gt; é &lt;new status=""&gt;</em></p> <p> </p> <p> O assunto da notificação de resumo diário é: <em> [!UICONTROL Resumo do Trabalho Atribuído a Você] &lt;date of="" daily="" digest=""&gt; </em></p> </td> 
    <td> Nome da tarefa<br>Nome do projeto<br>Número de Referência da Tarefa<br>Nome do usuário que alterou o status<br>Novo Status<br>Data e hora em que o status foi alterado<br>Status da visualização<br><strong>[!UICONTROL Ver Mais Detalhes]</strong> botão<br>*Nome do projeto<br>*Número de Referência do Projeto<br>*Número total de tarefas em que o Status mudou<br>*Nome da tarefa<br>*Status da tarefa anterior<br>*Status da nova tarefa<br>*Nome do usuário que alterou o Status<br>*Data do resumo diário<br></td> 
    <td><strong>[!UICONTROL Diário]</strong> </td> 
   </tr> 
