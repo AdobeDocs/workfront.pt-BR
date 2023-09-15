@@ -3,10 +3,10 @@ title: Editar registros
 description: Você pode editar informações de registro no Adobe Maestro. Você deve criar tipos de registro antes de começar a criar e editar registros.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 2%
+source-wordcount: '567'
+ht-degree: 1%
 
 ---
 
@@ -88,6 +88,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 * Se os registros editados estiverem vinculados a outros registros, as novas informações dos registros que você está editando serão refletidas nos registros vinculados.
 * Não é possível editar registros em massa. <!--this will probably change-->
 
+
 ## Editar registros
 
 É possível editar um registro das seguintes áreas:
@@ -140,7 +141,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    >[!TIP]
    >
-   >Os campos vinculados não são editáveis. As informações desses campos são preenchidas automaticamente a partir dos registros vinculados. Para obter informações, consulte [Conectar tipos de registro](../architecture-and-fields/connect-record-types.md).
+   >* Os campos vinculados não são editáveis. As informações desses campos são preenchidas automaticamente a partir dos registros vinculados. Para obter informações, consulte [Conectar tipos de registro](../architecture-and-fields/connect-record-types.md).
+   >
+   >* Os URLs são reconhecidos como links em tipos de campo de texto de linha única somente quando começam com o seguinte: http://, https://, ftp:// ou www. .
 
 
 
