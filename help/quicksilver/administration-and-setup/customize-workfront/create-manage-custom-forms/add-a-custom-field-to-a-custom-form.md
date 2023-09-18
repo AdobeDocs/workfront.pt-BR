@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
 workflow-type: tm+mt
-source-wordcount: '2264'
-ht-degree: 3%
+source-wordcount: '2305'
+ht-degree: 2%
 
 ---
 
@@ -126,6 +126,10 @@ Você deve ter o seguinte para executar as etapas deste artigo:
     </tbody> 
    </table>
 
+   >[!NOTE]
+   >
+   >Os campos que permitem várias seleções, como Caixa de seleção e Lista suspensa, são difíceis de representar em gráfico e agrupar nos relatórios. Para facilitar a criação de gráficos e o agrupamento em relatórios, é possível criar campos separados para cada escolha (por exemplo, um campo de texto de linha única).
+
 1. No **Configurações do campo** , configure as opções disponíveis para o tipo de campo personalizado que você está adicionando:
 
    <table style="table-layout:auto"> 
@@ -165,7 +169,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">Tipo de Exibição</td> 
-      <td>(Somente lista suspensa, caixas de seleção e botões de opção) Alterne o tipo de seleção de opção desejada para o campo.</td> 
+      <td>(Somente lista suspensa, caixas de seleção e botões de opção) Alterne o tipo de seleção de opção desejado para o campo.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tamanho</td> 

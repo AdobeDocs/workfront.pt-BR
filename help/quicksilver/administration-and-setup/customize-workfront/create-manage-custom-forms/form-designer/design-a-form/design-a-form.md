@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 365d4b9e6f88031ca92d37df0f89923911484525
+source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
 workflow-type: tm+mt
-source-wordcount: '4675'
+source-wordcount: '4747'
 ht-degree: 4%
 
 ---
@@ -133,7 +133,7 @@ Para adicionar um campo de texto:
 
 1. No lado esquerdo da tela, localize um dos seguintes campos de texto e arraste-o para uma seção da tela:
 
-   * Texto em linha única:
+   * Texto em linha única
    * Texto de parágrafo
    * Campo de texto com formatação
    * Texto descritivo
@@ -254,6 +254,10 @@ Você pode adicionar botões de opção, caixas de seleção e menus suspensos a
 * **Lista suspensa**: fornece uma lista de opções suspensas.
 
 +++
+
+>[!NOTE]
+>
+>Os campos que permitem várias seleções, como o Grupo de caixas de seleção, são difíceis de representar em gráfico e agrupar nos relatórios. Para facilitar a criação de gráficos e o agrupamento em relatórios, é possível criar campos separados para cada escolha (por exemplo, um campo de texto de linha única).
 
 Para adicionar botões de opção e caixas de seleção:
 
@@ -534,7 +538,7 @@ Para adicionar uma pesquisa externa:
       <li>Ao selecionar Número ou Moeda, o sistema trunca automaticamente os números que começam com 0.</li></ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">URL base da API</td> 
+      <td role="rowheader">URL da API base</td> 
       <td><p>Digite ou cole o URL da API.</p><p>O URL da API deve retornar um conteúdo JSON das opções que você deseja mostrar na lista suspensa. Você pode usar o campo Caminho JSON para selecionar os valores específicos das opções suspensas do JSON retornado.</p><p>Ao inserir o URL da API, você pode passar os seguintes valores no URL:</p>
       <ul><li>$$query - Representa o texto de pesquisa que o usuário final digita no campo e permite implementar a filtragem de consultas para seus usuários finais. (O usuário pesquisará pelo valor na lista suspensa.)</li>
       <li>{fieldName} - Onde fieldName é qualquer campo personalizado ou nativo no Workfront. Dessa forma, você pode implementar filtros de opção de lista suspensa em cascata ao passar o valor de um campo já selecionado para o campo Pesquisa externa para filtrar opções. (Por exemplo, o campo Região já existe no formulário e você está restringindo uma lista de países da API para aqueles que estão em uma região específica.)</li></ul>
@@ -568,13 +572,14 @@ Para adicionar uma pesquisa externa:
 
 >[!NOTE]
 >
->Limitações técnicas da chamada para a API externa:
+>Os itens a seguir são limitações técnicas da chamada para a API externa:
 >
 >* Número máximo de opções: 200 (somente as primeiras 200 opções do JSON retornado são exibidas)
 >* Tempo limite: 3 segundos
 >* Número de tentativas: 3
 >* Duração da espera entre tentativas: 500 ms
 >* Status de resposta esperados: 2xx
+>* O usuário pode ver o valor selecionado (e editar o valor) em listas e relatórios do Workfront, mas não verá a lista suspensa com opções provenientes da API externa.
 
 </div>
 
