@@ -7,7 +7,7 @@ description: Você pode criar um relatório por meio de um campo personalizado d
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
+source-git-commit: a2f0ef565b0f0dbcfec7f3f5b5fece4c7b4b1ec6
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -132,7 +132,6 @@ Para criar o campo personalizado calculado que faz referência ao campo personal
    >[!NOTE]
    >
    >Esta opção foi eliminada da edição de projetos em massa.  Você ainda pode recalcular expressões para projetos em massa clicando no **Mais** ícone ![](assets/more-icon-45x33.png) na parte superior de uma lista de projetos, em seguida, **Recalcular Expressões**.
-
 
 1. Vá para o relatório em que deseja adicionar o gráfico do campo calculado que faz referência ao campo personalizado de multisseleção.
 1. Clique em **Ações de Relatório**, depois **Editar**.
