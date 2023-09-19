@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
+source-git-commit: b015f442ba028e452abbab3cd7e6d9b6d86f9622
 workflow-type: tm+mt
-source-wordcount: '4747'
+source-wordcount: '4774'
 ht-degree: 4%
 
 ---
@@ -257,7 +257,7 @@ Você pode adicionar botões de opção, caixas de seleção e menus suspensos a
 
 >[!NOTE]
 >
->Os campos que permitem várias seleções, como o Grupo de caixas de seleção, são difíceis de representar em gráfico e agrupar nos relatórios. Para facilitar a criação de gráficos e o agrupamento em relatórios, é possível criar campos separados para cada escolha (por exemplo, um campo de texto de linha única).
+>Os campos que permitem várias seleções, como Grupo de caixas de seleção e Lista suspensa, são difíceis de representar em gráfico e agrupar em relatórios. Para facilitar a criação de gráficos e o agrupamento em relatórios, é possível criar campos separados para cada escolha (por exemplo, um campo de texto de linha única).
 
 Para adicionar botões de opção e caixas de seleção:
 
@@ -328,7 +328,7 @@ Para adicionar botões de opção e caixas de seleção:
     </tr> 
     <tr> 
      <td role="rowheader">Tipo de Exibição</td> 
-    <td>Alternar entre botões de opção, grupos de caixas de seleção ou listas suspensas para o campo.</td> 
+    <td>Alterne entre botões de opção, grupos de caixas de seleção, listas suspensas ou listas suspensas de seleção múltipla para o campo.</td> 
     <td><ul>
     <li>Botões de seleção</li>
     <li>Grupo de caixas de seleção</li>
@@ -559,7 +559,7 @@ Para adicionar uma pesquisa externa:
      </tr>
      <tr> 
       <td role="rowheader">Cabeçalhos</td>
-      <td>Clique em <strong>Adicionar cabeçalho</strong>e digite ou cole o par de valores chave necessário para autenticação com a API.</td>
+      <td><p>Clique em <strong>Adicionar cabeçalho</strong>e digite ou cole o par de valores chave necessário para autenticação com a API.</p><p><strong>NOTA:</strong> Os campos de Cabeçalho não são um local seguro para armazenar credenciais, e você deve ter cuidado com o que digitar e salvar.</p></td>
      </tr>
     </tbody>
    </table>
@@ -579,7 +579,7 @@ Para adicionar uma pesquisa externa:
 >* Número de tentativas: 3
 >* Duração da espera entre tentativas: 500 ms
 >* Status de resposta esperados: 2xx
->* O usuário pode ver o valor selecionado (e editar o valor) em listas e relatórios do Workfront, mas não verá a lista suspensa com opções provenientes da API externa.
+>* Os usuários podem ver o valor selecionado (e editar o valor) em listas e relatórios do Workfront, mas não verão a lista suspensa com opções provenientes da API externa.
 
 </div>
 
