@@ -9,13 +9,13 @@ description: Todos os usuários devem ter um nível de acesso para fazer logon e
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 864906732c80af12db051d1d5e6d9bc4ae125eb8
+exl-id: 1ff727f1-bc26-4ffe-a510-615bebfe5b96
+source-git-commit: 8807636d2309435cb5f4e08d6a7d27246342200d
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '211'
 ht-degree: 1%
 
 ---
-
 
 # Desabilitar a opção de atualização automática para usuários não pagos no novo plano de licenciamento
 
@@ -57,6 +57,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 {{step-1-to-setup}}
 
-1. Role para baixo até [!UICONTROL **Preferências**].
+1. Expandir [!UICONTROL **Sistema**] no painel de navegação esquerdo, clique em [!UICONTROL **Preferências**].
 1. No [!UICONTROL **Preferências gerais**] , verifique a [!UICONTROL **Desativar a atualização automática nos Níveis de acesso**] caixa.
 1. Clique em [!UICONTROL **Salvar**].

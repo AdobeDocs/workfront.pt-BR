@@ -3,9 +3,9 @@ title: Atividade de lançamento do Adobe Maestri
 description: Use o Maestri para criar objetos, campos e espaços de trabalho personalizados.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+source-git-commit: 1dffebd5075dc353f28402c79d0c87aff2c12cfa
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,14 @@ Os recursos lançados são listados na ordem de lançamento, com o mais recente 
 Esta seção lista os recursos e patches que foram lançados após o lançamento do programa beta fechado do Maestro, em 22 de maio de 2023.
 
 Os recursos são lançados semanalmente e são listados na ordem de lançamento, com o mais recente primeiro. Os clientes que estão participando do programa beta fechado Maestro podem acessar todos os recursos em seus ambientes de Pré-visualização e Produção.
+
+## Semana de 18 de setembro de 2023
+
+### Reordenar linhas
+
+Pré-visualização e produção: 20 de setembro de 2023
+
+Agora é possível reordenar uma ou várias linhas (ou registros) na exibição Tabela de uma página do tipo de registro.
 
 ## Semana de 4 de setembro de 2023
 
