@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 9ebcbf43d4cf84d1f68aeff7e443f41193a9fe76
+source-git-commit: b8416108a16d973435d070f8d2738fee585cc6d3
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '793'
 ht-degree: 5%
 
 ---
@@ -111,7 +111,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">Os usuários no sistema assumirão como padrão a Nova experiência na Página inicial </td> 
-      <td>Permite especificar se os usuários verão a Nova experiência inicial por padrão. Em ambos os casos, os usuários podem optar por ativar ou desativar a Nova página inicial individualmente. Essa opção está ativada por padrão.</td> 
+      <td>Permite especificar se os usuários verão a Nova experiência inicial por padrão. Quando ativado, os usuários ainda podem optar por ativar ou desativar a Nova página inicial individualmente. Quando desativado, os usuários não terão a opção de usar a Nova página inicial. Essa opção está ativada por padrão.</td> 
      </tr> 
     </tbody> 
    </table>
