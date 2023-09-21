@@ -7,9 +7,9 @@ description: Acessar o Workfront Fusion por meio do Adobe Experience Cloud ofere
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 609772ae587c8bb8b05d48fada478f3419616dda
+source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '605'
 ht-degree: 1%
 
 ---
@@ -109,4 +109,11 @@ Esse menu permite:
 Você pode encontrar suas notificações e anúncios na área Notificações do Unified Shell.
 
 Para exibir suas notificações, clique no ícone Notificações ![Ícone Notificações](assets/notifications-icon.png) próximo ao canto superior direito da tela. Um ponto vermelho no ícone Notificações indica que você tem notificações ou anúncios não lidos.
+
+Para obter instruções sobre como configurar as notificações no Adobe Experience Cloud, consulte [Configuração de notificação](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html?lang=en#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.) na documentação do Adobe.
+
+Ao configurar, observe o seguinte:
+
+* **Alertas** consulte cenários travados.
+* **Atualizações no conteúdo** consulte erros e avisos em execuções de cenário.
 
