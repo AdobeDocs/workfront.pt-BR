@@ -3,7 +3,8 @@ title: Visão geral do Access
 description: Todos os usuários em uma organização podem ter acesso ao Adobe Maestro. Atualmente, não há níveis de acesso ou permissões associados aos usuários ou às informações no Maestri.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 2%

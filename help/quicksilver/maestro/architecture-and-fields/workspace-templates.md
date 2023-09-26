@@ -3,7 +3,8 @@ title: Lista de modelos do espaço de trabalho
 description: Um espaço de trabalho é uma coleção de tipos de registros operacionais e taxonomias usadas por uma equipe e representa o ciclo de vida do trabalho da equipe. O Maestri vem com um conjunto de modelos para você começar a usar tipos básicos de registros, taxonomias e campos ao criar seu espaço de trabalho.
 hide: true
 hidefromtoc: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%

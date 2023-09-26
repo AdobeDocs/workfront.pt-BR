@@ -3,7 +3,8 @@ title: Acessar informações
 description: Como administrador do Workfront, você deve conceder acesso aos seus usuários para usar o Maestro. Os artigos a seguir contêm informações sobre qual acesso seus usuários precisam para usar o Maestri.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%

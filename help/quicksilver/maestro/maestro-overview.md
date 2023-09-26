@@ -3,7 +3,8 @@ title: Visão geral do Adobe Maestri
 description: Adobe Maestro é uma nova oferta da Adobe Workfront. Você pode criar espaços de trabalho totalmente personalizáveis para definir fluxos de trabalho que atendam às necessidades de cada unidade organizacional da empresa.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '1811'
 ht-degree: 1%
