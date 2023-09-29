@@ -4,9 +4,9 @@ description: Visão geral da versão do quarto trimestre de 2023
 author: Becky
 feature: Product Announcements
 exl-id: 16d18e6c-b169-4c5d-8d0a-57711e24583d
-source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
+source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1884'
 ht-degree: 0%
 
 ---
@@ -182,6 +182,141 @@ O webinário da versão 23.10 será realizado em 5 de outubro de 2023. Você pod
                         </ul>
                     </td>
                 </tr>    
+           </tbody>
+        </table>
+
+### Aprimoramentos na página inicial
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Recurso</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Datas de lançamento</span>
+                        </p>
+                    </td>
+                 </tr>
+                <!--<tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Changes to New Home </a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>Based on user feedback, we are removing the page-wide time range filter and summary bar. Project, Task, and Issue widgets each have built-in filtering features allowing you to customize their scope on an individual basis. Additionally, these widgets will now only include content marked ??Current??, ensuring the work they track is always relevant. we've also changed which widgets display "counter bubbles".</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: September 13, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.9 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>-->
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Novos botões de acesso rápido para widgets de rastreamento de Projetos, Tarefas e Problemas</a> </p>
+                        <p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
+                        <p>Expandindo ainda mais sua capacidade de gerenciar o trabalho diretamente da Nova página inicial, novos botões de acesso rápido foram adicionados aos widgets de rastreamento de Projetos, Tarefas e Problemas.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 13 de setembro de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produção para versão rápida: com a versão 23.9</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão trimestral: com a versão 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Novas opções de filtro para Nova página inicial</a> </p>
+                        <p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
+                        <p>Novas opções de filtro agora estão disponíveis para o widget Meu trabalho em Nova página inicial. As opções incluem filtros para tipos de objeto (tarefas, problemas e solicitações) e status (não pronto, pronto para iniciar, trabalhando e concluído).</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 17 de agosto de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produção para versão rápida: com a versão 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão trimestral: com a versão 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Suporte a terminologia personalizada para a nova página inicial</a> </p><p>[!BADGE Na produção ]{type=Informative}</p>
+                        <p>Para atender melhor às necessidades exclusivas das organizações, a Nova página inicial agora utiliza a terminologia personalizada para objetos, conforme definido nos modelos de layout de uma instância. Por exemplo, se os objetos "Projeto" tiverem sido renomeados como "Campanhas" na instância do Workfront, o widget Meus projetos será exibido como Minhas campanhas em Nova página inicial.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 17 de agosto de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produção para todos os clientes: 31 de agosto de 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">O botão Tentar Nova Página Inicial foi removido para contas que desativaram a Nova Página Inicial</a> </p>
+                        <p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
+                        <p>O botão Tentar nova página inicial não está mais presente nas contas em que a opção Nova página inicial foi desativada. A Nova página inicial deve ser reativada pelo administrador do sistema para que usuários individuais possam usar o botão para experimentar a Nova página inicial.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 17 de agosto de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produção para versão rápida: com a versão 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão trimestral: com a versão 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Mudar para o conjunto de widgets padrão do Novo Início</a> </p>
+                        <p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
+                        <p>O widget de tarefas, que requer permissão para criar tarefas, agora está presente apenas no widget padrão definido para usuários com os tipos de licença Padrão, Plano ou Trabalho. Além disso, o widget foi removido automaticamente das páginas iniciais dos usuários com todos os outros tipos de licença.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 17 de agosto de 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produção para lançamento rápido: 17 de agosto de 2023</p>
+                            </li>
+                            <li>
+                                <p>Produção para lançamento trimestral: 17 de agosto de 2023</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
            </tbody>
         </table>
 
@@ -366,102 +501,6 @@ O webinário da versão 23.10 será realizado em 5 de outubro de 2023. Você pod
                             </li>
                             <li>
                                 <p>Produção para versão trimestral: com a versão 23.10 (a menos que especificado de outra forma)</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Novos botões de acesso rápido para o widget Meu trabalho</a> </p>
-                        <p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
-                        <p>Expandindo ainda mais sua capacidade de gerenciar trabalho diretamente da Nova Página Inicial, novos botões de acesso rápido foram adicionados ao widget Meu Trabalho.</p>
-                    </td>
-                    <td><p><b>Disponível nas seguintes datas:</b></p>
-                        <ul>
-                            <li>
-                                <p>Versão de pré-visualização: 13 de setembro de 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Produção para versão rápida: com a versão 23.9</p>
-                            </li>
-                            <li>
-                                <p>Produção para versão trimestral: com a versão 23.10</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>                
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Novas opções de filtro para Nova página inicial</a> </p>
-                        <p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
-                        <p>Novas opções de filtro agora estão disponíveis para o widget Meu trabalho em Nova página inicial. As opções incluem filtros para tipos de objeto (tarefas, problemas e solicitações) e status (não pronto, pronto para iniciar, trabalhando e concluído).</p>
-                    </td>
-                    <td><p><b>Disponível nas seguintes datas:</b></p>
-                        <ul>
-                            <li>
-                                <p>Versão de pré-visualização: 17 de agosto de 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Produção para versão rápida: com a versão 23.8</p>
-                            </li>
-                            <li>
-                                <p>Produção para versão trimestral: com a versão 23.10</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Suporte a terminologia personalizada para a nova página inicial</a> </p><p>[!BADGE Na produção ]{type=Informative}</p>
-                        <p>Para atender melhor às necessidades exclusivas das organizações, a Nova página inicial agora utiliza a terminologia personalizada para objetos, conforme definido nos modelos de layout de uma instância. Por exemplo, se os objetos "Projeto" tiverem sido renomeados como "Campanhas" na instância do Workfront, o widget Meus projetos será exibido como Minhas campanhas em Nova página inicial.</p>
-                    </td>
-                    <td><p><b>Disponível nas seguintes datas:</b></p>
-                        <ul>
-                            <li>
-                                <p>Versão de pré-visualização: 17 de agosto de 2023<br /></p>
-                            </li>
-                            <li>
-                                <p><span class="preview">Produção para todos os clientes: 31 de agosto de 2023</span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">O botão Tentar Nova Página Inicial foi removido para contas que desativaram a Nova Página Inicial</a> </p>
-                        <p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
-                        <p>O botão Tentar nova página inicial não está mais presente nas contas em que a opção Nova página inicial foi desativada. A Nova página inicial deve ser reativada pelo administrador do sistema para que usuários individuais possam usar o botão para experimentar a Nova página inicial.</p>
-                    </td>
-                    <td><p><b>Disponível nas seguintes datas:</b></p>
-                        <ul>
-                            <li>
-                                <p>Versão de pré-visualização: 17 de agosto de 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Produção para versão rápida: com a versão 23.8</p>
-                            </li>
-                            <li>
-                                <p>Produção para versão trimestral: com a versão 23.10</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Mudar para o conjunto de widgets padrão do Novo Início</a> </p>
-                        <p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
-                        <p>O widget de tarefas, que requer permissão para criar tarefas, agora está presente apenas no widget padrão definido para usuários com os tipos de licença Padrão, Plano ou Trabalho. Além disso, o widget foi removido automaticamente das páginas iniciais dos usuários com todos os outros tipos de licença.</p>
-                    </td>
-                    <td><p><b>Disponível nas seguintes datas:</b></p>
-                        <ul>
-                            <li>
-                                <p>Versão de pré-visualização: 17 de agosto de 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Produção para lançamento rápido: 17 de agosto de 2023</p>
-                            </li>
-                            <li>
-                                <p>Produção para lançamento trimestral: 17 de agosto de 2023</p>
                             </li>
                         </ul>
                     </td>
