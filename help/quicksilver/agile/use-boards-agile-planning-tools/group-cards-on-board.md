@@ -7,9 +7,9 @@ description: Você pode agrupar cartões em um quadro por destinatário ou por t
 author: Lisa
 feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 3cb62cb00bb6c13a0b03203bda1840bce8a4d7a7
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Você pode agrupar cartões em um quadro por destinatário ou por tag. Quando vo
 
 >[!NOTE]
 >
->Nenhum cartão na coluna de entrada está incluído em um grupo. Para obter informações sobre a coluna de entrada, consulte [Adicionar uma coluna de entrada a um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+>Quaisquer cartões na coluna de entrada não estão incluídos em um grupo, e a coluna de entrada está oculta quando um grupo é aplicado. Para obter informações sobre a coluna de entrada, consulte [Adicionar uma coluna de entrada a um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Requisitos de acesso
 
