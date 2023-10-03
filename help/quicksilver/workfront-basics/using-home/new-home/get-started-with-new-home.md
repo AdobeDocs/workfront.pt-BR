@@ -5,13 +5,13 @@ title: Introdução à nova página inicial no Adobe Workfront
 description: A nova Página inicial é um novo recurso poderoso para gerenciar seu trabalho.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
+exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
+source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 20%
+source-wordcount: '927'
+ht-degree: 23%
 
 ---
-
 
 # Introdução à nova página inicial no Adobe Workfront
 
@@ -131,24 +131,9 @@ Você pode adicionar um pouco de clarão pessoal à sua Página inicial selecion
 
 1. No **Histórico** seção do **Personalizar** que for exibido, clique na cor que você quer selecionar para o plano de fundo da sua página inicial. Você também pode clicar em **Nenhum** para remover o fundo.
 
-### Filtrar por intervalo de tempo
-
-Você pode filtrar rapidamente todas as informações na sua página inicial para exibir informações do objeto em três intervalos de tempo específicos: Dia, Semana ou Mês. Além disso, um resumo do número de tarefas que você venceu e daquelas que você concluiu dentro da faixa de alcance é exibido na parte superior da página inicial.
-
-**Para alterar o intervalo de tempo da sua página inicial:**
-
-1. Navegue até a página inicial clicando no ícone do Adobe Workfront ![Ícone do Adobe Workfront](../new-home/assets/home-icon-30x29.png) na parte superior da tela se a opção Página inicial estiver definida como página de aterrissagem ou clicando no ícone do menu principal ![Ícone do menu principal](../new-home/assets/main-menu-icon-left-nav.png) clicando em **Início**.
-
-1. Clique no filtro de intervalo de tempo no canto superior esquerdo da página inicial. Por padrão, o filtro está definido como **Minha Semana**.
-
-   ![Lista suspensa de filtro de intervalo de tempo](../new-home/assets/time-range-filter-dropdown-home.png)
-
-1. Clique em **Dia**, **Semana** ou **Month** para filtrar sua página inicial de forma que ela só exiba informações sobre objetos que vencem dentro desse período.
-
 ## Reverter para a experiência inicial atual
 
 Para usuários que preferem a experiência Início existente, a opção Nova Página Inicial pode ser desativada.
-
 
 **Para voltar para a experiência atual da Página inicial:**
 

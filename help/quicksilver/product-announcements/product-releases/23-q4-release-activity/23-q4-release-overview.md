@@ -3,10 +3,10 @@ title: Visão geral da versão do quarto trimestre de 2023
 description: Visão geral da versão do quarto trimestre de 2023
 author: Becky
 feature: Product Announcements
-exl-id: 16d18e6c-b169-4c5d-8d0a-57711e24583d
-source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
+exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
+source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
 workflow-type: tm+mt
-source-wordcount: '1884'
+source-wordcount: '1963'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,7 @@ O webinário da versão 23.10 será realizado em 5 de outubro de 2023. Você pod
 
 * [Melhorias do administrador](#administrator-enhancements)
 * [Melhorias nas placas](#boards-enhancements)
+* [Aprimoramentos na página inicial](#home-enhancements)
 * [Aprimoramentos de integração](#integration-enhancements)
 * [Aprimoramentos do projeto](#project-enhancements)
 * [Outras melhorias](#other-enhancements)
@@ -201,26 +202,26 @@ O webinário da versão 23.10 será realizado em 5 de outubro de 2023. Você pod
                         </p>
                     </td>
                  </tr>
-                <!--<tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Changes to New Home </a> </p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
-                        <p>Based on user feedback, we are removing the page-wide time range filter and summary bar. Project, Task, and Issue widgets each have built-in filtering features allowing you to customize their scope on an individual basis. Additionally, these widgets will now only include content marked ??Current??, ensuring the work they track is always relevant. we've also changed which widgets display "counter bubbles".</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Alterações no rastreamento de trabalho na Nova Página Inicial </a> </p>
+                        <p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
+                        <p>Com base no feedback dos usuários, removemos o filtro de intervalo de tempo em toda a página e a barra de resumo que relacionava as tarefas com vencimento e concluídas. Os widgets de Projeto, Tarefa e Problema têm recursos de filtragem integrados, permitindo personalizar o escopo individualmente.</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: September 13, 2023<br /></p>
+                                <p>Versão de pré-visualização: 13 de setembro de 2023<br /></p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 23.9 release</p>
+                                <p>Produção para versão rápida: com a versão 23.9</p>
                             </li>
                             <li>
-                                <p>Production for quarterly release: With the 23.10 release</p>
+                                <p>Produção para versão trimestral: com a versão 23.10</p>
                             </li>
                         </ul>
                     </td>
-                </tr>-->
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Novos botões de acesso rápido para widgets de rastreamento de Projetos, Tarefas e Problemas</a> </p>
