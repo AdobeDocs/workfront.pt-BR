@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: 74b9876dbe630ae0e0264bb98f59ad5b61f10501
+source-git-commit: 9317f8ef2f31497dd7bb864472e4da4b1eca8edb
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '348'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Sua organização adquiriu um determinado número de licenças ao adquirir o Ado
 
 ## Como as novas licenças do Workfront e os novos níveis de acesso são vinculados
 
-Os três tipos de novas licenças pagas do Workfront permitem diferentes níveis de acesso ao Workfront. Cada nível de acesso é anexado a uma dessas licenças.
+Os três tipos de novas licenças do Workfront permitem diferentes níveis de acesso ao Workfront. Cada nível de acesso é anexado a uma dessas licenças.
 
 Como administrador do Workfront, em vez de atribuir uma licença a um usuário, você atribui a ele o nível de acesso anexado a essa licença.
 
