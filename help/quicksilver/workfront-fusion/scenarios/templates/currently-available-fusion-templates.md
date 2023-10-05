@@ -7,9 +7,9 @@ description: Os seguintes modelos públicos estão disponíveis no Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
+source-git-commit: 12f6d4f261dec50f76b3ecb35e3159900d34bbff
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,29 @@ Esses modelos automatizam processos e fluxos de trabalho do Workfront.
 
 ### [!BADGE Novo!]{type=Informative}
 
-Essa automação observa novos projetos em programas com formulários personalizados. Em seguida, adiciona esses formulários e campos personalizados do programa aos novos projetos.
+Essa automação cria novos projetos no Workfront com base no nome, Portfolio, status, data de início planejada e detalhes do modelo especificados em um CSV.
 
 ### [!BADGE Novo!]{type=Informative}
+
+Use esse modelo para impor uma atualização de nota de 30 dias às suas solicitações. As solicitações não atualizadas em 30 dias recebem o status alterado e fechado em 60 dias.
+
+### [!BADGE Novo!]{type=Informative}
+
+Essa automação atualiza os projetos para o status Concluído que têm todas as tarefas em 1005 concluídas. Projetos com problemas em aberto ou tarefas em aberto ou aprovações de projetos receberão uma atualização e, quando resolvidos, os projetos serão movidos para o status Concluído.
+
+### [!BADGE Novo!]{type=Informative}
+
+Use este cenário para ajudar a automatizar o aviso e o encerramento de projetos que atendem à política de projetos obsoletos da organização.
+
+### [!BADGE Novo!]{type=Informative}
+
+Use este modelo para copiar observações e respostas de um problema ou solicitação para um projeto ou tarefa já convertida.
+
+### Workfront - Copiar Forms e dados de campo personalizados do programa para novos projetos associados
+
+Essa automação observa novos projetos em programas com formulários personalizados. Em seguida, adiciona esses formulários e campos personalizados do programa aos novos projetos.
+
+### Workfront - Copiar dados de campo e Forms personalizados do Portfolio para novos projetos associados
 
 Essa automação observa novos projetos em portfólios com formulários personalizados. Em seguida, ele adiciona esses formulários e campos personalizados do portfólio aos novos projetos.
 
@@ -58,7 +78,7 @@ Este modelo captura uma linha de base do projeto após qualquer alteração de s
 
 Este modelo captura uma linha de base do projeto todas as segundas-feiras às 6h00 ET em projetos filtrados por portfólio e cria uma atualização no fluxo de atualização para registro em log.
 
-### [!BADGE Novo!]{type=Informative}
+### Localizar modelos de projeto não usados no tempo da política e notificar
 
 Uma vez por mês, revise os modelos de projeto usando sua própria política com esse modelo fácil de gerenciar que notifica os usuários apropriados sobre os modelos em violação de sua política.
 
@@ -81,6 +101,10 @@ Esses modelos recuperam informações de um serviço Web e trazem essas informa�
 >[!NOTE]
 >
 > Você deve ter uma licença do Workfront Fusion for Work Automation and Integration para usar modelos nesta seção.
+
+### [!BADGE Novo!]{type=Informative}
+
+Estabeleça Autorização JWT para uma API do cliente.
 
 ### APILayer > Workfront - Atualização da Taxa de Câmbio Diária (EUR)
 
@@ -105,6 +129,19 @@ Esse cenário fornece uma maneira programática de criar campanhas de email e we
 ### Revise uma prova de email do seu rascunho de email do Marketo Engage no Workfront
 
 Esse modelo detecta se uma tarefa do Workfront foi definida como um status pronto para revisão e, em seguida, exporta o rascunho de email do Marketo Engage para salvá-lo como uma Prova no Workfront.
+
+## Modelos Workfront-SharePoint
+
+Esses modelos conectam o Workfront e o SharePoint.
+
+>[!NOTE]
+>
+> Você deve ter uma licença do Workfront Fusion for Work Automation and Integration para usar modelos nesta seção.
+
+### [!BADGE Novo!]{type=Informative}
+
+Esse modelo permite ver se há uma alteração em uma pasta do SharePoint.
+
 
 ## Modelos Workfront-Anaplan
 
@@ -131,3 +168,6 @@ Para obter mais informações sobre a integração Workfront-Anaplan, consulte [
 
 * [Criar um [!DNL Anaplan] item de lista de um [!DNL Adobe Workfront] solicitação de campanha](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
 * [Aplicar um [!DNL Anaplan] alocação de orçamento para um [!DNL Adobe Workfront] solicitação de campanha ou projeto de campanha](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+
+
+<!--[!BADGE New!]{type=Informative} -->
