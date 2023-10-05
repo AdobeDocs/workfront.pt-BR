@@ -4,9 +4,9 @@ description: Visão geral da versão do quarto trimestre de 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
+source-git-commit: f0385bd49e11ed95ea36e4ccdf7a6ba4774c3f7e
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,25 @@ O webinário da versão 23.10 será realizado em 5 de outubro de 2023. Você pod
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-oct-2.md" class="MCXref xref" xrefformat="{para}">Campos calculados em formulários personalizados agora podem usar o curinga $$USER</a><span style="color: #ff0000;"> Novo na visualização!</span></p>
+                        <p>O curinga $$USER agora está disponível em campos personalizados calculados e campos de pesquisa externos no novo designer de formulário.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 5 de outubro de 2023</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão rápida: com a versão 23.10</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão trimestral: com a versão 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Adicionar opções de valor de uma API externa a um formulário personalizado</a></p>
