@@ -6,9 +6,9 @@ description: Você pode filtrar um quadro para exibir apenas determinados cartõ
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 44ced4ec8af150bc373699389bd63d150cc387f6
+source-git-commit: 55d47665ca53c63142d5b71830fe56a05d991c74
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -91,11 +91,18 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 Por padrão, somente os cartões ativos são exibidos em um quadro. Você pode filtrar o quadro para exibir também todos os cartões arquivados.
 
 1. Acesse o quadro.
+1. Clique em [!UICONTROL **Configurar**] à direita da placa para abrir o painel Configurar.
+1. Expandir [!UICONTROL **Cartões**].
+1. Ativar [!UICONTROL **Exibir cartões arquivados no quadro**].
 1. Clique em [!UICONTROL **Filtro**], expanda a [!UICONTROL Cartões arquivados] e selecione **[!UICONTROL Cartões arquivados]** para exibir cartões arquivados.
 
    O filtro mostra o número de cartões arquivados.
 
-   ![Filtrar cartões arquivados](assets/boards-filter-by-archived-cards_0822.png)
+   ![Filtrar cartões arquivados](assets/filter-by-archived-cards.png)
+
+   >[!NOTE]
+   >
+   >A variável [!UICONTROL Cartões arquivados] A seção não está disponível no filtro se você não ativou a configuração para exibir cartões arquivados.
 
 1. Selecionar **[!UICONTROL Cartões arquivados]** novamente para desmarcar a opção e exibir somente cartões ativos.
 
