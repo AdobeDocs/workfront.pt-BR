@@ -6,9 +6,9 @@ description: Você pode adicionar rapidamente um cartão ad hoc a um quadro e at
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
+source-git-commit: b25a165dd85b64a154233b64ae2fc9b676a5aaa2
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,13 @@ Um cartão ad hoc não está conectado a um item de trabalho no [!DNL Adobe Work
 1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe] Workfront e clique em **[!UICONTROL Quadros]**.
 1. Acessar um quadro. Para obter informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
 1. Clique em **[!UICONTROL Adicionar cartão] > [!UICONTROL Novo cartão]**.
+
+   A variável [!UICONTROL Detalhes do cartão] é exibida.
+
+   >[!NOTE]
+   >
+   >Se você clicar fora do campo Nome, o cartão ad hoc será salvo automaticamente como &quot;Sem título&quot; na parte inferior da coluna mais à esquerda. Para sair sem salvar o cartão, clique em [!UICONTROL **Cancelar**] sem clicar em qualquer outro lugar na [!UICONTROL Detalhes do cartão] caixa.
+
 1. No **[!UICONTROL Detalhes do cartão]** adicione as seguintes informações:
 
    <table style="table-layout:auto"> 
