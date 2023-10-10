@@ -4,13 +4,13 @@ description: Adobe Maestro é uma nova oferta da Adobe Workfront. Você pode cri
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '1818'
 ht-degree: 1%
 
 ---
-
 
 # Visão geral do Adobe Maestri
 
@@ -358,6 +358,7 @@ A tabela a seguir ilustra os principais recursos que estarão disponíveis no Ma
 | Classificar agrupamentos na exibição de linha do tempo |                               | ✓ |                  |
 | Conectar espaços de trabalho |                               | ✓ |                  |
 | Conectar registros e taxonomias do Maestri | ✓ |
+| Procurar registros na exibição de tabela | ✓ |   |
 | Conecte registros do Maestro a projetos, programas, portfólios, empresas e grupos da Workfront | ✓ |                                 |                  |
 | Página de detalhes do registro | ✓ |                                  |                  |
 | Atualizar o layout da página Detalhes do registro |                               | ✓ |                  |
@@ -527,7 +528,3 @@ Preview and production: May 31, 2023
 
 You must have at least two date fields associated with a record type in order to create a Timeline view. 
 -->
-
-
-
-

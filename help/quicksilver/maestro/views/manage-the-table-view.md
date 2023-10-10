@@ -4,13 +4,13 @@ description: Você pode exibir registros e seus campos em uma exibição de tabe
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 5%
+source-wordcount: '1659'
+ht-degree: 4%
 
 ---
-
 
 # Gerenciar a exibição de tabela
 
@@ -127,7 +127,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
    As colunas adicionadas ficam visíveis para todos os usuários que acessam o tipo de registro e são adicionadas como novos campos na página Detalhes dos registros do tipo de registro selecionado.
 
-1. Para reordenar colunas na tabela, siga um destes procedimentos:
+1. Siga um destes procedimentos para reordenar colunas na tabela:
 
    * Segure o cabeçalho da coluna e arraste e solte-o na posição desejada. A coluna movida brevemente será exibida com um plano de fundo azul até que você faça outros ajustes na tabela.
 
@@ -145,24 +145,45 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
    >
    >* O campo Nome está congelado e não faz parte da rolagem horizontal.
 
-1. Para aumentar a largura das colunas, clique e arraste as linhas de separação da coluna e solte-as no ponto desejado.
+1. Selecione um ou vários registros em uma linha, arraste e solte a **identificador** ícone ![](assets/handle-icon.png) à esquerda do nome do registro para reordenar as linhas.
+
+   >[!NOTE]
+   >
+   >Não é possível reordenar linhas se você aplicar pelo menos uma classificação à exibição de tabela.
+
+1. Clique e arraste as linhas de separação da coluna e solte-as no ponto desejado para aumentar a largura das colunas.
 
    >[!TIP]
    >
    >As alterações feitas na largura e na ordem da coluna são permanentes e visíveis a todos os usuários que acessam o tipo de registro.
 
-1. Para ocultar uma coluna, passe o mouse sobre o cabeçalho da coluna, clique na seta para baixo e clique em **Ocultar campo**
+1. Passe o mouse sobre o cabeçalho da coluna, clique na seta para baixo e clique em **Ocultar campo**
 
    Ou
 
-   Clique em **Campos** na barra de ferramentas da tabela e desative a alternância associada aos campos que deseja ocultar.
+   Clique em **Campos** na barra de ferramentas da tabela e desative a alternância associada aos campos (ou colunas) que deseja ocultar.
 
    >[!TIP]
    >
    >O número de campos ocultos é exibido à esquerda do ícone Campos na barra de ferramentas.
 
 
-1. No **Campos** habilite a alternância associada aos campos que deseja exibir nas colunas da tabela. Todos os campos são exibidos por padrão.
+1. Clique em **Campos** e habilite a alternância associada aos campos que deseja exibir nas colunas da tabela. Todos os campos são exibidos por padrão.
+
+1. Faça o seguinte para localizar rapidamente registros que correspondam a uma palavra-chave:
+
+   1. Clique em **pesquisa** ícone ![](assets/search-icon.png) e comece a digitar uma palavra-chave associada a qualquer campo de um registro exibido na tela. O número de correspondências corretas é exibido ao lado do item de pesquisa e o campo com a correspondência correta é realçado em azul.
+
+      Você pode usar qualquer palavra ou caractere especial visível na tela.
+
+      Não é possível usar palavras-chave associadas a campos ocultos na exibição de tabela.
+
+      ![](assets/search-box-with-results-blue-outline-table-view.png)
+
+   1. (Opcional) Se houver mais de uma correspondência, clique nas setas para cima e para baixo à direita da palavra-chave de pesquisa para localizar todas as correspondências na tabela.
+
+   1. Clique em **X** ícone na caixa de pesquisa para limpar a palavra-chave de pesquisa.
+
 
 ### Adicionar linhas (ou registros) {#add-rows}
 
@@ -388,12 +409,11 @@ Para classificar <!--ungrouped (add this when sorting for groupings will be avai
 
 1. Clique fora da **Classificar registros por** para fechá-la.
 
+   ![](assets/sorting-in-table-view.png)
+
    As informações exibidas na tabela são classificadas de acordo com os critérios selecionados.
 
    Os campos selecionados para a classificação exibem um ícone de classificação seguido de um número que indica a ordem em que a classificação é aplicada.
-
-   ![](assets/sorting-in-table-view.png)
-
 
 <!-- this is not available yet: 
 

@@ -4,13 +4,13 @@ description: Use o Maestri para criar objetos, campos e espaços de trabalho per
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
-
 
 # Atividade de lançamento do Adobe Maestri
 
@@ -34,13 +34,21 @@ Esta seção lista os recursos e patches que foram lançados após o lançamento
 
 Os recursos são lançados semanalmente e são listados na ordem de lançamento, com o mais recente primeiro. Os clientes que estão participando do programa beta fechado Maestro podem acessar todos os recursos em seus ambientes de Pré-visualização e Produção.
 
+## Semana de 9 de outubro de 2023
+
+### Pesquisar na exibição de tabela
+
+Pré-visualização e produção: 9 de outubro de 2023
+
+Agora é possível pesquisar uma palavra-chave para localizar rapidamente um registro na exibição de tabela. Você pode usar palavras-chave e caracteres especiais em qualquer campo visível na tela para localizar um registro. Para obter informações, consulte [Gerenciar a exibição de tabela](../maestro/views/manage-the-table-view.md).
+
 ## Semana de 18 de setembro de 2023
 
 ### Reordenar linhas
 
 Pré-visualização e produção: 20 de setembro de 2023
 
-Agora é possível reordenar uma ou várias linhas (ou registros) na exibição Tabela de uma página do tipo de registro.
+Agora é possível reordenar uma ou várias linhas (ou registros) na exibição Tabela de uma página do tipo de registro. Para obter informações, consulte [Gerenciar a exibição de tabela](../maestro/views/manage-the-table-view.md).
 
 ## Semana de 4 de setembro de 2023
 

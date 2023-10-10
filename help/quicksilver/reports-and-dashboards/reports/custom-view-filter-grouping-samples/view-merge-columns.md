@@ -7,9 +7,9 @@ description: É possível mesclar as informações exibidas em várias colunas s
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ Faça o seguinte para mesclar os dados de várias colunas para exibi-los em uma 
    `sharecol=true`
 
 
-1. Adicione o seguinte texto à primeira coluna:
+1. Clique na primeira coluna e clique em **Alternar para modo de texto**, em seguida, adicione o seguinte texto à coluna:
 
    `sharecol=true`
 

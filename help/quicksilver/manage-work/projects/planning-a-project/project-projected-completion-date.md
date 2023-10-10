@@ -2,21 +2,21 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Visão geral da data de conclusão projetada para projetos, tarefas e problemas
-description: A Data de Conclusão Projetada é um indicador em tempo real, calculado de quando o projeto, a tarefa ou a emissão será concluída. Quando o projeto, a tarefa ou o problema é marcado como Concluído, a Data de Conclusão Projetada muda para a data da Data de Conclusão Real.
+title: Visão geral da Data de conclusão projetada para projetos, tarefas e problemas
+description: A Data de conclusão projetada é um indicador calculado em tempo real de quando o projeto, tarefa ou problema será concluído. Quando o projeto, tarefa ou problema é marcado como Concluído, a Data de conclusão projetada muda para a data da Data de conclusão atual.
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
 
-# Visão geral da data de conclusão projetada para projetos, tarefas e problemas
+# Visão geral da Data de conclusão projetada para projetos, tarefas e problemas
 
-A Data de Conclusão Projetada é um indicador em tempo real, calculado de quando o projeto, a tarefa ou a emissão será concluída. Quando o projeto, a tarefa ou o problema é marcado como Concluído, a Data de Conclusão Projetada muda para a data da Data de Conclusão Real.
+A Data de conclusão projetada é um indicador calculado em tempo real de quando o projeto, tarefa ou problema será concluído. Quando o projeto, tarefa ou problema é marcado como Concluído, a Data de conclusão projetada muda para a data da Data de conclusão atual.
 
 As seções a seguir descrevem como a Data de conclusão projetada é determinada para projetos, tarefas e problemas, e como localizá-la.
 
@@ -57,98 +57,102 @@ As seções a seguir descrevem como a Data de conclusão projetada é determinad
 </table>
 -->
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> <p>Qualquer Um</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Revise ou superior para exibir a Data de conclusão projetada em um relatório</p> <p>Uma licença do Plan para criar um relatório</p> </td> 
+   <td> <p>Revisar ou posterior para exibir a Data de Término Projetada em um relatório</p> <p>Uma licença de plano para criar um relatório</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Exibir ou ter acesso superior a Projetos</p> <p>É necessário ter acesso Editar para Relatórios, Painéis, Calendários para criar um relatório</p> <p>Você deve ter o acesso Editar a Filtros, Exibições, Agrupamentos para criar um relatório ou modificar uma exibição de lista</p> <p><b>Nota</b>
+   <td> <p>Acesso de visualização ou superior aos Projetos</p> <p>É necessário ter acesso de Edição a Relatórios, Painéis e Calendários para criar um relatório</p> <p>É necessário ter acesso para Editar filtros, visualizações e agrupamentos para criar um relatório ou modificar uma visualização de lista</p> <p><b>Nota</b>
 
-Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
+Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões ou permissões superiores a um projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Visualizar ou aumentar as permissões de um projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
 ## Como o Adobe Workfront determina a data de conclusão projetada
 
-A Data de Conclusão Projetada é um campo calculado e não pode ser alterado manualmente.
+A Data de conclusão projetada é um campo calculado e não pode ser alterada manualmente.
 
-Os critérios usados para determinar a Data de conclusão projetada são diferentes, dependendo do objeto que você está visualizando:
+Os critérios usados para determinar a Data de conclusão projetada diferem, dependendo do objeto que você está visualizando:
 
-* **Projetos:** A Data de conclusão projetada para os projetos equivale à Data de conclusão prevista da última tarefa do projeto.
-* **Tarefas:** A Data de Conclusão Projetada para tarefas é determinada com base nos seguintes critérios:
+* **Projetos:** A Data de Conclusão Projetada dos projetos é igual à Data de Conclusão Projetada da tarefa mais recente do projeto.
 
-   * **Atualizações de progresso feitas na tarefa pelo destinatário da tarefa:** As atualizações de progresso incluem alterações na porcentagem concluída e alterações do status da tarefa.
-   * **Data da confirmação:** Se o destinatário da tarefa especificar uma Data de Confirmação, a Data de Conclusão Projetada será alterada para corresponder à Data de Confirmação.
+  Por exemplo, uma porcentagem concluída mais alta move a Data de conclusão projetada da tarefa para mais perto do dia atual. Se o status da tarefa for Novo e a Data de conclusão planejada da tarefa estiver próxima ou tiver passado, a Data de conclusão projetada avançará ainda mais para o futuro.
 
-      Para obter mais informações sobre datas de confirmação, consulte o artigo [Visão geral da data de confirmação](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+* **Tarefas:** A Data de conclusão projetada para tarefas é determinada com base nos seguintes critérios:
 
-   * **Predecessores:** Se não houver atrasos nas tarefas do antecessor, a Data de Conclusão Projetada deverá corresponder à Data de Conclusão Planejada. Conforme ocorrem atrasos, as tarefas dependentes mostram uma Data de Conclusão Projetada maior que a Data de Conclusão Planejada.
+   * **Atualizações de progresso feitas na tarefa pelo destinatário da tarefa:** As atualizações de progresso incluem alterações no percentual concluído e alterações no status da tarefa.
+   * **Data de confirmação:** Se o designado da tarefa especificar uma Data de confirmação, a Data de conclusão projetada será alterada para corresponder à Data de confirmação.
 
-      Para obter mais informações sobre a Data de Conclusão Planejada de tarefas, consulte [Visão geral da data de conclusão planejada da tarefa](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
-   >[!IMPORTANT]
-   >
-   >Quando o antecessor de uma tarefa tiver uma Data de conclusão real, as tarefas dependentes receberão uma Data de conclusão projetada, conforme descrito no seguinte cenário:
-   >
-   >
-   >Se o projeto tiver a Tarefa A, a Tarefa B e a Tarefa C e a Tarefa B for a sucessora da Tarefa A, a Tarefa C será a sucessora da Tarefa B e uma Data de Conclusão Real será adicionada à Tarefa A, a Data de Conclusão Projetada será automaticamente recalculada para a Tarefa B (desde que a **Tipo de atualização** do projeto está definido como Automático e On Change), mas não será recalculado para a Tarefa C. Atualmente, o Workfront calcula a Data de Conclusão Projetada para tarefas que estão um nível acima ou abaixo da Tarefa atualizada, por motivos de desempenho. 
+     Para obter mais informações sobre Datas de confirmação, consulte o artigo [Visão geral da data de compromisso](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
-* **Problemas:**A data de conclusão projetada é inicialmente definida para corresponder à data de conclusão planejada do problema.
+   * **Predecessoras:** Se não houver atrasos nas tarefas predecessoras, a Data de conclusão projetada deverá corresponder à Data de conclusão planejada. Conforme ocorrem atrasos, as tarefas dependentes mostram uma Data de Conclusão Projetada posterior à Data de Conclusão Planejada.
 
-   Se o destinatário da emissão especificar uma data de confirmação, tanto a Data de Conclusão Projetada quanto a Data de Conclusão Planejada serão alteradas para corresponder à Data de Confirmação.
+     Para obter mais informações sobre a Data de conclusão planejada das tarefas, consulte [Visão geral da Data de conclusão planejada da tarefa](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
-   Para obter mais informações sobre datas de confirmação, consulte o artigo [Visão geral da data de confirmação](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  >[!IMPORTANT]
+  >
+  >Quando o antecessor de uma tarefa tiver uma Data de Conclusão Real, as tarefas dependentes receberão uma Data de Conclusão Projetada conforme descrito no seguinte cenário:
+  >
+  >
+  >Se o projeto tiver a Tarefa A, a Tarefa B e a Tarefa C, e a Tarefa B for a sucessora da Tarefa A, a Tarefa C for a sucessora da Tarefa B e uma Data de Conclusão Real for adicionada à Tarefa A, a Data de Conclusão Projetada será recalculada automaticamente para a Tarefa B (desde que **Tipo de atualização** do projeto estiver definido como Automático e Mediante alteração), mas não será recalculado para a Tarefa C. Atualmente, o Workfront calcula a Data de conclusão projetada para tarefas que estejam um nível acima ou abaixo da Tarefa atualizada, por motivos de desempenho. 
 
-## Exibir a data de conclusão projetada
+* **Problemas:** A Data de conclusão projetada do problema está inicialmente definida para corresponder à Data de conclusão planejada do problema.
 
-Você pode visualizar a Data de conclusão projetada de projetos, tarefas e problemas em relatórios. Você pode visualizar a Data de conclusão projetada de projetos e tarefas em outras áreas do Workfront. 
+  Se o destinatário da ocorrência especificar uma data de confirmação, tanto a Data de conclusão projetada quanto a Data de conclusão planejada serão alteradas para corresponder à Data de confirmação.
 
-* [Exibir a Data de Conclusão Projetada de um projeto](#view-the-projected-completion-date-of-a-project)
-* [Exibir a Data de Conclusão Projetada de uma tarefa](#view-the-projected-completion-date-of-a-task)
-* [Exibir a Data de Conclusão Projetada de um problema](#view-the-projected-completion-date-of-an-issue)
+  Para obter mais informações sobre Datas de confirmação, consulte o artigo [Visão geral da data de compromisso](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
-### Exibir a Data de Conclusão Projetada de um projeto {#view-the-projected-completion-date-of-a-project}
+## Exibir a Data de Término Projetada
 
-1. Vá para o projeto onde deseja exibir a Data de conclusão projetada.
+Você pode visualizar a Data de conclusão projetada dos projetos, tarefas e problemas nos relatórios. É possível visualizar a Data de conclusão projetada dos projetos e tarefas em outras áreas do Workfront. 
+
+* [Exibir a Data de Término Projetada de um projeto](#view-the-projected-completion-date-of-a-project)
+* [Exibir a Data de Término Projetada de uma tarefa](#view-the-projected-completion-date-of-a-task)
+* [Exibir a data de conclusão projetada de um problema](#view-the-projected-completion-date-of-an-issue)
+
+### Exibir a Data de Término Projetada de um projeto {#view-the-projected-completion-date-of-a-project}
+
+1. Vá para o projeto em que deseja exibir a Data de conclusão projetada.
 1. Clique em **Detalhes do projeto** no painel esquerdo.
-1. Localize a variável **Data de Conclusão Projetada** no campo **Visão geral** seção.
+1. Localize o **Data de Término Projetada** no campo **Visão geral** seção.
 
-### Exibir a Data de Conclusão Projetada de uma tarefa {#view-the-projected-completion-date-of-a-task}
+### Exibir a Data de Término Projetada de uma tarefa {#view-the-projected-completion-date-of-a-task}
 
-1. Vá para a tarefa onde deseja exibir a Data de Conclusão Projetada.
+1. Vá para a tarefa em que deseja exibir a Data de Conclusão Projetada.
 1. Clique em **Detalhes da tarefa** no painel esquerdo.
-1. Localize a variável **Data de Conclusão Projetada** no campo **Visão geral** seção.
+1. Localize o **Data de Término Projetada** no campo **Visão geral** seção.
 
-### Exibir a Data de Conclusão Projetada de um problema {#view-the-projected-completion-date-of-an-issue}
+### Exibir a data de conclusão projetada de um problema {#view-the-projected-completion-date-of-an-issue}
 
-Você pode visualizar a Data de conclusão projetada para problemas somente em um relatório de ocorrência ou exibição de lista. A criação de uma exibição de lista é semelhante à criação da exibição em um relatório.
+Você pode exibir a Data de conclusão projetada para problemas somente em um relatório de problemas ou em uma exibição em lista. Criar uma visualização de lista é semelhante a criar a visualização em um relatório.
 
-Para criar um relatório de problema que inclua a Data de conclusão prevista:
+Para criar um relatório de problemas que inclua a Data de conclusão projetada:
 
 1. Crie um relatório de problemas, conforme descrito no artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. Selecione o **Colunas (Exibir)** guia .
-1. Clique em **Adicionar coluna** e comece a digitar **Data de Conclusão Projetada** no **Mostrar nesta coluna:** campo.
+1. Selecione o **Colunas (Exibir)** guia.
+1. Clique em **Adicionar coluna** e comece a digitar **Data de Término Projetada** no **Mostrar nesta coluna:** campo.
 
-1. Selecione-o quando ele aparecer na lista, em **Problema** objeto. 
+1. Selecione-o quando ele aparecer na lista, sob o **Problema** objeto. 
 1. Clique em **Salvar + Fechar**.
 
-   O **Data de Conclusão Projetada** no relatório é preenchida. 
+   A variável **Data de Término Projetada** no relatório é preenchida. 
 
    ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)

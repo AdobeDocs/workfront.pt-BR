@@ -6,13 +6,13 @@ description: Este artigo contém uma lista das perguntas mais frequentes sobre a
 author: Alina
 feature: Product Announcements
 role: User, Admin
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+exl-id: 5ce15530-0858-44a4-b928-779654310dee
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
-
 
 # Perguntas frequentes sobre a nova experiência de comentários
 
@@ -24,7 +24,7 @@ Para obter mais informações sobre a nova experiência de comentários, consult
 
 Atualmente oferecemos suporte apenas a anexos de imagem para comentários. Se você quiser ver outros tipos de arquivos, envie uma solicitação de laboratório de inovação para que possamos entender a necessidade do recurso.
 
-## Você adicionará novamente a capacidade de editar o Status, a Condição ou a Data de conclusão planejada de um item de trabalho na nova experiência de comentários?
+## Você adicionará novamente a capacidade de editar o Status, a Condição, a Data de confirmação ou a Data de conclusão planejada de um item de trabalho na nova experiência de comentários?
 
 Não pretendemos trazer de volta a capacidade de executar essas ações, pois elas estão disponíveis no cabeçalho e nas áreas Detalhes do objeto. Entendemos que estamos pedindo que você altere o padrão de uso da sequência de comentários, mas estamos fazendo isso para manter a experiência de comentários para o seu propósito direto de comunicação e colaboração.
 

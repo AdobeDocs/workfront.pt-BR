@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1374'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,9 @@ Para obter informações sobre como converter problemas em projetos, consulte [C
 
 * Ao converter um problema em uma tarefa ou um projeto, o problema é removido da área da página inicial do usuário atribuído ao problema.
 
-* Ao converter um problema em um projeto usando um modelo, a maioria das informações do modelo é transferida para o novo projeto. No entanto, algumas informações do problema também podem ser transferidas para o novo projeto. Para obter mais informações, consulte [Visão geral dos campos do projeto ao converter um problema em um projeto usando um modelo](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) neste artigo.
+* Ao converter um problema, as permissões para os problemas originais não são transferidas para o objeto convertido (tarefa ou projeto).
+
+* Ao converter um problema em um projeto usando um modelo, a maioria das informações do modelo é transferida para o novo projeto. No entanto, algumas informações do problema também podem ser transferidas para o novo projeto. Para obter mais informações, consulte [Visão geral dos campos do projeto ao converter um problema em um projeto usando um modelo](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) neste artigo.
 * Ao converter um problema, nem todos os documentos ou suas informações são movidos para o novo objeto para o qual o problema é convertido. Os seguintes itens são incluídos quando você converte um problema que tem documentos ou links de documento anexados:
 
    * Documento
@@ -110,12 +112,17 @@ A tabela a seguir lista as informações do projeto e se ele é transferido do m
   </tr> 
   <tr> 
    <td>Grupo</td> 
-   <td>Transferências do modelo. Se não houver um Grupo no modelo, ele será definido como o Grupo do projeto ao qual o problema pertence.</td> 
+   <td><p> Existem os seguintes cenários:</p>
+     <ul><li>Se um grupo for especificado durante a conversão, ele será o grupo do projeto</li>
+     <li>Se você converter em um projeto usando um modelo e houver um grupo no modelo e, durante a conversão, não especificar um grupo, o grupo do modelo se tornará o grupo do novo projeto</li>
+      <li> Se não houver um grupo no modelo e você não especificar um grupo durante a conversão, o grupo do projeto original do problema se tornará o grupo do novo projeto</li> </ul>
+      </td> 
   </tr> 
   <tr> 
-   <td>Empresa</td> 
-   <td>Transferências do modelo. Caso contrário, esse campo estará vazio.</td> 
-  </tr> 
+   <td>Empresa</td>    
+   <td>  Transferências do modelo. Caso contrário, esse campo estará vazio.</td>
+
+</tr> 
   <tr> 
    <td>Proprietário do projeto</td> 
    <td>Transferências do campo Proprietário do modelo no modelo. Caso contrário, será definido como o usuário conectado que está executando a conversão. </td> 
