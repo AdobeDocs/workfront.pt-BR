@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
+source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
 workflow-type: tm+mt
-source-wordcount: '2421'
+source-wordcount: '2510'
 ht-degree: 8%
 
 ---
@@ -90,9 +90,9 @@ Para exportar um modelo do Kickstart:
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col"> <p>Painel de Controle</p> <p>Todos os painéis no sistema estão disponíveis para exportação. Você pode selecionar até 100 painéis específicos em uma única exportação.</p> </td> 
+      <td scope="col"> <p>Painel</p> <p>Todos os painéis no sistema estão disponíveis para exportação. Você pode selecionar até 100 painéis específicos em uma única exportação.</p> </td> 
       <td scope="col">Exporta como arquivo ZIP</td> 
-      <td scope="col"> <p>Parâmetro</p> <p>Opção de parâmetro</p> <p>Grupo de Parâmetros</p> <p>Parâmetro da Categoria</p> <p>Categoria</p> <p>Relatório</p> <p>Seção de Guias do Portal</p> <p>Painel de Controle</p> <p>Preferências</p> </td> 
+      <td scope="col"> <p>Parâmetro</p> <p>Opção de parâmetro</p> <p>Grupo de Parâmetros</p> <p>Parâmetro da Categoria</p> <p>Categoria</p> <p>Relatório</p> <p>Seção de Guias do Portal</p> <p>Painel</p> <p>Preferências</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Relatório</p> <p>Todos os relatórios do sistema estão disponíveis para exportação. É possível selecionar até 100 relatórios específicos em uma única exportação.</p> </td> 
@@ -315,12 +315,17 @@ Cada linha da planilha corresponde a um objeto exclusivo.
 
    * Se o objeto que você está importando já existir no sistema Workfront (e você digitou **FALSO** no **isNew** ), a ID deve ser o GUID alfanumérico que existe no Workfront para esse objeto.
 
+     ![ID de exemplo para um grupo](assets/kick-start-group-example.png)
+
+   * Ao importar um projeto, você deve indicar uma ID de grupo.
+
+      * Se o grupo já existir no Workfront, você deverá adicionar seu identificador exclusivo à **setGroupID** para o projeto.
+      * Se o grupo não existir no Workfront, você poderá adicionar a variável **Grupo do GRUPO** para o arquivo de importação, defina o **isNew** campo para **TRUE** na planilha Grupo e indique uma ID numérica para o novo grupo na **ID** coluna. A variável **setGroupID** o campo do novo projeto deve corresponder ao campo numérico **ID** para o novo grupo.
+
      **Exemplo:** Para um projeto, o valor exibido na variável **setGroupID** deve ser uma das seguintes:
 
       * O GUID para um Grupo existente na sua instância do Workfront
       * O valor (número) na coluna ID no **Grupo do GRUPO** se você estiver criando um novo Grupo durante a importação
-
-        ![ID de exemplo para um grupo](assets/kick-start-group-example.png)
 
 1. Insira valores para os campos obrigatórios e quaisquer outros campos que você deseja preencher durante a importação.
 1. (Opcional) Para adicionar dados personalizados:

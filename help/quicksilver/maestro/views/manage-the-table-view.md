@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1687'
 ht-degree: 4%
 
 ---
@@ -145,12 +145,6 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
    >
    >* O campo Nome está congelado e não faz parte da rolagem horizontal.
 
-1. Selecione um ou vários registros em uma linha, arraste e solte a **identificador** ícone ![](assets/handle-icon.png) à esquerda do nome do registro para reordenar as linhas.
-
-   >[!NOTE]
-   >
-   >Não é possível reordenar linhas se você aplicar pelo menos uma classificação à exibição de tabela.
-
 1. Clique e arraste as linhas de separação da coluna e solte-as no ponto desejado para aumentar a largura das colunas.
 
    >[!TIP]
@@ -191,9 +185,16 @@ As linhas de uma visualização de tabela Maestri exibem registros individuais d
 
 Você pode ter até 10.000 registros (ou linhas) para um tipo de registro no Maestro.
 
-A adição de linhas a uma visualização de tabela Maestri é idêntica à criação de registros em uma tabela.
+1. Vá para uma página de tipo de registro e selecione um **Tabela** exibir no menu suspenso exibir.
+1. Comece a adicionar registros (ou linhas), conforme descrito no artigo [Criar registros](../records/create-records.md).
 
-Para obter mais informações, consulte [Criar registros](../records/create-records.md).
+   Os registros adicionados na visualização de tabela são salvos imediatamente e ficam visíveis para todos os usuários que acessam o Maestro. <!--this will change with permissions-->
+
+1. (Opcional) Selecione um ou vários registros em uma linha e arraste e solte a **identificador** ícone ![](assets/handle-icon.png) à esquerda do nome do registro para reordenar as linhas.
+
+   >[!NOTE]
+   >
+   >Não é possível reordenar linhas se você aplicar pelo menos uma classificação à exibição de tabela.
 
 <!-- this is not possible right now:
 
