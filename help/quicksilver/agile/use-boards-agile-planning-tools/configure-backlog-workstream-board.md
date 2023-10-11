@@ -7,14 +7,18 @@ description: Você pode optar por exibir uma coluna de backlog em um quadro em u
 author: Lisa
 feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
 
 # Configurar o backlog em uma placa de workflow
+
+>[!IMPORTANT]
+>
+>Os fluxos de trabalho só estão disponíveis para um grupo específico de clientes.
 
 Você pode optar por exibir uma coluna de backlog em um quadro em um workflow e definir uma consulta para os cartões que são extraídos para o backlog do quadro a partir da lista de cartões de workflow.
 

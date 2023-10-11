@@ -1,35 +1,39 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Usar o painel de quadros
-description: O [!UICONTROL quadros] painel mostra a lista de quadros aos quais você tem acesso, incluindo quadros criados por você e quadros aos quais você foi adicionado.
+title: Usar o painel de painéis
+description: A variável [!UICONTROL quadros] painel mostra a lista de painéis aos quais você tem acesso, incluindo painéis que você criou e painéis aos quais você foi adicionado.
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 0bf2de8cbdcbb21936ac36bdb8cd21552211a8cf
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
 
-# Usar o painel de quadros
+# Usar o painel de painéis
 
-O painel de quadros mostra a lista de quadros e fluxos de trabalho aos quais você tem acesso, incluindo quadros que você criou e quadros aos quais você foi adicionado. Os quadros individuais aos quais você tem acesso que não fazem parte de uma fluxo de trabalho são exibidos primeiro.
+>[!IMPORTANT]
+>
+>Os fluxos de trabalho só estão disponíveis para um grupo específico de clientes.
 
-No painel, você pode fazer o seguinte para quadros e fluxos de trabalho:
+O painel de painéis mostra a lista de painéis e fluxos de trabalho aos quais você tem acesso, incluindo painéis que você criou e painéis aos quais você foi adicionado. As placas individuais a que você tem acesso que não fazem parte de um fluxo de trabalho são exibidas primeiro.
 
-* Arquivar um quadro ou fluxo de trabalho
-* Filtrar quadros e fluxos de trabalho
-* Classifique a lista de quadros por nome da placa ou data de modificação
-* Pesquisar por um quadro ou fluxo de trabalho
+No painel, é possível fazer o seguinte para quadros e fluxos de trabalho:
+
+* Arquivar um quadro ou workflow
+* Filtrar os quadros e fluxos de trabalho
+* Classificar a lista de quadros por nome de quadro ou data de modificação
+* Pesquisar um quadro ou workflow
 * Excluir um quadro ou fluxo de trabalho
 
-Para obter informações sobre como criar um novo quadro ou editar um quadro existente, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md). Para obter informações sobre como criar um novo fluxo de trabalho, consulte [Gerenciar fluxos de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+Para obter informações sobre como criar um novo painel ou editar um existente, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md). Para obter informações sobre como criar um novo workflow, consulte [Gerenciar fluxos de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,74 +50,74 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
 
 ## Filtrar quadros e fluxos de trabalho {#filter-boards}
 
-Você pode filtrar o painel de quadros para mostrar ativos, arquivados ou todos os quadros ou fluxos de trabalho.
+Você pode filtrar o painel de painéis para mostrar ativos, arquivados ou todos os painéis ou fluxos de trabalho.
 
-1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront], depois clique em **[!UICONTROL Quadros]**.
-1. Clique em [!UICONTROL **Filtro**] na área Quadros ou Fluxos de trabalho e selecione **[!UICONTROL Todos]**, **[!UICONTROL Ativo]** ou **[!UICONTROL Arquivado]**.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Quadros]**.
+1. Clique em [!UICONTROL **Filtro**] na área Quadros ou Fluxos de trabalho, e selecione **[!UICONTROL Todos]**, **[!UICONTROL Ativo]** ou **[!UICONTROL Arquivado]**.
 
    Quando um filtro diferente do padrão é aplicado no painel, um indicador é exibido no ícone de filtro ![Filtro aplicado ao painel](assets/boards-filterapplied-30x30.png).
 
 ## Classificar quadros
 
-1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront], depois clique em **[!UICONTROL Quadros]**.
-1. Para classificar a lista de quadros, clique em [!UICONTROL **Classificar**]. A opção de classificação padrão da página é por **[!UICONTROL Data de modificação]**. Também é possível classificar a página por quadro **[!UICONTROL Nome]**.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Quadros]**.
+1. Para classificar a lista de quadros, clique em [!UICONTROL **Ordenar**]. A opção de classificação padrão da página é por **[!UICONTROL Data de modificação]**. Também é possível classificar a página por quadro **[!UICONTROL Nome]**.
 
-   Selecionar **[!UICONTROL Ordem inversa]** para classificar as placas na ordem inversa da data modificada ou nome. Quando a seta no ícone de classificação aponta para cima, a ordem inversa é aplicada. Quando a seta aponta para baixo, a ordem padrão é aplicada.
+   Selecionar **[!UICONTROL Ordem inversa]** para classificar os quadros em ordem inversa da data de modificação ou do nome. Quando a seta no ícone de classificação aponta para cima, a ordem inversa é aplicada. Quando a seta aponta para baixo, a ordem padrão é aplicada.
 
    Quando uma classificação diferente do padrão é aplicada no painel, um indicador é exibido no ícone de classificação ![Classificação aplicada](assets/sort-applied-boards.png).
 
-## Pesquisar por um quadro ou fluxo de trabalho
+## Pesquisar um quadro ou um fluxo de trabalho
 
-Você pode pesquisar na área Quadros por um quadro específico ou pesquisar na área Fluxos de trabalho por um fluxo de trabalho específico.
+Você pode pesquisar na área Quadros para um determinado quadro ou pesquisar na área Fluxos de trabalho para um fluxo de trabalho específico.
 
-1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront], depois clique em **[!UICONTROL Quadros]**.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Quadros]**.
 1. Clique em [!UICONTROL **Pesquisar**] e digite um termo de pesquisa. Em seguida, pressione Enter.
 
    Todos os quadros ou fluxos de trabalho que contêm o termo de pesquisa no título são exibidos.
 
    Clique no X para limpar a pesquisa.
 
-   ![Pesquisar quadros no painel](assets/boards-searchbox.png)
+   ![Pesquisar painéis no painel](assets/boards-searchbox.png)
 
 ## Arquivar um quadro ou fluxo de trabalho
 
-O arquivamento de um quadro ou de um fluxo de trabalho o envia para o arquivo e você pode restaurá-lo posteriormente.
+O arquivamento de um quadro ou fluxo de trabalho envia-o para o arquivo e você pode restaurá-lo posteriormente.
 
 >[!NOTE]
 >
 >Quando você arquiva um quadro, ele é arquivado para todos os membros do quadro.
 >
->Quando você arquiva um fluxo de trabalho, todos os seus quadros são arquivados.
+>Quando você arquiva um fluxo de trabalho, todas as placas são arquivadas.
 
-1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront], depois clique em **[!UICONTROL Quadros]**.
-1. Clique no botão **[!UICONTROL Mais]** menu ![Menu Mais](assets/more-icon-spectrum.png) no quadro ou fluxo de trabalho e selecione **[!UICONTROL Arquivar]**.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Quadros]**.
+1. Clique em **[!UICONTROL Mais]** menu ![Menu Mais](assets/more-icon-spectrum.png) no quadro ou fluxo de trabalho e selecione **[!UICONTROL Arquivar]**.
 
-   Em uma sequência de trabalho, o menu fica à direita, ao lado da variável [!UICONTROL **Exibir fluxo de trabalho**] botão.
+   Em um workflow, o menu está à direita, ao lado da guia [!UICONTROL **Exibir fluxo de trabalho**] botão.
 
-   Um [!UICONTROL Arquivar] ícone ![Arquivar](assets/archive-icon-spectrum-25x20.png) é exibido no quadro ou na sequência de trabalho. Não é possível editar um quadro arquivado ou fluxo de trabalho.
+   Um [!UICONTROL Arquivar] ícone ![Arquivar](assets/archive-icon-spectrum-25x20.png) é exibido na placa ou no fluxo de trabalho. Não é possível editar um quadro ou fluxo de trabalho arquivado.
 
-   Os itens arquivados ficam ocultos no painel de quadros, a menos que você aplique um filtro para exibi-los. Para obter mais informações, consulte o [[!UICONTROL Filtrar quadros]](#filter-boards) neste artigo.
+   Os itens arquivados ficam ocultos no painel de painéis, a menos que você aplique um filtro para exibi-los. Para obter mais informações, consulte [[!UICONTROL Filtrar quadros]](#filter-boards) neste artigo.
 
-1. Para restaurar um quadro ou fluxo de trabalho arquivado, clique no botão **[!UICONTROL Mais]** menu ![Ícone de menu Mais](assets/more-icon-spectrum.png) no quadro ou fluxo de trabalho e selecione **[!UICONTROL Restaurar]**.
+1. Para restaurar uma placa ou workflow arquivado, clique no link **[!UICONTROL Mais]** menu ![Ícone do menu Mais](assets/more-icon-spectrum.png) no quadro ou fluxo de trabalho e selecione **[!UICONTROL Restaurar]**.
 
-## Excluir um quadro ou fluxo de trabalho
+## Excluir um quadro ou um fluxo de trabalho
 
-Ao excluir um quadro, ele é removido permanentemente do [!DNL Workfront] e não pode ser restaurado. Qualquer cartão no quadro também é excluído junto com o quadro.
+Quando você exclui um quadro, ele é removido permanentemente do [!DNL Workfront] e não podem ser restaurados. Quaisquer cartões no quadro também são excluídos juntamente com o quadro.
 
-A exclusão de uma sequência de trabalho também exclui todos os quadros na sequência de trabalho.
+A exclusão de um fluxo de trabalho também exclui todas as placas no fluxo de trabalho.
 
 >[!NOTE]
 >
->Você só pode excluir quadros e fluxos de trabalho que criou, não quadros e fluxos de trabalho aos quais você foi adicionado.
+>Você só pode excluir quadros e fluxos de trabalho criados, não quadros e fluxos de trabalho aos quais foram adicionados.
 
-1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront], depois clique em **[!UICONTROL Quadros]**.
-1. Clique no botão **[!UICONTROL Mais]** menu ![[!UICONTROL Menu Mais]](assets/more-icon-spectrum.png) no quadro ou fluxo de trabalho e selecione **[!UICONTROL Excluir]**.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Quadros]**.
+1. Clique em **[!UICONTROL Mais]** menu ![[!UICONTROL Menu Mais]](assets/more-icon-spectrum.png) no quadro ou fluxo de trabalho e selecione **[!UICONTROL Excluir]**.
 
-   Em uma sequência de trabalho, o menu fica à direita, ao lado da variável [!UICONTROL **Exibir fluxo de trabalho**] botão.
+   Em um workflow, o menu está à direita, ao lado da guia [!UICONTROL **Exibir fluxo de trabalho**] botão.
 
 1. Clique em **[!UICONTROL Excluir quadro]** ou [!UICONTROL **Excluir fluxo de trabalho**] na mensagem de confirmação.
 

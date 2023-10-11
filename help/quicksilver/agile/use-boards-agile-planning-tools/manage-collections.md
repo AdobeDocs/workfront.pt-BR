@@ -7,14 +7,18 @@ description: Um fluxo de trabalho é um grupo configurável de placas e cartões
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: 0ccec525069557fdc2a17e37e00968f8fb6d3a41
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '915'
 ht-degree: 2%
 
 ---
 
 # Gerenciar fluxos de trabalho
+
+>[!IMPORTANT]
+>
+>Os fluxos de trabalho só estão disponíveis para um grupo específico de clientes.
 
 Um fluxo de trabalho é um grupo configurável de placas e cartões para colaborar no trabalho. Os fluxos de trabalho podem incluir diferentes tipos de quadros criados a partir de modelos e uma lista de cartões de itens de trabalho. Em um fluxo de trabalho, é possível rastrear o trabalho em iterações ou sprints.
 

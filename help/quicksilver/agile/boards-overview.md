@@ -7,9 +7,9 @@ description: As placas Adobe Workfront são ferramentas flexíveis que permitem 
 author: Lisa
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,7 @@ Com os painéis de discussão, você pode:
 * Configurar colunas para mostrar um status ou categoria
 * Personalize workflows com cartões abertos (cartões ad hoc ou cartões conectados ao [!DNL Workfront] tarefas e problemas)
 * Organize e gerencie o trabalho de uma equipe em um único local
-* Usar fluxos de trabalho para agrupar dados (como quadros e cartões) e colaborar no trabalho
-* Use ferramentas de planejamento ágeis, como uma coluna de entrada para quadros Kanban, bem como uma lista de cartões e planejamento de iteração
+* Usar ferramentas de planejamento ágeis, como uma coluna de entrada para quadros Kanban
 
 Para obter informações sobre como usar os recursos básicos das placas, consulte [Introdução a painéis no [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md). Para obter informações sobre as ferramentas de planejamento ágil nos quadros, consulte [Visão geral das ferramentas de planejamento ágil](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 

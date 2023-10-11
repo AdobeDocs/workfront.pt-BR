@@ -7,14 +7,18 @@ description: As métricas estão disponíveis para cada iteração em um workflo
 author: Lisa
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: bda865111eacf5df874a09f184db039b5f837765
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
 # Revisar métricas de iteração
+
+>[!IMPORTANT]
+>
+>Os fluxos de trabalho só estão disponíveis para um grupo específico de clientes.
 
 As métricas estão disponíveis para cada iteração em um fluxo de trabalho, no quadro do processo de iteração e no painel.
 

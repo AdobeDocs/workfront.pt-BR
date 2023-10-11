@@ -6,16 +6,20 @@ description: É possível adicionar tags aos cartões para mostrar visualmente q
 author: Lisa
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: 14175ce94c1395138a31f47ad72951f0120f11ee
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '534'
 ht-degree: 2%
 
 ---
 
 # Adicionar tags
 
-É possível adicionar tags aos cartões para mostrar visualmente que são semelhantes. Em seguida, você pode filtrar por essas tags para exibir cartões relacionados. As tags de painel não são compartilhadas entre painéis, mas as tags de fluxo de trabalho estão disponíveis em todas as placas em um fluxo de trabalho.
+É possível adicionar tags aos cartões para mostrar visualmente que são semelhantes. Em seguida, você pode filtrar por essas tags para exibir cartões relacionados.
+
+>[!NOTE]
+>
+>As tags não são compartilhadas entre painéis.
 
 ## Requisitos de acesso
 
@@ -57,6 +61,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    ![Gerenciador de tags](assets/tag-manager-2023.png)
 
 ## Criar tags para um workflow
+
+>[!IMPORTANT]
+>
+>Os fluxos de trabalho só estão disponíveis para um grupo específico de clientes.
+
+As tags de workflow estão disponíveis para todas as placas em um workflow.
 
 {{step1-to-boards}}
 

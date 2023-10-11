@@ -6,9 +6,9 @@ description: No [!UICONTROL quadros] painel, é possível criar um novo painel o
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '692'
 ht-degree: 3%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 3%
 # Criar ou editar um quadro
 
 No [!UICONTROL quadros] painel, é possível criar um novo painel ou editar um existente.
-
-Para adicionar um quadro a um workflow, consulte [Gerenciar fluxos de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Requisitos de acesso
 
@@ -43,7 +41,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 ## Criar um novo quadro
 
 1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Quadros]**.
-1. Para criar um quadro independente, clique em **[!UICONTROL Adicionar quadro]** no [!UICONTROL Quadros] área. Para adicionar um quadro a um workflow, consulte [Gerenciar fluxos de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+1. Clique em **[!UICONTROL Adicionar quadro]**.
 
 1. Selecione um modelo para o quadro.
 

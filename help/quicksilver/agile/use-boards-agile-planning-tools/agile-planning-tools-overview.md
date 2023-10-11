@@ -3,32 +3,36 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Visão geral das ferramentas de planejamento ágil
-description: À medida que você cria um quadro usando placas ad hoc e conectadas, pode aproveitar as vantagens das ferramentas adicionais de planejamento ágil nos quadros.
+description: Ao criar um quadro usando cartões ad hoc e conectados, talvez você queira aproveitar as ferramentas adicionais de planejamento ágil nos quadros.
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
 
 # Visão geral das ferramentas de planejamento ágil
 
-À medida que você cria um quadro usando cartões ad hoc e conectados, pode aproveitar as vantagens das ferramentas adicionais de planejamento ágil.
+Ao criar um quadro usando cartões ad hoc e conectados, talvez você queira aproveitar as ferramentas adicionais de planejamento ágil.
 
-Ferramentas úteis para Kanban incluem:
+As ferramentas úteis para Kanban incluem:
 
 * Limites WIP em colunas
-* Agrupamento de cartões em pingos
+* Agrupar cartões em raias
 * Uma coluna de entrada que pode ser usada para um backlog
 
-As ferramentas úteis para a Soma incluem:
+As ferramentas úteis para Scrum incluem:
 
 * Fluxos de trabalho e quadros de iteração
-* Lista de cartões ou registro retroativo
+* Lista de cartões ou backlog
 * Métricas de iteração
+
+>[!IMPORTANT]
+>
+>Os fluxos de trabalho e suas ferramentas relacionadas estão disponíveis somente para um grupo específico de clientes.
 
 Você pode usar qualquer uma ou todas essas ferramentas de uma maneira que funcione para você e sua equipe, sem se comprometer com uma metodologia ágil específica.
 
@@ -37,10 +41,10 @@ Esta seção contém os seguintes artigos:
 * [Gerenciar o limite de trabalho em andamento (WIP) em um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
 * [Adicionar uma coluna de entrada a um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 * [Usar grupos em um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
-* [Configurar fallout de cartão](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-* [Migrar cartões kanban de equipe ágil para quadros do Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
+* [Configurar queda de cartão](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+* [Migrar cartões Kanban da Equipe Ágil para quadros do Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
 * [Gerenciar fluxos de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
 * [Usar a lista de cartões](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
-* [Criar uma iteração em uma sequência de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
-* [Configurar o backlog em uma placa de fluxo de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
+* [Criar uma iteração em um fluxo de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
+* [Configurar o backlog em uma placa de workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
 * [Revisar métricas de iteração](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)

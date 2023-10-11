@@ -6,14 +6,18 @@ description: Você pode adicionar qualquer tarefa ou problema a um quadro no Ado
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: eb337ec6b467cd4f52d852dc90975c0679ef59fe
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
 
 # Adicionar tarefas ou problemas existentes a um [!DNL Adobe Workfront] quadro ou fluxo de trabalho
+
+>[!IMPORTANT]
+>
+>Os fluxos de trabalho só estão disponíveis para um grupo específico de clientes.
 
 Você pode adicionar qualquer tarefa ou problema a um quadro ou fluxo de trabalho em [!DNL Adobe Workfront] de uma lista ou exibição de relatório, ou dos detalhes do objeto.
 
