@@ -6,9 +6,9 @@ description: Controle de versão da API e programação de suporte
 author: Becky
 feature: Workfront API
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 6b341310e06e75e47b94b7c27031ce8398e91c68
+source-git-commit: f3dc40ec75433508ab617bbdbd0f5cb57866f411
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '249'
 ht-degree: 10%
 
 ---
@@ -35,9 +35,15 @@ A tabela a seguir mostra a versão e a programação de suporte da API do Workfr
   </tr> 
  </thead> 
  <tbody> 
+ <tr>
+   <td>17</td> 
+   <td> <p>12 de outubro de 2023</p> </td> 
+   <td> <p>**durante 2026</p> <p>(com a versão 26.10)</p> </td> 
+  </tr> 
+ <tr>
    <td>16</td> 
    <td> <p>Abril de 2023</p> <p>(com a versão 23.2)</p> </td> 
-   <td> <p>**durante 2026</p> <p>(com a versão 26.2)</p> </td> 
+   <td> <p>**durante 2026</p> <p>(com a versão 26.4)</p> </td> 
   </tr> 
   <tr> 
    <td>15</td> 
