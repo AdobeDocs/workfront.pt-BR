@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: f0385bd49e11ed95ea36e4ccdf7a6ba4774c3f7e
+source-git-commit: 372f330849bfcdc265e567931527497ddb19d9bb
 workflow-type: tm+mt
-source-wordcount: '13343'
+source-wordcount: '13347'
 ht-degree: 1%
 
 ---
@@ -971,6 +971,7 @@ ht-degree: 1%
       * [Usar placas conectadas em placas](agile/get-started-with-boards/connected-cards.md)
       * [Adicionar tarefas ou problemas existentes a um quadro](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
       * [Gerenciar cartões](agile/get-started-with-boards/move-board-items.md)
+      * [Gerenciar subtarefas em quadros](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md)
       * [Gerenciar itens da lista de verificação em cartões](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
       * [Adicionar documentos em cartões](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md)
       * [Personalizar quais campos são exibidos em um cartão](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)

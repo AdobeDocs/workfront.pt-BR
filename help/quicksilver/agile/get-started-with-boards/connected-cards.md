@@ -6,9 +6,9 @@ description: Você pode adicionar um cartão ao seu quadro conectado a tarefas e
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
+source-git-commit: e7b4fef2485f08df6655b5e441784ae84fc36de8
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -134,9 +134,17 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
       <td><p>Todos os campos personalizados adicionados são exibidos nesta área.</p>
       <p>Para obter mais informações, consulte <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Personalizar quais campos são exibidos em um cartão</a>.</p></td>
      </tr>
+     <tr>
+     <tr>
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Subtarefa]</strong></span></td>
+      <td><span class="preview"><p>Todas as subtarefas existentes para a tarefa aparecem nesta seção. Clique em <strong>[!UICONTROL Adicionar Subtarefa]</strong> para adicionar uma nova subtarefa.</p>
+      <p>O contador na parte superior da seção mostra o número de subtarefas concluídas e o número total de subtarefas.</p>
+      <p>Para obter mais informações sobre subtarefas, consulte <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">Gerenciar subtarefas em quadros</a>.</p></span></td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Lista de Verificação]</strong> </td> 
-      <td> <p>Clique em <strong>[!UICONTROL Adicionar item de lista de verificação]</strong>. Em seguida, digite o título do item e pressione Enter. Outro item é adicionado automaticamente. Continue inserindo títulos para adicionar mais itens.</p> <p>O contador na parte superior da lista de verificação mostra o número de itens concluídos e o número total de itens.</p> <p>Para obter mais informações sobre os itens da lista de verificação, consulte <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gerenciar itens da lista de verificação em cartões</a>.</p></td>
+      <td role="rowheader"><strong>[!UICONTROL Lista de Verificação]</strong></td>
+      <td><p>Clique em <strong>[!UICONTROL Adicionar item de lista de verificação]</strong>. Em seguida, digite o título do item e pressione Enter. Outro item é adicionado automaticamente. Continue inserindo títulos para adicionar mais itens.</p>
+      <p>O contador na parte superior da lista de verificação mostra o número de itens concluídos e o número total de itens.</p> <p>Para obter mais informações sobre os itens da lista de verificação, consulte <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gerenciar itens da lista de verificação em cartões</a>.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><span class="preview"><strong>[!UICONTROL Documentos]</strong></span></td>
