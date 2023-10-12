@@ -4,13 +4,13 @@ description: No Adobe Maestri, você pode criar campos personalizados para cada 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '2555'
+source-wordcount: '2600'
 ht-degree: 2%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -186,6 +186,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    * [Percentagem](#percentage)
    * [Moeda](#currency)
    * [Caixa de seleção](#checkbox)
+     <!--* [People](#people)-->
 
    >[!IMPORTANT]
    >
@@ -201,7 +202,7 @@ Os campos de texto de linha única capturam informações alfanuméricas limitad
 
    ![](assets/single-line-text-field-type.png)
 
-1. Adicione as seguintes informações:
+1. Adicione as seguintes informações no **Novo campo** guia:
    * **Nome**: O nome do tipo de campo, como ele aparecerá em uma tabela ou na página Detalhes do registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida ao passar o mouse sobre o cabeçalho da coluna do campo em uma tabela.
 1. Clique em **Criar**.
@@ -213,12 +214,22 @@ Os campos de texto de linha única capturam informações alfanuméricas limitad
 
 Os campos de parágrafo capturam informações alfanuméricas adicionais sobre um registro, semelhantes ao campo Descrição. O conteúdo de um campo de parágrafo pode ter até 1.000 caracteres.
 
+<!-- remove the last sentence above and add this tip when we go to rich text: 
+
+>[!TIP]
+>
+>* The content of a paragraph field can have up to 1,000 characters. 
+
+* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record. (********check to make sure this is true about Details page***********)
+
+-->
+
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo, selecione a variável **Parágrafo** tipo de campo.
 
    ![](assets/paragraph-field-type.png)
 
 
-1. Adicione as seguintes informações:
+1. Adicione as seguintes informações no **Novo campo** guia:
    * **Nome**: O nome do tipo de campo, como ele aparecerá em uma tabela ou na página Detalhes do registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
 1. Clique em **Criar**.
@@ -235,7 +246,7 @@ Você pode usar um campo de seleção múltipla para capturar informações adic
    ![](assets/multi-select-field-type.png)
 
 
-1. Adicione as seguintes informações:
+1. Adicione as seguintes informações no **Novo campo** guia:
    * **Nome**: O nome do tipo de campo, como ele aparecerá em uma tabela ou na página Detalhes do registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
    * **Opções**: as opções disponíveis para seleção no menu suspenso após salvar o campo. Você pode ter números e letras para o nome de cada escolha.
@@ -257,7 +268,7 @@ Os campos de seleção única capturam informações adicionais em qualquer form
    ![](assets/single-select-field-type.png)
 
 
-1. Adicione as seguintes informações:
+1. Adicione as seguintes informações no **Novo campo** guia:
    * **Nome**: O nome do tipo de campo, como ele aparecerá em uma tabela ou na página Detalhes do registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
    * **Opções**: as opções disponíveis para seleção no menu suspenso após salvar o campo. Você pode ter números e letras para o nome de cada escolha.
@@ -279,7 +290,7 @@ Você pode usar um campo de data para capturar informações adicionais no forma
    ![](assets/date-field-type.png)
 
 
-1. Adicione as seguintes informações:
+1. Adicione as seguintes informações no **Novo campo** guia:
    * **Nome**: O nome do tipo de campo, como ele aparecerá em uma tabela ou na página Detalhes do registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
    * **Formato de data**: o tipo de formato de data que você deseja exibir nesse campo.
@@ -308,7 +319,7 @@ Os tipos de campo de número capturam informações em um formato de número.
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo, selecione a variável **Número** tipo de campo.
 
    ![](assets/number-field-type.png)
-1. Adicione as seguintes informações:
+1. Adicione as seguintes informações no **Novo campo** guia:
 
    * **Nome**: O nome do tipo de campo, como ele aparecerá em uma tabela ou na página Detalhes do registro.
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
@@ -331,7 +342,7 @@ Os tipos de campo Porcentagem capturam informações em um formato de número se
 
    ![](assets/percentage-field-type.png)
 
-1. Adicione as seguintes informações:
+1. Adicione as seguintes informações no **Novo campo** guia:
    * **Nome**: O nome do tipo de campo, como ele aparecerá em uma tabela ou na página Detalhes do registro.
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
    * **Precisão**: o número de decimais que você deseja gravar para o campo. É possível exibir até 6 decimais.
@@ -353,7 +364,7 @@ Os tipos de campo Moeda capturam as informações em um formato de número prece
 
    ![](assets/currency-field-type.png)
 
-1. Adicione as seguintes informações:
+1. Adicione as seguintes informações no **Novo campo** guia:
    * **Nome**: O nome do tipo de campo, como ele aparecerá em uma tabela ou na página Detalhes do registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
    * **Moeda**: o tipo de moeda que você deseja exibir neste campo. Esta é uma lista de moedas de acordo com a Organização Internacional de Normalização (ISO).
@@ -376,12 +387,30 @@ Você pode usar o tipo de campo Caixa de seleção para adicionar uma única op�
 
    ![](assets/checkbox-field-type.png)
 
-1. Adicione as seguintes informações:
+1. Adicione as seguintes informações no **Novo campo** guia:
    * **Nome**: O nome do tipo de campo, como ele aparecerá em uma tabela ou na página Detalhes do registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
 1. Clique em **Criar**.
 
    O novo campo de caixa de seleção é adicionado como uma coluna ao tipo de registro e seus valores podem ser associados a registros. O campo também é exibido na página Detalhes de um registro.
+
+<!--
+### People
+
+You can use the People field type to add a user, job role, or team to a record. This is a type-ahead field, and you can add only users, roles, or teams that already exist in Workfront.
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **People** field type.
+ 
+    ***************INSERT SCREEN SHOT HERE - DO YOU HAVE TO REPLACE OTHER SCREEN SHOTS ABOVE OR IN OTHER DOCS THAT SHOW ALL THE FIELDS, IN INCLUDE THE NEW ONE?! ***************
+
+1. Add the following information in the **New field** tab:
+     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. *************ensure they updated this; and update the screen shot: it used to be "Label"**********
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+1. Click **Create**.
+
+    The new People-type field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
+
+-->
 
 ## Criar campos vinculando tipos de registro
 
@@ -402,6 +431,3 @@ Ao criar um tipo de registro, vários campos associados ao novo tipo de registro
 O Maestri cria campos para tipos de registros operacionais e taxonomias quando você cria um espaço de trabalho a partir de um modelo.
 
 Para obter informações, consulte [Criar espaços de trabalho](../architecture-and-fields/create-workspaces.md).
-
-
-

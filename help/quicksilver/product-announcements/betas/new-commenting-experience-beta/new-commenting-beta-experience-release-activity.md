@@ -6,8 +6,8 @@ description: Revise a atividade de lançamento semanal para a nova experiência 
 author: Alina
 feature: Product Announcements
 role: User, Admin
-exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '2047'
 ht-degree: 2%
@@ -70,6 +70,18 @@ Veja a seguir uma linha do tempo planejada com marcos importantes para o lançam
 A seção a seguir contém uma lista de recursos que foram adicionados após a versão original 23.2, começando com os lançados mais recentemente.
 
 As informações a seguir se referem à atividade de lançamento semanalmente dos recursos incluídos na nova experiência beta de comentários. Este artigo lista novos recursos que são adicionados e problemas que são resolvidos para a nova experiência de comentários.
+
+<!--CHECK THE DATES BELOW, BEFORE POSTING: 
+
+### Week of October 9, 2023
+
+#### Add back the "on behalf of <user name>" information when commenting on behalf of other users
+
+While redesigning the commenting experience, we had removed the "on behalf of < user name >" indicator when a Workfront or group administrator added comments while logged in as another user. This information has now been restored. 
+
+Preview and production for all customers: October 13, 2023. 
+
+-->
 
 ### Semana de 11 de setembro de 2023
 
@@ -319,7 +331,7 @@ Editar imagens anexadas ao editar um comentário. Para obter informações, cons
 
 A seguinte atualização de manutenção foi lançada para comentários de problemas em beta e para metas do:
 
-Manter imagens como rascunho ao sair de uma seção Atualização de metas ou de uma seção Atualização de problemas na experiência beta de comentários. Para obter informações, consulte a seção &quot;Atualização de manutenção em 20 de abril&quot; no artigo <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Atualizações em abril de 2023</a>.
+Manter imagens como rascunho ao sair de uma seção de atualização de metas ou de problemas na experiência beta de comentários. Para obter informações, consulte a seção &quot;Atualização de manutenção em 20 de abril&quot; no artigo <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Atualizações em abril de 2023</a>.
 
 ### 17 de abril de 2023
 
