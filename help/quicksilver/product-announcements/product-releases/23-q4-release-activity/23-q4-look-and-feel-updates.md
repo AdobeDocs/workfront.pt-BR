@@ -4,10 +4,10 @@ description: Atualizações de aparência durante o período do quarto trimestre
 author: Lisa
 draft: Probably
 feature: Product Announcements
-exl-id: d667c25f-87c3-4465-81e6-481cd1e93e87
-source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
+exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
+source-git-commit: 05c209f7ba40ec7434d392a79efa96330294f20a
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 Esta página descreve pequenas atualizações na aparência de várias áreas do aplicativo Adobe Workfront que foram feitas dentro do período de lançamento do quarto trimestre de 2023.
 
 Para obter uma lista de todas as alterações disponíveis com a versão do quarto trimestre de 2023, consulte [Visão geral da versão do quarto trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Indicador de alocações ajustadas manualmente no Balanceador de carga de trabalho
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 12 de outubro de 2023; Versão de produção para todos os clientes: a ser definida
+
+Para fornecer mais clareza sobre ajustes manuais ou contorno no Balanceador de carga de trabalho, as alocações por hora ajustadas manualmente agora mostram um ícone de lápis.
+
+Para obter mais informações, consulte [Gerenciar alocações de usuário no Balanceador de carga de trabalho](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ## Novas atualizações de aparência para guias na área Configurar notificações
 

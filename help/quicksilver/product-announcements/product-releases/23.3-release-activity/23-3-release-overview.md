@@ -3,10 +3,10 @@ title: Visão geral da versão 23.3
 description: Visão geral da versão 23.3
 author: Becky
 feature: Product Announcements
-exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 53c124eec4d78b59e5b44e95ec28db7de779aec7
+exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
+source-git-commit: 46d0a392875f24a55ebddaa7ff123bca0289a0bf
 workflow-type: tm+mt
-source-wordcount: '2738'
+source-wordcount: '2737'
 ht-degree: 0%
 
 ---
@@ -361,7 +361,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                             </li>
                             <li>
                                 <p>Versão de produção para clientes da versão rápida: a ser anunciada, após a versão de produção 23.3</p>
-                                <p>Versão de produção para todos os clientes: com a versão 23.10 (outubro de 2023)<br>
+                                <p>Versão de produção para todos os clientes: a ser anunciada<br>
                                 O recurso de substituição de taxa de atribuição foi temporariamente desabilitado na Pré-visualização de 30 de junho a 13 de julho de 2023.</p>
                             </li>
                         </ul>

@@ -3,9 +3,10 @@ title: 23.3 Melhorias no Financial Management
 description: 23.3 Melhorias no Financial Management
 author: Lisa
 feature: Product Announcements
-source-git-commit: 685529997d785b1bd98ef0fbc97b47dc59ea0244
+exl-id: dc8ea58d-ad8a-45c8-bd02-552ab6127c38
+source-git-commit: 46d0a392875f24a55ebddaa7ff123bca0289a0bf
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo 
 >
 >* Versão de produção para clientes da versão rápida: a ser anunciada, após a versão de produção 23.3
 >
->* Versão de produção para todos os clientes: versão de produção para todos os clientes: com a versão 23.10 (outubro de 2023)
+>* Versão de produção para todos os clientes: Versão de produção para todos os clientes: a ser anunciada
 >
 >O recurso de substituição de taxa de atribuição foi temporariamente desabilitado na Pré-visualização de 30 de junho a 13 de julho de 2023.
 
