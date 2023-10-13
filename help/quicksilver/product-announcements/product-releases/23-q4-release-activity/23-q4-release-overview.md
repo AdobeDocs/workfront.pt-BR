@@ -4,9 +4,9 @@ description: Visão geral da versão do quarto trimestre de 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 1b247102f3d413e779106577a8b4a9c2c39b20da
+source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
 workflow-type: tm+mt
-source-wordcount: '2528'
+source-wordcount: '2599'
 ht-degree: 0%
 
 ---
@@ -285,6 +285,25 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Botão Delegar trabalho para widgets de Projeto, Tarefa e Problema</a> <span style="color: #ff0000;"> Novo na visualização!</span></p>
+                        <p>Um recurso solicitado com frequência da página inicial antiga, adicionamos um botão de delegação aos widgets Meu trabalho, Minhas tarefas e Meus problemas para que você possa facilmente delegar trabalho quando estiver fora do escritório.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 12 de outubro de 2023</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão rápida: com a versão 23.10</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão trimestral: com a versão 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Novo widget Quadros para a nova página inicial</a> <span style="color: #ff0000;"> Novo na visualização!</span></p>

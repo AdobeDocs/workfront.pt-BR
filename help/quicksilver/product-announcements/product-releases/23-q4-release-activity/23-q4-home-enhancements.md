@@ -3,9 +3,9 @@ title: Melhorias na página inicial do quarto trimestre de 2023
 description: Melhorias na página inicial do quarto trimestre de 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 4d5a8958137e5f85510c5239dfc797ddf1ca24ed
+source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 0%
 Esta página descreve todas as melhorias na página inicial feitas com a versão do quarto trimestre de 2023 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão 23.10.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2023, consulte [Visão geral da versão do quarto trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Botão Delegar trabalho para widgets de Projeto, Tarefa e Problema
+
+Um recurso solicitado com frequência da página inicial antiga, adicionamos um botão de delegação aos widgets Meu trabalho, Minhas tarefas e Meus problemas para que você possa facilmente delegar trabalho quando estiver fora do escritório. No menu delegar, que funciona de forma idêntica à anterior à Nova página inicial, você pode selecionar para quem e por quanto tempo gostaria de delegar suas histórias e problemas. Observe que a delegação de trabalho deve estar ativada no ambiente do Workfront para que o botão seja exibido.
+
+Para obter mais informações sobre delegação no Workfront, consulte [Gerenciar delegação de tarefas e problemas](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md)
 
 ## Novo widget Quadros para a nova página inicial
 
