@@ -6,7 +6,7 @@ description: Como um Gerenciador de recursos, você pode atribuir trabalho aos u
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: cc7e0d3a44d81149cd691332821df016b9e57419
+source-git-commit: b68436ff0c7edf3129b13e10859d63d73e4553de
 workflow-type: tm+mt
 source-wordcount: '2808'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Gerenciar alocações de usuário no Balanceador de carga de trabalho
+
+{{highlighted-preview}}
 
 Como um Gerenciador de recursos, você pode atribuir trabalho aos usuários e gerenciar suas alocações diárias, semanais ou mensais no Balanceador de carga de trabalho para garantir que eles recebam uma quantidade de horas que se ajuste a suas programações disponíveis.
 
@@ -256,7 +258,7 @@ Como parte da atribuição de trabalho a usuários, você pode modificar as aloc
 
 >[!TIP]
 >
->Um ícone de lápis é exibido à direita do nome do item de trabalho para indicar que ele foi ajustado manualmente.
+><span class="preview">Um ícone de lápis é exibido à direita do nome do item de trabalho para indicar que ele foi ajustado manualmente.</span>
 
 ![Ícone de Horas ajustadas manualmente](assets/icon-for-manually-adjusted-hours.png)
 

@@ -6,9 +6,9 @@ description: Use o Balanceador de carga de trabalho para entender a disponibilid
 author: Alina
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 675088f913fdd3d1218a1f48fb2086a6cf6b2548
+source-git-commit: 7429353804e69a32b69a7ae6c7ca8d4e9f231be8
 workflow-type: tm+mt
-source-wordcount: '4054'
+source-wordcount: '4082'
 ht-degree: 0%
 
 ---
@@ -109,9 +109,11 @@ Considere o seguinte ao visualizar o Balanceador de carga de trabalho:
 
   >[!NOTE]
   >
-  >* Os itens de trabalho atribuídos a uma função de trabalho ou equipe, e também atribuídos a um usuário que é o principal responsável, não são exibidos na área Trabalho não atribuído.
-  >* Os itens de trabalho atribuídos a um usuário e a uma função de trabalho, em que a função de trabalho é selecionada como o principal destinatário do item, não são exibidos na área Trabalho não atribuído.
+  >* Os itens de trabalho atribuídos a uma função de trabalho ou equipe, e também atribuídos a um usuário que é o principal responsável, são exibidos na área Trabalho não atribuído e sob o nome do usuário atribuído na área Trabalho atribuído.
+  >* Itens de trabalho atribuídos a um usuário e a uma função de trabalho, onde a função de trabalho é selecionada como o principal responsável pelo item, são exibidos na área Trabalho não atribuído.
   >* Os itens de trabalho atribuídos a mais de um usuário são exibidos em todos os nomes de usuários atribuídos na área Trabalho atribuído.
+
+  Para obter mais informações, consulte &quot;Áreas de atribuição no Balanceador de carga de trabalho&quot; em [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 * Quando um projeto não tem tarefas durante um período de tempo, a barra no nível do projeto se torna uma cor esmaecida.
 
