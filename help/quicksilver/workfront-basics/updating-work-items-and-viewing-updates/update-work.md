@@ -6,9 +6,9 @@ description: Você pode adicionar uma atualização em um objeto do Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: bdbb970aa0bb49fe9e69a15f93c96609eb2c1bfe
+source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '3550'
+source-wordcount: '3606'
 ht-degree: 1%
 
 ---
@@ -268,7 +268,12 @@ Para obter informações sobre quais recursos estão disponíveis para a nova ex
 1. Clique em **Enviar** para adicionar a atualização ao objeto do Workfront.
 1. Para editar um comentário, clique no link **Mais** menu ![](assets/more-menu.png)  <span class="preview">no canto superior direito do comentário</span>e, em seguida, clique em **Editar**.
 1. Edite as informações no comentário, adicione ou remova imagens ou remova qualquer um dos usuários marcados.
-Você pode editar seu comentário em até 15 dias a partir do envio. Um indicador &quot;Editado&quot; é adicionado à esquerda do carimbo de data que é exibido quando o comentário é inserido.
+Você pode editar seu comentário somente em até 15 dias a partir do envio. Um indicador &quot;Editado&quot; é adicionado à esquerda do carimbo de data que é exibido quando o comentário é inserido.
+
+   >[!TIP]
+   >
+   >Os comentários do ano atual não exibem o ano no carimbo de data. Passar o mouse sobre um carimbo de data e hora exibe a data completa, incluindo o ano.
+
 
    <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
 
@@ -276,7 +281,8 @@ Você pode editar seu comentário em até 15 dias a partir do envio. Um indicado
    >
    >* Um email é gerado para notificar os usuários sobre sua atualização somente quando você envia a atualização original. Nenhum email é gerado após a edição da atualização.
    >* O carimbo de data ao lado do comentário é a data do comentário original, não a data da última edição.
-   >* Os comentários do ano atual não exibem o ano no carimbo de data. Passar o mouse sobre um carimbo de data e hora exibe a data completa, incluindo o ano.
+   >* Ao postar um comentário em nome de outro usuário (ao fazer logon como outro usuário como Workfront ou administrador de grupo), você não poderá editar o comentário se estiver conectado como o outro usuário. Você pode editar o comentário somente depois de fazer logoff como usuário e logon novamente como você mesmo.
+
 
 1. (Opcional) Clique em **Responder** para responder a um comentário existente, siga as etapas 4 a 8 acima. <!--(**************insure this stays accurate***********)--> Para obter informações sobre como responder a uma atualização, consulte [Responder a atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 

@@ -6,9 +6,9 @@ description: Você pode copiar uma tarefa de um projeto para outro ou duplicar u
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
+source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1774'
 ht-degree: 1%
 
 ---
@@ -85,9 +85,14 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
 Considere o seguinte ao copiar uma tarefa:
 
-* Problemas não são copiados com a tarefa.
 * As etapas são transferidas para a tarefa copiada e removidas da tarefa original.
 * Ao copiar uma tarefa de um projeto para outro, as datas da tarefa podem ser recalculadas. O recálculo levará em consideração o cronograma que o novo projeto usa e as informações de Cronograma de início do projeto.
+* As subtarefas são transferidas para a nova tarefa.
+* Formulários personalizados são copiados com a tarefa. As informações nos campos personalizados são transferidas para as tarefas copiadas somente quando você seleciona copiar Dados Personalizados ao copiar a tarefa.
+* Você tem a chance de optar por copiar alguns itens associados à tarefa para a tarefa copiada durante o processo de cópia. No entanto, por padrão, os seguintes objetos não são transferidos para a tarefa copiada:
+   * Problemas
+   * Horas registradas
+   * Comentários do usuário <!--not sure about this, enable only if requested by users and vrified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
 
 Você pode copiar uma tarefa nas seguintes áreas do aplicativo web Adobe Workfront:
 
