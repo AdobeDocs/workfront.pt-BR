@@ -4,7 +4,7 @@ description: Visão geral da versão do quarto trimestre de 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: cc7e0d3a44d81149cd691332821df016b9e57419
+source-git-commit: 1b247102f3d413e779106577a8b4a9c2c39b20da
 workflow-type: tm+mt
 source-wordcount: '2528'
 ht-degree: 0%
@@ -131,7 +131,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Subtarefas agora disponíveis em Adobe Workfront Boards</a></p><span style="color: #ff0000;"> Novo na visualização!</span><p>Quando você adiciona um cartão conectado a um quadro para uma tarefa do Workfront, todas as subtarefas existentes são importadas para o cartão. Além disso, ao criar uma subtarefa em um cartão conectado, uma subtarefa é adicionada à tarefa do Workfront.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Subtarefas agora disponíveis em Adobe Workfront Boards</a><span style="color: #ff0000;"> Novo na visualização!</span></p><p>Quando você adiciona um cartão conectado a um quadro para uma tarefa do Workfront, todas as subtarefas existentes são importadas para o cartão. Além disso, ao criar uma subtarefa em um cartão conectado, uma subtarefa é adicionada à tarefa do Workfront.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
