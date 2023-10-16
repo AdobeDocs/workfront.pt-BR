@@ -6,9 +6,9 @@ description: Você pode copiar ou mover uma tarefa de modelo para o mesmo modelo
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2102'
 ht-degree: 3%
 
 ---
@@ -52,22 +52,23 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
 Considere o seguinte ao copiar uma tarefa de modelo:
 
-* Etapas não são transferidas para a tarefa de modelo copiada ou movida.
+* As seguintes informações são transferidas para a tarefa movida, por padrão:
 
-* As subtarefas são transferidas para a nova tarefa de modelo.
-* Formulários personalizados são copiados com a tarefa de modelo. As informações nos campos personalizados são transferidas para a nova tarefa de modelo somente quando você seleciona copiar Dados personalizados.
+   * Formulários personalizados e informações de campos personalizados.
+   * Subtarefas.
+
+* As informações a seguir não são transferidas para a tarefa movida ou copiada:
+
+   * Etapas não são transferidas para a tarefa de modelo copiada ou movida.
+
 * Você tem a chance de optar por copiar alguns itens associados à tarefa de modelo para a tarefa copiada durante o processo de cópia. No entanto, por padrão, os seguintes objetos não são transferidos para a tarefa copiada:
 
    * Comentários do usuário
-
-* Você pode copiar uma tarefa de modelo nas seguintes áreas do aplicativo web Adobe Workfront:
-
-   * No nível de tarefa de modelo, no **Ícone Mais** ![](assets/more-icon.png) à direita do nome do modelo de tarefa.
-
-   * Em uma lista de tarefas de modelo.
-* Você pode copiar ou mover tarefas de modelo uma de cada vez ou selecionando várias tarefas de modelo.
+* Formulários personalizados são copiados com a tarefa de modelo. As informações nos campos personalizados são transferidas para a nova tarefa de modelo somente quando você seleciona copiar Dados personalizados.
 
 ## Copiar modelos de tarefa
+
+Você pode copiar uma única tarefa de modelo ou pode copiar várias tarefas de modelo em massa.
 
 1. Vá para o modelo que contém a tarefa de modelo ou as tarefas de modelo que você deseja copiar.
 1. Clique em **Modelos de Tarefa** no painel esquerdo.
@@ -165,7 +166,6 @@ A caixa Copiar Modelo de Tarefa é aberta.
     </tbody> 
    </table>
 
-(PERGUNTANDO SOBRE A ÚLTIMA LINHA: A TAREFA DE MODELO NÃO PARECE TER &quot;COMPARTILHAMENTO&quot;)
 
 1. (Opcional) Clique em **Selecionar pai** no painel esquerdo, selecione a tarefa de modelo no modelo de destino que você deseja que se torne a principal da tarefa de modelo copiada.
 
@@ -191,8 +191,7 @@ A caixa Copiar Modelo de Tarefa é aberta.
 
 ## Mover tarefas de modelo
 
-Além de copiar tarefas de modelo, também é possível mover uma tarefa de modelo para outra tarefa de modelo no mesmo modelo ou para outro modelo.
-
+Você pode mover uma tarefa de modelo para outra tarefa de modelo no mesmo modelo ou para outro modelo. Você pode mover uma ou várias tarefas de modelo em massa.
 
 1. Vá para o modelo que contém a tarefa de modelo ou as tarefas de modelo que você deseja mover.
 1. Clique em **Modelos de Tarefa** no painel esquerdo.
@@ -300,7 +299,6 @@ A caixa Mover Modelo de Tarefa é aberta.
     </tbody> 
    </table>
 
-(PERGUNTANDO SOBRE A ÚLTIMA LINHA: A TAREFA DE MODELO NÃO PARECE TER &quot;COMPARTILHAMENTO&quot;)
 
 1. (Opcional) Clique em **Selecionar pai** no painel esquerdo, selecione a tarefa de modelo no modelo de destino que você deseja que se torne a principal da tarefa de modelo movida.
 

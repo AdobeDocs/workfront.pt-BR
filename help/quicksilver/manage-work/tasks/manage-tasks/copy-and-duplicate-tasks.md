@@ -6,9 +6,9 @@ description: Você pode copiar uma tarefa de um projeto para outro ou duplicar u
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1717'
 ht-degree: 1%
 
 ---
@@ -85,30 +85,18 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
 Considere o seguinte ao copiar uma tarefa:
 
-* As etapas são transferidas para a tarefa copiada e removidas da tarefa original.
 * Ao copiar uma tarefa de um projeto para outro, as datas da tarefa podem ser recalculadas. O recálculo levará em consideração o cronograma que o novo projeto usa e as informações de Cronograma de início do projeto.
-* As subtarefas são transferidas para a nova tarefa.
 * Formulários personalizados são copiados com a tarefa. As informações nos campos personalizados são transferidas para as tarefas copiadas somente quando você seleciona copiar Dados Personalizados ao copiar a tarefa.
 * Você tem a chance de optar por copiar alguns itens associados à tarefa para a tarefa copiada durante o processo de cópia. No entanto, por padrão, os seguintes objetos não são transferidos para a tarefa copiada:
    * Problemas
    * Horas registradas
-   * Comentários do usuário <!--not sure about this, enable only if requested by users and vrified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
+   * Comentários do usuário <!--not sure about this, enable only if requested by users and verified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
+* Os seguintes itens são movidos para a tarefa copiada por padrão:
 
-Você pode copiar uma tarefa nas seguintes áreas do aplicativo web Adobe Workfront:
+   * As etapas são transferidas para a tarefa copiada e removidas da tarefa original.
+   * As subtarefas são transferidas para a nova tarefa.
 
-* No nível da tarefa, no **Ícone Mais** ![](assets/qs-more-menu-19x7.png) à direita do nome da tarefa.
-
-  Para obter informações, consulte a [Copiar uma tarefa no nível da tarefa](#copy-a-task-at-the-task-level) neste artigo.
-
-* Em uma lista de tarefas, seguindo um destes procedimentos:
-
-   * Clique com o botão direito do mouse no nome de uma tarefa.
-   * Selecione a tarefa (ou tarefas) e expanda a **Mais** ícone ![](assets/more-icon-task-list.png) na parte superior da lista de tarefas.
-   * Selecione uma tarefa e expanda o **Mais** ícone ![](assets/more-icon-task-list.png) ao lado do nome da tarefa.
-
-     Essa opção não está disponível ao selecionar várias tarefas.
-
-  Para obter informações, consulte a [Copiar tarefas em uma lista](#copy-tasks-in-a-list) neste artigo.
+* É possível copiar uma tarefa de cada vez ou várias tarefas de cada vez ao editar tarefas em uma lista.
 
 ## Copiar tarefas em uma lista {#copy-tasks-in-a-list}
 
@@ -118,7 +106,7 @@ Você pode copiar uma tarefa nas seguintes áreas do aplicativo web Adobe Workfr
 
    Ir para um relatório de tarefa.
 
-1. Clique em **Tarefas** no painel esquerdo.
+1. (Condicional) Clique em **Tarefas** no painel esquerdo, se você tiver aberto o projeto que contém as tarefas.
 1. Clique em **Menu Modo de plano** ![](assets/qs-list-mode-or-save-mode-icon-small.png) , depois **Salvamento automático**.
 
    >[!IMPORTANT]
@@ -129,24 +117,22 @@ Você pode copiar uma tarefa nas seguintes áreas do aplicativo web Adobe Workfr
 
    * Clique em **Menu Mais** na parte superior da lista de tarefas, em seguida, clique em **Copiar para**.
    * Clique com o botão direito do mouse nas tarefas selecionadas e clique em **Copiar para**.
-   * Ao selecionar uma tarefa, clique no botão **Mais** menu ![](assets/more-icon-task-list.png) ao lado do nome da tarefa na lista, em seguida, clique em **Copiar para**.
+   * Ao selecionar uma tarefa, clique no botão **Mais** menu ![](assets/more-icon-task-list.png) ao lado do nome da tarefa na lista, em seguida, clique em **Copiar para**.
 
    ![](assets/copy-task-in-list-nwe-350x131.png)
 
 1. Continue copiando a tarefa, conforme descrito na seção [Copiar uma tarefa no nível da tarefa](#copy-a-task-at-the-task-level) começando com a Etapa 4.
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: is this still accurate?!)
-   </MadCap:conditionalText>
+      (NOTE: is this still accurate?!)
    -->
 
 ## Copiar uma tarefa no nível da tarefa {#copy-a-task-at-the-task-level}
 
-Além de copiar tarefas em uma lista de tarefas, você também pode copiar uma tarefa depois de abri-la. 
+Além de copiar tarefas em uma lista de tarefas, você também pode copiar uma tarefa depois de abri-la.
 
 1. Encontre uma tarefa em seu sistema Workfront procurando por ela.
-1. Clique no nome da tarefa para abri-la. 
+1. Clique no nome da tarefa para abri-la.
 1. Clique em **Mais** menu suspenso ![](assets/qs-more-menu.png) ao lado do nome da tarefa e clique em **Copiar** **para**.
 
    ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
@@ -161,7 +147,7 @@ Além de copiar tarefas em uma lista de tarefas, você também pode copiar uma t
    >
    >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
-1. Digite o nome do **Projeto de destino** onde você deseja copiar a tarefa no **Selecionar projeto de destino** campo. 
+1. Digite o nome do **Projeto de destino** onde você deseja copiar a tarefa no **Selecionar projeto de destino** campo.
 
    >[!TIP]
    >
@@ -171,20 +157,20 @@ Além de copiar tarefas em uma lista de tarefas, você também pode copiar uma t
 
    O nome do projeto atual é exibido por padrão. Se quiser copiar a tarefa dentro do mesmo projeto, deixe esse campo inalterado.
 
-1. (Condicional) Clique em **solicitar acesso** para solicitar acesso ao projeto, se você não tiver acesso ao projeto selecionado.
+1. (Condicional) Clique em **solicitar acesso** para solicitar acesso ao projeto, se você não tiver acesso ao projeto selecionado.
 1. (Condicional) Continue a copiar a tarefa para o projeto de destino selecionado sem solicitar acesso se tiver acesso para adicionar tarefas a uma das tarefas no projeto de destino.
 
    ![](assets/copy-task-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
-   >Mensagens semelhantes serão exibidas se o projeto selecionado estiver com aprovação pendente, concluído ou inativo, quando o administrador do Workfront impedir a adição de tarefas a esses projetos. Para obter mais informações, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >Mensagens semelhantes serão exibidas se o projeto selecionado estiver com aprovação pendente, concluído ou inativo, quando o administrador do Workfront impedir a adição de tarefas a esses projetos. Para obter mais informações, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. Clique em **Opções** no painel esquerdo, desmarque os atributos de tarefa que você não quer copiar com a tarefa. Todas as opções são selecionadas por padrão.
+1. Clique em **Opções** no painel esquerdo, desmarque os atributos de tarefa que você não quer copiar com a tarefa. Todas as opções são selecionadas por padrão.
 
    >[!TIP]
    >
-   Selecionar e desmarcar **Selecionar tudo** desmarca todas as opções.
+   >Selecionar e desmarcar **Selecionar tudo** desmarca todas as opções.
 
    Desmarque as opções a seguir para não transferi-las para a tarefa copiada. A tabela a seguir descreve o que acontece quando as opções são desmarcadas:
 
@@ -239,24 +225,24 @@ Além de copiar tarefas em uma lista de tarefas, você também pode copiar uma t
     </tbody> 
    </table>
 
-1.  (Opcional) Clique em **Selecionar pai** no painel esquerdo, selecione a tarefa no projeto de destino que você deseja que se torne a principal da tarefa copiada.
+1. (Opcional) Clique em **Selecionar pai** no painel esquerdo, selecione a tarefa no projeto de destino que você deseja que se torne a principal da tarefa copiada.
 
-   >[!TIP]
-   >
-   Ao selecionar para copiar várias tarefas em uma lista, todas as tarefas selecionadas se tornarão as filhas da tarefa pai selecionada.
+>[!TIP]
+>
+>Ao selecionar para copiar várias tarefas em uma lista, todas as tarefas selecionadas se tornarão as filhas da tarefa pai selecionada.
 
-   Selecione um pai seguindo um destes procedimentos:
+Selecione um pai seguindo um destes procedimentos:
 
-   * Na lista de tarefas, selecione um dos pais no plano de projeto.
-   * Clique no ícone de pesquisa ![Ícone de pesquisa](assets/search-icon.png) e procure uma tarefa pai por nome.
+* Na lista de tarefas, selecione um dos pais no plano de projeto.
+* Clique no ícone de pesquisa ![Ícone de pesquisa](assets/search-icon.png) e procure uma tarefa pai por nome.
 
-   A tarefa deve aparecer na lista.
+A tarefa deve aparecer na lista.
 
-   ![Selecionar tarefa pai ao mover uma tarefa com funcionalidade de pesquisa ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+![Selecionar tarefa pai ao mover uma tarefa com funcionalidade de pesquisa ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
-1. Selecione o botão de opção do pai depois de encontrá-lo. 
+1. Selecione o botão de opção do pai depois de encontrá-lo.
 
-   Se você não selecionar uma tarefa pai, as tarefas serão copiadas como tarefas principais em vez de subtarefas e serão colocadas no final da lista de tarefas no projeto de destino. 
+   Se você não selecionar uma tarefa pai, as tarefas serão copiadas como tarefas principais em vez de subtarefas e serão colocadas no final da lista de tarefas no projeto de destino.
 
 1. Clique em **Copiar tarefa**
 
@@ -275,7 +261,6 @@ Você pode duplicar rapidamente uma tarefa em uma lista de tarefas, se precisar 
 ### Considerações para duplicação de tarefas {#considerations-for-duplicating-tasks}
 
 * Você pode duplicar uma tarefa em uma lista de tarefas somente quando a lista é classificada pelo número da tarefa.
-
 * A nova tarefa terá o mesmo nome da tarefa original.
 * Não é possível selecionar quais informações estão duplicadas para a nova tarefa. Quase todas as informações da tarefa original serão transferidas para a tarefa duplicada, incluindo o relacionamento principal, por padrão.
 * Os itens a seguir não são transferidos para a nova tarefa:
@@ -285,10 +270,12 @@ Você pode duplicar rapidamente uma tarefa em uma lista de tarefas, se precisar 
    * Problemas
    * Somente as predecessoras que estão no mesmo grupo de tarefas copiadas também são copiadas com suas tarefas sucessoras.
 
-     **Exemplo:** Por exemplo, se você copiar a Tarefa 2 e sua antecessora, a Tarefa 1, ao mesmo tempo, terá uma cópia da Tarefa 2 e uma cópia da Tarefa 1. A cópia da Tarefa 1 será a predecessora da cópia da Tarefa 2. Mas se você copiar apenas a Tarefa 2 sem copiar seu antecessor, sua cópia não terá antecessor.
+     **EXEMPLO**
+
+     Por exemplo, se você copiar a Tarefa 2 e sua antecessora, a Tarefa 1, ao mesmo tempo, terá uma cópia da Tarefa 2 e uma cópia da Tarefa 1. A cópia da Tarefa 1 será a predecessora da cópia da Tarefa 2. Mas se você copiar apenas a Tarefa 2 sem copiar seu antecessor, sua cópia não terá antecessor.
 
 * Quando você duplica uma tarefa pai, todas as tarefas filho também são duplicadas, mesmo quando as tarefas filho não estão selecionadas.
-* É possível duplicar várias tarefas ao mesmo tempo.
+* É possível duplicar uma ou várias tarefas ao mesmo tempo.
 
   No entanto, não é possível duplicar várias tarefas que não são sequenciais ao mesmo tempo.
 
@@ -312,4 +299,4 @@ Você pode duplicar rapidamente uma tarefa em uma lista de tarefas, se precisar 
 
       1. Clique em **Salvar** para salvar as alterações.
 
-   1. Editar tarefas em uma lista
+         As tarefas são duplicadas e adicionadas ao mesmo projeto que as tarefas originais.

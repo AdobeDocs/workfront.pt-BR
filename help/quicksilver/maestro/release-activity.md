@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1610'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,22 @@ Esta seção lista os recursos e patches que foram lançados após o lançamento
 
 Os recursos são lançados semanalmente e são listados na ordem de lançamento, com o mais recente primeiro. Os clientes que estão participando do programa beta fechado Maestro podem acessar todos os recursos em seus ambientes de Pré-visualização e Produção.
 
+## Semana de 16 de outubro de 2023
+
+### Novo tipo de campo Pessoas
+
+Pré-visualização e produção: 16 de outubro de 2023
+
+Agora você pode adicionar um campo do tipo Pessoas aos tipos de registro Maestro. Você pode usar campos do tipo Pessoas para associar usuários existentes a um registro. Para obter informações, consulte [Criar campos](../maestro/architecture-and-fields/create-fields.md).
+
+
+### Formato Rich Text para campos de parágrafo
+
+Pré-visualização e produção: 16 de outubro de 2023
+
+Adicionamos controles de formato Rich Text para campos do tipo Parágrafo. É possível formatar campos de parágrafo usando Rich Text na exibição de Tabela de um tipo de registro ou na página Detalhes de um registro. Para obter mais informações, consulte [Editar registros](../maestro/records/edit-records.md).
+
+
 ## Semana de 9 de outubro de 2023
 
 ### Pesquisar na exibição de tabela
@@ -41,24 +57,6 @@ Os recursos são lançados semanalmente e são listados na ordem de lançamento,
 Pré-visualização e produção: 9 de outubro de 2023
 
 Agora é possível pesquisar uma palavra-chave para localizar rapidamente um registro na exibição de tabela. Você pode usar palavras-chave e caracteres especiais em qualquer campo visível na tela para localizar um registro. Para obter informações, consulte [Gerenciar a exibição de tabela](../maestro/views/manage-the-table-view.md).
-
-<!--
-***********WHICH WEEK IS THIS???***********
-
-### New People field type 
-
-Preview and production: ************ADD INFORMATION HERE***********
-
-You can now add a People-type field to Maestro record types. You can use People-type fields to add existing users, job roles, or teams to a record. For information, see [Create fields](../maestro/architecture-and-fields/create-fields.md). 
-
-
-### Rich Text- format for Paragraph fields
-
-Preview and production: ************ADD INFORMATION HERE***********
-
-We have added Rich Text format controls for Paragraph-type fields. For more information, see [Edit records](../maestro/records/edit-records.md). 
-
--->
 
 ## Semana de 18 de setembro de 2023
 

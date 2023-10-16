@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 1%
+source-wordcount: '621'
+ht-degree: 2%
 
 ---
 
@@ -86,9 +86,18 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 ## Considerações sobre a edição de registros
 
 * É possível editar registros criados por você ou por outro usuário. <!--will change with access levels-->
-* Se os registros editados estiverem vinculados a outros registros, as novas informações dos registros que você está editando serão refletidas nos registros vinculados.
+* Não é possível editar campos vinculados a partir de outros registros ou campos que contêm cálculos.
+* Se os registros exibidos estiverem vinculados a outros registros, as novas informações dos registros que você está editando serão refletidas nos registros vinculados.
 * Não é possível editar registros em massa. <!--this will probably change-->
-* Não é possível editar campos vinculados de outros registros.
+* Os URLs são reconhecidos como links em tipos de campo de texto de linha única somente quando começam com o seguinte: http://, https://, ftp:// ou www. .
+* Você pode usar as seguintes opções de formatação de Rich Text ao editar um campo do tipo Parágrafo:
+
+   * Negrito
+   * Itálico
+   * Sublinhar
+   * Adicionar um link
+   * Adicionar uma lista com marcadores
+   * Adicionar uma lista numerada
 
 ## Editar registros
 
@@ -99,9 +108,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ### Editar um registro na página Detalhes do registro
 
-1. Clique em **Menu principal** ![](assets/main-menu-workfront.png) no canto superior direito, ou na guia **Menu principal** ![](assets/main-menu-shell.png) no canto superior esquerdo, se estiver disponível, clique em Maestro.
+1. Clique em **Menu principal** ![](assets/main-menu-workfront.png) no canto superior direito, ou na guia **Menu principal** ![](assets/main-menu-shell.png) no canto superior esquerdo, se estiver disponível, clique em **Maestro**.
 
    O espaço de trabalho que você acessa por último é aberto.
+
+1. (Opcional) Clique na seta para baixo à direita do nome do espaço de trabalho para selecionar o espaço de trabalho cujos registros você deseja atualizar.
 1. Siga um destes procedimentos:
 
    * Em uma exibição de Tabela, clique no nome de um registro.
@@ -120,11 +131,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-   >[!NOTE]
-   >
-   >    Campos vinculados ou campos que contêm cálculos ou são gerados pelo sistema não são editáveis.
-
-
 1. Clique em **Salvar alterações**. <!--logged a bug for this - this needs to be "Save"-->
 
 ### Editar um registro da exibição de tabela do tipo de registro
@@ -132,24 +138,15 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Clique em **Menu principal** ![](assets/main-menu-workfront.png) no canto superior direito, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> e clique em **Maestro** ![](assets/maestro-icon.png).
 
    O espaço de trabalho que você acessou por último é aberto.
+
+1. (Opcional) Clique na seta para baixo à direita do nome do espaço de trabalho para selecionar o espaço de trabalho cujos registros você deseja atualizar.
 1. Clique em um cartão de tipo de registro.
 
    A página de tipo de registro é aberta.
 1. (Condicional) No **Exibir** no canto superior direito da tabela, selecione uma visualização Tabela. Essa deve ser a exibição padrão, a menos que você tenha visualizado o tipo de registro na exibição de linha do tempo ao acessá-lo pela última vez.
 
    Os registros associados ao tipo de registro selecionado são exibidos na exibição de tabela.
-1. Clique dentro da linha de um registro para começar a editar informações sobre o registro em linha e pressione **Enter** no teclado para salvar as alterações. As alterações são salvas automaticamente.
+1. Clique dentro da linha de um registro para começar a editar informações sobre o registro em linha.
 
-   >[!TIP]
-   >
-   >* Os campos vinculados não são editáveis. As informações desses campos são preenchidas automaticamente a partir dos registros vinculados. Para obter informações, consulte [Conectar tipos de registro](../architecture-and-fields/connect-record-types.md).
-   >
-   >* Os URLs são reconhecidos como links em tipos de campo de texto de linha única somente quando começam com o seguinte: http://, https://, ftp:// ou www. .
-<!--for rich text formatting - when released:
-
-1. (Conditional) When you edit a Paragraph-type field, use the following Rich Text formatting capabilities: 
-
-    * Bold
-    * Italic
-    * Underline (*****anything else?? insert a screen shot?***********)
--->
+   ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
+1. Pressione **Enter** no teclado ou clique fora de uma linha para salvar as alterações. As alterações são salvas automaticamente.
