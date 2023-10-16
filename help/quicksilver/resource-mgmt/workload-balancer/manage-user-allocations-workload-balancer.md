@@ -6,9 +6,9 @@ description: Como um Gerenciador de recursos, você pode atribuir trabalho aos u
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: b68436ff0c7edf3129b13e10859d63d73e4553de
+source-git-commit: d1390144d60aee3f278729da230a3458b49ca4f0
 workflow-type: tm+mt
-source-wordcount: '2808'
+source-wordcount: '2807'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Você deve ter o seguinte:
 
 As alocações de usuário são quantias de horas que indicam o tempo que um usuário deve gastar em um determinado dia ou dia da semana, semana ou mês para concluir o item de trabalho. Elas estão incluídas nas Horas Planejadas do item de trabalho.
 
-Este artigo descreve como atualizar alocações por hora diárias, semanais ou mensais para usuários atribuídos a tarefas ou problemas. Para obter informações sobre como gerenciar alocações gerais para usuários e funções de trabalho para tarefas, consulte [Gerenciar horas de alocação de usuários e funções em tarefas](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md) .
+Este artigo descreve como atualizar alocações por hora diárias, semanais ou mensais para usuários atribuídos a tarefas ou problemas. Para obter informações sobre como gerenciar alocações gerais para usuários e funções de trabalho para tarefas, consulte [Gerenciar horas de alocação de usuários e funções em tarefas](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md).
 
 * [Visão geral da alocação de usuários](#user-allocation-overview)
 * [Critérios que redefinem as alocações de usuários](#criteria-that-reset-user-allocations)
@@ -95,10 +95,7 @@ Considere o seguinte ao localizar alocações diárias, semanais ou mensais para
 >
 >O Workfront calcula a alocação das 2 horas nos 2 dias da duração usando a seguinte fórmula:
 >
->```
->
->   Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours
->```
+>`Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours`
 >
 >  Para o nosso exemplo, as horas de alocação diárias para cada dia são:
 >   
@@ -107,8 +104,6 @@ Considere o seguinte ao localizar alocações diárias, semanais ou mensais para
 >  (2 / 13) * 8 = 1,23 hora de alocação para o segundo dia
 >
 >  Nos cálculos acima, 13 é o total de horas disponíveis para a tarefa: 5 + 8 = 13
-
-
 
 * Dois usuários em fusos horários ou Agendamentos diferentes em fusos horários diferentes daqueles dos usuários atribuídos podem fazer com que os valores de alocação apareçam de forma diferente para dois usuários que visualizam os mesmos itens de trabalho.
 
@@ -199,9 +194,9 @@ Como parte da atribuição de trabalho a usuários, você pode modificar as aloc
 
 1. (Opcional) Clique no link **Configurações** ícone ![](assets/gear-icon-settings.png) e selecione uma das seguintes opções:
 
-   1. **Incluir horas de problemas**. Isso permite gerenciar alocações de problemas, além de alocações de tarefas.
-   1. **Mostrar o trabalho concluído** . Exibe itens que foram concluídos e que estão agendados durante a linha de tempo para a qual você gerencia alocações.
-   1. **Mostrar o tempo restante** opção. O número total de horas para cada usuário (na linha do usuário) é alterado. Com essa configuração ativada, o Balanceador de carga de trabalho exibe as horas que cada usuário tem disponíveis para trabalho em vez do número de horas para as quais estão alocados.
+   1. **Incluir horas de problemas**. Isso permite gerenciar alocações de problemas, além de alocações de tarefas.
+   1. **Mostrar o trabalho concluído**. Exibe itens que foram concluídos e que estão agendados durante a linha de tempo para a qual você gerencia alocações.
+   1. **Mostrar o tempo restante**. O número total de horas para cada usuário (na linha do usuário) é alterado. Com essa configuração ativada, o Balanceador de carga de trabalho exibe as horas que cada usuário tem disponíveis para trabalho em vez do número de horas para as quais estão alocados.
 
       >[!TIP]
       >
@@ -213,7 +208,6 @@ Como parte da atribuição de trabalho a usuários, você pode modificar as aloc
       >[!NOTE]
       >
       >O administrador do Workfront decide qual programação usar em seu sistema para calcular a capacidade do usuário na área Gerenciamento de recursos da Configuração. Para obter mais informações, consulte [Configurar preferências de gerenciamento de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
-
 
 1. Clique em **Mais** menu ![](assets/qs-more-menu.png) para um item de trabalho, depois clique em **Editar alocações**.
 
