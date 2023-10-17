@@ -4,9 +4,10 @@ description: Os artigos seguintes descrevem como você pode configurar a arquite
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -51,10 +52,8 @@ Os artigos nas seções a seguir descrevem como você pode configurar os espaço
 * [Editar tipos de registro](../architecture-and-fields/edit-record-types.md)
 * [Conectar tipos de registro](../architecture-and-fields/connect-record-types.md)
 * [Exemplo de conexão de tipos de registro e registros](../architecture-and-fields/example-connect-record-types-and-records.md)
-* [Criar campos no Adobe Maestro](../architecture-and-fields/create-fields.md)
+* [Criar campos](../architecture-and-fields/create-fields.md)
 * [Editar campos](../architecture-and-fields/edit-fields.md)
 * [Excluir espaços de trabalho](../architecture-and-fields/delete-workspaces.md)
 * [Excluir tipos de registro](../architecture-and-fields/delete-record-types.md)
 * [Excluir campos](../architecture-and-fields/delete-fields.md)
-
-

@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '2630'
+source-wordcount: '2655'
 ht-degree: 2%
 
 ---
@@ -76,7 +76,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a projetos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Editar acesso a projetos</p> <p><b>Nota</b></p>
+
+<p>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -99,7 +101,7 @@ Este artigo descreve como criar uma fila de solicitações a partir de um projet
  <tbody> 
   <tr> 
    <td role="rowheader">Detalhes da fila</td> 
-   <td> <p>Você deve configurar um projeto como uma fila de solicitações na área Detalhes da fila. Esta etapa é obrigatória. </p> <p>Para obter mais informações, consulte <a href="#create-a-request-queue" class="MCXref xref">Criar uma fila de solicitações</a> neste artigo.</p> </td> 
+   <td> <p>Você deve configurar um projeto como uma fila de solicitações na área Detalhes da fila. Esta etapa é obrigatória. </p> <p>Para obter mais informações, consulte <a href="#create-a-request-queue" class="MCXref xref">Criar uma fila de solicitações</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Grupos de Tópicos</td> 
@@ -131,7 +133,7 @@ Para criar uma Fila de solicitações:
 1. (Opcional) Clique em **Detalhes do projeto** no painel esquerdo e adicione uma **Descrição** ao projeto na **Visão geral** área. Essas informações são exibidas em todas as novas solicitações.
 1. Clique em **Detalhes da fila** no painel esquerdo. Talvez seja necessário clicar em **Mostrar mais**, depois **Detalhes da fila**.
 
-   Isso abre a seção Detalhes da fila .
+   Isso abre a seção Detalhes da fila.
 
    ![](assets/classic-queue-setup-top-of-the-setup-form-350x248.png)
 
@@ -140,14 +142,14 @@ Para criar uma Fila de solicitações:
    * **Publicar como Fila de solicitação de ajuda:** Selecione esta opção para identificar este projeto como uma fila de solicitações. Todos os problemas recebidos são considerados Solicitações.\
      Quando essa opção não está selecionada, o projeto se comporta como um projeto padrão no Workfront e todos os problemas recebidos são problemas.
 
-   * **Quem pode adicionar solicitações a esta fila:** Selecione quais usuários têm acesso para adicionar solicitações a esta fila. Você pode permitir que os seguintes grupos de pessoas vejam a Fila de solicitações em sua área Solicitações da Barra de navegação global:
+   * **Quem pode adicionar solicitações a esta fila:** Selecione quais usuários têm acesso para adicionar solicitações a esta fila. Você pode permitir que os seguintes grupos de pessoas vejam a Fila de solicitações em sua área Solicitações da Barra de navegação global quando adicionam uma nova solicitação:
 
      | Quem pode inserir solicitações | Descrição |
      |---|---|
      | Todos | Qualquer usuário do Workfront com uma conta ativa pode visualizar essa fila de solicitações e adicionar solicitações a ela |
      | Pessoas com acesso de visualização a este projeto | Usuários com permissões de Visualização no projeto podem visualizar e adicionar solicitações a esta fila |
      | Pessoas da empresa deste projeto  | Os usuários que pertencem à empresa associada a este projeto podem exibir e adicionar solicitações a esta fila. Se houver uma empresa associada ao projeto, o nome da empresa será listado entre parênteses após essa configuração. |
-     | Pessoas do grupo deste projeto  | Os usuários que pertencem ao grupo associado a este projeto podem exibir e adicionar solicitações a esta fila. Se houver um grupo associado ao projeto, o nome do grupo será listado entre parênteses após essa configuração. |
+     | Pessoas do grupo deste projeto  | Os usuários que pertencem ao grupo associado a este projeto podem exibir e adicionar solicitações a esta fila. Se houver um grupo associado ao projeto, o nome do grupo será listado entre parênteses após essa configuração, em fonte cinza. |
 
      {style="table-layout:auto"}
 
@@ -172,7 +174,7 @@ Para criar uma Fila de solicitações:
 
         >[!NOTE]
         >
-        Ao exibir uma Fila de solicitações em um iframe, somente o formulário de solicitação é exibido, o nome da solicitação é pré-selecionado e esmaecido. O usuário não pode alterar o tipo de Solicitação. Os componentes de navegação da área Solicitações não são exibidos.
+        >Ao exibir uma Fila de solicitações em um iframe, somente o formulário de solicitação é exibido, o nome da solicitação é pré-selecionado e esmaecido. O usuário não pode alterar o tipo de Solicitação. Os componentes de navegação da área Solicitações não são exibidos.
 
         Para que o formulário da fila de solicitações seja exibido ao usar esse código incorporado, você deve ativar a configuração &quot;Permitir incorporação do Workfront em um iframe&quot; na configuração do sistema. Para obter mais informações sobre como ativar a incorporação do Workfront em um iframe, consulte [Configurar preferências de segurança do sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md). Se essa configuração não estiver ativada, o iframe será exibido em branco.
 
@@ -220,7 +222,7 @@ Para criar uma Fila de solicitações:
 
      >[!NOTE]
      >
-     Os Tipos de solicitação são exibidos como uma seleção na área Solicitações somente se o Tipo de solicitação for selecionado nas páginas Detalhes da fila e Tópico da fila. Para obter informações sobre como configurar a área Detalhes da fila de um projeto, consulte [Criar Tópicos de Fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+     >Os Tipos de solicitação são exibidos como uma seleção na área Solicitações somente se o Tipo de solicitação for selecionado nas páginas Detalhes da fila e Tópico da fila. Para obter informações sobre como configurar a área Detalhes da fila de um projeto, consulte [Criar Tópicos de Fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
      Cada tipo selecionado aqui estará disponível no formulário (você pode selecionar mais de um). Selecionar mais de um tipo pode ajudar a organizar várias solicitações recebidas.\
      Por exemplo, se você estiver usando o formulário em uma fila de solicitações para um projeto de TI, os seguintes tipos de solicitações poderão entrar na fila: hardware, software, correções de erros e problemas.
@@ -231,9 +233,9 @@ Para criar uma Fila de solicitações:
    * **As pessoas da mesma empresa herdarão as mesmas permissões para todas as solicitações.:** Quando selecionada, todas as solicitações enviadas para a fila ficam visíveis para usuários na mesma empresa. Os usuários podem exibir essas solicitações na seção Todas as solicitações, localizada na área Solicitações. Quando essa configuração é ativada ou desativada, isso afeta todas as solicitações futuras; não afeta as informações retroativamente.
    * **Quando alguém fizer uma solicitação, conceder automaticamente:** Quando um usuário faz uma solicitação para a fila de solicitações, o usuário recebe automaticamente o nível de permissão que você escolher para essa solicitação. Selecione entre os seguintes níveis de permissões:
 
-      * **Exibir**
-      * **Contribuir**. Esta é a seleção padrão.
-      * **Gerenciar**
+      * **Acesso de visualização**
+      * **Acesso ao Contribute**. Esta é a seleção padrão.
+      * **Gerenciar acesso**
 
      Para obter informações sobre o modelo de permissões do Workfront, consulte [Visão geral das permissões de compartilhamento em objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).\
      Definir as permissões aqui economiza tempo, em vez de precisar conceder permissões para cada solicitação recebida individual. A escolha dessa opção afeta todas as solicitações futuras, mas não afeta retroativamente as solicitações existentes.
@@ -242,7 +244,7 @@ Para criar uma Fila de solicitações:
 
      >[!IMPORTANT]
      >
-     Se o grupo do projeto mudar, o processo de aprovação específico do grupo anexado a problemas existentes se tornará um processo de aprovação de uso único. Para obter mais informações sobre como as alterações no grupo do projeto ou no processo de aprovação afetam as configurações de aprovação, consulte [Como as alterações no grupo e no processo de aprovação afetam os processos de aprovação atribuídos](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
+     >Se o grupo do projeto mudar, o processo de aprovação específico do grupo anexado a problemas existentes se tornará um processo de aprovação de uso único. Para obter mais informações sobre como as alterações no grupo do projeto ou no processo de aprovação afetam as configurações de aprovação, consulte [Como as alterações no grupo e no processo de aprovação afetam os processos de aprovação atribuídos](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
 
      Se você tiver vários tópicos da fila associados a uma fila de solicitações, recomendamos que você associe os processos de aprovação aos tópicos da fila. Para obter mais informações sobre como criar tópicos da fila, consulte [Criar Tópicos de Fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
@@ -251,21 +253,20 @@ Para criar uma Fila de solicitações:
       * Somente os processos de aprovação ativos são exibidos na lista.
       * Os processos de aprovação específicos do grupo e de todo o sistema são exibidos na lista. Um processo de aprovação associado a um grupo diferente daquele do projeto não é exibido na lista.
 
-   * **Rota Padrão**: Associe uma Regra de Encaminhamento a esta fila de solicitações. Use as Regras de Encaminhamento para atribuir automaticamente novas ocorrências submetidas a uma Fila de Solicitações ao recurso correto (usuário, função de trabalho ou equipe) e ao projeto correto. Todos os problemas enviados para esta fila serão associados a esta Regra de Encaminhamento. Você deve configurar Regras de Roteamento antes de associá-las à fila de solicitações.\
+   * **Rota Padrão**: Associe uma Regra de Encaminhamento a esta fila de solicitações. Use as Regras de Encaminhamento para atribuir automaticamente novas ocorrências submetidas a uma Fila de Solicitações ao recurso correto (usuário, função de trabalho ou equipe) e ao projeto correto. Todos os problemas enviados para esta fila serão associados a esta Regra de Encaminhamento. Você deve configurar Regras de Roteamento antes que elas sejam exibidas na seção Detalhes da Fila e antes de associá-las à fila de solicitações.\
      Se você tiver vários tópicos da fila associados a uma fila de solicitações, recomendamos que você associe regras de roteamento aos tópicos da fila. Para obter mais informações sobre como criar regras de roteamento, consulte [Criar Regras de Encaminhamento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
-   * **Campos do novo problema:** Na seção Mostrar os seguintes campos selecionados a todos os usuários, selecione os campos que você deseja que fiquem visíveis para todos os usuários que enviam uma solicitação para o projeto ou adicionam um problema ao projeto ou às tarefas.
+   * **Campos do novo problema:** No **Mostrar os seguintes campos selecionados a todos os usuários** selecione os campos que devem estar visíveis para todos os usuários que enviam uma solicitação para o projeto ou adicionam um problema ao projeto ou às tarefas.
 
      >[!TIP]
      >
-     Novos campos de problema selecionados na seção Detalhes da fila também são associados a qualquer novo problema adicionado ao projeto ou às tarefas na seção Problemas.
+     >Novos campos de problema selecionados na seção Detalhes da fila também são associados a qualquer novo problema adicionado ao projeto <!--this is confusing: or to the tasks in the Issues section-->.
 
      Quando você habilita qualquer um dos campos Atribuído a, Função de trabalho ou Equipe, eles são sempre renomeados para Atribuições no formulário de solicitação, mas você só pode especificar o tipo de atribuição selecionado aqui.
 
      >[!NOTE]
      >
-     Se você selecionou Atribuído a na área Detalhes da fila, é possível informar somente usuários no campo Atribuições no formulário de solicitação. Nesse caso, não é possível inserir funções de trabalho ou uma equipe.
-
+     >Se você selecionou Atribuído a na área Detalhes da fila, é possível informar somente usuários no campo Atribuições no formulário de solicitação. Nesse caso, não é possível inserir funções de trabalho ou uma equipe.
 
    * **Documentos**: se você optar por exibir a seção Documentos no novo formulário de solicitação, selecione onde a seção de upload de documento deve ser posicionada. Selecione entre as seguintes opções:
 
@@ -286,7 +287,7 @@ Para criar uma Fila de solicitações:
 
      ![](assets/nwe-new-issue-fields-area-with-documents-350x167.png)
 
-   * **Mostrar todos os campos selecionados e não selecionados para:** Selecione quais usuários você deseja ver todos os campos no formulário. As opções a seguir controlam o acesso aos campos no formulário.
+   * **Mostrar todos os campos selecionados e não selecionados para:** Selecione quais usuários você deseja ver todos os campos no novo formulário de solicitação. As opções a seguir controlam o acesso aos campos no formulário.
 
      | Quais usuários podem ver todos os campos no formulário de solicitação | Descrição |
      |---|---| 
@@ -294,8 +295,8 @@ Para criar uma Fila de solicitações:
      | Pessoas com direito de acesso de visualização neste projeto (Planejar Licença) | Os usuários com uma licença de Plano que também têm direitos de Exibição para este projeto podem ver os campos selecionados, bem como os campos não selecionados. O restante dos usuários que podem enviar solicitações para esse projeto pode ver apenas os campos selecionados. |
      | Sem usuário | Nenhum usuário pode visualizar os campos não selecionados. Todos os usuários que podem enviar solicitações para este projeto só podem ver os campos selecionados. |
 
-   * **Forms personalizado**: selecione um formulário personalizado para associar à Fila de solicitações. Somente Emitir Forms personalizadas estão disponíveis para seleção nesse menu suspenso. Todos os problemas enviados para a Fila de solicitações terão os formulários selecionados associados a eles.\
-     Se você tiver vários Tópicos de fila associados a uma Fila de solicitação, recomendamos que você associe formulários personalizados aos Tópicos de fila. Para obter mais informações sobre como criar subseções para a Fila de solicitações, consulte [Criar Tópicos de Fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+   * **Forms personalizado**: selecione um formulário personalizado para associar à Fila de solicitações. Somente Emitir Forms personalizadas estão disponíveis para seleção nesse menu suspenso. Todos os problemas enviados para a Fila de solicitações terão os formulários selecionados associados a eles. Você deve criar formulários personalizados de problemas antes de vê-los exibidos na seção Detalhes da fila.
+Se você tiver vários Tópicos de fila associados a uma Fila de solicitação, recomendamos que você associe formulários personalizados aos Tópicos de fila. Para obter mais informações sobre como criar subseções para a Fila de solicitações, consulte [Criar Tópicos de Fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
      ![](assets/custom-forms-on-queue-details.png)
 
@@ -303,7 +304,7 @@ Para criar uma Fila de solicitações:
 
      >[!TIP]
      >
-     Os formulários personalizados adicionados à seção Detalhes da fila também são associados a qualquer novo problema adicionado ao projeto ou às tarefas na seção Problemas.
+     >Os formulários personalizados adicionados à seção Detalhes da fila também são associados a qualquer novo problema adicionado ao projeto <!--this is confusiong: or the tasks in the Issues  section-->.
 
 1. Continue selecionando informações para as configurações no **Configurações da fila de emails** para permitir que os usuários enviem solicitações por email para o projeto da fila de solicitações.
 

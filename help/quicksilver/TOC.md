@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 0df32f5b41f4b426325d3eab8f70a4ef2538b452
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '13344'
+source-wordcount: '13345'
 ht-degree: 1%
 
 ---
@@ -1990,7 +1990,7 @@ ht-degree: 1%
       * [Informações de arquitetura](maestro/architecture-and-fields/architecture-and-fields-information.md)
       * [Criar espaços de trabalho](maestro/architecture-and-fields/create-workspaces.md)
       * [Visão geral dos tipos de registro e taxonomias](maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md)
-      * [Criar tipos de registro](maestro/architecture-and-fields/create-record-types.md)
+      * [Criar tipos de registro operacional](maestro/architecture-and-fields/create-record-types.md)
       * [Criar tipos de registro de taxonomia](maestro/architecture-and-fields/create-a-taxonomy.md)
       * [Conectar tipos de registro](maestro/architecture-and-fields/connect-record-types.md)
       * [Criar campos](maestro/architecture-and-fields/create-fields.md)

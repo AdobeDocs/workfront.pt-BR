@@ -6,9 +6,9 @@ description: Você pode copiar ou mover uma tarefa de modelo para o mesmo modelo
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2127'
 ht-degree: 3%
 
 ---
@@ -50,21 +50,33 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
 ## Considerações para copiar ou mover tarefas de modelo
 
-Considere o seguinte ao copiar uma tarefa de modelo:
+Considere o seguinte ao copiar tarefas de modelo:
+
+* As seguintes informações não são transferidas para a tarefa copiada:
+
+   * Etapas
+
+* Você tem a chance de optar por copiar alguns itens associados à tarefa de modelo para a tarefa copiada durante o processo de cópia. No entanto, por padrão, os seguintes objetos não são transferidos para a tarefa copiada:
+
+   * Comentários do usuário
+
+* Formulários personalizados são copiados com a tarefa de modelo quando você copia uma tarefa de modelo. As informações nos campos personalizados são transferidas para a nova tarefa de modelo somente quando você seleciona copiar Dados personalizados.
+
+* Os itens a seguir são transferidos para a tarefa de modelo copiada por padrão:
+
+   * Subtarefas
+
+Considere o seguinte ao mover tarefas de modelo:
 
 * As seguintes informações são transferidas para a tarefa movida, por padrão:
 
    * Formulários personalizados e informações de campos personalizados.
    * Subtarefas.
+   * Comentários do usuário.
 
-* As informações a seguir não são transferidas para a tarefa movida ou copiada:
+* As seguintes informações não são transferidas para a tarefa movida:
 
-   * Etapas não são transferidas para a tarefa de modelo copiada ou movida.
-
-* Você tem a chance de optar por copiar alguns itens associados à tarefa de modelo para a tarefa copiada durante o processo de cópia. No entanto, por padrão, os seguintes objetos não são transferidos para a tarefa copiada:
-
-   * Comentários do usuário
-* Formulários personalizados são copiados com a tarefa de modelo. As informações nos campos personalizados são transferidas para a nova tarefa de modelo somente quando você seleciona copiar Dados personalizados.
+   * Etapas.
 
 ## Copiar modelos de tarefa
 

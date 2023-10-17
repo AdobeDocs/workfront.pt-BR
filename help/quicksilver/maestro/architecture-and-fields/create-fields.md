@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
 source-wordcount: '2828'
 ht-degree: 2%
@@ -406,6 +406,7 @@ Você pode usar o tipo de campo Pessoas para adicionar um usuário <!--, job rol
    >[!NOTE]
    >
    >    Se você selecionar Permitir vários valores e vários usuários forem armazenados nos registros aos quais o campo está anexado, não será mais possível desmarcar a configuração no futuro, ao editar esse campo.
+
 1. Clique em **Criar**.
 
    O novo campo do tipo Pessoas é adicionado como uma coluna ao tipo de registro e seus valores podem ser associados a registros. O campo também é exibido na página Detalhes de um registro.

@@ -6,9 +6,9 @@ description: Você pode copiar uma tarefa de um projeto para outro ou duplicar u
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1727'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,9 @@ Considere o seguinte ao copiar uma tarefa:
    Ir para um relatório de tarefa.
 
 1. (Condicional) Clique em **Tarefas** no painel esquerdo, se você tiver aberto o projeto que contém as tarefas.
-1. Clique em **Menu Modo de plano** ![](assets/qs-list-mode-or-save-mode-icon-small.png) , depois **Salvamento automático**.
+1. Clique em **Modo de plano** ícone ![](assets/qs-list-mode-or-save-mode-icon-small.png)e assegurar que a **Salvamento automático** está ativada.
+
+   ![](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
@@ -227,18 +229,18 @@ Além de copiar tarefas em uma lista de tarefas, você também pode copiar uma t
 
 1. (Opcional) Clique em **Selecionar pai** no painel esquerdo, selecione a tarefa no projeto de destino que você deseja que se torne a principal da tarefa copiada.
 
->[!TIP]
->
->Ao selecionar para copiar várias tarefas em uma lista, todas as tarefas selecionadas se tornarão as filhas da tarefa pai selecionada.
+   >[!TIP]
+   >
+   >Ao selecionar para copiar várias tarefas em uma lista, todas as tarefas selecionadas se tornarão as filhas da tarefa pai selecionada.
 
-Selecione um pai seguindo um destes procedimentos:
+   Selecione um pai seguindo um destes procedimentos:
 
-* Na lista de tarefas, selecione um dos pais no plano de projeto.
-* Clique no ícone de pesquisa ![Ícone de pesquisa](assets/search-icon.png) e procure uma tarefa pai por nome.
+   * Na lista de tarefas, selecione um dos pais no plano de projeto.
+   * Clique no ícone de pesquisa ![Ícone de pesquisa](assets/search-icon.png) e procure uma tarefa pai por nome.
 
-A tarefa deve aparecer na lista.
+   A tarefa é exibida na lista.
 
-![Selecionar tarefa pai ao mover uma tarefa com funcionalidade de pesquisa ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Selecionar tarefa pai ao mover uma tarefa com funcionalidade de pesquisa ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Selecione o botão de opção do pai depois de encontrá-lo.
 
@@ -287,11 +289,11 @@ Você pode duplicar rapidamente uma tarefa em uma lista de tarefas, se precisar 
 1. Clique em **Tarefas** no painel esquerdo.
 1. Siga um destes procedimentos:
 
-   * (Condicional) Clique no link **Menu Modo de plano** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Salvamento automático**, selecione as tarefas que deseja duplicar e clique no botão **Menu Mais** ![](assets/qs-more-menu-29x11.png) > **Duplicar**.
+   * (Condicional) Clique no link **Modo de plano** ícone ![](assets/qs-list-mode-or-save-mode-icon-small.png) e assegurar a **Salvamento automático** estiver ativada, selecione as tarefas que deseja duplicar e clique no botão **Menu Mais** ![](assets/qs-more-menu-29x11.png) > **Duplicar**.
 
      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * (Condicional) Clique no link **Menu Modo de plano** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Salvamento manual** > **Padrão** ou **Planejamento da linha do tempo**, faça o seguinte:
+   * (Condicional) Clique no link **Modo de plano** ícone ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Salvamento manual** > **Padrão** ou **Planejamento da linha do tempo**, faça o seguinte:
 
       1. Selecione a tarefa ou tarefas que deseja duplicar e clique em **Duplicar**.
       1. (Opcional) Clique em **Desfazer** para reverter as alterações e não duplicar as tarefas.

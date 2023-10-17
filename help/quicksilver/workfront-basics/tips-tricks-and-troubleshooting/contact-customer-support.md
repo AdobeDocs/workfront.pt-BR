@@ -2,12 +2,12 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Entre em contato com o Suporte ao cliente
-description: Entre em contato com o Suporte ao cliente
+description: Como cliente do Adobe Workfront, você pode entrar em contato com a equipe de Suporte ao cliente da Workfront por telefone ou enviando um tíquete online.
 feature: Get Started with Workfront
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 <p>(We need to keep this as a standalone article. It is linked in multiple articles and FAQs.)</p>
 -->
 
-Como um [!DNL Adobe Workfront] cliente, você pode entrar em contato com o [!DNL Workfront] Equipe de suporte ao cliente por telefone ou enviando um tíquete on-line.
+Como um [!DNL Adobe Workfront] cliente, você pode entrar em contato com o [!DNL Workfront] Equipe de suporte ao cliente por telefone ou enviando um tíquete online.
 
 >[!NOTE]
 >
->Para problemas críticos, entre em contato com o [!DNL Workfront] Suporte ao cliente por telefone.
+>Para problemas críticos, entre em contato com [!DNL Workfront] Suporte ao cliente por telefone.
 
 ## Fone
 
@@ -34,63 +34,63 @@ Você pode entrar em contato [!DNL Workfront Customer Support] 7 dias por semana
 
 ## Web
 
-Você pode enviar um tíquete de suporte do [!DNL Experience League] portal.
+É possível enviar um tíquete de suporte do autoatendimento [!DNL Experience League] portal.
 
 >[!CAUTION]
 >
->Somente os contatos de suporte autorizados (ou clientes autorizados) podem enviar tíquetes de suporte online.
+>Somente contatos de suporte autorizados (ou clientes autorizados) podem enviar tíquetes de suporte online.
 
 
 1. No [[!DNL Experience League]](https://experienceleague.adobe.com) site, clique em **[!UICONTROL Suporte]**  na parte superior da página.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
-   Na página inicial de suporte, é possível navegar facilmente até seus casos de suporte abertos, registrar um novo caso, visualizar os artigos principais de suporte ou acessar fontes de aprendizado adicionais.
+   Na página inicial de suporte, você pode navegar facilmente até os casos de suporte abertos, registrar um novo caso, exibir os principais artigos de suporte ou acessar fontes de aprendizado adicionais.
 
-1. Para enviar um caso, selecione a opção &quot;[!UICONTROL Abra um caso de suporte]&quot; e, em seguida, clique em **[!UICONTROL Sign] Em**.
+1. Para enviar um caso, selecione a opção **[!UICONTROL Abrir um caso de suporte]** e, em seguida, clique em **[!UICONTROL Sign] Entrada**.
 
-1. Clique em **[!UICONTROL Caixa aberta]** na barra lateral esquerda.
+1. Clique em **[!UICONTROL Caso aberto]** na barra lateral esquerda.
 
    ![](assets/left-nav-bar-for-exl-support-portal.png)
 
-   O [!UICONTROL criação de casos] é aberta onde você pode inserir o nome do produto ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], etc.), título do caso e descrição do caso.
+   A variável [!UICONTROL criação de caso] será aberta uma página onde você poderá inserir o nome do seu produto ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], etc.), título da ocorrência e descrição da ocorrência.
 
    >[!TIP]
    >
-   >Seja o mais descritivo possível ao descrever o problema que está enfrentando para nos ajudar a agilizar o processo de solução de problemas.
+   >Seja o mais descritivo possível ao descrever o problema que você está enfrentando para nos ajudar a acelerar o processo de solução de problemas.
 
 
-1. Preencha as informações para os seguintes campos para nos fornecer detalhes mais específicos:
+1. Preencha as informações dos seguintes campos para obter detalhes mais específicos:
 
-   * **[!UICONTROL Prioridade do caso]** ([!UICONTROL Baixo], [!UICONTROL Médio], [!UICONTROL Alto], [!UICONTROL Crítico])
-   * **[!UICONTROL Produto de caso]** ([!UICONTROL DAM], [!DNL Fusion], [!DNL Goals], etc.)
+   * **[!UICONTROL Prioridade de caso]** ([!UICONTROL Baixa], [!UICONTROL Medium], [!UICONTROL Alta], [!UICONTROL Crítico])
+   * **[!UICONTROL Produto da Ocorrência]** ([!UICONTROL DAM], [!DNL Fusion], [!DNL Goals], etc.)
    * **[!UICONTROL Ambiente]** ([!UICONTROL Produção], [!UICONTROL Visualizar], [!UICONTROL Sandbox], etc.)
-   * **[!UICONTROL Região do cliente]** (Américas, EMEA, APAC)
+   * **[!UICONTROL Região do Cliente]** (Américas, EMEA, APAC)
 
 1. Faça upload de todos os arquivos relevantes e clique em **[!UICONTROL Enviar caso]**.
 
-   O [!UICONTROL Meus casos] será exibida.
+   A variável [!UICONTROL Meus casos] é exibida.
 
    ![](assets/all-cases-list-exl-support-portal.png)
 
-1. (Opcional) Em **[!UICONTROL Meus casos]** analise os casos que sua organização enviou.
+1. (Opcional) No **[!UICONTROL Meus casos]** página, revise os casos enviados pela sua organização.
 
    >[!TIP]
    >
-   >Também é possível navegar até a variável [!UICONTROL Meus casos] clicando em **[!UICONTROL Meus casos]** na barra lateral esquerda.
+   >Você também pode navegar para a [!UICONTROL Meus casos] clicando em **[!UICONTROL Meus casos]** na barra lateral esquerda.
 
-1. No [!UICONTROL Meus casos] use as opções na parte superior da página para filtrar por Produto ([!DNL Experience Cloud] solução) ou caso [!UICONTROL Status] (aberto ou fechado). Também é possível usar a variável [!UICONTROL pesquisa] para procurar quaisquer palavras-chave relacionadas aos casos de suporte.
+1. No **[!UICONTROL Meus casos]** use as opções na parte superior da página para filtrar por **Produto ([!DNL Experience Cloud] solução)** ou caso **[!UICONTROL Status]** (Aberta ou Fechada). Você também pode usar a variável [!UICONTROL pesquisa] para procurar palavras-chave relacionadas aos casos de suporte.
 
-1. Para exibir mais detalhes sobre um caso, clique no botão **Número do caso** para acessá-lo. O [!UICONTROL caso] a exibição é aberta.
+1. Para exibir mais detalhes sobre um caso, clique no link **Número do caso** para acessá-lo. A variável [!UICONTROL caso] a visualização é aberta.
 
-1. No [!UICONTROL caso] consulte, analise os comentários mais recentes com o proprietário do caso atribuído e adicione quaisquer anexos ou respostas adicionais.
+1. No [!UICONTROL caso] exibir, revisar os comentários mais recentes com o proprietário do caso atribuído e adicionar anexos ou respostas adicionais.
 
-1. Clique em **[!UICONTROL Escalonar para o gerenciamento]** no lado direito da página, em **[!UICONTROL Detalhe do caso]** para encaminhar o caso.
+1. Clique em **[!UICONTROL Escalonar para o gerenciamento]** no lado direito da página sob **[!UICONTROL Detalhe da Ocorrência]** para encaminhar o caso.
 
-1. Clique no botão **[!UICONTROL Fechar caso]** para fechar o caso.
+1. Clique em **[!UICONTROL Fechar caso]** botão para fechar o caso.
 
 
-Em caso de dúvidas ou problemas ao enviar uma solicitação, entre em contato com a equipe de suporte ao cliente.
+Em caso de dúvidas ou problemas ao enviar uma solicitação, entre em contato com a equipe de Suporte ao cliente.
 
 
 

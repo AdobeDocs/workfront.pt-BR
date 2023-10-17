@@ -1,20 +1,20 @@
 ---
-title: Criar tipos de registro
+title: Criar tipos de registro operacional
 description: Os tipos de registros são os tipos de objetos do Adobe Maestro. No Maestri, você pode criar tipos de registro personalizados que ilustram os itens de trabalho necessários no ciclo de vida da organização.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1398'
 ht-degree: 1%
 
 ---
 
-
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
-# Criar tipos de registro
+# Criar tipos de registro operacional
 
 >[!IMPORTANT]
 >
@@ -260,11 +260,3 @@ Você pode importar os seguintes objetos dos seguintes aplicativos:
    * Programas
 
 Para obter mais informações, consulte [Conectar tipos de registro](../architecture-and-fields/connect-record-types.md).
-
-
-
-
-
-
-
-

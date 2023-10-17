@@ -4,13 +4,13 @@ description: Como líder em operações de marketing, você pode usar o Adobe Ma
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
-
 
 # Informações sobre o Adobe Maestri
 
@@ -53,8 +53,8 @@ Para uma visão geral do Adobe Maestro, acesse os seguintes artigos:
 <!--update the video when we have something better, especially after Open Beta - remove it-->
 
 * [Assista a uma demonstração em vídeo do Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
-* [Visão geral do Maestro](maestro-overview.md): uma visão geral de alto nível do Adobe Maestro, incluindo a terminologia e os conceitos exclusivos dessa solução. Recomendamos que comece a sua jornada com o Maestro aqui.
-* [Atividade de liberação](../maestro/release-activity.md): Uma lista de todos os recursos que foram lançados desde o lançamento do programa beta fechado do Maestro, em 22 de maio de 2023, com datas de lançamento exatas e uma breve visão geral de cada recurso.
+* [Visão geral do Adobe Maestri](maestro-overview.md): uma visão geral de alto nível do Adobe Maestro, incluindo a terminologia e os conceitos exclusivos dessa solução. Recomendamos que comece a sua jornada com o Maestro aqui.
+* [Atividade de lançamento do Adobe Maestri](../maestro/release-activity.md): Uma lista de todos os recursos que foram lançados desde o lançamento do programa beta fechado do Maestro, em 22 de maio de 2023, com datas de lançamento exatas e uma breve visão geral de cada recurso.
 
 ## Arquitetura e funcionalidade principais
 
@@ -64,4 +64,3 @@ As seções seguintes contêm artigos que descrevem em detalhes as característi
 * [Informações de arquitetura](../maestro/architecture-and-fields/architecture-and-fields-information.md): Informações detalhadas sobre a arquitetura do Adobe Maestro, com instruções passo a passo sobre como criar e gerenciar espaços de trabalho, tipos de registros e campos.
 * [Informações de registros](../maestro/records/records-information.md): informações detalhadas e instruções passo a passo sobre como criar e gerenciar registros.
 * [Informações de exibições](../maestro/views/views-information.md): Informações detalhadas sobre as opiniões do Maestro e como gerenciá-las.
-
