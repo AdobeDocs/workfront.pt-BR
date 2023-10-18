@@ -4,19 +4,21 @@ description: No Adobe Maestri, você pode excluir campos personalizados que não
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '370'
 ht-degree: 1%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Excluir campos
 
 >[!IMPORTANT]
+>
+>As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta do Adobe.
 >
 >Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes.
 >
@@ -35,6 +37,9 @@ Você pode excluir campos Maestri que não são mais relevantes.
 * É possível excluir campos criados ou campos criados por outros usuários. <!--this will change with access levels/ permissions-->
 * É possível excluir um campo somente na tabela do tipo de registro.
 * As informações armazenadas no campo são excluídas e não podem ser recuperadas.
+* Quando você exclui um campo de registro vinculado, todos os campos de pesquisa vinculados também são excluídos do tipo de registro que você vincula. Os campos de registro vinculados dos tipos de registro vinculados não são excluídos.
+
+  Para obter mais informações, consulte [Conectar tipos de registro](../architecture-and-fields/connect-record-types.md).
   <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## Requisitos de acesso

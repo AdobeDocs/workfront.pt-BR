@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1408'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 1%
 # Criar tipos de registro operacional
 
 >[!IMPORTANT]
+>
+>As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta do Adobe.
 >
 >Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes.
 >
@@ -100,7 +102,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
         Para obter informações, consulte [Criar espaços de trabalho](../architecture-and-fields/create-workspaces.md).
       * Ao importá-los usando um arquivo Excel ou CSV. Isso não está disponível para tipos de registro de taxonomia.
-      * Ao criar uma conexão com tipos de objeto de outro aplicativo, ao adicionar campos a um tipo de registro. Isso cria um tipo de registro somente leitura no Maestro que é conectado a tipos de objetos do aplicativo original. Isso não está disponível para tipos de registro de taxonomia.
+      * Ao criar uma conexão com tipos de objeto de outro aplicativo, ao adicionar campos a um tipo de registro. Isso cria um tipo de registro somente leitura no Maestro que é conectado a tipos de objetos do aplicativo original.
 
      Para obter informações sobre como conectar tipos de objeto com registros Maestro, consulte [Conectar registros](../records/connect-records.md).
    * Manual:
@@ -258,5 +260,7 @@ Você pode importar os seguintes objetos dos seguintes aplicativos:
    * Projetos
    * Portfólios
    * Programas
+   * Empresa
+   * Grupo
 
 Para obter mais informações, consulte [Conectar tipos de registro](../architecture-and-fields/connect-record-types.md).

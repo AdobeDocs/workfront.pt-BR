@@ -6,9 +6,9 @@ description: Você pode mover tarefas para projetos diferentes ou para tarefas p
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1479'
 ht-degree: 2%
 
 ---
@@ -72,7 +72,7 @@ Considere o seguinte ao mover uma tarefa:
 
 Os seguintes itens não são movidos com a tarefa, por padrão:
 
-* As etapas são transferidas para a tarefa copiada e removidas da tarefa original.
+* Etapas
 
 ## Mover tarefas em uma lista
 

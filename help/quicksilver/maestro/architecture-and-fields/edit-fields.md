@@ -4,19 +4,21 @@ description: No Adobe Maestri, você pode editar as configurações de campo par
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '443'
 ht-degree: 1%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Editar campos
 
 >[!IMPORTANT]
+>
+>As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta do Adobe.
 >
 >Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes.
 >

@@ -4,17 +4,19 @@ description: Este artigo descreve um exemplo de como criar uma conexão entre um
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1758'
 ht-degree: 0%
 
 ---
 
-
 # Exemplo de conexão de tipos de registro e registros
 
 >[!IMPORTANT]
+>
+>As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta do Adobe.
 >
 >Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes.
 >
@@ -193,6 +195,3 @@ Para fazer isso:
    >    Os campos adicionados ao registro do Workfront Project Maestro são adicionados somente na página Workfront Project e não são adicionados à página Campaign record type, como campos vinculados. Você deve adicionar os campos do projeto do campo Project information connected-object do tipo de registro Campanha para exibi-los para campanhas.
 
 1. (Opcional e condicional) Se você optou por exibir pelo menos dois campos de data para projetos, clique no link **Exibir** menu suspenso na tabela de tipo de registro Workfront Project e, em seguida, **Criar visualização** > **Linha do tempo** > **Criar** para criar uma visualização de linha do tempo e exibir os projetos em uma linha do tempo.
-
-
-

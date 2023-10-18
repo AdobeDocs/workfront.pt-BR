@@ -1,21 +1,21 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Exibir e atualizar porcentagem concluída para tarefas
-description: Você pode atualizar a porcentagem completa de uma tarefa para indicar o progresso que fez na tarefa para concluí-la.
+title: Exibir e atualizar o Percentual Concluído das tarefas
+description: Você pode atualizar o percentual concluído de uma tarefa para indicar o progresso feito na tarefa em sua conclusão.
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
 
-# Exibir e atualizar porcentagem concluída para tarefas
+# Exibir e atualizar o Percentual Concluído das tarefas
 
-Você pode atualizar a porcentagem completa de uma tarefa para indicar o progresso que fez na tarefa para concluí-la.
+Você pode atualizar o percentual concluído de uma tarefa para indicar o progresso feito na tarefa em sua conclusão.
 
 ## Requisitos de acesso
 
@@ -50,25 +50,25 @@ Você pode atualizar a porcentagem completa de uma tarefa para indicar o progres
 </table>
 -->
 
-Você deve ter o seguinte acesso para atualizar manualmente as tarefas:
+Você deve ter o seguinte acesso para atualizar tarefas manualmente:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> <p>Qualquer Um</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Trabalho ou superior</p> </td> 
+   <td> <p>Trabalhar ou superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso às tarefas</p> <p><b>Nota</b>
+   <td> <p>Editar acesso a tarefas</p> <p><b>Nota</b>
 
-Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
+Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -77,47 +77,55 @@ Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele defi
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
 
-## Áreas onde você pode atualizar a porcentagem completa de uma tarefa
+## Áreas em que é possível atualizar o percentual concluído de uma tarefa
 
-Você pode atualizar a porcentagem de conclusão de uma tarefa em qualquer uma das seguintes áreas:
+Você pode atualizar o percentual concluído de uma tarefa em qualquer uma das seguintes áreas:
 
-* **Em uma lista de tarefas**: Você pode atualizar a porcentagem completa de uma tarefa quando a coluna Porcentagem concluída for exibida.\
-   Para obter mais informações sobre edição em linha, consulte [Itens de edição em linha em uma lista no Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
+* **Em uma lista de tarefas**: É possível atualizar o percentual concluído de uma tarefa quando a coluna Percentual concluído é exibida.\
+  Para obter mais informações sobre edição em linha, consulte [Itens de edição em linha em uma lista no Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
-* **Na exibição de Marco**: Você pode atualizar a porcentagem de conclusão de uma tarefa ao usar a exibição de Marco em uma lista de projetos ou em um relatório de projeto. Para obter mais informações, consulte [Usar a exibição de Marco](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+* **Na visualização Marco**: é possível atualizar o percentual concluído de uma tarefa ao usar a visualização Marco em uma lista de projetos ou em um relatório de projeto. Para obter mais informações, consulte [Usar a visualização de Etapas](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
-* **À medida que você atualiza a tarefa**: Você pode atualizar a opção de porcentagem concluída de uma tarefa ao adicionar uma atualização à tarefa.
+* **Conforme você atualiza a tarefa**: é possível atualizar a opção de percentual concluído de uma tarefa ao adicionar uma atualização à tarefa.
 
-   >[!IMPORTANT]
-   >
-   >Essa opção é exibida somente após ativar a opção Mostrar porcentagem concluída .\
-   >Para ativar a barra de atualização de porcentagem concluída para tarefas, faça o seguinte:
-   >
-   >1. Vá para o **Principal** menu>seu nome>**Mais** ícone ao lado do seu nome >**Editar** > selecionar **Mostrar porcentagem concluída no status de atualização**.\
-      >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >
+  >[!IMPORTANT]
+  >
+  >Essa opção é exibida somente após a ativação da opção Mostrar porcentagem concluída.\
+  >Para ativar a barra de atualização percentual concluído para tarefas, faça o seguinte:
+  >
+  >1. Vá para a **Principal** menu>seu nome>**Mais** ícone ao lado do seu nome >**Editar** > selecionar **Mostrar o percentual concluído em atualização de status**.\
+  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >
+
+* **No cabeçalho da tarefa**: é possível atualizar o percentual concluído de uma tarefa no cabeçalho da tarefa. Para obter informações, consulte [Editar tarefas](../../tasks/manage-tasks/edit-tasks.md).
+
+  ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 
-* **No cabeçalho da tarefa**: Você pode atualizar a porcentagem completa de uma tarefa no cabeçalho da tarefa. Para obter mais informações, consulte [Editar tarefas](../../tasks/manage-tasks/edit-tasks.md).
+## Considerações sobre a atualização do percentual concluído de uma tarefa
 
-   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+* Quando você marca uma tarefa como 100% concluída, o Status da tarefa é atualizado para Concluído.
+* Existem os seguintes cenários para tarefas pai:
+   * Não é possível atualizar o percentual concluído de uma tarefa pai para 100% quando o Modo de Conclusão em Resumo do projeto está definido como Automático e as subtarefas não estão concluídas.
+   * Você pode atualizar o percentual concluído de uma tarefa pai para 100% quando o Modo de Conclusão em Resumo do projeto estiver definido como Manual e as subtarefas estiverem concluídas ou incompletas.
 
+  Para obter mais informações, consulte [Editar projetos](../manage-projects/edit-projects.md).
 
-## Atualizar a porcentagem de conclusão de uma tarefa
+## Atualizar o percentual concluído de uma tarefa
 
 1. Vá para qualquer uma das seguintes áreas no Workfront:
 
    * Uma lista de tarefas
-   * Uma lista de projetos e aplique a visualização do Marco
+   * Uma lista de projetos e aplicar a visualização Marco
    * Uma tarefa, acessando a página de tarefas
-1. Localize a variável **Porcentagem concluída** para a tarefa cuja porcentagem de conclusão você deseja atualizar.
-1. Clique dentro do campo Porcentagem concluída e digite um número entre 0 e 100
+1. Localize o **Percentual Completo** campo da tarefa cuja porcentagem concluída você deseja atualizar.
+1. Clique dentro do campo Percentual concluído e digite um número entre 0 e 100
 
    Ou
 
-   Clique e arraste a **Porcentagem concluída** pressione para o número necessário para indicar quanto da tarefa você concluiu.
+   Clique e arraste o **Percentual Completo** barra para o número necessário para indicar quanto da tarefa você concluiu.
 
    >[!NOTE]
    >

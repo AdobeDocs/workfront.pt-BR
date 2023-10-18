@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 1e49cbaf8dfc0c308f45faabb45ebbfaaba3d65d
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Maestro é uma nova oferta da Adobe Workfront.
+>As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta do Adobe.
 >
 >Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes.
 >
@@ -50,7 +50,7 @@ Depois que sua organização tiver sido inscrita no programa Maestro beta, você
 
 Para compartilhar a área Mestre usando um modelo de layout:
 
-1. Efetue logon no **Workfront** como administrador do sistema.
+1. Efetue logon no **Workfront** como administrador do Workfront.
 
 1. Adicione o **Maestro** ícone ![](assets/maestro-icon.png) para o **Menu principal** usando um **Modelo de layout**.
 

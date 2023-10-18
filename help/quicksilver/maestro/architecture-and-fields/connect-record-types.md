@@ -4,13 +4,13 @@ description: Uma maneira de indicar como os tipos de registro individuais se rel
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1739'
 ht-degree: 0%
 
 ---
-
 
 <!-----
 title: Connect record types
@@ -30,6 +30,8 @@ author: Alina
 
 >[!IMPORTANT]
 >
+>As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta do Adobe.
+>
 >Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes.
 >
 >Entre em contato com seu representante de conta para obter mais informações sobre como participar do programa beta para o Maestro.
@@ -42,6 +44,7 @@ Você pode conectar o seguinte:
 
 * Tipos de registro operacional principal
 * Tipos de registro operacional principal para tipos de registro de taxonomia
+* Tipos de taxonomia mestre para tipos de registro operacional
 * Domine os tipos de registros operacionais e os tipos de objetos de outras aplicações.
 
 Ao fazer isso, você pode exibir campos do registro vinculado ou tipo de objeto em outro registro Maestro.
@@ -240,7 +243,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique em **Adicionar campos** para salvar as alterações.
 
-   São aditados os seguintes pontos:
+   Os seguintes itens são adicionados:
 
    * O campo de registro vinculado que exibirá os registros do tipo de registro vinculado depois que você adicioná-los manualmente. O nome do campo de registro vinculado é o nome selecionado na etapa 6. <!-- ensure this is still accurate-->
 
@@ -250,18 +253,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    * Um campo de registro vinculado no tipo de registro ao qual você está vinculando. O nome do campo de registro vinculado no tipo de registro vinculado é o nome do tipo de registro que você vincula.
 
-     Por exemplo, se você vincular o tipo de registro &quot;Produto&quot; do tipo de registro &quot;Campanha&quot; e nomear o campo conectado do &quot;Produto vinculado&quot; da Campanha, um campo vinculado &quot;Campanha&quot; será criado para o tipo de registro Produto.
+     Por exemplo, se você vincular o tipo de registro &quot;Produto&quot; do tipo de registro &quot;Campanha&quot; e nomear o campo conectado do &quot;Produto vinculado&quot; da Campanha, um campo de registro vinculado &quot;Campanha&quot; será criado para o tipo de registro Produto.
 
-     <!--is the statement in the note below still accurate?? they were working on removing this from taxonomies-->
-
-     >[!NOTE]
-     >
-     >O campo de registro vinculado que exibe o tipo de registro do qual você está vinculando não é adicionado aos tipos de registro quando você conecta um tipo de registro com o seguinte: <!--is this temporary for taxonomies??-->
-     >        
-     >   * Uma taxonomia.
-     >   * Um tipo de objeto de outro aplicativo.
-
-1. (Opcional) No tipo de registro original ou na exibição de tabela do tipo de registro vinculado, clique na lista suspensa à direita do campo de registro vinculado e, em seguida, clique em uma das seguintes opções:
+1. (Opcional) No tipo de registro original ou na exibição de tabela do tipo de registro vinculado, clique na seta para baixo no cabeçalho dos campos de registro vinculados e, em seguida, clique em uma das seguintes opções:
 
    * **Editar campo**: você só pode atualizar o **Nome** e a variável **Descrição** informações do campo.
    * **Editar campos de pesquisa**: adicione ou remova qualquer um dos campos do registro vinculado.
@@ -270,11 +264,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Para adicionar ou remover campos, siga as instruções nas etapas 7 a 12 acima. <!--ensure these step numbers stay accurate-->
 
-1. (Opcional) Clique na seta para baixo no cabeçalho do registro vinculado ou dos campos vinculados e clique em **Excluir**.
+1. (Opcional) Clique na seta para baixo no cabeçalho do campo de registro vinculado do tipo de registro que está sendo vinculado e clique em **Excluir**.
 
-   O campo de registro e quaisquer campos de pesquisa adicionais são excluídos e os campos e suas informações não podem ser recuperados.
+   O campo de registro e quaisquer campos de pesquisa vinculados adicionais são excluídos e os campos e suas informações não podem ser recuperados.
 
    >[!TIP]
    >
-   >    O campo de registro vinculado no registro vinculado do registro original não é excluído. <!-- is this still accurate?! -->
-
+   >    O campo de registro vinculado no tipo de registro ao qual você está vinculando não é excluído. <!-- is this still accurate?! -->

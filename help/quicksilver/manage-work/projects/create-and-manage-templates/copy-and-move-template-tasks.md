@@ -6,7 +6,7 @@ description: Você pode copiar ou mover uma tarefa de modelo para o mesmo modelo
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
 source-wordcount: '2127'
 ht-degree: 3%
@@ -70,9 +70,9 @@ Considere o seguinte ao mover tarefas de modelo:
 
 * As seguintes informações são transferidas para a tarefa movida, por padrão:
 
-   * Formulários personalizados e informações de campos personalizados.
-   * Subtarefas.
-   * Comentários do usuário.
+   * Formulários personalizados e informações de campos personalizados
+   * Subtarefas
+   * Comentários do usuário
 
 * As seguintes informações não são transferidas para a tarefa movida:
 

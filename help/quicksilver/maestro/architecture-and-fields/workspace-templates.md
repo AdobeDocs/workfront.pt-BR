@@ -4,13 +4,13 @@ description: Um espaço de trabalho é uma coleção de tipos de registros opera
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
-
 
 <!--update the metadata with real information when making this available in TOC and in the left nav:
 ---
@@ -28,6 +28,8 @@ role: User
 # Lista de modelos do espaço de trabalho
 
 >[!IMPORTANT]
+>
+>As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta do Adobe.
 >
 >Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes.
 >
@@ -154,5 +156,3 @@ A seguir estão os modelos de espaço de trabalho no Maestro e o número de camp
       * **Equipe do produto**: 3 campos
       * **Solicitações de recursos**: 8 campos e 1 campo vinculado
       * **Setor**: 1 campo e 1 campo vinculado
-
-

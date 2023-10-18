@@ -4,17 +4,19 @@ description: Como administrador do Workfront, você deve conceder acesso aos seu
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
-
 # Acessar informações
 
 >[!IMPORTANT]
+>
+>As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta do Adobe.
 >
 >Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes.
 >
@@ -28,4 +30,3 @@ Os artigos a seguir contêm informações sobre qual acesso seus usuários preci
 
 * [Visão geral do Access](../access/access-overview.md)
 * [Conceder acesso ao Adobe Maestro](../access/grant-access.md)
-
