@@ -5,9 +5,9 @@ title: Glossário de [!DNL Adobe Workfront] terminologia
 description: A variável [!DNL Adobe Workfront] listas de glossário termos comumente usados no Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '19720'
+source-wordcount: '19729'
 ht-degree: 0%
 
 ---
@@ -454,7 +454,7 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
   </tr> 
   <tr> 
    <td>[!UICONTROL Calendário]</td> 
-   <td> <p>Há dois tipos de calendários em [!DNL Workfront]: o [!UICONTROL Calendário da página inicial] e relatórios de calendário.</p> <p>O [!UICONTROL Calendário da página inicial] é um calendário pessoal que permite ao usuário gerenciar a carga de trabalho com base nas horas disponíveis no [!DNL Workfront]. O usuário também pode integrar o [!UICONTROL Home Calendar] com [!DNL Outlook] ([!DNL Google] e [!DNL Microsoft] integração no futuro). </p> <p>Para obter mais informações sobre o [!UICONTROL Calendário da Página Inicial], consulte <a href="../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md" class="MCXref xref">Exibição do [!UICONTROL Home Calendar]</a>.</p> <p>Um relatório de calendário é um relatório dinâmico no qual os usuários podem visualizar a data e outros detalhes importantes de um evento, incluindo a data de vencimento, o status do trabalho e o usuário ao qual o evento é atribuído.</p> <p> Para obter mais informações sobre relatórios de calendário, consulte <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">Visão geral dos relatórios de calendário</a>.</p> </td> 
+   <td> <p>Há dois tipos de calendários em [!DNL Workfront]: o [!UICONTROL Calendário da página inicial] e relatórios de calendário.</p> <p>O [!UICONTROL Calendário da página inicial] é um calendário pessoal que permite ao usuário gerenciar a carga de trabalho com base nas horas disponíveis no [!DNL Workfront]. O usuário também pode integrar seu [!UICONTROL Home Calendar] com [!DNL Outlook] ([!DNL Google] e [!DNL Microsoft] integração no futuro). </p> <p>Para obter mais informações sobre o [!UICONTROL Calendário da Página Inicial], consulte <a href="../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md" class="MCXref xref">Exibição do [!UICONTROL Home Calendar]</a>.</p> <p>Um relatório de calendário é um relatório dinâmico no qual os usuários podem visualizar a data e outros detalhes importantes de um evento, incluindo a data de vencimento, o status do trabalho e o usuário ao qual o evento é atribuído.</p> <p> Para obter mais informações sobre relatórios de calendário, consulte <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">Visão geral dos relatórios de calendário</a>.</p> </td> 
   </tr> 
    <tr> 
    <td>[!UICONTROL Pode Iniciar]</td> 
@@ -606,7 +606,7 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
      <li>[!UICONTROL Principais Bloqueios] (2)</li> 
     </ul> 
    <p><b>Nota</b></p>
-    <p>Quando o campo [!UICONTROL Condição] é rastreado nos relatórios do [!UICONTROL Lançamento], o [!UICONTROL Novo] e o [!UICONTROL Valores de Números Antigos] exibem o número associado à condição em vez de seu nome. Se uma condição não tiver sido originalmente definida para uma tarefa ou um problema e você atualizá-la posteriormente, a entrada do diário que captura a atualização exibirá o [!UICONTROL Old Number Value] do campo [!UICONTROL Condition] como -2.147.483.648. Consulte também "[!UICONTROL Novo valor numérico]", "[!UICONTROL Valor numérico antigo]" e "[!UICONTROL Entrada de diário]" neste artigo. </p> 
+    <p>Quando o campo [!UICONTROL Condição] é acompanhado nos relatórios de [!UICONTROL Entrada de Diário], [!UICONTROL Novo] e [!UICONTROL Valores de Número Antigos] exibem o número associado à condição em vez de seu nome. Se uma condição não tiver sido originalmente definida para uma tarefa ou um problema e você atualizá-la posteriormente, a entrada do diário que captura a atualização exibirá o [!UICONTROL Old Number Value] do campo [!UICONTROL Condition] como -2.147.483.648. Consulte também "[!UICONTROL Novo valor numérico]", "[!UICONTROL Valor numérico antigo]" e "[!UICONTROL Entrada de diário]" neste artigo. </p> 
     </td> 
   </tr> 
   <tr> 
@@ -688,7 +688,7 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
   </tr> 
   <tr> 
    <td>[!UICONTROL Campo Personalizado]</td> 
-   <td>Para dados Personalizados que permitem ao usuário selecionar entre várias opções, esses são os valores a partir dos quais um Usuário pode selecionar. As opções personalizadas são válidas somente na [!UICONTROL Lista Suspensa], [!UICONTROL Lista Suspensa de Seleção Múltipla], [!UICONTROL Botões de Opção] e [!UICONTROL Caixas de Seleção].</td> 
+   <td>Para dados Personalizados que permitem ao usuário selecionar entre várias opções, esses são os valores a partir dos quais um Usuário pode selecionar. As Opções Personalizadas são válidas somente na [!UICONTROL Lista Suspensa], [!UICONTROL Lista Suspensa de Seleção Múltipla], [!UICONTROL Botões de Opção] e [!UICONTROL Caixas de Seleção].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Rótulo de Formulário Personalizado]</td> 
@@ -1887,7 +1887,7 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
    <td>[!UICONTROL Custo de Risco]</td> 
    <td> <p>O custo associado aos riscos em um projeto. A seguir estão os custos de risco associados aos projetos que você pode exibir nos relatórios:</p> 
     <ul> 
-     <li> <p>[!UICONTROL Custo Real]: um campo em um risco que mostra o custo real do risco que ocorreu. Além de relatórios e listas, você pode localizá-lo na caixa [!UICONTROL Editar Risco] ao editar ou criar um risco. </p> <p>Para custos de projetos, tarefas ou problemas, consulte "[!UICONTROL Custo Real]" neste artigo. </p> </li> 
+     <li> <p>[!UICONTROL Custo Real]: um campo em um risco que mostra o custo real do risco que ocorreu. Além de relatórios e listas, é possível localizá-los na caixa [!UICONTROL Editar Risco] ao editar ou criar um risco. </p> <p>Para custos de projetos, tarefas ou problemas, consulte "[!UICONTROL Custo Real]" neste artigo. </p> </li> 
      <li> <p>[!UICONTROL Custo de Risco Planejado]: um campo no projeto que mostra um total de todos os [!UICONTROL Custos de Risco Potenciais] do projeto. Consulte também "[!UICONTROL Custo de Risco Planejado]" neste artigo. </p> <p>Para obter informações sobre Custo de Risco Potencial, consulte <a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">Calcular Custo de Risco Potencial </a>. </p> </li> 
      <li> <p>[!UICONTROL Custo de Risco Restante]: um campo no projeto que exibe a diferença entre o total dos [!UICONTROL Custos Reais] de todos os riscos e o [!UICONTROL Custo de Risco Planejado]. Consulte também "Custo de risco restante" neste artigo. </p> </li> 
     </ul> </td> 
@@ -2078,7 +2078,8 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Atualização de Status]</td> 
-   <td> <p>Este campo mostra a atualização de status mais recente que os usuários forneceram no campo "[!UICONTROL Atualizar Status]". Comentários feitos em atualizações de status não são exibidos na coluna [!UICONTROL Atualização de Status].</p> <p>Para mostrar os status '[!UICONTROL New],' '[!UICONTROL In Process],' e '[!UICONTROL Complete]', use a coluna [!UICONTROL Status].</p> <p>Comentários feitos em atualizações de status não são exibidos na coluna [!UICONTROL Atualização de Status].</p> <p>Para obter mais informações sobre status, consulte o artigo <a href="../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Atualizar status da tarefa</a>.</p> </td> 
+   <td> <p>Este campo mostra a atualização de status mais recente que os proprietários do objeto forneceram no campo '[!UICONTROL Atualizar Status]'. Para projetos, isso significa comentários feitos pelo Proprietário do projeto e, para tarefas e problemas, significa comentários feitos pelos atribuídos.</p> 
+   <p> Comentários feitos em atualizações de status não são exibidos na coluna [!UICONTROL Atualização de Status].</p> <p>Para mostrar os status '[!UICONTROL New],' '[!UICONTROL In Process],' e '[!UICONTROL Complete]', use a coluna [!UICONTROL Status].</p> <p>Para obter mais informações sobre status, consulte o artigo <a href="../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Atualizar status da tarefa</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Status]</td> 

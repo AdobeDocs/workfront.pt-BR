@@ -7,10 +7,10 @@ description: A seção Atualizações de um objeto exibe comentários que os usu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 4%
+source-wordcount: '1170'
+ht-degree: 5%
 
 ---
 
@@ -133,8 +133,6 @@ As informações na seção Atualizações são organizadas de forma diferente, 
 
 Para obter informações sobre quais recursos estão disponíveis para a nova experiência de comentários e para quais objetos, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--update screen shot and maybe save it under a new name??? with the August 17 release - also make sure you have some people tagged, similar to what we show in the old UI-->
-
 <span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
 
 * A seção Atualizações exibe informações nas seguintes guias na nova experiência de comentários:
@@ -211,8 +209,6 @@ Para obter informações sobre quais recursos estão disponíveis para a nova ex
 
   *You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
   -->
-
-
 
 ## Atualizações que também aparecem em objetos de classificação mais alta
 
@@ -325,18 +321,13 @@ Os administradores do Adobe Workfront e de grupos podem fazer logon como outros 
 
 Para obter informações, consulte [Fazer logon como outro usuário](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-Quaisquer comentários feitos em nome de outro usuário são indicados no comentário.
+Considere o seguinte ao fazer logon como outro usuário e adicionar comentários:
 
-<!--remove the note below when we release this back to the new commenting-->
+* Quaisquer comentários feitos em nome de outro usuário são indicados no comentário.
 
->[!NOTE]
->
->Ao usar a nova experiência de comentários, o comentário é adicionado como o usuário que fez logon como outro usuário e não há indicação de que ele esteja adicionando um comentário em nome de outra pessoa.
->
->Por exemplo, se um administrador do Workfront fizer logon como outro usuário, o usuário associado ao comentário será o administrador do Workfront. Para obter mais informações, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+* Um administrador de grupo pode comentar em nome de outra pessoa, mas não pode excluir esse comentário. Somente um administrador do Adobe Workfront pode excluir um comentário feito em nome de outro usuário.
 
-
-Um administrador de grupo pode comentar em nome de outra pessoa, mas não pode excluir esse comentário. Somente um administrador do Adobe Workfront pode excluir um comentário feito em nome de outro usuário.
+* Um administrador de Workfront ou de grupo só poderá editar um comentário adicionado em nome de outro usuário quando fizer logout como o usuário e login como eles mesmos.
 
 ## Exibir atualizações do sistema em itens de trabalho com o relatório de Lançamento
 

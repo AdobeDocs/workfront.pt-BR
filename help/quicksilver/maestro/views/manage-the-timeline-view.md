@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1432'
 ht-degree: 1%
 
 ---
@@ -156,7 +156,7 @@ Para gerenciar uma exibição de linha do tempo:
 
 ### Adicionar filtros
 
-Os filtros ajudam a reduzir a quantidade de informações exibidas na tela.
+Você pode reduzir a quantidade de informações exibidas na tela usando filtros.
 
 Considere o seguinte ao trabalhar com filtros na exibição de linha do tempo:
 
@@ -166,13 +166,13 @@ Considere o seguinte ao trabalhar com filtros na exibição de linha do tempo:
 
 * Os filtros são exclusivos para a exibição selecionada. Duas exibições de linha do tempo do mesmo tipo de registro podem ter filtros diferentes aplicados a elas. Dois usuários que visualizam a mesma linha do tempo veem o mesmo filtro aplicado no momento.
 
-* Não é possível nomear os filtros criados e aplicar a uma exibição de linha do tempo.
+* Não é possível nomear os filtros criados para uma exibição de linha do tempo.
 
-* A remoção de filtros os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e use a mesma visualização que você usa.
+* A remoção de filtros os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.
 
-A adição de filtros na exibição de linha do tempo é idêntica à adição de filtros na exibição de tabela.
+* A adição de filtros na exibição de linha do tempo é idêntica à adição de filtros na exibição de tabela.
 
-Para obter mais informações, consulte a seção &quot;Adicionar filtros&quot; no artigo [Gerenciar a exibição de tabela](../views/manage-the-table-view.md).
+  Para obter mais informações, consulte a seção &quot;Adicionar filtros&quot; no artigo [Gerenciar a exibição de tabela](../views/manage-the-table-view.md).
 
 ### Adicionar agrupamento
 
@@ -180,45 +180,49 @@ Para obter mais informações, consulte a seção &quot;Adicionar filtros&quot; 
 
 Adding groupings in the timeline view is identical to adding filters in the table view. 
 
-For more information, see the "Add filters" section in the article [Manage the table view](../views/manage-the-table-view.md). -->
-
+For more information, see the "Add groupings" section in the article [Manage the table view](../views/manage-the-table-view.md). BUT: you would need to create this section for the Table view and move the steps below (and maybe edit them) to the Manage the table view article, in this case. OR ... link from that section to this article?! -->
 
 Você pode agrupar registros por informações semelhantes ao aplicar um agrupamento a uma exibição.
 
 Considere o seguinte ao trabalhar com agrupamentos na exibição de linha do tempo:
 
-* Você pode aplicar agrupamentos nas visualizações de tabela e linha do tempo. Os agrupamentos da exibição de tabela são independentes daqueles na exibição de linha do tempo do mesmo tipo de registro.
+<!--not yet: * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. -->
 * Você pode aplicar três níveis de agrupamento em uma visualização Maestri. Os registros são agrupados na ordem de agrupamentos selecionada.
 * É possível aplicar até 4 níveis de agrupamento ao usar a API.
+* Os agrupamentos são exclusivos para a exibição selecionada. Duas exibições de linha do tempo do mesmo tipo de registro podem ter agrupamentos diferentes aplicados a elas. Dois usuários que visualizam a mesma linha do tempo veem o mesmo agrupamento aplicado no momento.
+
+* Não é possível nomear os agrupamentos criados para uma exibição de linha do tempo.
+
+* A remoção de agrupamentos os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.
 
 Para adicionar um agrupamento:
 
-1. Crie uma exibição de linha do tempo, conforme descrito no artigo [Gerenciar exibições de registro](../views/manage-record-views.md).
-1. Clique em **Agrupamento**.
+1. Crie uma exibição de linha do tempo para um tipo de registro, conforme descrito no artigo [Gerenciar exibições de registro](../views/manage-record-views.md).
+1. Clique em **Agrupamento** no canto superior direito da exibição da linha do tempo.
 
    ![](assets/grouping-ui-timeline-view.png)
 
-1. Clique em um dos campos sugeridos ou clique em **Escolha um campo diferente** e procure um campo diferente, em seguida, clique nele quando ele for exibido na lista.
+1. Clique em um dos campos sugeridos ou clique em **Escolha um campo diferente**, procure um campo diferente e clique nele quando ele for exibido na lista.
 
    >[!TIP]
    >
    >Não é possível selecionar campos vinculados.
 
-   O agrupamento é aplicado automaticamente à linha do tempo e os registros são exibidos dentro da caixa de agrupamento. O número de itens em um agrupamento é exibido na linha de agrupamento.
+   O agrupamento é aplicado automaticamente à linha do tempo e os registros são exibidos dentro da caixa de agrupamento.
 
    <!-- add a step that you can rearrange the groupings here, when this will be possible-->
 
 1. (Opcional) Repita as etapas acima para adicionar até três agrupamentos.
 
-   O número de agrupamentos aplicados é exibido à esquerda do ícone Grouping no canto superior direito da barra de ferramentas.
+   O número de campos selecionados para o agrupamento é exibido ao lado do ícone Grouping.
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. (Opcional) Clique no link **x** ícone à direita de um agrupamento para remover o agrupamento
+1. (Opcional) Clique no link **x** ícone à direita de um campo selecionado para o agrupamento para remover o agrupamento
 
    Ou
 
-   Clique em **Limpar tudo** para remover todos os agrupamentos.
+   Clique em **Limpar tudo** para remover todos os campos.
 
 1. Clique fora da **Agrupar registros por** para fechá-la.
 
@@ -232,20 +236,19 @@ this is not possible right now; if this is the same functionality as the table v
 
 ### Editar as configurações de exibição da linha do tempo {#edit-the-timeline-view-settings}
 
-Atualize as configurações de exibição da linha do tempo para indicar quais informações são exibidas na seção de linha do tempo da exibição.
+Atualize as configurações de exibição da linha do tempo para indicar quais informações e como elas são exibidas na seção de linha do tempo da exibição.
 
-1. Crie uma exibição de linha do tempo, conforme descrito no artigo [Gerenciar exibições de registro](../views/manage-record-views.md).
+1. Crie uma exibição de linha do tempo para um tipo de registro, conforme descrito no artigo [Gerenciar exibições de registro](../views/manage-record-views.md).
 1. Clique em **Configurações**.
 1. Clique em **Data e hora** no painel esquerdo, selecione uma **Data inicial** e uma **Data final** para exibir na linha do tempo. Você pode escolher as datas padrão de Início e Término ou escolher qualquer campo de data disponível. As barras que representam os registros começam na data que você indica para a Data inicial e terminam na data correspondente à Data final.
 
    >[!NOTE]
    >
-   >    Os registros que não têm valores para as datas de Início ou Término ou que têm uma data de Início posterior à data de Término não são exibidos na exibição de linha do tempo.
+   >Os registros que não têm valores para as datas de Início ou Término ou que têm uma data de Início posterior à data de Término não são exibidos na exibição de linha do tempo.
 
+1. Clique em **Estilo da barra** no painel esquerdo, para indicar quais campos você deseja exibir nas barras de registro.
 
-1. Clique em **Detalhes do registro** para indicar quais campos você deseja exibir nos cartões de registro.
-
-   O campo Nome é selecionado por padrão.
+   O campo Nome é selecionado por padrão. <!--adjust this when the primary field is released??-->
 
 1. Clique em **Adicionar campo** para adicionar até 4 campos às barras de registro.
 1. Clique dentro do **Pesquisar campos** e clique no campo que deseja adicionar.
@@ -259,6 +262,41 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
    Uma visualização da aparência das barras na linha do tempo é exibida à direita.
 
    ![](assets/record-details-panel-timeline-settings-with-preview.png)
+
+1. Clique em **Cor** no painel esquerdo, para personalizar as cores dos registros e agrupamentos na linha do tempo.
+
+   ![](assets/color-tab-timeline-view.png)
+
+1. (Condicional e opcional) Se você adicionou um agrupamento à exibição de linha do tempo, selecione uma das seguintes opções para definir uma cor para o agrupamento na **Definir cor de agrupamento** seção:
+
+   * **Padrão (cinza)**: a cor dos agrupamentos é definida como cinza. Este é o padrão.
+   * **Valores do campo**: a cor dos agrupamentos corresponde à cor do campo pelo qual você faz o agrupamento.
+É possível corresponder a cor dos agrupamentos somente a campos com opções codificadas por cores.
+
+   Por exemplo, campos de seleção múltipla ou seleção única podem ter opções codificadas por cores.
+
+   Se você agrupar por campos sem opções codificadas por cores, a cor de agrupamento permanecerá cinza.
+
+   >[!TIP]
+   >
+   >Se você não tiver adicionado agrupamentos à exibição de linha do tempo, esta seção não será exibida.
+
+1. No **Definir cor do registro** selecione entre as seguintes opções para definir uma cor para os registros:
+
+   * **Tipo de registro**: a cor dos registros corresponde à cor do tipo de registro selecionado. Esta é a opção padrão.
+   * **Valores do campo**: a cor dos registros corresponde à cor de um campo especificado. Continue na etapa 10. <!--ensure this stays accurate-->
+   * **Agrupamento**: a cor dos registros corresponde à cor indicada para os agrupamentos. Essa opção fica esmaecida quando não há agrupamentos aplicados à exibição de linha do tempo.
+   * **Nenhum**: Os registros são exibidos em uma barra branca.
+
+1. (Condicional) Se você selecionou **Valores do campo** para as cores do registro, selecione um campo na **Corresponder a cor do registro a** menu suspenso.
+
+   ![](assets/field-selector-drop-down-menu-timeline-view.png)
+
+   Somente campos com opções codificadas por cores são exibidos no menu suspenso.
+
+   Por exemplo, campos de seleção múltipla ou seleção única podem ter opções codificadas por cores.
+
+   Se você não tiver um campo com opções codificadas por cores para o tipo de registro selecionado, essa opção ficará esmaecida.
 
 1. Clique em **Salvar**.
 

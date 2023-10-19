@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2143'
 ht-degree: 2%
 
 ---
@@ -65,23 +65,23 @@ Veja a seguir uma linha do tempo planejada com marcos importantes para o lançam
   >
   >    As iterações continuarão tendo a experiência de comentários herdada. A nova experiência de comentários não estará disponível para iterações.
 
+* Primeiro trimestre de 2024 (janeiro de 2024):
+
+   * A opção de alternar de volta para o fluxo de comentários herdado será removida e o novo fluxo de comentários se tornará a única experiência para todos os objetos, com exceção das Iterações.
+
 ## Recursos lançados
 
 A seção a seguir contém uma lista de recursos que foram adicionados após a versão original 23.2, começando com os lançados mais recentemente.
 
 As informações a seguir se referem à atividade de lançamento semanalmente dos recursos incluídos na nova experiência beta de comentários. Este artigo lista novos recursos que são adicionados e problemas que são resolvidos para a nova experiência de comentários.
 
-<!--CHECK THE DATES BELOW, BEFORE POSTING: 
+### Semana de 16 de outubro de 2023
 
-### Week of October 9, 2023
+#### Adicionar as informações &quot;em nome de &lt; user name >&quot; ao comentar enquanto estiver conectado como outro usuário
 
-#### Add back the "on behalf of <user name>" information when commenting on behalf of other users
+Ao reprojetar a experiência de comentários, removemos o indicador &quot;em nome de &lt; user name >&quot; quando um administrador de Workfront ou grupo adicionava comentários enquanto fazia logon como outro usuário. Essas informações foram restauradas.
 
-While redesigning the commenting experience, we had removed the "on behalf of < user name >" indicator when a Workfront or group administrator added comments while logged in as another user. This information has now been restored. 
-
-Preview and production for all customers: October 13, 2023. 
-
--->
+Pré-visualização e produção para todos os clientes: 19 de outubro de 2023.
 
 ### Semana de 11 de setembro de 2023
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1743'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,34 @@ Pré-visualização e produção: 16 de outubro de 2023
 
 Adicionamos controles de formato Rich Text para campos do tipo Parágrafo. É possível formatar campos de parágrafo usando Rich Text na exibição de Tabela de um tipo de registro ou na página Detalhes de um registro. Para obter mais informações, consulte [Editar registros](../maestro/records/edit-records.md).
 
+
+### Registrar e agrupar codificação por cores para a exibição de Linha do tempo
+
+Pré-visualização e produção: 19 de outubro de 2023
+
+Agora é possível codificar por cores as barras de registro e os agrupamentos na exibição Linha do tempo.
+
+A seguir estão opções para as cores que você pode escolher exibir para as barras de registro e agrupamentos na exibição Linha do tempo:
+
+* Os agrupamentos podem corresponder às seguintes cores:
+
+   * Cinza (o padrão)
+
+   * A cor do campo pelo qual você agrupa
+
+* As barras podem corresponder às seguintes cores:
+
+   * A cor do tipo de registro
+
+   * A cor de um campo selecionado
+
+   * A cor do agrupamento
+
+   * Sem cor (o padrão)
+
+Ao corresponder cores a um determinado campo, é possível selecionar apenas campos com opções codificadas por cores.
+
+Para obter mais informações, consulte [Gerenciar a exibição de linha do tempo](../maestro/views/manage-the-timeline-view.md).
 
 ## Semana de 9 de outubro de 2023
 

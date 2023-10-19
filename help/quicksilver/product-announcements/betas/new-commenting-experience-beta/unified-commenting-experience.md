@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 01618ee7a4002128d0ad6a519de3a58fa72e8818
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1050'
 ht-degree: 3%
 
 ---
@@ -25,13 +25,10 @@ Uma atualização para a experiência de comentários no Adobe Workfront está e
 
 A nova experiência de comentários ficará disponível lentamente para todos os objetos com uma seção Atualizações no Workfront e, posteriormente, se expandirá para outros aplicativos do Adobe Experience Cloud.
 
-<!--  ****************UNCOMMENT THIS SECTION WHEN THE FAQs ARTICLE IS LIVE: 
-
-For additional resources for the new commenting experience, also see the following articles:
+<!--For additional resources for the new commenting experience, also see the following articles:
 
 * [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-* [New commenting experience FAQs](../new-commenting-experience-beta/new-commenting-faq.md.draft)
-
+* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)
 -->
 
 ## Recursos
@@ -50,7 +47,7 @@ Os seguintes recursos foram removidos da nova experiência:
 * Comentar em uma atualização do sistema
 * Capacidade de editar status, condição e data de confirmação ao comentar
 * Editar formulário personalizado
-* A informação &quot;em nome de &lt; user name >&quot; quando um administrador de Workfront ou grupo faz logon como outro usuário e adiciona um comentário em nome dele. <!-- Replace this bullet with this, when re bring this back: The "on behalf of < user name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf was originally removed. It has been reinstated in October 2023.-->
+* A informação &quot;em nome de &lt; user name >&quot; quando um administrador de Workfront ou grupo faz logon como outro usuário e adiciona um comentário em nome dele foi originalmente removida. Ele foi restabelecido em 19 de outubro de 2023.
 * A opção &quot;Solicitar aprovação&quot; ao marcar pessoas ao adicionar um comentário a um documento.
 
 >[!NOTE]
@@ -381,34 +378,36 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    <td> 
    </td>
   </tr>
-  <tr>
-   <td>Resolver comentários 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td>✓ 
-   </td>
-   <td>3 o trim. de 2023 
-   </td>
-   <td>✓ 
-   </td>
-  </tr>
-  <tr>
+    <tr>
    <td>Pesquisar em comentários 
    </td>
    <td> 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
-   <td>3 o trim. de 2023 
+   <td>1º trim. de 2024 
    </td>
    <td>✓ 
    </td>
   </tr>
+
+<tr>
+   <td>Copiar e colar imagens em um comentário
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>1º trim. de 2024 
+   </td>
+   <td>✓ 
+   </td>
+  </tr>
+
 <tr>
    <td>Editar formulário personalizado 
    </td>
@@ -456,7 +455,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> ✓
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>

@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 1. Clique em **Fazer logon.**
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Might come in a future story:</p>
+   <p> Might come in a future story:</p>
    -->
 
    <!--
@@ -147,15 +147,6 @@ Quando você efetua login como outro usuário, a última data de login é modifi
 Ao fazer logon no Workfront como outro usuário e executar uma ação, o Workfront indica claramente que qualquer ação executada é feita por você em nome do usuário com o qual você está conectado.
 
 Por exemplo, se você comentar em um item enquanto estiver conectado como outro usuário, uma instrução indicará que o comentário foi feito por você em nome do usuário.
-
-<!--remove the note below when we bring this back to Prod: -->
-
->[!NOTE]
->
->Ao usar a nova experiência de comentários, o comentário é adicionado como o usuário que fez logon como outro usuário e não há indicação de que ele esteja adicionando um comentário em nome de outra pessoa.
->
->Por exemplo, se um administrador do Workfront fizer logon como outro usuário, o usuário associado ao comentário será o administrador do Workfront. Para obter mais informações, consulte [Nova experiência de comentários](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
 
 ### Exibir informações de auditoria {#view-audit-information}
 
