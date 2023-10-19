@@ -4,9 +4,9 @@ description: Visão geral da versão do quarto trimestre de 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
+source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
 workflow-type: tm+mt
-source-wordcount: '2599'
+source-wordcount: '2547'
 ht-degree: 0%
 
 ---
@@ -326,7 +326,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Página de aterrissagem padrão do novo colaborador: Nova página inicial</a> <span style="color: #ff0000;"> Novo na visualização!</span> </p>
-                        <p>A Nova página inicial agora é a página de aterrissagem padrão para contas de colaboradores. Esta nova página inicial padrão inclui vários widgets selecionados especificamente para permitir que os colaboradores gerenciem seu trabalho imediatamente.</p>
+                        <p>Nova página inicial agora é a página inicial padrão para contas de Colaborador/Solicitante. Esta nova página inicial padrão inclui vários widgets selecionados especificamente para permitir que os Colaboradores gerenciem seu trabalho imediatamente.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -628,27 +628,8 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Modelos de email atualizados</a> <span style="color: #ff0000;"> Novo na visualização!</span></p>
-                        <p>Como o início de uma nova iniciativa para atualizar nossos emails de notificação de eventos, atualizamos dois dos mais usados: aprovação de documentos e compartilhamento de objetos.</p>
-                    </td>
-                    <td><p><b>Disponível nas seguintes datas:</b></p>
-                        <ul>
-                            <li>
-                                <p>Versão de pré-visualização: 12 de outubro de 2023</p>
-                            </li>
-                            <li>
-                                <p>Produção para versão rápida: com a versão 23.10</p>
-                            </li>
-                            <li>
-                                <p>Produção para versão trimestral: com a versão 23.10</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Alterações no menu principal do colaborador</a> <span style="color: #ff0000;"> Novo na visualização!</span></p>
-                        <p>Para informar melhor os colaboradores sobre os recursos disponíveis com um tipo de licença paga do Workfront, agora é possível ver todas as opções disponíveis no menu principal.</p>
+                        <p>Para informar melhor os Contribuidores/Solicitantes sobre os recursos disponíveis com um tipo de licença paga do Workfront, agora é possível ver todas as opções disponíveis no menu principal.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>

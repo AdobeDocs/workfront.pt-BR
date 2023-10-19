@@ -3,9 +3,9 @@ title: Melhorias na página inicial do quarto trimestre de 2023
 description: Melhorias na página inicial do quarto trimestre de 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
+source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Para obter mais informações sobre os widgets disponíveis em Nova página inic
 
 ## Página de aterrissagem padrão do novo colaborador: Nova página inicial
 
-A Nova página inicial agora é a página de aterrissagem padrão para contas de colaboradores. Esta nova página inicial padrão inclui vários widgets selecionados especificamente para permitir que os colaboradores gerenciem seu trabalho imediatamente. Após sua primeira visita à página, os colaboradores também serão instruídos a usar a Nova página inicial e os widgets específicos disponíveis por padrão em uma apresentação personalizada. Observe que se um layout com uma página inicial personalizada estiver sendo usado atualmente por uma conta de colaborador, ele permanecerá como página inicial.
+Nova página inicial agora é a página inicial padrão para contas de Colaborador/Solicitante. Esta nova página inicial padrão inclui vários widgets selecionados especificamente para permitir que os Colaboradores gerenciem seu trabalho imediatamente. Após sua primeira visita à página, os Colaboradores também serão instruídos a usar a Nova página inicial e os widgets específicos disponíveis por padrão em uma apresentação personalizada. Observe que se um layout com uma página inicial personalizada estiver sendo usado atualmente por uma conta de colaborador, ele permanecerá como página inicial.
 
 Para obter mais informações sobre como usar a Nova página inicial, consulte [Introdução à nova página inicial](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
