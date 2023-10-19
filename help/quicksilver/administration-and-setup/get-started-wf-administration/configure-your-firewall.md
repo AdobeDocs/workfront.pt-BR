@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
+source-git-commit: ed5f941690754f631c16c5206faeeeb30d126841
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1569'
 ht-degree: 13%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 13%
 >Para configurar sua inclui na lista de permissões se sua organização foi integrada à Adobe Admin Console, consulte [Domínios a serem permitidos para Aplicativos e Serviços Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Para obter uma lista de procedimentos que diferem dependendo de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+
+>[!NOTE]
+>
+>A forma como uma organização configura sua inclui na lista de permissões é exclusiva para cada organização. Trabalhe com sua equipe de TI para identificar os procedimentos de sua organização e implementar essas adições.
 
 Incluir na lista de permissões Se o firewall ou o servidor de e-mail estiver configurado para permitir o acesso a apenas determinados fornecedores, você deverá adicionar determinados endereços IP ao seu arquivo. Isso abre a comunicação entre seu ambiente e os servidores da Adobe Workfront e permite os seguintes processos:
 
