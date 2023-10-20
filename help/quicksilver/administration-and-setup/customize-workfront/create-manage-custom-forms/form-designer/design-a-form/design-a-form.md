@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: b015f442ba028e452abbab3cd7e6d9b6d86f9622
+source-git-commit: 4559a60729fb0001d973c794dc40a8c7ec90cd91
 workflow-type: tm+mt
-source-wordcount: '4774'
+source-wordcount: '4886'
 ht-degree: 4%
 
 ---
@@ -502,7 +502,7 @@ Para adicionar campos de data de digitação antecipada:
 
 ### Adicionar campos de pesquisa externos
 
-Um campo de pesquisa externo chama uma API externa e retorna valores como opções em um campo suspenso. Os usuários que trabalham com o objeto ao qual o formulário personalizado está anexado podem selecionar uma dessas opções na lista suspensa.
+Um campo de pesquisa externo chama uma API externa e retorna valores como opções em um campo suspenso. Os usuários que trabalham com o objeto ao qual o formulário personalizado está anexado podem selecionar uma ou mais dessas opções na lista suspensa.
 
 Para adicionar uma pesquisa externa:
 
@@ -540,7 +540,8 @@ Para adicionar uma pesquisa externa:
      <tr> 
       <td role="rowheader">URL da API base</td> 
       <td><p>Digite ou cole o URL da API.</p><p>O URL da API deve retornar um conteúdo JSON das opções que você deseja mostrar na lista suspensa. Você pode usar o campo Caminho JSON para selecionar os valores específicos das opções suspensas do JSON retornado.</p><p>Ao inserir o URL da API, você pode passar os seguintes valores no URL:</p>
-      <ul><li>$$query - Representa o texto de pesquisa que o usuário final digita no campo e permite implementar a filtragem de consultas para seus usuários finais. (O usuário pesquisará pelo valor na lista suspensa.)</li>
+      <ul><li>$$QUERY - Representa o texto de pesquisa que o usuário final digita no campo e permite implementar a filtragem de consultas para seus usuários finais. (O usuário pesquisará pelo valor na lista suspensa.)</li>
+      <li>$$HOST - representa o host atual do Workfront e pode ser usado para fazer chamadas de API /search para a API do Workfront. Quando esse curinga é usado, a autenticação é tratada e os usuários não precisam enviar cabeçalhos de autenticação. (Por exemplo, os usuários podem pesquisar tarefas usando o URL base "$$HOST/attask/api/task/search" e isso permitirá pesquisar tarefas e selecionar valores de uma lista retornada de tarefas.)</li>
       <li>{fieldName} - Onde fieldName é qualquer campo personalizado ou nativo no Workfront. Dessa forma, você pode implementar filtros de opção de lista suspensa em cascata ao passar o valor de um campo já selecionado para o campo Pesquisa externa para filtrar opções. (Por exemplo, o campo Região já existe no formulário e você está restringindo uma lista de países da API para aqueles que estão em uma região específica.)</li></ul>
       <p><strong>NOTA:</strong> Revise a documentação da API com a qual você está trabalhando para as consultas específicas que você pode definir.</p></td> 
      </tr>
@@ -561,6 +562,15 @@ Para adicionar uma pesquisa externa:
       <td role="rowheader">Cabeçalhos</td>
       <td><p>Clique em <strong>Adicionar cabeçalho</strong>e digite ou cole o par de valores chave necessário para autenticação com a API.</p><p><strong>NOTA:</strong> Os campos de Cabeçalho não são um local seguro para armazenar credenciais, e você deve ter cuidado com o que digitar e salvar.</p></td>
      </tr>
+     <tr> 
+      <td role="rowheader">Menu suspenso com múltipla escolha</td>
+      <td><p>Selecione essa opção para permitir que o usuário selecione mais de um valor na lista suspensa.</p></td>
+     </tr>
+     </tr>
+     <tr> 
+      <td role="rowheader">Tornar um campo obrigatório</td>
+      <td><p>Selecione essa opção se desejar que o campo seja obrigatório para que o usuário preencha o formulário personalizado.</p></td>
+     </tr>       
     </tbody>
    </table>
 
