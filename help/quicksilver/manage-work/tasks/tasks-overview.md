@@ -3,11 +3,12 @@ content-type: overview;reference
 product-area: projects
 navigation-topic: projects-navigation-topic
 title: Tarefas
-description: As tarefas são itens de trabalho menores no Adobe Workfront que contribuem para a conclusão de um projeto. Saiba mais sobre como gerenciar tarefas nos seguintes artigos.
+description: As tarefas são itens de trabalho menores no Adobe Workfront que contribuem para a conclusão de um projeto. Saiba mais sobre como gerenciar tarefas nos artigos a seguir.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 08a47320-b847-4b18-b4c0-1b9f67cfd248
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 3%
@@ -22,7 +23,7 @@ Esta seção contém as seguintes subseções:
 * [Criar tarefas](../../manage-work/tasks/create-tasks/create-tasks-overview-1.md)
 * [Atribuir tarefas](../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
 * [Gerenciar tarefas](../../manage-work/tasks/manage-tasks/manage-tasks.md)
-* [Restrições de tarefa](../../manage-work/tasks/task-constraints/task-constraints.md)
-* [Duração da tarefa e Tipos de duração](../../manage-work/tasks/taskdurtn/task-duration-duration-type.md)
-* [Usar predecessores de tarefa](../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
+* [Restrições de Tarefa](../../manage-work/tasks/task-constraints/task-constraints.md)
+* [Duração da tarefa e tipos de duração](../../manage-work/tasks/taskdurtn/task-duration-duration-type.md)
+* [Usar predecessores da tarefa](../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
 * [Dicas, truques e solução de problemas para tarefas](../../manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)

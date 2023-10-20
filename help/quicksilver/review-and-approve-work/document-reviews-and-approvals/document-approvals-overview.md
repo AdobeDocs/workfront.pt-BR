@@ -4,14 +4,14 @@ navigation-topic: approvals
 title: Visão geral das novas aprovações de documento
 description: Você pode adicionar outros aprovadores ou revisores a um documento que já tem aprovações pendentes.
 author: Nolan
-feature: Work Management
-source-git-commit: c36dda4894f04bc06d8d63455445484b3f3eeb7a
+feature: Work Management, Digital Content and Documents
+exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
 
 ---
-
 
 # Visão geral das novas aprovações de documento
 
@@ -43,7 +43,7 @@ Continue lendo abaixo para obter mais informações sobre os recursos e versões
 
 Estamos disponibilizando Novas aprovações de documentos para usuários ao longo de várias versões. Além de adicionar novos recursos, também expandiremos o número de contas para as quais Novas aprovações de documentos estão disponíveis em cada versão. Os administradores de conta receberão um email do Centro de notificações informando sobre a alteração antes da inclusão.
 
-Se você quiser que o recurso Novas aprovações de documentos esteja ativado em seu ambiente de produção, entre em contato com o Gerente de sucesso do cliente ou o Gerente de contas estratégicas.
+Se você quiser que o recurso Novas aprovações de documentos esteja ativado em seu ambiente de produção, entre em contato com o Gerente de contas estratégicas ou de sucesso do cliente.
 
 **Versão 1**\
     Visualização: 31 de maio de 2023\

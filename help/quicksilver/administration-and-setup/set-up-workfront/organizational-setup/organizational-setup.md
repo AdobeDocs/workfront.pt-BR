@@ -8,8 +8,9 @@ description: Como parte da organização dos usuários no [!DNL Adobe Workfront]
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 82204f86-be52-49df-b070-66003c528dd4
-source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
@@ -23,10 +24,10 @@ Como parte da organização dos usuários no [!DNL Adobe Workfront], você pode 
 Esta seção contém os seguintes artigos:
 
 * [Criar e editar empresas](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
-* [Gerenciar associações de empresas](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
+* [Gerenciar associações de empresa](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 * [Desativar ou reativar uma empresa](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-a-company.md)
-* [Visão geral da função de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)
+* [Visão geral das funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)
 * [Criar e gerenciar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
 * [Desativar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
 * [Excluir funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)
-* [Substituir as taxas de faturamento da função de trabalho no nível da empresa](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
+* [Substituir taxas de cobrança de função de trabalho no nível da empresa](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)

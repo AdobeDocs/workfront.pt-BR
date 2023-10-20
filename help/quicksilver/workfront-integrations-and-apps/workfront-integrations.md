@@ -5,8 +5,9 @@ navigation-topic: workfront-integrations-navigation-topic
 title: Visão geral das integrações do Adobe Workfront
 description: A Adobe Workfront oferece integrações com outros aplicativos comuns, como o [!DNL Adobe Creative Cloud], [!DNL Salesforce], Jira e Slack. Este artigo vincula à documentação de todas as integrações oferecidas no momento.
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 6298e42d-3cf4-4bed-8a9d-3df2f6d74f93
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 Esta seção contém os seguintes artigos:
 
-* [[!DNL Adobe Workfront] visão geral de integrações integradas](../workfront-integrations-and-apps/built-in-integrations-non-admin.md)
+* [[!DNL Adobe Workfront] visão geral das integrações integradas](../workfront-integrations-and-apps/built-in-integrations-non-admin.md)
 * [[!DNL Adobe Workfront] métodos de integração](../workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
 * [[!DNL Adobe Workfront for Creative Cloud]](../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
 * [[!DNL Workfront] e [!DNL Experience Manager Assets] Integrações](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)

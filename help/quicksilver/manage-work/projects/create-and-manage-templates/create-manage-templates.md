@@ -3,11 +3,12 @@ content-type: reference
 product-area: templates
 navigation-topic: create-and-manage-projects
 title: Criar e gerenciar modelos de projeto
-description: Saiba mais sobre como criar e gerenciar modelos de projeto nos seguintes artigos.
+description: Saiba mais sobre como criar e gerenciar modelos de projeto nos artigos a seguir.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 64fbad12-ce16-449f-8991-62af31e595b2
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 0%
@@ -23,14 +24,14 @@ Você pode usar modelos de projeto para capturar a maioria dos processos, inform
 * [Visão geral do modelo de projeto](../../../manage-work/projects/create-and-manage-templates/project-template-overview.md)
 * [Criar um modelo de projeto](../../../manage-work/projects/create-and-manage-templates/create-template.md)
 * [Criar modelos de projeto a partir de exemplos](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
-* [Navegue pelo catálogo de blueprints e solicite a instalação de blueprints](../../../administration-and-setup/blueprints/browse-catalog.md)
+* [Navegar pelo catálogo de blueprints e solicitar a instalação de blueprints](../../../administration-and-setup/blueprints/browse-catalog.md)
 * [Copiar um modelo de projeto](../../../manage-work/projects/create-and-manage-templates/copy-template.md)
-* [Visão geral de anexar um modelo a um projeto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
+* [Visão geral da anexação de um modelo a um projeto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
 * [Anexar um modelo a um projeto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
 * [Editar modelos de projeto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)
 * [Editar uma tarefa de modelo](../../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
 * [Criar modelo a partir do projeto](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md)
 * [Compartilhar modelos de projeto](../../../manage-work/projects/create-and-manage-templates/share-project-template.md)
-* [Remover informações de modelo de um projeto](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
+* [Remover informações do modelo de um projeto](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
 * [Excluir modelos de projeto](../../../manage-work/projects/create-and-manage-templates/delete-templates.md)
-* [Visão geral dos Dias de início e conclusão em um modelo](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
+* [Visão Geral dos Dias de Início e Término em um modelo](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)

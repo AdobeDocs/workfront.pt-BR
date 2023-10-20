@@ -1,23 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Visão geral de documento limitado e decisão de prova para usuários não pagos 
-description: As decisões de prova e documento são limitadas para todas as licenças Workfront não pagas. Limita a redefinição por usuário a cada mês.
+title: Visão geral de documentos e decisões de prova limitados para usuários não pagos 
+description: As decisões de prova e documento são limitadas a todas as licenças não pagas do Workfront. Limites redefinidos por usuário a cada mês.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
-source-git-commit: a1435e58328b592be749541f47af66c51331759c
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 6%
 
 ---
 
-# Visão geral de documento limitado e decisão de prova para usuários não pagos
+# Visão geral de documentos e decisões de prova limitados para usuários não pagos
 
-As decisões de prova e documento são limitadas para todas as licenças Workfront não pagas nos novos planos. Para obter mais informações, consulte [Visão geral de novas licenças](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+As decisões de prova e documento são limitadas para todas as licenças não pagas do Workfront nos novos planos. Para obter mais informações, consulte [Visão geral de novas licenças](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
-Limita a redefinição por usuário a cada mês. Os limites de decisão para cada licença diferem dependendo do plano no qual você está:
+Limites redefinidos por usuário a cada mês. Os limites de decisão para cada licença diferem dependendo do plano em que você está:
 
 <table>
   <tr>
@@ -64,17 +64,17 @@ Limita a redefinição por usuário a cada mês. Os limites de decisão para cad
 
 ## Usuários externos
 
-Se um usuário externo atingir o limite de decisão, ele não perderá o acesso ao Workfront e ainda poderá tomar decisões. O Adobe Workfront avaliará as sobreposições.
+Se um usuário externo atingir o limite de decisão, ele não perderá acesso ao Workfront e ainda poderá tomar decisões. O Adobe Workfront avaliará os excedentes.
 
-## Usuários colaboradores
+## Usuários do colaborador
 
-Quando um usuário com uma licença do Contributor atingir o limite de decisão, ele será atualizado automaticamente para a licença Light com provas ilimitadas e decisões de documento. Para obter mais informações sobre a licença Light, consulte o [Nível de acesso leve](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) na seção [Visão geral dos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) artigo 10. o
+Assim que um usuário com uma licença de Colaborador atingir seu limite de decisão, ele será atualizado automaticamente para a licença Light com decisões ilimitadas de prova e documento. Para obter mais informações sobre a licença Light, consulte a [Nível de acesso leve](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) na seção [Visão geral dos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) artigo.
 
 >[!NOTE]
 >
->O administrador do Workfront receberá uma notificação por email referente a essa atualização.
+>O administrador do Workfront receberá uma notificação por email sobre essa atualização.
 
 
 ## Exibir o número de decisões de um usuário
 
-Você pode visualizar o número de decisões de um usuário na área Usuários do Workfront. Para obter mais informações, consulte [Exibir o número de decisões para todos os usuários](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).
+Você pode exibir o número de decisões para um usuário na área Usuários do Workfront. Para obter mais informações, consulte [Visualizar o número de decisões para todos os usuários](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).

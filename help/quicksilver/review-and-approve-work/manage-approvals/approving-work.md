@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: Aprovar trabalho
 description: Aprovar trabalho
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 0%
@@ -21,20 +21,20 @@ ht-degree: 0%
 
 Se você estiver definido como um aprovador, deverá revisar regularmente qual trabalho está aguardando sua aprovação.
 
-Para obter informações sobre a criação de processos de aprovação, consulte [Criar um processo de aprovação para itens de trabalho](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+Para obter informações sobre como criar processos de aprovação, consulte [Criar um processo de aprovação para itens de trabalho](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-Para obter informações sobre como associar aprovações ao trabalho no Workfront, consulte [Associar um processo de aprovação novo ou existente ao trabalho](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+Para obter informações sobre como associar aprovações a trabalhos no Workfront, consulte [Associar um processo de aprovação novo ou existente ao trabalho](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> <p>Qualquer Um</p> </td> 
   </tr> 
   <tr> 
@@ -43,37 +43,36 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Exibir ou obter acesso mais alto aos objetos associados às aprovações</p> <p>Observação: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Visualizar ou ter maior acesso aos objetos associados às aprovações</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Visualizar permissões ou permissões superiores para os objetos associados às aprovações</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões ou mais altas para os objetos associados às aprovações</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
 ## Localizar aprovações no Adobe Workfront
 
 Você pode visualizar e gerenciar aprovações em várias áreas do Workfront.
 
-Para obter mais informações sobre como visualizar itens que aguardam aprovações ou itens que você mesmo tenha enviado para aprovação, consulte [Exibir aprovações](../../review-and-approve-work/manage-approvals/view-approvals.md).
+Para obter mais informações sobre como exibir itens que estão aguardando aprovações ou itens que você mesmo submeteu para aprovação, consulte [Exibir aprovações](../../review-and-approve-work/manage-approvals/view-approvals.md).
 
-## Aprovar trabalho da área inicial
+## Aprovar trabalho na área Página inicial
 
-1. Clique no botão **Início** ícone ![](assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
+1. Clique em **Início** ícone ![](assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
 
    >[!NOTE]
    >
-   >O administrador do Workfront pode fazer as seguintes alterações no ícone Início no seu ambiente:
+   >O administrador do Workfront pode fazer as seguintes alterações no ícone Início do ambiente:
    >
    >   
-   >* Substitua por uma imagem personalizada para ilustrar sua organização. Nesse caso, o ícone terá uma aparência diferente da mostrada neste artigo.
-   >* Substitua a página vinculada a ela por uma página diferente. Nesse caso, clique no botão **Menu principal** ![](assets/main-menu-icon.png) no canto superior direito da página, em seguida, clique em **Início**.
+   >* Substitua-a por uma imagem personalizada para ilustrar sua organização. Nesse caso, o ícone será diferente do mostrado neste artigo.
+   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no link **Menu principal** ![](assets/main-menu-icon.png) no canto superior direito da página e clique em **Início**.
 
-
-1. Clique no botão **Filtro** menu suspenso.
+1. Clique em **Filtro** menu suspenso.
 
    ![](assets/displaying-work-items-filters-nwe-350x401.png)
 
@@ -82,10 +81,10 @@ Para obter mais informações sobre como visualizar itens que aguardam aprovaç�
 
    >[!NOTE]
    >
-   >Aprovações atribuídas a Atribuições de Trabalho ou Grupos não são exibidas na Página Inicial. Aprovações atribuídas a equipes são exibidas no agrupamento Solicitação de equipe na Lista de trabalho.
+   >As aprovações atribuídas a funções ou grupos de trabalho não são exibidas na Página inicial. As aprovações atribuídas a Equipes são exibidas no agrupamento Solicitação de equipe na Lista de trabalho.
 
-1. (Opcional) Altere a ordem em que as aprovações são exibidas, conforme descrito na seção &quot;Agrupar e classificar por data, projeto ou prioridade&quot; no artigo [Exibir itens na Lista de Trabalho na área Início](../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
-1. Selecione o item para o qual deseja tomar uma decisão de aprovação.
+1. (Opcional) Altere a ordem na qual as aprovações são exibidas, conforme descrito na seção &quot;Agrupar e classificar por data, projeto ou prioridade&quot; no artigo [Exibir itens na Lista de trabalho na área Página inicial](../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+1. Selecione o item em que deseja tomar uma decisão de aprovação.
 
    ![](assets/task-approval-home-350x127.png)
 
@@ -100,41 +99,41 @@ Para obter mais informações sobre como visualizar itens que aguardam aprovaç�
    * **Folhas de horas:** Clique em **Aprovar** ou **Rejeitar** .
 
    * **Documentos:** Clique em **Aprovar**, **Rejeitar** ou **Alterações**.\
-       Considere o seguinte ao exibir aprovações:
+      Considere o seguinte ao exibir aprovações:
 
       * As aprovações de prova são exibidas aqui quando um usuário compartilha uma prova com você, conforme descrito na seção &quot;Compartilhar um link de prova&quot; no artigo [Compartilhar uma prova no Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
-      * As aprovações de prova são exibidas na área inicial somente se o ambiente do Workfront estiver integrado a uma conta do Workfront Proof Premium . Se não puder usar a prova, conforme discutido aqui, entre em contato com o administrador do Workfront.
-      * Você recebe uma notificação no aplicativo, notificando-o da aprovação de prova.\
-         Para obter mais informações sobre notificações no aplicativo, consulte [Exibir e gerenciar notificações no aplicativo](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+      * As aprovações de provas são exibidas na área Página inicial somente se o ambiente do Workfront estiver integrado a uma conta do Workfront Proof Premium. Se não conseguir usar provas como discutido aqui, entre em contato com o administrador do Workfront.
+      * Você recebe uma notificação no aplicativo, notificando você sobre a aprovação da prova.\
+        Para obter mais informações sobre notificações no aplicativo, consulte [Exibir e gerenciar notificações no aplicativo](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
-      * O nome do usuário que solicitou a aprovação é exibido ao lado da imagem em miniatura na área Início, com o seguinte texto:\
-         &quot;*Usuário A* gostaria de sua aprovação em...&quot;
+      * O nome do usuário que solicitou a aprovação é exibido ao lado da imagem em miniatura na área Página inicial, com o seguinte texto:\
+        &quot;*Usuário A* deseja a sua aprovação em...&quot;
 
-         <!--      
+        <!--      
         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">      
         (NOTE:&nbsp;From&nbsp;Courtney: Is this true?)      
         </MadCap:conditionalText>      
         -->
 
-         Se o nome de usuário não estiver disponível, o seguinte texto será exibido:\
-         &quot;Uma nova versão de uma prova está pronta para exibição&quot;
-      * Para tomar uma decisão de aprovação na prova, clique em **Ir para prova**, clique em **Concluir revisão**, em seguida, clique em uma das opções disponíveis. As opções disponíveis ao aprovar uma prova são: **Aprovado**, **Aprovado com alterações**, **Alterações necessárias** e **Não relevante**.
+        Se o nome de usuário não estiver disponível, o seguinte texto será exibido:\
+        &quot;Uma nova versão de uma prova está pronta para ser visualizada&quot;
+      * Para tomar uma decisão de aprovação na prova, clique em **Ir para prova**, clique em **Concluir revisão** e, em seguida, clique em uma das opções disponíveis. As opções disponíveis ao aprovar uma prova são: **Aprovado**, **Aprovado com alterações**, **Alterações necessárias**, e **Não é relevante**.
 
-      * Depois que uma decisão é tomada na prova, a prova permanece na guia Minhas aprovações com o texto &quot;Decisão tomada&quot; até que você clique na guia **Atualizar** ou até atualizar a página do navegador.
+      * Depois que for tomada uma decisão sobre a prova, ela permanecerá na guia Minhas aprovações com o texto &quot;Tomada de decisão&quot; até que você clique na guia **Atualizar** ou até atualizar a página do navegador.
 
-         Para obter informações sobre como revisar uma prova, consulte [Revisar provas no Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
-   * **Acesso:** Selecione o nível de acesso a conceder na **Alterar acesso** menu suspenso e, em seguida, clique em **Conceder acesso**. Ou, clique em **Ignorar**.
+        Para obter informações sobre como revisar uma prova, consulte [Revisar provas no Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
+   * **Acesso:** Selecione o nível de acesso a ser concedido no **Alterar acesso** e, em seguida, clique em **Conceder acesso**. Ou clique em **Ignorar**.
 
 ## Aprovar o trabalho diretamente de um projeto, tarefa ou problema
 
-Quando um projeto, tarefa ou problema está pendente de aprovação, você pode aprovar ou rejeitar a aprovação diretamente do projeto, tarefa ou problema. Você também pode visualizar detalhes sobre o processo de aprovação.
+Quando um projeto, tarefa ou problema tem aprovação pendente, você pode aprovar ou rejeitar a aprovação diretamente do projeto, tarefa ou problema. Você também pode exibir detalhes sobre o processo de aprovação.
 
 Para aprovar o trabalho diretamente de um projeto, tarefa ou problema:
 
 1. Vá para o projeto, tarefa ou problema que requer sua aprovação.
 
-   Informações de aprovação sobre o processo de aprovação atual de um projeto, tarefa ou problema são exibidas no cabeçalho do item.
+   As informações de aprovação referentes ao processo de aprovação atual de um projeto, tarefa ou problema são exibidas no cabeçalho do item.
 
    ![](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
 
@@ -146,17 +145,17 @@ Para aprovar o trabalho diretamente de um projeto, tarefa ou problema:
     <tbody> 
      <tr> 
       <td role="rowheader">Status</td> 
-      <td>O status atual do projeto, da tarefa ou do problema. Este é o status atual do item que está pendente da aprovação. O status é aprovado após cada etapa do processo de aprovação ser aprovada.</td> 
+      <td>O status atual do projeto, tarefa ou problema. Este é o status atual do item que está pendente de aprovação. O status é approved após cada estágio do processo de aprovação ser aprovado.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Etapas de aprovação</td> 
-      <td>As etapas do processo de aprovação. <br>O estágio atual que está pendente de aprovação é exibido como Pendente . Os estágios já aprovados são exibidos como Aprovado ; os estágios que ainda não foram aprovados são exibidos como Não iniciado .</td> 
+      <td role="rowheader">Estágios de aprovação</td> 
+      <td>Os estágios do processo de aprovação. <br>O estágio atual que está pendente de aprovação é exibido como Pendente. Os estágios que já foram aprovados são exibidos como Aprovado ; os estágios que ainda não foram aprovados são exibidos como Não iniciado .</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Clique em **Aprovar** ou **Rejeitar**, dependendo de se deseja aprovar ou rejeitar o processo de aprovação.\
-   A fase de aprovação que estava pendente de aprovação agora é aprovada e o processo de aprovação avança para a próxima etapa. O status é aprovado após todas as etapas terem sido aprovadas.
+1. Clique em **Aprovar** ou **Rejeitar**, dependendo se você deseja aprovar ou rejeitar o processo de aprovação.\
+   O estágio de aprovação que estava pendente de aprovação agora é aprovado, e o processo de aprovação passa para o próximo estágio. O status é aprovado após a aprovação de todos os estágios.
 
 ## Aprovar um documento diretamente de um documento 
 
@@ -165,26 +164,26 @@ Para aprovar o trabalho diretamente de um projeto, tarefa ou problema:
    ![](assets/approval-approve-document-350x215.png)\
    ![](assets/document-approval-350x199.png)
 
-1. (Opcional) Se uma prova tiver sido gerada para o documento, você poderá aprovar o documento na interface de revisão de texto, conforme descrito em [Aprovar um documento de uma prova](#approve-a-document-from-a-proof).
+1. (Opcional) Se uma prova tiver sido gerada para o documento, você poderá aprovar o documento na interface de prova, conforme descrito em [Aprovar um documento a partir de uma prova](#approve-a-document-from-a-proof).
 
-## Aprovar um documento de um email de notificação de aprovação
+## Aprovar um documento a partir de um email de notificação de aprovação
 
-Dependendo das configurações de notificação, você pode receber emails notificando sobre documentos para os quais outros usuários precisam que você tome uma decisão de aprovação. Ao receber um email contendo um **Tornar decisão de aprovação** , é possível iniciar o processo de aprovação diretamente do email:
+Dependendo das configurações de notificação, você pode receber emails notificando sobre documentos para os quais outros usuários precisam que você tome uma decisão de aprovação. Quando você receber um email contendo um **Tomar uma decisão quanto à aprovação** você pode iniciar o processo de aprovação diretamente do email:
 
-1. No email, clique em **Tornar decisão de aprovação** para abrir a página Detalhes do documento para a prova .
-1. Siga qualquer um destes procedimentos para revisar o documento:
+1. No email, clique em **Tomar uma decisão quanto à aprovação** para abrir a página Detalhes do documento da prova.
+1. Siga um destes procedimentos para revisar o documento:
 
-   * Exibir os metadados sobre o documento.
-   * Se tiver sido criada uma prova para revisar o documento com marcação e comentários, clique em **Abrir prova** ![](assets/open-proof-icon-qs.png) próximo ao canto superior direito e revise a prova.
+   * Visualize os metadados sobre o documento.
+   * Se uma prova tiver sido criada para revisar o documento com marcação e comentários, clique em **Abrir prova** ![](assets/open-proof-icon-qs.png) próximo ao canto superior direito e reveja a prova.
 
-      <!--   
+     <!--   
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   
      -->
 
-      Para obter informações sobre como revisar provas, consulte [Revisar provas no Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+     Para obter informações sobre a revisão de provas, consulte [Revisar provas no Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
-1. Clique em um **Decisão** no canto superior direito para aprovar, aprovar com alterações ou rejeitar o documento.
+1. Clique em a **Decisão** no canto superior direito, para aprovar, aprovar com alterações ou rejeitar o documento.
 
-## Aprovar um documento de uma prova {#approve-a-document-from-a-proof}
+## Aprovar um documento a partir de uma prova {#approve-a-document-from-a-proof}
 
-Você pode aprovar um documento no visualizador de prova. Para obter mais informações, consulte [Tome uma decisão em uma prova no visualizador de prova](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) no artigo [Tome uma decisão em uma prova no visualizador de prova](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+Você pode aprovar um documento no visualizador de provas. Para obter mais informações, consulte [Tomar uma decisão sobre uma prova no visualizador de provas](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) no artigo [Tomar uma decisão sobre uma prova no visualizador de provas](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).

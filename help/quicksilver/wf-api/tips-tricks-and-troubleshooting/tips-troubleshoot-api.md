@@ -6,8 +6,9 @@ title: Dicas, truques e solução de problemas da API do Adobe Workfront
 description: Dicas, truques e solução de problemas da API do Adobe Workfront
 author: Becky
 feature: Workfront API
+recommendations: noDisplay, noCatalog
 exl-id: 644b9323-c6c3-49bd-8295-b51352992316
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%

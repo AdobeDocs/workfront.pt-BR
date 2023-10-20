@@ -2,30 +2,31 @@
 content-type: reference
 product-area: projects
 navigation-topic: get-started-with-workfront
-title: Atualizar itens de trabalho e visualizar atualizações
-description: Você pode usar a seção Atualizações da maioria dos objetos para adicionar comentários, respostas ou para seguir atualizações rastreadas pelo sistema sobre alterações que ocorrem no objeto.
+title: Atualizar itens de trabalho e exibir atualizações
+description: Você pode usar a seção Atualizações da maioria dos objetos para adicionar comentários, respostas ou para seguir atualizações controladas pelo sistema sobre alterações que ocorrem no objeto.
 author: Alina
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
 
-# Atualizar itens de trabalho e visualizar atualizações
+# Atualizar itens de trabalho e exibir atualizações
 
-Você pode usar a seção Atualizações da maioria dos objetos para adicionar comentários, respostas ou para seguir atualizações rastreadas pelo sistema sobre alterações que ocorrem no objeto.
+Você pode usar a seção Atualizações da maioria dos objetos para adicionar comentários, respostas ou para seguir atualizações controladas pelo sistema sobre alterações que ocorrem no objeto.
 
 Esta seção contém os seguintes artigos:
 
 * [Visão geral da seção Atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
 * [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
 * [Limites de caracteres em campos](../../workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
-* [Responder atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
-* [Responder notificações por email](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
-* [Marcar outras pessoas em atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
+* [Responder a atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
+* [Responder a notificações por email](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
+* [Marcar outros usuários em atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
 * [Exibir todas as atualizações em um relatório de Nota](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
-* [Visão geral do botão Trabalhar com isso e Concluir](../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
+* [Visão geral do botão Trabalhar na tarefa e Concluído](../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
 

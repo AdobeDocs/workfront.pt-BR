@@ -6,8 +6,9 @@ title: Finanças do projeto
 description: Os artigos a seguir contêm informações sobre áreas onde você pode encontrar informações financeiras de projetos e sobre como gerenciar as finanças do projeto.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
-source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%

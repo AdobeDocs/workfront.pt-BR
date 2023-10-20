@@ -3,11 +3,12 @@ content-type: reference
 product-area: projects
 navigation-topic: tasks
 title: Gerenciar tarefas
-description: Saiba mais sobre como gerenciar tarefas nos seguintes artigos.
+description: Saiba mais sobre como gerenciar tarefas nos artigos a seguir.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: d87311fc-6f60-4fa8-a180-fda6eae473a0
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 5%
@@ -22,7 +23,7 @@ Esta seção contém os seguintes artigos:
 * [Editar tarefas em uma lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
 * [Visão geral de salvar alterações simultâneas em uma lista de tarefas](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md)
 
-   <!--
+  <!--
   <li><a href="../../../manage-work/tasks/manage-tasks/manage-task-details-forms-finances.md" class="MCXref xref" xrefformat="{para}">Manage task details, custom forms, and finances</a> (drafted not to lose the TOC spot, but the article is in draft)</li>
   -->
 
@@ -31,7 +32,7 @@ Esta seção contém os seguintes artigos:
 * [Copiar e duplicar tarefas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)
 * [Mover tarefas](../../../manage-work/tasks/manage-tasks/move-tasks.md)
 * [Excluir tarefas](../../../manage-work/tasks/manage-tasks/delete-tasks.md)
-* [Visão geral do caminho crítico do projeto](../../../manage-work/tasks/manage-tasks/critical-path.md)
+* [Visão geral do Caminho crítico do projeto](../../../manage-work/tasks/manage-tasks/critical-path.md)
 * [Visão geral das tarefas recorrentes](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md)
 * [Associar marcos a tarefas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
 * [Converter uma tarefa em um projeto](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)

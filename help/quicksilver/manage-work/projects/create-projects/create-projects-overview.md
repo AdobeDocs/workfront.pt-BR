@@ -3,11 +3,12 @@ content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
 title: Criar projetos
-description: Saiba mais sobre como criar projetos nos seguintes artigos.
+description: Saiba mais sobre como criar projetos nos artigos a seguir.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: a49c9157-05d8-41a6-93c3-068d835b52e3
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 15%

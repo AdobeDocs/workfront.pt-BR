@@ -1,8 +1,9 @@
 ---
 filename: wf-kb
-title: Base de conhecimento do Workfront
+title: Base de conhecimento Workfront
+recommendations: noDisplay, noCatalog
 description: .
-source-git-commit: ceda437684f565b91dbb8b02f6b03cbe8d27a70a
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '35'
 ht-degree: 17%
@@ -10,19 +11,19 @@ ht-degree: 17%
 ---
 
 
-# Base de conhecimento do Workfront
+# Base de conhecimento Workfront
 
 * [Administração e configuração](administration-and-setup/administration-and-setup.md)
 * [Noções básicas do Adobe Workfront](workfront-basics/workfront-basics.md)
 * [Pessoas, equipes e grupos](people-teams-and-groups/people-teams-and-groups.md)
 * [Gerenciar recursos](resource-mgmt/manage-resources.md)
-* [Agile](agile/agile.md)
+* [Ágil](agile/agile.md)
 * [Gerenciar trabalho](manage-work/manage-work.md)
-* [Revisar e aprovar o trabalho](review-and-approve-work/review-and-approve-work.md)
+* [Revisar e aprovar trabalho](review-and-approve-work/review-and-approve-work.md)
 * [Documentos](documents/documents-overview.md)
 * [Relatórios](reports-and-dashboards/reports-and-dashboards-overview.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Enhanced analytics</li>
   -->
 

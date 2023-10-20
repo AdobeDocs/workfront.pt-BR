@@ -7,8 +7,9 @@ title: Adobe Workfront para G Suite
 description: O Adobe Workfront for G Suite conecta você ao seu trabalho mais importante e permite que você colabore com outras pessoas enquanto permanece no Gmail, no Google Calendar e no Google Drive. Sem sair desses aplicativos, você pode capturar solicitações ou atualizações de trabalho enviadas por email e adicioná-las ao Workfront. Você pode verificar o que está acontecendo no Workfront, incluindo datas de vencimento, prioridade, documentos, atualizações e contexto adicional, sem deixar sua caixa de entrada. Você pode tomar decisões de aprovação, responder a comentários ou aceitar novas solicitações de trabalho. E você pode converter seus emails para tarefas de projeto pessoais ou atribuir trabalho e prioridade a outras pessoas.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%

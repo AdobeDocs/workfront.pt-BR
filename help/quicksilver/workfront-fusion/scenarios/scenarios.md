@@ -7,8 +7,9 @@ title: Cenários em [!DNL Adobe] Workfront Fusion
 description: O Adobe Workfront Fusion exige uma licença do Adobe Workfront Fusion, além de uma licença do Adobe Workfront.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: 9050684504f2335f5631f63978a9f65c25fd8d5f
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%

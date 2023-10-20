@@ -7,8 +7,9 @@ title: Visão geral da API de webhooks do documento
 description: Tópicos da API de webhooks do documento
 author: Becky
 feature: Workfront API
+recommendations: noDisplay, noCatalog
 exl-id: e946c988-6a97-4ef1-a381-4b3bd10ced99
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%

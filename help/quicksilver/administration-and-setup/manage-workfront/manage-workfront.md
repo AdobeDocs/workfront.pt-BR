@@ -4,11 +4,12 @@ content-type: reference
 product-area: system-administration
 navigation-topic: administration-and-setup
 title: Gerenciar o Adobe Workfront
-description: Como administrador do Workfront, você pode configurar a verificação de funcionalidades do Workfront, relatórios, emails, segurança, taxas de câmbio, itens excluídos, diagnósticos.
+description: Como administrador do Workfront, você pode configurar a funcionalidade de comprovação do Workfront, relatórios, emails, segurança, taxas de câmbio, itens excluídos e diagnóstico.
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 94f3e03f-ea62-47cd-858c-600ea72ac529
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 13%
@@ -19,7 +20,7 @@ ht-degree: 13%
 
 Esta seção contém as seguintes subseções:
 
-* [Configurar funcionalidade de revisão de texto](../../administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
+* [Configurar funcionalidade de prova](../../administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
 * [Configurar relatórios](../../administration-and-setup/manage-workfront/configure-reports/configure-reports.md)
 * [Emails](../../administration-and-setup/manage-workfront/emails/emails.md)
 * [Segurança](../../administration-and-setup/manage-workfront/security/security.md)
