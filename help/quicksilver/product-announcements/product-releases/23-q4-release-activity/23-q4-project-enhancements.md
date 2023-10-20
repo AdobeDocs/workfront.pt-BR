@@ -3,9 +3,9 @@ title: Aprimoramentos do projeto do quarto trimestre de 2023
 description: Aprimoramentos do projeto do quarto trimestre de 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 4d5a8958137e5f85510c5239dfc797ddf1ca24ed
+source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -55,3 +55,7 @@ Para obter mais informações, consulte [Editar informações em campos de formu
 Fizemos uma alteração na maneira como as Horas planejadas são alocadas para tarefas recorrentes sem atribuições e com um tipo de duração Simples. Agora, quando você define Horas Planejadas em uma nova tarefa recorrente com um Tipo de Duração Simples e sem atribuições, as horas também são alocadas para as recorrências individuais. Antes dessa alteração, as horas não eram salvas para recorrências individuais quando as tarefas pai eram desatribuídas.
 
 Para obter informações sobre como criar tarefas recorrentes, consulte [Criar tarefas recorrentes](/help/quicksilver/manage-work/tasks/create-tasks/create-recurring-tasks.md).
+
+## Atualizações em tempo real na lista de tarefas
+
+As listas de tarefas agora são atualizadas em tempo real. As alterações feitas em uma tarefa são atualizadas na lista de tarefas, para que um usuário que esteja visualizando a lista de tarefas possa ver as alterações sem atualizar a página.
