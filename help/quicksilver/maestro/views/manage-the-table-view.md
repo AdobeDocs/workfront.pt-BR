@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1710'
 ht-degree: 4%
 
 ---
@@ -133,7 +133,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
    * Segure o cabeçalho da coluna e arraste e solte-o na posição desejada. A coluna movida brevemente será exibida com um plano de fundo azul até que você faça outros ajustes na tabela.
 
-   * Clique em **Campos** na barra de ferramentas da tabela, arraste e solte os campos na ordem desejada e clique fora da **Visibilidade dos campos e caixa de pedido** para fechá-la.
+   * Clique em **Campos** na barra de ferramentas da tabela, arraste e solte os campos na ordem desejada e clique fora da **Visibilidade e ordem dos campos** para fechá-la.
 
      ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -157,7 +157,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
    Ou
 
-   Clique em **Campos** na barra de ferramentas da tabela e desative a alternância associada aos campos (ou colunas) que deseja ocultar.
+   Clique em **Campos** na barra de ferramentas da tabela e desative a alternância associada aos campos (ou colunas) que deseja ocultar. A variável **Visibilidade e ordem dos campos** é exibida.
 
    >[!TIP]
    >

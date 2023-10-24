@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -106,6 +106,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Clique no cartão de um tipo de registro cujos campos você deseja excluir.
 1. (Condicional) Selecione um **Visualização em tabela** do **Exibir** no canto superior direito da página tipo de registro.
 1. Localize o campo que deseja excluir nos cabeçalhos da coluna, passe o mouse sobre o cabeçalho da coluna e clique na seta para baixo após o nome do campo.
+
+   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+
 1. Clique em **Excluir**. <!-- check this: they might replace it with **Delete field**-->
 
    <!--insert screen shot when finalized-->
