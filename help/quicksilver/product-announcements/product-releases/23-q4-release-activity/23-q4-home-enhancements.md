@@ -3,9 +3,9 @@ title: Melhorias na página inicial do quarto trimestre de 2023
 description: Melhorias na página inicial do quarto trimestre de 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: f4aeb9b5afa5b0d3dcb5e4eee2cf2acda2b66398
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Para obter mais informações sobre os widgets disponíveis em Nova página inic
 
 ## Página de aterrissagem padrão do novo colaborador: Nova página inicial
 
-Nova página inicial agora é a página inicial padrão para contas de Colaborador/Solicitante. Esta nova página inicial padrão inclui vários widgets selecionados especificamente para permitir que os Colaboradores gerenciem seu trabalho imediatamente. Após sua primeira visita à página, os Colaboradores também serão instruídos a usar a Nova página inicial e os widgets específicos disponíveis por padrão em uma apresentação personalizada. Esses widgets padrão para Colaboradores são: Solicitações, Menções, Problemas e Quadros. Observe que se um layout com uma página inicial personalizada estiver sendo usado atualmente por uma conta de colaborador, ele permanecerá como página inicial.
+Nova página inicial agora é a página inicial padrão para contas de Colaborador/Solicitante. Esta nova página inicial padrão inclui vários widgets selecionados especificamente para permitir que os Colaboradores gerenciem seu trabalho imediatamente. Após sua primeira visita à página, os Colaboradores também serão instruídos a usar a Nova página inicial e os widgets específicos disponíveis por padrão em uma apresentação personalizada. Esses widgets padrão para Colaboradores são: Minhas solicitações, Menções, Aguardando minha aprovação e Quadros. Observe que se um layout com uma página inicial personalizada estiver sendo usado atualmente por uma conta de colaborador, ele permanecerá como página inicial.
 
 Para obter mais informações sobre como usar a Nova página inicial, consulte [Introdução à nova página inicial](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
@@ -40,9 +40,9 @@ Com base no feedback dos usuários, removemos o filtro de intervalo de tempo em 
 
 Para obter mais informações sobre o rastreamento de trabalho na Nova página inicial, consulte [Introdução à nova página inicial](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-## Novos botões de acesso rápido para os widgets de rastreamento de Projetos, Tarefas e Problemas
+## Novos botões de ação rápida para o widget Meu trabalho
 
-Expandindo ainda mais sua capacidade de gerenciar trabalho diretamente da Nova página inicial, novos botões de acesso rápido foram adicionados aos widgets de rastreamento de Projeto, Tarefa e Problema (incluindo Meu Trabalho). Encontrados em cada projeto, tarefa, problema ou solicitação nesses widgets, esses novos botões permitem abrir rapidamente o painel de resumo, carregar arquivos, editar formulários personalizados, criar uma atualização e registrar tempo sem sair da Nova página inicial, bem como um botão maior Trabalhar nisso.
+Expandindo ainda mais sua capacidade de gerenciar trabalho diretamente da Nova Página Inicial, novos botões de ação rápida foram adicionados ao widget Meu Trabalho. Encontrados em cada projeto, tarefa, problema ou solicitação no widget, esses novos botões permitem abrir rapidamente o painel de resumo, carregar arquivos, editar formulários personalizados, criar uma atualização e registrar o tempo sem sair da Nova página inicial, bem como um botão maior Trabalhar nisso/concluído.
 
 Para obter mais informações sobre os recursos do widget na Nova página inicial, consulte [Introdução à nova página inicial](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 

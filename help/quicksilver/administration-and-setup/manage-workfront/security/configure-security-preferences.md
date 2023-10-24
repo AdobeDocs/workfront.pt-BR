@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: b8416108a16d973435d070f8d2738fee585cc6d3
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 5%
+source-wordcount: '802'
+ht-degree: 6%
 
 ---
 
@@ -73,7 +73,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Permitir incorporação de <strong>Workfront</strong> em um iframe</p> </td> 
-      <td>Permite incorporar o Workfront em um iframe.<p>Essa opção está desativada por padrão.</p><p><b>IMPORTANTE</b>: a exibição de um aplicativo baseado na Web em um iframe torna o aplicativo susceptível a uma vulnerabilidade de segurança de clickjacking.</p></td> 
+      <td>Permite incorporar o Workfront em um iframe.<p>Essa opção está desabilitada por padrão.</p><p><b>IMPORTANTE</b>: a exibição de um aplicativo baseado na Web em um iframe torna o aplicativo susceptível a uma vulnerabilidade de segurança de clickjacking.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Permitir autenticação SAML 2.0 nos suplementos do Office 365</td> 
@@ -99,7 +99,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">Exigir que os usuários externos se registrem com uma senha</td> 
-      <td> <p>Exige que os usuários externos se registrem antes de poderem visualizar itens no Workfront. Por padrão, essa opção está desativada. Ao habilitar essa opção, as pessoas sem uma conta do Workfront incluídas em determinadas atualizações por seu endereço de email serão solicitadas a criar uma conta antes de poderem exibir o item em que estão incluídas. Isso cria uma conta de usuário externo para eles.</p> <p>Essa opção está desativada por padrão.</p> </td> 
+      <td> <p>Exige que os usuários externos se registrem antes de poderem visualizar itens no Workfront. Por padrão, essa opção está desativada. Ao habilitar essa opção, as pessoas sem uma conta do Workfront incluídas em determinadas atualizações por seu endereço de email serão solicitadas a criar uma conta antes de poderem exibir o item em que estão incluídas. Isso cria uma conta de usuário externo para eles.</p> <p>Essa opção está desabilitada por padrão.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Desconectar usuários automaticamente após</td> 
@@ -111,7 +111,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">Os usuários no sistema assumirão como padrão a Nova experiência na Página inicial </td> 
-      <td>Permite especificar se os usuários verão a Nova experiência inicial por padrão. Quando ativado, os usuários ainda podem optar por ativar ou desativar a Nova página inicial individualmente. Quando desativado, os usuários não terão a opção de usar a Nova página inicial. Essa opção está ativada por padrão.</td> 
+      <td>Permite especificar se os usuários verão a Nova experiência inicial por padrão. Quando habilitado, os usuários verão a Nova experiência inicial por padrão, mas ainda poderão optar por habilitar ou desabilitar a Nova página inicial individualmente. <b>Quando desativado, os usuários não terão a opção de usar a Nova página inicial.</b> Essa configuração é ativada por padrão.</td> 
      </tr> 
     </tbody> 
    </table>

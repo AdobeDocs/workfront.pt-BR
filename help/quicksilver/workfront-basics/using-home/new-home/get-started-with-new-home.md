@@ -6,10 +6,10 @@ description: A nova Página inicial é um novo recurso poderoso para gerenciar s
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 23%
+source-wordcount: '933'
+ht-degree: 21%
 
 ---
 
@@ -52,7 +52,7 @@ Abaixo estão os dez widgets disponíveis atualmente para escolher, bem como um 
     Exibe todas as aprovações de sua organização em uma tabela com colunas personalizáveis, além de uma barra de pesquisa que permite pesquisar aprovações específicas.
 
 * **Menções**\
-    Exibe tópicos de comentários recentes que @mentions você no Workfront, bem como um botão de resposta que permite redigir uma resposta no dispositivo. Este widget também mostra comentários feitos sobre tarefas e problemas atribuídos a você, atribuídos a outro usuário, de sua propriedade, do qual você é o contato principal ou que você criou, desde que a tarefa ou problema tenha sido atualizado nos últimos 30 dias.
+    Exibe threads de comentários recentes de todo o Workfront, de forma semelhante à página Minhas atualizações, bem como um botão de resposta que permite escrever uma resposta no widget. Este widget também mostra comentários feitos sobre tarefas e problemas atribuídos a você, atribuídos a outro usuário, de sua propriedade, do qual você é o contato principal ou que você criou, desde que a tarefa ou problema tenha sido atualizado nos últimos 30 dias.
 
 * **Lista de afazeres**\
     Este widget exclusivo permite adicionar itens de texto a uma lista de verificação pessoal que você pode editar livremente.
@@ -78,7 +78,7 @@ Por padrão, a Página inicial é preenchida com alguns widgets específicos com
     </tr>
     <tr>
         <td>Colaborador</td>
-        <td>Meu trabalho, menções</td>
+        <td>Minhas solicitações, Menções, Aguardando minha aprovação, Quadros</td>
     </tr>
     <tr>
         <td>Externo</td>
@@ -104,11 +104,11 @@ Por padrão, a Página inicial é preenchida com alguns widgets específicos com
         <td>Meu trabalho, menções</td>
     </tr>
     <tr>
-        <td>Limitado</td>
+        <td>Solicitar</td>
         <td>Meus projetos, aguardando minha aprovação</td>
     </tr>
     <tr>
-        <td>Colaborador</td>
+        <td>Contribuir</td>
         <td>Meu trabalho, menções</td>
     </tr>
     <tr>

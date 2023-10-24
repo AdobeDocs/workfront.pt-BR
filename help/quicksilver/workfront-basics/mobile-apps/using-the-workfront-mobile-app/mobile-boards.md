@@ -6,9 +6,9 @@ description: No [!DNL Workfront] aplicativo móvel, você pode ver todos os quad
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1073'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ No [!DNL Workfront] aplicativo móvel, você pode ver todos os quadros que criou
 Quaisquer alterações feitas nas colunas da placa e nos cartões no aplicativo também são refletidas na versão da placa para desktop.
 
 Para fornecer feedback sobre painéis móveis, selecione o **[!UICONTROL Enviar]** ![Enviar feedback](assets/mobile-send-feedback-icon.png) na parte superior de qualquer quadro e siga os prompts.
+
+>[!NOTE]
+>
+>No momento, o aplicativo móvel é compatível com todos os tipos de quadros **exceto** Quadros de Processo de Iteração.
 
 ## Visualizar e filtrar a lista de quadros
 
