@@ -5,14 +5,18 @@ title: Configure o [!UICONTROL Experience Manager Assets as a Cloud Service] int
 description: Você pode conectar seu trabalho ao seu conteúdo no [!DNL Experience Manager Assets].
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 4915dfb923a661befaf33007b8bcb9834e38a3e4
+source-git-commit: 2669530c2901e77599a80a852a428b558291ef36
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1317'
 ht-degree: 0%
 
 ---
 
 # Configure o [!UICONTROL Experience Manager Assets as a Cloud Service] integração
+
+>[!IMPORTANT]
+>
+>Essa funcionalidade está disponível somente para organizações que foram integradas à [!DNL Adobe Admin Console].
 
 Você pode conectar seu trabalho ao seu conteúdo no [!DNL Experience Manager Assets]&#x200B;:
 
@@ -25,7 +29,7 @@ Você pode conectar seu trabalho ao seu conteúdo no [!DNL Experience Manager As
 
 >[!NOTE]
 >
->Você também pode conectar vários repositórios Experience Manager Assets a um ambiente Workfront, ou vários ambientes Workfront a um repositório Experience Manager Assets em IDs de organização. Siga as instruções de configuração neste artigo para cada integração que você deseja configurar.
+>Também é possível conectar vários [!DNL Experience Manager Assets] repositórios para um [!UICONTROL Workfront] ambiente ou várias [!DNL Workfront] ambientes para um [!DNL Experience Manager Assets] repositório em IDs de organização. Siga as instruções de configuração neste artigo para cada integração que você deseja configurar.
 
 ## Requisitos de acesso
 
@@ -176,7 +180,9 @@ Os metadados são mapeados quando um ativo é enviado por push de [!DNL Workfron
 
 Para mapear metadados de ativos:
 
-1. Selecionar **[!UICONTROL Assets]** acima da tabela de metadados.
+<!--
+1. Select **[!UICONTROL Assets]** above the metadata table.
+-->
 1. No **[!UICONTROL [!DNL Workfront]campo]** escolha um campo Workfront incorporado ou personalizado.
 
    >[!NOTE]
@@ -186,44 +192,46 @@ Para mapear metadados de ativos:
 
 1. No [!DNL Experience Manager Assets] , pesquise as categorias pré-preenchidas ou insira pelo menos duas letras no campo de pesquisa para acessar categorias adicionais.
 1. Repita as etapas 2 e 3 conforme necessário.
-   ![campos de metadados](assets/asset-metadata.png)
-1. Clique em [!UICONTROL Salvar] ou vá para a página [Pastas](#folders) neste artigo.
+   ![campos de metadados](assets/metadata-no-asset-toggle.png)
+1. Clique em [!UICONTROL Salvar] ou vá para a página [Configurar fluxos de trabalho](#set-up-workflows-optional) neste artigo.
 
-### Mapear metadados para pastas
+<!--
 
-Quando os usuários criam uma pasta vinculada em um projeto, os dados do projeto, o portfólio e o programa associados são mapeados para os campos de metadados da pasta no [!DNL Experience Manager Assets].
+### Map metadata for folders
+
+When users create a linked folder on a project, the associated project, portfolio, and program data is mapped to folder metadata fields in [!DNL Experience Manager Assets].
 
 >[!NOTE]
 >
->Essa integração não é compatível com metadados personalizados do [!DNL Adobe Experience Manager].
+>This integration does not support custom metadata from [!DNL Adobe Experience Manager].
 
-Para mapear metadados para pastas:
+To map metadata for folders: 
 
-1. Selecionar **[!UICONTROL Pastas]** acima da tabela de metadados.
-1. No **[!UICONTROL [!DNL Workfront]campo]** escolha um campo Workfront incorporado ou personalizado.
+1. Select **[!UICONTROL Folders]** above the metadata table.
+1. In the **[!UICONTROL [!DNL Workfront] field]** column, choose a built-in or custom Workfront field.
 
-   >[!NOTE]
-   >
-   >Você pode mapear um único campo do Workfront para vários campos do Experience Manager Assets. Não é possível mapear vários [!DNL Workfront] para um único [!DNL Experience Manager Assets] campo.
+    >[!NOTE]
+    >
+    >You can map a single Workfront field to multiple Experience Manager Assets fields. You can't map multiple [!DNL Workfront] fields to a single [!DNL Experience Manager Assets] field.
 
-1. No **[!DNL Experience Manager Assets]** , pesquise as categorias pré-preenchidas ou insira pelo menos duas letras no campo de pesquisa para acessar categorias adicionais.
-1. Repita as etapas 2 e 3 conforme necessário.
-   ![metadados da pasta](assets/folder-metadata.png)
-1. Clique em **[!UICONTROL Salvar]** ou vá para a página [Sincronização de metadados de projeto](#project-metadata-sync) neste artigo.
+1. In the **[!DNL Experience Manager Assets]** field, search through the pre-populated categories or enter at least two letters in the search field to access additional categories.
+1. Repeat steps 2 and 3 as needed.
+![folder metadata](assets/folder-metadata.png)
+1. Click **[!UICONTROL Save]** or move on to the [Project metadata sync](#project-metadata-sync) section in this article.
 
 
-### Sincronização de metadados de objeto
+### Object metadata sync
 
-Um [!DNL Experience Manager] campos que estão mapeados para [!DNL Workfront] os campos portfólio, programa, projeto, tarefa, problema e documento são atualizados automaticamente quando o campo é alterado no [!DNL Workfront].
+An [!DNL Experience Manager] fields that is mapped to [!DNL Workfront] portfolio, program, project, task, issue, and document fields update automatically when the field is changed in [!DNL Workfront].
 
-Quando essa opção está ativada, qualquer ativo enviado para o Adobe Experience Manager inclui um cartão na página Detalhes do documento que exibe uma visualização em tempo real dos metadados Adobe Experience Manager do documento.
+When this option is enabled, any asset that has been pushed to Adobe Experience manager includes a card on the Document Details page that displays a real-time view of the document's Adobe Experience Manager metadata.
 
 >[!IMPORTANT]
 >
->Os usuários devem ter acesso de gravação no [!DNL Experience Manager] para ativos que vivem no objeto para que os metadados sejam sincronizados quando forem atualizados.
+>Users must have write access in [!DNL Experience Manager] for assets living in the object in order for the metadata to sync when it's updated.
 
-1. Ativar o **[!UICONTROL Sincronizar metadados de objeto]** campo.
-1. Clique em **Salvar** ou vá para a página [Configurar fluxos de trabalho (opcional)](#set-up-workflows-optional) neste artigo.
+1. Enable the **[!UICONTROL Sync object metadata]** field.
+1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.
 
 <!--Courtney start here-->
 
