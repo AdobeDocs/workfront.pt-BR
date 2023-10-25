@@ -4,9 +4,9 @@ description: Visão geral da versão do quarto trimestre de 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: 383c87843b3a9a3a7e4e9b78ddd41828013c23c7
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2665'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,22 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Decisões de prova e documento disponíveis para clientes do modelo de licença herdado</a></p>
+                        <p>Os clientes herdados que ainda não migraram para o novo modelo de licença da Adobe Workfront agora podem ver dados com o número de decisões de prova/documento por usuário por mês, em um único relatório. Esses dados estão disponíveis quando você executa um relatório de Decisões do usuário.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 12 de outubro de 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produção para todos os clientes: 12 de outubro de 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>            
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Campos calculados em formulários personalizados agora podem usar o curinga $$USER</a></p>
@@ -494,7 +510,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Atualizações para arrastar e soltar para integrações de documentos</a></p><p>[!BADGE Na produção ]{type=Informative}</p><p>Fizemos alguns aprimoramentos para esclarecer e remover erros do usuário ao arrastar e soltar um arquivo em uma pasta vinculada.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Atualizações para arrastar e soltar para integrações de documentos</a></p><p>Fizemos alguns aprimoramentos para esclarecer e remover erros do usuário ao arrastar e soltar um arquivo em uma pasta vinculada.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -502,7 +518,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                                 <p>Versão de pré-visualização: 24 de agosto de 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Produção para todos os clientes: 31 de agosto de 2023</span></p>
+                                <p><span class="preview">Produção para todos os clientes: após a versão 23.10</span></p>
                             </li>
                         </ul>
                     </td>
