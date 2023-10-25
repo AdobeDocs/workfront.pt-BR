@@ -3,9 +3,9 @@ title: Aprimoramentos do administrador do quarto trimestre de 2023
 description: Aprimoramentos do administrador do quarto trimestre de 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 8488cb46b3dd9b377c59121597db5b6fe784fdab
+source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 0%
 Esta página descreve todas as melhorias de administrador feitas com a versão do Quarto trimestre de 2023 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão 23.10.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2023, consulte [Visão geral da versão do quarto trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Decisões de prova e documento disponíveis para clientes do modelo de licença herdado
+
+Os clientes herdados que ainda não migraram para o novo modelo de licença da Adobe Workfront agora podem ver dados com o número de decisões de prova/documento por usuário por mês, em um único relatório. Esses dados estão disponíveis quando você executa um relatório de Decisões do usuário.
+
+Para obter mais informações, consulte [Entender objetos no Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) e e [Exibir o número de decisões de prova e documento para todos os usuários](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).
 
 ## Campos calculados em formulários personalizados agora podem usar o curinga $$USER
 

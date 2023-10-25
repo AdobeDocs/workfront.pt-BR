@@ -5,9 +5,9 @@ title: Entender objetos no [!DNL Adobe Workfront]
 description: Entender objetos no [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2255'
 ht-degree: 7%
 
 ---
@@ -334,6 +334,10 @@ Você pode criar relatórios sobre os seguintes objetos ao usar o Report Builder
 * [!UICONTROL Delegação de usuários]
 
   Você pode relatar usuários que foram delegados a executar tarefas e problemas de outras pessoas enquanto estiverem fora do escritório. Esse relatório exibe o usuário que está fora do escritório, bem como o usuário que cumpre suas obrigações enquanto está fora.
+
 * [!UICONTROL Decisões dos usuários]
+
+  Você pode relatar quantas decisões os usuários tomaram sobre provas e documentos no mês atual.
+
 * [!UICONTROL Exibir]
 * [!UICONTROL Item de trabalho] (isso produz um relatório para tarefas e problemas)
