@@ -7,7 +7,7 @@ description: É possível criar uma pasta vinculada ao Experience Manager Assets
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: f12b271f87f9f0dfc5a04c019466b83dbe2b08ca
+source-git-commit: 1744e6f2b78c64ba2fa4856d9c6a0611404e4458
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -79,6 +79,7 @@ Para criar uma pasta vinculada:
 
 1. Vá para o Projeto onde deseja colocar a pasta.
 1. Selecionar **Adicionar novo**, em seguida, acesse a integração do Experience Manager configurada pelo administrador.
+
    >[!NOTE]
    >
    >O administrador do Workfront pode escolher qualquer nome para essa integração, portanto, pode ser que ele não mencione especificamente o Experience Manager Assets ou o Assets Essentials.
