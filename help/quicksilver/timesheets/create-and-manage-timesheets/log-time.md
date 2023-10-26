@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '3470'
+source-wordcount: '3349'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,12 @@ ht-degree: 0%
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>\
-<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
 
-<span class="preview">Para obter informações sobre a programação de lançamento atual, consulte [Visão geral da versão do quarto trimestre de 2023](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
+-->
 
 Você pode registrar o tempo para itens de trabalho no Adobe Workfront para indicar o número de horas que você gasta trabalhando neles. Você também pode registrar horas que não estejam relacionadas ao trabalho, como férias, licença médica ou tempo gasto em reuniões. O horário registrado é exibido em sua folha de horas.
 
@@ -366,14 +368,6 @@ Você pode registrar o tempo específico do projeto em um projeto, tarefa ou pro
 
 #### Atualiza a seção{#updates-section}
 
-<!--remove the note below - October 2023 -->
-
->[!NOTE]
->
-> Há pequenas diferenças na aparência da interface do usuário entre a seção Atualizações atual e a nova seção. As informações nesta seção se referem à funcionalidade, como ela é exibida na nova experiência de comentários.
->
->Para obter mais informações sobre a nova seção Atualizações, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
 Para registrar horas na seção Atualizações de um projeto, tarefa ou problema, você deve ter o seguinte:
 
 * Uma licença de Trabalho ou Plano.
@@ -390,7 +384,7 @@ Para registrar horas na seção Atualizações de um projeto, tarefa ou problema
 1. No painel esquerdo, selecione **Atualizações**.
 1. Clique em **Registro de tempo**. <!-- did Anna B change the casing for this button? If yes and if she changed it for the other areas, update screen shot too-->
 
-   A caixa de diálogo Log Time (Registrar horário) é exibida.
+   A caixa de diálogo Log time é exibida.
 
    >[!TIP]
    >
@@ -398,7 +392,7 @@ Para registrar horas na seção Atualizações de um projeto, tarefa ou problema
    >   
    >   Há uma indicação no canto superior direito da caixa Inserir dias de quantas horas são incluídas em um dia.
 
-   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
+   ![](assets/log-time-box-in-updates-stream.png)
 
 1. Especifique as seguintes informações:
 
@@ -410,7 +404,7 @@ Para registrar horas na seção Atualizações de um projeto, tarefa ou problema
 
    * **Horas**: insira o número de horas do projeto, tarefa ou problema.
 
-1. Clique em **Registro de tempo**.
+1. Clique em **Registrar tempo**.
 
 #### seção Horas{#hours-section}
 

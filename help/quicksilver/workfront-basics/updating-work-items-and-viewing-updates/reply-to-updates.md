@@ -8,28 +8,37 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
 
 # Responder a atualizações
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>\
-<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
+<!--remove legacy and new experience references when we remove the legacy updates in the UI - Jan 2024???-->
 
-<span class="preview">Para obter informações sobre a programação de lançamento atual, consulte [Visão geral da versão do quarto trimestre de 2023](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
+
+-->
 
 >[!IMPORTANT]
 >
 >No momento, estamos reprojetando a experiência de comentários no Adobe Workfront.
->Dependendo do ambiente e de quais objetos você acessa a experiência de comentários, você pode ver funcionalidades diferentes na seção Atualizações.
+>
+>Dependendo dos objetos para os quais você acessa a experiência de comentários, você pode ver a seguinte funcionalidade para a seção Atualizações:
+>* A nova experiência
+>* A experiência herdada
+>* A experiência nova e herdada
 >
 >Para obter mais informações sobre a nova experiência de comentários e sua disponibilidade, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->A nova experiência de comentários está disponível somente para a seção Atualizações e não está disponível para as seguintes áreas:
+>A nova experiência de comentários está disponível somente para a seção Atualizações de objetos do Workfront e não está disponível quando você acessa os objetos das seguintes áreas:
 >
 > * Página inicial
 > * Painel Resumo em listas
@@ -41,6 +50,7 @@ Quando alguém responde a um comentário ou a uma atualização do sistema em um
 >
 >Não é possível responder às atualizações do sistema na nova experiência de comentários. Para obter mais informações, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
+<!--adjust the sentence before the second IMPORTANT and remove this important note when we remove legacy from the system-->
 
 ## Requisitos de acesso
 
@@ -79,7 +89,30 @@ Você pode responder a um comentário na thread de um objeto que pode ser exibid
 
 Responder a um comentário ou resposta difere de acordo com a experiência e o objeto selecionado.
 
-### Responder a uma atualização ou resposta na seção Atualizações atual
+### Responder a um comentário ao usar a nova experiência de comentários
+
+Para obter informações sobre quais recursos estão disponíveis na nova experiência de comentários e para quais objetos, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+1. Vá para o objeto ao qual deseja adicionar uma resposta.
+1. Clique em **Atualizações** e, em seguida, clique na guia **Comentários** para o objeto e localize o comentário ou resposta à qual deseja responder.
+1. (Opcional) Para incluir texto de uma atualização anterior em sua resposta, clique no link **Mais** no canto superior direito do comentário que deseja responder e clique em **Citar resposta**. O texto da atualização anterior é exibido na área de entrada, marcado com uma linha cinza vertical.
+1. Clique em **Responder**.
+
+   ![](assets/reply-to-update-empty-box.png)
+
+   Você pode ver os usuários que estão ativamente envolvidos na conversa na parte inferior da **Adicionar resposta...** e você poderá adicionar ou remover as que não são mais relevantes. Esses usuários, juntamente com quaisquer usuários que se inscreveram no objeto, recebem uma notificação sempre que uma atualização ou resposta é feita no objeto. Você também pode adicionar tags a mais usuários para incluí-los em sua resposta.  Para marcar mais usuários, consulte [Marcar outros usuários em atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+   >[!TIP]
+   >
+   >   Para adicionar respostas adicionais a uma resposta existente, comece digitando o **Adicionar resposta...** ou clique em **Responder** sobre o comentário original. Sua resposta é adicionada ao final da thread.
+
+1. Comece a digitar sua resposta e use qualquer opção adicional da barra de ferramentas Rich Text. Para obter informações sobre como usar Rich Text ou outros recursos de atualização, consulte [Atualizar trabalho](../updating-work-items-and-viewing-updates/update-work.md).
+
+1. Clique em **Enviar** para salvar a resposta.
+
+1. (Opcional) Clique no link **Mais** menu ![](assets/more-menu.png) no canto superior direito do comentário que você deseja responder para obter mais opções para gerenciar a resposta. Para obter mais informações, consulte [Atualizar trabalho](../updating-work-items-and-viewing-updates/update-work.md).
+
+### Responder a uma atualização ou resposta na seção Atualizações herdadas
 
 1. Vá para o objeto ao qual deseja adicionar uma resposta.
 1. No **Atualizações** para o objeto, localize a atualização ou resposta à qual deseja responder.
@@ -98,30 +131,6 @@ Responder a um comentário ou resposta difere de acordo com a experiência e o o
 1. (Opcional) Para incluir texto de uma atualização anterior em sua resposta, clique no link **Mais** ao lado da atualização ou resposta que deseja citar, clique em **Citar resposta**. O texto da atualização anterior é exibido na área de entrada, marcado com uma linha cinza vertical.
 1. (Opcional) Use formatação, emojis, links de inclusão ou imagens, conforme explicado na seção &quot;Usar Rich Text em uma atualização do Workfront&quot; no artigo [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Clique em **Responder** para salvar a resposta.
-
-### Responder a um comentário ao usar a nova experiência de comentários
-
-Para obter informações sobre quais recursos estão disponíveis na nova experiência de comentários e para quais objetos, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
-1. Vá para o objeto ao qual deseja adicionar uma resposta.
-1. Clique em **Atualizações** e, em seguida, clique na guia **Comentários** para o objeto e localize o comentário ou resposta à qual deseja responder.
-1. (Opcional) Para incluir texto de uma atualização anterior em sua resposta, clique no link **Mais** menu <span class="preview">no canto superior direito do comentário que você deseja responder</span>e, em seguida, clique em **Citar resposta**. O texto da atualização anterior é exibido na área de entrada, marcado com uma linha cinza vertical.
-1. Clique em **Responder**.
-
-   ![](assets/reply-to-update-empty-box.png)
-
-   Você pode ver os usuários que estão ativamente envolvidos na conversa na parte inferior da **Adicionar resposta...** e você poderá adicionar ou remover as que não são mais relevantes. Esses usuários, juntamente com quaisquer usuários que se inscreveram no objeto, recebem uma notificação sempre que uma atualização ou resposta é feita no objeto. Você também pode adicionar tags a mais usuários para incluí-los em sua resposta.  Para marcar mais usuários, consulte [Marcar outros usuários em atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-
-   >[!TIP]
-   >
-   >   <span class="preview">Para adicionar respostas adicionais a uma resposta existente, comece digitando o **Adicionar resposta...** ou clique em **Responder** sobre o comentário original. Sua resposta é adicionada ao final da thread. </span>
-
-1. Comece a digitar sua resposta e use qualquer opção adicional da barra de ferramentas Rich Text. Para obter informações sobre como usar Rich Text ou outros recursos de atualização, consulte [Atualizar trabalho](../updating-work-items-and-viewing-updates/update-work.md).
-
-1. Clique em **Enviar** para salvar a resposta.
-
-1. (Opcional) Clique no link **Mais** menu ![](assets/more-menu.png) <span class="preview">no canto superior direito do comentário que você deseja responder</span> para obter mais opções para gerenciar a resposta. Para obter mais informações, consulte [Atualizar trabalho](../updating-work-items-and-viewing-updates/update-work.md).
-
 
 ## Resposta a uma atualização de uma notificação por email
 
