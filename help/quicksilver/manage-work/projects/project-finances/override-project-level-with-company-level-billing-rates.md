@@ -6,7 +6,7 @@ description: Sobrepor Taxas de Cobrança no Nível do Projeto com Taxas de Cobra
 author: Alina
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -86,11 +86,11 @@ Depois que você ativou a opção de substituição de taxas de cobrança no ní
 
    * Vários projetos:
 
-   1. Ir para uma lista de projetos.
-   1. Marque a caixa de seleção de acordo com os projetos que deseja atualizar.
-   1. Clique em **Editar**.
-   1. Na seção Configurações, ative a opção **Recalcular Custos e Receitas** opção.
-   1. Clique em **Salvar alterações**.
+      1. Ir para uma lista de projetos.
+      1. Marque a caixa de seleção de acordo com os projetos que deseja atualizar.
+      1. Clique em **Editar**.
+      1. Na seção Configurações, ative a opção **Recalcular Custos e Receitas** opção.
+      1. Clique em **Salvar alterações**.
 
    * Um único projeto:
 

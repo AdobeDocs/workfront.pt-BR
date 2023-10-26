@@ -10,20 +10,20 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: e08b56b3bc212d49fd594912b6b28cd8e8f77b8b
+source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # Visão geral de licenças
 
-Sua organização adquiriu um determinado número de licenças quando adquiriu a Adobe Workfront. Como administrador do Workfront, você fornece um dos quatro tipos de licenças pagas do Workfront a cada usuário ao atribuir a ele um nível de acesso.
+Sua organização adquiriu um determinado número de licenças quando adquiriu a Adobe Workfront. Como administrador do Workfront, você fornece um dos cinco tipos de licenças do Workfront para cada usuário ao atribuir um nível de acesso ao usuário.
 
 ## Como licenças e níveis de acesso são vinculados
 
-Os quatro tipos de licenças pagas do Workfront permitem diferentes níveis de acesso ao Workfront. Cada nível de acesso é anexado a uma dessas licenças.
+Os cinco tipos de licenças do Workfront permitem diferentes níveis de acesso ao Workfront. Cada nível de acesso é anexado a uma dessas licenças.
 
 Como administrador do Workfront, em vez de atribuir uma licença a um usuário, você atribui a ele o nível de acesso anexado a essa licença.
 
@@ -34,6 +34,7 @@ Esta tabela e diagrama mostram os principais níveis de acesso ao Workfront:
 | Plano | Administrador do sistema, planejador |
 | Trabalho | Trabalhador |
 | Revisar | Oliveira |
+| Solicitar | Solicitante |
 | Externo | Usuário externo |
 
 >[!NOTE]
