@@ -6,7 +6,7 @@ description: Você pode adicionar documentos a cartões conectados em Adobe Work
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: 2e9ba58c01f3c5c6569c88e05993674d56124806
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Adicionar documentos em cartões
-
-{{article-preview-and-fast-release}}
 
 Você pode adicionar documentos a cartões conectados em Adobe Workfront Boards. Todos os documentos adicionados no cartão ficam disponíveis na guia Documents da tarefa ou problema conectado e os documentos adicionados na tarefa ou problema ficam visíveis no cartão. Os mesmos tipos de arquivos são suportados em ambas as áreas. Para obter mais informações sobre documentos no Workfront, consulte [Adicionar documentos ao Adobe Workfront a partir do sistema de arquivos](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 

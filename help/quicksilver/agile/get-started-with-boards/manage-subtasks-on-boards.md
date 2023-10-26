@@ -5,7 +5,7 @@ title: Gerenciar subtarefas em quadros
 description: Usar subtarefas em cartões permite estabelecer uma relação pai-filho entre tarefas e criar uma hierarquia de trabalho.
 author: Lisa
 feature: Agile
-source-git-commit: 7b4e1bc58fbaf30ff86e8ec95664cb3baaae2ef7
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # Gerenciar subtarefas em quadros
-
-{{highlighted-preview-article-level}}
 
 Usar subtarefas em cartões permite estabelecer uma relação pai-filho entre tarefas e criar uma hierarquia de trabalho. Uma subtarefa adicionada a um cartão em um quadro do Workfront também é adicionada à tarefa no projeto do Workfront. Para obter mais informações sobre subtarefas e tarefas no nível do projeto, consulte [Criar subtarefas](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 

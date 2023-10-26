@@ -7,9 +7,9 @@ description: Leia este artigo para saber mais sobre [!DNL Workfront Boards] acei
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 28fd1872b05c620cf4e86a4044317cd7958e4482
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -183,9 +183,9 @@ A tabela a seguir descreve os principais recursos das placas, juntamente com o s
   </tr>
   <tr>
    <td>Exibir documentos em cartões conectados</td>
-   <td>Parcialmente liberado</td>
+   <td>Lançado</td>
   </tr>
- </tbody> 
+ </tbody>
 </table>
 
 ## Aceitar os recursos anteriores

@@ -6,7 +6,7 @@ description: Você pode adicionar um cartão ao seu quadro conectado a tarefas e
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 99e985642fff751ac67a9de562908bd2156b3812
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
 source-wordcount: '1427'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Usar placas conectadas em placas
-
-{{preview-and-fast-release}}
 
 Você pode adicionar um cartão ao seu quadro que esteja conectado a tarefas e problemas existentes no [!DNL Workfront].
 
@@ -27,8 +25,8 @@ Quando qualquer um dos detalhes a seguir é atualizado para o cartão em um loca
 * [!UICONTROL Status]
 * [!UICONTROL Data de conclusão planejada]
 * [!UICONTROL Estimativa] / [!UICONTROL Pontos da história]
-* <span class="preview">[!UICONTROL Subtarefas]</span>
-* <span class="preview">[!UICONTROL Documentos]</span>
+* [!UICONTROL Subtarefas]
+* [!UICONTROL Documentos]
 
 >[!NOTE]
 >
@@ -137,10 +135,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      </tr>
      <tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Subtarefa]</strong></span></td>
-      <td><span class="preview"><p>Todas as subtarefas existentes para a tarefa aparecem nesta seção. Clique em <strong>[!UICONTROL Adicionar Subtarefa]</strong> para adicionar uma nova subtarefa.</p>
+      <td role="rowheader"><strong>[!UICONTROL Subtarefa]</strong></td>
+      <td><p>Todas as subtarefas existentes para a tarefa aparecem nesta seção. Clique em <strong>[!UICONTROL Adicionar Subtarefa]</strong> para adicionar uma nova subtarefa.</p>
       <p>O contador na parte superior da seção mostra o número de subtarefas concluídas e o número total de subtarefas.</p>
-      <p>Para obter mais informações sobre subtarefas, consulte <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">Gerenciar subtarefas em quadros</a>.</p></span></td>
+      <p>Para obter mais informações sobre subtarefas, consulte <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">Gerenciar subtarefas em quadros</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Lista de Verificação]</strong></td>
@@ -148,8 +146,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
       <p>O contador na parte superior da lista de verificação mostra o número de itens concluídos e o número total de itens.</p> <p>Para obter mais informações sobre os itens da lista de verificação, consulte <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gerenciar itens da lista de verificação em cartões</a>.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Documentos]</strong></span></td>
-      <td><span class="preview">Para um documento existente, passe o mouse sobre a miniatura do documento e clique em <strong>Visualizar</strong> para exibir o arquivo no navegador ou <strong>Baixar</strong> para baixar o arquivo no seu computador. Para obter um novo documento, consulte <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Adicionar documentos em cartões</a>.</span></td>
+      <td role="rowheader"><strong>[!UICONTROL Documentos]</strong></td>
+      <td>Para um documento existente, passe o mouse sobre a miniatura do documento e clique em <strong>Visualizar</strong> para exibir o arquivo no navegador ou <strong>Baixar</strong> para baixar o arquivo no seu computador. Para obter um novo documento, consulte <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Adicionar documentos em cartões</a>.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Horas]</strong></td>
