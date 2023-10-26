@@ -6,7 +6,7 @@ description: Você pode estimar seus recursos no Planejador de Recursos da Adobe
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: d2b62f2ec2f52c54129b342d68c336c782601242
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
 source-wordcount: '1445'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Calcular custos no Planejador de recursos
-
-{{highlighted-preview}}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)</p>
@@ -142,13 +140,9 @@ Embora não seja possível exibir as informações da tarefa no Planejador de Re
 * A variável **Tipo de Custo** das tarefas no projeto.\
   Para obter mais informações sobre o Tipo de Custo de uma tarefa, consulte [Rastrear custos](../../manage-work/projects/project-finances/track-costs.md).
 
-<div class="preview">
-
 * As datas efetivas das taxas de custo para funções de trabalho e usuários.
 
   Por exemplo, se a função ou o usuário tiver 10 horas planejadas em fevereiro e 10 horas planejadas em março, mas a taxa de custo tiver sido alterada de US$ 12 para US$ 20 em março, o valor do Custo Planejado em fevereiro será de US$ 120 e em março o Custo Planejado será de US$ 200.
-
-</div>
 
 >[!NOTE]
 >
@@ -172,11 +166,7 @@ Existem os seguintes cenários ao calcular o Custo Planejado para usuários, fun
 
      O Custo Planejado do Usuário é calculado usando a seguinte fórmula:
 
-
-
-     ```
-     User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate
-     ```
+     `User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate`
 
      Se um usuário tiver uma taxa de custo em seu perfil, essa taxa será usada para calcular o Custo Planejado. Caso contrário, a taxa de Custo por hora em nível de sistema da Função principal será usada.
 
@@ -186,9 +176,7 @@ Existem os seguintes cenários ao calcular o Custo Planejado para usuários, fun
 
      O Custo Planejado da Função é calculado usando a seguinte fórmula:
 
-     ```
-     Role Planned Cost = SUM(User Planned Cost)
-     ```
+     `Role Planned Cost = SUM(User Planned Cost)`
 
    * **Custo Planejado do Projeto**:
 
@@ -202,9 +190,7 @@ Existem os seguintes cenários ao calcular o Custo Planejado para usuários, fun
 
      O Custo Planejado da Função é calculado usando a seguinte fórmula:
 
-     ```
-     Role Planned Cost = Role Planned Hours * Role Cost per Hours
-     ```
+     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
      A taxa de Custo por Hora em nível de sistema da função de trabalho atribuída à tarefa é usada para calcular o Custo Planejado.
 
@@ -230,9 +216,7 @@ Existem os seguintes cenários ao calcular o Custo Planejado para usuários, fun
 
      O Custo Planejado da Função é calculado pela seguinte fórmula:
 
-     ```
-     Role Planned Cost = Role Planned Hours * Role Cost per Hours
-     ```
+     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
      A Workfront analisa a função de trabalho que o usuário desempenha na tarefa para calcular o Custo planejado da função.
 
@@ -242,9 +226,7 @@ Existem os seguintes cenários ao calcular o Custo Planejado para usuários, fun
 
      O Custo Planejado do Projeto é calculado usando a seguinte fórmula:
 
-     ```
-     Project Planned Cost = SUM(Role Planned Costs)
-     ```
+     `Project Planned Cost = SUM(Role Planned Costs)`
 
 * Quando a variável **Tipo de Custo** é **Função por hora** e há uma **atribuição de função de trabalho** na tarefa:
 
@@ -254,9 +236,7 @@ Existem os seguintes cenários ao calcular o Custo Planejado para usuários, fun
 
      O Custo Planejado da Função é calculado pela seguinte fórmula:
 
-     ```
-     Role Planned Cost = Role Planned Hours * Role Cost per Hours
-     ```
+     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
      A Workfront analisa a função de trabalho que o usuário desempenha na tarefa para calcular o Custo planejado da função.
 
@@ -264,9 +244,7 @@ Existem os seguintes cenários ao calcular o Custo Planejado para usuários, fun
 
      O Custo Planejado do Projeto é calculado usando a seguinte fórmula:
 
-     ```
-     Project Planned Cost = SUM(Role Planned Costs)
-     ```
+     `Project Planned Cost = SUM(Role Planned Costs)`
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(table below ideal but drafted because it does not display correctly in Markdown)</p>

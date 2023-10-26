@@ -6,16 +6,14 @@ description: Sobrepor Taxas de Cobrança no Nível do Projeto com Taxas de Cobra
 author: Alina
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 # Sobrepor Taxas de Cobrança no Nível do Projeto com Taxas de Cobrança no Nível da Empresa
-
-{{highlighted-preview}}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: THIS IS LINKED TO THE UI IN THE EDIT PROJECT MODAL)</p>
@@ -80,17 +78,9 @@ Depois que você ativou a opção de substituição de taxas de cobrança no ní
 1. Clique em **Empresas**.
 1. Clique no nome da empresa associada ao projeto para o qual você ativou a substituição de taxas de cobrança no nível da empresa.
 1. Clique em **Taxas de cobrança** no painel esquerdo.
-1. No ambiente Produção, insira a nova taxa de faturamento para uma função de trabalho existente na **Taxa de Cobrança da Empresa** e pressione Enter.
+1. Atualize o **Taxa de Cobrança da Empresa** e datas de início/término para uma função de trabalho existente, em seguida, pressione Enter.
 
-   Ou
-
-   <div class="preview">
-
-   No ambiente de Pré-visualização, atualize o **Taxa de Cobrança da Empresa** e datas de início/término para uma função de trabalho existente, em seguida, pressione Enter.
-
-   Para adicionar uma nova taxa de cobrança da empresa de data de efetivação, selecione uma taxa de cobrança para a função de trabalho e clique em Editar. Para obter mais informações sobre taxas de faturamento da empresa de data efetiva, consulte [Substituir taxas de cobrança de função de trabalho no nível da empresa](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
-
-   </div>
+   Para adicionar uma nova taxa de cobrança da empresa de data de efetivação, selecione uma taxa de cobrança para a função de trabalho e clique em **Editar**. Para obter mais informações sobre taxas de faturamento da empresa de data efetiva, consulte [Substituir taxas de cobrança de função de trabalho no nível da empresa](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 1. Para atualizar as taxas da empresa para um ou mais projetos, siga um destes procedimentos:
 
