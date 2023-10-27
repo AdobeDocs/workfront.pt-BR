@@ -6,9 +6,9 @@ description: Campos de recurso de assinatura do evento
 author: Becky
 feature: Workfront API
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: a000e1fc353bfbe47851062945adb810804d8dee
+source-git-commit: 80b42da8f9cd51571258c7b09fe4498be5244320
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '644'
 ht-degree: 10%
 
 ---
@@ -146,7 +146,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p><span style="color: #ff0000;"> Este campo está obsoleto e será removido durante a semana de 23 de outubro de 2023.</p></span></td> 
+   <td>workPerDate <p>[!BADGE Removed]{type=denied tooltip="Este campo foi removido em 26 de outubro de 2023."}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 
