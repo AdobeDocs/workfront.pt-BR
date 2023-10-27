@@ -3,16 +3,16 @@ title: Melhorias nas placas do quarto trimestre de 2023
 description: Melhorias nas placas do quarto trimestre de 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 8488cb46b3dd9b377c59121597db5b6fe784fdab
+source-git-commit: ee84471418590401fe143741cadd1d76a8917149
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
 
 # Melhorias nas placas do quarto trimestre de 2023
 
-Esta página descreve todas as melhorias nas placas feitas com a versão do quarto trimestre de 2023 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão 23.10.
+Esta página descreve todas as melhorias nas placas feitas com a versão do quarto trimestre de 2023 para o ambiente de Pré-visualização. Essas melhorias foram disponibilizadas no ambiente de Produção com a versão 23.10.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2023, consulte [Visão geral da versão do quarto trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 

@@ -3,16 +3,16 @@ title: Melhorias no gerenciamento financeiro do quarto trimestre de 2023
 description: Melhorias no gerenciamento financeiro do quarto trimestre de 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 1b247102f3d413e779106577a8b4a9c2c39b20da
+source-git-commit: ee84471418590401fe143741cadd1d76a8917149
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
 # Melhorias no gerenciamento financeiro do quarto trimestre de 2023
 
-Esta página descreve todos os aprimoramentos do Financial Management feitos na versão do Quarto Trimestre de 2023 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão 23.10.
+Esta página descreve todos os aprimoramentos do Financial Management feitos na versão do Quarto Trimestre de 2023 para o ambiente de Pré-visualização. Essas melhorias foram disponibilizadas no ambiente de Produção com a versão 23.10.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2023, consulte [Visão geral da versão do quarto trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 

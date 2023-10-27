@@ -3,16 +3,16 @@ title: Quarto trimestre de 2023 Outras melhorias
 description: Quarto trimestre de 2023 Outras melhorias
 author: Lisa
 feature: Product Announcements
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: ee84471418590401fe143741cadd1d76a8917149
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
 
 # Quarto trimestre de 2023 Outras melhorias
 
-Esta página descreve todas as outras melhorias feitas com a versão do quarto trimestre de 2023 no ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão 23.10.
+Esta página descreve todas as outras melhorias feitas com a versão do quarto trimestre de 2023 no ambiente de Pré-visualização. Essas melhorias foram disponibilizadas no ambiente de Produção com a versão 23.10.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2023, consulte [Visão geral da versão do quarto trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
