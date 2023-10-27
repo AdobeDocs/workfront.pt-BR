@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc9d47dddacf82b352ed4dbfe8e57861859d752b
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2609'
 ht-degree: 7%
 
 ---
@@ -308,13 +308,21 @@ Cada linha da planilha corresponde a um objeto exclusivo.
 1. Preencha a célula na **isNew** coluna:
 
    * Se o objeto que você está importando for novo, digite **TRUE** para importar os dados na linha.
-   * Se o objeto já estiver na Workfront, digite **FALSO** para ignorar a linha.
+   * Se o objeto já estiver na Workfront, **FALSO** deve estar na coluna para ignorar a linha.
+
+      * Os registros que já existem no Workfront não são atualizados.
+      * Se você baixou um modelo com dados, os objetos existentes já estão marcados com **FALSO**.
+      * Se você baixou um modelo em branco, não é necessário adicionar novas linhas para objetos existentes.
 
 1. Preencha a célula na **ID** de uma das seguintes formas:
 
-   * Se o objeto que você está importando for novo (e você digitou **TRUE** no **isNew** ), especifique qualquer número para a ID. Esse número deve ser exclusivo na planilha.
+   * Se o objeto que você está importando for novo (e você digitou **TRUE** no **isNew** ), digite qualquer número para a ID. Esse número deve ser exclusivo na planilha.
 
-   * Se o objeto que você está importando já existir no sistema Workfront (e você digitou **FALSO** no **isNew** ), a ID deve ser o GUID alfanumérico que existe no Workfront para esse objeto.
+   * Se o objeto já existir no Workfront (e **FALSO** está na **isNew** ), a ID deve ser o GUID alfanumérico que existe no Workfront para esse objeto.
+
+      * Os registros que já existem no Workfront não são atualizados.
+      * Se você baixou um modelo com dados, os objetos existentes já contêm o GUID como a ID.
+      * Você pode importar um novo objeto com base em um objeto existente alterando **FALSO** para **TRUE** no **isNew** , alterando a ID e fazendo os ajustes de dados necessários antes da importação.
 
      ![ID de exemplo para um grupo](assets/kick-start-group-example.png)
 
