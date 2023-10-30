@@ -2,25 +2,21 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Cenários de depuração com a Ferramenta de Desenvolvimento Adobe Workfront Fusion
-description: A Ferramenta de Desenvolvimento Adobe Workfront Fusion permite compreender e solucionar problemas de cenários. A DevTool adiciona um painel extra às Ferramentas do desenvolvedor do Chrome. Usando esse painel do depurador, você pode verificar todas as execuções manuais do cenário, revisar todas as operações executadas e ver os detalhes de cada chamada de API realizada. Você pode ver qual módulo, operação ou única resposta causou o erro e usar esse conhecimento para refinar seu cenário.
+title: Depurar cenários com o Adobe Workfront Fusion Devtool
+description: O Adobe Workfront Fusion Devtool permite compreender e solucionar problemas de cenários. O Devtool adiciona um painel extra às Ferramentas do desenvolvedor do Chrome. Usando esse painel do depurador, você pode verificar todas as execuções manuais do cenário, revisar todas as operações executadas e ver os detalhes de cada chamada de API realizada. Você pode ver qual módulo, operação ou única resposta causou o erro e usar esse conhecimento para refinar seu cenário.
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 19de44559be7b5bd7584012f1d6f7e12523f12be
+source-git-commit: 28ca9bab8d6a5aed395dc3297eb62912ebb506c7
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1816'
 ht-degree: 0%
 
 ---
 
-# Depurar cenários com o [!DNL Adobe Workfront Fusion] DevTool
+# Depurar cenários com o [!DNL Adobe Workfront Fusion] Devtool
 
-A variável [!DNL Adobe Workfront Fusion] O DevTool permite compreender e solucionar problemas de cenários. A DevTool adiciona um painel extra à [!DNL Chrome Developer Tools]. Usando esse painel do depurador, você pode verificar todas as execuções manuais do cenário, revisar todas as operações executadas e ver os detalhes de cada chamada de API realizada. Você pode ver qual módulo, operação ou única resposta causou o erro e usar esse conhecimento para refinar seu cenário.
-
->[!NOTE]
->
->A Ferramenta de Desenvolvimento Workfront Fusion não está disponível para organizações que acessam o Fusion por meio do Unified Shell Adobe.
+A variável [!DNL Adobe Workfront Fusion] Devtool permite que você entenda e solucione problemas de cenários. O Devtool adiciona um painel extra ao [!DNL Chrome Developer Tools]. Usando esse painel do depurador, você pode verificar todas as execuções manuais do cenário, revisar todas as operações executadas e ver os detalhes de cada chamada de API realizada. Você pode ver qual módulo, operação ou única resposta causou o erro e usar esse conhecimento para refinar seu cenário.
 
 ## Requisitos de acesso
 
@@ -61,34 +57,49 @@ Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Instale o [!DNL Chrome] Extensão DevTool
+## Acessar o Workfront Fusion Devtool
 
-<!--
-To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
+O acesso ao Devtool é diferente conforme você está usando o Fusion na [!DNL Adobe Unified Experience].
 
-1. Click [this link](assets/workfront-fusion-devtool-2023-feb.zip) to download the extension.
-1. When the files have downloaded, extract them to a folder of your choice.
-1. Open a tab in [!DNL Chrome]
-1. In the search bar of the tab, enter `chrome://extensions`.
-1. Click the **[!UICONTROL Developer mode]** toggle at the upper-right of the screen to enable Developer mode. If the toggle to the right, developer mode is enabled.
-1. Click **[!UICONTROL Load unpacked]**.
-1. Select the folder containing the DevTool (where you extracted the files in step 2).
+* [Acesse o Devtool no [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
+* [Acessar o Devtool no clássico [!DNL Fusion] experiência](#access-the-devtool-in-the-classic-fusion-experience)
 
-   Once unpacked, the DevTool appears among your other Chrome extensions.
-   -->
+### Acesse o Devtool no [!DNL Adobe Unified Experience]
 
-Você pode adicionar o [!DNL Workfront Fusion] DevTool para [!DNL Chrome] por meio da [!UICONTROL [!DNL Chrome] Loja na Web].
+Se você usar o Fusion no Unified Shell do Adobe, poderá acessar a Ferramenta de desenvolvimento no editor de cenários.
 
-1. Clique em [este link](https://chrome.google.com/webstore/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) para acessar o [!DNL Workfront Fusion] DevTool no [!UICONTROL [!DNL Chrome] Loja na Web].
+1. Vá para o Editor de cenários do cenário que deseja depurar.
+
+   Para localizar o editor de cenários, consulte [Editor de cenários](/help/quicksilver/workfront-fusion/scenarios/scenario-editor.md).
+
+1. Clique com o botão direito do mouse em uma área vazia da página (não em um módulo ).
+1. Selecionar **Abrir Devtool**.
+
+>[!NOTE]
+>
+>Atualmente, apenas o **Live Stream** área do Devtool está disponível para usuários no Unified Shell.
+
+### Acessar o Devtool no clássico [!DNL Fusion] experiência
+
+Para usar o Devtool no clássico [!DNL Fusion] experiência, você deve instalar um [!DNL Chrome] extensão. Em seguida, você pode usar essa extensão na [!DNL Chrome] Ferramentas do desenvolvedor.
+
+* [Instale o [!DNL Chrome] Extensão Devtool](#install-the-chrome-devtool-extension)
+* [Localize o [!DNL Workfront Fusion] Devtool](#locate-the-workfront-fusion-devtool)
+
+#### Instale o [!DNL Chrome] Extensão Devtool
+
+Você pode adicionar o [!DNL Workfront Fusion] Devtool para [!DNL Chrome] por meio da [!UICONTROL [!DNL Chrome] Loja na Web].
+
+1. Clique em [este link](https://chrome.google.com/webstore/detail/workfront-fusion-Devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) para acessar o [!DNL Workfront Fusion] Devtool no [!UICONTROL [!DNL Chrome] Loja na Web].
 1. Clique em **[!UICONTROL Adicionar a[!DNL Chrome]]**.
 1. Na janela que abre, examine as permissões. Se você concordar com as permissões, clique em **[!UICONTROL Adicionar extensão]**.
 
-A variável [!DNL Workfront Fusion] A extensão DevTool é adicionada ao [!DNL Chrome] extensões.
+A variável [!DNL Workfront Fusion] A extensão Devtool é adicionada ao [!DNL Chrome] extensões.
 
 
-## Localize o [!DNL Workfront Fusion] DevTool
+#### Localize o [!DNL Workfront Fusion] Devtool
 
-Para usar o [!DNL Workfront Fusion] DevTool, você deve adicionar o [!DNL Workfront Fusion] Extensão DevTool para o [!DNL Chrome] navegador, conforme descrito em [Instalar a extensão DevTool do Chrome](#install-the-chrome-devtool-extension).
+Para usar o [!DNL Workfront Fusion] Devtool, você deve adicionar o [!DNL Workfront Fusion] Devtool extensão para o seu [!DNL Chrome] navegador, conforme descrito em [Instalar a extensão Devtool do Chrome](#install-the-chrome-Devtool-extension).
 
 1. Abra o [!DNL Workfront Fusion] cenário.
 1. Aberto [!DNL Chrome Developer Tools]:
@@ -114,9 +125,9 @@ Para usar o [!DNL Workfront Fusion] DevTool, você deve adicionar o [!DNL Workfr
 
 1. Clique em **[!DNL Workfront Fusion]** guia em [!DNL Chrome Dev Tools].
 
-## Use o [!DNL Workfront Fusion] DevTool
+## Use o [!DNL Workfront Fusion] Devtool
 
-O Workfront Fusion DevTool é dividido em três seções principais. Você pode encontrá-los no painel esquerdo da janela DevTool.
+O Workfront Fusion Devtool está dividido em três seções principais. Você pode encontrá-los no painel esquerdo da janela Devtool.
 
 * [Live Stream](#live-stream)
 * [Depurador de cenários](#scenario-debugger)
@@ -147,26 +158,26 @@ O Live Stream exibe o que está acontecendo em segundo plano quando você clica 
         <li> <p>Corpo da solicitação</p> </li> 
         <li> <p>Cabeçalhos de resposta</p> </li> 
         <li> <p>Corpo da resposta</p> </li> 
-       </ul> <p>Para exibir essas informações, clique na guia apropriada no painel direito do [!DNL Workfront Fusion] DevTool</p> </td> 
+       </ul> <p>Para exibir essas informações, clique na guia apropriada no painel direito do [!DNL Workfront Fusion] Devtool.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Pesquisar solicitações e respostas</p> </td> 
-      <td> <p>Insira o termo de pesquisa no campo de pesquisa no painel esquerdo do [!DNL Workfront Fusion] DevTool para exibir somente solicitações que contenham o termo de pesquisa.</p> </td> 
+      <td> <p>Insira o termo de pesquisa no campo de pesquisa no painel esquerdo do [!DNL Workfront Fusion] Devtool para exibir somente solicitações que contêm o termo de pesquisa.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Remover lista de solicitações </p> </td> 
-      <td> <p>Clique no ícone de lixeira no canto superior direito do painel esquerdo da DevTool para limpar a lista de solicitações registradas pela [!DNL Workfront Fusion] DevTool </p> </td> 
+      <td> <p>Clique no ícone de lixeira no canto superior direito do painel esquerdo do Devtool para limpar a lista de solicitações registradas pelo [!DNL Workfront Fusion] Devtool. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Ativar o registro do console</p> </td> 
-      <td> <p>Clique no ícone do computador <img src="assets/console-computer-icon.png"> no canto superior direito do painel esquerdo da DevTool.</p> <p>O login no console é ativado quando o ícone do computador está verde.</p> </td> 
+      <td> <p>Clique no ícone do computador <img src="assets/console-computer-icon.png"> no canto superior direito do painel esquerdo do Devtool.</p> <p>O login no console é ativado quando o ícone do computador está verde.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Recuperar a solicitação no formato JSON bruto ou cURL</p> </td> 
       <td> 
        <ul> 
-        <li> <p><strong>JSON bruto</strong> </p> <p>Clique em <strong>[!UICONTROL Copiar BRUTO]</strong> no canto superior direito do painel direito da DevTool.</p> </li> 
-        <li> <p><strong>cURL</strong> </p> <p>Clique em <strong>[!UICONTROL Copiar cURL]</strong> no canto superior direito do painel direito da DevTool.</p> </li> 
+        <li> <p><strong>JSON bruto</strong> </p> <p>Clique em <strong>[!UICONTROL Copiar BRUTO]</strong> no canto superior direito do painel direito do Devtool.</p> </li> 
+        <li> <p><strong>cURL</strong> </p> <p>Clique em <strong>[!UICONTROL Copiar cURL]</strong> no canto superior direito do painel direito do Devtool.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -177,13 +188,13 @@ O Live Stream exibe o que está acontecendo em segundo plano quando você clica 
 O Depurador de cenários é útil para cenários mais complexos. Ele exibe o histórico das execuções de cenário e permite pesquisar módulos pelo nome ou ID.
 
 1. Clique em **[!UICONTROL Depurador de cenários]** ícone ![](assets/scenario-debugger-icon.png) para abrir o Depurador de cenários.
-1. (Opcional) Insira o termo de pesquisa (nome ou ID do módulo) no campo de pesquisa no painel esquerdo de [!DNL Workfront Fusion] DevTool no [!UICONTROL Depurador de cenários] seção.
+1. (Opcional) Insira o termo de pesquisa (nome ou ID do módulo) no campo de pesquisa no painel esquerdo de [!DNL Workfront Fusion] Devtool no [!UICONTROL Depurador de cenários] seção.
 1. Clique duas vezes no nome do módulo para abrir suas configurações no editor de cenários.
 1. Exibir detalhes da solicitação clicando na operação desejada.
 
 ### Ferramentas
 
-A variável [!DNL Workfront Fusion] O DevTool apresenta ferramentas que facilitam a configuração do seu cenário.
+A variável [!DNL Workfront Fusion] Devtool possui ferramentas que tornam a configuração do seu cenário mais fácil.
 
 1. Clique em **[!UICONTROL Ferramentas]** ícone ![](assets/console-tools-icon.png) para abrir as Ferramentas.
 1. Selecione a ferramenta que deseja usar
