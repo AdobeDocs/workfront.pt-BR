@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '657'
 ht-degree: 2%
 
 ---
@@ -151,4 +151,4 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Clique dentro da linha de um registro para começar a editar informações sobre o registro em linha.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
-1. Pressione **Enter** no teclado ou clique fora de uma linha para salvar as alterações. As alterações são salvas automaticamente.
+1. Pressione **Enter** no teclado ou clique fora de uma linha para salvar as alterações. As alterações são salvas automaticamente. Um indicador Salvo é exibido brevemente no canto superior direito da exibição de tabela para mostrar que as alterações foram salvas.
