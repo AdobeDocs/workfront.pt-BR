@@ -5,9 +5,9 @@ author: Lisa
 draft: Probably
 feature: Product Announcements
 exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
-source-git-commit: 05c209f7ba40ec7434d392a79efa96330294f20a
+source-git-commit: 20e806b1a4face80488bf32fda677f730baed41a
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,14 @@ ht-degree: 0%
 Esta página descreve pequenas atualizações na aparência de várias áreas do aplicativo Adobe Workfront que foram feitas dentro do período de lançamento do quarto trimestre de 2023.
 
 Para obter uma lista de todas as alterações disponíveis com a versão do quarto trimestre de 2023, consulte [Visão geral da versão do quarto trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Atualizações de aparência para aprovações de documentos e modelos de email
+
+>[!NOTE]
+>
+>Versão de visualização: 1 de novembro de 2023; Versão de produção para todos os clientes: 1 de novembro
+
+O modelo de email para notificações de aprovação de documentos foi atualizado para melhor corresponder a outros modelos de email de Adobe e para melhorar a clareza e a usabilidade.
 
 ## Indicador de alocações ajustadas manualmente no Balanceador de carga de trabalho
 

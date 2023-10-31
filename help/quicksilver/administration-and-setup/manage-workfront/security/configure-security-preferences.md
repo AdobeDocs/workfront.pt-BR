@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: 20e806b1a4face80488bf32fda677f730baed41a
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '825'
 ht-degree: 6%
 
 ---
@@ -111,7 +111,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">Os usuários no sistema assumirão como padrão a Nova experiência na Página inicial </td> 
-      <td>Permite especificar se os usuários verão a Nova experiência inicial por padrão. Quando habilitado, os usuários verão a Nova experiência inicial por padrão, mas ainda poderão optar por habilitar ou desabilitar a Nova página inicial individualmente. <b>Quando desativado, os usuários não terão a opção de usar a Nova página inicial.</b> Essa configuração é ativada por padrão.</td> 
+      <td>Permite especificar se os usuários verão a Nova experiência inicial por padrão. Quando habilitado, os usuários verão a Nova experiência inicial por padrão, mas ainda poderão optar por habilitar ou desabilitar a Nova página inicial individualmente. Quando desativados, os usuários não verão o banner que permite alternar para a Nova página inicial. No entanto, eles ainda podem navegar até a Nova página inicial digitando manualmente <code>/home/workspaces</code> no final do URL da instância. Essa configuração é ativada por padrão.</td> 
      </tr> 
     </tbody> 
    </table>
