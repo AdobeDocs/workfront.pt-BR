@@ -6,9 +6,9 @@ description: Você pode adicionar documentos a cartões conectados em Adobe Work
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: d76b2931217d4124eac13356e9142e7bbe0873c4
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -59,3 +59,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. No cartão, localize a variável [!UICONTROL Documentos] área. Clique em ![Ícone de Lista](assets/docs-list-icon.png) para exibir todos os documentos em uma lista ou clique em ![Ícone da Galeria](assets/docs-gallery-icon.png) para exibir os documentos em uma galeria.
 1. Passe o mouse sobre a miniatura do documento e clique em [!UICONTROL **Visualizar**] para exibir o arquivo no navegador ou [!UICONTROL **Baixar**] para baixar o arquivo no seu computador.
+
+   >[!NOTE]
+   >
+   >Os PDF não mostram uma imagem em miniatura.
