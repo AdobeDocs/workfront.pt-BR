@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1882'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,38 @@ Os recursos lançados são listados na ordem de lançamento, com o mais recente 
 Esta seção lista os recursos e patches que foram lançados após o lançamento do programa beta fechado do Maestro, em 22 de maio de 2023.
 
 Os recursos são lançados semanalmente e são listados na ordem de lançamento, com o mais recente primeiro. Os clientes que estão participando do programa beta fechado Maestro podem acessar todos os recursos em seus ambientes de Pré-visualização e Produção.
+
+## Semana de 30 de outubro de 2023
+
+### Novos tipos de campo para usuários e campos de data para capturar quem criou ou modificou um registro pela última vez ou em qual data
+
+Pré-visualização e produção: 30 de outubro de 2023
+
+Introduzimos os seguintes tipos de campos para registros Maestro:
+
+* Criado por
+
+* Data de criação
+
+* Modificado pela última vez por
+
+* Data da última modificação
+
+Os valores de campo dos campos criados a partir desses tipos de campo são somente leitura e capturam o nome do usuário que criou ou modificou um registro pela última vez ou a data em que o registro foi criado ou modificado pela última vez.
+
+Para obter mais informações, consulte [Criar campos](../maestro/architecture-and-fields/create-fields.md).
+
+### Navegar para objetos do Workfront a partir de um registro Maestro
+
+Pré-visualização e produção: 31 de outubro de 2023
+
+Agora você pode abrir as páginas de objetos do Workfront nas seguintes áreas no Maestri:
+
+* A exibição da tabela de registro de objeto vinculada ao Workfront somente leitura
+
+* A página Detalhes do registro de objeto do Workfront somente leitura
+
+Para obter mais informações, consulte [Conectar registros](../maestro/records/connect-records.md).
 
 ## Semana de 16 de outubro de 2023
 

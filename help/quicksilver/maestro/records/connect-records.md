@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1833'
 ht-degree: 0%
 
 ---
@@ -277,4 +277,4 @@ Depois de criar uma conexão entre um tipo de registro Maestro e um tipo de obje
    >
    >  Os campos que você adiciona ou remove na página tipo de registro de objeto do Workfront não são adicionados nem removidos do tipo de registro Maestro que se vincula ao tipo de objeto do Workfront. Os campos só são visíveis na página do tipo de registro somente leitura do Workfront, portanto, você pode analisá-los no Maestro.
 
-1. (Opcional) No menu suspenso Exibir na página tipo de registro de objeto do Workfront, escolha a exibição Linha do tempo para exibir os objetos vinculados do Workfront na exibição Linha do tempo.
+1. (Opcional e condicional) Se você tiver adicionado pelo menos dois campos de data ao objeto do Workfront, clique no **Exibir** menu suspenso na página tipo de registro de objeto do Workfront e selecione o **Linha do tempo** exibição. Os objetos vinculados ao Workfront são exibidos na visualização de linha do tempo.
