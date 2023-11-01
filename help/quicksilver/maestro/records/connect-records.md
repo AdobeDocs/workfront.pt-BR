@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Você pode conectar o seguinte:
 * Maestri registros operacionais para registros de taxonomia
 * Gerenciar registros operacionais e objetos de outras aplicações.
 
-  Os seguintes aplicativos e tipos de objeto são suportados no momento:
+  Você pode conectar registros do Maestro a objetos dos tipos listados abaixo a partir das seguintes aplicações:
 
    * Adobe Workfront
 
@@ -138,7 +138,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 * Qualquer pessoa com acesso ao Maestro pode ver as conexões que você faz entre registros do Maestro ou entre registros do Maestro e objetos do Workfront. Além disso, você pode exibir e editar as conexões de todas as outras pessoas. <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
 * Você pode conectar um registro do Maestro a um ou vários objetos de outro aplicativo.
 * Não é possível conectar taxonomias a tipos de registro ou a objetos de outro aplicativo. <!-- this is temporary; there will be certain objects (teams, etc) that will be linked to taxonomies, per Lilit-->
-* Atualmente, você pode vincular registros Maestro somente a objetos Workfront. Para vincular registros do Maestro a objetos do Workfront, você deve ter o seguinte:
+* Para vincular registros do Maestro a objetos do Workfront, você deve ter o seguinte:
 
    * Objetos do Workfront. Por exemplo, primeiro você deve criar projetos, portfólios, programas, empresas ou grupos no Workfront.
    * Espaços de trabalho, tipos de registros e registros do mestre. Para obter mais informações, consulte os seguintes artigos:
@@ -151,16 +151,16 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ### Conectar registros do Maestro
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-workfront.png) no canto superior direito do Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> e clique em **Maestro** ![](assets/maestro-icon.png).
+1. Clique em **Menu principal** ícone ![](assets/main-menu-workfront.png) no canto superior direito do Workfront ou na guia **Menu principal** ícone ![](assets/main-menu-shell.png)  no canto superior esquerdo, se disponível, clique em **Maestro** ![](assets/maestro-icon.png).
 
    O espaço de trabalho acessado por último deve ser aberto por padrão.
 
 1. (Opcional) Expanda a seta apontando para baixo à direita de um nome de espaço de trabalho existente e selecione o espaço de trabalho do qual deseja conectar registros.
 1. Clique no cartão de um tipo de registro para abrir a página do tipo de registro.
-1. Selecione uma exibição de Tabela na **Exibir** no canto superior direito da página tipo de registro.
+1. Selecione um **Tabela** exibir do **Exibir** no canto superior direito da página tipo de registro.
 1. Adicionar uma conexão com outro tipo de registro ou objeto do tipo de registro selecionado. Para obter informações, consulte [Conectar tipos de registro](../architecture-and-fields/connect-record-types.md).
 
-Uma nova coluna é adicionada à tabela para exibir o tipo de registro vinculado.
+   Uma nova coluna é adicionada à tabela para exibir o tipo de registro vinculado.
 
 1. Adicione registros ao tipo de registro selecionado adicionando uma nova linha à tabela. Para obter informações, consulte [Criar registros](../../maestro/records/create-records.md).
 1. A partir de um registro listado na exibição de tabela, vá para a coluna de registro vinculado e passe o mouse sobre a célula correspondente ao registro que você deseja vincular com outros registros Maestri, em seguida, clique no **+** ícone.
@@ -201,7 +201,7 @@ Uma nova coluna é adicionada à tabela para exibir o tipo de registro vinculado
 
 Depois de criar uma conexão entre um tipo de registro Maestro e um tipo de objeto Workfront, você pode conectar registros Maestri individuais a objetos no Workfront. Você também pode conectar campos do objeto Workfront ao tipo de registro Maestro.
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-workfront.png) no canto superior direito do Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> e clique em **Maestro** ![](assets/maestro-icon.png).
+1. Clique em **Menu principal** ícone ![](assets/main-menu-workfront.png) no canto superior direito do Workfront ou na guia **Menu principal** ícone ![](assets/main-menu-shell.png)  no canto superior esquerdo, se disponível, clique em **Maestro** ![](assets/maestro-icon.png).
 
    O espaço de trabalho acessado por último deve ser aberto por padrão.
 
@@ -265,11 +265,30 @@ Depois de criar uma conexão entre um tipo de registro Maestro e um tipo de obje
    >
    >    * Para exibir o tipo de registro de objeto do Workfront na exibição Linha do tempo, você deve ter pelo menos dois campos de data exibidos na exibição Tabela da página tipo de registro somente leitura do Workfront.
 
-1. (Opcional) Clique no link **Mais** menu ![](assets/more-menu.png) ao lado do nome do tipo de registro de objeto do Workfront no cabeçalho da página, clique em **Renomear** para editar o nome do registro.
+1. (Opcional) Para abrir a página Detalhes do registro de objeto do Workfront no Maestri, siga um destes procedimentos:
 
-   >[!NOTE]
-   >
-   >    Não é possível excluir um tipo de registro vinculado do Workfront ou quaisquer objetos da página de tipo de registro do Workfront.
+   * No tipo de registro vinculado, vá para o campo Workfront object linked record e clique no nome do objeto do Workfront.
+   * No **Tabela** da página tipo de registro do Workfront, clique no nome do objeto Workfront
+
+     Ou
+
+     Clique em **Mais** à direita do nome do objeto do Workfront e clique em **Exibir**.
+
+     ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
+
+   Isso abre a página Detalhes do mestre do objeto vinculado do Workfront. Esta página é somente leitura.
+
+1. (Opcional) Para abrir o objeto Workfront vinculado no Workfront, siga um destes procedimentos:
+
+   * No **Tabela** da página tipo de registro do Workfront, clique no nome do objeto do Workfront,
+
+   Ou
+
+   Clique em **Mais** à direita do nome do objeto do Workfront e clique em **Ir para origem**.
+
+   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
+
+   Isso abre a página do objeto do Workfront. Você pode editar informações sobre o objeto do Workfront, se tiver permissões para isso.
 
 1. (Opcional) Clique no link **Adicionar campos** ícone ![](assets/add-fields-icon.png) no canto superior direito da exibição de tabela na página tipo de registro do Workfront, para adicionar ou remover campos do Workfront do tipo de registro do Workfront.
 

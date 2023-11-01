@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: ec6a12f2ffbacabac6124ec3a7d85a3ba292e621
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,8 @@ Você pode excluir campos Maestri que não são mais relevantes.
 
 ## Considerações sobre a exclusão de campos Maestri:
 
-* É possível excluir campos criados ou campos criados por outros usuários. <!--this will change with access levels/ permissions-->
+* É possível excluir campos criados ou campos criados por outros usuários ou pelo sistema. <!--this will change with access levels/ permissions-->
+* Não é possível excluir o campo Nome de um registro. <!--change this to say you can't delete the field selected to be the primary-->
 * É possível excluir um campo somente na tabela do tipo de registro.
 * As informações armazenadas no campo são excluídas e não podem ser recuperadas.
 * Quando você exclui um campo de registro vinculado, todos os campos de pesquisa vinculados também são excluídos do tipo de registro que você vincula. Os campos de registro vinculados dos tipos de registro vinculados não são excluídos.
