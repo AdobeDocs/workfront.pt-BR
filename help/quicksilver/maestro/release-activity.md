@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
+source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1971'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,22 @@ Agora você pode abrir as páginas de objetos do Workfront nas seguintes áreas 
 * A página Detalhes do registro de objeto do Workfront somente leitura
 
 Para obter mais informações, consulte [Conectar registros](../maestro/records/connect-records.md).
+
+### Navegação aprimorada na exibição de tabela
+
+Pré-visualização e produção: 2 de novembro de 2023
+
+Melhoramos a navegação na exibição de tabela de uma página do tipo de registro.
+
+Estas são algumas das melhorias:
+
+* Use a tecla Tab do teclado para navegar pelas colunas e linhas da tabela
+
+* Adicione um novo registro a partir de qualquer posição da coluna. Antes dessa melhoria, você poderia adicionar um registro somente da primeira coluna.
+
+* Use a combinação de teclado Shift + Enter para adicionar um novo registro (ou linha) à tabela.
+
+Para obter mais informações, consulte [Criar registros](../maestro/records/connect-records.md).
 
 ## Semana de 16 de outubro de 2023
 

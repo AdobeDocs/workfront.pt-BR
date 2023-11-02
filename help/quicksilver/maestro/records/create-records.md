@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
+source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
@@ -107,15 +107,13 @@ Todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
 1. (Condicional) Se a página do tipo de registro não abrir na exibição de tabela, clique no link **Exibir** e selecione um existente **Visualização em tabela** ![](assets/table-view-icon.png) ou clique em **Criar visualização > Tabela** para criar uma visualização de tabela.
 
-1. Clique em **Novo &lt; Nome do tipo de registro >** na última linha da tabela para adicionar uma nova linha à tabela.
+1. Para adicionar novos registros, clique em **Novo &lt; Nome do tipo de registro >** na última linha da tabela
+
+   Ou
+
+   Clique em **Shift + Enter** no teclado a partir de qualquer coluna ou linha da tabela. Isso adiciona uma linha vazia.
 
    ![](assets/adding-a-new-campaign-in-table-row.png)
-
-   >[!TIP]
-   >
-   >    Digite CTRL+Enter para adicionar um novo registro em uma nova linha.
-
-   <!--ensure this is the shortcut for adding a new row AND that it is not different for Macs-->
 
 1. Comece a digitar informações na nova linha sobre o novo registro.
 
