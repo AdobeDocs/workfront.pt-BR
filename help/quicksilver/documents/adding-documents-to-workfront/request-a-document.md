@@ -6,10 +6,10 @@ description: Você pode solicitar um documento em qualquer objeto que ofereça s
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 1%
 
 ---
 
@@ -68,8 +68,6 @@ Você deve ter o seguinte:
    O usuário recebe uma notificação por email se essa preferência estiver ativada, bem como uma notificação no aplicativo. Para obter mais informações sobre notificações por email, consulte [Modificar suas próprias notificações por email](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
    Você pode clicar no link encontrado na notificação por email e, em seguida, fazer upload do documento. Ou clique na notificação no aplicativo. Cada opção direciona você para a página de perfil do usuário, onde é possível fazer upload do documento solicitado.
-
-   Você também pode responder diretamente ao email e anexar os documentos solicitados (se estiver configurado para oferecer suporte a respostas de email).
 
 1. Após carregar o documento, a pessoa que solicitou o documento poderá acessá-lo em seu **Documentos** área.
 

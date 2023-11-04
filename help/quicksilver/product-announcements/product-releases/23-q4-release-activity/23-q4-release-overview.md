@@ -4,9 +4,9 @@ description: Visão geral da versão do quarto trimestre de 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: b179a4681ab08773ceaa4a6cd81c764acda1dcf1
+source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
 workflow-type: tm+mt
-source-wordcount: '2679'
+source-wordcount: '2695'
 ht-degree: 0%
 
 ---
@@ -304,7 +304,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Botão Delegar trabalho para widgets de Projeto, Tarefa e Problema</a> </p><p>[!BADGE Na produção ]{type=Informative}</p>
-                        <p>Um recurso solicitado com frequência da página inicial antiga, adicionamos um botão de delegação aos widgets Meu trabalho, Minhas tarefas e Meus problemas para que você possa facilmente delegar trabalho quando estiver fora do escritório.</p>
+                        <p>Um recurso solicitado com frequência da página inicial antiga, adicionamos um botão de delegação aos widgets Meu trabalho, Minhas tarefas e Meus problemas para que você possa facilmente delegar trabalho quando estiver fora do escritório. Observe que a delegação de trabalho deve estar ativada no ambiente do Workfront para que o botão seja exibido.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
