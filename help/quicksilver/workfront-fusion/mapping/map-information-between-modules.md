@@ -7,7 +7,7 @@ description: O mapeamento é o processo de atribuir as saídas de um módulo, es
 author: Becky
 feature: Workfront Fusion
 exl-id: e8d619e9-6425-4136-ac71-47d979d68a2d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 3772223938008e3a54ce0a48aaae1f3edb5bf252
 workflow-type: tm+mt
 source-wordcount: '1563'
 ht-degree: 0%
@@ -102,7 +102,7 @@ Para obter mais informações, consulte [Definir as configurações de um módul
 
 Você pode mapear vários itens em um campo, combiná-los com literais (valores fixos) e empregar Operadores e Funções para criar fórmulas complexas:
 
-![](assets/operators-and-functions-350x187.png)
+![](assets/operators-and-functions.png)
 
 Você pode encontrar as funções e os operadores no painel de mapeamento em uma de suas guias.
 
