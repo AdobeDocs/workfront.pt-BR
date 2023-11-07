@@ -1,12 +1,13 @@
 ---
 content-type: api
 navigation-topic: workfront-objects
-title: Quando o APIModel INTERNAL não suporta a categoria de projeção de campo (OpTask)
-description: Quando o APIModel INTERNAL não suporta o projetado de campo (OpTask)
+title: Quando APIModel INTERNAL não oferece suporte à categoria projectid (OpTask) de campo
+description: Quando APIModel INTERNAL não oferece suporte a campo projectid (OpTask)
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 22%
@@ -17,7 +18,7 @@ ht-degree: 22%
 # Categoria
 
 Fieldsclass: &quot;java.lang.IllegalArgumentException&quot;,\
-mensagem: &quot;APIModel INTERNAL não suporta projettid de campo (OpTask)&quot;
+mensagem: &quot;APIModel INTERNAL não oferece suporte ao campo projectid (OpTask)&quot;
 
 <table style="table-layout:auto"> 
  <col width="100"> 
@@ -41,17 +42,17 @@ mensagem: &quot;APIModel INTERNAL não suporta projettid de campo (OpTask)&quot;
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID&quot;}"><strong>ID</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID&quot;}">ID</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">String</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Identifying GUID&quot;}">Identificação do GUID</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Identifying GUID&quot;}">Identificando GUID</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;accessorIDs&quot;}"><strong>accessIDs</strong> </td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;acessorIDs&quot;}">accessIDs</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String Array&quot;}">Matriz de sequência</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;List of People/Team IDs that can access this object&quot;}">Lista de IDs de Pessoas/Equipe que podem acessar esse objeto</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;acessorIDs&quot;}">IDsAcessador</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String Array&quot;}">Matriz de string</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;List of People/Team IDs that can access this object&quot;}">Lista de IDs de Pessoas/Equipes que podem acessar este objeto</td> 
    <td> </td> 
-   <td> <p><span class="dtRead">Somente leitura</span> </p> <p><span class="dtLazy">Leitura preguiçosa</span> </p> <p><span class="dtDyn">Dinâmico</span> </p> <p><span class="dtGrp">Não Agrupável</span> </p> </td> 
+   <td> <p><span class="dtRead">Somente leitura</span> </p> <p><span class="dtLazy">Leitura lenta</span> </p> <p><span class="dtDyn">Dinâmico</span> </p> <p><span class="dtGrp">Não agrupável</span> </p> </td> 
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;catObjCode&quot;}"><strong>catObjCode</strong> </td> 
@@ -67,7 +68,7 @@ mensagem: &quot;APIModel INTERNAL não suporta projettid de campo (OpTask)&quot;
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">String</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the Customer&quot;}">ID do cliente</td> 
    <td> </td> 
-   <td> <p><span class="dtGrp">Não Agrupável</span> </p> </td> 
+   <td> <p><span class="dtGrp">Não agrupável</span> </p> </td> 
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;description&quot;}"><strong>descrição</strong> </td> 
@@ -83,13 +84,13 @@ mensagem: &quot;APIModel INTERNAL não suporta projettid de campo (OpTask)&quot;
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">String</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the User that added the Custom Form&quot;}">ID do usuário que adicionou o formulário personalizado</td> 
    <td> </td> 
-   <td> <p><span class="dtGrp">Não Agrupável</span> </p> </td> 
+   <td> <p><span class="dtGrp">Não agrupável</span> </p> </td> 
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;extRefID&quot;}"><strong>extRefID</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;External Reference ID&quot;}">ID da Referência externa</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">String</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Editable Field inteded to be used a link to an external object&quot;}">Campo editável do usuário destinado a ser usado em um link para um objeto externo</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Editable Field inteded to be used a link to an external object&quot;}">Campo editável do usuário destinado a ser usado como um link para um objeto externo</td> 
    <td> </td> 
    <td> <p><span class="dtEdit">Editável</span> </p> </td> 
   </tr> 
@@ -99,7 +100,7 @@ mensagem: &quot;APIModel INTERNAL não suporta projettid de campo (OpTask)&quot;
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">String</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the first group with access to the custom form&quot;}">ID do primeiro grupo com acesso ao formulário personalizado</td> 
    <td> </td> 
-   <td> <p><span class="dtEdit">Editável</span> </p> <p><span class="dtGrp">Não Agrupável</span> </p> </td> 
+   <td> <p><span class="dtEdit">Editável</span> </p> <p><span class="dtGrp">Não agrupável</span> </p> </td> 
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;hasCalculatedFields&quot;}"><strong>hasCalculatedFields</strong> </td> 
@@ -107,13 +108,13 @@ mensagem: &quot;APIModel INTERNAL não suporta projettid de campo (OpTask)&quot;
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Boolean&quot;}">Booleano</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Does the form have calculated fields associated with it?&quot;}">O formulário tem campos calculados associados a ele?</td> 
    <td> </td> 
-   <td> <p><span class="dtGrp">Não Agrupável</span> </p> </td> 
+   <td> <p><span class="dtGrp">Não agrupável</span> </p> </td> 
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;lastUpdateDate&quot;}"><strong>lastUpdateDate</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Last Update Date&quot;}">Última data de atualização</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Date/Time&quot;}">Data/Tempo</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Date of when the object was last modified&quot;}">Data em que o objeto foi modificado pela última vez</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Date of when the object was last modified&quot;}">Data da última modificação do objeto</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -123,7 +124,7 @@ mensagem: &quot;APIModel INTERNAL não suporta projettid de campo (OpTask)&quot;
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">String</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the last user to Update the object&quot;}">ID do último usuário a atualizar o objeto</td> 
    <td> </td> 
-   <td> <p><span class="dtGrp">Não Agrupável</span> </p> </td> 
+   <td> <p><span class="dtGrp">Não agrupável</span> </p> </td> 
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;name&quot;}"><strong>name</strong> </td> 
@@ -138,9 +139,9 @@ mensagem: &quot;APIModel INTERNAL não suporta projettid de campo (OpTask)&quot;
 
 ## Referências
 
-| Nome | Rótulo | Tipo | Código de objeto do tipo | URL |
+| Nome | Rótulo | Tipo | Digite o código do objeto | URL |
 |---|---|---|---|---|
-| Cliente | cliente | Cliente | CUSTO | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| Cliente | cliente | Cliente | CLIENTE | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 | Cadastrado por | enteredBy | Usuário | USUÁRIO | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 | Grupo | grupo | Grupo | GRUPO | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 | Última Atualização realizada por | lastUpdatedBy | Usuário | USUÁRIO | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
@@ -148,11 +149,11 @@ mensagem: &quot;APIModel INTERNAL não suporta projettid de campo (OpTask)&quot;
 
 ## Coleções
 
-| Nome | Rótulo | Tipo | Código de objeto do tipo | URL |
+| Nome | Rótulo | Tipo | Digite o código do objeto | URL |
 |---|---|---|---|---|
 | Regras de acesso | accessRules | Regra de acesso | ACSRUL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Regras de acesso à categoria | categoryAccessRules | Regras de acesso à categoria | CATACR | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Regras em cascata de categoria | categoryCascadeRules | Regras em cascata de categoria | CTCSRL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| Regras de acesso de categoria | categoryAccessRules | Regras de acesso de categoria | CATACR | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| Regras em cascata de categorias | categoryCascadeRules | Regras de categorias em cascata | CTCSRL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 | Parâmetros da Categoria | categoryParameters | Parâmetros da Categoria | CTGYPA | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 | Outros Grupos | otherGroups | Grupo | GRUPO | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 
@@ -162,6 +163,6 @@ mensagem: &quot;APIModel INTERNAL não suporta projettid de campo (OpTask)&quot;
 | Rótulo | Nome | Argumentos |
 |---|---|---|
 | Atribuir Categorias | assignCategories | `[{name: "objID",type: "string"},{name: "objCode",type: "string"},{name: "categoryIDs",type: "string[]"}]` |
-| Atribuir categoria | assignCategory | `[{name: "objID",type: "string"},name: "objCode",type: "string"},{name: "categoryID",type: "string"}]` |
+| Atribuir Categoria | assignCategory | `[{name: "objID",type: "string"},name: "objCode",type: "string"},{name: "categoryID",type: "string"}]` |
 | Cancelar atribuição de categorias | unassignCategories | `[{name: "objID",type: "string"},{name: "objCode",type: "string"},{name: "categoryIDs",type: "string[]"}]` |
-| Cancelar atribuição de categoria | unassignCategory | `[{name: "objID",type: "string"},name: "objCode",type: "string"},{name: "categoryID",type: "string"}]` |
+| Categoria Não Atribuída | unassignCategory | `[{name: "objID",type: "string"},name: "objCode",type: "string"},{name: "categoryID",type: "string"}]` |

@@ -1,12 +1,13 @@
 ---
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
-title: Adicionar opções avançadas de prova com a API do Adobe Workfront
-description: Adicionar opções avançadas de prova com a API do Adobe Workfront
+title: Adicionar opções de prova avançada com a API do Adobe Workfront
+description: Adicionar opções de prova avançada com a API do Adobe Workfront
 author: Becky
 feature: Workfront API, Workfront Proof
+role: Developer
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
-source-git-commit: e2a334ad16fc16b49d8e8b8186fa89fc0e09d998
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
@@ -14,37 +15,37 @@ ht-degree: 0%
 ---
 
 
-# Adicione opções avançadas de prova ao criar uma prova por meio da API do Adobe Workfront
+# Adicionar opções de prova avançada ao criar uma prova por meio da API do Adobe Workfront
 
-Ao criar uma prova na API do Workfront, você pode adicionar opções avançadas de prova.
+Ao criar uma prova na API do Workfront, você pode adicionar opções de prova avançada.
 
-Use um dos seguintes fluxos de trabalho para adicionar opções de prova a uma prova usando a API:
+Use um dos seguintes workflows para adicionar opções de prova a uma prova usando a API:
 
-* (Recomendado) Crie uma prova simples usando a API do Workfront e, em seguida, adicione opções avançadas de prova à prova usando a API ProofHQ
+* (Recomendado) Crie uma prova simples usando a API do Workfront e adicione opções de prova avançada à prova usando a API ProofHQ
 
-* Crie uma prova com opções de prova avançadas usando JSON na API do Workfront
+* Criar uma prova com opções de prova avançada usando JSON na API do Workfront
 
-## Criar uma prova usando as APIs do Workfront e do ProofHQ (Recomendado) {#create-a-proof-using-the-workfront-and-proofhq-apis-recommended}
+## Criar uma prova usando as APIs do Workfront e ProofHQ (recomendado) {#create-a-proof-using-the-workfront-and-proofhq-apis-recommended}
 
-Esta seção descreve como criar uma prova com opções de prova avançadas por meio da API do Workfront, usando uma combinação de APIs Workfront e ProofHQ.
+Esta seção descreve como criar uma prova com opções de prova avançada por meio da API do Workfront, usando uma combinação de APIs Workfront e ProofHQ.
 
-A API ProofHQ inclui uma variedade de ações não disponíveis para provas na API do Workfront. Ao usar essas ações, você pode modificar ou configurar a prova com mais precisão do que a disponível na API do Workfront.
+A API ProofHQ inclui várias ações não disponíveis para provas na API do Workfront. Usando essas ações, você pode modificar ou configurar a prova com mais precisão do que a disponível na API do Workfront.
 
-Para obter uma visão geral da API do ProofHQ, consulte o [Visão geral do PoofHQ](../../proofhq-api/general/overview.md). Também é possível fazer referência à variável [Documentação do ProofHQ](https://api.proofhq.com/home.html).
+Para obter uma visão geral da API ProofHQ, consulte [Visão geral do PoofHQ](../../proofhq-api/general/overview.md). Você também pode consultar a [Documentação do ProofHQ](https://api.proofhq.com/home.html).
 
 >[!NOTE]
 >
 >* A API do Workfront é uma API REST-ful. A API ProofHQ é uma API SOAP.
->* Provas criadas na API ProofHQ não são vinculadas automaticamente ao Workfront. Portanto, recomendamos criar provas na API do Workfront antes de atualizá-las com a API do ProofHQ.
+>* Provas criadas na API ProofHQ não são vinculadas automaticamente ao Workfront. Portanto, recomendamos criar provas na API do Workfront antes de atualizá-las com a API ProofHQ.
 >
 
-
-### Criar uma prova com opções de prova avançadas
+### Criar uma prova com opções de prova avançada
 
 1. Crie uma prova usando o `Document createProof` na API do Workfront.
 
    >[!NOTE]
-   Ao criar a prova, defina `{}` como o valor da variável `advancedProofingOptions` parâmetro.
+   >
+   Ao criar a prova, defina `{}` como o valor de `advancedProofingOptions` parâmetro.
 
 1. Depois que a prova for criada, use a API ProofHQ para adicionar opções avançadas.
 
@@ -54,13 +55,13 @@ Esta seção mostra algumas atualizações de exemplo que você pode fazer com a
 
 **Exemplos:**
 
-* [Uma Prova pode ser baixada, tem uma mensagem e é compartilhada publicamente](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly)
-* [Atualizar um estágio para que ele não seja privado, não obrigatório e exija apenas uma aprovação](#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval)
-* [Adicione dois recipients a uma prova sem decisor principal](#add-two-recipients-to-a-proof-with-no-primary-decision-maker)
+* [Uma prova pode ser baixada, tem uma mensagem e é compartilhada publicamente](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly)
+* [Atualizar um estágio para que ele não seja privado, obrigatório e exija apenas uma aprovação](#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval)
+* [Adicionar dois recipients a uma prova sem um tomador de decisão principal](#add-two-recipients-to-a-proof-with-no-primary-decision-maker)
 
-**Uma Prova pode ser baixada, tem uma mensagem e é compartilhada publicamente**
+**Uma prova pode ser baixada, tem uma mensagem e é compartilhada publicamente**
 
-A documentação desse endpoint pode ser encontrada no link [ProofHQ API updateProof](https://api.proofhq.com/home/proofs/updateproof.html) página.
+A documentação desse endpoint pode ser encontrada no [Atualização da API ProofHQ updateProof](https://api.proofhq.com/home/proofs/updateproof.html) página.
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -82,9 +83,9 @@ A documentação desse endpoint pode ser encontrada no link [ProofHQ API updateP
 </soapenv:Envelope>
 ```
 
-**Atualizar um estágio para que ele não seja privado, não obrigatório e exija apenas uma aprovação**
+**Atualizar um estágio para que ele não seja privado, obrigatório e exija apenas uma aprovação**
 
-A documentação desse endpoint pode ser encontrada no link [Atualização da API ProofHQworkflowProofStage](https://api.proofhq.com/updateworkflowproofstage.html) página.
+A documentação desse endpoint pode ser encontrada no [API ProofHQ updateWorkflowProofStage](https://api.proofhq.com/updateworkflowproofstage.html) página.
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -107,9 +108,9 @@ A documentação desse endpoint pode ser encontrada no link [Atualização da AP
 </soapenv:Envelope>
 ```
 
-**Adicione dois recipients a uma prova sem decisor principal**
+**Adicionar dois recipients a uma prova sem um tomador de decisão principal**
 
-A documentação desse endpoint pode ser encontrada no link [AdicioneWorkflowProofReviewers da API ProofHQ](https://api.proofhq.com/addworkflowproofreviewers.html) página.
+A documentação desse endpoint pode ser encontrada no [API de ProofHQ addWorkflowProofReviewed](https://api.proofhq.com/addworkflowproofreviewers.html) página.
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -144,19 +145,21 @@ A documentação desse endpoint pode ser encontrada no link [AdicioneWorkflowPro
 
 ## Criar uma prova usando JSON na API do Workfront
 
-Esta seção descreve como criar uma prova com opções de prova avançadas por meio da API do Workfront, usando JSON como um valor de parâmetro na API do Workfront
+Esta seção descreve como criar uma prova com opções de prova avançada por meio da API do Workfront, usando JSON como um valor de parâmetro na API do Workfront
 
-### Criar uma prova com opções de prova avançadas
+### Criar uma prova com opções de prova avançada
 
-Você pode criar provas por meio da API do Workfront usando o `Document createProof` ação. Esta ação aceita a `advancedProofingOptions` , que tem o tipo de valor de `string`. Para incluir opções de prova avançadas no `createProof` , você deve inserir as opções na variável `advancedProofingOptions` no formato JSON.
+É possível criar provas por meio da API do Workfront usando o `Document createProof` ação. Esta ação aceita o `advancedProofingOptions` que tem o tipo de valor de `string`. Para incluir opções de prova avançada no `createProof` ação, você deve inserir as opções no campo `advancedProofingOptions` no formato JSON.
 
 >[!NOTE]
-Pode ser difícil prever os campos a serem incluídos no JSON advancedProofingOptions. Talvez você queira examinar os dados de rede de sua organização ao usar a prova avançada no Workfront e basear seu JSON nos campos e valores comumente usados pela organização.
-Como esses campos podem ser difíceis de prever, recomendamos criar uma prova usando a API do Workfront e, em seguida, atualizá-la usando a API ProofHQ . Para obter mais informações, consulte [Criar uma prova usando as APIs do Workfront e do ProofHQ (Recomendado)](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended) neste artigo
+>
+Pode ser difícil prever os campos a serem incluídos no JSON advancedProofingOptions. Você pode examinar os dados de rede de sua organização ao usar a prova avançada no Workfront e basear seu JSON nos campos e valores normalmente usados por sua organização.
+>
+Como esses campos podem ser difíceis de prever, recomendamos criar uma prova usando a API do Workfront e, em seguida, atualizá-la usando a API ProofHQ. Para obter mais informações, consulte [Criar uma prova usando as APIs do Workfront e ProofHQ (recomendado)](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended) neste artigo
 
 ### Exemplo
 
-Este exemplo mostra campos e formatação que podem ser usados ao criar o JSON para a variável `advancedProofingOptions` parâmetro. Seu `advancedProofingOptions` O arquivo JSON pode ter mais ou menos campos do que mostrado aqui.
+Este exemplo mostra campos e formatação que você pode usar ao criar seu JSON para o `advancedProofingOptions` parâmetro. Seu `advancedProofingOptions` O arquivo JSON pode ter mais ou menos campos do que mostrados aqui.
 
 **Exemplo:**
 

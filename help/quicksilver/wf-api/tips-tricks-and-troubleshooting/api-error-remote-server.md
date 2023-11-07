@@ -5,8 +5,9 @@ title: Mensagem de erro de API 400 Solicitação incorreta
 description: Mensagem de erro de API 400 Solicitação incorreta
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: ab7c76a9-16ce-41f9-b7af-5943eb2dfdff
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Erro da API: &quot;O servidor remoto retornou um erro (400) Solicitação inválida&quot;
+# Erro de API: &quot;O servidor remoto retornou um erro (400) Solicitação inválida&quot;
 
 ## Problema
 
@@ -30,4 +31,4 @@ Esse erro ocorre ao tentar importar, por meio da API, um campo personalizado de 
 
 Adicione o formulário personalizado correto ao Tópico da fila.
 
-Para saber mais sobre Tópicos da fila, consulte [Criar Tópicos da Fila](../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+Para saber mais sobre os Tópicos da fila, consulte [Criar Tópicos de Fila](../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).

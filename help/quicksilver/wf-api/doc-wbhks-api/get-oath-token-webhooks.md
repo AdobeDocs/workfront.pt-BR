@@ -6,26 +6,27 @@ title: Obter tokens do OAuth2
 description: Obter tokens do OAuth2
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: f3a2630d-d34e-4d36-b2bb-707ba0d3258e
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 
 # Obter tokens do OAuth2
 
-## Obtenção de tokens OAuth2
+## Obtenção de tokens do OAuth2
 
-Retorna o token de atualização OAuth2 e o token de acesso de um usuário autenticado. Isso é chamado uma vez quando o usuário provisionar um Provedor de documentos. As chamadas subsequentes são feitas para obter um token de acesso atualizado.
+Retorna o token de atualização OAuth2 e o token de acesso para um usuário autenticado. Isso é chamado uma vez quando o usuário provisiona um Provedor de documentos. As chamadas subsequentes são feitas para obter um token de acesso atualizado.
 
 **URL**
 
 POST /any/url
 
-O URL é configurável e corresponde ao valor do URL do ponto de extremidade do token na página Configuração da integração personalizada.
+O URL é configurável e corresponde ao valor do URL do endpoint do token na página de configuração da integração personalizada.
 
 ### Parâmetros de consulta
 
@@ -44,12 +45,12 @@ O URL é configurável e corresponde ao valor do URL do ponto de extremidade do 
   <tr>
    <td>grant_type</td>
    <td>sim</td>
-   <td><p>Os valores incluem "authorization_code" ou "refresh_token". O valor especificado indica qual dos dois parâmetros será passado para essa chamada de API: ou refresh_token.</p></td>
+   <td><p>Os valores incluem "authorization_code" ou "refresh_token". O valor especificado indica qual dos dois parâmetros será passado para esta chamada de API: code ou refresh_token.</p></td>
   </tr>
   <tr>
    <td>código</td>
    <td>depende</td>
-   <td><p>O código de autorização enviado ao Adobe Workfront logo após o usuário clicar no botão "Conceder". Isso só é necessário quando o tipo de concessão é "authorization_code". O código de autorização deve ter uma duração curta, geralmente com uma validade inferior ou igual a 10 minutos.</p></td>
+   <td><p>O código de autorização enviado ao Adobe Workfront logo após o usuário clicar no botão "Conceder". Isso só é necessário quando o tipo de concessão é "authorization_code". O código de autorização deve ter uma vida curta, geralmente expirando em 10 minutos ou menos.</p></td>
   </tr>
   <tr>
    <td>refresh_token</td>
@@ -93,12 +94,12 @@ O URL é configurável e corresponde ao valor do URL do ponto de extremidade do 
   <tr>
    <td>refresh_token </td>
    <td>String</td>
-   <td><p>Um token de longa duração usado para recuperar um novo access_token chamando este método de API.</p></td>
+   <td><p>Um token de longa duração usado para recuperar um novo access_token chamando esse método de API.</p></td>
   </tr>
   <tr>
    <td>expires_in </td>
    <td>long</td>
-   <td><p>(opcional) O tempo (em segundos) antes do access_token expirar, em geral 3.600.</p></td>
+   <td><p>(opcional) O tempo (em segundos) antes que o access_token expire, geralmente 3.600.</p></td>
   </tr>
  </tbody>
 </table>

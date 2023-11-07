@@ -1,27 +1,28 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novidades na API versão 9
-description: Esta é uma lista de recursos novos para a API versão 9, para ver uma lista de atualizações que foram feitas nos recursos da versão 9, visite Atualizações para a API versão 9
+title: Novidades da API versão 9
+description: Esta é uma lista de recursos novos na API versão 9. Para ver uma lista de atualizações feitas nos recursos da versão 9, visite Atualizações para API versão 9
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 29d922f4-f4c6-45e5-b9fa-43e2068ec66d
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 16%
+ht-degree: 20%
 
 ---
 
-# Novidades na API versão 9
+# Novidades da API versão 9
 
 ## Novos recursos
 
-Esta é uma lista de recursos novos na API versão 9, para ver uma lista de atualizações que foram feitas nos recursos da versão 9, visite [Atualizações da API versão 9](../../wf-api/api/new-api-version-9-updates.md)
+Esta é uma lista de recursos novos na API versão 9. Para ver uma lista de atualizações feitas nos recursos da versão 9, visite [Atualizações da API versão 9](../../wf-api/api/new-api-version-9-updates.md)
 
-### AccessLevel
+### NívelDeAcesso
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | `accessRestrictions` | `customer` | `accessLevelPermissions` |  |  |  | `ADD` |
 | `customerID` | `lastUpdatedBy` | `accessRulePreferences` |  |  |  | `COPY` |
@@ -42,9 +43,9 @@ Esta é uma lista de recursos novos na API versão 9, para ver uma lista de atua
 
 {style="table-layout:auto"}
 
-### AccessLevelPermissions
+### PermissõesDeNívelDeAcesso
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | `coreAction` |  |  |  |  |  |   |
 | `forbiddenActions` |  |  |  |  |  |   |
@@ -55,17 +56,17 @@ Esta é uma lista de recursos novos na API versão 9, para ver uma lista de atua
 
 {style="table-layout:auto"}
 
-### PreferênciaRegraAcesso
+### PreferênciadeRegraDeAcesso
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | `ID` |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-### HoraDeOrçamento
+### BudgetedHour
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | `allocationDate` |  |  |  |  |  | `ADD` |
 | `budgetedHours` |  |  |  |  |  | `DELETE` |
@@ -77,9 +78,9 @@ Esta é uma lista de recursos novos na API versão 9, para ver uma lista de atua
 
 {style="table-layout:auto"}
 
-### SeçãoPortalCalendário
+### CalendarPortalSection
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | `calendarInfoID` | `customer` |  | `displayDescription` |  |  | `ADD` |
 | `customerID` | `enteredBy` |  | `displayName` |  |  | `COPY` |
@@ -94,7 +95,7 @@ Esta é uma lista de recursos novos na API versão 9, para ver uma lista de atua
 
 ### SeçãoCalendário
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | `calendarID` | `customer` | `filters` |  | `getConcatenatedExpressionForm` |  | `ADD` |
 | `calEvents` |  |  |  | `getPrettyExpressionForm` |  | `COUNT` |
@@ -111,7 +112,7 @@ Esta é uma lista de recursos novos na API versão 9, para ver uma lista de atua
 
 ### SeçãoExterna
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | `appGlobalID` | `customer` |  | `displayDescription` | `calculateURL` |  | `ADD` |
 | `calculatedURL` | `enteredBy` |  | `displayName` | `calculateURLS` |  | `COPY` |

@@ -1,15 +1,16 @@
 ---
 content-type: api
 navigation-topic: wf-api
-title: Obter API de tempo disponível para usuários
-description: Obter API de tempo disponível para usuários
+title: Obter API de tempo disponível dos usuários
+description: Obter API de tempo disponível dos usuários
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: fa37920a-c08b-4af3-9896-7e4044834860
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -17,13 +18,13 @@ ht-degree: 7%
 
 **URI: attask/api/v15.0/user/getUsersAvailableTime**
 
-O ponto de extremidade de tempo disponível dos usuários recupera dados no tempo disponível do usuário. Isso permite integrações para agregação de dados de acordo com atributos do usuário e intervalos de tempo.
+O ponto de extremidade de tempo disponível do usuário recupera dados sobre o tempo disponível do usuário. Isso permite integrações para agregação de dados de acordo com atributos do usuário e intervalos de tempo.
 
 ## Exemplo de solicitação
 
 `curl -XPUT /attask/api/v15.0/user/getUsersAvailableTime`
 
-## Parâmetros da solicitação
+## Parâmetros de solicitação
 
 * **userIDs**: matriz de cadeias de caracteres. Obrigatório. Exemplo: `"61a9cc0500002f9fdaa7a6f824f557e1"`.
 
@@ -74,5 +75,5 @@ O ponto de extremidade de tempo disponível dos usuários recupera dados no temp
 
 ## Parâmetros de resposta
 
-* **AVL**: Horas reais disponíveis. Matriz de números.
-* **PAVL**: Horário disponível puro para agendamento que não inclui dias não úteis ou tempo de folga do usuário. String.
+* **AVL**: Horas disponíveis reais. Matriz de números.
+* **PAVL**: Horas puramente disponíveis para agendamento que não inclui dias não úteis ou folga do usuário. String.

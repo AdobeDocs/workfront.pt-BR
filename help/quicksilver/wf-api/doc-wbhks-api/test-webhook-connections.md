@@ -6,8 +6,9 @@ title: Testar conexões do Webhook
 description: Testar conexões do Webhook
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 7452ebfc-7c72-4fea-99ac-7f76b12404b8
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 0%
@@ -17,108 +18,108 @@ ht-degree: 0%
 
 # Testar conexões do Webhook
 
-Para verificar se a implementação do webhook do documento funciona corretamente, execute os testes manuais nesta seção. Essas etapas passam pela interface da Web do Adobe Workfront e acessam indiretamente os endpoints da implementação do webhook.
+Para verificar se a implementação do webhook do seu documento funciona corretamente, execute os testes manuais nesta seção. Essas etapas passam pela interface da Web do Adobe Workfront e atingem indiretamente os endpoints da implementação do webhook.
 
 ## Pré-requisitos
 
 Os seguintes pré-requisitos são necessários para executar os testes:
 
-* Uma conta Workfront com o Gerenciamento Avançado de Documentos (ADM) ativado
+* Uma conta do Workfront com o Gerenciamento avançado de documentos (ADM) habilitado
 
 * Um usuário do Workfront para esta conta com direitos de administrador do sistema
 
-* Uma instância do Webhook de documento com endpoints HTTP que são acessíveis ao Workfront
+* Uma instância do Webhook de documentos com pontos de extremidade HTTP acessíveis para o Workfront
 
-Esses testes também presumem que a instância do Webhook do documento está registrada. (Você pode registrar sua instância no Workfront em Configuração > Documentos > Integrações personalizadas.)
+Esses testes também pressupõem que a instância do Webhook do documento está registrada. (Você pode registrar sua instância no Workfront em Configuração > Documentos > Integrações personalizadas.)
 
-**Teste 1: Provisionar o serviço do Webhook de documentos para um usuário**
+**Teste 1: provisionar o serviço Webhook do documento para um usuário**
 
-Testa o URL de autenticação e o URL do ponto de extremidade do token para provedores do Webhook baseados em OAuth.
+Testa o URL de autenticação e o URL do ponto de extremidade do token para provedores de Webhook baseados em OAuth.
 
-1. No Workfront, vá para a página principal de Documentos clicando no link Documents na barra de navegação superior.
-1. Clique no menu suspenso Adicionar documentos e selecione o serviço Webhook de documentos em Adicionar serviço.
-1. (Somente serviços OAuth) Após concluir a etapa anterior, você verá a página de autenticação OAuth2 do seu serviço carregada em uma janela pop-up. (Observação: você pode ser solicitado a fazer logon em seu serviço primeiro.) Na página de autenticação, conceda à Workfront acesso à conta do usuário clicando no botão Confiar ou Permitir .
-1. Verifique se o serviço foi adicionado ao menu suspenso Adicionar documentos . Se não o vir inicialmente, tente atualizar seu navegador.
+1. No Workfront, vá para a página principal Documentos clicando no link Documentos na barra de navegação superior.
+1. Clique na lista suspensa Adicionar documentos e selecione o serviço Webhook de documentos em Adicionar serviço.
+1. (Somente serviços OAuth) Depois de concluir a etapa anterior, você verá o carregamento da página de autenticação OAuth2 do seu serviço em uma janela pop-up. (Observação: você pode ser solicitado a fazer logon no serviço primeiro.) Na página de autenticação, conceda acesso à conta do usuário pelo Workfront clicando no botão Confiar ou Permitir.
+1. Verifique se o serviço foi adicionado à lista suspensa Adicionar documentos. Caso não o veja inicialmente, tente atualizar o navegador.
 
-**Teste 2: Vincule um documento aos Testes do Workfront aos seguintes endpoints: /files, /metadata**
+**Teste 2: vincular um documento no Workfront Testa os seguintes endpoints: /files, /metadata**
 
-1. No Workfront, vá para a página principal de Documentos clicando no link Documents na barra de navegação superior.
-1. Selecione o serviço Webhook do documento em Adicionar documentos.
-1. No modal , navegue pela estrutura de pastas.
-1. Verifique se é possível navegar pela estrutura de pastas.
+1. No Workfront, vá para a página principal Documentos clicando no link Documentos na barra de navegação superior.
+1. Selecione o serviço Webhook de documentos em Adicionar documentos.
+1. Na modal, navegue pela estrutura de pastas.
+1. Verifique se você pode navegar pela estrutura de pastas.
 1. Selecionar e vincular um documento ao Workfront
 
-**Teste 3: Navegue até um documento no sistema de gerenciamento de conteúdo**
+**Teste 3: Navegar até um documento no sistema de gerenciamento de conteúdo**
 
-Testa os seguintes endpoints: /metadata (especificamente o viewLink)
+Testa os seguintes pontos de extremidade: /metadata (especificamente o viewLink)
 
 1. Vincular um documento ao Workfront
-1. Selecione o documento e clique no link Open .
+1. Selecione o documento e clique no link Abrir.
 1. Verifique se o documento abre em uma nova guia.
 
-**Teste 4: Navegue até um documento no sistema de gerenciamento de conteúdo (com logon)**
+**Teste 4: Navegar até um documento no sistema de gerenciamento de conteúdo (com logon)**
 
-Testa os seguintes endpoints: /metadata (especificamente o viewLink)
+Testa os seguintes pontos de extremidade: /metadata (especificamente o viewLink)
 
 1. Verifique se você está desconectado do sistema de gerenciamento de conteúdo.
 1. Vincule um documento ao Workfront.
-1. Selecione o documento e clique no link Open .
+1. Selecione o documento e clique no link Abrir.
 1. Verifique se a tela de logon do sistema de gerenciamento de conteúdo é carregada em uma nova guia.
-1. Faça logon e verifique se você foi levado para o documento
+1. Faça logon e verifique se você está direcionado ao documento
 
-**Teste 5: Baixe o documento do sistema de gerenciamento de conteúdo**
+**Teste 5: baixar o documento do sistema de gerenciamento de conteúdo**
 
-Testa os seguintes endpoints (especificamente o link de download): /metadados 
+Testa os seguintes pontos de extremidade (especificamente o link de download): /metadata 
 
 1. Vincule um documento ao Workfront.
-1. Selecione o documento e clique no link Download .
-1. Verifique se o download começa.
+1. Selecione o documento e clique no link Download.
+1. Verifique se o download foi iniciado.
 
-**Teste 6: Pesquisar conteúdo**
+**Teste 6: pesquisar conteúdo**
 
-Testa os seguintes endpoints: /search
+Testa os seguintes pontos de extremidade: /search
 
-1. No Workfront, vá para a página principal de Documentos clicando no link Documents na barra de navegação superior.
-1. Selecione o serviço Webhook do documento em Adicionar documentos.
-1. No modal , faça uma pesquisa.
+1. No Workfront, vá para a página principal Documentos clicando no link Documentos na barra de navegação superior.
+1. Selecione o serviço Webhook de documentos em Adicionar documentos.
+1. No modal, execute uma pesquisa.
 1. Verifique se os resultados da pesquisa estão corretos.
 
-**Teste 7: Enviar documento do Workfront para o sistema de gerenciamento de conteúdo**
+**Teste 7: enviar documento do Workfront para o sistema de gerenciamento de conteúdo**
 
-Testa os seguintes endpoints: /files, /uploadInit, /upload
+Testa os seguintes pontos de extremidade: /files, /uploadInit, /upload
 
-1. No Workfront, vá para a página principal de Documentos clicando no link Documents na barra de navegação superior.
-1. Carregar um documento no Workfront a partir do seu computador
-1. Vá para a página de detalhes do documento
-1. Na lista suspensa Ações do documento , selecione o serviço Webhook do documento em Enviar para...
-1. Vá para a pasta de destino desejada e clique no botão Save .
+1. No Workfront, vá para a página principal Documentos clicando no link Documentos na barra de navegação superior.
+1. Fazer upload de um documento para o Workfront no seu computador
+1. Ir para a página de detalhes do documento
+1. Na lista suspensa Ações do documento, selecione o serviço Webhook do documento em Enviar para...
+1. Vá para a pasta de destino desejada e clique no botão Save.
 1. Verifique se o documento foi carregado no local correto no sistema de gerenciamento de conteúdo.
 
-**Teste 8: Exibir miniaturas no Workfront**
+**Teste 8: exibir miniaturas no Workfront**
 
-Testa os seguintes endpoints: /miniatura
+Testa os seguintes pontos de extremidade: /thumbnail
 
 1. Vincule um documento ao Workfront.
 1. Selecione o documento na lista.
 1. Verifique se a miniatura aparece no painel direito.
 
-**Teste 9: Obter os bytes de conteúdo**
+**Teste 9: obter os bytes de conteúdo**
 
-Testa os seguintes endpoints: /download
+Testa os seguintes pontos de extremidade: /download
 
 1. Vincule um documento ao Workfront.
 1. Vá para a página de detalhes do documento.
-1. Envie o documento para o Workfront selecionando Ações do documento > Enviar para... > Workfront. Isso criará uma nova versão de documento no Workfront.
-1. Baixe o documento do Workfront clicando no link Download .
+1. Envie o documento para o Workfront selecionando Ações do documento > Enviar para... > Workfront. Isso criará uma nova versão do documento no Workfront.
+1. Baixe o documento do Workfront clicando no link Download.
 
-**Teste 10: Atualizar token de acesso (somente provedores do Webhook OAuth2)**
+**Teste 10: atualizar token de acesso (somente provedores de Webhook OAuth2)**
 
-Testa os seguintes endpoints: URL do ponto de extremidade do token
+Testa os seguintes endpoints: URL do endpoint do token
 
-1. Provisionar o serviço do Webhook de documentos para um usuário
-1. Invalidar o token de acesso do usuário ao aguardar o tempo limite de 1 ou 2) invalidá-lo manualmente no sistema externo.
+1. Provisionar um serviço Webhook de documento para um usuário
+1. Invalidar o token de acesso do usuário 1 (aguardando o tempo limite) ou 2) invalidando-o manualmente no sistema externo.
 1. Atualize o token de acesso no Workfront. Você pode fazer isso, por exemplo, vinculando um documento ao Workfront. Você saberá que o token de acesso foi atualizado com êxito se conseguir navegar e vincular um documento.
 
 >[!NOTE]
 >
->Atualmente, o Enviar para... não está disponível para documentos vinculados. Isso será adicionado pelo Workfront. Você pode testar o endpoint /download acessando o endpoint manualmente usando um cliente REST, como o Postman. Como alternativa, o endpoint /download pode ser testado gerando uma prova digital. Para ativar a prova digital, entre em contato com a Workfront.
+>Atualmente, Enviar para... não está disponível para documentos vinculados. Isso será adicionado pelo Workfront. Você pode testar o terminal /download acessando o terminal manualmente usando um cliente REST, como o Postman. Como alternativa, o endpoint /download pode ser testado gerando uma prova digital. Para ativar a prova digital, entre em contato com a Workfront.

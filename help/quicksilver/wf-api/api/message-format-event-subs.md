@@ -1,44 +1,45 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Formato de mensagem de saída para assinaturas de eventos
-description: Formato de mensagem de saída para assinaturas de eventos
+title: Formato de mensagem de saída para assinaturas de evento
+description: Formato de mensagem de saída para assinaturas de evento
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
 
 ---
 
-# Formato de mensagem de saída para assinaturas de eventos
+# Formato de mensagem de saída para assinaturas de evento
 
-Com o lançamento do Adobe Workfront 2017.3, o formato das mensagens de saída para assinaturas de eventos será alterado para permitir melhor desempenho e melhor uso das assinaturas de eventos para suas integrações.
+Com o lançamento do Adobe Workfront 2017.3, o formato das mensagens de saída para assinaturas de evento será alterado para permitir melhor desempenho e melhor uso das assinaturas de evento para suas integrações.
 
-## Atualizações no Formato de Mensagem de Saída
+## Atualizações no formato de mensagem de saída
 
 As seguintes alterações serão feitas no formato de mensagem de saída:
 
 * As mensagens de saída incluirão oldState e newState para um recurso do Workfront.
 
-   Esses valores mostrarão as alterações feitas em um objeto como resultado de um evento no Workfront.
+  Esses valores mostrarão as alterações feitas em um objeto como resultado de um evento no Workfront.
 
 * O campo de metadados eventTime será adicionado a todas as mensagens de saída.
 
-   Este campo indicará, em Nanosegundos e em EpochSeconds, o tempo em que um evento ocorreu. Use eventTime ao solicitar eventos processados pela integração.
+  Este campo indicará, em Nanossegundos e ÉpocaSegundos, a hora em que um evento ocorreu. Use eventTime ao solicitar eventos processados pela integração.
 
-* O campo de referência owner:companyID no recurso OBSERVAÇÃO será removido.
-* O objeto referenciado currentVersion No recurso DOCU (Documento) será removido.
+* O campo proprietário:ID de empresa referenciado no recurso NOTA será removido.
+* O objeto referenciado currentVersion no recurso DOCU (Documento) será removido.
 
-Se você usa atualmente assinaturas de evento do Workfront, será necessário atualizar suas integrações do Workfront antes da versão 2017.3 para levar em conta essas alterações.
+Se você usa atualmente assinaturas de eventos do Workfront, precisará atualizar suas integrações do Workfront antes da versão 2017.3 para levar em conta essas alterações.
 
 Para saber mais sobre assinaturas de evento, consulte [API de assinatura de evento](../../wf-api/general/event-subs-api.md).
 
-## Amostras de formatos de mensagem antigos e novos
+## Exemplos de formatos de mensagem antigos e novos
 
-A seguinte mensagem CREATE de formato antigo não será mais usada após o lançamento da versão 2017.3:
+A seguinte mensagem CREATE de formato antigo não será mais usada após o lançamento do 2017.3:
 
 ```
 {
@@ -72,7 +73,7 @@ A seguinte mensagem CREATE de formato antigo não será mais usada após o lanç
 }
 ```
 
-O novo formato a seguir será usado após o lançamento da mensagem CREATE 2017.3:
+O novo formato a seguir, CRIAR mensagem, será usado após o lançamento do 2017.3:
 
 ```
 {
@@ -110,7 +111,7 @@ O novo formato a seguir será usado após o lançamento da mensagem CREATE 2017.
    "oldState": {}
 ```
 
-A seguinte mensagem UPDATE de formato antigo não será mais usada após o lançamento de 2017.3:
+A seguinte mensagem de ATUALIZAÇÃO de formato antigo não será mais usada após o lançamento de 2017.3:
 
 ```
 {
@@ -146,7 +147,7 @@ A seguinte mensagem UPDATE de formato antigo não será mais usada após o lanç
  }
 ```
 
-A seguinte mensagem UPDATE de novo formato será usada após o lançamento de 2017.3:
+A seguinte mensagem de ATUALIZAÇÃO de formato novo será usada após o lançamento de 2017.3:
 
 ```
 {

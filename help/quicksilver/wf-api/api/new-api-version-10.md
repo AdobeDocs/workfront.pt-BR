@@ -1,29 +1,30 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novidades na API versão 10
-description: Recursos atualizados
+title: Novidades da API versão 10
+description: Recursos Atualizados
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 34%
+ht-degree: 42%
 
 ---
 
-# Novidades na API versão 10
+# Novidades da API versão 10
 
 * [Novos recursos](#new-resources)
-* [Recursos atualizados](#updated-resources)
+* [Recursos Atualizados](#updated-resources)
 * [Recursos removidos](#removed-resources)
 
 ## Novos recursos {#new-resources}
 
 ### ActivityLog
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   | ADICIONAR |
 |   |   |   |   |   |   | CONTAGEM |
@@ -32,9 +33,9 @@ ht-degree: 34%
 
 {style="table-layout:auto"}
 
-### CalendarEntry
+### EntradaCalendário
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | ADICIONAR |
 |   |   |   |   |   |   | CONTAGEM  |
@@ -46,9 +47,9 @@ ht-degree: 34%
 
 {style="table-layout:auto"}
 
-### CalendarEntryExternalReference
+### ReferênciaExternaDeEntradaDeCalendário
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | CONTAGEM |
 |   |   |   |   |   |   | GET  |
@@ -59,7 +60,7 @@ ht-degree: 34%
 
 ### ExternalAuthToken
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | ADICIONAR |
 |   |   |   |   |   |   | CONTAGEM |
@@ -71,9 +72,9 @@ ht-degree: 34%
 
 {style="table-layout:auto"}
 
-### LicenseTypeGroupLimit
+### LimitodeGrupoDeTiposDeLicença
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | customerID | cliente |   |   |   |   |   |
 | groupID | grupo |   |   |   |   |   |
@@ -85,9 +86,9 @@ ht-degree: 34%
 
 {style="table-layout:auto"}
 
-### UserHomeCalendarPreference
+### PreferênciadeCalendáriodeUsuário
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | customerID | cliente |   |   |   |   | ADICIONAR |
 | edTime | usuário |   |   |   |   | CONTAGEM |
@@ -100,44 +101,44 @@ ht-degree: 34%
 
 {style="table-layout:auto"}
 
-**Recursos atualizados**
+**Recursos Atualizados**
 
 Os recursos existentes a seguir foram atualizados com esta versão da API do Workfront. As alterações feitas em um recurso são indicadas da seguinte maneira:
 
-* As adições são simplesmente listadas
+* As adições são listadas apenas
 * As remoções são indicadas com texto tachado
 * As alterações são listadas na nota após a tabela
 
 ### Aprovação
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  | pendingApproval `¹`   |   |   |   |
+| kanbanFlag |  |  | pendingApproval `<sup>1</sup>`   |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
-| projectBudgetedCost  |   |   |   |   |   |   |
+| custoOrçadoProjeto  |   |   |   |   |   |   |
 | projectNetValue  |   |   |   |   |   |   |
 | projectRoi  |   |   |   |   |   |   |
 | resourcePlannerBudgetedLaborCost  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-`¹ Type changed from null to boolean`
+`<sup>1</sup> Type changed from null to boolean`
 
 ### Atribuição
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| assignPercent `¹` |   |   |   |   |   |   |
+| assignmentPercent `<sup>1</sup>` |   |   |   |   |   |   |
 | viewedByAssignedToUser |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-`¹`adicionado validador LESS_THAN_EQUAL
+`<sup>1</sup>`validador adicionado LESS_THAN_EQUAL
 
-### HoraDeOrçamento
+### BudgetedHour
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   |   |
 
@@ -145,19 +146,19 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Wor
 
  
 
-### CustomerPreferences
+### PreferênciasDoCliente
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| name `¹` |   |   |   |   |   |   |
+| name `<sup>1</sup>` |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹ Alterações nos valores possíveis
+<sup>1</sup> Alterações nos valores possíveis
 
 ### DocMetadataLinkGroup
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 |   |   |   |   | getMetadataForDocument |   |   |
 
@@ -165,36 +166,36 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Wor
 
 ### Documento
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| `masterTaskID` |  |  |  |  |  |  |
+| `masterTaskID` |  |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
 ### DocumentRequest
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| `masterTaskID` |  |  |  |  |  |  |
+| `masterTaskID` |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-DocumentVersion
+VersãoDocumento
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| externalIntegrationType ¹ |   |   |   |   |   |   |
+| externalIntegrationType <sup>1</sup> |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹ Alterações nos valores possíveis
+<sup>1</sup> Alterações nos valores possíveis
 
 Despesa
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
@@ -202,7 +203,7 @@ Despesa
 
 ### Grupo
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 |   | licenseTypeLimit |   |   | addRemoveLicenseTypeLimits  |   |   |
 |   |   |   |   | setLicenseTypeLimit |   |   |
@@ -211,73 +212,73 @@ Despesa
 
 ### LinkedFolder
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| externalIntegrationType¹ |  |  |  |  |  |  |
+| externalIntegrationType<sup>1</sup> |  |  |  |  |   |   |
 
 {style="table-layout:auto"}
 
-¹ Alterações nos valores possíveis
+<sup>1</sup> Alterações nos valores possíveis
 
 ### OpTask
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| priorityColor |  |  | pendingApproval¹ |  |  |  |
+| priorityColor |   |  | pendingApproval<sup>1</sup> |   |   |   |
 
 {style="table-layout:auto"}
 
-¹ Tipo alterado de nulo para booleano
+<sup>1</sup> Tipo alterado de nulo para booleano
 
 ### PortalSection
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-|  |  |  | groupIDs |  |  |  |
+|   |  |   | groupIDs |   |   |   |
 
 {style="table-layout:auto"}
 
 ### Portfólio
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| portfolioNetValue |  |  |  |  |  |  |
-| portfólioRoi |   |   |   |   |   |   |
+| portfolioNetValue |   |   |   |  |  |   |
+| portfolioRoi |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
 ### Projeto
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| projectBudgetedCost  |   |   |   | linkExternalObject  |   |   |
+| custoOrçadoProjeto  |   |   |   | linkExternalObject  |   |   |
 | projectNetValue |   |   |   | unlinkExternalObject |   |   |
 | projectRoi |   |   |   |   |   |   |
 | resourcePlannerBudgetedLaborCost |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-### AprovaçãoDeProva
+### AprovaçãoDaProva
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| aproverDecision |  |  |  |  |  |  |
+| approverDecision |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
 ### Taxa
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| rateValue ¹ |  |  |  |  |  |  |
+| rateValue <sup>1</sup> |  |  |  |  |  |   |
 
 {style="table-layout:auto"}
 
-¹MOEDA do validador adicionado
+<sup>1</sup>adicionada a MOEDA do validador
 
 ### Tarefa
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | kanbanFlag |   |   |   |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
@@ -289,25 +290,25 @@ Despesa
 
 ### Equipe
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| horasPorPonto ¹ |   |   |   |   |   |   |
+| hoursPerPoint <sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹ validador adicionado LESS_THAN
+<sup>1</sup> validador adicionado LESS_THAN
 
-### AtribuiçãoEquipe
+### Atribuição da equipe
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-### TeamTask
+### TarefaEquipe
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
@@ -315,7 +316,7 @@ Despesa
 
 ### Planilha de horas
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   |   |
 
@@ -323,17 +324,17 @@ Despesa
 
 ### Atualizar
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| updateType `¹` |   |   |   |   |   | objectUpdatesWithNoteAndJournalEntryIndex  |
+| updateType `<sup>1</sup>` |   |   |   |   |   | objectUpdatesWithNoteAndJournalEntryIndex  |
 
 {style="table-layout:auto"}
 
-¹ alterações nos valores possíveis
+<sup>1</sup> alterações em possibleValues
 
 ### Usuário
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 |   | accessLevel  |   |   |   |   |   |
 
@@ -341,36 +342,36 @@ Despesa
 
 ### UserNote
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| eventType ¹ |   |   |   |   |   |   |
+| eventType <sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹ alterações nos valores possíveis
+<sup>1</sup> alterações em possibleValues
 
 ### Trabalho
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  | pendingApproval ¹  |   |   |   |
+| kanbanFlag |  |  | pendingApproval <sup>1</sup>  |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹ Tipo alterado de nulo para booleano
+<sup>1</sup> Tipo alterado de nulo para booleano
 
 ## Recursos removidos {#removed-resources}
 
 ### ResourceBudgetedHour
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| allocateDate |   |   |   |   |   | ADICIONAR  |
-| budgetHours |   |   |   |   |   | CONTAGEM  |
+| allocationDate |   |   |   |   |   | ADICIONAR  |
+| budgetedHours |   |   |   |   |   | CONTAGEM  |
 | ID |   |   |   |   |   | EXCLUIR  |
-| planBudgetedHours |   |   |   |   |   | EDITAR  |
+| plannedBudgetedHours |   |   |   |   |   | EDITAR  |
 | projectID |   |   |   |   |   | GET  |
 | roleID |   |   |   |   |   | RELATÓRIO  |
 | userID |   |   |   |   |   | SEARCH |

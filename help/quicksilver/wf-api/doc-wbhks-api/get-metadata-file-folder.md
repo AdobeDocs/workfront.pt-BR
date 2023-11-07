@@ -2,22 +2,23 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Obter metadados para um arquivo ou pasta
-description: Obter metadados para um arquivo ou pasta
+title: Obter metadados de um arquivo ou pasta
+description: Obter metadados de um arquivo ou pasta
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
 
-# Obter metadados para um arquivo ou pasta
+# Obter metadados de um arquivo ou pasta
 
-Retorna metadados para o arquivo ou pasta especificado.
+Retorna os metadados do arquivo ou pasta especificada.
 
 **URL**
 
@@ -37,8 +38,8 @@ GET /metadata?id=[ID do documento ou da pasta]
  <tbody> 
   <tr> 
    <td>id</td> 
-   <td>A ID do arquivo ou pasta, conforme referenciado pelo provedor do webhook. Isso é diferente da ID de documento do Adobe Workfront. Para obter os metadados do diretório raiz, use o valor ‘/'.
-   <p>Observação: O comprimento máximo da ID é de 255 caracteres.</p></td> 
+   <td>A ID do arquivo ou pasta, conforme referenciado pelo provedor do webhook. Isso é diferente da ID de documento do Adobe Workfront. Para obter os metadados do diretório raiz, use o valor '/'.
+   <p>Observação: o tamanho máximo da ID é de 255 caracteres.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,22 +68,22 @@ GET /metadata?id=[ID do documento ou da pasta]
   <tr> 
    <td>tipo </td> 
    <td>String </td> 
-   <td>Especifica se este item é um arquivo ou pasta ("arquivo" ou "pasta")</td> 
+   <td>Especifica se este item é um arquivo ou uma pasta ("arquivo" ou "pasta")</td> 
   </tr> 
   <tr> 
    <td>id</td> 
    <td>String </td> 
-   <td>O ID do arquivo ou pasta.</td> 
+   <td>A ID do arquivo ou pasta.</td> 
   </tr> 
   <tr> 
    <td>viewLink</td> 
    <td>String </td> 
-   <td> <p>O caminho do URL usado por um usuário para exibir o documento em uma janela do navegador. O URL pode ser hospedado pelo provedor de documentos ou pelo provedor de armazenamento externo nativo.</p> </td> 
+   <td> <p>O caminho de URL usado por um usuário para exibir o documento em uma janela do navegador. O URL pode ser hospedado pelo provedor de documentos ou pelo provedor de armazenamento externo nativo.</p> </td> 
   </tr> 
   <tr> 
    <td>downloadLink</td> 
    <td>String </td> 
-   <td> <p>O caminho do URL usado por um usuário para baixar o documento em uma janela do navegador. O URL pode ser hospedado pelo provedor de documentos ou pelo provedor de armazenamento externo nativo.</p> </td> 
+   <td> <p>O caminho de URL usado por um usuário para baixar o documento em uma janela do navegador. O URL pode ser hospedado pelo provedor de documentos ou pelo provedor de armazenamento externo nativo.</p> </td> 
   </tr> 
   <tr> 
    <td>mimeType</td> 
@@ -92,10 +93,10 @@ GET /metadata?id=[ID do documento ou da pasta]
   <tr> 
    <td>dateModified</td> 
    <td>String </td> 
-   <td>Última vez que este arquivo foi modificado (carimbo de data e hora RFC 3339 formatado)</td> 
+   <td>Última vez que este arquivo foi modificado (carimbo de data/hora RFC 3339 formatado)</td> 
   </tr> 
   <tr> 
-   <td>size</td> 
+   <td>tamanho</td> 
    <td>Long</td> 
    <td> O tamanho do arquivo em bytes. (opcional)</td> 
   </tr> 
@@ -108,7 +109,7 @@ GET /metadata?id=[ID do documento ou da pasta]
 </table>
 
 **Exemplo:** https://www.acme.com/api/metadata?id=12345
-<pre>{<br>title: "My Document",<br>tipo: "ficheiro"<br>id": "12345",<br>viewLink:"https://www.acme.com/viewDocument?id=12345",<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModified:"20140605T17:39:45.251Z",<br>tamanho: "32554694"<br>}</pre>
+<pre>{<br>título:"Meu documento",<br>kind:"file"<br>id":"12345",<br>viewLink:"https://www.acme.com/viewDocument?id=12345",<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModified:"20140605T17:39:45,251Z",<br>tamanho: "32554694"<br>}</pre>
 
 >[!NOTE]
 >

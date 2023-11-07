@@ -1,99 +1,100 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novidades na API versão 6
-description: Novidades na API versão 6
+title: Novidades da API versão 6
+description: Novidades da API versão 6
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '495'
-ht-degree: 33%
+ht-degree: 38%
 
 ---
 
-# Novidades na API versão 6
+# Novidades da API versão 6
 
-## Novos objetos
+## Novos Objetos
 
 ### Gerenciador de Recursos
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | ID | cliente |   |   |   |   | Adicionar |
 | customerID | projeto |   |   |   |   | Contagem |
 | projectID | resourceManager |   |   |   |   | Excluir |
-| resourceManagerID | modelo |   |   |   |   | Get |
+| resourceManagerID | modelo |   |   |   |   | Obter |
 | templateID |   |   |   |   |   | Relatório  |
 |   |   |   |   |   |   | Pesquisar  |
 
 
 ### Ews
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| fileName |   |   |   |   | fazer upload |   |
+| fileName |   |   |   |   | upload |   |
 | identificador |   |   |   |   |   |   |
 | objCode |   |   |   |   |   |   |
 
 
 ### Rótulo personalizado
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | ID |   |   |   | checkDelete | customLabels | Adicionar |
 |   |   |   |   | inUseByOtherLayoutTemplate | userCustomLabels | Contagem |
 |   |   |   |   | removeCustomLabel |   | Excluir |
-|   |   |   |   |   |   | Get |
+|   |   |   |   |   |   | Obter |
 |   |   |   |   |   |   | Relatório |
 |   |   |   |   |   |   | Pesquisar |
 
 
-## Objetos atualizados
+## Objetos Atualizados
 
-Alterações em objetos existentes: as adições são simplesmente listadas, as remoções têm tachado, as alterações nas existentes têm uma nota anexada após a tabela
+Alterações em objetos existentes: as adições são simplesmente listadas, as remoções têm tachado, as alterações em objetos existentes têm uma nota anexada após a tabela
 
 ### Atualizar
 
  
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| updateType¹ |   |   |   |   | `sinceDate` |   |
-|   |   |   |   |   | objectUpdatesByCommentID² |   |
+| updateType<sup>1</sup> |   |   |   |   | `sinceDate` |   |
+|   |   |   |   |   | objectUpdatesByCommentID<sup>2</sup> |   |
 
 {style="table-layout:auto"}
 
-¹ Alterações aos valores possíveis
+<sup>1</sup> Alterações nos valores possíveis
 
-² atributo hasFilters alterado para true
+<sup>2</sup> Atributo hasFilters alterado para true
 
  
 
 ### Aprovação
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | completedHours |   | resourceManagers | resourceManagerIDs |   |   |   |
-| constraintDate¹ |   |   |   |   |   |   |
+| constraintDate<sup>1</sup> |   |   |   |   |   |   |
 | isOriginalPlannedHoursSet |   |   |   |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
-| workRequired² |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹ Validação de data adicionada
+<sup>1</sup> Validação de data adicionada
 
-² Sinalizador NOT_FILTERABLE adicionado
+<sup>2</sup> Sinalizador NOT_FILTERABLE adicionado
 
  
 
 ### Processo de aprovação
 
-|   | Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+|   | Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|---|
-|  |  | `attachedApprovalPaths` |   |   |   |   |   |
+|   |  | `attachedApprovalPaths` |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -103,57 +104,57 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 
  
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| approvalType¹ |   |   |   |   |   |   |
+| approvalType<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹ Alterações nos valores possíveis
+<sup>1</sup> Alterações nos valores possíveis
 
  
 
-### Caminho de aprovação¹
+### Caminho de aprovação<sup>1</sup>
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | approvedStatus |   |   |   |   |   | Adicionar |
 | approvedStatusLabel |   |   |   |   |   | Contagem |
 | comentário |   |   |   |   |   | Excluir |
 | enteredByID |   |   |   |   |   | Editar |
-| entryDate |   |   |   |   |   | Get |
+| entryDate |   |   |   |   |   | Obter |
 | globalPathID |   |   |   |   |   | Relatório |
 | isPrivate |   |   |   |   |   | Pesquisar |
 | lastUpdateDate |   |   |   |   |   |   |
 | lastUpdateByID |   |   |   |   |   |   |
-| name² |   |   |   |   |   |   |
+| name<sup>2</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹ Alterado para Reportável
+<sup>1</sup> Alterado para Reportável
 
-² Validador de tamanho máximo adicionado
+<sup>2</sup> Validador de comprimento máximo adicionado
 
  
 
-### Objeto do Serviço de Trabalho
+### Objeto de serviço de trabalho
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| constraintDate¹ |   |   |   | getMyWorkCountFiltered |   |   |
-| workRequired² |   |   |   | workItemStatusLabels  |   |   |
+| constraintDate<sup>1</sup> |   |   |   | getMyWorkCountFiltered |   |   |
+| workRequired<sup>2</sup> |   |   |   | workitemStatusLabels  |   |   |
 
 {style="table-layout:auto"}
 
-¹ Validação de data adicionada
+<sup>1</sup> Validação de data adicionada
 
-² Sinalizador Not_Filterable Adicionado
+<sup>2</sup> Sinalizador Not_Filterable Adicionado
 
  
 
 ### Atribuição
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 |   |   |   |   | assignUserToRoleOnProjects |   |   |
 |   |   |   |   | swapUsersOnProjects |   |   |
@@ -165,41 +166,41 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 
 ### Linha de base 
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| workRequired<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹ Sinalizador não_filtrável adicionado
+<sup>1</sup> Sinalizador Not_Filterable Adicionado
 
  
 
 ### Tarefa da Linha de Base
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| workRequired<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹ Sinalizador não_filtrável adicionado
+<sup>1</sup> Sinalizador Not_Filterable Adicionado
 
  
 
 ### Registro de Cobrança
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| billingDate¹ |   |   |   |   |   |   |
+| billingDate<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹ adição do sinalizador de campo NO_TIME
+<sup>1</sup> sinalizador de campo NO_TIME adicionado
 
-### Evento de detalhamento 
+### Evento de burndown 
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | eventInitiator |   |   |   |   |   | `ADD` |
 |   |   |   |   |   |   | `DELETE` |
@@ -210,7 +211,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 
 ### Categoria 
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 |   |   |   |   | getCascadingRules |   |   |
 |   |   |   |   | reorderCategories |   |   |
@@ -221,11 +222,11 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 
 Enumerado Personalizado 
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-|   |   |   |   | getGroupDefaultProjectStatus | opTaskGroupStatus |   |
+|   |   |   |   | getGroupDefaultProjectStatus | opTaskGroupStatuses |   |
 |   |   |   |   | isPossibleToUnlockStatus | projectGroupStatus |   |
-|   |   |   |   |   | taskGroupStatus |   |
+|   |   |   |   |   | taskGroupStatuses |   |
 
 {style="table-layout:auto"}
 
@@ -233,7 +234,7 @@ Enumerado Personalizado 
 
 Documento 
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | `checkedOutByID` | `checkedOutBy`  |   |  isDir |   |   |   |
 | `isDir`  |   |   |   |   |   |   |
@@ -244,19 +245,19 @@ Documento 
 
 Taxa de câmbio 
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| rate¹ |   |   |   |   |   |   |
+| taxa<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹ Validador de PRECISÃO alterado para 8 a 9
+<sup>1</sup> Alterado o validador PRECISION de 8 para 9
 
  
 
 ### Integração
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | syncBurndownDate |   |   |   |   |   |   |
 
@@ -266,33 +267,33 @@ Taxa de câmbio 
 
 ### Entrada no Relatório
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| changeType¹ |   |   |   |   |   |   |
+| changeType<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹ Alterações nos valores possíveis
+<sup>1</sup> Alterações nos valores possíveis
 
  
 
-### Tarefa (Edição)¹ 
+### Optask (Problema)<sup>1</sup> 
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| workRequired² |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹ Sinalizado como RESTAURÁVEL
+<sup>1</sup> Sinalizado como RESTORÁVEL
 
-² Sinalizador Not_Filterable Adicionado
+<sup>2</sup> Sinalizador Not_Filterable Adicionado
 
  
 
-### Projeto¹ 
+### Projeto<sup>1</sup> 
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | completedHours |   | `openOpTasks` |  openOpTasks |   |   |   |
 | isOriginalPlannedHoursSet |   | resourceManagers | resourceManagerIDs  |   |   |   |
@@ -303,32 +304,32 @@ Taxa de câmbio 
 
 {style="table-layout:auto"}
 
-¹ Sinalizado como RESTORABLE e RESOURCE_MANAGEABLE
+<sup>1</sup> Sinalizado como RESTORABLE e RESOURCE_MANAGEABLE
 
-² Sinalizador Not_Filterable Adicionado
+<sup>2</sup> Sinalizador Not_Filterable Adicionado
 
  
 
-### Tarefa¹
+### Tarefa<sup>1</sup>
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| constraintDate² |   |   |   |   |   |   |
-| workRequired³ |   |   |   |   |   |   |
+| constraintDate<sup>2</sup> |   |   |   |   |   |   |
+| workRequired<sup>3</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹ Sinalizado como RESTAURÁVEL
+<sup>1</sup> Sinalizado como RESTORÁVEL
 
-² Adição do validador AT_DATE_YEAR_BEFORE
+<sup>2</sup> Validador AT_DATE_YEAR_BEFORE adicionado
 
-³ Sinalizador Not_Filterable Adicionado
+<sup>3</sup> Sinalizador Not_Filterable Adicionado
 
  
 
 ### Equipe
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | `myWorkViewID` |  `myWorkView` |   |   |   |   |   |
 | `requestsViewID`  | `myRequestsView`  |   |   |   |   |   |
@@ -337,59 +338,59 @@ Taxa de câmbio 
 
  
 
-### Modelo¹ 
+### Modelo<sup>1</sup> 
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 |   |   | resourceManagers | resourceManagerIDs |   |   |   |
 
 {style="table-layout:auto"}
 
-¹ Sinalizado como RESTORABLE e RESOURCE_MANAGEABLE
+<sup>1</sup> Sinalizado como RESTORABLE e RESOURCE_MANAGEABLE
 
-### Modelo de Tarefa¹ 
+### Modelo de Tarefa<sup>1</sup> 
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| workRequired² |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹ Sinalizado como RESTAURÁVEL
+<sup>1</sup> Sinalizado como RESTORÁVEL
 
-² Sinalizador Not_Filterable Adicionado
+<sup>2</sup> Sinalizador Not_Filterable Adicionado
 
  
 
 ### Usuário
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| myInfo¹ |   |   |   |   |   |   |
+| myInfo<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹ Violadores MAX_LENGTH
+<sup>1</sup> Violadores de MAX_LENGTH
 
  
 
 ### Nota do usuário
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| eventType¹ |   |   |   |   | myNotifications² |   |
+| eventType<sup>1</sup> |   |   |   |   | myNotifications<sup>2</sup> |   |
 
 {style="table-layout:auto"}
 
-¹ Valores possíveis alterados
+<sup>1</sup> Valores possíveis alterados
 
-² tem filtros alterados para `[true]`
+<sup>2</sup> tem filtros alterados para `[true]`
 
  
 
 ### Aviso
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 |   |   |   |   | `fileHandle` |   |   |
 |   |   |   |   | `zipAnnouncementAttachments`  |   |   |

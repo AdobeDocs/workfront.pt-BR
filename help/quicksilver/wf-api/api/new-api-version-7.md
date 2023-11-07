@@ -1,33 +1,34 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novidades na API versão 7
+title: Novidades da API versão 7
 description: Coleções
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 50%
+source-wordcount: '474'
+ht-degree: 47%
 
 ---
 
-# Novidades na API versão 7
+# Novidades da API versão 7
 
-## Novos objetos
+## Novos Objetos
 
 ### Bean de prova
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | Pesquisar |
-| beca sem saída |   |   |   |   |   |   |
+| deadLine |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### DocMetadataLink
+### VínculoDeMetadadosDoc
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,7 +45,7 @@ ht-degree: 50%
    <th> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">Coleções</p> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">+++++++++++ </p> </th> 
    <th>Pesquisar</th> 
    <th>Ações</th> 
-   <th>Queries</th> 
+   <th>Consultas</th> 
    <th>Operações</th> 
   </tr> 
  </thead> 
@@ -83,7 +84,7 @@ ht-degree: 50%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Get  </td> 
+   <td>Obter  </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -108,104 +109,104 @@ ht-degree: 50%
 
 ### DocMetadataLinkGroup
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | Adicionar |
 |   |   |   |   |   |   | Contagem |
 |   |   |   |   |   |   | Excluir |
-|   |   |   |   |   |   | Get |
+|   |   |   |   |   |   | Obter |
 |   |   |   |   |   |   | Relatório |
 |   |   |   |   |   |   | Pesquisar |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### AprovaçãoDeProva
+### AprovaçãoDaProva
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | Contagem |
-|   |   |   |   |   |   | Get |
+|   |   |   |   |   |   | Obter |
 |   |   |   |   |   |   | Relatório |
 |   |   |   |   |   |   | Pesquisar |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### ContornoRecurso
+### ContornoDoRecurso
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | Adicionar |
 |   |   |   |   |   |   | Contagem |
 |   |   |   |   |   |   | Excluir |
 |   |   |   |   |   |   | Editar |
-|   |   |   |   |   |   | Get |
+|   |   |   |   |   |   | Obter |
 |   |   |   |   |   |   | Relatório |
 |   |   |   |   |   |   | Pesquisar |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### UserGroups
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | groupID | grupo |   |   |   |   |   |
 | isOwner  | usuário  |   |   |   |   |   |
 | userID  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### TimesheetProfile
+### PerfilPlanilhaDeHoras
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | ID |   |  hourTypes |   |   |   | Adicionar |
 | name |   |   |   |   |   | Copiar |
 |   |   |   |   |   |   | Contagem |
 |   |   |   |   |   |   | Excluir |
 |   |   |   |   |   |   | Editar |
-|   |   |   |   |   |   | Get |
+|   |   |   |   |   |   | Obter |
 |   |   |   |   |   |   | Relatório |
 |   |   |   |   |   |   | Pesquisar |
 |   |   |   |   |   |   | Substituir |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### RsrcPool
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | ID | cliente | usuários |   |   |   | Adicionar |
 | customerID  | enteredBy  |   |   |   |   | Contagem |
 | descrição  | lastUpdatedBy  |   |   |   |   | Excluir |
 | enteredByID  |   |   |   |   |   | Editar |
-| entryDate  |   |   |   |   |   | Get |
+| entryDate  |   |   |   |   |   | Obter |
 | extRefID  |   |   |   |   |   | Relatório |
 | lastUpdateDate |   |   |   |   |   | Pesquisar |
 | lastUpdateByID |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### DocMetadataLinkGroup
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | Contagem |
-| articleName  |   |   |   |   |   | Get |
+| articleName  |   |   |   |   |   | Obter |
 | pageID  |   |   |   |   |   | Relatório |
 | url  |   |   |   |   |   | Pesquisar |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -213,152 +214,152 @@ ht-degree: 50%
 
  
 
-## Objetos atualizados
+## Objetos Atualizados
 
-Alterações em objetos existentes: as adições são simplesmente listadas, as remoções têm tachado, as alterações nas existentes têm uma nota anexada após a tabela
+Alterações em objetos existentes: as adições são simplesmente listadas, as remoções têm tachado, as alterações em objetos existentes têm uma nota anexada após a tabela
 
 ### UpdateBean
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| updateType¹ |   |   |   |   |   |   |
+| updateType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Alterações aos valores possíveis 
+<sup>1</sup> Alterações nos valores possíveis 
 
  
 
 ### ApprovalServiceObject
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |   |   |   |
-| approvalStartDate¹ |   |   |   |   |   |   |
+| approvalStartDate<sup>1</sup> |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |    |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### AccessRule¹
+### Regra de acesso<sup>1</sup>
 
-¹ Sinalizado como reportável
+<sup>1</sup> Sinalizado como reportável
 
  
 
 ### Processo de aprovação
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 |   |   | `AttachedApprovalPaths`  |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
   
 
-### Caminho de aprovação¹
+### Caminho de aprovação<sup>1</sup>
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   | `Add` |
 |   |   |   |   |   |   | `Delete` |
 |   |   |   |   |   |   | `Edit` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Sinalizador Reportável Removido
+<sup>1</sup> Sinalizador reportável removido
 
  
 
-### Objeto do Serviço de Trabalho
+### Objeto de serviço de trabalho
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |   |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Validação de data adicionada
+<sup>1</sup> Validação de data adicionada
 
-² Sinalizador Not_Filterable Adicionado
+<sup>2</sup> Sinalizador Not_Filterable Adicionado
 
  
 
 ### Atribuição
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-|  workPerDayList |   |   |   | assignUserToRoleOnProjects¹ |   |   |
-|   |   |   |   | swapUsersOnProjects¹ |   |   |
-|   |   |   |   | unassignUserFromProjects¹ |   |   |
+|  workPerDayList |   |   |   | assignUserToRoleOnProjects<sup>1</sup> |   |   |
+|   |   |   |   | swapUsersOnProjects<sup>1</sup> |   |   |
+|   |   |   |   | unassignUserFromProjects<sup>1</sup> |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ InclusãoProblemas de campo adicionados
+<sup>1</sup> Campo incluído includeIssues
 
  
 
 ### Cliente 
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| bizRuleExclusions¹ |   |   |   |   |   |   |
+| bizRuleExclusions<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Alterações aos valores possíveis 
+<sup>1</sup> Alterações nos valores possíveis 
 
  
 
 ### Enumerado Personalizado 
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | groupID  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### Documento 
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | checkOutTimestamp |   |   |   |  createProof |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### DocumentVersion 
+### VersãoDocumento 
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 |   |   |   |   |  getProofingTokens |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### Grupo
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | isPublic |  layoutTemplate | userGroups  |   |   |   |   |
 | layoutTemplateID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Validador de PRECISÃO alterado para 8 a 9
+<sup>1</sup> Alterado o validador PRECISION de 8 para 9
 
  
 
 ### HourType
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   | defaultOpTaskHourType |   |
 |   |   |   |   |   | defaultProjectHourType |   |
@@ -366,30 +367,30 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 |   |   |   |   |   | globalHourTypes  |   |
 |   |   |   |   |   | objectHourTypes  |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### Entrada no Relatório
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| changeType¹ |   |   |   |   |   |   |
+| changeType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Alterações nos valores possíveis
+<sup>1</sup> Alterações nos valores possíveis
 
  
 
-### Optask (Edição)
+### Optask (Problema)
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |  assignMultiple |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -397,12 +398,12 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 
 ### Projeto
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |   |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -410,55 +411,55 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 
 ### QueueDef
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | allowedLegacyQueueTopicIDs |  |  |  | getQueueDefTree |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### QueueTopic
+### TópicoFila
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |  queueTopicID |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### Recentes
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 |   |   |   |   |  updateLastViewedObject |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### Tarefa
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   | assignMultiple  |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### TemplateTask
+### TarefaModelo
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| workRequired<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Tipo alterado de Int para Double 
+<sup>1</sup> Tipo Alterado de Int para Duplo 
 
  
 
@@ -479,7 +480,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
    <th>Coleções</th> 
    <th>Pesquisar</th> 
    <th>Ações</th> 
-   <th>Queries</th> 
+   <th>Consultas</th> 
    <th>Operações</th> 
   </tr> 
  </thead> 
@@ -496,7 +497,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">scheduleDeativationDate</span></td> 
+   <td> <span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">scheduleDeactivationDate</span></td> 
    <td> </td> 
    <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">timesheetProfileHourTypes</span> </td> 
    <td> </td> 
@@ -536,7 +537,7 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>showshouldProofHQNavButton</td> 
+   <td>showShouldProofHQNavButton</td> 
    <td> </td> 
    <td>  </td> 
   </tr> 
@@ -545,13 +546,13 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 
 ### Nota do usuário
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | `acknowledgedmentIDs` |   |   |   |  unackknowledgeMany |   |   |
 | ackDate |   |   |   |   |   |   |
 | ackType |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -559,10 +560,10 @@ Alterações em objetos existentes: as adições são simplesmente listadas, as 
 
 ### CustomerPrefObject
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 |  name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Alterações nos valores possíveis
+<sup>1</sup> Alterações nos valores possíveis

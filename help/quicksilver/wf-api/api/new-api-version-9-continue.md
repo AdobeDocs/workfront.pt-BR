@@ -2,24 +2,25 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: Novidades da API versão 9 (continuação)
-description: Esta lista é a segunda metade de uma lista maior. A primeira metade pode ser localizada em Novidades na API versão 9. Você encontrará a lista de atualizações da versão 9 em Atualizações da API versão 9.
+description: Esta lista é a segunda metade de uma lista maior. A primeira metade pode ser localizada em Novidades na API versão 9. Você encontrará a lista de atualizações para a versão 9 em Atualizações para a API versão 9.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 0af97c16-e6a7-4796-92e0-4c2d9751c845
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 20%
+ht-degree: 25%
 
 ---
 
 # Novidades da API versão 9 (continuação)
 
-Esta lista é a segunda metade de uma lista maior. A primeira metade pode ser localizada em [Novidades na API versão 9](../../wf-api/api/new-api-version-9.md). Você encontrará a lista de atualizações da versão 9 em [Atualizações da API versão 9](../../wf-api/api/new-api-version-9-updates.md).
+Esta lista é a segunda metade de uma lista maior. A primeira metade pode ser localizada em [Novidades da API versão 9](../../wf-api/api/new-api-version-9.md). Você encontrará a lista de atualizações para a versão 9 em [Atualizações da API versão 9](../../wf-api/api/new-api-version-9-updates.md).
 
 ## PortalSection
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | `accessorIDs` | `customer` | `accessRules` | `accessLevelMM` | `exportFusionChartToPDF` |  | `ADD` |
 | `appGlobalID` | `enteredBy` | `lastViewers` | `displayDescription` | `getPK` |  | `COPY` |
@@ -87,7 +88,7 @@ Esta lista é a segunda metade de uma lista maior. A primeira metade pode ser lo
 
 ## PortalSectionLastViewer
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | creationDate | `customer` |  |  |  |  | `COUNT` |
 | `customerID` | `report` |  |  |  |  | `GET` |
@@ -97,9 +98,9 @@ Esta lista é a segunda metade de uma lista maior. A primeira metade pode ser lo
 
 {style="table-layout:auto"}
 
-## PortalSectionStatisticsInfo
+## PortalSectionStatisticInfo
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | `allViews` | `customer` |  |  |  |  | `COUNT` |
 | `customerID` | `report` |  |  |  |  | `GET` |
@@ -115,9 +116,9 @@ Esta lista é a segunda metade de uma lista maior. A primeira metade pode ser lo
 
 {style="table-layout:auto"}
 
-## Guia Portal
+## GuiaPortal
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | `accessorIDs` | `customer` | `accessRules` | `linkedRoleIDs` | `advancedCopy` |  | `ADD` |
 | `customerID` | `lastUpdatedBy` | `linkedRoles` | `linkedTeamIDs` | `exportDashboard` |  | `COPY` |
@@ -139,7 +140,7 @@ Esta lista é a segunda metade de uma lista maior. A primeira metade pode ser lo
 
 ## PortalTabSection
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | `area` | `calendarPortalSection`  |   |   |   |   |   |
 | `calendarPortalSectionID` | `customer`  |   |   |   |   |   |
@@ -156,7 +157,7 @@ Esta lista é a segunda metade de uma lista maior. A primeira metade pode ser lo
 
 ## ReportFolder
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | customerID | `customer` |   |   |   |   |   |
 | `ID`  |   |   |   |   |   |   |
@@ -164,9 +165,9 @@ Esta lista é a segunda metade de uma lista maior. A primeira metade pode ser lo
 
 {style="table-layout:auto"}
 
-## ScheduleReport
+## AgendarRelatório
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | `customerID` | `customer` | `groups` | `accessLevelMM` | `sendReportDeliveryNow` |  | `ADD` |
 | `description` | `enteredBy` | `roles` |  |  |  | `COPY` |

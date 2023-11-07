@@ -1,61 +1,62 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Tentativas de assinatura do evento
-description: Tentativas de assinatura do evento
+title: Novas tentativas de assinatura de evento
+description: Novas tentativas de assinatura de evento
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
 
 ---
 
-# Tentativas de assinatura do evento
+# Novas tentativas de assinatura de evento
 
-Ao implementar um sistema de entrega de mensagens, há algumas limitações que devem ser abordadas para garantir a estabilidade, consistência e boa experiência do usuário. Uma das deficiências de um sistema de entrega de mensagens é garantir que as mensagens cheguem ao destino com sucesso e saber o que fazer quando as mensagens não chegarem.
+Ao implementar um sistema de delivery de mensagens, há algumas limitações que devem ser abordadas para garantir estabilidade, consistência e boa experiência do usuário. Uma das deficiências de um sistema de entrega de mensagens é garantir que as mensagens cheguem ao destino com êxito e saber o que fazer quando as mensagens não chegarem.
 
-Algumas integrações podem aceitar a falha de entrega e, em seguida, soltar a mensagem e mover para a próxima mensagem.  Em outras integrações, a falha no delivery de uma mensagem não pode ser ignorada. Por exemplo, uma integração financeira pode tentar entregar uma mensagem, mas ao invés disso recebe um código de status HTTP 404, indicando que o servidor não conseguiu encontrar o terminal para o qual a mensagem seria entregue. Em tais casos, uma mensagem ausente poderia significar que alguém não seria pago pelo seu tempo ou por uma organização que ultrapassasse o orçamento com recursos contratados.
+Algumas integrações podem aceitar a falha de entrega, descartar a mensagem e passar para a próxima mensagem.  Em outras integrações, a falha ao entregar uma mensagem não pode ser ignorada. Por exemplo, uma integração financeira pode tentar entregar uma mensagem, mas recebe um código de status HTTP 404, que indica que o servidor não pôde encontrar o endpoint para o qual a mensagem deveria ser entregue. Nesses casos, uma mensagem ausente pode significar que alguém não está sendo pago pelo seu tempo ou que uma organização está ultrapassando o orçamento de recursos contratados.
 
-## Estratégia Adobe Workfront para tentativas de assinatura de evento
+## Estratégia da Adobe Workfront para novas tentativas de assinatura de evento
 
-Como os clientes usam a plataforma Workfront como parte essencial do seu trabalho diário de conhecimento, a estrutura Workfront Event Subscription fornece um mecanismo para garantir que o delivery de cada mensagem seja tentado o mais possível.
+Como os clientes usam a plataforma Workfront como parte principal de seu trabalho diário de conhecimento, a estrutura Workfront Event Subscription fornece um mecanismo para garantir que a entrega de cada mensagem seja tentada na maior extensão possível.
 
-Mensagens de saída acionadas por evento que não são entregues aos endpoints do cliente são reenviadas até que o delivery seja bem-sucedido por até um período de 48 horas. Durante esse tempo, as tentativas ocorrem em uma frequência cada vez menor até que o delivery seja bem-sucedido ou até que 48 horas tenham decorrido.
+As mensagens de saída acionadas pelo evento que não são entregues aos endpoints do cliente são reenviadas até que a entrega seja bem-sucedida por um período de até 48 horas. Durante esse período, as tentativas ocorrem com uma frequência cada vez mais reduzida até que o delivery seja bem-sucedido ou até que 48 horas tenham decorrido.
 
-Os clientes precisam garantir que todos os endpoints que consumem mensagens de saída das Assinaturas de eventos do Workfront sejam configurados para retornar uma mensagem de resposta de nível 200 para o Workfront quando a entrega for bem-sucedida.
+Os clientes precisam garantir que todos os endpoints que consomem mensagens de saída das Assinaturas de eventos da Workfront estejam configurados para retornar uma mensagem de resposta de 200 níveis à Workfront quando a entrega for bem-sucedida.
 
-## Lidar com mensagens de saída com falha acionadas por eventos
+## Lidar com mensagens de saída disparadas por eventos com falha
 
-O fluxograma a seguir mostra a estratégia para tentar recriar deliveries de mensagem com assinaturas de evento do Workfront:
+O fluxograma a seguir mostra a estratégia para tentar novamente a entrega de mensagens com Assinaturas de Eventos da Workfront:
 
 ![](assets/event-subscription-circuit-breaker-retries-350x234.png)
 
 As explicações a seguir correspondem às etapas descritas no fluxograma:
 
-1. A mensagem não é entregue.
-1. As informações de falha do delivery de mensagens são registradas.
+1. Falha na entrega da mensagem.
+1. As informações de falha de delivery de mensagem são registradas.
 
-   Todas as tentativas com falha de entregar uma mensagem são registradas para que a depuração possa ser executada para determinar a causa raiz de uma determinada falha ou série de falhas.
+   Todas as tentativas falhas de entrega de uma mensagem são registradas para que a depuração possa ser executada para determinar a causa raiz de determinada falha ou série de falhas.
 
 1. Falhas de URL aumentadas.
-1. A contagem de tentativas de mensagem é aumentada.
-1. Calcule o atraso até que o delivery desta mensagem seja tentado novamente.
-1. A mensagem é colocada na fila de tentativas de mensagem.
+1. A contagem de tentativas da mensagem é incrementada.
+1. Calcule o atraso até que a entrega desta mensagem seja tentada novamente.
+1. A mensagem é colocada na fila de mensagens repetidas.
 
-   Conforme mostrado no fluxograma anterior, a fila de mensagens usada para processar novas tentativas de delivery de mensagens é uma fila separada da que processa a tentativa de delivery inicial de cada mensagem. Isso permite que o fluxo quase em tempo real de mensagens continue desimpedido pela falha de qualquer subconjunto de mensagens.
+   Como mostrado no fluxograma anterior, a fila de mensagens usada para processar tentativas de delivery de mensagens é uma fila separada daquela que processa a tentativa de delivery inicial para cada mensagem. Isso permite que o fluxo de mensagens quase em tempo real continue desimpedido pela falha de qualquer subconjunto de mensagens.
 
-1. O status do circuito de URL é avaliado. Um dos seguintes ocorre:
+1. O status do circuito de URL é avaliado. Uma das situações a seguir ocorre:
 
    * Se o circuito estiver aberto e não permitir deliveries no momento, reinicie o processo na etapa 5.
-   * Se o circuito estiver meio aberto, isso implica que nosso circuito está aberto no momento, mas foi passado tempo suficiente para permitir que o teste do URL verifique se o problema com o delivery foi resolvido.
-   * Se os limites da tentativa de delivery de mensagem tiverem sido atingidos (48 horas após a tentativa), a mensagem será ignorada
+   * Se o circuito estiver semiaberto, isso implica que nosso circuito está aberto no momento, mas passou tempo suficiente para permitir o teste do URL para ver se o problema com a entrega foi resolvido.
+   * Se os limites de tentativa de delivery da mensagem tiverem sido atingidos (48 horas de novas tentativas), a mensagem será descartada
 
-1. Se o circuito do URL estiver fechado e permitir entregas, tente entregar a mensagem. Se esse delivery falhar, a mensagem será reiniciada na etapa 1
+1. Se o circuito de URL estiver fechado e permitindo deliveries, tente entregar a mensagem. Se esse delivery falhar, a mensagem será reiniciada na etapa 1
 
-1. Se o circuito do URL estiver fechado e permitir entregas, tente entregar a mensagem. Se esse delivery falhar, a mensagem será reiniciada na etapa 1.
+1. Se o circuito de URL estiver fechado e permitindo deliveries, tente entregar a mensagem. Se esse delivery falhar, a mensagem será reiniciada na etapa 1.
 
    <!--
    <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workfront disables Event Subscriptions when both of the following criteria are met:

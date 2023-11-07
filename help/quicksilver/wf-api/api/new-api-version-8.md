@@ -1,30 +1,31 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novidades na API versão 8
-description: Esta é uma lista de recursos novos para a API versão 9. Para obter uma lista de atualizações que foram feitas nos recursos da versão 8, visite Atualizações para a API versão 8
+title: Novidades da API versão 8
+description: Esta é uma lista de recursos novos da API versão 9. Para obter uma lista de atualizações que foram feitas nos recursos da versão 8, visite Atualizações para a API versão 8
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 26%
+ht-degree: 30%
 
 ---
 
-# Novidades na API versão 8
+# Novidades da API versão 8
 
 ## Novos recursos
 
-Esta é uma lista de recursos novos para a API versão 9. Para obter uma lista de atualizações que foram feitas nos recursos da versão 8, visite [Atualizações da API versão 8](../../wf-api/api/new-api-version-8-updates.md)
+Esta é uma lista de recursos novos da API versão 9. Para obter uma lista de atualizações feitas nos recursos da versão 8, visite [Atualizações da API versão 8](../../wf-api/api/new-api-version-8-updates.md)
 
-**TrabalhoÁgil**
+**TrabalhoAgile**
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | backlogOrder | cliente |   |   | bulkCopy  |   | COPIAR |
-| color | iteração  |   |   |   |   | CONTAGEM |
+| cor | iteração  |   |   |   |   | CONTAGEM |
 | customerID | lastUpdatedBy |   |   |   |   | EXCLUIR |
 | estimativa | opTask |   |   |   |   | EDITAR |
 | ID | projeto |   |   |   |   | GET  |
@@ -36,10 +37,10 @@ Esta é uma lista de recursos novos para a API versão 9. Para obter uma lista d
 | opTaskID |   |   |   |   |   |   |
 | parentStoryBoardOrder |   |   |   |   |   |   |
 | projectID |   |   |   |   |   |   |
-| historyBoardOrder |   |   |   |   |   |   |
-| storiesBoardParentID |   |   |   |   |   |   |
+| storyBoardOrder |   |   |   |   |   |   |
+| storyBoardParentID |   |   |   |   |   |   |
 | taskID  |   |   |   |   |   |   |
-| TeamID |   |   |   |   |   |   |
+| teamID |   |   |   |   |   |   |
 | tipo |   |   |   |   |   |   |
 | uiObjCode |   |   |   |   |   |   |
 | uiObjectID |   |   |   |   |   |   |
@@ -48,7 +49,7 @@ Esta é uma lista de recursos novos para a API versão 9. Para obter uma lista d
 
 ### APIVersionMetadata
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | deprecationRelease |   |   |   |   |   | CONTAGEM  |
 | removeRelease |   |   |   |   |   | GET |
@@ -57,9 +58,9 @@ Esta é uma lista de recursos novos para a API versão 9. Para obter uma lista d
 
 {style="table-layout:auto"}
 
-**KanbanBoard**
+**Quadro Kanban**
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | ADICIONAR |
 | name |   |   |   |   |   | CONTAGEM |
@@ -71,9 +72,9 @@ Esta é uma lista de recursos novos para a API versão 9. Para obter uma lista d
 
 {style="table-layout:auto"}
 
-### ProofApprovalStatus
+### StatusAprovaçãoProva
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   |   |
 | proofApprovalStatusID |   |   |   |   |   |   |
@@ -81,9 +82,9 @@ Esta é uma lista de recursos novos para a API versão 9. Para obter uma lista d
 
 {style="table-layout:auto"}
 
-**ProofFileMetadata**
+**MetadadosDeArquivoDeProva**
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | documentVersionID | documentVersion |   |   |   |   |   |
 | fileIndex |   |   |   |   |   |   |
@@ -95,11 +96,11 @@ Esta é uma lista de recursos novos para a API versão 9. Para obter uma lista d
 
 **ResourceBudgetedHour**
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| allocateDate |   |   |   |   |   | ADICIONAR |
-| budgetHours |   |   |   |   |   | CONTAGEM |
-| planBudgetedHours |   |   |   |   |   | EXCLUIR |
+| allocationDate |   |   |   |   |   | ADICIONAR |
+| budgetedHours |   |   |   |   |   | CONTAGEM |
+| plannedBudgetedHours |   |   |   |   |   | EXCLUIR |
 | projectID |   |   |   |   |   | EDITAR |
 | roleID |   |   |   |   |   | GET |
 | userID |   |   |   |   |   | RELATÓRIO |
@@ -107,9 +108,9 @@ Esta é uma lista de recursos novos para a API versão 9. Para obter uma lista d
 
 {style="table-layout:auto"}
 
-### ResourcePlannerFilter
+### FiltroDoPlanejadorDeRecursos
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | ADICIONAR |
 | name |   |   |   |   |   | CONTAGEM |
@@ -123,7 +124,7 @@ Esta é uma lista de recursos novos para a API versão 9. Para obter uma lista d
 
 **RichTextNote**
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | CONTAGEM |
 |   |   |   |   |   |   | GET |
@@ -134,12 +135,12 @@ Esta é uma lista de recursos novos para a API versão 9. Para obter uma lista d
 
 ### Assinar
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 |  ID |   |   |   | addSubscribers | assinantes | ADICIONAR |
 |   |   |   |   | removeSubscribers |   | CONTAGEM  |
-|   |   |   |   | subscriptions |   | EXCLUIR |
-|   |   |   |   | cancelar assinaturas |   | GET |
+|   |   |   |   | assina |   | EXCLUIR |
+|   |   |   |   | cancelamentos de assinatura |   | GET |
 |   |   |   |   |   |   | RELATÓRIO |
 |   |   |   |   |   |   | SEARCH |
 
@@ -147,7 +148,7 @@ Esta é uma lista de recursos novos para a API versão 9. Para obter uma lista d
 
 ### UserRole
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | roleID | função |   |   |   |   |   |
 | timePercentage | usuário |   |   |   |   |   |

@@ -5,8 +5,9 @@ title: API de assinatura de evento
 description: API de assinatura de evento
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 34810c67de5578479ae56cd72865656a89d35aa9
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '2111'
 ht-degree: 3%
@@ -52,7 +53,7 @@ Os seguintes objetos do Workfront são suportados por assinaturas de evento.
 
 * Atribuição
 * Empresa
-* Painel de Controle
+* Painel
 * Documento
 * Despesa
 * Hora
@@ -76,7 +77,7 @@ Para criar, consultar ou excluir uma assinatura de evento, seu usuário do Workf
 * Um nível de acesso de &quot;Administrador do sistema&quot; é necessário para usar Assinaturas de eventos.
 * A `sessionID`  é necessário um cabeçalho para usar a API de Assinaturas de Eventos
 
-   Para obter mais informações, consulte [Autenticação](api-basics.md#authentication) in [Noções básicas sobre API](api-basics.md).
+  Para obter mais informações, consulte [Autenticação](api-basics.md#authentication) in [Noções básicas sobre API](api-basics.md).
 
 ## Formar o recurso de assinatura
 
@@ -90,7 +91,7 @@ O recurso de assinatura contém os seguintes campos.
 
    * **String** - O objCode do objeto que está sendo inscrito para alterações. Os valores possíveis para objCode estão listados na tabela abaixo.
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <thead> 
@@ -109,7 +110,7 @@ O recurso de assinatura contém os seguintes campos.
         <td scope="col"><p>COMPY</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">Painel de Controle</td> 
+        <td scope="col">Painel</td> 
         <td scope="col">PTLTAB</td> 
        </tr> 
        <tr> 
@@ -419,6 +420,7 @@ A filtragem por assinatura de evento pode ser usada para garantir que você rece
 Por exemplo, uma variável **ATUALIZAR - TAREFA** a inscrição no evento pode ser definida para acionar somente quando a variável **newState** de uma carga útil do evento define o **taskStatus** as **atual**.
 
 >[!IMPORTANT]
+>
 Os seguintes atributos se aplicam à filtragem de assinatura de evento
 
 * Quando um campo de filtro tem um valor não vazio, apenas mensagens com um **newState** contendo as chaves de filtro e os valores são enviados ao URL assinado
@@ -580,6 +582,7 @@ Esse filtro permite a entrada de mensagens se a alteração que ocorreu contiver
 Esse filtro permite a entrada de mensagens somente se o campo especificado (`fieldName`) tem um valor diferente em oldstate e newstate. Atualização de outros campos além do especificado (`fieldName`) não retornará essa alteração.
 
 >[!NOTE]
+>
 `fieldValue` na matriz de filtros abaixo não tem efeito.
 
 ```
@@ -604,6 +607,7 @@ Esse conector faz com que o filtro se aplique ao novo estado ou ao estado antigo
 `oldState` não é possível em CREATE `eventTypes`.
 
 >[!NOTE]
+>
 A assinatura abaixo com o filtro fornecido só retornará mensagens cujo nome da tarefa contenha `again` no `oldState`, o que era antes de uma atualização ser feita na tarefa.
 Um caso de uso para isso seria encontrar as mensagens objCode que mudaram de uma coisa para outra. Por exemplo, para descobrir todas as tarefas que foram alteradas de &quot;Pesquisar algum nome&quot; para &quot;Pesquisar nome da equipe Algum nome&quot;
 

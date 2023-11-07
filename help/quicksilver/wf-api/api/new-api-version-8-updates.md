@@ -2,67 +2,68 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: Atualizações da API versão 8
-description: Os recursos existentes a seguir foram atualizados com esta versão da API do Adobe Workfront. Para ver os recursos novos nas versões 8, consulte Novidades na API versão 8. As alterações feitas em um recurso são indicadas da seguinte maneira - EDITAR ME.
+description: Os recursos existentes a seguir foram atualizados com esta versão da API do Adobe Workfront. Para visualizar os recursos novos nas versões 8, consulte Novidades na API versão 8. As alterações feitas em um recurso são indicadas da seguinte maneira - EDIT ME.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '529'
-ht-degree: 26%
+ht-degree: 31%
 
 ---
 
 # Atualizações da API versão 8
 
-## Recursos atualizados
+## Recursos Atualizados
 
-Os recursos existentes a seguir foram atualizados com esta versão da API do Adobe Workfront. Para ver os recursos novos nas versões 8, consulte [Novidades na API versão 8](../../wf-api/api/new-api-version-8.md). As alterações feitas em um recurso são indicadas da seguinte maneira:
+Os recursos existentes a seguir foram atualizados com esta versão da API do Adobe Workfront. Para visualizar os recursos novos nas versões 8, consulte [Novidades da API versão 8](../../wf-api/api/new-api-version-8.md). As alterações feitas em um recurso são indicadas da seguinte maneira:
 
-* As adições são simplesmente listadas
+* As adições são listadas apenas
 * As remoções são indicadas com texto tachado
 * As alterações são anotadas na nota após a tabela
 
-### AccessRequest
+### Solicitação de acesso
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| ação¹  |   |   |   |   |   |   |
+| ação<sup>1</sup>  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹ Alterações aos valores possíveis
+<sup>1</sup> Alterações nos valores possíveis
 
-### AccessRule¹ 
+### Regra de acesso<sup>1</sup> 
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| coreAction²  |   |   |   |   |   |   |
-| ações proibidas² |   |   |   |   |   |   |
-| secundárioActions² |   |   |   |   |   |   |
+| coreAction<sup>2</sup>  |   |   |   |   |   |   |
+| forbiddenActions<sup>2</sup> |   |   |   |   |   |   |
+| secondaryActions<sup>2</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹ Sinalizador removido: REPORTABLE\
-² Alterações a valores possíveis
+<sup>1</sup> Sinalizador removido: REPORTABLE\
+<sup>2</sup> Alterações nos valores possíveis
 
 ### Aprovação
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  | resourcePools |   |   |   |   |
-| backlogOrder² | kanbanBoard  |   |   |   |   |   |
+| auditTypes<sup>1</sup> | TrabalhoAgile  | resourcePools |   |   |   |   |
+| backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
 | backlogParent |   |   |   |   |   |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹Alterações em valores possíveis\
-² Sinalizadores adicionados: DYNAMIC, LAZY_READ e NOT_GROUPABLE
+<sup>1</sup>Alterações nos valores possíveis\
+<sup>2</sup>Sinalizadores adicionados: DYNAMIC, LAZY_READ e NOT_GROUPABLE
 
 ### Atribuição
 
-|   |   |   |   | Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+|   |   |   |   | Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|---|---|---|---|
 |   |   |   |   | assignUserToRoleOnTasks | getAssignAssignmentsForTasks  |   |   |   |   |   |
 |   |   |   |   | swapUsersOnTasks | getUnassignAssignmentsForTasks |   |   |   |   |   |
@@ -72,38 +73,38 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 
 ### Cliente
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| bizRuleExclusions¹ |   |   |   | getPackagingOptionValue |   |   |
-| proofPlan¹ |   |   |   | isPackagingOptionEnabled |   |   |
+| bizRuleExclusions<sup>1</sup> |   |   |   | getPackagingOptionValue |   |   |
+| proofPlan<sup>1</sup> |   |   |   | isPackagingOptionEnabled |   |   |
 
 {style="table-layout:auto"}
 
-¹Alterações em valores possíveis
+<sup>1</sup>Alterações nos valores possíveis
 
-### CustomerPreferences
+### PreferênciasDoCliente
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| name¹ |   |   |   |   |   |   |
+| name<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹Alterações em valores possíveis
+<sup>1</sup>Alterações nos valores possíveis
 
 ### DocumentApproval
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| ID¹ |   |   |   |   |   |   |
+| ID<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹Flag acrescentou: NOT_FILTERABLE
+<sup>1</sup>Sinalizador adicionado: NOT_FILTERABLE
 
-### DocumentVersion
+### VersãoDocumento
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | ativeProofStages |   |   |   |   |   |   |
 
@@ -111,7 +112,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 
 ### Grupo
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 |   |   | proprietários |   |   |   |   |
 
@@ -119,17 +120,17 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 
 ### HourType
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| appGlobalID¹ |   |   |   |   |   |   |
+| appGlobalID<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹Flag acrescentou: NOT_FILTERABLE
+<sup>1</sup>Sinalizador adicionado: NOT_FILTERABLE
 
 ### Iteração
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 |   |   |   |   | moveStories |   |   |
 
@@ -137,7 +138,7 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 
 ### Curtir
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | `endorsementID` | `endorsement` |   |   |   |   |   |
 
@@ -145,19 +146,19 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 
 ### Nota
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| auditType¹ |   |   |   |   |   |   |
+| auditType<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹Alterações em valores possíveis
+<sup>1</sup>Alterações nos valores possíveis
 
 ### OpTask
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  |   |   |   | defaultShownTimesheetIssues  |   |
+| auditTypes<sup>1</sup> | TrabalhoAgile  |   |   |   | defaultShownTimesheetIssues  |   |
 | backlogOrder | iteração |   |   |   |   |   |
 | backlogParent |   |   |   |   |   |   |
 | estimativa |   |   |   |   |   |   |
@@ -165,65 +166,65 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 
 {style="table-layout:auto"}
 
-¹Alterações em valores possíveis
+<sup>1</sup>Alterações nos valores possíveis
 
 ### Portfólio
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹Alterações em valores possíveis
+<sup>1</sup>Alterações nos valores possíveis
 
 ### Programa
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹Alterações em valores possíveis
+<sup>1</sup>Alterações nos valores possíveis
 
 ### Projeto
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   | resourcePools |   |   | defaultShownTimesheetProjects |   |
+| auditTypes<sup>1</sup> |   | resourcePools |   |   | defaultShownTimesheetProjects |   |
 
 {style="table-layout:auto"}
 
-¹Alterações em valores possíveis
+<sup>1</sup>Alterações nos valores possíveis
 
-### AprovaçãoDeProva
+### AprovaçãoDaProva
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| approvalID | aprovador |   |   |   |   |   |
+| approverID | aprovador |   |   |   |   |   |
 | documentVersionID | documentVersion |   |   |   |   |   |
-| ID¹ |   |   |   |   |   |   |
+| ID<sup>1</sup> |   |   |   |   |   |   |
 | proofCreationDate |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹Flag acrescentou: NOT_FILTERABLE
+<sup>1</sup>Sinalizador adicionado: NOT_FILTERABLE
 
 ### QueueDef
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| requestorCoreAction¹ |   |   |   |   |   |   |
-| requestorForbiddenActions¹ |   |   |   |   |   |   |
+| requestorCoreAction<sup>1</sup> |   |   |   |   |   |   |
+| requestorForbiddenActions<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹Alterações em valores possíveis
+<sup>1</sup>Alterações nos valores possíveis
 
 ### Taxa
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | endDate |   |   |   | setRatesForRole  |   |   |
 | name |   |   |   |   |   |   |
@@ -231,17 +232,17 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 
 {style="table-layout:auto"}
 
-### ReservedTime
+### TempoReservado
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | extRefID |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-### ResourceManager
+### GerenciadorDeRecursos
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | projectPriority |   |   |   |   |   |   |
 
@@ -249,59 +250,59 @@ Os recursos existentes a seguir foram atualizados com esta versão da API do Ado
 
 ### Tarefa
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  |   |   |   | allTasksOnIterations  |   |
+| auditTypes<sup>1</sup> | TrabalhoAgile  |   |   |   | allTasksOnIterations  |   |
 | backlogParent | kanbanBoard |   |   |   | defaultShownTimesheetTasks |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹Alterações em valores possíveis
+<sup>1</sup>Alterações nos valores possíveis
 
 ### Equipe
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | agileMethodology |   |   |   |   |   |   |
 | autoAddNextStory |   |   |   |   |   |   |
 | includeIssues |   |   |   |   |   |   |
-| TeamStoryBoardIssueStatus |   |   |   |   |   |   |
+| teamStoryBoardIssueStatuses |   |   |   |   |   |   |
 | wipLimit |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
 ### Modelo
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 |   |   | resourcePools |   |   |   |   |
 
 {style="table-layout:auto"}
 
-### TemplateTask
+### TarefaModelo
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹Alterações em valores possíveis
+<sup>1</sup>Alterações nos valores possíveis
 
 Atualizar
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| updateType¹ | `updateEndorsement` |   |   |   |   |   |
+| updateType<sup>1</sup> | `updateEndorsement` |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹Alterações em valores possíveis
+<sup>1</sup>Alterações nos valores possíveis
 
 ### Usuário
 
-|   |   | Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+|   |   | Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|---|---|
 |   |   | resourcePools |   |   |   |   |   |   |
 |   |   | userGroups |   |   |   |   |   |   |
@@ -311,26 +312,26 @@ Atualizar
 
 ### UserNote
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
 | `endorsementID` | `endorsement` |   |   |   |   |   |
 | `endorsementShareID` | `endorsementShare` |   |   |   |   |   |
-| eventType¹ |   |   |   |   |   |   |
+| eventType<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹Alterações em valores possíveis
+<sup>1</sup>Alterações nos valores possíveis
 
 ### Trabalho
 
-| Campos | Referências | Coleções | Pesquisar | Ações | Queries | Operações |
+| Campos | Referências | Coleções | Pesquisar | Ações | Consultas | Operações |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  |   |   |   |   |   |
-| backlogOrder² | kanbanBoard  |   |   |   |   |   |
+| auditTypes<sup>1</sup> | TrabalhoAgile  |   |   |   |   |   |
+| backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
 | backlogParent  |   |   |   |   |   |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹Alterações em valores possíveis\
-² Sinalizadores adicionados: DYNAMIC, LAZY_READ e NOT_GROUPABLE
+<sup>1</sup>Alterações nos valores possíveis\
+<sup>2</sup>Sinalizadores adicionados: DYNAMIC, LAZY_READ e NOT_GROUPABLE

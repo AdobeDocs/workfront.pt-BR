@@ -5,8 +5,9 @@ title: Práticas recomendadas de assinatura de evento
 description: Práticas recomendadas de assinatura de evento
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -16,14 +17,14 @@ ht-degree: 0%
 
 # Práticas recomendadas de assinatura de evento
 
-As mensagens de Assinatura de evento do Adobe Workfront são enviadas automaticamente do Workfront após a configuração correta do serviço e a criação de uma Assinatura de evento para acionar esses deliveries de mensagem. Para saber mais sobre como configurar corretamente assinaturas de evento, consulte [Requisitos de delivery de assinatura de evento](../../wf-api/general/setup-event-sub-endpoint.md).
+As mensagens de Assinatura de evento do Adobe Workfront são enviadas automaticamente pelo Workfront depois de configurar corretamente o serviço e criar uma Assinatura de evento para acionar essas entregas de mensagem. Para saber mais sobre como configurar corretamente Assinaturas de evento, consulte [Requisitos de entrega de Assinatura de Evento](../../wf-api/general/setup-event-sub-endpoint.md).
 
 
-Veja abaixo algumas práticas recomendadas para ajudá-lo a criar assinaturas de evento com eficácia.
+Veja abaixo algumas práticas recomendadas para ajudá-lo a criar assinaturas de evento de maneira eficiente.
 
-## Fornecer todos os campos de corpo de solicitação necessários
+## Forneça todos os campos de corpo de solicitação obrigatórios
 
-Verifique se todos os campos de corpo da solicitação necessários foram fornecidos para a API. Para obter informações sobre todos os atributos de solicitação necessários, consulte [API de assinatura de evento](../../wf-api/general/event-subs-api.md).
+Verifique se todos os campos obrigatórios do corpo da solicitação foram fornecidos para a API. Para obter informações sobre todos os atributos de solicitação necessários, consulte [API de assinatura de evento](../../wf-api/general/event-subs-api.md).
 
 ## Evite incluir campos de corpo extras
 
@@ -31,25 +32,25 @@ Não inclua campos de corpo extras na solicitação, pois isso resultará na fal
 
 ## Concluir o teste dentro do período de carência
 
-Tente realizar todos os testes de assinatura dentro do período de carência de 100 mensagens. Para saber mais sobre esse período de carência, consulte [Perguntas frequentes - Assinaturas de eventos](../../wf-api/general/event-subs-faq.md).
+Tente concluir todos os testes de assinatura dentro do período de carência de 100 mensagens. Para saber mais sobre este período de carência, consulte [Perguntas frequentes - Assinaturas de eventos](../../wf-api/general/event-subs-faq.md).
 
-## Satisfazer os requisitos padrão de entrega de mensagem de assinatura do evento
+## Atender aos requisitos padrão de entrega de mensagens de assinatura de eventos
 
-Certifique-se de que o terminal de subscrição está em conformidade com os Requisitos Padrão de Entrega da Mensagem de Subscrição de Eventos. Para saber mais sobre esses requisitos, consulte [Requisitos de delivery de assinatura de evento](../../wf-api/general/setup-event-sub-endpoint.md).
+Verifique se o endpoint de sua assinatura está em conformidade com os Requisitos de Entrega de Mensagem de Assinatura de Evento Padrão. Para saber mais sobre esses requisitos, consulte [Requisitos de entrega de Assinatura de Evento](../../wf-api/general/setup-event-sub-endpoint.md).
 
-## lista de permissões endereços IP por região global
+## ➡ Incluir na lista de permissões endereços IP por região global
 
-Para receber cargas de assinatura de evento por meio do firewall, é necessário adicionar os endereços IP à lista de permissões por região global. Para saber mais, consulte [API de assinatura de evento](../../wf-api/general/event-subs-api.md).
+Para receber payloads de subscrições de evento por meio do firewall, você deve adicionar os endereços IP à inclui na lista de permissões por região global. Para saber mais, consulte [API de assinatura de evento](../../wf-api/general/event-subs-api.md).
 
 ## Ter o nível de acesso correto e uma chave de API
 
-Para criar, consultar ou excluir uma Assinatura de evento, o usuário do Workfront precisa:
+Para criar, consultar ou excluir uma Assinatura de Evento, o usuário do Workfront precisa:
 
 * Um nível de acesso de **Administrador do sistema**
-Para saber mais, consulte [Conceder ao usuário acesso administrativo total](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) ou [Conceder aos usuários acesso administrativo a determinadas áreas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+Para saber mais, consulte [Conceder acesso administrativo total a um usuário](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) ou [Conceder aos usuários acesso administrativo a determinadas áreas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Uma chave de API
 
-   <!--
+  <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn more, see .</p>
   -->
