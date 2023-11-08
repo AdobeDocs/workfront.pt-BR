@@ -3,9 +3,10 @@ title: Melhorias nas placas do quarto trimestre de 2023
 description: Melhorias nas placas do quarto trimestre de 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: ee84471418590401fe143741cadd1d76a8917149
+exl-id: 4a527328-df5d-446a-899c-a613131c7001
+source-git-commit: 421cfdeaab4ef102b6b896677dae824cbeae4d70
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -19,6 +20,10 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 Para obter detalhes sobre como aderir aos novos recursos de Quadros antes da versão trimestral, consulte [Aceitação antecipada de recursos para painéis do Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Subtarefas agora disponíveis em Adobe Workfront Boards
+
+>[!NOTE]
+>
+>Esse recurso está temporariamente indisponível a partir de 7 de novembro de 2023. Esta página será atualizada quando o recurso estiver disponível.
 
 Quando você adiciona um cartão conectado a um quadro para uma tarefa do Workfront, todas as subtarefas existentes são importadas para o cartão. Além disso, ao criar uma subtarefa em um cartão conectado, uma subtarefa é adicionada à tarefa do Workfront.
 
