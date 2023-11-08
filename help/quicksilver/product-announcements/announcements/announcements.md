@@ -2,21 +2,21 @@
 content-type: reference
 navigation-topic: product-announcements
 title: Anúncios
-description: Esta seção contém os seguintes artigos - EDIT ME.
+description: Estes são alguns comunicados que você talvez queira conhecer.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3fe99aec-1489-4434-b787-cc3f940c9062
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '50'
 ht-degree: 4%
 
 ---
 
 # Anúncios
 
-Esta seção contém os seguintes artigos:
+Veja a seguir os anúncios que você gostaria de conhecer:
 
 * [Aprimoramentos de formulários personalizados](../../product-announcements/announcements/custom-form-enhancements.md)
 * [Perguntas frequentes sobre a Janela de manutenção](../../product-announcements/announcements/maintenance-window-faq.md)

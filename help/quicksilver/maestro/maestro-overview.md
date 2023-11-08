@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: ec6a12f2ffbacabac6124ec3a7d85a3ba292e621
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
 source-wordcount: '1845'
 ht-degree: 1%
@@ -358,7 +358,7 @@ A tabela a seguir ilustra os principais recursos que estarão disponíveis no Ma
 | Exibir registros em uma linha do tempo | ✓ |                                  |                  |
 | Filtrar registros | ✓ |                                  |                  |
 | Agrupar registros na exibição de linha do tempo | ✓ |                                  |                  |
-| Agrupar registros na exibição de tabela |                               | ✓ |                  |
+| Agrupar registros na exibição de tabela | ✓ |                                 |                  |
 | Classificar registros na exibição de tabela | ✓ |                                 |                  |
 | Classificar registros na exibição de linha do tempo |                               | ✓ |                  |
 | Classificar agrupamentos na exibição de tabela |                               | ✓ |                  |

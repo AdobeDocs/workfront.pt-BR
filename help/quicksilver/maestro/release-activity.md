@@ -1,13 +1,13 @@
 ---
 title: Atividade de lançamento do Adobe Maestri
-description: Use o Maestri para criar objetos, campos e espaços de trabalho personalizados.
+description: O Adobe Maestri está disponível atualmente para clientes selecionados do Workfront. Leia este artigo com frequência para saber mais sobre os recursos recém-lançados para o Adobe Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '2030'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,16 @@ Os recursos lançados são listados na ordem de lançamento, com o mais recente 
 Esta seção lista os recursos e patches que foram lançados após o lançamento do programa beta fechado do Maestro, em 22 de maio de 2023.
 
 Os recursos são lançados semanalmente e são listados na ordem de lançamento, com o mais recente primeiro. Os clientes que estão participando do programa beta fechado Maestro podem acessar todos os recursos em seus ambientes de Pré-visualização e Produção.
+
+## Semana de 6 de novembro de 2023
+
+### Agrupamento para exibição de tabela
+
+Pré-visualização e produção: 7 de novembro de 2023
+
+Agora é possível agrupar registros na exibição de tabela de uma página do tipo de registro. Você pode agrupar por três campos únicos na interface do Maestro <!--checking into this for now: and by four fields when using the API-->.
+
+Para obter mais informações, consulte [Gerenciar a exibição de tabela](../maestro/views/manage-the-table-view.md).
 
 ## Semana de 30 de outubro de 2023
 

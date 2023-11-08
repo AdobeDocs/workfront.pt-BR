@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '2069'
 ht-degree: 4%
 
 ---
@@ -290,7 +290,7 @@ Para adicionar um filtro a uma exibição de tabela:
             <td><p>É</p>
             <p>Não é</p>
             <p>É depois</p>
-            <p>É antes</p>
+            <p>Está antes</p>
             <p>Fica entre</p><p>Não fica entre</p>
             <p>Está vazio</p><p>Não está vazio</p></td>
         </tr>
@@ -319,45 +319,55 @@ Para adicionar um filtro a uma exibição de tabela:
 
 1. (Opcional) Clique em **Filtros** e, em seguida, clique na guia **x** ícone para remover um filtro. <!--right now you cannot "clear all" for filters, but this might come later-->
 
-<!-- this is not available yet
+### Adicionar agrupamentos {#add-groupings}
 
-### Add groupings {#add-groupings}
+<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
 
-*******************this section might link in the future from the timeline view; right now it's only documented there; also, check the steps below because this was not released to the table when they were written*****************
+Você pode agrupar registros por informações semelhantes ao aplicar um agrupamento a uma exibição.
 
-You can group records by similar information when applying  a grouping to a view.
+Adicionar agrupamentos na exibição de tabela é semelhante a adicionar agrupamentos à exibição de linha do tempo.
 
-You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. 
+Considere o seguinte:
 
-Consider the following:
+* Você pode aplicar agrupamentos nas visualizações de tabela e linha do tempo. Os agrupamentos da exibição de tabela são independentes daqueles na exibição de linha do tempo do mesmo tipo de registro.
+* Você pode aplicar três níveis de agrupamento em uma visualização Maestri. Os registros são agrupados na ordem de agrupamentos selecionada.
+&lt;!—* É possível aplicar até 4 níveis de agrupamento ao usar a API. —verificando este por enquanto—>
+* Os agrupamentos são exclusivos para a exibição selecionada. Duas exibições de tabela do mesmo tipo de registro podem ter agrupamentos diferentes aplicados a elas. Dois usuários observando a mesma visualização de tabela veem o mesmo agrupamento aplicado no momento.
+* Não é possível nomear os agrupamentos criados para uma exibição de tabela.
+* A remoção de agrupamentos os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.
+* É possível editar registros listados em um agrupamento.
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
-* You can apply 3 levels of grouping in a Maestro view. The records are grouped in the order of groupings that you select. (***************check on this; this might be true for timeline, but not for table??? One dev said in a demo that there are unlimited groupings in a table - check *********************)
-* You can apply up to 4 levels of grouping when using the API. 
+Para adicionar um agrupamento:
 
-To add a grouping:
+1. Crie uma exibição de linha do tempo para um tipo de registro, conforme descrito no artigo [Gerenciar exibições de registro](../views/manage-record-views.md).
+1. Clique em **Agrupamento** no canto superior direito da exibição da linha do tempo.
 
-1. Create a view, as described in [Create or edit record views](#create-or-edit-record-views). 
-1. (Conditional) To apply a grouping in the table view, do the following:
-    
-    1. ***************start adding steps for building a grouping - see if there it a global setting or just per column; also, see if the steps are different for a table vs a timeline view?!**********************
-1. (Conditional) To apply a grouping in the timeline view, do the following:
+   ![](assets/grouping-ui-table-view.png)
 
-    1. Go to a timeline view, then click **Group**. ************************did they rename this to "Grouping"?!****************************
-        ******************insert screen shot***********
-    1. Click one of the 5 suggested fields, or click **Choose a different field** to display all fields, then click one when it displays in the list. 
-    
-        >[!TIP]
-        >
-        > You cannot select linked fields. For information, see [Create fields](../architecture-and-fields/create-fields.md).  
-    The grouping is applied automatically to the timeline and records display inside the grouping box.    <********************ensure this is correct functionality here*************
-    
-    1. (Optional) Click **Add grouping** to add up to 3 groupings. 
+1. Clique em um dos campos sugeridos ou clique em **Escolha um campo diferente**, procure um campo diferente e clique nele quando ele for exibido na lista.
 
-        The number of groupings applied displays to the left of the Grouping icon in the upper-right corner of the toolbar. **********ensure this says "grouping" and not "group"*****************
-    
-    1. (Optional) Click **Clear all** to remove all groupings.  
+   >[!TIP]
+   >
+   >Não é possível selecionar campos vinculados.
 
--->
+   O agrupamento é aplicado automaticamente à tabela e os registros são exibidos sob a linha de separação de agrupamento
+
+1. (Opcional) Repita as etapas acima para adicionar até três agrupamentos.
+
+   O número de campos selecionados para o agrupamento é exibido ao lado do ícone Grouping.
+
+   ![](assets/grouping-applied-in-table-view.png)
+
+1. (Opcional) Dentro do **Agrupar registros por** , clique no link **x** ícone à direita de um campo selecionado para o agrupamento para remover o agrupamento
+
+   Ou
+
+   Clique em **Limpar tudo** para remover todos os campos.
+
+1. Clique fora da **Agrupar registros por** para fechá-la.
+1. (Opcional) Clique em **+ Novo &lt; Nome do tipo de registro >** no final de qualquer agrupamento para adicionar novos registros, atualize a página para adicionar o novo registro ao agrupamento apropriado. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### Adicionar uma classificação {#sort-information}
 

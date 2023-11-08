@@ -3,13 +3,13 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Visualização: calcular diferenças de data e hora"
-description: Você pode calcular a diferença entre o seguinte - EDIT ME.
+description: Crie uma visualização que mostre a diferença entre dois campos de data em um objeto ou entre um campo de data em um objeto e outro campo de data no objeto pai.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -106,14 +106,14 @@ Por exemplo, você pode calcular a diferença entre a Data de conclusão planeja
 
    * Para exibir a diferença entre a Data de conclusão planejada do projeto e a da tarefa:
 
-      ```
-      displayname=Project Planned Completion - Task Planned Completion (Days)<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>valueformat=HTML
-      ```
+     ```
+     displayname=Project Planned Completion - Task Planned Completion (Days)<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>valueformat=HTML
+     ```
 
    * Para exibir a diferença entre a Data de Conclusão Planejada da tarefa-pai e a da tarefa:
 
-      ```
-      valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>textmode=true<br>valueformat=HTML<br>displayname=Parent Planned Completion - Planned Completion (Days)
-      ```
+     ```
+     valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>textmode=true<br>valueformat=HTML<br>displayname=Parent Planned Completion - Planned Completion (Days)
+     ```
 
 1. Clique em **Salvar**, depois **Salvar visualização**.

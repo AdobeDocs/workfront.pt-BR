@@ -8,9 +8,9 @@ author: Courtney and Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1380'
 ht-degree: 1%
 
 ---
@@ -21,11 +21,15 @@ ht-degree: 1%
 
 Como um [!DNL Adobe Workfront] administrador, você pode especificar preferências para planilhas de horas e horas em [!DNL Workfront] para definir com quais itens as folhas de horas podem ser preenchidas previamente e quais itens os usuários podem registrar horas.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Os itens para os quais você registrou horas durante o período da folha de horas são exibidos na folha de horas por padrão, embora possam não atender às condições descritas neste artigo para preenchimento prévio da folha de horas.
+>Além dos itens que preenchem uma folha de horas de acordo com as condições descritas neste artigo, os itens a seguir também são exibidos na folha de horas por padrão:
+>* Itens para os quais você fez logon durante o período da folha de horas
+>* Itens que estão fixados na folha de horas
+>* Itens que você pesquisa e adiciona manualmente à folha de horas. Itens adicionados manualmente são fixados por padrão.
 >
->Para obter informações sobre o tempo de registro, consulte [Registrar tempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
+>Para obter mais informações, consulte [Registrar tempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
+
 
 
 Quaisquer alterações feitas nas folhas de horas afetam todas as folhas de horas criadas no futuro.

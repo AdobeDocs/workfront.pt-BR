@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1474'
 ht-degree: 1%
 
 ---
@@ -120,8 +120,6 @@ Considere o seguinte:
      * Edit record information
 -->
 
-Ao criar uma exibição de linha do tempo, todos os registros do tipo de registro selecionado são exibidos em uma linha do tempo como barras, por padrão.
-
 Para gerenciar uma exibição de linha do tempo:
 
 1. Vá para a página do tipo de registro para a qual deseja exibir a linha do tempo.
@@ -129,7 +127,7 @@ Para gerenciar uma exibição de linha do tempo:
 
    ![](assets/timeline-view-example.png)
 
-   Os registros associados ao tipo de registro selecionado são exibidos em uma linha do tempo cronológica, como barras.
+   Os registros associados ao tipo de registro selecionado são exibidos como barras em uma linha do tempo e são classificados em ordem cronológica, por padrão.
 
 1. Siga um destes procedimentos para navegar pela linha do tempo:
 
@@ -176,26 +174,22 @@ Considere o seguinte ao trabalhar com filtros na exibição de linha do tempo:
 
 ### Adicionar agrupamento
 
-<!-- if groupings are identical between the table and the timeline, consider replacing this section with this: 
-
-Adding groupings in the timeline view is identical to adding filters in the table view. 
-
-For more information, see the "Add groupings" section in the article [Manage the table view](../views/manage-the-table-view.md). BUT: you would need to create this section for the Table view and move the steps below (and maybe edit them) to the Manage the table view article, in this case. OR ... link from that section to this article?! -->
+<!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
 
 Você pode agrupar registros por informações semelhantes ao aplicar um agrupamento a uma exibição.
 
+Adicionar agrupamentos na exibição de linha do tempo é semelhante a adicionar agrupamentos à exibição de tabela.
+
 Considere o seguinte ao trabalhar com agrupamentos na exibição de linha do tempo:
 
-<!--not yet: * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. -->
+* Você pode aplicar agrupamentos nas visualizações de tabela e linha do tempo. Os agrupamentos da exibição de tabela são independentes daqueles na exibição de linha do tempo do mesmo tipo de registro.
 * Você pode aplicar três níveis de agrupamento em uma visualização Maestri. Os registros são agrupados na ordem de agrupamentos selecionada.
 * É possível aplicar até 4 níveis de agrupamento ao usar a API.
 * Os agrupamentos são exclusivos para a exibição selecionada. Duas exibições de linha do tempo do mesmo tipo de registro podem ter agrupamentos diferentes aplicados a elas. Dois usuários que visualizam a mesma linha do tempo veem o mesmo agrupamento aplicado no momento.
-
 * Não é possível nomear os agrupamentos criados para uma exibição de linha do tempo.
-
 * A remoção de agrupamentos os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.
 
-Para adicionar um agrupamento:
+Para adicionar um agrupamento na exibição de linha do tempo:
 
 1. Crie uma exibição de linha do tempo para um tipo de registro, conforme descrito no artigo [Gerenciar exibições de registro](../views/manage-record-views.md).
 1. Clique em **Agrupamento** no canto superior direito da exibição da linha do tempo.
@@ -218,7 +212,7 @@ Para adicionar um agrupamento:
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. (Opcional) Clique no link **x** ícone à direita de um campo selecionado para o agrupamento para remover o agrupamento
+1. (Opcional) Dentro do **Agrupar registros por** , clique no link **x** ícone à direita de um campo selecionado para o agrupamento para remover o agrupamento
 
    Ou
 
