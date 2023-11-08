@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 7f11ddf290c24ac3436ea98f14eff1338388f314
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2123'
 ht-degree: 3%
 
 ---
@@ -56,12 +56,15 @@ Os seguintes objetos do Workfront são suportados por assinaturas de evento.
 * Painel
 * Documento
 * Despesa
+* Campo
 * Hora
 * Problema
 * Nota
 * Portfólio
 * Programa
 * Projeto
+* Registro
+* Tipo de registro
 * Relatório
 * Tarefa
 * Modelo
@@ -122,6 +125,10 @@ O recurso de assinatura contém os seguintes campos.
         <td scope="col">EXPNS</td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>Campo</p></td> 
+        <td scope="col"><p>CAMPO</p></td> 
+       </tr> 
+      <tr> 
         <td scope="col"><p>Hora</p></td> 
         <td scope="col">HORA</td> 
        </tr> 
@@ -144,6 +151,14 @@ O recurso de assinatura contém os seguintes campos.
        <tr> 
         <td scope="col"><p>Projeto</p></td> 
         <td scope="col"><p>PROJ</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Registro</p></td> 
+        <td scope="col"><p>GRAVAR</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Tipo de registro</p></td> 
+        <td scope="col"><p>RECORD_TYPE</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Relatório</p></td> 
