@@ -6,9 +6,9 @@ description: A seguir estão os links para as notas de versão atuais e anterior
 author: Luke
 feature: Product Announcements
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: a20ff4ea67ac2745663896df0e0ae792f4f21024
+source-git-commit: 0fca20c1745afdb1d573f12fc8e608d331065e32
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '180'
 ht-degree: 15%
 
 ---
@@ -19,7 +19,7 @@ A seguir estão os links para as notas de versão atuais e anteriores.
 
 Para obter informações sobre a programação de lançamento do Adobe Workfront, consulte [Programação e processo de lançamento do Adobe Workfront](../../product-announcements/product-releases/workfront-release-schedule.md).
 
-Para obter informações sobre como ajudar sua organização a se ajustar sem problemas às novas versões, consulte [Disponibilidade de lançamento](../../product-announcements/product-releases/release-readiness.md).
+Para obter informações sobre como ajudar sua organização a se ajustar sem problemas a novas versões, consulte [Disponibilidade de lançamento](../../product-announcements/product-releases/release-readiness.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,6 +29,11 @@ Para obter informações sobre como ajudar sua organização a se ajustar sem pr
    <td>Versões do Workfront</td> 
    <td>Outras versões de produtos</td> 
   </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Versões em 2023</p> 
+    <ul> 
+    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão do primeiro trimestre de 2024</a> </p> 
+   <td>    </td> 
   <tr data-mc-conditions=""> 
    <td> <p>Versões em 2023</p> 
     <ul> 
@@ -50,7 +55,9 @@ Para obter informações sobre como ajudar sua organização a se ajustar sem pr
      <li> <p><a href="../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão 22.2</a> </p> </li> 
      <li> <p><a href="../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão 22.1</a> </p> </li> 
     </ul> </td> 
-   <td> </td> 
+   <td><ul> 
+     <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Atividade de lançamento do Adobe Workfront Fusion</a> </p> </li> 
+    </ul></td> 
   </tr> 
   <tr> 
    <td> <p>Versões em 2021</p> 
