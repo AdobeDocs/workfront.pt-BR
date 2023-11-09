@@ -5,14 +5,17 @@ title: Usar fluxos de trabalho na integração do Experience Manager Assets Esse
 description: Usar fluxos de trabalho na integração do Experience Manager Assets Essentials
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
-source-git-commit: 3849bd8ce80f40ae7d05b81e0dd8e846851dffc0
+exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
+source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
 # Usar fluxos de trabalho na integração do Experience Manager Assets
+
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente Visualização da sandbox.</span>
 
 Um fluxo de trabalho é um conjunto de ações que conectam o Workfront ao Adobe Experience Manager as a Cloud Service. Um administrador do Workfront pode configurar fluxos de trabalho no Workfront e atribuí-los a Modelos de projeto. Quando um Projeto é criado usando um Modelo de projeto ao qual um fluxo de trabalho é atribuído, as ações definidas no fluxo de trabalho são acionadas.
 
@@ -41,7 +44,7 @@ Você deve ter o seguinte:
   <tr>
    <td><strong>Produto</strong>
    </td>
-   <td><p>Você deve ter o Experience Manager Assets as a Cloud Service ou o Assets Essentials e ser adicionado ao produto como usuário no Admin Console.</p><p>Você deve ter acesso de gravação ao repositório no Adobe Experience Manager para criar pastas vinculadas.</p>&gt;
+   <td><p>Você deve ter o Experience Manager Assets as a Cloud Service ou Assets Essentials e ser adicionado ao produto como usuário no Admin Console.</p><p>Você deve ter acesso de gravação ao repositório no Adobe Experience Manager.</p>
    </td>
   </tr>
   <tr>
@@ -72,7 +75,7 @@ Antes de começar,
 
 É possível adicionar um fluxo de trabalho a um modelo de projeto. O fluxo de trabalho será aplicado a qualquer projeto criado a partir do modelo.
 
-1. <!-- main menu snippet??--> Abra um template clicando em **Modelos** no Menu principal, depois selecione o modelo na lista.
+1. Abra um template clicando em **Modelos** no Menu principal, depois selecione o modelo na lista.
 1. Clique em **Experience Manager Assets** no painel de navegação esquerdo.
 
    >[!NOTE]
@@ -82,7 +85,7 @@ Antes de começar,
 1. No **Selecionar uma integração para o campo de workflows automatizados**, selecione a integração com os fluxos de trabalho que deseja usar para projetos criados a partir deste modelo.
 1. (Opcional) Edite quaisquer valores de fluxo de trabalho que deseja aplicar aos projetos criados a partir deste modelo.
 
-   Por exemplo, para criar uma pasta vinculada em um local diferente do padrão, digite o local da pasta vinculada.
+   Para obter instruções sobre workflows específicos, consulte [Editar valores de fluxo de trabalho em um projeto](#edit-workflow-values-in-a-project) neste artigo.
 
    Somente os workflows que foram ativados na área Experience Manager da Configuração estão disponíveis em modelos ou projetos.
 
@@ -113,6 +116,8 @@ Você pode adicionar um fluxo de trabalho ao criar um projeto ou adicionar um fl
 1. Ao selecionar um modelo para o projeto, selecione o modelo que contém os fluxos de trabalho que deseja usar para esse projeto.
 1. (Opcional) Edite quaisquer valores de workflow para o projeto, conforme descrito em [Editar valores de fluxo de trabalho em um projeto](#edit-workflow-values-in-a-project).
 
+   Somente os workflows que foram ativados na área Experience Manager da Configuração estão disponíveis em modelos ou projetos.
+
 ### Editar valores de fluxo de trabalho em um projeto
 
 É possível editar valores de fluxo de trabalho no nível do projeto. Os valores do fluxo de trabalho no nível do projeto substituem os valores definidos no modelo do projeto, que substitui os valores padrão definidos na integração do Adobe Experience Manager Assets.
@@ -123,19 +128,35 @@ Todos os valores de workflow podem ser encontrados em:
 * A seção Adobe Experience Manager da navegação à esquerda.
 
 
-   >[!NOTE]
-   >
-   >Se essas áreas não estiverem visíveis, o administrador do Workfront não ativou os Fluxos de trabalho para sua organização.
+  >[!NOTE]
+  >
+  >Se essas áreas não estiverem visíveis, o administrador do Workfront não ativou os Fluxos de trabalho para sua organização.
 
 #### Pastas vinculadas
 
 Para editar o fluxo de trabalho de pastas vinculadas:
 
-1. Alterne a **[!UICONTROL Criar Pasta vinculada]** em.
-1. Escolha um caminho de pasta para indicar onde deseja que todas as pastas vinculadas sejam associadas a essa integração.
-1. Clique em Salvar se estiver usando a janela Criar projeto ou Editar projeto.
+1. Alternar **[!UICONTROL Criar Pasta vinculada]** ligado ou desligado, conforme desejado.
+1. (Condicional) Se estiver ativando pastas vinculadas, escolha um caminho de pasta para indicar onde deseja que todas as pastas vinculadas sejam associadas a essa integração.
+1. Clique em **[!UICONTROL Salvar]** se você estiver usando o [!UICONTROL Criar projeto] ou [!UICONTROL Editar projeto] janela.
 
    Ou
 
-   Se você estiver na área do Adobe Experience Manager, suas alterações serão salvas automaticamente. <!--Do they though?-->
+   Se você estiver na [!DNL Adobe Experience Manager area], as alterações são salvas automaticamente. <!--Do they though?-->
 
+
+#### Publicar ativos
+
+<div class="preview">
+
+Para editar o fluxo de trabalho de publicação de ativos:
+
+1. Alternar **Publicar ativos automaticamente** ligado ou desligado, conforme desejado.
+1. (Condicional) Se você estiver ativando a publicação, selecione se deseja publicar no serviço de publicação, no portal de marcas ou em ambos.
+1. Clique em **[!UICONTROL Salvar]** se você estiver usando o [!UICONTROL Criar projeto] ou [!UICONTROL Editar projeto] janela.
+
+   Ou
+
+   Se você estiver na [!DNL Adobe Experience Manager area], as alterações são salvas automaticamente. <!--Do they though?-->
+
+</div>
