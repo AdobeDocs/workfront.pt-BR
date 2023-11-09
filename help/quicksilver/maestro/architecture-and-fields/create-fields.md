@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: ec6a12f2ffbacabac6124ec3a7d85a3ba292e621
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '3484'
+source-wordcount: '3495'
 ht-degree: 2%
 
 ---
@@ -161,7 +161,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <!--in a table (not sure if this can be done elsewhere?!-->
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-workfront.png) no canto superior direito do Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> e clique em **Maestro** ![](assets/maestro-icon.png).
+1. Clique em **Menu principal** ícone ![](assets/main-menu-workfront.png) no canto superior direito do Workfront ou na guia **Menu principal** ícone ![](assets/main-menu-shell.png)  no canto superior esquerdo, se disponível, clique em **Maestro** ![](assets/maestro-icon.png).
 
    O espaço de trabalho acessado por último deve ser aberto por padrão.
 

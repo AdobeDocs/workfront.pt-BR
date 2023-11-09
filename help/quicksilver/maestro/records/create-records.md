@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 Você pode criar registros na exibição de tabela de uma página do tipo de registro.
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-workfront.png) no canto superior direito <!--or the **Main Menu** icon ![](assets/main-menu-shell.png) in the upper-left corner, if available-->e, em seguida, clique em **Maestro** ![](assets/maestro-icon.png).
+1. Clique em **Menu principal** ícone ![](assets/main-menu-workfront.png) no canto superior direito, ou na guia **Menu principal** ícone ![](assets/main-menu-shell.png) no canto superior esquerdo, se disponível, clique em **Maestro** ![](assets/maestro-icon.png).
 O espaço de trabalho acessado pela última vez é aberto por padrão. Para obter informações sobre como criar espaços de trabalho, consulte [Criar espaços de trabalho](../architecture-and-fields/create-workspaces.md).
 1. Clique em um cartão de tipo de registro. Para obter informações sobre como criar um tipo de registro, consulte [Criar tipos de registro](../architecture-and-fields/create-record-types.md).
 

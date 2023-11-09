@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '396'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Compartilhar links de registro da exibição de tabela do tipo de registro
 
-1. Clique em **Menu principal** ![](assets/main-menu-workfront.png) no canto superior direito, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> e clique em **Maestro**.
+1. Clique em **Menu principal** ![](assets/main-menu-workfront.png) no canto superior direito, ou na guia **Menu principal** ![](assets/main-menu-shell.png) no canto superior esquerdo, se estiver disponível, clique em **Maestro**.
 
    O espaço de trabalho que você acessou por último é aberto.
 1. Clique em um cartão de tipo de registro.
@@ -110,7 +110,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Ou
 
-   Passe o mouse sobre o nome de um registro e clique no menu Mais ![](assets/more-menu.png)e, em seguida, clique em **Copiar link**.
+   Passe o mouse sobre o nome de um registro, clique no **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Copiar link**.
 
    ![](assets/contextual-menu-for-record-row.png)
 

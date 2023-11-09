@@ -2,26 +2,30 @@
 product-area: projects
 navigation-topic: plan-a-project
 title: Atualizar proprietários e patrocinadores do projeto
-description: Ao criar um projeto no Adobe Workfront, você é automaticamente definido como o Proprietário do projeto. Você pode atualizar esse campo com outro usuário. Você também pode atualizar o campo Patrocinador de projeto de um projeto.
+description: Ao criar um projeto no Adobe Workfront, você é automaticamente definido como o Proprietário do projeto. Você pode atualizar este campo com outro usuário. Você também pode atualizar o campo Patrocinador do projeto de um projeto.
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
 
 # Atualizar proprietários e patrocinadores do projeto
 
-Ao criar um projeto no Adobe Workfront, você é automaticamente definido como o Proprietário do projeto. Você pode atualizar esse campo com outro usuário. Você também pode atualizar o campo Patrocinador de projeto de um projeto.
+Ao criar um projeto no Adobe Workfront, você é automaticamente definido como o Proprietário do projeto. Você pode atualizar este campo com outro usuário. Você também pode atualizar o campo Patrocinador do projeto de um projeto.
 
 Para obter informações sobre proprietários e patrocinadores de projetos, consulte [Visão geral dos proprietários e patrocinadores do projeto](../../../manage-work/projects/planning-a-project/project-owners-and-sponsors.md).
 
 >[!TIP]
 >
->Você pode identificar um proprietário e um patrocinador para um modelo. Quando você cria um projeto a partir desse modelo, o Proprietário do modelo se torna o Proprietário do projeto e o Patrocinador do modelo se torna o Patrocinador do projeto. Para obter informações sobre edição de modelos, consulte [Editar modelos de projeto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+>É possível identificar um proprietário e um patrocinador de um modelo. Ao criar um projeto a partir desse modelo, o Proprietário do modelo se torna o Proprietário do projeto e o Patrocinador do modelo se torna o Patrocinador do projeto.
+>
+>Se o modelo não tiver um Proprietário, o usuário que cria o projeto a partir do modelo se torna o Proprietário do projeto.
+>
+>Para obter informações sobre a edição de modelos, consulte [Editar modelos de projeto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ## Requisitos de acesso
 
@@ -33,7 +37,7 @@ Para obter informações sobre proprietários e patrocinadores de projetos, cons
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> <p>&nbsp;</p> </td> 
+   <td> <p>Any</p> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -56,15 +60,15 @@ Para obter informações sobre proprietários e patrocinadores de projetos, cons
 </table>
 -->
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> <p> </p> </td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> <p>Qualquer Um</p> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -72,9 +76,9 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a Projetos</p> <p><b>Nota</b>
+   <td> <p>Editar acesso a projetos</p> <p><b>Nota</b>
 
-Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
+Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -83,44 +87,44 @@ Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele defi
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
-## Atualizar o proprietário do projeto de um projeto
+## Atualizar o Proprietário de um projeto
 
-Quando você adiciona um usuário como o Proprietário do projeto de um projeto, o Workfront fornece automaticamente permissões para visualizar o projeto.
+Quando você adiciona um usuário como Proprietário de um projeto, o Workfront automaticamente oferece permissões para visualizar o projeto.
 
 1. Vá para o projeto que deseja atualizar.
 1. Clique em **Detalhes do projeto** no painel esquerdo.
-1. Clique no botão **Editar** ícone ![](assets/qs-edit-icon.png) no canto superior direito da área Detalhes do projeto, clique em **Visão geral**.
+1. Clique em **Editar** ícone ![](assets/qs-edit-icon.png) no canto superior direito da área Detalhes do projeto, clique em  **Visão geral**.
 
-1. Especifique o nome de um usuário para a **Proprietário do projeto** campo.
+1. Especifique o nome de um usuário para o **Proprietário do Projeto** campo.
 
-   Somente usuários ativos podem ser especificados como Proprietários do projeto.
+   Somente usuários ativos podem ser especificados como Proprietários do Projeto.
 
-1. Clique em **Salvar alterações**.
+1. Clique em  **Salvar alterações**.
 
-   O Proprietário do projeto é atualizado no cabeçalho do projeto e na área Detalhes do projeto .
+   O Proprietário do projeto é atualizado no cabeçalho do projeto e na área Detalhes do projeto.
 
 ![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
-## Atualizar o patrocinador de projeto de um projeto
+## Atualizar o Patrocinador do Projeto de um Projeto
 
-Quando você adiciona um usuário como Patrocinador de projeto de um projeto, o Workfront fornece automaticamente permissões para visualizar o projeto.
+Ao adicionar um usuário como Patrocinador do projeto, o Workfront automaticamente fornece a ele permissões para exibir o projeto.
 
 >[!TIP]
 >
->Se o usuário que você adicionar como um Patrocinador de projeto for um Administrador do sistema, ele não será adicionado à lista Compartilhamento do projeto.
+>Se o usuário adicionado como Patrocinador do projeto for um Administrador do sistema, ele não será adicionado à lista Compartilhamento do projeto.
 
 1. Vá para o Projeto que deseja atualizar.
 1. Clique em **Detalhes do projeto** no painel esquerdo.
-1. Clique no botão **Editar** ícone ![](assets/qs-edit-icon.png) no canto superior direito da área Detalhes do projeto, clique em **Visão geral**.
+1. Clique em **Editar** ícone ![](assets/qs-edit-icon.png) no canto superior direito da área Detalhes do projeto, clique em  **Visão geral**.
 
-1. Especifique o nome de um usuário para a **Patrocinador do projeto** campo.
+1. Especifique o nome de um usuário para o **Patrocinador do Projeto** campo.
 
-   Somente usuários ativos podem ser especificados como Patrocinadores de projeto.
+   Somente usuários ativos podem ser especificados como Patrocinadores do Projeto.
 
-1. Clique em **Salvar alterações**.
+1. Clique em  **Salvar alterações**.
 
-   O Patrocinador do projeto é atualizado na área Detalhes do projeto .
+   O Patrocinador do projeto atualiza na área Detalhes do projeto.
 
    ![](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)

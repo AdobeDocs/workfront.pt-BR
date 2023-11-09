@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1496'
 ht-degree: 1%
 
 ---
@@ -219,6 +219,7 @@ Para adicionar um agrupamento na exibição de linha do tempo:
    Clique em **Limpar tudo** para remover todos os campos.
 
 1. Clique fora da **Agrupar registros por** para fechá-la.
+1. (Opcional) Clique em **Configurações**, depois **Cor** para agrupamentos de código de cor. Para obter mais informações, consulte [Editar as configurações de exibição da linha do tempo](#edit-the-timeline-view-settings) neste artigo.
 
 <!-- 
 

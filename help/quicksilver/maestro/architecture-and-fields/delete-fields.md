@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: ec6a12f2ffbacabac6124ec3a7d85a3ba292e621
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '394'
 ht-degree: 1%
 
 ---
@@ -101,7 +101,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <!--When they release the sharing of fields between other records, revise this section.  -->
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-workfront.png) no canto superior direito do Workfront, <!--or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> e clique em **Maestro** ![](assets/maestro-icon.png).
+1. Clique em **Menu principal** ícone ![](assets/main-menu-workfront.png) no canto superior direito do Workfront ou na guia **Menu principal** ícone ![](assets/main-menu-shell.png)  no canto superior esquerdo, se disponível, clique em **Maestro** ![](assets/maestro-icon.png).
 
    Isso abre o último espaço de trabalho acessado no Maestro.
 1. Clique no cartão de um tipo de registro cujos campos você deseja excluir.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1419'
 ht-degree: 1%
 
 ---
@@ -123,7 +123,7 @@ Este artigo descreve como criar tipos de registros operacionais do zero. A cria�
 
 Para obter mais informações sobre taxonomias, consulte [Criar uma taxonomia](../architecture-and-fields/create-a-taxonomy.md).
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-workfront.png) no canto superior direito do Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> e clique em **Maestro** ![](assets/maestro-icon.png).
+1. Clique em **Menu principal** ícone ![](assets/main-menu-workfront.png) no canto superior direito do Workfront ou na guia **Menu principal** ícone ![](assets/main-menu-shell.png)  no canto superior esquerdo, se disponível, clique em **Maestro** ![](assets/maestro-icon.png).
 
    O espaço de trabalho acessado por último deve ser aberto por padrão.
 

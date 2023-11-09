@@ -2,126 +2,129 @@
 content-type: overview
 navigation-topic: use-the-gantt-chart
 title: Introdução ao [!UICONTROL Gantt] Gráfico
-description: Os gráficos de Gantt no Adobe Workfront fornecem uma representação visual de uma lista de tarefas ou projetos.
+description: Os gráficos de Gantt no Adobe Workfront fornecem uma representação visual da linha do tempo de uma lista de tarefas ou projetos.
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '539'
 ht-degree: 5%
 
 ---
 
 # Introdução ao [!UICONTROL Gráfico de Gantt]
 
+Os gráficos de Gantt no Adobe Workfront fornecem uma representação visual da linha do tempo de uma lista de tarefas ou projetos.
+
 Entrada [!DNL Adobe Workfront], há dois [!UICONTROL Gráficos de Gantt] com funcionalidade semelhante:
 
-* A lista de tarefas [!UICONTROL Gráfico de Gantt]: exibe informações sobre tarefas no nível do projeto e é editável.
-* A lista de projetos [!UICONTROL Gráfico de Gantt]: exibe informações sobre projetos e não é editável.
+* **A lista de tarefas [!UICONTROL Gráfico de Gantt]**: exibe informações sobre tarefas e sua linha do tempo no nível do projeto. Um modelo semelhante [!UICONTROL Gráfico de Gantt] exibe informações sobre tarefas de modelo no nível do modelo.
+* **A lista de projetos [!UICONTROL Gráfico de Gantt]**: exibe informações sobre projetos e seus cronogramas.
 
 Embora pareçam semelhantes, a funcionalidade de cada um é diferente.
 
+## Considerações sobre o Gráfico de Gantt
+
+* É possível editar informações nos seguintes [!UICONTROL Gráfico de Gantt]:
+   * Uma lista de tarefas
+* Não é possível editar informações nos seguintes [!UICONTROL Gráficos de Gantt]:
+   * Uma lista de tarefas de modelo
+   * Uma lista de projetos
+* Não há [!UICONTROL Gráfico de Gantt] para obter uma lista de templates.
+* Você pode configurar quais informações serão exibidas na lista de tarefas [!UICONTROL Gráfico de Gantt] e a lista de projetos [!UICONTROL Gráfico de Gantt].
+* Não é possível configurar as cores ou as fontes nas quais o [!UICONTROL Gráfico de Gantt] informações são exibidas.
+* Quando as informações são atualizadas a partir das tarefas, elas são automaticamente refletidas na lista de tarefas [!UICONTROL Gráfico de Gantt] e a lista de projetos [!UICONTROL Gráfico de Gantt].
+* Quando as informações são atualizadas a partir das tarefas de modelo, elas são automaticamente refletidas na lista de tarefas de modelo [!UICONTROL Gráfico de Gantt].
+
 ## Acesse o [!UICONTROL Gráfico de Gantt]
 
-A variável [!UICONTROL Gantt] gráficos em [!DNL Workfront]  fornecer uma representação visual de uma lista de tarefas ou projetos. Você pode exibir a lista de tarefas [!UICONTROL Gráfico de Gantt] diretamente da lista de tarefas em um projeto ou de um relatório de tarefas. Você pode visualizar a lista de projetos [!UICONTROL Gráfico de Gantt] em uma lista de projetos ou em um relatório de projeto.
+A variável [!UICONTROL Gantt] gráficos em [!DNL Workfront]  fornecer uma representação visual de uma lista de tarefas ou projetos.
+
+Você pode exibir a lista de tarefas [!UICONTROL Gráfico de Gantt] diretamente da lista de tarefas em um projeto ou de um relatório de tarefas.
+
+Você pode visualizar a lista de projetos [!UICONTROL Gráfico de Gantt] em uma lista de projetos ou em um relatório de projeto.
 
 * [Lista de tarefas [!UICONTROL Gráfico de Gantt]](#task-list-gantt-chart)
 * [Lista de projetos [!UICONTROL Gráfico de Gantt]](#project-list-gantt-chart)
 
 ### Lista de tarefas [!UICONTROL Gráfico de Gantt] {#task-list-gantt-chart}
 
-A lista de tarefas [!UICONTROL Gráfico de Gantt] O é acessível nas seguintes áreas:
+<!--The task list [!UICONTROL Gantt Chart] is accessible in the following areas:
 
-* Em um projeto
+* In a Project
 
-   * [!UICONTROL Tarefas] área
-   * [!UICONTROL Subtarefas] área
+   * [!UICONTROL Tasks] section
+   * [!UICONTROL Subtasks] section of a task
 
-* Em um modelo
+* In a [!UICONTROL Template]
 
-Para acessar a lista de tarefas [!UICONTROL Gráfico de Gantt], navegue até qualquer uma das áreas mencionadas acima e clique no botão [!UICONTROL Gráfico de Gantt] ícone.
+* In a [!UICONTROL Task] report-->
 
-![Clique no ícone Gráfico de Gantt](assets/click-gantt-chart-icon.png)
+Para acessar a lista de tarefas [!UICONTROL Gráfico de Gantt] de um projeto ou modelo:
+
+1. Vá para qualquer uma das seguintes áreas:
+
+   * Um projeto, depois clique em [!UICONTROL **Tarefas**] no painel esquerdo.
+   * Um modelo, depois clique em [!UICONTROL **Modelos de Tarefa**] no painel esquerdo
+   * Uma tarefa ou tarefa de modelo e, em seguida, clique em [!UICONTROL **Subtarefas**] no painel esquerdo.
+   * Um relatório de tarefa
+
+1. Clique em [!UICONTROL **Gantt**] ícone ![](assets/gantt-icon-nwe.png) na parte superior da lista de tarefas.
+
+   ![](assets/task-list-gantt.png)
+
+   A lista de tarefas [!UICONTROL Gráfico de Gantt] abre à direita da lista de tarefas.
+
+1. Para configurar quais informações você deseja exibir na tarefa [!UICONTROL Gantt] clique no link [!UICONTROL **Configurações**] e ative uma das seguintes opções:
+
+   * [!UICONTROL Datas Efetivas]
+   * [!UICONTROL Atribuições]
+   * [!UICONTROL Linha de base]
+   * [!UICONTROL Data de confirmação]
+   * [!UICONTROL % Completo]
+   * [!UICONTROL Caminho Crítico]
+   * [!UICONTROL Etapas como diamantes]
+   * [!UICONTROL Linhas de etapas]
+   * [!UICONTROL Predecessoras]
+   * [!UICONTROL Status do Progresso]
+   * [!UICONTROL Datas Projetadas]
+
+1. Comece a editar as tarefas conforme descrito nos seguintes artigos:
+
+   * [Configurar como as informações são exibidas no Gráfico de Gantt](../use-the-gantt-chart/configure-info-on-gantt-chart.md)
+   * [Atualizar informações no Diagrama de Gantt da lista de tarefas](../use-the-gantt-chart/update-info-task-list-gantt.md)
 
 ### Lista de projetos [!UICONTROL Gráfico de Gantt] {#project-list-gantt-chart}
 
-A lista de projetos [!UICONTROL Gráfico de Gantt] O é acessível nas seguintes áreas:
+<!--The project list [!UICONTROL Gantt Chart] is accessible in the following areas:
 
-* No prazo de [!UICONTROL Projetos] área
-* Dentro de um Portfolio
+* In the [!UICONTROL Projects] area
+* In the [!UICONTROL Projects] section of a [!UICONTROL Portfolio]
+* In the [!UICONTROL Projects] section of a [!UICONTROL Program]
+* In a [!UICONTROL Project] report-->
 
-   * [!UICONTROL Projetos] área
+Para acessar a lista de projetos [!UICONTROL Gráfico de Gantt]:
 
-* Em um relatório de projeto
+1. Vá para qualquer uma das seguintes áreas:
 
-   * Qualquer relatório de projeto ou tarefa
+   * A variável [!UICONTROL **Projetos**] área
+   * A variável [!UICONTROL **Projetos**] seção de a [!UICONTROL Portfolio]
+   * A variável [!UICONTROL **Projetos**] seção de a [!UICONTROL Programa]
+   * A [!UICONTROL **Projeto**] relatório
 
-* Em um programa
+1. Clique em [!UICONTROL **Gantt**] ícone na parte superior da lista de projetos.
 
-   * No [!UICONTROL Projetos] área
+   ![](assets/project-list-gantt.png)
 
-Para acessar o [!UICONTROL Gráfico de Gantt da lista de projetos], navegue até qualquer uma das áreas mencionadas acima e clique no botão [!UICONTROL Gráfico de Gantt] ícone.
+   A lista de projetos [!UICONTROL Gráfico de Gantt] é aberto.
 
-![Clique no ícone Gráfico de Gantt](assets/click-gantt-chart-icon.png)
+1. Para configurar quais informações você deseja exibir no projeto [!UICONTROL Gantt] clique no link [!UICONTROL **Configurações**] e ative uma das seguintes opções:
 
-## Configure como as informações são exibidas na [!UICONTROL Gráfico de Gantt]
-
-Você pode configurar quais informações serão exibidas na lista de tarefas [!UICONTROL Gráfico de Gantt] e a lista de projetos [!UICONTROL Gráfico de Gantt].\
-Não é possível configurar as cores ou as fontes nas quais o [!UICONTROL Gráfico de Gantt] informações são exibidas.
-
-* [Lista de tarefas [!UICONTROL Gráfico de Gantt]](#task-list-gantt-chart)
-* [Lista de projetos [!UICONTROL Gráfico de Gantt]](#project-list-gantt-chart)
-
-### Lista de tarefas [!UICONTROL Gráfico de Gantt] {#task-list-gantt-chart-1}
-
-As seguintes opções de exibição estão disponíveis na lista de tarefas [!UICONTROL Gráfico de Gantt]:
-
-* [!UICONTROL Datas Efetivas]
-* [!UICONTROL Atribuições]
-* [!UICONTROL Linha de base]
-* [!UICONTROL Data de confirmação]
-* [!UICONTROL % Completo]
-* [!UICONTROL Caminho Crítico]
-* [!UICONTROL Etapas como diamantes]
-* [!UICONTROL Linhas de etapas]
-* [!UICONTROL Predecessoras]
-* [!UICONTROL Status do Progresso]
-* [!UICONTROL Datas projetadas]
-
-Para obter informações detalhadas sobre as opções de exibição listadas acima, consulte [Configure como as informações são exibidas na [!UICONTROL Gráfico de Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
-
-### Lista de projetos [!UICONTROL Gráfico de Gantt] {#project-list-gantt-chart-1}
-
-As seguintes opções de exibição estão disponíveis na lista de projetos [!UICONTROL Gráfico de Gantt]:
-
-* [!UICONTROL Datas Efetivas]
-* [!UICONTROL % Completo]
-* [!UICONTROL Etapas como diamantes]
-* [!UICONTROL Linhas de etapas]
-* [!UICONTROL Predecessoras]
-* [!UICONTROL Status do Progresso]
-* [!UICONTROL Datas Projetadas]
-
-Para obter informações sobre as opções de exibição listadas acima, consulte [Configure como as informações são exibidas na [!UICONTROL Gráfico de Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
-
-## Atualize o [!UICONTROL Gráfico de Gantt]
-
-Quando as informações são atualizadas na lista de tarefas, elas são automaticamente refletidas na lista de tarefas [!UICONTROL Gráfico de Gantt] e a lista de projetos [!UICONTROL Gráfico de Gantt].
-
-* [Lista de tarefas [!UICONTROL Gráfico de Gantt]](#task-list-gantt-chart)
-* [Lista de projetos [!UICONTROL Gráfico de Gantt]](#project-list-gantt-chart)
-
-### Lista de tarefas [!UICONTROL Gráfico de Gantt] {#task-list-gantt-chart-2}
-
-Em um projeto, você pode atualizar a lista de tarefas [!UICONTROL Gráfico de Gantt] diretamente do [!UICONTROL Gráfico de Gantt] ou na lista de tarefas. Para obter mais informações, consulte [Atualizar informações na lista de tarefas [!UICONTROL Gráfico de Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
-
-Em um modelo, a lista de tarefas [!UICONTROL Gráfico de Gantt] O reflete as atualizações feitas na lista de tarefas do modelo. Este [!UICONTROL Gráfico de Gantt] não é editável.
-
-### Lista de projetos [!UICONTROL Gráfico de Gantt] {#project-list-gantt-chart-2}
-
-A variável [!UICONTROL Gráfico de Gantt da lista de projetos] O reflete as atualizações feitas na lista de tarefas de cada projeto. Este [!UICONTROL Gráfico de Gantt] não é editável.
-
-## Exibir informações sobre o [!UICONTROL Gráfico de Gantt]
-
-A lista de tarefas [!UICONTROL Gráfico de Gantt] e lista de projetos [!UICONTROL Gráfico de Gantt] exibir informações sobre tarefas e projetos. Para obter mais informações, consulte [Exibir informações no [!UICONTROL Gráfico de Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+   * [!UICONTROL Datas Efetivas]
+   * [!UICONTROL % Completo]
+   * [!UICONTROL Etapas como diamantes]
+   * [!UICONTROL Linhas de etapas]
+   * [!UICONTROL Predecessoras]
+   * [!UICONTROL Status do Progresso]
+   * [!UICONTROL Datas Projetadas]
