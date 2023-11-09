@@ -310,14 +310,14 @@ Os links podem apontar para qualquer objeto no Workfront que ofereça suporte a 
 
 >[!TIP]
 >
-Se a linha `valueformat=HTML` é exibido no modo texto para uma coluna de campo personalizado e os valores de link não são exibidos em um arquivo .pdf exportado. é necessário inserir linhas adicionais de código na coluna no modo texto.
+>Se a linha `valueformat=HTML` é exibido no modo texto para uma coluna de campo personalizado e os valores de link não são exibidos em um arquivo .pdf exportado. é >necessário inserir linhas adicionais de código na coluna no modo texto.
 >
-Por exemplo, se você tem um campo personalizado chamado Abrir projetos Q1 que contém links, você adicionaria o seguinte código:
+>Por exemplo, se você tem um campo personalizado chamado Abrir projetos Q1 que contém links, você adicionaria o seguinte código:
 >
-```
-link.url=customDataLabelsAsString(Open Q1 Projects)
-linkedname=direct
-```
+>```
+>link.url=customDataLabelsAsString(Open Q1 Projects)
+>linkedname=direct
+>```
 
 Quando você exporta para um formato do Excel, somente os links para objetos no Workfront são incluídos no arquivo exportado e só são suportados em locais onde você pode selecionar para permitir links em documentos exportados do Excel, como deliveries de relatórios.
 
