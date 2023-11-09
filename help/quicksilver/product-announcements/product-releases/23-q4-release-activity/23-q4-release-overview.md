@@ -4,9 +4,9 @@ description: Visão geral da versão do quarto trimestre de 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 421cfdeaab4ef102b6b896677dae824cbeae4d70
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2705'
 ht-degree: 0%
 
 ---
@@ -510,7 +510,7 @@ O webinário de lançamento do 23.10 foi realizado em 5 de outubro de 2023. Voc�
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Atualizações para arrastar e soltar para integrações de documentos</a></p><p>Fizemos alguns aprimoramentos para esclarecer e remover erros do usuário ao arrastar e soltar um arquivo em uma pasta vinculada.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Atualizações para arrastar e soltar para integrações de documentos</a></p><p>[!BADGE Na produção ]{type=Informative}</p><p>Fizemos alguns aprimoramentos para esclarecer e remover erros do usuário ao arrastar e soltar um arquivo em uma pasta vinculada.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -780,9 +780,9 @@ Descontinuaremos oficialmente o aplicativo móvel Proof com a versão 23.10. O a
 
 Observe que o aplicativo móvel Workfront requer um logon Workfront. Usuários externos e convidados podem continuar a usar o aplicativo Prova para trabalho de prova; no entanto, ele não é mais compatível e ficará indisponível com a versão 23.10.
 
-#### Fluxos de trabalho removidos para contas que não os usam
+#### Fluxos de trabalho removidos em contas que não os usam
 
-Para contas que nunca criaram um fluxo de trabalho em Quadros do Adobe Workfront, a área Fluxos de trabalho foi removida do painel Quadros a partir de 11 de outubro de 2023. As contas que usam fluxos de trabalho ainda têm acesso a elas. A funcionalidade aprimorada do scrum será abordada em versões futuras.
+Para contas que nunca criaram um fluxo de trabalho em Quadros do Adobe Workfront, a área Fluxos de trabalho foi removida do painel Quadros a partir de 11 de outubro de 2023. As contas que usam fluxos de trabalho ainda têm acesso a eles. A funcionalidade aprimorada do scrum será abordada em versões futuras.
 
 <!-- HTML you might need
 

@@ -6,16 +6,14 @@ description: Usar fluxos de trabalho na integração do Experience Manager Asset
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
 
 # Usar fluxos de trabalho na integração do Experience Manager Assets
-
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente Visualização da sandbox.</span>
 
 Um fluxo de trabalho é um conjunto de ações que conectam o Workfront ao Adobe Experience Manager as a Cloud Service. Um administrador do Workfront pode configurar fluxos de trabalho no Workfront e atribuí-los a Modelos de projeto. Quando um Projeto é criado usando um Modelo de projeto ao qual um fluxo de trabalho é atribuído, as ações definidas no fluxo de trabalho são acionadas.
 
@@ -147,8 +145,6 @@ Para editar o fluxo de trabalho de pastas vinculadas:
 
 #### Publicar ativos
 
-<div class="preview">
-
 Para editar o fluxo de trabalho de publicação de ativos:
 
 1. Alternar **Publicar ativos automaticamente** ligado ou desligado, conforme desejado.
@@ -159,4 +155,4 @@ Para editar o fluxo de trabalho de publicação de ativos:
 
    Se você estiver na [!DNL Adobe Experience Manager area], as alterações são salvas automaticamente. <!--Do they though?-->
 
-</div>
+
