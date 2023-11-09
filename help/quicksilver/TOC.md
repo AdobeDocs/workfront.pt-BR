@@ -3,7 +3,7 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 0fca20c1745afdb1d573f12fc8e608d331065e32
+source-git-commit: adce227ab7108409195be56ace27f533a926268b
 workflow-type: tm+mt
 source-wordcount: '13392'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
       * [Visão geral de versões do produto](product-announcements/product-releases/product-releases.md)
       * [Programação e processo de lançamento do Adobe Workfront](product-announcements/product-releases/workfront-release-schedule.md)
       * [Preparar-se para uma versão trimestral do Adobe Workfront](product-announcements/product-releases/release-readiness.md)
-      * Versão do quarto trimestre de 2023 {#release-24-q1}
+      * Versão do primeiro trimestre de 2024 {#release-24-q1}
          * [Visão geral da versão do primeiro trimestre de 2024](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
          * [Aprimoramentos na integração do primeiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
       * Versão do quarto trimestre de 2023 {#release-23-q4}
