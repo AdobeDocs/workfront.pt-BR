@@ -2,44 +2,44 @@
 product-area: documents
 navigation-topic: review-a-proof
 title: Pesquisar conteúdo em uma prova
-description: Você pode localizar rapidamente o texto em uma prova criada para os seguintes tipos de documentos - EDITAR-ME.
+description: Saiba como localizar texto rapidamente em uma prova.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03f07011-b17b-41ea-b99e-4535f2d143ff
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '224'
 ht-degree: 2%
 
 ---
 
 # Pesquisar conteúdo em uma prova
 
-Você pode localizar rapidamente o texto em uma prova criada para os seguintes tipos de documentos:
+É possível localizar rapidamente o texto em uma prova criada para os seguintes tipos de documentos:
 
 * PDF
-* Escritório (.doc, .docx, .odt)
+* Office (.doc, .docx, .odt)
 * Página da Web estática
 
 >[!NOTE]
 >
->As provas criadas antes de 26 de abril de 2017 podem não ser pesquisáveis.
+>Provas criadas antes de 26 de abril de 2017 podem não ser pesquisáveis.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p>Plano atual: Pro ou superior</p> <p>ou</p> <p>Plano herdado: Selecionar ou Premium</p> <p>Para obter mais informações sobre como revisar o acesso com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de prova no Workfront</a>.</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> <p>Plano atual: Pro ou Superior</p> <p>ou</p> <p>Plano herdado: Select ou Premium</p> <p>Para obter mais informações sobre acesso de prova com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de prova no Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano atual: Revisão</p> <p>Plano herdado: Revisão</p> </td> 
+   <td> <p>Plano atual: revisão</p> <p>Plano herdado: revisão</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Perfil de Permissões de Prova </td> 
@@ -52,19 +52,19 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, função ou Perfil de permissão de prova você possui, entre em contato com o administrador da Workfront ou da Workfront Proof.
+&#42;Para descobrir qual plano, função ou perfil de permissão de prova você tem, entre em contato com o administrador do Workfront ou do Workfront Proof.
 
 ## Pesquisar conteúdo em uma prova
 
 1. Abra a prova que deseja pesquisar.
-1. Na barra de ferramentas acima da prova, clique no botão **Pesquisar documento** ícone .
+1. Na barra de ferramentas acima da prova, clique na guia **Pesquisar documento** ícone.
 
    ![](assets/search-document-icon-search-in-proof-350x129.png)
 
-1. Comece digitando o texto que deseja pesquisar.
+1. Comece a digitar o texto que deseja pesquisar.
 
-   A ferramenta de pesquisa destaca o texto no documento à medida que você digita.
+   A ferramenta de pesquisa realça o texto no documento à medida que você digita.
 
-   ![Pesquisar_texto_destacado_como_seu_tipo.png](assets/search-text-highlighted-as-you-type-350x214.png)
+   ![Search_text_highlight_as_you_type.png](assets/search-text-highlighted-as-you-type-350x214.png)
 
-1. Termine de digitar o texto que deseja pesquisar e clique no botão **Up** e **Down** setas para verificar os resultados da pesquisa dentro da prova.
+1. Termine de digitar o texto que deseja procurar e clique no link **Para cima** e **Para baixo** setas para examinar os resultados da pesquisa na prova.

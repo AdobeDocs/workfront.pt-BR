@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: review-a-proof
 title: Exibir conteúdo em uma prova
-description: Você deve ter o seguinte acesso para executar as etapas neste artigo - EDITAR ME.
+description: Saiba como visualizar o conteúdo em uma prova.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,19 @@ ht-degree: 0%
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p>Plano atual: Pro ou superior</p> <p>ou</p> <p>Plano herdado: Selecionar ou Premium</p> <p>Para obter mais informações sobre como revisar o acesso com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de prova no Workfront</a>.</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> <p>Plano atual: Pro ou Superior</p> <p>ou</p> <p>Plano herdado: Select ou Premium</p> <p>Para obter mais informações sobre acesso de prova com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de prova no Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano atual: Trabalho ou Plano</p> <p>Plano herdado: Qualquer (É necessário ter a prova ativada para o usuário)</p> </td> 
+   <td> <p>Plano atual: Trabalho ou Plano</p> <p>Plano herdado: Qualquer um (Você deve ter a prova ativada para o usuário)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Perfil de Permissões de Prova </td> 
@@ -42,17 +42,17 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, função ou Perfil de permissão de prova você possui, entre em contato com o administrador da Workfront ou da Workfront Proof.
+&#42;Para descobrir qual plano, função ou perfil de permissão de prova você tem, entre em contato com o administrador do Workfront ou do Workfront Proof.
 
 ## Alterar a exibição da prova
 
-Você pode exibir uma prova estática que contém várias páginas em uma única visualização, em uma visualização contínua ou em uma visualização de revista.
+É possível visualizar uma prova estática que contém várias páginas em uma única visualização, em uma visualização continua ou em uma visualização de revista.
 
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 1. Encontre a prova necessária e clique em **Abrir prova**.
 
-1. Na área superior esquerda do visualizador de prova, localize as opções de visualização.\
-   ![change_the_view.png](assets/changing-the-view-350x213.png)
+1. Na área superior esquerda do revisor de provas, localize as opções de visualização.\
+   ![changing_the_view.png](assets/changing-the-view-350x213.png)
 
 1. Clique em qualquer uma das seguintes opções:
 
@@ -62,97 +62,97 @@ Você pode exibir uma prova estática que contém várias páginas em uma única
     <tbody> 
      <tr> 
       <td role="rowheader">Visualização única</td> 
-      <td>Exibe apenas uma única página de cada vez. Clique na miniatura da página que deseja visualizar ou pressione as teclas de seta para a esquerda e para a direita para navegar entre as páginas.<br><img src="assets/proof-static-view-single.png" alt="proof_static_view_single.png"></td> 
+      <td>Exibe apenas uma página por vez. Clique na miniatura da página que deseja visualizar ou pressione as teclas de seta para a esquerda e para a direita para navegar entre as páginas.<br><img src="assets/proof-static-view-single.png" alt="proof_static_view_single.png"></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Visualização contínua</td> 
-      <td>Exibe todas as páginas em uma única exibição empilhada. Clique na miniatura da página que deseja visualizar ou pressione as teclas de seta para a esquerda e para a direita para rolar para cima ou para baixo todas as páginas em uma visualização contínua.<br><img src="assets/proof-static-view-continuous.png" alt="proof_static_view_contínuo.png"></td> 
+      <td>Exibe todas as páginas em um único modo de exibição empilhado. Clique na miniatura da página que deseja visualizar ou pressione as teclas de seta para a esquerda e para a direita para rolar para cima ou para baixo todas as páginas em uma exibição contínua.<br><img src="assets/proof-static-view-continuous.png" alt="proof_static_view_continuous.png"></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Exibição de revista</td> 
-      <td>Exibe todas as páginas em uma única visualização de revista (lado a lado e empilhada). Clique na miniatura da página que deseja visualizar ou pressione as teclas de seta para a esquerda e para a direita para rolar entre todas as páginas.<br><img src="assets/proof-static-view-magazine.png" alt="proof_static_view_Mag.png"></td> 
+      <td role="rowheader">Visualização de revista</td> 
+      <td>Exibe todas as páginas em uma única visualização de revista (lado a lado e empilhada). Clique na miniatura da página que deseja visualizar ou pressione as teclas de seta para a esquerda e para a direita para rolar entre todas as páginas.<br><img src="assets/proof-static-view-magazine.png" alt="proof_static_view_magazine.png"></td> 
      </tr> 
     </tbody> 
    </table>
 
 ## Usar miniaturas
 
-O painel de miniaturas é exibido no lado esquerdo do visualizador de prova. Você pode usar a área de miniaturas para navegar pela prova. Miniaturas são especialmente úteis quando uma prova contém várias páginas.
+O painel Miniaturas é exibido no lado esquerdo do visualizador de provas. Você pode usar a área de miniaturas para navegar por toda a prova. As miniaturas são especialmente úteis quando uma prova contém várias páginas.
 
 * [Ocultar e exibir o painel de miniaturas](#hide-and-display-the-thumbnails-panel)
-* [Aplicar zoom e deslocar na exibição de miniatura](#zoom-and-pan-in-the-thumbnail-view)
+* [Aplicar zoom e panorâmica na exibição de miniatura](#zoom-and-pan-in-the-thumbnail-view)
 
 ### Ocultar e exibir o painel de miniaturas {#hide-and-display-the-thumbnails-panel}
 
-O painel Miniaturas é exibido por padrão. Você pode ocultar ou ajustar o tamanho do painel.
+O painel Miniaturas é exibido por padrão. É possível ocultar ou ajustar o tamanho do painel.
 
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 1. Encontre a prova necessária e clique em **Abrir prova**.
 
-1. Clique no botão **Miniatura** ícone no canto superior esquerdo do visualizador de prova.\
+1. Clique em **Miniatura** no canto superior esquerdo do revisor de provas.\
    ![hide_thumbnails_panel.png](assets/hide-thumbnails-panel-350x213.png)
 
-1. (Opcional) Clique no ícone Miniatura novamente para exibir o painel Miniaturas .
+1. (Opcional) Clique no ícone Miniatura novamente para exibir o painel Miniaturas.
 
    >[!TIP]
    >
-   >Você pode passar o mouse sobre a borda direita do painel de miniaturas para redimensionar o painel.
+   >Você pode passar o mouse sobre a borda direita do painel Miniaturas para redimensionar o painel.
 
-### Aplicar zoom e deslocar na exibição de miniatura {#zoom-and-pan-in-the-thumbnail-view}
+### Aplicar zoom e panorâmica na exibição de miniatura {#zoom-and-pan-in-the-thumbnail-view}
 
-A área de zoom no painel de miniaturas exibe a área da prova que você está visualizando no momento. É possível ajustar o zoom dentro da área de miniatura ou deslocar a área para visualizar uma parte diferente da prova.
+A área de zoom no painel Miniaturas exibe a área da prova que você está visualizando no momento. Você pode ajustar o zoom na área da miniatura ou pode deslocar a área para exibir uma parte diferente da prova.
 
-Para aplicar zoom e deslocar na exibição de miniatura:
+Para aplicar zoom e panorâmica na exibição em miniatura:
 
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 1. Encontre a prova necessária e clique em **Abrir prova**.
 
-1. Localize a área de zoom atual no painel de miniaturas.\
+1. Localize a área de zoom atual no painel Miniaturas.\
    A área de zoom é exibida como um quadro azul ao redor das bordas da miniatura.
 
-   ![zoom_thumbnail_-_frame.png](assets/zoom-thumbnail---frame-350x215.png)
+   ![zoom_thumbnail_frame.png](assets/zoom-thumbnail---frame-350x215.png)
 
-1. Para ajustar o tamanho da área de zoom, arraste o canto inferior direito da área de zoom até que ele atinja o tamanho desejado.
-1. Para mover a área de zoom para outra parte da prova, arraste a área de zoom até que ela cubra a parte da prova que deseja visualizar.
+1. Para ajustar o tamanho da área de zoom, arraste o canto inferior direito da área de zoom até que seja o tamanho desejado.
+1. Para mover a área de zoom para outra parte da prova, arraste a área de zoom até que ela cubra a parte da prova que você deseja visualizar.
 
 ## Girar uma prova
 
-Você pode girar a prova no visualizador de prova. Quando você gira uma prova que contém várias páginas, todas as páginas são giradas simultaneamente.
+Você pode girar a prova no visualizador de provas. Ao girar uma prova que contém várias páginas, todas as páginas são giradas simultaneamente.
 
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 1. Encontre a prova necessária e clique em **Abrir prova**.
 
-1. Clique no botão **Girar** na parte inferior do visualizador de prova.
+1. Clique em **Girar** ícone na parte inferior do revisor de provas.
 
    ![proof_viewer_static_rotate.png](assets/proof-viewer-static-rotate-350x36.png)
 
-   A prova é girada 90 graus sempre que você clicar no botão **Girar** ícone .
+   A prova é girada 90 graus sempre que você clica no ícone **Girar** ícone.
 
-## Aplicar zoom e deslocar uma prova
+## Aplicar zoom e panorâmica em uma prova
 
-É possível ajustar a porcentagem de zoom ao visualizar a prova. Ao visualizar uma prova em uma porcentagem de zoom maior, a opção Deslocar permite que você use o cursor para navegar para áreas diferentes da prova.
+É possível ajustar a porcentagem de zoom ao visualizar a prova. Ao visualizar uma prova em uma porcentagem de zoom maior, a opção Panorâmica permite usar o cursor para navegar em diferentes áreas da prova.
 
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 1. Encontre a prova necessária e clique em **Abrir prova**.
 
-1. Siga qualquer um destes procedimentos para ajustar a porcentagem de zoom da prova:
+1. Siga um destes procedimentos para ajustar a porcentagem de zoom da prova:
 
-   * Clique no botão **Zoom** , clique na prova para exibir a prova em um nível de zoom mais alto ou arraste uma área da prova para exibir somente essa área.
+   * Clique em **Zoom** e clique na prova para exibi-la em um nível de zoom mais alto ou arraste sobre uma área da prova para exibir somente essa área.
 
-      ![change_zoom_percentage.png](assets/change-zoom-percentage-350x36.png)
+     ![change_zoom_percentage.png](assets/change-zoom-percentage-350x36.png)
 
    * Clique na porcentagem de zoom atual, clique em uma nova porcentagem de zoom ou clique em **Ajustar à largura**, **Ajustar à altura** ou **Ajustar à página**.
 
-      ![zoom_percentage_menu.png](assets/zoom-percentage-menu-350x245.png)
+     ![zoom_percentage_menu.png](assets/zoom-percentage-menu-350x245.png)
 
-   * Clique no botão **Plus** ou **Menos** para aumentar ou diminuir a porcentagem de zoom.
+   * Clique em **Plus** ou **Menos** para aumentar ou diminuir a porcentagem de zoom.
 
-      ![change_zoom_percentage_-_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
+     ![change_zoom_percentage_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
 
-1. Se precisar deslocar para uma determinada área na prova de vídeo, clique no botão **Panorâmica** e arraste a prova conforme necessário.
+1. Se precisar se deslocar para uma determinada área na prova de vídeo, clique no botão **Panorâmica** e arraste a prova conforme necessário.
 
-   ![change_zoom_-_pan.png](assets/change-zoom---pan-350x36.png)
+   ![change_zoom_pan_png](assets/change-zoom---pan-350x36.png)
 
    >[!TIP]
    >
-   >Para alternar facilmente entre as ferramentas Zoom e Deslocar, mantenha a barra de espaço pressionada ao usar o ícone Zoom para deslocar.
+   >Para alternar facilmente entre as ferramentas Zoom e Panorâmica, mantenha pressionada a barra de espaço ao usar o ícone Zoom para panorâmica.

@@ -2,31 +2,31 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Exibir: exibir informações de problema originais em listas de tarefas e projetos'''
-description: Você pode exibir as seguintes informações do problema original em uma visualização das listas de tarefas e projetos, depois que o problema tiver sido convertido para as tarefas e projetos na lista - EDITAR-ME.
+title: "Exibir: exibir informações de problemas originais em listas de tarefas e projetos"
+description: Você pode exibir informações da edição original em uma exibição de listas de tarefas e projetos depois que o problema for convertido em tarefas e projetos na lista.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '141'
 ht-degree: 4%
 
 ---
 
-# Exibir: exibir informações de problema originais em listas de tarefas e projetos
+# Exibir: exibir informações sobre a emissão original em listas de tarefas e projetos
 
-Você pode exibir as seguintes informações do problema original em uma visualização das listas de tarefas e projetos, após o problema ter sido convertido para as tarefas e projetos na lista:
+Você pode exibir as seguintes informações da ocorrência original em uma exibição de listas de tarefas e projetos, depois que o problema for convertido para as tarefas e projetos na lista:
 
 * Nome do problema convertido
 * Data de entrada do problema convertido
-* Nome do Originador da Emissão Convertido
+* Nome do originador do problema convertido
 
-Para obter informações sobre como criar uma exibição usando o Construtor de relatórios padrão, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Para obter informações sobre como criar uma visualização usando o Report Builder padrão, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ![task_and_project_list_with_original_issue_info.png](assets/task-and-project-list-with-original-issue-info-350x59.png)
 
-Para obter mais informações sobre como incluir informações adicionais sobre problemas em projetos e listas de tarefas, consulte [Exibir: detalhes de emissão originada para tarefas e projetos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
+Para obter mais informações sobre como incluir informações adicionais sobre problemas em projetos e listas de tarefas, consulte também [Exibir: detalhes de problemas de origem para tarefas e projetos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

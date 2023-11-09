@@ -4,14 +4,14 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: emails-and-notifications-workfront-proof
 title: Notificações e lembretes de prova
-description: Esta seção contém os seguintes artigos - EDIT ME.
+description: Saiba mais sobre notificações e lembretes de prova.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 48afedba-b58a-42db-b0fe-befb09ba8acb
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: 692d0e903c1b92ad539eacf6d26e18e81530a8b0
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---

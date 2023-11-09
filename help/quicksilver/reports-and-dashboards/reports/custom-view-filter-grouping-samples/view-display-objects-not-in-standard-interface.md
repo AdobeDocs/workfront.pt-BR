@@ -3,13 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "View: objetos de exibição que não estão incluídos na interface padrão"
-description: 'Você pode exibir em uma view objetos que não estão incluídos na interface de modo padrão. Você pode fazer isso somente referenciando-os pelo modo de texto. Você pode determinar quais campos podem ser incluídos em uma exibição de uma das seguintes maneiras: EDIT ME.'
+description: Você pode exibir em uma view objetos que não estão incluídos na interface de modo padrão. Você pode fazer isso somente referenciando-os pelo modo de texto.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ Você pode exibir em uma view objetos que não estão incluídos na interface de
 Você pode determinar quais campos podem ser incluídos em uma view de uma das seguintes maneiras:
 
 * Use o [API Explorer](../../../wf-api/general/api-explorer.md) para descobrir outros objetos que podem ser referenciados no modo texto.\
-   Nem todos os campos documentados no API Explorer são campos válidos para o modo de texto. Alguns campos só podem ser relatados por meio da API.
+  Nem todos os campos documentados no API Explorer são campos válidos para o modo de texto. Alguns campos só podem ser relatados por meio da API.
 
 * Localize o campo ID do objeto em uma coluna. A maioria dos objetos que têm uma ID de campo também tem uma coluna ou nome de campo correspondente que pode não ser acessível por meio da interface de modo padrão.
 
-   Você pode usar o modo de texto para incluir em uma visualização o nome da coluna ou do campo, em vez da ID, substituindo a variável `fieldnameID` com o `fieldname:name`.
+  Você pode usar o modo de texto para incluir em uma visualização o nome da coluna ou do campo, em vez da ID, substituindo a variável `fieldnameID` com o `fieldname:name`.
 
-   Por exemplo, na interface de modo padrão, a variável **ID do proprietário do Portfolio** O campo está disponível para uma exibição de projeto, mas a variável **Nome do proprietário do Portfolio** O campo não é. Você pode usar o modo texto para exibir a variável **Nome do proprietário do Portfolio** na coluna de uma exibição.
+  Por exemplo, na interface de modo padrão, a variável **ID do proprietário do Portfolio** O campo está disponível para uma exibição de projeto, mas a variável **Nome do proprietário do Portfolio** O campo não é. Você pode usar o modo texto para exibir a variável **Nome do proprietário do Portfolio** na coluna de uma exibição.
 
 ## Requisitos de acesso
 

@@ -2,83 +2,83 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-overview
-title: Diferenças entre o Visualizador de Provas da Web e a visão geral do Visualizador de Provas de Desktop
-description: O Adobe Workfront fornece dois visualizadores de prova diferentes - EDITE-ME.
+title: Diferenças entre o Visualizador de provas da Web e a visão geral do Visualizador de provas do desktop
+description: Saiba mais sobre as diferenças entre os visualizadores de desktop e de prova na web.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 72ce147b-29c9-4c3b-a03c-2da0758bc178
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
 
-# Diferenças entre o Visualizador de Provas da Web e a visão geral do Visualizador de Provas de Desktop
+# Diferenças entre o Visualizador de provas da Web e a visão geral do Visualizador de provas do desktop
 
-O Adobe Workfront fornece dois visualizadores de prova diferentes:
+O Adobe Workfront fornece dois revisores de prova diferentes:
 
-* **Visualizador de Verificação Linguística da Web:** Projetado principalmente para verificação de arquivos estáticos e de vídeo. É executado no Google Chrome, Firefox ou Safari.
-* **Visualizador de prova de desktop:** Projetado para verificação de arquivos interativos, bem como vídeo e arquivos estáticos. É executado como um aplicativo independente na sua estação de trabalho. Para obter mais informações, consulte [Entender o visualizador de prova de desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
+* **Visualizador de provas da web:** Projetado principalmente para prova de arquivos estáticos e de vídeo. É executado no Google Chrome, Firefox ou Safari.
+* **Visualizador de provas de desktop:** Projetado para revisar arquivos interativos, assim como arquivos de vídeo e estáticos. É executado como um aplicativo independente na estação de trabalho. Para obter mais informações, consulte [Entender o visualizador de provas de desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
 
-* Se sua organização não puder usar o aplicativo Desktop Proofing Viewer por motivos de segurança, o administrador do Workfront poderá configurar o sistema para que você possa revisar o conteúdo interativo, fornecido em um arquivo ZIP, no Visualizador de Provas da Web. Para obter mais informações, consulte  [Configurar a prova de conteúdo interativo no Visualizador de Provas da Web](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
+* Se sua organização não puder usar o aplicativo Visualizador de provas de desktop por motivos de segurança, o administrador do Workfront poderá configurar seu sistema para que você possa revisar o conteúdo interativo, incluído em um arquivo ZIP, no Visualizador de provas de web. Para obter mais informações, consulte  [Configurar prova de conteúdo interativa no Visualizador de Prova da Web](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
-A lista a seguir pode ajudá-lo a entender qual Visualizador de prova você pode usar para provar certos tipos de conteúdo:
+A lista a seguir pode ajudá-lo a entender o Visualizador de provas que pode ser usado para revisar determinados tipos de conteúdo:
 
-* **Conteúdo da Web interativa - URL**: Se você criar uma prova de conteúdo na Web usando um URL e quiser provar o conteúdo de forma interativa, deverá usar o Visualizador de Verificação de Verificação de Área de Trabalho.
-* **Conteúdo da Web interativa - Arquivo ZIP**: Se você criar uma prova para conteúdo da Web usando um arquivo ZIP, poderá usar o Visualizador de Verificação de Verificação Linguística da Web (com algumas limitações) ou o Visualizador de Verificação Linguística de Desktop. Para obter informações sobre as limitações envolvidas no uso do Web Proofing Viewer para conteúdo interativo, consulte [Configurar a prova de conteúdo interativo no Visualizador de Provas da Web](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
+* **Conteúdo interativo da Web - URL**: Se você criar uma prova para conteúdo da Web usando um URL e quiser fazer a prova do conteúdo interativamente, deverá usar o Visualizador de provas da área de trabalho.
+* **Conteúdo interativo da Web - Arquivo ZIP**: Se você criar uma prova para conteúdo da Web usando um arquivo ZIP, poderá usar o Visualizador de provas da Web (com algumas limitações) ou o Visualizador de provas da área de trabalho. Para obter informações sobre as limitações envolvidas no uso do Web Proofing Viewer para conteúdo interativo, consulte [Configurar prova de conteúdo interativa no Visualizador de Prova da Web](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
-* **Conteúdo estático e de vídeo**: Se você criar uma prova contendo conteúdo estático, poderá usar o Visualizador de Provas da Web ou o Visualizador de Provas de Desktop.
+* **Conteúdo estático e de vídeo**: Se você criar uma prova com conteúdo estático, poderá usar o Visualizador de provas da Web ou o Visualizador de provas da área de trabalho.
 
-## Telas estáticas
+## Provas estáticas
 
-| **Recurso** | **Visualizador de Provas da Web** | **Visualizador de prova de desktop** |
+| **Recurso** | **Visualizador de provas da web** | **Visualizador de provas de desktop** |
 |---|---|---|
-| Abrir provas estáticas | ✓ | ✓&#42; |
-| Única, revista e visualizações contínuas | ✓ | ✓&#42; |
+| Abrir provas estáticas | ✓ µ | ✓&#42; |
+| Visualizações únicas, de revista e contínuas | ✓ | ✓&#42; |
 | Panorâmica | ✓ | ✓&#42; |
 | Zoom | ✓ | ✓&#42; |
 | Girar | ✓ | ✓&#42; |
-| Ferramenta de medição | ✓ (definir uma área do tamanho personalizado) | ✓&#42; |
+| Ferramenta de medição | ✓ ➡ (definir uma área com tamanho personalizado) | ✓&#42; |
 | Exibição em miniatura | ✓ | ✓&#42; |
 | Navegador de prova estática | ✓ | ✓&#42; |
 | Pesquisa de documentos | ✓ | ✓&#42; |
-| Publicar comentário em várias páginas | ✓ (disponível em todas as exibições) | ✓&#42; (disponível em todas as visualizações) |
-| Atalhos avançados de prova estática | ✓ (para obter mais informações, consulte [Atalhos de teclado no visualizador de prova](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;(para obter mais informações, consulte [Atalhos de teclado no visualizador de prova](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
+| Publicar comentário em várias páginas | ✓ (disponível em todas as exibições) | ✓ µ&#42; (disponível em todas as exibições) |
+| Atalhos de prova estáticos avançados | ✓ (para obter mais informações, consulte [Atalhos de teclado no visualizador de provas](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓ µ&#42;(para obter mais informações, consulte [Atalhos de teclado no visualizador de provas](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
 
 {style="table-layout:auto"}
 
-&#42; Essa funcionalidade funciona somente se o administrador do Workfront tiver configurado o Desktop Proofing Viewer como o visualizador padrão para todas as provas.
+&#42; Essa funcionalidade funciona somente se o administrador do Workfront tiver configurado o Visualizador de provas de área de trabalho como o visualizador padrão para todas as provas.
 
 ## Provas de vídeo
 
-| **Recurso**  | **Visualizador de Provas da Web** | **Visualizador de prova de desktop** |
+| **Recurso**  | **Visualizador de provas da web** | **Visualizador de provas de desktop** |
 |---|---|---|
 | Abrir provas de vídeo | ✓ | ✓&#42; |
 | Buffering | ✓ | ✓&#42; |
-| Revisão do tempo de uso | ✓ | ✓&#42; |
-| Revisão usando quadros ou código de tempo | ✓ | ✓&#42; |
-| Revise mais rápido ou mais lento | ✓ | ✓&#42; |
-| Regulação do volume | ✓ | ✓&#42;  |
+| Revisar usando o tempo | ✓ | ✓&#42; |
+| Revisar usando quadros ou código de tempo | ✓ | ✓&#42; |
+| Revisar mais rápido ou mais lento | ✓ | ✓&#42; |
+| Regulação de volume | ✓ | ✓&#42;  |
 | modo de tela cheia | ✓ | ✓&#42;  |
-| Comentários do intervalo | ✓ | ✓&#42;  |
-| Revisar provas de vídeo (os vídeos são concluídos e iniciados automaticamente) | ✓ | ✓&#42;  |
-| Atalhos avançados de vídeo | ✓ (para obter mais informações, consulte [Atalhos de teclado no visualizador de prova](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;  |
+| Comentários de intervalo | ✓ | ✓&#42;  |
+| Executar provas de vídeo em loop (os vídeos são concluídos e iniciados automaticamente) | ✓ | ✓&#42;  |
+| Atalhos de vídeo avançados | ✓ (para obter mais informações, consulte [Atalhos de teclado no visualizador de provas](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;  |
 
 {style="table-layout:auto"}
 
-&#42; Essa funcionalidade funciona somente se o Desktop Proofing Viewer estiver configurado como o visualizador padrão para todas as provas.
+&#42; Essa funcionalidade funciona somente se o Visualizador de provas da área de trabalho estiver configurado como o visualizador padrão para todas as provas.
 
 ## Provas interativas
 
-| **Recurso**  | **Visualizador de Provas da Web** | **Visualizador de prova de desktop** |
+| **Recurso**  | **Visualizador de provas da web** | **Visualizador de provas de desktop** |
 |---|---|---|
-| Abrir provas interativas criadas a partir de conteúdo fornecido em um arquivo ZIP | ✓ | ✓ (recomendado) |
+| Abrir provas interativas criadas a partir de conteúdo agrupado em um arquivo ZIP | ✓ | ✓ ➡ (recomendado) |
 | Abrir uma prova interativa criada a partir de um URL | Não suportado | ✓ |
-| Exibir provas interativas (criadas a partir de conteúdo fornecido em um arquivo ZIP) em vários tamanhos de tela | ✓ | ✓ |
-| Exibir provas interativas (criadas a partir de conteúdo fornecido em um arquivo ZIP) para vários dispositivos | Não suportado | ✓ |
-| Revisar sites não protegidos (HTTP) | Não suportado | ✓ |
-| Revisar sites protegidos pelo iFrame (sites protegidos de serem visualizados em um iFrame) | Não suportado | ✓ |
+| Exibir provas interativas (criadas a partir do conteúdo agrupado em um arquivo ZIP) em vários tamanhos de tela | ✓ | ✓ |
+| Visualizar provas interativas (criadas a partir de conteúdo agrupado em um arquivo ZIP) para vários dispositivos | Não suportado | ✓ |
+| Revisar sites não seguros (HTTP) | Não suportado | ✓ |
+| Revisar sites protegidos pelo iFrame (sites protegidos contra visualização em um iFrame) | Não suportado | ✓ |
 
 {style="table-layout:auto"}
 
@@ -91,8 +91,8 @@ A lista a seguir pode ajudá-lo a entender qual Visualizador de prova você pode
  <thead> 
   <tr> 
    <th>Recurso</th> 
-   <th>Visualizador de Provas da Web </th> 
-   <th>Visualizador de prova de desktop </th> 
+   <th>Visualizador de provas da web </th> 
+   <th>Visualizador de provas de desktop </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -107,32 +107,32 @@ A lista a seguir pode ajudá-lo a entender qual Visualizador de prova você pode
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Ferramentas de marcação retângulo, seta, linha, mão livre e realce</p> </td> 
+   <td> <p>Ferramentas de marcação de retângulo, seta, linha, à mão livre e realce</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Ferramenta Polilinha</p> </td> 
+   <td> <p>Ferramenta Poligonal</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Ferramentas de marcação de máscara de corte</p> </td> 
+   <td> <p>Ferramentas de marcação da máscara de corte</p> </td> 
    <td>Não suportado</td> 
    <td>Não suportado</td> 
   </tr> 
   <tr> 
-   <td> <p>Ferramenta de marcação para seleção de texto</p> </td> 
-   <td>✓ somente provas estáticas</td> 
-   <td>✓ somente provas estáticas</td> 
+   <td> <p>Ferramenta Marcação de seleção de texto</p> </td> 
+   <td>✓ µ Somente provas estáticas</td> 
+   <td>✓ µ Somente provas estáticas</td> 
   </tr> 
   <tr> 
-   <td> <p>Alterar cor da marcação</p> </td> 
+   <td> <p>Alterar cor de marcação</p> </td> 
    <td>✓ (32 cores disponíveis) </td> 
    <td>✓ (32 cores disponíveis) </td> 
   </tr> 
   <tr> 
-   <td> <p>Alterar a opacidade da marcação</p> </td> 
+   <td> <p>Alterar opacidade da marcação</p> </td> 
    <td>✓</td> 
    <td> ✓ </td> 
   </tr> 
@@ -157,12 +157,12 @@ A lista a seguir pode ajudá-lo a entender qual Visualizador de prova você pode
    <td> Não suportado</td> 
   </tr> 
   <tr> 
-   <td>Definir ações para comentários</td> 
-   <td>✓ (as ações ficam visíveis nos comentários imediatamente após a ação ser definida)</td> 
+   <td>Definir ações como comentários</td> 
+   <td>✓ (As ações ficam visíveis nos comentários imediatamente após a definição da ação)</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Configurar a cor da marcação como padrão</p> </td> 
+   <td> <p>Definir cor de marcação como padrão</p> </td> 
    <td>✓</td> 
    <td> ✓ </td> 
   </tr> 
@@ -192,7 +192,7 @@ A lista a seguir pode ajudá-lo a entender qual Visualizador de prova você pode
    <td> ✓ </td> 
   </tr> 
   <tr> 
-   <td> <p>Exibir a lista de comentários em uma exibição padrão, completa ou única</p> </td> 
+   <td> <p>Exibir a lista de comentários em uma visualização padrão, completa ou única</p> </td> 
    <td>Planejado para o futuro</td> 
    <td>Planejado para o futuro</td> 
   </tr> 
@@ -217,7 +217,7 @@ A lista a seguir pode ajudá-lo a entender qual Visualizador de prova você pode
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Comentar atualizações automáticas</p> </td> 
+   <td> <p>Atualizações automáticas de comentário</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -226,9 +226,9 @@ A lista a seguir pode ajudá-lo a entender qual Visualizador de prova você pode
 
 ## Decisões
 
-| Recurso | Visualizador de Provas da Web | Visualizador de prova de desktop |
+| Recurso | Visualizador de provas da web | Visualizador de provas de desktop |
 |---|---|---|
-| Tome decisões | ✓ | ✓ |
+| Tomar decisões | ✓ | ✓ |
 | Personalizar decisões | ✓ | ✓ |
 
 {style="table-layout:auto"}
@@ -242,8 +242,8 @@ A lista a seguir pode ajudá-lo a entender qual Visualizador de prova você pode
  <thead> 
   <tr> 
    <th>Recurso</th> 
-   <th>Visualizador de Provas da Web </th> 
-   <th>Visualizador de prova de desktop </th> 
+   <th>Visualizador de provas da web </th> 
+   <th>Visualizador de provas de desktop </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -269,8 +269,8 @@ A lista a seguir pode ajudá-lo a entender qual Visualizador de prova você pode
  <thead> 
   <tr> 
    <th>Recurso</th> 
-   <th>Visualizador de Provas da Web </th> 
-   <th>Visualizador de prova de desktop </th> 
+   <th>Visualizador de provas da web </th> 
+   <th>Visualizador de provas de desktop </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -281,8 +281,8 @@ A lista a seguir pode ajudá-lo a entender qual Visualizador de prova você pode
   </tr> 
   <tr> 
    <td>Criar uma nova versão</td> 
-   <td> <p>Disponível somente na Workfront Proof (planejado para o futuro ao fazer prova no Workfront)<br></p> </td> 
-   <td>Disponível somente na Workfront Proof (planejado para o futuro ao fazer prova no Workfront)</td> 
+   <td> <p>Disponível somente na Prova do Workfront (planejado para o futuro ao fazer a prova no Workfront)<br></p> </td> 
+   <td>Disponível somente na Prova do Workfront (planejado para o futuro ao fazer a prova no Workfront)</td> 
   </tr> 
   <tr> 
    <td>Revisar detalhes da prova </td> 
@@ -290,7 +290,7 @@ A lista a seguir pode ajudá-lo a entender qual Visualizador de prova você pode
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Revisar workflows de prova</td> 
+   <td>Revisar fluxos de trabalho de prova</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -325,7 +325,7 @@ A lista a seguir pode ajudá-lo a entender qual Visualizador de prova você pode
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Imprimir resumo de prova</td> 
+   <td>Imprimir resumo da prova</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -335,14 +335,14 @@ A lista a seguir pode ajudá-lo a entender qual Visualizador de prova você pode
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Gerenciar provas da mesma pasta</td> 
-   <td><strong>Disponível somente na Workfront Proof</strong> </td> 
-   <td><strong>Disponível somente na Workfront Proof</strong> </td> 
+   <td>Gerenciar provas na mesma pasta</td> 
+   <td><strong>Disponível somente na prova do Workfront</strong> </td> 
+   <td><strong>Disponível somente na prova do Workfront</strong> </td> 
   </tr> 
   <tr> 
    <td>Marcas (logotipos personalizados)</td> 
    <td>✓</td> 
-   <td> ✓<br>(Logotipo Workfront na página de lançamento) </td> 
+   <td> ✓ µ<br>(Logotipo do Workfront na página de lançamento) </td> 
   </tr> 
   <tr> 
    <td>Links personalizados (somente Workfront Proof)</td> 
@@ -350,7 +350,7 @@ A lista a seguir pode ajudá-lo a entender qual Visualizador de prova você pode
    <td> Não suportado </td> 
   </tr> 
   <tr> 
-   <td>Integrações com o Basecamp (somente Workfront Proof) </td> 
+   <td>Integrações do carimbo de base (somente Workfront Proof) </td> 
    <td>Planejado para o futuro</td> 
    <td>Planejado para o futuro</td> 
   </tr> 
@@ -360,7 +360,7 @@ A lista a seguir pode ajudá-lo a entender qual Visualizador de prova você pode
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Prova de atualizações automáticas (alterações de permissão e novas versões)</td> 
+   <td>Atualizações automáticas de prova (alterações de permissão e novas versões)</td> 
    <td>✓</td> 
    <td>✓ </td> 
   </tr> 
@@ -369,7 +369,7 @@ A lista a seguir pode ajudá-lo a entender qual Visualizador de prova você pode
 
 ## Minivisualizador
 
-| **Recurso**  | **Visualizador de Provas da Web**  | **Visualizador de prova de desktop** |
+| **Recurso**  | **Visualizador de provas da web**  | **Visualizador de provas de desktop** |
 |---|---|---|
 | Código incorporado | Planejado para o futuro para provas de vídeo estáticas e nativas | Não suportado  |
 
@@ -384,8 +384,8 @@ A lista a seguir pode ajudá-lo a entender qual Visualizador de prova você pode
  <thead> 
   <tr> 
    <th><strong>Recurso</strong> </th> 
-   <th><strong>Visualizador de Provas da Web</strong> </th> 
-   <th><strong>Visualizador de prova de desktop</strong> </th> 
+   <th><strong>Visualizador de provas da web</strong> </th> 
+   <th><strong>Visualizador de provas de desktop</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 

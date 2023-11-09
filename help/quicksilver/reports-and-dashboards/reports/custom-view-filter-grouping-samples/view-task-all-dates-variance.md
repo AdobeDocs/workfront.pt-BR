@@ -3,13 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "View: tarefa com todas as variações de datas"
-description: Essa exibição de tarefa é semelhante à exibição "Todas as datas" fornecida com sua conta da Adobe Workfront. Essa exibição específica inclui colunas de Variação, que calculam a diferença em dias entre as datas a seguir - EDIT ME.
+description: Essa exibição de tarefa é semelhante à exibição "Todas as datas" fornecida com sua conta da Adobe Workfront. Essa exibição específica inclui colunas de Variação, que calculam a diferença em dias entre datas.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---

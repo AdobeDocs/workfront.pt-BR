@@ -1,28 +1,28 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Atualize seu trabalho no Adobe Photoshop
-description: Você pode atualizar seu trabalho nas seguintes áreas - EDITE-ME.
+title: Atualizar seu trabalho no Adobe Photoshop
+description: Você pode atualizar seu trabalho com o plug-in do Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '207'
 ht-degree: 2%
 
 ---
 
-# Atualize seu trabalho usando o [!DNL Adobe Workfront] plugin
+# Atualize seu trabalho usando o [!DNL Adobe Workfront] plug-in
 
-Você pode atualizar seu trabalho de qualquer um dos seguintes [!DNL Adobe Creative Cloud] Aplicativos:
+Você pode atualizar seu trabalho de qualquer uma das seguintes opções [!DNL Adobe Creative Cloud] aplicativos:
 
 {{cc-app-list}}
 
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,16 +40,16 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> -->
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td>Você deve ter um [!DNL Adobe Creative Cloud] além de um [!DNL Workfront] licença.</td> 
+   <td>Você deve ter um [!DNL Adobe Creative Cloud] além de uma licença [!DNL Workfront] licença.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Acesso à [!UICONTROL View] para o objeto que deseja atualizar. </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Acesso à [!UICONTROL View] para o objeto que você deseja atualizar. </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
 
 ## Pré-requisitos
 
@@ -79,17 +79,17 @@ Você pode atualizar seu trabalho de qualquer uma das seguintes áreas no plug-i
  </tbody> 
 </table>
 
-Para postar uma atualização:
+Para publicar uma atualização:
 
-1. Clique no botão **[!UICONTROL Menu]** no canto superior direito e selecione **[!UICONTROL Lista de Trabalho]**. Também é possível usar o menu para navegar até os objetos pai.
+1. Clique em **[!UICONTROL Menu]** no canto superior direito e selecione **[!UICONTROL Lista de trabalho]**. Você também pode usar o menu para navegar até objetos principais.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. No **[!UICONTROL Lista de Trabalho]**, selecione o item de trabalho para o qual você precisa publicar uma atualização.
+1. No **[!UICONTROL Lista de trabalho]**, selecione o item de trabalho para o qual você precisa postar uma atualização.
 1. Clique em **[!UICONTROL Atualizar]** na barra de navegação.\
    ![](assets/photoshop-update-350x295.png)
 
 1. Clique em **[!UICONTROL Nova atualização]**.
 1. Digite sua atualização.
-1. (Opcional) Para marcar um usuário, digite o símbolo @ e o nome do usuário e, em seguida, escolha seu nome no menu suspenso.
+1. (Opcional) Para marcar um usuário, digite o símbolo @ e o nome do usuário e escolha o nome dele no menu suspenso.
 1. Clique em **[!UICONTROL Enviar]**. As atualizações são sincronizadas com o aplicativo web do Adobe Workfront em tempo real.

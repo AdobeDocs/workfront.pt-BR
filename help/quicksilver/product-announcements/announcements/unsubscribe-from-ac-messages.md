@@ -1,41 +1,41 @@
 ---
 content-type: reference
 navigation-topic: announcements
-title: Cancelar inscrição nas mensagens da central de anúncios
-description: As mensagens da Central de anúncios são mensagens enviadas do Adobe Workfront para a base de clientes da Workfront. Você pode cancelar a assinatura dos seguintes tipos de mensagens da Central de anúncios - EDITE-ME.
+title: Cancelar inscrição nas mensagens do Centro de notificações
+description: As mensagens do Centro de notificações são mensagens enviadas do Adobe Workfront para a base de clientes da Workfront. Você pode cancelar a inscrição nas mensagens do Centro de notificações.
 author: Luke
 feature: Product Announcements
 exl-id: a9922e91-c58c-4c25-968c-ab70fa8d8916
-source-git-commit: e2335829f22551ce9fd4c88071c97fb1a893a1d8
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
 
-# Cancelar inscrição nas mensagens da central de anúncios
+# Cancelar inscrição nas mensagens do Centro de notificações
 
-As mensagens da Central de anúncios são mensagens enviadas do Adobe Workfront para a base de clientes da Workfront. Você pode cancelar a assinatura dos seguintes tipos de mensagens da Central de anúncios:
+As mensagens do Centro de notificações são mensagens enviadas do Adobe Workfront para a base de clientes da Workfront. Você pode cancelar a inscrição nos seguintes tipos de mensagens da Central de notificações:
 
-* Anúncios sobre a funcionalidade lançada com base em recursos fora dessas versões principais.
+* Anúncios sobre funcionalidades lançadas com base em recursos fora dessas versões principais.
 
-   A maioria das novas funcionalidades introduzidas na plataforma Workfront é lançada juntamente com uma das 4 principais versões a cada ano. No entanto, algumas funcionalidades são lançadas com base em recursos fora dessas versões principais. Sempre que um recurso for lançado fora de uma versão principal, você receberá uma mensagem por meio da Central de anúncios. (Para obter mais informações sobre a Central de anúncios, consulte [Enviar anúncios](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
+  A maioria das novas funcionalidades introduzidas na plataforma Workfront é lançada em conjunto com uma das quatro principais versões a cada ano. No entanto, algumas funcionalidades são lançadas com base em recursos fora dessas versões principais. Cada vez que um recurso é lançado fora de uma versão principal, você recebe uma mensagem pelo Centro de anúncios. (Para obter mais informações sobre o Centro de notificações, consulte [Enviar notificações](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
 
-* Anúncios sobre as futuras ofertas e eventos de treinamento.
+* Anúncios sobre ofertas e eventos de treinamento futuros.
 
-Para cancelar a assinatura do recebimento de mensagens da Central de anúncios:
+Para cancelar a inscrição do recebimento de mensagens do Centro de notificações:
 
 1. Clique no ícone numerado ![](assets/notifications-icon-jewel.jpg) no canto superior direito do Workfront para abrir a lista de notificações.
-1. Clique em **Todos os anúncios** na parte inferior da lista.
+1. Clique em **Todos os avisos** na parte inferior da lista.
 
-   O **Anúncios** for exibida, listando todos os seus anúncios.
+   A variável **Anúncios** será exibida, listando todos os seus anúncios.
 
    ![](assets/announcements-page-qs-350x210.png)
 
-1. Clique em **Configurações** no canto superior direito da página Anúncios, selecione **Novas versões** ou **Treinamento**, dependendo do tipo de anúncios que você não deseja mais receber.
+1. Clique em **Configurações** no canto superior direito da página Avisos, selecione **Novas versões** ou **Treinamento**, dependendo do tipo de anúncios que você não deseja mais receber.
 
    ![](assets/announcementcenter-settings-350x187.png)
 
 1. Clique em **Salvar configurações**.
 
-   Você não receberá mais mensagens da Central de anúncios desse tipo de anúncio.
+   Você não receberá mais mensagens do Centro de Notificações para este tipo de notificação.
