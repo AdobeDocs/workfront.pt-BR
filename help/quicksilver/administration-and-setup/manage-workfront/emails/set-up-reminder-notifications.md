@@ -5,9 +5,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
+source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1141'
 ht-degree: 1%
 
 ---
@@ -109,13 +109,13 @@ Para obter informações sobre como criar um template de email, consulte [Config
       <td role="rowheader">Critério</td> 
       <td> <p>Selecione os critérios para qualificar a notificação de lembrete a ser agendada. Notificações de lembrete não são agendadas a menos que a seleção de critérios seja atendida.</p> <p>As opções de critérios a seguir estão disponíveis, dependendo do tipo de objeto selecionado na Etapa 4:</p> 
        <ul> 
-        <li><strong>Projetos em Andamento Incompletos:</strong> (Disponível para lembretes de tarefas e problemas) A notificação de lembrete é agendada para ser enviada somente quando o status do objeto ao qual a notificação de lembrete está associada não é Concluído e o status do projeto é Atual.</li> 
-        <li><strong>Todos os projetos atuais:</strong>(Disponível para lembretes de tarefas e problemas) A notificação de lembrete é agendada para ser enviada independentemente do status do objeto e somente quando o status do projeto ao qual a notificação de lembrete está associada for Atual.</li> 
-        <li><strong>Projetos Incompletos:</strong> (Disponível para lembretes de projeto) A notificação de lembrete é agendada para ser enviada quando o status do projeto for qualquer item menos Concluído.</li> 
-        <li><strong>Concluir projetos:</strong> (Disponível para lembretes de projeto) A notificação de lembrete é agendada para ser enviada quando o status do projeto for Concluído.</li> 
-        <li><strong>Abrir Planilhas de Horas:</strong> (Disponível para lembretes de folha de horas) A notificação de lembrete é agendada para ser enviada quando o status da folha de horas for Aberto.</li> 
-        <li><strong>Planilha de horas enviada:</strong> (Disponível para lembretes de folha de horas) A notificação de lembrete é agendada para ser enviada quando o status da folha de horas for Enviado.</li> 
-        <li><strong>Planilha de horas em aberto ou menos de 40 horas por semana:</strong> (Disponível para lembretes de folha de horas) A notificação de lembrete é agendada para ser enviada quando o status da folha de horas for Aberto ou quando a folha de horas tiver menos de 40 horas registrada.</li> 
+        <li><strong>Projetos em Andamento Incompletos:</strong> <i>(Disponível para lembretes de tarefas e problemas)</i> A notificação de lembrete está agendada para ser enviada somente quando o status do objeto ao qual a notificação de lembrete está associada não é Concluído e o status do projeto é Atual.</li> 
+        <li><strong>Todos os projetos atuais:</strong> <i>(Disponível para lembretes de tarefas e problemas)</i> A notificação de lembrete está agendada para ser enviada independentemente do status do objeto e somente quando o status do projeto ao qual a notificação de lembrete está associada for Atual.</li> 
+        <li><strong>Projetos Incompletos:</strong> <i>(Disponível para lembretes de projeto)</i> A notificação de lembrete é agendada para ser enviada quando o status do projeto for algo além de Concluído.</li> 
+        <li><strong>Todos os Projetos:</strong> <i>(Disponível para lembretes de projeto)</i> A notificação de lembrete está agendada para ser enviada independentemente do status do projeto.</li> 
+        <li><strong>Abrir Planilhas de Horas:</strong> <i>(Disponível para lembretes de folha de horas)</i> A notificação de lembrete está agendada para ser enviada quando o status da folha de horas for Aberto.</li> 
+        <li><strong>Planilha de horas enviada:</strong> <i>(Disponível para lembretes de folha de horas)</i> A notificação de lembrete está agendada para ser enviada quando o status da folha de horas for Enviado.</li> 
+        <li><strong>Planilha de horas em aberto ou menos de 40 horas por semana:</strong> <i>(Disponível para lembretes de folha de horas)</i> A notificação de lembrete é agendada para ser enviada quando o status da folha de horas for Aberto ou quando a folha de horas tiver menos de 40 horas reportadas.</li> 
         <li><strong>Modelo de email:</strong> Na lista suspensa, selecione um template de email para anexar ao seu lembrete.<br>Para obter informações sobre como criar um template de email, consulte <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">Configurar modelos de email</a>.</li> 
        </ul> </td> 
      </tr> 
