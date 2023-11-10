@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '462'
 ht-degree: 1%
 
 ---
@@ -112,11 +112,15 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Essa ação abre a página do tipo de registro.
 1. (Condicional) Selecione um **Visualização em tabela** do **Exibir** no canto superior direito da página tipo de registro.
-1. Passe o mouse sobre o cabeçalho da coluna de um campo que você deseja editar, em seguida, clique na seta para baixo após o nome do campo.
+1. Passe o mouse sobre o cabeçalho da coluna de um campo que deseja editar, clique na seta para baixo após o nome do campo e clique em **Editar campo**
+
+   Ou
+
+   Clique duas vezes no cabeçalho da coluna do campo.
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-1. Clique em **Editar campo**, atualize as informações sobre o campo e clique em **Salvar**.
+1. Atualize as informações sobre o campo e clique em **Salvar**.
 
    <!--insert screen shot when finalized-->
 

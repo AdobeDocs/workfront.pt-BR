@@ -3,11 +3,11 @@ content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
 title: Visão geral das exibições no Adobe Workfront
-description: Você pode personalizar o tipo de informação exibida em uma lista ou relatório gerenciando a visualização da lista ou relatório. É possível exibir objetos e seus atributos em uma visualização.
+description: Você pode personalizar o tipo de informação exibida em uma lista ou relatório gerenciando a visualização da lista ou do relatório. É possível exibir objetos e seus atributos em uma visualização.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
@@ -16,38 +16,41 @@ ht-degree: 0%
 
 # Visão geral das exibições no Adobe Workfront
 
-Você pode personalizar o tipo de informação exibida em uma lista ou relatório gerenciando a visualização da lista ou relatório. É possível exibir objetos e seus atributos em uma visualização. Para obter informações sobre os objetos do Adobe Workfront, consulte [Entender objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Você pode personalizar o tipo de informação exibida em uma lista ou relatório gerenciando a visualização da lista ou do relatório. É possível exibir objetos e seus atributos em uma visualização. Para obter informações sobre os objetos do Adobe Workfront, consulte [Entender objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Considerações sobre visualizações
 
-* Você pode personalizar exibições existentes. Todos os usuários que podem exibir as exibições também podem ver suas alterações.
-* O administrador do Adobe Workfront deve conceder acesso para editar filtros, exibições e agrupamentos para poder criar exibições.
+* Você pode personalizar visualizações existentes. Todos os usuários que podem exibir as exibições também podem ver suas alterações.
+* O administrador do Adobe Workfront deve conceder acesso para editar filtros, visualizações e agrupamentos para poder criar visualizações.
 
-   Para obter informações sobre a concessão de acesso de edição, consulte [Conceder acesso a filtros, visualizações e agrupamentos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Para obter informações sobre como conceder acesso de edição, consulte [Conceder acesso a filtros, visualizações e agrupamentos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-* Seu nível de permissões para uma exibição determina como ela é salva. Caso tenha criado a exibição originalmente, é possível salvá-la, caso contrário, será solicitado que você salve uma versão da exibição. Se você fizer alterações em uma exibição compartilhada com outras pessoas, isso também as afetará.
-* Você pode personalizar uma visualização que foi compartilhada com você somente se o usuário que a compartilhou tiver concedido acesso a Gerenciar. Para obter informações sobre o compartilhamento de uma exibição, consulte [Compartilhar um filtro, visualização ou agrupamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* Seu nível de permissões para uma exibição determina como uma exibição é salva. Se tiver criado a visualização originalmente, você poderá salvar as alterações, caso contrário, será solicitado que você salve uma versão da visualização. Se você fizer alterações em uma visualização compartilhada com outras pessoas, elas também serão afetadas.
+* É possível personalizar uma visualização que foi compartilhada com você somente se o usuário que a compartilhou tiver concedido acesso de Gerenciar. Para obter informações sobre como compartilhar uma visualização, consulte [Compartilhar um filtro, uma exibição ou um agrupamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
-Você pode personalizar exibições existentes, criar novas exibições com base em exibições existentes ou criar novas exibições do zero.
+Você pode personalizar visualizações existentes, criar novas visualizações com base em visualizações existentes ou criar novas visualizações do zero.
 
-## Tipos de exibições no Workfront
+## Tipos de visualizações no Workfront
 
-A seguir estão os tipos de exibições que você pode aplicar em listas ou relatórios no Workfront:
+A seguir estão tipos de exibições que podem ser aplicadas em listas ou relatórios no Workfront:
 
 <table style="table-layout:auto">
     <tr>
         <td><strong>Exibições padrão</strong></td>
-        <td>É possível aplicá-los a qualquer lista ou relatório de objetos. As exibições padrão são altamente personalizáveis. Você pode personalizar e compartilhar uma visualização padrão com outras pessoas. Para obter informações, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Criar ou editar exibições no Adobe Workfront</a>.</td>
+        <td>Você pode aplicá-los a qualquer lista ou relatório de objetos. As exibições padrão são altamente personalizáveis. Você pode personalizar e compartilhar uma exibição padrão com outras pessoas. Para obter informações, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Criar ou editar exibições no Adobe Workfront</a>.</td>
     </tr>
     <tr>
-        <td><strong>Exibição ágil</strong></td>
-        <td>Você pode aplicá-lo a uma lista de tarefas na seção Tarefas de um projeto. Você pode personalizar e compartilhar uma visualização ágil com outras pessoas. Para obter mais informações, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Criar ou editar exibições no Adobe Workfront</a>.</td>
+        <td><strong>Visualização Agile</strong></td>
+        <td>É possível aplicá-lo a uma lista de tarefas na seção Tarefas de um projeto. Você pode personalizar e compartilhar uma visualização ágil com outras pessoas. Para obter informações, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Criar ou editar exibições no Adobe Workfront</a>.</td>
     </tr>
     <tr>
-        <td><strong>Exibição de Gantt</strong></td>
-        <td>Você pode aplicá-lo a uma lista de tarefas na seção Tarefas de um projeto, a uma lista de projetos ou adicioná-la a uma tarefa ou relatório de projeto. Você pode personalizar quais informações você visualiza na exibição de Gantt usando opções integradas predefinidas. Todos os usuários com acesso para visualizar tarefas ou projetos podem visualizá-los na exibição de Gantt. Para obter mais informações, consulte <a href="/help/quicksilver/manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md">Introdução ao Gráfico de Gantt</a>.</td>
-    </tr>
+        <td><strong>exibição de Gantt</strong></td>
+        <td>Você pode aplicá-lo a uma lista de tarefas na seção Tarefas de um projeto, a uma lista de projetos, ou adicioná-lo a um relatório de tarefa ou de projeto. Você pode personalizar quais informações você visualiza na visualização de Gantt usando opções predefinidas incorporadas. Todos os usuários com acesso para visualizar tarefas ou projetos podem visualizá-los na visualização de Gantt. Para obter informações, consulte <a href="/help/quicksilver/manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md">Introdução ao Gráfico de Gantt</a>.</td>
+       </tr>
 </table>
+
+<!--NOTE FOR MAYBE LATER: consider adding calendar and board views to this list of views (above)?! -->
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -220,11 +223,11 @@ Agile views are available only when viewing a project.
 
 ## Compartilhar uma exibição
 
-Para obter informações sobre como compartilhar uma exibição, consulte [Compartilhar um filtro, visualização ou agrupamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+Para obter informações sobre como compartilhar uma visualização, consulte [Compartilhar um filtro, uma exibição ou um agrupamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
-## Remover uma exibição
+## Remover uma visualização
 
-A capacidade de remover uma exibição funciona de forma diferente, dependendo de você ter criado a exibição ou a exibição ter sido compartilhada com você. Não é possível remover uma exibição padrão.
+A capacidade de remover uma visualização funciona de forma diferente, dependendo se você criou inicialmente a visualização ou se ela foi compartilhada com você. Não é possível remover uma exibição padrão.
 
 Para obter mais informações, consulte [Remover filtros, visualizações e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 

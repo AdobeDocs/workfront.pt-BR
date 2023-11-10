@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '3349'
+source-wordcount: '3451'
 ht-degree: 0%
 
 ---
@@ -344,9 +344,33 @@ Para remover um item da folha de horas que foi adicionado manualmente:
 
 Você pode registrar horas específicas do projeto na Página inicial.
 
-Para obter informações gerais sobre o uso da área Início, consulte [Usar a área Início](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Para obter informações gerais sobre o uso da área Início, consulte as seguintes seções:
 
-Para registrar horas em um item de trabalho na área Página inicial:
+* Para obter informações sobre como usar a área inicial herdada, consulte [Usar a área Início](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+* Para obter informações sobre como usar a nova área Página inicial, consulte [Introdução à nova página inicial no Adobe Workfront](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
+
+#### Registrar horas em um item de trabalho na nova área Página inicial
+
+1. Chegou ao **Início** área.
+1. Adicione qualquer um dos seguintes widgets:
+
+   * Minhas tarefas
+   * Meus problemas
+   * Meu trabalho
+   * Minhas solicitações
+1. Selecione uma tarefa, problema ou solicitação em uma lista e clique em **Resumo**
+
+   Ou
+
+   Clique em **Resumo** ícone ![](assets/open-summary-icon-in-home.png) de uma tarefa ou um problema no widget Meu trabalho.
+
+   O painel Resumo é aberto à direita.
+
+   ![](assets/log-time-new-home-my-work-widget.png)
+1. Continue a registrar o tempo no painel Resumo, conforme descrito em [Visão geral do resumo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+
+#### Registrar o tempo em um item de trabalho na área inicial herdada
 
 1. No **Lista de trabalho** selecione o item onde deseja registrar o tempo.
 1. No painel direito, clique em **Registro de tempo**.
@@ -430,16 +454,16 @@ Para registrar horas na seção Horas de um projeto, tarefa ou problema:
    * **Proprietário:** Seu nome é exibido nesse campo, por padrão.\
      Se você estiver registrando as horas de outro usuário, especifique o nome dele.
 
-   * **Horas**: insira o número de horas do projeto, tarefa ou problema.
    * **Tipo de Hora**: selecione um Tipo de hora no menu suspenso, se ele for diferente do exibido por padrão.
 
      Dependendo dos tipos de horas configurados em seu sistema, as opções aqui podem variar. Para obter mais informações sobre a configuração de tipos de horas, consulte [Definir tipos de horas e disponibilidade para folhas de horas](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Função de trabalho**: (Condicional) Se o administrador do Workfront ou do grupo tiver ativado o **Atribuir funções de trabalho a entradas de horas manualmente** , selecione uma **Função de trabalho** no menu suspenso. A Função especificada quando você está atribuído ao objeto é exibida por padrão. Se uma Função não for atribuída a você, sua Função principal é exibida como padrão. Para obter mais informações sobre essa configuração, consulte o artigo [Configurar preferências de horas e planilha de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-     ![Screen_Shot_2017-05-03_at_10.16.52_AM.png](assets/screen-shot-2017-05-03-at-10.16.52-am-350x346.png)
+     ![](assets/log-time-box-in-hours-section-on-task.png)
+   * **Horas**: insira o número de horas do projeto, tarefa ou problema.
 
-1. Clique em **Registrar horas**.
+1. Clique em **Registro de tempo**.
 
 ### Painel Resumo
 

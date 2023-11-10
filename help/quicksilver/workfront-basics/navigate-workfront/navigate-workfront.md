@@ -2,21 +2,21 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Navegar [!DNL Adobe Workfront]
-description: Leia estes artigos para entender como navegar no Workfront e aprender a terminologia do Workfront.
+description: Leia estes artigos para entender como navegar no Adobe Workfront e aprender a terminologia do Workfront.
 feature: Get Started with Workfront
 author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '109'
 ht-degree: 1%
 
 ---
 
 # Navegar [!DNL Adobe Workfront]
 
-Leia estes artigos para entender como navegar no Workfront e aprender a terminologia do Workfront.
+Leia estes artigos para entender como navegar no Adobe Workfront e aprender a terminologia do Workfront.
 
 Esta seção contém as seguintes subseções e artigos:
 
