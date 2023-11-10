@@ -6,7 +6,7 @@ description: É possível responder às notificações por email do Workfront ge
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 1%
@@ -19,12 +19,8 @@ Dependendo de como suas notificações por email estão configuradas, você pode
 
 Você pode responder a uma atualização por meio de uma notificação por email das seguintes maneiras:
 
-responda ao comentário original.
-
 * Use o botão Comentário no email para navegar de volta para o Workfront e responder à atualização na área Atualizações.
-* Responda ao email recebido. Seu email de resposta foi adicionado como um Workfront
-
-
+* Responda ao email recebido. O email de resposta é adicionado como uma resposta do Workfront ao comentário original.
 
 >[!NOTE]
 >
@@ -46,7 +42,7 @@ Você pode responder ao email do Workfront gerado a partir de comentários feito
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 

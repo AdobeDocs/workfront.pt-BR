@@ -3,47 +3,46 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Desbloquear ou bloquear a configuração de notificações de eventos para todos os grupos
-description: Se você for um administrador do Adobe Workfront, poderá desbloquear ou rebloquear a capacidade de os administradores de grupo configurarem uma notificação de evento para grupos de nível superior que eles gerenciam. A configuração de uma notificação de evento consiste em ativá-la ou desativá-la.
+description: Se você for um administrador do Adobe Workfront, poderá desbloquear ou rebloquear a capacidade de administradores de grupos configurarem uma notificação de eventos para grupos de nível superior que gerenciam. A configuração de uma notificação de evento consiste em ativá-la ou desativá-la.
 author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 325fb9e58d32d1b6cfa1035cd4a25da4b66f6955
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
 
 # Desbloquear ou bloquear a configuração de notificações de eventos para todos os grupos
 
-Se você for um administrador do Adobe Workfront, poderá desbloquear ou rebloquear a capacidade de os administradores de grupo configurarem uma notificação de evento para grupos de nível superior que eles gerenciam. A configuração de uma notificação de evento consiste em ativá-la ou desativá-la.
+Se você for um administrador do Adobe Workfront, poderá desbloquear ou rebloquear a capacidade de administradores de grupos configurarem uma notificação de eventos para grupos de nível superior que gerenciam. A configuração de uma notificação de evento consiste em ativá-la ou desativá-la.
 
-Se houver algum grupo acima do grupo que você gerencia, os administradores também poderão fazer isso para o seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo).
+Se houver algum grupo acima do grupo gerenciado por você, os administradores também poderão fazer isso pelo seu grupo. O mesmo se aplica aos administradores do Workfront (para qualquer grupo).
 
-Quando um administrador configura uma notificação de evento para um grupo, a configuração afeta os usuários para os quais esse grupo, ou um de seus subgrupos, é seu Grupo doméstico. Em seus perfis de usuário, esses usuários visualizam as notificações de eventos ativadas para seu Grupo doméstico, em vez das notificações de eventos ativadas em todo o sistema. Para obter mais informações, consulte [Exibir e configurar notificações de evento para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+Quando um administrador configura uma notificação de evento para um grupo, a configuração afeta os usuários para os quais esse grupo, ou um de seus subgrupos, é o Grupo padrão. Em seus perfis de usuário, esses usuários veem as notificações de evento ativadas para seu Grupo inicial, em vez das notificações de evento ativadas em todo o sistema. Para obter mais informações, consulte [Exibir e configurar notificações de eventos para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
 >[!NOTE]
 >
->* Um administrador do Workfront pode desbloquear e rebloquear a configuração de uma notificação de evento no Adobe Workfront Classic e na nova experiência do Adobe Workfront. Mas um administrador de grupo pode configurar essa notificação de evento para um grupo somente na nova experiência do Adobe Workfront. Os administradores de grupo que usam o Adobe Workfront Classic podem alternar para a nova experiência do Adobe Workfront para configurar notificações de evento desbloqueadas para um grupo e, em seguida, alternar de volta para o Adobe Workfront Classic para ver as alterações em vigor.
->* Os subgrupos herdam as configurações de notificação de eventos no nível do grupo dos grupos de nível superior acima deles.
+>* Um administrador do Workfront pode desbloquear e rebloquear a configuração de uma notificação de evento no Adobe Workfront Classic e na nova experiência do Adobe Workfront. Mas um administrador de grupo pode configurar essa notificação de evento para um grupo somente na nova experiência do Adobe Workfront. Os administradores de grupo que usam o Adobe Workfront Classic podem alternar para a nova experiência do Adobe Workfront para configurar notificações de eventos desbloqueados para um grupo e, em seguida, alternar de volta para o Adobe Workfront Classic para ver as alterações em vigor.
+>* Os subgrupos herdam configurações de notificação de eventos de nível de grupo dos grupos de nível superior acima deles.
 >
-
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td>Qualquer Um</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença Adobe Workfront</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>Plano</td> 
   </tr> 
   <tr> 
@@ -53,25 +52,25 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  </tbody> 
 </table>
 
-## Desbloquear ou rebloquear a capacidade de configurar uma notificação de evento
+## Desbloquear ou bloquear novamente a capacidade de configurar uma notificação de evento
 
 >[!IMPORTANT]
 >
->Ao rebloquear uma notificação, todos os grupos no sistema herdam a notificação exatamente como você a definiu. Isso substitui todas as alterações que os administradores de grupo possam ter feito para seus grupos, então é uma boa ideia consultar-se primeiro.
+>Quando você bloquear novamente uma notificação, todos os grupos no sistema herdarão a notificação exatamente como você a definiu. Isso substitui todas as alterações que os administradores de grupo possam ter feito em seus grupos. Portanto, é uma boa ideia consultar esses grupos primeiro.
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, em seguida, clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
 
-1. Clique em **Email** > **Notificações**.
+1. Clique em **E-mail** > **Notificação**.
 
-1. Certifique-se de que o **Notificações de evento** está aberta.
-1. Clique no ícone à direita da notificação para alterá-lo para o desbloqueado ![](assets/lock-toggle-button.png) ou bloqueado ![](assets/unlock-toggle-button.png) posição.
+1. Verifique se **Notificações de Eventos** está aberta.
+1. Clique no ícone à direita da notificação para alterná-lo para a tag bloqueada ![Ícone Bloquear](assets/lock-toggle-button.png) ou desbloqueado ![Ícone Desbloquear](assets/unlock-toggle-button.png) posição.
 
    Ou
 
-   Se desejar desbloquear ou bloquear várias notificações de uma só vez, selecione-as e clique no botão Desbloquear ![](assets/unlock-icon-toolbar.png) ou Bloquear ![](assets/lock-icon-locked-qs.png) botão que é exibido na barra de ferramentas acima da lista.
+   Para desbloquear ou bloquear várias notificações de uma só vez, selecione-as e, em seguida, clique no botão Desbloquear ![Ícone Desbloquear](assets/unlock-icon-toolbar.png) ou Bloqueio ![Ícone Bloquear](assets/lock-icon-locked-qs.png) botão que é exibido na barra de ferramentas acima da lista.
 
 1. Clique em **Salvar**.
-1. (Opcional) Se você quiser configurar a notificação de evento para um grupo de nível superior em vez de deixar essa tarefa para o administrador do grupo, é possível fazer um dos seguintes procedimentos:
+1. (Opcional) Se quiser configurar a notificação de eventos para um grupo de nível superior, em vez de deixar essa tarefa para o administrador do grupo, você pode executar um dos seguintes procedimentos:
 
-   * Excluir **Notificações de evento do sistema** na caixa de pesquisa acima da lista de notificações, procure e selecione o nome do grupo de nível superior para listar suas notificações e, em seguida, ative ou inative as notificações desbloqueadas na lista exibida.
-   * Clique em **Grupos** no menu à esquerda, clique no nome do grupo de nível superior. Clique em **Notificações de evento** no painel esquerdo, em seguida, configure a notificação de evento desbloqueado, como explicado em [Exibir e configurar notificações de evento para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+   * Excluir **Notificações de Eventos do Sistema** na caixa pesquisar acima da lista de notificações, procure e selecione o nome do grupo de nível superior para listar suas notificações e, em seguida, ative ou desative as notificações desbloqueadas na lista exibida.
+   * Clique em **Grupos** no menu esquerdo, em seguida, clique no nome do grupo de nível superior. Clique em **Notificações de Eventos** no painel esquerdo e configure a notificação de evento desbloqueada, conforme explicado em [Exibir e configurar notificações de eventos para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
