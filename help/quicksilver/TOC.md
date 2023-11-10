@@ -3,7 +3,7 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: adce227ab7108409195be56ace27f533a926268b
+source-git-commit: 6f9eddd46430990e11d5d661ea09f0595a9acebc
 workflow-type: tm+mt
 source-wordcount: '13392'
 ht-degree: 1%
@@ -729,7 +729,7 @@ ht-degree: 1%
          * [Gerenciar objetos de grupo](administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
          * [Gerenciar empresas do grupo](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md)
          * [Gerenciar modelos de layout de grupo](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
-         * [Gerenciar projetos de grupo](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md)
+         * [Gerenciar portfólios de grupos](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md)
          * [Gerenciar programas do grupo](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md)
          * [Gerenciar equipes de grupo](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md)
          * [Gerenciar processos de aprovação de grupo](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md)
