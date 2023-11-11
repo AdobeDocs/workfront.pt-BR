@@ -4,10 +4,10 @@ description: É possível exibir a integridade do [!DNL Workfront] incluindo inc
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ Você pode exibir as atualizações de status na [!DNL Adobe] Status do site.
 
    Ou
 
-   Tipo [status.adobe.com](http://status.adobe.com/) no navegador para acessar o site Status.
+   Tipo [status.adobe.com](https://status.adobe.com/pt/) no navegador para acessar o site Status.
 
 1. Selecionar **[!UICONTROL Experience Cloud]**.
 1. Role para baixo e selecione **[!UICONTROL Adobe Workfront]** da lista de soluções.
@@ -41,7 +41,7 @@ Você pode exibir as atualizações de status na [!DNL Adobe] Status do site.
 
 Para se inscrever no site Status ou gerenciar sua inscrição depois de já ter se inscrito:
 
-1. Ir para [status.adobe.com](http://status.adobe.com/).
+1. Ir para [status.adobe.com](https://status.adobe.com/pt/).
 1. Na barra de status, selecione **[!UICONTROL Gerenciar assinaturas]**.
 1. Se você tiver uma conta existente, faça logon nela; caso contrário, crie uma nova conta.
 1. Clique em **[!UICONTROL Criar assinaturas]** botão.

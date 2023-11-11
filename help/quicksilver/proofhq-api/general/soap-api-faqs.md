@@ -6,7 +6,7 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 0%
@@ -57,9 +57,9 @@ Não é necessário obter uma nova ID de sessão antes de cada chamada para a AP
 
 ## O que é uma prova/URL pessoal?
 
-**Equipe/Público**: cada versão de prova tem um URL de equipe (público) exclusivo. Se ativado, abrirá a prova no modo somente leitura. Você pode obter o URL da equipe usando o [getProofURL()](http://api.proofhq.com/home/proofs/getproofurl) método.
+**Equipe/Público**: cada versão de prova tem um URL de equipe (público) exclusivo. Se ativado, abrirá a prova no modo somente leitura. Você pode obter o URL da equipe usando o [getProofURL()](https://api.proofhq.com/home/proofs/getproofurl.html) método.
 
-**Pessoal**: um URL pessoal é exclusivo para cada revisor e versão de prova. Se um conjunto de prova tiver 3 versões e um revisor estiver em todas as versões, o revisor terá 3 URLs pessoais exclusivos. Um URL pessoal abre a versão de prova com o revisor já identificado e, portanto, deve ser mantido seguro e não compartilhado. URLs pessoais podem ser obtidos ao chamar o [getProofReviewed()](http://api.proofhq.com/home/proofs/getproofreviewers) e, em seguida, iterando sobre cada  [SOAPReccipentObject](http://api.proofhq.com/home/objects/soaprecipientobject) e obter o parâmetro &quot;proof_url&quot;.
+**Pessoal**: um URL pessoal é exclusivo para cada revisor e versão de prova. Se um conjunto de prova tiver 3 versões e um revisor estiver em todas as versões, o revisor terá 3 URLs pessoais exclusivos. Um URL pessoal abre a versão de prova com o revisor já identificado e, portanto, deve ser mantido seguro e não compartilhado. URLs pessoais podem ser obtidos ao chamar o [getProofReviewed()](https://api.proofhq.com/home/proofs/getproofreviewers.html) e, em seguida, iterando sobre cada  [SOAPReccipentObject](https://api.proofhq.com/home/objects/soaprecipientobject.html) e obter o parâmetro &quot;proof_url&quot;.
 
 ## >Como incluir parâmetros personalizados ao abrir a miniprova?
 
@@ -71,5 +71,5 @@ Por exemplo, o URL de miniprova
 
 ## Como criar um cliente de serviço Web Java?
 
-[Este vídeo](http://screencast.com/t/xsSNrqs5b) A mostra como criar um cliente de serviço Web Java usando o Eclipse e a definição Workfront Proof WSDL.
+[Este vídeo](https://screencast.com/t/xsSNrqs5b) A mostra como criar um cliente de serviço Web Java usando o Eclipse e a definição Workfront Proof WSDL.
 

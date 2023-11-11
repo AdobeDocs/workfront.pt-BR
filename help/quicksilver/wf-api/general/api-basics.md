@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '4475'
 ht-degree: 0%
@@ -95,7 +95,7 @@ A autenticação é realizada transmitindo uma ID de sessão que pode ser fornec
 
 #### Solicitar autenticação de cabeçalho
 
-O método preferido de autenticação é passar um cabeçalho de solicitação chamado SessionID contendo o token de sessão. Isso tem a vantagem de ser seguro contra [Falsificação de solicitação entre sites (CSRF)](http://en.wikipedia.org/wiki/Cross-site_request_forgery) ataques e não interferir no URI para fins de armazenamento em cache.
+O método preferido de autenticação é passar um cabeçalho de solicitação chamado SessionID contendo o token de sessão. Isso tem a vantagem de ser seguro contra [Falsificação de solicitação entre sites (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) ataques e não interferir no URI para fins de armazenamento em cache.
 
 Veja a seguir um exemplo de um cabeçalho de solicitação:
 

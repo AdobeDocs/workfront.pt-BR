@@ -3,58 +3,58 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 'Exportar dados históricos do Adobe Workfront: Prós e contras'
-description: Este artigo explica os prós e contras de 4 opções que podem ser usadas para exportar dados históricos do Workfront.
+title: "Exportar dados históricos do Adobe Workfront: prós e contras"
+description: Este artigo explica os prós e contras de quatro opções que você pode usar para exportar dados históricos do Workfront.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: f3af39e760b2b407cda5ab78497cdc775defdcf6
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
-# Exportar dados históricos de [!DNL Adobe Workfron]t: Prós e contras
+# Exportar dados históricos do [!DNL Adobe Workfron]t: Vantagens e desvantagens
 
-Este artigo explica os prós e contras de 4 opções que podem ser usadas para exportar dados históricos de [!DNL Workfront].
+Este artigo explica os prós e contras de 4 opções que você pode usar para exportar dados históricos do [!DNL Workfront].
 
-## Usar um de nossos parceiros
+## Use um de nossos parceiros
 
-[!DNL AtAppStore], a [!DNL Workfront] parceiro certificado, tem um aplicativo fácil de usar que permite baixar os dados. Este aplicativo também inclui um visualizador que permite que você visualize seus dados facilmente.
+[!DNL AtAppStore], um [!DNL Workfront] parceiro certificado, tem um aplicativo fácil de usar que permite baixar seus dados. Esse aplicativo também inclui um visualizador que permite visualizar facilmente seus dados.
 
-* **Vantagens:** Todos os seus [!DNL Workfront] são exportados, incluindo os campos personalizados. A interface do Visualizador é fácil de usar e ler, e é facilmente importante em um [!DNL MS Access] Banco de dados.
+* **Vantagens:** Todos os seus [!DNL Workfront] objetos são exportados, incluindo os campos personalizados. A interface do Visualizador é fácil de usar e ler, e é facilmente importável em uma [!DNL MS Access] Banco de dados.
 
-* **Desvantagens:** Os documentos não são exportados. Você terá que baixá-los separadamente. Para obter mais informações, acesse [http://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx.](http://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx)
+* **Desvantagens:** Os documentos não são exportados. Você terá que baixá-los separadamente. Para obter mais informações, acesse [http://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx.](https://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx)
 
-## Solicitar um [!DNL Postgres] arquivo de despejo de dados da equipe de banco de dados
+## Solicitar um [!DNL Postgres] arquivo de despejo de dados da nossa equipe do banco de dados
 
-Seu Executivo de Conta pode enviar uma solicitação para nossa equipe de Banco de Dados para exportar um arquivo de despejo de banco de dados (.dmp [!DNL Postgres] com seus dados. Uma solicitação adicional será enviada à equipe do AOS para recuperar todos os documentos armazenados.
+Seu Executivo de contas pode enviar uma solicitação à nossa equipe do banco de dados para exportar um arquivo de despejo de banco de dados (.dmp) [!DNL Postgres] arquivo) com seus dados. Uma solicitação adicional será enviada para nossa equipe do AOS para recuperar todos os documentos armazenados.
 
-* **Prós**: Você recebe todo o carregamento de dados, incluindo campos personalizados, bem como documentos armazenados no sistema.
+* **Vantagens**: você obtém toda a sua carga de dados, incluindo campos personalizados, bem como documentos que são armazenados no sistema.
 
-* **Desvantagens**: O arquivo de banco de dados é difícil de ler: não há como ler esse arquivo a menos que você o carregue para um [!DNL Postgres] banco de dados e restabelecer as relações entre as tabelas. Os documentos são armazenados em um servidor de arquivos separado e devem ser extraídos separadamente usando um processo separado pela equipe do AOS. Ao fazer isso, não há organização nos documentos e todos eles são referenciados pelo GUID.
-* **Custo**: Há um custo associado a esse download, dependendo de quanto tempo a equipe leva para criar o arquivo. Consulte o AEM/CAE para obter mais informações ou iniciar esse processo.
+* **Contras**: O arquivo do banco de dados é difícil de ler: não há como ler esse arquivo, a menos que você o carregue em um [!DNL Postgres] banco de dados e restabeleça as relações entre as tabelas. Os documentos são armazenados em um servidor de arquivos separado e devem ser extraídos separadamente usando um processo separado pela equipe do AOS. Ao fazer isso, não há organização para os documentos e todos são referenciados por seu GUID.
+* **Custo**: Esse download tem um custo associado a cada download, dependendo do tempo que a equipe leva para criar o arquivo. Consulte seu AE/CAE para obter mais informações ou para iniciar esse processo.
 
-## Exportar via [!UICONTROL Primeiros Passos]
+## Exportar via [!UICONTROL Início]
 
-Se você tiver horário de consultoria remota ou não, poderá usar um de nossos consultores para exportar seus dados na forma de relatórios ou [!UICONTROL início]ou você mesmo pode executar esses relatórios:
+Independentemente de você ter horas de consultoria remota ou não, você pode usar um de nossos consultores para exportar seus dados na forma de relatórios ou [!UICONTROL kick-starts], ou você mesmo poderá executar esses relatórios:
 
-* **Prós**: Os relatórios são fáceis de ler e podem ser importados numa variedade de aplicações; eles podem ser personalizados para incluir agrupamentos e exibições desejados.
+* **Vantagens**: os relatórios são fáceis de ler e podem ser importados para vários aplicativos; eles podem ser personalizados para incluir qualquer agrupamento e exibição que você desejar.
 
-* **Desvantagens**: Os documentos terão de ser descarregados separadamente.
+* **Contras**: os documentos terão que ser baixados separadamente.
 
-* **Custo**: É gratuito se você puder executar os relatórios por conta própria (tudo o que você precisaria é um logon de administrador do sistema) ou se poderá usar as horas restantes de consultoria remota. Se você estiver interessado em adquirir consultoria remota para isso, entre em contato com o AEM/CAE.
+* **Custo**: é gratuito se você puder executar os relatórios sozinho (basta um logon de administrador do sistema) ou se puder usar as horas restantes de consultoria remota. Se você estiver interessado em adquirir consultoria remota para isso, entre em contato com seu AE/CAE.
 
-   Para obter mais informações sobre como usar o Kick-Starts para exportar dados, consulte [Exportar dados de [!DNL Adobe Workfront] via [!UICONTROL Primeiros Passos]](../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+  Para obter mais informações sobre como usar o Kick-Starts para exportar dados, consulte [Exportar dados de [!DNL Adobe Workfront] via [!UICONTROL Início]](../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
-## Usar nossa API aberta
+## Use nossa API aberta
 
-se você tiver os recursos certos em sua organização, eles poderão criar uma API personalizada para recuperar todos os seus dados do Workfront:
+se você tiver os recursos certos em sua organização, eles poderão criar uma API personalizada para recuperar todos os dados da Workfront:
 
-* **Prós**: Você está controlando quais exportações do sistema.
+* **Vantagens**: você controla quais exportações do sistema.
 
-* **Desvantagens**: O tempo é gasto do seu lado e você terá que encontrar recursos para codificar a API e executar a exportação.
+* **Contras**: o tempo é gasto no seu lado e você terá que encontrar recursos para codificar a API e executar a exportação.
 
-* **Custo**: Interno para sua organização.
+* **Custo**: interno da sua organização.

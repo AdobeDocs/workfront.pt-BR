@@ -9,7 +9,7 @@ description: Você pode usar o módulo SOAP para se conectar a APIs SOAP no Adob
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
-source-git-commit: e61dc6646e221cffb30aad055663dcf8fd3299e2
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 1%
@@ -68,7 +68,7 @@ A variável [!UICONTROL SOAP] no momento, o módulo está na versão beta e não
 * Restrições de dígitos totais
 * Restrições de espaço em branco
 * Várias partes nas mensagens de entrada e saída. Somente mensagens de parte única são suportadas
-* Elementos personalizados do esquema XML definidos com a ajuda de [[!UICONTROL SOAP] Codificação](http://schemas.xmlsoap.org) esquemas e elementos.
+* Elementos personalizados do esquema XML definidos com a ajuda de [[!UICONTROL SOAP] Codificação](https://schemas.xmlsoap.org) esquemas e elementos.
 
 >[!INFO]
 >

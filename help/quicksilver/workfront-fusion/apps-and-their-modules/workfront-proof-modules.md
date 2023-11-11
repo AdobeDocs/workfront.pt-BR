@@ -9,7 +9,7 @@ description: Em um [!DNL Adobe Workfront Fusion] cenário, é possível automati
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '2934'
 ht-degree: 0%
@@ -310,7 +310,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL ID de Resolução]</td> 
-   <td>Insira a ID da resolução que deseja usar para a prova. Para obter uma lista de IDs de resolução, consulte [!DNL Workfront Proof] <a href="http://api.proofhq.com/home/objects/soapworkflowproofobject">Documentação da API</a>.</td> 
+   <td>Insira a ID da resolução que deseja usar para a prova. Para obter uma lista de IDs de resolução, consulte [!DNL Workfront Proof] <a href="https://api.proofhq.com/home/objects/soapworkflowproofobject.html">Documentação da API</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL SWF]</td> 
@@ -428,7 +428,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   </tr> 
   <tr> 
    <td>[!UICONTROL ID]</td> 
-   <td>Insira ou mapeie o único [!DNL Workfront Proof] ID do registro que você deseja que o módulo leia.</td> 
+   <td>Insira ou mapeie o [!DNL Workfront Proof] ID do registro que você deseja que o módulo leia.</td> 
   </tr> 
  </tbody> 
 </table>
