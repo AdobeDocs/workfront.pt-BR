@@ -8,14 +8,14 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 76ac1f4e-8323-45d1-81f3-6a07e4e2e080
-source-git-commit: deb63ca8c53719a98379bbd63caf686e2232b6b4
+source-git-commit: 0ca141d790df70894498d0bb35deb0e24db4e698
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 1%
 
 ---
 
-# Criar e modificar os projetos de um grupo
+# Criar e modificar os portfólios de um grupo
 
 Ao visualizar um grupo gerenciado na área Grupos, você pode visualizar e trabalhar com seus portfólios.
 
