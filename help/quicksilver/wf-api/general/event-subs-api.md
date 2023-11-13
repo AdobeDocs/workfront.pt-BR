@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 7f11ddf290c24ac3436ea98f14eff1338388f314
+source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '2123'
-ht-degree: 3%
+source-wordcount: '2126'
+ht-degree: 4%
 
 ---
 
@@ -70,6 +70,7 @@ Os seguintes objetos do Workfront são suportados por assinaturas de evento.
 * Modelo
 * Planilha de horas
 * Usuário
+* Espaço de trabalho
 
 Para obter uma lista de campos suportados por objetos de assinatura de evento, consulte [Campos de recurso de assinatura do evento](../../wf-api/api/event-sub-resource-fields.md).
 
@@ -179,6 +180,10 @@ O recurso de assinatura contém os seguintes campos.
        <tr> 
         <td scope="col">Usuário</td> 
         <td scope="col">USUÁRIO</td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Espaço de trabalho</td> 
+        <td scope="col">WORKSPACE</td> 
        </tr> 
       </tbody> 
      </table>
