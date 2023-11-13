@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 45b42fe8-7ce3-441d-8fbc-b8db7f9b254e
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: acc7414a9c6eef838147aee675603b6cc2566fb9
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,12 @@ https://<domainname>.my.workfront.com/attask/api/api-internal/proj/4c70…
 O exemplo a seguir mostra um URI que chama API-Unsupported:
 
 ```
-https://<domainname>.my.workfront.com/attask/api/api-unsupported/proj/4c70...
+https://<domainname>.my.workfront.com/attask/api-unsupported/proj/4c70...
 ```
+
+>[!NOTE]
+>
+>Chamadas de API não suportadas omitem o `/api` seção do URL.
 
 O exemplo a seguir mostra um URI que chama a Versão 15.0 da API:
 
