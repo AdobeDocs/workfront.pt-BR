@@ -6,9 +6,9 @@ description: Você pode personalizar quais campos são exibidos em um cartão de
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 0beb96dc3869e6f913d87f699aa9a51c5aaa8f79
+source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 Campos personalizados estão disponíveis em cartões conectados. Eles só são visíveis na exibição de cartão completo, não na exibição condensada no quadro.
 
->[!NOTE]
->
->Ao adicionar um campo personalizado a seus cartões, os dados no cartão são somente leitura.
+Os dados em campos personalizados podem ser editados no cartão, embora alguns elementos personalizados possam estar disponíveis apenas para edição no campo original e não no cartão.
 
 1. Acesse um quadro e clique em [!UICONTROL **Configurar**] para abrir o painel Configurar.
 1. Expandir [!UICONTROL **Cartões**].
