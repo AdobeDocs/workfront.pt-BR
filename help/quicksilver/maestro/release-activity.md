@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
 source-wordcount: '2030'
 ht-degree: 0%
@@ -35,6 +35,30 @@ Os recursos lançados são listados na ordem de lançamento, com o mais recente 
 Esta seção lista os recursos e patches que foram lançados após o lançamento do programa beta fechado do Maestro, em 22 de maio de 2023.
 
 Os recursos são lançados semanalmente e são listados na ordem de lançamento, com o mais recente primeiro. Os clientes que estão participando do programa beta fechado Maestro podem acessar todos os recursos em seus ambientes de Pré-visualização e Produção.
+
+<!--
+## Week of November 13, 2023
+
+### Maestro permissions for users and groups
+
+Preview and production: November 16, 2023
+
+You can now share a workspace with users and groups and set their permissions to different levels, depending on what information they need to view or edit in a Maestro workspace.  
+
+The following are the permissions levels for Maestro workspaces:  
+
+No permissions: Users cannot access any workspaces in Maestro, even if the Maestro area is shared with them through a layout template. 
+
+View permissions: Users can view workspaces that are shared with them. They can also view record types, and records from the shared workspace. 
+
+Contribute permissions: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces ones shared with them.  
+
+Manage permissions: Users can create, edit, and delete record types, records, and fields in workspaces that are shared with them. They cannot create workspaces.  
+
+Only Workfront administrators can create, edit, or delete workspaces and all information associated with them. They also can add users and groups with various permission levels to Maestro workspaces.  
+ 
+
+For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md). -->
 
 ## Semana de 6 de novembro de 2023
 

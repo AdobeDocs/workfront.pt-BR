@@ -6,9 +6,9 @@ description: É possível adicionar comentários a todas as metas que você pode
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -120,16 +120,28 @@ Você deve ter o seguinte antes de iniciar:
 
 * Um Modelo de layout que inclui a área Metas no Menu principal.
 
-## Localize a seção Atualizações
+## Gerenciar comentários da meta
 
 Você pode adicionar comentários às metas na seção Atualizações da página de uma meta.
 
 Você pode responder ou curtir um comentário que você ou outras pessoas adicionaram nesta área.
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) > **Metas** no canto superior direito.
+1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito, ou na guia **Menu principal** ícone ![](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, clique em **Metas**.
 Isso abre a lista de metas.
 1. Localize a meta à qual deseja adicionar comentários e clique no nome dela para abrir a página de metas.
 1. Clique em  **Atualizações** no painel esquerdo.
+<!--
+1. (Optional) To locate an existing comment, start typing a keyword or a user's name in the **Search** box in the upper-right corner of the Updates section. You can search for comment owner's names or for users who are tagged on comments. 
+
+   ![](assets/search-field-in-updates-tab-goals.png)
+
+   The keyword or user you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+
+      >[!TIP]
+      >
+      >   Searching for a comment is not available for system activity updates. -->
+
+1. Clique em **x** no campo de pesquisa para limpar os resultados da pesquisa e retornar ao resumo completo.
 1. Clique em **Comentários** no canto superior esquerdo da área Atualizações.
 1. Comece a inserir um comentário no **Novo comentário** caixa.
 
@@ -159,7 +171,7 @@ Isso abre a lista de metas.
    >O indicador só é exibido depois que o comentário foi enviado sobre o item, e não quando o comentário ainda está composto.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. (Opcional) Para editar um comentário, **Mais** menu ![](assets/more-icon.png) à direita do ícone Curtir e, em seguida, clique em **Editar**.
+1. Para editar um comentário, clique no link **Mais** menu ![](assets/more-icon.png) à direita do ícone Curtir e, em seguida, clique em **Editar**.
 1. Edite as informações no comentário, adicione ou remova imagens ou remova qualquer um dos usuários marcados.
 Você pode editar seu comentário dentro de 15 minutos a partir do envio. Um indicador &quot;editado&quot; é adicionado à esquerda do carimbo de data que é exibido quando o comentário é atualizado.
 

@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 6f9eddd46430990e11d5d661ea09f0595a9acebc
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '13392'
+source-wordcount: '13399'
 ht-degree: 1%
 
 ---
@@ -2012,6 +2012,7 @@ ht-degree: 1%
    * Acesso Adobe Maestri {#adobe-maestro-access}
       * [Acessar informações](maestro/access/access-information.md)
       * [Visão geral do Access](maestro/access/access-overview.md)
+      * [Visão geral das permissões de compartilhamento no Adobe Maestro](maestro/access/sharing-permissions-overview.md)
       * [Conceder acesso ao Adobe Maestro](maestro/access/grant-access.md)
    * Registros do Adobe Maestro {#adobe-maestro-records}
       * [Informações de registros](maestro/records/records-information.md)

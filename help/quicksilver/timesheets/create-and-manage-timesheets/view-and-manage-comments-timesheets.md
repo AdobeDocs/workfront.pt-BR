@@ -6,9 +6,9 @@ description: Você pode fazer comentários nas folhas de horas, nos itens de tra
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,12 @@ Você pode fazer comentários gerais sobre a planilha de horas.
 
 1. Clique em **Planilhas de Horas**.
 1. Vá para a planilha de horas na qual deseja fazer um comentário.
-1. Clique em **Atualizações** no painel esquerdo, verifique se **Comentários** for selecionada e comece a inserir uma atualização no campo **Novo comentário** caixa.
+1. Clique em **Atualizações** no painel esquerdo, clique na guia **Comentários** guia.
+<!--
+1. (Optional) Start typing a keyword or a the name of a user associated with a comment in the **Search** field, in the upper-right corner of the Comments tab. 
+
+   If found, the keyword or user you searched for is highlighted and the comments associated with them display at the top of the Comments tab. -->
+1. Insira uma atualização no **Novo comentário** caixa.
 1. (Opcional) Adicione pessoas ou equipes no **Marcar pessoas ou equipes** para incluir outras pessoas em sua atualização. Para obter mais informações, consulte [Marcar outros usuários em atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Opcional) Adicione a formatação Rich Text ao comentário. Para obter mais informações, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Selecione a **Privativo(s) de minha empresa** opção se quiser que apenas as pessoas da sua empresa vejam a atualização.
