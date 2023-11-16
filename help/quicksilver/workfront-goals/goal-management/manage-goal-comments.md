@@ -6,9 +6,9 @@ description: É possível adicionar comentários a todas as metas que você pode
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,16 @@ ht-degree: 0%
 
 <!--consider retiring this article when goals and all objects are in parity - after the new commenting experience goes to production GA-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. </span>
+
+<span class="preview">Para obter informações sobre a programação de lançamento atual, consulte [Visão geral da versão do primeiro trimestre de 2024](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+<!--
+After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+-->
 
 É possível adicionar comentários a todas as metas que você pode exibir no Adobe Workfront Goals.
 
@@ -130,16 +139,13 @@ Você pode responder ou curtir um comentário que você ou outras pessoas adicio
 Isso abre a lista de metas.
 1. Localize a meta à qual deseja adicionar comentários e clique no nome dela para abrir a página de metas.
 1. Clique em  **Atualizações** no painel esquerdo.
-<!--
-1. (Optional) To locate an existing comment, start typing a keyword or a user's name in the **Search** box in the upper-right corner of the Updates section. You can search for comment owner's names or for users who are tagged on comments. 
+1. <span class="preview">(Opcional) Para localizar um comentário existente, comece digitando uma palavra-chave <!--or a user's name--> no **Pesquisar** no canto superior direito da caixa **Comentários** guia. </span>
 
-   ![](assets/search-field-in-updates-tab-goals.png)
+   <span class="preview">![](assets/search-field-in-updates-tab-goals.png)</span>
 
-   The keyword or user you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+   <span class="preview">A palavra-chave <!--or user--> pesquisado for realçado e os comentários que o contêm serão exibidos na parte superior da seção Atualizações. </span>
 
-      >[!TIP]
-      >
-      >   Searching for a comment is not available for system activity updates. -->
+   Para obter mais informações, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
 
 1. Clique em **x** no campo de pesquisa para limpar os resultados da pesquisa e retornar ao resumo completo.
 1. Clique em **Comentários** no canto superior esquerdo da área Atualizações.

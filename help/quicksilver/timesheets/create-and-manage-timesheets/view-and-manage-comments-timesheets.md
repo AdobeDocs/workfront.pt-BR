@@ -6,9 +6,9 @@ description: Você pode fazer comentários nas folhas de horas, nos itens de tra
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -76,28 +76,23 @@ Os comentários são exibidos sob o item onde a entrada de hora e o comentário 
 
 ### Comentar na planilha de horas geral {#comment-on-the-overall-timesheet}
 
-Você pode fazer comentários gerais sobre a planilha de horas.
+Você pode fazer comentários gerais sobre a planilha de horas. Comentar na folha de horas geral é semelhante a comentar em outros objetos.
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
+1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito, ou na guia **Menu principal** ícone ![](assets/lines-main-menu.png) no canto superior esquerdo ou no Workfront, se disponível.
 
 1. Clique em **Planilhas de Horas**.
 1. Vá para a planilha de horas na qual deseja fazer um comentário.
 1. Clique em **Atualizações** no painel esquerdo, clique na guia **Comentários** guia.
-<!--
-1. (Optional) Start typing a keyword or a the name of a user associated with a comment in the **Search** field, in the upper-right corner of the Comments tab. 
-
-   If found, the keyword or user you searched for is highlighted and the comments associated with them display at the top of the Comments tab. -->
-1. Insira uma atualização no **Novo comentário** caixa.
+1. Comece a adicionar novos comentários ou responder aos existentes, conforme descrito em [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Adicione pessoas ou equipes no **Marcar pessoas ou equipes** para incluir outras pessoas em sua atualização. Para obter mais informações, consulte [Marcar outros usuários em atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-1. (Opcional) Adicione a formatação Rich Text ao comentário. Para obter mais informações, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Selecione a **Privativo(s) de minha empresa** opção se quiser que apenas as pessoas da sua empresa vejam a atualização.
 1. Digite seu comentário e clique em **Enviar**.
 
-   Seu comentário é exibido no campo [!UICONTROL Atualizações] seção da folha de horas.
+   Seu comentário é exibido no campo [!UICONTROL Atualizações] seção da folha de horas, na guia Comentários.
 
 1. (Opcional) Clique no link **Atividade do sistema** para analisar atualizações geradas pelo sistema.
 
-   Para obter mais informações, consulte a seção &quot;Ativar ou desativar atualizações do sistema&quot; no artigo [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Para obter mais informações, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ### Comentar em uma entrada de hora individual em uma folha de horas {#comment-on-an-individual-hour-entry-in-a-timesheet}
 

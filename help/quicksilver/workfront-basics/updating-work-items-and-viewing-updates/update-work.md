@@ -6,22 +6,20 @@ description: Você pode adicionar uma atualização em um objeto do Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: fd876089c964d57224452023b4656cd6df40b5a3
+source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '3985'
+source-wordcount: '4005'
 ht-degree: 1%
 
 ---
 
 # Atualizar trabalho
 
-
-
-<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
 
 <span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. </span>
 
-<span class="preview">Para obter informações sobre a programação de lançamento atual, consulte [Visão geral da versão do primeiro trimestre de 2024](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)</span>
+<span class="preview">Para obter informações sobre a programação de lançamento atual, consulte [Visão geral da versão do primeiro trimestre de 2024](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
 
 <!--
 After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
@@ -83,7 +81,7 @@ After the monthly releases to Production, the same features are also available i
 
 * Você pode adicionar comentários a objetos do Workfront de outros aplicativos integrados ao Workfront ou do aplicativo móvel Workfront.
 
-  Nem todos os aplicativos integrados ao Workfront têm a capacidade de adicionar comentários a objetos do Workfront.
+  Nem todos os aplicativos integrados ao Workfront podem adicionar comentários a objetos do Workfront.
 
   Nem todos os recursos disponíveis na seção Atualizações de um objeto no Workfront estão disponíveis em outros aplicativos, ao acessar objetos do Workfront pelo aplicativo. Por exemplo, os recursos de Rich Text ou tornar um comentário privado para a Empresa de alguém podem não estar disponíveis ao adicionar comentários a um objeto do Workfront a partir de um aplicativo de terceiros.
 
@@ -234,7 +232,7 @@ Adicionar uma atualização a um item de trabalho difere dependendo da versão d
 
    >[!NOTE]
    >
-   >Uma pequena janela pop-up será exibida por sete segundos após clicar em **Atualizar**, permitindo que você desfaça a atualização e retorne ao painel de edição antes que a atualização seja publicada. A atualização será publicada se você ignorar a janela pop-up desfazer, esperar que ela desapareça ou sair da página.
+   >Uma pequena janela pop-up será exibida por sete segundos após clicar em **Atualizar**, permitindo que você desfaça a atualização e retorne ao painel de edição antes que a atualização seja publicada. A atualização é publicada se você ignorar a janela pop-up desfazer, esperar que ela desapareça ou sair da página.
    >
    >Se o administrador do Workfront selecionar a configuração &quot;Nunca permitir que os usuários excluam comentários&quot; no seu nível de acesso, não será possível desfazer um comentário. Para obter mais informações, consulte [Criar e modificar níveis de acesso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -263,7 +261,7 @@ Adicionar uma atualização a um item de trabalho difere dependendo da versão d
 
    >[!TIP]
    >
-   >Se outro usuário enviar um comentário para o mesmo item que você está atualizando, haverá uma linha vermelha com um indicador &quot;Novo&quot; para informá-lo dos comentários mais recentes.
+   >Se outro usuário enviar um comentário para o mesmo item que você está atualizando, há uma linha vermelha com um indicador &quot;Novo&quot; para informá-lo sobre os comentários mais recentes.
    >
    >O indicador é exibido somente depois que o comentário foi enviado no item, e não quando o comentário ainda está composto.
    >
@@ -290,7 +288,7 @@ Adicionar uma atualização a um item de trabalho difere dependendo da versão d
    >
    >* Um email é gerado para notificar os usuários sobre sua atualização somente quando você envia a atualização original. Nenhum email é gerado após a edição da atualização.
    >* O carimbo de data ao lado do comentário é a data do comentário original, não a data da última edição.
-   >* Ao postar um comentário em nome de outro usuário (ao fazer logon como outro usuário como Workfront ou administrador de grupo), você não poderá editar o comentário se estiver conectado como o outro usuário. Você pode editar o comentário somente depois de fazer logoff como usuário e logon novamente como você mesmo.
+   >* Quando você adiciona um comentário em nome de outro usuário (ao fazer logon como outro usuário como Workfront ou administrador de grupo), não é possível editar o comentário se você estiver conectado como o outro usuário. Você pode editar o comentário somente depois de fazer logoff como usuário e logon novamente como você mesmo.
 
 
 1. (Opcional) Clique em **Responder** ou comece a digitar um comentário no campo **Adicionar resposta...** para responder a um comentário existente, siga as etapas 4 a 8 acima. <!--(**************insure this stays accurate***********)--> Para obter informações sobre como responder a uma atualização, consulte [Responder a atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
@@ -391,17 +389,18 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
    1. Em **Texto a ser exibido**, digite ou cole o texto do link.
    1. Clique em **Salvar**.
 
-1. (Opcional) <span class="preview">Para anexar uma imagem à atualização, copie uma captura de tela do computador e clique em **CTRL + V** para Windows (ou **CMD + V** para Mac) para colá-lo no comentário</span>
+1. (Opcional) <span class="preview">Para anexar uma imagem à sua atualização, copie uma captura de tela do computador e cole-a no comentário </span>
 
    Ou
 
-   Clique em **Adicionar imagem** ícone ![](assets/add-image-mountain-with-plus-icon.png) e navegue até a imagem no computador ao usar a nova experiência de comentários.
+   Clique em **Adicionar imagem** ícone ![](assets/add-image-mountain-with-plus-icon.png) e navegue até a imagem no computador.
 
    >[!NOTE]
    >
    >* O administrador do Workfront deve ativar a adição de imagens na seção Preferências de atualização de feeds da área Interface do Workfront antes que você possa ver os ícones de Imagem ou Adicionar anexo. Para obter informações, consulte [Configurar preferências para atualizações de usuário](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* O tamanho máximo do arquivo de imagem é 7 MB. Os tipos de arquivo de imagem compatíveis são .jpg, .gif e .png.
    >* As imagens podem ser acessadas na seção Atualizações em um objeto e também estão disponíveis na área Documentos do Menu principal.
+   >* <span class="preview">Você pode colar a imagem clicando com o botão direito do mouse no novo comentário ou pressionando CTRL + V para Windows (ou CMD + V para Mac) no teclado.</span>
    >* É possível enviar uma atualização com uma imagem e nenhum texto.
    >* Quando você exclui um comentário que contém uma imagem, os seguintes cenários existem, dependendo da experiência escolhida:
    >
@@ -424,13 +423,17 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
 Você pode procurar um comentário ou uma resposta na seção Atualizações de um objeto.
 
 1. Vá para a **Atualizações** seção de um objeto.
-1. Comece a digitar uma palavra-chave <!--or a user's name--> no **Pesquisar** no canto superior direito da seção Atualizações. <!--You can search for comment owner's names or for users who are tagged on comments. -->
+1. Comece a digitar uma palavra-chave <!--or a user's name --> no **Pesquisar** no canto superior direito da caixa **Comentários** guia.
+
+   <!--Add this tip when it'll be possible: You can search for users who have been tagged or for comment owners.-->
 
    ![](assets/search-field-in-updates-tab.png)
 
    A palavra-chave <!--or user--> pesquisado for realçado e os comentários que o contêm serão exibidos na parte superior da seção Atualizações.
 
-1. Clique em **x** no campo de pesquisa para limpar os resultados da pesquisa e retornar ao resumo completo.
+   O Workfront pesquisa todo o fluxo de atualização do objeto, fora dos comentários que estão visíveis na tela.
+
+1. Clique em **x** no campo de pesquisa para limpar os resultados da pesquisa e retornar a todos os comentários.
 
 </div>
 
