@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: bc9d47dddacf82b352ed4dbfe8e57861859d752b
+source-git-commit: 81a9f33f5707e37a62a81546b9249410ded23ab5
 workflow-type: tm+mt
-source-wordcount: '2609'
-ht-degree: 7%
+source-wordcount: '2642'
+ht-degree: 6%
 
 ---
 
@@ -186,7 +186,7 @@ Para exportar um modelo do Kickstart:
       <td> <p> Problema</p> <p>Preferências </p> </td> 
      </tr> 
      <tr> 
-      <td>Função de trabalho</td> 
+      <td>Função no trabalho</td> 
       <td>Exporta como arquivo do Excel</td> 
       <td> <p> Função de trabalho</p> <p>Preferências </p> </td> 
      </tr> 
@@ -300,6 +300,7 @@ Quando você abre uma dessas guias, a linha 2 exibe os campos para cada objeto q
 >
 >  Por exemplo, no campo **Projeto PROJ** , a guia **setCondition** e **setConditionType** os campos podem ficar vazios, mas a variável **setGroupID** e **setName** colunas não podem.
 >
+>* Determinados domínios, incluindo **setResourceRevenue** e **setEnteredByID**, são gerados automaticamente pelo sistema. Se você inserir dados para esses campos na planilha, o processo de início os substituirá quando você fizer upload da planilha.
 
 ### Importar um registro  {#import-a-record}
 
