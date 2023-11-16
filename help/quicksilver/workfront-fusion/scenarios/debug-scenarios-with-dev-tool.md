@@ -7,9 +7,9 @@ description: O Adobe Workfront Fusion Devtool permite compreender e solucionar p
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 28ca9bab8d6a5aed395dc3297eb62912ebb506c7
+source-git-commit: 27117543df0d2ba0a5c5035c71a3105d7a855345
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1845'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Se você usar o Fusion no Unified Shell do Adobe, poderá acessar a Ferramenta d
 
 >[!NOTE]
 >
->Atualmente, apenas o **Live Stream** área do Devtool está disponível para usuários no Unified Shell.
+>Atualmente, apenas o **Live Stream** e **Depurador de cenários** As áreas do Devtool estão disponíveis para usuários na Experiência unificada. A variável **Ferramentas** No momento, a área não está disponível na Experiência unificada.
 
 ### Acessar o Devtool no clássico [!DNL Fusion] experiência
 
@@ -193,6 +193,10 @@ O Depurador de cenários é útil para cenários mais complexos. Ele exibe o his
 1. Exibir detalhes da solicitação clicando na operação desejada.
 
 ### Ferramentas
+
+>[!NOTE]
+>
+>No momento, essa área não está disponível para usuários no Adobe Unified Experience.
 
 A variável [!DNL Workfront Fusion] Devtool possui ferramentas que tornam a configuração do seu cenário mais fácil.
 
