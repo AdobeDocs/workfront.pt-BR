@@ -6,14 +6,16 @@ description: Como revisor, você pode visualizar um documento que foi enviado a 
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 803dccc3ede32cd2f74eb4646fb5b054b5bcc78e
+source-git-commit: 9a5780010e32526282255dd8a54e6ae22c5f0c55
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
 
 # Revisar um documento
+
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente Visualização da sandbox.</span>
 
 Como revisor, você pode exibir um documento enviado a você para revisão. Ao contrário de uma aprovação, você não toma uma decisão. Em vez disso, você confirma que revisou o ativo.
 
@@ -70,7 +72,7 @@ Add once functionality is added
    Clique em **Baixar** para baixar uma cópia local do documento no seu dispositivo.
 
 1. (Opcional) Depois de revisar o documento, você pode deixar um comentário para o solicitante no **Atualizações** seção. Para obter mais informações sobre comentários, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. Para registrar que você concluiu sua revisão, clique em **Concluir revisão**.
+1. <span class="preview">Para registrar que você concluiu sua revisão, clique em **Concluir revisão**.</span>
 
 ## Revisar um documento no painel Resumo do documento
 
@@ -91,4 +93,4 @@ Add once functionality is added
 1. (Opcional) Depois de revisar o documento, você pode deixar um comentário para o solicitante no **Atualizações** seção. Para obter mais informações sobre comentários, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Opcional) Também é possível visualizar ou baixar uma versão específica do documento rolando até o menu **Versões** do painel Resumo do documento, clicando no ícone Mais ![](../assets/more-icon.png) ao lado da versão que você deseja revisar e selecionar **Baixar** ou **Visualizar**.
-1. Para registrar que você concluiu sua revisão, clique em **Concluir revisão**.
+1. <span class="preview"> Para registrar que você concluiu sua revisão, clique em **Concluir revisão**.</span>
