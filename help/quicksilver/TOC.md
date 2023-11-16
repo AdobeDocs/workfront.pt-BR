@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: a38a512b9d2b1c23e26ee6871076a5ce20ea9794
 workflow-type: tm+mt
-source-wordcount: '13399'
+source-wordcount: '13402'
 ht-degree: 1%
 
 ---
@@ -1774,6 +1774,7 @@ ht-degree: 1%
          * [Criar uma aprovação de documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Adicionar revisores ou aprovadores adicionais a um documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [Remover aprovadores ou revisores de um documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+         * [Status de aprovação de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * Revisar e aprovar documentos {#review-and-approve-documents}
          * [Revisar e aprovar documentos](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
          * [Revisar um documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
