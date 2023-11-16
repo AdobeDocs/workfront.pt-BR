@@ -7,9 +7,9 @@ description: Os seguintes modelos públicos estão disponíveis no Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 12f6d4f261dec50f76b3ecb35e3159900d34bbff
+source-git-commit: 3f07ccb23c6697547742537aa63211ac594c1062
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -26,23 +26,23 @@ Para exibir os modelos disponíveis, clique no link **Modelos** ícone ![](asset
 
 Esses modelos automatizam processos e fluxos de trabalho do Workfront.
 
-### [!BADGE Novo!]{type=Informative}
+### Workfront - Criação de projeto a partir do CSV
 
 Essa automação cria novos projetos no Workfront com base no nome, Portfolio, status, data de início planejada e detalhes do modelo especificados em um CSV.
 
-### [!BADGE Novo!]{type=Informative}
+### Workfront - Solicitações de limpeza sem novas observações nos últimos 30 dias
 
 Use esse modelo para impor uma atualização de nota de 30 dias às suas solicitações. As solicitações não atualizadas em 30 dias recebem o status alterado e fechado em 60 dias.
 
-### [!BADGE Novo!]{type=Informative}
+### Workfront - Alterar status do projeto para Concluído em 100% concluído.
 
 Essa automação atualiza os projetos para o status Concluído que têm todas as tarefas em 1005 concluídas. Projetos com problemas em aberto ou tarefas em aberto ou aprovações de projetos receberão uma atualização e, quando resolvidos, os projetos serão movidos para o status Concluído.
 
-### [!BADGE Novo!]{type=Informative}
+### Workfront - Avisar e tentar fechar projetos obsoletos
 
 Use este cenário para ajudar a automatizar o aviso e o encerramento de projetos que atendem à política de projetos obsoletos da organização.
 
-### [!BADGE Novo!]{type=Informative}
+### Workfront - Copiar novas observações e respostas do problema/solicitação de origem para um projeto ou tarefa já convertida
 
 Use este modelo para copiar observações e respostas de um problema ou solicitação para um projeto ou tarefa já convertida.
 
@@ -57,6 +57,10 @@ Essa automação observa novos projetos em portfólios com formulários personal
 ### Workfront - Converter problema aprovado em projeto
 
 Este modelo converte problemas em projetos. Você pode modificá-la para atender aos padrões de sua organização.
+
+### [!BADGE Novo!]{type=Informative}
+
+Esse cenário flexível copia documentos de problemas ou solicitações para projetos ou tarefas convertidos anteriormente.
 
 ### Notificação personalizada com base na alteração do campo
 
@@ -102,7 +106,7 @@ Esses modelos recuperam informações de um serviço Web e trazem essas informa�
 >
 > Você deve ter uma licença do Workfront Fusion for Work Automation and Integration para usar modelos nesta seção.
 
-### [!BADGE Novo!]{type=Informative}
+### Estabelecendo conexão usando JWT (JSON Web Token)
 
 Estabeleça Autorização JWT para uma API do cliente.
 
@@ -138,7 +142,7 @@ Esses modelos conectam o Workfront e o SharePoint.
 >
 > Você deve ter uma licença do Workfront Fusion for Work Automation and Integration para usar modelos nesta seção.
 
-### [!BADGE Novo!]{type=Informative}
+### Observar alterações na pasta do SharePoint
 
 Esse modelo permite ver se há uma alteração em uma pasta do SharePoint.
 
