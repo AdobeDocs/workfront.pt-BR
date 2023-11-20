@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
 workflow-type: tm+mt
-source-wordcount: '3451'
+source-wordcount: '3491'
 ht-degree: 0%
 
 ---
@@ -118,24 +118,27 @@ Você pode registrar horas nas seguintes áreas no Workfront:
 
 #### Registrar horas em uma folha de horas {#log-time-on-a-timesheet}
 
-Você pode registrar horas gerais ou horas específicas de um projeto em uma folha de horas.
+Você pode registrar horas nos seguintes itens da folha de horas:
+
+* Tarefas, problemas e projetos pré-preenchidos são exibidos automaticamente com base em como o administrador do Workfront define as preferências da folha de horas. Para obter informações sobre como as folhas de horas são pré-preenchidas, consulte [Configurar preferências de horas e planilha de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+  Somente as tarefas e problemas atribuídos a você são preenchidas previamente em sua planilha de horas. Tarefas e problemas atribuídos às suas equipes ou funções de trabalho não preenchem sua folha de horas automaticamente.
+
+  Clicar em Trabalhar nisso em um item atribuído às suas equipes atribui o item a você e o item será exibido em sua folha de horas.
+* Tarefas, problemas ou projetos adicionados manualmente.
+* Tarefas, problemas ou projetos para os quais você já fez logon em outro lugar na Workfront.
+* Tempo geral (férias, treinamento, horas extras).
 
 >[!NOTE]
 >
 >Revise os usuários atribuídos a um Perfil de folha de horas. Você pode ver a área Folhas de horas e registrar as horas gerais. No entanto, eles não podem registrar horas em nenhuma tarefa ou problema atribuído a eles que apareçam na folha de horas.
 
-1. Clique em [!UICONTROL **Menu principal**] ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
+Para registrar horas em uma folha de horas:
+
+1. Clique em [!UICONTROL **Menu principal**] ícone ![](assets/main-menu-icon.png) no canto superior direito, ou na guia **Menu principal** ícone ![](assets/lines-main-menu.png) no canto superior esquerdo do Workfront, se disponível.
 
 1. Clique em [!UICONTROL **Planilhas de Horas**]. Sua Planilha de Horas atual é exibida por padrão.
    ![Planilha de horas](assets/timesheet-redesigned-nwe.png)
-
-   A folha de horas é pré-preenchida com itens atribuídos a você durante o período da folha de horas. Para obter informações sobre como as folhas de horas são pré-preenchidas, consulte [Configurar preferências de horas e planilha de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md). Se você não vir um item na folha de horas, poderá adicioná-lo.
-
-   >[!NOTE]
-   >
-   >A folha de horas é preenchida previamente apenas com itens atribuídos a você. Ele não é preenchido previamente com itens atribuídos às suas equipes ou funções de trabalho.
-   >
-   >Clicar em Trabalhar nisso em um item atribuído às suas equipes atribui o item a você e o item será exibido em sua folha de horas.
 
 
 1. (Opcional) Clique no link **tela cheia** ícone ![](assets/full-screen.png) para exibir a folha de horas no modo de tela cheia, clique no link **exit-full-screen** ![](assets/exit-full-screen.png) ícone para retornar à folha de horas.
