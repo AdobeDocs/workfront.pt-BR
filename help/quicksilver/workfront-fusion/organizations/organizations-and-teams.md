@@ -8,9 +8,9 @@ description: Os recursos de Organização e Equipes do Adobe Workfront Fusion po
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
+source-git-commit: a51dfcfc3024fd7d1d2612d6f258379d4d166c49
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,8 @@ Um usuário tem uma das seguintes funções em uma organização:
 * **[!UICONTROL Contador]**: uma função de contador permite que os usuários vejam apenas as informações de licença no painel da organização.
 * **[!UICONTROL Desenvolvedor de aplicativos]**: A funcionalidade para esta função está indisponível no momento e será disponibilizada em breve. Não é recomendável atribuir usuários a essa função no momento.
 
+Para obter informações sobre ações específicas disponíveis para usuários em cada função da organização, consulte [Funções da organização e da equipe](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+
 ### Convidar usuários para uma organização
 
 Por padrão, um proprietário de organização (ou usuário autorizado) pode convidar outra pessoa para ingressar em sua organização.
@@ -145,7 +147,7 @@ Um usuário tem uma das seguintes funções em cada uma de suas equipes:
 * **[!UICONTROL Operador de Equipe]**: A variável [!UICONTROL operador] permite que os usuários vejam os dados de execução e alterem o status &quot;Ativo&quot; dos cenários.
 * **[!UICONTROL Membro restrito da equipe]**: A funcionalidade para esta função está indisponível no momento e será disponibilizada em breve. Não é recomendável atribuir usuários a essa função no momento.
 
-Para obter informações sobre tarefas específicas disponíveis para funções de equipe, consulte[Funções da organização e da equipe](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+Para obter informações sobre ações específicas disponíveis para usuários em cada função de equipe, consulte [Funções da organização e da equipe](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### Gerenciamento de Equipe
 
