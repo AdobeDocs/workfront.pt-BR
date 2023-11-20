@@ -6,9 +6,9 @@ description: Você pode personalizar quais campos são exibidos em um cartão de
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
+source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -98,3 +98,19 @@ Os dados em campos personalizados podem ser editados no cartão, embora alguns e
 >[!NOTE]
 >
 >Posteriormente, se você renomear o campo personalizado no Workfront, deverá editar o rótulo do campo no painel Configurar para corresponder, ou o campo não será exibido nos cartões.
+
+## Exibir ou ocultar cartões arquivados
+
+Você deve ativar uma definição de configuração para exibir cartões arquivados em uma placa.
+
+1. Acesse um quadro e clique em [!UICONTROL **Configurar**] para abrir o painel Configurar.
+1. Expandir [!UICONTROL **Cartões**].
+1. Ativar [!UICONTROL **Exibir cartões arquivados no quadro**].
+
+   Agora, você pode filtrar o quadro para mostrar todos os cartões que foram arquivados. Para obter detalhes, consulte [Filtrar e pesquisar em um quadro](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+
+1. Clique em [!UICONTROL **Ocultar configuração**] para fechar o painel Configurar.
+
+## Configurar queda de cartão
+
+Para remover automaticamente cartões do quadro após um período, consulte [Configurar queda de cartão](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
