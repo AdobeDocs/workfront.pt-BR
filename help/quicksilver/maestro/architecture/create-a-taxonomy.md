@@ -1,20 +1,20 @@
 ---
-title: Compartilhar registros
-description: Você pode compartilhar registros com outras pessoas para aumentar sua colaboração.
+title: Criar tipos de registro de taxonomia
+description: Taxonomias são um tipo de registro reutilizável que captura atributos sobre um tipo de registro operacional no Adobe Workfront Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '377'
 ht-degree: 1%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Compartilhar registros
+# Criar tipos de registro de taxonomia
 
 >[!IMPORTANT]
 >
@@ -26,25 +26,11 @@ ht-degree: 1%
 >
 >Para obter informações, consulte [Visão geral do Adobe Maestri](../maestro-overview.md).
 
-Para colaborar com outros usuários, é possível compartilhar registros com outras pessoas.
+Taxonomias são tipos de registro que capturam atributos sobre tipos de registro operacional no Adobe Maestro.
 
-Você pode compartilhar um registro Maestro das seguintes maneiras:
+Por exemplo, a campanha pode ser um tipo de registro operacional. A seguir estão taxonomias que capturam atributos sobre o tipo de registro do Campaign: Região, Público-alvo, País.
 
-* Copie o link da página Detalhes de um registro do navegador quando a página estiver aberta.
-
-* Copie um link para a página Detalhes do registro ao exibir registros na exibição de tabela do tipo de registro.
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-Este artigo descreve como você pode copiar um link para a página Detalhes de um registro da exibição de tabela de um tipo de registro.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+Para obter mais informações sobre os tipos de registros do Maestro, consulte [Visão geral dos tipos de registro e taxonomias](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## Requisitos de acesso
 
@@ -52,7 +38,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto">
  <col>
+ <col>
  <tbody>
+ <tr>
 <td>
    <p> produto Adobe</p> </td>
    <td>
@@ -81,6 +69,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td> <p>Qualquer Um</p>  
 </td>
   </tr>
+
 <tr>
    <td role="rowheader">Modelo de layout</td>
    <td> <p>O administrador do sistema deve adicionar a área Maestro no modelo de layout. Para obter informações, consulte <a href="../access/grant-access.md">Conceder acesso ao Adobe Maestro</a>. </p>  
@@ -90,8 +79,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,15 +124,14 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create
 </td>
   </tr>
  </tbody>
 </table>
 
 -->
-
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -156,32 +143,34 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Compartilhar links de registro da exibição de tabela do tipo de registro
+## Considerações sobre a criação de taxonomias
 
-1. Clique em **Menu principal** ![](assets/main-menu-workfront.png) no canto superior direito, ou na guia **Menu principal** ![](assets/main-menu-shell.png) no canto superior esquerdo, se estiver disponível, clique em **Maestro**.
+* Você deve criar um espaço de trabalho antes de criar taxonomias no espaço de trabalho.
 
-   O espaço de trabalho que você acessou por último é aberto.
-1. Clique em um cartão de tipo de registro.
+  Para obter informações sobre espaços de trabalho, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
+* Você pode criar um tipo de registro de taxonomia seguindo um destes procedimentos:
+   * Crie-os automaticamente ao criar um espaço de trabalho usando um modelo. Para obter informações, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
+   * Crie-os manualmente, do zero.
+   * Crie-os manualmente colando informações de uma lista externa.
 
-   A página de tipo de registro é aberta.
-1. (Condicional) No **Exibir** no canto superior direito da tabela, selecione uma exibição de tabela. Essa deve ser a exibição padrão, a menos que você tenha visualizado o tipo de registro na exibição de linha do tempo ao acessá-lo pela última vez.
+  <!--this is not possible yet:
+  * You can taxonomies to a workspace by doing one of the following:
+    * Create a connection to object types from other systems, when adding fields to a taxnomy record type. This creates a read-only record type in Maestro.  - update this sentence when you can connect taxonomies as well as operational records to a third-party system.-->
 
-   Os registros associados ao tipo de registro selecionado são exibidos na exibição de tabela.
-1. Clicar com o botão direito do mouse em uma linha de registro
+* Todas as taxonomias recém-criadas vêm com os seguintes campos:
 
-   Ou
+   * Nome <!--if there won't be any more fields, consider rephrasing this-->
 
-   Passe o mouse sobre o nome de um registro, clique no **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Copiar link**.
+  Além disso, é possível adicionar campos personalizados a taxonomias. Para obter mais informações, consulte [Criar campos](../fields/create-fields.md).
 
-   ![](assets/contextual-menu-for-record-row.png)
+  >[!NOTE]
+  >
+  >    As taxonomias criadas ao usar um modelo de espaço de trabalho têm campos adicionais.
 
-   O link é copiado para a área de transferência.
+## Criar uma taxonomia
 
-1. Cole o link em um email ou janela de chat para compartilhar com outros usuários. Quando os usuários recebem o link, ele abre a página Detalhes do registro.
+A criação de taxonomias é semelhante à criação de um tipo de registro operacional do zero ou de um modelo de espaço de trabalho.
 
-   >[!TIP]
-   >
-   >Os campos do registro na página Detalhes são os mesmos campos disponíveis na exibição Tabela do registro.
+Para obter informações, consulte a seção &quot;Criar um tipo de registro do zero&quot; no artigo [Criar tipos de registro](../architecture/create-record-types.md).
 
-
-   <!--add there when it will be available: if they have access to this record-->
+Para obter informações sobre como criar taxonomias automaticamente ao criar um espaço de trabalho a partir de um modelo, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).

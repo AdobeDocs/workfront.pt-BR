@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '773'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta do Adobe.
+>As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta da Adobe Workfront.
 >
->Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes.
+>Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes. Você deve ser um cliente do Workfront para usar os recursos do Maestro.
 >
 >Entre em contato com seu representante de conta para obter mais informações sobre como participar do programa beta para o Maestro.
 >
@@ -153,8 +153,8 @@ A tabela a seguir mostra as semelhanças e diferenças entre as visualizações 
 ## Criar ou editar exibições {#create-or-edit-views}
 
 1. Clique em **Menu principal** ícone ![](assets/main-menu-workfront.png) no canto superior direito, ou na guia **Menu principal** ícone ![](assets/main-menu-shell.png) no canto superior esquerdo, se disponível, clique em **Maestro** ![](assets/maestro-icon.png).
-O espaço de trabalho acessado pela última vez é aberto por padrão. Para obter informações sobre como criar espaços de trabalho, consulte [Criar espaços de trabalho](../architecture-and-fields/create-workspaces.md).
-1. Clique em um cartão de tipo de registro. Para obter informações sobre como criar um tipo de registro, consulte [Criar tipos de registro](../architecture-and-fields/create-record-types.md).
+O espaço de trabalho acessado pela última vez é aberto por padrão. Para obter informações sobre como criar espaços de trabalho, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
+1. Clique em um cartão de tipo de registro. Para obter informações sobre como criar um tipo de registro, consulte [Criar tipos de registro](../architecture/create-record-types.md).
 
    Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
@@ -189,10 +189,10 @@ O espaço de trabalho acessado pela última vez é aberto por padrão. Para obte
 
 1. No **Menu principal** ![](assets/main-menu-workfront.png) no canto superior direito da tela, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner of the screen, if available,--> click **Maestro** ![](assets/maestro-icon.png).
 
-   O espaço de trabalho acessado pela última vez é aberto por padrão. Para obter informações sobre como criar espaços de trabalho, consulte [Criar espaços de trabalho](../architecture-and-fields/create-workspaces.md).
+   O espaço de trabalho acessado pela última vez é aberto por padrão. Para obter informações sobre como criar espaços de trabalho, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
 1. Clique em um cartão de tipo de registro.
 
-   Para obter informações sobre como criar um tipo de registro, consulte [Criar tipos de registro](../architecture-and-fields/create-record-types.md).
+   Para obter informações sobre como criar um tipo de registro, consulte [Criar tipos de registro](../architecture/create-record-types.md).
 
    Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
@@ -208,8 +208,8 @@ O espaço de trabalho acessado pela última vez é aberto por padrão. Para obte
 If you want to keep multiple versions of a view and make slight changes between the version, you can duplicate a view. Duplicating a view creates identical copies of an existing view. 
 
 1. From the **Main Menu**, click **Maestro**. 
-    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture-and-fields/create-workspaces.md).
-1. Click a record type. For information about creating a record type, see [Create record types](../architecture-and-fields/create-record-types.md). 
+    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
+1. Click a record type. For information about creating a record type, see [Create record types](../architecture/create-record-types.md). 
 
     By default, all the records of the type selected display in the table view. 
 

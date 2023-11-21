@@ -4,9 +4,9 @@ description: Você pode compartilhar ou remover permissões de um espaço de tra
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b4b144a36b5ab7d3aab400d4fcd2007df2a2e4a1
+source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 2%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 2%
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
 
 <!--over time, this article should look like this one does: https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
+
+<!-- *********add to TOC****************-->
 
 # Visão geral das permissões de compartilhamento no Adobe Maestro
 
@@ -35,7 +37,7 @@ Você pode compartilhar os seguintes objetos no Maestro:
 
 * Espaços de trabalho
 
-  O compartilhamento de espaços de trabalho compartilha todos os tipos de registro, registros e campos associados aos espaços de trabalho.
+  Quando você compartilha um espaço de trabalho, todos os tipos de registro, registros e campos associados aos espaços de trabalho também são compartilhados.
 
 ## Considerações sobre o compartilhamento de objetos no Maestro
 
@@ -46,7 +48,7 @@ Você pode compartilhar os seguintes objetos no Maestro:
    * Usuários
    * Grupos
 
-## Compartilhar permissões para objetos do Maestro
+## Permissões de compartilhamento para objetos do Maestro
 
 A tabela a seguir ilustra o nível de permissões que você pode selecionar ao compartilhar um espaço de trabalho Maestro:
 
@@ -54,9 +56,14 @@ A tabela a seguir ilustra o nível de permissões que você pode selecionar ao c
  <col> 
  <col> 
  <tbody> 
+ <tr> 
+   <td role="rowheader"><p><b>Nível de permissão</b></p></td> 
+   <td> <p><b>Ações que você pode executar</b></p> 
+    </td> 
+  </tr> 
   <tr> 
-   <td role="rowheader">Exibir</td> 
-   <td> <p>Você pode executar as seguintes ações:</p> 
+   <td role="rowheader"><p>Exibir</p></td> 
+   <td> 
     <ul> 
      <li>Exibir o espaço de trabalho</li> 
      <li>Exibir todos os tipos de registro no espaço de trabalho</li> 
@@ -65,8 +72,8 @@ A tabela a seguir ilustra o nível de permissões que você pode selecionar ao c
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Contribuir</td> 
-   <td> <p>Você pode executar as seguintes ações:</p> 
+   <td role="rowheader"><p>Contribuir</p></td> 
+   <td>  
     <ul> 
      <li>Todas as ações incluídas com a permissão Exibir</li> 
      <li>Adicionar registros</li>
@@ -77,8 +84,8 @@ A tabela a seguir ilustra o nível de permissões que você pode selecionar ao c
      </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Gerenciar</td> 
-   <td> <p>Você pode executar as seguintes ações:</p> 
+   <td role="rowheader"><p>Gerenciar</p></td> 
+   <td> 
     <ul> 
      <li>Todas as ações incluídas nas permissões Exibir e Contribuir</li> 
      <li>Editar tipos de registro</li> 
@@ -90,7 +97,7 @@ A tabela a seguir ilustra o nível de permissões que você pode selecionar ao c
      </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Administradores do Workfront</td> 
+   <td role="rowheader"><p>Administradores do Workfront</p></td> 
    <td> <p>Isto não é uma permissão do Maestro</p>
    <p> Todos os administradores do Workfront podem fazer o seguinte: </p>
    <ul><li>Criar espaços de trabalho</li>
@@ -101,13 +108,15 @@ A tabela a seguir ilustra o nível de permissões que você pode selecionar ao c
  </tbody> 
 </table>
 
+<!-- the following sections are hidden in the links below - ensure they are visible-->
+
 ## Compartilhar um espaço de trabalho
 
-Para obter informações sobre como compartilhar um espaço de trabalho Maestro, consulte [Conceder acesso](../access/grant-access.md).
+Para obter informações sobre como compartilhar um espaço de trabalho Maestro, consulte [Conceder acesso ao Adobe Maestro](../access/grant-access.md).
 
 ## Remover permissões para um espaço de trabalho
 
-Para obter informações sobre como compartilhar um espaço de trabalho Maestro, consulte [Conceder acesso](../access/grant-access.md).
+Para obter informações sobre como compartilhar um espaço de trabalho Maestro, consulte [Conceder acesso ao Adobe Maestro](../access/grant-access.md).
 
 <!--This is currently not possible: ## Request permissions to objects -->
 

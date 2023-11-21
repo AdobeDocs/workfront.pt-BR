@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,9 @@ Como líder em operações de marketing, você pode usar o Adobe Maestro para or
 
 >[!IMPORTANT]
 >
->As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta do Adobe.
+>As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta da Adobe Workfront.
 >
->Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes.
+>Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes. Você deve ser um cliente do Workfront para usar os recursos do Maestro.
 >
 >Entre em contato com seu representante de conta para obter mais informações sobre como participar do programa beta para o Maestro.
 >
@@ -62,7 +62,8 @@ Para uma visão geral do Adobe Maestro, acesse os seguintes artigos:
 
 As seções seguintes contêm artigos que descrevem em detalhes as características do Maestro atualmente disponíveis:
 
-* [Acessar informações](../maestro/access/access-information.md): Informações sobre o acesso necessário para utilizar o Adobe Maestro.
-* [Informações de arquitetura](../maestro/architecture-and-fields/architecture-and-fields-information.md): Informações detalhadas sobre a arquitetura do Adobe Maestro, com instruções passo a passo sobre como criar e gerenciar espaços de trabalho, tipos de registros e campos.
+* [Acessar informações](../maestro/access/access-information.md): Informações sobre o acesso e as permissões necessárias para usar o Adobe Maestri.
+* [Informações de arquitetura](../maestro/architecture/architecture-information.md): Informações detalhadas sobre a arquitetura do Adobe Maestro, com instruções passo a passo sobre como criar e gerenciar espaços de trabalho e tipos de registros.
+* [Informações de campos](../maestro/fields/fields-information.md): informações detalhadas e instruções passo a passo sobre a criação de campos personalizados para tipos de registros Maestri.
 * [Informações de registros](../maestro/records/records-information.md): informações detalhadas e instruções passo a passo sobre como criar e gerenciar registros.
-* [Informações de exibições](../maestro/views/views-information.md): Informações detalhadas sobre as opiniões do Maestro e como gerenciá-las.
+* [Informações de exibições](../maestro/views/views-information.md): informações detalhadas sobre as exibições Maestri e como gerenciá-las ao visualizar registros em uma página do tipo de registro.

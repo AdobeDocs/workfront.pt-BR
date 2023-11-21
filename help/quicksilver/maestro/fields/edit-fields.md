@@ -1,20 +1,32 @@
 ---
-title: Excluir registros
-description: É possível excluir registros criados por você ou por outro usuário. Não é possível recuperar registros excluídos.
+title: Editar campos
+description: No Adobe Maestri, você pode editar as configurações de campo para campos já criados.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '473'
 ht-degree: 1%
 
 ---
 
-<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Excluir registros
+<!---
+title: Formula fields
+description: In Adobe Maestro, you can edit the field settings for fields that are already created.
+hidefromtoc: yes
+hide: yes
+author: Alina
+feature: (*******************WE NEED A NEW ONE*******************)
+role: User, Administrator (************is this right???************)
+recommendations: noDisplay, noCatalog
+--->
+
+
+# Editar campos
 
 >[!IMPORTANT]
 >
@@ -26,7 +38,24 @@ ht-degree: 1%
 >
 >Para obter informações, consulte [Visão geral do Adobe Maestri](../maestro-overview.md).
 
-Você pode excluir registros que não são mais relevantes no Adobe Maestro.
+É possível editar as configurações de campo para campos já criados.
+
+Para obter informações sobre como criar campos do Adobe Maestri, consulte [Criar campos](../fields/create-fields.md).
+
+Este artigo descreve como você pode editar as configurações para campos Maestro. Para obter informações sobre a edição de valores de campo para registros Maestro, consulte [Editar registros](../records/edit-records.md).
+
+## Considerações sobre a edição de informações de campo
+
+* É possível editar campos criados ou campos criados por outros usuários. <!--this will change with access levels/ permissions-->
+* É possível editar um campo na tabela de tipo de registro.
+* Não é possível editar o tipo de campo depois que o campo é salvo.
+* Não é possível desmarcar a configuração Permitir números negativos que foi selecionada anteriormente para um campo Número, Porcentagem ou Moeda se já houver valores negativos armazenados nos registros aos quais está anexado.
+<!--this is not true yet; one piece of it is true and I added it as the bullet above: 
+* You cannot edit the options, or the special format of the following fields, after they are saved:
+
+    * Allow negative numbers option from a Number, Percentage, or Currency field. 
+    * The Options of a Single-select or a Multi-select field.
+-->
 
 ## Requisitos de acesso
 
@@ -70,7 +99,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
  </tbody>
 </table>
-
 
 <!--
 After permssions - replace the table with: 
@@ -118,7 +146,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -138,58 +166,36 @@ After permssions - replace the table with:
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Considerações sobre a exclusão de registros
+## Editar campos
 
-* É possível excluir registros criados por você ou por outro usuário.
-* Não é possível recuperar registros excluídos. <!--the above statements (and in the metadata description) will change with access levels and recycle bin??-->
-* Se os registros excluídos estiverem vinculados a outros registros, os registros vinculados não serão excluídos, mas as informações do registro excluído também serão excluídas.
-* Não é possível excluir registros em massa. <!--this will probably change-->
-* Não é possível excluir registros da exibição de linha do tempo.
-* Não é possível excluir um tipo de registro vinculado de outro aplicativo. Por exemplo, se você vincular um registro Maestro a um objeto do Workfront, não poderá excluir o objeto do Workfront da página de registro de objeto do Workfront.
+1. Clique em **Menu principal** ícone ![](assets/main-menu-workfront.png) no canto superior direito do Workfront ou na guia **Menu principal** ícone ![](assets/main-menu-shell.png)  no canto superior esquerdo, se disponível, clique em **Maestro** ![](assets/maestro-icon.png).
 
-## Excluir registros
+   O espaço de trabalho acessado por último deve ser aberto por padrão.
 
-É possível excluir um registro das seguintes áreas:
+1. (Opcional) Expanda a seta apontando para baixo à direita de um nome de espaço de trabalho existente e selecione o espaço de trabalho para o qual deseja excluir tipos de registro.
 
-* [Na página Detalhes de um registro](#delete-a-record-from-the-records-details-page)
-* [Na exibição de tabela de um tipo de registro](#delete-a-record-from-the-record-type-table-view)
+   O espaço de trabalho é aberto e os tipos de registro e taxonomias associadas a ele são exibidos.
+1. Clique no cartão do tipo de registro ou na taxonomia cujos campos você deseja editar.
 
-### Excluir um registro da página Detalhes do registro
+   Essa ação abre a página do tipo de registro.
+1. (Condicional) Selecione um **Visualização em tabela** do **Exibir** no canto superior direito da página tipo de registro.
+1. Passe o mouse sobre o cabeçalho da coluna de um campo que deseja editar, clique na seta para baixo após o nome do campo e clique em **Editar campo**
 
-1. Clique em **Menu principal** ![](assets/main-menu-workfront.png) no canto superior direito, ou na guia **Menu principal** ![](assets/main-menu-shell.png) no canto superior esquerdo, se estiver disponível, clique em Maestro.
+   Ou
 
-   O espaço de trabalho que você acessa por último é aberto.
-1. Clique em um tipo de registro.
+   Clique duas vezes no cabeçalho da coluna do campo.
 
-   A página de tipo de registro é aberta.
-1. Siga um destes procedimentos:
+   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-   * Em uma exibição de Tabela, clique no nome de um registro.
-   * Na exibição Tabela, passe o mouse sobre o nome de um registro, depois clique no botão **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Exibir**
+1. Atualize as informações sobre o campo e clique em **Salvar**.
 
-     ![](assets/contextual-menu-for-record-row.png)
-   * Em uma exibição de Linha do tempo, clique em uma barra de registro.
+   <!--insert screen shot when finalized-->
 
-   O registro **Detalhes** é aberta.
+   >[!TIP]
+   >
+   >Não é possível atualizar o tipo de campo depois que o campo é salvo.
 
-1. Clique em **Mais** menu ![](assets/more-menu.png) à direita do nome do registro, clique em **Excluir**, depois **Excluir** novamente para confirmar.
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-O registro é excluído e não pode ser recuperado.
+1. (Condicional) Para campos de registro vinculados, clique em **Editar campos de pesquisa** e adicionar ou remover qualquer um dos campos do tipo de registro vinculado.
 
-### Excluir um registro da exibição de tabela do tipo de registro
-
-1. Clique em **Menu principal** ![](assets/main-menu-workfront.png) no canto superior direito, ou na guia **Menu principal** ![](assets/main-menu-shell.png) no canto superior esquerdo, se estiver disponível, clique em **Maestro**.
-
-   O espaço de trabalho que você acessou por último é aberto.
-1. Clique em um tipo de registro.
-
-   A página de tipo de registro é aberta.
-1. (Condicional) No **Exibir** no canto superior direito da tabela, selecione uma visualização Tabela. Essa deve ser a exibição padrão, a menos que você tenha visualizado o tipo de registro na exibição de linha do tempo ao acessá-lo pela última vez.
-
-   Os registros associados ao tipo de registro selecionado são exibidos na exibição de tabela.
-1. Clique com o botão direito do mouse em uma linha de registro e clique em **Excluir**.
-
-   ![](assets/contextual-menu-for-record-row.png)
-
-   O registro é excluído e não pode ser recuperado.
+   Para obter mais informações, consulte [Conectar tipos de registro](../architecture/connect-record-types.md).

@@ -1,20 +1,32 @@
 ---
-title: Excluir registros
-description: É possível excluir registros criados por você ou por outro usuário. Não é possível recuperar registros excluídos.
+title: Editar tipos de registro
+description: Você poderá editar os tipos de registro depois que eles forem salvos. Os tipos de registros são os tipos de objetos do Adobe Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
+exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
 source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
 
-<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav
+---
+title: Edit record types
+description: You can edit record types after they have been saved. Record types are the objec types of Adobe Maestro.
+author: Alina
+role: User
+feature: Work Management 
+topic: Architecture
+hidefromtoc: yes
+hide: yes
+---
 
-# Excluir registros
+-->
+
+# Editar tipos de registro
 
 >[!IMPORTANT]
 >
@@ -26,7 +38,7 @@ ht-degree: 1%
 >
 >Para obter informações, consulte [Visão geral do Adobe Maestri](../maestro-overview.md).
 
-Você pode excluir registros que não são mais relevantes no Adobe Maestro.
+Os tipos de registros são os tipos de objetos do Adobe Maestro. É possível editar a aparência dos tipos de registros criados por você ou por qualquer outra pessoa. Para obter informações sobre como criar tipos de registros Maestri, consulte [Criar tipos de registro](../architecture/create-record-types.md).
 
 ## Requisitos de acesso
 
@@ -118,7 +130,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -138,58 +150,34 @@ After permssions - replace the table with:
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Considerações sobre a exclusão de registros
+## Editar tipos de registro
 
-* É possível excluir registros criados por você ou por outro usuário.
-* Não é possível recuperar registros excluídos. <!--the above statements (and in the metadata description) will change with access levels and recycle bin??-->
-* Se os registros excluídos estiverem vinculados a outros registros, os registros vinculados não serão excluídos, mas as informações do registro excluído também serão excluídas.
-* Não é possível excluir registros em massa. <!--this will probably change-->
-* Não é possível excluir registros da exibição de linha do tempo.
-* Não é possível excluir um tipo de registro vinculado de outro aplicativo. Por exemplo, se você vincular um registro Maestro a um objeto do Workfront, não poderá excluir o objeto do Workfront da página de registro de objeto do Workfront.
+1. Clique em **Menu principal** ícone ![](assets/main-menu-workfront.png) no canto superior direito do Workfront ou na guia **Menu principal** ícone ![](assets/main-menu-shell.png)  no canto superior esquerdo, se disponível, clique em **Maestro** ![](assets/maestro-icon.png).
 
-## Excluir registros
+   O espaço de trabalho acessado por último deve ser aberto por padrão.
 
-É possível excluir um registro das seguintes áreas:
+1. (Opcional) Expanda a seta apontando para baixo à direita de um nome de espaço de trabalho existente e selecione o espaço de trabalho para o qual deseja criar tipos de registro.
+1. Passe o mouse sobre o cartão de um tipo de registro e clique no **Mais** menu ![](assets/more-menu.png) no canto superior direito do cartão de tipo de registro e clique em **Atualizar aparência**.
 
-* [Na página Detalhes de um registro](#delete-a-record-from-the-records-details-page)
-* [Na exibição de tabela de um tipo de registro](#delete-a-record-from-the-record-type-table-view)
+   ![](assets/update-appearance-link-from-more-menu-on-record-type-card.png)
 
-### Excluir um registro da página Detalhes do registro
+1. Na caixa Atualizar tipo de registro, atualize as seguintes informações:
 
-1. Clique em **Menu principal** ![](assets/main-menu-workfront.png) no canto superior direito, ou na guia **Menu principal** ![](assets/main-menu-shell.png) no canto superior esquerdo, se estiver disponível, clique em Maestro.
+   * **Nome do registro**: edite o nome do tipo de registro, se necessário. <!--correct this - I asked Garik to change this field to "Record type name"-->
+   * **Aparência**: Edite a cor e a forma do ícone associado ao tipo de registro. Faça o seguinte:
+      * Selecione uma cor para identificar o tipo de registro. Esta é a cor do ícone do tipo de registro. O cinza é selecionado por padrão.
+      * Selecione um ícone na lista ou comece a digitar o nome de um ícone para descrever o que ele representa e, em seguida, selecione-o quando ele for exibido. Este é o ícone do tipo de registro. Um ícone de arquivo é selecionado por padrão.
 
-   O espaço de trabalho que você acessa por último é aberto.
-1. Clique em um tipo de registro.
+     ![](assets/update-record-type-box.png)
 
-   A página de tipo de registro é aberta.
-1. Siga um destes procedimentos:
+1. Clique fora da caixa Atualizar tipo de registro para salvar suas alterações.
+1. (Opcional) Clique no cartão de tipo de registro na área do espaço de trabalho para abrir a página do tipo de registro.
+1. Clique em **Mais** à direita do nome do tipo de registro e clique em **Renomear** para renomear o tipo de registro
 
-   * Em uma exibição de Tabela, clique no nome de um registro.
-   * Na exibição Tabela, passe o mouse sobre o nome de um registro, depois clique no botão **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Exibir**
+   Ou
 
-     ![](assets/contextual-menu-for-record-row.png)
-   * Em uma exibição de Linha do tempo, clique em uma barra de registro.
+   Renomeie o tipo de registro no cabeçalho.  <!--check to see if they renamed this to "Rename" - it kept going back and forth between Rename and Edit-->
 
-   O registro **Detalhes** é aberta.
+   ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
 
-1. Clique em **Mais** menu ![](assets/more-menu.png) à direita do nome do registro, clique em **Excluir**, depois **Excluir** novamente para confirmar.
-
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-O registro é excluído e não pode ser recuperado.
-
-### Excluir um registro da exibição de tabela do tipo de registro
-
-1. Clique em **Menu principal** ![](assets/main-menu-workfront.png) no canto superior direito, ou na guia **Menu principal** ![](assets/main-menu-shell.png) no canto superior esquerdo, se estiver disponível, clique em **Maestro**.
-
-   O espaço de trabalho que você acessou por último é aberto.
-1. Clique em um tipo de registro.
-
-   A página de tipo de registro é aberta.
-1. (Condicional) No **Exibir** no canto superior direito da tabela, selecione uma visualização Tabela. Essa deve ser a exibição padrão, a menos que você tenha visualizado o tipo de registro na exibição de linha do tempo ao acessá-lo pela última vez.
-
-   Os registros associados ao tipo de registro selecionado são exibidos na exibição de tabela.
-1. Clique com o botão direito do mouse em uma linha de registro e clique em **Excluir**.
-
-   ![](assets/contextual-menu-for-record-row.png)
-
-   O registro é excluído e não pode ser recuperado.
+   Você também pode renomear um tipo de registro no cabeçalho da página do tipo de registro.

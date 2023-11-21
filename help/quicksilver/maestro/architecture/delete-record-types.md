@@ -1,20 +1,31 @@
 ---
-title: Compartilhar registros
-description: Você pode compartilhar registros com outras pessoas para aumentar sua colaboração.
+title: Excluir tipos de registro
+description: Você pode deletar tipos de registros operacionais ou tipos de registros de taxonomia quando eles não forem mais relevantes.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
+exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
 source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '409'
 ht-degree: 1%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav:
+---
+title: Delete record types
+description: You can delete operational record types or taxonomy record types when they are no longer relevant. 
+author: Alina
+feature: Work Management
+topic: Architecture
+role: User
+hidefromtoc: yes
+hide: yes
+---
+-->
 
-# Compartilhar registros
+# Excluir tipos de registro
 
 >[!IMPORTANT]
 >
@@ -26,25 +37,13 @@ ht-degree: 1%
 >
 >Para obter informações, consulte [Visão geral do Adobe Maestri](../maestro-overview.md).
 
-Para colaborar com outros usuários, é possível compartilhar registros com outras pessoas.
+Você pode deletar tipos de registros operacionais ou tipos de registros de taxonomia quando eles não forem mais relevantes.
 
-Você pode compartilhar um registro Maestro das seguintes maneiras:
+Para obter informações sobre tipos de registros e taxonomias, consulte [Visão geral dos tipos de registro e taxonomias](../architecture/overview-of-record-types-and-taxonomies.md).
 
-* Copie o link da página Detalhes de um registro do navegador quando a página estiver aberta.
+É recomendável recriar os campos e os registros associados ao tipo de registro ou taxonomia que você deseja excluir em outro tipo de registro antes de excluí-los.
 
-* Copie um link para a página Detalhes do registro ao exibir registros na exibição de tabela do tipo de registro.
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-Este artigo descreve como você pode copiar um link para a página Detalhes de um registro da exibição de tabela de um tipo de registro.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+<!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
 ## Requisitos de acesso
 
@@ -90,8 +89,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,14 +134,16 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create
 </td>
   </tr>
  </tbody>
 </table>
 
 -->
+
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,32 +156,29 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Compartilhar links de registro da exibição de tabela do tipo de registro
+## Considerações ao excluir tipos de registro
 
-1. Clique em **Menu principal** ![](assets/main-menu-workfront.png) no canto superior direito, ou na guia **Menu principal** ![](assets/main-menu-shell.png) no canto superior esquerdo, se estiver disponível, clique em **Maestro**.
+<!--check this and ensure these are still true - some things might change with / after closed beta-->
 
-   O espaço de trabalho que você acessou por último é aberto.
-1. Clique em um cartão de tipo de registro.
+* É possível excluir qualquer tipo de registro ou taxonomia criada por você ou por qualquer pessoa da organização. <!--this will change with access levels and permissions-->
+* A exclusão de tipos de registro remove todas as informações associadas a eles, incluindo campos e registros desse tipo.
+* Não é possível recuperar tipos de registros excluídos ou suas informações.
 
-   A página de tipo de registro é aberta.
-1. (Condicional) No **Exibir** no canto superior direito da tabela, selecione uma exibição de tabela. Essa deve ser a exibição padrão, a menos que você tenha visualizado o tipo de registro na exibição de linha do tempo ao acessá-lo pela última vez.
+## Excluir tipos de registro
 
-   Os registros associados ao tipo de registro selecionado são exibidos na exibição de tabela.
-1. Clicar com o botão direito do mouse em uma linha de registro
+A exclusão de tipos de registro de taxonomia é idêntica à exclusão de tipos de registro operacionais.
 
-   Ou
+1. Clique em **Menu principal** ícone ![](assets/main-menu-workfront.png) no canto superior direito do Workfront ou na guia **Menu principal** ícone ![](assets/main-menu-shell.png)  no canto superior esquerdo, se disponível, clique em **Maestro** ![](assets/maestro-icon.png).
 
-   Passe o mouse sobre o nome de um registro, clique no **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Copiar link**.
+   O espaço de trabalho acessado por último deve ser aberto por padrão.
 
-   ![](assets/contextual-menu-for-record-row.png)
+1. (Opcional) Expanda a seta apontando para baixo à direita de um nome de espaço de trabalho existente e selecione o espaço de trabalho para o qual deseja excluir tipos de registro.
 
-   O link é copiado para a área de transferência.
+   O espaço de trabalho é aberto e os tipos de registro e taxonomias associadas a ele são exibidos.
+1. Clique no cartão referente ao tipo de registro ou à taxonomia que deseja excluir.
 
-1. Cole o link em um email ou janela de chat para compartilhar com outros usuários. Quando os usuários recebem o link, ele abre a página Detalhes do registro.
+   Essa ação abre a página do tipo de registro.
+1. Clique em **Mais** menu ![](assets/more-menu.png) à direita do nome do tipo de registro e clique em **Excluir**.
+1. Clique em **Excluir** para confirmar.
 
-   >[!TIP]
-   >
-   >Os campos do registro na página Detalhes são os mesmos campos disponíveis na exibição Tabela do registro.
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   O tipo ou a taxonomia de registro selecionada, juntamente com seus campos e registros associados, são excluídos.

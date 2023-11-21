@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '2069'
-ht-degree: 4%
+source-wordcount: '2080'
+ht-degree: 3%
 
 ---
 
@@ -28,9 +28,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta do Adobe.
+>As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta da Adobe Workfront.
 >
->Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes.
+>Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes. Você deve ser um cliente do Workfront para usar os recursos do Maestro.
 >
 >Entre em contato com seu representante de conta para obter mais informações sobre como participar do programa beta para o Maestro.
 >
@@ -125,7 +125,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 É possível adicionar até 500 campos (ou colunas) em uma exibição de tabela.
 
 1. Vá para uma página de tipo de registro e selecione um **Tabela** exibir no menu suspenso exibir.
-1. Comece a adicionar campos (ou colunas), conforme descrito no artigo [Criar campos](../architecture-and-fields/create-fields.md).
+1. Comece a adicionar campos (ou colunas), conforme descrito no artigo [Criar campos](../fields/create-fields.md).
 
    As colunas adicionadas ficam visíveis para todos os usuários que acessam o tipo de registro e são adicionadas como novos campos na página Detalhes dos registros do tipo de registro selecionado.
 
@@ -238,7 +238,7 @@ Para adicionar um filtro a uma exibição de tabela:
 
      >[!TIP]
      >
-     > Não é possível selecionar campos vinculados. Para obter informações, consulte [Criar campos](../architecture-and-fields/create-fields.md).
+     > Não é possível selecionar campos vinculados. Para obter informações, consulte [Criar campos](../fields/create-fields.md).
 
      <table>
         <thead>
@@ -412,7 +412,7 @@ Para classificar <!--ungrouped (add this when sorting for groupings will be avai
 
    >[!TIP]
    >
-   > Não é possível selecionar campos vinculados. Para obter informações, consulte [Criar campos](../architecture-and-fields/create-fields.md).
+   > Não é possível selecionar campos vinculados. Para obter informações, consulte [Criar campos](../fields/create-fields.md).
 
 1. (Opcional) Na **Classificar registros por** , clique no link **x** ícone à direita de um campo de classificação para remover a classificação
 

@@ -1,20 +1,31 @@
 ---
-title: Excluir registros
-description: É possível excluir registros criados por você ou por outro usuário. Não é possível recuperar registros excluídos.
+title: Excluir campos
+description: No Adobe Maestri, você pode excluir campos personalizados que não são mais relevantes.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '405'
 ht-degree: 1%
 
 ---
 
-<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-# Excluir registros
+<!---
+title: Formula fields
+description: In Adobe Maestro, you can delete custom fields that are no longer relevant.
+hidefromtoc: yes
+hide: yes
+author: Alina
+feature: (*******************WE NEED A NEW ONE*******************)
+role: User, Administrator (************is this right???************)
+recommendations: noDisplay, noCatalog
+--->
+
+# Excluir campos
 
 >[!IMPORTANT]
 >
@@ -26,7 +37,22 @@ ht-degree: 1%
 >
 >Para obter informações, consulte [Visão geral do Adobe Maestri](../maestro-overview.md).
 
-Você pode excluir registros que não são mais relevantes no Adobe Maestro.
+No Adobe Maestri, você pode criar campos personalizados para armazenar informações sobre registros.
+
+Para obter informações sobre como criar campos personalizados no Maestro, consulte [Criar campos](../fields/create-fields.md).
+
+Você pode excluir campos Maestri que não são mais relevantes.
+
+## Considerações sobre a exclusão de campos Maestri:
+
+* É possível excluir campos criados ou campos criados por outros usuários ou pelo sistema. <!--this will change with access levels/ permissions-->
+* Não é possível excluir o campo Nome de um registro. <!--change this to say you can't delete the field selected to be the primary-->
+* É possível excluir um campo somente na tabela do tipo de registro.
+* As informações armazenadas no campo são excluídas e não podem ser recuperadas.
+* Quando você exclui um campo de registro vinculado, todos os campos de pesquisa vinculados também são excluídos do tipo de registro que você vincula. Os campos de registro vinculados dos tipos de registro vinculados não são excluídos.
+
+  Para obter mais informações, consulte [Conectar tipos de registro](../architecture/connect-record-types.md).
+  <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## Requisitos de acesso
 
@@ -70,7 +96,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
  </tbody>
 </table>
-
 
 <!--
 After permssions - replace the table with: 
@@ -118,7 +143,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -126,6 +151,7 @@ After permssions - replace the table with:
 </table>
 
 -->
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -138,58 +164,23 @@ After permssions - replace the table with:
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Considerações sobre a exclusão de registros
+## Excluir campos
 
-* É possível excluir registros criados por você ou por outro usuário.
-* Não é possível recuperar registros excluídos. <!--the above statements (and in the metadata description) will change with access levels and recycle bin??-->
-* Se os registros excluídos estiverem vinculados a outros registros, os registros vinculados não serão excluídos, mas as informações do registro excluído também serão excluídas.
-* Não é possível excluir registros em massa. <!--this will probably change-->
-* Não é possível excluir registros da exibição de linha do tempo.
-* Não é possível excluir um tipo de registro vinculado de outro aplicativo. Por exemplo, se você vincular um registro Maestro a um objeto do Workfront, não poderá excluir o objeto do Workfront da página de registro de objeto do Workfront.
+<!--When they release the sharing of fields between other records, revise this section.  -->
 
-## Excluir registros
+1. Clique em **Menu principal** ícone ![](assets/main-menu-workfront.png) no canto superior direito do Workfront ou na guia **Menu principal** ícone ![](assets/main-menu-shell.png)  no canto superior esquerdo, se disponível, clique em **Maestro** ![](assets/maestro-icon.png).
 
-É possível excluir um registro das seguintes áreas:
+   Isso abre o último espaço de trabalho acessado no Maestro.
+1. Clique no cartão de um tipo de registro cujos campos você deseja excluir.
+1. (Condicional) Selecione um **Visualização em tabela** do **Exibir** no canto superior direito da página tipo de registro.
+1. Localize o campo que deseja excluir nos cabeçalhos da coluna, passe o mouse sobre o cabeçalho da coluna e clique na seta para baixo após o nome do campo.
 
-* [Na página Detalhes de um registro](#delete-a-record-from-the-records-details-page)
-* [Na exibição de tabela de um tipo de registro](#delete-a-record-from-the-record-type-table-view)
+   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-### Excluir um registro da página Detalhes do registro
+1. Clique em **Excluir**. <!-- check this: they might replace it with **Delete field**-->
 
-1. Clique em **Menu principal** ![](assets/main-menu-workfront.png) no canto superior direito, ou na guia **Menu principal** ![](assets/main-menu-shell.png) no canto superior esquerdo, se estiver disponível, clique em Maestro.
+   <!--insert screen shot when finalized-->
 
-   O espaço de trabalho que você acessa por último é aberto.
-1. Clique em um tipo de registro.
+1. Clique em **Excluir** para confirmar.
 
-   A página de tipo de registro é aberta.
-1. Siga um destes procedimentos:
-
-   * Em uma exibição de Tabela, clique no nome de um registro.
-   * Na exibição Tabela, passe o mouse sobre o nome de um registro, depois clique no botão **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Exibir**
-
-     ![](assets/contextual-menu-for-record-row.png)
-   * Em uma exibição de Linha do tempo, clique em uma barra de registro.
-
-   O registro **Detalhes** é aberta.
-
-1. Clique em **Mais** menu ![](assets/more-menu.png) à direita do nome do registro, clique em **Excluir**, depois **Excluir** novamente para confirmar.
-
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-O registro é excluído e não pode ser recuperado.
-
-### Excluir um registro da exibição de tabela do tipo de registro
-
-1. Clique em **Menu principal** ![](assets/main-menu-workfront.png) no canto superior direito, ou na guia **Menu principal** ![](assets/main-menu-shell.png) no canto superior esquerdo, se estiver disponível, clique em **Maestro**.
-
-   O espaço de trabalho que você acessou por último é aberto.
-1. Clique em um tipo de registro.
-
-   A página de tipo de registro é aberta.
-1. (Condicional) No **Exibir** no canto superior direito da tabela, selecione uma visualização Tabela. Essa deve ser a exibição padrão, a menos que você tenha visualizado o tipo de registro na exibição de linha do tempo ao acessá-lo pela última vez.
-
-   Os registros associados ao tipo de registro selecionado são exibidos na exibição de tabela.
-1. Clique com o botão direito do mouse em uma linha de registro e clique em **Excluir**.
-
-   ![](assets/contextual-menu-for-record-row.png)
-
-   O registro é excluído e não pode ser recuperado.
+   O campo é excluído, não pode ser recuperado e não pode mais ser associado a nenhum registro.

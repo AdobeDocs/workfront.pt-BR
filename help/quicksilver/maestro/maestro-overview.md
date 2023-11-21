@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1854'
 ht-degree: 1%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta do Adobe.
+>As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta da Adobe Workfront.
 >
->Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes.
+>Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes. Você deve ser um cliente do Workfront para usar os recursos do Maestro.
 >
 >Entre em contato com seu representante de conta para obter mais informações sobre como participar do programa beta para o Maestro.
 >[Assista a uma demonstração em vídeo do Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
@@ -130,7 +130,7 @@ A seguir estão os principais objetos e conceitos do Maestro:
 
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
-  Para obter mais informações, consulte [Criar espaços de trabalho](../maestro/architecture-and-fields/create-workspaces.md).
+  Para obter mais informações, consulte [Criar espaços de trabalho](../maestro/architecture/create-workspaces.md).
 
 * **Tipo de registro**: o tipo de objeto principal Maestri.
 
@@ -140,7 +140,7 @@ A seguir estão os principais objetos e conceitos do Maestro:
 
   No Maestro, você pode criar qualquer tipo de registro que atenda aos workflows da sua organização. Posteriormente, é possível definir como os tipos de registro se relacionam entre si ou as dependências do formulário.
 
-  Para obter mais informações, consulte [Visão geral dos tipos de registros operacionais e taxonomias](../maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md).
+  Para obter mais informações, consulte [Visão geral dos tipos de registros operacionais e taxonomias](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
   O Maestro tem os seguintes tipos de registros:
 
@@ -150,7 +150,7 @@ A seguir estão os principais objetos e conceitos do Maestro:
 
      Por exemplo, Campanha, Atividade, Programa podem ser tipos de registro operacional.
 
-     Para obter mais informações, consulte [Criar tipos de registro](../maestro/architecture-and-fields/create-record-types.md).
+     Para obter mais informações, consulte [Criar tipos de registro](../maestro/architecture/create-record-types.md).
 
    * **Taxonomia**: um tipo de registro que captura atributos sobre um tipo de registro operacional.
 
@@ -160,7 +160,7 @@ A seguir estão os principais objetos e conceitos do Maestro:
 
      Por exemplo, Público, Região ou Endereço podem ser tipos de registro do tipo taxonomia.
 
-     Para obter mais informações, consulte [Criar tipos de registro de taxonomia](../maestro/architecture-and-fields/create-a-taxonomy.md).
+     Para obter mais informações, consulte [Criar tipos de registro de taxonomia](../maestro/architecture/create-a-taxonomy.md).
 
 * **Gravar**: uma instância de um tipo de registro Maestri. Um registro pode se referir a um tipo de registro operacional ou a uma taxonomia.
 
@@ -183,7 +183,7 @@ A seguir estão os principais objetos e conceitos do Maestro:
 
   O Maestri vem com um modelo de espaço de trabalho de Vendas, Marketing e Gerenciamento de Produtos.
 
-  Para obter mais informações, consulte [Criar espaços de trabalho](../maestro/architecture-and-fields/create-workspaces.md).
+  Para obter mais informações, consulte [Criar espaços de trabalho](../maestro/architecture/create-workspaces.md).
 
 * **Campos**: Campos são atributos que podem ser adicionados a tipos de registro operacionais ou de taxonomia que contêm informações sobre o tipo de registro. <!--check the shot below, "Connection" needs to be in lowercase-->
 
@@ -199,7 +199,7 @@ A seguir estão os principais objetos e conceitos do Maestro:
 
    * Os campos Maestri são totalmente personalizáveis e são acessíveis apenas no Maestro. Não é possível acessar os campos Maestro no Workfront.
 
-  Para obter mais informações, consulte [Criar campos](../maestro/architecture-and-fields/create-fields.md)
+  Para obter mais informações, consulte [Criar campos](../maestro/fields/create-fields.md)
 
   Por padrão, um novo tipo de registro operacional está associado aos seguintes campos predefinidos:
 
@@ -243,7 +243,7 @@ A seguir estão os principais objetos e conceitos do Maestro:
 
   Para obter informações sobre como vincular tipos de registro, registros e criar campos vinculados, consulte os seguintes artigos:
 
-   * [Conectar tipos de registro](../maestro/architecture-and-fields/connect-record-types.md)
+   * [Conectar tipos de registro](../maestro/architecture/connect-record-types.md)
    * [Conectar registros](../maestro/records/connect-records.md)
 
 <!--not yet:* Fields are reusable across Record Types.  -->

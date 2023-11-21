@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '976'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta do Adobe.
+>As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta da Adobe Workfront.
 >
->Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes.
+>Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes. Você deve ser um cliente do Workfront para usar os recursos do Maestro.
 >
 >Entre em contato com seu representante de conta para obter mais informações sobre como participar do programa beta para o Maestro.
 >
@@ -83,6 +83,62 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody>
 </table>
 
+
+<!--
+After permssions - replace the table with: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Adobe product</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+   <td>
+<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
+<p>Any</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td>
+   <p>Any</p> 
+  </td>
+  </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level</p></td>
+   <td> <p>Any</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+ </tbody>
+</table>
+
+-->
+
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -99,8 +155,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 Você pode criar registros na exibição de tabela de uma página do tipo de registro.
 
 1. Clique em **Menu principal** ícone ![](assets/main-menu-workfront.png) no canto superior direito, ou na guia **Menu principal** ícone ![](assets/main-menu-shell.png) no canto superior esquerdo, se disponível, clique em **Maestro** ![](assets/maestro-icon.png).
-O espaço de trabalho acessado pela última vez é aberto por padrão. Para obter informações sobre como criar espaços de trabalho, consulte [Criar espaços de trabalho](../architecture-and-fields/create-workspaces.md).
-1. Clique em um cartão de tipo de registro. Para obter informações sobre como criar um tipo de registro, consulte [Criar tipos de registro](../architecture-and-fields/create-record-types.md).
+O espaço de trabalho acessado pela última vez é aberto por padrão. Para obter informações sobre como criar espaços de trabalho, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
+1. Clique em um cartão de tipo de registro. Para obter informações sobre como criar um tipo de registro, consulte [Criar tipos de registro](../architecture/create-record-types.md).
 
    A página do tipo de registro é aberta na exibição acessada pela última vez. Por padrão, uma página do tipo de registro é aberta na exibição de tabela.
 Todos os registros do tipo selecionado são exibidos na exibição de tabela.
@@ -129,11 +185,11 @@ Todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
 Você pode importar registros de outros aplicativos vinculando-os aos registros vinculados Maestri.
 
-1. Crie um tipo de registro Maestri, conforme descrito na seção [Criar tipos de registro](../architecture-and-fields/create-record-types.md).
+1. Crie um tipo de registro Maestri, conforme descrito na seção [Criar tipos de registro](../architecture/create-record-types.md).
 
 1. Crie registros Maestri para o tipo de registro criado na etapa anterior. Para obter informações, consulte a seção [Criar registros adicionando-os manualmente a um tipo de registro](#create-records-by-manually-adding-them-to-a-record-type) neste artigo.
 
-1. Crie uma conexão com um tipo de objeto de um aplicativo de terceiros para o tipo de registro Maestri que você criou. Para obter informações, consulte [Conectar tipos de registro](../architecture-and-fields/connect-record-types.md).
+1. Crie uma conexão com um tipo de objeto de um aplicativo de terceiros para o tipo de registro Maestri que você criou. Para obter informações, consulte [Conectar tipos de registro](../architecture/connect-record-types.md).
 
 1. Adicione registros do aplicativo de terceiros aos registros Maestri criados acima usando o campo de registro vinculado criado na etapa anterior. Para obter informações, consulte [Conectar registros](../records/connect-records.md).
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '2030'
+source-wordcount: '2041'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta do Adobe.
+>As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta da Adobe Workfront.
 >
->Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes.
+>Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes. Você deve ser um cliente do Workfront para usar os recursos do Maestro.
 >
 >Entre em contato com seu representante de conta para obter mais informações sobre como participar do programa beta para o Maestro.
 >
@@ -37,28 +37,31 @@ Esta seção lista os recursos e patches que foram lançados após o lançamento
 Os recursos são lançados semanalmente e são listados na ordem de lançamento, com o mais recente primeiro. Os clientes que estão participando do programa beta fechado Maestro podem acessar todos os recursos em seus ambientes de Pré-visualização e Produção.
 
 <!--
-## Week of November 13, 2023
+## Week of November 27, 2023
 
 ### Maestro permissions for users and groups
 
-Preview and production: November 16, 2023
+Production: November 28, 2023
 
-You can now share a workspace with users and groups and set their permissions to different levels, depending on what information they need to view or edit in a Maestro workspace.  
+>[!IMPORTANT]
+>
+>This functionality is not yet available in Preview.
+
+You can now share a workspace with users and groups. You can set their permissions to different levels, depending on what information they need to view or edit in a Maestro workspace. After you share permissions to a workspace, users have permissions to the record types, records, and fields in that space.
 
 The following are the permissions levels for Maestro workspaces:  
 
-No permissions: Users cannot access any workspaces in Maestro, even if the Maestro area is shared with them through a layout template. 
+* None: Users cannot access any workspaces in Maestro, even if the Maestro area is shared with them through a layout template. 
 
-View permissions: Users can view workspaces that are shared with them. They can also view record types, and records from the shared workspace. 
+* View: Users can view workspaces that are shared with them. They can also view record types, and records from the shared workspace. 
 
-Contribute permissions: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces ones shared with them.  
+* Contribute: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces ones shared with them.  
 
-Manage permissions: Users can create, edit, and delete record types, records, and fields in workspaces that are shared with them. They cannot create workspaces.  
+* Manage: Users can create, edit, and delete record types, records, and fields in workspaces that are shared with them. They cannot create workspaces.  
 
-Only Workfront administrators can create, edit, or delete workspaces and all information associated with them. They also can add users and groups with various permission levels to Maestro workspaces.  
- 
+Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
-For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md). -->
+For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
 ## Semana de 6 de novembro de 2023
 
@@ -88,7 +91,7 @@ Introduzimos os seguintes tipos de campos para registros Maestro:
 
 Os valores de campo dos campos criados a partir desses tipos de campo são somente leitura e capturam o nome do usuário que criou ou modificou um registro pela última vez ou a data em que o registro foi criado ou modificado pela última vez.
 
-Para obter mais informações, consulte [Criar campos](../maestro/architecture-and-fields/create-fields.md).
+Para obter mais informações, consulte [Criar campos](../maestro/fields/create-fields.md).
 
 ### Navegar para objetos do Workfront a partir de um registro Maestro
 
@@ -124,8 +127,7 @@ Para obter mais informações, consulte [Criar registros](../maestro/records/con
 
 Pré-visualização e produção: 16 de outubro de 2023
 
-Agora você pode adicionar um campo do tipo Pessoas aos tipos de registro Maestro. Você pode usar campos do tipo Pessoas para associar usuários existentes a um registro. Para obter informações, consulte [Criar campos](../maestro/architecture-and-fields/create-fields.md).
-
+Agora você pode adicionar um campo do tipo Pessoas aos tipos de registro Maestro. Você pode usar campos do tipo Pessoas para associar usuários existentes a um registro. Para obter informações, consulte [Criar campos](../maestro/fields/create-fields.md).
 
 ### Formato Rich Text para campos de parágrafo
 
@@ -198,7 +200,7 @@ Considere o seguinte:
 
   Para obter mais informações, consulte os seguintes artigos:
 
-   * [Conectar tipos de registro](../maestro/architecture-and-fields/connect-record-types.md)
+   * [Conectar tipos de registro](../maestro/architecture/connect-record-types.md)
    * [Conectar registros](../maestro/records/connect-records.md)
 
 ### Suporte de URL para campos de texto de linha única
