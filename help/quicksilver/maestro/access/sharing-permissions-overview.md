@@ -4,9 +4,10 @@ description: Você pode compartilhar ou remover permissões de um espaço de tra
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '382'
 ht-degree: 2%
 
 ---
@@ -94,6 +95,7 @@ A tabela a seguir ilustra o nível de permissões que você pode selecionar ao c
      <li>Adicionar campos</li> 
      <li>Excluir campos</li> 
      <li>Adicionar novas conexões entre tipos de registro</li> 
+     <li>Compartilhar o espaço de trabalho com usuários e grupos</li> 
      </ul> </td> 
   </tr> 
   <tr> 
@@ -119,5 +121,3 @@ Para obter informações sobre como compartilhar um espaço de trabalho Maestro,
 Para obter informações sobre como compartilhar um espaço de trabalho Maestro, consulte [Conceder acesso ao Adobe Maestro](../access/grant-access.md).
 
 <!--This is currently not possible: ## Request permissions to objects -->
-
-

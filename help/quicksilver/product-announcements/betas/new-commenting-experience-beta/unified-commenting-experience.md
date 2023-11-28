@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 937498a68a994d19b0005d518d7e313c48961672
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '863'
 ht-degree: 3%
 
 ---
@@ -64,18 +64,21 @@ Os seguintes recursos foram removidos da nova experiência:
 * A informação &quot;em nome de &lt; user name >&quot; quando um administrador de Workfront ou grupo faz logon como outro usuário e adiciona um comentário em nome dele foi originalmente removida. Ele foi restabelecido em 19 de outubro de 2023.
 * A opção &quot;Solicitar aprovação&quot; ao marcar pessoas ao adicionar um comentário a um documento.
 
+<!--removed this note on November 28, 2023, when this limitation was removed: 
+
 >[!NOTE]
 >
->Os objetos listados abaixo têm apenas comentários e atualizações do sistema a partir de 1° de janeiro de 2019 disponíveis na nova experiência de comentários.
+>The objects listed below have only the comments and system updates starting with January 1, 2019 available in the new commenting experience.  
 >
->Você pode exibir comentários e atualizações do sistema nesses objetos anteriores a 1° de janeiro de 2019 ao visualizar a seção Atualizações na experiência atual:
+>You can view comments and system updates on these objects prior to January 1, 2019 when viewing the Updates section in the current experience:
 >
->* Problemas
->* Projetos
->* Tarefas
->* Documentos
+>* Issues
+>* Projects
+>* Tasks
+>* Documents
 
-Para obter mais informações, consulte [Perguntas frequentes sobre a nova experiência de comentários](../../betas/new-commenting-experience-beta/new-commenting-faq.md).
+For more information, see the [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md). 
+-->
 
 A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiência de comentários, bem como sua disponibilidade em áreas onde são compatíveis:
 
