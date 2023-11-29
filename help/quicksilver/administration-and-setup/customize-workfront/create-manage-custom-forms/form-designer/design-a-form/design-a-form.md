@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
+source-git-commit: 85afa798eacb297ad4e5fd3a92277e307eea5a97
 workflow-type: tm+mt
-source-wordcount: '4886'
+source-wordcount: '4908'
 ht-degree: 4%
 
 ---
@@ -392,7 +392,7 @@ Você pode adicionar campos de digitação antecipada e data a um formulário pe
 * **Typeahead**: permite que os usuários digitem o nome de um objeto que existe no Workfront. Uma lista de sugestões é exibida quando o usuário começa a digitar. Esse tipo de campo oferece suporte aos seguintes objetos:
    * Usuário
    * Grupo
-   * Função de trabalho
+   * Função no trabalho
    * Portfólio
    * Programa
    * Projeto
@@ -538,8 +538,9 @@ Para adicionar uma pesquisa externa:
       <td><p>Digite ou cole o URL da API.</p><p>O URL da API deve retornar um conteúdo JSON das opções que você deseja mostrar na lista suspensa. Você pode usar o campo Caminho JSON para selecionar os valores específicos das opções suspensas do JSON retornado.</p><p>Ao inserir o URL da API, você pode passar os seguintes valores no URL:</p>
       <ul><li>$$QUERY - Representa o texto de pesquisa que o usuário final digita no campo e permite implementar a filtragem de consultas para seus usuários finais. (O usuário pesquisará pelo valor na lista suspensa.)</li>
       <li>$$HOST - representa o host atual do Workfront e pode ser usado para fazer chamadas de API /search para a API do Workfront. Quando esse curinga é usado, a autenticação é tratada e os usuários não precisam enviar cabeçalhos de autenticação. (Por exemplo, os usuários podem pesquisar tarefas usando o URL base "$$HOST/attask/api/task/search" e isso permitirá pesquisar tarefas e selecionar valores de uma lista retornada de tarefas.)</li>
-      <li>{fieldName} - Onde fieldName é qualquer campo personalizado ou nativo no Workfront. Dessa forma, você pode implementar filtros de opção de lista suspensa em cascata ao passar o valor de um campo já selecionado para o campo Pesquisa externa para filtrar opções. (Por exemplo, o campo Região já existe no formulário e você está restringindo uma lista de países da API para aqueles que estão em uma região específica.)</li></ul>
-      <p><strong>NOTA:</strong> Revise a documentação da API com a qual você está trabalhando para as consultas específicas que você pode definir.</p></td> 
+      <li>{fieldName} - Onde fieldName é qualquer campo personalizado ou nativo no Workfront. Dessa forma, você pode implementar filtros de opção de lista suspensa em cascata ao passar o valor de um campo já selecionado para o campo Pesquisa externa para filtrar opções. (Por exemplo, o campo Região já existe no formulário e você está restringindo uma lista de países da API para aqueles que estão em uma região específica.)</li>
+      <li>{referenceObject}.{fieldName} - Sempre que o campo fizer parte de um objeto. Essa sintaxe é semelhante às expressões personalizadas. (Por exemplo, portfolioID={project}.{portfolioID})</li></ul>
+      <p><strong>NOTA:</strong> Revise a documentação da API com a qual você está trabalhando para as consultas específicas que você pode definir.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Método HTTP</td> 
