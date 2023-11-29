@@ -3,13 +3,13 @@ title: Visão geral da versão do primeiro trimestre de 2024
 description: Visão geral da versão do primeiro trimestre de 2024
 author: Becky
 feature: Product Announcements
-source-git-commit: e58f502917e0091b046152531bcda0ee9b759b25
+exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
-
 
 # Visão geral da versão do primeiro trimestre de 2024
 
@@ -99,6 +99,40 @@ The <add release> release webinar will be held on <date>. You can [register for 
            </tbody>
 </table>
 
+### Aprimoramentos na página inicial
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Recurso</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Datas de lançamento</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Os botões de ação rápida Meu Trabalho foram alterados para serem exibidos somente ao passar o mouse</a><span style="color: #ff0000;"> Novo na visualização!</span></p><p>Para melhorar o desempenho, os botões de ação rápida disponíveis no widget Meu trabalho agora serão exibidos somente quando um item de trabalho for focalizado com o mouse.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 29 de novembro de 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produção para todos os clientes: 29 de novembro de 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
 ### Aprimoramentos de integração
 
 <table>
@@ -164,6 +198,21 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">A nova experiência de comentários captura todas as informações de projetos, tarefas, problemas e documentos</a><span style="color: #ff0000;"> Novo na visualização!</span></p><p>Projetos, tarefas, problemas e documentos exibem todas as atualizações na nova área de experiência de comentários, desde o início da instância do Workfront.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 28 de novembro de 2023</p>
+                            </li>
+                            <li>
+                                <p>Produção para todos os clientes: 28 de novembro de 2023</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Procurar um comentário ou usuário na seção Atualizações</a><span style="color: #ff0000;"> Novo na visualização!</span></p><p>Para localizar informações rapidamente na seção Atualizações de um objeto, agora é possível pesquisar por uma palavra-chave de um comentário ou por qualquer usuário associado a um comentário.</p>

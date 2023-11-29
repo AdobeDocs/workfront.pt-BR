@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 2778cd34a70f2c268490bdf4cbc2e8ef81bdead2
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -60,9 +60,17 @@ Para testar a funcionalidade, faça logon na instância de Visualização do Wor
 
 Abaixo estão informações sobre os casos de uso principais que estamos procurando solucionar e os recursos que planejamos fazer no momento. <!--, along with documentation to get you started testing.-->
 
+>[!NOTE]
+>
+><span class="preview">Texto destacado</span> abaixo refere-se aos recursos que ainda não foram implementados, mas serão incluídos em uma versão posterior.
+>
+>Marcadores em a **&quot;Possíveis melhorias em versões futuras&quot;** o cabeçalho pode ou não ser incluído em uma versão futura, dependendo do feedback alfa e de nossos planos de desenvolvimento em evolução.
+>
+
+
 ### Os administradores do Workfront podem configurar uma conexão entre grupos do Workfront e contas Frame.io
 
-* _No Workfront, você pode conectar um grupo do Workfront a uma conta Frame.io_
+* <span class="preview">No Workfront, você pode conectar um grupo do Workfront a uma conta Frame.io</span>
 
 * Uma nova equipe do Frame.io será criada no Frame.io representando o grupo conectado do Workfront
 
@@ -76,19 +84,19 @@ Abaixo estão informações sobre os casos de uso principais que estamos procura
 
 * Capacidade de marcar projetos do Workfront como Frame.io ativado ao atribuir um grupo conectado ao Quadro
 
-* _Aprimoramento: capacidade de alternar tarefas dentro de projetos Workfront como tarefas Quadro que, por sua vez, criará pastas de tarefas dentro do Frame.io_
+* <span class="preview">Aprimoramento: capacidade de alternar tarefas dentro de projetos Workfront como tarefas Quadro que, por sua vez, criará pastas de tarefas dentro do Frame.io</span>
 
 * Quando o status de um projeto do Workfront é definido como Atual, um projeto conectado correspondente é criado no Quadro, os usuários atribuídos do Workfront são adicionados ao projeto do Quadro e uma notificação por email é enviada a eles do Frame.io
 
    * Todos os membros do Projeto do Workfront (usuários e equipes) serão adicionados como Colaboradores ao projeto Frame.io (na criação do projeto e posteriormente)
 
-   * _Alteração: os usuários e as equipes atribuídos às tarefas do Workfront ativadas por Quadro serão adicionados como Colaboradores ao projeto Frame.io e notificados (na criação do projeto e posteriormente)_
+   * <span class="preview">Alteração: os usuários e as equipes atribuídos às tarefas do Workfront ativadas por Quadro serão adicionados como Colaboradores ao projeto Frame.io e notificados (na criação do projeto e posteriormente)</span>
 
 * Os documentos (Creative Briefs) adicionados ao projeto e as tarefas ativadas por Quadro serão encaminhadas para o projeto Frame.io (dentro da respectiva pasta de trabalho) quando o projeto for criado (acionador: status do projeto definido como Atual)
 
    * Recomendamos que você limite a quantidade de documentos adicionados ao seu projeto antes de se tornar ativo apenas para seus resumos criativos, para evitar o envio de vários documentos desnecessários para o Frame.io
 
-* _Aprimoramento: a tarefa do Workfront de usuários/equipes explicitamente desatribuídas de um quadro ativado será removida do projeto Frame.io_
+* <span class="preview">Aprimoramento: a tarefa do Workfront de usuários/equipes explicitamente desatribuídas de um quadro ativado será removida do projeto Frame.io</span>
 
 **Possíveis melhorias em versões futuras:**
 
@@ -104,9 +112,9 @@ Abaixo estão informações sobre os casos de uso principais que estamos procura
 
 * Os uploads de nova versão dentro do Frame.io criarão automaticamente uma nova versão de documento dentro do Workfront em ativos conectados
 
-* _Aprimoramento: capacidade de marcar as tarefas referenciadas do Workfront como concluídas no Frame.io_
+* <span class="preview">Aprimoramento: capacidade de marcar as tarefas referenciadas do Workfront como concluídas no Frame.io</span>
 
-* _Aprimoramento: caso o documento do Workfront conectado seja excluído, ele permanecerá no Frame.io e poderá ser reconectado à mesma tarefa de projeto ou a outra_
+* <span class="preview">Aprimoramento: caso o documento do Workfront conectado seja excluído, ele permanecerá no Frame.io e poderá ser reconectado à mesma tarefa de projeto ou a outra</span>
 
 **Possíveis melhorias em versões futuras:**
 
@@ -118,7 +126,7 @@ Abaixo estão informações sobre os casos de uso principais que estamos procura
 
 * Usuários e equipes do Workfront podem ser adicionados a novas aprovações de documentos para documentos conectados ao Frame.io
 
-* _Aprimoramento: quando um usuário/equipe não é compartilhado de um documento habilitado para Frame, ele também perderá o acesso ao ativo no Visualizador Frame.io_
+* <span class="preview">Aprimoramento: quando um usuário/equipe não é compartilhado de um documento habilitado para Frame, ele também perderá o acesso ao ativo no Visualizador Frame.io</span>
 
 **Possíveis melhorias em versões futuras:**
 
@@ -134,12 +142,12 @@ Abaixo estão informações sobre os casos de uso principais que estamos procura
 
 * Capacidade de aproveitar os recursos existentes de revisão e comentário fornecidos pelo Visualizador Frame.io que será sincronizado com o Fluxo de atualização do Workfront
 
-* _Capacidade de tomar uma nova decisão de aprovação de documento dentro do Visualizador Frame.io_
+* <span class="preview">Capacidade de tomar uma nova decisão de aprovação de documento dentro do Visualizador Frame.io</span>
 
 ### No Frame.io, a Equipe de criação será informada sobre a decisão geral tomada no ativo Frame.io conectado
 
-* _Aprimoramento: o status de aprovação geral do documento será exibido no ativo dentro do Frame.io_
+* <span class="preview">Aprimoramento: o status de aprovação geral do documento será exibido no ativo dentro do Frame.io</span>
 
 ### Os coordenadores de projetos podem enviar ativos finais para o AEM
 
-* _Aprimoramento: documentos conectados a quadros, incluindo metadados, podem ser enviados ao AEM usando o conector Workfront + AEM Asset CS existente_
+* <span class="preview">Aprimoramento: documentos conectados a quadros, incluindo metadados, podem ser enviados ao AEM usando o conector Workfront + AEM Asset CS existente</span>

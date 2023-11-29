@@ -3,9 +3,10 @@ title: Melhorias no fluxo de atualizações e na notificação do primeiro trime
 description: Melhorias no fluxo de atualizações e na notificação do primeiro trimestre de 2024
 author: Lisa
 feature: Product Announcements
-source-git-commit: cc07fee3d98ff67894ed040cc9125b8cf903a09b
+exl-id: 837b5a23-162d-4862-b6fd-be3048ab0269
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,11 @@ ht-degree: 0%
 
 Esta página descreve todos os aprimoramentos no fluxo de atualização e na notificação feitos com a versão do Primeiro trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão do primeiro trimestre de 2024.
 
-Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do Primeiro trimestre de 2024, consulte [Visão geral da versão do primeiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do Primeiro trimestre de 2024, consulte [Visão geral da versão do primeiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## A nova experiência de comentários captura todas as informações de projetos, tarefas, problemas e documentos
+
+Projetos, tarefas, problemas e documentos exibem todas as atualizações na nova área de experiência de comentários, desde o início da instância do Workfront. Antes desse aprimoramento, a nova experiência de comentários capturou apenas atualizações a partir de janeiro de 2019 para esses objetos.
 
 ## Procurar um comentário ou usuário na seção Atualizações
 
