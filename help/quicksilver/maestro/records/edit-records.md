@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+source-git-commit: 66a4a1e11ff04008d1d0c77fbd6887e8f5f1c46b
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 2%
+source-wordcount: '821'
+ht-degree: 1%
 
 ---
 
@@ -193,7 +193,7 @@ After permssions - replace the table with:
 
 ### Editar um registro da exibição de tabela do tipo de registro
 
-1. Clique em **Menu principal** ![](assets/main-menu-workfront.png) no canto superior direito, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> e clique em **Maestro** ![](assets/maestro-icon.png).
+1. Clique em **Menu principal** ![](assets/main-menu-workfront.png) no canto superior direito, ou na guia **Menu principal** ![](assets/main-menu-shell.png) no canto superior esquerdo, se estiver disponível, clique em **Maestro** ![](assets/maestro-icon.png).
 
    O espaço de trabalho que você acessou por último é aberto.
 
@@ -201,10 +201,38 @@ After permssions - replace the table with:
 1. Clique em um cartão de tipo de registro.
 
    A página de tipo de registro é aberta.
-1. (Condicional) No **Exibir** no canto superior direito da tabela, selecione uma visualização Tabela. Essa deve ser a exibição padrão, a menos que você tenha visualizado o tipo de registro na exibição de linha do tempo ao acessá-lo pela última vez.
+1. (Condicional) No **Exibir** no canto superior direito da tabela, selecione uma **Tabela** exibição. Essa deve ser a exibição padrão, a menos que você tenha visualizado o tipo de registro na exibição de linha do tempo ao acessá-lo pela última vez.
 
    Os registros associados ao tipo de registro selecionado são exibidos na exibição de tabela.
 1. Clique dentro da linha de um registro para começar a editar informações sobre o registro em linha.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 1. Pressione **Enter** no teclado ou clique fora de uma linha para salvar as alterações. As alterações são salvas automaticamente. Um indicador Salvo é exibido brevemente no canto superior direito da exibição de tabela para mostrar que as alterações foram salvas.
+
+   >[!NOTE]
+   >
+   >  Não é possível editar as informações dos seguintes campos, pois eles são somente leitura e o Workfront os atualiza automaticamente:
+   >  
+   >  * Campos vinculados que são criados por meio da vinculação de tipos de registro
+   >  * Campos dos seguintes tipos: Criado por, Data de criação, Última modificação por, Data da última modificação
+
+
+1. (Opcional) Copie um valor existente de um campo, cole em um campo do mesmo tipo em outro registro e clique em **Enter** no teclado para salvar as alterações.
+
+   >[!NOTE]
+   >
+   >Considere o seguinte:
+   >
+   >* Você não pode copiar informações de outra fonte, que não seja um campo Maestro do mesmo tipo do campo no qual você cola as informações.
+   >
+   >* Não é possível copiar e colar valores de campo para campos exibidos na área Detalhes de um registro.
+   >* Não é possível copiar e colar valores de campo para os seguintes tipos de campo:
+   ><ul>
+   >
+   > * Pessoas
+   >
+   > * Campos do sistema
+   >
+   > * Campos vinculados criados como resultado da conexão de registros
+
+   <!--take People out of the list above when they release this - this might be coming later-->
