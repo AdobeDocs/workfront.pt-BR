@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 15e2869417d8315bf8e96f7d9d537cd70a5e39df
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -32,25 +32,30 @@ Para permitir que você teste facilmente os novos recursos do programa alfa, cri
 
 Para testar a funcionalidade, faça logon na instância de Visualização do Workfront ou Sandbox e execute as seguintes etapas:
 
+>[!NOTE]
+>
+><span class="preview">Texto destacado</span> abaixo refere-se aos recursos que ainda não foram implementados para teste, mas serão incluídos em uma versão posterior.
+>
+
 1. **Coordenadores:** No Workfront, crie um projeto com o `Frame.io alpha testing` grupo atribuído como o grupo de projeto.
 
-1. **Coordenadores:** No Workfront, atribua suas criações ao projeto ou às tarefas ativadas por Quadro e altere o status do projeto para &quot;Atual&quot;.
+1. **Coordenadores:** No Workfront, atribua seus criadores ao projeto <span class="preview">ou tarefas com quadros ativados</span> e altere o status do projeto para &quot;Atual&quot;.
 
 1. **Criativos:** Verifique se seus emails contêm um convite para o projeto Frame.io recém-criado
 
 1. **Criativos:** Clique no botão &quot;Unir projeto&quot; no email de convite para participar do projeto Frame.io, revise o resumo criativo no projeto e inicie a criação de conteúdo na ferramenta Creative Cloud de escolha.
 
-1. **Criativos:** Faça upload dos ativos criados no Frame.io e adicione-os ao projeto vinculado do Workfront (ou às tarefas ativadas por Quadro atribuídas).
+1. **Criativos:** Faça upload dos ativos criados no Frame.io e adicione-os ao projeto vinculado do Workfront <span class="preview">(ou tarefas habilitadas para Quadro atribuídas).</span>
 
 1. **Coordenadores:** No Workfront, localize os ativos vinculados do Frame.io no seu projeto e atribua revisores/aprovadores (para obter mais informações sobre como atribuir revisões/aprovadores, consulte [Adicionar aprovadores ou revisores adicionais a um documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)).
 
 1. **Partes interessadas:** No Workfront, visualize sua solicitação de aprovação na Página inicial ou em Detalhes do documento, revise o Documento conectado ao quadro no Visualizador Frame.io e deixe um comentário contendo feedback.
 
-1. **Coordenadores:** No Workfront, visualize os comentários criados pela parte interessada na seção Atualizações do documento conectado ao Frame.io.
+1. <span class="preview">**Coordenadores:** No Workfront, visualize os comentários criados pela parte interessada na seção Atualizações do documento conectado ao Frame.io.</span>
 
-1. **Partes interessadas:** Tome uma decisão no Visualizador Frame.io.
+1. <span class="preview">**Partes interessadas:** Tome uma decisão no Visualizador Frame.io.</span>
 
-1. **Criativos:** No Frame.io, observe a decisão geral de aprovação tomada para seus ativos.
+1. <span class="preview">**Criativos:** No Frame.io, observe a decisão geral de aprovação tomada para seus ativos.</span>
 
 1. **Criativos:** No Frame.io, aplique as alterações solicitadas adicionando a versão atualizada à pilha de versão do ativo conectado.
 
