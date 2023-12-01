@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1864'
 ht-degree: 1%
 
 ---
@@ -260,7 +260,7 @@ A seguir estão os principais objetos e conceitos do Maestro:
 
      ![](assets/table-view-example.png)
 
-   * **Exibição da linha do tempo**: exibe registros que têm pelo menos dois campos de Data em uma linha do tempo cronológica.
+   * **Exibição da linha do tempo**: exibe registros que têm pelo menos dois campos do tipo Data em uma linha do tempo cronológica.
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
@@ -373,12 +373,8 @@ A tabela a seguir ilustra os principais recursos que estarão disponíveis no Ma
 | Enviar solicitações |                               |                                  | ✓ |
 | Resumo criativo |                               |                                  | ✓ |
 | Personalizar a cor e o ícone de um registro | ✓ |                                  |                 |
-<!--
-Add another row for Rich text formatting:
-
-
-|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 |
--->
+| Adicionar comentários aos registros |                               | ✓ |                 |
+| Formatação de Rich Text para campos de parágrafo | ✓ |                                  |                 |
 
 ## Atividade de lançamento do Maestri
 
