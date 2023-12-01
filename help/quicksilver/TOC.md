@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 7a700709e76105de9a0ad9505ed2db485066af2d
+source-git-commit: 2ed1d2df76f27ef6e2fe2c9612f8cdf867ed994d
 workflow-type: tm+mt
-source-wordcount: '13430'
+source-wordcount: '13442'
 ht-degree: 1%
 
 ---
@@ -140,6 +140,7 @@ ht-degree: 1%
          * [Aprimoramentos do 21.1 Mobile](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
          * [21.1 Outras melhorias](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Atividade de lançamento do Adobe Workfront Fusion {#fusion-release}
+         * [Atividade de lançamento do Workfront Fusion: semana de 27 de novembro de 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-30.md)
          * [Atividade de lançamento do Adobe Workfront Fusion](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
          * [Atividade de lançamento do Workfront Fusion: semana de 13 de novembro de 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-14.md)
          * [Atividade de lançamento do Workfront Fusion: semana de 30 de outubro de 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-10-26.md)
@@ -2150,6 +2151,7 @@ ht-degree: 1%
       * [Módulos de bibliotecas do Adobe Creative Cloud](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
       * [Módulos do Adobe Campaign Classic](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
       * [Módulos do Adobe Experience Manager Assets](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
+      * [Módulo Adobe Experience Manager Forms](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
       * [Módulos do Adobe Journey Optimizer](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Módulos do Adobe PDF Services](workfront-fusion/apps-and-their-modules/pdf-modules.md)
       * [Módulos Airtable](workfront-fusion/apps-and-their-modules/airtable-modules.md)
