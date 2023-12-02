@@ -1,37 +1,37 @@
 ---
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: Alterar resolução de prova interativa no visualizador de prova
-description: Você pode visualizar a aparência de uma prova interativa em vários dispositivos, permitindo que você veja como o conteúdo é exibido e responde com base em diferentes resoluções.
+title: Alterar resolução de prova interativa no visualizador de provas
+description: Você pode visualizar como uma prova interativa ficará em vários dispositivos, permitindo que você veja como o conteúdo é exibido e responde com base em diferentes resoluções.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 99165790-0c34-4540-92d9-956ae178a874
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: d4fa663e22daf25fec77be79a452eb207857bdda
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---
 
-# Alterar resolução de prova interativa no visualizador de prova
+# Alterar resolução de prova interativa no visualizador de provas
 
-Você pode visualizar a aparência de uma prova interativa em vários dispositivos, permitindo que você veja como o conteúdo é exibido e responde com base em diferentes resoluções.
+Você pode visualizar como uma prova interativa ficará em vários dispositivos, permitindo que você veja como o conteúdo é exibido e responde com base em diferentes resoluções.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p>Plano atual: Pro ou superior</p> <p>ou</p> <p>Plano herdado: Selecionar ou Premium</p> <p>Para obter mais informações sobre como revisar o acesso com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de prova no Workfront</a>.</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> <p>Plano atual: Pro ou Superior</p> <p>ou</p> <p>Plano herdado: Select ou Premium</p> <p>Para obter mais informações sobre acesso de prova com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de prova no Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano atual: Trabalho ou Plano</p> <p>Plano herdado: Qualquer (É necessário ter a prova ativada para o usuário)</p> </td> 
+   <td> <p>Plano atual: Trabalho ou Plano</p> <p>Plano herdado: Qualquer um (Você deve ter a prova ativada para o usuário)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Perfil de Permissões de Prova </td> 
@@ -44,35 +44,35 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, função ou Perfil de permissão de prova você possui, entre em contato com o administrador da Workfront ou da Workfront Proof.
+&#42;Para descobrir qual plano, função ou perfil de permissão de prova você tem, entre em contato com o administrador do Workfront ou do Workfront Proof.
 
-## Visualizações de Dispositivo e Resolução no Visualizador de Verificação de Verificação de Verificação Linguagem de Desktop vs. Visualizador de Verificação de Verificação Linguística da Web
+## Visualizações de dispositivo e resolução no Visualizador de provas de desktop vs. Visualizador de provas de web
 
-O administrador do Adobe Workfront configurou o sistema para que você revise o conteúdo interativo no Visualizador de Verificação de Verificação de Verificação de Desktop ou, como o conteúdo empacotado em um arquivo ZIP, no Visualizador de Verificação de Verificação de Verificação Linguística da Web:
+O administrador do Adobe Workfront configurou o sistema para que você revise o conteúdo interativo no Desktop Proofing Viewer ou, como conteúdo empacotado em um arquivo ZIP, no Web Proofing Viewer:
 
-* No Desktop Proofing Viewer, você pode visualizar como o conteúdo é exibido e responde em várias resoluções e em vários dispositivos. Quando um revisor especifica um determinado dispositivo, o conteúdo é exibido como seria nesse dispositivo, com as especificações da interface do usuário para o dispositivo. Por exemplo, um botão vermelho em uma marca de smartphone pode ser azul em uma marca diferente.
+* No Visualizador de provas de desktop, você pode visualizar como o conteúdo aparece e responde em várias resoluções e em vários dispositivos. Quando um revisor especifica um determinado dispositivo, o conteúdo aparece como apareceria nesse dispositivo, com as especificações da interface do usuário para o dispositivo. Por exemplo, um botão vermelho em uma marca de smartphone pode estar azul em uma marca diferente.
 
-* No Web Proofing Viewer, você pode exibir o conteúdo interativo como ele aparece nas resoluções para os vários dispositivos. Mas o Web Proofing Viewer não emula o conteúdo usando especificações de interface nesses dispositivos, como a cor do botão.
+* No Visualizador de provas da Web, você pode exibir o conteúdo interativo como ele aparece nas resoluções para os vários dispositivos. Mas o Visualizador de provas da Web não emula o conteúdo usando especificações de interface nesses dispositivos, como cor de botão.
 
-   >[!NOTE]
-   >
-   >O administrador do Workfront pode configurar dispositivos personalizados para usuários em sua organização, conforme descrito em Configuração de dispositivos personalizados para provas interativas no artigo .
+  >[!NOTE]
+  >
+  >O administrador do Workfront pode configurar dispositivos personalizados para usuários em sua organização, conforme descrito em [Configuração de dispositivos personalizados para provas](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#configure-custom-devices-for-proofs) no artigo [Definir configurações de prova para sua organização](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
 
 ## Exibir uma prova com um dispositivo predefinido ou uma configuração de resolução
 
 1. Vá para a lista de documentos que contém a prova que deseja abrir.
 1. Passe o mouse sobre o documento e clique em **Abrir prova**.
-1. Clique em **Responsivo** no centro da parte inferior do visualizador de prova.
+1. Clique em **Responsivo** na parte inferior central do revisor de provas.
 
    ![Resolution_option_in_DPV.png](assets/resolution-option-in-dpv-350x64.png)
 
-1. No Desktop Proofing Viewer, na lista de dispositivos e resoluções que aparece, clique no que você deseja.
+1. No Visualizador de provas de desktop, na lista de dispositivos e resoluções exibida, clique naquele que você deseja.
 
    Ou
 
-   No Web Proofing Viewer, na lista de resoluções que aparece, clique no que você deseja.
+   No Visualizador de provas da Web, na lista de resoluções exibida, clique na que você deseja.
 
-   Se precisar de informações sobre como esses dois visualizadores diferem, consulte [Diferenças entre o Visualizador de Provas da Web e a visão geral do Visualizador de Provas de Desktop](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+   Se precisar de informações sobre a diferença entre esses dois visualizadores, consulte [Diferenças entre o Visualizador de provas da Web e a visão geral do Visualizador de provas do desktop](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
    A prova interativa é renderizada na resolução selecionada.
 
@@ -80,20 +80,20 @@ O administrador do Adobe Workfront configurou o sistema para que você revise o 
 
 1. Vá para a lista de documentos que contém a prova que deseja abrir.
 1. Passe o mouse sobre o documento e clique em **Abrir prova**.
-1. Clique em **Responsivo** no centro da parte inferior do Visualizador de Verificação de Provas.
-1. Digite um **Responsivo** resolução.
+1. Clique em **Responsivo** na parte inferior central do Visualizador de provas.
+1. Digite um personalizado **Responsivo** resolução.
 
    ![Type_a_custom_resolution_DPV.png](assets/type-a-custom-resolution-dpv.png)
 
    Ou
 
-   Passe o mouse sobre seu conteúdo interativo e arraste a borda azul no canto inferior direito, ou na borda direita ou inferior, para a resolução desejada.
+   Passe o mouse sobre o conteúdo interativo e arraste a borda azul no canto inferior direito, ou na borda direita ou inferior, para a resolução desejada.
 
-   ![Drag_blue_edge_for_resolution.png](assets/drag-blue-edges-for-resolution-350x251.png)
+   ![Arrastar_bordas_azuis_para_resolução.png](assets/drag-blue-edges-for-resolution-350x251.png)
 
    A resolução personalizada é exibida nos seguintes locais:
 
-   * No **Resolução** no centro inferior do visualizador.\
-      ![Captura de tela_2018-05-15_10-27-54.png](assets/screenshot-2018-05-15-10-27-54.png)
+   * No **Resolução** na parte inferior central do visualizador.\
+     ![Screenshot_2018-05-15_10-27-54.png](assets/screenshot-2018-05-15-10-27-54.png)
 
-   * Em qualquer comentário, os revisores adicionam à prova. Cada comentário inclui a resolução da tela que foi selecionada quando o revisor criou o comentário.
+   * Em qualquer comentário, os revisores adicionam à prova. Cada comentário inclui a resolução de tela selecionada quando o revisor criou o comentário.
