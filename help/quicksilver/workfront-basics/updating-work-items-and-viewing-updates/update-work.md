@@ -6,9 +6,9 @@ description: Você pode adicionar uma atualização em um objeto do Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
+source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
 workflow-type: tm+mt
-source-wordcount: '4005'
+source-wordcount: '4052'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ After the monthly releases to Production, the same features are also available i
 >
 >A nova experiência de comentários está disponível somente para a seção Atualizações de objetos do Workfront e não está disponível ao acessar atualizações das seguintes áreas:
 >
-> * Página inicial
+> * Início
 > * Painel Resumo em listas
 > * Painel Resumo em Planilhas de Horas
 
@@ -102,7 +102,9 @@ After the monthly releases to Production, the same features are also available i
    * Na área Início (para tarefas e problemas)
    * No painel Resumo, em uma lista de objetos ou em uma folha de horas (para tarefas e problemas)
 
-As informações nesta página descrevem como você pode comentar em objetos do Workfront e como atualizar projetos, tarefas e problemas.
+As informações nesta página descrevem como comentar em objetos do Workfront e como você atualiza projetos, tarefas e problemas ao adicionar comentários a eles.
+
+<!--take this out (below) when we remove legacy out of the application-->
 
 Para obter informações sobre comentários sobre metas, consulte [Gerenciar comentários de meta em Metas do Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md). Você deve ter uma licença adicional para acessar o Workfront Goals.
 
@@ -152,17 +154,18 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>plano do Adobe Workfront*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
-   <td> <p>Solicitação ou superior para problemas e documentos; revisão ou superior para todos os outros objetos</p> </td> 
+   <td> <p>Solicitação ou superior para problemas e documentos</p>
+   <p> Revisar ou superior para todos os outros objetos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
    <td> <p>Acesso de Visualização ou Edição para o objeto no qual a atualização está</p> <p><b>Nota</b>
 
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
+Se você não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
@@ -175,14 +178,29 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
 ## Adicionar uma atualização a um item de trabalho
 
+Adicionar uma atualização a um item de trabalho difere dependendo da versão da seção Atualizações usada.
+
+Você pode adicionar atualizações aos seguintes objetos:
+
+* Projetos
+* Tarefas
+* Problemas
+* Programas
+* Portfólios
+* Modelos
+* Modelos de tarefa
+* Usuários
+* Planilhas de horas
+* Equipes
+* Metas
+* Cartões na área Quadros
+* Iterações
+
+### Adicionar uma atualização a um item de trabalho na seção Atualizações herdadas
+
 >[!IMPORTANT]
 >
 >As informações nesta página descrevem como você atualiza projetos, tarefas e problemas.
-
-
-Adicionar uma atualização a um item de trabalho difere dependendo da versão da seção Atualizações usada.
-
-### Adicionar uma atualização a um item de trabalho na seção Atualizações herdadas
 
 1. Vá para o item de trabalho para o qual deseja fornecer uma atualização (como um projeto, tarefa ou problema).
 1. Clique em **Atualizações** seção.
