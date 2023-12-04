@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: e21758ba410dd75440ff28e00a2fb5ba88c3d18a
+source-git-commit: a8e1ec8baf24441cceba6deca53515eccf5e0fcd
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1897'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Este blueprint contém a configuração de estruturas organizacionais para expan
 **[!UICONTROL Configuração da organização de tecnologia da informação]**
 Este blueprint contém a configuração de estruturas organizacionais para expandir para um caso de uso de Tecnologia da informação.
 
-[!BADGE Novo!]{type=Informative}**[!UICONTROL Noções básicas de instância herdada | Lista de verificação]**
+**[!UICONTROL Noções básicas de instância herdada | Lista de verificação]**
 Este blueprint contém um modelo de projeto (ou lista de verificação) que pode ser revisado com uma pequena lista de perguntas, recursos e links para compreender claramente como a instância do Workfront foi configurada. Use-a quando tiver herdado recentemente uma instância do Workfront e precisar de orientação sobre onde começar.
 
 **[!UICONTROL Execução integrada de campanha]**
@@ -79,7 +79,7 @@ Este blueprint contém um modelo de [!DNL Workfront professional services] A org
 **[!UICONTROL Nova Disponibilidade de Admissão]**
 Este blueprint contém um modelo de [!DNL Workfront] a organização de serviços profissionais tem usado por anos durante os contratos de implementação com as equipes de Recursos Humanos para solicitar que especialistas em RH e gerentes de contratação concluam atividades essenciais para tornar notável o primeiro dia de um novo funcionário.
 
-[!BADGE Novo!]{type=Informative}**Desintegração | Painel do usuário de saída**
+**Desintegração | Painel do usuário de saída**
 
 Este blueprint contém um único painel com 13 relatórios para ajudar você a localizar, reatribuir ou gerenciar os objetos e atribuições associados a um usuário que sai do Workfront. Você também pode usar esses relatórios para um usuário que está mudando para uma nova função ou grupo para reatribuir seu trabalho.
 
@@ -104,7 +104,7 @@ Este blueprint contém a configuração de estruturas organizacionais para expan
 **[!UICONTROL Rastreamento do Processo de Recrutamento]**
 Este blueprint define uma lista de verificação para recursos de recrutamento interno a ser usada para ajudar as partes interessadas a acompanhar o progresso das solicitações de efetivo de pessoal. Ele foi projetado para oferecer suporte a um nível de maturidade gerenciado.
 
-[!BADGE Novo!]{type=Informative}**Preparação do gerenciamento de recursos**
+**Preparação do gerenciamento de recursos**
 
 Use este Modelo de projeto e Relatório de usuário para garantir que você tenha as configurações e informações corretas necessárias para gerar dados precisos do Gerenciamento de recursos.
 
@@ -126,11 +126,11 @@ Este blueprint contém um modelo de [!DNL Workfront] a organização de serviço
 **[!UICONTROL Painel de Manutenção do Administrador do Sistema]**
 Este blueprint contém um único painel de controle para ajudar administradores de sistema a manter e limpar o sistema periodicamente de diversos resíduos que podem aumentar com o tempo.
 
-[!BADGE Novo!]{type=Informative}**Percepção de valor | Painel de valores principais**
+**Percepção de valor | Painel de valores principais**
 
 Este blueprint contém um único painel com 21 relatórios para ajudar você a medir o valor do Workfront. Esses relatórios ajudam a traduzir os benefícios da Centralização de trabalho e do Gerenciamento de processos de trabalho em valores mensuráveis que você pode rastrear ao longo do tempo para gerar melhores resultados.
 
-[!BADGE Novo!]{type=Informative}**Percepção de valor | Revisar e aprovar painel**
+**Percepção de valor | Revisar e aprovar painel**
 
 Este blueprint contém um único painel com 7 relatórios para ajudar você a obter o valor do Workfront. Esses relatórios ajudam a traduzir os valores de Revisão e Aprovação do trabalho em benefícios mensuráveis que você pode rastrear ao longo do tempo para gerar melhores resultados.
 
