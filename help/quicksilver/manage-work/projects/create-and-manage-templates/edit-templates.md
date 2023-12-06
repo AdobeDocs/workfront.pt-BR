@@ -2,14 +2,14 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Editar modelos de projeto
-description: É possível editar modelos de projeto para refletir as alterações nos processos e configurações do projeto.
+description: Você pode editar modelos de projeto para refletir as alterações nos processos e configurações do projeto.
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: dcdcf21903d0fceb3c05039689bb87ae4c834d07
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '4704'
-ht-degree: 3%
+source-wordcount: '4775'
+ht-degree: 2%
 
 ---
 
@@ -23,40 +23,40 @@ ht-degree: 3%
 <The Resource Pools part also duplicates in the "Working with Resource Pools" article</p>
 -->
 
-É possível editar modelos de projeto para refletir as alterações nos processos e configurações do projeto. Depois de atualizar e salvar as alterações em um modelo, as novas alterações ficam visíveis em novos projetos quando os projetos são criados usando o modelo . As alterações feitas no modelo não refletem no projeto que está usando esse modelo no momento.
+Você pode editar modelos de projeto para refletir as alterações nos processos e configurações do projeto. Depois de atualizar e salvar as alterações em um modelo, as novas alterações ficam visíveis em novos projetos quando os projetos são criados usando o modelo. As alterações feitas no modelo não refletem no projeto que está usando esse modelo no momento.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p>Qualquer Um </p> </td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenças Adobe Workfront*</td> 
+   <td role="rowheader">Licenças da Adobe Workfront*</td> 
    <td> <p>Plano </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nível de acesso*</td> 
-   <td> <p>Editar acesso a modelos</p> <p>Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre o acesso a modelos, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Conceder acesso aos modelos</a>. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>. </p> </td> 
+   <td> <p>Editar acesso a modelos</p> <p>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre o acesso a modelos, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Conceder acesso aos modelos</a>. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
    <td> 
     <ul> 
-     <li> <p>Contribua com permissões para um modelo para editá-lo na guia Detalhes do modelo</p> </li> 
+     <li> <p>Contribuir com permissões para um modelo para editá-lo na guia Detalhes do modelo</p> </li> 
      <li> <p>Gerenciar permissões de um modelo para editá-lo na caixa Editar modelo</p> </li> 
     </ul> <p> Para obter informações sobre permissões de modelo, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Compartilhar um modelo</a>. </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
 
 ## Editar um modelo {#edit-a-template}
 
@@ -559,41 +559,42 @@ By editing issue settings, you can prevent users from adding issues inline in th
 ### Edit a template in the Preview environment {#edit-a-template-in-the-preview-environment}
 -->
 
-1. Vá para o modelo que deseja editar.
-1. (Condicional) Para editar informações limitadas sobre o modelo, clique em **Detalhes do modelo** no painel esquerdo, vá para as áreas listadas no painel esquerdo para editar informações de cada área.
-1. Para editar informações na seção Detalhes , clique no botão **Editar** ícone ![](assets/edit-icon.png), selecione de qualquer uma das áreas abaixo ou clique em **Editar tudo** para editar informações em todas as áreas:
+1. Vá para o template que deseja editar.
+1. (Condicional) Para editar informações limitadas sobre o modelo, clique em **Detalhes do modelo** no painel esquerdo, vá para as áreas listadas no painel esquerdo para editar as informações de cada área.
+1. Para editar informações na seção Detalhes, clique no link **Editar** ícone ![](assets/edit-icon.png), selecione uma das áreas abaixo ou clique em **Editar tudo** para editar informações em todas as áreas:
 
    * Visão geral
    * Formulários personalizados
 
-   Os nomes dos formulários aduaneiros são exibidos somente se houver formulários personalizados anexados ao objeto.
+   Os nomes dos formulários de alfândega são exibidos somente se houver formulários personalizados anexados ao objeto.
 
    * Finanças
+
    >[!TIP]
    >
    >Para obter informações sobre todos os campos exibidos na área Detalhes, continue editando todos os campos usando a caixa Editar modelo abaixo.
 
-1. (Condicional) Para editar todas as informações sobre o modelo, clique no botão **Mais** menu ![](assets/qs-more-icon-on-an-object.png) ao lado do nome do modelo, em seguida, clique em **Editar**.
+1. (Condicional) Para editar todas as informações sobre o modelo, clique no link **Mais** menu ![](assets/qs-more-icon-on-an-object.png) ao lado do nome do modelo e clique em **Editar**.
 
-   O **Editar modelo** será aberta. As seções nesta caixa contêm os mesmos campos disponíveis na seção Detalhes do modelo .
+   A variável **Editar modelo** é aberta. As seções nesta caixa contêm os mesmos campos disponíveis na seção Detalhes do Modelo .
 
-1. Considere editar as informações em qualquer uma das seguintes seções:
+1. Considere a edição de informações em qualquer uma das seguintes seções:
 
-   * [Nome do Modelo](#template-name)
+   * [Nome do modelo](#template-name)
    * [Visão geral](#overview-preview)
    * [Finanças](#finance-preview)
    * [Formulários personalizados](#custom-forms-preview)
-   * [Parâmetros do projeto](#project-settings)
+   * [Configurações do projeto](#project-settings)
    * [Configurações de tarefas](#task-settings)
    * [Configurações do problema](#issue-settings)
-   * [Acesso](#access-preview)
+   * [Access](#access-preview)
 
 
 ### Nome do Modelo{#template-name}
 
-1. Comece a editar seu modelo conforme descrito acima.
-1. No **Editar modelo** , clique em **Nome do modelo**.
-1. (Opcional) Continue editando as seções a seguir, dependendo das informações que deseja modificar
+1. Comece a editar o template conforme descrito acima.
+1. No **Editar modelo** clique em **Nome do modelo**.
+1. (Opcional) Continue editando as seções a seguir, dependendo das informações que você deseja modificar
 
    Ou
 
@@ -603,8 +604,8 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 ### Visão geral {#overview-preview}
 
-1. Comece a editar seu modelo conforme descrito acima.
-1. No **Editar modelo** , clique em **Visão geral**.
+1. Comece a editar o template conforme descrito acima.
+1. No **Editar modelo** clique em **Visão geral**.
 
    ![](assets/edit-template-box-overview-section.png)
 
@@ -616,57 +617,57 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <tbody> 
          <tr> 
          <td role="rowheader"><strong>Descrição</strong></td> 
-         <td>Adicione mais informações sobre o modelo.</td> 
+         <td>Adicione mais informações sobre o template.</td> 
        </tr> 
          <tr> 
          <td role="rowheader"><strong>Prioridade</strong></td> 
-         <td><p>Este é apenas um sinalizador visual para você, que permite priorizar seus projetos futuros. Selecione dentre as seguintes opções:</p> 
+         <td><p>Este é apenas um sinalizador visual para você, que permite priorizar seus projetos futuros. Selecione entre as seguintes opções:</p> 
          <ul> 
          <li><p><strong>Nenhum(a)</strong></p></li> 
          <li><p><strong>Baixa</strong></p></li> 
          <li><p><strong>Normal</strong></p></li> 
          <li><p><strong>Alta</strong></p></li> 
          <li><p><strong>Urgente</strong></p></li> 
-         </ul><p><p>Dependendo das Preferências do projeto selecionadas pelo administrador do Workfront, os nomes das prioridades podem ser diferentes para você. Para obter mais informações sobre como editar prioridades, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Criar e personalizar prioridades</a>.</p></p></td> 
+         </ul><p><p>Dependendo das Preferências do projeto selecionadas pelo administrador do Workfront, os nomes das prioridades podem ser diferentes para você. Para obter mais informações sobre edição de prioridades, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Criar e personalizar prioridades</a>.</p></p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>URL</strong></td> 
-         <td>Especifique um link da Web que esteja relacionado a informações sobre esse modelo.</td> 
+         <td>Especifique um link da Web relacionado às informações sobre este modelo.</td> 
        </tr>
        <tr> 
-       <td role="rowheader"><strong>Tipo de Condição</strong></td> 
-       <td><p>Selecione entre os seguintes Tipos de condição:</p> 
+       <td role="rowheader"><strong>Tipo de condição</strong></td> 
+       <td><p>Selecione entre os seguintes Tipos de Condição:</p> 
          <ul> 
-         <li><strong>Manual:</strong> O proprietário do projeto define manualmente a Condição do projeto no projeto. <strong></strong></li> 
-         <li><strong>Status do progresso:</strong> O Workfront define automaticamente a Condição do projeto futuro com base no Status de Andamento das tarefas no Caminho Crítico. Para obter mais informações sobre como entender o Status do Progresso, consulte <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Visão geral do status de progresso da tarefa</a>.</li> 
+         <li><strong>Manual:</strong> O proprietário do projeto define a Condição do projeto no projeto manualmente. <strong></strong></li> 
+         <li><strong>Status do progresso:</strong> O Workfront define automaticamente a Condição do projeto futuro com base no Status de progresso das tarefas no Caminho crítico. Para obter mais informações sobre como entender o Status do Progresso, consulte <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Visão geral do status de progresso da tarefa</a>.</li> 
        </ul>
          </td> 
          </tr> 
        <tr> 
-         <td role="rowheader"><strong>Modo de Cronograma</strong></td> 
-         <td><p>Especifique se o projeto que usa este modelo está agendado do <strong>Data inicial</strong>ou da <strong>Data de conclusão</strong>. Essa seleção determina as datas planejadas das tarefas futuras no projeto usando este template. </p><p>Selecione uma das opções a seguir: </p> 
+         <td role="rowheader"><strong>Modo de cronograma</strong></td> 
+         <td><p>Especificar se o projeto que está usando este modelo está agendado na <strong>Data de início</strong>, ou do <strong>Data de Término</strong>. Esta seleção determina as datas planejadas das tarefas futuras no projeto usando este modelo. </p><p>Selecione entre as seguintes opções: </p> 
        <ul> 
-       <li><p><strong>Agendar da Data Inicial</strong>: A Data inicial do modelo é, na verdade, o Dia inicial. Quando você agenda um modelo a partir da Data inicial, o Adobe Workfront calcula o Dia de conclusão do modelo com base na Duração de todas as tarefas do modelo. O Dia de início do modelo se torna a Data de início planejada do projeto futuro.</p></li> 
-       <li><p><strong>Programar a partir da data de conclusão</strong>: A Data de conclusão do modelo é, na verdade, o Dia de conclusão. Quando você agenda um modelo a partir da Data de conclusão, o Workfront calcula o Dia de início do modelo com base na Duração de todas as tarefas do modelo. O Dia de conclusão do modelo se torna a Data de conclusão planejada do projeto futuro. </p></li> 
-       </ul><p>Para obter mais informações sobre os Dias de início e conclusão das tarefas do modelo, consulte <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Visão geral dos Dias de início e conclusão em um modelo</a>. </p><p>A configuração Agendar de para modelos é semelhante à dos projetos. O administrador do Workfront seleciona a configuração padrão Agendar de para os projetos em seu sistema. Para obter informações sobre a definição de padrões do projeto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar preferências de projeto em todo o sistema</a>.</p></td> 
+       <li><p><strong>Agendar a Partir da Data de Início</strong>: a data de início do modelo é, na verdade, o dia de início. Ao agendar um modelo a partir da Data inicial, o Adobe Workfront calcula o Dia de conclusão do modelo com base na Duração de todas as tarefas do modelo. O dia de início do modelo se torna a Data de início planejada do projeto futuro.</p></li> 
+       <li><p><strong>Programação a partir da data de conclusão</strong>: a data de conclusão do modelo é o dia de conclusão. Ao programar um modelo a partir da Data de conclusão, o Workfront calcula o Dia de início do modelo com base na Duração de todas as tarefas do modelo. O Dia de conclusão do modelo se torna a Data de conclusão planejada do projeto futuro. </p></li> 
+       </ul><p>Para obter mais informações sobre os Dias de Início e Término das tarefas do modelo, consulte <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Visão Geral dos Dias de Início e Término em um modelo</a>. </p><p>A configuração Agendar de dos modelos é semelhante à dos projetos. O administrador do Workfront seleciona a configuração padrão Agendar de para os projetos do seu sistema. Para obter informações sobre como configurar os padrões do projeto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar preferências de projeto em todo o sistema</a>.</p></td> 
        </tr>
 
    <tr> 
          <td role="rowheader"><strong>Portfólio</strong></td> 
-         <td><p>Especifique um Portfolio para os projetos criados a partir deste modelo. Você deve criar um Portfolio primeiro, antes que ele seja exibido na lista suspensa. </p><p>Somente portfólios ativos são exibidos na lista. Para obter mais informações sobre como criar portfólios, consulte <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Criar um portfólio </a>.</p></td> 
+         <td><p>Especifique um Portfolio para os projetos criados a partir deste modelo. Você deve criar um Portfolio primeiro, antes que ele apareça na lista suspensa. </p><p>Somente portfólios ativos são exibidos na lista. Para obter mais informações sobre como criar portfólios, consulte <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Criar um portfólio </a>.</p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Programa</strong></td> 
-         <td><p>Se você selecionou um Portfolio para o modelo, especifique um <strong>Programa</strong> para o projeto futuro. Alguns Portfolio podem não ter programas. Você deve criar um Programa primeiro, antes que ele seja exibido nesta lista suspensa. Somente programas ativos são exibidos na lista.</p><p>Para obter mais informações sobre a criação de programas, consulte <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Criar um programa</a>.</p></td> 
+         <td><p>Se você selecionou um Portfolio para o modelo, especifique um <strong>Programa</strong> para o projeto futuro. Alguns Portfolio podem não ter programas. Você deve criar um Programa primeiro, antes que ele apareça nesta lista suspensa. Somente programas ativos são exibidos na lista.</p><p>Para obter mais informações sobre a criação de programas, consulte <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Criar um programa</a>.</p></td> 
        </tr>  
        <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
          <td role="rowheader"><strong>Grupo</strong></td> 
-         <td><p>Na lista suspensa, selecione o grupo que deseja associar aos projetos criados a partir do modelo. Pode ser um grupo de qualquer nível. </p><p>Você pode selecionar o grupo certo ao passar o mouse sobre ele e clicar no ícone de informações <img src="assets/info-icon.png"> que é exibido ao lado dele. Isso exibe uma dica de ferramenta listando informações sobre o grupo, como a hierarquia de grupos acima dele e seus administradores.</p> <p><b>NOTAS</b>
+         <td><p>Na lista suspensa, selecione o grupo que deseja associar aos projetos criados a partir do modelo. Pode ser um grupo de qualquer nível. </p><p>Você pode verificar se está selecionando o grupo correto ao passar o mouse sobre ele e clicar no ícone de informações <img src="assets/info-icon.png"> que é exibido ao lado dele. Uma dica de ferramenta que lista informações sobre o grupo, como a hierarquia de grupos acima dele e seus administradores.</p> <p><b>NOTAS</b>
 
    <ul> 
-       <li><p>Na área Projetos da página de um grupo, quando alguém cria um projeto usando um modelo que não tem um grupo selecionado, o sistema associa o grupo aberto no momento ao projeto.</p><p>Isso é diferente de outras áreas em que o sistema associa o Grupo doméstico de um usuário ao projeto quando o usuário cria o projeto usando um modelo que não tem um grupo selecionado.</p></li> 
-       <li><p>Se um usuário selecionar um modelo que tenha um grupo selecionado durante a criação de um projeto, ou durante a conversão de uma tarefa ou problema em um projeto, o usuário poderá escolher um grupo diferente para o projeto.</p></li> 
-       <li>Embora esse campo esteja disponível nos modelos somente na nova experiência do Adobe Workfront, você pode vê-lo em listas e relatórios lá e no Adobe Workfront Classic. </li> 
+       <li><p>Na área Projetos da página de um grupo, quando alguém cria um projeto usando um modelo que não tem um grupo selecionado, o sistema associa o grupo aberto no momento ao projeto.</p><p>Isso é diferente de outras áreas onde o sistema associa o Grupo inicial de um usuário ao projeto quando o usuário cria o projeto usando um modelo que não tem um grupo selecionado.</p></li> 
+       <li><p>Se um usuário selecionar um modelo que tenha um grupo selecionado ao criar um projeto ou ao converter uma tarefa ou problema em um projeto, ele poderá escolher um grupo diferente para o projeto.</p></li> 
+       <li>Embora esse campo esteja disponível em modelos somente na nova experiência do Adobe Workfront, você pode vê-lo em listas e relatórios lá e no Adobe Workfront Classic. </li> 
          </ul> </p></td> 
        </tr> 
        <tr> 
@@ -675,24 +676,25 @@ By editing issue settings, you can prevent users from adding issues inline in th
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Proprietário do modelo</strong></td> 
-         <td><p>O usuário designado como o Proprietário do modelo deve ser um usuário ativo do Workfront. </p><p>Considere o seguinte sobre o usuário designado como o Proprietário do Modelo: </p> 
+         <td><p>O usuário designado como Proprietário do Modelo deve ser um usuário ativo do Workfront. </p><p>Considere o seguinte sobre o usuário designado como o Proprietário do modelo: </p> 
          <ul> 
-         <li>Eles recebem automaticamente permissões de gerenciamento para o modelo. </li> 
+         <li>Eles recebem automaticamente permissões Gerenciar para o modelo. </li> 
          <li>Eles são adicionados à equipe do projeto e recebem automaticamente permissões de gerenciamento para o projeto criado a partir do modelo. </li> 
-         <li>Eles se tornam o Proprietário do projeto, quando o projeto é criado a partir desse modelo. </li> 
+         <li>Eles se tornam o Proprietário do projeto quando o projeto é criado a partir desse modelo. </li> 
+         <li> Se o usuário designado como Proprietário do modelo tiver acesso limitado aos modelos ou projetos por meio de seu nível de acesso, as permissões de Gerenciamento no modelo e nos projetos serão limitadas. Por exemplo, se eles tiverem somente o acesso de Visualização para modelos ou projetos em seu nível de acesso, eles receberão automaticamente permissões de Visualização no modelo e no projeto quando forem designados como o Proprietário do modelo.</li>
          </ul></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Patrocinador do modelo</strong></td> 
-         <td><p>O usuário especificado neste campo se torna o Patrocinador de Projeto, quando o modelo é adicionado ao projeto. Esse usuário é adicionado à equipe do projeto e recebe automaticamente permissões de exibição ao projeto. O usuário designado como Patrocinador de modelo deve ser um usuário ativo do Workfront. </p></td> 
+         <td><p>O usuário especificado nesse campo se torna o Patrocinador do projeto quando o modelo é adicionado ao projeto. Este usuário é adicionado à equipe do projeto e recebe automaticamente permissões de exibição para o projeto. O usuário designado como Patrocinador do modelo deve ser um usuário ativo do Workfront. </p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Gerenciador de Recursos</strong></td> 
-         <td><p>Os usuários especificados recebem automaticamente permissões de gerenciamento para projetos futuros e podem atribuir recursos às tarefas e problemas dos projetos. Você pode especificar mais de um Gerenciador de Recursos. </p></td> 
+         <td><p>Os usuários especificados recebem automaticamente permissões de gerenciamento para os projetos futuros e podem atribuir recursos às tarefas e problemas dos projetos. Você pode especificar mais de um Gerenciador de recursos. </p></td> 
        </tr> 
       </table>
 
-1. (Opcional) Continue editando as seções a seguir, dependendo das informações que deseja modificar.
+1. (Opcional) Continue editando as seções a seguir, dependendo das informações que você deseja modificar.
 
    Ou
 
@@ -700,8 +702,8 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 ### Finanças {#finance-preview}
 
-1. Comece a editar seu modelo conforme descrito acima.
-1. No **Editar modelo** , clique em **Finanças**.
+1. Comece a editar o template conforme descrito acima.
+1. No **Editar modelo** clique em **Finanças**.
 
    ![](assets/edit-template-box-finance-section.png)
 
@@ -713,7 +715,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <tbody>
        <tr> 
          <td role="rowheader"><strong> Moeda</strong></td> 
-         <td><p>Especifique a moeda do projeto futuro, se ela for diferente da moeda padrão do sistema. Este campo não estará visível se você tiver apenas a moeda padrão no sistema.<br>Para obter mais informações sobre moeda, consulte <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar taxas de câmbio</a>.</p></td> 
+         <td><p>Especifique a moeda para o projeto futuro, se for diferente da moeda padrão do sistema. Esse campo não estará visível se você só tiver a moeda padrão no sistema.<br>Para obter mais informações sobre moeda, consulte <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar taxas de câmbio</a>.</p></td> 
        </tr>
        <tr> 
        <td role="rowheader"><strong>Orçamento</strong></td> 
@@ -721,34 +723,34 @@ By editing issue settings, you can prevent users from adding issues inline in th
        </tr>  
        <tr> 
          <td role="rowheader"><strong>Método Índice de desempenho</strong></td> 
-         <td><p>Escolha como o Workfront calculará as métricas de Valor Ganhado do projeto futuro. Escolha entre as opções a seguir:
+         <td><p>Escolha como o Workfront calculará as métricas de Valor agregado do projeto futuro. Escolha entre as seguintes opções:
          <ul>
          <li>Baseado em Hora</li>
          <li>Baseado em Custo</li>
          </ul>
 
-   Para obter mais informações sobre o Método de Índice de Desempenho, consulte <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Definir o PIM (Performance Index Method)</a>. </p></td>
+   Para obter mais informações sobre o Método Índice de desempenho, consulte <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Definir o PIM (Método de Índice de Desempenho)</a>. </p></td>
    </tr> 
          <tr> 
          <td role="rowheader"><strong>Benefício Planejado</strong></td> 
-         <td><p>Especifique o Benefício Planejado dos projetos criados a partir deste modelo. O Benefício Planejado é usado no Business Case do projeto e no Portfolio Otimizer. </p><p>Para obter mais informações sobre o Benefício Planejado de um projeto, consulte <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Visão geral do benefício planejado do projeto</a>. O Benefício Planejado de um projeto é considerado quando o Valor Líquido de um projeto é calculado. </p><p>Para obter mais informações sobre como usar o Portfolio Otimizer, consulte <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Gerenciar projetos no Portfolio Otimizer</a> </p></td> 
+         <td><p>Especifique o Benefício Planejado dos projetos criados com base neste modelo. O Benefício Planejado é usado no Business Case do projeto e no Otimizador de Portfolio. </p><p>Para obter mais informações sobre o Benefício Planejado de um projeto, consulte <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Visão Geral do Benefício Planejado do projeto</a>. O Benefício Planejado de um projeto é considerado quando o Valor Líquido de um projeto é calculado. </p><p>Para obter mais informações sobre o uso do Otimizador de Portfolio, consulte <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Gerenciar projetos no Portfolio Otimizer</a> </p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Custo Fixo</strong></td> 
-         <td><p>Especifique o Custo Fixo para os projetos criados a partir deste modelo. Isso é diferente do Custo da Mão-de-Obra que vem das horas do projeto e do Custo da Despesa que vem da quantia de despesas do projeto. O Custo Fixo de um projeto é considerado ao calcular o Valor Líquido de um projeto e faz parte do Custo Orçado.</p></td> 
+         <td><p>Especifique o Custo Fixo dos projetos criados a partir deste modelo. Isso é diferente do Custo de mão de obra que vem das horas no projeto e do Custo de despesa que vem da quantidade de despesas no projeto. O Custo Fixo de um projeto é considerado ao calcular o Valor Líquido de um projeto e faz parte do Custo Orçado.</p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Receita com Valor Fixo</strong></td> 
-       <td><p>Especifique a Receita Fixa para os projetos criados a partir deste modelo.</p></td> 
+       <td><p>Especifique a Receita fixa para os projetos criados a partir deste modelo.</p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Exigir que o tempo seja aprovado para este projeto</strong></td> 
-       <td><p>Selecione essa opção para exigir que o Proprietário do projeto futuro criado a partir desse modelo aprove o tempo de logon no projeto. Se você estiver usando Registros de Faturamento e selecionar essa opção, somente as horas aprovadas no projeto aparecerão como horas faturáveis disponíveis para os Registros de Faturamento. O tempo de aprovação no projeto não depende da aprovação das folhas de ponto. Para obter mais informações sobre a necessidade de tempo para ser aprovado em um projeto, consulte <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Exigir tempo para ser aprovado para um projeto</a>.</p></td> 
+       <td><p>Selecione esta opção para exigir que o Proprietário do projeto futuro criado a partir deste modelo aprove as horas registradas no projeto. Se você estiver usando Registros de cobrança e selecionar essa opção, somente as horas aprovadas no projeto aparecerão como horas faturáveis disponíveis para os Registros de cobrança. A aprovação de horas no projeto é independente da aprovação de folhas de horas. Para obter mais informações sobre a exigência de tempo para aprovação em um projeto, consulte <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Exigir que o tempo seja aprovado para um projeto</a>.</p></td> 
        </tr> 
        </tbody> 
       </table>
 
-1. (Opcional) Continue editando as seções a seguir, dependendo das informações que deseja modificar.
+1. (Opcional) Continue editando as seções a seguir, dependendo das informações que você deseja modificar.
 
    Ou
 
@@ -756,26 +758,26 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 ### Formulários personalizados {#custom-forms-preview}
 
-1. Comece a editar seu modelo conforme descrito acima.
-1. No **Editar modelo** , clique em **Forms personalizada**.
+1. Comece a editar o template conforme descrito acima.
+1. No **Editar modelo** clique em **Forms personalizado**.
 
    ![](assets/edit-template-box-custom-forms-section.png)
 
-   Os nomes dos formulários personalizados que já estão anexados ao modelo são exibidos no painel esquerdo.
+   Os nomes dos formulários personalizados já anexados ao modelo são exibidos no painel esquerdo.
 
-1. Clique dentro do **Adicionar formulário personalizado** e selecione o formulário ou formulários personalizados que deseja associar ao modelo. Você deve criar os formulários personalizados antes que eles estejam disponíveis para seleção neste campo.
+1. Clique dentro do **Adicionar formulário personalizado** e selecione os formulários personalizados que deseja associar ao modelo. Você deve criar os formulários personalizados antes que eles estejam disponíveis para seleção neste campo.
 
-   Somente os formulários personalizados ativos são exibidos na lista. Para obter mais informações sobre como criar formulários personalizados, consulte [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   Somente formulários personalizados ativos são exibidos na lista. Para obter mais informações sobre a criação de formulários personalizados, consulte [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-   É possível adicionar até dez formulários personalizados a um modelo.
+   Você pode adicionar até dez formulários personalizados a um modelo.
 
-   Os formulários serão adicionados ao projeto criado a partir desse modelo.
+   Os formulários serão adicionados ao projeto criado a partir deste modelo.
 
-1. (Opcional) Atualize as informações em qualquer um dos campos nos formulários personalizados. As informações serão transferidas para os projetos que serão criados a partir do template.
+1. (Opcional) Atualize as informações em qualquer um dos campos nos formulários personalizados. As informações serão transferidas para os projetos que serão criados a partir do modelo.
 
-1. (Opcional) Clique no botão **x** à direita de um nome de formulário personalizado, em seguida, clique em **Remover** para removê-lo do template.
+1. (Opcional) Clique no link **x** ícone à direita do nome de um formulário personalizado e clique em **Remover** para removê-lo do template.
 
-1. (Opcional) Continue editando a seção a seguir, dependendo das informações que deseja modificar.
+1. (Opcional) Continue editando a seção a seguir, dependendo das informações que você deseja modificar.
 
    Ou
 
@@ -783,8 +785,8 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 ### Parâmetros do projeto {#project-settings}
 
-1. Comece a editar seu modelo conforme descrito acima.
-1. No **Editar modelo** , clique em **Configurações do projeto**.
+1. Comece a editar o template conforme descrito acima.
+1. No **Editar modelo** clique em **Configurações do projeto**.
 
    ![](assets/edit-template-box-project-settings-section.png)
 
@@ -796,136 +798,136 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <tbody> 
        <tr> 
        <td role="rowheader"><strong>Caminho de Etapas</strong> </td> 
-       <td> <p>Selecione um caminho de marco para o modelo. Somente os caminhos de marco ativos são exibidos na lista.<br>Para obter mais informações sobre Caminhos de marcos, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Criar um caminho de marco</a>.</p> </td> 
+       <td> <p>Selecione um Caminho de Etapas para o modelo. Somente os caminhos de etapas ativos são exibidos na lista.<br>Para obter mais informações sobre Caminhos de Etapas, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Criar um caminho de etapas</a>.</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Modelo de Término</strong> </td> 
-         <td> <p>Controla como o projeto futuro será marcado como Concluído. <br>Selecione dentre as seguintes opções:</p> 
+         <td role="rowheader"><strong>Modo de conclusão</strong> </td> 
+         <td> <p>Controla como o projeto futuro será marcado como Concluído. <br>Selecione entre as seguintes opções:</p> 
          <ul> 
-         <li> <p><strong>Automático</strong>: O projeto é marcado como Concluído quando todas as tarefas e problemas são concluídos.</p> </li> 
-         <li> <p><strong>Manual</strong>: É necessário selecionar manualmente o status Concluído do projeto, quando todas as tarefas e problemas forem concluídos. </p> </li> 
+         <li> <p><strong>Automático</strong>: o projeto é marcado como Concluído quando todas as tarefas e problemas são concluídos.</p> </li> 
+         <li> <p><strong>Manual</strong>: é necessário selecionar manualmente o status Concluído para o projeto quando todas as tarefas e problemas estiverem concluídos. </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Modo de conclusão em resumo</strong> </td> 
-       <td> <p>Controla como as tarefas pai no projeto futuro são marcadas como Concluído. <br>Selecione dentre as seguintes opções:</p> 
+       <td> <p>Controla como as tarefas pai no projeto futuro são marcadas como Concluídas. <br>Selecione entre as seguintes opções:</p> 
        <ul> 
-       <li> <p><strong>Automático</strong>: As tarefas pai são marcadas como Concluído e atualizam sua porcentagem de conclusão automática, à medida que as tarefas filho são concluídas e a porcentagem de conclusão das crianças é atualizada. </p> </li> 
-       <li> <p><strong>Manual</strong>: É necessário atualizar manualmente a porcentagem concluída e o status das tarefas pai, independentemente de quais alterações são feitas nas tarefas filho. </p> </li> 
+       <li> <p><strong>Automático</strong>: as tarefas pai são marcadas como Concluídas e atualizam seu percentual concluído automaticamente, à medida que as tarefas filho são concluídas e o percentual concluído dos filhos é atualizado. </p> </li> 
+       <li> <p><strong>Manual</strong>: é necessário atualizar manualmente o percentual concluído e o status das tarefas pai, independentemente de quais alterações são feitas nas tarefas filho. </p> </li> 
        </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Tipo de Atualização</strong> </td> 
+         <td role="rowheader"><strong>Tipo de atualização</strong> </td> 
          <td> <p>Controla quando as alterações feitas na linha do tempo do projeto futuro são salvas no projeto. </p> 
          <b>EXEMPLO </b> 
          <p>As seguintes alterações no projeto acionam uma atualização na linha do tempo do projeto:</p> 
          <ul> 
          <li> <p>atualizar as datas das tarefas</p> </li> 
-         <li> <p>alterar relações anteriores<br></p> </li> 
+         <li> <p>alterar relacionamentos de predecessores<br></p> </li> 
          <li> <p>alterar relações pai-filho</p> </li> 
-         <li> <p>adicione ou remova atribuições além de alterar a restrição da tarefa ou o tipo de duração.</p> </li> 
+         <li> <p>adicionar ou remover atribuições além de alterar a restrição ou o tipo de duração da tarefa.</p> </li> 
          </ul> 
-         </div> <p>Selecione dentre as seguintes opções:<br></p> 
+         </div> <p>Selecione entre as seguintes opções:<br></p> 
          <ul> 
-         <li> <p><strong>Automático e On Change</strong> (Configuração padrão): A linha do tempo do projeto futuro é atualizada sempre que uma alteração ocorre no projeto ou em outro projeto no qual a linha do tempo depende (On Change). A linha do tempo do projeto também é atualizada todas as noites (Automático).<br>Essa é a configuração recomendada para esse campo, pois garante que a linha do tempo do projeto esteja sempre atualizada.<br>Quando você executa uma ação em uma tarefa ou projeto que aciona um recálculo de linha do tempo, todas as datas disponíveis são exibidas imediatamente, permitindo que você continue trabalhando. Em projetos com mais de 100 tarefas, datas que exigem cálculos mais longos são exibidas brevemente como um ponto de interrogação (entre 1 e 5 segundos ou até um minuto para projetos grandes). Isso indica que o recálculo ainda não foi concluído e que as datas estão sujeitas a alterações.<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>Somente alteração</strong>: A linha do tempo do projeto é atualizada sempre que uma alteração ocorre no projeto ou em outro projeto do qual a linha do tempo depende. Você pode selecionar essa opção se raramente ocorrerem alterações no projeto ou em outros projetos dependentes da linha do tempo.<br></p> </li> 
+         <li> <p><strong>Automático e Mediante alteração</strong> (Configuração padrão): a linha do tempo do projeto futuro é atualizada sempre que uma alteração ocorre no projeto ou em outro projeto do qual a linha do tempo depende (Na alteração). A linha do tempo do projeto também é atualizada todas as noites (Automático).<br>Essa é a configuração recomendada para esse campo, pois garante que a linha do tempo do projeto esteja sempre atualizada.<br>Quando você executa uma ação em uma tarefa ou projeto que aciona um recálculo de linha do tempo, todas as datas disponíveis são exibidas imediatamente, permitindo que você continue trabalhando. Em projetos com mais de 100 tarefas, as datas que exigem recálculos mais longos são exibidas brevemente como um ponto de interrogação (entre 1 e 5 segundos ou até um minuto para projetos grandes). Isso indica que o recálculo ainda não foi concluído e as datas estão sujeitas a alterações.<br></p> </li> 
          </ul> 
          <ul> 
-         <li> <p><strong>Somente Automático</strong>: O calendário do projeto é atualizado todas as noites; ela não é atualizada imediatamente após a realização de alterações.<br>Você pode selecionar essa opção se muitas alterações ocorrerem a cada dia no projeto ou em outros projetos dos quais a linha do tempo dependa. No entanto, lembre-se de que você escolheu essa configuração, pois o projeto não será atualizado ao mesmo tempo em que as alterações são feitas.<br></p> </li> 
+         <li> <p><strong>Somente Alteração</strong>: a linha do tempo do projeto é atualizada sempre que uma alteração ocorre no projeto ou em outro projeto do qual a linha do tempo depende. Você pode selecionar essa opção se alterações raramente ocorrerem no projeto ou em outros projetos dos quais a linha do tempo depende.<br></p> </li> 
          </ul> 
          <ul> 
-         <li> <p><strong>Somente Manual</strong>: A linha do tempo do projeto é atualizada somente ao selecionar a opção Recalcular Linhas do Tempo, conforme descrito em <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalcular linhas do tempo do projeto</a>.<br></p> </li> 
-         </ul> <p>Talvez você queira selecionar essa opção se estiver fazendo muitas alterações no projeto de uma vez e desejar que o recálculo da linha do tempo ocorra após todas as alterações terem sido feitas (em vez de após cada alteração individual).</p> </td> 
+         <li> <p><strong>Somente automática</strong>: a linha do tempo do projeto é atualizada todas as noites; ela não é atualizada imediatamente após a realização de alterações.<br>Você pode selecionar essa opção se muitas alterações ocorrerem todos os dias no projeto ou em outros projetos dos quais a linha do tempo depende. No entanto, lembre-se de que você escolheu essa configuração, pois o projeto não será atualizado ao mesmo tempo em que as alterações são feitas.<br></p> </li> 
+         </ul> 
+         <ul> 
+         <li> <p><strong>Somente manual</strong>: A linha do tempo do projeto é atualizada somente quando você seleciona a opção Recalcular Linhas do Tempo, conforme descrito em <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalcular linhas do tempo do projeto</a>.<br></p> </li> 
+         </ul> <p>Você pode selecionar essa opção se estiver fazendo muitas alterações ao projeto de uma vez e quiser que o recálculo da linha do tempo ocorra após todas as alterações terem sido feitas (em vez de após cada alteração individual).</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Cronograma</strong> </td> 
-         <td> <p>Selecione um agendamento para seu modelo. Isso se tornará o agendamento do projeto criado a partir desse template. Esse deve ser o mesmo agendamento atribuído à maioria das pessoas que estão trabalhando no projeto. Você deve criar um agendamento antes de atribuí-lo a um template.<br>Para obter mais informações sobre como criar programações, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Criar um agendamento</a>. <br>Se você não tiver criado agendamentos personalizados em seu sistema, a Programação Padrão será selecionada. </p> </td> 
+         <td role="rowheader"><strong>Agendar</strong> </td> 
+         <td> <p>Selecione um agendamento para o seu modelo. Isso se tornará o agendamento do projeto criado a partir desse modelo. Deve ser o mesmo agendamento atribuído à maioria das pessoas que estão trabalhando no projeto. Você deve criar um agendamento antes de atribuí-lo a um modelo.<br>Para obter mais informações sobre a criação de cronogramas, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Criar um agendamento</a>. <br>Se você não tiver criado agendamentos personalizados em seu sistema, o Agendamento padrão será selecionado. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Tempo de folga do usuário</strong> </td> 
-         <td> <p>Determina se a hora de desativação do Destinatário Principal de uma tarefa ajusta as datas planejadas da tarefa. Quando você anexa o modelo a um projeto existente e o modelo tem uma configuração diferente para esse campo do projeto, a configuração no projeto permanece inalterada. A opção padrão para essa configuração para um novo modelo é a mesma que a preferência de projeto no nível do sistema. </p> <p>Para obter informações sobre as preferências do projeto no nível do Sistema, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar preferências de projeto em todo o sistema</a>. </p> <p>Para obter informações sobre como essa configuração afeta as datas da tarefa em um projeto, consulte <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Editar projetos</a>.<br>Selecione dentre as seguintes opções:<br></p> 
+         <td> <p>Determina se o tempo de folga do Destinatário principal de uma tarefa ajusta as datas planejadas da tarefa. Quando você anexa o modelo a um projeto existente e o modelo tem uma configuração para esse campo diferente do projeto, a configuração no projeto permanece inalterada. A opção padrão para essa configuração para um novo modelo é a mesma que a preferência de projeto no nível do sistema. </p> <p>Para obter informações sobre as preferências do projeto no nível do Sistema, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar preferências de projeto em todo o sistema</a>. </p> <p>Para obter informações sobre como essa configuração afeta as datas da tarefa em um projeto, consulte <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Editar projetos</a>.<br>Selecione entre as seguintes opções:<br></p> 
          <ul> 
-         <li> <p><strong>Considere o tempo limite do usuário nas durações da tarefa</strong>: Ao selecionar essa opção, as datas planejadas das tarefas no projeto criado a partir desse template se ajustam de acordo com o tempo de folga do Destinatário Principal da tarefa, se o tempo de folga ocorrer durante a duração da tarefa. </p> </li> 
-         <li> <p><strong>Ignorar tempo limite do usuário nas durações da tarefa</strong>: Ao selecionar essa opção, as datas planejadas das tarefas no projeto criado a partir desse template permanecem como originalmente planejadas, mesmo que o Destinatário Principal da tarefa tenha tempo de folga durante a duração da tarefa. </p> </li> 
+         <li> <p><strong>Considerar o tempo de folga do usuário nas durações de tarefas</strong>: ao selecionar essa opção, as datas planejadas das tarefas no projeto criado a partir desse modelo se ajustam de acordo com o tempo livre do Principal responsável da tarefa, se o tempo livre ocorrer durante a duração da tarefa. </p> </li> 
+         <li> <p><strong>Ignorar o tempo de folga do usuário nas durações de tarefas</strong>: ao selecionar essa opção, as datas planejadas das tarefas no projeto criado a partir desse modelo permanecem como planejadas originalmente, mesmo que o Principal responsável da tarefa tenha uma folga durante a duração da tarefa. </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Modo de Nivelamento de Recursos</strong> </td> 
-         <td> <p>Selecione dentre as seguintes opções:<br></p> 
+         <td> <p>Selecione entre as seguintes opções:<br></p> 
          <ul> 
-         <li> <p><strong>Manual</strong>: você deve nivelar manualmente os recursos no projeto criado a partir deste modelo (esta é a configuração padrão)</p> </li> 
-         <li> <p><strong>Automático:</strong> A Workfront nivela os recursos no projeto futuro. <br>Para obter mais informações sobre Nivelamento de Recursos, consulte <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Recursos de nível no gráfico de Gantt </a>. </p> </li> 
+         <li> <p><strong>Manual</strong>: você deve nivelar manualmente os recursos no projeto criado a partir desse modelo (essa é a configuração padrão)</p> </li> 
+         <li> <p><strong>Automático:</strong> A Workfront nivela os recursos no projeto futuro. <br>Para obter mais informações sobre o Nivelamento de Recursos, consulte <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Nivelar Recursos no Gráfico de Gantt </a>. </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Risco</strong> </td> 
-         <td> <p>Defina o nível de risco dos projetos criados a partir desse template. O risco é apenas um indicador de quão arriscado um projeto pode ser. É possível priorizar a execução dos projetos com base no nível de risco.<br>Considere a seleção entre os seguintes níveis de risco:<br></p> 
+         <td> <p>Defina o nível de risco dos projetos criados a partir deste modelo. O risco é apenas um indicador do quão arriscado um projeto pode ser. Você pode priorizar a execução de seus projetos com base no nível de risco.<br>Considere selecionar entre os seguintes níveis de risco:<br></p> 
          <ul> 
-         <li> <p><strong>Muito Baixo</strong> </p> </li> 
+         <li> <p><strong>Muito baixo</strong> </p> </li> 
          <li> <p><strong>Baixa</strong> </p> </li> 
-         <li> <p><strong>Média</strong> </p> </li> 
+         <li> <p><strong>Medium</strong> </p> </li> 
          <li> <p><strong>Alta</strong> </p> </li> 
-         <li> <p><strong>Muito Alto</strong> </p> </li> 
+         <li> <p><strong>Muito alto</strong> </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Conjuntos de Recursos</strong> </td> 
-         <td> <p>Especifique os pools de recursos associados ao modelo. Os pools de recursos são coleções de usuários que são necessárias ao mesmo tempo para a conclusão de um projeto. Para obter mais informações sobre pools de recursos, consulte <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Visão geral dos pools de recursos </a>.</p> <p> <p><b>Nota</b>
+         <td role="rowheader"><strong>Conjuntos de recursos</strong> </td> 
+         <td> <p>Especifique os conjuntos de recursos associados ao modelo. Conjuntos de recursos são coleções de usuários que são necessárias ao mesmo tempo para a conclusão de um projeto. Para obter mais informações sobre conjuntos de recursos, consulte <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Visão geral dos conjuntos de recursos </a>.</p> <p> <p><b>Nota</b>
 
-   Ao editar modelos em massa, somente os pools de recursos comuns a todos os modelos selecionados aparecem nesse campo. Se os modelos selecionados não tiverem pools de recursos compartilhados, esse campo estará vazio. Os pools de recursos especificados aqui substituirão os pools de recursos individuais dos modelos.</p> </p> </td>
+   Ao editar modelos em massa, somente os conjuntos de recursos comuns a todos os modelos selecionados aparecem nesse campo. Se os modelos selecionados não tiverem conjuntos de recursos compartilhados, esse campo estará vazio. Os conjuntos de recursos especificados aqui substituirão os conjuntos de recursos individuais dos modelos.</p> </p> </td>
    </tr>
        <tr> 
-         <td role="rowheader"><strong>Filtrar por Tipos de horas</strong> </td> 
-         <td> <p>Considere o seguinte:</p> <p>Selecionar <strong>Não</strong> para disponibilizar todos os tipos de horas específicos do projeto no projeto futuro. (Esta é a seleção padrão)</p> <p>Ou</p> <p>Selecionar <strong>Sim</strong> para disponibilizar apenas um subconjunto dos tipos de hora específicos do projeto no projeto futuro, selecione os tipos de hora que deseja disponibilizar. (Mantenha pressionada a tecla Shift para selecionar vários tipos de hora.)</p> <p>Se você selecionar essa opção, somente os tipos de hora selecionados serão disponibilizados para selecionar ao registrar horas no projeto (ou em tarefas e problemas no projeto). Você deve selecionar pelo menos um tipo de hora; se você selecionar essa opção e não selecionar nenhum tipo de hora, todos os tipos de hora serão disponibilizados no projeto.</p> <p>As mesmas seleções de tipo de hora devem ser feitas no nível do usuário individual para que o usuário veja essas opções de tipo de hora no projeto. </p> <p>Para obter mais informações sobre como definir tipos de hora no nível do usuário, consulte a seção <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">Tempo de registro</a> em <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Tempo de registro</a>.</p> </td> 
+         <td role="rowheader"><strong>Filtrar tipo de horas</strong> </td> 
+         <td> <p>Considere o seguinte:</p> <p>Selecionar <strong>Não</strong> para disponibilizar todos os tipos de horas específicos do projeto no projeto futuro. (Esta é a seleção padrão)</p> <p>Ou</p> <p>Selecionar <strong>Sim</strong> para disponibilizar somente um subconjunto dos tipos de hora específicos do projeto no projeto futuro, selecione os tipos de hora que deseja disponibilizar. (Mantenha pressionada a tecla Shift para selecionar vários tipos de horas.)</p> <p>Se você selecionar essa opção, somente os tipos de horas selecionados serão disponibilizados para seleção ao registrar horas no projeto (ou em tarefas e problemas no projeto). Você deve selecionar pelo menos um tipo de hora; se você selecionar essa opção e não selecionar nenhum tipo de hora, todos os tipos de hora serão disponibilizados no projeto.</p> <p>As mesmas seleções de tipo de hora devem ser feitas no nível do usuário individual para que o usuário veja essas opções de tipo de hora no projeto. </p> <p>Para obter mais informações sobre como definir tipos de horas no nível do usuário, consulte a seção <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">Registrar tempo</a> in <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Registrar tempo</a>.</p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Processo de aprovação</strong> </td> 
-         <td> <p>Selecione o processo de aprovação que deseja associar ao template. O administrador do Workfront ou um usuário com acesso administrativo aos Processos de aprovação deve definir processos de aprovação de projeto no nível do sistema ou de grupo antes de associá-los a um modelo. Para obter mais informações sobre a criação de processos de aprovação, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Criar um processo de aprovação para itens de trabalho</a>.</p> <p>Considere o seguinte ao adicionar processos de aprovação: </p> 
+         <td> <p>Selecione o processo de aprovação que deseja associar ao modelo. O administrador do Workfront ou um usuário com acesso administrativo aos Processos de aprovação deve definir processos de aprovação de projeto no nível do sistema ou no nível do grupo antes de ser associado a um modelo. Para obter mais informações sobre como criar processos de aprovação, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Criar um processo de aprovação para itens de trabalho</a>.</p> <p>Considere o seguinte ao adicionar processos de aprovação: </p> 
          <ul> 
          <li>Somente os processos de aprovação ativos são exibidos na lista. </li> 
-         <li> <p>Os processos de aprovação em todo o sistema e específicos do grupo são exibidos na lista. Um processo de aprovação associado a um grupo diferente do modelo não é exibido na lista.</p> <p><b>IMPORTANTE</b>
+         <li> <p>Os processos de aprovação específicos do grupo e de todo o sistema são exibidos na lista. Um processo de aprovação associado a um grupo diferente daquele do modelo não é exibido na lista.</p> <p><b>IMPORTANTE</b>
 
-   Se o grupo associado ao modelo for alterado, o processo de aprovação específico do grupo se tornará um processo de aprovação de uso único. Para obter mais informações sobre como as alterações no grupo do projeto ou no processo de aprovação afetam as configurações de aprovação, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Como as alterações de grupo e processo de aprovação afetam os processos de aprovação atribuídos</a>. </p> </li>
-   <li> <p>Se você tiver adicionado um processo de aprovação de uso único, ele será exibido como "Personalizado" neste campo. Para obter mais informações, consulte <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associar um processo de aprovação novo ou existente ao trabalho</a>. </p> 
+   Se o grupo associado ao modelo for alterado, o processo de aprovação específico do grupo se tornará um processo de aprovação de uso único. Para obter mais informações sobre como as alterações no grupo do projeto ou no processo de aprovação afetam as configurações de aprovação, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Como as alterações no grupo e no processo de aprovação afetam os processos de aprovação atribuídos</a>. </p> </li>
+   <li> <p>Se você adicionou um processo de aprovação de uso único, ele é exibido como "Personalizado" neste campo. Para obter informações, consulte <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associar um processo de aprovação novo ou existente ao trabalho</a>. </p> 
          </li> 
-         <li> <p>Quando modelos de edição em massa, existem os seguintes cenários:</p> 
+         <li> <p>Quando você edita modelos em massa, os seguintes cenários existem:</p> 
          <ul> 
-            <li> <p>Ao selecionar modelos do mesmo grupo, os processos de aprovação de nível de sistema e de grupo são exibidos nesse campo.</p> </li> 
-            <li> <p>Ao selecionar modelos de grupos diferentes, somente os processos de aprovação no nível do sistema são exibidos neste campo.</p> </li> 
+            <li> <p>Quando você seleciona modelos do mesmo grupo, os processos de aprovação de nível de sistema e de grupo são exibidos nesse campo.</p> </li> 
+            <li> <p>Ao selecionar modelos de grupos diferentes, somente os processos de aprovação no nível do sistema são exibidos nesse campo.</p> </li> 
             <li> <p>Quando qualquer um dos modelos tiver um processo de aprovação de uso único anexado, ele será substituído pelo nível do sistema selecionado. </p> </li> 
          </ul> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Lembrete de Notificação</strong> </td> 
-         <td>Selecione a Notificação do lembrete que deve ser associada ao projeto futuro. É necessário configurar as Notificações de lembrete para que os projetos desse campo apareçam durante a edição de um modelo. <br>Para obter mais informações sobre como configurar as Notificações do Lembrete, consulte <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Configurar notificações de lembrete</a>.</td> 
+         <td role="rowheader"><strong>Notificação de lembrete</strong> </td> 
+         <td>Selecione a Notificação de lembrete que deve ser associada ao projeto futuro. Você deve configurar Notificações de lembrete para que os projetos deste campo apareçam durante a edição de um modelo. <br>Para obter mais informações sobre como configurar Notificações de lembrete, consulte <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Configurar notificações de lembrete</a>.</td> 
        </tr> 
        </tbody> 
       </table>
 
-1. (Opcional) Continue editando as seções a seguir, dependendo das informações que deseja modificar.\
+1. (Opcional) Continue editando as seções a seguir, dependendo das informações que você deseja modificar.\
    Ou
 1. Clique em **Salvar**.
 
 ### Configurações da tarefa {#task-settings}
 
-Você pode definir os padrões que serão associados a todas as novas tarefas ao adicioná-las a um projeto criado a partir do modelo.
+Você pode definir os padrões que serão associados a todas as novas tarefas quando adicioná-los a um projeto criado a partir do modelo.
 
-Para obter informações sobre como essas configurações afetam a criação de novas tarefas, consulte [Criar visão geral de tarefas](../../../manage-work/tasks/create-tasks/create-tasks-overview.md).
+Para obter informações sobre como essas configurações afetam a criação de novas tarefas, consulte [Visão geral da criação de tarefas](../../../manage-work/tasks/create-tasks/create-tasks-overview.md).
 
-1. Comece a editar seu modelo conforme descrito acima.
-1. No **Editar modelo** , clique em **Configurações da tarefa**.
+1. Comece a editar o template conforme descrito acima.
+1. No **Editar modelo** clique em **Configurações da tarefa**.
 
    ![](assets/edit-template-box-tax-settings-section.png)
 
-1. No **Processo de aprovação padrão da tarefa** selecione o Processo de Aprovação que deseja associar a todas as novas tarefas ao adicioná-las a um projeto criado a partir desse modelo. Você deve criar um Processo de Aprovação para tarefas antes de associá-lo a tarefas. Somente os processos de aprovação ativos são exibidos na lista. Para obter mais informações sobre como criar Processos de Aprovação, consulte [Criando Processos de Aprovação](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-1. No **Forms personalizado padrão da tarefa** , selecione o formulário ou formulários personalizados que deseja associar a todas as novas tarefas ao adicioná-los a um projeto criado a partir desse modelo. Você deve criar os formulários personalizados antes que eles estejam disponíveis para seleção neste campo. Somente os formulários personalizados ativos são exibidos na lista. Para obter mais informações sobre como criar formulários personalizados, consulte [Criar Forms personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). É possível associar até dez formulários personalizados a uma tarefa.
-1. (Opcional) Selecione **Usar Esforço de Trabalho para calcular automaticamente as Horas Planejadas da tarefa** se quiser habilitar o gerenciamento do esforço de tarefa usando Esforço de Trabalho em vez de Horas Planejadas no projeto criado a partir do modelo.
-1. (Condicional e opcional) Se você selecionou Usar esforço de trabalho para calcular automaticamente as Horas planejadas da tarefa, clique no menu suspenso para atualizar a porcentagem para cada nível de esforço de trabalho. Os valores percentuais a seguir são os padrões:
+1. No **Processo padrão de aprovação de tarefas** , selecione o Processo de Aprovação que deseja associar a todas as novas tarefas ao adicioná-las a um projeto criado a partir desse modelo. Você deve criar um Processo de Aprovação para tarefas antes de associá-lo a tarefas. Somente os processos de aprovação ativos são exibidos na lista. Para obter mais informações sobre como criar Processos de Aprovação, consulte [Criando processos de aprovação](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+1. No **Forms Personalizado Padrão de Tarefa** , selecione o(s) formulário(s) personalizado(s) que deseja associar a todas as novas tarefas quando adicioná-las a um projeto criado a partir deste modelo. Você deve criar os formulários personalizados antes que eles estejam disponíveis para seleção neste campo. Somente formulários personalizados ativos são exibidos na lista. Para obter mais informações sobre a criação de formulários personalizados, consulte [Criação de Forms personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Você pode associar até dez formulários personalizados a uma tarefa.
+1. (Opcional) Selecione **Use o esforço do trabalho para calcular automaticamente as Horas Planejadas das tarefas** se quiser permitir o gerenciamento do esforço da tarefa usando o Esforço de trabalho em vez das Horas planejadas no projeto criado a partir do modelo.
+1. (Condicional e opcional) Se você selecionou Usar esforço do trabalho para calcular automaticamente as Horas planejadas das tarefas, clique no menu suspenso para atualizar a porcentagem para cada nível de esforço do trabalho. Os seguintes valores percentuais são os padrões:
 
-   | Nível de esforço do trabalho | Valor percentual |
+   | Nível de esforço de trabalho | Valor percentual |
    |---|---|
    | Pequena | 25% |
    | Média | 50% |
@@ -933,7 +935,7 @@ Para obter informações sobre como essas configurações afetam a criação de 
 
    Para obter informações sobre como usar o Esforço de trabalho para gerenciar o esforço em tarefas em projetos, consulte [Visão geral do esforço de trabalho](../../../manage-work/tasks/task-information/work-effort.md).
 
-1. (Opcional) Continue editando a seção a seguir, dependendo das informações que deseja modificar.
+1. (Opcional) Continue editando a seção a seguir, dependendo das informações que você deseja modificar.
 
    Ou
 
@@ -941,28 +943,28 @@ Para obter informações sobre como essas configurações afetam a criação de 
 
 ### Configurações do problema {#issue-settings}
 
-Ao editar as configurações de edição, você pode impedir que os usuários adicionem problemas em linha no projeto futuro criado a partir do modelo.
+Ao editar configurações de problemas, você pode impedir que os usuários adicionem problemas em linha no projeto futuro criado a partir do modelo.
 
-1. Comece a editar seu modelo conforme descrito acima.
-1. No **Editar modelo** , clique em **Configurações do problema**.
+1. Comece a editar o template conforme descrito acima.
+1. No **Editar modelo** clique em **Configurações do problema**.
 
    ![](assets/edit-template-box-issue-settings-section.png)
 
-1. (Opcional) Desmarque a opção **Permitir que usuários adicionem problemas em linha** opção. Está ativada por padrão.
+1. (Opcional) Desmarque a opção **Permitir que os usuários adicionem problemas em linha** opção. Ela é ativada por padrão.
 
-   Ao desativar essa opção, os usuários não podem adicionar problemas em linha ao projeto ou às tarefas na seção Problemas , quando o projeto é criado a partir do modelo.
+   Ao desabilitar essa opção, os usuários não podem adicionar problemas em linha ao projeto ou às tarefas na seção Problemas, quando o projeto é criado a partir do modelo.
 
    >[!TIP]
    >
-   >Desative essa opção se desejar impor que os usuários concluam os Campos da nova ocorrência ou os formulários personalizados associados a novos problemas.
+   >Desative essa opção se quiser forçar os usuários a preencherem os Campos de novo problema ou os formulários personalizados associados a novos problemas.
 
-   Ao desativar essa opção, os usuários com permissões para adicionar problemas ao projeto criado a partir do modelo podem fazer isso usando o botão Nova ocorrência ou uma fila de solicitações associada ao projeto.
+   Ao desabilitar essa opção, os usuários com permissões para adicionar problemas ao projeto criado a partir do modelo podem fazer isso usando o botão Novo problema ou uma fila de solicitações associada ao projeto.
 
-   Para obter mais informações sobre como definir configurações de problemas em projetos, consulte o [Configurações do problema](../../../manage-work/projects/manage-projects/edit-projects.md#issue) no artigo [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
+   Para obter mais informações sobre a definição de configurações de problemas em projetos, consulte [Configurações do problema](../../../manage-work/projects/manage-projects/edit-projects.md#issue) no artigo [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
    Para obter informações sobre como criar problemas em projetos, consulte [Criar problemas](../../../manage-work/issues/manage-issues/create-issues.md).
 
-1. (Opcional) Continue editando a seção a seguir, dependendo das informações que deseja modificar.
+1. (Opcional) Continue editando a seção a seguir, dependendo das informações que você deseja modificar.
 
    Ou
 
@@ -970,59 +972,59 @@ Ao editar as configurações de edição, você pode impedir que os usuários ad
 
 ### Acesso {#access-preview}
 
-1. Comece a editar seu modelo conforme descrito acima.
-1. No **Editar modelo** , clique em **Acesso**.
+1. Comece a editar o template conforme descrito acima.
+1. No **Editar modelo** clique em **Access**.
 
    ![](assets/edit-template-box-access-section.png)
 
-   O Acesso especificado para o modelo se tornará o Acesso de usuários associados ao projeto quando o modelo for usado para criar um projeto.
+   O Acesso especificado para seu modelo se tornará o Acesso de usuários associados ao projeto quando o modelo for usado para criar um projeto.
 
-   Especifique o seguinte **Acesso** informações para o modelo:
+   Especifique o seguinte **Access** informações para o modelo:
 
    <table style="table-layout:auto"> 
        <col> 
        <col> 
        <tbody> 
        <tr> 
-         <td role="rowheader"><strong>Quando alguém é atribuído a uma tarefa</strong> </td> 
-         <td> <p>Selecionar de <strong>Exibir</strong>, <strong>Contribute,</strong> ou <strong>Gerenciar</strong> acesso a uma tarefa. O usuário atribuído a uma tarefa recebe automaticamente esse acesso à tarefa. </p> </td> 
+         <td role="rowheader"><strong>Quando alguém é designado a uma tarefa</strong> </td> 
+         <td> <p>Selecionar de <strong>Exibir</strong>, <strong>Contribuir,</strong> ou <strong>Gerenciar</strong> acesso a uma tarefa. O usuário atribuído a uma tarefa recebe automaticamente esse acesso à tarefa. </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Conceder também acesso ao projeto</strong> </td> 
+         <td role="rowheader"><strong>Conceder acesso ao projeto também</strong> </td> 
          <td> <p> Selecionar de <strong>Exibir</strong>, <strong>Contribute</strong>ou <strong>Gerenciar</strong> acesso ao projeto. O usuário atribuído a uma tarefa também recebe automaticamente esse acesso ao projeto. </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Quando alguém é atribuído a um problema</strong> </td> 
-         <td> <p>Selecionar de <strong>Exibir</strong>, <strong>Contribute,</strong> ou <strong>Gerenciar</strong> acesso a um problema. O usuário atribuído a um problema recebe automaticamente esse acesso ao problema. </p> </td> 
+         <td role="rowheader"><strong>Quando alguém é designado a um problema</strong> </td> 
+         <td> <p>Selecionar de <strong>Exibir</strong>, <strong>Contribuir,</strong> ou <strong>Gerenciar</strong> acesso a um problema. O usuário atribuído a um problema recebe automaticamente esse acesso ao problema. </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Conceder também acesso ao projeto</strong> </td> 
+         <td role="rowheader"><strong>Conceder acesso ao projeto também</strong> </td> 
          <td> <p> Selecionar de <strong>Exibir</strong>, <strong>Contribute</strong>ou <strong>Gerenciar</strong> acesso ao projeto. O usuário atribuído a um problema também recebe automaticamente esse acesso ao projeto. </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Quando alguém envia uma solicitação: Conceder acesso a eles</strong> </td> 
-         <td> <p> Selecionar de <strong>Exibir</strong>, <strong>Contribute</strong>ou <strong>Gerenciar</strong> acesso à solicitação. Quando apresentam um pedido ao projeto, é-lhes concedido acesso ao pedido que apresentaram. Para obter mais informações, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartilhar um problema </a>.</p> </td> 
+         <td role="rowheader"><strong>Quando alguém enviar uma solicitação: conceda acesso a ela</strong> </td> 
+         <td> <p> Selecionar de <strong>Exibir</strong>, <strong>Contribute</strong>ou <strong>Gerenciar</strong> acesso à solicitação. Quando enviam uma solicitação para o projeto, eles recebem esse acesso à solicitação enviada. Para obter mais informações, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartilhar um problema </a>.</p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>As pessoas da mesma empresa herdarão as mesmas permissões para todas as solicitações</strong> </td> 
-         <td> <p>Selecione esse campo se desejar que as pessoas da mesma empresa tenham o mesmo acesso a todas as solicitações no projeto, independentemente de terem enviado ou não.</p> </td> 
+         <td> <p>Selecione este campo se desejar que as pessoas da mesma empresa tenham o mesmo acesso a todas as solicitações do projeto, sejam elas enviadas ou não.</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Quando alguém recebe acesso a esse projeto: Dar-lhes acesso a ...</strong> </td> 
-         <td> <p>Selecione as opções de acesso que você deseja que os usuários tenham no projeto, se o projeto for compartilhado com eles. Selecione as opções específicas para seu acesso, se elas forem designadas como <strong>Visualizadores</strong>, <strong>Contribuidores</strong>ou <strong>Gerentes</strong> ao compartilhar o projeto com eles. </p> </td> 
+         <td role="rowheader"><strong>Quando é concedido acesso a alguém a este projeto: conceda-lhe acesso a ...</strong> </td> 
+         <td> <p>Selecione as opções de acesso que você deseja que os usuários tenham no projeto, se o projeto for compartilhado com eles. Selecione as opções específicas para seu acesso, se elas forem designadas como <strong>Visualizadores</strong>, <strong>Colaboradores</strong>ou <strong>Gerentes</strong> ao compartilhar o projeto com eles. </p> </td> 
        </tr> 
        </tbody> 
       </table>
 
-1. (Opcional) Continue editando as seções a seguir, dependendo das informações que deseja modificar.
+1. (Opcional) Continue editando as seções a seguir, dependendo das informações que você deseja modificar.
 
    Ou
 
    Clique em **Salvar**.
 
-   As alterações serão enviadas para este modelo.
+   Suas alterações serão enviadas para este modelo.
 
-   Agora, ao usar esse modelo para criar um projeto, todas essas configurações serão transferidas para o novo projeto.
+   Agora, quando você usa esse modelo para criar um projeto, todas essas configurações serão transferidas para o novo projeto.
 
 
 ## Editar modelos em massa
@@ -1031,86 +1033,86 @@ Ao editar as configurações de edição, você pode impedir que os usuários ad
 
 Para editar modelos em massa:
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
+1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
 
 1. Clique em **Modelos**.
 1. Selecione vários modelos na lista.
 1. Clique em **Editar**.
 
-   O **Editar modelos** será aberta.
+   A variável **Editar Modelos** é aberta.
 
    ![](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. Clique nas seções à esquerda para editar todos os modelos selecionados.
 
-   Para obter mais informações sobre edição de informações em modelos, consulte o [Editar um modelo](#edit-a-template) neste artigo.
+   Para obter mais informações sobre edição de informações em modelos, consulte [Editar um modelo](#edit-a-template) neste artigo.
 
 1. Clique em **Salvar alterações**.
 
-   Todas as alterações feitas estão visíveis em todos os modelos selecionados.
+   Todas as alterações feitas agora estão visíveis em todos os modelos selecionados.
 
 ## Adicionar tarefas a um modelo
 
-Depois de criar seu modelo e editar as informações do modelo, você pode adicionar tarefas a ele.
+Depois de criar seu modelo e editar as informações dele, você pode adicionar tarefas a ele.
 
 Adicionar tarefas a um modelo é semelhante a adicionar tarefas a um projeto.
 
 Para obter mais informações sobre como adicionar tarefas a um projeto, consulte [Criar tarefas em um projeto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-Ao adicionar tarefas a um modelo, a Duração do modelo e os Dias de início e conclusão do modelo são alterados de acordo. Para obter informações sobre os Dias de Início e Conclusão do modelo e das tarefas do modelo, consulte [Visão geral dos Dias de início e conclusão em um modelo](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md).
+Quando você adiciona tarefas a um modelo, a Duração do modelo e os Dias de Início e Término do modelo são alterados de acordo. Para obter informações sobre os Dias de Início e Término do modelo e das tarefas do modelo, consulte [Visão Geral dos Dias de Início e Término em um modelo](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md).
 
-## Adicionar itens adicionais a um modelo
+## Adicionar mais itens a um modelo
 
-Após criar seu modelo e ter editado as informações dele, é possível adicionar mais itens a ele. Os itens adicionados estarão disponíveis para o projeto quando você o criar a partir do modelo.
+Depois de criar seu modelo e editar as informações dele, você pode adicionar mais itens a ele. Os itens adicionados estarão disponíveis para o projeto quando você o criar a partir do modelo.
 
 Adicionar os seguintes itens a um modelo é idêntico a adicioná-los a um projeto:
 
 * Documentos
 * Riscos
 
-   Para obter mais informações sobre como criar riscos, consulte a [Criar e editar riscos em projetos](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create)  no artigo [Criar e editar riscos em projetos](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+  Para obter mais informações sobre como criar riscos, consulte a [Criar e editar riscos em projetos](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create)  no artigo [Criar e editar riscos em projetos](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 
 * Processos de aprovação
 
-   Para obter informações sobre como associar processos de aprovação ao trabalho, consulte [Associar um processo de aprovação novo ou existente ao trabalho](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+  Para obter informações sobre como associar processos de aprovação a trabalho, consulte [Associar um processo de aprovação novo ou existente ao trabalho](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 * Preços
 
-   Para obter mais informações sobre a substituição de taxas de faturamento para um projeto, consulte [Visão Geral das Taxas de Faturamento da Função do Trabalho e cálculo da Receita em um projeto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  Para obter mais informações sobre substituição de taxas de faturamento de um projeto, consulte [Visão geral da substituição de Taxas de cobrança de função de trabalho e do cálculo de Receita em um projeto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 * Despesas
 
-   Para obter mais informações sobre como adicionar despesas, consulte [Gerenciar despesas do projeto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+  Para obter mais informações sobre como adicionar despesas, consulte [Gerenciar despesas do projeto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
-* Grupos de tópicos e tópicos da fila
+* Grupos de Tópicos e Tópicos de Fila
 
-   Para obter mais informações sobre como adicionar grupos de tópicos e tópicos da fila a um projeto ou modelo, consulte [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  Para obter mais informações sobre como adicionar Grupos de tópicos e Tópicos da fila a um projeto ou modelo, consulte [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-Você pode adicionar os seguintes itens às tarefas no modelo:
+É possível adicionar os seguintes itens às tarefas no modelo:
 
 * Documentos
 * Despesas
 
-   Para obter mais informações sobre como adicionar despesas, consulte [Gerenciar despesas do projeto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+  Para obter mais informações sobre como adicionar despesas, consulte [Gerenciar despesas do projeto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 * Aprovações
 
-   Para obter mais informações sobre como associar aprovações ao trabalho, consulte [Associar um processo de aprovação novo ou existente ao trabalho](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+  Para obter mais informações sobre como associar aprovações a trabalho, consulte [Associar um processo de aprovação novo ou existente ao trabalho](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 
 ## Ativar ou desativar um modelo
 
-Você pode desativar um modelo se quiser que os usuários não consigam encontrá-lo e criar projetos a partir dele. Não é possível anexar um modelo desativado a projetos nem usá-lo para criar um projeto.
+Você pode desativar um modelo se quiser que os usuários não possam encontrá-lo e criar projetos com base nele. Não é possível anexar um modelo desativado aos projetos nem usá-lo para criar um projeto.
 
 Os modelos desativados não afetam os projetos existentes que foram criados usando-os.
 
-Para desativar um template:
+Para desativar um modelo:
 
 1. Vá para um modelo ativo e clique no botão **Mais** ![](assets/qs-more-icon-on-an-object.png) ao lado do nome do modelo e clique em **Desativar**.
 
    ![](assets/deactivate-template-link-in-more-menu.png)
 
    O modelo não está mais ativo e os usuários não podem mais encontrá-lo para criar projetos a partir dele.
-1. (Opcional) Para ativar o modelo, clique no botão **Mais** ![](assets/qs-more-icon-on-an-object.png) ao lado do nome do modelo e clique em **Ativar**.
+1. (Opcional) Para ativar o modelo, clique no link **Mais** ![](assets/qs-more-icon-on-an-object.png) ao lado do nome do modelo e clique em **Ativar**.
 
    O modelo agora está ativo e pode ser anexado a projetos ou usado para criar projetos.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 66a4a1e11ff04008d1d0c77fbd6887e8f5f1c46b
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '813'
 ht-degree: 1%
 
 ---
@@ -51,19 +51,19 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr>
    <td role="rowheader"><p>plano do Adobe Workfront</p></td>
    <td>
-<p>Qualquer Um</p>
+<p>Qualquer</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td>
    <td>
-   <p>Qualquer Um</p> 
+   <p>Qualquer</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Nível de acesso</td>
-   <td> <p>Qualquer Um</p>  
+   <td> <p>Qualquer</p>  
 </td>
   </tr>
 <tr>
@@ -217,7 +217,7 @@ After permssions - replace the table with:
    >  * Campos dos seguintes tipos: Criado por, Data de criação, Última modificação por, Data da última modificação
 
 
-1. (Opcional) Copie um valor existente de um campo, cole em um campo do mesmo tipo em outro registro e clique em **Enter** no teclado para salvar as alterações.
+1. (Opcional) Copie um ou vários valores existentes de um campo, cole-os em um campo do mesmo tipo em outro registro e clique em **Enter** no teclado para salvar as alterações.
 
    >[!NOTE]
    >
@@ -229,10 +229,7 @@ After permssions - replace the table with:
    >* Não é possível copiar e colar valores de campo para os seguintes tipos de campo:
    ><ul>
    >
-   > * Pessoas
-   >
    > * Campos do sistema
-   >
-   > * Campos vinculados criados como resultado da conexão de registros
+
 
    <!--take People out of the list above when they release this - this might be coming later-->

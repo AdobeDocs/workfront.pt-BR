@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 579c30d1090f80d7fecef47286206e4ba03ddbb7
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '2161'
+source-wordcount: '2305'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,29 @@ The following are the permissions levels for Maestro workspaces:
 Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+
+## Semana de 4 de dezembro de 2023
+
+### Copiar e colar informações de um campo para outro na exibição de tabela Mestre para campos de registro vinculados e do tipo Pessoas
+
+Pré-visualização e produção: 5 de dezembro de 2023
+
+Agora você pode copiar e colar informações de um campo para outro campo do mesmo tipo em uma exibição de tabela do tipo de registro Maestri. Essa funcionalidade agora é compatível com os seguintes tipos de campos:
+
+* Pessoas
+* Campos de registro vinculados
+
+Considere o seguinte:
+
+* Copiar e colar valores de campo de um campo para outro é compatível com campos que exibem vários valores.
+
+* Você não pode copiar informações de outra fonte, que não seja um campo Maestro do mesmo tipo do campo no qual você cola as informações.
+
+* Não é possível copiar e colar valores de campo para campos exibidos na área Detalhes de um registro.
+
+Para obter mais informações, consulte [Editar registros](../maestro/records/edit-records.md).
+
+Para obter informações sobre campos vinculados, consulte [Conectar tipos de registro](../maestro/architecture/connect-record-types.md).
 
 ## Semana de 27 de novembro de 2023
 

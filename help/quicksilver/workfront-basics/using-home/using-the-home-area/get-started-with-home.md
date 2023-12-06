@@ -2,27 +2,27 @@
 content-type: overview
 navigation-topic: use-the-home-area
 title: Introdução a [!UICONTROL Início]
-description: Há duas maneiras de exibir seu trabalho na [!UICONTROL Início] área, seja a partir da [!UICONTROL Lista de trabalho] ou o [!UICONTROL Calendário].
+description: A variável [!UICONTROL Início] A área é o seu balcão central para encontrar tarefas, problemas e aprovações atribuídas a você. Há duas maneiras de exibir seu trabalho na [!UICONTROL Início] área, seja a partir da [!UICONTROL Lista de trabalho] ou o [!UICONTROL Calendário].
 author: Nolan
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
 
 # Introdução a [!UICONTROL Início]
 
-Este artigo descreve uma visão geral da [!UICONTROL Início] área em [!DNL Adobe Workfront]. Para obter informações sobre como trabalhar na nova [!UICONTROL Início], consulte [Introdução à nova página inicial no Adobe Workfront](../new-home/get-started-with-new-home.md).
+Este artigo descreve uma visão geral da [!UICONTROL Início] área em [!DNL Adobe Workfront]. Para obter informações sobre como trabalhar na nova [!UICONTROL Início], consulte [Introdução à nova página inicial](../new-home/get-started-with-new-home.md).
 
 Há duas maneiras de exibir seu trabalho no atual [!UICONTROL Início] área:
 
 * No [!UICONTROL Lista de trabalho]
 * No [!UICONTROL Calendário].
 
-## Lista de trabalhos
+## [!UICONTROL Lista de trabalho]
 
 Você pode exibir todo o seu trabalho atribuído em um único local, na [!UICONTROL Lista de trabalho]:
 
@@ -39,7 +39,7 @@ Para obter mais informações sobre como usar o [!UICONTROL Lista de trabalho da
 * [Exibir itens no [!UICONTROL Lista de trabalho] no [!UICONTROL Início] área](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
 * [Criar itens de trabalho a partir da [!UICONTROL Início] área](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
 
-## Calendário
+## [!UICONTROL Calendário]
 
 Você pode visualizar seu trabalho exibindo quando os itens de trabalho vencem e pode bloquear o tempo para concluí-los, revisando seu trabalho na [!UICONTROL Calendário] no [!UICONTROL Início] área:
 
@@ -59,15 +59,15 @@ Para obter mais informações sobre como usar o Calendário da página inicial, 
 
 ## Encontre seu trabalho
 
-A variável [!UICONTROL Início] A área é o seu balcão central para encontrar tarefas, problemas e aprovações atribuídas a você. As opções de filtro e classificação integradas no [!UICONTROL Início] trabalhe em conjunto para ajudá-lo a trabalhar da maneira que você desejar. Você pode usar o [!UICONTROL Classificar por] opção para agrupar itens e usar o Filtro para se concentrar no trabalho que precisa ser concluído.
+A variável [!UICONTROL Início] A área é o seu balcão central para encontrar tarefas, problemas e aprovações atribuídas a você. As opções de filtro, agrupamento e classificação trabalham juntas para ajudá-lo a organizar seus itens de trabalho da maneira que você desejar. Você pode usar agrupamentos para agrupar itens, filtros para se concentrar no trabalho que precisa ser concluído e, por último, classificação para listar os itens na ordem crescente ou decrescente do seu agrupamento.
 
 >[!NOTE]
 >
 >As opções de filtro e classificação são armazenadas no navegador. Se você usar consistentemente o mesmo navegador no mesmo computador (e não limpar os dados do site), os filtros e a classificação não serão alterados, mas se você alternar navegadores ou computadores, os filtros e a classificação serão diferentes.
 
-### Agrupar itens de trabalho semelhantes com o caractere &quot;[!UICONTROL Agrupar por]opção &#39;
+### Agrupar itens de trabalho semelhantes com agrupamentos
 
-A variável [!UICONTROL Classificar por] permite agrupar como itens na Lista de trabalho. Você pode classificar por:
+Você pode usar agrupamentos para exibir itens semelhantes em um cabeçalho comum na Lista de trabalho. Você pode agrupar itens por:
 
 * [!UICONTROL Término Planejado]
 * [!UICONTROL Início Planejado]
@@ -93,21 +93,17 @@ A seguir estão exemplos de como você pode filtrar itens exibidos na Página in
 
   Por exemplo, você pode selecionar [!UICONTROL Problemas] para ver todos os problemas em todos os estados ([!UICONTROL Trabalhando em] ou [!UICONTROL Solicitado]), ou [!UICONTROL Aprovações] para ver todos os itens de trabalho, solicitação de acesso, planilha de horas, documento e aprovações de prova.
 
-* Filtrar somente por status.
-
-  Por exemplo, você pode selecionar a variável [!UICONTROL Concluído] filtro para exibir tarefas e problemas que foram concluídos. Isso inclui tarefas Pessoais, mas não inclui aprovações.
-
 Para obter mais informações sobre como usar filtros, consulte [Exibir itens no [!UICONTROL Lista de trabalho] no [!UICONTROL Início] área](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 ![](assets/displaying-work-items-filters-nwe-350x401.png)
 
 ### Acessar o trabalho atribuído à sua equipe
 
-A variável [!UICONTROL Início] A área do tem um agrupamento permanente dedicado às solicitações da equipe com um link direto para a página de solicitação da equipe. Use este agrupamento para exibir e acessar solicitações de qualquer uma das equipes em que você está.
+A variável [!UICONTROL Início] tem um agrupamento permanente ([!UICONTROL Solicitações da equipe]) que exibe tarefas e problemas atribuídos às suas equipes. As equipes são exibidas nesta seção. Clicar no nome de uma equipe abre a página Solicitações da equipe.
 
 >[!NOTE]
 >
->A variável [!UICONTROL Filtro] e [!UICONTROL Classificar por] As opções não afetam o [!UICONTROL Solicitações da equipe] agrupamento. Este agrupamento fica visível desde que você tenha trabalho atribuído à sua equipe.
+>As opções de filtro e classificação não afetam o [!UICONTROL Solicitações da equipe] agrupamento. Este agrupamento fica visível desde que você tenha trabalho atribuído à sua equipe.
 
 Para obter mais informações sobre como acessar solicitações de equipe, consulte o artigo [[!UICONTROL Gerenciar] solicitações de trabalho e de equipe na [!UICONTROL Início] área](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
 
@@ -115,19 +111,19 @@ Para obter mais informações sobre como acessar solicitações de equipe, consu
 
 ### Monitorar trabalho enviado
 
-Controlar o trabalho enviado para aprovação diretamente do [!UICONTROL Lista de trabalho]. Você pode lembrar o aprovador sobre o trabalho que precisa de aprovação. Você também pode cancelar a aprovação, se necessário.
+Controlar o trabalho enviado para aprovação diretamente do [!UICONTROL Lista de trabalho]. Há um agrupamento permanente para [!UICONTROL Aprovações que enviei] ao selecionar para exibir [!UICONTROL Aprovações] no [!UICONTROL Lista de trabalho]. Você pode lembrar o aprovador sobre o trabalho que precisa de aprovação. Você também pode cancelar a aprovação, se necessário.
 
 >[!NOTE]
 >
->A variável [!UICONTROL Filtro] e [!UICONTROL Classificar por] As opções não afetam o [!UICONTROL Aprovações que enviei] agrupamento. Este agrupamento fica visível desde que você tenha trabalho aguardando aprovação.
-
-
+>O filtro e a classificação não afetam o [!UICONTROL Aprovações que enviei] agrupamento. Este agrupamento fica visível desde que você tenha trabalho aguardando aprovação.
+>
+>O número de aprovações na variável [!UICONTROL Aprovações] O filtro não exibe o número de itens que você enviou para aprovação. A variável [!UICONTROL Aprovações] O filtro exibe somente os itens que estão aguardando sua aprovação.
 
 ![](assets/approvals-expanded-home-group-by-drop-down-nwe-350x415.png)
 
 ## Priorize o que é importante para você
 
-A variável [!UICONTROL Lista de trabalho] permite exibir e priorizar trabalhos importantes para você com o [!UICONTROL Minha Prioridade Classificar por] opção. Você pode adicionar até 20 itens ao seu [!UICONTROL Minhas Prioridades] lista. Use o [!UICONTROL Mais] para adicionar itens de trabalho à sua lista de prioridades.
+A variável [!UICONTROL Lista de trabalho] permite exibir e priorizar trabalhos importantes para você com o [!UICONTROL Minhas Prioridades] agrupamento. Você pode adicionar até 20 itens ao seu [!UICONTROL Minhas Prioridades] lista.
 
 >[!NOTE]
 >
@@ -139,34 +135,31 @@ Para obter mais informações sobre como usar [!UICONTROL Minhas Prioridades], c
 
 ## Faça isso
 
-Use o painel direito no [!UICONTROL Início] para atualizar e concluir seu trabalho.
+Depois de clicar no nome de um item na variável [!UICONTROL Lista de trabalho], use o painel direito no [!UICONTROL Início] para atualizar e concluir seu trabalho.
 
 ### Trabalhe em um espaço personalizado
 
-Seu [!DNL Adobe Workfront] o administrador pode adicionar até 16 campos personalizados para facilitar a localização e a atualização das informações necessárias. A maioria dos campos é editável, portanto, não é necessário navegar até o item de trabalho.
+Seu [!DNL Workfront] administrador pode adicionar até 16 campos personalizados a itens na [!UICONTROL Lista de trabalho]para facilitar a localização e a atualização das informações necessárias. A maioria dos campos é editável, portanto, não é necessário navegar até o item de trabalho.
 
-Para atualizar qualquer um dos campos desta área, basta clicar no campo.
+Para atualizar qualquer um dos campos desta área, basta clicar em um campo. Se o campo for editável, você poderá modificá-lo no painel direito.
 
 >[!NOTE]
 >
->Você não pode atualizar o [!UICONTROL Data de confirmação] nesta área.
+>Você não pode atualizar o [!UICONTROL Data de confirmação] se este campo for adicionado a um item de trabalho de um modelo de layout.
 
 ![](assets/16-fields-home-350x137.png)
 
-### Atualize os colegas com informações importantes
+### Atualize outros com informações importantes
 
-Comunique-se de forma rápida e eficiente com os colegas de trabalho da [!UICONTROL Início] área. Você faz perguntas aos colegas de trabalho, notifica-os sobre atualizações recentes ou responde a comentários diretos. Além disso, você pode atualizar outras pessoas sobre o progresso que está fazendo ao:
+Comunique-se de forma rápida e eficiente com outras pessoas do [!UICONTROL Início] área. Usando a área de comentários de um item de trabalho, você pode fazer perguntas, notificar outras pessoas sobre atualizações recentes ou responder a comentários diretos do [!UICONTROL Início] área. Além disso, você pode atualizar outras pessoas sobre o progresso que está fazendo ao:
 
-* Atualização do [!UICONTROL Data de confirmação]
+* Atualização do [!UICONTROL Data de confirmação] na área de comentários
 
-  <!--
-  <note type="note">
-  This is the only place you can update the Commit Date in Home.
-  <br>
-  </note>
-  -->
+  >[!NOTE]
+  >
+  >   Esse é o único local onde você pode atualizar a Data de confirmação na Página inicial.
 
-* Relatando como você sente que as coisas estão indo
+* Relatar como você se sente, adicionando um comentário ou atualizando o [!UICONTROL Condição] de um item
 * Atualizando a barra de porcentagem concluída
 
 Para obter mais informações sobre como se comunicar na [!UICONTROL Início] , consulte [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
