@@ -6,9 +6,9 @@ description: Você pode adicionar uma atualização em um objeto do Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
+source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
 workflow-type: tm+mt
-source-wordcount: '4052'
+source-wordcount: '4073'
 ht-degree: 1%
 
 ---
@@ -206,7 +206,7 @@ Você pode adicionar atualizações aos seguintes objetos:
 1. Clique em **Atualizações** seção.
 1. (Condicional) Se estiver ativado, clique na guia **Novo comentário** no canto superior direito da seção Atualizações para desativá-la e ativar a experiência de comentários herdada.
 1. Clique em **Iniciar uma nova atualização,** em seguida, digite a atualização.
-1. (Opcional) Use Rich Text ou adicione emojis, links ou imagens à atualização para aprimorar o conteúdo. Para obter mais informações, consulte [Usar Rich Text em uma atualização do Workfront](#use-rich-text-in-a-workfront-update) neste artigo.
+1. (Opcional) Use as opções na barra de ferramentas de Rich Text para formatar o texto, adicionar emojis, links ou imagens à atualização e aprimorar o conteúdo. Para obter mais informações, consulte [Usar Rich Text em uma atualização do Workfront](#use-rich-text-in-a-workfront-update) neste artigo.
 1. (Opcional) Atualize qualquer uma das seguintes informações sobre o item de trabalho:
 
    <table style="table-layout:auto"> 
@@ -275,7 +275,7 @@ Você pode adicionar atualizações aos seguintes objetos:
    * CTRL + Z (⌘+z para Mac) para desfazer uma alteração
    * CTRL + Y (⌘+y para Mac) para refazer uma alteração
 1. (Opcional) Na **Marcar pessoas ou equipes** digite o nome ou o email de um usuário ou de uma equipe que deseja incluir neste comentário e, em seguida, selecione-o quando ele for exibido na lista.
-1. (Opcional) Use Rich Text ou adicione emojis, links ou imagens à atualização para aprimorar o conteúdo. Para obter mais informações, consulte [Usar Rich Text em uma atualização do Workfront](#use-rich-text-in-a-workfront-update) neste artigo.
+1. (Opcional) Use as opções na barra de ferramentas de Rich Text para formatar o texto, adicionar emojis, links ou imagens à atualização e aprimorar o conteúdo. Para obter mais informações, consulte [Usar Rich Text em uma atualização do Workfront](#use-rich-text-in-a-workfront-update) neste artigo.
 
    >[!TIP]
    >
@@ -291,7 +291,7 @@ Você pode adicionar atualizações aos seguintes objetos:
 
    >[!IMPORTANT]
    >
-   >Você pode editar seu comentário somente em até 15 dias a partir do envio.
+   >Você pode editar seu comentário somente em 15 minutos a partir do envio.
 
 1. Edite as informações no comentário, adicione ou remova imagens ou remova qualquer um dos usuários marcados. Um indicador &quot;Editado&quot; é adicionado à esquerda do carimbo de data que é exibido quando o comentário é inserido.
 
@@ -407,11 +407,15 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
    1. Em **Texto a ser exibido**, digite ou cole o texto do link.
    1. Clique em **Salvar**.
 
-1. (Opcional) <span class="preview">Para anexar uma imagem à sua atualização, copie uma captura de tela do computador e cole-a no comentário </span>
+1. (Opcional) Para anexar uma imagem à atualização, siga um destes procedimentos:
 
-   Ou
+   <!--* <span class="preview">Save the image on our computer, then drag and drop it in the New comment area.</span>
+   <span class="preview">This is not available in the Production environment for the new commenting experience.</span>
+   -->
 
-   Clique em **Adicionar imagem** ícone ![](assets/add-image-mountain-with-plus-icon.png) e navegue até a imagem no computador.
+   * <span class="preview">Copie uma captura de tela do computador e cole-a no comentário </span>
+   * Clique em **Adicionar imagem** ícone ![](assets/add-image-mountain-with-plus-icon.png) e navegue até a imagem no computador.
+
 
    >[!NOTE]
    >
