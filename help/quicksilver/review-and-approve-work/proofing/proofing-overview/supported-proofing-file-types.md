@@ -7,16 +7,16 @@ description: Você pode compartilhar e revisar vários tipos de arquivos com seu
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
+source-git-commit: d3aefd7ec045b9bf4c5b42c0bb3576061a1056b0
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
 
 # Visão geral de tipos de arquivo de comprovação e limites de tamanho compatíveis
 
-Você pode compartilhar e revisar vários tipos de arquivos com seus revisores, mesmo se eles não tiverem o software usado para criar os arquivos (como Photoshop ou Illustrator) instalado em suas máquinas. Oferecemos suporte a capturas estáticas, de vídeo, áudio, da Web e tipos de arquivos interativos de até 4 GB.
+Você pode compartilhar e revisar vários tipos de arquivos com seus revisores, mesmo se eles não tiverem o software usado para criar os arquivos (como Photoshop ou Illustrator) instalado em suas máquinas. Oferecemos suporte para tipos de arquivos estáticos, de vídeo, de áudio, de captura pela Web e interativos de até 4 GB.
 
 ## Limites de tamanho de arquivo
 
