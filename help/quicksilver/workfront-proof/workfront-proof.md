@@ -3,20 +3,20 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
-title: Prova do Workfront
-description: Saiba como usar o Workfront Proof.
+title: "Workfront Proof: índice do artigo"
+description: Saiba como usar o produto independente Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: f9c782b7-23dc-4fde-83e1-b7ef71a3b741
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 6%
+source-wordcount: '68'
+ht-degree: 0%
 
 ---
 
-# Prova do Workfront
+# Workfront Proof: índice do artigo
 
 >[!IMPORTANT]
 >
@@ -31,6 +31,5 @@ Esta seção contém as seguintes subseções:
 * [Notificações e lembretes de prova](../workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
 * [Alertas de email](../workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
 * [Gerenciamento de usuários e contatos no [!DNL Workfront Proof]](../workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
-* [[!DNL Workfront Proof] dispositivo móvel](../workfront-proof/wp-mobile/wp-mobile.md)
 * [[!DNL Workfront Proof] canto técnico](../workfront-proof/wp-tech-corner/tech-corner.md)
 * [[!DNL Workfront Proof] integrações](../workfront-proof/wp-integrations/wp-integrations.md)

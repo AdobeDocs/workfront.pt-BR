@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 85afa798eacb297ad4e5fd3a92277e307eea5a97
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '4908'
+source-wordcount: '4918'
 ht-degree: 4%
 
 ---
@@ -29,14 +29,14 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>plano do Adobe Workfront*</p> </td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
    <td>
-   <p>Plano atual: Padrão</p>
+   <p>Novo plano: Padrão</p>
    <p>ou</p>
-   <p>Plano herdado: plano</p></td> 
+   <p>Plano atual: Plano</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
@@ -196,7 +196,7 @@ Para adicionar um campo de texto:
     </tr>
     <tr>
     <td>Formatar</td>
-    <td><p>Selecione o tipo de dados que será capturado no campo personalizado.</p> <p><b>Nota</b>:   
+    <td><p>Selecione o tipo de dados que será capturado no campo personalizado.</p> <p><b>NOTA</b>:   
     <ul> 
     <li>Este campo não pode ser editado depois que o formulário é salvo. Se você pretende usar seu campo em cálculos matemáticos, certifique-se de selecionar um formato de Número ou Moeda.<br></li> 
     <li>Ao selecionar Número ou Moeda, o sistema trunca automaticamente os números que começam com 0.</li> 
@@ -313,7 +313,7 @@ Para adicionar botões de opção e caixas de seleção:
     </tr> 
     <tr> 
     <td role="rowheader">Formatar</td> 
-    <td> <p>Selecione o tipo de dados que será capturado no campo personalizado.</p> <p><b>Nota</b>:   
+    <td> <p>Selecione o tipo de dados que será capturado no campo personalizado.</p> <p><b>NOTA</b>:   
      <ul> 
     <li>Este campo não pode ser editado depois que o formulário é salvo. Se você pretende usar seu campo em cálculos matemáticos, certifique-se de selecionar um formato de Número ou Moeda.<br></li> 
     <li>Ao selecionar Número ou Moeda, o sistema trunca automaticamente os números que começam com 0.</li> 
@@ -462,7 +462,7 @@ Para adicionar campos de data de digitação antecipada:
      </tr> 
      <tr> 
       <td role="rowheader">Tipo de objeto referenciado</td> 
-      <td> <p>Selecione o tipo de objeto que deseja associar ao campo.</p> <p>Depois de clicar em Aplicar ou Salvar+Fechar, não é possível alterar o tipo de objeto do campo.</p> <p><b>Nota</b>:   
+      <td> <p>Selecione o tipo de objeto que deseja associar ao campo.</p> <p>Depois de clicar em Aplicar ou Salvar+Fechar, não é possível alterar o tipo de objeto do campo.</p> <p><b>NOTA</b>:   
         <ul> 
          <li>Se o administrador do Workfront personalizou o nome de Portfolio, Programas ou Projetos na interface do usuário do Workfront, o nome padrão do Workfront para o objeto será exibido nessa lista suspensa, não no nome personalizado. Consulte o administrador do Workfront se precisar de ajuda com isso.<br></li> 
          <li>Os seguintes tipos de objeto são compatíveis com os aplicativos móveis Workfront para iOS e Android: usuário, empresa, grupo, função de trabalho, Portfolio, programa, projeto e modelo.</li> 
@@ -529,7 +529,7 @@ Para adicionar uma pesquisa externa:
      <tr> 
       <td role="rowheader">Formatar</td>
       <td><p>Selecione o tipo de dados que será capturado no campo personalizado.</p>
-      <p><strong>Nota:</strong></p>
+      <p><strong>NOTA:</strong></p>
       <ul><li>É possível alterar o tipo de formato depois que o formulário é salvo, com uma limitação: todos os valores existentes em objetos devem poder ser convertidos para o novo tipo. (Por exemplo, se o tipo de formato for Texto e um objeto estiver armazenando o valor "abc", você não poderá converter o campo e receberá um erro de que o sistema não poderá converter "abc" em número/moeda.) Se você pretende usar seu campo em cálculos matemáticos, certifique-se de selecionar um formato de Número ou Moeda.</li>
       <li>Ao selecionar Número ou Moeda, o sistema trunca automaticamente os números que começam com 0.</li></ul></td>
      </tr> 

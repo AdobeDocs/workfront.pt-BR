@@ -9,10 +9,10 @@ description: Todos os usuários devem ter um nível de acesso para fazer logon e
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 1ff727f1-bc26-4ffe-a510-615bebfe5b96
-source-git-commit: 8807636d2309435cb5f4e08d6a7d27246342200d
+exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '205'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,6 @@ Você pode desativar a opção de atualização automática na área de configur
 >
 >Uma vez desativado, qualquer usuário não pago que exceda o número alocado de decisões não será atualizado automaticamente.
 
-
 ## Requisitos de acesso
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
@@ -38,13 +37,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront</td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td>Plano atual: Padrão
+   <td>Novo plano: Padrão
    <p>ou</p>
-   <p>Plano herdado: plano</p></td> 
+   <p>Plano atual: Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 

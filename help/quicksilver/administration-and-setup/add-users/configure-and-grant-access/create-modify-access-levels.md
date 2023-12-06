@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: b3869a9339cf1c0aedd7dcd00cc679fb4717b2db
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 6%
@@ -38,13 +38,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront</td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td>Plano atual: Padrão
+   <td>Novo plano: Padrão
    <p>ou</p>
-   <p>Plano herdado: plano</p></td> 
+   <p>Plano atual: Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -100,7 +100,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
       <td>Adicione novas empresas e edite as existentes no Workfront.<br><p>Sem esse acesso, os usuários só poderão visualizar empresas existentes.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Formulários personalizados</td> 
+      <td role="rowheader">Formulários personalizados no meu grupo</td> 
       <td>Crie e gerencie todos os formulários personalizados dentro do grupo. <br><p>Sem esse acesso, os usuários só podem anexar formulários existentes aos objetos aos quais têm acesso para contribuir ou gerenciar.</p></td> 
      </tr> 
      <tr> 

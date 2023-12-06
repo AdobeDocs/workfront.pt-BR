@@ -3,10 +3,10 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 2ed1d2df76f27ef6e2fe2c9612f8cdf867ed994d
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '13442'
-ht-degree: 1%
+source-wordcount: '13775'
+ht-degree: 0%
 
 ---
 
@@ -544,9 +544,9 @@ ht-degree: 1%
          * [Acesso administrativo para modelos de layout](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
          * [Atribuir usuários a modelos de layout](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
          * [Copiar um modelo de layout](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
-         * [Exclua os modelos de layout clássicos usando uma chamada de API](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
+         * [Excluir os modelos de layout clássicos usando uma chamada de API](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
       * Formulários personalizados {#custom-forms}
-         * [Formulários personalizados](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
+         * [Formulários personalizados no meu grupo](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [Visão geral de formulários personalizados](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
          * Construtor de formulários personalizados herdados {#custom-form-builder}
             * Usar o construtor de formulários personalizado {#use-the-custom-form-builder}
@@ -673,7 +673,7 @@ ht-degree: 1%
          * [Exibir item restaurado](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
          * [Como objetos excluídos afetam objetos](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
          * [Restaurar objetos filho individuais](administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)
-      * Diagnósticos {#diagnostics}
+      * Diagnóstico {#diagnostics}
          * [Diagnósticos](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
          * [Usar diagnósticos para acionar automações](administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md)
       * Início {#kick-starts}
@@ -800,7 +800,7 @@ ht-degree: 1%
       * [O compartilhamento mostra mais de uma permissão](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
       * [Email não autenticado não aceito](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
       * [Credenciais de usuário vs. credenciais SAML](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
-      * [Atualize as opções de atualização automática nos níveis de acesso](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
+      * [Atualizar opções de atualização automática nos níveis de acesso](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Noções básicas do Adobe Workfront {#basics}
    * [Noções básicas do Adobe Workfront](workfront-basics/workfront-basics.md)
    * [Glossário da terminologia do Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
@@ -837,8 +837,8 @@ ht-degree: 1%
       * [Entender a navegação de um usuário de licença de trabalho](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [Entender a navegação de um usuário com licença de revisão](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
       * [Visão geral das datas de Projeto, Tarefa e Problema no Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
-   * Página inicial {#home}
-      * [Página inicial](workfront-basics/using-home/home.md)
+   * Início {#home}
+      * [Início](workfront-basics/using-home/home.md)
       * Nova Página Inicial {#new-home}
          * [Nova Página Inicial](workfront-basics/using-home/new-home/new-home.md)
          * [Introdução à nova página inicial](workfront-basics/using-home/new-home/get-started-with-new-home.md)
@@ -969,8 +969,8 @@ ht-degree: 1%
       * [Processos de aprovação duplicados exibidos na Lista de trabalho da página inicial](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
       * [Os botões de filtro não são exibidos nos cabeçalhos da página](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [O filtro Projetos em que estou trabalhando inclui resultados inesperados](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
-* Ágil {#agile}
-   * [Ágil](agile/agile.md)
+* Agile {#agile}
+   * [Agile](agile/agile.md)
    * [Visão geral dos painéis](agile/boards-overview.md)
    * Introdução aos painéis no Adobe Workfront {#boards-in-workfront}
       * [Introdução aos painéis no Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
@@ -1393,7 +1393,7 @@ ht-degree: 1%
          * [Atualizar informações no Diagrama de Gantt da lista de tarefas](manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
          * [Nivelar Recursos no Gráfico de Gantt](manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)
          * [Exporte o Gráfico de Gantt para o PDF](manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)
-   * Gerenciamento de Portfólio {#portfolio-management}
+   * Gerenciamento de Portfolio {#portfolio-management}
       * [Gerenciamento de Portfólio](manage-work/portfolios/portfolio-management-overview.md)
       * Visão geral de Portfolio no Adobe Workfront {#portfolio-overview-in-adobe-workfront}
          * [Portfólios](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
@@ -1673,12 +1673,12 @@ ht-degree: 1%
          * [As datas de edição em linha alteram a exibição do calendário para fora da caixa](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/date-edits-shift-calendar.md)
          * [Dados de colunas compartilhadas não são exibidos em relatórios de painel](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/shared-columns-not-displayed-in-report-dashboard.md)
    * Painéis {#dashboards}
-      * [Painéis](reports-and-dashboards/dashboards/dashboards-overview.md)
+      * [Painéis de Controle](reports-and-dashboards/dashboards/dashboards-overview.md)
       * Entender painéis {#understand-dashboards}
          * [Entender painéis](reports-and-dashboards/dashboards/understanding-dashboards/understand-dashboards.md)
          * [Introdução aos painéis](reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)
          * [Entender como os relatórios são exibidos em um painel](reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md)
-      * Criar e gerenciar painéis de controle {#create-dashboards}
+      * Criar e gerenciar painéis {#create-dashboards}
          * [Criar e gerenciar painéis de controle](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)
          * [Criar um painel](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
          * [Adicionar um relatório a um painel](reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
@@ -1712,7 +1712,7 @@ ht-degree: 1%
       * [Introdução ao gerenciamento de recursos](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Planejamento de recursos no Adobe Workfront {#resource-planning-in-adobe-workfront}
       * [Planejamento de recursos no Adobe Workfront](resource-mgmt/resource-planning/resource-planning-overview.md)
-      * Conjuntos de Recursos {#resource-pools}
+      * Conjuntos de recursos {#resource-pools}
          * [Conjuntos de Recursos](resource-mgmt/resource-planning/resource-pools/resource-pools.md)
          * [Visão geral dos conjuntos de recursos](resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
          * [Criar conjuntos de recursos](resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
@@ -1898,8 +1898,8 @@ ht-degree: 1%
    * Dicas, truques e solução de problemas para aprovações {#ttt-approvals}
       * [Dicas, truques e solução de problemas para aprovações](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Exibir o número de decisões de prova e documento para todos os usuários](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
-* Folhas de horas {#timesheets}
-   * [Folhas de horas](timesheets/timesheets-all.md)
+* Planilhas de Horas {#timesheets}
+   * [Planilhas de horas](timesheets/timesheets-all.md)
    * Detalhes da folha de horas {#details}
       * [Detalhes da folha de horas no Adobe Workfront](timesheets/timesheets/timesheets.md)
       * [Visão geral das planilhas de horas](timesheets/timesheets/timesheets-overview.md)
@@ -1950,8 +1950,8 @@ ht-degree: 1%
    * [Compartilhar um plano no Planejador de cenários](scenario-planner/share-a-plan.md)
    * [Mostrar alocação de funções para projetos e iniciativas na lista de tarefas](scenario-planner/show-role-allocation-task-list-nwe.md)
    * [Mostrar alocação de funções para projetos e iniciativas no Balanceador de carga de trabalho](scenario-planner/show-role-allocation-workload-balancer.md)
-* Adobe Workfront Goals {#adobe-workfront-goals}
-   * [Adobe Workfront Goals](workfront-goals/workfront-goals.md)
+* Metas do Adobe Workfront {#adobe-workfront-goals}
+   * [Metas do Adobe Workfront](workfront-goals/workfront-goals.md)
    * [Visão geral dos objetivos do Adobe Workfront](workfront-goals/goal-management/wf-goals-overview.md)
    * Gerenciamento de metas no Adobe Workfront Goals {#goal-management}
       * [Gerenciamento de metas no Adobe Workfront Goals](workfront-goals/goal-management/goal-management.md)
@@ -2339,7 +2339,7 @@ ht-degree: 1%
       * [Criar um item de lista Anaplan a partir de uma solicitação de campanha do Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
       * [Aplicar uma alocação de orçamento Anaplan a uma solicitação de campanha ou projeto de campanha do Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 * Prova do Workfront {#workfront-proof}
-   * [Prova do Workfront](workfront-proof/workfront-proof.md)
+   * [Workfront Proof: índice do artigo](workfront-proof/workfront-proof.md)
    * Introdução à prova do Workfront {#get-started-wf-proof}
       * [Introdução à prova do Workfront](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
       * Exemplos de fluxo de trabalho {#workflow-examples}
@@ -2552,7 +2552,7 @@ ht-degree: 1%
       * API de prova do Workfront {#wf-proof-api}
          * [API de prova do Workfront](workfront-proof/wp-integrations/api/wp-api.md)
          * [A API de prova do Workfront](workfront-proof/wp-integrations/api/workfront-proof-api.md)
-      * Box {#box}
+      * Caixa {#box}
          * [Box](workfront-proof/wp-integrations/box/box.md)
          * [Introdução à integração do Workfront Proof and Box](workfront-proof/wp-integrations/box/introduction-to-box.md)
          * [Criar uma prova por meio da conta do Box](workfront-proof/wp-integrations/box/create-proof-box-account.md)
