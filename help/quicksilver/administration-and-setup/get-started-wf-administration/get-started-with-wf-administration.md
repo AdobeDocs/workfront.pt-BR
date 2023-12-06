@@ -3,21 +3,23 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
-title: Introdução à administração do Adobe Workfront
-description: Você pode configurar padrões, cronogramas e folhas de horas do sistema Workfront, configuração organizacional, informações de atualização rastreadas pelo sistema e ambientes de teste para sua organização
-author: Caroline
+title: "Introdução à administração do Adobe Workfront: índice de artigos"
+description: Nesta seção, você pode encontrar informações e instruções sobre a primeira configuração do Adobe Workfront, bem como informações necessárias como administrador do Workfront.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8d5497fa-3432-4188-ad71-92ab91cd19fa
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 3d2124260b041ec7566f0873a57514d84c5f7025
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
-# Introdução à administração do Adobe Workfront
+# Introdução à administração do Adobe Workfront: índice de artigos
+
+Nesta seção, você pode encontrar informações e instruções sobre a primeira configuração do Adobe Workfront, bem como informações necessárias como administrador do Workfront.
 
 Esta seção contém os seguintes artigos:
 
