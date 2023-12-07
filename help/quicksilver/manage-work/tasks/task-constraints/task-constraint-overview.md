@@ -7,9 +7,9 @@ description: As restrições de tarefa determinam quando uma tarefa deve iniciar
 author: Alina
 feature: Work Management
 exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '691'
 ht-degree: 6%
 
 ---
@@ -28,7 +28,7 @@ Os tipos de restrição que exigem datas definidas afetam os relacionamentos de 
 
 >[!TIP]
 >
->Considere o uso de um tipo de restrição que não exija datas específicas se estiver usando relações de predecessoras entre tarefas.
+>Considere usar um tipo de restrição que não exija datas específicas se estiver usando relações de predecessoras entre tarefas.
 
 A tabela a seguir exibe cada restrição e sua abreviação. As abreviações são usadas em listas de tarefas e ao criar arquivos de importação do Kickstart. Clique no título vinculado de cada restrição de tarefa para obter mais informações sobre esse tipo de restrição.
 
@@ -55,7 +55,7 @@ A tabela a seguir exibe cada restrição e sua abreviação. As abreviações s�
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-late-as-possible.md" class="MCXref xref">Visão geral de Restrição de tarefa: o mais tarde possível </a> </p> </td> 
    <td scope="col"> <p>OMTP</p> </td> 
    <td scope="col"> <p>Coloca a hora de conclusão da tarefa o mais próximo possível do fim do projeto.</p> 
-   <p>Essa é a restrição padrão quando o Modo de Programação do projeto começa na Data de conclusão e o padrão do sistema ou grupo para a Data inicial de uma tarefa é Baseado na Data Planejada do Projeto. </p>
+   <p>Essa é a restrição padrão quando o Modo de Programação do projeto começa na Data de conclusão e o padrão do sistema ou grupo para a Data inicial de uma tarefa é definido como Baseado na Data Planejada do Projeto. </p>
    </td> 
   </tr> 
   <tr> 
@@ -66,7 +66,7 @@ A tabela a seguir exibe cada restrição e sua abreviação. As abreviações s�
   <tr> 
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/latest-available-time.md" class="MCXref xref">Visão geral de Restrição de Tarefa: Último Tempo Disponível</a> </p> </td> 
    <td scope="col"> <p>OMTD</p> </td> 
-   <td scope="col"> <p>Agendar uma tarefa para começar no último horário disponível depois de considerar as relações predecessor-sucessor no projeto.</p> </td>
+   <td scope="col"> <p>Agenda uma tarefa para começar no último horário disponível depois de considerar as relações predecessor-sucessor no projeto.</p> </td>
   </tr> 
   <tr> 
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-earlier-than.md" class="MCXref xref">Visão geral de Restrição de tarefa: não iniciar antes de</a> </p> </td> 
@@ -78,7 +78,7 @@ A tabela a seguir exibe cada restrição e sua abreviação. As abreviações s�
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-later-than.md" class="MCXref xref">Visão geral de Restrição de tarefa: não iniciar depois de</a> </p> </td> 
    <td scope="col"> <p>NIDD</p> </td> 
    <td scope="col"> <p>Agenda uma tarefa para iniciar antes da data que você especificar.</p> 
-   <p>Essa é a restrição padrão se o Modo de programação do projeto for a partir da Data de conclusão e o padrão do sistema ou grupo para a Data inicial de uma tarefa for Hoje. 
+   <p>Essa é a restrição padrão se o Modo de programação do projeto for a partir da Data de conclusão e se o padrão do sistema ou grupo para a Data inicial de uma tarefa for definido como Hoje. 
    </td> 
   </tr> 
   <tr> 
@@ -104,7 +104,7 @@ A tabela a seguir exibe cada restrição e sua abreviação. As abreviações s�
   <tr> 
    <td> <p><a href="../../../manage-work/tasks/task-constraints/fixed-dates.md" class="MCXref xref">Visão geral de Restrição de tarefa: datas fixas</a> </p> </td> 
    <td> <p>Dt Fixas</p> </td> 
-   <td> <p>Agenda uma tarefa para iniciar e encerrar em datas específicas.</p> </td> 
+   <td> <p>Agenda uma tarefa para iniciar e terminar em datas específicas.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,7 +121,7 @@ O Workfront usa duas variáveis para decidir qual Restrição de Tarefa é selec
 
 * A variável **Data de início** configurada pelo Workfront ou administrador de grupo na variável **Tarefas e problemas** área de **Configuração**.
 
-  Para obter informações sobre Preferências de tarefas e problemas, consulte a seção &quot;Novos padrões de tarefa&quot; em [Configurar preferências de tarefas e problemas em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Para obter informações sobre Preferências de tarefas e problemas, consulte [Padrões de nova tarefa](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults) seção em [Configurar preferências de tarefas e problemas em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 A tabela a seguir mostra a Restrição de Tarefa padrão ao escolher variáveis diferentes para seu projeto e suas novas tarefas:
 

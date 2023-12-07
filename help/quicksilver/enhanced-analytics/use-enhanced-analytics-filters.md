@@ -6,7 +6,7 @@ description: Os filtros na área Análise aprimorada do Adobe Workfront ajudam v
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 4ade799ff735183f83f045e7eaa876961d266208
+source-git-commit: 2f6664aefd664e1275648abd6f7e41b1d545b9e7
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 0%
@@ -28,9 +28,6 @@ Você pode adicionar e remover filtros conforme necessário, e o Workfront reté
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;">
-  *Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
- </caption> 
  <col> 
  <col> 
  <tbody> 
@@ -50,15 +47,17 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    </td> 
   </tr>
   <tr> 
-   <td><b>Nível de acesso*</b> </td> 
+   <td>Nível de acesso* </td> 
    <td> <p>Visualizar acesso aos projetos</p> <p>Você também deve ter acesso de Visualização a Tarefas, Portfolio e Usuários para ver opções específicas de filtro de campo do projeto.</p> <p>Observação: se as restrições forem selecionadas na seção Definir restrições adicionais da caixa de diálogo Editar nível de acesso, talvez você não veja todas as informações nos filtros ou na página Analítica aprimorada depois que o filtro for aplicado. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>Permissões de objeto</b> </p> </td> 
+   <td> <p>Permissões de objeto </p> </td> 
    <td> <p>Exibir</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
 ## Pré-requisitos
 
