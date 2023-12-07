@@ -7,9 +7,9 @@ description: "Relatório: Hora orçada"
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '647'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -87,7 +87,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
    Isso arredonda o número de Horas orçadas para um número de decimais que você especificar.
 
-   Para obter informações sobre como arredondar um número no Workfront, consulte o artigo [Expressões de dados calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Para obter informações sobre como arredondar um número no Workfront, consulte o artigo [Visão geral das expressões de dados calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 1. (Opcional) Clique em **Adicionar coluna** para adicionar mais colunas.
 1. (Opcional) Para facilitar a leitura do relatório, recomendamos adicionar um agrupamento a ele. Sugerimos o seguinte agrupamento:

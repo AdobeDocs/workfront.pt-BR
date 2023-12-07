@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: edd4aa9556b624de3634af26d6d9efd59f5d2e44
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '3491'
+source-wordcount: '3496'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo e registra
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -344,14 +344,14 @@ Para remover um item da folha de horas que foi adicionado manualmente:
 
    O item é removido da folha de horas após você atualizar a página.
 
-### Página inicial {#home}
+### Início {#home}
 
 Você pode registrar horas específicas do projeto na Página inicial.
 
 Para obter informações gerais sobre o uso da área Início, consulte as seguintes seções:
 
 * Para obter informações sobre como usar a área inicial herdada, consulte [Usar a área Início](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-* Para obter informações sobre como usar a nova área Página inicial, consulte [Introdução à nova página inicial no Adobe Workfront](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
+* Para obter informações sobre como usar a nova área Página inicial, consulte [Introdução à nova página inicial](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 #### Registrar horas em um item de trabalho na nova área Página inicial
 

@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2319'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>plano do Adobe Workfront*</p> </td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -144,7 +144,7 @@ Para reutilizar um campo personalizado calculado existente:
     <tbody> 
      <tr> 
       <td role="rowheader">Rótulo</td> 
-      <td>Digite um rótulo para o campo. É o que os usuários verão ao usar o formulário personalizado. O campo <b>Nome</b>, que é preenchido automaticamente, é referenciado pela Workfront nos relatórios.</td> 
+      <td>Digite um rótulo para o campo. É o que os usuários verão ao usar o formulário personalizado. O campo <b>Nome</b>, que é preenchido automaticamente, é referenciado pelo Workfront nos relatórios.</td> 
      </tr> 
      <tr> 
       <td role="rowheader" id="instructions">Instruções</td> 
@@ -281,7 +281,7 @@ Um cálculo geralmente começa com uma expressão, seguida por parênteses conte
       >
       >Você pode executar qualquer um dos seguintes procedimentos para obter ajuda com o cálculo:
       > 
-      >* Passe o mouse sobre uma expressão no cálculo para ver uma descrição, um exemplo mostrando como ela pode ser usada e um link &quot;Saiba mais&quot; para obter mais informações no artigo [Expressões de dados calculadas](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+      >* Passe o mouse sobre uma expressão no cálculo para ver uma descrição, um exemplo mostrando como ela pode ser usada e um link &quot;Saiba mais&quot; para obter mais informações no artigo [Visão geral das expressões de dados calculadas](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
       >  ![](assets/hover-expression-help-text.jpg)
       >* Use a codificação de cores para identificar os componentes adicionados. As expressões são exibidas em azul e os campos são exibidos em verde.
       >  ![](assets/colors-fields-expressions.jpg)

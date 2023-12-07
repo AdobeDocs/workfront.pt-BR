@@ -7,9 +7,9 @@ description: Um predecessor é a tarefa da qual outra tarefa (chamada de tarefa 
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ Um predecessor é a tarefa da qual outra tarefa (chamada de tarefa sucessora ou 
 
 Entender a funcionalidade do antecessor é importante para entender as linhas do tempo em seus projetos.
 
-Existem relações predecessoras entre tarefas em um único projeto e em vários projetos.
+Existem relações de predecessoras de tarefas entre tarefas em um único projeto e entre tarefas de projetos diferentes.
 
-No caso de dependência de vários projetos, é possível estabelecer predecessores entre projetos.
+No caso de dependência entre projetos, é possível estabelecer predecessores entre projetos entre tarefas de dois projetos diferentes.
 
-Se as tarefas predecessoras e sucessoras pertencerem ao mesmo projeto ou a dois projetos diferentes, as dependências e as linhas do tempo serão calculadas da mesma maneira.
+Se as tarefas predecessoras e sucessoras pertencerem ao mesmo projeto ou a dois projetos diferentes, as dependências e as linhas do tempo de cada projeto serão calculadas da mesma forma.
 
 Quando se trata de predecessores, a linha do tempo do projeto é afetada pelo seguinte:
 
@@ -38,15 +38,19 @@ Quando se trata de predecessores, a linha do tempo do projeto é afetada pelo se
 * Valor e tipo de defasagem\
   Para obter mais informações sobre dependências e intervalos, consulte [Exemplos de valores predecessores em uma lista de tarefas](#examples-of-predecessor-values-in-a-task-list).
 
-Por exemplo, se a tarefa A for uma predecessora da tarefa B em um relacionamento de término-início e a tarefa B tiver uma restrição de tarefa O Mais Breve Possível, o Workfront atribuirá à tarefa B uma data de início planejada imediatamente após a data de conclusão planejada da tarefa A, independentemente de a predecessora ser imposta ou não.
+  Por exemplo, se a tarefa A for uma predecessora da tarefa B em um relacionamento de término-início e a tarefa B tiver uma restrição de tarefa O Mais Breve Possível, o Workfront atribuirá à tarefa B uma data de início planejada imediatamente após a data de conclusão planejada da tarefa A, independentemente de a predecessora ser imposta ou não.
 
 Para entender os relacionamentos de predecessores, você deve entender:
 
 * **Tipos de Dependências:** Os predecessores são vinculados por vários tipos de dependência. Para obter mais informações sobre tipos de dependências, consulte [Visão geral dos tipos de dependência de tarefa](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-* **Aplicação de um antecessor:** Ao impor um predecessor, a tarefa sucessora não pode ser iniciada até que o predecessor seja concluído. A tarefa sucessora é exibida como iniciando imediatamente após a conclusão da predecessora.
+* **Aplicação de um antecessor:** Ao impor um predecessor, a tarefa sucessora não pode absolutamente iniciar até que o predecessor seja concluído. A tarefa sucessora é exibida como iniciando imediatamente após a conclusão da predecessora.
 
-  O Workfront não permite que ele seja marcado como Em andamento ou Concluído até que o antecessor seja concluído. No entanto, o Workfront permite que horas sejam relatadas na tarefa.\
+  Quando a predecessora não está concluída (ou iniciada) e não é imposta, a tarefa sucessora pode ser iniciada, mas a linha do tempo do projeto ainda é afetada pelas datas das tarefas predecessoras e sucessoras.
+
+  Com uma predecessora imposta, o Workfront não permite que a tarefa sucessora seja marcada como Em andamento ou Concluída até que a predecessora seja concluída.
+
+  No entanto, o Workfront permite que horas sejam relatadas na tarefa.\
   Para obter mais informações sobre a imposição de predecessores, consulte [Forçar predecessores](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 * **Desfasamentos:** Você pode criar atrasos em suas dependências, o que cria um atraso que deve ocorrer após a conclusão de uma tarefa predecessora e antes que a tarefa sucessora possa começar. Os atrasos afetam a linha do tempo do projeto.
@@ -104,7 +108,7 @@ Ao exibir predecessores em uma lista de tarefas, você pode ver qualquer um dos 
 
   >[!NOTE]
   >
-  >O valor imposto (**e**) deve ser adicionado ao Lag, não ao antecessor.
+  >Você deve adicionar o valor imposto (**e**) para o Lag, e não para o antecessor.
 
 * **4515:2** O número da tarefa predecessora é 2. - Esta é uma dependência Finalizar para Iniciar, não imposta, com o predecessor no projeto com o número de referência **4515**.
 

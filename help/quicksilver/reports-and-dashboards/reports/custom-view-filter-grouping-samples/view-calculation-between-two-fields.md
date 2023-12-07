@@ -7,9 +7,9 @@ description: Você pode usar o modo de texto em uma coluna para exibir um cálcu
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 303f8824-311a-4de0-9777-cfa11ecad1e1
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Por exemplo, se você quiser descobrir o número de dias da semana decorridos en
 Por exemplo, você pode calcular a diferença de dia da semana entre a Data de conclusão planejada e a Data de conclusão real de uma tarefa e exibir o resultado em uma coluna.
 
 Você pode usar quaisquer outras duas datas nesse cálculo (Início Efetivo, Conclusão Efetiva, Início Projetado, Conclusão Projetada etc.).\
-Para obter mais informações sobre expressões de dados calculadas, consulte [Expressões de dados calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Para obter mais informações sobre expressões de dados calculadas, consulte [Visão geral das expressões de dados calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 ## Requisitos de acesso
 
@@ -34,7 +34,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -67,7 +67,7 @@ Para adicionar esta coluna a uma visualização de tarefa:
 
 1. Passe o mouse sobre a área do modo de texto e clique em **Clique para editar o texto**.
 1. Remova o texto localizado na **Modo de texto** e substitua-o pelo seguinte código:
-   <pre>displayname=Diferença do Dia da Semana<br>textmode=true<br>valueexpression=WEEKDAYDIFF({plannedCompletionDate},{atualCompletionDate})<br>valueformat=HTML</pre>
+   <pre>displayname=Diferença do Dia da Semana<br>textmode=true<br>valueexpression=WEEKDAYDIFF({plannedCompletionDate},{actualCompletionDate})<br>valueformat=HTML</pre>
 
 1. (Opcional) Para agregar os valores exibidos na visualização em um agrupamento, siga as etapas descritas em [Grouping: exibe o resultado da agregação de vários valores calculados em um agrupamento](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
 1. Clique em **Salvar**, depois **Salvar visualização**.

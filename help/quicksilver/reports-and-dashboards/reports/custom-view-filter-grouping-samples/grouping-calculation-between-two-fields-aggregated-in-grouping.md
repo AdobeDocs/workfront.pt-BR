@@ -8,7 +8,7 @@ description: Você pode usar o modo texto em uma coluna para exibir um cálculo 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 Você pode usar o modo texto em uma coluna para exibir um cálculo entre dois campos na exibição de um relatório ou lista. Cada linha exibe o cálculo de cada objeto no relatório ou lista.
 
-Por exemplo, você pode exibir a diferença entre as Horas Reais e as Horas Planejadas em uma terceira coluna chamada Saldo de Trabalho para cada tarefa em um relatório de tarefa. Para obter mais informações sobre expressões de dados calculadas, consulte [Expressões de dados calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Por exemplo, você pode exibir a diferença entre as Horas Reais e as Horas Planejadas em uma terceira coluna chamada Saldo de Trabalho para cada tarefa em um relatório de tarefa. Para obter mais informações sobre expressões de dados calculadas, consulte [Visão geral das expressões de dados calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-Você pode exibir o valor agregado de vários itens de exibição calculados na mesma coluna em um agrupamento adicionando um cálculo à `aggregator` linha da coluna que contém o valor calculado. Por exemplo, você pode agregar (exibir a soma de) a quantidade de horas de Saldo de Trabalho de todas as tarefas no agrupamento do relatório ou na lista da coluna Saldo de Trabalho. Este artigo descreve como fazer isso.
+Você pode exibir o valor agregado de vários itens de exibição calculados na mesma coluna em um agrupamento adicionando um cálculo à `aggregator` linha da coluna que contém o valor calculado. Por exemplo, você pode agregar (exibir a soma de) a quantidade de horas de Saldo de Trabalho de todas as tarefas no agrupamento do relatório ou na lista para a coluna Saldo de Trabalho. Este artigo descreve como fazer isso.
 
 ## Requisitos de acesso
 
@@ -33,7 +33,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -89,7 +89,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
    >[!TIP]
    >
-   >Para obter o valor agregado no agrupamento e exibir a diferença agregada entre os campos Horas planejadas e Horas efetivas, insira a mesma equação nos campos `aggregator.valuefield` linha. A variável `aggregator.displayformat` usado para a coluna Horas planejadas converte minutos em horas. Como o campo Horas planejadas foi usado como um espaço reservado, essa linha não precisa ser ajustada.
+   >Para obter o valor agregado no agrupamento para exibir a diferença agregada entre os campos Horas planejadas e Horas efetivas, insira a mesma equação nos campos `aggregator.valuefield` linha. A variável `aggregator.displayformat` usado para a coluna Horas planejadas converte minutos em horas. Como o campo Horas planejadas foi usado como um espaço reservado, essa linha não precisa ser ajustada.
    >
    >
    >A variável `minutesAsHoursString` definição do `aggregator.displayformat` linha significa que não há necessidade de dividir cada campo por 60, como `valueexpression` para os resultados. Neste `aggregator.valuefield=workRequired` torna-se: `aggregator.valueexpression=ROUND(({workRequired}-{actualWorkRequired}),2`.
