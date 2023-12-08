@@ -7,9 +7,9 @@ description: O Adobe Workfront Fusion Devtool permite compreender e solucionar p
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 82ff5d2731c981c89eb02c86d6d6eddc5d87dec7
+source-git-commit: a84c59e44055dec25928f34f1a795bb8565ff199
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1809'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # Depurar cenários com o [!DNL Adobe Workfront Fusion] Devtool
 
 A variável [!DNL Adobe Workfront Fusion] Devtool permite que você entenda e solucione problemas de cenários. O Devtool adiciona um painel extra ao [!DNL Chrome Developer Tools]. Usando esse painel do depurador, você pode verificar todas as execuções manuais do cenário, revisar todas as operações executadas e ver os detalhes de cada chamada de API realizada. Você pode ver qual módulo, operação ou única resposta causou o erro e usar esse conhecimento para refinar seu cenário.
+
+Para assistir a uma apresentação em vídeo detalhada do Fusion Devtool, consulte [Apresentação do Devtool](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en).
 
 ## Requisitos de acesso
 
@@ -98,7 +100,7 @@ A variável [!DNL Workfront Fusion] A extensão Devtool é adicionada ao [!DNL C
 Para usar o [!DNL Workfront Fusion] Devtool, você deve adicionar o [!DNL Workfront Fusion] Devtool extensão para o seu [!DNL Chrome] navegador, conforme descrito em [Instalar a extensão Devtool do Chrome](#install-the-chrome-Devtool-extension).
 
 1. Abra o [!DNL Workfront Fusion] cenário.
-1. Aberto [!DNL Chrome Developer Tools]:
+1. Abertura [!DNL Chrome Developer Tools]:
 
    <table style="table-layout:auto"> 
     <col> 
