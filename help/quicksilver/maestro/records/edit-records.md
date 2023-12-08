@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '868'
 ht-degree: 1%
 
 ---
@@ -191,7 +191,7 @@ After permssions - replace the table with:
 
 1. Clique em **Salvar alterações**. <!--logged a bug for this - this needs to be "Save"-->
 
-### Editar um registro da exibição de tabela do tipo de registro
+### Editar um registro da exibição de tabela de um tipo de registro
 
 1. Clique em **Menu principal** ![](assets/main-menu-workfront.png) no canto superior direito, ou na guia **Menu principal** ![](assets/main-menu-shell.png) no canto superior esquerdo, se estiver disponível, clique em **Maestro** ![](assets/maestro-icon.png).
 
@@ -213,7 +213,7 @@ After permssions - replace the table with:
    >
    >  Não é possível editar as informações dos seguintes campos, pois eles são somente leitura e o Workfront os atualiza automaticamente:
    >  
-   >  * Campos vinculados que são criados por meio da vinculação de tipos de registro
+   >  * Campos vinculados criados pela conexão de tipos de registro. Para obter mais informações, consulte [Conectar tipos de registro](../architecture/connect-record-types.md).
    >  * Campos dos seguintes tipos: Criado por, Data de criação, Última modificação por, Data da última modificação
 
 
@@ -225,11 +225,12 @@ After permssions - replace the table with:
    >
    >* Você não pode copiar informações de outra fonte, que não seja um campo Maestro do mesmo tipo do campo no qual você cola as informações.
    >
-   >* Não é possível copiar e colar valores de campo para campos exibidos na área Detalhes de um registro.
+   >* Não é possível copiar e colar valores de campo na área Detalhes de um registro. Essa funcionalidade é compatível somente na exibição de tabela de um tipo de registro.
    >* Não é possível copiar e colar valores de campo para os seguintes tipos de campo:
-   ><ul>
    >
-   > * Campos do sistema
+   >
+   >    * Campos vinculados criados pela conexão de tipos de registro. Você pode copiar e colar campos de registro vinculados. Para obter mais informações, consulte [Conectar tipos de registro](../architecture/connect-record-types.md).
+   >    * Campos dos seguintes tipos: Criado por, Data de criação, Última modificação por, Data da última modificação
 
 
    <!--take People out of the list above when they release this - this might be coming later-->

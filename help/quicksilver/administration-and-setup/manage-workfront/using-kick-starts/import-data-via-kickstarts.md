@@ -5,13 +5,13 @@ keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
 title: Importar dados para o Adobe Workfront usando um modelo do Kickstart
 description: Kickstarts são pastas de trabalho do Excel especialmente formatadas que você pode preencher com dados que deseja importar para o Workfront. O Adobe Workfront fornece um modelo de Início que você pode usar para fazer isso, conforme explicado no importador de dados de Início.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 81a9f33f5707e37a62a81546b9249410ded23ab5
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2780'
 ht-degree: 6%
 
 ---
@@ -38,15 +38,18 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront</td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td>Plano</td> 
+   <td>
+   <p> Novo: Padrão</p>
+   ou
+   <p>Atual: Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Você deve ser um administrador do Workfront.</p> <p><b>Nota</b>:</p> 
+   <td> <p>Você deve ser um administrador do Workfront.</p> <p><b>NOTA</b>:</p> 
    <p> Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -56,23 +59,26 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 Você pode importar um grande número de objetos para o Workfront usando um template do Kickstart. No entanto, considere as seguintes limitações:
 
-* Importar dados dessa maneira não atualiza as informações nos registros que já existem no Workfront
-* Você pode importar somente novos registros e suas informações
+* Importar dados dessa maneira não atualiza as informações nos registros que já existem no Workfront.
+* Você pode importar somente novos registros e suas informações.
 * Importe não mais do que 2.000 registros de cada vez para garantir que a importação não expire
 
 ## Exportar um modelo do Kickstart como um arquivo de planilha
 
-Ao exportar um modelo de Início, você recebe uma pasta de trabalho em branco da planilha do Excel. Nos procedimentos subsequentes deste artigo, você preencherá a pasta de trabalho com suas informações e a importará de volta para o Workfront.
+Ao exportar um modelo de Início, você recebe uma pasta de trabalho em branco da planilha do Excel. Depois que a planilha for baixada no computador, você poderá usá-la para preenchê-la com suas informações e importá-la de volta para o Workfront.
 
 Para exportar um modelo do Kickstart:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Clique em **Sistema** > **Exportar dados (Kick-Starts)**.
+<!--
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  -->
 
-1. Clique em **Mais opções**, em seguida, selecione os tipos de informações que deseja incluir.
+1. Clique em **Sistema** > **Importar dados (Kick-Starts)**.
 
-   Cada opção selecionada representa uma coleção de várias guias na planilha exportada. Por exemplo, se você selecionar a opção Relatório, todos os objetos necessários para criar um relatório serão incluídos na planilha (exibições, filtros, agrupamentos, relatórios).
+1. Selecione os tipos de informações que deseja incluir.
+
+   Cada opção selecionada representa uma coleção de várias guias na planilha exportada. Por exemplo, se você selecionar a variável **Relatório** , todos os objetos necessários para criar um relatório serão incluídos na planilha (exibições, filtros, agrupamentos, relatórios).
 
    Você pode usar todos os tipos de objetos listados abaixo para importar dados para o Workfront. (A única exceção é a opção Níveis de Acesso. A data sheet Níveis de acesso em uma exportação é fornecida para fins de referência; ela permite que você atribua um nível de acesso a uma nova conta de usuário por ID.)
 
@@ -93,22 +99,22 @@ Para exportar um modelo do Kickstart:
      <tr> 
       <td scope="col"> <p>Painel</p> <p>Todos os painéis no sistema estão disponíveis para exportação. Você pode selecionar até 100 painéis específicos em uma única exportação.</p> </td> 
       <td scope="col">Exporta como arquivo ZIP</td> 
-      <td scope="col"> <p>Parâmetro</p> <p>Opção de parâmetro</p> <p>Grupo de Parâmetros</p> <p>Parâmetro da Categoria</p> <p>Categoria</p> <p>Relatório</p> <p>Seção de Guias do Portal</p> <p>Painel</p> <p>Preferências</p> </td> 
+      <td scope="col"> <p>Parâmetro</p> <p>Texto descritivo</p><p>Opção de parâmetro</p> <p>Grupo de Parâmetros</p> <p>Parâmetro da Categoria</p> <p>Categoria</p> <p>Relatório</p> <p>Seção de Guias do Portal</p> <p>Painel</p> <p>Preferências</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Relatório</p> <p>Todos os relatórios do sistema estão disponíveis para exportação. É possível selecionar até 100 relatórios específicos em uma única exportação.</p> </td> 
       <td scope="col">Exporta como arquivo ZIP </td> 
-      <td scope="col"> <p scope="col">Parâmetro</p> <p scope="col">Opção de parâmetro</p> <p scope="col">Grupo de Parâmetros</p> <p scope="col">Parâmetro da Categoria</p> <p scope="col">Categoria</p> <p scope="col">Relatório</p> <p scope="col">Preferências</p> </td> 
+      <td scope="col"> <p scope="col">Parâmetro</p> <p scope="col">Texto descritivo</p> <p scope="col">Opção de parâmetro</p> <p scope="col">Grupo de Parâmetros</p> <p scope="col">Parâmetro da Categoria</p> <p scope="col">Categoria</p> <p scope="col">Relatório</p> <p scope="col">Preferências</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Aprovação</p> </td> 
       <td scope="col"> <p>Exporta como arquivo do Excel</p> </td> 
-      <td scope="col"> <p>Aprovador da etapa</p> <p>Etapa de aprovação</p> <p>Aprovação</p> <p>Processo de aprovação</p> <p>Preferências</p> </td> 
+      <td scope="col"> <p>Aprovador de estágio</p> <p>Estágio de aprovação</p> <p>Aprovação</p> <p>Processo de aprovação</p> <p>Preferências</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Dados personalizados</p> </td> 
       <td scope="col"> <p>Exporta como arquivo do Excel</p> </td> 
-      <td scope="col"> <p>Parâmetro</p> <p>Opção de parâmetro</p> <p>Grupo de Parâmetros</p> <p>Parâmetro da Categoria</p> <p>Categoria</p> <p>Preferências</p> </td> 
+      <td scope="col"> <p>Parâmetro</p> <p>Texto descritivo</p>  <p>Opção de parâmetro</p> <p>Grupo de Parâmetros</p> <p>Parâmetro da Categoria</p> <p>Categoria</p> <p>Preferências</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Tipo de Despesa</p> </td> 
@@ -189,13 +195,33 @@ Para exportar um modelo do Kickstart:
       <td>Função no trabalho</td> 
       <td>Exporta como arquivo do Excel</td> 
       <td> <p> Função de trabalho</p> <p>Preferências </p> </td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
+      <td>Conjuntos de recursos legados</td> 
+      <td>Exporta como arquivo do Excel</td> 
+      <td> <p> Conjuntos de recursos legados</p> <p>Preferências </p> </td> 
+     </tr>
+
+   <tr> 
       <td>Caminho de Etapas</td> 
       <td> Exporta como arquivo do Excel</td> 
       <td> <p> Etapa</p> <p>Caminho de Etapas</p> <p>Preferências </p> </td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
+      <td>Recurso não mão de obra</td> 
+      <td> Exporta como arquivo do Excel</td> 
+      <td> <p> Recurso não mão de obra</p> <p>Preferências</p></td> 
+     </tr>
+
+   <tr> 
+      <td>Categoria de recurso não mão de obra</td> 
+      <td> Exporta como arquivo do Excel</td> 
+      <td> <p> Categoria de recurso não mão de obra</p> <p>Preferências</p></td> 
+     </tr>
+
+   <tr> 
       <td>Nota</td> 
       <td>Exporta como arquivo do Excel</td> 
       <td> <p> Nota</p> <p>Preferências </p> </td> 
@@ -216,11 +242,6 @@ Para exportar um modelo do Kickstart:
       <td> <p> Estimativa de Recursos</p> <p>Preferências </p> </td> 
      </tr> 
      <tr> 
-      <td>Conjunto de Recursos</td> 
-      <td>Exporta como arquivo do Excel</td> 
-      <td> <p> Conjunto de Recursos</p> <p>Preferências </p> </td> 
-     </tr> 
-     <tr> 
       <td>Risco</td> 
       <td>Exporta como arquivo do Excel</td> 
       <td> <p> Risco</p> <p>Preferências </p> </td> 
@@ -233,7 +254,7 @@ Para exportar um modelo do Kickstart:
      <tr> 
       <td>Scorecard</td> 
       <td>Exporta como arquivo do Excel</td> 
-      <td> <p>Questões do Scorecard</p> <p>Opção de scorecard</p> <p>Scorecard</p> <p>Preferências </p> </td> 
+      <td> <p>Pergunta do Scorecard</p> <p>Opção de scorecard</p> <p>Scorecard</p> <p>Preferências </p> </td> 
      </tr> 
      <tr> 
       <td>Tarefa</td> 
@@ -269,17 +290,17 @@ Para exportar um modelo do Kickstart:
    </table>
 
 1. Clique em **Baixar**.
-1. Continuar com [Preencha o modelo de planilha com seus dados](#populate-the-spreadsheet-template-with-your-data) para preencher o template com suas informações.
+1. Continuar com [Preencha o modelo de planilha com seus dados](#populate-the-spreadsheet-template-with-your-data) para preencher a planilha de modelo em branco com suas informações.
 
 ## Preencha o modelo de planilha com seus dados {#populate-the-spreadsheet-template-with-your-data}
 
-* [Sobre as guias (folhas de dados) incluídas na planilha](#about-the-tabs-data-sheets-included-in-the-spreadsheet)
+* [Visão geral das guias (folhas de dados) incluídas na planilha](#overview-of-the-tabs-data-sheets-included-in-the-spreadsheet)
 * [Importar um registro](#import-a-record)
 * [Incluir datas](#include-dates)
 * [Usar curingas](#use-wildcards)
 * [Substituição de nome de atributo para IDs](#attribute-name-substitution-for-ids)
 
-### Sobre as guias (folhas de dados) incluídas na planilha {#about-the-tabs-data-sheets-included-in-the-spreadsheet}
+### Visão geral das guias (folhas de dados) incluídas na planilha
 
 >[!TIP]
 >
@@ -293,12 +314,13 @@ Quando você abre uma dessas guias, a linha 2 exibe os campos para cada objeto q
 >
 >Para evitar erros, verifique o seguinte:
 >
->* Não exclua nem modifique esses campos de forma alguma. Por exemplo, não altere a ordem ou os nomes deles.
->* Preencha cada campo com um cabeçalho de coluna exibido em negrito. Eles representam campos obrigatórios.
+>* Não exclua a primeira linha vazia de uma planilha de início rápido.
+>* Não exclua, modifique ou reorganize esses campos (cabeçalhos de coluna) de forma alguma. Por exemplo, não altere a ordem ou os nomes deles.
+>* Adicione valores a cada campo exibido em negrito no cabeçalho da coluna. Eles representam campos obrigatórios.
 >
->  No entanto, se um campo obrigatório contiver um valor padrão definido nas preferências do sistema, não será necessário preenchê-lo.
+>     No entanto, se um campo obrigatório contiver um valor padrão definido nas preferências do sistema, não será necessário preenchê-lo.
 >
->  Por exemplo, no campo **Projeto PROJ** , a guia **setCondition** e **setConditionType** os campos podem ficar vazios, mas a variável **setGroupID** e **setName** colunas não podem.
+>     Por exemplo, no campo **Projeto PROJ** , a guia **setCondition** e **setConditionType** os campos podem ficar vazios, mas a variável **setGroupID** e **setName** colunas não podem.
 >
 >* Determinados domínios, incluindo **setResourceRevenue** e **setEnteredByID**, são gerados automaticamente pelo sistema. Se você inserir dados para esses campos na planilha, o processo de início os substituirá quando você fizer upload da planilha.
 
@@ -306,26 +328,30 @@ Quando você abre uma dessas guias, a linha 2 exibe os campos para cada objeto q
 
 Cada linha da planilha corresponde a um objeto exclusivo.
 
-1. Preencha a célula na **isNew** coluna:
+1. Adicionar informações no **isNew** coluna:
 
-   * Se o objeto que você está importando for novo, digite **TRUE** para importar os dados na linha.
-   * Se o objeto já estiver na Workfront, **FALSO** deve estar na coluna para ignorar a linha.
+   * Se o objeto que você está importando for novo, digite **TRUE** para importar os dados na linha. Esse valor diferencia maiúsculas de minúsculas e sempre deve estar em letras maiúsculas
+   * Se o objeto já estiver na Workfront, digite **FALSO** no **isNew** para ignorar a linha. Esse valor diferencia maiúsculas de minúsculas e sempre deve estar em letras maiúsculas
 
       * Os registros que já existem no Workfront não são atualizados.
-      * Se você baixou um modelo com dados, os objetos existentes já estão marcados com **FALSO**.
+      * Se você baixou um modelo com dados do Workfront, os objetos existentes já estão marcados com **FALSO**.
       * Se você baixou um modelo em branco, não é necessário adicionar novas linhas para objetos existentes.
 
-1. Preencha a célula na **ID** de uma das seguintes formas:
+1. Adicionar informações no **ID** de uma das seguintes formas:
 
-   * Se o objeto que você está importando for novo (e você digitou **TRUE** no **isNew** ), digite qualquer número para a ID. Esse número deve ser exclusivo na planilha.
+   * Se o objeto que você está importando for novo (e você digitou **TRUE** no **isNew** ), digite qualquer número para a ID. Esse número deve ser exclusivo na planilha. Por exemplo, se você importar três objetos, poderá fornecer a eles a ID 1, 2, 3, respectivamente.
 
-   * Se o objeto já existir no Workfront (e **FALSO** está na **isNew** ), a ID deve ser o GUID alfanumérico que existe no Workfront para esse objeto.
+   * Se o objeto já existir no Workfront (e **FALSO** está na **isNew** e você estiver importando novas informações sobre objetos existentes, a ID deverá ser o GUID alfanumérico que existe no Workfront para esse objeto.
 
-      * Os registros que já existem no Workfront não são atualizados.
-      * Se você baixou um modelo com dados, os objetos existentes já contêm o GUID como a ID.
-      * Você pode importar um novo objeto com base em um objeto existente alterando **FALSO** para **TRUE** no **isNew** , alterando a ID e fazendo os ajustes de dados necessários antes da importação.
+   >[!TIP]
+   >
+   > Para descobrir o GUID exclusivo de um objeto no Workfront, você pode criar um relatório para esse objeto e adicionar a coluna ID ao relatório. O valor de cada objeto nessa coluna é o GUID do objeto.
 
-     ![ID de exemplo para um grupo](assets/kick-start-group-example.png)
+   * Os registros que já existem no Workfront não são atualizados.
+   * Se você baixou um modelo com dados, os objetos existentes já contêm o GUID como a ID.
+   * Você pode importar um novo objeto com base em um objeto existente alterando **FALSO** para **TRUE** no **isNew** , alterando a ID e fazendo os ajustes de dados necessários antes da importação.
+
+   ![ID de exemplo para um grupo](assets/kick-start-group-example.png)
 
    * Ao importar um projeto, você deve indicar uma ID de grupo.
 
@@ -341,7 +367,7 @@ Cada linha da planilha corresponde a um objeto exclusivo.
 1. (Opcional) Para adicionar dados personalizados:
 
    * Crie uma nova coluna para cada campo personalizado que deseja incluir no processo de importação.
-   * Nomeie cada nova coluna para seu campo personalizado correspondente da seguinte maneira: **DE:[O nome do campo personalizado conforme exibido no Workfront]**.
+   * Nomeie cada nova coluna para seu campo personalizado correspondente da seguinte maneira: **DE:[Nome do campo personalizado conforme exibido no Workfront]**. Por exemplo, você pode criar o seguinte campo personalizado: &quot;DE: Departamentos&quot;.
    * Na coluna **setCategoryID**, digite a GUID do formulário personalizado existente no qual este campo personalizado reside. Esse campo é necessário ao importar dados personalizados.
    * Se precisar adicionar vários valores de dados no campo personalizado (como botões de opção, caixas de seleção ou listas), use o delimitador de dados personalizado da barra vertical &quot;|&quot; listado na guia Preferências para separar os valores.
 
@@ -353,13 +379,17 @@ O Workfront pode processar a maioria dos formatos de data. No entanto, você dev
 
 >[!TIP]
 >
->A maioria das pessoas acha mais fácil usar o formato MM/DD/AAAA (por exemplo: 07/10/2022).
+>O formato mais popular é o formato MM/DD/AAAA.
+>
+>Por exemplo: 10/07/2023.
 
-O Workfront também aceita valores de hora como parte da data (por exemplo: 07/10/2022 13h30 ou 07/10/2022 13h).
+A Workfront também aceita valores de tempo como parte da data.
+
+Por exemplo: 10/07/2022 13h30 ou 10h/2022 13h.
 
 Se você omitir uma hora na data, a Workfront executará um dos seguintes procedimentos:
 
-* Pressupõe 12h. Para ver o resultado de data esperado, o fuso horário do sistema deve corresponder ao seu fuso horário.
+* O horário assume que é 12h. Para ver o resultado de data esperado, o fuso horário do sistema deve corresponder ao seu fuso horário.
 * Se estiver em um objeto associado a um agendamento, o horário diferirá para o horário mais antigo permitido pelo agendamento.
 
 >[!NOTE]
@@ -377,7 +407,7 @@ Você pode usar os seguintes curingas ao preencher sua planilha de modelo do Kic
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>Caractere curinga</strong> </p> </th> 
+   <th> <p><strong>Curinga</strong> </p> </th> 
    <th> <p><strong>Comportamento</strong> </p> </th> 
   </tr> 
  </thead> 
@@ -407,19 +437,19 @@ Embora seja uma prática recomendada usar IDs sempre que possível, às vezes é
 
 **Exemplos:**
 
-* **(importação do projeto)**
+* **Importação de projeto**
 
   Ao importar projetos, defina as **setGroupID** dos projetos, acessando a página **Grupo do GRUPO** planilha, anotando as respectivas IDs de Grupo e colando-as nas células corretas (**setGroupID** coluna) no **Projeto PROJ** planilha.
 
   Isso é viável ao trabalhar com apenas alguns grupos e projetos, mas se você estiver trabalhando com vários de cada um, não é prático.
 
-  Para fazer a Substituição de Nome de Atributo para o exemplo descrito acima, altere a variável **setGroupID** cabeçalho da coluna para **#setGroupID GROUP****nome**. Em seguida, você pode fazer referência a cada grupo do projeto por nome.
+  Para fazer a Substituição de Nome de Atributo para o exemplo descrito acima, altere a variável **setGroupID** cabeçalho da coluna para **#setGroupID GROUP name**. Em seguida, você pode fazer referência a cada grupo do projeto por nome.
 
   >[!NOTE]
   >
   >A opção para usar a Substituição de Nome de Atributo está limitada a referências somente para registros existentes. Não é possível usar a substituição de nome para objetos que você está criando na mesma importação.
 
-* **(importação de usuários)**
+* **Importação de usuários**
 
   Ao importar usuários, preencha o **setRoleID** de uma lista de funções no **Função Função** guia.
 
@@ -443,8 +473,7 @@ Depois de preencher o modelo do Excel com seus dados, você pode carregá-los no
 
 A importação do Kickstart suporta os seguintes tipos de arquivos:
 
-* Excel baseado em XML (.xlsx)
-* Excel herdado (.xls)
+* Excel (.xls ou .xlsx)
 * Arquivo compactado (.ZIP) (que contém apenas arquivos .xlsx ou .xls)
 
   >[!NOTE]
@@ -460,7 +489,9 @@ A importação do Kickstart suporta os seguintes tipos de arquivos:
 
 Para importar os dados da planilha do modelo para o Workfront:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
+<!--1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).-->
 
 1. Clique em **Sistema** >**Importar dados (Kick-Starts)**.
 
@@ -468,7 +499,7 @@ Para importar os dados da planilha do modelo para o Workfront:
 
 1. Clique em **Carregar.**
 
-   Se o arquivo do Excel levar mais de 5 minutos para ser carregado no Workfront, o aplicativo expirará e o arquivo não poderá ser carregado.
+   Se o arquivo do Excel levar mais de 5 minutos para ser carregado para o Workfront, o aplicativo expirará e o Workfront não poderá carregar o arquivo.
 
    Tente importar seus dados em lotes menores de objetos.
 
