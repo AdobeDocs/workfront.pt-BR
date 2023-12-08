@@ -10,7 +10,7 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 7c1115065e4d2f4732b392336aed692c055ba97c
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Esta seção contém os seguintes artigos:
 * [Notificações de eventos disponíveis no Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
 * [Desbloquear ou bloquear a configuração de notificações de eventos para todos os grupos](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [Personalizar assuntos de email para notificações de eventos](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
-* [Modificar configurações de notificação por email nos perfis dos usuários](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
+* [Modificar as configurações de notificação por email de vários usuários](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
 * [Configurar notificações de lembrete](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)
 * [Anexar uma notificação de lembrete a um objeto](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md)
 * [Configurar lembretes automáticos](../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md)

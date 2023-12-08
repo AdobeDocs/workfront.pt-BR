@@ -2,20 +2,22 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: Prova
-description: Saiba mais sobre provas.
+title: "Prova: índice do artigo"
+description: Revise e comente no mesmo documento em que as equipes criativas trabalham. Com o Workfront Proofing, você pode solicitar feedback, ver comentários e obter notificações sobre aprovações pendentes e concluídas — tudo isso mantendo uma trilha de auditoria de comentários e versões.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 5%
+source-wordcount: '116'
+ht-degree: 0%
 
 ---
 
-# Prova
+# Prova: índice do artigo
+
+Revise e comente no mesmo documento em que as equipes criativas trabalham. Com o Workfront Proofing, você pode solicitar feedback, ver comentários e obter notificações sobre aprovações pendentes e concluídas — tudo isso mantendo uma trilha de auditoria de comentários e versões.
 
 Esta seção contém as seguintes subseções:
 

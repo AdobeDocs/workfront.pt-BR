@@ -4,9 +4,9 @@ description: Os seguintes aprimoramentos significativos foram feitos no gerencia
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ Quando isso ocorrer, você poderá executar um dos seguintes procedimentos:
 
 Para obter instruções sobre como adicionar um campo personalizado calculado a um formulário personalizado, consulte [Adicionar dados calculados a um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-Para obter mais informações sobre variáveis como `$$OBJCODE`, consulte [Variáveis de filtro curinga](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Para obter mais informações sobre variáveis como `$$OBJCODE`, consulte [Visão geral das variáveis de filtro curinga](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ### Cuidado ao excluir um tipo de objeto de um formulário personalizado
 

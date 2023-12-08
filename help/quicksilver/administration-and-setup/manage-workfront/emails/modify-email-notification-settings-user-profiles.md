@@ -3,28 +3,24 @@ user-type: administrator
 product-area: system-administration
 keywords: modificar,email,notificação,configurações,em massa,edição em massa,configurar,vários,usuários
 navigation-topic: emails-administration
-title: Modificar configurações de notificação por email nos perfis dos usuários
+title: Modificar as configurações de notificação por email de vários usuários
 description: Este artigo fornece informações para a Workfront ou administradores de grupo sobre como eles podem atualizar as notificações por email de outros usuários.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 7c1115065e4d2f4732b392336aed692c055ba97c
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
 
-# Modificar configurações de notificação por email nos perfis dos usuários
+# Modificar as configurações de notificação por email de vários usuários
 
 Se você for um administrador do Adobe Workfront ou tiver um nível de acesso de Planejador que permita editar as configurações de outros usuários, poderá definir as configurações de notificação para vários usuários de uma vez. Isso inclui especificar se os usuários recebem notificações conforme os eventos ocorrem ou em um email de resumo diário, conforme descrito em [Notificações do Adobe Workfront](../../../workfront-basics/using-notifications/wf-notifications.md). Para obter informações sobre o nível de acesso necessário para editar usuários, consulte [Conceder acesso aos usuários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-Ao definir as configurações de notificação em massa, você pode alterar apenas as configurações que os usuários selecionados têm em comum.
-
->[!NOTE]
->
->Você também pode configurar notificações por email para um usuário por vez, incluindo seu próprio perfil. Para obter mais informações, consulte [Modificar suas próprias notificações por email](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Você também pode configurar notificações por email para um usuário por vez, incluindo seu próprio perfil. Para obter mais informações, consulte [Modificar suas próprias notificações por email](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 ## Requisitos de acesso
@@ -37,35 +33,48 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td>Plano</td> 
+   <td> <p>Novo plano: Padrão </p>
+ <p>ou</p> 
+<p>Plano atual: Plano </p> 
+</td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Para descobrir o tipo de plano ou licença que você tem, entre em contato com o administrador do Workfront.
 
-## Modificar as configurações de notificação por email de vários usuários em massa
+## Modificar configurações de notificação por email para vários usuários
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Usuários** ![](assets/users-icon-in-main-menu.png). Selecione os usuários e clique em **Editar**.
+Ao definir as configurações de notificação em massa, você pode alterar apenas as configurações que os usuários selecionados têm em comum.
+
+Quando você modifica uma configuração de notificação, o rótulo **Editado** é exibida para essa configuração de notificação, para que você saiba que essa configuração de notificação foi modificada.
+
+Para modificar as configurações de notificação por email para vários usuários:
+
+{{step-1-to-users}}
+
+1. Selecione os usuários e clique em **Editar**.
 1. No **Editar pessoa** for exibida, clique em **Notificação**.
 
 1. Expanda uma categoria para exibir as configurações de notificação relacionadas a ela.
 
    Se houver pelo menos um usuário selecionado em que as notificações não correspondam às notificações dos outros usuários selecionados, a caixa de seleção de categoria para essa notificação conterá uma linha horizontal ![](assets/straight-line-instead-of-checkmark.jpg) em vez de uma marca de seleção.
 
+
 1. Clique em qualquer notificação que você deseja que os usuários recebam diariamente ou instantaneamente, ou desmarque qualquer uma que você deseja que eles parem de receber.
 
-   Para o **Comunicação** você pode selecionar notificações individuais somente para entrega instantânea. Você deve selecionar todas as notificações que serão entregues em um resumo diário.
+   >[!NOTE]
+   >
+   >   Para o **Comunicação** você pode selecionar notificações individuais somente para entrega instantânea. Você deve selecionar todas as notificações que serão entregues em um resumo diário.
 
-   Quando você modifica uma configuração de notificação, o rótulo **Editado** é exibida para essa configuração de notificação, para que você saiba que essa configuração de notificação foi modificada.
 
 1. Se você selecionou notificações para serem enviadas como um resumo diário, selecione a hora do dia em que deseja que o resumo seja entregue na parte superior do **Notificação** na seção **Enviar o resumo diário por email depois de** menu.
 
-   Após selecionar um tempo de delivery, a variável **Enviar o resumo diário por email depois de** é exibida com um quadro laranja para indicar que a hora do delivery foi editada.
+   ![](assets/daily-digest-time.png)
 
    O resumo diário inclui eventos que atendem aos critérios das notificações 24 horas antes da hora selecionada. Os usuários recebem um email de resumo diário para cada tipo de notificação.
 

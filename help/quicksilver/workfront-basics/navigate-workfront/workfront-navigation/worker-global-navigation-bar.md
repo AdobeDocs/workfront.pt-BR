@@ -3,57 +3,57 @@ content-type: overview
 product-area: user-management
 navigation-topic: workfront-navigation
 title: Entender a navegação de um usuário de licença de trabalho
-description: O Menu Principal muda com o nível de acesso que foi atribuído pelo seu [!DNL Adobe Workfront] administrador. Por padrão, você recebe acesso somente às áreas que incluem funcionalidade permitida pelo seu nível de acesso.
+description: O menu principal muda com o nível de acesso que lhe foi atribuído pelo seu [!DNL Adobe Workfront] administrador. Por padrão, você recebe acesso somente às áreas que incluem a funcionalidade permitida pelo seu nível de acesso.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
 
-# Entender a navegação para um [!UICONTROL Trabalho]-licenciado usuário
+# Entender a navegação de um [!UICONTROL Trabalho]-license usuário
 
-O [!UICONTROL Menu principal] alterações com o nível de acesso atribuído por [!DNL Adobe Workfront] administrador. Por padrão, você recebe acesso somente às áreas que incluem funcionalidade permitida pelo seu nível de acesso. Para entender os componentes do layout padrão de cada nível de acesso, consulte [Sobre o padrão [!DNL Adobe Workfront] layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+A variável [!UICONTROL Menu principal] alterações com o nível de acesso que você foi atribuído pelo seu [!DNL Adobe Workfront] administrador. Por padrão, você recebe acesso somente às áreas que incluem a funcionalidade permitida pelo seu nível de acesso. Para entender os componentes do layout padrão de cada nível de acesso, consulte [Sobre o padrão [!DNL Adobe Workfront] layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 ## Entender o padrão [!UICONTROL Menu principal] de um trabalhador
 
-Como um [!UICONTROL Trabalhador], sua principal responsabilidade é concluir o trabalho. As áreas na [!UICONTROL Menu principal] que são visíveis e permitem que você faça isso.
+Como um [!UICONTROL Trabalhadores], sua principal responsabilidade é completar o trabalho. As áreas no [!UICONTROL Menu principal] que estão visíveis para você permitem que você faça isso.
 
-As seguintes áreas estão incluídas no layout padrão de um [!UICONTROL Trabalhador]:
+As áreas a seguir estão incluídas no layout padrão de um [!UICONTROL Trabalhadores]:
 
-* **[!UICONTROL Início]**: Tarefas e problemas atribuídos a você são exibidos aqui. Essa é a página de aterrissagem padrão de um Trabalhador , no entanto, ela não é exibida no [!UICONTROL Menu principal] a menos que um administrador do Workfront o adicione ao modelo de layout .  Para obter mais informações, consulte [Introdução a [!UICONTROL Início]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+* **[!UICONTROL Início]**: tarefas e problemas atribuídos a você são exibidos aqui. Essa é a landing page padrão para um Trabalhador, no entanto, não aparece no [!UICONTROL Menu principal] a menos que um administrador do Workfront o adicione ao modelo de layout.  Para obter informações, consulte [Introdução a [!UICONTROL Início]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
-* **[!UICONTROL Projetos]**: Os projetos compartilhados com você são exibidos aqui. Para obter mais informações, consulte [Projetos](../../../manage-work/projects/projects-overview.md).
+* **[!UICONTROL Projetos]**: os projetos compartilhados com você são exibidos aqui. Para obter informações, consulte [Projetos](../../../manage-work/projects/projects-overview.md).
 
-* **[!UICONTROL Relatórios]**: Os relatórios compartilhados com você são exibidos aqui. Para obter mais informações, consulte [Relatórios](../../../reports-and-dashboards/reports/reports-overview.md).
+* **[!UICONTROL Relatórios]**: os relatórios compartilhados com você são exibidos aqui. Para obter informações, consulte [Relatórios](../../../reports-and-dashboards/reports/reports-overview.md).
 
-* **[!UICONTROL Painéis]**: Os painéis compartilhados com você são exibidos aqui. Para obter mais informações, consulte [Painéis](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
+* **[!UICONTROL Painéis]**: os painéis compartilhados com você são exibidos aqui. Para obter informações, consulte [Painéis](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-* **[!UICONTROL Calendários]**: Os calendários compartilhados com você são exibidos aqui. Para obter mais informações, consulte [Calendários](../../../reports-and-dashboards/reports/calendars/calendars.md).
+* **[!UICONTROL Calendários]**: os calendários compartilhados com você são exibidos aqui. Para obter informações, consulte [Calendários](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
-* **[!UICONTROL Equipes]**: Tarefas e problemas atribuídos às suas equipes são exibidos nessa área. Como trabalhador, você é o único [!DNL Workfront] usuário que vê o [!UICONTROL Equipes] por padrão.
+* **[!UICONTROL Equipes]**: tarefas e problemas atribuídos às suas equipes são exibidos nesta área. Como Trabalhador, você é o único [!DNL Workfront] usuário que vê o [!UICONTROL Equipes] por padrão.
 
-   Para obter mais informações, consulte [Criar e gerenciar equipes](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
+  Para obter informações, consulte [Criar e gerenciar equipes](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
 
-* **[!UICONTROL Solicitações]**: Você pode enviar solicitações e revisar solicitações que você ou os membros da sua equipe enviaram aqui. Para obter mais informações, consulte [Solicitações](../../../manage-work/requests/requests-overview.md).
+* **[!UICONTROL Solicitações]**: é possível enviar solicitações e revisar solicitações que você ou os membros da sua equipe enviaram aqui. Para obter informações, consulte [Solicitações](../../../manage-work/requests/requests-overview.md).
 
-* **[!UICONTROL Folhas de Horas]**: Você pode acessar suas folhas de horas atuais, futuras ou antigas aqui. Para obter mais informações, consulte [Folhas de Horas](../../../timesheets/timesheets-all.md).
+* **[!UICONTROL Planilhas de Horas]**: Você pode acessar suas folhas de horas atuais, futuras ou antigas aqui. Para obter informações, consulte [Planilhas de Horas](../../../timesheets/timesheets-all.md).
 
-* **[!UICONTROL Documentos]**: Você pode fazer upload de documentos ou revisar documentos compartilhados com você, aqui. Para obter mais informações, consulte [Documentos](../../../documents/documents-overview.md).
+* **[!UICONTROL Documentos]**: Você pode carregar documentos ou revisar documentos compartilhados com você, aqui. Para obter informações, consulte [Documentos](../../../documents/documents-overview.md).
 
-* **[!UICONTROL Recursos]**: Você pode exibir a alocação de recursos nas ferramentas de Planejamento de Recursos e exibir os Pools de Recursos aqui. Para obter mais informações, consulte [Gerenciar recursos](../../../resource-mgmt/manage-resources.md).
+* **[!UICONTROL Recursos]**: Você pode visualizar a alocação de recursos nas ferramentas de Planejamento de recursos e visualizar Conjuntos de recursos aqui. Para obter informações, consulte [Gerenciar recursos](../../../resource-mgmt/manage-resources.md).
 
-* **[!UICONTROL Analytics]**: Examine os dados do projeto e identifique tendências com o planejamento e a conclusão. Essa área exibe informações sobre projetos que você tem acesso para visualizar. Para obter mais informações, consulte [Visão geral da análise aprimorada](../../../enhanced-analytics/enhanced-analytics-overview.md).
+* **[!UICONTROL Analytics]**: Analise os dados do projeto e identifique tendências com relação ao planejamento e à conclusão. Essa área exibe insights dos projetos que você tem acesso para visualizar. Para obter mais informações, consulte [Visão geral da análise aprimorada](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-* **[!UICONTROL Quadros]**: Trabalhe com flexibilidade e colaboração com membros de sua equipe usando quadros compartilhados que contêm colunas e cartões refletindo o trabalho que você deseja realizar. Para obter mais informações, consulte [Introdução a quadros em [!DNL Adobe Workfront]](../../../agile/get-started-with-boards/get-started-with-boards.md).
+* **[!UICONTROL Quadros]**: trabalhe com flexibilidade e colaboração com os membros da equipe usando quadros compartilhados que contêm colunas e cartões que refletem o trabalho que você deseja realizar. Para obter informações, consulte [Introdução a quadros: índice de artigos](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
-* **[!UICONTROL Blueprints]**: Analise os blueprints existentes em seu sistema e solicite a instalação de um, se a variável [!DNL Workfront] o administrador configurou a fila de solicitações para blueprints. Para obter mais informações, consulte [Visão geral do Blueprints](../../../administration-and-setup/blueprints/blueprints-overview.md).
+* **[!UICONTROL Blueprints]**: revise os blueprints existentes no sistema e solicite a instalação de um, se a [!DNL Workfront] o administrador configurou a fila de solicitações para blueprints. Para obter mais informações, consulte [Visão geral de blueprints](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 ![](assets/worker-main-menu-350x426.png)
 
 ## Personalizar o padrão [!UICONTROL Menu principal]
 
-Seu [!DNL Workfront] o administrador pode modificar seu [!DNL Workfront] layout padrão ao atribuir um modelo de layout. Para obter mais informações sobre como trabalhar com modelos de layout, consulte  [Personalize o [!UICONTROL Menu principal] uso de um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+Seu [!DNL Workfront] o administrador pode modificar o [!DNL Workfront] layout padrão atribuindo um modelo de layout. Para obter mais informações sobre como trabalhar com modelos de layout, consulte  [Personalize o [!UICONTROL Menu principal] uso de um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).

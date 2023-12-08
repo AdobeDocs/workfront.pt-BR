@@ -6,9 +6,9 @@ description: Por padrão, os usuários só podem ver os objetos em um relatório
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: e68e470da3b03e418584898c4098f0be302c68ec
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -74,6 +74,7 @@ Para executar um relatório com os direitos de acesso de outro usuário:
    ![](assets/qs-access-rights-of-350x251.png)
 
    >[!NOTE]
+   >
    Os usuários com um nível de acesso mais baixo que têm permissão para criar relatórios não podem selecionar um usuário diferente de si mesmos para a **Executar este relatório com direitos de acesso de:** campo.
 
 1. Clique em **Concluído**.
@@ -81,8 +82,10 @@ Para executar um relatório com os direitos de acesso de outro usuário:
    O relatório agora é exibido para todos os usuários com quem o relatório é compartilhado como se tivesse sido visualizado pelo usuário especificado na **Executar este relatório com direitos de acesso de:** campo.
 
 >[!IMPORTANT]
+>
 Inserir um usuário diferente do usuário conectado para o **Executar este relatório com direitos de acesso de:** O campo impacta as informações exibidas no relatório se ele contiver um filtro que use um curinga como referência para o usuário conectado. O relatório é exibido de acordo com o valor especificado na variável **Executar este relatório com direitos de acesso de:** em vez do definido no filtro curinga.
-Para obter mais informações sobre curingas para campos de usuário, consulte a seção &quot;Variáveis baseadas em usuário&quot; em [Variáveis de filtro curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+>
+Para obter mais informações sobre curingas para campos de usuário, consulte a seção &quot;Variáveis baseadas em usuário&quot; em [Visão geral das variáveis de filtro curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Entregar um relatório com os direitos de acesso de outro usuário
 
@@ -101,6 +104,7 @@ Para fornecer um relatório com os direitos de acesso de outro usuário:
    ![](assets/qs-send-report-access-rights-of-350x446.png)
 
    >[!NOTE]
+   >
    Os usuários com um nível de acesso mais baixo que têm permissão para criar relatórios não podem selecionar um usuário diferente de si mesmos para a **Enviar este relatório com direitos de acesso de:** campo.
 
 1. Selecione o **Formato** deseja que o relatório seja exibido no email:
@@ -134,20 +138,20 @@ Por exemplo, você pode adicionar qualquer um dos itens a seguir a um relatório
 * As colunas Nome do projeto ou Nome da tarefa para um relatório de problemas.
 * Uma coluna usando expressões de modo de texto que faz referência a todos os três objetos. Este é um exemplo de relatório de uma hora:
 
-   `displayname=Custom Source`
+  `displayname=Custom Source`
 
-   `linkedname=opTask`
+  `linkedname=opTask`
 
-   `namekey=view.relatedcolumn`
+  `namekey=view.relatedcolumn`
 
-   `namekeyargkey.0=opTask`
+  `namekeyargkey.0=opTask`
 
-   `namekeyargkey.1=name`
+  `namekeyargkey.1=name`
 
-   `textmode=true`
+  `textmode=true`
 
-   `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
+  `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
 
-   `valueformat=HTML`
+  `valueformat=HTML`
 
-   Para obter informações sobre visualizações em modo de texto, consulte [Editar uma visualização usando o modo de texto](../text-mode/edit-text-mode-in-view.md).
+  Para obter informações sobre visualizações em modo de texto, consulte [Editar uma visualização usando o modo de texto](../text-mode/edit-text-mode-in-view.md).

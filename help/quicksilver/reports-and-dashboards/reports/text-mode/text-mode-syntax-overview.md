@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: dcbb55f57d189c715cc1111fde3c4bc597495851
+source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1865'
 ht-degree: 0%
 
 ---
@@ -211,7 +211,7 @@ As seguintes regras se aplicam ao referenciar objetos do Workfront usando um `va
 
 * É possível usar um curinga em uma `valueexpression` mas não em um `valuefield` linha.
 
-  Para obter informações sobre curingas, consulte [Variáveis de filtro curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+  Para obter informações sobre curingas, consulte [Visão geral das variáveis de filtro curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 
 #### `Valueformat` visão geral para exibições e agrupamentos
@@ -285,4 +285,4 @@ Você pode usar os seguintes elementos para criar filtros e prompts personalizad
      >
      >Os conectores de instrução fazem distinção entre maiúsculas e minúsculas. &quot;AND&quot; pode ser omitido no modo de texto.
 
-* Curingas para tornar os filtros mais dinâmicos e personalizá-los para o horário atual ou para o usuário que está conectado. Para obter informações sobre curingas, consulte [Variáveis de filtro curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+* Curingas para tornar os filtros mais dinâmicos e personalizá-los para o horário atual ou para o usuário que está conectado. Para obter informações sobre curingas, consulte [Visão geral das variáveis de filtro curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).

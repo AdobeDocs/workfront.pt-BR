@@ -6,9 +6,9 @@ description: Você pode generalizar um relatório usando curingas em vez de info
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>plano do Adobe Workfront*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
@@ -90,7 +90,7 @@ Para inserir um curinga com base em data em um relatório:
 1. (Opcional) Se desejar exibir informações que ocorram em um período posterior à data em que o relatório é executado, digite `$$TODAY+1w` para exibir informações na semana seguinte, ou `$$TODAY+2m` para exibir informações nos próximos dois meses. Você também pode indicar períodos de tempo para trimestres, horas, dias ou anos.
 1. (Opcional) Se desejar exibir informações sobre algo que ocorreu em um período anterior à data em que o relatório foi executado, digite `$$TODAY-1w` para exibir informações da semana anterior, ou `$$TODAY-2m` para exibir informações dos dois meses anteriores. Você também pode indicar períodos de tempo para trimestres, horas, dias ou anos.
 
-   Para obter uma lista completa de atributos, qualificadores e operadores que você pode usar em curingas baseados em data, consulte o artigo [Variáveis de filtro curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   Para obter uma lista completa de atributos, qualificadores e operadores que você pode usar em curingas baseados em data, consulte o artigo [Visão geral das variáveis de filtro curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
    ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 
@@ -101,7 +101,7 @@ Para inserir um curinga com base em data em um relatório:
 Consulte também:
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
-* [Variáveis de filtro curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+* [Visão geral das variáveis de filtro curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Criar ou editar filtros no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [Adicionar um prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [Usar formatação condicional em exibições](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)

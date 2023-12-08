@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
+source-git-commit: 7800211cedc91285a755d2783fff3324e5d16843
 workflow-type: tm+mt
-source-wordcount: '2227'
-ht-degree: 2%
+source-wordcount: '2202'
+ht-degree: 1%
 
 ---
 
@@ -48,11 +48,14 @@ Você deve ter o seguinte:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td>Plano</td> 
+   <td> <p>Novo plano: Padrão </p>
+ <p>ou</p> 
+<p>Plano atual: Plano </p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
@@ -66,7 +69,7 @@ Você deve ter o seguinte:
 
 ## Criar um processo de aprovação global de nível de sistema ou de grupo para itens de trabalho
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. (Condicional) Se você estiver criando um processo de aprovação no nível do sistema, clique em **Processos** > **Aprovações** no painel esquerdo.
 
@@ -78,7 +81,7 @@ Você deve ter o seguinte:
    ![](assets/approvals-area-in-setup-processes.png)
    -->
 
-1. Clique em **Aprovações de projetos**, **Aprovações de tarefas** ou **Aprovação de problemas** dependendo do tipo de processo de aprovação que deseja criar.
+1. Escolha a opção **Aprovações de projetos**, **Aprovações de tarefas** ou **Aprovação de problemas** guia.
 
 1. Clique em **Novo processo de aprovação**.
 1. Especifique as seguintes informações na caixa que é exibida:
@@ -89,15 +92,15 @@ Você deve ter o seguinte:
     <tbody> 
      <tr> 
       <td role="rowheader">Nome do processo de aprovação</td> 
-      <td>Digite um nome descritivo para o processo de aprovação. Os usuários veem esse nome ao aplicar o processo de aprovação a um objeto, conforme descrito em <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associar um processo de aprovação novo ou existente ao trabalho</a>.</td> 
+      <td><p>Digite um nome descritivo para o processo de aprovação. Os usuários veem esse nome ao aplicar o processo de aprovação a um objeto, conforme descrito em <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associar um processo de aprovação novo ou existente ao trabalho</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Descrição</td> 
-      <td>Digite uma descrição do processo de aprovação. Isso é exibido na <b>Aprovações</b> na seção <b>Configuração</b> área ao lado do nome do processo de aprovação.</td> 
+      <td><p>Digite uma descrição do processo de aprovação. Isso é exibido na <b>Aprovações</b> na seção <b>Configuração</b> área ao lado do nome do processo de aprovação.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Está ativo</td> 
-      <td> <p>Mantenha essa opção ativada se quiser que outros usuários possam anexar o processo de aprovação a projetos, tarefas e problemas que eles criarem. </p> <p>Essa opção está ativada por padrão.</p> <p> Marcar um processo de aprovação como inativo é útil quando sua organização não precisa mais usá-lo, mas você deseja preservar as informações históricas sobre seu uso.</p> </td> 
+      <td> <p>Mantenha essa opção ativada se quiser que outros usuários possam anexar o processo de aprovação a projetos, tarefas e problemas que eles criarem. </p> <p>Essa opção está ativada por padrão.</p> <p> Dica: marcar um processo de aprovação como inativo é útil quando sua organização não precisa mais usá-lo, mas você deseja preservar as informações históricas sobre seu uso.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Este processo de aprovação pode ser usado por </td> 
@@ -143,7 +146,7 @@ Você deve ter o seguinte:
    <p>Ao adicionar um usuário como aprovador, observe o avatar, a função principal do usuário ou o endereço de email dele para distinguir entre usuários com nomes idênticos. Os usuários devem ser associados a pelo menos uma função de trabalho para visualizá-la à medida que forem adicionados.</p>
       <p>Você deve ter a configuração Exibir informações de contato ativada no seu nível de acesso para que os usuários visualizem os emails dos usuários. Para obter informações, consulte <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">Conceder acesso aos usuários</a>. </p>
 
-   <p><b>Nota</b>:
+   <p><b>NOTA</b>:
 
    Adicionar um usuário, equipe ou função como aprovador não lhes dá permissões automaticamente para o objeto associado a essa aprovação. Eles recebem permissões para o objeto quando a etapa de aprovação é acionada. Caso contrário, os objetos devem ser compartilhados com eles antes que possam tomar uma decisão de aprovação. </p> <p>Você também pode designar um indivíduo como um aprovador especificando a função do indivíduo. Por exemplo, você pode atribuir um Proprietário do projeto, Patrocinador do projeto, Proprietário do Portfolio, Proprietário do programa ou Gerente como aprovador. Essas opções são exibidas automaticamente quando você começa a digitar.</p>
 
@@ -159,12 +162,12 @@ Você deve ter o seguinte:
        </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>Você pode repetir esse processo para adicionar vários aprovadores ao estágio. Um único estágio pode incluir uma combinação de usuários, equipes e funções de trabalho como aprovadores. Não há limite para o número de aprovadores que podem ser adicionados a um estágio.</p> <p><b>IMPORTANTE</b>:  <p>Quando você atribui funções de trabalho como aprovadores, todos os usuários associados a essa função de trabalho que também estão na equipe do projeto podem tomar uma decisão sobre a aprovação. </p> <p>Quando você atribui uma equipe como um aprovador, qualquer usuário nessa equipe pode tomar uma decisão sobre a aprovação. </p> <p>Para obter mais informações sobre a equipe do projeto, consulte <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Visão geral da equipe do projeto</a>. Para obter mais informações sobre aprovação de trabalho, consulte <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Aprovar trabalho </a>.</p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">É necessária somente uma decisão</td> 
-      <td> <p>(Exibido somente se você adicionar vários aprovadores ao estágio) Selecione essa opção se qualquer um dos aprovadores no estágio puder aprovar ou rejeitar o item de trabalho durante esse estágio. Essa ação permite que o item de trabalho saia do estágio. </p> <p>Quando essa opção não está selecionada, todos os aprovadores identificados devem aprovar ou rejeitar o estágio (em qualquer ordem) antes que o item saia do estágio. Se qualquer um dos aprovadores rejeitar o estágio, o processo será interrompido e iniciado novamente para que as alterações necessárias possam ser feitas. Em seguida, os aprovadores podem aprovar ou rejeitar o estágio novamente.</p> <p>Quando uma equipe é designada como aprovador, qualquer membro da equipe pode conceder ou rejeitar um estágio.</p> </td> 
+      <td role="rowheader">É necessária somente uma decisão <br> <br>(Exibido somente se você adicionar vários aprovadores ao estágio) </td> 
+      <td> <p>Selecione esta opção se qualquer um dos aprovadores no estágio puder aprovar ou rejeitar o item de trabalho durante este estágio. Essa ação permite que o item de trabalho saia do estágio. </p> <p>Quando essa opção não está selecionada, todos os aprovadores identificados devem aprovar ou rejeitar o estágio (em qualquer ordem) antes que o item saia do estágio. Se qualquer um dos aprovadores rejeitar o estágio, o processo será interrompido e iniciado novamente para que as alterações necessárias possam ser feitas. Em seguida, os aprovadores podem aprovar ou rejeitar o estágio novamente.</p> <p>Quando uma equipe é designada como aprovador, qualquer membro da equipe pode conceder ou rejeitar um estágio.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Adicionar estágio</p> </td> 
-      <td>(Opcional) Adicione outro estágio ao caminho, usando as opções explicadas nas três linhas acima. Você pode adicionar quantos estágios forem necessários ao caminho.</td> 
+      <td><p>(Opcional) Adicione outro estágio ao caminho, usando as opções explicadas nas três linhas acima. Você pode adicionar quantos estágios forem necessários ao caminho.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Escolha o que acontece quando a aprovação é rejeitada</p> </td> 
@@ -197,7 +200,11 @@ Para obter informações sobre como editar um processo de aprovação, consulte 
 
 ## Associando um processo de aprovação a um item de trabalho
 
-Quando quiser criar um processo de aprovação para um item de trabalho (projeto, tarefa ou problema), você cria o processo de aprovação primeiro, em seguida, cria o item de trabalho e, em seguida, você e seus usuários podem associar o processo de aprovação ao item de trabalho.
+Quando quiser criar um processo de aprovação para um item de trabalho (projeto, tarefa ou problema), você
+
+1. Criar o processo de aprovação primeiro
+1. Criar o item de trabalho
+1. Associar o processo de aprovação ao item de trabalho
 
 Para obter instruções sobre como associar um processo de aprovação a um item de trabalho, consulte [Associar um processo de aprovação novo ou existente ao trabalho](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
