@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 8f8a274eb872f78f888cf76b2d5fd3d39c6d6223
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 2%
+source-wordcount: '1382'
+ht-degree: 1%
 
 ---
 
@@ -23,17 +23,13 @@ O Tipo de Duração de uma tarefa identifica a relação entre o número de recu
 
 ## Visão geral da duração da tarefa
 
->[!NOTE]
->
->Ao considerar o tempo de folga do responsável principal em um projeto, as datas planejadas da tarefa podem ser ajustadas, mas a Duração da tarefa permanece a mesma. Para obter informações sobre como considerar a folga da Principal pessoa atribuída ao planejar um projeto, consulte  [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-
 Se o Início Efetivo e as Datas de Término Efetivo da tarefa estiverem fora do cronograma do projeto, do responsável principal ou do Cronograma Padrão, a Duração da tarefa será zero.
 
 **Exemplo:** Se você tiver uma programação que comece às 9h e termine às 12h e uma tarefa que esteja programada para iniciar às 14h e terminar às 16h, a Duração da tarefa será zero.
 
-Veja a seguir dois cenários que existem ao calcular a duração no Adobe Workfront.
+Veja a seguir dois cenários que existem ao calcular a duração no Adobe Workfront:
 
-* Se a tarefa for atribuída a um usuário, o Workfront usará um dos seguintes agendamentos, nesta ordem exata, para calcular a Duração:
+* Se a tarefa for atribuída a um Workfront de usuário, o usará um dos seguintes agendamentos, nesta ordem exata, para calcular a Duração:
 
    1. O Workfront considera a programação do usuário.
    1. Se o usuário não estiver associado a um agendamento, a Workfront levará em conta o agendamento do projeto.
@@ -41,11 +37,15 @@ Veja a seguir dois cenários que existem ao calcular a duração no Adobe Workfr
 
 * Se a tarefa for atribuída a vários usuários:
 
-  A Workfront considera a programação do projeto ou a do responsável principal.
+   1. A Workfront considera a programação do projeto ou a do responsável principal.
 
   O administrador do Workfront determina qual programação o Workfront usa quando uma tarefa é atribuída a vários usuários. Para obter informações, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   As etapas são semelhantes ao primeiro cenário depois de entender qual agendamento o Workfront usa para calcular a Duração.
+
+>[!NOTE]
+>
+>Ao considerar o tempo de folga do responsável principal em um projeto, as datas planejadas da tarefa podem ser ajustadas, mas a Duração da tarefa permanece a mesma. Para obter informações sobre como considerar a folga da Principal pessoa atribuída ao planejar um projeto, consulte  [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Unidades de tempo para a Duração da Tarefa
 
@@ -94,7 +94,7 @@ O Tipo de duração ajuda a responder às seguintes perguntas:
 * Qual é o tamanho do trabalho?
 * Quanto tempo vai demorar?
 
-![duration_type_triangle.png](assets/duration-type-triangle-350x245.png)
+![duration_type_triangle.png](assets/duration_type_triangle.png)
 
 ## Definir Tipos de Duração
 
@@ -104,7 +104,7 @@ O Tipo de duração ajuda a responder às seguintes perguntas:
  <col> 
  <thead> 
   <tr> 
-   <th scope="row">Tipo de Duração </th> 
+   <th scope="row"><p><strong>Tipo de Duração</strong></p></th> 
    <th scope="col"> <p><strong>Função</strong> </p> </th> 
    <th scope="col"> <p><strong>Como os recursos afetam isso</strong> </p> </th> 
   </tr> 
@@ -121,7 +121,7 @@ O Tipo de duração ajuda a responder às seguintes perguntas:
    <td scope="col"> <p>As Horas planejadas aumentam quando os atribuídos são adicionados à tarefa. </p> <p>As horas planejadas diminuem quando os atribuídos são removidos da tarefa.</p> </td> 
   </tr> 
   <tr> 
-   <th scope="col"> <p>Controlado pelo empenho</p> </th> 
+   <th scope="col"> <p><strong>Controlado pelo empenho</strong></p> </th> 
    <td scope="col"> <p>Determina as horas planejadas com base no número de recursos.</p> <p>Ao escolher esse Tipo de duração, você tem a capacidade de inserir uma Duração individual para a tarefa. O Workfront calcula as Horas Planejadas para a tarefa multiplicando o número de dias na Duração pelo número de horas de trabalho no cronograma e dividindo esse número pelo número de atribuídos à tarefa. </p> <p>Você pode alterar manualmente a porcentagem de alocação de cada destinatário para a tarefa, mas o número de Horas planejadas permanece o mesmo.</p> <p>Para obter informações mais detalhadas, consulte <a href="../../../manage-work/tasks/taskdurtn/effort-driven.md" class="MCXref xref">Visão geral do tipo de duração: Controlado pelo esforço</a>.</p> </td> 
    <td scope="col"> <p>As horas planejadas aumentam quando os atribuídos são removidos da tarefa.</p> <p>As horas planejadas diminuem quando os atribuídos são adicionados à tarefa. </p> <p>A duração não é alterada, independentemente das alterações no número de responsáveis ou em seu agendamento. </p> <p>A duração é igual às Horas planejadas. A Duração Planejada é igual às Horas Planejadas divididas pelo número de atribuídos.</p> </td> 
   </tr> 
