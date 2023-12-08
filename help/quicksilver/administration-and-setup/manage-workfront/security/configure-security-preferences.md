@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: c709ecd8023a0a9ce9c5b4591145d0a70912e003
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 6%
+source-wordcount: '833'
+ht-degree: 4%
 
 ---
 
@@ -42,7 +42,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront</td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
@@ -69,7 +69,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Habilitar processo de revisão rápido</p> </td> 
-      <td>Permite ativar versões mensais do Workfront para sua organização em vez de versões trimestrais.</p><p>Para obter mais informações sobre o processo de lançamento rápido, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Habilitar ou desabilitar versões rápidas para sua organização</a>.</p></td> 
+      <td>Permite ativar versões mensais do Workfront para sua organização em vez de versões trimestrais.</p><p>Para obter mais informações sobre o processo de lançamento rápido, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">Habilitar ou desabilitar versões rápidas para sua organização</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Permitir incorporação de <strong>Workfront</strong> em um iframe</p> </td> 
@@ -80,7 +80,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
       <td> <p>Permite incorporar o Workfront em um iframe somente para suplementos do Office 365 quando o Workfront é integrado a uma solução de logon único SAML 2.0. </p> <p>Essa opção está ativada por padrão.</p> <p><b>NOTA</b>: Se você ativar a opção acima, <strong>Permitir a incorporação do Workfront em um iframe</strong>, a opção <strong>Permitir autenticação SAML 2.0 em suplementos do Office 365</strong> está ativado e esmaecido.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Habilitar o uso de informações da sessão ao criar URLs de páginas externas</td> 
+      <td role="rowheader">Ativar o uso de informações da sessão ao criar URLs de páginas externas</td> 
       <td> <p>Permite que os usuários usem as informações de ID da sessão de um site ao adicionar uma Página externa a um Painel.</p> <p>Para obter mais informações sobre como adicionar Páginas Externas a um Painel, consulte <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Incorporar uma página externa da Web em um painel</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -98,7 +98,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
        </ul><p>Essa opção está ativada por padrão.</p> <p><b>Importante</b>: o nível de acesso Usuário externo não estará disponível na instância do Workfront se essa opção estiver desativada. Para obter mais informações, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Níveis de acesso incorporados no Workfront</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Exigir que os usuários externos se registrem com uma senha</td> 
+      <td role="rowheader">Exigir que usuários externos se registrem com uma senha</td> 
       <td> <p>Exige que os usuários externos se registrem antes de poderem visualizar itens no Workfront. Por padrão, essa opção está desativada. Ao habilitar essa opção, as pessoas sem uma conta do Workfront incluídas em determinadas atualizações por seu endereço de email serão solicitadas a criar uma conta antes de poderem exibir o item em que estão incluídas. Isso cria uma conta de usuário externo para eles.</p> <p>Essa opção está desabilitada por padrão.</p> </td> 
      </tr> 
      <tr> 
