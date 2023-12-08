@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: dcbb55f57d189c715cc1111fde3c4bc597495851
 workflow-type: tm+mt
-source-wordcount: '1857'
+source-wordcount: '1863'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Para obter informações e considerações sobre o modo de texto antes de começ
 
 Para obter uma lista completa de todos os campos reportáveis e seus atributos, consulte [API Explorer](../../../wf-api/general/api-explorer.md).
 
-Para obter mais informações sobre como criar relatórios usando o modo de texto, incluindo classes, vídeos e tutoriais, consulte a seção Saiba mais no site do Adobe Experience League.
+Para obter mais informações sobre como criar relatórios usando o modo de texto, incluindo classes, vídeos e tutoriais, visite a seção Saiba mais no site do Adobe Experience League.
 
 ## Considerações sobre a sintaxe do modo de texto
 
@@ -99,14 +99,14 @@ Existem as seguintes semelhanças entre a sintaxe dos conjuntos de elementos de 
 
 ### Sintaxe para exibições e agrupamentos
 
-Você pode notar que as linhas de código ao criar exibições e agrupamentos são semelhantes.
+As linhas de código ao criar exibições e agrupamentos são semelhantes.
 
 Para obter informações sobre como criar exibições e agrupamentos, consulte os seguintes artigos:
 
 * [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-A linha de código mais importante para uma exibição ou um agrupamento é a linha que identifica o objeto referenciado na coluna da exibição ou no agrupamento. Dependendo de esse campo ser uma referência direta a um campo de banco de dados do Workfront ou um cálculo entre vários campos, a linha de código pode começar com `valuefield` ou `valueexpression`
+A linha de código mais importante para uma exibição ou um agrupamento é a linha que identifica o objeto referenciado na coluna da exibição ou no agrupamento. Esta linha de código pode começar com `valuefield` ou `valueexpression` se esse campo for uma referência direta a um campo de banco de dados do Workfront ou um cálculo entre vários campos.
 
 A tabela a seguir lista as linhas de códigos mais comuns em uma exibição ou agrupamento:
 
@@ -216,13 +216,11 @@ As seguintes regras se aplicam ao referenciar objetos do Workfront usando um `va
 
 #### `Valueformat` visão geral para exibições e agrupamentos
 
-A segunda linha de código mais importante em uma visualização ou agrupamento é o `valueformat=` linha. Isso informa ao Workfront em que formato retornar o valor especificado na variável
-`valuefield` ou linhas de expressão de valor. Embora você possa usar vários formatos para a variável `valueformat` recomendamos que você sempre use o seguinte valor ao usar
-`valueexpression`:
+A segunda linha de código mais importante em uma visualização ou agrupamento é o `valueformat=` linha. Isso informa ao Workfront em que formato retornar o valor especificado na variável `valuefield` ou `valueexpression` linhas. Embora você possa usar vários formatos para a variável `valueformat` recomendamos que você sempre use o seguinte valor ao usar `valueexpression`:
 
 `valueformat=HTML`
 
-Para obter `valueformats` valores, consulte também os seguintes artigos:
+Para obter `valueformat` valores, consulte também os seguintes artigos:
 
 * [Formatar datas em relatórios do modo texto](../../reports/text-mode/format-dates-in-text-mode-reports.md)
 * [Formatar números, valores de moeda e porcentagem em relatórios de modo de texto](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
@@ -233,7 +231,7 @@ Para obter `valueformats` valores, consulte também os seguintes artigos:
 
 Você deve usar o adicional `usewidths=true` linha de código para aplicar a largura especificada para a coluna.
 
-**Exemplo:** Para exibir uma coluna com uma largura de 80 pixels, use as seguintes linhas:
+**Exemplo:** Para exibir uma coluna com largura de 80 pixels, use as seguintes linhas:
 
 `width=80`
 

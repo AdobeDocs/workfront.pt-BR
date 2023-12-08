@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 3d9631f0108487b4cad312ed1a6be5ae313eee93
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3570'
 ht-degree: 0%
 
 ---
@@ -72,8 +72,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo e registra
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <ul><li>Revise ou registre horas gerais em uma planilha de horas</li>
-   <li> Trabalhar ou mais para registrar horas em um projeto, tarefa ou problema</li></ul>
+   <td> <p>Novo plano:<ul><li>Leve ou superior para registrar as Horas gerais em uma folha de horas</li></p>
+   <li> Padrão ou superior para registrar horas em um projeto, tarefa ou problema</li></ul></p>
+   <p>ou</p>
+   <p>Plano atual:<ul><li>Revise ou registre horas gerais em uma planilha de horas</li></p>
+   <li> Trabalhar ou mais para registrar horas em um projeto, tarefa ou problema</li></ul></p>
    </td> 
   </tr> 
   <tr> 
@@ -103,7 +106,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo e registra
 * As entradas de horas incluídas nos registros de cobrança são esmaecidas e não podem ser editadas na folha de horas. Para obter mais informações, consulte [Criar registros de cobrança](../../manage-work/projects/project-finances/create-billing-records.md).
 * Por padrão, as tarefas pessoais não são exibidas na folha de horas. As tarefas pessoais são exibidas na folha de horas somente quando têm tempo registrado. Depois de registrar as horas em uma tarefa pessoal, você pode fixar a tarefa na folha de horas e ela permanecerá na folha de horas se permanecer fixada. Para obter mais informações, consulte [Criar itens de trabalho a partir da Área da página inicial](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
-## Registrar de tempo
+## Registrar de tempo {#log-time-section}
 
 Você pode registrar horas nas seguintes áreas no Workfront:
 
@@ -136,7 +139,7 @@ Você pode registrar horas nos seguintes itens da folha de horas:
 
 Para registrar horas em uma folha de horas:
 
-1. Clique em [!UICONTROL **Menu principal**] ícone ![](assets/main-menu-icon.png) no canto superior direito, ou na guia **Menu principal** ícone ![](assets/lines-main-menu.png) no canto superior esquerdo do Workfront, se disponível.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo.
 
 1. Clique em [!UICONTROL **Planilhas de Horas**]. Sua Planilha de Horas atual é exibida por padrão.
    ![Planilha de horas](assets/timesheet-redesigned-nwe.png)
@@ -157,6 +160,8 @@ Para registrar horas em uma folha de horas:
 1. (Opcional) Expanda os menus suspensos filtro, exibição ou agrupamento para aplicar ou personalizar um e exibir as informações de item desejadas.
 
 1. Selecione um ou vários itens na lista e clique em **Adicionar**.
+
+   Se você tiver adicionado menos de 50 itens de uma vez, os itens serão adicionados à folha de horas. Tarefas e problemas são listados sob o nome do projeto.
 
    >[!NOTE]
    >
@@ -208,6 +213,7 @@ Para registrar horas em uma folha de horas:
 
    ![Menu suspenso de tipo de hora](assets/hour-type-drop-down-expanded-redesigned-timesheet.png)
 
+
    >[!TIP]
    >
    >   Dependendo do seu sistema operacional ou navegador e ao usar um teclado QWERTY padrão, pressione o seguinte conjunto de teclas para adicionar outra linha:
@@ -231,7 +237,6 @@ Para registrar horas em uma folha de horas:
    >   Dependendo do seu sistema operacional ou navegador e ao usar um teclado QWERTY padrão, pressione o seguinte conjunto de teclas para excluir uma linha:
    >   * Ctrl + Option + - para computadores Windows
    >   * Cmd + Option + - para computadores Mac
-
 
 1. Especifique por quanto tempo você deseja fazer logon em um determinado dia na seção linha do tempo da folha de horas e, em seguida, clique fora da caixa horas para salvar a entrada de horas. As horas são salvas automaticamente. A linha para a qual você registra horas é destacada em azul claro e a caixa de entrada de horas é contornada em azul escuro.
 
@@ -299,6 +304,8 @@ Para registrar horas em uma folha de horas:
 1. (Opcional) Clique em [!UICONTROL **Atualizações**] no painel esquerdo, adicione uma atualização à folha de horas. Para obter mais informações sobre atualizações do Workfront, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    ![enter-an-update-in-reDesigned-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
+
+1. (Opcional) Retorne para a **Planilha de horas** área para fechar ou enviar sua planilha de horas.
 
    * **Fechar**: feche a folha de horas quando terminar de atualizá-la. Essa opção só está disponível quando sua folha de horas não está associada a um aprovador.
 
