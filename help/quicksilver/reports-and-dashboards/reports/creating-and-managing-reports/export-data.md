@@ -6,9 +6,9 @@ description: Saiba como exportar dados de relatório
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 3980d24b4a9c34b85c475a124c2b83dae7aa55ff
 workflow-type: tm+mt
-source-wordcount: '2177'
+source-wordcount: '2185'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -100,6 +100,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 Há várias limitações no modo como os relatórios são exibidos no Workfront, bem como no modo como são exportados por meio de uma exportação manual, um relatório entregue ou pela API.
 
+* **50.000 células:** O número máximo de células permitidas em uma exportação de relatório para arquivos do Excel.
 * **50.000 linhas:** O número de linhas de dados permitidas em uma exportação de relatório para arquivos .pdf e Delimitados por tabulação.
 
    * Para arquivos .xls do Excel, esse limite é **65.000 linhas**.
@@ -310,14 +311,14 @@ Os links podem apontar para qualquer objeto no Workfront que ofereça suporte a 
 
 >[!TIP]
 >
->Se a linha `valueformat=HTML` é exibido no modo texto para uma coluna de campo personalizado e os valores de link não são exibidos em um arquivo .pdf exportado. é >necessário inserir linhas adicionais de código na coluna no modo texto.
+Se a linha `valueformat=HTML` é exibido no modo texto para uma coluna de campo personalizado e os valores de link não são exibidos em um arquivo .pdf exportado. é necessário inserir linhas adicionais de código na coluna no modo texto.
 >
->Por exemplo, se você tem um campo personalizado chamado Abrir projetos Q1 que contém links, você adicionaria o seguinte código:
+Por exemplo, se você tem um campo personalizado chamado Abrir projetos Q1 que contém links, você adicionaria o seguinte código:
 >
->```
->link.url=customDataLabelsAsString(Open Q1 Projects)
->linkedname=direct
->```
+```
+link.url=customDataLabelsAsString(Open Q1 Projects)
+linkedname=direct
+```
 
 Quando você exporta para um formato do Excel, somente os links para objetos no Workfront são incluídos no arquivo exportado e só são suportados em locais onde você pode selecionar para permitir links em documentos exportados do Excel, como deliveries de relatórios.
 
