@@ -5,14 +5,18 @@ title: Status de aprovação de documento
 description: Os status de aprovação de documento são listados e explicados
 author: Becky
 feature: Work Management, Digital Content and Documents
-source-git-commit: a38a512b9d2b1c23e26ee6871076a5ce20ea9794
+exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
+source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 6%
+source-wordcount: '184'
+ht-degree: 4%
 
 ---
 
 # Status de aprovação de documento
+
+<span class="preview">As informações nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente Visualização da sandbox.</span>
+
 
 Você pode encontrar o status de aprovação de um documento no cabeçalho do documento.
 
@@ -24,7 +28,7 @@ Os seguintes status estão disponíveis:
             <tbody>
                  <tr>
                     <td>
-                        Notificado</p>
+                        Revisão pendente</p>
                     </td>
                     <td>
                         <ul>
@@ -41,11 +45,28 @@ Os seguintes status estão disponíveis:
                     <td>
                         <ul>
                             <li>
-                                <p>Pelo menos um revisor ou aprovador visualizou o ativo</p>
+                                <p>Pelo menos um revisor visualizou o ativo</p>
                             </li>
                             <li>
-                                <p>Pelo menos um revisor não concluiu sua revisão</p><p>Ou</p>
-                                <p>Pelo menos um aprovador não tomou uma decisão de aprovação</p>
+                                <p>Pelo menos um revisor não concluiu sua revisão</p>
+                            </li>
+                            <li>
+                                <p>Nenhum aprovador foi atribuído a este ativo</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        Revisado</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <p>Todos os revisores concluíram sua revisão</p>
+                            </li>
+                            <li>
+                                <p>Nenhum aprovador foi atribuído a este ativo</p>
                             </li>
                         </ul>
                     </td>
@@ -96,3 +117,106 @@ Os seguintes status estão disponíveis:
                 </tr>
            </tbody>
         </table>
+
+
+
+<!--
+
+
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                 <tr>
+                    <td>
+                        Pending review</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                Reviewers and approvers have been notified, but have not yet opened the asset.
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        In review</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <p>At least one reviewer or approver has viewed the asset</p>
+                            </li>
+                            <li>
+                                <p>At least one reviewer has not completed their review</p><p>Or</p>
+                                <p>At least one approver has not made an approval decision</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        Reviewed</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                All reviews are complete
+                            </li>
+                            <li>
+                                There are no approvers
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>Needs work</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <p>All approvals and reviews are complete</p>
+                            </li>
+                            <li>
+                                <p>At least one approver has made a decision of "Needs work"</p>
+                                <p>Other approvers may have given decisions of "Approved with changes" or "Approved"
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                  <tr>
+                    <td>Approved with changes</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <p>All approvals and reviews are complete</p>
+                            </li>
+                            <li>
+                                <p>At least one approver has made a decision of "Approved with changes"</p>
+                                <p>Other approvers may have given decisions of "Approved"
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>Approved</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <p>All approvals and reviews are complete</p>
+                            </li>
+                            <li>
+                                <p>All approvers may have given decisions of "Approved"
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+
+-->
