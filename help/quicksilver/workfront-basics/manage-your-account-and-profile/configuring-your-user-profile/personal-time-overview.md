@@ -2,23 +2,23 @@
 content-type: overview
 product-area: user-management
 navigation-topic: configure-your-user-profile
-title: Configurar o tempo de folga pessoal no [!DNL Adobe Workfront]
-description: A Adobe Workfront não foi projetada para replicar ou substituir seus sistemas existentes para gerenciar, acumular e rastrear o tempo livre pessoal. No entanto, é importante indicar quando ocorrerá a folga aprovada, pois isso afeta seu agendamento e afeta as Datas de conclusão planejadas das tarefas às quais você está atribuído.
+title: Configurar folga pessoal
+description: É importante indicar no Adobe Workfront quando a folga aprovada acontece, pois isso afeta sua programação e afeta as Datas de conclusão planejadas das tarefas às quais você está atribuído.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
+source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
-# Configurar o tempo de folga pessoal no [!DNL Adobe Workfront]
+# Configurar folga pessoal
 
 [!DNL Adobe Workfront] O não foi projetado para replicar ou substituir seus sistemas existentes para gerenciar, acumular e rastrear o tempo livre pessoal.
 
-No entanto, é importante indicar quando ocorre a folga aprovada, pois isso afeta sua programação e afeta a [!UICONTROL Datas de Término Planejadas] das tarefas às quais você está atribuído.
+No entanto, é importante indicar quando ocorre a folga aprovada, pois isso afeta tanto a programação quanto a [!UICONTROL Datas de Término Planejadas] das tarefas às quais você está atribuído.
 
 Por exemplo, se você estiver atribuído a uma tarefa agendada para durar duas semanas e planeja tirar três dias de folga durante esse período, [!DNL Workfront] O adiciona três dias à linha do tempo da tarefa para contabilizar o tempo de folga.
 
@@ -43,15 +43,17 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td>Qualquer Um</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td>[!UICONTROL Trabalho] ou superior (para configurar seu tempo livre pessoal)</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
+   <td> <p>Novo plano: Padrão (para configurar seu tempo livre pessoal)</p>
+        <p>ou</p>
+        <p>Plano atual: Trabalhar ou mais (para configurar seu tempo livre pessoal)</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
+   <td role="rowheader">Configurações de nível de acesso*</td> 
    <td>Acesso ao [!UICONTROL Manager] com [!UICONTROL Editar Usuário] (para alterar o calendário de folga de outros usuários)<br>
    <strong>NOTA:</strong> Se um gerente editar o calendário de folga pessoal de outro usuário, todas as entradas serão mostradas no fuso horário do usuário e não no fuso horário do gerente.</td> 
   </tr> 
@@ -62,7 +64,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Configurar o tempo de folga pessoal no [!DNL Workfront]
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, clique no nome de usuário ao lado da imagem do perfil. Ou (se disponível) clique na imagem do perfil na área de navegação superior e, em seguida, clique em **[!UICONTROL Perfil do Workfront]**.
+{{step1-click-profile-pic}}
+
 1. No painel esquerdo, clique em **[!UICONTROL Folga]**.
 1. Selecione a data desejada para sua folga pessoal.
 
@@ -70,8 +73,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Selecionar **[!UICONTROL O dia todo]**, se você estiver tirando um dia de folga.
 
-   Deixe-a desmarcada se estiver tirando menos de um dia inteiro de folga e indique as horas de início e término de sua folga.
+   Deixe a caixa de seleção desmarcada se estiver tirando menos de um dia inteiro de folga e indique as horas de início e término de sua folga.
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-   Sua folga agora está visível em todo o [!DNL Workfront] nas ferramentas de gerenciamento de recursos, como o Planejador de recursos e o Balanceador de carga de trabalho. Quando você recebe um trabalho durante esse período, uma dica de ferramenta é exibida informando ao usuário que você programou uma folga.
+   Sua folga agora está visível em todo o [!DNL Workfront] nas ferramentas de gerenciamento de recursos, como o Planejador de recursos e o Balanceador de carga de trabalho. Quando você recebe um trabalho durante esse período, uma dica de ferramenta informa ao usuário que você programou uma folga.

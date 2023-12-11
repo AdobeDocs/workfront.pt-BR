@@ -7,9 +7,9 @@ description: Depois que os gerentes de projeto planejam o trabalho em projetos e
 author: Alina
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: e4230e1d74e36439ec36b569232ab1cdf3629b3e
+source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Para obter informações sobre como criar e usar filtros no Balanceador de carga
      Para obter mais informações sobre a criação de cronogramas, consulte [Criar um agendamento](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
    * Atualize o calendário de Folga no perfil.\
-     Para obter informações sobre como atualizar o calendário de folga de um usuário, consulte [Configurar o tempo de folga pessoal no Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+     Para obter informações sobre como atualizar o calendário de folga de um usuário, consulte [Configurar folga pessoal](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
      <!--   
      <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   
