@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Criar um relatório personalizado
-description: Entender como criar relatórios ajuda a fornecer acesso às informações de que sua organização precisa no Adobe Workfront. Você pode usar qualquer um dos relatórios internos disponíveis no Workfront ou criar seus próprios relatórios do zero.
+description: Você pode fornecer acesso às informações de que sua organização precisa na Adobe Workfront criando relatórios. Você pode usar qualquer um dos relatórios internos disponíveis no Workfront ou criar seus relatórios personalizados do zero.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: ad309990a4e09f5c083c1518fd503078718a97d1
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1820'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Criar um relatório personalizado
 
-Você pode fornecer acesso às informações de que sua organização precisa na Adobe Workfront criando relatórios. Você pode usar qualquer um dos relatórios internos disponíveis no Workfront ou criar seus relatórios personalizados do zero.
+Você pode fornecer acesso às informações de que sua organização precisa no Adobe Workfront criando relatórios. Você pode usar qualquer um dos relatórios internos disponíveis no Workfront ou criar seus relatórios personalizados do zero.
 
 Para obter mais informações sobre relatórios internos, consulte [Usar relatórios integrados do Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
 
@@ -34,11 +34,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> </td> 
+   <td> <p>Novo: Padrão </p>
+   ou
+   <p>Atual: Plano </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
@@ -47,7 +49,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Você obterá permissões de gerenciamento para o relatório que criar</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Você obtém permissões de Gerenciamento para os relatórios que criar.</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,9 +58,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Criar um relatório {#create-a-report}
 
-Para assistir a um vídeo sobre como criar um relatório, consulte esta [Criar um relatório personalizado](#Walk-thr) abaixo.
+{{step1-to-reports}}
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito e clique em **Relatórios**.
 1. Clique em **Novo Relatório** e, em seguida, selecione o tipo de objeto desejado para o relatório.
 
    O Report Builder é carregado.
@@ -109,17 +110,17 @@ Para assistir a um vídeo sobre como criar um relatório, consulte esta [Criar u
 
 1. Comece a criar um relatório conforme descrito no [Criar um relatório](#create-a-report) neste artigo.
 1. No Report Builder, selecione a variável **Colunas (Exibir)** para identificar as colunas a serem exibidas no relatório.
-1. (Opcional) Clique em **Aplicar uma visualização existente** para usar uma visualização existente.
+1. (Opcional) Clique em **Aplicar uma visualização existente** e clique no nome de uma visualização no menu suspenso para utilizar uma visualização existente.
 
-   Para obter mais informações sobre como criar uma nova visualização, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Para obter mais informações sobre como criar uma visualização, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+1. (Opcional) Para remover uma coluna existente, clique na coluna que você deseja remover e, em seguida, clique na **x** ao lado do nome atual no cabeçalho da coluna.
 
 1. Para adicionar uma nova coluna, clique em **Adicionar coluna**.
 
    Ou
 
-   Para alterar uma coluna existente, selecione a coluna que deseja alterar e clique no (x) ao lado do nome atual.
-
-1. Comece a digitar o campo que deseja adicionar. Se o campo estiver disponível, ele será preenchido para cada objeto em que puder ser associado. Clique no nome do campo para adicioná-lo à coluna.
+   Para alterar uma coluna existente, clique na coluna, clique na **Remover** ícone ![](assets/x-icon-circled.png) à esquerda do campo atual na caixa **Mostrar neste campo de coluna** no canto superior esquerdo do Report Builder, comece digitando um novo campo e, em seguida, clique nele quando ele for exibido na lista.
 
    Para obter mais informações sobre os campos exibidos nas colunas, consulte [Glossário da terminologia do Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
@@ -150,7 +151,7 @@ Para assistir a um vídeo sobre como criar um relatório, consulte esta [Criar u
    >
    >As exceções a seguir se aplicam a objetos pai (por exemplo, tarefas pai) quando você está agregando valores para os seguintes campos em agrupamentos:
    >
-   >* Todos os campos de número e moeda, exceto Horas Reais (por exemplo, Custo de Trabalho Planejado/Efetivo, Custo de Despesas Planejado/Efetivo, Custo Planejado/Efetivo, Horas Planejadas) agregam apenas os valores das tarefas filhas e tarefas independentes. Eles não agregam os valores das tarefas pai ou pai dos pais.
+   >* Todos os campos de número e moeda, exceto Horas Reais (por exemplo, Custo de Trabalho Planejado ou Efetivo, Custo de Despesas Planejado ou Efetivo, Custo Planejado ou Efetivo, Horas Planejadas) agregam apenas os valores das tarefas filhas e tarefas independentes. Eles não agregam os valores das tarefas pai ou pai dos pais.
    >* As Horas Reais agregam os valores das tarefas pai principal e independente; elas não agregam os números para as tarefas pai ou filho.
    >* Os campos de dados personalizados para valores de número e moeda agregam todas as tarefas: pais, filhos, pais dos pais e tarefas independentes.
 
@@ -193,7 +194,8 @@ Para assistir a um vídeo sobre como criar um relatório, consulte esta [Criar u
 
    Ou
 
-   Escolher **Aplicar um agrupamento existente** para selecionar um agrupamento existente
+   Escolher **Aplicar um agrupamento existente** para selecionar um agrupamento existente quando ele for exibido na lista.
+
    ![](assets/nwe-add-grouping-350x230.png)
 
 1. Comece digitando o campo que deseja adicionar como um agrupamento. Se o campo estiver disponível, ele será preenchido para cada objeto em que puder ser associado. Clique no nome do campo para adicioná-lo a esse agrupamento.
@@ -210,7 +212,7 @@ Para assistir a um vídeo sobre como criar um relatório, consulte esta [Criar u
    >* Quando você ajusta agrupamentos manualmente ao visualizar uma lista, o Workfront lembra de sua preferência manual até que você faça logout. Ao fazer logon novamente, a lista é exibida de acordo com essa configuração.
    >* Os resultados de um agrupamento sempre são exibidos expandidos depois de acessados de um elemento do gráfico.
 
-1. (Opcional) É possível optar por criar um agrupamento de matriz para mostrar os resultados em um formato de grade.
+1. (Opcional) Clique em **Alternar para agrupamento de matriz**, para criar um agrupamento de matriz e exibir seus resultados em um formato de grade.
 
    Para obter mais informações sobre a criação de um relatório de matriz, consulte [Criar um relatório de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
