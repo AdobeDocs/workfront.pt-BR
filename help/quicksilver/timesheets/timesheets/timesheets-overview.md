@@ -7,9 +7,9 @@ description: Você pode usar folhas de horas para rastrear o tempo que você gas
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Para obter informações mais detalhadas sobre como registrar horas no Workfront
 
 >[!TIP]
 >
->Se você for um administrador de Workfront ou de grupo, poderá criar folhas de horas e associá-las aos usuários. Para obter informações sobre como criar planilhas de horas, consulte [Criar e gerenciar planilhas de horas](../create-and-manage-timesheets/create-and-manage-timesheets.md).
+>Se você for um administrador de Workfront ou de grupo, poderá criar folhas de horas e associá-las aos usuários. Para obter informações sobre como criar planilhas de horas, consulte [Criar e gerenciar folhas de horas: índice do artigo](../create-and-manage-timesheets/create-and-manage-timesheets.md).
 
 
 ## Entender o tempo do projeto e o tempo não relacionado ao projeto

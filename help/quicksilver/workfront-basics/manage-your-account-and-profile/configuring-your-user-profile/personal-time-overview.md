@@ -7,9 +7,9 @@ description: É importante indicar no Adobe Workfront quando a folga aprovada ac
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
-   <td> <p>Novo plano: Padrão (para configurar seu tempo livre pessoal)</p>
+   <td> <p>Novo: Padrão (para configurar seu tempo livre pessoal)</p>
         <p>ou</p>
-        <p>Plano atual: Trabalhar ou mais (para configurar seu tempo livre pessoal)</p> </td>
+        <p>Atual: trabalha ou mais (para configurar seu tempo livre pessoal)</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 

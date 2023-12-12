@@ -7,9 +7,9 @@ description: O menu principal muda com o nível de acesso que lhe foi atribuído
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ As áreas a seguir estão incluídas no layout padrão de um [!UICONTROL Trabalh
 
 * **[!UICONTROL Solicitações]**: é possível enviar solicitações e revisar solicitações que você ou os membros da sua equipe enviaram aqui. Para obter informações, consulte [Solicitações](../../../manage-work/requests/requests-overview.md).
 
-* **[!UICONTROL Planilhas de Horas]**: Você pode acessar suas folhas de horas atuais, futuras ou antigas aqui. Para obter informações, consulte [Planilhas de Horas](../../../timesheets/timesheets-all.md).
+* **[!UICONTROL Planilhas de Horas]**: Você pode acessar suas folhas de horas atuais, futuras ou antigas aqui. Para obter informações, consulte [Folhas de horas: índice do artigo](../../../timesheets/timesheets-all.md).
 
 * **[!UICONTROL Documentos]**: Você pode carregar documentos ou revisar documentos compartilhados com você, aqui. Para obter informações, consulte [Documentos](../../../documents/documents-overview.md).
 
