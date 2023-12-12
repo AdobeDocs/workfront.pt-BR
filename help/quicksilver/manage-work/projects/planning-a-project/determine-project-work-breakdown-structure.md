@@ -6,9 +6,9 @@ description: Definir uma Estrutura de divisão de trabalho (WBS) para um projeto
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1748'
 ht-degree: 1%
 
 ---
@@ -107,8 +107,8 @@ O gerenciamento de recursos no Workfront permite determinar se há uma equipe ad
 No início de um ano fiscal ou trimestre, talvez você queira gerenciar seus recursos em um nível superior, em vários projetos, sem o conhecimento de uma Estrutura Analítica de Projeto específica.\
 Para obter informações sobre como planejar o uso de seus recursos em um nível superior, consulte o artigo [Introdução ao planejamento de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
-Quando você gerencia seus recursos no contexto da criação da Estrutura de divisão de trabalho de um projeto e garante que cada tarefa seja atribuída ao recurso correto, você está pronto para agendar seus recursos para o trabalho que precisa ser feito.\
-Para obter informações sobre como agendar recursos, consulte os artigos no [O Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/workload-balancer.md) seção.
+Ao gerenciar os recursos no contexto da criação da Estrutura de divisão de trabalho de um projeto e ao garantir que cada tarefa seja atribuída ao recurso correto, você estará pronto para agendar os recursos para o trabalho que precisa ser feito.\
+Para obter informações sobre como agendar recursos, consulte os artigos no [O Balanceador de carga de trabalho: índice do artigo](../../../resource-mgmt/workload-balancer/workload-balancer.md) seção.
 
 ## Estimar finanças do projeto
 

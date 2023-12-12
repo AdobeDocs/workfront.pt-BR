@@ -2,20 +2,34 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Configurar Kanban
-description: Você pode configurar as seguintes opções para as equipes ágeis Kanban durante ou após a criação da equipe.
+description: Crie uma equipe ágil de Kanban ou Scrum no [!DNL Adobe Workfront].
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 7fc6230643d0a24c3b483df8165294ceca6dcce7
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1548'
 ht-degree: 0%
 
 ---
 
 # Configurar [!UICONTROL Kanban]
 
-Você pode configurar as seguintes opções para grupos Agile durante ou após a criação do grupo. Crie uma equipe ágil (Kanban ou Scrum) no [!DNL Adobe Workfront] conforme descrito em [Criar uma equipe ágil](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+É possível criar uma equipe ágil no [!DNL Adobe Workfront] conforme descrito em [Criar uma equipe ágil](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Ao criar uma equipe ágil, é possível escolher a metodologia que a equipe usa para concluir o trabalho. Você pode escolher entre as seguintes opções:
+
+* Scrum
+* Kanban
+
+Este artigo descreve como definir as configurações de uma equipe Kanban. Depois de criar uma Equipe Ágil e escolher a metodologia Kanban, consulte este artigo para atualizar as seguintes configurações:
+
+* Se as histórias são estimadas em pontos ou horas
+* As colunas de status no storyboard Agile
+* Campos adicionais a serem exibidos em cartões de história no storyboard Agile
+* O limite do trabalho em andamento (WIP)
+* Como adicionar histórias automaticamente do backlog
+* Quanto tempo os cartões permanecem no quadro Kanban
+
+Para obter informações sobre como configurar uma equipe do Scrum, consulte [Configurar Scrum](../get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Requisitos de acesso
 
@@ -29,16 +43,18 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!UICONTROL Work] ou superior</p> </td> 
+   <td> <p>Novo: [!UICONTROL Padrão]</p> 
+   ou
+   <p>Atual: [!UICONTROL Trabalho] ou superior</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber que tipo de plano ou licença você tem, entre em contato com o [!DNL Workfront] administrador.
+*Para descobrir que tipo de plano ou licença você tem, entre em contato com o [!DNL Workfront] administrador.
 
 ## Configure se as histórias são estimadas em pontos ou horas
 
@@ -46,11 +62,11 @@ Você pode configurar histórias para serem estimadas usando pontos ou horas.
 
 Para configurar como as histórias são estimadas para sua equipe ágil:
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Workfront]e, em seguida, clique em **[!UICONTROL Equipes]**.
+{{step1-to-team}}
 
-1. Clique em **[!UICONTROL Trocar equipe]** , selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
+1. Clique em **[!UICONTROL Trocar equipes]** ícone ![](assets/switch-team-icon.png), selecione uma nova equipe no menu suspenso ou pesquise por uma equipe na caixa de pesquisa.
 1. Selecione a Equipe Ágil que deseja gerenciar.
-1. Clique em **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
+1. Clique em **[!UICONTROL Mais]** menu ![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
 
    Somente membros da equipe com um [!UICONTROL Plano] ou [!UICONTROL Trabalho] consulte esta opção.\
    ![Editar equipe](assets/edit-team-settings-350x205.png)
@@ -67,9 +83,9 @@ Você pode definir os status existentes no storyboard da Equipe Ágil. Esses sã
 
 Para definir os status disponíveis para o storyboard associado à Equipe Ágil:
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!UICONTROL Workfront]e, em seguida, clique em **[!UICONTROL Equipes]**.
+{{step1-to-team}}
 
-1. Clique em **[!UICONTROL Trocar equipe]** ícone ![Ícone Trocar equipe](assets/switch-team-icon.png), selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
+1. Clique em **[!UICONTROL Trocar equipes]** ícone ![Ícone Trocar equipes](assets/switch-team-icon.png), selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 
 1. Selecione a Equipe Ágil que deseja gerenciar.
 1. Clique em **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
@@ -89,15 +105,15 @@ Para definir os status disponíveis para o storyboard associado à Equipe Ágil:
 
    >[!IMPORTANT]
    >
-   >Somente os status bloqueados em todo o sistema estão disponíveis para seleção; não é possível selecionar status específicos do grupo. Além disso, o status da primeira coluna sempre corresponde a **[!UICONTROL Novo]**.
+   >Somente os status bloqueados em todo o sistema estão disponíveis para seleção. Não é possível selecionar status específicos de grupo. O status da primeira coluna sempre corresponde a **[!UICONTROL Novo]**.
 
-   Você pode adicionar status personalizados se seu [!DNL Workfront] administrador configurou; os status personalizados podem ser configurados conforme descrito em [Criar ou editar um status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+   Você pode adicionar status personalizados se seu [!DNL Workfront] o administrador as configurou. Para obter mais informações, consulte [Criar ou editar um status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 1. Clique em **[!UICONTROL Salvar alterações]**.
 
 ## Configurar campos adicionais para exibir em cartões de história no storyboard Agile
 
-Ao adicionar campos a cartões de matéria, os campos são somente visualização e somente exibição quando o campo é preenchido.
+Ao adicionar campos a cartões de matéria, os campos são somente visualização e são exibidos somente quando o campo é preenchido.
 
 Por padrão, os seguintes tipos de dados são exibidos no cartão de história para tarefas e problemas:
 
@@ -117,9 +133,9 @@ Por padrão, os seguintes tipos de dados são exibidos no cartão de história p
 
 Para configurar storycards atribuídos à equipe ágil para exibir campos adicionais:
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Workfront]e, em seguida, clique em **[!UICONTROL Equipes]**.
+{{step1-to-team}}
 
-1. Clique em **[!UICONTROL Trocar equipe]** ícone ![Ícone Trocar equipe](assets/switch-team-icon.png), selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
+1. Clique em **[!UICONTROL Trocar equipes]** ícone ![Ícone Trocar equipes](assets/switch-team-icon.png), selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 
 1. Selecione a Equipe Ágil que deseja gerenciar.
 1. Clique em **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.\
@@ -137,18 +153,18 @@ Para configurar storycards atribuídos à equipe ágil para exibir campos adicio
 
 ## Configurar o limite do trabalho em andamento (WIP)
 
-Kanban em [!DNL Workfront] permite controlar a quantidade de trabalho que a equipe está trabalhando, limitando o número de tarefas que podem aparecer na variável [!UICONTROL Em andamento] coluna na [!UICONTROL Kanban] placa.
+Ao definir o limite WIP de uma equipe Kanban, você pode controlar o número de itens nos quais a equipe está trabalhando no momento, limitando o número de tarefas que podem aparecer no [!UICONTROL Novo] ou o [!UICONTROL Em andamento] coluna na [!UICONTROL Kanban] placa.
 
-Quando o limite WIP estiver configurado, você poderá exibir o limite WIP ou até mesmo atualizá-lo a partir do [!UICONTROL Kanban] storyboard ágil, conforme descrito em [Gerencie o limite de trabalho em andamento (WIP) na [!UICONTROL Kanban] quadro](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
+Depois de configurar o limite WIP para uma equipe Kanban, você pode exibir o limite WIP e atualizá-lo a partir do [!UICONTROL Kanban] storyboard ágil, conforme descrito em [Gerencie o limite de trabalho em andamento (WIP) na [!UICONTROL Kanban] quadro](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 Para limitar o WIP para a equipe Kanban:
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Equipes]**.
+{{step1-to-team}}
 
-1. Clique em **[!UICONTROL Trocar equipe]** ícone ![Ícone Trocar equipe](assets/switch-team-icon.png), selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
+1. Clique em **[!UICONTROL Trocar equipes]** ícone ![Ícone Trocar equipes](assets/switch-team-icon.png), selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 
 1. Selecione a equipe Kanban que deseja gerenciar.
-1. Clique em **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
+1. Clique em **[!UICONTROL Mais]** menu ![](assets/more-menu.png)e selecione **[!UICONTROL Editar]**.
 
    Somente membros da equipe com um [!UICONTROL Plano] ou [!UICONTROL Trabalho] consulte esta opção.
 
@@ -156,7 +172,7 @@ Para limitar o WIP para a equipe Kanban:
 
 1. No **[!UICONTROL Agile]** seção, no campo **[!UICONTROL Metodologia]** verifique se Kanban está selecionado.
 
-1. No **[!UICONTROL Story Board]** seção, no campo **[!UICONTROL LIMITE WIP]** especifique o número máximo de itens permitidos em cada coluna do campo [!UICONTROL Kanban] storyboard ágil. É possível definir um limite diferente para cada coluna. O limite máximo que pode ser definido para cada coluna é 100.\
+1. No **[!UICONTROL Story Board]** seção, no campo **[!UICONTROL Limite de WIP]** especifique o número máximo de itens permitidos em cada coluna do campo [!UICONTROL Kanban] storyboard ágil. É possível definir um limite diferente para cada coluna. O limite máximo que pode ser definido para cada coluna é 100.\
    Quando definido, o limite WIP exibe uma mensagem de aviso no [!UICONTROL Kanban] storyboard ágil sempre que o limite for excedido em qualquer coluna no storyboard. Essa mensagem de aviso é exibida somente na primeira vez que o limite de WIP é excedido. Esta mensagem de aviso não é exibida em nenhuma coluna com status igual a [!UICONTROL Concluído].\
    O limite de WIP é simplesmente um aviso visual e não impede que sua equipe tenha mais itens em uma única coluna do que o limite definido.
 
@@ -164,24 +180,29 @@ Para limitar o WIP para a equipe Kanban:
 
 1. Clique em **Salvar alterações**.
 
-## Configurar matérias a serem adicionadas automaticamente a partir do backlog
+## Configurar a adição automática de histórias do backlog
+
+<!-- this functionality needs to be verified-->
 
 Você pode configurar histórias do backlog para serem adicionadas automaticamente à primeira coluna no [!UICONTROL Kanban] quadro imediatamente após um item ser movido dessa coluna.
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Equipes]**.
+{{step1-to-team}}
 
-1. Clique em **[!UICONTROL Trocar equipe]** ícone ![Ícone Trocar equipe](assets/switch-team-icon.png), selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
+1. Clique em **[!UICONTROL Trocar equipes]** ícone ![Ícone Trocar equipes](assets/switch-team-icon.png), selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 
 1. Selecione a equipe Kanban que deseja gerenciar.
-1. Clique em **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
+1. Clique em **[!UICONTROL Mais]** menu ![](assets/more-menu.png)e selecione **[!UICONTROL Editar]**.
 
    Somente membros da equipe com um [!UICONTROL Plano] ou [!UICONTROL Trabalho] consulte esta opção.
 
    ![Editar equipe](assets/edit-team-settings-350x205.png)
 
-1. Selecionar **[!UICONTROL Adicionar automaticamente a próxima história do backlog]** para configurar matérias a serem adicionadas automaticamente do backlog à primeira coluna no [!UICONTROL Kanban] storyboard.
+1. Selecionar **[!UICONTROL Adicionar automaticamente a próxima história do backlog]** para configurar que o próximo item do backlog seja adicionado automaticamente ao **[!UICONTROL Novo]** quando um item é movido para fora da **[!UICONTROL Em andamento]** coluna.
 
-   Isso ocorre sempre que uma matéria é movida para uma coluna no storyboard que representa um status Concluído (um status que equivale a Concluído). Quando adicionada do backlog, a matéria com a maior prioridade é adicionada ao storyboard.selecione essa opção para configurar o próximo item do backlog para ser adicionado automaticamente ao **[!UICONTROL Em andamento]** quando um item é movido para fora da **[!UICONTROL Em andamento]** coluna.
+   Os usuários devem ativar o **Mostrar backlog** configuração no [!UICONTROL Kanban] para que essa funcionalidade entre em vigor. Quando os usuários ativarem a opção [!UICONTROL Mostrar backlog] configuração no [!UICONTROL Quadro Kanban], a seguinte funcionalidade ocorrerá:
+
+   Sempre que uma história for movida de uma [!UICONTROL Em andamento] em uma coluna no storyboard que representa uma [!UICONTROL Concluído] status (ou um status que equivale a [!UICONTROL Concluído]), uma história da coluna Backlog será movida automaticamente para a [!UICONTROL Novo] coluna da [!UICONTROL Quadro Kanban].
+Quando adicionada a partir do backlog, a matéria com a maior prioridade é adicionada ao storyboard.
 
 1. Clique em **[!UICONTROL Salvar alterações]**.
 
@@ -189,15 +210,17 @@ Você pode configurar histórias do backlog para serem adicionadas automaticamen
 
 Você pode escolher por quanto tempo os cartões concluídos permanecem no [!UICONTROL Kanban] placa. Tarefas que caem do [!UICONTROL Kanban] O quadro ainda pode ser acessado em seu projeto original.
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Equipes]**.
+{{step1-to-team}}
 
-1. (Opcional) Clique no link **[!UICONTROL Trocar equipe]** ícone ![Ícone Trocar equipe](assets/switch-team-icon.png), selecione uma nova equipe Kanban no menu suspenso ou procure uma equipe na barra de pesquisa.
+1. (Opcional) Clique no link **[!UICONTROL Trocar equipes]** ícone ![Ícone Trocar equipes](assets/switch-team-icon.png), selecione uma nova equipe Kanban no menu suspenso ou procure uma equipe na barra de pesquisa.
 1. Selecione a equipe Kanban.
-1. Clique em **[!UICONTROL Mais]** e selecione **Edit**.
+1. Clique em **[!UICONTROL Mais]** menu ![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
 
    Somente membros da equipe com um [!UICONTROL Plano] ou [!UICONTROL Trabalho] consulte esta opção.
 
    ![Editar equipe](assets/edit-team-settings-350x205.png)
 
 1. No **[!UICONTROL Número de dias que os cartões Concluídos permanecem no quadro Kanban]** selecione um valor.
+
+   Você pode escolher um número de 1 a 30 dias.
 1. Clique em **[!UICONTROL Salvar alterações]**.

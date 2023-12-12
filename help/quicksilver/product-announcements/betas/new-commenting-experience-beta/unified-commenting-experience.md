@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1289'
 ht-degree: 2%
 
 ---
@@ -102,7 +102,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td>✓ µ 
   </td>
-   <td>✓ 
+   <td>✓ µ 
    </td>
    <td> 
    </td>
@@ -114,9 +114,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td>Rich text (exclui aspas e emojis)
    </td>
-   <td>✓ 
+   <td>✓ µ 
    </td>
-   <td>✓
+   <td>✓ µ
    </td>
    <td> 
    </td>
@@ -129,9 +129,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
 <tr>
    <td>Rich text (emojis)
    </td>
-   <td>✓ 
+   <td>✓ µ 
    </td>
-   <td>✓
+   <td>✓ µ
    </td>
    <td> 
    </td>
@@ -144,9 +144,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
 <tr>
    <td>Rich text (aspas de bloco)
    </td>
-   <td>✓ 
+   <td>✓ µ 
    </td>
-   <td> ✓
+   <td> ✓ µ
    </td>
    <td> 
    </td>
@@ -159,9 +159,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
 <tr>
    <td> Citar comentários
    </td>
-   <td>✓ 
+   <td>✓ µ 
    </td>
-   <td> ✓
+   <td> ✓ µ
    </td>
    <td> 
    </td>
@@ -173,9 +173,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td>Reagir a comentários (Curtir) 
    </td>
-   <td>✓ 
+   <td>✓ µ 
    </td>
-   <td>✓ 
+   <td>✓ µ 
    </td>
    <td> 
    </td>
@@ -187,9 +187,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td>Anexar imagens a comentários 
    </td>
-   <td>✓ 
+   <td>✓ µ 
    </td>
-   <td>✓ 
+   <td>✓ µ 
    </td>
    <td> 
    </td>
@@ -201,9 +201,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td>Marcar pessoas em comentários 
    </td>
-   <td>✓ 
+   <td>✓ µ 
    </td>
-   <td>✓ 
+   <td>✓ µ 
    </td>
    <td> 
    </td>
@@ -217,7 +217,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td>✓
+   <td>✓ µ
    </td>
    <td> 
    </td>
@@ -233,7 +233,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td>✓
+   <td>✓ µ
    </td>
    <td> 
    </td>
@@ -246,9 +246,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
 <tr>
    <td>Comentários privados de uma empresa 
    </td>
-   <td>✓ 
+   <td>✓ µ 
    </td>
-   <td>✓ 
+   <td>✓ µ 
    </td>
    <td> 
    </td>
@@ -260,7 +260,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td>Desfazer postagem de um comentário 
    </td>
-   <td>✓ 
+   <td>✓ µ 
    </td>
    <td>Substituído pelo comentário de edição 
    </td>
@@ -274,7 +274,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td>Desativar atualizações do sistema 
    </td>
-   <td>✓ 
+   <td>✓ µ 
    </td>
    <td>Substituído pela guia Atividade 
    </td>
@@ -290,7 +290,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td> ✓
+   <td> ✓ µ
    </td>
    <td> 
    </td>
@@ -302,9 +302,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td>Salvar rascunhos de comentários ao sair da página 
    </td>
-   <td>✓ 
+   <td>✓ µ 
    </td>
-   <td>✓ 
+   <td>✓ µ 
    </td>
    <td> 
    </td>
@@ -318,7 +318,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td>✓
+   <td>✓ µ
    </td>
    <td> 
    </td>
@@ -330,9 +330,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td>Registrar de tempo 
    </td>
-   <td>✓ 
+   <td>✓ µ 
    </td>
-   <td>✓
+   <td>✓ µ
    </td>
    <td> 
    </td>
@@ -344,7 +344,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
     <tr>
    <td>Copiar link da discussão 
    </td>
-   <td>✓ 
+   <td>✓ µ 
    </td>
    <td> Substituído pelo link Copiar
    </td>
@@ -358,7 +358,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td>Copiar link do comentário 
    </td>
-   <td>✓ 
+   <td>✓ µ 
    </td>
    <td> Substituído pelo link Copiar
    </td>
@@ -372,9 +372,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td>Citar texto de comentário 
    </td>
-   <td>✓ 
+   <td>✓ µ 
    </td>
-   <td>✓
+   <td>✓ µ
    </td>
    <td> 
    </td>
@@ -386,9 +386,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td>Copiar texto do corpo 
    </td>
-   <td>✓ 
+   <td>✓ µ 
    </td>
-   <td> ✓
+   <td> ✓ µ
    </td>
    <td> 
    </td>
@@ -402,7 +402,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> <span class="preview">✓ µ</span>
    </td>
    <td> 
    </td>
@@ -417,7 +417,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> <span class="preview">✓ µ</span>
    </td>
    <td> 
    </td>
@@ -430,7 +430,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
 <tr>
    <td>Arrastar e soltar imagens em um comentário
    </td>
-   <td> 
+   <td> ✓ µ
    </td>
    <td> 
    </td>
@@ -438,14 +438,14 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td>1º trim. de 2024 
    </td>
-   <td>✓ 
+   <td>✓ µ 
    </td>
   </tr>
 
 <tr>
    <td>Editar formulário personalizado 
    </td>
-   <td>✓ 
+   <td>✓ µ 
    </td>
    <td> 
    </td>
@@ -459,7 +459,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td>Capacidade de editar status, condição e data de confirmação ao comentar 
    </td>
-   <td>✓ 
+   <td>✓ µ 
    </td>
    <td> 
    </td>
@@ -473,7 +473,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
 <tr>
    <td>Responder a atualizações do sistema 
    </td>
-   <td> ✓
+   <td> ✓ µ
    </td>
    <td> 
    </td>
@@ -487,9 +487,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
 <tr>
    <td>Exibir "em nome de" ao adicionar comentários conectados como outro usuário
    </td>
-   <td> ✓
+   <td> ✓ µ
    </td>
-   <td> ✓
+   <td> ✓ µ
    </td>
    <td> 
    </td>

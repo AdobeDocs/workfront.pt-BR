@@ -3,9 +3,9 @@ title: '[!DNL Adobe Workfront] documentação'
 description: Documentação para [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -75,9 +75,9 @@ Consulte [Recursos do modo de texto](/help/quicksilver/reports-and-dashboards/re
 
 Use o Balanceador de carga de trabalho como uma alternativa para agendar recursos no Workfront.
 
-Consulte [O Balanceador de carga de trabalho](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
+Consulte [O Balanceador de carga de trabalho: índice do artigo](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
 
-### Adobe Workfront Goals
+### Metas do Adobe Workfront
 
 Alinhe sua estratégia com seu trabalho para alcançar alinhamento e obter sucesso usando as Metas do Workfront do Adobe.
 
