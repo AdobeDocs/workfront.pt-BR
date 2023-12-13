@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 15e2869417d8315bf8e96f7d9d537cd70a5e39df
+source-git-commit: 31adfeffeda9fc6aa4e76ceae7ef410d9c4c178c
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Para testar a funcionalidade, faça logon na instância de Visualização do Wor
 
 1. **Coordenadores:** No Workfront, crie um projeto com o `Frame.io alpha testing` grupo atribuído como o grupo de projeto.
 
-1. **Coordenadores:** No Workfront, atribua seus criadores ao projeto <span class="preview">ou tarefas com quadros ativados</span> e altere o status do projeto para &quot;Atual&quot;.
+1. **Coordenadores:** No Workfront, atribua seus criadores ao projeto <span class="preview">ou Frame enabled (observe que as subtarefas não podem ser marcadas como Frame enabled)</span> e altere o status do projeto para &quot;Atual&quot;.
 
 1. **Criativos:** Verifique se seus emails contêm um convite para o projeto Frame.io recém-criado
 
@@ -60,6 +60,10 @@ Para testar a funcionalidade, faça logon na instância de Visualização do Wor
 1. **Criativos:** No Frame.io, aplique as alterações solicitadas adicionando a versão atualizada à pilha de versão do ativo conectado.
 
 1. **Coordenadores:** No Workfront, atribua aprovadores/revisores à versão recém-carregada e monitore o progresso até que ele atinja a aprovação.
+
+## Cenário de teste detalhado
+
+Para os participantes que desejam testar a funcionalidade adicional, criamos um cenário de teste mais envolvido. Um guia para esse cenário de teste detalhado pode ser baixado aqui: [Apresentação do cenário de teste detalhado de WF + Frame.io](/help/quicksilver/product-announcements/betas/assets/WF-Frame-Detailed-Test-Scenario-Walkthrough.pdf).
 
 ## Planos de recursos
 
