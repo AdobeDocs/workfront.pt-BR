@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '2492'
+source-wordcount: '2629'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,27 @@ Com essa melhoria, observe o seguinte:
 * Todas as exibições de tabela de um tipo de registro têm o mesmo campo principal selecionado.
 
 Para obter mais informações, consulte [Gerenciar exibição de tabela](/help/quicksilver/maestro/views/manage-the-table-view.md).
+
+
+### Conectar registros do Maestri com ativos do Adobe Experience Manager (AEM)
+
+Versão de pré-visualização: 14 de dezembro de 2023
+
+Versão de produção: 15 de dezembro de 2023
+
+Agora você pode estabelecer uma conexão entre os tipos de registro Maestro e os ativos do Adobe Experience Manager.
+
+Após estabelecer a conexão, a seguinte funcionalidade estará disponível com esta atualização:
+
+* Os usuários do Maestro podem vincular ativos, pastas ou coleções do AEM a um registro do Maestro de um repositório específico no AEM ao qual eles têm acesso
+
+* Os usuários do Maestro podem visualizar todos os ativos conectados no Maestro depois que eles estiverem conectados aos registros.
+
+* Um tipo de registro Experience Manager Assets é criado automaticamente no Maestro após você estabelecer a conexão. Os ativos conectados são visíveis na tabela Maestro e nas visualizações de linha do tempo desse novo tipo de registro.
+
+* Você pode exibir informações de ativos de AEM na tabela de registros do Maestro de onde está se conectando.
+
+Para obter mais informações, consulte [Conectar tipos de registro](/help/quicksilver/maestro/architecture/connect-record-types.md)
 
 ## Semana de 4 de dezembro de 2023
 

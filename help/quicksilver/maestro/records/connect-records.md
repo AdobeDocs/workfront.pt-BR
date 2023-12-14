@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '2911'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr>
    <td role="rowheader"><p>plano do Adobe Workfront</p></td>
    <td>
-<p>Qualquer Um</p>
+<p>Qualquer</p>
    </td>
   </tr>
   <tr>
@@ -206,9 +206,9 @@ After permssions - replace the table with:
 
 ### Conectar registros do Maestro
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-workfront.png) no canto superior direito do Workfront ou na guia **Menu principal** ícone ![](assets/main-menu-shell.png)  no canto superior esquerdo, se disponível, clique em **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   O espaço de trabalho acessado por último deve ser aberto por padrão.
+O espaço de trabalho acessado por último deve ser aberto por padrão.
 
 1. (Opcional) Expanda a seta apontando para baixo à direita de um nome de espaço de trabalho existente e selecione o espaço de trabalho do qual deseja conectar registros.
 1. Clique no cartão de um tipo de registro para abrir a página do tipo de registro.
@@ -254,33 +254,24 @@ After permssions - replace the table with:
 
 <!--when we will have more applications to link to from Maestro, change the title to soemthing like: Connect Maestro records to objects from other applications-->
 
-Depois de criar uma conexão entre um tipo de registro Maestro e um tipo de objeto Workfront, você pode conectar registros Maestri individuais a objetos no Workfront. Você também pode conectar campos do objeto Workfront ao tipo de registro Maestro.
+Depois de criar uma conexão entre um tipo de registro Maestro e um tipo de objeto Workfront, você pode conectar registros Maestri individuais a objetos no Workfront. Os campos do Workfront que você conectou são automaticamente preenchidos nos registros do Maestro que você está vinculando os objetos do.
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-workfront.png) no canto superior direito do Workfront ou na guia **Menu principal** ícone ![](assets/main-menu-shell.png)  no canto superior esquerdo, se disponível, clique em **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   O espaço de trabalho acessado por último deve ser aberto por padrão.
+O espaço de trabalho acessado por último deve ser aberto por padrão.
 
 1. (Opcional) Expanda a seta apontando para baixo à direita de um nome de espaço de trabalho existente e selecione o espaço de trabalho do qual deseja conectar registros.
 1. Clique no cartão de um tipo de registro para abrir a página do tipo de registro.
-1. Selecione uma exibição de Tabela na **Exibir** no canto superior direito da página tipo de registro.
-1. Adicionar uma nova conexão a um tipo de objeto do Workfront com o tipo de registro selecionado. Selecione entre os seguintes objetos na seção Workfront:
+1. Selecione um **Tabela** exibir do **Exibir** no canto superior direito da página tipo de registro.
 
-   * Projeto
-   * Portfólio
-   * Programa
-   * Empresa
-   * Grupo
-
-   Para obter mais informações, consulte [Conectar tipos de registro](../architecture/connect-record-types.md).
-
-   Uma nova coluna é adicionada à tabela para exibir o tipo de objeto vinculado.
-
-1. Adicione registros individuais ao tipo de registro selecionado adicionando uma nova linha à tabela. Para obter informações, consulte [Criar registros](../../maestro/records/create-records.md).
-1. Em um registro listado na exibição de tabela, vá para a coluna de objeto vinculado e passe o mouse sobre a célula correspondente ao registro que deseja vincular a outros objetos do Workfront e clique no **+** ícone. <!--change Workfront to other applications, when this will be possible-->
+1. (Opcional) Adicione registros individuais ao tipo de registro selecionado adicionando uma nova linha à tabela. Para obter informações, consulte [Criar registros](../../maestro/records/create-records.md).
+1. (Condicional) Se você conectou o tipo de registro selecionado a um objeto do Workfront, vá para a coluna de objetos vinculados e passe o mouse sobre a célula correspondente ao registro que deseja vincular com os objetos do Workfront, em seguida, clique na **+** ícone.
 
    A variável **Conectar objetos** é exibida.
 
    ![](assets/connect-objects-box-to-select-projects.png)
+
+   Para obter mais informações sobre como conectar tipos de registro a objetos de um aplicativo de terceiros, consulte [Conectar tipos de registro](../architecture/connect-record-types.md).
 
 1. Comece digitando o nome de um objeto Workfront na caixa de pesquisa e selecione-o quando ele for exibido na lista
 
@@ -288,11 +279,11 @@ Depois de criar uma conexão entre um tipo de registro Maestro e um tipo de obje
 
    Selecione o nome de um ou vários objetos na caixa e clique em **Conectar objetos** no canto superior direito da caixa Conectar objetos.
 
-   São aditados os seguintes elementos ao Maestro:
+   São aditados os seguintes pontos:
 
    * Os objetos Workfront selecionados são adicionados ao campo de registro vinculado.
    * Um novo campo vinculado (ou um campo de pesquisa) é criado para cada campo vinculado selecionado ao adicionar os campos ao seu registro vinculado.
-   * Um novo tipo de registro chamado &quot;objeto Workfront&quot; é criado no mesmo espaço de trabalho do registro Maestro do qual você está vinculando. O nome do objeto faz parte do nome desse tipo de registro. Por exemplo, vincular a projetos do Workfront cria o tipo de registro de projeto do Workfront no Maestro.
+   * Um novo tipo de registro chamado &quot;&lt; Nome do tipo de objeto do Workfront >&quot; é criado no mesmo espaço de trabalho que o registro Maestro do qual você está vinculando. O nome do objeto faz parte do nome desse tipo de registro. Por exemplo, vincular a projetos do Workfront cria a variável **Projeto** tipo de registro no Maestro.
 
      Este é um tipo de registro somente leitura e exibe os objetos do Workfront que estão selecionados no novo campo de objeto vinculado que você criou a partir do registro Maestro. Os campos vinculados do objeto vinculado também são exibidos nos registros somente leitura vinculados do Workfront.
 
@@ -307,7 +298,7 @@ Depois de criar uma conexão entre um tipo de registro Maestro e um tipo de obje
      >
      >* Se você ativou a configuração Permitir vários registros, os valores dos vários objetos serão exibidos separados por vírgulas ou agregados de acordo com o agregador escolhido.
      >
-     >* Um campo de registro vinculado aos registros vinculados Maestri não é criado para os objetos vinculados do Workfront.
+     >* Um campo de registro vinculado aos registros vinculados Maestro não é criado para os objetos vinculados do Workfront no Workfront.
 
 
 1. (Opcional) Feche a página do tipo de registro Maestro e vá para o Espaço de trabalho selecionado.
@@ -318,7 +309,6 @@ Depois de criar uma conexão entre um tipo de registro Maestro e um tipo de obje
    >    * Os registros listados na página Tipo de registro do Workfront são objetos somente leitura do Workfront. Os campos vinculados do tipo de registro do Workfront também são exibidos como colunas somente leitura e são preenchidos automaticamente quando são preenchidos no Workfront.
    >    * Não é possível atualizar manualmente os campos do Workfront no Maestro. Os campos de objeto do Workfront devem ser preenchidos no Workfront e os valores de campo são exibidos automaticamente no registro do Workfront no Maestro.
    >
-   >    * Para exibir o tipo de registro de objeto do Workfront na exibição Linha do tempo, você deve ter pelo menos dois campos de data exibidos na exibição Tabela da página tipo de registro somente leitura do Workfront.
 
 1. (Opcional) Para abrir a página Detalhes do registro de objeto do Workfront no Maestri, siga um destes procedimentos:
 
@@ -351,4 +341,122 @@ Depois de criar uma conexão entre um tipo de registro Maestro e um tipo de obje
    >
    >  Os campos que você adiciona ou remove na página tipo de registro de objeto do Workfront não são adicionados nem removidos do tipo de registro Maestro que se vincula ao tipo de objeto do Workfront. Os campos só são visíveis na página do tipo de registro somente leitura do Workfront, portanto, você pode analisá-los no Maestro.
 
-1. (Opcional e condicional) Se você tiver adicionado pelo menos dois campos de data ao objeto do Workfront, clique no **Exibir** menu suspenso na página tipo de registro de objeto do Workfront e selecione o **Linha do tempo** exibição. Os objetos vinculados ao Workfront são exibidos na visualização de linha do tempo.
+1. (Opcional e condicional) Se você tiver adicionado pelo menos dois campos de data ao objeto do Workfront, clique no **Exibir** menu suspenso na página tipo de registro de objeto do Workfront e selecione o **Linha do tempo** exibir ou **Criar visualização** para criar uma visualização de linha do tempo.  Para obter informações, consulte [Gerenciar a exibição de linha do tempo](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+
+   Os objetos vinculados ao Workfront são exibidos na visualização de linha do tempo.
+
+
+### Conectar registros do Maestri a objetos do Adobe Experience Manager
+
+<!--when we will have more applications to link to from Maestro, change the title to soemthing like: Connect Maestro records to objects from other applications-->
+
+Depois de criar uma conexão entre um tipo de registro Maestro e o Adobe Experience Manager Assets, você pode conectar registros Maestri individuais a ativos Experience Manager. Os campos de ativos que você conectou a partir do Experience Manager Assets ao criar a conexão são preenchidos automaticamente no tipo de registro Mestre que você vinculou.
+
+{{step1-to-maestro}}
+
+O espaço de trabalho acessado por último deve ser aberto por padrão.
+
+1. (Opcional) Expanda a seta apontando para baixo à direita de um nome de espaço de trabalho existente e selecione o espaço de trabalho do qual deseja conectar registros.
+1. Clique no cartão de um tipo de registro para abrir a página do tipo de registro.
+1. Selecione um **Tabela** exibir do **Exibir** no canto superior direito da página tipo de registro.
+
+1. (Opcional) Adicione registros individuais ao tipo de registro selecionado adicionando uma nova linha à tabela. Para obter informações, consulte [Criar registros](../../maestro/records/create-records.md).
+1. (Condicional) Se você conectou o tipo de registro selecionado ao Experience Manager Assets, vá para a coluna de objetos vinculados e passe o mouse sobre a célula correspondente ao registro que deseja vincular com outros objetos do Experience Manager e clique no botão **+** ícone.
+
+   A variável **Selecionar ativos** é exibida. <!--update screen shot with actual assets-->
+
+   ![](assets/select-assets-box-for-aem-record-connections.png)
+
+   Para obter mais informações sobre como conectar tipos de registro a objetos de um aplicativo de terceiros, consulte [Conectar tipos de registro](../architecture/connect-record-types.md).
+
+1. Clique em para selecionar alguns dos seguintes tipos de ativos:
+
+   * Imagens
+   * Coleções
+   * Pastas
+
+   É possível selecionar vários ativos.
+
+   >[!IMPORTANT]
+   >
+   > Você pode conectar somente ativos que você tenha acesso para visualizar no Experience Manager.
+
+1. Clique em **Selecionar**.
+
+   São aditados os seguintes pontos:
+
+   * Os ativos de Experience Manager selecionados são adicionados ao campo de registro vinculado.
+   * Um novo campo vinculado (ou um campo de pesquisa) é criado para cada campo vinculado selecionado ao adicionar os campos ao seu registro vinculado.
+   * Um novo tipo de registro chamado &quot;Experience Manager Assets&quot; é criado no mesmo espaço de trabalho do registro Maestro que você está vinculando.
+
+     Este é um tipo de registro somente leitura e exibe os objetos Experience Manager selecionados no novo campo de objeto vinculado que você criou a partir do registro Maestro. Os campos vinculados do objeto vinculado também são exibidos nos registros de Experience Manager vinculados somente leitura.
+
+     >[!IMPORTANT]
+     >
+     > O tipo de registro Experience Manager Assets somente leitura é criado somente quando ativos individuais são adicionados aos registros Maestri. Simplesmente criar uma conexão entre um tipo de registro Maestro e o Experience Manager Assets não cria o tipo de registro Experience Manager Assets.
+
+     Todas as informações existentes nos campos dos ativos de Experience Manager são exibidas nos campos vinculados ou de pesquisa.
+
+     >[!TIP]
+     >
+     >
+     >* Se você ativou a configuração Permitir vários registros, os valores dos vários objetos serão exibidos separados por vírgulas.
+     >
+     >* Um campo de registro vinculado aos registros vinculados Maestro não é criado para os ativos de Experience Manager vinculados no aplicativo do Experience Manager Assets.
+
+
+1. (Opcional) Feche a página do tipo de registro Maestro e vá para o Espaço de trabalho selecionado.
+1. Clique no cartão para o tipo de registro Experience Manager Assets. O cartão de tipo de registro do Experience Manager Assets somente leitura deve abrir na exibição Tabela.
+
+   >[!NOTE]
+   >
+   >    * Os registros listados na página de tipo de registro do Experience Manager Assets são ativos somente leitura. Os campos vinculados do tipo de registro Experience Manager Assets também são exibidos como colunas somente leitura e são preenchidos automaticamente quando são preenchidos no Experience Manager.
+   >    * Não é possível atualizar manualmente os campos de Experience Manager no Maestro. Os campos de ativos Experience Manager devem ser preenchidos em Experience Manager e os valores de campo são exibidos automaticamente no registro Experience Manager Assets no Maestro.
+   >
+
+1. (Opcional) Vá para o tipo de registro vinculado ao Experience Manager Assets a partir de e clique no nome de um ativo no campo de registro vinculado. Os detalhes do Experience Manager do ativo são exibidos em uma janela pop-up. <!--update screen shot with hi-rez picture-->
+
+   ![](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
+
+   Os seguintes campos são exibidos para um arquivo de imagem:
+
+   * Uma miniatura da imagem
+   * O nome do arquivo de imagem
+   * Dimension
+   * Tamanho
+   * Descrição
+   * O caminho do arquivo no Experience Manager
+   * O tipo de ativo
+   * Data de criação
+   * Data de modificação
+
+1. (Opcional) Para abrir a página Detalhes do registro do Experience Manager Assets no Maestro, faça o seguinte:
+
+   1. Vá para a **Experience Manager Assets** Maestro cartão de tipo de registro no mesmo espaço de trabalho que você selecionou originalmente e clique em para abrir a página de tipo de registro.
+A página do tipo de registro Experience Manager Assets Maestri é somente leitura.
+   1. Na exibição de tabela, clique no nome de um ativo
+
+      Ou
+
+      Passe o mouse sobre o nome de um ativo, clique no ícone **Mais** menu ![](assets/more-menu.png) à direita do nome do ativo e clique em **Exibir**.\
+      Isso abre o mestre do ativo **Detalhes** página. Esta página é somente leitura.
+1. (Opcional) Para abrir a página Detalhes do registro de ativos de Experience Manager no Experience Manager, siga um destes procedimentos:
+
+   * Vá para a página Tipo de registro Maestro do registro que você está vinculando, clique no nome de um ativo no campo de registro vinculado para abrir a janela pop-up e, em seguida, clique no **Abertura** ícone ![](assets/open-asset-icon.png) para abrir o ativo.
+   * Vá para a **Experience Manager Assets** Cartão do tipo de registro Maestri no mesmo espaço de trabalho selecionado originalmente e clique em para abrir a página do tipo de registro, clique no nome de um ativo para abrir o Maestro **Detalhes** e clique em **Ir para origem** no canto superior direito da tela.
+
+     ![](assets/go-to-source-asset-maestro-details-page.png)
+   * Vá para a **Experience Manager Assets** Maestri record type card no mesmo espaço de trabalho selecionado originalmente e clique no cartão para abrir a página Experience Manager Assets record type, passe o mouse sobre o nome de um ativo, clique em **Mais** e clique em **Ir para origem**.
+
+     ![](assets/go-to-source-option-on-table-view.png)
+
+   O ativo é aberto no Experience Manager Assets.
+
+1. (Opcional) Clique no link **Adicionar campos** ícone ![](assets/add-fields-icon.png) no canto superior direito da exibição de tabela na página tipo de registro do Experience Manager Assets, para adicionar ou remover campos Experience Manager.
+
+   >[!NOTE]
+   >
+   >  Os campos adicionados ou removidos na página Tipo de registro do Experience Manager Assets não são adicionados nem removidos do tipo de registro Maestro vinculado ao ativo Experience Manager. Os campos só são visíveis na página do tipo de registro somente leitura do Experience Manager Assets, portanto, você pode analisá-los no Maestro.
+
+1. (Opcional e condicional) Se você adicionou pelo menos dois campos de data ao ativo vinculado por Experience Manager, clique no link **Exibir** menu suspenso na página tipo de registro do Experience Manager Assets e selecione o **Linha do tempo** exibir ou **Criar visualização** para criar uma visualização de linha do tempo.  Para obter informações, consulte [Gerenciar a exibição de linha do tempo](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+Os ativos vinculados ao Experience Manager Assets são exibidos na visualização de linha do tempo.

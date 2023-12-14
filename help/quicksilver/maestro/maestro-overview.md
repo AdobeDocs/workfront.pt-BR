@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1937'
 ht-degree: 1%
 
 ---
@@ -232,8 +232,12 @@ A seguir estão os principais objetos e conceitos do Maestro:
 
    * Dois tipos de registros Maestri
    * Um tipo de registro Maestri e um tipo de objeto de projeto, programa, portfólio, empresa ou grupo do Workfront.
+   * Um tipo de registro Maestro e um ativo, pasta ou coleção do Adobe Experience Manager.
 
-  ![](assets/new-connection-tab-with-workfront-option.png)
+     Você deve ter uma licença da Adobe Experience Manager para vincular tipos de registro a objetos Experience Manager.
+
+     ![](assets/new-connection-tab-with-workfront-aem-options.png)
+
 
   Depois de estabelecer uma conexão entre os tipos de registro, você pode conectar registros individuais desses tipos uns aos outros. A conexão entre os registros é exibida como um campo de registro vinculado.
 
@@ -273,15 +277,15 @@ A tabela a seguir mostra os limites para quantos objetos você pode criar no Mae
 
 | Objeto maestro | Limite |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-| Número de espaços de trabalho para uma instância do Workfront | 1,000 |
+| Número de espaços de trabalho para uma instância do Workfront | 1.000 |
 | Número de Tipos de Registro para um espaço de trabalho | 1.000 (isso inclui taxonomias para o espaço de trabalho ou objetos que você importa de aplicativos de terceiros) |
-| Número de registros de um tipo de registro | 10,000 |
+| Número de registros de um tipo de registro | 10.000 |
 | Número de campos para um tipo de registro ou taxonomia | 500 |
 | Número de caracteres de um campo de texto | 1.000 caracteres |
-| Tamanho do arquivo que você pode colar em uma tabela do tipo record | 1MB |
-| Tamanho do arquivo que você pode importar por meio da API para uma tabela de tipo de registro | 1.5MB |
+| Tamanho do arquivo que você pode colar em uma tabela do tipo record | 1 MB |
+| Tamanho do arquivo que você pode importar por meio da API para uma tabela de tipo de registro | 1,5 MB |
 | A velocidade com a qual as solicitações de API podem ser feitas | 200 solicitações por minuto |
-| Tamanho do CSV do arquivo do Excel que pode ser importado em uma tabela | 5MB |
+| Tamanho do CSV do arquivo do Excel que pode ser importado em uma tabela | 5 MB |
 
 ## Habilite o Maestri para os usuários em sua instância do Workfront
 
@@ -348,33 +352,36 @@ A tabela a seguir ilustra os principais recursos que estarão disponíveis no Ma
 | Recurso | Disponível agora | Disponível em breve | Em pesquisa |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
 | Criar espaços de trabalho | ✓ µ |                                  |                  |
-| Criar tipos de registro operacional | ✓ |                                  |                  |
-| Criar taxonomias | ✓ |                                  |                  |
-| Criar registros e taxonomias individuais e nomeados | ✓ |                                  |                  |
-| Criar campos personalizados de registro | ✓ |                                  |                  |
-| Importar tipos e campos de registro usando um arquivo Excel ou CSV | ✓ |                                  |                  |
-| Vincular registros | ✓ |                                  |                  |
-| Exibir registros em uma tabela | ✓ |                                  |                  |
-| Exibir registros em uma linha do tempo | ✓ |                                  |                  |
-| Filtrar registros | ✓ |                                  |                  |
-| Agrupar registros na exibição de linha do tempo | ✓ |                                  |                  |
-| Agrupar registros na exibição de tabela | ✓ |                                 |                  |
-| Classificar registros na exibição de tabela | ✓ |                                 |                  |
-| Classificar registros na exibição de linha do tempo |                               | ✓ |                  |
-| Classificar agrupamentos na exibição de tabela |                               | ✓ |                  |
-| Classificar agrupamentos na exibição de linha do tempo |                               | ✓ |                  |
-| Conectar espaços de trabalho |                               | ✓ |                  |
-| Conectar registros e taxonomias do Maestri | ✓ |
-| Procurar registros na exibição de tabela | ✓ |   |
-| Conecte registros do Maestro a projetos, programas, portfólios, empresas e grupos da Workfront | ✓ |                                 |                  |
-| Página de detalhes do registro | ✓ |                                  |                  |
-| Atualizar o layout da página Detalhes do registro |                               | ✓ |                  |
-| Permissões do Workspace | | ✓ |  |
-| Enviar solicitações |                               |                                  | ✓ |
-| Resumo criativo |                               |                                  | ✓ |
-| Personalizar a cor e o ícone de um registro | ✓ |                                  |                 |
-| Adicionar comentários aos registros |                               | ✓ |                 |
-| Formatação de Rich Text para campos de parágrafo | ✓ |                                  |                 |
+| Criar tipos de registro operacional | ✓ µ |                                  |                  |
+| Criar taxonomias | ✓ µ |                                  |                  |
+| Criar registros e taxonomias individuais e nomeados | ✓ µ |                                  |                  |
+| Criar campos personalizados de registro | ✓ µ |                                  |                  |
+| Importar tipos e campos de registro usando um arquivo Excel ou CSV | ✓ µ |                                  |                  |
+| Vincular registros | ✓ µ |                                  |                  |
+| Exibir registros em uma tabela | ✓ µ |                                  |                  |
+| Exibir registros em uma linha do tempo | ✓ µ |                                  |                  |
+| Filtrar registros | ✓ µ |                                  |                  |
+| Agrupar registros na exibição de linha do tempo | ✓ µ |                                  |                  |
+| Agrupar registros na exibição de tabela | ✓ µ |                                 |                  |
+| Classificar registros na exibição de tabela | ✓ µ |                                 |                  |
+| Classificar registros na exibição de linha do tempo |                               | ✓ µ |                  |
+| Classificar agrupamentos na exibição de tabela |                               | ✓ µ |                  |
+| Classificar agrupamentos na exibição de linha do tempo |                               | ✓ µ |                  |
+| Conectar espaços de trabalho |                               | ✓ µ |                  |
+| Conectar registros e taxonomias do Maestri | ✓ µ |
+| Procurar registros na exibição de tabela | ✓ µ |   |
+| Conecte registros do Maestro a projetos, programas, portfólios, empresas e grupos da Workfront | ✓ µ |                                 |                  |
+| Conectar registros do Maestri a ativos, pastas e coleções do Adobe Experience Manager | ✓ µ |                                  |                 |
+| Página de detalhes do registro | ✓ µ |                                  |                  |
+| Atualizar o layout da página Detalhes do registro |                               | ✓ µ |                  |
+| Permissões do Workspace | | ✓ µ |  |
+| Enviar solicitações |                               |                                  | ✓ µ |
+| Resumo criativo |                               |                                  | ✓ µ |
+| Personalizar a cor e o ícone de um registro | ✓ µ |                                  |                 |
+| Adicionar comentários aos registros |                               | ✓ µ |                 |
+| Formatação de Rich Text para campos de parágrafo | ✓ µ |                                  |                 |
+
+
 
 ## Atividade de lançamento do Maestri
 
