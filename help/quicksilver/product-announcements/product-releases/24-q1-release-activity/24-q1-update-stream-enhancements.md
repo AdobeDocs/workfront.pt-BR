@@ -4,9 +4,9 @@ description: Melhorias no fluxo de atualizações e na notificação do primeiro
 author: Lisa
 feature: Product Announcements
 exl-id: 837b5a23-162d-4862-b6fd-be3048ab0269
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 7e1bcff7361a76988a319b266c7b885a6b614c15
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Esta página descreve todos os aprimoramentos no fluxo de atualização e na notificação feitos com a versão do Primeiro trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão do primeiro trimestre de 2024.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do Primeiro trimestre de 2024, consulte [Visão geral da versão do primeiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## Arraste e solte a imagem em um comentário na seção Atualizações
+
+Para aprimorar o conteúdo de seus comentários, agora é possível arrastar e soltar rapidamente uma imagem em um comentário ou resposta na seção Atualizações de um objeto.
+
+Você pode adicionar imagens salvas no computador somente nos seguintes formatos: .jpg, .jpeg, .png, .gif.
+
+Essa funcionalidade existia no fluxo de comentários herdado e agora foi adicionada à nova experiência de comentários.
+
+Para obter mais informações, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## A nova experiência de comentários captura todas as informações de projetos, tarefas, problemas e documentos
 
