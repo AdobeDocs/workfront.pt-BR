@@ -7,9 +7,9 @@ description: O ambiente de Pré-visualização é atualizado uma vez por semana 
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: d1390144d60aee3f278729da230a3458b49ca4f0
+source-git-commit: 1ccbab53684928974ef739b0176a6ea893a27320
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '939'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ As versões geralmente acontecem por volta das 20:00 às 22:00 horas, horário d
 
 A Adobe Workfront tem dois modelos para lançar novos recursos e atualizações. Sua organização pode escolher se deseja receber novas funcionalidades trimestralmente ou em uma programação de lançamento mais rápida.
 
-Os lançamentos mensais e trimestrais estão planejados para estarem disponíveis na última quinta-feira do mês. Os lançamentos normalmente ocorrem por volta das 20:00 às 22:00 horas, horário das montanhas dos EUA na noite anterior.
+Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira da segunda semana completa do mês, a menos que especificado de outra forma. Para datas futuras, consulte as datas mais recentes [Visão geral da versão](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+
+As versões geralmente ocorrem por volta das 20:00 às 22:00 horas (horário das montanhas dos EUA) na noite anterior à data de lançamento.
 
 Normalmente, os recursos na Pré-visualização são disponibilizados em seu ambiente de Produção com a próxima versão. No entanto, em alguns casos, os recursos são disponibilizados no ambiente de Produção fora de uma versão programada. Essas alterações permanecem na Pré-visualização por um mínimo de 2 semanas para fornecer tempo adequado para que você se familiarize com as alterações. Essas alterações também são comunicadas por meio do Centro de anúncios no momento em que são adicionadas à Pré-visualização.
 
