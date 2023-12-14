@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 92e8b9949f13536b3464922a93fafcb74688d916
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,12 @@ Você pode criar registros no Maestro seguindo um destes procedimentos:
 
 * Criá-los manualmente para os tipos de registro do Maestro
 * Conecte-os aos registros do Maestro a partir de aplicativos de terceiros.
+* Criar registros copiando e colando informações de uma lista externa.
+
+Este artigo descreve como você pode criar registros Maestro. Para obter informações sobre o gerenciamento de registros nas exibições de tabela ou linha do tempo, consulte os seguintes artigos:
+
+* [Gerenciar a exibição de tabela](/help/quicksilver/maestro/views/manage-the-table-view.md)
+* [Gerenciar a exibição de linha do tempo](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
 
 ## Requisitos de acesso
 
@@ -60,19 +66,19 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr>
    <td role="rowheader"><p>plano do Adobe Workfront</p></td>
    <td>
-<p>Qualquer Um</p>
+<p>Qualquer</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td>
    <td>
-   <p>Qualquer Um</p> 
+   <p>Qualquer</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Nível de acesso</td>
-   <td> <p>Qualquer Um</p>  
+   <td> <p>Qualquer</p>  
 </td>
   </tr>
 <tr>
@@ -183,7 +189,7 @@ Todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
 ## Criar registros conectando-os de outro aplicativo
 
-Você pode importar registros de outros aplicativos vinculando-os aos registros vinculados Maestri.
+Você pode importar registros de outros aplicativos vinculando-os aos registros vinculados Maestri. Isso cria um tipo de registro Maestri para o objeto conectado do aplicativo de terceiros. Registros que você conecta à exibição original de registros do Maestro no aplicativo de terceiros conectado objeto Maestro tipo de registro exibição de tabela.
 
 1. Crie um tipo de registro Maestri, conforme descrito na seção [Criar tipos de registro](../architecture/create-record-types.md).
 
@@ -199,7 +205,6 @@ Você pode importar registros de outros aplicativos vinculando-os aos registros 
 
      Por exemplo, se você conectar um tipo de registro Maestro a projetos Workfront, um tipo de registro somente leitura chamado &quot;projetos Workfront&quot; será criado no mesmo espaço de trabalho.
    * Registros somente leitura na página de tipo de registro de terceiros. Os registros importados do aplicativo de terceiros permanecem como somente leitura e só podem ser atualizados no aplicativo original.
-
 
 ## Criar registros copiando e colando informações de uma lista externa
 

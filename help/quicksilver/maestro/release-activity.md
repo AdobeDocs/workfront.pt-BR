@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '2305'
+source-wordcount: '2492'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,40 @@ The following are the permissions levels for Maestro workspaces:
 Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+
+## Semana de 18 de dezembro de 2023
+
+### Atualizar o campo principal em uma exibição de tabela de um tipo de registro
+
+Pré-visualização e produção: 14 de dezembro de 2023
+
+Agora você pode escolher o campo que deseja exibir na primeira coluna de uma exibição de tabela do Maestro. Esse campo agora é chamado de campo primário.
+
+Antes desse aprimoramento, o campo Nome de um registro sempre era exibido na primeira coluna da exibição de tabela e não podia ser colocado em outra posição.
+
+Com essa melhoria, observe o seguinte:
+
+* A coluna ou o campo Name ainda é a primeira coluna de uma tabela, por padrão.
+
+* Você pode escolher qualquer campo dos seguintes tipos para ser um campo principal e substituir o campo Name na primeira coluna:
+
+   * Texto de linha única
+
+   * Número
+
+   * Fórmula
+
+     >[!NOTE]
+     >
+     >Os campos do tipo fórmula serão liberados em uma data posterior.
+
+* O campo principal de uma exibição de tabela é sempre congelado e não pode ser movido, a menos que você defina outro campo como campo principal.
+
+* Você pode alterar o campo primário de um cabeçalho de coluna não primário.
+
+* Todas as exibições de tabela de um tipo de registro têm o mesmo campo principal selecionado.
+
+Para obter mais informações, consulte [Gerenciar exibição de tabela](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
 ## Semana de 4 de dezembro de 2023
 

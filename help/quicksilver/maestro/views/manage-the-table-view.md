@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2271'
 ht-degree: 3%
 
 ---
@@ -137,36 +137,44 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
      ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
-   >[!TIP]
-   >
-   >* O campo Nome é sempre o primeiro campo na exibição em tabela.
-   >
-   >* Não é possível mover o campo Nome para outra posição.
-   >
-   >* Não é possível ocultar o campo Nome.
-   >
-   >* O campo Nome está congelado e não faz parte da rolagem horizontal.
 
-   <!--* Replace the field in the first column with another field by changing the primary field. For more information, continue to step 4. (******ensure this is accurate****)-->
+     >[!TIP]
+     >
+     >* O campo Nome é sempre o primeiro campo na exibição em tabela.
+     >
+     >* Não é possível mover o campo Nome para outra posição.
+     >
+     >* Não é possível ocultar o campo Nome.
+     >
+     >* O campo Nome está congelado e não faz parte da rolagem horizontal.
 
-   <!--1. (Optional) Hover over a field name in the column header of any field that does not display in the first field of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
-    (******add screen shot*****)
+   * Substitua o campo na primeira coluna por outro campo alterando o campo primário. Para obter mais informações, continue para a etapa 4. <!--accurate?-->
 
-    1. Click **Set field** to confirm. 
-    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column.
-    >[!NOTE]
-    >
-    >   * Only fields of the following types can be primary fields: 
-    >
-    >       * Single-line text
-    >       * Number
-    >       * Formula (********HIDE THIS FOR NOW???********)
-    >
-    >   * The primary field is always frozen.
-    >
-    >   * Changing the primary field in your table view affects the view for all other users who choose it.
-    
-    ************ALSO UPDATE THE TIP BELOW ABOUT THE PRIMARY FIELD******-->
+1. (Opcional) Passe o mouse sobre um nome de campo no cabeçalho da coluna de qualquer campo que não seja exibido na primeira coluna da tabela, clique na seta para baixo à direita do nome do campo e clique em **Definir como campo principal**.
+
+   ![](assets/set-as-primary-field-option-table-view.png)
+
+1. Clique em **Definir campo** para confirmar.
+
+   O campo se torna um campo primário, o que significa que ele é exibido como a primeira coluna da exibição de tabela. O campo principal anterior é movido para a segunda coluna.
+
+   >[!NOTE]
+   >
+   >   * Somente os campos dos seguintes tipos podem ser campos primários:
+   >
+   >       * Texto de linha única
+   >       * Número
+   >       * Fórmula
+   >
+   >         Os campos de fórmula serão liberados posteriormente.
+   >
+   >   * O campo principal é sempre congelado e não pode ser movido. Você pode selecionar outro campo para substituir um campo principal, se precisar movê-lo para outra posição.
+   >
+   >   * Alterar o campo principal na exibição de tabela afeta a exibição de todos os outros usuários que a escolhem.
+   >
+   >   * Alterar o campo principal em uma exibição de tabela afeta todas as exibições de tabela.
+   >
+   >   * Não é possível excluir ou ocultar um campo principal.
 
 1. Clique e arraste as linhas de separação da coluna e solte-as no ponto desejado para aumentar a largura das colunas.
 

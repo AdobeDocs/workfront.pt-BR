@@ -6,9 +6,9 @@ description: Crie uma equipe ágil de Kanban ou Scrum no [!DNL Adobe Workfront].
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
@@ -42,16 +42,23 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
    <td> <p>Qualquer</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
    <td> <p>Novo: [!UICONTROL Padrão]</p> 
    ou
    <p>Atual: [!UICONTROL Trabalho] ou superior</p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">Nível de acesso</td> 
+   <td> <p>Editar acesso a equipes</p>  </td> 
+  </tr>
+
+</tbody> 
 </table>
 
 *Para descobrir que tipo de plano ou licença você tem, entre em contato com o [!DNL Workfront] administrador.
@@ -68,7 +75,6 @@ Para configurar como as histórias são estimadas para sua equipe ágil:
 1. Selecione a Equipe Ágil que deseja gerenciar.
 1. Clique em **[!UICONTROL Mais]** menu ![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
 
-   Somente membros da equipe com um [!UICONTROL Plano] ou [!UICONTROL Trabalho] consulte esta opção.\
    ![Editar equipe](assets/edit-team-settings-350x205.png)
 
 1. No **[!UICONTROL Agile]** seção, no campo **[!UICONTROL Estimar Histórias em]** selecione se deseja usar pontos ou horas para estimar o tamanho (carga de trabalho) das matérias. Se você selecionar Pontos, especifique quantas horas são iguais a 1 ponto. (O padrão é 1 ponto = 8 horas.) Este é o número de Horas planejadas que são adicionadas à história.
@@ -89,8 +95,6 @@ Para definir os status disponíveis para o storyboard associado à Equipe Ágil:
 
 1. Selecione a Equipe Ágil que deseja gerenciar.
 1. Clique em **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
-
-   Somente membros da equipe com um [!UICONTROL Plano] ou [!UICONTROL Trabalho] consulte esta opção.
 
    ![Editar equipe](assets/edit-team-settings-350x205.png)
 
@@ -139,7 +143,6 @@ Para configurar storycards atribuídos à equipe ágil para exibir campos adicio
 
 1. Selecione a Equipe Ágil que deseja gerenciar.
 1. Clique em **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.\
-   Somente membros da equipe com um [!UICONTROL Plano] ou [!UICONTROL Trabalho] consulte esta opção.
 
    ![Editar equipe](assets/edit-team-settings-350x205.png)
 
@@ -166,8 +169,6 @@ Para limitar o WIP para a equipe Kanban:
 1. Selecione a equipe Kanban que deseja gerenciar.
 1. Clique em **[!UICONTROL Mais]** menu ![](assets/more-menu.png)e selecione **[!UICONTROL Editar]**.
 
-   Somente membros da equipe com um [!UICONTROL Plano] ou [!UICONTROL Trabalho] consulte esta opção.
-
    ![Editar equipe](assets/edit-team-settings-350x205.png)
 
 1. No **[!UICONTROL Agile]** seção, no campo **[!UICONTROL Metodologia]** verifique se Kanban está selecionado.
@@ -193,8 +194,6 @@ Você pode configurar histórias do backlog para serem adicionadas automaticamen
 1. Selecione a equipe Kanban que deseja gerenciar.
 1. Clique em **[!UICONTROL Mais]** menu ![](assets/more-menu.png)e selecione **[!UICONTROL Editar]**.
 
-   Somente membros da equipe com um [!UICONTROL Plano] ou [!UICONTROL Trabalho] consulte esta opção.
-
    ![Editar equipe](assets/edit-team-settings-350x205.png)
 
 1. Selecionar **[!UICONTROL Adicionar automaticamente a próxima história do backlog]** para configurar que o próximo item do backlog seja adicionado automaticamente ao **[!UICONTROL Novo]** quando um item é movido para fora da **[!UICONTROL Em andamento]** coluna.
@@ -215,8 +214,6 @@ Você pode escolher por quanto tempo os cartões concluídos permanecem no [!UIC
 1. (Opcional) Clique no link **[!UICONTROL Trocar equipes]** ícone ![Ícone Trocar equipes](assets/switch-team-icon.png), selecione uma nova equipe Kanban no menu suspenso ou procure uma equipe na barra de pesquisa.
 1. Selecione a equipe Kanban.
 1. Clique em **[!UICONTROL Mais]** menu ![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
-
-   Somente membros da equipe com um [!UICONTROL Plano] ou [!UICONTROL Trabalho] consulte esta opção.
 
    ![Editar equipe](assets/edit-team-settings-350x205.png)
 

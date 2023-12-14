@@ -3,13 +3,13 @@ content-type: overview
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Visão geral do Balanceador de carga de trabalho
-description: Depois que os gerentes de projeto planejam o trabalho em projetos e criam tarefas, você pode usar o Balanceador de carga de trabalho para atribuir esse trabalho aos usuários em suas equipes.
-author: Alina
+description: Depois que os gerentes de projeto planejam o trabalho nos projetos criando tarefas e depois que os gerentes de recursos alocam os recursos da função de trabalho aos projetos no Planejador de Recursos, os proprietários de projetos e gerentes de equipe podem usar o Balanceador de carga de trabalho para atribuir itens de trabalho aos usuários.
+author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>
 -->
 
-Depois que os gerentes de projeto planejam o trabalho em projetos e criam tarefas, você pode usar o Balanceador de carga de trabalho para atribuir esse trabalho aos usuários.
+Depois que os gerentes de projeto planejam o trabalho nos projetos criando tarefas e depois que os gerentes de recursos alocam os recursos da função de trabalho aos projetos no Planejador de Recursos, os proprietários de projetos e gerentes de equipe podem usar o Balanceador de carga de trabalho para atribuir itens de trabalho aos usuários.
 
 >[!IMPORTANT]
 >
@@ -60,7 +60,7 @@ Considere os seguintes benefícios ao usar o Balanceador de carga de trabalho:
 
   Para obter mais informações, consulte [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-  Você também pode atribuir itens de trabalho em massa, o que facilita a distribuição de um grande número de itens de trabalho de uma vez, em vários projetos. Para obter mais informações, consulte [Atribuir trabalho em massa usando o Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+  Você também pode atribuir itens de trabalho em massa, o que facilita a distribuição de muitos itens de trabalho de uma vez, em vários projetos. Para obter mais informações, consulte [Atribuir trabalho em massa usando o Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 * Os executivos podem tomar decisões oportunas sobre a equipe por meio da transparência na forma como as pessoas em sua organização são utilizadas.
 * Os membros da equipe se beneficiam de uma melhor colaboração, pois todos podem visualizar no que seus colegas de trabalho estão trabalhando a qualquer momento. Para obter informações sobre o acesso necessário para exibir ou gerenciar recursos no Balanceador de carga de trabalho, consulte [Acesso necessário para gerenciar recursos no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
@@ -92,15 +92,18 @@ Para obter informações sobre como criar e usar filtros no Balanceador de carga
 
   Para obter informações sobre o acesso necessário para gerenciar a carga de trabalho dos recursos no Balanceador de carga de trabalho, consulte [Acesso necessário para gerenciar recursos no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
-* Os usuários cuja carga de trabalho você deseja gerenciar precisam atender aos seguintes critérios para que as informações sobre sua disponibilidade e habilidades sejam precisas:
+* Os usuários cuja carga de trabalho você deseja gerenciar devem atender aos seguintes critérios para que as informações sobre sua disponibilidade e habilidades sejam precisas:
 
    * Têm Cronogramas e Funções de trabalho associados aos seus perfis.
-   * Para obter mais informações sobre como associar Agendamentos e Funções de trabalho a usuários, consulte [Adicionar usuários](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
+
+     Para obter mais informações sobre como associar Agendamentos e Funções de trabalho a usuários, consulte [Adicionar usuários](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
    * Se um usuário não estiver associado a um Cronograma, o Cronograma Padrão do seu sistema Workfront será associado ao usuário por padrão, para fins de gerenciamento de recursos.
-   * Têm Exceções de Programação atualizadas em suas programações.\
+   * Têm Exceções de Programação atualizadas em suas programações.
+
      Para obter mais informações sobre a criação de cronogramas, consulte [Criar um agendamento](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
-   * Atualize o calendário de Folga no perfil.\
+   * Atualize o calendário de Folga no perfil.
+
      Para obter informações sobre como atualizar o calendário de folga de um usuário, consulte [Configurar folga pessoal](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
      <!--   
@@ -110,13 +113,15 @@ Para obter informações sobre como criar e usar filtros no Balanceador de carga
      </div>   
      -->
 
-* O administrador do Workfront deve determinar como o Workfront calcula a disponibilidade do usuário. Eles podem decidir se o Workfront usa a Programação padrão do sistema ou a programação do usuário para calcular o tempo em que o usuário está disponível para trabalhar. Para obter mais informações, consulte [Configurar preferências de gerenciamento de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+* O administrador do Workfront deve determinar como o Workfront calcula a disponibilidade do usuário. Eles podem decidir se o Workfront usa a Programação Padrão do Sistema ou a programação do usuário para calcular o tempo em que o usuário estará disponível para trabalhar ajustando as preferências do Gerenciamento de Recursos na área Configuração do Workfront.
+
+  Para obter mais informações, consulte [Configurar preferências de gerenciamento de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ### Práticas recomendadas para configurar tarefas e problemas {#best-practices-for-setting-up-tasks-and-issues}
 
 Verifique se a seguinte configuração de tarefa e problema existe antes de começar a atribuir trabalho aos usuários no Balanceador de carga de trabalho:
 
-* As tarefas pai não são atribuídas a usuários ou funções. Eles não são exibidos no Balanceador de carga de trabalho.
+* As tarefas pai não são atribuídas a usuários ou funções. As tarefas pai não são exibidas no Balanceador de carga de trabalho.
 * Tarefas e problemas têm um valor para Horas planejadas maior que zero.
 
 * Tarefas e problemas têm um valor para a Duração maior que zero.
@@ -124,16 +129,16 @@ Verifique se a seguinte configuração de tarefa e problema existe antes de come
 
 ## Antes de começar a usar o Balanceador de carga de trabalho
 
-* Você pode usar o Balanceador de carga de trabalho para atribuir trabalho e gerenciar alocações diárias para usuários em sua organização.
+* Revise os seguintes artigos antes de começar a usar o Balanceador de carga de trabalho:
 
-  Este artigo mostra como navegar no Balanceador de carga de trabalho para executar estas ações: [Navegar pelo Balanceador de carga de trabalho](../workload-balancer/navigate-the-workload-balancer.md).
+   * Este artigo mostra como navegar no Balanceador de carga de trabalho para executar estas ações: [Navegar pelo Balanceador de carga de trabalho](../workload-balancer/navigate-the-workload-balancer.md).
 
-  Os artigos a seguir o orientam sobre como atribuir trabalho e gerenciar alocações de usuário:
+   * Os artigos a seguir o orientam sobre como atribuir trabalho e gerenciar alocações de usuário:
 
-   * [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](../workload-balancer/assign-work-in-workload-balancer.md).
-   * [Gerenciar alocações de usuário no Balanceador de carga de trabalho](../workload-balancer/manage-user-allocations-workload-balancer.md).
+      * [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](../workload-balancer/assign-work-in-workload-balancer.md).
+      * [Gerenciar alocações de usuário no Balanceador de carga de trabalho](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
-* O Balanceador de carga de trabalho pode estar localizado em várias áreas diferentes do Workfront. Para obter informações sobre onde encontrar o Balanceador de carga de trabalho, consulte [Localize o Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+* O Balanceador de carga de trabalho pode ser encontrado em várias áreas diferentes do Workfront. Para obter informações sobre onde encontrar o Balanceador de carga de trabalho, consulte [Localize o Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## Acesso necessário para usar o Balanceador de carga de trabalho
 
