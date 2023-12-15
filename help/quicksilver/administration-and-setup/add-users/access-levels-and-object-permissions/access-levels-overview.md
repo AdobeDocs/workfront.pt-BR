@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: fbfc8c5b905479c39687754f9c5c34f77f8225d7
+source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ ht-degree: 0%
 
 Como administrador do Adobe Workfront, você atribui um nível de acesso a um usuário para duas finalidades:
 
-* Todos os usuários devem ter um nível de acesso para fazer logon e trabalhar no Workfront.
-* Você usa o nível de acesso para controlar o que um usuário pode ver e fazer com determinados objetos e áreas do Workfront.
+* Cada usuário deve ter um nível de acesso para fazer logon e trabalhar no Workfront.
+* Os níveis de acesso controlam o que um usuário pode ver e fazer com determinados objetos e áreas do Workfront.
 
 Cada um dos seis níveis de acesso incorporados é anexado a uma das cinco licenças do Workfront: Plan, Work, Review, Request e External.
 
@@ -32,7 +32,7 @@ Externa é uma licença não paga projetada principalmente para compartilhar doc
 
 ![](assets/access-levels-and-licenses-old.png)
 
-Para obter informações sobre tópicos relacionados, consulte os seguintes artigos:
+Para obter informações sobre tópicos relacionados aos níveis de acesso, consulte os seguintes artigos:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,6 +55,10 @@ Para obter informações sobre tópicos relacionados, consulte os seguintes arti
   <tr> 
    <td><strong>Atribuição de níveis de acesso</strong></td> 
    <td> <p>Para obter instruções sobre como atribuir um nível de acesso a um usuário, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar o perfil de um usuário</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Níveis de Acesso Padrão, Claro, Contribuinte</td> 
+   <td> <p>Se você vir esses níveis de acesso em seu ambiente em vez de Plano, Trabalho, Revisão ou Solicitação, sua organização usará o novo modelo de nível de acesso. Para obter informações sobre o novo modelo, consulte <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Visão geral dos novos níveis de acesso</a>.</p> </td> 
   </tr> 
   <!--
   <tr> 

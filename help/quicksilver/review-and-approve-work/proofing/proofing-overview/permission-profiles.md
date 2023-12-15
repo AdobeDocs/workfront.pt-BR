@@ -4,20 +4,24 @@ product-area: documents
 keywords: prova,permissão
 navigation-topic: proofing-overview
 title: Visão geral do perfil de permissão de prova
-description: Perfis de permissão de prova determinam quais permissões gerais os usuários têm sobre todas as provas em sua conta. Perfis de permissão de prova são atribuídos aos usuários em seus Perfis de usuário. Perfis de permissão de prova são diferentes das funções de prova. Para obter mais informações sobre funções de prova, consulte a visão geral Funções de prova .
+description: Os perfis de permissão de prova determinam quais permissões gerais os usuários têm sobre todas as provas em sua conta. Perfis de permissão de prova são atribuídos a usuários em seus respectivos Perfis de usuário. Os perfis de permissão de prova são diferentes das funções de prova.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fb6faa48-d97b-4b7b-83ae-fe39d40b3963
-source-git-commit: 9b60133c4cc20deb410f507854597f44d0607228
+source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 2%
+source-wordcount: '498'
+ht-degree: 1%
 
 ---
 
 # Visão geral do perfil de permissão de prova
 
-Perfis de permissão de prova determinam quais permissões gerais os usuários têm sobre todas as provas em sua conta. Perfis de permissão de prova são atribuídos aos usuários em seus Perfis de usuário. Perfis de permissão de prova são diferentes das funções de prova. Para obter mais informações sobre funções de prova, consulte [Visão geral das funções de prova](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+<!--Audited: 12/2023-->
+
+Os perfis de permissão de prova determinam quais permissões gerais os usuários têm sobre todas as provas em sua conta. Perfis de permissão de prova são atribuídos a usuários em seus respectivos Perfis de usuário.
+
+Os perfis de permissão de prova são diferentes das funções de prova. Para obter mais informações sobre funções de prova, consulte [Visão geral das funções de prova](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
 
 >[!NOTE]
 >
@@ -29,10 +33,10 @@ Perfis de permissão de prova determinam quais permissões gerais os usuários t
 
 <!--
 <ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li> <p>Assigned profile permissions relate only to the users and items in your own account. The exception is in the case of Satellite accounts, where the Administrator and Billing Administrator for the main (hub) accounts can access and manage the&nbsp;account settings&nbsp;and billing of those accounts from the hub account level.</p> </li>
-<li> <p>Billing Administrators and Administrators can delete users. This can only be done in&nbsp;Account settings.</p> </li>
+<li> <p>Assigned profile permissions relate only to the users and items in your own account. The exception is in the case of Satellite accounts, where the Administrator and Billing Administrator for the main (hub) accounts can access and manage the account settings and billing of those accounts from the hub account level.</p> </li>
+<li> <p>Billing Administrators and Administrators can delete users. This can only be done in Account settings.</p> </li>
 <li>When Billing Administrators and Administrators view proofs that are owned by other users in their account, they view them with the role of a Reviewer.</li>
-<li>Using the Read Only role, Billing Administrators and Administrators can access proofs in folders shared with them or in folders created by them.&nbsp;</li>
+<li>Using the Read Only role, Billing Administrators and Administrators can access proofs in folders shared with them or in folders created by them. </li>
 </ul>
 -->
 
@@ -42,7 +46,9 @@ A tabela a seguir exibe as permissões disponíveis com cada Perfil de permissã
 
 <table>
   <tr>
-   <td colspan="5" ><strong>Itens próprios</strong>
+   <td colspan="1" ><strong></strong>
+   </td>
+   <td colspan="4" ><strong>Próprios itens</strong>
    </td>
    <td colspan="3" ><strong>Itens de outros usuários</strong>
    </td>
@@ -129,31 +135,11 @@ A tabela a seguir exibe as permissões disponíveis com cada Perfil de permissã
    <td>
    </td>
   </tr>
-  <tr>
-   <td>Observador
-   </td>
-   <td>
-   </td>
-   <td>x
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
 </table>
 
 ### Administrador
 
-Os administradores têm acesso ao [Configurações da conta](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) e ter as seguintes permissões:
+Os administradores têm acesso ao [Configurações da conta](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) e têm as seguintes permissões:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -167,23 +153,23 @@ Os administradores têm acesso ao [Configurações da conta](https://support.wor
    <td> 
     <ul> 
      <li> <p>Criar provas, carregar arquivos e criar pastas</p> </li> 
-     <li> <p>Exibir, editar e excluir provas e arquivos que eles criaram</p> </li> 
+     <li> <p>Exibir, editar e excluir provas e arquivos criados por eles</p> </li> 
      <li> <p>Exibir, editar e excluir provas e arquivos criados por todos os usuários na organização</p> </li> 
      <li> <p>Excluir as pastas públicas de outros usuários</p> </li> 
      <li> <p>Editar todas as provas criadas na conta</p> </li> 
-     <li> <p>Ser definido como proprietário da zona de transferência*</p> </li> 
+     <li> <p>Ser definido como o proprietário da zona de lançamento*</p> </li> 
      <li> <p>Acesse a página Configurações da conta e edite os detalhes da conta</p> </li> 
-     <li> <p>Esvaziar a lixeira</p> </li> 
+     <li> <p>Esvaziar o lixo</p> </li> 
      <li> <p>Adicionar, editar e excluir usuários</p> </li> 
      <li> <p>Criar grupos e adicionar novos contatos</p> </li> 
      <li> <p>Excluir contatos</p> </li> 
-     <li> <p>Edite provas se não houver respostas sobre elas</p> </li> 
+     <li> <p>Editar provas se não houver respostas</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Edite as respostas da prova.</p> </li> 
+     <li> <p>Editar respostas da prova.</p> </li> 
      <li> <p>Excluir as pastas privadas de outros usuários</p> </li> 
-     <li> <p>Acesse a página Faturamento ou edite os detalhes de faturamento</p> </li> 
+     <li> <p>Acessar a página Faturamento ou editar os detalhes de faturamento</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -200,28 +186,28 @@ Os supervisores têm as seguintes permissões:
  <col> 
  <tbody> 
   <tr> 
-   <td>As autoridades de supervisão podem:</td> 
-   <td>Supervisores não podem:</td> 
+   <td>Os supervisores podem:</td> 
+   <td>Os supervisores não podem:</td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
      <li> <p>Criar provas, carregar arquivos e criar pastas</p> </li> 
-     <li> <p>Exibir, editar e excluir provas e arquivos que eles criaram</p> </li> 
+     <li> <p>Exibir, editar e excluir provas e arquivos criados por eles</p> </li> 
      <li> <p>Exibir, editar e excluir provas e arquivos criados por todos os usuários na organização</p> </li> 
      <li> <p>Excluir as pastas públicas de outros usuários</p> </li> 
      <li> <p>Editar todas as provas criadas na conta</p> </li> 
      <li> <p>Criar grupos e adicionar novos contatos</p> </li> 
      <li> <p>Excluir contatos</p> </li> 
-     <li> <p>Edite provas se não houver respostas sobre elas</p> </li> 
+     <li> <p>Editar provas se não houver respostas</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Edite as respostas da prova.</p> </li> 
+     <li> <p>Editar respostas da prova.</p> </li> 
      <li> <p>Excluir as pastas privadas de outros usuários</p> </li> 
-     <li> <p>Acesse a página Faturamento ou edite os detalhes de faturamento</p> </li> 
+     <li> <p>Acessar a página Faturamento ou editar os detalhes de faturamento</p> </li> 
      <li> <p>Adicionar, editar ou excluir usuários</p> </li> 
-     <li> <p>Esvaziar a lixeira</p> </li> 
+     <li> <p>Esvaziar o lixo</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -243,19 +229,19 @@ Os gerentes têm as seguintes permissões:
    <td> 
     <ul> 
      <li> <p>Criar provas, carregar arquivos e criar pastas</p> </li> 
-     <li> <p>Exibir, editar e excluir provas e arquivos que eles criaram</p> </li> 
-     <li> <p>Ver, revisar e aprovar provas de outros usuários que são compartilhados explicitamente com eles (direitos somente leitura para tudo em uma pasta compartilhada)</p> </li> 
+     <li> <p>Exibir, editar e excluir provas e arquivos criados por eles</p> </li> 
+     <li> <p>Ver, revisar e aprovar provas de outros usuários compartilhados explicitamente com eles (direitos somente leitura para tudo em uma pasta compartilhada)</p> </li> 
      <li> <p>Editar todas as provas criadas na conta</p> </li> 
      <li> <p>Criar grupos e adicionar novos contatos</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Exibir, editar ou excluir provas e arquivos criados por outros usuários na organização. </p> <p>Edite as respostas da prova.</p> </li> 
+     <li> <p>Exiba, edite ou exclua provas e arquivos criados por outros usuários na organização. </p> </li><li><p>Editar respostas da prova.</p> </li> 
      <li> <p>Excluir as pastas privadas ou públicas de outros usuários</p> </li> 
-     <li> <p>Acesse a página Faturamento ou edite os detalhes de faturamento</p> </li> 
+     <li> <p>Acessar a página Faturamento ou editar os detalhes de faturamento</p> </li> 
      <li> <p>Adicionar, editar ou excluir usuários</p> </li> 
      <li> <p> Excluir contatos</p> </li> 
-     <li> <p>Esvaziar a lixeira</p> </li> 
+     <li> <p>Esvaziar o lixo</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -270,15 +256,15 @@ Os gerentes têm as seguintes permissões:
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/cleaner2.png">Can see, review, and approve proofs of other users that are explicitly shared with them (Read-only&nbsp;rights to everything in a shared folder). For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref">Manage Proof Roles in Workfront Proof</a>.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/cleaner2.png">Can see, review, and approve proofs of other users that are explicitly shared with them (Read-only rights to everything in a shared folder). For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref">Manage Proof Roles in Workfront Proof</a>.</p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/cleaner2.png">Can view files that are explicitly shared with them.&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/cleaner2.png">Can view files that are explicitly shared with them. </p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot&nbsp;create proofs, upload files, and create folders. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md" class="MCXref xref">Upload Files and Web Content to Workfront Proof</a>.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot create proofs, upload files, and create folders. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md" class="MCXref xref">Upload Files and Web Content to Workfront Proof</a>.</p>
 -->
 
 <!--
@@ -286,7 +272,7 @@ Os gerentes têm as seguintes permissões:
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot edit proofs&nbsp;or replies.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot edit proofs or replies.</p>
 -->
 
 <!--
@@ -294,7 +280,7 @@ Os gerentes têm as seguintes permissões:
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot access&nbsp;the Billing page or Account settings. For more information, see <a href="../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md" class="MCXref xref">The Workfront Proof Billing Page</a>&nbsp;and&nbsp;<a href="../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md" class="MCXref xref">Account settings in Workfront Proof</a>.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot access the Billing page or Account settings. For more information, see <a href="../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md" class="MCXref xref">The Workfront Proof Billing Page</a> and <a href="../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md" class="MCXref xref">Account settings in Workfront Proof</a>.</p>
 -->
 
 <!--
@@ -302,32 +288,31 @@ Os gerentes têm as seguintes permissões:
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot empty the&nbsp;trash. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md" class="MCXref xref">Restore and Empty the Trash in Workfront Proof</a>.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot empty the trash. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md" class="MCXref xref">Restore and Empty the Trash in Workfront Proof</a>.</p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot add, edit, or delete users.&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot add, edit, or delete users. </p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot create groups or add new contacts.&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot create groups or add new contacts. </p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot delete contacts.&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot delete contacts. </p>
 -->
 
 
 ><!--
-><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Menus and functions available to Observers are limited.&nbsp;</p>>
+><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Menus and functions available to Observers are limited. </p>>
 >-->
 >  <!--
 >  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the Header menu or the green New menu in their Dashboard</li>>
 >  -->
 >  <!--
->  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the following links in their Settings:&nbsp;Account settings,&nbsp;Billing </li>>
+>  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the following links in their Settings: Account settings, Billing </li>>
 >  -->
-
 
 <!--
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Guest</h3>
@@ -359,6 +344,6 @@ Os gerentes têm as seguintes permissões:
 
 <!--
 <note type="note">
-&nbsp;Guests are not Workfront Proof users, so they cannot see all the proofs shared with them in their own Dashboard.
+ Guests are not Workfront Proof users, so they cannot see all the proofs shared with them in their own Dashboard.
 </note>
 -->

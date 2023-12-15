@@ -1,34 +1,37 @@
 ---
 product-area: projects
 navigation-topic: use-predecessors
-title: Criar antecessores entre projetos
-description: Um Predecessor entre projetos é uma tarefa da qual depende outra tarefa (chamada de tarefa sucessora) em outro projeto. O antecessor é a tarefa que tem prioridade sobre a tarefa dependente (sucessor). Por exemplo, você pode criar uma dependência que requer que a tarefa antecessora seja marcada como Concluída antes que a tarefa dependente possa iniciar.
+title: Criar predecessores entre projetos
+description: Uma Predecessora entre projetos é uma tarefa da qual outra tarefa (chamada tarefa sucessora) em outro projeto depende. O predecessor é a tarefa que tem prioridade sobre a tarefa dependente (sucessora). Por exemplo, você pode criar uma dependência que exija que a tarefa predecessora seja marcada como Concluída antes que a tarefa dependente possa ser iniciada.
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
 
-# Criar antecessores entre projetos
+# Criar predecessores entre projetos
 
-Um antecessor entre projetos é uma tarefa da qual depende outra tarefa (chamada de tarefa sucessora) em outro projeto. O antecessor é a tarefa que tem prioridade sobre a tarefa dependente (sucessor). Por exemplo, você pode criar uma dependência que requer que a tarefa antecessora seja marcada como Concluída antes que a tarefa dependente possa iniciar.
+<!--Audited: 12/2023-->
 
-Assim como os antecessores em um único projeto, o Adobe Workfront permite que as tarefas sejam dependentes de tarefas em outros projetos.
+Uma predecessora entre projetos é uma tarefa da qual outra tarefa (chamada tarefa sucessora) em outro projeto depende. O predecessor é a tarefa que tem prioridade sobre a tarefa dependente (sucessora). Por exemplo, você pode criar uma dependência que exija que a tarefa predecessora seja marcada como Concluída antes que a tarefa dependente possa ser iniciada.
 
-**EXEMPLO**
+O Adobe Workfront permite que as tarefas sejam dependentes de tarefas em outros projetos, da mesma forma que permite predecessores em um único projeto.
 
-Se uma empresa escavadora tiver apenas um backhoe e dois projetos simultâneos tiverem tarefas que exigem o uso do backhoe, o gerente de projeto poderá tornar a tarefa no primeiro projeto dependente da tarefa no segundo projeto para ilustrar que a escavação pode iniciar quando o projeto anterior abdicar do backhoe.
+>[!INFO]
+>
+>Por exemplo, uma empresa de escavação tem apenas uma retroescavadeira e dois projetos têm tarefas que exigem o uso da retroescavadeira. O gerente de projeto pode tornar a tarefa no primeiro projeto uma predecessora da tarefa no segundo projeto. Isso mostra que o segundo projeto pode começar a usar a retroescavadeira quando o primeiro projeto for concluído com ela.
+
 Ao vincular projetos por meio de predecessores entre projetos, as datas do projeto principal (aquele que tem a tarefa predecessora) afetarão o projeto secundário (aquele que tem a tarefa sucessora).
 
 >[!TIP]
 >
->Você deve recalcular as linhas do tempo dos projetos para ver as datas atualizadas para o projeto secundário. Para obter mais informações sobre o recálculo de linhas do tempo, consulte [Configurar recálculos de linha do tempo para projetos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+>Você deve recalcular as linhas do tempo dos projetos para ver as datas atualizadas do projeto secundário. Para obter mais informações sobre o recálculo de linhas do tempo, consulte [Configurar recálculos de cronograma de projetos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
-Para obter mais informações sobre os relacionamentos do antecessor, consulte [Visão geral dos antecessores de tarefas](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Para obter mais informações sobre relacionamentos predecessores, consulte [Visão geral das predecessoras da tarefa](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Requisitos de acesso
 
@@ -63,25 +66,27 @@ Para obter mais informações sobre os relacionamentos do antecessor, consulte [
 </table>
 -->
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> </td> 
-  </tr> 
-  <tr> 
+ <tr> 
+  <td role="rowheader">Licença da Adobe Workfront*</td> 
+  <td> <p>Novo: Padrão </p>
+ <p>ou</p> 
+<p>Atual: Plano </p> 
+</td> 
+ </tr>   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a Tarefas e Projetos</p> <p><b>Nota</b>
+   <td> <p>Editar acesso a tarefas e projetos</p> <p><b>Nota</b>
 
-Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
+Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -90,39 +95,43 @@ Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele defi
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
-## Criar um antecessor entre projetos
+## Criar uma predecessora entre projetos
 
-1. Vá para a tarefa que será seu sucessor.
+1. Vá para a tarefa que será sua sucessora (tarefa dependente).
 1. Clique em **Predecessores** no painel esquerdo.
-1. Clique em **Adicionar antecessor.**
-1. No **Projeto pai** , comece a digitar o nome do projeto que contém a tarefa que você deseja que dependa da tarefa atual.
+1. Clique em **Adicionar predecessor.**
+1. No **Projeto pai** comece digitando o nome do projeto que contém a tarefa que você deseja que seja a predecessora da sua tarefa atual.
 1. Clique no nome quando ele aparecer na lista suspensa.
-1. No **Tarefas** , comece a digitar o nome da tarefa que deseja que dependa da tarefa atual.
-1. Especifique as seguintes informações para definir a relação entre o antecessor e a tarefa dependente:
+1. No **Tarefas** comece digitando o nome da tarefa que você deseja que seja a predecessora da tarefa atual.
+1. Especifique as seguintes informações para definir a relação entre a tarefa predecessora e a tarefa dependente:
 
-   * **Tipo de dependência:** Selecione a relação que deseja que a tarefa tenha com a tarefa dependente. O relacionamento padrão é &quot;Finish-Start&quot;, o que significa que a tarefa predecessora deve ser concluída antes que a tarefa dependente possa ser iniciada. Para obter mais informações sobre os vários tipos de dependência, consulte [Visão geral dos tipos de dependência de tarefa](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
+   * **Tipo de Dependência:** Selecione a relação que você deseja que a tarefa predecessora tenha com a tarefa dependente. A relação padrão é &quot;Término-Início&quot;, o que significa que a tarefa predecessora deve terminar antes que a tarefa dependente possa iniciar. Para obter mais informações sobre os vários tipos de dependências, consulte [Visão geral dos tipos de dependência de tarefa](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
 
-   * **Atraso:** Especifique a quantidade de tempo que deve decorrer após a conclusão de um antecessor imposto até que a tarefa dependente possa começar. Para obter mais informações sobre os vários tipos de atraso, consulte [Visão geral dos tipos de atraso](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   * **Atraso:** Especifique o tempo que deve decorrer após a conclusão de uma predecessora imposta até que a tarefa dependente possa começar. Para obter mais informações sobre os vários tipos de retardo, consulte [Visão Geral dos Tipos de Defasagem](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
-   * **Forçado:** Quando essa opção é selecionada, a relação de dependência entre as duas tarefas não pode ser contornada pelos usuários que iniciam tarefas antecipadamente. Por exemplo, se você aplicar uma relação entre a Tarefa A e a Tarefa B, a Tarefa B não poderá ser iniciada até que a Tarefa A seja concluída. Para obter mais informações sobre como impor predecessores, consulte [Impor predecessores](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
+   * **Reforçado:** Quando essa opção é selecionada, o relacionamento de dependência entre as duas tarefas não pode ser contornado pelos usuários que iniciam as tarefas antecipadamente. Por exemplo, se você impor uma relação entre a Tarefa A e a Tarefa B, a Tarefa B não poderá ser iniciada até que a Tarefa A seja concluída. Para obter mais informações sobre a imposição de predecessores, consulte [Forçar predecessores](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
-      Quando essa opção não está selecionada, a dependência é tratada como uma sugestão para os usuários. Por exemplo, os usuários podem iniciar a Tarefa B antes que a Tarefa A seja concluída.
+     Quando essa opção não está selecionada, a dependência é tratada como uma sugestão para os usuários. Por exemplo, os usuários podem iniciar a Tarefa B antes que a Tarefa A seja concluída.
 
 1. Clique em **Salvar**.
 
-   As tarefas que têm um predecessor entre projetos exibem o número de referência do projeto ao qual o predecessor pertence e o número da tarefa, separado por dois pontos na coluna Predecessores em uma lista de tarefas.
+   As tarefas com predecessoras entre projetos exibem o número de referência do projeto ao qual a predecessora pertence e o número da tarefa, separado por dois pontos, na coluna Predecessoras em uma lista de tarefas.
 
-   ![Antecessor de vários projetos](assets/cross-project-predecessor-in-list-view.png)
+   ![Predecessora entre projetos](assets/cross-project-predecessor-in-list-view.png)
 
-   O ícone antecessor fica verde quando a tarefa antecessora é marcada como concluída. Isso indica que a tarefa dependente está pronta para o trabalho.
+   O ícone predecessor fica verde quando a tarefa predecessora é marcada como concluída. Isso indica que a tarefa dependente está pronta para o trabalho.
 
-   Passe o mouse sobre esse valor para obter mais informações sobre o antecessor, o projeto e as datas. Clique no predecessor entre projetos na caixa de detalhes para abrir a tarefa. Clique em **Consulte Projeto** para abrir o projeto cruzado.
+   Passe o mouse sobre esse valor para obter mais informações sobre o predecessor, o projeto e as datas. Clique no predecessor entre projetos na caixa de detalhes para abrir a tarefa.
 
-   ![Detalhes do antecessor entre projetos](assets/cross-project-predecessor-details.png)
+   Clique próximo à parte superior da janela de flutuação para ver mais informações sobre o projeto do predecessor.
+
+   Clique em **Consulte Projeto** para abrir o projeto do antecessor.
+
+   ![Detalhes de predecessoras entre projetos](assets/cross-project-predecessor-details.png)
 
    >[!TIP]
    >
-   >   O **Consulte Projeto** é exibida somente ao visualizar um antecessor de projeto cruzado.
+   >   A variável **Consulte Projeto** é exibida somente ao visualizar um predecessor de projeto cruzado.
 
