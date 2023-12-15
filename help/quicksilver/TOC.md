@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 3361cf540b5a32cb4621b550b17253675ef43222
+source-git-commit: 62b18c06c05a2a36386bd7fb3c0e33c32b507d63
 workflow-type: tm+mt
-source-wordcount: '13793'
+source-wordcount: '13796'
 ht-degree: 0%
 
 ---
@@ -451,8 +451,8 @@ ht-degree: 0%
          * [Visualizar ambiente de sandbox](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
          * [Ambiente de sandbox de atualização personalizada](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
          * [Mover objetos de um [!DNL Workfront] ambiente para outro](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
-   * Adicionar usuários {#add-users}
-      * [Adicionar usuários ao Workfront](administration-and-setup/add-users/add-users.md)
+   * Gerenciamento de usuários {#add-users}
+      * [Gerenciamento de usuários: índice de artigos](administration-and-setup/add-users/add-users.md)
       * Criar e gerenciar usuários {#create-manage-users}
          * [Gerenciar usuários](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
          * [Adicionar usuários](administration-and-setup/add-users/create-and-manage-users/add-users.md)
@@ -1111,7 +1111,7 @@ ht-degree: 0%
          * [Criar uma prova de um ativo vinculado com o conector aprimorado](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
          * [Exibir ou baixar um ativo vinculado com o conector aprimorado](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
       * Adobe Workfront para Experience Manager Assets e Assets Essentials {#wf-aem-essentials}
-         * [Adobe Workfront para Experience Manager Assets e Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
+         * [Adobe Workfront para Experience Manager Assets e Assets Essentials: índice de artigos](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
          * [Visão geral das integrações do Adobe Experience Manager Assets](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
          * [Vincular ativos e pastas do Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
          * [Exibir metadados mapeados para Experience Manager Assets ou Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)

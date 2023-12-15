@@ -7,14 +7,16 @@ description: O Gerenciamento de Recursos permite configurar o sistema para preve
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
 
 # Introdução ao gerenciamento de recursos
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p>(NOTE: DO NOT DELETE THIS ARTICLE. MANY ARTICLES MENTIONING RES MANAGEMENT ARE AND STILL SHOULD / WILL BE LINKED TO IT.) </p>
@@ -34,7 +36,7 @@ O Workfront tem vários conjuntos de ferramentas usados para gerenciar recursos.
 
    * **O Planejador de Recursos**: Você pode usar o Planejador de recursos na primeira etapa do gerenciamento de recursos para estimar o tempo do projeto para seus recursos de acordo com a disponibilidade programada. Durante a fase de planejamento de recursos, é possível organizar usuários em conjuntos de recursos e atribuir vários conjuntos de recursos a um projeto.
 
-     Para obter mais informações sobre o Planejamento de Recursos, consulte a seção [Planejamento de recursos no Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     Para obter mais informações sobre o Planejamento de Recursos, consulte [Planejamento de recursos no Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
    * **O Planejador de cenários**: este é um planejamento de recursos de nível superior que permite gerenciá-los em várias iniciativas que podem abranger um plano de um, três ou cinco anos e incluir vários projetos. Você pode usar o melhor cenário para aproveitar ao máximo a disponibilidade e o orçamento.
 
@@ -48,7 +50,7 @@ O Workfront tem vários conjuntos de ferramentas usados para gerenciar recursos.
 
    * **O Balanceador de carga de trabalho**: pertence a um estágio de nível inferior do gerenciamento de recursos, em que você pode atribuir seus recursos ao trabalho real (tarefas e problemas) que devem ser concluídos, com base na quantidade de horas necessárias para concluí-los e sua disponibilidade. Usando o Balanceador de carga de trabalho, você pode atribuir usuários ao trabalho real que não está atribuído ou atribuído a funções de trabalho no momento.
 
-     Para obter informações sobre o Workfront Balancer, consulte a seção [O Balanceador de carga de trabalho: índice do artigo](../../resource-mgmt/workload-balancer/workload-balancer.md).
+     Para obter informações sobre o Workfront Balancer, consulte [O Balanceador de carga de trabalho: índice do artigo](../../resource-mgmt/workload-balancer/workload-balancer.md).
 
 <!--
 
@@ -165,9 +167,9 @@ Você deve atender a um conjunto de requisitos antes de usar com eficiência as 
 
 Para obter informações sobre quais são os requisitos de cada ferramenta de gerenciamento de recursos no Workfront, consulte o seguinte:
 
-* A seção &quot;Pré-requisitos para trabalhar no Planejador de recursos&quot; no artigo [Visão geral do Planejador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+* A seção [Pré-requisitos para trabalhar no Planejador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) no artigo [Visão geral do Planejador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
   <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
-* A seção &quot;Práticas recomendadas para usar o Balanceador de carga de trabalho&quot; no artigo [Visão geral do Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* A seção [Práticas recomendadas para usar o Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) no artigo [Visão geral do Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Acesso necessário para orçar recursos no Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Acesso necessário para gerenciar recursos no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 

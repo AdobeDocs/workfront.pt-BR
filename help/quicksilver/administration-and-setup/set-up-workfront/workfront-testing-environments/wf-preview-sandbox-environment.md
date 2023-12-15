@@ -5,30 +5,32 @@ product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: A variável [!DNL Adobe Workfront] Visualizar ambiente de sandbox
 description: A sandbox de visualização é um ambiente de teste que serve como uma réplica do seu ambiente ativo. Ele é atualizado todos os finais de semana pelo Workfront. Os dados adicionados ao seu ambiente ativo na sexta-feira aparecem em sua sandbox de visualização na segunda-feira seguinte. Todos os pacotes de suporte têm acesso a esta sandbox.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
+source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
 
 # A variável [!DNL Adobe Workfront] Visualizar ambiente de sandbox
 
+<!-- Audited: 12/2023 -->
+
 Existem dois ambientes de teste para [!DNL Workfront] que são réplicas do seu [!DNL Workfront] ambiente de produção:
 
 * A sandbox de visualização
 
-   A sandbox de visualização é um ambiente de teste que serve como uma réplica do seu ambiente ativo e é atualizado todos os finais de semana pela [!DNL Workfront]. Os dados adicionados ao seu ambiente ativo na sexta-feira aparecem em sua sandbox de visualização na segunda-feira seguinte.
+  A sandbox de visualização é um ambiente de teste que serve como uma réplica do seu ambiente ativo e é atualizado todos os finais de semana pela [!DNL Workfront]. Os dados adicionados ao seu ambiente ativo na sexta-feira aparecem em sua sandbox de visualização na segunda-feira seguinte.
 
-   Todos os pacotes de suporte têm acesso à sandbox de visualização.
+  Todos os pacotes de suporte têm acesso à sandbox de visualização.
 
 * A sandbox de atualização personalizada
 
-   A sandbox de atualização personalizada é um ambiente de teste separado que é atualizado manualmente por você. Há um custo adicional para obter a sandbox de atualização personalizada. Para obter mais informações sobre esse ambiente, consulte [A variável [!DNL Adobe Workfront] Ambiente de sandbox de atualização personalizada](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+  A sandbox de atualização personalizada é um ambiente de teste separado que é atualizado manualmente por você. Há um custo adicional para obter a sandbox de atualização personalizada. Para obter mais informações sobre esse ambiente, consulte [A variável [!DNL Adobe Workfront] Ambiente de sandbox de atualização personalizada](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,8 +81,6 @@ O ambiente de visualização é ideal para executar treinamentos, testar novos r
 
 Por padrão, como um [!DNL Workfront] administrador, você tem acesso ao [!UICONTROL Visualizar] Ambiente de sandbox. Se não conseguir acessar o [!UICONTROL Visualizar] Ambiente de sandbox conforme descrito nesta seção, entre em contato com o [!DNL Workfront] administrador ou nossa equipe de Suporte ao cliente.
 
-* [Acessar a sandbox de visualização no [!DNL Workfront] Interface](#accessing-the-preview-sandbox-from-the-workfront-interface)
-* [Acesso à sandbox de visualização usando um URL](#accessing-the-preview-sandbox-using-a-url)
 
 ### Acessar a sandbox de visualização no [!DNL Workfront] Interface {#accessing-the-preview-sandbox-from-the-workfront-interface}
 
@@ -100,8 +100,7 @@ Para acessar a sandbox de visualização:
 
 ### Acesso à sandbox de visualização usando um URL {#accessing-the-preview-sandbox-using-a-url}
 
-* [Acesso à sandbox de visualização para contas no cluster 1, 2, 3 e 5](#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5)
-* [Acesso à sandbox de visualização para contas no cluster 4 (contas EMEA)](#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts)
+Você pode acessar a sandbox de visualização usando um URL.
 
 #### Acesso à sandbox de visualização para contas no cluster 1, 2, 3 e 5 {#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5}
 
@@ -115,11 +114,14 @@ Para fazer logon na sandbox de visualização usando um URL:
 
 1. Navegue até este URL: `https://companyname.preview.workfront.com/`.
 
-   Se você for um cliente EMEA e sua conta estiver no Cluster 4, consulte a seção [Acesso à sandbox de visualização para contas no cluster 4 (contas EMEA)](#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts) neste artigo.
+   Se você for um cliente EMEA e sua conta estiver no Cluster 4, consulte a seção Acesso à sandbox de visualização para contas no Cluster 4 (contas EMEA) abaixo.
 
 1. Faça logon usando as credenciais de Visualização.
 
-   Suas credenciais de Visualização devem ser as mesmas que suas credenciais de produção, a menos que você as tenha alterado na Produção após a atualização da Visualização. Os logons são sincronizados somente quando ocorre uma atualização. Eles não são sincronizados automaticamente.
+   >[!TIP]
+   >
+   >Suas credenciais de Visualização devem ser as mesmas que suas credenciais de produção, a menos que você as tenha alterado na Produção após a atualização da Visualização. Os logons são sincronizados somente quando ocorre uma atualização. Eles não são sincronizados automaticamente.
+
 
 #### Acesso à sandbox de visualização para contas no cluster 4 (contas EMEA) {#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts}
 
@@ -154,7 +156,7 @@ Para obter mais informações sobre o Logon único, consulte [Visão geral do lo
 
 >[!IMPORTANT]
 >
->O procedimento descrito nesta página se aplica somente a organizações que ainda não foram integradas na [!DNL Adobe Admin Console]. Se sua organização foi integrada à [!DNL Adobe Admin Console], nenhuma ação é necessária.
+>O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas na [!DNL Adobe Admin Console]. Se sua organização foi integrada à [!DNL Adobe Admin Console], nenhuma ação é necessária.
 >
 >Para obter uma lista de procedimentos que diferem com base no fato de sua organização ter sido integrada à [!DNL Adobe Admin Console], consulte [Diferenças de administração baseadas em plataforma ([!UICONTROL Adobe Workfront]/[!UICONTROL Plataforma comercial Adobe])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
