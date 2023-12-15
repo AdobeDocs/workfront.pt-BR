@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 681d3b74eec1388f3b6cc7edf51422e0019cc318
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1696'
 ht-degree: 4%
 
 ---
@@ -89,22 +89,22 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
 
 | Tipo de objeto do Workfront | Sem acesso | Exibir acesso | Editar acesso |
 |---|---|---|---|
-| Projetos |   |   | ✓ |
-| Tarefas |   |   | ✓ |
-| Problemas |   |   | ✓ |
-| Portfólios |   |   | ✓ |
-| Programas |   |   | ✓ |
-| Relatórios (incluindo painéis e relatórios de calendário) |   |   | ✓ |
-| Filtros, visualizações e agrupamentos |   |   | ✓ |
-| Documentos |   |   | ✓ |
-| Usuários |   |   | ✓ |
-| Modelos |   |   | ✓ |
-| Dados financeiros |   |   | ✓ |
-| Gerenciamento de recursos |   |   | ✓ |
+| Projetos |   |   | ✓ µ |
+| Tarefas |   |   | ✓ µ |
+| Problemas |   |   | ✓ µ |
+| Portfólios |   |   | ✓ µ |
+| Programas |   |   | ✓ µ |
+| Relatórios (incluindo painéis e relatórios de calendário) |   |   | ✓ µ |
+| Filtros, visualizações e agrupamentos |   |   | ✓ µ |
+| Documentos |   |   | ✓ µ |
+| Usuários |   |   | ✓ µ |
+| Modelos |   |   | ✓ µ |
+| Dados financeiros |   |   | ✓ µ |
+| Gerenciamento de recursos |   |   | ✓ µ |
 | Planejador de cenários |   |   | ✓ (A configuração padrão é Sem acesso.) |
-| Quadros |   |   | ✓ |
-| Página inicial |   |   | ✓ |
-| Metas |   |   | ✓ |
+| Quadros |   |   | ✓ µ |
+| Início |   |   | ✓ µ |
+| Metas |   |   | ✓ µ |
 
 {style="table-layout:auto"}
 
@@ -150,20 +150,20 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
   <tr> 
    <td>Projetos</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Tarefas</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Problemas</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Portfólios</td> 
@@ -180,49 +180,49 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
   <tr> 
    <td>Relatórios (incluindo painéis e relatórios de calendário)</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Filtros, visualizações e agrupamentos</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Documentos</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Usuários</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
     <tr> 
    <td>Equipes</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr>
   <tr> 
    <td>Modelos</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Dados financeiros</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> <p> </p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Gerenciamento de recursos</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -235,18 +235,18 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
    <td>Quadros </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
      <tr> 
-   <td>Página inicial </td> 
+   <td>Início </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr>   
    <td>Metas </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
  </tbody> 
 </table>
 
@@ -277,23 +277,23 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
 
 | Tipo de objeto do Workfront | Sem acesso | Exibir acesso | Editar acesso |
 |---|---|---|---|
-| Projeto |   | ✓ (Somente a página Detalhes do projeto) |   |
-| Tarefa |   | ✓ (Somente a página Detalhes ) |   |
-| Problema |   |   | ✓ |
-| Portfólios | ✓ |   |   |
-| Programas | ✓ |   |   |
+| Projeto |   | ✓ µ |   |
+| Tarefa |   | ✓ µ |   |
+| Problema |   |   | ✓ µ |
+| Portfólios | ✓ µ |   |   |
+| Programas | ✓ µ |   |   |
 | Relatórios (incluindo painéis e relatórios de calendário) |   | ✓ (Somente a guia Detalhes ) |   |
-| Filtros, visualizações e agrupamentos |   |   | ✓ |
-| Documento |   |   | ✓ |
-| Usuário |   | ✓ |   |
-| Equipes |   | ✓ |   |
-| Modelo | ✓ |   |   |
-| Dados financeiros | ✓ |   |   |
-| Gerenciamento de recursos | ✓ |   |   |
-| Planejador de cenários | ✓ |   |   |
+| Filtros, visualizações e agrupamentos |   |   | ✓ µ |
+| Documento |   |   | ✓ µ |
+| Usuário |   | ✓ µ |   |
+| Equipes |   | ✓ µ |   |
+| Modelo | ✓ µ |   |   |
+| Dados financeiros | ✓ µ |   |   |
+| Gerenciamento de recursos | ✓ µ |   |   |
+| Planejador de cenários | ✓ µ |   |   |
 | Quadros |   |   | ✓ (Cartões simples) |
-| Página inicial |   | ✓ (Minhas atualizações) |   |
-| Metas |   |   | ✓ |
+| Início |   | ✓ (Minhas atualizações) |   |
+| Metas |   |   | ✓ µ |
 
 {style="table-layout:auto"}
 
@@ -321,23 +321,23 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
 
 | Tipo de objeto do Workfront | Sem acesso | Exibir acesso | Editar acesso |
 |---|---|---|---|
-| Projeto | ✓ |   |   |
-| Tarefa | ✓ |   |   |
-| Problema | ✓ |   |   |
-| Portfólios | ✓ |   |   |
-| Programas | ✓ |   |   |
+| Projeto | ✓ µ |   |   |
+| Tarefa | ✓ µ |   |   |
+| Problema | ✓ µ |   |   |
+| Portfólios | ✓ µ |   |   |
+| Programas | ✓ µ |   |   |
 | Relatórios (incluindo painéis e relatórios de calendário) |   | ✓ (Somente para relatórios de calendário; sem capacidade de compartilhar relatórios) |   |
-| Filtros, visualizações e agrupamentos | ✓ |   |   |
+| Filtros, visualizações e agrupamentos | ✓ µ |   |   |
 | Documento |   | ✓ (Sem capacidade de compartilhar documentos) |   |
-| Usuário |   | ✓ |   |
-| Equipes | ✓ |   |   |
-| Modelo | ✓ |   |   |
-| Dados financeiros | ✓ |   |   |
-| Gerenciamento de recursos | ✓ |   |   |
-| Planejador de cenários | ✓ |   |   |
-| Quadros | ✓ |   |   |
-| Página inicial | ✓ |   |   |
-| Metas | ✓ |   |   |
+| Usuário |   | ✓ µ |   |
+| Equipes | ✓ µ |   |   |
+| Modelo | ✓ µ |   |   |
+| Dados financeiros | ✓ µ |   |   |
+| Gerenciamento de recursos | ✓ µ |   |   |
+| Planejador de cenários | ✓ µ |   |   |
+| Quadros | ✓ µ |   |   |
+| Início | ✓ µ |   |   |
+| Metas | ✓ µ |   |   |
 
 
 ## Como os níveis de acesso e as permissões funcionam juntos
@@ -360,19 +360,19 @@ A tabela a seguir compara o acesso geral de um usuário a objetos (definido pelo
  <tbody> 
   <tr> 
    <td>Concedido por um administrador do Workfront no nível de acesso de um usuário</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Concedido por um usuário que compartilha um objeto no nível do objeto</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td> <p>Herdado de um objeto compartilhado de classificação mais alta 
    </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
   </tr> 
  </tbody> 
 </table>

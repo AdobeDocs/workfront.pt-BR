@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 62b18c06c05a2a36386bd7fb3c0e33c32b507d63
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '13796'
+source-wordcount: '13812'
 ht-degree: 0%
 
 ---
@@ -1132,9 +1132,9 @@ ht-degree: 0%
 * Gerenciar trabalho {#manage-work}
    * [Gerenciar trabalho](manage-work/manage-work.md)
    * Projetos {#projects}
-      * [Projetos](manage-work/projects/projects-overview.md)
+      * [Projetos: índice do artigo](manage-work/projects/projects-overview.md)
       * Planejar um projeto {#plan-a-project}
-         * [Planejar um projeto](manage-work/projects/planning-a-project/plan-project-overview.md)
+         * [Planejar um projeto: índice do artigo](manage-work/projects/planning-a-project/plan-project-overview.md)
          * [Planejar uma visão geral do projeto](manage-work/projects/planning-a-project/plan-project.md)
          * [Determinar a estrutura do detalhamento do trabalho em um projeto](manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
          * [Visão geral da equipe do projeto](manage-work/projects/planning-a-project/project-team-overview.md)
@@ -1155,14 +1155,14 @@ ht-degree: 0%
          * [Visão geral do status de progresso do projeto](manage-work/projects/planning-a-project/project-progress-status.md)
          * [Visão Geral da Data de Início Projetada do projeto](manage-work/projects/planning-a-project/project-projected-start-date.md)
       * Criar projetos {#create-projects}
-         * [Criar projetos](manage-work/projects/create-projects/create-projects-overview.md)
+         * [Criar projetos: índice do artigo](manage-work/projects/create-projects/create-projects-overview.md)
          * [Criar um Projeto](manage-work/projects/create-projects/create-project.md)
          * [Solicitar um projeto](manage-work/projects/create-projects/request-project.md)
          * [Criar um projeto usando um modelo](manage-work/projects/create-projects/create-project-from-template.md)
          * [Importar um projeto do Microsoft Project](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [Criar linhas de base do projeto](manage-work/projects/create-projects/create-baselines.md)
       * Atualizar trabalho em um projeto {#update-work-on-a-project}
-         * [Atualizar trabalho em um projeto](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
+         * [Atualizar trabalho em um projeto: índice do artigo](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [Aplicar status a trabalhos associados a grupos](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
          * [Atualizar status da tarefa](manage-work/projects/updating-work-in-a-project/update-task-status.md)
          * [Atualizar status do problema](manage-work/projects/updating-work-in-a-project/update-issue-status.md)
@@ -1173,7 +1173,7 @@ ht-degree: 0%
          * [Atualizar condição para tarefas e problemas](manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)
          * [Atualizar condição de um projeto](manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
       * Gerenciar projetos {#manage-projects}
-         * [Gerenciar projetos](manage-work/projects/manage-projects/manage-projects-overview.md)
+         * [Gerenciar projetos: índice do artigo](manage-work/projects/manage-projects/manage-projects-overview.md)
          * [Editar projetos](manage-work/projects/manage-projects/edit-projects.md)
          * [Copiar um projeto](manage-work/projects/manage-projects/copy-project.md)
          * [Salvar um projeto como modelo](manage-work/projects/manage-projects/save-project-as-template.md)
@@ -1195,7 +1195,7 @@ ht-degree: 0%
          * [Visão geral das métricas do projeto](manage-work/projects/manage-projects/project-metrics.md)
          * [Visão geral dos limites do projeto](manage-work/projects/manage-projects/project-maximums.md)
       * Criar e gerenciar modelos de projeto {#create-and-manage-project-templates}
-         * [Criar e gerenciar modelos de projeto](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
+         * [Criar e gerenciar modelos de projeto: índice do artigo](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
          * [Visão geral do modelo de projeto](manage-work/projects/create-and-manage-templates/project-template-overview.md)
          * [Criar um modelo de projeto](manage-work/projects/create-and-manage-templates/create-template.md)
          * [Criar modelos de projeto a partir de exemplos](manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
@@ -1212,7 +1212,7 @@ ht-degree: 0%
          * [Visão Geral dos Dias de Início e Término em um modelo](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
          * [Visão geral da anexação de um modelo a um projeto](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
       * Definir um Business Case {#define-business-case}
-         * [Definir um Business Case](manage-work/projects/define-a-business-case/define-business-case.md)
+         * [Definir um Business Case: índice do artigo](manage-work/projects/define-a-business-case/define-business-case.md)
          * [Visão geral das áreas do business case](manage-work/projects/define-a-business-case/areas-of-business-case.md)
          * [Criar um Business Case para um projeto](manage-work/projects/define-a-business-case/create-business-case.md)
          * [Aprovar um Business Case](manage-work/projects/define-a-business-case/approve-business-case.md)
@@ -1226,7 +1226,7 @@ ht-degree: 0%
          * [Criar e editar riscos em projetos](manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
          * [Exportar o Business Case de um projeto](manage-work/projects/define-a-business-case/export-business-case.md)
       * Finanças do projeto {#project-finances}
-         * [Finanças do projeto](manage-work/projects/project-finances/project-finances-overview.md)
+         * [Finanças do projeto: índice de artigos](manage-work/projects/project-finances/project-finances-overview.md)
          * [Campos de finanças do projeto](manage-work/projects/project-finances/project-finances-overview-1.md)
          * [Recalcular as finanças do projeto](manage-work/projects/project-finances/recalculate-project-finances.md)
          * [Finanças do projeto incluídas nas linhas de base do projeto](manage-work/projects/project-finances/project-finances-included-in-project-baselines.md)
@@ -1255,7 +1255,7 @@ ht-degree: 0%
          * [Entender o custo do trabalho orçado e as horas orçadas dos projetos](manage-work/projects/project-finances/budgeted-labor-cost.md)
          * [Calcular Custo de Trabalho Planejado](manage-work/projects/project-finances/planned-labor-cost.md)
       * Dicas, truques e solução de problemas para projetos {#tips-tricks-troubleshooting-for-projects}
-         * [Dicas, truques e solução de problemas para projetos](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
+         * [Dicas, truques e solução de problemas: índice do artigo](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
          * [Perguntas frequentes de Projetos](manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
          * [O status do projeto não será alterado de Concluído para Atual](manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
          * [Exemplo de cálculo - Calcular EAC como um acúmulo a partir de tarefas](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)

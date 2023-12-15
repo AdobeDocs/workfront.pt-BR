@@ -6,9 +6,9 @@ description: Definir uma Estrutura de divisão de trabalho (WBS) para um projeto
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1750'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Para obter informações sobre como agendar recursos, consulte os artigos no [O 
 
 A Workfront calculará os custos planejados para cada tarefa e os custos gerais de um projeto. Os custos planejados de uma tarefa incluem todas as despesas da tarefa mais o custo do funcionário ou da função atribuída à tarefa. Taxas por hora para a tarefa, função e funcionário são atribuídas durante a tarefa, função e criação de usuário.
 
-Para obter informações sobre as finanças do projeto, consulte a seção [Finanças do projeto](../../../manage-work/projects/project-finances/project-finances-overview.md) .
+Para obter informações sobre as finanças do projeto, consulte a seção [Finanças do projeto: índice de artigos](../../../manage-work/projects/project-finances/project-finances-overview.md).
 
 ## Determinar pontos de aprovação para o projeto
 
