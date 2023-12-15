@@ -6,7 +6,7 @@ description: A nova Página inicial é um novo recurso poderoso para gerenciar s
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 8%
@@ -14,6 +14,8 @@ ht-degree: 8%
 ---
 
 # Introdução à nova Página inicial
+
+<!--Audited: 12/2023-->
 
 A nova experiência da Página inicial no Adobe Workfront tem como objetivo melhorar a experiência atual da Página inicial, fornecendo uma maneira mais flexível de se concentrar no trabalho certo.
 

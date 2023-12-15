@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '2780'
 ht-degree: 6%
@@ -17,6 +17,8 @@ ht-degree: 6%
 ---
 
 # Importar dados para o Adobe Workfront usando um modelo do Kickstart
+
+<!--Audited: 12/2023-->
 
 Kickstarts são pastas de trabalho do Excel especialmente formatadas que você pode preencher com dados que deseja importar para o Workfront. O Adobe Workfront fornece um modelo de Início que você pode usar para fazer isso, conforme explicado em [Importador de dados Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
 

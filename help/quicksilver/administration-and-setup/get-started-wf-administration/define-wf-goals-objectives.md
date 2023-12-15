@@ -9,7 +9,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1b425244-e3f3-45a0-8ba1-5fbc7b339c85
-source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
@@ -17,6 +17,8 @@ ht-degree: 0%
 ---
 
 # Visão geral da definição de objetivos para sua implementação do Adobe Workfront
+
+<!--Audited: 12/2023-->
 
 Ao implementar o Adobe Workfront, é importante identificar os princípios de seus critérios de sucesso. Talvez você queira fazer a si mesmo as seguintes perguntas:
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2307'
 ht-degree: 3%
 
 ---
@@ -140,13 +140,13 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
      >[!TIP]
      >
-     >* O campo Nome é sempre o primeiro campo na exibição em tabela.
+     >* Por padrão, o campo Nome é sempre o primeiro campo na exibição de tabela. Este é considerado um campo primário.
      >
-     >* Não é possível mover o campo Nome para outra posição.
+     >* Não é possível mover o campo Nome para outra posição, a menos que você designe outro campo como o principal. Para obter mais informações, continue com a Etapa 4. <!--accurate?-->
      >
-     >* Não é possível ocultar o campo Nome.
+     >* Não é possível ocultar ou excluir um campo principal.
      >
-     >* O campo Nome está congelado e não faz parte da rolagem horizontal.
+     >* O campo principal está congelado e não faz parte da rolagem horizontal.
 
    * Substitua o campo na primeira coluna por outro campo alterando o campo primário. Para obter mais informações, continue para a etapa 4. <!--accurate?-->
 
@@ -197,11 +197,13 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
 1. Faça o seguinte para localizar rapidamente registros que correspondam a uma palavra-chave:
 
-   1. Clique em **pesquisa** ícone ![](assets/search-icon.png) e comece a digitar uma palavra-chave associada a qualquer campo de um registro exibido na tela. O número de correspondências corretas é exibido ao lado do item de pesquisa e o campo com a correspondência correta é realçado em azul.
+   1. Clique em **pesquisa** ícone ![](assets/search-icon.png) e comece a digitar uma palavra-chave associada a qualquer campo de um registro exibido na tela. O número de correspondências corretas é exibido ao lado do item de pesquisa e o campo com a correspondência correta é realçado.
 
       Você pode usar qualquer palavra ou caractere especial visível na tela.
 
       Não é possível usar palavras-chave associadas a campos ocultos na exibição de tabela.
+
+      Pressionar Enter no teclado leva você ao próximo campo encontrado.
 
       ![](assets/search-box-with-results-blue-outline-table-view.png)
 

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 1%
+source-wordcount: '406'
+ht-degree: 0%
 
 ---
 
@@ -45,9 +45,9 @@ Você pode excluir campos Maestri que não são mais relevantes.
 
 ## Considerações sobre a exclusão de campos Maestri:
 
+* É possível excluir um campo somente na exibição de tabela do tipo de registro.
 * É possível excluir campos criados ou campos criados por outros usuários ou pelo sistema. <!--this will change with access levels/ permissions-->
-* Não é possível excluir o campo Nome de um registro. <!--change this to say you can't delete the field selected to be the primary-->
-* É possível excluir um campo somente na tabela do tipo de registro.
+* Não é possível excluir o campo principal de um registro.
 * As informações armazenadas no campo são excluídas e não podem ser recuperadas.
 * Quando você exclui um campo de registro vinculado, todos os campos de pesquisa vinculados também são excluídos do tipo de registro que você vincula. Os campos de registro vinculados dos tipos de registro vinculados não são excluídos.
 
@@ -74,19 +74,19 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr>
    <td role="rowheader"><p>plano do Adobe Workfront</p></td>
    <td>
-<p>Qualquer Um</p>
+<p>Qualquer</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td>
    <td>
-   <p>Qualquer Um</p> 
+   <p>Qualquer</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Nível de acesso</td>
-   <td> <p>Qualquer Um</p>  
+   <td> <p>Qualquer</p>  
 </td>
   </tr>
 <tr>

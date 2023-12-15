@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 92e8b9949f13536b3464922a93fafcb74688d916
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ Todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
    >[!NOTE]
    >
-   >  * O campo Nome não é obrigatório. No entanto, recomendamos que você adicione um nome para o registro, pois é útil para identificar registros ao vincular registros uns aos outros.
+   >  * Não há campos obrigatórios para registros. No entanto, recomendamos adicionar um Nome para o registro, pois é útil identificar registros ao vincular registros uns aos outros.
    >
    >  * Os campos que se referem a outros tipos de registro ou campos calculados são campos somente leitura.
 

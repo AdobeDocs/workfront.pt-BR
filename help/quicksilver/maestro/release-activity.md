@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '2629'
+source-wordcount: '2698'
 ht-degree: 0%
 
 ---
@@ -98,25 +98,34 @@ Com essa melhoria, observe o seguinte:
 Para obter mais informações, consulte [Gerenciar exibição de tabela](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
 
-### Conectar registros do Maestri com ativos do Adobe Experience Manager (AEM)
+### Conectar registros do Maestri com o Adobe Experience Manager Assets
 
 Versão de pré-visualização: 14 de dezembro de 2023
 
 Versão de produção: 15 de dezembro de 2023
 
-Agora você pode estabelecer uma conexão entre os tipos de registro Maestro e os ativos do Adobe Experience Manager.
+>[!IMPORTANT]
+>
+>A instância da Workfront de sua organização deve ser integrada à Plataforma de negócios Adobe ou à Adobe Admin Console para poder conectar os registros Maestri à Adobe Experience Manager Assets.
+>
+>Em caso de dúvidas sobre a integração com a Adobe Admin Console, consulte [Perguntas frequentes sobre a experiência unificada do Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+
+
+Agora você pode estabelecer uma conexão entre os tipos de registros Maestro e Adobe Experience Manager Assets.
 
 Após estabelecer a conexão, a seguinte funcionalidade estará disponível com esta atualização:
 
-* Os usuários do Maestro podem vincular ativos, pastas ou coleções do AEM a um registro do Maestro de um repositório específico no AEM ao qual eles têm acesso
+* Você pode vincular ativos e pastas do Experience Manager a um registro Maestro de um repositório específico no Experience Manager Assets ao qual eles têm acesso. Você pode conectar campos de ativos a campos Principais neste processo.
 
-* Os usuários do Maestro podem visualizar todos os ativos conectados no Maestro depois que eles estiverem conectados aos registros.
+* Os usuários do Maestro podem exibir o nome dos ativos conectados, bem como os valores dos campos conectados no Maestro
 
-* Um tipo de registro Experience Manager Assets é criado automaticamente no Maestro após você estabelecer a conexão. Os ativos conectados são visíveis na tabela Maestro e nas visualizações de linha do tempo desse novo tipo de registro.
+<!--removed per PM, for now: 
+* An Experience Manager Assets record type is automatically created in Maestro after you establish the connection. Connected assets are visible in the Maestro table and timeline views of this new record type.  
+-->
 
-* Você pode exibir informações de ativos de AEM na tabela de registros do Maestro de onde está se conectando.
+* Você pode clicar no nome do ativo na exibição de tabela do registro Mestre no campo de registro conectado e exibir uma janela pop-up com a miniatura do ativo e vários campos-chave. Na janela pop-up, você pode navegar até o visualizador de ativos no Experience Manager e visualizar todos os detalhes sobre ele.
 
-Para obter mais informações, consulte [Conectar tipos de registro](/help/quicksilver/maestro/architecture/connect-record-types.md)
+Para obter mais informações, consulte [Conectar tipos de registro](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
 ## Semana de 4 de dezembro de 2023
 

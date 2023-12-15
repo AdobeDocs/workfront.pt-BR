@@ -4,9 +4,10 @@ description: Você pode adicionar novos campos no Adobe Maestri que refletem o c
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '541'
 ht-degree: 2%
 
 ---
@@ -55,9 +56,9 @@ Você pode adicionar novos campos no Adobe Maestri que refletem o ciclo de vida 
 
 * Você pode criar campos manual ou automaticamente das seguintes maneiras:
 
-   * Manual:
+   * Manualmente:
 
-      * Adicionando colunas na visualização Tabela de uma página do tipo registro. As colunas da tabela são os campos associados ao tipo de registro. São os mesmos campos exibidos na página Detalhes de um registro.
+      * Adicionando colunas na exibição de tabela de uma página do tipo registro. As colunas da tabela são os campos associados ao tipo de registro. São os mesmos campos exibidos na página Detalhes de um registro.
 
         Não é possível criar campos a partir da página Detalhes de um registro.
 
