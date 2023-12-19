@@ -1,40 +1,42 @@
 ---
 title: Gerenciar comentários de registro
-description: Você pode colaborar em registros Adobe Maestro, adicionando atualizações e fazendo perguntas ou respostas na área Comentários de um registro.
+description: É possível colaborar em registros Adobe Maestro, adicionando comentários ou respostas na área Comentários de um registro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
 
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
-
 # Gerenciar comentários de registro
 
-Você pode colaborar em registros Adobe Maestro, adicionando atualizações e fazendo perguntas ou respostas na área Comentários de um registro.
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
+
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. </span>
+
+<span class="preview">Para obter informações sobre a programação de lançamento atual, consulte [Visão geral da versão do primeiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+É possível colaborar em registros Adobe Maestro, adicionando comentários ou respostas na área Comentários de um registro.
 
 ## Considerações sobre comentários em um registro
 
 * Você pode adicionar comentários e respostas a registros operacionais e taxonomias no Maestro, na seção Comentários de um registro.
 
-* Comentários adicionados aos registros vinculados não são exibidos nos registros a partir dos quais você está vinculando. Por exemplo, se você comentar em um Projeto vinculado a um registro de Campanha, o comentário será exibido somente no registro do projeto no Maestro e não no registro da campanha a partir do qual você está vinculando.
+* Comentários adicionados aos registros vinculados não são exibidos nos registros a partir dos quais você está vinculando. Por exemplo, se você comentar em um registro de Produto Maestro que esteja vinculado a um registro de Campanha, o comentário será exibido somente no registro de Produto no Maestro e não no registro de Campanha do qual você está vinculando.
 
-* Comentários adicionados a objetos vinculados em outras aplicações não são exibidos no Maestro.
-Comentários adicionados a objetos vinculados no Maestro não são exibidos em outras aplicações.\
-  Por exemplo, comentários adicionados a projetos no Workfront não são exibidos no mesmo projeto vinculado a uma campanha no Maestro.
+* Você pode adicionar comentários aos registros do Maestro criados como resultado de uma conexão entre um registro do Maestro e um objeto de outro aplicativo.
 
-* É possível marcar os usuários para chamar a atenção deles para uma atualização. Os usuários marcados não recebem uma notificação no aplicativo nem um email sobre a atualização. Não é possível marcar equipes em um comentário Maestro.
+  Por exemplo, você pode comentar no registro Projeto Maestro depois de conectar projetos Workfront com registros Maestro. Para obter mais informações, consulte [Conectar registros](/help/quicksilver/maestro/records/connect-records.md).
 
-  >[!TIP]
-  >
-  >* Os proprietários de comentários não são marcados automaticamente em uma atualização.
-  >
-  >* Não é possível remover usuários marcados de uma atualização ao responder a ela.
+* Comentários adicionados a objetos vinculados em outras aplicações não são exibidos no Maestro e comentários adicionados a objetos vinculados no Maestro não são exibidos em outras aplicações.
+
+  Por exemplo, comentários adicionados a projetos no Workfront não são exibidos no mesmo projeto vinculado a uma campanha no Maestro, e comentários adicionados ao projeto no registro Maestro não são exibidos no Workfront.
+
+* É possível marcar os usuários para chamar a atenção deles para uma atualização. Os usuários marcados não recebem uma notificação no aplicativo nem um email sobre a atualização. <!--this might change??-->
 
 * Você pode adicionar uma atualização aos registros das seguintes áreas do Maestro:
 
@@ -140,27 +142,15 @@ After permissions - replace the table with: **************CHECK ON THE VIEW PERM
 
 -->
 
-
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
-
 ### Gerenciar comentários nos registros
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](assets/dots-main-menu.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](assets/lines-main-menu.png) no canto superior esquerdo e clique em **[!UICONTROL Maestro]**.
+{{step1-to-maestro}}
 
-   O último espaço de trabalho acessado é aberto por padrão.
+O último espaço de trabalho acessado é aberto por padrão.
 1. Escolha uma exibição de tabela na **Exibir** menu suspenso.
 1. Clique no nome de um registro na exibição de tabela.
 
-   O registro **Detalhes** é aberta.
+   O registro **Detalhes** é aberta. A área Comentários é aberta por padrão no painel direito.
 
 1. Comece a inserir um comentário no **Novo comentário** caixa.
 
@@ -197,9 +187,9 @@ After permissions - replace the table with: **************CHECK ON THE VIEW PERM
    >
    >Os comentários do ano atual não exibem o ano no carimbo de data. Passar o mouse sobre um carimbo de data e hora exibe a data completa, incluindo o ano.
 
-1. (Opcional e condicional) Para pesquisar um comentário existente, comece digitando uma palavra-chave na caixa de pesquisa no canto superior direito do **Comentários** área.
+1. <span class="preview">(Opcional e condicional) Para pesquisar um comentário existente, comece digitando uma palavra-chave na caixa de pesquisa no canto superior direito do **Comentários** área.</span>
 
-   ![](assets/search-box-for-comments-area.png)
+   <span class="preview">![](assets/search-box-for-comments-area.png)</span>
 
 1. (Opcional) Clique em **Responder** ou comece a digitar um comentário no campo **Adicionar resposta...** para responder a um comentário existente, siga as etapas 4 a 8 acima. <!--(**************accurate??***********)-->
 

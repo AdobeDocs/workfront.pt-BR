@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ Para uma visão geral do Adobe Maestro, acesse os seguintes artigos:
 
 As seções seguintes contêm artigos que descrevem em detalhes as características do Maestro atualmente disponíveis:
 
-* [Acessar informações](../maestro/access/access-information.md): Informações sobre o acesso e as permissões necessárias para usar o Adobe Maestri.
-* [Informações de arquitetura](../maestro/architecture/architecture-information.md): Informações detalhadas sobre a arquitetura do Adobe Maestro, com instruções passo a passo sobre como criar e gerenciar espaços de trabalho e tipos de registros.
-* [Informações de campos](../maestro/fields/fields-information.md): informações detalhadas e instruções passo a passo sobre a criação de campos personalizados para tipos de registros Maestri.
-* [Informações de registros](../maestro/records/records-information.md): informações detalhadas e instruções passo a passo sobre como criar e gerenciar registros.
-* [Informações de exibições](../maestro/views/views-information.md): informações detalhadas sobre as exibições Maestri e como gerenciá-las ao visualizar registros em uma página do tipo de registro.
+* [Acesso: índice do artigo](../maestro/access/access-information.md): Informações sobre o acesso e as permissões necessárias para usar o Adobe Maestri.
+* [Arquitetura: índice de artigos](../maestro/architecture/architecture-information.md): Informações detalhadas sobre a arquitetura do Adobe Maestro, com instruções passo a passo sobre como criar e gerenciar espaços de trabalho e tipos de registros.
+* [Campos: índice do artigo](../maestro/fields/fields-information.md): informações detalhadas e instruções passo a passo sobre a criação de campos personalizados para tipos de registros Maestri.
+* [Registros: índice do artigo](../maestro/records/records-information.md): informações detalhadas e instruções passo a passo sobre como criar e gerenciar registros.
+* [Visualizações: índice do artigo](../maestro/views/views-information.md): informações detalhadas sobre as exibições Maestri e como gerenciá-las ao visualizar registros em uma página do tipo de registro.

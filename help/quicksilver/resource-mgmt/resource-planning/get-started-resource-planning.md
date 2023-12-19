@@ -3,13 +3,13 @@ content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
 title: Introdução ao planejamento de recursos
-description: Você pode usar as ferramentas de planejamento de recursos para gerenciar suas funções, sua disponibilidade e alocação geral para projetos com base nessa disponibilidade.
+description: Você pode usar as ferramentas de planejamento de recursos para gerenciar suas funções de trabalho, sua disponibilidade e alocação geral para projetos com base nessa disponibilidade.
 author: Alina
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -23,49 +23,49 @@ ht-degree: 0%
 </div>
 -->
 
-Você pode usar as ferramentas de Gerenciamento de Recursos do Adobe Workfront para prever a alocação de seus recursos, de modo que saiba com precisão se seus projetos são entregues a tempo e no orçamento. Para obter uma visão geral do Gerenciamento de recursos no Workfront, consulte [Introdução ao Gerenciamento de recursos](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+Você pode usar as ferramentas do Adobe Workfront Resource Management para prever a alocação dos recursos para saber com precisão se os projetos são entregues no prazo e dentro do orçamento. Para obter uma visão geral do Gerenciamento de recursos no Workfront, consulte [Introdução ao gerenciamento de recursos](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
-Você pode usar as ferramentas de planejamento de recursos para gerenciar suas funções, sua disponibilidade e alocação geral para projetos com base nessa disponibilidade.
+Você pode usar as ferramentas de planejamento de recursos para gerenciar suas funções de trabalho, sua disponibilidade e alocação geral para projetos com base nessa disponibilidade.
 
-A afetação geral dos utilizadores do orçamento aos projetos não os atribui ao trabalho real (tarefas e emissões). Você deve atribuir seus recursos para trabalhar usando o Balanceador de Carga de Trabalho.
+Orçar a alocação geral dos usuários para projetos não os atribui ao trabalho real (tarefas e problemas). Você deve atribuir seus recursos para trabalhar usando o Balanceador de carga de trabalho.
 
-Para obter mais informações sobre como programar recursos no Workfront usando o Balanceador de Carga de Trabalho, consulte [Visão Geral do Balanceador de Carga de Trabalho](../workload-balancer/overview-workload-balancer.md).
+Para obter mais informações sobre como agendar recursos no Workfront usando o Balanceador de carga de trabalho, consulte [Visão geral do Balanceador de carga de trabalho](../workload-balancer/overview-workload-balancer.md).
 
 ## Ferramentas de planejamento de recursos no Workfront
 
-Para orçar tempo para os recursos dos projetos que você planeja atribuir, você pode usar as seguintes ferramentas:
+Para prever o tempo dos recursos para os projetos aos quais você planeja atribuí-los, use as seguintes ferramentas:
 
-* Para alocações de orçamento e priorizar vários projetos no nível do sistema: use o Planejador de recursos no nível do sistema.
+* Para alocações de orçamento e priorizar vários projetos no nível do sistema: use o Planejador de Recursos no nível do sistema.
 
-   Você pode acessar o Planejador de Recursos indo até a seção Planejador na área Recursos.
+  Você pode acessar o Planejador de recursos na seção Planejador na área Recursos.
 
-   Para obter informações sobre o Planejador de Recursos, consulte [Visão geral do Planejador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  Para obter informações sobre o Planejador de recursos, consulte [Visão geral do Planejador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-* Para alocações de orçamento para um único projeto: use o Planejador de Recursos no nível do projeto na área Orçamento de Recursos do Caso de Negócios de um projeto. Para obter informações sobre como orçar recursos de um projeto, consulte o artigo [Recursos orçamentários no Caso de Negócios](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+* Para alocações de orçamento para um único projeto: use o Planejador de Recursos no nível do projeto na área Orçamento de Recursos do Business Case de um projeto. Para obter informações sobre como orçar recursos para um projeto, consulte o artigo [Recursos de orçamento no Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-   Para gerenciar usuários e organizá-los em pools com base em habilidades comuns ou estrutura departamental e, em seguida, gerenciar suas alocações para os projetos aos quais eles estão atribuídos, você deve criar pools de recursos. Para obter mais informações sobre a criação de pools de recursos, consulte [Criar pools de recursos](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+  Para gerenciar usuários e organizá-los em grupos com base em habilidades comuns ou estrutura departamental e, em seguida, gerenciar suas alocações para os projetos aos quais estão atribuídos, você deve criar conjuntos de recursos. Para obter mais informações sobre a criação de conjuntos de recursos, consulte [Criar conjuntos de recursos](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
-   >[!TIP]
-   >
-   >A área de Orçamento de Recursos de um projeto é o Planejador de Recursos no nível do projeto. Ao orçar recursos no Caso de negócios de um projeto, as informações também são refletidas no Planejador de Recursos no nível do sistema.
+  >[!TIP]
+  >
+  >A área de orçamento de recursos de um projeto é o Planejador de recursos no nível do projeto. Quando você faz o orçamento de recursos no Business Case de um projeto, as informações também são refletidas no Planejador de Recursos no nível do sistema.
 
-* Para gerenciar recursos em alto nível, em várias iniciativas e alinhar seu trabalho à estratégia de sua organização, use o Adobe Workfront Scenario Planner. O Planejador de Cenário requer uma licença adicional. Para obter informações sobre o Planejador de Cenário do Workfront, consulte [A visão geral do Planejador de cenário](../../scenario-planner/scenario-planner-overview.md).
+* Para gerenciar recursos em alto nível, em várias iniciativas e alinhar seu trabalho com a estratégia de sua organização, use o Planejador de cenários do Adobe Workfront. O Planejador de cenários requer uma licença adicional. Para obter informações sobre o Planejador de cenários do Workfront, consulte [A visão geral do Planejador de cenários](../../scenario-planner/scenario-planner-overview.md).
 
-   Você pode usar o Planejador de Recursos no nível do sistema, em vários projetos, bem como para orçar recursos para um único projeto na área de Orçamento de Recursos do caso comercial. Para obter mais informações sobre como orçar recursos de um projeto no caso comercial, consulte [Recursos orçamentários no Caso de Negócios](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+  Você pode usar o Planejador de recursos no nível do sistema, em vários projetos, bem como para fazer o orçamento de recursos para um único projeto na área Orçamento de recursos do business case. Para obter mais informações sobre recursos de orçamento para um projeto no business case, consulte [Recursos de orçamento no Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 ## A finalidade das ferramentas de planejamento de recursos
 
-* Usando o Planejador de Recursos, você pode fazer o seguinte:
+* Usando o Planejador de recursos, você pode fazer o seguinte:
 
-   * Priorize seus projetos para decidir quais projetos devem receber recursos primeiro. (Somente no Planejador de Recursos)
-   * Entenda a disponibilidade de seus recursos com base no cronograma dos usuários.
-   * Hora do orçamento, FTE ou alocações de custo para seus recursos (usuários e funções de trabalho) para os projetos aos quais eles são atribuídos.
+   * Priorize seus projetos para decidir quais projetos devem receber recursos primeiro. (Somente no Planejador de recursos)
+   * Entenda a disponibilidade de seus recursos com base no agendamento de seus usuários.
+   * Hora do orçamento, FTE ou alocações de custo para os recursos (usuários e funções de trabalho) dos projetos aos quais estão atribuídos.
 
-   Para obter informações sobre como trabalhar no Planejador de Recursos, consulte o artigo [Visão geral do Planejador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  Para obter informações sobre como trabalhar com o Planejador de recursos, consulte o artigo [Visão geral do Planejador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-* Usando o Planejador de Cenário, você pode criar planos de nível empresarial em várias iniciativas que descrevem os resultados estratégicos gerais de sua empresa. Para obter mais informações, consulte [Introdução ao Planejador de cenário](../../scenario-planner/get-started-with-scenario-planning.md).
+* Usando o Planejador de cenários, você pode criar planos de nível empresarial em várias iniciativas que descrevem os resultados estratégicos gerais de sua empresa. Para obter mais informações, consulte [Introdução ao Scenario Planner](../../scenario-planner/get-started-with-scenario-planning.md).
 
-   O Planejador de Cenário requer uma licença adicional. Para obter informações sobre o Planejador de Cenário do Workfront, consulte [A visão geral do Planejador de cenário](../../scenario-planner/scenario-planner-overview.md).
+  O Planejador de cenários requer uma licença adicional. Para obter informações sobre o Planejador de cenários do Workfront, consulte [A visão geral do Planejador de cenários](../../scenario-planner/scenario-planner-overview.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Prerequisites for resource planning</h2>

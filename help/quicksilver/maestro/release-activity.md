@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2796'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,31 @@ Only Workfront administrators can create, edit, or delete workspaces and all inf
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
-## Semana de 18 de dezembro de 2023
+## Semana de 18 de dezembro de 2024
+
+### Adicionar comentários nos registros da página Detalhes
+
+Pré-visualização e produção para todos os clientes: 18 de dezembro de 2023
+
+>[!NOTE]
+>
+>Os seguintes recursos estarão disponíveis na Produção com a versão de janeiro de 2024:
+>
+>* Pesquisar comentários
+>
+>* Copiar e colar imagens
+>
+>* Arrastar e soltar imagens
+>
+>Para obter mais informações, consulte [Visão geral da versão do primeiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+Agora é possível colaborar com outras pessoas em registros individuais adicionando comentários ou respondendo a outras pessoas ao visualizar um registro na página Detalhes.
+
+A experiência de comentários para registros do Maestro corresponde à nova experiência de comentários para objetos do Workfront.
+
+Para obter mais informações, consulte [Gerenciar comentários de registro](/help/quicksilver/maestro/records/manage-record-comments.md).
+
+## Semana de 11 de dezembro de 2023
 
 ### Atualizar o campo principal em uma exibição de tabela de um tipo de registro
 
@@ -102,7 +126,7 @@ Para obter mais informações, consulte [Gerenciar exibição de tabela](/help/q
 
 Versão de pré-visualização: 14 de dezembro de 2023
 
-Versão de produção: 15 de dezembro de 2023
+Versão de produção: planejado para 15 de dezembro de 2023
 
 >[!IMPORTANT]
 >

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 81a5c0e3bc3b31223b0d584d4d20399cd0081d9d
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '3396'
+source-wordcount: '3369'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
    <li><b>Mostrar o percentual concluído em atualização de status</b>: marque esta opção se desejar exibir uma barra de porcentagem concluída na área de Atualização das tarefas deste usuário.</li> 
        <li><b>Enviar trabalho que eu atribuir a mim mesmo para minha guia Trabalhando em</b>: marque esta opção se desejar que tudo o que o usuário atribuir a si mesmo seja exibido diretamente na lista Em execução na área Página inicial. O padrão é listar tudo atribuído a um usuário nas listas Pronto para iniciar ou Não pronto na área Página inicial.</li> 
-       <li><b>Gerar provas automaticamente ao carregar documentos</b>: marque esta opção se desejar que os documentos carregados pelo usuário gerem uma prova imediatamente. Dependendo da sua licença de comprovação do Workfront, o número total de provas disponíveis para geração no sistema para todos os usuários pode ser afetado quando os usuários geram provas. </li>
+       <li><b>Gerar provas automaticamente ao carregar documentos</b>: marque esta opção se desejar que os documentos carregados pelo usuário gerem uma prova imediatamente. </li>
        </ul> </td> 
      </tr> 
      <tr> 
