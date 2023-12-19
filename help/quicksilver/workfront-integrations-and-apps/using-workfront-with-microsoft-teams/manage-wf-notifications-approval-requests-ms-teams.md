@@ -6,14 +6,18 @@ description: Você pode receber notificações de [!DNL Adobe Workfront] sobre i
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1351'
 ht-degree: 0%
 
 ---
 
 # Gerenciar [!DNL Adobe Workfront] notificações em [!DNL Microsoft Teams]
+
+>[!NOTE]
+>
+>Atualmente, o Adobe Workfront para integração do Microsoft Teams é compatível apenas com a experiência clássica do Microsoft Teams.
 
 Você pode receber notificações de [!DNL Adobe Workfront] sobre itens que você precisa aprovar, atribuições que você recebeu ou comentários e alterações nos itens aos quais você está associado.
 
@@ -34,7 +38,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
@@ -140,47 +144,47 @@ Você recebe notificações de aprovação quando é solicitado a aprovar um obj
   <tr> 
    <td role="rowheader">Você precisa aprovar um projeto</td> 
    <td>✓ µ</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Você precisa aprovar uma tarefa</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Você precisa aprovar um problema</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Você precisa aprovar um documento</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Você precisa aprovar o acesso a um objeto</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Você precisa aprovar uma planilha de horas</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -190,8 +194,8 @@ Você recebe notificações de aprovação quando é solicitado a aprovar um obj
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Sua planilha de horas foi rejeitada</td> 
@@ -215,7 +219,7 @@ Você recebe notificações de aprovação quando é solicitado a aprovar um obj
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Uma solicitação de aprovação de documento que você solicitou foi aprovada com alterações</td> 
@@ -223,7 +227,7 @@ Você recebe notificações de aprovação quando é solicitado a aprovar um obj
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Uma solicitação de aprovação de documento que você solicitou foi rejeitada</td> 
@@ -231,7 +235,7 @@ Você recebe notificações de aprovação quando é solicitado a aprovar um obj
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Sua planilha de horas foi aprovada</td> 
@@ -272,27 +276,27 @@ Você recebe notificações de atribuição quando você ou uma equipe da qual v
  <tbody> 
   <tr> 
    <td role="rowheader">Você está atribuído a uma tarefa</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Você está atribuído a um problema</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Uma equipe atribuída a você recebe uma solicitação de trabalho para uma tarefa</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Uma equipe à qual você está atribuído recebe uma solicitação de trabalho para um problema</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
  </tbody> 
 </table>
@@ -321,42 +325,42 @@ Você recebe uma notificação de comunicação quando alguém comenta em um ite
  <tbody> 
   <tr> 
    <td role="rowheader">Um comentário é postado na sua solicitação</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Uma resposta é postada em sua solicitação de trabalho</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Quando alguém comentar em um item de trabalho, envie email para qualquer um que tiver comentado este item de trabalho</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Alguém comentou um dos seus itens de trabalho</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Quando alguém comentar em uma planilha de horas aprovada, envie email para os atribuídos</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Um comentário é adicionado na página do perfil do usuário ou ao editar vários usuários em massa</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Um comentário é adicionado em uma de suas atualizações</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Um comentário é adicionado em sua folha de horas</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
  </tbody> 
@@ -386,18 +390,18 @@ Você recebe uma notificação de informações quando há uma atualização de 
  <tbody> 
   <tr> 
    <td role="rowheader">Foi feita uma atualização em uma tarefa, problema ou projeto que você assina</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Alguém tiver incluído você em uma atualização direcionada</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Alguém tiver incluído sua equipe em uma [!UICONTROL atualização direcionada]</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
  </tbody> 
 </table>
@@ -423,8 +427,8 @@ Você recebe uma notificação de alteração de data quando a data muda em um i
  <tbody> 
   <tr> 
    <td role="rowheader">A data de conclusão de uma tarefa atribuída a você mudou</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
  </tbody> 
 </table>
