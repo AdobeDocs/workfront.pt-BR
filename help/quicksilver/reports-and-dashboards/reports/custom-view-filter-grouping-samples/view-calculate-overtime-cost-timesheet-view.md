@@ -7,9 +7,9 @@ description: As horas extras não são calculadas por padrão no Adobe Workfront
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: ad6205cd-7534-49e5-b142-09f90bf672ce
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Para obter informações sobre como associar usuários com taxas de Custo por ho
 
 >[!NOTE]
 >
->O campo Horas extras que você pode adicionar a uma visualização de Folha de horas em uma lista ou relatório exibe as informações encontradas no campo Horas extras da folha de horas. Essas informações são atualizadas manualmente por um usuário com acesso para modificar a folha de horas. Para obter mais informações sobre o campo Horas extras em uma folha de horas, consulte o artigo [Entender o layout de Planilha de Horas](../../../timesheets/timesheets/timesheet-layout.md).
+>O campo Horas extras que você pode adicionar a uma visualização de Folha de horas em uma lista ou relatório exibe as informações encontradas no campo Horas extras da folha de horas. Essas informações são atualizadas manualmente por um usuário com acesso para modificar a folha de horas. Para obter mais informações sobre o campo Horas extras em uma folha de horas, consulte o artigo [Visão geral do layout da folha de horas](../../../timesheets/timesheets/timesheet-layout.md).
 
 ## Requisitos de acesso
 
@@ -35,7 +35,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 

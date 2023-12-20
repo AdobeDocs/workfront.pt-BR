@@ -7,9 +7,9 @@ description: Você pode usar folhas de horas para rastrear o tempo que você gas
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Para acessar uma planilha de horas:
 
 {{step1-to-timesheets}}
 
-Todas as suas folhas de horas, bem como folhas de horas que você tem acesso para exibir por padrão. Para obter informações sobre o layout da folha de horas no Adobe Workfront, consulte [Entender o layout de Planilha de Horas](../../timesheets/timesheets/timesheet-layout.md).
+Todas as suas folhas de horas, bem como folhas de horas que você tem acesso para exibir por padrão. Para obter informações sobre o layout da folha de horas no Adobe Workfront, consulte [Visão geral do layout da folha de horas](../../timesheets/timesheets/timesheet-layout.md).
 
 ![](assets/all-timesheets-list-nwe-350x68.png)
 

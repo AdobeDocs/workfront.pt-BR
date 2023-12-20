@@ -2,22 +2,24 @@
 product-area: projects
 navigation-topic: create-projects
 title: Criar linhas de base do projeto
-description: Uma linha de base é um instantâneo de projeto que representa informações fundamentais incluídas no plano de projeto inicial ou em qualquer momento durante a vida do projeto.
+description: Uma linha de base é um instantâneo de projeto que representa as informações principais incluídas no plano de projeto inicial ou em um determinado momento durante a vida útil do projeto.
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
 
 # Criar linhas de base do projeto
 
-Uma linha de base é um instantâneo de projeto que representa informações fundamentais incluídas no plano de projeto inicial ou em qualquer momento durante a vida do projeto.
+<!-- Audited: 12/2023 -->
 
-Você pode usar a linha de base para comparar essas informações do plano atual com o plano original ou qualquer outro ponto no tempo, para identificar tarefas problemáticas, escopo e outras tendências ao longo do tempo.
+Uma linha de base é um instantâneo de projeto que representa as informações principais incluídas no plano de projeto inicial ou em um determinado momento durante a vida útil do projeto.
+
+Você pode usar a linha de base para comparar essas informações do plano atual com o plano original ou qualquer outro ponto no tempo, para identificar tarefas problemáticas, escopo, rastejamento e outras tendências ao longo do tempo.
 
 ## Requisitos de acesso
 
@@ -53,101 +55,103 @@ drafted for P&P:
 </table>
 -->
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> </td> 
+    <td><p>Novo: Padrão</p>
+        <p>ou</p>
+        <p>Atual: Plano </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nível de acesso*</td> 
-   <td> <p>Editar acesso a Projetos</p> <p><b>OBSERVAÇÃO</b>
-   Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre o acesso a projetos, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Conceder acesso aos projetos</a>. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>. </p> </td> 
+   <td> <p>Editar acesso a projetos</p> <p><b>NOTA</b>
+   Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre o acesso a projetos, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Conceder acesso aos projetos</a>. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões para o projeto ou superior para exibir linhas de base</p> <p>Gerenciar permissões do projeto para criar linhas de base</p> <p> Para obter informações sobre permissões de projeto, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartilhar um projeto no Adobe Workfront</a>.</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões para o projeto ou superior para exibir linhas de base</p> <p>Gerenciar permissões do projeto para criar linhas de base</p> <p> Para obter informações sobre permissões de projeto, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartilhar um projeto no Adobe Workfront</a>.</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
 ## Considerações para trabalhar com linhas de base
 
-* Você pode capturar um instantâneo do progresso em um projeto várias vezes durante a vida útil do projeto, criando várias linhas de base.
-* É possível exibir as informações incluídas nas linhas de base de um projeto criando uma linha de base ou criando um relatório de Linha de Base.
-* Quando você cria uma linha de base, as informações da tarefa também são capturadas nas tarefas da linha de base dessa linha de base.
-* Você pode exibir as informações das tarefas da linha de base criando um relatório de Tarefa da Linha de Base.
+* Você pode capturar um instantâneo do progresso de um projeto várias vezes durante a vida útil do projeto, criando várias linhas de base.
+* Você pode visualizar as informações incluídas nas linhas de base de um projeto criando uma linha de base ou criando um relatório de Linha de Base.
+* Quando você cria uma linha de base, as informações sobre a tarefa também são capturadas nas tarefas dessa linha de base.
+* Você pode exibir as informações das tarefas de linha de base criando um relatório de Tarefa de Linha de Base.
 
 >[!IMPORTANT]
 >
->Uma linha de base captura um instantâneo do nome, datas e informações financeiras do projeto. A linha de base não inclui os valores de campos personalizados no projeto. Para obter informações sobre informações financeiras incluídas na linha de base, consulte [Finanças dos projetos incluídos nas linhas de base dos projetos](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
+>Uma linha de base captura um instantâneo do nome, das datas e das informações financeiras do projeto. A linha de base não inclui os valores de campos personalizados no projeto. Para obter informações sobre informações financeiras incluídas na baseline, consulte [Finanças do projeto incluídas nas linhas de base do projeto](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
 
 ## Criar uma linha de base
 
 Você pode criar uma linha de base das seguintes maneiras:
 
-* **Automaticamente**: O administrador do Workfront ou um administrador de grupo define a preferência do projeto para o Workfront criar automaticamente uma linha de base quando um projeto se tornar Atual. Quando esta configuração é ativada, uma linha de base é criada quando o status do projeto se torna Atual. Quando esta configuração não estiver ativada, você deve criar manualmente linhas de base.
+* **Automaticamente**: O administrador do Workfront ou um administrador de grupo define a preferência do projeto para o Workfront criar automaticamente uma linha de base quando um projeto se tornar Atual. Quando esta configuração está habilitada, uma linha de base é criada quando o status do projeto se torna Atual. Quando esta configuração não está habilitada, você deve criar linhas de base manualmente.
 
-   Para obter mais informações sobre como configurar as preferências do projeto e configurar a criação automática da linha de base, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Para obter mais informações sobre como configurar as preferências do projeto e configurar a criação automática de linha de base, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   >[!CAUTION]
-   >
-   >Ativar essa configuração cria automaticamente uma linha de base para um projeto sempre que o status de um projeto for alterado para Atual. A primeira linha de base criada é a padrão. Você deve criar manualmente todas as outras linhas de base durante a vida do projeto .
+  >[!CAUTION]
+  >
+  >Ativar essa configuração cria automaticamente uma linha de base para um projeto sempre que o status de um projeto muda para Atual. A primeira linha de base criada é a padrão. Você deve criar manualmente todas as outras linhas de base durante a vida do projeto.
 
-* **Manualmente**: Você pode criar novas linhas de base para o projeto, conforme necessário, conforme o andamento do projeto. Você pode comparar linhas de base para ver como o projeto avançou ao longo do tempo.
+* **Manualmente**: Você pode criar novas linhas de base para o projeto, conforme necessário, à medida que o projeto avança. Você pode comparar linhas de base para ver como o projeto progrediu com o tempo.
 
 Para criar uma linha de base:
 
 1. Navegue até um projeto.
-1. No painel esquerdo, clique em **Linhas de base**.
+1. No painel esquerdo, clique em **Linhas de Base**.
 
    Ou
 
-   Clique em **Mostrar mais**, depois clique em **Linhas de base**.
+   Clique em **Mostrar mais** e, em seguida, clique em **Linhas de Base**.
 
-   ![](assets/nwe-baselines-section-on-project-with-header-350x78.png)
+   ![Seção Linhas de Base no projeto](assets/baselines-section-on-project-with-header.png)
 
-1. Clique em **Nova linha de base.**
+1. Clique em **Nova Linha de Base.**
 1. Especifique o nome da linha de base.
-1. (Opcional) Se esta for a primeira linha de base, você pode escolher a linha de base como padrão.
+1. (Opcional) Se esta for a primeira linha de base, talvez você queira escolhê-la como padrão.
 1. Clique em **Salvar**.
 
-   Por padrão, as seguintes informações são exibidas sobre a linha de base criada por você:
+   Por default, as seguintes informações são exibidas sobre a linha de base que você criou:
 
    * Nome da linha de base
-   * Data de entrada da linha de base
-   * Data Inicial Planejada do projeto quando a linha de base foi criada
-   * Data Inicial Projetada do projeto quando a linha de base foi criada
+   * Data de Entrada da Linha de Base
+   * Data de Início Planejada do projeto quando a linha de base foi criada
+   * Data de Início Projetada do projeto quando a linha de base foi criada
    * Duração real do projeto quando a linha de base foi criada
-   * % Concluído do projeto quando a linha de base foi criada
-   * Indicador de linha de base padrão que mostra se uma linha de base é a linha de base padrão do projeto
+   * % Concluída do projeto quando a linha de base foi criada
+   * Indicador de Linha de Base Padrão que mostra se uma linha de base é a linha de base Padrão do projeto
 
-      >[!TIP]
-      >
-      >Não é possível exibir informações de duas linhas de base ao mesmo tempo na mesma exibição ou relatório. Você só pode exibir informações de uma determinada linha de base e da linha de base Padrão no mesmo relatório. Você pode modificar qual linha de base considera como a linha de base padrão a qualquer momento durante a vida do projeto.
+     >[!TIP]
+     >
+     >Não é possível exibir informações de duas linhas de base ao mesmo tempo na mesma exibição ou relatório. Você só pode exibir informações de uma determinada linha de base e da Linha de base Padrão no mesmo relatório. Você pode modificar qual linha de base considera ser a Linha de base Padrão a qualquer momento durante a vida útil do projeto.
 
-1. (Opcional) Clique na seta suspensa ao lado de Exibir e, em seguida, **Personalizar exibição** para adicionar campos à visualização e comparar informações adicionais entre linhas de base.
+1. (Opcional) Clique no link **Exibir** e, em seguida, crie uma nova view ou edite a view atual para adicionar campos à view e comparar informações adicionais entre linhas de base. Para obter informações, consulte [Criar ou editar exibições no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Criar um relatório de Linha de Base ou de Tarefa de Linha de Base
 
-Para exibir informações da linha de base, também é possível criar um relatório de Linha de Base ou de Tarefa da Linha de Base. Isso permite exibir qualquer número de campos sobre as linhas de base ou tarefas de linha de base para compará-las em uma visualização.
+Para exibir informações sobre linha de base, você também pode criar um relatório de Linha de Base ou de Tarefa de Linha de Base. Isso permite que você exiba qualquer número de campos sobre as linhas de base ou tarefas de linha de base para compará-los em uma exibição.
 
 >[!TIP]
 >
->É necessário criar uma linha de base antes de criar um relatório de Linha de Base ou de Tarefa de Linha de Base.
+>Você deve criar uma linha de base antes de criar um relatório de Linha de Base ou de Tarefa de Linha de Base.
 
 Para obter informações sobre como criar um relatório, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Recomendamos adicionar um agrupamento Nome do projeto ao seu relatório Linha de base ou Linha de base para facilitar a leitura.
+Recomendamos que você adicione um agrupamento Nome do projeto ao seu relatório de Tarefa de linha de base ou linha de base para facilitar a leitura.
 
 Para obter informações sobre como criar um agrupamento, consulte [Criar agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
