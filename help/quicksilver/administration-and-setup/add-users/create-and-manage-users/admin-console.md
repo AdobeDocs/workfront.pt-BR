@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: cc20fd99ec334140cc5f6d73e4f257ea2cdabe23
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -84,15 +84,15 @@ Antes de usar o Admin Console para Workfront, você deve receber um email convid
 
 ## Acesse a área de usuário e administrador da sua Instância de produção do Workfront {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
-1. No [Página do Adobe Admin Console](https://adminconsole.adobe.com/), selecione o **Produtos** na barra de navegação superior e selecione a guia **Workfront** bloco do produto.
+1. No [Página do Adobe Admin Console](https://adminconsole.adobe.com/), selecione o **Produtos** na barra de navegação superior e selecione **Workfront**.
 
-   ![](assets/admin-product-1.png)
+   <!--![](assets/admin-product-1.png)-->
 
 1. Na lista exibida, selecione o link na parte superior.
 
    Essa é a instância de Produção na qual os usuários trabalham.
 
-   ![](assets/instances-1.png)
+   <!--![](assets/instances-1.png)-->
 
    >[!TIP]
    >
@@ -165,7 +165,7 @@ Para aprovar um usuário:
 
 {{step-1-to-users}}
 
-1. Selecione o usuário e clique no botão M **o**&#x200B;ícone re ![](assets/more-icon.png).
+1. Selecione o usuário e clique no botão **Mais** ícone ![](assets/more-icon.png).
 
 1. Para aprovar o usuário, clique em **Aprovar** e, em seguida, clique em **Enviar**.
 
