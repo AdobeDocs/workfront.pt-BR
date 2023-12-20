@@ -7,7 +7,7 @@ description: Você pode estimar e orçar a alocação dos recursos para os proje
 author: Alina
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Visão geral do Planejador de recursos
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: this used to be the beginning of Planning in the Resource Planner - consider restructuring it further? Merging some of this information with information about Understanding Navigation in the RP?!)</p>
@@ -40,9 +42,9 @@ Você pode exibir informações no Planejador de recursos usando três visualiza
 
 * Para exibir as seguintes informações usando a view Usuário:
 
-   * a disponibilidade de seus usuários de acordo com a programação deles
-   * o tempo planejado necessário para concluir o trabalho de acordo com o plano do projeto.
-   * o tempo que os usuários já fizeram logon em itens de trabalho reais.
+   * A disponibilidade de seus usuários de acordo com a programação deles
+   * O tempo planejado necessário para concluir o trabalho de acordo com o plano do projeto
+   * O tempo que os usuários já fizeram logon em itens de trabalho reais
 
   Para obter mais informações sobre como exibir as Horas Disponíveis, Planejadas e Reais ou FTE para os usuários no Planejador de Recursos, consulte o artigo [Exibir Horas Disponíveis, Planejadas e Reais ou FTE no Planejador de Recursos ao usar a visualização Usuário](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
 

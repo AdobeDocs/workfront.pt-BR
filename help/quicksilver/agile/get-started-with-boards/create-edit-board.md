@@ -6,14 +6,16 @@ description: No [!UICONTROL quadros] painel, é possível criar um novo painel o
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: 03abff907016809addbbf8f50eb2e6e012e6fed3
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 3%
+source-wordcount: '683'
+ht-degree: 1%
 
 ---
 
 # Criar ou editar um quadro
+
+<!-- Audited: 12/2023 -->
 
 No [!UICONTROL quadros] painel, é possível criar um novo painel ou editar um existente.
 
@@ -27,7 +29,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td> <p>Novo: Colaborador ou superior </p>
+ <p>ou</p> 
+<p>Atual: [!UICONTROL Request] ou superior </p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
@@ -40,7 +49,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Criar um novo quadro
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Quadros]**.
+{{step1-to-boards}}
 1. Clique em **[!UICONTROL Adicionar quadro]**.
 
 1. Selecione um modelo para o quadro.
@@ -49,7 +58,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    |---------|----------|
    | Quadro básico | Três colunas padrão são fornecidas no quadro. É possível adicionar novas colunas e renomear ou excluir as colunas padrão. <p>Três colunas padrão são fornecidas no quadro. É possível adicionar novas colunas e renomear ou excluir as colunas padrão. |
    | Quadro Kanban | As seguintes colunas são fornecidas na placa: Backlog, Novo, Em Andamento, Concluído e Em Retenção. É possível adicionar novas colunas e renomear ou excluir as colunas padrão.<p>Para usar o backlog, você deve configurar filtros para a coluna de entrada. Para obter informações, consulte [Adicionar uma coluna de entrada a um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Para revisar as políticas default de cada coluna, clique no [!UICONTROL **Mais** menu] em uma coluna e selecione [!UICONTROL **Editar**]. É possível alterar qualquer uma dessas políticas predefinidas. Para obter informações, consulte [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
-   | Quadro retrospectivo | As seguintes colunas são fornecidas no quadro: O que deu certo? O que pode ser melhorado? O que devemos comemorar? O que podemos fazer para agilizar? É possível adicionar novas colunas e renomear ou excluir as colunas padrão. <p>Nenhuma política de coluna aplicada. |
+   | Quadro retrospectivo | As seguintes colunas são fornecidas no quadro: O que deu certo? O que pode ser melhorado? Quem devemos comemorar? O que podemos fazer para agilizar? É possível adicionar novas colunas e renomear ou excluir as colunas padrão. <p>Nenhuma política de coluna aplicada. |
    | Quadro dinâmico | As seguintes colunas são fornecidas no quadro: Não selecionado, Novo, Em andamento, Em espera e Concluído. É possível adicionar novas colunas e renomear ou excluir as colunas padrão. (A coluna Não selecionada pode ser renomeada, mas não excluída. Essa coluna contém todos os cartões com um status que não corresponde a nenhum dos outros status de coluna.) <p>As políticas de coluna padrão atribuem cartões às colunas com base em seus status. Para obter informações, consulte [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 1. Para um quadro dinâmico somente, siga as etapas do assistente de configuração:
@@ -86,7 +95,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Editar um quadro existente
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Quadros]**.
+{{step1-to-boards}}
 1. No painel, selecione o quadro a ser aberto.
 1. Edite o quadro conforme necessário. Você pode clicar no nome do quadro para renomeá-lo.
 

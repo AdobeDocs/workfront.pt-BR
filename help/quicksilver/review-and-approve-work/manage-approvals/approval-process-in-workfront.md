@@ -7,14 +7,16 @@ description: Você pode criar um processo de aprovação e anexá-lo a um objeto
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
 
 # Visão geral do processo de aprovação
+
+<!-- Audited: 12/2023 -->
 
 Você pode criar um processo de aprovação e anexá-lo a um objeto para garantir que os usuários designados revisem determinadas alterações antes que o objeto avance.
 
@@ -22,27 +24,26 @@ Isso está disponível para os seguintes tipos de objetos no Adobe Workfront:
 
 * Item de trabalho (projeto, tarefa ou problema, modelo, tarefa de modelo)
 * Documento
-*  Prova
-
-Para obter instruções sobre como criar um processo de aprovação, consulte [Criar um processo de aprovação para itens de trabalho](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+* Prova
 
 Este artigo contém informações gerais sobre processos de aprovação associados a itens de trabalho.
+Para obter instruções sobre como criar um processo de aprovação, consulte [Criar um processo de aprovação para itens de trabalho](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-## Tipos de processos de aprovação
+## Tipos de processos de aprovação para itens de trabalho
 
 Se você for um administrador do Adobe Workfront ou um usuário com acesso administrativo a processos de aprovação, poderá criar os seguintes processos de aprovação para projetos, tarefas e problemas:
 
 * **Um processo de aprovação global em nível de sistema**: Os usuários podem anexá-los a qualquer um dos seguintes:
 
    * Um projeto, tarefa ou problema na seção Aprovações
-   * Na caixa Editar projeto, a área Processo de aprovação padrão da tarefa
-   * Na seção Detalhes da fila ou Tópico da fila de um projeto, nas áreas Processo de aprovação padrão. O projeto deve ser ativado como uma fila de solicitações.
+   * Na caixa Editar projeto na área Processo de aprovação padrão de tarefa
+   * Na seção Detalhes da fila ou Tópico da fila de um projeto nas áreas Processo de aprovação padrão. O projeto deve ser ativado como uma fila de solicitações.
 
 * **Um processo de aprovação global em nível de grupo**: os usuários podem anexá-los ao seguinte:
 
    * Um projeto, tarefa ou problema pertencente ao grupo associado ao processo de aprovação na seção Aprovações
-   * Na caixa Editar projeto, a área Processo de aprovação padrão de tarefa para um projeto pertencente ao grupo associado ao processo de aprovação
-   * Na seção Detalhes da fila ou Tópico da fila de um projeto, nas áreas Processo de aprovação padrão. O projeto deve ser ativado como uma fila de solicitações e deve pertencer ao grupo associado ao processo de aprovação.
+   * Na caixa Editar projeto na área Processo de aprovação padrão de tarefa para um projeto pertencente ao grupo associado ao processo de aprovação
+   * Na seção Detalhes da fila ou Tópico da fila de um projeto nas áreas Processo de aprovação padrão. O projeto deve ser ativado como uma fila de solicitações e deve pertencer ao grupo associado ao processo de aprovação.
 
   Para obter informações sobre como criar um processo de aprovação no nível do sistema ou do grupo, consulte [Criar um processo de aprovação para itens de trabalho](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 

@@ -8,7 +8,7 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 8f8a274eb872f78f888cf76b2d5fd3d39c6d6223
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '1382'
 ht-degree: 1%
@@ -16,6 +16,8 @@ ht-degree: 1%
 ---
 
 # Visão Geral da Duração da Tarefa e do Tipo de Duração
+
+<!-- Audited: 12/2023 -->
 
 A Duração da tarefa é a diferença entre a Data de conclusão planejada e a Data inicial planejada da tarefa. A Duração indica o período disponível para a tarefa ser concluída.
 
