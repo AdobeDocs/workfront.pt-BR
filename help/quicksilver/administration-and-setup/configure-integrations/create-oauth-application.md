@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 762053edbf490532b96285a6d1edff2af49500a4
 workflow-type: tm+mt
 source-wordcount: '1945'
 ht-degree: 5%
@@ -298,7 +298,7 @@ Para obter instruções sobre como configurar e usar o aplicativo OAuth2 com cre
       <td>Esse é o endereço de email do desenvolvedor que está configurando o aplicativo OAuth2.</td> 
      </tr> 
    <tr> 
-      <td role="rowheader">[!UICONTROL UTL de política de privacidade]</td> 
+      <td role="rowheader">[!UICONTROL URL da política de privacidade]</td> 
       <td>Esse é o link para onde sua organização armazena a política de privacidade.</td> 
      </tr>
 

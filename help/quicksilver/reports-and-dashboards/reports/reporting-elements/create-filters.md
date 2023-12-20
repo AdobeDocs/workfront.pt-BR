@@ -6,10 +6,10 @@ description: É possível limitar a quantidade de informações exibidas na tela
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: d6b483fd1f28012eb8df3e578a44187de6c3629d
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '2405'
-ht-degree: 2%
+source-wordcount: '2462'
+ht-degree: 1%
 
 ---
 
@@ -21,13 +21,13 @@ Você pode aplicar os seguintes tipos de filtros no Adobe Workfront:
 
 * Filtros rápidos em uma lista de objetos para localizar um item usando uma palavra-chave. Esses são filtros temporários que não podem ser salvos para uso futuro.
 
-   Para obter informações sobre filtros rápidos, consulte [Aplicar o filtro rápido a uma lista](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+  Para obter informações sobre filtros rápidos, consulte [Aplicar o filtro rápido a uma lista](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
 * Filtros permanentes que você pode salvar e usar várias vezes em várias listas e relatórios. Este artigo descreve como criar um filtro permanente ou editar um filtro existente em uma lista ou relatório.
 
 * Filtros em outras áreas do Workfront, fora de listas e relatórios.
 
-   Para obter uma lista de todos os filtros no Workfront e as áreas em que eles podem ser aplicados, consulte [Visão geral dos filtros no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Para obter uma lista de todos os filtros no Workfront e as áreas em que eles podem ser aplicados, consulte [Visão geral dos filtros no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Requisitos de acesso
 
@@ -39,15 +39,37 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>plano do Adobe Workfront*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
-   <td> <p>Solicitação ou superior</p> </td> 
+   <td> <p>Novo: Colaborador ou superior</p>
+
+Ou
+
+<p>Atual: solicitação ou superior</p>
+
+<p><b>NOTA:</b></p>
+
+Para editar um filtro em um relatório, você deve ter a seguinte licença:
+
+<p>Novo: Plano</p>
+
+Ou
+
+<p>Atual: Padrão</p>
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>Editar acesso a Filtros, Visualizações e Agrupamentos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <ul><li><p>Editar acesso a Filtros, Visualizações e Agrupamentos</p></li></ul>
+    <p><b>NOTA:</b></p>
+   Para editar um filtro em um relatório, você deve ter a seguinte configuração de nível de acesso, além de Editar acesso a Filtros, Visualizações e Agrupamentos:
+
+<ul><li><p>Editar acesso a relatórios, painéis e calendários</p></li></ul>
+
+<p><b>NOTA:</b></p> <p> Se você não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
@@ -93,7 +115,7 @@ Você pode criar filtros usando os tipos de construtores de filtros descritos na
 <ul>
 <li> <p>A lista de Projetos no Planejador de cenários</p> <p>O Planejador de cenários requer uma licença adicional. Para obter informações sobre o Planejador de cenários do Workfront, consulte <a href="../../../scenario-planner/scenario-planner-overview.md">A visão geral do Planejador de cenários</a>. </p> </li>
 </ul>
-<p>OBSERVAÇÃO: os construtores padrão para filtros não estão disponíveis nos relatórios.
+<p><b>NOTA:</b></p> <p>Os construtores padrão para filtros não estão disponíveis nos relatórios.
 </td>
 </tr>
 <tr>
@@ -111,41 +133,40 @@ Considere o seguinte ao criar filtros usando as diferentes interfaces:
 * Você pode encontrar o construtor padrão nos mesmos locais em que encontra a interface de filtro herdada para as áreas listadas na tabela acima.
 * O construtor padrão é a experiência padrão para todas as áreas em que está disponível. Para alternar para o construtor de filtros herdado, clique no link **Mais** menu ao lado de [!UICONTROL **Filtros**] e selecione [!UICONTROL **Voltar aos filtros legados**].
 
-   ![Voltar aos filtros legados](assets/use-legacy-filters.png)
+  ![Voltar aos filtros legados](assets/use-legacy-filters.png)
 
 * Os filtros salvos estão disponíveis em ambos os construtores, independentemente da experiência usada para criá-los originalmente. Por exemplo, se você criou um filtro usando o construtor herdado do, também é possível localizá-lo e modificá-lo na interface do construtor padrão.
 
-   >[!TIP]
-   >
-   >Um filtro &quot;Todos&quot; não está incluído no construtor padrão, pois todos os itens da lista são exibidos quando nenhum filtro é aplicado. Clique em [!UICONTROL **Limpar tudo**] na parte superior direita do construtor para limpar todos os filtros ativos e exibir todos os itens. Se [!UICONTROL **Limpar tudo**] estiver esmaecida e nenhum filtro for aplicado.
+  >[!TIP]
+  >
+  >Um filtro &quot;Todos&quot; não está incluído no construtor padrão, pois todos os itens da lista são exibidos quando nenhum filtro é aplicado. Clique em [!UICONTROL **Limpar tudo**] na parte superior direita do construtor para limpar todos os filtros ativos e exibir todos os itens. Se [!UICONTROL **Limpar tudo**] estiver esmaecida e nenhum filtro for aplicado.
 
 * Os construtores padrão e herdados têm uma sintaxe ligeiramente diferente ao construir filtros de várias instruções que combinam os operadores AND e OR. Como resultado, esses filtros podem ser exibidos de forma diferente ao alternar de um construtor para outro.
 
-   >[!INFO]
-   >
-   >Existe o seguinte cenário:
-   >
-   >1. Use o construtor padrão para criar um filtro que tenha a seguinte sintaxe:
-   >
-   >   `(A OR B) AND C`
-   >
-   >1. Alterne para o construtor herdado e edite o filtro usando a sintaxe do construtor herdado, conforme descrito na seção [Criar ou editar um filtro no construtor herdado](#create-filter-in-legacy-builder) neste artigo. A sintaxe do construtor herdado exibe as instruções de filtro da seguinte maneira:
-   >
-   >   `A AND C`
-   >   `OR`
-   >   `B AND C`
-   >
-   >1. Faça uma alteração no filtro na interface herdada.
-   >1. Volte para o construtor padrão. A instrução de filtro é exibida de acordo com a lógica suportada no construtor herdado, conforme descrito acima.
-
-   >
-   >   O filtro é exibido na interface do construtor padrão da seguinte maneira:
-   >  
-   >   `A AND C`
-   >   `OR`
-   >   `B AND C`
-   > 
-   >   Isso acontece porque o filtro foi modificado na interface herdada.
+  >[!INFO]
+  >
+  >Existe o seguinte cenário:
+  >
+  >1. Use o construtor padrão para criar um filtro que tenha a seguinte sintaxe:
+  >
+  >   `(A OR B) AND C`
+  >
+  >1. Alterne para o construtor herdado e edite o filtro usando a sintaxe do construtor herdado, conforme descrito na seção [Criar ou editar um filtro no construtor herdado](#create-filter-in-legacy-builder) neste artigo. A sintaxe do construtor herdado exibe as instruções de filtro da seguinte maneira:
+  >
+  >   `A AND C`
+  >   `OR`
+  >   `B AND C`
+  >
+  >1. Faça uma alteração no filtro na interface herdada.
+  >1. Volte para o construtor padrão. A instrução de filtro é exibida de acordo com a lógica suportada no construtor herdado, conforme descrito acima.
+  >
+  >   O filtro é exibido na interface do construtor padrão da seguinte maneira:
+  >  
+  >   `A AND C`
+  >   `OR`
+  >   `B AND C`
+  > 
+  >   Isso acontece porque o filtro foi modificado na interface herdada.
 
 ## Criar ou editar um filtro no construtor padrão
 
@@ -193,9 +214,10 @@ Criar um filtro usando a interface padrão do construtor:
    * Clique em **Novo filtro** para criar um filtro do zero.
    * Passe o mouse sobre um filtro existente para gerenciar e clique no link **Editar** ícone ![Ícone Editar](assets/edit-icon.png) para editá-lo.
 
-      Ou
+     Ou
 
-      Passe o mouse sobre um filtro existente para ver, clique no link **Mais** menu ![Menu Mais](assets/more-icon-spectrum.png)e clique em **Duplicar** para copiar o filtro existente e editar uma cópia.
+     Passe o mouse sobre um filtro existente para ver, clique no link **Mais** menu ![Menu Mais](assets/more-icon-spectrum.png)e clique em **Duplicar** para copiar o filtro existente e editar uma cópia.
+
    ![Mais opções de menu](assets/new-filters-more-menu-options-with-delete.png)
 
 1. (Condicional) Dependendo de você querer localizar objetos que correspondam a todas ou a qualquer uma das instruções em um grupo de filtros, selecione uma das seguintes opções:
@@ -362,28 +384,28 @@ Independentemente do método usado para criar filtros, criar um filtro do zero o
    * Modifique as regras de filtro existentes clicando na regra existente e selecionando uma nova opção.
    * Adicione uma regra de filtro clicando em **Adicionar outra regra de filtro**, comece digitando o nome da opção para a qual deseja adicionar uma regra no **Comece a digitar o nome do campo** e, em seguida, clique nela quando for exibida na lista suspensa.
 
-      Os campos associados ao objeto do filtro são listados na variável **Comece a digitar o nome do campo** caixa.
+     Os campos associados ao objeto do filtro são listados na variável **Comece a digitar o nome do campo** caixa.
 
    * Clique em **E** ou **OU** ao adicionar uma nova regra de filtro.\
-      Ao adicionar regras de filtro, use os modificadores de filtro para estabelecer a condição do filtro. Para obter mais informações sobre modificadores de filtro, consulte [Filtro e modificadores de condição](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+     Ao adicionar regras de filtro, use os modificadores de filtro para estabelecer a condição do filtro. Para obter mais informações sobre modificadores de filtro, consulte [Filtro e modificadores de condição](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-      >[!NOTE]
-      >
-      >Quando você conecta um grupo de instruções AND por várias instruções OR, deve repetir os campos que não estão sendo alterados entre as instruções OR de cada grupo de instruções.
-      >
-      >![Instruções de filtro conectadas](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
-      >
-      >Ao criar um filtro para tarefas que contenham a palavra &quot;marketing&quot; e estejam em projetos com status Atual ou Planejado, você deve ter as seguintes regras de filtro:
-      >
-      >`Task: Name Contains Marketing`
-      >`AND`
-      >`Project: Status Equals Current`
-      >`OR`
-      >`Task: Name Contains Marketing`
-      >`AND`
-      >`Project: Status Equals Planning`
-      >
-      >Embora Task: Name Contains &quot;marketing&quot; não mude entre os dois grupos de filtros AND, ele deve ser repetido no segundo grupo.
+     >[!NOTE]
+     >
+     >Quando você conecta um grupo de instruções AND por várias instruções OR, deve repetir os campos que não estão sendo alterados entre as instruções OR de cada grupo de instruções.
+     >
+     >![Instruções de filtro conectadas](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
+     >
+     >Ao criar um filtro para tarefas que contenham a palavra &quot;marketing&quot; e estejam em projetos com status Atual ou Planejado, você deve ter as seguintes regras de filtro:
+     >
+     >`Task: Name Contains Marketing`
+     >`AND`
+     >`Project: Status Equals Current`
+     >`OR`
+     >`Task: Name Contains Marketing`
+     >`AND`
+     >`Project: Status Equals Planning`
+     >
+     >Embora Task: Name Contains &quot;marketing&quot; não mude entre os dois grupos de filtros AND, ele deve ser repetido no segundo grupo.
 
    * Exclua uma regra de filtro existente clicando no ícone &quot;X&quot;.
 

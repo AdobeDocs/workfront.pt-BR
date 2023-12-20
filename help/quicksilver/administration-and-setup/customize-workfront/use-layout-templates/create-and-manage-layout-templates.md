@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,14 @@ ht-degree: 0%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-Como administrador do Workfront ou administrador de grupo, você pode criar e modificar modelos de layout para personalizar os seguintes elementos de layout no Workfront para seus usuários:
+Como administrador do Adobe Workfront ou administrador de grupo, você pode criar e modificar modelos de layout para personalizar os seguintes elementos de layout no Workfront para seus usuários:
 
 * Menu principal
 * Painel de navegação esquerdo
 * Área inicial
 * Visualizações, filtros e agrupamentos que as pessoas usam com listas e relatórios.
 * Terminologia na tela
+* Cabeçalhos de projeto, tarefa e problema
 
 Depois de criar ou modificar um modelo de layout, você pode atribuí-lo a usuários individuais, equipes, grupos ou funções de trabalho.
 
@@ -44,17 +45,21 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront</td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td>Plano</td> 
+   <td><p>Novo: Padrão</p>
+   Ou
+   <p>Atual: Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Para executar essas etapas no nível do sistema, você precisa do nível de acesso Administrador do sistema.
-Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><b>NOTA</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
-  </tr> 
+   <td> <p>Para executar essas etapas no nível do sistema, você precisa do nível de acesso Administrador do sistema.</p>
+<p>Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><b>NOTA</b>:</p> <p>Se você não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso.
+
+Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
+</tr> 
  </tbody> 
 </table>
 
@@ -69,7 +74,7 @@ Para obter mais informações sobre modelos de layout, consulte [Modelos de layo
 
 ## Criar ou modificar um modelo de layout
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Interface** > **Modelos de layout**.
 
@@ -92,10 +97,13 @@ Para obter mais informações sobre modelos de layout, consulte [Modelos de layo
    * [Personalizar filtros, visualizações e agrupamentos usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [Personalizar a terminologia da interface de usuário usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
 
-1. Continue testando seu modelo de layout e disponibilizando-o para os usuários conforme descrito nos artigos abaixo:
+1. Continue a testar seu modelo de layout e disponibilize-o para os usuários conforme descrito nos artigos abaixo:
 
    * [Teste de um novo modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
    * [Conceder acesso administrativo a um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
    * [Atribuir usuários a um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 
-Você também pode criar um novo modelo de layout copiando-o e alterando a cópia. Para obter mais informações, consulte [Copiar um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
+>[!TIP]
+>
+>Você também pode criar um modelo de layout copiando-o e alterando a cópia. Para obter mais informações, consulte [Copiar um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
+

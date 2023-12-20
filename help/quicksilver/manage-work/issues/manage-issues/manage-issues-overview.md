@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 12fa2d34-a7b4-47ba-825c-a00fb5f71efd
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 10%
+source-wordcount: '61'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 10%
 Esta seção contém os seguintes artigos:
 
 * [Criar problemas](../../../manage-work/issues/manage-issues/create-issues.md)
-* [Modificar visão geral das atribuições de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+* [Visão geral da modificação de atribuições de emissão](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
 * [Atribuir problemas](../../../manage-work/issues/manage-issues/assign-issues.md)
 * [Exibir problemas](../../../manage-work/issues/manage-issues/view-issues.md)
 * [Editar problemas](../../../manage-work/issues/manage-issues/edit-issues.md)

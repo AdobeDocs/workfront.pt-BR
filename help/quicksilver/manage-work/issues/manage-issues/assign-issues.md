@@ -7,16 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
 
 # Atribuir problemas
 
-Você pode atribuir problemas a usuários, funções e equipes para indicar quem é responsável por concluir os problemas. Para obter informações gerais sobre atribuição de problemas, consulte [Modificar visão geral das atribuições de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Você pode atribuir problemas a usuários, funções e equipes para indicar quem é responsável por concluir os problemas. Para obter informações gerais sobre atribuição de problemas, consulte [Visão geral da modificação de atribuições de emissão](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
 >
@@ -29,7 +29,7 @@ Você pode atribuir problemas a usuários, funções e equipes para indicar quem
 
 Além deste artigo, recomendamos que você leia os seguintes artigos para obter mais informações sobre como atribuir problemas:
 
-* [Modificar visão geral das atribuições de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+* [Visão geral da modificação de atribuições de emissão](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
 * [Editar problemas](../../../manage-work/issues/manage-issues/edit-issues.md)
 * [Modificar atribuições de usuário para vários problemas em uma lista](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
 * [Criar atribuições avançadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
@@ -53,7 +53,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um </p> </td> 
+   <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -122,7 +122,7 @@ Considere o seguinte ao atribuir vários recursos a um item de trabalho:
 
    * (Condicional) Clique em um dos nomes na caixa **Atribuições sugeridas** lista
    * Clique em **Atribuir a mim** para atribuir a si mesmo
-   * Clique em **Avançado**
+   * Clique em **Avançado**.
 
      Criar atribuições avançadas é semelhante para tarefas e problemas. Para obter informações sobre como fazer atribuições avançadas, consulte [Criar atribuições avançadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
