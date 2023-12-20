@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Editar modo de texto em um agrupamento
-description: '"OBSERVAÇÃO: tornar todos os artigos FVG iguais para edição no modo texto)'''
+title: Modo de edição de texto em um agrupamento
+description: "NOTA: faça com que todos os artigos FVG sejam os mesmos para edição no modo texto)"
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '1559'
-ht-degree: 1%
+source-wordcount: '1569'
+ht-degree: 0%
 
 ---
 
-# Editar modo de texto em um agrupamento
+# Modo de edição de texto em um agrupamento
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: make all FVG articles the same for editing in text mode)</p>
@@ -23,19 +23,19 @@ ht-degree: 1%
 
 >[!TIP]
 >
->Recomendamos que você crie o máximo possível de agrupamento no modo padrão e, em seguida, converta-o no modo de texto para editá-lo.
+>Recomendamos que você crie o máximo possível do agrupamento no modo padrão e, em seguida, converta-o para o modo de texto para editá-lo.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -43,16 +43,16 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a filtros, visualizações, agrupamentos</p> <p>Editar o acesso a Relatórios, Painéis, Calendários para editar agrupamentos em um relatório</p> <p>Observação: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Editar acesso a Relatórios, Painéis, Calendários para editar agrupamentos em um relatório</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões de um relatório para editar agrupamentos em um relatório</p> <p>Gerencie permissões em um agrupamento para editá-lo</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões de um relatório para editar agrupamentos em um relatório</p> <p>Gerenciar permissões em um agrupamento para editá-lo</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
 ## Pré-requisitos
 
@@ -62,55 +62,57 @@ Para obter mais informações, consulte:
 
 * [Visão geral do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [Visão geral da sintaxe do modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [Exibição personalizada, filtro e amostras de agrupamento](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Exibição personalizada, filtro e amostras de agrupamento: índice do artigo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
-## Editar modo de texto em um agrupamento
+## Modo de edição de texto em um agrupamento
 
-A edição de um agrupamento usando o modo de texto é idêntica para relatórios e listas. O acesso ao agrupamento de um relatório ou de uma lista é diferente.
+A edição de um agrupamento usando o modo texto é idêntica para relatórios e listas. O acesso ao agrupamento a partir de um relatório ou de uma lista é diferente.
 
 >[!NOTE]
 >
->Os agrupamentos são um elemento de relatório obrigatório para criar gráficos em relatórios. Os agrupamentos de modo de texto não são suportados em gráficos. Para obter informações sobre como adicionar gráficos aos relatórios, consulte [Adicionar um gráfico a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+>Os agrupamentos são um elemento de relatório obrigatório para a criação de gráficos em relatórios. Os agrupamentos em modo de texto não são suportados em gráficos. Para obter informações sobre como adicionar gráficos aos relatórios, consulte [Adicionar um gráfico a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
-Para obter mais informações sobre criação de agrupamentos, consulte [Criar agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
+Para obter mais informações sobre a criação de agrupamentos, consulte [Criar agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
 Para obter informações sobre como criar um relatório, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. Siga um destes procedimentos:
 
-   1. Para acessar o agrupamento de um relatório, vá para o relatório e clique em **Ações de Relatório** > **Editar** > **Agrupamentos** guia .
-   1. Para acessar o agrupamento de uma lista, vá para a lista e do **Agrupamento** menu suspenso, passe o mouse sobre o agrupamento que deseja modificar e clique no botão **Editar** ícone ![](assets/edit-icon.png).
+   1. Para acessar o agrupamento em um relatório, vá para o relatório e clique em **Ações de Relatório** > **Editar** > **Agrupamentos** guia.
+   1. Para acessar o agrupamento por uma lista, vá para a lista e no **Agrupamento** menu suspenso, passe o mouse sobre o agrupamento que deseja modificar e clique no **Editar** ícone ![](assets/edit-icon.png).
 
       O construtor de agrupamento é aberto.
 
-1. Clique em **Adicionar agrupamento** para adicionar os agrupamentos, clique em **Alternar para o modo de texto** no canto superior direito do construtor.
+1. Clique em **Adicionar Agrupamento** para adicionar os agrupamentos, clique em **Alternar para modo de texto** no canto superior direito do construtor.
 
    >[!TIP]
-   É possível adicionar até 3 agrupamentos na interface padrão. Você pode adicionar um quarto agrupamento somente usando o modo de texto e não pode ter mais de quatro níveis de agrupamento no Workfront.
+   >
+   Você pode adicionar até 3 agrupamentos na interface padrão. Você pode adicionar um quarto agrupamento usando apenas o modo de texto e não pode ter mais de quatro níveis de agrupamento no Workfront.
 
-1. Comece digitando o nome de um campo que deseja agrupar.
+1. Comece digitando o nome de um campo pelo qual deseja agrupar.
 
    Selecione o nome do campo ao visualizá-lo na lista.
 
-1. Clique em **Alternar para o modo de texto** no canto superior direito do construtor.
+1. Clique em **Alternar para modo de texto** no canto superior direito do construtor.
 
    O agrupamento é exibido no modo de texto.
 
-   Ao editar um agrupamento no modo de texto, o Workfront adiciona o
+   Ao editar um agrupamento no modo texto, o Workfront adiciona a variável
 
    ```
    textmode=true
    ```
 
-   linha de código para o agrupamento. Isso indica que o agrupamento é modificado no modo de texto.
+   linha de código ao agrupamento. Isso indica que o agrupamento é modificado no modo de texto.
 
-   **Exemplo:** Para agrupar uma lista de tarefas pelo Nome do Projeto e, em seguida, pelo nome do Destinatário Principal, o agrupamento deve ter a seguinte aparência, no modo de texto.
+   **Exemplo:** Para agrupar uma lista de tarefas pelo Nome do projeto e, em seguida, pelo nome do Destinatário principal, seu agrupamento deve ser semelhante ao seguinte, no modo de texto.
 
    ```
    textmode=true<br>group.0.linkedname=project<br>group.0.namekey=view.relatedcolumn<br><strong>group.0.valuefield=project:name</strong><br>group.0.namekeyargkey.0=project<br>group.0.namekeyargkey.1=name<br><strong>group.0.valueformat=string</strong><br>group.1.linkedname=assignedTo<br>group.1.namekey=view.relatedcolumn<br><strong>group.1.valuefield=assignedTo:name</strong><br>group.1.namekeyargkey.0=assignedTo<br>group.1.namekeyargkey.1=name<br><strong>group.1.valueformat=string</strong>
    ```
 
    >[!IMPORTANT]
+   >
    As linhas em negrito são obrigatórias.
 
    <!--
@@ -146,7 +148,8 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
    -->
 
    >[!TIP]
-   As linhas-chave em um agrupamento em modo de texto são semelhantes às linhas necessárias para criar exibições em modo de texto.
+   >
+   As linhas-chave em um agrupamento em modo de texto são semelhantes às linhas necessárias para construir visualizações em modo de texto.
 
    <!--
    <note type="tip">  
@@ -159,45 +162,45 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
     <col> 
     <thead> 
      <tr> 
-      <th><strong>Exemplo de linha</strong> </th> 
+      <th><strong>Linha de Exemplo</strong> </th> 
       <th><strong>Descrição</strong> </th> 
      </tr> 
     </thead> 
     <tbody> 
      <tr> 
       <td><strong>grupo.&lt;number&gt;.</strong> </td> 
-      <td> <p>Cada linha de código é precedida por esse texto. As linhas de código que se referem ao mesmo campo selecionado no agrupamento são numeradas com o mesmo número, da seguinte forma:</p> 
+      <td> <p>Cada linha de código é precedida por este texto. As linhas de código que se referem ao mesmo campo selecionado no agrupamento são numeradas com o mesmo número, da seguinte maneira:</p> 
        <ul> 
-        <li>O primeiro agrupamento do relatório tem um número de grupo de 0. Todas as linhas que se referem ao primeiro agrupamento começam com <code>group.0</code>.</li> 
-        <li>O segundo agrupamento do relatório tem um número de grupo 1. Todas as linhas que se referem ao segundo agrupamento começam com <em><code>group.1</code></em>.</li> 
-        <li>O terceiro agrupamento do relatório tem um grupo de 2. Todas as linhas que se referem ao terceiro agrupamento começam com <em><code>group.2</code></em>.</li> 
-        <li>Somente no modo de texto, é possível adicionar um número de grupo de 3, para um quarto agrupamento. Todas as linhas que se referem ao quarto agrupamento começam com <em><code>group.3</code></em>.</li> 
-       </ul> <p>Observação: 4 agrupamentos não são suportados no construtor. Eles só são compatíveis ao usar o modo de texto. O Workfront não oferece suporte a mais de quatro níveis de agrupamentos.</p> </td> 
+        <li>O primeiro agrupamento do relatório tem um número de grupo de 0. Todas as linhas referentes ao primeiro agrupamento começam com <code>group.0</code>.</li> 
+        <li>O segundo agrupamento do relatório tem um número de grupo de 1. Todas as linhas que fazem referência ao segundo agrupamento começam com <em><code>group.1</code></em>.</li> 
+        <li>O terceiro agrupamento do relatório tem um número de grupo de 2. Todas as linhas que fazem referência ao terceiro agrupamento começam com <em><code>group.2</code></em>.</li> 
+        <li>Somente no modo de texto é possível adicionar um número de grupo de 3, para um quarto agrupamento. Todas as linhas que fazem referência ao quarto agrupamento começam com <em><code>group.3</code></em>.</li> 
+       </ul> <p>Observação: 4 agrupamentos não são permitidos no construtor. Elas só são compatíveis quando o modo de texto é usado. O Workfront não oferece suporte a mais de quatro níveis de agrupamentos.</p> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>campo de valor</strong>=</p> </td> 
-      <td> <p>Esse é o nome do objeto ou do campo como ele aparece no banco de dados. Para obter mais informações sobre como os objetos e campos são exibidos no banco de dados, consulte <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> <p>Os seguintes cenários existem:</p> 
+      <td> <p>Esse é o nome do objeto ou do campo como ele aparece no banco de dados. Para obter mais informações sobre como os objetos e campos aparecem no banco de dados, consulte <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> <p>Existem os seguintes cenários:</p> 
        <ol> 
-        <li value="1"> <p> Se o nome do campo exibido for uma frase em vez de um único nome, você deverá usar a sintaxe de maiúsculas e minúsculas de camel para a variável <code>valuefield</code>. Por exemplo, para a Data inicial planejada de uma tarefa, o código é:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span><code>group.0.valuefield=plannedStartDate</code> </p> </li> 
-        <li value="2"> <p>Se quiser exibir um campo personalizado, a variável <code>valuefield</code> é o nome real do campo, como você o vê na interface. Por exemplo, para um campo personalizado chamado "Mais informações", o código é:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span><code>group.0.valuefield=More information</code> </p> </li> 
-        <li value="3"> <p>Se desejar agrupar por objetos que estão relacionados a outros objetos que usam a variável <code>valuefield</code> linha de código os nomes e atributos do objeto são separados por dois pontos.</p> <p>Por exemplo, um agrupamento por Portfolio Name de uma lista de tarefas tem o seguinte valor para a linha de campo de valor:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>Isso indica que, a partir do objeto do relatório (tarefa), é possível acessar o próximo objeto relacionado (projeto); a partir daí, você pode acessar o seguinte objeto relacionado do projeto (portfólio); em seguida, o nome do portfólio (nome).</p> </li> 
-       </ol> <p>Para obter informações sobre como os objetos se conectam uns aos outros, consulte a seção <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">Interdependência e hierarquia de objetos</a> em <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Entender objetos no Adobe Workfront</a>.</p> <p>Observação: Se você escolher um campo no modo de texto que não é válido na interface padrão e alternar para a interface padrão, o agrupamento será excluído.</p> </td> 
+        <li value="1"> <p> Se o nome do campo exibido for uma frase em vez de um único substantivo, você deverá usar a sintaxe de camel case para <code>valuefield</code>. Por exemplo, para a Data de início planejada de uma tarefa, o código é:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span><code>group.0.valuefield=plannedStartDate</code> </p> </li> 
+        <li value="2"> <p>Se quiser exibir um campo personalizado, a variável <code>valuefield</code> value é o nome real do campo, como você o vê na interface. Por exemplo, para um campo personalizado chamado "Mais informações", o código é:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span><code>group.0.valuefield=More information</code> </p> </li> 
+        <li value="3"> <p>Se você quiser agrupar por objetos que estão relacionados a outros objetos usando o <code>valuefield</code> linha de código os nomes e atributos do objeto são separados por dois pontos.</p> <p>Por exemplo, um agrupamento por Nome de Portfolio para uma lista de tarefas tem o seguinte valor para a linha do campo de valor:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>Isso indica que, a partir do objeto do relatório (tarefa), você pode acessar o próximo objeto relacionado (projeto); a partir daí, você pode acessar o seguinte objeto relacionado a partir do projeto (portfólio); em seguida, o nome do portfólio (nome).</p> </li> 
+       </ol> <p>Para obter informações sobre como os objetos se conectam entre si, consulte a seção <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">Interdependência e hierarquia de objetos</a> in <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Entender objetos no Adobe Workfront</a>.</p> <p>Nota: Se você escolher um campo no modo texto que não seja válido na interface padrão e alternar para a interface padrão, o agrupamento será deletado.</p> </td> 
      </tr> 
      <tr> 
-      <td><strong>valueformat=</strong> </td> 
-      <td> <p>Essa linha representa o formato usado para exibir a variável <code>valuefield</code>. O <code>valueformat</code> identifica se um objeto ou campo é exibido como texto, número, porcentagem ou data.</p> <p>Recomendamos usar <code>HTML</code> para seu <code>valueformat</code>, especialmente ao usar <code>valueexpression</code>, para garantir a exibição mais precisa de suas informações.</p> <p>Para obter informações sobre valores adicionais para esta linha, consulte <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">Usar formatação condicional no Modo de texto</a>.</p> </td> 
+      <td><strong>value format=</strong> </td> 
+      <td> <p>Esta linha representa o formato usado para exibir o <code>valuefield</code>. A variável <code>valueformat</code> identifica se um objeto ou campo é exibido como texto, número, porcentagem ou data.</p> <p>Recomendamos usar <code>HTML</code> para seu <code>valueformat</code>, especialmente ao usar <code>valueexpression</code>, para garantir a exibição mais precisa de suas informações.</p> <p>Para obter informações sobre valores adicionais para essa linha, consulte <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">Usar formatação condicional no Modo de texto</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p><strong>valueexpression=</strong> </p> </td> 
-      <td> <p>Você pode adicionar esta linha para substituir <code>valuefield</code>, se desejar agrupar sua lista por um cálculo entre vários campos.</p> <p>Você deve colocar o <code>valuefield</code> dos objetos entre colchetes toda vez que usá-los em um <code>valueexpression</code>.</p> <p>Os seguintes cenários existem:</p> 
+      <td> <p><strong>expressão de valor=</strong> </p> </td> 
+      <td> <p>É possível adicionar esta linha para substituir <code>valuefield</code>, se quiser agrupar sua lista por um cálculo entre vários campos.</p> <p>Você deve incluir o <code>valuefield</code> dos objetos entre chaves sempre que você usá-los em uma <code>valueexpression</code>.</p> <p>Existem os seguintes cenários:</p> 
        <ol> 
-        <li value="1"> <p>Se quiser exibir o nome de um agrupamento em maiúsculas, use:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span><code>group.0.valueexpression=UPPER({valuefield})</code> </p> <p>O <code>valuefield</code> do objeto é digitado como aparece no API Explorer.</p> </li> 
-        <li value="2">Se quiser adicionar vários <code>valuefields</code> ao agrupá-los em uma <code>valueexpression </code>, você deve separá-los por um ponto.<p>Por exemplo, se você deseja exibir o nome do portfólio em maiúsculas em uma lista de tarefas, você deve usar o seguinte código na <code>valueexpression</code> linha:</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p>Se quiser usar um campo personalizado em um <code>valueexpression</code> linha , é necessário preceder o nome do campo por <code>DE:</code> para indicar que é um campo personalizado. O nome do campo é digitado conforme aparece na interface.</p><p>Importante: <span>Ao usar um campo personalizado colocado em uma seção de formulário personalizado com permissões restritas para alguns usuários, o cálculo da variável <code>valueexpression </code>fica em branco quando esses usuários visualizam esse cálculo em um relatório. Para obter informações sobre como ajustar permissões em seções de formulário personalizadas, consulte</span> <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Criar ou editar um formulário personalizado</a></span>.</p><p>Por exemplo, se você tiver um campo personalizado chamado "Nome do desenvolvedor" e quiser agrupar por esse campo e exibi-lo em maiúsculas, poderá usar o seguinte <code>valueexpression</code> para indicar:</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>Ao fazer referência a um campo personalizado do tipo Typeahead, use a seguinte expressão para fazer referência ao nome do objeto selecionado em um campo chamado "Nome do desenvolvedor":</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
+        <li value="1"> <p>Se quiser exibir o nome de um agrupamento em maiúsculas, use:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span><code>group.0.valueexpression=UPPER({valuefield})</code> </p> <p>A variável <code>valuefield</code> do objeto é digitado como aparece no API Explorer.</p> </li> 
+        <li value="2">Se quiser adicionar vários <code>valuefields</code> unindo-os em uma <code>valueexpression </code>deve separá-los por um ponto.<p>Por exemplo, se você quiser exibir o nome do portfólio em maiúsculas em uma lista de tarefas, use o seguinte código na caixa <code>valueexpression</code> linha:</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p>Se quiser usar um campo personalizado em um <code>valueexpression</code> linha pela qual você deve preceder o nome do campo <code>DE:</code> para indicar que é um campo personalizado. O nome do campo é grafado conforme aparece na interface.</p><p>Importante: <span>Quando você usa um campo personalizado colocado em uma seção de formulário personalizado que tem permissões restritas para alguns usuários, o cálculo do <code>valueexpression </code>fica em branco quando esses usuários exibem esse cálculo em um relatório. Para obter informações sobre como ajustar permissões em seções de formulário personalizadas, consulte</span> <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Criar ou editar um formulário personalizado</a></span>.</p><p>Por exemplo, se você tiver um campo personalizado chamado "Nome do desenvolvedor" e quiser agrupar por esse campo e exibi-lo em maiúsculas, poderá usar o seguinte <code>valueexpression</code> para indicar isso:</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>Ao fazer referência a um campo personalizado do tipo Digitação antecipada, use a seguinte expressão para fazer referência ao nome do objeto selecionado em um campo rotulado como "Nome do desenvolvedor":</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td><strong>namekey= / name=</strong> </td> 
-      <td> <p>Esta linha define o rótulo de agrupamento. Nesse caso, ele está usando o valor abreviado com base na chave .</p> <p>Se quiser modificar o nome do agrupamento, é possível alterar esse valor para o seguinte:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span><code>group.0.name=Your Value</code> </p> <p><code>Name</code> permite inserir qualquer texto para o nome do agrupamento, enquanto <code>namekey</code> O requer a inserção de uma chave usada para traduzir o nome de um agrupamento.</p> <p>Para alterar o nome do agrupamento, também é possível adicionar a variável <code>displayname </code>, se não houver.</p> </td> 
+      <td> <p>Esta linha define o rótulo de agrupamento. Nesse caso, ele está usando o valor abreviado com base na chave.</p> <p>Se quiser modificar o nome do agrupamento, você poderá alterar esse valor para o seguinte:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span><code>group.0.name=Your Value</code> </p> <p><code>Name</code> permite inserir qualquer texto para o nome do agrupamento, enquanto <code>namekey</code> requer que você insira uma chave que seja usada para traduzir o nome de um agrupamento.</p> <p>Para alterar o nome do agrupamento, você também pode adicionar a variável <code>displayname </code>linha, se uma não estiver presente.</p> </td> 
      </tr> 
      <tr> 
       <td><strong>displayname =</strong> </td> 
@@ -206,7 +209,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
     </tbody> 
    </table>
 
-1. (Opcional) Adicione uma das seguintes linhas de código a qualquer agrupamento para indicar se os resultados do agrupamento devem ser exibidos em uma lista expandida ou recolhida. Por padrão, os agrupamentos são expandidos:
+1. (Opcional) Adicione uma das seguintes linhas de código a qualquer agrupamento para indicar se os resultados do agrupamento devem ser exibidos em uma lista expandida ou recolhida. Por padrão, os agrupamentos são exibidos expandidos:
 
 
    ```
@@ -226,9 +229,9 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
      -->
 
    >[!TIP]
-   * Ao ajustar manualmente os agrupamentos ao visualizar uma lista, o Workfront lembra de sua preferência manual até que você saia. Quando você faz logon novamente, a lista é exibida de acordo com essa configuração.
-   * Os resultados de um agrupamento sempre são exibidos expandidos depois de acessá-los a partir de um elemento de gráfico.
+   >   
+   * Quando você ajusta agrupamentos manualmente ao visualizar uma lista, o Workfront lembra de sua preferência manual até que você faça logout. Ao fazer logon novamente, a lista é exibida de acordo com essa configuração.
+   * Os resultados de um agrupamento sempre são exibidos expandidos depois de acessados de um elemento do gráfico.
 
-
-1. Clique em **Concluído** se quiser salvar suas alterações e continuar editando o agrupamento ou relatório.
+1. Clique em **Concluído** se desejar salvar suas alterações e continuar editando o agrupamento ou relatório.
 1. Clique em **Salvar Agrupamento** em uma lista ou **Salvar + Fechar** para salvar seu relatório.

@@ -6,10 +6,10 @@ description: É possível editar as configurações de um relatório para defini
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 9%
+source-wordcount: '663'
+ht-degree: 6%
 
 ---
 
@@ -27,7 +27,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -74,7 +74,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
       <td>Selecione o usuário cujos direitos de acesso você deseja que este relatório use ao exibir para outros usuários. Para obter mais informações sobre como executar um relatório com os direitos de acesso de outro usuário, consulte o artigo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Executar e entregar um relatório com direitos de acesso de outro usuário</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Quando o relatório for carregado, mostrar</td> 
+      <td role="rowheader">Quando o relatório for carregado, mostrar a</td> 
       <td>Selecione a guia padrão exibida para todos os usuários quando o relatório for carregado.</td> 
      </tr> 
      <tr> 
@@ -90,7 +90,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
         --></p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Mostrar uma visualização especial na guia Detalhes</td> 
+      <td role="rowheader">Mostrar uma exibição especial na guia Detalhes</td> 
       <td>(Somente Relatório de Projeto) Especifique o tipo de visualização que os usuários verão ao acessarem essas informações na guia Detalhes. Por exemplo, você pode selecionar uma visualização de Marco ou Gantt.</td> 
      </tr> 
      <tr> 
@@ -122,6 +122,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 Consulte também:
 
 <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) -->
-* [Introdução aos relatórios no Adobe Workfront](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [Introdução a relatórios](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 * [Usar relatórios integrados do Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

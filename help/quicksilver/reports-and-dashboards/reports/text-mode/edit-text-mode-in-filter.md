@@ -6,9 +6,9 @@ description: "OBSERVAÇÃO: adicione uma seção a este artigo: /Content/Reports
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: be47bc4da5e3921a7c36e19831acde91aad55db1
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 É possível editar um filtro em uma lista ou relatório usando o modo de texto para acessar campos que não estão disponíveis na interface padrão e criar filtros mais complexos.
 
-Para obter mais exemplos de modo de texto ao criar um filtro, consulte também a seção &quot;Exemplos de filtros personalizados&quot; no artigo [Exibição personalizada, Filtro e Agrupamento de amostras](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+Para obter mais exemplos de modo de texto ao criar um filtro, consulte também a seção &quot;Exemplos de filtros personalizados&quot; no artigo [Exibição personalizada, filtro e amostras de agrupamento: índice do artigo](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Requisitos de acesso
 
@@ -33,7 +33,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -60,7 +60,7 @@ Para obter mais informações, consulte:
 
 * [Visão geral do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [Visão geral da sintaxe do modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [Exibição personalizada, Filtro e Agrupamento de amostras](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Exibição personalizada, filtro e amostras de agrupamento: índice do artigo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Modo de edição de texto em um filtro
 
@@ -163,12 +163,19 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
 >[!NOTE]
 >
 >Você pode ter várias instruções &quot;OR&quot; no mesmo filtro. Toda vez que você tem uma nova instrução &quot;OR&quot;, o número após &quot;OR:&quot; aumenta.
+>
 Para filtrar tarefas com status Em Andamento, atribuídas ao usuário conectado ou com Data de conclusão planejada para hoje, use o seguinte:
+>
 `status=INP`
+>
 `status_Mod=in`
+>
 `OR:1:assignedToID=$$USER.ID`
+>
 `OR:1:assignedToID_Mod=in`
+>
 `OR:2:plannedCompletionDate=$$TODAY`
+>
 `OR:2:plannedCompletionDate_Mod=eq`
 
 1. Clique em **Concluído** se quiser salvar suas alterações e continuar editando o relatório ou o filtro.

@@ -2,20 +2,22 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: Exibição personalizada, Filtro e Agrupamento de amostras
-description: Custom View, Filter, and Grouping samplesArtigo apropriado para índice". Não vi muito valor em organizar isso por objetos.)"
-author: Lisa and Nolan
+title: "Exibição personalizada, filtro e amostras de agrupamento: índice de artigos"
+description: Esta seção fornece exemplos de exibições, filtros e agrupamentos personalizados que você pode usar em sua conta do Adobe Workfront.
+author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
 
-# Exibição personalizada, Filtro e Agrupamento de amostras
+# Exibição personalizada, filtro e amostras de agrupamento: índice do artigo
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this used to be the content of this article but when I did the reorg of text mode for Kyna, Luke asked me to make this article a "TOC-proper article". I did not see much value in organizing this by objects.) </p>
