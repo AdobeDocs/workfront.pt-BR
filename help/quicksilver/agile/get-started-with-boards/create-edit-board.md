@@ -6,9 +6,9 @@ description: No [!UICONTROL quadros] painel, é possível criar um novo painel o
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 03abff907016809addbbf8f50eb2e6e012e6fed3
+source-git-commit: 5b6c7488bc1233e141e478da8546a05fcfffdc96
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '764'
 ht-degree: 1%
 
 ---
@@ -70,11 +70,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
       A variável [!UICONTROL **Cartões sendo adicionados**] O contador mostra quantos cartões estarão no quadro. Por exemplo, se você selecionar um projeto com 100 tarefas e problemas, o contador mostrará 100. Se você adicionar uma atribuição de usuário e essa pessoa for atribuída a cinco tarefas no projeto, o contador mostrará cinco.
 
-   1. (Opcional) Selecione [!UICONTROL **Incluir trabalho concluído**] para incluir cartões preenchidos na placa.
+   1. (Opcional) Selecione [!UICONTROL **Incluir trabalho concluído como cartões arquivados**] para trazer tarefas concluídas e problemas para a placa como cartões arquivados.
 
       >[!NOTE]
       >
-      >Se esta opção não estiver selecionada, quando os cartões em outros status estiverem marcados como concluídos, eles &quot;cairão&quot; do quadro e não serão mais exibidos.
+      >Por padrão, os cartões arquivados não são exibidos no quadro. Para exibir cartões arquivados, você deve ativar uma definição de configuração e filtrar a placa para mostrar cartões arquivados. Para obter detalhes, consulte [Personalizar quais campos são exibidos em um cartão](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) e [Filtrar e pesquisar em um quadro](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+      >
+      >Se essa opção não estiver selecionada, os cartões concluídos no momento da criação do quadro não aparecerão no quadro. Os cartões marcados posteriormente como completos permanecem no quadro na coluna Concluído e não são arquivados a menos que você configure o fallout de cartão. Para obter mais informações, consulte [Configurar queda de cartão](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
    1. (Opcional) Clique em [!UICONTROL **Usar filtros avançados**] para exibir opções de filtro adicionais.
 
