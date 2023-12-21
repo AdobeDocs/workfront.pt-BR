@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1951'
 ht-degree: 1%
 
 ---
@@ -51,6 +51,44 @@ A seguir estão algumas das principais capacidades do Maestro:
 * Resolva o problema de gerenciamento de trabalho em todos os estágios e para todas as partes interessadas que participam do processo de trabalho.
 * Personalize totalmente seus workflows, desde decidir quais tipos de objeto (ou tipos de registro) sua organização usa até configurar como esses objetos se vinculam uns aos outros.
 * Link para tipos de objetos de outros sistemas, criando uma estrutura coerente para todos os seus processos.
+
+## Recursos atualmente disponíveis em Maestro
+
+A tabela a seguir ilustra os principais recursos que estarão disponíveis no Maestro, e uma linha do tempo de sua disponibilidade. A lista não inclui todos os recursos.
+
+| Recurso | Disponível agora | Disponível em breve | Em pesquisa |
+|----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
+| Criar espaços de trabalho | ✓ µ |                                  |                  |
+| Criar tipos de registro operacional | ✓ µ |                                  |                  |
+| Criar taxonomias | ✓ µ |                                  |                  |
+| Criar registros e taxonomias individuais e nomeados | ✓ µ |                                  |                  |
+| Criar campos personalizados de registro | ✓ µ |                                  |                  |
+| Importar tipos e campos de registro usando um arquivo Excel ou CSV | ✓ µ |                                  |                  |
+| Vincular registros | ✓ µ |                                  |                  |
+| Exibir registros em uma tabela | ✓ µ |                                  |                  |
+| Exibir registros em uma linha do tempo | ✓ µ |                                  |                  |
+| Filtrar registros | ✓ µ |                                  |                  |
+| Agrupar registros na exibição de linha do tempo | ✓ µ |                                  |                  |
+| Agrupar registros na exibição de tabela | ✓ µ |                                 |                  |
+| Classificar registros na exibição de tabela | ✓ µ |                                 |                  |
+| Classificar registros na exibição de linha do tempo |                               | ✓ µ |                  |
+| Classificar agrupamentos na exibição de tabela |                               | ✓ µ |                  |
+| Classificar agrupamentos na exibição de linha do tempo |                               | ✓ µ |                  |
+| Conectar espaços de trabalho |                               | ✓ µ |                  |
+| Conectar registros e taxonomias do Maestri | ✓ µ |
+| Procurar registros na exibição de tabela | ✓ µ |   |
+| Conecte registros do Maestro a projetos, programas, portfólios, empresas e grupos da Workfront | ✓ µ |                                 |                  |
+| Conectar registros do Maestri aos ativos da Adobe Experience Manager | ✓ µ |                                  |                 |
+| Página de detalhes do registro | ✓ µ |                                  |                  |
+| Atualizar o layout da página Detalhes do registro |                               | ✓ µ |                  |
+| Permissões do Workspace | | ✓ µ |  |
+| Enviar solicitações |                               |                                  | ✓ µ |
+| Resumo criativo |                               |                                  | ✓ µ |
+| Personalizar a cor e o ícone de um registro | ✓ µ |                                  |                 |
+| Adicionar comentários aos registros | ✓ µ |                                  |                 |
+| Formatação de Rich Text para campos de parágrafo | ✓ µ |                                  |                 |
+| Módulos Maestri para o Adobe Workfront Fusion | ✓ µ |                                  |                 |
+| Copiar e colar informações de um campo para outro | ✓ µ |                                  |                 |
 
 ## Acesso necessário para usar o Maestro durante o programa beta fechado
 
@@ -344,44 +382,6 @@ Para localizar o Maestro:
    1. Criar uma exibição de Linha do tempo na **Exibir** no canto superior direito da página tipo de registro.
 
    1. Personalize a exibição da linha do tempo atualizando Filtros, Agrupamentos ou Configurações.
-
-## Recursos atualmente disponíveis em Maestro
-
-A tabela a seguir ilustra os principais recursos que estarão disponíveis no Maestro, e uma linha do tempo de sua disponibilidade. A lista não inclui todos os recursos.
-
-| Recurso | Disponível agora | Disponível em breve | Em pesquisa |
-|----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
-| Criar espaços de trabalho | ✓ µ |                                  |                  |
-| Criar tipos de registro operacional | ✓ µ |                                  |                  |
-| Criar taxonomias | ✓ µ |                                  |                  |
-| Criar registros e taxonomias individuais e nomeados | ✓ µ |                                  |                  |
-| Criar campos personalizados de registro | ✓ µ |                                  |                  |
-| Importar tipos e campos de registro usando um arquivo Excel ou CSV | ✓ µ |                                  |                  |
-| Vincular registros | ✓ µ |                                  |                  |
-| Exibir registros em uma tabela | ✓ µ |                                  |                  |
-| Exibir registros em uma linha do tempo | ✓ µ |                                  |                  |
-| Filtrar registros | ✓ µ |                                  |                  |
-| Agrupar registros na exibição de linha do tempo | ✓ µ |                                  |                  |
-| Agrupar registros na exibição de tabela | ✓ µ |                                 |                  |
-| Classificar registros na exibição de tabela | ✓ µ |                                 |                  |
-| Classificar registros na exibição de linha do tempo |                               | ✓ µ |                  |
-| Classificar agrupamentos na exibição de tabela |                               | ✓ µ |                  |
-| Classificar agrupamentos na exibição de linha do tempo |                               | ✓ µ |                  |
-| Conectar espaços de trabalho |                               | ✓ µ |                  |
-| Conectar registros e taxonomias do Maestri | ✓ µ |
-| Procurar registros na exibição de tabela | ✓ µ |   |
-| Conecte registros do Maestro a projetos, programas, portfólios, empresas e grupos da Workfront | ✓ µ |                                 |                  |
-| Conectar registros do Maestri a ativos, pastas e coleções do Adobe Experience Manager | ✓ µ |                                  |                 |
-| Página de detalhes do registro | ✓ µ |                                  |                  |
-| Atualizar o layout da página Detalhes do registro |                               | ✓ µ |                  |
-| Permissões do Workspace | | ✓ µ |  |
-| Enviar solicitações |                               |                                  | ✓ µ |
-| Resumo criativo |                               |                                  | ✓ µ |
-| Personalizar a cor e o ícone de um registro | ✓ µ |                                  |                 |
-| Adicionar comentários aos registros |                               | ✓ µ |                 |
-| Formatação de Rich Text para campos de parágrafo | ✓ µ |                                  |                 |
-
-
 
 ## Atividade de lançamento do Maestri
 

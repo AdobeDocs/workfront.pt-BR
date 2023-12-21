@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '3158'
+source-wordcount: '3169'
 ht-degree: 1%
 
 ---
@@ -186,7 +186,7 @@ O espaço de trabalho acessado por último deve ser aberto por padrão.
 
 
 1. Clique em **+** ícone no canto superior direito da exibição de tabela para adicionar novos campos.
-1. No **Novo campo** selecione entre os seguintes tipos de campo:
+1. No **Novo campo** , procure por um tipo de campo no campo **Tipo de campo** ou selecione um dos seguintes tipos de campo:
 
    * [Texto de linha única](#single-line-text)
    * [Parágrafo](#paragraph)

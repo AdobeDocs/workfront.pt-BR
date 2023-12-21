@@ -6,9 +6,9 @@ description: Ao fornecer comentários de atualização em um objeto do Adobe Wor
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1583'
 ht-degree: 0%
 
 ---
@@ -38,9 +38,10 @@ ht-degree: 0%
 >
 >A nova experiência de comentários está disponível somente para a seção Atualizações de objetos do Workfront e não está disponível quando você acessa os objetos das seguintes áreas:
 >
-> * Página inicial
+> * Início
 > * Painel Resumo em listas
 > * Painel Resumo em Planilhas de Horas
+> * Painel Resumo no Balanceador de carga de trabalho
 
 Você pode adicionar tags aos usuários ao fazer uma atualização em um objeto se quiser chamar a atenção deles para um objeto que, de outra forma, eles poderiam não seguir.
 
@@ -66,7 +67,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>plano do Adobe Workfront*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 

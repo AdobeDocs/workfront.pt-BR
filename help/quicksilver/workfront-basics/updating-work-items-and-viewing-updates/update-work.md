@@ -6,9 +6,9 @@ description: Você pode adicionar uma atualização em um objeto do Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '4163'
+source-wordcount: '4172'
 ht-degree: 1%
 
 ---
@@ -42,6 +42,7 @@ After the monthly releases to Production, the same features are also available i
 > * Início
 > * Painel Resumo em listas
 > * Painel Resumo em Planilhas de Horas
+> * Painel Resumo no Balanceador de carga de trabalho
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -100,7 +101,7 @@ After the monthly releases to Production, the same features are also available i
 
    * De um objeto do Workfront, na seção Atualizações
    * Na área Início (para tarefas e problemas)
-   * No painel Resumo, em uma lista de objetos ou em uma folha de horas (para tarefas e problemas)
+   * No painel Resumo, em uma lista de objetos, uma folha de horas ou no Balanceador de carga de trabalho (para tarefas e problemas)
 
 As informações nesta página descrevem como comentar em objetos do Workfront e como você atualiza projetos, tarefas e problemas ao adicionar comentários a eles.
 

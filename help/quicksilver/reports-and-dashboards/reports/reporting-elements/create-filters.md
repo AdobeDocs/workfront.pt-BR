@@ -6,7 +6,7 @@ description: É possível limitar a quantidade de informações exibidas na tela
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 1%
@@ -149,24 +149,24 @@ Considere o seguinte ao criar filtros usando as diferentes interfaces:
   >
   >1. Use o construtor padrão para criar um filtro que tenha a seguinte sintaxe:
   >
-  >   `(A OR B) AND C`
+  >      `(A OR B) AND C`
   >
   >1. Alterne para o construtor herdado e edite o filtro usando a sintaxe do construtor herdado, conforme descrito na seção [Criar ou editar um filtro no construtor herdado](#create-filter-in-legacy-builder) neste artigo. A sintaxe do construtor herdado exibe as instruções de filtro da seguinte maneira:
   >
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
+  >      `A AND C`
+  >      `OR`
+  >      `B AND C`
   >
   >1. Faça uma alteração no filtro na interface herdada.
   >1. Volte para o construtor padrão. A instrução de filtro é exibida de acordo com a lógica suportada no construtor herdado, conforme descrito acima.
   >
-  >   O filtro é exibido na interface do construtor padrão da seguinte maneira:
+  >      O filtro é exibido na interface do construtor padrão da seguinte maneira:
   >  
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
+  >      `A AND C`
+  >      `OR`
+  >      `B AND C`
   > 
-  >   Isso acontece porque o filtro foi modificado na interface herdada.
+  >      Isso acontece porque o filtro foi modificado na interface herdada.
 
 ## Criar ou editar um filtro no construtor padrão
 
