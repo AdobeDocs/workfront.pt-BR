@@ -7,26 +7,26 @@ description: Ao gerenciar atribuições de tarefas e problemas, você pode usar 
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
 
 # Visão geral das atribuições inteligentes
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
-  
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
--->
 
-Ao gerenciar atribuições de tarefas e problemas, você pode usar atribuições inteligentes para identificar quem é o melhor usuário para concluir o trabalho. As atribuições inteligentes são sugestões que o Adobe Workfront apresenta ao atribuir itens de trabalho a recursos com base em um algoritmo que determina o recurso mais apropriado para o trabalho.
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes.</span>
+
+<span class="preview">Para obter informações sobre a programação de lançamento atual, consulte [Visão geral da versão do primeiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+
+Ao gerenciar atribuições de tarefas e problemas, você pode usar atribuições inteligentes para identificar quem é o melhor recurso para concluir o trabalho. As atribuições inteligentes são sugestões que o Adobe Workfront apresenta ao atribuir itens de trabalho a recursos com base em um algoritmo que determina o recurso mais apropriado para o trabalho. As atribuições inteligentes podem ser usuários, funções de trabalho ou equipes.
 
 >[!NOTE]
 >
->As atribuições inteligentes não levam em conta a disponibilidade do usuário. No entanto, sua disponibilidade de acordo com seus agendamentos afeta as Datas Planejadas e Projetadas das tarefas e problemas quando são atribuídas. Para obter informações sobre cronogramas, consulte o artigo [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>Ao sugerir usuários, as atribuições inteligentes não levam em conta a disponibilidade do usuário. No entanto, sua disponibilidade de acordo com seus agendamentos afeta as Datas Planejadas e Projetadas das tarefas e problemas quando são atribuídas. Para obter informações sobre cronogramas, consulte o artigo [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 Este artigo contém informações gerais sobre atribuições inteligentes. Para obter informações sobre como usar atribuições inteligentes para atribuir tarefas e problemas a usuários, consulte [Fazer atribuições inteligentes](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md).
 
@@ -43,90 +43,79 @@ Considere o seguinte ao trabalhar com atribuições inteligentes:
 
 Você pode ver as atribuições inteligentes nas seguintes áreas onde pode atribuir tarefas ou problemas:
 
-* Uma lista de tarefas ou problemas ou um relatório <!--edit this to say just issue list or report and update screen shot - add new one-->
+* Uma lista de problemas ou um relatório na coluna Atribuições
 
-  ![](assets/smart-assignments-task-list-nwe-350x280.png)
+  ![](assets/smart-assignments-issue-list.png)
 
-<!--
-* <span class="preview">A task list or report (******insert shot here*****)</span>
--->
+* <span class="preview">Uma lista de tarefas ou um relatório na coluna Atribuições </span>
 
-* Um cabeçalho de tarefa ou problema
+  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+
+* Um cabeçalho de tarefa ou problema no campo Atribuições
 
   ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
-* O painel Resumo de tarefas ou problemas
+* O painel Resumo de tarefas ou problemas na área Atribuições
 
   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
-* O campo Atribuições de um item listado na área Página inicial
+* O campo Atribuições para um item listado na área Página inicial na área Atribuições, quando você abre uma tarefa ou problema
 
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 
-
-<!--removed for scheduling deprecation: 
-
-* Resource Scheduling
-
-  ![](assets/smart-assignments-scheduling-350x219.png)
-
-  >[!CAUTION]
-  >
-  >Resource Scheduling is a deprecated feature. For more information, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
-
--->
-* Balanceador de carga de trabalho
+* O Balanceador de carga de trabalho na área Atribuído a quando você atribui uma tarefa ou problema
 
   ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Critérios de atribuições inteligentes
 
-<!--
+
 <div class="preview">
 
-Smart assignments work differently for tasks than for issues.  
+As atribuições inteligentes funcionam de forma diferente para tarefas e para problemas.
 
-### Smart assignments criteria for tasks
+### Critérios de atribuições inteligentes para tarefas
 
-Task smart assignments work in two phases:  
+O cálculo de atribuições inteligentes de tarefas funciona em duas fases.
 
-#### First phase of smart assignment calculation criteria for tasks 
+#### Primeira fase do cálculo de atribuição inteligente para tarefas
 
-Workfront calculates a similarity score for every assignment. The calculation for the similarity score and the order in which the assignments are listed take into account the following:  
+Na primeira fase do cálculo das atribuições inteligentes, o Workfront calcula uma pontuação de similaridade para cada atribuição. O cálculo da pontuação de similaridade e a ordem na qual as atribuições são listadas consideram o seguinte:
 
-* A score of 100% is given to an existing assignment where the task, project, and portfolio names are identical to the task you're trying to assign. The project and portfolio names of the task of an existing assignment must also match the project and portfolio of the task you are trying to assign.   
+* Uma pontuação de 100% é atribuída a uma atribuição existente na qual os nomes da tarefa, do projeto e do portfólio são idênticos à tarefa que você está tentando atribuir. Os nomes do projeto e do portfólio da tarefa de uma atribuição existente também devem corresponder ao projeto e ao portfólio da tarefa que você está tentando atribuir.
 
-* If only some of this information from other assignments matches on the existing tasks, the score might be lower.  
+* Se apenas algumas dessas informações de outras atribuições corresponderem às tarefas existentes, a pontuação poderá ser inferior a 100%.
 
-  For example, if you are assigning a task called "My second task" on a project called "My project" in a portfolio called "My portfolio" and you have an existing task called "My task" in another project called "My project" in a portfolio called "My portfolio", the user assigned to "My task" might get a score of 95% because the name of the existing task and the task you're trying to assign now are similar, but not identical.  
- 
-    >[!TIP]
-    >
-    >  Workfront looks for matches only in the Name fields of tasks, projects, and portfolios and not in any other fields. 
+  Por exemplo, se você estiver atribuindo uma tarefa chamada &quot;Minha segunda tarefa&quot; em um projeto chamado &quot;Meu projeto&quot; em um portfólio chamado &quot;Meu portfólio&quot; e tiver uma tarefa existente chamada &quot;Minha tarefa&quot; em outro projeto chamado &quot;Meu projeto&quot; em um portfólio chamado &quot;Meu portfólio&quot;, o usuário atribuído a &quot;Minha tarefa&quot; poderá obter uma pontuação de 95%, pois o nome da tarefa existente e da tarefa que você está tentando atribuir agora são semelhantes, mas não idênticos.
 
-* An assignment could get a higher score when they are assigned to a lot of tasks in the system that are similar in names. For example, if a team called "Development" is assigned to 50% of the tasks in the system containing "AI" in the name and you are now assigning another task with "AI" in the name, the score of the "Development" team is higher. In this case, the names of  projects and portfolios are not as important.  
+  >[!TIP]
+  >
+  >  O Workfront procura correspondências somente nos campos Nome de tarefas, projetos e portfólios, e não em nenhum outro campo.
 
-* Taking into account this scoring system, the first 7 suggestions are listed as smart assignments, in the descending order of their scores. Assignments with scores lower than 40% do not display.  
+* Uma atribuição pode obter uma pontuação mais alta quando é atribuída a muitas tarefas no sistema que têm nomes semelhantes. Por exemplo, se uma equipe chamada &quot;Desenvolvimento&quot; for atribuída a 50% das tarefas no sistema que contém &quot;AI&quot; no nome e você estiver atribuindo outra tarefa com &quot;AI&quot; no nome, a pontuação da equipe de &quot;Desenvolvimento&quot; será maior. Nesse caso, os nomes dos projetos e portfólios não são tão importantes.
 
-* If several assignments have identical scores, they display in descending order of the date on which the assignments were made.  
-For example, if Rick was assigned to a similar task earlier today and Jennifer was assigned to a similar task two days ago, Rick displays first.  
+* Levando em conta esse sistema de pontuação, as primeiras 7 sugestões são listadas como atribuições inteligentes, na ordem decrescente de suas pontuações. Atribuições com pontuações inferiores a 40% não são exibidas.
 
-* If there are no matches using this calculation, the second step of smart assignments applies which is calculated using a different algorithm.  
+* Se várias atribuições tiverem pontuações idênticas, elas serão exibidas na ordem da data em que foram feitas, a partir da data mais recente.
 
-#### Second phase of smart assignment calculation criteria for tasks
+  Por exemplo, se Rick foi designado a uma tarefa semelhante hoje e Jennifer foi designada a uma tarefa semelhante dois dias atrás, Rick aparece primeiro.
 
-If the first step of task smart assignments has found no matches, Workfront calculates smart assignments for tasks in the same way that it calculates them for issues.  
+* Se não houver correspondências usando esse cálculo, a segunda fase das atribuições inteligentes começa, que é calculada usando um algoritmo diferente.
 
-### Smart assignments criteria for tasks and issues 
+#### Segunda fase do cálculo de atribuição inteligente para tarefas
 
-</div> 
+Se a primeira etapa das atribuições inteligentes de tarefas não encontrar correspondências, o Workfront calcula as atribuições inteligentes para tarefas da mesma forma que as calcula para problemas.
+
+Para obter mais informações, consulte a seção [Critérios de atribuições inteligentes para tarefas e problemas](#smart-assignments-criteria-for-tasks-and-issues) neste artigo.
+
+### Critérios de atribuições inteligentes para tarefas e problemas
+
+</div>
 
 >[!NOTE]
 >
-><span class="preview">The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. The following criteria always applies for issues, by default. </span>
-
--->
+><span class="preview">Os critérios a seguir se aplicam às tarefas somente quando a primeira fase do cálculo de atribuição inteligente de tarefa não encontrou correspondências. para obter informações, consulte a seção [Primeira fase do cálculo de atribuição inteligente para tarefas](#first-phase-of-smart-assignment-calculation-for-tasks) neste artigo. Os critérios a seguir sempre se aplicam a problemas, por padrão. </span>
 
 Os usuários são recomendados na lista suspensa atribuições inteligentes com base em uma combinação dos seguintes critérios (listados na ordem do mais importante para o menos importante):
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
+source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
 workflow-type: tm+mt
-source-wordcount: '2796'
+source-wordcount: '2870'
 ht-degree: 0%
 
 ---
@@ -87,6 +87,26 @@ A experiência de comentários para registros do Maestro corresponde à nova exp
 
 Para obter mais informações, consulte [Gerenciar comentários de registro](/help/quicksilver/maestro/records/manage-record-comments.md).
 
+### Conector Maestri (beta) para Adobe Workfront Fusion
+
+Pré-visualização e produção: 21 de dezembro de 2023
+
+Agora, você pode usar o Adobe Workfront Fusion para se conectar ao Maestro. Com a nova conexão Adobe Maestro Fusion, você pode:
+
+* Criar, ler, atualizar e excluir registros
+
+* Obter uma lista de registros por tipo de registro
+
+* Excluir ou obter uma lista de tipos de registros
+
+* Pesquisar registros
+
+* Fazer uma chamada de API
+
+* Acionar um cenário quando uma alteração for feita no Maestro
+
+Para obter mais informações, consulte [Módulos do Adobe Maestri](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md).
+
 ## Semana de 11 de dezembro de 2023
 
 ### Atualizar o campo principal em uma exibição de tabela de um tipo de registro
@@ -126,7 +146,7 @@ Para obter mais informações, consulte [Gerenciar exibição de tabela](/help/q
 
 Versão de pré-visualização: 14 de dezembro de 2023
 
-Versão de produção: planejado para 15 de dezembro de 2023
+Versão de produção: 21 de dezembro de 2023
 
 >[!IMPORTANT]
 >

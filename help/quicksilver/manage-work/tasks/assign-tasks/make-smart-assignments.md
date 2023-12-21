@@ -6,20 +6,18 @@ description: Você pode usar atribuições inteligentes para identificar quem é
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
 
 # Fazer atribuições inteligentes
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
-  
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
--->
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes.</span>
+
+<span class="preview">Para obter informações sobre a programação de lançamento atual, consulte [Visão geral da versão do primeiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
 
 Você pode usar atribuições inteligentes para identificar quem é o melhor usuário para concluir o trabalho. As atribuições inteligentes são sugestões para usuários que o Adobe Workfront apresenta quando você atribui itens de trabalho a recursos com base em um algoritmo que determina o recurso mais apropriado para a tarefa. Para obter informações sobre atribuições inteligentes, consulte [Visão geral das atribuições inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
@@ -60,24 +58,21 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
 As atribuições inteligentes estão disponíveis na maioria dos locais onde você pode fazer atribuições no Workfront.
 
-1. Vá para as seguintes áreas e clique no botão **Atribuições** ou **Atribuir esta para** campo:   
+1. Vá para as seguintes áreas e clique no botão **Atribuições** ou **Atribuir esta para** campo:
 
    * Uma lista de tarefas ou problemas ou um relatório
    * Um cabeçalho de tarefa ou problema
    * O painel Resumo de tarefas ou problemas
    * O campo Atribuições de um item listado na área Página inicial
-   * Uma tarefa ou problema nas áreas Agendamento ou Agendamento
    * Uma tarefa ou problema no Balanceador de carga de trabalho
 
-1. Coloque o cursor no campo de atribuição e aguarde dois segundos. A variável **Atribuições sugeridas** ou o **Aqui estão algumas recomendações** é exibida.
+1. Coloque o cursor no campo de atribuição e aguarde dois segundos.
 
-   <!--check the casing for "assignments" should be lower case in task lists??-->
+   <span class="preview">A variável **Atribuições sugeridas** é exibida.</span> <!--check the casing for "assignments" should be lower case in task lists??-->
 
-   <!--replace the last sentence above with this when we release smarter assignments:
-   The **Suggested assignments** list displays. 
-   NOTE (********and add preview tags for the note*****)
-   The list header displays **Here are a few recommendations** instead of **Suggested assignments** in an issue list.
-   -->
+   >[!TIP]
+   >
+   >   O cabeçalho da lista é exibido **Aqui estão algumas recomendações** em vez de **Atribuições sugeridas** em uma lista de problemas.
 
    ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
@@ -85,7 +80,9 @@ As atribuições inteligentes estão disponíveis na maioria dos locais onde voc
 
    Para obter mais informações sobre onde as atribuições inteligentes são exibidas, consulte a seção &quot;Localizar sugestões de atribuições inteligentes&quot; no artigo [Visão geral das atribuições inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
 
-1. Selecione o usuário na lista de recomendações clicando no nome. Clicando **Atribuir a mim** atribui o item de trabalho a si mesmo.
+1. Selecione o usuário na lista de recomendações clicando no nome.
+
+1. (Opcional) Clique em **Atribuir a mim** para atribuir o item de trabalho a si mesmo.
 
    >[!TIP]
    >
