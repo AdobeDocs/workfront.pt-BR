@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '995'
 ht-degree: 2%
 
 ---
@@ -44,7 +44,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront</td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
@@ -134,7 +134,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><
        <ul>
         <li>Data de conclusão planejada</li>
         <li>Data de confirmação</li>
-        <li><p>Data de Envio</p></li>
+        <li>Data de Envio</li>
        </ul><p><b>NOTA</b>: quando esta opção está ativada, os itens de trabalho que estão vencidos são movidos para o agrupamento Atrasado na Lista de trabalho da página inicial com base somente na data, não na hora.</p></td> 
      </tr> 
     </tbody> 

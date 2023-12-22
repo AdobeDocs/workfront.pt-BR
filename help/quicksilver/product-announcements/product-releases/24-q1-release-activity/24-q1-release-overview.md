@@ -4,9 +4,9 @@ description: Visão geral da versão do primeiro trimestre de 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 1ccbab53684928974ef739b0176a6ea893a27320
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1372'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,40 @@ O webinário da versão 24.1 será realizado em 11 de janeiro de 2024. Você pod
                             </li>
                             <li>
                                 <p>Produção para versão trimestral: com a versão 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
+### Melhorias nas placas
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Recurso</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Datas de lançamento</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Os painéis dinâmicos arquivam cartões concluídos quando o painel é criado</a></p><p>[!BADGE Na produção ]{type=Informative}</p><p>Ao criar um quadro dinâmico, você tem a opção de incluir tarefas concluídas e problemas no quadro. Para projetos com um grande número de tarefas concluídas e problemas, o quadro dinâmico pode ter problemas de desempenho. Agora, ao criar um quadro dinâmico e optar por incluir o trabalho concluído, as tarefas e os problemas são trazidos para o quadro como cartões arquivados.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 21 de dezembro de 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produção para todos os clientes: 21 de dezembro de 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -170,6 +204,24 @@ O webinário da versão 24.1 será realizado em 11 de janeiro de 2024. Você pod
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Controles do administrador para nova Página inicial usando modelos de layout</a></p><p>Agora, os administradores podem personalizar a nova Página inicial para usuários que usam modelos de layout. As opções de personalização incluem a seleção de elementos obrigatórios e a sua posição, a escolha de um plano de fundo e opções específicas de elementos para a escolha de filtros e grupos disponíveis (bem como a definição dos valores padrão).</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 21 de dezembro de 2023</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão rápida: com a versão 24.1</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão trimestral: com a versão 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Os botões de ação rápida Meu Trabalho foram alterados para serem exibidos somente ao passar o mouse</a></p><p>[!BADGE Na produção ]{type=Informative}</p><p>Para melhorar o desempenho, os botões de ação rápida disponíveis no widget Meu trabalho agora serão exibidos somente quando um item de trabalho for focalizado com o mouse.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -228,6 +280,44 @@ O webinário da versão 24.1 será realizado em 11 de janeiro de 2024. Você pod
                             </li>
                             <li>
                                 <p><span class="preview">Produção para todos os clientes: 9 de novembro de 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+           </tbody>
+        </table>
+
+
+### Aprimoramentos do projeto
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Recurso</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Datas de lançamento</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Atribuições inteligentes orientadas por IA</a></p><p>Alteramos o algoritmo que o Workfront usa para calcular e sugerir atribuições inteligentes para tarefas. O novo algoritmo se aplica em qualquer lugar no Workfront em que você atribui uma tarefa (listas de tarefas, a área Atribuições no cabeçalho da tarefa, Início e o painel Resumo).</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 21 de dezembro de 2023</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão rápida: com a versão 24.1</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão trimestral: com a versão 24.1</p>
                             </li>
                         </ul>
                     </td>
