@@ -4,9 +4,9 @@ description: Visão geral da versão do primeiro trimestre de 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: c32ff93b682ffd6333dcf50096d674a4eeaccef3
+source-git-commit: 845f0c04923f6e35dcb004ba807c79577385462b
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1354'
 ht-degree: 0%
 
 ---
@@ -205,24 +205,24 @@ O webinário da versão 24.1 será realizado em 11 de janeiro de 2024. Você pod
                         </p>
                     </td>
                  </tr>
-                 <tr>
+<!--                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Controles do administrador para nova Página inicial usando modelos de layout</a></p><p>Agora, os administradores podem personalizar a nova Página inicial para usuários que usam modelos de layout. As opções de personalização incluem a seleção de elementos obrigatórios e a sua posição, a escolha de um plano de fundo e opções específicas de elementos para a escolha de filtros e grupos disponíveis (bem como a definição dos valores padrão).</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Administrator controls for new Home using layout templates</a></p><p>Administrators can now customize new Home for users using layout templates. Customization options include selecting mandatory widgets and their position, choosing a background, and widget-specific options for choosing available filters and groups (and setting defaults).</p>
                     </td>
-                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                    <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Versão de pré-visualização: 21 de dezembro de 2023</p>
+                                <p>Preview release: December 21, 2023</p>
                             </li>
                             <li>
-                                <p>Produção para versão rápida: com a versão 24.1</p>
+                                <p>Production for fast release: With the 24.1 release</p>
                             </li>
                             <li>
-                                <p>Produção para versão trimestral: com a versão 24.1</p>
+                                <p>Production for quarterly release: With the 24.1 release</p>
                             </li>
                         </ul>
                     </td>
-                </tr>
+                </tr>-->
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Os botões de ação rápida Meu Trabalho foram alterados para serem exibidos somente ao passar o mouse</a></p><p>[!BADGE Na produção ]{type=Informative}</p><p>Para melhorar o desempenho, os botões de ação rápida disponíveis no widget Meu trabalho agora serão exibidos somente quando um item de trabalho for focalizado com o mouse.</p>
