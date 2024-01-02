@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 2%
@@ -502,9 +502,12 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
 
 ## Linha do tempo de lançamento
 
-Para obter informações sobre os recursos lançados para a nova experiência de comentários durante o período beta, consulte [Novo comentário sobre a atividade de lançamento de experiência beta](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+>[!IMPORTANT]
+>
+>Para obter informações sobre os recursos lançados para a nova experiência de comentários durante o período beta, consulte [Novo comentário sobre a atividade de lançamento de experiência beta](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+>
+>Para obter mais informações sobre o gerenciamento de atualizações para objetos do Workfront, consulte [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Para obter mais informações sobre o gerenciamento de atualizações para objetos do Workfront, consulte [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Veja a seguir uma linha do tempo planejada com marcos importantes para o lançamento da nova experiência de comentários no ambiente de produção. Além dos marcos abaixo, continuaremos a melhorar a experiência de comentários com aprimoramentos menores.
 

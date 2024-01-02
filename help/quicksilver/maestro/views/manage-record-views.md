@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '791'
 ht-degree: 1%
 
 ---
@@ -60,19 +60,19 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr>
    <td role="rowheader"><p>plano do Adobe Workfront</p></td>
    <td>
-<p>Qualquer Um</p>
+<p>Qualquer</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td>
    <td>
-   <p>Qualquer Um</p> 
+   <p>Qualquer</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Nível de acesso</td>
-   <td> <p>Qualquer Um</p>  
+   <td> <p>Qualquer</p>  
 </td>
   </tr>
 
@@ -134,18 +134,19 @@ A tabela a seguir mostra as semelhanças e diferenças entre as visualizações 
 | Recurso | Visualização em tabela | Exibição da linha do tempo |
 |-----------------------------------------------------------------------|------------|---------------|
 | Exibir registros em uma lista ou tabela | ✓ µ |              |
-| Exibir todos os campos como colunas na tabela, por padrão | ✓ |              |
-| Ocultar ou mostrar campos (ou colunas) | ✓ |               |
-| Editar valores de campo para cada registro | ✓ |               |
-| Adicionar registros como novas linhas na exibição | ✓ |               |
-| Adicionar campos como novas colunas na exibição | ✓ |               |
-| Copiar linhas de uma lista externa e colá-las em uma tabela | ✓ |               |
-| Exibir registros em uma linha do tempo |            | ✓ |
-| Filtrar registros | ✓ | ✓ |
-| Registros de grupo |           | ✓ |
-| Classificar registros | ✓ |              |
-| Registros de código de cores |           | ✓ |
-| Agrupamentos de código de cores |           | ✓ |
+| Exibir todos os campos como colunas na tabela, por padrão | ✓ µ |              |
+| Ocultar ou mostrar campos (ou colunas) | ✓ µ |               |
+| Editar valores de campo para cada registro | ✓ µ |               |
+| Adicionar registros como novas linhas na exibição | ✓ µ |               |
+| Adicionar campos como novas colunas na exibição | ✓ µ |               |
+| Copiar linhas de uma lista externa e colá-las em uma tabela | ✓ µ |               |
+| Exibir registros em uma linha do tempo |            | ✓ µ |
+| Filtrar registros | ✓ µ | ✓ µ |
+| Registros de grupo |           | ✓ µ |
+| Classificar registros | ✓ µ |              |
+| Registros de código de cores |           | ✓ µ |
+| Agrupamentos de código de cores |           | ✓ µ |
+| Pesquisar registros | ✓ µ | ✓ µ |
 
 <!--| Sort groupings                                                        | ✓          | ✓             |-->
 <!--| Display a limited number of fields as columns, by default                      | ✓          |               |-->

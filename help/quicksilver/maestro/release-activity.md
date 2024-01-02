@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2944'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,15 @@ Only Workfront administrators can create, edit, or delete workspaces and all inf
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
-## Semana de 18 de dezembro de 2024
+## Semana de 25 de dezembro de 2023
+
+### Pesquisar na exibição de linha do tempo
+
+Pré-visualização e produção: 27 de dezembro de 2023
+
+Agora é possível pesquisar uma palavra-chave para localizar rapidamente um registro na exibição de linha do tempo. Você pode usar palavras-chave e caracteres especiais de qualquer campo visível na tela para localizar um registro. Para obter informações, consulte [Gerenciar a exibição de linha do tempo](../maestro/views/manage-the-timeline-view.md).
+
+## Semana de 18 de dezembro de 2023
 
 ### Adicionar comentários nos registros da página Detalhes
 
@@ -331,7 +339,7 @@ Para obter mais informações, consulte [Gerenciar a exibição de linha do temp
 
 Pré-visualização e produção: 9 de outubro de 2023
 
-Agora é possível pesquisar uma palavra-chave para localizar rapidamente um registro na exibição de tabela. Você pode usar palavras-chave e caracteres especiais em qualquer campo visível na tela para localizar um registro. Para obter informações, consulte [Gerenciar a exibição de tabela](../maestro/views/manage-the-table-view.md).
+Agora é possível pesquisar uma palavra-chave para localizar rapidamente um registro na exibição de tabela. Você pode usar palavras-chave e caracteres especiais de qualquer campo visível na tela para localizar um registro. Para obter informações, consulte [Gerenciar a exibição de tabela](../maestro/views/manage-the-table-view.md).
 
 ## Semana de 18 de setembro de 2023
 

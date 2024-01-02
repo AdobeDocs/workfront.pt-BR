@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4d3b571e64fef98abd69bc67f94953a5eb73ea20
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '1507'
-ht-degree: 1%
+source-wordcount: '1648'
+ht-degree: 0%
 
 ---
 
@@ -60,19 +60,19 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr>
    <td role="rowheader"><p>plano do Adobe Workfront</p></td>
    <td>
-<p>Qualquer Um</p>
+<p>Qualquer</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td>
    <td>
-   <p>Qualquer Um</p> 
+   <p>Qualquer</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Nível de acesso</td>
-   <td> <p>Qualquer Um</p>  
+   <td> <p>Qualquer</p>  
 </td>
   </tr>
 <tr>
@@ -145,6 +145,20 @@ Para gerenciar uma exibição de linha do tempo:
    Clique em **Alternar para exibição compacta** para exibir os registros cujas datas não se cruzam na mesma linha. <!--check to see if they updated the name of the setting here-->
 
    Os registros são exibidos na exibição Compacta por padrão.
+
+1. Faça o seguinte para localizar rapidamente registros que correspondam a uma palavra-chave:
+
+   1. Clique em **Pesquisar** ícone ![](assets/search-icon.png) e comece a digitar uma palavra-chave associada a qualquer campo de um registro exibido na tela. O número de correspondências corretas é exibido ao lado do item de pesquisa e o registro com a correspondência correta é realçado.
+
+      ![](assets/search-box-and-results-timeline-view.png)
+
+      Você pode usar qualquer palavra ou caractere especial visível na tela.
+
+      Não é possível usar palavras-chave associadas a campos ocultos na exibição de tabela.
+
+   1. Pressione Enter no teclado para ir para o próximo campo encontrado.
+   1. (Opcional) Se houver mais de uma correspondência, clique nas setas para cima e para baixo à direita da palavra-chave de pesquisa para localizar todas as correspondências na tabela.
+   1. Clique no ícone X na caixa de pesquisa para limpar a palavra-chave de pesquisa.
 
 1. Atualize os seguintes elementos de exibição conforme descrito nas subseções abaixo:
    * [Filtros](#add-filters)

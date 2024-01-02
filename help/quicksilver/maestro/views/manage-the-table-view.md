@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 3%
@@ -197,15 +197,15 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
 1. Faça o seguinte para localizar rapidamente registros que correspondam a uma palavra-chave:
 
-   1. Clique em **pesquisa** ícone ![](assets/search-icon.png) e comece a digitar uma palavra-chave associada a qualquer campo de um registro exibido na tela. O número de correspondências corretas é exibido ao lado do item de pesquisa e o campo com a correspondência correta é realçado.
+   1. Clique em **Pesquisar** ícone ![](assets/search-icon.png) e comece a digitar uma palavra-chave associada a qualquer campo de um registro exibido na tela. O número de correspondências corretas é exibido ao lado do item de pesquisa e o campo com a correspondência correta é realçado.
+
+      ![](assets/search-box-with-results-blue-outline-table-view.png)
 
       Você pode usar qualquer palavra ou caractere especial visível na tela.
 
       Não é possível usar palavras-chave associadas a campos ocultos na exibição de tabela.
 
-      Pressionar Enter no teclado leva você ao próximo campo encontrado.
-
-      ![](assets/search-box-with-results-blue-outline-table-view.png)
+   1. Pressione Enter no teclado para ir para o próximo campo encontrado.
 
    1. (Opcional) Se houver mais de uma correspondência, clique nas setas para cima e para baixo à direita da palavra-chave de pesquisa para localizar todas as correspondências na tabela.
 

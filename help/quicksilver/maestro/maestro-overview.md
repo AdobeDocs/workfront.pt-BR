@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: '1959'
 ht-degree: 1%
 
 ---
@@ -77,6 +77,7 @@ A tabela a seguir ilustra os principais recursos que estarão disponíveis no Ma
 | Conectar espaços de trabalho |                               | ✓ µ |                  |
 | Conectar registros e taxonomias do Maestri | ✓ µ |
 | Procurar registros na exibição de tabela | ✓ µ |   |
+| Procurar registros na exibição de linha do tempo | ✓ µ |   |
 | Conecte registros do Maestro a projetos, programas, portfólios, empresas e grupos da Workfront | ✓ µ |                                 |                  |
 | Conectar registros do Maestri aos ativos da Adobe Experience Manager | ✓ µ |                                  |                 |
 | Página de detalhes do registro | ✓ µ |                                  |                  |
