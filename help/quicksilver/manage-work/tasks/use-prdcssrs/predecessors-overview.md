@@ -7,9 +7,9 @@ description: Um predecessor é a tarefa da qual outra tarefa (chamada de tarefa 
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Para entender os relacionamentos de predecessores, você deve entender:
 
 * **Desfasamentos:** Você pode criar atrasos em suas dependências, o que cria um atraso que deve ocorrer após a conclusão de uma tarefa predecessora e antes que a tarefa sucessora possa começar. Os atrasos afetam a linha do tempo do projeto.
 
-  Para entender os tipos de retardo, consulte [Visão Geral dos Tipos de Defasagem](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+  Para entender os tipos de retardo, consulte [Visão geral dos Tipos de Defasagem](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
 ## Criar relacionamentos predecessores
 

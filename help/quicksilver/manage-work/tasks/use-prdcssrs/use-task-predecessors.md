@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 56048927-39cd-49a0-b00a-bf145bca90a1
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
@@ -26,5 +26,5 @@ Esta seção contém os seguintes artigos:
 * [Criar predecessores entre projetos](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)
 * [Visão geral dos tipos de dependência de tarefa](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
 * [Forçar predecessores](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
-* [Visão Geral dos Tipos de Defasagem](../../../manage-work/tasks/use-prdcssrs/lag-types.md)
+* [Visão geral dos Tipos de Defasagem](../../../manage-work/tasks/use-prdcssrs/lag-types.md)
 * [Visão geral do loop de dependência de tarefas](../../../manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)

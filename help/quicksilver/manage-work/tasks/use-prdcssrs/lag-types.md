@@ -2,19 +2,21 @@
 content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
-title: Visão Geral dos Tipos de Defasagem
+title: Visão geral dos Tipos de Defasagem
 description: Atraso é o tempo que deve decorrer após a conclusão de um predecessor imposto até que a tarefa dependente possa começar (Atraso Positivo) ou o tempo que uma tarefa dependente poderia iniciar antes que o predecessor fosse iniciado (Atraso Negativo).
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: a2d3032b32d321c0089839dafad6c9b3c5ba153a
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
 
-# Visão Geral dos Tipos de Defasagem
+# Visão geral dos Tipos de Defasagem
+
+<!-- Audited: 01/2024 -->
 
 Atraso é a quantidade de tempo que deve transcorrer após a Conclusão Planejada de um predecessor até que a tarefa dependente possa começar (Atraso Positivo) ou a quantidade de tempo que uma tarefa dependente poderia iniciar antes que o predecessor iniciasse (Atraso Negativo).
 
@@ -60,11 +62,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> </td> 
+   <td><p>Novo: Padrão</p>
+       <p>ou</p>
+       <p>Atual: Plano </p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
@@ -72,7 +76,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para as tarefas e o projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para as tarefas e o projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,9 +86,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 ## Indicar Tipos de Defasagem e Defasagem em tarefas
 
 É possível indicar tipos de defasagem em tarefas ao definir suas relações de predecessoras.
-
-* [Indicar Tipos de Defasagem na seção Predecessores de uma tarefa](#indicate-lag-types-in-the-predecessors-section-of-a-task)
-* [Indicar Tipos de Defasagem em uma lista de tarefas](#indicate-lag-types-in-a-task-list)
 
 ### Indicar Tipos de Defasagem na seção Predecessores de uma tarefa {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
@@ -106,13 +107,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    * **Dias da semana**
    * **Dia da Semana (Sem Zero)**
 
-     Para obter mais informações sobre esses Tipos de Defasagem e como eles são calculados, consulte a seção [Visão geral dos Tipos de Defasagem](#lag-types-overview) neste artigo.
+     Para obter mais informações sobre esses Tipos de Defasagem e como eles são calculados, consulte a seção [Tipos de Defasagem](#lag-types) neste artigo.
 
 1. Clique em **Salvar**.
 
 ### Indicar Tipos de Defasagem em uma lista de tarefas  {#indicate-lag-types-in-a-task-list}
 
-1. Vá para uma lista de tarefas e selecione o **Padrão** Exibir a partir do **Exibir** menu suspenso.
+1. Vá para uma lista de tarefas e selecione o **Padrão** exibição.
 
 1. Clique dentro do **Predecessores** coluna correspondente à tarefa para a qual você deseja especificar um predecessor e uma quantidade de atraso.
 1. Digite o seguinte sem espaços:
@@ -125,15 +126,15 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    * um **+** para um atraso positivo ou uma **-** por um atraso negativo
 
    * a quantidade do atraso
-   * a abreviação do Tipo de Defasagem que você deseja usar.
+   * a abreviação do Tipo de Defasagem que você deseja usar
 
-     Para obter mais informações sobre as abreviações de Tipos de Defasagem, consulte a seção [Visão geral dos Tipos de Defasagem](#lag-types-overview) neste artigo.
+     Para obter mais informações sobre as abreviações de Tipos de Defasagem, consulte a seção [Tipos de Defasagem](#lag-types) neste artigo.
 
-   Por exemplo, para indicar que uma tarefa tem uma predecessora e um atraso positivo de 2 dias, você deve inserir  `1fs+2d` na coluna Predecessors.
+   Por exemplo, para indicar que uma tarefa tem uma predecessora e um atraso positivo de 2 dias, você deve inserir `1fs+2d` na coluna Predecessors.
 
-1. Clique em Enter no teclado para salvar as alterações na tarefa.
+1. Pressione Enter no teclado para salvar as alterações na tarefa.
 
-## Visão geral dos Tipos de Defasagem {#lag-types-overview}
+## Tipos de Defasagem {#lag-types}
 
 Um exemplo de uma tarefa que exigiria um tempo de atraso pode ser serrar árvores em madeira. Se a madeira recém-cortada tiver de secar durante um certo tempo antes de poder ser cortada, haverá um atraso entre o corte das árvores e a sua serragem em madeira.
 
@@ -193,13 +194,13 @@ Se a Data Inicial da sucessora for calculada para ser uma determinada terça-fei
  </tbody> 
 </table>
 
-## Visão geral de Defasagem negativa
+## Atraso Negativo
 
 Você pode usar um Atraso negativo para indicar a necessidade ou a capacidade de a tarefa começar antes de a tarefa predecessora terminar.
 
 Considere as seguintes regras ao usar intervalos negativos:
 
-* O Atraso Negativo não pode forçar as datas de Início/ Término de uma tarefa para serem anteriores ou posteriores às datas de Início/ Término Planejadas do projeto. Essas datas são especificadas no campo Agendar de do projeto.
+* O Atraso Negativo não pode forçar que as datas de Início/Término de uma tarefa sejam anteriores ou posteriores às datas de Início/Término Planejadas do projeto. Essas datas são especificadas no campo Agendar de do projeto.
 
   Nesse caso, considere o seguinte:
 

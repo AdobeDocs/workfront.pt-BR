@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '13842'
+source-wordcount: '13841'
 ht-degree: 0%
 
 ---
@@ -1351,7 +1351,7 @@ ht-degree: 0%
          * [Criar predecessores entre projetos](manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)
          * [Visão geral dos tipos de dependência de tarefa](manage-work/tasks/use-prdcssrs/task-dependency-types.md)
          * [Forçar predecessores](manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
-         * [Visão Geral dos Tipos de Defasagem](manage-work/tasks/use-prdcssrs/lag-types.md)
+         * [Visão geral dos Tipos de Defasagem](manage-work/tasks/use-prdcssrs/lag-types.md)
          * [Visão geral do loop de dependência de tarefas](manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)
       * Dicas, truques e solução de problemas para tarefas {#tips-tricks-and-troubleshooting-for-tasks}
          * [Dicas, truques e solução de problemas para tarefas](manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)
@@ -1762,7 +1762,7 @@ ht-degree: 0%
       * [Atualizar itens de trabalho no Balanceador de carga de trabalho usando o Resumo](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 * Revisar e aprovar trabalho {#review-and-approve-work}
    * [Revisar e aprovar trabalho](review-and-approve-work/review-and-approve-work.md)
-   * [Programa Alfa - Aprovações de documentos](review-and-approve-work/Documents/doc-approvals-alpha.md)
+   * [Programa Alpha - Aprovações de documentos](review-and-approve-work/Documents/doc-approvals-alpha.md)
    * [Visão geral de documentos e decisões de prova limitados para usuários não pagos](review-and-approve-work/proof-doc-decision-limits.md)
    * Aprovações de trabalho {#work-approvals}
       * [Aprovações de trabalho](review-and-approve-work/manage-approvals/manage-approvals.md)
