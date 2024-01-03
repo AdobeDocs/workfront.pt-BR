@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: d786a5bd86bcc1a4fbacf022cc9fbee9cb321da5
+source-git-commit: 66957a8bb24538fd302fe0ff7612b266da18118f
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 Os artigos de instruções da documentação do Workfront contêm uma tabela que explica os requisitos de acesso e permissões necessários para esse procedimento. Esta tabela de Requisitos de acesso permite compreender se você pode executar uma determinada ação no Workfront ou por que não pode fazê-lo. Este artigo explica cada elemento da tabela Requisitos de acesso e fornece dicas e links para a solução de problemas a informações mais detalhadas.
 
 Se uma linha estiver ausente da tabela Requisitos de acesso em um determinado artigo, não há requisitos desse tipo para essa ação.
+
+Algumas linhas contêm informações rotuladas como &quot;Novo&quot; e &quot;Atual&quot;. Isso ocorre porque a Workfront está fazendo a transição para um novo modelo de preços e pacotes, com algumas organizações operando sob o novo modelo e outras ainda usando o modelo atual. Para descobrir qual modelo sua organização usa, entre em contato com o administrador do Workfront. Você pode encontrar detalhes e links para informações na [A tabela Requisitos de acesso](#the-access-requirements-table) seção deste artigo.
 
 >[!NOTE]
 >
@@ -37,7 +39,7 @@ Se uma linha estiver ausente da tabela Requisitos de acesso em um determinado ar
    <td role="rowheader">plano do Adobe Workfront</td> 
    <td> Os planos da Adobe Workfront se referem ao conjunto de recursos que sua organização adquiriu. A maior parte da funcionalidade do Workfront está disponível em todos os planos, com algumas exceções, relacionadas principalmente ao planejamento estratégico e aos controles corporativos. 
    <ul><li>Para descobrir qual plano da Adobe Workfront sua organização usa, incluindo se sua organização está no novo ou no atual modelo de empacotamento, entre em contato com o administrador do Workfront.</li>
-   <li>Para obter instruções sobre como um administrador do Workfront pode localizar o plano Workfront de sua organização, consulte <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Exibir o cluster da sua organização e o plano da Workfront</a>.</li></ul> </td> 
+   <li>Para obter instruções sobre como um administrador do Workfront pode localizar o plano Workfront da sua organização, consulte <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Exibir o cluster da sua organização e o plano da Workfront</a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
@@ -53,8 +55,20 @@ Se uma linha estiver ausente da tabela Requisitos de acesso em um determinado ar
       </p> </td> 
   </tr> 
   <tr> 
+   <td role="rowheader">Produto</td> 
+   <td>A Workfront oferece alguns produtos que podem ser comprados além do Workfront.
+   <p>Os artigos que descrevem os procedimentos executados nesses produtos adicionais listam o produto necessário aqui.</p>
+   <ul>
+   <li>Adobe Experience Manager Assets ou Assets Essentials </li>
+   <li>Workfront Fusion</li>
+   <li>Workfront Goals</li>
+   <li>Planejador de cenários do Workfront</li>
+   </ul>
+   <p>Para saber se sua organização adquiriu um desses produtos adicionais, entre em contato com o administrador do Workfront.</p></td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">Nível de acesso</td> 
-   <td> Os níveis de acesso são conjuntos de permissões para ações que podem ser executadas no Workfront, definidos pelo administrador do Workfront. <p>A Workfront tem níveis de acesso integrados que correspondem às licenças da Workfront, mas o administrador do Workfront pode criar mais níveis de acesso para refletir com mais precisão os conjuntos de permissões necessários na organização.</p>
+   <td> Os níveis de acesso são conjuntos de permissões para ações que podem ser executadas no Workfront, definidos pelo administrador do Workfront. <p>A Workfront tem níveis de acesso incorporados que correspondem às licenças da Workfront, mas o administrador do Workfront pode criar mais níveis de acesso para refletir com mais precisão os conjuntos de permissões necessários em sua organização.</p>
    <ul>
     <li>A Adobe Workfront está fazendo a transição para um novo modelo de preços e pacotes. Para obter informações sobre níveis de acesso para cada modelo, consulte:
    <ul>
