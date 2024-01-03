@@ -2,33 +2,42 @@
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: acessar,modelo,funil,diagrama,níveis,permissões
+keywords: acesso,modelo,funil,diagrama,níveis,permissões
 navigation-topic: access-levels
-title: Níveis de acesso integrados no Adobe Workfront
-description: Cada um dos seis níveis de acesso incorporados foi projetado para um tipo específico de usuário, incluindo Administrador do sistema, Planejador, Trabalhador, Revisor, Solicitante e Usuário externo. Esses níveis de acesso permitem controlar o que os usuários podem editar e visualizar no sistema. Se você precisar de um nível de acesso personalizado, é possível copiar e-in access level e determinar a quantidade de acesso que deseja que ele permita para os vários tipos de objetos Workfront.
-author: Caroline
+title: Níveis de acesso incorporados no Adobe Workfront
+description: Cada um dos seis atuais níveis de acesso incorporados foi projetado para um tipo específico de usuário, incluindo Administrador do sistema, Planejador, Trabalhador, Revisor, Solicitante e Usuário externo. Esses níveis de acesso permitem controlar o que os usuários podem editar e visualizar no sistema. Se você precisar de um nível de acesso personalizado, poderá copiar um nível de acesso incorporado e modificá-lo de acordo com a quantidade de acesso que você deseja que ele permita para os vários tipos de objeto do Workfront.
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1683'
 ht-degree: 5%
 
 ---
 
-# Níveis de acesso integrados no Adobe Workfront
+# Níveis de acesso incorporados no Adobe Workfront
 
-Cada um dos seis níveis de acesso integrados é projetado para um tipo específico de usuário:
+<!--Audited: 01/2024-->
+
+>[!NOTE]
+>
+>Este artigo descreve os níveis de acesso incorporados atuais no Adobe Workfront. Para obter informações sobre os novos níveis de acesso incorporados, consulte [Visão geral dos novos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+
+
+Cada um dos seis atuais níveis de acesso incorporados foi projetado para um tipo específico de usuário. Esses níveis de acesso permitem controlar o que os usuários podem editar e visualizar no sistema.
+
+Cada um dos seis níveis de acesso incorporados foi projetado para os seguintes tipos de usuários:
 
 * Administrador de Sistema
 * Planejador
 * Trabalhador
-* Oliveira
+* Revisor
 * Solicitante
 * Usuário externo
 
-Dependendo do nível de acesso, até 3 configurações estão disponíveis para a maioria dos tipos de objetos Workfront:
+Dependendo do nível de acesso, até três configurações estão disponíveis para a maioria dos tipos de objeto do Workfront:
 
 <table style="table-layout:auto">
     <tr>
@@ -41,56 +50,64 @@ Dependendo do nível de acesso, até 3 configurações estão disponíveis para 
     </tr>
     <tr>
         <td>Sem acesso</td>
-        <td>Os usuários não podem acessar o objeto Workfront</td>
+        <td>Os usuários não podem acessar o objeto do Workfront</td>
     </tr>
 </table>
 
-Se você precisar de um nível de acesso personalizado de Planejador, Trabalhador, Solicitante ou Revisor, poderá copiar o nível de acesso integrado e determinar a quantidade de acesso que deseja que ele permita para os vários tipos de objetos Workfront. Para obter informações sobre como criar um nível de acesso personalizado ou modificar um dos níveis de acesso incorporados, consulte [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Se você precisar de um nível de acesso personalizado de Planejador, Trabalhador, Solicitante ou Revisor, poderá copiar o nível de acesso incorporado e determinar a quantidade de acesso que deseja que ele permita para os vários tipos de objetos do Workfront.
+
+>[!TIP]
+>
+>Não é possível modificar os níveis de acesso de Administrador do Sistema ou Usuário Externo.
+
+
+Para obter informações sobre como criar um nível de acesso personalizado ou modificar um dos níveis de acesso incorporados, consulte [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 >[!IMPORTANT]
 >
->É altamente recomendável deixar os níveis de acesso integrados inalterados para que você possa fazer referência a eles depois de configurar seus usuários.
+>É altamente recomendável que você deixe os níveis de acesso incorporados inalterados para que possa consultá-los após configurar os usuários.
 
 Para obter informações gerais sobre esses níveis de acesso, consulte [Visão geral dos níveis de acesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
-## Nível de acesso do Administrador do sistema
+## Nível de acesso do administrador do sistema
 
-Anexado à licença do Plano, esse nível de acesso integrado foi projetado para um usuário responsável pela administração do sistema Adobe Workfront. Não é possível modificar esse nível de acesso integrado.
+Anexado à licença do Plano, o nível de acesso do Administrador do sistema integrado foi projetado para um usuário responsável pela administração do sistema Adobe Workfront. Não é possível modificar esse nível de acesso interno.
 
-Os usuários com o nível de acesso Administrador do sistema podem fazer tudo no Workfront. Eles podem exibir e editar todos os objetos e informações do Workfront inseridos no Workfront por todos os outros usuários.
+Usuários com nível de acesso de Administrador do sistema podem fazer tudo no Workfront. Eles podem exibir e editar todos os objetos e informações do Workfront inseridos no Workfront por todos os outros usuários.
 
-Eles também têm acesso à área de configuração completa, onde podem alterar qualquer configuração no nível do sistema. E podem acessar todas as áreas no Menu principal ![](assets/main-menu-icon.png).
+Eles também têm acesso total à área Configuração, onde podem alterar qualquer configuração no nível do sistema. E podem acessar todas as áreas no menu principal ![](assets/main-menu-icon.png) ou no menu principal ![](assets/lines-main-menu.png), se disponível.
 
-Para obter mais informações, consulte [Conceder ao usuário acesso administrativo total](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+Para obter mais informações, consulte [Conceder acesso administrativo total a um usuário](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 ## Nível de acesso do planejador
 
-Também anexado à licença do Plano, esse nível de acesso foi projetado para:
+Também anexado à licença do Plano, o nível de acesso do Planejador foi projetado para:
 
 * Gerentes de grupos, equipes, projetos e recursos
-* Qualquer pessoa responsável pelo planejamento, criação e gerenciamento de tarefas, projetos, portfólios e programas
-* Qualquer pessoa responsável por atribuir trabalho (tarefas e problemas) a outros usuários
-* Usuários que criam relatórios e aprovam folhas de horas, itens de trabalho e documentos
-* Usuários que precisam de acesso a todas as áreas no Menu principal ![](assets/main-menu-icon.png)
+* Qualquer pessoa responsável por planejar, criar e gerenciar tarefas, projetos, portfólios e programas
+* Qualquer pessoa responsável pela atribuição de trabalho (tarefas e problemas) a outros usuários
+* Usuários que criam relatórios e que aprovam folhas de horas, itens de trabalho e documentos
+* Usuários que precisam de acesso a todas as áreas no menu principal ![](assets/main-menu-icon.png)
 
-Você pode criar uma versão personalizada do nível de acesso integrado do Planejador e determinar a quantidade de acesso que ele permite para os vários tipos de objetos Workfront. Para obter mais informações, consulte [Níveis de acesso integrados no Adobe Workfront](#Customiz) neste artigo.
+Você pode criar uma versão personalizada do nível de acesso interno do Planejador e determinar a quantidade de acesso que ele permite para os vários tipos de objeto do Workfront. Para obter mais informações, consulte [Criar e modificar níveis de acesso personalizados](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Estas são as configurações de acesso mais altas disponíveis para objetos no nível de acesso do Planejador:
 
-| Tipo de objeto Workfront | Sem acesso | Exibir acesso | Editar acesso |
+| Tipo de objeto do Workfront | Sem acesso | Exibir acesso | Editar acesso |
 |---|---|---|---|
-| Projetos |   |   | ✓ |
-| Tarefas |   |   | ✓ |
-| Problemas |   |   | ✓ |
-| Portfólios |   |   | ✓ |
-| Programas |   |   | ✓ |
-| Relatórios (incluindo painéis e relatórios de calendário) |   |   | ✓ |
-| Filtros, visualizações e agrupamentos |   |   | ✓ |
-| Documentos |   |   | ✓ |
-| Usuários |   |   | ✓ |
-| Modelos |   |   | ✓ |
-| Dados financeiros |   |   | ✓ |
-| Gerenciamento de recursos |   |   | ✓ |
+| Projetos |   |   | ✓ µ |
+| Tarefas |   |   | ✓ µ |
+| Problemas |   |   | ✓ µ |
+| Portfólios |   |   | ✓ µ |
+| Programas |   |   | ✓ µ |
+| Relatórios, painéis e calendários |   |   | ✓ µ |
+| Filtros, visualizações e agrupamentos |   |   | ✓ µ |
+| Documentos |   |   | ✓ µ |
+| Usuários |   |   | ✓ µ |
+| Equipes |   |   | ✓ µ |
+| Modelos |   |   | ✓ µ |
+| Dados financeiros |   |   | ✓ µ |
+| Gerenciamento de recursos |   |   | ✓ µ |
 | Planejador de cenários |   |   | ✓ (A configuração padrão é Sem acesso.) |
 | Workfront Goals |   |   | ✓ (A configuração padrão é Sem acesso.) |
 
@@ -98,35 +115,36 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
 
 ## Nível de acesso do trabalhador
 
-Anexado à licença de Trabalho, esse nível de acesso é projetado para usuários que realizam o trabalho no Workfront. Não planeiam o trabalho; eles concluem.
+Anexado à licença de Trabalho, o nível de acesso Trabalhador foi projetado para usuários que executam o trabalho no Workfront. Eles não planejam o trabalho, eles o completam.
 
 Usuários com este nível de acesso:
 
-* São atribuídos a itens de trabalho onde podem contribuir e registrar o tempo
-* Pode aprovar trabalhos e documentos, mas não folhas de horas
+* São atribuídos a itens de trabalho para os quais eles podem contribuir e registrar horas
+* Pode aprovar trabalho e documentos, mas não planilhas de horas
 * Pode acessar e compartilhar relatórios
 * Pode se comunicar com outros usuários no sistema
-* Pode acessar todas as áreas no Menu principal ![](assets/main-menu-icon.png), mas a área &quot;Usuários&quot; é chamada de Equipes. Na área Equipes, os usuários com esse nível de acesso podem exibir somente as equipes às quais pertencem, juntamente com o trabalho atribuído a essas equipes.
-* Ter capacidade limitada para criar objetos, eles não podem criar projetos, portfólios, programas ou relatórios.
+* Não é possível acessar todas as áreas no menu principal ![](assets/main-menu-icon.png) ou no menu principal ![](assets/lines-main-menu.png), se disponível, e a área &quot;Usuários&quot; se chama Equipes. Na área Equipes, os usuários com esse nível de acesso podem ver somente as equipes às quais pertencem, juntamente com o trabalho atribuído a essas equipes.
+* Têm capacidade limitada para criar objetos; não podem criar projetos, portfólios, programas ou relatórios.
 
-Você pode criar uma versão personalizada do nível de acesso integrado do Worker e determinar a quantidade de acesso que ele permite para os vários tipos de objetos Workfront. Para obter mais informações, consulte [Níveis de acesso integrados no Adobe Workfront](#Customiz) neste artigo.
+Você pode criar uma versão personalizada do nível de acesso interno do Worker e determinar a quantidade de acesso que ele permite para os vários tipos de objetos do Workfront. Para obter mais informações, consulte [Criar e modificar níveis de acesso personalizados](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-Estas são as configurações de acesso mais altas disponíveis para objetos no nível de acesso do Trabalhador:
+Estas são as configurações de acesso mais altas disponíveis para objetos no nível de acesso Trabalhador:
 
-| Tipo de objeto Workfront | Sem acesso | Exibir acesso | Editar acesso |
+| Tipo de objeto do Workfront | Sem acesso | Exibir acesso | Editar acesso |
 |---|---|---|---|
-| Projetos |   |   | ✓ (Limitado: os usuários só podem compartilhar o projeto, criar tarefas e problemas nele e editar dados em formulários personalizados que já estejam anexados a ele.) |
-| Tarefas |   |   | ✓ |
-| Problemas |   |   | ✓ |
+| Projetos |   |   | ✓ (Limitado: os usuários só podem compartilhar o projeto, criar tarefas e problemas nele e editar dados em formulários personalizados que já estão anexados a ele.) |
+| Tarefas |   |   | ✓ µ |
+| Problemas |   |   | ✓ µ |
 | Portfólios |   | ✓ (A configuração padrão é Sem acesso.) |   |
 | Programas |   | ✓ (A configuração padrão é Sem acesso.) |   |
-| Relatórios (incluindo painéis e relatórios de calendário) |   | ✓ |   |
-| Filtros, visualizações e agrupamentos |   |   | ✓ |
-| Documentos |   |   | ✓ |
-| Usuários |   |   | ✓ |
-| Modelos | ✓ |   |   |
-| Dados financeiros |   | ✓ (A configuração padrão é Sem acesso. A configuração Exibir permite que o usuário exiba somente a área Financeira em Detalhes do projeto.) |   |
-| Gerenciamento de recursos |   | ✓ |   |
+| Relatórios, painéis e calendários |   | ✓ µ |   |
+| Filtros, visualizações e agrupamentos |   |   | ✓ µ |
+| Documentos |   |   | ✓ µ |
+| Usuários |   |   | ✓ µ |
+| Equipes |   |   | ✓ ➡ (Acesso limitado) |
+| Modelos | ✓ µ |   |   |
+| Dados financeiros |   | ✓ (A configuração padrão é Sem acesso. A configuração Exibir permite que o usuário visualize somente a área Finanças em Detalhes do projeto.) |   |
+| Gerenciamento de recursos |   | ✓ µ |   |
 | Planejador de cenários |   |   | ✓ (A configuração padrão é Sem acesso.) |
 | Workfront Goals |   |   | ✓ (A configuração padrão é Sem acesso.) |
 
@@ -134,19 +152,19 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
 
 ## Nível de acesso do revisor
 
-Anexado à licença de Revisão, esse nível de acesso é projetado para executivos que solicitam trabalho de outros usuários e que revisam e aprovam o trabalho. Esses não são proprietários de projetos ou membros da equipe, mas precisam acessar o Workfront para ver os itens de trabalho que eles supervisionam.
+Anexado à licença de Revisão, o nível de acesso de Revisor é projetado para executivos que solicitam trabalho de outros usuários e que revisam e aprovam o trabalho. Eles não são proprietários de projetos ou membros de equipes, mas precisam de acesso ao Workfront para ver os itens de trabalho que supervisionam.
 
-Por exemplo, uma parte interessada com esse nível de acesso pode fazer logon no Workfront para participar de uma revisão contínua dos materiais de marketing, consultar atualizações de trabalho no trabalho e revisar documentos, aprovações, relatórios e calendários.
+Por exemplo, uma parte interessada com esse nível de acesso pode fazer logon no Workfront para participar de uma revisão contínua de materiais de marketing, ver atualizações de trabalho no trabalho e revisar documentos, aprovações, relatórios e calendários.
 
-Usuários com o nível de acesso do Revisor:
+Usuários com o nível de acesso Revisor:
 
-* Não é possível atribuir itens de trabalho ou aprovar folhas de tempo
-* Pode acessar solicitações e documentos no Menu principal ![](assets/main-menu-icon.png).
-* Ter capacidade limitada para criar objetos, eles não podem criar projetos, portfólios, programas ou relatórios.
+* Não é possível atribuir itens de trabalho nem aprovar folhas de horas
+* É possível acessar as áreas Solicitações e Documentos no Menu principal ![](assets/main-menu-icon.png) ou no menu principal ![](assets/lines-main-menu.png), se disponível.
+* Têm capacidade limitada para criar objetos; não podem criar projetos, portfólios, programas ou relatórios.
 
-Você pode criar uma versão personalizada do nível de acesso integrado do Revisor e determinar a quantidade de acesso que ele permite para os vários tipos de objetos Workfront. Para obter mais informações, consulte [Níveis de acesso integrados no Adobe Workfront](#Customiz) neste artigo.
+Você pode criar uma versão personalizada do nível de acesso interno do Revisor e determinar a quantidade de acesso que ele permite para os vários tipos de objeto do Workfront. Para obter mais informações, consulte [Criar e modificar níveis de acesso personalizados](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-Mais limitadas para projetos e tarefas do que o nível de acesso do Trabalhador, as configurações de acesso mais alto disponíveis para objetos no nível de acesso do Revisor são as seguintes:
+Mais limitadas para projetos e tarefas do que o nível de acesso Trabalhador, as configurações de acesso mais altas disponíveis para objetos no nível de acesso Revisor são as seguintes:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -155,7 +173,7 @@ Mais limitadas para projetos e tarefas do que o nível de acesso do Trabalhador,
  <col> 
  <thead> 
   <tr> 
-   <th>Tipo de objeto Workfront</th> 
+   <th>Tipo de objeto do Workfront</th> 
    <th>Sem acesso</th> 
    <th>Exibir acesso</th> 
    <th>Editar acesso</th> 
@@ -165,25 +183,25 @@ Mais limitadas para projetos e tarefas do que o nível de acesso do Trabalhador,
   <tr> 
    <td>Projetos</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Tarefas</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Problemas</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Portfólios</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A configuração padrão é Sem acesso.)</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -193,45 +211,52 @@ Mais limitadas para projetos e tarefas do que o nível de acesso do Trabalhador,
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Relatórios (incluindo painéis e relatórios de calendário)</td> 
+   <td>Relatórios, painéis, calendários</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Filtros, visualizações e agrupamentos</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Documentos</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Usuários</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
-  <tr> 
+<tr> 
+   <td>Equipes</td> 
+   <td> </td> 
+   <td>✓ µ</td> 
+   <td> </td> 
+  </tr>
+
+<tr> 
    <td>Modelos</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Dados financeiros</td> 
    <td> </td> 
-   <td> <p>✓ (A configuração padrão é Sem acesso. A configuração Exibir permite que o usuário exiba somente a área Financeira em Detalhes do projeto.)</p> </td> 
+   <td> <p>✓ (A configuração padrão é Sem acesso. A configuração Exibir permite que o usuário visualize somente a área Finanças em Detalhes do projeto.)</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Gerenciamento de recursos</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -251,74 +276,76 @@ Mais limitadas para projetos e tarefas do que o nível de acesso do Trabalhador,
 
 ## Nível de acesso do solicitante
 
-Anexado à licença de Solicitação, esse nível de acesso é projetado para usuários que fazem e recebem solicitações de trabalho simples no Workfront. Por padrão, eles estão limitados à área Solicitações .
+Anexado à licença de solicitação, o nível de acesso Solicitante foi projetado para usuários que fazem e recebem solicitações de trabalho simples no Workfront. Por padrão, eles são limitados à área Solicitações.
 
 Por exemplo, um usuário pode registrar problemas na fila de solicitações de suporte técnico de sua organização.
 
 Usuários com este nível de acesso:
 
-* Pode fazer solicitações e atualizar essas solicitações
-* Pode carregar e aprovar documentos
-* Pode revisar o status dos problemas que eles enviaram
+* Pode fazer solicitações e atualizá-las
+* Pode fazer upload e aprovar documentos
+* Pode revisar o status de problemas que enviaram
 * Não pode ser atribuído a itens de trabalho
-* Pode acessar solicitações somente no Menu principal ![](assets/main-menu-icon.png). Para obter mais informações sobre filas de solicitação, consulte [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Pode acessar solicitações somente na área Solicitações do menu principal ![](assets/main-menu-icon.png) ou no menu principal ![](assets/lines-main-menu.png), se disponível. Para obter mais informações sobre filas de solicitações, consulte [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-Você pode criar uma versão personalizada do nível de acesso integrado do Requester e determinar a quantidade de acesso que ele permite para os vários tipos de objetos Workfront. Para obter mais informações, consulte [Níveis de acesso integrados no Adobe Workfront](#Customiz) neste artigo.
+Você pode criar uma versão personalizada do nível de acesso integrado do Solicitante e determinar a quantidade de acesso que ele permite para os vários tipos de objeto do Workfront. Para obter mais informações, consulte [Criar e modificar níveis de acesso personalizados](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-Estas são as configurações de acesso mais altas disponíveis para objetos no nível de acesso do Solicitante:
+Estas são as configurações de acesso mais altas disponíveis para objetos no nível de acesso Solicitante:
 
-| Tipo de objeto Workfront | Sem acesso | Exibir acesso | Editar acesso |
+| Tipo de objeto do Workfront | Sem acesso | Exibir acesso | Editar acesso |
 |---|---|---|---|
-| Projeto |   | ✓ (somente a página Detalhes do projeto) |   |
-| Tarefa |   | ✓ (somente a página Detalhes) |   |
-| Problema |   |   | ✓ |
-| Portfólios | ✓ |   |   |
-| Programas | ✓ |   |   |
-| Relatórios (incluindo painéis e relatórios de calendário) |   | ✓ (somente a página Detalhes) |   |
-| Filtros, visualizações e agrupamentos |   |   | ✓ |
-| Documento |   |   | ✓ |
-| Usuário |   | ✓ |   |
-| Modelo | ✓ |   |   |
-| Dados financeiros | ✓ |   |   |
-| Gerenciamento de recursos | ✓ |   |   |
-| Planejador de cenários | ✓ |   |   |
+| Projeto |   | ✓ (Somente a página Detalhes do projeto) |   |
+| Tarefa |   | ✓ (Somente a página Detalhes da tarefa) |   |
+| Problema |   |   | ✓ µ |
+| Portfólios | ✓ µ |   |   |
+| Programas | ✓ µ |   |   |
+| Relatórios, painéis e calendários |   | ✓ µ |   |
+| Filtros, visualizações e agrupamentos |   |   | ✓ µ |
+| Documentos |   |   | ✓ µ |
+| Usuário |   | ✓ µ |   |
+| Equipes |   | ✓ µ |   |
+| Modelos | ✓ µ |   |   |
+| Dados financeiros | ✓ µ |   |   |
+| Gerenciamento de recursos | ✓ µ |   |   |
+| Planejador de cenários | ✓ µ |   |   |
 | Workfront Goals |   |   | ✓ (A configuração padrão é Sem acesso.) |
 
 {style="table-layout:auto"}
 
-## Nível de acesso do usuário externo
+## Nível de acesso de Usuário Externo
 
-Esse nível de acesso não está anexado a uma licença paga da Workfront. É o nível de acesso mais restritivo, projetado principalmente para colaboradores, como consultores externos que não fazem logon no Workfront, mas precisam revisar, baixar ou exibir documentos ocasionalmente.
+O nível de acesso de Usuário Externo não está anexado a uma licença paga do Workfront. É o nível de acesso mais restritivo, projetado principalmente para colaboradores, como consultores externos que não fazem logon no Workfront, mas precisam revisar, baixar ou exibir documentos ocasionalmente.
 
-Usuários do Workfront podem atribuir tarefas a usuários externos, mesmo que usuários externos não possam fazer logon no sistema. Mas recomendamos que não seja, porque esse trabalho permaneceria por resolver no sistema.
+Os usuários do Workfront podem atribuir tarefas a usuários externos, mesmo que esses usuários não possam fazer logon no sistema. No entanto, não recomendamos atribuir tarefas e problemas a Usuários externos, pois esse trabalho permaneceria não resolvido no sistema.
 
-Usuários com o nível de acesso Usuário externo:
+Usuários com nível de acesso de Usuário Externo:
 
-* Pode exibir apenas documentos e relatórios de calendário compartilhados com eles
-* Veja os usuários que compartilham documentos e relatórios de calendário com eles
-* Aprove os documentos compartilhados com eles
+* Pode exibir somente documentos e relatórios de calendário compartilhados com eles
+* Ver os usuários que compartilham documentos e relatórios de calendário com eles
+* Aprovar os documentos compartilhados com eles
 
 Não é possível modificar esse nível de acesso.
 
 >[!IMPORTANT]
 >
->Usuário externo está disponível somente se a opção &quot;Colaborar com pessoas sem contas do Workfront usando seu endereço de email&quot; estiver habilitada na área Preferências do sistema em Configurar. Para obter mais informações, consulte [Configurar preferências de segurança do sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+>O Usuário externo só estará disponível se a opção &quot;Colaborar com pessoas sem contas do Workfront usando seu endereço de email&quot; estiver ativada na área Preferências do sistema em Configuração. Para obter mais informações, consulte [Configurar preferências de segurança do sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
-Veja a seguir as configurações de acesso mais altas disponíveis para objetos no nível de acesso Usuário externo.
+Embora essas configurações não estejam visíveis na área Níveis de Acesso para o nível de acesso Usuário Externo, um usuário com esse acesso tem o seguinte acesso mais alto aos tipos de objeto do Workfront:
 
-| Tipo de objeto Workfront | Sem acesso | Exibir acesso | Editar acesso |
+| Tipo de objeto do Workfront | Sem acesso | Exibir acesso | Editar acesso |
 |---|---|---|---|
-| Projeto | ✓ |   |   |
-| Tarefa | ✓ | ✓ |   |
-| Problema | ✓ |   |   |
-| Portfólios | ✓ |   |   |
-| Programas | ✓ |   |   |
-| Relatórios (incluindo painéis e relatórios de calendário) |   | ✓ (apenas para relatórios de calendário; sem capacidade de compartilhar relatórios) |   |
-| Filtros, visualizações e agrupamentos | ✓ |   |   |
-| Documento |   | ✓ (sem a capacidade de compartilhar documentos) |   |
-| Usuário |   | ✓ |   |
-| Modelo | ✓ |   |   |
-| Dados financeiros | ✓ |   |   |
-| Gerenciamento de recursos | ✓ |   |   |
-| Planejador de cenários | ✓ |   |   |
-| Workfront Goals | ✓ |   |   |
+| Projeto | ✓ µ |   |   |
+| Tarefa | ✓ µ | |   |
+| Problema | ✓ µ |   |   |
+| Portfólios | ✓ µ |   |   |
+| Programas | ✓ µ |   |   |
+| Relatórios, painéis e calendários |   | ✓ (Somente para relatórios de calendário; sem capacidade de compartilhar relatórios) |   |
+| Filtros, visualizações e agrupamentos | ✓ µ |   |   |
+| Documentos |   | ✓ (sem a capacidade de compartilhar documentos) |   |
+| Usuários |   | ✓ µ |   |
+| Equipes |   | ✓ µ |   |
+| Modelos | ✓ µ |   |   |
+| Dados financeiros | ✓ µ |   |   |
+| Gerenciamento de recursos | ✓ µ |   |   |
+| Planejador de cenários | ✓ µ |   |   |
+| Workfront Goals | ✓ µ |   |   |

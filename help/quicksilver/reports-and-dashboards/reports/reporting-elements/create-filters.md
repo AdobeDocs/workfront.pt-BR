@@ -6,9 +6,9 @@ description: É possível limitar a quantidade de informações exibidas na tela
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
-source-wordcount: '2462'
+source-wordcount: '2456'
 ht-degree: 1%
 
 ---
@@ -202,7 +202,7 @@ Criar um filtro usando a interface padrão do construtor:
    </tr>
    <tr>
    <td role="rowheader"><strong>Padrões do sistema</strong></td>
-   <td>Filtros padrão do sistema Workfront, bem como filtros que o administrador do Workfront adicionou à lista de filtros, no nível do sistema ou no modelo de layout.</td>
+   <td>Filtros padrão do sistema Workfront e filtros que o administrador do Workfront adicionou à lista de filtros, no nível do sistema ou no modelo de layout.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>Compartilhado(s) comigo</strong></td>
@@ -263,14 +263,14 @@ Criar um filtro usando a interface padrão do construtor:
    >
    >Dependendo do modificador selecionado, é possível selecionar vários valores.
 
-1. Clique em **Adicionar filtro** para selecionar outro campo e adicionar um novo critério de filtragem à instrução de filtro.
+1. Clique em **Adicionar filtro** para selecionar outro campo, adicione um critério de filtragem à instrução de filtro.
 1. (Opcional) Clique no link **Excluir** ícone ![Ícone Excluir](assets/delete.png) para remover instruções de filtro existentes.
 
    Ou
 
    Clique em **Limpar tudo** para limpar todos os critérios de filtragem.
 
-1. (Opcional) Clique em **Adicionar grupo de filtros** para adicionar outro conjunto de critérios de filtragem. O operador padrão entre os conjuntos é AND. Clique no operador para alterá-lo para OU.
+1. (Opcional) Clique em **Adicionar grupo de filtros** para adicionar outro conjunto de critérios de filtragem. O operador padrão entre os conjuntos é **E**. Clique no operador para alterá-lo para **OU**.
 
    >[!TIP]
    >
@@ -294,7 +294,7 @@ Criar um filtro usando a interface padrão do construtor:
 
    >[!TIP]
    >
-   >Recomendamos criar o máximo possível do filtro usando a interface padrão do construtor e somente usando o modo de texto quando for necessário fazer modificações no filtro que sejam compatíveis apenas no modo de texto.
+   >Recomendamos criar o máximo possível do filtro usando a interface padrão do construtor e somente usando o modo de texto quando for necessário modificar os filtros compatíveis apenas com o modo de texto.
 
    Para obter mais informações sobre como criar um filtro usando a interface de modo de texto, consulte [Editar um filtro usando o modo de texto](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
@@ -306,7 +306,7 @@ Criar um filtro usando a interface padrão do construtor:
 
 1. (Opcional) Clique em **Aplicar** para aplicar o filtro à lista e ver os resultados.
 
-   Se o filtro não produzir resultados, a lista estará vazia.
+   Se o filtro não produzir resultados, a lista ficará vazia.
 
 1. Clique em **Salvar como novo** para salvar o filtro para uso futuro.
 
@@ -329,7 +329,7 @@ Criar um filtro usando a interface padrão do construtor:
    >Clicando **Cancelar** A qualquer momento leva você de volta à área de construção do filtro.
 
 1. Clique em **Salvar**. O filtro é salvo na lista Saved e aplicado à lista de itens.
-1. (Opcional) Para mover um filtro para a lista Favoritos, passe o mouse sobre qualquer filtro na gaveta de filtros e clique no ícone Favorito ![Ícone de Favorito](assets/favorites-icon-small.png).
+1. (Opcional) Para mover um filtro para a lista Favoritos, passe o mouse sobre qualquer filtro na gaveta de filtros e clique no **Favorito** ícone ![Ícone de Favorito](assets/favorites-icon-small.png).
 
    Ou
 
@@ -339,7 +339,7 @@ Criar um filtro usando a interface padrão do construtor:
 
    >[!TIP]
    >
-   >Não há limite para o número de filtros que podem ser selecionados.
+   >Não há limite para o número de filtros que você pode selecionar.
    >
    >Quando você seleciona vários filtros, todas as condições devem ser atendidas simultaneamente para exibir resultados correspondentes.
 
@@ -388,7 +388,7 @@ Independentemente do método usado para criar filtros, criar um filtro do zero o
 
      Os campos associados ao objeto do filtro são listados na variável **Comece a digitar o nome do campo** caixa.
 
-   * Clique em **E** ou **OU** ao adicionar uma nova regra de filtro.\
+   * Clique em **E** ou **OU** ao adicionar uma regra de filtro.\
      Ao adicionar regras de filtro, use os modificadores de filtro para estabelecer a condição do filtro. Para obter mais informações sobre modificadores de filtro, consulte [Filtro e modificadores de condição](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
      >[!NOTE]
@@ -415,11 +415,11 @@ Independentemente do método usado para criar filtros, criar um filtro do zero o
 
    Para obter mais informações sobre como criar um filtro usando a interface de modo de texto, consulte [Editar um filtro usando o modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-1. Clique em **Salvar Filtro** para criar um novo filtro ou substituir o filtro selecionado pelas suas alterações.
+1. Clique em **Salvar Filtro** para criar um filtro ou substituir o filtro selecionado pelas suas alterações.
 
    Ou
 
-   Clique em **Salvar como novo filtro** para criar um novo filtro a partir do filtro selecionado.
+   Clique em **Salvar como novo filtro** para criar um filtro a partir do filtro selecionado.
 
    O novo filtro é exibido na lista de filtros e é aplicado automaticamente à lista ou ao relatório selecionado.
 

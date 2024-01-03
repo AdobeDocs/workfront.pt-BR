@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1649'
 ht-degree: 0%
 
 ---
@@ -154,11 +154,11 @@ Para gerenciar uma exibição de linha do tempo:
 
       Você pode usar qualquer palavra ou caractere especial visível na tela.
 
-      Não é possível usar palavras-chave associadas a campos ocultos na exibição de tabela.
+      Não é possível usar palavras-chave associadas a campos que não são exibidos na exibição de linha do tempo.
 
    1. Pressione Enter no teclado para ir para o próximo campo encontrado.
    1. (Opcional) Se houver mais de uma correspondência, clique nas setas para cima e para baixo à direita da palavra-chave de pesquisa para localizar todas as correspondências na tabela.
-   1. Clique no ícone X na caixa de pesquisa para limpar a palavra-chave de pesquisa.
+   1. Clique em **x** ícone na caixa de pesquisa para limpar a palavra-chave de pesquisa.
 
 1. Atualize os seguintes elementos de exibição conforme descrito nas subseções abaixo:
    * [Filtros](#add-filters)

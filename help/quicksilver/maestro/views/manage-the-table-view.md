@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 3%
@@ -209,7 +209,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
    1. (Opcional) Se houver mais de uma correspondência, clique nas setas para cima e para baixo à direita da palavra-chave de pesquisa para localizar todas as correspondências na tabela.
 
-   1. Clique em **X** ícone na caixa de pesquisa para limpar a palavra-chave de pesquisa.
+   1. Clique em **x** ícone na caixa de pesquisa para limpar a palavra-chave de pesquisa.
 
 
 ### Adicionar linhas (ou registros) {#add-rows}
