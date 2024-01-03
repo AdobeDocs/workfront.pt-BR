@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 762053edbf490532b96285a6d1edff2af49500a4
+source-git-commit: ff24fcc65791b6c18668a0dd3c58e033772a2def
 workflow-type: tm+mt
 source-wordcount: '1945'
 ht-degree: 5%
@@ -39,7 +39,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
-   <td> <p>[!UICONTROL Pro] ou superior</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
@@ -128,7 +128,7 @@ Ao criar um aplicativo OAuth2, escolha o tipo de aplicativo que melhor atenda à
 1. No painel de navegação esquerdo, clique em **[!UICONTROL Sistema]** e selecione **[!UICONTROL Aplicativos OAuth2]**.
 1. Clique em **[!UICONTROL Criar integração de aplicativos]**.
 A variável **Novo aplicativo OAuth2** é exibida.
-1. No **Novo aplicativo OAuth2** , selecione **[!UICONTROL Autenticação de servidor]**.
+1. No **Novo aplicativo OAuth2** , selecione **[!UICONTROL Aplicativo de máquina para máquina]**.
 1. Insira um nome para o novo aplicativo, como &quot;[!DNL Workfront] para ClientApp.&quot;
 1. Clique em **[!UICONTROL Criar]**.
 1. Preencha os campos do novo aplicativo.
@@ -180,7 +180,7 @@ Para obter instruções sobre como configurar e usar o aplicativo OAuth2 com cre
 1. Clique em **[!UICONTROL Criar integração de aplicativos]**.
 
    A variável **Novo aplicativo OAuth2** é exibido.
-1. No **Novo aplicativo OAuth2** , selecione **[!UICONTROL Autenticação de usuário]**.
+1. No **Novo aplicativo OAuth2** , selecione **[!UICONTROL Aplicativo web]**.
 1. Insira um nome para o novo aplicativo OAuth2, como &quot;[!DNL Workfront] para ClientApp.&quot;
 1. Clique em **[!UICONTROL Criar]**.
 1. Preencha os campos do novo aplicativo.
@@ -262,7 +262,7 @@ Para obter instruções sobre como configurar e usar o aplicativo OAuth2 com cre
       <td> <p>Este campo é gerado automaticamente.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Redirecionar URls]</td> 
+      <td role="rowheader">[!UICONTROL Redirecionar URLs]</td> 
       <td>Os usuários serão redirecionados para esse caminho após a autenticação com o Workfront.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
