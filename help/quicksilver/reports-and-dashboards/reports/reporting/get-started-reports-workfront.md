@@ -7,9 +7,9 @@ description: Os relatórios fornecem visibilidade sobre o que está acontecendo 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '3297'
+source-wordcount: '3294'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Os relatórios são uma combinação dos três elementos a seguir no Workfront:
   </tr> 
   <tr> 
    <td role="rowheader">Filtro</td> 
-   <td> <li>Controla a quantidade de informações que aparece em um relatório.</li> <li>Para obter informações sobre filtros, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Visão geral dos filtros no Adobe Workfront</a>.</li> <li>Para obter informações sobre modificadores de filtro, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filtro e modificadores de condição</a>.</li> <li>É possível filtrar usando curingas, para tornar seus filtros mais gerais e dar a eles mais flexibilidade de uso.</li> <li>Para obter informações sobre o uso de curingas em filtros, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Variáveis de filtro curinga</a>.</li> </td> 
+   <td> <li>Controla a quantidade de informações que aparece em um relatório.</li> <li>Para obter informações sobre filtros, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Visão geral dos filtros</a>.</li> <li>Para obter informações sobre modificadores de filtro, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filtro e modificadores de condição</a>.</li> <li>É possível filtrar usando curingas, para tornar seus filtros mais gerais e dar a eles mais flexibilidade de uso.</li> <li>Para obter informações sobre o uso de curingas em filtros, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Variáveis de filtro curinga</a>.</li> </td> 
   </tr> 
  </tbody> 
 </table>

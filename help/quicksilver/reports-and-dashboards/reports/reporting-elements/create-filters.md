@@ -6,9 +6,9 @@ description: É possível limitar a quantidade de informações exibidas na tela
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 429bec1b8884c721af4c6fe1707bea9d9fdf98f8
 workflow-type: tm+mt
-source-wordcount: '2456'
+source-wordcount: '2450'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Você pode aplicar os seguintes tipos de filtros no Adobe Workfront:
 
 * Filtros em outras áreas do Workfront, fora de listas e relatórios.
 
-  Para obter uma lista de todos os filtros no Workfront e as áreas em que eles podem ser aplicados, consulte [Visão geral dos filtros no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Para obter uma lista de todos os filtros no Workfront e as áreas em que eles podem ser aplicados, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Requisitos de acesso
 
@@ -241,7 +241,7 @@ Criar um filtro usando a interface padrão do construtor:
 
    ![Incluir se todos, ou algum, ou o menu suspenso verdadeiro](assets/new-filters-all-or-any-are-true-drop-down-menu-nwe.png)
 
-   Para obter mais informações sobre operadores de filtro, consulte [Visão geral dos filtros no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Para obter mais informações sobre operadores de filtro, consulte [Visão geral dos filtros](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Clique no menu suspenso do campo para exibir uma lista de campos usados recentemente e os campos sugeridos para filtrar. Os campos sugeridos são exibidos atualmente na lista que você está filtrando.
 

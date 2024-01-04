@@ -6,9 +6,9 @@ description: "OBSERVAÇÃO: adicione uma seção a este artigo: /Content/Reports
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ A edição de um filtro usando o modo de texto é idêntica para relatórios e l
 >
 >Recomendamos que você crie o máximo possível do filtro no modo padrão e, em seguida, converta o filtro no modo de texto para editá-lo.
 
-Para obter mais informações sobre a criação de filtros, consulte [Visão geral dos filtros no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Para obter mais informações sobre a criação de filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 Para obter informações sobre como criar um relatório, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

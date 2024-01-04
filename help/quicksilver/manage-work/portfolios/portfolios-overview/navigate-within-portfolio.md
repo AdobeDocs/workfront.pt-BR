@@ -6,9 +6,9 @@ description: Navegar em um portfólio
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: a88cc4576122967b52e044ab65ace3451179906b
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
-   <td> <p>Qualquer Um </p> </td> 
+   <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
@@ -80,9 +80,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    * **[!UICONTROL Ativo]**: inclui todos os projetos associados ao portfólio selecionado que estão nos seguintes status:
 
-      * [!UICONTROL Em Planejamento]
+      * [!UICONTROL Planejamento]
       * [!UICONTROL Aprovado]
-      * [!UICONTROL Em Andamento]
+      * [!UICONTROL Atual]
    * **[!UICONTROL Solicitado]**: inclui projetos associados ao portfólio selecionado com um status de **[!UICONTROL Solicitado]**.
 
      Para obter informações sobre como revisar os projetos solicitados, consulte [Revisar projetos solicitados](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).
@@ -93,7 +93,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      >
      >Para ver apenas projetos específicos, considere criar um filtro de projeto no **[!UICONTROL Filtro]** menu suspenso na parte superior da lista de projetos para diminuir o número de projetos exibidos.
 
-     Para obter mais informações sobre a criação de filtros, consulte [Visão geral dos filtros em [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+     Para obter mais informações sobre a criação de filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 
 1. Clique em **[!UICONTROL Programas]** no painel esquerdo para criar programas no portfólio ou gerenciar os existentes.\

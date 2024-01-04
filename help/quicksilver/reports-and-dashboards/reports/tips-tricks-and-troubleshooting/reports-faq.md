@@ -7,9 +7,9 @@ description: Perguntas frequentes sobre relatórios
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Quando executo um relatório que tem um gráfico, vejo a mensagem de erro &quot;
 
 Esse erro significa que seu gráfico contém até 618 resultados distintos, por exemplo, mais de 618 barras em um gráfico de barras. Para resolver o problema de exibição, você precisa refinar os resultados modificando o filtro atual e agrupando as seleções.
 
-Para obter informações sobre modificação de filtros e agrupamentos, consulte os artigos [Visão geral dos filtros no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) e [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+Para obter informações sobre modificação de filtros e agrupamentos, consulte os artigos [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) e [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ## Por que vejo minhas tarefas (ou problemas) quando acesso o mesmo relatório (ou calendário) que meu colega de trabalho e, em vez disso, eles veem suas tarefas?
 

@@ -7,9 +7,9 @@ description: Ao usar curingas em filtros, você pode fazer referência a um usu�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1446'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ Você pode usar variáveis de filtro, também conhecidas como curingas, ao criar
 <table>
     <tr>
         <td>Filtros em listas, relatórios e no Planejador de recursos</td>
-        <td>Para obter informações sobre filtros do Workfront, consulte o artigo <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md">Visão geral dos filtros no Adobe Workfront</a>.
+        <td>Para obter informações sobre filtros do Workfront, consulte o artigo <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md">Visão geral dos filtros</a>.
 </td>
     </tr>
     <tr>

@@ -6,9 +6,9 @@ description: É possível compartilhar filtros, visualizações e agrupamentos q
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: d6b483fd1f28012eb8df3e578a44187de6c3629d
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1249'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Quando um filtro, exibição ou agrupamento é compartilhado com você, é poss�
 
 Para obter informações sobre como criar um filtro, uma exibição ou um agrupamento, consulte os seguintes artigos:
 
-* [Visão geral dos filtros no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
@@ -46,7 +46,7 @@ Você deve ter o seguinte:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>plano do Adobe Workfront*</strong></td> 
-   <td> <p>Qualquer Um </p> </td> 
+   <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
@@ -139,6 +139,7 @@ Compartilhar um filtro usando a interface do construtor padrão:
       >[!NOTE]
       >
       >Se você habilitar a opção Gerenciar acesso com exclusão, esses usuários poderão excluir o filtro de todos os usuários, mesmo que não sejam proprietários do filtro.
+
    >[!TIP]
    >
    >Os usuários não podem receber uma permissão maior do que seu nível de acesso. Se não tiverem acesso a Editar filtros em seus níveis de acesso, eles não poderão receber permissões para gerenciar um filtro. O Workfront desativa a opção Gerenciar para esses usuários e a opção fica esmaecida.

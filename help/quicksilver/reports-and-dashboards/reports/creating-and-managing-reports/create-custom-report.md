@@ -6,9 +6,9 @@ description: Você pode fornecer acesso às informações de que sua organizaç�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1817'
 ht-degree: 1%
 
 ---
@@ -235,7 +235,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Se você clicou em **Adicionar uma regra de filtro**, comece digitando o campo que deseja adicionar como filtro. Se o campo estiver disponível, ele será preenchido para cada objeto em que puder ser associado. Clique no nome do campo para adicioná-lo a esse filtro.\
    Use modificadores de filtro para criar seu filtro. Para obter mais informações sobre modificadores de filtro, consulte [Filtro e modificadores de condição](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-   Para obter mais informações sobre como criar novos filtros, consulte [Visão geral dos filtros no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Para obter mais informações sobre como criar novos filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Opcional) É possível optar por criar um filtro no modo de texto clicando em **Alternar para modo de texto**.
 

@@ -6,9 +6,9 @@ description: Você pode aprimorar seus relatórios adicionando um gráfico. É p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: be47bc4da5e3921a7c36e19831acde91aad55db1
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2755'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Para obter informações sobre como criar uma Exibição, consulte [Visão geral
 Para obter mais informações sobre agrupamentos, consulte [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 Se o relatório exibir muitos itens, um gráfico não será criado. Nesse caso, você também deve adicionar um Filtro ao relatório para reduzir o número de resultados em seu relatório.\
-Para obter mais informações sobre filtros, consulte [Visão geral dos filtros no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Para obter mais informações sobre filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Requisitos de acesso
 
@@ -34,7 +34,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -69,7 +69,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >* Os agrupamentos em modo de texto não são suportados em gráficos. Para obter mais informações sobre agrupamentos em modo de texto, consulte [Modo de edição de texto em um agrupamento](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
    >* Se você adicionar um único agrupamento que representa uma métrica, todos os gráficos, exceto um gráfico de pizza, serão exibidos no agrupamento com a mesma cor.
 
-
    Para obter mais informações sobre agrupamentos, consulte [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Selecione o **Gráfico** guia.
@@ -102,21 +101,20 @@ Para adicionar um **Coluna** gráfico para o seu relatório:
    Selecione entre as seguintes opções:
 
    * Clique em uma das seguintes opções para selecionar como as colunas agrupadas serão exibidas:\
-      **- Lado a lado**
-
-      **- Empilhado**
-      **- Empilhado a 100%**
+     **- Lado a lado**
+     **- Empilhado**
+     **- Empilhado a 100%**
 
    * Selecione o Agrupamento que deseja incluir no gráfico.
    * (Opcional) Selecione **Cores Personalizadas** para personalizar as cores das colunas.\
-      Para obter mais informações sobre como personalizar as cores do gráfico, consulte [Personalizar cores do gráfico](#customize-chart-colors).
+     Para obter mais informações sobre como personalizar as cores do gráfico, consulte [Personalizar cores do gráfico](#customize-chart-colors).
 
 1. (Opcional) Selecione **Gráfico Combinado** para incluir um valor adicional no gráfico, bem como a forma como você deseja que as informações sejam resumidas.\
    Considere as seguintes opções:
 
    * **Plotar no eixo secundário**: selecione essa opção para plotar os dados no lado direito do gráfico.
    * **Tipo de gráfico**: selecione se deseja que esse valor adicional seja exibido como uma linha ou uma terceira coluna.\
-      ![](assets/qs-column-chart-350x163.png)
+     ![](assets/qs-column-chart-350x163.png)
 
 1. Clique em **Salvar + Fechar** para salvar o gráfico e o relatório.
 
@@ -135,14 +133,13 @@ Para adicionar um **Barra** gráfico para o seu relatório:
    Selecione entre as seguintes opções:
 
    * Clique em uma das seguintes opções para selecionar como as barras agrupadas serão exibidas:\
-      **- Lado a lado**
-
-      **- Empilhado**
-      **- Empilhado a 100%**
+     **- Lado a lado**
+     **- Empilhado**
+     **- Empilhado a 100%**
 
    * Selecione o Agrupamento que deseja incluir no gráfico.
    * (Opcional) Selecione **Cores Personalizadas** para personalizar as cores das colunas.\
-      Para obter mais informações sobre como personalizar as cores do gráfico, consulte [Personalizar cores do gráfico](#customize-chart-colors).
+     Para obter mais informações sobre como personalizar as cores do gráfico, consulte [Personalizar cores do gráfico](#customize-chart-colors).
 
 1. (Opcional) Selecione **Gráfico Combinado** para incluir um valor adicional no gráfico, bem como a forma como você deseja que as informações sejam resumidas.\
    ![](assets/qs-bar-chart-350x167.png)
@@ -165,7 +162,7 @@ Para adicionar um **Pizza** gráfico para o seu relatório:
 
    * **Porcentagem**: os resultados do gráfico são exibidos como uma porcentagem.
    * **Números**: os resultados do gráfico são exibidos como um número.\
-      ![](assets/qs-pie-chart-350x171.png)
+     ![](assets/qs-pie-chart-350x171.png)
 
 1. Clique em **Salvar + Fechar** para salvar o gráfico e o relatório.
 
@@ -186,7 +183,7 @@ Para adicionar um **Linha** gráfico para o seu relatório:
 
    * Selecione o valor que deseja incluir no gráfico e como deseja que as informações sejam resumidas.
    * Selecione o **Plotar no eixo secundário** para plotar os dados no lado direito do gráfico.\
-      ![](assets/qs-line-chart-350x172.png)
+     ![](assets/qs-line-chart-350x172.png)
 
 1. Clique em **Salvar + Fechar** para salvar o gráfico e o relatório.
 
@@ -300,6 +297,7 @@ Para personalizar as cores do gráfico:
       1. (Opcional) Especifique um valor de cor hexadecimal para a cor, em vez de selecionar um dentre as amostras de cores disponíveis\
          Ou\
          Clique no seletor de cores exibido após clicar no código hexadecimal e selecione outra cor.
+
    * **Adicionar cor**: Continue a adicionar cores personalizadas para todas as outras opções possíveis do campo selecionado.
    * **Remover tudo**: selecione esta opção para remover todas as cores e opções do campo selecionado acima.
    * **Opções avançadas**: selecione entre as seguintes opções:
@@ -307,10 +305,9 @@ Para personalizar as cores do gráfico:
       * **Sem valor**: selecione esse campo e uma cor personalizada para exibir a coluna do gráfico que agrupa itens de &quot;valor nulo&quot;. Esses itens não podem ser agrupados por nenhuma das opções do campo selecionado no seu agrupamento.
       * **Todos os outros valores**: selecione esse campo e uma cor personalizada para exibir todos os outros elementos do gráfico cujas opções não estão selecionadas acima.
 
-         >[!NOTE]
-         >
-         >As cores usadas mais recentemente são exibidas na parte superior da caixa de diálogo Cores Personalizadas. Quando você passa o mouse sobre uma cor que foi usada recentemente, o nome do campo associado a ela é exibido.
-
+        >[!NOTE]
+        >
+        >As cores usadas mais recentemente são exibidas na parte superior da caixa de diálogo Cores Personalizadas. Quando você passa o mouse sobre uma cor que foi usada recentemente, o nome do campo associado a ela é exibido.
 
 1. Clique no &quot;x&quot; no canto superior direito de Cores personalizadas para fechar a caixa de diálogo Cores personalizadas. As cores selecionadas são salvas automaticamente.
 1. Clique em **Salvar + Fechar** para salvar o gráfico e executar o relatório.

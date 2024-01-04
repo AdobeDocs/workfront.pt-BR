@@ -6,9 +6,9 @@ description: Para encontrar itens de trabalho com eficiência e se concentrar no
 author: Alina
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2463'
+source-wordcount: '2460'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,7 @@ Como gerenciador de recursos, você pode usar o Balanceador de carga de trabalho
 >
 >Quando você salva e aplica um novo filtro e, em seguida, navega para fora do Balanceador de carga de trabalho, o filtro é preservado mesmo depois de fazer logoff e logon novamente.
 
-
-Este artigo contém informações sobre filtros no Balanceador de carga de trabalho. Para obter informações sobre filtros no Workfront, consulte [Visão geral dos filtros no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Este artigo contém informações sobre filtros no Balanceador de carga de trabalho. Para obter informações sobre filtros no Workfront, consulte [Visão geral dos filtros](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Requisitos de acesso
 

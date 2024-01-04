@@ -6,9 +6,9 @@ description: Você pode exportar dados do Adobe Workfront de várias listas, rel
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 219c952185f50bd3888f6deee17cbc35d3b34b22
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2206'
+source-wordcount: '2203'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ Há várias limitações no modo como os relatórios são exibidos no Workfront,
 
   Se seu relatório tiver mais de 50.000/ 65.000/ 100.000 linhas e você quiser exportar todos os dados, sugerimos que você use filtros ou prompts para obter cargas menores de dados e executar várias exportações.
 
-  Para obter informações sobre o uso de filtros, consulte [Visão geral dos filtros no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Para obter informações sobre o uso de filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
   Para obter informações sobre o uso de prompts, consulte [Adicionar um prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 

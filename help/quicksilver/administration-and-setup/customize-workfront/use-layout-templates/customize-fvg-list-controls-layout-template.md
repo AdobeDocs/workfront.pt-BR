@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront</td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
@@ -104,7 +104,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><
         <ol> 
          <li value="1"> Clique em <strong>Adicionar filtro</strong>, <strong>Adicionar visualização</strong>ou <strong>Adicionar Agrupamento</strong> na parte inferior da lista Filtro, Exibição ou Agrupamento. Na caixa exibida, comece digitando o nome de um controle de lista personalizado existente criado anteriormente para sua organização e, em seguida, clique no nome quando ele for exibido.</li> 
          <li value="2"> Se desejar que o novo controle de lista personalizado seja definido como filtro, exibição ou agrupamento padrão para o modelo de layout, clique em <strong>Definir como padrão</strong>. </li> 
-         <li value="3"> <p>Clique em <strong>Adicionar</strong> quando terminar.</p> <p><b>Nota</b>: <p>Os usuários podem adicionar controles de lista personalizados a suas próprias listas. Se você adicionar controles de lista personalizados em um modelo de layout, os controles de lista serão adicionados e os deles serão movidos para a parte inferior do painel; os seus não substituirão os deles.</p> <p>Isso também será verdadeiro se você atribuir o usuário a um novo modelo de layout que tenha controles de lista personalizados. </p> <p>Para obter informações sobre como personalizar controles de lista, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Visão geral dos filtros no Adobe Workfront</a>, <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Visão geral das exibições no Adobe Workfront</a>, e <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Visão geral de agrupamentos no Adobe Workfront</a>.</p> </p> </li> 
+         <li value="3"> <p>Clique em <strong>Adicionar</strong> quando terminar.</p> <p><b>NOTA</b>: <p>Os usuários podem adicionar controles de lista personalizados a suas próprias listas. Se você adicionar controles de lista personalizados em um modelo de layout, os controles de lista serão adicionados e os deles serão movidos para a parte inferior do painel; os seus não substituirão os deles.</p> <p>Isso também será verdadeiro se você atribuir o usuário a um novo modelo de layout que tenha controles de lista personalizados. </p> <p>Para obter informações sobre como personalizar controles de lista, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Visão geral dos filtros</a>, <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Visão geral das exibições no Adobe Workfront</a>, e <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Visão geral de agrupamentos no Adobe Workfront</a>.</p> </p> </li> 
         </ol> </p> </td> 
      </tr> 
     </tbody> 

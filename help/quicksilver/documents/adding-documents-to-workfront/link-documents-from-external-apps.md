@@ -2,18 +2,20 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Vincular documentos de aplicativos externos
-description: Você pode vincular documentos e pastas ao Adobe Workfront.
+description: Você pode vincular documentos e pastas ao Adobe Workfront a partir de fontes externas.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2588'
 ht-degree: 0%
 
 ---
 
 # Vincular documentos de aplicativos externos
+
+<!-- Audited: 01/2024 -->
 
 Você pode vincular documentos e pastas ao Adobe Workfront a partir das seguintes fontes:
 
@@ -36,7 +38,7 @@ Você pode vincular documentos e pastas ao Adobe Workfront a partir das seguinte
   </tr> 
   <tr> 
    <td role="rowheader">Prova do Workfront </td> 
-   <td>Você pode disponibilizar no Workfront provas que foram criadas originalmente no Workfront Proof. É necessário um Plano Pro Workfront ou superior para usar este recurso. Para obter mais informações sobre os vários planos disponíveis, consulte <a href="https://www.workfront.com/plans">Planos do Workfront</a>.</td> 
+   <td>Você pode disponibilizar no Workfront provas que foram criadas originalmente no Workfront Proof. Para as licenças atuais, é necessário um Plano Pro Workfront ou superior para usar esse recurso. Para as novas licenças, todos os planos incluem esse recurso. Para obter mais informações sobre os vários planos disponíveis, consulte <a href="https://www.workfront.com/plans">Planos do Workfront</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -48,7 +50,7 @@ Você pode vincular documentos e pastas ao Adobe Workfront a partir das seguinte
   </tr> 
   <tr> 
    <td role="rowheader">Outros provedores de documentos (por meio de integrações de documentos personalizadas)</td> 
-   <td> <p class="workfront_plans">É necessário um Plano Pro Workfront ou superior para usar este recurso. Para obter mais informações sobre os vários planos disponíveis, consulte <a href="https://www.workfront.com/plans">Planos do Workfront</a>.</p> </td> 
+   <td> <p class="workfront_plans">Para as licenças atuais, é necessário um Plano Pro Workfront ou superior para usar esse recurso. Para as novas licenças, todos os planos incluem esse recurso. Para obter mais informações sobre os vários planos disponíveis, consulte <a href="https://www.workfront.com/plans">Planos do Workfront</a>.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -67,7 +69,7 @@ Você deve ter o seguinte:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p> Qualquer Um</p> </td> 
+   <td> <p> Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenças da Adobe Workfront*</td> 
@@ -94,12 +96,6 @@ As seguintes exceções se aplicam:
 ## Vincular um documento de um aplicativo externo ao Workfront
 
 Você pode vincular documentos existentes a um provedor de nuvem externo. Isso inclui todos os documentos compartilhados.
-
-* [Pré-requisitos](#prerequisites)
-* [Vincular um documento externo ao Workfront](#link-an-external-document-to-workfront)
-* [Adicionar uma nova versão de um documento vinculado](#add-a-new-version-of-a-linked-document)
-* [Vincular documentos de prova do Workfront](#link-workfront-proof-documents)
-* [Criar um documento do Google no Workfront](#create-a-google-document-from-within-workfront)
 
 ### Pré-requisitos {#prerequisites}
 
@@ -190,7 +186,7 @@ Você pode vincular documentos ao Workfront a partir de um aplicativo externo, c
    >
    >Para documentos vinculados a Box, o link para o documento em Box não é exibido até que você atualize a página.
 
-Para obter informações sobre como adicionar uma nova versão de um documento que você carregou no Workfront a partir do seu sistema de arquivos, consulte [Adicionar documentos ao Adobe Workfront a partir do sistema de arquivos](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#adding-new-versions-of-documents) in [Adicionar documentos ao Adobe Workfront a partir do sistema de arquivos](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+Para obter informações sobre como adicionar uma nova versão de um documento que você carregou no Workfront a partir do seu sistema de arquivos, consulte [Adicionar documentos ao Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) in [Adicionar documentos ao Adobe Workfront a partir do sistema de arquivos](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 ### Vincular documentos de prova do Workfront {#link-workfront-proof-documents}
 
@@ -205,7 +201,7 @@ Você pode vincular somente as provas para as quais tem acesso de Visualização
    >
    >As opções nesse menu podem variar dependendo de quais provedores de terceiros estão configurados em seu ambiente.
 
-1. No **Link** provas **de** Workfront Proof que for exibida, comece digitando o nome da prova que deseja disponibilizar no Workfront.
+1. No **Vincular provas da prova do Workfront** que for exibida, comece digitando o nome da prova que deseja disponibilizar no Workfront.
 
    A lista é filtrada à medida que você digita.
 
@@ -223,17 +219,15 @@ Você pode criar um novo documento do Google no Workfront. Não é possível cri
 
 1. Vá para a **Documentos** na Workfront onde você deseja o documento.
 1. Clique em **Adicionar novo** > **Arquivo Google**, em seguida, selecione o tipo de documento do Google que deseja criar.
+1. Se a variável **Adicionar conta do Google Drive** for exibida, clique em **Autorizar unidade Google**.
 
-1. Selecione o tipo de Documento do Google que deseja criar.
-1. Se a variável **Adicionar conta do Google Drive** for exibida, clique em **Autorizar o Google Drive**.
-
-   Um Documento do Google é adicionado à **Documentos** guia.
+   Um documento do Google é adicionado à **Documentos** guia.
 
    >[!NOTE]
    >
    > My Drive e Shared with Me exibem dois resultados diferentes. Se não conseguir localizar um arquivo em Meu Drive, faça check-in na pasta Compartilhado comigo.
 
-## Atualizar e vincular um documento do Workfront a um provedor de nuvem externo
+## Fazer upload e vincular um documento do Workfront a um provedor de nuvem externo
 
 Você pode fazer upload e vincular um documento do Workfront a um provedor de nuvem externo. Isso move o armazenamento do documento do Workfront para o provedor de nuvem externo. Quando o documento é alterado no aplicativo externo, ele é atualizado automaticamente no Workfront.
 
@@ -256,11 +250,7 @@ Os usuários sem acesso ao Workfront podem ver o documento no aplicativo externo
 
 ## Vincular pastas
 
-Ao vincular uma pasta entre o Workfront e um provedor de nuvem externo, a pasta e todo o seu conteúdo são vinculados. Se os usuários sem acesso ao Workfront adicionarem, removerem e modificarem arquivos do aplicativo de documentos externos, suas alterações serão sincronizadas com o Workfront. As seções a seguir descrevem como vincular pastas e subpastas:
-
-* [Direitos de acesso à pasta](#folder-access-rights)
-* [Vincular uma ou mais pastas externas](#link-one-or-more-external-folders)
-* [Adicionar subpastas a uma pasta vinculada](#add-subfolders-to-a-linked-folder)
+Ao vincular uma pasta entre o Workfront e um provedor de nuvem externo, a pasta e todo o seu conteúdo são vinculados. Se os usuários sem acesso ao Workfront adicionarem, removerem e modificarem arquivos do aplicativo de documentos externos, suas alterações serão sincronizadas com o Workfront.
 
 ### Direitos de acesso à pasta {#folder-access-rights}
 
@@ -330,8 +320,6 @@ Ao adicionar um documento a uma pasta vinculada por meio do Workfront, ele é au
 
 1. Selecione a pasta vinculada na qual deseja o documento e clique em **Adicionar novo > Documento**, navegue até o documento e adicione-o à pasta.
 
-
-
    Ou
 
    No **Documentos** área onde deseja o documento, arraste o documento para uma pasta vinculada.
@@ -340,10 +328,11 @@ Ao adicionar um documento a uma pasta vinculada por meio do Workfront, ele é au
 
 >[!NOTE]
 >
-> * As opções de documento não estarão disponíveis enquanto o documento estiver em processo de movimentação. Depois que o documento é movido para o Experience Manager Assets, o não fica mais visível na lista de documentos no Workfront.
+> * As opções de documento não estarão disponíveis enquanto o documento estiver em processo de movimentação.
 >
-> * As ações ou edições feitas no documento enquanto ele está sendo movido não aparecerão no documento no Experience Manager Assets e, portanto, serão perdidas.
-
+> * Depois que um documento é movido para o Experience Manager Assets, o não fica mais visível na lista de documentos do Workfront.
+>
+> * Qualquer ação ou edição feita em um documento enquanto ele está sendo movido não aparecerá no documento no Experience Manager Assets e, portanto, será perdida.
 
 ## Excluir um documento ou uma pasta vinculada
 
@@ -362,4 +351,4 @@ Se desejar que o nome corresponda no Workfront e no aplicativo externo, renomeie
 
 >[!IMPORTANT]
 >
->Não renomeie um documento no Workfront que esteja vinculado ao Dropbox; isso torna o arquivo no Workfront inacessível. Em vez disso, renomeie o arquivo no Dropbox e sincronize-o novamente, conforme descrito em [Vincular documentos de aplicativos externos](#synchronizing-changes-made-on-a-linked-document).
+>Não renomeie um documento no Workfront que esteja vinculado ao Dropbox; isso torna o arquivo no Workfront inacessível. Em vez disso, renomeie o arquivo no Dropbox e sincronize-o novamente.
