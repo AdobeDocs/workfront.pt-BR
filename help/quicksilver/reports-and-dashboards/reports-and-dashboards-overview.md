@@ -2,23 +2,27 @@
 content-type: reference;overview
 product-area: reporting;dashboards
 navigation-topic: reports-and-dashboards
-title: Relatórios
-description: Revise essas áreas para obter uma compreensão dos relatórios no Adobe Workfront.
+title: "Relatórios e painéis: índice do artigo"
+description: Você pode organizar informações em relatórios no Adobe Workfront. Você pode colocar vários relatórios em um painel. Você pode compartilhar relatórios e painéis com outras pessoas para melhorar a colaboração.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 618c9dda-ad7d-4a05-960b-3ad14c14d605
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 28%
+source-wordcount: '88'
+ht-degree: 2%
 
 ---
 
 
-# Relatórios e painéis de controle
+# Relatórios e painéis: índice do artigo
 
-Esta seção contém as seguintes subseções:
+<!--Audited: 01/2024-->
+
+Você pode organizar informações em relatórios no Adobe Workfront. Você pode colocar vários relatórios em um painel. Você pode compartilhar relatórios e painéis com outras pessoas para melhorar a colaboração.
+
+Para obter mais informações sobre relatórios e painéis, consulte os artigos nas seguintes subseções:
 
 * [Relatórios](../reports-and-dashboards/reports/reports-overview.md)
 * [Painéis](../reports-and-dashboards/dashboards/dashboards-overview.md)

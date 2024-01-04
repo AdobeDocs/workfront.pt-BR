@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '13838'
+source-wordcount: '13844'
 ht-degree: 0%
 
 ---
@@ -1265,7 +1265,7 @@ ht-degree: 0%
          * [Exemplo de cálculo - Calcular EAC como um acúmulo a partir de tarefas](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
          * [Exemplo de cálculo - calcular EAC no nível do projeto](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
    * Tarefas {#tasks}
-      * [Tarefas](manage-work/tasks/tasks-overview.md)
+      * [Tarefas: índice do artigo](manage-work/tasks/tasks-overview.md)
       * Informações da tarefa {#task-information}
          * [Informações da tarefa](manage-work/tasks/task-information/task-information.md)
          * [Visão geral das tarefas](manage-work/tasks/task-information/tasks-overview.md)
@@ -1479,7 +1479,7 @@ ht-degree: 0%
       * [Dicas, truques e solução de problemas para equipes e grupos](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
       * [O nome de usuário já está em uso](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * Relatórios {#reporting}
-   * [Relatórios](reports-and-dashboards/reports-and-dashboards-overview.md)
+   * [Relatórios e painéis: índice do artigo](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Tela de relatório {#reporting-canvas}
       * [Tela de relatório](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
       * Gerenciar relatórios {#manage-reports}

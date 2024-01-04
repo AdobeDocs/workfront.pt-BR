@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '7330'
-ht-degree: 2%
+source-wordcount: '7452'
+ht-degree: 1%
 
 ---
 
 # Editar projetos
+
+<!--Audited: 01/2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
@@ -30,41 +32,11 @@ ht-degree: 2%
 </div>
 -->
 
-Você pode editar um projeto no Adobe Workfront sempre que necessário. Recomendamos que você edite os projetos minimamente depois que seu status for alterado para Atual, para evitar confusão enviando notificações sobre as alterações para toda a equipe de projeto. Idealmente, você deve editar um projeto quando ele estiver no status Planejando. Para obter informações sobre a equipe do projeto, consulte [Visão geral da equipe do projeto](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Você pode editar um projeto no Adobe Workfront sempre que necessário. Recomendamos que você edite os projetos minimamente depois que seu status for alterado para Atual, para evitar confusão enviando notificações sobre as alterações para toda a equipe de projeto.
+
+Idealmente, você deve editar um projeto quando ele estiver no status Planejando. Para obter informações sobre a equipe do projeto, consulte [Visão geral da equipe do projeto](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Requisitos de acesso
-
-<!--drafted - replace table at P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td><p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> 
-     <p>Manage permissions to a project </p> 
-     <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,21 +44,23 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> </td> 
+   <td><p>Novo: Padrão </p> 
+   Ou
+   <p>Atual: Plano </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a projetos</p> <p>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre o acesso a projetos, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Conceder acesso aos projetos</a>. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>. </p> </td> 
+   <td> <p>Editar acesso a projetos</p> <p>Se você não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre o acesso a projetos, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Conceder acesso aos projetos</a>. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
    <td> 
-    <p>Gerenciar permissões para um projeto </p> 
-    <p> Para obter informações sobre permissões de projeto, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartilhar um projeto no Adobe Workfront</a>.</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+     <p>Gerenciar permissões para um projeto </p> 
+     <p> Para obter informações sobre permissões de projeto, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartilhar um projeto no Adobe Workfront</a>.</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +73,7 @@ Existem algumas limitações que podem impedir a edição de projetos.
 
 Considere o seguinte ao editar projetos:
 
-* Não é possível editar projetos que estão em um Processo de aprovação, exceto pelo registro de tempo.
+* Não é possível editar projetos que estejam em um Processo de Aprovação, exceto para registrar o tempo e alterar o Status.
 * Você pode anexar documentos ou modelos a um projeto com status Concluído, Inativo ou Pendente de Aprovação somente se o administrador do Workfront ou um administrador de grupo tiver ativado essa funcionalidade na área Preferências do projeto. Para obter informações sobre como configurar as preferências do projeto, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 * Você só pode editar as seguintes informações em um projeto com status Desativado ou Concluído:
 
@@ -110,20 +84,25 @@ Considere o seguinte ao editar projetos:
 
 Ao editar um projeto, você pode modificar as informações e configurações do projeto, bem como as tarefas e problemas do projeto.
 
-Algumas configurações mencionadas neste artigo podem ser modificadas do status padrão pelo seu estado no template do qual o projeto foi criado. Para obter informações sobre a edição de modelos, consulte [Editar modelos de projeto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+Algumas configurações mencionadas neste artigo podem ser modificadas do status padrão pelo seu estado no template do qual o projeto foi criado.
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Projetos**.
+Para obter informações sobre a edição de modelos, consulte [Editar modelos de projeto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+
+Para obter informações sobre como criar um projeto a partir de um modelo, consulte [Criar um projeto usando um modelo](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+
+{{step1-to-projects}}
+
 1. (Opcional) Clique em **Projetos em que estou trabalhando** ou **Projetos dos quais sou proprietário** no canto superior direito para exibir projetos dos quais você é o proprietário ou projetos dos quais faz parte da equipe do projeto.
 
    ![](assets/projects-on-my-own-buttons-350x302.png)
-
-1. Clique no nome do projeto que deseja editar para abrir a página do projeto.
 
    >[!NOTE]
    >
    >Se você for um administrador de grupo, poderá ver e editar os projetos do seu grupo na área Grupos e na área Projetos. Para obter mais informações, consulte [Criar e modificar os projetos de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-1. (Opcional) Para editar informações limitadas sobre um projeto, clique em **Detalhes do projeto** no painel esquerdo.
+1. Clique no nome do projeto que deseja editar para abrir a página do projeto.
+
+1. (Opcional) Para editar informações limitadas sobre um projeto, clique em **Detalhes do projeto** no painel esquerdo. Se quiser editar todas as informações sobre o projeto, prossiga para a Etapa 5. <!--accurate?!-->
 
    ![](assets/nwe-project-details-expanded-350x298.png)
 
@@ -133,7 +112,7 @@ Algumas configurações mencionadas neste artigo podem ser modificadas do status
 
    Para editar informações na seção Detalhes, faça o seguinte:
 
-   1. (Opcional) Clique no link **Recolher Tudo** no canto superior direito para recolher todas as áreas.
+   1. (Opcional) Clique no link **Recolher Tudo** ícone ![](assets/collapse-icon.png)  no canto superior direito para recolher todas as áreas.
    1. (Opcional e condicional) Quando uma área for recolhida, clique no botão **seta para a direita** ![](assets/right-pointing-arrow.png) ao lado de cada área para expandir a área que você deseja editar.
    1. Para obter mais informações sobre como editar informações na guia Detalhes do projeto, consulte os seguintes artigos:
 
@@ -158,7 +137,9 @@ Algumas configurações mencionadas neste artigo podem ser modificadas do status
 
    Ou
 
-   Em uma lista de projetos, selecione um projeto e clique no botão **Editar** ícone ![](assets/edit-icon.png) no topo da lista.
+   Em uma lista de projetos, selecione um ou vários projetos e clique no botão **Editar** ícone ![](assets/edit-icon.png) no topo da lista.
+
+   Para obter mais informações sobre a edição de projetos em massa, consulte a seção [Editar projetos em massa](#edit-projects-in-bulk) neste artigo.
 
    A variável **Editar Projeto** é aberta.
 
@@ -172,13 +153,13 @@ Algumas configurações mencionadas neste artigo podem ser modificadas do status
    >
    >Dependendo de como o administrador do Workfront ou do Administrador de grupo modificou o Modelo de layout, as áreas no painel esquerdo da caixa Editar projeto ou quaisquer campos listados nessas áreas podem ser reorganizados ou não serão exibidos. Para obter informações, consulte [Personalizar a exibição de Detalhes usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. (Condicional) Se você clicou na variável **Mais** e depois **Editar**, considere atualizar as informações em qualquer uma das seguintes áreas listadas no painel esquerdo:
+1. (Condicional) Se você clicou na variável **Mais** e depois **Editar**, atualize as informações em qualquer uma das seguintes áreas listadas no painel esquerdo:
 
-   * [Nome do Projeto](#project-name)
+   * [Nome do projeto](#project-name)
    * [Visão geral](#overview)
    * [Formulários personalizados](#custom-forms)
    * [Finanças](#finance)
-   * [Parâmetros do projeto](#project-settings)
+   * [Configurações do projeto](#project-settings)
    * [Configurações da tarefa](#task-settings)
    * [Configurações do problema](#issue-settings)
    * [Acesso](#access)
@@ -208,96 +189,102 @@ Algumas configurações mencionadas neste artigo podem ser modificadas do status
 1. Atualize as seguintes informações sobre o projeto:
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"><strong>Descrição</strong> </td> 
-      <td> <p>Inclua informações adicionais sobre o projeto.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Status</strong> </td> 
-      <td> <p>Selecione o status do projeto. Não é possível marcar um projeto como Concluído antes que todas as tarefas e problemas sejam concluídos. Para obter informações sobre status de projetos, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">Acessar a lista de status de projeto do sistema</a></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Prioridade</strong> </td> 
-      <td> <p> <p>Este é apenas um sinalizador visual para você que permite priorizar seus projetos.</p> <p>Dependendo das Preferências do projeto selecionadas pelo administrador do Workfront, os nomes das prioridades podem ser diferentes para você. Para obter mais informações sobre edição de prioridades, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Criar e personalizar prioridades</a></p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>URL</strong> </td> 
-      <td> <p>Especifique um link da Web relacionado às informações sobre este projeto.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Tipo de condição</strong> </td> 
-      <td> <p>Selecione entre os seguintes Tipos de Condição: 
-       <ul> 
-       <li><strong>Manual:</strong> O proprietário do projeto define a condição no projeto manualmente.</li> 
-       <li><strong>Status do progresso:</strong> O Workfront define automaticamente a condição com base no Status de Progresso das tarefas no Caminho Crítico. Para obter mais informações sobre como entender o Status do Progresso, consulte <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Visão geral do status de progresso da tarefa</a>.</li> 
-       </ul><p>Seu administrador do Workfront<span> ou um administrador de grupo</span> seleciona o padrão de como a condição dos projetos é calculada para o seu sistema <span>ou seu grupo</span>. Para obter informações sobre como configurar os padrões do projeto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar preferências de projeto em todo o sistema</a>. </p></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Condição</strong> </td> 
-      <td> <p> <p>(É exibido somente após selecionar <strong>Manual</strong> para o <strong>Tipo de condição</strong>): Selecione uma Condição para indicar como o projeto está indo. </p> <p>Para obter informações sobre como as condições do projeto podem ser definidas automática ou manualmente, consulte <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Visão geral da condição do projeto e do tipo de condição</a></p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Modo de cronograma</strong> </td> 
-      <td> <p>Especifique se o projeto está agendado a partir da Data inicial ou da Data de conclusão. Essa seleção determina as datas planejadas das tarefas no projeto. 
-       <ul> 
-       <li><strong>Data de início</strong>: por padrão, a primeira tarefa do projeto tem a mesma Data de início planejada do projeto. Para obter informações sobre a Data de Início Planejada da tarefa, consulte <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Visão geral da Data de Início Planejada da tarefa</a>. O cronograma do projeto é calculado a partir da Data inicial e a Data de conclusão do projeto é calculada pelo sistema, com base na duração de todas as tarefas. </li> 
-       <li><strong>Data de Término</strong>: A última tarefa do projeto tem a mesma Data de conclusão planejada que o projeto. A linha do tempo do projeto é calculada a partir da Data de conclusão e a Data inicial do projeto é calculada pelo sistema, subtraindo a duração de todas as tarefas da Data de conclusão do projeto. </li> 
-       </ul><p>Seu administrador do Workfront<span> ou um administrador de grupo</span> seleciona a configuração padrão Modo de programação para seu sistema ou grupo. Para obter informações sobre como configurar os padrões do projeto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar preferências de projeto em todo o sistema</a>.</p></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Data e hora de início planejadas</strong> </td> 
-      <td> <p> <p>Especifique a data ao selecionar <strong>Agendar a Partir da Data de Início</strong>. <br></p> <p>Este campo é somente leitura ao selecionar <strong>Programação a partir da data de conclusão</strong>.<br></p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Data e hora de conclusão planejadas</strong> </td> 
-      <td> <p>Especifique a data ao selecionar <strong>Programação a partir da data de conclusão</strong>. </p> <p>Este campo é somente leitura ao selecionar <strong>Agendar a partir da Data de Início</strong>.<br></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Portfólio</strong></td> 
-      <td>Indique um Portfolio ao qual o projeto pertence. Você deve criar um Portfolio primeiro, antes que ele apareça na lista suspensa. Somente portfólios ativos podem ser associados a um projeto. Para obter mais informações sobre como criar portfólios, consulte <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Criar um portfólio </a>.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Programa</strong></td> 
-      <td> <p>Se você selecionou um Portfolio para o projeto, especifique um Programa para o projeto. Alguns Portfolio podem não ter programas. Você deve criar um Programa primeiro, antes que ele apareça nesta lista suspensa. Somente programas ativos podem ser associados a um projeto. </p> <p>Para obter mais informações sobre a criação de programas, consulte <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Criar um programa</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Grupo</strong></td> 
-      <td> <p> <p>Especifique o nome do grupo associado ao projeto. </p>Este campo é obrigatório. Você não pode ter um projeto que não esteja associado a um grupo. </p> <p>Você pode verificar se está selecionando o grupo correto ao passar o mouse sobre ele e clicar no ícone de informações <img src="assets/info-icon.png"> que é exibido ao lado dele. Uma dica de ferramenta que lista informações sobre o grupo, como a hierarquia de grupos acima dele e seus administradores.</p> Por padrão, um dos grupos a seguir é associado automaticamente a um projeto quando ele é criado, a menos que você especifique um grupo diferente:</p> 
-       <ul> 
-       <li> <p><span>Quando o projeto é criado na área Projetos, o Grupo inicial do criador do projeto é associado ao projeto.</span> </p> <p>Isso também ocorre quando o projeto é criado a partir da seção Projetos em um portfólio ou programa.</p> </li> 
-       <li> <p>Quando o projeto é criado a partir da página principal de um grupo na área Configuração, esse grupo é associado ao projeto.</p> </li> 
-       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
-       <p><b>NOTAS</b></p>
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader"><strong>Descrição</strong> </td> 
+         <td> <p>Inclua informações adicionais sobre o projeto.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Status</strong> </td> 
+         <td> <p>Selecione o status do projeto. Não é possível marcar um projeto como Concluído antes que todas as tarefas e problemas sejam concluídos. Para obter informações sobre status de projetos, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">Acessar a lista de status de projeto do sistema</a></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Prioridade</strong> </td> 
+         <td> <p> <p>Este é apenas um sinalizador visual para você que permite priorizar seus projetos.</p> <p>Dependendo das Preferências do projeto selecionadas pelo administrador do Workfront, os nomes das prioridades podem ser diferentes para você. Para obter mais informações sobre edição de prioridades, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Criar e personalizar prioridades</a></p> </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>URL</strong> </td> 
+         <td> <p>Especifique um link da Web relacionado às informações sobre este projeto.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Tipo de condição</strong> </td> 
+         <td> <p>Selecione entre os seguintes Tipos de Condição: 
+         <ul> 
+         <li><strong>Manual:</strong> O proprietário do projeto define a condição no projeto manualmente.</li> 
+         <li><strong>Status do progresso:</strong> O Workfront define automaticamente a condição com base no Status de Progresso das tarefas no Caminho Crítico. Para obter mais informações sobre como entender o Status do Progresso, consulte <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Visão geral do status de progresso da tarefa</a>.</li> 
+         </ul><p>Seu administrador do Workfront<span> ou um administrador de grupo</span> seleciona o padrão de como a condição dos projetos é calculada para o seu sistema <span>ou seu grupo</span>. Para obter informações sobre como configurar os padrões do projeto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar preferências de projeto em todo o sistema</a>. </p></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Condição</strong> </td> 
+         <td> <p> <p>(É exibido somente após selecionar <strong>Manual</strong> para o <strong>Tipo de condição</strong>): Selecione uma Condição para indicar como o projeto está indo. </p> <p>Para obter informações sobre como as condições do projeto podem ser definidas automática ou manualmente, consulte <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Visão geral da condição do projeto e do tipo de condição</a></p> </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Modo de Cronograma</strong> </td> 
+         <td> <p>Especifique se o projeto está agendado a partir da Data inicial ou da Data de conclusão. Essa seleção determina as datas planejadas das tarefas no projeto. 
+         <ul> 
+         <li><strong>Data de início</strong>: por padrão, a primeira tarefa do projeto tem a mesma Data de início planejada do projeto. Para obter informações sobre a Data de Início Planejada da tarefa, consulte <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Visão geral da Data de Início Planejada da tarefa</a>. O cronograma do projeto é calculado a partir da Data inicial e a Data de conclusão do projeto é calculada pelo sistema, com base na duração de todas as tarefas. </li> 
+         <li><strong>Data de Término</strong>: A última tarefa do projeto tem a mesma Data de conclusão planejada que o projeto. A linha do tempo do projeto é calculada a partir da Data de conclusão e a Data inicial do projeto é calculada pelo sistema, subtraindo a duração de todas as tarefas da Data de conclusão do projeto. </li> 
+         </ul><p>Seu administrador do Workfront<span> ou um administrador de grupo</span> seleciona a configuração padrão Modo de programação para seu sistema ou grupo. Para obter informações sobre como configurar os padrões do projeto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar preferências de projeto em todo o sistema</a>.</p></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Data e hora de início planejadas</strong> </td> 
+         <td> <p> <p>Especifique a data ao selecionar <strong>Agendar a Partir da Data de Início</strong>. <br></p> <p>Este campo é somente leitura ao selecionar <strong>Programação a partir da data de conclusão</strong>.<br></p> </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Data e hora de conclusão planejadas</strong> </td> 
+         <td> <p>Especifique a data ao selecionar <strong>Programação a partir da data de conclusão</strong>. </p> <p>Este campo é somente leitura ao selecionar <strong>Agendar a partir da Data de Início</strong>.<br></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Portfólio</strong></td> 
+         <td>Indique um Portfolio ao qual o projeto pertence. Você deve criar um Portfolio primeiro, antes que ele apareça na lista suspensa. Somente portfólios ativos podem ser associados a um projeto. Para obter mais informações sobre como criar portfólios, consulte <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Criar um portfólio </a>.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Programa</strong></td> 
+         <td> <p>Se você selecionou um Portfolio para o projeto, especifique um Programa para o projeto. Alguns Portfolio podem não ter programas. Você deve criar um Programa primeiro, antes que ele apareça nesta lista suspensa. Somente programas ativos podem ser associados a um projeto. </p> <p>Para obter mais informações sobre a criação de programas, consulte <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Criar um programa</a>.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Grupo</strong></td> 
+         <td> <p> <p>Especifique o nome do grupo associado ao projeto. </p>Este campo é obrigatório. Você não pode ter um projeto que não esteja associado a um grupo. </p> <p>Você pode verificar se está selecionando o grupo correto ao passar o mouse sobre ele e clicar no ícone de informações <img src="assets/info-icon.png"> que é exibido ao lado dele. Uma dica de ferramenta que lista informações sobre o grupo, como a hierarquia de grupos acima dele e seus administradores.</p> Por padrão, um dos grupos a seguir é associado automaticamente a um projeto quando ele é criado, a menos que você especifique um grupo diferente:</p> 
+         <ul> 
+         <li> <p><span>Quando o projeto é criado na área Projetos, o Grupo inicial do criador do projeto é associado ao projeto.</span> </p> <p>Isso também ocorre quando o projeto é criado a partir da seção Projetos em um portfólio ou programa.</p> </li> 
+         <li> <p>Quando o projeto é criado a partir da página principal de um grupo na área Configuração, esse grupo é associado ao projeto.</p> </li> 
+         </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
+         <p><b>NOTAS</b></p>
 
-   <ul>
-      <li><p>Se o projeto, suas tarefas ou problemas estiverem associados a um status personalizado em nível de grupo, alterar o Grupo do projeto pode fazer com que o Status do projeto, das tarefas ou dos problemas seja alterado para corresponder ao novo grupo.</p></li>
-      <li><p>Se o projeto, suas tarefas ou problemas já estiverem associados a um processo de aprovação em nível de grupo usando status personalizados em nível de grupo, alterar o grupo pode criar um conflito entre os status de aprovação do grupo anterior e os existentes no nível do sistema.</p>
-      <p>Considere remover os processos de aprovação em nível de grupo no projeto, ou suas tarefas ou problemas, antes de atualizar o grupo.</p>
-      <p>Para obter informações sobre como criar processos de aprovação de nível de grupo, consulte <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Processos de aprovação de nível de grupo</a>.</p>
-      <p>Para obter informações sobre como criar um status personalizado em nível de grupo, consulte <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Criar ou editar um status de grupo</a></p></li></ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Empresa</strong> </td> 
-      <td> <p>Especifique uma empresa associada ao projeto. Você deve criar uma empresa antes de associá-la a um projeto. Somente empresas ativas podem ser associadas a um projeto. Para obter informações sobre como criar empresas, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Criar e editar empresas</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Proprietário do projeto</strong> </td> 
-      <td> <p>Comece digitando o nome de um usuário para adicioná-lo ao projeto e, em seguida, selecione-o quando ele for exibido na lista. O usuário é adicionado à equipe do projeto e recebe automaticamente permissões de gerenciamento para o projeto. O usuário designado como Proprietário do projeto deve ser um usuário ativo do Workfront.</p>
-      </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Patrocinador do projeto</strong> </td> 
-      <td> <p>Comece digitando o nome de um usuário para adicioná-lo ao projeto e, em seguida, selecione-o quando ele for exibido na lista. O usuário é adicionado à equipe do projeto e recebe automaticamente permissões de Exibição para o projeto. O usuário designado como Patrocinador do projeto deve ser um usuário ativo do Workfront.<br></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Gerenciador de Recursos</strong> </td> 
-      <td> <p> Comece digitando os nomes dos usuários para adicioná-los ao projeto e, em seguida, selecione-os quando eles forem exibidos na lista. Os usuários são adicionados à equipe do projeto e recebem automaticamente permissões de Gerenciamento para o projeto e podem atribuir recursos às tarefas e problemas no projeto. Os usuários mantêm permissões de Gerenciamento no projeto mesmo quando são removidos do campo Gerenciador de recursos. Você pode especificar mais de um Gerenciador de recursos.<br></p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+       &lt;ul>
+       &lt;li>&lt;p>Se o projeto, suas tarefas ou problemas estiverem associados a um status personalizado em nível de grupo, alterar o Grupo do projeto pode fazer com que o Status do projeto, das tarefas ou dos problemas seja alterado para corresponder ao novo grupo.&lt;/p>&lt;/li>
+       &lt;li>&lt;p>Se o projeto, suas tarefas ou problemas já estiverem associados a um processo de aprovação em nível de grupo usando status personalizados em nível de grupo, alterar o grupo pode criar um conflito entre os status de aprovação do grupo anterior e os existentes no nível do sistema.&lt;/p>
+       &lt;p>Considere remover os processos de aprovação em nível de grupo no projeto, ou suas tarefas ou problemas, antes de atualizar o grupo.&lt;/p>
+       &lt;p>Para obter informações sobre como criar processos de aprovação de nível de grupo, consulte &lt;a href=&quot;../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md&quot; class=&quot;MCXref xref&quot;>Processos de aprovação de nível de grupo&lt;/a>.&lt;/p>
+       &lt;p>Para obter informações sobre como criar um status personalizado em nível de grupo, consulte &lt;a href=&quot;../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md&quot; class=&quot;MCXref xref&quot;>Criar ou editar um status de grupo&lt;/a>&lt;/p>&lt;/li>&lt;/ul> &lt;/td>
+   </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Empresa</strong> </td> 
+         <td> <p>Especifique uma empresa associada ao projeto. Você deve criar uma empresa antes de associá-la a um projeto. Somente empresas ativas podem ser associadas a um projeto. Para obter informações sobre como criar empresas, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Criar e editar empresas</a>.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Proprietário do Projeto</strong> </td> 
+         <td> <p>Comece digitando o nome de um usuário para adicioná-lo ao projeto e, em seguida, selecione-o quando ele for exibido na lista. O usuário é adicionado à equipe do projeto e recebe automaticamente permissões de gerenciamento para o projeto. O usuário designado como Proprietário do projeto deve ser um usuário ativo do Workfront.</p>
+         </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Patrocinador do Projeto</strong> </td> 
+         <td> <p>Comece digitando o nome de um usuário para adicioná-lo ao projeto e, em seguida, selecione-o quando ele for exibido na lista. O usuário é adicionado à equipe do projeto e recebe automaticamente permissões de Exibição para o projeto. O usuário designado como Patrocinador do projeto deve ser um usuário ativo do Workfront.<br></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Gerenciador de recursos</strong> </td> 
+         <td> <p> Comece digitando os nomes dos usuários para adicioná-los ao projeto e, em seguida, selecione-os quando eles forem exibidos na lista. Os usuários são adicionados à equipe do projeto e recebem automaticamente permissões de Gerenciamento para o projeto e podem atribuir recursos às tarefas e problemas no projeto. Os usuários mantêm permissões de Gerenciamento no projeto mesmo quando são removidos do campo Gerenciador de recursos. Você pode especificar mais de um Gerenciador de recursos.<br></p> </td> 
+      </tr>
+
+   <tr> 
+         <td role="rowheader"><strong>Originador de problema convertida</strong> </td> 
+         <td> <p> Por padrão, esse campo é preenchido automaticamente com o nome do usuário que criou o problema do qual o projeto foi convertido. Você pode atualizar esse nome com qualquer outro nome de usuário no Workfront. <br></p> </td> 
+      </tr>
+
+   </tbody> 
+      </table>
 
    >[!TIP]
    >
@@ -307,7 +294,7 @@ Algumas configurações mencionadas neste artigo podem ser modificadas do status
    >
    >Você deve ter a configuração Exibir informações de contato ativada no seu nível de acesso para que os usuários visualizem os emails dos usuários. Para obter informações, consulte [Conceder acesso aos usuários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-1. (Opcional) Continue editando as seções a seguir, dependendo das informações que você deseja modificar.
+1. (Opcional) Continue editando as seções a seguir, dependendo das informações que você deseja modificar
 
    Ou
 
@@ -333,8 +320,7 @@ Para obter informações sobre o acesso a formulários personalizados, consulte 
 * [Compartilhar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
 * [Adicionar uma quebra de seção a um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
 
-Para editar informações sobre formulários personalizados:
-
+Para editar informações sobre formulários personalizados ao editar um projeto:
 
 1. Comece a editar seu projeto conforme descrito acima.
 1. Clique em **Forms personalizado** no painel esquerdo.
@@ -388,14 +374,14 @@ Para editar campos na área Finanças:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Orçamento</strong> </td> 
-      <td> <p>Especifique um Orçamento para o projeto.<br></p> </td> 
+      <td> Especifique um Orçamento para o projeto. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Método Índice de desempenho</strong> </td> 
       <td> <p>Selecionar <b>Baseado em Hora</b>ou <b>Baseado em Custo</b> para indicar se as métricas de Valor Agregado do projeto (como Índice de Desempenho de Custo ou Custo Efetivo Estimado) são calculadas usando horas ou custos. </p> <p>Para obter mais informações sobre o Método Índice de desempenho, consulte <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Definir o PIM (Método de Índice de Desempenho)</a>. </p> <p>Seu administrador do Workfront<span> ou um administrador de grupo</span> seleciona a configuração padrão Método de indexação de desempenho para o seu sistema ou grupo. Para obter informações sobre como configurar os padrões do projeto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar preferências de projeto em todo o sistema</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Calcular ao concluir</strong> </td> 
+      <td role="rowheader"><strong>Estimativa no término</strong> </td> 
       <td> <p> <p>Especifique como o Workfront deve calcular a EAC (Estimativa no Término). </p>
       Selecione entre as seguintes opções: 
       <ul><li><b>Calcular no nível do projeto</b></li>
@@ -407,7 +393,7 @@ Para editar campos na área Finanças:
       <td> <p>Estime qual é o benefício planejado do projeto. Isso é usado no Business Case do projeto e no Portfolio Otimizer. Para obter mais informações sobre o Benefício Planejado de um projeto, consulte <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Visão Geral do Benefício Planejado do projeto</a>. O Benefício Planejado de um projeto é considerado quando o Valor Líquido de um projeto é calculado. </p> <p>Para obter mais informações, consulte <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Gerenciar projetos no Portfolio Otimizer</a> .<br></p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Benefício efetivo</strong> </td> 
+      <td role="rowheader"><strong>Benefício Efetivo</strong> </td> 
       <td> <p>Estimativa do Benefício Efetivo do projeto. Esse é um valor na moeda que representa o benefício que sua empresa ou departamento ganharia após a conclusão desse projeto. </p> </td> 
      </tr> 
       <tr> 
@@ -415,7 +401,7 @@ Para editar campos na área Finanças:
       <td> <p>Especifique o Custo Fixo do projeto. Isso é diferente do Custo de mão de obra que vem das horas no projeto e do Custo de despesa que vem da quantidade de despesas no projeto. O Custo Fixo de um projeto é considerado ao calcular o Valor Líquido de um projeto e faz parte do Custo Orçado.<br></p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Receita com Valor Fixo</strong> </td> 
+      <td role="rowheader"><strong>Receita Fixa</strong> </td> 
       <td> <p>Especifique a Receita Fixa do projeto.<br></p> </td> 
      </tr> 
     </tbody> 
@@ -445,7 +431,7 @@ Para editar campos na área Finanças:
        <td> <p>Selecione um Caminho de Etapas para o projeto. Somente os caminhos de etapas ativos são exibidos na lista.</p> <p>Para obter mais informações sobre Caminhos de Etapas, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Criar um caminho de etapas</a>.</p> </td> 
       </tr> 
       <tr> 
-      <td role="rowheader"><strong>Modelo de Término</strong> </td> 
+      <td role="rowheader"><strong>Modo de conclusão</strong> </td> 
       <td> <p>Controla como o projeto é marcado como Concluído. Selecione entre as seguintes opções: 
        <ul> 
        <li><p><strong>Automático</strong>: o projeto é marcado como Concluído quando todas as tarefas e problemas são concluídos.</p><p>O status do projeto é alterado automaticamente para Concluído somente quando o status do projeto é Atual quando as tarefas são concluídas. </p></li> 
@@ -493,14 +479,14 @@ Para editar campos na área Finanças:
       </tr> 
       <tr> 
        <td role="rowheader"><strong>Risco</strong> </td> 
-       <td> <p> <p>Defina o nível de risco do seu projeto. O risco é apenas um indicador do quão arriscado um projeto pode ser. Você pode priorizar a execução de seus projetos com base no nível de risco.</p> <p> <p>Considere selecionar entre os seguintes níveis de risco:</p> <p>- Muito Baixo</p> <p>- Baixa</p> <p>- Média</p> <p>- Alta</p> <p>- Muito Alto</p> <p>Os níveis de riscos que você indicar aqui não podem ser personalizados.</p> <p>Eles não estão relacionados aos riscos potenciais que podem ocorrer durante a vida de um projeto e que você deve registrar na guia Riscos do projeto ou no Business Case. Para obter informações sobre riscos potenciais do projeto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Editar e criar tipos de risco</a>. </p> </p> </p> </td> 
+       <td> <p> <p>Defina o nível de risco do seu projeto. O risco é apenas um indicador do quão arriscado um projeto pode ser. Você pode priorizar a execução de seus projetos com base no nível de risco.</p> <p> <p>Considere selecionar entre os seguintes níveis de risco:</p> <p>- Muito Baixo</p> <p>- Baixa</p> <p>- Médio</p> <p>- Alta</p> <p>- Muito Alto</p> <p>Os níveis de riscos que você indicar aqui não podem ser personalizados.</p> <p>Eles não estão relacionados aos riscos potenciais que podem ocorrer durante a vida de um projeto e que você deve registrar na guia Riscos do projeto ou no Business Case. Para obter informações sobre riscos potenciais do projeto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Editar e criar tipos de risco</a>. </p> </p> </p> </td> 
       </tr> 
       <tr> 
-       <td role="rowheader"><strong>Conjuntos de Recursos</strong> </td> 
+       <td role="rowheader"><strong>Conjuntos de recursos</strong> </td> 
        <td> <p> <p>Especifique os Conjuntos de recursos associados ao projeto. Conjuntos de recursos são coleções de usuários que são necessárias ao mesmo tempo para a conclusão de um projeto e permitem o orçamento do projeto no Planejador de recursos. Para obter mais informações sobre Conjuntos de recursos, consulte <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Visão geral dos conjuntos de recursos </a>. </p> <p>Ao editar projetos em massa, somente os Conjuntos de recursos comuns a todos os projetos selecionados aparecem nesse campo. Se os projetos selecionados não tiverem Conjuntos de recursos compartilhados, esse campo estará vazio. Os Conjuntos de recursos que você especificar aqui substituirão os Conjuntos de recursos individuais dos projetos.</p> </p> </td> 
       </tr> 
       <tr> 
-       <td role="rowheader"> <strong>Permitir que taxas de cobrança no nível de empresa substituam taxas de cobrança no nível do projeto</strong></td> 
+       <td role="rowheader"> <strong>Permitir que taxas de cobrança no nível da empresa substituam taxas de cobrança no nível do projeto</strong></td> 
        <td>Selecione esta opção para permitir que taxas de cobrança no nível da empresa substituam taxas de função de trabalho históricas, a menos que essas taxas estejam marcadas como faturadas. Ativar essa opção substitui taxas de funções de trabalho históricas, a menos que estejam marcadas como faturadas. <br>Para obter mais informações, consulte <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">Sobrepor Taxas de Cobrança no Nível do Projeto com Taxas de Cobrança no Nível da Empresa</a>.</td> 
       </tr> 
       <tr> 
@@ -512,13 +498,15 @@ Para editar campos na área Finanças:
        <td> <p> <p>Selecione entre as seguintes opções:</p> 
        <ul> 
        <li> <p>Selecionar <strong>Não</strong> para disponibilizar todos os tipos de horas específicos do projeto. (Esta é a seleção padrão)</p> <p>Ou</p> </li> 
-       <li>Selecionar <strong>Sim</strong> para disponibilizar no projeto apenas um subconjunto dos tipos de horas específicos do projeto, selecione os tipos de horas que deseja disponibilizar. (Mantenha pressionada a tecla Shift para selecionar vários tipos de horas.)</li> 
+       <li>Selecionar <strong>Sim</strong> para disponibilizar no projeto apenas um subconjunto dos tipos de horas específicos do projeto e, em seguida, selecione os tipos de horas que deseja disponibilizar no <b>Tipos de Hora</b> campo.</li> 
+       <p><b>DICA</b></p>
+       <p>A variável <b>Tipos de Hora</b> o campo não é editável quando você seleciona <b>Não</b>.</p> 
        <p>Se você selecionar essa opção, somente os tipos de horas selecionados serão disponibilizados para seleção ao registrar horas no projeto (ou em tarefas e problemas no projeto). Você deve selecionar pelo menos um tipo de hora; se você selecionar essa opção e não selecionar nenhum tipo de hora, todos os tipos de hora serão disponibilizados no projeto.</p> </ul>
 
    <p>As mesmas seleções de tipo de hora devem ser feitas no nível do usuário individual para que o usuário veja essas opções de tipo de hora no projeto. Para obter mais informações sobre como definir tipos de horas no nível do usuário, consulte <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Registrar tempo</a>. </p> </p> </td> 
       </tr> 
       <tr data-mc-conditions=""> 
-       <td role="rowheader"><strong>Lembrete de Notificação</strong> </td> 
+       <td role="rowheader"><strong>Notificação de lembrete</strong> </td> 
        <td> <p> <p>Selecione a Notificação de lembrete que deve ser associada ao projeto. Você deve configurar Notificações de lembrete para que os projetos sejam exibidos durante a edição de um projeto. Para obter mais informações sobre como configurar Notificações de lembrete, consulte <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md"><a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Configurar notificações de lembrete</a> .</a></p> </p> </td> 
       </tr> 
       <tr data-mc-conditions=""> 
@@ -558,7 +546,7 @@ Para obter informações sobre como essas configurações afetam a criação de 
 
 1. No **Processo padrão de aprovação de tarefas** , selecione a tarefa Processo de Aprovação que deseja associar a todas as novas tarefas quando adicioná-las ao projeto.
 
-   O administrador do Workfront (ou um usuário com acesso administrativo aos processos de Aprovação) deve criar um processo de aprovação no nível do sistema para uma tarefa antes de você associá-la a um projeto. Somente os processos de aprovação ativos são exibidos na lista. Para obter informações sobre como criar Processos de Aprovação, consulte [Criar um processo de aprovação para itens de trabalho](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). Para obter informações sobre como as alterações no grupo do projeto ou no processo de aprovação afetam as configurações de aprovação, consulte [Como as alterações no grupo e no processo de aprovação afetam os processos de aprovação atribuídos](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
+   O administrador do Workfront (ou um usuário com acesso administrativo aos processos de Aprovação) deve criar um processo de aprovação no nível do sistema ou do grupo para uma tarefa antes de associá-la a um projeto. Somente os processos de aprovação ativos são exibidos na lista. Para obter informações sobre como criar Processos de Aprovação, consulte [Criar um processo de aprovação para itens de trabalho](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). Para obter informações sobre como as alterações no grupo do projeto ou no processo de aprovação afetam as configurações de aprovação, consulte [Como as alterações no grupo e no processo de aprovação afetam os processos de aprovação atribuídos](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
 
    Quando você edita projetos em massa, os seguintes cenários existem:
 
@@ -654,11 +642,11 @@ Para obter informações sobre como essas configurações afetam a criação de 
       <td><p>Selecionar de <strong>Exibir</strong>, <strong>Contribute</strong>ou <strong>Gerenciar</strong> acesso à solicitação. Quando o projeto também está em uma fila de solicitações e um usuário envia uma solicitação para o projeto, ele recebe esse acesso à solicitação que enviou. Para obter informações sobre como configurar um projeto como uma fila de solicitações, consulte <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Criar uma fila de solicitações</a>.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><strong>As pessoas da mesma empresa herdarão as mesmas permissões para todas as solicitações</strong></td> 
+      <td role="rowheader"><strong>As pessoas da mesma empresa herdarão as mesmas permissões para todas as solicitações.</strong></td> 
       <td><p>Selecione este campo se desejar que as pessoas da mesma empresa tenham o mesmo acesso a todas as solicitações do projeto, sejam elas enviadas ou não.<br></p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Quando é concedido acesso a alguém a este projeto: conceda-lhe acesso a ...</strong></td> 
+      <td role="rowheader"><strong>Quando é concedido acesso a alguém a este projeto: indique o acesso padrão para ...</strong></td> 
       <td><p>Selecione as opções de acesso que você deseja que os usuários tenham no projeto, se o projeto for compartilhado com eles. Selecione as opções específicas para seu acesso se forem designadas como <strong>Visualizadores</strong>, <strong>Colaboradores</strong>ou <strong>Gerentes</strong> ao compartilhar o projeto com eles. </p><p>A variável <strong>Excluir</strong> acesso no <strong>Gerenciar</strong> o nível de permissão determina se os usuários podem excluir o próprio projeto. Usuários com <strong>Gerenciar</strong> o acesso ao projeto pode excluir tarefas e problemas dentro do projeto independentemente de essa opção estar selecionada, se eles tiverem <strong>Gerenciar</strong> permissões para as tarefas e problemas. </p></td> 
      </tr> 
     </tbody> 
@@ -677,6 +665,7 @@ O administrador do sistema ou do grupo pode personalizar os campos exibidos no c
 Os campos a seguir são incluídos no cabeçalho do projeto, por padrão.
 
 * Nome do projeto
+* Percentual concluído
 * Proprietário do projeto
 * Data e hora de conclusão planejadas
 
@@ -731,8 +720,8 @@ Leve em consideração o seguinte ao editar projetos em massa:
 
 Para editar projetos em massa:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
-1. Clique em **Projetos**.
+{{step1-to-projects}}
+
 1. Selecione vários projetos na lista.
 1. Clique em **Editar** ícone ![](assets/edit-icon.png) no topo da lista.
 A variável **Editar Projetos** é aberta.
