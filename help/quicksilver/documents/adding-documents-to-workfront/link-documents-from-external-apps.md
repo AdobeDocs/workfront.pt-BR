@@ -6,9 +6,9 @@ description: Você pode vincular documentos e pastas ao Adobe Workfront a partir
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 1069b34ad516f2f419fb3b547bb8fc45b542c483
 workflow-type: tm+mt
-source-wordcount: '2588'
+source-wordcount: '2602'
 ht-degree: 0%
 
 ---
@@ -61,19 +61,21 @@ Você pode revisar e aprovar documentos vinculados a um provedor de nuvem extern
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p> Qualquer</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront*</td>
+   <td> <p> Qualquer</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licenças da Adobe Workfront*</td> 
-   <td> <p>Solicitação ou superior</p> </td> 
+   <td role="rowheader">Licença da Adobe Workfront*</td>
+   <td><p>Novo: Colaborador ou superior</p>
+    <p>ou</p>
+    <p>Atual: solicitação ou superior</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 

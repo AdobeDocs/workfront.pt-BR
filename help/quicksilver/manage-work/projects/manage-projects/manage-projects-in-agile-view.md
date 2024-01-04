@@ -2,13 +2,13 @@
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
 title: Gerenciar um projeto na visualização Agile
-description: Planos, tipos de licença e acesso necessários Adobe Workfront Plan Team, Pro, Business ou Enterprise Workfront License Type Review, Work ou Plan Permissions no modelo de acesso Editar acesso e capacidade para criar relatórios, painéis e calendários
-author: Alina
+description: Você pode aproveitar a funcionalidade ágil para o seu projeto sem os desafios administrativos que normalmente acompanham as práticas ágeis (como gerenciar um backlog da equipe ou criar iterações).
+author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
+source-git-commit: fa499d74df891441e729c32188e9b2f74e4ef5c0
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -202,7 +202,7 @@ Para obter informações sobre como personalizar uma visualização ágil, consu
 
 Assim como com as exibições padrão no Workfront, você pode personalizar Exibições ágeis existentes ou criar novas Exibições ágeis do zero. Diferentemente das exibições padrão, não é possível criar novas Exibições ágeis com base em Exibições ágeis existentes.
 
-Para obter mais informações sobre como criar e personalizar exibições Agile, consulte a seção &quot;Criar ou personalizar uma exibição Agile&quot; no artigo [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Para obter mais informações sobre como criar e personalizar exibições ágeis, consulte [Criar ou personalizar uma visualização Agile](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) no artigo [Criar ou editar exibições no no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Compartilhar uma visualização Agile existente
 
