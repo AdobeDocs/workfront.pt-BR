@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: a8e1ec8baf24441cceba6deca53515eccf5e0fcd
+source-git-commit: fa9a186c00f7583ee47b87ca1d24a132b9289fd0
 workflow-type: tm+mt
-source-wordcount: '1897'
+source-wordcount: '1945'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Este blueprint contém um modelo de [!DNL Workfront professional services] A org
 **[!UICONTROL Nova Disponibilidade de Admissão]**
 Este blueprint contém um modelo de [!DNL Workfront] a organização de serviços profissionais tem usado por anos durante os contratos de implementação com as equipes de Recursos Humanos para solicitar que especialistas em RH e gerentes de contratação concluam atividades essenciais para tornar notável o primeiro dia de um novo funcionário.
 
-**Desintegração | Painel do usuário de saída**
+**Desintegração | saindo do painel do usuário**
 
 Este blueprint contém um único painel com 13 relatórios para ajudar você a localizar, reatribuir ou gerenciar os objetos e atribuições associados a um usuário que sai do Workfront. Você também pode usar esses relatórios para um usuário que está mudando para uma nova função ou grupo para reatribuir seu trabalho.
 
@@ -129,6 +129,10 @@ Este blueprint contém um único painel de controle para ajudar administradores 
 **Percepção de valor | Painel de valores principais**
 
 Este blueprint contém um único painel com 21 relatórios para ajudar você a medir o valor do Workfront. Esses relatórios ajudam a traduzir os benefícios da Centralização de trabalho e do Gerenciamento de processos de trabalho em valores mensuráveis que você pode rastrear ao longo do tempo para gerar melhores resultados.
+
+[!BADGE Novo!]{type=Informative}**Percepção de valor | Fornecer painel de serviços voltado para o cliente**
+
+Este blueprint contém um único painel com 8 relatórios para ajudar você a aproveitar os benefícios do Workfront. Esses relatórios foram criados para ajudá-lo a traduzir os serviços voltados para o cliente em valores mensuráveis que você pode acompanhar ao longo do tempo para obter melhores resultados.
 
 **Percepção de valor | Revisar e aprovar painel**
 
