@@ -8,9 +8,9 @@ description: O Adobe Workfront Fusion conecta perfeitamente seus aplicativos e s
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: d2ebed0139b04bb7c42bbae8064b416229472fdf
+source-git-commit: 1d0c03e7818f6ecf4cd5ea8b6cc1c7324fbadd23
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,12 @@ ht-degree: 0%
 O Adobe Workfront Fusion conecta perfeitamente seus aplicativos e serviços da Web para que você possa se concentrar em novas tarefas, em vez de repetir as mesmas tarefas repetidamente.
 
 Para obter informações sobre como usar o Workfront Fusion, consulte [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
+
+## Versões da fusão em 2024
+
+### Janeiro de 2024
+
+* [Atividade de lançamento do Workfront Fusion: semana de 1 de janeiro de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-1-4.md)
 
 ## Versões da fusão em 2023
 
