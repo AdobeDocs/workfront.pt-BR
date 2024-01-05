@@ -6,9 +6,9 @@ description: A delegação de solicitações de aprovação permite que você at
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 45c0af640daa7bf0c4cb342e55a88a98a745cfc3
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,14 @@ ht-degree: 0%
 # Delegar solicitação de aprovação
 
 Você pode delegar temporariamente o trabalho ao qual está atribuído enquanto estiver fora do escritório. Você pode delegar atribuições de tarefas e problemas ou pode delegar solicitações de aprovação. Este artigo descreve como delegar solicitações de aprovação. Para obter informações sobre delegação de atribuições de tarefas e problemas, consulte [Gerenciar delegação de tarefas e problemas](../../manage-work/delegate-work/how-to-delegate-work.md).
+
+Você pode delegar os seguintes tipos de aprovações, independentemente de como a aprovação foi atribuída a você (seja atribuída diretamente a você, a uma equipe da qual você é membro ou à sua função de trabalho):
+
+* Aprovações de projetos
+* Aprovações de tarefas
+* Aprovações de problemas
+
+Não é possível delegar aprovações de planilhas de horas, documentos ou provas.
 
 >[!NOTE]
 >
@@ -37,7 +45,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><p>plano do Adobe Workfront*</p></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
@@ -83,7 +91,7 @@ Você pode delegar os seguintes tipos de aprovações, independentemente de como
 * Aprovações de tarefas
 * Aprovações de problemas
 
-Você não pode delegar aprovações de planilhas de horas e documentos. 
+Não é possível delegar aprovações de planilhas de horas, documentos ou provas.
 
 Considere o seguinte ao delegar aprovações:
 

@@ -6,9 +6,9 @@ description: Você pode adicionar documentos a projetos, tarefas ou problemas em
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: efe264b274085c32c2d00163a2a43bd5d3fc1434
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '746'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Você deve ter o seguinte:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p> Qualquer Um</p> </td> 
+   <td> <p> Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenças da Adobe Workfront*</td> 
@@ -65,7 +65,7 @@ Para adicionar um documento:
 1. Vá para o projeto, tarefa ou problema em que deseja adicionar um novo documento.
 1. Clique em **Documentos** e clique na guia **Adicionar novo** menu suspenso.
 
-   ![](assets/add-new-350x138.png)
+   ![](assets/add-new-doc.png)
 
 1. Dependendo do tipo de documento que deseja adicionar, execute um dos procedimentos a seguir:
 
@@ -98,7 +98,7 @@ Para adicionar um documento:
         <li value="1">No <strong>Adicionar novo</strong> selecione <strong>Solicitar um documento</strong>.</li> 
         <li value="2">No <strong>De quem você está solicitando o item</strong> digite o nome do usuário do qual você está solicitando o documento.</li> 
         <li value="3">No <strong>Diga a eles o que você está solicitando</strong> digite o nome do documento.</li> 
-        <li value="4"> <p>Clique em <strong>Enviar solicitação</strong>.</p> <p>Sua solicitação é exibida na guia Documentos.</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>Para obter mais informações sobre a solicitação de documentos, consulte <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Solicitar um documento</a>.</p> </li> 
+        <li value="4"> <p>Clique em <strong>Enviar solicitação</strong>.</p> <p>Sua solicitação é exibida na guia Documentos.</p> <p>Para obter mais informações sobre a solicitação de documentos, consulte <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Solicitar um documento</a>.</p> </li> 
        </ol> </td> 
      </tr> 
     </tbody> 
