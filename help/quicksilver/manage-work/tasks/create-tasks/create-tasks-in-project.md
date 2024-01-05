@@ -7,20 +7,22 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 0aed653b9e5f0123e6b4d6e494aaff563ae1a72d
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '786'
 ht-degree: 1%
 
 ---
 
 # Criar tarefas em um projeto
 
+<!-- Audited: 1/2024 -->
+
 Você só pode criar tarefas em um projeto depois de criá-lo.
 
 Por exemplo, após criar um projeto, você pode adicionar tarefas e modificá-las para organizar o plano do projeto. Para obter mais informações sobre como criar um projeto, consulte [Criar um projeto](../../../manage-work/projects/create-projects/create-project.md).
 
-Para obter informações sobre como criar tarefas pessoais que não estão em um projeto, consulte a seção &quot;Criar uma tarefa pessoal&quot; no artigo [Criar itens de trabalho a partir da Área da página inicial](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Para obter informações sobre como criar tarefas pessoais que não estão em um projeto, consulte [Criar uma tarefa pessoal](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) no artigo [Criar itens de trabalho a partir da Área da página inicial](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 Este artigo descreve como criar tarefas do zero. Você também pode criar tarefas das seguintes maneiras:
 
@@ -29,46 +31,19 @@ Este artigo descreve como criar tarefas do zero. Você também pode criar tarefa
 
 ## Requisitos de acesso
 
-<!--drafted for P&P - replace the table:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
-   <td><p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions to the project with ability to Add Tasks or higher</p> <p>When you create a task you automatically receive Manage permissions to the task</p> <p> For information about task permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task </a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Licença da Adobe Workfront*</p> </td> 
-   <td> <p>Trabalhar ou superior</p> </td> 
+   <td><p>Atual: trabalho ou superior</p> 
+   Ou
+   <p>Novo: Padrão</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
@@ -80,6 +55,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
  </tbody> 
 </table>
+
 
 &#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
@@ -98,8 +74,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Crie uma nova tarefa seguindo um destes procedimentos:
 
-   * Clique em **Nova tarefa** na parte superior da lista de tarefas
-   * Clique em **Adicionar mais tarefas** na parte inferior da lista de tarefas
+   * Clique em **Nova tarefa** na parte superior da lista de tarefas.
+   * Clique em **Adicionar mais tarefas** na parte inferior da lista de tarefas.
 
    ![](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 

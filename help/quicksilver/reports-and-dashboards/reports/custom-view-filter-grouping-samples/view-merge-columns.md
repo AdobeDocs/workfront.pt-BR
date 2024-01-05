@@ -7,14 +7,16 @@ description: É possível mesclar as informações exibidas em várias colunas s
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 4b8477b75697268df3581f928e3c77025c2f56cd
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
 
 # Exibição: mesclar informações de várias colunas em uma coluna compartilhada
+
+<!-- Audited: 1/2024 -->
 
 É possível mesclar as informações exibidas em várias colunas separadas e exibi-las em uma coluna compartilhada.
 
@@ -28,12 +30,23 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Solicitação para modificar uma exibição </p>
-   <p>Planejar a modificação de um relatório</p> </td> 
+   <td> <p> Atual: 
+   <ul>
+   <li>Solicitação para modificar uma exibição</li> 
+   <li>Planejar a modificação de um relatório</li>
+   </ul>
+     </p>
+     <p> Novo: 
+   <ul>
+   <li>Colaborador para modificar uma visualização</li> 
+   <li>Padrão para modificar um relatório</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
@@ -77,7 +90,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 >
 >Essa abordagem é recomendada ao mesclar duas colunas que nunca podem mostrar um valor para o mesmo registro ao mesmo tempo. Por exemplo, em um relatório de Item de trabalho, as colunas Nome da ocorrência e Nome da tarefa podem ser mescladas sem uma quebra de linha entre elas, porque um Item de trabalho nunca pode ter um Nome da ocorrência e um Nome da tarefa ao mesmo tempo. Um Item de trabalho pode ser um Problema ou uma Tarefa no Workfront.
 
-Para fazer isso:
+Para mesclar dados de duas colunas sem uma quebra de linha:
 
 1. Usando o modo de texto para uma exibição, adicione o seguinte texto à primeira coluna que deseja mesclar:
 

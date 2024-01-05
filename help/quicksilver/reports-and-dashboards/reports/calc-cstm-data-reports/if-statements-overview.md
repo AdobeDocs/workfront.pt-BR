@@ -7,7 +7,7 @@ description: Você pode usar instruções "IF" em linguagens de programação ge
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 23b5ba9564b514e11c1ca9d5cca276238ef11066
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Visão geral das instruções &quot;IF&quot;
+
+<!-- Audited: 1/2024 -->
 
 Você pode usar instruções &quot;IF&quot; em linguagens de programação gerais. No Adobe Workfront, as instruções &quot;IF&quot; permitem comparar, formatar e reunir campos de dados para fins de relatório e dados personalizados. Além disso, pensar matematicamente sobre declarações &quot;IF&quot; leva a uma melhor compreensão conceitual, uma vez que as variáveis para expressões são comumente usadas.
 
@@ -44,10 +46,10 @@ Considere o seguinte antes de criar uma instrução &quot;IF&quot;:
 Você pode criar instruções &quot;IF&quot; no Workfront usando o seguinte formato:
 <pre>IF(Condição,Expressão Verdadeira,Expressão Falsa)</pre>Os componentes de uma instrução "IF" são:
 
-* **IF**= Esta é a expressão de dados calculados do Workfront para &quot;função&quot;. Semelhante às expressões SUM e PROD, isso informa primeiro o sistema a entender a função como uma instrução &quot;IF&quot;. Use sempre letras maiúsculas para &quot;IF&quot; neste demonstrativo.\
+* **IF** = Esta é a expressão de dados calculados do Workfront para &quot;função&quot;. Semelhante às expressões SUM e PROD, isso informa primeiro o sistema a entender a função como uma instrução &quot;IF&quot;. Use sempre letras maiúsculas para &quot;IF&quot; neste demonstrativo.\
   Para obter uma lista de todas as expressões de dados calculadas, consulte [Visão geral das expressões de dados calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-* **Condição**= Essa é a condição que a variável Workfront deve atender e é a base dessa equação. Tudo que pode ser especificado posteriormente na equação depende da condição. Você pode usar várias referências, comparações ou expressões matemáticas para iniciar uma equação. Alguns exemplos de condições são:
+* **Condição** = Essa é a condição que a variável Workfront deve atender e é a base dessa equação. Tudo que pode ser especificado posteriormente na equação depende da condição. Você pode usar várias referências, comparações ou expressões matemáticas para iniciar uma equação. Alguns exemplos de condições são:
 
    * Uma data é posterior a outra data em um objeto especificado.
    * Um status é igual a um dos status disponíveis em um objeto especificado.
@@ -55,9 +57,9 @@ Você pode criar instruções &quot;IF&quot; no Workfront usando o seguinte form
 
 * **Operador de Condição** = esse é o operador que ajuda a criar a condição da instrução &quot;IF&quot;. Por exemplo, &quot;é igual a&quot; ou &quot;é maior que&quot; são operadores de condição. Para obter uma lista de operadores de condição que você pode usar em instruções, consulte [Operadores de condição em expressões personalizadas calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **True****Expressão**= Esta é a variável &quot;True&quot;, que informa à equação qual indicador deve ser exibido quando os critérios da condição forem atendidos (indicadores verdadeiros).
+* **True****Expressão** = Esta é a variável &quot;True&quot;, que informa à equação qual indicador deve ser exibido quando os critérios da condição forem atendidos (indicadores verdadeiros).
 
-* **Expressão falsa**= Esta é a variável &quot;False&quot;, que informa à equação qual indicador deve ser exibido quando os critérios da condição não forem atendidos (indicadores falsos).
+* **Expressão falsa** = Esta é a variável &quot;False&quot;, que informa à equação qual indicador deve ser exibido quando os critérios da condição não forem atendidos (indicadores falsos).
 
 No exemplo a seguir, o formato da instrução original é usado para escrever uma expressão de dados simples para uma instrução &quot;IF&quot;. A expressão compara dois campos de data diferentes no Workfront seguidos por um resultado Verdadeiro/Falso como uma string de dados:
 

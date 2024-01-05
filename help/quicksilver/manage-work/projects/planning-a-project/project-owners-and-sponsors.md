@@ -3,11 +3,11 @@ content-type: overview
 product-area: projects;user-management
 navigation-topic: plan-a-project
 title: Visão geral dos proprietários e patrocinadores do projeto
-description: Você pode designar um proprietário de projeto e um patrocinador de projeto para um projeto.
+description: Você pode designar um Proprietário do projeto e um Patrocinador do projeto.
 author: Alina
 feature: Work Management
 exl-id: e3e8be3f-105f-4702-8c93-ae8092f5d5d3
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 111c776af19fbc2982c14cc9d3b3778d37bc0be3
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 0%
@@ -16,44 +16,47 @@ ht-degree: 0%
 
 # Visão geral dos proprietários e patrocinadores do projeto
 
-Você pode designar um proprietário de projeto e um patrocinador de projeto para um projeto.
+<!-- Audited: 1/2024 -->
 
-O proprietário do projeto é o responsável pela conclusão do projeto a tempo e no orçamento.
+Você pode designar um Proprietário do projeto e um Patrocinador do projeto.
 
-O Patrocinador do Projeto é uma parte importante do projeto que possui recursos investidos no projeto. A conclusão do projeto geralmente beneficia o patrocinador do projeto.
+O Proprietário do Projeto é o indivíduo responsável pela conclusão do projeto no prazo e dentro do orçamento.
 
-Para obter informações sobre como atualizar o Proprietário ou Patrocinador do Projeto para um projeto, consulte [Atualizar proprietários e patrocinadores do projeto](../../../manage-work/projects/planning-a-project/update-project-owners-and-sponsors.md).
+O Patrocinador do projeto é uma parte interessada importante para o projeto que tem recursos investidos no projeto. A conclusão do projeto normalmente beneficia o Patrocinador do Projeto.
+
+Para obter informações sobre como atualizar o Proprietário ou Patrocinador do Projeto, consulte [Atualizar proprietários e patrocinadores do projeto](../../../manage-work/projects/planning-a-project/update-project-owners-and-sponsors.md).
 
 ## Proprietários do projeto
 
 Você pode designar o gerente de um projeto especificando um Proprietário do projeto em um projeto ou modelo.
 
-Você pode definir somente um Proprietário do projeto para um projeto.
+Você pode definir apenas um Proprietário de projeto para um projeto.
 
-Os itens a seguir são possíveis usando o campo Proprietário do projeto :
+Os itens a seguir são possíveis usando o campo Proprietário do projeto:
 
-* Você pode designar apenas um usuário como Proprietário do projeto.
-* Você pode designar Proprietários de projeto como aprovador de horas do projeto.
-* Você pode designar o Proprietário do projeto como um aprovador genérico ao definir processos de aprovação de projeto, tarefa ou emissão. Para obter informações sobre aprovações, consulte [Editar um processo de aprovação](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
+* Você pode designar somente um usuário como Proprietário do projeto.
+* Você pode designar Proprietários do Projeto como aprovadores de horas para o projeto.
+* Você pode designar o Proprietário do projeto como um aprovador genérico ao definir processos de aprovação de projetos, tarefas ou problemas. Para obter informações sobre aprovações, consulte [Editar um processo de aprovação](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
 
-   >[!IMPORTANT]
-   >
-   >Quando você atribui uma aprovação ao Proprietário do projeto e ninguém é designado como o proprietário de um projeto, a aprovação é reatribuída ao administrador principal do Workfront, conforme indicado na seção Informações do cliente na área Configuração . Para obter mais informações, consulte [Configurar informações básicas para seu sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+  >[!IMPORTANT]
+  >
+  >Quando você atribui uma aprovação ao Proprietário do projeto e ninguém é designado como o proprietário de um projeto, a aprovação é reatribuída ao administrador principal do Workfront, conforme indicado na seção Informações do cliente na área Configuração. Para obter informações, consulte [Configurar informações básicas do seu sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+  >
 
 
 * Você pode ativar determinadas notificações que são entregues somente ao Proprietário do projeto.
 
-   Para obter mais informações sobre notificações por email, consulte a seção [Configurar notificações de evento para todos no sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) no artigo [Configurar notificações de evento para todos no sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+  Para obter mais informações sobre notificações por email, consulte a seção [Configurar notificações de eventos para todos no sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) no artigo [Configurar notificações de eventos para todos no sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-* Você pode exibir o campo Proprietário do projeto em um relatório ou lista.
+* É possível exibir o campo Proprietário do projeto em um relatório ou lista.
 
-   Também é possível exibir o campo Proprietário do projeto em uma visualização, agrupamento ou prompt.
+  Você também pode exibir o campo Proprietário do projeto em uma visualização, agrupamento ou prompt.
 
-   Por exemplo, você pode copiar a seguinte expressão de modo de texto em um filtro para exibir projetos de propriedade do usuário conectado: 
+  Por exemplo, você pode copiar a seguinte expressão de modo de texto em um filtro para exibir projetos pertencentes ao usuário conectado: 
 
-   ```
-   ownerID=$$USER.ID
-   ```
+  ```
+  ownerID=$$USER.ID
+  ```
 
 Para obter mais informações sobre como criar relatórios, consulte o artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -71,34 +74,34 @@ Para obter mais informações sobre como criar relatórios, consulte o artigo [C
 </div>
 -->
 
-## Patrocinadores de projetos
+## Patrocinadores do projeto
 
-Você pode designar qualquer usuário do sistema como patrocinador de projeto. O patrocinador do projeto geralmente é um gerente, executivo ou parte interessada que precisa saber o que está acontecendo com o projeto.
+Você pode designar qualquer usuário no sistema como um Patrocinador do projeto. O Patrocinador do projeto geralmente é um gerente, executivo ou participante que precisa saber o que está acontecendo com o projeto.
 
-Considere o seguinte ao atribuir um patrocinador de projeto:
+Considere o seguinte ao atribuir um Patrocinador do projeto:
 
-* O Patrocinador de projeto não obtém acesso adicional ao projeto, mas é adicionado às notificações por email do projeto. Para obter informações sobre notificações, consulte o artigo [Configurar notificações de evento para todos no sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+* O Patrocinador do Projeto não obtém acesso adicional ao projeto, mas é adicionado às notificações por email do projeto. Para obter informações sobre notificações, consulte o artigo [Configurar notificações de eventos para todos no sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-* Você pode designar apenas um patrocinador de projeto.
-* Você pode designar o Patrocinador de projeto como um aprovador genérico ao definir processos de aprovação de projeto, tarefa ou emissão. Para obter informações sobre aprovações, consulte [Editar um processo de aprovação](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
+* Você pode designar somente um Patrocinador do Projeto.
+* Você pode designar o Patrocinador do Projeto como um aprovador genérico ao definir processos de aprovação de projetos, tarefas ou problemas. Para obter informações sobre aprovações, consulte [Editar um processo de aprovação](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
 
-   >[!IMPORTANT]
-   >
-   >Quando você atribui uma aprovação ao Patrocinador do Projeto e ninguém é designado como patrocinador de um projeto, a aprovação é reatribuída ao Proprietário do Projeto. Se ninguém for designado como proprietário do projeto, a aprovação será atribuída ao administrador do Workfront.
+  >[!IMPORTANT]
+  >
+  >Quando você atribui uma aprovação ao Patrocinador do Projeto e ninguém é designado como patrocinador de um projeto, a aprovação é reatribuída ao Proprietário do Projeto. Se ninguém for designado como o proprietário do projeto, a aprovação será atribuída ao administrador do Workfront.
 
-* Você pode exibir o campo Patrocinador de projeto em um relatório ou lista.
+* Você pode exibir o campo Patrocinador do projeto em um relatório ou lista.
 
-   Também é possível exibir o campo Patrocinador do projeto em uma visualização, agrupamento ou prompt.
+  Você também pode exibir o campo Patrocinador do projeto em uma visualização, agrupamento ou prompt.
 
-   Por exemplo, você pode copiar a seguinte expressão de modo de texto em um filtro para exibir projetos patrocinados pelo usuário conectado:
+  Por exemplo, você pode copiar a seguinte expressão de modo de texto em um filtro para exibir projetos patrocinados pelo usuário conectado:
 
-   ```
-   sponsorID=$$USER.ID
-   ```
+  ```
+  sponsorID=$$USER.ID
+  ```
 
-    
+   
 
-   Para obter mais informações sobre como criar relatórios, consulte o artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Para obter mais informações sobre como criar relatórios, consulte o artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

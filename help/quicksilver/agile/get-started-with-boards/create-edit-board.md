@@ -6,7 +6,7 @@ description: No [!UICONTROL quadros] painel, é possível criar um novo painel o
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 5b6c7488bc1233e141e478da8546a05fcfffdc96
+source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 1%
@@ -50,6 +50,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 ## Criar um novo quadro
 
 {{step1-to-boards}}
+
 1. Clique em **[!UICONTROL Adicionar quadro]**.
 
 1. Selecione um modelo para o quadro.
@@ -98,6 +99,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 ## Editar um quadro existente
 
 {{step1-to-boards}}
+
 1. No painel, selecione o quadro a ser aberto.
 1. Edite o quadro conforme necessário. Você pode clicar no nome do quadro para renomeá-lo.
 

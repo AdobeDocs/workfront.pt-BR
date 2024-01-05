@@ -9,7 +9,7 @@ description: Em um [!DNL Adobe Workfront Fusion] cenário, é possível automati
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
 source-wordcount: '2934'
 ht-degree: 0%
@@ -353,7 +353,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Método]</td> 
-   <td>Defina a ação para a chamada de API. Para ver as ações disponíveis, consulte <a href="http://api.proofhq.com/">Documentação da API de prova</a>.</td> 
+   <td>Defina a ação para a chamada de API. Para ver as ações disponíveis, consulte <a href="https://api.proofhq.com/">Documentação da API de prova</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Corpo (XML)]</td> 
