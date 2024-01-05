@@ -1,5 +1,5 @@
 ---
-title: Requisitos de níveis de acesso
+title: Requisitos de acesso na documentação do Workfront
 content-type: reference
 product-area: system-administration
 keywords: acesso,nível,sistema,administrador,planejador,trabalhador,revisor,solicitante,externo,usuário
@@ -8,16 +8,14 @@ description: Os artigos de instruções da documentação do Workfront contêm u
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
-source-git-commit: 96f88c4b31b92998cfb8fa25ed1de0dfa0c70462
+source-git-commit: 77b30626f42adf8153d14ea9b1247da8085dcddf
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
 
-# Requisitos de níveis de acesso na documentação do Workfront
+# Requisitos de acesso na documentação do Workfront
 
 Os artigos de instruções da documentação do Workfront contêm uma tabela que explica os requisitos de acesso e permissões necessários para esse procedimento. Esta tabela de Requisitos de acesso permite compreender se você pode executar uma determinada ação no Workfront ou por que não pode fazê-lo. Este artigo explica cada elemento da tabela Requisitos de acesso e fornece dicas e links para a solução de problemas a informações mais detalhadas.
 
@@ -50,7 +48,7 @@ Algumas linhas contêm informações rotuladas como &quot;Novo&quot; e &quot;Atu
    <ul>
    <li>Novo: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Visão geral de novas licenças</a></li>
    <li>Atual: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral de licenças</a></li></ul></li>
-   <li>Se você tiver o nível de acesso correto e ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.
+   <li>Se você tiver o nível de acesso correto e ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.
    </ul>
       </p> </td> 
   </tr> 
@@ -75,27 +73,20 @@ Algumas linhas contêm informações rotuladas como &quot;Novo&quot; e &quot;Atu
    <li>Novo: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Visão geral dos novos níveis de acesso</a></li>
    <li>Atual: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">Visão geral dos níveis de acesso</a></li></ul></li>
     <li>Para descobrir os detalhes do seu nível de acesso, entre em contato com o administrador do Workfront</li>
-    <li>Se você for um administrador do Workfront, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configuração do acesso ao Adobe Workfront</a> para saber mais sobre como conceder acesso a objetos específicos no nível de acesso.</li>  
-   <li>Se você tiver o nível de acesso correto e ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</li>
+    <li>Se você for um administrador do Workfront, consulte <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configuração do acesso ao Adobe Workfront</a> para saber mais sobre como conceder acesso a objetos específicos no nível de acesso.</li>  
+   <li>Se você tiver o nível de acesso correto e ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</li>
     </td>
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
    <td><p>As permissões de objeto se referem ao acesso que você tem a objetos individuais do Workfront quando os cria ou quando são compartilhados com você. Por exemplo, você deve ter acesso de Visualização a um projeto específico para visualizar o projeto, mesmo se o nível de acesso permitir que você visualize projetos. Esta seção da tabela Requisitos de acesso descreve as permissões de objeto específicas necessárias para executar a ação no artigo.</p>
-   <p>Para obter informações sobre como solicitar acesso adicional a um objeto, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos</a>.</p></td> 
+   <p>Para obter informações sobre como solicitar acesso adicional a um objeto, consulte <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos</a>.</p><p>Para obter informações sobre como compartilhar um objeto, consulte <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md" class="MCXref xref">Compartilhar um objeto</a>.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Produto</td> 
-   <td>A Workfront oferece alguns produtos que podem ser comprados além do Workfront.
-   <p>Os artigos que descrevem os procedimentos executados nesses produtos adicionais listam o produto necessário aqui.</p>
-   <ul>
-   <li>Adobe Experience Manager Assets ou Assets Essentials </li>
-   <li>Workfront Fusion *</li>
-   <li>Metas do Workfront *</li>
-   <li>Planejador de cenários do Workfront *</li>
-   </ul>
-   <p>* Incluído no plano Workfront Ultimate
-   <p>Para saber se sua organização adquiriu um desses produtos adicionais ou se está no plano Workfront Ultimate, entre em contato com o administrador do Workfront.</p></td> 
+   <td role="rowheader">Modelo de layout</td> 
+   <td><p>Os modelos de layout controlam o que pode ser visto no menu principal e são configurados pelo administrador do Workfront. Essa linha anota quaisquer áreas específicas do Workfront que devem ser incluídas no Menu principal para executar a ação.</p><p>Em geral, se um artigo instruir você a clicar em uma área no menu principal e essa área não estiver visível nesse menu, entre em contato com o administrador do Workfront para determinar se essa área pode ser disponibilizada para você.</p><p>
+   Para obter informações sobre como um administrador do Workfront pode configurar o menu principal, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref">Personalizar o menu principal usando um modelo de layout</a>.</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront Fusion</td> 
