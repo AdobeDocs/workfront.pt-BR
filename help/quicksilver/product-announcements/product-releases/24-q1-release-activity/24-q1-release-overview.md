@@ -4,9 +4,9 @@ description: Visão geral da versão do primeiro trimestre de 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: 0ac00ba31f9960f9c8a0d42db47481dea0798334
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1494'
 ht-degree: 0%
 
 ---
@@ -206,6 +206,25 @@ O webinário da versão 24.1 será realizado em 11 de janeiro de 2024. Você pod
                     </td>
                  </tr>
                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Novo widget de aprovações pendentes disponível</a></p><p><span style="color: #ff0000;"> Novo na visualização!</span></p><p>Para facilitar a visualização do status das aprovações e revisões nos projetos que você possui, adicionamos um novo widget Aprovações pendentes à Página inicial. </p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 3 de janeiro de 2023</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão rápida: com a versão 24.1</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão trimestral: com a versão 24.1</p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">Esse recurso faz parte de uma versão em fases e está disponível no momento apenas para clientes específicos.</span></p>
+                    </td>
+                </tr>
+                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Controles do administrador para nova Página inicial usando modelos de layout</a></p><p>Agora, os administradores podem personalizar a nova Página inicial para usuários que usam modelos de layout. As opções de personalização incluem a seleção de elementos obrigatórios e a sua posição, a escolha de um plano de fundo e opções específicas de elementos para a escolha de filtros e grupos disponíveis (bem como a definição dos valores padrão).</p>
                     </td>
