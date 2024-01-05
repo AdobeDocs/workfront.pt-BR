@@ -9,9 +9,9 @@ description: Em um cenário do Adobe Workfront Fusion, é possível automatizar 
 author: Becky
 feature: Workfront Fusion
 exl-id: 66d2e59e-0945-4a6b-a0fe-5c313051ad4e
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 57a9667edea9067f14a6c40a75f6cf56a00d5e7d
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '462'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL NetSuite] para o Workfront Fusion, consulte<a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">Criar uma conexão com o [!DNL NetSuite] em um módulo do Workfront Fusion NetSuite</a> neste artigo.</p> </td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL NetSuite] para o Workfront Fusion, consulte <a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">Criar uma conexão com o [!DNL NetSuite] em um módulo do Workfront Fusion NetSuite</a> neste artigo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -100,7 +100,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Método]</td> 
-   td&gt; <p>Selecione o método de solicitação HTTP necessário para configurar a chamada de API. Para obter mais informações, consulte <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitação HTTP em [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Selecione o método de solicitação HTTP necessário para configurar a chamada de API. Para obter mais informações, consulte <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitação HTTP em [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Cabeçalhos]</td> 
