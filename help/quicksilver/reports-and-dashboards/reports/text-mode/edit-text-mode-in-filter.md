@@ -2,18 +2,20 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Editar um filtro usando o modo de texto
-description: "OBSERVAÇÃO: adicione uma seção a este artigo: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Além disso, faça um rascunho desta área no artigo de visão geral do Modo de texto)"
+description: É possível editar um filtro em uma lista ou relatório usando o modo de texto para acessar campos que não estão disponíveis na interface padrão e criar filtros mais complexos.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
 
 # Editar um filtro usando o modo de texto
+
+<!-- Audited: 01/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Also, draft this area in the Text Mode overview article)</p>
@@ -21,7 +23,7 @@ ht-degree: 0%
 
 É possível editar um filtro em uma lista ou relatório usando o modo de texto para acessar campos que não estão disponíveis na interface padrão e criar filtros mais complexos.
 
-Para obter mais exemplos de modo de texto ao criar um filtro, consulte também a seção &quot;Exemplos de filtros personalizados&quot; no artigo [Exibição personalizada, filtro e amostras de agrupamento: índice do artigo](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+Para obter mais exemplos de modo de texto ao criar um filtro, consulte também a seção &quot;Exemplos de filtros personalizados&quot; no artigo [Exibição personalizada, filtro e amostras de agrupamento: índice do artigo](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
 
 ## Requisitos de acesso
 
@@ -37,7 +39,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> </td> 
+   <td><p>Novo: Padrão</p>
+    <p>ou</p>
+    <p>Atual: Plano</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
@@ -45,7 +49,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões de um relatório para editar filtros em um relatório</p> <p>Gerenciar permissões de um filtro para editá-lo</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões de um relatório para editar filtros em um relatório</p> <p>Gerenciar permissões de um filtro para editá-lo</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,11 +81,11 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
 1. Siga um destes procedimentos:
 
    1. Para acessar o filtro a partir de um relatório, vá para o relatório e clique em **Ações de Relatório** > **Editar** > **Filtros** guia.
-   1. Para acessar o filtro em uma lista, vá para a lista e no **Filtro** menu suspenso, passe o mouse sobre o filtro que deseja modificar e clique no **Editar** ícone ![](assets/edit-icon.png).
+   1. Para acessar o filtro em uma lista, vá para a lista e no **Filtro** menu, passe o mouse sobre o filtro que deseja modificar e clique em **Editar** ícone ![](assets/edit-icon.png).
 
       O construtor de filtros é aberto.
 
-1. Clique em **Adicionar uma regra de filtro** para começar a adicionar as condições do filtro, clique em **Alternar para modo de texto** no canto superior direito do construtor.
+1. Clique em **Adicionar uma regra de filtro** para começar a adicionar as condições do filtro, clique em **Modo de texto** ou **Alternar para modo de texto** no lado direito do construtor.
 1. Adicione instruções de filtro usando o modo de texto. Cada declaração de filtro pode conter as seguintes linhas e informações adicionais:
 
    <table style="table-layout:auto"> 
@@ -93,7 +97,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
       <td><b>Exemplo</b></td> 
      </tr> 
      <tr> 
-      <td> <p>Nome do campo e valor igual ao que aparecem no banco de dados do Workfront.</p> <p>Esta linha é obrigatória.</p> <p> Para obter mais informações sobre como os objetos e campos aparecem no banco de dados, consulte <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> </td> 
+      <td> <p>Nome do campo e o valor igual ao que aparecem no banco de dados do Workfront.</p> <p>Esta linha é obrigatória.</p> <p> Para obter mais informações sobre como os objetos e campos aparecem no banco de dados, consulte <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> </td> 
       <td> <p><code>&lt;field name in camel case&gt;=&lt;value&gt;</code> </p> <p>Para filtrar tarefas com status Em andamento, use a seguinte linha:</p> <p><code>status=INP</code> </p> <p><b>DICA</b>
 
    Ao filtrar por status, é necessário usar o código de três letras do status, não o nome.</p> </td>
@@ -129,7 +133,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
        </div> </td> 
      </tr> 
      <tr> 
-      <td> <p>Um curinga que permite generalizar as informações em um filtro e fazer referência à hora atual do usuário que está conectado.</p> <p>Os curingas são opcionais.</p> <p>Dica:   <p>Recomendamos usar curingas sempre que possível para tornar seus filtros mais dinâmicos e não duplicar os mesmos filtros para cada usuário ou períodos semelhantes.</p> <p>Para obter informações sobre curingas de filtro, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Variáveis de filtro curinga</a>.</p> </p> </td> 
+      <td> <p>Um curinga, que permite generalizar as informações em um filtro e fazer referência à hora atual do usuário que está conectado.</p> <p>Os curingas são opcionais.</p> <p>Dica:   <p>Recomendamos usar curingas sempre que possível para tornar seus filtros mais dinâmicos e não duplicar os mesmos filtros para cada usuário ou períodos semelhantes.</p> <p>Para obter informações sobre curingas de filtro, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Visão geral das variáveis de filtro curinga</a>.</p> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;wildcard&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
        <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>EXEMPLO</b></span></span> 
         <p>Para filtrar tarefas atribuídas ao usuário que está conectado no momento, use o seguinte:</p> 
@@ -144,41 +148,30 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
 
    1. Adicione uma nova linha de código e digite OR:1: seguido pelo objeto ou atributo pelo qual você deseja filtrar e pelo valor com o qual você deseja compará-lo. Para referenciar tarefas que estão em qualquer status, exceto Nova, use a seguinte linha:
 
-      ```
-      OR:1:status=NEW
-      ```
+      `OR:1:status=NEW`
 
    1. Adicione uma segunda linha e digite OR:1: seguido pelo objeto, pelo modificador e pelo código do modificador. Para definir o modificador para a linha de código que faz referência a todos os status de tarefa, exceto para Novo, use a seguinte linha do modificador:
 
-      ```
-      OR:1:status_Mod=notin
-      ```
+      `OR:1:status_Mod=notin`
 
       Cada linha da nova instrução deve ser precedida por &quot;OR:`<number>`:&quot;.
 
       Para obter informações sobre como criar instruções &quot;OR&quot; em um filtro, consulte [Criar instruções &quot;OR&quot; em filtros do modo de texto](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md).
 
-<!--WRITER - reformat note below -->
+      >[!NOTE]
+      >
+      >Você pode ter várias instruções &quot;OR&quot; no mesmo filtro. Toda vez que você tem uma nova instrução &quot;OR&quot;, o número após &quot;OR:&quot; aumenta.
+      >
+      >Para filtrar tarefas com status Em Andamento, atribuídas ao usuário conectado ou com Data de conclusão planejada para hoje, use o seguinte:
+      >
+      >`status=INP`
+      >`status_Mod=in`
+      >`OR:1:assignedToID=$$USER.ID`
+      >`OR:1:assignedToID_Mod=in`
+      >`OR:2:plannedCompletionDate=$$TODAY`
+      >`OR:2:plannedCompletionDate_Mod=eq`
 
->[!NOTE]
->
->Você pode ter várias instruções &quot;OR&quot; no mesmo filtro. Toda vez que você tem uma nova instrução &quot;OR&quot;, o número após &quot;OR:&quot; aumenta.
->
-Para filtrar tarefas com status Em Andamento, atribuídas ao usuário conectado ou com Data de conclusão planejada para hoje, use o seguinte:
->
-`status=INP`
->
-`status_Mod=in`
->
-`OR:1:assignedToID=$$USER.ID`
->
-`OR:1:assignedToID_Mod=in`
->
-`OR:2:plannedCompletionDate=$$TODAY`
->
-`OR:2:plannedCompletionDate_Mod=eq`
-
-1. Clique em **Concluído** se quiser salvar suas alterações e continuar editando o relatório ou o filtro.
+1. Clique em **Sair do modo texto** ou **Concluído** para salvar as alterações no modo de texto e continuar editando o relatório ou o filtro.
 1. Clique em **Salvar + Fechar** para salvar seu relatório ou **Salvar Filtro** para salvar o filtro na lista.
 
 

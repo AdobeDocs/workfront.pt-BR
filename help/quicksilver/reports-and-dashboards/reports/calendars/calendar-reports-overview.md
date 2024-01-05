@@ -3,44 +3,48 @@ content-type: overview
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Visão geral dos relatórios de calendário
-description: Um relatório de calendário é, na verdade, um relatório dinâmico que fornece uma representação visual do seu trabalho.
+description: Um relatório de calendário é um relatório dinâmico que fornece uma representação visual do seu trabalho. Você pode exibir informações de data em um relatório de calendário para tarefas, problemas e projetos.
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '388'
 ht-degree: 1%
 
 ---
 
 # Visão geral dos relatórios de calendário
 
-Um relatório de calendário é, na verdade, um relatório dinâmico que fornece uma representação visual do seu trabalho. Você pode exibir informações de data em um relatório de calendário para os seguintes objetos:
+<!-- Audited: 01/2024 -->
+
+Um relatório de calendário é, na verdade, um relatório dinâmico que fornece uma representação visual do seu trabalho. Você pode exibir informações de data em um relatório de calendário para os seguintes objetos:
 
 * Tarefas
 * Problemas
 * Projetos
 
-Sua capacidade de acessar relatórios de calendário no [!DNL Adobe Workfront] é determinado pelo [!DNL Workfront] administrador através do seu nível de acesso. Para obter mais informações sobre o nível de acesso necessário para exibir relatórios de calendário, consulte [Conceder acesso a relatórios, painéis e calendários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+Sua capacidade de acessar relatórios de calendário no [!DNL Adobe Workfront] é determinado pelo seu nível de acesso. Para obter mais informações sobre o acesso necessário para exibir relatórios de calendário, consulte [Conceder acesso a relatórios, painéis e calendários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Criar seus próprios calendários
 
-[!UICONTROL Workfront] cria automaticamente um calendário pessoal padrão quando:
+[!DNL Workfront] O cria automaticamente seu calendário pessoal padrão quando:
 
-* Um usuário recém-criado que não tem acesso a nenhum outro calendário visita a página de relatório do calendário pela primeira vez\
-   OU
-* Um usuário exclui manualmente todos os calendários e não tem acesso a nenhum outro calendário
+* Você é um usuário recém-criado que não tem acesso a nenhum outro calendário e visita a página de relatório do calendário pela primeira vez
 
->[!NOTE]
->
->O calendário pessoal não será criado se o usuário tiver acesso a qualquer outro calendário, como um calendário compartilhado em todo o sistema ou calendários compartilhados especificamente com o usuário.
+  OU
 
-Além disso, os usuários podem criar calendários e acessar calendários compartilhados com eles por outros usuários. Não há limite para o número de calendários aos quais um usuário pode ter acesso no Workfront.
+* Você exclui manualmente todos os calendários e não tem acesso a nenhum outro calendário
 
 >[!NOTE]
 >
->Você deve ter [!UICONTROL Editar] acesso a [!UICONTROL Relatórios], [!UICONTROL Painéis], e [!UICONTROL Calendários] em seu nível de acesso para criar um relatório de calendário. Entre em contato com [!DNL Workfront] administrador.
+>O calendário pessoal não será criado se você tiver acesso a outros calendários, como um calendário compartilhado em todo o sistema ou calendários compartilhados especificamente com você.
+
+Além disso, você pode criar calendários e acessar calendários compartilhados com você por outros usuários. Não há limite para o número de calendários aos quais você pode ter acesso no [!DNL Workfront].
+
+>[!NOTE]
+>
+>Você deve ter [!UICONTROL Editar] acesso a [!UICONTROL Relatórios], [!UICONTROL Painéis], e [!UICONTROL Calendários] em seu nível de acesso para criar um relatório de calendário. Entre em contato com [!DNL Workfront] administrador para obter mais informações.
 
 ## Agrupar itens por datas
 
