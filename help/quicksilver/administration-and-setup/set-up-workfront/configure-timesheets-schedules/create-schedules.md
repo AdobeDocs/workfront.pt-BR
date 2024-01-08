@@ -3,32 +3,31 @@ user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Criar um agendamento
-description: Você pode definir as semanas de trabalho dos usuários usando agendamentos. Você pode associar um agendamento a um usuário ou projeto. Isso permite [!DNL Workfront] para calcular as linhas do tempo e a disponibilidade dos usuários.
-author: Caroline
+description: Você pode definir as semanas de trabalho dos usuários com cronogramas. Você pode associar um agendamento a um usuário ou projeto. Isso permite [!DNL Workfront] para calcular as linhas do tempo e a disponibilidade dos usuários.
+author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
 
 # Criar um agendamento
 
+<!--Audited: 01/2024-->
+
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 Linked to Editing Users, Editing Projects, Creating and managing groups
 -->
 
-Como um [!DNL Adobe Workfront] administrador, você pode definir sua semana de trabalho usando agendamentos. Você pode associar um agendamento a um usuário ou projeto. Isso permite [!DNL Workfront] para calcular as linhas do tempo e a disponibilidade dos usuários.
+Como um [!DNL Adobe Workfront] administrador, você pode definir sua semana de trabalho com cronogramas. Você pode associar um agendamento a um usuário ou projeto. Isso permite [!DNL Workfront] para calcular as linhas do tempo e a disponibilidade dos usuários.
 
 Quando você tem usuários que trabalham em fusos horários diferentes, criar um agendamento em cada um dos fusos horários e associá-lo a esses usuários garante que o trabalho deles seja registrado no [!DNL Workfront] em tempo real e que sua disponibilidade seja sempre precisa de acordo com o horário em que trabalham.
 
-Para obter informações sobre como associar cronogramas a usuários e projetos, consulte os seguintes artigos:
-
-* [Editar o perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
-* [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md)
+Para obter informações sobre como associar cronogramas a usuários e projetos, consulte [Editar o perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) e [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 Os administradores de grupo também podem criar agendamentos associados aos grupos que gerenciam. Para obter mais informações, consulte [Criar e modificar as agendas de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
 
@@ -45,50 +44,55 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano do [!UICONTROL Adobe Workfront]</td> 
-   <td>Qualquer Um</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td>[!UICONTROL Plano]</td> 
+   <td><p>Novo: [!UICONTROL Padrão]</p>
+       <p>Ou</p>
+       <p>Atual: [!UICONTROL Plano]</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Você deve ser um [!DNL Workfront] administrador.</p> <p><b>NOTA</b>: Se ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais no seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td>Você deve ser um [!DNL Workfront] administrador. </td> 
   </tr> 
  </tbody> 
 </table>
 
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Criar um agendamento
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe] Workfront e clique em **[!UICONTROL Configuração]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. Clique em **[!UICONTROL Agendamentos]**.
 1. Clique em **[!UICONTROL Nova programação]**.
-1. Especifique um nome para o agendamento.
+1. Insira um nome para o agendamento.
 1. (Opcional) Selecione **[!UICONTROL Agendamento Padrão]** para identificar esse cronograma como padrão.
 
-   Você pode ter mais de um cronograma em [!DNL Workfront], mas você só pode ter um agendamento padrão.
-
    Você deve ter pelo menos uma programação em [!DNL Workfront]. Se você tiver apenas uma, ela será designada como a programação padrão.
+
+   Você pode ter mais de um agendamento, mas só pode ter um agendamento padrão.
 
    >[!NOTE]
    >
    >Você não pode designar um agendamento como o agendamento padrão se for um administrador de grupo. Somente um [!DNL Workfront] administrador pode designar um agendamento como padrão para o sistema.
 
-   ![](assets/new-schedule.png)
+   ![Nova programação](assets/new-schedule.png)
 
 1. No **[!UICONTROL Agendar]** , selecione um agendamento diário arrastando o contorno azul pelos blocos de horas para realçá-los.
 
    Recomendamos que você selecione 8 blocos de uma hora durante um período de 9 horas. Isso acomoda para almoço ou outros intervalos.
 
-   ![](assets/new-schedule-with-exceptions.png)
+   ![Blocos de tempo em um agendamento](assets/new-schedule-with-exceptions.png)
 
-1. No **[!UICONTROL Detalhes]** especifique as seguintes informações:
+1. No **[!UICONTROL Detalhes]** insira as seguintes informações:
 
    <table style="table-layout:auto">
     <tr>
      <td>[!UICONTROL Grupo com Acesso de Administração]</td>
-     <td><p>Indique o grupo cujos administradores têm permissão para editar este agendamento.</p>
+     <td><p>Selecione o grupo cujos administradores têm permissão para editar este agendamento.</p>
      <p><b>IMPORTANTE</b>:</p>
       <ul>
        <li>
@@ -105,18 +109,18 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
     </tr>
     <tr>
      <td>[!UICONTROL Grupos com Acesso de Exibição]</td>
-     <td><p>Selecione os grupos com acesso à [!UICONTROL View] para os quais este agendamento está visível.</p>
+     <td><p>Selecione os grupos com acesso à [!UICONTROL View] que podem ver esse agendamento.</p>
      <p>Somente os usuários nos grupos especificados aqui podem encontrar o agendamento no menu suspenso quando estão atribuindo-o a usuários ou projetos.</p></tr>
     <tr>
      <td>[!UICONTROL Fuso Horário]</td>
-     <td><p>Selecione o fuso horário para seu cronograma.</p>
-     <p>Se você associar o agendamento a um usuário, recomendamos que o Fuso Horário do agendamento corresponda ao do usuário. Para obter informações sobre os fusos horários do usuário, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar o perfil de um usuário.
+     <td><p>Selecione o fuso horário para o agendamento.</p>
+     <p>Se você associar o agendamento a um usuário, recomendamos que o fuso horário do agendamento corresponda ao do usuário. Para obter informações sobre os fusos horários do usuário, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar o perfil de um usuário.
      </td>
     </tr>
    </table>
 
 
-1. No **[!UICONTROL Exceções]** especifique as exceções para a programação.
+1. No **[!UICONTROL Exceções]** especifique quaisquer exceções para a programação.
 
    As exceções são dias inteiros ou meio que precisam ser excluídos da programação, como feriados ou eventos da empresa.
 
@@ -126,11 +130,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Dias inteiros ou parciais podem ser excluídos da programação de trabalho. Clique na data para selecioná-la como uma exceção e selecione a variável **[!UICONTROL O dia todo]** para indicar se a exceção é um dia inteiro ou não.
 
-   ![](assets/schedule-adding-an-all-day-exception.png)
+   ![Exceção de dia inteiro](assets/schedule-adding-an-all-day-exception.png)
 
-1. Especifique a hora de início e término para as exceções de dias parciais.
+1. Informe a hora inicial e final para as exceções de dias parciais.
 
-   ![partial-day-exception-on-schedule.png](assets/partial-day-exception-on-schedules.png)
+   ![Exceção de dia parcial](assets/partial-day-exception-on-schedules.png)
 
 1. Clique em **[!UICONTROL Salvar]** e, em seguida, clique em **[!UICONTROL Salvar] Alterações**.
 

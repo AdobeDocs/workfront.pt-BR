@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '347'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ Esta tabela e diagrama mostram os principais níveis de acesso ao Workfront:
 
 >[!NOTE]
 >
->A licença externa não é uma licença paga. Ele foi projetado principalmente para compartilhar documentos com colaboradores que não usam o Workfront. Para obter mais informações, consulte [Níveis de acesso incorporados no Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
+>A licença externa não é uma licença paga. Ele foi projetado principalmente para compartilhar documentos com colaboradores que não usam o Workfront. Para obter mais informações, consulte [Níveis de acesso incorporados](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
 ## Como uma licença define um nível de acesso
 

@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: c709ecd8023a0a9ce9c5b4591145d0a70912e003
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '831'
 ht-degree: 4%
 
 ---
@@ -95,7 +95,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
         <li>Solicitação de documento<br></li>
         <li>Aprovação de documento</li>
         <li>Calendário</li>
-       </ul><p>Essa opção está ativada por padrão.</p> <p><b>Importante</b>: o nível de acesso Usuário externo não estará disponível na instância do Workfront se essa opção estiver desativada. Para obter mais informações, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Níveis de acesso incorporados no Workfront</a>.</p> </td> 
+       </ul><p>Essa opção está ativada por padrão.</p> <p><b>Importante</b>: o nível de acesso Usuário externo não estará disponível na instância do Workfront se essa opção estiver desativada. Para obter mais informações, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Níveis de acesso incorporados</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Exigir que usuários externos se registrem com uma senha</td> 

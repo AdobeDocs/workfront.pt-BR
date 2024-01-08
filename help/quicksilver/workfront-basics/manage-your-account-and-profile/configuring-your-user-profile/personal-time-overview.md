@@ -7,10 +7,10 @@ description: É importante indicar no Adobe Workfront quando a folga aprovada ac
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 0%
+source-wordcount: '394'
+ht-degree: 1%
 
 ---
 
@@ -45,24 +45,24 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
    <td> <p>Novo: Padrão (para configurar seu tempo livre pessoal)</p>
         <p>ou</p>
         <p>Atual: trabalha ou mais (para configurar seu tempo livre pessoal)</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td>Acesso ao [!UICONTROL Manager] com [!UICONTROL Editar Usuário] (para alterar o calendário de folga de outros usuários)<br>
    <strong>NOTA:</strong> Se um gerente editar o calendário de folga pessoal de outro usuário, todas as entradas serão mostradas no fuso horário do usuário e não no fuso horário do gerente.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Configurar o tempo de folga pessoal no [!DNL Workfront]
 
