@@ -7,18 +7,20 @@ description: É possível ajustar a configuração do Modo de rastreamento de um
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
+source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 3%
+source-wordcount: '646'
+ht-degree: 2%
 
 ---
 
 # Visão geral do modo de rastreamento de tarefas
 
+<!-- Audited: 01/2024 -->
+
 É possível ajustar a configuração do Modo de rastreamento de uma tarefa ao criar ou editar uma tarefa para controlar como e quando os indicadores de Status de progresso de uma tarefa são exibidos. O Adobe Workfront exibe sinalizadores de Status do Progresso quando você define determinadas configurações para rastrear o progresso em tarefas.
 
-Para obter mais informações sobre o Status de progresso das tarefas, consulte [Visão geral do status de progresso da tarefa](../../../manage-work/tasks/task-information/task-progress-status.md).
+Para obter mais informações sobre o Status do Progresso de tarefas, consulte [Visão geral do status de progresso da tarefa](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -43,7 +45,7 @@ Você pode selecionar entre as seguintes opções:
 * [Usuário deve atualizar](#user-must-update)
 * [Assumir Em Dia](#assume-on-time)
 * [Ignorar avisos de atrasos](#ignore-late-warnings)
-* [Completar Automaticamente](#auto-complete)
+* [Preenchimento automático](#auto-complete)
 * [Predecessor](#predecessor)
 
 ### Usuário deve atualizar {#user-must-update}
@@ -52,7 +54,7 @@ Quando essa opção é selecionada, o Workfront usa o Percentual concluído da t
 
 ### Assumir Em Dia {#assume-on-time}
 
-A Workfront presume que uma tarefa será concluída a tempo, independentemente do status de conclusão atual. Caso contrário, o Workfront assume automaticamente uma Data de conclusão planejada para o próximo dia útil. Você ainda deve indicar quando a tarefa é concluída. Use essa opção quando os usuários não atualizarem regularmente suas tarefas.
+A Workfront presume que uma tarefa será concluída a tempo, independentemente do status de conclusão atual. Se a tarefa não for concluída no prazo (na Data de conclusão planejada), o Workfront assumirá automaticamente uma Data de conclusão planejada para o próximo dia útil. Você ainda deve indicar quando a tarefa é concluída. Use essa opção quando os usuários não atualizarem regularmente suas tarefas.
 
 ### Ignorar avisos de atrasos {#ignore-late-warnings}
 
@@ -71,7 +73,7 @@ As seguintes exceções existem:
 >
 >Selecionar a opção de conclusão automática das tarefas marca a tarefa como Concluída quando o horário do projeto for recalculado. Se o Tipo de atualização do projeto estiver definido como Automático ou Automático e Mediante alteração, a linha do tempo do projeto será calculada diariamente. Para obter informações sobre os recálculos de cronograma de projetos, consulte [Recalcular linhas do tempo do projeto](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 >
->A hora da Data de conclusão real é a meia-noite do dia em que a linha do tempo é calculada automaticamente. O horário usado para gerar esse carimbo de data e hora é o Fuso horário de seu sistema, conforme definido pelo administrador do Workfront na seção Informações do cliente da Configuração. Para obter informações sobre como configurar o Fuso Horário do seu sistema, consulte [Configurar informações básicas do seu sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+>A hora da Data de conclusão real é a meia-noite do dia em que a linha do tempo é calculada automaticamente. O horário usado para gerar esse carimbo de data e hora é o fuso horário do seu sistema, conforme definido pelo administrador do Workfront na seção Informações do cliente da Configuração. Para obter informações sobre como definir o fuso horário do seu sistema, consulte [Configurar informações básicas do seu sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### Predecessor {#predecessor}
 
