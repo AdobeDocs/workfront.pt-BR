@@ -6,9 +6,9 @@ description: Visão geral da entrega de relatórios
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 8d89bb511ac28905f5f0043cd0cda7d61611fad3
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1531'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Considere o seguinte:
 
 Quando você aplica uma visualização especial a um relatório, ela é exibida na guia Detalhes do relatório no Workfront.
 
-Ao agendar a entrega de um relatório com uma visualização especial, a guia Detalhes padrão é entregue no anexo do email enviado, em vez da visualização especial.
+Ao agendar a entrega de um relatório que tem uma visualização especial, a guia Details é entregue no anexo do email enviado, em vez da visualização especial.
 
 Estas são as visões especiais:
 

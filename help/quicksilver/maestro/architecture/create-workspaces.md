@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 1%
+source-wordcount: '525'
+ht-degree: 0%
 
 ---
 
@@ -50,24 +50,24 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr>
    <td role="rowheader"><p>plano do Adobe Workfront</p></td>
    <td>
-<p>Qualquer Um</p>
+<p>Qualquer</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td>
    <td>
-   <p>Qualquer Um</p> 
+   <p>Qualquer</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Nível de acesso</td>
-   <td> <p>Qualquer Um</p>  
+   <td> <p>Qualquer</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader">Modelo de layout</td>
-   <td> <p>O administrador do sistema deve adicionar a área Maestro no modelo de layout. Para obter informações, consulte <a href="../access/grant-access.md">Conceder acesso ao Adobe Maestro</a>. </p>  
+   <td> <p>O administrador do sistema deve adicionar a área Maestro no modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -108,20 +108,25 @@ After permssions - replace the table with:
   </tr>
   
   <tr>
-   <td role="rowheader"><p>Access level</p></td>
+   <td role="rowheader"><p>Access level*</p></td>
    <td> <p>System Administrator</p>  
+   <p>The following license types:</p>
+   <ul><li>New: Standard</li>
+   <li>Current: Worker or higher </li></ul>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>You must add the Maestro area to your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>You must add the Maestro area to your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 
  </tbody>
 </table>
 
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver\administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 -->
+
 
 
 

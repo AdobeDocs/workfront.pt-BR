@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 1%
+source-wordcount: '470'
+ht-degree: 0%
 
 ---
 
@@ -46,7 +46,7 @@ Este artigo descreve como você pode editar as configurações para campos Maest
 
 ## Considerações sobre a edição de informações de campo
 
-* É possível editar campos criados ou campos criados por outros usuários. <!--this will change with access levels/ permissions-->
+* É possível editar campos criados ou campos criados por outros usuários. <!--this will change with access levels/ permissions - take out, it's in the table!-->
 * É possível editar um campo na tabela de tipo de registro.
 * Não é possível editar o tipo de campo depois que o campo é salvo.
 * Não é possível desmarcar a configuração Permitir números negativos que foi selecionada anteriormente para um campo Número, Porcentagem ou Moeda se já houver valores negativos armazenados nos registros aos quais está anexado.
@@ -77,24 +77,24 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr>
    <td role="rowheader"><p>plano do Adobe Workfront</p></td>
    <td>
-<p>Qualquer Um</p>
+<p>Qualquer</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td>
    <td>
-   <p>Qualquer Um</p> 
+   <p>Qualquer</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Nível de acesso</td>
-   <td> <p>Qualquer Um</p>  
+   <td> <p>Qualquer</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader">Modelo de layout</td>
-   <td> <p>O administrador do sistema deve adicionar a área Maestro no modelo de layout. Para obter informações, consulte <a href="../access/grant-access.md">Conceder acesso ao Adobe Maestro</a>. </p>  
+   <td> <p>O administrador do sistema deve adicionar a área Maestro no modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -141,7 +141,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>

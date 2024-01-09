@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -29,4 +29,11 @@ Como administrador do Workfront, você deve conceder acesso aos seus usuários p
 Os artigos a seguir contêm informações sobre qual acesso seus usuários precisam para usar o Maestri:
 
 * [Visão geral do Access](../access/access-overview.md)
-* [Conceder acesso ao Adobe Maestro](../access/grant-access.md)
+
+<!--make the following live with permissions release: 
+
+* [Overview of sharing permissions in Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md)
+* [Share a workspace](/help/quicksilver/maestro/access/share-workspaces.md)
+* [Share a view](/help/quicksilver/maestro/access/share-views.md)
+
+-->
