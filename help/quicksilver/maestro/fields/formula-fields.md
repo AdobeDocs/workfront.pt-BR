@@ -4,9 +4,9 @@ description: Em Adobe Maestri, você pode criar campos de fórmula que usam fun�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -154,8 +154,8 @@ After permssions - replace the table with:
 * Os campos de fórmula fazem referência a campos que pertencem ao mesmo tipo de registro. Não é possível referenciar campos de outros tipos de registro ao criar um campo de fórmula. <!--is this still accurate??-->
 * Não é possível alterar o tipo de campo de um campo Fórmula depois de salvá-lo.
 * É possível atualizar o cálculo de um campo de fórmula depois de salvá-lo, e os resultados do cálculo são atualizados automaticamente para todos os registros do mesmo tipo.
-* Não é possível usar campos de pesquisa de tipos de registro vinculados.
 * Você deve adicionar os campos referenciados nas fórmulas conforme eles são exibidos na interface do Maestro.
+* O uso de campos de pesquisa de tipos de registro vinculados em uma fórmula estará disponível em uma data posterior.
 
 ## Fórmulas compatíveis
 

@@ -1,14 +1,14 @@
 ---
 title: Visão geral das permissões de compartilhamento no Adobe Maestro
-description: Você pode compartilhar ou remover permissões de um espaço de trabalho do Adobe Maestro que criou.
+description: Você pode compartilhar ou remover permissões de um espaço de trabalho ou visualização do Adobe Maestri.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: fda35538234593b66b01f9e0cc0dafd6a63a84dc
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 1%
+source-wordcount: '474'
+ht-degree: 8%
 
 ---
 
@@ -30,7 +30,15 @@ ht-degree: 1%
 >
 >Para obter informações, consulte [Visão geral do Adobe Maestri](../maestro-overview.md).
 
-Você pode compartilhar ou remover permissões de um espaço de trabalho do Adobe Maestro que criou.
+Você pode compartilhar ou remover permissões de um espaço de trabalho ou visualização do Adobe Maestri.
+
+Este artigo descreve os níveis de permissão para objetos Maestro.
+
+Para obter informações sobre como compartilhar espaços de trabalho ou exibições, consulte os seguintes artigos:
+
+* [Compartilhar um espaço de trabalho](/help/quicksilver/maestro/access/share-workspaces.md)
+
+* [Compartilhar uma exibição](/help/quicksilver/maestro/access/share-views.md)
 
 ## Objetos que você pode compartilhar no Adobe Maestro
 
@@ -48,6 +56,8 @@ Você pode compartilhar os seguintes objetos no Maestro:
 
    * Novo modelo de preços: Licença padrão
    * Modelo de preço atual: licença de trabalho ou superior
+
+  Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 * Os administradores do sistema podem gerenciar e compartilhar espaços de trabalho criados por outros usuários.
 * Se você não for um Administrador do sistema, poderá contribuir com espaços de trabalho criados por outros se eles forem compartilhados com você.
 * Não é possível compartilhar espaços de trabalho em massa.
@@ -58,48 +68,95 @@ Você pode compartilhar os seguintes objetos no Maestro:
 
 ## Permissões de compartilhamento para objetos do Maestro
 
-A tabela a seguir ilustra o nível de permissões que você pode selecionar ao compartilhar um espaço de trabalho ou view Maestri:
+As tabelas nas seções a seguir ilustram o nível de permissões que você pode selecionar ao compartilhar um espaço de trabalho ou view Maestri e qual funcionalidade cada nível permite.
 
+### Permissões do Workspace
+
+|        | Gerenciar | Contribuir | Exibir |
+|--------|--------|------------|-------|
+| Editar | ✓ µ |            |       |
+| Compartilhar | ✓ µ |            |       |
+| Excluir | ✓ µ |            |       |
+| Exibir | ✓ µ | ✓ µ | ✓ µ |
+
+### Permissões de tipo de registro
+
+As permissões de Tipo de registro são herdadas ao conceder permissões ao espaço de trabalho.
+
+|        | Gerenciar | Contribuir | Exibir |
+|--------|--------|------------|-------|
+| Criar | ✓ µ |            |       |
+| Excluir | ✓ µ |            |       |
+| Editar | ✓ µ |            |       |
+| Exibir | ✓ µ | ✓ µ | ✓ µ |
+
+### Registrar permissões
+
+As permissões de registro são herdadas ao conceder permissões ao espaço de trabalho.
+
+|        | Gerenciar | Contribuir | Exibir |
+|--------|--------|------------|-------|
+| Criar | ✓ µ |            |       |
+| Excluir | ✓ µ | ✓ µ |       |
+| Editar | ✓ µ | ✓ µ |       |
+| Exibir | ✓ µ | ✓ µ | ✓ µ |
+
+### Permissões de campo
+
+As permissões de campo são herdadas ao conceder permissões ao espaço de trabalho.
+As permissões a seguir se referem aos próprios campos e não aos valores associados a cada campo. Para editar valores de campo, você deve ter permissões para editar registros.
+
+|        | Gerenciar | Contribuir | Exibir |
+|--------|--------|------------|-------|
+| Criar | ✓ µ |            |       |
+| Excluir | ✓ µ |            |       |
+| Editar | ✓ µ |            |       |
+| Exibir | ✓ µ | ✓ µ | ✓ µ |
+
+
+### Exibir permissões
+
+Você deve conceder permissões separadas para exibições de registros. A concessão de permissões para o espaço de trabalho não concede permissões para as exibições de registros no espaço de trabalho.
+
+|        | Gerenciar | Exibir |
+|--------|--------|-------|
+| Editar | ✓ µ |       |
+| Excluir | ✓ µ |       |
+| Exibir | ✓ µ | ✓ µ |
+| Aplicar | ✓ µ | ✓ µ |
+
+
+
+
+<!--
 <table>
   <tr>
+   
 
-
-</td>
+   </td>
   </tr>
   <tr>
    <td>
    </td>
    <td>
    </td>
-   <td><p><b>Novo: Licença padrão</b></p> <p><b>Atual: licença de trabalhador ou superior</b></p></strong>
+   <td><p><b>New: Standard license</b></p> <p><b>Current: Worker or higher license</b></p></strong>
    </td>
-   <td><strong>Gerenciar permissões</strong>
+   <td><strong>Manage permissions</strong>
    </td>
-   <td><strong>Permissões do Contribute</strong>
+   <td><strong>Contribute permissions</strong>
    </td>
-   <td><strong>Exibir permissões</strong>
+   <td><strong>View permissions</strong>
    </td>
   </tr>
   <tr>
-   <td><strong>Criar</strong>
+   <td><strong>Create</strong>
    </td>
    <td rowspan="5" ><strong>Workspace</strong>
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
-   <td>✓ µ
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Excluir</strong>
-   </td>
-   <td>✓ µ
-   </td>
-   <td>✓ µ
+   <td>✓
    </td>
    <td>
    </td>
@@ -107,23 +164,11 @@ A tabela a seguir ilustra o nível de permissões que você pode selecionar ao c
    </td>
   </tr>
   <tr>
-   <td><strong>Compartilhar</strong>
+   <td><strong>Delete</strong>
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
-   <td>✓ µ
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Editar</strong>
-   </td>
-   <td>✓ µ
-   </td>
-   <td>✓ µ
+   <td>✓
    </td>
    <td>
    </td>
@@ -131,25 +176,11 @@ A tabela a seguir ilustra o nível de permissões que você pode selecionar ao c
    </td>
   </tr>
   <tr>
-   <td><strong>Exibir</strong>
+   <td><strong>Share</strong>
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
-   <td>✓ µ
-   </td>
-   <td>✓ µ
-   </td>
-   <td>✓ µ
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Criar/excluir</strong>
-   </td>
-   <td rowspan="3" ><strong>Tipo de registro*</strong>
-   </td>
-   <td>✓ µ
-   </td>
-   <td>✓ µ
+   <td>✓
    </td>
    <td>
    </td>
@@ -157,11 +188,37 @@ A tabela a seguir ilustra o nível de permissões que você pode selecionar ao c
    </td>
   </tr>
   <tr>
-   <td><strong>Editar</strong>
+   <td><strong>Edit</strong>
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
-   <td>✓ µ
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Create/delete</strong>
+   </td>
+   <td rowspan="3" ><strong>Record Type*</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
    </td>
    <td>
    </td>
@@ -169,76 +226,76 @@ A tabela a seguir ilustra o nível de permissões que você pode selecionar ao c
    </td>
   </tr>
   <tr>
-   <td><strong>Exibir</strong>
+   <td><strong>Edit</strong>
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
-   <td>✓ µ
-   </td>
-   <td>✓ µ
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Criar/excluir</strong>
-   </td>
-   <td rowspan="3" ><strong>Gravar*</strong>
-   </td>
-   <td>✓ µ
-   </td>
-   <td>✓ µ
-   </td>
-   <td>✓ µ
+   <td>
    </td>
    <td>
    </td>
   </tr>
   <tr>
-   <td><strong>Editar</strong>
+   <td><strong>View</strong>
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
-   <td>✓ µ
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Create/delete</strong>
+   </td>
+   <td rowspan="3" ><strong>Record*</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
    </td>
    <td>
    </td>
   </tr>
   <tr>
-   <td><strong>Exibir</strong>
+   <td><strong>Edit</strong>
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
-   <td>✓ µ
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
    </td>
   </tr>
   <tr>
    <tr>
-   <td><strong>Criar</strong>
+   <td><strong>Create</strong>
    </td>
-   <td rowspan="5" ><strong>Exibir</strong>
+   <td rowspan="5" ><strong>View</strong>
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
-   <td>✓ µ
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Excluir</strong>
-   </td>
-   <td>✓ µ
-   </td>
-   <td>✓ µ
+   <td>✓
    </td>
    <td>
    </td>
@@ -246,23 +303,11 @@ A tabela a seguir ilustra o nível de permissões que você pode selecionar ao c
    </td>
   </tr>
   <tr>
-   <td><strong>Compartilhar</strong>
+   <td><strong>Delete</strong>
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
-   <td>✓ µ
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Editar</strong>
-   </td>
-   <td>✓ µ
-   </td>
-   <td>✓ µ
+   <td>✓
    </td>
    <td>
    </td>
@@ -270,54 +315,78 @@ A tabela a seguir ilustra o nível de permissões que você pode selecionar ao c
    </td>
   </tr>
   <tr>
-   <td><strong>Exibir</strong>
+   <td><strong>Share</strong>
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
    <td>
    </td>
-   <td>✓ µ
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Edit</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>✓
    </td>
   </tr>
 
 <tr>
-   <td><strong>Criar/excluir</strong>
+   <td><strong>Create/delete</strong>
    </td>
-   <td rowspan="3" ><strong>Campos*</strong>
+   <td rowspan="3" ><strong>Fields*</strong>
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
-   <td>✓ µ
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Editar</strong>
-   </td>
-   <td>✓ µ
-   </td>
-   <td>✓ µ
-   </td>
-   <td>
+   <td>✓
    </td>
    <td>
    </td>
   </tr>
   <tr>
-   <td><strong>Exibir</strong>
+   <td><strong>Edit</strong>
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
-   <td>✓ µ
+   <td>
    </td>
-   <td>✓ µ
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
    </td>
   </tr>
 
@@ -325,11 +394,7 @@ A tabela a seguir ilustra o nível de permissões que você pode selecionar ao c
 
 </table>
 
-*Tipos de registro, registros e campos herdam permissões do Espaço de trabalho.
+*Record types, records, and fields inherit permissions from the Workspace. -->
 
-Para obter informações gerais sobre o acesso no Maestro, consulte [Visão geral das permissões de compartilhamento no Adobe Maestro](../access/sharing-permissions-overview.md).
 
-Para obter informações sobre o compartilhamento de espaços de trabalho, consulte [Compartilhar um espaço de trabalho](/help/quicksilver/maestro/access/share-workspaces.md).
-
-Para obter informações sobre o compartilhamento de exibições, consulte [Compartilhar uma exibição](/help/quicksilver/maestro/access/share-views.md)
 

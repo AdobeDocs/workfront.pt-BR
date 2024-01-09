@@ -4,9 +4,9 @@ description: Você pode compartilhar uma visão com outras pessoas para garantir
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f92fe2fc35cb810c4d52535151a75fe6c3f22f0e
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -83,14 +83,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 >[!NOTE]
 >
->Os administradores do sistema não podem exibir ou compartilhar exibições que não foram criadas por eles mesmos.
+>Os administradores do sistema não podem exibir ou compartilhar exibições que não foram criadas por eles mesmos. Eles só podem exibir ou compartilhar exibições compartilhadas com eles.
 
 
-Para compartilhar um espaço de trabalho com outras pessoas:
+Para compartilhar uma visualização com outras pessoas:
 
 {{step1-to-maestro}}
 
-1. Abra o espaço de trabalho que deseja compartilhar e clique em um cartão Tipo de registro.
+1. Abra o espaço de trabalho cuja exibição você deseja compartilhar e clique em um cartão Tipo de registro.
 
    Isso abre a página do tipo de registro.
 
@@ -98,7 +98,7 @@ Para compartilhar um espaço de trabalho com outras pessoas:
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-1. No **Conceder acesso ao espaço de trabalho para** comece digitando o nome de um usuário ou grupo e, em seguida, clique nele quando for exibido na lista.
+1. No **Conceder acesso de visualização a** comece digitando o nome de um usuário ou grupo e, em seguida, clique nele quando for exibido na lista.
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -117,13 +117,13 @@ Para compartilhar um espaço de trabalho com outras pessoas:
 
 {{step1-to-maestro}}
 
-1. Abra o espaço de trabalho que deseja compartilhar e clique em um cartão Tipo de registro.
+1. Abra o espaço de trabalho cuja exibição você deseja compartilhar e clique em um cartão Tipo de registro.
 
    Isso abre a página do tipo de registro.
 
 1. No menu suspenso de exibição, passe o mouse sobre a exibição que deseja compartilhar e clique no link **Mais** menu ![](assets/more-menu.png) à direita do nome da exibição, clique em **Compartilhar**.
 
-1. Localize o usuário ou grupo que deseja remover e clique em **Remover**.
+1. Localize o usuário ou grupo que deseja remover e clique em **Remover** no menu suspenso permissões à direita do nome do usuário ou do grupo.
 
 1. Clique em **Salvar**.
 
