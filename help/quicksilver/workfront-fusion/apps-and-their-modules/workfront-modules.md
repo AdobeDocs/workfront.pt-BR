@@ -9,10 +9,10 @@ description: Você pode usar o conector do Adobe Workfront Fusion Adobe Workfron
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 0810f2db8ef85b73de591649712580f23b72b5af
+source-git-commit: 37fd436070b435ebf3d042789bd385dc6a6108cc
 workflow-type: tm+mt
-source-wordcount: '5468'
-ht-degree: 3%
+source-wordcount: '5799'
+ht-degree: 2%
 
 ---
 
@@ -160,7 +160,7 @@ Depois que o webhook for criado, você poderá exibir o endereço do endpoint pa
 
 Para obter mais informações, consulte a seção [Exemplos de payloads de evento](../../wf-api/general/event-subs-api.md#examples-of-event-payloads) no [!DNL Workfront] Artigo de ajuda [API de assinatura de evento](../../wf-api/general/event-subs-api.md).
 
-Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] object types available for each [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
+Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] tipos de objeto disponíveis para cada [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -197,7 +197,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  </tbody> 
 </table>
 
-Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] object types available for each [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
+Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] tipos de objeto disponíveis para cada [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -240,7 +240,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  </tbody> 
 </table>
 
-Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] object types available for each [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
+Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] tipos de objeto disponíveis para cada [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -344,7 +344,7 @@ Forneça o número mínimo de campos de entrada. Por exemplo, se você deseja cr
  </tbody> 
 </table>
 
-Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] object types available for each [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
+Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] tipos de objeto disponíveis para cada [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -391,7 +391,7 @@ Forneça o número mínimo de campos de entrada. Por exemplo, se você deseja cr
  </tbody> 
 </table>
 
-Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] object types available for each [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
+Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] tipos de objeto disponíveis para cada [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -458,7 +458,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  </tbody> 
 </table>
 
-Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] object types available for each [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
+Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] tipos de objeto disponíveis para cada [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -495,7 +495,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  </tbody> 
 </table>
 
-Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] object types available for each [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
+Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] tipos de objeto disponíveis para cada [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -507,7 +507,7 @@ Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usa
 
 +++
 
-+++ **[!UICONTROL Baixar Documento]**
++++ **[!UICONTROL Baixar documento]**
 
 Este módulo de ação baixa um documento do Workfront.
 
@@ -532,7 +532,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  </tbody> 
 </table>
 
-Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] object types available for each [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
+Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] tipos de objeto disponíveis para cada [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -556,7 +556,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Ação]</td> 
-   <td> <p>Selecione a ação que deseja que o módulo execute.</p> <p>Talvez seja necessário preencher campos adicionais, dependendo do [!UICONTROL Record Type] e da [!UICONTROL Action] escolhidos. Algumas combinações dessas duas configurações podem exigir apenas uma ID de registro, enquanto outras (como Project para o <strong>[!UICONTROL Tipo de Registro]</strong> e [!UICONTROL Anexar Modelo] para o <strong>[!UICONTROL Ação]</strong>) exigem informações adicionais (como uma ID de objeto e uma ID de modelo).</p> <p>Para obter detalhes sobre campos individuais, consulte a <a href="http://developer.workfront.com/">Documentação do desenvolvedor do Workfront</a>. </p> 
+   <td> <p>Selecione a ação que deseja que o módulo execute.</p> <p>Talvez seja necessário preencher campos adicionais, dependendo do [!UICONTROL Record Type] e da [!UICONTROL Action] escolhidos. Algumas combinações dessas duas configurações podem exigir apenas uma ID de registro, enquanto outras (como Project para o <strong>[!UICONTROL Tipo de Registro]</strong> e [!UICONTROL Anexar Modelo] para o <strong>[!UICONTROL Ação]</strong>) exigem informações adicionais (como uma ID de objeto e uma ID de modelo).</p> <p>Para obter detalhes sobre campos individuais, consulte a <a href="http://developer.workfront.com/">Documentação do desenvolvedor do Workfront</a>. <p><strong>Nota</strong>: o site de documentação do desenvolvedor inclui informações somente por meio da API versão 14, mas ainda contém informações valiosas para chamadas de API. </p> 
     <ol> 
      <li value="1"> <p>Selecione o tipo de registro na navegação à esquerda no [!DNL Workfront] página da documentação do desenvolvedor. Os seguintes tipos têm suas próprias páginas:</p> 
       <ul> 
@@ -577,7 +577,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  </tbody> 
 </table>
 
-Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] object types available for each [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
+Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] tipos de objeto disponíveis para cada [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -627,7 +627,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  </tbody> 
 </table>
 
-Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] object types available for each [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
+Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] tipos de objeto disponíveis para cada [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -666,7 +666,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  </tbody> 
 </table>
 
-Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] object types available for each [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
+Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] tipos de objeto disponíveis para cada [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -711,7 +711,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  </tbody> 
 </table>
 
-Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] object types available for each [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
+Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] tipos de objeto disponíveis para cada [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -806,7 +806,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
  </tbody> 
 </table>
 
-Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] object types available for each [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
+Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usar este módulo em [[!DNL Workfront] tipos de objeto disponíveis para cada [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -841,68 +841,68 @@ Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usa
   <tr> 
    <td>Atribuição</td> 
    <td> </td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Linha de base</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> Registro de Cobrança </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Preço</td> 
+   <td>Taxa de faturamento</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Empresa</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
-   <td>Painel de Controle</td> 
+   <td>Painel</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Documento</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Pasta de documento</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Solicitação de documento</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Versão do Documento</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Despesa</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Tipo de Despesa</td> 
@@ -912,111 +912,111 @@ Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usa
   </tr> 
   <tr> 
    <td>Grupo</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Hora</td> 
    <td> </td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Tipo de hora</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Problema</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Iteração</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Função de trabalho</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>Função no trabalho</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Entrada no Relatório</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Etapa</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Caminho de Etapas</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Nota</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Etiqueta de nota</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Portfólio</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Programa</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Projeto</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Usuário de Projeto</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Aprovação da revisão</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Tempo reservado* </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Relatório</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Risco</td> 
@@ -1033,44 +1033,44 @@ Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usa
   <tr> 
    <td>Aprovador da etapa</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Tarefa</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Equipe</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Modelo</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Modelo de Tarefa</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Planilha de horas</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Usuário</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Atualizar</td> 
@@ -1113,358 +1113,358 @@ Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usa
  <tbody> 
   <tr> 
    <td>Processo de aprovação</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Atribuição</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Registro de Cobrança</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Preço</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>Taxa de faturamento</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Empresa</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Documento</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Pasta de documento</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Versão do Documento</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Despesa</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Tipo de Despesa</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Grupo</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Hora</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Tipo de hora</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Problema</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Iteração</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Função de trabalho</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>Função no trabalho</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Entrada no Relatório</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Etapa</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Caminho de Etapas</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Nota</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Etiqueta de nota</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Portfólio</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Programa</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Projeto</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Usuário de Projeto</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Tempo reservado* </td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Risco</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Tipo de Risco</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Aprovador da etapa</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Tarefa</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Equipe</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Modelo</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Modelo de Tarefa</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Planilha de horas</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Usuário</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Atualizar</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -1492,182 +1492,182 @@ Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usa
  <tbody> 
   <tr> 
    <td>Processo de aprovação</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Atribuição</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Registro de Cobrança</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Preço</td> 
-   <td>✓</td> 
+   <td>Taxa de faturamento</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Empresa</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Documento</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Pasta de documento</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Versão do Documento</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Despesa</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Tipo de Despesa</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Grupo</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Hora</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Tipo de hora</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Problema</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Iteração</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Função de trabalho</td> 
-   <td>✓</td> 
+   <td>Função no trabalho</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Entrada no Relatório</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Etapa</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Caminho de Etapas</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Nota</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Etiqueta de nota</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Portfólio</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Programa</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Projeto</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Usuário de Projeto</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Tempo reservado* </td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Risco</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Tipo de Risco</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Aprovador da etapa</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Tarefa</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Equipe</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Modelo</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Modelo de Tarefa</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Planilha de horas</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Usuário</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Delegação de usuários</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
  </tbody> 
