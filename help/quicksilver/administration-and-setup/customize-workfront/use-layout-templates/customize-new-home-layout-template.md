@@ -7,9 +7,9 @@ description: Você pode usar um modelo de layout para configurar o que os usuár
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '741'
 ht-degree: 1%
 
 ---
@@ -101,6 +101,10 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><
      </tr>
     </tbody> 
    </table>
+
+>[!IMPORTANT]
+>
+>Se você definir um filtro ou agrupamento padrão para um widget específico usando um modelo de layout, ele pode não entrar em vigor imediatamente devido às preferências do usuário existentes. Para aplicar o novo filtro ou agrupamento imediatamente, você ou o usuário podem precisar redefinir suas preferências de usuário anexando &quot;/resetUser&quot; ao final de seu URL.
 
 1. Continue personalizando o modelo de layout.
 
