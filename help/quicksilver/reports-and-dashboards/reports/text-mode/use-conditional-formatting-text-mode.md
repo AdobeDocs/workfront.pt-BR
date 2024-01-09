@@ -6,14 +6,16 @@ description: Usar formatação condicional no Modo de texto
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 2db3e821f26a8f05b2a1822ac4bcf3ae5e26a4ec
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1699'
 ht-degree: 1%
 
 ---
 
 # Usar formatação condicional no Modo de texto
+
+<!--Audited: 01/2024-->
 
 <!--
 (NOTE: Alina: this article might need to be split in its sections. Tony asked that numbers and dates should be in separate articles (??))
@@ -34,24 +36,28 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> </td> 
+   <td> <p>Novo: Padrão </p> 
+   <p>Atual: Plano</p> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Editar acesso a Relatórios, Painéis, Calendários para editar visualizações em um relatório</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Editar acesso a Relatórios, Painéis, Calendários para editar visualizações em um relatório</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões de um relatório para editar exibições em um relatório</p> <p>Gerenciar permissões em uma exibição para editá-la</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões de um relatório para editar exibições em um relatório</p> <p>Gerenciar permissões em uma exibição para editá-la</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+
+*Para obter mais informações sobre requisitos de acesso, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Formatação condicional no modo de texto
 
@@ -104,13 +110,11 @@ Você pode personalizar os seguintes elementos de uma coluna ao usar formataçã
 
 Para alterar o cabeçalho da coluna exibida, adicione o seguinte código à coluna: `displayname= [Name of column]`. Por exemplo, para nomear uma coluna como Proprietário do projeto, o código de texto seria semelhante a:
 
-```
-displayname=Project Owner
-```
+`displayname=Project Owner`
 
 #### Formatar datas {#format-dates}
 
-As datas podem ser configuradas para serem exibidas em vários formatos.
+As datas podem ser configuradas para exibir em vários formatos.
 
 Para obter mais informações, consulte [Formatar datas em relatórios do modo texto](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md).
 
@@ -270,11 +274,11 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 
 >[!NOTE]
 >
->A variável *styledef.case.0.comparison.icon* A linha é sempre falsa, a menos que esteja trabalhando com ícones.
+>A variável `styledef.case.0.comparison.icon` A linha é sempre falsa, a menos que esteja trabalhando com ícones.
 >
->A variável *styledef.case.0.comparison.truetext* linha fica sempre em branco até trabalhar com a substituição de texto.
+>A variável `styledef.case.0.comparison.truetext` linha fica sempre em branco até trabalhar com a substituição de texto.
 >
->A variável *styledef.case.0.comparison.righttext* está em branco quando o qualificador não está em branco.
+>A variável `styledef.case.0.comparison.righttext` está em branco quando o qualificador não está em branco.
 
 Por exemplo, se quisermos mostrar o Nome da empresa em texto verde em um relatório de projeto, você pode usar o seguinte código:
 
@@ -308,7 +312,7 @@ styledef.case.0.comparison.trueproperty.0.name= [format option]
 styledef.case.0.comparison.trueproperty.0.value= [format style]
 ```
 
-Use as tabelas a seguir para identificar quais linhas precisam ser modificadas e quais valores você deve especificar para definir o estilo de formato da sua coluna:
+Use as tabelas a seguir para identificar quais linhas devem ser modificadas e quais valores você deve especificar para definir o estilo de formato da coluna:
 
 | **Cor do texto** | **Linha: textcolor=** |
 |---|---|
@@ -338,7 +342,7 @@ Use as tabelas a seguir para identificar quais linhas precisam ser modificadas e
 
 {style="table-layout:auto"}
 
-| **Cor de plano de fundo** | **Linha: bgcolor=** |
+| **Cor do plano de fundo** | **Linha: bgcolor=** |
 |---|---|
 | Azul-petróleo | `dcf6f7` |
 | Verde | `def6e2` |
@@ -400,7 +404,7 @@ styledef.case.0.comparison.truetext=not today
 
 >[!NOTE]
 >
->As linhas que começam com `case.0.` comparações de casos de uso para identificar o uso do texto. As linhas que começam com **styledef.case.0.** são declarações de formatação condicional antecipada em que identificamos o uso de texto por meio do `truetext` expressão. Defina `truetext` para um valor, em vez de deixá-lo em branco.
+>As linhas que começam com `case.0.` comparações de casos de uso para identificar o uso do texto. As linhas que começam com `styledef.case.0.` são declarações de formatação condicional antecipada em que identificamos o uso de texto por meio do `truetext` expressão. Defina `truetext` para um valor, em vez de deixá-lo em branco.
 
 ![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png)
 
@@ -410,87 +414,28 @@ styledef.case.0.comparison.truetext=not today
 
 Se você quiser aplicar uma condição à linha inteira, use o seguinte código com o código da coluna:
 
+
 ```
 styledef.case.0.comparison.icon=false
-```
-
-```
 styledef.case.0.comparison.isrowcase=true
-```
-
-```
 styledef.case.0.comparison.leftmethod= [field name]
-```
-
-```
 styledef.case.0.comparison.lefttext= [field name]
-```
-
-```
 styledef.case.0.comparison.operator= [qualifier]
-```
-
-```
 styledef.case.0.comparison.operatortype= [data type]
-```
-
-```
 styledef.case.0.comparison.righttext= [field value]
-```
-
-```
 styledef.case.0.comparison.trueproperty.0.name= [format option]
-```
-
-```
 styledef.case.0.comparison.trueproperty.0.value= [format style]
-```
-
-```
 styledef.case.0.comparison.truetext=
-```
-
-```
 row.0.styledef.applyallcases=true
-```
-
-```
 row.0.styledef.case.0.comparison.icon=false
-```
-
-```
 row.0.styledef.case.0.comparison.isrowcase=true
-```
-
-```
 row.0.styledef.case.0.comparison.leftmethod= [field name]
-```
-
-```
 row.0.styledef.case.0.comparison.lefttext= [field name]
-```
-
-```
 row.0.styledef.case.0.comparison.operator= [qualifier]
-```
-
-```
 row.0.styledef.case.0.comparison.operatortype= [data type]
-```
-
-```
 row.0.styledef.case.0.comparison.righttext= [field value]
-```
-
-```
 row.0.styledef.case.0.comparison.trueproperty.0.name= [format option]
-```
-
-```
 row.0.styledef.case.0.comparison.trueproperty.0.value= [format style]
-```
-
-```
 row.0.styledef.case.0.comparison.truetext=
 ```
 
@@ -510,6 +455,7 @@ image.case.0.comparison.truetext=
 ```
 
 Por exemplo, em um relatório de projeto, você deseja criar uma coluna na qual você mostraria uma face frontal para cada Data de conclusão planejada que não seja igual à data de hoje. Use o seguinte código do modo de texto para adicionar o ícone à coluna:
+
 
 ```
 image.case.0.comparison.leftmethod=plannedCompletionDate
@@ -554,7 +500,7 @@ Para usar as imagens disponíveis, aplique os seguintes códigos e valores:
 
 ### Formatar condicionalmente um `valueexpression` {#conditionally-format-a-valueexpression}
 
-Para exibir um valor calculado em uma coluna, você pode substituir o `valuefield` linha de código na coluna com uma `valueexpression`. Um valor calculado permite exibir um novo valor para objetos com base no cálculo entre dois campos existentes no mesmo objeto.
+Para exibir um valor calculado em uma coluna, você pode substituir o `valuefield` linha de código na coluna com uma `valueexpression`. Um valor calculado permite exibir um novo valor para um objeto com base no cálculo entre dois campos existentes no mesmo objeto.
 
 Para obter mais informações sobre como formatar a variável `valueexpression line`, consulte [Visão geral da sintaxe do modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
@@ -577,9 +523,17 @@ Considere o seguinte ao adicionar agregadores a uma coluna no Modo de Texto:
 * Você pode adicionar um agregador a uma coluna que exibe um cálculo. O valor agregado é exibido no agrupamento da exibição ou do relatório. Para obter mais informações, consulte [Grouping: exibe o resultado da agregação de vários valores calculados em um agrupamento](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
 * As linhas de código para a definição da coluna devem ser idênticas às linhas de código que introduzem o agregador e precedidas por &quot;agregador&quot;. Por exemplo, se você tiver uma coluna em que exibe Horas planejadas em um projeto, o modo de texto das linhas principais da coluna será:
 
-  ```
+```
   valuefield=workRequired
   valueformat=compound
-  ```
+```
 
-  Quando você quiser agregar o valor de todas as linhas no agrupamento da exibição, podemos adicionar o seguinte código para adicionar os valores do agregador: `aggregator.valuefield=workRequired` (o `aggregator.valuefield` a linha deve ser igual à `valuefield` que descreve a coluna) `aggregator.valueformat=compound` (o `aggregator.valueformat` linha deve ter o mesmo valor que `valueformat` que descreve a coluna) `aggregator.function=SUM` (esta é uma linha obrigatória que indica como você deseja agregar a coluna; neste caso, você deseja adicionar todas as Horas Planejadas individuais em um número na linha de agrupamento) `aggregator.displayformat=minutesAsHoursString` (como as horas são armazenadas no Workfront em minutos, queremos indicar a `displayformat` para horas quando são armazenadas em minutos)
+Quando você quiser agregar os valores de todas as linhas no agrupamento da exibição, podemos adicionar o seguinte código para adicionar os valores do agregador:
+
+`aggregator.valuefield=workRequired` (o `aggregator.valuefield` a linha deve ser igual à `valuefield` que descreve a coluna)
+
+`aggregator.valueformat=compound` (o `aggregator.valueformat` linha deve ter o mesmo valor que `valueformat` que descreve a coluna)
+
+`aggregator.function=SUM` (esta é uma linha obrigatória que indica como você deseja agregar a coluna; neste caso, você deseja adicionar todas as Horas Planejadas individuais em um número na linha de agrupamento)
+
+`aggregator.displayformat=minutesAsHoursString` (como as horas são armazenadas no Workfront em minutos, queremos indicar a `displayformat` para horas quando são armazenadas em minutos)

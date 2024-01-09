@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,8 @@ After permssions - replace the table with:
 
 Você pode criar registros na exibição de tabela de uma página do tipo de registro.
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-workfront.png) no canto superior direito, ou na guia **Menu principal** ícone ![](assets/main-menu-shell.png) no canto superior esquerdo, se disponível, clique em **Maestro** ![](assets/maestro-icon.png).
+{#step1-to-maestro}
+
 O espaço de trabalho acessado pela última vez é aberto por padrão. Para obter informações sobre como criar espaços de trabalho, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
 1. Clique em um cartão de tipo de registro. Para obter informações sobre como criar um tipo de registro, consulte [Criar tipos de registro](../architecture/create-record-types.md).
 
@@ -186,6 +187,11 @@ Todos os registros do tipo selecionado são exibidos na exibição de tabela.
    >  * Os campos que se referem a outros tipos de registro ou campos calculados são campos somente leitura.
 
 1. Continue adicionando informações em cada linha e clique em **Enter** no teclado para salvar as alterações.
+
+<!--1. (Optional) Use the following keyboard shortcuts to undo or redo adding new records: 
+
+    * **Undo**: CTRL/CMD + Z
+    * **Redo**: CTRL/CMD + Shift + Z-->
 
 ## Criar registros conectando-os de outro aplicativo
 

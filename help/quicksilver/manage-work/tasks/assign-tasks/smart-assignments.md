@@ -7,9 +7,9 @@ description: Ao gerenciar atribuições de tarefas e problemas, você pode usar 
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1164'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,17 @@ O cálculo de atribuições inteligentes de tarefas funciona em duas fases.
 
 #### Primeira fase do cálculo de atribuição inteligente para tarefas
 
-Na primeira fase do cálculo das atribuições inteligentes, o Workfront calcula uma pontuação de similaridade para cada atribuição. O cálculo da pontuação de similaridade e a ordem na qual as atribuições são listadas consideram o seguinte:
+Na primeira fase do cálculo das atribuições inteligentes, o Workfront calcula uma pontuação de similaridade para cada atribuição.
+
+>[!NOTE]
+>
+>A primeira fase do cálculo das atribuições inteligentes não se aplica às seguintes áreas de tarefa:
+>
+>* Atribuições em massa no Balanceador de carga de trabalho.
+>* Placas conectadas nas placas.
+
+
+O cálculo da pontuação de similaridade e a ordem na qual as atribuições são listadas consideram o seguinte:
 
 * Uma pontuação de 100% é atribuída a uma atribuição existente na qual os nomes da tarefa, do projeto e do portfólio são idênticos à tarefa que você está tentando atribuir. Os nomes do projeto e do portfólio da tarefa de uma atribuição existente também devem corresponder ao projeto e ao portfólio da tarefa que você está tentando atribuir.
 
@@ -115,7 +125,7 @@ Para obter mais informações, consulte a seção [Critérios de atribuições i
 
 >[!NOTE]
 >
-><span class="preview">Os critérios a seguir se aplicam às tarefas somente quando a primeira fase do cálculo de atribuição inteligente de tarefa não encontrou correspondências. para obter informações, consulte a seção [Primeira fase do cálculo de atribuição inteligente para tarefas](#first-phase-of-smart-assignment-calculation-for-tasks) neste artigo. Os critérios a seguir sempre se aplicam a problemas, por padrão. </span>
+><span class="preview">Os critérios a seguir se aplicam às tarefas somente quando a primeira fase do cálculo de atribuição inteligente de tarefa não encontrou correspondências. Para obter informações, consulte a seção [Primeira fase do cálculo de atribuição inteligente para tarefas](#first-phase-of-smart-assignment-calculation-for-tasks) neste artigo. Os critérios a seguir sempre se aplicam a problemas, por padrão. </span>
 
 Os usuários são recomendados na lista suspensa atribuições inteligentes com base em uma combinação dos seguintes critérios (listados na ordem do mais importante para o menos importante):
 

@@ -4,9 +4,9 @@ description: Em Adobe Maestri, você pode criar campos de fórmula que usam fun�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ After permssions - replace the table with:
 
 ## Fórmulas compatíveis
 
-Oferecemos suporte a todas as fórmulas dos campos calculados do Workfront. Para obter mais informações, consulte [Visão geral das expressões de dados calculadas](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Os campos de fórmula maestri suportam todas as expressões dos campos calculados do Workfront. Para obter mais informações, consulte [Visão geral das expressões de dados calculadas](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 Além disso, suportamos as seguintes expressões para campos de fórmula Maestri:
 
@@ -179,7 +179,7 @@ Além disso, suportamos as seguintes expressões para campos de fórmula Maestri
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>Retorna a string concatenada por delimitador.</p> <p>A expressão é formatada da seguinte maneira:
 
-    ARRAYJOIN(delimitador,matriz)
+<code>ARRAYJOIN(delimitador,matriz)</code>
 </p>
    </td></tr>
 
@@ -187,7 +187,14 @@ Além disso, suportamos as seguintes expressões para campos de fórmula Maestri
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>Retorna a matriz com valores únicos.</p> <p>A expressão é formatada da seguinte maneira:
 
-    ARRAYUNIQUE(matriz)
+<code>ARRAYUNIQUE(matriz)</code>
+</p>
+   </td></tr>
+     <tr> 
+   <td><strong>ID</strong> </td> 
+   <td> <p>Retorna a ID de um registro.</p> <p>A expressão é formatada da seguinte maneira:
+
+<code>{ID}</code>
 </p>
    </td></tr>
 
@@ -195,7 +202,7 @@ Além disso, suportamos as seguintes expressões para campos de fórmula Maestri
    <td><strong>SETTIMEZONE</strong> </td> 
    <td> <p>Define o fuso horário de uma data e hora para um fuso horário específico.</p> <p>A expressão é formatada da seguinte maneira:
 
-    SETTIMEZONE(data,&#39;América/Los_Angeles&#39;)
+<code>SETTIMEZONE(data,&#39;América/Los_Angeles&#39;)</code>
 </p>
    </td></tr>
 
@@ -203,9 +210,9 @@ Além disso, suportamos as seguintes expressões para campos de fórmula Maestri
    <td><strong>WEEKOFYEAR</strong> </td> 
    <td> <p>Retorna o número da semana em um ano. Como opção, você pode indicar em qual dia a semana começa (use 1 para domingo ou 2 para segunda-feira). Se omitido, as semanas começarão no domingo, por padrão.</p> <p>A expressão é formatada da seguinte maneira:
 
-    WEEKOFYEAR(data,2)
-    ou
-    WEEKOFYEAR(data)
+<code>WEEKOFYEAR(data,2)</code>
+ou
+<code>WEEKOFYEAR(data)</code>
 </p>
    </td></tr>
 

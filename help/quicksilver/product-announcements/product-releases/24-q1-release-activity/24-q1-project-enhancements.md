@@ -3,9 +3,9 @@ title: Aprimoramentos do projeto do primeiro trimestre de 2024
 description: Aprimoramentos do projeto do primeiro trimestre de 2024
 author: Nolan
 feature: Product Announcements
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 
 ## Atribuições inteligentes orientadas por IA
 
-Alteramos o algoritmo que o Workfront usa para calcular e sugerir atribuições inteligentes para tarefas. O novo algoritmo se aplica em qualquer lugar no Workfront em que você atribui uma tarefa (listas de tarefas, a área Atribuições no cabeçalho da tarefa, Início e o painel Resumo).
+Alteramos o algoritmo que o Workfront usa para calcular e sugerir atribuições inteligentes para tarefas. O novo algoritmo se aplica às seguintes áreas no Workfront em que você atribui uma tarefa: listas de tarefas, a área Atribuições no cabeçalho da tarefa, Início e o painel Resumo.
 
 Agora, o algoritmo considera as seguintes informações quando sugere atribuições inteligentes:
 
