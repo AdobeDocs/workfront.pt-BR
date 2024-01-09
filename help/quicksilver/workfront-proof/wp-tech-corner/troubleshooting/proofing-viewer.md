@@ -8,7 +8,7 @@ description: Se o conteúdo de prova não estiver carregando e você só puder v
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-source-git-commit: 238b675b15b189c622692c1ba9babab5e82bfe09
+source-git-commit: 1fd3b135682c096f1715e5da0455fed12e882582
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 0%
@@ -63,7 +63,7 @@ If there is some storage allocated, but you're working with the bigger proofs wi
 Please see [Problems With Viewing Proofs - [!DNL Flash] Shared Objects Explained](../../../workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md) for the detailed instructions.
 -->
 
-## Identifique onde está o problema
+## Identificar onde o problema está
 
 * As provas são abertas em um navegador diferente?
 * Se você estiver usando um navegador diariamente e tiver problemas para exibir as provas nele, tente abrir a mesma prova em um navegador diferente no seu computador. Para fazer isso, basta copiar o link de prova da barra de URL do seu navegador principal e colá-lo em um navegador diferente. Se a prova for aberta lá, revise a configuração principal do navegador, os plug-ins e as extensões, pois eles podem estar interferindo.
