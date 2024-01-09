@@ -8,14 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
 
 # Criar e gerenciar funções de trabalho
+
+<!-- Audited: 1/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -31,11 +33,13 @@ Você deve ter o seguinte:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
-   <td> <p>Qualquer Um </p> </td> 
+   <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
-   <td>[!UICONTROL Plano]</td> 
+   <td>
+   <p>Novo: Padrão</p>
+   <p>Atual: [!UICONTROL Plano]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
@@ -48,7 +52,9 @@ Você deve ter o seguinte:
 
 ## Criar uma função de trabalho
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe] Workfront e clique em **[!UICONTROL Configuração]** ![](assets/gear-icon-settings.png).
+Para criar uma função de trabalho:
+
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em&#x200B; **[!UICONTROL Funções de trabalho].**
 1. Clique em **[!UICONTROL Nova Função].**

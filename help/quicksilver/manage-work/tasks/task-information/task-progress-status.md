@@ -7,14 +7,16 @@ description: O Adobe Workfront determina o Status de progresso de uma tarefa obs
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 70d173ca3781d8d143a66ce7e963dcaf66bece19
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # Visão geral do status de progresso da tarefa
+
+<!-- Audited: 1/2024 -->
 
 O Adobe Workfront determina o Status de progresso de uma tarefa observando o progresso da tarefa na linha do tempo. Você pode configurar o Workfront para determinar a Condição de um projeto com base no valor do Status de progresso das tarefas. Para obter mais informações sobre como configurar a Condição do projeto, consulte o artigo [Visão geral da condição do projeto e do tipo de condição](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
@@ -31,7 +33,7 @@ Os critérios a seguir determinam o Status do Progresso de uma tarefa:
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>Status do Progresso</strong> </p> </th> 
+   <th> <p><strong>Status do progresso</strong> </p> </th> 
    <th> <p><strong>Determinar critérios</strong> </p> </th> 
   </tr> 
  </thead> 
@@ -49,7 +51,7 @@ Os critérios a seguir determinam o Status do Progresso de uma tarefa:
    <td><p>Uma tarefa é considerada <strong>Em Risco</strong> quando a Data de conclusão estimada for posterior à Data de conclusão planejada e posterior à Data de conclusão projetada. Isso pode acontecer quando uma tarefa tem uma restrição de <strong>Deve Terminar Em</strong> ou <strong>Precisa Iniciar Em</strong> mas o percentual concluído ou as relações de predecessoras da tarefa mostram que ela não pode terminar ou iniciar nas datas especificadas. </p><p> Definindo a Restrição da Tarefa como <strong>Deve Terminar Em</strong> define manualmente a Data de conclusão planejada para uma data específica. A Data de conclusão projetada nesse caso corresponde à Data de conclusão planejada. No caso dessa restrição, o Workfront analisa a tarefa para calcular quando ela terminará com base no percentual concluído. Esse cálculo é armazenado como a Data de vencimento estimada. Se a Data de Vencimento Estimada for posterior à Data de Conclusão Projetada, a tarefa será considerada com risco de atraso. </p> <p> Definindo a Restrição da Tarefa como <strong>Precisa Iniciar Em</strong> define manualmente a Data de Início Planejada para uma data específica. A Data de Início Projetada nesse caso corresponde à Data de Início Planejada. No caso dessa restrição, o Workfront analisa a tarefa para calcular quando ela iniciará com base em seus relacionamentos predecessores. Esse cálculo é armazenado como a Data de Início Estimada. Se houver um predecessor imposto que não permita que a tarefa inicie na Data Inicial especificada, a Data Inicial Estimada poderá ser posterior à Data de Conclusão Projetada. A tarefa é considerada em risco de atraso. </p> <p>Nota: Normalmente, as Datas Estimadas correspondem às Datas Projetadas, exceto quando <strong>Precisa Iniciar Em</strong> ou <strong>Deve Terminar Em</strong> são usados. Nesses casos, as Datas estimadas continuam a ser calculadas com base no percentual concluído e em outros fatores (relacionamentos predecessores), enquanto as Datas projetadas são forçadas a corresponder às Datas planejadas que foram definidas manualmente.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Fora do Cronograma</strong> </p> </td> 
+   <td> <p><strong>Atrás</strong> </p> </td> 
    <td> <p>Uma tarefa é considerada <strong>Atrás</strong> quando a Data de conclusão estimada for posterior ou igual à Data de conclusão planejada e anterior à Data de conclusão projetada.</p> <p>A Data de conclusão projetada é uma visualização em tempo real de quando a tarefa será concluída com base no progresso anterior. Embora a tarefa tenha sido iniciada com atraso, ela ainda não é considerada atrasada, pois as Datas de Término Planejadas e Projetadas ainda estão no futuro e a tarefa ainda pode ser concluída no prazo.</p> <p>Observação: a variável <strong>Atrás</strong> e <strong>Em Risco</strong> Os status do andamento são quase idênticos. No entanto, <strong>Em Risco</strong> indica que há algumas Restrições de Tarefa Forçadas (Precisa Terminar Em, Precisa Iniciar Em, Datas Fixas) em uma ou ambas as Datas Planejadas. Se não houver restrições forçadas na tarefa, as Datas Projetadas serão iguais às Datas Estimadas e refletirão o cálculo do sistema da Data de Conclusão com base no andamento atual da tarefa. A tarefa ainda não é considerada atrasada, pois as Datas de Término Planejadas e Projetadas ainda estão no futuro, e a tarefa ainda pode ser concluída no prazo.<br>Para obter mais informações sobre as Datas Projetadas e Estimadas, consulte <a href="../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md" class="MCXref xref">Diferenciar entre datas projetadas e estimadas </a>.</p> </td> 
   </tr> 
   <tr valign="top"> 

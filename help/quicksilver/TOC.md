@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
+source-git-commit: 93dfcd639f1b821e68e388ac4206aeb7447caee1
 workflow-type: tm+mt
-source-wordcount: '13864'
+source-wordcount: '13856'
 ht-degree: 0%
 
 ---
@@ -2557,7 +2557,6 @@ ht-degree: 0%
          * [Solução de problemas - fonte de interface corrompida no visualizador de provas no Mac](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
          * [Entender como o cache e os cookies afetam a prova do Workfront](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
          * [Problemas de velocidade no Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-         * [Problemas Com A Visualização De Provas - Explicação Dos Objetos Compartilhados Do Flash](workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md)
          * [Solução de problemas - Visualizador do Workfront Proof Proof](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
    * Integrações do Workfront Proof {#wf-proof-integrations}
       * [Integrações do Workfront Proof](workfront-proof/wp-integrations/wp-integrations.md)

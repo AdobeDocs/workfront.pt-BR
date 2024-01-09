@@ -5,16 +5,18 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
+source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1094'
 ht-degree: 1%
 
 ---
 
 # Configurar notificações de lembrete
 
-As notificações de lembrete enviam emails para recipients com base em critérios especificados. Como administrador do Adobe Workfront ou usuário com nível de acesso de Planejador e acesso administrativo a notificações de lembrete, você pode associar manualmente notificações de lembrete a itens de trabalho, como projetos, tarefas, problemas e folhas de horas.
+<!-- Audited: 1/2024 -->
+
+As notificações de lembrete enviam emails para recipients com base em critérios especificados. Você pode associar manualmente notificações de lembrete a seus itens de trabalho, como projetos, tarefas, problemas e planilhas de horas.
 
 <!--
 DRAFTED IN FLARE:
@@ -35,11 +37,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td>Plano</td> 
+   <td> <p>Novo: Padrão </p>
+ <p>ou</p> 
+<p>Atual: Plano</p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
@@ -52,7 +57,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Personalizar o email de lembrete
 
-Você pode personalizar a notificação de lembrete com um email personalizado que inclui um assunto e um corpo de email personalizados. O corpo do email pode conter HTML personalizado.
+Você pode personalizar o assunto, o corpo e o HTML no email de notificação de lembrete.
 
 Ou você pode usar o email padrão incluído na notificação de lembrete. O email padrão usa o nome da notificação de lembrete como o assunto do email e o nome do objeto no corpo do email, incluindo o evento que acionou a notificação.
 
@@ -62,7 +67,7 @@ Para obter informações sobre como criar um template de email, consulte [Config
 
 ## Criar uma notificação de lembrete
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **E-mail** > **Notificação** > **Notificações de lembrete**.
 
@@ -86,7 +91,7 @@ Para obter informações sobre como criar um template de email, consulte [Config
      </tr> 
      <tr> 
       <td role="rowheader">Período de qualificação</td> 
-      <td> <p>Especifique o número de horas, dias de trabalho, dias (dias do calendário), semanas ou meses antes ou depois da data no <strong>Tempo</strong> campo.</p> <p><b>Nota</b>:  
+      <td> <p>Especifique o número de horas, dias de trabalho, dias (dias do calendário), semanas ou meses antes ou depois da data no <strong>Tempo</strong> campo.</p> <p><b>NOTA</b>:  
         <ul> 
          <li> <p>As notificações de lembrete começam 24 horas após a data especificada e assim que todos os critérios são atendidos.</p> </li> 
          <li> <p>Notificações de lembrete para projetos, tarefas e problemas são acionadas todas as noites à meia-noite, horário das montanhas dos EUA. Todos os objetos qualificados para uma notificação de lembrete desse dia acionam uma notificação para os usuários designados logo após esse horário.</p> </li> 
@@ -144,10 +149,12 @@ Por exemplo, se um lembrete for definido para ser acionado uma hora após a Data
 
 Para fazer com que uma notificação de lembrete seja acionada manualmente:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **Sistema** > **Diagnóstico** no canto inferior esquerdo do Workfront.
 
 1. Clique em **Enviar Notificações de Lembrete** e aguarde a confirmação na parte superior da tela de que eles foram enviados.
 
    Os usuários designados na notificação de lembrete recebem um email.
+
+![](assets/reminder-test.png)

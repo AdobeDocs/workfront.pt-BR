@@ -4,14 +4,16 @@ description: É possível exibir a integridade do [!DNL Workfront] incluindo inc
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 1%
+source-wordcount: '367'
+ht-degree: 0%
 
 ---
 
 # A variável [!DNL Adobe Workfront] Status do site
+
+<!-- Audited: 1/2024 -->
 
 ## Visão geral do site Status
 
@@ -28,11 +30,7 @@ Você tem acesso às seguintes informações no site Status:
 
 Você pode exibir as atualizações de status na [!DNL Adobe] Status do site.
 
-1. Ir para [[!DNL https://one.workfront.com]](https://one.workfront.com/)e, em seguida, clique em **[!UICONTROL Status]** no **[!UICONTROL Suporte]** no canto inferior direito da página.
-
-   Ou
-
-   Tipo [status.adobe.com](https://status.adobe.com/pt/) no navegador para acessar o site Status.
+1. Tipo [status.adobe.com](https://status.adobe.com/) no navegador para acessar o site Status.
 
 1. Selecionar **[!UICONTROL Experience Cloud]**.
 1. Role para baixo e selecione **[!UICONTROL Adobe Workfront]** da lista de soluções.
@@ -41,8 +39,9 @@ Você pode exibir as atualizações de status na [!DNL Adobe] Status do site.
 
 Para se inscrever no site Status ou gerenciar sua inscrição depois de já ter se inscrito:
 
-1. Ir para [status.adobe.com](https://status.adobe.com/pt/).
+1. Ir para [status.adobe.com](https://status.adobe.com/).
 1. Na barra de status, selecione **[!UICONTROL Gerenciar assinaturas]**.
+   ![](assets/manage-subs.png)
 1. Se você tiver uma conta existente, faça logon nela; caso contrário, crie uma nova conta.
 1. Clique em **[!UICONTROL Criar assinaturas]** botão.
 1. Selecionar **[!UICONTROL Adobe Workfront]** no **[!UICONTROL Experience Cloud]** e clique em **[!UICONTROL Continuar]**.
@@ -50,10 +49,6 @@ Para se inscrever no site Status ou gerenciar sua inscrição depois de já ter 
 1. Clique em **[!UICONTROL Concluído]** para confirmar sua assinatura.
 
 ## Entender vulnerabilidades nomeadas
-
-* [O que é uma vulnerabilidade nomeada?](#what-is-a-named-vulnerability)
-* [Como visualizo vulnerabilidades nomeadas identificadas pelo [!DNL Workfront?]](#how-do-i-view-named-vulnerabilities-identified-by-workfront)
-* [Por que isso é importante?](#why-is-this-important)
 
 ### O que é uma vulnerabilidade nomeada? {#what-is-a-named-vulnerability}
 
@@ -63,7 +58,7 @@ Pesquisadores de vulnerabilidade e criadores de exploração nomeiam seus projet
 
 ### Como visualizo vulnerabilidades nomeadas identificadas pelo [!DNL Workfront?] {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
 
-1. Ir para  [status.adobe.com](https://status.adobe.com/pt/)e, em seguida, clique em **[!UICONTROL Segurança]**.
+1. Ir para  [status.adobe.com](https://status.adobe.com/)e, em seguida, clique em **[!UICONTROL Segurança]**.
 
 ## Por que isso é importante? {#why-is-this-important}
 
