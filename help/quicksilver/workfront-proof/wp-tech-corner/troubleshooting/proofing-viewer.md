@@ -8,9 +8,9 @@ description: Se o conteúdo de prova não estiver carregando e você só puder v
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
+source-git-commit: 238b675b15b189c622692c1ba9babab5e82bfe09
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -82,15 +82,15 @@ Dentro do Visualizador de prova, carregamos os blocos - fragmentos das páginas.
 
 ## Revisar plug-ins
 
-Se o seu navegador e [!DNL Flash Player] plug-in está atualizado e sua rede não está bloqueando as conexões com o [!DNL Workfront Proof] pode haver algo em seu navegador que esteja afetando a exibição das provas. Atualmente, há vários plug-ins e extensões disponíveis em seu navegador e alguns deles interferem ou estão em conflito com os outros.
+Se o navegador estiver atualizado e a rede não estiver bloqueando as conexões com o [!DNL Workfront Proof], pode haver algo em seu navegador que esteja afetando a visualização das provas. Geralmente, há vários plug-ins e extensões disponíveis no navegador e alguns deles podem interferir ou entrar em conflito com outros.
 
-A prática recomendada é remover todos os complementos desconhecidos e manter apenas aqueles que você usa e nos quais confia. Cada navegador deve fornecer opções para verificar/modificar/excluir os plug-ins e as extensões. Nosso [!DNL Workfront Proof] O visualizador se baseia em [!DNL Flash] e usamos o JavaScript para carregar o visualizador e, portanto, você deve rever especialmente os plug-ins que podem afetá-los.
+A prática recomendada é remover todos os complementos desconhecidos e manter apenas aqueles que você usa e nos quais confia. Cada navegador deve fornecer opções para verificar/modificar/excluir os plug-ins e as extensões. Usamos o JavaScript para carregar o [!DNL Workfront Proof] visualizador, portanto você desejará analisar especialmente os plug-ins que podem afetá-lo.
 
-Se houver algum complemento específico que interfira no carregamento das provas, você pode tentar verificar os detalhes no console do navegador.
+Se houver algum complemento específico que interfira no carregamento das provas, você poderá tentar verificar os detalhes no console do navegador.
 
 ![Console do navegador](assets/proofview-4.png)
 
-Na maioria dos navegadores mais recentes, há algumas ferramentas adicionais de desenvolvedores disponíveis e elas podem ser usadas para solucionar problemas mais avançadas.
+Na maioria dos navegadores mais recentes, há algumas ferramentas adicionais de desenvolvedores disponíveis, que podem ser usadas para soluções de problemas mais avançadas.
 
 Se tiver problemas com a visualização das provas:
 
@@ -101,8 +101,8 @@ Se tiver problemas com a visualização das provas:
 
 ## Verificar configurações de conteúdo misto
 
-Todas as conexões com o [!DNL Workfront Proof] são sobre HTTPS. No entanto, no [!DNL Workfront Proof] Visualizador que carregamos os blocos por HTTP e os dados são protegidos com os tokens. Isso cria conteúdo misto que alguns dos navegadores ou soluções de segurança podem estar bloqueando (por padrão ou de acordo com a configuração manual).
+Todas as conexões com o [!DNL Workfront Proof] são sobre HTTPS. No entanto, no [!DNL Workfront Proof] Visualizador que carregamos os blocos por HTTP e os dados são protegidos com os tokens. Isso cria conteúdo misto que alguns dos navegadores ou soluções de segurança podem estar bloqueando (por padrão ou por configuração manual).
 
-Se esse for o motivo pelo qual as provas não estão sendo abertas no computador (você deve conseguir ver os alertas relevantes no console do navegador), autorize essas conexões para [!DNL Workfront Proof] ou corrija suas configurações para permitir conteúdo misto passivo em sua máquina. O conteúdo misto pode ser bloqueado pelo seu navegador, software antivírus, configuração de rede etc. Para determinar a causa exata, entre em contato com a equipe de TI/administradores de rede. Eles também devem poder ajudar com a ativação do conteúdo misto no seu computador.
+Se esse for o motivo pelo qual as provas não estão sendo abertas no computador (você deve conseguir ver os alertas relevantes no console do navegador), autorize essas conexões para [!DNL Workfront Proof] ou corrija suas configurações para permitir conteúdo misto passivo em sua máquina. O conteúdo misto pode ser bloqueado pelo navegador, pelo software antivírus ou pela configuração de rede para determinar a causa exata. Você deve entrar em contato com a equipe de TI/administradores de rede. Eles também devem poder ajudar com a ativação do conteúdo misto no seu computador.
 
 
