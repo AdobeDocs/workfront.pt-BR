@@ -6,10 +6,10 @@ description: Conecte seu trabalho ao seu conteúdo no Experience Manager Assets 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 44dd48b72e798b8967c4a4e3dc7d523fe9b130d2
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 4%
+source-wordcount: '634'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ Você deve ter o seguinte:
   <tr>
    <td><strong>plano do Adobe Workfront*</strong>
    </td>
-   <td>Qualquer Um
+   <td>Qualquer
    </td>
   </tr>
   <tr>
@@ -101,7 +101,7 @@ Você deve ter o seguinte:
 
 ## Configurar metadados (opcional)
 
-Mapeie dados de objetos do Workfront para campos de mídia do Experience Manager Assets. Os metadados são mapeados quando um ativo é enviado por push do Workfront pela primeira vez.
+Mapeie dados de objetos do Workfront para campos de mídia de ativos no Experience Manager Assets. Os metadados são mapeados quando um ativo é enviado por push do Workfront pela primeira vez.
 
 
 ### Pré-requisitos
@@ -111,15 +111,15 @@ Antes de começar, você deve
 * Configure um esquema de metadados no Experience Manager Assets Essentials conforme explicado em [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 * (Opcional) Configure campos de formulário personalizados no Workfront. O Workfront tem muitos campos personalizados internos que você pode usar. No entanto, você também pode criar seus próprios campos personalizados. Para obter mais informações, consulte [Criar ou editar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-+++ **Campos Workfront e Experience Manager Assets compatíveis**
+## Campos Workfront e Experience Manager Assets compatíveis
 
 **Palavra-chave AEM**
 
 Você pode mapear qualquer campo compatível com o Workfront para uma palavra-chave no Experience Manager Assets Essentials.
 
-Para vincular um campo a uma palavra-chave, selecione `dc:subject` na lista suspensa do campo Experience Manager Assets, na área mapeamento de metadados.
+Para vincular um campo a uma palavra-chave, selecione `xcm:keywords` na lista suspensa do campo Experience Manager Assets, na área mapeamento de metadados.
 
-Para mapear vários campos de texto de linha única para palavras-chave, insira uma lista separada por vírgulas dos valores de palavra-chave no lado do Workfront do mapeamento de metadados e `dc:subject` no lado do Experience Manager Assets. Cada valor de campo mapeia para uma palavra-chave separada. Você pode usar um campo calculado para combinar vários campos do Workfront em um único campo de texto separado por vírgulas.
+Para mapear vários campos de texto de linha única para palavras-chave, insira uma lista separada por vírgulas dos valores de palavra-chave no lado do Workfront do mapeamento de metadados e `xcm:keywords` no lado do Experience Manager Assets. Cada valor de campo mapeia para uma palavra-chave separada. Você pode usar um campo calculado para combinar vários campos do Workfront em um único campo de texto separado por vírgulas.
 
 <!--
 Look for essentials article
@@ -139,7 +139,7 @@ Os metadados são mapeados quando um ativo é enviado por push do Workfront pela
    >Você pode mapear um único campo do Workfront para vários campos do Experience Manager Assets. Não é possível mapear vários campos do Workfront para um único campo do Experience Manager Assets.
 1. No **Experience Manager** escolha um campo Experience Manager Assets.
 
-   Para mapear um campo do Workfront para uma tag do Experience Manager Assets, selecione `dc:subject`.
+   Para mapear um campo do Workfront para uma tag do Experience Manager Assets, selecione `xcm:keywords`.
 1. Repita as etapas 1 e 2 conforme necessário.
    ![ativar metadados](assets/metadata-assets-essentials.png)
 1. Clique em **Salvar** ou vá para a página [Configurar pastas vinculadas (opcional)](#set-up-linked-folders-optional) neste artigo.
