@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 2%
+source-wordcount: '554'
+ht-degree: 1%
 
 ---
 
@@ -101,7 +101,7 @@ Você pode adicionar novos campos no Adobe Maestri que refletem o ciclo de vida 
 
 * Os campos do Workfront podem ser acessados pelo Maestro somente quando você conecta tipos de registro do Maestri com tipos de objeto do Workfront e adiciona campos vinculados ou de pesquisa a partir de objetos do Workfront. Para obter informações, consulte [Conectar tipos de registro](../architecture/connect-record-types.md).
 
-* É possível exibir e atualizar as configurações dos campos que você ou qualquer outro usuário criou. <!--this will change with access/ permissions-->
+* É possível exibir e atualizar as configurações dos campos criados por você ou por qualquer outro usuário, se você tiver permissões de gerenciamento no espaço de trabalho ao qual o campo pertence.
 
 * É possível ter até 500 campos para um tipo de registro.
 

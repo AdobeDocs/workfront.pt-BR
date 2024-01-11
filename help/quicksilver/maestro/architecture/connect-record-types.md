@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '2023'
+source-wordcount: '2051'
 ht-degree: 0%
 
 ---
@@ -72,12 +72,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
     <tr>
 <tr>
 <td>
-   <p> produto Adobe</p> </td>
+   <p> Produto</p> </td>
    <td>
-   <p> Adobe Workfront</p> 
-   <p><b>Nota</b></p>
-   <p>Para conectar tipos de registro Maestri com a Experience Manager Assets, você deve ter uma licença Adobe Experience Manager Assets e a instância da Workfront de sua organização deve ser integrada à Adobe Business Platform ou à Adobe Admin Console. </p>
-   </td>
+   <p> Adobe Workfront</p> <p>Para conectar tipos de registro Maestri com a Experience Manager Assets, você deve ter uma licença Adobe Experience Manager Assets e a instância da Workfront de sua organização deve ser integrada à Adobe Business Platform ou à Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
@@ -98,72 +95,23 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
 
 <tr>
-   <td role="rowheader">Nível de acesso</td>
-   <td> <p>Qualquer</p>  
+   <td role="rowheader"><p>Configurações de nível de acesso</p></td>
+   <td> <p>Não há controles de nível de acesso para o Maestro</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader">Modelo de layout</td>
-   <td> <p>O administrador do sistema deve adicionar a área Maestro no modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td role="rowheader"><p>Modelo de layout</p></td>
+   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área Maestri no modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissões</p></td>
+   <td> <p>Gerenciar permissões em um espaço de trabalho</a> </p>  
+   <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram
 </td>
   </tr>
  </tbody>
 </table>
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console.</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]

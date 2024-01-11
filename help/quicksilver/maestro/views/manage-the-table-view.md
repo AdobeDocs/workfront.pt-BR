@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2314'
 ht-degree: 3%
 
 ---
@@ -46,9 +46,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> produto Adobe</p> </td>
+   <p> Produto</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -71,10 +76,17 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
 
 <tr>
-   <td role="rowheader">Nível de acesso</td>
-   <td> <p>Qualquer</p>  
+   <td role="rowheader">Configuração do nível de acesso</td>
+   <td> <p>Não há controles de nível de acesso para o Maestro </p>  
 </td>
   </tr>
+
+<tr>
+   <td role="rowheader"><p>Permissões</p></td>
+   <td> <p>Gerenciar permissões para a exibição</p>  
+</td>
+  </tr>
+
 <tr>
    <td role="rowheader">Modelo de layout</td>
    <td> <p>O administrador do sistema deve adicionar a área Maestro no modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
@@ -82,63 +94,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
  </tbody>
 </table>
-
-<!--
-When we release permissions to views:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level configurations</td>
-   <td> <p>There are no access controls for Maestro objects</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td> <p>Manage permissions to the view</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
 
 ## Gerenciar uma exibição de tabela {#manage-a-table-view}
 
@@ -212,8 +167,6 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
    >       * Número
    >       * Fórmula
    >
-   >         Os campos de fórmula serão liberados posteriormente.
-   >
    >   * O campo principal é sempre congelado e não pode ser movido. Você pode selecionar outro campo para substituir um campo principal, se precisar movê-lo para outra posição.
    >
    >   * Alterar o campo principal na exibição de tabela afeta a exibição de todos os outros usuários que a escolhem.
@@ -267,7 +220,7 @@ Você pode ter até 10.000 registros (ou linhas) para um tipo de registro no Mae
 1. Vá para uma página de tipo de registro e selecione um **Tabela** exibir no menu suspenso exibir.
 1. Comece a adicionar registros (ou linhas), conforme descrito no artigo [Criar registros](../records/create-records.md).
 
-   Os registros adicionados na visualização de tabela são salvos imediatamente e ficam visíveis para todos os usuários que acessam o Maestro. <!--this will change with permissions-->
+   Os registros adicionados na exibição de tabela são salvos imediatamente e ficam visíveis para todos os usuários que têm permissões de Exibição ou superiores para o espaço de trabalho.
 
 1. (Opcional) Selecione um ou vários registros em uma linha e arraste e solte a **identificador** ícone ![](assets/handle-icon.png) à esquerda do nome do registro para reordenar as linhas.
 

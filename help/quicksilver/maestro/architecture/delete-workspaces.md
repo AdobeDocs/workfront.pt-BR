@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -38,15 +38,20 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> produto Adobe</p> </td>
+   <p> Produto</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa Adobe Maestro beta. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta fechado do Adobe Maestro. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -63,74 +68,27 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
 
 <tr>
-   <td role="rowheader">Nível de acesso</td>
-   <td> <p>Qualquer</p>  
+   <td role="rowheader"><p>Configuração do nível de acesso</p></td>
+   <td> <p>Não há controles de nível de acesso para o Maestro</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>Permissões</p></td>
+   <td> <p>Gerenciar permissões em um espaço de trabalho</a> </p>  
+   <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
+   <p><b>Nota</b></p>
+   Os usuários de licença de trabalhador e solicitação não podem criar um espaço de trabalho, mas podem excluí-lo se tiverem permissões de gerenciamento para ele. 
 </td>
   </tr>
 <tr>
-   <td role="rowheader">Modelo de layout</td>
-   <td> <p>O administrador do sistema deve adicionar a área Maestro no modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td role="rowheader"><p>Modelo de layout</p></td>
+   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área Maestri no modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
 </td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
-
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -145,8 +103,7 @@ After permssions - replace the table with:
 
 ## Considerações sobre a exclusão de espaços de trabalho
 
-* Você pode excluir qualquer espaço de trabalho criado por você ou por qualquer pessoa em sua organização. <!--this will change with access levels and permissions-->
-* Quando você exclui espaços de trabalho, todos os tipos de registro, taxonomias e seus campos também são excluídos. <!--asked Lilit because the confirmation says the records don't delete, but not sure how they can exist outside of a workspace?!-->
+* Quando você exclui espaços de trabalho, todos os tipos de registros, taxonomias, registros e seus campos também são excluídos.
 * Os espaços de trabalho excluídos e as informações que eles contêm não podem ser recuperados.
 
 ## Excluir um espaço de trabalho

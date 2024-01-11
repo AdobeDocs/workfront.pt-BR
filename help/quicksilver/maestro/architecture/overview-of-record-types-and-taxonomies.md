@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ No Maestro, você pode criar tipos de registros personalizados que atendam às n
    * [Tipo de Registro Operacional](#operational-record-type): um tipo de registro que representa planos estratégicos, iniciativas ou trabalho planejado. Por exemplo, Campanha, Atividade, Tática e Oportunidade podem ser tipos de registro operacional.
    * [Taxonomia](#taxonomy): Tipos de registro que capturam atributos sobre um tipo de registro operacional. Por exemplo, Região, Endereço, Público-alvo podem ser taxonomias.
 
-* Ao criar um tipo de registro, todos na organização podem exibi-lo, editá-lo ou excluí-lo. <!--this will change with access levels and permissions-->
+* Ao criar um tipo de registro, somente você e aqueles a quem você conceder permissões para acessar o espaço de trabalho poderão exibir o tipo de registro.
 * Você deve criar um espaço de trabalho antes de criar tipos de registro para ele.
 * Você pode ter um total combinado de 1.000 tipos de registros operacionais e taxonomias em um espaço de trabalho. Isso inclui tipos de registro ou taxonomias criadas do zero ou importadas de outros sistemas.
 
@@ -73,17 +73,17 @@ A tabela a seguir ilustra algumas das semelhanças e diferenças entre os tipos 
 
 | Tipo e característica do registro | Tipo de Registro Operacional | Tipo de registro de taxonomia |
 |-------------------------------------------------------------|:-----------------------:|:--------------------:|
-| Eles fazem parte de um espaço de trabalho | ✓ µ | ✓ |
-| É possível criá-los automaticamente a partir de um modelo de espaço de trabalho | ✓ | ✓ |
-| É possível criá-los manualmente, do zero | ✓ | ✓ |
-| É possível criá-los copiando e colando informações de um arquivo ou lista externa | ✓ | ✓ |
-| Você pode criar importando um arquivo Excel ou CSV | ✓ |                     |
-| Você pode criar tipos de registro somente leitura conectando a tipos de objeto de outros aplicativos | ✓ |                     |
-| Eles representam objetos relacionados ao trabalho | ✓ |                      |
-| Eles representam atributos sobre objetos relacionados ao trabalho |                         | ✓ |
-| É possível criar do zero | ✓ | ✓ |
-| Você pode criar importando um arquivo Excel ou CSV | ✓ |                      |
-| Você pode conectar o tipo de registro a um objeto de um aplicativo de terceiros | ✓ |                      |
-| Você pode se conectar a outros tipos de registros do Maestro | ✓ |                    |
-| É possível exibir seus registros associados em uma exibição de tabela | ✓ | ✓ |
-| É possível exibir seus registros associados em uma exibição de linha do tempo | ✓ | ✓ |
+| Eles fazem parte de um espaço de trabalho | ✓ µ | ✓ µ |
+| É possível criá-los automaticamente a partir de um modelo de espaço de trabalho | ✓ µ | ✓ µ |
+| É possível criá-los manualmente, do zero | ✓ µ | ✓ µ |
+| É possível criá-los copiando e colando informações de um arquivo ou lista externa | ✓ µ | ✓ µ |
+| Você pode criar importando um arquivo Excel ou CSV | ✓ µ |                     |
+| Você pode criar tipos de registro somente leitura conectando a tipos de objeto de outros aplicativos | ✓ µ |                     |
+| Eles representam objetos relacionados ao trabalho | ✓ µ |                      |
+| Eles representam atributos sobre objetos relacionados ao trabalho |                         | ✓ µ |
+| É possível criar do zero | ✓ µ | ✓ µ |
+| Você pode criar importando um arquivo Excel ou CSV | ✓ µ |                      |
+| Você pode conectar o tipo de registro a um objeto de um aplicativo de terceiros | ✓ µ |                      |
+| Você pode se conectar a outros tipos de registros do Maestro | ✓ µ |                    |
+| É possível exibir seus registros associados em uma exibição de tabela | ✓ µ | ✓ µ |
+| É possível exibir seus registros associados em uma exibição de linha do tempo | ✓ µ | ✓ µ |
