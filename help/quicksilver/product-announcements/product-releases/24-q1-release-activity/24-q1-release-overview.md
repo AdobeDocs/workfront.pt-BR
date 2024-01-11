@@ -4,16 +4,16 @@ description: Visão geral da versão do primeiro trimestre de 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: cfe574eb8eaf238ef07ff45afa976bc1bc0484ed
+source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1567'
 ht-degree: 0%
 
 ---
 
 # Visão geral da versão do primeiro trimestre de 2024
 
-Esta página fornece informações sobre a funcionalidade incluída na versão do Primeiro trimestre de 2024 programada para janeiro de 2024.
+Esta página fornece informações sobre a funcionalidade incluída na versão do Primeiro trimestre de 2024 programada para a semana de 15 de janeiro de 2024.
 
 As melhorias nesta página estão disponíveis no ambiente de Pré-visualização. Esta página será atualizada com melhorias adicionais à medida que a versão do Primeiro trimestre de 2024 se aproximar da versão de produção planejada.
 
@@ -60,7 +60,7 @@ O webinário da versão 24.1 será realizado em 11 de janeiro de 2024. Você pod
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Decisões de prova/documento agora disponíveis para os 12 meses anteriores</a><span style="color: #ff0000;"> Novo na visualização!</span></p><p>Os relatórios de Decisões do usuário para tipos de licença novos e herdados agora exibem o número de decisões para o mês atual, bem como os 12 meses anteriores.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Decisões de prova/documento agora disponíveis para os 12 meses anteriores</a></p><p>Os relatórios de Decisões do usuário para tipos de licença novos e herdados agora exibem o número de decisões para o mês atual, bem como os 12 meses anteriores.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -208,7 +208,7 @@ O webinário da versão 24.1 será realizado em 11 de janeiro de 2024. Você pod
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Novo widget de aprovações pendentes disponível</a></p><p><span style="color: #ff0000;"> Novo na visualização!</span></p><p>Para facilitar a visualização do status das aprovações e revisões nos projetos que você possui, adicionamos um novo widget Aprovações pendentes à Página inicial. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Novo widget de aprovações pendentes disponível</a></p><p>Para facilitar a visualização do status das aprovações e revisões nos projetos que você possui, adicionamos um novo widget Aprovações pendentes à Página inicial. </p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -357,7 +357,7 @@ O webinário da versão 24.1 será realizado em 11 de janeiro de 2024. Você pod
                                 <p>Produção para versão rápida: com a versão 24.1</p>
                             </li>
                             <li>
-                                <p>Produção para versão trimestral: com a versão 24.1</p>
+                                <p>Produção para todos os clientes: com a versão 24.4 (abril de 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -383,7 +383,7 @@ O webinário da versão 24.1 será realizado em 11 de janeiro de 2024. Você pod
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Arraste e solte a imagem em um comentário na seção Atualizações</a><span style="color: #ff0000;"> Novo na visualização!</span></p><p>Para aprimorar o conteúdo de seus comentários, agora é possível arrastar e soltar rapidamente uma imagem em um comentário ou resposta na seção Atualizações de um objeto.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Arraste e solte a imagem em um comentário na seção Atualizações</a></p><p>Para aprimorar o conteúdo de seus comentários, agora é possível arrastar e soltar rapidamente uma imagem em um comentário ou resposta na seção Atualizações de um objeto.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>

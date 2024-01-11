@@ -3,9 +3,9 @@ title: Aprimoramentos do projeto do primeiro trimestre de 2024
 description: Aprimoramentos do projeto do primeiro trimestre de 2024
 author: Nolan
 feature: Product Announcements
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ Esta página descreve todas as melhorias de projeto feitas com a versão do Prim
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do Primeiro trimestre de 2024, consulte [Visão geral da versão do primeiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## Atribuições inteligentes orientadas por IA
+
+>[!NOTE]
+>
+>Produção para lançamento rápido: com a versão 24.1; Produção para todos os clientes: com a versão 24.4 (abril de 2024)
 
 Alteramos o algoritmo que o Workfront usa para calcular e sugerir atribuições inteligentes para tarefas. O novo algoritmo se aplica às seguintes áreas no Workfront em que você atribui uma tarefa: listas de tarefas, a área Atribuições no cabeçalho da tarefa, Início e o painel Resumo.
 
