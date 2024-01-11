@@ -6,9 +6,9 @@ description: No [!UICONTROL quadros] painel, é possível criar um novo painel o
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
+source-git-commit: 1195738966734e311a1438002454b29c3fa6986a
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '742'
 ht-degree: 1%
 
 ---
@@ -28,24 +28,20 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
     <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
    <td> <p>Novo: Colaborador ou superior </p>
  <p>ou</p> 
 <p>Atual: [!UICONTROL Request] ou superior </p> 
 </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!UICONTROL Solicitação] ou superior</p> </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Criar um novo quadro
 
@@ -64,6 +60,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Para um quadro dinâmico somente, siga as etapas do assistente de configuração:
 
+   1. Digite um nome para o quadro e clique em [!UICONTROL **Próxima**].
    1. Procure por e selecione [!DNL Workfront] [!UICONTROL **Projetos**] para trazer tarefas e problemas para o painel.
    1. Procure por e selecione [!UICONTROL **Atribuições**] para trazer tarefas e problemas para o painel.
 
@@ -71,13 +68,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
       A variável [!UICONTROL **Cartões sendo adicionados**] O contador mostra quantos cartões estarão no quadro. Por exemplo, se você selecionar um projeto com 100 tarefas e problemas, o contador mostrará 100. Se você adicionar uma atribuição de usuário e essa pessoa for atribuída a cinco tarefas no projeto, o contador mostrará cinco.
 
-   1. (Opcional) Selecione [!UICONTROL **Incluir trabalho concluído como cartões arquivados**] para trazer tarefas concluídas e problemas para a placa como cartões arquivados.
+   1. (Opcional) Selecione [!UICONTROL **Não arquivar cartões concluídos**] para trazer tarefas e problemas concluídos para o quadro como cartões visíveis na coluna Concluído. Quando essa opção não está selecionada, os cartões concluídos no momento da criação do quadro são trazidos para o quadro como cartões arquivados.
 
       >[!NOTE]
       >
       >Por padrão, os cartões arquivados não são exibidos no quadro. Para exibir cartões arquivados, você deve ativar uma definição de configuração e filtrar a placa para mostrar cartões arquivados. Para obter detalhes, consulte [Personalizar quais campos são exibidos em um cartão](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) e [Filtrar e pesquisar em um quadro](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
-      >
-      >Se essa opção não estiver selecionada, os cartões concluídos no momento da criação do quadro não aparecerão no quadro. Os cartões marcados posteriormente como completos permanecem no quadro na coluna Concluído e não são arquivados a menos que você configure o fallout de cartão. Para obter mais informações, consulte [Configurar queda de cartão](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
    1. (Opcional) Clique em [!UICONTROL **Usar filtros avançados**] para exibir opções de filtro adicionais.
 
