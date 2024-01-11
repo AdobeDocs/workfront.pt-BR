@@ -7,17 +7,19 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1397'
 ht-degree: 0%
 
 ---
 
 # Planejar uma visão geral do projeto
 
+<!--Audited: 01/2024-->
+
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
+< see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
 -->
 
 Um projeto é um item de trabalho grande no Adobe Workfront. Você pode dividir um projeto em tarefas que são itens de trabalho menores, como tarefas. As tarefas podem ser atribuídas a usuários ou equipes que podem ser responsáveis por sua conclusão. Quando todos os usuários concluem suas tarefas, o projeto também se torna concluído.
@@ -58,7 +60,7 @@ Você pode programar um projeto a partir de uma Data Inicial ou pode programá-l
 
 ### Definir o Cronograma do projeto {#define-the-project-schedule}
 
-Você deve determinar um agendamento e associá-lo ao projeto, bem como aos usuários responsáveis pela conclusão das tarefas no projeto.
+Você deve determinar um agendamento e associá-lo ao projeto e aos usuários responsáveis pela conclusão das tarefas no projeto.
 
 Considere definir o seguinte em um Agendamento:
 

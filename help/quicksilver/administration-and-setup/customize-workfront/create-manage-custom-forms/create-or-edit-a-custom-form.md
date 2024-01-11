@@ -4,22 +4,26 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Você pode criar ou editar um novo formulário personalizado.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 8af1890b2e2ae613279b5191cf8f2190364fb524
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
 
 # Criar ou editar um formulário personalizado com o construtor de formulários herdado
 
+<!--Audited: 01/2024-->
+
 Você pode criar ou editar um novo formulário personalizado. Ambas as tarefas são explicadas neste artigo.
 
 Para obter informações sobre como criar um novo formulário personalizado a partir de um existente, consulte [Copie um formulário personalizado para criar um novo com o construtor de formulários herdado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
+
+Este artigo descreve como criar um formulário personalizado usando o construtor de formulários herdado. Para obter informações sobre como criar um formulário personalizado usando o designer de formulário, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Requisitos de acesso
 
@@ -31,11 +35,12 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>plano do Adobe Workfront*</p> </td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td>Plano</td> 
+   <td><p>Novo: Padrão</p>
+   <p>Atual: Plano</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
@@ -44,30 +49,33 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir quais configurações de plano, tipo de licença ou nível de acesso você tem, entre em contato com o administrador do Workfront.
+&#42;Para descobrir quais configurações de plano, tipo de licença ou nível de acesso você tem, entre em contato com o administrador do Workfront. Para obter mais informações sobre requisitos de acesso, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Comece a criar um formulário personalizado
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **Forms personalizado** no painel esquerdo.
 
-   Na exibição exibida, é possível revisar todos os formulários personalizados e campos personalizados que foram criados para sua organização. Você também pode ver quem criou cada formulário e os campos associados a ele.
+   Formulários personalizados são exibidos em uma lista. Você pode revisar todos os formulários e campos personalizados que foram criados para sua organização. Você também pode ver quem criou cada formulário, os objetos associados a ele e se ele está ativo.
 
 1. Clique em **Novo formulário personalizado.**
 1. Selecione pelo menos um tipo de objeto que deseja associar ao formulário personalizado e clique em **Continuar**.
 
    ![](assets/choose-object-type.jpg)
 
-1. No **Configurações do formulário** que for aberta, digite uma **Título do formulário** e um opcional **Descrição** para o formulário personalizado.
+1. No **Configurações de formulário** que for aberta, digite uma **Título do formulário** e um opcional **Descrição** para o formulário personalizado.
 
-1. (Opcional) Se quiser adicionar mais tipos de objeto ao formulário para que ele possa ser anexado a mais objetos, clique no sinal de adição depois de Tipos de objeto e selecione o tipo de objeto desejado no menu exibido.
+1. (Opcional) Se quiser adicionar mais tipos de objeto ao formulário para que ele possa ser anexado a mais objetos, clique no link **mais** assinar depois **Tipos de objeto** e, em seguida, selecione o tipo de objeto desejado no menu exibido.
 
-   Você pode repetir isso para adicionar quantos tipos de objetos desejar.Você também pode clicar no X em um tipo de objeto para excluí-lo do formulário.
+   Você pode repetir isso para adicionar quantos tipos de objetos desejar.
+
+1. (Opcional) Clique no link **X** em um tipo de objeto para excluí-lo do formulário.
 
    Para obter informações sobre como excluir tipos de objetos de um formulário personalizado que você já salvou, consulte [Excluir tipos de objeto em um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
 
-1. Clique em **Concluído**.
+1. Clique em **Concluído** no canto inferior esquerdo da tela.
 
    >[!TIP]
    >
@@ -96,11 +104,11 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 >
 >Em geral, recomendamos minimizar o número de vezes que você edita um formulário personalizado que já está em uso. Não há um sistema de notificação para alertar as pessoas que usam o formulário personalizado sobre suas alterações.
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **Forms personalizado** no painel esquerdo.
 
-   Na exibição exibida, você pode revisar todos os formulários personalizados que foram criados para sua organização. Você também pode ver quem criou cada formulário, com que tipo de objeto ele funciona e se ele está ativo.
+   Formulários personalizados são exibidos em uma lista. Você pode revisar todos os formulários e campos personalizados que foram criados para sua organização. Você também pode ver quem criou cada formulário, os objetos associados a ele e se ele está ativo.
 
 1. Selecione o formulário personalizado que deseja editar e clique em **Editar**.
 1. (Opcional) Para alterar o título e a descrição do formulário personalizado, clique no **Configurações do formulário** e digite um **Título do formulário** e **Descrição**.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '1959'
+source-wordcount: '1903'
 ht-degree: 1%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 1%
 # Visão geral do Adobe Maestri
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
-
-<!--see the separate article I wrote to have the PMs vet it for this: https://adobe-my.sharepoint.com/personal/alinaw_adobe_com/_layouts/15/doc.aspx?sourcedoc={79f94807-3d73-4015-afc0-5c016fc63cfc}&action=edit-->
-
-<!--all the links are hidden for now, so I can share this with customer zero. Activate the links before making this public. -->
 
 <!-- remove the references to closed beta from the entire article-->
 
@@ -82,8 +78,8 @@ A tabela a seguir ilustra os principais recursos que estarão disponíveis no Ma
 | Conectar registros do Maestri aos ativos da Adobe Experience Manager | ✓ µ |                                  |                 |
 | Página de detalhes do registro | ✓ µ |                                  |                  |
 | Atualizar o layout da página Detalhes do registro |                               | ✓ µ |                  |
-| Compartilhar espaços de trabalho | | ✓ µ |  |
-| Compartilhar exibições | | ✓ µ |  |
+| Compartilhar espaços de trabalho | ✓ µ | |  |
+| Compartilhar exibições | ✓ µ | |  |
 | Enviar solicitações |                               |                                  | ✓ µ |
 | Resumo criativo |                               |                                  | ✓ µ |
 | Personalizar a cor e o ícone de um registro | ✓ µ |                                  |                 |
@@ -92,15 +88,11 @@ A tabela a seguir ilustra os principais recursos que estarão disponíveis no Ma
 | Módulos Maestri para o Adobe Workfront Fusion | ✓ µ |                                  |                 |
 | Copiar e colar informações de um campo para outro | ✓ µ |                                  |                 |
 
-## Acesso necessário para usar o Maestro durante o programa beta fechado
+## Habilite o Maestri para os usuários em sua instância do Workfront
 
->[!IMPORTANT]
->
->Atualmente, não há níveis de acesso ou permissões associados aos usuários ou às informações no Maestri. Todos os usuários podem exibir, editar e excluir todas as informações que qualquer outro usuário adicionar ao Maestro.
+Sua organização deve se inscrever no programa beta fechado do Adobe Maestro antes que você possa acessar o Maestro. Entre em contato com seu representante de conta para obter informações sobre como se inscrever no programa beta.
 
-Para obter mais informações sobre o acesso necessário para usar o Maestro, consulte [Visão geral de acesso do Adobe Maestri](../maestro/access/access-overview.md).
-
-<!--take the IMPORTANT note out when we release permissions; keep the link to the Access article-->
+Para obter mais informações sobre como conceder acesso e permitir que outros usem o Maestro, consulte [Visão geral do Access](/help/quicksilver/maestro/access/access-overview.md).
 
 ## Terminologia maestro
 
@@ -185,7 +177,7 @@ A seguir estão os principais objetos e conceitos do Maestro:
 
    * Os campos Maestri são totalmente personalizáveis e são acessíveis apenas no Maestro. Não é possível acessar os campos Maestro no Workfront.
 
-  Para obter mais informações, consulte [Criar campos](../maestro/fields/create-fields.md)
+  Para obter mais informações, consulte [Criar campos](../maestro/fields/create-fields.md).
 
   Por padrão, um novo tipo de registro operacional está associado aos seguintes campos predefinidos:
 
@@ -208,6 +200,7 @@ A seguir estão os principais objetos e conceitos do Maestro:
    * Percentagem
    * Moeda
    * Caixa de seleção
+   * Fórmula
    * Pessoas
    * Criado por
    * Data de criação
@@ -272,12 +265,6 @@ A tabela a seguir mostra os limites para quantos objetos você pode criar no Mae
 | Tamanho do arquivo que você pode importar por meio da API para uma tabela de tipo de registro | 1,5 MB |
 | A velocidade com a qual as solicitações de API podem ser feitas | 200 solicitações por minuto |
 | Tamanho do CSV do arquivo do Excel que pode ser importado em uma tabela | 5 MB |
-
-## Habilite o Maestri para os usuários em sua instância do Workfront
-
-Sua organização deve se inscrever no programa beta fechado do Adobe Maestro antes que você possa acessar o Maestro. Entre em contato com seu representante de conta para obter informações sobre como se inscrever no programa beta.
-
-Para obter mais informações sobre como conceder acesso e permitir que outros usem o Maestro, consulte [Visão geral do Access](/help/quicksilver/maestro/access/access-overview.md).
 
 ## Localizar Maestro
 

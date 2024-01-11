@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '906'
 ht-degree: 0%
 
 ---
 
 # Criar tarefas recorrentes
+
+<!--Audited: 01/2024-->
 
 É possível criar tarefas recorrentes para tarefas que você precisa repetir como parte de um único projeto.
 
@@ -30,24 +32,27 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Novo: Padrão</p> 
+   <p>Atual: trabalho ou superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a tarefas e projetos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre o acesso a tarefas, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Conceder acesso a tarefas</a>. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>. </p> </td> 
+   <td> <p>Editar acesso a tarefas e projetos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Contribuir com permissões para o projeto com a capacidade de adicionar tarefas ou superior</p> <p>Ao criar uma tarefa, você recebe automaticamente permissões Gerenciar para a tarefa</p> <p> Para obter informações sobre permissões de tarefas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Compartilhar uma tarefa </a>. </p> <p>Para obter informações sobre a solicitação de permissões adicionais, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Contribuir com permissões para o projeto com a capacidade de adicionar tarefas ou superior</p> 
+   <p>Ao criar uma tarefa, você recebe automaticamente permissões Gerenciar para a tarefa</p> 
+   <p> Para obter informações sobre permissões de tarefas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Compartilhar uma tarefa </a>.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront. Para obter mais informações sobre requisitos de acesso, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Criar uma tarefa recorrente
 
@@ -99,7 +104,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
       <td> <p> A tarefa é repetida a cada semana, a cada 2 semanas, a cada 3 semanas e assim por diante, dependendo da cadência selecionada.</p> <p>No <strong>Repetições</strong> selecione o dia da semana em que deseja que cada tarefa ocorra. Você pode selecionar vários dias. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Mês</strong> </td> 
+      <td role="rowheader"><strong>Month</strong> </td> 
       <td> <p>A tarefa é repetida a cada mês, a cada dois meses, a cada três meses e assim por diante, dependendo da cadência selecionada. Você pode selecionar entre 1 e 12 meses. </p> <p>No <strong>Repetições</strong> selecione entre as seguintes opções quando quiser que a tarefa ocorra:</p> 
        <ul> 
         <li> <p><strong>todos os meses no dia &lt;month date=""&gt;</strong> </p> <p>Você pode selecionar dias de 1 a 30 ou selecionar <strong>último</strong>. Por exemplo, você pode selecionar "todo mês no dia 30". </p> </li> 
@@ -122,7 +127,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique em **Criar tarefa.**
 
-   A lista de tarefas é exibida. A tarefa recorrente é criada como um pai e todas as recorrências são seus filhos. O Workfront gerou automaticamente os nomes das tarefas filhas, usando o nome inserido para o pai seguido por um número. Para obter mais informações sobre quais campos são preenchidos automaticamente na tarefa pai recorrente, consulte [Visão geral das tarefas recorrentes](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+   A lista de tarefas é exibida. A tarefa recorrente é criada como um pai e todas as recorrências são seus filhos. O Workfront gerou automaticamente os nomes das tarefas filhas, usando o nome inserido para o pai seguido por um número. As tarefas recorrentes são colocadas no final da lista de tarefas.
+
+   Para obter mais informações sobre quais campos são preenchidos automaticamente na tarefa pai recorrente, consulte [Visão geral das tarefas recorrentes](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
 
    ![](assets/recurring-tasks-in-task-list-nwe-350x87.png)
 
