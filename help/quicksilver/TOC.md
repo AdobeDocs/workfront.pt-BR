@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 93dfcd639f1b821e68e388ac4206aeb7447caee1
+source-git-commit: 729cdf8ca5d917d5d009b3d64563d7d37053d8ee
 workflow-type: tm+mt
-source-wordcount: '13856'
+source-wordcount: '13854'
 ht-degree: 0%
 
 ---
@@ -781,7 +781,7 @@ ht-degree: 0%
    * Administração no Adobe Admin Console {#admin-in-admin-console}
       * [Administração do Workfront na Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
       * [Preparar-se para a Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
-      * [Noções básicas sobre a migração de produtos e usuários do Workfront para o Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
+      * [Noções básicas sobre a migração do Workfront para o Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
    * Dicas, truques e solução de problemas para administração e configuração {#admin-setup-tips}
       * [Dicas, truques e solução de problemas](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
       * [Administradores de grupo devem ter um acesso maior do que aqueles que eles gerenciam](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
