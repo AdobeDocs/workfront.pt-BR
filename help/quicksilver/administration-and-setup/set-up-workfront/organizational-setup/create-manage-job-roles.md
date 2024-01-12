@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: Criar e gerenciar funções de trabalho
 description: Como um [!DNL Adobe Workfront] administrador ou um usuário com acesso administrativo a Funções de trabalho, você pode criar funções de trabalho que podem ser atribuídas a usuários e excluir funções de trabalho padrão que não são relevantes para sua organização.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
+source-git-commit: e7ce6f0b02a1ecde3daaeb9ab678caaae112ac23
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1177'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Para criar uma função de trabalho:
       <td>
         <p>Selecione uma moeda associada a esta função de trabalho. Essa é a moeda que [!DNL Workfront] usa para calcular custos e receita associados a esta função de trabalho. </p> 
         <p><span>Isso é diferente da [!UICONTROL Moeda Base] configurada pelo seu [!DNL Workfront] administrador na área [!UICONTROL Setup] e pode ser diferente da moeda associada a um projeto.</span> </p> 
-        <p>Dica: somente as moedas disponíveis na área [!UICONTROL Taxas de Câmbio] do sistema estão disponíveis neste campo.</p> 
+        <p>Dica: somente as moedas disponíveis na área [!UICONTROL Taxas de Câmbio] do sistema estão disponíveis neste campo. Se você tiver apenas uma moeda configurada, esse campo não será exibido.</p> 
        <p><span>Para obter informações sobre como configurar a [!UICONTROL Moeda Base] em [!DNL Workfront], consulte</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar taxas de câmbio</a>.</p> <p><span>Para obter informações sobre como alterar a moeda de um projeto, consulte</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">Alterar a moeda do projeto</a>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
