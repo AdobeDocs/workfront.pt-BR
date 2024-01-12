@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Você pode decidir quais seções de um formulário personalizado devem ser exibidas ou ignoradas com base nas escolhas que um usuário faz ao preenchê-lo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: a46ad2d847372c153e2da29e0545d70cdb6e04f7
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 1%
+source-wordcount: '969'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>plano do Adobe Workfront*</p> </td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -56,28 +56,25 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 * Não é possível adicionar lógica de salto a um widget ou quebra de seção. Você pode adicioná-lo somente a um campo de múltipla escolha (botões de opção, lista suspensa ou caixas de seleção).
 
-* Você pode adicionar a lógica de exibição e a lógica de salto a um campo personalizado. Tudo o que segue é verdadeiro sobre o campo personalizado:
+* Você pode adicionar a lógica de exibição e a lógica de salto a um campo personalizado se todos os itens a seguir forem verdadeiros sobre o campo personalizado:
 
    * É um campo de múltipla escolha (botões de opção, lista suspensa ou caixas de seleção)
    * É precedido por um campo de múltipla escolha
    * Ele é seguido por outro campo personalizado
 
 * Ao copiar formulários com lógica de exibição ou lógica de salto, a lógica é copiada para o novo formulário personalizado.
-* Lembre-se do seguinte ao criar uma regra de lógica de exibição para um formulário personalizado
+* Ao editar objetos em massa, todos os campos personalizados são exibidos na caixa Editar objetos, incluindo os campos que são ignorados ou ocultos.
+* Lembre-se do seguinte ao criar uma regra de lógica de exibição para um formulário personalizado:
 
    * Campos personalizados não incluídos em uma instrução lógica de exibição são exibidos em um formulário personalizado por padrão.
    * Você pode criar instruções lógicas de exibição de vários campos.
-
-* Ao editar objetos em massa, todos os campos personalizados são exibidos na caixa Editar objetos, incluindo os campos que são ignorados ou ocultos.
+   * Se todos os campos em uma quebra de seção tiverem lógica de exibição aplicada a eles e todos estiverem ocultos como resultado da lógica, a seção inteira será ocultada no formulário personalizado.
 
 ## Criar um formulário personalizado de amostra com lógica de exibição e salto
 
 A melhor maneira de aprender a adicionar lógica de exibição e salto a um formulário personalizado é por meio do exemplo prático explicado nas duas seções a seguir:
 
-* [Mostrar lógica](#display-logic)
-* [Lógica de salto](#skip-logic)
-
-### Mostrar lógica {#display-logic}
+### Lógica de exibição {#display-logic}
 
 1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
 

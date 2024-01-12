@@ -4,12 +4,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Adicionar uma quebra de seção a um formulário personalizado com o construtor de formulários herdado
 description: Você pode agrupar campos e widgets personalizados em um formulário personalizado em seções com cabeçalhos. Isso é útil para apresentar uma experiência organizada a usuários que preencherão o formulário. Além disso, se você precisar limitar o acesso a determinados campos e widgets personalizados a determinados usuários, poderá colocá-los em uma seção e conceder acesso à seção somente a esses usuários.
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
+source-git-commit: a46ad2d847372c153e2da29e0545d70cdb6e04f7
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -42,7 +43,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>plano do Adobe Workfront*</p> </td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -83,12 +84,12 @@ Você deve ter o seguinte para executar as etapas deste artigo:
       <td>Digite texto se quiser explicar aos usuários para que serve a seção. É exibido abaixo do rótulo da seção no formulário personalizado.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Adicionar Lógica</td> 
-      <td>Use a lógica de exibição para especificar se a seção deve ser exibida no formulário, com base nas seleções que os usuários fazem em campos personalizados de múltipla escolha quando preenchem o formulário. Para obter mais informações, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Adicionar lógica de exibição e lógica de salto a um formulário personalizado</a>.</td> 
+      <td role="rowheader"><p>Adicionar Lógica</p></td> 
+      <td><p>Use a lógica de exibição para especificar se a seção deve ser exibida no formulário, com base nas seleções que os usuários fazem em campos personalizados de múltipla escolha quando preenchem o formulário.</p><p><strong>NOTA:</strong> Se todos os campos individuais em uma quebra de seção tiverem lógica de exibição aplicada a eles e todos estiverem ocultos como resultado da lógica, a seção inteira será ocultada no formulário personalizado. Isso ocorrerá mesmo se a lógica de exibição não for aplicada à quebra de seção.</p><p>Para obter mais informações, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Adicionar lógica de exibição e lógica de salto a um formulário personalizado</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Conceder acesso</p> </td> 
-      <td> <p> Selecione as permissões que os usuários precisam em um objeto ao qual o formulário personalizado está anexado para exibir esta seção e editar seus valores de campo. 
+      <td> <p> Selecione as permissões que os usuários precisam em um objeto ao qual o formulário personalizado está anexado para exibir esta seção e editar seus valores de campo.
        <p>As seguintes permissões estão disponíveis em <b>Os usuários com esse acesso ao objeto podem visualizar valores de campo</b>:</p> 
          <ul>
           <li><strong>Exibir</strong>: permissões de exibição para o objeto</li>
@@ -108,7 +109,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
          </ul> </li> 
        </ul> 
        <p>Para obter informações sobre permissões em objetos, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Visão geral das permissões de compartilhamento em objetos</a>.</p> 
-       <p><b>Nota</b>:  
+       <p><b>NOTA</b>:  
        <ul> 
        <li> <p>Os usuários sem as permissões especificadas aqui não podem ver os campos e widgets personalizados na seção. </p> <p>Isso também é verdadeiro se você exibir os valores dos campos nos relatórios ou usá-los em campos calculados nos relatórios do modo de texto.</p> </li> 
        <li> <p>Associar vários tipos de objeto ao seu formulário pode alterar as permissões de exibição e edição disponíveis nessas etapas. Para obter mais informações, consulte <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Como vários tipos de objeto podem afetar as permissões de quebra de seção em um formulário personalizado</a> neste artigo.</p> </li> 
