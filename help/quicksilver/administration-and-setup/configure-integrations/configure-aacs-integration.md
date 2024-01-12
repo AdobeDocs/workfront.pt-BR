@@ -6,9 +6,9 @@ description: Você pode conectar seu trabalho ao seu conteúdo no [!DNL Experien
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
@@ -40,13 +40,13 @@ Você deve ter o seguinte:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plano*</strong>
+   <td><strong>[!DNL Adobe Workfront] plano</strong>
    </td>
    <td>Qualquer
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenças*</strong>
+   <td><strong>[!DNL Adobe Workfront] licenças</strong>
    </td>
    <td>Atual: [!UICONTROL Plano] <br>
    Novo: [!UICONTROL Padrão]
@@ -67,13 +67,12 @@ Você deve ter o seguinte:
   <tr>
    <td>Configurações de nível de acesso*
    </td>
-   <td>Você deve ser um [!DNL Workfront] administrador. Para obter informações sobre [!DNL Workfront] administradores, consulte <strong>Conceder acesso administrativo total a um usuário</strong>.
+   <td>Você deve ser um [!DNL Workfront] administrador.
    </td>
   </tr>
 </table>
 
-
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Pré-requisitos

@@ -6,9 +6,9 @@ description: Você pode criar, editar e atribuir perfis de planilha de horas que
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 3983f82dfa668c3fcb0948a759ba47a76ec52f86
+source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
    <td> <p>Qualquer</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> <p>Novo: Padrão </p>
  <p>ou</p> 
 <p>Atual: Plano </p> 
@@ -44,12 +44,12 @@ Você deve ter o seguinte para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Você deve ter acesso administrativo a Planilhas de Horas. </p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Conceder aos usuários acesso administrativo a determinadas áreas</a>.</p> <p>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Você deve ter acesso administrativo a Planilhas de Horas. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Criar ou editar um perfil de planilha de horas
 

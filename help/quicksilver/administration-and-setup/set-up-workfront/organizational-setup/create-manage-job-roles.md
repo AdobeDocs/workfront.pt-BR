@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: e7ce6f0b02a1ecde3daaeb9ab678caaae112ac23
+source-git-commit: 32441df90b915077f57ead791116dcbd32c9557a
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -32,18 +32,18 @@ Você deve ter o seguinte:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
    <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
    <td>
    <p>Novo: Padrão</p>
    <p>Atual: [!UICONTROL Plano]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Acesso administrativo a funções de trabalho</p> <p><b>NOTA</b>: Se ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais no seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Acesso administrativo a funções de trabalho</p> </td> 
   </tr> 
  </tbody> 
 </table>

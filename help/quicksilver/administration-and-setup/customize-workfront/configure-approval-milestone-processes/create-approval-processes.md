@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
+source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
 workflow-type: tm+mt
-source-wordcount: '2202'
+source-wordcount: '2163'
 ht-degree: 1%
 
 ---
@@ -49,11 +49,11 @@ Você deve ter o seguinte:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> <p>Novo plano: Padrão </p>
  <p>ou</p> 
 <p>Plano atual: Plano </p> 
@@ -62,12 +62,12 @@ Você deve ter o seguinte:
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
    <td> <p>Se você for um administrador do Workfront ou tiver acesso administrativo a processos de aprovação, poderá criar um processo de aprovação no nível do sistema ou um processo de aprovação no nível do grupo para um grupo específico.</p> 
-   <p>Se você for um administrador de grupo, poderá criar processos de aprovação de nível de grupo para grupos gerenciados.</p> <p><b>NOTA</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <p>Se você for um administrador de grupo, poderá criar processos de aprovação de nível de grupo para grupos gerenciados.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Criar um processo de aprovação global de nível de sistema ou de grupo para itens de trabalho
 

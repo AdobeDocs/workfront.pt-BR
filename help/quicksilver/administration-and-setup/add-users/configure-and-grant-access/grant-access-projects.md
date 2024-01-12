@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: e47f5d06d0c7d72c171583b53b69f951e4e99afe
+source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td>Qualquer</td> 
   </tr> 
     <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> <p>Novo: Padrão </p>
  <p>ou</p> 
 <p>Atual: Plano </p> 
@@ -47,10 +47,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Você deve ser um administrador do Workfront.</p> <p><b>NOTA</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Você deve ser um administrador do Workfront.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Configurar o acesso do usuário aos projetos usando um nível de acesso personalizado
 
