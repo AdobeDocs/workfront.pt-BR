@@ -5,9 +5,9 @@ description: A barra de navegação superior, que aparece na parte superior da t
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Cada ícone leva você a uma área diferente do novo [!DNL Adobe Workfront] expe
      <li>[!UICONTROL Projetos]: <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">Projetos: índice do artigo</a></li> 
      <li>[!UICONTROL Relatórios]: <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">Relatórios</a></li> 
      <li>[!UICONTROL Painéis]: <a href="../../reports-and-dashboards/dashboards/dashboards-overview.md" class="MCXref xref">Painéis</a></li> 
-     <li>[!UICONTROL Calendários]: <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">Calendários</a></li> 
+     <li>[!UICONTROL Calendários]: <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">Calendários: índice de artigos</a></li> 
      <li>[!UICONTROL Recursos]: <a href="../../resource-mgmt/resource-mgmt-overview/resource-management-overview.md" class="MCXref xref">Gerenciamento de recursos </a></li> 
      <li>[!UICONTROL Equipes]: <a href="../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md" class="MCXref xref">Criar e gerenciar equipes</a></li> 
      <li>[!UICONTROL Usuários]: <a href="../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md" class="MCXref xref">Criar e gerenciar usuários</a></li> 

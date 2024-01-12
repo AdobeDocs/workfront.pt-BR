@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 44f57d9169a7a2177b639ae3adbd83bfe1551ac8
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
 source-wordcount: '3404'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Os recursos são lançados semanalmente e são listados na ordem de lançamento,
 >
 >A documentação referenciada nas seções abaixo estará disponível algum tempo depois que os recursos forem lançados para produção.
 
-## Semana de 15 de janeiro de 2024
+## Semana de 8 de janeiro de 2024
 
 ### Os recursos do Maestri são removidos dos ambientes Pré-visualização e Sandbox
 

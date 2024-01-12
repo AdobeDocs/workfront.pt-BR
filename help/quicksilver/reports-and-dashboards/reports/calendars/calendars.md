@@ -2,22 +2,26 @@
 content-type: reference
 product-area: calendars
 navigation-topic: reports
-title: Calendários
-description: Revise estes artigos para obter uma compreensão dos relatórios de calendário no Adobe Workfront.
+title: "Calendários: índice de artigos"
+description: Um relatório de calendário é um relatório dinâmico que fornece uma representação visual do seu trabalho. Você pode exibir informações de data em um relatório de calendário para projetos, tarefas e problemas. Revise estes artigos para obter uma compreensão dos relatórios de calendário no Adobe Workfront.
 author: Lisa
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b46834db-358e-4ee2-9512-f7419351de30
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 2%
+source-wordcount: '147'
+ht-degree: 0%
 
 ---
 
-# Calendários
+# Calendários: índice de artigos
 
-Esta seção contém os seguintes artigos:
+<!--Audited: 01/2024-->
+
+Um relatório de calendário é um relatório dinâmico que fornece uma representação visual do seu trabalho. Você pode exibir informações de data em um relatório de calendário para projetos, tarefas e problemas.
+
+Revise os seguintes artigos para obter uma compreensão dos relatórios de calendário no Adobe Workfront:
 
 * [Visão geral dos relatórios de calendário](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
 * [Usar campos de data personalizados em um relatório de calendário](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)

@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 729cdf8ca5d917d5d009b3d64563d7d37053d8ee
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '13854'
+source-wordcount: '13856'
 ht-degree: 0%
 
 ---
@@ -1660,7 +1660,7 @@ ht-degree: 0%
          * [Entender como organizar relatórios em um painel](reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
          * [Visualizar uso do relatório](reports-and-dashboards/reports/report-usage/view-report-usage.md)
       * Calendários {#calendars}
-         * [Calendários](reports-and-dashboards/reports/calendars/calendars.md)
+         * [Calendários: índice de artigos](reports-and-dashboards/reports/calendars/calendars.md)
          * [Visão geral dos relatórios de calendário](reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
          * [Usar campos de data personalizados em um relatório de calendário](reports-and-dashboards/reports/calendars/use-custom-dates.md)
          * [Usar Datas Planejadas em um relatório de calendário](reports-and-dashboards/reports/calendars/use-planned-dates.md)
@@ -2015,6 +2015,7 @@ ht-degree: 0%
       * [Conectar tipos de registro](maestro/architecture/connect-record-types.md)
       * [Editar tipos de registro](maestro/architecture/edit-record-types.md)
       * [Excluir espaços de trabalho](maestro/architecture/delete-workspaces.md)
+      * [Editar espaços de trabalho](maestro/architecture/edit-workspaces.md)
       * [Excluir tipos de registro](maestro/architecture/delete-record-types.md)
       * [Exemplo de conexão de tipos de registro e registros](maestro/architecture/example-connect-record-types-and-records.md)
       * [Lista de modelos do espaço de trabalho](maestro/architecture/workspace-templates.md)
@@ -2029,8 +2030,8 @@ ht-degree: 0%
       * [Acessar informações](maestro/access/access-information.md)
       * [Visão geral do Access](maestro/access/access-overview.md)
       * [Visão geral das permissões de compartilhamento no Adobe Maestro](maestro/access/sharing-permissions-overview.md)
-      * [Compartilhar um espaço de trabalho](maestro/access/share-workspaces.md)
-      * [Compartilhar uma exibição](maestro/access/share-views.md)
+      * [Compartilhar espaços de trabalho](maestro/access/share-workspaces.md)
+      * [Compartilhar exibições](maestro/access/share-views.md)
    * Registros do Adobe Maestro {#adobe-maestro-records}
       * [Registros: índice do artigo](maestro/records/records-information.md)
       * [Criar registros](maestro/records/create-records.md)
