@@ -2,20 +2,22 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: Página Notificações por email
+title: "Notificações por email: índice do artigo"
 description: Como administrador do Adobe Workfront, você pode configurar as notificações de eventos, as notificações de lembretes e os modelos de email para seus usuários.
-author: Lisa, Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94b07085-8e3d-4137-9820-38aaa257a3ed
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 9c4aa8d1f812299ba6cdcb664b990c1119e3cb31
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
 
-# Página Notificações por email
+# Notificações por email: índice do artigo
+
+<!-- Audited: 1/2024 -->
 
 Como administrador do Adobe Workfront, você pode configurar as notificações de eventos, as notificações de lembretes e os modelos de email para seus usuários.
 

@@ -6,14 +6,16 @@ description: A variável [!UICONTROL quadros] painel mostra a lista de painéis 
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: 9c4aa8d1f812299ba6cdcb664b990c1119e3cb31
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
 
 # Usar o painel de painéis
+
+<!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >
@@ -41,29 +43,34 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!UICONTROL Solicitação] ou superior</p> </td> 
+   <td> 
+   <p>Novo: [!UICONTROL Contributor] ou superior</p> 
+   <p>ou</p>
+   <p>Atual: [!UICONTROL Request] ou superior</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Filtrar quadros e fluxos de trabalho {#filter-boards}
 
 Você pode filtrar o painel de painéis para mostrar ativos, arquivados ou todos os painéis ou fluxos de trabalho.
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Quadros]**.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Quadros]**.
 1. Clique em [!UICONTROL **Filtro**] na área Quadros ou Fluxos de trabalho, e selecione **[!UICONTROL Todos]**, **[!UICONTROL Ativo]** ou **[!UICONTROL Arquivado]**.
 
    Quando um filtro diferente do padrão é aplicado no painel, um indicador é exibido no ícone de filtro ![Filtro aplicado ao painel](assets/boards-filterapplied-30x30.png).
 
 ## Classificar quadros
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Quadros]**.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Quadros]**.
 1. Para classificar a lista de quadros, clique em [!UICONTROL **Ordenar**]. A opção de classificação padrão da página é por **[!UICONTROL Data de modificação]**. Também é possível classificar a página por quadro **[!UICONTROL Nome]**.
 
    Selecionar **[!UICONTROL Ordem inversa]** para classificar os quadros em ordem inversa da data de modificação ou do nome. Quando a seta no ícone de classificação aponta para cima, a ordem inversa é aplicada. Quando a seta aponta para baixo, a ordem padrão é aplicada.
@@ -74,7 +81,7 @@ Você pode filtrar o painel de painéis para mostrar ativos, arquivados ou todos
 
 Você pode pesquisar na área Quadros para um determinado quadro ou pesquisar na área Fluxos de trabalho para um fluxo de trabalho específico.
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Quadros]**.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Quadros]**.
 1. Clique em [!UICONTROL **Pesquisar**] e digite um termo de pesquisa. Em seguida, pressione Enter.
 
    Todos os quadros ou fluxos de trabalho que contêm o termo de pesquisa no título são exibidos.
@@ -93,7 +100,7 @@ O arquivamento de um quadro ou fluxo de trabalho envia-o para o arquivo e você 
 >
 >Quando você arquiva um fluxo de trabalho, todas as placas são arquivadas.
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Quadros]**.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Quadros]**.
 1. Clique em **[!UICONTROL Mais]** menu ![Menu Mais](assets/more-icon-spectrum.png) no quadro ou fluxo de trabalho e selecione **[!UICONTROL Arquivar]**.
 
    Em um workflow, o menu está à direita, ao lado da guia [!UICONTROL **Exibir fluxo de trabalho**] botão.
@@ -114,7 +121,7 @@ A exclusão de um fluxo de trabalho também exclui todas as placas no fluxo de t
 >
 >Você só pode excluir quadros e fluxos de trabalho criados, não quadros e fluxos de trabalho aos quais foram adicionados.
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Quadros]**.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Quadros]**.
 1. Clique em **[!UICONTROL Mais]** menu ![[!UICONTROL Menu Mais]](assets/more-icon-spectrum.png) no quadro ou fluxo de trabalho e selecione **[!UICONTROL Excluir]**.
 
    Em um workflow, o menu está à direita, ao lado da guia [!UICONTROL **Exibir fluxo de trabalho**] botão.

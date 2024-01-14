@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 2dcf8d3baf5ca5032153627b7e833bafea3418f7
 workflow-type: tm+mt
-source-wordcount: '13856'
+source-wordcount: '13860'
 ht-degree: 0%
 
 ---
@@ -645,7 +645,7 @@ ht-degree: 0%
          * [Ocultar relatórios](administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)
       * Emails {#emails}
          * [Emails](administration-and-setup/manage-workfront/emails/emails.md)
-         * [Notificações de email](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
+         * [Notificações por email: índice do artigo](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
          * [Configurar notificações de eventos](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
          * [Notificação de evento disponível](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
          * [Desbloquear notificações de eventos para todos os grupos](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
@@ -694,8 +694,8 @@ ht-degree: 0%
    * Gerenciar grupos {#manage-groups}
       * [Gerenciar grupos](administration-and-setup/manage-groups/manage-groups.md)
       * Grupos {#groups}
-         * [Visão geral dos grupos](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
-         * [Grupos](administration-and-setup/manage-groups/groups-overview/groups.md)
+         * [Grupos: índice de artigos](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
+         * [Visão geral dos grupos](administration-and-setup/manage-groups/groups-overview/groups.md)
          * [Visão geral dos subgrupos](administration-and-setup/manage-groups/groups-overview/subgroups.md)
          * [Visão geral dos Grupos padrão](administration-and-setup/manage-groups/groups-overview/home-groups.md)
       * Criar e gerenciar grupos {#create-manage-groups}
