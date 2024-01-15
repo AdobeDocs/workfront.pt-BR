@@ -6,9 +6,9 @@ description: O trabalho planejado é representado na Adobe Workfront por projeto
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2327'
 ht-degree: 1%
 
 ---
@@ -38,31 +38,6 @@ Você pode criar uma solicitação das seguintes maneiras:
 
 ## Requisitos de acesso
 
-<!--drafted for P&P - replace table: 
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p>
-    </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -71,22 +46,24 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> Qualquer  </td> 
+   <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> Novo: Colaborador ou superior
-   <p>Ou</p>
+   <td> <p>Novo: Colaborador ou superior</p>
+   Ou
    <p>Atual: solicitação ou superior</p>
     </td> 
   </tr> 
-   <td role="rowheader">Nível de acesso*</td> 
-   <td> Editar acesso a ocorrências <p>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Configurações de nível de acesso*</td> 
+   <td> <p>Editar acesso a ocorrências</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Pré-requisitos para usar as Filas de solicitações
 

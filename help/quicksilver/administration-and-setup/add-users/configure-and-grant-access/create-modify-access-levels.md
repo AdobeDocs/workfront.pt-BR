@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1433'
 ht-degree: 6%
 
 ---
@@ -54,6 +54,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
  </tbody> 
 </table>
+
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Criar ou editar um nível de acesso personalizado
 

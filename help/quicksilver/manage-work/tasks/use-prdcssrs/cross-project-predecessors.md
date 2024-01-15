@@ -6,9 +6,9 @@ description: Uma Predecessora entre projetos é uma tarefa da qual outra tarefa 
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -35,37 +35,6 @@ Para obter mais informações sobre relacionamentos predecessores, consulte [Vis
 
 ## Requisitos de acesso
 
-<!--drafted - replace table for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the tasks and the projects</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -73,29 +42,29 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
- <tr> 
-  <td role="rowheader">Licença da Adobe Workfront*</td> 
-  <td> <p>Novo: Padrão </p>
- <p>ou</p> 
-<p>Atual: Plano </p> 
-</td> 
- </tr>   <tr> 
+  <tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Novo: Padrão </p> 
+   Ou
+   <p>Atual: Plano </p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a tarefas e projetos</p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr> 
+   <td> <p>Editar acesso a tarefas e projetos</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para as tarefas e os projetos</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para as tarefas e os projetos</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Criar uma predecessora entre projetos
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '7452'
+source-wordcount: '7404'
 ht-degree: 1%
 
 ---
@@ -43,18 +43,18 @@ Idealmente, você deve editar um projeto quando ele estiver no status Planejando
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td><p>Novo: Padrão </p> 
    Ou
    <p>Atual: Plano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a projetos</p> <p>Se você não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre o acesso a projetos, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Conceder acesso aos projetos</a>. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>. </p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a projetos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -65,7 +65,7 @@ Idealmente, você deve editar um projeto quando ele estiver no status Planejando
  </tbody> 
 </table>
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Limitações para editar projetos
 

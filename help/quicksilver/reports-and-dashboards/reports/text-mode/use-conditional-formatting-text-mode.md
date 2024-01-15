@@ -6,9 +6,9 @@ description: Usar formatação condicional no Modo de texto
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 2db3e821f26a8f05b2a1822ac4bcf3ae5e26a4ec
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1688'
 ht-degree: 1%
 
 ---
@@ -35,12 +35,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> <p>Novo: Padrão </p> 
+   <p>Ou</p>
    <p>Atual: Plano</p> 
    </td> 
   </tr> 
@@ -55,9 +56,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-*Para obter mais informações sobre requisitos de acesso, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Formatação condicional no modo de texto
 

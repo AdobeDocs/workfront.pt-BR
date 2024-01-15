@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 54cbdfddb3a012b78b3428a3f8bd5c094561c860
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td>Qualquer</td> 
   </tr> 
  <tr> 
-  <td role="rowheader">Licença da Adobe Workfront*</td> 
+  <td role="rowheader">Licença do Adobe Workfront</td> 
   <td> <p>Novo: Padrão </p>
  <p>ou</p> 
 <p>Atual: Plano </p> 
@@ -57,10 +57,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tr>   
  <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Você deve ser um administrador do Workfront.</p> <p><b>NOTA</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Você deve ser um administrador do Workfront.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Configurar o SAML 2.0 no Workfront
 
