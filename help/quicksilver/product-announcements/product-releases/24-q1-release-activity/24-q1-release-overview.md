@@ -4,7 +4,7 @@ description: Visão geral da versão do primeiro trimestre de 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
+source-git-commit: 242c54f8d650b948f4adac079f5e45b6a741f97f
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 0%
@@ -279,7 +279,7 @@ O webinário da versão 24.1 será realizado em 11 de janeiro de 2024. Você pod
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">O mapeamento de metadados no Experience Manager Assets Essentials agora usa <code>xcm:keywords</code> em vez de <code>dc:subject</code></a></p><p>[!BADGE Na produção ]{type=Informative}</p><p>Atualizamos a integração do Experience Manager Assets Essentials para corresponder à experiência da integração as a Cloud Service do Experience Manager Assets. Agora, ao mapear vários campos de texto de linha única para um único campo no Experience Manager Assets, ambos os serviços usam o <code>xcm:keywords</code> campo.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">O mapeamento de metadados no Experience Manager Assets Essentials agora usa <code>xcm:keywords</code> em vez de <code>dc:subject</code></a></p><p>[!BADGE Na produção ]{type=Informative}</p><p>Atualizamos a integração do Experience Manager Assets Essentials para corresponder à experiência da integração as a Cloud Service do Experience Manager Assets. Agora, ao mapear vários campos de texto de linha única para um único campo no Experience Manager Assets, ambos os serviços usam o <code>xcm:keywords</code> campo.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
