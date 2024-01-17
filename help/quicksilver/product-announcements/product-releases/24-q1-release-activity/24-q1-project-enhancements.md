@@ -3,9 +3,9 @@ title: Aprimoramentos do projeto do primeiro trimestre de 2024
 description: Aprimoramentos do projeto do primeiro trimestre de 2024
 author: Nolan
 feature: Product Announcements
-source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
+source-git-commit: 55ed32932e5791b57da9cbc4138d6252e9420ddd
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 
 >[!NOTE]
 >
->Produção para lançamento rápido: com a versão 24.1; Produção para todos os clientes: com a versão 24.4 (abril de 2024)
+>Produção para lançamento rápido: com a versão 24.2 (fevereiro de 2024); Produção para todos os clientes: com a versão 24.4 (abril de 2024)
 
 Alteramos o algoritmo que o Workfront usa para calcular e sugerir atribuições inteligentes para tarefas. O novo algoritmo se aplica às seguintes áreas no Workfront em que você atribui uma tarefa: listas de tarefas, a área Atribuições no cabeçalho da tarefa, Início e o painel Resumo.
 

@@ -4,20 +4,18 @@ description: Visão geral da versão do primeiro trimestre de 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 242c54f8d650b948f4adac079f5e45b6a741f97f
+source-git-commit: bb80c0f6a7d65f39b0b80a011629e1a0af88e53b
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1571'
 ht-degree: 0%
 
 ---
 
 # Visão geral da versão do primeiro trimestre de 2024
 
-Esta página fornece informações sobre a funcionalidade incluída na versão do Primeiro trimestre de 2024 programada para a semana de 15 de janeiro de 2024.
+Esta página fornece informações sobre a funcionalidade incluída na versão do Primeiro trimestre de 2024. Esses aprimoramentos estão planejados para serem disponibilizados no ambiente de produção para todos os clientes com a versão 24.1 em 18 e 19 de janeiro de 2024.
 
-As melhorias nesta página estão disponíveis no ambiente de Pré-visualização. Esta página será atualizada com melhorias adicionais à medida que a versão do Primeiro trimestre de 2024 se aproximar da versão de produção planejada.
-
-O webinário da versão 24.1 será realizado em 11 de janeiro de 2024. Você pode [inscreva-se aqui para o webinário](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
+O webinário de lançamento do 24.1 foi em 11 de janeiro de 2024. Você pode [cadastre-se no webinário para ver uma gravação sob demanda aqui](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
 
 <span class="preview">Os recursos fora do ciclo (aqueles que foram lançados para produção antes da data de lançamento do Primeiro trimestre de 2024) estão destacados em amarelo.</span>
 
@@ -352,9 +350,10 @@ O webinário da versão 24.1 será realizado em 11 de janeiro de 2024. Você pod
                         <ul>
                             <li>
                                 <p>Versão de pré-visualização: 21 de dezembro de 2023</p>
+                                <p>OBSERVAÇÃO: esse recurso permanecerá na Pré-visualização até a versão 24.4.</p>
                             </li>
                             <li>
-                                <p>Produção para versão rápida: com a versão 24.1</p>
+                                <p>Produção para lançamento rápido: com o lançamento do 24.2 (fevereiro de 2024)</p>
                             </li>
                             <li>
                                 <p>Produção para todos os clientes: com a versão 24.4 (abril de 2024)</p>
