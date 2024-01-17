@@ -1,23 +1,23 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Atualizar itens de trabalho no Balanceador de Carga de Trabalho usando o Resumo
-description: Você pode abrir o painel Resumo no Balanceador de Carga de Trabalho para atualizar itens de trabalho nas áreas de Trabalho Atribuído e Não Atribuído.
-author: Alina
+title: Atualizar itens de trabalho no Balanceador de carga de trabalho usando o Resumo
+description: Você pode abrir o painel Resumo no Balanceador de carga de trabalho para atualizar itens de trabalho nas áreas Trabalho atribuído e Não atribuído.
+author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
-# Atualizar itens de trabalho no Balanceador de Carga de Trabalho usando o Resumo
+# Atualizar itens de trabalho no Balanceador de carga de trabalho usando o Resumo
 
-Você pode usar o painel Resumo de uma tarefa ou um problema para atualizar informações importantes para esse item. no Balanceador de Carga de Trabalho.
+Você pode usar o painel Resumo de uma tarefa ou um problema para atualizar informações importantes desse item. no Balanceador de carga de trabalho.
 
-O painel Resumo está disponível para tarefas e problemas nas áreas de Trabalho Atribuído e Não Atribuído do Balanceador de Carga de Trabalho.
+O painel Resumo está disponível para tarefas e problemas nas áreas Trabalho atribuído e não atribuído do Balanceador de carga de trabalho.
 
 ## Requisitos de acesso
 
@@ -28,45 +28,45 @@ Você deve ter o seguinte:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p>Qualquer Um </p> </td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Planejar, ao usar o Balanceador de Carga de Trabalho na área Recursos</p>
-   <p>Trabalhe, ao usar o Balanceador de Carga de Trabalho de uma equipe ou projeto</p> 
+   <td> <p>Planejar, ao usar o Balanceador de carga de trabalho na área Recursos</p>
+   <p>Trabalhar, ao usar o Balanceador de carga de trabalho de uma equipe ou projeto</p> 
  </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Edite o acesso ao seguinte:</p> 
+   <td> <p>Editar acesso ao seguinte:</p> 
     <ul> 
      <li> <p>Gerenciamento de recursos</p> </li> 
      <li> <p>Projetos</p> </li> 
      <li> <p>Tarefas</p> </li> 
      <li> <p>Problemas</p> </li> 
-    </ul> <p>Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+    </ul> <p>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Contribuir com permissões ou mais para projetos, tarefas e problemas </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Contribuir com permissões ou com permissões superiores para projetos, tarefas e problemas </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
-## Atualizar tarefas e problemas no painel Resumo do Balanceador de Carga de Trabalho
+## Atualizar tarefas e problemas no painel Resumo do Balanceador de carga de trabalho
 
-1. Vá para o Balanceador de Carga de Trabalho.
+1. Vá para o Balanceador de carga de trabalho.
 
-   O Balanceador de Carga de Trabalho exibe informações de atribuição de trabalho começando com a semana atual.
+   O Balanceador de carga de trabalho exibe informações de atribuição de trabalho começando com a semana atual.
 
-1. Vá para o **Trabalho Não Atribuído** e encontrar um item de trabalho.
+1. Vá para a **Trabalho não atribuído** e localize um item de trabalho.
 
    Ou
 
-   Vá para o **Trabalho Atribuído** , expandir um usuário e encontrar um item de trabalho.
+   Vá para a **Trabalho atribuído** , expanda um usuário e localize um item de trabalho.
 
 1. Clique na barra de uma tarefa ou problema para abrir o painel Resumo à direita
 
@@ -76,19 +76,19 @@ Você deve ter o seguinte:
 
    Ou
 
-   Clique no botão **Mais** menu ![](assets/more-icon.png) à direita de uma tarefa ou problema e clique em **Abrir resumo**.
+   Clique em **Mais** menu ![](assets/more-icon.png) à direita de uma tarefa ou problema, em seguida clique em **Abrir resumo**.
 
    O painel Resumo é aberto à direita.
 
    ![](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
 
-1. Modifique vários campos para o item de trabalho, insira uma atualização ou navegue daqui para outras áreas do Workfront para adicionar documentos ou outras informações ao item de trabalho.
+1. Modifique um número de campos para o item de trabalho, informe uma atualização ou navegue daqui para outras áreas do Workfront para adicionar documentos ou outras informações ao item de trabalho.
 
    >[!CAUTION]
    >
-   >Navegar da seção Resumo para a seção Substâncias para adicionar subtarefas remove a tarefa original, pois as tarefas pai não são exibidas no Balanceador de Carga de Trabalho.
+   >Navegar do Resumo para a seção Subtarefas para adicionar subtarefas remove a tarefa original, pois as tarefas pai não são exibidas no Balanceador de carga de trabalho.
 
    Para obter mais informações sobre como atualizar informações usando o Resumo, consulte [Visão geral do resumo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-1. (Condicional) Se você abriu qualquer uma das seções do item de trabalho, clique em seu navegador **Botão Voltar** para retornar ao Balanceador de Carga de Trabalho.
-1. Clique no botão **Ícone Fechar** ![](assets/close-icon.png) no canto superior direito do Resumo, para fechá-lo.
+1. (Condicional) Se você abriu qualquer seção do item de trabalho, clique no link do **Botão Voltar** para retornar ao Balanceador de carga de trabalho.
+1. Clique em **Ícone Fechar** ![](assets/close-icon.png) no canto superior direito do Resumo, para fechá-lo.

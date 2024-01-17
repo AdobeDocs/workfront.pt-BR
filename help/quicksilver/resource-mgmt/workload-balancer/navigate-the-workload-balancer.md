@@ -3,12 +3,12 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Navegar pelo Balanceador de carga de trabalho
 description: Use o Balanceador de carga de trabalho para entender a disponibilidade de seus recursos e atribuir trabalho aos usuários. Este artigo o orienta usando os ícones e configurações disponíveis para atualizar a exibição e navegar pelo Balanceador de carga de trabalho.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 01351c0d86b0deea2d952564172841ba6a77c894
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
-source-wordcount: '4168'
+source-wordcount: '4146'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um </p> </td> 
+   <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
