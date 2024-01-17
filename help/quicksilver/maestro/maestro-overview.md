@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '1948'
 ht-degree: 1%
 
 ---
@@ -48,9 +48,11 @@ A seguir estão algumas das principais capacidades do Maestro:
 * Personalize totalmente seus workflows, desde decidir quais tipos de objeto (ou tipos de registro) sua organização usa até configurar como esses objetos se vinculam uns aos outros.
 * Link para tipos de objetos de outros sistemas, criando uma estrutura coerente para todos os seus processos.
 
-## Recursos atualmente disponíveis em Maestro
+## Recursos do Maestro disponíveis no momento
 
 A tabela a seguir ilustra os principais recursos que estarão disponíveis no Maestro, e uma linha do tempo de sua disponibilidade. A lista não inclui todos os recursos.
+
+Para obter informações sobre novos recursos e quando eles são lançados, consulte [Atividade de lançamento do Maestri](/help/quicksilver/maestro/release-activity.md).
 
 | Recurso | Disponível agora | Disponível em breve | Em pesquisa |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -222,6 +224,8 @@ A seguir estão os principais objetos e conceitos do Maestro:
 
 * **Campos vinculados** (ou campos de pesquisa): depois de estabelecer a conexão entre dois tipos de registro e vincular registros individuais, é possível fazer referência aos campos dos registros vinculados no registro do qual você está se conectando.
 
+  Por exemplo, se você conectar uma campanha do Maestro a um projeto do Workfront, poderá exibir o campo Proprietário do projeto de projetos conectados nos registros de campanha do Maestro.
+
   ![](assets/add-lookup-fields-modal.png)
 
   Para obter informações sobre como vincular tipos de registro, registros e criar campos vinculados, consulte os seguintes artigos:
@@ -268,7 +272,7 @@ A tabela a seguir mostra os limites para quantos objetos você pode criar no Mae
 
 ## Localizar Maestro
 
-Certifique-se de que sua organização recebeu acesso ao Maestro e que seu administrador de sistema ou grupo adicionou a área Maestri ao menu principal.
+Certifique-se de que sua organização recebeu acesso ao Maestro e que seu administrador de sistema ou grupo adicionou a área Maestri ao menu principal. Para obter informações, consulte [Visão geral do Access](/help/quicksilver/maestro/access/access-overview.md) .
 
 Para localizar o Maestro:
 

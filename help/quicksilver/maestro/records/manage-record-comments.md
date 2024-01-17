@@ -4,9 +4,9 @@ description: É possível colaborar em registros Adobe Maestro, adicionando come
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '991'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">Para obter informações sobre a programação de lançamento atual, consulte [Visão geral da versão do primeiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 É possível colaborar em registros Adobe Maestro, adicionando comentários ou respostas na área Comentários de um registro.
 
@@ -144,9 +144,9 @@ O último espaço de trabalho acessado é aberto por padrão.
    >
    >Os comentários do ano atual não exibem o ano no carimbo de data. Passar o mouse sobre um carimbo de data e hora exibe a data completa, incluindo o ano.
 
-1. <span class="preview">(Opcional e condicional) Para pesquisar um comentário existente, comece digitando uma palavra-chave na caixa de pesquisa no canto superior direito do **Comentários** área.</span>
+1. (Opcional e condicional) Para pesquisar um comentário existente, comece digitando uma palavra-chave na caixa de pesquisa no canto superior direito do **Comentários** área.
 
-   <span class="preview">![](assets/search-box-for-comments-area.png)</span>
+   ![](assets/search-box-for-comments-area.png)
 
 1. (Opcional) Clique em **Responder** ou comece a digitar um comentário no campo **Adicionar resposta...** para responder a um comentário existente, siga as etapas 4 a 8 acima. <!--(**************accurate??***********)-->
 

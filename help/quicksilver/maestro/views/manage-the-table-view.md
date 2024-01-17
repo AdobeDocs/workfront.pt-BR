@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '2314'
+source-wordcount: '2316'
 ht-degree: 3%
 
 ---
@@ -204,7 +204,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
       Não é possível usar palavras-chave associadas a campos ocultos na exibição de tabela.
 
-   1. Pressione Enter no teclado para ir para o próximo campo encontrado.
+   1. Pressione **Enter** no teclado para ir para o próximo campo encontrado.
 
    1. (Opcional) Se houver mais de uma correspondência, clique nas setas para cima e para baixo à direita da palavra-chave de pesquisa para localizar todas as correspondências na tabela.
 
@@ -279,7 +279,7 @@ Para adicionar um filtro a uma exibição de tabela:
         </thead>
         <tbody>
         <tr>
-            <td>Linha única, parágrafo </td>
+            <td>Linha única, Parágrafo, Fórmula </td>
             <td><p>Contém</p>
             <p>Não contém</p>
             <p>É</p>
@@ -296,7 +296,7 @@ Para adicionar um filtro a uma exibição de tabela:
             <p>Não está vazio</p></td>
         </tr>
         <tr>
-            <td>Seleção múltipla</td>
+            <td>Multisseleção, Pessoas</td>
             <td><p>Tem qualquer um dos</p>
             <p>Possui todos os</p>
             <p>É exatamente</p>
@@ -305,7 +305,7 @@ Para adicionar um filtro a uma exibição de tabela:
             <p>Não está vazio</p></td>
         </tr>
         <tr>
-            <td>Numérico, porcentagem, moeda</td>
+            <td>Número, Porcentagem, Moeda</td>
             <td><p>=</p>
             <p>≠</p>
             <p> &lt; </p>

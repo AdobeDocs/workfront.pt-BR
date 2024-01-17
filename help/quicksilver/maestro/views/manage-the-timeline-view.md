@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ role: User
 >
 >Entre em contato com seu representante de conta para obter mais informações sobre como participar do programa beta para o Maestro.
 >
->Para obter informações, consulte [Visão geral do Adobe Maestri](../maestro-overview.md).
+>Para obter informações, consulte [Visão geral do Adobe Maestri](/help/quicksilver/maestro/maestro-overview.md).
 
 Você pode exibir registros em uma visualização de linha do tempo, ao acessar a página de tipo de registro no Adobe Maestro.
 
@@ -129,7 +129,12 @@ Para gerenciar uma exibição de linha do tempo:
 
    ![](assets/timeline-view-example.png)
 
-   Os registros associados ao tipo de registro selecionado são exibidos como barras em uma linha do tempo e são classificados em ordem cronológica, por padrão.
+   Os registros associados ao tipo de registro selecionado são exibidos como barras em uma linha do tempo e são classificados em ordem cronológica de sua Data inicial, por padrão.
+
+   >[!TIP]
+   >
+   >    A classificação dos registros na linha do tempo não está visível na exibição Compacta.
+
 
 1. Siga um destes procedimentos para navegar pela linha do tempo:
 
@@ -165,8 +170,8 @@ Para gerenciar uma exibição de linha do tempo:
 1. Atualize os seguintes elementos de exibição conforme descrito nas subseções abaixo:
    * [Filtros](#add-filters)
    * [Agrupamento](#add-grouping)
-     <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
    * [Configurações](#edit-the-timeline-view-settings)
+     <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
 
 ### Adicionar filtros
 

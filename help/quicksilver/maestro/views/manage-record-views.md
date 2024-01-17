@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: daa195b0273a232692fe47691a2926579b87ba6b
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -135,14 +135,13 @@ A tabela a seguir mostra as semelhanças e diferenças entre as visualizações 
 | Copiar linhas de uma lista externa e colá-las em uma tabela | ✓ µ |               |
 | Exibir registros em uma linha do tempo |            | ✓ µ |
 | Filtrar registros | ✓ µ | ✓ µ |
-| Registros de grupo |           | ✓ µ |
+| Registros de grupo | ✓ µ | ✓ µ |
 | Classificar registros | ✓ µ |              |
 | Registros de código de cores |           | ✓ µ |
 | Agrupamentos de código de cores |           | ✓ µ |
-| Pesquisar registros | ✓ µ | ✓ µ |
-
-<!--| Sort groupings                                                        | ✓          | ✓             |-->
-<!--| Display a limited number of fields as columns, by default                      | ✓          |               |-->
+| Pesquisar registros específicos | ✓ µ | ✓ µ |
+| Compartilhar visualização | ✓ µ | ✓ µ |
+| Abrir a página Detalhes do registro na exibição | ✓ µ | ✓ µ |
 
 ## Criar ou editar exibições {#create-or-edit-views}
 
@@ -171,15 +170,11 @@ O espaço de trabalho acessado pela última vez é aberto por padrão. Para obte
    Por padrão, o Maestri nomeia a exibição como &quot;Tabela &lt; número >&quot; ou &quot;Linha do tempo &lt; número >&quot;. O número é um incremento gerado automaticamente.
 
 1. (Opcional) Para renomear uma view após sua criação, clique no menu suspenso exibir e, em seguida, clique na **Mais** menu ![](assets/more-menu.png) > **Renomear** para atualizar o nome da exibição. <!--ensure there is not another saving step here?!-->
-1. (Opcional) Para gerenciar uma exibição, consulte os seguintes artigos para obter mais informações:
+1. (Opcional) Para gerenciar um tipo específico de visualização, consulte os seguintes artigos:
 
    * [Gerenciar a exibição de tabela](../views/manage-the-table-view.md)
    * [Gerenciar a exibição de linha do tempo](../views/manage-the-timeline-view.md)
 
-
-<!--# Add a view as a favorite - this is not possible yet-->
-
-<!-- ## Share views - not possible yet-->
 
 ## Excluir visualizações
 
@@ -202,6 +197,7 @@ O espaço de trabalho acessado pela última vez é aberto por padrão. Para obte
 
 Para obter informações sobre o compartilhamento de exibições, consulte [Compartilhar exibições](/help/quicksilver/maestro/access/share-views.md).
 
+<!--## Add a view as a favorite - this is not possible yet-->
 
 <!--not possible yet - August 30, 2023: 
 

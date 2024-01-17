@@ -6,9 +6,9 @@ description: Você pode adicionar uma atualização em um objeto do Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '4139'
+source-wordcount: '4110'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 1%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">Para obter informações sobre a programação de lançamento atual, consulte [Visão geral da versão do primeiro trimestre de 2024](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 <!--
 After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
@@ -380,10 +380,8 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
 
 1. (Opcional) Para anexar uma imagem à atualização, siga um destes procedimentos:
 
-   * <span class="preview">Salve a imagem no computador e arraste-a e solte-a na área Novo comentário.</span>
-     <span class="preview">Isso não está disponível no ambiente de Produção para a nova experiência de comentários. Arrastar e soltar uma imagem em um comentário está disponível na experiência de comentário herdada na Produção. </span>
-
-   * <span class="preview">Copie uma captura de tela do computador e cole-a no comentário </span>
+   * Salve a imagem no computador e arraste-a e solte-a na área Novo comentário.
+   * Copie uma captura de tela do computador e cole-a no comentário. Isso não está disponível na experiência de comentários herdada.
    * Clique em **Adicionar imagem** ícone ![](assets/add-image-mountain-with-plus-icon.png) e navegue até a imagem no computador.
 
 
@@ -392,7 +390,7 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
    >* O administrador do Workfront deve ativar a adição de imagens na seção Preferências de atualização de feeds da área Interface do Workfront antes que você possa ver os ícones de Imagem ou Adicionar anexo. Para obter informações, consulte [Configurar preferências para atualizações de usuário](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* O tamanho máximo do arquivo de imagem é 7 MB. Os tipos de arquivo de imagem compatíveis são .jpg, .gif e .png.
    >* As imagens podem ser acessadas na seção Atualizações em um objeto e também estão disponíveis na área Documentos do Menu principal.
-   >* <span class="preview">Você pode colar a imagem clicando com o botão direito do mouse no novo comentário ou pressionando CTRL + V para Windows (ou CMD + V para Mac) no teclado.</span>
+   >* Você pode colar a imagem clicando com o botão direito do mouse no novo comentário ou pressionando CTRL + V para Windows (ou ⌘ + V para Mac) no teclado.
    >* É possível enviar uma atualização com uma imagem e nenhum texto.
    >* Quando você exclui um comentário que contém uma imagem, os seguintes cenários existem, dependendo da experiência escolhida:
    >
@@ -404,12 +402,10 @@ Você pode aprimorar suas atualizações usando Rich Text ou adicionando vários
 
 1. (Opcional) Para exibir uma imagem na atualização existente, siga um destes procedimentos:
 
-   * Clique em **Visualizar** ícone <span class="preview">![](assets/previewimageicon-31x31.png)</span> na miniatura da imagem para abrir a imagem em tamanho real em uma nova guia do navegador.
+   * Clique em **Visualizar** ícone ![](assets/previewimageicon-31x31.png) na miniatura da imagem para abrir a imagem em tamanho real em uma nova guia do navegador.
    * Clique em **Baixar** ícone ![](assets/downloadimageicon.png) na miniatura da imagem para baixar a imagem.
 
 1. Clique em **Enviar** para adicionar seu comentário.
-
-<div class="preview">
 
 ## Procurar uma atualização
 
@@ -422,7 +418,11 @@ Você pode procurar um comentário ou uma resposta na seção Atualizações de 
 1. Vá para a **Atualizações** seção de um objeto.
 1. Comece a digitar uma palavra-chave <!--or a user's name --> no **Pesquisar** no canto superior direito da caixa **Comentários** guia.
 
-   <!--Add this tip when it'll be possible: You can search for users who have been tagged or for comment owners.-->
+   <!--Add this tip or note instead of the note below - when it'll be possible: You can search for users who have been tagged or for comment owners.-->
+
+   >[!NOTE]
+   >
+   >   Você pode pesquisar somente palavras que pertençam ao texto de um comentário ou resposta. Não é possível pesquisar nomes de usuários ou equipes marcados em uma atualização.
 
    ![](assets/search-field-in-updates-tab.png)
 
@@ -431,8 +431,6 @@ Você pode procurar um comentário ou uma resposta na seção Atualizações de 
    O Workfront pesquisa todo o fluxo de atualização do objeto, fora dos comentários que estão visíveis na tela.
 
 1. Clique em **x** no campo de pesquisa para limpar os resultados da pesquisa e retornar a todos os comentários.
-
-</div>
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
