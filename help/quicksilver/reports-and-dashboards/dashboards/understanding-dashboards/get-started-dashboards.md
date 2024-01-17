@@ -7,14 +7,16 @@ description: O objetivo de um painel é fornecer acesso rápido às informaçõe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
 
 # Introdução aos painéis
+
+<!-- Audited: 1/2024 -->
 
 O objetivo de um painel é fornecer acesso rápido às informações provenientes de vários relatórios. Primeiro, você pode coletar informações em relatórios e colocar vários relatórios nos painéis para facilitar o acesso às informações.
 
@@ -29,25 +31,25 @@ Você deve ter o seguinte:
  </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>plano do Adobe Workfront*</strong></p> </td> 
-   <td>Qualquer Um</td> 
+   <td> <p><strong>plano do Adobe Workfront</strong></p> </td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Licença da Adobe Workfront*</strong></p> </td> 
-   <td> <p>Revisar ou superior</p> </td> 
+   <td> <p><strong>Licença do Adobe Workfront</strong></p> </td> 
+   <td> <p>Novo: Colaborador ou superior</p><p>Ou</p><p>Atual: revisão ou superior</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Nível de acesso*</strong> </td> 
-   <td> <p>Acesso maior ou igual a relatórios, painéis e calendários</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td><strong>Nível de acesso</strong> </td> 
+   <td> <p>Acesso maior ou igual a relatórios, painéis e calendários</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Permissões de objeto</strong> </p> </td> 
-   <td> <p>Exibir permissões para o painel</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.<br>Para obter mais informações sobre permissões para painéis, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Compartilhar relatórios, painéis e calendários </a>.</p> </td> 
+   <td> <p>Exibir permissões para o painel</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Objetos que você pode adicionar a um painel
 
@@ -85,7 +87,7 @@ Você pode compartilhar um painel com os usuários das seguintes maneiras:
 
 Quando você compartilha um painel com usuários, todos os relatórios, calendários e páginas externas que estão no painel também são compartilhados com os mesmos usuários por padrão.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Se um usuário for excluído, os painéis criados por ele não estarão mais acessíveis. Para saber mais, consulte [Excluir usuários](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
@@ -93,14 +95,14 @@ Quando você compartilha um painel com usuários, todos os relatórios, calendá
 
 Você pode exibir um painel das seguintes maneiras:
 
-* Acesse a seção em que ela é colocada e o painel colocado na seção é exibido.\
+* Acesse a seção personalizada onde o painel é colocado.\
   Para obter mais informações sobre como colocar painéis em seções personalizadas, consulte [Navegação à esquerda no Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
-* Procure por e acesse-o manualmente ao encontrá-lo.
+* Procure e acesse manualmente o painel.
 
 ## Acessar um painel
 
-1. Clique em **Menu principal** ![](assets/main-menu-icon.png)e, em seguida, clique em **Painéis**.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Painéis**.
 1. Passe o mouse sobre a barra lateral esquerda e selecione uma das seguintes opções:
 
    * **Meus Painéis**: os painéis que você criou estão listados aqui.
@@ -110,7 +112,7 @@ Você pode exibir um painel das seguintes maneiras:
      >Se você não tiver o acesso para Editar a Relatórios, Painéis e Calendários no seu nível de acesso, não será possível criar painéis. Nesse caso, a lista Meus painéis está vazia.
 
    * **Painéis compartilhados**: os painéis criados por outros usuários e compartilhados com você são listados aqui.
-   * **Todos os painéis**: os painéis do e de outros usuários compartilhados com você estão listados aqui.
+   * **Todos os painéis**: os painéis e painéis que outros usuários compartilharam com você estão listados aqui.
 
    ![Área de painéis](assets/dashboards-area.png)
 

@@ -1,13 +1,13 @@
 ---
 title: Relatório na área Atualizações
-description: Relatório na área Atualizações
+description: O relatório de Lançamento documentado revela atualizações de sistema da área Atualizações de projetos, tarefas, problemas e outros objetos que antes só estavam disponíveis por meio da API do Adobe Workfront. Embora este seja um relatório avançado destinado a casos de uso específicos, o formato mais simples facilita a criação de relatórios sobre atividades de projeto e atualizações de sistema no Workfront.
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 94c2930d155f38a56fe36e5a09bd29f27d1593f0
 workflow-type: tm+mt
-source-wordcount: '2686'
+source-wordcount: '2765'
 ht-degree: 3%
 
 ---
@@ -38,25 +38,25 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Novo: Padrão </p><p>Ou </p><p>Atual: Plano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a relatórios, painéis, calendários</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a relatórios, painéis, calendários</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões para os objetos que contêm as entradas do diário exibidas no relatório</p> <p>Você obterá permissões de gerenciamento para o relatório após criá-lo</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões para os objetos que contêm as entradas do diário exibidas no relatório</p> <p>Você obterá permissões de gerenciamento para o relatório após criá-lo</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Pré-requisitos
 
@@ -68,7 +68,7 @@ Antes de executar as ações descritas neste artigo, verifique o seguinte:
 
 * Todos os campos personalizados sobre os quais você deseja criar relatórios têm a configuração **Exibir alterações de campo nos campos de atualização** ativado.
 
-  Para saber como habilitar essa configuração para um campo personalizado, consulte a seção [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) no artigo [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Para saber como habilitar essa configuração para um campo personalizado, consulte [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#).
 
 ## Visão geral do relatório de Lançamento
 
@@ -127,7 +127,7 @@ A exibição padrão desse relatório contém as seguintes colunas:
  </tbody> 
 </table>
 
-Para organizar as informações neste relatório, você pode usar o agrupamento incorporado Projeto. O agrupamento de Projeto fornece um agrupamento principal de Nome do Projeto e um agrupamento secundário de Data de Entrada. Você pode aplicar esse agrupamento existente durante a criação do relatório ou pode aplicá-lo ao exibir o relatório.
+Para organizar as informações neste relatório, você pode usar o agrupamento incorporado chamado Projeto. O agrupamento de Projeto fornece um agrupamento principal de Nome do Projeto e um agrupamento secundário de Data de Entrada. Você pode aplicar esse agrupamento existente durante a criação do relatório ou pode aplicá-lo ao exibir o relatório.
 
 Para saber como configurar as exibições, os filtros e os agrupamentos desejados para o relatório, consulte a seção relevante:
 
@@ -167,7 +167,7 @@ Essas informações podem ser usadas para ajudar na auditoria e ilustrar o desem
 >Se você deseja comparar a diferença em dias entre as alterações de condição, é possível usar a Análise aprimorada.\
 >Para saber mais sobre a Análise aprimorada, consulte [Visão geral da análise aprimorada](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Relatórios**.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Relatórios**.
 1. Clique em **Novo Relatório** e selecione **Entrada do diário**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -281,7 +281,7 @@ Você pode configurar o relatório de Lançamento para mostrar:
 
 Para ver quando uma tarefa ou problema foi excluído:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Relatórios**.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Relatórios**.
 1. Clique em **Novo Relatório** e selecione **Entrada do diário**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -325,7 +325,7 @@ Para ver quando uma tarefa ou problema foi excluído:
 
    Para obter mais informações sobre como adicionar colunas, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. No **Filtros** clique em **Adicionar regra de filtro**, em seguida, adicione o seguinte:
+1. No **Filtros** clique em **Adicionar regra de filtro**, em seguida, adicione os seguintes filtros:
 
    * **Alterar tipo** > **Igual** > **Excluir**
    * **ID do projeto** > **Igual** > **`<project>`**
@@ -365,7 +365,7 @@ Para ver quando uma tarefa ou problema foi excluído:
 
 Para ver como os campos personalizados foram alterados durante o ciclo de vida de um projeto:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Relatórios**.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Relatórios**.
 1. Clique em **Novo Relatório** e selecione **Entrada do diário**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -429,7 +429,7 @@ Para ver como os campos personalizados foram alterados durante o ciclo de vida d
 
    Para obter mais informações sobre como adicionar colunas, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. No **Filtros** clique em **Adicionar regra de filtro**, em seguida, adicione o seguinte:
+1. No **Filtros** clique em **Adicionar regra de filtro**, em seguida, adicione os seguintes filtros:
 
    * **Nome do Campo de Entrada do Diário** > **Contém** > **DE**
 
@@ -467,7 +467,7 @@ Para ver como os campos personalizados foram alterados durante o ciclo de vida d
 
 Você pode configurar o relatório Lançamento para mostrar a frequência com que a Data de Conclusão Planejada muda ao longo da vida útil de um projeto.
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Relatórios**.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Relatórios**.
 1. Clique em **Novo Relatório** e selecione **Entrada do diário**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -568,7 +568,7 @@ Você pode configurar o relatório Lançamento para mostrar a frequência com qu
 
 Você pode configurar o relatório Lançamento para mostrar quantas vezes o proprietário do projeto—ou gerente de projeto—muda ao longo da vida útil de um projeto.
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Relatórios**.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Relatórios**.
 1. Clique em **Novo Relatório** e selecione **Entrada do diário**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
