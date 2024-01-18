@@ -9,10 +9,10 @@ description: Com o [!DNL Adobe Campaign Classic] módulos, você pode iniciar um
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 455d439ec2a9034043cac2570851ab2f9fecc276
 workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 1%
+source-wordcount: '1382'
+ht-degree: 0%
 
 ---
 
@@ -61,9 +61,62 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
 
 ## Conectar [!DNL Adobe Campaign Classic] para [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>É altamente recomendável criar uma conexão de servidor para servidor. A Adobe Campaign atualizou a API para aceitar somente conexões servidor para servidor. Se estiver se conectando ao Campaign versão 8 ou superior, você **deve** criar uma conexão servidor a servidor.
+>
+>Para obter mais informações sobre os novos requisitos de conexão do Campaign, consulte [Migração de operadores técnicos do Campaign para o Console do Adobe Developer](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/ims-migration.html) na documentação do Campaign.
+
 1. Em qualquer [!DNL Adobe Campaign Classic] , clique em **[!UICONTROL Adicionar]** ao lado da [!UICONTROL Conexão] campo.
-1. Insira o URL base que você usa para se conectar ao seu [!DNL Adobe Campaign Classic] instância.
-1. Digite seu nome de usuário e senha.
+1. Preencha os seguintes campos:
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[!UICONTROL Tipo de conexão]</td>
+          <td>
+            <p>Selecione se você está criando uma conexão básica ou uma conexão de servidor para servidor.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Nome da Conexão]</td>
+          <td>
+            <p>Insira um nome para esta conexão.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL URL Base]</td>
+          <td>Insira o URL base que você usa para se conectar ao seu [!DNL Adobe Campaign Classic] instância.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Nome de Usuário]</td>
+          <td>Se você estiver criando uma conexão básica, digite seu nome de usuário do Adobe Campaign.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Senha]</td>
+          <td>Se você estiver criando uma conexão básica, digite sua senha do Adobe Campaign.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL ID do Cliente]</td>
+          <td>Se estiver criando uma conexão de servidor para servidor, insira [!DNL Adobe] [!UICONTROL ID do Cliente]. Isso pode ser encontrado na seção [!UICONTROL Credenciais detalhes] do [!DNL Adobe Developer Console].</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Segredo do Cliente]</td>
+          <td>Se estiver criando uma conexão de servidor para servidor, insira [!DNL Adobe] [!UICONTROL Segredo do Cliente]. Isso pode ser encontrado na seção [!UICONTROL Credenciais detalhes] do [!DNL Adobe Developer Console].
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Ambiente]</td>
+          <td>Selecione se você está conectado a um ambiente de Produção ou Não produção.
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Tipo]</td>
+          <td>Selecione se você está se conectando a uma conta de serviço ou a uma conta pessoal.
+        </tr>
+   </tbody>
+    </table>
 1. Clique em **[!UICONTROL Continuar]** para criar a conexão e voltar ao módulo.
 
 ## [!DNL Adobe Campaign Classic] módulos e seus campos
