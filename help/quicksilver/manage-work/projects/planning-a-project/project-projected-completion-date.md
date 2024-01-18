@@ -7,9 +7,9 @@ description: A Data de conclusão projetada é um indicador calculado em tempo r
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: bac9856f3d0946b17e36797262d1a21f093ceadd
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -22,69 +22,40 @@ As seções a seguir descrevem como a Data de conclusão projetada é determinad
 
 ## Requisitos de acesso
 
-<!--drafted for P&P:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
+
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>For current licenses: 
-   <ul><li><p>Contributor or higher to view the Projected Completion Date in a report</p></li> <li><p>A Standard license to create a report</p></li> </ul>
-   
-   <p>For legacy licenses: 
-   <ul><li><p>Review or higher to view the Projected Completion Date in a report</p></li> 
-   <li><p>A Plan license to create a report</p> </li></ul>
+   <p>Novo: 
+   <ul><li><p>Colaborador ou posterior para exibir a Data de conclusão projetada em um relatório</p></li> <li><p>Uma licença Standard para criar um relatório</p></li> </ul>
+
+<p>Atual: 
+   <ul><li><p>Revisar ou posterior para exibir a Data de Término Projetada em um relatório</p></li> 
+   <li><p>Uma licença de plano para criar um relatório</p> </li></ul>
       </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects</p> <p>You must have Edit access to Reports, Dashboards, Calendars to create a report</p> <p>You must have Edit access to Filters, Views, Groupings to create a report or modify a list view</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Revisar ou posterior para exibir a Data de Término Projetada em um relatório</p> <p>Uma licença de plano para criar um relatório</p> </td> 
-  </tr> 
-  <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Acesso de visualização ou superior aos Projetos</p> <p>É necessário ter acesso de Edição a Relatórios, Painéis e Calendários para criar um relatório</p> <p>É necessário ter acesso para Editar filtros, visualizações e agrupamentos para criar um relatório ou modificar uma visualização de lista</p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr> 
+   <td> <p>Acesso de visualização ou superior aos Projetos</p> <p>É necessário ter acesso de Edição a Relatórios, Painéis e Calendários para criar um relatório</p> <p>É necessário ter acesso para Editar filtros, visualizações e agrupamentos para criar um relatório ou modificar uma visualização de lista</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Visualizar ou aumentar as permissões de um projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Visualizar ou aumentar as permissões de um projeto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Como o Adobe Workfront determina a data de conclusão projetada
 
@@ -122,27 +93,23 @@ Os critérios usados para determinar a Data de conclusão projetada diferem, dep
 
 ## Exibir a Data de Término Projetada
 
-Você pode visualizar a Data de conclusão projetada dos projetos, tarefas e problemas nos relatórios. É possível visualizar a Data de conclusão projetada dos projetos e tarefas em outras áreas do Workfront. 
-
-* [Exibir a Data de Término Projetada de um projeto](#view-the-projected-completion-date-of-a-project)
-* [Exibir a Data de Término Projetada de uma tarefa](#view-the-projected-completion-date-of-a-task)
-* [Exibir a data de conclusão projetada de um problema](#view-the-projected-completion-date-of-an-issue)
+Você pode visualizar a Data de conclusão projetada dos projetos, tarefas e problemas nos relatórios. É possível visualizar a Data de conclusão projetada dos projetos e tarefas em outras áreas do Workfront.
 
 ### Exibir a Data de Término Projetada de um projeto {#view-the-projected-completion-date-of-a-project}
 
 1. Vá para o projeto em que deseja exibir a Data de conclusão projetada.
 1. Clique em **Detalhes do projeto** no painel esquerdo.
-1. Localize o **Data de Término Projetada** no campo **Visão geral** seção.
+1. Localize o **Data de Término Projetada** no campo **Visão geral** > **Datas do projeto** seção.
 
 ### Exibir a Data de Término Projetada de uma tarefa {#view-the-projected-completion-date-of-a-task}
 
 1. Vá para a tarefa em que deseja exibir a Data de Conclusão Projetada.
 1. Clique em **Detalhes da tarefa** no painel esquerdo.
-1. Localize o **Data de Término Projetada** no campo **Visão geral** seção.
+1. Localize o **Data de Término Projetada** no campo **Visão geral** > **Datas e restrição de tarefas** seção.
 
 ### Exibir a data de conclusão projetada de um problema {#view-the-projected-completion-date-of-an-issue}
 
-Você pode exibir a Data de conclusão projetada para problemas somente em um relatório de problemas ou em uma exibição em lista. Criar uma visualização de lista é semelhante a criar a visualização em um relatório.
+Você pode exibir a Data de conclusão projetada para problemas somente em um relatório de problemas ou em uma exibição em lista. Criar uma visualização de lista é semelhante a criar a visualização em um relatório.
 
 Para criar um relatório de problemas que inclua a Data de conclusão projetada:
 
