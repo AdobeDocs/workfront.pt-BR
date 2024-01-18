@@ -1,58 +1,59 @@
 ---
-title: 2.4 Melhorias no gerenciamento de recursos
-description: 2.4 Melhorias no gerenciamento de recursos
+title: 22.4 Melhorias no gerenciamento de recursos
+description: 22.4 Melhorias no gerenciamento de recursos
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: cd026fc9-e3be-4cff-8d85-4f50fae9dd77
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
 
-# 2.4 Melhorias no gerenciamento de recursos
+# 22.4 Melhorias no gerenciamento de recursos
 
-Esta página descreve todos os aprimoramentos do Gerenciamento de recursos feitos com a versão 2.4 para o ambiente de Visualização. Esses aprimoramentos serão disponibilizados na semana de 3 de outubro de 2022.
+Esta página descreve todas as melhorias no Gerenciamento de recursos feitas com a versão 22.4 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas na semana de 3 de outubro de 2022.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 22.4, consulte [Visão geral da versão 2.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 22.4, consulte [22.4 Visão geral da versão](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
-## Mostrar todos os usuários do Balanceador de Carga de Trabalho de um projeto
+## Mostrar todos os usuários do Balanceador de carga de trabalho de um projeto
 
-Para permitir que você tenha visibilidade sobre todos os usuários no sistema e sua capacidade sem sair do Balanceador de carga de trabalho de um projeto, adicionamos uma opção &quot;Mostrar todos os usuários&quot;. Quando ativado, o Balanceador de Carga de Trabalho do projeto exibe todos os usuários no sistema na área de Trabalho Atribuído. Com esse aprimoramento, você pode identificar facilmente quem precisa ser atribuído para trabalhar listado na área de Trabalho não atribuído.
+Para permitir que você tenha visibilidade de todos os usuários no sistema e sua capacidade sem sair do Balanceador de carga de trabalho de um projeto, adicionamos a opção &quot;Mostrar todos os usuários&quot;. Quando ativado, o Balanceador de carga de trabalho do projeto exibe todos os usuários no sistema na área Trabalho atribuído. Com esse aprimoramento, você pode identificar facilmente quem precisa ser atribuído ao trabalho listado na área Trabalho não atribuído.
 
-Para obter mais informações, consulte [Atribua trabalho ao Balanceador de Carga de Trabalho arrastando e soltando](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+Para obter mais informações, consulte [Atribuir trabalho no Balanceador de carga de trabalho arrastando e soltando](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
-[Ver uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3412873/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3412873/){target=_blank}
 
-## Mostrar todos os usuários com uma função de trabalho selecionada no Balanceador de Carga de Trabalho ao atribuir trabalho em massa
+## Mostrar todos os usuários com uma função de trabalho selecionada no Balanceador de carga de trabalho ao atribuir trabalho em massa
 
-Para facilitar a localização da pessoa certa ao substituir funções de trabalho por usuários no Balanceador de Carga de Trabalho em massa, melhoramos a forma como a lista de usuários disponíveis é preenchida. Agora, você pode exibir todos os usuários no sistema que podem atender à função selecionada em duas áreas separadas na mesma lista de usuários:
+Para facilitar a localização da pessoa certa ao substituir funções de trabalho por usuários no Balanceador de carga de trabalho em massa, melhoramos a maneira como a lista de usuários disponíveis é preenchida. Agora, você pode visualizar todos os usuários no sistema que podem cumprir a função selecionada em duas áreas separadas na mesma lista de usuários:
 
-* A primeira área (Atribuições sugeridas) exibe usuários identificados pela lógica Atribuições inteligentes . Para obter mais informações, consulte [Visão geral de atribuições inteligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+* A primeira área (Atribuições sugeridas) exibe os usuários identificados pela lógica de Atribuições inteligentes. Para obter mais informações, consulte [Visão geral das atribuições inteligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
 
-* A segunda área (Outras atribuições) exibe todos os usuários que podem atender à função selecionada.
+* A segunda área (Outras Atribuições) exibe todos os usuários que podem desempenhar a função selecionada.
 
-Antes desse aprimoramento, você podia exibir apenas a lista de usuários disponíveis para atribuição de acordo com a lógica de Atribuições inteligentes.
+Antes desse aprimoramento, você poderia visualizar apenas a lista de usuários disponíveis para atribuição de acordo com a lógica de Atribuições inteligentes.
 
-Para obter informações sobre como atribuir trabalho em massa usando o Balanceador de Carga de Trabalho, consulte [Atribua trabalho em massa usando o Balanceador de Carga de Trabalho](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+Para obter informações sobre como atribuir trabalho em massa usando o Balanceador de carga de trabalho, consulte [Atribuir trabalho em massa usando o Balanceador de carga de trabalho](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
-[Ver uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3412874/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3412874/){target=_blank}
 
-## Melhorias no Balanceador de carga de trabalho para usuários de licença de trabalho e configurações de Problemas
+## Aprimoramentos do Balanceador de carga de trabalho para usuários de licença de trabalho e configurações de problemas
 
-Os seguintes aprimoramentos foram adicionados ao Balanceador de carga de trabalho, em preparação para a descontinuação das ferramentas de Agendamento:
+Os seguintes aprimoramentos foram adicionados ao Balanceador de carga de trabalho como preparação para a desativação das ferramentas de Agendamento:
 
-* Os usuários de licença de trabalho agora podem ajustar alocações ao usar o Balanceador de Carga de Trabalho de um projeto
+* Os usuários de licença de trabalho agora podem ajustar alocações ao usar o Balanceador de carga de trabalho de um projeto
 
 * Os problemas são exibidos na área Trabalho não atribuído ao ativar a configuração &quot;Incluir horas de problemas&quot;
 
-Antes desses aprimoramentos, somente os usuários de licença do Plano poderiam ajustar as alocações de usuários e os problemas exibidos somente na área de Trabalho atribuído.
+Antes dessas melhorias, somente os usuários com licença de plano podiam ajustar as alocações e os problemas dos usuários exibidos somente na área Trabalho atribuído.
 
 Para obter mais informações, consulte os seguintes artigos:
 
-* [Navegar pelo Balanceador de Carga de Trabalho](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* [Navegar pelo Balanceador de carga de trabalho](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-* [Gerenciar alocações de usuários no Balanceador de Carga de Trabalho](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+* [Gerenciar alocações de usuário no Balanceador de carga de trabalho](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 

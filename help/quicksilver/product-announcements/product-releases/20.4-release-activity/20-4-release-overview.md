@@ -5,10 +5,11 @@ title: Visão geral da versão 20.4
 description: A versão 20.4 foi disponibilizada no ambiente de Produção na semana de 9 de novembro de 2020. Para obter datas e horas de lançamento específicas para cada cluster, consulte o Site de Status do Workfront.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: 174e1200105a04ae1fa3809c450446e6ff8673b5
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '3666'
+source-wordcount: '3694'
 ht-degree: 0%
 
 ---
@@ -54,7 +55,7 @@ Esta página fornece informações sobre a funcionalidade do Adobe Workfront Cla
    <td> <p><strong>Datas e ambientes de lançamento</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new5" class="MCXref xref" xrefformat="{para}">Novo para administradores: controlar como um campo personalizado é compartilhado</a> </p> <p>Para oferecer maior controle sobre quem pode editar, excluir e usar os campos personalizados criados por você, adicionamos a capacidade de configurar exatamente como deseja compartilhá-los.</p> <p>Até agora, quando você criou um campo personalizado, ele podia ser editado por todos no sistema. Esse ainda é o estado padrão de um campo personalizado, mas agora é possível limitar o compartilhamento de um campo personalizado a determinados usuários, funções, equipes, grupos e empresas. E você pode determinar se seus recipients podem gerenciar ou visualizar somente o campo personalizado.</p> <p>Além disso, para tornar essa experiência familiar para você, projetamos a interface do usuário para que esse recurso seja semelhante a outras áreas de objeto compartilhadas no Workfront.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new5" class="MCXref xref" xrefformat="{para}">Novo para administradores: controlar como um campo personalizado é compartilhado</a> </p> <p>Para oferecer maior controle sobre quem pode editar, excluir e usar os campos personalizados criados por você, adicionamos a capacidade de configurar exatamente como deseja que eles sejam compartilhados.</p> <p>Até agora, quando você criou um campo personalizado, ele podia ser editado por todos no sistema. Esse ainda é o estado padrão de um campo personalizado, mas agora é possível limitar o compartilhamento de um campo personalizado a determinados usuários, funções, equipes, grupos e empresas. E você pode determinar se seus recipients podem gerenciar ou visualizar somente o campo personalizado.</p> <p>Além disso, para tornar essa experiência familiar para você, projetamos a interface do usuário para que esse recurso seja semelhante a outras áreas de objeto compartilhadas no Workfront.</p> </td> 
    <td><strong>Disponível nas seguintes datas:</strong> <p>Versão Beta de pré-visualização: 15 de outubro de 2020</p> <p>Versão de produção: com a versão 20.4</p> <p><strong>Disponível nestes ambientes:</strong> </p> <p>A nova experiência do Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -248,7 +249,7 @@ Esta página fornece informações sobre a funcionalidade do Adobe Workfront Cla
    <td><strong>Disponível nas seguintes datas:</strong> <p>Versão de visualização Beta: a ser definida</p> <p>Versão de produção: com a versão 20.4 <strong>(Adiado para dezembro de 2020 ou início de 2021)</strong></p> <p><strong>Disponível nestes ambientes:</strong> </p> <p>A nova experiência do Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md#get" class="MCXref xref" xrefformat="{para}">Obter ajuda com os comandos do assistente virtual do Workfront Mobile</a> </p> <p>No aplicativo móvel, você pode pedir ao assistente virtual para ajudá-lo com comandos dizendo O que posso fazer?" e "Ajude-me com os comandos".</p> <p>Esses comandos exibem uma lista das coisas diferentes que você pode perguntar ao assistente.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md#get" class="MCXref xref" xrefformat="{para}">Obter ajuda com os comandos do assistente virtual do Workfront Mobile</a> </p> <p>No aplicativo móvel, você pode pedir ao assistente virtual para ajudá-lo com comandos dizendo O que posso fazer?" e "Ajude-me com os comandos".</p> <p>Esses comandos exibem uma lista das coisas diferentes sobre as quais você pode perguntar ao assistente.</p> </td> 
    <td><strong>Disponível nas seguintes datas:</strong> <p>Versão Beta Preview: N/D</p> <p>Versão de produção: com a versão 20.4 </p> <p><strong>Disponível nestes ambientes:</strong> </p> <p>A nova experiência do Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -323,7 +324,7 @@ Para obter mais informações sobre versões de API, consulte [Controle de vers�
 
 Para obter informações sobre as atualizações de manutenção feitas durante a versão 20.3, consulte [Atualizações de manutenção do Workfront](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
-## Avisos
+## Anúncios
 
 * [Descontinuação do Flash](#flash-deprecation)
 * [Webinário da versão 20.4](#20-4-release-webinar)
@@ -356,7 +357,7 @@ Se sua organização usar um firewall, você deverá adicionar os seguintes dom�
 * event.split.io
 * sdk.split.io
 
-Para obter mais informações, consulte [Lista de permissões Configurar o arquivo de pesquisa do firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Para obter mais informações, consulte [Incluir na lista de permissões Configurar o arquivo de pesquisa do firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ### Workfront One {#workfront-one}
 

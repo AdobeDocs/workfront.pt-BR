@@ -5,8 +5,9 @@ title: Preparar-se para um [!DNL Adobe Workfront] versão
 description: Siga estas dicas para atualizar sem problemas sua organização para cada nova versão do Workfront.
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: 062ab8f2acfa2d5c43b333f8ee95fef817fd4fce
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 0%
@@ -122,7 +123,7 @@ Você está em melhor posição para determinar as informações e os recursos m
 Ao se preparar para comunicar informações de lançamento aos usuários, considere a maneira mais eficiente de comunicar essas informações em sua organização. Recomendamos o uso de uma variedade de métodos de comunicação para garantir que você alcance todos os seus usuários. Você pode considerar canais de comunicação como:
 
 * Informativos internos
-* email
+* Email
 * Mensagens do Centro de notificações (encaminhadas de [!DNL Workfront] ou criado por você)
 * Anúncios sobre ferramentas de colaboração, como [!DNL Slack] ou [!DNL Microsoft Teams]
 * Webinários internos ou treinamento

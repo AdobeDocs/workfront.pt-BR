@@ -7,11 +7,12 @@ title: "Atividade de lançamento do Workfront Fusion: semana de 1 de fevereiro d
 description: Esta página descreve todas as melhorias feitas no Adobe Workfront Fusion na semana de 1º de fevereiro de 2021.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: b9e74780-93e1-4cf4-a429-678e5f871594
 hidefromtoc: true
-source-git-commit: c241fe4ae228432ef3fc7ebfaf7874680e039587
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---

@@ -3,41 +3,42 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '"Atividade da versão do Workfront Fusion: Semana de 7 de dezembro de 2020'''
+title: "Atividade de lançamento do Workfront Fusion: semana de 7 de dezembro de 2020"
 description: Esta página descreve todas as melhorias feitas no Adobe Workfront Fusion na semana de 7 de dezembro de 2020.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: fb8275b5-ef37-48cc-bde1-cfd0e065a896
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
 
-# Atividade de lançamento do Workfront Fusion: Semana de 7 de dezembro de 2020
+# Atividade de lançamento do Workfront Fusion: semana de 7 de dezembro de 2020
 
 Esta página descreve todas as melhorias feitas no Adobe Workfront Fusion na semana de 7 de dezembro de 2020.
 
-Para obter uma lista de todas as alterações recentes, consulte [Atividade de versão do Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obter uma lista de todas as alterações recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verifique se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
+Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificar se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
 
-## O conector e os módulos do servidor Jira já estão disponíveis
+## Conector e módulos do Jira Server agora disponíveis
 
-Um novo conector Jira Server está disponível para o Workfront Fusion 2.0. O conector Jira Server oferece a mesma funcionalidade do conector Jira Cloud atual. Com os módulos de servidor Jira, você pode:
+Um novo conector do Jira Server agora está disponível para o Workfront Fusion 2.0. O conector do servidor Jira oferece a mesma funcionalidade que o conector Jira Cloud atual. Com os módulos do Jira Server, você pode:
 
 * Acionar um cenário quando um registro for adicionado, modificado ou excluído
 * Criar, ler, atualizar ou excluir um registro
 * Listar ou pesquisar registros
 * Baixar um anexo
-* Adicionar um problema a uma impressão
-* Efetuar uma chamada de API personalizada
+* Adicionar um problema a um sprint
+* Fazer uma chamada de API personalizada
 
-Anteriormente, os módulos Jira estavam disponíveis apenas para a Jira Cloud.
+Anteriormente, os módulos do Jira estavam disponíveis somente para o Jira Cloud.
 
-Para obter mais informações sobre os módulos Jira disponíveis, consulte [Módulos de software Jira](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md).
+Para obter mais informações sobre módulos Jira disponíveis, consulte [Módulos do Jira Software](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

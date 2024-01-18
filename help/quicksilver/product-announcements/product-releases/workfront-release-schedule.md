@@ -6,8 +6,9 @@ title: Programação e processo de lançamento do Adobe Workfront
 description: O ambiente de Pré-visualização é atualizado uma vez por semana com novos recursos. Esses recursos são comunicados nas notas de versão da próxima versão trimestral.
 author: Alina
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 1ccbab53684928974ef739b0176a6ea893a27320
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 0%

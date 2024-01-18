@@ -1,33 +1,35 @@
 ---
-title: 23.2 Aprimoramentos móveis
-description: 23.2 Aprimoramentos móveis
+title: 23.2 Aprimoramentos em dispositivos móveis
+description: 23.2 Aprimoramentos em dispositivos móveis
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: be47ec2d4118c1816b1babfcc4af2e04f83781af
+recommendations: noDisplay, noCatalog
+exl-id: 08cb5991-ba8e-4444-ab95-b6b85420c4a2
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
 
-# 23.2 Aprimoramentos móveis
+# 23.2 Aprimoramentos em dispositivos móveis
 
-Esta página descreve todas as outras melhorias feitas com a versão 23.2 para o ambiente de visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção com a versão 23.2.
+Esta página descreve todas as outras melhorias feitas na versão 23.2 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão 23.2.
 
-Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo de versão 23.2, consulte [Visão geral da versão 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo de versão 23.2, consulte [23.2 Visão geral da versão](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-## Logon biométrico e coleções de quadros no aplicativo móvel
+## Coleções biométricas de logon e painéis no aplicativo móvel
 
 >[!NOTE]
 >
->Geralmente, esses recursos estarão disponíveis na Apple App Store e na Google Play store na semana de 13 de março. As melhorias gerais de logon estarão disponíveis no início de abril.
+>Esses recursos estarão disponíveis na loja da Apple App Store e da Google Play na semana de 13 de março. As melhorias gerais no logon estarão disponíveis no início de abril.
 
 
-Logon biométrico agora é uma opção para fazer logon mais rápido no aplicativo móvel! Depois que a verificação biométrica for configurada após um logon inicial, os usuários poderão usar impressão digital ou reconhecimento facial para fazer logon novamente rapidamente no aplicativo, com apenas ocasionalmente a reverificação de senha. Além disso, haverá várias melhorias de aparência à experiência geral de logon que chegarão em uma atualização posterior.
+O logon biométrico agora é uma opção para fazer logon mais rápido no aplicativo móvel! Depois que a verificação biométrica for configurada após um logon inicial, os usuários poderão usar o reconhecimento de impressão digital ou facial para fazer logon rapidamente no aplicativo com apenas uma reverificação ocasional de senha. Além disso, haverá várias melhorias na aparência e comportamento da experiência de logon geral, chegando em uma atualização posterior.
 
-Para obter mais informações, consulte [Faça logon em [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+Para obter mais informações, consulte [Efetue logon no [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
 
-As coleções de placas agora também são suportadas no aplicativo móvel, permitindo que os usuários móveis visualizem qualquer coleção à qual tenham acesso na versão desktop, a partir da lista de placas móveis.
+As coleções de quadros agora também são compatíveis com o aplicativo móvel, permitindo que os usuários móveis visualizem quaisquer coleções às quais tenham acesso na versão para desktop da lista de Quadros móveis.
 
-Para obter mais informações, consulte [[!DNL Adobe Workfront] [!UICONTROL Boards] para dispositivos móveis](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
+Para obter mais informações, consulte [[!DNL Adobe Workfront] [!UICONTROL Quadros] para dispositivos móveis](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).

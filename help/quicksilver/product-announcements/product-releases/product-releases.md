@@ -5,11 +5,12 @@ title: Versões do produto
 description: A seguir estão os links para as notas de versão atuais e anteriores.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: 93433076fedf54d72c3e009e2e7949bd0f29ce60
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 14%
+source-wordcount: '218'
+ht-degree: 12%
 
 ---
 
@@ -37,7 +38,7 @@ Para obter informações sobre como ajudar sua organização a se ajustar sem pr
   <tr data-mc-conditions=""> 
    <td> <p>Versões em 2023</p> 
     <ul> 
-    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão do quarto trimestre de 2023</a> </p> <p> Inclui versões: <ul><li>23.8</li><li>23.9</li><li>23.10</li></ul></p>
+    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão do quarto trimestre de 2023</a> </p> <p> Inclui versões: <ul><li>23,8</li><li>23,9</li><li>23,10</li></ul></p>
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md" class="MCXref xref" xrefformat="{para}">23.3 Visão geral da versão</a> </p> </li>
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md" class="MCXref xref" xrefformat="{para}">23.2 Visão geral da versão</a> </p> </li>
     <li> <p><a href="../../product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md" class="MCXref xref" xrefformat="{para}">Visão geral da versão 23.1</a> </p> </li>

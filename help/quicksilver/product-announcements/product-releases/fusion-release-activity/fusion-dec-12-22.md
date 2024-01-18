@@ -3,10 +3,12 @@ title: Atividade de lançamento do Workfront Fusion Semana de 12 de dezembro de 
 description: Atividade de lançamento do Workfront Fusion Semana de 12 de dezembro de 2022
 author: Becky
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
-source-git-commit: 71b60c467b564ab84d8d26228dbfc188fb156907
+exl-id: 404db789-706d-46ae-b14b-023502d287f0
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---

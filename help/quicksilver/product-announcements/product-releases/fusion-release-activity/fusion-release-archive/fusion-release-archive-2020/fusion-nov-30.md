@@ -4,15 +4,16 @@ content-type: release-notes
 product-area: workfront-integrations
 keywords: fusão
 navigation-topic: fusion-release-activity
-title: "Atividade da versão do Workfront Fusion: Semana de 30 de novembro de 2020"
+title: "Atividade de lançamento do Workfront Fusion: semana de 30 de novembro de 2020"
 description: Esta página descreve todas as melhorias feitas no Adobe Workfront Fusion na semana de 30 de novembro de 2020.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 9621683b-735d-40a6-8d7c-b5bd167cbdd2
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -21,13 +22,13 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias feitas no Adobe Workfront Fusion na semana de 30 de novembro de 2020.
 
-Para obter uma lista de todas as alterações recentes, consulte [Atividade de versão do Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obter uma lista de todas as alterações recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verifique se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
+Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificar se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
 
 ## Limite de taxa para webhooks do Workfront Fusion 2.0.
 
-Introduzimos uma nova garantia de desempenho para o Workfront Fusion 2.0. Agora, os webhooks têm um limite de taxa de 100 solicitações por segundo. Quando esse limite é atingido, o Workfront Fusion 2.0 envia um status 429 (Muitas solicitações).
+Introduzimos uma nova proteção de desempenho para o Workfront Fusion 2.0. Agora, os webhooks têm um limite de taxa de 100 solicitações por segundo. Quando esse limite é atingido, o Workfront Fusion 2.0 envia um status 429 (muitas solicitações).
 
 Anteriormente, as solicitações de webhook não eram limitadas.
 
@@ -35,11 +36,11 @@ Para obter mais informações, consulte [Medidas de proteção de desempenho do 
 
 ## Adicionar um formulário personalizado a um objeto do Workfront no Workfront Fusion 2.0
 
-Para permitir que você adicione formulários personalizados a objetos é o Workfront Fusion 2.0, adicionamos uma ação AssignCategories à Workfront > Misc. Módulo de ação.
+Para permitir que você adicione formulários personalizados a objetos é o Workfront Fusion 2.0, adicionamos a ação Atribuir categorias à Workfront > Diversos. Módulo de ação.
 
 Anteriormente, não era possível usar um módulo do Workfront Fusion 2.0 para adicionar um formulário personalizado a um objeto no Workfront.
 
-Para obter mais informações sobre Workfront > Misc. Módulo de ação, consulte [Módulos Adobe Workfront](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Para obter mais informações sobre Workfront > Diversos. Módulo de ação, consulte [Módulos do Adobe Workfront](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

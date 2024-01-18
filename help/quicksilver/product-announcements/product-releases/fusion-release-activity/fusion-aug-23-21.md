@@ -4,11 +4,12 @@ description: 'Atividade de lançamento do Workfront Fusion: &nbsp;Semana de 23 d
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 8630ef90-0b8c-4c68-938d-4875050f78fd
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -17,32 +18,32 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias feitas no Adobe Workfront Fusion na semana de 23 de agosto de 2021.
 
-Para obter uma lista de todas as alterações recentes, consulte [Atividade de versão do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obter uma lista de todas as alterações recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verifique se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
+Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificar se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
 
-## Campos do tipo antecipada agora disponíveis nos módulos Workfront
+## Campos de digitação antecipada agora disponíveis em módulos do Workfront
 
-Para tornar os módulos mais fáceis de usar, algumas listas suspensas foram substituídas por campos typeahead. Agora, em vez de selecionar itens de listas longas, você pode começar a digitar o item e, em seguida, clicar nele quando ele for exibido.
+Para facilitar o uso dos módulos, substituímos algumas listas suspensas por campos de digitação antecipada. Agora, em vez de selecionar itens de listas longas, você pode começar a digitar o item e, em seguida, clicar nele quando ele for exibido.
 
-Anteriormente, os usuários selecionavam itens de listas suspensas. Dependendo do objeto , essas listas podem ser longas e pode ser inconveniente rolar e localizar itens.
+Anteriormente, os usuários selecionavam itens nas listas suspensas. Dependendo do objeto, essas listas podem ser longas e pode ser inconveniente rolar e localizar itens.
 
-Para obter mais informações sobre módulos Workfront, consulte [Módulos Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Para obter mais informações sobre módulos do Workfront, consulte [Módulos do Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
-## O objeto de registro de cobrança agora está disponível nos módulos Workfront
+## O objeto de registro de cobrança agora está disponível nos módulos do Workfront
 
-O objeto de registro Faturamento está disponível nas listas suspensas de seleção de objetos nos seguintes módulos:
+O objeto de registro de Faturamento está disponível nas listas suspensas de seleção de objeto nos seguintes módulos:
 
-* Registro de monitoramento
+* Assistir ao registro
 * Excluir registro
 * Criar registro
-* Ler Registro
+* Ler registro
 * Atualizar registro
-* Registro de pesquisa
+* Pesquisar registro
 
-Anteriormente, o objeto de registro de cobrança só estava disponível por meio de mapeamento.
+Anteriormente, o objeto de registro de cobrança só estava disponível por meio do mapeamento.
 
-Para obter mais informações, consulte [Módulos Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Para obter mais informações, consulte [Módulos do Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

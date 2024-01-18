@@ -4,10 +4,11 @@ description: 23.1 Melhorias na agilidade
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4bd041a5-a6e3-4fe3-ae23-45980701e904
-source-git-commit: f0e21f9b2846c5665474903a2910ce9f41cdf810
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---

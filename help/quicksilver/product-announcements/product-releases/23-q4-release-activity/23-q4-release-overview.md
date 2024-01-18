@@ -3,10 +3,11 @@ title: Visão geral da versão do quarto trimestre de 2023
 description: Visão geral da versão do quarto trimestre de 2023
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2772'
 ht-degree: 0%
 
 ---
@@ -780,9 +781,9 @@ Descontinuaremos oficialmente o aplicativo móvel Proof com a versão 23.10. O a
 
 Observe que o aplicativo móvel Workfront requer um logon Workfront. Usuários externos e convidados podem continuar a usar o aplicativo Prova para trabalho de prova; no entanto, ele não é mais compatível e ficará indisponível com a versão 23.10.
 
-#### Fluxos de trabalho removidos em contas que não os usam
+#### Fluxos de trabalho removidos para contas que não os usam
 
-Para contas que nunca criaram um fluxo de trabalho em Quadros do Adobe Workfront, a área Fluxos de trabalho foi removida do painel Quadros a partir de 11 de outubro de 2023. As contas que usam fluxos de trabalho ainda têm acesso a eles. A funcionalidade aprimorada do scrum será abordada em versões futuras.
+Para contas que nunca criaram um fluxo de trabalho em Quadros do Adobe Workfront, a área Fluxos de trabalho foi removida do painel Quadros a partir de 11 de outubro de 2023. As contas que usam fluxos de trabalho ainda têm acesso a elas. A funcionalidade aprimorada do scrum será abordada em versões futuras.
 
 <!-- HTML you might need
 

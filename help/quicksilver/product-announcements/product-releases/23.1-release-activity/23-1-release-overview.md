@@ -4,10 +4,11 @@ description: Visão geral da versão 23.1
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2435'
+source-wordcount: '2461'
 ht-degree: 0%
 
 ---
@@ -495,7 +496,7 @@ O webinário de lançamento do 23.1 foi realizado na terça-feira, 10 de janeiro
             </tbody>
         </table>
 
-## Avisos
+## Anúncios
 
 ### Aprimoramentos do Workfront Fusion
 

@@ -4,24 +4,25 @@ description: 'Atividade de lançamento do Workfront Fusion: &nbsp;Semana de 7 de
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 4cc64bf6-98a4-4a92-b8d5-0c1e5e293171
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
 
-# Atividade de lançamento do Workfront Fusion: Semana de 7 de fevereiro de 2022
+# Atividade de lançamento do Workfront Fusion: semana de 7 de fevereiro de 2022
 
 Esta página descreve todas as melhorias feitas no Adobe Workfront Fusion na semana de 7 de fevereiro de 2022.
 
-Para obter uma lista de todas as alterações recentes, consulte [Atividade de versão do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obter uma lista de todas as alterações recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verifique se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
+Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificar se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
 
-## O conector e os módulos Anaplan já estão disponíveis
+## Conector e módulos Anaplan agora disponíveis
 
 Agora você pode usar o Adobe Workfront Fusion para se conectar à sua conta Anaplan. Com os módulos Anaplan, você pode
 
@@ -43,10 +44,10 @@ Para obter mais informações, consulte [Módulos Anaplan](../../../workfront-fu
 </div>
 -->
 
-## Vá diretamente para o Editor de Cenário ao criar um cenário
+## Ir diretamente para o Editor de Cenários ao criar um cenário
 
-Para tornar o processo de criação de cenário mais simples, removemos a página de seleção de aplicativo. Agora, você pode ir diretamente para o Editor de cenário e selecionar o aplicativo ao qual deseja se conectar na lista exibida ao adicionar um módulo.
+Para tornar o processo de criação de cenário mais suave, removemos a página de seleção de aplicativo. Agora, você pode ir diretamente para o Editor de cenários e selecionar o aplicativo ao qual deseja se conectar na lista exibida ao adicionar um módulo.
 
-Anteriormente, você podia selecionar aplicativos na página de seleção do aplicativo, bem como na lista.
+Anteriormente, você podia selecionar aplicativos na página de seleção de aplicativos, assim como na lista.
 
-Para obter mais informações sobre a seleção de aplicativos para o seu cenário, consulte [Criar um cenário no Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).
+Para obter mais informações sobre como selecionar aplicativos para o seu cenário, consulte [Criar um cenário no Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).

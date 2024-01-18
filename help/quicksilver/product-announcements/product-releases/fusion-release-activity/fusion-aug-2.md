@@ -1,25 +1,26 @@
 ---
-title: Atividade de lançamento do Workfront Fusion:&nbsp;Semana de 2 de agosto de 2021
-description: Atividade de lançamento do Workfront Fusion:&nbsp;Semana de 2 de agosto de 2021
+title: 'Atividade de lançamento do Workfront Fusion: &nbsp;Semana de 2 de agosto de 2021'
+description: 'Atividade de lançamento do Workfront Fusion: &nbsp;Semana de 2 de agosto de 2021'
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 051fb2b6-336e-432c-b2cb-0286e5bdf168
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
 
-# Atividade de lançamento do Workfront Fusion: Semana de 2 de agosto de 2021
+# Atividade de lançamento do Workfront Fusion: semana de 2 de agosto de 2021
 
 Esta página descreve todas as melhorias feitas no Adobe Workfront Fusion na semana de 2 de agosto de 2021.
 
-Para obter uma lista de todas as alterações recentes, consulte [Atividade de versão do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obter uma lista de todas as alterações recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verifique se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
+Para obter uma lista de correções de erros recentes no Workfront Fusion, consulte o [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificar se há atualizações rotuladas como Atualização de manutenção do Workfront Fusion.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -48,18 +49,19 @@ Para obter uma lista de correções de erros recentes no Workfront Fusion, consu
 
 Duas novas funções agora estão disponíveis no painel de mapeamento.
 
-* Nova função de data e hora: dateDiferença
+* Nova função de data e hora: dateDifference
 
-   Para facilitar o cálculo dos intervalos de tempo em seus cenários, adicionamos a nova função de data e hora de &quot;diferença de data&quot;. Essa função utiliza duas datas ou horas e uma unidade de tempo e retorna a quantidade de tempo entre as datas ou horas, expressa na unidade de tempo escolhida.
+  Para facilitar o cálculo dos intervalos de tempo em seus cenários, adicionamos a nova função de data e hora &quot;dateDifference&quot;. Esta função usa duas datas ou horas e uma unidade de tempo e retorna a quantidade de tempo entre as datas ou horas, expressa na unidade de tempo escolhida.
 
-   Anteriormente, a diferença de data e hora podia ser calculada somente por uma fórmula inserida pelo usuário.
+  Anteriormente, a diferença de data e hora podia ser calculada somente por uma fórmula inserida pelo usuário.
 
-   Para obter mais informações, consulte [Funções de data e hora no Adobe Workfront Fusion](../../../workfront-fusion/functions/date-and-time-functions.md).
+  Para obter mais informações, consulte [Funções de data e hora no Adobe Workfront Fusion](../../../workfront-fusion/functions/date-and-time-functions.md).
 
-* Nova função de matriz: arrayDiferença
+* Nova função de matriz: arrayDifference
 
-   Essa função utiliza dois arrays e retorna um novo array. Você pode selecionar o tipo de nova matriz que o módulo retorna:
+  Esta função usa duas matrizes e retorna uma nova matriz. Você pode selecionar o tipo de nova matriz que o módulo retorna:
 
-   * Uma matriz de elementos de uma matriz que não estão contidos na outra
-   * Uma matriz de elementos que estão contidos em uma matriz ou na outra, mas não em ambas.
-   Para obter mais informações, consulte [Funções de storage no Adobe Workfront Fusion](../../../workfront-fusion/functions/array-functions.md).
+   * Uma matriz de elementos de uma matriz que não está contida na outra
+   * Uma matriz de elementos que estão contidos em uma matriz ou outra, mas não em ambas.
+
+  Para obter mais informações, consulte [Funções de matriz no Adobe Workfront Fusion](../../../workfront-fusion/functions/array-functions.md).

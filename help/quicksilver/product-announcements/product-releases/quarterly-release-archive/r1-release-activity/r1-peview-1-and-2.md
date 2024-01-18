@@ -5,10 +5,11 @@ title: Visualização 1 e 2 do R1
 description: Esta página descreve todas as alterações disponíveis no ambiente de Pré-visualização com as versões R1.1 e R1.2. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 19 de janeiro de 2017.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1143'
 ht-degree: 2%
 
 ---
@@ -109,13 +110,13 @@ Agora você pode compartilhar o URL nos seguintes objetos no aplicativo móvel d
 * Projetos
 * Tarefas
 * Problemas
-* Folhas de horas
+* Planilhas de horas
 * Documentos
 
 Você pode compartilhar um URL de um objeto nos seguintes aplicativos:
 
 * Mensagem de texto
-* email
+* Email
 * Unidade de armazenamento (por exemplo, iCloud Drive)
 * Outro aplicativo instalado (por exemplo, Notes, Facebook)
 * Você pode copiar um link para o objeto na área de transferência e colá-lo posteriormente em qualquer outro aplicativo. 

@@ -4,10 +4,11 @@ description: Visão geral da versão 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2751'
+source-wordcount: '2769'
 ht-degree: 0%
 
 ---
@@ -444,7 +445,7 @@ No lugar de um webinário de lançamento, convidamos você a se registrar no Ado
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Painéis de tela</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Painéis do Canvas</a></p>
                         <p>Painéis de tela foram adicionados como um recurso de trabalho em andamento para Painéis que pode ser ativado em modelos de layout. Os Painéis da Tela de Pintura permitirão que as visualizações da Tela de relatório sejam combinadas com os relatórios existentes, além de novas opções de layout. Atualmente, somente os relatórios de lista são compatíveis, mas mais opções serão adicionadas à medida que o desenvolvimento continuar.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -624,7 +625,7 @@ No lugar de um webinário de lançamento, convidamos você a se registrar no Ado
             </tbody>
         </table>
 
-## Avisos
+## Anúncios
 
 ### Aprimoramentos do Workfront Fusion
 

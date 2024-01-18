@@ -3,9 +3,11 @@ title: 23.3 Aprimoramentos de integração
 description: 23.3 Aprimoramentos de integração
 author: Lisa
 feature: Product Announcements
-source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
+recommendations: noDisplay, noCatalog
+exl-id: d24ddc8a-fe96-4e9b-8186-0b54ab9ab213
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---

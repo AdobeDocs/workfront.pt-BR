@@ -3,9 +3,11 @@ title: Quarto trimestre de 2023 Outras melhorias
 description: Quarto trimestre de 2023 Outras melhorias
 author: Lisa
 feature: Product Announcements
-source-git-commit: ee84471418590401fe143741cadd1d76a8917149
+recommendations: noDisplay, noCatalog
+exl-id: ebea1a04-8a08-40d3-a096-c0dc8f917c36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -21,4 +23,3 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 Para informar melhor os Contribuidores/Solicitantes sobre os recursos disponíveis com um tipo de licença paga do Workfront, agora é possível ver todas as opções disponíveis no menu principal. As opções indisponíveis para os colaboradores estão esmaecidas.
 
 Para obter mais informações sobre o menu principal, consulte [Visão geral da barra de navegação superior](/help/quicksilver/workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
-

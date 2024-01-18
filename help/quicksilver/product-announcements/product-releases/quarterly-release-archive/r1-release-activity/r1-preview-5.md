@@ -5,10 +5,11 @@ title: Visualização 5 do R1
 description: Esta página descreve todas as alterações disponíveis no ambiente de Visualização com a versão R1 Preview 5. A funcionalidade nesta página foi disponibilizada no ambiente de Pré-visualização em 16 de março de 2017.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1288'
 ht-degree: 13%
 
 ---

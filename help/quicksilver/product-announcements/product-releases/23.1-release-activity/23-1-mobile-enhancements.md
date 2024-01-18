@@ -1,40 +1,41 @@
 ---
-title: 23.1 Aprimoramentos móveis
-description: 23.1 Aprimoramentos móveis
+title: Aprimoramentos do 23.1 Mobile
+description: Aprimoramentos do 23.1 Mobile
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 5fb7236c-c1fa-4a9a-9b4e-67a28dbaf6d2
-source-git-commit: 97db4e7bb5c1428c9a2d20b1ec80734b73ba8b4a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
 
-# 23.1 Aprimoramentos móveis
+# Aprimoramentos do 23.1 Mobile
 
-Esta página descreve todas as melhorias de dispositivos móveis feitas com a versão 23.1 para o ambiente de visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção na semana de 16 de janeiro de 2023.
+Esta página descreve todas as melhorias móveis feitas com a versão 23.1 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 16 de janeiro de 2023.
 
 Para obter uma lista de todas as alterações disponíveis com a versão 23.1, consulte [Visão geral da versão 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
-## As placas agora estão disponíveis no aplicativo móvel
+## Quadros agora está disponível no aplicativo móvel
 
 >[!NOTE]
 >
->Geralmente, esses recursos estarão disponíveis na Apple App Store e na Google Play Store em meados de janeiro de 2023.
+>Esses recursos estarão disponíveis no Apple App Store e na Google Play Store em meados de janeiro de 2023.
 
-As placas Adobe Workfront agora estão disponíveis no aplicativo móvel! Você pode acessar as placas diretamente da tela inicial e ver todas as placas às quais você tem acesso na versão para desktop do Workfront. Em um quadro específico, é possível visualizar e editar todas as colunas e cartões. Os detalhes do cartão incluem nome, descrição, coluna, destinatários, status, data de vencimento, estimativa, tags e itens da lista de verificação. As placas ad hoc e conectadas são visíveis na placa.
+Os Adobe Workfront Boards agora estão disponíveis no aplicativo móvel! Você pode acessar placas diretamente na tela inicial e ver todas as placas às quais tem acesso na versão para desktop do Workfront. Em um quadro específico, você pode exibir e editar todas as suas colunas e cartões. Os detalhes do cartão incluem nome, descrição, coluna, responsáveis, status, data de vencimento, estimativa, tags e itens da lista de verificação. As placas ad hoc e conectadas estão visíveis na placa.
 
 Os recursos adicionais incluem:
 
 * Adicionar um cartão ad hoc a uma coluna
 * Selecionar e arrastar cartões entre colunas
 * Pesquisar no quadro
-* Filtrar o quadro por membro ou tag
+* Filtrar o painel por membro ou tag
 * Visualize a coluna de entrada e mova os cartões da coluna de entrada para o quadro
 
-Todas as mudanças feitas nas colunas e nos cartões no aplicativo também se refletem na versão para desktop da placa. No momento, você só pode abrir suas desktop boards e não pode criar novas placas no aplicativo.
+Quaisquer alterações feitas em colunas e cartões no aplicativo também são refletidas na versão para desktop da placa. No momento, você só pode abrir suas desktop boards e não pode criar novos fóruns no aplicativo.
 
 Os seguintes artigos serão atualizados quando o aplicativo for lançado nas lojas de aplicativos:
 
