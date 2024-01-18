@@ -2,34 +2,34 @@
 product-area: projects
 navigation-topic: issue-information
 title: Atualizar prioridade do problema
-description: Você pode definir uma prioridade para um problema para indicar a importância do mesmo.
+description: Você pode definir uma prioridade para uma ocorrência para indicar a importância da ocorrência.
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '369'
 ht-degree: 2%
 
 ---
 
 # Atualizar prioridade do problema
 
-Você pode definir uma prioridade para um problema para indicar a importância do mesmo.
+Você pode definir uma prioridade para uma ocorrência para indicar a importância da ocorrência.
 
-Você deve ter permissões de gerenciamento para modificar a Prioridade do problema.  [Atualizar a prioridade de um problema](#update-the-priority-of-an-issue).
+Você deve ter permissões de gerenciamento para o problema para modificar a Prioridade do problema.  [Atualizar a prioridade de um problema](#update-the-priority-of-an-issue).
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p>Qualquer Um </p> </td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -37,27 +37,27 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a problemas</p> <p>Observação: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Editar acesso a ocorrências</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para o problema</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões do problema</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
-## Visão geral das prioridades da questão
+## Visão geral das prioridades do problema
 
 Cada rótulo de prioridade tem um número associado que não pode ser modificado.
 
-Os administradores do Adobe Workfront podem modificar rótulos de prioridade no Workfront ou podem criar novas prioridades. Como resultado, as opções que você pode ter para o campo Prioridade na sua instância do Workfront podem ser diferentes das listadas abaixo.
+Os administradores do Adobe Workfront podem modificar os rótulos de prioridade no Workfront ou criar novas prioridades. Como resultado, as opções que você pode ter para o campo Prioridade na instância do Workfront podem ser diferentes das listadas abaixo.
 
-Familiarize-se com a sequência de numeração das prioridades usadas na organização.\
+Você deve se familiarizar com a sequência de numeração das prioridades usadas em sua organização.\
 Por exemplo, sua organização pode usar o número 1 para se referir a tarefas urgentes, se o rótulo da prioridade tiver sido modificado.
 
-Para obter mais informações sobre como personalizar os nomes das prioridades em sua instância, consulte [Criar e personalizar prioridades](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+Para obter mais informações sobre como personalizar os nomes das prioridades na sua instância, consulte [Criar e personalizar prioridades](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
 Consulte a tabela a seguir para entender cada rótulo de prioridade padrão e seu número correspondente:
 
@@ -67,7 +67,7 @@ Consulte a tabela a seguir para entender cada rótulo de prioridade padrão e se
  <thead> 
   <tr> 
    <th>Rótulo de prioridade <br>(Pode ser modificado) </th> 
-   <th>Número de prioridade <br>(Não pode ser modificado) </th> 
+   <th>Número de Prioridade <br>(Não pode ser modificado) </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -97,18 +97,16 @@ Consulte a tabela a seguir para entender cada rótulo de prioridade padrão e se
 ## Atualizar a prioridade de um problema {#update-the-priority-of-an-issue}
 
 1. Vá para o problema cuja prioridade você deseja modificar.
-1. Clique em **Detalhes do problema** no painel esquerdo.
+1. Clique em **Detalhes do problema** no painel esquerdo.
 
-   ![](assets/nwe-issue-details-left-panel-highlighted-350x207.png)
+   A variável **Visão geral** deve ser exibida por padrão.
 
-   O **Visão geral** deve ser exibida por padrão.
-
-1. Clique no botão **Prioridade** no campo **Informações básicas** área.
+1. Clique em **Prioridade** no campo **Informações básicas** área.
 
    ![](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
 
 1. Selecione um valor para a variável **Prioridade** campo.
 
-   Dependendo de como o administrador do Workfront configurou as prioridades em seu sistema, as opções podem variar.
+   Dependendo de como o administrador do Workfront configurou as Prioridades no sistema, as opções podem variar.
 
-1. Clique em **Salvar alterações**.
+1. Clique em **Salvar alterações**.

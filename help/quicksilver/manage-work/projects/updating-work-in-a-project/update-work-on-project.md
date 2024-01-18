@@ -8,7 +8,7 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 6f7793f4-93e4-46b5-86f4-6ebede289ccb
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # Atualizar trabalho em um projeto: índice do artigo
+
+<!--Audited: 01/2024-->
 
 Para atualizar o status e o progresso de um projeto, você deve atualizar o status e o progresso em suas tarefas. Isso acaba sendo acumulado para mostrar o progresso do projeto.
 

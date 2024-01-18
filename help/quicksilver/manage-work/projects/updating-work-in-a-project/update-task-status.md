@@ -6,9 +6,9 @@ description: Você pode atualizar o status de uma tarefa para informar a outras 
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '652'
 ht-degree: 1%
 
 ---
@@ -23,37 +23,6 @@ Você pode atualizar manualmente os status das tarefas ou permitir que o Workfro
 
 ## Requisitos de acesso
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 Você deve ter o seguinte acesso para atualizar tarefas manualmente:
 
 <table style="table-layout:auto"> 
@@ -61,27 +30,28 @@ Você deve ter o seguinte acesso para atualizar tarefas manualmente:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Novo: Padrão</p> 
+   Ou
+   <p>Atual: trabalho ou superior</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a tarefas</p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a tarefas</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para a tarefa</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para a tarefa</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront. Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Considerações sobre a atualização do Status das tarefas
 
@@ -94,20 +64,54 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
 ## Atualizar manualmente o status da tarefa
 
-Quando estiver atualizando um status de tarefa, você também poderá digitar uma explicação sobre o novo status e alterar outras informações da tarefa, como a data de vencimento.
+Você pode atualizar o status da tarefa nas seguintes áreas do Workfront:
 
-1. Vá para uma tarefa atribuída para a qual deseja atualizar o status.
+* O cabeçalho da tarefa na página da tarefa.
+* A caixa Editar tarefa, ao editar uma tarefa.
+* A seção Detalhes da Tarefa na página da tarefa.
+* Em uma lista de tarefas ou relatório, quando o campo Status estiver visível na exibição.
+* No painel Resumo da tarefa.
+
+Para atualizar manualmente o status da tarefa no cabeçalho da tarefa:
+
+1. Vá para uma tarefa para a qual deseja atualizar o status.
 1. Clique em **Status** no cabeçalho da tarefa e selecione um novo status.
-1. (Opcional) Siga qualquer um destes procedimentos para fornecer informações adicionais sobre a atualização e, em seguida, clique em **Atualizar** ou, se a tarefa tiver o **Concluído** status, clique em **Concluído:**
+1. Para fornecer uma indicação visual da conclusão da tarefa, arraste ou clique duas vezes na bolha em **Percentual Completo** no cabeçalho da tarefa
 
-   * Para adicionar uma observação sobre a atualização, acesse o **Atualizações** e clique em **Iniciar uma nova atualização**, em seguida, digite a nota.
+   Ou
 
-   * Para notificar determinados usuários sobre a atualização, digite seus nomes no campo **Notificar** que aparece quando você digita uma observação sobre a atualização. Para obter mais informações, consulte [Marcar outros usuários em atualizações](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Para atualizar a condição da tarefa, clique em **Selecionar condição** à direita do **Notificar** (elas são exibidas quando você digita uma observação sobre a atualização) e, em seguida, selecione a condição que melhor reflete a condição atual da tarefa.
+   Clique dentro da bolha no cabeçalho da tarefa para inserir uma porcentagem.
 
-   * Para atualizar a Data de confirmação da tarefa, expanda a variável **Data de confirmação** e selecione uma nova Data de confirmação.
-   * Para fornecer uma indicação visual da conclusão da tarefa, arraste a bolha em Percentual concluído ou clique duas vezes nela para inserir um valor percentual.\
-     ![](assets/drag-the-progress-bar-350x155.png)
+   ![](assets/percent-complete-status-widgets-task-header.png)
+
+1. (Opcional) Siga qualquer um destes procedimentos para fornecer informações adicionais sobre a atualização:
+
+   * Para adicionar uma observação sobre a atualização, acesse o **Atualizações** e clique em **Novo comentário**, em seguida, digite uma nota.
+
+     ![](assets/add-update-to-task.png)
+
+   * Para notificar determinados usuários sobre a atualização, digite seus nomes no campo **Marcar pessoas ou equipes** que aparece quando você digita um comentário. Para obter mais informações, consulte [Marcar outros usuários em atualizações](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * Para atualizar a Data de confirmação da tarefa, clique em **Detalhes da tarefa**, em seguida, edite o **Data de confirmação** campo. Para obter informações, consulte [Editar tarefas](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
+
+   >[!IMPORTANT]
+   >
+   >  Somente os atribuídos da tarefa podem atualizar a Data de confirmação.
+
+<!--old functionality in old commenting: 
+
+1. Go to a task that you are assigned to for which you want to update the status.
+1. Click the **Status** field in the task header and select a new status. 
+1. (Optional) Do any of the following to provide additional information about the update, then click **Update** or, if the task has the **Complete** status, click **Done:**
+
+   * To add a note about the update, go to the **Updates** area and click **Start a new update**, then type your note.  
+
+   * To notify certain users about the update, type their names in the **Notify** box that appears when you type a note about the update. For more information, see [Tag others on updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md). 
+   * To update the condition of the task, click **Select Condition** to the right of the **Notify** box (these appear when you type a note about the update), then select the condition that best reflects the current condition of the task.
+   
+   * To update the Commit Date of the task, expand the **Commit Date** drop-down calendar, and select a new Commit Date. 
+   * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
+     ![](assets/drag-the-progress-bar-350x155.png)-->
 
 ## Atualizar automaticamente o status da tarefa
 
@@ -123,9 +127,9 @@ O Workfront atualiza automaticamente o status existente de uma tarefa para um st
  <col> 
  <tbody> 
   <tr> 
-   <td>Ação</td> 
-   <td>Status Original</td> 
-   <td>Novo Status</td> 
+   <td><b>Ação</b></td> 
+   <td><b>Status Original</b></td> 
+   <td><b>Novo Status</b></td> 
   </tr> 
   <tr> 
    <td>Atualizar o percentual concluído da tarefa para 100%</td> 
@@ -139,7 +143,7 @@ O Workfront atualiza automaticamente o status existente de uma tarefa para um st
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>Clique no botão Iniciar tarefa para aceitar trabalhar em uma tarefa atribuída a você</span> </td> 
-   <td><span>Novo(a)</span> </td> 
+   <td><span>Novo</span> </td> 
    <td> <p>Qualquer status associado ao botão Iniciar Tarefa nas configurações da Equipe Doméstica.</p> <p>Para obter informações sobre como substituir o botão Trabalhar na tarefa por um botão Iniciar tarefa, consulte <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Substitua o botão Trabalhar na tarefa por um botão Iniciar</a></span>.</p> <p>Dica: <span>Clicando</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">o botão Desfazer</span>depois de clicar em Iniciar tarefa, o status é revertido para Novo. </p> </td> 
   </tr> 
  </tbody> 

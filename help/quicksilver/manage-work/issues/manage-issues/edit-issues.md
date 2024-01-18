@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '2504'
-ht-degree: 3%
+source-wordcount: '2506'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um </p> </td> 
+   <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -77,8 +77,6 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
    ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. (Opcional) Para editar informações limitadas sobre um problema, clique em **Detalhes do problema** no painel esquerdo.
-
-   ![](assets/qs-issue-details-icon-highlighted-and-expanded-on-issue-350x206.png)
 
    >[!NOTE]
    >
@@ -169,7 +167,7 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
       <td role="rowheader">Prioridade</td> 
       <td> <p>Este é um sinalizador visual para você que permite priorizar problemas.</p> <p>Selecione entre as seguintes opções:</p> 
        <ul> 
-        <li> <p><strong>Nenhum(a)</strong> </p> </li> 
+        <li> <p><strong>Nenhum</strong> </p> </li> 
         <li> <p><strong>Baixa</strong> </p> </li> 
         <li> <p><strong>Normal</strong> </p> </li> 
         <li> <p><strong>Alta</strong> </p> </li> 
@@ -195,10 +193,10 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
       <td role="rowheader">Tipo</td> 
       <td> <p>De acordo com as Propriedades da fila selecionadas pelo gerente do projeto na área Detalhes da fila do projeto, talvez seja possível especificar o tipo de problema. Selecione entre as seguintes opções no <b>Tipo</b> menu suspenso: </p> 
        <ul> 
-        <li> <p><strong>Registro de Defeito</strong> </p> </li> 
+        <li> <p><strong>Relatório de erros</strong> </p> </li> 
         <li> <p><strong>Pedido de alteração</strong> </p> </li> 
         <li> <p><strong>Problema</strong> </p> </li> 
-        <li> <p><strong>Solicitar</strong> </p> </li> 
+        <li> <p><strong>Solicitação</strong> </p> </li> 
        </ul> <p>Dependendo das Preferências do projeto selecionadas pelo administrador do Workfront, os nomes dos tipos de problemas podem ser diferentes para você.</p> </td> 
      </tr> 
      <tr> 
@@ -237,7 +235,7 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
       <td role="rowheader">Resolvido por</td> 
       <td> <p>Isso mostra se o problema foi resolvido por outro objeto. Você pode selecionar se esse problema é resolvido por uma tarefa, um projeto ou outro problema no menu suspenso e, em seguida, começar a digitar o nome da tarefa, do projeto ou do problema que resolverá o problema. Selecione-o quando ele aparecer na lista.</p>
 
-   <b>Nota</b>
+   <b>NOTA</b>
 
    Quando você seleciona um objeto para resolver um problema, o status do problema é vinculado ao status do objeto de resolução e não pode ser alterado no problema. Para obter mais informações sobre a resolução de objetos, consulte <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Visão Geral de Objetos Resolventes e Resolvíveis </a>.
 
@@ -377,7 +375,7 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
     </tbody> 
    </table>
 
-1. Clique em **Salvar.**
+1. Clique em **Salve.**
 
 ## Editar um problema no cabeçalho do problema (limitado)
 

@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1522'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -99,11 +99,10 @@ To create an issue on a task or a project:
 1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
 1. Click the **Issues** section.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
-
+   
 1. Click **New Issue**.
 
-   ![](assets/qs-issue-list-on-project-with-new-issue-button-highlighted-350x270.png)
+  
 
 1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
    For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -155,9 +154,9 @@ Para criar um problema em uma tarefa ou um projeto:
 1. (Opcional) Se quiser registrar o problema de uma tarefa, vá para a **Tarefas** e clique no nome de uma tarefa.
 1. Clique em **Problemas** seção.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
+   A lista de problemas do projeto é exibida
 
-1. Clique em **Nova Problema**.
+1. Clique em **Nova Problema** na parte superior da lista de problemas.
 A caixa Nova ocorrência é exibida.
 
    ![](assets/new-issue-box-matches-new-request-ui.png)
@@ -219,8 +218,8 @@ Para criar problemas em linha:
 
 1. Vá para um projeto em que deseja criar o problema.
 1. (Opcional) Se quiser registrar o problema de uma tarefa, vá para a **Tarefas** e clique no nome de uma tarefa.
-1. Clique em **Problemas** seção.
-1. Clique em **Adicionar mais problemas**.
+1. Clique em **Problemas** no painel esquerdo.
+1. Clique em **Adicionar mais problemas** na parte inferior da lista de problemas.
 
    Uma nova linha é criada na lista de problemas na seção Problemas.
 
