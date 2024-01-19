@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '3499'
+source-wordcount: '3526'
 ht-degree: 0%
 
 ---
@@ -334,24 +334,18 @@ Para obter informações gerais sobre o uso da área Início, consulte as seguin
 
 #### Registrar horas em um item de trabalho na nova área Página inicial
 
+Você pode registrar o tempo em qualquer objeto em qualquer um dos widgets usando o painel Resumo. Para obter informações, consulte a [Painel Resumo](#summary-panel) neste artigo.
+
+Além disso, para registrar o tempo para um item no widget Meu trabalho:
+
 1. Chegou ao **Início** área.
-1. Adicione qualquer um dos seguintes widgets:
+1. Adicione o **Meu trabalho** para a sua Página inicial.
+1. Selecione uma tarefa, problema ou solicitação em uma lista e clique em **Trabalhar na tarefa**
+1. Passe o mouse sobre a tarefa ou problema para o qual deseja registrar o tempo e clique no link **Registro de tempo** ícone ![](assets/log-time-icon-in-new-home.png) à direita das informações da tarefa.
 
-   * Minhas tarefas
-   * Meus problemas
-   * Meu trabalho
-   * Minhas solicitações
-1. Selecione uma tarefa, problema ou solicitação em uma lista e clique em **Resumo**
+   ![](assets/log-time-ui-for-task-from-new-home.png)
 
-   Ou
-
-   Clique em **Resumo** ícone ![](assets/open-summary-icon-in-home.png) de uma tarefa ou um problema no widget Meu trabalho.
-
-   O painel Resumo é aberto à direita.
-
-   ![](assets/log-time-new-home-my-work-widget.png)
-1. Continue a registrar o tempo no painel Resumo, conforme descrito em [Visão geral do resumo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
-
+1. Clique em **Registrar tempo**.
 
 #### Registrar o tempo em um item de trabalho na área inicial herdada
 

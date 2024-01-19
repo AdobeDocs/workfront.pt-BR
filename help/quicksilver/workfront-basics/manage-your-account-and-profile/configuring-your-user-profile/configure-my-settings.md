@@ -6,10 +6,10 @@ description: Seu [!DNL Adobe Workfront] o perfil contém informações sobre voc
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '3246'
-ht-degree: 1%
+source-wordcount: '3301'
+ht-degree: 0%
 
 ---
 
@@ -340,7 +340,9 @@ Especifique o que deseja exibir no [!DNL Workfront] nesta seção.
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Mostrar porcentagem concluída no status de atualização]</strong> </td> 
-   <td>Marque esta caixa de seleção para exibir uma barra de porcentagem no campo [!UICONTROL atualizar status] de tarefas, de modo que você possa atualizar a porcentagem concluída de uma tarefa enquanto está inserindo uma atualização de tarefa.</td> 
+   <td>Marque essa opção se desejar exibir uma barra de porcentagem concluída na área Atualizações das tarefas ao usar a experiência de comentários herdada. Para obter informações, consulte <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nova experiência de comentários</a>.
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Enviar trabalho atribuído a mim mesmo para minha guia Trabalhando em]</strong> </td> 
@@ -358,7 +360,7 @@ Especifique o que deseja exibir no [!DNL Workfront] nesta seção.
 
 Especifique de quais notificações você deseja receber [!DNL Workfront]. Para obter mais informações sobre como configurar notificações, consulte [Modificar suas próprias notificações por email](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-### [!UICONTROL Acesso]
+### [!UICONTROL Access]
 
 Seu acesso e outros componentes associados a ele são configurados pelo [!DNL Workfront] administrador, quando sua conta estiver configurada.
 

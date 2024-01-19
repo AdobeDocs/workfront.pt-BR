@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Editar perfis de usuário em massa
 description: Como administrador do Adobe Workfront, você pode editar contas de usuário em massa.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '2363'
+source-wordcount: '2387'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,6 @@ Você pode editar contas de usuário em massa. Ao editar usuários em massa, som
 >* Para garantir a precisão dos dados e o desempenho ideal, recomendamos que você selecione no máximo 2000 usuários de uma só vez para uma edição em massa.
 >
 
-
 ## Requisitos de acesso
 
 Você deve ter o seguinte para executar as etapas deste artigo:
@@ -44,7 +43,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront</td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
@@ -79,7 +78,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
        <ul> 
         <li><b>Fuso Horário:</b> O fuso horário dos usuários.</li> 
         <li><b>Localidade</b>: o local preferencial dos usuários. Isso afeta o formato de números e datas nos emails que vêm do Workfront.</li> 
-        <li><b>Mostrar o percentual concluído em atualização de status</b>: marque esta opção se desejar exibir uma barra de porcentagem concluída dentro do fluxo de atualização de tarefas para todos os usuários.</li> 
+        <li><b>Mostrar o percentual concluído em atualização de status</b>: marque esta opção se desejar exibir uma barra de porcentagem concluída na área de atualização das tarefas de todos os usuários, ao usar a experiência de comentários herdada. Para obter informações, consulte <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nova experiência de comentários</a>.</li> 
         <li><b>Enviar trabalho que eu atribuir a mim mesmo para minha guia Trabalhando em</b>: marque esta opção se desejar que tudo o que os usuários atribuírem a si mesmos apareça diretamente na guia Trabalhando em. O padrão é listar tudo atribuído a um usuário em sua guia Solicitação de trabalho.</li> 
        </ul> </td> 
      </tr> 
@@ -165,14 +164,14 @@ Você deve ter o seguinte para executar as etapas deste artigo:
        <li> <p><b>Função Primária</b>: essa é a principal função de trabalho que um usuário tem no Workfront. Todas as tarefas e problemas aos quais os usuários estão atribuídos também são atribuídos a essa função de trabalho, por padrão. As funções de trabalho são essenciais no gerenciamento de recursos. Para obter mais informações sobre funções, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Criar e gerenciar funções de trabalho</a></p> <p>Você só poderá atualizar esse campo se tiver uma licença de Plano com acesso de usuário administrativo ou se for um administrador do Workfront. Para obter mais informações sobre a configuração de usuários com acesso de usuário administrativo, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </li> 
        <li>(Condicional) Se você selecionou um <b>Função Primária</b>, o <b>Porcentagem de Disponibilidade de FTE</b> é exibido. Especifique que porcentagem de tempo dos agendamentos dos usuários está alocada para esta função de trabalho. O valor padrão para o Percentual de Disponibilidade de FTE para a Função Principal é 100%.</li> 
        <li> <p><b>Outras Funções</b>: os usuários podem ter várias funções de trabalho no Workfront. As funções de trabalho são essenciais no gerenciamento de recursos. Não há limite para quantas funções de trabalho um usuário pode realizar. No entanto, recomendamos não atribuir um usuário a um número excessivamente grande de funções de trabalho, pois o gerenciamento de recursos pode se tornar muito complexo para esses usuários.</p> <p>Para obter mais informações sobre funções, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Criar e gerenciar funções de trabalho</a>.</p> <p>Você só poderá atualizar esse campo se tiver uma licença de Plano com acesso de usuário administrativo ou se for um administrador do Workfront. Para obter mais informações sobre a configuração de usuários com acesso de usuário administrativo, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </li> 
-       <li> <p>(Condicional) Se você selecionou um ou vários <b>Outras Funções</b>, o <b>Porcentagem de Disponibilidade de FTE</b> é exibido para cada função. Especifique que porcentagem de tempo dos cronogramas dos usuários está alocada para cada função de trabalho. O valor padrão para a Porcentagem de Disponibilidade FTE para as Outras Funções é 0%.</p> <p><b>Nota</b>:  
+       <li> <p>(Condicional) Se você selecionou um ou vários <b>Outras Funções</b>, o <b>Porcentagem de Disponibilidade de FTE</b> é exibido para cada função. Especifique que porcentagem de tempo dos cronogramas dos usuários está alocada para cada função de trabalho. O valor padrão para a Porcentagem de Disponibilidade FTE para as Outras Funções é 0%.</p> <p><b>NOTA</b>:  
        <ul> 
        <li>Se Outras Funções tiverem 0% de Disponibilidade FTE, elas não serão exibidas no Planejador de Recursos, a menos que os usuários sejam atribuídos a tarefas nessas funções.</li> 
        <li> <p>A soma de todas as Porcentagens de Disponibilidade de FTE para todas as funções deve ser igual a 100%. Cada Porcentagem de Disponibilidade de FTE calcula as Horas Disponíveis para cada função por usuário no Planejador de Recursos. As Horas Disponíveis para cada função por usuário dependem do tempo disponível para o usuário.</p> <p>O tempo disponível para o usuário é calculado pelo Workfront, dependendo do método selecionado pelo administrador do Workfront para calcular o FTE nas Preferências de gerenciamento de recursos.</p> <p>Para obter mais informações sobre como calcular a disponibilidade do usuário, consulte <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Visão geral do cálculo de horas e FTE para usuários e funções no Planejador de recursos</a>.</p> <p>Para obter mais informações sobre a configuração das preferências do Gerenciamento de recursos, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurar preferências de gerenciamento de recursos</a>.</p> </li> 
        </ul> </p> </li> 
        <li> <p><b>Agendar</b>: associe um agendamento aos usuários. O agendamento dos usuários calcula a linha do tempo das tarefas às quais os usuários estão atribuídos.</p> <p>Um administrador do Workfront ou um administrador de grupo deve criar um agendamento antes de ser associado aos usuários.</p> <p>Selecione um agendamento de nível de sistema ou de grupo para atribuí-lo aos usuários selecionados.</p> <p>Para obter mais informações sobre programações em nível de sistema e de grupo, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Criar um agendamento</a>.</p> <p><b>IMPORTANTE</b>: o Workfront usa a programação de um usuário somente quando a configuração Calcular Disponibilidade de Recurso Usando está definida como A Programação do Usuário. Para obter informações sobre como a definição Calcular Disponibilidade de Recursos Usando afeta qual programação é usada para o Gerenciamento de Recursos, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurar preferências de gerenciamento de recursos</a>.</p> </li> 
        <li> <p><b>Perfil da Planilha de Horas</b>: associe um Perfil de folha de horas aos usuários. Isso garante que as folhas de horas sejam geradas automaticamente para os usuários.</p> 
-       <p><b>Nota</b>:  
+       <p><b>NOTA</b>:  
        <ul> 
        <li>A lista de perfis de planilha de horas que você tem disponíveis neste campo depende do seu acesso:
        <ul>

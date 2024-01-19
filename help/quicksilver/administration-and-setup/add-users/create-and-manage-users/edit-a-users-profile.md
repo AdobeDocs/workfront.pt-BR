@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '3369'
+source-wordcount: '3381'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
       <p>Essa opção está disponível somente nos ambientes Pré-visualização e Sandbox. As notificações por email estão ativadas no ambiente de Produção por padrão. </p>
       </li>
 
-   <li><b>Mostrar o percentual concluído em atualização de status</b>: marque esta opção se desejar exibir uma barra de porcentagem concluída na área de Atualização das tarefas deste usuário.</li> 
+   <li><b>Mostrar o percentual concluído em atualização de status</b>: marque esta opção se desejar exibir uma barra de porcentagem concluída na área de Atualização das tarefas deste usuário, ao usar a experiência de comentário herdada. Para obter informações, consulte <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nova experiência de comentários</a>.</li> 
        <li><b>Enviar trabalho que eu atribuir a mim mesmo para minha guia Trabalhando em</b>: marque esta opção se desejar que tudo o que o usuário atribuir a si mesmo seja exibido diretamente na lista Em execução na área Página inicial. O padrão é listar tudo atribuído a um usuário nas listas Pronto para iniciar ou Não pronto na área Página inicial.</li> 
        <li><b>Gerar provas automaticamente ao carregar documentos</b>: marque esta opção se desejar que os documentos carregados pelo usuário gerem uma prova imediatamente. </li>
        </ul> </td> 

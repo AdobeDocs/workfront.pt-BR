@@ -6,9 +6,9 @@ description: Você pode copiar uma tarefa de um projeto para outro ou duplicar u
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1736'
 ht-degree: 1%
 
 ---
@@ -60,7 +60,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -135,7 +135,7 @@ Além de copiar tarefas em uma lista de tarefas, você também pode copiar uma t
 
 1. Encontre uma tarefa em seu sistema Workfront procurando por ela.
 1. Clique no nome da tarefa para abri-la.
-1. Clique em **Mais** menu suspenso ![](assets/qs-more-menu.png) ao lado do nome da tarefa e clique em **Copiar** **para**.
+1. Clique em **Mais** menu suspenso ![](assets/qs-more-menu.png) ao lado do nome da tarefa e clique em **Copiar para**.
 
    ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
 

@@ -7,15 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1317'
 ht-degree: 2%
 
 ---
 
 # Nova experiência de comentários
 
+<!--take out legacy, preview, prod references from below-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
 
@@ -56,13 +57,15 @@ Entre as melhorias incluídas na nova experiência de comentários estão as seg
 * Indicador em tempo real quando novos comentários são adicionados a um objeto
 * Edição de comentários após o envio
 
-Os seguintes recursos foram removidos da nova experiência:
+Os seguintes recursos foram removidos ou serão descontinuados da nova experiência:
 
 * Comentar em uma atualização do sistema
-* Capacidade de editar status, condição e data de confirmação ao comentar
+* Capacidade de editar status, condição, data de confirmação e porcentagem concluída ao comentar tarefas e problemas
 * Editar formulário personalizado
 * A informação &quot;em nome de &lt; user name >&quot; quando um administrador de Workfront ou grupo faz logon como outro usuário e adiciona um comentário em nome dele foi originalmente removida. Ele foi restabelecido em 19 de outubro de 2023.
 * A opção &quot;Solicitar aprovação&quot; ao marcar pessoas ao adicionar um comentário a um documento.
+* A configuração &quot;Mostrar o percentual concluído na atualização do status&quot; ao editar a caixa de perfil de um usuário será removida. A funcionalidade de atualizar o percentual concluído de uma tarefa ou problema foi removida.
+* A notificação para o Proprietário do projeto na área Atualizações informando que o destinatário de uma tarefa ou problema editou a data de confirmação <!--ensure this is correct when re remove the legacy and leave only new commenting-->
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 

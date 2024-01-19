@@ -4,9 +4,9 @@ description: Em Adobe Maestri, você pode criar campos de fórmula que usam fun�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ Além disso, suportamos as seguintes expressões para campos de fórmula Maestri
    </td></tr>
      <tr> 
    <td><strong>ID</strong> </td> 
-   <td> <p>Retorna a ID de um registro.</p> <p>A expressão é formatada da seguinte maneira:
+   <td> <p>Retorna a ID de um registro. Cada registro tem uma ID exclusiva.</p> <p>A expressão é formatada da seguinte maneira:
 
 <code>{ID}</code>
 </p>
