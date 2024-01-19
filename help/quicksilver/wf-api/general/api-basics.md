@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 362a14c2c25e995d06a26b77ab51448b033bc2ac
 workflow-type: tm+mt
-source-wordcount: '4475'
+source-wordcount: '4361'
 ht-degree: 0%
 
 ---
@@ -361,11 +361,11 @@ Você pode recuperar campos de dados personalizados usando o prefixo &quot;DE:&q
 Alguns tipos de objeto têm pesquisas nomeadas que são executadas com frequência e estão disponíveis ao anexar o nome da consulta ao final do URI do tipo de objeto. Por exemplo, a solicitação a seguir recupera os itens de trabalho (tarefas e problemas) aos quais o usuário está atribuído no momento:
 <pre>/attask/api/v15.0/work/myWork</pre>As consultas nomeadas suportam a solicitação do parâmetro de campos para recuperar campos adicionais. Algumas consultas nomeadas também aceitam filtros adicionais. Para obter uma lista de consultas nomeadas permitidas para um objeto, consulte a guia Ação para o objeto no [API Explorer](../../wf-api/general/api-explorer.md).
 
-#### Uso do Filtro de Contagem
+#### Usar `Count`
 
-Você pode especificar o número de resultados que deseja que sejam retornados por uma determinada pesquisa. Isso permite que o servidor processe a solicitação mais rapidamente e economize largura de banda. Por exemplo, a solicitação
+Você pode usar `count` para retornar o número de resultados que correspondem à sua consulta. Isso pode ser útil quando você não precisa dos dados nos resultados. Ao retornar apenas a contagem, o servidor pode processar a solicitação mais rapidamente e economizar largura de banda. Por exemplo, a solicitação
 <pre>GET /attask/api/v15.0/project/count?status=CUR</pre>retorna o número de resultados no seguinte formato:
-<pre>{<br>    "count": 3 <br>}</pre>Esse resultado é um download muito menor do que se os objetos completos forem enviados. A sintaxe do filtro é idêntica ao comando search.
+<pre>{<br>    "count": 3 <br>}</pre>Retornar uma contagem é uma transferência de dados muito menor do que se os objetos completos forem retornados. A sintaxe é idêntica ao comando search.
 
 ### Solicitar um relatório
 
@@ -409,7 +409,7 @@ Para garantir o desempenho ideal, a tabela a seguir mostra as limitações impos
   </tr> 
   <tr> 
    <td>Número máximo de resultados</td> 
-   <td>2,000</td> 
+   <td>2.000</td> 
    <td>O filtro de query (ou seja, $$LIMIT) não pode retornar mais de 2000 resultados. Consulte "Respostas paginadas" para obter mais informações.</td> 
   </tr> 
   <tr> 
@@ -419,12 +419,12 @@ Para garantir o desempenho ideal, a tabela a seguir mostra as limitações impos
   </tr> 
   <tr> 
    <td>Número máximo de objetos</td> 
-   <td>50,000</td> 
+   <td>50.000</td> 
    <td>O conjunto de resultados não pode incluir 50000 objetos principais e secundários.</td> 
   </tr> 
   <tr> 
    <td>Número máximo de campos</td> 
-   <td nowrap>1,000,000</td> 
+   <td nowrap>1.000.000</td> 
    <td>Quando o conjunto de resultados tiver menos de 50.000 objetos, seus resultados poderão incluir no máximo 1.000.000 campos.</td> 
   </tr> 
   <tr> 
