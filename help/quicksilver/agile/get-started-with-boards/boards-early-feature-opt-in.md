@@ -7,25 +7,20 @@ description: Leia este artigo para saber mais sobre [!DNL Workfront Boards] acei
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
 
 # Aceitação antecipada de recursos para [!DNL Adobe Workfront] [!UICONTROL Quadros]
 
-Placas com cartões ad hoc e conectados estão disponíveis para todos os usuários, e estamos animados em abrir recursos adicionais de placas para a inclusão antecipada de recursos a partir de julho de 2022.
+A aceitação antecipada de recursos para [!DNL Adobe Workfront] [!UICONTROL Quadros] foi lançado em julho de 2022.
 
 [!DNL Adobe Workfront] [!UICONTROL Quadros] são ferramentas flexíveis que permitem a colaboração em equipe, fornecendo acesso a um quadro compartilhado que contém colunas e cartões.
 
 Para obter informações gerais sobre quadros, consulte [[!UICONTROL Quadros] visão geral](/help/quicksilver/agile/boards-overview.md).
-
-## Programação de lançamento
-
-* Lançamento antecipado do opt-in de recursos na Pré-visualização: 22 de julho de 2022
-* Lançamento oficial: 28 de julho de 2022
 
 ## Recursos
 
@@ -138,8 +133,8 @@ A tabela a seguir descreve os principais recursos das placas, juntamente com o s
    <td>Lançado</td>
   </tr>
   <tr>
-   <td>Importar subtarefas como itens da lista de verificação em cartões</td>
-   <td>Planejado</td>
+   <td>Importar subtarefas em cartões</td>
+   <td>Lançado</td>
   </tr>
   <tr>
    <td>Personalizar a exibição de campos em um cartão</td>
@@ -163,7 +158,7 @@ A tabela a seguir descreve os principais recursos das placas, juntamente com o s
   </tr>
   <tr>
    <td>Migrar cartões Kanban herdados para Quadros</td>
-   <td>Esse recurso estará disponível na Produção em 18 de maio de 2023 e não faz parte da aceitação antecipada de recursos.</td>
+   <td>Esse recurso está disponível na Produção em 18 de maio de 2023 e não faz parte da aceitação antecipada de recursos.</td>
   </tr>
   <tr>
    <td>Criar painéis dinâmicos</td>
@@ -198,7 +193,8 @@ Os recursos iniciais dos conselhos de administração estão disponíveis para t
 
 Somente [!DNL Workfront] os administradores podem optar pelos recursos antecipados dos painéis de discussão. Quando um [!DNL Workfront] o administrador habilita recursos antecipados, todos os usuários na organização são aceitos.
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Quadros]**.
+{{step1-to-boards}}
+
 1. Clique em ![Aceitação antecipada de recursos](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Aceitação antecipada de recursos]) na parte superior da tela do painel.
 1. Clique em **[!UICONTROL Ativar]**.
 1. Comece a usar os recursos iniciais dos quadros.
@@ -228,6 +224,7 @@ No entanto, a [!DNL Workfront] O administrador pode ocultar a opção Quadros da
 
 Somente [!DNL Workfront] os administradores podem recusar o recebimento de recursos antecipados. Se um [!DNL Workfront] O administrador desativa os recursos iniciais, todos os usuários na organização optam por não participar.
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Quadros]**.
+{{step1-to-boards}}
+
 1. Clique em ![Aceitação antecipada de recursos habilitada](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Aceitação antecipada de recursos habilitada]) na parte superior da tela do painel.
 1. Clique em **[!UICONTROL Desativar]**.
