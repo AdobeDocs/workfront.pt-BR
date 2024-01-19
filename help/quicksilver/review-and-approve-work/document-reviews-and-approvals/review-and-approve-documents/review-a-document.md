@@ -6,16 +6,14 @@ description: Como revisor, você pode visualizar um documento que foi enviado a 
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 9a5780010e32526282255dd8a54e6ae22c5f0c55
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
 # Revisar um documento
-
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente Visualização da sandbox.</span>
 
 Como revisor, você pode exibir um documento enviado a você para revisão. Ao contrário de uma aprovação, você não toma uma decisão. Em vez disso, você confirma que revisou o ativo.
 
@@ -33,7 +31,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -72,7 +70,7 @@ Add once functionality is added
    Clique em **Baixar** para baixar uma cópia local do documento no seu dispositivo.
 
 1. (Opcional) Depois de revisar o documento, você pode deixar um comentário para o solicitante no **Atualizações** seção. Para obter mais informações sobre comentários, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. <span class="preview">Para registrar que você concluiu sua revisão, clique em **Concluir revisão**.</span>
+1. Para registrar que você concluiu sua revisão, clique em **Concluir revisão**.
 
 ## Revisar um documento no painel Resumo do documento
 
@@ -93,4 +91,4 @@ Add once functionality is added
 1. (Opcional) Depois de revisar o documento, você pode deixar um comentário para o solicitante no **Atualizações** seção. Para obter mais informações sobre comentários, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Opcional) Também é possível visualizar ou baixar uma versão específica do documento rolando até o menu **Versões** do painel Resumo do documento, clicando no ícone Mais ![](../assets/more-icon.png) ao lado da versão que você deseja revisar e selecionar **Baixar** ou **Visualizar**.
-1. <span class="preview"> Para registrar que você concluiu sua revisão, clique em **Concluir revisão**.</span>
+1. Para registrar que você concluiu sua revisão, clique em **Concluir revisão**.
