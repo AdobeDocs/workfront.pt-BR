@@ -7,16 +7,16 @@ description: Por padrão, um cenário é executado a cada 15 minutos. Você pode
 author: Becky
 feature: Workfront Fusion
 exl-id: bce89abe-ec37-4705-a88f-de62c8b27f49
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: f5549be5951a2648d6a77d25bebbd4141f18d36c
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 1%
+source-wordcount: '580'
+ht-degree: 0%
 
 ---
 
 # Agendar um cenário no [!DNL Adobe Workfront Fusion]
 
-Por padrão, um cenário é executado a cada 15 minutos. Você pode alterar isso definindo quando e com que frequência um cenário ativado é executado.
+Por padrão, um cenário é executado a cada 15 minutos. Você pode alterar isso definindo quando e com que frequência um cenário ativado é executado. Os cenários de fusão podem ser agendados para execução com uma frequência de até 5 minutos.
 
 ## Requisitos de acesso
 
