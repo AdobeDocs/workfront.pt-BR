@@ -5,9 +5,9 @@ title: Visão geral das datas de Projeto, Tarefa e Problema no [!DNL Adobe Workf
 description: Visão geral das datas de Projeto, Tarefa e Problema no [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: db9193c7593ec6ce361c020b70ed02e79742eb9b
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Você pode indicar manualmente quando o trabalho é concluído em uma tarefa ou 
 * O status do projeto, tarefa ou problema muda para [!UICONTROL Concluído], [!UICONTROL Fechado]ou [!UICONTROL Resolvido].
 * A porcentagem concluída da tarefa ou do projeto é 100%.
 
-A variável [!UICONTROL Data de término efetivo] de um projeto coincide com a data em que a primeira tarefa do projeto é concluída.
+A variável [!UICONTROL Data de término efetivo] de um projeto coincide com a data em que você concluiu a última tarefa do projeto.
 
 >[!TIP]
 >
@@ -112,10 +112,6 @@ A variável [!UICONTROL Data de confirmação] é a data em que um usuário atri
 >
 >Alteração do [!UICONTROL Data de confirmação] afeta o [!UICONTROL Data de Término Projetada] mas não o [!UICONTROL Data de Término Planejada] de uma tarefa ou um problema. O gerente de projeto pode usar as alterações que um destinatário faz na variável [!UICONTROL Data de confirmação] para atualizar o [!UICONTROL Data de Término Planejada] de uma tarefa ou um problema.
 
-![](assets/commit-date-on-task-details-highlighted-nwe-350x193.png)
-
-![](assets/commit-date-in-updates-stream-on-task-nwe-350x344.png)
-
 ## [!UICONTROL Data de Início Projetada]
 
 A variável [!UICONTROL Data de Início Projetada] é uma data em tempo real em que o projeto, tarefa ou problema leva em conta todos os atrasos. Esta é uma Data de Início mais precisa para o projeto, tarefa ou problema do que a [!UICONTROL Data de Início Planejada]. A variável [!UICONTROL Data de Início Planejada] O não leva em conta atrasos ou datas passadas.
@@ -132,7 +128,7 @@ Para obter mais informações, consulte [Visão geral do projeto [!UICONTROL Dat
 
 ![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
 
-## P[!UICONTROL Data de Término Projetada]
+## [!UICONTROL Data de Término Projetada]
 
 A variável [!UICONTROL Data de Término Projetada] é um indicador calculado em tempo real de quando o projeto, tarefa ou problema será concluído. Quando o projeto, tarefa ou problema for marcado como Concluído, a variável [!UICONTROL Data de Término Projetada] alterações à data da [!UICONTROL Data de término efetivo].
 
@@ -146,24 +142,28 @@ Para obter mais informações, consulte [Visão geral do [!UICONTROL Data de Té
 
 Quando você registra o tempo para projetos, tarefas e problemas para indicar quanto tempo real (em horas) você gasta trabalhando no projeto, tarefa ou problema, o tempo que você registra se torna o [!UICONTROL Horas efetivas] do projeto, tarefa ou problema.
 
-A data para a qual você registra a hora é a data [!UICONTROL Data de Entrada da Hora] na entrada de hora.
+A data para a qual você registra a hora é a data [!UICONTROL Data de Entrada da Hora] na entrada de hora. Algumas listas e relatórios de horas exibem a Data de entrada da hora como Data.
 
 >[!TIP]
 >
 >A variável [!UICONTROL Data de Entrada da Hora] é diferente do [!UICONTROL Data de entrada] na medida em que não é a data em que o log de horas foi criado, mas a data à qual você deseja associar as horas.
 
-Você pode registrar horas na variável [!UICONTROL projeto], [!UICONTROL tarefa]ou [!UICONTROL Atualizações de problemas] ou na seção [!UICONTROL Horas] seção . Ao registrar tempo na variável [!UICONTROL Horas] , você pode especificar manualmente a Data de entrada da hora e o usuário ao qual as horas pertencem.
+Você pode registrar e visualizar o tempo nas seguintes áreas do Workfront:
 
-Para obter mais informações, consulte [Registrar tempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
+* Registrar e exibir tempo no [!UICONTROL projeto], [!UICONTROL tarefa]ou [!UICONTROL Atualizações de problemas] ou na seção [!UICONTROL Horas] seção. Ao registrar tempo na variável [!UICONTROL Horas] , você pode especificar manualmente a Data de entrada da hora e o usuário ao qual as horas pertencem.
 
->[!TIP]
->
->Recomendamos registrar tempo em tarefas e problemas de trabalho, em vez de tarefas ou projetos principais. O tempo registrado nas tarefas de trabalho é acumulado nas tarefas pai e no projeto como [!UICONTROL Horas efetivas] para as tarefas pai e o projeto. O tempo registrado em problemas é acumulado no projeto como [!UICONTROL Horas efetivas] para o projeto.
+  ![](assets/log-time-box-task-hours-section-nwe-350x500.png)
 
-![](assets/log-time-box-task-hours-section-nwe-350x500.png)
+  Para obter mais informações, consulte [Registrar tempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-![](assets/log-time-in-update-stream-task-nwe-350x185.png)
+  >[!TIP]
+  >
+  >Recomendamos registrar tempo em tarefas e problemas de trabalho, em vez de tarefas ou projetos principais. O tempo registrado nas tarefas de trabalho é acumulado nas tarefas pai e no projeto como [!UICONTROL Horas efetivas] para as tarefas pai e o projeto. O tempo registrado em problemas é acumulado no projeto como [!UICONTROL Horas efetivas] para o projeto.
 
-É possível exibir a [!UICONTROL Datas de entrada de horas] em relatórios de horas e listas.
+* Registrar o tempo no fluxo de atualização de uma tarefa ou problema.
 
-![](assets/hour-entry-date-in-view-nwe-350x173.png)
+  ![](assets/log-time-in-update-stream-task-nwe-350x185.png)
+
+* Exibir o [!UICONTROL Datas de entrada de horas] em relatórios de horas e listas.
+
+  ![](assets/hour-entry-date-in-view-nwe-350x173.png)

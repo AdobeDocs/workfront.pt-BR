@@ -1,23 +1,23 @@
 ---
 product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
-title: Conceder acesso a objetos na área inicial
+title: Conceder acesso a objetos na área Página inicial
 description: Os usuários podem solicitar acesso a objetos no Adobe Workfront. Para obter mais informações sobre como solicitar acesso, consulte Solicitar acesso a objetos .
 author: Alina
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
 
-# Conceder acesso a objetos na área inicial
+# Conceder acesso a objetos na área Página inicial
 
 Os usuários podem solicitar acesso a objetos no Adobe Workfront. Para obter mais informações sobre a solicitação de acesso, consulte  [Solicitar acesso a objetos](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
 
-Se você for o proprietário de um objeto, poderá conceder ou negar acesso aos itens da área inicial.
+Se você for o proprietário de um objeto, poderá conceder ou negar acesso aos itens da área da Página inicial.
 
 ## Requisitos de acesso
 
@@ -53,67 +53,83 @@ Se você for o proprietário de um objeto, poderá conceder ou negar acesso aos 
 
 -->
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Trabalho ou superior</p> </td> 
+   <td> <p>Trabalhar ou superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Exibir o acesso ou superior a projetos, tarefas, problemas ou documentos</p> <p><b>Nota</b>
+   <td> <p>Acesso de visualização ou superior a projetos, tarefas, problemas ou documentos</p> <p><b>Nota</b>
 
-Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
+Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões ou superiores a projetos, tarefas, problemas ou documentos</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões ou permissões superiores para projetos, tarefas, problemas ou documentos</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
-## Conceder acesso a objetos na área inicial
+## Conceder acesso a objetos na área Página inicial
 
-1. Clique no botão **Início** ícone ![](assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
+1. Clique em **Início** ícone ![](assets/home-icon-30x29.png) no canto superior esquerdo do Adobe Workfront.
 
    >[!NOTE]
    >
-   >O administrador do Workfront pode fazer as seguintes alterações no ícone Início no seu ambiente:
+   >O administrador do Workfront pode fazer as seguintes alterações no ícone Início do ambiente:
    >
-   >* Substitua por uma imagem personalizada para ilustrar sua organização. Nesse caso, o ícone terá uma aparência diferente da mostrada neste artigo.
-   >* Substitua a página vinculada a ela por uma página diferente. Nesse caso, clique no botão **Menu principal** ![](assets/main-menu-icon.png) no canto superior direito da página, em seguida, clique em **Início**.
+   >* Substitua-a por uma imagem personalizada para ilustrar sua organização. Nesse caso, o ícone será diferente do mostrado neste artigo.
+   >* Substituir a página vinculada a ela por uma página diferente. Nesse caso, clique no link **Menu principal** ![](assets/main-menu-icon.png) no canto superior direito da página e clique em **Início**.
 
+1. (Condicional) Na área Página inicial herdada, faça o seguinte:
 
-1. No **Lista de Trabalho**, selecione a solicitação de acesso que deseja gerenciar.\
+   1. No **Lista de trabalho**, selecione a solicitação de acesso que deseja gerenciar na **Aprovações** seção.
+
    ![Screen_Shot_2018-07-02_at_11.35.29_AM.png](assets/screen-shot-2018-07-02-at-11.35.29-am-350x242.png)
 
-1. No canto superior direito, clique no botão concessão de acesso.\
-   Dependendo do tipo de acesso solicitado, o nome do botão muda. Por exemplo, se o solicitante solicitar acesso à Exibição, o botão exibirá **Conceder acesso à visualização**.\
-   ![Grant_Access_2.png](assets/grant-access-2-350x98.png)
+   A solicitação é exibida à direita da Lista de trabalho.
 
-1. (Opcional) Para conceder um nível de acesso diferente do solicitado, clique na seta ao lado do botão Conceder acesso e selecione o novo acesso.\
-   Uma mensagem é exibida confirmando que o acesso foi concedido.\
-   OU\
-   Clique em **Ignorar** para negar o acesso.\
-   Uma mensagem é exibida confirmando que o acesso foi ignorado.
+   1. No canto superior direito, clique no botão conceder acesso.\
+      Dependendo do tipo de acesso solicitado, o nome do botão muda. Por exemplo, se o solicitante solicitar acesso de Visualização, o botão dirá **Conceder acesso de visualização**.\
+      ![Grant_Access_2.png](assets/grant-access-2-350x98.png)
+
+   1. (Opcional) Para conceder um nível de acesso diferente do solicitado, clique na seta ao lado do botão conceder acesso e selecione o novo acesso e, em seguida, clique em **Conceder &lt; Nível de permissão > Acesso >**.\
+      Será exibida uma mensagem confirmando que o acesso foi concedido.
+
+   1. (Opcional) Clique em **Ignorar** para negar acesso.\
+      Será exibida uma mensagem confirmando que o acesso foi ignorado.
+
+1. (Condicional) Na nova área Página inicial, faça o seguinte:
+
+   1. Vá para a **Aguardando minha aprovação** e localize a solicitação de mais acesso, em seguida, clique em **Conceder acesso**.
+
+      ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
+
+   1. (Opcional) Para conceder um nível de acesso diferente do solicitado, clique no menu suspenso à esquerda do botão Conceder acesso e selecione o novo acesso e clique em **Conceder acesso**.
+
+      A solicitação de acesso é concedida e desaparece da lista de solicitações de aprovação.
+
+   1. (Opcional) Clique em **Ignorar** para negar acesso. A solicitação de acesso não é concedida e desaparece da lista de solicitações de aprovação.
 
 ## Configurar notificações por email para solicitações
 
-Você pode configurar se receberá notificações por email sobre solicitações de acesso. O administrador do Workfront pode desativar essa funcionalidade (conforme descrito em [Configurar notificações de evento para todos no sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
+Você pode configurar se recebe notificações por email para solicitações de acesso. O administrador do Workfront pode desativar essa funcionalidade (conforme descrito em [Configurar notificações de eventos para todos no sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, em seguida, clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
 
-1. Clique em **Preferências** ou role até a seção Preferências .
-1. No **Enviar Email Quando** lista suspensa, selecione ou desmarque **Alguém solicita acesso de mim**, dependendo se você deseja receber notificações por email quando outro usuário solicitar ou não acesso de você.
+1. Clique em **Preferências** ou role até a seção Preferências.
+1. No **Enviar um email quando** , selecione ou desmarque **Alguém está solicitando acesso a mim**, dependendo se você deseja receber notificações por email quando outro usuário solicitar acesso sua ou não.
 
 1. Clique em **Salvar alterações**.
