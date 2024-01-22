@@ -3,13 +3,13 @@ content-type: reference
 navigation-topic: get-started-with-workfront
 title: Noções básicas do Adobe Workfront
 description: Revise essas áreas para entender as noções básicas do Adobe Workfront.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 152159a27bf7253d292133d3406096d8f7049922
+source-git-commit: 90c4f33f988b2a303aa6ab11a797c90321c148af
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '80'
 ht-degree: 17%
 
 ---
@@ -25,7 +25,7 @@ Esta seção contém as seguintes subseções:
 * [Página inicial](../workfront-basics/using-home/home.md)
 * [Atualizar itens de trabalho e exibir atualizações](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
 * [Trabalhar com formulários personalizados](../workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
-* [Usar notificações](../workfront-basics/using-notifications/use-notifications.md)
+* [Usar notificações: índice do artigo](../workfront-basics/using-notifications/use-notifications.md)
 * [Conceder e solicitar permissões para objetos](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
 * [Gerenciar sua conta e perfil](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
 * [Aplicativos móveis](../workfront-basics/mobile-apps/mobile-apps.md)
