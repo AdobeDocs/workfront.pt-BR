@@ -2,24 +2,26 @@
 product-area: programs
 navigation-topic: create and manage programs
 title: Criar um programa
-description: Um programa representa uma coleção de projetos que compartilham uma estratégia, objetivo ou meta comum que transcende os limites do projeto. Programas não podem existir fora de um portfólio.
+description: Um programa representa uma coleção de projetos que compartilham uma estratégia, objetivo ou meta comum que transcende os limites do projeto. Os programas não podem existir fora de um portfólio.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 93c36a87667097729e89a61f68cc17e9c861d547
+source-git-commit: e4cd543aa9f47e6b93aa148ea3fb972fbd356c02
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 1%
+source-wordcount: '998'
+ht-degree: 0%
 
 ---
 
 # Criar um programa
 
-Um programa representa uma coleção de projetos que compartilham uma estratégia, objetivo ou meta comum que transcende os limites do projeto. Programas não podem existir fora de um portfólio.
+<!-- Audited: 1/2024 -->
+
+Um programa representa uma coleção de projetos que compartilham uma estratégia, objetivo ou meta comum que transcende os limites do projeto. Os programas não podem existir fora de um portfólio.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,60 +29,62 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
-   <td> <p>[!UICONTROL Business] ou superior</p> </td> 
+   <td> <p>Novo: Qualquer um</p><p>Ou</p><p>Atual: [!UICONTROL Business] ou superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>Novo: [!UICONTROL Padrão] </p><p>Ou </p><p>Atual: [!UICONTROL Plano] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Acesso à [!UICONTROL Editar] para Portfolio e Programas </p> <p>Observação: Se ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais em seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>[!UICONTROL Editar] acesso a Portfolio e Programas </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Permissões do [!UICONTROL Manager] para o portfólio</p> <p>Após criar um programa, você tem permissões do [!UICONTROL Manager] para ele, por padrão</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Permissões do [!UICONTROL Manager] para o portfólio</p> <p>Por padrão, após criar um programa, você terá permissões de [!UICONTROL Manager] para ele.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Criar um programa
 
-1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo.
 
 1. Siga um destes procedimentos.
 
-   * Crie um programa a partir do [!UICONTROL Programas] Área:
+   * Crie um programa pelo [!UICONTROL Programas] área:
 
-      1. Clique em **[!UICONTROL Programas]** no Menu principal.
+      1. Clique em **[!UICONTROL Programas]** no menu principal.
       1. Clique em **[!UICONTROL Novo programa]**.
-      1. Na caixa que é exibida, digite o nome de um Portfolio existente na caixa **[!UICONTROL Selecionar Portfolio]** campo.
-      1. Digite o nome do novo programa no **[!UICONTROL Nome]** campo.
+      1. Na caixa exibida, digite o nome de um Portfolio existente na caixa **[!UICONTROL Selecionar Portfolio]** campo.
+      1. Digite o nome do novo programa no campo **[!UICONTROL Nome]** campo.
       1. Clique em **[!UICONTROL Salvar]**.
-   * Crie um programa a partir do [!UICONTROL Portfolio] Área:
+   * Crie um programa pelo [!UICONTROL Portfolio] área:
 
-      1. Clique em **[!UICONTROL Portfolio]** no [!UICONTROL Menu principal], em seguida, clique em um portfólio.
+      1. Clique em **[!UICONTROL Portfolio]** no [!UICONTROL Menu principal], em seguida, abra um portfólio.
       1. No painel esquerdo, clique em **[!UICONTROL Programas]**.
-      1. Clique no botão **[!UICONTROL Novo programa]** menu suspenso , em seguida **[!UICONTROL Novo programa]**.
+      1. Clique em **[!UICONTROL Novo programa]** menu suspenso, depois **[!UICONTROL Novo programa]**.
 
 
-1. Especifique o nome do Programa no **[!UICONTROL Programa sem título]** campo.
+1. (Condicional) Se você criou o programa a partir de um portfólio, especifique o nome do Programa no **[!UICONTROL Programa sem título]** campo.
 
    O nome pode conter até 255 caracteres.
 
-1. (Opcional) Clique em **[!UICONTROL Gerenciador de programas]** no cabeçalho do programa para atualizá-lo.
+1. (Opcional) Clique em **[!UICONTROL Gerente de programa]** no cabeçalho do programa.
 
    >[!TIP]
    >
-   >Como criador do programa, você é definido como o Gerente de programa por padrão.
+   >Como criador do programa, você é definido como Gerente de programa por padrão.
 
 1. Clique em **[!UICONTROL Detalhes do programa]** no painel esquerdo.
 1. Clique duas vezes em qualquer campo para atualizar as informações na **[!UICONTROL Visão geral]** área.
-1. Especifique as seguintes informações:
 
-   <table style="table-layout:auto"> 
+Você pode especificar as seguintes informações:
+
+<table style="table-layout:auto"> 
     <col> 
     <col> 
     <thead> 
@@ -95,12 +99,12 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
       <td> <p>Especifique uma descrição para o programa.</p> <p>A descrição é exibida na landing page do programa.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Gerenciador do programa]</td> 
-      <td> <p>Comece digitando o nome do usuário que você deseja que atue como o Gerenciador de programas e clique no nome do usuário quando ele aparecer na lista suspensa. É o mesmo que o [!UICONTROL Program Owner]. </p> <p>Dica: Você também pode atualizar o Gerenciador de programas no cabeçalho do programa. </p> </td> 
+      <td role="rowheader">[!UICONTROL Gerenciador de Programas]</td> 
+      <td> <p>Comece digitando o nome do usuário que deseja que atue como Gerente de programas e clique no nome do usuário quando ele for exibido na lista suspensa. É o mesmo que [!UICONTROL Proprietário do Programa]. </p> <p>Dica: você também pode atualizar o Gerenciador de programas no cabeçalho do programa. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Grupo] </td> 
-      <td> <p>Adicione o nome de um único grupo se o grupo for proprietário do programa ou tiver a responsabilidade de concluí-lo. </p> <p>Certifique-se de selecionar o grupo correto ao passar o mouse sobre ele e clicar no ícone [!UICONTROL informações] <img src="assets/info-icon.png"> que é exibido ao lado dele. Isso exibe uma dica de ferramenta listando informações sobre o grupo, como a hierarquia de grupos acima dele e seus administradores.</p> 
+      <td> <p>Adicione o nome de um único grupo se o grupo for proprietário do programa ou tiver responsabilidade para concluí-lo. </p> <p>Você pode se certificar de que está selecionando o grupo correto passando o cursor do mouse sobre ele e clicando no ícone [!UICONTROL information] <img src="assets/info-icon.png"> que é exibido ao lado dele. Uma dica de ferramenta que lista informações sobre o grupo, como a hierarquia de grupos acima dele e seus administradores.</p> 
        <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
         <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
        </div> </td> 
@@ -108,25 +112,26 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
     </tbody> 
    </table>
 
-1. (Opcional e condicional) Clique dentro da variável **[!UICONTROL Adicionar formulário personalizado]** para selecionar um formulário personalizado para o portfólio e atualizar os campos personalizados.
+1. (Opcional e condicional) Clique dentro da **[!UICONTROL Adicionar formulário personalizado]** para selecionar um formulário personalizado para o portfólio e atualizar os campos personalizados.
 
    >[!TIP]
    >
-   >É necessário ter formulários personalizados do programa já criados para anexá-los a programas.
+   >Você deve ter formulários de programa personalizados já criados antes de anexá-los aos programas.
 
-1. (Opcional) Clique duas vezes em qualquer campo para atualizar as informações no formulário personalizado.
-1. Clique em **[!UICONTROL Projetos]** no painel esquerdo, em seguida **[!UICONTROL Adicionar projetos]** para adicionar projetos ao programa.
+1. (Opcional e condicional) Se estiver adicionando um formulário personalizado, clique em qualquer campo no formulário personalizado para atualizar as informações nesse campo.
+1. Clique em **[!UICONTROL Salvar alterações]**.
+1. Clique em **[!UICONTROL Projetos]** no painel esquerdo, em seguida **[!UICONTROL Adicionar Projetos]** para adicionar projetos ao programa.
 
    Para obter informações sobre como adicionar projetos a programas, consulte [Adicionar um projeto a um programa](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
 1. Clique em **[!UICONTROL Salvar alterações]**.
-1. (Opcional) Clique no botão **[!UICONTROL Menu Mais]** ![](assets/more-icon.png) ao lado do nome do programa e clique em **[!UICONTROL Desativar programa]**.
+1. (Opcional) Clique no link **[!UICONTROL Menu Mais]** ![](assets/more-icon.png) ao lado do nome do programa e clique em **[!UICONTROL Desativar programa]**.
 
-   Quando você desativa um programa, ele não é mais exibido em uma lista de programas quando os usuários tentam adicioná-lo a um projeto. Ainda é possível acessar o programa na [!UICONTROL Programas] área.
+   Quando você desativa um programa, ele não é mais exibido em uma lista de programas quando os usuários tentam adicioná-lo a um projeto. Você ainda pode acessar o programa pelo [!UICONTROL Programas] área.
 
 ## Visão geral do cabeçalho do programa
 
-Você pode encontrar informações limitadas sobre o programa em seu cabeçalho.
+Você pode encontrar algumas informações sobre o programa em seu cabeçalho.
 
 As seguintes informações são exibidas no cabeçalho de um programa:
 
@@ -136,49 +141,49 @@ As seguintes informações são exibidas no cabeçalho de um programa:
  <tbody> 
   <tr> 
    <td role="rowheader">Informações do cabeçalho</td> 
-   <td> <p><strong>Notas</strong> </p> </td> 
+   <td> <strong>Notas</strong> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Caminho com o nome do portfólio</td> 
-   <td>Você pode acessar o portfólio ao qual o programa pertence a partir do cabeçalho do programa. </td> 
+   <td role="rowheader">Navegação estrutural com o nome do portfólio</td> 
+   <td>Você pode acessar o portfólio ao qual o programa pertence no cabeçalho do programa. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome do programa</td> 
-   <td>Você pode editar o nome do programa no cabeçalho.</td> 
+   <td>É possível editar o nome do programa no cabeçalho.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Nome do tipo de objeto e do estado de ativação</td> 
-   <td>A palavra "Programa" é exibida em um contorno verde ao visualizar um programa. A palavra "[!UICONTROL desativado]" é exibida ao lado dela e o outline é cinza se o programa não estiver marcado como [!UICONTROL ativo]. </td> 
+   <td role="rowheader">Nome do tipo de objeto e status de ativação</td> 
+   <td>A palavra "Programa" é exibida com um ícone laranja quando você exibe um programa. A palavra "[!UICONTROL Desativado]" será exibida ao lado dela e a estrutura de tópicos ficará cinza se o programa não estiver marcado como [!UICONTROL Ativo]. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Domínio de ação do programa </td> 
-   <td> <p>Clique em qualquer um dos seguintes para acessar mais informações ou editar opções do programa:</p> 
+   <td> <p>Clique em qualquer uma das opções a seguir para acessar mais informações ou editar opções do programa:</p> 
     <ul> 
      <li>O ícone de estrela para adicionar o programa à sua lista de Favoritos</li> 
-     <li> <p>O menu [!UICONTROL Mais] <img src="assets/qs-more-menu.png"> para fazer um dos seguintes procedimentos: </p> 
+     <li> <p>O menu [!UICONTROL Mais] <img src="assets/qs-more-menu.png"> para executar um dos seguintes procedimentos: </p> 
       <ul> 
        <li>Editar o programa</li> 
-       <li>Desative-o. Quando um programa é desativado, não é mais possível associá-lo a projetos no nível do projeto. </li> 
-       <li> <p>Exclua-o. A exclusão do programa não exclui os projetos do programa. Ele remove a associação dos projetos ao programa. </p> </li> 
+       <li>Desative-a. Quando um programa é desativado, não é mais possível associá-lo a projetos no nível do projeto. </li> 
+       <li> <p>Excluí-lo. A exclusão do programa não exclui os projetos nele contidos. Ele remove a associação dos projetos com o programa. </p> </li> 
        <li>Compartilhar com outras pessoas</li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Porcentagem concluída]</td> 
-   <td> <p>Não é possível editar a [!UICONTROL Porcentagem concluída] do programa no cabeçalho. Estas informações são atualizadas a partir dos projetos do programa. Por padrão, a porcentagem completa do programa é uma média dos valores de porcentagem concluídos dos projetos em um status [!UICONTROL Atual] e [!UICONTROL Aprovado] que pertencem ao programa.</p> </td> 
+   <td role="rowheader">[!UICONTROL Porcentagem Concluída]</td> 
+   <td> <p>Não é possível editar a [!UICONTROL Porcentagem Concluída] do programa no cabeçalho. Essas informações são atualizadas a partir dos projetos no programa. Por padrão, o percentual concluído do programa é uma média dos valores do percentual concluído dos projetos com status [!UICONTROL Atual] ou [!UICONTROL Aprovado] que pertencem ao programa.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Gerenciador do programa]</td> 
-   <td> <p>Você pode editar o Gerenciador de programas no cabeçalho. É o mesmo que o [!UICONTROL Program Owner]. </p> </td> 
+   <td role="rowheader">[!UICONTROL Gerenciador de Programas]</td> 
+   <td> <p>Você pode editar o Gerenciador de programas no cabeçalho. É o mesmo que [!UICONTROL Proprietário do Programa]. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Data de conclusão planejada]</td> 
-   <td>Não é possível editar a porcentagem completa do programa no cabeçalho. A porcentagem completa do programa é uma média da porcentagem completa dos projetos no cabeçalho. Os projetos aqui representados são projetos com status de [!UICONTROL Atual] e [!UICONTROL Aprovado]. </td> 
+   <td role="rowheader">[!UICONTROL Data de Término Planejada]</td> 
+   <td>Não é possível editar a Data de conclusão planejada do programa no cabeçalho.  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Condição de projetos ativos]</td> 
-   <td>Este é um cálculo da porcentagem de projetos no programa que têm a [!UICONTROL Condição] definida como [!UICONTROL No Target], [!UICONTROL Em Risco] ou [!UICONTROL Em Problemas]. Os projetos aqui representados são projetos com status de [!UICONTROL Atual] e [!UICONTROL Aprovado]. </td> 
+   <td role="rowheader">[!UICONTROL Condição de Projetos Ativos]</td> 
+   <td>Este é um cálculo de qual porcentagem de projetos no programa tem a [!UICONTROL Condição] definida como [!UICONTROL No Destino], [!UICONTROL Em Risco] ou [!UICONTROL Em Problema]. Os projetos representados aqui são projetos com status [!UICONTROL Atual] e [!UICONTROL Aprovado]. </td> 
   </tr> 
  </tbody> 
 </table>
