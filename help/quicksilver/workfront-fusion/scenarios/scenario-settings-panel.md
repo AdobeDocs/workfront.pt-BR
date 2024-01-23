@@ -7,9 +7,9 @@ description: Este artigo descreve as configurações disponíveis na [!UICONTROL
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 4d9832d0870c3fccf847c3932ad4f985a62b9672
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,12 @@ Essa opção determina como [!DNL Adobe Workfront Fusion] continua se ocorrer um
 ## [!UICONTROL Processamento sequencial]
 
 Essa opção determina como [!DNL Workfront Fusion] continua se ocorrer um erro e a execução de um cenário for movida para a variável [Exibir e resolver execuções incompletas no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). Se a variável [!UICONTROL Processamento sequencial] estiver ativada, o Workfront Fusion interromperá o processamento completo da sequência de tarefas até que todas as execuções incompletas sejam resolvidas. Se a variável [!UICONTROL Processamento sequencial] estiver desativada, o cenário continuará a ser executado de acordo com seu agendamento, acompanhado por tentativas repetidas de executar novamente as execuções incompletas.
+
+>[!NOTE]
+>
+>O processamento sequencial pode causar um atraso na execução de um cenário. Se ainda houver execuções incompletas na fila quando um cenário instantâneo for acionado ou um cenário programado for definido para execução, esse cenário será executado após a conclusão de todas as execuções antes de ser concluído na fila.
+>
+>Se o caso de uso para seus cenários não exigir processamento sequencial, recomendamos desativar a opção de processamento sequencial.
 
 Para obter mais informações sobre programação, consulte [Agendar um cenário no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
 
