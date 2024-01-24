@@ -9,9 +9,9 @@ description: Em um [!DNL Adobe Workfront Fusion] cenário, é possível automati
 author: Becky
 feature: Workfront Fusion
 exl-id: 7f6dace5-ab50-45da-a926-1a8919057f7b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '2062'
+source-wordcount: '2068'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 0%
 # [!DNL Marketo] módulos
 
 Em um [!DNL Adobe Workfront Fusion] cenário, é possível automatizar workflows que usam [!DNL Marketo], bem como conectá-lo a vários aplicativos e serviços de terceiros.
+
+Para obter uma introdução ao vídeo sobre o conector do Marketo, consulte:
+
+* [Marketo](https://video.tv.adobe.com/v/3427026/){target=_blank}
 
 Se precisar de instruções sobre como criar um cenário, consulte [Criar um cenário no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 

@@ -8,9 +8,9 @@ description: Um [!DNL Adobe Workfront Fusion] o armazenamento de dados, semelhan
 author: Becky
 feature: Workfront Fusion
 exl-id: 1dc9cb88-d1b9-4a67-91fb-be980cc1ccd1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1164'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Um [!DNL Adobe Workfront Fusion] o armazenamento de dados, semelhante a um banco
 Os módulos de armazenamento de dados permitem adicionar, substituir, atualizar, recuperar, excluir, pesquisar ou contar registros na [!DNL Adobe Workfront Fusion] armazenamento de dados.
 
 Para obter informações sobre como criar, editar e solucionar problemas de armazenamentos de dados, consulte [Armazenamentos de dados no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+
+Para obter uma introdução em vídeo aos armazenamentos de dados no Workfront Fusion, consulte:
+
+* [Armazenamentos de dados](https://video.tv.adobe.com/v/3427029/){target=_blank}
 
 ## Requisitos de acesso
 

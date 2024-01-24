@@ -9,9 +9,9 @@ description: Em um cenário do Adobe Workfront Fusion, é possível automatizar 
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c8adcd9-fb5f-400d-9edd-6d9fc30cc728
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '2768'
+source-wordcount: '2740'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 0%
 # [!DNL Salesforce] módulos
 
 Em um cenário do Adobe Workfront Fusion, é possível automatizar workflows que usam [!DNL Salesforce], bem como conectá-lo a vários aplicativos e serviços de terceiros.
+
+Para obter uma introdução ao vídeo sobre o conector do Salesforce, consulte:
+
+* [Salesforce](https://video.tv.adobe.com/v/3427027/){target=_blank}
 
 Se precisar de instruções sobre como criar um cenário, consulte [Criar um cenário no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -270,7 +274,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   </tr> 
   <tr>
     <td>[!UICONTROL ID]</td>
-    <td> <p>Insira ou mapeie o único [!DNL Salesforce] ID do registro que você deseja que o módulo leia.</p> <p>Para obter a ID, abra o [!DNL Salesforce] no navegador e copie o texto no final do URL após a última barra (/). Por exemplo: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td>
+    <td> <p>Insira ou mapeie o [!DNL Salesforce] ID do registro que você deseja que o módulo leia.</p> <p>Para obter a ID, abra o [!DNL Salesforce] no navegador e copie o texto no final do URL após a última barra (/). Por exemplo: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -299,7 +303,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   </tr> 
   <tr> 
    <td>[!UICONTROL ID]</td> 
-   <td> <p>Insira ou mapeie o único [!DNL Salesforce] ID do registro que você deseja que o módulo exclua.</p> <p>Para obter a ID, abra o [!DNL Salesforce] no navegador e copie o texto no final do URL após a última barra (/). Por exemplo: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td> 
+   <td> <p>Insira ou mapeie o [!DNL Salesforce] ID do registro que você deseja que o módulo exclua.</p> <p>Para obter a ID, abra o [!DNL Salesforce] no navegador e copie o texto no final do URL após a última barra (/). Por exemplo: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -438,7 +442,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   </tr> 
   <tr>
     <td> <p>[!UICONTROL ID] / </p> <p>[!UICONTROL ID de Anexo] / </p> <p>[!UICONTROL ID do Documento de Conteúdo]</p> </td>
-    <td> <p>Insira ou mapeie o único [!DNL Salesforce] ID do registro que você deseja baixar o módulo.</p> <p>Para obter a ID, abra o [!DNL Salesforce] no navegador e copie o texto no final do URL após a última barra (/). Por exemplo: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td>
+    <td> <p>Insira ou mapeie o [!DNL Salesforce] ID do registro que você deseja baixar o módulo.</p> <p>Para obter a ID, abra o [!DNL Salesforce] no navegador e copie o texto no final do URL após a última barra (/). Por exemplo: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -547,7 +551,7 @@ Este módulo de ação recupera todos os registros que atendem a um determinado 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Máximo]</td> 
-   <td>Insira ou mapeie o número máximo de registros que deseja que o módulo recupere durante cada ciclo de execução de cenário.</td> 
+   <td>Insira ou mapeie o número máximo de registros que você deseja que o módulo recupere durante cada ciclo de execução de cenário.</td> 
   </tr> 
  </tbody> 
 </table>

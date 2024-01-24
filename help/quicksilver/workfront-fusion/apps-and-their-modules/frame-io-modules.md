@@ -9,9 +9,9 @@ description: A variável [!DNL Adobe Workfront Fusion Frame].io modules enable y
 author: Becky
 feature: Workfront Fusion
 exl-id: 373a86f6-fbba-4914-b08d-a3a035ac0ae4
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '2311'
+source-wordcount: '2338'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 0%
 # [!DNL Frame.io] módulos
 
 A variável [!DNL Adobe Workfront Fusion] [!DNL Frame.io] Os módulos do permitem monitorar, criar, atualizar, recuperar ou excluir ativos e comentários em seu [!DNL Frame.io] conta.
+
+Para obter uma introdução ao vídeo sobre o conector Frame.io, consulte:
+
+* [Frame.io](https://video.tv.adobe.com/v/3427032/){target=_blank}
 
 ## Requisitos de acesso
 

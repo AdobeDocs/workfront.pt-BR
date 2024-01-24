@@ -8,9 +8,9 @@ description: Um armazenamento de dados, semelhante a um banco de dados ou a uma 
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 259ffbbaeddeea64ea2e7f77db258472162c9d8d
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1268'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,10 @@ Os módulos de armazenamento de dados permitem que você execute as seguintes a�
 * Contagem
 
 Para obter informações sobre o uso de módulos de armazenamento de dados, consulte [[!UICONTROL Armazenamento de dados] módulos](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
+
+Para obter uma introdução em vídeo aos armazenamentos de dados no Workfront Fusion, consulte:
+
+* [Armazenamentos de dados](https://video.tv.adobe.com/v/3427029/){target=_blank}
 
 ## Requisitos de acesso
 
