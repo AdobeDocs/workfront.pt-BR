@@ -6,9 +6,9 @@ description: Um programa representa uma coleção de projetos que compartilham u
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: e4cd543aa9f47e6b93aa148ea3fb972fbd356c02
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,15 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
-   <td> <p>Novo: Qualquer um</p><p>Ou</p><p>Atual: [!UICONTROL Business] ou superior</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
+   <td> <p>Qualquer</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
    <td> <p>Novo: [!UICONTROL Padrão] </p><p>Ou </p><p>Atual: [!UICONTROL Plano] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>[!UICONTROL Editar] acesso a Portfolio e Programas </p>  </td> 
   </tr> 
   <tr> 
@@ -179,7 +179,7 @@ As seguintes informações são exibidas no cabeçalho de um programa:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Data de Término Planejada]</td> 
-   <td>Não é possível editar a Data de conclusão planejada do programa no cabeçalho.  </td> 
+   <td>Não é possível editar a Data de conclusão planejada do programa no cabeçalho. Essas informações são atualizadas a partir dos projetos no programa. A Data de conclusão planejada do último projeto no programa se torna a Data de conclusão planejada do programa.  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Condição de Projetos Ativos]</td> 

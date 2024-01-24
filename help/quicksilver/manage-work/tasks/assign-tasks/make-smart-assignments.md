@@ -6,20 +6,27 @@ description: Você pode usar atribuições inteligentes para identificar quem é
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
 # Fazer atribuições inteligentes
 
+<!--update "Results" to "Other assignments" with Prod-->
+
 <span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes.</span>
 
 <span class="preview">Para obter informações sobre a programação de lançamento atual, consulte [Visão geral da versão do primeiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
 
-Você pode usar atribuições inteligentes para identificar quem é o melhor usuário para concluir o trabalho. As atribuições inteligentes são sugestões para usuários que o Adobe Workfront apresenta quando você atribui itens de trabalho a recursos com base em um algoritmo que determina o recurso mais apropriado para a tarefa. Para obter informações sobre atribuições inteligentes, consulte [Visão geral das atribuições inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+Você pode usar atribuições inteligentes para identificar quem é o melhor usuário para concluir o trabalho.
+
+As atribuições inteligentes são sugestões para usuários que o Adobe Workfront apresenta quando você atribui itens de trabalho a recursos com base em um algoritmo que determina o recurso mais apropriado para a tarefa.
+
+<span class="preview">Há dois algoritmos separados no Workfront para tarefas e problemas. </span>
+Para obter informações sobre atribuições inteligentes, consulte [Visão geral das atribuições inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Requisitos de acesso
 
@@ -76,9 +83,16 @@ As atribuições inteligentes estão disponíveis na maioria dos locais onde voc
 
    ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
-   Os usuários exibidos nesta lista são as sugestões de atribuição inteligente para a tarefa ou problema.
+   Para problemas, as sugestões de atribuição inteligente são exibidas no **Atribuições sugeridas** área.
 
-   Para obter mais informações sobre onde as atribuições inteligentes são exibidas, consulte a seção &quot;Localizar sugestões de atribuições inteligentes&quot; no artigo [Visão geral das atribuições inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
+   Para tarefas, as atribuições inteligentes são exibidas nas seguintes seções, dependendo de qual fase do cálculo do algoritmo identificou as atribuições:
+
+   * **Atribuições sugeridas**: Atribuições identificadas na primeira fase do cálculo do algoritmo de atribuição inteligente de tarefa.
+   * <span class="preview">**Resultados**: Atribuições identificadas na segunda fase do cálculo do algoritmo de atribuição inteligente de tarefa. Esta seção não está disponível para problemas. </span> <!--replace this with the new UI: "Other assignments"-->
+
+   ![](assets/smart-assignments-task-list.png)
+
+   Para obter mais informações, consulte [Visão geral das atribuições inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
 
 1. Selecione o usuário na lista de recomendações clicando no nome.
 

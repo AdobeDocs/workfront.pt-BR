@@ -7,9 +7,9 @@ description: Ao gerenciar atribuições de tarefas e problemas, você pode usar 
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -51,9 +51,13 @@ Você pode ver as atribuições inteligentes nas seguintes áreas onde pode atri
 
   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
-* Um cabeçalho de tarefa ou problema no campo Atribuições
+* <span class="preview">Um cabeçalho de tarefa no campo Assignments</span>
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+
+* Um cabeçalho de problema no campo Atribuições
+
+  ![](assets/smart-assignments-issue-header.png)
 
 * O painel Resumo de tarefas ou problemas na área Atribuições
 
@@ -70,14 +74,17 @@ Você pode ver as atribuições inteligentes nas seguintes áreas onde pode atri
 
 ## Critérios de atribuições inteligentes
 
-
 <div class="preview">
 
 As atribuições inteligentes funcionam de forma diferente para tarefas e para problemas.
 
 ### Critérios de atribuições inteligentes para tarefas
 
-O cálculo de atribuições inteligentes de tarefas funciona em duas fases.
+O cálculo de atribuições inteligentes de tarefas funciona em duas fases que usam dois algoritmos diferentes.
+
+Dependendo de qual algoritmo encontrar a atribuição inteligente, as atribuições serão listadas em duas seções separadas no campo Atribuições. Para obter informações, consulte [Fazer atribuições inteligentes](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
+
+![](assets/smart-assignments-task-list.png)
 
 #### Primeira fase do cálculo de atribuição inteligente para tarefas
 
@@ -111,6 +118,8 @@ O cálculo da pontuação de similaridade e a ordem na qual as atribuições sã
 
   Por exemplo, se Rick foi designado a uma tarefa semelhante hoje e Jennifer foi designada a uma tarefa semelhante dois dias atrás, Rick aparece primeiro.
 
+* As atribuições identificadas nesta fase estão listadas no **Atribuições sugeridas** seção do campo Assignments.
+
 * Se não houver correspondências usando esse cálculo, a segunda fase das atribuições inteligentes começa, que é calculada usando um algoritmo diferente.
 
 #### Segunda fase do cálculo de atribuição inteligente para tarefas
@@ -119,6 +128,8 @@ Se a primeira etapa das atribuições inteligentes de tarefas não encontrar cor
 
 Para obter mais informações, consulte a seção [Critérios de atribuições inteligentes para tarefas e problemas](#smart-assignments-criteria-for-tasks-and-issues) neste artigo.
 
+As atribuições identificadas nesta fase estão listadas no **Resultados** seção do campo Assignments. <!--update this to "Other assignments"-->
+
 ### Critérios de atribuições inteligentes para tarefas e problemas
 
 </div>
@@ -126,6 +137,8 @@ Para obter mais informações, consulte a seção [Critérios de atribuições i
 >[!NOTE]
 >
 ><span class="preview">Os critérios a seguir se aplicam às tarefas somente quando a primeira fase do cálculo de atribuição inteligente de tarefa não encontrou correspondências. Para obter informações, consulte a seção [Primeira fase do cálculo de atribuição inteligente para tarefas](#first-phase-of-smart-assignment-calculation-for-tasks) neste artigo. Os critérios a seguir sempre se aplicam a problemas, por padrão. </span>
+
+![](assets/smart-assignments-issue-header.png)
 
 Os usuários são recomendados na lista suspensa atribuições inteligentes com base em uma combinação dos seguintes critérios (listados na ordem do mais importante para o menos importante):
 
