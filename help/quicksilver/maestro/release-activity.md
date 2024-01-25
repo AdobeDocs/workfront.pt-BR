@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '3404'
+source-wordcount: '3564'
 ht-degree: 0%
 
 ---
@@ -40,28 +40,35 @@ Os recursos são lançados semanalmente e são listados na ordem de lançamento,
 >
 >A documentação referenciada nas seções abaixo estará disponível algum tempo depois que os recursos forem lançados para produção.
 
-<!--
-## Week of January 22, 2024
+## Semana de 22 de janeiro de 2024
 
-### New History section displays system activity for Maestro records (title) 
+### A nova seção Histórico exibe a atividade do sistema para registros Maestri
 
-Production: < date > 
+Produção: 25 de janeiro de 2024
 
-Preview: To be determined 
+Visualização: a ser determinado
 
-We have introduced a new section in the right panel of a record where you can review changes made to the record.  
+Para melhorar os recursos de auditoria, introduzimos uma nova seção no painel direito de um registro, onde você pode revisar as alterações feitas no registro gravado pelo sistema.
 
-Maestro records the following information in the new History section:  
+Maestri registra as seguintes informações na nova seção História:
 
-* Any field changes 
+* Quaisquer alterações de campo
 
-* The full name of the user who made the change 
+* Os valores antigos e novos dos campos, quando os valores são alterados
 
-* A date and time stamp of when the change occurred. 
+* O nome completo do usuário que fez a alteração
 
- For more information, see [Manage record comments](/help/quicksilver/maestro/records/manage-record-comments.md) 
+* Uma data e carimbo de data e hora de quando a alteração ocorreu.
 
--->
+Para obter mais informações, consulte [Gerenciar comentários de registro](/help/quicksilver/maestro/records/manage-record-comments.md).
+
+### Novo rótulo para novo link de registro
+
+Produção: 25 de janeiro de 2024
+
+Visualização: a ser determinado
+
+Para criar consistência ao criar registros, renomeamos o link + Novo para criar registros como &quot;+ Novo registro&quot;.  Antes dessa atualização, o link continha o nome do tipo de registro. O novo link agora está disponível ao criar registros operacionais e de taxonomia. Para obter informações, consulte [Criar registros](/help/quicksilver/maestro/records/create-records.md).
 
 ## Semana de 8 de janeiro de 2024
 

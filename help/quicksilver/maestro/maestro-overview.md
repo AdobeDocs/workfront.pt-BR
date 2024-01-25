@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '1956'
 ht-degree: 1%
 
 ---
@@ -86,6 +86,7 @@ Para obter informações sobre novos recursos e quando eles são lançados, cons
 | Resumo criativo |                               |                                  | ✓ µ |
 | Personalizar a cor e o ícone de um registro | ✓ µ |                                  |                 |
 | Adicionar comentários aos registros | ✓ µ |                                  |                 |
+| Exibir histórico de alterações em um registro | ✓ µ |                                  |                 |
 | Formatação de Rich Text para campos de parágrafo | ✓ µ |                                  |                 |
 | Módulos Maestri para o Adobe Workfront Fusion | ✓ µ |                                  |                 |
 | Copiar e colar informações de um campo para outro | ✓ µ |                                  |                 |

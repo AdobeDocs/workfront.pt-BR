@@ -1,12 +1,12 @@
 ---
 title: Gerenciar comentários de registro
-description: É possível colaborar em registros Adobe Maestro, adicionando comentários ou respostas na área Comentários de um registro.
+description: Você pode colaborar em registros Adobe Maestro, adicionando comentários ou respostas no painel direito de um registro. Você também pode exibir outras alterações feitas no registro e registradas pelo sistema nessa área.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -15,22 +15,24 @@ ht-degree: 0%
 # Gerenciar comentários de registro
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+
 <!--update the system updates articles when we release to open beta - check the long commenting stream article list and see articles that document where in the system we have system updates; "Maestro records" should be there-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-É possível colaborar em registros Adobe Maestro, adicionando comentários ou respostas na área Comentários de um registro.
+É possível colaborar em registros Adobe Maestro, adicionando comentários ou respostas no painel direito de um registro. Você também pode exibir outras alterações feitas no registro e registradas pelo sistema nessa área.
 
-<!--replace first paragraph with this and update the Description in the metadata: 
-You can collaborate on Adobe Maestro records, by adding comments or replies in the right panel of a record. You can also view other changes made to the record in this area.
+O painel direito de um registro exibe as seguintes seções:
 
-The right panel of a record displays the following sections:
+* **Comentários**: exibe comentários e respostas que os usuários adicionam aos registros.
+* **Histórico**: exibe as alterações registradas pelo sistema que os usuários fazem nos campos de registro. Para obter mais informações, consulte [Visão geral da seção Histórico](/help/quicksilver/maestro/records/history-section-overview.md).
 
-* Comments: Users can add comments and reply to existing ones.
-* History: When you make a change to a record, Maestro records the change in this section. 
--->
+>[!TIP]
+>
+>O painel direito é exibido tanto para registros operacionais quanto para registros de taxonomia.
+
 
 ## Considerações sobre comentários em um registro
 
@@ -48,9 +50,9 @@ The right panel of a record displays the following sections:
 
 * É possível marcar os usuários para chamar a atenção deles para uma atualização. Os usuários marcados não recebem uma notificação no aplicativo nem um email sobre a atualização. <!--this might change??-->
 
-* Você pode adicionar uma atualização aos registros das seguintes áreas do Maestro:
+* Você pode adicionar uma atualização aos registros e revisar o histórico de alterações das seguintes áreas do Maestro:
 
-   * Na página Detalhes.
+   * Na página Detalhes de um registro ou taxonomia.
 
   <!--* From the table view.-->
 
@@ -119,6 +121,8 @@ O último espaço de trabalho acessado é aberto por padrão.
 
    O registro **Detalhes** é aberta. A área Comentários é aberta por padrão no painel direito.
 
+1. (Condicional) Se o painel direito não abrir por padrão, clique no link **Mostrar comentários** ![](assets/show-comments-icon.png) no canto superior direito para abrir a seção Comentários.
+
 1. Comece a inserir um comentário no **Novo comentário** caixa.
 
    ![](assets/empty-comment-box-on-record.png)
@@ -171,24 +175,16 @@ O último espaço de trabalho acessado é aberto por padrão.
 1. (Opcional) Clique no link **Mais** ícone ![](assets/more-menu.png) no canto superior direito do comentário e clique em uma das seguintes opções, para copiar informações de um comentário:
 
    * **Copiar link**: isso copia um link para o comentário na área de transferência.
-   * **Copiar texto do corpo** t: copia o texto do comentário para a área de transferência.
+   * **Copiar texto do corpo**: copia o texto do comentário para a área de transferência.
    * **Citar resposta**: copia o conteúdo do comentário para uma nova resposta. As imagens não são incluídas na resposta copiada.
 
    Para obter mais informações, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Clique no link **Mais** ícone ![](assets/more-menu.png) no canto superior direito do comentário e clique em **Excluir** para excluir o comentário.
+1. (Opcional) Clique no link **Ocultar comentários** ícone ![](assets/hide-comments-icon.png) para fechar o painel direito.
 
-<!--
-## History section overview
+## Visão geral da seção Histórico
 
-*********also update the screen shot above for the Comments section ******
+Você pode revisar as alterações feitas no registro na seção Histórico do painel direito de um registro operacional ou taxonomia.
 
-You can refer to the History section in the right panel of a record to view changes made to the record. 
+Para obter mais informações, consulte [Visão geral da seção Histórico](/help/quicksilver/maestro/records/history-section-overview.md).
 
-![](assets/history-area-in-comments.png)
-
-Maestro records the following information in the History section: 
-
-* Any field changes
-* The full name of the user who made the change
-* A date and time stamp of when the change occurred. 
--->
