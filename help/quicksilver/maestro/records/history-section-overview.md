@@ -4,10 +4,10 @@ description: Você pode rever as mudanças feitas no registro e gravadas pelo si
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 2%
+source-wordcount: '446'
+ht-degree: 4%
 
 ---
 
@@ -72,7 +72,6 @@ Você pode revisar as alterações feitas nos campos de registro na seção Hist
 
    * Seleção múltipla
    * Campos de registro vinculados
-   * Campos vinculados (pesquisa)
    * Pessoas
 
   Se a alteração adicionar apenas valores ao campo, o valor antigo não será exibido e somente o novo valor do campo será exibido.
@@ -80,5 +79,14 @@ Você pode revisar as alterações feitas nos campos de registro na seção Hist
 * Os campos do tipo caixa de seleção nunca exibem o valor antigo no formato tachado. Se o campo for editado, somente o estado atual no momento em que a alteração foi feita será exibido.
 
   Para obter mais informações sobre campos Maestro, consulte [Criar campos](/help/quicksilver/maestro/fields/create-fields.md).
+
+* As alterações nos campos dos seguintes tipos não são exibidas na seção History:
+
+   * Campos vinculados (pesquisa)
+   * Fórmula
+   * Criado por
+   * Criado na data
+   * Modificado pela última vez por
+   * Data da última modificação
 
 * Se um campo for removido do sistema, as atualizações feitas nesse campo permanecerão na seção Histórico. Não há nenhuma indicação de que o campo foi removido na seção Histórico de um registro.

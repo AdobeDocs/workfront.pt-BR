@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
 source-wordcount: '3564'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Maestri registra as seguintes informações na nova seção História:
 
 * Uma data e carimbo de data e hora de quando a alteração ocorreu.
 
-Para obter mais informações, consulte [Gerenciar comentários de registro](/help/quicksilver/maestro/records/manage-record-comments.md).
+Para obter mais informações, consulte [Visão geral da seção Histórico](/help/quicksilver/maestro/records/history-section-overview.md).
 
 ### Novo rótulo para novo link de registro
 
