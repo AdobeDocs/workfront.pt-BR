@@ -7,9 +7,9 @@ description: A visualização Capacidade da equipe mostra a quantidade total de 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfeb1a87-01be-4088-9e33-53a97e3871ad
-source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
+source-git-commit: 81118e794dca746b482b8355c24fa997a9f0edc9
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
       <p>Atual: Comercial ou superior</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Visão geral das licenças do Adobe Workfront</td>
+   <td role="rowheader">Licença do Adobe Workfront</td>
    <td>
       <p>Novo: Claro ou superior</p>
       <p>ou</p>
