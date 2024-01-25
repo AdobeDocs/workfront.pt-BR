@@ -7,7 +7,7 @@ description: A visualização de Burndown mostra o burndown de um projeto espec�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir</p> </td> 
+   <td> <p>Exibir</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +60,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Pré-requisitos
 
-Para obter os pré-requisitos para usar o Enhanced Analytics, consulte a seção &quot;Pré-requisitos&quot; em [Visão geral da análise aprimorada](../enhanced-analytics/enhanced-analytics-overview.md#prerequisites).
+Para obter os pré-requisitos para usar o Enhanced Analytics, consulte a seção &quot;Pré-requisitos&quot; em [Visão geral da análise aprimorada](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Entender a visualização de Burndown
 
@@ -152,7 +152,7 @@ Para saber como obter os melhores dados para essa visualização, consulte [Vis�
    >Se a velocidade real for uma linha plana que roda ao longo do eixo x (em linha com 0 horas ou 0 dias) da visualização, isso significa que nenhuma hora planejada (ou dias) foi adicionada ao projeto.\
    >Se a velocidade real for uma linha plana acima do eixo x (em linha com um número de horas ou número de dias) que nunca cai, significa que nenhuma tarefa foi concluída dentro do período filtrado.
 
-1. (Opcional) Para exportar os dados de visualização, clique no link **Exportar** ícone ![Ícone Exportar](assets/export.png)no canto superior direito da visualização e selecione o formato de exportação:
+1. (Opcional) Para exportar os dados de visualização, clique no link **Exportar** ícone ![Ícone Exportar](assets/export.png) no canto superior direito da visualização e selecione o formato de exportação:
 
    * Gráfico (PNG)
    * Tabela de dados (XSLX)
