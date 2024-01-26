@@ -2,20 +2,22 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Criar um modelo de projeto
-description: É possível criar e excluir modelos na área Modelos. Ao criar um novo modelo, você pode inserir as informações de todas as tarefas e todas as informações para suas configurações de projeto futuras. Essas informações serão transferidas para o projeto quando você criá-las a partir do modelo.
+description: É possível criar e excluir modelos na área Modelos. Ao criar um novo modelo, você pode inserir as informações de todas as tarefas e das configurações futuras do projeto. Essas informações serão transferidas para qualquer projeto criado a partir do modelo.
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: 094a54d2d1f6445aa9611152cb632d85be74bbeb
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
 
 # Criar um modelo de projeto
 
-É possível criar e excluir modelos na área Modelos. Ao criar um novo modelo, você pode inserir as informações de todas as tarefas e todas as informações para suas configurações de projeto futuras. Essas informações serão transferidas para o projeto quando você criá-las a partir do modelo.
+<!-- Audited: 1/2024 -->
+
+É possível criar e excluir modelos na área Modelos. Ao criar um novo modelo, você pode inserir as informações de todas as tarefas e das configurações futuras do projeto. Essas informações serão transferidas para qualquer projeto criado a partir do modelo.
 
 >[!NOTE]
 >
@@ -33,7 +35,7 @@ Você pode criar um novo modelo das seguintes maneiras:
 
   Para obter mais informações sobre como copiar um modelo existente, consulte [Copiar um modelo de projeto](../../../manage-work/projects/create-and-manage-templates/copy-template.md).
 
-* Se você for um administrador do Workfront, poderá criar modelos importando Blueprints. Para obter informações, consulte [Configurar um blueprint](../../../administration-and-setup/blueprints/configure-template-package.md).
+* Importando blueprints. Você precisa ser um administrador do Workfront para importar Blueprints. Para obter informações, consulte [Configurar um blueprint](../../../administration-and-setup/blueprints/configure-template-package.md).
 
 ## Requisitos de acesso
 
@@ -44,29 +46,29 @@ Você deve ter o seguinte:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Administrador do sistema para importar modelos de blueprints</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Novo: Padrão </p><p>Ou </p><p>Atual: Plano </p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Você precisa ser um administrador do sistema para importar modelos de blueprints</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a modelos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Editar acesso a modelos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Por padrão, você tem permissões de gerenciamento para os modelos que criar</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Por padrão, você tem permissões de gerenciamento para os modelos que criar</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Criar um modelo
 
-1. No **Menu principal** ![](assets/main-menu-icon.png) click **Modelos**.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Modelos**.
 
 1. Clique em **Novo modelo**.
 
@@ -101,8 +103,8 @@ Você deve ter o seguinte:
    Para obter informações sobre como editar um modelo, consulte [Editar modelos de projeto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 1. Clique em **Salvar alterações**.
-1. (Opcional) Se quiser adicionar mais itens ao modelo, consulte a seção [Adicionar mais itens a um modelo](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#adding-items-to-template) no artigo [Editar modelos de projeto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+1. (Opcional) Se quiser adicionar mais itens ao modelo, consulte a seção [Adicionar mais itens a um modelo](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template) no artigo [Editar modelos de projeto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ## Configurações de modelo determinadas pela associação de grupo
 
-A associação de um modelo de projeto a um grupo (ou a falta dele) afeta como as preferências de projeto, tarefa e problema determinam determinadas configurações no modelo. Para obter mais informações, consulte a seção [Criar e modificar os modelos de projeto de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#template2) no artigo [Criar e modificar os modelos de projeto de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+A associação de um modelo de projeto a um grupo (ou a falta de um grupo) afeta como as preferências do projeto, da tarefa e do problema determinam determinadas configurações no modelo. Para obter mais informações, consulte a seção [Criar e modificar os modelos de projeto de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates) no artigo [Criar e modificar os modelos de projeto de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).

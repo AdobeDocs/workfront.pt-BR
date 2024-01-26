@@ -6,9 +6,9 @@ description: Um programa representa uma coleção de projetos que compartilham u
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
+source-git-commit: 6a734a7e8f8b1e717c5ec02fc803a14057f5a052
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
-   <td> <p>Qualquer</p></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano</td>
+
+<td> <p>Novo: Qualquer um</p><p>Ou</p><p>Atual: [!UICONTROL Business] ou superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
    <td> <p>Novo: [!UICONTROL Padrão] </p><p>Ou </p><p>Atual: [!UICONTROL Plano] </p> </td> 
   </tr> 
   <tr> 

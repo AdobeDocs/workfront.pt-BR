@@ -6,19 +6,22 @@ description: Você pode delegar temporariamente o trabalho ao qual está atribu�
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 42601f701e4109320e9e7b3f3f4275dee59bad97
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 1%
+source-wordcount: '1449'
+ht-degree: 0%
 
 ---
 
 # Gerenciar delegação de tarefas e problemas
 
+<!-- Audited: 1/2024 -->
+
+
 <!--
 <NOTE: 
 <you might need to change the tile to Delegate PTI, etc, when that functionality is added. Named it this so it will not conflict with the TOC article for Delegate section which was also "Delegate work"
-I wrote thhis as a "Manage..." article and I did not add three separate articles, to match what we have for delegating approval requests)
+I wrote this as a "Manage..." article and I did not add three separate articles, to match what we have for delegating approval requests)
 -->
 
 Você pode delegar temporariamente o trabalho ao qual está atribuído enquanto estiver fora do escritório.
@@ -35,10 +38,10 @@ Para obter informações gerais sobre a delegação de trabalho, consulte [Deleg
 >* As permissões devem funcionar dentro de seus níveis de acesso e, às vezes, seus níveis de acesso podem ser inferiores aos seus.
 >
 >   
->   Por exemplo, se um usuário tiver somente o acesso de Visualização às tarefas em seu nível de acesso e você tiver permissões de Gerenciamento nas tarefas que você delegar a ele, ele receberá permissões de Gerenciamento para as tarefas que você delegar a ele. No entanto, eles não poderão executar as mesmas ações que você nas tarefas delegadas. Eles devem solicitar ao administrador do sistema o acesso para Editar tarefas para poderem atualizá-las quando estiverem ausentes.
+>   Por exemplo, se um usuário tiver somente o acesso de Visualização às tarefas em seu nível de acesso e você tiver permissões de Gerenciamento nas tarefas que você delegar a ele, ele receberá permissões de Gerenciamento para as tarefas que você delegar a ele. No entanto, eles não poderão executar as mesmas ações que você nas tarefas delegadas. Para poder atualizar tarefas em sua ausência, é necessário solicitar ao administrador do sistema o acesso para Editar tarefas.
 >
 >   
->   Para obter informações sobre como um usuário pode modificar seu nível de acesso, consulte [Criar ou modificar níveis de acesso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>   Para obter informações sobre como um administrador do sistema pode modificar seu nível de acesso, consulte [Criar ou modificar níveis de acesso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 >
 >* Para itens atribuídos após a delegação já iniciada, pode levar até uma hora depois que o item foi atribuído para [!DNL Workfront] para compartilhar os itens recentemente atribuídos com o delegado.
 
@@ -50,31 +53,32 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
-   <td> <p>Revisar ou superior</p>
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td> <p>Novo: Colaborador ou superior</p><p>Ou</p><p>Atual: revisão ou superior</p>
 
 >[!NOTE]
 >
->Embora você possa ser designado para trabalhar quando tiver uma licença de Solicitação, não poderá delegar seu trabalho a outras pessoas. [!DNL Workfront] não recomenda atribuir trabalho aos usuários Revisão ou Solicitação.
+>Embora você possa ser designado para trabalhar quando tiver uma licença de Solicitação, não poderá delegar seu trabalho a outras pessoas. [!DNL Workfront] não recomenda atribuir trabalho aos usuários Revisão, Solicitação ou Colaborador.
 
 </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a tarefas e problemas Se você ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais no seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a tarefas e problemas 
+     </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
    <td> <p>Visualize ou aumente as permissões para as tarefas ou problemas aos quais você está atribuído</p> 
-    <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--note from the table for Object permissions:
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner (NOTE:&nbsp;you cannot delegate projects yet)</p>
@@ -92,7 +96,7 @@ Antes de executar as atividades descritas neste artigo, você deve garantir o se
 
 Antes de delegar trabalho a outras pessoas, recomendamos que você entre em contato com elas e informe que elas serão designadas como delegados em seus itens de trabalho. Solicite a aprovação verbal deles antes de delegar o trabalho para garantir que eles tenham o tempo necessário para concluir o trabalho enquanto você estiver fora do escritório.
 
-Para obter informações gerais sobre a delegação de tarefas e problemas, consulte [Delegar visão geral de tarefas e problemas](delegate-work.md).
+Para obter informações gerais sobre a delegação de tarefas e problemas, consulte [Delegar visão geral de tarefas e problemas](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
 
 Para delegar tarefas e problemas a outras pessoas:
 
@@ -102,9 +106,9 @@ Para delegar tarefas e problemas a outras pessoas:
 
 1. No [!UICONTROL **Delegar tarefas e problemas**] , atualize o seguinte:
 
-   * [!UICONTROL **Delegar tarefas e problemas a**]: comece digitando o nome de um usuário ao qual você deseja que suas tarefas e problemas sejam delegadas e, em seguida, selecione-o quando ele for exibido na lista. Você só pode selecionar um usuário.\
+   * [!UICONTROL **Delegar tarefas e problemas a**]: comece digitando o nome de um usuário ao qual você deseja que suas tarefas e problemas sejam delegadas e, em seguida, selecione-o quando ele for exibido na lista. Você só pode selecionar um usuário.
 
-     O usuário selecionado como representante recebe as mesmas permissões que suas permissões nas tarefas e problemas que você delega a ele. Para obter mais informações, consulte [Delegar visão geral de tarefas e problemas](delegate-work-overview.md).
+     O usuário selecionado como representante recebe as mesmas permissões que suas permissões nas tarefas e problemas que você delega a ele.
 
    * [!UICONTROL **Data inicial**]: selecione uma data no calendário em que a delegação dos itens de trabalho deve começar.
 
@@ -118,7 +122,7 @@ Para delegar tarefas e problemas a outras pessoas:
 
      >[!TIP]
      >
-     >Não selecionar uma Data de término permite a delegação somente para o dia atual.
+     >Se você deixar o campo Data final vazio e a opção Sem data final não estiver selecionada, a delegação será definida somente para o dia atual.
 
      ![](assets/delegate-box-expanded-in-home.png)
 
@@ -128,14 +132,14 @@ Para delegar tarefas e problemas a outras pessoas:
 
    * Seu trabalho é delegado ao usuário especificado. Qualquer tarefa incompleta ou problema que tenha datas dentro do período selecionado (incluindo as recentemente atribuídas, após a delegação ter sido habilitada) é delegado.
 
-   >[!TIP]
-   >
-   >   Itens de trabalho concluídos que têm datas dentro do período de delegação não são delegados.
+     >[!TIP]
+     >
+     >   Itens de trabalho concluídos que têm datas dentro do período de delegação não são delegados.
 
 
    * Você receberá uma mensagem no canto superior direito da tela para confirmar que ativou a delegação do seu trabalho para outro usuário. O nome do usuário delegado é exibido na mensagem de confirmação.
 
-   * Uma indicação de que suas tarefas e problemas estão delegados a outros usuários é exibida na maioria das áreas em que você pode ver as atribuições no [!DNL Workfront]. Para obter mais informações sobre quais áreas não incluem nomes de representantes, consulte [Delegar visão geral de tarefas e problemas](delegate-work-overview.md).
+   * Uma indicação de que suas tarefas e problemas estão delegados a outros usuários é exibida na maioria das áreas em que você pode ver as atribuições no [!DNL Workfront]. Para obter mais informações sobre quais áreas não incluem nomes de representantes, consulte [Delegar visão geral do trabalho](delegate-work-overview.md).
 
    * A variável [!UICONTROL **Delegar**] botão na caixa [!UICONTROL Início] alterações de área para [!UICONTROL **Editar delegação**] para indicar que há uma delegação em vigor.
    <!--
@@ -151,9 +155,6 @@ Para delegar tarefas e problemas a outras pessoas:
    * O usuário selecionado como seu representante receberá um email sobre a delegação, se as notificações de evento estiverem habilitadas.
 
      Para obter informações sobre como ativar notificações por email pessoais, consulte [Modificar suas próprias notificações por email](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
-
-
-
 
 ## Editar ou parar delegação
 
@@ -201,9 +202,9 @@ Você pode acessar o [!UICONTROL Atribuições] nas seguintes áreas:
 
 * O cabeçalho da tarefa ou do problema
 
-  ![](assets/assignments-and-delegates-panel-in-task-header.png)
-
   A variável [!UICONTROL Atribuições] no cabeçalho da tarefa ou problema for alterado para [!UICONTROL Atribuições e delegações].
+
+  ![](assets/assignments-and-delegates-panel-in-task-header.png)
 
 * A variável [!UICONTROL Balanceador de carga de trabalho] ao atribuir tarefas ou problemas manualmente
 
@@ -232,8 +233,8 @@ Se uma tarefa ou um problema for delegado e a variável [!UICONTROL Delegações
    ![](assets/delegated-to-me-or-by-me-filters-in-home.png)
 
 1. Clique em [!UICONTROL classificação] menu suspenso para classificar a lista pelos seguintes critérios:
-   * [!UICONTROL Conclusão planejada]. Esta é a opção de classificação padrão.
-   * [!UICONTROL Início planejado]
+   * [!UICONTROL Término Planejado]. Esta é a opção de classificação padrão.
+   * [!UICONTROL Início Planejado]
    * [!UICONTROL Data de confirmação]
    * [!UICONTROL Projeto]
    * [!UICONTROL Minhas Prioridades]

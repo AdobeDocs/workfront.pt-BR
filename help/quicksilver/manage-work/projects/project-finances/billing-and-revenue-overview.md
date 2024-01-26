@@ -7,14 +7,16 @@ description: Como gerente de projeto, você pode usar taxas de faturamento para 
 author: Alina, Lisa
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: c485676fb5584e8438823e9ce0c28b551f6bab45
 workflow-type: tm+mt
-source-wordcount: '3657'
+source-wordcount: '3691'
 ht-degree: 0%
 
 ---
 
 # Visão geral de faturamento e receita
+
+<!-- Audited: 1/2024 -->
 
 {{highlighted-preview}}
 
@@ -26,7 +28,7 @@ Este artigo descreve o rastreamento da receita de projetos do. A receita é calc
 
 Considere o seguinte ao trabalhar com taxas de faturamento:
 
-* Você precisa de uma licença de Plano com acesso de Edição a Dados Financeiros para gerenciar taxas de cobrança.\
+* Você precisa de uma licença Plan ou Standard com acesso Edit to Financial Data para gerenciar taxas de faturamento.\
   Para obter mais informações sobre como conceder acesso a Dados Financeiros, consulte [Conceder acesso a dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 * As taxas de cobrança são quantias de receita por unidade de trabalho associada a funções de trabalho ou usuários.
@@ -45,7 +47,7 @@ Considere o seguinte ao trabalhar com taxas de faturamento:
 
 >[!IMPORTANT]
 >
->As taxas que calculam a receita pertencem ao usuário que está registrando o tempo ou às suas funções de trabalho.
+>As taxas que calculam a receita pertencem ao usuário que está registrando o horário ou a suas funções de trabalho.
 
 * [Taxas de Cobrança do Usuário](#user-billing-rates)
 * [Taxas de Cobrança de Função de Trabalho](#job-role-billing-rates)
@@ -62,13 +64,13 @@ Para obter mais informações sobre como criar usuários, consulte o artigo [Adi
 
 ### Taxas de Cobrança de Função de Trabalho {#job-role-billing-rates}
 
-Como administrador do Adobe Workfront, ao criar uma função de trabalho, você pode associá-la às Taxas de Faturamento de data efetiva especificando valores para os campos Faturamento por Hora e as datas para as taxas.
+Como administrador do Adobe Workfront, ao criar uma função de trabalho, você pode associá-la a Taxas de cobrança efetivas por data especificando valores para os campos Faturamento por hora e as datas para as taxas.
 
 Você pode definir o valor de uma taxa de cobrança de função de trabalho usando a Moeda base do sistema Workfront ou usando outra moeda personalizada.
 
 Para obter mais informações sobre como criar funções de trabalho e substituir sua moeda, consulte o artigo [Criar e gerenciar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-![Editar taxas de custo e cobrança de função de trabalho](assets/edit-job-role-multiple-billing-rates.png)
+![Editar taxas de custo e cobrança de função de trabalho](assets/edit-job-role-multiple-billing-rates-new.png)
 
 ### Taxas de Cobrança Fixas para projetos ou tarefas {#fixed-billing-rates-for-projects-or-tasks}
 
@@ -109,22 +111,22 @@ A tabela a seguir mostra os tipos de receita associados a tarefas, problemas e p
  <tbody> 
   <tr> 
    <td role="rowheader">Receita Planejada</td> 
-   <td> <p>Para tarefas, essa é a receita associada às Horas planejadas das tarefas. As horas planejadas de todas as tarefas são acumuladas nas horas planejadas do projeto para contribuir no cálculo das horas planejadas do projeto. </p> <p>Para obter mais informações sobre o Trabalho necessário no Workfront, consulte <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Visão geral das Horas planejadas</a>. </p> <p>O Workfront calcula a Receita Planejada para tarefas usando esta fórmula:</p>
-   <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code><p> <p><strong>NOTA</strong></br> A taxa horária de faturamento na fórmula considera quaisquer alterações de data de efetivação da taxa.</p> <p>O Workfront calcula a Receita Planejada para projetos usando a seguinte fórmula:</p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code></p>
+   <td> <p>Para tarefas, essa é a receita associada às Horas planejadas das tarefas. As horas planejadas de todas as tarefas são acumuladas nas horas planejadas do projeto para contribuir no cálculo das horas planejadas do projeto. </p> <p>Para obter mais informações sobre o Trabalho necessário no Workfront, consulte <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Visão geral das Horas planejadas</a>. </p> <ul><li><p>O Workfront calcula a Receita Planejada para tarefas usando esta fórmula:</p>
+   <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code><p> <p><strong>NOTA</strong></br> A taxa horária de faturamento na fórmula considera quaisquer alterações de data de efetivação da taxa.</p> </li><li><p>O Workfront calcula a Receita Planejada para projetos usando a seguinte fórmula:</p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code></p>
    <p><b>Nota</b>
 
-<p>A Receita Planejada do projeto exibida na área Detalhes do Projeto e nos relatórios do projeto é diferente da Receita Planejada exibida no relatório de Utilização. </p> <p>A Receita Planejada na área Detalhes do Projeto reflete a receita da tarefa associada às Horas Planejadas da tarefa, bem como a Receita Fixa do projeto. A Receita Planejada no Relatório de Utilização exibe a Receita Planejada associada apenas às Horas Planejadas das atribuições de tarefa no projeto. </p> 
+<p>A Receita Planejada do projeto exibida na área Detalhes do Projeto e nos relatórios do projeto é diferente da Receita Planejada exibida no relatório de Utilização. </p></li></ul> <p>A Receita Planejada na área Detalhes do Projeto reflete a receita da tarefa associada às Horas Planejadas da tarefa, bem como a Receita Fixa do projeto. A Receita Planejada no Relatório de Utilização exibe a Receita Planejada associada apenas às Horas Planejadas das atribuições de tarefa no projeto. </p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p>Se o projeto tiver uma tarefa com 10 horas, atribuída a um Consultor com uma taxa horária de US$ 20, e o projeto tiver uma Receita Fixa de US$ 100, o relatório de Utilização exibirá US$ 200 para a Receita Planejada (a Receita Planejada associada às horas na tarefa). A seção Detalhes do Projeto exibe US$ 300 (a Receita Planejada da tarefa e a Receita Fixa do projeto). </p> 
      </div> </p> <p>A Receita Planejada da Tarefa é calculada usando as taxas horárias de Faturamento dos usuários ou funções de trabalho atribuídas às tarefas. O Tipo de receita das tarefas influencia qual taxa (usuário ou função) é usada para calcular a receita planejada. Para obter mais informações, consulte as seguintes seções neste artigo:</p> 
     <ul> 
      <li> <p><a href="#overview-of-task-revenue-types" class="MCXref xref">Visão Geral dos Tipos de Receita da tarefa</a> </p> </li> 
      <li> <p><a href="#revenue-calculations-for-tasks-based-on-user-and-role-assignments" class="MCXref xref">Cálculos de receita para tarefas baseadas em atribuições de Usuário e Função</a> </p> </li> 
-    </ul> <p>Para obter informações sobre cálculos de Receita Planejada no relatório de Utilização, consulte <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Exibir informações de utilização de recursos </a>. </p> </td> 
+    </ul> <p>Para obter informações sobre cálculos de Receita Planejada no relatório de Utilização, consulte <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Exibir informações de utilização de recursos</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Receita Efetivo*</td> 
-   <td> <p>Associado às Horas Reais de tarefas, problemas e projetos. </p> <p>Geralmente, o Workfront calcula a Receita Real usando esta fórmula:</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p><strong>NOTA</strong></br> A taxa horária de faturamento na fórmula considera quaisquer alterações de data de efetivação da taxa.</p> <p>Para obter informações sobre cálculos de Receita Real no Relatório de Utilização, consulte <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Exibir informações de utilização de recursos </a>. </p> <p><b>DICA</b>
+   <td role="rowheader">Receita Efetiva*</td> 
+   <td> <p>A receita associada às Horas Reais de tarefas, problemas e projetos. </p> <p>Geralmente, o Workfront calcula a Receita Real usando esta fórmula:</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p><strong>NOTA</strong></br> A taxa horária de faturamento na fórmula considera quaisquer alterações de data de efetivação da taxa.</p> <p>Para obter informações sobre cálculos de Receita Real no Relatório de Utilização, consulte <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Exibir informações de utilização de recursos</a>. </p> <p><b>DICA</b>
 
 Não é possível exibir a Receita Efetiva no nível da emissão, mas a receita associada às Horas Efetivas nas emissões contribui para a Receita Efetiva do projeto. </p> </td>
 </tr> 
@@ -167,7 +169,7 @@ Você pode aplicar os seguintes Tipos de Receita às suas tarefas ou projetos:
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>Tipo de Receita</strong> </p> </th> 
+   <th> <p><strong>Tipo de receita</strong> </p> </th> 
    <th> <p><strong>Descrição</strong> </p> </th> 
   </tr> 
  </thead> 
@@ -246,7 +248,7 @@ Ao calcular a receita de uma tarefa, considere o seguinte:
 
 Há uma hierarquia de qual taxa é usada nos cálculos de receita com base nas atribuições de tarefa.
 
-Se o administrador do Workfront ativou o **Atribuir funções de trabalho a entradas de hora manualmente** Se, na área Preferências de Horas e Planilhas de Horas, o tempo de registro do usuário no projeto selecionar uma função diferente para associar a este tempo, a Receita Efetiva da tarefa ou do projeto sempre será calculada com base na função associada à entrada de horas. Para obter informações sobre como ativar o tempo de registro para uma função de trabalho específica, consulte o artigo [Preferências de Horas e Planilha de Horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Se o administrador do Workfront ativou o **Atribuir funções de trabalho a entradas de hora manualmente** Se, na área Preferências de Horas e Planilhas de Horas, o tempo de registro do usuário no projeto selecionar uma função diferente para associar a este tempo, a Receita Efetiva da tarefa ou do projeto sempre será calculada com base na função associada à entrada de horas. Para obter informações sobre como ativar o tempo de registro para uma função de trabalho específica, consulte o artigo [Configurar preferências de horas e planilha de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 Os cenários a seguir existem ao calcular a receita da tarefa com base no Tipo de Receita e na natureza da atribuição da tarefa:
 
@@ -266,7 +268,7 @@ Os cenários a seguir existem ao calcular a receita da tarefa com base no Tipo d
     </tr> 
     <tr> 
      <td role="rowheader">Taxa por hora de faturamento para Receita Planejada</td> 
-     <td>$0.00</td> 
+     <td>$ 0,00</td> 
      <td> Se um usuário tiver uma taxa de faturamento em seu perfil, essa taxa será usada para calcular a Receita planejada. Caso contrário, será usada a taxa de cobrança do sistema da função de trabalho principal. <br><p><b>NOTA</b>  O usuário pode ser atribuído à tarefa com uma de suas funções de trabalho secundárias, mas a taxa da função de trabalho principal é usada aqui.</p><p>Se a função do usuário tiver sido alterada durante a atribuição, as taxas corretas serão aplicadas quando as finanças do projeto forem recalculadas.</p></td> 
      <td><p><span class="preview">Se um cartão de taxa estiver anexado ao projeto, a Receita Planejada será calculada com base na função de trabalho do cartão de taxa.</span></p> <p><span class="preview">As taxas de cobrança podem ser substituídas no nível do projeto.</span></p></td> 
     </tr> 
@@ -303,7 +305,7 @@ Os cenários a seguir existem ao calcular a receita da tarefa com base no Tipo d
     </tr> 
     <tr> 
      <td role="rowheader">Taxa por hora de faturamento para Receita Planejada</td> 
-     <td>$0.00</td> 
+     <td>$ 0,00</td> 
      <td><p>A Workfront analisa a função de trabalho que o usuário desempenha na tarefa para calcular a Receita planejada. <br>Se o usuário não estiver associado a nenhuma função na tarefa, a Receita será de US$ 0,00.</p> <p><strong>NOTA</strong><br>Se a função do usuário tiver sido alterada durante a atribuição, as taxas corretas serão aplicadas quando as finanças do projeto forem recalculadas.</p> </td> 
      <td><p><span class="preview">Se um cartão de taxa estiver anexado ao projeto, a Receita Planejada será calculada com base na função de trabalho do cartão de taxa.</span></p> <p><span class="preview">As taxas de cobrança podem ser substituídas no nível do projeto.</span></p></td> 
     </tr> 

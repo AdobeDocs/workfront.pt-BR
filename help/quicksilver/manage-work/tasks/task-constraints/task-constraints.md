@@ -2,24 +2,24 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: Restrições de Tarefa
+title: "Restrições de tarefa: índice do artigo"
 description: Restrições de Tarefa determinam quando uma tarefa deve iniciar e terminar em um projeto. Você pode usar várias Restrições de Tarefa para indicar quando uma tarefa deve começar e terminar. Para obter informações sobre todas as Restrições de tarefa no Workfront, consulte os artigos a seguir.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2e37b051-00ff-4784-bd8b-1897bb4ac80b
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 42601f701e4109320e9e7b3f3f4275dee59bad97
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
 
-# Restrições de Tarefa
+# Restrições de tarefa: índice do artigo
+
+<!-- Audited: 1/2024 -->
 
 Restrições de Tarefa determinam quando uma tarefa deve iniciar e terminar em um projeto. Você pode usar várias Restrições de Tarefa para indicar quando uma tarefa deve começar e terminar. Para obter informações sobre todas as Restrições de tarefa no Workfront, consulte os seguintes artigos:
-
-Esta seção contém os seguintes artigos:
 
 * [Visão geral de Restrição de Tarefa](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)
 * [Atualizar a Restrição de Tarefa de uma tarefa](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md)

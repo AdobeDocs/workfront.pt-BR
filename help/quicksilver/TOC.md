@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 1d760fbad6633fac988278b14d630a0aad3f4b76
+source-git-commit: 6a734a7e8f8b1e717c5ec02fc803a14057f5a052
 workflow-type: tm+mt
-source-wordcount: '13881'
+source-wordcount: '13885'
 ht-degree: 0%
 
 ---
@@ -1073,7 +1073,7 @@ ht-degree: 0%
       * [Dicas, truques e solução de problemas para agile](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
       * [Status personalizados não são exibidos no storyboard do Agile](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
 * Documentos {#documents}
-   * [Documentos](documents/documents-overview.md)
+   * [Documentos: índice do artigo](documents/documents-overview.md)
    * Adicionar novos documentos ao Adobe Workfront {#add-new-documents-to-workfront}
       * [Adicionar novos documentos ao Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
       * [Adicionar documentos ao Adobe Workfront a partir do sistema de arquivos](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
@@ -1322,7 +1322,7 @@ ht-degree: 0%
          * [Associar marcos a tarefas](manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
          * [Converter uma tarefa em um projeto](manage-work/tasks/manage-tasks/convert-task-to-project.md)
       * Restrições de Tarefa {#task-constraints}
-         * [Restrições de Tarefa](manage-work/tasks/task-constraints/task-constraints.md)
+         * [Restrições de tarefa: índice do artigo](manage-work/tasks/task-constraints/task-constraints.md)
          * [Visão geral de Restrição de Tarefa](manage-work/tasks/task-constraints/task-constraint-overview.md)
          * [Visão geral de Restrição de tarefa: não iniciar depois de](manage-work/tasks/task-constraints/start-no-later-than.md)
          * [Visão geral de Restrição de tarefa: não iniciar antes de](manage-work/tasks/task-constraints/start-no-earlier-than.md)
