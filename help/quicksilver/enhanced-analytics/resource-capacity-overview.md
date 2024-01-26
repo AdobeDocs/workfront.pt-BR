@@ -3,20 +3,20 @@ title: Exibir a visualização Capacidade do recurso na Análise aprimorada
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: A visualização Capacidade do recurso mostra se uma equipe está acima, abaixo ou na capacidade.
+description: Você pode avaliar se uma equipe terminou, está abaixo ou na capacidade ao visualizar o gráfico de visualização Capacidade de recursos de análise aprimorada no Adobe Workfront.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
 
 # Exibir a visualização Capacidade do recurso na Análise aprimorada
 
-A visualização Capacidade do recurso mostra se uma equipe está acima, abaixo ou na capacidade.
+Você pode avaliar se uma equipe terminou, está abaixo ou na capacidade ao visualizar o gráfico de visualização Capacidade de recursos de análise aprimorada no Adobe Workfront.
 
 ## Requisitos de acesso
 
@@ -27,33 +27,38 @@ Você deve ter o seguinte:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">plano do Adobe Workfront</a>*</td> 
-   <td> <p>Business ou superior</p> </td> 
+   <td>plano do Adobe Workfront</a>*</td> 
+   <td> <p>Atual: Comercial ou superior</p>
+   Ou
+   <p>Novo: Qualquer um</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças do Adobe Workfront</a>*</td> 
-   <td> <p>Revisar ou superior</p> </td> 
+   <td>Licença da Adobe Workfront*</td> 
+   <td> <p>Atual: revisão ou superior</p>
+   Ou
+   <p>Novo: Padrão</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Visualizar acesso aos projetos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso.<br>Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuração do nível de acesso</td> 
+   <td> <p>Visualizar acesso aos projetos</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exibir permissão em um projeto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront. Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Pré-requisitos
 
 Para obter os pré-requisitos para usar o Enhanced Analytics, consulte a seção &quot;Pré-requisitos&quot; em [Visão geral da análise aprimorada](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Entender a visualização da capacidade do recurso
+## Entender o gráfico de capacidade de recursos
 
-A visualização Capacidade do recurso mostra se uma equipe está acima, abaixo ou na capacidade. Este cálculo é baseado em:
+O gráfico Capacidade do recurso mostra se uma equipe está acima, abaixo ou na capacidade. Este cálculo é baseado em:
 
 * **Capacidade disponível**: a quantidade total de horas que uma equipe da página inicial tem disponíveis para trabalhar no período filtrado
 
