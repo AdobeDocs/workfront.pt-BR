@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: ca3ded2d18f369a0859efce49d185fa0de4cf54f
+source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
 workflow-type: tm+mt
-source-wordcount: '2105'
-ht-degree: 1%
+source-wordcount: '2108'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
@@ -60,7 +60,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 * [[!UICONTROL Padrões de nova tarefa]](#new-task-defaults)
 * [[!UICONTROL Problemas]](#issues)
-* [[!UICONTROL Exclusão.]](#deletion)
+* [[!UICONTROL Exclusão]](#deletion)
 * [[!UICONTROL Datas Efetivas]](#actual-dates)
 * [[!UICONTROL Delegação]](#delegation)
 
@@ -68,7 +68,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
   -->
 
-* [[!UICONTROL Acesso]](#access)
+* [[!UICONTROL Access]](#access)
 
 ### [!UICONTROL Padrões de nova tarefa] {#new-task-defaults}
 
@@ -82,7 +82,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Tipo de Duração] </p> </td> 
-   <td> <p>Determina a relação entre o número de recursos (e sua porcentagem de alocação) e a duração ou o esforço total da tarefa. Para obter mais informações, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Duração da tarefa e tipos de duração</a></p> </td> 
+   <td> <p>Determina a relação entre o número de recursos (e sua porcentagem de alocação) e a duração ou o esforço total da tarefa. Para obter mais informações, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Tipos de duração e duração da tarefa: índice do artigo</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tipo de Receita]</td> 
@@ -113,7 +113,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader" [!UICONTROL>Ao converter um problema em uma tarefa]</td> 
    <td> <p>As configurações nesta seção determinam o que acontece durante o processo de conversão de problema em tarefa:</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Manter o problema original e vincular sua resolução à tarefa]</strong>: quando você está convertendo o problema, ele permanece visível como um problema até que a tarefa seja concluída. O status do problema muda automaticamente para [!UICONTROL Fechado] quando a tarefa é concluída. Quando essa opção não está selecionada, o problema é excluído.</p> <p><b>Nota</b>:  <p>Os usuários sem acesso ou permissões para excluir problemas não poderão excluir o problema como estão convertendo-o, independentemente do status dessa configuração. Para obter informações sobre acesso e permissões para problemas, consulte:</p> 
+     <li> <p><strong>[!UICONTROL Manter o problema original e vincular sua resolução à tarefa]</strong>: quando você está convertendo o problema, ele permanece visível como um problema até que a tarefa seja concluída. O status do problema muda automaticamente para [!UICONTROL Fechado] quando a tarefa é concluída. Quando essa opção não está selecionada, o problema é excluído.</p> <p><b>NOTA</b>:  <p>Os usuários sem acesso ou permissões para excluir problemas não poderão excluir o problema como estão convertendo-o, independentemente do status dessa configuração. Para obter informações sobre acesso e permissões para problemas, consulte:</p> 
        <ul> 
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acesso a problemas</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartilhar um problema </a> </p> </li> 
@@ -128,7 +128,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader">[!UICONTROL Ao converter um problema em um projeto]</td> 
    <td> <p>As configurações nesta seção determinam o que acontece durante o processo de conversão de problema em projeto:</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Manter o problema original e vincular sua resolução ao projeto]</strong>: quando você está convertendo o problema, ele permanece visível como um problema até que o projeto seja concluído. O status do problema muda automaticamente para [!UICONTROL Encerrado] quando o projeto é concluído. Quando essa opção não está selecionada, o problema é excluído. </p> <p><b>Nota</b>:  <p>Os usuários sem acesso ou permissões para excluir problemas não poderão excluir o problema como estão convertendo-o, independentemente do status dessa configuração. Para obter informações sobre acesso e permissões para problemas, consulte:</p> 
+     <li> <p><strong>[!UICONTROL Manter o problema original e vincular sua resolução ao projeto]</strong>: quando você está convertendo o problema, ele permanece visível como um problema até que o projeto seja concluído. O status do problema muda automaticamente para [!UICONTROL Encerrado] quando o projeto é concluído. Quando essa opção não está selecionada, o problema é excluído. </p> <p><b>NOTA</b>:  <p>Os usuários sem acesso ou permissões para excluir problemas não poderão excluir o problema como estão convertendo-o, independentemente do status dessa configuração. Para obter informações sobre acesso e permissões para problemas, consulte:</p> 
        <ul> 
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acesso a problemas</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartilhar um problema </a> </p> </li> 
@@ -140,7 +140,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-### [!UICONTROL Exclusão.] {#deletion}
+### [!UICONTROL Exclusão] {#deletion}
 
 **[!UICONTROL Permitir que os usuários excluam tarefas e problemas com horas reportadas]**: permite determinar se você permite a exclusão de tarefas ou problemas em que as horas são registradas. Essa opção é selecionada por padrão.
 
@@ -224,7 +224,7 @@ I have not had a chance to follow up with customers to verify if this is still a
 </note>
 -->
 
-### [!UICONTROL Acesso] {#access}
+### [!UICONTROL Access] {#access}
 
 <table style="table-layout:auto"> 
  <col> 

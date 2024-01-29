@@ -2,22 +2,24 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: Duração da tarefa e tipos de duração
+title: "Duração da tarefa e tipos de duração: índice do artigo"
 description: O Tipo de Duração de uma tarefa identifica a relação entre o número de recursos atribuídos a uma tarefa, o esforço total e a Duração total da tarefa. Saiba mais sobre a duração e o tipo de duração da tarefa nos artigos a seguir.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: df6cd9bc-e34f-4e84-8a1b-484a6bffe53c
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
 
-# Duração da tarefa e tipos de duração
+# Tipos de duração e duração da tarefa: índice do artigo
 
-Esta seção contém os seguintes artigos:
+<!-- Audited: 1/2024 -->
+
+Esse índice contém links para os seguintes artigos:
 
 * [Visão Geral da Duração da Tarefa e do Tipo de Duração](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
 * [Atualizar o tipo de duração de uma tarefa](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md)

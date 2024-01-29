@@ -6,11 +6,11 @@ keywords: user,schedule
 navigation-topic: configure-timesheets-and-schedules
 title: Visão geral dos cronogramas
 description: Você pode definir sua semana de trabalho usando programações. Você pode associar um agendamento a um usuário ou projeto. Isso permite [!DNL Adobe Workfront] para calcular as linhas do tempo e a disponibilidade dos usuários. Para obter instruções, consulte Criar um agendamento.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 32da139d7385e05436a669bdc6f36b71ad83c8d2
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -19,15 +19,15 @@ ht-degree: 0%
 
 # Visão geral dos cronogramas
 
+<!-- Audited: 1/2024 -->
+
 Você pode definir sua semana de trabalho usando cronogramas e associar um cronograma a um usuário ou projeto. Isso permite [!DNL Adobe Workfront] para calcular as linhas do tempo e a disponibilidade dos usuários. Para obter instruções, consulte [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 Leve em consideração o seguinte ao trabalhar com programações no Workfront:
 
 * A variável [!DNL Workfront] o administrador identifica as horas de operação da organização em uma programação.
 
-  Da mesma forma, um administrador de grupo pode identificar as horas de operação de um agendamento administrado por um grupo gerenciado por ele.
-
-  Para obter mais informações sobre administradores de grupo, consulte [Administradores de grupo](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+  Da mesma forma, um administrador de grupo pode identificar as horas de operação de um agendamento administrado por um grupo gerenciado por ele. Para obter mais informações sobre administradores de grupo, consulte [Administradores de grupo](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
   Por exemplo, uma programação pode ser definida como: de segunda a sexta-feira, das 8h às 17h, com um intervalo de uma hora para almoço.
 

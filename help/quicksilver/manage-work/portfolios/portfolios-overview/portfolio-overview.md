@@ -2,60 +2,67 @@
 content-type: overview
 product-area: portfolios
 navigation-topic: portfolios-overview
-title: Visão geral do Portfolio em [!DNL Adobe Workfront]
-description: Um Portfolio é uma coleção de projetos que têm características unificadoras. Esses projetos geralmente competem pelos mesmos recursos, orçamento ou período. É possível dividir o Portfolio em Programas e associar os projetos aos Programas antes que eles sejam adicionados a um Portfolio.
+title: visão geral do Portfolio em [!DNL Adobe Workfront]
+description: Um Portfolio é uma coleção de projetos que têm características unificadoras. Esses projetos geralmente competem pelos mesmos recursos, orçamento ou período. Você pode dividir os Portfolio em Programas e associar os projetos aos Programas antes que sejam adicionados a um Portfolio.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: b340501e-1190-415e-aa96-5aad177c4b7b
-source-git-commit: cf6356151e7f39f71c0524c1aa33f36dfac3792c
+source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
 
-# Visão geral do Portfolio em [!DNL Adobe Workfront]
+# visão geral do Portfolio em [!DNL Adobe Workfront]
 
-Um Portfolio é uma coleção de projetos que têm características unificadoras. Esses projetos geralmente competem pelos mesmos recursos, orçamento ou período. É possível dividir o Portfolio em Programas e associar os projetos aos Programas antes que eles sejam adicionados a um Portfolio.
+<!-- Audited: 1/2024 -->
 
-Você pode usar Portfolio e Programas para organizar projetos. Ao organizar projetos, você pode comparar projetos semelhantes e determinar onde os recursos serão mais bem gastos.
+Um Portfolio é uma coleção de projetos que têm características unificadoras. Esses projetos geralmente competem pelos mesmos recursos, orçamento ou período. Você pode dividir os Portfolio em Programas e associar os projetos aos Programas antes que sejam adicionados a um Portfolio.
+
+Você pode usar Portfolio e Programas para organizar projetos. Por meio da organização de projetos, é possível comparar projetos semelhantes e determinar onde os recursos serão mais bem gastos.
 
 ## Acesso necessário para criar portfólios
 
-Você deve ter [!UICONTROL Editar] acesso ao Portfolio em seu nível de acesso para criar e gerenciar o Portfolio e você deve ter [!UICONTROL Gerenciar] permissões em um Portfolio para poder editá-lo. Você deve ter [!UICONTROL Exibir] permissões em um Portfolio para poder visualizá-lo.\
-Para obter informações sobre o acesso ao Portfolio, consulte [Visão geral dos níveis de acesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
-Para obter informações sobre permissões para o Portfolio, consulte [Compartilhar um portfólio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+Você deve ter o seguinte acesso para criar e gerenciar portfólios:
 
-Para obter informações sobre como usar Programas, consulte [Criar um programa](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
+* [!UICONTROL Editar] acesso a Portfolio no seu nível de acesso para criar e gerenciar Portfolio
+* [!UICONTROL Gerenciar] permissões em um Portfolio para poder editá-lo
+* [!UICONTROL Exibir] permissões em um Portfolio para poder visualizá-lo
+
+Para obter informações sobre o acesso ao Portfolio, consulte [Visão geral dos níveis de acesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
+Para obter informações sobre permissões para Portfolio, consulte [Compartilhar um portfólio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+
+Para obter informações sobre o uso de Programas, consulte [Criar um programa](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
 
 ## [!DNL Adobe Workfront] metodologia de portfólio
 
-Em [!DNL Workfront], é possível adicionar projetos aos portfólios para criar e organizar os portfólios.
+Entrada [!DNL Workfront], você pode adicionar projetos a portfólios para criar e organizar seus portfólios.
 
-Recomendamos que você siga essas etapas para uma organização eficiente dos portfólios:
+Recomendamos que você siga estas etapas para uma organização eficiente dos seus portfólios:
 
-1. Crie um Caso de negócios para um projeto e associe o projeto a um Portfolio.
-1. Associe pools de recursos a projetos à medida que você constrói seu Caso de negócios.
-1. Obtenha o [!UICONTROL Caso de negócios] aprovado pelo seu gerente de Portfolio.
-1. Gerencie o desempenho de seus projetos no portfólio da [!UICONTROL Portfolio Otimizer].
+1. Crie um Business Case para um projeto e associe o projeto a um Portfolio.
+1. Associe Conjuntos de recursos a projetos à medida que você cria o Business Case deles.
+1. Obtenha o [!UICONTROL Business Case] aprovado pelo seu gerente de Portfolio.
+1. Gerencie o desempenho de seus projetos no portfólio na [!UICONTROL Otimizador de Portfolio].
 
-Para criar portfólios eficientes que agregam valor à sua organização, você deve começar com uma Solicitação de projeto, onde define o Caso de negócios para cada projeto que é adicionado posteriormente ao portfólio.
+Para criar portfólios eficientes que agreguem valor à sua organização, você deve começar com uma Solicitação de projeto na qual você define o Business Case de cada projeto que será adicionado posteriormente ao portfólio.
 
-O [!UICONTROL Caso de negócios] contém as seguintes informações:
+A variável [!UICONTROL Business Case] contém as seguintes informações:
 
-* Informações gerais sobre o projeto (descrição, atribuições de Portfolio e Programa, Proprietário e Patrocinador do Projeto)
-* Objetivos ou objetivos do projeto
+* Informações gerais sobre o projeto (descrição, atribuições de Portfolio e programa, proprietário e patrocinador do projeto)
+* As metas ou os objetivos do projeto
 * Custos estimados de despesas
-* Orçamentos de recursos para os custos da mão de obra
+* Orçamentos de recursos para custos de mão de obra
 * Uma pontuação de alinhamento
-* Uma avaliação dos riscos
+* Uma avaliação de riscos
 
-Para obter mais informações sobre o [!UICONTROL Caso de negócios], consulte [Criar um caso de negócios para um projeto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Para obter mais informações sobre o [!UICONTROL Business Case], consulte [Criar um Business Case para um projeto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-Esses elementos-chave são usados na variável [!UICONTROL otimizador de portfólio] e [!UICONTROL planejador de capacidade] para auxiliar a gestão na seleção de projetos.
+Esses elementos principais são usados na [!UICONTROL otimizador de portfólio] e a variável [!UICONTROL planejador de capacidade] para auxiliar o gerenciamento na seleção de projetos.
 
-Portfolio geralmente são configurados para corresponder aos Pools de Recursos. Os Programas em um Portfolio também estão alinhados a um Pool de Recursos. Essa correlação ajuda a garantir que todo o planejamento de recursos se ajuste dentro da finalidade da Portfolio, já que os projetos dentro da mesma Portfolio normalmente competem pelos mesmos recursos.
+Os Portfolio geralmente são configurados para corresponder com os Conjuntos de recursos. Os programas em um Portfolio também estão alinhados a um Conjunto de recursos. Essa correlação ajuda a garantir que todo o planejamento de recursos se encaixe na finalidade da Portfolio, já que os projetos dentro da mesma Portfolio geralmente competem pelos mesmos recursos.
 
-Os Portfolio Managers podem rastrear o desempenho financeiro dentro do portfólio usando o painel do Portfolio. Esse painel é exibido no cabeçalho do Portfolio.
+Os gerentes de Portfolio podem acompanhar o desempenho financeiro dentro do portfólio usando o painel Portfolio. Esse painel é exibido no cabeçalho do Portfolio.
 
-Para obter informações sobre os campos financeiros de um Portfolio, consulte o [Entendendo os campos financeiros no Portfolio Otimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md#financial-fieds-subsection) seção em [Visão geral do Portfolio Otimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Para obter informações sobre os campos financeiros de um Portfolio, consulte [Noções básicas sobre os campos financeiros no Portfolio Otimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md#financial-fieds-subsection) seção em [Visão geral do Portfolio Otimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
