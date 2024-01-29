@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 1%
@@ -107,7 +107,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 É possível editar um registro das seguintes áreas:
 
 * [Na página Detalhes de um registro](#edit-a-record-from-the-records-details-page)
-* [Na exibição de tabela de um tipo de registro](#edit-a-record-from-the-record-type-table-view)
+* [Na exibição de tabela de um tipo de registro](#edit-a-record-from-the-table-view-of-a-record-type)
 
 ### Editar um registro na página Detalhes do registro
 
@@ -181,3 +181,5 @@ O espaço de trabalho que você acessou por último é aberto.
 
    * CTRL + Z (⌘ + Z para Mac) para desfazer uma alteração
    * CTRL + Shift + Z (⌘ + Shift + Z para Mac) para refazer uma alteração
+<!--
+1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnail-to-a-record.md). -->

@@ -7,16 +7,20 @@ description: Você pode avaliar se uma equipe terminou, está abaixo ou na capac
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
 
 # Exibir a visualização Capacidade do recurso na Análise aprimorada
 
+<!--Audited: 01/2024-->
+
 Você pode avaliar se uma equipe terminou, está abaixo ou na capacidade ao visualizar o gráfico de visualização Capacidade de recursos de análise aprimorada no Adobe Workfront.
+
+As equipes ilustradas na visualização de recursos se referem à equipe inicial dos usuários atribuídos ao trabalho durante o período especificado.
 
 ## Requisitos de acesso
 
@@ -56,9 +60,9 @@ Você deve ter o seguinte:
 
 Para obter os pré-requisitos para usar o Enhanced Analytics, consulte a seção &quot;Pré-requisitos&quot; em [Visão geral da análise aprimorada](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Entender o gráfico de capacidade de recursos
+## Entender a visualização da capacidade do recurso
 
-O gráfico Capacidade do recurso mostra se uma equipe está acima, abaixo ou na capacidade. Este cálculo é baseado em:
+A visualização Capacidade do recurso mostra se uma equipe está acima, abaixo ou na capacidade. Este cálculo é baseado em:
 
 * **Capacidade disponível**: a quantidade total de horas que uma equipe da página inicial tem disponíveis para trabalhar no período filtrado
 
@@ -90,24 +94,25 @@ Na visualização Capacidade do recurso, você pode ver os seguintes detalhes:
 
   ![](assets/resource-capacity-under-capacity.png)
 
-Passar o mouse sobre uma linha mostra o número exato de horas para a capacidade planejada e a capacidade disponível, bem como o número de horas em que a equipe doméstica está acima ou abaixo da capacidade.
+Passar o mouse sobre a linha de uma equipe mostra o número exato de horas para a capacidade planejada e a capacidade disponível, bem como o número de horas em que a equipe doméstica está acima ou abaixo da capacidade.
 
 Ver essas informações ajuda a determinar:
 
-* Se a equipe inicial estava superalocada ou subalocada.
-* Quais eram os maiores projetos nos quais a equipe da casa se concentrava.
-* Quais equipes domésticas estão disponíveis para trabalho.
+* Se o grupo estiver superalocado ou subalocado.
+* Quais são os maiores projetos nos quais a equipe da casa está focada.
+* Quais equipes estão disponíveis para trabalho.
 
 Para saber como obter os melhores dados para essa visualização, consulte [Visão geral da análise aprimorada](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Exibir a visualização de capacidade do recurso
 
-1. Clique no ícone Menu principal ![](assets/main-menu-icon-16x12.png)e selecione **Analytics**.
+{{step1-to-analytics}}
+
 1. No painel esquerdo, selecione **Pessoas**.
 
    ![](assets/people-area-cropped-qs-350x276.png)
 
-1. (Opcional) Para usar um intervalo de datas diferente, selecione novas datas de início e término no filtro de intervalo de datas.
+1. (Opcional) Para usar um intervalo de datas diferente, selecione novas datas de início e término no filtro de intervalo de datas no canto superior direito do gráfico.
 
    ![](assets/filters-select-date-range-350x344.png)
 
@@ -125,7 +130,15 @@ Para saber como obter os melhores dados para essa visualização, consulte [Vis�
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. Passe o mouse sobre a linha de equipe doméstica para ver quantas horas ainda estão disponíveis para serem programadas, a quantidade de horas planejadas para a equipe doméstica ser concluída e o número total de horas trabalhadas, rotulado como acima, abaixo ou na capacidade.
+1. Passe o mouse sobre a linha da equipe inicial para ver o seguinte:
+
+   * Quantas horas ainda estão disponíveis para serem agendadas
+   * A quantidade de horas planejadas para a equipe inicial terminar
+   * O número total de horas trabalhadas. O número total de horas trabalhadas pode ter os seguintes rótulos:
+
+      * Terminar
+      * Em
+      * Na capacidade máxima.
 
    ![](assets/resource-capacity-capacity-pop-up-350x213.png)
 

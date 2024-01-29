@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
 source-wordcount: '3564'
 ht-degree: 0%
@@ -39,6 +39,18 @@ Os recursos são lançados semanalmente e são listados na ordem de lançamento,
 >[!IMPORTANT]
 >
 >A documentação referenciada nas seções abaixo estará disponível algum tempo depois que os recursos forem lançados para produção.
+
+<!--
+## Week of January 29, 2024
+
+### Add thumbnails to records 
+
+Production: < date > 
+
+Preview: To be determined  
+
+You can now add individual thumbnails to each record to distinguish them in  a view. You can add image files that you have previously saved on your computer as thumbnails. For more information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).  
+-->
 
 ## Semana de 22 de janeiro de 2024
 

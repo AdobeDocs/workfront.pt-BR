@@ -3,39 +3,41 @@ title: Logs de auditoria
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: Como administrador do Adobe Workfront, você pode rastrear as alterações do usuário acionadas no sistema durante os últimos 90 dias usando logs de auditoria.
-author: Caroline
+description: Como administrador do Adobe Workfront, você pode rastrear as alterações de usuário acionadas no sistema nos últimos 90 dias usando logs de auditoria.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 4%
+source-wordcount: '1464'
+ht-degree: 2%
 
 ---
 
 # Logs de auditoria
 
-Como administrador do Adobe Workfront, você pode rastrear as alterações do usuário acionadas no sistema durante os últimos 90 dias usando os logs de auditoria descritos abaixo.
+<!--Audited: 01/2024-->
 
-Para obter instruções sobre como visualizar e filtrar o que deseja ver nesses logs de auditoria, consulte [Exibir e exportar logs de auditoria](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
+Como administrador do Adobe Workfront, você pode rastrear as alterações de usuário acionadas no sistema nos últimos 90 dias usando os logs de auditoria descritos abaixo.
+
+Para obter instruções sobre como visualizar e filtrar o que você deseja ver nesses logs de auditoria, consulte [Exibir e exportar logs de auditoria](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
 
 ## Informações que você pode encontrar em um log de auditoria
 
-Os seguintes campos são registrados em cada entrada de log de auditoria:
+Os seguintes campos são registrados em cada entrada do log de auditoria:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Data e hora</td> 
+   <td role="rowheader">Data e Hora</td> 
    <td>Quando a ação ocorreu.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Tipo de log</td> 
-   <td>Tipo de log de auditoria, como Nível de acesso ou Formulário personalizado.</td> 
+   <td>Tipo do log de auditoria, como Nível de acesso ou Formulário personalizado.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome do usuário</td> 
@@ -43,7 +45,7 @@ Os seguintes campos são registrados em cada entrada de log de auditoria:
   </tr> 
   <tr> 
    <td role="rowheader">Ação</td> 
-   <td> Ação executada pelo usuário, como Alterar, Criar e Excluir. </td> 
+   <td> Ações executadas pelo usuário, como Alterar, Criar e Excluir. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objeto</td> 
@@ -55,25 +57,25 @@ Os seguintes campos são registrados em cada entrada de log de auditoria:
   </tr> 
   <tr> 
    <td role="rowheader">Endereço IP</td> 
-   <td> <p>Endereço IP do usuário que executou a ação no momento da ação.</p> <p>O endereço IP não está disponível para algumas ações do sistema.</p> </td> 
+   <td> <p>Endereço IP do usuário que executou a ação no momento da ação.</p> <p>Endereço IP não disponível para algumas ações do sistema.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Tipos de log de auditoria e ações que os acionam
+## Tipos de log de auditoria e as ações que os acionam
 
 * [Nível de acesso](#access-level)
 * [Empresa](#company)
 * [Condição](#condition)
-* Campo personalizado [ ](#custom-field)
+* [Campo personalizado](#custom-field)
 * [Formulários personalizados](#custom-forms)
 * [Seção personalizada](#custom-section)
 * [Taxa de câmbio](#exchange-rate)
 * [Grupo](#group)
-* [Função no trabalho](#job-roles)
+* [Funções de trabalho](#job-roles)
 * [Tentativa de login](#login-attempt)
 * [Prioridade](#priority)
-* [Preferências do projeto](#project-preferences)
+* [Preferência do projeto](#project-preference)
 * [Severidade](#severity)
 * [Status](#status)
 * [Preferências de tarefas e problemas](#tasks-issues-preferences)
@@ -88,27 +90,27 @@ O sistema gera uma entrada de log de Nível de acesso quando um usuário executa
 * Altera um nível de acesso:
 
    * Modifica o tipo de licença
-   * Altera as permissões para Projetos, Tarefas, Problemas, Portfolio, Programas, Relatórios, Documentos, Usuários ou Modelos
+   * Altera permissões de projetos, tarefas, problemas, Portfolio, programas, relatórios, documentos, usuários ou modelos
 
-      >[!NOTE]
-      >
-      >O sistema não registra nenhuma alteração de permissão para Dados Financeiros ou nos seguintes tipos de acesso: Exibir e editar.
-      >
-      >Por exemplo, se um usuário alterar o tipo de acesso do Planejador de Exibir para Editar, o sistema não exibirá as informações contidas no menu suspenso Ajustar configurações.
+     >[!NOTE]
+     >
+     >O sistema não registra nenhuma alteração de permissão nos Dados financeiros ou nos seguintes tipos de acesso: Exibir e Editar.
+     >
+     >Por exemplo, se um usuário alterar o tipo de acesso Planejador de Exibir para Editar, o sistema não exibirá as informações contidas no menu suspenso Ajustar as configurações.
 
 ### Empresa {#company}
 
 O sistema gera uma entrada de log de auditoria da empresa quando um usuário executa um dos seguintes procedimentos:
 
 * Cria uma empresa
-* Altera uma empresa:
+* Muda uma empresa:
 
    * Renomeia
    * Adiciona ou remove membros
-   * Adiciona, edita ou exclui o valor em seu campo Grupo
-   * Adiciona ou edita uma taxa de faturamento da empresa para uma função de cargo
-   * Remove uma taxa de faturamento da empresa para uma função de trabalho
-   * Define como a principal empresa da organização
+   * Adiciona, edita ou exclui o valor no campo Grupo
+   * Adiciona ou edita uma taxa de cobrança da empresa para uma função de trabalho
+   * Remove uma taxa de cobrança da empresa para uma função de trabalho
+   * Define a empresa como a empresa principal da organização
    * Anexa ou remove um formulário personalizado
 
 * Exclui uma empresa
@@ -117,7 +119,7 @@ Para obter mais informações sobre status, consulte [Visão geral dos status](.
 
 ### Condição {#condition}
 
-O sistema gera uma entrada de log de auditoria de condição quando um usuário executa uma das seguintes ações:
+O sistema gera uma entrada de log de auditoria de Condição quando um usuário executa uma das seguintes ações:
 
 * Cria uma condição
 * Altera uma condição:
@@ -130,11 +132,11 @@ O sistema gera uma entrada de log de auditoria de condição quando um usuário 
 
 * Exclui uma condição
 
-Para obter mais informações sobre como configurar funções de job, consulte [Criar ou editar uma condição personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+Para obter mais informações sobre a configuração de funções de trabalho, consulte [Criar ou editar uma condição personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
 ### Campo personalizado {#custom-field}
 
-O sistema gera uma entrada de log de auditoria de Campo personalizado quando um usuário executa uma das seguintes ações:
+O sistema gera uma entrada de log de auditoria Campo personalizado quando um usuário executa uma das seguintes ações:
 
 * Cria um campo personalizado
 * Altera um campo personalizado:
@@ -142,15 +144,15 @@ O sistema gera uma entrada de log de auditoria de Campo personalizado quando um 
    * Altera o nome, rótulo, instruções ou formato
    * Altera o tipo de exibição
 
-      Isso só estará disponível se o campo for um dos seguintes tipos: linha única, parágrafo, lista suspensa, caixa de seleção, botão de opção
+     Isso só estará disponível se o campo for de um dos seguintes tipos: linha única, parágrafo, lista suspensa, caixa de seleção, botão de opção
 
    * Altera o tamanho do campo
 
-      Isso só estará disponível se o campo for um dos seguintes tipos: linha única, parágrafo, texto com formatação
+     Isso só estará disponível se o campo for de um dos seguintes tipos: linha única, parágrafo, texto com formatação
 
-   * Adiciona, remove ou oculta uma opção de campo
+   * Adiciona, remove ou oculta uma escolha de campo
    * Edita um rótulo ou valor de escolha de campo
-   * Configura a opção de campo a ser selecionada ou não selecionada por padrão
+   * Configura a opção de campo a ser selecionada ou não por padrão
    * Configura um campo suspenso para permitir várias seleções ou uma única seleção
    * Configura um campo de data para exibir ou não a hora do dia
    * Edita o hiperlink ou altera o valor em um campo de texto descritivo
@@ -166,16 +168,16 @@ O sistema gera uma entrada de log de auditoria Forms personalizada quando um usu
 * Altera um formulário personalizado:
 
    * Altera o nome ou a descrição
-   * Ativa ou desativa Está Ativa
+   * Ativa ou desativa está ativo
    * Adiciona ou remove um campo ou seção
    * Para uma seção personalizada, altera uma configuração em Configurações adicionais
-   * Altera um campo para obrigatório ou não
+   * Altera um campo para obrigatório ou não obrigatório
    * Altera um cálculo em um campo personalizado
-   * Oculta ou exibe a fórmula associada a um campo calculado no texto de flutuação de Instruções
-   * Ativa ou desativa Atualizar cálculos anteriores
-   * Adiciona ou altera a lógica de ignorar ou a lógica de exibição
+   * Oculta ou exibe a fórmula associada a um campo calculado no texto ao passar o mouse das Instruções
+   * Habilita ou desabilita Atualizar cálculos anteriores
+   * Adiciona ou altera a lógica de salto ou de exibição
 
-      <!--   
+     <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Adds or changes a filter for a typeahead field</p></li>   
      -->
 
@@ -184,7 +186,7 @@ O sistema gera uma entrada de log de auditoria Forms personalizada quando um usu
 
 ### Seção personalizada {#custom-section}
 
-O sistema gera uma entrada de log de auditoria da Seção personalizada quando um usuário executa uma das seguintes ações em um formulário personalizado:
+O sistema gera uma entrada de log de auditoria Seção personalizada quando um usuário executa uma das seguintes ações em um formulário personalizado:
 
 * Cria uma seção personalizada
 * Altera o nome ou a descrição de uma seção personalizada
@@ -194,22 +196,22 @@ Para obter informações sobre seções personalizadas em formulários personali
 
 ### Taxa de câmbio {#exchange-rate}
 
-O sistema gera uma entrada de log de auditoria da Taxa de Câmbio quando um usuário executa uma das seguintes ações:
+O sistema gera uma entrada de log de auditoria de Taxa de Câmbio quando um usuário executa uma das seguintes ações:
 
 * Cria uma taxa de câmbio
 * Altera uma taxa de câmbio:
 
    * Adiciona uma moeda
    * Altera a taxa da moeda
-   * Define a moeda como moeda base (padrão) para todos os projetos e relatórios em todo o sistema
+   * Define a moeda como a moeda base (padrão) para todos os projetos e relatórios no sistema
 
 * Exclui uma taxa de câmbio
 
-Para obter mais informações sobre como configurar as taxas de câmbio, consulte [Configurar taxas de câmbio](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Para obter mais informações sobre a configuração de taxas de câmbio, consulte [Configurar taxas de câmbio](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 ### Grupo {#group}
 
-O sistema gera uma entrada de log de auditoria do grupo quando um usuário executa uma das seguintes ações:
+O sistema gera uma entrada de log de auditoria de Grupo quando um usuário executa uma das seguintes ações:
 
 * Cria um grupo
 * Exclui um grupo
@@ -220,33 +222,33 @@ O sistema gera uma entrada de log de auditoria do grupo quando um usuário execu
 
 ### Função no trabalho {#job-roles}
 
-O sistema gera uma entrada de log de auditoria de Funções de Trabalho quando um usuário executa uma das seguintes ações:
+O sistema gera uma entrada de log de auditoria Funções de trabalho quando um usuário executa uma das seguintes ações:
 
 * Cria uma função de trabalho
 * Altera uma função de trabalho:
 
    * Altera o nome
    * Adiciona, altera ou remove a descrição
-   * Adiciona, altera ou remove o custo por hora (Custo/Hora).
-   * Adiciona, altera ou remove a taxa de faturamento (Faturamento/Hora)
+   * Adiciona, altera ou remove o custo por hora (Custo/Hr.)
+   * Adiciona, altera ou remove a taxa de cobrança (Fatura/Hr.)
 
 * Exclui uma função de trabalho
 
-Para obter mais informações sobre como configurar funções de job, consulte [Criar e gerenciar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Para obter mais informações sobre a configuração de funções de trabalho, consulte [Criar e gerenciar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ### Tentativa de login {#login-attempt}
 
-O sistema gera uma entrada de log de tentativa de logon quando um usuário executa uma das seguintes ações:
+O sistema gera uma entrada de log de auditoria de Tentativa de login quando um usuário executa uma das seguintes ações:
 
-* Faz logon, faz logoff ou falha em uma tentativa de logon no Workfront (em um navegador e no aplicativo móvel)
-* Faz logon, faz logoff ou falha em uma tentativa de logon em qualquer integração do Workfront (como Workfront for Slack e Workfront for Salesforce)
+* Faz logon, logout ou falha em uma tentativa de logon no Workfront (em um navegador e no aplicativo móvel)
+* Faz logon, logout ou falha em uma tentativa de logon em qualquer integração do Workfront (como Workfront para Slack e Workfront para Salesforce)
 * Faz logon ou logout da API do Workfront
 
-Os registros de tentativas de logon não são registrados quando um administrador do Workfront usa o recurso Fazer logon como .
+Os logs de tentativa de logon não registram quando um administrador do Workfront usa o recurso &quot;Login como&quot;.
 
 >[!NOTE]
 >
->Isso não estará disponível se sua organização tiver sido integrada à Adobe Admin Console. Consulte seu administrador de rede ou de TI se precisar de mais informações.
+>Isso não estará disponível se sua organização tiver sido integrada à Adobe Admin Console. Consulte o administrador de rede ou de TI se precisar de mais informações.
 
 ### Prioridade {#priority}
 
@@ -263,27 +265,27 @@ O sistema gera uma entrada de log de auditoria de prioridade quando um usuário 
 
 * Exclui uma prioridade
 
-Para obter mais informações sobre como configurar prioridades, consulte [Criar e personalizar prioridades](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+Para obter mais informações sobre a configuração de prioridades, consulte [Criar e personalizar prioridades](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
-### Preferências do projeto {#project-preferences}
+### Preferências do projeto {#project-preference}
 
-O sistema gera uma entrada de log de auditoria de Preferências de projeto quando um usuário executa uma das seguintes ações:
+O sistema gera uma entrada de log de auditoria de Preferências do projeto quando um usuário executa uma das seguintes ações:
 
 * Cria um trimestre personalizado
 * Altera uma preferência de projeto:
 
    * Bloqueia ou desbloqueia
    * Altera uma de suas configurações
-   * Ativa, desativa ou edita
+   * Ativa, desativa ou edita o script
    * Edita um cálculo de linha do tempo
 
 * Exclui um trimestre personalizado
 
-Para obter mais informações sobre as preferências do projeto, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Para obter mais informações sobre preferências de projeto, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ### Severidade {#severity}
 
-O sistema gera uma entrada de log de auditoria de Gravidade quando um usuário executa uma das seguintes ações:
+O sistema gera uma entrada de log de auditoria de severidade quando um usuário executa uma das seguintes ações:
 
 * Cria uma severidade de problema
 * Altera a gravidade de um problema:
@@ -291,55 +293,55 @@ O sistema gera uma entrada de log de auditoria de Gravidade quando um usuário e
    * Altera o nome
    * Altera a cor
    * Define como padrão
-   * Altera ou remove a descrição da gravidade
-   * Oculta ou mostra a gravidade
+   * Altera ou remove a descrição da severidade
+   * Oculta ou mostra a severidade
 
-* Exclui uma gravidade de problema
+* Exclui a gravidade de um problema
 
-Para obter mais informações sobre como configurar funções de job, consulte [Criar ou personalizar severidades de problemas](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
+Para obter mais informações sobre a configuração de funções de trabalho, consulte [Criar ou personalizar severidades de problema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
 
 ### Status {#status}
 
 O sistema gera uma entrada de log de auditoria de status quando um usuário executa uma das seguintes ações:
 
 * Cria um status no nível do sistema ou do grupo
-* Altera um status no sistema ou no nível do grupo:
+* Altera um status no nível do sistema ou do grupo:
 
    * Renomeia
-   * Torna-o um status padrão
+   * Transforma em um status padrão
    * Bloqueia ou desbloqueia
-   * Oculta ou desoculta
+   * Oculta ou reexibe
    * Altera a cor ou a descrição
 
-* Exclui um status no sistema ou no nível do grupo
+* Exclui um status no nível do sistema ou do grupo
 
 Para obter mais informações sobre status, consulte [Visão geral dos status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ### Preferências de tarefas e problemas {#tasks-issues-preferences}
 
-O sistema gera uma entrada de log de auditoria de Preferências de Tarefas e Problemas quando um usuário altera uma preferência Tarefas e Problemas de uma das seguintes maneiras:
+O sistema gera uma entrada de log de auditoria de Preferências de tarefas e problemas quando um usuário altera a preferência de Tarefas e problemas de uma das seguintes maneiras:
 
 * Bloqueia ou desbloqueia uma preferência
 * Altera a configuração de uma preferência
 * Altera uma configuração de Acesso para tarefas, problemas ou solicitações
 
-Para obter mais informações sobre as preferências de tarefa e emissão, consulte [Configurar preferências de emissão e tarefa em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Para obter mais informações sobre preferências de tarefas e problemas, consulte [Configurar preferências de tarefas e problemas em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ### Usuário {#user}
 
-O sistema gera uma entrada de log de auditoria do usuário quando ele executa uma das seguintes ações:
+O sistema gera uma entrada de log de auditoria do usuário quando um usuário executa uma das seguintes ações:
 
 * Cria um usuário
 
-   <!--
+  <!--
   DRAFTED IN FLARE:
   Gevorg checking with Jonah on whether this note should be here:
   
   -->
 
-   >[!NOTE]
-   >
-   >Isso não estará disponível se sua organização tiver sido integrada à Adobe Admin Console. Consulte seu administrador de rede ou de TI se precisar de mais informações.
+  >[!NOTE]
+  >
+  >Isso não estará disponível se sua organização tiver sido integrada à Adobe Admin Console. Consulte o administrador de rede ou de TI se precisar de mais informações.
 
 * Exclui um usuário
 * Altera o nível de acesso, a empresa, a equipe ou o grupo de um usuário
