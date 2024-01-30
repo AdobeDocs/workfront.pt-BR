@@ -7,14 +7,16 @@ description: Este artigo descreve como você pode gerenciar as notificações po
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
 
 # Modificar suas próprias notificações por email
+
+<!-- Audited: 1/2024 -->
 
 Seu Adobe [!DNL Workfront] O administrador configura quais notificações por email os usuários recebem quando os eventos ocorrem no Workfront (conforme descrito em [[!UICONTROL Configurar evento] notificações para todos no sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
@@ -41,17 +43,21 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!UICONTROL Solicitação] ou superior</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença</strong></td> 
+   <td>  <p>Novo:</p> 
+   <ul><li>Colaborador ou Superior</li></ul>
+   <p>Atual:</p>
+   <ul><li>Solicitação ou superior</li></ul>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber que tipo de plano ou licença você tem, entre em contato com o [!DNL Workfront] administrador.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Exibir e modificar as configurações de notificação por email
 

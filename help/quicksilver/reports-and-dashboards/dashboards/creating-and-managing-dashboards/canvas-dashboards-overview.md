@@ -6,7 +6,7 @@ description: Você pode criar Painéis do Canvas que integram visualizações do
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: da55003a14851d7894693fb95bff866c20938849
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Visão geral dos painéis do Canvas
+
+<!-- Audited: 12/2023 -->
 
 Painéis do Canvas, um recurso atualmente em desenvolvimento para Painéis, oferece uma nova opção para criar painéis eficazes no Workfront. Os Painéis da tela de desenho permitirão que as visualizações da Tela de relatório sejam facilmente incluídas nos relatórios existentes, fornecendo maior flexibilidade, bem como novas opções de layout.
 
@@ -39,7 +41,7 @@ Uma nova opção Painéis de tela de desenho no painel esquerdo da página de at
 
 1. Clique no link **Personalize o que os usuários veem** e, em seguida, clique em **Painéis**.
 
-1. No **Painel esquerdo** que aparece abaixo, clique no link ![](assets/delete-secondary-nav-item.png) ícone ao lado de **Painéis do Canvas**. O ícone mudará para ![](assets/add-secondary-nav-item.png) para mostrar que agora está visível no painel esquerdo Painéis.
+1. No **Painel esquerdo** que aparece abaixo, clique no link ![](assets/delete-secondary-nav-item.png) ícone ao lado de **Painéis do Canvas**. O ícone mudará para ![](assets/add-secondary-nav-item.png) para mostrar que agora está visível no painel esquerdo de Painéis.
 
 1. Clique em **Salvar** na parte inferior da tela.
 
