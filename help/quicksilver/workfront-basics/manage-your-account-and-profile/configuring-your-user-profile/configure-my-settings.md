@@ -6,14 +6,16 @@ description: Seu [!DNL Adobe Workfront] o perfil contém informações sobre voc
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: a750d2707699e1d4783d950807138a74baf78715
 workflow-type: tm+mt
-source-wordcount: '3301'
-ht-degree: 0%
+source-wordcount: '3311'
+ht-degree: 1%
 
 ---
 
 # Definir minhas configurações
+
+<!-- Audited: 01/2024 -->
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule.</p>
@@ -48,10 +50,10 @@ A grade a seguir mostra quais seções na [!UICONTROL Minhas configurações] s�
    <th><strong>Áreas de [!UICONTROL Minhas Configurações]</strong> </th> 
    <th><strong>Visível ou editável</strong> </th> 
    <th><strong>[!UICONTROL Administrador do Sistema]</strong> </th> 
-   <th><strong>[!UICONTROL Planner]</strong> </th> 
+   <th><strong>[!UICONTROL Padrão] ou [!UICONTROL Planner]</strong> </th> 
    <th><strong>[!UICONTROL Worker]</strong> </th> 
-   <th><strong>[!UICONTROL Revisor]</strong> </th> 
-   <th><strong>[!UICONTROL Solicitante]</strong> </th> 
+   <th><strong>[!UICONTROL Light] ou [!UICONTROL Reviewer]</strong> </th> 
+   <th><strong>[!UICONTROL Contribuinte] ou [!UICONTROL Solicitante]</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -196,8 +198,9 @@ A grade a seguir mostra quais seções na [!UICONTROL Minhas configurações] s�
 
 ## Configuração do [!UICONTROL Minhas configurações] área
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, clique no nome de usuário ao lado da imagem do perfil. Ou (se disponível) clique na imagem do perfil na área de navegação superior e, em seguida, clique em **[!UICONTROL Perfil do Workfront]**.
-1. Clique em **[!UICONTROL Mais]** menu ![](assets/more-icon.png)e, em seguida, clique em **[!UICONTROL Editar]**.
+{{step1-click-profile-pic}}
+
+1. Clique em **[!UICONTROL Mais]** menu ao lado do seu nome ![Menu Mais](assets/more-icon.png)e, em seguida, clique em **[!UICONTROL Editar]**.
 
 1. Dependendo do seu nível de acesso, você pode atualizar as seguintes seções:
 
@@ -207,7 +210,7 @@ A grade a seguir mostra quais seções na [!UICONTROL Minhas configurações] s�
    * [Acesso](#access)
    * [Organização](#organization)
    * [Planejamento de recursos](#resource-planning)
-   * [Formulário personalizado](#custom-form)
+   * [Formulários personalizados](#custom-form)
    * [Comentário](#comment)
 
 1. Clique em **[!UICONTROL Salvar]**.
@@ -264,7 +267,7 @@ Essas informações já devem ser configuradas pelo [!DNL Workfront] administrad
 <table style="table-layout:auto">
     <tr>
         <td><strong>[!UICONTROL Título]</strong></td>
-        <td>Especifique seu título. Isso não é o mesmo que sua função de trabalho. Seu título não faz parte do agendamento de recursos, enquanto sua função de trabalho é. Seu título é exibido no campo [!DNL Workfront] interface em todos os lugares em que seu nome e seu avatar são exibidos. É visível para todos que têm acesso para ver o usuário.</td>
+        <td>Especifique seu título. Isso não é o mesmo que sua função de trabalho. Seu título não faz parte do agendamento de recursos, enquanto sua função de trabalho é. Seu título é exibido no campo [!DNL Workfront] interface em todos os lugares em que seu nome e seu avatar são exibidos. É visível para todos que têm acesso para ver seu perfil de usuário.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Fale Comigo Sobre]</strong></td>
@@ -321,7 +324,7 @@ Especifique o que deseja exibir no [!DNL Workfront] nesta seção.
 
 >[!NOTE]
 >
->Usuários com um [!UICONTROL Solicitante] licença não têm outros itens do painel esquerdo disponíveis para serem adicionados [!UICONTROL Menu principal], fora do [!UICONTROL Solicitações] área. Como um [!DNL Workfront] administrador, você pode atribuir usuários com uma licença de Solicitante a um modelo de layout que inclua todas as outras áreas na [!UICONTROL Menu principal]. Depois disso, é possível selecionar as áreas a serem exibidas nas [!UICONTROL Menu principal] editando o perfil do usuário.
+>Usuários com um [!UICONTROL Colaborador] ou [!UICONTROL Solicitante] licença não têm outros itens do painel esquerdo disponíveis para serem adicionados [!UICONTROL Menu principal], fora do [!UICONTROL Solicitações] área. A [!DNL Workfront] o administrador pode atribuir usuários com um [!UICONTROL Colaborador] ou [!UICONTROL Solicitante] licença para um modelo de layout que inclui todas as outras áreas na [!UICONTROL Menu principal]. Depois disso, é possível selecionar as áreas a serem exibidas nas [!UICONTROL Menu principal] editando o perfil do usuário.
 
 É possível alterar qualquer um dos itens a seguir nesta subseção:
 
@@ -340,7 +343,7 @@ Especifique o que deseja exibir no [!DNL Workfront] nesta seção.
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Mostrar porcentagem concluída no status de atualização]</strong> </td> 
-   <td>Marque essa opção se desejar exibir uma barra de porcentagem concluída na área Atualizações das tarefas ao usar a experiência de comentários herdada. Para obter informações, consulte <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nova experiência de comentários</a>.
+   <td>Selecione esta opção se quiser exibir uma barra de porcentagem concluída dentro da área Atualizações das tarefas, ao usar a experiência de comentários herdada. Para obter informações, consulte <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nova experiência de comentários</a>.
 
 </td> 
   </tr> 
@@ -378,11 +381,11 @@ Somente um [!DNL Workfront] o administrador pode visualizar e editar todos os ca
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Nível de Acesso]</strong> </td> 
-   <td>Este campo é visível para usuários com um nível de acesso [!UICONTROL Plan] ou [!UICONTROL Workfront administrator], e só pode ser editado para [!DNL Workfront] administradores. Se você é um [!DNL Workfront] administrador, tenha cuidado para não alterar seu nível de acesso para algo inferior ao modificar esse campo. </td> 
+   <td>Este campo é visível para usuários com nível de acesso [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL Workfront administrator], e só pode ser editado para [!DNL Workfront] administradores. Se você é um [!DNL Workfront] administrador, tenha cuidado para não alterar seu nível de acesso para algo inferior ao modificar esse campo. </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Modelo de Layout]</strong> </td> 
-   <td>Este campo está visível para usuários com um [!UICONTROL Plano] ou [!UICONTROL [!DNL Workfront] administrador], e só pode ser editado para [!UICONTROL [!DNL Workfront] administradores] ou usuários com uma licença do [!UICONTROL Plan] que também tenham acesso de usuário administrativo. Selecione um modelo de layout aqui para atualizar a aparência e o campo da interface do Workfront. Para obter mais informações sobre a configuração de usuários com acesso de usuário administrativo, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Configurar o acesso dos usuários para editar usuários usando um nível de acesso personalizado</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.<br>Para obter mais informações sobre modelos de layout e como eles afetam sua interface, consulte <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Criar e gerenciar modelos de layout</a></td> 
+   <td>Este campo é visível para usuários com um [!UICONTROL Padrão], [!UICONTROL Plano] ou [!UICONTROL Plano] [!DNL Workfront] administrador], e só pode ser editado para [!UICONTROL [!DNL Workfront] administradores] ou usuários com uma licença do [!UICONTROL Standard] ou do [!UICONTROL Plan] que também tenham acesso de usuário administrativo. Selecione um modelo de layout aqui para atualizar a aparência e o campo da interface do Workfront. Para obter mais informações sobre a configuração de usuários com acesso de usuário administrativo, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">Configurar o acesso dos usuários para editar usuários usando um nível de acesso personalizado</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.<br>Para obter mais informações sobre modelos de layout e como eles afetam sua interface, consulte <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Criar e gerenciar modelos de layout</a></td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader"><strong>Log in as</strong> </td> 
@@ -401,7 +404,7 @@ Somente um [!DNL Workfront] o administrador pode visualizar e editar todos os ca
    <td role="rowheader"><strong>(Condicional) [!UICONTROL Perfil de Permissão]</strong></td> 
    <td> <p>Este campo exibe o nível de acesso que você tem no [!DNL Workfront Proof]. Ela só estará disponível se:</p> 
     <ul> 
-     <li>Sua empresa usa um antigo [!DNL Workfront] e adquiriu o [!DNL Workfront Proof] ou você tem uma licença de [!UICONTROL Trabalho] ou [!UICONTROL Plano] em um [!DNL Workfront] plano.</li> 
+     <li>Sua empresa usa um antigo [!DNL Workfront] e adquiriu o [!DNL Workfront Proof] ou você tem uma licença de [!UICONTROL Padrão], [!UICONTROL Trabalho] ou [!UICONTROL Plano] em um [!DNL Workfront] plano.</li> 
      <li>Você está ativado como um usuário de prova.</li> 
     </ul> <p>[!DNL Workfront] os administradores podem editar o campo para todos os usuários, exceto eles próprios, para que todos os usuários vejam o campo como somente visualização em seus próprios perfis. Para obter mais informações sobre o perfil de permissões, consulte <a href="../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md" class="MCXref xref">Visão geral do perfil de permissão de prova</a>.</p> </td> 
   </tr> 
@@ -410,7 +413,7 @@ Somente um [!DNL Workfront] o administrador pode visualizar e editar todos os ca
 
 ### [!UICONTROL Organização]
 
-Normalmente, essas informações são configuradas pelo seu [!DNL Workfront] administrador, quando eles criarem seus [!DNL Workfront] conta. Você também pode atualizar informações sobre sua organização ou estrutura de organização nesta seção. Somente usuários com um [!UICONTROL Plano] ou [!UICONTROL Administrador do sistema] o nível de acesso pode editar esta seção. 
+Normalmente, essas informações são configuradas pelo seu [!DNL Workfront] administrador, quando eles criarem seus [!DNL Workfront] conta. Você também pode atualizar informações sobre sua organização ou estrutura de organização nesta seção. Somente usuários com um [!UICONTROL Padrão], [!UICONTROL Plano]ou [!UICONTROL Administrador do sistema] o nível de acesso pode editar esta seção.
 
 É possível alterar qualquer um dos itens a seguir nesta subseção:
 
@@ -432,19 +435,19 @@ Normalmente, essas informações são configuradas pelo seu [!DNL Workfront] adm
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Equipe Inicial]</strong> </td> 
-   <td> <p>Selecione um <strong>[!UICONTROL Equipe Inicial]</strong> no menu suspenso. Este campo é visível para usuários com um nível de acesso [!UICONTROL Plano] ou [!UICONTROL Administrador do Sistema] e só pode ser editado para [!DNL Workfront] administradores ou usuários com uma licença do [!UICONTROL Plan] que também tenham acesso de usuário administrativo. Para obter mais informações sobre a configuração de usuários com acesso de usuário administrativo, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Configurar o acesso dos usuários para editar usuários usando um nível de acesso personalizado</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.<br></p> <p>Seu <strong>Equipe interna</strong> podem afetar a aparência da [!DNL Workfront] se algum modelo de layout estiver associado à equipe. </p> <p> <br>Para obter mais informações sobre equipes, consulte <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Visão geral das equipes</a>.</p> </td> 
+   <td> <p>Selecione um <strong>[!UICONTROL Equipe Inicial]</strong> no menu suspenso. Este campo é visível para usuários com nível de acesso [!UICONTROL Padrão], [!UICONTROL Plano] ou [!UICONTROL Administrador do Sistema], e só pode ser editado para [!DNL Workfront] administradores ou usuários com uma licença do [!UICONTROL Standard] ou do [!UICONTROL Plan] que também tenham acesso de usuário administrativo. Para obter mais informações sobre a configuração de usuários com acesso de usuário administrativo, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">Configurar o acesso dos usuários para editar usuários usando um nível de acesso personalizado</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.<br></p> <p>Seu <strong>Equipe interna</strong> podem afetar a aparência da [!DNL Workfront] se algum modelo de layout estiver associado à equipe. </p> <p>Para obter mais informações sobre equipes, consulte <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Visão geral das equipes</a>.</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Outras Equipes]</strong> </td> 
-   <td> <p>Você pode pertencer a mais de uma equipe. Especifique as equipes adicionais às quais você pertence neste campo começando a digitar o nome de uma equipe e, em seguida, clique para selecioná-la quando ela for exibida na lista. Pertencer a muitas equipes pode gerar confusão sobre o trabalho atribuído às equipes. Para obter mais informações sobre equipes, consulte <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Visão geral das equipes</a>.</p> <p>Este campo é visível para usuários com uma licença de [!UICONTROL Plano] ou [!UICONTROL Administrador do Sistema] e só pode ser editado para [!DNL Workfront] administradores ou usuários com uma licença do [!UICONTROL Plan] que também tenham acesso de usuário administrativo. Para obter mais informações sobre a configuração de usuários com acesso de usuário administrativo, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Configurar o acesso dos usuários para editar usuários usando um nível de acesso personalizado</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </td> 
+   <td> <p>Você pode pertencer a mais de uma equipe. Especifique as equipes adicionais às quais você pertence neste campo começando a digitar o nome de uma equipe e, em seguida, clique para selecioná-la quando ela for exibida na lista. Pertencer a muitas equipes pode gerar confusão sobre o trabalho atribuído às equipes. Para obter mais informações sobre equipes, consulte <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Visão geral das equipes</a>.</p> <p>Este campo é visível para usuários com uma licença [!UICONTROL Padrão], [!UICONTROL Plano] ou [!UICONTROL Administrador do Sistema] e só pode ser editado para [!DNL Workfront] administradores ou usuários com uma licença do [!UICONTROL Standard] ou do [!UICONTROL Plan] que também tenham acesso de usuário administrativo. Para obter mais informações sobre a configuração de usuários com acesso de usuário administrativo, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">Configurar o acesso dos usuários para editar usuários usando um nível de acesso personalizado</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Grupo Padrão]</strong> </td> 
-   <td> <p>Selecione um <strong>[!UICONTROL Grupo Padrão]</strong> no menu suspenso.</p> <p>Observação: este campo é obrigatório. Você não pode ter um usuário não associado a um grupo.<br></p> <p>Este campo é visível para usuários com um nível de [!UICONTROL Plano] ou [!UICONTROL Administrador do Sistema]. Para obter mais informações sobre quem pode editar a <strong>[!UICONTROL Grupo Padrão]</strong> , consulte o <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md#prerequisites" class="MCXref xref">Adicionar usuários</a> seção em <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Adicionar usuários</a>.Seu <strong>[!UICONTROL Grupo Padrão]</strong> é o grupo padrão para todos os projetos e o padrão <strong>[!UICONTROL Grupo Padrão]</strong> para todos os novos usuários que você criar. Todos os formulários personalizados que você criar serão compartilhados com a <strong>[!UICONTROL Grupo Padrão]</strong> por padrão.</p> <p>Para obter mais informações sobre grupos, consulte <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Visão geral dos grupos</a>.</p> </td> 
+   <td> <p>Selecione um <strong>[!UICONTROL Grupo Padrão]</strong> no menu suspenso.</p> <p>Observação: este campo é obrigatório. Você não pode ter um usuário não associado a um grupo.<br></p> <p>Este campo é visível para usuários com um nível de [!UICONTROL Padrão], [!UICONTROL Plano] ou [!UICONTROL Administrador do Sistema]. Para obter mais informações sobre quem pode editar a <strong>[!UICONTROL Grupo Padrão]</strong> , consulte <a href="/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md"class="MCXref xref">Editar o perfil de um usuário</a>. Seu <strong>[!UICONTROL Grupo Padrão]</strong> é o grupo padrão para todos os projetos e o padrão <strong>[!UICONTROL Grupo Padrão]</strong> para todos os novos usuários que você criar. Todos os formulários personalizados que você criar serão compartilhados com a <strong>[!UICONTROL Grupo Padrão]</strong> por padrão.</p> <p>Para obter mais informações sobre grupos, consulte <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Visão geral dos grupos</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Outros Grupos]</strong> </td> 
-   <td> <p>Você pode pertencer a vários grupos. Especifique os grupos adicionais aos quais você pertence neste campo, começando a digitar o nome de um grupo. Clique para selecioná-la quando ela for exibida na lista. Este campo é visível para usuários com um nível de acesso de [!UICONTROL Plano] ou [!UICONTROL Administrador do Sistema]. Para obter mais informações sobre quem pode editar a <strong>[!UICONTROL Outros Grupos]</strong> , consulte a seção "Outros grupos" em <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Adicionar usuários</a>.</p> <p>Para obter mais informações sobre grupos, consulte <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Visão geral dos grupos</a>.</p> </td> 
+   <td> <p>Você pode pertencer a vários grupos. Especifique os grupos adicionais aos quais você pertence neste campo, começando a digitar o nome de um grupo. Clique para selecioná-la quando ela for exibida na lista. Este campo é visível para usuários com nível de acesso [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL System Administrator]. Para obter mais informações sobre quem pode editar a <strong>[!UICONTROL Outros Grupos]</strong> , consulte <a href="/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md"class="MCXref xref">Editar o perfil de um usuário</a>.</p> <p>Para obter mais informações sobre grupos, consulte <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Visão geral dos grupos</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -461,19 +464,19 @@ Use qualquer um dos seguintes itens nesta seção:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Desativação de Agendamento]</strong></td> 
-   <td>Marque essa caixa se desejar agendar a desativação da conta após um período. No <p><strong>[!UICONTROL Data de Desativação Agendada]</strong> for exibida, especifique a data após a qual sua conta será desativada. Para obter informações sobre como desativar usuários, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Programar usuários para desativação</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Desativar ou reativar um usuário</a>. </p><p>É possível editar os campos de desativação da sua conta se você tiver uma licença de plano ou se for o [!DNL Workfront] administrador. </p></td> 
+   <td>Marque essa caixa se desejar agendar a desativação da conta após um período. No <p><strong>[!UICONTROL Data de Desativação Agendada]</strong> for exibida, especifique a data após a qual sua conta será desativada. Para obter informações sobre como desativar usuários, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">Programar usuários para desativação</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Desativar ou reativar um usuário</a>. </p><p>Você pode editar os campos de desativação da sua conta se tiver uma licença do [!UICONTROL Standard] ou do [!UICONTROL Plan] ou se for o [!DNL Workfront] administrador. </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Função Primária]</strong></td> 
-   <td> <p>Essa é a principal função que você pode desempenhar no Workfront. Todas as tarefas e problemas aos quais você está atribuído também estão atribuídos a esta função de trabalho, por padrão. As funções de trabalho são essenciais no gerenciamento de recursos. Para obter mais informações sobre funções, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Criar e gerenciar funções de trabalho</a>.</p> <p>Você pode atualizar este campo somente se tiver uma licença do [!UICONTROL Plan] com acesso de usuário administrativo ou se for um [!DNL Workfront] administrador. Para obter mais informações sobre a configuração de usuários com acesso de usuário administrativo, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Configurar o acesso dos usuários para editar usuários usando um nível de acesso personalizado</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </td> 
+   <td> <p>Essa é a principal função que você pode desempenhar no Workfront. Todas as tarefas e problemas aos quais você está atribuído também estão atribuídos a esta função de trabalho, por padrão. As funções de trabalho são essenciais no gerenciamento de recursos. Para obter mais informações sobre funções, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Criar e gerenciar funções de trabalho</a>.</p> <p>Você pode atualizar este campo somente se tiver uma licença do [!UICONTROL Standard] ou do [!UICONTROL Plan] com acesso de usuário administrativo, ou se for um [!DNL Workfront] administrador. Para obter mais informações sobre a configuração de usuários com acesso de usuário administrativo, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">Configurar o acesso dos usuários para editar usuários usando um nível de acesso personalizado</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Condicional) Se você selecionou uma [!UICONTROL Função Primária], o campo [!UICONTROL Porcentagem de Disponibilidade FTE] será exibido.</strong></td> 
-   <td>Especifique que porcentagem do seu tempo agendado está alocada para esta função de trabalho. O valor padrão da [!UICONTROL Porcentagem de Disponibilidade FTE] para a Função Primária é 100%</td> 
+   <td>Especifique que porcentagem do seu tempo agendado está alocada para esta função de trabalho. O valor padrão da [!UICONTROL Porcentagem de Disponibilidade FTE] para a Função Primária é 100%.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Outras Funções]</strong> </td> 
-   <td> <p>Você pode ter várias funções de trabalho no [!DNL Workfront]. As funções de trabalho são essenciais no gerenciamento de recursos. Para obter mais informações sobre funções, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Criar e gerenciar funções de trabalho</a>.</p> <p>Você pode atualizar este campo somente se tiver uma licença do [!UICONTROL Plan] com acesso de usuário administrativo ou se for um [!DNL Workfront] administrador. Para obter mais informações sobre a configuração de usuários com acesso de usuário administrativo, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Configurar o acesso dos usuários para editar usuários usando um nível de acesso personalizado</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </td> 
+   <td> <p>Você pode ter várias funções de trabalho no [!DNL Workfront]. As funções de trabalho são essenciais no gerenciamento de recursos. Para obter mais informações sobre funções, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Criar e gerenciar funções de trabalho</a>.</p> <p>Você pode atualizar este campo somente se tiver uma licença do [!UICONTROL Standard] ou do [!UICONTROL Plan] com acesso de usuário administrativo, ou se for um [!DNL Workfront] administrador. Para obter mais informações sobre a configuração de usuários com acesso de usuário administrativo, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Configurar o acesso dos usuários para editar usuários usando um nível de acesso personalizado</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Condicional) Se você selecionou uma ou várias Outras funções, o campo [!UICONTROL Porcentagem de disponibilidade de FTE] é exibido para cada função.</strong></td> 
@@ -485,7 +488,7 @@ Use qualquer um dos seguintes itens nesta seção:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Agendar</strong></td> 
-   <td> <p>Somente [!DNL Workfront] administradores ou usuários com uma licença do [!UICONTROL Plan] que também tenham acesso administrativo a folhas de horas e horas podem atualizar este campo. Para obter mais informações sobre acesso administrativo a folhas de horas e horas, consulte a seção "Folhas de horas e horas" em <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder aos usuários acesso administrativo a determinadas áreas</a>.</p> <p>Selecione a folha de horas correta para você no menu suspenso. Isso garante que suas folhas de horas sejam geradas automaticamente, de acordo com as especificações definidas pelo [!DNL Workfront] administrador. </p> </td> 
+   <td> <p>Somente [!DNL Workfront] administradores ou usuários com uma licença do [!UICONTROL Standard] ou do [!UICONTROL Plan] que também tenham acesso administrativo a folhas de horas e horas podem atualizar este campo. Para obter mais informações sobre acesso administrativo a folhas de horas e horas, consulte a seção "Folhas de horas e horas" em <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder aos usuários acesso administrativo a determinadas áreas</a>.</p> <p>Selecione a folha de horas correta para você no menu suspenso. Isso garante que suas folhas de horas sejam geradas automaticamente, de acordo com as especificações definidas pelo [!DNL Workfront] administrador. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Tipo de Hora Padrão]</strong> </td> 
@@ -497,7 +500,7 @@ Use qualquer um dos seguintes itens nesta seção:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Pool de Recursos]</strong> </td> 
-   <td>Selecione um conjunto de recursos ao qual você pertence. Este campo é somente para fins informativos e de emissão de relatórios e não afeta a programação ou o planejamento de recursos.</td> 
+   <td>Selecione um conjunto de recursos ao qual você pertence. Este campo é somente para fins informativos e de geração de relatórios. Isso não afeta a programação ou o planejamento de recursos.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL FTE]</strong> </td> 
@@ -514,21 +517,22 @@ Use qualquer um dos seguintes itens nesta seção:
  </tbody> 
 </table>
 
-### [!UICONTROL Formulário personalizado]
+### [!UICONTROL Formulários personalizados]
 
-Você pode associar um formulário personalizado ao seu perfil de usuário. Isso permite armazenar informações adicionais para o usuário que, de outra forma, não poderão ser armazenadas na [!DNL Workfront] campos nativos descritos acima.\
-Você deve ter um dos seguintes direitos de acesso ou permissões para anexar um formulário personalizado ao seu usuário:
+Você pode associar um formulário personalizado ao seu perfil de usuário. Isso permite armazenar informações adicionais para o usuário que, de outra forma, não poderão ser armazenadas na [!DNL Workfront] campos nativos descritos acima.
+
+Você deve ter um dos seguintes direitos de acesso ou permissões para anexar um formulário personalizado ao seu perfil de usuário:
 
 * Você é um [!DNL Workfront] administrador.
-* Você é um [!UICONTROL Plano] e o formulário personalizado de usuário é compartilhado com um de seus grupos.
+* Você é um [!UICONTROL Padrão] ou [!UICONTROL Plano] e o formulário personalizado de usuário é compartilhado com um de seus grupos.
 
-Todos os usuários podem ver formulários personalizados que foram associados a seus usuários.
+Todos os usuários podem ver formulários personalizados que foram associados a seus perfis.
 
 Seu [!DNL Workfront] o administrador precisa configurar formulários personalizados para o objeto de usuário para que você possa anexar um formulário personalizado ao seu perfil de usuário. Para obter mais informações sobre como criar formulários personalizados, consulte [Criar ou editar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ### [!UICONTROL Comentário]
 
-Você pode registrar um comentário no perfil do usuário armazenado no [!UICONTROL Atualizações] do usuário.
+Você pode registrar um comentário no seu perfil de usuário, que é armazenado no [!UICONTROL Atualizações] guia.
 
 Você pode clicar no link [!UICONTROL pessoas] ícone para incluir outros na atualização.
 

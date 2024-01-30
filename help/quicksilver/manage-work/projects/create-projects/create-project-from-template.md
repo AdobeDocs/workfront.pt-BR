@@ -2,43 +2,44 @@
 product-area: projects;templates
 navigation-topic: create-projects
 title: Criar um projeto usando um modelo
-description: Você pode usar modelos como uma estrutura para criar projetos. Se você tiver projetos que se repetem com frequência, usar modelos para a linha do tempo geral do novo projeto evita que você tenha que criar os mesmos projetos repetidamente.
+description: Você pode usar modelos como uma estrutura para criar projetos no Adobe Workfront. Se você tiver projetos que se repetem com frequência, usar modelos para a linha do tempo geral do novo projeto evita que você tenha que criar os mesmos projetos repetidamente.
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: e38411056b3f9be6d0241ee18e71984ef2a678a0
+source-git-commit: 9447310f0d4cf4504ee6d690116fb62f718fe23d
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 1%
+source-wordcount: '1089'
+ht-degree: 0%
 
 ---
 
 # Criar um projeto usando um modelo
 
-Você pode usar modelos como uma estrutura para criar projetos. Se você tiver projetos que se repetem com frequência, usar modelos para a linha do tempo geral do novo projeto evita que você tenha que criar os mesmos projetos repetidamente.
+<!-- Audited: 01/2024 -->
 
-Os modelos fornecem uma maneira de capturar processos, informações e configurações repetíveis associados aos projetos. As informações associadas a um modelo são transferidas para o projeto. Isso inclui tarefas, atribuições, durações, documentos, detalhes financeiros, riscos e formulários personalizados.
+Você pode usar modelos como uma estrutura para criar projetos no Adobe Workfront. Se você tiver projetos que se repetem com frequência, usar modelos para a linha do tempo geral do novo projeto evita que você tenha que criar os mesmos projetos repetidamente.
+
+Os modelos fornecem uma maneira de capturar processos, informações e configurações repetíveis associados aos seus projetos. As informações associadas a um modelo são transferidas para o projeto. Isso inclui tarefas, atribuições, durações, documentos, detalhes financeiros, riscos e formulários personalizados.
 
 >[!TIP]
 >
 >O Workfront define o Grupo e o Status do novo projeto da seguinte maneira:
 >
->* O status padrão de um novo projeto criado a partir de um modelo corresponde ao status definido pelo administrador do Workfront na área principal Preferências do projeto ou por um administrador de grupo (ou administrador do Workfront) na área Preferências do projeto de um grupo. Para obter informações sobre como configurar as preferências do projeto, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) ou [Configurar preferências de projeto para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>* O status padrão de um novo projeto criado a partir de um modelo corresponde ao status definido pelo administrador do Workfront na área principal Preferências do projeto, ou por um administrador de grupo (ou administrador do Workfront) na área Preferências do projeto de um grupo. Para obter informações sobre como configurar as preferências do projeto, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) ou [Configurar as preferências do projeto para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 >
->* O Grupo do novo projeto é o Grupo do modelo. Se o modelo não estiver associado a um Grupo, o Grupo do projeto será o Grupo Doméstico do usuário que cria o projeto.
+>* O Grupo do novo projeto é o Grupo do modelo. Se o modelo não estiver associado a um Grupo, o Grupo do projeto será o Grupo inicial do usuário que cria o projeto.
 >
->* Os status disponíveis para um novo projeto correspondem aos status do Grupo do projeto, que é o Grupo do modelo, ou o Grupo inicial do usuário que cria o projeto.
-
+>* Os status disponíveis para um novo projeto correspondem aos status do Grupo do projeto, que é o Grupo do modelo ou o Grupo inicial do usuário que cria o projeto.
 
 Você tem as seguintes opções para criar um projeto a partir de um modelo:
 
-* Criar um projeto a partir de um modelo na área Projetos
+* Crie um projeto com base em um modelo na área Projetos
 * Criar um projeto a partir de um modelo no nível do modelo
 * Anexar um modelo a um projeto existente
 
-   Para obter mais informações, consulte [Anexar um modelo a um projeto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+  Para obter informações, consulte [Anexar um modelo a um projeto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
-* Criar um projeto a partir de um modelo na área Grupos
+* Crie um projeto com base em um modelo na área Grupos
 
 ## Requisitos de acesso
 
@@ -73,135 +74,136 @@ Você tem as seguintes opções para criar um projeto a partir de um modelo:
 </table>
 -->
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p>Qualquer Um </p> </td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Visão geral das licenças do Workfront*</td> 
-   <td> <p>Plano </p> </td> 
+   <td role="rowheader">Licença do Workfront</td> 
+   <td> <p>Novo: Padrão</p>
+        <p>ou</p>
+        <p>Atual: Plano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Nível de acesso*</td> 
-   <td> <p>Editar acesso a Projetos e Modelos</p> <p><b>Nota</b>
-
-Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre o acesso a projetos, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Conceder acesso aos projetos</a>. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>. </p> </td>
-</tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a projetos e modelos</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões para um modelo</p> <p>Ao criar um projeto, você recebe automaticamente as permissões Gerenciar do projeto </p> <p> Para obter informações sobre permissões de projeto, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartilhar um projeto no Adobe Workfront</a>.</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões para um modelo</p> <p>Ao criar um projeto, você recebe automaticamente permissões de gerenciamento para o projeto.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Criar um projeto a partir de um modelo na área Projetos
+## Crie um projeto com base em um modelo na área Projetos
 
-Você pode criar um projeto na área Projetos no Menu principal ou na área Projetos de um portfólio ou de um programa.
+Você pode criar um projeto na área Projetos do menu principal ou na área Projetos de um portfólio ou programa.
 
 1. Siga um destes procedimentos:
 
-   * Clique no botão **Menu principal** ![](assets/main-menu-icon.png), clique em **Projetos**, em seguida expanda **Novo projeto**.
-   * Vá para um portfólio e expanda **Novo projeto**.
+   * Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo. Clique em **Projetos**, em seguida, expandir **Novo projeto**.
+   * Acesse um portfólio e expanda **Novo projeto**.
 
-      >[!TIP]
-      >
-      >Ao criar um projeto usando um modelo de um portfólio, o campo Portfolio do novo projeto é atualizado para exibir o portfólio do qual você escolheu criar o projeto. Isso substitui o campo Portfolio no template, se ele for especificado.
+     >[!TIP]
+     >
+     >Ao criar um projeto usando um modelo de um portfólio, o campo Portfolio do novo projeto é atualizado para exibir o portfólio escolhido para criar o projeto. Isso substitui o campo Portfolio no modelo, se for especificado.
 
-   * Vá para um programa e expanda **Novo projeto**.
+   * Ir para um programa e expandir **Novo projeto**.
 
-      >[!TIP]
-      >
-      >Ao criar um projeto usando um modelo de um programa, o campo Programa dos novos projetos é atualizado para exibir o Programa do qual você escolheu criar o projeto. O campo Portfolio do template é atualizado para exibir o portfólio do programa escolhido para criar o projeto. Isso substitui os campos Programa e Portfolio no modelo, se forem especificados.
+     >[!TIP]
+     >
+     >Ao criar um projeto usando um modelo de um programa, o campo Programa dos novos projetos é atualizado para exibir o Programa escolhido para criar o projeto. O campo Portfolio das atualizações de modelo para exibir o portfólio do programa escolhido para criar o projeto. Isso substitui os campos Program e Portfolio no modelo, se forem especificados.
 
-   * Se você for um administrador de grupo, também poderá criar um projeto na seção Projetos de um grupo que você gerencia. Para obter mais informações, consulte [Criar e modificar projetos de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * Se você for um administrador de grupo, também poderá criar um projeto na seção Projetos de um grupo gerenciado. Para obter mais informações, consulte [Criar e modificar os projetos de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-      >[!TIP]
-      >
-      >Quando você cria um projeto usando um modelo de um grupo, o grupo a partir do qual você cria o projeto é exibido no campo Grupo do novo projeto somente quando o campo Grupo do modelo não é especificado. Se o campo Grupo de modelo for especificado, o campo Grupo do novo projeto será o do modelo.
+     >[!TIP]
+     >
+     >Ao criar um projeto usando um modelo de um grupo, o grupo do qual você cria o projeto é exibido no campo Grupo do novo projeto somente quando o campo Grupo do modelo não é especificado. Se o campo Grupo do modelo for especificado, o campo Grupo do novo projeto será o do modelo.
+
    <!--
    <p>(this, above, is hyperlinked to the classic version of this article; the Milestone View steps are similar to creating a project in Classic than to the way you do it in NWE)</p>
    -->
 
-   ![](assets/new-project-dropdown-nwe-350x358.png)
+   ![Novas opções de projeto](assets/new-project-dropdown.png)
 
-1. Clique no nome de um template no **Modelos favoritos** lista
+1. Clique no nome de um modelo na **Modelos favoritos** lista.
 
-   ![](assets/new-project-from-template-dropdown-with-template-favorites-nwe-350x235.png)
+   ![Selecionar um modelo favorito](assets/new-project-from-template-dropdown-with-template-favorites.png)
 
    Ou
 
    Faça o seguinte:
 
-   1. Selecionar **Novo projeto a partir de modelo**.
-   1. No **Modelos de pesquisa** , comece digitando o nome de um modelo e clique nele quando ele for exibido na lista.
+   1. Selecionar **Novo projeto do modelo**.
+   1. No **Procurar Modelos** digite o nome de um template e clique nele quando ele for exibido na lista.
    1. Revise os detalhes do modelo à direita.
 
-      Os detalhes do modelo incluem:
+      Os detalhes do template incluem o seguinte:
 
       * Duração do modelo
       * Proprietário do modelo
-      * O número de tarefas de nível superior que inclui os nomes das três principais tarefas
+      * O número de tarefas de nível superior, que inclui os nomes das três principais tarefas
       * O número de todas as tarefas no modelo
       * Os nomes dos formulários personalizados do modelo
-   1. (Opcional) Passe o mouse sobre o nome de um modelo e clique no botão **Favoritos** **ícone** ![](assets/favorites-icon-small.png) para marcá-lo como favorito para uso futuro.
+
+   1. (Opcional) Passe o mouse sobre o nome de um modelo no painel esquerdo e clique no **Favoritos** **ícone** ![](assets/favorites-icon-small.png) para marcá-la como favorita para uso futuro.
 
       Ou
 
-      Expanda o **Modelos favoritos** e selecione um modelo na lista suspensa.
+      Expanda a **Modelos favoritos** e selecione um template na lista suspensa.
 
       >[!TIP]
       >
-      >É possível ter até 40 itens do Workfront marcados como favoritos. Isso inclui modelos e outros itens.
+      >É possível marcar até 40 itens do Workfront como favoritos. Isso inclui modelos e outros itens.
 
-   1. Clique em **Usar modelo** quando você selecionou um template.
+   1. Clique em **Usar modelo** quando você seleciona um template.
 
-   ![](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
+      ![Detalhes do modelo](assets/new-project-from-template-small-box-with-template-details-panel.png)
 
-   >[!NOTE]
-   >
-   >Se você tiver a Exibição de marco aplicada à lista de projetos, clique no nome de um modelo na **Novo na seção Modelo**.
-   >
-   >
-   >![](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)   >
+      >[!NOTE]
+      >
+      >Se você tiver a visualização Marco aplicada à lista de projetos, clique no nome de um modelo na **Novo na seção Modelo**.
+      >
+      >
+      >![Exibição de marco da criação de um projeto a partir de um modelo](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
+      >
 
-1. O **Novo projeto** será aberta.
+   A variável **Novo projeto** é aberta.
 
-   ![](assets/new-project-from-template-box-with-all-sections-on-left-panel-nwe-350x282.png)
+   ![Caixa Novo projeto](assets/new-project-from-template-box.png)
 
-1. Se um campo já estiver preenchido no modelo, ele será preenchido previamente no campo **Novo projeto** caixa. Você pode editar os valores pré-preenchidos para corresponder melhor ao seu projeto. Para obter mais informações, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
+1. Se um campo já estiver preenchido no modelo, ele será preenchido previamente na variável **Novo projeto** caixa. É possível editar os valores pré-preenchidos para melhor corresponder ao seu projeto. Para obter mais informações, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 1. Clique em **Criar projeto**.
 
-   Todos os detalhes definidos no modelo serão associados automaticamente ao projeto recém-criado se você não os tiver alterado na etapa anterior.
+   Todos os detalhes definidos no modelo são associados automaticamente ao projeto recém-criado se você não os alterou na etapa anterior.
 
-## Criar um projeto a partir de um modelo na área Modelos
+## Crie um projeto a partir de um modelo na área Modelos
 
-Em vez de começar na área Projetos , você pode criar um projeto a partir de um modelo começando com o modelo.
+Em vez de começar na área Projetos, você pode criar um projeto a partir de um modelo começando pelo modelo.
 
- 
+{{step1-to-templates}}
 
-1. No **Menu principal**, clique em **Modelos**.
+1. Clique no nome de um modelo que deseja usar.
+1. Clique em **Mais** menu ![](assets/more-icon.png)e, em seguida, clique em **Criar projeto**.
 
-1. Clique no nome de um template que deseja usar.
-1. Clique no botão **Mais** menu ![](assets/more-icon.png), depois clique em **Criar projeto.**
+   ![Criar projeto a partir de modelo](assets/project-sharing-on-template.png)
 
-   ![Criar projeto a partir do modelo](assets/project-sharing-on-template-nwe-2022-350x172.png)
+   A variável **Novo projeto** é aberta.
 
-   O **Novo projeto** será aberta.
+1. Insira um nome para o projeto, revise cada seção e faça as alterações necessárias.
 
-1. Especifique um nome para o projeto, analise cada seção e faça as alterações necessárias.
+   ![Caixa Novo projeto](assets/new-project-from-template-box.png)
 
-   ![](assets/new-project-from-template-box-with-all-sections-on-left-panel-nwe-350x282.png)
+   Se um campo já estiver preenchido no modelo, ele será preenchido previamente na variável **Novo projeto** caixa. É possível editar os valores pré-preenchidos para melhor corresponder ao seu projeto. Para obter mais informações, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-   Se um campo já estiver preenchido no modelo, ele será preenchido previamente no campo **Novo projeto** caixa. Você pode editar os valores pré-preenchidos para corresponder melhor ao seu projeto. Para obter mais informações, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
+1. Clique em **Criar projeto**.
 
-1. Clique em **Criar projeto.**
-
-   Todos os detalhes definidos no modelo serão associados automaticamente ao projeto recém-criado se você não os tiver alterado na etapa anterior.
+   Todos os detalhes definidos no modelo são associados automaticamente ao projeto recém-criado se você não os alterou na etapa anterior.
