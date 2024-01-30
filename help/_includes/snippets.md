@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2356'
 ht-degree: 0%
 
 ---
@@ -248,6 +248,18 @@ Você deve instalar o plug-in correto para o aplicativo Adobe Creative Cloud que
 ## Etapa 1 - Chegando ao Maestro - {#step1-to-maestro}
 
 1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Maestro]**.
+
+## Introdução importante do Maestro - {#maestro-important-intro}
+
+>[!IMPORTANT]
+>
+>As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta da Adobe Workfront.
+>
+>Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes. Você deve ser um cliente do Workfront para usar os recursos do Maestro.
+>
+>Entre em contato com seu representante de conta para obter mais informações sobre como participar do programa beta para o Maestro.
+>
+>Para obter mais informações sobre o Maestro, consulte [Visão geral do Adobe Maestri](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

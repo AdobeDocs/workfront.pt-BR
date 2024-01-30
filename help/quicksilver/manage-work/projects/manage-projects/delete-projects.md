@@ -2,84 +2,57 @@
 title: Excluir projetos
 product-area: projects
 navigation-topic: manage-projects
-description: Você pode excluir um projeto se ele e seus dados não forem mais necessários.
+description: Você pode excluir um projeto se ele e seus dados não forem mais necessários. Como alternativa à exclusão de um projeto, recomendamos editar o projeto e alterar o status para Concluído ou Inativo. Isso remove todas as tarefas atuais relacionadas ao projeto da lista de tarefas de um usuário, mas salva todos os dados associados ao projeto.
 author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+recommendations: noDisplay, noCatalog
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '884'
 ht-degree: 1%
 
 ---
 
 # Excluir projetos
 
+<!--Audited: 01/2024-->
+
 Você pode excluir um projeto se ele e seus dados não forem mais necessários.
 
 Como alternativa à exclusão de um projeto, recomendamos editar o projeto e alterar o status para Concluído ou Inativo. Isso remove todas as tarefas atuais relacionadas ao projeto da lista de tarefas de um usuário, mas salva todos os dados associados ao projeto.
 
+Você pode excluir um projeto em uma lista de projetos ou no nível do projeto.
+
 ## Requisitos de acesso
 
-<!-- drafted for P&P:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront plan*</p> </td> 
-   <td>Any</td> 
+   <td> <p>plano do Adobe Workfront</p> </td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
+   <td> <p>Licença da Adobe Workfront*</p> </td> 
+   <td> <p>Licença atual: plano </p> 
+   Ou
+   <p>Nova licença: Standard </p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access to Projects with ability to Create <span>and Delete</span> projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td>Configuração do nível de acesso</td> 
+   <td> <p>Editar acesso aos Projetos com capacidade para Criar e Excluir projetos</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>Edit access to Projects, Tasks, Issues with ability to Delete projects, tasks, and issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-Você deve ter o seguinte para executar as etapas deste artigo:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a Projetos, Tarefas, Problemas com capacidade de Excluir projetos, tarefas e problemas</p> <p><b>Nota</b></p>
-
-<p>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerencie permissões para o projeto, tarefas e problemas no projeto com a capacidade de Excluir o projeto, tarefas e problemas. </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Permissões de objeto </p> </td> 
+   <td> <p>Editar acesso a Projetos, Tarefas, Problemas com capacidade de Excluir projetos, tarefas e problemas</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
-Você pode excluir um projeto em uma lista de projetos ou no nível do projeto.
+*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront. Para obter mais informações sobre requisitos de acesso, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Entender o processo de exclusão de projetos
 
@@ -125,7 +98,7 @@ Você pode excluir um projeto em uma lista de projetos ou no nível do projeto.
 
      Não é possível excluir um projeto que tenha Registros de cobrança com status Faturado. Para obter mais informações, consulte [Criar registros de cobrança](../../projects/project-finances/create-billing-records.md).
 
-* Dependendo de como o administrador do Workfront configura as Preferências de exclusão de projeto, tarefa ou problema na Planilha de horas e preferências de hora da sua instância do Workfront, as horas registradas para as tarefas, problemas ou o projeto são tratadas de uma das seguintes maneiras ao excluir o projeto:
+* Dependendo de como o administrador do Workfront configura as Preferências de exclusão de projeto, tarefa ou problema na Planilha de horas e preferências de horas da sua instância do Workfront, as horas registradas para as tarefas, problemas ou o projeto são tratadas de uma das seguintes maneiras ao excluir o projeto:
 
    * As horas permanecem na folha de horas como tempo geral.
    * As horas são excluídas e serão restauradas se o projeto for restaurado.
@@ -138,7 +111,7 @@ Você pode excluir um projeto em uma lista de projetos ou no nível do projeto.
    * Se o projeto excluído estiver vinculado à única iniciativa publicada de um plano, a indicação de que o plano foi publicado também será removida.
    * Se você recuperar um projeto excluído, o projeto será recuperado, mas o link para a iniciativa não será restaurado e a área do Planejador de cenários não será mais exibida em Detalhes do projeto.
 
-     O Planejador de cenários está disponível somente na nova experiência do Adobe Workfront e requer uma licença adicional. Para obter informações sobre o Planejador de cenários do Workfront, consulte [A visão geral do Planejador de cenários](../../../scenario-planner/scenario-planner-overview.md).
+     O Planejador de cenários requer uma licença adicional. Para obter informações sobre o Planejador de cenários do Workfront, consulte [A visão geral do Planejador de cenários](../../../scenario-planner/scenario-planner-overview.md).
 
      Para obter informações sobre projetos vinculados a iniciativas no Planejador de cenários, consulte [Atualizar ou criar projetos publicando iniciativas no Planejador de cenários](../../../scenario-planner/publish-scenarios-update-projects.md).
 
@@ -166,7 +139,7 @@ Você pode excluir um projeto em uma lista de projetos ou no nível do projeto.
 ## Excluir um projeto no nível do projeto
 
 1. Vá para o projeto que deseja excluir.
-1. Clique em **Mais** ícone ![](assets/qs-more-menu.png)e, em seguida, clique em **Excluir Projeto**.
+1. Clique em **Mais** ícone ![](assets/qs-more-menu.png) à direita do nome do projeto e clique em **Excluir Projeto**.
 
    ![](assets/more-icon-expanded-delete-project-highlighted.png)
 

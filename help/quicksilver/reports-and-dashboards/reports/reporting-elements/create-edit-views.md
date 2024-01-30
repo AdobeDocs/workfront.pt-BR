@@ -6,7 +6,7 @@ description: Você pode personalizar o tipo de informação exibida na tela usan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 1%
@@ -29,7 +29,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>plano do Adobe Workfront*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
@@ -138,7 +138,7 @@ Você pode criar uma nova view-padrão ou personalizar uma view-padrão existent
 
 ### Criar ou personalizar uma visualização Agile {#create-or-customize-an-agile-view}
 
-É possível criar uma nova visualização Agile ou personalizar uma visualização Agile existente criada anteriormente.
+É possível criar uma visualização Agile ou personalizar uma visualização Agile existente criada anteriormente.
 
 >[!IMPORTANT]
 >

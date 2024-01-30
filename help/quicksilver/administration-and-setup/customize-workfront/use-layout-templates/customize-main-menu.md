@@ -8,16 +8,18 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '574'
 ht-degree: 4%
 
 ---
 
 # Personalizar o menu principal usando um modelo de layout
 
-Como administrador do Adobe Workfront ou administrador de grupo, você pode usar um modelo de layout para configurar as opções que os usuários veem quando abrem o menu principal no Workfront:
+<!--Audited: 01/2024-->
+
+Como administrador do Adobe Workfront ou administrador de grupo, você pode usar um modelo de layout para configurar as opções que os usuários veem quando abrem o menu principal no Workfront.
 
 ![Opções do menu principal](assets/main-menu-with-blueprints-no-branding.png)
 
@@ -41,55 +43,59 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>plano do Adobe Workfront</strong></td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licença do Adobe Workfront</strong></td> 
-   <td>Plano</td> 
+   <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
+   <td><p>Atual:Plano</p>
+   Ou
+   <p>Novo: Padrão</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso</strong></td> 
-   <td> <p>Para executar essas etapas no nível do sistema, você precisa do nível de acesso Administrador do sistema.
-Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><b>NOTA</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader"><strong>Configuração do nível de acesso</strong></td> 
+   <td> <p>Para executar essas etapas no nível do sistema, você precisa do nível de acesso Administrador do sistema.</p>
+    <p>Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> 
+     </td> 
   </tr> 
  </tbody> 
 </table>
 
+*Para obter mais informações sobre requisitos de acesso, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Personalizar o menu principal
 
 1. Comece a trabalhar em um modelo de layout, conforme descrito em [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Clique em **Definir menu principal** próximo ao canto superior direito.
+1. Clique em **Definir menu principal** no canto superior direito do modelo.
 
-   Na caixa Menu principal exibida, é possível ver os itens que estão ativos no momento no Menu principal do modelo, bem como os itens que estão disponíveis para adição. A seguir estão todos os itens possíveis que podem ser adicionados:
-
-   * Página inicial
+   A caixa Menu principal é aberta e você pode ver as áreas exibidas atualmente no Menu principal do modelo, bem como os itens disponíveis para adição. A seguir estão todos os itens possíveis que você pode adicionar:
+   * Início
 
      >[!TIP]
      >
-     >Por padrão, a Página inicial é exibida como Minhas atualizações para usuários com licença de revisão, a menos que eles tenham um modelo de layout associado ao perfil que inclui a área Minhas atualizações no Menu principal.
+     >Por padrão, o ícone Início no Menu principal exibe a área Minhas atualizações para usuários com licença de revisão (no plano de licença atual), a menos que eles tenham um modelo de layout associado ao seu perfil que inclua a área Minhas atualizações no Menu principal, além da área Início.
 
    * Portfólios
    * Programas
    * Projetos
    * Relatórios
-   * Painéis
+   * Painéis de Controle
    * Calendários
    * Recursos
    * Cenários
 
      >[!NOTE]
      >
-     >O Planejador de cenários está disponível somente na nova experiência do Adobe Workfront e requer uma licença adicional. Para obter informações sobre o Planejador de cenários do Workfront, consulte [A visão geral do Planejador de cenários](../../../scenario-planner/scenario-planner-overview.md).
+     >O Planejador de cenários requer uma licença adicional. Para obter informações sobre o Planejador de cenários do Workfront, consulte [A visão geral do Planejador de cenários](../../../scenario-planner/scenario-planner-overview.md).
 
    * Equipes
    * Usuários
 
      >[!NOTE]
      >
-     >Somente os usuários com uma licença do Plano podem ver os Usuários ![](assets/users-icon-in-main-menu.png) no menu principal.
+     >Somente os usuários com uma licença de Plano (no modelo de licença atual) ou os usuários com uma licença Padrão (no novo modelo de licença) podem ver a área Usuários ![](assets/users-icon-in-main-menu.png) no menu principal.
 
    * Solicitações
-   * Folhas de horas
+   * Planilhas de horas
    * Documentos
    * Modelos
    * Análise
@@ -98,7 +104,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><
 
      >[!NOTE]
      >
-     >Isso requer uma licença adicional. Para obter informações sobre o Workfront Goals, consulte [Visão geral dos objetivos do Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >As metas exigem uma licença adicional. Para obter informações sobre o Workfront Goals, consulte [Visão geral dos objetivos do Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
    * Minhas atualizações
    * Quadros

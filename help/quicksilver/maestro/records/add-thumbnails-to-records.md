@@ -4,7 +4,7 @@ description: Você pode editar informações de registro no Adobe Maestro e asso
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7448f6b8a622bc814604e59d4654644b3d7a1e12
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -74,8 +74,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
 <tr>
    <td role="rowheader"><p>Permissões</p></td>
-   <td> <p>Exibir ou aumentar as permissões de um espaço de trabalho </p>  
-   <p>Exibir permissões ou mais altas para a exibição de tabela </p> 
+   <td> <p>Contribuir com permissões ou mais altas para um espaço de trabalho </p>  
+   <p>Permissões do Contribute ou superior para a exibição de tabela </p> 
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
 </td>
   </tr>

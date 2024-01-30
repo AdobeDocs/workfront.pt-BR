@@ -4,9 +4,9 @@ description: Você pode compartilhar uma visão com outras pessoas para garantir
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '468'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 1%
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
 # Compartilhar exibições
+
+{{maestro-important-intro}}
 
 Você pode compartilhar uma visão com outras pessoas para garantir a colaboração ao trabalhar no Adobe Workfront Maestro.
 
@@ -107,6 +109,8 @@ Para compartilhar uma visualização com outras pessoas:
    * Gerenciar
 
      Para obter informações sobre níveis de permissão e quais ações os usuários podem executar para cada nível, consulte [Visão geral das permissões de compartilhamento no Adobe Maestro](../access/sharing-permissions-overview.md).
+1. Clique em **Copiar link** para copiar um link para a exibição para a área de transferência.
+1. Compartilhar o link copiado com outras pessoas. Os usuários que recebem o link devem ser usuários ativos e fazer logon no Workfront para acessar a página de tipo de registro e exibi-la na exibição selecionada.
 1. Clique em **Salvar**.
 
 

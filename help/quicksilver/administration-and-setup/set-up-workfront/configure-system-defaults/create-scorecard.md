@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
-   <td><p>Atual:[!UICONTROL Plano]</p>
+   <td><p>Atual: [!UICONTROL Plano]</p>
    Ou
    <p>Novo: [!UICONTROL Padrão]</p>
    </td> 

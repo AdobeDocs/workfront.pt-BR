@@ -6,22 +6,29 @@ description: Você pode aprimorar seus relatórios adicionando um gráfico. É p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2733'
 ht-degree: 0%
 
 ---
 
 # Adicionar um gráfico a um relatório
 
+<!--Audited: 01/2024-->
+
 Você pode aprimorar seus relatórios adicionando um gráfico. É possível adicionar gráficos a relatórios existentes ou a relatórios que você está criando.
 
-Antes de adicionar um gráfico a um relatório, você deve criar uma Exibição e um Agrupamento para o relatório. A maioria dos gráficos não pode ser adicionada, a menos que as informações sejam agrupadas no relatório. O único gráfico que pode ser adicionado sem um agrupamento é um gráfico de medidor.\
-Para obter informações sobre como criar uma Exibição, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).\
+Antes de adicionar um gráfico a um relatório, você deve criar uma Exibição e um Agrupamento para o relatório.
+
+Não é possível adicionar gráficos à maioria dos relatórios, a menos que você agrupe as informações no relatório primeiro. O único gráfico que pode ser adicionado sem um agrupamento é um gráfico de medidor.
+
+Para obter informações sobre exibições, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
 Para obter mais informações sobre agrupamentos, consulte [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-Se o relatório exibir muitos itens, um gráfico não será criado. Nesse caso, você também deve adicionar um Filtro ao relatório para reduzir o número de resultados em seu relatório.\
+Se o relatório exibir muitos itens, um gráfico não será criado. Nesse caso, você também deve adicionar um Filtro ao relatório para reduzir o número de resultados em seu relatório.
+
 Para obter mais informações sobre filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Requisitos de acesso
@@ -33,33 +40,36 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> </td> 
+   <td> <p>Atual: Plano </p>
+   Ou
+   <p>Novo: Padrão</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a relatórios, painéis, calendários</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuração do nível de acesso</td> 
+   <td> <p>Editar acesso a relatórios, painéis, calendários</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront. Para obter mais informações sobre requisitos de acesso, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Adicionar um gráfico a um relatório
 
 1. Ir para um relatório existente ou criar um novo relatório. Para obter mais informações sobre como criar um novo relatório, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. (Condicional) Se você foi para um relatório existente, clique em **Ações de Relatório** > **Editar**.
 
-1. Certifique-se de que o **Colunas (Exibir)** A guia foi atualizada para atender às necessidades do relatório.\
-   Para obter informações sobre como criar ou modificar a Exibição do relatório, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+1. Certifique-se de que o **Colunas (Exibir)** A guia foi atualizada para exibir as informações que você deseja inserir no gráfico do relatório.
+
+   Para obter informações sobre como criar ou modificar a Exibição do relatório, consulte [Criar ou editar exibições no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 1. Clique em **Agrupamentos** e adicione um agrupamento.
 
@@ -69,13 +79,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >* Os agrupamentos em modo de texto não são suportados em gráficos. Para obter mais informações sobre agrupamentos em modo de texto, consulte [Modo de edição de texto em um agrupamento](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
    >* Se você adicionar um único agrupamento que representa uma métrica, todos os gráficos, exceto um gráfico de pizza, serão exibidos no agrupamento com a mesma cor.
 
-   Para obter mais informações sobre agrupamentos, consulte [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Para obter mais informações sobre a criação de agrupamentos, consulte [Criar agrupamentos no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
 1. Selecione o **Gráfico** guia.
 1. Clique em um tipo de gráfico para selecioná-lo.\
    ![](assets/qs-report-builder-chart-350x265.png)
 
-1. Você pode adicionar os seguintes tipos de gráficos a um relatório do Adobe Workfront:
+1. Selecione entre os seguintes tipos de gráficos:
 
    * [Gráfico de colunas](#column-chart)
    * [Gráfico de barras](#bar-chart)
@@ -100,12 +110,13 @@ Para adicionar um **Coluna** gráfico para o seu relatório:
 1. (Opcional) **Colunas de grupo**: selecione esta opção para definir como deseja que as colunas sejam agrupadas.\
    Selecione entre as seguintes opções:
 
-   * Clique em uma das seguintes opções para selecionar como as colunas agrupadas serão exibidas:\
-     **- Lado a lado**
-     **- Empilhado**
-     **- Empilhado a 100%**
+   * Clique em uma das seguintes opções para selecionar como as colunas agrupadas serão exibidas:
 
-   * Selecione o Agrupamento que deseja incluir no gráfico.
+      * **Lado a lado**
+      * **Empilhado**
+      * **Empilhado a 100%**
+
+   * Selecione o Agrupamento que deseja incluir no gráfico na **Agrupar dados por** menu suspenso.
    * (Opcional) Selecione **Cores Personalizadas** para personalizar as cores das colunas.\
      Para obter mais informações sobre como personalizar as cores do gráfico, consulte [Personalizar cores do gráfico](#customize-chart-colors).
 
@@ -129,15 +140,16 @@ Para adicionar um **Barra** gráfico para o seu relatório:
    Para obter mais informações sobre como personalizar as cores do gráfico, consulte [Personalizar cores do gráfico](#customize-chart-colors).
 
 1. (Opcional) Selecione **Mostrar em 3D** para exibir o gráfico em uma exibição tridimensional.
-1. (Opcional) Barras de grupo**: selecione essa opção para definir como você deseja que as barras sejam agrupadas.\
+1. (Opcional) Selecione **Barras de grupo** para definir como você deseja que as barras sejam agrupadas.\
    Selecione entre as seguintes opções:
 
-   * Clique em uma das seguintes opções para selecionar como as barras agrupadas serão exibidas:\
-     **- Lado a lado**
-     **- Empilhado**
-     **- Empilhado a 100%**
+   * Clique em uma das seguintes opções para selecionar como as barras agrupadas serão exibidas:
 
-   * Selecione o Agrupamento que deseja incluir no gráfico.
+      * **Lado a lado**
+      * **Empilhado**
+      * **Empilhado a 100%**
+
+   * Selecione como deseja agrupar as informações no gráfico a partir da **Agrupar dados por** menu suspenso.
    * (Opcional) Selecione **Cores Personalizadas** para personalizar as cores das colunas.\
      Para obter mais informações sobre como personalizar as cores do gráfico, consulte [Personalizar cores do gráfico](#customize-chart-colors).
 

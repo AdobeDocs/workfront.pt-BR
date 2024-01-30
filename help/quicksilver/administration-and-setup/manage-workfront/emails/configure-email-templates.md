@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 1%
+source-wordcount: '810'
+ht-degree: 2%
 
 ---
 
@@ -34,30 +34,34 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront</td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td>Plano</td> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td><p>Atual: Plano</p>
+   Ou
+   <p>Novo: Padrão</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td role="rowheader">Configuração do nível de acesso</td> 
    <td> <p>Administrador do sistema</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Criar um novo modelo de email {#create-a-new-email-template}
+*Para obter mais informações sobre requisitos de acesso, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+## Criar um modelo de email {#create-an-email-template}
 
-1. No painel à esquerda, clique em **E-mail** > **Notificação**> **Modelos de e-mail**.
+{{step-1-to-setup}}
 
-![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+1. No painel esquerdo, clique em **E-mail** > **Notificação**> **Modelos de e-mail**.
+
+   ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. Clique em **Novo Modelo de email**.
 
-1. No **Novo Modelo de email** que for exibida, especifique as seguintes informações:
+1. No **Novo Modelo de email** especifique as seguintes informações:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -65,24 +69,31 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
     <tbody> 
      <tr> 
       <td role="rowheader">Nome</td> 
-      <td>Título do modelo de email (obrigatório).</td> 
+      <td>Adicione um título para o modelo de email. Este campo é obrigatório.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tipo de objeto</td> 
-      <td>Especifique o tipo de objeto ao qual deseja associar o modelo (obrigatório; por padrão, ele será definido como 'Problema').</td> 
-     </tr>
+      <td>Especifique o tipo de objeto ao qual deseja associar o modelo. Escolha entre os seguintes objetos:
+      <ul>
+      <li>Projeto</li>
+      <li>Tarefa</li>
+      <li>Problema</li>
+      <li>Planilha de horas</li> </ul>
+
+   Este campo é obrigatório e está definido como Projeto, por padrão.</td>
+   </tr>
      <tr> 
       <td role="rowheader">Descrição</td> 
-      <td>Descrição do modelo.</td> 
+      <td>Adicione mais informações sobre o modelo de email, sua finalidade e público-alvo.</td> 
      </tr>
 
    <tr> 
       <td role="rowheader">Assunto </td> 
-      <td>Assunto exibido quando a mensagem de email é enviada (obrigatório).</td> 
+      <td>Adicione o texto que é exibido na linha Assunto do email, quando a mensagem de email gerada pelo template é enviada. Este campo é obrigatório.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Corpo </td> 
-      <td> <p>Conteúdo exibido quando a mensagem de email é enviada.</p> <p>Você pode usar a formatação HTML para o conteúdo de email, conforme descrito em <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Adicionar formatação de HTML a um modelo de email</a> neste artigo.</p> </td> 
+      <td> <p>Adicione o texto para o conteúdo da mensagem de email.</p> <p>Você pode usar a formatação HTML para o conteúdo de email, conforme descrito na seção <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Adicionar formatação de HTML a um modelo de email</a> neste artigo.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -128,15 +139,15 @@ Por exemplo, o corpo do email de uma notificação alertando o destinatário da 
 
 Para obter o valor &quot;curinga&quot; de um objeto, siga um destes procedimentos:
 
-<!-- Refer to the API Explorer and select the names of your objects from the Fields tab of any object. For more information about the API Explorer, see [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
+* Consulte o API Explorer e selecione os nomes dos objetos na guia Fields de qualquer objeto. Para obter mais informações sobre o API Explorer, consulte [API Explorer](/help/quicksilver/wf-api/general/api-explorer.md).
 
-* Use o valor &quot;valuefield&quot; encontrado em uma visualização de modo de texto de um relatório. Para obter mais informações sobre valores do modo de texto, consulte [Visão geral do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* Use o `valuefield` valor que você encontra dentro de uma visualização de modo de texto de um relatório. Para obter mais informações sobre valores do modo de texto, consulte [Visão geral do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-  O valor &quot;cabeçalho&quot; pode ser o nome do objeto, conforme você quer que ele seja exibido no corpo do email.
+A variável `heading` value pode ser o nome do objeto, conforme você quer que ele seja exibido no corpo do email.
 
 ### Vincular a campos personalizados com HTML {#link-to-custom-fields-with-html}
 
-É possível incluir links para usuários e campos personalizados usando o **$$** curinga para instruir o gerador de email a procurar valores do banco de dados associado ao objeto. Eles devem estar presentes em ambos os lados da referência de atributo do banco de dados.
+É possível incluir links para usuários e campos personalizados usando o `$$` curinga para instruir o gerador de email a procurar valores do banco de dados associado ao objeto. Eles devem estar presentes em ambos os lados da referência de atributo do banco de dados.
 
 Por exemplo, adicionar o texto a seguir como HTML adicionaria o nome do usuário atribuído à notificação de lembrete associada a uma tarefa:
 
