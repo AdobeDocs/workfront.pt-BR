@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 7078abdf49c26f549028fecb8d9358794b90a242
+source-git-commit: d1229f8da39d4df3167a25b7d8b0f2c5d9f1089f
 workflow-type: tm+mt
-source-wordcount: '4927'
+source-wordcount: '5011'
 ht-degree: 3%
 
 ---
@@ -498,7 +498,7 @@ Para adicionar campos de data de digitação antecipada:
 
 ### Adicionar campos de pesquisa externos
 
-Um campo de pesquisa externo chama uma API externa e retorna valores como opções em um campo suspenso. Os usuários que trabalham com o objeto ao qual o formulário personalizado está anexado podem selecionar uma ou mais dessas opções na lista suspensa.
+Um campo de pesquisa externo chama uma API externa e retorna valores como opções em um campo suspenso. Os usuários que trabalham com o objeto ao qual o formulário personalizado está anexado podem selecionar uma ou mais dessas opções na lista suspensa. O campo de pesquisa externo também está disponível em listas e relatórios.
 
 >[!NOTE]
 >
@@ -541,8 +541,10 @@ Para adicionar uma pesquisa externa:
       <td role="rowheader">URL da API base</td> 
       <td><p>Digite ou cole o URL da API.</p><p>O URL da API deve retornar um conteúdo JSON das opções que você deseja mostrar na lista suspensa. Você pode usar o campo Caminho JSON para selecionar os valores específicos das opções suspensas do JSON retornado.</p><p>Ao inserir o URL da API, você pode passar os seguintes valores no URL:</p>
       <ul><li>$$QUERY - Representa o texto de pesquisa que o usuário final digita no campo e permite implementar a filtragem de consultas para seus usuários finais. (O usuário pesquisará pelo valor na lista suspensa.)</li>
-      <li>$$HOST - representa o host atual do Workfront e pode ser usado para fazer chamadas de API /search para a API do Workfront. Quando esse curinga é usado, a autenticação é tratada e os usuários não precisam enviar cabeçalhos de autenticação. (Por exemplo, os usuários podem pesquisar tarefas usando o URL base "$$HOST/attask/api/task/search" e isso permitirá pesquisar tarefas e selecionar valores de uma lista retornada de tarefas.)</li>
-      <li>{fieldName} - Onde fieldName é qualquer campo personalizado ou nativo no Workfront. Dessa forma, você pode implementar filtros de opção de lista suspensa em cascata ao passar o valor de um campo já selecionado para o campo Pesquisa externa para filtrar opções. (Por exemplo, o campo Região já existe no formulário e você está restringindo uma lista de países da API para aqueles que estão em uma região específica.)</li>
+      <li><p>$$HOST - representa o host atual do Workfront e pode ser usado para fazer chamadas de API /search para a API do Workfront. Quando esse curinga é usado, a autenticação é tratada e os usuários não precisam enviar cabeçalhos de autenticação. (Por exemplo, os usuários podem pesquisar tarefas usando o URL de base <code>$$HOST/attask/api/task/search</code> e permitirá pesquisar tarefas e selecionar valores de uma lista de tarefas retornada.)<p>
+      <p>Se a API à qual você está fazendo referência permitir, também será possível incluir modificadores na consulta de pesquisa para identificar como a pesquisa deve funcionar. Por exemplo, você pode usar o seguinte como o URL da API base para permitir que as pessoas pesquisem qualquer projeto do Workfront que contenha texto específico: <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Saiba mais sobre os modificadores de pesquisa do Workfront em <a href="/help/quicksilver/wf-api/general/api-basics.md">Noções básicas sobre API</a>.</p></li>
+      <li><p>{fieldName} - Onde fieldName é qualquer campo personalizado ou nativo no Workfront. Dessa forma, você pode implementar filtros de opção de lista suspensa em cascata ao passar o valor de um campo já selecionado para o campo Pesquisa externa para filtrar opções. (Por exemplo, o campo Região já existe no formulário e você está restringindo uma lista de países da API para aqueles que estão em uma região específica.)</p>
+      <p>Para um campo de pesquisa externo que tenha uma dependência em outros campos (usando o {fieldName} sintaxe), as opções retornadas pela API são limitadas àquelas que correspondem a qualquer string ou valor inserido em outros campos. (Essa funcionalidade não é compatível com listas e relatórios.)</p></li>
       <li>{referenceObject}.{fieldName} - Sempre que o campo fizer parte de um objeto. Essa sintaxe é semelhante às expressões personalizadas. (Por exemplo, portfolioID={project}.{portfolioID})</li></ul>
       <p><strong>NOTA:</strong> Revise a documentação da API com a qual você está trabalhando para as consultas específicas que você pode definir.</p></td>
      </tr>
@@ -585,12 +587,11 @@ Para adicionar uma pesquisa externa:
 >
 >Os itens a seguir são limitações técnicas da chamada para a API externa:
 >
->* Número máximo de opções: 200 (somente as primeiras 200 opções do JSON retornado são exibidas)
+>* Número máximo de opções: 2000 (somente as primeiras 2000 opções exclusivas do JSON retornado são exibidas)
 >* Tempo limite: 3 segundos
 >* Número de tentativas: 3
 >* Duração da espera entre tentativas: 500 ms
 >* Status de resposta esperados: 2xx
->* Os usuários podem ver o valor selecionado (e editar o valor) em listas e relatórios do Workfront, mas não verão a lista suspensa com opções provenientes da API externa.
 
 ### Adicionar imagens, PDF e vídeos
 
