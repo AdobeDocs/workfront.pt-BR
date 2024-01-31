@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -74,8 +74,7 @@ Você deve ter as seguintes configurações para usar o Adobe Maestro:
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do sistema deve adicionar a área Maestro no menu principal ao modelo de layout.</p> 
-   <p>Para obter informações, consulte <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Personalizar o menu principal usando um modelo de layout</a>. </p>  
+   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclui a área Maestro no menu principal. </p> <p>Para obter informações, consulte <a href="/help/quicksilver/maestro/access/access-overview.md">Visão geral do Access</a>. </p>  
 </td>
   </tr>
  </tbody>

@@ -4,9 +4,9 @@ description: Você pode editar informações de registro no Adobe Maestro e asso
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -75,19 +75,17 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 <tr>
    <td role="rowheader"><p>Permissões</p></td>
    <td> <p>Contribuir com permissões ou mais altas para um espaço de trabalho </p>  
-   <p>Permissões do Contribute ou superior para a exibição de tabela </p> 
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área Maestri no modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td>  <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclui a área Maestro no menu principal. </p> <p>Para obter informações, consulte <a href="/help/quicksilver/maestro/access/access-overview.md">Visão geral do Access</a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
-
 
 ## Considerações sobre miniaturas de registro
 
@@ -96,14 +94,14 @@ Para distinguir visualmente entre registros em uma exibição de tabela, você p
 Considere o seguinte:
 
 * Você pode adicionar somente arquivos de imagem como miniaturas.
+  <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * Você pode adicionar uma imagem em miniatura a registros individuais na exibição de tabela.
+* As miniaturas pertencem às informações de registro e são exibidas em exibições nas quais os registros são exibidos. Por exemplo, as miniaturas são exibidas ao lado das informações de registro nas seguintes áreas:
+
+   * O campo principal de um registro na exibição de tabela
+   * A barra de registro na exibição de linha do tempo.
 * Não é possível adicionar miniaturas de registro na página Detalhes do registro ou na exibição de linha do tempo.
-* A imagem em miniatura é sempre exibida à esquerda do campo principal de cada registro, independentemente do tipo do campo.
-
-  Os campos que são texto de linha única, números ou fórmulas podem ser designados como campos primários.
-Para obter mais informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/maestro/views/manage-the-table-view.md).
-
-<!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
+* As miniaturas não são exibidas na página Detalhes do registro.
 
 ## Adicionar uma miniatura a um registro
 
@@ -131,10 +129,11 @@ Para obter mais informações, consulte [Gerenciar a exibição de tabela](/help
 1. (Opcional) Use a ferramenta de dimensionamento para cortar e redimensionar a imagem.
 1. Clique em **Usar imagem** para adicionar a imagem como miniatura.
 Isso fecha o **Miniatura de registro** caixa.
-1. Clique em Campos no canto superior direito da exibição em tabela.
+1. (Condicional) Se você tiver pelo menos permissões do Contribute para a exibição de tabela, clique em **Campos** no canto superior direito da exibição em tabela.
 1. Selecione o **Miniatura** para exibir a miniatura. Essa opção é desmarcada por padrão.
 
    ![](assets/thumbnail-toggle-in-fields-menu-deselected.png)
 
    A miniatura é exibida à esquerda do valor do campo principal.
+1. (Opcional e condicional) Se você não tiver permissões do Contribute ou superiores para a exibição, selecione uma nova exibição na **Exibir** ou crie uma visualização.
 1. (Opcional) Para remover a miniatura, passe o mouse sobre o campo principal e clique no link **Mais** menu ![](assets/more-menu.png)> **Miniatura** > o **Remover** ícone ![](assets/remove-image-icon.png)e, em seguida, clique em **Salvar alterações**.

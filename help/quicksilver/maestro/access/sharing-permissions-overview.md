@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '454'
 ht-degree: 8%
 
 ---
@@ -55,7 +55,7 @@ Você pode compartilhar os seguintes objetos no Maestro:
    * Usuários
    * Grupos
 * Outros usuários, incluindo Administradores do sistema, só podem acessar as exibições que criaram ou que foram compartilhadas com eles.
-* É possível compartilhar um link para um espaço de trabalho ou uma exibição de uma página do tipo record com outras pessoas. Os usuários que recebem o link devem ser usuários ativos e fazer logon no Workfront para acessar o espaço de trabalho ou a página do tipo de registro exibida na exibição selecionada.
+* É possível compartilhar um link para um espaço de trabalho ou para uma exibição de uma página do tipo record com outras pessoas. Os usuários que recebem o link devem ser usuários ativos e fazer logon no Workfront para acessar o espaço de trabalho ou a página do tipo de registro exibida na exibição selecionada.
 
 ## Permissões de compartilhamento para objetos do Maestro
 

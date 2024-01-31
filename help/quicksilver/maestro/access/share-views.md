@@ -4,15 +4,13 @@ description: Você pode compartilhar uma visão com outras pessoas para garantir
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '479'
 ht-degree: 1%
 
 ---
 
-
-<!--*****************ADD TO TOC AND MINITOC WHEN RELEASING*********************-->
 
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
@@ -73,7 +71,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área Maestri ao modelo de layout. </p>  
+   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclui a área Maestro no menu principal. </p> <p>Para obter informações, consulte <a href="/help/quicksilver/maestro/access/access-overview.md">Visão geral do Access</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -113,9 +111,7 @@ Para compartilhar uma visualização com outras pessoas:
 1. Compartilhar o link copiado com outras pessoas. Os usuários que recebem o link devem ser usuários ativos e fazer logon no Workfront para acessar a página de tipo de registro e exibi-la na exibição selecionada.
 1. Clique em **Salvar**.
 
-
 ## Remover permissões para uma exibição
-
 
 {{step1-to-maestro}}
 

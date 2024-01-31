@@ -1,21 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Acessar e abrir metas em metas na Adobe Workfront
-description: Este artigo descreve como você pode encontrar e gerenciar metas no Adobe Workfront.
+title: Acessar e abrir metas no Adobe Workfront Goals
+description: Este artigo descreve como encontrar e gerenciar metas no Adobe Workfront.
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
 
 ---
 
-# Acessar e abrir metas em metas na Adobe Workfront
+# Acessar e abrir metas no Adobe Workfront Goals
 
-Este artigo descreve como você pode encontrar e gerenciar metas estratégicas no Adobe Workfront.
+Este artigo descreve como encontrar e gerenciar metas estratégicas na Adobe Workfront.
 
 
 ## Requisitos de acesso
@@ -71,6 +71,13 @@ You must have the following to perform the activities described in this article:
      <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p> 
     </div> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Layout template</p></td> 
+   <td> 
+    <div> 
+     <p>All users, including Workfront administrators,  must be assigned to a layout template that includes the Goals area in the Main Menu. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 -->
@@ -82,7 +89,7 @@ You must have the following to perform the activities described in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> <p>Pro ou superior</p> </td> 
   </tr> 
   <tr> 
@@ -91,39 +98,42 @@ You must have the following to perform the activities described in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td> <p>Você deve comprar uma licença adicional para a funcionalidade Metas da Adobe Workfront para acessar descrita neste artigo. </p> <p>Para obter mais informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td> 
+   <td> <p>Você deve comprar uma licença adicional para que o Adobe Workfront Goals acesse a funcionalidade descrita neste artigo. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nível de acesso*</td> 
-   <td> <p>Editar o acesso às Metas</p> <p><b>Nota</b><p>Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte:</p> 
+   <td> <p>Editar acesso às Metas</p> <p><b>Nota</b><p>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Conceder acesso às Metas da Adobe Workfront</a></span> </p> </li> 
+      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Conceder acesso ao Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Permissões de objeto</td> 
    <td> 
     <div> 
-     <p>Exibir permissões ou permissões mais altas para a meta para exibi-la</p> 
-     <p>Gerencie permissões na meta para editá-la</p> 
-     <p>Para obter informações sobre como compartilhar metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartilhar uma meta na Workfront</a>. </p> 
+     <p>Exibir permissões ou mais altas para a meta para exibi-la</p> 
+     <p>Gerenciar permissões para a meta para editá-la</p> 
+     <p>Para obter informações sobre como compartilhar metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartilhar uma meta no Workfront Goals</a>. </p> 
     </div> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+<tr> 
+   <td role="rowheader"><p>Modelo de layout</p></td> 
+   <td> 
+    <div> 
+     <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclui a área Metas no Menu principal. </p> 
+    </div> </td> 
+  </tr>
+
+</tbody> 
 </table>
 
-*Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
 
-## Pré-requisitos
+## Acessar as metas do Workfront
 
-Você deve ter o seguinte antes de começar:
-
-* Um modelo de layout que inclui a área Metas no Menu principal.
-
-## Acessar metas da Workfront
-
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito, em seguida, clique em **Metas**.
+1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito e clique em **Metas**.
 
    <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -133,7 +143,7 @@ Você deve ter o seguinte antes de começar:
 
    >[!IMPORTANT]
    >
-   >   Quando você tem o acesso correto às Metas do Workfront, é possível visualizar as metas que você ou qualquer outra pessoa criou na Lista de metas, por padrão.
+   >   Quando você tem o acesso correto às Metas do Workfront, pode visualizar as metas que você ou qualquer outra pessoa criou na Lista de metas, por padrão.
 
    <!--   
    (NOTE: This might change when sharing is in place; right now, with sharing in place, they can VIEW all goals in the system but they cannot EDIT the ones others created!)
@@ -145,22 +155,21 @@ Você deve ter o seguinte antes de começar:
 
    Clique em **Nova meta** para adicionar uma nova meta.
 
-   Para obter informações sobre como criar metas, consulte [Criar metas nas metas da Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
+   Para obter informações sobre como criar metas, consulte [Criar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
 ## Abrir e gerenciar metas individuais
 
-Você deve acessar uma meta individual para executar as seguintes ações à medida que gerencia suas metas:
+Você deve acessar uma meta individual para executar as seguintes ações ao gerenciar suas metas:
 
 * Editar
 * Adicionar um resultado ou atividade a ele
-* Editar resultados e atividades associadas a ele
-* Ative-o
+* Editar resultados e atividades associados a ele
+* Ativar
 * Desativar
-* Exclua
-* Alinhar com outra meta
-* Converter resultados ou atividades em outras metas
-* Atualize
-
+* Excluí-lo
+* Alinhar a outra meta
+* Converter resultados ou atividades para outras metas
+* Atualizar
 <!--
 Accessing goals differs depending on what environment you use.
 
@@ -192,13 +201,13 @@ To access an individual goal in the Production environment:
 
 Para acessar uma meta individual:
 
-1. Clique no botão **Menu principal** no canto superior direito do Workfront, em seguida, clique em **Metas** .
+1. Clique em **Menu principal** no canto superior direito do Workfront e clique em **Metas** .
 A Lista de metas é exibida por padrão.
    ![](assets/goal-list-unshimmed.png)
 1. Clique no nome de uma meta na lista.
 A página da meta é exibida.
    ![](assets/goal-page-unshimmed.png)
-1. Clique no botão **Mais** menu ![](assets/more-icon.png) à direita do nome da meta para editar ou compartilhar a meta.
-1. Clique em **Detalhes da meta** no painel esquerdo para editar informações sobre a meta. Para obter mais informações, consulte [Atualizar metas na seção Detalhes da meta em Metas da Adobe Workfront](../goal-management/update-goals-in-goal-details-panel.md).
+1. Clique em **Mais** menu ![](assets/more-icon.png) à direita do nome da meta para editar ou compartilhar ainda mais a meta.
+1. Clique em **Detalhes da meta** no painel esquerdo para editar informações sobre a meta. Para obter mais informações, consulte [Atualizar metas na seção Detalhes da meta no Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md).
 
 
