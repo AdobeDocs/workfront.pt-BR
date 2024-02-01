@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '2051'
+source-wordcount: '1986'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,7 @@ author: Alina
 
 # Conectar tipos de registro
 
->[!IMPORTANT]
->
->As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta da Adobe Workfront.
->
->Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes. Você deve ser um cliente do Workfront para usar os recursos do Maestro.
->
->Entre em contato com seu representante de conta para obter mais informações sobre como participar do programa beta para o Maestro.
->
->Para obter informações, consulte [Visão geral do Adobe Maestri](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Você pode usar o Adobe Maestri para projetar espaços de trabalho totalmente personalizáveis que contenham tipos de registro necessários em sua organização. Uma maneira de indicar como os tipos de registro individuais se relacionam entre si é conectá-los. Além disso, você pode conectar tipos de registro Maestri com tipos de objeto de outros aplicativos para aprimorar a experiência dos usuários e manter o foco em um aplicativo.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '478'
 ht-degree: 1%
 
 ---
@@ -16,15 +16,7 @@ ht-degree: 1%
 
 # Excluir registros
 
->[!IMPORTANT]
->
->As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta da Adobe Workfront.
->
->Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes. Você deve ser um cliente do Workfront para usar os recursos do Maestro.
->
->Entre em contato com seu representante de conta para obter mais informações sobre como participar do programa beta para o Maestro.
->
->Para obter informações, consulte [Visão geral do Adobe Maestri](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Você pode excluir registros que não são mais relevantes no Adobe Maestro.
 

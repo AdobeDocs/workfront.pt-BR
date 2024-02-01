@@ -4,9 +4,9 @@ description: Em Adobe Maestri, você pode criar campos de fórmula que usam fun�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,7 @@ recommendations: noDisplay, noCatalog
 
 <!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
->[!IMPORTANT]
->
->As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta da Adobe Workfront.
->
->Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes. Você deve ser um cliente do Workfront para usar os recursos do Maestro.
->
->Entre em contato com seu representante de conta para obter mais informações sobre como participar do programa beta para o Maestro.
->
->Para obter informações, consulte [Visão geral do Adobe Maestri](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Você pode criar campos personalizados no Adobe Maestro fazendo referência a campos existentes e conectando-os por uma fórmula. Você pode fazer isso criando um campo personalizado do tipo Fórmula.
 

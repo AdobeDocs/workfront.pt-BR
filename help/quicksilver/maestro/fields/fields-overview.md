@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 1%
+source-wordcount: '489'
+ht-degree: 2%
 
 ---
 
@@ -26,15 +26,7 @@ hide: yes
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
->[!IMPORTANT]
->
->As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta da Adobe Workfront.
->
->Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes. Você deve ser um cliente do Workfront para usar os recursos do Maestro.
->
->Entre em contato com seu representante de conta para obter mais informações sobre como participar do programa beta para o Maestro.
->
->Para obter informações, consulte [Visão geral do Adobe Maestri](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Você pode adicionar novos campos no Adobe Maestri que refletem o ciclo de vida da sua organização. Os campos são atributos de tipos de registro.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '3390'
+source-wordcount: '3325'
 ht-degree: 1%
 
 ---
@@ -33,15 +33,7 @@ recommendations: noDisplay, noCatalog
 
 # Criar campos
 
->[!IMPORTANT]
->
->As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta da Adobe Workfront.
->
->Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes. Você deve ser um cliente do Workfront para usar os recursos do Maestro.
->
->Entre em contato com seu representante de conta para obter mais informações sobre como participar do programa beta para o Maestro.
->
->Para obter informações, consulte [Visão geral do Adobe Maestri](../maestro-overview.md).
+{{maestro-important-intro}}
 
 No Adobe Maestri, você pode criar campos personalizados para tipos de registros operacionais ou taxonomias. Você pode associar os campos aos registros do Maestro para aprimorar as informações dos registros.
 

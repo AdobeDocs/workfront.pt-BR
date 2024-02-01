@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 2%
@@ -230,7 +230,7 @@ Um Projeto Que Você Gerencia Se Atrasou
 
 Isso produzirá um email semelhante ao seguinte:
 
-![](assets/screen-shot-2016-09-16-at-3.52.54-pm-350x103.png)
+![](assets/project-became-late-email.png)
 
 #### Lembrete de Tarefa ou Problema Prestes a Iniciar {#task-or-issue-about-to-start-reminder-example}
 

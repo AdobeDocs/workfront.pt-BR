@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
@@ -26,26 +26,17 @@ hide: yes
 
 # Registros: índice do artigo
 
->[!IMPORTANT]
->
->As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta da Adobe Workfront.
->
->Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes. Você deve ser um cliente do Workfront para usar os recursos do Maestro.
->
->Entre em contato com seu representante de conta para obter mais informações sobre como participar do programa beta para o Maestro.
->
->Para obter informações, consulte [Visão geral do Adobe Maestri](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Depois de criar tipos de registro no Adobe Maestro, você pode criar registros individuais desses tipos.
 
 Os artigos a seguir descrevem como você pode criar e gerenciar registros e suas informações no Adobe Maestro:
 
-* [Criar registros](../records/create-records.md)
-* [Editar registros](../records/edit-records.md)
-* [Excluir registros](../records/delete-records.md)
-* [Compartilhar registros](../records/share-records.md)
-* [Conectar registros](../records/connect-records.md)
+* [Criar registros](/help/quicksilver/maestro/records/create-records.md)
+* [Editar registros](/help/quicksilver/maestro/records/edit-records.md)
+* [Excluir registros](/help/quicksilver/maestro/records/delete-records.md)
+* [Compartilhar registros](/help/quicksilver/maestro/records/share-records.md)
+* [Conectar registros](/help/quicksilver/maestro/records/connect-records.md)
 * [Gerenciar comentários de registro](/help/quicksilver/maestro/records/manage-record-comments.md)
 * [Visão geral da seção Histórico](/help/quicksilver/maestro/records/history-section-overview.md)
-
-<!--* [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)-->
+* [Adicionar miniaturas aos registros](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)
