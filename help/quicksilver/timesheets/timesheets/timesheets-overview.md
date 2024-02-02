@@ -7,9 +7,9 @@ description: Você pode usar folhas de horas para rastrear o tempo que você gas
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
+source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,6 @@ Todas as suas folhas de horas, bem como folhas de horas que você tem acesso par
 
 1. Clique em **Intervalo de datas** de uma folha de horas para abri-la.
 
-   Cada planilha de horas exibe todas as tarefas, problemas e projetos para os quais você fez logon. Uma folha de horas também exibe até 45 tarefas, problemas ou projetos que são atribuídos a você com datas dentro do período da folha de horas, mas para os quais você pode não ter registrado tempo ainda.
+   Cada planilha de horas exibe todas as tarefas, problemas e projetos para os quais você fez logon. Uma folha de horas também exibe até 45 tarefas e problemas que são atribuídos a você com datas dentro do período da folha de horas, mas para as quais você pode não ter registrado tempo ainda. Os 45 itens atualizados mais recentemente são selecionados para exibição na folha de horas.
 
    Para obter mais informações, consulte [Configurar preferências de horas e planilha de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).

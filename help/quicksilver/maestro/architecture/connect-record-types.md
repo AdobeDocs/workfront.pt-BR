@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
 workflow-type: tm+mt
-source-wordcount: '1986'
+source-wordcount: '2116'
 ht-degree: 0%
 
 ---
@@ -128,6 +128,8 @@ Considere o seguinte:
    * Um tipo de registro operacional e uma taxonomia
    * Um tipo de registro operacional ou uma taxonomia e um tipo de objeto de outro aplicativo.
 
+  Todos os tipos de registros operacionais e taxonomias devem pertencer ao mesmo espaço de trabalho.
+
 * Você pode conectar os seguintes objetos das seguintes aplicações com os tipos de registro Maestri:
 
    * Adobe Workfront:
@@ -151,19 +153,23 @@ Considere o seguinte:
 
 * Depois de conectar um tipo de registro com outro tipo de registro ou com um tipo de objeto de outro aplicativo, existem os seguintes cenários:
 
-   * **Quando você conecta dois tipos de registro**: um campo de registro Vinculado é criado no tipo de registro ao qual você está se conectando. Um campo Registro vinculado semelhante é criado no tipo de registro ao qual você está se conectando.
+   * **Quando você conecta dois tipos de registro**: um campo de registro vinculado é criado no tipo de registro ao qual você está se conectando. Um campo de registro vinculado semelhante é criado no tipo de registro ao qual você está se conectando.
 
      Por exemplo, se você conectar o tipo de registro &quot;Campanha&quot; ao tipo de registro &quot;Produto&quot;, um campo de registro vinculado chamado &quot;Produto vinculado&quot; será criado no tipo de registro Campanha e um tipo de registro vinculado chamado automaticamente &quot;Campanha&quot; será criado no tipo de registro Produto.
 
    * **Quando você conecta um tipo de registro a um tipo de objeto de outro aplicativo**: um campo de registro vinculado é criado no tipo de registro ao qual você está se conectando. Nenhum campo de registro vinculado é criado automaticamente no objeto de aplicativo de terceiros.
 
-     Um novo tipo de registro Maestri é criado para o objeto de aplicativo de terceiros somente quando os objetos reais estão conectados aos registros Maestri.
+     Um novo tipo de registro somente leitura do Maestri é criado para o objeto de aplicativo de terceiros somente quando os objetos reais estão conectados aos registros do Maestri.
 
      Para obter mais informações, consulte [Conectar registros](../records/connect-records.md).
 
-   * **Ao adicionar campos de pesquisa a partir do registro ou objeto ao qual você se conecta**: os campos vinculados são adicionados ao registro do qual você está se conectando e exibem os campos de pesquisa selecionados para trazer do registro vinculado para os registros a partir dos quais você está vinculando. Os campos de registro são sempre somente leitura e preenchidos automaticamente com os valores do objeto de terceiros.
+   * **Ao adicionar campos de pesquisa do registro ou objeto ao qual você se conecta**: os campos vinculados são adicionados ao registro do qual você está se conectando e exibem informações dos campos de pesquisa selecionados para os registros a partir dos quais você está vinculando. Os campos de registro são sempre somente leitura e preenchidos automaticamente com os valores do objeto de terceiros.
 
      Por exemplo, se você conectar o tipo de registro &quot;Campanha&quot; Maestri com um projeto do Workfront e selecionar trazer o campo Data de conclusão planejada do projeto para o registro Maestri, um campo vinculado chamado Data de conclusão planejada (do projeto) será criado automaticamente para o registro do qual você está vinculando.
+
+     >[!IMPORTANT]
+     >
+     >    Todos os usuários com permissões de Exibição ou superiores ao espaço de trabalho podem exibir as informações nos campos vinculados, independentemente das permissões ou do nível de acesso no aplicativo de terceiros dos tipos de objeto vinculados.
 
 * Os campos de registro vinculados são precedidos por um ícone de relacionamento ![](assets/relationship-field-icon.png).
 
@@ -211,7 +217,7 @@ O espaço de trabalho acessado por último deve ser aberto por padrão.
 
    * **Descrição**: informações adicionais sobre o campo de registro conectado. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
    * **Permitir vários registros**: selecione essa opção para indicar que você permite que os usuários possam adicionar vários registros quando o campo de tipo de registro vinculado for exibido nos registros originais. É selecionado por padrão.
-   * **Selecionar campos de pesquisa**: selecione essa opção para adicionar campos do tipo de registro selecionado. É selecionado por padrão.
+   * **Selecionar campos de pesquisa**: selecione essa opção para adicionar campos do tipo de registro selecionado. Os campos de pesquisa estão associados ao registro ou tipo de objeto ao qual você está vinculando.  É selecionado por padrão.
 
 1. (Condicional e opcional) Se você selecionou conectar um objeto do Workfront, selecione um **Formulário personalizado** do **Vincular somente projetos que correspondam a estes critérios** seção. <!--this needs to be updated for each object when they fix this UI.--> Somente objetos que tenham os formulários personalizados selecionados anexados podem ser vinculados ao tipo de registro Mestre selecionado. É possível selecionar mais de um formulário.
 
@@ -232,6 +238,10 @@ O espaço de trabalho acessado por último deve ser aberto por padrão.
    Clique em **-** ícone para remover campos do **Campos selecionados** área
 
    ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
+
+   >[!IMPORTANT]
+   >
+   >    Todos os usuários com permissões de Exibição ou superiores ao espaço de trabalho podem exibir as informações nos campos vinculados, independentemente das permissões ou do nível de acesso no aplicativo de terceiros dos tipos de objeto vinculados.
 
 
 1. (Opcional) Clique em **Ignorar** e não adicione nenhum campo do registro ou objeto vinculado. A variável **Nome** do registro vinculado é o único campo visível na exibição de tabela do registro original.
@@ -269,15 +279,19 @@ O espaço de trabalho acessado por último deve ser aberto por padrão.
 
    Os seguintes itens são adicionados:
 
-   * O campo de registro vinculado que exibe os registros do tipo de registro vinculado, depois de adicioná-los manualmente. O nome do campo de registro vinculado é o nome selecionado na etapa 5. <!--accurate-->
+   * Um campo de registro vinculado no tipo de registro a partir do qual você está vinculando. O campo de registro vinculado exibirá registros individuais do tipo de registro vinculado depois que você os adicionar manualmente. Para obter informações sobre como adicionar registros, consulte [Conectar registros](/help/quicksilver/maestro/records/connect-records.md). O nome do campo de registro vinculado é o nome selecionado na etapa 6. <!--accurate-->
 
-   * O(s) campo(s) vinculado(s) que exibe(m) informações dos campos do tipo de registro vinculado depois de adicionar manualmente os registros no campo de registro vinculado. Os campos vinculados são criados somente quando a variável **Selecionar campos de pesquisa** for selecionada ao criar a conexão. Os campos vinculados são nomeados de acordo com este padrão:
+   * Um campo (ou campos) vinculado que exibe informações dos campos do tipo de registro vinculado depois de adicionar manualmente os registros no campo de registro vinculado. Os campos vinculados são criados somente quando a variável **Selecionar campos de pesquisa** for selecionada ao criar a conexão. Os campos vinculados são nomeados de acordo com este padrão:
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
-   * Quando você vincula tipos de registro Maestro um ao outro, um campo de registro vinculado também é adicionado ao tipo de registro ao qual você está vinculando. O nome do campo de registro vinculado no tipo de registro vinculado é o nome do tipo de registro que você vincula.
+   * Quando você vincula os tipos de registro Maestro um ao outro, um campo de registro vinculado também é adicionado ao tipo de registro ao qual você está vinculando. O nome do campo de registro vinculado no tipo de registro vinculado é o nome do tipo de registro que você vincula.
 
      Por exemplo, se você vincular o tipo de registro &quot;Produto&quot; do tipo de registro &quot;Campanha&quot; e nomear o campo conectado do &quot;Produto vinculado&quot; da Campanha, um campo de registro vinculado &quot;Campanha&quot; será criado para o tipo de registro Produto.
+
+     >[!TIP]
+     >
+     > Um campo de registro vinculado ao tipo de registro do qual você está vinculando não é criado para objetos de um aplicativo de terceiros.
 
 1. (Opcional) No tipo de registro original ou na exibição de tabela do tipo de registro vinculado, clique na seta para baixo no cabeçalho dos campos de registro vinculados e, em seguida, clique em uma das seguintes opções:
 
@@ -286,14 +300,13 @@ O espaço de trabalho acessado por último deve ser aberto por padrão.
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
-   Para adicionar ou remover campos de pesquisa, siga as instruções nas etapas 9 a 13 acima. <!--ensure these step numbers stay accurate-->
+   Para adicionar ou remover campos de pesquisa, siga as instruções nas etapas 10 a 14 acima. <!--ensure these step numbers stay accurate-->
 
    >[!NOTE]
    >
    > Não é possível adicionar os campos de pesquisa do registro vinculado ao tipo de registro vinculado que indica um objeto em um aplicativo de terceiros.
    >
    > Por exemplo, não é possível adicionar o campo de pesquisa de um objeto Maestro &quot;Campanha&quot; a partir do campo de registro vinculado &quot;Campanha&quot; exibido no tipo de registro Projeto Maestro ao vincular a projetos Workfront.
-
 
 1. (Opcional) Clique na seta para baixo no cabeçalho do campo de registro vinculado do tipo de registro que está sendo vinculado e clique em **Excluir**.
 
