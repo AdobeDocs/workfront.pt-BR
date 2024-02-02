@@ -4,17 +4,19 @@ product-area: projects
 navigation-topic: financials
 title: Rastrear custos
 description: Você pode rastrear custos de projetos, tarefas e problemas no Adobe Workfront.
-author: Alina, Lisa
+author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: d431ae178a157522e2b5d8d963da7b0623510d28
 workflow-type: tm+mt
-source-wordcount: '2472'
-ht-degree: 1%
+source-wordcount: '2480'
+ht-degree: 0%
 
 ---
 
 # Rastrear custos
+
+<!-- Audited: 02/2024 -->
 
 Você pode rastrear custos de projetos, tarefas e problemas no Adobe Workfront.
 
@@ -34,7 +36,7 @@ Existem os seguintes cenários:
 
   Para obter informações sobre como associar funções de cargo a taxas de custo, consulte [Criar e gerenciar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-* O Workfront calcula somente o Custo Efetivo para ocorrências e ocorrências que não tenham um Tipo de Custo. Para obter mais informações, consulte a seção [Como o Workfront rastreia custos de problemas](#how-workfront-tracks-costs-for-issues) neste artigo.
+* O Workfront calcula somente o Custo Efetivo para ocorrências e as ocorrências não têm um Tipo de Custo. Para obter mais informações, consulte a seção [Como o Workfront rastreia custos de problemas](#how-workfront-tracks-costs-for-issues) neste artigo.
 
 >[!TIP]
 >
@@ -51,13 +53,11 @@ Para obter mais informações sobre o cálculo de índices de custo-desempenho, 
 
 ## Como o Workfront rastreia custos de tarefas e projetos
 
-* [Como o Workfront rastreia custos](#how-workfront-tracks-costs)
-* [Como o Workfront calcula os custos planejados, orçados e reais](#how-workfront-calculates-planned-budgeted-and-actual-costs)
-* [Como o Workfront calcula os tipos de custo para tarefas](#how-workfront-calculates-cost-types-for-tasks)
+Os tipos de custos são calculados de forma diferente para tarefas e para projetos.
 
-### Como o Workfront rastreia custos  {#how-workfront-tracks-costs}
+### Como o Workfront rastreia custos {#how-workfront-tracks-costs}
 
-Você pode rastrear vários tipos de custos para tarefas e projetos no Workfront. Os Custos gerais são calculados pela seguinte fórmula:
+É possível rastrear vários tipos de custos para tarefas e projetos no Workfront. Os custos gerais são calculados pela seguinte fórmula:
 
 `Costs = Labor Costs + Expense Costs`
 
@@ -84,10 +84,10 @@ Você pode rastrear vários tipos de custos para tarefas e projetos no Workfront
 
   Para obter mais informações, consulte [Como o Workfront calcula os custos planejados, orçados e reais](#how-workfront-calculates-planned-budgeted-and-actual-costs) neste artigo.
 
-* **Custos de Despesas** estão associadas a Despesas com projetos e tarefas.\
+* **Custos de Despesas** estão associados a despesas em projetos e tarefas.\
   Ao criar um projeto, você pode definir despesas planejadas para todo o projeto. Além disso, você pode associar despesas a tarefas novas ou existentes. Para obter informações, consulte [Gerenciar despesas do projeto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
-* **Custos fixos** são definidos como uma quantia fixa de custo para um projeto. Essa é parte do Custo planejado do projeto que representa a quantidade de dinheiro necessária para concluir o projeto.
+* **Custos fixos** são definidos como uma quantia fixa de custo para um projeto. Isso é parte do Custo planejado do projeto, que representa a quantidade de dinheiro necessária para concluir o projeto.
 
   >[!TIP]
   >
@@ -97,10 +97,6 @@ Você pode rastrear vários tipos de custos para tarefas e projetos no Workfront
 
 O Workfront calcula o Custo Planejado e o Custo Efetivo para cada tarefa individual em um projeto. O Workfront usa esses cálculos para tarefas individuais para calcular o Custo Planejado e o Custo Efetivo do projeto.
 
-* [Custo Planejado](#planned-cost)
-* [Custo Orçado](#budgeted-cost)
-* [Custo Efetivo](#actual-cost)
-
 #### Custo Planejado {#planned-cost}
 
 O Custo Planejado de um projeto é o custo associado ao trabalho planejado (Horas Planejadas) no projeto.
@@ -109,7 +105,7 @@ O Custo Planejado de um projeto é calculado pela seguinte fórmula:
 
 `Planned Project Cost = Planned Labor Cost of all tasks + Planned Expense cost of all tasks + Planned Expense Cost of the project + Fixed Cost of the project`
 
-Por exemplo, você tem as seguintes despesas na guia Despesas de uma tarefa: uma despesa de Marketing de US$ 100 e uma despesa Administrativa de US$ 50. Na guia Finanças, você seleciona o tipo de custo de Hora em hora do usuário. Um usuário é atribuído à tarefa e a taxa horária do usuário é de US$ 15. O usuário é designado para trabalhar 5 horas nesta tarefa. Na guia Expenses (Despesas) do projeto, você tem um custo planejado de US$ 100 para uma despesa chamada Consulting. Você também tem um custo fixo de US$ 200 para o projeto.
+Por exemplo, você tem as seguintes despesas na guia Despesas de uma tarefa: uma despesa de US$ 100 Marketing e uma despesa administrativa de US$ 50. Na guia Finanças, você seleciona o tipo de custo de Hora em hora do usuário. Um usuário é atribuído à tarefa e a taxa horária do usuário é de US$ 15. O usuário é designado para trabalhar 5 horas nesta tarefa. Na guia Expenses (Despesas) do projeto, você tem um custo planejado de US$ 100 para uma despesa chamada Consulting. Você também tem um custo fixo de US$ 200 para o projeto.
 
 O Custo Planejado do projeto é calculado da seguinte maneira:
 
@@ -123,12 +119,12 @@ O Custo Orçado de um projeto é o custo associado ao trabalho orçado (Horas Or
 
 O Custo Orçado do projeto é o mesmo que o Custo Planejado do projeto se as duas condições a seguir forem atendidas:
 
-* As horas planejadas das tarefas no projeto correspondem às horas orçadas (no Planejador de recursos)
-* O tipo de cobrança da tarefa é Função por hora.
+* As horas planejadas das tarefas no projeto correspondem às horas orçadas (no Planejador de recursos).
+* O tipo de faturamento das tarefas é Função por hora.
 
 O Custo Orçado do projeto é calculado usando a fórmula abaixo, se as seguintes condições forem atendidas:
 
-* As horas planejadas das tarefas no projeto não correspondem às horas orçadas (no Planejador de recursos)
+* As horas planejadas das tarefas no projeto não correspondem às horas orçadas (no Planejador de recursos).
 * O tipo de faturamento das tarefas é Função por hora.
 
 Quando as condições acima são atendidas, o Workfront calcula o Custo orçado do projeto usando a seguinte fórmula:
@@ -164,7 +160,7 @@ A taxa horária na fórmula considera quaisquer alterações de data de efetiva�
 >
 >* Por padrão, o Workfront usa a taxa de Custo por hora do usuário para calcular o Custo Efetivo do Trabalho.
 >* Se o usuário que registra a hora não estiver associado a nenhum custo, o Workfront usará a taxa Custo por hora da função principal do usuário.
->* Se o administrador do Workfront ativou o **Atribuir funções de trabalho a entradas de hora manualmente** Se, na área Preferências de Horas e Planilhas de Horas, o tempo de registro do usuário no projeto selecionar uma função diferente para associar a este tempo, o Custo Efetivo do projeto será calculado com base na função especificada quando as horas foram registradas. Para obter informações sobre como ativar o tempo de registro para uma função de trabalho específica, consulte o artigo [Configurar preferências de horas e planilha de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+>* Se o administrador do Workfront ativou o **Atribuir funções de trabalho a entradas de hora manualmente** Se, na área Preferências de Horas e Folhas de horas da Configuração, o usuário registrar horas no projeto selecionar uma função diferente para associar a esse tempo, o Custo real do projeto será calculado com base na função especificada quando as horas forem registradas. Para obter informações sobre como ativar o tempo de registro para uma função de trabalho específica, consulte o artigo [Configurar preferências de horas e planilha de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 ### Como o Workfront calcula os tipos de custo para tarefas {#how-workfront-calculates-cost-types-for-tasks}
 
@@ -176,16 +172,14 @@ Para obter informações sobre como modificar o Tipo de Custo de uma tarefa, con
 
 A tabela a seguir descreve os Tipos de Custo da tarefa disponíveis no Workfront:
 
-<table border="1" cellspacing="15"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
- <thead> 
+<tbody> 
   <tr> 
-   <th> <p><strong>Tipo de Custo da Tarefa</strong> </p> </th> 
-   <th> <p><strong>Descrição</strong> </p> </th> 
-  </tr> 
- </thead> 
- <tbody> 
+   <td> <p><strong>Tipo de Custo da Tarefa</strong> </p> </td> 
+   <td> <p><strong>Descrição</strong> </p> </td> 
+  </tr>
   <tr> 
    <td> <p>Horas por Valor da Hora do Recurso</p> </td> 
    <td> <p>Esse é o Tipo de Custo padrão quando você cria uma tarefa.</p> <p><strong>Custo Planejado</strong> é calculada pela seguinte fórmula: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code> </p> <p>Onde o Custo de Trabalho Planejado é calculado por:<br><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate of the User assigned to the task</code></p> <p>Nota: <p>Considere os seguintes impactos do uso do Tipo de Custo por Hora do Usuário e do cálculo do Custo Planejado:</p> 
@@ -197,7 +191,7 @@ A tabela a seguir descreve os Tipos de Custo da tarefa disponíveis no Workfront
   </tr> 
   <tr> 
    <td> <p>Horas por Valor da Hora do Perfil</p> </td>
-   <td> <p><strong>Custo Planejado</strong> é calculada pela seguinte fórmula: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>Onde o Custo de Trabalho Planejado da Tarefa é calculado por:</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Nota: Se você atribuir vários recursos a uma tarefa, o Workfront ajustará cálculos para Horas Planejadas com base na porcentagem da tarefa atribuída a cada recurso. Além disso, a taxa horária na fórmula considera quaisquer alterações de data de efetivação da taxa.</p> <p><strong>Custo Efetivo</strong> é calculada pela seguinte fórmula: </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Onde o Custo Efetivo do Trabalho da Tarefa é calculado por:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Por exemplo, uma tarefa é atribuída a uma função de trabalho ou a um usuário com uma função de trabalho para a qual a taxa de Custo por hora é de $20. Quando um usuário registra 5 horas para uma tarefa, o Custo Efetivo da Mão-de-Obra é de US$ 100 para essa tarefa. Se o usuário atribuído à tarefa não tiver uma função de trabalho associada a ele na tarefa, o Custo Efetivo será calculado com base na taxa de Custo por Hora da Função de Trabalho Principal. Se eles não tiverem uma função de trabalho ou se a taxa de Custo por hora de sua função de trabalho não estiver definida, o Custo Real da tarefa será zero. </p> <p>Nota:   <p> As horas efetivas de uma tarefa de função por hora são calculadas com base nas funções de trabalho dos usuários associados à tarefa, não nas funções associadas ao usuário que está registrando o horário. Além disso, a taxa horária de faturamento na fórmula considera quaisquer alterações de data de efetivação da taxa.</p> <p>Se o administrador do Workfront ativou o <strong>Atribuir funções de trabalho a entradas de hora manualmente</strong> Se a configuração na área Preferências de Horas e Folhas de Horas e o tempo de registro do usuário na tarefa selecionar uma função diferente para associar a esse tempo, o custo real de uma função por hora será calculado com base na função especificada quando as horas foram registradas. Para obter informações sobre como ativar o tempo de registro para uma função de trabalho específica, consulte o artigo <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configurar preferências de horas e planilha de horas</a>.</p> </p> </td> 
+   <td> <p><strong>Custo Planejado</strong> é calculada pela seguinte fórmula: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>Onde o Custo de Trabalho Planejado da Tarefa é calculado por:</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Nota: Se você atribuir vários recursos a uma tarefa, o Workfront ajustará cálculos para Horas Planejadas com base na porcentagem da tarefa atribuída a cada recurso. Além disso, a taxa horária na fórmula considera quaisquer alterações de data de efetivação da taxa.</p> <p><strong>Custo Efetivo</strong> é calculada pela seguinte fórmula: </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Onde o Custo Efetivo do Trabalho da Tarefa é calculado por:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Por exemplo, uma tarefa é atribuída a uma função de trabalho ou a um usuário com uma função de trabalho para a qual a taxa de Custo por hora é de $20. Quando um usuário registra 5 horas para uma tarefa, o Custo Efetivo da Mão-de-Obra é de US$ 100 para essa tarefa. Se o usuário atribuído à tarefa não tiver uma função de trabalho associada a ele na tarefa, o Custo Efetivo será calculado com base na taxa de Custo por Hora da Função de Trabalho Principal. Se eles não tiverem uma função de trabalho ou se a taxa de Custo por hora de sua função de trabalho não estiver definida, o Custo Real da tarefa será zero. </p> <p>Observação: as Horas Reais de uma tarefa de Função por Hora são calculadas com base nas funções de trabalho dos usuários associados à tarefa, não nas funções associadas ao usuário que está registrando o horário. Além disso, a taxa horária de faturamento na fórmula considera quaisquer alterações de data de efetivação da taxa.</p> <p>Se o administrador do Workfront ativou o <strong>Atribuir funções de trabalho a entradas de hora manualmente</strong> Configurando na área Preferências de Horas e Folhas de Horas em Configurar, e o tempo de registro do usuário na tarefa seleciona uma função diferente para associar a esse tempo, o Custo Efetivo de uma Função Tarefa por hora é calculada com base na função especificada quando as horas foram registradas. Para obter informações sobre como ativar o tempo de registro para uma função de trabalho específica, consulte o artigo <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configurar preferências de horas e planilha de horas</a>.</p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Horas por Valor de Hora Fixo</p> </td> 
@@ -205,23 +199,10 @@ A tabela a seguir descreve os Tipos de Custo da tarefa disponíveis no Workfront
   </tr> 
   <tr> 
    <td> <p>Sem Custo</p> </td> 
-   <td> <p>Esse Tipo de Custo não afeta Custos. Se uma tarefa-pai tiver esse Tipo de Custo, as subtarefas com outro Tipo de Custo serão calculadas de acordo com seus Tipos de Custo individuais, e o Custo da tarefa-pai será afetado de acordo. </p> <p>Quando um usuário sem acesso a dados financeiros ou um usuário sem permissões financeiras em um modelo cria um projeto a partir desse modelo, esse é o Tipo de Custo padrão para as tarefas no projeto.</p> <p>Para obter informações sobre o acesso a Dados Financeiros, consulte o artigo <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Conceder acesso a dados financeiros</a>.</p> <p>Para obter informações sobre permissões financeiras em objetos, consulte o artigo <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Compartilhar permissões financeiras em um objeto</a>.</p> <p>Para obter informações sobre como criar projetos a partir de modelos, consulte o artigo <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Criar um projeto usando um modelo</a>.</p> </td> 
+   <td> <p>Esse Tipo de Custo não afeta custos. Se uma tarefa-pai tiver esse Tipo de Custo, as subtarefas com outro Tipo de Custo serão calculadas de acordo com seus Tipos de Custo individuais, e o custo da tarefa-pai será afetado adequadamente. </p> <p>Quando um usuário sem acesso a dados financeiros ou um usuário sem permissões financeiras em um modelo cria um projeto a partir desse modelo, esse é o Tipo de Custo padrão para as tarefas no projeto.</p> <p>Para obter informações sobre o acesso a Dados Financeiros, consulte o artigo <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Conceder acesso a dados financeiros</a>.</p> <p>Para obter informações sobre permissões financeiras em objetos, consulte o artigo <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Compartilhar permissões financeiras em um objeto</a>.</p> <p>Para obter informações sobre como criar projetos a partir de modelos, consulte o artigo <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Criar um projeto usando um modelo</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: drafted because this was moved to its own how-to article linked above. Could be removed after some time.) </p>
-<p>To configure the Cost Type of an individual task:</p>
-<ol>
-<li value="1">Go to the task where you want to configure the Cost Type. </li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Task Details</strong> in the left panel, then expand the <strong>Finance</strong> area. </p> </li>
-<li value="3"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Double click <strong>Cost Type</strong> and select the cost type that you want to apply to the task. </p> </li>
-<li value="4">Click <strong>Save.</strong></li>
-</ol>
-</div>
--->
 
 ## Como o Workfront rastreia custos de problemas {#how-workfront-tracks-costs-for-issues}
 
@@ -230,40 +211,25 @@ Os problemas não têm e não afetam os seguintes tipos de custos em um projeto:
 * Custo Planejado
 * Custo Orçado
 
-Problemas, podem, no entanto, ter um **Custo Efetivo** que também afeta o Custo Efetivo do projeto.
+Problemas, podem, no entanto, ter um **Custo Efetivo**, que também afeta o custo real do projeto.
 
 A tabela a seguir explica como o Custo Efetivo é calculado para ocorrências, dependendo do tipo de atribuição na ocorrência:
 
 <table style="table-layout:auto"> 
  <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th colspan="4">Custo Efetivo do Problema</th> 
-  </tr> 
- </thead> 
+ <col>
  <tbody> 
   <tr> 
    <td> <p>Atribuição de usuário</p> <p> </p> </td> 
-   <td colspan="3"> <p><strong>Custo Efetivo</strong> é calculada pela seguinte fórmula:</p> <p><code style="font-style: normal;">Issue Actual Cost = Actual Hours * Cost per Hour rate of the user logging the hours</code> </p> <p>A taxa de custo por hora do usuário que está registrando o tempo é considerada aqui, independentemente de quem está atribuído ao problema. </p> <p>Se o usuário que registra o tempo não tiver uma taxa de Custo por hora em seu perfil, a taxa de Custo por hora de sua função de trabalho principal calcula o Custo real do problema. Se o usuário que está registrando o horário não tiver função em seu perfil ou nenhuma taxa associada a ele, as Horas efetivas serão calculadas usando a taxa de Custo por hora da Função de trabalho principal da Destinatária principal na ocorrência. Se essa função não tiver uma taxa definida, o custo real do problema será zero. </p> </td> 
+   <td colspan="3"> <p><strong>Custo Efetivo</strong> é calculada pela seguinte fórmula:</p> <p><code style="font-style: normal;">Issue Actual Cost = Actual Hours * Cost per Hour rate of the user logging the hours</code> </p> <p>A taxa de custo por hora do usuário que está registrando o tempo é considerada aqui, independentemente de quem está atribuído ao problema. </p> <p>Se o usuário que registra o tempo não tiver uma taxa de Custo por hora em seu perfil, a taxa de Custo por hora de sua função de trabalho principal calcula o Custo real do problema.</p> <p>Se o usuário que está registrando o horário não tiver função em seu perfil ou nenhuma taxa associada a ele, as Horas efetivas serão calculadas usando a taxa de Custo por hora da Função de trabalho principal da Destinatária principal na ocorrência. Se essa função não tiver uma taxa definida, o custo real do problema será zero. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Atribuição de Função</p> <p> </p> </td> 
-   <td colspan="3"> <p><strong>Custo Efetivo</strong> é calculada pela seguinte fórmula:</p><code>Issue Actual Cost = Actual Hours * Cost per Hour Rate of user logging the hours</code> <p>A taxa de custo por hora do usuário que registra o tempo na ocorrência é considerada aqui, independentemente da função atribuída à ocorrência. </p> <p>Se o usuário que registra a hora não tiver uma taxa de Custo por hora associada a ele, a taxa de Custo por hora da função principal calcula o Custo real do problema.<br>Se o usuário que está registrando o horário não tiver função em seu perfil ou nenhuma taxa associada a ele, o custo real do problema será zero. </p> </td> 
+   <td colspan="3"> <p><strong>Custo Efetivo</strong> é calculada pela seguinte fórmula:</p><code>Issue Actual Cost = Actual Hours * Cost per Hour Rate of user logging the hours</code> <p>A taxa de custo por hora do usuário que registra o tempo na ocorrência é considerada aqui, independentemente da função atribuída à ocorrência. </p> <p>Se o usuário que registra a hora não tiver uma taxa de Custo por hora associada a ele, a taxa de Custo por hora da função principal calcula o Custo real do problema.</p><p>Se o usuário que está registrando o horário não tiver função em seu perfil ou nenhuma taxa associada a ele, o custo real do problema será zero. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Sem atribuição</p> <p> </p> </td> 
    <td colspan="3"> <p><strong>Custo Efetivo</strong> é calculada pela seguinte fórmula:</p> <p><code>Issue Actual Cost = Actual Hours * Cost per Hour rate of the user logging the hours</code> </p> <p>Se o usuário que registra a hora não tiver uma taxa de Custo por hora associada ao perfil, a taxa de Custo por hora da função de trabalho principal calcula o Custo real da ocorrência. </p> <p>Se o usuário que está registrando o tempo não tiver nenhuma função de trabalho associada ao seu perfil ou se a Função de trabalho principal não tiver uma taxa de Custo por hora definida, o Custo real do problema será zero. </p> </td> 
   </tr> 
-  <!--<tr data-mc-conditions=""> 
-   <td colspan="4"> 
-    <div> <MadCap:conditionalText data-mc-conditions="">
-       If your Workfront administrator enabled the 
-      <strong>Assign Job Roles to hour entries manually</strong> setting in the Timesheets &amp; Hours Preferences area, and the user logging time on the issue selects a different role to associate with this time, the Actual Cost of the issue calculates based on the role specified when the hours were logged. For information about enabling logging time for a specific job role, see the article 
-      <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configure timesheet and hour preferences</a>. 
-     </MadCap:conditionalText> 
-    </div> </td> 
-  </tr> 
-  -->
  </tbody> 
 </table>

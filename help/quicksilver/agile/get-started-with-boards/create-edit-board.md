@@ -6,9 +6,9 @@ description: No [!UICONTROL quadros] painel, é possível criar um novo painel o
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 1195738966734e311a1438002454b29c3fa6986a
+source-git-commit: d431ae178a157522e2b5d8d963da7b0623510d28
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '757'
 ht-degree: 1%
 
 ---
@@ -67,6 +67,10 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       Todos os objetos aparecem no quadro como cartões conectados.
 
       A variável [!UICONTROL **Cartões sendo adicionados**] O contador mostra quantos cartões estarão no quadro. Por exemplo, se você selecionar um projeto com 100 tarefas e problemas, o contador mostrará 100. Se você adicionar uma atribuição de usuário e essa pessoa for atribuída a cinco tarefas no projeto, o contador mostrará cinco.
+
+      >[!NOTE]
+      >
+      >Se você tiver mais de 1.000 placas na placa, o desempenho da placa será afetado.
 
    1. (Opcional) Selecione [!UICONTROL **Não arquivar cartões concluídos**] para trazer tarefas e problemas concluídos para o quadro como cartões visíveis na coluna Concluído. Quando essa opção não está selecionada, os cartões concluídos no momento da criação do quadro são trazidos para o quadro como cartões arquivados.
 
