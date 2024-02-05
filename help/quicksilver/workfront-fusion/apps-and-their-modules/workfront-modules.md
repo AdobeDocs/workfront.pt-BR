@@ -9,9 +9,9 @@ description: Você pode usar o conector do Adobe Workfront Fusion Adobe Workfron
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 37fd436070b435ebf3d042789bd385dc6a6108cc
+source-git-commit: 879d2ec0c8f3909a5dd385c77bd2de81120d40fa
 workflow-type: tm+mt
-source-wordcount: '5799'
+source-wordcount: '5825'
 ht-degree: 2%
 
 ---
@@ -94,6 +94,10 @@ Você pode criar uma conexão com o seu [!DNL Workfront] conta diretamente de de
 Ao configurar [!DNL Workfront] módulos, [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, [!DNL Workfront] Os campos podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
 
 Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+
+>[!NOTE]
+>
+>Se você não vir os campos mais atualizados em um módulo do Workfront, isso pode ser devido a problemas de cache. Aguarde uma hora e tente novamente.
 
 ![](assets/map-toggle-350x74.png)
 
