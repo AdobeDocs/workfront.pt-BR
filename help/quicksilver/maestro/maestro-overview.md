@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
 source-wordcount: '1961'
 ht-degree: 1%
@@ -263,7 +263,7 @@ A tabela a seguir mostra os limites para quantos objetos você pode criar no Mae
 | Objeto maestro | Limite |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Número de espaços de trabalho para uma instância do Workfront | 1.000 |
-| Número de Tipos de Registro para um espaço de trabalho | 1.000 (isso inclui taxonomias para o espaço de trabalho ou objetos que você importa de aplicativos de terceiros) |
+| Número de Tipos de Registro para um espaço de trabalho | 1.000 (isso inclui taxonomias para o espaço de trabalho ou objetos que você importa de outros aplicativos) |
 | Número de registros de um tipo de registro | 10.000 |
 | Número de campos para um tipo de registro ou taxonomia | 500 |
 | Número de caracteres de um campo de texto | 1.000 caracteres |

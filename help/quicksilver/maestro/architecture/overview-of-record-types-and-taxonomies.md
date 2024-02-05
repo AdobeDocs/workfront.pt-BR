@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ A tabela a seguir ilustra algumas das semelhanças e diferenças entre os tipos 
 | Eles representam atributos sobre objetos relacionados ao trabalho |                         | ✓ µ |
 | É possível criar do zero | ✓ µ | ✓ µ |
 | Você pode criar importando um arquivo Excel ou CSV | ✓ µ |                      |
-| Você pode conectar o tipo de registro a um objeto de um aplicativo de terceiros | ✓ µ |                      |
+| É possível conectar o tipo de registro a um objeto de outro aplicativo | ✓ µ |                      |
 | Você pode se conectar a outros tipos de registros do Maestro | ✓ µ |                    |
 | É possível exibir seus registros associados em uma exibição de tabela | ✓ µ | ✓ µ |
 | É possível exibir seus registros associados em uma exibição de linha do tempo | ✓ µ | ✓ µ |

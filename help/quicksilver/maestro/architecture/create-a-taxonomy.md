@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Taxonomias são tipos de registro que capturam atributos sobre tipos de registro operacional no Adobe Maestro.
+Os tipos de registro de taxonomia capturam atributos sobre tipos de registro operacional no Adobe Maestro.
 
 Por exemplo, a campanha pode ser um tipo de registro operacional. A seguir estão taxonomias que capturam atributos sobre o tipo de registro do Campaign: Região, Público-alvo, País.
 
@@ -91,19 +91,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Considerações sobre a criação de taxonomias
 
-* Você deve criar um espaço de trabalho antes de criar taxonomias no espaço de trabalho.
+* Você deve criar um espaço de trabalho antes de criar tipos de registro de taxonomia no espaço de trabalho.
 
   Para obter informações sobre espaços de trabalho, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
 * Você pode criar um tipo de registro de taxonomia seguindo um destes procedimentos:
    * Crie-os automaticamente ao criar um espaço de trabalho usando um modelo. Para obter informações, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
    * Crie-os manualmente, do zero.
-   * Crie-os manualmente colando informações de uma lista externa.
 
-  <!--this is not possible yet:
-  * You can taxonomies to a workspace by doing one of the following:
-    * Create a connection to object types from other systems, when adding fields to a taxnomy record type. This creates a read-only record type in Maestro.  - update this sentence when you can connect taxonomies as well as operational records to a third-party system.-->
-
-* Todas as taxonomias recém-criadas vêm com os seguintes campos:
+* Todos os tipos de registro de taxonomia recém-criados vêm com os seguintes campos:
 
    * Nome <!--if there won't be any more fields, consider rephrasing this-->
 
@@ -111,11 +106,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
   >[!NOTE]
   >
-  >    As taxonomias criadas ao usar um modelo de espaço de trabalho têm campos adicionais.
+  >    Os tipos de registro de taxonomia criados ao usar um modelo de espaço de trabalho têm campos adicionais.
 
-## Criar uma taxonomia
+## Criar um tipo de registro de taxonomia
 
-A criação de taxonomias é semelhante à criação de um tipo de registro operacional do zero ou de um modelo de espaço de trabalho.
+A criação de tipos de registro de taxonomia é semelhante à criação de tipos de registro operacionais do zero ou de um modelo de espaço de trabalho.
 
 Para obter informações, consulte a seção &quot;Criar um tipo de registro do zero&quot; no artigo [Criar tipos de registro](../architecture/create-record-types.md).
 

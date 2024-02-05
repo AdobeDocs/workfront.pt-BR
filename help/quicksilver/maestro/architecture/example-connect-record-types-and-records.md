@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '1825'
+source-wordcount: '1543'
 ht-degree: 0%
 
 ---
@@ -37,15 +37,15 @@ Você deseja criar um campo no tipo de registro de Campanha, onde é possível m
 
 Para fazer isso:
 
-1. Abra a exibição de tabela para o tipo de registro Campanha.
-1. Clique em **+** no canto superior direito da exibição de tabela para adicionar um novo campo, em seguida, clique em **Nova conexão**.
+1. Abra a exibição de tabela para o tipo de registro do Campaign em um espaço de trabalho.
+1. Clique em **+** no canto superior direito da exibição de tabela para adicionar um novo campo, em seguida, clique em **Nova conexão** e, em seguida, clique em **Produto** na seção espaço de trabalho selecionado.
 1. Adicione as seguintes informações, por exemplo:
 
    * **Tipo de registro**: Produto <!--did they change the casing here?-->
    * **Nome**: Informações do produto. Este é o nome do campo de registro vinculado.
    * **Descrição**: estes são os produtos aos quais desejo que minhas campanhas sejam associadas.
    * **Permitir vários registros**: se você deixar essa opção selecionada, os usuários poderão selecionar vários registros quando o campo de tipo de registro vinculado (Informações do produto) for exibido nos registros originais (Campanhas). Em nosso caso, será possível selecionar vários produtos para serem conectados a uma campanha.
-   * **Selecionar campos de pesquisa**: Se você deixar essa opção selecionada, a variável **Adicionar campos de pesquisa** é aberta em seguida, para permitir vincular campos de Produto ao tipo de registro de Campanha. Você pode ignorar essa etapa e adicionar campos de Produto posteriormente.
+   * **Selecionar campos de pesquisa**: Se você deixar essa opção selecionada, a variável **Adicionar campos de pesquisa** é aberta em seguida, para permitir vincular campos de Produto ao tipo de registro de Campanha. Você pode clicar em **Ignorar** para ignorar esta etapa e adicionar campos de Produto posteriormente.
 
    ![](assets/new-connection-with-product-record-type.png)
 
@@ -76,7 +76,7 @@ Para fazer isso:
    >
    >    Os campos de registro vinculados são precedidos pelo ícone de relacionamento ![](assets/relationship-field-icon.png).
 
-1. Para preencher o **Informações do produto** campo, no campo **Campaign** exibição de tabela do tipo de registro, crie uma campanha adicionando uma nova linha na tabela da página Tipo de registro de campanha.
+1. No **Campaign** exibição de tabela do tipo de registro, crie uma campanha adicionando uma nova linha na tabela da página Tipo de registro de campanha.
 1. Clique em **+** ícone dentro do  **Informações do produto** da nova campanha. A variável **Conectar objetos** é exibida. O nome do tipo de registro ao qual você está vinculando (Produto) é exibido no canto superior esquerdo da caixa.
 
    ![](assets/connect-objects-box-to-select-other-maestro-records-example-for-product-record.png)
@@ -85,7 +85,7 @@ Para fazer isso:
 
    As seguintes colunas são preenchidas na tabela Campaign record type:
    * A variável **Informações do produto** O campo é preenchido para o registro de Campanha com os Produtos selecionados.
-   * **O orçamento (a partir das informações do produto)** O campo é preenchido com o valor Orçamento para cada Produto selecionado ou com um total de todos os orçamentos dos produtos selecionados.
+   * **O orçamento (a partir das informações do produto)** O campo é preenchido com o valor Orçamento para cada Produto selecionado ou com um total de todos os orçamentos dos produtos selecionados (se você selecionou SUM para o agregador).
 
    ![](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
 
@@ -96,31 +96,31 @@ Para fazer isso:
 1. Para preencher o **Campaign** do campo **Produto** exibição de tabela, repita as etapas de 5 a 7 a partir da exibição de tabela Tipo de registro de produto e selecione informações de campanha. Isso também atualizará o campo Product information na tabela da página Campaign record type. <!--ensure the step numbers remain correct-->
 
 
-## Conectar um tipo de registro Maestri com um tipo de objeto de projeto Workfront e um registro com projetos individuais
+## Conectar um tipo de registro Maestri com um tipo de objeto de projeto Workfront e conectar um registro a projetos individuais
 
 Por exemplo, você tem um tipo de registro chamado Campanha como o tipo de registro original.
 
 Você também tem projetos no Workfront com um campo chamado &quot;Receita planejada&quot;.
 
-Você deseja criar um campo de conexão no tipo de registro de Campanha, onde é possível mostrar os valores do campo Receita planejada no projeto no Workfront para determinadas campanhas.
+Você deseja criar um campo de conexão no tipo de registro do Campaign, onde você pode mostrar os valores do campo Receita planejada dos projetos no Workfront que estão conectados às campanhas no Maestro.
 
 Para fazer isso:
 
 1. Vá para um espaço de trabalho onde deseja conectar o tipo de registro Campanha com projetos Workfront.
 1. Abra a exibição de tabela para o tipo de registro do Campaign no espaço de trabalho selecionado.
-1. Clique em **+** no canto superior direito da exibição de tabela para adicionar um novo campo, em seguida, clique em **Nova conexão**.
+1. Clique em **+** no canto superior direito da exibição de tabela para adicionar um novo campo, em seguida, clique em **Nova conexão** e, em seguida, clique em **Projeto** no **Tipos de objeto do Workfront** seção.
 1. Adicione as seguintes informações, por exemplo:
 
-   * **Tipo de registro**: Projeto do Workfront (da subseção Workfront) <!--did they change the casing here for the field label and did they take "Workfront" out of the name of the object?-->
-   * **Nome**: Informações do projeto. Esse é o nome do campo de objeto vinculado.
-   * **Descrição**: estes são os projetos aos quais quero que minhas campanhas sejam associadas.
+   * **Tipo de registro**: Projeto do Workfront (da subseção Workfront)
+   * **Nome**: Informações do projeto. Este é um exemplo do que você pode chamar de campo de objeto vinculado.
+   * **Descrição**: estes são os projetos aos quais quero que minhas campanhas sejam associadas. Este é um exemplo da descrição do campo de registro conectado.
    * 
-      * **Permitir vários registros**: se você deixar essa opção selecionada, os usuários poderão selecionar vários objetos quando o campo de tipo de objeto vinculado (Informações do projeto) for exibido nos registros originais (Campanhas).
-   * **Selecionar campos de pesquisa**: Se você deixar essa opção selecionada, a variável **Adicionar campos de pesquisa** é aberta em seguida, para permitir vincular campos Project ao tipo de registro Campaign. Você pode ignorar esta etapa e adicionar campos de Projeto posteriormente.
+      * **Permitir vários registros**: ao deixar essa opção selecionada, os usuários poderão selecionar vários projetos quando o campo de tipo de projeto vinculado (Informações do projeto) for exibido nos registros originais (Campanhas).
+   * **Selecionar campos de pesquisa**: Se você deixar essa opção selecionada, a variável **Adicionar campos de pesquisa** é aberta em seguida, para permitir vincular campos Project ao tipo de registro Campaign. Você pode clicar em **Ignorar** para ignorar esta etapa e adicionar campos de Projeto mais tarde.
 
    ![](assets/new-connection-tab-with-workfront-option.png)
 
-1. (Condicional) Se você selecionou a variável **Selecionar opção de campos de pesquisa** na etapa anterior, da lista de campos associados à variável **Projeto** tipo de objeto, clique no botão **+** ícone para a variável **Receita Planejada** e clique em **Adicionar campos**. Isso cria um campo chamado **Receita planejada (a partir de informações do projeto)**, que é o nome do campo vinculado. Qualquer informação do campo Receita do projeto será exibida nesse campo para os registros da campanha.
+1. (Condicional) Se você selecionou a variável **Selecionar opção de campos de pesquisa** na etapa anterior, da lista de campos associados à variável **Projeto** tipo de objeto, clique no botão **+** ícone para a variável **Receita Planejada** e clique em **Adicionar campos**. Isso cria um campo chamado **Receita planejada (a partir de informações do projeto)**, que é o nome do campo vinculado. Qualquer informação do campo Receita planejada do projeto será exibida automaticamente neste campo para os registros da campanha.
 
    >[!TIP]
    >
@@ -141,7 +141,7 @@ Para fazer isso:
    >
    >    Os campos de objeto vinculados são precedidos pelo ícone de relacionamento ![](assets/relationship-field-icon.png).
 
-1. Para preencher o **Informações do projeto** campo, no campo **Campaign** para a exibição de tabela do tipo de registro, crie uma campanha adicionando uma nova linha na tabela.
+1. No **Campaign** para a exibição de tabela do tipo de registro, crie uma campanha adicionando uma nova linha na tabela.
 1. Clique em **+** ícone dentro do  **Informações do projeto** da nova campanha. A variável **Conectar objetos** é exibida. O nome do tipo de objeto ao qual você está vinculando (Projeto do Workfront) é exibido no canto superior esquerdo da caixa.
 
    ![](assets/connect-objects-box-to-select-projects.png)
@@ -160,49 +160,17 @@ Para fazer isso:
    >
    >Quando você não seleciona um agregador para os vários valores e seleciona vários objetos no campo vinculado a objetos, todos os valores são exibidos separados por vírgulas.
 
-   * Um tipo de registro de Projeto do Workfront somente leitura para o espaço de trabalho selecionado.
+1. Clique no nome de um projeto no campo de registro conectado.
 
-1. Clique na seta que aponta para trás à esquerda do nome do registro no cabeçalho da página para acessar o espaço de trabalho que você está atualizando.
-1. Abra o **Projeto do Workfront** cartão de tipo de registro para abrir a página de tipo de registro.
+   Isso abre o projeto Maestro somente leitura **Detalhes** página.
+Revise as informações sobre o projeto. Somente os campos de projeto selecionados são exibidos na página Detalhes.
 
-   Observe o seguinte para a página do tipo de registro Projeto do Workfront:
+1. Clique em Ir para código-fonte no canto superior direito da tela para abrir o projeto no Workfront, se você tiver pelo menos permissões de Exibição para o projeto.
+1. (Opcional) Atualize as informações sobre o projeto no Workfront, se você tiver permissões para isso.
 
-   * Este é um tipo de registro Maestro somente leitura que você não pode excluir ou atualizar.
-   * Os projetos selecionados para conexão com campanhas são exibidos como registros separados na página Tipo de registro de projeto do Workfront. Os registros de projeto também são somente leitura e suas informações são atualizadas automaticamente à medida que os projetos são atualizados no Workfront. Você deve adicionar mais projetos do registro Maestro conectado para visualizá-los no tipo de registro Projeto do Workfront.
-   * O campo Campaign linked record é preenchido com os nomes das campanhas conectadas aos projetos na página Campaign record type.
-
-1. (Opcional) Para abrir a página Detalhes do projeto do Workfront no Maestro, siga um destes procedimentos:
-
-   * No tipo de registro vinculado (**Campaign**), vá para o campo de registro vinculado do projeto do Workfront (**Informações do projeto**) e clique no nome de um projeto Workfront.
-   * No **Tabela** visão do **Projeto do Workfront** gravar, clique no nome de um projeto do Workfront
-
-     Ou
-
-     Clique em **Mais** à direita de um projeto do Workfront e clique em **Exibir**.
-
-     ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
-
-   A página Detalhes do maestro do projeto vinculado do Workfront é aberta. Esta página é somente leitura.
-
-1. (Opcional) Para abrir o projeto vinculado do Workfront no Workfront, siga um destes procedimentos:
-
-   * No **Tabela** visão do **Projeto do Workfront** clique no nome de um projeto Workfront,
-
-   Ou
-
-   Clique em **Mais** à direita do nome do projeto do Workfront e clique em **Ir para origem**.
-
-   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
-
-   Isso abre a página do projeto do Workfront. Você pode editar informações sobre o projeto Workfront, se tiver permissões para isso.
-
-1. Clique em **Adicionar campos** ícone ![](assets/add-fields-icon.png) no canto superior direito da tabela Tipo de registro do Workfront Project, para adicionar mais campos de projeto ao tipo de registro Workfront Project Maestri.
+1. Na exibição da tabela do Campaign, passe o mouse sobre **Informações do projeto** cabeçalho de campo, clique na seta para baixo e clique em **Editar campos de pesquisa.**
 1. Clique em **+** ícone para quaisquer campos de projeto que você deseja adicionar ao registro do Workfront Project Maestro no **Campos não selecionados** seção.
 1. Clique em **-** ícone de todos os campos de projeto que você deseja remover do registro do Workfront Project Maestri na **Campos selecionados** seção.
 1. Clique em **Salvar**.
 
-   >[!TIP]
-   >
-   >    Os campos adicionados ao registro do Workfront Project Maestro são adicionados somente na página Workfront Project e não são adicionados à página Campaign record type, como campos vinculados. Você deve adicionar os campos do projeto do campo Project information connected-object do tipo de registro Campanha para exibi-los para campanhas.
-
-1. (Opcional e condicional) Se você optou por exibir pelo menos dois campos de data para projetos, clique no link **Exibir** menu suspenso na tabela de tipo de registro Workfront Project e, em seguida, **Criar visualização** > **Linha do tempo** > **Criar** para criar uma visualização de linha do tempo e exibir os projetos em uma linha do tempo.
+   Campos vinculados adicionais são adicionados ao tipo de registro Campanha.

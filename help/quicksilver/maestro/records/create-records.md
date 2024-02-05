@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ A criação de registros operacionais é idêntica à criação de registros de 
 Você pode criar registros no Maestro seguindo um destes procedimentos:
 
 * Criá-los manualmente para os tipos de registro do Maestro
-* Conecte-os aos registros do Maestro a partir de aplicativos de terceiros.
+* Conecte-os aos registros do Maestro de outras aplicações.
 * Criar registros copiando e colando informações de uma lista externa.
 
 Este artigo descreve como você pode criar registros Maestro. Para obter informações sobre o gerenciamento de registros nas exibições de tabela ou linha do tempo, consulte os seguintes artigos:
@@ -139,22 +139,21 @@ Todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
 ## Criar registros conectando-os de outro aplicativo
 
-Você pode importar registros de outros aplicativos vinculando-os aos registros vinculados Maestri. Isso cria um tipo de registro Maestri para o objeto conectado do aplicativo de terceiros. Registros que você conecta à exibição original de registros do Maestro no aplicativo de terceiros conectado objeto Maestro tipo de registro exibição de tabela.
+Você pode importar registros de outros aplicativos vinculando-os aos registros vinculados Maestri. Isso cria um tipo de registro Maestri para o outro objeto conectado do aplicativo.
 
 1. Crie um tipo de registro Maestri, conforme descrito na seção [Criar tipos de registro](../architecture/create-record-types.md).
 
 1. Crie registros Maestri para o tipo de registro criado na etapa anterior. Para obter informações, consulte a seção [Criar registros adicionando-os manualmente a um tipo de registro](#create-records-by-manually-adding-them-to-a-record-type) neste artigo.
 
-1. Crie uma conexão com um tipo de objeto de um aplicativo de terceiros para o tipo de registro Maestri que você criou. Para obter informações, consulte [Conectar tipos de registro](../architecture/connect-record-types.md).
+1. Crie uma conexão com um tipo de objeto a partir de outro aplicativo para o tipo de registro Maestro que você criou. Para obter informações, consulte [Conectar tipos de registro](../architecture/connect-record-types.md).
 
-1. Adicione registros do aplicativo de terceiros aos registros Maestri criados acima usando o campo de registro vinculado criado na etapa anterior. Para obter informações, consulte [Conectar registros](../records/connect-records.md).
+1. Adicione registros de outro aplicativo aos registros Maestri criados acima usando o campo de registro vinculado criado na etapa anterior. Para obter informações, consulte [Conectar registros](../records/connect-records.md).
 
    Os seguintes itens são criados no Maestro:
 
-   * Um tipo de registro Maestro somente leitura que se refere ao tipo de registro de terceiros ao qual você vinculou no campo de registro conectado.
+   * Um tipo de registro Maestro somente leitura que se refere ao tipo de registro do outro aplicativo ao qual você vinculou no campo de registro conectado.
 
-     Por exemplo, se você conectar um tipo de registro Maestro a projetos Workfront, um tipo de registro somente leitura chamado &quot;projetos Workfront&quot; será criado no mesmo espaço de trabalho.
-   * Registros somente leitura na página de tipo de registro de terceiros. Os registros importados do aplicativo de terceiros permanecem como somente leitura e só podem ser atualizados no aplicativo original.
+     Por exemplo, se você conectar um tipo de registro Maestro ao projeto Workfront, um tipo de registro somente leitura chamado &quot;Projeto Workfront&quot; será criado no mesmo espaço de trabalho. Você pode acessar os tipos de registros somente leitura do Workfront na exibição de tabela dos registros do Maestro que você está vinculando.
 
 ## Criar registros copiando e colando informações de uma lista externa
 
@@ -178,7 +177,7 @@ Você pode importar registros de outros aplicativos vinculando-os aos registros 
    >
    > Certifique-se de que você tem os campos desejados já criados em Maestro e que as informações em sua folha exibe no formato correto que corresponde ao de cada campo em Maestri.
 
-1. No aplicativo de terceiros, selecione várias linhas e colunas e cole as informações na exibição de tabela do tipo de registro, começando com o primeiro novo registro.
+1. Em outro aplicativo, selecione várias linhas e colunas e cole as informações na exibição de tabela do tipo de registro, começando com o primeiro novo registro.
 
    As seguintes informações são importadas no Maestro:
 
