@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
 workflow-type: tm+mt
-source-wordcount: '2863'
+source-wordcount: '2898'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,8 @@ Você pode usar campos Workfront incorporados e campos personalizados já criado
      <tr> 
       <td role="rowheader">Formatar</td> 
       <td> <p>O formato no qual você deseja que os resultados do campo sejam armazenados e exibidos.</p> <p>Se você planeja usar o campo em cálculos matemáticos, sempre use um <strong>Número</strong> ou um <strong>Moeda</strong> formato. Ao selecionar Número ou Moeda, o sistema trunca automaticamente os números que começam com 0.</p> 
-      <p><b>IMPORTANTE</b>: <p>Antes de escolher um formato, considere o formato correto para o novo campo. O campo de formato não pode ser editado depois que o formulário personalizado é salvo. E selecionar o formato errado poderia afetar cálculos futuros e agregar valores em agrupamentos de relatórios e listas.</p> </td> 
+      <p><b>IMPORTANTE</b>: <p>Antes de escolher um formato, considere o formato correto para o novo campo. O campo de formato não pode ser editado depois que o formulário personalizado é salvo. E selecionar o formato errado poderia afetar cálculos futuros e agregar valores em agrupamentos de relatórios e listas.</p>
+      <p><strong>NOTA:</strong> Os campos calculados com um formato de Moeda não devem incluir aspas. (Por exemplo, use 800.00 e não "800.00".) O uso de aspas pode causar consequências inesperadas devido a nuances na formatação de idioma para tipos de moeda.</p></td> 
      </tr> 
     </tbody> 
    </table>

@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 4120b44a1be1fc8cf7da26ac441c8e51fa8b48ac
+source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
 workflow-type: tm+mt
 source-wordcount: '5096'
 ht-degree: 3%
@@ -198,8 +198,8 @@ Para adicionar um campo de texto:
     <td>Formatar</td>
     <td><p>Selecione o tipo de dados que será capturado no campo personalizado.</p> <p><b>NOTA</b>:   
     <ul> 
-    <li>Este campo não pode ser editado depois que o formulário é salvo. Se você pretende usar seu campo em cálculos matemáticos, certifique-se de selecionar um formato de Número ou Moeda.<br></li> 
-    <li>Ao selecionar Número ou Moeda, o sistema trunca automaticamente os números que começam com 0.</li> 
+    <li>Este campo não pode ser editado depois que o formulário é salvo. Se você pretende usar seu campo em cálculos matemáticos, certifique-se de selecionar um formato de Número ou Moeda.</li> 
+    <li>Ao selecionar Número ou Moeda, o sistema trunca automaticamente os números que começam com 0.</li>
      </ul></p></td> </td>
     <td><ul>
     <li>Texto de linha única</li>
@@ -316,7 +316,7 @@ Para adicionar botões de opção e caixas de seleção:
     <td> <p>Selecione o tipo de dados que será capturado no campo personalizado.</p> <p><b>NOTA</b>:   
      <ul> 
     <li>Este campo não pode ser editado depois que o formulário é salvo. Se você pretende usar seu campo em cálculos matemáticos, certifique-se de selecionar um formato de Número ou Moeda.<br></li> 
-    <li>Ao selecionar Número ou Moeda, o sistema trunca automaticamente os números que começam com 0.</li> 
+    <li>Ao selecionar Número ou Moeda, o sistema trunca automaticamente os números que começam com 0.</li>
      </ul></p></td> 
      <td><ul>
     <li>Botões de seleção</li>
