@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 83b4aa974fe0d9ba2ace797b52198b15fc55f5d8
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2313'
 ht-degree: 3%
 
 ---
@@ -166,6 +166,8 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
    >   * Alterar o campo principal em uma exibição de tabela afeta todas as exibições de tabela.
    >
    >   * Não é possível excluir ou ocultar um campo principal.
+   >
+   >   * O valor listado no campo principal sempre recebe um hiperlink para a página Detalhes do registro.
 
 1. Clique e arraste as linhas de separação da coluna e solte-as no ponto desejado para aumentar a largura das colunas.
 
@@ -214,7 +216,7 @@ Você pode ter até 10.000 registros (ou linhas) para um tipo de registro no Mae
 
    Os registros adicionados na exibição de tabela são salvos imediatamente e ficam visíveis para todos os usuários que têm permissões de Exibição ou superiores para o espaço de trabalho.
 
-1. (Opcional) Adicione uma miniatura a cada registro e clique em **Campos** no canto superior direito da tabela e selecione a alternância para o campo Miniatura para exibi-lo à esquerda do campo principal. Ela é desmarcada por padrão.
+1. (Opcional) Adicione uma miniatura a cada registro e clique em **Campos** no canto superior direito da tabela, selecione a alternância para a variável **Miniatura** para exibi-lo à esquerda do campo principal. Ela é desmarcada por padrão.
 
    Para obter informações, consulte [Adicionar miniaturas aos registros](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 

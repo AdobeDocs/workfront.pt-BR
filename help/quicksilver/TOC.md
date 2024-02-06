@@ -3,10 +3,10 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: aada8f08093734e6323ba47632f4f9a0f5e496c7
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '13888'
-ht-degree: 0%
+source-wordcount: '13894'
+ht-degree: 1%
 
 ---
 
@@ -725,7 +725,7 @@ ht-degree: 0%
          * [Exibir e gerenciar membros do subgrupo](administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)
       * Funções de grupo {#group-roles}
          * [Funções de grupo](administration-and-setup/manage-groups/group-roles/group-roles.md)
-         * [Administradores de grupo](administration-and-setup/manage-groups/group-roles/group-administrators.md)
+         * [Admins de grupo](administration-and-setup/manage-groups/group-roles/group-administrators.md)
          * [Atribuir um administrador de grupo](administration-and-setup/manage-groups/group-roles/assign-user-as-group-administrator.md)
          * [Recursos do administrador de grupo](administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
          * [Visão geral do Líder de negócios](administration-and-setup/manage-groups/group-roles/business-leader-overview.md)
@@ -764,7 +764,7 @@ ht-degree: 0%
       * [Configurar integrações de documentos](administration-and-setup/configure-integrations/configure-document-integrations.md)
       * [Desativar integrações de documentos](administration-and-setup/configure-integrations/disable-document-integrations.md)
       * [Configurar a integração do SharePoint](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
-      * [Configurar mapeamento de metadados](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
+      * [Configurar o mapeamento de metadados](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
       * [Crie pacotes do Adobe Workfront Creative Cloud para seus usuários no Adobe Admin Console](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
       * [Criar aplicativos OAuth2 para integrações do Workfront](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [Exibir e gerenciar aplicativos OAuth2 personalizados](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
@@ -846,7 +846,7 @@ ht-degree: 0%
       * [Entender a navegação de um usuário de licença de trabalho](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [Entender a navegação de um usuário com licença de revisão](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
       * [Visão geral das datas de Projeto, Tarefa e Problema no Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
-   * Início {#home}
+   * Página inicial {#home}
       * [Início](workfront-basics/using-home/home.md)
       * Nova Página Inicial {#new-home}
          * [Nova Página Inicial](workfront-basics/using-home/new-home/new-home.md)
@@ -978,8 +978,8 @@ ht-degree: 0%
       * [Processos de aprovação duplicados exibidos na Lista de trabalho da página inicial](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
       * [Os botões de filtro não são exibidos nos cabeçalhos da página](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [O filtro Projetos em que estou trabalhando inclui resultados inesperados](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
-* Agile {#agile}
-   * [Agile](agile/agile.md)
+* Ágil {#agile}
+   * [Ágil](agile/agile.md)
    * [Visão geral dos painéis](agile/boards-overview.md)
    * Introdução aos painéis no Adobe Workfront {#boards-in-workfront}
       * [Introdução a quadros: índice de artigos](agile/get-started-with-boards/get-started-with-boards.md)
@@ -1542,7 +1542,7 @@ ht-degree: 0%
          * [Criar um relatório](reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)
          * [Criar um relatório personalizado](reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)
          * [Executar um relatório](reports-and-dashboards/reports/creating-and-managing-reports/run-report.md)
-         * [Criar um relatório de matriz](reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)
+         * [Criar um relatório matriz](reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)
          * [Criar uma cópia de um relatório](reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)
          * [Filtrar relatórios por períodos de tempo](reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
          * [Adicionar um prompt a um relatório](reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
@@ -1682,7 +1682,7 @@ ht-degree: 0%
          * [As datas de edição em linha alteram a exibição do calendário para fora da caixa](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/date-edits-shift-calendar.md)
          * [Dados de colunas compartilhadas não são exibidos em relatórios de painel](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/shared-columns-not-displayed-in-report-dashboard.md)
    * Painéis {#dashboards}
-      * [Painéis de Controle](reports-and-dashboards/dashboards/dashboards-overview.md)
+      * [Painéis](reports-and-dashboards/dashboards/dashboards-overview.md)
       * Entender painéis {#understand-dashboards}
          * [Entender painéis](reports-and-dashboards/dashboards/understanding-dashboards/understand-dashboards.md)
          * [Introdução aos painéis](reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)
@@ -1764,7 +1764,7 @@ ht-degree: 0%
       * [Navegar pelo Balanceador de carga de trabalho](resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
       * [Compartilhar o Balanceador de carga de trabalho com um link](resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
       * [Atualizar itens de trabalho no Balanceador de carga de trabalho usando o Resumo](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
-* Revisar e aprovar trabalho {#review-and-approve-work}
+* Revisar e aprovar trabalhos {#review-and-approve-work}
    * [Revisar e aprovar trabalho](review-and-approve-work/review-and-approve-work.md)
    * [Programa Alpha - Aprovações de documentos](review-and-approve-work/Documents/doc-approvals-alpha.md)
    * [Visão geral de documentos e decisões de prova limitados para usuários não pagos](review-and-approve-work/proof-doc-decision-limits.md)
@@ -2033,6 +2033,7 @@ ht-degree: 0%
       * [Acessar informações](maestro/access/access-information.md)
       * [Visão geral do Access](maestro/access/access-overview.md)
       * [Visão geral das permissões de compartilhamento no Adobe Maestro](maestro/access/sharing-permissions-overview.md)
+      * [Visão geral do tipo de licença no Adobe Maestro](maestro/access/license-type-overview.md)
       * [Compartilhar espaços de trabalho](maestro/access/share-workspaces.md)
       * [Compartilhar exibições](maestro/access/share-views.md)
    * Registros do Adobe Maestro {#adobe-maestro-records}
