@@ -6,9 +6,9 @@ description: É possível compartilhar filtros, visualizações e agrupamentos q
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1211'
 ht-degree: 1%
 
 ---
@@ -117,13 +117,7 @@ Compartilhar um filtro usando a interface do construtor padrão:
 
    A caixa Filter sharing (Compartilhamento de filtro) é exibida.
 
-1. Ativar o **Exibir em todo o sistema** configuração. Dessa forma, qualquer pessoa no Workfront tem permissão para exibir o filtro.
-
-   >[!IMPORTANT]
-   >
-   >Use essa configuração com cuidado. A adição de muitos filtros para todos os usuários sobrecarregará a experiência de filtro e dificultará a localização dos filtros.
-
-   Ou Comece a digitar os nomes de usuários, equipes, funções, grupos ou empresas com os quais deseja compartilhar na **Conceder acesso a** campo.
+1. Comece digitando os nomes de usuários, equipes, funções, grupos ou empresas com os quais você deseja compartilhar na **Conceder acesso a** campo.
 
    ![Filtrar caixa de compartilhamento](assets/new-filters-share-filter.png)
 

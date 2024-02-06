@@ -6,9 +6,9 @@ description: Você pode incorporar uma página externa da Web em um painel para 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -130,6 +130,11 @@ Você deve estar conectado ao site especificado para exibir a Página externa.\
         O administrador do Workfront pode configurar as preferências do sistema de uma forma que não permita o uso de informações da sessão em suas páginas externas, por motivos de segurança. Nesse caso, a página externa não é carregada no painel.\
         Para obter mais informações sobre as preferências de segurança do sistema, consulte [Configurar preferências de segurança do sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\
         ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
+
+     >[!WARNING]
+     >
+     >O uso de SessionID não é seguro e não é recomendado.
+     >
 
    * **Altura**: digite um número maior que 0 para definir o espaço que a página externa ocupa no painel. A altura padrão é 500.
 

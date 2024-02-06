@@ -1,57 +1,57 @@
 ---
 product-area: documents
 navigation-topic: proofing-overview
-title: Reprocessamento de documentos para visão geral de revisão
-description: Ao enviar um documento (DOCX, PDF, XLSX, AI) para prova, a Adobe Workfront o reprocessa para que possa ser exibido no visualizador de prova sem o aplicativo de software usado para criá-lo.
+title: Visão geral do reprocessamento de documentos para revisão
+description: Quando você envia um documento (DOCX, PDF, XLSX, AI) para revisão de texto, o Adobe Workfront o reprocessa para que ele possa ser exibido no revisor de provas sem o aplicativo de software usado para criá-lo.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e577fa71-4828-4fc2-93a2-0eddbb5ad2ad
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
 
-# Reprocessamento de documentos para visão geral de revisão
+# Visão geral do reprocessamento de documentos para revisão
 
-Ao enviar um documento (DOCX, PDF, XLSX, AI) para prova, a Adobe Workfront o reprocessa para que possa ser exibido no visualizador de prova sem o aplicativo de software usado para criá-lo. 
+Quando você envia um documento (DOCX, PDF, XLSX, AI) para revisão de texto, o Adobe Workfront o reprocessa para que ele possa ser exibido no revisor de provas sem o aplicativo de software usado para criá-lo. 
 
-Cada página do seu documento aparece no visualizador de prova como uma imagem em miniatura. Ao clicar em uma miniatura, é possível ampliar a versão de bitmap dessa página em 100%, 200% e 400%. Para provas de altura ou largura superiores a 800 mm, o nível máximo de zoom é de 200%.
+Cada página do documento aparece no visualizador de provas como uma imagem em miniatura. Ao clicar em uma miniatura, é possível aplicar o zoom em uma versão de bitmap dessa página em 100%, 200% e 400%. Para provas que excedam 800 mm em altura ou largura, o nível máximo de zoom é de 200%.
 
-As cores em seu documento são exibidas em sRGB com conversão de cores da biblioteca de Adobe mais recente. O visualizador de prova suporta qualquer perfil ICC (International Color Consortium) incorporado no documento.
+As cores do documento são exibidas em sRGB com conversão de cores da biblioteca Adobe mais recente. O visualizador de provas é compatível com qualquer perfil ICC (Consórcio Internacional de Cores) incorporado no documento.
 
-Todo o texto da fonte é extraído em sua camada, desde que você inclua a extensão de arquivo correta ao fazer upload do documento para o sistema. O texto incluído como imagens ou curvas não é exibido.
+Todo o texto da fonte é extraído em sua camada, desde que você inclua a extensão de arquivo correta ao fazer upload do documento no sistema. O texto incluído como imagens ou curvas não é exibido.
 
 >[!NOTE]
 >
->Atualmente, o Workfront suporta documentos contendo até 2000 páginas. Isso inclui provas combinadas. Para obter mais informações, consulte [Criar uma prova de várias páginas](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md).
+>O Workfront atualmente suporta documentos que contêm até 2.000 páginas. Isso inclui provas combinadas. Para obter mais informações, consulte [Criar uma prova de várias páginas](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md).
 
 ## Dicas gerais
 
-* Como os arquivos PDF são os mais padronizados e confiáveis, recomendamos converter documentos nesse formato antes de carregá-los.
-* Use a versão mais recente possível do seu software para criar seus documentos originais.
-* Se não tiver certeza de quais configurações usar ao salvar ou exportar seus documentos no aplicativo em que você os criou, use as configurações padrão. 
-* Certifique-se de incorporar todas as fontes usadas em um documento dentro dele. Se você usar fontes personalizadas, seu documento exibirá essas fontes somente em máquinas onde elas estiverem instaladas.
+* Como os arquivos PDF são os mais padronizados e confiáveis, recomendamos converter os documentos para esse formato antes de carregá-los.
+* Use a versão mais recente possível do software para criar os documentos originais.
+* Se não tiver certeza sobre quais configurações usar ao salvar ou exportar seus documentos no aplicativo em que você os criou, use as configurações padrão. 
+* Certifique-se de incorporar todas as fontes usadas em um documento dentro dele. Se você usar fontes personalizadas, o documento exibirá essas fontes somente nos computadores em que elas estiverem instaladas. No entanto, como as fontes personalizadas não estão incluídas no sistema de prova, ele não pode usar fontes personalizadas ao gerar o arquivo, mesmo quando incorporado.
 * Se possível, coloque todos os elementos de texto nas camadas superiores do design. Isso deve garantir que o texto seja extraído e selecionável na ferramenta de anotação de texto.
-* Coloque todas as imagens e elementos do seu documento dentro dele. Se você os vincular de fontes externas, como outro arquivo em seu computador, eles não serão exibidos na prova criada.
-* Crie seu documento usando os padrões recomendados para seu tipo e otimize-o antes de carregá-lo. Isso garantirá que o documento seja aberto com êxito no visualizador de prova, bem como em todos os outros aplicativos e plataformas.
-* No software de design, tente executar opções de &quot;comprovação&quot; para ver se o documento gera algum aviso. Essas opções estão disponíveis na maioria dos aplicativos como visualização de saída, produção de impressão e assim por diante. Consulte a documentação do aplicativo para obter mais informações.
-* Certifique-se de que as configurações de cores sejam consistentes em todo o documento.
-* Se o documento estiver protegido contra ações como a cópia de arquivos, a ferramenta de extração de prova poderá não conseguir acessar seu conteúdo.
+* Coloque todas as imagens e os elementos do documento dentro dele. Se você os vincular a partir de fontes externas, como outro arquivo no computador, eles não serão exibidos na prova criada.
+* Crie o documento usando os padrões recomendados para o tipo e otimize-o antes de carregá-lo. Isso garantirá que o documento será aberto com êxito no visualizador de provas, bem como em todos os outros aplicativos e plataformas.
+* No software de design, tente executar as opções de &quot;comprovação&quot; para ver se o documento gera avisos. Essas opções estão disponíveis na maioria dos aplicativos como pré-visualização de saída, produção de impressão e assim por diante. Consulte a documentação do aplicativo para obter mais informações.
+* Verifique se as configurações de cor são consistentes em todo o documento.
+* Se o seu documento estiver protegido contra ações como copiar arquivos, a ferramenta de extração de prova talvez não consiga acessar seu conteúdo.
 
 ## Tempos do processo
 
-Normalmente, o processamento leva alguns segundos por página. No entanto, vários fatores podem prolongar isso, como tráfego/largura de banda da rede, velocidades de conexão locais e velocidades de conexão internacionais (para usuários fora dos EUA). O tempo de processamento pode também ser afetado:
+Normalmente, o processamento leva alguns segundos por página. Entretanto, vários fatores podem prolongar isso, como tráfego/largura de banda de rede, velocidades de conexão local e velocidades de conexão internacional (para usuários fora dos EUA). Os seguintes itens também podem afetar o tempo de processamento:
 
-* Para documentos e imagens estáticas: contagem de página, dimensões de página, volume de texto, imagem e complexidade de objetos (elementos como vários elementos vetoriais, camadas, transparências).
+* Para documentos e imagens estáticos: contagem de páginas, dimensões de página, volume de texto, imagem e complexidade de objetos (elementos como vários elementos de vetor, camadas, transparências).
 * Para vídeos: durações longas, dimensões grandes e codecs usados.
-* Para capturas da Web: tempos de carregamento de página da Web e dimensões de página.
+* Para capturas da Web: tempos de carregamento da página da Web e dimensões da página.
 
 ## Etapas do processo
 
-Os arquivos enviados passam por algumas ou todas as etapas a seguir:
+Os arquivos enviados passam por algumas ou todas as seguintes etapas:
 
-1. **Submissão**. Ao fazer upload de um documento para o sistema, você faz isso usando a página New proof ou usando uma API (Application Programing Interface). 
-1. **Fila**. Durante longos períodos de tráfego, a Workfront pode precisar colocar em fila envios para evitar sobrecarga do sistema. A maioria das provas gasta apenas alguns segundos em uma fila. 
-1. **Processando.** Os arquivos chegam às máquinas de processamento de acordo com o tipo de conteúdo. Usamos ferramentas diferentes para processar provas de vídeo, capturas da Web, imagens estáticas e documentos. Os envios de captura da Web interativa e contêineres de mídia avançada (ZIP) não exigem processamento.
+1. **Envio**. Ao fazer upload de um documento no sistema, você faz isso usando a página Nova prova ou usando uma interface de programação de aplicativo (API). 
+1. **Fila**. Durante períodos de tráfego intenso, a Workfront pode precisar colocar os envios em fila para evitar sobrecarga do sistema. A maioria das provas passa apenas alguns segundos em uma fila. 
+1. **Processando.** Os arquivos chegam às máquinas de processamento de acordo com o tipo de conteúdo. Usamos diferentes ferramentas para processar provas de vídeo, capturas da Web, imagens estáticas e documentos. Os envios de Rich Media containers (ZIP) e captura interativa na Web não exigem processamento.

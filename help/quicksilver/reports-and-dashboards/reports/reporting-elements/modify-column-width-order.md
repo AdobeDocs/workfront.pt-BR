@@ -6,9 +6,9 @@ description: Leia este artigo para saber mais sobre as diretrizes de largura da 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -20,19 +20,19 @@ A seguir estão as diretrizes sobre como as larguras de coluna funcionam no Adob
 * Por padrão, o Workfront define a largura das colunas em listas e relatórios.
 * O Workfront ajusta automaticamente a largura das colunas de acordo com a `valueformat`informações em todas as listas e relatórios, salvo especificação em contrário no modo texto da coluna.
 
-   >[!NOTE]
-   >
-   >O Workfront não ajusta a largura das colunas de acordo com a variável `valueformat` informações nas listas disponíveis nas áreas Configuração e Relatórios.
+  >[!NOTE]
+  >
+  >O Workfront não ajusta a largura das colunas de acordo com a variável `valueformat` informações nas listas disponíveis nas áreas Configuração e Relatórios.
 
-   A variável `valueformat` define que tipo de informação é exibida na coluna. Por exemplo, as colunas que exibem um número são mais estreitas do que as colunas que exibem o campo Descrição.
+  A variável `valueformat` define que tipo de informação é exibida na coluna. Por exemplo, as colunas que exibem um número são mais estreitas do que as colunas que exibem o campo Descrição.
 
 * Você pode personalizar a largura das colunas em suas listas e relatórios do Workfront para atender às suas necessidades, dependendo do tipo de informação que deseja exibir nas colunas.
 
-   Você pode modificar a largura das colunas temporariamente, ao exibir uma lista ou relatório, ou permanentemente, ajustando a largura da coluna no construtor de exibições. Para obter informações sobre como modificar temporariamente a largura das colunas, consulte a [Considerações ao modificar temporariamente a largura e a ordem das colunas](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) neste artigo.
+  Você pode modificar a largura das colunas temporariamente, ao exibir uma lista ou relatório, ou permanentemente, ajustando a largura da coluna no construtor de exibições. Para obter informações sobre como modificar temporariamente a largura das colunas, consulte a [Considerações ao modificar temporariamente a largura e a ordem das colunas](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) neste artigo.
 
 * As colunas que aparecem nas exibições integradas têm larguras definidas anteriormente pelo Workfront e codificadas. Para modificar essas larguras, você deve atualizar manualmente a largura dessas colunas usando o modo de texto no construtor de exibições.
 
-   Para obter informações sobre como modificar a coluna no modo de texto, consulte [Exibir: edite permanentemente a largura de uma coluna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md).
+  Para obter informações sobre como modificar a coluna no modo de texto, consulte [Exibir: edite permanentemente a largura de uma coluna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md).
 
 ## Requisitos de acesso
 
@@ -44,7 +44,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>plano do Adobe Workfront*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
@@ -87,6 +87,12 @@ Para obter mais informações sobre listas do Workfront, consulte o artigo [Intr
 Considere o seguinte ao redimensionar e ordenar temporariamente as colunas:
 
 * Ao redimensionar colunas, os novos tamanhos são armazenados no armazenamento local do navegador e salvos por padrão. Usar um navegador diferente ou limpar o cache ou procurar dados resulta na reversão dos tamanhos das colunas para o padrão. Atualizar a página mantém as alterações feitas na largura das colunas.
+
+>[!NOTE]
+> 
+>As larguras de coluna são limitadas pelo tamanho da janela do navegador; se a página for atualizada, as colunas serão reduzidas em largura até que todas as colunas possam caber na janela sem rolagem horizontal. Para forçar uma coluna a permanecer mais larga do que o navegador pode ajustar, você deve definir a largura da coluna no modo de texto, conforme descrito em [Modificar permanentemente a largura e a ordem das colunas](#modify-width-and-order-of-columns-permanently) e evite ajustar manualmente qualquer largura de coluna arrastando suas bordas.
+>
+
 * Ao reordenar colunas, a ordem escolhida é mantida somente até você sair da lista ou atualizar a página do navegador. Depois de sair da lista ou atualizar a página do navegador, as colunas retornam à ordem padrão.
 * Para um desempenho ideal, as colunas que você está reordenando não devem ter mais de 100 itens na lista.
 * Ao redimensionar colunas, as alterações se aplicam somente à exibição usada no momento e ficam visíveis somente para você. Compartilhar uma visualização com outro usuário não compartilha os tamanhos de coluna definidos.
@@ -96,9 +102,9 @@ Considere o seguinte ao redimensionar e ordenar temporariamente as colunas:
    * A área Relatórios
    * Listas de documentos e relatórios
 
-   >[!NOTE]
-   >
-   >Não é possível mover a borda esquerda de uma coluna além da borda esquerda da coluna vizinha em nenhuma lista.
+  >[!NOTE]
+  >
+  >Não é possível mover a borda esquerda de uma coluna além da borda esquerda da coluna vizinha em nenhuma lista.
 
 * Se você exportar qualquer lista para um arquivo, a ordem temporária das colunas não será transferida para o arquivo exportado. O arquivo exportado exibe a ordem das colunas na lista original, antes que as colunas tenham sido reordenadas.
 

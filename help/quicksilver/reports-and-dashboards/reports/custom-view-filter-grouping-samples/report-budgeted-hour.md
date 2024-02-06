@@ -7,9 +7,9 @@ description: "Relatório: Hora orçada"
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---
@@ -17,18 +17,14 @@ ht-degree: 1%
 # Relatório: Hora orçada
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resouce Management and it is super important.) </p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resource Management and it is super important.) </p>
 -->
 
 Quando você deseja compartilhar informações de Hora orçada com outros usuários que não têm acesso ao Planejador de recursos, é possível fazê-lo criando um relatório de Hora orçada. Você pode compartilhar o relatório com eles.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This info is also added and drafted in the article "View Budget Hours in a report" in the Resource Planning section. Consider deleting this article?!)</p>
--->
-
 >[!IMPORTANT]
 >
->As horas orçadas são atualizadas a cada hora no banco de dados do Adobe Workfront. Atualizar o relatório não atualiza necessariamente as informações de hora contidas. Você pode visualizar o tempo decorrido desde a última atualização no canto superior direito de cada relatório de Horas orçadas. Atualizar o relatório atualiza as informações nele apenas quando houver mais de uma hora desde a última atualização.
+>As horas orçadas são normalmente atualizadas a cada hora (raramente, pode levar no máximo três horas) no banco de dados do Adobe Workfront. Atualizar o relatório não atualiza necessariamente as informações de hora contidas. Você pode visualizar o tempo decorrido desde a última atualização no canto superior direito de cada relatório de Horas orçadas. Atualizar o relatório atualiza as informações nele apenas quando houver mais de uma hora desde a última atualização.
 >
 >![](assets/budgeted-hour-report-time-sync-warning-350x74.png)>
 
