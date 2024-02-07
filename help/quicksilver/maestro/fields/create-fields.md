@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
 workflow-type: tm+mt
-source-wordcount: '3325'
-ht-degree: 1%
+source-wordcount: '3339'
+ht-degree: 2%
 
 ---
 
@@ -179,7 +179,7 @@ Os campos de parágrafo capturam informações alfanuméricas adicionais sobre u
 >
 >* O conteúdo de um campo de parágrafo pode ter até 1.000 caracteres.
 >
->* Você pode usar a formatação Rich Text para aprimorar o conteúdo de campos de parágrafo quando eles são exibidos na exibição de tabela ou na página Detalhes de um registro.
+>* Você pode usar a formatação Rich Text para aprimorar o conteúdo de campos de parágrafo quando eles são exibidos na exibição de tabela ou na página Detalhes de um registro. Para obter informações, consulte [Editar registros](/help/quicksilver/maestro/records/edit-records.md).
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo, selecione a variável **Parágrafo** tipo de campo.
 
@@ -377,7 +377,9 @@ Para obter mais informações, consulte [Visão geral dos campos de fórmula](/h
 
    >[!NOTE]
    >
-   >    Não é possível adicionar campos de registros vinculados em uma fórmula. Essa funcionalidade será lançada posteriormente. Para obter mais informações sobre novos lançamentos, consulte [Atividade de lançamento do Adobe Maestri](/help/quicksilver/maestro/release-activity.md).
+   > * Não é possível adicionar campos do tipo Seleção múltipla em uma fórmula.
+   >
+   > * Não é possível adicionar campos de registros vinculados em uma fórmula. Essa funcionalidade será lançada posteriormente. Para obter mais informações sobre novos lançamentos, consulte [Atividade de lançamento do Adobe Maestri](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Clique em **Criar**.

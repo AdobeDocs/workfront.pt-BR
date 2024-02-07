@@ -6,9 +6,9 @@ description: "As informações exibidas no [!DNL Adobe Workfront] é representad
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
 workflow-type: tm+mt
-source-wordcount: '2306'
+source-wordcount: '2307'
 ht-degree: 1%
 
 ---
@@ -175,6 +175,7 @@ Veja a seguir uma lista de objetos e seus ícones correspondentes no Workfront.
 | [!UICONTROL Tarefa] | ![](assets/task-icon-new.png)  , ![](assets/nwe-tasks-icon.png) | ✔ |
 | [!UICONTROL Equipe] | ![](assets/team-icon-nwe.png), ![](assets/team-icon-nwe-color.png) , ![](assets/nwe-teams-icon.png) |  |
 | [!UICONTROL Modelo] | ![](assets/template-icon-nwe.png)  , ![](assets/nwe-templates-icon.png) |  |
+| [!UICONTROL Usuário] | ![](assets/users-icon-gray.png) , ![](assets/user-icon-blue.png) , ![](assets/user-icon-initials.png) , ![](assets/user-avatar.png) , ![](assets/user-main-menu-area.png) |  |
 
 ## Números de referência de objetos
 
@@ -249,7 +250,7 @@ Você pode criar relatórios sobre os seguintes objetos ao usar o Report Builder
 * [!UICONTROL Painel]
 * [!UICONTROL Documento]
 * [!UICONTROL Aprovação de documento]
-* [!UICONTROL Versão do documento]
+* [!UICONTROL Versão do Documento]
    * Você pode exibir informações sobre a versão do documento, o documento ao qual a versão está associada, quem criou a versão e o usuário que criou a prova na versão do documento, se existir (Criador da prova).
 * [!UICONTROL Modelo de e-mail]
 * [!UICONTROL Despesa]
@@ -291,7 +292,7 @@ Você pode criar relatórios sobre os seguintes objetos ao usar o Report Builder
   >
   >As informações financeiras são preenchidas em [!UICONTROL Projeto] ([!UICONTROL Dados financeiros]) relatórios somente quando os dados associados a eles tiverem menos de cinco anos. Por exemplo, se uma função de trabalho foi alocada para uma tarefa em janeiro de 2015 e hoje é setembro de 2021, um campo financeiro como o [!UICONTROL Data de Alocação] para a função de trabalho não é preenchida na [!UICONTROL Projeto (Dados Financeiros)] relatório.
 
-* [!UICONTROL Aprovação da prova]
+* [!UICONTROL Aprovação da revisão]
    * Permite exibir várias informações sobre a aprovação de prova, incluindo: a prova que foi enviada para aprovação, informações sobre a [!UICONTROL Aprovador], informações sobre o Solicitante (se o Solicitante for um licenciado [!DNL Workfront] usuário), informações de versão, a ID da prova e a data de criação da prova.\
       [!UICONTROL Aprovação da prova] Os relatórios do incluem somente provas disponíveis nas áreas Meu trabalho dos usuários, onde ainda não foram tomadas decisões.\
    * Aprovações de provas são atribuídas em [!DNL Workfront] conforme descrito [Adicionar usuários a uma prova](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) in [Compartilhar uma prova no [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
