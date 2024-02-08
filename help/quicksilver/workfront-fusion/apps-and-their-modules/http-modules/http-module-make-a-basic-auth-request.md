@@ -9,9 +9,9 @@ description: O Adobe Workfront Fusion exige uma licença do Adobe Workfront Fusi
 author: Becky
 feature: Workfront Fusion
 exl-id: df8b53de-1af2-4026-b7dd-ff5133b4aac2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,12 @@ ht-degree: 0%
 # [!UICONTROL HTTP] >[!UICONTROL Fazer uma solicitação de autorização básica] módulo
 
 Este [!DNL Adobe Workfront Fusion] O módulo permite configurar uma solicitação HTTP com autorização básica HTTP e enviá-la a um servidor. A resposta HTTP recebida é então contida no pacote de saída.
+
+>[!NOTE]
+>
+>Se você estiver se conectando a um produto Adobe que não tem um conector dedicado no momento, recomendamos o uso do módulo Adobe Authenticator.
+>
+>Para obter mais informações, consulte [Módulo Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 ## Requisitos de acesso
 

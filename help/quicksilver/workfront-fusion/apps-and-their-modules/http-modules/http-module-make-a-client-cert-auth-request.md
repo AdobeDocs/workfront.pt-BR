@@ -9,9 +9,9 @@ description: Este [!DNL Adobe Workfront Fusion] O módulo permite configurar uma
 author: Becky
 feature: Workfront Fusion
 exl-id: c0b0057f-3db0-4c10-a274-ebaec1a5b87b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,12 @@ ht-degree: 0%
 >O Adobe Workfront Fusion exige uma [!DNL Adobe Workfront Fusion] além de uma licença do Adobe Workfront.
 
 Este [!DNL Adobe Workfront Fusion] O módulo permite configurar uma solicitação HTTP com autorização de certificado de cliente HTTP e enviá-la a um servidor. A resposta HTTP recebida é então contida no pacote de saída.
+
+>[!NOTE]
+>
+>Se você estiver se conectando a um produto Adobe que não tem um conector dedicado no momento, recomendamos o uso do módulo Adobe Authenticator.
+>
+>Para obter mais informações, consulte [Módulo Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 ## Requisitos de acesso
 

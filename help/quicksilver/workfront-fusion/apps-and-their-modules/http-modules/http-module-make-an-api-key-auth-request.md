@@ -9,9 +9,9 @@ description: Este [!DNL Adobe Workfront Fusion] O módulo de ação envia uma so
 author: Becky
 feature: Workfront Fusion
 exl-id: 70bf87c7-6d51-4ef4-9dce-80ad004e613f
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,12 @@ ht-degree: 0%
 >[!DNL Adobe Workfront Fusion] exige um [!DNL Adobe Workfront Fusion] além de uma licença do Adobe Workfront.
 
 Este [!DNL Adobe Workfront Fusion] O módulo de ação envia uma solicitação HTTPS para um URL especificado que requer uma autorização de Autenticação de chave de API e processa a resposta.
+
+>[!NOTE]
+>
+>Se você estiver se conectando a um produto Adobe que não tem um conector dedicado no momento, recomendamos o uso do módulo Adobe Authenticator.
+>
+>Para obter mais informações, consulte [Módulo Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 ## Requisitos de acesso
 
