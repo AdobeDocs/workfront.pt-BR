@@ -6,18 +6,20 @@ description: Valores numéricos, incluindo moeda, podem ser configurados para ex
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 965f5dcd-4844-4792-9fd0-a47814a325a4
-source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
+source-git-commit: 8de9c79f6c62b74a652482ec10bf38fada8c5fc8
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '155'
 ht-degree: 7%
 
 ---
 
 # Formatar números, valores de moeda e porcentagem em relatórios de modo de texto
 
+<!-- Audited: 2/2024 -->
+
 Valores numéricos, incluindo moeda, podem ser configurados para exibição em vários formatos em relatórios e listas no Adobe Workfront.
 
-Para modificar o formato de um valor numérico, edite o **valueformat** linha da sua coluna.
+Para modificar o formato de um valor numérico, edite o **valueformat** linha da sua coluna.
 
 Por exemplo, se você deseja exibir a coluna Budget como $1000, a linha de formato de valor seria semelhante a:
 
@@ -35,7 +37,7 @@ Para obter mais informações sobre como aplicar formatação condicional nos re
 | 1234 | <pre>doubleAsString</pre> <br>ou <br><pre>int</pre> |
 | 1.234 | <pre>doubleAsInt</pre> |
 | R$1,234 | <pre>currencyStringCurrencyRounded</pre> |
-| 1234.56 | <pre>doubleAsDouble</pre> |
+| 1234,56 | <pre>doubleAsDouble</pre> |
 | R$1,234.56 | <pre>currencyStringCurrency</pre> |
 | 12% | <pre>doubleAsPercentRounded</pre> |
 | 12,34% | <pre>doubleAsPercent</pre> |

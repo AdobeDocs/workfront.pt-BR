@@ -1,23 +1,25 @@
 ---
-title: Criar e gerenciar usuários
+title: "Criar e gerenciar usuários: índice do artigo"
 user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: add-users-to-workfront
 description: Você pode adicionar usuários no Adobe Workfront criando usuários individuais do zero ou copiando usuários existentes.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 8fa73379725029f1750b83fc67abba670f470f64
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 2%
+source-wordcount: '103'
+ht-degree: 0%
 
 ---
 
-# Criar e gerenciar usuários
+# Criar e gerenciar usuários: índice do artigo
+
+<!-- Audited: 2/2024 -->
 
 Esta seção contém os seguintes artigos:
 

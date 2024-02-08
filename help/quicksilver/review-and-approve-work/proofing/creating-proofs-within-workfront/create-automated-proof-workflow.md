@@ -6,14 +6,16 @@ description: Um fluxo de trabalho automatizado facilita o gerenciamento do proce
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: afc0cbb93e26eb29abfb1b00b32c79c1b65ff3eb
+source-git-commit: ccfea4cdf7280f992068bc64bab27e63aaab8b74
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
 
 # Criar uma prova avançada com um fluxo de trabalho automatizado
+
+<!-- Audited: 2/2024 -->
 
 Um fluxo de trabalho automatizado facilita o gerenciamento do processo de revisão se o processo for complexo ou se você enviar conteúdo para revisão para as mesmas pessoas regularmente. A prova vai de estágio em estágio e o Adobe Workfront notifica cada usuário quando chegar a sua vez de revisá-la. Para obter mais informações sobre workflows automatizados, consulte [Visão geral do fluxo de trabalho automatizado](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
@@ -26,25 +28,25 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Plano atual: Pro ou Superior</p> <p>ou</p> <p>Plano herdado: Select ou Higher</p> <p>Para obter mais informações sobre acesso de prova com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de prova no Workfront</a>.</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td> <p>Novo: Qualquer um</p><p>Plano atual: Pro ou Superior</p><p>Plano herdado: Select ou Higher</p> <p>Para obter mais informações sobre acesso de prova com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de prova no Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano atual: Trabalho ou Plano</p> <p>Plano herdado: Qualquer um (Você deve ter a prova ativada para o usuário)</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Novo: Padrão</p><p>Plano atual: Trabalho ou Plano</p> <p>Plano herdado: Qualquer um (Você deve ter a prova ativada para o usuário)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Perfil de Permissões de Prova </td> 
    <td>Gerente ou superior</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a documentos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a documentos</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, função ou perfil de permissão de prova você tem, entre em contato com o administrador do Workfront ou do Workfront Proof.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Criar uma prova avançada com um fluxo de trabalho automatizado
 
