@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Você pode reativar ou desativar um formulário personalizado. Recomendamos desativar os formulários personalizados em vez de excluir os formulários que não são mais usados para manter os dados históricos.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
-source-git-commit: 3319fbfad98350635b7194a434f26e8528753e7b
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -32,21 +32,24 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plano do Adobe Workfront*</p> </td> 
-   <td>Qualquer Um</td> 
+   <td role="rowheader"> <p>plano do Adobe Workfront</p> </td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td>Plano</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td>
+   <p>Novo: Padrão</p>
+   <p>ou</p>
+   <p>Atual: Plano</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Acesso administrativo a formulários personalizados</p> <p>Para obter informações sobre como os administradores do Workfront concedem esse acesso, consulte <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder aos usuários acesso administrativo a determinadas áreas</a>.</p></td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Acesso administrativo a formulários personalizados</p></td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Para descobrir quais configurações de plano, tipo de licença ou nível de acesso você tem, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Desativar um formulário personalizado
 
@@ -56,7 +59,8 @@ Os campos em um formulário personalizado inativo também ainda estão disponív
 
 Para desativar um formulário personalizado:
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. No painel esquerdo, escolha **Forms personalizado**.
 1. No **Forms** selecione o formulário personalizado que deseja desativar.
 1. Na coluna Está ativo, escolha **Falso** e clique em fora da coluna. O formulário não está mais ativo.
@@ -65,7 +69,8 @@ Para desativar um formulário personalizado:
 
 Se você reativar um formulário personalizado, ele manterá as configurações que tinha antes e os usuários poderão interagir com ele como se nunca tivesse sido desativado.
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. No painel esquerdo, escolha **Forms personalizado**.
 1. No **Forms** selecione o formulário personalizado que deseja reativar.
 1. Na coluna Está ativo, escolha **True** e clique em fora da coluna. O formulário agora está ativo.

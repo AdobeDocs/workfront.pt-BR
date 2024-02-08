@@ -3,14 +3,14 @@ title: Criar um formulário com o designer de formulário
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Você pode criar um formulário personalizado com o designer do formulário.
-author: Courtney
+description: Você pode criar um formulário personalizado com o designer do formulário. Você pode anexar formulários personalizados a diferentes objetos do Workfront para capturar dados sobre esses objetos.
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
+source-git-commit: a9d9ae15f4d80fa6e09414459417cfd2b57daf42
 workflow-type: tm+mt
-source-wordcount: '5096'
+source-wordcount: '5075'
 ht-degree: 3%
 
 ---
@@ -28,28 +28,28 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plano do Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>plano do Adobe Workfront</p> </td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
-   <p>Novo plano: Padrão</p>
+   <p>Novo: Padrão</p>
    <p>ou</p>
-   <p>Plano atual: Plano</p></td> 
+   <p>Atual: Plano</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Acesso administrativo a formulários personalizados</p> <p>Para obter informações sobre como os administradores do Workfront concedem esse acesso, consulte <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder aos usuários acesso administrativo a determinadas áreas</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Acesso administrativo a formulários personalizados</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Para descobrir quais configurações de plano, tipo de licença ou nível de acesso você tem, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Comece a criar um formulário personalizado
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **Forms personalizado** no painel esquerdo.
 
@@ -678,7 +678,7 @@ Para adicionar imagens, PDF ou vídeos:
 
    Clique em **Salvar e fechar**.
 
-#### **Adicionar um widget de vídeo a um formulário personalizado na área Documentos**{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
+#### Adicionar um widget de vídeo a um formulário personalizado na área Documentos{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
 >[!IMPORTANT]
 >

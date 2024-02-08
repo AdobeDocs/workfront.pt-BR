@@ -5,18 +5,20 @@ keywords: criar,personalizado,formulário,copiar,base,outro
 navigation-topic: create-and-manage-custom-forms
 title: Copiar um formulário personalizado para criar um novo com o construtor herdado
 description: Você pode criar um novo formulário personalizado com base em um existente.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 946a726e-af88-413c-abe3-55fbc7486380
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
 
 # Copiar um formulário personalizado para criar um novo com o construtor herdado
+
+{{highlighted-preview}}
 
 Você pode criar um novo formulário personalizado com base em um existente.
 
@@ -29,28 +31,31 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plano do Adobe Workfront*</p> </td> 
-   <td>Qualquer Um</td> 
+   <td role="rowheader"> <p>plano do Adobe Workfront</p> </td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td>Plano</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td>
+   <p>Novo: Padrão</p>
+   <p>ou</p>
+   <p>Atual: Plano</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Acesso administrativo a formulários personalizados</p> <p>Para obter informações sobre como os administradores do Workfront concedem esse acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder aos usuários acesso administrativo a determinadas áreas</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Acesso administrativo a formulários personalizados</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir quais configurações de plano, tipo de licença ou nível de acesso você tem, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Copiar um formulário personalizado para criar um novo
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **Forms personalizado.**
-1. Selecione o formulário personalizado que deseja usar como base para um novo formulário personalizado e clique em **Copiar**.
+1. Selecione o formulário personalizado que deseja usar como base para um novo formulário personalizado e clique em **Copiar** <span class="preview">ou ![Ícone Copiar](assets/copy-icon.png).</span>
 1. No **Personalizar cópia do formulário** que for exibida, digite as seguintes informações:
 
    <table style="table-layout:auto"> 

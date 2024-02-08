@@ -1,13 +1,13 @@
 ---
 title: Exibir todos os relatórios que usam um campo ou widget personalizado específico
 description: Você pode adicionar uma visualização personalizada na área Forms personalizado que mostra quais relatórios estão usando um campo ou widget personalizado específico. Isso é útil quando você precisa editar ou excluir o campo ou widget, pois ele pode já estar implementado em um ou mais relatórios. É importante avaliar se esses relatórios precisarão de ajustes para continuar funcionando corretamente.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: eaafe79b-bdbc-4fb9-b449-23e5a4bc455a
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -27,38 +27,39 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plano do Adobe Workfront*</p> </td> 
-   <td>Qualquer Um</td> 
+   <td role="rowheader"> <p>plano do Adobe Workfront</p> </td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td>Plano</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td>
+   <p>Novo: Padrão</p>
+   <p>ou</p>
+   <p>Atual: Plano</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Acesso administrativo a formulários personalizados</p> <p>Para obter informações sobre como os administradores do Workfront concedem esse acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder aos usuários acesso administrativo a determinadas áreas</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Acesso administrativo a formulários personalizados</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir quais configurações de plano, tipo de licença ou nível de acesso você tem, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Listar os relatórios que usam um campo ou widget personalizado específico
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Forms personalizado**.
-1. Abra o **Campos** guia para exibir um relatório listando todos os campos e widgets personalizados na instância do Workfront.
+1. Clique em **Campos** para exibir um relatório listando todos os campos e widgets personalizados na instância do Workfront.
 
-   ![](assets/fields-tab.png)
-
-1. Clique em **Exibir** no cabeçalho na parte superior da lista, em seguida, verifique se há exibições personalizadas na lista que incluam **Relatórios** (que não é uma coluna padrão nesta guia).
+1. Clique em **Exibir** e, em seguida, verifique se há exibições personalizadas na lista que incluam **Relatórios** (que não é uma coluna padrão nesta guia).
 
    A coluna Relatórios é o local onde você pode ver quais relatórios estão usando cada campo e widget personalizado que foi adicionado a um formulário personalizado em seu sistema. É possível que alguém já tenha criado uma visualização que inclui a variável **Relatórios** coluna.
 
 1. Se você não vir uma visualização que inclua a variável **Relatórios** crie uma nova exibição que a inclua:
 
-   1. Clique em **Exibir** e, em seguida, clique em **Nova visualização**.
+   1. Clique em **Exibir** e clique em **Nova visualização**.
 
    1. No **Nova visualização** que aparece, na caixa próxima ao canto superior esquerdo, substituir **Nova Exibição de Parâmetro** com um nome descritivo para a exibição, como *Campos e widgets*.
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: 8af1890b2e2ae613279b5191cf8f2190364fb524
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 # Criar ou editar um formulário personalizado com o construtor de formulários herdado
 
 <!--Audited: 01/2024-->
+
+{{highlighted-preview}}
 
 Você pode criar ou editar um novo formulário personalizado. Ambas as tarefas são explicadas neste artigo.
 
@@ -34,23 +36,23 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plano do Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>plano do Adobe Workfront</p> </td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td><p>Novo: Padrão</p>
+   <p>ou</p>
    <p>Atual: Plano</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Acesso administrativo a formulários personalizados</p> <p>Para obter informações sobre como os administradores do Workfront concedem esse acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder aos usuários acesso administrativo a determinadas áreas</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Acesso administrativo a formulários personalizados</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Para descobrir quais configurações de plano, tipo de licença ou nível de acesso você tem, entre em contato com o administrador do Workfront. Para obter mais informações sobre requisitos de acesso, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Comece a criar um formulário personalizado
 
@@ -110,7 +112,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
    Formulários personalizados são exibidos em uma lista. Você pode revisar todos os formulários e campos personalizados que foram criados para sua organização. Você também pode ver quem criou cada formulário, os objetos associados a ele e se ele está ativo.
 
-1. Selecione o formulário personalizado que deseja editar e clique em **Editar**.
+1. Selecione o formulário personalizado que deseja editar e clique em **Editar** <span class="preview">ou ![Ícone Editar](assets/edit-icon.png).</span>
 1. (Opcional) Para alterar o título e a descrição do formulário personalizado, clique no **Configurações do formulário** e digite um **Título do formulário** e **Descrição**.
 
 1. (Opcional) Se quiser adicionar mais tipos de objetos ao formulário para que ele possa ser anexado a mais objetos, clique no sinal de mais + depois de **Tipos de objeto** e, em seguida, selecione o tipo desejado no menu exibido.

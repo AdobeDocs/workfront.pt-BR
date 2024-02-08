@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Quando o trabalho definido em um item de trabalho se torna muito grande, você pode convertê-lo em um item de trabalho maior.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
 
 # Transferir dados de formulário personalizados ao converter um objeto
+
+{{highlighted-preview}}
 
 Dependendo das necessidades comerciais de sua organização, o trabalho definido em uma tarefa ou problema pode se tornar muito grande para ser gerenciado dentro da tarefa ou do problema. Nesse caso, você pode convertê-los em um item de trabalho maior:
 
@@ -35,29 +37,33 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plano do Adobe Workfront*</p> </td> 
-   <td>Qualquer Um</td> 
+   <td role="rowheader"> <p>plano do Adobe Workfront</p> </td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td>Plano</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td>
+   <p>Novo: Padrão</p>
+   <p>ou</p>
+   <p>Atual: Plano</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Acesso administrativo a formulários personalizados</p> <p>Para obter informações sobre como os administradores do Workfront concedem esse acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder aos usuários acesso administrativo a determinadas áreas</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Acesso administrativo a formulários personalizados</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir quais configurações de plano, tipo de licença ou nível de acesso você tem, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Primeiro: adicionar outros objetos ao formulário personalizado
+## Primeira: Adicionar outros objetos ao formulário personalizado
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clique em **Forms personalizado**.
-1. Localize o formulário necessário e clique em **Editar**.
+1. Localize o formulário necessário e clique em **Editar** <span class="preview">ou ![Ícone Editar](assets/edit-icon.png).</span>
 1. Na parte superior do formulário, adicione o objeto para o qual você planeja converter a tarefa ou problema.
+
    >[!INFO]
    >
    >**Exemplo**: se desejar transferir os dados do formulário personalizado para um projeto, selecione Projeto.
