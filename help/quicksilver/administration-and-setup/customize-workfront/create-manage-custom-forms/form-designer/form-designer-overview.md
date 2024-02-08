@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Você pode criar um formulário personalizado que os usuários podem anexar a um objeto do Workfront. Os usuários que trabalham no objeto podem preencher o formulário personalizado para fornecer informações sobre o objeto.
-author: Courtney / Lisa
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: e34a0b3bf5e2c4dc794a7d7c85245bb4d11842be
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 0%
+source-wordcount: '402'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,7 @@ Há um novo botão na parte superior do novo designer de formulário e do constr
 
 ## Nova funcionalidade disponível com o designer de formulário
 
-Com o novo designer de formulários, adicionamos a capacidade de
+Com o novo designer de formulários, adicionamos a capacidade de:
 
 * **Copiar um campo**: Agora é possível copiar campos existentes clicando no ícone Copiar nos campos diretamente da tela.
 
@@ -47,34 +47,15 @@ Com o novo designer de formulários, adicionamos a capacidade de
 
 Os itens a seguir não estão disponíveis no momento no designer do formulário, mas serão adicionados em breve:
 
-* Lógica de exibição/salto
-
 * Filtro para campos de digitação antecipada
 
 >[!IMPORTANT]
 >
->As configurações existentes para filtros de lógica e digitação antecipada não serão afetadas ao trabalhar com o novo designer de formulário.
-
-### Lógica de exibição/salto
-
-Embora ainda não seja possível adicionar a lógica de exibição/salto ao criar um novo formulário personalizado, é possível exibir a lógica de exibição/salto existente nos formulários criados no construtor de formulários herdado.
-
-Os ícones em um campo no designer do formulário indicam que a lógica é aplicada ao campo.
-
-A variável ![Lógica de exibição para campo de destino](assets/display-logic-bottom-left.png) O ícone na parte inferior esquerda significa que o campo é o campo de destino da lógica de exibição (se uma seleção específica for feita no formulário, esse campo será exibido). A variável ![Definir ícone da lógica de exibição](assets/display-logic-bottom-right.png) O ícone na parte inferior direita significa que o campo é usado para definir a lógica de exibição (uma seleção ou um valor específico nesse campo exibirá o campo de destino).
-
-A variável ![Lógica de salto para o campo de destino](assets/skip-logic-bottom-left.png) O ícone na parte inferior esquerda significa que o campo é o campo de destino para a lógica de salto (se uma seleção específica for feita no formulário, o formulário pulará adiante para esse campo). A variável ![Definir ícone para ignorar a lógica](assets/skip-logic-bottom-right.png) O ícone na parte inferior direita significa que o campo é usado para definir a lógica de salto (uma seleção específica ou um valor neste campo ignorará outros campos e irá diretamente para o campo de destino).
-
-![Ícones lógicos](assets/logic-icons-3.png)
-
-Selecionar um campo com lógica aplicada exibe as regras de lógica existentes nas configurações do campo.
-
-![Regras lógicas](assets/form-designer-view-only-logic.png)
+>As configurações existentes para filtros de digitação antecipada não serão afetadas quando você trabalhar com o novo designer de formulário.
 
 ## Funcionalidade removida do designer do formulário
 
-Removemos as seguintes funcionalidades do designer de formulário interno:
-
+Removemos as seguintes funcionalidades do designer de formulário:
 
 * Guias Configurações de formulário, Compartilhamento de formulários, Compartilhamento de campos
 
@@ -84,9 +65,10 @@ Removemos as seguintes funcionalidades do designer de formulário interno:
 
   >[!NOTE]
   >
-  >É possível controlar o compartilhamento de formulários e campos na guia Configurar > Forms personalizado > Forms ou Campos.
+  >É possível controlar o compartilhamento de formulários e campos na área Configuração > Forms personalizado > Forms ou Campos.
 
 * Rastrear alterações de campo nos campos de atualização
+
   >[!NOTE]
   >
   >Você pode encontrar isso em Configuração > Interface > Feeds de atualização

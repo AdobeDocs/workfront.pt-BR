@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 080292085ebd94074c92963c2fc135dd228f4cf0
 workflow-type: tm+mt
-source-wordcount: '13894'
+source-wordcount: '13904'
 ht-degree: 1%
 
 ---
@@ -581,6 +581,7 @@ ht-degree: 1%
                * [Criar um formulário com o designer de formulário](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
                * [Criar um formulário a partir de uma cópia com o designer do formulário](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
                * [Adicionar campos calculados com o designer de formulário](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
+               * [Adicionar lógica de exibição e lógica de salto com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
                * [Organizar e visualizar um formulário com o designer de formulário](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
             * Gerenciar um formulário {#manage-a-form}
                * [Gerenciar um formulário](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)
