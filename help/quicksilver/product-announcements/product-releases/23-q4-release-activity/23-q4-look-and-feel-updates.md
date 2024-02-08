@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 91cb2fd85089a081192c85e373938a03a795a54b
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Para obter uma lista de todas as alterações disponíveis com a versão do quar
 
 >[!NOTE]
 >
->Versão de visualização: 1 de novembro de 2023; Versão de produção para todos os clientes: 1 de novembro
+>Versão de pré-visualização: 1 de novembro de 2023; Versão de produção para todos os clientes: 1 de novembro de 2023
 
 O modelo de email para notificações de aprovação de documentos foi atualizado para melhor corresponder a outros modelos de email de Adobe e para melhorar a clareza e a usabilidade.
 
@@ -31,7 +31,7 @@ O modelo de email para notificações de aprovação de documentos foi atualizad
 
 >[!NOTE]
 >
->Versão de pré-visualização: 12 de outubro de 2023; Versão de produção para todos os clientes: a ser definida
+>Versão de pré-visualização: 12 de outubro de 2023; Produção para lançamento rápido: Com o lançamento 24.2 (15 de fevereiro de 2024); Produção para lançamento trimestral: Com o lançamento 24.4 (abril de 2024)
 
 Para fornecer mais clareza sobre ajustes manuais ou contorno no Balanceador de carga de trabalho, as alocações por hora ajustadas manualmente agora mostram um ícone de lápis.
 
