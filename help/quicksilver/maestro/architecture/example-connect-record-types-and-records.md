@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
@@ -77,11 +77,30 @@ Para fazer isso:
    >    Os campos de registro vinculados são precedidos pelo ícone de relacionamento ![](assets/relationship-field-icon.png).
 
 1. No **Campaign** exibição de tabela do tipo de registro, crie uma campanha adicionando uma nova linha na tabela da página Tipo de registro de campanha.
-1. Clique em **+** ícone dentro do  **Informações do produto** da nova campanha. A variável **Conectar objetos** é exibida. O nome do tipo de registro ao qual você está vinculando (Produto) é exibido no canto superior esquerdo da caixa.
 
-   ![](assets/connect-objects-box-to-select-other-maestro-records-example-for-product-record.png)
+1. Clique duas vezes dentro do  **Informações do produto** da nova campanha.
 
-1. Selecione os registros Product que deseja conectar aos registros do Campaign e clique em **Conectar objetos**.
+   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+
+1. Siga um destes procedimentos:
+
+   * Clique no nome de um produto conectado na lista para adicioná-lo ao registro selecionado. O produto é adicionado automaticamente.
+   * Comece a digitar o nome de um produto e clique nele quando ele for exibido na lista. O produto é adicionado automaticamente.
+   * Clique em **Ver tudo** para exibir todos os produtos.
+
+1. (Condicional) Se você clicou em **Selecionar tudo** na etapa anterior, a variável **Conectar objetos** é exibida.
+
+   ![](assets/connected-objects-table-for-records.png)
+
+1. Comece a digitar o nome de um produto na caixa de pesquisa e selecione-o quando ele for exibido na lista
+
+   Ou
+
+   Selecione os registros Product que deseja conectar aos registros do Campaign e clique em **Conectar objetos**.
+
+   >[!TIP]
+   >
+   >    É possível abrir a página Detalhes de uma campanha, localizar o campo de registro vinculado e clicar no link **+** ícone no campo para adicionar produtos do tipo de registro de Produto conectado.
 
    As seguintes colunas são preenchidas na tabela Campaign record type:
    * A variável **Informações do produto** O campo é preenchido para o registro de Campanha com os Produtos selecionados.
@@ -142,13 +161,32 @@ Para fazer isso:
    >    Os campos de objeto vinculados são precedidos pelo ícone de relacionamento ![](assets/relationship-field-icon.png).
 
 1. No **Campaign** para a exibição de tabela do tipo de registro, crie uma campanha adicionando uma nova linha na tabela.
-1. Clique em **+** ícone dentro do  **Informações do projeto** da nova campanha. A variável **Conectar objetos** é exibida. O nome do tipo de objeto ao qual você está vinculando (Projeto do Workfront) é exibido no canto superior esquerdo da caixa.
 
-   ![](assets/connect-objects-box-to-select-projects.png)
+1. Clique duas vezes dentro do  **Informações do projeto** da nova campanha.
 
-1. Selecione o projeto ou projetos que deseja conectar aos registros do Campaign e clique em **Conectar objetos**.
+   ![](assets/connect-projects-smaller-box-in-table.png)
 
-   Os itens a seguir são adicionados ao espaço de trabalho selecionado:
+1. Siga um destes procedimentos:
+
+   * Clique no nome de um projeto na lista para adicioná-lo ao registro selecionado. O projeto é adicionado automaticamente.
+   * Comece digitando o nome de um projeto e clique nele quando ele for exibido na lista. O projeto é adicionado automaticamente.
+   * Clique em **Ver tudo** para exibir todos os projetos.
+
+1. (Condicional) Se você clicou em **Selecionar tudo** na etapa anterior, a variável **Conectar objetos** é exibida.
+
+   ![](assets/connect-projects-larger-box.png)
+
+1. Comece digitando o nome de um projeto na caixa de pesquisa e selecione-o quando ele for exibido na lista
+
+   Ou
+
+   Selecione os registros Project que deseja conectar aos registros Campaign e clique em **Conectar objetos**.
+
+   >[!TIP]
+   >
+   >    É possível abrir a página Detalhes de uma campanha, encontrar o campo do projeto vinculado e clicar no link **+** ícone no campo para adicionar projetos do tipo de registro de Produto conectado.
+
+   Isso adiciona o seguinte ao espaço de trabalho selecionado:
 
    * Na tabela Campaign record type:
       * A variável **Informações do projeto** O campo é preenchido para o registro de Campanha com os projetos selecionados.
@@ -165,7 +203,7 @@ Para fazer isso:
    Isso abre o projeto Maestro somente leitura **Detalhes** página.
 Revise as informações sobre o projeto. Somente os campos de projeto selecionados são exibidos na página Detalhes.
 
-1. Clique em Ir para código-fonte no canto superior direito da tela para abrir o projeto no Workfront, se você tiver pelo menos permissões de Exibição para o projeto.
+1. Clique em **Ir para origem** no canto superior direito da tela para abrir o projeto no Workfront, se você tiver pelo menos permissões de Visualização para o projeto.
 1. (Opcional) Atualize as informações sobre o projeto no Workfront, se você tiver permissões para isso.
 
 1. Na exibição da tabela do Campaign, passe o mouse sobre **Informações do projeto** cabeçalho de campo, clique na seta para baixo e clique em **Editar campos de pesquisa.**

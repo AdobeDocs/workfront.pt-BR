@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '3969'
+source-wordcount: '4110'
 ht-degree: 0%
 
 ---
@@ -65,22 +65,29 @@ Atualizamos a aparência da barra de ferramentas de Rich Text ao editar um campo
 
 Para obter informações, consulte  [Editar registros](/help/quicksilver/maestro/records/edit-records.md).
 
-<!--
-### Improved experience when editing Single-select, Multi-select, People fields, and when adding connected objects
+### Experiência aprimorada ao editar os campos Seleção única, Seleção múltipla, Pessoas e ao adicionar objetos conectados
 
-Production: February 8, 2024 
+Produção: 8 de fevereiro de 2024
 
-Preview: To be determined 
+Visualização: a ser determinado
 
-We have redesigned and improved the experience of adding options for Single-select, Multi-select, or People fields, and when adding connected objects to a record. With the new improvement, a smaller, more responsive box displays.  
- 
-For connected fields, you have the option of adding your objects by searching for them in the smaller box, or accessing the larger Connected objects box to view more information in addition to the objects' names.  
+Reprojetamos e aprimoramos a experiência de adicionar opções ou objetos para os seguintes tipos de campo:
 
-The improvements are now available when updating fields in the table view of a record type.  
+* Seleção única
+* Seleção múltipla
+* Pessoas
+* Campos de registro conectados (ao conectar tipos de registro Maestro ou objetos Workfront)
 
-For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). 
+Com a nova melhoria, uma caixa menor e mais responsiva é exibida primeiro.
 
--->
+Para campos conectados, você pode adicioná-los seguindo um destes procedimentos:
+
+* Adicionar objetos ao campo conectado pesquisando e selecionando-os de uma lista na exibição de tabela, enquanto edita o campo em linha
+* Clique para abrir a caixa Conectar objetos maior, onde você pode exibir todos os nomes de item, além de mais informações sobre os itens.
+
+As melhorias agora estão disponíveis ao atualizar campos na exibição de tabela de um tipo de registro.
+
+Para obter mais informações, consulte [Conectar registros](/help/quicksilver/maestro/records/connect-records.md).
 
 ## Semana de 29 de janeiro de 2024
 

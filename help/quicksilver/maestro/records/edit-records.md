@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1077'
 ht-degree: 1%
 
 ---
@@ -168,6 +168,8 @@ O espaço de trabalho que você acessou por último é aberto.
    * Adicionar uma lista numerada
 
    ![](assets/rich-text-toolbar-on-paragraph-field.png)
+
+1. (Opcional) Clique duas vezes em um campo de registro conectado para adicionar registros ou objetos conectados a outro registro. Para obter mais informações, consulte [Conectar registros](/help/quicksilver/maestro/records/connect-records.md).
 1. Pressione **Enter** no teclado ou clique fora de uma linha para salvar as alterações. As alterações são salvas automaticamente. A **Salvo** O indicador é exibido brevemente no canto superior direito da exibição de tabela para mostrar que as alterações foram salvas.
 
 1. (Opcional) Para copiar e colar informações de um campo para outro, siga um destes procedimentos:
