@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: a9d9ae15f4d80fa6e09414459417cfd2b57daf42
+source-git-commit: d5b4531be831356f81880d9f6c90f472bbc8a6ed
 workflow-type: tm+mt
-source-wordcount: '5075'
+source-wordcount: '5105'
 ht-degree: 3%
 
 ---
@@ -499,6 +499,8 @@ Para adicionar campos de data de digitação antecipada:
 ### Adicionar campos de pesquisa externos
 
 Um campo de pesquisa externo chama uma API externa e retorna valores como opções em um campo suspenso. Os usuários que trabalham com o objeto ao qual o formulário personalizado está anexado podem selecionar uma ou mais dessas opções na lista suspensa. O campo de pesquisa externo também está disponível em listas e relatórios.
+
+Para obter exemplos de como usar o campo Pesquisa externa para chamar a mesma instância do Workfront ou uma API pública, consulte [Exemplos do campo Pesquisa externa em um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
 >[!NOTE]
 >

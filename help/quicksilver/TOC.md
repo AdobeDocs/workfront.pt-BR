@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: cd281e0dc91a2b39f54ceea674b36940ffb06a13
+source-git-commit: d5b4531be831356f81880d9f6c90f472bbc8a6ed
 workflow-type: tm+mt
-source-wordcount: '13930'
+source-wordcount: '13940'
 ht-degree: 1%
 
 ---
@@ -585,6 +585,7 @@ ht-degree: 1%
                * [Criar um formulário a partir de uma cópia com o designer do formulário](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
                * [Adicionar campos calculados com o designer de formulário](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
                * [Adicionar lógica de exibição e lógica de salto com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
+               * [Exemplos do campo Pesquisa externa em um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
                * [Organizar e visualizar um formulário com o designer de formulário](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
             * Gerenciar um formulário {#manage-a-form}
                * [Gerenciar um formulário](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)
