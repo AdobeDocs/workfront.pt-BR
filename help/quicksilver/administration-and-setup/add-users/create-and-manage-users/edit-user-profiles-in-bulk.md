@@ -8,22 +8,25 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
 workflow-type: tm+mt
-source-wordcount: '2387'
+source-wordcount: '2285'
 ht-degree: 0%
 
 ---
 
 # Editar perfis de usuário em massa
 
+<!--
+
 >[!IMPORTANT]
 >
->O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas ao Admin Console. Se sua organização tiver sido integrada à Adobe Admin Console, você deverá executar essa ação por meio da Adobe Admin Console.
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->Para obter instruções sobre como editar o perfil de um usuário no Adobe Admin Console, consulte a seção &quot;Editar detalhes do usuário&quot; no artigo [Fazer upload de usuários em massa](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) ou entre em contato com o administrador do Adobe Admin Console.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
->Para obter uma lista de procedimentos que diferem dependendo de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+-->
 
 Você pode editar contas de usuário em massa. Ao editar usuários em massa, somente os campos selecionados especificamente são atualizados com as mesmas informações para todos os usuários selecionados. Todos os outros campos não selecionados permanecem os mesmos para cada usuário individual, mesmo que sejam diferentes para cada usuário.
 

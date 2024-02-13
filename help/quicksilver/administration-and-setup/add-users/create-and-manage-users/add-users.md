@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
+source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1230'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 >
 >Se sua organização tiver sido integrada à Adobe Admin Console, você deverá criar administradores de sistema por meio da Adobe Admin Console.
 >
->Para obter instruções sobre como criar administradores de sistema no Adobe Admin Console, consulte [Gerenciar usuários na Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+>Para obter instruções sobre como criar administradores de sistema no Adobe Admin Console, consulte [Gerenciar administradores de sistema no Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
 >Os administradores de grupo em organizações que foram integradas à Adobe Admin Console podem usar esse procedimento para criar usuários e enviá-los para aprovação do administrador.
 >
