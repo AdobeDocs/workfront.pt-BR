@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: a1af801e70a7d1a4da7ec572989ebba7634aef58
+source-git-commit: 128082d2af40f1dcbbc058f8bc2fd25deae00809
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2063'
 ht-degree: 0%
 
 ---
@@ -62,15 +62,15 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Na página exibida, continue com uma das 5 seções listadas abaixo para definir as configurações para [!UICONTROL Padrões de nova tarefa], [!UICONTROL Problemas], [!UICONTROL Exclusão], [!UICONTROL Datas Efetivas], e [!UICONTROL Access]:
 
-* [[!UICONTROL Padrões de nova tarefa]](#new-task-defaults)
-* [[!UICONTROL Problemas]](#issues)
-* [[!UICONTROL Exclusão]](#deletion)
-* [[!UICONTROL Datas Efetivas]](#actual-dates)
-* [[!UICONTROL Delegação]](#delegation)
+   * [[!UICONTROL Padrões de nova tarefa]](#new-task-defaults)
+   * [[!UICONTROL Problemas]](#issues)
+   * [[!UICONTROL Exclusão]](#deletion)
+   * [[!UICONTROL Datas Efetivas]](#actual-dates)
+   * [[!UICONTROL Delegação]](#delegation)
 
-  <!--
-  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
-  -->
+   <!--
+<li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Trabalhar na tarefa</a> </li>
+  --&gt;
 
 * [[!UICONTROL Access]](#access)
 
@@ -97,7 +97,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
     <td> <p>Calcula as estimativas de custo planejadas e reais para uma tarefa. Quando definido como <strong>[!UICONTROL Sem Custo]</strong>, as horas planejadas e as horas reais registradas não geram uma estimativa de custo planejada ou real para a tarefa e o trabalho na tarefa não contribui para os custos no nível do projeto.</p> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 ### Problemas {#issues}
 
@@ -181,7 +181,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       </ul> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 ### Delegação
 
@@ -192,7 +192,7 @@ Quando essa configuração estiver ativada, os usuários poderão ver o seguinte
 * A variável [!UICONTROL Delegar] no seu [!UICONTROL Início] área. Eles podem delegar aprovações ou atribuições de tarefas e problemas daqui.
 * Uma indicação de que uma tarefa ou problema é delegado a outro usuário na [!UICONTROL Atribuições e delegações] no cabeçalho da tarefa ou problema.
 
-Se você desativar a variável [!UICONTROL Permitir que os usuários deleguem tarefas e problemas] Ao configurar, as delegações que estão agendadas no momento serão interrompidas e os usuários delegados receberão uma notificação por email de que a delegação foi interrompida.
+  Se você desativar a variável [!UICONTROL Permitir que os usuários deleguem tarefas e problemas] Ao configurar, as delegações que estão agendadas no momento serão interrompidas e os usuários delegados receberão uma notificação por email de que a delegação foi interrompida.
 
 Para obter informações sobre como delegar trabalho a outras pessoas, consulte os seguintes artigos:
 
@@ -257,7 +257,7 @@ I have not had a chance to follow up with customers to verify if this is still a
       </ul> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 1. Clique em **[!UICONTROL Salvar]**.
 
