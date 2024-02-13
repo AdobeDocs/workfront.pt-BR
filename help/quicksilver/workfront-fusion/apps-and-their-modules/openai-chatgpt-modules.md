@@ -8,9 +8,9 @@ title: Módulos do OpenAI (ChatGPT)
 description: Em um cenário do Adobe Workfront Fusion, é possível automatizar workflows que usam OpenAIT(ChatGPT), bem como conectá-los a vários aplicativos e serviços de terceiros.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: a8bc882f393dcf17bca80da86c25c053272e27c9
+source-git-commit: aa672a81b0899c45c1c7e6abba03b6d975dc7017
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1320'
 ht-degree: 0%
 
 ---
@@ -97,30 +97,38 @@ Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo par
 
 ### Criar uma conclusão
 
-Este módulo de ação cria uma conclusão para o prompt ou chat fornecido.
+>[!IMPORTANT]
+>
+>Este módulo foi substituído.
+
+<!--
+
+This action module creates a completion for the provided prompt or chat.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexão]</td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL OpenAI (ChatGPT & DALL-E)] para o Workfront Fusion, consulte <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Conectando [!DNL OpenAI (ChatGPT & DALL-E)] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL OpenAI (ChatGPT & DALL-E)] account to Workfront Fusion, see <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connecting [!DNL OpenAI (ChatGPT & DALL-E)] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Modelo]</td> 
-   <td> Insira ou mapeie a ID do modelo a ser usado. Você pode usar o módulo Obter modelos para ver todos os modelos disponíveis. </td> 
+   <td role="rowheader">[!UICONTROL Model]</td> 
+   <td> Enter or map the ID of the model to use. You can use the Get models module to see all of your available models. </td> 
   </tr> 
-  <!--<tr> 
+ <tr> 
    <td role="rowheader">[!UICONTROL Temperature]</td> 
    <td> This value must be between 0 and 2, and determines the randomness of the output. Higher values produce output that is more random, while lower values produce more focused output. </td> 
-  </tr> -->
+  </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Configurações avançadas]</td> 
-   <td> <p>Para obter informações sobre as configurações avançadas opcionais neste módulo, consulte as informações sobre a criação de conclusões no <a href="https://platform.openai.com/docs/api-reference/completions/create" class="MCXref xref">Documentação da API do OpenAI</a>.</p> </td> 
+   <td role="rowheader">[!UICONTROL Advanced settings]</td> 
+   <td> <p>For information about the optional advanced settings in this module, see the information about creating completions in the <a href="https://platform.openai.com/docs/api-reference/completions/create" class="MCXref xref">OpenAI API documentation</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+-->
 
 ### Criar uma moderação
 
