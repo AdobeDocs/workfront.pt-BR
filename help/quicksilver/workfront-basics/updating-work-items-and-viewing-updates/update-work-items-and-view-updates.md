@@ -2,22 +2,24 @@
 content-type: reference
 product-area: projects
 navigation-topic: get-started-with-workfront
-title: Atualizar itens de trabalho e exibir atualizações
-description: Você pode usar a seção Atualizações da maioria dos objetos para adicionar comentários, respostas ou para seguir atualizações controladas pelo sistema sobre alterações que ocorrem no objeto.
+title: "Atualizar itens de trabalho e exibir atualizações: índice do artigo"
+description: Você pode usar a seção Atualizações da maioria dos objetos para adicionar comentários e respostas ou para seguir atualizações controladas pelo sistema sobre alterações que ocorrem no objeto.
 author: Alina
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
-# Atualizar itens de trabalho e exibir atualizações
+# Atualizar itens de trabalho e exibir atualizações: índice do artigo
 
-Você pode usar a seção Atualizações da maioria dos objetos para adicionar comentários, respostas ou para seguir atualizações controladas pelo sistema sobre alterações que ocorrem no objeto.
+<!-- Audited: 02/2024 -->
+
+Você pode usar a seção Atualizações da maioria dos objetos para adicionar comentários e respostas ou para seguir atualizações controladas pelo sistema sobre alterações que ocorrem no objeto.
 
 Esta seção contém os seguintes artigos:
 

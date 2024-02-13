@@ -7,16 +7,16 @@ description: O Adobe Workfront permite enviar mensagens rápidas e fáceis que n
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
 
 # Enviar mensagens diretas a outros usuários
 
-[!DNL Adobe Workfront] permite enviar mensagens de maneira rápida e fácil que não estejam relacionadas a qualquer item de trabalho diretamente para outras [!DNL Workfront] usuários. As mensagens enviadas conforme descrito nesta seção aparecem no [!UICONTROL Atualizações] na home page do usuário e ficam visíveis para todos os usuários. Para obter informações adicionais sobre atualizações, consulte [Atualizar itens de trabalho e exibir atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
+[!DNL Adobe Workfront] permite enviar mensagens de maneira rápida e fácil que não estejam relacionadas a qualquer item de trabalho diretamente para outras [!DNL Workfront] usuários. As mensagens enviadas conforme descrito nesta seção aparecem no [!UICONTROL Atualizações] na home page do usuário e ficam visíveis para todos os usuários. Para obter informações adicionais sobre atualizações, consulte [Atualizar itens de trabalho e exibir atualizações: índice do artigo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
 O usuário para o qual você está enviando a mensagem recebe os seguintes tipos de notificações quando você envia uma mensagem conforme descrito nesta seção:
 
@@ -37,7 +37,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 

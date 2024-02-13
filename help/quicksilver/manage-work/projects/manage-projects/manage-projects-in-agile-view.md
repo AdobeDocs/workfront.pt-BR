@@ -6,9 +6,9 @@ description: Você pode aproveitar a funcionalidade ágil para o seu projeto sem
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
@@ -77,16 +77,16 @@ Há algumas diferenças ao usar visualizações ágeis em um projeto em vez de t
 
 ### Diferenças ao usar a visualização Agile em um projeto ou em uma iteração {#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration}
 
-* [As tarefas e subtarefas seguem regras de exibição diferentes no Storyboard](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board)
-* [As listas de pendências e iterações não são usadas](#backlogs-and-iterations-are-not-used)
+* [As tarefas e subtarefas seguem diferentes regras de exibição em uma visualização Agile do projeto e no storyboard de uma iteração](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board)
+* [Os registros pendentes e as iterações não são usados na visualização Agile](#backlogs-and-iterations-are-not-used)
 * [A ordem das tarefas é mantida na visualização Agile e não pode ser reordenada](#task-order-is-maintained-in-the-agile-view-and-cannot-be-reordered)
-* [As tarefas são medidas somente em Horas planejadas](#tasks-are-measured-only-in-planned-hours)
-* [A Equipe Agile não é usada](#the-agile-team-is-not-used)
+* [As tarefas são medidas apenas em Horas planejadas em uma lista de projetos](#tasks-are-measured-only-in-planned-hours)
+* [A Equipe Agile não é usada em uma visualização Agile](#the-agile-team-is-not-used)
 * [Cada usuário no projeto pode visualizar o projeto em uma visualização Agile diferente](#each-user-on-the-project-can-view-the-project-in-a-different-agile-view)
 
-#### As tarefas e subtarefas seguem regras de exibição diferentes no Storyboard {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
+#### As tarefas e subtarefas seguem diferentes regras de exibição em uma visualização Agile do projeto e no storyboard de uma iteração {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
 
-* As tarefas que não têm uma tarefa pai nem uma subtarefa são sempre exibidas como um único storyboard no storyboard.\
+* As tarefas que não têm uma tarefa pai nem uma subtarefa são sempre exibidas como um único cartão de matéria no storyboard da exibição Agile.\
   Por exemplo, essas tarefas aparecem da seguinte maneira na exibição de lista do projeto:
 
   ![Lista de projetos Agile - tarefas sem tarefas principais ou secundárias](assets/agile-project-single-list-nwe.png)
@@ -95,7 +95,7 @@ Há algumas diferenças ao usar visualizações ágeis em um projeto em vez de t
 
   ![Visualização Agile do projeto - tarefas sem tarefas principais ou secundárias](assets/agile-project-singlecard-nwe.png)
 
-* As tarefas pai que têm subtarefas são sempre exibidas na variável **Histórias** coluna do storyboard. As subtarefas são exibidas na raia da tarefa pai.\
+* As tarefas pai que têm subtarefas são sempre exibidas na variável **Histórias** coluna do storyboard da exibição Agile. As subtarefas são exibidas na raia da tarefa pai.\
   Por exemplo, essas tarefas aparecem da seguinte maneira na exibição de lista do projeto:
 
   ![Lista de projetos Agile - tarefas com pais e subtarefas](assets/agile-project-parent-list-nwe.png)\
@@ -104,9 +104,9 @@ Há algumas diferenças ao usar visualizações ágeis em um projeto em vez de t
   ![Visualização de projeto Agile - tarefas com pais e subtarefas](assets/agile-project-parent-nwe.png)
 
 * Subtarefas de segundo nível (subtarefas de subtarefas) são exibidas como um cartão cinza suspenso da tarefa pai imediata.
-* Subtarefas de terceiro nível (subtarefas de subtarefas) nunca são exibidas no storyboard.
+* Subtarefas de terceiro nível (subtarefas de subtarefas de subtarefas) nunca são exibidas na exibição Agile.
 
-#### As listas de pendências e iterações não são usadas {#backlogs-and-iterations-are-not-used}
+#### Os registros pendentes e as iterações não são usados na visualização Agile {#backlogs-and-iterations-are-not-used}
 
 Ao visualizar um projeto em uma visualização ágil, os seguintes componentes ágeis não são usados:
 
@@ -119,13 +119,13 @@ A ordem em que as tarefas aparecem em um projeto é mantida ao exibi-lo em um st
 
 Não é possível reordenar tarefas no projeto ao visualizar o projeto em uma exibição ágil. Como a modificação da ordem da tarefa pode afetar outras tarefas que possam ter dependências, você deve exibir o projeto em uma exibição padrão para modificar a ordem da tarefa.
 
-#### As tarefas são medidas somente em Horas planejadas {#tasks-are-measured-only-in-planned-hours}
+#### As tarefas são medidas apenas em Horas planejadas em uma lista de projetos {#tasks-are-measured-only-in-planned-hours}
 
 As tarefas em um projeto são sempre medidas em Horas planejadas.
 
 Em uma iteração, as tarefas (histórias) podem ser medidas em horas ou pontos.
 
-#### A Equipe Agile não é usada {#the-agile-team-is-not-used}
+#### A Equipe Agile não é usada em uma visualização Agile {#the-agile-team-is-not-used}
 
 Como as equipes ágeis concluem o trabalho nas iterações atribuídas a elas, as equipes ágeis não são usadas ao visualizar um projeto em uma visualização ágil.
 
@@ -137,7 +137,7 @@ Diferentemente de uma iteração ágil, os usuários de um projeto podem persona
 
 Em uma iteração ágil, as informações disponíveis no storyboard de agile (como colunas de status disponíveis) são determinadas no nível da equipe.
 
-Para obter informações sobre como personalizar uma visualização ágil, consulte [Criar ou personalizar uma visualização Agile](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Para obter informações sobre como personalizar uma visualização ágil, consulte [Criar ou personalizar uma visualização Agile](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in [Criar ou editar exibições no no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Exibir um projeto na exibição Agile
 
