@@ -6,14 +6,16 @@ description: Você pode aproveitar a funcionalidade ágil para o seu projeto sem
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
+source-git-commit: 857c4e96b17b3b520d63ba02c196cae1cdc7f4ac
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
 
 # Gerenciar um projeto na visualização Agile
+
+<!-- Audited: 2/2024 -->
 
 Você pode aproveitar a funcionalidade ágil para o seu projeto sem os desafios administrativos que normalmente acompanham as práticas ágeis (como gerenciar um backlog da equipe ou criar iterações).
 
@@ -32,7 +34,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> <p>Atual: revisão ou superior</p> 
    <p>Novo: Colaborador ou superior</p> </td> 
   </tr> 
@@ -52,7 +54,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront. Para obter mais informações sobre requisitos de acesso, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Entender projetos Agile
 
@@ -162,7 +164,7 @@ Para obter informações sobre como personalizar uma visualização ágil, consu
 
    A exibição ágil personalizada será usada na próxima vez que você clicar no botão **Agile** ícone.
 
-   Para obter informações sobre como criar uma nova visualização ágil, consulte [Criar e personalizar visualizações Agile](#create-and-customize-agile-views).
+   Para obter informações sobre como criar uma nova visualização ágil, consulte [Criar e personalizar visualizações Agile](#create-and-customize-agile-views), abaixo.
 
    O projeto é exibido na visualização ágil personalizada.
 
@@ -170,7 +172,7 @@ Para obter informações sobre como personalizar uma visualização ágil, consu
 
    Se as tarefas tiverem um status que não seja exibido no storyboard Agile, a própria tarefa não será exibida no storyboard Agile (no entanto, o Percentual concluído dessas tarefas ainda contribuirá para o Percentual concluído de qualquer tarefa pai e o Percentual concluído do projeto geral).
 
-   Para adicionar status à visualização Agile, crie uma nova visualização Agile ou personalize uma visualização Agile existente, conforme descrito na seção &quot;Criar ou personalizar uma visualização Agile&quot; no artigo [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Para adicionar status à exibição ágil, crie uma nova exibição ágil ou personalize uma exibição ágil existente, conforme descrito em [Criar e personalizar visualizações Agile](#create-and-customize-agile-views), abaixo.
 
 1. (Opcional) Para retornar à exibição em lista, clique no link **Lista** ícone.
 
@@ -180,7 +182,7 @@ Para obter informações sobre como personalizar uma visualização ágil, consu
 >
 >Esta seção se aplica somente à visualização Agile herdada, não à visualização de quadro de um projeto.
 
-Assim como com as exibições padrão no Workfront, você pode personalizar Exibições ágeis existentes ou criar novas Exibições ágeis do zero. Diferentemente das exibições padrão, não é possível criar novas Exibições ágeis com base em Exibições ágeis existentes.
+Assim como com as exibições padrão no Workfront, você pode personalizar Exibições ágeis existentes ou criar novas exibições ágeis do zero. Diferentemente das exibições padrão, não é possível criar novas Exibições ágeis com base em exibições ágeis existentes.
 
 Para obter mais informações sobre como criar e personalizar exibições ágeis, consulte [Criar ou personalizar uma visualização Agile](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) no artigo [Criar ou editar exibições no no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
