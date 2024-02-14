@@ -7,9 +7,9 @@ description: Ao gerenciar atribuições de tarefas e problemas, você pode usar 
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 75a67f1eb32d9ec03e27a0dbe2fde1bfaf3a7d1f
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1245'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,11 @@ Você pode ver as atribuições inteligentes nas seguintes áreas onde pode atri
 
   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
-* O campo Atribuições para um item listado na área Página inicial na área Atribuições, quando você abre uma tarefa ou problema
+* <span class="preview">O campo Atribuições na caixa Nova tarefa, ao adicionar uma tarefa a um projeto</span>
+
+  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+
+* O campo Atribuições para um item listado na área Página inicial, quando você abre uma tarefa ou problema
 
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 
@@ -128,7 +132,7 @@ Se a primeira etapa das atribuições inteligentes de tarefas não encontrar cor
 
 Para obter mais informações, consulte a seção [Critérios de atribuições inteligentes para tarefas e problemas](#smart-assignments-criteria-for-tasks-and-issues) neste artigo.
 
-As atribuições identificadas nesta fase estão listadas no **Resultados** seção do campo Assignments. <!--update this to "Other assignments"-->
+As atribuições identificadas nesta fase estão listadas no **Outras atribuições** seção do campo Assignments para tarefas. <!--update this to "Other assignments"-->
 
 ### Critérios de atribuições inteligentes para tarefas e problemas
 
