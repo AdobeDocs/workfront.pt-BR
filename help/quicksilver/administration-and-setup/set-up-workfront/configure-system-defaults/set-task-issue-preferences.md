@@ -70,7 +70,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Trabalhar na tarefa</a> </li>
-  --&gt;
+  -->
 
 * [[!UICONTROL Access]](#access)
 
