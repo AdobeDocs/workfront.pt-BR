@@ -4,9 +4,9 @@ description: Atualizações de aparência durante o período do segundo trimestr
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 91cb2fd85089a081192c85e373938a03a795a54b
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,14 @@ ht-degree: 0%
 Esta página descreve pequenas atualizações na aparência de várias áreas do aplicativo Adobe Workfront que foram feitas dentro do período do segundo trimestre de 2024.
 
 Para obter uma lista de todas as alterações disponíveis com a versão do segundo trimestre de 2024, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Atualizações de aparência para dois modelos de email
+
+>[!NOTE]
+>
+>Versão para todos os clientes: com a versão 24.2 (15 de fevereiro de 2024)
+
+Os modelos de email para adicionar um aprovador a um ativo e adicionar um usuário a um quadro foram atualizados para melhor corresponder a outros modelos de email de Adobe e para melhorar a clareza e a usabilidade.
 
 ## Novas atualizações de aparência para guias na área Forms personalizado
 

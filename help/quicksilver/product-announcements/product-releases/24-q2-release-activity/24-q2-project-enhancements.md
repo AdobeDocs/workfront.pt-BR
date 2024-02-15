@@ -4,9 +4,9 @@ description: Aprimoramentos no projeto do segundo trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4612d1915340c6053bf658f729b8b10e09f646f7
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,26 @@ Esta página descreve todas as melhorias feitas no projeto com a versão do segu
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do segundo trimestre de 2024, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
+
+## Atribuições mais relevantes adicionadas ao fluxo de trabalho Nova tarefa
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 13 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento do 24.3 (março de 2024); Produção para todos os clientes: Com o lançamento do 24.4 (abril de 2024)
+
+Adicionamos a mesma funcionalidade para atribuições inteligentes mais relevantes ao campo Atribuições nas seguintes áreas:
+
+* A caixa Nova tarefa ao adicionar uma tarefa a um projeto
+
+* Em uma lista de tarefas de projeto
+
+Para obter mais informações, consulte [Visão geral das atribuições inteligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+
 ## Atribuições inteligentes mais relevantes
 
 >[!NOTE]
 >
->Produção para lançamento rápido: com a versão 24.2 (fevereiro de 2024); Produção para todos os clientes: com a versão 24.4 (abril de 2024)
+>Versão de pré-visualização: 21 de dezembro de 2023; Produção para lançamento rápido: Com o lançamento do 24.3 (março de 2024); Produção para todos os clientes: Com o lançamento do 24.4 (abril de 2024)
 
 Alteramos o algoritmo que o Workfront usa para calcular e sugerir atribuições inteligentes para tarefas. O novo algoritmo se aplica às seguintes áreas no Workfront em que você atribui uma tarefa: listas de tarefas, a área Atribuições no cabeçalho da tarefa, Início e o painel Resumo.
 

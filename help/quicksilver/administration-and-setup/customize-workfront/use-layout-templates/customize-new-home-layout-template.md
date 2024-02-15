@@ -7,9 +7,9 @@ description: Você pode usar um modelo de layout para configurar o que os usuár
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '746'
 ht-degree: 1%
 
 ---
@@ -91,11 +91,11 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><
         <li>Minhas tarefas</li>
         <li>Meus problemas</li>
       </ul>
-      <p>Depois de selecionar o widget que deseja editar, as opções disponíveis serão exibidas à direita. Atualmente, essas opções são <b>Filtros</b> e <b>Grupos</b>. Você pode:</p>
+      <p>Depois de selecionar o widget que deseja editar, as opções disponíveis serão exibidas à direita. Essas opções incluem <b>Filtros</b>, <b>Colunas</b>, e <b>Grupos</b>. Você pode:</p>
       <ul>
-        <li><b>Selecione quais Filtros ou Grupos estarão disponíveis para os usuários:</b><p>Marque a caixa ao lado de todas as opções na lista que você deseja que os usuários possam usar. Opções desmarcadas não serão exibidas para usuários.</li></p>
+        <li><b>Selecione quais Filtros, Colunas ou Grupos estarão disponíveis para os usuários:</b><p>Marque a caixa ao lado de todas as opções na lista que você deseja que os usuários possam usar. Opções desmarcadas não serão exibidas para usuários.</li></p>
         <li><b>Defina um Filtro ou Grupo padrão para o widget:</b><p>Passe o mouse sobre uma opção e um botão aparecerá, permitindo que você defina essa opção como padrão para os usuários. O padrão atual terá um emblema Padrão azul à direita.</li></p>
-        <li><b>Adicione um Filtro ou Grupo existente à lista de opções disponíveis:</b><p>Clique no botão de adição na parte inferior de cada lista para adicionar uma opção a ela. Observe que somente Filtros ou Grupos existentes podem ser adicionados dessa maneira.</li></p>
+        <li><b>Adicione um Filtro, Coluna ou Grupo existente à lista de opções disponíveis:</b><p>Clique no botão de adição na parte inferior de cada lista para adicionar uma opção a ela. Observe que somente Filtros, Campos (para Colunas) ou Grupos existentes podem ser adicionados dessa maneira.</li></p>
       </ul>
       </td> 
      </tr>
