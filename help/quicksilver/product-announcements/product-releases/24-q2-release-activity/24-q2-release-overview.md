@@ -4,9 +4,9 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -54,16 +54,19 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">A lógica de salto e a lógica de exibição agora estão disponíveis no designer de formulário beta</a><span style="color: #ff0000;"> Novo na visualização!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">A lógica de salto e a lógica de exibição agora estão disponíveis no designer de formulário beta</a></p>
                         <p>Agora é possível editar a exibição existente, ignorar a lógica e adicionar uma nova lógica aos formulários personalizados no designer de formulário beta. Um construtor de lógica fácil de usar ajuda a definir quais campos exibir ou ignorar com base nas seleções no formulário.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão de pré-visualização: 8 de fevereiro de 2024<br /></p>
+                                <p>Versão de pré-visualização: 8 de fevereiro de 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Produção para todos os clientes: com a versão 24.2 (15 de fevereiro de 2024)</span></p>
+                                <p>Produção para lançamento rápido: com o lançamento do 24.2 (15 de fevereiro de 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produção para todos os clientes: a ser definida</p>
                             </li>
                         </ul>
                     </td>

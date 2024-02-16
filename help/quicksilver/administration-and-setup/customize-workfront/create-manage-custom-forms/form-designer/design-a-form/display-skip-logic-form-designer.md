@@ -7,16 +7,20 @@ description: Você pode decidir quais seções de um formulário personalizado d
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 2d46a047db8117983978f1411095bc8c022abbe2
+source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1358'
 ht-degree: 0%
 
 ---
 
 # Adicionar lógica de exibição e lógica de salto com o designer de formulário
 
-{{highlighted-preview-article-level}}
+<span class="preview">As informações nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente Produção para clientes que ativaram versões rápidas.</span>
+
+<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Para obter informações sobre a versão atual, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Você pode decidir quais seções de um formulário personalizado devem ser exibidas ou ignoradas com base nas escolhas que um usuário faz ao preenchê-lo.
 
