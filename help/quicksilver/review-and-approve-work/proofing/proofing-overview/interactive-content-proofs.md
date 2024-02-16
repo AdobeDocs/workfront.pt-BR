@@ -6,7 +6,7 @@ description: O conteúdo interativo fornece vários métodos para envolver visua
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fdcad9c6-5508-476a-bfb8-2fe3bfbb007b
-source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Ao reunir o conteúdo interativo em um arquivo ZIP para comprovação, certifiqu
 
 Depois de preparar o arquivo de pacote ZIP, crie uma prova interativa.
 
-Para obter mais informações, consulte [Criar uma prova para conteúdo interativo em um arquivo ZIP](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md).
+Para obter mais informações, consulte [Criar uma prova para conteúdo interativo em um arquivo ZIP](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 
 Ou, se estiver usando o Workfront Proof, consulte a seção [Gerar uma prova para conteúdo interativo](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content) no artigo [Gerar provas no Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 

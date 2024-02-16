@@ -9,9 +9,9 @@ description: Uma conexão deve atender aos requisitos definidos pela API do apli
 author: Becky
 feature: Workfront Fusion
 exl-id: fb1a2af4-da58-48ba-85b5-1903d6a3ceda
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ As seguintes circunstâncias exigem etapas adicionais na criação de uma conex�
 
 * Conexão com o [!DNL Microsoft Graph API] usando um [!UICONTROL HTTP] módulo
 
-  Para obter instruções, consulte [Chame o [!DNL MS Graph REST API] por meio da [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Fazer uma solicitação do OAuth 2.0] módulo](../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md).
+  Para obter instruções, consulte [Chame o [!DNL MS Graph REST API] por meio da [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Fazer uma solicitação do OAuth 2.0] módulo](../../workfront-fusion/connections/call-the-ms-graph-rest-api.md).
 
 ## Conectar-se a um [!DNL Google] aplicativo ou serviço da web
 
@@ -147,7 +147,7 @@ Os aplicativos a seguir não seguem a configuração básica para [!DNL Workfron
    <td><a href="../../workfront-fusion/apps-and-their-modules/docusign-modules.md#connect" class="MCXref xref">Conectar [!DNL DocuSign] para [!DNL Workfront Fusion]</a> in <a href="../../workfront-fusion/apps-and-their-modules/docusign-modules.md" class="MCXref xref">[!DNL DocuSign] módulos</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>email</p> </td> 
+   <td role="rowheader"> <p>Email</p> </td> 
    <td><a href="../../workfront-fusion/apps-and-their-modules/email-modules.md#connecti" class="MCXref xref">Conectar seu email ao [!DNL Workfront Fusion]</a> in <a href="../../workfront-fusion/apps-and-their-modules/email-modules.md" class="MCXref xref">[!UICONTROL Email] módulos</a></td>
 
 <tr> 

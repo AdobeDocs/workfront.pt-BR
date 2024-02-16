@@ -2,24 +2,24 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: Criar uma iteração
-description: As iterações são um componente essencial para as equipes ágeis do Scrum no planejamento da capacidade de trabalho. [!DNL Adobe Workfront] O permite que equipes ágil do Scrum gerenciem seu trabalho criando várias iterações para acomodar as necessidades da equipe.
+description: As iterações são um componente essencial para as equipes ágeis de Scrum no planejamento da capacidade de trabalho. [!DNL Adobe Workfront] O permite que as equipes ágeis do Scrum gerenciem seu trabalho criando várias iterações para acomodar as necessidades da equipe.
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 6f817ca39c7489b85673ff601faf440fe51ab72c
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
 
 # Criar uma iteração
 
-As iterações são um componente essencial para as equipes ágeis do Scrum no planejamento da capacidade de trabalho. [!DNL Adobe Workfront] O permite que equipes ágil do Scrum gerenciem seu trabalho criando várias iterações para acomodar as necessidades da equipe.
+As iterações são um componente essencial para as equipes ágeis de Scrum no planejamento da capacidade de trabalho. [!DNL Adobe Workfront] O permite que as equipes ágeis do Scrum gerenciem seu trabalho criando várias iterações para acomodar as necessidades da equipe.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,7 +29,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
@@ -38,15 +38,15 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano ou tipo de licença você possui, entre em contato com seu [!DNL Workfront] administrador.
+&#42;Para saber que tipo de plano ou licença você tem, entre em contato com o [!DNL Workfront] administrador.
 
 ## Adicionar uma iteração
 
-Use o [!UICONTROL Adicionar iteração] para criar rapidamente uma iteração e adicionar tarefas e problemas posteriormente.
+Use o [!UICONTROL Adicionar iteração] recurso para criar rapidamente uma iteração e adicionar tarefas e problemas posteriormente.
 
-1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront], depois clique em **[!UICONTROL Equipes]**.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Equipes]**.
 
-1. (Opcional) Clique no botão **[!UICONTROL Alterar equipe]** ícone ![Ícone Alternar equipe](assets/switch-team-icon.png)e, em seguida, selecione uma nova equipe de Soma no menu suspenso ou procure por uma equipe na barra de pesquisa.
+1. (Opcional) Clique no link **[!UICONTROL Trocar equipe]** ícone ![Ícone Trocar equipe](assets/switch-team-icon.png), selecione uma nova equipe do Scrum no menu suspenso ou procure uma equipe na barra de pesquisa.
 
 1. No **[!UICONTROL Iterações]** clique em **[!UICONTROL Adicionar iteração]**.\
    ![](assets/add-iteration-adobe-350x275.png)
@@ -58,43 +58,43 @@ Use o [!UICONTROL Adicionar iteração] para criar rapidamente uma iteração e 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Nome da iteração]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Nome da Iteração]</strong></td> 
       <td>Insira o nome da iteração.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Objetivo]</strong></td> 
-      <td>Adicione quaisquer metas que você tiver para a iteração.</td> 
+      <td role="rowheader"><strong>[!UICONTROL Meta]</strong></td> 
+      <td>Adicione metas à iteração.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Data de início]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Data de Início]</strong></td> 
       <td>Insira a data em que a iteração deve começar.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Data final]</strong></td> 
-      <td><p>Insira a data em que a iteração deve terminar. [!DNL Workfront] A recomenda definir uma data final que não exceda 4 semanas a partir da data de início.</p><p>Dica: Escolha um dia útil como data de término. O gráfico de detalhamento usa somente dias úteis em seus cálculos.<br>Por padrão, o gráfico de detalhamento usa o agendamento padrão para definir dias úteis (conforme descrito em <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Criar um agendamento</a>). Ou, para incorporar dias não úteis específicos da equipe, as equipes ágeis podem optar por usar um agendamento alternativo (conforme descrito em "Definindo um Agendamento de Equipe Alternativo para Gráficos de Desativação" em <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Criar uma equipe ágil</a>).</p></td> 
+      <td role="rowheader"><strong>[!UICONTROL Data de Término]</strong></td> 
+      <td><p>Insira a data em que a iteração deve terminar. [!DNL Workfront] A recomenda definir uma data de término não superior a 4 semanas a partir da data de início.</p><p>Dica: certifique-se de escolher um dia útil como a data final. O gráfico de burndown usa apenas dias úteis em seus cálculos.<br>Por padrão, o gráfico de burndown usa a programação padrão para definir dias úteis (conforme descrito em <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Criar um agendamento</a>). Ou, para incorporar dias não úteis específicos da equipe, as equipes ágeis podem optar por usar uma programação alternativa (conforme descrito em "Definindo uma Programação de Equipe Alternativa para Gráficos de Burndown" em <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Criar uma equipe ágil</a>).</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Capacity]</strong></td> 
-      <td> Especifique a capacidade da iteração. Esse é o número de pontos ou horas que sua equipe é capaz de realizar na iteração. O número inserido deve ser igual ou maior ao número de pontos ou horas a partir da soma de todas as histórias na iteração.<br>[!DNL Workfront] preenche este campo com 50 capacidades por padrão. </td> 
+      <td role="rowheader"><strong>[!UICONTROL Capacidade]</strong></td> 
+      <td> Especifique a capacidade da iteração. Este é o número de pontos ou horas que sua equipe consegue completar na iteração. O número inserido deve ser igual ou maior que o número de pontos ou horas a partir da soma de todas as histórias na iteração.<br>[!DNL Workfront] O preenche esse campo previamente com 50 caracteres por padrão. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Focus]</strong></td> 
-      <td>Especifique a porcentagem de foco da equipe. Se todos os membros da equipe se concentrarem completamente nessa iteração, o foco será 100%.<br>[!DNL Workfront] preenche este campo com 100% por padrão. </td> 
+      <td role="rowheader"><strong>[!UICONTROL Foco]</strong></td> 
+      <td>Especificar a porcentagem de foco da equipe. Se todos os membros da equipe estiverem totalmente focados nessa iteração, o foco será 100%.<br>[!DNL Workfront] O preenche esse campo previamente com 100% por padrão. </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Clique em **[!UICONTROL Enviar]**. Agora que você criou uma iteração, você precisa adicionar histórias. Para obter mais informações, consulte [Adicionar histórias a uma iteração existente](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+1. Clique em **[!UICONTROL Enviar]**. Agora que você criou uma iteração, é necessário adicionar histórias. Para obter mais informações, consulte [Adicionar histórias a uma iteração existente](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
 ## Planejar uma iteração no [!UICONTROL Backlog] guia
 
-Use o [!UICONTROL Planejar Iteração] para criar uma iteração usando tarefas em seu backlog.
+Use o [!UICONTROL Planejar iteração] recurso para criar uma iteração usando tarefas em seu backlog.
 
-1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront], depois clique em **[!UICONTROL Equipes]**.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront]e, em seguida, clique em **[!UICONTROL Equipes]**.
 
-1. (Opcional) Clique no botão **[!UICONTROL Alterar equipe]** ícone ![Ícone Alternar equipe](assets/switch-team-icon.png)e, em seguida, selecione uma nova equipe de Soma no menu suspenso ou procure por uma equipe na barra de pesquisa.
+1. (Opcional) Clique no link **[!UICONTROL Trocar equipe]** ícone ![Ícone Trocar equipe](assets/switch-team-icon.png), selecione uma nova equipe do Scrum no menu suspenso ou procure uma equipe na barra de pesquisa.
 
-1. Selecionar **[!UICONTROL Backlog]** no painel esquerdo. Em seguida, clique em **[!UICONTROL Planejar Iteração]**.
+1. Selecionar **[!UICONTROL Backlog]** no painel esquerdo. Em seguida, clique em **[!UICONTROL Planejar iteração]**.
 
 1. Especifique as seguintes informações:
 
@@ -103,40 +103,40 @@ Use o [!UICONTROL Planejar Iteração] para criar uma iteração usando tarefas 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Nome da iteração]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Nome da Iteração]</strong></td> 
       <td>Especifique um nome para a iteração.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Data de início]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Data de Início]</strong></td> 
       <td> Especifique a data em que a iteração deve começar.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Data final]</strong> </td> 
-      <td><p>Especifique a data em que a iteração deve terminar. [!DNL Workfront] A recomenda definir uma data final que não exceda 4 semanas a partir da data de início.</p><p>Dica: Escolha um dia útil como data de término. O gráfico de detalhamento usa somente dias úteis em seus cálculos.<br>Por padrão, o gráfico de detalhamento usa o agendamento padrão para definir dias úteis (conforme descrito em <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Criar um agendamento</a>). Ou, para incorporar dias não úteis específicos da equipe, as equipes ágeis podem optar por usar um agendamento alternativo (conforme descrito em <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md" class="MCXref xref">Usar uma programação de equipe alternativa para gráficos de detalhamento</a>).</p></td> 
+      <td role="rowheader"><strong>[!UICONTROL Data de Término]</strong> </td> 
+      <td><p>Especifique a data em que a iteração deve terminar. [!DNL Workfront] A recomenda definir uma data de término não superior a 4 semanas a partir da data de início.</p><p>Dica: certifique-se de escolher um dia útil como a data final. O gráfico de burndown usa apenas dias úteis em seus cálculos.<br>Por padrão, o gráfico de burndown usa a programação padrão para definir dias úteis (conforme descrito em <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Criar um agendamento</a>). Ou, para incorporar dias não úteis específicos da equipe, as equipes ágeis podem optar por usar uma programação alternativa (conforme descrito em <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">Usar uma programação de equipe alternativa para gráficos de burndown</a>).</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Focus]</strong></td> 
-      <td>Especifique a porcentagem de foco da equipe. Se todos os membros da equipe se concentrarem completamente nessa iteração, o foco será 100%.<br>[!DNL Workfront] preenche este campo com o valor médio das iterações anteriores da sua equipe. Se esta for a primeira iteração da sua equipe, esse valor de campo será 0 por padrão.</td> 
+      <td role="rowheader"><strong>[!UICONTROL Foco]</strong></td> 
+      <td>Especificar a porcentagem de foco da equipe. Se todos os membros da equipe estiverem totalmente focados nessa iteração, o foco será 100%.<br>[!DNL Workfront] O preenche esse campo com o valor médio das iterações anteriores da equipe. Se esta for a primeira iteração da sua equipe, o valor deste campo será 0 por padrão.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><br><strong>[!UICONTROL Capacity]</strong></td> 
-      <td> Especifique a capacidade da iteração. Esse é o número de pontos ou horas que sua equipe é capaz de realizar na iteração. O número inserido deve ser igual ou maior ao número de pontos ou horas a partir da soma de todas as histórias na iteração.<br>[!DNL Workfront] preenche este campo com o valor médio das iterações anteriores da sua equipe. Se esta for a primeira iteração da sua equipe, esse valor de campo será 0 por padrão.</td> 
+      <td role="rowheader"><br><strong>[!UICONTROL Capacidade]</strong></td> 
+      <td> Especifique a capacidade da iteração. Este é o número de pontos ou horas que sua equipe consegue completar na iteração. O número inserido deve ser igual ou maior que o número de pontos ou horas a partir da soma de todas as histórias na iteração.<br>[!DNL Workfront] O preenche esse campo com o valor médio das iterações anteriores da equipe. Se esta for a primeira iteração da sua equipe, o valor deste campo será 0 por padrão.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><br><strong>[!UICONTROL Objetivo]</strong></td> 
+      <td role="rowheader"><br><strong>[!UICONTROL Meta]</strong></td> 
       <td> Especifique uma meta para a iteração. Este campo não é obrigatório.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Opcional) Selecione histórias para adicioná-las à iteração agora ou ignore esta etapa e adicione histórias a uma iteração posteriormente. As histórias no topo do backlog têm prioridade mais alta. As histórias são destacadas em verde quando se encaixam na capacidade; são realçadas em vermelho, caso contrário.\
-   Você pode adicionar tarefas e problemas a uma única iteração:
+1. (Opcional) Selecione matérias para adicioná-las à iteração agora, ou ignore esta etapa e adicione matérias a uma iteração posteriormente. As histórias no topo do backlog têm prioridade mais alta. As histórias são destacadas em verde quando se encaixam na capacidade; se não se encaixarem, elas são destacadas em vermelho.\
+   É possível adicionar tarefas e problemas a uma única iteração:
 
-   * **Para adicionar tarefas à iteração:** No **[!UICONTROL Backlog]** verifique se a variável **[!UICONTROL Histórias]** é selecionada (esta guia é selecionada por padrão ao visualizar o backlog). Selecione as histórias que deseja adicionar à iteração.\
+   * **Para adicionar tarefas à iteração:** No **[!UICONTROL Backlog]** , verifique se **[!UICONTROL Histórias]** for selecionada (essa guia é selecionada por padrão ao visualizar o backlog). Selecione as matérias que deseja adicionar à iteração.\
 
-      Quando você adiciona tarefas a uma iteração, a data de início da tarefa é calculada conforme descrito em [[!UICONTROL Entender] como as datas de início de tarefa são calculadas quando adicionadas a uma iteração](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+     Ao adicionar tarefas a uma iteração, a data de início da tarefa é calculada conforme descrito em [[!UICONTROL Compreender] como as datas de início da tarefa são calculadas quando adicionadas a uma iteração](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
 
-   * **Para adicionar problemas à iteração:** No **[!UICONTROL Backlog]** clique no botão **[!UICONTROL Problemas]** guia . Selecione os problemas que deseja adicionar à iteração.
+   * **Para adicionar problemas à iteração:** No **[!UICONTROL Backlog]** clique na guia **[!UICONTROL Problemas]** guia. Selecione os problemas que deseja adicionar à iteração.
 
 1. Clique em **[!UICONTROL Salvar].**
 A iteração é criada.
@@ -145,10 +145,10 @@ A iteração é criada.
 
 ## Entender como as datas de início da tarefa são calculadas quando adicionadas a uma iteração {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}
 
-Quando você adiciona uma tarefa como uma história a uma iteração, a variável [!UICONTROL Deve terminar na tarefa] é usada para cada história. Na maioria dos casos, a data de início planejada da tarefa é calculada com base na seguinte fórmula:
+Ao adicionar uma tarefa como uma história a uma iteração, a variável [!UICONTROL Deve Terminar na tarefa] é usada para cada matéria. Na maioria dos casos, a data de início planejada da tarefa é calculada com base na seguinte fórmula:
 
-[!UICONTROL Data final da iteração] menos (-) [!UICONTROL Duração da tarefa] é igual a (=) [!UICONTROL Data de Início Planejada da Tarefa]
+[!UICONTROL Data final da iteração] menos (-) [!UICONTROL Duração da tarefa] igual a (=) [!UICONTROL Data de Início Planejada da Tarefa]
 
-O [!UICONTROL Data de Término do Projeto] é usado em vez de se a data de início do projeto for posterior à data de início da iteração e a data de término do projeto for posterior à data de término da iteração.
+A variável [!UICONTROL Data de Término do Projeto] é usada em vez de se a data de início do projeto for posterior à data de início da iteração e a data de término do projeto for posterior à data de término da iteração.
 
-Você pode configurar equipes individuais do Scrum para usar as datas do projeto por padrão, em vez das datas de iteração. Para obter mais informações, consulte a seção [Configurar como as datas são aplicadas ao adicionar itens de trabalho a uma iteração](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) no artigo [Configurar Sombra](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Você pode configurar equipes Scrum individuais para usar as datas do projeto por padrão, em vez das datas de iteração. Para obter informações, consulte a seção [Configurar como as datas são aplicadas ao adicionar itens de trabalho a uma iteração](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) no artigo [Configurar Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).

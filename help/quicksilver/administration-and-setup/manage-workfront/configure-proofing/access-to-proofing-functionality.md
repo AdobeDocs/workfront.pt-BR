@@ -9,7 +9,7 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: f670255de4826f91094060b5cc20329c54d602d6
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Atualmente, existem três opções de plano para Revisão de Texto no Workfront:
 
 Para obter informações sobre como conceder e revogar o acesso de um usuário para criar e exibir provas no Workfront, consulte [Configurar o acesso à prova de um usuário](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
 
-* Gerar provas estáticas ou interativas em URLs e documentos voltados para o exterior. Para obter mais informações, consulte [Criar provas](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md).
+* Gerar provas estáticas ou interativas em URLs e documentos voltados para o exterior. Para obter mais informações, consulte [Criar provas](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
 * Incluir fluxos de trabalho automatizados em provas. Para obter mais informações, consulte [Visão geral do fluxo de trabalho automatizado](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 * Defina as configurações de acesso e subscrições nas provas. Para obter mais informações, consulte [Definir configurações de acesso e subscrição para uma prova](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md).
 * Atribua perfis de permissão de prova personalizados ao ativar recursos de prova para um usuário no Workfront. Para obter mais informações, consulte [Habilitar e desabilitar revisões para um usuário (somente planos herdados)](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md#enabling-and-disabling-proofing-for-a-user) in [Configurar o acesso à prova de um usuário](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).

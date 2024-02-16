@@ -6,7 +6,7 @@ description: Você pode usar a extensão Workfront para exportar conteúdo digit
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '3076'
 ht-degree: 0%
@@ -285,7 +285,7 @@ Para solicitar uma aprovação em um documento de um aplicativo Adobe:
 
 ## Gerar uma prova pelo Illustrator ou InDesign {#generate-a-proof-from-illustrator-or-indesign}
 
-Se sua organização usar modelos de fluxo de trabalho automatizado, você poderá gerar uma prova para um documento criado em um aplicativo Adobe sem sair do aplicativo. Para obter informações sobre como criar provas, consulte [Criar provas](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md). Para obter informações sobre modelos de fluxo de trabalho automatizado, consulte [Modelos automatizados de fluxo de trabalho](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) in [Visão geral do fluxo de trabalho automatizado](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Se sua organização usar modelos de fluxo de trabalho automatizado, você poderá gerar uma prova para um documento criado em um aplicativo Adobe sem sair do aplicativo. Para obter informações sobre como criar provas, consulte [Criar provas](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md). Para obter informações sobre modelos de fluxo de trabalho automatizado, consulte [Modelos automatizados de fluxo de trabalho](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) in [Visão geral do fluxo de trabalho automatizado](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 1. Abra um dos aplicativos de Adobe compatíveis.
 1. Se a extensão do Workfront não for exibida, clique em **Janela** > **Extensões** > Workfront.
