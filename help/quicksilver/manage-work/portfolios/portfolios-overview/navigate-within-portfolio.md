@@ -6,7 +6,7 @@ description: Navegar em um portfólio
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    * **[!UICONTROL Todos]**: inclui todos os portfólios para os quais você tem pelo menos acesso à Exibição.\
 
      Para obter mais informações sobre o acesso ao Portfolio, consulte [Visão geral dos níveis de acesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
-      Para obter mais informações sobre permissões para Portfolio, consulte  [Compartilhar um portfólio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+      Para obter mais informações sobre permissões para Portfolio, consulte  [Compartilhar um portfólio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
      Para adicionar novos portfólios, consulte [Criar um portfólio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
