@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Adicionar um campo personalizado a um formulário personalizado com o construtor de formulários herdado
 description: Quando estiver trabalhando em um formulário personalizado, você pode criar um novo campo personalizado e adicioná-lo a um formulário personalizado. Você também pode adicionar um campo personalizado que já foi adicionado a outro formulário personalizado.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
+source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
 workflow-type: tm+mt
-source-wordcount: '2305'
+source-wordcount: '2335'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>plano do Adobe Workfront*</p> </td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -89,7 +89,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
       Esse tipo de campo oferece suporte aos seguintes objetos:
       <ul><li>Usuário</li>
       <li>Grupo</li>
-      <li>Função de trabalho</li>
+      <li>Função no trabalho</li>
       <li>Portfólio</li>
       <li>Programa</li>
       <li>Projeto</li>
@@ -165,6 +165,8 @@ Você deve ter o seguinte para executar as etapas deste artigo:
    <p><strong>Exemplo:</strong> Se você salvar um valor numérico para um campo com formato de Texto em pelo menos um objeto e depois alterar o formato para Número ou Moeda, não ocorrerá erro. </p>
       <p>No entanto, se você salvar um valor alfanumérico em um campo com formato Texto em pelo menos um objeto e tentar alterar o formato para Número ou Moeda, você encontrará um erro porque o valor alfanumérico salvo não é compatível com os formatos Número ou Moeda. </p>
 
+   <p><strong>Nota:</strong> O limite de caracteres para campos de Número é de 16. Você também pode usar um campo Texto para inserir números e evitar o limite.</p>
+
    </td> 
      </tr> 
      <tr> 
@@ -181,7 +183,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">Tipo de objeto referenciado</td> 
-      <td> <p>(Somente campos de digitação antecipada) Selecione o tipo de objeto que deseja associar ao campo.</p> <p>Depois de clicar em Aplicar ou Salvar+Fechar, não é possível alterar o tipo de objeto do campo.</p> <p><b>Nota</b>:   
+      <td> <p>(Somente campos de digitação antecipada) Selecione o tipo de objeto que deseja associar ao campo.</p> <p>Depois de clicar em Aplicar ou Salvar+Fechar, não é possível alterar o tipo de objeto do campo.</p> <p><b>NOTA</b>:   
         <ul> 
          <li>Se o administrador do Workfront personalizou o nome de Portfolio, Programas ou Projetos na interface do usuário do Workfront, o nome padrão do Workfront para o objeto será exibido nessa lista suspensa, não no nome personalizado. Consulte o administrador do Workfront se precisar de ajuda com isso.<br></li> 
          <li>Os seguintes tipos de objeto são compatíveis com os aplicativos móveis Workfront para iOS e Android: usuário, empresa, grupo, função de trabalho, Portfolio, programa, projeto e modelo.</li> 
@@ -194,7 +196,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
         <li>Eles pertencem a um ou mais grupos especificados por você</li> 
         <li>Eles estão associados a uma função ou a um cargo especificado por você</li> 
         <li>Eles pertencem ao mesmo grupo que a pessoa que está usando o campo</li> 
-       </ul> <p>Você deve definir o filtro para o tipo de objeto selecionado usando a sintaxe do Modo de texto. Para obter informações sobre como criar um filtro usando o Modo de texto, consulte a seção <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">Modo de edição de texto em um filtro</a> no artigo <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Visão geral do modo de texto</a>. </p> <p><b>Nota</b>:   
+       </ul> <p>Você deve definir o filtro para o tipo de objeto selecionado usando a sintaxe do Modo de texto. Para obter informações sobre como criar um filtro usando o Modo de texto, consulte a seção <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">Modo de edição de texto em um filtro</a> no artigo <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Visão geral do modo de texto</a>. </p> <p><b>NOTA</b>:   
         <ul> 
          <li>Se você estiver editando um formulário personalizado existente, adicionar um filtro a um campo Digitação antecipada não removerá nenhum objeto (fora do escopo do filtro) que os usuários já tenham adicionado usando o campo.</li> 
          <li>Este filtro não está disponível em dispositivos móveis. Se você usar o filtro para um campo Digitação antecipada, o campo aparecerá nos dispositivos móveis dos usuários não afetados pelo filtro.</li> 

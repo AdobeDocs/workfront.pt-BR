@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d5b4531be831356f81880d9f6c90f472bbc8a6ed
+source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
 workflow-type: tm+mt
-source-wordcount: '5105'
+source-wordcount: '5171'
 ht-degree: 3%
 
 ---
@@ -200,6 +200,7 @@ Para adicionar um campo de texto:
     <ul> 
     <li>Este campo não pode ser editado depois que o formulário é salvo. Se você pretende usar seu campo em cálculos matemáticos, certifique-se de selecionar um formato de Número ou Moeda.</li> 
     <li>Ao selecionar Número ou Moeda, o sistema trunca automaticamente os números que começam com 0.</li>
+    <li>O limite de caracteres para campos de Número é de 16. Você também pode usar um campo Texto para inserir números e evitar o limite.</li>
      </ul></p></td> </td>
     <td><ul>
     <li>Texto de linha única</li>
@@ -317,6 +318,7 @@ Para adicionar botões de opção e caixas de seleção:
      <ul> 
     <li>Este campo não pode ser editado depois que o formulário é salvo. Se você pretende usar seu campo em cálculos matemáticos, certifique-se de selecionar um formato de Número ou Moeda.<br></li> 
     <li>Ao selecionar Número ou Moeda, o sistema trunca automaticamente os números que começam com 0.</li>
+    <li>O limite de caracteres para campos de Número é de 16. Você também pode usar um campo Texto para inserir números e evitar o limite.</li>
      </ul></p></td> 
      <td><ul>
     <li>Botões de seleção</li>
@@ -537,7 +539,9 @@ Para adicionar uma pesquisa externa:
       <td><p>Selecione o tipo de dados que será capturado no campo personalizado.</p>
       <p><strong>NOTA:</strong></p>
       <ul><li>É possível alterar o tipo de formato depois que o formulário é salvo, com uma limitação: todos os valores existentes em objetos devem poder ser convertidos para o novo tipo. (Por exemplo, se o tipo de formato for Texto e um objeto estiver armazenando o valor "abc", você não poderá converter o campo e receberá um erro de que o sistema não poderá converter "abc" em número/moeda.) Se você pretende usar seu campo em cálculos matemáticos, certifique-se de selecionar um formato de Número ou Moeda.</li>
-      <li>Ao selecionar Número ou Moeda, o sistema trunca automaticamente os números que começam com 0.</li></ul></td>
+      <li>Ao selecionar Número ou Moeda, o sistema trunca automaticamente os números que começam com 0.</li>
+      <li>O limite de caracteres para campos de Número é de 16. Você também pode usar um campo Texto para inserir números e evitar o limite.</li>
+      </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">URL da API base</td> 
