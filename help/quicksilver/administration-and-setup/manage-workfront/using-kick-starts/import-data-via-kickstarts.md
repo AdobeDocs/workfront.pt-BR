@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 22c8f41f725784e348c44b209b9bc1537b26c952
 workflow-type: tm+mt
-source-wordcount: '2780'
+source-wordcount: '2725'
 ht-degree: 6%
 
 ---
@@ -51,11 +51,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Você deve ser um administrador do Workfront.</p> <p><b>NOTA</b>:</p> 
-   <p> Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td>Você deve ser um administrador do Workfront. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Limitação
 
@@ -200,27 +201,9 @@ Para exportar um modelo do Kickstart:
      </tr>
 
    <tr> 
-      <td>Conjuntos de recursos legados</td> 
-      <td>Exporta como arquivo do Excel</td> 
-      <td> <p> Conjuntos de recursos legados</p> <p>Preferências </p> </td> 
-     </tr>
-
-   <tr> 
       <td>Caminho de Etapas</td> 
       <td> Exporta como arquivo do Excel</td> 
       <td> <p> Etapa</p> <p>Caminho de Etapas</p> <p>Preferências </p> </td> 
-     </tr>
-
-   <tr> 
-      <td>Recurso não mão de obra</td> 
-      <td> Exporta como arquivo do Excel</td> 
-      <td> <p> Recurso não mão de obra</p> <p>Preferências</p></td> 
-     </tr>
-
-   <tr> 
-      <td>Categoria de recurso não mão de obra</td> 
-      <td> Exporta como arquivo do Excel</td> 
-      <td> <p> Categoria de recurso não mão de obra</p> <p>Preferências</p></td> 
      </tr>
 
    <tr> 
@@ -471,7 +454,7 @@ Embora seja uma prática recomendada usar IDs sempre que possível, às vezes é
 
 ## Importar os dados da planilha para o Workfront
 
-Depois de preencher o modelo do Excel com seus dados, você pode carregá-los no Workfront.
+Depois de preencher o modelo do Excel com seus dados, você pode fazer upload dos dados no Workfront.
 
 A importação do Kickstart suporta os seguintes tipos de arquivos:
 
@@ -485,17 +468,17 @@ A importação do Kickstart suporta os seguintes tipos de arquivos:
   >* Relatórios
   >* Documentos
   >* Avatares
-  >* Visualizar, filtrar ou agrupar arquivos de propriedade.
+  >* Visualizar, filtrar ou agrupar arquivos de propriedade
   >
   >Ao usar um arquivo de importação compactado, o arquivo .ZIP deve ter o mesmo nome do arquivo .xlsx ou .xls e todos os arquivos devem estar no mesmo nível de estrutura (sem pastas).
 
 Para importar os dados da planilha do modelo para o Workfront:
 
-{{step-1-to-setup}}
-
 <!--1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).-->
 
-1. Clique em **Sistema** >**Importar dados (Kick-Starts)**.
+{{step-1-to-setup}}
+
+1. Clique em **Sistema** > **Importar dados (Kick-Starts)**.
 
 1. No **Carregar dados com a planilha do Kickstart** clique em **Escolher arquivo**, em seguida, navegue até a planilha preenchida e selecione-a.
 
