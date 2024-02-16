@@ -9,7 +9,7 @@ description: Em um [!DNL Adobe Workfront Fusion] cenário, é possível automati
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 94ebd79a566ca946944339e3a5c1df9b3d2d2608
+source-git-commit: 614fd206ea2c5fe103beb5be8f5ff99c8a45a502
 workflow-type: tm+mt
 source-wordcount: '3099'
 ht-degree: 0%
@@ -102,7 +102,7 @@ Você pode criar uma conexão com o seu [!DNL Workfront Proof] conta diretamente
                 <td>Digite a senha do [!DNL Workfront Proof] conta.</td>
             </tr>
             <tr>
-                <td  role="rowheader">[!UICONTROL Nome do Locatário]</td>
+                <td  role="rowheader">[!UICONTROL ID de Locatário]</td>
                 <td><strong>Nota</strong>: os clientes que não usam BYOK devem deixar esse campo em branco. <p>Insira a ID do locatário para esta conta. Se precisar de ajuda para encontrar sua ID de locatário, entre em contato com o Suporte ao cliente da Workfront.</p></td>
             </tr>
             <tr>
