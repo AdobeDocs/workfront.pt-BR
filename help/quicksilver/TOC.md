@@ -3,7 +3,7 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: 321bc9e190916d417f2b981bb273bb2d01931540
 workflow-type: tm+mt
 source-wordcount: '13950'
 ht-degree: 1%
@@ -275,12 +275,12 @@ ht-degree: 1%
             * [20.3 Integração e melhorias móveis](product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md)
             * [20.3 outras melhorias](product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md)
          * versão 20.2 {#release-20-2}
-            * [Visão geral da versão 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md)
-            * [Aprimoramentos do Mobile 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020.2-mobile-enhancements.md)
-            * [Outras melhorias do 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020.2-other-enhancements.md)
-            * [Aprimoramentos no projeto 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020.2-project-enhancements.md)
-            * [Aprimoramentos de revisão 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020.2-proofing-enhancements.md)
-            * [Melhorias no gerenciamento de recursos 2020.2: o balanceador de carga de trabalho](product-announcements/product-releases/2020.2.-release-activity/2020.2-resource-management.md)
+            * [Visão geral da versão 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md)
+            * [Aprimoramentos do Mobile 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020-2-mobile-enhancements.md)
+            * [Outras melhorias do 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020-2-other-enhancements.md)
+            * [Aprimoramentos no projeto 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020-2-project-enhancements.md)
+            * [Aprimoramentos de revisão 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020-2-proofing-enhancements.md)
+            * [Melhorias no gerenciamento de recursos 2020.2: o balanceador de carga de trabalho](product-announcements/product-releases/2020.2.-release-activity/2020-2-resource-management.md)
          * versão 20.1 {#release-20-1}
             * [Visão geral da versão 2020.1](product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)
             * [Aprimoramentos na lista 2020.1](product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md)
@@ -291,12 +291,12 @@ ht-degree: 1%
             * [Aprimoramentos no gerenciamento de recursos 2020.1](product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md)
             * [Outros recursos do Workfront Classic lançados para produção antes da versão 2020.1](product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md)
          * Versão 2019.4 {#release-19-4}
-            * [Visão geral da versão 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md)
-            * [Aprimoramentos na lista 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-list-enhancements.md)
-            * [Aprimoramentos do Mobile 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-mobile-enhancements.md)
-            * [Outras melhorias do 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-other-enhancements.md)
-            * [Melhorias no gerenciamento de recursos do 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-resource-management-enhancements.md)
-            * [Outros recursos do Workfront Classic lançados para produção antes da versão 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/other-workfront-classic-features-prior-to-19.4.md)
+            * [Visão geral da versão 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md)
+            * [Aprimoramentos na lista 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md)
+            * [Aprimoramentos do Mobile 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md)
+            * [Outras melhorias do 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md)
+            * [Melhorias no gerenciamento de recursos do 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md)
+            * [Outros recursos do Workfront Classic lançados para produção antes da versão 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/other-workfront-classic-features-prior-to-19-4.md)
          * Versão 2019.3 {#release-19-3}
             * [Visão geral da atividade da versão 2019.3](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md)
             * [Melhorias no planejamento de recursos do 2019.3](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-resource-planning-enhancements.md)
