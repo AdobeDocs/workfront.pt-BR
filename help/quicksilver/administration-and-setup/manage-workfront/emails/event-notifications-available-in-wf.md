@@ -8,9 +8,9 @@ author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: d177f884a8754d0ced3d9c5d6f44c1b4964f1629
+source-git-commit: 738286fdcd19d1db648da220778d1041a0010cff
 workflow-type: tm+mt
-source-wordcount: '5087'
+source-wordcount: '5127'
 ht-degree: 8%
 
 ---
@@ -75,7 +75,7 @@ Consulte também [Notificações: ação necessária](../../../workfront-basics/
    <td> <p>Problema</p> </td> 
    <td> <p>Atribuição de problema</p> </td> 
    <td> <p>Usuário ao qual o problema está atribuído</p> </td> 
-   <td> <p>Quando um problema for atribuída, enviar email para o usuário atribuído.</p> <p>O destinatário da ocorrência recebe uma notificação por email somente se o status do projeto for Atual e o status da ocorrência não for Fechado ou algo que equivale a Fechado.</p> <p>Os usuários com uma licença de Revisão ou Solicitação não recebem uma notificação.</p> </td> 
+   <td> <p>Quando um problema for atribuída, enviar email para o usuário atribuído.</p> <p>O destinatário da ocorrência recebe uma notificação por email somente se o status do projeto for Atual e o status da ocorrência não for Fechado ou algo que equivale a Fechado.</p> <p>Os usuários com uma licença Light, Contributor, Review ou Request não recebem uma notificação.</p> </td> 
    <td> <p>Inativo</p> </td> 
   </tr> 
   <tr> 
@@ -110,7 +110,7 @@ Consulte também [Notificações: ação necessária](../../../workfront-basics/
    <td> <p>Tarefa</p> </td> 
    <td> <p>Atribuição de tarefa</p> </td> 
    <td> <p>Usuário ao qual a tarefa está atribuída</p> </td> 
-   <td> <p>Quando uma atribuição primária de uma tarefa for alterada, enviar email para o usuário mais recente atribuído.</p> <p>O Destinatário da tarefa receberá uma notificação por e-mail se for o principal destinatário da tarefa, a menos que o destinatário seja o usuário que fez a atribuição.</p> <p>Uma notificação será enviada se o status do projeto for Atual e a tarefa não estiver marcada como Concluída.</p> <p>Os usuários com uma licença de revisão não recebem uma notificação.</p> </td> 
+   <td> <p>Quando uma atribuição primária de uma tarefa for alterada, enviar email para o usuário mais recente atribuído.</p> <p>O Destinatário da tarefa receberá uma notificação por e-mail se for o principal destinatário da tarefa, a menos que o destinatário seja o usuário que fez a atribuição.</p> <p>Uma notificação será enviada se o status do projeto for Atual e a tarefa não estiver marcada como Concluída.</p> <p>Os usuários com uma licença Light ou Review não recebem uma notificação.</p> </td> 
    <td> <p>Inativo</p> </td> 
   </tr> 
   <tr> 
@@ -131,14 +131,14 @@ Consulte também [Notificações: ação necessária](../../../workfront-basics/
    <td> <p>Planilha de horas</p> </td> 
    <td> <p>Planilha de horas reaberta</p> </td> 
    <td> <p>Usuário ao qual a folha de horas pertence</p> </td> 
-   <td> <p>Minha planilha de horas foi reaberta.</p> <p>O Proprietário da folha de horas recebe uma notificação por email quando a folha de horas é reaberta, a menos que o usuário que a reabriu também seja o proprietário da folha de horas.</p> <p>Uma notificação por email é enviada somente se o status da folha de horas for Aberto.</p> <p>Os usuários com uma licença de revisão não recebem uma notificação.</p> </td> 
+   <td> <p>Minha planilha de horas foi reaberta.</p> <p>O Proprietário da folha de horas recebe uma notificação por email quando a folha de horas é reaberta, a menos que o usuário que a reabriu também seja o proprietário da folha de horas.</p> <p>Uma notificação por email é enviada somente se o status da folha de horas for Aberto.</p> <p>Os usuários com uma licença Light ou Review não recebem uma notificação.</p> </td> 
    <td> <p>Inativo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Planilha de horas</p> </td> 
    <td> <p>Rejeição de Planilha de Horas</p> </td> 
    <td> <p>Usuário ao qual a folha de horas pertence</p> </td> 
-   <td> <p>Minha planilha de horas foi rejeitada.</p> <p>O Proprietário da folha de horas recebe uma notificação por email quando a folha de horas é rejeitada, a menos que o usuário que a rejeitou também seja o proprietário.</p> <p>Uma notificação por e-mail será enviada somente se o status da folha de horas for Rejeitada.</p> <p>Os usuários com uma licença de revisão não recebem uma notificação.</p> </td> 
+   <td> <p>Minha planilha de horas foi rejeitada.</p> <p>O Proprietário da folha de horas recebe uma notificação por email quando a folha de horas é rejeitada, a menos que o usuário que a rejeitou também seja o proprietário.</p> <p>Uma notificação por e-mail será enviada somente se o status da folha de horas for Rejeitada.</p> <p>Os usuários com uma licença Light ou Review não recebem uma notificação.</p> </td> 
    <td> <p>Inativo</p> </td> 
   </tr> 
   <tr> 
@@ -152,14 +152,14 @@ Consulte também [Notificações: ação necessária](../../../workfront-basics/
    <td> <p>Atribuição</p> </td> 
    <td> <p>Solicitação de item de trabalho</p> </td> 
    <td> <p>Membros da equipe para a qual o item é solicitado</p> </td> 
-   <td> <p>Minha equipe recebe uma nova solicitação de trabalho.</p> <p>Os membros da equipe recebem uma notificação por e-mail quando a equipe recebe uma nova solicitação de trabalho. (O usuário que enviou a solicitação não recebe uma notificação se for membro da equipe.)</p> <p>Uma notificação é enviada somente se o status do projeto for Atual no momento em que a Solicitação de trabalho é feita e o status da Solicitação de trabalho for Novo.</p> <p>Os usuários com uma licença de revisão não recebem uma notificação.</p> </td> 
+   <td> <p>Minha equipe recebe uma nova solicitação de trabalho.</p> <p>Os membros da equipe recebem uma notificação por e-mail quando a equipe recebe uma nova solicitação de trabalho. (O usuário que enviou a solicitação não recebe uma notificação se for membro da equipe.)</p> <p>Uma notificação é enviada somente se o status do projeto for Atual no momento em que a Solicitação de trabalho é feita e o status da Solicitação de trabalho for Novo.</p> <p>Os usuários com uma licença Light ou Review não recebem uma notificação.</p> </td> 
    <td> <p>Ativo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Atribuição</p> </td> 
    <td> <p>Solicitação de item de trabalho</p> </td> 
    <td> <p>Usuário para o qual o item de trabalho é solicitado</p> </td> 
-   <td> <p>Eu recebo uma nova requisição de trabalho.</p> <p>O destinatário do item de trabalho recebe uma notificação por email, a menos que o usuário que faz a solicitação também seja o destinatário. </p> <p>Uma notificação não será enviada se o status da tarefa for Concluído ou se o status do problema for Fechado.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual no momento da solicitação.</p> <p>Os usuários com uma licença de revisão não recebem uma notificação.</p> </td> 
+   <td> <p>Eu recebo uma nova requisição de trabalho.</p> <p>O destinatário do item de trabalho recebe uma notificação por email, a menos que o usuário que faz a solicitação também seja o destinatário. </p> <p>Uma notificação não será enviada se o status da tarefa for Concluído ou se o status do problema for Fechado.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual no momento da solicitação.</p> <p>Os usuários com uma licença Light ou Review não recebem uma notificação.</p> </td> 
    <td> <p>Ativo</p> </td> 
   </tr> 
  </tbody> 
@@ -441,35 +441,35 @@ Consulte também [Notificações: Informações sobre o trabalho atribuído a mi
    <td>Tarefa</td> 
    <td>Conclusão de todas as tarefas predecessoras</td> 
    <td>Membros da equipe atribuídos a tarefas dependentes</td> 
-   <td> <p>Todos os predecessores das tarefas da equipe são concluídos.</p> <p>Os atribuídos à tarefa (todos os membros da equipe) recebem uma notificação por email.</p> <p>Os usuários com uma licença de revisão não recebem uma notificação.</p> </td> 
+   <td> <p>Todos os predecessores das tarefas da equipe são concluídos.</p> <p>Os atribuídos à tarefa (todos os membros da equipe) recebem uma notificação por email.</p> <p>Os usuários com uma licença Light ou Review não recebem uma notificação.</p> </td> 
    <td>Inativo</td> 
   </tr> 
   <tr> 
    <td> <p>Tarefa</p> </td> 
    <td> <p>Conclusão de todas as tarefas predecessoras</p> </td> 
    <td> <p>Usuário atribuído a tarefas dependentes</p> </td> 
-   <td> <p>Todas as predecessoras de minhas tarefas foram concluídas.</p> <p>O destinatário da tarefa recebe uma notificação por email.</p> <p>Os usuários com uma licença de revisão não recebem uma notificação.</p> </td> 
+   <td> <p>Todas as predecessoras de minhas tarefas foram concluídas.</p> <p>O destinatário da tarefa recebe uma notificação por email.</p> <p>Os usuários com uma licença Light ou Review não recebem uma notificação.</p> </td> 
    <td> <p>Inativo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problema</p> </td> 
    <td> <p>Decisão de aprovação</p> </td> 
    <td> <p>Usuário ao qual o problema está atribuído</p> </td> 
-   <td> <p>Quando um problema é aprovada ou rejeitada, envie email para o usuário atribuído.</p> <p>O destinatário de um problema recebe uma notificação por email quando uma decisão de aprovação é tomada (aprovada ou rejeitada).</p> <p>Os usuários com uma licença de revisão não recebem uma notificação.</p> </td> 
+   <td> <p>Quando um problema é aprovada ou rejeitada, envie email para o usuário atribuído.</p> <p>O destinatário de um problema recebe uma notificação por email quando uma decisão de aprovação é tomada (aprovada ou rejeitada).</p> <p>Os usuários com uma licença Light ou Review não recebem uma notificação.</p> </td> 
    <td> <p>Inativo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tarefa</p> </td> 
    <td> <p>Decisão de aprovação</p> </td> 
    <td> <p>Usuário ao qual a tarefa está atribuída</p> </td> 
-   <td> <p>Quando uma tarefa for concluída, enviar email para o usuário atribuído</p> <p>O destinatário da tarefa recebe uma notificação por e-mail quando a tarefa é aprovada ou rejeitada.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual.</p> <p>Os usuários com uma licença de revisão não recebem uma notificação.</p> </td> 
+   <td> <p>Quando uma tarefa for concluída, enviar email para o usuário atribuído</p> <p>O destinatário da tarefa recebe uma notificação por e-mail quando a tarefa é aprovada ou rejeitada.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual.</p> <p>Os usuários com uma licença Light ou Review não recebem uma notificação.</p> </td> 
    <td> <p>Inativo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problema</p> </td> 
    <td> <p>Conclusão do problema</p> </td> 
    <td> <p>Usuário ao qual o problema está atribuído</p> </td> 
-   <td> <p>Quando um problema for concluído enviar email para o usuário atribuído.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual ou Planejamento.</p> <p>Os usuários com uma licença de revisão não recebem uma notificação.</p> </td> 
+   <td> <p>Quando um problema for concluído enviar email para o usuário atribuído.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual ou Planejamento.</p> <p>Os usuários com uma licença Light ou Review não recebem uma notificação.</p> </td> 
    <td> <p>Inativo</p> </td> 
   </tr> 
   <tr> 
@@ -483,7 +483,7 @@ Consulte também [Notificações: Informações sobre o trabalho atribuído a mi
    <td> <p>Problema</p> </td> 
    <td> <p>Alteração do status do problema</p> </td> 
    <td> <p>Usuário ao qual o problema está atribuído</p> </td> 
-   <td> <p>O status de um dos meus itens de trabalho mudou.</p> <p>O destinatário do problema recebe uma notificação por email quando o status é alterado, a menos que o usuário que alterou o status também seja o destinatário.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual.</p> <p>Os usuários com uma licença de revisão não recebem uma notificação.</p> </td> 
+   <td> <p>O status de um dos meus itens de trabalho mudou.</p> <p>O destinatário do problema recebe uma notificação por email quando o status é alterado, a menos que o usuário que alterou o status também seja o destinatário.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual.</p> <p>Os usuários com uma licença Light ou Review não recebem uma notificação.</p> </td> 
    <td> <p>Ativo</p> </td> 
   </tr> 
   <tr> 
@@ -497,14 +497,14 @@ Consulte também [Notificações: Informações sobre o trabalho atribuído a mi
    <td> <p>Tarefa</p> </td> 
    <td> <p>Conclusão da tarefa</p> </td> 
    <td> <p>Usuário ao qual a tarefa está atribuída</p> </td> 
-   <td> <p>Quando uma tarefa for concluída, enviar email para o usuário atribuído</p> <p>O Destinatário da tarefa recebe uma notificação por e-mail quando a tarefa é concluída. As notificações não são enviadas quando uma tarefa pessoal é concluída.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual.</p> <p>Os usuários com uma licença de Revisão ou Solicitante não recebem uma notificação.</p> </td> 
+   <td> <p>Quando uma tarefa for concluída, enviar email para o usuário atribuído</p> <p>O Destinatário da tarefa recebe uma notificação por e-mail quando a tarefa é concluída. As notificações não são enviadas quando uma tarefa pessoal é concluída.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual.</p> <p>Os usuários com uma licença Light, Contributor, Review ou Requestor não recebem uma notificação.</p> </td> 
    <td> <p>Inativo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tarefa</p> </td> 
    <td> <p>Conclusão da tarefa</p> </td> 
    <td> <p>Usuário atribuído à tarefa dependente</p> </td> 
-   <td> <p>Quando uma tarefa for concluída, enviar email para os usuários atribuídos primariamente de todas as tarefas dependentes</p> <p>O destinatário da tarefa recebe uma notificação por e-mail quando um de seus predecessores tiver sido concluído.</p> <p>Os usuários com uma licença de revisão não recebem uma notificação.</p> </td> 
+   <td> <p>Quando uma tarefa for concluída, enviar email para os usuários atribuídos primariamente de todas as tarefas dependentes</p> <p>O destinatário da tarefa recebe uma notificação por e-mail quando um de seus predecessores tiver sido concluído.</p> <p>Os usuários com uma licença Light ou Review não recebem uma notificação.</p> </td> 
    <td> <p>Inativo</p> </td> 
   </tr> 
   <tr> 
@@ -518,7 +518,7 @@ Consulte também [Notificações: Informações sobre o trabalho atribuído a mi
    <td> <p>Tarefa</p> </td> 
    <td> <p>Mudança do status da tarefa</p> </td> 
    <td> <p>Usuário ao qual a tarefa está atribuída</p> </td> 
-   <td> <p>O status muda em uma tarefa para a qual fui atribuído.</p> <p>O Destinatário da tarefa recebe uma notificação por e-mail quando o status da tarefa é alterado, a menos que o usuário que alterou o status também seja o destinatário.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual.</p> <p>Os usuários com uma licença de revisão não recebem uma notificação. </p> </td> 
+   <td> <p>O status muda em uma tarefa para a qual fui atribuído.</p> <p>O Destinatário da tarefa recebe uma notificação por e-mail quando o status da tarefa é alterado, a menos que o usuário que alterou o status também seja o destinatário.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual.</p> <p>Os usuários com uma licença Light ou Review não recebem uma notificação. </p> </td> 
    <td> <p>Inativo</p> </td> 
   </tr> 
  </tbody> 
@@ -644,14 +644,14 @@ Consulte também [Notificações: informações sobre os projetos que possuo](..
    <td> <p>Documento</p> </td> 
    <td> <p>Adicionar documento</p> </td> 
    <td> <p>Proprietário do projeto</p> </td> 
-   <td> <p>Quando um documento for adicionado enviar email para a equipe.</p> <p>O Proprietário do projeto recebe uma notificação por email quando um documento é adicionado ao projeto, a menos que o usuário que adicionou o documento também seja o Proprietário do projeto.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual e o documento não for Privado.</p> <p>Os usuários com uma licença de revisão não recebem uma notificação.</p> </td> 
+   <td> <p>Quando um documento for adicionado enviar email para a equipe.</p> <p>O Proprietário do projeto recebe uma notificação por email quando um documento é adicionado ao projeto, a menos que o usuário que adicionou o documento também seja o Proprietário do projeto.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual e o documento não for Privado.</p> <p>Os usuários com uma licença Light ou Review não recebem uma notificação.</p> </td> 
    <td> <p>Inativo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problema</p> </td> 
    <td> <p>Problema adicionado</p> </td> 
    <td> <p>Proprietário do projeto</p> </td> 
-   <td> <p>Quando um problema for adicionada enviar email para o proprietário do projeto.</p> <p>O proprietário do projeto recebe uma notificação por email quando um problema é adicionado ao projeto.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual ou Planejamento.</p> <p>Os usuários com uma licença de revisão não recebem uma notificação.</p> </td> 
+   <td> <p>Quando um problema for adicionada enviar email para o proprietário do projeto.</p> <p>O proprietário do projeto recebe uma notificação por email quando um problema é adicionado ao projeto.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual ou Planejamento.</p> <p>Os usuários com uma licença Light ou Review não recebem uma notificação.</p> </td> 
    <td> <p>Inativo</p> </td> 
   </tr> 
   <tr> 
@@ -665,7 +665,7 @@ Consulte também [Notificações: informações sobre os projetos que possuo](..
    <td> <p>Problema</p> </td> 
    <td> <p>Conclusão do problema</p> </td> 
    <td> <p>Proprietário do projeto</p> </td> 
-   <td> <p>Quando um problema for concluído enviar email para a equipe.</p> <p>O proprietário do projeto recebe uma notificação por email.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual ou Planejamento.</p> <p>Os usuários com uma licença de revisão não recebem uma notificação.</p> </td> 
+   <td> <p>Quando um problema for concluído enviar email para a equipe.</p> <p>O proprietário do projeto recebe uma notificação por email.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual ou Planejamento.</p> <p>Os usuários com uma licença Light ou Review não recebem uma notificação.</p> </td> 
    <td> <p>Inativo</p> </td> 
   </tr> 
   <tr> 
@@ -714,7 +714,7 @@ Consulte também [Notificações: informações sobre os projetos que possuo](..
    <td> <p>Problema</p> </td> 
    <td> <p>Adicionar Problema Não Atribuída</p> </td> 
    <td> <p>Proprietário do projeto</p> </td> 
-   <td> <p>Quando um problema não atribuída for adicionada enviar email para o proprietário do projeto.</p> <p>O proprietário do projeto recebe uma notificação por email quando um problema não atribuído é adicionado ao projeto.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual ou Planejamento.</p> <p>Os usuários com uma licença de revisão não recebem uma notificação.</p> </td> 
+   <td> <p>Quando um problema não atribuída for adicionada enviar email para o proprietário do projeto.</p> <p>O proprietário do projeto recebe uma notificação por email quando um problema não atribuído é adicionado ao projeto.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual ou Planejamento.</p> <p>Os usuários com uma licença Light ou Review não recebem uma notificação.</p> </td> 
    <td> <p>Inativo</p> </td> 
   </tr> 
  </tbody> 
@@ -878,7 +878,7 @@ Consulte também [Notificações: Informações diversas](../../../workfront-bas
    <td> <p>Usuário de Projeto</p> </td> 
    <td> <p>Adição de Usuário de Projeto</p> </td> 
    <td> <p>Proprietário do recurso</p> </td> 
-   <td> <p>Quando um usuário for adicionado à equipe do projeto, enviar email para o usuário.</p> <p>Um gerente recebe uma notificação por email quando um de seus subordinados diretos é adicionado a um projeto.</p> <p>Os usuários com uma licença de revisão não recebem uma notificação.</p> </td> 
+   <td> <p>Quando um usuário for adicionado à equipe do projeto, enviar email para o usuário.</p> <p>Um gerente recebe uma notificação por email quando um de seus subordinados diretos é adicionado a um projeto.</p> <p>Os usuários com uma licença Light ou Review não recebem uma notificação.</p> </td> 
    <td> <p>Inativo</p> </td> 
   </tr> 
   <tr> 
