@@ -2,21 +2,21 @@
 product-previous: enterprise-scenario-planner
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Criar e comparar cenários de plano no Planejador de Cenário
-description: Quando você está planejando a estratégia de longo prazo de sua empresa, há muitas informações que você pode não ter ou pensar no começo. Demora tempo e experimentação para chegar a uma estratégia final que seus participantes possam aceitar. Fazer uma análise "e se" para criar vários cenários para o seu plano pode ajudar você a prever e avaliar com precisão as circunstâncias potenciais e, em última análise, desenvolver o melhor plano possível.
+title: Criar e comparar cenários de plano no Planejador de cenários
+description: Quando você está planejando a estratégia de longo prazo de sua empresa, há muitas informações que você pode não ter ou pensar no início. Leva tempo e experimentação para chegar a uma estratégia final que suas partes interessadas possam aceitar. A realização de uma análise de hipóteses para criar vários cenários para o seu plano pode ajudá-lo a prever e avaliar com precisão as circunstâncias potenciais e, em última análise, desenvolver o melhor plano possível.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 296de69a1c444659c60bcf767bdacdd9e6e36830
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '966'
 ht-degree: 1%
 
 ---
 
-# Crie e compare cenários de plano na [!DNL Scenario Planner]
+# Criar e comparar cenários de plano no [!DNL Scenario Planner]
 
-Quando você está planejando a estratégia de longo prazo de sua empresa, há muitas informações que você pode não ter ou pensar no começo. Demora tempo e experimentação para chegar a uma estratégia final que seus participantes possam aceitar. Fazer uma análise &quot;e se&quot; para criar vários cenários para o seu plano pode ajudar você a prever e avaliar com precisão as circunstâncias potenciais e, em última análise, desenvolver o melhor plano possível.
+Quando você está planejando a estratégia de longo prazo de sua empresa, há muitas informações que você pode não ter ou pensar no início. Leva tempo e experimentação para chegar a uma estratégia final que suas partes interessadas possam aceitar. A realização de uma análise de hipóteses para criar vários cenários para o seu plano pode ajudá-lo a prever e avaliar com precisão as circunstâncias potenciais e, em última análise, desenvolver o melhor plano possível.
 
 ## Requisitos de acesso
 
@@ -36,38 +36,38 @@ Você deve ter o seguinte:
   </tr> 
   <tr> 
    <td><b>Produto</b> </td> 
-   <td> <p>Você deve comprar uma licença adicional para a [!DNL Adobe Workfront Scenario Planner] para acessar a funcionalidade descrita neste artigo.</p> <p>Para obter informações sobre como obter o [!DNL Workfront Scenario Planner], consulte <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">O acesso necessário para usar o [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <p>Você deve adquirir uma licença adicional para o [!DNL Adobe Workfront Scenario Planner] para acessar a funcionalidade descrita neste artigo.</p> <p>Para obter mais informações sobre como obter a [!DNL Workfront Scenario Planner], consulte <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acesso necessário para usar o [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Configurações de nível de acesso*</strong> </td> 
-   <td> <p>Editar acesso ou superior ao [!DNL Scenario Planner]</p> <p>Observação: Se ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Editar acesso ou superior à [!DNL Scenario Planner]</p> <p>Observação: se você ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Permissões de objeto</strong> </p> </td> 
-   <td> <p>Permissões do [!UICONTROL Manager] para um plano</p> <p>Para obter informações sobre como solicitar acesso adicional a um plano, consulte <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Solicitar acesso a um plano na [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p>[!UICONTROL Gerenciar] permissões para um plano</p> <p>Para obter informações sobre como solicitar acesso adicional a um plano, consulte <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Solicitar acesso a um plano no [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
 
 ## Criar cenários
 
-Um cenário é uma cópia de um plano. Você pode criar quantos cenários forem necessários. No entanto, recomendamos que você mantenha o número de cenários o mínimo, para que possa compará-los facilmente.
+Um cenário é uma cópia de um plano. Você pode criar quantos cenários forem necessários. No entanto, recomendamos que você mantenha o número de cenários no mínimo para que possa compará-los facilmente.
 
-1. Clique no botão **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png), depois clique em [!UICONTROL Cenários].
+1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png)e, em seguida, clique em [!UICONTROL Cenários].
 
 1. Crie um plano.
 
-   Para obter informações sobre como criar planos, consulte [Crie e edite planos na [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
+   Para obter informações sobre como criar planos, consulte [Criar e editar planos no [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
 
-   O primeiro plano criado é automaticamente salvo como o &quot;[!UICONTROL Cenário inicial].&quot;
+   O primeiro plano que você criar será salvo automaticamente como o &quot;[!UICONTROL Cenário inicial].&quot;
 
-1. Clique na seta para baixo ao lado de um cenário existente e, em seguida, clique no botão **[!UICONTROL Copiar]** ícone .
+1. Clique na seta para baixo ao lado de um cenário existente e clique no botão **[!UICONTROL Copiar]** ícone.
 
    ![](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
-   Isso cria um novo cenário com as mesmas informações do cenário copiado. Ele é automaticamente nomeado como &quot;[!UICONTROL Cenário 2]&quot; se for o segundo cenário do seu plano, &quot;[!UICONTROL Cenário 3]&quot; se for o terceiro, e assim por diante. Não é possível renomear os cenários.
+   Isso cria um novo cenário com as mesmas informações que o cenário copiado. Ele é nomeado automaticamente como &quot;[!UICONTROL Cenário 2]&quot;se for o segundo cenário do seu plano,&quot;[!UICONTROL Cenário 3]&quot; se for o terceiro, e assim por diante. Não é possível renomear os cenários. Não há um limite para o número de cópias que você pode fazer.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -75,21 +75,21 @@ Um cenário é uma cópia de um plano. Você pode criar quantos cenários forem 
    </MadCap:conditionalText>
    -->
 
-1. Atualize seu novo cenário de qualquer uma das seguintes maneiras:
+1. Atualize o novo cenário de qualquer uma das seguintes maneiras:
 
    * Criar, atualizar ou excluir iniciativas
 
-      >[!TIP]
-      >
-      >Ao excluir uma iniciativa em um cenário, ela é removida somente do cenário selecionado, não de todos os cenários.
+     >[!TIP]
+     >
+     >Ao excluir uma iniciativa em um cenário, ela é removida somente do cenário selecionado, não de todos os cenários.
 
-      Para obter informações sobre como criar iniciativas, consulte [Crie e edite iniciativas na [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
+     Para obter informações sobre como criar iniciativas, consulte [Criar e editar iniciativas no [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
-   * Atualizar as prioridades de suas iniciativas
+   * Atualize as prioridades de suas iniciativas
    * Ajustar pessoas ou informações de orçamento
-   * Revisar e ajustar conflitos de iniciativa no seu cenário
+   * Revisar e ajustar conflitos de iniciativa em seu cenário
 
-      Para obter informações sobre resolução de conflitos, consulte [Resolver conflitos de iniciativa na [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
+     Para obter informações sobre a resolução de conflitos, consulte [Resolver conflitos de iniciativa no [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
 
 1. Clique em **[!UICONTROL Salvar plano]** para salvar as alterações.
 
@@ -98,9 +98,9 @@ Um cenário é uma cópia de um plano. Você pode criar quantos cenários forem 
 Depois de criar seus cenários, você pode compará-los para encontrar o melhor para sua organização.
 
 1. Vá para o plano para o qual deseja comparar cenários.
-1. Clique em **[!UICONTROL Comparar cenários]**. A página de comparação de cenário é exibida.
+1. Clique em **[!UICONTROL Comparar cenários]**. A página de comparação de cenários é exibida.
 
-   Todos os cenários existentes para o plano são exibidos em um formato de cartão lado a lado. O cenário inicial é sempre listado primeiro e é estático.
+   Todos os cenários existentes para o plano são exibidos lado a lado em formato de cartão. O cenário Inicial é sempre listado primeiro e é estático.
 
    ![](assets/scenario-cards-overlapping-350x166.png)
 
@@ -118,72 +118,72 @@ Depois de criar seus cenários, você pode compará-los para encontrar o melhor 
      </tr> 
      <tr> 
       <td>Descrição do cenário</td> 
-      <td>Uma entrada manual na qual você pode descrever especificidades sobre o cenário. </td> 
+      <td>Uma entrada manual onde você pode descrever informações específicas sobre o cenário. </td> 
      </tr> 
      <tr> 
-      <td>Funções de Trabalho Disponíveis</td> 
-      <td>O número de funções de cargo disponíveis no orçamento do plano durante a duração do plano. </td> 
+      <td>Funções de trabalho disponíveis</td> 
+      <td>O número de funções de trabalho disponíveis no orçamento do plano durante a duração do plano. </td> 
      </tr> 
      <tr> 
       <td>Funções de trabalho exigidas</td> 
-      <td>O número de funções necessárias, com base em suas iniciativas. </td> 
+      <td>O número de funções de trabalho necessárias, com base em suas iniciativas. </td> 
      </tr> 
      <tr> 
       <td>Orçamento</td> 
-      <td>O orçamento total definido para o plano neste cenário. Para obter informações sobre orçamento sobre planos, consulte <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Visão geral dos planos na [!DNL Scenario Planner]</a>. </td> 
+      <td>O orçamento total definido para o plano neste cenário. Para obter informações de orçamento sobre planos, consulte <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Visão geral dos planos na [!DNL Scenario Planner]</a>. </td> 
      </tr> 
      <tr> 
       <td>Custos</td> 
-      <td>Os custos associados às iniciativas no cenário. Para obter informações sobre custos, consulte <a href="../scenario-planner/initiatives-overview.md" class="MCXref xref">Visão geral das iniciativas na [!DNL Scenario Planner]</a>. </td> 
+      <td>Os custos associados às iniciativas no cenário. Para obter informações sobre custos, consulte <a href="../scenario-planner/initiatives-overview.md" class="MCXref xref">Visão geral das iniciativas no [!DNL Scenario Planner]</a>. </td> 
      </tr> 
      <tr> 
       <td>Utilização</td> 
-      <td>A porcentagem de [!UICONTROL utilização do orçamento] para o plano neste cenário. Para obter informações sobre a porcentagem de [!UICONTROL Utilização do orçamento], consulte <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Visão geral dos planos na [!DNL Scenario Planner]</a>. </td> 
+      <td>A porcentagem de [!UICONTROL Utilização de Orçamento] do plano neste cenário. Para obter informações sobre a porcentagem de [!UICONTROL Budget Utilization], consulte <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Visão geral dos planos na [!DNL Scenario Planner]</a>. </td> 
      </tr> 
      <tr> 
       <td>Valor líquido</td> 
-      <td>O [!UICONTROL Net Value] do plano neste cenário. Para obter informações sobre o [!UICONTROL Net Value] de um plano, consulte <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Visão geral dos planos na [!DNL Scenario Planner]</a>. </td> 
+      <td>O [!UICONTROL Valor de Rede] do plano neste cenário. Para obter informações sobre o [!UICONTROL Valor de Rede] de um plano, consulte <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Visão geral dos planos na [!DNL Scenario Planner]</a>. </td> 
      </tr> 
      <tr> 
       <td>Iniciativas</td> 
-      <td>O número de iniciativas do plano nesse cenário.</td> 
+      <td>O número de iniciativas do plano neste cenário.</td> 
      </tr> 
      <tr> 
       <td>Conflitante</td> 
-      <td>O número de iniciativas que mostram qualquer tipo de conflito no plano desse cenário. Para obter informações sobre conflitos de iniciativas, consulte <a href="../scenario-planner/resolve-conflicts-in-sp.md" class="MCXref xref">Resolver conflitos de iniciativa na [!DNL Scenario Planner]</a>. </td> 
+      <td>O número de iniciativas que mostram qualquer tipo de conflito no plano para este cenário. Para obter informações sobre conflitos de iniciativas, consulte <a href="../scenario-planner/resolve-conflicts-in-sp.md" class="MCXref xref">Resolver conflitos de iniciativa no [!DNL Scenario Planner]</a>. </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!NOTE]
    >
-   >Quando as informações diferem entre o cenário inicial e os cenários adicionais, uma seta para cima ou para baixo é exibida ao lado do valor que foi alterado para indicar um aumento ou diminuição nesse valor, em comparação com o cenário inicial.
+   >Quando as informações diferem entre o cenário inicial e os cenários adicionais, uma seta para cima ou para baixo é exibida ao lado do valor que foi alterado para indicar um aumento ou uma diminuição nesse valor em comparação ao cenário inicial.
    >
    >
    >![](assets/arrows-on-scenario-cards-highlighted-350x70.png)
    >
-   >Por exemplo, o orçamento, o número de funções, o número de iniciativas pode mudar de um cenário para outro.
+   >Por exemplo, o orçamento, o número de funções de trabalho e o número de iniciativas podem mudar de um cenário para outro.
 
-1. Clique no nome de um cenário para acessá-lo e fazer alterações nele.
+1. Clique no nome de um cenário para acessá-lo e alterá-lo.
 
-   Para obter mais informações, consulte o [Criar cenários](#create-scenarios) neste artigo.
+   Para obter mais informações, consulte [Criar cenários](#create-scenarios) neste artigo.
 
 1. Clique em **[!UICONTROL Adicionar descrição]** para adicionar uma descrição para o cenário
 
    Ou
 
-   Clique no campo de descrição para atualizá-lo e, em seguida, clique em qualquer lugar na tela para salvar as alterações.
+   Clique no campo de descrição para atualizá-lo e, em seguida, clique em qualquer lugar na tela para salvar suas alterações.
 
-1. (Opcional) Clique no botão **[!UICONTROL Mais]** menu ![](assets/more-icon.png) para **[!UICONTROL Copiar]** ou **[!UICONTROL Excluir]** o cenário.
+1. (Opcional) Clique no link **[!UICONTROL Mais]** menu ![](assets/more-icon.png) para **[!UICONTROL Copiar]** ou **[!UICONTROL Excluir]** o cenário.
 
    ![](assets/copy-or-delete-scenario-links-from-card-350x109.png)
 
    Ao copiar um cenário, ele aparece automaticamente na página do cartão e é renomeado de acordo com este padrão: &quot;[!UICONTROL Cenário] `<next number in order>`.&quot;
 
-1. (Condicional) Se você clicou **[!UICONTROL Excluir]**, clique em **[!UICONTROL Sim, exclua]** para confirmar.
+1. (Condicional) Se você clicou em **[!UICONTROL Excluir]**, clique em **[!UICONTROL Sim, excluir]** para confirmar.
 
    Os cenários excluídos não podem ser recuperados.
 
-   Para obter informações sobre exclusão de cenários, consulte [Excluir planos na [!DNL Scenario Planner]](../scenario-planner/delete-plans.md).
+   Para obter informações sobre como excluir cenários, consulte [Excluir planos na [!DNL Scenario Planner]](../scenario-planner/delete-plans.md).
 
-1. Clique em **[!UICONTROL Salvar plano]** para salvar seus cenários e seu plano.
+1. Clique em **[!UICONTROL Salvar plano]** para salvar os cenários e o plano.
