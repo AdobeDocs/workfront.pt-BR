@@ -8,9 +8,9 @@ description: O papel da [!DNL Adobe Workfront Fusion] O é automatizar seus proc
 author: Becky
 feature: Workfront Fusion
 exl-id: f1633a93-8f4e-4db0-8618-3ce7d8ba84b1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: a866fec950343c73712f22a08e2e045e8b80dbd9
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -56,14 +56,24 @@ Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
+## Visão geral do Workfront Fusion
+
 O papel da [!DNL Adobe Workfront Fusion] O é automatizar seus processos para que você possa se concentrar em novas tarefas, em vez de repetir as mesmas tarefas repetidamente. Ele funciona vinculando ações em e entre aplicativos e serviços para criar um cenário que transfere e transforma seus dados automaticamente. O cenário que você cria observa dados em um aplicativo ou serviço e processa esses dados para fornecer o resultado desejado.
 
 Um cenário é composto de uma série de módulos que indicam como os dados devem ser transformados em um aplicativo ou transferidos entre aplicativos e serviços da Web.
 
 Você coloca módulos de vários aplicativos e serviços da Web em um cenário que executa uma tarefa. Por exemplo, com um [!DNL Workfront Fusion for Work Automation and Integration] licença, você pode criar um cenário que procura novos dados em um aplicativo ou serviço da web e, em seguida, usa esses dados em um módulo subsequente no cenário para criar um determinado resultado, como a criação de um novo registro. Depois de configurar um cenário, [!DNL Workfront Fusion] O executa a tarefa automaticamente.
 
-Para saber mais sobre as [!DNL Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+>[!NOTE]
+>
+>O Workfront Fusion só é compatível com navegadores baseados no Chrome.
 
-Para saber mais sobre cenários, consulte [Criar um cenário de integração de prática no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md).
+## Recursos
 
-Para saber mais sobre os módulos, consulte [Tipos de módulos](../../workfront-fusion/modules/module-types.md).
+Ao começar a trabalhar com o Workfront Fusion, os seguintes recursos podem ser úteis:
+
+* Para saber mais sobre as [!DNL Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+* Para saber mais sobre cenários, consulte [Criar um cenário de integração de prática no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md).
+
+* Para saber mais sobre os módulos, consulte [Tipos de módulos](../../workfront-fusion/modules/module-types.md).
