@@ -3,11 +3,12 @@ content-type: overview
 title: Visão geral do resumo
 description: Você pode usar o painel Resumo para revisar e atualizar informações sobre o item de trabalho diretamente de uma lista de tarefas, problemas, documentos ou de outras áreas do [!DNL Adobe Workfront] que exibem tarefas e problemas.
 feature: Get Started with Workfront
+author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 2%
+source-wordcount: '931'
+ht-degree: 1%
 
 ---
 
@@ -82,7 +83,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
@@ -116,7 +117,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >
    >Você só pode selecionar uma tarefa ou um problema de cada vez para ver seus detalhes na [!UICONTROL Resumo] painel.
 
-   ![Painel Resumo](assets/summary-panel-for-task.png)
+   ![Painel Resumo](assets/summary-panel-for-task-new-comments.png)
 
 1. (Opcional) Para fechar o [!UICONTROL Resumo] , siga um destes procedimentos:
 
@@ -136,19 +137,19 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 Use a barra de progresso na parte superior da [!UICONTROL Resumo] para atualizar o percentual concluído da tarefa ou problema selecionado. Insira um número ou arraste a barra até a porcentagem correta.
 
-![](assets/summary-overview-percent-complete-350x395.png)
+![Porcentagem concluída no painel Resumo](assets/summary-overview-percent-complete.png)
 
 ## [!UICONTROL Atualizações]
 
 Use o [!UICONTROL Atualizações] seção do [!UICONTROL Resumo] para exibir atualizações recentes e fazer atualizações na tarefa ou problema selecionado. Clique em **[!UICONTROL Ver tudo]** para ir diretamente para o [!UICONTROL Atualizações] na tarefa.
 
-![](assets/summary-updates-with-block-quote-350x290.png)
+![Seção Atualizações no painel Resumo](assets/summary-updates-section.png)
 
 ## [!UICONTROL Documentos]
 
 Use o [!UICONTROL Documentos] seção do [!UICONTROL Resumo] para ver documentos anexados à tarefa ou problema selecionado. Clique na miniatura para abrir uma visualização de documento. Para ir diretamente para o [!UICONTROL Documentos] na tarefa ou problema, clique no botão **[!UICONTROL Documentos]** título.
 
-![](assets/summary-overview-documents-350x84.png)
+![Seção Documentos no painel Resumo](assets/summary-documents-section.png)
 
 ## [!UICONTROL Detalhes]
 
@@ -158,7 +159,7 @@ Use o [!UICONTROL Detalhes] seção do [!UICONTROL Resumo] para exibir detalhes 
 >
 >Os campos exibidos nesta seção são os mesmos campos exibidos no painel direito da Página inicial. Você pode personalizar esses campos [Personalizar [!UICONTROL Início] e [!UICONTROL Resumo] uso de um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
-![](assets/summary-overview-details-new-350x278.png)
+![Seção de detalhes no painel Resumo](assets/summary-details-section.png)
 
 ## [!UICONTROL Subtarefas]
 
@@ -166,7 +167,7 @@ Esta seção só está disponível para tarefas. Use o [!UICONTROL Subtarefas] s
 
 Se não tiver adicionado nenhuma subtarefa à tarefa, clique em **[!UICONTROL Adicionar um aqui]** para ir diretamente para o [!UICONTROL Subtarefas] na tarefa.
 
-![](assets/summary-overview-subtasks-350x140.png)
+![Seção Subtarefas no painel Resumo](assets/summary-subtasks-section.png)
 
 ## [!UICONTROL Horas]
 
@@ -176,7 +177,7 @@ A contagem de horas no [!UICONTROL Resumo] exibe as horas registradas. Outros us
 
 Se não houver planos [!UICONTROL horas] na tarefa ou problema e você tiver registrado o tempo, a barra de horas será exibida em vermelho.
 
-![](assets/summary-overview-hours-350x96.png)
+![Seção Horas no painel Resumo](assets/summary-hours-section.png)
 
 ## Aprovações
 
@@ -184,4 +185,4 @@ Use o [!UICONTROL Aprovações] seção do [!UICONTROL Resumo] para exibir aprov
 
 Para ir diretamente para o [!UICONTROL Aprovações] na tarefa ou problema, clique no botão **[!UICONTROL Aprovações]** título.
 
-![](assets/summary-overview-approvals-350x122.png)
+![Seção Aprovações no painel Resumo](assets/summary-approvals-section.png)
