@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: e99dab2bc82dd2c2a64e177cbf0c2bb11973e4f5
+source-git-commit: 58fd8895bf7d6ff81ef7a916d2092c0507c1cc5d
 workflow-type: tm+mt
-source-wordcount: '13950'
+source-wordcount: '13954'
 ht-degree: 1%
 
 ---
@@ -21,9 +21,10 @@ ht-degree: 1%
       * [Preparar-se para uma versão trimestral do Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Versão do segundo trimestre de 2024 {#release-24-q2}
          * [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
-         * [Aprimoramentos do projeto do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
          * [Aprimoramentos do administrador do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md)
          * [Melhorias na Página inicial do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md)
+         * [Aprimoramentos do projeto do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
+         * [Outras melhorias do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md)
          * [Atualizações da aparência durante o período do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md)
       * Versão do primeiro trimestre de 2024 {#release-24-q1}
          * [Visão geral da versão do primeiro trimestre de 2024](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
