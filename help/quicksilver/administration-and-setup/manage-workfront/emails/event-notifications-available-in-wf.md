@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: Notificações de eventos disponíveis no Adobe Workfront
+title: Tipos de notificação de eventos
 description: As notificações de eventos são emails acionados por vários tipos de eventos em objetos, como projetos, tarefas e problemas. Este artigo lista e descreve os tipos disponíveis de notificações de eventos.
 author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 738286fdcd19d1db648da220778d1041a0010cff
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '5127'
+source-wordcount: '5121'
 ht-degree: 8%
 
 ---
 
-# Notificações de eventos disponíveis no Adobe Workfront
+# Tipos de notificação de eventos
 
 <!-- Audited: 1/2024 -->
 

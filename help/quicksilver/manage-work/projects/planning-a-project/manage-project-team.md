@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -109,7 +109,7 @@ Os usuários também são adicionados automaticamente à equipe do projeto quand
 
 Se os usuários que não desempenham nenhuma função no projeto quiserem ser notificados sobre determinadas atualizações ou alterações durante a vida do projeto, você pode adicioná-las manualmente à equipe do projeto.
 
-Para obter mais informações sobre quais notificações podem ser habilitadas para usuários na equipe do projeto, consulte [Notificações de eventos disponíveis no Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Para obter mais informações sobre quais notificações podem ser habilitadas para usuários na equipe do projeto, consulte [Tipos de notificação de eventos](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 

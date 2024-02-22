@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
-source-git-commit: 7c1115065e4d2f4732b392336aed692c055ba97c
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Esta seção contém os seguintes artigos:
 
 * [Página Notificações por email](../../../administration-and-setup/manage-workfront/emails/email-notifications-page.md)
 * [Configurar notificações de eventos para todos no sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
-* [Notificações de eventos disponíveis no Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+* [Tipos de notificação de eventos](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
 * [Desbloquear ou bloquear a configuração de notificações de eventos para todos os grupos](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [Personalizar assuntos de email para notificações de eventos](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
 * [Modificar as configurações de notificação por email de vários usuários](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)

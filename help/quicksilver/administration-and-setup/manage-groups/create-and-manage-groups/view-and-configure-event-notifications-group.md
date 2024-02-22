@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Configurar uma notificação de evento para um grupo afeta os usuários para os 
 
 Para obter informações sobre como um administrador do Workfront desbloqueia uma notificação de evento, consulte [Desbloquear ou bloquear a configuração de notificações de eventos para todos os grupos](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 
-Para obter informações sobre a configuração de notificação padrão de um evento, consulte [Notificações de eventos disponíveis no Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Para obter informações sobre a configuração de notificação padrão de um evento, consulte [Tipos de notificação de eventos](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 ## Requisitos de acesso
 
@@ -40,7 +40,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -72,7 +72,6 @@ Você deve ter o seguinte para executar as etapas deste artigo:
    >* Se um botão no <strong>Ativo</strong> a coluna está cinza e não esmaecida <img src="assets/email-notification-disabled-unlocked.png">, a notificação de evento é <strong>desativado para todos os usuários e</strong> administradores de grupos podem ativá-la para seus grupos.
    >* Se um botão no <strong>Ativo</strong> a coluna está azul e esmaecida <img src="assets/email-notification-enabled-locked.png">, a notificação de eventos é ativada para todos os usuários e os administradores de grupos não podem desativá-la ou editar a linha de assunto do email para seus grupos.
    >* Se um botão no <strong>Ativo</strong> a coluna é azul e não esmaecida <img src="assets/email-notification-enabled-unlocked.png">, a notificação de evento é <strong>ativado para todos os usuários e</strong> os administradores de grupo podem desativá-la para seus grupos.
-
 
 <!--
 This step (with substeps) is for functionality from a Sprint 3 2021 story that got put on hold. Also see the PDF on the story for some text earlier in the article that needs to be added. 
