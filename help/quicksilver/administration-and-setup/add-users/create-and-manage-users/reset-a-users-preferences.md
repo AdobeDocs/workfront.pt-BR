@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: c3cb97a36c29b90bbc9d8438d8811cc23266d894
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '335'
 ht-degree: 2%
 
 ---
@@ -86,7 +86,7 @@ Ao redefinir as preferências do usuário, algumas preferências são revertidas
   </tr> 
   <tr> 
    <td>Preferências do usuário</td> 
-   <td> <p>Revertido para o padrão do sistema</p> <p>As notificações por email são revertidas para os padrões do sistema.</p> </td> 
+   <td> <p>Revertido para o padrão do sistema</p> <p>As notificações por email são revertidas para os padrões do sistema. As notificações padrão estão listadas em <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Notificações de eventos disponíveis no Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Guias Personalizadas Definidas pelo Usuário</td> 
