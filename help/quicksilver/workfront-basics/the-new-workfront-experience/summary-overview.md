@@ -5,14 +5,16 @@ description: Você pode usar o painel Resumo para revisar e atualizar informaç�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: ba81706f457e41c989bc34d9bdff81223b0d745e
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '970'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Resumo] visão geral
+
+{{highlighted-preview}}
 
 Você pode usar o [!UICONTROL Resumo] painel para revisar e atualizar as informações sobre o item de trabalho diretamente de uma lista de tarefas, problemas, documentos ou de outras áreas do [!DNL Adobe Workfront] que exibem tarefas e problemas.
 
@@ -117,7 +119,15 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >
    >Você só pode selecionar uma tarefa ou um problema de cada vez para ver seus detalhes na [!UICONTROL Resumo] painel.
 
+   <div class="preview">
+
+   Exemplo do painel Resumo no ambiente de Pré-visualização:
    ![Painel Resumo](assets/summary-panel-for-task-new-comments.png)
+
+   </div>
+
+   Exemplo do painel Resumo no ambiente de Produção:
+   ![Painel Resumo](assets/summary-panel-for-task.png)
 
 1. (Opcional) Para fechar o [!UICONTROL Resumo] , siga um destes procedimentos:
 
@@ -143,7 +153,15 @@ Use a barra de progresso na parte superior da [!UICONTROL Resumo] para atualizar
 
 Use o [!UICONTROL Atualizações] seção do [!UICONTROL Resumo] para exibir atualizações recentes e fazer atualizações na tarefa ou problema selecionado. Clique em **[!UICONTROL Ver tudo]** para ir diretamente para o [!UICONTROL Atualizações] na tarefa.
 
+<div class="preview">
+
+Exemplo de atualizações no ambiente de Pré-visualização:
 ![Seção Atualizações no painel Resumo](assets/summary-updates-section.png)
+
+</div>
+
+Exemplo de atualizações no ambiente de produção:
+![Seção Atualizações no painel Resumo](assets/summary-updates-with-block-quote-350x290.png)
 
 ## [!UICONTROL Documentos]
 
