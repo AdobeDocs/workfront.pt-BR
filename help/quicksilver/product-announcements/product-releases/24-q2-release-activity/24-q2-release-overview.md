@@ -4,9 +4,9 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a8637365a09b6e426b93a99a636af9f48fdfd888
+source-git-commit: b55217ee95a41d731c7ef1beebc3e5b32d04b48a
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -54,22 +54,22 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                         </p>
                     </td>
                 </tr>
-                <!--<tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Attribute mapping now available for organizations that have migrated to Adobe IMS</a></p>
-                        <p>[!BADGE In production ]{type=Informative}</p><p>Workfront system administrators can now set up user attribute mapping for organization that have migrated to Adobe IMS. This allows user information to pass into Workfront from the organization's SSO (Single Sign-on) provider, so that the user's data does not have to be entered into both Workfront and the SSO provider.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">O mapeamento de atributos agora está disponível para organizações que migraram para o Adobe IMS</a></p>
+                        <p>[!BADGE Na produção ]{type=Informative}</p><p>Os administradores de sistema do Workfront agora podem configurar o mapeamento de atributos do usuário para organizações que migraram para o Adobe IMS. Isso permite que as informações do usuário sejam passadas para o Workfront pelo provedor de SSO (Logon único) da organização, para que os dados do usuário não precisem ser inseridos no Workfront e no provedor de SSO.</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: February 22, 2024</p>
+                                <p>Versão de pré-visualização: 22 de fevereiro de 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release for all customers: February 22, 2024</span></p>
+                                <p><span class="preview">Versão de produção para todos os clientes: 22 de fevereiro de 2024</span></p>
                             </li>
                         </ul>
                     </td>
-                </tr>-->                
+                </tr>                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">A lógica de salto e a lógica de exibição agora estão disponíveis no designer de formulário beta</a></p>
