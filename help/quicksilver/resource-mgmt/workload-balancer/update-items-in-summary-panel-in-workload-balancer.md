@@ -6,14 +6,16 @@ description: Você pode abrir o painel Resumo no Balanceador de carga de trabalh
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '448'
 ht-degree: 1%
 
 ---
 
 # Atualizar itens de trabalho no Balanceador de carga de trabalho usando o Resumo
+
+{{highlighted-preview}}
 
 Você pode usar o painel Resumo de uma tarefa ou um problema para atualizar informações importantes desse item. no Balanceador de carga de trabalho.
 
@@ -68,11 +70,11 @@ Você deve ter o seguinte:
 
    Vá para a **Trabalho atribuído** , expanda um usuário e localize um item de trabalho.
 
-1. Clique na barra de uma tarefa ou problema para abrir o painel Resumo à direita
+1. Clique na barra de uma tarefa ou problema para abrir o painel Resumo à direita.
 
    Ou
 
-   Clique em **Abrir resumo** ícone ![](assets/summary-panel-icon.png), em seguida, clique na barra de uma tarefa ou problema para abrir o painel Resumo
+   Clique em **Abrir resumo** ícone ![](assets/summary-panel-icon.png), em seguida, clique na barra de uma tarefa ou problema para abrir o painel Resumo.
 
    Ou
 
@@ -80,7 +82,15 @@ Você deve ter o seguinte:
 
    O painel Resumo é aberto à direita.
 
-   ![](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
+   <div class="preview">
+
+   Exemplo do painel Resumo no ambiente de Pré-visualização:
+   ![Painel Resumo](assets/summary-panel-task-wb-new-comments.png)
+
+   </div>
+
+   Exemplo do painel Resumo no ambiente de Produção:
+   ![Painel Resumo](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
 
 1. Modifique um número de campos para o item de trabalho, informe uma atualização ou navegue daqui para outras áreas do Workfront para adicionar documentos ou outras informações ao item de trabalho.
 
