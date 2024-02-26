@@ -4,7 +4,7 @@ description: Seu acesso ao Adobe Maestro depende do tipo de licença, além de s
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 62491ee9a8ee6982e104f59e99f182a0f059dc07
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -43,8 +43,8 @@ A tabela a seguir descreve a relação entre o tipo de licença de um usuário e
 | Tipo de licença | Permissões permitidas para objetos Maestri |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Novo: Padrão <br> ou <br>Atual: Plano | Os usuários podem criar e gerenciar espaços de trabalho, tipos de registro e registros. |
-| Novo: Claro <br> ou <br>Atual: trabalho e revisão | Os usuários podem contribuir e exibir um espaço de trabalho compartilhado com eles, bem como os tipos de registro e registros desse espaço de trabalho.  Os usuários podem criar, editar e excluir registros nos espaços de trabalho em que têm permissões do Contribute. |
-| Novo: Colaborador <br> ou <br>Atual: Solicitante | Os usuários podem exibir os espaços de trabalho compartilhados com eles, bem como os tipos de registro e registros desses espaços de trabalho. Os usuários não podem criar, editar ou excluir tipos de registros ou registros. |
+| Novo: Claro <br> ou <br>Atual: Trabalho | Os usuários podem contribuir e exibir um espaço de trabalho compartilhado com eles, bem como os tipos de registro e registros desse espaço de trabalho.  Os usuários podem criar, editar e excluir registros nos espaços de trabalho em que têm permissões do Contribute. |
+| Novo: Colaborador <br> ou <br>Atual: Revisor ou Solicitante | Os usuários podem exibir os espaços de trabalho compartilhados com eles, bem como os tipos de registro e registros desses espaços de trabalho. Os usuários não podem criar, editar ou excluir tipos de registros ou registros. |
 
 
 
