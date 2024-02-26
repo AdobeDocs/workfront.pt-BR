@@ -6,14 +6,16 @@ description: Ao fornecer comentários de atualização em um objeto do Adobe Wor
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
 
 # Marcar outros usuários em atualizações
+
+{{highlighted-preview}}
 
 <!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
 
@@ -42,6 +44,8 @@ ht-degree: 0%
 > * Painel Resumo em listas
 > * Painel Resumo em Planilhas de Horas
 > * Painel Resumo no Balanceador de carga de trabalho
+>
+><span class="preview">A nova experiência de comentários está disponível no painel Resumo em listas, folhas de horas e o Balanceador de carga de trabalho no ambiente de Pré-visualização.</span>
 
 Você pode adicionar tags aos usuários ao fazer uma atualização em um objeto se quiser chamar a atenção deles para um objeto que, de outra forma, eles poderiam não seguir.
 
@@ -127,6 +131,14 @@ Também é possível remover usuários que foram marcados por engano ao editar o
    > 
    >Você deve ter a configuração Exibir informações de contato ativada no seu nível de acesso para que os usuários visualizem os emails dos usuários. Para obter informações, consulte [Conceder acesso aos usuários](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
+   <div class="preview">
+
+   Exemplo de marcação no ambiente de Pré-visualização:
+   ![Marcar um usuário](assets/tag-others-unified-commenting-with-all-tab.png)
+
+   </div>
+
+   Exemplo de marcação no ambiente de produção:
    ![](assets/tag-others-unified-commenting.png)
 
 1. (Opcional) Para tornar a atualização privada, ative **Privativo(s) de minha empresa** no canto inferior direito da caixa de atualização. Isso torna a atualização visível apenas para os usuários em sua empresa. A variável **Privativo(s) de minha empresa** A opção está disponível somente quando uma Empresa é especificada no perfil do Workfront.

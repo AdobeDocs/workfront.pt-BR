@@ -6,14 +6,16 @@ description: Você pode adicionar uma atualização em um objeto do Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 19f6584b507af19b8af5bc6646602393acd41079
 workflow-type: tm+mt
-source-wordcount: '4110'
+source-wordcount: '4226'
 ht-degree: 1%
 
 ---
 
 # Atualizar trabalho
+
+{{highlighted-preview}}
 
 <!-- Audited: 1/2024 -->
 
@@ -45,6 +47,8 @@ After the monthly releases to Production, the same features are also available i
 > * Painel Resumo em listas
 > * Painel Resumo em Planilhas de Horas
 > * Painel Resumo no Balanceador de carga de trabalho
+>
+><span class="preview">A nova experiência de comentários está disponível no painel Resumo em listas, folhas de horas e o Balanceador de carga de trabalho no ambiente de Pré-visualização.</span>
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -234,8 +238,17 @@ Você pode adicionar atualizações aos seguintes objetos:
 1. (Condicional) Se a variável **Novo comentário** estiver desativada, clique em para ativá-la.
 
    Isso habilita a nova experiência de comentários. A variável **Comentários** é selecionada por padrão.
+
 1. Comece a inserir um comentário no **Novo comentário** caixa.
 
+   <div class="preview">
+
+   Exemplo de nova caixa de comentário no ambiente de Pré-visualização:
+   ![Nova caixa de comentário](assets/comment-box-all-tabs.png)
+
+   </div>
+
+   Exemplo de nova caixa de comentário no ambiente de Produção:
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
@@ -304,11 +317,17 @@ Você pode adicionar atualizações aos seguintes objetos:
 
 1. (Opcional) Clique no link **Atividade do sistema** para ver as atualizações registradas pelo sistema. Quando o objeto ou qualquer um de seus filhos é atualizado, o Workfront gera uma observação sobre essa atualização e a exibe na guia Atividade do sistema.
 
-   Para obter mais informações, consulte [Visão geral da seção Atualizações](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
+   Para obter mais informações, consulte [Visão geral da seção Atualizações](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
    >[!TIP]
    >
    >Não é possível adicionar um comentário a uma atualização do sistema.
+
+1. <span class="preview">(Opcional) Clique no link **Todos** para exibir comentários do usuário e comentários de atividades do sistema em um local. Esta é uma guia somente para visualização.</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">Não é possível responder a comentários ou marcar outros usuários em comentários existentes na guia Todos. Para responder a um comentário na guia Todos, clique em **Responder em Comentários** para abrir o comentário na guia Comentários.</span>
 
 ## Usar Rich Text em uma atualização do Workfront{#use-rich-text-in-a-workfront-update}
 
@@ -422,8 +441,16 @@ Você pode procurar um comentário ou uma resposta na seção Atualizações de 
 
    >[!NOTE]
    >
-   >   Você pode pesquisar somente palavras que pertençam ao texto de um comentário ou resposta. Não é possível pesquisar nomes de usuários ou equipes marcados em uma atualização.
+   >Você pode pesquisar somente palavras que pertençam ao texto de um comentário ou resposta. Não é possível pesquisar nomes de usuários ou equipes marcados em uma atualização.
 
+   <div class="preview">
+
+   Exemplo de pesquisa no ambiente de Pré-visualização:
+   ![Pesquisar em atualizações](assets/updates-all-tabs-with-search-field.png)
+
+   </div>
+
+   Exemplo de pesquisa no ambiente de produção:
    ![](assets/search-field-in-updates-tab.png)
 
    A palavra-chave <!--or user--> pesquisado for realçado e os comentários que o contêm serão exibidos na parte superior da seção Atualizações.
