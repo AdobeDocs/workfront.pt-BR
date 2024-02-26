@@ -7,14 +7,16 @@ description: Este artigo descreve o layout das folhas de horas no Adobe Workfron
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1066'
 ht-degree: 1%
 
 ---
 
 # Visão geral do layout da folha de horas
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -36,7 +38,7 @@ Estas são as áreas de uma planilha de horas:
 * [Função de trabalho](#job-role)
 * [Tipo de hora](#hour-type)
 * [Área Atualizações no painel esquerdo](#updates-area-in-the-left-panel)
-* [Painel Resumo](#summary-panel)
+* [Painel de resumo](#summary-panel)
 * [Intervalo de tempo e área de entrada de horas](#time-frame-and-hour-entry-area)
 * [Comentários de entrada de hora](#hour-entry-comments)
 * [Horas](#hours)
@@ -119,13 +121,21 @@ Você pode registrar várias entradas de horas para o mesmo item de trabalho par
 
 ## Área Atualizações no painel esquerdo
 
+<div class="preview">
+
+Exemplo no ambiente de Pré-visualização:
+![Área Atualizações no painel esquerdo da folha de horas](assets/timesheet-updates-with-all-tab.png)
+
+</div>
+
+Exemplo no ambiente de Produção:
 ![Área Atualizações no painel esquerdo da folha de horas](assets/timesheet-updates-section-unshimmed-redesign.png)
 
 Você pode fazer comentários em uma folha de horas para se comunicar com seus aprovadores de folha de horas ou outros usuários na seção Atualizações no painel esquerdo da folha de horas.
 
 Quaisquer comentários feitos na folha de horas são exibidos nesta área.
 
-## Painel Resumo
+## Painel de resumo
 
 ![Painel Resumo](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 

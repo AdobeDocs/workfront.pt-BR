@@ -7,7 +7,7 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
 workflow-type: tm+mt
 source-wordcount: '3526'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo e registra
    <li>Trabalhar ou mais para registrar horas em um projeto, tarefa ou problema</li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar o acesso ao tipo de item de trabalho para o qual você registra horas </p> <p>Por exemplo, você precisa ter acesso de Edição a Problemas para registrar o tempo de ocorrências</p> </td> 
   </tr> 
   <tr> 
@@ -85,7 +85,7 @@ Você pode registrar horas nas seguintes áreas no Workfront:
 * [Planilha de horas](#timesheet)
 * [Página inicial](#home)
 * [Projeto, tarefa ou problema](#project-task-or-issue)
-* [Painel Resumo](#summary-panel)
+* [Painel de resumo](#summary-panel)
 * [Quadros](#boards)
 * [Aplicativo móvel](#mobile-app)
 
@@ -442,7 +442,7 @@ Para registrar horas na seção Horas de um projeto, tarefa ou problema:
 
 1. Clique em **Registro de tempo**.
 
-### Painel Resumo
+### Painel de resumo
 
 Você pode registrar o tempo para tarefas e problemas no painel Resumo.
 Para obter mais informações, consulte [Visão geral do resumo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).

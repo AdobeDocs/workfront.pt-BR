@@ -6,14 +6,16 @@ description: É possível adicionar comentários a todas as metas que você pode
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
 
 # Gerenciar comentários de meta em Metas do Adobe Workfront
+
+{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -99,6 +101,14 @@ Isso abre a lista de metas.
 1. Clique em  **Atualizações** no painel esquerdo.
 1. (Opcional) Para localizar um comentário existente, comece digitando uma palavra-chave <!--or a user's name--> no **Pesquisar** no canto superior direito da caixa **Comentários** guia.
 
+   <div class="preview">
+
+   Exemplo no ambiente de Pré-visualização:
+   ![Pesquisar comentário](assets/search-for-update-goals-2.png)
+
+   </div>
+
+   Exemplo no ambiente de Produção:
    ![](assets/search-field-in-updates-tab-goals.png)
 
    A palavra-chave <!--or user--> pesquisado for realçado e os comentários que o contêm serão exibidos na parte superior da seção Atualizações.
@@ -107,15 +117,22 @@ Isso abre a lista de metas.
 
    >[!NOTE]
    >
-   >   Você deve procurar uma palavra incluída em um comentário ou resposta. Não é possível procurar um usuário ou uma equipe marcada.
+   >Você deve procurar uma palavra incluída em um comentário ou resposta. Não é possível procurar um usuário ou uma equipe marcada.
 
+   Para obter mais informações, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   Para obter mais informações, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
-
-1. Clique em **x** no campo de pesquisa para limpar os resultados da pesquisa e retornar ao resumo completo.
+1. Clique em **x** no campo de pesquisa para limpar os resultados da pesquisa e retornar à atualização completa.
 1. Clique em **Comentários** no canto superior esquerdo da área Atualizações.
 1. Comece a inserir um comentário no **Novo comentário** caixa.
 
+   <div class="preview">
+
+   Exemplo de nova caixa de comentário no ambiente de Pré-visualização:
+   ![Nova caixa de comentário](assets/comment-box-all-tabs.png)
+
+   </div>
+
+   Exemplo de nova caixa de comentário no ambiente de Produção:
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
@@ -140,7 +157,7 @@ Isso abre a lista de metas.
    >Se outro usuário enviar um comentário para o mesmo item que você está atualizando, haverá uma linha vermelha com um indicador &quot;Novo&quot; para informá-lo sobre os comentários mais recentes, bem como uma notificação azul na parte inferior da tela indicando o número de novos comentários.
    >
    >O indicador só é exibido depois que o comentário foi enviado sobre o item, e não quando o comentário ainda está composto.
-   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+   >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
 
 1. Para editar um comentário, clique no link **Mais** menu ![](assets/more-icon.png) à direita do ícone Curtir e, em seguida, clique em **Editar**.
 1. Edite as informações no comentário, adicione ou remova imagens ou remova qualquer um dos usuários marcados.
@@ -172,4 +189,6 @@ Você pode editar seu comentário dentro de 15 minutos a partir do envio. Um ind
 1. (Opcional) Clique no link **Curtir** ícone![](assets/like-icon.png) para gostar de um comentário que outra pessoa adicionou. O ícone é atualizado com o número de curtidas.
 
 1. (Opcional) Clique no link **Atividade do sistema** para ver as atualizações registradas pelo sistema. Quando uma meta é atualizada, o Workfront gera uma observação sobre essa atualização e a exibe na guia Atividade do sistema. O Workfront também registra uma atualização do sistema quando um resultado, atividade ou projeto é adicionado à meta ou quando é atualizado. <!--ensure the casing on the tab has not changed-->
+
+1. <span class="preview">(Opcional) Clique no link **Todos** para exibir comentários do usuário e comentários de atividades do sistema em um local. Para responder a um comentário na guia Todos, clique em **Responder em Comentários** para abrir o comentário na guia Comentários. Não é possível responder na guia All.</span>
 
