@@ -7,9 +7,9 @@ description: O Gerenciamento de Recursos permite configurar o sistema para preve
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1167'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ O Workfront tem vários conjuntos de ferramentas usados para gerenciar recursos.
 
    * **O Planejador de Recursos**: Você pode usar o Planejador de recursos na primeira etapa do gerenciamento de recursos para estimar o tempo do projeto para seus recursos de acordo com a disponibilidade programada. Durante a fase de planejamento de recursos, é possível organizar usuários em conjuntos de recursos e atribuir vários conjuntos de recursos a um projeto.
 
-     Para obter mais informações sobre o Planejamento de Recursos, consulte [Planejamento de recursos no Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     Para obter mais informações sobre o Planejamento de Recursos, consulte [Planejamento de recursos: índice do artigo](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
    * **O Planejador de cenários**: este é um planejamento de recursos de nível superior que permite gerenciá-los em várias iniciativas que podem abranger um plano de um, três ou cinco anos e incluir vários projetos. Você pode usar o melhor cenário para aproveitar ao máximo a disponibilidade e o orçamento.
 
@@ -118,7 +118,7 @@ O processo de gerenciamento de recursos no Workfront inclui as seguintes etapas:
 
   Para obter mais informações sobre o planejamento de recursos e a atribuição de trabalho, consulte as seguintes seções:
 
-   * [Planejamento de recursos no Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+   * [Planejamento de recursos: índice do artigo](../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Planejador de cenários do Adobe Workfront](../../scenario-planner/scenario-planning.md)
    * [O Balanceador de carga de trabalho: índice do artigo](../../resource-mgmt/workload-balancer/workload-balancer.md)
 

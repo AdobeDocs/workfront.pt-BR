@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: a0ca824d-aab8-4da2-97ed-0913a7f76d55
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '2702'
+source-wordcount: '2701'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Para obter informações sobre as ferramentas de substituição, consulte [Ferra
    * Planejador de Capacidade
    * Estimativas de Recursos
    * Grade de Recursos\
-     Para obter mais informações, consulte [Planejamento de recursos no Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     Para obter mais informações, consulte [Planejamento de recursos: índice do artigo](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
 * A área Estimativas de recursos legados no Business Case de um projeto
 

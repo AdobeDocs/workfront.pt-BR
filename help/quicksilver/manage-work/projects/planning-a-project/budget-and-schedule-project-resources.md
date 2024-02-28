@@ -6,9 +6,9 @@ description: Estimar e agendar recursos do projeto
 author: Alina
 feature: Work Management
 exl-id: c6495ce5-fe70-499b-87f5-6a1f2e93a3f4
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Faça o seguinte ao finalizar o planejamento de seus projetos no Adobe Workfront
 
   Para obter informações, consulte os seguintes artigos:
 
-   * [Planejamento de recursos no Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
+   * [Planejamento de recursos:índice do artigo](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Introdução ao Scenario Planner](../../../scenario-planner/get-started-with-scenario-planning.md)
 
 * Agende recursos ou atribua-os a tarefas e problemas. Ao atribuir seus recursos a tarefas e problemas, você pode realmente associar usuários, equipes ou funções a itens de trabalho específicos, tornando-os responsáveis por concluir esses itens. Para obter informações, consulte [Visão geral do Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
