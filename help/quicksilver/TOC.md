@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 7348dc78f61708fce7508bdef0f4b650814ad71b
+source-git-commit: 8510cd13b941d2a3d679e3b99f5ea96c591ee0d8
 workflow-type: tm+mt
-source-wordcount: '13971'
+source-wordcount: '13982'
 ht-degree: 1%
 
 ---
@@ -1788,18 +1788,20 @@ ht-degree: 1%
       * [Delegar solicitação de aprovação](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [Associar um processo de aprovação novo ou existente ao trabalho](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [Cancelar aprovações enviadas](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-   * Revisões e aprovações de documentos {#document-reviews-and-approvals}
-      * [Revisões e aprovações de documentos](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+   * Revisão e aprovação de documentos {#document-reviews-and-approvals}
+      * [Revisão e aprovação de documentos](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Visão geral das aprovações de documentos](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
-      * Gerenciar aprovações de documentos {#manage-document-approvals}
-         * [Gerenciar aprovações de documentos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
+      * Revisar documentos {#review-and-approve-documents}
+         * [Revisar documentos: índice do artigo](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
+         * [Revisar um documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
+         * [Conectar o Workfront e o Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
+         * [Adicionar um ativo Frame.io a um projeto conectado do Workfront](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
+      * [Aprovar documentos]{#approve-documents}
+         * [Aprovar documentos: índice do artigo](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
          * [Criar uma aprovação de documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Adicionar revisores ou aprovadores adicionais a um documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [Remover aprovadores ou revisores de um documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [Status de aprovação de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * Revisar e aprovar documentos {#review-and-approve-documents}
-         * [Revisar e aprovar documentos](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
-         * [Revisar um documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Aprovar um documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Prova {#proofing}
       * [Prova: índice do artigo](review-and-approve-work/proofing/proofing.md)
