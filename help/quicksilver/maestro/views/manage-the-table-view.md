@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: 5cfb4cd064daff455d8b9458d3bcbbb0d209516a
 workflow-type: tm+mt
-source-wordcount: '2288'
+source-wordcount: '2313'
 ht-degree: 3%
 
 ---
@@ -409,6 +409,8 @@ Considere o seguinte ao classificar registros na exibição de tabela:
 * A classificação criada é preservada ao sair.
 
 * É possível classificar por quantos campos forem exibidos na exibição de tabela de um tipo de registro.
+
+* Os campos vinculados podem ser classificados somente se permitirem valores únicos ou valores de seleção múltipla com a opção de resumo selecionada (soma, média, máximo, mínimo).
 
 * A remoção dos critérios de classificação os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e use a mesma exibição usada.
 
