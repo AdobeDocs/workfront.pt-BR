@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 4cf52a9a11765ba5fcd34a52c3fa105811fed1e9
+source-git-commit: 42a697704cb34699c5d09bd2b710dcc33092d05a
 workflow-type: tm+mt
-source-wordcount: '13967'
+source-wordcount: '13972'
 ht-degree: 1%
 
 ---
@@ -2158,6 +2158,7 @@ ht-degree: 1%
       * [Ativar ou desativar um cenário no Adobe Workfront Fusion](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
       * [Adicionar um filtro a um cenário no Adobe Workfront Fusion](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
       * [Cenários de depuração com a Ferramenta de Desenvolvimento Adobe Workfront Fusion](workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
+      * [Gerar um módulo usando IA](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
       * Modelos de cenário do Adobe Workfront Fusion {#fusion-scenario-templates}
          * [Modelos de cenário](workfront-fusion/scenarios/templates/fusion-templates.md)
          * [Criar novos modelos no Adobe Workfront Fusion](workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
