@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2288'
 ht-degree: 3%
 
 ---
@@ -264,10 +264,6 @@ Para adicionar um filtro a uma exibição de tabela:
 
      A tabela abaixo exibe os modificadores disponíveis para cada tipo de campo.
 
-     >[!TIP]
-     >
-     > Não é possível selecionar campos vinculados. Para obter informações, consulte [Criar campos](../fields/create-fields.md).
-
      <table>
         <thead>
         <tr>
@@ -370,17 +366,13 @@ Considere o seguinte:
 Para adicionar um agrupamento:
 
 1. Crie uma exibição de linha do tempo para um tipo de registro, conforme descrito no artigo [Gerenciar exibições de registro](../views/manage-record-views.md).
-1. Clique em **Agrupamento** no canto superior direito da exibição da linha do tempo.
+1. Clique em **Agrupamento** no canto superior direito da exibição em tabela.
 
-   ![](assets/grouping-ui-table-view.png)
+   ![](assets/grouping-ui-table-view-with-linked-fields.png)
 
 1. Clique em um dos campos sugeridos ou clique em **Escolha um campo diferente**, procure um campo diferente e clique nele quando ele for exibido na lista.
 
-   >[!TIP]
-   >
-   >Não é possível selecionar campos vinculados.
-
-   O agrupamento é aplicado automaticamente à tabela e os registros são exibidos sob a linha de separação de agrupamento
+   O agrupamento é aplicado automaticamente à tabela e os registros são exibidos na linha de separação de agrupamento.
 
 1. (Opcional) Repita as etapas acima para adicionar até três agrupamentos.
 
@@ -428,6 +420,7 @@ Para classificar <!--ungrouped (add this when sorting for groupings will be avai
    Ou
 
    Passe o mouse sobre o nome de uma coluna na exibição de tabela, clique na seta para baixo à direita do nome do cabeçalho da coluna e clique em **Classificar por este campo**. O campo é adicionado como uma seleção de classificação no ícone Classificar no canto superior direito da exibição de tabela.
+
 1. No **Classificar registros por** clique em um dos campos sugeridos ou clique em **Escolha um campo diferente** e procure um campo diferente, em seguida, clique nele quando ele for exibido na lista.
 
    A classificação é aplicada automaticamente à exibição de tabela e os registros são classificados pelos critérios selecionados.
@@ -437,10 +430,6 @@ Para classificar <!--ungrouped (add this when sorting for groupings will be avai
 1. (Opcional) Repita as etapas acima para classificar por campos adicionais.
 
    O número de campos que você está classificando é exibido à esquerda do ícone Classificar no canto superior direito da barra de ferramentas. Você pode escolher somente campos que sejam exibidos nas colunas da exibição de tabela.
-
-   >[!TIP]
-   >
-   > Não é possível selecionar campos vinculados. Para obter informações, consulte [Criar campos](../fields/create-fields.md).
 
 1. (Opcional) Na **Classificar registros por** , clique no link **x** ícone à direita de um campo de classificação para remover a classificação
 

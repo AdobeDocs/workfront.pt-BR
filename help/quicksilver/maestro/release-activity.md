@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
 workflow-type: tm+mt
-source-wordcount: '4110'
+source-wordcount: '4172'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,18 @@ Os recursos são lançados semanalmente e são listados na ordem de lançamento,
 >[!IMPORTANT]
 >
 >A documentação referenciada nas seções abaixo estará disponível algum tempo depois que os recursos forem lançados para produção.
+
+## Semana de 26 de fevereiro de 2024
+
+### Filtrar, classificar e agrupar por registros conectados ou campos de pesquisa
+
+Produção: 28 de fevereiro de 2024
+
+Visualização: a ser determinado
+
+Agora é possível filtrar, classificar e agrupar por registros conectados ou seus campos de pesquisa. Esse aprimoramento ajudará você a organizar e visualizar seus dados com eficiência em visualizações de tabela e linha do tempo.
+
+Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/maestro/views/manage-the-table-view.md) e [Gerenciar a exibição de linha do tempo](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
 
 ## Semana de 5 de fevereiro de 2024
 
@@ -124,7 +136,7 @@ Produção: 1 de fevereiro de 2024
 
 Visualização: a ser determinado
 
-Para evitar confusão e simplificar o gerenciamento de espaços de trabalho, removemos os cartões tipo registro gerados automaticamente e somente prontos para objetos conectados que não são Maestri de um espaço de trabalho.
+Para evitar confusão e simplificar o gerenciamento de espaços de trabalho, removemos os cartões de tipo de registro gerados automaticamente e somente leitura para objetos conectados que não são do Maestro de um espaço de trabalho.
 <!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
 Para obter mais informações, consulte [Conectar registros](/help/quicksilver/maestro/records/connect-records.md).
