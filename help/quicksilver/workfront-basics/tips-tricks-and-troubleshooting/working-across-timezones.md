@@ -5,7 +5,7 @@ title: Trabalhar em fusos horários
 description: Pode ser útil compreender como [!DNL Adobe Workfront] O usa fusos horários para calcular campos de tempo para objetos e horários em outras áreas, como emails.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
 source-wordcount: '1081'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 ---
 
 # Trabalhar em fusos horários
+
+<!-- Audited: 2/2024 -->
 
 Pode ser útil compreender como [!DNL Adobe Workfront] O usa fusos horários para calcular o seguinte:
 

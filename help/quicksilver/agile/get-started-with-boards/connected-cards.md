@@ -6,14 +6,16 @@ description: Você pode adicionar um cartão ao seu quadro conectado a tarefas e
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
 
 # Usar placas conectadas em placas
+
+<!-- Audited: 2/2024 -->
 
 Você pode adicionar um cartão ao seu quadro que esteja conectado a tarefas e problemas existentes no [!DNL Workfront].
 
@@ -21,9 +23,9 @@ Quando qualquer um dos detalhes a seguir é atualizado para o cartão em um loca
 
 * [!UICONTROL Nome]
 * [!UICONTROL Descrição]
-* [!UICONTROL Atribuídos]
+* [!UICONTROL Responsáveis]
 * [!UICONTROL Status]
-* [!UICONTROL Data de conclusão planejada]
+* [!UICONTROL Data de término planejada]
 * [!UICONTROL Estimativa] / [!UICONTROL Pontos da história]
 * [!UICONTROL Subtarefas]
 * [!UICONTROL Documentos]
@@ -39,29 +41,33 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano</strong></td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!UICONTROL Solicitação] ou superior</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença</strong></td> 
+   <td>
+   <p>Novo: Colaborador ou superior</p>
+   <p>Ou</p>
+   <p>Atual: solicitação ou superior</p>
+ </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td>
-   <td><p>[!UICONTROL Exibir] ou superior acesso a tarefas e problemas</p></td>
+   <td role="rowheader"><strong>Configurações de nível de acesso</strong></td>
+   <td><p>Visualize ou aumente o acesso a tarefas e problemas</p></td>
   </tr>
   <tr>
    <td role="rowheader"><strong>Permissões de objeto</strong></td>
-   <td><p>Permissões do [!UICONTROL View] ou superior para a tarefa ou problema do Workfront</p></td>
+   <td><p>Visualize ou aumente as permissões para a tarefa ou problema do Workfront</p></td>
   </tr>
  </tbody> 
 </table>
 
-&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Adicionar um cartão conectado
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **[!UICONTROL Quadros]**.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Quadros]**.
 1. Acessar um quadro. Para obter informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
 1. Clique em **[!UICONTROL Adicionar cartão] > [!UICONTROL Cartão conectado]**.
 1. Escolha um projeto e escolha uma tarefa ou problema para adicionar como cartão ao quadro.

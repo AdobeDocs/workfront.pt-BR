@@ -6,22 +6,18 @@ description: Você pode editar modelos de projeto para refletir as alterações 
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
-source-wordcount: '4775'
+source-wordcount: '4710'
 ht-degree: 2%
 
 ---
 
 # Editar modelos de projeto
 
-<!--drafted
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
+<!-- Audited: 2/2024 -->
 
-<!--
-<The Resource Pools part also duplicates in the "Working with Resource Pools" article</p>
--->
+<!--The Resource Pools part also duplicates in the "Working with Resource Pools" article-->
 
 Você pode editar modelos de projeto para refletir as alterações nos processos e configurações do projeto. Depois de atualizar e salvar as alterações em um modelo, as novas alterações ficam visíveis em novos projetos quando os projetos são criados usando o modelo. As alterações feitas no modelo não refletem no projeto que está usando esse modelo no momento.
 
@@ -34,16 +30,20 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenças da Adobe Workfront*</td> 
-   <td> <p>Plano </p> </td> 
+   <td role="rowheader">Licenças do Adobe Workfront</td> 
+   <td>
+      <p>Novo: Padrão</p>
+      <p>Ou</p>
+      <p>Atual: Plano</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Nível de acesso*</td> 
-   <td> <p>Editar acesso a modelos</p> <p>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre o acesso a modelos, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Conceder acesso aos modelos</a>. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>. </p> </td> 
+   <td role="rowheader">Nível de acesso</td> 
+   <td> <p>Editar acesso a modelos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -51,12 +51,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
     <ul> 
      <li> <p>Contribuir com permissões para um modelo para editá-lo na guia Detalhes do modelo</p> </li> 
      <li> <p>Gerenciar permissões de um modelo para editá-lo na caixa Editar modelo</p> </li> 
-    </ul> <p> Para obter informações sobre permissões de modelo, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Compartilhar um modelo</a>. </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Editar um modelo {#edit-a-template}
 
@@ -873,7 +873,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
          </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Conjuntos de recursos</strong> </td> 
+         <td role="rowheader"><strong>Conjuntos de Recursos</strong> </td> 
          <td> <p>Especifique os conjuntos de recursos associados ao modelo. Conjuntos de recursos são coleções de usuários que são necessárias ao mesmo tempo para a conclusão de um projeto. Para obter mais informações sobre conjuntos de recursos, consulte <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Visão geral dos conjuntos de recursos </a>.</p> <p> <p><b>Nota</b>
 
    Ao editar modelos em massa, somente os conjuntos de recursos comuns a todos os modelos selecionados aparecem nesse campo. Se os modelos selecionados não tiverem conjuntos de recursos compartilhados, esse campo estará vazio. Os conjuntos de recursos especificados aqui substituirão os conjuntos de recursos individuais dos modelos.</p> </p> </td>
