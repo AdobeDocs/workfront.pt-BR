@@ -8,9 +8,9 @@ description: As seguintes funções de data e hora estão disponíveis no painel
 author: Becky
 feature: Workfront Fusion
 exl-id: 76c63afc-4bb6-4895-9bba-6b3913ecbcf6
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7de4016e489c5194aee674f4ea090e7bcbb1ce79
 workflow-type: tm+mt
-source-wordcount: '1911'
+source-wordcount: '1992'
 ht-degree: 1%
 
 ---
@@ -186,7 +186,7 @@ Essa função converte uma sequência de caracteres de texto em uma data, de aco
 >
 >* `parseDate(1482940986;X)`
 >
->  Devoluções em 28/12/2016:03:06.000Z
+>   Devoluções em 28/12/2016:03:06.000Z
 
 ## [!UICONTROL addDays (data; número)] {#adddays-date-number}
 
