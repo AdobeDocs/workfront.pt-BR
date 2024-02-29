@@ -6,9 +6,9 @@ description: Ao fornecer comentários de atualização em um objeto do Adobe Wor
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
+source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1637'
 ht-degree: 0%
 
 ---
@@ -160,6 +160,8 @@ Também é possível remover usuários que foram marcados por engano ao editar o
    Os nomes das entidades marcadas são exibidos ao lado de seus avatares, até duas entidades. Se mais de duas entidades forem marcadas, o nome da primeira será exibido, além de um número de entidades adicionais marcadas.
 
    ![](assets/members-icons-expanded-unshimmed.png)
+
+   <span class="preview">Quando você estiver marcado no texto do comentário, seu nome de usuário será destacado nesses comentários.</span>
 
    Para obter informações sobre a funcionalidade adicional disponível ao atualizar um item de trabalho, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

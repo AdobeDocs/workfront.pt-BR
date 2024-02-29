@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
+source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -101,9 +101,9 @@ Para obter informações sobre quais recursos estão disponíveis na nova experi
 1. Vá para o objeto ao qual deseja adicionar uma resposta.
 1. Clique em **Atualizações** e, em seguida, clique na guia **Comentários** para o objeto e localize o comentário ou resposta à qual deseja responder.
 
->[!NOTE]
->
-><span class="preview">Para responder a um comentário na guia Todos, clique em **Responder em Comentários** para abrir o comentário na guia Comentários. Não é possível responder na guia All.</span>
+   >[!NOTE]
+   >
+   ><span class="preview">Para responder a um comentário na guia Todos, clique em **Responder em Comentários** para abrir o comentário na guia Comentários. Não é possível responder na guia All.</span>
 
 1. (Opcional) Para incluir texto de uma atualização anterior em sua resposta, clique no link **Mais** no canto superior direito do comentário que deseja responder e clique em **Citar resposta**. O texto da atualização anterior é exibido na área de entrada, marcado com uma linha cinza vertical.
 1. Clique em **Responder**.
