@@ -4,9 +4,9 @@ description: Aprimoramentos do administrador no segundo trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b55217ee95a41d731c7ef1beebc3e5b32d04b48a
+source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,24 @@ ht-degree: 0%
 Esta página descreve todas as melhorias de administrador feitas com a versão do segundo trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do segundo trimestre de 2024, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Os campos nativos do Workfront estão disponíveis no designer de formulário beta
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 29 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento da versão 24.3 (14 de março de 2024); Produção para todos os clientes: 24.4 (abril de 2024)
+
+Os campos nativos do Workfront agora estão disponíveis para você adicionar aos seus formulários personalizados. Esse novo tipo de campo permite organizar e apresentar dados aos usuários de forma lógica, sem precisar recriar dados existentes em campos personalizados.
+
+Depois de selecionar Campo nativo na lista de campos de formulários personalizados para adicionar o campo ao designer do formulário, você pode selecionar qualquer campo nativo para os objetos do formulário. Por exemplo, se a lista Tipos de objeto na parte superior do designer do formulário mostrar Projeto, você poderá selecionar campos nativos para projetos, mas não campos específicos para tarefas.
+
+Quando o formulário personalizado é anexado a um objeto, o campo é preenchido a partir dos dados do objeto. Por exemplo, o campo Descrição em um formulário personalizado anexado a um projeto extrairá a descrição do projeto. (O campo pode mostrar &quot;N/D&quot; se nenhum dado estiver disponível.)
+
+Os campos nativos usados em formulários personalizados ficam disponíveis na biblioteca de campos no designer para reutilização. Eles também ficam visíveis na área Configurar > Forms personalizados > Campos para que você possa ver em quais formulários são usados.
+
+Esse recurso está disponível somente no designer de formulário beta, não no construtor de formulário herdado.
+
+Os artigos de Experience League para esse recurso serão atualizados até 7 de março.
 
 ## O mapeamento de atributos agora está disponível para organizações que migraram para o Adobe IMS
 

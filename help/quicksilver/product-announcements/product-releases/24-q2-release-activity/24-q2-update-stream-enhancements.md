@@ -4,9 +4,9 @@ description: Melhorias no fluxo de atualizações e na notificação do segundo 
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b045cc3ac31459c4d92083d3a332606b37deaa36
+source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,19 @@ ht-degree: 0%
 Esta página descreve todos os aprimoramentos de Atualização de fluxo e notificação feitos com a versão do Segundo trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do segundo trimestre de 2024, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Informações adicionais do comentador disponíveis na nova experiência de comentários
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 29 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento do 24.3 (14 de março de 2024); Produção para todos os clientes: Com o lançamento do 24.4 (abril de 2024)
+
+Fizemos os seguintes aprimoramentos na nova experiência de comentários:
+
+* Você pode clicar no nome de um comentarista para ver seu nome, função e endereço de email em uma caixa de informações. Essas informações podem ajudar a identificar o usuário correto, se você tiver mais de um usuário com o mesmo nome. Ao clicar no nome do comentarista na caixa de informações, o perfil do usuário é aberto.
+* Seu nome de usuário é destacado nos comentários nos quais você está marcado, quando mencionado no texto do comentário.
+
+Para obter mais informações, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Nova guia de fluxo de atualização para capturar comentários e entradas de atividade do sistema
 
