@@ -3,7 +3,7 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 4adb7fa30f9c1c921727d1a5930318f59ed8af9e
+source-git-commit: 3d4bb2d99bd2942f29bf25434f5554cee5c79553
 workflow-type: tm+mt
 source-wordcount: '13989'
 ht-degree: 1%
@@ -1797,7 +1797,7 @@ ht-degree: 1%
          * [Revisar um documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Conectar o Workfront e o Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
          * [Adicionar um ativo Frame.io a um projeto conectado do Workfront](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
-      * [Aprovar documentos]{#approve-documents}
+      * Aprovar documentos {#approve-documents}
          * [Aprovar documentos: índice do artigo](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
          * [Criar uma aprovação de documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Adicionar revisores ou aprovadores adicionais a um documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
