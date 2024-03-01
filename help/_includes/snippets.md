@@ -1,8 +1,8 @@
 ---
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 472fe32b5f0fa09b00496cf07166e178d248957f
 workflow-type: tm+mt
-source-wordcount: '2356'
-ht-degree: 0%
+source-wordcount: '2362'
+ht-degree: 1%
 
 ---
 # Trechos
@@ -144,7 +144,7 @@ Para configurar pastas vinculadas:
 
 ## Pré-requisitos {#cc-install-prereq}
 
-Você deve instalar o plug-in correto para o aplicativo Adobe Creative Cloud que está usando:
+Você deve instalar o plug-in correto para o aplicativo da Adobe Creative Cloud que está utilizando:
 * Para o Photoshop, consulte [Instalar o Adobe Workfront para Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * Para XD, consulte [Instalar o Adobe Workfront para XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * Para InDesign, Illustrator, Premiere Pro e After Effects, consulte [Instalar o Adobe Workfront para design e vídeo](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
@@ -253,13 +253,13 @@ Você deve instalar o plug-in correto para o aplicativo Adobe Creative Cloud que
 
 >[!IMPORTANT]
 >
->As informações neste artigo referem-se ao Adobe Maestro, que é uma nova oferta da Adobe Workfront.
+>As informações neste artigo se referem aos recursos de planejamento do Adobe Workfront, uma nova oferta da Adobe Workfront.
 >
->Atualmente, o Adobe Maestro faz parte de um programa beta aberto a um número limitado de clientes. Você deve ser um cliente do Workfront para usar os recursos do Maestro.
+>Atualmente, os recursos de planejamento fazem parte de um programa beta aberto a um número limitado de clientes. Você deve ser um cliente do Workfront para usar esses recursos.
 >
->Entre em contato com seu representante de conta para obter mais informações sobre como participar do programa beta para o Maestro.
+>Entre em contato com seu representante de conta para obter mais informações sobre como participar do programa beta para obter recursos de planejamento.
 >
->Para obter mais informações sobre o Maestro, consulte [Visão geral do Adobe Maestri](/help/quicksilver/maestro/maestro-overview.md).
+>Para obter mais informações sobre recursos de planejamento, consulte [Visão geral dos recursos de planejamento do Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

@@ -1,32 +1,32 @@
 ---
-title: Atividade de lançamento do Adobe Maestri
-description: O Adobe Maestri está disponível atualmente para clientes selecionados do Workfront. Leia este artigo com frequência para saber mais sobre os recursos recém-lançados para o Adobe Maestro.
+title: Atividade de lançamento dos recursos de planejamento do Adobe Workfront
+description: Os recursos de planejamento do Adobe Workfront estão disponíveis atualmente para clientes selecionados do Workfront. Leia este artigo com frequência para saber mais sobre os recursos recém-lançados para os recursos de planejamento.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
 workflow-type: tm+mt
-source-wordcount: '4172'
+source-wordcount: '4258'
 ht-degree: 0%
 
 ---
 
-# Atividade de lançamento do Adobe Maestri
+# Atividade de lançamento dos recursos de planejamento do Adobe Workfront
 
 {{maestro-important-intro}}
 
-Este artigo lista os recursos que foram lançados após o lançamento do programa beta fechado do Maestro, em 22 de maio de 2023.
+Este artigo lista os recursos que foram lançados após o lançamento do programa beta fechado de recursos de planejamento do Adobe Workfront, em 22 de maio de 2023.
 
-Os recursos lançados são listados na ordem de lançamento, com o mais recente primeiro. Os clientes que estão participando do programa beta fechado Maestro podem acessar todos os recursos em seus ambientes de produção.
+Os recursos lançados são listados na ordem de lançamento, com o mais recente primeiro. Os clientes que estão participando do programa beta fechado de recursos de planejamento podem acessar todos os recursos em seus ambientes de Produção.
 
 >[!IMPORTANT]
 >
->Entre maio e dezembro de 2023, todos os recursos deste artigo foram lançados para o ambiente de Pré-visualização e Produção. Os recursos do Maestro foram temporariamente removidos dos ambientes de Pré-visualização e Sandbox desde janeiro de 2024. Todos os recursos lançados após essa data estão disponíveis atualmente na Produção.
+>Entre maio e dezembro de 2023, todos os recursos deste artigo foram lançados para o ambiente de Pré-visualização e Produção. Os recursos de planejamento foram temporariamente removidos dos ambientes Pré-visualização e Sandbox desde janeiro de 2024. Todos os recursos lançados após essa data estão disponíveis atualmente na Produção.
 
-Este artigo lista os recursos e patches que foram lançados após o lançamento do programa beta fechado do Maestro, em 22 de maio de 2023.
+Este artigo lista os recursos e correções lançados após o lançamento do programa beta de recursos de planejamento do Adobe Workfront fechado, em 22 de maio de 2023.
 
-Os recursos são lançados semanalmente e são listados na ordem de lançamento, com o mais recente primeiro. Os clientes que estão participando do programa beta fechado Maestro podem acessar todos os recursos em seus ambientes de Pré-visualização e Produção.
+Os recursos são lançados semanalmente e são listados na ordem de lançamento, com o mais recente primeiro. Os clientes que estão participando do programa beta fechado de recursos de planejamento podem acessar todos os recursos em seus ambientes de Pré-visualização e Produção.
 
 >[!IMPORTANT]
 >
@@ -64,7 +64,7 @@ As seguintes permissões agora funcionam em conjunto com o tipo de licença do u
 
 Para obter informações sobre o novo modelo de licença, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Para obter informações sobre a conexão entre tipo de licença e permissões no Maestri, consulte [Visão geral do tipo de licença no Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+Para obter informações sobre a conexão entre tipo de licença e permissões nos recursos do Planning, consulte [Visão geral do tipo de licença no Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Nova aparência da barra de ferramentas de Rich Text para campos de registro
@@ -88,7 +88,7 @@ Reprojetamos e aprimoramos a experiência de adicionar opções ou objetos para 
 * Seleção única
 * Seleção múltipla
 * Pessoas
-* Campos de registro conectados (ao conectar tipos de registro Maestro ou objetos Workfront)
+* Campos de registro conectados (ao conectar tipos de registro do recurso de planejamento ou objetos do Workfront)
 
 Com a nova melhoria, uma caixa menor e mais responsiva é exibida primeiro.
 
@@ -136,14 +136,14 @@ Produção: 1 de fevereiro de 2024
 
 Visualização: a ser determinado
 
-Para evitar confusão e simplificar o gerenciamento de espaços de trabalho, removemos os cartões de tipo de registro gerados automaticamente e somente leitura para objetos conectados que não são do Maestro de um espaço de trabalho.
+Para evitar confusão e simplificar o gerenciamento de espaços de trabalho, removemos os cartões de tipo de registro gerados automaticamente e somente leitura para objetos externos conectados de um espaço de trabalho.
 <!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
 Para obter mais informações, consulte [Conectar registros](/help/quicksilver/maestro/records/connect-records.md).
 
 ## Semana de 22 de janeiro de 2024
 
-### A nova seção Histórico exibe a atividade do sistema para registros Maestri
+### Nova seção Histórico exibe a atividade do sistema para registros de recursos de planejamento
 
 Produção: 25 de janeiro de 2024
 
@@ -151,7 +151,7 @@ Visualização: a ser determinado
 
 Para melhorar os recursos de auditoria, introduzimos uma nova seção no painel direito de um registro, onde você pode revisar as alterações feitas no registro gravado pelo sistema.
 
-Maestri registra as seguintes informações na nova seção História:
+As seguintes informações são registradas na nova seção Histórico:
 
 * Quaisquer alterações de campo
 
@@ -173,13 +173,13 @@ Para criar consistência ao criar registros, renomeamos o link + Novo para criar
 
 ## Semana de 8 de janeiro de 2024
 
-### Os recursos do Maestri são removidos dos ambientes Pré-visualização e Sandbox
+### Os recursos do Planning são removidos dos ambientes Pré-visualização e Sandbox
 
 Pré-visualização e sandbox: 11 de janeiro de 2024
 
-A área do Maestro e todos os recursos do Maestro foram removidos temporariamente dos ambientes de Pré-visualização e Sandbox. O Maestri será adicionado a esses ambientes em uma data posterior, que será comunicada nas notas de atividade da versão.
+Os recursos de planejamento do Adobe Workfront foram removidos temporariamente dos ambientes Pré-visualização e Sandbox. Eles serão adicionados a esses ambientes posteriormente, o que será comunicado nas notas de atividade da versão.
 
-### Permissões principais para espaços de trabalho e visualizações
+### Permissões de recursos do Planning para espaços de trabalho e exibições
 
 Produção: 11 de janeiro de 2024
 
@@ -191,7 +191,7 @@ Quando você compartilha um espaço de trabalho, os usuários têm permissões p
 
 Quando você compartilha um espaço de trabalho, os usuários não recebem permissões de compartilhamento para as exibições associadas aos tipos de registro do espaço de trabalho. Você deve conceder permissões separadas para exibições.
 
-A seguir estão os níveis de permissões para espaços de trabalho Maestro:
+A seguir estão os níveis de permissões para espaços de trabalho:
 
 * Exibir: os usuários podem exibir espaços de trabalho compartilhados com eles. Eles também podem exibir tipos de registro e registros do espaço de trabalho compartilhado.
 
@@ -274,21 +274,21 @@ Pré-visualização e produção para todos os clientes: 18 de dezembro de 2023
 
 Agora é possível colaborar com outras pessoas em registros individuais adicionando comentários ou respondendo a outras pessoas ao visualizar um registro na página Detalhes.
 
-A experiência de comentários para registros do Maestro corresponde à nova experiência de comentários para objetos do Workfront.
+A experiência de comentários para registros de recursos de planejamento corresponde à nova experiência de comentários para objetos do Workfront.
 
 Para obter mais informações, consulte [Gerenciar comentários de registro](/help/quicksilver/maestro/records/manage-record-comments.md).
 
-### Conector Maestri (beta) para Adobe Workfront Fusion
+### Conector de recursos de planejamento (beta) para Adobe Workfront Fusion
 
 Produção: 21 de dezembro de 2023
 
 >[!IMPORTANT]
 >
->Sua organização deve comprar o Adobe Workfront Fusion para criar conexões com o Maestro.
+>Sua organização deve comprar o Adobe Workfront Fusion para poder criar conexões com os recursos de planejamento do Adobe Workfront.
 >
 >Para obter informações, consulte [Visão geral do Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
-Agora, você pode usar o Adobe Workfront Fusion para se conectar ao Maestro. Com a nova conexão Adobe Maestro Fusion, você pode:
+Agora, você pode usar o Adobe Workfront Fusion para se conectar aos recursos de planejamento. Com a nova conexão do Fusion, é possível:
 
 * Criar, ler, atualizar e excluir registros
 
@@ -300,7 +300,7 @@ Agora, você pode usar o Adobe Workfront Fusion para se conectar ao Maestro. Com
 
 * Fazer uma chamada de API
 
-* Acionar um cenário quando uma alteração for feita no Maestro
+* Acione um cenário quando uma alteração for feita nos recursos de planejamento
 
 Para obter mais informações, consulte [Módulos do Adobe Maestri](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md).
 
@@ -310,7 +310,7 @@ Para obter mais informações, consulte [Módulos do Adobe Maestri](/help/quicks
 
 Pré-visualização e produção: 14 de dezembro de 2023
 
-Agora você pode escolher o campo que deseja exibir na primeira coluna de uma exibição de tabela do Maestro. Esse campo agora é chamado de campo primário.
+Agora é possível escolher o campo que deseja exibir na primeira coluna de uma exibição de tabela. Esse campo agora é chamado de campo primário.
 
 Antes desse aprimoramento, o campo Nome de um registro sempre era exibido na primeira coluna da exibição de tabela e não podia ser colocado em outra posição.
 
@@ -332,10 +332,9 @@ Com essa melhoria, observe o seguinte:
 
 * Todas as exibições de tabela de um tipo de registro têm o mesmo campo principal selecionado.
 
-Para obter mais informações, consulte [Gerenciar exibição de tabela](/help/quicksilver/maestro/views/manage-the-table-view.md).
+Para obter mais informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
-
-### Conectar registros do Maestri com o Adobe Experience Manager Assets
+### Conectar registros de recursos de planejamento ao Adobe Experience Manager Assets
 
 Versão de pré-visualização: 14 de dezembro de 2023
 
@@ -343,34 +342,33 @@ Versão de produção: 21 de dezembro de 2023
 
 >[!IMPORTANT]
 >
->A instância da Workfront de sua organização deve ser integrada à Plataforma de negócios Adobe ou à Adobe Admin Console para poder conectar os registros Maestri à Adobe Experience Manager Assets.
+>A instância da Workfront de sua organização deve ser integrada à Plataforma comercial Adobe ou à Adobe Admin Console para poder conectar os registros de recursos de planejamento da Adobe Workfront à Adobe Experience Manager Assets.
 >
 >Em caso de dúvidas sobre a integração com a Adobe Admin Console, consulte [Perguntas frequentes sobre a experiência unificada do Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-
-Agora você pode estabelecer uma conexão entre os tipos de registros Maestro e Adobe Experience Manager Assets.
+Agora é possível estabelecer uma conexão entre os tipos de registro dos recursos de planejamento do Adobe Workfront e o Adobe Experience Manager Assets.
 
 Após estabelecer a conexão, a seguinte funcionalidade estará disponível com esta atualização:
 
-* Você pode vincular ativos e pastas do Experience Manager a um registro Maestro de um repositório específico no Experience Manager Assets ao qual eles têm acesso. Você pode conectar campos de ativos a campos Principais neste processo.
+* Você pode vincular ativos e pastas do Experience Manager a um registro de recurso de planejamento de um repositório específico no Experience Manager Assets ao qual eles têm acesso. Nesse processo, é possível conectar campos de ativos a campos de recursos de planejamento.
 
-* Os usuários do Maestro podem exibir o nome dos ativos conectados, bem como os valores dos campos conectados no Maestro
+* Os usuários do recurso de planejamento podem exibir o nome dos ativos conectados, bem como os valores dos campos conectados nos recursos de planejamento.
 
 <!--removed per PM, for now: 
 * An Experience Manager Assets record type is automatically created in Maestro after you establish the connection. Connected assets are visible in the Maestro table and timeline views of this new record type.  
 -->
 
-* Você pode clicar no nome do ativo na exibição de tabela do registro Mestre no campo de registro conectado e exibir uma janela pop-up com a miniatura do ativo e vários campos-chave. Na janela pop-up, você pode navegar até o visualizador de ativos no Experience Manager e visualizar todos os detalhes sobre ele.
+* Você pode clicar no nome do ativo na exibição de tabela do registro de capacidade de planejamento no campo de registro conectado e exibir uma janela pop-up com a miniatura do ativo e vários campos-chave. Na janela pop-up, você pode navegar até o visualizador de ativos no Experience Manager e visualizar todos os detalhes sobre ele.
 
 Para obter mais informações, consulte [Conectar tipos de registro](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
 ## Semana de 4 de dezembro de 2023
 
-### Copiar e colar informações de um campo para outro na exibição de tabela Mestre para campos de registro vinculados e do tipo Pessoas
+### Copiar e colar informações de um campo para outro na exibição de tabela de recursos de planejamento para campos de registro vinculados e do tipo Pessoas
 
 Pré-visualização e produção: 5 de dezembro de 2023
 
-Agora você pode copiar e colar informações de um campo para outro campo do mesmo tipo em uma exibição de tabela do tipo de registro Maestri. Essa funcionalidade agora é compatível com os seguintes tipos de campos:
+Agora é possível copiar e colar informações de um campo para outro campo do mesmo tipo em uma exibição de tabela do tipo de registro. Essa funcionalidade agora é compatível com os seguintes tipos de campos:
 
 * Pessoas
 * Campos de registro vinculados
@@ -379,7 +377,7 @@ Considere o seguinte:
 
 * Copiar e colar valores de campo de um campo para outro é compatível com campos que exibem vários valores.
 
-* Você não pode copiar informações de outra fonte, que não seja um campo Maestro do mesmo tipo do campo no qual você cola as informações.
+* Não é possível copiar informações de outra origem, que não seja um campo de recurso de planejamento do mesmo tipo do campo no qual você as cola.
 
 * Não é possível copiar e colar valores de campo para campos exibidos na área Detalhes de um registro.
 
@@ -389,15 +387,15 @@ Para obter informações sobre campos vinculados, consulte [Conectar tipos de re
 
 ## Semana de 27 de novembro de 2023
 
-### Copiar e colar informações de um campo para outro na exibição de tabela do Maestro
+### Copie e cole informações de um campo para outro na view de tabela de recursos de planejamento
 
 Pré-visualização e produção: 28 de novembro de 2023
 
-Agora você pode copiar e colar informações de um campo para outro campo do mesmo tipo em uma exibição de tabela do tipo de registro Maestri.
+Agora é possível copiar e colar informações de um campo para outro campo do mesmo tipo em uma exibição de tabela do tipo de registro de recurso de planejamento.
 
 Considere o seguinte:
 
-* Você não pode copiar informações de outra fonte, que não seja um campo Maestro do mesmo tipo do campo no qual você cola as informações.
+* Não é possível copiar informações de outra origem, que não seja um campo de recurso de planejamento do mesmo tipo do campo no qual você as cola.
 
 * Não é possível copiar e colar valores de campo para campos exibidos na área Detalhes de um registro.
 
@@ -417,7 +415,7 @@ Para obter mais informações, consulte [Editar registros](../maestro/records/ed
 
 Pré-visualização e produção: 7 de novembro de 2023
 
-Agora é possível agrupar registros na exibição de tabela de uma página do tipo de registro. Você pode agrupar por três campos únicos na interface do Maestro <!--checking into this for now: and by four fields when using the API-->.
+Agora é possível agrupar registros na exibição de tabela de uma página do tipo de registro. Você pode agrupar por três campos exclusivos na interface do recurso de planejamento<!--checking into this for now: and by four fields when using the API-->.
 
 Para obter mais informações, consulte [Gerenciar a exibição de tabela](../maestro/views/manage-the-table-view.md).
 
@@ -427,7 +425,7 @@ Para obter mais informações, consulte [Gerenciar a exibição de tabela](../ma
 
 Pré-visualização e produção: 30 de outubro de 2023
 
-Introduzimos os seguintes tipos de campos para registros Maestro:
+Introduzimos os seguintes tipos de campo para os registros de recursos de planejamento do Adobe Workfront:
 
 * Criado por
 
@@ -441,11 +439,11 @@ Os valores de campo dos campos criados a partir desses tipos de campo são somen
 
 Para obter mais informações, consulte [Criar campos](../maestro/fields/create-fields.md).
 
-### Navegar para objetos do Workfront a partir de um registro Maestro
+### Navegar até os objetos do Workfront a partir de um registro de recursos de planejamento
 
 Pré-visualização e produção: 31 de outubro de 2023
 
-Agora você pode abrir as páginas de objetos do Workfront nas seguintes áreas no Maestri:
+Agora é possível abrir as páginas de objetos do Workfront nas seguintes áreas nos recursos de planejamento:
 
 * A exibição da tabela de registro de objeto vinculada ao Workfront somente leitura
 
@@ -475,7 +473,7 @@ Para obter mais informações, consulte [Criar registros](../maestro/records/con
 
 Pré-visualização e produção: 16 de outubro de 2023
 
-Agora você pode adicionar um campo do tipo Pessoas aos tipos de registro Maestro. Você pode usar campos do tipo Pessoas para associar usuários existentes a um registro. Para obter informações, consulte [Criar campos](../maestro/fields/create-fields.md).
+Agora é possível adicionar um campo do tipo Pessoas aos tipos de registro de recursos de planejamento. Você pode usar campos do tipo Pessoas para associar usuários existentes a um registro. Para obter informações, consulte [Criar campos](../maestro/fields/create-fields.md).
 
 ### Formato Rich Text para campos de parágrafo
 
@@ -530,21 +528,21 @@ Agora é possível reordenar uma ou várias linhas (ou registros) na exibição 
 
 ## Semana de 4 de setembro de 2023
 
-### Conectar registros do Maestri com empresas e grupos da Workfront
+### Conectar registros de recursos de planejamento a empresas e grupos da Workfront
 
 Pré-visualização e produção: 5 de setembro de 2023
 
-Agora você pode conectar um registro Maestro com empresas e grupos Workfront. Primeiro, você deve criar uma conexão entre um tipo de registro Maestro e os tipos de objeto de empresas e grupos do Workfront. Em seguida, você pode conectar um único registro Maestro do tipo de registro selecionado a empresas e grupos individuais da Workfront.
+Agora é possível conectar um registro de recurso de planejamento a empresas e grupos da Workfront. Primeiro, você deve criar uma conexão entre um tipo de registro de recurso de planejamento e os tipos de objeto de empresas e grupos do Workfront. Em seguida, é possível conectar um único registro de capacidade de planejamento do tipo de registro selecionado a empresas e grupos individuais da Workfront.
 
 Considere o seguinte:
 
-* Você deve criar uma conexão entre os tipos de registro Maestro e os tipos de objeto Empresa e Grupo do Workfront para cada Espaço de trabalho.
+* Você deve criar uma conexão entre os tipos de registro dos recursos de planejamento e os tipos de objeto Empresa e Grupo do Workfront para cada Espaço de trabalho.
 
 * Não é possível conectar tipos de registro de taxonomia a tipos de objeto do Workfront.
 
-* Você pode conectar vários registros do Maestro à mesma empresa ou grupo da Workfront, e várias empresas ou grupos ao mesmo registro do Maestro.
+* Você pode conectar vários registros de capacidade de planejamento à mesma empresa ou grupo da Workfront e várias empresas ou grupos ao mesmo registro de capacidade de planejamento.
 
-* Você não pode editar empresas ou grupos no Maestro. Todas as alterações de empresa ou grupo realizadas no Workfront são visíveis no Maestro, ao revisar os registros vinculados ao Maestro.
+* Não é possível editar empresas ou grupos nos recursos de planejamento. Todas as alterações de empresa ou grupo realizadas no Workfront ficam visíveis nos recursos de planejamento, ao revisar os registros vinculados dos recursos de planejamento.
 
   Para obter mais informações, consulte os seguintes artigos:
 
@@ -571,15 +569,15 @@ Para obter mais informações, consulte [Gerenciar a exibição de tabela](../ma
 
 ## Semana de 21 de agosto de 2023
 
-### Conectar registros do Maestro a programas e portfólios
+### Conectar registros de recursos de planejamento do Adobe Workfront a programas e portfólios
 
 Pré-visualização e produção: 24 de agosto de 2023
 
-Agora você pode conectar um registro do Maestro com programas e portfólios da Workfront. Você deve criar uma conexão entre um tipo de registro Maestro e um programa ou portfólio que cria um campo conectado. Em seguida, você pode conectar qualquer registro Maestro de todos os outros tipos de registro no mesmo espaço de trabalho a programas e portfólios específicos que criam um tipo de registro de Portfolio Workfront ou Programa Workfront somente leitura no mesmo espaço de trabalho. Considere o seguinte:
+Agora é possível conectar um registro de recursos de planejamento a programas e portfólios da Workfront. Você deve criar uma conexão entre um tipo de registro de recursos de planejamento e um programa ou portfólio que cria um campo conectado. Em seguida, é possível conectar qualquer registro de recursos de planejamento de todos os outros tipos de registro no mesmo espaço de trabalho a programas e portfólios específicos que criam um tipo de registro de Portfolio do Workfront ou Programa Workfront somente leitura no mesmo espaço de trabalho. Considere o seguinte:
 
 * Os tipos de registro do conector do Workfront são exclusivos para cada espaço de trabalho.
-* Você pode conectar vários registros do Maestro ao mesmo programa ou portfólio do Workfront, e vários programas e portfólios ao mesmo registro do Maestro.
-* Não é possível editar programas e portfólios no Maestro. Todas as alterações de programa e portfólio realizadas no Workfront são visíveis no Maestro, ao revisar os registros vinculados.
+* É possível conectar vários registros de recursos de planejamento ao mesmo programa ou portfólio do Workfront e vários programas e portfólios ao mesmo registro de recursos de planejamento.
+* Não é possível editar programas e portfólios nos recursos de planejamento. Todas as alterações de programa e portfólio realizadas no Workfront ficam visíveis nos recursos de planejamento ao revisar os registros vinculados.
 
 ### Nova funcionalidade de classificação para a exibição de tabela
 
@@ -608,13 +606,13 @@ Introduzimos as seguintes melhorias na visualização da linha do tempo:
 
 ### Reordenar colunas na exibição de tabela
 
-Agora você pode reordenar colunas na exibição de tabela Maestri. Considere o seguinte ao reordenar colunas:
+Agora é possível reordenar colunas na exibição de tabela. Considere o seguinte ao reordenar colunas:
 
 * O campo Nome é sempre o primeiro campo na exibição de tabela de uma página do tipo registro
 
 * Não é possível mover o campo Nome para outra posição
 
-* O campo Nome está congelado e não faz parte da rolagem horizontal.
+* O campo Nome está congelado e não faz parte da rolagem horizontal
 
 ### Rolagem horizontal para exibição da linha do tempo
 
@@ -650,7 +648,7 @@ Agora é possível selecionar um ícone personalizado para um tipo de registro e
 
 Pré-visualização e produção: 13 de julho de 2023
 
-Agora você pode adicionar um tipo de campo Caixa de seleção aos tipos de registro Mestre. Você pode usar um campo do tipo Caixa de seleção para adicionar uma única opção de caixa de seleção a um registro. Você pode usar esse campo para indicar um atributo ou status específico para esse registro específico. Por exemplo, você pode usá-lo como um sinalizador para rastrear a conclusão, a aprovação ou qualquer outro atributo binário para cada registro.
+Agora é possível adicionar um tipo de campo Caixa de seleção a tipos de registro de recurso de planejamento. Você pode usar um campo do tipo Caixa de seleção para adicionar uma única opção de caixa de seleção a um registro. Você pode usar esse campo para indicar um atributo ou status específico para esse registro específico. Por exemplo, você pode usá-lo como um sinalizador para rastrear a conclusão, a aprovação ou qualquer outro atributo binário para cada registro.
 
 ## Semana de 26 de junho de 2023
 
@@ -664,19 +662,19 @@ Ativamos a capacidade de ativar o menu contextual clicando com o botão direito 
 
 ### Os nomes dos campos de registro são exclusivos
 
-Introduzimos um requisito agora que os nomes de campos de um tipo de registro Maestri devem ter nomes únicos. Os campos que pertencem a tipos de registro diferentes não precisam ter nomes exclusivos.
+Agora, introduzimos um requisito para que os nomes de campos de um tipo de registro de recurso de planejamento tenham nomes exclusivos. Os campos que pertencem a tipos de registro diferentes não precisam ter nomes exclusivos.
 
 ## Semana de 5 de junho de 2023
 
-### Conectar registros do Maestri com projetos da Workfront
+### Conectar registros de recursos de planejamento do Adobe Workfront com projetos do Workfront
 
 Pré-visualização e produção: 5 de junho de 2023
 
-Agora você pode conectar um registro Maestro com projetos Workfront. Você deve criar um tipo de registro conector Maestri para estabelecer a conexão entre os registros Maestri e os projetos Workfront. Em seguida, é possível conectar qualquer registro Maestro de todos os outros tipos de registro ao registro conector usando o campo Relacionamento. Considere o seguinte:
+Agora é possível conectar um registro de recursos de planejamento a projetos do Workfront. Você deve criar um tipo de registro dos recursos de planejamento do conector para estabelecer a conexão entre os registros dos recursos de planejamento e os projetos do Workfront. Em seguida, é possível conectar qualquer registro de recursos de planejamento de todos os outros tipos de registro ao registro do conector usando o campo Relacionamento. Considere o seguinte:
 
 * Você deve ter um tipo de registro de conector para o Workfront para cada Espaço de trabalho.
-* Você pode conectar vários registros do Maestro ao mesmo projeto do Workfront, e vários projetos ao mesmo registro do Maestro.
-* Não é possível editar projetos no Maestro. Todas as alterações de projeto realizadas no Workfront são visíveis no Maestro, ao revisar os registros vinculados.
+* Você pode conectar vários registros de recursos de planejamento ao mesmo projeto do Workfront e vários projetos ao mesmo registro de recursos de planejamento.
+* Não é possível editar projetos nos recursos de planejamento. Todas as alterações de projeto executadas no Workfront ficam visíveis nos recursos de planejamento, ao revisar os registros vinculados.
 
 ## Semana de 29 de maio de 2023
 
