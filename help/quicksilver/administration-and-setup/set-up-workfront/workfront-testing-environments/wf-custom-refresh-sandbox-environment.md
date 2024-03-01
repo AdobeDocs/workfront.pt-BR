@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 0e2c529e61ed1c9c85dbd826029cf64346f865ff
+source-git-commit: 0bfeae7db0e3dfbb402ee602b4ede97cb6c605fa
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1595'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ A Sandbox de atualização personalizada contém seus dados reais de produção 
 >[!NOTE]
 >
 >* Você não pode programar uma atualização para o dia atual. Por exemplo, se hoje for 1º de junho, o primeiro dia em que você pode programar uma atualização será 2 de junho.
->* A atualização programada ocorre às 12h de uma determinada data, com base no fuso horário do usuário que enviou a solicitação.
+>* A atualização programada ocorre em algum momento durante a noite, com base no cluster do usuário (os clusters dos EUA são atualizados durante a noite nos EUA). O horário específico é imprevisível devido a outros clientes na fila e à quantidade de dados que são atualizados. Se a fila tiver muitos clientes grandes, a atualização pode não ser executada até mais tarde naquele dia ou no dia seguinte.
 >* Sua sandbox de atualização personalizada sempre tem os mesmos recursos de produto que seu ambiente de produção. No entanto, quando você atualiza a Sandbox de atualização personalizada, ela preserva a identidade visual somente para a cor de fundo da tela de logon. Os logotipos da tela de logon e da barra de navegação são redefinidos como [!DNL Workfront] padrão e quaisquer imagens de marca modificadas antes da atualização não são exibidas.
 >
 
