@@ -9,14 +9,16 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 38e548594b37ef3109d7df436955a5255881bb6d
+source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
 # Acesso a objetos e áreas por novas licenças
+
+<!-- Audited: 2/2024 -->
 
 A tabela abaixo informa o nível mais alto de acesso (Editar ou Exibir) que cada uma das licenças do Adobe Workfront permite para os objetos e áreas no Workfront.
 
@@ -74,7 +76,7 @@ A tabela abaixo informa o nível mais alto de acesso (Editar ou Exibir) que cada
         <td>Relatórios, painéis e calendários</td>
         <td>Editar</td>
         <td>Exibir</td>
-        <td>Exibir*</td>
+        <td>Visualização*</td>
         <td>Exibir (somente para calendários, sem permissões de compartilhamento)</td>
     </tr>
     <tr>

@@ -7,14 +7,16 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
-# Use o [!DNL Adobe Workfront] aplicativo móvel
+# Use o [!DNL Adobe Workfront] aplicativo móvel: índice do artigo
+
+<!-- Audited: 2/2024 -->
 
 Acelere o engajamento e simplifique o trabalho para equipes e indivíduos em sua organização por meio de [!DNL Adobe Workfront's] aplicativo móvel, disponível em qualquer dispositivo iOS ou Android. Com o aplicativo, você pode:
 
@@ -38,13 +40,13 @@ No aplicativo móvel, você pode concluir itens de trabalho e visualizar informa
 
 >[!NOTE]
 >
->A variável [!DNL Adobe Workfront] O aplicativo móvel está substituindo o [!DNL Workfront Proof] O aplicativo, que não é mais compatível e será totalmente removido com a versão 23.10 em outubro. [!DNL Workfront] agora, os clientes devem usar o [!DNL Adobe Workfront] aplicativo móvel para realizar revisões e aprovações de prova.
+>A variável [!DNL Adobe Workfront] O aplicativo móvel substituiu o [!DNL Workfront Proof] aplicativo. [!DNL Workfront] agora, os clientes devem usar o [!DNL Adobe Workfront] aplicativo móvel para realizar revisões e aprovações de prova.
 
 Para obter mais informações sobre o [!DNL Adobe Workfront] aplicativo móvel, leia os seguintes artigos:
 
-* [[!DNL Adobe Workfront] por [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
+* [[!DNL Adobe Workfront] para [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
 * [Seja um [!DNL Android] testador beta](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
-* [[!DNL Adobe Workfront] por [!DNL iOS]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
+* [[!DNL Adobe Workfront] para [!DNL iOS]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
 * [Seja um [!DNL iOS] testador beta](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
 * [[!UICONTROL Início] widgets de área](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)
 * [[!UICONTROL Meu trabalho] no aplicativo móvel](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)

@@ -6,16 +6,16 @@ description: Portfolio são coleções de projetos ou programas no Adobe Workfro
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
 
 # Excluir e desativar portfólios
 
-<!--Audited: 01/2024-->
+<!--Audited: 2/2024-->
 
 Portfolio são coleções de projetos ou programas em [!DNL Adobe Workfront]. Você pode excluir ou desativar um portfólio se achar que ele é irrelevante para o seu sistema.
 
@@ -30,26 +30,26 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
    <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
    <td> <p>Novo: [!UICONTROL Padrão] </p>
    <p>Atual: [!UICONTROL Plano] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>[!UICONTROL Editar] acesso a Projetos e Portfolio</p> <p><b>Nota</b></p> <p> Se você não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais no seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>[!UICONTROL Editar] acesso a Projetos e Portfolio</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Permissões do [!UICONTROL Manager] no portfólio </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Permissões do [!UICONTROL Manager] no portfólio </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Visão geral da exclusão e desativação de portfólios
 
@@ -71,18 +71,16 @@ Ao desativar um portfólio, você ainda pode acessá-lo pelo [!UICONTROL Portfol
 
 >[!NOTE]
 >
->Dependendo de como sua [!DNL Workfront] ou um administrador de grupo configurar seu modelo de layout, a variável [!UICONTROL Portfolio] A área pode não ser exibida na variável [!UICONTROL Menu principal]. Para obter mais informações, consulte [Personalizar o menu principal usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
+>Dependendo de como sua [!DNL Workfront] ou um administrador de grupo configurar seu modelo de layout, a variável [!UICONTROL Portfolio] A área pode não ser exibida na variável [!UICONTROL Menu principal]. Para obter mais informações, consulte [Personalizar o menu principal usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront].
-
+1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo.
 1. Clique em **[!UICONTROL Portfolio]** .
 1. Clique no nome do portfólio.
 1. Clique em **Mais** menu ![](assets/more-icon.png) à direita do nome do portfólio e clique em **[!UICONTROL Desativar Portfolio]**.
 
 ## Excluir um portfólio
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
-
+1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo.
 1. Clique em **[!UICONTROL Portfolio]** .
 1. Selecione o portfólio e clique em **[!UICONTROL Excluir]**&#x200B;o [!UICONTROL Excluir] ícone ![](assets/delete.png).
 1. Na caixa exibida, clique em **[!UICONTROL Sim, exclua.]** para confirmar.
