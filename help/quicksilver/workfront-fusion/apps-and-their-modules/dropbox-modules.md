@@ -9,9 +9,9 @@ description: Em um [!DNL Adobe Workfront Fusion] Neste cenário, você pode auto
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a35631d7-40ac-4e7f-9a37-ad3879c0b6a2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 9db172cc8c02efcd1128fa8adc5ff55bb29b4df5
 workflow-type: tm+mt
-source-wordcount: '3061'
+source-wordcount: '3080'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,14 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
 
 ## Pré-requisitos
 
-Para usar [!DNL Dropbox] módulos, você deve ter uma [!DNL Dropbox] conta.
+* Para usar [!DNL Dropbox] módulos, você deve ter uma [!DNL Dropbox] conta.
+
+>[!IMPORTANT]
+>
+>O Dropbox deve aprovar aplicativos com mais de 50 usuários.
+>
+>Para obter mais informações, pesquise por &quot;Aprovação de produção&quot; no guia do desenvolvedor de Dropbox.
+
 
 ## [!DNL Dropbox] módulos e seus campos
 
@@ -75,12 +82,12 @@ Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo par
 
 ![](assets/map-toggle-350x74.png)
 
-* [Módulos de acionamento](#trigger-modules)
+* [Módulos acionadores](#trigger-modules)
 * [Módulos para obter [!DNL Dropbox] arquivos e pastas](#modules-for-getting-dropbox-files-and-folders)
 * [Módulos para criação e edição [!DNL Dropbox] arquivos e pastas](#modules-for-creating-and-editing-dropbox-files-and-folders)
 * [Outros módulos](#other-modules)
 
-### Módulos de acionamento
+### Módulos acionadores
 
 #### [!UICONTROL Observar arquivos]
 
