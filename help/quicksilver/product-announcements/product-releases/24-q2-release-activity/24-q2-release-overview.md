@@ -4,9 +4,9 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -284,6 +284,24 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                         </ul>
                     </td>
                 </tr>  
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">A guia Atividade do sistema na nova experiência de comentários aceita comentários somente leitura</a></p><p>Os comentários feitos nos registros de atividade do sistema na experiência de comentários herdada agora são preenchidos na guia Atividade do sistema na nova experiência de comentários como somente leitura. Não é possível responder aos registros de atividade do sistema na nova experiência de comentários.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 22 de fevereiro de 2024</p>
+                            </li>
+                            <li>
+                                <p>Produção para lançamento rápido: com o lançamento do 24.3 (março de 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão trimestral: com a versão 24.4 (abril de 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nova guia de fluxo de atualização para capturar comentários e entradas de atividade do sistema</a></p><p>Para fornecer uma exibição cronologicamente coesa de comentários e logs de atividades do sistema, estamos introduzindo uma terceira guia à área Atualizações de todos os objetos. A guia "Todos" captura os comentários do usuário e os comentários da atividade do sistema em um fluxo coeso.</p>

@@ -4,9 +4,9 @@ description: Melhorias no fluxo de atualizações e na notificação do segundo 
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
+source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,16 @@ Fizemos os seguintes aprimoramentos na nova experiência de comentários:
 * Seu nome de usuário é destacado nos comentários nos quais você está marcado, quando mencionado no texto do comentário.
 
 Para obter mais informações, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+## A guia Atividade do sistema na nova experiência de comentários aceita comentários somente leitura
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 22 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento do 24.3 (14 de março de 2024); Produção para todos os clientes: Com o lançamento do 24.4 (abril de 2024)
+
+Os comentários feitos nos registros de atividade do sistema na experiência de comentários herdada agora são preenchidos na guia Atividade do sistema na nova experiência de comentários como somente leitura. Não é possível responder aos registros de atividade do sistema na nova experiência de comentários.
+
+Para obter mais informações, consulte [Visão geral da seção Atualizações](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## Nova guia de fluxo de atualização para capturar comentários e entradas de atividade do sistema
 
