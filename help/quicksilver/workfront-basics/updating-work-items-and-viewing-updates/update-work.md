@@ -6,9 +6,9 @@ description: Você pode adicionar uma atualização em um objeto do Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
+source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
 workflow-type: tm+mt
-source-wordcount: '4257'
+source-wordcount: '4279'
 ht-degree: 1%
 
 ---
@@ -322,7 +322,7 @@ Você pode adicionar atualizações aos seguintes objetos:
 
    >[!TIP]
    >
-   >Não é possível adicionar um comentário a uma atualização do sistema.
+   >Não é possível adicionar um comentário a uma atualização do sistema. <span class="preview">No entanto, todas as respostas feitas aos registros de atividade do sistema na experiência de comentários herdada são preenchidas na guia Atividade do sistema como somente leitura.</span>
 
 1. <span class="preview">(Opcional) Clique no link **Todos** para exibir comentários do usuário e comentários de atividades do sistema em um local. Esta é uma guia somente para visualização.</span>
 

@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 6%
+source-wordcount: '447'
+ht-degree: 0%
 
 ---
 
 # Atualizações rastreadas pelo sistema
+
+{{highlighted-preview}}
 
 <!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
@@ -51,7 +53,7 @@ As atualizações rastreadas pelo sistema não estão disponíveis para todos os
    * [!UICONTROL Projeto]
    * [!UICONTROL Tarefa]
    * [!UICONTROL Problema]
-   * [!UICONTROL Portfólio]
+   * [!UICONTROL Portfolio]
    * [!UICONTROL Programa]
    * [!UICONTROL Usuário]
    * [!UICONTROL Modelo]
@@ -59,7 +61,7 @@ As atualizações rastreadas pelo sistema não estão disponíveis para todos os
    * [!UICONTROL Equipe]
    * [!UICONTROL Documento]
    * [!UICONTROL Planilha de horas]
-   * [!UICONTROL História]
+   * [!UICONTROL Story]
 
      Entrada [!DNL Workfront], uma história é uma tarefa.
    * [!UICONTROL Iteração]
@@ -90,6 +92,7 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
      Para obter mais informações sobre a nova experiência de comentários, consulte [Nova experiência de comentários](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
+   * <span class="preview">Ao usar a nova experiência de comentários, os usuários não podem adicionar um comentário a uma atualização do sistema. No entanto, todas as respostas feitas aos registros de atividade do sistema na experiência de comentários herdada são preenchidas na guia Atividade do sistema como somente leitura na nova experiência de comentários.</span>
    * Ao usar a experiência de comentários herdada, as atualizações do sistema e do usuário são exibidas em um feed contínuo.
 
    * Ao usar a experiência de comentários herdada, os usuários podem visualizar as atualizações do sistema por padrão ou optar por não exibi-las. Não é possível desativar as atualizações do sistema ao usar a nova experiência de comentários.
@@ -98,7 +101,7 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
 * O Workfront registra atualizações rastreadas pelo sistema para os seguintes objetos, mas não há opção para desativar a exibição deles:
 
-   * [!UICONTROL Portfólio]
+   * [!UICONTROL Portfolio]
    * [!UICONTROL Programa]
    * [!UICONTROL Iteração]
 

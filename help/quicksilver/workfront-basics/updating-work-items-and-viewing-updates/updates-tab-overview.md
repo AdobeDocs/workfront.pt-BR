@@ -7,9 +7,9 @@ description: A seção Atualizações de um objeto exibe comentários que os usu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
+source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1332'
 ht-degree: 3%
 
 ---
@@ -119,7 +119,7 @@ Exemplo da seção Atualizações no ambiente de Produção:
 * A seção Atualizações exibe informações nas seguintes guias na nova experiência de comentários:
 
    * **Comentários**: exibe comentários feitos por usuários e responde a esses comentários. Use a guia Comentários para adicionar novos comentários ou responder aos existentes. Para obter informações sobre como atualizar objetos na nova experiência de comentários, consulte [Atualizar trabalho](../updating-work-items-and-viewing-updates/update-work.md).
-   * **Atividade do sistema**: exibe as atualizações do sistema que são mensagens informativas criadas pelo Workfront para registrar determinados eventos em um objeto. Por exemplo, alterações em status, nome ou campos personalizados são capturadas com atualizações do sistema. O administrador do Workfront ou de grupo pode habilitar atualizações de sistema para seus objetos. Para obter mais informações, consulte [Configurar atualizações do sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+   * **Atividade do sistema**: exibe as atualizações do sistema que são mensagens informativas criadas pelo Workfront para registrar determinados eventos em um objeto. Por exemplo, alterações em status, nome ou campos personalizados são capturadas com atualizações do sistema. O administrador do Workfront ou de grupo pode habilitar atualizações de sistema para seus objetos. <span class="preview">Quaisquer respostas feitas aos registros de atividade do sistema na experiência de comentários herdada serão preenchidas na guia Atividade do sistema como somente leitura.</span> Para obter mais informações, consulte [Configurar atualizações do sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
    * <span class="preview">**Todos (somente leitura)**: exibe comentários do usuário e comentários de atividades do sistema em um local. Esta é uma guia somente para visualização. Não é possível responder a comentários ou marcar outros usuários em comentários existentes na guia Todos. Para responder a um comentário específico, use o link da guia All para a guia Comments. Para obter informações sobre como atualizar objetos na nova experiência de comentários, consulte [Atualizar trabalho](../updating-work-items-and-viewing-updates/update-work.md).</span>
 
 * Os seguintes objetos não têm a guia Atividade do sistema <span class="preview">ou na guia Todos</span>:
