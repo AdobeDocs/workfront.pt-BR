@@ -5,9 +5,9 @@ title: Conectar o Workfront e o Frame.io
 description: O Workfront usa o Frame.io no processo de revisão e aprovação para atender às pessoas onde elas desejam trabalhar. O processo de gerenciamento e aprovação de projetos é gerenciado no Workfront e o processo de revisão é feito no Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: f50d102eb9c44abb9780c378c41c108b124077c4
+source-git-commit: cf8501ff21dc9f3a3c66d8e98555986f18aeaa80
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -15,18 +15,16 @@ ht-degree: 0%
 
 # Conectar o Workfront e o Frame.io
 
-O Workfront usa o Frame.io no processo de revisão e aprovação para atender às pessoas onde elas desejam trabalhar. O processo de gerenciamento e aprovação de projetos é gerenciado no Workfront e o processo de revisão é feito no Frame.io. Você deve concluir todas as seções a seguir para configurar a integração com êxito:
+O Workfront usa o Frame.io no processo de revisão e aprovação para atender às pessoas onde elas desejam trabalhar. O processo de gerenciamento e aprovação de projetos é gerenciado no Workfront e o processo de revisão é concluído no Frame.io. Você deve concluir todas as seções a seguir para configurar a integração com êxito:
 
 * [Conectar um grupo do Workfront a uma equipe do Frame.io](#connect-a-workfront-group-to-a-frameio-team)
 * [Criar um projeto do Workfront e adicionar um grupo conectado](#create-a-workfront-project-and-add-a-connected-group)
 
->[!IMPORTANT]
->
->O conteúdo deste artigo se refere à funcionalidade atualizada de aprovação de documentos, disponível somente para contas específicas. Para obter informações sobre processos de aprovação padrão, consulte os artigos listados em [Aprovações de trabalho](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+O conteúdo deste artigo se refere à funcionalidade atualizada de aprovação de documentos, disponível somente para contas específicas. Para obter informações sobre processos de aprovação padrão, consulte os artigos listados em [Aprovações de trabalho](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Requisitos de acesso
 
-* Sua organização deve ser integrada manualmente para usar a funcionalidade descrita neste artigo. Para obter mais informações, consulte [Integração nativa do Adobe Workfront e Frame.io alfa: visão geral](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
+* Sua organização deve ser integrada manualmente para usar a funcionalidade descrita neste artigo. Para obter mais informações, consulte [Integração nativa do Adobe Workfront e Frame.io alfa: visão geral](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
 
 
 ## Conectar um grupo do Workfront a uma equipe do Frame.io
@@ -48,7 +46,7 @@ Estamos aprimorando ativamente esse recurso para disponibilidade geral em maio.
    ![](assets/connect-frame-group.png)
 1. Insira o token do desenvolvedor de API.
 1. Clique em **Iniciar conexão**.
-1. (Condicional) Selecione uma conta Frame.io.
+1. (Condicional) Se você for o administrador de mais de uma conta Frame.io, selecione a conta que deseja usar.
 
 ## Criar um projeto do Workfront e adicionar um grupo conectado
 
@@ -81,7 +79,7 @@ Depois de conectar um Grupo Workfront a uma equipe Frame.io, você deve criar um
 
 >[!NOTE]
 >
->Subtarefas não são suportadas no momento.
+>Atualmente, as subtarefas não são suportadas em projetos Frame.io conectados.
 
 
 1. Crie as tarefas que você precisa preencher no Frame.io
@@ -92,9 +90,10 @@ Depois de conectar um Grupo Workfront a uma equipe Frame.io, você deve criar um
 
    >[!IMPORTANT]
    >
-   >É necessário adicionar o grupo conectado Frame.io para ver esse formulário personalizado nas tarefas.
+   >Um grupo Frame.io conectado deve ser atribuído na área Detalhes do projeto para que este formulário seja exibido. Para obter mais informações, consulte [Criar um projeto do Workfront e adicionar um grupo conectado](#create-a-workfront-project-and-add-a-connected-group) neste artigo.
 
-1. Ative a caixa de seleção e escolha **Ativo**.
+
+1. Ativar o **Status de integração desta tarefa** e escolha **Ativo**.
    ![](assets/frame-custom-form.png)
 
 1. Clique em **Salvar alterações**. Um ícone Frame.io é exibido ao lado do nome do projeto.
@@ -111,6 +110,12 @@ O projeto ainda não está conectado. Você deve continuar com a próxima seçã
 
 ### Habilitar o projeto no Frame.io
 
-1. Alterar o status de **Planejamento** para **Atual** ou um status personalizado igual ao atual. Isso conclui a integração e gera o projeto, as tarefas e quaisquer documentos no Frame.io.
+1. Alterar o status do projeto de **Planejamento** para **Atual** ou um status personalizado igual ao atual. Isso conclui a integração e gera o projeto, as tarefas e quaisquer documentos no Frame.io.
 
 O ícone Frame.io ao lado do nome do projeto fica roxo, sinalizando que a integração foi bem-sucedida. Os usuários recebem um email convidando-os para o projeto Frame.io.
+
+>[!IMPORTANT]
+>
+>Uma vez que o projeto esteja conectado ao Frame.io, as alterações feitas no grupo do projeto não são refletidas no Frame.io.
+
+

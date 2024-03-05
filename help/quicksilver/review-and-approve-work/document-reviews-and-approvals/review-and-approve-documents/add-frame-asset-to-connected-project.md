@@ -5,9 +5,9 @@ title: Adicionar um ativo Frame.io a um projeto conectado do Workfront
 description: Os profissionais de criação podem adicionar ativos que precisam ser revisados para o Frame.io e enviá-los ao Workfront para revisão e aprovação formais.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 4edb4f8d0c309c77fbdf96eba056c9e763c799be
+source-git-commit: 87ad8ac6c5768b8ed31ee280212e965789e3ccf4
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 ## Pré-requisitos
 
 * Você deve ter um grupo do Workfront conectado a uma equipe Frame.io.
-* Você deve ter um projeto Workfront conectado a um projeto Frame.io e ser adicionado como usuário a uma tarefa habilitada para quadros.
+* Você deve ter um projeto Workfront conectado a um projeto Frame.io e ser adicionado como usuário a uma tarefa Workfront habilitada para Frame.io.
 
 Para obter mais informações, consulte [Conecte o Workfront e o Frame.io.](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
 
