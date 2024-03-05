@@ -7,9 +7,9 @@ description: Você pode usar um modelo de layout para configurar o que os usuár
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '779'
 ht-degree: 1%
 
 ---
@@ -80,7 +80,14 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><
       <p>Selecione quais widgets estarão presentes nos espaços de trabalho dos usuários, suas posições e escolha um plano de fundo. Observe que, embora os usuários não possam remover os widgets selecionados, eles podem movê-los e redimensioná-los livremente, bem como adicionar widgets adicionais.</p>
       <p>Essa guia funciona essencialmente como um pequeno espaço de trabalho novo da Página inicial; dessa forma, ela pode ser personalizada de acordo com as etapas descritas em <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Adicionar, editar ou remover widgets em nova Página inicial</a>. Selecione widgets e organize o espaço de trabalho da maneira que você desejar que ele seja exibido para os usuários.</p>
       <p>Para alterar o plano de fundo, siga as etapas em <b>Personalização de plano de fundo</b> in <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">Introdução à nova página inicial</a>.</p>
-      </td> 
+      <p>
+
+>[!NOTE]
+>
+>Somente mover ou redimensionar widgets no Modelo de layout não fará com que as novas Home pages dos usuários atualizem seu layout. No entanto, adicionar ou remover um widget acionará uma atualização nas páginas dos usuários.
+
+</p>
+     </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Configurações do dispositivo</td> 
@@ -93,18 +100,24 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><
       </ul>
       <p>Depois de selecionar o widget que deseja editar, as opções disponíveis serão exibidas à direita. Essas opções incluem <b>Filtros</b>, <b>Colunas</b>, e <b>Grupos</b>. Você pode:</p>
       <ul>
-        <li><b>Selecione quais Filtros, Colunas ou Grupos estarão disponíveis para os usuários:</b><p>Marque a caixa ao lado de todas as opções na lista que você deseja que os usuários possam usar. Opções desmarcadas não serão exibidas para usuários.</li></p>
-        <li><b>Defina um Filtro ou Grupo padrão para o widget:</b><p>Passe o mouse sobre uma opção e um botão aparecerá, permitindo que você defina essa opção como padrão para os usuários. O padrão atual terá um emblema Padrão azul à direita.</li></p>
-        <li><b>Adicione um Filtro, Coluna ou Grupo existente à lista de opções disponíveis:</b><p>Clique no botão de adição na parte inferior de cada lista para adicionar uma opção a ela. Observe que somente Filtros, Campos (para Colunas) ou Grupos existentes podem ser adicionados dessa maneira.</li></p>
+      <li><p><b>Selecione quais Filtros, Colunas ou Grupos estarão disponíveis para os usuários:</b></p>
+      <p>Marque a caixa ao lado de todas as opções na lista que você deseja que os usuários possam usar. Opções desmarcadas não serão exibidas para usuários.</li></p>
+      <li><p><b>Defina um Filtro ou Grupo padrão para o widget:</b></p>
+      <p>Passe o mouse sobre uma opção e um botão aparecerá, permitindo que você defina essa opção como padrão para os usuários. O padrão atual terá um emblema Padrão azul à direita.</li></p>
+      <li><p><b>Adicione um Filtro, Coluna ou Grupo existente à lista de opções disponíveis:</b></p>
+      <p>Clique no botão de adição na parte inferior de cada lista para adicionar uma opção a ela. Observe que somente Filtros, Campos (para Colunas) ou Grupos existentes podem ser adicionados dessa maneira.</p></li>
       </ul>
-      </td> 
-     </tr>
-    </tbody> 
-   </table>
+      <p>
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Se você definir um filtro ou agrupamento padrão para um widget específico usando um modelo de layout, ele pode não entrar em vigor imediatamente devido às preferências do usuário existentes. Para aplicar o novo filtro ou agrupamento imediatamente, você ou o usuário podem precisar redefinir suas preferências de usuário anexando &quot;/resetUser&quot; ao final de seu URL.
+
+</p>
+  </td> 
+  </tr>
+  </tbody> 
+  </table>
 
 1. Continue personalizando o modelo de layout.
 

@@ -4,9 +4,9 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
+source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1377'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,25 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                     <td>
                         <p><span class="bold">Datas de lançamento</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">A integração JumpSeat agora está disponível para novos tipos de pacote</a><span style="color: #ff0000;"> Novo na visualização!</span></p>
+                        <p>A integração do JumpSeat existente agora está disponível para contas que usam um dos novos tipos de pacote (ou seja, Select, Prime ou Ultimate). Você ainda deve ter uma assinatura ativa do JumpSeat para habilitar a integração.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 26 de fevereiro de 2024</p>
+                            </li>
+                            <li>
+                                <p>Produção para lançamento rápido: com o lançamento do 24.3 (14 de março de 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão trimestral: com a versão 24.4 (abril de 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -220,6 +239,25 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">O novo fluxo de comentários agora está disponível em ações rápidas para novos widgets da Página inicial</a><span style="color: #ff0000;"> Novo na visualização!</span></p>
+                        <p>Agora adicionamos a nova funcionalidade de comentários à <b>Adicionar nova atualização</b> botão de ação rápida nos widgets Meu trabalho, Meus projetos, Minhas tarefas e Meus problemas, na nova página inicial.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 1 de março de 2024</p>
+                            </li>
+                            <li>
+                                <p>Produção para lançamento rápido: com o lançamento do 24.3 (14 de março de 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão trimestral: com a versão 24.4 (abril de 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Informações adicionais do comentador disponíveis na nova experiência de comentários</a><span style="color: #ff0000;"> Novo na visualização!</span></p><p>Fizemos os seguintes aprimoramentos na nova experiência de comentários:</p>

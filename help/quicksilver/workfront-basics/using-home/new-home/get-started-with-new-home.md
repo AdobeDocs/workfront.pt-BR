@@ -6,9 +6,9 @@ description: A nova Página inicial é um novo recurso poderoso para gerenciar s
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 61074fd87dafde9eb555da27e207198ee0eadc60
+source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1103'
 ht-degree: 8%
 
 ---
@@ -43,7 +43,7 @@ Abaixo estão os dez widgets disponíveis atualmente para escolher, bem como um 
     Exibe tarefas que são atribuídas a você em uma lista. Você pode usar filtros, visualizações ou agrupamentos existentes para personalizar a lista ou pode criar uma tarefa diretamente do widget. Você também pode delegar suas tarefas enquanto estiver fora do escritório.
 
 * **Meus problemas**\
-    Exibe os problemas atribuídos a você em uma lista. Você pode usar filtros, visualizações ou agrupamentos existentes para personalizar a lista, ou pode criar um problema diretamente do widget. Este widget inclui apenas problemas cujos projetos associados estão definidos como Atuais. Você também pode delegar seus problemas enquanto estiver fora do escritório.
+    Exibe os problemas atribuídos a você em uma lista. Você pode usar filtros, visualizações ou agrupamentos existentes para personalizar a lista ou pode criar um problema diretamente do widget. Este widget inclui apenas problemas cujos projetos associados estão definidos como Atuais. Você também pode delegar seus problemas enquanto estiver fora do escritório.
 
 * **Minhas solicitações**\
     Exibe todas as solicitações que você submeteu, um filtro para exibir somente as solicitações abertas e um botão que abre o painel de resumo de uma solicitação.
@@ -57,7 +57,7 @@ Abaixo estão os dez widgets disponíveis atualmente para escolher, bem como um 
 * **Todas as aprovações**\
     Exibe todas as aprovações de sua organização em uma tabela com colunas personalizáveis, além de uma barra de pesquisa que permite pesquisar aprovações específicas.
 
-* **Aprovações pendentes**&lt;\
+* **Aprovações pendentes**\
     Exibe as aprovações atribuídas a um documento em um projeto que você possui. Aqui, você pode visualizar o status de aprovação e lembrar os usuários sobre revisões e aprovações incompletas. <span style="color: #ff0000;">Esse recurso faz parte de uma versão em fases e está disponível no momento apenas para clientes específicos.</span>
 
 * **Menções**\

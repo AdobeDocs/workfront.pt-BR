@@ -4,9 +4,9 @@ description: Melhorias no fluxo de atualizações e na notificação do segundo 
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
+source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Esta página descreve todos os aprimoramentos de Atualização de fluxo e notificação feitos com a versão do Segundo trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do segundo trimestre de 2024, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## O novo fluxo de comentários agora está disponível em ações rápidas para novos widgets da Página inicial
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 1 de março de 2024; Produção para lançamento rápido: Com o lançamento do 24.3 (14 de março de 2024); Produção para todos os clientes: Com o lançamento do 24.4 (abril de 2024)
+
+Agora adicionamos a nova funcionalidade de comentários à **Adicionar nova atualização** botão de ação rápida nos widgets Meu trabalho, Meus projetos, Minhas tarefas e Meus problemas, na nova página inicial.
+
+Para obter mais informações, consulte [Introdução à nova Página inicial](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Informações adicionais do comentador disponíveis na nova experiência de comentários
 
@@ -34,7 +44,7 @@ Para obter mais informações, consulte [Atualizar trabalho](/help/quicksilver/w
 
 >[!NOTE]
 >
->Versão de pré-visualização: 22 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento do 24.3 (março de 2024); Produção para todos os clientes: Com o lançamento do 24.4 (abril de 2024)
+>Versão de pré-visualização: 22 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento do 24.3 (14 de março de 2024); Produção para todos os clientes: Com o lançamento do 24.4 (abril de 2024)
 
 Para fornecer uma exibição cronologicamente coesa de comentários e logs de atividades do sistema, estamos introduzindo uma terceira guia à área Atualizações de todos os objetos. A guia &quot;Todos&quot; captura os comentários do usuário e os comentários da atividade do sistema em um fluxo coeso.
 
