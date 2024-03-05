@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 83f10ed479f31101add8747f8b672bbc1dbd922b
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 0%
@@ -37,3 +37,4 @@ Os artigos a seguir descrevem como criar e gerenciar visualizações de registro
 * [Gerenciar exibições de registro](../views/manage-record-views.md)
 * [Gerenciar a exibição de tabela](../views/manage-the-table-view.md)
 * [Gerenciar a exibição de linha do tempo](../views/manage-the-timeline-view.md)
+  <!--* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)-->
