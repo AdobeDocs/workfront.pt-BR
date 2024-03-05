@@ -7,9 +7,9 @@ description: Este artigo descreve o layout das folhas de horas no Adobe Workfron
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
+source-git-commit: 48ac3bd727787ed214b87342ab60e844f342d0b8
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1078'
 ht-degree: 1%
 
 ---
@@ -137,6 +137,14 @@ Quaisquer comentários feitos na folha de horas são exibidos nesta área.
 
 ## Painel de resumo
 
+<div class="preview">
+
+Exemplo no ambiente de Pré-visualização:
+![Painel Resumo](assets/timesheet-summary-panel-on-updates.png)
+
+</div>
+
+Exemplo no ambiente de Produção:
 ![Painel Resumo](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 
 Você pode acessar o painel Resumo para tarefas ou problemas exibidos em uma folha de horas. Aqui, você pode comentar em tarefas e problemas ou atualizar suas informações. Para obter mais informações, consulte [Visão geral do resumo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
