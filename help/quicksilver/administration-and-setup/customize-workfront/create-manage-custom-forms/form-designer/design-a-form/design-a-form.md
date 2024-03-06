@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
+source-git-commit: e5ab7cf79ad2d2542146336bd48071154d0abc53
 workflow-type: tm+mt
-source-wordcount: '5171'
+source-wordcount: '5592'
 ht-degree: 3%
 
 ---
 
 # Criar um formulário com o designer de formulário
+
+{{highlighted-preview}}
 
 Você pode criar um formulário personalizado com o designer do formulário. Você pode anexar formulários personalizados a diferentes objetos do Workfront para capturar dados sobre esses objetos.
 
@@ -80,7 +82,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    * [Adicionar campos calculados](#add-calculated-fields)
    * [Adicionar botões de opção, grupo de caixas de seleção e menus suspensos](#add-radio-buttons-checkboxes-and-dropdowns)
    * [Adicionar campos de digitação antecipada e data](#add-typeahead-and-date-fields)
+   * [Adicionar campos de pesquisa externos](#add-external-lookup-fields)
    * [Adicionar imagens, PDF e vídeos](#add-images-pdfs-and-videos)
+   * [Adicionar campos nativos do Workfront](#add-workfront-native-fields)
    * [Adicionar arquivos do Adobe XD](#add-adobe-xd-files)
 
 ## Adicionar campos novos ou existentes ao formulário personalizado
@@ -645,7 +649,7 @@ Para adicionar imagens, PDF ou vídeos:
      </tr> 
      <tr> 
       <td role="rowheader">Nome</td> 
-      <td> <p>(Obrigatório) Esse nome é como o sistema identifica o widget.</p> <p>Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Mas os campos Label e Name não são sincronizados — isso dá a você a liberdade de alterar o rótulo que seus usuários veem sem precisar alterar o nome que o sistema vê.</p> <p><b>IMPORTANTE</b>: Embora seja possível fazer isso, recomendamos que você não altere esse nome depois que você ou outros usuários começarem a usar o formulário personalizado no widget. Se você fizer isso, o sistema não reconhecerá mais o widget, onde ele pode agora ser referenciado em outras áreas do Workfront. </p> <p>Cada nome de widget deve ser exclusivo na instância do Workfront da sua organização. Dessa forma, é possível reutilizar um que já foi criado para outro formulário personalizado. </p> </td> 
+      <td> <p>(Obrigatório) Esse nome é como o sistema identifica o widget.</p> <p>Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Mas os campos Label e Name não são sincronizados — isso dá a você a liberdade de alterar o rótulo que seus usuários veem sem precisar alterar o nome que o sistema vê.</p> <p><b>IMPORTANTE</b>: Embora seja possível fazer isso, recomendamos que você não altere esse nome depois que você ou outros usuários começarem a usar o formulário personalizado no Workfront. Se você fizer isso, o sistema não reconhecerá mais o widget, onde ele pode agora ser referenciado em outras áreas do Workfront. </p> <p>Cada nome de widget deve ser exclusivo na instância do Workfront da sua organização. Dessa forma, é possível reutilizar um que já foi criado para outro formulário personalizado. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -699,6 +703,55 @@ Para adicionar imagens, PDF ou vídeos:
    ou
 
    Clique em **Salvar e fechar**.
+
+<div class="preview">
+
+### Adicionar campos nativos do Workfront
+
+Você pode adicionar campos nativos Workfront aos seus formulários personalizados. Quando o formulário personalizado é anexado a um objeto, o campo é preenchido a partir dos dados do objeto. Por exemplo, o campo Descrição em um formulário personalizado anexado a um projeto extrairá a descrição do projeto. (O campo pode mostrar &quot;N/D&quot; se nenhum dado estiver disponível.)
+
+1. No lado esquerdo da tela, localize **Campo nativo** e arraste-a para uma seção na tela.
+1. No lado direito da tela, configure as opções do campo personalizado:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Rótulo</td> 
+      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo. Você pode alterar o rótulo a qualquer momento.</p> <p><b>IMPORTANTE</b>: Evite usar caracteres especiais neste rótulo. Eles não são exibidos corretamente nos relatórios.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Nome</td> 
+      <td> <p>(Obrigatório) Esse nome é a forma como o sistema identifica o campo.</p><p> Ao configurar o campo pela primeira vez e digitar o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Mas os campos Label e Name não são sincronizados — isso dá a você a liberdade de alterar o rótulo que seus usuários veem sem precisar alterar o nome que o sistema vê.</p>
+      <p><b>IMPORTANTE</b>:
+      <ul> 
+      <li>Embora seja possível fazer isso, recomendamos que você não altere esse nome depois que você ou outros usuários começarem a usar o formulário personalizado no Workfront. Se você fizer isso, o sistema não reconhecerá mais o campo onde ele pode agora ser referenciado em outras áreas do Workfront.</p> </li>
+      <li> <p>Cada nome de campo deve ser exclusivo na instância do Workfront da organização. Dessa forma, é possível reutilizar um que já foi criado para outro formulário personalizado.</p> </li>
+      <li><p>Recomendamos que você não use o caractere ponto no nome do campo personalizado para evitar erros ao usar o campo em diferentes áreas do Workfront.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Instruções</td> 
+      <td> <p>Digite quaisquer informações adicionais sobre o campo. Quando os usuários preencherem o formulário personalizado, poderão passar o mouse sobre o ícone de ponto de interrogação para exibir uma dica de ferramenta contendo as informações digitadas aqui.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Campo de referência</td> 
+      <td><p>(Obrigatório) Selecione um campo nativo do Workfront.<p><p>Somente campos nativos para os objetos do formulário estão disponíveis. Por exemplo, se a lista Tipos de objeto na parte superior do designer do formulário mostrar Projeto, você poderá selecionar campos nativos para projetos, mas não campos específicos para tarefas.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Tamanho</td> 
+      <td>(Opcional) Altere o tamanho de exibição do campo, conforme necessário.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando seu formulário.
+
+   ou
+
+   Clique em **Salvar e fechar**.
+
+</div>
 
 ### Adicionar arquivos do Adobe XD
 
