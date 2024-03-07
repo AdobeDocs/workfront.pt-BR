@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 5927c3e09b0013a296ccde20b38a948d9562e935
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2402'
 ht-degree: 2%
 
 ---
@@ -622,6 +622,10 @@ Para cada objeto de promoção, uma das seguintes opções `actions`  será defi
   <tr> 
    <td>USAREXISTENTE</td> 
    <td><p>Quando um registro correspondente é encontrado no ambiente de destino, a ação é definida como USEEXISTING e uma <code>targetId</code> também é capturado na variável <code>translationmap</code>.</p><p>Quando esta ação é definida na variável <code>translationmap</code> que é fornecido ao <code>/install</code> ponto de extremidade, o serviço de instalação não criará o registro. No entanto, utilizará o <code>targetId</code> incluído na entrada do mapa para outros objetos que podem ter uma referência a este registro.</p><p>Por exemplo, um "Grupo padrão" pode ser encontrado no ambiente de destino no qual um pacote está sendo implantado. Não é possível ter dois registros de "Grupo padrão", portanto, o serviço de instalação usará o GUID do grupo existente em qualquer outra ação de criação de objeto que inclua uma referência ao "Grupo padrão", como um projeto, formulário ou qualquer outra entidade relacionada a esse grupo.</p><p><b>Nota:</b> <ul><li><p>Quando a ação USEEXISTING é atribuída, o registro existente no ambiente de destino não é modificado. </p><p>Por exemplo, se a descrição do "Grupo padrão" tiver sido alterada na sandbox de onde o pacote foi criado e o valor da descrição for diferente no ambiente de destino, o valor permanecerá inalterado após uma instalação com esse <code>translationmap</code>.</li></ul></td> 
+  </tr> 
+  <tr> 
+   <td>SUBSTITUIÇÃO</td> 
+   <td><p>Esta ação não será definida automaticamente.</p><p>Esta ação fornece a capacidade de atualizar um objeto que existe no ambiente de destino. Ele permite fazer uma substituição manual de uma ação CREATE ou USEEXISTING atribuída antes de executar a <code>/install</code> chame.<ul><li>Um usuário pode atualizar um objeto no ambiente de teste e, em seguida, usar a ação SUBSTITUIR para atualizar esse objeto no ambiente de destino.</p></li><li><p>Se o usuário instalar um pacote de promoção inicialmente e, em seguida, um novo pacote (ou atualizado) no futuro contiver alterações em objetos no pacote inicial, o usuário poderá usar SUBSTITUIÇÃO para substituir (substituir) objetos instalados anteriormente. </p></li><ul></td> 
   </tr> 
   <tr> 
    <td>IGNORAR</td> 
