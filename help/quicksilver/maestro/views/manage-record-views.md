@@ -1,13 +1,13 @@
 ---
 title: Gerenciar exibições de registro
-description: Você pode exibir registros em uma tabela ou exibição de linha do tempo ao usar o Adobe Maestro.
+description: Você pode exibir registros em uma exibição de tabela, linha do tempo ou calendário ao usar os recursos do Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
+source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,19 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Depois de selecionar um tipo de registro no Adobe Maestro, você pode exibir todos os registros desse tipo nas seguintes exibições:
+Depois de selecionar um tipo de registro na área de recursos do Adobe Workfront Planning, você poderá exibir todos os registros desse tipo nas seguintes views:
 
 * Tabela
 
   Para obter mais informações, consulte [Gerenciar a exibição de tabela](../views/manage-the-table-view.md).
+
 * Linha do tempo
 
   Para obter mais informações, consulte [Gerenciar a exibição de linha do tempo](../views/manage-the-timeline-view.md).
+
+<!--* Calendar 
+
+    For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). -->
 
 ## Requisitos de acesso
 
@@ -46,7 +51,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta fechado do Adobe Maestro. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta fechado de recursos de planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -64,7 +69,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader">Configuração do nível de acesso</td>
-   <td> <p>Não há controles de nível de acesso para o Maestro</p>  
+   <td> <p>Não há controles de nível de acesso para recursos de planejamento do Workfront</p>  
 </td>
   </tr>
 
@@ -82,13 +87,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody>
 </table>
 
-## Considerações ao trabalhar com as visualizações do Maestro
+## Considerações ao trabalhar com visualizações de registro
 
-* As opiniões no Maestro são específicas do tipo de registro. Não é possível aplicar a mesma exibição a dois tipos de registro diferentes.
+* As exibições na área de recursos de planejamento do Workfront são específicas ao tipo de registro. Não é possível aplicar a mesma exibição a dois tipos de registro diferentes.
 * As exibições criadas estão visíveis somente para você e os usuários com os quais você compartilha as exibições.
 * A criação de exibições para tipos de registro operacional é idêntica à criação de exibições para tipos de registro de taxonomia.
 * Quando você modifica ou exclui uma exibição, ela é modificada e excluída para todos os usuários que têm permissões para a exibição.
-* Os seguintes elementos são exclusivos para cada visualização no Maestro:
+* Os seguintes elementos são exclusivos para cada exibição de registro:
 
    * Filtro
    * Agrupamento
@@ -100,7 +105,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
   >[!NOTE]
   >
-  > Como o Maestri está atualmente em um estado beta, alguns elementos de visualização podem não estar disponíveis para ambas as visualizações.
+  > Como os recursos de planejamento do Adobe Workfront estão atualmente em um estado beta, alguns elementos de exibição podem não estar disponíveis para todas as exibições.
 
 Este artigo descreve as seguintes informações sobre as visualizações Maestri:
 
@@ -111,6 +116,8 @@ Este artigo descreve as seguintes informações sobre as visualizações Maestri
 * [Compartilhar uma exibição](#share-a-view)
 
 ## Semelhanças e diferenças entre as visualizações de tabela e linha do tempo
+
+<!-- should we include Calendar here or remove this section???-->
 
 A tabela a seguir mostra as semelhanças e diferenças entre as visualizações de tabela e linha do tempo no Maestro:
 
@@ -180,7 +187,7 @@ O espaço de trabalho acessado pela última vez é aberto por padrão. Para obte
 
    Ou clique em **Próxima**, ao criar uma linha do tempo <!--or calendar--> exibição.
 
-   Por padrão, o Maestri nomeia a exibição como &quot;Tabela &lt; número >&quot; ou &quot;Linha do tempo &lt; número >&quot;. O número é um incremento gerado automaticamente.
+   Por padrão, o Workfront nomeia a exibição como &quot;Tabela &lt; número >&quot; ou &quot;Linha do tempo &lt; número >&quot;, <!--or "Calendar < number >"-->. O número é um incremento gerado automaticamente.
 
 1. (Condicional) Selecione as datas de Início e Término dos registros que serão exibidos na linha do tempo <!--or calendar--> e clique em **Criar**.
 1. (Opcional) Para renomear uma view após sua criação, clique no menu suspenso exibir e, em seguida, clique na **Mais** menu ![](assets/more-menu.png) > **Renomear** para atualizar o nome da exibição. <!--ensure there is not another saving step here?!-->
@@ -208,7 +215,7 @@ O espaço de trabalho acessado pela última vez é aberto por padrão. Para obte
 1. Clique no menu suspenso Exibir, passe o mouse sobre uma das exibições na lista e clique no botão **Mais** menu ![](assets/more-menu.png) > **Excluir**.
 1. Clique em **Excluir** para confirmar. <!--ensure there is not another saving step here?!-->
 
-   A visualização é excluída para todos os usuários que podem acessar a área Maestro e não pode ser recuperada.
+   A exibição é excluída para todos os usuários que podem acessar a área de registros e não pode ser recuperada.
 
 ## Compartilhar uma exibição
 
