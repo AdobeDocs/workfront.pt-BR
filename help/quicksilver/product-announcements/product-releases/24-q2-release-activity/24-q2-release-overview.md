@@ -4,9 +4,9 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">A integração JumpSeat agora está disponível para novos tipos de pacote</a><span style="color: #ff0000;"> Novo na visualização!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">A integração JumpSeat agora está disponível para novos tipos de pacote</a></p>
                         <p>A integração do JumpSeat existente agora está disponível para contas que usam um dos novos tipos de pacote (ou seja, Select, Prime ou Ultimate). Você ainda deve ter uma assinatura ativa do JumpSeat para habilitar a integração.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -76,7 +76,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Os campos nativos do Workfront estão disponíveis no designer de formulário beta</a><span style="color: #ff0000;"> Novo na visualização!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Os campos nativos do Workfront estão disponíveis no designer de formulário beta</a></p>
                         <p>Os campos nativos do Workfront agora estão disponíveis para você adicionar aos seus formulários personalizados. Esse novo tipo de campo permite organizar e apresentar dados aos usuários de forma lógica, sem precisar recriar dados existentes em campos personalizados.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -194,7 +194,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                                 <p>Versão de pré-visualização: 13 de fevereiro de 2024</p>
                             </li>
                             <li>
-                                <p>Produção para lançamento rápido: com o lançamento do 24.3 (março de 2024)</p>
+                                <p>Produção para lançamento rápido: com o lançamento do 24.3 (14 de março de 2024)</p>
                             </li>
                             <li>
                                 <p>Produção para versão trimestral: com a versão 24.4 (abril de 2024)</p>
@@ -212,7 +212,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                                 <p>Versão de pré-visualização: 21 de dezembro de 2023</p>
                             </li>
                             <li>
-                                <p>Produção para lançamento rápido: com o lançamento do 24.3 (março de 2024)</p>
+                                <p>Produção para lançamento rápido: com o lançamento do 24.3 (14 de março de 2024)</p>
                             </li>
                             <li>
                                 <p>Produção para versão trimestral: com a versão 24.4 (abril de 2024)</p>
@@ -241,8 +241,8 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">O novo fluxo de comentários agora está disponível em ações rápidas para novos widgets da Página inicial</a><span style="color: #ff0000;"> Novo na visualização!</span></p>
-                        <p>Agora adicionamos a nova funcionalidade de comentários à <b>Adicionar nova atualização</b> botão de ação rápida nos widgets Meu trabalho, Meus projetos, Minhas tarefas e Meus problemas, na nova página inicial.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">O novo fluxo de comentários agora está disponível em ações rápidas para novos widgets da Página inicial</a></p>
+                        <p>Agora adicionamos a nova funcionalidade de comentários ao botão de ação rápida "Adicionar nova atualização" nos widgets Meu trabalho, Meus projetos, Minhas tarefas e Meus problemas na nova página inicial.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -260,7 +260,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Informações adicionais do comentador disponíveis na nova experiência de comentários</a><span style="color: #ff0000;"> Novo na visualização!</span></p><p>Fizemos os seguintes aprimoramentos na nova experiência de comentários:</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Informações adicionais do comentador disponíveis na nova experiência de comentários</a></p><p>Fizemos os seguintes aprimoramentos na nova experiência de comentários:</p>
                         <ul>
                             <li>
                                 <p>Você pode clicar no nome de um comentarista para ver seu nome, função e endereço de email em uma caixa de informações. Essas informações podem ajudar a identificar o usuário correto, se você tiver mais de um usuário com o mesmo nome. Ao clicar no nome do comentarista na caixa de informações, o perfil do usuário é aberto.</p>
@@ -294,7 +294,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                                 <p>Versão de pré-visualização: 22 de fevereiro de 2024</p>
                             </li>
                             <li>
-                                <p>Produção para lançamento rápido: com o lançamento do 24.3 (março de 2024)</p>
+                                <p>Produção para lançamento rápido: com o lançamento do 24.3 (14 de março de 2024)</p>
                             </li>
                             <li>
                                 <p>Produção para versão trimestral: com a versão 24.4 (abril de 2024)</p>
@@ -312,7 +312,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                                 <p>Versão de pré-visualização: 22 de fevereiro de 2024</p>
                             </li>
                             <li>
-                                <p>Produção para lançamento rápido: com o lançamento do 24.3 (março de 2024)</p>
+                                <p>Produção para lançamento rápido: com o lançamento do 24.3 (14 de março de 2024)</p>
                             </li>
                             <li>
                                 <p>Produção para versão trimestral: com a versão 24.4 (abril de 2024)</p>
@@ -330,7 +330,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                                 <p>Versão de pré-visualização: 22 de fevereiro de 2024</p>
                             </li>
                             <li>
-                                <p>Produção para lançamento rápido: com o lançamento do 24.3 (março de 2024)</p>
+                                <p>Produção para lançamento rápido: com o lançamento do 24.3 (14 de março de 2024)</p>
                             </li>
                             <li>
                                 <p>Produção para versão trimestral: com a versão 24.4 (abril de 2024)</p>

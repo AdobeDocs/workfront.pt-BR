@@ -4,9 +4,9 @@ description: Aprimoramentos do administrador no segundo trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,9 @@ Os campos nativos usados em formulários personalizados ficam disponíveis na bi
 
 Esse recurso está disponível somente no designer de formulário beta, não no construtor de formulário herdado.
 
-Os artigos de Experience League para esse recurso serão atualizados até 7 de março.
+Para obter mais informações, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 
 ## O mapeamento de atributos agora está disponível para organizações que migraram para o Adobe IMS
 
@@ -55,7 +57,7 @@ Os administradores de sistema do Workfront agora podem configurar o mapeamento d
 
 Anteriormente, essa funcionalidade só estava disponível para organizações que ainda não tinham sido integradas ao Adobe IMS.
 
-Para obter instruções sobre como configurar o mapeamento de atributos, consulte **Mapear atributos do usuário na experiência unificada do Adobe** no artigo [Mapear atributos do usuário e provisionar automaticamente novos usuários](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
+Para obter instruções sobre como configurar o mapeamento de atributos, consulte [Mapear atributos do usuário na experiência unificada do Adobe](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) no artigo **Mapear atributos do usuário e provisionar automaticamente novos usuários**.
 
 ## A lógica de salto e a lógica de exibição agora estão disponíveis no designer de formulário beta
 

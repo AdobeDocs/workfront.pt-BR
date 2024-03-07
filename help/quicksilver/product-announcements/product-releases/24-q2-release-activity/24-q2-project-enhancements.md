@@ -4,9 +4,9 @@ description: Aprimoramentos no projeto do segundo trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 
 >[!NOTE]
 >
->Versão de pré-visualização: 13 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento do 24.3 (março de 2024); Produção para todos os clientes: Com o lançamento do 24.4 (abril de 2024)
+>Versão de pré-visualização: 13 de fevereiro de 2024; Produção para lançamento rápido: Com lançamento do 24.3 (14 de março de 2024); Produção para todos os clientes: Com lançamento do 24.4 (abril de 2024)
 
 Adicionamos a mesma funcionalidade para atribuições inteligentes mais relevantes ao campo Atribuições nas seguintes áreas:
 
@@ -36,7 +36,7 @@ Para obter mais informações, consulte [Visão geral das atribuições intelige
 
 >[!NOTE]
 >
->Versão de pré-visualização: 21 de dezembro de 2023; Produção para lançamento rápido: Com o lançamento do 24.3 (março de 2024); Produção para todos os clientes: Com o lançamento do 24.4 (abril de 2024)
+>Versão de pré-visualização: 21 de dezembro de 2023; Produção para lançamento rápido: Com o lançamento do 24.3 (14 de março de 2024); Produção para todos os clientes: Com o lançamento do 24.4 (abril de 2024)
 
 Alteramos o algoritmo que o Workfront usa para calcular e sugerir atribuições inteligentes para tarefas. O novo algoritmo se aplica às seguintes áreas no Workfront em que você atribui uma tarefa: listas de tarefas, a área Atribuições no cabeçalho da tarefa, Início e o painel Resumo.
 

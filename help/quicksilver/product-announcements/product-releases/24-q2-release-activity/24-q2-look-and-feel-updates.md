@@ -4,9 +4,9 @@ description: Atualizações de aparência durante o período do segundo trimestr
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Os modelos de email para adicionar um aprovador a um ativo e adicionar um usuár
 
 >[!NOTE]
 >
->Versão de pré-visualização: 8 de fevereiro de 2024; Produção para lançamento rápido: Com lançamento da versão 24.3 (março de 2024); Produção para lançamento trimestral: Com lançamento da versão 24.4 (abril de 2024)
+>Versão de pré-visualização: 8 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento 24.3 (14 de março de 2024); Produção para lançamento trimestral: Com o lançamento 24.4 (abril de 2024)
 
 Atualizamos as guias para Forms, Campos e Seções na área Configuração > Forms personalizado para um design mais moderno que é consistente com outras áreas do Workfront. Agora você acessa as três áreas no menu de navegação esquerdo. Filtros, visualizações e agrupamentos ainda estão disponíveis para as listas. O design atualizado se aplica a formulários, campos e seções personalizados criados no novo designer de formulários e no construtor de formulários herdados.
 
