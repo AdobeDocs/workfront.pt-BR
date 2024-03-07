@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -141,9 +141,28 @@ A tabela a seguir mostra as semelhanças e diferenças entre as visualizações 
 
 
 O espaço de trabalho acessado pela última vez é aberto por padrão. Para obter informações sobre como criar espaços de trabalho, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
+
 1. Clique em um cartão de tipo de registro. Para obter informações sobre como criar um tipo de registro, consulte [Criar tipos de registro](../architecture/create-record-types.md).
 
    Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
+
+<!--
+    1. Click **+ View** to add a new view. 
+
+    1. Select from the following types of views: 
+
+        * Table
+        * Timeline
+        * Calendar
+
+        >[!TIP]
+        >
+        >When you create a record type, the table view is also created by default. 
+        >
+        >To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+        >
+        >(*********remove all of the below steps and replace the screen shot when calendar view releases*********)
+    -->
 
 1. Clique em **Exibir** e selecione um existente **Visualização em tabela** ![](assets/table-view-icon.png) ou clique em **Criar visualização > Tabela** para criar uma exibição de tabela
 
@@ -157,15 +176,20 @@ O espaço de trabalho acessado pela última vez é aberto por padrão. Para obte
    >
    >    Para criar uma exibição de linha do tempo, o tipo de registro para o qual você cria a exibição deve ter pelo menos dois campos de data. Caso contrário, a opção Linha do tempo ficará esmaecida.
 
-1. (Opcional) Atualize o nome da exibição e clique em **Criar** para salvá-lo.
+1. (Opcional) Atualize o nome da exibição e clique em **Criar** para salvar uma visualização de tabela
+
+   Ou clique em **Próxima**, ao criar uma linha do tempo <!--or calendar--> exibição.
 
    Por padrão, o Maestri nomeia a exibição como &quot;Tabela &lt; número >&quot; ou &quot;Linha do tempo &lt; número >&quot;. O número é um incremento gerado automaticamente.
 
+1. (Condicional) Selecione as datas de Início e Término dos registros que serão exibidos na linha do tempo <!--or calendar--> e clique em **Criar**.
 1. (Opcional) Para renomear uma view após sua criação, clique no menu suspenso exibir e, em seguida, clique na **Mais** menu ![](assets/more-menu.png) > **Renomear** para atualizar o nome da exibição. <!--ensure there is not another saving step here?!-->
+   <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
 1. (Opcional) Para gerenciar um tipo específico de visualização, consulte os seguintes artigos:
 
    * [Gerenciar a exibição de tabela](../views/manage-the-table-view.md)
    * [Gerenciar a exibição de linha do tempo](../views/manage-the-timeline-view.md)
+     <!--* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)-->
 
 
 ## Excluir visualizações
@@ -180,6 +204,7 @@ O espaço de trabalho acessado pela última vez é aberto por padrão. Para obte
 
    Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
+<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions below but keep the last step***********)-->
 1. Clique no menu suspenso Exibir, passe o mouse sobre uma das exibições na lista e clique no botão **Mais** menu ![](assets/more-menu.png) > **Excluir**.
 1. Clique em **Excluir** para confirmar. <!--ensure there is not another saving step here?!-->
 
