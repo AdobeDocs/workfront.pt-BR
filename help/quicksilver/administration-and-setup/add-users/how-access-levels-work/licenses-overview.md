@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: e47f5d06d0c7d72c171583b53b69f951e4e99afe
+source-git-commit: aefa43697ae0d4edd5300acb94a9880b3cd0c94f
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 2%
@@ -21,11 +21,11 @@ ht-degree: 2%
 
 <!-- Audited: 12/2023 -->
 
-Sua organização adquiriu um determinado número de licenças ao adquirir o Adobe Workfront. Como administrador do Workfront, você fornece um dos três tipos de licenças do Workfront para cada usuário ao atribuir um nível de acesso a ele.
+Sua organização adquiriu um determinado número de licenças ao adquirir o Adobe Workfront. Como administrador do Workfront, você fornece um dos dois tipos de licenças do Workfront para cada usuário ao atribuir um nível de acesso a ele.
 
 ## Como as novas licenças do Workfront e os novos níveis de acesso são vinculados
 
-Os três tipos de novas licenças do Workfront permitem diferentes níveis de acesso ao Workfront. Cada nível de acesso é anexado a uma dessas licenças.
+Os dois tipos de novas licenças do Workfront permitem diferentes níveis de acesso ao Workfront. Cada nível de acesso é anexado a uma dessas licenças.
 
 Em vez de atribuir uma licença a um usuário, você atribui a ele o nível de acesso atribuído a essa licença.
 
