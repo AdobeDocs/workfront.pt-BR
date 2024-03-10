@@ -1,13 +1,13 @@
 ---
 title: Editar registros
-description: Você pode editar informações de registro no Adobe Maestro. Você deve criar tipos de registro antes de começar a criar e editar registros.
+description: É possível editar informações de registro nos recursos de planejamento do Adobe Workfront. Você deve criar tipos de registro antes de começar a criar e editar registros.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1087'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-É possível editar informações de registro no Adobe Maestro, editando os valores dos campos associados aos registros.
+É possível editar informações de registro nos recursos de planejamento do Adobe Workfront, editando os valores dos campos associados aos registros.
 
 Você deve criar tipos de registro antes de começar a criar e editar registros.
 
@@ -47,7 +47,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta fechado do Adobe Maestro. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta fechado de recursos de planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Configurações de nível de acesso</p></td>
-   <td> <p>Não há controles de acesso para o Maestro </p>  
+   <td> <p>Não há controles de acesso para os recursos de planejamento do Adobe Workfront </p>  
 </td>
   </tr>
 <tr>
@@ -104,35 +104,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 É possível editar um registro das seguintes áreas:
 
-* [Na página Detalhes de um registro](#edit-a-record-from-the-records-details-page)
 * [Na exibição de tabela de um tipo de registro](#edit-a-record-from-the-table-view-of-a-record-type)
-
-### Editar um registro na página Detalhes do registro
-
-{{step1-to-maestro}}
-
-O espaço de trabalho que você acessa por último é aberto.
-
-1. (Opcional) Clique na seta para baixo à direita do nome do espaço de trabalho para selecionar o espaço de trabalho cujos registros você deseja atualizar.
-1. Siga um destes procedimentos:
-
-   * De um **Tabela** clique no nome de um registro.
-   * No **Tabela** exibir, passe o mouse sobre o nome de um registro, em seguida, clique no **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Exibir**
-
-     ![](assets/contextual-menu-for-record-row.png)
-   * Em uma exibição de Linha do tempo, clique em uma barra de registro.
-
-   O registro **Detalhes** é aberta.
-
-1. Clique em **Mais** menu ![](assets/more-menu.png) à direita do nome do registro, clique em **Editar**
-
-   Ou
-
-   Clique dentro de qualquer campo editável na página Detalhes para editar as informações.
-
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-
-1. Clique em **Salvar alterações**. <!--logged a bug for this - this needs to be "Save"-->
+* [Na página Detalhes de um registro](#edit-a-record-from-the-records-details-page)
 
 ### Editar um registro da exibição de tabela de um tipo de registro
 
@@ -144,7 +117,7 @@ O espaço de trabalho que você acessou por último é aberto.
 1. Clique em um cartão de tipo de registro.
 
    A página de tipo de registro é aberta.
-1. (Condicional) No **Exibir** no canto superior direito da tabela, selecione uma **Tabela** exibição. Essa deve ser a exibição padrão, a menos que você tenha visualizado o tipo de registro na exibição de linha do tempo ao acessá-lo pela última vez.
+1. (Condicional) No **Exibir** menu suspenso <!--tab--> no canto superior direito da tabela, selecione um **Tabela** exibição. Essa deve ser a exibição padrão, a menos que você tenha visualizado o tipo de registro em outro tipo de exibição ao acessá-lo pela última vez.
 
    Os registros associados ao tipo de registro selecionado são exibidos na exibição de tabela.
 1. Clique dentro da linha de um registro para começar a editar informações sobre o registro em linha.
@@ -171,6 +144,16 @@ O espaço de trabalho que você acessou por último é aberto.
 
 1. (Opcional) Clique duas vezes em um campo de registro conectado para adicionar registros ou objetos conectados a outro registro. Para obter mais informações, consulte [Conectar registros](/help/quicksilver/maestro/records/connect-records.md).
 1. Pressione **Enter** no teclado ou clique fora de uma linha para salvar as alterações. As alterações são salvas automaticamente. A **Salvo** O indicador é exibido brevemente no canto superior direito da exibição de tabela para mostrar que as alterações foram salvas.
+
+
+   <!--
+    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click on a record name. The **Details** box opens in the table. 
+        >[!TIP]
+        >
+        >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
+    1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
+    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
+    -->
 
 1. (Opcional) Para copiar e colar informações de um campo para outro, siga um destes procedimentos:
 
@@ -204,3 +187,33 @@ O espaço de trabalho que você acessou por último é aberto.
    >    Você pode usar os atalhos do teclado várias vezes seguidas para desfazer várias alterações.
 
 1. (Opcional) Adicione uma miniatura a um registro. Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+
+
+### Editar um registro na página Detalhes do registro
+
+<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Detais box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+
+{{step1-to-maestro}}
+
+O espaço de trabalho que você acessa por último é aberto.
+
+1. (Opcional) Clique na seta para baixo à direita do nome do espaço de trabalho para selecionar o espaço de trabalho cujos registros você deseja atualizar.
+1. Siga um destes procedimentos:
+
+   * De um **Tabela** clique no nome de um registro.
+   * No **Tabela** exibir, passe o mouse sobre o nome de um registro, em seguida, clique no **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Exibir**
+
+     ![](assets/contextual-menu-for-record-row.png)
+   * Em uma exibição de Linha do tempo, clique em uma barra de registro.
+
+   O registro **Detalhes** é aberta.
+
+1. Clique em **Mais** menu ![](assets/more-menu.png) à direita do nome do registro, clique em **Editar**
+
+   Ou
+
+   Clique dentro de qualquer campo editável na página Detalhes para editar as informações.
+
+   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+
+1. Clique em **Salvar alterações**. <!--logged a bug for this - this needs to be "Save"-->

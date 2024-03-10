@@ -1,13 +1,13 @@
 ---
 title: Gerenciar a exibição de tabela
-description: Você pode exibir registros e seus campos em uma exibição de tabela, ao acessar a página de tipo de registro no Adobe Maestro.
+description: Você pode exibir registros e seus campos em uma exibição de tabela, ao acessar a página tipo de registro nos recursos de planejamento do Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '2334'
+source-wordcount: '2337'
 ht-degree: 3%
 
 ---
@@ -28,9 +28,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Você pode exibir registros e seus campos em uma exibição de tabela, ao acessar a página de tipo de registro no Adobe Maestro.
+Você pode exibir registros e seus campos em uma exibição de tabela, ao acessar a página tipo de registro nos recursos de planejamento do Adobe Workfront.
 
-Para obter informações sobre as visualizações do Maestro e como gerenciá-las, consulte [Gerenciar exibições de registro](../views/manage-record-views.md).
+Para obter informações sobre visualizações de registros e como gerenciá-las, consulte [Gerenciar exibições de registro](../views/manage-record-views.md).
 
 ## Requisitos de acesso
 
@@ -51,7 +51,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta fechado do Adobe Maestro. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta fechado de recursos de planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader">Configuração do nível de acesso</td>
-   <td> <p>Não há controles de nível de acesso para o Maestro </p>  
+   <td> <p>Não há controles de nível de acesso para os recursos de planejamento do Adobe Workfront </p>  
 </td>
   </tr>
 
@@ -114,7 +114,7 @@ Para gerenciar uma exibição de tabela:
 
 ### Adicionar colunas (ou campos) {#add-columns}
 
-Os cabeçalhos de coluna de uma exibição de tabela Maestri exibem campos associados aos registros na exibição. Os mesmos campos exibidos na visualização de tabela também são exibidos na seção Detalhes de um registro Maestro. Para obter mais informações, consulte [Editar registros](../records/edit-records.md).
+Os cabeçalhos de coluna de uma exibição de tabela exibem campos associados aos registros na exibição. Os mesmos campos exibidos na visualização de tabela também são exibidos na seção Detalhes de um registro. Para obter mais informações, consulte [Editar registros](../records/edit-records.md).
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -123,6 +123,8 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 É possível adicionar até 500 campos (ou colunas) em uma exibição de tabela.
 
 1. Vá para uma página de tipo de registro e selecione um **Tabela** exibir no menu suspenso exibir.
+
+   <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Comece a adicionar campos (ou colunas), conforme descrito no artigo [Criar campos](../fields/create-fields.md).
 
    As colunas adicionadas ficam visíveis para todos os usuários que acessam o tipo de registro e são adicionadas como novos campos na página Detalhes dos registros do tipo de registro selecionado.
@@ -212,11 +214,13 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
 ### Adicionar linhas (ou registros) {#add-rows}
 
-As linhas de uma visualização de tabela Maestri exibem registros individuais do tipo de registro selecionado.
+As linhas de uma exibição de tabela exibem registros individuais do tipo de registro selecionado.
 
-Você pode ter até 10.000 registros (ou linhas) para um tipo de registro no Maestro.
+É possível ter até 50.000 registros (ou linhas) para um tipo de registro S.
 
 1. Vá para uma página de tipo de registro e selecione um **Tabela** exibir no menu suspenso exibir.
+
+<!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Comece a adicionar registros (ou linhas), conforme descrito no artigo [Criar registros](../records/create-records.md).
 
    Os registros adicionados na exibição de tabela são salvos imediatamente e ficam visíveis para todos os usuários que têm permissões de Exibição ou superiores para o espaço de trabalho.
@@ -359,7 +363,7 @@ Adicionar agrupamentos na exibição de tabela é semelhante a adicionar agrupam
 Considere o seguinte:
 
 * Você pode aplicar agrupamentos nas visualizações de tabela e linha do tempo. Os agrupamentos da exibição de tabela são independentes daqueles na exibição de linha do tempo do mesmo tipo de registro.
-* Você pode aplicar três níveis de agrupamento em uma visualização Maestri. Os registros são agrupados na ordem de agrupamentos selecionada.
+* Você pode aplicar três níveis de agrupamento em uma visualização. Os registros são agrupados na ordem de agrupamentos selecionada.
 &lt;!—* É possível aplicar até 4 níveis de agrupamento ao usar a API. —verificando este por enquanto—>
 * Os agrupamentos são exclusivos para a exibição selecionada. Duas exibições de tabela do mesmo tipo de registro podem ter agrupamentos diferentes aplicados a elas. Dois usuários observando a mesma visualização de tabela veem o mesmo agrupamento aplicado no momento.
 * Não é possível nomear os agrupamentos criados para uma exibição de tabela.

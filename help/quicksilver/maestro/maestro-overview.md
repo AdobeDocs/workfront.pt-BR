@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '2051'
+source-wordcount: '1977'
 ht-degree: 1%
 
 ---
@@ -253,8 +253,8 @@ A seguir estão os principais objetos e conceitos dos recursos de planejamento:
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
-  <!--* **Calendar view**: Displays records that have at least two Date-type fields in a calendar format. 
-    ![](assets/calendar-view-example.png)-->
+   * **Exibição de calendário**: exibe registros que têm pelo menos dois campos do tipo Data em um formato de calendário.
+     ![](assets/calendar-view-example.png)
 
 
 Para obter mais informações, consulte [Gerenciar exibições de registro](../maestro/views/manage-record-views.md).
@@ -300,17 +300,13 @@ Para localizar os recursos de planejamento:
 
    1. Clique no nome de um tipo de registro para abrir a página do registro. Por padrão, a página de registro é aberta na exibição Tabela.
 
-   1. Personalize a visualização Tabela seguindo um destes procedimentos:
+      Você também pode criar uma exibição de Linha do tempo ou Calendário.
 
-      * Adicione mais campos ao tipo de registro clicando no **+** no canto superior direito. As colunas na exibição são campos associados ao tipo de registro.
-      * Adicionar registros clicando no ícone **+** no canto inferior esquerdo. As linhas na exibição são registros exclusivos do tipo de registro selecionado.
-      * Clique em **Filtros** para filtrar as informações exibidas na página tipo de registro.
+   1. Na exibição de tabela, comece a adicionar registros adicionando linhas
 
-   1. Clique no nome de um registro para exibir mais informações na página Detalhes do registro.
+      Ou
 
-   1. Criar uma exibição de Linha do tempo na **Exibir** no canto superior direito da página tipo de registro.
-
-   1. Personalize a exibição da linha do tempo atualizando Filtros, Agrupamentos ou Configurações.
+      Comece a adicionar campos de registro adicionando colunas.
 
 ## Atividade de lançamento dos recursos de planejamento do Adobe Workfront
 

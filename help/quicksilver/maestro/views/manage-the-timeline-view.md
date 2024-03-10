@@ -1,13 +1,13 @@
 ---
 title: Gerenciar a exibição de linha do tempo
-description: Você pode exibir registros em uma visualização de linha do tempo, ao acessar a página de tipo de registro no Adobe Maestro.
+description: Você pode exibir registros em uma exibição de linha do tempo, ao acessar a página tipo de registro nos recursos de planejamento do Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ role: User
 
 {{maestro-important-intro}}
 
-Você pode exibir registros em uma visualização de linha do tempo, ao acessar a página de tipo de registro no Adobe Maestro.
+Você pode exibir registros em uma exibição de linha do tempo, ao acessar a página tipo de registro nos recursos de planejamento do Adobe Workfront.
 
-Para obter informações sobre visualizações do Maestro, consulte [Gerenciar visualizações de registro no Adobe Maestro](../views/manage-record-views.md).
+Para obter informações sobre visualizações de registros, consulte [Gerenciar exibições de registro](../views/manage-record-views.md).
 
 ## Requisitos de acesso
 
@@ -51,7 +51,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta fechado do Adobe Maestro. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta fechado de recursos de planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader">Configuração do nível de acesso</td>
-   <td> <p>Não há controles de nível de acesso para o Maestro </p>  
+   <td> <p>Não há controles de nível de acesso para recursos de planejamento do Adobe Workfront </p>  
 </td>
   </tr>
 
@@ -102,17 +102,6 @@ Considere o seguinte:
    * Quando as datas de início e término não têm valores
    * Quando as datas de Início ou Término não têm valor
    * Quando a data inicial for posterior à data final
-
-<!--these are NOT available now because there won't be a table for the timeline view for the near future, per Andy: 
-* The records displayed in the timeline view also display in a view-only table to the left of the timeline. 
-* Each row in the table and each bar on the timeline represent the same record. 
-* Each column in the table is a record field. The columns of this table are preconfigured and cannot be customized. 
-* Only a limited number of fields (or columns) display in the timeline view table. 
-* You cannot do the following in a timeline view:
-     * Add rows or records
-     * Add columns or fields
-     * Edit record information
--->
 
 Para gerenciar uma exibição de linha do tempo:
 
@@ -196,7 +185,7 @@ Adicionar agrupamentos na exibição de linha do tempo é semelhante a adicionar
 Considere o seguinte ao trabalhar com agrupamentos na exibição de linha do tempo:
 
 * Você pode aplicar agrupamentos nas visualizações de tabela e linha do tempo. Os agrupamentos da exibição de tabela são independentes daqueles na exibição de linha do tempo do mesmo tipo de registro.
-* Você pode aplicar três níveis de agrupamento em uma visualização Maestri. Os registros são agrupados na ordem de agrupamentos selecionada.
+* Você pode aplicar três níveis de agrupamento em uma visualização. Os registros são agrupados na ordem de agrupamentos selecionada.
 * É possível aplicar até 4 níveis de agrupamento ao usar a API.
 * Os agrupamentos são exclusivos para a exibição selecionada. Duas exibições de linha do tempo do mesmo tipo de registro podem ter agrupamentos diferentes aplicados a elas. Dois usuários que visualizam a mesma linha do tempo veem o mesmo agrupamento aplicado no momento.
 * Não é possível nomear os agrupamentos criados para uma exibição de linha do tempo.
@@ -218,6 +207,8 @@ Para adicionar um agrupamento na exibição de linha do tempo:
 1. (Opcional) Repita as etapas acima para adicionar até três agrupamentos.
 
    O número de campos selecionados para o agrupamento é exibido ao lado do ícone Grouping.
+
+   <!-- update screen shot with view redesign-->
 
    ![](assets/grouping-applied-in-timeline-view.png)
 

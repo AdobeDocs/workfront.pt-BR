@@ -4,9 +4,9 @@ description: Você pode exibir registros e seus campos em uma exibição de cale
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ hide: yes
 
 Você pode exibir registros e seus campos em uma exibição de calendário na página de tipo de registro.
 
-Para obter informações sobre as visualizações do Maestro e como gerenciá-las, consulte [Gerenciar exibições de registro](../views/manage-record-views.md).
+Para obter informações sobre exibições de recursos do Adobe Workfront Planning e como gerenciá-las, consulte [Gerenciar exibições de registro](../views/manage-record-views.md).
 
 ## Requisitos de acesso
 
@@ -50,7 +50,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta fechado do Adobe Maestro. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta fechado de recursos de planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -68,7 +68,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader">Configuração do nível de acesso</td>
-   <td> <p>Não há controles de nível de acesso para o Maestro </p>  
+   <td> <p>Não há controles de nível de acesso para recursos de planejamento do Adobe Workfront  </p>  
 </td>
   </tr>
 
@@ -94,7 +94,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 Considere o seguinte:
 
 * Você pode criar uma exibição de Calendário somente quando tem pelo menos dois campos de data associados a um tipo de registro. Quando você tem um ou nenhum campo de data associado a um tipo de registro, a opção de exibição Calendário fica esmaecida.
-* Os cenários a seguir:
+* Existem os seguintes cenários:
 
    * Quando as datas de Início e Término não têm valores, os registros não são exibidos no calendário
    * Quando as datas Start ou End não têm valor, o registro é exibido como um evento de um dia
@@ -107,7 +107,7 @@ Para gerenciar uma exibição de calendário:
 
    ![](assets/calendar-view-example.png)
 
-   Os registros associados ao tipo de registro selecionado são exibidos como barras em um calendário.
+   Os registros associados ao tipo de registro selecionado são exibidos como barras em um calendário. A cor das barras corresponde à cor do ícone de registro.
 
 1. Siga um destes procedimentos para navegar pelo calendário:
 

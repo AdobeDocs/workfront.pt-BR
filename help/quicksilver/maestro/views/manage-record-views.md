@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 2c630ad348955380620eef073b0c7dde81d11835
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 0%
+source-wordcount: '811'
+ht-degree: 1%
 
 ---
 
@@ -28,9 +28,9 @@ Depois de selecionar um tipo de registro na área de recursos do Adobe Workfront
 
   Para obter mais informações, consulte [Gerenciar a exibição de linha do tempo](../views/manage-the-timeline-view.md).
 
-<!--* Calendar 
+* Calendário
 
-    For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). -->
+  Para obter mais informações, consulte [Gerenciar a exibição de calendário](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
 ## Requisitos de acesso
 
@@ -107,7 +107,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   >
   > Como os recursos de planejamento do Adobe Workfront estão atualmente em um estado beta, alguns elementos de exibição podem não estar disponíveis para todas as exibições.
 
-Este artigo descreve as seguintes informações sobre as visualizações Maestri:
+Este artigo descreve as seguintes informações sobre visualizações de registro:
 
 * [Criar e editar uma visualização](#create-or-edit-record-views)
 * [Excluir um modo de exibição](#delete-views)
@@ -115,32 +115,32 @@ Este artigo descreve as seguintes informações sobre as visualizações Maestri
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 * [Compartilhar uma exibição](#share-a-view)
 
-## Semelhanças e diferenças entre as visualizações de tabela e linha do tempo
+## Semelhanças e diferenças entre visualizações de registro
 
-<!-- should we include Calendar here or remove this section???-->
-
-A tabela a seguir mostra as semelhanças e diferenças entre as visualizações de tabela e linha do tempo no Maestro:
+A tabela a seguir mostra as semelhanças e diferenças entre as exibições de tabela, linha do tempo e calendário:
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| Recurso | Visualização em tabela | Exibição da linha do tempo |
-|-----------------------------------------------------------------------|------------|---------------|
-| Exibir registros em uma lista ou tabela | ✓ µ |              |
-| Exibir todos os campos como colunas na tabela, por padrão | ✓ µ |              |
-| Ocultar ou mostrar campos (ou colunas) | ✓ µ |               |
-| Editar valores de campo para cada registro | ✓ µ |               |
-| Adicionar registros como novas linhas na exibição | ✓ µ |               |
-| Adicionar campos como novas colunas na exibição | ✓ µ |               |
-| Copiar linhas de uma lista externa e colá-las em uma tabela | ✓ µ |               |
-| Exibir registros em uma linha do tempo |            | ✓ µ |
-| Filtrar registros | ✓ µ | ✓ µ |
+| Recurso | Visualização em tabela | Exibição da linha do tempo | Exibição de calendário |
+|-----------------------------------------------------------------------|------------|---------------|--------------|
+| Exibir registros em uma lista ou tabela | ✓ µ |              | |
+| Exibir todos os campos como colunas na tabela, por padrão | ✓ µ |              |    |
+| Ocultar ou mostrar campos (ou colunas) | ✓ µ |               |    |
+| Editar valores de campo para cada registro | ✓ µ |               |             |
+| Adicionar registros como novas linhas na exibição | ✓ µ |               |        |
+| Adicionar campos como novas colunas na exibição | ✓ µ |               |         |
+| Copiar linhas de uma lista externa e colá-las em uma tabela | ✓ µ |               |          |
+| Exibir registros em uma linha do tempo |            | ✓ µ |             |
+| Filtrar registros | ✓ µ | ✓ µ |           |
+| Exibir registros em um calendário |           |              | ✓ µ |
 | Registros de grupo | ✓ µ | ✓ µ |
 | Classificar registros | ✓ µ |              |
-| Registros de código de cores |           | ✓ µ |
+| Registros de código de cores |           | ✓ µ | ✓ µ |
 | Agrupamentos de código de cores |           | ✓ µ |
 | Pesquisar registros específicos | ✓ µ | ✓ µ |
-| Compartilhar visualização | ✓ µ | ✓ µ |
-| Abrir a página Detalhes do registro na exibição | ✓ µ | ✓ µ |
+| Compartilhar visualização | ✓ µ | ✓ µ | ✓ µ |
+| Abrir a página Detalhes do registro na exibição | ✓ µ | ✓ µ |    |
+
 
 ## Criar ou editar exibições {#create-or-edit-views}
 
@@ -154,49 +154,62 @@ O espaço de trabalho acessado pela última vez é aberto por padrão. Para obte
    Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
 <!--
-    1. Click **+ View** to add a new view. 
+1. Click **+ View** to add a new view. 
+1. Select from the following types of views: 
 
-    1. Select from the following types of views: 
+    * Table
+    * Timeline
+    * Calendar
 
-        * Table
-        * Timeline
-        * Calendar
-
-        >[!TIP]
-        >
-        >When you create a record type, the table view is also created by default. 
-        >
-        >To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
-        >
-        >(*********remove all of the below steps and replace the screen shot when calendar view releases*********)
-    -->
+>[!TIP]
+>
+>When you create a record type, the table view is also created by default. 
+>
+>To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+>
+>(*********remove the step below and replace the screen shot when calendar view releases*********)
+-->
 
 1. Clique em **Exibir** e selecione um existente **Visualização em tabela** ![](assets/table-view-icon.png) ou clique em **Criar visualização > Tabela** para criar uma exibição de tabela
 
    Ou
 
-   Selecionar um existente **Exibição da linha do tempo** ![](assets/timeline-view-icon.png) exibir ou clicar **Criar exibição > Linha do tempo** para criar uma visualização de linha do tempo.
+   Selecionar um existente **Exibição da linha do tempo** ![](assets/timeline-view-icon.png) ou clique em **Criar exibição > Linha do tempo** para criar uma visualização de linha do tempo.
+
+   Ou
+
+   Selecionar um existente **Exibição de calendário** ![](assets/calendar-view-icon.png) ou clique em **Criar exibição > Calendário** para criar uma exibição de calendário.
 
    ![](assets/view-types-drop-down-from-record-type-list.png)
 
    >[!NOTE]
    >
-   >    Para criar uma exibição de linha do tempo, o tipo de registro para o qual você cria a exibição deve ter pelo menos dois campos de data. Caso contrário, a opção Linha do tempo ficará esmaecida.
+   >    Para criar uma exibição de linha do tempo ou calendário, o tipo de registro para o qual você cria a exibição deve ter pelo menos dois campos de data. Caso contrário, as opções Linha do tempo ou Calendário estarão esmaecidas.
 
-1. (Opcional) Atualize o nome da exibição e clique em **Criar** para salvar uma visualização de tabela
+1. (Condicional) Clique em **Próxima**, ao criar uma exibição de linha do tempo ou calendário.
 
-   Ou clique em **Próxima**, ao criar uma linha do tempo <!--or calendar--> exibição.
+   Por padrão, o Workfront atribui à exibição um dos seguintes nomes:
 
-   Por padrão, o Workfront nomeia a exibição como &quot;Tabela &lt; número >&quot; ou &quot;Linha do tempo &lt; número >&quot;, <!--or "Calendar < number >"-->. O número é um incremento gerado automaticamente.
+   * `Table < number >`
+   * `Timeline < number >`
+   * `Calendar < number >`
 
-1. (Condicional) Selecione as datas de Início e Término dos registros que serão exibidos na linha do tempo <!--or calendar--> e clique em **Criar**.
+   O número é um incremento gerado automaticamente.
+
+1. (Condicional) Selecione a variável **Início** e **Datas finais** para os registros que serão exibidos na exibição de linha do tempo ou calendário.
+1. Clique em **Criar**.
+
+   <!--add for view redesign: The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. -->
+<!--1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to view all views for the selected record type. 
+
+    Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views. -->
 1. (Opcional) Para renomear uma view após sua criação, clique no menu suspenso exibir e, em seguida, clique na **Mais** menu ![](assets/more-menu.png) > **Renomear** para atualizar o nome da exibição. <!--ensure there is not another saving step here?!-->
    <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
 1. (Opcional) Para gerenciar um tipo específico de visualização, consulte os seguintes artigos:
 
    * [Gerenciar a exibição de tabela](../views/manage-the-table-view.md)
    * [Gerenciar a exibição de linha do tempo](../views/manage-the-timeline-view.md)
-     <!--* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)-->
+   * [Gerenciar a exibição de calendário](/help/quicksilver/maestro/views/manage-the-calendar-view.md)
 
 
 ## Excluir visualizações
@@ -211,7 +224,7 @@ O espaço de trabalho acessado pela última vez é aberto por padrão. Para obte
 
    Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
-<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions below but keep the last step***********)-->
+<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions in the point below but keep the last step***********)-->
 1. Clique no menu suspenso Exibir, passe o mouse sobre uma das exibições na lista e clique no botão **Mais** menu ![](assets/more-menu.png) > **Excluir**.
 1. Clique em **Excluir** para confirmar. <!--ensure there is not another saving step here?!-->
 
