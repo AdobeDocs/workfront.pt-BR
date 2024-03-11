@@ -4,9 +4,9 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: edc9d53152ea3828b04a0cd7c2bbb5cf48e541f6
+source-git-commit: 2a5feca46715a9d17070157af3799a8c8a35ef3d
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -167,6 +167,40 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 </tr>
            </tbody>
         </table>
+
+### Aprimoramentos de integração
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 50%;" />
+    <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Recurso</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Datas de lançamento</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Melhorias no fluxo de trabalho de criação automatizada de pastas na integração do Adobe Experience Manager</a></p><span style="color: #ff0000;"> Novo na visualização!</span><p>Para garantir que suas pastas do Adobe Experience Manager reflitam com mais precisão suas necessidades, adicionamos árvores de pastas aninhadas ao fluxo de trabalho de pastas vinculadas do Adobe Experience Manager.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 11 de março de 2024</p>
+                            </li>
+                             <li> <p><span class="preview">Lançamento trimestral para produção: 14 de março de 2024</span></p>
+                             </li>
+                        </ul>
+                    </td>
+                 </tr>          
+            </tbody>
+</table>
+
 
 ### Aprimoramentos do projeto
 
