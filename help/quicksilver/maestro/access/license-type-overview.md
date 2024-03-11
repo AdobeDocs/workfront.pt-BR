@@ -1,12 +1,12 @@
 ---
-title: Visão geral do tipo de licença
-description: Seu acesso ao Adobe Maestro depende do tipo de licença, além de suas permissões para objetos do Maestri.
+title: Visão geral do tipo de licença ao usar os recursos de planejamento do Adobe Workfront
+description: O acesso aos recursos de planejamento do Adobe Workfront depende do tipo de licença, além das permissões para objetos.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 62491ee9a8ee6982e104f59e99f182a0f059dc07
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -14,33 +14,33 @@ ht-degree: 0%
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
 <!--update the title and the metadata title if Maestro is NOT its own product - because the title is too generic for it being a Workfront capability-->
 
-# Visão geral do tipo de licença no Adobe Maestro
+# Visão geral do tipo de licença ao usar os recursos de planejamento do Adobe Workfront
 
 {{maestro-important-intro}}
 
-Seu tipo de licença do Adobe Workfront funciona em conjunto com suas permissões do Maestro para dar a você acesso para visualizar, contribuir ou gerenciar objetos do Maestri.
+O tipo de licença do Adobe Workfront funciona em conjunto com as permissões dos recursos de planejamento do Adobe Workfront para fornecer acesso a visualização, contribuição ou gerenciamento de espaços de trabalho ou exibições. <!--add more objects here when we can grant other object-specific permissions-->
 
-Este artigo descreve os tipos de licenças necessárias e o acesso concedido aos objetos da Maestri com base em cada tipo de licença.
+Este artigo descreve os tipos de licenças necessárias e o acesso concedido aos objetos com base em cada tipo de licença.
 
-Um usuário com um tipo de licença de nível inferior tem permissões restritas para objetos Maestri.
+Um usuário com um tipo de licença de nível inferior tem permissões restritas para objetos ao usar os recursos do Workfront Planning.
 
 >[!INFO]
 >
->**EXEMPLO:** Os solicitantes (ou colaboradores, de acordo com o novo modelo de licença) não podem contribuir para ou gerenciar espaços de trabalho do Maestro e seus objetos.
+>**EXEMPLO:** Os solicitantes (ou colaboradores, de acordo com o novo modelo de licença) não podem contribuir para espaços de trabalho e seus objetos, nem gerenciá-los.
 >
 >Há uma indicação na caixa de compartilhamento de que os usuários não podem receber permissões para contribuir ou gerenciar um espaço de trabalho quando possuem uma licença de nível inferior.
 >
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
 
-Para obter informações sobre permissões para objetos do Maestro, consulte [Visão geral das permissões de compartilhamento no Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+Para obter informações sobre permissões para objetos nos recursos do Workfront Planning, consulte [Visão geral das permissões de compartilhamento no Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
 
-## A relação entre os tipos de licença do Workfront e as permissões do Maestro
+## A relação entre os tipos de licença do Workfront e as permissões dos recursos de planejamento do Workfront
 
 A tabela a seguir descreve a relação entre o tipo de licença de um usuário e o nível de permissões que você pode conceder a ele com base nessa licença:
 
 
-| Tipo de licença | Permissões permitidas para objetos Maestri |
+| Tipo de licença | Permissões permitidas em objetos de recursos de planejamento do Workfront |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Novo: Padrão <br> ou <br>Atual: Plano | Os usuários podem criar e gerenciar espaços de trabalho, tipos de registro e registros. |
 | Novo: Claro <br> ou <br>Atual: Trabalho | Os usuários podem contribuir e exibir um espaço de trabalho compartilhado com eles, bem como os tipos de registro e registros desse espaço de trabalho.  Os usuários podem criar, editar e excluir registros nos espaços de trabalho em que têm permissões do Contribute. |

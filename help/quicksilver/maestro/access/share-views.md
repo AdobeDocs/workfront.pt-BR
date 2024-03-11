@@ -4,10 +4,10 @@ description: Você pode compartilhar uma visualização com outras pessoas para 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 023ca8c4e7c2dec2098390c1cda1e5b4eafbb840
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 1%
+source-wordcount: '497'
+ht-degree: 0%
 
 ---
 
@@ -109,3 +109,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Clique em **Copiar link** para copiar um link para a exibição para a área de transferência.
 1. Compartilhar o link copiado com outras pessoas. Os usuários que recebem o link devem ser usuários ativos e fazer logon no Workfront para acessar a página de tipo de registro e exibi-la na exibição selecionada.
 1. Clique em **Salvar**.
+
+## Remover permissões para uma exibição
+
+{{step1-to-maestro}}
+
+1. Abra o espaço de trabalho cuja exibição você deseja compartilhar e clique em um cartão de tipo de registro. Isso abre a página do tipo de registro.
+1. No menu suspenso de exibição, passe o mouse sobre a exibição que deseja compartilhar e clique no link **Mais** menu ![](assets/more-menu.png) à direita do nome da exibição, clique em **Compartilhar**.
+1. Localize o usuário ou grupo que deseja remover e clique em **Remover** no menu suspenso permissões à direita do nome do usuário ou do grupo.
+1. Clique em **Salvar**.
+O usuário ou os usuários que pertencem ao grupo removido não têm mais acesso à visualização. Não há notificações para os usuários que foram removidos do acesso à visualização.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '507'
 ht-degree: 7%
 
 ---
@@ -44,7 +44,7 @@ Você pode compartilhar os seguintes objetos no Maestro:
 
 * Seu tipo de licença do Adobe Workfront funciona em conjunto com suas permissões do Maestro para dar a você acesso para visualizar, contribuir ou gerenciar objetos do Maestri.
 
-  Para obter informações sobre como os tipos de licença afetam os níveis de permissão para objetos Maestri, consulte [Visão geral do tipo de licença no Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+  Para obter informações sobre como os tipos de licença afetam os níveis de permissão para objetos Maestri, consulte [Visão geral do tipo de licença ao usar os recursos de planejamento do Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
 * Os administradores do sistema podem gerenciar e compartilhar espaços de trabalho criados por outros usuários.
 * Se você não for um Administrador do sistema, poderá contribuir com espaços de trabalho criados por outros se eles forem compartilhados com você.
 * Não é possível compartilhar espaços de trabalho em massa.
@@ -62,7 +62,7 @@ As tabelas nas seções a seguir ilustram o nível de permissões que você pode
 >
 >Nem todos os usuários podem ter os níveis de permissão descritos abaixo. A licença individual dos usuários determina o nível de permissões que eles podem receber para objetos do Maestro.
 >
->Para obter informações, consulte [Visão geral do tipo de licença no Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+>Para obter informações, consulte [Visão geral do tipo de licença ao usar os recursos de planejamento do Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Permissões do Workspace

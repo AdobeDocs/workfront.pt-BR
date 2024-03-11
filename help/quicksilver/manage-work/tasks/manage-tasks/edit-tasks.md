@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '3712'
-ht-degree: 4%
+source-wordcount: '3729'
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um </p> </td> 
+   <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -83,11 +83,13 @@ Considere o seguinte ao editar tarefas:
 
 * Você pode editar e adicionar documentos a tarefas em um projeto com status Concluído, Inativo ou Pendente de Aprovação somente quando o administrador do Workfront ou um administrador de grupo ativou essa funcionalidade na área Preferências do projeto. Para obter informações sobre como configurar as preferências do projeto, consulte [Configurar preferências de projeto em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-* Você sempre pode editar as seguintes informações em uma tarefa quando o projeto tiver sido marcado como Concluído, Inativo ou estiver em um Processo de aprovação:
+* Você sempre pode editar as seguintes informações em uma tarefa quando o projeto estiver marcado como Concluído, Inativo ou estiver em um Processo de aprovação:
 
    * Registrar de tempo
    * Editar despesas existentes
    * Anexar um formulário personalizado
+
+* Outros usuários devem atualizar suas páginas antes de visualizarem as atualizações feitas em uma tarefa.
 
 ## Editar uma tarefa em uma lista
 
@@ -240,13 +242,13 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
        <ul> 
       <li> <p><span>Datas Fixas</span> </p> <p>Especificar um <strong>Início Planejado</strong> e uma <strong>Data de Término Planejada</strong>. </p> </li> 
       <li> <p><span>Precisa Iniciar Em</span> </p> <p>Especificar um <strong>Data de Início Planejada</strong>. </p> </li> 
-      <li> <p><span>Precisa Terminar Em</span> </p> <p>Especificar um <strong>Data de Término Planejada</strong>. </p> </li> 
+      <li> <p><span>Deve Terminar Em</span> </p> <p>Especificar um <strong>Data de Término Planejada</strong>. </p> </li> 
        </ul> 
        <ul> 
       <li> <p><span>Assim que possível</span></p> </li> 
       <li> <p><span>O mais tarde possível</span></p> </li> 
       <li> <p><span>Momento Mais Cedo Disponível</span></p> </li> 
-      <li> <p> <span>O Mais Tarde Disponível</span></p> </li> 
+      <li> <p> <span>Último horário disponível</span></p> </li> 
       <li> <p><span>Não Iniciar Depois De</span> </p> </li> 
       <li> <p>Especificar uma Data de Início Planejada</p> </li> 
       <li> <p><span>Não Iniciar Antes De</span> </p> <p>Especificar um <strong>Data de Início Planejada</strong>. </p> </li> 
@@ -256,7 +258,7 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
      </tr> 
      <tr> 
       <td role="rowheader">Data e hora de confirmação</td> 
-      <td> <p>Essa é a data na qual o usuário atribuído à tarefa se compromete a tê-la concluída. Pode ser diferente da Data de conclusão planejada. Somente as pessoas atribuídas podem editar este campo. Para obter informações sobre Datas de confirmação no Workfront, consulte <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Visão geral da data de compromisso</a>. </p> </td> 
+      <td> <p>Essa é a data na qual o usuário atribuído à tarefa se compromete a tê-la concluída. Pode ser diferente da Data de conclusão planejada. Somente os atribuídos podem editar este campo. Para obter informações sobre Datas de confirmação no Workfront, consulte <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Visão geral da data de compromisso</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Data e hora de início planejadas</td> 
@@ -362,7 +364,7 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Duração por Ocorrência</td> 
-      <td> <p>É exibido apenas no pai de tarefas recorrentes. Ela exibe a duração de cada tarefa recorrente, conforme definido quando a tarefa foi criada. Para obter informações sobre como criar tarefas recorrentes, consulte <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Criar tarefas recorrentes</a>. </p> <p> <b>Nota</b>
+      <td> <p>É exibido apenas no pai de tarefas recorrentes. Ela exibe a duração de cada tarefa recorrente, conforme definido quando a tarefa foi criada. Para obter informações sobre como criar tarefas recorrentes, consulte <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Criar tarefas recorrentes</a>. </p> <p> <b>NOTA</b>
 
    As durações modificadas em tarefas recorrentes individuais não exibem o valor indicado neste campo. </p> </td>
    </tr> 
@@ -444,7 +446,7 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
    <tr> 
    <td role="rowheader">Horas planejadas</td> 
    <td> <p>Especifique a quantidade de Horas Planejadas para a tarefa, em horas. Essa é a quantidade de tempo real que os atribuídos da tarefa levariam para concluí-la. Você só poderá especificar a quantidade de Horas Planejadas para uma tarefa quando o Tipo de Duração estiver definido como Atribuição Calculada. Para obter mais informações sobre tipos de duração, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Visão Geral da Duração da Tarefa e do Tipo de Duração</a>.</p> 
-   <b>Nota</b>
+   <b>NOTA</b>
    <p>
    Ao criar tarefas recorrentes, as Horas planejadas são as de cada ocorrência. As horas planejadas das tarefas pai são o total de todas as horas planejadas de todas as ocorrências. Para obter informações sobre como criar tarefas recorrentes, consulte <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Criar tarefas recorrentes</a>.
    </p>
