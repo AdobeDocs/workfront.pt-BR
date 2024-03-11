@@ -6,14 +6,16 @@ description: Usar fluxos de trabalho na integração do Experience Manager Asset
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
+source-git-commit: 83cd0960947108186f8d1d8ef2ad6c35c89820bd
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
 
 # Usar fluxos de trabalho na integração do Experience Manager Assets
+
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente Visualização da sandbox.</span>
 
 Um fluxo de trabalho é um conjunto de ações que conectam o Workfront ao Adobe Experience Manager as a Cloud Service. Um administrador do Workfront pode configurar fluxos de trabalho no Workfront e atribuí-los a Modelos de projeto. Quando um Projeto é criado usando um Modelo de projeto ao qual um fluxo de trabalho é atribuído, as ações definidas no fluxo de trabalho são acionadas.
 
@@ -30,7 +32,7 @@ Você deve ter o seguinte:
   <tr>
    <td><strong>plano do Adobe Workfront*</strong>
    </td>
-   <td>Qualquer Um
+   <td>Qualquer
    </td>
   </tr>
   <tr>
@@ -107,6 +109,10 @@ Você pode adicionar um fluxo de trabalho ao criar um projeto ou adicionar um fl
 
 ### Adicionar um fluxo de trabalho a um projeto existente
 
+>[!NOTE]
+>
+>Os fluxos de trabalho executados quando um projeto é criado (como criação de pasta vinculada) não são executados quando o modelo é anexado a um projeto existente. Eles só são executados quando um projeto é criado a partir de um modelo.
+
 1. Comece a adicionar um modelo ao projeto.
 
    Para obter instruções, consulte [Anexar um modelo a um projeto](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
@@ -115,6 +121,8 @@ Você pode adicionar um fluxo de trabalho ao criar um projeto ou adicionar um fl
 1. (Opcional) Edite quaisquer valores de workflow para o projeto, conforme descrito em [Editar valores de fluxo de trabalho em um projeto](#edit-workflow-values-in-a-project).
 
    Somente os workflows que foram ativados na área Experience Manager da Configuração estão disponíveis em modelos ou projetos.
+
+
 
 ### Editar valores de fluxo de trabalho em um projeto
 
@@ -130,9 +138,17 @@ Todos os valores de workflow podem ser encontrados em:
   >
   >Se essas áreas não estiverem visíveis, o administrador do Workfront não ativou os Fluxos de trabalho para sua organização.
 
+
+
 #### Pastas vinculadas
 
+>[!NOTE]
+>
+>Como as pastas vinculadas são criadas quando o projeto é criado, a edição do fluxo de trabalho da pasta vinculada em um projeto existente não é eficaz. A edição desses valores ao criar um projeto funciona conforme esperado.
+
 Para editar o fluxo de trabalho de pastas vinculadas:
+
+No ambiente de produção:
 
 1. Alternar **[!UICONTROL Criar Pasta vinculada]** ligado ou desligado, conforme desejado.
 1. (Condicional) Se estiver ativando pastas vinculadas, escolha um caminho de pasta para indicar onde deseja que todas as pastas vinculadas sejam associadas a essa integração.
@@ -142,6 +158,31 @@ Para editar o fluxo de trabalho de pastas vinculadas:
 
    Se você estiver na [!DNL Adobe Experience Manager area], as alterações são salvas automaticamente. <!--Do they though?-->
 
+No ambiente Visualização da sandbox:
+
+<div class="preview">
+
+1. Alterne a **[!UICONTROL Criar Pasta vinculada]** ligado ou desligado, conforme desejado. Se você ativá-lo, poderá editar a configuração da pasta vinculada.
+
+   Para obter detalhes sobre a configuração da pasta vinculada, consulte [Criar pastas vinculadas do Adobe Experience Manager](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) no artigo [Configure o [!UICONTROL Experience Manager Assets as a Cloud Service] integração](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+
+1. (Opcional) Se desejar que a árvore de pastas seja criada somente se determinados valores estiverem presentes em um formulário personalizado anexado ao projeto, clique no link **Aplicar filtro** para essa árvore de pastas, selecione o formulário personalizado que contém o campo, o campo e o valor do campo. Se o campo no formulário personalizado anexado ao novo projeto contiver o valor escolhido, a árvore de pastas será criada.
+1. (Opcional) Ao configurar nomes de pastas, você pode selecionar entre as seguintes opções:
+
+   * **Nome**: digite um nome para a pasta.
+
+   * **Dados do objeto**: selecione a origem do nome da pasta, como Nome do projeto.
+
+   * **Dados de formulário personalizados**: selecione os dados de formulário personalizados a serem usados como o nome da pasta.
+
+     O uso de dados de formulário personalizados para nomes de pastas está disponível somente no nível do modelo e não pode ser configurado no nível de integração.
+
+     Se um nome de pasta for definido como dados personalizados que não existem no personalizado para anexado ao projeto, uma ID aleatória será atribuída como o nome da pasta.
+
+1. Clique em **[!UICONTROL Salvar]**.
+
+</div>
+
 
 #### Publicar ativos
 
@@ -149,10 +190,4 @@ Para editar o fluxo de trabalho de publicação de ativos:
 
 1. Alternar **Publicar ativos automaticamente** ligado ou desligado, conforme desejado.
 1. (Condicional) Se você estiver ativando a publicação, selecione se deseja publicar no serviço de publicação, no portal de marcas ou em ambos.
-1. Clique em **[!UICONTROL Salvar]** se você estiver usando o [!UICONTROL Criar projeto] ou [!UICONTROL Editar projeto] janela.
-
-   Ou
-
-   Se você estiver na [!DNL Adobe Experience Manager area], as alterações são salvas automaticamente. <!--Do they though?-->
-
-
+1. Clique em **[!UICONTROL Salvar]**.

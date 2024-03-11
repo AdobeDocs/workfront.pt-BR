@@ -6,10 +6,10 @@ description: É possível criar e excluir modelos na área Modelos. Ao criar um 
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 094a54d2d1f6445aa9611152cb632d85be74bbeb
+source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 

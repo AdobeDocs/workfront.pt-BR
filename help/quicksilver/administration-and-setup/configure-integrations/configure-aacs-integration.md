@@ -6,9 +6,9 @@ description: Você pode conectar seu trabalho ao seu conteúdo no [!DNL Experien
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 54ece5a3082264af80d6a720452f8afe5e99c868
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1763'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Configure o [!UICONTROL Experience Manager Assets as a Cloud Service] integração
 
 <!-- Audited: 1/2024 -->
+
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente Visualização da sandbox.</span>
 
 >[!IMPORTANT]
 >
@@ -241,7 +243,7 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 Um fluxo de trabalho é um conjunto de ações que conectam o Workfront ao Adobe Experience Manager as a Cloud Service. Como administrador do Workfront, você pode configurar fluxos de trabalho no Workfront e atribuí-los a Modelos de projeto. Quando um Projeto é criado usando um Modelo de projeto ao qual um fluxo de trabalho é atribuído, as ações definidas no fluxo de trabalho são acionadas.
 
-Os valores padrão do fluxo de trabalho definidos na integração podem ser substituídos nos níveis de Modelo de projeto e Projeto.
+Os fluxos de trabalho são ativados e configurados para a Adobe Experience Manager como um todo. Esses fluxos de trabalho podem ser aplicados a modelos de projeto e ajustados ou personalizados no nível do modelo ou do projeto.
 
 Os seguintes fluxos de trabalho estão disponíveis na integração do Adobe Experience Manager:
 
@@ -255,6 +257,46 @@ Os seguintes fluxos de trabalho estão disponíveis na integração do Adobe Exp
    ![Navegação de pastas vinculadas](assets/select-folder-aem-integration.png)
 1. Ativar o **[!UICONTROL Anexar nomes de Portfolio e programas]** opção para incluir automaticamente os nomes de Portfolio e Programa no final do nome da pasta vinculada.
 1. Clique em **[!UICONTROL Salvar]** ou vá para a página [Publicar ativos enviados para o Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) neste artigo.
+
+No ambiente Visualização da sandbox
+
+<div class="preview">
+
+1. Alterne a **[!UICONTROL Criar Pasta vinculada]** em.
+1. Insira um nome para a pasta vinculada que você está criando.
+1. (Condicional) Ative a variável **Árvore de pastas padrão** opção se desejar que essa pasta vinculada seja a pasta padrão para projetos criados com modelos que usam essa integração. É possível selecionar uma ou mais pastas padrão.
+1. Escolha um caminho de pasta para indicar onde deseja que todas as pastas vinculadas sejam associadas a essa integração.
+1. (Condicional) Para adicionar uma árvore de pastas (pastas aninhadas) a essa integração, faça o seguinte:
+
+   1. Clique em **Adicionar pasta** ícone ![Adicionar pasta](assets/add-folder-aem.png).
+   1. No **Tipo de nome** selecione como deseja nomear a pasta:
+
+      * **Nome**: digite um nome para a pasta.
+      * **Dados do objeto**: selecione a origem do nome da pasta, como Nome do projeto.
+
+      >[!NOTE]
+      >
+      >* Os nomes de pasta devem ter menos de 100 caracteres.
+      >* Os seguintes caracteres serão removidos dos nomes das pastas:
+      >
+      >   `/`, `:`, `[`, `]`, `|`, `*`
+
+   1. Para adicionar uma pasta aninhada à árvore de pastas, clique no menu de três pontos ao lado da pasta na qual deseja criar uma pasta aninhada e selecione **Adicionar pasta**. Preencha os campos conforme descrito em Etapa da etapa anterior.
+   1. Para vincular uma pasta ao Workfront, selecione a pasta e clique no link **Criar pasta vinculada**   ícone ![Vincular pasta](assets/link-folder.png).
+   1. (Opcional) Para editar uma pasta, selecione-a e clique no **Editar pasta** ícone ![Ícone Editar](assets/edit-icon.png).
+   1. (Opcional) Para excluir uma pasta, selecione-a e clique no **Excluir pasta** ícone ![Excluir pasta](assets/delete-folder.png).
+1. (Condicional) Para adicionar outra árvore de pastas, clique em **+ Adicionar árvore de pastas** e siga as etapas da Etapa 5.
+
+1. Clique em **[!UICONTROL Salvar]**, ou passe para a [Publicar ativos enviados para o Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) neste artigo.
+
+>[!NOTE]
+>
+>* Essa integração criará no máximo 100 pastas, independentemente de quantas árvores de pastas forem criadas. Por exemplo, uma integração com quatro árvores de pastas pode criar até 100 pastas, não 400 pastas.
+>* A primeira pasta na árvore de pastas é marcada automaticamente como vinculada ao Workfront. Se não quiser que essa pasta seja vinculada, desvincule-a.
+>* Se nenhuma árvore de pastas for fornecida, a pasta raiz se tornará a pasta vinculada.
+
+
+</div>
 
 ### Publicar ativos enviados para o Adobe Experience Manager Assets
 
