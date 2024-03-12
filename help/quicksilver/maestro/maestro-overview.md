@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '1977'
+source-wordcount: '1976'
 ht-degree: 1%
 
 ---
@@ -215,7 +215,7 @@ A seguir estão os principais objetos e conceitos dos recursos de planejamento:
 
    * Dois tipos de registro de capacidade de planejamento.
    * Um tipo de registro de recurso de planejamento e um tipo de objeto de projeto, programa, portfólio, empresa ou grupo do Workfront.
-   * Um tipo de registro de recurso de planejamento e um ativo, pasta ou coleção da Adobe Experience Manager.
+   * Um tipo de registro de recurso de planejamento e um ativo ou pasta da Adobe Experience Manager.
 
      Você deve ter uma licença da Adobe Experience Manager para vincular tipos de registro a objetos Experience Manager.
 

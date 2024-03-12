@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '4374'
+source-wordcount: '4391'
 ht-degree: 0%
 
 ---
@@ -133,6 +133,8 @@ Produção: 28 de fevereiro de 2024
 Visualização: a ser determinado
 
 Agora é possível filtrar, classificar e agrupar por registros conectados ou seus campos de pesquisa. Esse aprimoramento ajudará você a organizar e visualizar seus dados com eficiência em visualizações de tabela e linha do tempo.
+
+Não é possível filtrar, classificar ou agrupar por campos de pesquisa que permitem conexões com vários registros.
 
 Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/maestro/views/manage-the-table-view.md) e [Gerenciar a exibição de linha do tempo](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
 
@@ -296,7 +298,7 @@ A seguir estão os níveis de permissões para exibições de registro:
 * View: Os usuários podem selecionar a view no menu drop-down Exibir de uma página do tipo de registro.
 * Gerenciar: Os usuários podem editar, compartilhar e excluir a exibição.
 
-Para obter mais informações, consulte [Visão geral do Access](/help/quicksilver/maestro/access/access-overview.md) e [Visão geral das permissões de compartilhamento no Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
+Para obter mais informações, consulte [Visão geral do Access](/help/quicksilver/maestro/access/access-overview.md) e [Visão geral das permissões de compartilhamento nos recursos de planejamento do Adobe Workfront](../maestro/access/sharing-permissions-overview.md).
 
 ### Novo tipo de campo Fórmula
 

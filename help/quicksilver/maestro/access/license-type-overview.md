@@ -4,9 +4,9 @@ description: O acesso aos recursos de planejamento do Adobe Workfront depende do
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Um usuário com um tipo de licença de nível inferior tem permissões restritas
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
 
-Para obter informações sobre permissões para objetos nos recursos do Workfront Planning, consulte [Visão geral das permissões de compartilhamento no Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+Para obter informações sobre permissões para objetos nos recursos do Workfront Planning, consulte [Visão geral das permissões de compartilhamento nos recursos de planejamento do Adobe Workfront](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
 
 ## A relação entre os tipos de licença do Workfront e as permissões dos recursos de planejamento do Workfront
 

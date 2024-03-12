@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '2337'
+source-wordcount: '2400'
 ht-degree: 3%
 
 ---
@@ -109,7 +109,7 @@ Para gerenciar uma exibição de tabela:
    * [Linhas (ou registros)](#add-rows-or-records)
    * [Filtros](#add-filters)
    * [Agrupamento](#add-groupings)
-   * [Ordenar](#sort-information)
+   * [Ordenar](#add-a-sort)
 
 
 ### Adicionar colunas (ou campos) {#add-columns}
@@ -261,6 +261,8 @@ Considere o seguinte ao trabalhar com filtros na exibição de tabela:
 
 * Adicionar filtros à exibição de tabela é idêntico a adicionar filtros à exibição de linha do tempo.
 
+* Você pode filtrar por campos de registro conectados ou campos de pesquisa, mas não pelos campos que permitem vincular a vários registros.
+
 Para adicionar um filtro a uma exibição de tabela:
 
 1. Crie uma exibição de tabela para uma página de tipo de registro, conforme descrito no artigo [Gerenciar exibições de registro](../views/manage-record-views.md).
@@ -369,6 +371,7 @@ Considere o seguinte:
 * Não é possível nomear os agrupamentos criados para uma exibição de tabela.
 * A remoção de agrupamentos os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.
 * É possível editar registros listados em um agrupamento.
+* Você pode agrupar por campos de registro conectados ou campos de pesquisa, mas não pelos campos que permitem vincular a vários registros.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -422,6 +425,8 @@ Considere o seguinte ao classificar registros na exibição de tabela:
 * Os campos vinculados podem ser classificados somente se permitirem valores únicos ou valores de seleção múltipla com a opção de resumo selecionada (soma, média, máximo, mínimo).
 
 * A remoção dos critérios de classificação os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e use a mesma exibição usada.
+
+* Você pode classificar por campos de registro conectados ou campos de pesquisa, mas não pelos campos que permitem vinculação a vários registros.
 
 Para classificar <!--ungrouped (add this when sorting for groupings will be available--> registros, faça o seguinte:
 

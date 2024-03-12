@@ -4,9 +4,9 @@ description: Você pode compartilhar uma visualização com outras pessoas para 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Permissões de objeto</p></td>
-   <td> <p>Gerenciar permissões para uma exibição</p>  
+   <td> <p>Gerenciar permissões para uma exibição</p>
+
 </td>
   </tr>
 
@@ -85,7 +86,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 >
 >Os administradores do sistema não podem exibir ou compartilhar exibições que não foram criadas por eles mesmos. Eles só podem acessar ou compartilhar exibições compartilhadas com eles.
 
-<!--for above note: System administrators can have only Manage permissions to a view.-->
+<!--for above note - add when this releases: System administrators can have only Manage permissions to a view.-->
 
 {{step1-to-maestro}}
 
@@ -105,7 +106,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    * Exibir
    * Gerenciar
 
-     Para obter informações sobre níveis de permissão e quais ações os usuários podem executar para cada nível, consulte [Visão geral das permissões de compartilhamento no Adobe Maestro](../access/sharing-permissions-overview.md).
+     Para obter informações sobre níveis de permissão e quais ações os usuários podem executar para cada nível, consulte [Visão geral das permissões de compartilhamento nos recursos de planejamento do Adobe Workfront](../access/sharing-permissions-overview.md).
 1. Clique em **Copiar link** para copiar um link para a exibição para a área de transferência.
 1. Compartilhar o link copiado com outras pessoas. Os usuários que recebem o link devem ser usuários ativos e fazer logon no Workfront para acessar a página de tipo de registro e exibi-la na exibição selecionada.
 1. Clique em **Salvar**.

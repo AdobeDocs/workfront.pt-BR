@@ -1,13 +1,13 @@
 ---
-title: Visão geral das permissões de compartilhamento no Adobe Maestro
+title: Visão geral das permissões de compartilhamento nos recursos de planejamento do Adobe Workfront
 description: Você pode compartilhar ou remover permissões de um espaço de trabalho ou visualização do Adobe Maestri.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '531'
 ht-degree: 7%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 7%
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
-# Visão geral das permissões de compartilhamento no Adobe Maestro
+# Visão geral das permissões de compartilhamento nos recursos de planejamento do Adobe Workfront
 
 {{maestro-important-intro}}
 
-Você pode compartilhar ou remover permissões de um espaço de trabalho ou visualização do Adobe Maestri.
+Você pode compartilhar ou remover permissões de um espaço de trabalho ou exibição ao usar os recursos de planejamento no Adobe Workfront.
 
-Este artigo descreve os níveis de permissão para objetos Maestro.
+Este artigo descreve os níveis de permissão para objetos de recursos de planejamento.
 
 Para obter informações sobre como compartilhar espaços de trabalho ou exibições, consulte os seguintes artigos:
 
@@ -30,9 +30,9 @@ Para obter informações sobre como compartilhar espaços de trabalho ou exibiç
 
 * [Compartilhar exibições](/help/quicksilver/maestro/access/share-views.md)
 
-## Objetos que você pode compartilhar no Adobe Maestro
+## Objetos que você pode compartilhar nos recursos de planejamento do Adobe Workfront
 
-Você pode compartilhar os seguintes objetos no Maestro:
+Você pode compartilhar os seguintes objetos:
 
 * Espaços de trabalho
 
@@ -40,27 +40,27 @@ Você pode compartilhar os seguintes objetos no Maestro:
 
 * Visualizações
 
-## Considerações sobre o compartilhamento de objetos no Maestro
+## Considerações sobre o compartilhamento de objetos nos recursos de planejamento do Adobe Workfront
 
-* Seu tipo de licença do Adobe Workfront funciona em conjunto com suas permissões do Maestro para dar a você acesso para visualizar, contribuir ou gerenciar objetos do Maestri.
+* Seu tipo de licença do Adobe Workfront funciona em conjunto com suas permissões para fornecer acesso a visualização, contribuição ou gerenciamento de objetos ao usar os recursos do Planning.
 
-  Para obter informações sobre como os tipos de licença afetam os níveis de permissão para objetos Maestri, consulte [Visão geral do tipo de licença ao usar os recursos de planejamento do Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
+  Para obter informações sobre como os tipos de licença afetam os níveis de permissão para objetos de recursos do Planning, consulte [Visão geral do tipo de licença ao usar os recursos de planejamento do Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
 * Os administradores do sistema podem gerenciar e compartilhar espaços de trabalho criados por outros usuários.
 * Se você não for um Administrador do sistema, poderá contribuir com espaços de trabalho criados por outros se eles forem compartilhados com você.
 * Não é possível compartilhar espaços de trabalho em massa.
-* Você pode compartilhar um espaço de trabalho com as seguintes entidades:
+* Você pode compartilhar um espaço de trabalho ou uma exibição com as seguintes entidades:
    * Usuários
    * Grupos
-* Outros usuários, incluindo Administradores do sistema, só podem acessar as exibições que criaram ou que foram compartilhadas com eles.
+* Outros usuários, incluindo Administradores do sistema, só podem acessar as exibições que criaram ou que foram compartilhadas com eles. <!--System administrators can only be given permissions to Manage a view.-->
 * É possível compartilhar um link para um espaço de trabalho ou para uma exibição de uma página do tipo record com outras pessoas. Os usuários que recebem o link devem ser usuários ativos e fazer logon no Workfront para acessar o espaço de trabalho ou a página do tipo de registro exibida na exibição selecionada.
 
-## Permissões de compartilhamento para objetos do Maestro
+## Permissões de compartilhamento para objetos de recursos de planejamento do Adobe Workfront
 
-As tabelas nas seções a seguir ilustram o nível de permissões que você pode selecionar ao compartilhar um espaço de trabalho ou view Maestri e qual funcionalidade cada nível permite.
+As tabelas nas seções a seguir ilustram o nível de permissões que você pode selecionar ao compartilhar um espaço de trabalho ou uma exibição e qual funcionalidade cada nível permite.
 
 >[!IMPORTANT]
 >
->Nem todos os usuários podem ter os níveis de permissão descritos abaixo. A licença individual dos usuários determina o nível de permissões que eles podem receber para objetos do Maestro.
+>Nem todos os usuários podem ter os níveis de permissão descritos abaixo. A licença individual dos usuários determina o nível de permissões que eles podem receber para objetos de recursos de planejamento.
 >
 >Para obter informações, consulte [Visão geral do tipo de licença ao usar os recursos de planejamento do Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
 
