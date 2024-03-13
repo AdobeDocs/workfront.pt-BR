@@ -4,9 +4,9 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2a5feca46715a9d17070157af3799a8c8a35ef3d
+source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1584'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 * [Melhorias do administrador](#administrator-enhancements)
 * [Aprimoramentos na página inicial](#home-enhancements)
 * [Aprimoramentos do projeto](#project-enhancements)
+* [Melhorias no gerenciamento de recursos](#resource-management-enhancements)
 * [Melhorias no fluxo de atualização e na notificação](#update-stream-and-notification-enhancements)
 * [Outras melhorias](#other-enhancements)
 
@@ -186,21 +187,20 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Melhorias no fluxo de trabalho de criação automatizada de pastas na integração do Adobe Experience Manager</a></p><span style="color: #ff0000;"> Novo na visualização!</span><p>Para garantir que suas pastas do Adobe Experience Manager reflitam com mais precisão suas necessidades, adicionamos árvores de pastas aninhadas ao fluxo de trabalho de pastas vinculadas do Adobe Experience Manager.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Melhorias no fluxo de trabalho de criação automatizada de pastas na integração do Adobe Experience Manager</a></p><p>[!BADGE Na produção ]{type=Informative}</p><p>Para garantir que suas pastas do Adobe Experience Manager reflitam com mais precisão suas necessidades, adicionamos árvores de pastas aninhadas ao fluxo de trabalho de pastas vinculadas do Adobe Experience Manager.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
                                 <p>Versão de pré-visualização: 11 de março de 2024</p>
                             </li>
-                             <li> <p><span class="preview">Lançamento trimestral para produção: 14 de março de 2024</span></p>
+                             <li> <p><span class="preview">Versão de produção para todos os clientes: 14 de março de 2024</span></p>
                              </li>
                         </ul>
                     </td>
                  </tr>          
             </tbody>
 </table>
-
 
 ### Aprimoramentos do projeto
 
@@ -247,6 +247,43 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                             </li>
                             <li>
                                 <p>Produção para lançamento rápido: com o lançamento do 24.3 (14 de março de 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produção para versão trimestral: com a versão 24.4 (abril de 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
+### Melhorias no gerenciamento de recursos
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Recurso</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Datas de lançamento</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Indicador de alocações ajustadas manualmente no Balanceador de carga de trabalho</a></p><p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p><p>Para fornecer mais clareza sobre ajustes manuais ou contorno no Balanceador de carga de trabalho, as alocações por hora ajustadas manualmente agora mostram um ícone de lápis.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 12 de outubro de 2024</p>
+                            </li>
+                            <li>
+                                <p>Produção para lançamento rápido: com o lançamento do 24.2 (15 de fevereiro de 2024)</p>
                             </li>
                             <li>
                                 <p>Produção para versão trimestral: com a versão 24.4 (abril de 2024)</p>

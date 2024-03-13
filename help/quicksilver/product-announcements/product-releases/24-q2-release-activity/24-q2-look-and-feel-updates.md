@@ -4,9 +4,9 @@ description: Atualizações de aparência durante o período do segundo trimestr
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,5 @@ Atualizamos as guias para Forms, Campos e Seções na área Configuração > For
 
 Para obter informações, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) e [Criar ou editar um formulário personalizado com o construtor de formulários herdado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-## Indicador de alocações ajustadas manualmente no Balanceador de carga de trabalho
 
->[!NOTE]
->
->Versão de pré-visualização: 12 de outubro de 2023; Produção para lançamento rápido: Com o lançamento 24.2 (15 de fevereiro de 2024); Produção para lançamento trimestral: Com o lançamento 24.4 (abril de 2024)
-
-Para fornecer mais clareza sobre ajustes manuais ou contorno no Balanceador de carga de trabalho, as alocações por hora ajustadas manualmente agora mostram um ícone de lápis.
-
-Para obter mais informações, consulte [Gerenciar alocações de usuário no Balanceador de carga de trabalho](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
