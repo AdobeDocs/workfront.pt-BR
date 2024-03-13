@@ -6,7 +6,7 @@ description: O Desktop Proofing Viewer, projetado principalmente para revisar co
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 98e2ebc214adf13d0f8b2962395504fb86e6d0c9
+source-git-commit: f21e87d86e62f85d7661224ac75f06f61caff61e
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%
@@ -77,12 +77,12 @@ Se o administrador do Workfront ou do Workfront Proof tiver baixado o aplicativo
 
 >[!TIP]
 >
->Você pode usar a linha de comando para instalar o Desktop Proofing Viewer executando `Workfront Proof Setup 2.1.31.exe" /S`
+>Você pode usar a linha de comando para instalar o Desktop Proofing Viewer executando `Workfront Proof Setup 2.1.34.exe" /S`
 
 1. Siga um destes procedimentos para baixar o aplicativo:
 
-   * No ambiente de Produção, clique em [Download de Produção do Windows para o Visualizador de Revisão de Texto para Desktop.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.32.exe)
-   * No ambiente de Pré-visualização, clique em [Download da Visualização do Windows para o Visualizador de Revisores de Texto para Desktop](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.32.exe)
+   * No ambiente de Produção, clique em [Download de Produção do Windows para o Visualizador de Revisão de Texto para Desktop.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.34.exe)
+   * No ambiente de Pré-visualização, clique em [Download da Visualização do Windows para o Visualizador de Revisores de Texto para Desktop](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.34.exe)
 
 1. Abra o arquivo que acabou de baixar para iniciar a instalação.
 1. Na caixa de instalação exibida, abra o arquivo que acabou de baixar para iniciar a instalação.
