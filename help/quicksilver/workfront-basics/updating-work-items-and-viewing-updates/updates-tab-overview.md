@@ -7,9 +7,9 @@ description: A seção Atualizações de um objeto exibe comentários que os usu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1292'
 ht-degree: 3%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 3%
 > * Painel Resumo em Planilhas de Horas
 > * Painel Resumo no Balanceador de carga de trabalho
 >
-><span class="preview">A nova experiência de comentários está disponível no painel Resumo em listas, folhas de horas e o Balanceador de carga de trabalho no ambiente de Pré-visualização.</span>
+><span class="preview">A nova experiência de comentários está disponível no painel Resumo em listas, folhas de horas e o Balanceador de carga de trabalho no ambiente de Pré-visualização.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 ## Visão geral da seção Atualizações
 
@@ -56,13 +56,9 @@ A seção Atualizações de um objeto mostra atualizações do sistema e até 20
 
 <div class="preview">
 
-Exemplo da seção Atualizações no ambiente de Pré-visualização:
 ![Atualiza a seção](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
 </div>
-
-Exemplo da seção Atualizações no ambiente de Produção:
-![Atualiza a seção](assets/updates-tab-after-unified-experience-for-issues.png)
 
 Dependendo dos objetos para os quais você acessa a experiência de comentários, você pode encontrar a seguinte experiência na seção Atualizações:
 
@@ -104,13 +100,9 @@ Dependendo dos objetos para os quais você acessa a experiência de comentários
 
 <div class="preview">
 
-Exemplo da seção Atualizações no ambiente de Pré-visualização:
 ![Atualiza a seção](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 </div>
-
-Exemplo da seção Atualizações no ambiente de Produção:
-![Atualiza a seção](assets/updates-tab-after-unified-experience-for-tasks.png)
 
 >[!NOTE]
 >

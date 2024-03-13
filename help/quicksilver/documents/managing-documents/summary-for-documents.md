@@ -7,16 +7,16 @@ description: O Resumo permite interagir com informações importantes diretament
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 2%
 
 ---
 
 # Resumo para visão geral de documentos
 
-{{highlighted-preview}}
+<span class="preview">As informações destacadas nesta página estão disponíveis somente no ambiente de Pré-visualização.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 O Resumo permite interagir com informações importantes diretamente da lista de documentos.
 
@@ -67,7 +67,7 @@ Use a seção Detalhes para exibir informações de visão geral de alto nível 
 * [Visão geral](#overview)
 * [Formulários personalizados](#custom-forms)
 
-![](assets/copy-of-doc-summary-details-section-350x404.png)
+<span class="preview">![](assets/copy-of-doc-summary-details-section-350x404.png)</span>
 
 ### Visão geral {#overview}
 
@@ -79,7 +79,7 @@ Expanda a seção Visão geral para visualizar ou baixar uma miniatura de imagem
 
 Use a seção Forms personalizado para adicionar, editar ou exibir quaisquer formulários personalizados associados ao documento. Comece digitando o nome do formulário personalizado para adicioná-lo ao documento. Para obter mais informações, consulte [Adicionar ou editar um formulário personalizado a um documento](../../documents/managing-documents/add-custom-form-documents.md).
 
-![](assets/add-custom-form-doc-summary-350x265.png)
+<span class="preview">![](assets/add-custom-form-doc-summary-350x265.png)</span>
 
 ## Atualizações
 
@@ -87,13 +87,10 @@ Use a seção Atualizações para ler e atualizar alguém feito no documento ou 
 
 <div class="preview">
 
-Exemplo de atualizações no ambiente de Pré-visualização:
 ![Seção Atualizações no painel Resumo](assets/summary-updates-section-new-comments.png)
 
 </div>
 
-Exemplo de atualizações no ambiente de produção:
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Aprovações
 
@@ -104,7 +101,7 @@ Aprovações de provas devem ser adicionadas no Fluxo de trabalho de provas. Par
 * [Aprovar trabalho](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Solicitar aprovações de documentos](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
 
 ## Versões
 
@@ -116,4 +113,4 @@ Use a seção Versões para exibir o número de versões criadas para um documen
 * Ir para Detalhes do documento
 * Excluir uma prova ou documento
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>

@@ -7,14 +7,16 @@ description: A Data de Compromisso é a data pela qual um usuário atribuído à
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
 
 # Visão geral da data de compromisso
+
+<span class="preview">As informações destacadas estão disponíveis somente no ambiente de Pré-visualização.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 A Data de Compromisso é a data pela qual um usuário atribuído à tarefa ou um problema se compromete a concluir a tarefa ou o problema. Isso é diferente da Data de conclusão planejada, pois é uma estimativa mais realista da data de conclusão fornecida somente pelo usuário responsável pelo trabalho. Para obter informações sobre a Data de conclusão planejada, consulte [Visão geral da Data de conclusão planejada da tarefa](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
@@ -55,7 +57,7 @@ Definir a Data de Compromisso para uma tarefa ou problema aciona as seguintes al
 
 * A Data de confirmação é preenchida no Fluxo de atualização da tarefa ou problema.
 
-  ![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)
+  <span class="preview">![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)</span>
 
   A alteração da Data de confirmação é exibida na área Atualizações da tarefa ou problema quando o administrador do Workfront ativa essa atualização na área Feeds de atualizações em Configuração. Para obter informações, consulte [Atualizações rastreadas pelo sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 

@@ -6,9 +6,9 @@ description: Ao fornecer comentários de atualização em um objeto do Adobe Wor
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 > * Painel Resumo em Planilhas de Horas
 > * Painel Resumo no Balanceador de carga de trabalho
 >
-><span class="preview">A nova experiência de comentários está disponível no painel Resumo em listas, folhas de horas e o Balanceador de carga de trabalho no ambiente de Pré-visualização.</span>
+><span class="preview">A nova experiência de comentários está disponível no painel Resumo em listas, folhas de horas e o Balanceador de carga de trabalho no ambiente de Pré-visualização.</span><!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 Você pode adicionar tags aos usuários ao fazer uma atualização em um objeto se quiser chamar a atenção deles para um objeto que, de outra forma, eles poderiam não seguir.
 
@@ -133,13 +133,9 @@ Também é possível remover usuários que foram marcados por engano ao editar o
 
    <div class="preview">
 
-   Exemplo de marcação no ambiente de Pré-visualização:
    ![Marcar um usuário](assets/tag-others-unified-commenting-with-all-tab.png)
 
    </div>
-
-   Exemplo de marcação no ambiente de produção:
-   ![](assets/tag-others-unified-commenting.png)
 
 1. (Opcional) Para tornar a atualização privada, ative **Privativo(s) de minha empresa** no canto inferior direito da caixa de atualização. Isso torna a atualização visível apenas para os usuários em sua empresa. A variável **Privativo(s) de minha empresa** A opção está disponível somente quando uma Empresa é especificada no perfil do Workfront.
 
@@ -161,7 +157,7 @@ Também é possível remover usuários que foram marcados por engano ao editar o
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
-   <span class="preview">Quando você estiver marcado no texto do comentário, seu nome de usuário será destacado nesses comentários.</span>
+   <span class="preview">Quando você estiver marcado no texto do comentário, seu nome será destacado nesses comentários.</span>
 
    Para obter informações sobre a funcionalidade adicional disponível ao atualizar um item de trabalho, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

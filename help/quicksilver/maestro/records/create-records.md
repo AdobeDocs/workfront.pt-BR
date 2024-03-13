@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -114,6 +114,9 @@ Todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
 1. (Condicional) Se a página do tipo de registro não abrir na exibição de tabela, clique no link **Exibir** e selecione um existente **Visualização em tabela** ![](assets/table-view-icon.png) ou clique em **Criar visualização > Tabela** para criar uma visualização de tabela.
 
+<!--Replace the above with this when we release the tabbed views: 
+1. (Conditional) If the record type page does not open in the table view, click the tab of a table view, or click **+ View** to create a table view. -->
+
 1. Para adicionar novos registros, clique em **Novo registro** na última linha da tabela
 
    Ou
@@ -173,15 +176,15 @@ You can import records from other applications by linking them to existing recor
 
 ## Criar registros copiando e colando informações de uma lista externa
 
-1. No Maestri, comece criando registros na exibição Tabela, conforme descrito na seção [Criar registros adicionando-os manualmente a um tipo de registro](#create-records-by-manually-adding-them-to-a-record-type) neste artigo.
+1. Comece a criar registros na exibição Tabela, conforme descrito na seção [Criar registros adicionando-os manualmente a um tipo de registro](#create-records-by-manually-adding-them-to-a-record-type) neste artigo.
 
-   Certifique-se de que a exibição de tabela Maestro tenha as colunas (ou os campos) que você deseja preencher com as novas informações de registro.
+   Certifique-se de que a exibição de tabela tenha as colunas (ou os campos) que você deseja preencher com as novas informações de registro.
 
 1. Clique em **Novo &lt; Nome do tipo de registro >** na última linha da tabela para adicionar quantas linhas novas desejar aos novos registros.
 
    Por exemplo, adicione 10 linhas à exibição de tabela se desejar colar as informações de 10 novos registros de outro aplicativo.
 
-1. Em outro aplicativo, crie uma lista de registros que deseja importar no Maestri.
+1. Em outro aplicativo, crie uma lista de registros que deseja importar.
 
    Por exemplo, você pode usar uma planilha do Excel para criar sua lista.
 
@@ -189,13 +192,13 @@ You can import records from other applications by linking them to existing recor
 
    >[!TIP]
    >
-   > As colunas da lista devem conter informações para os campos existentes que você tem no Maestro.
+   > As colunas da lista devem conter informações para os campos existentes no Workfront.
    >
-   > Certifique-se de que você tem os campos desejados já criados em Maestro e que as informações em sua folha exibe no formato correto que corresponde ao de cada campo em Maestri.
+   > Certifique-se de que você tenha os campos desejados já criados no Workfront e que as informações na sua planilha sejam exibidas no formato correto que corresponda ao de cada campo no Workfront.
 
 1. Em outro aplicativo, selecione várias linhas e colunas e cole as informações na exibição de tabela do tipo de registro, começando com o primeiro novo registro.
 
-   As seguintes informações são importadas no Maestro:
+   As informações a seguir são importadas na área de recursos do Workfront Planning:
 
    * As linhas contêm os novos registros
    * As colunas preenchem informações para os campos dos registros.

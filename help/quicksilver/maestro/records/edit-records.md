@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1089'
 ht-degree: 1%
 
 ---
@@ -117,9 +117,11 @@ O espaço de trabalho que você acessou por último é aberto.
 1. Clique em um cartão de tipo de registro.
 
    A página de tipo de registro é aberta.
-1. (Condicional) No **Exibir** menu suspenso <!--tab--> no canto superior direito da tabela, selecione um **Tabela** exibição. Essa deve ser a exibição padrão, a menos que você tenha visualizado o tipo de registro em outro tipo de exibição ao acessá-lo pela última vez.
+1. (Condicional) No **Exibir** no canto superior esquerdo da tabela, selecione uma **Tabela** exibição. Essa deve ser a exibição padrão, a menos que você tenha visualizado o tipo de registro em outro tipo de exibição ao acessá-lo pela última vez.
 
-   Os registros associados ao tipo de registro selecionado são exibidos na exibição de tabela.
+<!--replace above with this when we release view redesign: (Conditional) Click the tab of a table view or click **+ View** to create a table view. The table view should be the default view, unless you viewed the record type in another type of view when you accessed it last. -->
+
+    Os registros associados ao tipo de registro selecionado são exibidos na exibição de tabela.
 1. Clique dentro da linha de um registro para começar a editar informações sobre o registro em linha.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
@@ -129,7 +131,7 @@ O espaço de trabalho que você acessou por último é aberto.
    >  Não é possível editar as informações dos seguintes campos, pois eles são somente leitura e o Workfront os atualiza automaticamente:
    >  
    >  * Campos vinculados criados pela conexão de tipos de registro. Para obter mais informações, consulte [Conectar tipos de registro](../architecture/connect-record-types.md).
-   >  * Campos dos seguintes tipos: Criado por, Data de criação, Última modificação por, Data da última modificação
+   >  * Campos dos seguintes tipos: Criado por, Data de criação, Última modificação por, Data da última modificação, Campos de fórmula.
 
 1. (Opcional e condicional) Ao editar um campo do tipo Parágrafo, use o seguinte **Rich Text** opções de formatação:
 
@@ -147,12 +149,12 @@ O espaço de trabalho que você acessou por último é aberto.
 
 
    <!--
-    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click on a record name. The **Details** box opens in the table. 
+    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click a record name. The **Details** box opens in the table. 
         >[!TIP]
         >
         >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
     1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
-    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
+    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (*********check the icon; they are changing it***********) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
     -->
 
 1. (Opcional) Para copiar e colar informações de um campo para outro, siga um destes procedimentos:
@@ -168,7 +170,7 @@ O espaço de trabalho que você acessou por último é aberto.
    >* Use os seguintes atalhos de teclado para copiar e colar informações:
    >   * Copiar: CTRL + C (⌘ + C para Mac)
    >   * Colar: CTRL + V (⌘ + V para Mac)
-   >* Você não pode copiar informações de outra fonte, que não seja um campo Maestro do mesmo tipo do campo no qual você cola as informações.
+   >* Não é possível copiar informações de outra origem, que não seja um campo de registro do mesmo tipo do campo no qual você cola as informações.
    >
    >* Não é possível copiar e colar valores de campo na área Detalhes de um registro. Essa funcionalidade é compatível somente na exibição de tabela de um tipo de registro.
    >* Não é possível copiar e colar valores de campo para os seguintes tipos de campo:
@@ -191,7 +193,7 @@ O espaço de trabalho que você acessou por último é aberto.
 
 ### Editar um registro na página Detalhes do registro
 
-<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Detais box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Details box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
 
 {{step1-to-maestro}}
 
@@ -212,8 +214,8 @@ O espaço de trabalho que você acessa por último é aberto.
 
    Ou
 
-   Clique dentro de qualquer campo editável na página Detalhes para editar as informações.
+   Clique dentro de qualquer campo editável na página Detalhes para editar as informações. <!--Your changes are saved automatically.-->
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-1. Clique em **Salvar alterações**. <!--logged a bug for this - this needs to be "Save"-->
+1. Clique em **Salvar alterações**. <!--Eliminate this step when we release the new Details box in the table with the Details page. Add above that the saves are automatic-->

@@ -4,7 +4,7 @@ description: Você pode compartilhar uma visualização com outras pessoas para 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 0%
@@ -107,6 +107,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    * Gerenciar
 
      Para obter informações sobre níveis de permissão e quais ações os usuários podem executar para cada nível, consulte [Visão geral das permissões de compartilhamento nos recursos de planejamento do Adobe Workfront](../access/sharing-permissions-overview.md).
+
+     <!--System administrators always receive Manage permissions to views shared with them.-->
+
 1. Clique em **Copiar link** para copiar um link para a exibição para a área de transferência.
 1. Compartilhar o link copiado com outras pessoas. Os usuários que recebem o link devem ser usuários ativos e fazer logon no Workfront para acessar a página de tipo de registro e exibi-la na exibição selecionada.
 1. Clique em **Salvar**.

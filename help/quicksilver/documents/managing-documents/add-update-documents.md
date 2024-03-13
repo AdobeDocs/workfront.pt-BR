@@ -6,9 +6,9 @@ description: Você pode adicionar ou responder a atualizações em um documento 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: a88cc4576122967b52e044ab65ace3451179906b
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Você deve ter o seguinte:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p> Qualquer Um</p> </td> 
+   <td> <p> Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenças da Adobe Workfront*</td> 
@@ -47,7 +47,7 @@ Você deve ter o seguinte:
 1. Vá para o objeto que contém o documento e selecione **Documentos** no painel esquerdo.
 1. Localize o documento necessário e siga um destes procedimentos:
 
-   * Clique no documento na lista, clique no botão **Abrir resumo** ícone ![](assets/qs-summary-in-new-toolbar-small.png) no canto superior direito e clique em **Iniciar uma nova atualização** ou clique em **Responder** para adicionar uma resposta a um comentário existente. Para obter informações sobre o Resumo, consulte [Resumo para visão geral de documentos](../../documents/managing-documents/summary-for-documents.md).
+   * Clique no documento na lista, clique no botão **Abrir resumo** ícone ![](assets/qs-summary-in-new-toolbar-small.png) no canto superior direito e, em seguida, adicione um novo comentário ou clique em **Responder** para adicionar uma resposta a um comentário existente. Para obter informações sobre o Resumo, consulte [Resumo para visão geral de documentos](../../documents/managing-documents/summary-for-documents.md).
    * Passe o mouse sobre o documento, clique em **Detalhes do documento**, depois **Atualizações** no painel esquerdo.
 Para obter mais informações sobre como adicionar atualizações a objetos, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

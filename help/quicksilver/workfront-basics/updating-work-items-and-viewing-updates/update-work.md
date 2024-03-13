@@ -6,9 +6,9 @@ description: Você pode adicionar uma atualização em um objeto do Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '4279'
+source-wordcount: '4249'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ After the monthly releases to Production, the same features are also available i
 > * Painel Resumo em Planilhas de Horas
 > * Painel Resumo no Balanceador de carga de trabalho
 >
-><span class="preview">A nova experiência de comentários está disponível no painel Resumo em listas, folhas de horas e o Balanceador de carga de trabalho no ambiente de Pré-visualização.</span>
+><span class="preview">A nova experiência de comentários está disponível no painel Resumo em listas, folhas de horas e o Balanceador de carga de trabalho no ambiente de Pré-visualização.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -243,13 +243,10 @@ Você pode adicionar atualizações aos seguintes objetos:
 
    <div class="preview">
 
-   Exemplo de nova caixa de comentário no ambiente de Pré-visualização:
    ![Nova caixa de comentário](assets/comment-box-all-tabs.png)
 
    </div>
 
-   Exemplo de nova caixa de comentário no ambiente de Produção:
-   ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
@@ -446,13 +443,9 @@ Você pode procurar um comentário ou uma resposta na seção Atualizações de 
 
    <div class="preview">
 
-   Exemplo de pesquisa no ambiente de Pré-visualização:
    ![Pesquisar em atualizações](assets/updates-all-tabs-with-search-field.png)
 
    </div>
-
-   Exemplo de pesquisa no ambiente de produção:
-   ![](assets/search-field-in-updates-tab.png)
 
    A palavra-chave <!--or user--> pesquisado for realçado e os comentários que o contêm serão exibidos na parte superior da seção Atualizações.
 

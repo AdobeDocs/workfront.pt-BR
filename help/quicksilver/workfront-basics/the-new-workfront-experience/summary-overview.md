@@ -5,16 +5,16 @@ description: Você pode usar o painel Resumo para revisar e atualizar informaç�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: ba81706f457e41c989bc34d9bdff81223b0d745e
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '941'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Resumo] visão geral
 
-{{highlighted-preview}}
+<span class="preview">As informações destacadas estão disponíveis somente no ambiente de Pré-visualização.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 Você pode usar o [!UICONTROL Resumo] painel para revisar e atualizar as informações sobre o item de trabalho diretamente de uma lista de tarefas, problemas, documentos ou de outras áreas do [!DNL Adobe Workfront] que exibem tarefas e problemas.
 
@@ -121,13 +121,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    <div class="preview">
 
-   Exemplo do painel Resumo no ambiente de Pré-visualização:
    ![Painel Resumo](assets/summary-panel-for-task-new-comments.png)
 
    </div>
-
-   Exemplo do painel Resumo no ambiente de Produção:
-   ![Painel Resumo](assets/summary-panel-for-task.png)
 
 1. (Opcional) Para fechar o [!UICONTROL Resumo] , siga um destes procedimentos:
 
@@ -147,7 +143,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 Use a barra de progresso na parte superior da [!UICONTROL Resumo] para atualizar o percentual concluído da tarefa ou problema selecionado. Insira um número ou arraste a barra até a porcentagem correta.
 
-![Porcentagem concluída no painel Resumo](assets/summary-overview-percent-complete.png)
+<span class="preview">![Porcentagem concluída no painel Resumo](assets/summary-overview-percent-complete.png)</span>
 
 ## [!UICONTROL Atualizações]
 
@@ -155,13 +151,9 @@ Use o [!UICONTROL Atualizações] seção do [!UICONTROL Resumo] para exibir atu
 
 <div class="preview">
 
-Exemplo de atualizações no ambiente de Pré-visualização:
 ![Seção Atualizações no painel Resumo](assets/summary-updates-section.png)
 
 </div>
-
-Exemplo de atualizações no ambiente de produção:
-![Seção Atualizações no painel Resumo](assets/summary-updates-with-block-quote-350x290.png)
 
 ## [!UICONTROL Documentos]
 

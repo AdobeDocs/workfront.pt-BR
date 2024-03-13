@@ -7,16 +7,16 @@ description: Este artigo descreve o layout das folhas de horas no Adobe Workfron
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 48ac3bd727787ed214b87342ab60e844f342d0b8
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1059'
 ht-degree: 1%
 
 ---
 
 # Visão geral do layout da folha de horas
 
-{{highlighted-preview}}
+<span class="preview">As informações destacadas estão disponíveis somente no ambiente de Pré-visualização.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 <!-- Audited: 12/2023 -->
 
@@ -123,13 +123,9 @@ Você pode registrar várias entradas de horas para o mesmo item de trabalho par
 
 <div class="preview">
 
-Exemplo no ambiente de Pré-visualização:
 ![Área Atualizações no painel esquerdo da folha de horas](assets/timesheet-updates-with-all-tab.png)
 
 </div>
-
-Exemplo no ambiente de Produção:
-![Área Atualizações no painel esquerdo da folha de horas](assets/timesheet-updates-section-unshimmed-redesign.png)
 
 Você pode fazer comentários em uma folha de horas para se comunicar com seus aprovadores de folha de horas ou outros usuários na seção Atualizações no painel esquerdo da folha de horas.
 
@@ -139,13 +135,9 @@ Quaisquer comentários feitos na folha de horas são exibidos nesta área.
 
 <div class="preview">
 
-Exemplo no ambiente de Pré-visualização:
 ![Painel Resumo](assets/timesheet-summary-panel-on-updates.png)
 
 </div>
-
-Exemplo no ambiente de Produção:
-![Painel Resumo](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 
 Você pode acessar o painel Resumo para tarefas ou problemas exibidos em uma folha de horas. Aqui, você pode comentar em tarefas e problemas ou atualizar suas informações. Para obter mais informações, consulte [Visão geral do resumo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 

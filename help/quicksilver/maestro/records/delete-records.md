@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 1%
+source-wordcount: '470'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-Você pode excluir registros que não são mais relevantes no Adobe Maestro.
+É possível excluir registros que não são mais relevantes nos recursos de planejamento do Adobe Workfront.
 
 ## Requisitos de acesso
 
@@ -39,7 +39,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta fechado do Adobe Maestro. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta fechado de recursos de planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Configurações de nível de acesso</p></td>
-   <td> <p>Não há controles de nível de acesso para o Maestro </p>  
+   <td> <p>Não há controles de nível de acesso para recursos de planejamento do Adobe Workfront </p>  
 </td>
   </tr>
 
@@ -90,7 +90,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 * Se os registros excluídos estiverem vinculados a outros registros, os registros vinculados não serão excluídos, mas as informações do registro excluído também serão excluídas.
 * Não é possível excluir registros em massa. <!--this will probably change-->
 * Não é possível excluir registros da exibição de linha do tempo.
-* Não é possível excluir um tipo de registro vinculado de outro aplicativo. Por exemplo, se você vincular um registro Maestro a um objeto do Workfront, não poderá excluir o objeto do Workfront da página de registro de objeto do Workfront.
 
 ## Excluir registros
 
@@ -132,12 +131,16 @@ O espaço de trabalho que você acessou por último é aberto.
 1. Clique em um tipo de registro.
 
    A página de tipo de registro é aberta.
-1. (Condicional) No **Exibir** no canto superior direito da tabela, selecione uma visualização Tabela. Essa deve ser a exibição padrão, a menos que você tenha visualizado o tipo de registro na exibição de linha do tempo ao acessá-lo pela última vez.
+1. (Condicional) No **Exibir** no canto superior esquerdo da tabela, selecione uma visualização Tabela. Essa deve ser a exibição padrão, a menos que você tenha visualizado o tipo de registro na exibição de linha do tempo ao acessá-lo pela última vez.
 
    Os registros associados ao tipo de registro selecionado são exibidos na exibição de tabela.
-1. Clique com o botão direito do mouse em uma linha de registro e clique em **Excluir**.
+1. Siga um destes procedimentos:
+
+   * Clique com o botão direito do mouse em uma linha de registro e clique em **Excluir**.
+   * Clique em **Mais** menu ![](assets/more-menu.png) à direita do nome do registro, clique em **Excluir**
 
    ![](assets/contextual-menu-for-record-row.png)
+   <!--* Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to open the Details box, and click **More** ![](assets/more-menu.png) to the right of the record name, then **Delete**. -->
 
    O registro é excluído e não pode ser recuperado.
 
