@@ -4,16 +4,16 @@ content-type: how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: Instalar um pacote de promoção de ambiente
-description: O recurso de promoção de ambiente tem como objetivo fornecer a capacidade de mover objetos relacionados à configuração de um ambiente para outro. Saiba como instalar um pacote de promoção de ambiente em um novo ambiente.
+description: O recurso de promoção de ambiente tem como objetivo fornecer a capacidade de mover objetos relacionados à configuração de um ambiente para outro. Saiba como instalar um pacote de promoção de ambiente em um ambiente de destino.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d710e6dbb93cdec530ed8513bd96f5e7381f93c0
+source-git-commit: 690dda5bfc0ac77d396532ff7cfce38f4b61f4af
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -22,28 +22,32 @@ ht-degree: 0%
 
 Esta página está em construção
 
+
+
+1. Vá para o ambiente em que deseja instalar o pacote. Este é o ambiente no qual você está copiando objetos **para**.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Configuração]** ![Ícone de Configuração](/help/_includes/assets/gear-icon-setup.png).
+1. Selecionar **Sistema** na navegação à esquerda, selecione **Promoção do ambiente**.
+1. Selecione o pacote na lista exibida.
+1. Para instalar o pacote, clique em **Instalar** no canto superior direito da tela.
+1. Mapeie cada objeto no pacote para o objeto correspondente no ambiente de destino.
+
+   Para obter mais informações, consulte [Mapeamento](#mapping) neste artigo
+
+
+## Mapeamento
+
+Cada tipo de objeto é listado na navegação à esquerda e em um cartão. O cartão exibe objetos desse tipo e se esses objetos existem no ambiente de destino. Você pode determinar como esses objetos serão movidos para o ambiente de destino.
+
+* Criar novo: o objeto está no ambiente de destino
+* Usar existente: o objeto no pacote não está instalado e o objeto que já existia no ambiente de destino não é alterado.
+* Substituir existente: o objeto no pacote substitui o objeto existente no ambiente de destino.
+* Não usar:
+
+Os valores padrão são `Create new` se o objeto não existir no ambiente de destino e `Use existing` se o objeto não existir no ambiente de destino. Você pode reverter para o mapeamento padrão clicando em **Redefinir para mapeamento padrão**.
+
+Se você selecionar Do not use (Não usar), uma mensagem de erro será exibida detalhando como essa escolha afetará outros objetos ou campos.
+
 <!--
-
-## Mapping
-
-<!--How does one get to the mapping page?--
-
-<!--Also show how to tell you're installing it in the right place (note 3 on slide 3)--
-
-Each object in the package is shown in the left navigation, and as a card on the page.
-
-Each card displays the object and its <!--fields? properties? sub-objects>--. You can determine how these <!--???--s will move to the new environment. 
-
-* Create new <!--does this mean you can have multiples?--
-* Use existing
-* Overwrite existing
-* Do not use
-
-You can revert to the default mapping by clicking **Reset to default mapping**.
-
-If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
-If you select Create new, you will need to change the value <!--of what?--
-
 ## Collisions
 
 A collision occurs when <!--???--.
