@@ -6,7 +6,9 @@ title: Gerar um módulo usando IA
 description: Você pode inserir um prompt de texto para criar um módulo HTTP configurado para o prompt.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 8f6216938b2fe946f6acd02c45c2072476b0c47b
+hide: true
+hidefromtoc: true
+source-git-commit: 5623ca255478757c58605d05f2f24e56b21a5d78
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 1%
