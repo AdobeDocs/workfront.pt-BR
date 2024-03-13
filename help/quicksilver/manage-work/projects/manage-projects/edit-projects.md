@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '7404'
+source-wordcount: '7486'
 ht-degree: 1%
 
 ---
@@ -221,7 +221,7 @@ Para obter informações sobre como criar um projeto a partir de um modelo, cons
          <td> <p> <p>(É exibido somente após selecionar <strong>Manual</strong> para o <strong>Tipo de condição</strong>): Selecione uma Condição para indicar como o projeto está indo. </p> <p>Para obter informações sobre como as condições do projeto podem ser definidas automática ou manualmente, consulte <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Visão geral da condição do projeto e do tipo de condição</a></p> </p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>Modo de Cronograma</strong> </td> 
+         <td role="rowheader"><strong>Modo de cronograma</strong> </td> 
          <td> <p>Especifique se o projeto está agendado a partir da Data inicial ou da Data de conclusão. Essa seleção determina as datas planejadas das tarefas no projeto. 
          <ul> 
          <li><strong>Data de início</strong>: por padrão, a primeira tarefa do projeto tem a mesma Data de início planejada do projeto. Para obter informações sobre a Data de Início Planejada da tarefa, consulte <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Visão geral da Data de Início Planejada da tarefa</a>. O cronograma do projeto é calculado a partir da Data inicial e a Data de conclusão do projeto é calculada pelo sistema, com base na duração de todas as tarefas. </li> 
@@ -252,29 +252,28 @@ Para obter informações sobre como criar um projeto a partir de um modelo, cons
          <li> <p>Quando o projeto é criado a partir da página principal de um grupo na área Configuração, esse grupo é associado ao projeto.</p> </li> 
          </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
          <p><b>NOTAS</b></p>
-
-       &lt;ul>
-       &lt;li>&lt;p>Se o projeto, suas tarefas ou problemas estiverem associados a um status personalizado em nível de grupo, alterar o Grupo do projeto pode fazer com que o Status do projeto, das tarefas ou dos problemas seja alterado para corresponder ao novo grupo.&lt;/p>&lt;/li>
-       &lt;li>&lt;p>Se o projeto, suas tarefas ou problemas já estiverem associados a um processo de aprovação em nível de grupo usando status personalizados em nível de grupo, alterar o grupo pode criar um conflito entre os status de aprovação do grupo anterior e os existentes no nível do sistema.&lt;/p>
-       &lt;p>Considere remover os processos de aprovação em nível de grupo no projeto, ou suas tarefas ou problemas, antes de atualizar o grupo.&lt;/p>
-       &lt;p>Para obter informações sobre como criar processos de aprovação de nível de grupo, consulte &lt;a href=&quot;../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md&quot; class=&quot;MCXref xref&quot;>Processos de aprovação de nível de grupo&lt;/a>.&lt;/p>
-       &lt;p>Para obter informações sobre como criar um status personalizado em nível de grupo, consulte &lt;a href=&quot;../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md&quot; class=&quot;MCXref xref&quot;>Criar ou editar um status de grupo&lt;/a>&lt;/p>&lt;/li>&lt;/ul> &lt;/td>
-   </tr> 
+         <ul>
+         <li><p>Se o projeto, suas tarefas ou problemas estiverem associados a um status personalizado em nível de grupo, alterar o Grupo do projeto pode fazer com que o Status do projeto, das tarefas ou dos problemas seja alterado para corresponder ao novo grupo.</p></li>
+         <li><p>Se o projeto, suas tarefas ou problemas já estiverem associados a um processo de aprovação em nível de grupo usando status personalizados em nível de grupo, alterar o grupo pode criar um conflito entre os status de aprovação do grupo anterior e os existentes no nível do sistema.</p>
+         <p>Considere remover os processos de aprovação em nível de grupo no projeto, ou suas tarefas ou problemas, antes de atualizar o grupo.</p>
+         <p>Para obter informações sobre como criar processos de aprovação de nível de grupo, consulte <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Processos de aprovação de nível de grupo</a>.</p>
+         <p>Para obter informações sobre como criar um status personalizado em nível de grupo, consulte <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Criar ou editar um status de grupo</a></p></li></ul> </td> 
+      </tr> 
       <tr> 
          <td role="rowheader"><strong>Empresa</strong> </td> 
          <td> <p>Especifique uma empresa associada ao projeto. Você deve criar uma empresa antes de associá-la a um projeto. Somente empresas ativas podem ser associadas a um projeto. Para obter informações sobre como criar empresas, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Criar e editar empresas</a>.</p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>Proprietário do Projeto</strong> </td> 
+         <td role="rowheader"><strong>Proprietário do projeto</strong> </td> 
          <td> <p>Comece digitando o nome de um usuário para adicioná-lo ao projeto e, em seguida, selecione-o quando ele for exibido na lista. O usuário é adicionado à equipe do projeto e recebe automaticamente permissões de gerenciamento para o projeto. O usuário designado como Proprietário do projeto deve ser um usuário ativo do Workfront.</p>
          </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>Patrocinador do Projeto</strong> </td> 
+         <td role="rowheader"><strong>Patrocinador do projeto</strong> </td> 
          <td> <p>Comece digitando o nome de um usuário para adicioná-lo ao projeto e, em seguida, selecione-o quando ele for exibido na lista. O usuário é adicionado à equipe do projeto e recebe automaticamente permissões de Exibição para o projeto. O usuário designado como Patrocinador do projeto deve ser um usuário ativo do Workfront.<br></p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>Gerenciador de recursos</strong> </td> 
+         <td role="rowheader"><strong>Gerenciador de Recursos</strong> </td> 
          <td> <p> Comece digitando os nomes dos usuários para adicioná-los ao projeto e, em seguida, selecione-os quando eles forem exibidos na lista. Os usuários são adicionados à equipe do projeto e recebem automaticamente permissões de Gerenciamento para o projeto e podem atribuir recursos às tarefas e problemas no projeto. Os usuários mantêm permissões de Gerenciamento no projeto mesmo quando são removidos do campo Gerenciador de recursos. Você pode especificar mais de um Gerenciador de recursos.<br></p> </td> 
       </tr>
 
@@ -482,7 +481,7 @@ Para editar campos na área Finanças:
        <td> <p> <p>Defina o nível de risco do seu projeto. O risco é apenas um indicador do quão arriscado um projeto pode ser. Você pode priorizar a execução de seus projetos com base no nível de risco.</p> <p> <p>Considere selecionar entre os seguintes níveis de risco:</p> <p>- Muito Baixo</p> <p>- Baixa</p> <p>- Médio</p> <p>- Alta</p> <p>- Muito Alto</p> <p>Os níveis de riscos que você indicar aqui não podem ser personalizados.</p> <p>Eles não estão relacionados aos riscos potenciais que podem ocorrer durante a vida de um projeto e que você deve registrar na guia Riscos do projeto ou no Business Case. Para obter informações sobre riscos potenciais do projeto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Editar e criar tipos de risco</a>. </p> </p> </p> </td> 
       </tr> 
       <tr> 
-       <td role="rowheader"><strong>Conjuntos de recursos</strong> </td> 
+       <td role="rowheader"><strong>Conjuntos de Recursos</strong> </td> 
        <td> <p> <p>Especifique os Conjuntos de recursos associados ao projeto. Conjuntos de recursos são coleções de usuários que são necessárias ao mesmo tempo para a conclusão de um projeto e permitem o orçamento do projeto no Planejador de recursos. Para obter mais informações sobre Conjuntos de recursos, consulte <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Visão geral dos conjuntos de recursos </a>. </p> <p>Ao editar projetos em massa, somente os Conjuntos de recursos comuns a todos os projetos selecionados aparecem nesse campo. Se os projetos selecionados não tiverem Conjuntos de recursos compartilhados, esse campo estará vazio. Os Conjuntos de recursos que você especificar aqui substituirão os Conjuntos de recursos individuais dos projetos.</p> </p> </td> 
       </tr> 
       <tr> 
@@ -653,6 +652,22 @@ Para obter informações sobre como essas configurações afetam a criação de 
    </table>
 
 1. Clique em **Salvar**.
+
+### Pastas vinculadas
+
+A funcionalidade Pasta vinculada cria automaticamente pastas no Adobe Experience Manager Assets e conecta essas pastas ao Workfront.
+
+Esta seção será exibida somente se todos os itens a seguir se aplicarem:
+
+* Sua organização foi migrada para o Adobe Admin Console
+* Sua organização habilitou e configurou uma integração com o Adobe Experience Manager
+* O modelo usado para criar este projeto habilitou e configurou pastas vinculadas.
+
+Para obter instruções sobre como editar pastas vinculadas, consulte [Editar valores de fluxo de trabalho em um projeto](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) no artigo Usar workflows na integração com o Experience Manager Assets.
+
+>[!NOTE]
+>
+>Como as pastas vinculadas são criadas quando o projeto é criado, a edição do fluxo de trabalho da pasta vinculada em um projeto existente não é eficaz. A edição desses valores ao criar um projeto funciona conforme esperado.
 
 ## Editar um projeto no cabeçalho do projeto (limitado)
 

@@ -6,16 +6,14 @@ description: Usar fluxos de trabalho na integração do Experience Manager Asset
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 83cd0960947108186f8d1d8ef2ad6c35c89820bd
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
 
 # Usar fluxos de trabalho na integração do Experience Manager Assets
-
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente Visualização da sandbox.</span>
 
 Um fluxo de trabalho é um conjunto de ações que conectam o Workfront ao Adobe Experience Manager as a Cloud Service. Um administrador do Workfront pode configurar fluxos de trabalho no Workfront e atribuí-los a Modelos de projeto. Quando um Projeto é criado usando um Modelo de projeto ao qual um fluxo de trabalho é atribuído, as ações definidas no fluxo de trabalho são acionadas.
 
@@ -130,7 +128,7 @@ Você pode adicionar um fluxo de trabalho ao criar um projeto ou adicionar um fl
 
 Todos os valores de workflow podem ser encontrados em:
 
-* A seção Workflows da janela Criar projeto ou Editar projeto.
+* A seção Workflows ou pastas vinculadas da janela Criar projeto ou Editar projeto.
 * A seção Adobe Experience Manager da navegação à esquerda.
 
 
@@ -148,19 +146,6 @@ Todos os valores de workflow podem ser encontrados em:
 
 Para editar o fluxo de trabalho de pastas vinculadas:
 
-No ambiente de produção:
-
-1. Alternar **[!UICONTROL Criar Pasta vinculada]** ligado ou desligado, conforme desejado.
-1. (Condicional) Se estiver ativando pastas vinculadas, escolha um caminho de pasta para indicar onde deseja que todas as pastas vinculadas sejam associadas a essa integração.
-1. Clique em **[!UICONTROL Salvar]** se você estiver usando o [!UICONTROL Criar projeto] ou [!UICONTROL Editar projeto] janela.
-
-   Ou
-
-   Se você estiver na [!DNL Adobe Experience Manager area], as alterações são salvas automaticamente. <!--Do they though?-->
-
-No ambiente Visualização da sandbox:
-
-<div class="preview">
 
 1. Alterne a **[!UICONTROL Criar Pasta vinculada]** ligado ou desligado, conforme desejado. Se você ativá-lo, poderá editar a configuração da pasta vinculada.
 
@@ -179,10 +164,8 @@ No ambiente Visualização da sandbox:
 
      Se um nome de pasta for definido como dados personalizados que não existem no personalizado para anexado ao projeto, uma ID aleatória será atribuída como o nome da pasta.
 
+1. Para exibir a árvore de pastas, clique no link **Visualizar** ![Ícone Visualizar](assets/preview-icon.png) ícone
 1. Clique em **[!UICONTROL Salvar]**.
-
-</div>
-
 
 #### Publicar ativos
 

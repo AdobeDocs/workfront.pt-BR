@@ -6,9 +6,9 @@ description: Você pode conectar seu trabalho ao seu conteúdo no [!DNL Experien
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 54ece5a3082264af80d6a720452f8afe5e99c868
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1667'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente Visualização da sandbox.</span>
 
 >[!IMPORTANT]
 >
@@ -253,16 +252,6 @@ Os seguintes fluxos de trabalho estão disponíveis na integração do Adobe Exp
 ### Criar pastas vinculadas do Adobe Experience Manager
 
 1. Alterne a **[!UICONTROL Criar Pasta vinculada]** em.
-1. Escolha um caminho de pasta para indicar onde deseja que todas as pastas vinculadas sejam associadas a essa integração.
-   ![Navegação de pastas vinculadas](assets/select-folder-aem-integration.png)
-1. Ativar o **[!UICONTROL Anexar nomes de Portfolio e programas]** opção para incluir automaticamente os nomes de Portfolio e Programa no final do nome da pasta vinculada.
-1. Clique em **[!UICONTROL Salvar]** ou vá para a página [Publicar ativos enviados para o Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) neste artigo.
-
-No ambiente Visualização da sandbox
-
-<div class="preview">
-
-1. Alterne a **[!UICONTROL Criar Pasta vinculada]** em.
 1. Insira um nome para a pasta vinculada que você está criando.
 1. (Condicional) Ative a variável **Árvore de pastas padrão** opção se desejar que essa pasta vinculada seja a pasta padrão para projetos criados com modelos que usam essa integração. É possível selecionar uma ou mais pastas padrão.
 1. Escolha um caminho de pasta para indicar onde deseja que todas as pastas vinculadas sejam associadas a essa integração.
@@ -295,8 +284,6 @@ No ambiente Visualização da sandbox
 >* A primeira pasta na árvore de pastas é marcada automaticamente como vinculada ao Workfront. Se não quiser que essa pasta seja vinculada, desvincule-a.
 >* Se nenhuma árvore de pastas for fornecida, a pasta raiz se tornará a pasta vinculada.
 
-
-</div>
 
 ### Publicar ativos enviados para o Adobe Experience Manager Assets
 
