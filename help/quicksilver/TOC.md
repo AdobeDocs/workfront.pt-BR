@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: b44c83314a06592e21ab3c4316e2574b75e85715
 workflow-type: tm+mt
-source-wordcount: '14010'
+source-wordcount: '14023'
 ht-degree: 1%
 
 ---
@@ -463,7 +463,10 @@ ht-degree: 1%
          * [Ambientes de teste](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md)
          * [Visualizar ambiente de sandbox](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
          * [Ambiente de sandbox de atualização personalizada](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
-         * [Mover objetos de um [!DNL Workfront] ambiente para outro](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
+         * [Visão geral da promoção de ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
+         * [Criar ou editar um pacote de promoção de ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
+         * [Instalar um pacote de promoção de ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
+         * [Promoção do ambiente usando a API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
    * Gerenciamento de usuários {#add-users}
       * [Gerenciamento de usuários: índice de artigos](administration-and-setup/add-users/add-users.md)
       * Criar e gerenciar usuários {#create-manage-users}
