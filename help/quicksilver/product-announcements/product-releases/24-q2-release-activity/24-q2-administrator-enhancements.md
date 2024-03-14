@@ -4,9 +4,9 @@ description: Aprimoramentos do administrador no segundo trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Esta página descreve todas as melhorias de administrador feitas com a versão do segundo trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do segundo trimestre de 2024, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Agora, empresas e usuários oferecem suporte a campos de formulário personalizados avançados
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 14 de março de 2024; Produção para todos os clientes: 24.4 (abril de 2024)
+
+Recursos avançados de formulário personalizado, como campos de Pesquisa externa e campos nativos do Workfront, agora estão disponíveis quando você anexa um formulário personalizado a uma empresa ou usuário. Os recursos avançados estão disponíveis nas páginas Detalhes da empresa e Detalhes do usuário, não nas caixas de diálogo Editar empresa e Editar usuário. O formulário personalizado deve ser criado no novo designer de formulário para aproveitar esses tipos de campo.
+
+Para obter mais informações sobre campos de formulário personalizados, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## A integração JumpSeat agora está disponível para novos tipos de pacote
 
