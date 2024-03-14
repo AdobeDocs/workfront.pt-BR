@@ -11,9 +11,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 79468b31b48deecaf63c332387ebbd88dea7d57a
+source-git-commit: 5ab9f7c975df86fa7a1f6d54a2fefcbd4cbd9248
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Cada tipo de objeto é listado na navegação à esquerda e em um cartão. O car
 
 * Criar novo: o objeto está no ambiente de destino
 * Usar existente: o objeto no pacote não está instalado e o objeto que já existia no ambiente de destino não é alterado.
-* Substituir existente: o objeto no pacote substitui o objeto existente no ambiente de destino.
+* Substituir existente: (não disponível no momento) o objeto no pacote substitui o objeto existente no ambiente de destino.
 * Não usar:Se você selecionar Não usar, uma mensagem de erro será exibida detalhando como essa escolha afetará outros objetos ou campos.
 
 Os valores padrão são `Create new` se o objeto não existir no ambiente de destino e `Use existing` se o objeto não existir no ambiente de destino. Você pode reverter para o mapeamento padrão clicando em **Redefinir para mapeamento padrão**.
@@ -52,5 +52,7 @@ A collision occurs when <!--???--.
 In Workfront, a potential collision is marked with a blue dot. You can select 
 
 You can select whether to show all package contents, or collisions only.
--->
 
+## Comparison tool
+
+-->
