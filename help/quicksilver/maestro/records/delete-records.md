@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '492'
 ht-degree: 2%
 
 ---
@@ -139,8 +139,9 @@ O espaço de trabalho que você acessou por último é aberto.
    * Clique com o botão direito do mouse em uma linha de registro e clique em **Excluir**.
    * Clique em **Mais** menu ![](assets/more-menu.png) à direita do nome do registro, clique em **Excluir**
 
-   ![](assets/contextual-menu-for-record-row.png)
-   <!--* Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to open the Details box, and click **More** ![](assets/more-menu.png) to the right of the record name, then **Delete**. -->
+     ![](assets/contextual-menu-for-record-row.png)
+
+   * Clique em **Abrir detalhes** ícone ![](assets/open-details-icon-in-table-name-field.png) para abrir a caixa Detalhes e clique em **Mais** ![](assets/more-menu.png) à direita do nome do registro, então **Excluir**.
 
    O registro é excluído e não pode ser recuperado.
 

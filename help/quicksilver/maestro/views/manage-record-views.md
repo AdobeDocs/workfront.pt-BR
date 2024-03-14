@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '948'
 ht-degree: 1%
 
 ---
@@ -153,18 +153,17 @@ O espaço de trabalho acessado pela última vez é aberto por padrão. Para obte
 
    Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
-<!--
-1. Click **+ View** to add a new view. 
-1. Select from the following types of views: 
+1. Clique em **+ Exibir** para adicionar uma nova visualização.
+1. Selecione entre os seguintes tipos de exibições:
 
-    * Table
-    * Timeline
-    * Calendar
+   * Tabela
+   * Linha do tempo
+   * Calendário
 
-    A new tab is created with the selected view. 
+   Uma nova guia é criada com a exibição selecionada.
 
-    Depending on the width of your screen, additional views might display in the **More** menu ![](assets/more-menu.png).   
--->
+   Dependendo da largura da tela, podem ser exibidas visualizações adicionais no **Mais** menu ![](assets/more-menu.png).
+
 
 >[!TIP]
 >
@@ -173,21 +172,11 @@ O espaço de trabalho acessado pela última vez é aberto por padrão. Para obte
 >Para criar uma exibição de linha do tempo ou calendário, o tipo de registro para o qual você cria a exibição deve ter pelo menos dois campos de data. Caso contrário, as opções Linha do tempo e Calendário estarão esmaecidas.
 >
 
-1. Clique em **Exibir** e selecione um existente **Visualização em tabela** ![](assets/table-view-icon.png) ou clique em **Criar visualização > Tabela** para criar uma exibição de tabela
+![](assets/view-types-drop-down-from-record-type-list.png)
 
-   Ou
-
-   Selecionar um existente **Exibição da linha do tempo** ![](assets/timeline-view-icon.png) ou clique em **Criar exibição > Linha do tempo** para criar uma visualização de linha do tempo.
-
-   Ou
-
-   Selecionar um existente **Exibição de calendário** ![](assets/calendar-view-icon.png) ou clique em **Criar exibição > Calendário** para criar uma exibição de calendário.
-
-   ![](assets/view-types-drop-down-from-record-type-list.png)
-
-   >[!NOTE]
-   >
-   >    Para criar uma exibição de linha do tempo ou calendário, o tipo de registro para o qual você cria a exibição deve ter pelo menos dois campos de data. Caso contrário, as opções Linha do tempo ou Calendário estarão esmaecidas.
+>[!NOTE]
+>
+>    Para criar uma exibição de linha do tempo ou calendário, o tipo de registro para o qual você cria a exibição deve ter pelo menos dois campos de data. Caso contrário, as opções Linha do tempo ou Calendário estarão esmaecidas.
 
 1. (Condicional) Clique em **Próxima**, ao criar uma exibição de linha do tempo ou calendário.
 
@@ -202,12 +191,16 @@ O espaço de trabalho acessado pela última vez é aberto por padrão. Para obte
 1. (Condicional) Selecione a variável **Início** e **Datas finais** para os registros que serão exibidos na exibição de linha do tempo ou calendário.
 1. Clique em **Criar**.
 
-   <!--add for view redesign: The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. -->
-<!--1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to view all views for the selected record type. 
+   A visualização é exibida como uma nova guia. As exibições são exibidas na ordem cronológica de quando foram criadas ou compartilhadas com você.
+1. (Opcional) Clique no link **Mais** menu ![](assets/more-caret-down-icon-views.png) ao lado da última exibição para exibir todas as exibições do tipo de registro selecionado.
 
-    Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views. -->
-1. (Opcional) Para renomear uma view após sua criação, clique no menu suspenso exibir e, em seguida, clique na **Mais** menu ![](assets/more-menu.png) > **Renomear** para atualizar o nome da exibição. <!--ensure there is not another saving step here?!-->
-   <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
+   Exibições adicionais são exibidas sob o **Mais** após a última guia view. O número ao lado do **Mais** mostra o número de visualizações adicionais.
+1. (Opcional) Para renomear uma view após sua criação, clique no menu suspenso exibir e, em seguida, clique na **Mais** menu ![](assets/more-menu.png) > **Renomear** para atualizar o nome da exibição
+
+   Ou
+
+   Clique duas vezes no nome da exibição e comece a digitar o novo nome.  <!--ensure there is not another saving step here?!-->
+
 1. (Opcional) Para gerenciar um tipo específico de visualização, consulte os seguintes artigos:
 
    * [Gerenciar a exibição de tabela](../views/manage-the-table-view.md)
@@ -227,10 +220,9 @@ O espaço de trabalho acessado pela última vez é aberto por padrão. Para obte
 
    Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
-<!--1. Hover over one the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) to the left of the view name, then click **Delete**. (********delete the instructions in the point below but keep the last step***********)
-First, you might need to click **More** to the left of the last tab to find the view you want to delete. -->
+1. Passe o mouse sobre um dos nomes da exibição na guia Exibir e clique em **Mais** ![](assets/more-menu.png) à esquerda do nome da exibição, clique em **Excluir**.
+Primeiro, talvez seja necessário clicar em **Mais** à esquerda da última guia para localizar a exibição que deseja excluir.
 
-1. Clique no menu suspenso Exibir, passe o mouse sobre uma das exibições na lista e clique no botão **Mais** menu ![](assets/more-menu.png) > **Excluir**.
 1. Clique em **Excluir** para confirmar. <!--ensure there is not another saving step here?!-->
 
    A exibição é excluída para todos os usuários que podem acessar a área de registros e não pode ser recuperada.

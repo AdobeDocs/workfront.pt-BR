@@ -4,9 +4,9 @@ description: Você pode compartilhar uma visualização com outras pessoas para 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 >[!NOTE]
 >
 >Os administradores do sistema não podem exibir ou compartilhar exibições que não foram criadas por eles mesmos. Eles só podem acessar ou compartilhar exibições compartilhadas com eles.
-
-<!--for above note - add when this releases: System administrators can have only Manage permissions to a view.-->
+>
+>Os administradores do sistema só podem ter permissões de Gerenciamento para uma exibição.
 
 {{step1-to-maestro}}
 
@@ -94,7 +94,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Isso abre a página do tipo de registro.
 
-1. No menu suspenso Exibir <!--tab-->, passe o mouse sobre a exibição que deseja compartilhar e clique no link **Mais** menu ![](assets/more-menu.png) à direita do nome da exibição, clique em **Compartilhar**.
+1. Na guia de exibição, passe o mouse sobre a exibição que deseja compartilhar e clique no link **Mais** menu ![](assets/more-menu.png) à direita do nome da exibição, clique em **Compartilhar**.
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
