@@ -11,17 +11,14 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 690dda5bfc0ac77d396532ff7cfce38f4b61f4af
+source-git-commit: 79468b31b48deecaf63c332387ebbd88dea7d57a
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
 
 # Instalar um pacote de promoção de ambiente
-
-Esta página está em construção
-
 
 
 1. Vá para o ambiente em que deseja instalar o pacote. Este é o ambiente no qual você está copiando objetos **para**.
@@ -41,11 +38,11 @@ Cada tipo de objeto é listado na navegação à esquerda e em um cartão. O car
 * Criar novo: o objeto está no ambiente de destino
 * Usar existente: o objeto no pacote não está instalado e o objeto que já existia no ambiente de destino não é alterado.
 * Substituir existente: o objeto no pacote substitui o objeto existente no ambiente de destino.
-* Não usar:
+* Não usar:Se você selecionar Não usar, uma mensagem de erro será exibida detalhando como essa escolha afetará outros objetos ou campos.
 
 Os valores padrão são `Create new` se o objeto não existir no ambiente de destino e `Use existing` se o objeto não existir no ambiente de destino. Você pode reverter para o mapeamento padrão clicando em **Redefinir para mapeamento padrão**.
 
-Se você selecionar Do not use (Não usar), uma mensagem de erro será exibida detalhando como essa escolha afetará outros objetos ou campos.
+
 
 <!--
 ## Collisions
