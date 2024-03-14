@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: e9acccbaf2ce9c418e9417ff205bdfdb926b51d5
+source-git-commit: 155a2a8f5f266006629a28917a6a7565a95b37a9
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
 
 # Criar e editar empresas
+
+{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -117,7 +119,7 @@ Para adicionar ou editar uma empresa:
      </tr>
      <tr> 
       <td role="rowheader">Seção [!UICONTROL Custom Forms]</td> 
-      <td> <p>Se houver campos que você deseja adicionar à sua empresa que não estejam disponíveis no [!DNL Workfront], é possível criar um Formulário personalizado e associá-lo à sua empresa. </p> <p>Você pode anexar esse formulário à sua empresa selecionando-o no menu suspenso.</p> <p>Somente os formulários personalizados ativos são listados no menu suspenso.</p> <p> Para obter informações sobre como criar um Forms personalizado, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Criar ou editar um formulário personalizado</a>. </p> </td> 
+      <td> <p>Se houver campos que você deseja adicionar à sua empresa que não estejam disponíveis no [!DNL Workfront], você pode criar um formulário personalizado e associá-lo à sua empresa. </p> <p>Você pode anexar esse formulário à sua empresa selecionando-o no menu suspenso. Somente formulários personalizados ativos são listados no menu.</p> <p><span class="preview"><strong>Nota:</strong> Recursos avançados de formulário personalizado, como campos de Pesquisa externa e campos nativos do Workfront, só estarão disponíveis quando você abrir o registro da empresa na página de detalhes, não na caixa de diálogo Editar empresa. (Na lista de empresas, clique no nome da empresa para abrir os detalhes.)</span></p> <p> Para obter informações sobre como criar formulários personalizados, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Criar ou editar um formulário personalizado</a>. </p> </td>
      </tr> 
     </tbody> 
    </table>
