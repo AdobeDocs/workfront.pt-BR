@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: db362bd73e51b30090708822876ad02f7804d064
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2327'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Campo de texto com formatação</td> 
-      <td>Permite que os usuários digitem várias linhas de texto no campo e formatem o texto com negrito, itálico, sublinhado, marcadores, numeração, hiperlinks e aspas de bloco. Isso está disponível na Página inicial, na área Atualizações, em listas e na área Detalhes para objetos do Workfront. Um limite de 15.000 caracteres permite bastante texto e formatação.</p> <p>Para obter informações sobre como acessar esse campo por meio da API, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Armazenamento de campo Rich Text na API</a>.</p> <p><b>NOTA</b>: campos de texto com formatação não estão disponíveis para aplicativos móveis Workfront. </p> </td> 
+      <td>Permite que os usuários digitem várias linhas de texto no campo e formatem o texto com negrito, itálico, sublinhado, marcadores, numeração, hiperlinks e aspas de bloco. Isso está disponível na Página inicial, na área Atualizações, em listas e na área Detalhes para objetos do Workfront. Um limite de 15.000 caracteres permite bastante texto e formatação.</p> <p>Esse tipo de campo personalizado não é compatível com filtros em listas e relatórios.</p> <p>Para obter informações sobre como acessar esse campo por meio da API, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Armazenamento de campo Rich Text na API</a>.</p> <p><b>NOTA</b>: campos de texto com formatação não estão disponíveis para aplicativos móveis Workfront. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Suspenso</td> 
@@ -225,7 +225,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <td><p>Clique na lista suspensa e selecione os tipos de objeto nos quais deseja rastrear automaticamente as alterações de valor do campo.</p> 
       <p><b>NOTA</b>: Essa opção não está disponível para o seguinte:</p> 
       <ul> 
-      <li>Formulários personalizados associados aos seguintes tipos de objeto: Despesa, Empresa, Iteração, Registro de Cobrança e Grupo.</li> 
+      <li>Formulários personalizados associados aos seguintes tipos de objeto: Despesa, Empresa, Iteração, Registro de Cobrança, Documento e Grupo.</li> 
       <li>Os seguintes tipos de campo: Calculado, Texto descritivo e Quebra de seção</li> 
       </ul>
       <p><b>IMPORTANTE</b>: selecionar ou desmarcar um tipo de objeto aqui afeta todos os formulários personalizados associados ao tipo de objeto selecionado e que contêm esse campo. Por exemplo, se você desmarcar um tipo de objeto aqui e salvar o formulário personalizado, as alterações no valor do campo não serão mais rastreadas para esse tipo de objeto em nenhum formulário personalizado que contenha o campo.</p>

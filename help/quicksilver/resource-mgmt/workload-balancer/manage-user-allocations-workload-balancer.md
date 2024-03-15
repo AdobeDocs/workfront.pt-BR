@@ -6,9 +6,9 @@ description: Como um Gerenciador de recursos, você pode atribuir trabalho aos u
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 854221ebd53e2adb4fa8a9365391b90c57badbbb
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '2858'
+source-wordcount: '2859'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ As horas planejadas da tarefa são distribuídas igualmente entre todos os dias 
 
 >[!CAUTION]
 >
->O Balanceador de carga de trabalho exibe até 1000 Horas planejadas por item de trabalho e até 1000 dias de duração de um item. As alocações no Balanceador de carga de trabalho são exibidas como zero depois que o limite de 1000 horas ou 1000 dias é atingido. Recomendamos dividir tarefas em subtarefas menores para acomodar um número maior de Horas planejadas ou Durações superiores a 1000 dias.
+>O Balanceador de carga de trabalho exibe até 1000 Horas planejadas por item de trabalho por usuário e até 1000 dias de duração de um item. As alocações no Balanceador de carga de trabalho são exibidas como zero depois que o limite de 1000 horas ou 1000 dias é atingido. Recomendamos dividir tarefas em subtarefas menores para acomodar um número maior de Horas planejadas ou por Durações superiores a 1000 dias.
 
 Considere o seguinte ao localizar alocações diárias, semanais ou mensais para tarefas ou problemas no Balanceador de carga de trabalho:
 

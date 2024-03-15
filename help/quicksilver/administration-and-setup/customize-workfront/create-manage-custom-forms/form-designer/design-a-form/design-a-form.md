@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: cf63099d2c86ad9a9390deef7df0ad140464276a
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '5681'
+source-wordcount: '5694'
 ht-degree: 3%
 
 ---
@@ -125,7 +125,9 @@ Você pode usar campos novos ou existentes ao criar o formulário personalizado.
 * **Campo de texto de parágrafo**: permite que os usuários digitem várias linhas de texto no campo.
 * **Campo de texto com formatação**: permite que os usuários digitem várias linhas de texto no campo e formatem o texto com negrito, itálico, sublinhado, marcadores, numeração, hiperlinks e aspas de bloco. Um limite de 15.000 caracteres permite bastante texto e formatação.
 
-  Para obter informações sobre como acessar esse campo por meio da API, consulte Armazenamento de campo Rich text na API.
+  Esse tipo de campo personalizado não é compatível com filtros em listas e relatórios.
+
+  Para obter informações sobre como acessar esse campo por meio da API, consulte [Armazenamento de campo Rich Text na API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
 
   >[!NOTE]
   >
