@@ -4,9 +4,9 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
+source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
 workflow-type: tm+mt
-source-wordcount: '1712'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
@@ -236,7 +236,8 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Atribuições mais relevantes adicionadas ao fluxo de trabalho Nova tarefa</a></p><p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Atribuições mais relevantes adicionadas ao fluxo de trabalho Nova tarefa</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
                         <p>Adicionamos a mesma funcionalidade para atribuições inteligentes mais relevantes ao campo Atribuições na caixa Nova tarefa ao adicionar uma tarefa a um projeto e em uma lista de tarefas de projeto.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -246,6 +247,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                             </li>
                             <li>
                                 <p>Produção para lançamento rápido: com o lançamento do 24.3 (14 de março de 2024)</p>
+                                <p><span style="color: #ff0000;">Esse recurso foi removido da produção para clientes de lançamento rápido em 18 de março de 2024.</span></p>
                             </li>
                             <li>
                                 <p>Produção para versão trimestral: com a versão 24.4 (abril de 2024)</p>
@@ -255,7 +257,8 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Atribuições inteligentes mais relevantes</a></p><p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Atribuições inteligentes mais relevantes</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
                         <p>Alteramos o algoritmo que o Workfront usa para calcular e sugerir atribuições inteligentes para tarefas. O novo algoritmo se aplica às seguintes áreas no Workfront em que você atribui uma tarefa: listas de tarefas, a área Atribuições no cabeçalho da tarefa, Início e o painel Resumo.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -265,6 +268,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                             </li>
                             <li>
                                 <p>Produção para lançamento rápido: com o lançamento do 24.3 (14 de março de 2024)</p>
+                                <p><span style="color: #ff0000;">Esse recurso foi removido da produção para clientes de lançamento rápido em 18 de março de 2024.</span></p>
                             </li>
                             <li>
                                 <p>Produção para versão trimestral: com a versão 24.4 (abril de 2024)</p>

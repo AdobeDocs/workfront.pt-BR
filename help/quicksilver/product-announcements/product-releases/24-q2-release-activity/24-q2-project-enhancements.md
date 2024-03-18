@@ -4,9 +4,9 @@ description: Aprimoramentos no projeto do segundo trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,9 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 
 >[!NOTE]
 >
->Versão de pré-visualização: 13 de fevereiro de 2024; Produção para lançamento rápido: Com lançamento do 24.3 (14 de março de 2024); Produção para todos os clientes: Com lançamento do 24.4 (abril de 2024)
+>Versão de pré-visualização: 13 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento do 24.3 (14 de março de 2024); Produção para todos os clientes: Com o lançamento do 24.4 (abril de 2024).
+
+<span style="color: #ff0000;">Esse recurso foi removido da produção para clientes de lançamento rápido em 18 de março de 2024.</span>
 
 Adicionamos a mesma funcionalidade para atribuições inteligentes mais relevantes ao campo Atribuições nas seguintes áreas:
 
@@ -36,7 +38,9 @@ Para obter mais informações, consulte [Visão geral das atribuições intelige
 
 >[!NOTE]
 >
->Versão de pré-visualização: 21 de dezembro de 2023; Produção para lançamento rápido: Com o lançamento do 24.3 (14 de março de 2024); Produção para todos os clientes: Com o lançamento do 24.4 (abril de 2024)
+>Versão de pré-visualização: 21 de dezembro de 2023; Produção para lançamento rápido: Com o lançamento do 24.3 (14 de março de 2024); Produção para todos os clientes: Com o lançamento do 24.4 (abril de 2024).
+
+<span style="color: #ff0000;">Esse recurso foi removido da produção para clientes de lançamento rápido em 18 de março de 2024.</span>
 
 Alteramos o algoritmo que o Workfront usa para calcular e sugerir atribuições inteligentes para tarefas. O novo algoritmo se aplica às seguintes áreas no Workfront em que você atribui uma tarefa: listas de tarefas, a área Atribuições no cabeçalho da tarefa, Início e o painel Resumo.
 
