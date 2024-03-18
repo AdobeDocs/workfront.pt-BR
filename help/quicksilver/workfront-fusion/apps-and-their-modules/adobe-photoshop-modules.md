@@ -8,16 +8,16 @@ title: Módulos do Adobe Photoshop
 description: Com os módulos do Adobe Photoshop, você pode iniciar um cenário do Adobe Workfront Fusion com base em eventos em sua conta do Adobe Photoshop, criar, ler ou atualizar contratos e outros registros, pesquisar registros usando critérios definidos e fazer upload de documentos.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: 0ea4ac4c4579d09dafeed47946ae9c7caf906cfe
+source-git-commit: 8d6f8217a58459539c9e4f4faa43e01d17d6ecee
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Photoshop] módulos
 
-Em um [!DNL Adobe Workfront Fusion] cenário, é possível automatizar workflows que usam [!DNL Adobe Photoshop], bem como conectá-lo a vários aplicativos e serviços de terceiros. [!DNL Adobe Photoshop] Os módulos do permitem criar, ler, atualizar ou excluir registros, listar todos os registros de um determinado tipo, pesquisar registros com base nos critérios especificados ou executar uma chamada de API personalizada para o [!DNL Adobe Photoshop] API.
+Em um [!DNL Adobe Workfront Fusion] cenário, é possível automatizar workflows que usam [!DNL Adobe Photoshop], bem como conectá-lo a vários aplicativos e serviços de terceiros.
 
 
 Se precisar de instruções sobre como criar um cenário, consulte [Criar um cenário](../../workfront-fusion/scenarios/create-a-scenario.md).
