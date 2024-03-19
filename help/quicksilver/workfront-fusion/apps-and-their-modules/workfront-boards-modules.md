@@ -8,9 +8,9 @@ title: Módulos de placas Adobe Workfront
 description: Você pode usar o conector de placas Adobe Workfront para automatizar seus processos dentro das placas Workfront e conectá-los a aplicativos e serviços de terceiros.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
-source-git-commit: 074bcf15c61f9c0c75cebf774b15baf7fe383f35
+source-git-commit: db3f5b1e406d62fd0d3b99cb108ad824d1a32c24
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2111'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
-Módulos de placas Adobe Workfront e seus campos
+
 
 ## Pré-requisitos
 
