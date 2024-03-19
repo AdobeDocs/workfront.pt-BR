@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: c508878704cf149f5ed348c581531d266433f0c3
 workflow-type: tm+mt
-source-wordcount: '5694'
+source-wordcount: '5867'
 ht-degree: 3%
 
 ---
@@ -415,7 +415,7 @@ Você pode adicionar campos de digitação antecipada e data a um formulário pe
 
 +++
 
-Para adicionar campos de data de digitação antecipada:
+Para adicionar campos de digitação antecipada e data:
 
 1. No lado esquerdo da tela, encontre um dos campos a seguir e arraste-o para uma seção da tela.
 
@@ -482,6 +482,25 @@ Para adicionar campos de data de digitação antecipada:
          <td><ul>
     <li>Typeahead</li>
     </ul></td>
+     </tr>
+     <tr>
+      <td role="rowheader">Adicionar Filtro</td>
+      <td><p>Adicione um filtro para um tipo de objeto para limitar os objetos que os usuários podem escolher quando estiverem usando o campo. </p> <p>Por exemplo, é possível limitar um campo para que os nomes de usuários possam ser selecionados somente se atenderem aos seguintes critérios:</p> 
+       <ul> 
+        <li>Eles pertencem a um ou mais grupos especificados por você</li> 
+        <li>Eles estão associados a uma função ou a um cargo especificado por você</li> 
+        <li>Eles pertencem ao mesmo grupo que a pessoa que está usando o campo</li> 
+       </ul> <p>Você deve definir o filtro para o tipo de objeto selecionado usando a sintaxe do Modo de texto. Para obter informações sobre como criar um filtro usando o Modo de texto, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Editar um filtro usando o modo de texto</a>.</p>
+       <p><b>NOTA</b>:
+       <ul> 
+        <li>Se você estiver editando um formulário personalizado existente, adicionar um filtro a um campo Digitação antecipada não removerá nenhum objeto (fora do escopo do filtro) que os usuários já tenham adicionado usando o campo.</li> 
+        <li>Este filtro não está disponível em dispositivos móveis. Se você usar o filtro para um campo Digitação antecipada, o campo aparecerá nos dispositivos móveis dos usuários não afetados pelo filtro.</li> 
+        </ul></p></td> 
+      <td>
+       <ul>
+       <li>Typeahead</li>
+       </ul>
+      </td>
      </tr>
      <tr> 
       <td role="rowheader">Tornar um campo obrigatório</td> 

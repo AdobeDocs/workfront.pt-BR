@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: a3830935bea08d6ded54c4444f4030b2e48e7089
+source-git-commit: 215f72a1619a46f28e0b3a2afb73bcb91586b15e
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '366'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Você pode usar o novo designer de formulário para criar um formulário persona
 
 O novo designer de formulário tem um novo espaço de trabalho no estilo da tela de desenho que permite exibir os campos, a tela de desenho e as configurações de campo, tudo ao mesmo tempo. Ela também permite arrastar e soltar campos nas seções ao criar o formulário.
 
-<!-- add screenshot when field settings empty state is ready -->
+![Designer de formulário de exemplo](assets/form-designer-example.png)
 
 ## Como acessar o novo designer de formulário
 
@@ -41,17 +41,7 @@ Com o novo designer de formulários, adicionamos a capacidade de:
 
   >[!NOTE]
   >
-  >A seção padrão não fica visível dentro dos objetos depois que o formulário é anexado ao objeto.
-
-## Funcionalidade em breve
-
-Os itens a seguir não estão disponíveis no momento no designer do formulário, mas serão adicionados em breve:
-
-* Filtro para campos de digitação antecipada
-
->[!IMPORTANT]
->
->As configurações existentes para filtros de digitação antecipada não serão afetadas quando você trabalhar com o novo designer de formulário.
+  >A seção Padrão não estará visível dentro dos objetos depois que o formulário for anexado ao objeto.
 
 ## Funcionalidade removida do designer do formulário
 
