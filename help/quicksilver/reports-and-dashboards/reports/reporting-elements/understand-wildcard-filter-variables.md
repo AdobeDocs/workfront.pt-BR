@@ -7,9 +7,9 @@ description: Ao usar curingas em filtros, você pode fazer referência a um usu�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1466'
 ht-degree: 1%
 
 ---
@@ -102,8 +102,8 @@ Para indicar vários períodos de tempo e vários pontos no tempo (futuros ou pa
 
 | **Qualificadores** | |
 |---|---|
-| **b** | início da semana (domingo) |
-| **e** | fim da semana (sábado) |
+| **b** | início do período (sem um atributo especificado, o padrão é início da semana: domingo) |
+| **e** | fim do período (sem um atributo especificado, o padrão é fim da semana: sábado) |
 
 {style="table-layout:auto"}
 
@@ -175,7 +175,7 @@ Você pode escolher entre as seguintes variáveis baseadas no usuário:
    <td role="rowheader"> <p><strong>$$USER.name</strong> </p> </td> 
    <td> <p>A variável $$USER.name se refere ao nome completo do usuário conectado.</p> <p>Nota:   <p>Essa variável curinga funciona somente ao modificar um filtro no modo de texto. Não é possível usar esse curinga em filtros que não oferecem suporte ao modo de texto. Por exemplo, não é possível usar esse curinga nos filtros nas seguintes áreas:</p> 
      <ul> 
-      <li> <p>Planejamento de recursos</p> </li> 
+      <li> <p>Planejador de recursos</p> </li> 
       <li> <p>Balanceador de carga de trabalho</p> </li> 
       <li> <p>Análise</p> </li> 
      </ul> </p> </td> 

@@ -4,9 +4,9 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,12 @@ ht-degree: 0%
 
 Esta página fornece informações sobre a funcionalidade incluída na versão do segundo trimestre de 2024. Essas melhorias estão planejadas para serem disponibilizadas no ambiente de produção durante todo o trimestre.
 
-<!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview). -->
+<!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
+No lugar de um webinário de lançamento, convidamos você a [registrar-se no Adobe Summit](https://summit.adobe.com/na/) para assistir às seguintes sessões do Workfront:
+
+[O futuro do Adobe Workfront](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) em 26 de março de 2024, para obter uma prévia do futuro do planejamento estratégico e do fluxo de trabalho. Saiba como a equipe da Workfront planeja lidar com os recursos de negócios em todo o ciclo de vida do marketing, tudo com uma abordagem de IA para automatizar o trabalho, simplificar as experiências dos usuários e aumentar a produtividade.
+
+[Divulgação de calendários e ferramentas de marketing para um planejamento de campanha completo](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) em 23 de março de 2023, para saber mais sobre os novos recursos de produtos projetados para permitir que sua organização gerencie e visualize ciclos de vida operacionais completos.
 
 <span class="preview">Os recursos fora do ciclo (aqueles que foram lançados para produção antes da data de lançamento do Segundo trimestre de 2024) estão destacados em amarelo.</span>
 

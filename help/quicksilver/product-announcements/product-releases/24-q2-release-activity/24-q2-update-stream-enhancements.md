@@ -4,9 +4,9 @@ description: Melhorias no fluxo de atualizações e na notificação do segundo 
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ Fizemos os seguintes aprimoramentos na nova experiência de comentários:
 
 Para obter mais informações, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3427992/){target=_blank} (A discussão desse recurso específico começa às 2:47)
+
 ## A guia Atividade do sistema na nova experiência de comentários aceita comentários somente leitura
 
 >[!NOTE]
@@ -49,6 +51,8 @@ Para obter mais informações, consulte [Atualizar trabalho](/help/quicksilver/w
 Os comentários feitos nos registros de atividade do sistema na experiência de comentários herdada agora são preenchidos na guia Atividade do sistema na nova experiência de comentários como somente leitura. Não é possível responder aos registros de atividade do sistema na nova experiência de comentários.
 
 Para obter mais informações, consulte [Visão geral da seção Atualizações](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3427992/){target=_blank} (A discussão desse recurso específico começa às 2:00 do vídeo.)
 
 ## Nova guia de fluxo de atualização para capturar comentários e entradas de atividade do sistema
 
@@ -62,6 +66,8 @@ A guia Todos é uma guia somente para visualização. Não é possível responde
 
 Para obter mais informações, consulte [Visão geral da seção Atualizações](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3427992/){target=_blank} (A discussão desse recurso específico começa às 0:31 do vídeo.)
+
 ## Novo fluxo de comentários agora disponível no painel Resumo
 
 >[!NOTE]
@@ -71,3 +77,5 @@ Para obter mais informações, consulte [Visão geral da seção Atualizações]
 Agora adicionamos a nova funcionalidade de comentários ao painel Resumo para listas de tarefas e problemas.
 
 Para obter mais informações, consulte [Visão geral do resumo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3427991/){target=_blank}
