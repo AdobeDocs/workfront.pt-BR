@@ -7,16 +7,20 @@ description: O Adobe Workfront Fusion Devtool permite compreender e solucionar p
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 7fe35f70cfc7ef346584e3cf525c2553f867ed1f
 workflow-type: tm+mt
-source-wordcount: '1813'
-ht-degree: 0%
+source-wordcount: '1831'
+ht-degree: 1%
 
 ---
 
 # Depurar cenários com o [!DNL Adobe Workfront Fusion] Devtool
 
 A variável [!DNL Adobe Workfront Fusion] Devtool permite que você entenda e solucione problemas de cenários. O Devtool adiciona um painel extra ao [!DNL Chrome Developer Tools]. Usando esse painel do depurador, você pode verificar todas as execuções manuais do cenário, revisar todas as operações executadas e ver os detalhes de cada chamada de API realizada. Você pode ver qual módulo, operação ou única resposta causou o erro e usar esse conhecimento para refinar seu cenário.
+
+>[!NOTE]
+>
+>Fazer logon no painel do depurador será limitado ou não estará disponível para cenários confidenciais, execuções automáticas e operações bem-sucedidas.
 
 Para obter uma introdução em vídeo e uma apresentação do Fusion Devtool, consulte
 
@@ -448,6 +452,6 @@ Realça os módulos do aplicativo especificado no seu cenário.
 
 #### [!UICONTROL Migrar GS]
 
-Essa ferramenta é feita especialmente para atualizar [!DNL Google Sheets] módulos (herdados) para a mais recente [!DNL Google Sheets] versão. Ele adiciona uma nova versão do módulo logo após a versão herdada do módulo na rota do cenário.
+Essa ferramenta é feita especialmente para atualizar [!DNL Google Sheets] módulos (herdados) para a mais recente [!DNL Google Sheets] versão. Adiciona uma nova versão do módulo logo após a versão herdada do módulo na rota do cenário.
 
 Esse módulo não requer a definição de nenhum parâmetro.
