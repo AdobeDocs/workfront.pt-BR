@@ -4,9 +4,9 @@ description: Você pode exibir registros e seus campos em uma exibição de cale
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -116,3 +116,32 @@ Para gerenciar uma exibição de calendário:
    * Selecione uma das seguintes opções no menu suspenso de intervalo de tempo para atualizar os incrementos de tempo:
 
       * Mês
+1. Atualize os seguintes elementos de exibição conforme descrito nas subseções abaixo:
+   * [Filtros](#add-filters)
+     <!--* [Grouping](#add-grouping)-->
+     <!--* [Settings](#edit-the-calendar-view-settings)-->
+     <!--* [Sort](#add-sort) not sure if this is present in calendar views?!; also check the anchor and make sure it's correct-->
+
+### Adicionar filtros
+
+Você pode reduzir a quantidade de informações exibidas na tela usando filtros.
+
+Considere o seguinte ao trabalhar com filtros na exibição de calendário:
+
+<!-- this list is almost identical to the one for the table view - update both-->
+
+* Os filtros criados para uma exibição de calendário funcionam independentemente dos filtros em qualquer outra exibição aplicada ao mesmo tipo de registro.
+
+* Os filtros são exclusivos para a exibição selecionada. Duas exibições de calendário do mesmo tipo de registro podem ter filtros diferentes aplicados a elas.
+
+* Dois usuários que visualizam o mesmo calendário veem o mesmo filtro aplicado no momento.
+
+* Não é possível nomear os filtros criados para uma exibição de calendário.
+
+* A remoção de filtros os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.
+
+* A adição de filtros na exibição de calendário é idêntica à adição de filtros na exibição de tabela.
+
+  Para obter mais informações, consulte a seção &quot;Adicionar filtros&quot; no artigo [Gerenciar a exibição de tabela](/help/quicksilver/maestro/views/manage-the-table-view.md).
+
+* Você pode filtrar por campos de registro conectados ou campos de pesquisa, mas não pelos campos que permitem vincular a vários registros.

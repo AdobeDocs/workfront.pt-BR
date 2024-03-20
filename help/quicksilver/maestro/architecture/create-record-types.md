@@ -1,13 +1,13 @@
 ---
 title: Criar tipos de registro operacional
-description: Os tipos de registros são os tipos de objetos do Adobe Maestro. No Maestri, você pode criar tipos de registro personalizados que ilustram os itens de trabalho necessários no ciclo de vida da organização.
+description: Os tipos de registro são os tipos de objeto do Adobe Workfront Planning. No Workfront Planning, você pode criar tipos de registro personalizados que ilustrem os itens de trabalho necessários no ciclo de vida da sua organização.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Os tipos de registros são os tipos de objetos do Adobe Maestro. No Maestri, você pode criar tipos de registro personalizados que ilustram os itens relacionados ao trabalho necessários no ciclo de vida da organização.
+Os tipos de registro são os tipos de objeto do Adobe Workfront Planning. No Workfront Planning, você pode criar tipos de registro personalizados que ilustrem os itens relacionados ao trabalho necessários no ciclo de vida da organização.
 
 Os tipos de registro podem ser um dos seguintes:
 
 * **Tipos de registro operacional**
 * **Taxonomias**
 
-Para obter mais informações sobre os tipos de registros do Maestro, consulte [Visão geral dos tipos de registro e taxonomias](../architecture/overview-of-record-types-and-taxonomies.md).
+Para obter mais informações sobre tipos de registros, consulte [Visão geral dos tipos de registro e taxonomias](../architecture/overview-of-record-types-and-taxonomies.md).
 
 A criação de tipos de registros operacionais é semelhante à criação de tipos de registros de taxonomia. Este artigo descreve como criar tipos de registros operacionais.
 
@@ -45,12 +45,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 <tr>
 <td>
    <p> Produto</p> </td>
-   <td>
+   <td> Adobe Workfront
    </td>
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta fechado do Adobe Maestro. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta fechado de planejamento da Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -62,13 +62,15 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr>
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td>
    <td>
-   <p>Qualquer</p> 
+   <p>Atual: Plano</p>
+   Ou
+   <p>Novo: Padrão </p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Configurações de nível de acesso</p></td>
-   <td> <p>Não há controles de nível de acesso para o Maestro</p>  
+   <td> <p>Não há controles de nível de acesso para o planejamento do Workfront</p>  
 </td>
   </tr>
 <tr>
@@ -105,6 +107,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
         Para obter informações, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
       * Ao importá-los usando um arquivo Excel ou CSV. Isso não está disponível para tipos de registro de taxonomia.
+
+        >[!IMPORTANT]
+        >
+        >Essa funcionalidade está temporariamente desativada desde 21 de março de 2024. Ela será ativada posteriormente.
+
      <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
         For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
@@ -114,7 +121,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Criar tipos de registro usando um modelo de espaço de trabalho
 
-É possível criar tipos de registro automaticamente ao criar um espaço de trabalho usando um modelo. Cada modelo Maestri contém exemplos de tipos de registros operacionais e taxonomia.
+Você pode criar tipos de registro automaticamente ao criar um espaço de trabalho usando um modelo de planejamento do Workfront. Cada modelo contém exemplos de tipos de registros operacionais e de taxonomia.
 
 Para obter informações sobre como criar espaços de trabalho, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
 
@@ -191,14 +198,19 @@ O número de campos que o tipo de registro contém é exibido no cartão.
 
 ## Criar tipos de registro importando um arquivo Excel ou CSV
 
+>[!IMPORTANT]
+>
+>Essa funcionalidade está temporariamente desativada desde 21 de março de 2024. Ela será ativada posteriormente.
+
+
 Considere o seguinte ao importar tipos de registro usando um arquivo Excel ou CSV:
 
-* Cada folha do arquivo Excel torna-se um tipo de registro no Maestro.
+* Cada folha do arquivo do Excel se torna um tipo de registro.
 * As colunas de cada planilha se tornam os campos associados a cada tipo de registro.
 * Os campos são exclusivos para seus respectivos tipos de registro.
 * Cada linha em cada planilha se torna um registro exclusivo associado ao respectivo tipo de registro.
 * Cada folha do arquivo Excel não deve exceder o seguinte:
-   * 10.000 linhas
+   * 50.000 linhas
    * 500 colunas
 * O arquivo do Excel não deve ter mais de 5 MB.
 * Planilhas vazias não são suportadas.
@@ -222,7 +234,7 @@ O espaço de trabalho acessado por último deve ser aberto por padrão.
 
    A caixa Preview and edit é exibida com as seguintes informações:
 
-   * Os nomes das planilhas ou dos futuros tipos de registros são exibidos no painel esquerdo. Por padrão, o Maestro seleciona um ícone e uma cor para cada novo tipo de registro.
+   * Os nomes das planilhas ou dos futuros tipos de registros são exibidos no painel esquerdo. Por padrão, o Workfront planning seleciona um ícone e uma cor para cada novo tipo de registro.
    * A primeira folha ou tipo de registro é selecionado e os nomes dos campos associados a ela são exibidos como cabeçalhos de coluna. O tipo de cada campo é selecionado por padrão.
    * Cada linha representa um novo registro. Somente os primeiros 10 registros são exibidos na caixa Preview and edit.
 
@@ -243,7 +255,7 @@ O espaço de trabalho acessado por último deve ser aberto por padrão.
 
 1. Clique em **Importar** quando estiver pronto para importar o arquivo.
 
-   As seguintes informações são importadas para o Maestri:
+   As seguintes informações são importadas para o Workfront Planning:
 
    * Novos tipos de registro
    * Novos campos associados a cada tipo de registro
@@ -251,7 +263,7 @@ O espaço de trabalho acessado por último deve ser aberto por padrão.
 
    Você pode começar a gerenciar campos e registros nas páginas de tipos de registro.
 
-   Todos os que têm acesso ao Maestro agora podem visualizar e editar os tipos de registros importados e suas informações. <!--this will change with permissions-->
+   Todos os usuários com acesso ao Workfront Planning agora podem exibir e editar os tipos de registros importados e suas informações. <!--this will change with permissions-->
 
 <!--## Connect record types with object types from another application
 

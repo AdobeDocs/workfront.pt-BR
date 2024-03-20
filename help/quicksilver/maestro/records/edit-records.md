@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1337'
 ht-degree: 0%
 
 ---
@@ -90,8 +90,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 ## Considerações sobre a edição de registros
 
 * É possível editar registros criados ou registros criados por outras pessoas, se você tiver recebido permissões para o espaço de trabalho.
-* É possível editar campos de registro na página Detalhes de um registro ou na exibição de tabela de um tipo de registro.
-* Não é possível editar informações de registro na exibição de linha do tempo.
+* É possível editar campos de registro nas seguintes áreas:
+
+   * A caixa Detalhes de um registro de uma exibição de registro.
+   * A página Detalhes de um registro.
+   * Em linha, em uma exibição de tabela.
+
 * Os seguintes tipos de campos são atualizados automaticamente e não é possível editar seus valores manualmente:
    * Campos vinculados de outros registros
    * Campos do tipo fórmula
@@ -107,7 +111,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 * [Na exibição de tabela de um tipo de registro](#edit-a-record-from-the-table-view-of-a-record-type)
 * [Na página Detalhes de um registro](#edit-a-record-from-the-records-details-page)
 
-### Editar um registro da exibição de tabela de um tipo de registro
+### Editar um registro incorporado na exibição de tabela de um tipo de registro
 
 {#step1-to-maestro}
 
@@ -145,15 +149,6 @@ O espaço de trabalho que você acessou por último é aberto.
 1. (Opcional) Clique duas vezes em um campo de registro conectado para adicionar registros ou objetos conectados a outro registro. Para obter mais informações, consulte [Conectar registros](/help/quicksilver/maestro/records/connect-records.md).
 1. Pressione **Enter** no teclado ou clique fora de uma linha para salvar as alterações. As alterações são salvas automaticamente. A **Salvo** O indicador é exibido brevemente no canto superior direito da exibição de tabela para mostrar que as alterações foram salvas.
 
-1. (Opcional) Clique no link **Abrir detalhes** ícone ![](assets/open-details-icon-in-table-name-field.png) à esquerda do nome de um registro ou clique em um nome de registro. A variável **Detalhes** é aberta na tabela.
-
-   >[!TIP]
-   >
-   >É possível exibir a **Abrir detalhes** Ícone à esquerda do campo Nome de um registro somente quando o campo Nome é um campo primário.
-
-1. Comece a editar as informações do campo no **Detalhes** caixa. O Workfront salva suas alterações automaticamente.
-1. (Opcional) Clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> no canto superior direito da **Detalhes** para abrir o registro **Detalhes** em uma nova guia. Continue editando o registro conforme descrito em [Editar um registro na página Detalhes do registro](#edit-a-record-from-the-records-details-page) neste artigo.
-
 
 1. (Opcional) Para copiar e colar informações de um campo para outro, siga um destes procedimentos:
 
@@ -188,27 +183,61 @@ O espaço de trabalho que você acessou por último é aberto.
 
 1. (Opcional) Adicione uma miniatura a um registro. Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
+### Editar um registro na caixa Detalhes do registro em uma exibição
 
-### Editar um registro na página Detalhes do registro
-
-É possível editar um registro na caixa Detalhes em uma exibição de tabela ou na página Detalhes.
-
-Para obter informações sobre a edição de registros na caixa Detalhes, consulte [Editar um registro da exibição de tabela de um tipo de registro](#edit-a-record-from-the-table-view-of-a-record-type) neste artigo.
+É possível editar um registro na caixa Detalhes de qualquer exibição.
 
 {{step1-to-maestro}}
 
 O espaço de trabalho que você acessa por último é aberto.
 
 1. (Opcional) Clique na seta para baixo à direita do nome do espaço de trabalho para selecionar o espaço de trabalho cujos registros você deseja atualizar.
+
+1. Clique em um cartão de tipo de registro.
+
+   A página de tipo de registro é aberta.
+
+1. Em uma exibição de qualquer tipo, clique no nome de um registro
+
+   Ou
+
+   Na exibição de tabela, clique na guia **Abrir detalhes** ícone ![](assets/open-details-icon-in-table-name-field.png) à esquerda do nome de um registro ou clique em um nome de registro. A variável **Detalhes** é aberta na exibição.
+
+   ![](assets/details-box.png)
+
+   >[!TIP]
+   >
+   >É possível exibir a **Abrir detalhes** Ícone à esquerda do campo Nome de um registro em uma exibição de tabela somente quando o campo Nome é um campo primário.
+
+1. Comece a editar as informações do campo no **Detalhes** caixa. O Workfront salva suas alterações automaticamente.
+
+1. (Opcional) Clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> no canto superior direito da **Detalhes** para abrir o registro **Detalhes** em uma nova guia. Continue editando o registro conforme descrito em [Editar um registro na página Detalhes do registro](#edit-a-record-from-the-records-details-page) neste artigo.
+
+### Editar um registro na página Detalhes do registro
+
+É possível editar um registro na página Detalhes.
+
+{{step1-to-maestro}}
+
+O espaço de trabalho que você acessa por último é aberto.
+
+1. (Opcional) Clique na seta para baixo à direita do nome do espaço de trabalho para selecionar o espaço de trabalho cujos registros você deseja atualizar.
+
+1. Clique em um cartão de tipo de registro.
+
+   A página de tipo de registro é aberta.
+
 1. Siga um destes procedimentos:
 
-   * De um **Tabela** clique no nome de um registro.
+   * Em qualquer exibição, acesse a caixa Detalhes, conforme descrito na seção [Editar um registro na caixa Detalhes do registro em uma exibição](#edit-a-record-from-the-records-details-box-in-a-view)neste artigo. Em seguida, clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> no canto superior direito da **Detalhes** para abrir o registro **Detalhes** em uma nova guia.
+
    * No **Tabela** exibir, passe o mouse sobre o nome de um registro, em seguida, clique no **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Exibir**
 
      ![](assets/contextual-menu-for-record-row.png)
-   * Em uma exibição de Linha do tempo, clique em uma barra de registro.
 
-   O registro **Detalhes** é aberta.
+     O registro **Detalhes** é aberta.
+
+     ![](assets/details-page.png)
 
 1. Clique em **Mais** menu ![](assets/more-menu.png) à direita do nome do registro, clique em **Editar**
 

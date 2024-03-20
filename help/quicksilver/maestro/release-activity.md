@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '4925'
+source-wordcount: '5057'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,36 @@ Os recursos são lançados semanalmente e são listados na ordem de lançamento,
 >[!IMPORTANT]
 >
 >A documentação referenciada nas seções abaixo estará disponível algum tempo depois que os recursos forem lançados para produção.
+
+## Semana de 18 de março de 2024
+
+### Filtros disponíveis na exibição de calendário
+
+Produção: 19 de março de 2024
+
+Visualização: a ser determinado
+
+Agora você pode filtrar informações na exibição de calendário. Para obter mais informações, consulte [Gerenciar a exibição de calendário](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+
+### Caixa Detalhes adicionada às exibições de linha do tempo e calendário
+
+Produção: 19 de março de 2024
+
+Visualização: a ser determinado
+
+Agora você pode acessar a caixa Detalhes de um registro das exibições de linha do tempo e calendário. É possível editar registros na caixa Detalhes dentro das exibições de linha do tempo e calendário.
+
+Na caixa Detalhes, é possível abrir a página Detalhes do registro.
+
+Para obter mais informações, consulte [Editar registros](/help/quicksilver/maestro/records/edit-records.md).
+
+### A importação do Excel para o tipo de registro está temporariamente desabilitada
+
+Produção: 21 de março de 2024
+
+Visualização: a ser determinado
+
+Estamos desabilitando temporariamente a importação de tipos de registro usando um arquivo Excel ou CSV. Essa funcionalidade estará disponível posteriormente.
 
 ## Semana de 11 de março de 2024
 
