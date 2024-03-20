@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc97f4a2-9c51-4ccd-8121-c00fd1ac6988
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1198'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Vários novos recursos disponíveis nas placas Workfront possibilitam o uso da f
 
 Observe que as coleções foram renomeadas para fluxos de trabalho. Fluxos de trabalho ajudam você a visualizar dados de maneiras diferentes. É possível exibir itens em cartões em uma lista, em um quadro ou em uma iteração. Os cartões em um workflow também podem ser compartilhados entre vários quadros. Você pode facilitar facilmente os fluxos de trabalho usando cartões e quadros em um fluxo de trabalho.
 
-Para obter mais informações, consulte [Gerenciar fluxos de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Criar uma iteração em um fluxo de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), e [Usar a lista de cartões](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Os dois segundos artigos não estarão disponíveis no Principal até que eu publique minha ramificação.
+Para obter mais informações, consulte [Gerenciar fluxos de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Criar uma iteração em um fluxo de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), e [Usar a lista de cartões](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
 [Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
