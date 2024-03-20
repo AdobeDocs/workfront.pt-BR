@@ -4,20 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Você pode organizar um formulário personalizado com o Designer de formulários.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: f79d3243058e4b71d9825c2b219730e9bc44944e
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
 
 # Organizar e visualizar um formulário com o designer de formulário
 
-Você pode organizar um formulário personalizado com o designer do formulário.
+Você pode organizar um formulário personalizado com o designer do formulário e visualizá-lo para verificar se ele está configurado corretamente.
 
 ## Requisitos de acesso
 
@@ -170,4 +170,4 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 
 1. Comece a criar ou editar um formulário personalizado e adicionar campos, conforme descrito em [Criar um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Clique em **Visualizar** no canto superior esquerdo para ver a aparência do formulário quando ele for usado, clique em **Fechar visualização** para retornar à edição do formulário.
+1. Clique em **Visualizar** no canto superior direito para ver a aparência do formulário ao ser usado, clique em **Fechar visualização** para retornar à edição do formulário.
