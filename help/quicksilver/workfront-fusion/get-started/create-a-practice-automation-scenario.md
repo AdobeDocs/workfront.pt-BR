@@ -7,9 +7,9 @@ description: Este artigo descreve como criar um cenário de automação com o Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 3d53042b9321c8712b9aaeea686989add5b9e35e
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: '1847'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ Depois que você se conectar [!DNL Workfront Fusion] ao seu [!DNL Workfront] con
    1. Para o operador, selecione [!UICONTROL Contém (não diferencia maiúsculas de minúsculas)]. Isso permite que o módulo encontre projetos com as palavras escolhidas em seu nome, mesmo se você não inserir o nome inteiro ou inserir o nome com a caixa incorreta (como todas em maiúsculas).
    1. No último campo em [!UICONTROL Critérios de pesquisa], digite uma palavra ou frase que você sabe que está no nome do projeto que está procurando.
 
-1. No **[!UICONTROL Saídas]** selecione os campos que devem ser gerados para a ocorrência. Para este exemplo, selecione a variável **[!UICONTROL ID]** e **[!UICONTROL Nome]** campos.
+1. No **[!UICONTROL Saídas]** selecione os campos que deseja que o módulo exporte. Para este exemplo, selecione a variável **[!UICONTROL ID]** e **[!UICONTROL Nome]** campos.
 
    >[!TIP]
    >
