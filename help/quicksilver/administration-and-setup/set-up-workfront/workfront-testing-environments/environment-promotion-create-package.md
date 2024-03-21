@@ -11,9 +11,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b2a2a6b84edc74efa89db2aba459a40e98bfb0e5
+source-git-commit: c0a841d8f6a4431ff95c1b1d5904c8f41a7c82ca
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,11 @@ ht-degree: 0%
    Ou
 
    Clique em **Salvar e reunir** para salvar e montar o pacote.
+
+   >[!NOTE]
+   >
+   >* Os botões Salvar e Fechar e Salvar e Reunir estarão disponíveis se um pacote tiver um nome com cinco ou mais caracteres e pelo menos um objeto adicionado a ele.
+   >* Não é possível montar um pacote que esteja em um status instalável, como Teste ou Ativo.
 
 ## Editar ou reunir um pacote existente
 

@@ -11,9 +11,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 5ab9f7c975df86fa7a1f6d54a2fefcbd4cbd9248
+source-git-commit: 610469811a937fde70a938af829b156e69cca391
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ ht-degree: 0%
 
 Cada tipo de objeto é listado na navegação à esquerda e em um cartão. O cartão exibe objetos desse tipo e se esses objetos existem no ambiente de destino. Você pode determinar como esses objetos serão movidos para o ambiente de destino.
 
-* Criar novo: o objeto está no ambiente de destino
+* Criar novo: crie um novo objeto no ambiente de destino. Se o objeto existir no ambiente de destino, você poderá criar um novo objeto com um novo nome. Se não existir no ambiente de destino, você poderá criar o objeto com um novo nome ou com o nome que o objeto tem no pacote.
 * Usar existente: o objeto no pacote não está instalado e o objeto que já existia no ambiente de destino não é alterado.
 * Substituir existente: (não disponível no momento) o objeto no pacote substitui o objeto existente no ambiente de destino.
-* Não usar:Se você selecionar Não usar, uma mensagem de erro será exibida detalhando como essa escolha afetará outros objetos ou campos.
+* Não usar: o objeto no pacote não está instalado no ambiente de destino. Se você selecionar Do not use (Não usar), uma mensagem de erro será exibida detalhando como essa escolha afetará outros objetos ou campos.
 
 Os valores padrão são `Create new` se o objeto não existir no ambiente de destino e `Use existing` se o objeto não existir no ambiente de destino. Você pode reverter para o mapeamento padrão clicando em **Redefinir para mapeamento padrão**.
 
