@@ -6,9 +6,9 @@ description: A nova Página inicial é um novo recurso poderoso para gerenciar s
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
+source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1120'
 ht-degree: 8%
 
 ---
@@ -64,7 +64,7 @@ Abaixo estão os dez widgets disponíveis atualmente para escolher, bem como um 
     Exibe threads de comentários recentes de toda a Workfront, de forma semelhante à página Minhas atualizações. Você pode usar o botão responder para compor uma resposta no widget. Este widget também mostra comentários feitos sobre tarefas e problemas atribuídos a você, atribuídos a outro usuário, de sua propriedade, do qual você é o contato principal ou que você criou, desde que a tarefa ou problema tenha sido atualizado nos últimos 30 dias.
 
 * **Tarefas**\
-    Este widget exclusivo permite adicionar itens de texto a uma lista de verificação pessoal que você pode editar livremente.
+    Este widget exclusivo permite adicionar itens a uma lista de verificação pessoal que você pode editar livremente. As tarefas são rastreadas como tarefas no seu projeto pessoal e permanecem por até duas semanas após a conclusão.
 
   >[!NOTE]
   >

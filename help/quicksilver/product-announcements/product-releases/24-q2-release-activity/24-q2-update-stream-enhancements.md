@@ -4,9 +4,9 @@ description: Melhorias no fluxo de atualizações e na notificação do segundo 
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
+source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Os comentários feitos nos registros de atividade do sistema na experiência de 
 
 Para obter mais informações, consulte [Visão geral da seção Atualizações](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3427992/){target=_blank} (A discussão desse recurso específico começa às 2:00 do vídeo.)
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3427992/){target=_blank} (A discussão desse recurso específico começa às 2:00)
 
 ## Nova guia de fluxo de atualização para capturar comentários e entradas de atividade do sistema
 
@@ -66,7 +66,7 @@ A guia Todos é uma guia somente para visualização. Não é possível responde
 
 Para obter mais informações, consulte [Visão geral da seção Atualizações](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3427992/){target=_blank} (A discussão desse recurso específico começa às 0:31 do vídeo.)
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3427992/){target=_blank} (A discussão desse recurso específico começa em 0:31)
 
 ## Novo fluxo de comentários agora disponível no painel Resumo
 
