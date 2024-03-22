@@ -8,9 +8,9 @@ description: Os recursos de Organização e Equipes do Adobe Workfront Fusion po
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: a51dfcfc3024fd7d1d2612d6f258379d4d166c49
+source-git-commit: 7c05196cd00765a506e028627305ba17978e410d
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1266'
 ht-degree: 0%
 
 ---
@@ -174,6 +174,14 @@ Para criar um grupo:
 >Para obter mais informações, consulte [Acessar as notificações](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [[!DNL Adobe Unified Experience] para [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
 
 As opções de notificação por email são definidas no nível da equipe.
+
+>[!NOTE]
+>
+>Se sua organização tiver sido movida para o Unified Shell, você receberá notificações por meio da área Notificações de Adobe. Você deve usar a experiência do Unified Shell para ver as notificações na área Notificações de Adobe.
+>
+>Para usar a Experiência do Unified Shell, incluindo a área Notificações do Adobe, clique no botão Tentar Nova Interface do Usuário do Fusion na Experiência Unificada próximo à parte superior da página. Esse botão só estará disponível se sua organização tiver migrado para o Unified Shell.
+>
+>Para obter mais informações sobre como localizar notificações no Unified Shell, consulte [Acessar as notificações](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications).
 
 1. No painel de navegação esquerdo, clique em **[!UICONTROL Equipe]**
 1. Selecione o **[!UICONTROL Opções de notificação]** guia.
