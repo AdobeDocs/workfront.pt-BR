@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 0bfeae7db0e3dfbb402ee602b4ede97cb6c605fa
+source-git-commit: 8ceb370df6ff6f3a7a4376d6086fbabe99609e29
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1605'
 ht-degree: 0%
 
 ---
@@ -197,6 +197,8 @@ Para obter mais informações sobre a configuração [!DNL Workfront] com SSO, c
 
 ## Uso e disponibilidade previstos
 
-[!DNL Workfront] Os ambientes de sandbox de atualização personalizada não se destinam a testes de desempenho ou carga. Em vez disso, use esses ambientes para validar a funcionalidade do recurso com os fluxos de trabalho existentes da organização.
+* [!DNL Workfront] Os ambientes de sandbox de atualização personalizada não se destinam a testes de desempenho ou carga. Em vez disso, use esses ambientes para validar a funcionalidade do recurso com os fluxos de trabalho existentes da organização.
 
-[!DNL Workfront] Os ambientes de sandbox de atualização personalizada devem estar sempre disponíveis. Qualquer interrupção em um ambiente de sandbox de atualização personalizada da Workfront durante o horário comercial regular será uma prioridade imediatamente após a resolução de qualquer problema de produção, se houver. Qualquer interrupção em um ambiente Workfront Custom Refresh Sandbox nos finais de semana (sábados e domingos) será resolvida para que o ambiente funcione durante o horário comercial na segunda-feira.
+* [!DNL Workfront] Os ambientes de sandbox de atualização personalizada devem estar sempre disponíveis. Qualquer interrupção em um ambiente de sandbox de atualização personalizada da Workfront durante o horário comercial regular será uma prioridade imediatamente após a resolução de qualquer problema de produção, se houver. Qualquer interrupção em um ambiente Workfront Custom Refresh Sandbox nos finais de semana (sábados e domingos) será resolvida para que o ambiente funcione durante o horário comercial na segunda-feira.
+
+* A revisão não está disponível nos ambientes de sandbox de atualização personalizada.
