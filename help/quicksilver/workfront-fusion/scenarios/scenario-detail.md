@@ -7,10 +7,10 @@ description: Detalhes do cenário em [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
-source-git-commit: 759472ada4595625e3a02b55c455564e24343743
+source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 0%
+source-wordcount: '579'
+ht-degree: 1%
 
 ---
 
@@ -133,6 +133,10 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Estatísticas]</p>  </td> 
       <td>Este gráfico permite exibir a quantidade de transferências de dados e operações usadas nas execuções do cenário em um gráfico de [!UICONTROL linha].</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>[!UICONTROL Processando banner]</p>  </td> 
+      <td>Se o cenário foi executado recentemente, você poderá ver um banner com a seguinte redação:<p><code>Data is still being processed. Only partial scenario history will show until processing is complete.</code></p>Isso é exibido enquanto os detalhes da execução são gravados no armazenamento. O processamento ocorre imediatamente após a execução do cenário. e não deve durar mais do que alguns minutos. Os detalhes da execução do cenário podem não estar visíveis enquanto a execução estiver sendo processada.</td> 
      </tr> 
     </tbody> 
    </table>

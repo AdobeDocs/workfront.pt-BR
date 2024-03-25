@@ -7,10 +7,10 @@ description: Você pode exibir informações sobre todas as execuções de um ce
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 1%
+source-wordcount: '958'
+ht-degree: 0%
 
 ---
 
@@ -73,8 +73,6 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
 
    ![](assets/open-history-tab-350x202.png)
 
-   C
-
    Você também pode clicar em para visualizar uma página inteira dessas informações. A exibição de página inteira permite filtrar o histórico para exibir execuções específicas.
 
    Os detalhes a seguir são listados para cada execução do cenário:
@@ -85,6 +83,10 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
    * Número de **[!UICONTROL Operações]**
    * Tamanho de **[!UICONTROL Transferência de dados]**
    * Vincular a **[!UICONTROL Detalhes]**
+
+>[!NOTE]
+>
+>O histórico do cenário exibe uma **Processando** selo ao lado dos cenários que foram executados recentemente, enquanto os detalhes da execução são gravados no armazenamento. O processamento ocorre imediatamente após a execução do cenário. e não deve durar mais do que alguns minutos. Os detalhes da execução do cenário podem não estar visíveis enquanto a execução estiver sendo processada.
 
 ### Exibir o histórico de execução do cenário no [!UICONTROL Histórico] guia
 
@@ -103,7 +105,9 @@ A variável [!UICONTROL Histórico] A guia mostra mais detalhes do que o dispon�
 
    >[!NOTE]
    >
-   >A variável [!UICONTROL detalhes] O link estará visível somente se a execução tiver detalhes disponíveis.
+   >* A variável [!UICONTROL detalhes] O link estará visível somente se a execução tiver detalhes disponíveis.
+   >
+   >* O histórico do cenário exibe uma **Histórico de processamento** selo ao lado dos cenários que foram executados recentemente, enquanto os detalhes da execução são gravados no armazenamento. O processamento ocorre imediatamente após a execução do cenário. e não deve durar mais do que alguns minutos. Os detalhes da execução do cenário podem não estar visíveis enquanto a execução estiver sendo processada.
 
 ## Filtrar o histórico de execução do cenário
 
@@ -167,9 +171,9 @@ Você pode classificar o histórico de execução do cenário.
 
    * [!UICONTROL Erro]
 
-   * [!UICONTROL Advertência]
+   * [!UICONTROL Aviso]
 
-   * [!UICONTROL Êxito]
+   * [!UICONTROL Sucesso]
 
 1. (Opcional) Altere a ordem de exibição dos resultados no **[!UICONTROL Classificar por datas]** lista suspensa.
 
