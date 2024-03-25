@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: bba5992184c50a159be21d78f1a9c61aa2d861d8
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,11 @@ Para exibir informações de licença em seu sistema:
    >
    >Licenças de comprovação estão disponíveis somente para clientes que compraram o complemento pago do Workfront Proof, além da licença do Workfront. Para obter informações sobre este complemento, consulte [Workfront Proof: índice do artigo](../../workfront-proof/workfront-proof.md).
 
-1. (Condicional) Se você vir a mensagem **Para definir um máximo, é necessário adicionar um Grupo padrão**, adicione um Grupo padrão no seu sistema conforme explicado na seção [Adicionar ou remover um Grupo Padrão da página de licenças](#add-or-remove-a-home-group-to-the-licenses-page) neste artigo.
+1. (Condicional) Se você vir a mensagem **Para definir um máximo, é necessário adicionar um Grupo padrão**, adicione um Grupo padrão ao seu sistema conforme explicado na seção [Adicionar ou remover um Grupo Padrão da página de licenças](#add-or-remove-a-home-group-to-the-licenses-page) neste artigo.
+
+   >[!NOTE]
+   >
+   >Para os novos planos, o plano Select não permite que os administradores visualizem licenças por Grupo padrão. Você só pode ver o número geral de licenças usadas. Os planos Prime e Ultimate permitem definir a contagem máxima de licenças por Grupo Padrão.
 
 ## Exibir informações sobre licenças para complementos do Workfront
 
