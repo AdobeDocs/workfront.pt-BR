@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: 580ed17642f2f7e20e507de00f61aec7f7a3b131
+source-git-commit: 86ae4fee243bbb2bee6f32c081b6b9debcc3e9b3
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,20 @@ Para participar desta versão do Alpha, verifique se você foi adicionado ao Alp
 
 ## Versão mais recente
 
+## Versão do Alpha 7 - março de 2024
+
+Nesta versão de 7º Alpha, temos:
+
+* Adição da capacidade de criar prazos de conclusão para as aprovações de documentos.
+* Modelos de aprovação introduzidos que agora podem ser criados e aplicados às suas aprovações para economizar o tempo de configuração.
+* Atualização do dispositivo de aprovações para mostrar vários indicadores-chave de desempenho com uma lista detalhada para que você possa fazer mais detalhamentos.
+
+Confira o vídeo completo abaixo:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428023/)
+
+## _Versões anteriores_
+
 ## Versão 6 do Alpha - janeiro de 2024
 
 Nesta versão de 6º Alpha, temos:
@@ -37,8 +51,6 @@ Nesta versão de 6º Alpha, temos:
 Confira o vídeo completo abaixo:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3426860/)
-
-## _Versões anteriores_
 
 ### Versão do Alpha 5 - setembro de 2023
 
