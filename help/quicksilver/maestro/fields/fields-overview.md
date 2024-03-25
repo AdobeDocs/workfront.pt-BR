@@ -1,13 +1,13 @@
 ---
 title: Visão geral do campo
-description: Você pode adicionar novos campos no Adobe Maestri que refletem o ciclo de vida da sua organização. Os campos são atributos de tipos de registro.
+description: Você pode adicionar novos campos no Adobe Workfront Planning que reflitam o ciclo de vida da sua organização. Os campos são atributos de tipos de registro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '454'
 ht-degree: 2%
 
 ---
@@ -28,10 +28,10 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Você pode adicionar novos campos no Adobe Maestri que refletem o ciclo de vida da sua organização. Os campos são atributos de tipos de registro.
+Você pode adicionar novos campos no Adobe Workfront Planning que reflitam o ciclo de vida da sua organização. Os campos são atributos de tipos de registro.
 
 
-## Considerações sobre campos Maestro
+## Considerações sobre campos de planejamento do Adobe Workfront
 
 * Você pode criar campos somente a partir da exibição de tabela de uma página do tipo registro. Os campos são exibidos como colunas na exibição de tabela. Todos os campos associados a um tipo de registro também são exibidos na página Detalhes de cada registro desse tipo.
 
@@ -56,42 +56,36 @@ Você pode adicionar novos campos no Adobe Maestri que refletem o ciclo de vida 
 
         Este artigo descreve como criar campos manualmente.
 
-      * Conectando tipos de registro. Você pode criar campos de registro vinculados ao adicionar uma nova conexão entre dois tipos de registro Maestri ou um tipo de registro e tipos de objeto de outras aplicações.
+      * Conectando tipos de registro. É possível criar campos de registro vinculados ao adicionar uma nova conexão entre dois tipos de registro ou um tipo de registro e tipos de objeto de outros aplicativos.
 
         <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
 
-        Para obter mais informações sobre como conectar tipos de registros Maestri, consulte [Conectar tipos de registro](../architecture/connect-record-types.md).
+        Para obter mais informações sobre como conectar tipos de registro, consulte [Conectar tipos de registro](../architecture/connect-record-types.md).
 
       * Importando tipos de registro usando um arquivo Excel ou CSV. Para obter mais informações, consulte [Criar tipos de registro](../architecture/create-record-types.md).
 
    * Automaticamente:
 
-      * Por padrão, sempre que você cria um tipo de registro.
+     A seguir estão campos padrão criados por padrão para cada novo tipo de registro:
 
-        A seguir estão campos padrão criados por padrão para cada novo tipo de registro operacional:
+      * Nome
+      * Descrição
+      * Data de início
+      * Data Final
+      * Status. Os valores padrão para status de registro são:
+         * Desenvolvimento
+         * Planejado
+         * Ativo
+         * Concluídos
+         * Em Espera
 
-         * Nome
-         * Descrição
-         * Data de início
-         * Data Final
-         * Status. Os valores padrão para status de registro são:
-            * Desenvolvimento
-            * Planejado
-            * Ativo
-            * Concluídos
-            * Em Espera
+        É possível adicionar mais valores ou renomear os existentes.
 
-           É possível adicionar mais valores ou renomear os existentes.
+     O Workfront planning cria campos para tipos de registro quando você cria um espaço de trabalho a partir de um modelo. Para obter informações, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
 
-        A seguir estão os campos padrão criados por padrão para cada novo tipo de registro de taxonomia:
+* Os campos de planejamento do Workfront não podem ser acessados no Workfront.
 
-         * Nome <!--will more be added? If not, consider rephrasing this bullet-->
-
-      * Ao criar um espaço de trabalho a partir de um modelo. O Maestri cria campos para tipos de registros operacionais e taxonomias quando você cria um espaço de trabalho a partir de um modelo. Para obter informações, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
-
-* Os campos maestro não são acessíveis pela Workfront.
-
-* Os campos do Workfront podem ser acessados pelo Maestro somente quando você conecta tipos de registro do Maestri com tipos de objeto do Workfront e adiciona campos vinculados ou de pesquisa a partir de objetos do Workfront. Para obter informações, consulte [Conectar tipos de registro](../architecture/connect-record-types.md).
+* Os campos do Workfront podem ser acessados no Workfront Planning somente quando você conecta tipos de registro a tipos de objeto do Workfront e adiciona campos vinculados ou de pesquisa a partir de objetos do Workfront. Para obter informações, consulte [Conectar tipos de registro](../architecture/connect-record-types.md).
 
 * É possível exibir e atualizar as configurações dos campos criados por você ou por qualquer outro usuário, se você tiver permissões de gerenciamento no espaço de trabalho ao qual o campo pertence.
 
@@ -99,4 +93,4 @@ Você pode adicionar novos campos no Adobe Maestri que refletem o ciclo de vida 
 
 * Os nomes de campos podem ter até 250 caracteres.
 
-* Ao excluir um tipo de registro operacional, taxonomia ou espaço de trabalho, todos os campos associados a eles e aos valores dos campos também são excluídos e não podem ser recuperados. <!-- this might change with a possible recycle bin solution?!-->
+* Ao excluir um tipo de registro ou espaço de trabalho, todos os campos associados a eles e aos valores dos campos também são excluídos e não podem ser recuperados. <!-- this might change with a possible recycle bin solution?!-->

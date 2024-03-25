@@ -1,16 +1,16 @@
 ---
 title: Visão geral da seção Histórico
-description: Você pode rever as mudanças feitas no registro e gravadas pelo sistema no painel direito de um registro no Adobe Maestro.
+description: Você pode revisar as alterações feitas no registro e registradas pelo sistema no painel direito de um registro no Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 4%
 
 ---
-
 
 # Visão geral da seção Histórico
 
@@ -24,11 +24,11 @@ ht-degree: 4%
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-É possível colaborar em registros Adobe Maestro, adicionando comentários ou respostas no painel direito de um registro. Você também pode exibir outras alterações feitas no registro e registradas pelo sistema nessa área.
+É possível colaborar em registros de planejamento do Adobe Workfront, adicionando comentários ou respostas no painel direito de um registro. Você também pode exibir outras alterações feitas no registro e registradas pelo sistema nessa área.
 
 O painel direito de um registro exibe as seguintes seções:
 
-* **Comentários**: exibe comentários e respostas que os usuários adicionam aos registros. Para obter mais informações sobre como gerenciar comentários nos registros do Maestro, consulte [Gerenciar comentários de registro](/help/quicksilver/maestro/records/manage-record-comments.md).
+* **Comentários**: exibe comentários e respostas que os usuários adicionam aos registros. Para obter mais informações sobre o gerenciamento de comentários em registros de planejamento do Workfront, consulte [Gerenciar comentários de registro](/help/quicksilver/maestro/records/manage-record-comments.md).
 * **Histórico**: exibe as alterações registradas pelo sistema que os usuários fazem nos campos de registro.
 
 ## Localizar a seção Histórico de um registro
@@ -46,11 +46,11 @@ O último espaço de trabalho acessado é aberto por padrão.
 
 ## Considerações sobre a seção Histórico
 
-Você pode revisar as alterações feitas nos campos de registro na seção Histórico do painel direito de um registro operacional ou da página Detalhes da taxonomia.
+Você pode revisar as alterações feitas nos campos de registro na seção Histórico do painel direito da página Detalhes de um registro.
 
 ![](assets/history-area-in-comments.png)
 
-* Maestri registra as seguintes informações na seção Histórico:
+* O Workfront Planning registra as seguintes informações na seção Histórico:
 
    * Quaisquer alterações de campo
 
@@ -80,7 +80,7 @@ Você pode revisar as alterações feitas nos campos de registro na seção Hist
 
 * Os campos do tipo caixa de seleção nunca exibem o valor antigo no formato tachado. Se o campo for editado, somente o estado atual no momento em que a alteração foi feita será exibido.
 
-  Para obter mais informações sobre campos Maestro, consulte [Criar campos](/help/quicksilver/maestro/fields/create-fields.md).
+  Para obter mais informações sobre os campos de planejamento do Workfront, consulte [Criar campos](/help/quicksilver/maestro/fields/create-fields.md).
 
 * As alterações nos campos dos seguintes tipos não são exibidas na seção History:
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 46c4deee89c786b73945c2facbf6d21ef035c14f
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: '2355'
 ht-degree: 1%
 
 ---
@@ -247,19 +247,19 @@ Você deve instalar o plug-in correto para o aplicativo da Adobe Creative Cloud 
 
 ## Etapa 1 - Chegando ao Maestro - {#step1-to-maestro}
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Maestro]**.
+1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Planejamento]**.
 
 ## Introdução importante do Maestro - {#maestro-important-intro}
 
 >[!IMPORTANT]
 >
->As informações neste artigo se referem aos recursos de planejamento do Adobe Workfront, uma nova oferta da Adobe Workfront.
+>As informações neste artigo se referem ao planejamento do Adobe Workfront, uma nova oferta da Adobe Workfront.
 >
->Atualmente, os recursos de planejamento fazem parte de um programa beta aberto a um número limitado de clientes. Você deve ser um cliente do Workfront para usar esses recursos.
+>Atualmente, o planejamento do Workfront faz parte de um programa beta aberto a um número limitado de clientes. Você deve ser um cliente do Workfront para usar esses recursos.
 >
->Entre em contato com seu representante de conta para obter mais informações sobre como participar do programa beta para obter recursos de planejamento.
+>Entre em contato com seu representante de conta para obter mais informações sobre como participar do programa beta para o Workfront Planning.
 >
->Para obter mais informações sobre recursos de planejamento, consulte [Visão geral dos recursos de planejamento do Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
+>Para obter mais informações, consulte [Visão geral do planejamento do Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

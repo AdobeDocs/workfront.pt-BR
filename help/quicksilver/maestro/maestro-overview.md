@@ -1,18 +1,18 @@
 ---
-title: Visão geral dos recursos de planejamento do Adobe Workfront
-description: Os recursos de planejamento do Adobe Workfront são uma nova oferta da Adobe Workfront. Você pode criar espaços de trabalho totalmente personalizáveis para definir fluxos de trabalho que atendam às necessidades de cada unidade organizacional da empresa.
+title: Visão geral do planejamento do Adobe Workfront
+description: O planejamento do Adobe Workfront é uma nova oferta da Adobe Workfront. Você pode criar espaços de trabalho totalmente personalizáveis para definir fluxos de trabalho que atendam às necessidades de cada unidade organizacional da empresa.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '1994'
+source-wordcount: '1785'
 ht-degree: 1%
 
 ---
 
-# Visão geral dos recursos de planejamento do Adobe Workfront
+# Visão geral do planejamento do Adobe Workfront
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -22,16 +22,17 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->As informações neste artigo se referem aos recursos de planejamento do Adobe Workfront, uma nova oferta da Adobe Workfront.
+>As informações neste artigo se referem ao planejamento do Adobe Workfront, uma nova oferta da Adobe Workfront.
 >
->Atualmente, os recursos de planejamento fazem parte de um programa beta aberto a um número limitado de clientes. Você deve ser um cliente do Workfront para usar esses recursos.
+>Atualmente, o planejamento do Adobe Workfront faz parte de um programa beta aberto a um número limitado de clientes. Você deve ser um cliente do Workfront para usar esses recursos.
 >
->Entre em contato com seu representante de conta para obter mais informações sobre como participar do programa beta para obter recursos de planejamento.
->[Assista a uma demonstração em vídeo dos recursos de planejamento do Adobe Workfront.](https://video.tv.adobe.com/v/3424253/){target=_blank}
+>Entre em contato com seu representante de conta para obter mais informações sobre como participar do programa beta para o Workfront Planning.
 
-## Introdução aos recursos de planejamento do Adobe Workfront
+<!--[View a video demonstration of Adobe Workfront planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
-Os recursos de planejamento do Adobe Workfront são uma nova oferta da Adobe Workfront. O objetivo dos recursos de planejamento é desbloquear uma visibilidade abrangente dos detalhes operacionais de uma organização e responder a perguntas comerciais críticas em cada estágio do ciclo de vida do gerenciamento de trabalho.
+## Introdução ao Adobe Workfront Planning
+
+O planejamento do Adobe Workfront é uma nova oferta da Adobe Workfront. O objetivo do planejamento da Workfront é desbloquear uma visibilidade abrangente dos detalhes operacionais de uma organização e responder a perguntas comerciais críticas em cada estágio do ciclo de vida do gerenciamento de trabalho.
 
 Equipes e liderança precisam de respostas claras para perguntas como:
 
@@ -50,16 +51,14 @@ Veja a seguir alguns dos principais recursos:
 
 ## Recursos de planejamento do Adobe Workfront disponíveis no momento
 
-A tabela a seguir ilustra os principais recursos que estarão disponíveis nos recursos de planejamento e uma linha do tempo de sua disponibilidade. A lista não inclui todos os recursos.
+A tabela a seguir ilustra os principais recursos que estarão disponíveis no Workfront Planning e uma linha do tempo de sua disponibilidade. A lista não inclui todos os recursos.
 
-Para obter informações sobre novos recursos e quando eles são lançados, consulte [Atividade de lançamento dos recursos de planejamento do Adobe Workfront](/help/quicksilver/maestro/release-activity.md).
+Para obter informações sobre novos recursos e quando eles são lançados, consulte [Atividade de versão do Adobe Workfront planning](/help/quicksilver/maestro/release-activity.md).
 
 | Recurso | Disponível agora | Disponível em breve | Em pesquisa |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
 | Criar espaços de trabalho | ✓ µ |                                  |                  |
-| Criar tipos de registro operacional | ✓ µ |                                  |                  |
-| Criar taxonomias | ✓ µ |                                  |                  |
-| Criar registros e taxonomias individuais e nomeados | ✓ µ |                                  |                  |
+| Criar tipos de registro | ✓ µ |                                  |                  |
 | Criar campos personalizados de registro | ✓ µ |                                  |                  |
 | Importar tipos e campos de registro usando um arquivo Excel ou CSV* | ✓ µ |                                  |                  |
 | Vincular registros | ✓ µ |                                  |                  |
@@ -74,15 +73,15 @@ Para obter informações sobre novos recursos e quando eles são lançados, cons
 | Classificar agrupamentos na exibição de tabela |                               | ✓ µ |                  |
 | Classificar agrupamentos na exibição de linha do tempo |                               | ✓ µ |                  |
 | Conectar espaços de trabalho |                               | ✓ µ |                  |
-| Conectar registros e taxonomias de recursos de planejamento | ✓ µ |
 | Procurar registros na exibição de tabela | ✓ µ |   |
 | Procurar registros na exibição de linha do tempo | ✓ µ |   |
-| Conectar registros de recursos de planejamento a projetos, programas, portfólios, empresas e grupos do Workfront | ✓ µ |                                 |                  |
-| Conectar registros de recursos de planejamento ao Adobe Experience Manager Assets | ✓ µ |                                  |                 |
-| Página de detalhes do registro | ✓ µ |                                  |                  |
+| Conectar registros de planejamento do Workfront a projetos, programas, portfólios, empresas e grupos do Workfront | ✓ µ |                                 |                  |
+| Conectar registros de planejamento do Workfront aos ativos do Adobe Experience Manager | ✓ µ |                                  |                 |
+| Página Detalhes do registro | ✓ µ |                                  |                  |
 | Atualizar o layout da página Detalhes do registro |                               | ✓ µ |                  |
 | Compartilhar espaços de trabalho | ✓ µ | |  |
 | Compartilhar exibições | ✓ µ | |  |
+| Exibições duplicadas | ✓ µ | |  |
 | Enviar solicitações |                               |                                  | ✓ µ |
 | Resumo criativo |                               |                                  | ✓ µ |
 | Personalizar a cor e o ícone de um registro | ✓ µ |                                  |                 |
@@ -90,24 +89,24 @@ Para obter informações sobre novos recursos e quando eles são lançados, cons
 | Adicionar miniaturas aos registros | ✓ µ |                                  |                 |
 | Exibir histórico de alterações em um registro | ✓ µ |                                  |                 |
 | Formatação de Rich Text para campos de parágrafo | ✓ µ |                                  |                 |
-| Módulos de recursos de planejamento do Adobe Workfront para Adobe Workfront Fusion | ✓ µ |                                  |                 |
+| Módulos de planejamento do Adobe Workfront para Adobe Workfront Fusion | ✓ µ |                                  |                 |
 | Copiar e colar informações de um campo para outro | ✓ µ |                                  |                 |
 
-## Ativar os recursos de planejamento do Adobe Workfront para os usuários em sua instância do Workfront
+## Habilitar o planejamento do Adobe Workfront para os usuários em sua instância do Workfront
 
-Sua organização deve se inscrever no programa beta fechado de recursos de planejamento do Adobe Workfront antes que você possa acessar os recursos de planejamento. Entre em contato com seu representante de conta para obter informações sobre como se inscrever no programa beta.
+Sua organização deve se inscrever no programa beta fechado do Adobe Workfront planning para que você possa acessar os recursos de planejamento. Entre em contato com seu representante de conta para obter informações sobre como se inscrever no programa beta.
 
-Para obter mais informações sobre como conceder acesso e permitir que outras pessoas usem os recursos de planejamento, consulte [Visão geral do Access](/help/quicksilver/maestro/access/access-overview.md).
+Para obter mais informações sobre como conceder acesso e permitir que outras pessoas usem o Workfront Planning, consulte [Visão geral do Access](/help/quicksilver/maestro/access/access-overview.md).
 
-## Terminologia dos recursos de planejamento do Adobe Workfront
+## Terminologia de planejamento do Adobe Workfront
 
-Embora os recursos de planejamento façam parte do Workfront, ele vem com conceitos e terminologia proprietários. Familiarize-se com os conceitos de recursos de planejamento antes de começar a configurar recursos de planejamento para sua organização.
+Embora o planejamento do Workfront faça parte da Workfront, ele vem com conceitos e terminologia proprietários. Familiarize-se com os novos conceitos antes de começar a configurar o planejamento do Workfront para sua organização.
 
-A estrutura dos recursos de planejamento é totalmente personalizável. Você pode criar todos os tipos de registros, seus atributos e quaisquer campos associados a eles para atender às necessidades exatas de sua organização.
+A estrutura do planejamento do Workfront é totalmente personalizável. Você pode criar todos os tipos de registros, seus atributos e quaisquer campos associados a eles para atender às necessidades exatas de sua organização.
 
-A seguir estão os principais objetos e conceitos dos recursos de planejamento:
+A seguir estão os principais objetos e conceitos do Workfront Planning:
 
-* **Workspace**: uma coleção de tipos de registros e taxonomias que definem o ciclo de vida operacional de uma determinada organização. Um espaço de trabalho é o quadro de trabalho de uma unidade organizacional.
+* **Workspace**: uma coleção de tipos de registro que define o ciclo de vida operacional de uma determinada organização. Um espaço de trabalho é o quadro de trabalho de uma unidade organizacional.
 
   Uma instância do Workfront pode ter no máximo 1.000 espaços de trabalho.
 
@@ -115,64 +114,39 @@ A seguir estão os principais objetos e conceitos dos recursos de planejamento:
 
   Para obter mais informações, consulte [Criar espaços de trabalho](../maestro/architecture/create-workspaces.md).
 
-* **Tipo de registro**: o tipo de objeto dos principais recursos de planejamento.
+* **Tipo de registro**: O tipo de objeto ou planejamento do Workfront.
 
-  Diferentemente do Workfront, onde os tipos de objeto são predefinidos, nos recursos de planejamento, você pode criar seus próprios tipos de objeto.
+  Diferentemente do Workfront, onde os tipos de objeto são predefinidos, no Workfront Planning você pode criar seus próprios tipos de objeto.
 
   Por exemplo, no Workfront, os tipos de objeto de Programa, Portfolio, Projeto, Tarefa ou Problema já foram criados.
 
-  Nos recursos de planejamento, é possível criar qualquer tipo de registro que atenda aos workflows da organização. Posteriormente, é possível definir como os tipos de registro se relacionam entre si ou as dependências do formulário.
+  No Workfront Planning, é possível criar qualquer tipo de registro que atenda aos workflows da organização. Posteriormente, é possível definir como os tipos de registro se relacionam entre si ou as dependências do formulário.
 
-  Para obter mais informações, consulte [Visão geral dos tipos de registros operacionais e taxonomias](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
+  Para obter mais informações, consulte [Visão geral dos tipos de registro](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
-  Os recursos de planejamento têm os seguintes tipos de registro:
-
-   * **Tipo de Registro Operacional**: um tipo de registro que representa planos estratégicos, iniciativas ou trabalho executado.
-
-     ![](assets/operational-record-type-blank.png)
-
-     Por exemplo, Campanha, Atividade, Programa podem ser tipos de registro operacional.
-
-     Para obter mais informações, consulte [Criar tipos de registro](../maestro/architecture/create-record-types.md).
-
-   * **Taxonomia**: um tipo de registro que captura atributos sobre um tipo de registro operacional.
-
-     ![](assets/taxonomy-record-type-blank.png)
-
-     Embora a criação de taxonomias seja idêntica à criação de tipos de registros operacionais, os recursos de planejamento distinguem entre um tipo de registro operacional e um tipo de registro de taxonomia. O objetivo das taxonomias é aprimorar os tipos de registros operacionais. <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.-->
-
-     Por exemplo, Público, Região ou Endereço podem ser tipos de registro do tipo taxonomia.
-
-     Para obter mais informações, consulte [Criar tipos de registro de taxonomia](../maestro/architecture/create-a-taxonomy.md).
-
-* **Gravar**: uma instância de um tipo de registro de recurso de planejamento. Um registro pode se referir a um tipo de registro operacional ou a uma taxonomia.
+* **Gravar**: uma instância de um tipo de registro.
 
   ![](assets/records-highlighted-in-campaign-record-type-list.png)
-  ![](assets/records-highlighted-in-region-taxonomy-type-list.png)
 
   Depois de adicionar um tipo de registro a um espaço de trabalho, você pode começar a adicionar registros desse tipo na página do tipo de registro.
 
-  Por exemplo, &quot;Campanha&quot; pode ser um tipo de registro operacional e &quot;Campanha de verão para EMEA&quot; é um registro do tipo de registro Campanha
-
-  Ou
-
-  &quot;Região&quot; é um tipo de registro do tipo taxonomia, enquanto &quot;Américas-América Latina&quot; ou &quot;EMEA - Europa Central&quot; são registros taxonomia.
+  Por exemplo, &quot;Campanha&quot; pode ser um tipo de registro e &quot;Campanha de verão para EMEA&quot; é um registro do tipo de registro Campanha
 
   Para obter mais informações, consulte [Criar registros](../maestro/records/create-records.md).
 
-* **Modelo do Workspace**: é possível criar um espaço de trabalho usando modelos predefinidos. Você pode usar os tipos de registro, taxonomias e campos predefinidos incluídos em um modelo ou pode adicionar os seus próprios.
+* **Modelo do Workspace**: é possível criar um espaço de trabalho usando modelos predefinidos. Você pode usar os tipos de registro e campos predefinidos incluídos em um modelo ou pode adicionar os seus próprios.
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Os recursos de planejamento do Adobe Workfront vêm com um modelo de espaço de trabalho de Vendas, Marketing e Gerenciamento de Produtos.
+  O Adobe Workfront Planning vem com um modelo de espaço de trabalho de Vendas, Marketing e Gerenciamento de Produtos.
 
   Para obter mais informações, consulte [Criar espaços de trabalho](../maestro/architecture/create-workspaces.md).
 
-* **Campos**: Campos são atributos que podem ser adicionados a tipos de registro operacionais ou de taxonomia que contêm informações sobre o tipo de registro. <!--check the shot below, "Connection" needs to be in lowercase-->
+* **Campos**: campos são atributos que podem ser adicionados a tipos de registro. Os campos contêm informações sobre o tipo de registro. <!--check the shot below, "Connection" needs to be in lowercase-->
 
   ![](assets/drop-down-list-of-record-fields.png)
 
-  Considerações sobre campos de recurso de planejamento:
+  Considerações sobre campos de registro:
 
    * Os campos adicionados para um tipo de registro tornam-se automaticamente associados a todos os registros desse tipo e podem ser usados para capturar dados sobre esses registros.
 
@@ -180,19 +154,17 @@ A seguir estão os principais objetos e conceitos dos recursos de planejamento:
 
    * Os campos são exclusivos de um tipo de registro e não são transferidos de um tipo de registro para outro.
 
-   * Os campos de recurso de planejamento são totalmente personalizáveis e podem ser acessados apenas nos recursos de planejamento. Não é possível acessar os campos de recurso de planejamento no Workfront.
+   * Os campos são totalmente personalizáveis e podem ser acessados somente no Workfront Planning. Não é possível acessar os campos do Workfront Planning no Workfront.
 
   Para obter mais informações, consulte [Criar campos](../maestro/fields/create-fields.md).
 
-  Por padrão, um novo tipo de registro operacional está associado aos seguintes campos predefinidos:
+  Por padrão, um novo tipo de registro é associado aos seguintes campos predefinidos:
 
    * Nome
    * Descrição
    * Data de início
    * Data Final
    * Status
-
-  Por padrão, um novo tipo de registro de taxonomia é associado a um campo Nome.
 
   Você pode criar campos personalizados dos seguintes tipos:
 
@@ -212,11 +184,11 @@ A seguir estão os principais objetos e conceitos dos recursos de planejamento:
    * Modificado pela última vez por
    * Data da última modificação
 
-* **Tipos de registro vinculados**, **Registros vinculados**, e **Campos de registro vinculados**: Você pode criar uma conexão entre as seguintes entidades:
+* **Tipos de registro vinculados**, **Registros vinculados**, e **Campos de registro vinculados**: Você pode criar uma conexão entre as seguintes entidades no Workfront Planning:
 
-   * Dois tipos de registro de capacidade de planejamento.
-   * Um tipo de registro de recurso de planejamento e um tipo de objeto de projeto, programa, portfólio, empresa ou grupo do Workfront.
-   * Um tipo de registro de recurso de planejamento e um ativo ou pasta da Adobe Experience Manager.
+   * Dois tipos de registro.
+   * Um tipo de registro e um tipo de objeto de projeto, programa, portfólio, empresa ou grupo do Workfront.
+   * Um tipo de registro e um ativo ou pasta da Adobe Experience Manager.
 
      Você deve ter uma licença da Adobe Experience Manager para vincular tipos de registro a objetos Experience Manager.
 
@@ -227,7 +199,7 @@ A seguir estão os principais objetos e conceitos dos recursos de planejamento:
 
 * **Campos vinculados** (ou campos de pesquisa): depois de estabelecer a conexão entre dois tipos de registro e vincular registros individuais, é possível fazer referência aos campos dos registros vinculados no registro do qual você está se conectando.
 
-  Por exemplo, se você conectar uma campanha de recurso de planejamento a um projeto do Workfront, poderá exibir o campo Proprietário do projeto dos projetos conectados nos registros da campanha de recurso de planejamento.
+  Por exemplo, se você conectar um tipo de registro de Campanha a um tipo de objeto Projeto do Workfront, será possível exibir o campo Proprietário do projeto dos projetos conectados nos registros de campanha.
 
   ![](assets/add-lookup-fields-modal.png)
 
@@ -261,14 +233,14 @@ A seguir estão os principais objetos e conceitos dos recursos de planejamento:
 Para obter mais informações, consulte [Gerenciar exibições de registro](../maestro/views/manage-record-views.md).
 
 
-## Limitações de objetos dos recursos de planejamento do Adobe Workfront
+## Limitações do objeto de planejamento do Adobe Workfront
 
-A tabela a seguir mostra os limites para quantos objetos você pode criar nos recursos de planejamento. As limitações estão sujeitas a mudanças conforme avançamos para as próximas fases do desenvolvimento.
+A tabela a seguir mostra os limites para quantos objetos você pode criar no Workfront Planning. As limitações estão sujeitas a mudanças conforme avançamos para as próximas fases do desenvolvimento.
 
-| objeto de recursos de planejamento do Adobe Workfront | Limite |
+| objeto de planejamento do Adobe Workfront | Limite |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Número de espaços de trabalho para uma instância do Workfront | 1.000 |
-| Número de Tipos de Registro para um espaço de trabalho | 1.000 (isso inclui taxonomias para o espaço de trabalho ou objetos que você importa de outros aplicativos) |
+| Número de Tipos de Registro para um espaço de trabalho | 1.000 (isso inclui tipos de registro de todas as seções e aqueles que são criados ao usar um modelo de espaço de trabalho) |
 | Número de registros de um tipo de registro | 50.000 |
 | Número de campos para um tipo de registro ou taxonomia | 500 |
 | Número de caracteres de um campo de texto | 1.000 caracteres |
@@ -279,20 +251,20 @@ A tabela a seguir mostra os limites para quantos objetos você pode criar nos re
 
 >[!IMPORTANT]
 >
->*Esta funcionalidade foi temporariamente desabilitada e estará disponível em uma data posterior
+>*Esta funcionalidade foi temporariamente desabilitada e estará disponível em uma data posterior.
 
 
-## Localizar recursos de planejamento do Adobe Workfront
+## Localizar o planejamento do Adobe Workfront
 
-Certifique-se de que sua organização tenha recebido acesso aos recursos de planejamento e que o administrador do sistema ou do grupo tenha adicionado a área de recursos de planejamento ao menu principal. Para obter informações, consulte [Visão geral do Access](/help/quicksilver/maestro/access/access-overview.md).
+Certifique-se de que sua organização tenha recebido acesso ao Workfront Planning e que o administrador do sistema ou do grupo tenha adicionado a área do Planning ao Menu Principal. Para obter informações, consulte [Visão geral do Access](/help/quicksilver/maestro/access/access-overview.md).
 
-Para localizar os recursos de planejamento:
+Para localizar o Workfront Planning:
 
 1. Faça logon no Adobe Workfront.
 
 1. Clique em **Menu principal** ![](assets/main-menu-workfront.png) no canto superior direito ou clique no botão **Menu principal** ![](assets/main-menu-shell.png) no canto superior esquerdo, se estiver disponível.
 
-1. Clique em **Maestro** ![](assets/maestro-icon.png).
+1. Clique em **Planejamento** ![](assets/maestro-icon.png).
 
    A área Espaços de trabalho é aberta.
 
@@ -300,11 +272,11 @@ Para localizar os recursos de planejamento:
 
    1. Crie um espaço de trabalho do zero ou usando um modelo.
 
+   1. Adicione seções ao novo espaço de trabalho.
+   1. Renomeie as seções existentes no novo espaço de trabalho.
    1. Adicione tipos de registro ao novo espaço de trabalho.
 
-   1. Adicione taxonomias aos novos espaços de trabalho.
-
-   1. Clique no nome de um tipo de registro para abrir a página do registro. Por padrão, a página de registro é aberta na exibição Tabela.
+   1. Clique no nome de um tipo de registro para abrir a página do tipo de registro. Por padrão, a página de tipo de registro é aberta na exibição Tabela.
 
       Você também pode criar uma exibição de Linha do tempo ou Calendário.
 
@@ -314,7 +286,9 @@ Para localizar os recursos de planejamento:
 
       Comece a adicionar campos de registro adicionando colunas.
 
-## Atividade de lançamento dos recursos de planejamento do Adobe Workfront
+## Atividade de versão do Adobe Workfront planning
 
-Estamos lançando novos recursos regularmente para os recursos de planejamento. Para obter uma lista atualizada dos recursos lançados, consulte [Atividade de lançamento dos recursos de planejamento do Adobe Workfront](../maestro/release-activity.md).
+Estamos lançando novos recursos regularmente no planejamento do Workfront.
+
+Para obter uma lista atualizada dos recursos lançados, consulte [Atividade de versão do Adobe Workfront planning](../maestro/release-activity.md).
 

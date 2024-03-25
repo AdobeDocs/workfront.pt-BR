@@ -1,25 +1,25 @@
 ---
 title: Compartilhar espaços de trabalho
-description: Você pode compartilhar um espaço de trabalho com outras pessoas para garantir a colaboração ao trabalhar nos recursos de planejamento do Adobe Workfront.
+description: Você pode compartilhar um espaço de trabalho com outras pessoas para garantir a colaboração ao trabalhar no planejamento do Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '414'
 ht-degree: 2%
 
 ---
 
 
-<!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
+<!--update the metadata and description when we turn this article live; also, update title after Bob adds Planning as a product ??-->
 
 # Compartilhar espaços de trabalho
 
 {{maestro-important-intro}}
 
-Você pode compartilhar um espaço de trabalho com outras pessoas para garantir a colaboração ao trabalhar nos recursos de planejamento do Adobe Workfront.
+Você pode compartilhar um espaço de trabalho com outras pessoas para garantir a colaboração ao trabalhar no planejamento do Adobe Workfront.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta fechado de recursos de planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta fechado de planejamento da Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -65,7 +65,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Configurações de nível de acesso</p></td>
-   <td> Não há controles de acesso para os recursos de planejamento do Adobe Workfront</p>  
+   <td> Não há controles de acesso para o planejamento do Adobe Workfront</p>  
 </td>
   </tr>
 
@@ -77,7 +77,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclui a área Maestro no menu principal. </p> <p>Para obter informações, consulte <a href="/help/quicksilver/maestro/access/access-overview.md">Visão geral do Access</a>. </p> 
+   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal. </p> <p>Para obter informações, consulte <a href="/help/quicksilver/maestro/access/access-overview.md">Visão geral do Access</a>. </p> 
 </td>
   </tr>
  </tbody>
@@ -107,7 +107,7 @@ Para compartilhar um espaço de trabalho com outras pessoas:
    * Contribuir
    * Gerenciar
 
-     Para obter informações sobre níveis de permissão e quais ações os usuários podem executar para cada nível, consulte [Visão geral das permissões de compartilhamento nos recursos de planejamento do Adobe Workfront](../access/sharing-permissions-overview.md).
+     Para obter informações sobre níveis de permissão e quais ações os usuários podem executar para cada nível, consulte [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](../access/sharing-permissions-overview.md).
 1. Clique em **Copiar link** para copiar um link para o espaço de trabalho para a área de transferência.
 1. Compartilhar o link copiado com outras pessoas. Os usuários que recebem o link devem ser usuários ativos e fazer logon no Workfront para acessar o espaço de trabalho.
 1. Clique em **Salvar**.

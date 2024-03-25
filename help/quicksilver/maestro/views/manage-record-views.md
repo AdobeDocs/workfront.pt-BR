@@ -1,13 +1,13 @@
 ---
 title: Gerenciar exibições de registro
-description: Você pode exibir registros em uma exibição de tabela, linha do tempo ou calendário ao usar os recursos do Adobe Workfront Planning.
+description: Você pode exibir registros em uma exibição de tabela, linha do tempo ou calendário ao usar o Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-Depois de selecionar um tipo de registro na área de recursos do Adobe Workfront Planning, você poderá exibir todos os registros desse tipo nas seguintes views:
+Depois de selecionar um tipo de registro na área de planejamento do Adobe Workfront, você pode exibir todos os registros desse tipo nas seguintes exibições:
 
 * Tabela
 
@@ -51,7 +51,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta fechado de recursos de planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta fechado de planejamento da Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader">Configuração do nível de acesso</td>
-   <td> <p>Não há controles de nível de acesso para recursos de planejamento do Workfront</p>  
+   <td> <p>Não há controles de nível de acesso para o planejamento do Workfront</p>  
 </td>
   </tr>
 
@@ -81,7 +81,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader">Modelo de layout</td>
-   <td> <p>O administrador do sistema deve adicionar a área Maestro no modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td> <p>O administrador do sistema deve adicionar a área Planejamento ao modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -89,9 +89,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Considerações ao trabalhar com visualizações de registro
 
-* As exibições na área de recursos de planejamento do Workfront são específicas ao tipo de registro. Não é possível aplicar a mesma exibição a dois tipos de registro diferentes.
+* As exibições no planejamento do Workfront são específicas do tipo de registro. Não é possível aplicar a mesma exibição a dois tipos de registro diferentes.
 * As exibições criadas estão visíveis somente para você e os usuários com os quais você compartilha as exibições.
-* A criação de exibições para tipos de registro operacional é idêntica à criação de exibições para tipos de registro de taxonomia.
 * Quando você modifica ou exclui uma exibição, ela é modificada e excluída para todos os usuários que têm permissões para a exibição.
 * Os seguintes elementos são exclusivos para cada exibição de registro:
 
@@ -101,19 +100,19 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
   <!-- some of these are not available in all of the views - edit above-->
 
-  Por exemplo, ao criar um filtro em uma exibição de tabela, os resultados do filtro ficam visíveis somente na exibição selecionada e não em todas as exibições listadas no menu suspenso Exibir.
+  Por exemplo, ao criar um filtro em uma exibição de tabela, os resultados do filtro ficam visíveis somente na exibição selecionada e não em todas as exibições associadas ao tipo de registro.
 
   >[!NOTE]
   >
-  > Como os recursos de planejamento do Adobe Workfront estão atualmente em um estado beta, alguns elementos de exibição podem não estar disponíveis para todas as exibições.
+  > Como o planejamento do Adobe Workfront está atualmente em um estado beta, alguns elementos de exibição podem não estar disponíveis para todas as exibições.
 
 Este artigo descreve as seguintes informações sobre visualizações de registro:
 
 * [Criar e editar uma visualização](#create-or-edit-record-views)
 * [Excluir um modo de exibição](#delete-views)
-  <!--* [Duplicate a view](#duplicate-views)-->
-  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+* [Duplicar uma visualização](#duplicate-views)
 * [Compartilhar uma exibição](#share-a-view)
+  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 ## Semelhanças e diferenças entre visualizações de registro
 
@@ -233,20 +232,30 @@ Para obter informações sobre o compartilhamento de exibições, consulte [Comp
 
 <!--## Add a view as a favorite - this is not possible yet-->
 
-<!--not possible yet - August 30, 2023: 
+<!--not possible yet - August 30, 2023: -->
 
-## Duplicate views
+## Duplicar uma visualização
 
-If you want to keep multiple versions of a view and make slight changes between the version, you can duplicate a view. Duplicating a view creates identical copies of an existing view. 
+Se quiser manter várias versões de uma exibição e fazer pequenas alterações entre as versões, você poderá duplicar uma exibição.
 
-1. From the **Main Menu**, click **Maestro**. 
-    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
-1. Click a record type. For information about creating a record type, see [Create record types](../architecture/create-record-types.md). 
+A duplicação de uma exibição cria cópias idênticas de uma exibição existente.
 
-    By default, all the records of the type selected display in the table view. 
+As permissões de compartilhamento da exibição original não são transferidas para a exibição duplicada.
 
-1. Click the view drop-down menu, then click the **More** menu ![](assets/more-menu.png) to the right of the view name > **Duplicate**. (**********ensure there is not another saving step here?! also, add how this view is named; the button to duplicate was there but not the functionality yet************)
-    
-    The view is duplicated and visible to all users who can access the Maestro area. 
+{{step1-to-maestro}}
 
--->
+O espaço de trabalho acessado pela última vez é aberto por padrão.
+
+Para obter informações sobre como criar espaços de trabalho, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
+
+1. Clique em um cartão de tipo de registro. Para obter informações sobre como criar um tipo de registro, consulte [Criar tipos de registro](../architecture/create-record-types.md).
+
+   Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
+
+1. Passe o mouse sobre a guia da exibição que deseja duplicar e clique no ícone **Mais** menu ![](assets/more-menu.png) à direita do nome da exibição, clique em **Duplicar**.
+
+   ![](assets/view-more-menu-with-duplicate-option.png)
+
+
+   A visualização é duplicada e o nome da nova visualização segue o seguinte padrão: `Original view's name (Copy)`. A nova guia de exibição é exibida no final de todas as guias de exibição.
+

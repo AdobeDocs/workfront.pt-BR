@@ -1,13 +1,13 @@
 ---
 title: Criar campos
-description: No Adobe Maestri, você pode criar campos personalizados para cada tipo de tipo de registro operacional ou taxonomia. Você pode então associar o campo com registros Maestro.
+description: No Adobe Workfront Planning, é possível criar campos personalizados para cada tipo de registro. Em seguida, você pode associar o campo aos registros de planejamento do Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '3341'
+source-wordcount: '3338'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-No Adobe Maestri, você pode criar campos personalizados para tipos de registros operacionais ou taxonomias. Você pode associar os campos aos registros do Maestro para aprimorar as informações dos registros.
+No Adobe Workfront Planning, é possível criar campos personalizados para tipos de registro. Em seguida, você pode associar os campos aos registros de planejamento do Workfront para aprimorar as informações de registro.
 
 Você deve criar tipos de registro antes de criar campos para associar a eles. Para obter informações, consulte [Criar tipos de registro](../architecture/create-record-types.md).
 
@@ -68,7 +68,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta fechado do Adobe Maestro. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta de planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Configurações de nível de acesso</p></td>
-   <td> <p>Não há controle de nível de acesso para o Maestro</p>  
+   <td> <p>Não há controle de nível de acesso para o planejamento do Workfront</p>  
 </td>
   </tr>
 
@@ -98,7 +98,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área Maestri no modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
 </td>
   </tr>
 
@@ -373,13 +373,13 @@ Para obter mais informações, consulte [Visão geral dos campos de fórmula](/h
 
    Para obter mais informações sobre quais expressões são compatíveis, consulte [Visão geral dos campos de fórmula](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. Adicione nomes de campos conforme eles são exibidos na interface do Maestro para referenciá-los em uma fórmula.
+1. Adicione nomes de campo conforme eles são exibidos na interface do Workfront Planning para referenciá-los em uma fórmula.
 
    >[!NOTE]
    >
    > * Não é possível adicionar campos do tipo Seleção múltipla em uma fórmula.
    >
-   > * Não é possível adicionar campos de registros vinculados em uma fórmula. Essa funcionalidade será lançada posteriormente. Para obter mais informações sobre novos lançamentos, consulte [Atividade de lançamento dos recursos de planejamento do Adobe Workfront](/help/quicksilver/maestro/release-activity.md).
+   > * Não é possível adicionar campos de registros vinculados em uma fórmula. Essa funcionalidade será lançada posteriormente. Para obter mais informações sobre novos lançamentos, consulte [Atividade de versão do Adobe Workfront planning](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Clique em **Criar**.
@@ -513,7 +513,7 @@ Você pode usar o tipo de campo Data da última modificação para adicionar a d
 
 Você pode criar campos de registro vinculados ao adicionar uma nova conexão entre dois tipos de registro Maestri ou um tipo de registro e tipos de objeto de outras aplicações.
 
-Para obter informações sobre como conectar tipos de registros Maestri, consulte [Conectar tipos de registro](../architecture/connect-record-types.md)
+Para obter informações sobre como conectar tipos de registro do Workfront planning, consulte [Conectar tipos de registro](../architecture/connect-record-types.md)
 
 ## Criar campos importando tipos de registro usando um arquivo Excel e CSV
 
@@ -521,10 +521,10 @@ Para obter mais informações, consulte [Criar tipos de registro](../architectur
 
 ## Criar campos criando um tipo de registro
 
-Ao criar um tipo de registro, vários campos associados ao novo tipo de registro também são criados por padrão. Para obter mais informações, consulte [Criar tipos de registro operacional](../architecture/create-record-types.md).
+Ao criar um tipo de registro, vários campos associados ao novo tipo de registro também são criados por padrão. Para obter mais informações, consulte [Criar tipos de registro](../architecture/create-record-types.md).
 
 ## Criar campos criando um espaço de trabalho a partir de um modelo
 
-O Maestri cria campos para tipos de registros operacionais e taxonomias quando você cria um espaço de trabalho a partir de um modelo.
+O Adobe Workfront planning cria campos para tipos de registro quando você cria um espaço de trabalho a partir de um modelo.
 
-Para obter informações, consulte [Criar espaços de trabalho operacionais](../architecture/create-workspaces.md).
+Para obter informações, consulte [Criar espaços de trabalho](/help/quicksilver/maestro/architecture/create-workspaces.md).

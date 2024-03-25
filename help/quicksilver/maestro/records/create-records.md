@@ -1,13 +1,13 @@
 ---
 title: Criar registros
-description: Ao usar os recursos de planejamento do Adobe Workfront, um registro é uma instância de um tipo de registro. Você deve criar tipos de registro antes de criar registros individuais. Criar registros de taxonomia é idêntico à criação de registros operacionais.
+description: Ao usar o planejamento do Adobe Workfront, um registro é uma instância de um tipo de registro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,11 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Nos recursos de planejamento do Adobe Workfront, um registro é uma instância de um tipo de registro.
-
-Você pode ter os seguintes tipos de registros:
-
-* **Registros operacionais**: elas representam objetos relacionados ao trabalho. Por exemplo, para um registro operacional chamado &quot;Campanha&quot;, é possível nomear registros como &quot;Informativo mensal&quot; ou &quot;Vendas de verão&quot;.
-* **Registros de taxonomia**: eles representam atributos que podem ser associados a registros operacionais. Por exemplo, para um tipo de registro de taxonomia chamado &quot;Canal&quot;, é possível nomear taxonomias como &quot;Email&quot;, &quot;Mídia social&quot; ou &quot;Publicidade&quot;.
-
-A criação de registros operacionais é idêntica à criação de registros de taxonomia.
+No Adobe Workfront Planning, um registro é uma instância de um tipo de registro.
 
 Você pode criar registros seguindo um destes procedimentos:
 
 * Criá-los manualmente para tipos de registro
-  <!-- not possible anymore: * Connect them to records from other applications-->
 * Criar registros copiando e colando informações de uma lista externa.
 
 Este artigo descreve como criar registros. Para obter informações sobre o gerenciamento de registros nas exibições de tabela ou linha do tempo, consulte os seguintes artigos:
@@ -57,7 +49,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta fechado de recursos de planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta de planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -75,7 +67,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Configurações de nível de acesso</p></td>
-   <td> <p>Não há controles de acesso para os recursos de planejamento do Adobe Workfront </p>  
+   <td> <p>Não há controles de acesso para o planejamento do Adobe Workfront </p>  
 </td>
   </tr>
 <tr>
@@ -86,7 +78,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área Maestri no modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
 </td>
   </tr>
 
@@ -196,7 +188,7 @@ You can import records from other applications by linking them to existing recor
 
 1. Em outro aplicativo, selecione várias linhas e colunas e cole as informações na exibição de tabela do tipo de registro, começando com o primeiro novo registro.
 
-   As informações a seguir são importadas na área de recursos do Workfront Planning:
+   As seguintes informações são importadas na área de planejamento do Workfront:
 
    * As linhas contêm os novos registros
    * As colunas preenchem informações para os campos dos registros.

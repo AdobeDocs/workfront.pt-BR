@@ -1,35 +1,27 @@
 ---
-title: Criar tipos de registro operacional
+title: Criar tipos de registro
 description: Os tipos de registro são os tipos de objeto do Adobe Workfront Planning. No Workfront Planning, você pode criar tipos de registro personalizados que ilustrem os itens de trabalho necessários no ciclo de vida da sua organização.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1245'
 ht-degree: 0%
 
 ---
 
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
-# Criar tipos de registro operacional
+# Criar tipos de registro
 
 {{maestro-important-intro}}
 
 Os tipos de registro são os tipos de objeto do Adobe Workfront Planning. No Workfront Planning, você pode criar tipos de registro personalizados que ilustrem os itens relacionados ao trabalho necessários no ciclo de vida da organização.
-
 Os tipos de registro podem ser um dos seguintes:
 
-* **Tipos de registro operacional**
-* **Taxonomias**
-
-Para obter mais informações sobre tipos de registros, consulte [Visão geral dos tipos de registro e taxonomias](../architecture/overview-of-record-types-and-taxonomies.md).
-
-A criação de tipos de registros operacionais é semelhante à criação de tipos de registros de taxonomia. Este artigo descreve como criar tipos de registros operacionais.
-
-Para obter informações sobre como criar taxonomias, consulte [Criar tipos de registro de taxonomia](../architecture/create-a-taxonomy.md).
+Para obter mais informações sobre tipos de registros, consulte [Visão geral dos tipos de registro](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## Requisitos de acesso
 
@@ -75,7 +67,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área Maestri no modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -87,7 +79,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -106,22 +98,34 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
       * Ao criar um espaço de trabalho usando um modelo.
 
         Para obter informações, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
-      * Ao importá-los usando um arquivo Excel ou CSV. Isso não está disponível para tipos de registro de taxonomia.
+
+      * Ao importá-los usando um arquivo Excel ou CSV.
 
         >[!IMPORTANT]
         >
         >Essa funcionalidade está temporariamente desativada desde 21 de março de 2024. Ela será ativada posteriormente.
 
-     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
-        For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
+        For information about connecting objects with records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * Manualmente:
 
       * Do zero.
 
+        Este artigo descreve como criar tipos de registro genéricos do zero em um espaço de trabalho criado do zero.
+
+* Você pode mover tipos de registro em uma seção e de uma seção de um espaço de trabalho para outra. Não é possível mover tipos de registro de um espaço de trabalho para outro.
+
 ## Criar tipos de registro usando um modelo de espaço de trabalho
 
-Você pode criar tipos de registro automaticamente ao criar um espaço de trabalho usando um modelo de planejamento do Workfront. Cada modelo contém exemplos de tipos de registros operacionais e de taxonomia.
+Você pode criar tipos de registro automaticamente ao criar um espaço de trabalho usando um modelo de planejamento do Workfront. Cada modelo contém tipos de registro de amostra.
+
+Ao criar um espaço de trabalho a partir de um modelo, os tipos de registro são agrupados nas seguintes seções:
+
+* Tipos de registro operacional
+* Taxonomias
+
+Você pode adicionar tipos de registro manualmente nas seções Tipos de Registro Operacionais e Taxonomias.
 
 Para obter informações sobre como criar espaços de trabalho, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
 
@@ -129,9 +133,7 @@ Para obter informações sobre quais tipos de registro são incluídos em cada m
 
 ## Criar um tipo de registro do zero
 
-Este artigo descreve como criar tipos de registros operacionais do zero. A criação de tipos de registros operacionais do zero é semelhante à criação de taxonomias.
-
-Para obter mais informações sobre taxonomias, consulte [Criar uma taxonomia](../architecture/create-a-taxonomy.md).
+Este artigo descreve como criar tipos de registro do zero.
 
 {{step1-to-maestro}}
 
@@ -139,7 +141,7 @@ O espaço de trabalho acessado por último deve ser aberto por padrão.
 
 1. (Opcional) Expanda a seta apontando para baixo à direita de um nome de espaço de trabalho existente e selecione o espaço de trabalho para o qual deseja criar tipos de registro.
 1. Clique em **Adicionar tipo de registro**.
-1. (Condicional) Se você estiver criando um tipo de registro operacional, clique em **Do zero**. Essa opção não está disponível ao criar taxonomias.
+1. (Condicional) Se você estiver criando um tipo de registro operacional, clique em **Do zero**.
 
    A caixa Adicionar tipo de registro é aberta.
 
@@ -165,14 +167,12 @@ O número de campos que o tipo de registro contém é exibido no cartão.
    Por padrão, os seguintes campos são exibidos nas colunas de exibição de tabela de um tipo de registro operacional:
 
    * Nome
-
-     O campo Nome é o único campo criado automaticamente para taxonomias.
    * Descrição
    * Data de início
    * Data Final
    * Status
 
-1. (Opcional) Atualizar o nome do tipo de registro no cabeçalho da página
+1. (Opcional) Atualize o nome do tipo de registro no cabeçalho da página
 
    Ou
 
@@ -195,6 +195,10 @@ O número de campos que o tipo de registro contém é exibido no cartão.
    * [Excluir tipos de registro](../architecture/delete-record-types.md)
    * [Editar tipos de registro](../architecture/edit-record-types.md)
    * [Gerenciar exibições de registro](../views/manage-record-views.md)
+
+1. (Opcional) No espaço de trabalho, clique em para arrastar e soltar um tipo de registro em um ponto desejado ou em para movê-lo para outra seção.
+
+   As alterações são salvas automaticamente, depois que você solta o cartão de tipo de registro selecionado.
 
 ## Criar tipos de registro importando um arquivo Excel ou CSV
 
@@ -223,12 +227,7 @@ O espaço de trabalho acessado por último deve ser aberto por padrão.
 
 1. (Opcional) Expanda a seta apontando para baixo à direita de um nome de espaço de trabalho existente e selecione o espaço de trabalho para o qual deseja criar tipos de registro.
 1. Clique em **Adicionar tipo de registro**.
-1. (Condicional) Se você estiver criando um tipo de registro operacional, clique em **Excel/CSV**.
-
-   >[!NOTE]
-   >
-   >    Essa opção não está disponível ao criar tipos de registro de taxonomia.
-
+1. Clique em **Excel/CSV**.
 1. Arraste e solte um arquivo Excel ou CSV salvo anteriormente no computador ou clique em **Selecione um arquivo CSV ou do Excel** para procurar um.
 1. Clique em **Revise seus dados**.
 
@@ -267,9 +266,9 @@ O espaço de trabalho acessado por último deve ser aberto por padrão.
 
 <!--## Connect record types with object types from another application
 
-You can connect a Maestro record type and an object type from another application. This creates a read-only record type in Maestro that corresponds to the object type in the other application. 
+You can connect a record type and an object type from another application. This creates a read-only record type in Workfront planning that corresponds to the object type in the other application. 
 
-For example, you can create record types by connecting Maestro record types with Workfront projects. As a result, the Workfront project object type is imported into Maestro as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+For example, you can create record types by connecting Workfront planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
     
 You can import the following objects from the following applications: 
 

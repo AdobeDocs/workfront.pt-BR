@@ -1,81 +1,87 @@
 ---
-title: Visão geral dos tipos de registro e taxonomias
-description: Os tipos de registros são os blocos de construção de um espaço de trabalho Maestro.
+title: Visão geral dos tipos de registro
+description: Os tipos de registro são os blocos de construção de um espaço de trabalho de planejamento do Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Visão geral dos tipos de registro e taxonomias
+# Visão geral dos tipos de registro
 
 {{maestro-important-intro}}
 
-Ao contrário do Workfront, onde os tipos de objetos são predefinidos, no Adobe Maestro, você pode criar seus próprios tipos de objetos. Por exemplo, no Workfront, os tipos de objeto de Programa, Portfolio, Projeto, Tarefa ou Problema já foram criados.
+Diferentemente do Workfront, onde os tipos de objeto são predefinidos, no Adobe Workfront Planning você pode criar seus próprios tipos de objeto. Por exemplo, no Workfront, os tipos de objeto de Programa, Portfolio, Projeto, Tarefa ou Problema já foram criados.
 
-Os tipos de objetos maestro são chamados de &quot;tipos de registros&quot;. Os tipos de registros são os blocos de construção de um espaço de trabalho Maestro. Para obter informações sobre espaços de trabalho, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
+Os tipos de objeto de planejamento do Workfront são chamados de &quot;tipos de registro&quot; e você pode criar e personalizar todos eles. Os tipos de registro são os blocos de construção de um espaço de trabalho de planejamento do Workfront. Para obter informações sobre espaços de trabalho, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
 
 ## Visão geral do tipo de registro
 
-No Maestro, você pode criar tipos de registros personalizados que atendam às necessidades da sua organização.
+No Workfront Planning, você pode criar tipos de registros personalizados que atendam às necessidades da sua organização.
 
-* A seguir estão os tipos de registros Maestri:
+* Quando você cria um espaço de trabalho a partir de um gabarito, os tipos de registro são criados nas seguintes seções do espaço de trabalho:
 
-   * [Tipo de Registro Operacional](#operational-record-type): um tipo de registro que representa planos estratégicos, iniciativas ou trabalho planejado. Por exemplo, Campanha, Atividade, Tática e Oportunidade podem ser tipos de registro operacional.
-   * [Taxonomia](#taxonomy): Tipos de registro que capturam atributos sobre um tipo de registro operacional. Por exemplo, Região, Endereço, Público-alvo podem ser taxonomias.
+   * [Tipos de Registro Operacional](#operational-record-type): um tipo de registro que representa planos estratégicos, iniciativas ou trabalho planejado. Por exemplo, Campanha, Atividade, Tática e Oportunidade podem ser tipos de registro operacional.
+   * [Taxonomias](#taxonomy): Tipos de registro que capturam atributos sobre um tipo de registro operacional. Por exemplo, Região, Endereço, Público-alvo podem ser taxonomias.
 
+* Ao criar um tipo de registro em um espaço de trabalho criado do zero, você pode colocar o tipo de registro em qualquer seção criada no espaço de trabalho.
 * Ao criar um tipo de registro, somente você e aqueles a quem você conceder permissões para acessar o espaço de trabalho poderão exibir o tipo de registro.
 * Você deve criar um espaço de trabalho antes de criar tipos de registro para ele.
-* Você pode ter um total combinado de 1.000 tipos de registros operacionais e taxonomias em um espaço de trabalho. Isso inclui tipos de registro ou taxonomias criadas do zero ou importadas de outros sistemas.
+* Você pode ter um total de 1.000 tipos de registros em um espaço de trabalho, independentemente de quantas seções o espaço de trabalho tenha. Isso inclui os tipos de registro criados do zero ou criados ao usar um modelo.
 
-### Tipo de Registro Operacional{#operational-record-type}
 
-Um tipo de registro operacional é um tipo de registro Maestro que representa objetos relacionados ao trabalho.
+<!--
+
+### Operational Record Type{#operational-record-type}
+
+An operational record type is a Maestro record type that represents work-related objects.  
 
 ![](assets/operational-record-type-blank.png)
 
-Para obter mais informações sobre tipos de registros operacionais, incluindo como criá-los, consulte [Criar tipos de registro](../architecture/create-record-types.md).
+For more information about operational record types including how to create them, see [Create record types](../architecture/create-record-types.md). 
 
-### Taxonomia{#taxonomy}
+### Taxonomy{#taxonomy}
 
-Uma taxonomia é um tipo de registro que captura atributos sobre um tipo de registro operacional.
+A taxonomy is a record type that captures attributes about an operational record type. 
 
 ![](assets/taxonomy-record-type-blank.png)
 
-Para obter mais informações sobre tipos de registros de taxonomia, consulte [Criar uma taxonomia](../architecture/create-a-taxonomy.md).
+For more information about taxonomy record types, see [Create a taxonomy](../architecture/create-a-taxonomy.md). 
 
-Embora a criação de taxonomias seja idêntica à criação de tipos de registros operacionais, Maestri distingue conceitualmente entre um tipo de registro operacional e um tipo de registro de taxonomia. O objetivo das taxonomias é aprimorar os tipos de registros operacionais. As taxonomias não devem representar diretamente objetos de trabalho.  <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.-->
+Although creating taxonomies is identical to creating operational record types, Maestro distinguishes conceptually between an operational record type and a taxonomy record type. The purpose of taxonomies is to enhance operational record types. Taxonomies should not directly represent work objects.  (***********this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.***********) 
 
-<!--mimic what you did above for operational record types to say that we can also import taxonomies from other applications too - this will be possible later; for example Team would be a taxonomy record type, etc -->
+(********mimic what you did above for operational record types to say that we can also import taxonomies from other applications too - this will be possible later; for example Team would be a taxonomy record type, etc*************)
 
-Por exemplo, Público, Região ou Endereço podem ser tipos de registro do tipo taxonomia.
+For example, Audience, Region, or Address can be taxonomy-type record types.  
 
-Para obter mais informações, consulte [Criar uma taxonomia](../architecture/create-a-taxonomy.md).
+For more information, see [Create a taxonomy](../architecture/create-a-taxonomy.md). 
 
-## Semelhanças e diferenças entre tipos de registros operacionais e taxonomias
+## Similarities and differences between operational record types and taxonomies
 
-A tabela a seguir ilustra algumas das semelhanças e diferenças entre os tipos de registros operacionais e taxonomias:
+The following table illustrates some of the similarities and differences between operational record types and taxonomies: 
 
-| Tipo e característica do registro | Tipo de Registro Operacional | Tipo de registro de taxonomia |
+| Record type and characteristic                              | Operational Record Type | Taxonomy Record Type |
 |-------------------------------------------------------------|:-----------------------:|:--------------------:|
-| Eles fazem parte de um espaço de trabalho | ✓ µ | ✓ µ |
-| É possível criá-los automaticamente a partir de um modelo de espaço de trabalho | ✓ µ | ✓ µ |
-| É possível criá-los manualmente, do zero | ✓ µ | ✓ µ |
-| É possível criá-los copiando e colando informações de um arquivo ou lista externa | ✓ µ | ✓ µ |
-| Você pode criar importando um arquivo Excel ou CSV | ✓ µ |                     |
-| Você pode criar tipos de registro somente leitura conectando a tipos de objeto de outros aplicativos | ✓ µ |                     |
-| Eles representam objetos relacionados ao trabalho | ✓ µ |                      |
-| Eles representam atributos sobre objetos relacionados ao trabalho |                         | ✓ µ |
-| É possível criar do zero | ✓ µ | ✓ µ |
-| Você pode criar importando um arquivo Excel ou CSV | ✓ µ |                      |
-| É possível conectar o tipo de registro a um objeto de outro aplicativo | ✓ µ |                      |
-| Você pode se conectar a outros tipos de registros do Maestro | ✓ µ |                    |
-| É possível exibir seus registros associados em uma exibição de tabela | ✓ µ | ✓ µ |
-| É possível exibir seus registros associados em uma exibição de linha do tempo | ✓ µ | ✓ µ |
+| They are part of a workspace                                |            ✓            |           ✓          |
+| You can create them automatically, from a workspace template                    |            ✓            |           ✓          |
+| You can create them manually, from scratch                    |            ✓            |           ✓          |
+| You can create them by copying and pasting information from an external file or list                   |            ✓            |           ✓          |
+| You can create by importing an Excel or CSV file                    |            ✓            |                     |
+| You can create read-only record types by connecting to object types from other applications                    |            ✓            |                     |
+| They represent work-related objects                         |            ✓            |                      |
+| They represent attributes about work-related objects        |                         |           ✓          |
+| You can create from scratch                                 |            ✓            |           ✓          |
+| You can create by importing an Excel or CSV file            |            ✓            |                      |
+| You can connect the record type to an object from another application|            ✓            |                      |
+| You can connect to other Maestro record types               |            ✓            |                    |
+| You can view their associated records in a table view       |            ✓            |           ✓          |
+| You can view their associated records in a timeline view    |            ✓            |           ✓          |
+
+-->

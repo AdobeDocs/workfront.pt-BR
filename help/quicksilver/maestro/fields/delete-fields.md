@@ -1,13 +1,13 @@
 ---
 title: Excluir campos
-description: No Adobe Maestri, você pode excluir campos personalizados que não são mais relevantes.
+description: No Adobe Workfront Planning, é possível excluir campos personalizados que não são mais relevantes.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-No Adobe Maestri, você pode criar campos personalizados para armazenar informações sobre registros.
+No Adobe Workfront Planning, é possível criar campos personalizados para armazenar informações sobre registros.
 
-Para obter informações sobre como criar campos personalizados no Maestro, consulte [Criar campos](../fields/create-fields.md).
+Para obter informações sobre como criar campos personalizados no Workfront Planning, consulte [Criar campos](../fields/create-fields.md).
 
-Você pode excluir campos Maestri que não são mais relevantes.
+É possível excluir campos de planejamento do Workfront que não são mais relevantes.
 
-## Considerações sobre a exclusão de campos Maestri:
+## Considerações sobre a exclusão de campos de planejamento do Workfront:
 
 * É possível excluir um campo somente na exibição de tabela do tipo de registro.
 * Não é possível excluir o campo principal de um registro.
@@ -65,7 +65,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta fechado do Adobe Maestro. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta de planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -83,12 +83,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Configurações de nível de acesso</p></td>
-   <td> <p>Não há controles de nível de acesso para o Maestro</p>  
+   <td> <p>Não há controles de nível de acesso para o planejamento do Workfront</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área Maestri no modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -113,7 +113,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 {{step1-to-maestro}}
 
-Isso abre o último espaço de trabalho acessado no Maestro.
+Isso abre o espaço de trabalho acessado por último no Workfront Planning.
 1. Clique no cartão de um tipo de registro cujos campos você deseja excluir.
 1. (Condicional) Selecione um **Visualização em tabela** do **Exibir** no canto superior direito da página tipo de registro.
 1. Localize o campo que deseja excluir nos cabeçalhos da coluna, passe o mouse sobre o cabeçalho da coluna e clique na seta para baixo após o nome do campo.

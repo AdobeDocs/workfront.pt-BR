@@ -1,13 +1,13 @@
 ---
 title: Editar campos
-description: No Adobe Maestri, você pode editar as configurações de campo para campos já criados.
+description: No Adobe Workfront Planning, é possível editar as configurações de campo para campos já criados.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-É possível editar as configurações de campo para campos já criados.
+É possível editar as configurações de campo para campos já criados no Adobe Workfront Planning.
 
-Para obter informações sobre como criar campos do Adobe Maestri, consulte [Criar campos](../fields/create-fields.md).
+Para obter informações sobre como criar campos de planejamento do Adobe Workfront, consulte [Criar campos](../fields/create-fields.md).
 
-Este artigo descreve como você pode editar as configurações para campos Maestro. Para obter informações sobre a edição de valores de campo para registros Maestro, consulte [Editar registros](/help/quicksilver/maestro/records/edit-records.md).
+Este artigo descreve como editar as configurações dos campos de planejamento do Workfront. Para obter informações sobre edição de valores de campo para registros, consulte [Editar registros](/help/quicksilver/maestro/records/edit-records.md).
 
 ## Considerações sobre a edição de informações de campo
 
@@ -69,7 +69,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta fechado do Adobe Maestro. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta de planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -87,7 +87,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Configuração do nível de acesso</p></td>
-   <td> <p>Não há controles de acesso para o Maestro</p>  
+   <td> <p>Não há controles de acesso para o planejamento do Workfront</p>  
 </td>
   </tr>
 
@@ -99,7 +99,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área Maestri no modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
 </td>
   </tr>
 
@@ -113,14 +113,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Editar campos
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-workfront.png) no canto superior direito do Workfront ou na guia **Menu principal** ícone ![](assets/main-menu-shell.png)  no canto superior esquerdo, se disponível, clique em **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   O espaço de trabalho acessado por último deve ser aberto por padrão.
+    O espaço de trabalho acessado por último deve ser aberto por padrão.
 
 1. (Opcional) Expanda a seta apontando para baixo à direita de um nome de espaço de trabalho existente e selecione o espaço de trabalho para o qual deseja excluir tipos de registro.
 
-   O espaço de trabalho é aberto e os tipos de registro e taxonomias associadas a ele são exibidos.
-1. Clique no cartão do tipo de registro ou na taxonomia cujos campos você deseja editar.
+   O espaço de trabalho é aberto e os tipos de registro associados a ele são exibidos.
+1. Clique no cartão do tipo de registro cujos campos você deseja editar.
 
    Essa ação abre a página do tipo de registro.
 1. (Condicional) Selecione um **Visualização em tabela** do **Exibir** no canto superior direito da página tipo de registro.

@@ -4,22 +4,23 @@ description: É possível editar as informações de um espaço de trabalho exis
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Editar espaços de trabalho
 
 {{maestro-important-intro}}
 
-No Adobe Maestri, os espaços de trabalho são locais centralizados para as equipes planejarem o trabalho.
+No planejamento do Adobe Workfront, os espaços de trabalho são locais centralizados para as equipes planejarem o trabalho.
 
-Um espaço de trabalho é uma coleção de tipos de registros operacionais e taxonomias usadas por uma equipe e representa o ciclo de vida do trabalho da equipe. Você pode personalizar totalmente os espaços de trabalho no Maestro.
+Um espaço de trabalho é uma coleção de tipos de registro usados por uma equipe e representa o ciclo de vida do trabalho da equipe. Você pode personalizar totalmente os espaços de trabalho no Adobe Workfront Planning.
 
 Para obter informações sobre como criar espaços de trabalho, consulte [Criar espaços de trabalho](/help/quicksilver/maestro/architecture/create-workspaces.md).
 
@@ -42,7 +43,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta fechado do Adobe Maestro. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta fechado de planejamento da Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -61,7 +62,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Configuração do nível de acesso</p></td>
-   <td> <p>Não há controles de nível de acesso para o Maestro</p>
+   <td> <p>Não há controles de nível de acesso para o planejamento do Workfront</p>
 </td>
   </tr>
 
@@ -73,7 +74,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>Você deve adicionar a área Maestro ao modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td> <p>Você deve adicionar a área do Planning ao seu modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
 </td>
   </tr>
 
@@ -87,7 +88,7 @@ Para obter mais informações sobre requisitos de acesso, consulte [Requisitos d
 
 {{step1-to-maestro}}
 
-Isso abre a área Espaços de trabalho do Maestro.
+Isso abre a área Espaços de trabalho do Workfront Planning.
 
 1. Clique dentro do nome do espaço de trabalho no cabeçalho do novo espaço de trabalho para renomeá-lo e pressione **Enter**
 
@@ -99,11 +100,7 @@ Isso abre a área Espaços de trabalho do Maestro.
 
    Para obter informações, consulte [Criar tipos de registro](../architecture/create-record-types.md).
 
-1. (Opcional) Clique em **Adicionar taxonomia** para adicionar taxonomias ao espaço de trabalho.
-
-   Para obter informações, consulte [Criar taxonomias](../architecture/create-a-taxonomy.md).
-
-1. (Opcional) Clique no menu suspenso Exibir para editar uma exibição existente ou criar uma.
+1. (Opcional) Clique no nome de uma exibição nas guias de exibição para editar uma exibição existente ou clique em **+ Exibir** para criar uma visualização.
 
    Para obter informações, consulte [Gerenciar exibições de registro](/help/quicksilver/maestro/views/manage-record-views.md).
 

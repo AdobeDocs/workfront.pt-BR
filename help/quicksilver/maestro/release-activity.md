@@ -1,18 +1,18 @@
 ---
-title: Atividade de lançamento dos recursos de planejamento do Adobe Workfront
+title: Atividade de versão do Adobe Workfront planning
 description: Os recursos de planejamento do Adobe Workfront estão disponíveis atualmente para clientes selecionados do Workfront. Leia este artigo com frequência para saber mais sobre os recursos recém-lançados para os recursos de planejamento.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
 workflow-type: tm+mt
-source-wordcount: '5057'
+source-wordcount: '5266'
 ht-degree: 0%
 
 ---
 
-# Atividade de lançamento dos recursos de planejamento do Adobe Workfront
+# Atividade de versão do Adobe Workfront planning
 
 {{maestro-important-intro}}
 
@@ -31,6 +31,46 @@ Os recursos são lançados semanalmente e são listados na ordem de lançamento,
 >[!IMPORTANT]
 >
 >A documentação referenciada nas seções abaixo estará disponível algum tempo depois que os recursos forem lançados para produção.
+
+## Semana de 25 de março de 2024
+
+### Nova organização de tipo de registro flexível para espaços de trabalho
+
+Produção: 25 de março de 2024
+
+Visualização: a ser determinado
+
+Para criar eficiência para você ao configurar espaços de trabalho, modificamos a maneira como você organiza os tipos de registro em um espaço de trabalho. Algumas melhorias incluem:
+
+* Crie até 50 seções de tipos de registro em cada espaço de trabalho. As seções Tipos de Registro Operacionais e Taxonomias existentes permanecem nos espaços de trabalho existentes.
+
+* Personalize totalmente todos os novos espaços de trabalho e suas novas seções para refletir as necessidades dos processos e da organização.
+
+* Mova dinamicamente os tipos de registros em um espaço de trabalho, arrastando-os e soltando-os onde eles precisam estar, inclusive em diferentes seções.
+
+Para obter mais informações, consulte [Criar tipos de registro](/help/quicksilver/maestro/architecture/create-record-types.md).
+
+### Exibições duplicadas
+
+Produção: 25 de março de 2024
+
+Visualização: a ser determinado
+
+Para economizar seu tempo e manter a consistência, agora é possível duplicar uma visualização existente à qual você tem permissões de acesso.
+
+A duplicação de uma exibição cria uma exibição idêntica, usando os mesmos filtros, critérios de classificação e agrupamentos. A duplicação de uma exibição não mantém as permissões da exibição original.
+
+Para obter mais informações, consulte [Gerenciar exibições de registro](/help/quicksilver/maestro/views/manage-record-views.md).
+
+### A área Maestro foi renomeada no Menu Principal para Planejamento
+
+Produção: 28 de março de 2024
+
+Visualização: a ser determinado
+
+Nós renomeamos a área Maestro no Menu Principal para Planejamento.
+
+Para obter uma visão geral do planejamento do Adobe Workfront, consulte [Visão geral do planejamento do Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
 
 ## Semana de 18 de março de 2024
 
@@ -207,7 +247,7 @@ A seguir estão os mais altos níveis de permissões que os usuários podem rece
 
 Para obter informações sobre o novo modelo de licença, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Para obter informações sobre a conexão entre tipo de licença e permissões nos recursos do Planning, consulte [Visão geral do tipo de licença ao usar os recursos de planejamento do Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
+Para obter informações sobre a conexão entre tipo de licença e permissões nos recursos do Planning, consulte [Visão geral do tipo de licença ao usar o Adobe Workfront Planning](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Nova aparência da barra de ferramentas de Rich Text para campos de registro

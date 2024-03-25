@@ -1,13 +1,13 @@
 ---
 title: Lista de modelos do espaço de trabalho
-description: Um espaço de trabalho é uma coleção de tipos de registros operacionais e taxonomias usadas por uma equipe e representa o ciclo de vida do trabalho da equipe. O Maestri vem com um conjunto de modelos para você começar a usar tipos básicos de registros, taxonomias e campos ao criar seu espaço de trabalho.
+description: Um espaço de trabalho é uma coleção de tipos de registro usados por uma equipe e representa o ciclo de vida do trabalho da equipe. O Adobe Workfront Planning vem com um conjunto de modelos para você começar a usar tipos de registro e campos básicos quando estiver criando seu espaço de trabalho.
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -29,17 +29,21 @@ role: User
 
 {{maestro-important-intro}}
 
-Em Adobe Maestri, um espaço de trabalho é uma coleção de tipos de registros operacionais e taxonomias usadas por uma equipe e representa o ciclo de vida do trabalho da equipe.
+No Adobe Workfront Planning, um espaço de trabalho é uma coleção de tipos de registro usados por uma equipe e representa o ciclo de vida do trabalho da equipe.
 
-O Maestri vem com um conjunto de modelos para você começar a usar tipos básicos de registros, taxonomias e campos ao criar seu espaço de trabalho. Para obter informações sobre como criar espaços de trabalho, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
+O Workfront Planning vem com um conjunto de modelos para você começar a usar tipos de registro e campos básicos quando estiver criando seu espaço de trabalho. Para obter informações sobre como criar espaços de trabalho, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
 
-Este artigo descreve os modelos de espaço de trabalho disponíveis no Maestri.
+Este artigo descreve os modelos de espaço de trabalho disponíveis no Adobe Workfront Planning.
 
-## Considerações sobre modelos Maestri
+## Considerações sobre os modelos de planejamento do Adobe Workfront
 
-* Cada modelo vem com um conjunto de tipos de registros operacionais e taxonomias. Para obter informações, consulte [Visão geral dos tipos de registro e taxonomias](../architecture/overview-of-record-types-and-taxonomies.md).
-* Cada tipo de registro operacional e taxonomia vem com um conjunto de campos. Alguns desses campos são conexões com outros tipos de registros Maestro.
-* É possível personalizar qualquer modelo.
+* Cada modelo vem com um conjunto de tipos de registro. Para obter informações, consulte [Visão geral dos tipos de registro](../architecture/overview-of-record-types-and-taxonomies.md).
+* Os tipos de registro em cada modelo são organizados nas seguintes seções:
+
+   * Tipos de registros operacionais
+   * Taxonomias
+* Cada tipo de registro vem com um conjunto de campos. Alguns desses campos são conexões com outros tipos de registro do Workfront planning.
+* É possível personalizar qualquer modelo e adicionar mais tipos de registro e campos aos existentes.
 
 <!-- I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
 
@@ -92,9 +96,9 @@ You must have the following:
 
 -->
 
-## Modelos de espaço de trabalho do mestre
+## modelos do espaço de trabalho do Workfront planning
 
-A seguir estão os modelos de espaço de trabalho no Maestro e o número de campos que eles incluem:
+A seguir estão modelos de espaço de trabalho no Workfront Planning e o número de campos que eles incluem:
 
 * **Gerenciamento de marketing**: é possível gerenciar todas as campanhas de marketing ao usar esse template. O template vem com o seguinte:
 

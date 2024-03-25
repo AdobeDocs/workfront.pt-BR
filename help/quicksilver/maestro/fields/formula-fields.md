@@ -1,16 +1,16 @@
 ---
 title: Visão geral dos campos de fórmula
-description: Em Adobe Maestri, você pode criar campos de fórmula que usam funções e campos existentes para calcular um novo valor personalizado.
+description: No Adobe Workfront Planning, é possível criar campos de fórmula que usam funções e campos existentes para calcular um novo valor personalizado.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 5027d611-916e-492d-9a44-841bdde11c94
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
-
 
 # Visão geral dos campos de fórmula
 
@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Você pode criar campos personalizados no Adobe Maestro fazendo referência a campos existentes e conectando-os por uma fórmula. Você pode fazer isso criando um campo personalizado do tipo Fórmula.
+Você pode criar campos personalizados no Adobe Workfront Planning consultando campos existentes e os conectando por uma fórmula. Você pode fazer isso criando um campo personalizado do tipo Fórmula.
 
 Os campos de fórmula geram um novo valor usando valores existentes de outros campos em um tipo de registro e uma função que indica como os valores existentes devem ser calculados.
 
@@ -56,7 +56,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta fechado do Adobe Maestro. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta de planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -74,7 +74,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Configuração do nível de acesso</p></td>
-   <td> <p>Não há controles de acesso para o Maestro</p>  
+   <td> <p>Não há controles de acesso para o Workfront Planning</p>  
 </td>
   </tr>
 <tr>
@@ -85,7 +85,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área Maestri no modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
 </td>
   </tr>
 
@@ -102,14 +102,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 * Os campos de fórmula fazem referência a campos que pertencem ao mesmo tipo de registro. Não é possível referenciar campos de outros tipos de registro ao criar um campo de fórmula. <!--is this still accurate??-->
 * Não é possível alterar o tipo de campo de um campo Fórmula depois de salvá-lo.
 * É possível atualizar o cálculo de um campo de fórmula depois de salvá-lo, e os resultados do cálculo são atualizados automaticamente para todos os registros do mesmo tipo.
-* Você deve adicionar os campos referenciados nas fórmulas conforme eles são exibidos na interface do Maestro.
+* É necessário adicionar os campos que você menciona nas fórmulas à medida que são exibidos na interface do Workfront Planning.
 * O uso de campos de pesquisa de tipos de registro vinculados em uma fórmula estará disponível em uma data posterior.
 
 ## Fórmulas compatíveis
 
-Os campos de fórmula maestri suportam todas as expressões dos campos calculados do Workfront. Para obter mais informações, consulte [Visão geral das expressões de dados calculadas](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Os campos de fórmula de planejamento do Adobe Workfront suportam todas as expressões dos campos calculados do Workfront. Para obter mais informações, consulte [Visão geral das expressões de dados calculadas](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-Além disso, suportamos as seguintes expressões para campos de fórmula Maestri:
+Além disso, oferecemos suporte às seguintes expressões para campos de fórmula de planejamento do Workfront:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -164,8 +164,3 @@ ou
    </td></tr>
 
 </table>
-
-
-
-
-

@@ -1,14 +1,14 @@
 ---
 title: Criar tipos de registro de taxonomia
-description: Taxonomias são um tipo de registro reutilizável que captura atributos sobre um tipo de registro operacional no Adobe Workfront Maestro.
+description: Quando você usa um modelo para criar um espaço de trabalho, os tipos de registro são criados nas seções Tipos de Registro Operacionais e Taxonomias.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 0%
+source-wordcount: '395'
+ht-degree: 3%
 
 ---
 
@@ -18,11 +18,16 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Os tipos de registro de taxonomia capturam atributos sobre tipos de registro operacional no Adobe Maestro.
+Quando você usa um modelo para criar um espaço de trabalho, os tipos de registro são criados nas seguintes seções:
+
+* Tipos de registros operacionais
+* Taxonomias
+
+Os tipos de registro na seção Taxonomias de um espaço de trabalho capturam atributos sobre tipos de registro na seção Tipos de Registro Operacionais do mesmo espaço de trabalho.
 
 Por exemplo, a campanha pode ser um tipo de registro operacional. A seguir estão taxonomias que capturam atributos sobre o tipo de registro do Campaign: Região, Público-alvo, País.
 
-Para obter mais informações sobre os tipos de registros do Maestro, consulte [Visão geral dos tipos de registro e taxonomias](../architecture/overview-of-record-types-and-taxonomies.md).
+Para obter mais informações sobre tipos de registros, consulte [Visão geral dos tipos de registro](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## Requisitos de acesso
 
@@ -39,11 +44,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 <td>
    <p> Produto</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Para conectar tipos de registro Maestri com a Experience Manager Assets, você deve ter uma licença Adobe Experience Manager Assets e a instância da Workfront de sua organização deve ser integrada à Adobe Business Platform ou à Adobe Admin Console.</p> </td>
+   <p> Adobe Workfront</p> <p>Para conectar tipos de registro com o Experience Manager Assets, você deve ter uma licença do Adobe Experience Manager Assets e a instância da Workfront de sua organização deve ser integrada à Adobe Business Platform ou à Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta fechado do Adobe Maestro. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta fechado de planejamento da Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -61,12 +66,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Configurações de nível de acesso</p></td>
-   <td> <p>Não há controles de nível de acesso para o Maestro</p>  
+   <td> <p>Não há controles de nível de acesso para o planejamento do Adobe Workfront</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área Maestri no modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td> <p>O administrador do Workfront ou do grupo deve adicionar a área do Planning ao modelo de layout. Para obter informações, consulte <a href="../access/access-overview.md">Visão geral do Access</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -91,16 +96,20 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Considerações sobre a criação de taxonomias
 
-* Você deve criar um espaço de trabalho antes de criar tipos de registro de taxonomia no espaço de trabalho.
+* Você deve criar um espaço de trabalho usando um modelo antes de criar tipos de registro na seção Taxonomias do espaço de trabalho.
 
   Para obter informações sobre espaços de trabalho, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
-* Você pode criar um tipo de registro de taxonomia seguindo um destes procedimentos:
+* Você pode criar um tipo de registro na seção Taxonomias de um espaço de trabalho seguindo um destes procedimentos:
    * Crie-os automaticamente ao criar um espaço de trabalho usando um modelo. Para obter informações, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
-   * Crie-os manualmente, do zero.
+   * Crie-os manualmente, do zero, na seção Taxonomias de um espaço de trabalho.
 
-* Todos os tipos de registro de taxonomia recém-criados vêm com os seguintes campos:
+* Todas as taxonomias recém-criadas têm os seguintes campos por padrão:
 
-   * Nome <!--if there won't be any more fields, consider rephrasing this-->
+   * Nome
+   * Descrição
+   * Data de início
+   * Data Final
+   * Status
 
   Além disso, é possível adicionar campos personalizados a taxonomias. Para obter mais informações, consulte [Criar campos](../fields/create-fields.md).
 
@@ -110,8 +119,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Criar um tipo de registro de taxonomia
 
-A criação de tipos de registro de taxonomia é semelhante à criação de tipos de registro operacionais do zero ou de um modelo de espaço de trabalho.
+A criação de tipos de registro de taxonomia é semelhante à criação de tipos de registro.
 
-Para obter informações, consulte a seção &quot;Criar um tipo de registro do zero&quot; no artigo [Criar tipos de registro](../architecture/create-record-types.md).
-
-Para obter informações sobre como criar taxonomias automaticamente ao criar um espaço de trabalho a partir de um modelo, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
+Para obter informações, consulte [Criar tipos de registro](../architecture/create-record-types.md).
