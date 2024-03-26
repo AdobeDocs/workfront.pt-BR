@@ -7,9 +7,10 @@ description: Você pode usar um modelo de layout para configurar o que os usuár
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
+source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '798'
 ht-degree: 1%
 
 ---
@@ -101,7 +102,14 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><
       <p>Depois de selecionar o widget que deseja editar, as opções disponíveis serão exibidas à direita. Essas opções incluem <b>Filtros</b>, <b>Colunas</b>, e <b>Grupos</b>. Você pode:</p>
       <ul>
       <li><p><b>Selecione quais Filtros, Colunas ou Grupos estarão disponíveis para os usuários:</b></p>
-      <p>Marque a caixa ao lado de todas as opções na lista que você deseja que os usuários possam usar. Opções desmarcadas não serão exibidas para usuários.</li></p>
+      <p>Marque a caixa ao lado de todas as opções na lista que você deseja que os usuários possam usar. Opções desmarcadas não serão exibidas para usuários.</li></p>     
+    <p>
+
+>[!IMPORTANT]
+>
+>Os usuários devem ter acesso de Criação para Exibições a fim de que as configurações de coluna se apliquem corretamente aos seus widgets.
+
+</p>
       <li><p><b>Defina um Filtro ou Grupo padrão para o widget:</b></p>
       <p>Passe o mouse sobre uma opção e um botão aparecerá, permitindo que você defina essa opção como padrão para os usuários. O padrão atual terá um emblema Padrão azul à direita.</li></p>
       <li><p><b>Adicione um Filtro, Coluna ou Grupo existente à lista de opções disponíveis:</b></p>
@@ -124,4 +132,3 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><
    Ou
 
    Se tiver terminado de personalizar, clique em **Salvar** no canto inferior esquerdo.
-
