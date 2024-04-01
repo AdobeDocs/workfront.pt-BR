@@ -4,9 +4,10 @@ description: Aprimoramentos no gerenciamento de documentos do segundo trimestre 
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
+exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
+source-git-commit: 7f822e5ba6c65d50eb7a7a660689f88066939e2d
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '337'
 ht-degree: 2%
 
 ---
@@ -16,6 +17,10 @@ ht-degree: 2%
 Esta página descreve todas as melhorias de gerenciamento de documentos feitas com a versão do Segundo trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão do segundo trimestre de 2024.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do segundo trimestre de 2024, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+>[!IMPORTANT]
+>
+>Os recursos listados nesta página fazem parte de uma versão em fases e só estão disponíveis para clientes específicos.
 
 ## Adicionar um prazo final para revisões e aprovações de um documento
 
@@ -47,10 +52,6 @@ Você pode aplicar Modelos de Aprovação a partir da área Documentos ao criar 
 >[!NOTE]
 >
 >Versão de pré-visualização: 28 de março de 2024; Produção para todos os clientes: com a versão 24.4 (abril de 2024)
-
->[!IMPORTANT]
->
->Esse recurso faz parte de uma versão em fases e está disponível no momento apenas para clientes específicos.
 
 Para ajudá-lo a gerenciar e analisar suas solicitações de aprovação rapidamente, adicionamos os seguintes indicadores-chave de desempenho ao widget Todas as aprovações:
 

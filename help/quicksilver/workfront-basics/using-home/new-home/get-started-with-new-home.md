@@ -6,10 +6,10 @@ description: A nova Página inicial é um novo recurso poderoso para gerenciar s
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
+source-git-commit: 7f822e5ba6c65d50eb7a7a660689f88066939e2d
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 5%
+source-wordcount: '1088'
+ht-degree: 6%
 
 ---
 
@@ -58,9 +58,6 @@ Abaixo estão os dez widgets disponíveis atualmente para escolher, bem como um 
 
 * **Todas as aprovações**\
         <span class="preview"> Exibe dois gráficos com informações sobre o tempo médio de aprovação e as decisões, bem como exibições de lista de aprovações pendentes e vencidas.</span> <span style="color: #ff0000;">Esse recurso faz parte de uma versão em fases e está disponível no momento apenas para clientes específicos.</span>
-
-* **Aprovações pendentes**\
-    Exibe as aprovações atribuídas a um documento em um projeto que você possui. Aqui, você pode visualizar o status de aprovação e lembrar os usuários sobre revisões e aprovações incompletas. <span style="color: #ff0000;">Esse recurso faz parte de uma versão em fases e está disponível no momento apenas para clientes específicos.</span>
 
 * **Menções**\
     Exibe threads de comentários recentes de toda a Workfront, de forma semelhante à página Minhas atualizações. Você pode usar o botão responder para compor uma resposta no widget. Este widget também mostra comentários feitos sobre tarefas e problemas atribuídos a você, atribuídos a outro usuário, de sua propriedade, do qual você é o contato principal ou que você criou, desde que a tarefa ou problema tenha sido atualizado nos últimos 30 dias.
