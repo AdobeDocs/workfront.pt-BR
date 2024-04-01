@@ -9,16 +9,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
 
 # Atualizações rastreadas pelo sistema
 
-{{preview-and-fast-release}}
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente Produção para clientes que ativaram versões rápidas.</span>
+
+<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Para obter informações sobre a versão atual, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
@@ -92,12 +96,16 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
      Para obter mais informações sobre a nova experiência de comentários, consulte [Nova experiência de comentários](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
+     <span class="preview">Para obter uma lista de objetos que não têm a Atividade do sistema ou as guias Todos, consulte [Visão geral da seção de atualização](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)</span>
+
    * <span class="preview">Ao usar a nova experiência de comentários, não é possível adicionar um comentário a uma atualização do sistema. No entanto, todas as respostas feitas aos registros de atividade do sistema na experiência de comentários herdada são preenchidas na guia Atividade do sistema como somente leitura na nova experiência de comentários.</span>
    * Ao usar a experiência de comentários herdada, as atualizações do sistema e do usuário são exibidas em um feed contínuo.
 
    * Ao usar a experiência de comentários herdada, os usuários podem visualizar as atualizações do sistema por padrão ou optar por não exibi-las. Não é possível desativar as atualizações do sistema ao usar a nova experiência de comentários.
 
      Para obter informações sobre como desativar a exibição de atualizações do sistema, consulte a seção [Ativar ou desativar atualizações do sistema](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) no artigo [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+   * <span class="preview">A experiência de comentários herdada foi desabilitada no ambiente de Pré-visualização. Para obter mais informações, consulte [Melhorias no fluxo de atualizações e na notificação do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
 
 * O Workfront registra atualizações rastreadas pelo sistema para os seguintes objetos, mas não há opção para desativar a exibição deles:
 

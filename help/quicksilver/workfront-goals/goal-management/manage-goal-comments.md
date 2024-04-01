@@ -6,16 +6,14 @@ description: É possível adicionar comentários a todas as metas que você pode
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
 
 # Gerenciar comentários de meta em Metas do Adobe Workfront
-
-{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -101,14 +99,6 @@ Isso abre a lista de metas.
 1. Clique em  **Atualizações** no painel esquerdo.
 1. (Opcional) Para localizar um comentário existente, comece digitando uma palavra-chave <!--or a user's name--> no **Pesquisar** no canto superior direito da caixa **Comentários** guia.
 
-   <div class="preview">
-
-   Exemplo no ambiente de Pré-visualização:
-   ![Pesquisar comentário](assets/search-for-update-goals-2.png)
-
-   </div>
-
-   Exemplo no ambiente de Produção:
    ![](assets/search-field-in-updates-tab-goals.png)
 
    A palavra-chave <!--or user--> pesquisado for realçado e os comentários que o contêm serão exibidos na parte superior da seção Atualizações.
@@ -125,14 +115,6 @@ Isso abre a lista de metas.
 1. Clique em **Comentários** no canto superior esquerdo da área Atualizações.
 1. Comece a inserir um comentário no **Novo comentário** caixa.
 
-   <div class="preview">
-
-   Exemplo de nova caixa de comentário no ambiente de Pré-visualização:
-   ![Nova caixa de comentário](assets/comment-box-all-tabs.png)
-
-   </div>
-
-   Exemplo de nova caixa de comentário no ambiente de Produção:
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
@@ -190,5 +172,4 @@ Você pode editar seu comentário dentro de 15 minutos a partir do envio. Um ind
 
 1. (Opcional) Clique no link **Atividade do sistema** para ver as atualizações registradas pelo sistema. Quando uma meta é atualizada, o Workfront gera uma observação sobre essa atualização e a exibe na guia Atividade do sistema. O Workfront também registra uma atualização do sistema quando um resultado, atividade ou projeto é adicionado à meta ou quando é atualizado. <!--ensure the casing on the tab has not changed-->
 
-1. <span class="preview">(Opcional) Clique no link **Todos** para exibir comentários do usuário e comentários de atividades do sistema em um local. Para responder a um comentário na guia Todos, clique em **Responder em Comentários** para abrir o comentário na guia Comentários. Não é possível responder na guia All.</span>
 

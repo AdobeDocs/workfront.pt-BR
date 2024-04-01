@@ -6,9 +6,9 @@ description: Tanto a Conclusão planejada quanto as Datas de confirmação indic
 author: Alina
 feature: Work Management
 exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '410'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ O responsável trabalhando na tarefa ou problema pode atualizar manualmente a Da
 
 A pessoa designada que altera a Data de confirmação não altera automaticamente a Data de conclusão planejada. O inverso também é verdadeiro: alterar a Data de conclusão planejada não alterará a Data de confirmação.
 
-Quando a Data de confirmação é alterada para uma data posterior à Data de conclusão planejada, o proprietário do projeto é notificado de que essa alteração ocorreu e pode afetar a linha do tempo do projeto, se o proprietário do projeto usar a experiência de comentários herdada. Esta funcionalidade não é suportada na nova experiência de comentários. Para obter mais informações, consulte [Nova experiência de comentários](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Quando a Data de confirmação é alterada para uma data posterior à Data de conclusão planejada, o proprietário do projeto é notificado de que essa alteração ocorreu e pode afetar a linha do tempo do projeto.
 
 Se a Data de Compromisso oferecida pelo designado for aceitável para o proprietário do projeto, ele deverá atualizar manualmente a Data de conclusão planejada na tarefa ou problema. Para obter mais informações, consulte os seguintes artigos:
 

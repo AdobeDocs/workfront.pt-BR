@@ -6,9 +6,9 @@ description: Você pode atualizar o percentual concluído de uma tarefa para ind
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,16 @@ Você pode atualizar o percentual concluído de uma tarefa em qualquer uma das s
 * **No cabeçalho da tarefa**: é possível atualizar o percentual concluído de uma tarefa no cabeçalho da tarefa. Para obter informações, consulte [Editar tarefas](../../tasks/manage-tasks/edit-tasks.md).
 
   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+
+* **No painel Resumo de uma tarefa**: é possível atualizar o percentual concluído de uma tarefa na parte superior do painel Resumo ao visualizar a tarefa nas seguintes áreas:
+
+   * Lista de tarefas ou relatório
+   * Planilha de horas
+   * Balanceador de carga de trabalho
+
+  ![](assets/update-percent-complete-in-task-summary-highlighted.png)
+
+  Para obter mais informações, consulte [Visão geral do resumo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
 
 ## Considerações sobre a atualização do percentual concluído de uma tarefa

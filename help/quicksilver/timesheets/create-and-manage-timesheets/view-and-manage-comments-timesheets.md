@@ -6,9 +6,9 @@ description: Você pode fazer comentários nas folhas de horas, nos itens de tra
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -90,7 +90,16 @@ Você pode fazer comentários gerais sobre a planilha de horas. Comentar na folh
 
    Seu comentário é exibido no campo [!UICONTROL Atualizações] seção da folha de horas, na guia Comentários.
 
-1. (Opcional) Clique no link **Atividade do sistema** para analisar atualizações geradas pelo sistema.
+1. (Opcional) Clique no link **Atividade do sistema** guia para analisar atualizações geradas pelo sistema
+
+   Ou
+
+   Clique em **Todos** para exibir a atividade do sistema e os comentários do usuário em ordem cronológica.
+
+   >[!TIP]
+   >
+   >   A guia All é uma guia somente leitura e não é possível responder aos comentários a partir dela.
+
 
    Para obter mais informações, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -139,7 +148,7 @@ Você pode comentar somente em tarefas e problemas em uma folha de horas. Você 
 1. Clique em [!UICONTROL **Planilhas de Horas**].
 1. Vá para a folha de horas em que deseja fazer um comentário e clique em [!UICONTROL **Planilha de horas**] no painel esquerdo.
 1. Clique na linha de uma tarefa ou em um problema e clique em [!UICONTROL **Abrir resumo**].
-1. Comece digitando uma atualização no [!UICONTROL **Atualizações**] do painel Resumo e clique em [!UICONTROL **Atualizar**].
+1. Comece digitando uma atualização no [!UICONTROL **Atualizações**] do painel Resumo e clique em [!UICONTROL **Enviar**].
 A atualização é exibida na seção Atualizações da tarefa e do problema.
 1. (Opcional) Clique em [!UICONTROL **Fechar resumo**] para fechar o painel Resumo.
 

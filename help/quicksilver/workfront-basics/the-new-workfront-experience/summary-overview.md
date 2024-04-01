@@ -5,16 +5,20 @@ description: Você pode usar o painel Resumo para revisar e atualizar informaç�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '1001'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Resumo] visão geral
 
-{{preview-and-fast-release}}
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou na Produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Para obter informações sobre a programação de lançamento atual, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Você pode usar o [!UICONTROL Resumo] painel para revisar e atualizar as informações sobre o item de trabalho diretamente de uma lista de tarefas, problemas, documentos ou de outras áreas do [!DNL Adobe Workfront] que exibem tarefas e problemas.
 
@@ -36,6 +40,9 @@ A tabela a seguir exibe as áreas em que você pode localizar e usar o [!UICONTR
   <tr> 
    <td>Tarefas nas áreas de trabalho [!UICONTROL Não atribuído] e [!UICONTROL Atribuído] do [!UICONTROL Balanceador de carga de trabalho]</td> 
   </tr> 
+   <tr> 
+   <td>Tarefas em uma [!UICONTROL Planilha de Horas]</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td>Problemas</td> 
   </tr> 
@@ -53,7 +60,12 @@ A tabela a seguir exibe as áreas em que você pode localizar e usar o [!UICONTR
   <tr data-mc-conditions=""> 
    <td>Problemas na seção [!UICONTROL Enviado] da área [!UICONTROL Solicitações]</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+</tr> 
+   <tr> 
+   <td>Problemas em uma [!UICONTROL Planilha de Horas]</td> 
+  </tr>
+
+<tr data-mc-conditions=""> 
    <td>Documentos</td> 
   </tr> 
   <tr data-mc-conditions=""> 

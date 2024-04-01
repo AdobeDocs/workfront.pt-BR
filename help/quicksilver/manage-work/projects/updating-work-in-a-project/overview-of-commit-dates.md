@@ -7,16 +7,14 @@ description: A Data de Compromisso é a data pela qual um usuário atribuído à
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 0%
+source-wordcount: '763'
+ht-degree: 1%
 
 ---
 
 # Visão geral da data de compromisso
-
-{{preview-and-fast-release}}
 
 A Data de Compromisso é a data pela qual um usuário atribuído à tarefa ou um problema se compromete a concluir a tarefa ou o problema. Isso é diferente da Data de conclusão planejada, pois é uma estimativa mais realista da data de conclusão fornecida somente pelo usuário responsável pelo trabalho. Para obter informações sobre a Data de conclusão planejada, consulte [Visão geral da Data de conclusão planejada da tarefa](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
@@ -55,11 +53,26 @@ Quando um responsável por uma tarefa ou problema seleciona uma Data de confirma
 
 Definir a Data de Compromisso para uma tarefa ou problema aciona as seguintes alterações:
 
-* A Data de confirmação é preenchida no Fluxo de atualização da tarefa ou problema.
+* A alteração da Data de confirmação é preenchida na Atividade do sistema e nas guias Todos da seção Atualizar da tarefa ou problema.
 
-  <span class="preview">![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)</span>
+  ![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)
 
   A alteração da Data de confirmação é exibida na área Atualizações da tarefa ou problema quando o administrador do Workfront ativa essa atualização na área Feeds de atualizações em Configuração. Para obter informações, consulte [Atualizações rastreadas pelo sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+
+  Se um Proprietário do projeto não quiser aceitar a alteração, recomendamos que faça um comentário ao usuário propondo uma nova data usando a guia Comentários na seção Atualizações, para solicitar que ele altere a Data de compromisso novamente para a Data planejada original ou selecione uma nova data. Se um Proprietário do projeto aceitar a alteração, poderá ajustar manualmente a Data de conclusão planejada para corresponder à Data de confirmação oferecida pelo usuário atribuído ao item ao editar a tarefa ou o problema.
+
+  Você deve ter acesso para gerenciar a tarefa ou o problema para editá-los.
+
+<!--this is no longer possible: 
+>[!NOTE]
+>
+>If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click **Project Timeline**. This opens the task list where you can evaluate the date changes and the project timeline.
+>
+>
+>![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
+>
+-->
+
 
 * A Data de conclusão projetada da tarefa ou problema é definida para a mesma data, pois a tarefa agora tem uma indicação mais precisa de quando deverá ser concluída.
 
@@ -67,27 +80,10 @@ Definir a Data de Compromisso para uma tarefa ou problema aciona as seguintes al
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-* Se o Proprietário do projeto estiver usando a experiência de comentários herdada, ele será notificado na guia Atualizações da tarefa se essa alteração afetará a linha do tempo do projeto e terá a oportunidade de atualizar a Data de conclusão planejada da tarefa na mesma área.
 
-  Esta funcionalidade não é suportada na nova experiência de comentários. Para obter informações, consulte [Nova experiência de comentários](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-  >[!TIP]
-  >
-  >  O Proprietário do projeto não tem a chance de atualizar a Data de conclusão planejada de um problema, já que as datas de emissão não afetam a linha do tempo do projeto.
 
-  Se um Proprietário do projeto não quiser aceitar a alteração, recomendamos que faça um comentário ao usuário propondo uma nova data para solicitar que ele altere a Data de compromisso novamente para a Data planejada original ou selecione uma nova data. Se um Proprietário do projeto aceitar a alteração, poderá ajustar manualmente a Data de conclusão planejada para corresponder à Data de confirmação oferecida pelo usuário atribuído ao item. Eles também podem clicar em **Definir data planejada como: &lt; date >** na área Atualizações, que define automaticamente a Data de conclusão planejada para corresponder à nova Data de confirmação.
-
-  É necessário ter acesso para gerenciar a tarefa e o projeto para aceitar essa alteração.
-
-  >[!NOTE]
-  >
-  >Se quiser ver como a linha do tempo do projeto é afetada ao aceitar a alteração da Data de conclusão planejada da tarefa, clique em **Cronograma do Projeto**. Essa ação abre a lista de tarefas, onde é possível avaliar as alterações de data e a linha do tempo do projeto.
-  >
-  >
-  >![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
-  >
-
-* O Proprietário do projeto é notificado na área Notificações de que a data de confirmação de uma tarefa foi alterada.
+* O Proprietário do projeto é notificado na área Notificações de que uma data de confirmação de tarefa ou problema foi alterada.
 
   ![](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
 
