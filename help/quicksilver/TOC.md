@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: ab281b92279d429f13a17326cdb0adca4e219daf
+source-git-commit: 9171a7696feaebe8efddf126200d319fe7c84d52
 workflow-type: tm+mt
-source-wordcount: '14047'
+source-wordcount: '14061'
 ht-degree: 1%
 
 ---
@@ -1810,6 +1810,7 @@ ht-degree: 1%
          * [Criar uma aprovação de documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Adicionar revisores ou aprovadores adicionais a um documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [Remover aprovadores ou revisores de um documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+         * [Criar um modelo de aprovação](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [Status de aprovação de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
          * [Aprovar um documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Prova {#proofing}
@@ -1923,6 +1924,7 @@ ht-degree: 1%
          * [Editar o campo Perfil de permissão de prova em massa](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
          * [Desativar o compartilhamento da prova por meio de URL público ou código incorporado](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
          * [Perguntas frequentes: comprovação na migração do Adobe Workfront para o EMEA dos EUA](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
+         * [O nome do documento alterado após o upload contém um caractere inválido](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
    * Dicas, truques e solução de problemas para aprovações {#ttt-approvals}
       * [Dicas, truques e solução de problemas para aprovações](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Exibir o número de decisões de prova e documento para todos os usuários](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)

@@ -6,10 +6,10 @@ description: Você pode adicionar outros aprovadores ou revisores a um documento
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 1a03d829bc4cddfd568c6d0e8850e847004c83b4
+source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 0%
+source-wordcount: '505'
+ht-degree: 1%
 
 ---
 
@@ -54,3 +54,10 @@ Se você quiser que o recurso Novas aprovações de documentos esteja ativado em
 Para usuários que desejam criar ou gerenciar aprovações de documentos, consulte os artigos listados em [Aprovar documentos: índice do artigo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
 
 Para usuários que desejam revisar ou aprovar documentos para os quais receberam uma solicitação, consulte os artigos listados em [Revisar documentos: índice do artigo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+
+As Novas aprovações de documentos não são compatíveis com a ferramenta de relatórios atual. O widget Todas as aprovações, disponível nos novos painéis Página inicial e Tela, fornece os seguintes detalhes sobre Novas aprovações de documentos:
+
+* Aprovações por decisão
+* Tempo médio de aprovação
+* Aprovações pendentes
+* Aprovações atrasadas

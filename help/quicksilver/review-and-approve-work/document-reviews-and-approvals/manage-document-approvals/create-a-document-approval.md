@@ -3,10 +3,10 @@ product-area: documents
 navigation-topic: approvals
 title: Criar uma aprovação de documento
 description: Você pode solicitar aprovação de outros usuários para um documento no Adobe Workfront.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 6a02a7bdb21e79a6b91f81e71b42968d6262cd05
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
