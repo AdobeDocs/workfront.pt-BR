@@ -7,9 +7,10 @@ description: Você pode decidir quais seções de um formulário personalizado d
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
+exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
+source-git-commit: 2280019a7cc02c0730f85c010dc8cc08834535aa
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1366'
 ht-degree: 0%
 
 ---
@@ -124,7 +125,7 @@ A lógica de exibição define quais campos personalizados aparecem no formulár
 
 >[!NOTE]
 >
->A lógica de exibição está temporariamente indisponível ao visualizar o formulário no designer de formulário.
+><span class="preview">A lógica de exibição só está disponível ao visualizar o formulário no designer de formulário no ambiente de Visualização.</span>
 
 ## Adicionar lógica de salto a um formulário personalizado
 
@@ -158,4 +159,4 @@ A lógica de salto define campos de formulário personalizados que são ignorado
 
 >[!NOTE]
 >
->A lógica de salto está temporariamente indisponível ao visualizar seu formulário no designer do formulário.
+><span class="preview">A lógica de salto só está disponível ao pré-visualizar o formulário no designer de formulário no ambiente de Pré-visualização.</span>
