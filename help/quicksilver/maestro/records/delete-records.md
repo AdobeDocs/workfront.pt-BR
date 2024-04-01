@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '487'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta de planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta de Planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Configurações de nível de acesso</p></td>
-   <td> <p>Não há controles de nível de acesso para o planejamento do Adobe Workfront </p>  
+   <td> <p>Não há controles de nível de acesso para o Adobe Workfront Planning </p>  
 </td>
   </tr>
 
@@ -95,10 +95,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 É possível excluir um registro das seguintes áreas:
 
-* [Na página Detalhes de um registro](#delete-a-record-from-the-records-details-page)
+* [Da página do registro](#delete-a-record-from-the-records-page)
 * [Na exibição de tabela de um tipo de registro](#delete-a-record-from-the-record-type-table-view)
 
-### Excluir um registro da página Detalhes do registro
+### Excluir um registro da página do registro
 
 {{step1-to-maestro}}
 
@@ -115,7 +115,7 @@ O espaço de trabalho que você acessa por último é aberto.
      ![](assets/contextual-menu-for-record-row.png)
    * Em uma exibição de Linha do tempo, clique em uma barra de registro.
 
-   O registro **Detalhes** é aberta.
+   A página de registro é aberta.
 
 1. Clique em **Mais** menu ![](assets/more-menu.png) à direita do nome do registro, clique em **Excluir**, depois **Excluir** novamente para confirmar.
 
@@ -141,7 +141,7 @@ O espaço de trabalho que você acessou por último é aberto.
 
      ![](assets/contextual-menu-for-record-row.png)
 
-   * Clique em **Abrir detalhes** ícone ![](assets/open-details-icon-in-table-name-field.png) para abrir a caixa Detalhes e clique em **Mais** ![](assets/more-menu.png) à direita do nome do registro, então **Excluir**.
+   * Clique em **Abrir detalhes** ícone ![](assets/open-details-icon-in-table-name-field.png) para abrir a caixa com as informações detalhadas do registro e clique em **Mais** ![](assets/more-menu.png) à direita do nome do registro, então **Excluir**.
 
    O registro é excluído e não pode ser recuperado.
 

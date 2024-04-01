@@ -5,7 +5,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -35,14 +35,14 @@ O Workfront Planning vem com um conjunto de modelos para você começar a usar t
 
 Este artigo descreve os modelos de espaço de trabalho disponíveis no Adobe Workfront Planning.
 
-## Considerações sobre os modelos de planejamento do Adobe Workfront
+## Considerações sobre os modelos do Adobe Workfront Planning
 
 * Cada modelo vem com um conjunto de tipos de registro. Para obter informações, consulte [Visão geral dos tipos de registro](../architecture/overview-of-record-types-and-taxonomies.md).
 * Os tipos de registro em cada modelo são organizados nas seguintes seções:
 
    * Tipos de registros operacionais
    * Taxonomias
-* Cada tipo de registro vem com um conjunto de campos. Alguns desses campos são conexões com outros tipos de registro do Workfront planning.
+* Cada tipo de registro vem com um conjunto de campos. Alguns desses campos são conexões com outros tipos de registro do Workfront Planning.
 * É possível personalizar qualquer modelo e adicionar mais tipos de registro e campos aos existentes.
 
 <!-- I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
@@ -96,9 +96,9 @@ You must have the following:
 
 -->
 
-## modelos do espaço de trabalho do Workfront planning
+## modelos do espaço de trabalho do Workfront Planning
 
-A seguir estão modelos de espaço de trabalho no Workfront Planning e o número de campos que eles incluem:
+A seguir, os modelos de espaço de trabalho no Workfront Planning e o número de campos que eles incluem:
 
 * **Gerenciamento de marketing**: é possível gerenciar todas as campanhas de marketing ao usar esse template. O template vem com o seguinte:
 

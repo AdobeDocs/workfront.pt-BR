@@ -1,13 +1,13 @@
 ---
 title: Gerenciar exibições de registro
-description: Você pode exibir registros em uma exibição de tabela, linha do tempo ou calendário ao usar o Adobe Workfront Planning.
+description: É possível exibir registros em uma exibição de tabela, linha do tempo ou calendário ao usar o Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1085'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-Depois de selecionar um tipo de registro na área de planejamento do Adobe Workfront, você pode exibir todos os registros desse tipo nas seguintes exibições:
+Depois de selecionar um tipo de registro na área Adobe Workfront Planning, você pode exibir todos os registros desse tipo nas seguintes exibições:
 
 * Tabela
 
@@ -51,7 +51,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta fechado de planejamento da Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta fechado do Adobe Workfront Planning. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -64,12 +64,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td>
    <td>
    <p>Qualquer</p> 
+   <p>Os administradores do sistema têm acesso somente às exibições criadas ou compartilhadas com eles. </p>
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Configuração do nível de acesso</td>
-   <td> <p>Não há controles de nível de acesso para o planejamento do Workfront</p>  
+   <td> <p>Não há controles de nível de acesso para o Workfront Planning</p>  
 </td>
   </tr>
 
@@ -89,7 +90,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Considerações ao trabalhar com visualizações de registro
 
-* As exibições no planejamento do Workfront são específicas do tipo de registro. Não é possível aplicar a mesma exibição a dois tipos de registro diferentes.
+* As exibições no Workfront Planning são específicas do tipo de registro. Não é possível aplicar a mesma exibição a dois tipos de registro diferentes.
 * As exibições criadas estão visíveis somente para você e os usuários com os quais você compartilha as exibições.
 * Quando você modifica ou exclui uma exibição, ela é modificada e excluída para todos os usuários que têm permissões para a exibição.
 * Os seguintes elementos são exclusivos para cada exibição de registro:
@@ -104,7 +105,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
   >[!NOTE]
   >
-  > Como o planejamento do Adobe Workfront está atualmente em um estado beta, alguns elementos de exibição podem não estar disponíveis para todas as exibições.
+  > Como o Adobe Workfront Planning atualmente está em um estado beta, alguns elementos de exibição podem não estar disponíveis para todas as exibições.
 
 Este artigo descreve as seguintes informações sobre visualizações de registro:
 
@@ -138,7 +139,7 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 | Agrupamentos de código de cores |           | ✓ µ |
 | Pesquisar registros específicos | ✓ µ | ✓ µ |
 | Compartilhar visualização | ✓ µ | ✓ µ | ✓ µ |
-| Abrir a página Detalhes do registro na exibição | ✓ µ | ✓ µ |    |
+| Abrir a página do registro na exibição | ✓ µ | ✓ µ |    |
 
 
 ## Criar ou editar exibições {#create-or-edit-views}

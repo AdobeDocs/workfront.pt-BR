@@ -1,18 +1,18 @@
 ---
-title: "Acessar informações: índice de artigos"
+title: "Informações de acesso do Adobe Workfront Planning: índice do artigo"
 description: Como administrador do Workfront, você deve conceder acesso aos usuários para usar o Adobe Workfront Planning. Os artigos a seguir contêm informações sobre qual acesso os usuários precisam para usar o Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
 
-# Acessar informações: índice do artigo
+# Informações de Acesso do Adobe Workfront Planning: índice do artigo
 
 {{maestro-important-intro}}
 

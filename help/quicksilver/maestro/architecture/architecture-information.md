@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <!--
 ---
 title: "Architecture: article index"
-description: The following articles describe how you can configure the architecture of Adobe Workfront planning. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Workfront planning. 
+description: The following articles describe how you can configure the architecture of Adobe Workfront Planning. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Workfront Planning. 
 hidefromtoc: yes
 author: Alina
 feature: Work Management
@@ -34,9 +34,9 @@ Como líder em operações de marketing, você pode usar o Adobe Workfront Plann
 
 Com o Workfront Planning, você pode personalizar totalmente seus workflows, desde decidir quais tipos de objeto (ou tipos de registro) sua organização usa até configurar como esses objetos se vinculam uns aos outros.
 
-Além disso, o planejamento do Workfront pode se vincular a tipos de objetos de outros sistemas, criando uma estrutura coerente para todos os seus processos.
+Além disso, o Workfront Planning pode se vincular a tipos de objetos de outros sistemas, criando uma estrutura coerente para todos os seus processos.
 
-Os artigos nas seções a seguir descrevem como você pode configurar os espaços de trabalho do Adobe Workfront Planning, definir os tipos de registro que são os blocos de construção desses espaços de trabalho e começar a usar seus recursos:
+Os artigos nas seções a seguir descrevem como configurar os espaços de trabalho do Adobe Workfront Planning, definir os tipos de registro que são os blocos de construção desses espaços de trabalho e começar a usar seus recursos:
 
 * [Criar espaços de trabalho](../architecture/create-workspaces.md)
 * [Lista de modelos do espaço de trabalho](../architecture/workspace-templates.md)

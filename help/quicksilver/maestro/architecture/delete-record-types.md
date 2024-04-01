@@ -1,13 +1,13 @@
 ---
 title: Excluir tipos de registro
-description: É possível excluir tipos de registro quando eles não forem mais relevantes.
+description: É possível excluir tipos de registro quando eles não forem mais relevantes. A exclusão de tipos de registro também exclui todas as informações associadas aos tipos de registro, como seus registros, campos e exibições.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: f4fb9d5c22ec6216a05e31cbcf80f1cf9add125f
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta de planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta de Planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -74,7 +74,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Configurações de nível de acesso</p></td>
-   <td> <p>Não há controles de nível de acesso para o planejamento do Adobe Workfront</p>  
+   <td> <p>Não há controles de nível de acesso para o Adobe Workfront Planning</p>  
 </td>
   </tr>
 
@@ -126,11 +126,11 @@ O espaço de trabalho acessado por último deve ser aberto por padrão.
 
 1. (Opcional) Expanda a seta apontando para baixo à direita de um nome de espaço de trabalho existente e selecione o espaço de trabalho para o qual deseja excluir tipos de registro.
 
-   O espaço de trabalho é aberto e os tipos de registro e taxonomias associadas a ele são exibidos.
+   O espaço de trabalho é aberto e os tipos de registro são exibidos.
 1. Clique no cartão do tipo de registro que deseja excluir.
 
    Essa ação abre a página do tipo de registro.
-1. Clique em **Mais** menu ![](assets/more-menu.png) à direita do nome do tipo de registro e clique em **Excluir**.
-1. Clique em **Excluir** para confirmar.
+1. Clique em **Mais** menu ![](assets/more-menu.png) à direita do nome do tipo de registro e clique em **Excluir**. <!--add screen shot when they finalize the UI-->
+1. Tipo **Excluir** na caixa de confirmação e clique em **Excluir permanentemente**.
 
    O tipo de registro selecionado, juntamente com seus campos, registros associados e exibições são excluídos.

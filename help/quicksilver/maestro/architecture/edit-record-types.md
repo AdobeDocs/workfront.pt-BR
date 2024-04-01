@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <!--update the metadata with real information when making this available in TOC and in the left nav
 ---
 title: Edit record types
-description: You can edit record types after they have been saved. Record types are the object types of Adobe Workfront planning.
+description: You can edit record types after they have been saved. Record types are the object types of Adobe Workfront Planning.
 author: Alina
 role: User
 feature: Work Management 
@@ -47,11 +47,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 <td>
    <p> Produto</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Para conectar os tipos de registro de planejamento do Adobe Workfront com o Experience Manager Assets, você deve ter uma licença do Adobe Experience Manager Assets e a instância da Workfront de sua organização deve ser integrada à Adobe Business Platform ou à Adobe Admin Console.</p> </td>
+   <p> Adobe Workfront</p> <p>Para conectar tipos de registro do Adobe Workfront Planning com o Experience Manager Assets, você deve ter uma licença do Adobe Experience Manager Assets e a instância da Workfront de sua organização deve ser integrada à Adobe Business Platform ou à Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta fechado de planejamento da Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta fechado do Adobe Workfront Planning. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Configurações de nível de acesso</p></td>
-   <td> <p>Não há controles de nível de acesso para o planejamento do Workfront</p>  
+   <td> <p>Não há controles de nível de acesso para o Workfront Planning</p>  
 </td>
   </tr>
 

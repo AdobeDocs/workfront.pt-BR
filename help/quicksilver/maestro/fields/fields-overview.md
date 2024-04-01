@@ -1,13 +1,13 @@
 ---
 title: Visão geral do campo
-description: Você pode adicionar novos campos no Adobe Workfront Planning que reflitam o ciclo de vida da sua organização. Os campos são atributos de tipos de registro.
+description: Você pode adicionar novos campos no Adobe Workfront Planning que reflitam o ciclo de vida de sua organização. Os campos são atributos de tipos de registro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '436'
 ht-degree: 2%
 
 ---
@@ -28,12 +28,12 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Você pode adicionar novos campos no Adobe Workfront Planning que reflitam o ciclo de vida da sua organização. Os campos são atributos de tipos de registro.
+Você pode adicionar novos campos no Adobe Workfront Planning que reflitam o ciclo de vida de sua organização. Os campos são atributos de tipos de registro.
 
 
-## Considerações sobre campos de planejamento do Adobe Workfront
+## Considerações sobre campos do Adobe Workfront Planning
 
-* Você pode criar campos somente a partir da exibição de tabela de uma página do tipo registro. Os campos são exibidos como colunas na exibição de tabela. Todos os campos associados a um tipo de registro também são exibidos na página Detalhes de cada registro desse tipo.
+* Você pode criar campos somente a partir da exibição de tabela de uma página do tipo registro. Os campos são exibidos como colunas na exibição de tabela. Todos os campos associados a um tipo de registro também são exibidos na página de registro.
 
   Para obter informações sobre o gerenciamento de colunas de tabela (ou campos de registro), consulte [Gerenciar a exibição de tabela](../views/manage-the-table-view.md).
 
@@ -50,11 +50,9 @@ Você pode adicionar novos campos no Adobe Workfront Planning que reflitam o cic
 
    * Manualmente:
 
-      * Adicionando colunas na exibição de tabela de uma página do tipo registro. As colunas da tabela são os campos associados ao tipo de registro. São os mesmos campos exibidos na página Detalhes de um registro.
+      * Adicionando colunas na exibição de tabela de uma página do tipo registro. As colunas da tabela são os campos associados ao tipo de registro. São os mesmos campos exibidos na página de um registro.
 
-        Não é possível criar campos a partir da página Detalhes de um registro.
-
-        Este artigo descreve como criar campos manualmente.
+        Não é possível criar campos a partir da página do registro.
 
       * Conectando tipos de registro. É possível criar campos de registro vinculados ao adicionar uma nova conexão entre dois tipos de registro ou um tipo de registro e tipos de objeto de outros aplicativos.
 
@@ -81,9 +79,9 @@ Você pode adicionar novos campos no Adobe Workfront Planning que reflitam o cic
 
         É possível adicionar mais valores ou renomear os existentes.
 
-     O Workfront planning cria campos para tipos de registro quando você cria um espaço de trabalho a partir de um modelo. Para obter informações, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
+     O Workfront Planning cria campos para tipos de registro quando você cria um espaço de trabalho a partir de um modelo. Para obter informações, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
 
-* Os campos de planejamento do Workfront não podem ser acessados no Workfront.
+* Os campos do Workfront Planning não podem ser acessados no Workfront.
 
 * Os campos do Workfront podem ser acessados no Workfront Planning somente quando você conecta tipos de registro a tipos de objeto do Workfront e adiciona campos vinculados ou de pesquisa a partir de objetos do Workfront. Para obter informações, consulte [Conectar tipos de registro](../architecture/connect-record-types.md).
 

@@ -1,13 +1,13 @@
 ---
 title: Criar registros
-description: Ao usar o planejamento do Adobe Workfront, um registro é uma instância de um tipo de registro.
+description: Ao usar o Adobe Workfront Planning, um registro é uma instância de um tipo de registro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta de planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta de Planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Configurações de nível de acesso</p></td>
-   <td> <p>Não há controles de acesso para o planejamento do Adobe Workfront </p>  
+   <td> <p>Não há controles de acesso para o Adobe Workfront Planning </p>  
 </td>
   </tr>
 <tr>
@@ -127,14 +127,14 @@ Todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
    Ou
 
-   Clique no nome do novo registro ou na **Abrir detalhes** ícone ![](assets/open-details-icon-in-table-name-field.png) à esquerda do nome do registro. A variável **Detalhes** é aberta na tabela.
+   Clique no nome do novo registro ou na **Abrir detalhes** ícone ![](assets/open-details-icon-in-table-name-field.png) à esquerda do nome do registro. A caixa com as informações detalhadas do registro é aberta na tabela.
 
    >[!TIP]
    >
    >Você pode acessar a caixa Detalhes somente a partir do campo de nome do registro quando o campo Nome é um campo principal.
 
-1. Comece a editar as informações do registro na caixa Detalhes. O Workfront salva suas alterações automaticamente.
-1. (Opcional) Clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) no canto superior direito da caixa Detalhes para abrir a caixa do registro **Detalhes** em uma nova guia. Continue editando o registro na página Detalhes.
+1. Comece a editar as informações do registro na caixa do registro. O Workfront salva suas alterações automaticamente.
+1. (Opcional) Clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) no canto superior direito da caixa do registro para abrir a página do registro em uma nova guia. Continuar editando o registro na página de registro.
 
 
 1. (Opcional) Use os seguintes atalhos de teclado para desfazer ou refazer a adição de novos registros:
@@ -188,7 +188,7 @@ You can import records from other applications by linking them to existing recor
 
 1. Em outro aplicativo, selecione várias linhas e colunas e cole as informações na exibição de tabela do tipo de registro, começando com o primeiro novo registro.
 
-   As seguintes informações são importadas na área de planejamento do Workfront:
+   As informações a seguir são importadas na área do Workfront Planning:
 
    * As linhas contêm os novos registros
    * As colunas preenchem informações para os campos dos registros.

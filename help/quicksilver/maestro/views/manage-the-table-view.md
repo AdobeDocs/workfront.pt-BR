@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '2395'
+source-wordcount: '2401'
 ht-degree: 3%
 
 ---
@@ -51,7 +51,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta de planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta de Planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -64,6 +64,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td>
    <td>
    <p>Qualquer</p> 
+   <p>Os administradores do sistema têm acesso somente às exibições criadas ou compartilhadas com eles. </p>
   </td>
   </tr>
 
@@ -127,7 +128,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
    <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Comece a adicionar campos (ou colunas), conforme descrito no artigo [Criar campos](../fields/create-fields.md).
 
-   As colunas adicionadas ficam visíveis para todos os usuários que acessam o tipo de registro e são adicionadas como novos campos na página Detalhes dos registros do tipo de registro selecionado.
+   As colunas adicionadas ficam visíveis para todos os usuários que acessam o tipo de registro e são adicionadas como novos campos na página do registro.
 
 1. Siga um destes procedimentos para reordenar colunas na tabela:
 
@@ -174,7 +175,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
    >
    >   * Não é possível excluir ou ocultar um campo principal.
    >
-   >   * O valor listado no campo principal sempre recebe um hiperlink para a página Detalhes do registro.
+   >   * O valor listado no campo principal sempre tem um hiperlink para a página do registro.
 
 1. Clique e arraste as linhas de separação da coluna e solte-as no ponto desejado para aumentar a largura das colunas.
 

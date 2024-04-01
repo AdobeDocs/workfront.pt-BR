@@ -1,13 +1,13 @@
 ---
 title: Criar campos
-description: No Adobe Workfront Planning, é possível criar campos personalizados para cada tipo de registro. Em seguida, você pode associar o campo aos registros de planejamento do Workfront.
+description: No Adobe Workfront Planning, é possível criar campos personalizados para cada tipo de tipo de registro. Em seguida, é possível associar o campo aos registros do Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '3338'
+source-wordcount: '3308'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-No Adobe Workfront Planning, é possível criar campos personalizados para tipos de registro. Em seguida, você pode associar os campos aos registros de planejamento do Workfront para aprimorar as informações de registro.
+No Adobe Workfront Planning, é possível criar campos personalizados para tipos de registro. É possível associar os campos aos registros do Workfront Planning para aprimorar as informações de registro.
 
 Você deve criar tipos de registro antes de criar campos para associar a eles. Para obter informações, consulte [Criar tipos de registro](../architecture/create-record-types.md).
 
@@ -68,7 +68,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta de planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta de Planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Configurações de nível de acesso</p></td>
-   <td> <p>Não há controle de nível de acesso para o planejamento do Workfront</p>  
+   <td> <p>Não há controle de nível de acesso para o Workfront Planning</p>  
 </td>
   </tr>
 
@@ -248,7 +248,7 @@ Você pode usar um campo de data para capturar informações adicionais no forma
 
 
 1. Adicione as seguintes informações no **Novo campo** guia:
-   * **Nome**: O nome do tipo de campo, como ele aparecerá em uma tabela ou na página Detalhes do registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Nome**: o nome do tipo de campo, como ele aparecerá em uma tabela ou página de registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
    * **Formato de data**: o tipo de formato de data que você deseja exibir nesse campo. <!--update this casing - submitted bug for it-->
 
@@ -278,7 +278,7 @@ Os tipos de campo de número capturam informações em um formato de número.
    ![](assets/number-field-type.png)
 1. Adicione as seguintes informações no **Novo campo** guia:
 
-   * **Nome**: O nome do tipo de campo, como ele aparecerá em uma tabela ou na página Detalhes do registro.
+   * **Nome**: o nome do tipo de campo, como ele aparecerá em uma tabela ou página de registro.
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
    * **Precisão**: o número de decimais que você deseja gravar para o campo. É possível exibir até 6 decimais.
    * **Permitir números negativos**: selecione essa opção se desejar permitir números negativos nesse campo. Essa opção não está selecionada por padrão.
@@ -300,7 +300,7 @@ Os tipos de campo Porcentagem capturam informações em um formato de número se
    ![](assets/percentage-field-type.png)
 
 1. Adicione as seguintes informações no **Novo campo** guia:
-   * **Nome**: O nome do tipo de campo, como ele aparecerá em uma tabela ou na página Detalhes do registro.
+   * **Nome**: o nome do tipo de campo, como ele aparecerá em uma tabela ou página de registro.
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
    * **Precisão**: o número de decimais que você deseja gravar para o campo. É possível exibir até 6 decimais.
    * **Permitir números negativos**: selecione esta opção se desejar permitir valores percentuais negativos neste campo. Essa opção não está selecionada por padrão.
@@ -322,7 +322,7 @@ Os tipos de campo Moeda capturam as informações em um formato de número prece
    ![](assets/currency-field-type.png)
 
 1. Adicione as seguintes informações no **Novo campo** guia:
-   * **Nome**: O nome do tipo de campo, como ele aparecerá em uma tabela ou na página Detalhes do registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Nome**: o nome do tipo de campo, como ele aparecerá em uma tabela ou página de registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
    * **Moeda**: o tipo de moeda que você deseja exibir neste campo. Esta é uma lista de moedas de acordo com a Organização Internacional de Normalização (ISO).
    * **Precisão**: o número de decimais que você deseja gravar para o campo. É possível exibir até 6 decimais.
@@ -345,7 +345,7 @@ Você pode usar o tipo de campo Caixa de seleção para adicionar uma única op�
    ![](assets/checkbox-field-type.png)
 
 1. Adicione as seguintes informações no **Novo campo** guia:
-   * **Nome**: O nome do tipo de campo, como ele aparecerá em uma tabela ou na página Detalhes do registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Nome**: o nome do tipo de campo, como ele aparecerá em uma tabela ou página de registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
 1. Clique em **Criar**.
 
@@ -379,7 +379,7 @@ Para obter mais informações, consulte [Visão geral dos campos de fórmula](/h
    >
    > * Não é possível adicionar campos do tipo Seleção múltipla em uma fórmula.
    >
-   > * Não é possível adicionar campos de registros vinculados em uma fórmula. Essa funcionalidade será lançada posteriormente. Para obter mais informações sobre novos lançamentos, consulte [Atividade de versão do Adobe Workfront planning](/help/quicksilver/maestro/release-activity.md).
+   > * Não é possível adicionar campos de registros vinculados em uma fórmula. Essa funcionalidade será lançada posteriormente. Para obter mais informações sobre novos lançamentos, consulte [Atividade de versão do Adobe Workfront Planning](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Clique em **Criar**.
@@ -396,7 +396,7 @@ Você pode usar o tipo de campo Pessoas para adicionar um usuário <!--, job rol
    ![](assets/people-field-type.png)
 
 1. Adicione as seguintes informações no **Novo campo** guia:
-   * **Nome**: O nome do tipo de campo, como ele aparecerá em uma tabela ou na página Detalhes do registro.
+   * **Nome**: o nome do tipo de campo, como ele aparecerá em uma tabela ou página de registro.
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
    * **Permitir valores múltiplos**: selecione essa opção se desejar permitir que os usuários adicionem mais de um usuário nesse campo. Essa opção não está selecionada por padrão.
 
@@ -418,7 +418,7 @@ Você pode usar o tipo de campo Criado por para adicionar o usuário que criou o
 
 1. Adicione as seguintes informações no **Novo campo** guia:
 
-   * **Nome**: O nome do tipo de campo, como ele aparecerá em uma tabela ou na página Detalhes do registro. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Nome**: o nome do tipo de campo, como ele aparecerá em uma tabela ou página de registro. <!--this might change and they might prepopulate it with "Created by"-->
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
 
 1. Clique em **Criar**.
@@ -438,7 +438,7 @@ Você pode usar o tipo de campo Data de criação para adicionar a data em que u
 
 1. Adicione as seguintes informações no **Novo campo** guia:
 
-   * **Nome**: O nome do tipo de campo, como ele aparecerá em uma tabela ou na página Detalhes do registro. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Nome**: o nome do tipo de campo, como ele aparecerá em uma tabela ou página de registro. <!--this might change and they might prepopulate it with "Created date"-->
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
    * **Formato de data**: selecione nos seguintes formatos:
 
@@ -469,7 +469,7 @@ Você pode usar o tipo de campo Última modificação por para adicionar o usuá
 
 1. Adicione as seguintes informações no **Novo campo** guia:
 
-   * **Nome**: O nome do tipo de campo, como ele aparecerá em uma tabela ou na página Detalhes do registro. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Nome**: o nome do tipo de campo, como ele aparecerá em uma tabela ou página de registro. <!--this might change and they might prepopulate it with "Created by"-->
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
 
 1. Clique em **Criar**.
@@ -489,7 +489,7 @@ Você pode usar o tipo de campo Data da última modificação para adicionar a d
 
 1. Adicione as seguintes informações no **Novo campo** guia:
 
-   * **Nome**: O nome do tipo de campo, como ele aparecerá em uma tabela ou na página Detalhes do registro. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Nome**: o nome do tipo de campo, como ele aparecerá em uma tabela ou página de registro. <!--this might change and they might prepopulate it with "Created date"-->
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
    * **Formato de data**: selecione nos seguintes formatos:
 
@@ -513,7 +513,7 @@ Você pode usar o tipo de campo Data da última modificação para adicionar a d
 
 Você pode criar campos de registro vinculados ao adicionar uma nova conexão entre dois tipos de registro Maestri ou um tipo de registro e tipos de objeto de outras aplicações.
 
-Para obter informações sobre como conectar tipos de registro do Workfront planning, consulte [Conectar tipos de registro](../architecture/connect-record-types.md)
+Para obter informações sobre como conectar tipos de registro do Workfront Planning, consulte [Conectar tipos de registro](../architecture/connect-record-types.md)
 
 ## Criar campos importando tipos de registro usando um arquivo Excel e CSV
 
@@ -525,6 +525,6 @@ Ao criar um tipo de registro, vários campos associados ao novo tipo de registro
 
 ## Criar campos criando um espaço de trabalho a partir de um modelo
 
-O Adobe Workfront planning cria campos para tipos de registro quando você cria um espaço de trabalho a partir de um modelo.
+O Adobe Workfront Planning cria campos para tipos de registro quando você cria um espaço de trabalho a partir de um modelo.
 
 Para obter informações, consulte [Criar espaços de trabalho](/help/quicksilver/maestro/architecture/create-workspaces.md).

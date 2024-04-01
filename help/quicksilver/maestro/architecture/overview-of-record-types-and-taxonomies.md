@@ -1,11 +1,11 @@
 ---
 title: Visão geral dos tipos de registro
-description: Os tipos de registro são os blocos de construção de um espaço de trabalho de planejamento do Adobe Workfront.
+description: Os tipos de registro são os blocos de construção de um espaço de trabalho do Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Diferentemente do Workfront, onde os tipos de objeto são predefinidos, no Adobe Workfront Planning você pode criar seus próprios tipos de objeto. Por exemplo, no Workfront, os tipos de objeto de Programa, Portfolio, Projeto, Tarefa ou Problema já foram criados.
 
-Os tipos de objeto de planejamento do Workfront são chamados de &quot;tipos de registro&quot; e você pode criar e personalizar todos eles. Os tipos de registro são os blocos de construção de um espaço de trabalho de planejamento do Workfront. Para obter informações sobre espaços de trabalho, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
+Os tipos de objeto do Workfront Planning são chamados de &quot;tipos de registro&quot; e você pode criar e personalizar todos eles. Os tipos de registro são os blocos de construção de um espaço de trabalho do Workfront Planning. Para obter informações sobre espaços de trabalho, consulte [Criar espaços de trabalho](../architecture/create-workspaces.md).
 
 ## Visão geral do tipo de registro
 

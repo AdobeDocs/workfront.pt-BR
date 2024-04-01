@@ -1,13 +1,13 @@
 ---
 title: Criar espaços de trabalho
-description: Um espaço de trabalho é uma coleção de tipos de registro usados por uma equipe e representa o ciclo de vida do trabalho da equipe. Você pode personalizar totalmente os espaços de trabalho no Adobe Workfront Planning.
+description: Um espaço de trabalho é uma coleção de tipos de registro usados por uma equipe e representa o ciclo de vida do trabalho da equipe. Você pode personalizar totalmente os espaços de trabalho no Adobe Workfront Planning. Os tipos de registro são organizados por seções em um espaço de trabalho.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-No planejamento do Adobe Workfront, os espaços de trabalho são locais centralizados para as equipes planejarem o trabalho.
+No Adobe Workfront Planning, os espaços de trabalho são locais centralizados para as equipes planejarem o trabalho.
 
 Um espaço de trabalho é uma coleção de tipos de registro usados por uma equipe e representa o ciclo de vida do trabalho da equipe. Você pode personalizar totalmente os espaços de trabalho no Adobe Workfront Planning.
 
@@ -61,7 +61,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Configuração do nível de acesso</p></td>
-   <td> <p>Não há controles de nível de acesso para o planejamento do Adobe Workfront</p>
+   <td> <p>Não há controles de nível de acesso para o Adobe Workfront Planning</p>
 </td>
   </tr>
 
@@ -98,8 +98,12 @@ Para obter mais informações sobre requisitos de acesso, consulte [Requisitos d
 * Você pode criar espaços de trabalho para unidades organizacionais específicas na sua organização, para corresponder à maneira exclusiva como cada unidade funciona.
 * Os tipos de registro que um espaço de trabalho contém devem refletir o ciclo de vida de trabalho de uma unidade organizacional.
 * Ao criar um espaço de trabalho, somente você tem permissão para acessar e gerenciar seu espaço de trabalho. Você deve compartilhá-lo com outros usuários para que eles colaborem com você no mesmo espaço. Para obter informações, consulte [Compartilhar um espaço de trabalho](/help/quicksilver/maestro/access/share-workspaces.md). Os administradores do sistema podem gerenciar todos os espaços de trabalho, mesmo aqueles que não criaram.
-* Você pode ter no máximo 1.000 espaços de trabalho na instância do Workfront da sua organização.
-* Os espaços de trabalho contêm tipos de registro exclusivos para cada espaço de trabalho. <!--this might change-->
+* Você pode ter o seguinte:
+
+   * Até 50 seções em um espaço de trabalho.
+   * Até um total de 1.000 tipos de registro de todas as seções em um espaço de trabalho. Todos os tipos de registro são exclusivos para cada espaço de trabalho. <!--this might change-->
+   * Até 1.000 espaços de trabalho na instância do Workfront da sua organização.
+
 
 ## Criar um espaço de trabalho
 
@@ -122,7 +126,7 @@ Para obter mais informações sobre requisitos de acesso, consulte [Requisitos d
 
    ![](assets/previewing-a-workspace-template.png)
 
-   Para obter informações sobre modelos do Workfront planning workspace, consulte [Lista de modelos do espaço de trabalho](../architecture/workspace-templates.md).
+   Para obter informações sobre modelos do Workfront Planning Workspace, consulte [Lista de modelos do espaço de trabalho](../architecture/workspace-templates.md).
 
 1. Clique em **Usar modelo** para começar a criar o espaço de trabalho a partir do modelo selecionado
 
@@ -140,8 +144,6 @@ Para obter mais informações sobre requisitos de acesso, consulte [Requisitos d
    Ou
 
    Clique em **Mais** menu ![](assets/more-menu.png)à direita do nome do espaço de trabalho no cabeçalho e clique em **Renomear**.
-
-1. (Opcional e condicional) Se o espaço de trabalho já tiver seções, clique em **Adicionar seção** para adicionar uma nova seção a um espaço de trabalho. Uma seção pode conter vários tipos de registro.
 
 1. (Opcional e condicional) Se você criou o espaço de trabalho a partir de um modelo, clique dentro do nome do **Tipos de Registro Operacional** ou **Taxonomias** seções
 
@@ -163,8 +165,13 @@ Para obter mais informações sobre requisitos de acesso, consulte [Requisitos d
    * Clique em **Adicionar seção** na parte inferior do espaço de trabalho.
    * Passe o mouse sobre o nome de uma seção e clique no **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Adicionar seção acima** ou **Adicionar seção abaixo**.
 
-1. (Opcional) Clique em **Adicionar tipo de registro** para adicionar tipos de registro ao espaço de trabalho.
+1. (Opcional) Clique em **Adicionar tipo de registro** para adicionar tipos de registro ao espaço de trabalho em qualquer seção.
 
    Para obter informações, consulte [Criar tipos de registro](../architecture/create-record-types.md).
 
+1. (Opcional) Para excluir uma seção, faça o seguinte:
 
+   1. Passe o mouse sobre o nome de uma seção, em seguida, clique no **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Excluir**. <!--add screen shot when UI is final?-->
+   1. Selecione uma nova seção para mover todos os tipos de registro para ela e clique em **Excluir**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
+
+      Todos os tipos de registro são movidos para a seção de seleção, e a seção é excluída.

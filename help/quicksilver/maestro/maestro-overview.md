@@ -1,18 +1,18 @@
 ---
-title: Visão geral do planejamento do Adobe Workfront
-description: O planejamento do Adobe Workfront é uma nova oferta da Adobe Workfront. Você pode criar espaços de trabalho totalmente personalizáveis para definir fluxos de trabalho que atendam às necessidades de cada unidade organizacional da empresa.
+title: Visão geral do Adobe Workfront Planning
+description: O Adobe Workfront Planning é uma nova oferta da Adobe Workfront. Você pode criar espaços de trabalho totalmente personalizáveis para definir fluxos de trabalho que atendam às necessidades de cada unidade organizacional da empresa.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 1%
+source-wordcount: '1790'
+ht-degree: 2%
 
 ---
 
-# Visão geral do planejamento do Adobe Workfront
+# Visão geral do Adobe Workfront Planning
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -22,17 +22,17 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->As informações neste artigo se referem ao planejamento do Adobe Workfront, uma nova oferta da Adobe Workfront.
+>As informações neste artigo se referem ao Adobe Workfront Planning, uma nova oferta da Adobe Workfront.
 >
->Atualmente, o planejamento do Adobe Workfront faz parte de um programa beta aberto a um número limitado de clientes. Você deve ser um cliente do Workfront para usar esses recursos.
+>Atualmente, o Adobe Workfront Planning faz parte de um programa beta aberto a um número limitado de clientes. Você deve ser um cliente do Workfront para usar esses recursos.
 >
 >Entre em contato com seu representante de conta para obter mais informações sobre como participar do programa beta para o Workfront Planning.
 
-<!--[View a video demonstration of Adobe Workfront planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
+<!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 ## Introdução ao Adobe Workfront Planning
 
-O planejamento do Adobe Workfront é uma nova oferta da Adobe Workfront. O objetivo do planejamento da Workfront é desbloquear uma visibilidade abrangente dos detalhes operacionais de uma organização e responder a perguntas comerciais críticas em cada estágio do ciclo de vida do gerenciamento de trabalho.
+O Adobe Workfront Planning é uma nova oferta da Adobe Workfront. O objetivo do Workfront Planning é liberar uma visibilidade abrangente dos detalhes operacionais de uma organização e responder a perguntas comerciais críticas em cada estágio do ciclo de vida do gerenciamento de trabalho.
 
 Equipes e liderança precisam de respostas claras para perguntas como:
 
@@ -49,11 +49,11 @@ Veja a seguir alguns dos principais recursos:
 * Personalize totalmente seus workflows, desde decidir quais tipos de objeto (ou tipos de registro) sua organização usa até configurar como esses objetos se vinculam uns aos outros.
 * Link para tipos de objetos de outros sistemas, criando uma estrutura coerente para todos os seus processos.
 
-## Recursos de planejamento do Adobe Workfront disponíveis no momento
+## Recursos do Adobe Workfront Planning disponíveis no momento
 
 A tabela a seguir ilustra os principais recursos que estarão disponíveis no Workfront Planning e uma linha do tempo de sua disponibilidade. A lista não inclui todos os recursos.
 
-Para obter informações sobre novos recursos e quando eles são lançados, consulte [Atividade de versão do Adobe Workfront planning](/help/quicksilver/maestro/release-activity.md).
+Para obter informações sobre novos recursos e quando eles são lançados, consulte [Atividade de versão do Adobe Workfront Planning](/help/quicksilver/maestro/release-activity.md).
 
 | Recurso | Disponível agora | Disponível em breve | Em pesquisa |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -75,10 +75,10 @@ Para obter informações sobre novos recursos e quando eles são lançados, cons
 | Conectar espaços de trabalho |                               | ✓ µ |                  |
 | Procurar registros na exibição de tabela | ✓ µ |   |
 | Procurar registros na exibição de linha do tempo | ✓ µ |   |
-| Conectar registros de planejamento do Workfront a projetos, programas, portfólios, empresas e grupos do Workfront | ✓ µ |                                 |                  |
-| Conectar registros de planejamento do Workfront aos ativos do Adobe Experience Manager | ✓ µ |                                  |                 |
-| Página Detalhes do registro | ✓ µ |                                  |                  |
-| Atualizar o layout da página Detalhes do registro |                               | ✓ µ |                  |
+| Conectar registros do Workfront Planning a projetos, programas, portfólios, empresas e grupos do Workfront | ✓ µ |                                 |                  |
+| Conectar registros do Workfront Planning aos ativos do Adobe Experience Manager | ✓ µ |                                  |                 |
+| Registrar página com informações detalhadas | ✓ µ |                                  |                  |
+| Atualizar o layout da página do registro |                               | ✓ µ |                  |
 | Compartilhar espaços de trabalho | ✓ µ | |  |
 | Compartilhar exibições | ✓ µ | |  |
 | Exibições duplicadas | ✓ µ | |  |
@@ -89,20 +89,20 @@ Para obter informações sobre novos recursos e quando eles são lançados, cons
 | Adicionar miniaturas aos registros | ✓ µ |                                  |                 |
 | Exibir histórico de alterações em um registro | ✓ µ |                                  |                 |
 | Formatação de Rich Text para campos de parágrafo | ✓ µ |                                  |                 |
-| Módulos de planejamento do Adobe Workfront para Adobe Workfront Fusion | ✓ µ |                                  |                 |
+| Módulos do Adobe Workfront Planning para Adobe Workfront Fusion | ✓ µ |                                  |                 |
 | Copiar e colar informações de um campo para outro | ✓ µ |                                  |                 |
 
-## Habilitar o planejamento do Adobe Workfront para os usuários em sua instância do Workfront
+## Habilitar o Adobe Workfront Planning para os usuários em sua instância do Workfront
 
-Sua organização deve se inscrever no programa beta fechado do Adobe Workfront planning para que você possa acessar os recursos de planejamento. Entre em contato com seu representante de conta para obter informações sobre como se inscrever no programa beta.
+Sua organização deve se inscrever no programa beta fechado do Adobe Workfront Planning antes que você possa acessar os recursos de planejamento. Entre em contato com seu representante de conta para obter informações sobre como se inscrever no programa beta.
 
 Para obter mais informações sobre como conceder acesso e permitir que outras pessoas usem o Workfront Planning, consulte [Visão geral do Access](/help/quicksilver/maestro/access/access-overview.md).
 
-## Terminologia de planejamento do Adobe Workfront
+## Terminologia do Adobe Workfront Planning
 
-Embora o planejamento do Workfront faça parte da Workfront, ele vem com conceitos e terminologia proprietários. Familiarize-se com os novos conceitos antes de começar a configurar o planejamento do Workfront para sua organização.
+Embora o Workfront Planning faça parte da Workfront, ele vem com conceitos e terminologia proprietários. Familiarize-se com os novos conceitos antes de começar a configurar o Workfront Planning para sua organização.
 
-A estrutura do planejamento do Workfront é totalmente personalizável. Você pode criar todos os tipos de registros, seus atributos e quaisquer campos associados a eles para atender às necessidades exatas de sua organização.
+A estrutura do Workfront Planning é totalmente personalizável. Você pode criar todos os tipos de registros, seus atributos e quaisquer campos associados a eles para atender às necessidades exatas de sua organização.
 
 A seguir estão os principais objetos e conceitos do Workfront Planning:
 
@@ -114,7 +114,7 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
 
   Para obter mais informações, consulte [Criar espaços de trabalho](../maestro/architecture/create-workspaces.md).
 
-* **Tipo de registro**: O tipo de objeto ou planejamento do Workfront.
+* **Tipo de registro**: O tipo de objeto do Workfront Planning.
 
   Diferentemente do Workfront, onde os tipos de objeto são predefinidos, no Workfront Planning você pode criar seus próprios tipos de objeto.
 
@@ -138,7 +138,7 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  O Adobe Workfront Planning vem com um modelo de espaço de trabalho de Vendas, Marketing e Gerenciamento de Produtos.
+  O Adobe Workfront Planning vem com um modelo de espaço de trabalho de Vendas, Marketing e Gerenciamento de Produto.
 
   Para obter mais informações, consulte [Criar espaços de trabalho](../maestro/architecture/create-workspaces.md).
 
@@ -150,7 +150,7 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
 
    * Os campos adicionados para um tipo de registro tornam-se automaticamente associados a todos os registros desse tipo e podem ser usados para capturar dados sobre esses registros.
 
-   * Os campos são exibidos como colunas na exibição Tabela aplicada a uma página do tipo registro. Eles também são exibidos na página Detalhes do registro.
+   * Os campos são exibidos como colunas na exibição Tabela aplicada a uma página do tipo registro. Eles também são exibidos na página do registro.
 
    * Os campos são exclusivos de um tipo de registro e não são transferidos de um tipo de registro para outro.
 
@@ -233,13 +233,14 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
 Para obter mais informações, consulte [Gerenciar exibições de registro](../maestro/views/manage-record-views.md).
 
 
-## Limitações do objeto de planejamento do Adobe Workfront
+## Limitações de objetos do Adobe Workfront Planning
 
 A tabela a seguir mostra os limites para quantos objetos você pode criar no Workfront Planning. As limitações estão sujeitas a mudanças conforme avançamos para as próximas fases do desenvolvimento.
 
-| objeto de planejamento do Adobe Workfront | Limite |
+| objeto do Adobe Workfront Planning | Limite |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Número de espaços de trabalho para uma instância do Workfront | 1.000 |
+| Número de seções para um espaço de trabalho | 50 |
 | Número de Tipos de Registro para um espaço de trabalho | 1.000 (isso inclui tipos de registro de todas as seções e aqueles que são criados ao usar um modelo de espaço de trabalho) |
 | Número de registros de um tipo de registro | 50.000 |
 | Número de campos para um tipo de registro ou taxonomia | 500 |
@@ -254,7 +255,7 @@ A tabela a seguir mostra os limites para quantos objetos você pode criar no Wor
 >*Esta funcionalidade foi temporariamente desabilitada e estará disponível em uma data posterior.
 
 
-## Localizar o planejamento do Adobe Workfront
+## Localizar o Adobe Workfront Planning
 
 Certifique-se de que sua organização tenha recebido acesso ao Workfront Planning e que o administrador do sistema ou do grupo tenha adicionado a área do Planning ao Menu Principal. Para obter informações, consulte [Visão geral do Access](/help/quicksilver/maestro/access/access-overview.md).
 
@@ -286,9 +287,9 @@ Para localizar o Workfront Planning:
 
       Comece a adicionar campos de registro adicionando colunas.
 
-## Atividade de versão do Adobe Workfront planning
+## Atividade de versão do Adobe Workfront Planning
 
-Estamos lançando novos recursos regularmente no planejamento do Workfront.
+Estamos lançando novos recursos regularmente no Workfront Planning.
 
-Para obter uma lista atualizada dos recursos lançados, consulte [Atividade de versão do Adobe Workfront planning](../maestro/release-activity.md).
+Para obter uma lista atualizada dos recursos lançados, consulte [Atividade de versão do Adobe Workfront Planning](../maestro/release-activity.md).
 

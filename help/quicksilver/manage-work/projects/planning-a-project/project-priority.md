@@ -2,21 +2,21 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Compreender e atualizar as prioridades do projeto
-description: Há várias maneiras de usar as prioridades para projetos e eles não se comunicam entre si. Recomendamos que você selecione uma das prioridades para projetos que atendam às suas necessidades e se refira a elas ao categorizar a importância dos seus projetos.
+title: Entender e atualizar as prioridades de projeto
+description: Há várias maneiras de usar as prioridades de projetos que não se comunicam entre si. Recomendamos que você selecione uma das prioridades de projetos que corresponda às suas necessidades e faça referência a ela ao categorizar a importância de seus projetos.
 author: Alina
 feature: Work Management
 exl-id: b1e0b6c5-f2a7-455b-836b-6c0ead85e3ad
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: b08edd8dd7c339dffdba4c9ff5aa0a365229e794
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '661'
 ht-degree: 1%
 
 ---
 
-# Compreender e atualizar as prioridades do projeto
+# Entender e atualizar as prioridades de projeto
 
-Há várias maneiras de usar as prioridades para projetos e eles não se comunicam entre si. Recomendamos que você selecione uma das prioridades para projetos que atendam às suas necessidades e se refira a elas ao categorizar a importância dos seus projetos. 
+Há várias maneiras de usar as prioridades de projetos que não se comunicam entre si. Recomendamos que você selecione uma das prioridades de projetos que corresponda às suas necessidades e faça referência a ela ao categorizar a importância de seus projetos.
 
 ## Requisitos de acesso
 
@@ -49,15 +49,15 @@ Há várias maneiras de usar as prioridades para projetos e eles não se comunic
  </tbody> 
 </table>
 -->
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -65,9 +65,9 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a Projetos</p> <p><b>Nota</b>
+   <td> <p>Editar acesso a projetos</p> <p><b>Nota</b>
 
-Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
+Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -76,58 +76,58 @@ Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele defi
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
-## Tipos de prioridade do projeto no Adobe Workfront
+## Tipos de prioridade de projeto no Adobe Workfront
 
 A seguir estão os tipos de prioridades que você pode usar para classificar projetos no Adobe Workfront:
 
-* **O campo Prioridade do projeto**: Você pode atribuir uma Prioridade manualmente a um projeto.
+* **O campo Prioridade do projeto**: é possível atribuir uma Prioridade manualmente a um projeto. Este artigo descreve como atribuir manualmente uma prioridade a um projeto.
 
-   Para obter mais informações sobre o campo Prioridade do projeto , consulte a seção [Considerações sobre a prioridade do projeto](#considerations-about-project-priority) neste artigo.
+  Para obter mais informações, consulte a seção [Considerações sobre a prioridade do projeto](#considerations-about-project-priority) neste artigo.
 
-* **A prioridade de um projeto no Portfolio Otimizer**, se o projeto estiver associado a um portfólio: 
+* **A prioridade de um projeto no Otimizador de Portfolio**, se o projeto estiver associado a um portfólio:
 
-   Para obter mais informações sobre a prioridade de um projeto no Portfolio Otimizer, consulte o artigo [Priorizar projetos no Portfolio Otimizer](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+  Para obter mais informações sobre a prioridade de um projeto no Portfolio Otimizer, consulte o artigo [Priorizar projetos no Portfolio Otimizer](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
-* **A prioridade de um projeto no Planejador de Recursos**: Você pode priorizar projetos manualmente no Planejador de Recursos para indicar quais projetos devem receber recursos primeiro. 
+* **A prioridade de um projeto no Planejador de recursos**: é possível priorizar manualmente os projetos no Planejador de recursos, para indicar quais projetos devem receber recursos primeiro.
 
-   Para obter mais informações sobre priorização de projetos no Planejador de Recursos, consulte a seção &quot;Prioridade de Planejamento de Projetos&quot; no artigo [Visão geral da navegação do Planejador de recursos](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  Para obter mais informações sobre a priorização de projetos no Planejador de recursos, consulte a seção &quot;Prioridade de planejamento de projetos&quot; no artigo [Visão geral da navegação do Planejador de recursos](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Considerações sobre a prioridade do projeto {#considerations-about-project-priority}
 
-Você pode associar uma prioridade a projetos na Workfront. Tarefas e problemas também têm prioridades. Indicar a prioridade do projeto comunica a todos no sistema a importância do projeto.
+Você pode associar uma Prioridade a projetos na Workfront. Indicar uma prioridade para o projeto informa a todos no sistema a importância desse projeto.
 
-Considere o seguinte ao selecionar uma prioridade para seus projetos:
+Considere o seguinte ao selecionar uma Prioridade para seus projetos:
 
-* O administrador do Workfront define as Prioridades disponíveis no Workfront. Depois que elas forem estabelecidas, elas estarão disponíveis para você associar a projetos no campo Prioridade . 
+* O administrador do Workfront define as Prioridades disponíveis no Workfront. Depois que eles os estabelecem, eles ficam disponíveis para você associar a projetos no campo Prioridade.
 
-   Para obter mais informações sobre como criar prioridades no Workfront, consulte o artigo [Criar e personalizar prioridades](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+  Para obter mais informações sobre como criar prioridades no Workfront, consulte o artigo [Criar e personalizar prioridades](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
-* Quando você atualiza o campo Prioridade de um projeto, essa Prioridade não é transferida para o Portfolio Otimizer ou para o Planejador de Recursos. 
-* O valor de prioridade de um projeto é usado principalmente para fins de relatório.
+* Quando você atualiza o campo Prioridade de um projeto, essa Prioridade não é transferida para o Otimizador de Portfolio ou para o Planejador de recursos. O campo Prioridade do projeto é simplesmente um sinalizador manual colocado no projeto para indicar sua importância para outros usuários.
+* O valor de Prioridade de um projeto é usado principalmente para fins de relatório.
 
-   Por exemplo, você pode pesquisar todos os projetos que têm o valor de prioridade Urgente quando usar esse campo em um filtro de projeto. 
-
+  Por exemplo, você pode pesquisar todos os projetos que têm o valor de prioridade Urgente ao usar esse campo em um filtro de projeto.
+* Tarefas e problemas também têm Prioridades, mas as Prioridades de tarefa, problema e projeto funcionam independentemente umas das outras e não se influenciam automaticamente. Você pode ter um problema de alta prioridade ou uma tarefa de prioridade média em um projeto de baixa prioridade.
 * Você pode atualizar a Prioridade dos projetos nas seguintes áreas do Workfront:
 
-   * No **Editar projeto** caixa de diálogo.
+   * No **Editar Projeto** caixa de diálogo.
    * No **Detalhes do projeto** de um projeto.
-   * Em uma lista de projetos ou relatório.
+   * Em uma lista ou relatório de projeto.
 
 ## Atualizar o campo Prioridade do projeto
 
 1. Vá para o projeto cuja Prioridade você deseja atualizar.
 1. Clique em **Detalhes do projeto** no painel esquerdo.
-1. Clique no botão **Editar** ícone ![](assets/qs-edit-icon.png) no canto superior direito da área Detalhes do projeto, clique em **Visão geral**.
+1. Clique em **Editar** ícone ![](assets/qs-edit-icon.png) no canto superior direito da área Detalhes do projeto, clique em **Visão geral**.
 
-1. No **Prioridade** selecione uma das seguintes opções:
+1. No **Prioridade** selecione entre as seguintes opções:
 
    * Nenhum(a)
    * Baixa
    * Normal
 
-      Essa é a prioridade padrão.
+     Esta é a prioridade padrão.
 
    * Alta
    * Urgente

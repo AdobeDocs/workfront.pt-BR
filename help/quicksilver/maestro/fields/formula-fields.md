@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta de planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta de Planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -107,9 +107,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Fórmulas compatíveis
 
-Os campos de fórmula de planejamento do Adobe Workfront suportam todas as expressões dos campos calculados do Workfront. Para obter mais informações, consulte [Visão geral das expressões de dados calculadas](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Os campos de fórmula do Adobe Workfront Planning aceitam todas as expressões dos campos calculados do Workfront. Para obter mais informações, consulte [Visão geral das expressões de dados calculadas](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-Além disso, oferecemos suporte às seguintes expressões para campos de fórmula de planejamento do Workfront:
+Além disso, oferecemos suporte às seguintes expressões para campos de fórmula do Workfront Planning:
 
 <table style="table-layout:auto"> 
  <col> 

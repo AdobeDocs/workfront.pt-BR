@@ -1,22 +1,22 @@
 ---
-title: Atividade de versão do Adobe Workfront planning
-description: Os recursos de planejamento do Adobe Workfront estão disponíveis atualmente para clientes selecionados do Workfront. Leia este artigo com frequência para saber mais sobre os recursos recém-lançados para os recursos de planejamento.
+title: Atividade de versão do Adobe Workfront Planning
+description: Os recursos do Adobe Workfront Planning estão disponíveis no momento para clientes selecionados do Workfront. Leia este artigo com frequência para saber mais sobre os recursos recém-lançados para os recursos de planejamento.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
+source-git-commit: 5c867a0c6f81cc80675409ef9318a228bceaabb5
 workflow-type: tm+mt
-source-wordcount: '5266'
+source-wordcount: '5359'
 ht-degree: 0%
 
 ---
 
-# Atividade de versão do Adobe Workfront planning
+# Atividade de versão do Adobe Workfront Planning
 
 {{maestro-important-intro}}
 
-Este artigo lista os recursos que foram lançados após o lançamento do programa beta fechado de recursos de planejamento do Adobe Workfront, em 22 de maio de 2023.
+Este artigo lista os recursos que foram lançados após o lançamento do programa beta fechado de recursos do Adobe Workfront Planning, em 22 de maio de 2023.
 
 Os recursos lançados são listados na ordem de lançamento, com o mais recente primeiro. Os clientes que estão participando do programa beta fechado de recursos de planejamento podem acessar todos os recursos em seus ambientes de Produção.
 
@@ -24,7 +24,7 @@ Os recursos lançados são listados na ordem de lançamento, com o mais recente 
 >
 >Entre maio e dezembro de 2023, todos os recursos deste artigo foram lançados para o ambiente de Pré-visualização e Produção. Os recursos de planejamento foram temporariamente removidos dos ambientes Pré-visualização e Sandbox desde janeiro de 2024. Todos os recursos lançados após essa data estão disponíveis atualmente na Produção.
 
-Este artigo lista os recursos e correções lançados após o lançamento do programa beta de recursos de planejamento do Adobe Workfront fechado, em 22 de maio de 2023.
+Este artigo lista os recursos e patches que foram lançados após o lançamento do programa beta fechado de recursos do Adobe Workfront Planning, em 22 de maio de 2023.
 
 Os recursos são lançados semanalmente e são listados na ordem de lançamento, com o mais recente primeiro. Os clientes que estão participando do programa beta fechado de recursos de planejamento podem acessar todos os recursos em seus ambientes de Pré-visualização e Produção.
 
@@ -64,13 +64,23 @@ Para obter mais informações, consulte [Gerenciar exibições de registro](/hel
 
 ### A área Maestro foi renomeada no Menu Principal para Planejamento
 
-Produção: 28 de março de 2024
+Produção: 27 de março de 2024
 
 Visualização: a ser determinado
 
 Nós renomeamos a área Maestro no Menu Principal para Planejamento.
 
-Para obter uma visão geral do planejamento do Adobe Workfront, consulte [Visão geral do planejamento do Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
+Para obter uma visão geral do Adobe Workfront Planning, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/maestro/maestro-overview.md).
+
+### Nova experiência ao excluir um tipo de registro
+
+Produção: 27 de março de 2024
+
+Visualização: a ser determinado
+
+Reprojetamos a caixa de confirmação ao excluir um tipo de registro. A exclusão de um tipo de registro é impactante, pois também exclui todos os registros, seus campos, as informações nos campos, bem como as exibições associadas ao tipo de registro. Os tipos de registro excluídos e suas informações excluídas não podem ser recuperados.
+
+Por esse motivo, queríamos garantir que a intenção do usuário seja precisa ao excluir um tipo de registro, para que tenhamos introduzido uma etapa extra na confirmação da exclusão. Para obter mais informações, consulte [Excluir tipos de registro](/help/quicksilver/maestro/architecture/delete-record-types.md).
 
 ## Semana de 18 de março de 2024
 
@@ -82,15 +92,15 @@ Visualização: a ser determinado
 
 Agora você pode filtrar informações na exibição de calendário. Para obter mais informações, consulte [Gerenciar a exibição de calendário](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
-### Caixa Detalhes adicionada às exibições de linha do tempo e calendário
+### Caixa com detalhes de registro adicionados às exibições de linha do tempo e calendário
 
 Produção: 19 de março de 2024
 
 Visualização: a ser determinado
 
-Agora você pode acessar a caixa Detalhes de um registro das exibições de linha do tempo e calendário. É possível editar registros na caixa Detalhes dentro das exibições de linha do tempo e calendário.
+Agora você pode acessar uma caixa com detalhes de registro das exibições de linha do tempo e calendário. É possível editar registros na caixa do registro dentro das exibições de linha do tempo e calendário.
 
-Na caixa Detalhes, é possível abrir a página Detalhes do registro.
+Na caixa do registro, é possível abrir a página do registro em uma nova guia do navegador.
 
 Para obter mais informações, consulte [Editar registros](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -116,7 +126,7 @@ Para facilitar a exibição de informações adicionais sobre registros ao usar 
 
 * Capacidade de modificar informações de registro
 
-* Um link para abrir a página Detalhes do registro
+* Um link para abrir a página do registro
 
 Para obter mais informações, consulte [Editar registros](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -360,7 +370,7 @@ Para criar consistência ao criar registros, renomeamos o link + Novo para criar
 
 Pré-visualização e sandbox: 11 de janeiro de 2024
 
-Os recursos de planejamento do Adobe Workfront foram removidos temporariamente dos ambientes Pré-visualização e Sandbox. Eles serão adicionados a esses ambientes posteriormente, o que será comunicado nas notas de atividade da versão.
+Os recursos do Adobe Workfront Planning foram removidos temporariamente dos ambientes Pré-visualização e Sandbox. Eles serão adicionados a esses ambientes posteriormente, o que será comunicado nas notas de atividade da versão.
 
 ### Permissões de recursos do Planning para espaços de trabalho e exibições
 
@@ -387,7 +397,7 @@ A seguir estão os níveis de permissões para exibições de registro:
 * View: Os usuários podem selecionar a view no menu drop-down Exibir de uma página do tipo de registro.
 * Gerenciar: Os usuários podem editar, compartilhar e excluir a exibição.
 
-Para obter mais informações, consulte [Visão geral do Access](/help/quicksilver/maestro/access/access-overview.md) e [Visão geral das permissões de compartilhamento nos recursos de planejamento do Adobe Workfront](../maestro/access/sharing-permissions-overview.md).
+Para obter mais informações, consulte [Visão geral do Access](/help/quicksilver/maestro/access/access-overview.md) e [Visão geral das permissões de compartilhamento nos recursos do Adobe Workfront Planning](../maestro/access/sharing-permissions-overview.md).
 
 ### Novo tipo de campo Fórmula
 
@@ -439,7 +449,7 @@ Agora é possível pesquisar uma palavra-chave para localizar rapidamente um reg
 
 ## Semana de 18 de dezembro de 2023
 
-### Adicionar comentários nos registros da página Detalhes
+### Adicionar comentários nos registros da página do registro
 
 Pré-visualização e produção para todos os clientes: 18 de dezembro de 2023
 
@@ -455,7 +465,7 @@ Pré-visualização e produção para todos os clientes: 18 de dezembro de 2023
 >
 >Para obter mais informações, consulte [Visão geral da versão do primeiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-Agora é possível colaborar com outras pessoas em registros individuais adicionando comentários ou respondendo a outras pessoas ao visualizar um registro na página Detalhes.
+Agora é possível colaborar com outras pessoas em registros individuais adicionando comentários ou respondendo a outras pessoas ao visualizar a página de um registro.
 
 A experiência de comentários para registros de recursos de planejamento corresponde à nova experiência de comentários para objetos do Workfront.
 
@@ -467,7 +477,7 @@ Produção: 21 de dezembro de 2023
 
 >[!IMPORTANT]
 >
->Sua organização deve comprar o Adobe Workfront Fusion para poder criar conexões com os recursos de planejamento do Adobe Workfront.
+>Sua organização deve comprar o Adobe Workfront Fusion para criar conexões com os recursos do Adobe Workfront Planning.
 >
 >Para obter informações, consulte [Visão geral do Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
@@ -525,11 +535,11 @@ Versão de produção: 21 de dezembro de 2023
 
 >[!IMPORTANT]
 >
->A instância da Workfront de sua organização deve ser integrada à Plataforma comercial Adobe ou à Adobe Admin Console para poder conectar os registros de recursos de planejamento da Adobe Workfront à Adobe Experience Manager Assets.
+>A instância da Workfront de sua organização deve ser integrada à Plataforma de negócios Adobe ou à Adobe Admin Console para poder conectar os registros de recursos do Adobe Workfront Planning à Adobe Experience Manager Assets.
 >
 >Em caso de dúvidas sobre a integração com a Adobe Admin Console, consulte [Perguntas frequentes sobre a experiência unificada do Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-Agora é possível estabelecer uma conexão entre os tipos de registro dos recursos de planejamento do Adobe Workfront e o Adobe Experience Manager Assets.
+Agora é possível estabelecer uma conexão entre os tipos de registro dos recursos do Adobe Workfront Planning e o Adobe Experience Manager Assets.
 
 Após estabelecer a conexão, a seguinte funcionalidade estará disponível com esta atualização:
 
@@ -608,7 +618,7 @@ Para obter mais informações, consulte [Gerenciar a exibição de tabela](../ma
 
 Pré-visualização e produção: 30 de outubro de 2023
 
-Introduzimos os seguintes tipos de campo para os registros de recursos de planejamento do Adobe Workfront:
+Introduzimos os seguintes tipos de campo para os registros de recursos do Adobe Workfront Planning:
 
 * Criado por
 
@@ -630,7 +640,7 @@ Agora é possível abrir as páginas de objetos do Workfront nas seguintes área
 
 * A exibição da tabela de registro de objeto vinculada ao Workfront somente leitura
 
-* A página Detalhes do registro de objeto do Workfront somente leitura
+* A página de registro de objeto do Workfront somente leitura
 
 Para obter mais informações, consulte [Conectar registros](../maestro/records/connect-records.md).
 
@@ -662,7 +672,7 @@ Agora é possível adicionar um campo do tipo Pessoas aos tipos de registro de r
 
 Pré-visualização e produção: 16 de outubro de 2023
 
-Adicionamos controles de formato Rich Text para campos do tipo Parágrafo. É possível formatar campos de parágrafo usando Rich Text na exibição de Tabela de um tipo de registro ou na página Detalhes de um registro. Para obter mais informações, consulte [Editar registros](../maestro/records/edit-records.md).
+Adicionamos controles de formato Rich Text para campos do tipo Parágrafo. É possível formatar campos de parágrafo usando Rich Text na exibição de Tabela de um tipo de registro ou na página de registro. Para obter mais informações, consulte [Editar registros](../maestro/records/edit-records.md).
 
 
 ### Registrar e agrupar codificação por cores para a exibição de Linha do tempo
@@ -752,7 +762,7 @@ Para obter mais informações, consulte [Gerenciar a exibição de tabela](../ma
 
 ## Semana de 21 de agosto de 2023
 
-### Conectar registros de recursos de planejamento do Adobe Workfront a programas e portfólios
+### Conectar registros de recursos do Adobe Workfront Planning a programas e portfólios
 
 Pré-visualização e produção: 24 de agosto de 2023
 
@@ -839,7 +849,7 @@ Agora é possível adicionar um tipo de campo Caixa de seleção a tipos de regi
 
 Pré-visualização e produção: 28 de junho de 2023
 
-Ativamos a capacidade de ativar o menu contextual clicando com o botão direito do mouse em qualquer lugar em uma linha de registro, ao visualizar os registros na exibição de tabela ou em um tipo de registro. Agora é possível visualizar, excluir ou copiar rapidamente um link para a página Detalhes do registro ao acessar o menu contextual de qualquer lugar na exibição de tabela de um tipo de registro. Antes desse aprimoramento, o menu contextual era acessível somente pelo menu Mais na coluna Nome de um registro.
+Ativamos a capacidade de ativar o menu contextual clicando com o botão direito do mouse em qualquer lugar em uma linha de registro, ao visualizar os registros na exibição de tabela ou em um tipo de registro. Agora é possível visualizar, excluir ou copiar rapidamente um link para a página do registro ao acessar o menu contextual de qualquer lugar na exibição de tabela de um tipo de registro. Antes desse aprimoramento, o menu contextual era acessível somente pelo menu Mais na coluna Nome de um registro.
 
 ## Semana de 19 de junho de 2023
 
@@ -849,7 +859,7 @@ Agora, introduzimos um requisito para que os nomes de campos de um tipo de regis
 
 ## Semana de 5 de junho de 2023
 
-### Conectar registros de recursos de planejamento do Adobe Workfront com projetos do Workfront
+### Conectar registros de recursos do Adobe Workfront Planning com projetos Workfront
 
 Pré-visualização e produção: 5 de junho de 2023
 

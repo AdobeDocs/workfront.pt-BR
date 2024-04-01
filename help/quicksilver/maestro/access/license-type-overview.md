@@ -1,27 +1,29 @@
 ---
 title: Visão geral do tipo de licença ao usar o Adobe Workfront Planning
-description: O acesso ao Adobe Workfront Planning depende do tipo de licença, além das permissões para objetos.
+description: Seu acesso ao Adobe Workfront Planning depende do tipo de licença, além das permissões para objetos.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront plannint. This article describes the levels of access that users could have to Adobe Workfront planning. -->
-<!--update the title and the metadata title if Workfront planning is NOT its own product - because the title is too generic for it being a Workfront capability-->
+<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront plannint. This article describes the levels of access that users could have to Adobe Workfront Planning. -->
+<!--update the title and the metadata title if Workfront Planning is NOT its own product - because the title is too generic for it being a Workfront capability-->
 
 # Visão geral do tipo de licença ao usar o Adobe Workfront Planning
 
 {{maestro-important-intro}}
 
-Seu tipo de licença do Adobe Workfront funciona em conjunto com suas permissões de planejamento do Adobe Workfront para fornecer acesso a exibir, contribuir ou gerenciar espaços de trabalho ou exibições. <!--add more objects here when we can grant other object-specific permissions-->
+Seu tipo de licença do Adobe Workfront funciona em conjunto com suas permissões do Adobe Workfront Planning para fornecer acesso a exibir, contribuir ou gerenciar espaços de trabalho. <!--add more objects here when we can grant other object-specific permissions-->
 
-Este artigo descreve os tipos de licenças necessárias e o acesso concedido aos objetos com base em cada tipo de licença.
+Os usuários com todos os tipos de licença podem exibir, criar, editar ou gerenciar exibições do Workfront Planning.
+
+Este artigo descreve os tipos de licenças necessárias no Workfront e as permissões concedidas a objetos no Workfront Planning com base em cada tipo de licença.
 
 Um usuário com um tipo de licença de nível inferior tem permissões restritas para objetos ao usar os recursos do Workfront Planning.
 
@@ -36,12 +38,12 @@ Um usuário com um tipo de licença de nível inferior tem permissões restritas
 
 Para obter informações sobre permissões para objetos no Workfront Planning, consulte [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
 
-## A relação entre os tipos de licença do Workfront e as permissões de planejamento do Workfront
+## O relacionamento entre os tipos de licença do Workfront e as permissões do Workfront Planning
 
-A tabela a seguir descreve a relação entre o tipo de licença de um usuário e o nível de permissões que você pode conceder a ele com base nessa licença:
+A tabela a seguir descreve o relacionamento entre o tipo de licença de um usuário no Adobe Workfront e o nível de permissões que você pode conceder a ele para objetos do Adobe Workfront Planning com base nessa licença:
 
 
-| Tipo de licença do Adobe Workfront | Permissões permitidas no planejamento do Adobe Workfront |
+| Tipo de licença do Adobe Workfront | Permissões permitidas no Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Novo: Padrão <br> ou <br>Atual: Plano | Os usuários podem criar e gerenciar espaços de trabalho, tipos de registro e registros. |
 | Novo: Claro <br> ou <br>Atual: Trabalho | Os usuários podem contribuir e exibir um espaço de trabalho compartilhado com eles, bem como os tipos de registro e registros desse espaço de trabalho.  Os usuários podem criar, editar e excluir registros nos espaços de trabalho em que têm permissões do Contribute. |

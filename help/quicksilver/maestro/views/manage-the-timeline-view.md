@@ -1,13 +1,13 @@
 ---
 title: Gerenciar a exibição de linha do tempo
-description: Você pode exibir registros em uma exibição de linha do tempo ao acessar a página tipo de registro no Adobe Workfront Planning.
+description: Você pode exibir registros em uma exibição de linha do tempo, ao acessar a página tipo de registro no Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1714'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ role: User
 
 {{maestro-important-intro}}
 
-Você pode exibir registros em uma exibição de linha do tempo ao acessar a página tipo de registro no Adobe Workfront Planning.
+Você pode exibir registros em uma exibição de linha do tempo, ao acessar a página tipo de registro no Adobe Workfront Planning.
 
 Para obter informações sobre visualizações de registros, consulte [Gerenciar exibições de registro](../views/manage-record-views.md).
 
@@ -51,7 +51,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta de planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta de Planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -64,12 +64,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td>
    <td>
    <p>Qualquer</p> 
+   <p>Os administradores do sistema têm acesso somente às exibições criadas ou compartilhadas com eles. </p>
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Configuração do nível de acesso</td>
-   <td> <p>Não há controles de nível de acesso para o planejamento do Adobe Workfront </p>  
+   <td> <p>Não há controles de nível de acesso para o Adobe Workfront Planning </p>  
 </td>
   </tr>
 

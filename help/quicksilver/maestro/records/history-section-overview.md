@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '446'
 ht-degree: 4%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 4%
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-É possível colaborar em registros de planejamento do Adobe Workfront, adicionando comentários ou respostas no painel direito de um registro. Você também pode exibir outras alterações feitas no registro e registradas pelo sistema nessa área.
+É possível colaborar em registros do Adobe Workfront Planning, adicionando comentários ou respostas no painel direito de um registro. Você também pode exibir outras alterações feitas no registro e registradas pelo sistema nessa área.
 
 O painel direito de um registro exibe as seguintes seções:
 
-* **Comentários**: exibe comentários e respostas que os usuários adicionam aos registros. Para obter mais informações sobre o gerenciamento de comentários em registros de planejamento do Workfront, consulte [Gerenciar comentários de registro](/help/quicksilver/maestro/records/manage-record-comments.md).
+* **Comentários**: exibe comentários e respostas que os usuários adicionam aos registros. Para obter mais informações sobre o gerenciamento de comentários em registros do Workfront Planning, consulte [Gerenciar comentários de registro](/help/quicksilver/maestro/records/manage-record-comments.md).
 * **Histórico**: exibe as alterações registradas pelo sistema que os usuários fazem nos campos de registro.
 
 ## Localizar a seção Histórico de um registro
@@ -40,13 +40,13 @@ O último espaço de trabalho acessado é aberto por padrão.
 1. Escolha uma exibição de tabela na **Exibir** menu suspenso.
 1. Clique no nome de um registro na exibição de tabela.
 
-   O registro **Detalhes** é aberta. A área Comentários é aberta por padrão no painel direito.
+   A página do registro é aberta. A área Comentários é aberta por padrão no painel direito.
 1. Clique em **Mostrar histórico** ícone ![](assets/show-history-icon.png). Todas as alterações feitas nos campos do registro são exibidas no painel direito, começando pela mais recente.
 1. (Opcional) Clique no link **Ocultar histórico** ícone ![](assets/hide-history-icon.png) para fechar o painel direito.
 
 ## Considerações sobre a seção Histórico
 
-Você pode revisar as alterações feitas nos campos de registro na seção Histórico do painel direito da página Detalhes de um registro.
+Você pode revisar as alterações feitas nos campos de registro na seção History do painel direito da página de um registro.
 
 ![](assets/history-area-in-comments.png)
 
@@ -80,7 +80,7 @@ Você pode revisar as alterações feitas nos campos de registro na seção Hist
 
 * Os campos do tipo caixa de seleção nunca exibem o valor antigo no formato tachado. Se o campo for editado, somente o estado atual no momento em que a alteração foi feita será exibido.
 
-  Para obter mais informações sobre os campos de planejamento do Workfront, consulte [Criar campos](/help/quicksilver/maestro/fields/create-fields.md).
+  Para obter mais informações sobre campos do Workfront Planning, consulte [Criar campos](/help/quicksilver/maestro/fields/create-fields.md).
 
 * As alterações nos campos dos seguintes tipos não são exibidas na seção History:
 

@@ -1,13 +1,13 @@
 ---
 title: Compartilhar registros
-description: Você pode compartilhar registros com outras pessoas para aumentar sua colaboração.
+description: Você pode compartilhar registros com outras pessoas para aumentar a colaboração.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,15 @@ ht-degree: 0%
 
 Para colaborar com outros usuários, é possível compartilhar registros com outras pessoas.
 
-Você pode compartilhar um registro de planejamento do Adobe Workfront das seguintes maneiras:
+Você pode compartilhar um registro do Adobe Workfront Planning das seguintes maneiras:
 
-* Copie o link da página Detalhes de um registro do navegador quando a página estiver aberta.
+* Copie o link da página de registro do seu navegador quando a página estiver aberta.
 
-* Copie um link para a página Detalhes do registro ao exibir registros na exibição de tabela do tipo de registro.
+* Copie um link para a página do registro ao exibir registros na exibição de tabela do tipo de registro.
 
 * Você pode compartilhar todos os registros em um espaço de trabalho com outros usuários compartilhando o espaço de trabalho. Para obter mais informações, consulte [Compartilhar um espaço de trabalho](/help/quicksilver/maestro/access/share-workspaces.md).
 
-Este artigo descreve como você pode copiar um link para a página Detalhes de um registro da exibição de tabela de um tipo de registro.
+Este artigo descreve como você pode copiar um link para a página de um registro da exibição de tabela de um tipo de registro.
 
 ## Requisitos de acesso
 
@@ -50,7 +50,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta fechado de planejamento da Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta fechado do Adobe Workfront Planning. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -68,7 +68,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Configuração do nível de acesso</p></td>
-   <td> <p>Não há controles de nível de acesso para o planejamento do Workfront</p>  
+   <td> <p>Não há controles de nível de acesso para o Workfront Planning</p>  
 </td>
   </tr>
 <tr>
@@ -124,11 +124,11 @@ O espaço de trabalho que você acessou por último é aberto.
 
    O link é copiado para a área de transferência.
 
-1. Cole o link em um email ou janela de chat para compartilhar com outros usuários. Quando os usuários recebem o link, ele abre a página Detalhes do registro.
+1. Cole o link em um email ou janela de chat para compartilhar com outros usuários. Quando os usuários recebem o link, ele abre a página de registro.
 
    >[!TIP]
    >
-   >Os campos do registro na página Detalhes são os mesmos campos disponíveis na exibição Tabela do registro.
+   >Os campos na página de registro são os mesmos campos disponíveis na exibição Tabela do registro.
 
 
    <!--add there when it will be available: if they have access to this record-->

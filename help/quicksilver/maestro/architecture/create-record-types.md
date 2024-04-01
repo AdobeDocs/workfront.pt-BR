@@ -5,14 +5,15 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--this is linked to the UI in an empty workspace screen-->
 
 # Criar tipos de registro
 
@@ -42,7 +43,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta fechado de planejamento da Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta fechado do Adobe Workfront Planning. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -62,7 +63,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Configurações de nível de acesso</p></td>
-   <td> <p>Não há controles de nível de acesso para o planejamento do Workfront</p>  
+   <td> <p>Não há controles de nível de acesso para o Workfront Planning</p>  
 </td>
   </tr>
 <tr>
@@ -105,20 +106,20 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
         >
         >Essa funcionalidade está temporariamente desativada desde 21 de março de 2024. Ela será ativada posteriormente.
 
-     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront planning which is connected to object types from the original application. 
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
         For information about connecting objects with records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * Manualmente:
 
       * Do zero.
 
-        Este artigo descreve como criar tipos de registro genéricos do zero em um espaço de trabalho criado do zero.
+        Este artigo descreve como criar tipos de registro do zero.
 
 * Você pode mover tipos de registro em uma seção e de uma seção de um espaço de trabalho para outra. Não é possível mover tipos de registro de um espaço de trabalho para outro.
 
 ## Criar tipos de registro usando um modelo de espaço de trabalho
 
-Você pode criar tipos de registro automaticamente ao criar um espaço de trabalho usando um modelo de planejamento do Workfront. Cada modelo contém tipos de registro de amostra.
+É possível criar tipos de registro automaticamente ao criar um espaço de trabalho usando um modelo do Workfront Planning. Cada modelo contém tipos de registro de amostra.
 
 Ao criar um espaço de trabalho a partir de um modelo, os tipos de registro são agrupados nas seguintes seções:
 
@@ -133,17 +134,14 @@ Para obter informações sobre quais tipos de registro são incluídos em cada m
 
 ## Criar um tipo de registro do zero
 
-Este artigo descreve como criar tipos de registro do zero.
-
 {{step1-to-maestro}}
 
 O espaço de trabalho acessado por último deve ser aberto por padrão.
 
 1. (Opcional) Expanda a seta apontando para baixo à direita de um nome de espaço de trabalho existente e selecione o espaço de trabalho para o qual deseja criar tipos de registro.
+1. (Opcional) Clique em **Adicionar seção** para adicionar uma nova seção ao espaço de trabalho.
 1. Clique em **Adicionar tipo de registro**.
-1. (Condicional) Se você estiver criando um tipo de registro operacional, clique em **Do zero**.
-
-   A caixa Adicionar tipo de registro é aberta.
+1. (Condicional) Ao criar tipos de registro importando um arquivo do Excel ou CSV ativado, clique em **Do zero**. Caso contrário, a variável **Adicionar tipo de registro** é aberta.
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
@@ -156,13 +154,17 @@ O espaço de trabalho acessado por último deve ser aberto por padrão.
 
 1. Clique fora da **Adicionar tipo de registro** para salvar o tipo de registro.
 
-   O cartão de tipo de registro é adicionado ao espaço de trabalho selecionado.
+   O cartão de tipo de registro é adicionado à seção e ao espaço de trabalho selecionados.
 O número de campos que o tipo de registro contém é exibido no cartão.
 1. (Opcional) Clique no cartão de tipo de registro para abrir a página de tipo de registro.
 
    ![](assets/operational-record-type-blank.png)
 
-   A página de tipo de registro é exibida na exibição Tabela por padrão. As colunas da tabela são campos associados ao novo tipo de registro. Cada linha é um registro exclusivo que deve ser adicionado.
+   A página de tipo de registro é exibida na exibição de tabela por padrão. As colunas da tabela são campos associados ao novo tipo de registro. Cada linha é um registro exclusivo que deve ser adicionado.
+
+   >[!TIP]
+   >
+   >    Se você importar um tipo de registro de um arquivo Excel ou CSV, os registros também serão importados.
 
    Por padrão, os seguintes campos são exibidos nas colunas de exibição de tabela de um tipo de registro operacional:
 
@@ -183,7 +185,7 @@ O número de campos que o tipo de registro contém é exibido no cartão.
 
    Para obter mais informações sobre a criação de campos, consulte [Criar campos](../fields/create-fields.md).
 
-1. (Opcional) Clique na seta à esquerda do nome do tipo de registro para voltar ao espaço de trabalho selecionado.
+1. (Opcional) Clique na seta à esquerda do nome do tipo de registro, no cabeçalho, para voltar ao espaço de trabalho selecionado.
 
    O cartão de tipo de registro exibe o número de campos e conexões que o tipo de registro contém.
 
@@ -196,16 +198,15 @@ O número de campos que o tipo de registro contém é exibido no cartão.
    * [Editar tipos de registro](../architecture/edit-record-types.md)
    * [Gerenciar exibições de registro](../views/manage-record-views.md)
 
-1. (Opcional) No espaço de trabalho, clique em para arrastar e soltar um tipo de registro em um ponto desejado ou em para movê-lo para outra seção.
+1. (Opcional) No espaço de trabalho, clique e mantenha pressionado um cartão de tipo de registro para arrastar e soltar o tipo de registro em um ponto desejado ou para movê-lo para outra seção.
 
-   As alterações são salvas automaticamente, depois que você solta o cartão de tipo de registro selecionado.
+   As alterações são salvas automaticamente.
 
 ## Criar tipos de registro importando um arquivo Excel ou CSV
 
 >[!IMPORTANT]
 >
 >Essa funcionalidade está temporariamente desativada desde 21 de março de 2024. Ela será ativada posteriormente.
-
 
 Considere o seguinte ao importar tipos de registro usando um arquivo Excel ou CSV:
 
@@ -233,7 +234,7 @@ O espaço de trabalho acessado por último deve ser aberto por padrão.
 
    A caixa Preview and edit é exibida com as seguintes informações:
 
-   * Os nomes das planilhas ou dos futuros tipos de registros são exibidos no painel esquerdo. Por padrão, o Workfront planning seleciona um ícone e uma cor para cada novo tipo de registro.
+   * Os nomes das planilhas ou dos futuros tipos de registros são exibidos no painel esquerdo. Por padrão, o Workfront Planning seleciona um ícone e uma cor para cada novo tipo de registro.
    * A primeira folha ou tipo de registro é selecionado e os nomes dos campos associados a ela são exibidos como cabeçalhos de coluna. O tipo de cada campo é selecionado por padrão.
    * Cada linha representa um novo registro. Somente os primeiros 10 registros são exibidos na caixa Preview and edit.
 
@@ -266,9 +267,9 @@ O espaço de trabalho acessado por último deve ser aberto por padrão.
 
 <!--## Connect record types with object types from another application
 
-You can connect a record type and an object type from another application. This creates a read-only record type in Workfront planning that corresponds to the object type in the other application. 
+You can connect a record type and an object type from another application. This creates a read-only record type in Workfront Planning that corresponds to the object type in the other application. 
 
-For example, you can create record types by connecting Workfront planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+For example, you can create record types by connecting Workfront Planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront Planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
     
 You can import the following objects from the following applications: 
 

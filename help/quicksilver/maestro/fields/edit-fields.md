@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -25,22 +25,21 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-
 # Editar campos
 
 {{maestro-important-intro}}
 
 É possível editar as configurações de campo para campos já criados no Adobe Workfront Planning.
 
-Para obter informações sobre como criar campos de planejamento do Adobe Workfront, consulte [Criar campos](../fields/create-fields.md).
+Para obter informações sobre a criação de campos do Adobe Workfront Planning, consulte [Criar campos](../fields/create-fields.md).
 
-Este artigo descreve como editar as configurações dos campos de planejamento do Workfront. Para obter informações sobre edição de valores de campo para registros, consulte [Editar registros](/help/quicksilver/maestro/records/edit-records.md).
+Este artigo descreve como é possível editar as configurações para campos do Workfront Planning. Para obter informações sobre edição de valores de campo para registros, consulte [Editar registros](/help/quicksilver/maestro/records/edit-records.md).
 
 ## Considerações sobre a edição de informações de campo
 
 * É possível editar campos criados ou campos criados por outros usuários, se você tiver permissões de gerenciamento para o espaço de trabalho ao qual os campos pertencem.
 * É possível editar um campo na tabela de tipo de registro.
-* Não é possível editar um campo na página Detalhes de um registro ou na exibição de linha do tempo.
+* Não é possível editar um campo na página de registro ou na exibição de linha do tempo.
 * Não é possível editar o tipo de campo depois que o campo é salvo.
 * Não é possível desmarcar a configuração Permitir números negativos que foi selecionada anteriormente para um campo Número, Porcentagem ou Moeda se já houver valores negativos armazenados nos registros aos quais está anexado.
 <!--this is not true yet; one piece of it is true and I added it as the bullet above: 
@@ -69,7 +68,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta de planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta de Planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -87,7 +86,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Configuração do nível de acesso</p></td>
-   <td> <p>Não há controles de acesso para o planejamento do Workfront</p>  
+   <td> <p>Não há controles de acesso para o Workfront Planning</p>  
 </td>
   </tr>
 

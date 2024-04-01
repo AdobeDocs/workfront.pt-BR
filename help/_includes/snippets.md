@@ -1,5 +1,5 @@
 ---
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
 source-wordcount: '2355'
 ht-degree: 1%
@@ -253,13 +253,13 @@ Você deve instalar o plug-in correto para o aplicativo da Adobe Creative Cloud 
 
 >[!IMPORTANT]
 >
->As informações neste artigo se referem ao planejamento do Adobe Workfront, uma nova oferta da Adobe Workfront.
+>As informações neste artigo se referem ao Adobe Workfront Planning, uma nova oferta da Adobe Workfront.
 >
->Atualmente, o planejamento do Workfront faz parte de um programa beta aberto a um número limitado de clientes. Você deve ser um cliente do Workfront para usar esses recursos.
+>Atualmente, o Workfront Planning faz parte de um programa beta aberto a um número limitado de clientes. Você deve ser um cliente do Workfront para usar esses recursos.
 >
 >Entre em contato com seu representante de conta para obter mais informações sobre como participar do programa beta para o Workfront Planning.
 >
->Para obter mais informações, consulte [Visão geral do planejamento do Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
+>Para obter mais informações, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

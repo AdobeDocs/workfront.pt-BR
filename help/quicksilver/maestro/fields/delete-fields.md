@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -33,9 +33,9 @@ No Adobe Workfront Planning, é possível criar campos personalizados para armaz
 
 Para obter informações sobre como criar campos personalizados no Workfront Planning, consulte [Criar campos](../fields/create-fields.md).
 
-É possível excluir campos de planejamento do Workfront que não são mais relevantes.
+É possível excluir campos do Workfront Planning que não são mais relevantes.
 
-## Considerações sobre a exclusão de campos de planejamento do Workfront:
+## Considerações sobre a exclusão de campos do Workfront Planning:
 
 * É possível excluir um campo somente na exibição de tabela do tipo de registro.
 * Não é possível excluir o campo principal de um registro.
@@ -65,7 +65,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta de planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no programa beta de Planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
    </td>
   </tr>
   <tr>
@@ -83,7 +83,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <tr>
    <td role="rowheader"><p>Configurações de nível de acesso</p></td>
-   <td> <p>Não há controles de nível de acesso para o planejamento do Workfront</p>  
+   <td> <p>Não há controles de nível de acesso para o Workfront Planning</p>  
 </td>
   </tr>
 <tr>
