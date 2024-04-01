@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
+source-git-commit: 876991bab19d065257802a903adf432e420fcc44
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '2020'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
 ## Aprimoramentos do Adobe Workfront
 
 * [Melhorias do administrador](#administrator-enhancements)
+* [Aprimoramentos no gerenciamento de documentos](#document-management-enhancements)
 * [Aprimoramentos na página inicial](#home-enhancements)
 * [Aprimoramentos do projeto](#project-enhancements)
 * [Melhorias no gerenciamento de recursos](#resource-management-enhancements)
@@ -64,7 +65,23 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Agora, empresas e usuários oferecem suporte a campos de formulário personalizados avançados</a><span style="color: #ff0000;"> Novo na visualização!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">A lógica de exibição e a lógica de salto agora estão disponíveis no modo de visualização do designer de formulário</a><span style="color: #ff0000;"> Novo na visualização!</span></p>
+                        <p>O designer de formulário personalizado beta agora permite testar a lógica de exibição e ignorar a lógica no modo de visualização. Anteriormente, todos os campos eram exibidos na visualização mesmo quando a lógica era aplicada.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 28 de março de 2024</p>
+                            </li>
+                            <li>
+                                <p>Produção para clientes: com a versão 24.4 (abril de 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Agora, empresas e usuários oferecem suporte a campos de formulário personalizados avançados</a></p>
                         <p>Recursos avançados de formulário personalizado, como campos de Pesquisa externa e campos nativos do Workfront, agora estão disponíveis quando você anexa um formulário personalizado a uma empresa ou usuário.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -154,7 +171,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
             </tbody>
         </table>
 
-### Aprimoramentos na página inicial
+### Aprimoramentos no gerenciamento de documentos
 
 <table>
             <col style="width: 50%;" />
@@ -169,58 +186,80 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                         <p><span class="bold">Datas de lançamento</span>
                         </p>
                     </td>
-                 </tr>
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Opções de coluna adicionadas aos controles do Administrador para a nova Página inicial usando modelos de layout</a></p><p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p><p>Os administradores agora podem personalizar quais colunas estão disponíveis para usuários em novos widgets da Página inicial específicos usando modelos de layout. As opções incluem ocultar ou exibir colunas padrão e adicionar campos existentes como novas colunas.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Adicionar um prazo final para revisões e aprovações de um documento</a><span style="color: #ff0000;"> Novo na visualização!</span></p>
+                        <p>Agora é possível especificar um prazo para que os usuários ou equipes atribuídos revisem ou aprovem um documento. Revisores e aprovadores recebem notificações por email 72 horas e 24 horas antes do prazo especificado. O prazo também é refletido no widget Aprovações na nova área Página inicial.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão de pré-visualização: 2 de janeiro de 2024</p>
+                                <p>Versão de pré-visualização: 28 de março de 2024</p>
                             </li>
                             <li>
-                                <p>Produção para lançamento rápido: com o lançamento do 24.2 (15 de fevereiro de 2024)</p>
-                            </li>
-                            <li>
-                                <p>Produção para versão trimestral: com a versão 24.4 (abril de 2024)</p>
+                                <p>Produção para clientes: com a versão 24.4 (abril de 2024)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
-           </tbody>
-        </table>
-
-### Aprimoramentos de integração
-
-<table>
-    <col style="width: 50%;" />
-    <col style="width: 50%;" />
-    <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Recurso</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Criar e usar Modelos de Aprovação</a><span style="color: #ff0000;"> Novo na visualização!</span></p>
+                        <p>Agora é possível criar Modelos de aprovação na área Configuração para simplificar o processo de revisão e aprovação. Os Modelos de aprovação permitem que você torne o processo de revisão e aprovação mais repetível
+                        <ul>
+                            <li>
+                                <p>Adicionar revisores e aprovadores</p>
+                            </li>
+                            <li>
+                                <p>Definição de um período</p>
+                            </li>
+                        </ul>
                         </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Datas de lançamento</span>
-                        </p>
-                    </td>
-                 </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Melhorias no fluxo de trabalho de criação automatizada de pastas na integração do Adobe Experience Manager</a></p><p>[!BADGE Na produção ]{type=Informative}</p><p>Para garantir que suas pastas do Adobe Experience Manager reflitam com mais precisão suas necessidades, adicionamos árvores de pastas aninhadas ao fluxo de trabalho de pastas vinculadas do Adobe Experience Manager.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão de pré-visualização: 11 de março de 2024</p>
+                                <p>Versão de pré-visualização: 28 de março de 2024</p>
                             </li>
-                             <li> <p><span class="preview">Versão de produção para todos os clientes: 14 de março de 2024</span></p>
-                             </li>
+                            <li>
+                                <p>Produção para clientes: com a versão 24.4 (abril de 2024)</p>
+                            </li>
                         </ul>
                     </td>
-                 </tr>          
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Exibir informações sobre todas as suas aprovações em um único local</a><span style="color: #ff0000;"> Novo na visualização!</span></p>
+                        <p>Para ajudá-lo a gerenciar e analisar suas solicitações de aprovação rapidamente, adicionamos os seguintes indicadores-chave de desempenho ao widget Todas as aprovações:
+                        <ul>
+                            <li>
+                                <p>Aprovações por decisão</p>
+                            </li>
+                            <li>
+                                <p>Tempo médio de aprovação</p>
+                            </li>
+                            <li>
+                                <p>Aprovações pendentes</p>
+                            </li>
+                            <li>
+                                <p>Aprovações atrasadas</p>
+                            </li>
+                        </ul>
+                        </p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 28 de março de 2024</p>
+                            </li>
+                            <li>
+                                <p>Produção para clientes: com a versão 24.4 (abril de 2024)</p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">Esse recurso faz parte de uma versão em fases e está disponível no momento apenas para clientes específicos.</span></p>
+                    </td>
+                </tr>
             </tbody>
 </table>
 
@@ -338,6 +377,22 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">O acesso à área de comentários herdada foi removido</a><span style="color: #ff0000;"> Novo na visualização!</span></p>
+                        <p>Removemos o botão "Novo comentário" na área Atualizações para projetos, tarefas, problemas e documentos. O novo comentário agora é o padrão e a única opção para esses objetos.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 1 de abril de 2024</p>
+                            </li>
+                            <li>
+                                <p>Produção para todos os clientes: com a versão 24.4 (abril de 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">O novo fluxo de comentários agora está disponível em ações rápidas para novos widgets da Página inicial</a></p><p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>

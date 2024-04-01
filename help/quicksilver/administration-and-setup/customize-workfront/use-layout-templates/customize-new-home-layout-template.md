@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
+source-git-commit: 9de4a3729abe0ea2ee89df0be2974b714e65332a
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '812'
 ht-degree: 1%
 
 ---
@@ -101,13 +101,13 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><
       </ul>
       <p>Depois de selecionar o widget que deseja editar, as opções disponíveis serão exibidas à direita. Essas opções incluem <b>Filtros</b>, <b>Colunas</b>, e <b>Grupos</b>. Você pode:</p>
       <ul>
-      <li><p><b>Selecione quais Filtros, Colunas ou Grupos estarão disponíveis para os usuários:</b></p>
-      <p>Marque a caixa ao lado de todas as opções na lista que você deseja que os usuários possam usar. Opções desmarcadas não serão exibidas para usuários.</li></p>     
-    <p>
+      <li><p><b>Selecione e ordene Filtros, Colunas ou Grupos disponíveis para os usuários:</b></p>
+      <p>Marque a caixa ao lado de todas as opções na lista que você deseja que os usuários possam usar. Opções desmarcadas não serão exibidas para usuários. Arraste e solte opções na lista para definir uma ordem.</li></p>
+      <p>
 
 >[!IMPORTANT]
 >
->Os usuários devem ter acesso de Criação para Exibições a fim de que as configurações de coluna se apliquem corretamente aos seus widgets.
+>Os usuários devem ter pelo menos o acesso de Criação a Exibições para que a configuração da coluna do administrador seja aplicada corretamente às novas Páginas iniciais.
 
 </p>
       <li><p><b>Defina um Filtro ou Grupo padrão para o widget:</b></p>
