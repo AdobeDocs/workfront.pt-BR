@@ -11,9 +11,9 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 892fdaf3-935e-4e66-a01c-9e9b6e0daf3e
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: e067c5ff34c31060ca6fd392289d845f53a5ef3a
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -93,6 +93,10 @@ Este módulo de acionamento inicia um cenário quando um registro, tipo de regis
       <td role="rowheader">[!UICONTROL Tipo de objeto]</td>
       <td>Selecione se deseja observar registros, tipos de registro ou espaços de trabalho.</td>
     </tr>
+     <tr data-mc-conditions=""> 
+      <td> <p>[!UICONTROL Eventos filtros]</p> </td> 
+      <td> <p>É possível definir filtros para observar apenas os registros que atendem aos critérios selecionados.</p> <p>Para cada filtro, insira o campo que deseja que o filtro avalie, o operador e o valor que deseja que o filtro permita. Você pode usar mais de um filtro adicionando regras AND.</p> <p>Observação: não é possível editar filtros no existente [!DNL Workfront] webhooks. Para configurar filtros diferentes para [!DNL Workfront] assinaturas de evento, remova o webhook atual e crie um novo.</p> <p>Para obter mais informações sobre filtros de evento, consulte <a href="/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">Filtros de assinatura de evento na [!DNL Workfront] &gt; módulos [!UICONTROL Watch Events]</a> no artigo módulos do Workfront.</p> </td> 
+     </tr> 
     <tr>
       <td role="rowheader">[!UICONTROL Objetos a serem observados]</td>
       <td>Selecione se você deseja observar novos. registros atualizados, novos e atualizados ou excluídos.</td>
