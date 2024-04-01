@@ -8,7 +8,8 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e05c5a8889a406d3f28ba520f28c09d5ec1d1099
+exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
+source-git-commit: 142d94929cb31aee51e10373989f48347fc61740
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 2%
@@ -68,4 +69,6 @@ Quando uma nova versão do documento for carregada, a próxima rodada de revisã
 
 ## Enviar feedback
 
-Valorizamos sua contribuição e acreditamos que sua perspectiva é crucial para nos ajudar a criar o melhor produto possível. Como você tem um feedback específico sobre o que seria necessário para que sua empresa adote essa solução na produção, envie-o para [etienneb@adobe.com](mailto:etienneb@adobe.com).
+Valorizamos sua contribuição e acreditamos que sua perspectiva é crucial para nos ajudar a criar o melhor produto possível.
+
+Como você tem um feedback específico sobre o que seria necessário para que sua empresa adote essa solução na produção, envie-o para [etienneb@adobe.com](mailto:etienneb@adobe.com).
