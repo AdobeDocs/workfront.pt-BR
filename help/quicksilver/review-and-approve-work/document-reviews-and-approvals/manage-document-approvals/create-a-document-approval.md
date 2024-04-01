@@ -1,19 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Criar uma aprovação de documento
+title: Criar uma revisão de documento ou solicitação de aprovação
 description: Você pode solicitar aprovação de outros usuários para um documento no Adobe Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 6a02a7bdb21e79a6b91f81e71b42968d6262cd05
+source-git-commit: e8116a6778d5952ba583cfdfb94b761757adc030
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
 
-# Criar uma solicitação de aprovação de documento
+# Criar uma revisão de documento ou solicitação de aprovação
+
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente Visualização da sandbox.</span>
 
 Você pode solicitar aprovação de outros usuários ou equipes para um documento no Adobe Workfront ou solicitar que eles revisem um documento sem precisar aprová-lo.
 
@@ -50,17 +52,27 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 &#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
-## Criar uma aprovação de documento a partir da página do documento
+## Criar uma solicitação de revisão ou aprovação de documento a partir da página do documento
 
-1. Vá para a página do documento clicando no nome do documento e selecione a versão do documento para a qual deseja criar uma aprovação na lista suspensa de versões. A versão mais recente será selecionada por padrão.
+1. Passe o mouse sobre o documento e clique em Detalhes do documento.
+   ![](assets/doc-details.png)
 
-1. Selecionar **Aprovações** no painel esquerdo.
 
-1. Para adicionar um aprovador, verifique se **Aprovador** estiver marcada, comece a digitar na caixa de seleção **Revisores** texto. Você pode adicionar usuários ou equipes do Workfront por nome. Se, em vez disso, você quiser adicionar um revisor, basta desmarcar a opção **Aprovador** antes de digitar.
+1. Próximo ao nome do documento, selecione a versão do documento para a qual deseja criar uma aprovação na lista suspensa versão. A versão mais recente será selecionada por padrão.
+
+1. Clique em **Aprovações** no painel esquerdo.
+
+1. <span class="preview">(Opcional) Defina um prazo para a aprovação. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes do prazo especificado.</span>
+
+1. Para adicionar um aprovador, clique no **Aprovador** e comece a digitar um nome de usuário ou de equipe.
+
+1. Para adicionar um revisor, clique no botão **Revisor** e comece a digitar o nome de um usuário ou equipe.
+
+   ![](assets/add-approver-and-deadline.png)
 
 1. Repita a etapa anterior para adicionar aprovadores ou revisores adicionais.
 
-## Criar uma aprovação de documento a partir do painel Resumo do documento
+## Criar uma solicitação de revisão ou aprovação de documento a partir do painel Resumo de documentos
 
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 
@@ -68,7 +80,17 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Selecione a versão do documento para a qual você deseja criar uma aprovação na lista suspensa de versões. A versão mais recente será selecionada por padrão.
 
-1. Role para baixo até **Aprovações** no painel Resumo do documento. Para adicionar um aprovador, verifique se **Aprovador** estiver marcada, comece a digitar na caixa de seleção **Revisores** texto. Você pode adicionar usuários ou equipes do Workfront por nome. Se, em vez disso, você quiser adicionar um revisor, basta desmarcar a opção **Aprovador** antes de digitar.
+1. Role para baixo até **Aprovações** no painel Resumo do documento, depois clique em **Adicionar**.
+
+![](assets/doc-summary-add-approvers.png)
+
+1. <span class="preview">(Opcional) Defina um prazo para a aprovação. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes do prazo especificado.</span>
+
+1. Para adicionar um aprovador, clique no **Aprovador** e comece a digitar um nome de usuário ou de equipe.
+
+1. Para adicionar um revisor, clique no botão **Revisor** e comece a digitar o nome de um usuário ou equipe.
+
+   ![](assets/add-approver-and-deadline.png)
 
 1. Repita a etapa anterior para adicionar aprovadores ou revisores adicionais.
 

@@ -6,9 +6,9 @@ description: Se você estiver atribuído como aprovador de um documento, há vá
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 864481fe2af7a2433bac841bb35995c58fe06743
+source-git-commit: e8116a6778d5952ba583cfdfb94b761757adc030
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Se você estiver atribuído como aprovador de um documento, há várias maneiras de tomar sua decisão de aprovação.
 
-Para obter informações sobre como criar uma nova aprovação de documento, consulte [Criar uma aprovação de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Para obter informações sobre como criar uma nova aprovação de documento, consulte [Criar uma revisão de documento ou solicitação de aprovação](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 >[!IMPORTANT]
 >

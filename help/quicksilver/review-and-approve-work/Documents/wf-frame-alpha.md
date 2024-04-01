@@ -1,0 +1,72 @@
+---
+product-area: documents
+navigation-topic: approvals
+title: Programa Alpha - Workfront + Frame.io
+description: Estamos animados em anunciar o lançamento do nosso programa Alpha para Workfront + Frame.io. Aqui você encontrará informações sobre a versão mais recente do Alpha, juntamente com uma breve apresentação em vídeo para ajudá-lo a começar.
+author: Courtney
+feature: Work Management, Digital Content and Documents
+hide: true
+hidefromtoc: true
+recommendations: noDisplay, noCatalog
+exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
+source-git-commit: f896d59473911f5dad7f8c80270fbe5618be81cd
+workflow-type: tm+mt
+source-wordcount: '449'
+ht-degree: 2%
+
+---
+
+# Programa Alpha - Workfront + Frame.io
+
+Estamos animados em anunciar o lançamento do nosso programa Alpha para Workfront + Frame.io. Aqui você encontrará informações sobre a versão mais recente do Alpha, juntamente com uma breve apresentação em vídeo para ajudá-lo a começar.
+
+## Versão mais recente
+
+## Versão do Alpha - março de 2024
+
+Nesta versão de 7º Alpha, temos:
+
+### Adicionar um prazo final para revisões e aprovações de um documento
+
+Agora é possível especificar um prazo para que os usuários ou equipes atribuídos revisem ou aprovem um documento. Revisores e aprovadores recebem notificações por email 72 horas e 24 horas antes do prazo especificado. O prazo também é refletido no widget Aprovações na nova área Página inicial.
+
+Para obter mais informações, consulte [Criar uma revisão de documento ou solicitação de aprovação](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+### Criar e usar Modelos de Aprovação
+
+Agora é possível criar Modelos de aprovação na área Configuração para simplificar o processo de revisão e aprovação. Os Modelos de aprovação permitem que você torne o processo de revisão e aprovação mais repetível
+
+* Adicionar revisores e aprovadores
+* Definição de um período
+
+Você pode aplicar Modelos de Aprovação a partir da área Documentos ao criar um processo de aprovação para um Documento.
+
+Para obter mais informações, consulte [Criar um modelo de aprovação](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+
+### Exibir informações sobre todas as suas aprovações em um único local
+
+Para ajudá-lo a gerenciar e analisar suas solicitações de aprovação rapidamente, adicionamos os seguintes indicadores-chave de desempenho ao widget Todas as aprovações:
+
+* Aprovações por decisão
+* Tempo médio de aprovação
+* Aprovações pendentes
+* Aprovações atrasadas
+
+Você pode detalhar as categorias listadas acima para obter uma visualização mais detalhada. O widget Todas as aprovações está disponível em Nova página inicial e Painéis da tela.
+
+Para obter mais informações, consulte [Introdução à nova Página inicial](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+
+### Bloquear sua análise e aprovações depois que uma decisão geral for tomada
+
+Para garantir a conformidade e reduzir a rotatividade em seus processos de aprovação de conteúdo, agora bloquearemos qualquer aprovação em um arquivo depois que uma decisão geral for tomada. Isso inclui Aprovado, Aprovado com alterações ou Precisa de trabalho.
+
+Uma vez bloqueada, qualquer pessoa que revise e/ou aprove não poderá mais fazer comentários, respostas, decisões ou adicionar marcações de desenho, garantindo que seu processo de revisão e auditoria associada permaneçam inalterados.
+
+Quando uma nova versão do documento for carregada, a próxima rodada de revisão poderá ser iniciada, mantendo as revisões anteriores bloqueadas.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428023/)
+
+
+## Enviar feedback
+
+Valorizamos sua contribuição e acreditamos que sua perspectiva é crucial para nos ajudar a criar o melhor produto possível. Como você tem um feedback específico sobre o que seria necessário para que sua empresa adote essa solução na produção, envie-o para [etienneb@adobe.com](mailto:etienneb@adobe.com).
