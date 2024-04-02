@@ -2,20 +2,20 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
-title: Gerenciar atualizações de iteração
+title: Gerenciar comentários de iteração
 description: Você pode adicionar atualizações a uma iteração para colaborar com outras pessoas no Adobe Workfront.
 author: Alina
 feature: Agile
 recommendations: noDisplay, noCatalog
-source-git-commit: 8abff9553518d6742f7751fefe04dcb199f5880a
+exl-id: 68af4128-82a7-41e2-a88a-27c51b4a5cb7
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 3%
 
 ---
 
-
-# Gerenciar atualizações de iteração
+# Gerenciar comentários de iteração
 
 Você pode adicionar atualizações a uma iteração para colaborar com outras pessoas no Adobe Workfront.
 

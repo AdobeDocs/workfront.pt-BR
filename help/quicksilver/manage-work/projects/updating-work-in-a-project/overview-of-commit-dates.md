@@ -7,16 +7,20 @@ description: A Data de Compromisso é a data pela qual um usuário atribuído à
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '776'
 ht-degree: 1%
 
 ---
 
 # Visão geral da data de compromisso
 
-A Data de Compromisso é a data pela qual um usuário atribuído à tarefa ou um problema se compromete a concluir a tarefa ou o problema. Isso é diferente da Data de conclusão planejada, pois é uma estimativa mais realista da data de conclusão fornecida somente pelo usuário responsável pelo trabalho. Para obter informações sobre a Data de conclusão planejada, consulte [Visão geral da Data de conclusão planejada da tarefa](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+A Data de Compromisso é a data pela qual um usuário atribuído à tarefa ou um problema se compromete a concluir a tarefa ou o problema.
+
+Isso é diferente da Data de conclusão planejada de uma tarefa ou problema, pois é uma estimativa mais realista da data de conclusão fornecida somente pelo usuário responsável pelo trabalho.
+
+Para obter informações sobre a Data de conclusão planejada, consulte [Visão geral da Data de conclusão planejada da tarefa](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
 ## Visão geral da data de compromisso
 
@@ -29,6 +33,7 @@ Considere o seguinte ao trabalhar com datas de confirmação:
 
    * Deixe o Workfront definir a Data de confirmação para corresponder à Data de conclusão planejada existente da tarefa ou problema clicando em Trabalhar nela, Iniciar problema ou Iniciar tarefa na tarefa ou problema. Para obter informações sobre como substituir o botão Trabalhar na tarefa por um botão Iniciar, consulte  [Substitua o botão Trabalhar na tarefa por um botão Iniciar](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Defina manualmente a Data de confirmação por conta própria de acordo com quando achar que a tarefa ou problema pode estar concluído. Esta é sua estimativa e compromisso, como o destinatário, para o Gerente de projetos de que você terá a tarefa ou problema concluído em uma data específica.
+Para obter informações, consulte [Atualizar datas de confirmação nas tarefas e problemas](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 >[!NOTE]
 >
@@ -41,17 +46,17 @@ Considere o seguinte ao trabalhar com datas de confirmação:
 >* Qualquer outro destinatário na tarefa
 >* Qualquer outro usuário com permissões para a tarefa.
 >
->Para obter mais informações sobre o Proprietário da Tarefa, consulte a seção [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) no artigo [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+>Para obter mais informações sobre o Proprietário da Tarefa, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 ## Notificações e atualizações acionadas pela alteração da Data de confirmação {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
-Quando um responsável por uma tarefa ou problema seleciona uma Data de confirmação diferente da Data de conclusão planejada definida pelo Proprietário do projeto, há várias notificações e atualizações que alertam o Proprietário do projeto e outros usuários sobre essa alteração.
+Quando um destinatário de tarefa ou problema altera manualmente uma Data de confirmação para uma data diferente da Data de conclusão planejada definida pelo Proprietário do projeto, há várias notificações e atualizações que alertam o Proprietário do projeto e outros usuários sobre essa alteração.
 
 >[!NOTE]
 >
 >As alterações feitas na Data de Compromisso não alteram automaticamente as datas planejadas, e as alterações feitas nas datas planejadas não alteram automaticamente a Data de Compromisso.
 
-Definir a Data de Compromisso para uma tarefa ou problema aciona as seguintes alterações:
+A definição manual da Data de confirmação para uma tarefa ou problema aciona as seguintes alterações:
 
 * A alteração da Data de confirmação é preenchida na Atividade do sistema e nas guias Todos da seção Atualizar da tarefa ou problema.
 
@@ -80,9 +85,6 @@ Definir a Data de Compromisso para uma tarefa ou problema aciona as seguintes al
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-
-
-
 * O Proprietário do projeto é notificado na área Notificações de que uma data de confirmação de tarefa ou problema foi alterada.
 
   ![](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
@@ -94,8 +96,6 @@ Definir a Data de Compromisso para uma tarefa ou problema aciona as seguintes al
   >[!TIP]
   >
   >A notificação de que a Data de confirmação foi alterada é enviada ao Proprietário do projeto somente quando o administrador do Workfront ativa a exibição da Data de confirmação na área Feeds de atualizações da Configuração. Para obter informações, consulte [Atualizações rastreadas pelo sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
-
-
 
 Para obter informações sobre a funcionalidade adicional disponível ao atualizar um item de trabalho, consulte  [Atualizar trabalho](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

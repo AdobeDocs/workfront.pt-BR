@@ -6,9 +6,9 @@ description: Você pode usar modelos como uma estrutura para criar projetos no A
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 9447310f0d4cf4504ee6d690116fb62f718fe23d
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,11 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Crie um projeto com base em um modelo na área Projetos
 
-Você pode criar um projeto na área Projetos do menu principal ou na área Projetos de um portfólio ou programa.
+Você pode criar um projeto na área Projetos do menu principal, ou na área Projetos de um portfólio ou programa.
+
+>[!NOTE]
+>
+>O administrador do sistema ou do grupo pode modificar a interface usando um modelo de layout. Nesse caso, alguns dos nomes das seções e áreas mencionadas nas etapas a seguir podem ser diferentes na instância do Workfront.
 
 1. Siga um destes procedimentos:
 
