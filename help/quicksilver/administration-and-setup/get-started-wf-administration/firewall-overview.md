@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
+source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 0%
+source-wordcount: '758'
+ht-degree: 1%
 
 ---
 
@@ -49,11 +49,11 @@ Forneça ao administrador de rede as seguintes informações:
  <tbody> 
   <tr> 
    <td role="rowheader">Endereços IP e domínios específicos a serem permitidos</td> 
-   <td> <p>O artigo <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">Incluir na lista de permissões Configurar o arquivo de pesquisa do firewall</a> O contém a lista de endereços IP e domínios que sua organização deve adicionar ao seu incluo na lista de permissões de pesquisa. </p> <p>O administrador de rede talvez não tenha acesso ao artigo "Configurar o firewall". Nesse caso, você deve fornecê-lo a eles. Não é recomendável imprimir uma cópia impressa (papel). Uma cópia digital permite que o administrador da rede copie e cole os endereços, o que é mais rápido e preciso do que digitar de uma cópia impressa.</p> </td> 
+   <td> <p>O artigo <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">Incluir na lista de permissões Configurar o arquivo de pesquisa do firewall</a> O contém a lista de endereços IP e domínios que sua organização deve adicionar ao seu incluo na lista de permissões de pesquisa. </p> <p>O administrador de rede talvez não tenha acesso ao artigo "Configurar a inclui na lista de permissões do firewall". Nesse caso, você deve fornecê-lo a eles. Não é recomendável imprimir uma cópia impressa (papel). Uma cópia digital permite que o administrador da rede copie e cole os endereços, o que é mais rápido e preciso do que digitar de uma cópia impressa.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Seu cluster</td> 
-   <td>Para localizar o cluster da organização, consulte <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Exibir o cluster da sua organização e o plano da Workfront</a></td> 
+   <td>Para localizar o cluster da organização, consulte <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Exibir o cluster da sua organização e o plano da Workfront</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Seu plano do Workfront</td> 
@@ -75,7 +75,7 @@ Forneça ao administrador de rede as seguintes informações:
    <td role="rowheader">Integrações do Adobe Workfront</td> 
    <td>Informe o administrador da rede se você usar uma das seguintes opções:
     <ul>
-     <li><p><p>Workfront para Jira</p></p></li>
+     <li><p>Workfront para Jira</p></li>
      <li><p>Workfront para G Suite</p></li>
      <li><p>Workfront para Microsoft Teams</p></li>
      <li><p>Workfront para Outlook</p></li>
@@ -84,11 +84,10 @@ Forneça ao administrador de rede as seguintes informações:
   </tr> 
   <tr> 
    <td role="rowheader">Funcionalidade adicional</td> 
-   <td> <p>Informe o administrador da rede se você usar uma das seguintes opções:</p> 
+   <td> <p>Informe o administrador da rede se você usar:</p> 
     <ul> 
      <li> <p>Uma unidade de teste do Workfront</p> </li> 
-     <li> <p>Ascendente Workfront</p> </li> 
-    </ul> </td> 
+    </ul> </td>
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +98,7 @@ Forneça ao administrador de rede as seguintes informações:
 
 ### Exibir o cluster da sua organização e o plano da Workfront {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique em **Configuração** ![](assets/gear-icon-settings.png).
+1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Configuração]** ![Ícone de Configuração](/help/_includes/assets/gear-icon-setup.png).
 
 1. Clique em **Sistema** no painel esquerdo
 1. Para exibir seu cluster, Selecione **Informações do cliente**.
