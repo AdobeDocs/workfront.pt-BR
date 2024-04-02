@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: c508878704cf149f5ed348c581531d266433f0c3
+source-git-commit: 76841cf5ec88c790e625cad792fc37141ad2f84e
 workflow-type: tm+mt
-source-wordcount: '5867'
-ht-degree: 3%
+source-wordcount: '5942'
+ht-degree: 4%
 
 ---
 
@@ -736,6 +736,47 @@ Para adicionar imagens, PDF ou vídeos:
 ### Adicionar campos nativos do Workfront
 
 Você pode adicionar campos nativos Workfront aos seus formulários personalizados. Quando o formulário personalizado é anexado a um objeto, o campo é preenchido a partir dos dados do objeto. Por exemplo, o campo Descrição em um formulário personalizado anexado a um projeto extrairá a descrição do projeto. (O campo pode mostrar &quot;N/D&quot; se nenhum dado estiver disponível.)
+
++++ **Expandir para ver a lista de campos nativos compatíveis**
+
+* Data de Término Efetivo
+* Duração Efetiva
+* Horas efetivas
+* Data do Início Efetivo
+* Empresa
+* Condição
+* Tipo de condição
+* Descrição
+* Duração
+* Tipo de Duração
+* Unidade de Duração
+* Cadastrado por
+* Data de Entrada
+* Grupo
+* Última Atualização realizada por
+* Última data de atualização
+* Nome
+* Proprietário
+* Data de conclusão planejada
+* Duração Planejada
+* Horas planejadas
+* Data de início planejado
+* Portfólio
+* Prioridade
+* Programa
+* Data de Término Projetada
+* Minutos de Duração do Projeto
+* Data de Início Projetada
+* Número de Referência
+* Modo de cronograma
+* Severidade
+* Patrocinador
+* Status
+* Pontos da história
+* Modelo
+* URL
+
++++
 
 1. No lado esquerdo da tela, localize **Campo nativo** e arraste-a para uma seção na tela.
 1. No lado direito da tela, configure as opções do campo personalizado:
