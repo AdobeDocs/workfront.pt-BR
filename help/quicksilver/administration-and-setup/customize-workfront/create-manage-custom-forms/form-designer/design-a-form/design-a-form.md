@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 76841cf5ec88c790e625cad792fc37141ad2f84e
+source-git-commit: 83036270d430dcc80069f4de87b6ac1e8da689e3
 workflow-type: tm+mt
-source-wordcount: '5942'
+source-wordcount: '6079'
 ht-degree: 4%
 
 ---
@@ -739,42 +739,48 @@ Você pode adicionar campos nativos Workfront aos seus formulários personalizad
 
 +++ **Expandir para ver a lista de campos nativos compatíveis**
 
-* Data de Término Efetivo
-* Duração Efetiva
-* Horas efetivas
-* Data do Início Efetivo
-* Empresa
-* Condição
-* Tipo de condição
-* Descrição
-* Duração
-* Tipo de Duração
-* Unidade de Duração
-* Cadastrado por
-* Data de Entrada
-* Grupo
-* Última Atualização realizada por
-* Última data de atualização
-* Nome
-* Proprietário
-* Data de conclusão planejada
-* Duração Planejada
-* Horas planejadas
-* Data de início planejado
-* Portfólio
-* Prioridade
-* Programa
-* Data de Término Projetada
-* Minutos de Duração do Projeto
-* Data de Início Projetada
-* Número de Referência
-* Modo de cronograma
-* Severidade
-* Patrocinador
-* Status
-* Pontos da história
-* Modelo
-* URL
+Esta tabela lista os campos nativos disponíveis para objetos Workfront específicos em um formulário personalizado.
+
+| Nome do campo | Projeto | Tarefa | Problema | Modelo | Modelo de Tarefa | Portfólio | Programa | Grupo |
+|--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
+| Data de Término Efetivo | ✓ µ | ✓ µ | ✓ µ |   |   |   |   |   |
+| Duração Efetiva | ✓ µ |   |   |   |   |   |   |   |
+| Horas efetivas | ✓ µ |   | ✓ µ |   |   |   |   |   |
+| Data do Início Efetivo | ✓ µ | ✓ µ | ✓ µ |   |   |   |   |   |
+| Empresa | ✓ µ |   |   | ✓ µ |   |   |   |   |
+| Condição | ✓ µ | ✓ µ | ✓ µ |   |   |   |   |   |
+| Tipo de condição | ✓ µ |   |   | ✓ µ |   |   |   |   |
+| Descrição | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ |
+| Duração |   | ✓ µ |   |   | ✓ µ |   |   |   |
+| Tipo de Duração |   | ✓ µ |   |   | ✓ µ |   |   |   |
+| Unidade de Duração |   | ✓ µ |   |   | ✓ µ |   |   |   |
+| Cadastrado por | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ |   |   | ✓ µ |
+| Data de Entrada | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ |   |   | ✓ µ |
+| Grupo | ✓ µ |   |   | ✓ µ |   | ✓ µ | ✓ µ |   |
+| Última Atualização realizada por | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ |   |   |   |
+| Última data de atualização | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ |   |   |   |
+| Nome | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ |
+| Proprietário | ✓ µ |   |   | ✓ µ |   | ✓ µ | ✓ µ |   |
+| Data de conclusão planejada | ✓ µ | ✓ µ | ✓ µ |   |   |   |   |   |
+| Duração Planejada | ✓ µ |   |   | ✓ µ |   |   |   |   |
+| Horas planejadas | ✓ µ | ✓ µ | ✓ µ |   | ✓ µ |   |   |   |
+| Data de início planejado | ✓ µ |   |   |   |   |   |   |   |
+| Portfólio | ✓ µ |   |   | ✓ µ |   |   | ✓ µ |   |
+| Prioridade | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ |   |   |   |
+| Programa | ✓ µ |   |   | ✓ µ |   |   |   |   |
+| Data de Término Projetada | ✓ µ | ✓ µ |   |   |   |   |   |   |
+| Minutos de Duração do Projeto |   | ✓ µ |   |   |   |   |   |   |
+| Data de Início Projetada | ✓ µ | ✓ µ |   |   |   |   |   |   |
+| Número de Referência | ✓ µ | ✓ µ | ✓ µ | ✓ µ | ✓ µ |   |   |   |
+| Modo de cronograma | ✓ µ |   |   | ✓ µ |   |   |   |   |
+| Severidade |   |   | ✓ µ |   |   |   |   |   |
+| Patrocinador | ✓ µ |   |   | ✓ µ |   |   |   |   |
+| Status | ✓ µ | ✓ µ |   |   |   |   |   |   |
+| Pontos da história |   | ✓ µ |   |   |   |   |   |   |
+| Modelo | ✓ µ |   |   |   |   |   |   |   |
+| URL | ✓ µ | ✓ µ |   | ✓ µ | ✓ µ |   |   |   |
+
+{style="table-layout:auto"}
 
 +++
 
