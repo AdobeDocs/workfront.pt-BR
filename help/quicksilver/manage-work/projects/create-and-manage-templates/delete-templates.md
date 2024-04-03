@@ -2,13 +2,13 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Excluir modelos de projeto
-description: Recomendamos desativar os modelos que não estão mais sendo usados, em vez de excluí-los para que você possa manter as informações de histórico sobre seus projetos ao longo do tempo. Para obter informações sobre como desativar um modelo, consulte Editar modelos de projeto.
+description: Recomendamos desativar os modelos que não estão mais sendo usados, em vez de excluí-los para que você possa manter as informações de histórico sobre seus projetos ao longo do tempo.
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---

@@ -6,9 +6,9 @@ description: Seu [!DNL Adobe Workfront] o perfil contém informações sobre voc
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: a750d2707699e1d4783d950807138a74baf78715
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '3311'
+source-wordcount: '3320'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 1%
 # Definir minhas configurações
 
 <!-- Audited: 01/2024 -->
+
+{{highlighted-preview}}
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule.</p>
@@ -344,8 +346,8 @@ Especifique o que deseja exibir no [!DNL Workfront] nesta seção.
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Mostrar porcentagem concluída no status de atualização]</strong> </td> 
    <td>Selecione esta opção se quiser exibir uma barra de porcentagem concluída dentro da área Atualizações das tarefas, ao usar a experiência de comentários herdada. Para obter informações, consulte <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nova experiência de comentários</a>.
-
-</td> 
+  <p><span class="preview">Essa opção foi removida do ambiente de Visualização.</span></p> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Enviar trabalho atribuído a mim mesmo para minha guia Trabalhando em]</strong> </td> 

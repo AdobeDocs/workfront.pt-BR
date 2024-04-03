@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2294'
 ht-degree: 0%
 
 ---
 
 # Editar perfis de usuário em massa
+
+{{highlighted-preview}}
 
 <!--
 
@@ -81,7 +83,10 @@ Você deve ter o seguinte para executar as etapas deste artigo:
        <ul> 
         <li><b>Fuso Horário:</b> O fuso horário dos usuários.</li> 
         <li><b>Localidade</b>: o local preferencial dos usuários. Isso afeta o formato de números e datas nos emails que vêm do Workfront.</li> 
-        <li><b>Mostrar o percentual concluído em atualização de status</b>: marque esta opção se desejar exibir uma barra de porcentagem concluída na área de atualização das tarefas de todos os usuários, ao usar a experiência de comentários herdada. Para obter informações, consulte <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nova experiência de comentários</a>.</li> 
+        <li><b>Mostrar o percentual concluído em atualização de status</b>: marque esta opção se desejar exibir uma barra de porcentagem concluída na área de atualização das tarefas de todos os usuários, ao usar a experiência de comentários herdada. Para obter informações, consulte <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nova experiência de comentários</a>.
+        <p><span class="preview">Essa opção foi removida do ambiente de Visualização.</span></p>
+
+   </li> 
         <li><b>Enviar trabalho que eu atribuir a mim mesmo para minha guia Trabalhando em</b>: marque esta opção se desejar que tudo o que os usuários atribuírem a si mesmos apareça diretamente na guia Trabalhando em. O padrão é listar tudo atribuído a um usuário em sua guia Solicitação de trabalho.</li> 
        </ul> </td> 
      </tr> 

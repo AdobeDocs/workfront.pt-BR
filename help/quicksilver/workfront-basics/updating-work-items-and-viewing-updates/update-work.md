@@ -6,9 +6,9 @@ description: Você pode adicionar uma atualização em um objeto do Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '4341'
+source-wordcount: '4261'
 ht-degree: 1%
 
 ---
@@ -61,6 +61,8 @@ After the monthly releases to Production, the same features are also available i
 <span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">Para obter informações sobre a programação de lançamento atual, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+
+<!--info for April 11: take out the "Important" box below (or hide it)-->
 
 >[!IMPORTANT]
 >
@@ -119,6 +121,8 @@ Para obter informações sobre comentários sobre metas, consulte [Gerenciar com
 
 Para obter informações sobre comentários em cartões na área Quadros, consulte [Adicionar um cartão ad hoc a um quadro](../../agile/get-started-with-boards/add-card-to-board.md).
 
+Para obter informações sobre comentários em iterações, consulte [Gerenciar comentários de iteração](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
+
 ## Requisitos de acesso
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
@@ -172,6 +176,8 @@ Você pode adicionar atualizações aos seguintes objetos:
 * Metas
 * Cartões na área Quadros
 * Iterações
+
+<!--info for April 11: hide the section below completely:-->
 
 ### Adicionar uma atualização a um item de trabalho na seção Atualizações herdadas
 
@@ -232,6 +238,8 @@ Você pode adicionar atualizações aos seguintes objetos:
    >Se o administrador do Workfront selecionar a configuração &quot;Nunca permitir que os usuários excluam comentários&quot; no seu nível de acesso, não será possível desfazer um comentário. Para obter mais informações, consulte [Criar e modificar níveis de acesso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 1. Para responder a uma atualização, consulte [Responder a atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+
+<!--info for April 11: reword the title of this section to: Add an update to a work item-->
 
 ### Adicionar uma atualização a um item de trabalho usando a nova experiência de comentários
 
@@ -463,6 +471,8 @@ Há várias maneiras de copiar uma atualização. Depois de copiar um link, voc�
 
 Copiar uma atualização é diferente, dependendo da experiência de comentário usada.
 
+<!--info for April 11: take the sentence above out and reword the section title below to: Copy an update-->
+
 ### Copiar uma atualização na nova experiência de comentários
 
 Para obter informações sobre quais recursos estão disponíveis para a nova experiência de comentários e para quais objetos, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
@@ -515,9 +525,9 @@ A opção Citar resposta copia o comentário original para uma nova resposta com
 
 1. Continue adicionando sua atualização e clique em **Enviar** para adicionar o comentário.
 
-### Copiar uma atualização na experiência de comentários herdada
+<!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section-->
 
-<!--remove legacy when removed from the UI-->
+### Copiar uma atualização na experiência de comentários herdada
 
 * [Copiar a atualização](#copy-the-update)
 * [Copiar o link da thread](#copy-the-thread-link)
@@ -621,31 +631,19 @@ Nenhum usuário do Workfront (incluindo o administrador do Workfront) pode exclu
 
 -->
 
-
-
-## Ativar ou desativar atualizações do sistema
-
-<!--update this section when we remove legacy, to just point to the article in green below and rename this section as "Review system activity updates" or something-->
-
-<!--October 2023: when the new stream goes to all objects production, consider updating this article also, to say there is no System Activity tab to be disabled for objects anymore: help\quicksilver\administration-and-setup\set-up-workfront\system-tracked-update-feeds\system-tracked-update-feeds.md-->
-
->[!NOTE]
->
->Não é possível desativar as atualizações do sistema ao usar a nova experiência de comentários.
->As informações nesta seção se referem apenas à funcionalidade disponível na seção Atualizações herdadas. &lt;!—remova esta seção quando removermos o herdado do sistema->
->Para obter mais informações sobre atualizações do sistema na nova experiência de comentários, consulte [Visão geral da seção Atualizações](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+## Revisar atualizações do sistema
 
 A seção Atualizações de um objeto do Workfront exibe dois tipos de informações:
 
-* **Atualizações de usuário:** Atualizações de usuário são comentários que você e outros usuários do sistema inseriram. <!--October 2023 - new screen shot -->
+* **Atualizações de usuário:** Atualizações de usuário são comentários que você e outros usuários do sistema inseriram. As atualizações de usuário são exibidas nas guias Comentários e Todas da seção Atualizações.
 
   ![](assets/user-update-cl-350x277.png)
 
-* **Atualizações do sistema:** As atualizações de sistema registram a remoção de ativos, a adição ou exclusão de versões, a anexação ou remoção de uma solicitação de aprovação, bem como quaisquer edições ou alterações feitas nos documentos no objeto. <!--October 2023 - new screen shot -->
+* **Atualizações do sistema:** Atualizações do sistema registram a remoção de tarefas ou problemas, adição ou exclusão de versões de documentos, anexação ou remoção de uma solicitação de aprovação, bem como quaisquer edições ou alterações feitas no objeto. As atualizações do sistema são exibidas na Atividade do sistema e nas guias All da seção Updates.
 
   ![](assets/system-updates-cl-350x277.png)
 
-  Dependendo da sua licença do Workfront, as atualizações do sistema podem ser ativadas por padrão. Os administradores do Workfront podem determinar o que é rastreado nas atualizações do sistema, conforme explicado em [Atualizações rastreadas pelo sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). Você também pode filtrar as atualizações ou atividades do sistema para ver apenas as atualizações do usuário para todos os objetos.
+  Os administradores do Workfront podem determinar o que é rastreado nas atualizações do sistema, conforme explicado em [Atualizações rastreadas pelo sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). Você também pode filtrar as atualizações ou atividades do sistema para ver apenas as atualizações do usuário para todos os objetos.
 
   Os seguintes objetos não têm atualizações geradas pelo sistema:
 
@@ -653,19 +651,6 @@ A seção Atualizações de um objeto do Workfront exibe dois tipos de informaç
    * Modelo
    * Modelo de Tarefa
 
-Para ativar ou desativar as atualizações do sistema:
-
-1. Clique em **Atualizações** em um objeto.
-1. Clique em **Mostrar atualizações do sistema** para deslizar o switch para a esquerda (desativado) ou para a direita (ativado).
-
-   ![](assets/show-system-updates-qs-350x55.png)
-
-   Essa opção é mantida em todos os objetos no Workfront e permanece na posição selecionada, mesmo que você faça logout do Workfront.
-
-   >[!TIP]
-   >
-   >   Os objetos que não registram atualizações do sistema não têm a opção Mostrar Atualizações do Sistema na área Atualizações.
-
-   <!--when Anna adds the new updates stream to ALL objects, she will remove the System Activity tab from the objects that don't record system updates - add another line to the TIP above to say: The System Activity tab is not available for objects that don't record system-generated updates.*************** OR: maybe make this part of the statement where we list which objects these are, above???  -->
+Para obter mais informações sobre atualizações do sistema na seção Atualizações, consulte [Visão geral da seção Atualizações](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
@@ -103,6 +103,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 * Se os registros exibidos estiverem vinculados a outros registros, as novas informações dos registros que você está editando serão refletidas nos registros vinculados.
 * Não é possível editar registros em massa. <!--this will probably change-->
 * Os URLs são reconhecidos como links em tipos de campo de texto de linha única somente quando começam com o seguinte: http://, https://, ftp:// ou www. .
+<!--
+* You can edit the order of the fields in a record page and add a cover image for a record. For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). -->
 
 ## Editar registros
 
@@ -200,7 +202,7 @@ O espaço de trabalho que você acessa por último é aberto.
 
    Ou
 
-   Na exibição de tabela, clique na guia **Abrir detalhes** ícone ![](assets/open-details-icon-in-table-name-field.png) à esquerda do nome de um registro ou clique em um nome de registro. A caixa do registro é aberta na exibição.
+   Na exibição de tabela, clique na guia **Abrir detalhes** ícone ![](assets/open-details-icon-in-table-name-field.png) à esquerda do nome de um registro. A caixa do registro é aberta na exibição.
 
    ![](assets/details-box.png)
 

@@ -7,7 +7,7 @@ description: A seção Atualizações de um objeto exibe comentários que os usu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 3%
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md) ).</span> -->
 
 
 <span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou na Produção para clientes que ativaram versões rápidas. </span>
@@ -31,6 +31,8 @@ ht-degree: 3%
 <span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">Para obter informações sobre a programação de lançamento atual, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+
+<!--info for April 11: take out the Important box-->
 
 >[!IMPORTANT]
 >
@@ -54,21 +56,6 @@ ht-degree: 3%
 >
 ><span class="preview">A nova experiência de comentários está disponível no painel Resumo em listas, folhas de horas e o Balanceador de carga de trabalho no ambiente de Pré-visualização e no ambiente de Produção para clientes que optaram pelo processo de lançamento rápido.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Visão geral da seção Atualizações
 
 A seção Atualizações de um objeto mostra atualizações do sistema e até 200 das atualizações mais recentes feitas pelos usuários nos últimos 90 dias.
@@ -78,6 +65,27 @@ A seção Atualizações de um objeto mostra atualizações do sistema e até 20
 ![Atualiza a seção](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
 </div>
+
+<!--Info for April 11: Add the following right under the screen shot above:
+
+The following objects have an Updates section where you can add comments or review system updates: 
+
+* Projects
+* Tasks
+* Issues
+* Programs
+* Portfolios
+* Templates
+* Template tasks
+* Users
+* Timesheets
+* Teams
+* Goals
+* Cards in the Boards area
+* Iterations
+-->
+
+<!--remove all the information below, all the way down to the following section: -->
 
 Dependendo dos objetos para os quais você acessa a experiência de comentários, você pode encontrar a seguinte experiência na seção Atualizações:
 
@@ -115,6 +123,8 @@ Dependendo dos objetos para os quais você acessa a experiência de comentários
 
      Não há opção para habilitar a nova experiência de comentários para iterações. Para obter mais informações, consulte [Gerenciar comentários de iteração](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
+<!--Info for April 11: reword the section title below to: Overview of the Updates section-->
+
 ### Visão geral da seção Atualizações na nova experiência de comentários
 
 <div class="preview">
@@ -122,6 +132,8 @@ Dependendo dos objetos para os quais você acessa a experiência de comentários
 ![Atualiza a seção](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 </div>
+
+<!--info for April 11: remove the NOTE below-->
 
 >[!NOTE]
 >
@@ -144,6 +156,7 @@ Dependendo dos objetos para os quais você acessa a experiência de comentários
 
    * Metas
 
+<!-- info for April 11: hide the entire section below: -->
 
 ### Visão geral da seção Atualizações herdadas
 

@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 2%
+source-wordcount: '1339'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 2%
 
 <!--take out legacy, preview, prod references from below-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes.  </span>
 
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>-->
+<span class="preview">Para obter informações sobre a programação de lançamento atual, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--
 
@@ -59,13 +59,13 @@ Entre as melhorias incluídas na nova experiência de comentários estão as seg
 
 Os seguintes recursos foram removidos ou serão descontinuados da nova experiência:
 
-* Comentar em uma atualização do sistema
+* Comentar em uma atualização do sistema. Comentários adicionados às atualizações do sistema no passado foram importados como comentários somente leitura na nova guia Atividade do sistema.
 * Capacidade de editar status, condição, data de confirmação e porcentagem concluída ao comentar tarefas e problemas
-* Editar formulário personalizado
+* Capacidade de editar o formulário personalizado
 * A informação &quot;em nome de &lt; user name >&quot; quando um administrador de Workfront ou grupo faz logon como outro usuário e adiciona um comentário em nome dele foi originalmente removida. Ele foi restabelecido em 19 de outubro de 2023.
 * A opção &quot;Solicitar aprovação&quot; ao marcar pessoas ao adicionar um comentário a um documento.
 * A configuração &quot;Mostrar o percentual concluído na atualização do status&quot; ao editar a caixa de perfil de um usuário será removida. A funcionalidade de atualizar o percentual concluído de uma tarefa ou problema foi removida.
-* A notificação para o Proprietário do projeto na área Atualizações informando que o destinatário de uma tarefa ou problema editou a data de confirmação <!--ensure this is correct when re remove the legacy and leave only new commenting-->
+* A capacidade do Proprietário do Projeto de alterar a Data de conclusão planejada de uma tarefa quando a Data de confirmação for alterada na seção Atualizações. <!--ensure this is correct when re remove the legacy and leave only new commenting-->
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 
@@ -544,13 +544,23 @@ Esta é uma linha do tempo planejada para o lançamento da nova experiência de 
   >
   >    As iterações continuarão tendo a experiência de comentários herdada. A nova experiência de comentários não estará disponível para iterações.
 
-* Segundo trimestre de 2024 (abril de 2024):
+* Com a segunda versão do trimestre de 2024 (11 de abril de 2024):
 
    * Remova a opção para alternar de volta para o fluxo de comentários herdado e fazer do novo fluxo de comentários a única experiência para todos os objetos, com exceção das Iterações.
 
 ## Localizar a nova experiência de comentários
 
-&lt;!—IMPORTANTE: quando nos livrarmos da experiência herdada, mova uma versão disso para o artigo Atualizar trabalho ou a visão geral da seção Atualizar — para dizer que a experiência é diferente para todas, exceto para iterações—>
+<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article: 
+
+>[!IMPORTANT]
+>
+>The new commenting experience is available in all Workfront environments on all objects with the exception of Iterations. 
+>
+>The legacy commenting experience has been removed from all environments for Projects, Tasks, Issues, and Documents. 
+
+For information about accessing the Updates section of Workfront objects, see [Updates section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+-->
 
 A nova experiência de comentários está disponível atualmente para todos os clientes e ambientes.
 
@@ -563,25 +573,25 @@ Dependendo dos objetos para os quais você acessa a experiência de comentários
    * Problema
    * Documento
 
-  >[!TIP]
-  >
-  >Use a opção Novo comentário para exibir a nova experiência de comentário (ao habilitá-la) ou a experiência de comentário herdada (ao desabilitá-la), conforme descrito nesta seção. A nova experiência de comentários é o padrão.
-
-   * Somente a nova experiência de comentários para os objetos listados abaixo. Não há opção para habilitar a experiência de comentários herdada para estes objetos:
-
-      * Meta
-
      >[!NOTE]
      >
-     >Você deve ter uma licença adicional para acessar o Adobe Workfront Goals para acessar essa área do Workfront. Para obter mais informações, consulte [Requisitos para usar as metas do Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-      * Cartão em um quadro
-      * Equipe
-      * Modelo
-      * Modelo de Tarefa
-      * Planilha de horas
-      * Programa
-      * Portfólio
-      * Usuário
+     ><span class="preview">A experiência de comentários herdada foi removida do ambiente de Pré-visualização desde 1 de abril de 2024. </span>
+
+* Somente a nova experiência de comentários para os objetos listados abaixo. Não há opção para habilitar a experiência de comentários herdada para estes objetos:
+
+   * Meta
+
+  >[!NOTE]
+  >
+  >Você deve ter uma licença adicional para acessar o Adobe Workfront Goals para acessar essa área do Workfront. Para obter mais informações, consulte [Requisitos para usar as metas do Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   * Cartão em um quadro
+   * Equipe
+   * Modelo
+   * Modelo de Tarefa
+   * Planilha de horas
+   * Programa
+   * Portfólio
+   * Usuário
 
 * Somente a experiência de comentários herdada para os seguintes objetos:
 
@@ -619,8 +629,9 @@ The new commenting experience is currently supported for the following objects:
 
 Para ativar a opção de experiência de comentários para projetos, tarefas, problemas e documentos:
 
-1. Vá para um objeto para o qual você deseja ativar a nova experiência de comentários e clique em **Atualizações** no painel esquerdo.
+1. (Condicional) No ambiente de Produção, vá para um objeto para o qual deseja ativar a nova experiência de comentários e clique em **Atualizações** no painel esquerdo.
 1. (Condicional) Se estiver desativado, ative a opção **Novo comentário** no canto superior direito da área Atualizações para ativá-la. Isso deve ser ativado por padrão.
+   <span class="preview">A opção Novo comentário foi removida do ambiente de Visualização.</span>
 
    ![](assets/new-commenting-toggle-off-highlighted.png)
 

@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: create-projects
 title: Solicitar um projeto
-description: Você pode solicitar a aprovação de um projeto antes de começar a trabalhar nele. Recomendamos a criação de um Business Case para um novo projeto para que você possa destacar alguns dos pontos-chave que deseja alcançar ao concluí-lo, bem como apresentar ao seu gerente seu orçamento de mão de obra e despesas. Preencher o Business Case e enviar o projeto para aprovação conclui a solicitação formal do projeto. Depois de enviar o business case para aprovação, o status do projeto se torna Solicitado.
+description: Você pode solicitar a aprovação de um projeto antes de começar a trabalhar nele. Recomendamos criar um Business Case para um novo projeto para que você possa destacar alguns dos pontos-chave que deseja alcançar ao concluí-lo, bem como apresentar à sua equipe de gerenciamento seu orçamento de mão de obra e despesas. Preencher o Business Case e enviar o projeto para aprovação conclui a solicitação formal do projeto. Depois de enviar o business case para aprovação, o status do projeto se torna Solicitado.
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '562'
 ht-degree: 2%
 
 ---

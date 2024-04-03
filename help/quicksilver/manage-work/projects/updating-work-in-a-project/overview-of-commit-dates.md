@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Visão geral da data de compromisso
-description: A Data de Compromisso é a data pela qual um usuário atribuído à tarefa ou um problema se compromete a concluir a tarefa ou o problema. Isso é diferente da Data de conclusão planejada, pois é uma estimativa mais realista da data de conclusão fornecida somente pelo usuário responsável pelo trabalho. Para obter informações sobre a Data de conclusão planejada, consulte Visão Geral da Data de conclusão planejada da tarefa.
+description: A Data de Compromisso é a data pela qual um usuário atribuído à tarefa ou um problema se compromete a concluir a tarefa ou o problema. Isso é diferente da Data de conclusão planejada, pois é uma estimativa mais realista da data de conclusão fornecida pelo usuário que está diretamente encarregado do trabalho.
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '763'
 ht-degree: 1%
 
 ---
