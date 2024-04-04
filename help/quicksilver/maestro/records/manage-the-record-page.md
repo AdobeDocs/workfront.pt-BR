@@ -4,7 +4,7 @@ description: É possível editar e gerenciar o layout da caixa de registro e da 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 7d3778d52f9a3afa12a7bdf348f7400693f8f7ab
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
@@ -102,7 +102,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 O espaço de trabalho que você acessa por último é aberto.
 
 1. (Opcional) Clique na seta para baixo à direita do nome do espaço de trabalho para selecionar o espaço de trabalho cujos registros você deseja atualizar.
-
 1. Clique em um cartão de tipo de registro.
 
    A página de tipo de registro é aberta.
