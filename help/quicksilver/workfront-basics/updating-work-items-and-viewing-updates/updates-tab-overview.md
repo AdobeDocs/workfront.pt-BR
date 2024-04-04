@@ -7,7 +7,7 @@ description: A seção Atualizações de um objeto exibe comentários que os usu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 3%
@@ -123,7 +123,7 @@ Dependendo dos objetos para os quais você acessa a experiência de comentários
 
      Não há opção para habilitar a nova experiência de comentários para iterações. Para obter mais informações, consulte [Gerenciar comentários de iteração](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
-<!--Info for April 11: reword the section title below to: Overview of the Updates section-->
+<!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
 ### Visão geral da seção Atualizações na nova experiência de comentários
 
@@ -159,8 +159,6 @@ Dependendo dos objetos para os quais você acessa a experiência de comentários
 <!-- info for April 11: hide the entire section below: -->
 
 ### Visão geral da seção Atualizações herdadas
-
-<!--when we remove legacy, make this section an "Iterations-only" section-->
 
 ![](assets/updates-tab-before-unified-experience-for-tasks.png)
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '5359'
+source-wordcount: '5486'
 ht-degree: 0%
 
 ---
@@ -32,31 +32,28 @@ Os recursos são lançados semanalmente e são listados na ordem de lançamento,
 >
 >A documentação referenciada nas seções abaixo estará disponível algum tempo depois que os recursos forem lançados para produção.
 
-<!--
-## Week of April 1, 2024
+## Semana de 1 de abril de 2024
 
-### Reorder the fields on the records page
+### Reordenar os campos nas páginas de registro
 
-Production: April 4, 2024 
+Produção: 4 de abril de 2024
 
-Preview: To be determined 
+Visualização: a ser determinado
 
-As a Workspace manager, you now can reorder the fields listed in the record page or box. Updating the order of the fields changes the order of fields on all records for the same type, for everyone viewing the record page or box.  
+Como gerente do Workspace, agora é possível reordenar os campos listados na página ou caixa de registro. Atualizar a ordem dos campos altera a ordem dos campos em todos os registros do mesmo tipo, para todos que exibem a página de registro ou a caixa de registro.
 
-For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
+Para obter mais informações, consulte [Gerenciar a página de registros](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 
-### Add cover image to record pages
+### Adicionar imagem de capa para gravar páginas
 
-Production: April 4, 2024 
+Produção: 4 de abril de 2024
 
-Preview: To be determined 
+Visualização: a ser determinado
 
-As you manage record pages, you can now add, reposition, and replace a cover image on a record page or box, to enrich the record's presentation and stakeholder engagement. Cover images are visible to all users viewing the records. 
+Ao gerenciar páginas de registros, agora é possível adicionar, reposicionar e substituir uma imagem de capa em uma página ou caixa de registro, para enriquecer a apresentação do registro e o envolvimento da parte interessada. As imagens de capa são visíveis para todos os usuários que visualizam os registros.
 
-For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md).  
-
--->
+Para obter mais informações, consulte [Gerenciar a página de registros](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## Semana de 25 de março de 2024
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1322'
 ht-degree: 0%
 
 ---
@@ -103,8 +103,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 * Se os registros exibidos estiverem vinculados a outros registros, as novas informações dos registros que você está editando serão refletidas nos registros vinculados.
 * Não é possível editar registros em massa. <!--this will probably change-->
 * Os URLs são reconhecidos como links em tipos de campo de texto de linha única somente quando começam com o seguinte: http://, https://, ftp:// ou www. .
-<!--
-* You can edit the order of the fields in a record page and add a cover image for a record. For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). -->
+* É possível editar a ordem dos campos em uma página de registro e adicionar uma imagem de capa para um registro. Para obter mais informações, consulte [Gerenciar a página de registros](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## Editar registros
 

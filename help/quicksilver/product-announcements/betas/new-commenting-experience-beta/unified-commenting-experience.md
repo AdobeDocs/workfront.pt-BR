@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1378'
 ht-degree: 1%
 
 ---
@@ -60,12 +60,14 @@ Entre as melhorias incluídas na nova experiência de comentários estão as seg
 Os seguintes recursos foram removidos ou serão descontinuados da nova experiência:
 
 * Comentar em uma atualização do sistema. Comentários adicionados às atualizações do sistema no passado foram importados como comentários somente leitura na nova guia Atividade do sistema.
-* Capacidade de editar status, condição, data de confirmação e porcentagem concluída ao comentar tarefas e problemas
+* Capacidade de editar Status, Condição, Data de confirmação e Percentual concluído ao comentar tarefas e problemas.
+
+  Como alternativa, recomendamos que você adicione esses campos no painel Resumo de tarefas e problemas para acessá-los facilmente a partir de listas, relatórios, Página inicial, Workfront Balancer ou uma folha de horas.
 * Capacidade de editar o formulário personalizado
 * A informação &quot;em nome de &lt; user name >&quot; quando um administrador de Workfront ou grupo faz logon como outro usuário e adiciona um comentário em nome dele foi originalmente removida. Ele foi restabelecido em 19 de outubro de 2023.
 * A opção &quot;Solicitar aprovação&quot; ao marcar pessoas ao adicionar um comentário a um documento.
 * A configuração &quot;Mostrar o percentual concluído na atualização do status&quot; ao editar a caixa de perfil de um usuário será removida. A funcionalidade de atualizar o percentual concluído de uma tarefa ou problema foi removida.
-* A capacidade do Proprietário do Projeto de alterar a Data de conclusão planejada de uma tarefa quando a Data de confirmação for alterada na seção Atualizações. <!--ensure this is correct when re remove the legacy and leave only new commenting-->
+
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 
@@ -460,7 +462,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
   </tr>
   <tr>
-   <td>Capacidade de editar status, condição e data de confirmação ao comentar 
+   <td>Capacidade de editar Status, Condição, Data de confirmação ao comentar 
    </td>
    <td>✓ µ 
    </td>
@@ -499,6 +501,21 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    <td>
    </td>
    <td> 
+   </td>
+  </tr>
+
+<tr>
+   <td>Capacidade do Proprietário do Projeto de alterar a Data de Conclusão Planejada de uma tarefa quando a Data de Compromisso é alterada na seção Atualizações
+   </td>
+   <td> ✓ µ
+   </td>
+   <td> Pode ser lançado em uma data posterior
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> ✓ µ
    </td>
   </tr>
 </table>
