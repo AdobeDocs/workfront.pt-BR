@@ -11,17 +11,21 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 610469811a937fde70a938af829b156e69cca391
+exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
+source-git-commit: 5d84d50b8984bbff7bbc02ffc0ce86ec1f486742
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
 # Instalar um pacote de promoção de ambiente
 
+>[!NOTE]
+>
+>Para instalar um pacote, você deve estar conectado ao ambiente em que deseja instalar o pacote. Este é o ambiente no qual você está copiando objetos **para**.
 
-1. Vá para o ambiente em que deseja instalar o pacote. Este é o ambiente no qual você está copiando objetos **para**.
+1. Vá para o ambiente em que deseja instalar o pacote.
 1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Configuração]** ![Ícone de Configuração](/help/_includes/assets/gear-icon-setup.png).
 1. Selecionar **Sistema** na navegação à esquerda, selecione **Promoção do ambiente**.
 1. Selecione o pacote na lista exibida.

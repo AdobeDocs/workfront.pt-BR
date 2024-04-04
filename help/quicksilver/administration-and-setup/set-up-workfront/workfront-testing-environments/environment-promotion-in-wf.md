@@ -11,9 +11,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b44c83314a06592e21ab3c4316e2574b75e85715
+exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
+source-git-commit: 5d84d50b8984bbff7bbc02ffc0ce86ec1f486742
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '915'
 ht-degree: 1%
 
 ---
@@ -46,14 +47,14 @@ O recurso de Promoção do ambiente tem como objetivo fornecer a capacidade de m
 
 ### Objetos de trabalho
 
-| Objeto promovível | Sub-objetos promovíveis incluídos |
+| Objeto promovível | Objetos vinculados promovíveis incluídos |
 | --- | --- |
 | Projeto (PROJ) | Projeto<br>Tarefa<br>Atribuição<br>Predecessora<br>Empresa<br>Taxa de substituição<br>Grupo<br>Função<br>Equipe<br>Processo de aprovação<br>Caminho de aprovação<br>Etapa de aprovação<br>Aprovador da etapa<br>Agendar<br>Dia Não Útil<br>Definição da fila<br>Grupo de Tópicos de Fila<br>Enfileirar tópico<br>Regra de Encaminhamento<br>Caminho de Etapas<br>Etapa<br>Tipo de Hora<br>Conjunto de recursos<br>Categoria<br>Parâmetro da categoria<br>Parâmetro<br>Grupo de Parâmetros<br>Opção de parâmetro<br>Lógica de exibição da categoria |
 | Modelo (TMPL) | Modelo<br>Modelo de Tarefa<br>Atribuição de Modelo de Tarefa<br>Predecessora da Tarefa de Modelo<br>Empresa<br>Taxa de substituição<br>Grupo<br>Função<br>Equipe<br>Processo de aprovação<br>Caminho de aprovação<br>Etapa de aprovação<br>Aprovador da etapa<br>Agendar<br>Dia Não Útil<br>Definição da fila<br>Grupo de Tópicos de Fila<br>Enfileirar tópico<br>Regra de Encaminhamento<br>Caminho de Etapas<br>Etapa<br>Tipo de Hora<br>Conjunto de recursos<br>Categoria<br>Parâmetro da categoria<br>Parâmetro<br>Grupo de Parâmetros<br>Opção de parâmetro<br>Lógica de exibição da categoria |
 
 ### Objetos de relatório
 
-| Objeto promovível | Sub-objetos promovíveis incluídos |
+| Objeto promovível | Objetos vinculados promovíveis incluídos |
 | --- | --- |
 | Modelo de layout (UITMPL) | Modelo de layout<br>Painel<br>Calendário<br>Seção de calendário<br>Página externa<br>Relatório<br>Filtro<br>Agrupamento<br>Exibir<br>Parâmetro |
 | Painel (PTLTAB) | Painel<br>Calendário<br>Seção de calendário<br>Página externa<br>Relatório<br>Filtro<br>Agrupamento<br>Exibir<br>Parâmetro |
@@ -66,7 +67,7 @@ O recurso de Promoção do ambiente tem como objetivo fornecer a capacidade de m
 
 ### Objetos de dados personalizados
 
-| Objeto promovível | Sub-objetos promovíveis incluídos |
+| Objeto promovível | Objetos vinculados promovíveis incluídos |
 | --- | --- |
 | Categoria (CTGY) | Categoria<br>Parâmetro da categoria<br>Parâmetro<br>Grupo de Parâmetros<br>Opção de parâmetro<br>Lógica de exibição da categoria<br>Grupo |
 | Parâmetro (PARAM) | Parâmetro<br>Opção de parâmetro |
@@ -74,7 +75,7 @@ O recurso de Promoção do ambiente tem como objetivo fornecer a capacidade de m
 
 ### Objetos da organização
 
-| Objeto promovível | Sub-objetos promovíveis incluídos |
+| Objeto promovível | Objetos vinculados promovíveis incluídos |
 | --- | --- |
 | Grupo (GRUPO) | Grupo <br>Subgrupos (até 5 níveis) *<br>Categoria<br>Parâmetro da categoria<br>Parâmetro<br>Grupo de Parâmetros<br>Opção de parâmetro<br>Lógica de exibição da categoria |
 | Função (ROLE) | Função |
@@ -85,7 +86,7 @@ O recurso de Promoção do ambiente tem como objetivo fornecer a capacidade de m
 
 ### Outros objetos de configuração
 
-| Objeto promovível | Sub-objetos promovíveis incluídos |
+| Objeto promovível | Objetos vinculados promovíveis incluídos |
 | --- | --- |
 | Processo de aprovação (ARVPRC) | Processo de aprovação<br>Caminho de aprovação<br>Etapa de aprovação<br>Aprovador da etapa<br>Função<br>Equipe<br>Grupo |
 | Agendamento (SCHED) | Agendar<br>Dia Não Útil<br>Grupo |
@@ -135,5 +136,3 @@ Esses status incluem o seguinte:
   </tr> 
   </tbody> 
 </table>
-
-
