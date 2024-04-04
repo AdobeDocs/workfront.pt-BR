@@ -4,9 +4,10 @@ description: Atualizações de aparência durante o período do segundo trimestr
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
+exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -29,11 +30,8 @@ Os modelos de email para adicionar um aprovador a um ativo e adicionar um usuár
 
 >[!NOTE]
 >
->Versão de pré-visualização: 8 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento 24.3 (14 de março de 2024); Produção para lançamento trimestral: Com o lançamento 24.4 (abril de 2024)
+>Versão de pré-visualização: 8 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento do 24.3 (14 de março de 2024); Produção para lançamento trimestral: Com o lançamento do 24.4 (11 de abril de 2024)
 
 Atualizamos as guias para Forms, Campos e Seções na área Configuração > Forms personalizado para um design mais moderno que é consistente com outras áreas do Workfront. Agora você acessa as três áreas no menu de navegação esquerdo. Filtros, visualizações e agrupamentos ainda estão disponíveis para as listas. O design atualizado se aplica a formulários, campos e seções personalizados criados no novo designer de formulários e no construtor de formulários herdados.
 
 Para obter informações, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) e [Criar ou editar um formulário personalizado com o construtor de formulários herdado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
-
-

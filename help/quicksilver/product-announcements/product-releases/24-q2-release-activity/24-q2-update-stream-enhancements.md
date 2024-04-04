@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 
 >[!NOTE]
 >
->Versão de pré-visualização: 1 de abril de 2024; Produção para todos os clientes: com a versão 24.4 (abril de 2024)
+>Versão de pré-visualização: 1 de abril de 2024; Produção para todos os clientes: com a versão 24.4 (11 de abril de 2024)
 
-Removemos o botão &quot;Novo comentário&quot; na área Atualizações para projetos, tarefas, problemas e documentos. O novo comentário agora é o padrão e a única opção para esses objetos. Com essa alteração, você não poderá mais reverter para a experiência de comentários herdada.
+Removemos o botão &quot;Novo comentário&quot; na área Atualizações para projetos, tarefas, problemas e documentos. O novo comentário agora é o padrão e a única opção para esses objetos. Com essa alteração, você não poderá mais reverter para a experiência de comentários herdada. Além disso, removemos a configuração &quot;Mostrar porcentagem concluída no status de atualização&quot; no perfil de um usuário.
 
 Para obter mais informações, consulte [Nova experiência de comentários](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
@@ -32,7 +32,7 @@ Para obter mais informações, consulte [Nova experiência de comentários](/hel
 
 >[!NOTE]
 >
->Versão de pré-visualização: 1 de março de 2024; Produção para lançamento rápido: Com o lançamento do 24.3 (14 de março de 2024); Produção para todos os clientes: Com o lançamento do 24.4 (abril de 2024)
+>Versão de pré-visualização: 1 de março de 2024; Produção para lançamento rápido: Com o lançamento do 24.3 (14 de março de 2024); Produção para todos os clientes: Com o lançamento do 24.4 (11 de abril de 2024)
 
 Agora adicionamos a nova funcionalidade de comentários à **Adicionar nova atualização** botão de ação rápida nos widgets Meu trabalho, Meus projetos, Minhas tarefas e Meus problemas, na nova página inicial.
 
@@ -42,7 +42,7 @@ Para obter mais informações, consulte [Introdução à nova Página inicial](/
 
 >[!NOTE]
 >
->Versão de pré-visualização: 29 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento do 24.3 (14 de março de 2024); Produção para todos os clientes: Com o lançamento do 24.4 (abril de 2024)
+>Versão de pré-visualização: 29 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento do 24.3 (14 de março de 2024); Produção para todos os clientes: Com o lançamento do 24.4 (11 de abril de 2024)
 
 Fizemos os seguintes aprimoramentos na nova experiência de comentários:
 
@@ -57,7 +57,7 @@ Para obter mais informações, consulte [Atualizar trabalho](/help/quicksilver/w
 
 >[!NOTE]
 >
->Versão de pré-visualização: 22 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento do 24.3 (14 de março de 2024); Produção para todos os clientes: Com o lançamento do 24.4 (abril de 2024)
+>Versão de pré-visualização: 22 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento do 24.3 (14 de março de 2024); Produção para todos os clientes: Com o lançamento do 24.4 (11 de abril de 2024)
 
 Os comentários feitos nos registros de atividade do sistema na experiência de comentários herdada agora são preenchidos na guia Atividade do sistema na nova experiência de comentários como somente leitura. Não é possível responder aos registros de atividade do sistema na nova experiência de comentários.
 
@@ -69,7 +69,7 @@ Para obter mais informações, consulte [Visão geral da seção Atualizações]
 
 >[!NOTE]
 >
->Versão de pré-visualização: 22 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento do 24.3 (14 de março de 2024); Produção para todos os clientes: Com o lançamento do 24.4 (abril de 2024)
+>Versão de pré-visualização: 22 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento do 24.3 (14 de março de 2024); Produção para todos os clientes: Com o lançamento do 24.4 (11 de abril de 2024)
 
 Para fornecer uma exibição cronologicamente coesa de comentários e logs de atividades do sistema, estamos introduzindo uma terceira guia à área Atualizações de todos os objetos. A guia &quot;Todos&quot; captura os comentários do usuário e os comentários da atividade do sistema em um fluxo coeso.
 
@@ -83,7 +83,7 @@ Para obter mais informações, consulte [Visão geral da seção Atualizações]
 
 >[!NOTE]
 >
->Versão de pré-visualização: 22 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento do 24.3 (14 de março de 2024); Produção para todos os clientes: Com o lançamento do 24.4 (abril de 2024)
+>Versão de pré-visualização: 22 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento do 24.3 (14 de março de 2024); Produção para todos os clientes: Com o lançamento do 24.4 (11 de abril de 2024)
 
 Agora adicionamos a nova funcionalidade de comentários ao painel Resumo para listas de tarefas e problemas.
 

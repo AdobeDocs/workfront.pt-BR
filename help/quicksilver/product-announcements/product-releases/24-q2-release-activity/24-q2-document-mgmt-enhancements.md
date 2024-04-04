@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
-source-git-commit: 6d1f7e5bc91e101e613689c9b28a94c7829abae0
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '342'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 
 >[!NOTE]
 >
->Versão de pré-visualização: 28 de março de 2024; Produção para todos os clientes: com a versão 24.4 (abril de 2024)
+>Versão de pré-visualização: 28 de março de 2024; Produção para todos os clientes: com a versão 24.4 (11 de abril de 2024)
 
 Agora é possível especificar um prazo para que os usuários ou equipes atribuídos revisem ou aprovem um documento. Revisores e aprovadores recebem notificações por email 72 horas e 24 horas antes do prazo especificado. O prazo também é refletido no widget Aprovações na nova área Página inicial.
 
@@ -36,7 +36,7 @@ Para obter mais informações, consulte [Criar uma revisão de documento ou soli
 
 >[!NOTE]
 >
->Versão de pré-visualização: 28 de março de 2024; Produção para todos os clientes: com a versão 24.4 (abril de 2024)
+>Versão de pré-visualização: 28 de março de 2024; Produção para todos os clientes: com a versão 24.4 (11 de abril de 2024)
 
 Agora é possível criar Modelos de aprovação na área Configuração para simplificar o processo de revisão e aprovação. Os Modelos de aprovação permitem que você torne o processo de revisão e aprovação mais repetível
 
@@ -51,7 +51,7 @@ Para obter mais informações, consulte [Criar um modelo de aprovação](/help/q
 
 >[!NOTE]
 >
->Versão de pré-visualização: 28 de março de 2024; Produção para todos os clientes: com a versão 24.4 (abril de 2024)
+>Versão de pré-visualização: 28 de março de 2024; Produção para todos os clientes: com a versão 24.4 (11 de abril de 2024)
 
 Para ajudá-lo a gerenciar e analisar suas solicitações de aprovação rapidamente, adicionamos os seguintes indicadores-chave de desempenho ao widget Todas as aprovações:
 

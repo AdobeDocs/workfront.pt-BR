@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 21b2a8180512f71383a7d5201d62fd9ab166d8ef
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2026'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
 >
 >| Lançamento mensal | Versão trimestral |
 >|----|----|
->| <ul><li>24.2 (15 de fevereiro de 2024)</li><li>24.3 (14 de março de 2024)</li><li>24.4 (11 de abril de 2024)</li></ul> | <ul><li>24.4 (abril de 2024)</li></ul> |
+>| <ul><li>24.2 (15 de fevereiro de 2024)</li><li>24.3 (14 de março de 2024)</li><li>24.4 (11 de abril de 2024)</li></ul> | <ul><li>24.4 (11 de abril de 2024)</li></ul> |
 >
 >Para obter mais informações sobre o processo de lançamento rápido, consulte [Ativar ou desativar o processo de lançamento rápido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -65,7 +65,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">A lógica de exibição e a lógica de salto agora estão disponíveis no modo de visualização do designer de formulário</a><span style="color: #ff0000;"> Novo na visualização!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">A lógica de exibição e a lógica de salto agora estão disponíveis no modo de visualização do designer de formulário</a></p>
                         <p>O designer de formulário personalizado beta agora permite testar a lógica de exibição e ignorar a lógica no modo de visualização. Anteriormente, todos os campos eram exibidos na visualização mesmo quando a lógica era aplicada.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -74,7 +74,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                                 <p>Versão de pré-visualização: 28 de março de 2024</p>
                             </li>
                             <li>
-                                <p>Produção para clientes: com a versão 24.4 (abril de 2024)</p>
+                                <p>Produção para clientes: com a versão 24.4 (11 de abril de 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -90,7 +90,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                                 <p>Versão de pré-visualização: 14 de março de 2024</p>
                             </li>
                             <li>
-                                <p>Produção para clientes: com a versão 24.4 (abril de 2024)</p>
+                                <p>Produção para clientes: com a versão 24.4 (11 de abril de 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -109,7 +109,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                                 <p>Produção para lançamento rápido: com o lançamento do 24.3 (14 de março de 2024)</p>
                             </li>
                             <li>
-                                <p>Produção para versão trimestral: com a versão 24.4 (abril de 2024)</p>
+                                <p>Produção para versão trimestral: com a versão 24.4 (11 de abril de 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -128,7 +128,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                                 <p>Produção para lançamento rápido: com o lançamento do 24.3 (14 de março de 2024)</p>
                             </li>
                             <li>
-                                <p>Produção para versão trimestral: com a versão 24.4 (abril de 2024)</p>
+                                <p>Produção para versão trimestral: com a versão 24.4 (11 de abril de 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -173,6 +173,10 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
 
 ### Aprimoramentos no gerenciamento de documentos
 
+>[!IMPORTANT]
+>
+>Os recursos listados em **Aprimoramentos no gerenciamento de documentos** fazem parte de uma versão em fases e só estão disponíveis para clientes específicos.
+
 <table>
             <col style="width: 50%;" />
             <col style="width: 50%;" />
@@ -189,7 +193,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Adicionar um prazo final para revisões e aprovações de um documento</a><span style="color: #ff0000;"> Novo na visualização!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Adicionar um prazo final para revisões e aprovações de um documento</a></p>
                         <p>Agora é possível especificar um prazo para que os usuários ou equipes atribuídos revisem ou aprovem um documento. Revisores e aprovadores recebem notificações por email 72 horas e 24 horas antes do prazo especificado. O prazo também é refletido no widget Aprovações na nova área Página inicial.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -198,14 +202,14 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                                 <p>Versão de pré-visualização: 28 de março de 2024</p>
                             </li>
                             <li>
-                                <p>Produção para clientes: com a versão 24.4 (abril de 2024)</p>
+                                <p>Produção para clientes: com a versão 24.4 (11 de abril de 2024)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Criar e usar Modelos de Aprovação</a><span style="color: #ff0000;"> Novo na visualização!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Criar e usar Modelos de Aprovação</a></p>
                         <p>Agora é possível criar Modelos de aprovação na área Configuração para simplificar o processo de revisão e aprovação. Os Modelos de aprovação permitem que você torne o processo de revisão e aprovação mais repetível
                         <ul>
                             <li>
@@ -223,14 +227,14 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                                 <p>Versão de pré-visualização: 28 de março de 2024</p>
                             </li>
                             <li>
-                                <p>Produção para clientes: com a versão 24.4 (abril de 2024)</p>
+                                <p>Produção para clientes: com a versão 24.4 (11 de abril de 2024)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Exibir informações sobre todas as suas aprovações em um único local</a><span style="color: #ff0000;"> Novo na visualização!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Exibir informações sobre todas as suas aprovações em um único local</a></p>
                         <p>Para ajudá-lo a gerenciar e analisar suas solicitações de aprovação rapidamente, adicionamos os seguintes indicadores-chave de desempenho ao widget Todas as aprovações:
                         <ul>
                             <li>
@@ -254,10 +258,9 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                                 <p>Versão de pré-visualização: 28 de março de 2024</p>
                             </li>
                             <li>
-                                <p>Produção para clientes: com a versão 24.4 (abril de 2024)</p>
+                                <p>Produção para clientes: com a versão 24.4 (11 de abril de 2024)</p>
                             </li>
                         </ul>
-                        <p><span style="color: #ff0000;">Esse recurso faz parte de uma versão em fases e está disponível no momento apenas para clientes específicos.</span></p>
                     </td>
                 </tr>
             </tbody>
@@ -295,7 +298,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                                 <p><span style="color: #ff0000;">Esse recurso foi removido da produção para clientes de lançamento rápido em 18 de março de 2024.</span></p>
                             </li>
                             <li>
-                                <p>Produção para versão trimestral: com a versão 24.4 (abril de 2024)</p>
+                                <p>Produção para versão trimestral: com a versão 24.4 (11 de abril de 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -316,7 +319,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                                 <p><span style="color: #ff0000;">Esse recurso foi removido da produção para clientes de lançamento rápido em 18 de março de 2024.</span></p>
                             </li>
                             <li>
-                                <p>Produção para versão trimestral: com a versão 24.4 (abril de 2024)</p>
+                                <p>Produção para versão trimestral: com a versão 24.4 (11 de abril de 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -353,7 +356,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                                 <p>Produção para lançamento rápido: com o lançamento do 24.2 (15 de fevereiro de 2024)</p>
                             </li>
                             <li>
-                                <p>Produção para versão trimestral: com a versão 24.4 (abril de 2024)</p>
+                                <p>Produção para versão trimestral: com a versão 24.4 (11 de abril de 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -379,8 +382,8 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">O acesso à área de comentários herdada foi removido</a><span style="color: #ff0000;"> Novo na visualização!</span></p>
-                        <p>Removemos o botão "Novo comentário" na área Atualizações para projetos, tarefas, problemas e documentos. O novo comentário agora é o padrão e a única opção para esses objetos.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">O acesso à área de comentários herdada foi removido</a></p>
+                        <p>Removemos o botão "Novo comentário" na área Atualizações para projetos, tarefas, problemas e documentos. O novo comentário agora é o padrão e a única opção para esses objetos. Com essa alteração, você não poderá mais reverter para a experiência de comentários herdada. Além disso, removemos a configuração "Mostrar porcentagem concluída no status de atualização" no perfil de um usuário.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -388,7 +391,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                                 <p>Versão de pré-visualização: 1 de abril de 2024</p>
                             </li>
                             <li>
-                                <p>Produção para todos os clientes: com a versão 24.4 (abril de 2024)</p>
+                                <p>Produção para todos os clientes: com a versão 24.4 (11 de abril de 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -407,7 +410,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                                 <p>Produção para lançamento rápido: com o lançamento do 24.3 (14 de março de 2024)</p>
                             </li>
                             <li>
-                                <p>Produção para versão trimestral: com a versão 24.4 (abril de 2024)</p>
+                                <p>Produção para versão trimestral: com a versão 24.4 (11 de abril de 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -434,7 +437,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                                 <p>Produção para lançamento rápido: com o lançamento do 24.3 (14 de março de 2024)</p>
                             </li>
                             <li>
-                                <p>Produção para versão trimestral: com a versão 24.4 (abril de 2024)</p>
+                                <p>Produção para versão trimestral: com a versão 24.4 (11 de abril de 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -453,7 +456,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                                 <p>Produção para lançamento rápido: com o lançamento do 24.3 (14 de março de 2024)</p>
                             </li>
                             <li>
-                                <p>Produção para versão trimestral: com a versão 24.4 (abril de 2024)</p>
+                                <p>Produção para versão trimestral: com a versão 24.4 (11 de abril de 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -472,7 +475,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                                 <p>Produção para lançamento rápido: com o lançamento do 24.3 (14 de março de 2024)</p>
                             </li>
                             <li>
-                                <p>Produção para versão trimestral: com a versão 24.4 (abril de 2024)</p>
+                                <p>Produção para versão trimestral: com a versão 24.4 (11 de abril de 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -491,7 +494,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                                 <p>Produção para lançamento rápido: com o lançamento do 24.3 (14 de março de 2024)</p>
                             </li>
                             <li>
-                                <p>Produção para versão trimestral: com a versão 24.4 (abril de 2024)</p>
+                                <p>Produção para versão trimestral: com a versão 24.4 (11 de abril de 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -540,7 +543,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
 
 ### Aprimoramentos do Workfront Fusion
 
-Novos recursos no Workfront Fusion estão disponíveis na produção em uma cadência fora da programação de lançamento do Primeiro trimestre de 2023. Para obter mais informações sobre os recursos mais recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Novos recursos no Workfront Fusion estão disponíveis na produção em uma cadência fora da programação de lançamento do Segundo trimestre de 2024. Para obter mais informações sobre os recursos mais recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Aprimoramentos no Planejador de cenários do Workfront
 
@@ -564,7 +567,7 @@ Para obter informações sobre versões da API, consulte [Controle de versão da
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão 22.3, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do segundo trimestre de 2024, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 
