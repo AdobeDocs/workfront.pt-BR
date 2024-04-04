@@ -7,9 +7,9 @@ description: A seção Atualizações de um objeto exibe comentários que os usu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 6dceeeb7803e177ee0f366ee2bc94275ed231722
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1426'
 ht-degree: 3%
 
 ---
@@ -19,12 +19,9 @@ ht-degree: 3%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy - April 2024???-->
+<!--info for April 11: take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md) ).</span> -->
-
+<!--info for April 11: hide the disclaimer for preview below-->
 
 <span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou na Produção para clientes que ativaram versões rápidas. </span>
 
@@ -33,6 +30,8 @@ ht-degree: 3%
 <span class="preview">Para obter informações sobre a programação de lançamento atual, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--info for April 11: take out the Important box-->
+
+A seção Atualizações de um objeto exibe comentários que os usuários fazem no objeto ou atualizações de sistema que controlam alterações no objeto.
 
 >[!IMPORTANT]
 >
@@ -85,7 +84,7 @@ The following objects have an Updates section where you can add comments or revi
 * Iterations
 -->
 
-<!--remove all the information below, all the way down to the following section: -->
+<!--info for April 11: remove all the information below, all the way down to the following section: -->
 
 Dependendo dos objetos para os quais você acessa a experiência de comentários, você pode encontrar a seguinte experiência na seção Atualizações:
 
@@ -133,7 +132,7 @@ Dependendo dos objetos para os quais você acessa a experiência de comentários
 
 </div>
 
-<!--info for April 11: remove the NOTE below-->
+<!--info for April 11: remove the NOTE below and any references below to "the new commenting experience". This should be just the ONLY experience. -->
 
 >[!NOTE]
 >
@@ -152,9 +151,23 @@ Dependendo dos objetos para os quais você acessa a experiência de comentários
    * Modelo de Tarefa
    * Cartão ad-hoc
 
+     Para obter mais informações sobre atualizações em cartões, consulte [Adicionar um cartão ad hoc a um quadro](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+
 * Os seguintes objetos não têm um <span class="preview">Guia Todos:</span>
 
    * Metas
+
+     Para obter mais informações sobre atualizações de metas, consulte [Gerenciar comentários da meta](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+
+<!--info for April 11: make the text below live - remove the commented out brackets: 
+
+* The following objects don't have a System Activity or an All tab: 
+
+  * Iterations
+
+    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
+
+-->
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -175,7 +188,7 @@ Os seguintes objetos não registram atualizações do sistema:
 * Iterações
 
 
-## Atualizações que também aparecem em objetos de classificação mais alta
+## Atualizações que também aparecem em objetos com classificação mais alta
 
 Comentários, respostas ou atualizações de sistema de determinados objetos também aparecem na seção Atualizações de objetos com classificação mais alta.
 
@@ -189,7 +202,7 @@ A tabela a seguir mostra os objetos cujos comentários também são exibidos em 
  <thead> 
   <tr> 
    <th><strong>Objeto onde a atualização original foi adicionada</strong> </th> 
-   <th> <p><strong>Objeto com classificação mais alta no qual a atualização original também aparece</strong> </p> </th> 
+   <th> <p><strong>Objetos de classificação mais alta nos quais a atualização original também aparece</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -248,6 +261,8 @@ A tabela a seguir mostra os objetos cujos comentários também são exibidos em 
  </tbody> 
 </table>
 
+<!--info for April 11: hide the note below-->
+
 >[!NOTE]
 >
 >As respostas adicionadas às atualizações do sistema não são acumuladas no objeto pai. Somente respostas diretas em um objeto filho e respostas adicionadas a atualizações existentes são acumuladas em objetos pai.
@@ -267,16 +282,14 @@ Considere o seguinte ao visualizar atualizações para usuários e equipes:
 
 * Não é possível adicionar novos comentários na seção Atualizações de uma equipe.
 
-* Você pode adicionar uma resposta a uma atualização que visualiza em uma equipe. A resposta é exibida na seção Atualizações da equipe, bem como na seção Atualizações do objeto ao qual pertence.
-
 * A seção Atualizações para equipes é preenchida por atualizações inseridas nos seguintes objetos:
 
    * Usuários
-   * Folhas de horas*
    * Histórias
-   * Iterações*
+   * Planilhas de horas
+   * Iterações
 
-  *Eles não estão disponíveis para a nova experiência de comentários.
+* Você pode adicionar uma resposta a uma atualização que visualiza em uma equipe. A resposta é exibida na seção Atualizações da equipe, bem como na seção Atualizações do objeto ao qual pertence.
 
 * Na seção Atualizações para usuários e equipes, é possível visualizar as atualizações inseridas nos últimos 90 dias.
 

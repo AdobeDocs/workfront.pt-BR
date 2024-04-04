@@ -7,7 +7,7 @@ description: Nesta visualização de tarefa, você pode adicionar código à col
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: f7f43e1e-db32-48b8-9a23-ff9fa6195386
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -61,13 +61,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
 1. Na nova coluna, clique em **Alternar para modo de texto**.
 1. Passe o mouse sobre a área do modo de texto e clique em **Clique para editar o texto**.
-1. Remova o texto localizado na
-
-   ```
-   valuefield=
-   ```
-
-   e substitua-o pelo seguinte código:
+1. Remova o texto localizado na `valuefield=` e substitua-o pelo seguinte código:
 
    ```
    valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(' - ',{name}),IF({indent}<3,CONCAT(' - - ',{name}),IF({indent}<4,CONCAT(' - - - ',{name}),CONCAT(' - - - - ',{name})))))

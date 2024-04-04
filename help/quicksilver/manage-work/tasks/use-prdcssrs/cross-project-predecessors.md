@@ -6,7 +6,7 @@ description: Uma Predecessora entre projetos é uma tarefa da qual outra tarefa 
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 1. No **Tarefas** comece digitando o nome da tarefa que você deseja que seja a predecessora da tarefa atual.
 1. Especifique as seguintes informações para definir a relação entre a tarefa predecessora e a tarefa dependente:
 
-   * **Tipo de Dependência:** Selecione a relação que você deseja que a tarefa predecessora tenha com a tarefa dependente. A relação padrão é &quot;Término-Início&quot;, o que significa que a tarefa predecessora deve terminar antes que a tarefa dependente possa iniciar. Para obter mais informações sobre os vários tipos de dependências, consulte [Visão geral dos tipos de dependência de tarefa](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
+   * **Tipo de Dependência:** Selecione a relação que você deseja que a tarefa predecessora tenha com a tarefa dependente. A relação padrão é &quot;Término-Início&quot;, o que significa que a tarefa predecessora deve terminar antes que a tarefa dependente possa iniciar. Para obter mais informações sobre os vários tipos de dependências, consulte [Visão geral dos tipos de dependência de tarefa](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
    * **Atraso:** Especifique o tempo que deve decorrer após a conclusão de uma predecessora imposta até que a tarefa dependente possa começar. Para obter mais informações sobre os vários tipos de retardo, consulte [Visão geral dos Tipos de Defasagem](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 

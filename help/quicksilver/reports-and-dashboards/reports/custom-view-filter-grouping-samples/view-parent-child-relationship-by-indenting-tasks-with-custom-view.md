@@ -7,10 +7,10 @@ description: Você pode manter a distinção de relacionamentos pai-filho em uma
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 4987501f-a1d9-47cd-bfbe-83acfc225204
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
 source-wordcount: '299'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -64,9 +64,16 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 1. Clique em qualquer lugar na caixa de texto para editar o texto e remover todo o texto existente.
 1. Cole o seguinte texto:
 
-   ```
-   displayname=<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br>valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(" - ",{name}),IF({indent}<3,CONCAT(" - - ",{name}),IF({indent}<4,CONCAT(" - - - ",{name}),CONCAT(" - - - - ",{name})))))<br>valueformat=HTML
-   ```
+
+```
+   displayname=
+   linkedname=direct
+   namekey=name
+   querysort=name
+   textmode=true
+   valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(" - ",{name}),IF({indent}<3,CONCAT(" - - ",{name}),IF({indent}<4,CONCAT(" - - - ",{name}),CONCAT(" - - - - ",{name})))))
+   valueformat=HTML
+```
 
 1. Clique em **Salvar**.
 1. Clique em **Salvar visualização**.

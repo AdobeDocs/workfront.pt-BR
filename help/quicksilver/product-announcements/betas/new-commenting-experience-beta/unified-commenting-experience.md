@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1377'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ Os seguintes recursos foram removidos ou serão descontinuados da nova experiên
 * Comentar em uma atualização do sistema. Comentários adicionados às atualizações do sistema no passado foram importados como comentários somente leitura na nova guia Atividade do sistema.
 * Capacidade de editar Status, Condição, Data de confirmação e Percentual concluído ao comentar tarefas e problemas.
 
-  Como alternativa, recomendamos que você adicione esses campos no painel Resumo de tarefas e problemas para acessá-los facilmente a partir de listas, relatórios, Página inicial, Workfront Balancer ou uma folha de horas.
+  Como alternativa, recomendamos que você adicione esses campos no painel Resumo de tarefas e problemas para acessá-los facilmente a partir de listas, da Página inicial, do Workfront Balancer ou de uma folha de horas.
 * Capacidade de editar o formulário personalizado
 * A informação &quot;em nome de &lt; user name >&quot; quando um administrador de Workfront ou grupo faz logon como outro usuário e adiciona um comentário em nome dele foi originalmente removida. Ele foi restabelecido em 19 de outubro de 2023.
 * A opção &quot;Solicitar aprovação&quot; ao marcar pessoas ao adicionar um comentário a um documento.

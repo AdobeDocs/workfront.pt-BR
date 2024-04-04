@@ -5,9 +5,9 @@ title: Trabalhar em fusos horários
 description: Pode ser útil compreender como [!DNL Adobe Workfront] O usa fusos horários para calcular campos de tempo para objetos e horários em outras áreas, como emails.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,15 @@ Pode ser útil compreender como [!DNL Adobe Workfront] O usa fusos horários par
 
 * Campos de tempo para objetos
 * Horas em outras [!DNL Workfront] áreas, como emails automatizados do Workfront
+
+>[!WARNING]
+>
+>Se você não conseguir encontrar o fuso horário exato na lista que fornecemos, encontre o fuso horário mais próximo do seu e atualize-o para a sua instância.
+>
+>Além disso, considere que um fuso horário semelhante pode não corresponder perfeitamente ao seu.
+>
+>Por exemplo, alguns países ou territórios podem observar o Horário de verão, mas seu país pode não observar. Talvez seja necessário ajustar os fusos horários do sistema de acordo com essas alterações, se necessário.
+
 
 ## Fusos horários em [!DNL Workfront]
 

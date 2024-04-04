@@ -5,22 +5,38 @@ description: Você pode usar o painel Resumo para revisar e atualizar informaç�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 1%
+source-wordcount: '992'
+ht-degree: 2%
 
 ---
 
 # [!UICONTROL Resumo] visão geral
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou na Produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Para obter informações sobre a programação de lançamento atual, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span> -->
 
-Você pode usar o [!UICONTROL Resumo] painel para revisar e atualizar as informações sobre o item de trabalho diretamente de uma lista de tarefas, problemas, documentos ou de outras áreas do [!DNL Adobe Workfront] que exibem tarefas e problemas.
+Você pode usar o [!UICONTROL Resumo] painel para revisar e atualizar informações sobre itens de trabalho diretamente de uma lista de tarefas, problemas, documentos ou de outras áreas do [!DNL Adobe Workfront] que exibem tarefas e problemas.
+
+O administrador do Workfront ou de grupo pode modificar as áreas e os campos exibidos no painel Resumo. Eles podem adicionar até 16 campos ao painel Resumo.
+
+>[!IMPORTANT]
+>
+>Recomendamos adicionar campos que você deve atualizar com frequência no Painel de resumo, para que possa acessá-los e atualizá-los facilmente sem acessar a página principal do objeto.
+>
+>Por exemplo, você pode adicionar os seguintes campos atualizados com frequência aos painéis Resumo de tarefas e problemas:
+>
+>* Status
+>* Percentual concluído
+>* Data de confirmação
+>* Data de conclusão planejada
+>* Condição
+
+
 
 A tabela a seguir exibe as áreas em que você pode localizar e usar o [!UICONTROL Resumo] painel:
 
@@ -28,7 +44,7 @@ A tabela a seguir exibe as áreas em que você pode localizar e usar o [!UICONTR
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>Tarefas</td> 
+   <td><b>Tarefas</b></td> 
   </tr> 
   <tr> 
    <td> <p>Listas de tarefas em um</p> 
@@ -44,7 +60,7 @@ A tabela a seguir exibe as áreas em que você pode localizar e usar o [!UICONTR
    <td>Tarefas em uma [!UICONTROL Planilha de Horas]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Problemas</td> 
+   <td><b>Problemas</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Listas de problemas em um</p> 
@@ -66,7 +82,7 @@ A tabela a seguir exibe as áreas em que você pode localizar e usar o [!UICONTR
   </tr>
 
 <tr data-mc-conditions=""> 
-   <td>Documentos</td> 
+   <td><b>Documentos</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Área [!UICONTROL Documentos]</td> 
@@ -96,25 +112,27 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano</strong></td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!UICONTROL Solicitação] ou superior</p> </td> 
+   <td> <p>Novo: Colaborador ou superior</p>
+   Ou
+   <p>Atual:[!UICONTROL Request] ou superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>[!UICONTROL Exibir] ou superior acesso a Tarefas, Problemas, Documentos</p> <p>[!UICONTROL Exibir] ou maior acesso a quaisquer objetos para os quais você deseja exibir documentos' [!UICONTROL Resumo]</p> <p>Observação: se você ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais no seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader"><strong>Configuração do nível de acesso</strong></td> 
+   <td> <p>[!UICONTROL Exibir] ou superior acesso a Tarefas, Problemas, Documentos</p> <p>[!UICONTROL Exibir] ou maior acesso a quaisquer objetos para os quais você deseja exibir documentos [!UICONTROL Resumo]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>[!UICONTROL Exibir] ou permissões superiores para uma tarefa, problema ou documento</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>[!UICONTROL Exibir] ou permissões superiores para uma tarefa, problema ou documento</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador. Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Exibir o [!UICONTROL Resumo] em uma lista de tarefas ou problemas
 
@@ -131,11 +149,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >
    >Você só pode selecionar uma tarefa ou um problema de cada vez para ver seus detalhes na [!UICONTROL Resumo] painel.
 
-   <div class="preview">
-
    ![Painel Resumo](assets/summary-panel-for-task-new-comments.png)
-
-   </div>
 
 1. (Opcional) Para fechar o [!UICONTROL Resumo] , siga um destes procedimentos:
 
@@ -155,17 +169,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 Use a barra de progresso na parte superior da [!UICONTROL Resumo] para atualizar o percentual concluído da tarefa ou problema selecionado. Insira um número ou arraste a barra até a porcentagem correta.
 
-<span class="preview">![Porcentagem concluída no painel Resumo](assets/summary-overview-percent-complete.png)</span>
+![Porcentagem concluída no painel Resumo](assets/summary-overview-percent-complete.png)
 
 ## [!UICONTROL Atualizações]
 
 Use o [!UICONTROL Atualizações] seção do [!UICONTROL Resumo] para exibir atualizações recentes e fazer atualizações na tarefa ou problema selecionado. Clique em **[!UICONTROL Ver tudo]** para ir diretamente para o [!UICONTROL Atualizações] na tarefa.
 
-<div class="preview">
-
 ![Seção Atualizações no painel Resumo](assets/summary-updates-section.png)
-
-</div>
 
 ## [!UICONTROL Documentos]
 
