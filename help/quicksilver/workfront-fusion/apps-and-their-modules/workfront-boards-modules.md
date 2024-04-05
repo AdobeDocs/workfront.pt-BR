@@ -9,9 +9,9 @@ description: Você pode usar o conector de placas Adobe Workfront para automatiz
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: f5ed9dac8fdd0a5049330f06ccc26d56d5cee774
+source-git-commit: 9b4e1b4227b15a6998966838552a5058675fa9a0
 workflow-type: tm+mt
-source-wordcount: '2318'
+source-wordcount: '2325'
 ht-degree: 1%
 
 ---
@@ -136,6 +136,7 @@ Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo par
 * [Quadros](#boards)
 * [Colunas](#columns)
 * [Tags](#tags)
+* [Comentários](#comments)
 * [Outro](#other)
 
 <!--
@@ -482,6 +483,9 @@ Esse módulo de ação cria uma nova tag e a atribui a uma cor.
 </table>
 
 ### Comentários
+
+* [Criar um comentário](#create-a-comment)
+* [Ler comentários do cartão](#read-card-comments)
 
 #### Criar um comentário
 
