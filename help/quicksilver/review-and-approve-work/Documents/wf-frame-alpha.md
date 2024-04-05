@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 33c44b10fd235ae8a90733b14391ead54053db9f
+source-git-commit: 7b2a087c2d611110ffbb14c57f52de1bf633d4d5
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 2%
+source-wordcount: '533'
+ht-degree: 1%
 
 ---
 
@@ -20,9 +20,21 @@ ht-degree: 2%
 
 Estamos animados em anunciar o lançamento do nosso programa Alpha para Workfront + Frame.io. Aqui você encontrará informações sobre a versão mais recente do Alpha, juntamente com uma breve apresentação em vídeo para ajudá-lo a começar.
 
-## Versão mais recente
+## Atualizações de versão do Alpha no Frame.io - março de 2024
 
-## Versão do Alpha - março de 2024
+Nesta versão do Alpha, temos:
+
+### Adicionar vários ativos do Frame.io ao Workfront
+
+Agora é possível adicionar até 10 ativos do Frame.io para o Workfront de uma só vez. Você pode optar por adicionar aos Documentos do projeto do Workfront ou a uma tarefa específica do projeto.
+
+### Experiência aprimorada ao adicionar um ativo Frame.io ao Workfront
+
+Os itens de menu para adicionar um ativo ao Workfront foram atualizados, facilitando a visualização das tarefas atribuídas a você, da hierarquia de tarefas e do status da tarefa.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428213/)
+
+## Atualizações da versão do Alpha no Workfront - março de 2024
 
 Nesta versão do Alpha, temos:
 
@@ -64,7 +76,7 @@ Uma vez bloqueada, qualquer pessoa que revise e/ou aprove não poderá mais faze
 
 Quando uma nova versão do documento for carregada, a próxima rodada de revisão poderá ser iniciada, mantendo as revisões anteriores bloqueadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428023/)
+>[!VIDEO](https://video.tv.adobe.com/v/3428179/)
 
 
 ## Enviar feedback
