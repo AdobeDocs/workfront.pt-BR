@@ -7,9 +7,9 @@ description: Os seguintes modelos públicos estão disponíveis no Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3f07ccb23c6697547742537aa63211ac594c1062
+source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Essa automação observa novos projetos em portfólios com formulários personal
 
 Este modelo converte problemas em projetos. Você pode modificá-la para atender aos padrões de sua organização.
 
-### [!BADGE Novo!]{type=Informative}
+### Workfront - Copiar documentos de problemas/solicitações para projetos ou tarefas já convertidos
 
 Esse cenário flexível copia documentos de problemas ou solicitações para projetos ou tarefas convertidos anteriormente.
 
