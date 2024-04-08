@@ -1,28 +1,28 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Programa Alpha - Workfront + Frame.io
-description: Estamos animados em anunciar o lançamento do nosso programa Alpha para Workfront + Frame.io. Aqui você encontrará informações sobre a versão mais recente do Alpha, juntamente com uma breve apresentação em vídeo para ajudá-lo a começar.
+title: Programa Beta - Workfront + Frame.io
+description: Estamos animados em anunciar o lançamento de nosso programa Beta para Workfront + Frame.io. Aqui você encontrará informações sobre a versão Beta mais recente, juntamente com uma breve apresentação em vídeo para começar.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 7b2a087c2d611110ffbb14c57f52de1bf633d4d5
+source-git-commit: 10967c222cdcbfc426260af491f5e6f5b9b81a76
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 1%
 
 ---
 
-# Programa Alpha - Workfront + Frame.io
+# Programa Beta - Workfront + Frame.io
 
-Estamos animados em anunciar o lançamento do nosso programa Alpha para Workfront + Frame.io. Aqui você encontrará informações sobre a versão mais recente do Alpha, juntamente com uma breve apresentação em vídeo para ajudá-lo a começar.
+Estamos animados em anunciar o lançamento de nosso programa Beta para Workfront + Frame.io. Aqui você encontrará informações sobre a versão Beta mais recente, juntamente com uma breve apresentação em vídeo para começar.
 
-## Atualizações de versão do Alpha no Frame.io - março de 2024
+## Atualizações de versão beta no Frame.io - março de 2024
 
-Nesta versão do Alpha, temos:
+Nesta versão Beta, temos:
 
 ### Adicionar vários ativos do Frame.io ao Workfront
 
@@ -34,9 +34,9 @@ Os itens de menu para adicionar um ativo ao Workfront foram atualizados, facilit
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## Atualizações da versão do Alpha no Workfront - março de 2024
+## Atualizações de versão beta no Workfront - março de 2024
 
-Nesta versão do Alpha, temos:
+Nesta versão Beta, temos:
 
 ### Adicionar um prazo final para revisões e aprovações de um documento
 
