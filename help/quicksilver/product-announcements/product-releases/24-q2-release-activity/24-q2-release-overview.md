@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 87e4676e45dd174c6abb2b1edc646d34d43af169
+source-git-commit: d463a3878552f926c4b5a5c87e0f87764e60c60d
 workflow-type: tm+mt
-source-wordcount: '2108'
+source-wordcount: '2167'
 ht-degree: 0%
 
 ---
@@ -297,6 +297,41 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                             </li>
                             <li>
                                 <p>Produção para versão trimestral: com a versão 24.4 (11 de abril de 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### Aprimoramentos de integração
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Recurso</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Datas de lançamento</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Melhorias no fluxo de trabalho de criação automatizada de pastas na integração do Adobe Experience Manager</a></p><p>[!BADGE Na produção ]{type=Informative}</p>
+                        <p>Para garantir que suas pastas do Adobe Experience Manager reflitam com mais precisão suas necessidades, fizemos algumas atualizações no fluxo de trabalho de pastas vinculadas do Adobe Experience Manager.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 11 de março de 2024</p>
+                            </li>
+                            <li>
+                                <p>Produção para todos os clientes: 14 de março de 2024</p>
                             </li>
                         </ul>
                     </td>
@@ -595,11 +630,11 @@ Não há atualizações do Workfront Proof neste momento na versão. Esta área 
 
 Não há atualizações do Workfront Goals neste momento na versão. Esta área será atualizada quando houver atualizações disponíveis.
 
-### API versão 16
+### API versão 18
 
-Para a API versão 16, modificamos alguns recursos e endpoints. Algumas das alterações são compatíveis com a nova funcionalidade, enquanto outras facilitam o uso das informações disponíveis por meio da API.
+Para a API versão 18, modificamos alguns recursos e endpoints. Algumas das alterações são compatíveis com a nova funcionalidade, enquanto outras facilitam o uso das informações disponíveis por meio da API.
 
-Para obter informações sobre novidades e atualizações, consulte [Novidades da API versão 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
+Para obter informações sobre novidades e atualizações, consulte [Novidades da API versão 18](/help/quicksilver/wf-api/api/new-api-version-18.md).
 
 Para obter informações sobre versões da API, consulte [Controle de versão da API e programação de suporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
