@@ -8,7 +8,7 @@ description: O Adobe Workfront Fusion exige uma licença do Adobe Workfront Fusi
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 370743780e5be419eb6a8c432619e5d76acfbfce
+source-git-commit: 00ef33666bebe434739056cb38c3dff24285d682
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 1%
@@ -76,3 +76,4 @@ O Workfront Fusion só é compatível com navegadores baseados no Chrome.
 ## Tentativas
 
 Ao usar o módulo Break e especificar a diretiva Retry, se um cenário falhar consecutivamente 10 vezes em um período de 2 minutos, o cenário será desativado automaticamente.
+
