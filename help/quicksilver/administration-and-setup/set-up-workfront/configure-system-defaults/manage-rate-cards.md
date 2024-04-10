@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: a61635022da9eed7c2fc61bad1cbca0f7f23d7ec
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 {{step-1-to-setup}}
 
 1. No painel esquerdo, clique em [!UICONTROL **Cartões de taxa**].
-1. Clique em [!UICONTROL **Novo cartão de taxa**], em seguida, digite um nome para o cartão de taxa na [!UICONTROL **Cartão de taxa**] para substituir &quot;Cartão de tarifa sem título&quot;.
-1. Na tela do cartão, clique em [!UICONTROL **Adicionar função de trabalho**].
+1. Clique em [!UICONTROL **Novo cartão de taxa**], em seguida, digite um nome para o cartão de taxa na [!UICONTROL Novo cartão de taxa] para substituir &quot;Cartão de tarifa sem título&quot;.
+1. (Opcional) Na tela Detalhes do cartão de tarifa, adicione uma [!UICONTROL **Descrição**].
+1. (Opcional) Para anexar um formulário personalizado ao cartão de taxa, clique no [!UICONTROL **Adicionar formulário personalizado**] no canto superior direito e selecione um formulário personalizado na lista exibida.
+
+   Para obter mais informações sobre como anexar um formulário personalizado, consulte [Adicionar um formulário personalizado a um objeto](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+
+1. Clique em [!UICONTROL **Funções e taxas de trabalho**] no painel de navegação esquerdo.
+1. Na tela Funções e Taxas de Cartão de Taxa, clique em [!UICONTROL **Adicionar função de trabalho**].
 1. Na caixa de diálogo, selecione uma [!UICONTROL **Função de trabalho**] para definir taxas de faturamento.
 
    A Taxa de Faturamento Padrão exibe a taxa no nível do sistema para essa função de trabalho, se houver uma definida.
@@ -82,7 +88,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique em [!UICONTROL **Salvar**].
 1. (Opcional) Para adicionar outra taxa de cobrança, para a mesma função de trabalho em outro local ou para uma função de trabalho separada, clique em [!UICONTROL **Adicionar função de trabalho**].
-1. (Opcional) Para editar uma taxa de cobrança, selecione a taxa no cartão de taxa e clique no **Editar** ícone.
+1. (Opcional) Para editar um cartão de taxa, clique no nome do cartão de taxa na lista Cartões de taxa em Configurar. Para editar uma taxa de faturamento, clique em [!UICONTROL **Funções e taxas de trabalho**] no painel de navegação esquerdo do cartão de taxa. Em seguida, selecione a taxa e clique no botão **Editar** ícone ![Ícone Editar](assets/edit-icon.png).
 
 ## Copiar um cartão de taxa
 
@@ -90,8 +96,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. No painel esquerdo, clique em [!UICONTROL **Cartões de taxa**].
 1. Marque a caixa de seleção ao lado do cartão de taxa na lista e clique no **Copiar** ícone ![Ícone Copiar](assets/copy-icon.png).
+1. Digite um nome para o cartão de tarifa na [!UICONTROL Copiar cartão de taxa] para substituir &quot;Cartão de tarifa sem título&quot;. Em seguida, clique em **Salvar**.
 
-   Um cartão de taxa duplicado é adicionado. Clique no nome do cartão de taxa na lista para alterar seu nome.
+   O novo cartão de taxa é salvo. Edite os detalhes do cartão de classificação, as funções de trabalho e as taxas conforme necessário.
 
 ## Excluir um cartão de taxa inteiro
 
