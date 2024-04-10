@@ -1,29 +1,29 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: "Integração nativa alfa: recursos do Adobe Workfront e Frame.io"
-description: Recursos planejados para a integração nativa do Adobe Workfront e Frame.io alpha
+title: "Integração nativa beta: recursos do Adobe Workfront e Frame.io"
+description: Recursos planejados para a integração nativa beta do Adobe Workfront e Frame.io
 author: Nolan
 feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 9e6033e495e83afa994b21996a4026ac484045a0
+source-git-commit: b7a0fe333f0d8f17bc2d6c612d8cff6ee484c935
 workflow-type: tm+mt
 source-wordcount: '1250'
 ht-degree: 0%
 
 ---
 
-# Integração nativa do Adobe Workfront e Frame.io alfa: recursos e testes
+# Integração nativa beta do Adobe Workfront e Frame.io: recursos e testes
 
 Com essa integração, nosso objetivo é permitir que os criadores permaneçam em sua ferramenta de escolha (CC ou Frame.io) para conduzir a criação de conteúdo e revisões por pares, enquanto os gerentes de projeto coordenam o trabalho e inicializam e monitoram o processo de revisão formal dentro do Workfront. Isso pode ser feito utilizando o melhor das duas soluções: as novas aprovações de documentos do Workfront para gerenciar aprovações de conteúdo, juntamente com os recursos de revisão de conteúdo oferecidos pelo Frame.io. Coletivamente, as novas aprovações de documentos e o Frame.io vão formar nossa nova experiência completa de revisão e aprovação de conteúdo. 
 
-Para saber mais sobre como o alfa funcionará e como você poderá participar, consulte [Integração do Adobe Workfront e do Frame.io alfa: visão geral](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
+Para saber mais sobre como o beta funcionará e como você pode participar, consulte [Integração beta do Adobe Workfront e Frame.io: visão geral](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
 
 >[!NOTE]
 >
->Caso você tenha encontrado essas páginas sem que sua empresa participe desse programa alfa, certifique-se de tratar as informações aqui com cuidado e entre em contato com o administrador do Workfront ou Frame.io para obter mais informações.
+>Caso você tenha encontrado essas páginas sem que sua empresa participe desse programa beta, certifique-se de tratar as informações aqui com cuidado e entre em contato com o administrador do Workfront ou Frame.io para obter mais informações.
 >
 
 ## Vídeo de demonstração
@@ -32,11 +32,11 @@ Para saber mais sobre como o alfa funcionará e como você poderá participar, c
 
 ## Cenário de teste básico
 
-Para permitir que você teste facilmente os novos recursos do programa alfa, criamos uma nova conta Frame.io de teste e a conectamos a um novo grupo chamado `Frame.io alpha testing` em seu ambiente Workfront Preview ou Sandbox existente.
+Para permitir que você teste facilmente os novos recursos do programa beta, criamos uma nova conta Frame.io de teste e a conectamos a um novo grupo chamado `Frame.io testing` em seu ambiente Workfront Preview ou Sandbox existente.
 
 Para testar a funcionalidade, faça logon na instância de Visualização do Workfront ou Sandbox e execute as seguintes etapas:
 
-1. **Coordenadores:** No Workfront, crie um projeto com o `Frame.io alpha testing` grupo atribuído como o grupo de projeto.
+1. **Coordenadores:** No Workfront, crie um projeto com o `Frame.io testing` grupo atribuído como o grupo de projeto.
 
 1. **Coordenadores:** No Workfront, marque as tarefas que exigem trabalho criativo como habilitadas para quadro (em detalhes da tarefa) e atribua os elementos de criação a elas (atribua a si mesmo também se desejar testar todo o fluxo de trabalho).
 
@@ -69,7 +69,9 @@ Para testar a funcionalidade, faça logon na instância de Visualização do Wor
 
 ## Cenário de teste detalhado
 
-Para os participantes que desejam testar a funcionalidade adicional, criamos um cenário de teste mais envolvido. Um guia para esse cenário de teste detalhado pode ser baixado aqui: [Apresentação do cenário de teste detalhado de WF + Frame.io](/help/quicksilver/product-announcements/betas/assets/WF-Frame-Detailed-Test-Scenario-Walkthrough.pdf).
+Para os participantes que desejam testar a funcionalidade adicional, criamos um cenário de teste mais envolvido. Um guia para esse cenário de teste detalhado pode ser baixado aqui: [Apresentação do cenário de teste detalhado de WF + Frame.io](/help/quicksilver/product-announcements/betas/assets/MVP-WF-Frame-Detailed-Walk-Through.pdf).
+
+
 
 ## Planos de recursos
 
@@ -77,7 +79,7 @@ Abaixo estão informações sobre os casos de uso principais que estamos procura
 
 >[!NOTE]
 >
->Marcadores em a **&quot;Possíveis melhorias em versões futuras&quot;** o cabeçalho pode ou não ser incluído em uma versão futura, dependendo do feedback alfa e de nossos planos de desenvolvimento em evolução.
+>Marcadores em a **&quot;Possíveis melhorias em versões futuras&quot;** o cabeçalho pode ou não ser incluído em uma versão futura, dependendo do feedback beta e de nossos planos de desenvolvimento em evolução.
 >
 
 ### Os administradores do Workfront podem configurar uma conexão entre grupos do Workfront e contas Frame.io
