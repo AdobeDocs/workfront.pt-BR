@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 10967c222cdcbfc426260af491f5e6f5b9b81a76
+source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
 workflow-type: tm+mt
-source-wordcount: '14102'
+source-wordcount: '14108'
 ht-degree: 1%
 
 ---
@@ -2642,6 +2642,7 @@ ht-degree: 1%
       * [Configure e use os aplicativos OAuth 2 personalizados de sua organização usando o fluxo JWT](wf-api/api/oauth-app-jwt-flow.md)
       * [Configure e use os aplicativos OAuth 2 personalizados de sua organização usando o fluxo PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Substituição de API-Interno](wf-api/api/deprecation-api-internal.md)
+      * [Novidades da API versão 18](wf-api/api/new-api-version-18.md)
       * [Novidades da API versão 17](wf-api/api/new-api-version-17.md)
       * [Novidades da API versão 16](wf-api/api/new-api-version-16.md)
       * [Novidades da API versão 15](wf-api/api/new-api-version-15.md)
@@ -2698,7 +2699,7 @@ ht-degree: 1%
       * [Categoria](wf-api/wf-objects/category.md)
    * Dicas, truques e solução de problemas da API do Adobe Workfront {#tips-troubleshooting-apis}
       * [Dicas, truques e solução de problemas da API do Adobe Workfront](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
-      * [Formato de domínio para chamadas de API do Adobe Workfront](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md)
+      * [Formato de domínio para chamadas de API do Adobe Workfront](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)
       * [Erro de API: &quot;O servidor remoto retornou um erro: (400) Solicitação inválida&quot;](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
       * [Duplicatas retornadas durante uma pesquisa paginada grande](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
       * [Classificação dos resultados da consulta na API](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
