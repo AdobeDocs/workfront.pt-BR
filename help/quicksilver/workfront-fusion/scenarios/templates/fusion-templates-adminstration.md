@@ -7,9 +7,9 @@ description: Se você for um administrador, terá permissão para exibir, modifi
 author: Becky
 feature: Workfront Fusion
 exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2b67b5fb951b5ae7867144c444411ebd1c299e75
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '636'
 ht-degree: 0%
 
 ---
@@ -61,11 +61,16 @@ Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Exibir [!DNL Workfront Fusion] modelos como administrador
+## Exibir [!DNL Workfront Fusion] templates as a [!DNL Workfront Fusion] administrador
 
 Para exibir uma tabela de todos os modelos criados e seus status:
 
 1. Clique em **[!UICONTROL Administração]** no painel de navegação esquerdo, para abrir a janela [!UICONTROL Administração] área.
+
+   >[!NOTE]
+   >
+   >A área Administração é visível somente para administradores do Workfront Fusion.
+
 1. Clique em **[!UICONTROL Modelos]** no painel de navegação esquerdo.
 
 Há três colunas relacionadas ao status de publicação dos modelos. Uma marca de seleção em uma coluna indica o seguinte:
