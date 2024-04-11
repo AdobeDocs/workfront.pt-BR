@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: b748e02cb6c0d049e479039aa54b6aa82dc02697
+source-git-commit: a4d0221609f395a62e2c696ccd4a466915b4badc
 workflow-type: tm+mt
-source-wordcount: '2172'
+source-wordcount: '2168'
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                                 <p>Produção para lançamento rápido: com o lançamento do 24.2 (15 de fevereiro de 2024)</p>
                             </li>
                             <li>
-                                <p>Produção para lançamento trimestral: a ser definido</p>
+                                <p>Produção para versão trimestral: com a versão 24.4 (11 de abril de 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -371,7 +371,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                                 <p><span style="color: #ff0000;">Esse recurso foi removido da produção para clientes de lançamento rápido em 18 de março de 2024.</span></p>
                             </li>
                             <li>
-                                <p>Produção para versão trimestral: com a versão 24.4 (11 de abril de 2024)</p>
+                                <p>Produção para lançamento trimestral: a ser definido</p>
                             </li>
                         </ul>
                     </td>
@@ -392,7 +392,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                                 <p><span style="color: #ff0000;">Esse recurso foi removido da produção para clientes de lançamento rápido em 18 de março de 2024.</span></p>
                             </li>
                             <li>
-                                <p>Produção para versão trimestral: com a versão 24.4 (11 de abril de 2024)</p>
+                                <p>Produção para lançamento trimestral: a ser definido</p>
                             </li>
                         </ul>
                     </td>
