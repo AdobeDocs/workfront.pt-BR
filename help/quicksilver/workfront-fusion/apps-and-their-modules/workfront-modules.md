@@ -9,9 +9,9 @@ description: Você pode usar o conector do Adobe Workfront Fusion Adobe Workfron
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 5110370fd934ac53e48d5993604d541c73ffdadf
+source-git-commit: ceec745097d14d30a06ec347d836b701766a4f08
 workflow-type: tm+mt
-source-wordcount: '5945'
+source-wordcount: '6207'
 ht-degree: 2%
 
 ---
@@ -814,6 +814,58 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
 +++
 
 +++ **[!UICONTROL Pesquisa]**
+
+Este módulo de pesquisa procura registros em um objeto no [!DNL Workfront] que correspondam à consulta de pesquisa especificada.
+
+Você pode mapear essas informações em módulos subsequentes no cenário.
+
+Ao configurar esse módulo, os campos a seguir são exibidos.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Conexão]</td> 
+   <td> <p>Para obter instruções sobre como conectar seu [!DNL Workfront] aplicativo para [!DNL Workfront Fusion], consulte <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Workfront] para [!DNL Workfront Fusion]</a> neste artigo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Tipo de Registro]</td> 
+   <td> <p>Selecione o tipo de [!DNL Workfront] registro que você deseja que o módulo procure.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Conjunto de Resultados]</td> 
+   <td>Selecione uma opção para especificar se você deseja que o módulo obtenha o primeiro resultado que corresponda aos seus critérios de pesquisa ou todos os resultados que correspondam a ele.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Máximo]</td> 
+   <td> <p>Insira ou mapeie o número máximo de registros que deseja que o módulo retorne durante cada ciclo de execução de cenário.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Pesquisar campos de critérios]</td> 
+   <td> <p>Selecione os campos que deseja usar com os critérios de pesquisa. Esses campos estarão disponíveis na lista suspensa Search criteria.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Pesquisar critérios]</td> 
+   <td> <p>Digite o campo pelo qual deseja pesquisar, o operador que deseja usar na consulta e o valor que está procurando no campo.</p> <p>Observação: não use <code>username </code>em seus critérios de pesquisa. Incluindo <code>username </code>em uma consulta de API para [!DNL Workfront] O conecta o usuário no Workfront e a pesquisa não será bem-sucedida.</p> <p>Nota: <code>In</code> e <code>NotIn</code>trabalhar com arrays. As entradas devem estar em formato de matriz.</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Saídas]</td> 
+   <td> <p>Selecione os campos que deseja incluir na saída deste módulo.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Referências]</td> 
+   <td>Selecione os campos de referência que deseja incluir na pesquisa.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Coleções]</td> 
+   <td>Selecione todas as coleções que deseja adicionar à pesquisa.</td> 
+  </tr> 
+ </tbody> 
+</table>
++++
+
++++ **[!UICONTROL Pesquisar (Herdado)]**
 
 Este módulo de pesquisa procura registros em um objeto no [!DNL Workfront] que correspondam à consulta de pesquisa especificada.
 
