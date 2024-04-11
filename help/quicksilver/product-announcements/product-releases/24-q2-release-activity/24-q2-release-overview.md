@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: d463a3878552f926c4b5a5c87e0f87764e60c60d
+source-git-commit: b748e02cb6c0d049e479039aa54b6aa82dc02697
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2172'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">A lógica de exibição e a lógica de salto agora estão disponíveis no modo de visualização do designer de formulário</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">A lógica de exibição e a lógica de salto agora estão disponíveis no modo de visualização do designer de formulário</a></p><p>[!BADGE Na produção ]{type=Informative}</p>
                         <p>O designer de formulário personalizado beta agora permite testar a lógica de exibição e ignorar a lógica no modo de visualização. Anteriormente, todos os campos eram exibidos na visualização mesmo quando a lógica era aplicada.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -81,7 +81,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Agora, empresas e usuários oferecem suporte a campos de formulário personalizados avançados</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Agora, empresas e usuários oferecem suporte a campos de formulário personalizados avançados</a></p><p>[!BADGE Na produção ]{type=Informative}</p>
                         <p>Recursos avançados de formulário personalizado, como campos de Pesquisa externa e campos nativos do Workfront, agora estão disponíveis quando você anexa um formulário personalizado a uma empresa ou usuário.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -97,7 +97,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">A integração JumpSeat agora está disponível para novos tipos de pacote</a></p><p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">A integração JumpSeat agora está disponível para novos tipos de pacote</a></p><p>[!BADGE Na produção ]{type=Informative}</p>
                         <p>A integração do JumpSeat existente agora está disponível para contas que usam um dos novos tipos de pacote (ou seja, Select, Prime ou Ultimate). Você ainda deve ter uma assinatura ativa do JumpSeat para habilitar a integração.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -116,7 +116,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Os campos nativos do Workfront estão disponíveis no designer de formulário beta</a></p><p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Os campos nativos do Workfront estão disponíveis no designer de formulário beta</a></p><p>[!BADGE Na produção ]{type=Informative}</p>
                         <p>Os campos nativos do Workfront agora estão disponíveis para você adicionar aos seus formulários personalizados. Esse novo tipo de campo permite organizar e apresentar dados aos usuários de forma lógica, sem precisar recriar dados existentes em campos personalizados.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -151,7 +151,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">A lógica de salto e a lógica de exibição agora estão disponíveis no designer de formulário beta</a></p><p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">A lógica de salto e a lógica de exibição agora estão disponíveis no designer de formulário beta</a></p><p>[!BADGE Na produção ]{type=Informative}</p>
                         <p>Agora é possível editar a exibição existente, ignorar a lógica e adicionar uma nova lógica aos formulários personalizados no designer de formulário beta. Um construtor de lógica fácil de usar ajuda a definir quais campos exibir ou ignorar com base nas seleções no formulário.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -193,7 +193,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Adicionar um prazo final para revisões e aprovações de um documento</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Adicionar um prazo final para revisões e aprovações de um documento</a></p><p>[!BADGE Na produção ]{type=Informative}</p>
                         <p>Agora é possível especificar um prazo para que os usuários ou equipes atribuídos revisem ou aprovem um documento. Revisores e aprovadores recebem notificações por email 72 horas e 24 horas antes do prazo especificado. O prazo também é refletido no widget Aprovações na nova área Página inicial.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -209,7 +209,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Criar e usar Modelos de Aprovação</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Criar e usar Modelos de Aprovação</a></p><p>[!BADGE Na produção ]{type=Informative}</p>
                         <p>Agora é possível criar Modelos de aprovação na área Configuração para simplificar o processo de revisão e aprovação. Os Modelos de aprovação permitem que você torne o processo de revisão e aprovação mais repetível
                         <ul>
                             <li>
@@ -234,7 +234,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Exibir informações sobre todas as suas aprovações em um único local</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Exibir informações sobre todas as suas aprovações em um único local</a></p><p>[!BADGE Na produção ]{type=Informative}</p>
                         <p>Para ajudá-lo a gerenciar e analisar suas solicitações de aprovação rapidamente, adicionamos os seguintes indicadores-chave de desempenho ao widget Todas as aprovações:
                         <ul>
                             <li>
@@ -284,7 +284,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Opções de coluna adicionadas aos controles do Administrador para a nova Página inicial usando modelos de layout</a></p><p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Opções de coluna adicionadas aos controles do Administrador para a nova Página inicial usando modelos de layout</a></p><p>[!BADGE Na produção ]{type=Informative}</p>
                         <p>Os administradores agora podem personalizar quais colunas estão disponíveis para usuários em novos widgets da Página inicial específicos usando modelos de layout. As opções incluem ocultar ou exibir colunas padrão e adicionar campos existentes como novas colunas.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -418,7 +418,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Indicador de alocações ajustadas manualmente no Balanceador de carga de trabalho</a></p><p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p><p>Para fornecer mais clareza sobre ajustes manuais ou contorno no Balanceador de carga de trabalho, as alocações por hora ajustadas manualmente agora mostram um ícone de lápis.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Indicador de alocações ajustadas manualmente no Balanceador de carga de trabalho</a></p><p>[!BADGE Na produção ]{type=Informative}</p><p>Para fornecer mais clareza sobre ajustes manuais ou contorno no Balanceador de carga de trabalho, as alocações por hora ajustadas manualmente agora mostram um ícone de lápis.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -455,7 +455,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">O acesso à área de comentários herdada foi removido</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">O acesso à área de comentários herdada foi removido</a></p><p>[!BADGE Na produção ]{type=Informative}</p>
                         <p>Removemos o botão "Novo comentário" na área Atualizações para projetos, tarefas, problemas e documentos. O novo comentário agora é o padrão e a única opção para esses objetos. Com essa alteração, você não poderá mais reverter para a experiência de comentários herdada. Além disso, removemos a configuração "Mostrar porcentagem concluída no status de atualização" no perfil de um usuário.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -471,7 +471,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">O novo fluxo de comentários agora está disponível em ações rápidas para novos widgets da Página inicial</a></p><p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">O novo fluxo de comentários agora está disponível em ações rápidas para novos widgets da Página inicial</a></p><p>[!BADGE Na produção ]{type=Informative}</p>
                         <p>Agora adicionamos a nova funcionalidade de comentários ao botão de ação rápida "Adicionar nova atualização" nos widgets Meu trabalho, Meus projetos, Minhas tarefas e Meus problemas na nova página inicial.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -490,7 +490,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Informações adicionais do comentador disponíveis na nova experiência de comentários</a></p><p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Informações adicionais do comentador disponíveis na nova experiência de comentários</a></p><p>[!BADGE Na produção ]{type=Informative}</p>
                         <p>Fizemos os seguintes aprimoramentos na nova experiência de comentários:</p>
                         <ul>
                             <li>
@@ -517,7 +517,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">A guia Atividade do sistema na nova experiência de comentários aceita comentários somente leitura</a></p><p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">A guia Atividade do sistema na nova experiência de comentários aceita comentários somente leitura</a></p><p>[!BADGE Na produção ]{type=Informative}</p>
                         <p>Os comentários feitos nos registros de atividade do sistema na experiência de comentários herdada agora são preenchidos na guia Atividade do sistema na nova experiência de comentários como somente leitura. Não é possível responder aos registros de atividade do sistema na nova experiência de comentários.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -536,7 +536,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nova guia de fluxo de atualização para capturar comentários e entradas de atividade do sistema</a></p><p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nova guia de fluxo de atualização para capturar comentários e entradas de atividade do sistema</a></p><p>[!BADGE Na produção ]{type=Informative}</p>
                         <p>Para fornecer uma exibição cronologicamente coesa de comentários e logs de atividades do sistema, estamos introduzindo uma terceira guia à área Atualizações de todos os objetos. A guia "Todos" captura os comentários do usuário e os comentários da atividade do sistema em um fluxo coeso.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -555,7 +555,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Novo fluxo de comentários agora disponível no painel Resumo</a></p><p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Novo fluxo de comentários agora disponível no painel Resumo</a></p><p>[!BADGE Na produção ]{type=Informative}</p>
                         <p>Agora adicionamos a nova funcionalidade de comentários ao painel Resumo para listas de tarefas e problemas.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -593,7 +593,7 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Atualizações de aparência durante o segundo trimestre de 2024</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Atualizações de aparência durante o segundo trimestre de 2024</a></p><p>[!BADGE Na produção ]{type=Informative}</p>
                         <p>Pequenas atualizações na aparência de várias áreas do aplicativo Adobe Workfront estão sendo feitas no período do Segundo trimestre de 2024. Revise as notas de versão individuais para datas de lançamento específicas.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
