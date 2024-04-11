@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4d97badf-b6d0-4e7c-bff8-9ff63e83586b
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
 # Excluir um formulário personalizado
-
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente Produção para clientes que ativaram versões rápidas.</span>
-
-<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Para obter informações sobre a versão atual, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Você pode excluir um formulário personalizado do sistema.
 
@@ -62,5 +56,5 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 {{step-1-to-setup}}
 
 1. Clique em **Forms personalizado.**
-1. Selecione o formulário personalizado e clique em **Excluir** <span class="preview">ou ![Ícone Excluir](assets/delete-icon.png).</span>
+1. Selecione o formulário personalizado e clique em ![Ícone Excluir](assets/delete-icon.png).
 1. Se tiver certeza de que deseja excluir permanentemente o formulário personalizado e todos os dados associados nos objetos aos quais ele foi anexado, clique em **Sim, exclua.**.

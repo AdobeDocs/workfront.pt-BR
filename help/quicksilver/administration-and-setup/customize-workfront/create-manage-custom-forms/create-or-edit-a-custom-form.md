@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,7 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente Produção para clientes que ativaram versões rápidas.</span>
-
-<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Para obter informações sobre a versão atual, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
-Você pode criar ou editar um novo formulário personalizado. Ambas as tarefas são explicadas neste artigo.
+Você pode criar um novo formulário personalizado ou editar um formulário existente. Ambas as tarefas são explicadas neste artigo.
 
 Para obter informações sobre como criar um novo formulário personalizado a partir de um existente, consulte [Copie um formulário personalizado para criar um novo com o construtor de formulários herdado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
 
@@ -116,7 +110,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Formulários personalizados são exibidos em uma lista. Você pode revisar todos os formulários e campos personalizados que foram criados para sua organização. Você também pode ver quem criou cada formulário, os objetos associados a ele e se ele está ativo.
 
-1. Selecione o formulário personalizado que deseja editar e clique em **Editar** <span class="preview">ou ![Ícone Editar](assets/edit-icon.png).</span>
+1. Selecione o formulário personalizado que deseja editar e clique em ![Ícone Editar](assets/edit-icon.png).
 1. (Opcional) Para alterar o título e a descrição do formulário personalizado, clique no **Configurações do formulário** e digite um **Título do formulário** e **Descrição**.
 
 1. (Opcional) Se quiser adicionar mais tipos de objetos ao formulário para que ele possa ser anexado a mais objetos, clique no sinal de mais + depois de **Tipos de objeto** e, em seguida, selecione o tipo desejado no menu exibido.

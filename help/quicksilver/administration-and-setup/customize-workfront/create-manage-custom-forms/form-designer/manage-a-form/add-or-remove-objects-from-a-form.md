@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
 
 # Adicionar ou excluir tipos de objeto de um formulário personalizado existente com o designer do formulário
-
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente Produção para clientes que ativaram versões rápidas.</span>
-
-<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Para obter informações sobre a versão atual, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 É possível adicionar ou excluir tipos de objetos de um formulário personalizado existente com o designer do formulário.
 
@@ -70,7 +64,7 @@ Você pode adicionar outros tipos de objetos ao formulário para que ele possa s
 
    Na exibição exibida, você pode revisar todos os formulários personalizados que foram criados para sua organização. Você também pode ver quem criou cada formulário, com que tipo de objeto ele funciona e se ele está ativo.
 
-1. Selecione o formulário personalizado ao qual você deseja adicionar outros tipos de objeto e clique em **Editar** <span class="preview">ou ![Ícone Editar](assets/edit-icon.png).</span>
+1. Selecione o formulário personalizado ao qual você deseja adicionar outros tipos de objeto e clique em ![Ícone Editar](assets/edit-icon2.png).
 
 1. Na parte superior do formulário, clique no sinal de mais + depois de **Tipos de objeto** e, em seguida, selecione o tipo desejado no menu exibido. Você pode repetir isso para adicionar quantos tipos de objetos desejar.
 
@@ -97,10 +91,10 @@ Para deletar um tipo de objeto:
 {{step-1-to-setup}}
 
 1. Clique em **Forms personalizado** no painel esquerdo.
-1. Selecione o formulário personalizado que deseja editar e clique em **Editar** <span class="preview">ou ![Ícone Editar](assets/edit-icon.png).</span>
+1. Selecione o formulário personalizado que deseja editar e clique em ![Ícone Editar](assets/edit-icon2.png).
 1. Clique no X em qualquer uma das **Tipos de objeto** que você deseja excluir do formulário.
 
    ![](assets/delete-object-types.png)
 
 1. (Opcional) Repita a etapa anterior para qualquer outro tipo de objeto que você deseja remover do formulário.
-1. Clique em **Concluído** e, em seguida, clique em **Salvar e fechar**.
+1. Clique em **Aplicar** e, em seguida, clique em **Salvar e fechar**.

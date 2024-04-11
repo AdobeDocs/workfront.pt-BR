@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
 
 # Editar propriedades de um campo personalizado, quebra de seção ou widget em um formulário personalizado
-
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente Produção para clientes que ativaram versões rápidas.</span>
-
-<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Para obter informações sobre a versão atual, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Você pode editar as propriedades de um campo personalizado, quebra de seção ou widget usado no formulário personalizado em sua instância do Adobe Workfront. Isso inclui o rótulo do item, nome, instruções e assim por diante.
 
@@ -61,7 +55,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Clique em **Forms personalizado.**
 1. Clique em **Campos** para abrir a área Campos.
-1. Selecione o campo personalizado, a quebra de seção ou o widget e clique em **Editar** <span class="preview">ou ![Ícone Editar](assets/edit-icon.png).</span>
+1. Selecione o campo personalizado, a quebra de seção ou o widget e clique em ![Ícone Editar](assets/edit-icon.png).
 1. Na caixa que é exibida, altere qualquer uma das opções disponíveis para o item que você está editando.
 
    Veja mais informações sobre essas opções

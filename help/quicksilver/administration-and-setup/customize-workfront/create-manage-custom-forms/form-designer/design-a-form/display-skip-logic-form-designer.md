@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 21b2a8180512f71383a7d5201d62fd9ab166d8ef
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1270'
 ht-degree: 0%
 
 ---
 
 # Adicionar lógica de exibição e lógica de salto com o designer de formulário
-
-<span class="preview">As informações nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente Produção para clientes que ativaram versões rápidas.</span>
-
-<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Para obter informações sobre a versão atual, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Você pode decidir quais seções de um formulário personalizado devem ser exibidas ou ignoradas com base nas escolhas que um usuário faz ao preenchê-lo.
 
@@ -123,10 +117,6 @@ A lógica de exibição define quais campos personalizados aparecem no formulár
 
    Os ícones de lógica de exibição são adicionados ao campo de destino e ao campo de definição no designer do formulário.
 
->[!NOTE]
->
-><span class="preview">A lógica de exibição só está disponível ao visualizar o formulário no designer de formulário no ambiente de Visualização.</span>
-
 ## Adicionar lógica de salto a um formulário personalizado
 
 A lógica de salto define campos de formulário personalizados que são ignorados quando o usuário seleciona um valor específico em um campo de múltipla escolha. Os campos ignorados estão ocultos no formulário. A lógica é aplicada ao campo de definição onde a seleção é feita, não aos campos que são ignorados.
@@ -157,7 +147,4 @@ A lógica de salto define campos de formulário personalizados que são ignorado
 
    Os ícones de lógica de salto são adicionados ao campo de destino e ao campo de definição no designer do formulário.
 
->[!NOTE]
->
-><span class="preview">A lógica de salto só está disponível ao pré-visualizar o formulário no designer de formulário no ambiente de Pré-visualização.</span>
 

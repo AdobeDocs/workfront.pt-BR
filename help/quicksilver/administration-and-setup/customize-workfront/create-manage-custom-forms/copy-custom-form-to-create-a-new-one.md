@@ -9,20 +9,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 946a726e-af88-413c-abe3-55fbc7486380
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
 
 # Copiar um formulário personalizado para criar um novo com o construtor herdado
-
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente Produção para clientes que ativaram versões rápidas.</span>
-
-<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Para obter informações sobre a versão atual, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Você pode criar um novo formulário personalizado com base em um existente.
 
@@ -59,7 +53,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 {{step-1-to-setup}}
 
 1. Clique em **Forms personalizado.**
-1. Selecione o formulário personalizado que deseja usar como base para um novo formulário personalizado e clique em **Copiar** <span class="preview">ou ![Ícone Copiar](assets/copy-icon.png).</span>
+1. Selecione o formulário personalizado que deseja usar como base para um novo formulário personalizado e clique em ![Ícone Copiar](assets/copy-icon.png).
 1. No **Personalizar cópia do formulário** que for exibida, digite as seguintes informações:
 
    <table style="table-layout:auto"> 
@@ -73,14 +67,14 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      <tr> 
       <td role="rowheader"> <p role="rowheader">Tipos de formulário </p> </td> 
       <td> <p>No <b>Tipo de formulário</b> , selecione os tipos de objeto com os quais você deseja que o formulário personalizado funcione e clique no X ao lado de qualquer tipo que você deseja remover. Os tipos que já estão associados ao formulário estão desabilitados na lista.</p> 
-      <p><img src="assets/copy-form-obj-types.png"></p> 
+      <p><img src="assets/copy-form-obj-types-040524.png"></p> 
       <p>O formulário deve estar associado a pelo menos um tipo de objeto.</p> 
       </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Clique em **Copiar formulário**.
+1. Clique em **Copiar**.
 
    No formulário original, se os campos calculados referenciarem campos incompatíveis com um tipo de objeto adicionado ao novo formulário, uma mensagem solicitará que você altere os cálculos nesses campos.
 
