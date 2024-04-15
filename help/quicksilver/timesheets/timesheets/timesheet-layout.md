@@ -7,9 +7,9 @@ description: Este artigo descreve o layout das folhas de horas no Adobe Workfron
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1049'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou na Produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Para obter informações sobre a programação de lançamento atual, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
 Este artigo descreve o layout das folhas de horas no Adobe Workfront, permitindo que você entenda melhor como personalizar e utilizar folhas de horas para gravar tempo.
 
@@ -125,11 +125,7 @@ Você pode registrar várias entradas de horas para o mesmo item de trabalho par
 
 ## Área Atualizações no painel esquerdo
 
-<div class="preview">
-
 ![Área Atualizações no painel esquerdo da folha de horas](assets/timesheet-updates-with-all-tab.png)
-
-</div>
 
 Você pode fazer comentários em uma folha de horas para se comunicar com seus aprovadores de folha de horas ou outros usuários na seção Atualizações no painel esquerdo da folha de horas.
 
@@ -137,11 +133,7 @@ Quaisquer comentários feitos na folha de horas são exibidos nesta área.
 
 ## Painel de resumo
 
-<div class="preview">
-
 ![Painel Resumo](assets/timesheet-summary-panel-on-updates.png)
-
-</div>
 
 Você pode acessar o painel Resumo para tarefas ou problemas exibidos em uma folha de horas. Aqui, você pode comentar em tarefas e problemas ou atualizar suas informações. Para obter mais informações, consulte [Visão geral do resumo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 

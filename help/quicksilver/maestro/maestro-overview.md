@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1799'
 ht-degree: 2%
 
 ---
@@ -184,7 +184,7 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
    * Modificado pela última vez por
    * Data da última modificação
 
-* **Tipos de registro vinculados**, **Registros vinculados**, e **Campos de registro vinculados**: Você pode criar uma conexão entre as seguintes entidades no Workfront Planning:
+* **Tipos de registro vinculados**, **Registros vinculados**, e **Campos de registro vinculados** ou **Tipos de registro conectados**, **Registros conectados**, e **Campos conectados**: Você pode criar uma conexão entre as seguintes entidades no Workfront Planning:
 
    * Dois tipos de registro.
    * Um tipo de registro e um tipo de objeto de projeto, programa, portfólio, empresa ou grupo do Workfront.

@@ -6,9 +6,9 @@ description: Tanto a Conclusão planejada quanto as Datas de confirmação indic
 author: Alina
 feature: Work Management
 exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -57,9 +57,11 @@ O responsável trabalhando na tarefa ou problema pode atualizar manualmente a Da
 
 A pessoa designada que altera a Data de confirmação não altera automaticamente a Data de conclusão planejada. O inverso também é verdadeiro: alterar a Data de conclusão planejada não alterará a Data de confirmação.
 
-Quando a Data de confirmação é alterada para uma data posterior à Data de conclusão planejada, o proprietário do projeto é notificado de que essa alteração ocorreu e pode afetar a linha do tempo do projeto.
+Quando a Data de confirmação é alterada, o Proprietário do projeto é notificado por meio de uma notificação no aplicativo da Workfront de que essa alteração ocorreu.
 
-Se a Data de Compromisso oferecida pelo designado for aceitável para o proprietário do projeto, ele deverá atualizar manualmente a Data de conclusão planejada na tarefa ou problema. Para obter mais informações, consulte os seguintes artigos:
+Se a Data de Compromisso oferecida pelo designado for aceitável para o proprietário do projeto, ele deverá atualizar manualmente a Data de conclusão planejada na tarefa para ilustrar o impacto que ela pode ter na linha do tempo do projeto. As alterações na Data de conclusão planejada de problemas não afetam o cronograma do projeto.
+
+Para obter mais informações, consulte os seguintes artigos:
 
 * [Visão geral da data de compromisso](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
 * [Atualizar datas de confirmação nas tarefas e problemas](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)

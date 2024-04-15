@@ -6,9 +6,9 @@ description: A nova Página inicial é um novo recurso poderoso para gerenciar s
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 7f822e5ba6c65d50eb7a7a660689f88066939e2d
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1119'
 ht-degree: 6%
 
 ---
@@ -36,7 +36,7 @@ Para obter informações sobre como adicionar, mover, redimensionar ou excluir w
 Abaixo estão os dez widgets disponíveis atualmente para escolher, bem como um resumo das informações que eles exibem:
 
 * **Meu trabalho**\
-    Um ótimo local para começar para gerenciar uma variedade de trabalhos, este widget exibe todas as tarefas, problemas e solicitações atribuídas em um único local. Você pode clicar no botão Trabalhar nisso para começar a trabalhar em um item.
+    Um ótimo local para começar para gerenciar uma variedade de trabalhos, este widget exibe todas as tarefas, problemas e solicitações atribuídas em um único local. Você pode clicar no botão Trabalhar nisso para começar a trabalhar em um item ou no botão Concluído para marcá-los como concluídos. Você também pode atualizar informações (Status, Condição, Percentual concluído) sobre tarefas e problemas, tempo de registro e adicionar atualizações do widget Meu trabalho.
 
 * **Meus projetos**\
     Exibe os projetos que você possui ou os projetos em que você está em uma lista. Você pode usar filtros, visualizações ou agrupamentos existentes para personalizar a lista ou pode criar um projeto diretamente do widget.

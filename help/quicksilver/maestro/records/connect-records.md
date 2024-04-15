@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
 workflow-type: tm+mt
 source-wordcount: '2353'
 ht-degree: 1%
@@ -183,7 +183,9 @@ O espaço de trabalho acessado por último deve ser aberto por padrão.
 
    >[!TIP]
    >
-   >    É possível abrir a página de um registro, localizar o campo de registro vinculado e clicar no **+** ícone no campo para adicionar registros do registro conectado ou do tipo de objeto.
+   >    É possível abrir a página de um registro, localizar o campo de registro vinculado e clicar em **Conectar registros** no campo para adicionar registros do registro conectado ou do tipo de objeto.
+   >
+   >![](assets/connect-records-from-record-page-field.png)
 
    São aditados os seguintes pontos:
 

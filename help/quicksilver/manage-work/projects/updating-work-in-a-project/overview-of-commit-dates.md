@@ -7,10 +7,10 @@ description: A Data de Compromisso é a data pela qual um usuário atribuído à
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 1%
+source-wordcount: '815'
+ht-degree: 0%
 
 ---
 
@@ -64,9 +64,20 @@ A definição manual da Data de confirmação para uma tarefa ou problema aciona
 
   A alteração da Data de confirmação é exibida na área Atualizações da tarefa ou problema quando o administrador do Workfront ativa essa atualização na área Feeds de atualizações em Configuração. Para obter informações, consulte [Atualizações rastreadas pelo sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-  Se um Proprietário do projeto não quiser aceitar a alteração, recomendamos que faça um comentário ao usuário propondo uma nova data usando a guia Comentários na seção Atualizações, para solicitar que ele altere a Data de compromisso novamente para a Data planejada original ou selecione uma nova data. Se um Proprietário do projeto aceitar a alteração, poderá ajustar manualmente a Data de conclusão planejada para corresponder à Data de confirmação oferecida pelo usuário atribuído ao item ao editar a tarefa ou o problema.
+  Se um Proprietário do projeto não quiser aceitar a alteração, recomendamos que faça um comentário ao usuário propondo uma nova data usando a guia Comentários na seção Atualizações, para solicitar que ele altere a Data de compromisso novamente para a Data planejada original ou selecione uma nova data.
+
+  Se um Proprietário do projeto aceitar a alteração, poderá ajustar manualmente a Data de conclusão planejada para corresponder à Data de confirmação oferecida pelo usuário atribuído ao item ao editar a tarefa ou o problema.
 
   Você deve ter acesso para gerenciar a tarefa ou o problema para editá-los.
+
+  >[!TIP]
+  >
+  >Você pode solicitar que o administrador do sistema ou do grupo adicione o campo Data de confirmação ao painel Resumo para facilitar a atualização em várias áreas do Workfront em que o painel Resumo é exibido.
+  >
+  >Para obter mais informações, consulte os seguintes artigos:
+  >
+  >* [Visão geral do resumo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+  >* [Personalizar Início e Resumo usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 <!--this is no longer possible: 
 >[!NOTE]
