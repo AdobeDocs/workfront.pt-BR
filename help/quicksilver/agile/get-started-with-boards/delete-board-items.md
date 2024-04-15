@@ -6,16 +6,22 @@ description: Ao excluir um cartão de um quadro, ele é permanentemente excluíd
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
+source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
 # Excluir ou arquivar um cartão de um quadro
 
-Ao excluir um cartão de um quadro, ele é permanentemente excluído e não pode ser restaurado. O arquivamento de um cartão o envia para o arquivo e você pode restaurá-lo para o quadro posteriormente.
+Ao excluir um cartão ad hoc de um quadro, ele é permanentemente excluído e não pode ser restaurado. Os cartões conectados podem ser adicionados manualmente de volta a um quadro após serem excluídos.
+
+Se você excluir um cartão conectado de um quadro dinâmico, ele reaparecerá quando você atualizar o quadro porque esse tipo de quadro extrai todas as tarefas e problemas de um projeto específico. Para excluir o cartão, você deve excluir a tarefa ou problema conectado do projeto Workfront.
+
+Quando você exclui um cartão conectado de qualquer outro tipo de placa que tenha uma coluna de entrada, o cartão reaparecerá na coluna de entrada quando você atualizar o quadro se a tarefa ou problema conectado ainda não estiver marcado como concluído. Para obter mais informações sobre colunas de entrada, consulte [Adicionar uma coluna de entrada a um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
+O arquivamento de um cartão o envia para o arquivo e você pode restaurá-lo para o quadro posteriormente.
 
 ## Requisitos de acesso
 
@@ -27,7 +33,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 

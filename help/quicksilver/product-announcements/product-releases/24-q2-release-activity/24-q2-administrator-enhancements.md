@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: a1386652f5181d4aa94ddab8e4f9714ef1c08b73
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Para obter instruções sobre como configurar o mapeamento de atributos, consult
 
 >[!NOTE]
 >
->Versão de pré-visualização: 8 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento 24.2 (15 de fevereiro de 2024); Produção para todos os clientes: a ser definido
+>Versão de pré-visualização: 8 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento da versão 24.2 (15 de fevereiro de 2024); Produção para todos os clientes: 24.4 (11 de abril de 2024)
 
 Agora é possível editar a exibição existente, ignorar a lógica e adicionar uma nova lógica aos formulários personalizados no designer de formulário beta. Um construtor de lógica fácil de usar ajuda a definir quais campos exibir ou ignorar com base nas seleções no formulário.
 

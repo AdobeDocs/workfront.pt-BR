@@ -5,16 +5,16 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: a4d0221609f395a62e2c696ccd4a466915b4badc
+source-git-commit: f8ac3cd418b4be3945a793f7c81cd960eba179e2
 workflow-type: tm+mt
-source-wordcount: '2168'
+source-wordcount: '2194'
 ht-degree: 0%
 
 ---
 
 # Visão geral da versão do segundo trimestre de 2024
 
-Esta página fornece informações sobre a funcionalidade incluída na versão do segundo trimestre de 2024. Essas melhorias estão planejadas para serem disponibilizadas no ambiente de produção durante todo o trimestre.
+Esta página fornece informações sobre a funcionalidade incluída na versão do segundo trimestre de 2024. Essas melhorias foram disponibilizadas no ambiente de Produção para todos os clientes com a versão 24.4, em 10 e 11 de abril de 2024.
 
 <!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
 No lugar de um webinário de lançamento, convidamos você a [registrar-se no Adobe Summit](https://summit.adobe.com/na/) para assistir às seguintes sessões do Workfront:
@@ -22,6 +22,8 @@ No lugar de um webinário de lançamento, convidamos você a [registrar-se no Ad
 [O futuro do Adobe Workfront](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) em 26 de março de 2024, para obter uma prévia do futuro do planejamento estratégico e do fluxo de trabalho. Saiba como a equipe da Workfront planeja lidar com os recursos de negócios em todo o ciclo de vida do marketing, tudo com uma abordagem de IA para automatizar o trabalho, simplificar as experiências dos usuários e aumentar a produtividade.
 
 [Divulgação de calendários e ferramentas de marketing para um planejamento de campanha completo](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) em 28 de março de 2024, para saber mais sobre os novos recursos de produtos projetados para permitir que sua organização gerencie e visualize ciclos de vida operacionais completos.
+
+Também é possível [exibir um arquivo PDF](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} com os destaques da versão 24.4.
 
 <span class="preview">Os recursos fora do ciclo (aqueles que foram lançados para produção antes da data de lançamento do Segundo trimestre de 2024) estão destacados em amarelo.</span>
 
