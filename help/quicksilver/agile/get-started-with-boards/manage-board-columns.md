@@ -6,9 +6,9 @@ description: Um novo quadro contém três colunas por padrão. Você pode adicio
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
+source-git-commit: ade2551a82f28a41816dbf956f3a216cca07034e
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,8 @@ Se você estiver usando o limite de WIP em uma coluna, não será adicionado um 
 >[!NOTE]
 >
 >Os painéis dinâmicos sempre colocam cartões na coluna que corresponde ao status, independentemente das políticas de coluna estarem ativadas ou desativadas. Os cartões retornarão às colunas atribuídas quando você atualizar o quadro.
+> 
+>Além disso, para todos os tipos de quadro, se você mover um cartão de uma coluna para outra coluna com o mesmo status, o cartão retornará à coluna original quando você atualizar o quadro.
 
 1. Acesse o quadro.
 1. Clique em **[!UICONTROL Mais]** menu ![Menu Mais](assets/more-icon-spectrum.png) na coluna e selecione **[!UICONTROL Editar]**.
