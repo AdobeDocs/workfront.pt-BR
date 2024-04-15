@@ -4,19 +4,20 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Como administrador do Adobe Workfront, às vezes pode ser necessário acessar o Workfront em nome de outro usuário.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '814'
 ht-degree: 1%
 
 ---
 
 # Fazer logon como outro usuário
 
+<!--Audited: April, 2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
 
@@ -64,8 +65,9 @@ Você deve ter o seguinte para executar as etapas deste artigo:
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td>Plano</td> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td> <p>Novo: Padrão</p>
+   <p>Atual: Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -75,6 +77,8 @@ Você deve ter o seguinte para executar as etapas deste artigo:
   </tr> 
  </tbody> 
 </table>
+
+*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Fazer logon e executar ações como outro usuário
 
@@ -146,7 +150,7 @@ Quando você efetua login como outro usuário, a última data de login é modifi
 
 Ao fazer logon no Workfront como outro usuário e executar uma ação, o Workfront indica claramente que qualquer ação executada é feita por você em nome do usuário com o qual você está conectado.
 
-Por exemplo, se você comentar em um item enquanto estiver conectado como outro usuário, uma instrução indicará que o comentário foi feito por você em nome do usuário.
+Por exemplo, se você comentar em um item enquanto estiver conectado como outro usuário, uma instrução indicará que o comentário foi feito por você em nome do usuário ao visualizar a seção Atualizações de um objeto.
 
 ### Exibir informações de auditoria {#view-audit-information}
 

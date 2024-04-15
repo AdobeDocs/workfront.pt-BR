@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '3526'
+source-wordcount: '3577'
 ht-degree: 0%
 
 ---
@@ -45,8 +45,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo e registra
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Novo: Claro ou superior</p>
-   <p>Atual: 
+   <td> <p>Novo: 
+   <ul><li>Leve ou superior para registrar as Horas gerais em uma folha de horas</li>
+   <li>Padrão para registrar horas em um projeto, tarefa ou problema</li></ul>
+
+
+<p>Atual: 
    <ul><li>Revise ou registre horas gerais em uma planilha de horas</li>
    <li>Trabalhar ou mais para registrar horas em um projeto, tarefa ou problema</li></ul> </td> 
   </tr> 
@@ -334,7 +338,7 @@ Para obter informações gerais sobre o uso da área Início, consulte as seguin
 
 #### Registrar horas em um item de trabalho na nova área Página inicial
 
-Você pode registrar o tempo em qualquer objeto em qualquer um dos widgets usando o painel Resumo. Para obter informações, consulte a [Painel Resumo](#summary-panel) neste artigo.
+Você pode registrar horas para tarefas e problemas em qualquer um dos widgets usando o painel Resumo na área Página inicial. Para obter informações, consulte a [Painel Resumo](#summary-panel) neste artigo.
 
 Além disso, para registrar o tempo para um item no widget Meu trabalho:
 
@@ -346,6 +350,8 @@ Além disso, para registrar o tempo para um item no widget Meu trabalho:
    ![](assets/log-time-ui-for-task-from-new-home.png)
 
 1. Clique em **Registrar tempo**.
+
+   O tempo reportado é exibido na seção Horas do objeto e em sua folha de horas.
 
 #### Registrar o tempo em um item de trabalho na área inicial herdada
 
@@ -359,6 +365,8 @@ Além disso, para registrar o tempo para um item no widget Meu trabalho:
 1. (Condicional) Se o administrador do Workfront ou do grupo tiver ativado o **Atribuir funções de trabalho a entradas de horas manualmente** selecione uma função de trabalho no menu suspenso. A função especificada quando você está atribuído ao item de trabalho é exibida por padrão. Se uma função não for atribuída a você no objeto, sua função principal será exibida como padrão. Para obter mais informações sobre essa configuração, consulte o artigo [Configurar preferências de horas e planilha de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 1. Especifique a hora que deseja registrar e clique em **Registro de tempo**.
 
+   O tempo reportado é exibido na seção Horas do objeto e em sua folha de horas.
+
 ### Projeto, tarefa ou problema {#project-task-or-issue}
 
 Você pode registrar o tempo específico do projeto em um projeto, tarefa ou problema nas seguintes seções:
@@ -370,11 +378,9 @@ Você pode registrar o tempo específico do projeto em um projeto, tarefa ou pro
 
 Para registrar horas na seção Atualizações de um projeto, tarefa ou problema, você deve ter o seguinte:
 
-* Uma licença de Trabalho ou Plano.
-* Contribute ou tenha permissões mais altas para o projeto, tarefa ou problema com acesso a Registrar horas.\
-  Para obter mais informações sobre a concessão de permissões em projetos, consulte [Compartilhar um projeto no Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* O acesso e as permissões corretos, conforme descrito na seção [Requisitos de acesso](#access-requirements) neste artigo.
 
-* O administrador do Workfront deve ativar a configuração Registrar tempo diretamente nos projetos em [!UICONTROL **Horas e Planilha de Horas**]> [!UICONTROL **Preferências**], se quiser registrar horas diretamente em um projeto.
+* O administrador do Workfront deve ativar a configuração Registrar tempo diretamente nos projetos em [!UICONTROL **Horas e Planilha de Horas**]> [!UICONTROL **Preferências**] na área Sistema, se quiser registrar horas diretamente em um projeto.
 
   Para obter mais informações sobre como permitir que os usuários registrem horas diretamente nos projetos, consulte [Configurar preferências de horas e planilha de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -406,6 +412,8 @@ Para registrar horas na seção Atualizações de um projeto, tarefa ou problema
 
 1. Clique em **Registrar tempo**.
 
+   O tempo reportado é exibido na seção Horas do objeto e em sua folha de horas.
+
 #### seção Horas{#hours-section}
 
 Você deve ser um administrador do Workfront para registrar horas para projetos, tarefas e problemas na seção Horas,
@@ -416,7 +424,7 @@ Você deve ter todos os itens a seguir:
 
 * Uma licença de Plano com acesso administrativo a Planilhas de Horas e horas. Para obter mais informações sobre como conceder acesso administrativo a Folhas de horas e horas, consulte [Conceder aos usuários acesso administrativo a determinadas áreas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 * Contribute ou tenha permissões mais altas para o projeto com acesso a Registrar horas. Para obter mais informações sobre a concessão de permissões em projetos, consulte [Compartilhar um projeto no Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-* O administrador do Workfront deve ativar a configuração Registrar tempo diretamente nos projetos em Planilha de horas e Horas > Preferências, se quiser registrar tempo diretamente em um projeto. Para obter mais informações sobre como permitir que os usuários registrem horas diretamente nos projetos, consulte [Configurar preferências de horas e planilha de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* O administrador do Workfront deve ativar a configuração Registrar tempo diretamente nos projetos no **Horas > Preferências** da área Configuração, se desejar registrar o tempo diretamente em um projeto. Para obter mais informações sobre como permitir que os usuários registrem horas diretamente nos projetos, consulte [Configurar preferências de horas e planilha de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 Para registrar horas na seção Horas de um projeto, tarefa ou problema:
 

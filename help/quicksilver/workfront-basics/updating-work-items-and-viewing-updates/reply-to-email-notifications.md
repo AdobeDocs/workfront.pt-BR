@@ -6,14 +6,16 @@ description: É possível responder às notificações por email do Workfront ge
 author: Nolan and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: ea16514d15f0b00908d33e2f02dbf23e56b232d4
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
 
 # Responder a notificações por email
+
+<!-- Audited: April 2024-->
 
 Dependendo de como suas notificações por email estão configuradas, você poderá receber uma notificação por email quando for feita uma atualização em determinados objetos aos quais tem acesso.
 
@@ -49,25 +51,26 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plano do Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>plano do Adobe Workfront</strong></td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
-   <td> <p>Solicitação ou superior para problemas e documentos; revisão ou superior para todos os outros objetos</p> </td> 
+   <td> <p>Novo: Colaborador ou superior para problemas e documentos; Claro ou superior para todos os outros objetos</p>
+   <p>Atual: solicitação ou superior para ocorrências e documentos; Revisão ou superior para todos os outros objetos</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>Solicitante ou superior para problemas e documentos; Revisor ou superior para todos os outros objetos</p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr> 
+   <td role="rowheader"><strong>Configuração do nível de acesso</strong></td> 
+   <td> <p>Acesso de visualização ou superior aos objetos nos quais você deseja postar a resposta</p> </td> 
+  </tr> 
   <tr> 
-   <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Visualizar acesso ao objeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td role="rowheader"><strong>Permissão de objeto</strong></td> 
+   <td> <p>Visualize ou aumente as permissões para os objetos em que deseja postar a resposta</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront. Para obter mais informações, consulte [Requisitos de acesso para a documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Resposta a uma atualização de uma notificação por email
 

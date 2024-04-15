@@ -6,57 +6,44 @@ description: Ao fornecer comentários de atualização em um objeto do Adobe Wor
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
 
 # Marcar outros usuários em atualizações
 
-<!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
+<!--Audited: April, 2024-->
 
 <!--
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
-
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
--->
-
-
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou na Produção para clientes que ativaram versões rápidas. </span>
-
-<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Para obter informações sobre a programação de lançamento atual, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
 >[!IMPORTANT]
 >
->No momento, estamos reprojetando a experiência de comentários no Adobe Workfront.
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >
->Dependendo dos objetos para os quais você acessa a experiência de comentários, você pode ver a seguinte funcionalidade para a seção Atualizações:
->* A nova experiência
->* A experiência herdada
->* A experiência nova e herdada
+>Depending on what objects you access the commenting experience for, you might see the following functionality for the Updates section:
+>* The new experience
+>* The legacy experience
+>* The new and the legacy experience
 >
->Para obter mais informações sobre a nova experiência de comentários e sua disponibilidade, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
-><Span class="preview"> A experiência de comentários herdada foi removida de projetos, tarefas, problemas e documentos no ambiente de Pré-visualização. </span>
+><Span class="preview"> The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. </span>
 >
->A nova experiência de comentários está disponível somente para a seção Atualizações de objetos do Workfront e não está disponível ao acessar atualizações das seguintes áreas:
+>The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access updates from the following areas:
 >
-> * Início
-> * Painel Resumo em listas
-> * Painel Resumo em Planilhas de Horas
-> * Painel Resumo no Balanceador de carga de trabalho
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets 
+> * Summary panel in the Workload Balancer
 >
-><span class="preview">A nova experiência de comentários está disponível no painel Resumo em listas, folhas de horas e o Balanceador de carga de trabalho no ambiente de Pré-visualização e no ambiente de Produção para clientes que optaram pelo processo de lançamento rápido. </span>
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span> 
+-->
 
 Você pode adicionar tags aos usuários ao fazer uma atualização em um objeto se quiser chamar a atenção deles para um objeto que, de outra forma, eles poderiam não seguir.
 
-Em vez de incluir esses usuários no objeto atribuindo-os a ele ou fazendo com que eles se subscrevam a ele, você pode marcá-los na atualização para compartilhá-lo com eles. Os usuários marcados receberão uma notificação sobre a atualização inserida.
+Em vez de incluir esses usuários no objeto atribuindo-os a ele ou fazendo com que eles se subscrevam a ele, você pode marcá-los na atualização para compartilhá-lo com eles. Os usuários marcados receberão uma notificação do Workfront sobre a atualização inserida. Dependendo das configurações de notificação, eles também receberão um email sobre a atualização inserida.
 
 ## Considerações sobre a marcação de usuários em atualizações
 
@@ -70,49 +57,37 @@ Em vez de incluir esses usuários no objeto atribuindo-os a ele ou fazendo com q
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plano do Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>plano do Adobe Workfront</strong></td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
-   <td> <p>Solicitação ou superior para problemas e documentos; revisão ou superior para todos os outros objetos</p> </td> 
+   <td> <p>Novo: Colaborador ou superior para problemas e documentos; Claro ou superior para todos os outros objetos</p>
+   <p>Atual: solicitação ou superior para ocorrências e documentos; Revisão ou superior para todos os outros objetos</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>Solicitante ou superior para problemas e documentos; Revisor ou superior para todos os outros objetos</p> 
-   <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr> 
+   <td role="rowheader"><strong>Configuração do nível de acesso</strong></td> 
+   <td> <p>Acesso de visualização ou superior aos objetos nos quais você deseja postar a resposta</p> </td> 
+  </tr> 
   <tr> 
-   <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Visualizar acesso ao objeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td role="rowheader"><strong>Permissão de objeto</strong></td> 
+   <td> <p>Visualize ou aumente as permissões para os objetos em que deseja postar a resposta</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
+*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront. Para obter mais informações, consulte [Requisitos de acesso para a documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Marcar outros usuários em atualizações
 
-Marcar outras pessoas em uma atualização difere de acordo com a experiência e o objeto selecionado.
-
-### Adicionar tags a outras pessoas sobre atualizações na nova experiência de comentários
-
-Você pode adicionar tags a outras pessoas em atualizações na nova experiência de comentários das seguintes maneiras:
+Você pode marcar outras pessoas em atualizações das seguintes maneiras:
 
 * **Automaticamente**: quando um usuário inicia um thread, adiciona um comentário ou adiciona uma resposta, ele é automaticamente marcado e adicionado à área Marcar pessoas ou equipes da caixa de comentários. <!--remove the tip below when the new commenting stream is the only stream and the legacy commenting is removed-->
-
-  >[!TIP]
-  >
-  >Quando a thread é iniciada na experiência de comentários herdada, os participantes da thread não são marcados automaticamente.
 
 * **Manualmente**: ao adicionar manualmente um usuário à área Marcar pessoas da caixa de comentários.
 
@@ -138,11 +113,7 @@ Também é possível remover usuários que foram marcados por engano ao editar o
    > 
    >Você deve ter a configuração Exibir informações de contato ativada no seu nível de acesso para que os usuários visualizem os emails dos usuários. Para obter informações, consulte [Conceder acesso aos usuários](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-   <div class="preview">
-
    ![Marcar um usuário](assets/tag-others-unified-commenting-with-all-tab.png)
-
-   </div>
 
 1. (Opcional) Para tornar a atualização privada, ative **Privativo(s) de minha empresa** no canto inferior direito da caixa de atualização. Isso torna a atualização visível apenas para os usuários em sua empresa. A variável **Privativo(s) de minha empresa** A opção está disponível somente quando uma Empresa é especificada no perfil do Workfront.
 
@@ -164,58 +135,66 @@ Também é possível remover usuários que foram marcados por engano ao editar o
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
-   <span class="preview">Quando você estiver marcado no texto do comentário, seu nome será destacado nesses comentários.</span>
+   Quando você estiver marcado no texto do comentário, seu nome será destacado nesses comentários.
 
    Para obter informações sobre a funcionalidade adicional disponível ao atualizar um item de trabalho, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Opcional) Clique no link **Mais** menu ![](assets/more-menu.png) no canto superior direito do comentário e clique em **Editar**. Remova os usuários marcados e clique em **Enviar**. Você pode editar um comentário somente dentro de 15 minutos após inseri-lo. Só é possível editar os comentários adicionados.
+1. (Opcional) Clique no link **Mais** menu ![](assets/more-menu.png) no canto superior direito do comentário e clique em **Editar**. Remova os usuários marcados e clique em **Enviar**.
+
+   >[!IMPORTANT]
+   >
+   >Você pode editar um comentário somente dentro de 15 minutos após inseri-lo. Só é possível editar os comentários adicionados.
+
+
+<!--
+   >[!TIP]
+   >
+   >When using the legacy commenting experience to add comments and replies, comment owners that were not specifically tagged cannot be manually removed by people who use the new commenting experience.
+-->
+
+<!--
+### Tag others on updates in the legacy Updates section
+
+You can manually tag users in the legacy Updates section. 
+
+1. Begin updating a work item, as described in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. In the **Notify** field, begin typing the name of the user or team you want to include, then click the name when it appears in the drop-down list.
+
+   Or
+
+   Type the @ symbol in the **Start a new update** area, begin typing the name of the user or team you want to include on the update, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
-   >Ao usar a experiência de comentários herdada para adicionar comentários e respostas, os proprietários de comentários que não foram marcados especificamente não podem ser removidos manualmente pelas pessoas que usam a nova experiência de comentários.
-
-
-### Marcar outras pessoas sobre atualizações na seção Atualizações herdadas
-
-Você pode marcar os usuários manualmente na seção Atualizações herdadas.
-
-1. Comece a atualizar um item de trabalho, conforme descrito em [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. No **Notificar** comece digitando o nome do usuário ou da equipe que deseja incluir e clique no nome quando ele aparecer na lista suspensa.
-
-   Ou
-
-   Digite o símbolo @ na caixa **Iniciar uma nova atualização** comece digitando o nome do usuário ou da equipe que deseja incluir na atualização e clique no nome quando ele aparecer na lista suspensa.
-
-   >[!TIP]
+   >To identify the correct user when there are users with similar or identical names, notice the avatar, the user's Primary Role, or their email address. 
    >
-   >Para identificar o usuário correto quando há usuários com nomes semelhantes ou idênticos, observe o avatar, a função principal do usuário ou seu endereço de email.
+   >Users must be associated with at least one job role to view it as you tag them in an update. 
    >
-   >Os usuários devem estar associados a pelo menos uma função de trabalho para exibi-la quando você marcá-los em uma atualização.
-   >
-   >Você deve ter a configuração Exibir informações de contato ativada no seu nível de acesso para que os usuários visualizem os emails dos usuários. Para obter informações, consulte [Conceder acesso aos usuários](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
    ![](assets/tag-users-in-update.png)
 
-1. (Opcional) Para tornar a atualização privada, ative **Privativo(s) de minha empresa** no canto inferior direito da caixa de atualização. Isso torna a atualização visível apenas para os usuários em sua empresa. A variável **Privativo(s) de minha empresa** A opção está disponível somente quando uma Empresa é especificada no perfil do Workfront.
+1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company. The **Private to my company** option is available only when a Company is specified in your Workfront profile. 
 
    >[!NOTE]
    >
-   >Os usuários marcados fora da empresa ainda podem receber uma notificação no aplicativo ou um email, mesmo que não vejam os comentários privados na guia Atualizações. Recomendamos não marcar usuários externos em uma atualização se você não quiser compartilhar as informações com eles.
+   >Tagged users outside the company could still receive an in-app notification or email, even though they will not see the private comments on the Updates tab. We recommend not to tag external users on an update if you do not want to share the information with them.  
 
-1. (Opcional) Para adicionar vários usuários e equipes, repita a etapa 2.
+1. (Optional) To add multiple users and teams, repeat step 2.
 
    >[!NOTE]
    >
-   >Todos os usuários e membros da equipe listados no campo Notificar recebem uma notificação no aplicativo para a atualização e podem receber um email, dependendo da configuração de suas configurações de notificação por email. Os usuários que marcam a si mesmos em um comentário ou resposta recebem uma notificação para esse comentário ou resposta e podem ver seu nome no campo Notificar para o restante da thread, mas não recebem outra notificação, a menos que marquem a si mesmos novamente. Para obter mais informações, consulte [Modificar suas próprias notificações por email](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) e [Configurar notificações de eventos para todos no sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   >All users and team members listed in the Notify field receive an in-app notification for the update and might receive an email, depending on the configuration of their email notification settings. Users who tag themselves in a comment or reply receive a notification for that comment or reply and can see their name in the Notify field for the remainder of the thread, but they do not receive another notification unless they tag themselves again. For more information, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) and [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-1. Clique em **Atualizar**.\
-   Os usuários incluídos na atualização recebem automaticamente a permissão Exibir ao objeto e podem exibir e responder às atualizações feitas no objeto.
+1. Click **Update**.  
+   Users included in the update are automatically granted View permission to the object and can view and respond to updates made to the object.
 
-   Você pode ver quem foi marcado em cada resposta na parte superior da thread de atualização. Esses usuários, juntamente com quaisquer usuários que se inscreveram no objeto, recebem uma notificação sempre que uma atualização ou resposta é feita no objeto.
+   You can see who has been tagged in each reply at the top of the update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object.
 
    ![](assets/tagging-transparency-350x192.png)
+-->
 
-   Para obter informações sobre a funcionalidade adicional disponível ao atualizar um item de trabalho, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Para obter informações sobre a funcionalidade adicional disponível ao atualizar um item de trabalho, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 

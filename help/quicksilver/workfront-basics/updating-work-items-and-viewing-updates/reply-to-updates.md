@@ -8,58 +8,46 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '1190'
-ht-degree: 0%
+source-wordcount: '697'
+ht-degree: 1%
 
 ---
 
 # Responder a atualizações
 
-<!--remove legacy and new experience references when we remove the legacy updates in the UI - Jan 2024???-->
+<!-- Audited: April 2024-->
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
-
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
-
+>[!IMPORTANT]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>
+>Depending on what objects you access the commenting experience for, you might see the following functionality for the Updates section:
+>* The new experience
+>* The legacy experience
+>* The new and the legacy experience
+>
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+><Span class="preview"> The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. </span>
+>
+>The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access updates from the following areas:
+>
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets 
+> * Summary panel in the Workload Balancer
+>
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span> 
 -->
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou na Produção para clientes que ativaram versões rápidas. </span>
-
-<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Para obter informações sobre a programação de lançamento atual, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+Quando alguém responde a um comentário ou a uma atualização do sistema em um objeto de trabalho, sua resposta é exibida no thread de comunicação na guia Comentários e todos na seção Atualizações do objeto.
 
 >[!IMPORTANT]
 >
->No momento, estamos reprojetando a experiência de comentários no Adobe Workfront.
->
->Dependendo dos objetos para os quais você acessa a experiência de comentários, você pode ver a seguinte funcionalidade para a seção Atualizações:
->* A nova experiência
->* A experiência herdada
->* A experiência nova e herdada
->
->Para obter mais informações sobre a nova experiência de comentários e sua disponibilidade, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
->
-><Span class="preview"> A experiência de comentários herdada foi removida de projetos, tarefas, problemas e documentos no ambiente de Pré-visualização. </span>
->
->A nova experiência de comentários está disponível somente para a seção Atualizações de objetos do Workfront e não está disponível ao acessar atualizações das seguintes áreas:
->
-> * Início
-> * Painel Resumo em listas
-> * Painel Resumo em Planilhas de Horas
-> * Painel Resumo no Balanceador de carga de trabalho
->
-><span class="preview">A nova experiência de comentários está disponível no painel Resumo em listas, folhas de horas e o Balanceador de carga de trabalho no ambiente de Pré-visualização e no ambiente de Produção para clientes que optaram pelo processo de lançamento rápido. </span>
-
-Quando alguém responde a um comentário ou a uma atualização do sistema em um objeto de trabalho, sua resposta é exibida no thread de comunicação na seção Atualizações do objeto.
-
->[!IMPORTANT]
->
->Não é possível responder às atualizações do sistema na nova experiência de comentários. Para obter mais informações, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>Não é possível responder às atualizações do sistema na guia System Activity (Atividade do sistema). Quaisquer respostas a atualizações do sistema feitas na experiência de comentários herdada antes de 11 de abril de 2024 são exibidas como somente leitura .
 
 <!--adjust the sentence before the second IMPORTANT and remove this important note when we remove legacy from the system-->
 
@@ -72,27 +60,26 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plano do Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>plano do Adobe Workfront</strong></td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
-   <td> <p>Solicitação ou superior para problemas e documentos; revisão ou superior para todos os outros objetos</p> </td> 
+   <td> <p>Novo: Colaborador ou superior para problemas e documentos; Claro ou superior para todos os outros objetos</p> 
+   <p>Atual: solicitação ou superior para ocorrências e documentos; Revisão ou superior para todos os outros objetos</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>Solicitante ou superior para problemas e documentos; Revisor ou superior para todos os outros objetos</p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr> 
+   <td role="rowheader"><strong>Configuração do nível de acesso</strong></td> 
+   <td> <p>Acesso de Visualização ou Edição para o objeto no qual a atualização está</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Visualizar acesso ao objeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Visualizar acesso ao objeto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront. Para obter mais informações, consulte [Requisitos de acesso para a documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Responder a uma atualização ou uma resposta no Workfront
 
@@ -100,16 +87,14 @@ Você pode responder a um comentário na thread de um objeto que pode ser exibid
 
 Responder a um comentário ou resposta difere de acordo com a experiência e o objeto selecionado.
 
-### Responder a um comentário ao usar a nova experiência de comentários
-
-Para obter informações sobre quais recursos estão disponíveis na nova experiência de comentários e para quais objetos, consulte [Nova experiência de comentários](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+### Responder a um comentário
 
 1. Vá para o objeto ao qual deseja adicionar uma resposta.
 1. Clique em **Atualizações** e, em seguida, clique na guia **Comentários** para o objeto e localize o comentário ou resposta à qual deseja responder
 
    Ou
 
-   <span class="preview">Clique em **Todos** e clique em **Responder em Comentários** para abrir o comentário na guia Comentários e respondê-lo. Não é possível responder na guia All.</span>
+   Clique em **Todos** e clique em **Responder em Comentários** para abrir o comentário na guia Comentários e respondê-lo. Não é possível responder na guia All.
 
 1. (Opcional) Para incluir texto de uma atualização anterior em sua resposta, clique no link **Mais** no canto superior direito do comentário que deseja responder e clique em **Citar resposta**. O texto da atualização anterior é exibido na área de entrada, marcado com uma linha cinza vertical.
 1. Clique em **Responder**.
@@ -128,25 +113,28 @@ Para obter informações sobre quais recursos estão disponíveis na nova experi
 
 1. (Opcional) Clique no link **Mais** menu ![](assets/more-menu.png) no canto superior direito do comentário que você deseja responder para obter mais opções para gerenciar a resposta. Para obter mais informações, consulte [Atualizar trabalho](../updating-work-items-and-viewing-updates/update-work.md).
 
-### Responder a uma atualização ou resposta na seção Atualizações herdadas
+<!--
+### Reply to an update or reply in the legacy Updates section
 
-1. Vá para o objeto ao qual deseja adicionar uma resposta.
-1. No **Atualizações** para o objeto, localize a atualização ou resposta à qual deseja responder.
+1. Go to the object to which you want to add a reply.
+1. On the **Updates** tab for the object, find the update or reply to which you want to reply.
 
-1. (Opcional) Para exibir uma imagem na atualização existente, siga um destes procedimentos:
+1. (Optional) To view an image in the existing update do one of the following:
 
-   * Clique em **Visualizar** ícone ![](assets/previewimageicon-31x31.png) na miniatura da imagem para abrir a imagem em tamanho real em uma nova guia do navegador.
-   * Clique em **Baixar** ícone ![](assets/downloadimageicon.png) na miniatura da imagem para baixar a imagem.
+   * Click the **Preview** icon ![](assets/previewimageicon-31x31.png) on the image thumbnail to open the full-size image in a new browser tab.
+   * Click the **Download** icon ![](assets/downloadimageicon.png) on the image thumbnail to download the image.
 
-1. Clique em **Responder** na atualização, digite uma resposta na caixa exibida.
+1. Click **Reply** on the update, then type a reply in the box that appears.
 
-   Você pode ver os usuários que estão ativamente envolvidos na conversa ou marcados em cada resposta na parte superior da thread de atualização. Esses usuários, juntamente com quaisquer usuários que se inscreveram no objeto, recebem uma notificação sempre que uma atualização ou resposta é feita no objeto. Você também pode adicionar tags a mais usuários para incluí-los em sua resposta.  Para marcar mais usuários, consulte [Marcar outros usuários em atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   You can see the users who are actively engaged in the conversation or tagged in each reply at the top of that update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. You can also tag more users to include them in your reply.  To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
    ![](assets/tagging-transparency-350x192.png)
+   
+1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a vertical gray line.
+1. (Optional) Use formatting, emojis, include links, or images as explained in the section "Use Rich Text in a Workfront update" in the article [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Click **Reply** to save the reply.
 
-1. (Opcional) Para incluir texto de uma atualização anterior em sua resposta, clique no link **Mais** ao lado da atualização ou resposta que deseja citar, clique em **Citar resposta**. O texto da atualização anterior é exibido na área de entrada, marcado com uma linha cinza vertical.
-1. (Opcional) Use formatação, emojis, links de inclusão ou imagens, conforme explicado na seção &quot;Usar Rich Text em uma atualização do Workfront&quot; no artigo [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. Clique em **Responder** para salvar a resposta.
+-->
 
 ## Resposta a uma atualização de uma notificação por email
 

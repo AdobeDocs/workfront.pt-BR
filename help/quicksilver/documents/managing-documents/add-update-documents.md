@@ -6,14 +6,16 @@ description: Você pode adicionar ou responder a atualizações em um documento 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
 # Adicionar uma atualização a um documento
+
+<!--Audited: April, 2024-->
 
 Você pode adicionar ou responder a atualizações em um documento para se comunicar com colaboradores e criar uma trilha de auditoria. Para obter informações sobre como adicionar atualizações a itens de trabalho, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -26,21 +28,28 @@ Você deve ter o seguinte:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p> Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenças da Adobe Workfront*</td> 
-   <td> <p>Solicitação ou superior</p> </td> 
+   <td> <p>Novo: Colaborador ou superior</p> 
+   <p>Atual: solicitação ou superior</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Visualizar acesso a documentos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuração do nível de acesso</td> 
+   <td> <p>Visualizar acesso a documentos</p> </td> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">Permissões de objeto</td> 
+   <td> <p>Visualizar acesso ao documento</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront. Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Adicionar ou responder a uma atualização de um documento
 
