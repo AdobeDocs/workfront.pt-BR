@@ -8,10 +8,10 @@ description: As seguintes funções de matriz estão disponíveis no painel de m
 author: Becky
 feature: Workfront Fusion
 exl-id: bf065d00-5d84-47e1-8169-bf9e01e2429d
-source-git-commit: 5860e75d0a6521abbe082668749f78058fe7a114
+source-git-commit: 033a9f4aa1f191e5e3cabd0c0f232128fa6bce5d
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 0%
+source-wordcount: '665'
+ht-degree: 1%
 
 ---
 
@@ -21,77 +21,95 @@ ht-degree: 0%
 
 Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
 
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
-   <td> <p>[!DNL Pro] ou superior</p> </td> 
+<table style="table-layout:auto"> 
+ <col>  
+ <col>  
+ <tbody>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront] plano</td>  
+   <td> <p>Qualquer</p> </td>  
+  </tr>  
+  <tr data-mc-conditions="">  
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td>  
+   <td> <p>Novo: [!UICONTROL Padrão]</p><p>Ou</p><p>Atual: [!UICONTROL Trabalho] ou superior</p> </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td>  
+   <td> 
+   <p>Atual: Não [!DNL Workfront Fusion] requisito de licença.</p> 
+   <p>Ou</p> 
+   <p>Herdados: Qualquer um </p> 
+   </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">Produto</td>  
+   <td> 
+   <p>Novo:</p> <ul><li>[!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] Plano: sua organização deve comprar [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plano: [!DNL Workfront Fusion] está incluído.</li></ul> 
+   <p>Ou</p> 
+   <p>Atual: sua organização deve comprar [!DNL Adobe Workfront Fusion].</p> 
+   </td>  
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
-   <td> <p>[!UICONTROL Plano], [!UICONTROL Trabalho]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licença [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
-   <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produto</td> 
-   <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
-   <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
-   </td> 
-  </tr> 
- </tbody> 
+ </tbody>  
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL adicionar (matriz; valor1; valor2; ...)]
+## Funções
 
-Adiciona valores especificados em parâmetros a uma matriz e retorna essa matriz.
+* [ingressar](#join-array-separator)
+* [length](#length-array)
+* [chaves](#keys-object)
+* [fatia](#slice-array-start-end)
+* [mesclar](#merge-array1-array2)
+* [contém](#contains-array-value)
+* [remover](#remove-array-value1-value2)
+* [adicionar](#add-array-value1-value2)
+* [mapa](#map-complex-array-keykey-for-filteringpossible-values-for-filtering)
+* [ordem aleatória]
+* [sort](#sort-array-order-key)
+* [reverter](#reverse-array)
+* [nivelar](#flatten-array)
+* [distinct](#distinct-array-key)
+* [toCollection]
+* [toArray](#toarray)
+* [arrayDifference](#arraydifference-array1-array2-mode)
+* [desduplicar]
 
-## [!UICONTROL contains (matriz; valor)]
-
-Verifica se uma matriz contém o valor.
-
-## [!UICONTROL distinct (matriz; [key])]
-
-Remove duplicatas dentro de uma matriz. Use o &quot;[!UICONTROL key]&quot; para acessar propriedades dentro de objetos complexos. Para acessar propriedades aninhadas, use a notação de pontos. O primeiro item em uma matriz é o índice 1.
-
->[!INFO]
->
->**Exemplo:** `distinct(Contacts[];name)`
->
->Remove duplicatas dentro de uma matriz de contatos comparando a propriedade &quot;name&quot;
-
-## [!UICONTROL nivelar (matriz)]
-
-Cria uma nova matriz com todos os elementos de submatriz concatenados nela, recursivamente, até a profundidade especificada.
-
-
-## [!UICONTROL junção (matriz; separador)]
+### [!UICONTROL junção (matriz; separador)]
 
 Concatena todos os itens de uma matriz em uma cadeia de caracteres, usando o separador especificado entre cada item.
 
-## [!UICONTROL chaves (objeto)]
-
-Retorna uma matriz das propriedades de um determinado objeto ou matriz.
-
-## [!UICONTROL length (matriz)]
+### [!UICONTROL length (matriz)]
 
 Retorna o número de itens em uma matriz.
 
-## [!UICONTROL map (matriz complexa; chave;[chave para filtragem];[valores possíveis para filtragem])]
+### [!UICONTROL chaves (objeto)]
+
+Retorna uma matriz das propriedades de um determinado objeto ou matriz.
+
+### [!UICONTROL fatia (matriz; início; [fim])]
+
+Retorna uma nova matriz contendo apenas itens selecionados.
+
+### [!UICONTROL mesclar (matriz1; matriz2; ...)]
+
+Mescla uma ou mais matrizes em uma matriz.
+
+### [!UICONTROL contains (matriz; valor)]
+
+Verifica se uma matriz contém o valor.
+
+### [!UICONTROL remover (matriz; valor1; valor2; ...)]
+
+Remove valores especificados nos parâmetros de uma matriz. Esta função só é eficaz em matrizes primitivas de texto ou números.
+
+### [!UICONTROL adicionar (matriz; valor1; valor2; ...)]
+
+Adiciona valores especificados em parâmetros a uma matriz e retorna essa matriz.
+
+### [!UICONTROL map (matriz complexa; chave;[chave para filtragem];[valores possíveis para filtragem])]
 
 Retorna uma matriz primitiva contendo valores de uma matriz complexa. Esta função permite filtrar valores. Use nomes de variáveis brutos para chaves.
 
@@ -109,24 +127,9 @@ Retorna uma matriz primitiva contendo valores de uma matriz complexa. Esta funç
 
 Para obter mais informações, consulte [Mapear informações de um módulo para outro no [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
 
+### ordem aleatória
 
-## [!UICONTROL mesclar (matriz1; matriz2; ...)]
-
-Mescla uma ou mais matrizes em uma matriz.
-
-## [!UICONTROL remover (matriz; valor1; valor2; ...)]
-
-Remove valores especificados nos parâmetros de uma matriz. Esta função só é eficaz em matrizes primitivas de texto ou números.
-
-## [!UICONTROL inverter (matriz)]
-
-O primeiro elemento da matriz se torna o último elemento, o segundo se torna o próximo ao último e assim por diante.
-
-## [!UICONTROL fatia (matriz; início; [fim])]
-
-Retorna uma nova matriz contendo apenas itens selecionados.
-
-## [!UICONTROL sort (matriz; [pedido]; [key])]
+### [!UICONTROL sort (matriz; [pedido]; [key])]
 
 Classifica os valores de uma matriz. Os valores válidos de `order` parâmetros são:
 
@@ -174,7 +177,47 @@ O primeiro item em uma matriz é o índice 1.
 >
 >    Classifica uma matriz de emails pela propriedade &quot;sender.name&quot;
 
-## [!UICONTROL arrayDifference [matriz1, matriz2, modo]]
+### [!UICONTROL inverter (matriz)]
+
+O primeiro elemento da matriz se torna o último elemento, o segundo se torna o próximo ao último e assim por diante.
+
+### [!UICONTROL nivelar (matriz)]
+
+Cria uma nova matriz com todos os elementos de submatriz concatenados nela, recursivamente, até a profundidade especificada.
+
+### [!UICONTROL distinct (matriz; [key])]
+
+Remove duplicatas dentro de uma matriz. Use o &quot;[!UICONTROL key]&quot; para acessar propriedades dentro de objetos complexos. Para acessar propriedades aninhadas, use a notação de pontos. O primeiro item em uma matriz é o índice 1.
+
+>[!INFO]
+>
+>**Exemplo:** `distinct(Contacts[];name)`
+>
+>Remove duplicatas dentro de uma matriz de contatos comparando a propriedade &quot;name&quot;
+
+### toCollection
+
+### toArray
+
+Esta função converte uma coleção em uma matriz de pares de valores chave.
+
+>[!INFO]
+>
+>**Exemplos:**
+>
+>Dada a coleção
+>
+>`{ key1: "value1", key2: "value2:}`
+>
+>A função
+>
+>`toArray({ key1: "value1", key2: "value2:})`
+>
+>Retorna a matriz de pares de valores chave
+>
+>`[{ key1: "value1"}, { key2: "value2"}]`
+
+### [!UICONTROL arrayDifference [matriz1, matriz2, modo]]
 
 Retorna a diferença entre duas matrizes.
 
@@ -212,22 +255,8 @@ Insira um dos seguintes valores para a variável `mode` parâmetro.
   >
   >    Devoluções `[1,2,6,7]`
 
-## toArray
+### desduplicar
 
-Esta função converte uma coleção em uma matriz de pares de valores chave.
+## Palavras-chave
 
->[!INFO]
->
->**Exemplos:**
->
->Dada a coleção
->
->`{ key1: "value1", key2: "value2:}`
->
->A função
->
->`toArray({ key1: "value1", key2: "value2:})`
->
->Retorna a matriz de pares de valores chave
->
->`[{ key1: "value1"}, { key2: "value2"}]`
+### emptyarray

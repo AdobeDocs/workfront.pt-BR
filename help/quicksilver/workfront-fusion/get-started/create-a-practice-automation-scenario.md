@@ -7,9 +7,9 @@ description: Este artigo descreve como criar um cenário de automação com o Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 3d53042b9321c8712b9aaeea686989add5b9e35e
+source-git-commit: 97231a6021aa4e897059063293e649f45dc9908d
 workflow-type: tm+mt
-source-wordcount: '1847'
+source-wordcount: '1842'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ Neste exemplo, não estamos usando um módulo acionador. Em vez disso, esse cen�
    1. Efetue logon no [!DNL Workfront].
    1. Examinar o acesso que [!DNL Workfront Fusion] está solicitando e clique em **[!UICONTROL Permitir acesso]**.
 
-   Se precisar de ajuda, consulte [Sobre a conexão [!DNL Adobe Workfront Fusion] para um aplicativo ou serviço](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+   Se precisar de ajuda, consulte [Visão geral das conexões](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ## Configurar o primeiro módulo
 

@@ -8,9 +8,9 @@ description: O Adobe Workfront Fusion oferece duas licenças diferentes que dete
 author: Becky
 feature: Workfront Fusion
 exl-id: 37fecce9-c1b8-474b-abc2-09398bfcc629
-source-git-commit: 7bae22ba1211298ac77b8909c06e18f2a35cd405
+source-git-commit: 1b90566477eb57b97f3484ed7f0eeed5c88c495f
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 
 O novo [!DNL Workfront Fusion] o modelo de licenciamento é baseado no número de operações que sua organização utiliza. Nesse modelo, todas as organizações têm acesso à mesma funcionalidade.
 
+Se sua organização tiver um plano do Workfront Ultimate, sua instância do Fusion será incluída em seu plano e permitirá um número ilimitado de operações do Fusion por mês. Se sua organização tiver um plano Workfront Prime ou Select, o Fusion poderá ser comprado e o preço será baseado no número de operações realizadas em um mês.
+
 Para obter informações sobre o que conta como uma operação no novo modelo de licenciamento, consulte [Operações em [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/operations-in-workfront-fusion.md).
 
 ## Modelo de licenciamento baseado em conector (herdado)
@@ -34,21 +36,23 @@ No [!DNL Adobe Workfront Fusion] modelo de licenciamento antigo, [!DNL Fusion] O
 
 Para descobrir que tipo de [!DNL Workfront Fusion] licença que sua organização tem, entre em contato com o [!DNL Workfront Fusion] administrador.
 
-## [!DNL Workfront Fusion for Work Automation]
+### [!DNL Workfront Fusion for Work Automation]
 
 * [Benefícios do [!DNL Workfront Fusion for Work Automation]](#benefits-of-workfront-fusion-for-work-automation)
 * [Conectores e módulos disponíveis para [!DNL Workfront Fusion for Work Automation]](#connectors-and-modules-available-for-workfront-fusion-for-work-automation)
 * [Exemplo de [!DNL Workfront Fusion for Work Automation]](#example-of-workfront-fusion-for-work-automation)
 
-### Benefícios do [!DNL Workfront Fusion for Work Automation]
+#### Benefícios do [!DNL Workfront Fusion for Work Automation]
 
-A [!DNL Workfront Fusion for Work Automation] permite automatizar a [!DNL Workfront] fluxos de trabalho. Ao usar [!DNL Workfront Fusion for Work Automation], você pode criar cenários para automatizar os processos de trabalho exclusivos de sua organização. Existem muitos benefícios em automatizar a sua [!DNL Workfront] processos.
+A [!DNL Workfront Fusion for Work Automation] permite automatizar a [!DNL Workfront] fluxos de trabalho. Ao usar [!DNL Workfront Fusion for Work Automation], você pode criar cenários para automatizar os processos de trabalho exclusivos de sua organização.
+
+Benefícios para automatizar a [!DNL Workfront] incluem:
 
 * A automação é mais rápida e menos propensa a erros
 * Fluxos de trabalho que não exigem nenhuma decisão ou que têm decisões baseadas em lógica simples, como se/então, são bons candidatos para automação
 * A automação pode atender a necessidades específicas em fluxos de trabalho usados pela sua organização que não são abordados diretamente no [!DNL Workfront] produto
 
-### Conectores e módulos disponíveis para [!DNL Workfront Fusion for Work Automation]
+#### Conectores e módulos disponíveis para [!DNL Workfront Fusion for Work Automation]
 
 Com o [!DNL Workfront Fusion for Work Automation] licença, você terá acesso ao seguinte:
 
@@ -67,7 +71,7 @@ Com o [!DNL Workfront Fusion for Work Automation] licença, você terá acesso a
    * MIME
    * XML
 
-### Exemplo de [!DNL Workfront Fusion for Work Automation]
+#### Exemplo de [!DNL Workfront Fusion for Work Automation]
 
 **Exemplo:** O exemplo a seguir mostra um workflow que:
 
@@ -77,23 +81,23 @@ Com o [!DNL Workfront Fusion for Work Automation] licença, você terá acesso a
 
 ![](assets/fusion-template-example-350x102.png)
 
-## [!DNL Workfront Fusion for Work Automation and Integration]
+### [!DNL Workfront Fusion for Work Automation and Integration]
 
 * [Benefícios do [!DNL Workfront Fusion for Work Automation and Integration]](#benefits-of-workfront-fusion-for-work-automation-and-integration)
 * [Conectores e módulos disponíveis para [!DNL Workfront Fusion for Work Automation and Integration]](#connectors-and-modules-available-for-workfront-fusion-for-work-automation-and-integration)
 * [Exemplo de [!DNL Workfront Fusion for Work Automation and Integration]](#example-of-workfront-fusion-for-work-automation-and-integration)
 
-### Benefícios do [!DNL Workfront Fusion for Work Automation and Integration] {#benefits-of-workfront-fusion-for-work-automation-and-integration}
+#### Benefícios do [!DNL Workfront Fusion for Work Automation and Integration] {#benefits-of-workfront-fusion-for-work-automation-and-integration}
 
 A [!DNL Workfront Fusion for Work Automation and Integration] permite o acesso a todas as funcionalidades do [!DNL Workfront Fusion for Work Automation] licença. Além disso, essa licença permite usar outros aplicativos e serviços em seus cenários. Por exemplo, você pode usar [!DNL Workfront Fusion] para automatizar um processo que importa [!DNL Jira] tarefas, depois as transforma em tarefas no [!DNL Workfront]. Você também pode usar a variável [!UICONTROL HTTP] ou [!UICONTROL SFTP] conectores para se conectar a quase qualquer serviço da web, mesmo se [!DNL Workfront Fusion] não tem um conector dedicado para ela.
 
-[!DNL Workfront Fusion for Work Automation and Integration] O oferece muitos benefícios à sua organização.
+Benefícios de um [!DNL Workfront Fusion for Work Automation and Integration] inclui o seguinte:
 
 * [!DNL Workfront Fusion for Work Automation and Integration] inclui todos os benefícios associados à [!DNL Workfront Fusion for Work Automation]
 * A integração reduz a necessidade de entrar e sair de vários aplicativos ao concluir um fluxo de trabalho.
 * A automatização da transferência de dados entre aplicativos é mais rápida e menos propensa a erros do que a transferência manual de dados
 
-### Conectores e módulos disponíveis para [!DNL Workfront Fusion for Work Automation and Integration]
+#### Conectores e módulos disponíveis para [!DNL Workfront Fusion for Work Automation and Integration]
 
 Para obter uma lista de conectores dedicados disponíveis, consulte [Aplicativos e seus módulos](../../workfront-fusion/apps-and-their-modules/apps-and-their-modules.md).
 
@@ -101,7 +105,7 @@ Para obter uma lista de conectores dedicados disponíveis, consulte [Aplicativos
 >
 >[!DNL Workfront Fusion] O pode se conectar a quase qualquer serviço da Web. Se o aplicativo com o qual deseja trabalhar não tiver um conector dedicado, você poderá usar o [!UICONTROL HTTP], [!UICONTROL SFTP]ou [!UICONTROL JSON] conectores para se conectar diretamente ao serviço web.
 
-### Exemplo de [!DNL Workfront Fusion for Work Automation and Integration]
+#### Exemplo de [!DNL Workfront Fusion for Work Automation and Integration]
 
 **Exemplo:** O exemplo a seguir mostra um workflow que:
 

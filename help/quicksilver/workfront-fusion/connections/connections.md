@@ -9,14 +9,16 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7fc257ea-0c17-4bf5-aa07-e81f6f2d756c
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
 
-# Conexões no Adobe Workfront Fusion
+# Conexões no Fusion: índice de artigo
+
+<!-- Audited: 3/2024-->
 
 >[!NOTE]
 >
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 Esta seção contém os seguintes artigos:
 
-* [Sobre a conexão [!DNL Adobe Workfront Fusion] para um aplicativo ou serviço](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
+* [Visão geral das conexões](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
 * [Criar conexões em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/connection-instruction-toc.md)
 * [Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas](../../workfront-fusion/connections/connect-to-fusion-general.md)
 * [Conectar [!DNL Adobe Workfront Fusion] para qualquer serviço web](../../workfront-fusion/connections/connect-wf-fusion-to-any-web-service.md)

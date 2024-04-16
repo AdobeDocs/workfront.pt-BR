@@ -8,10 +8,10 @@ description: Este artigo aborda perguntas comuns relacionadas ao [!DNL Adobe Wor
 author: Becky
 feature: Workfront Fusion
 exl-id: e2ecc190-ec26-46f0-a4f2-7b283639a1eb
-source-git-commit: f2d67401782abc7e7714d9e14c495a4a6ba2fcc7
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 0%
+source-wordcount: '664'
+ht-degree: 1%
 
 ---
 
@@ -58,7 +58,7 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
 
 ## O que é um cenário?
 
-### Resposta
+### Responder
 
 Um cenário define uma sequência de etapas a serem executadas pelo [!DNL Adobe Workfront Fusion]. Para cada cenário, especifique a fonte de dados, como os dados devem ser processados, quais dados devem ser usados e o que deve ser ignorado. [!DNL Workfront Fusion] O permite criar os cenários mais complexos que você precisar; até mesmo os cenários mais sofisticados são possíveis.
 
@@ -66,13 +66,13 @@ Para obter mais informações, consulte [Criar um cenário de integração de pr
 
 ## Posso usar mais de um módulo em um cenário? Ou apenas um gatilho e ação?
 
-### Resposta
+### Responder
 
 Você pode usar quantos módulos desejar em um cenário. Você pode criar rotas independentes e especificar quais dados devem fluir através delas. Você também pode usar os resultados retornados por ações individuais e passá-los para a próxima ação.
 
 ## Pode [!DNL Workfront Fusion] trabalhar com arquivos?
 
-### Resposta
+### Responder
 
 Sim. Usar [!DNL Workfront Fusion], os arquivos podem ser recebidos, salvos, transformados, convertidos, criptografados e assim por diante. Além disso, [!DNL Workfront Fusion] O fornece uma grande variedade de recursos incorporados criados para permitir que os usuários trabalhem de maneira eficaz e criativa com os dados contidos nos arquivos.
 
@@ -80,7 +80,7 @@ Para obter mais informações, consulte [Sobre o mapeamento de arquivos no [!DNL
 
 ## O que acontece se eu deixar [!DNL Workfront Fusion] processar um email contendo mais de um anexo?
 
-### Resposta
+### Responder
 
 Se você usar o [!UICONTROL E-mail] módulo [!UICONTROL Recuperar anexos], cada anexo é enviado individualmente por meio do restante dos módulos no cenário. Módulos semelhantes também estão disponíveis em outros aplicativos que recebem vários arquivos de uma só vez.
 
@@ -88,13 +88,13 @@ Para obter mais informações, consulte [[!UICONTROL E-mail] módulos](../../wor
 
 ## Alguns acionadores permitem que os cenários sejam executados instantaneamente. O que significa &quot;instantaneamente&quot;?
 
-### Resposta
+### Responder
 
 Cenários comuns são executados em intervalos de acordo com o agendamento especificado (por exemplo, a cada hora, a cada 5 minutos, uma vez por mês e assim por diante). Há acionadores especiais, chamados de acionadores instantâneos (webhooks), que podem iniciar seu cenário imediatamente após receberem dados de um determinado serviço. Os acionadores instantâneos podem ser extremamente úteis. Recomendamos usá-los sempre que possível. Eles ajudam a reduzir o número de operações. Os dados recebidos são processados imediatamente sem esperar a próxima execução programada. Por exemplo, a variável [!DNL Google Sheets] módulo [!UICONTROL Observar alterações] inicia um cenário imediatamente após a atualização de uma célula.
 
 ## O que são agregadores?
 
-### Resposta
+### Responder
 
 Um [!UICONTROL Agregador] mescla dados em uma única coleção. Um exemplo disso são arquivos compactados em um arquivo zip e enviados como um anexo de email.
 
@@ -102,20 +102,20 @@ Para obter mais informações, consulte [[!UICONTROL Agregador] módulo no [!DNL
 
 ## O que é uma operação?
 
-### Resposta
+### Responder
 
 Uma operação é qualquer tarefa executada por um módulo. Uma operação ocorre, por exemplo, toda vez que um acionador é executado e toda vez que uma ação executa uma tarefa.
 
 ## O que é transferência de dados?
 
-### Resposta
+### Responder
 
 Transferência de dados refere-se à quantidade de dados transferidos pelo seu cenário. Por exemplo, suponha que você tenha um cenário que recupere uma imagem de 100 KB do FTP e reduza seu tamanho para 50 KB, além de salvar as duas imagens em [!DNL Dropbox]. A quantidade de dados usada nesse cenário é de 250 KB.
 
 ## O que é uma conexão?
 
-### Resposta
+### Responder
 
 Uma conexão é o link entre seu [!DNL Workfront Fusion] e o serviço de terceiros que deseja usar. A conexão pode ser facilmente criada ao editar um cenário. Para adicionar uma conexão, clique no link **[!UICONTROL Adicionar]** na configuração do módulo e siga as instruções passo a passo.
 
-Para obter mais informações, consulte [Sobre a conexão [!DNL Adobe Workfront Fusion] para um aplicativo ou serviço](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+Para obter mais informações, consulte [Visão geral das conexões](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).

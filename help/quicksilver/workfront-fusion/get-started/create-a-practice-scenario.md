@@ -7,9 +7,9 @@ description: Este artigo descreve como criar um cenário de integração com o A
 author: Becky
 feature: Workfront Fusion
 exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '2142'
+source-wordcount: '2139'
 ht-degree: 0%
 
 ---
@@ -153,7 +153,7 @@ Este módulo conterá os dados que você deseja que o cenário observe.
 1. No **[!DNL Google Sheets]** caixa, em **[!UICONTROL Conexão]**, clique em **[!UICONTROL Adicionar]**, digite um nome para a conexão, como &quot;Conta do Olivia no Google&quot; e clique em **[!UICONTROL Continuar]**.
 1. Autentique a conexão na janela que é exibida.
 
-   O processo para autenticar uma conexão pode variar um pouco entre os aplicativos. Talvez seja necessário fazer logon no aplicativo. Normalmente, é necessário clicar em um **[!UICONTROL Permitir]** botão. Se precisar de ajuda, consulte [Sobre a conexão [!DNL Adobe Workfront Fusion] para um aplicativo ou serviço](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+   O processo para autenticar uma conexão pode variar um pouco entre os aplicativos. Talvez seja necessário fazer logon no aplicativo. Normalmente, é necessário clicar em um **[!UICONTROL Permitir]** botão. Se precisar de ajuda, consulte [Visão geral das conexões](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ## Configurar o primeiro módulo
 
@@ -171,7 +171,7 @@ Depois que você se conectar [!DNL Workfront Fusion] ao seu [!DNL Google Sheets]
 
 1. Sair **[!UICONTROL Sim]** selecionado para **[!UICONTROL A tabela contém cabeçalhos]**.
 
-1. No **[!UICONTROL Linha com cabeçalhos]** você poderia especificar um intervalo de linhas que deseja incluir, mas vamos deixar o padrão A1:Z1 aqui para este exercício.
+1. No **[!UICONTROL Linha com cabeçalhos]** você poderia especificar um intervalo de linhas que deseja incluir, mas vamos deixar o padrão A1:Z1 lá para este exercício.
 1. No **[!UICONTROL Limite]** , digite 1.
 
    Dessa forma, sempre que você executar o cenário, o módulo processará apenas uma linha na planilha. Isso é útil para simplificar suas execuções de teste enquanto você está criando o cenário.

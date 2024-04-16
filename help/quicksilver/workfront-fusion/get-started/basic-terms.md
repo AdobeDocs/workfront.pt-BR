@@ -8,9 +8,9 @@ description: O Adobe Workfront Fusion exige uma licença do Adobe Workfront Fusi
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conexão]</p> </td> 
-   <td> <p>Ao adicionar um aplicativo ou serviço a um cenário, é provável que primeiro você precise criar uma conexão entre [!DNL Workfront Fusion] e o aplicativo ou serviço para recuperar ou enviar os dados selecionados. Para obter mais informações, consulte <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">Sobre a conexão [!DNL Adobe Workfront Fusion] para um aplicativo ou serviço</a>.</p> </td> 
+   <td> <p>Ao adicionar um aplicativo ou serviço a um cenário, é provável que primeiro você precise criar uma conexão entre [!DNL Workfront Fusion] e o aplicativo ou serviço para recuperar ou enviar os dados selecionados. Para obter mais informações, consulte <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">Visão geral das conexões</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Ciclo</p> </td> 

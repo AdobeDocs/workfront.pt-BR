@@ -8,10 +8,10 @@ description: As seguintes funções gerais estão disponíveis no painel Mapeame
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: a5130e551ad73717796bfac206d99799efc7987d
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 3%
+source-wordcount: '303'
+ht-degree: 0%
 
 ---
 
