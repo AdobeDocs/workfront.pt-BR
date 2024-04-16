@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: fcd3e565c10a952bd78b4f628b071c6718c92747
+source-git-commit: 873aea8f26b59e73f55ee31bf2639f0e588ec274
 workflow-type: tm+mt
-source-wordcount: '2254'
+source-wordcount: '2242'
 ht-degree: 0%
 
 ---
@@ -458,7 +458,7 @@ Também é possível [exibir um arquivo PDF](https://acrobat.adobe.com/id/urn:aa
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Novas experiências de comentário adicionadas às iterações</a></p><p>[!BADGE Na produção ]{type=Informative}</p>
-                        <p>Para fornecer uma experiência consistente em todo o aplicativo, adicionamos a nova experiência de comentários às iterações. Para obter informações, consulte [Visão geral da seção de atualização](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).</p>
+                        <p>Para fornecer uma experiência consistente em todo o aplicativo, adicionamos a nova experiência de comentários às iterações. </p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
