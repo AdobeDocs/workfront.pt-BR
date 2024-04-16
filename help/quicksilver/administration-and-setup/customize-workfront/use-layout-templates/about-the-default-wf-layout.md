@@ -9,10 +9,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 14%
+source-wordcount: '309'
+ht-degree: 6%
 
 ---
 
@@ -48,7 +48,7 @@ A tabela a seguir mostra quais itens do painel esquerdo são exibidos por padrã
    <th> <p>Administrador de Sistema</p> </th> 
    <th> <p>Planejador</p> </th> 
    <th>Trabalhador</th> 
-   <th>Oliveira</th> 
+   <th>Revisor</th> 
    <th>Solicitante</th> 
    <th>Usuário externo</th> 
   </tr> 
@@ -131,7 +131,7 @@ A tabela a seguir mostra quais itens do painel esquerdo são exibidos por padrã
    </tr>
   --> 
   <tr> 
-   <td><strong>Em Planejamento</strong> </td> 
+   <td><strong>Planejamento</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td> </td> 
@@ -140,7 +140,7 @@ A tabela a seguir mostra quais itens do painel esquerdo são exibidos por padrã
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Agendando</strong> </td> 
+   <td><strong>Agendamento</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td> </td> 
@@ -150,7 +150,7 @@ A tabela a seguir mostra quais itens do painel esquerdo são exibidos por padrã
   </tr> 
   <tr> 
    <td rowspan="3"><strong>Solicitações</strong> </td> 
-   <td><strong>Nova Requisição</strong> </td> 
+   <td><strong>Nova solicitação</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -159,7 +159,7 @@ A tabela a seguir mostra quais itens do painel esquerdo são exibidos por padrã
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td><strong>Requisições enviadas</strong> </td> 
+   <td><strong>Solicitações que enviei</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -168,7 +168,7 @@ A tabela a seguir mostra quais itens do painel esquerdo são exibidos por padrã
    <td>✔ <br>(Área de aterrissagem padrão)</td> 
   </tr> 
   <tr> 
-   <td><strong>Todas Requisições</strong> </td> 
+   <td><strong>Todas as solicitações</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -178,7 +178,7 @@ A tabela a seguir mostra quais itens do painel esquerdo são exibidos por padrã
   </tr> 
   <tr> 
    <td rowspan="3"><strong>Planilha de horas</strong> </td> 
-   <td><strong>Minhas planilhas de horas</strong> </td> 
+   <td><strong>Minhas Planilhas de Horas</strong> </td> 
    <td>✔ </td> 
    <td> ✔</td> 
    <td>✔ </td> 
@@ -187,7 +187,7 @@ A tabela a seguir mostra quais itens do painel esquerdo são exibidos por padrã
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Planilha de horas que eu aprovo</strong> </td> 
+   <td><strong>Planilhas de Horas que eu Aprovo</strong> </td> 
    <td>✔</td> 
    <td>✔ </td> 
    <td> </td> 
@@ -196,7 +196,7 @@ A tabela a seguir mostra quais itens do painel esquerdo são exibidos por padrã
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Todos os Planilha de Horas</strong> </td> 
+   <td><strong>Todas as Planilhas de Horas</strong> </td> 
    <td>✔</td> 
    <td>✔ </td> 
    <td> </td> 

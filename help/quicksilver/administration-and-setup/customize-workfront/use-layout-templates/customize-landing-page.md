@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ Para obter informações sobre modelos de layout para grupos, consulte [Criar e 
 
 Após configurar um modelo de layout, você deve atribuí-lo aos usuários para que as alterações feitas fiquem visíveis para outros usuários. Para obter informações sobre como atribuir um modelo de layout aos usuários, consulte [Atribuir usuários a um modelo de layout](../use-layout-templates/assign-users-to-layout-template.md).
 
+>[!NOTE]
+>
+>Quando Solicitações é definida como página inicial, os usuários Colaboradores ou Solicitantes atribuídos ao modelo de layout veem a página inicial como a página inicial. É recomendável escolher uma página de aterrissagem diferente de Solicitações para modelos de layout destinados a usuários Colaboradores ou Solicitantes.
+
 ## Requisitos de acesso
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
@@ -35,7 +39,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront</td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
