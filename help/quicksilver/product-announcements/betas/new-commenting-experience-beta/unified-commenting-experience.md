@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 0%
+source-wordcount: '1092'
+ht-degree: 1%
 
 ---
 
@@ -551,13 +551,13 @@ Esta é uma linha do tempo planejada para o lançamento da nova experiência de 
 
 * Com a segunda versão do trimestre de 2024 (11 de abril de 2024):
 
-  Remova a opção para alternar de volta para o fluxo de comentários herdado e fazer do novo fluxo de comentários a única experiência para todos os objetos, com exceção das Iterações.
+  Remova a opção para alternar de volta para o fluxo de comentários herdado e tornar o novo fluxo de comentários a única experiência para todos os objetos.
 
 ## Localizar a nova experiência de comentários
 
 A nova experiência de comentários está disponível nas seguintes áreas do Workfront:
 
-* Na seção Atualizações de todos os objetos, com exceção das Iterações.
+* Na seção Atualizações de todos os objetos.
 
   Para obter informações sobre como acessar a seção Atualizações de objetos do Workfront, consulte [Visão geral da seção Atualizações](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1360'
 ht-degree: 0%
 
 ---
@@ -157,6 +157,7 @@ O espaço de trabalho que você acessou por último é aberto.
    * Copie um ou vários valores existentes de um campo e cole-os em um campo do mesmo tipo em outro registro
    * Clique no cabeçalho de uma coluna para selecioná-la e copiá-la, em seguida, clique no cabeçalho da coluna de outra coluna e cole o conteúdo da coluna copiada. As colunas devem conter tipos de campo semelhantes.
    * Com a tecla Shift pressionada, clique para selecionar várias linhas em uma tabela, copie as informações nas linhas selecionadas e, em seguida, clique em uma linha diferente e cole as informações selecionadas na nova linha e nas linhas seguintes depois disso.
+   * Copie as informações de uma célula, selecione várias células e cole as mesmas informações em várias células. Você pode selecionar várias células e colar as mesmas informações em várias células de linhas e colunas adjacentes.
 
    >[!NOTE]
    >
@@ -171,7 +172,7 @@ O espaço de trabalho que você acessou por último é aberto.
    >* Não é possível copiar e colar valores de campo para os seguintes tipos de campo:
    >
    >
-   >    * Campos vinculados criados pela conexão de tipos de registro. Você pode copiar e colar campos de registro vinculados. Para obter mais informações, consulte [Conectar tipos de registro](../architecture/connect-record-types.md).
+   >    * Campos vinculados (ou campos de pesquisa) que são criados pela conexão de tipos de registro. Você pode copiar e colar campos de registro vinculados. Para obter mais informações, consulte [Conectar tipos de registro](../architecture/connect-record-types.md).
    >    * Campos dos seguintes tipos: Criado por, Data de criação, Última modificação por, Data da última modificação
 
 1. (Opcional) Use os seguintes atalhos de teclado para desfazer ou refazer a edição ou a cópia e a colagem das informações do registro:

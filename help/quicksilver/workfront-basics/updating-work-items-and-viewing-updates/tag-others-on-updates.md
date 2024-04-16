@@ -6,9 +6,9 @@ description: Ao fornecer comentários de atualização em um objeto do Adobe Wor
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -88,13 +88,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 Você pode marcar outras pessoas em atualizações das seguintes maneiras:
 
 * **Automaticamente**: quando um usuário inicia um thread, adiciona um comentário ou adiciona uma resposta, ele é automaticamente marcado e adicionado à área Marcar pessoas ou equipes da caixa de comentários.
-
-  >[!TIP]
-  >
-  >   Não é possível marcar usuários automaticamente ao adicionar um comentário em uma iteração.  Para obter informações, consulte [Gerenciar comentários de iteração](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). \
-  >Não é possível marcar usuários automaticamente quando você adiciona um comentário de outros aplicativos.
-
-
 * **Manualmente**: ao adicionar manualmente um usuário à área Marcar pessoas da caixa de comentários.
 
 Também é possível remover usuários que foram marcados por engano ao editar ou responder a um comentário.
