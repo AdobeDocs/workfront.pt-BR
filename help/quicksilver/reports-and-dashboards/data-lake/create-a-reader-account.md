@@ -6,12 +6,11 @@ title: Criar uma conta de leitor (serviço) para o Snowflake
 description: Para acessar os dados no Workfront Data Lake, primeiro você deve criar uma conta de leitor para o Snowflake.
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7d24659833f0ac0ceeecb245358f2ade8bd08a17
+exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
+source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -30,7 +29,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront</td> 
-   <td>Ultimate</td> 
+   <td>A ser definido</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
@@ -67,7 +66,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    ![Redefinir senha Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
-1. Agora é possível usar seu nome de usuário e nova senha para acessar o data lake da Workfront no Snowflake.
+1. Agora você pode usar seu nome de usuário e nova senha para acessar o data lake da Workfront no Snowflake ou a ferramenta de visualização de negócios de sua escolha.
 
 ## Adicionar IPs ao incluo na lista de permissões
 
@@ -77,9 +76,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Clique no link **IPs permitidos** e, em seguida, clique na guia **Adicionar um endereço IP ao seu Incluo na lista de permissões** botão.
 
-   ![Adicionar endereço IP](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
-
 1. Insira um nome para o endereço IP em **Descrição do endereço IP** e insira o endereço IP da ferramenta que deseja usar no **Endereço IP** e, em seguida, clique em **Adicionar IP ao Incluo na lista de permissões**.
+
+   ![Adicionar endereço IP](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
 ## Revogue uma conta de leitor ou remova um endereço IP da inclui na lista de permissões
 

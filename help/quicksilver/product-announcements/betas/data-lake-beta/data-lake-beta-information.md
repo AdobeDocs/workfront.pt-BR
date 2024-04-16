@@ -4,10 +4,9 @@ title: Informações beta do data lake da Workfront
 description: Informações gerais sobre o data lake beta da Workfront
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: a1eb393a929ff7246056bb53b3e28b9da240c252
+exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
+source-git-commit: 6a7af60a5f66b37abcaeb594290503febc179d25
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 12%
@@ -104,4 +103,3 @@ Abaixo estão listas de objetos atualmente compatíveis com o beta, objetos para
 
 * Limitar objetos disponíveis durante a configuração da conta do leitor.
 * Associe uma conta de leitor a um grupo ou grupos específicos no Workfront para limitar a visibilidade de registros a apenas membros do grupo.
-
