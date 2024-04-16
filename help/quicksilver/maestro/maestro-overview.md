@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 2%
@@ -237,6 +237,8 @@ Para obter mais informações, consulte [Gerenciar exibições de registro](../m
 
 A tabela a seguir mostra os limites para quantos objetos você pode criar no Workfront Planning. As limitações estão sujeitas a mudanças conforme avançamos para as próximas fases do desenvolvimento.
 
+<!--consider making the table view a stand-alone article when we go to GA-->
+
 | objeto do Adobe Workfront Planning | Limite |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Número de espaços de trabalho para uma instância do Workfront | 1.000 |
@@ -249,6 +251,8 @@ A tabela a seguir mostra os limites para quantos objetos você pode criar no Wor
 | Tamanho do arquivo que você pode importar por meio da API para uma tabela de tipo de registro | 1,5 MB |
 | A velocidade com a qual as solicitações de API podem ser feitas | 200 solicitações por minuto |
 | Tamanho do CSV do arquivo do Excel que você pode importar* | 5 MB |
+
+<!--add to the table above: Maximum number of views created by one use 100 -->
 
 >[!IMPORTANT]
 >
