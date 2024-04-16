@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: fcd3e565c10a952bd78b4f628b071c6718c92747
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,14 @@ ht-degree: 0%
 Esta página descreve todos os aprimoramentos de Atualização de fluxo e notificação feitos com a versão do Segundo trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do segundo trimestre de 2024, consulte [Visão geral da versão do segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Novas experiências de comentário adicionadas às iterações
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 11 de abril de 2024; Produção para todos os clientes: com a versão 24.4 (11 de abril de 2024)
+
+Para fornecer uma experiência consistente em todo o aplicativo, adicionamos a nova experiência de comentários às iterações. Para obter informações, consulte a [Visão geral da seção de atualização](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## O acesso à área de comentários herdada foi removido
 
