@@ -7,9 +7,9 @@ description: A seção Atualizações de um objeto exibe comentários que os usu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '995'
 ht-degree: 5%
 
 ---
@@ -129,6 +129,11 @@ Depending on what objects you access the commenting experience for, you might fi
    * **Comentários**: exibe comentários feitos por usuários e responde a esses comentários. Use a guia Comentários para adicionar novos comentários ou responder aos existentes. Para obter informações sobre a atualização de objetos, consulte [Atualizar trabalho](../updating-work-items-and-viewing-updates/update-work.md).
    * **Atividade do sistema**: exibe as atualizações do sistema que são mensagens informativas criadas pelo Workfront para registrar determinados eventos em um objeto. Por exemplo, alterações em status, nome ou campos personalizados são capturadas com atualizações do sistema. O administrador do Workfront ou de grupo pode habilitar atualizações de sistema para seus objetos. Todas as respostas feitas aos registros de atividade do sistema na experiência de comentários herdada são preenchidas na guia Atividade do sistema como somente leitura. Para obter mais informações, consulte [Configurar atualizações do sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
    * **Todos (somente leitura)**: exibe comentários do usuário e comentários de atividades do sistema em um local. Esta é uma guia somente para visualização. Não é possível responder a comentários ou marcar outros usuários em comentários existentes na guia Todos. Para responder a um comentário específico, use o link da guia All para a guia Comments. Para obter informações sobre a atualização de objetos, consulte [Atualizar trabalho](../updating-work-items-and-viewing-updates/update-work.md).
+
+     >[!NOTE]
+     >
+     >As guias Comentários e Atividade do sistema são atualizadas em tempo real. Atualize a guia Todos para exibir as atualizações mais recentes.
+
 
 * Os seguintes objetos têm experiências semelhantes nas três guias na seção Atualizações:
 

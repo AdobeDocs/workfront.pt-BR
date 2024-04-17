@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 * Não é possível alterar o tipo de campo de um campo Fórmula depois de salvá-lo.
 * É possível atualizar o cálculo de um campo de fórmula depois de salvá-lo, e os resultados do cálculo são atualizados automaticamente para todos os registros do mesmo tipo.
 * É necessário adicionar os campos que você menciona nas fórmulas à medida que são exibidos na interface do Workfront Planning.
-* O uso de campos de pesquisa de tipos de registro vinculados em uma fórmula estará disponível em uma data posterior.
 
 ## Fórmulas compatíveis
 

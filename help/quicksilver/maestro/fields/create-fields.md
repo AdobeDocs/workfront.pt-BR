@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
-source-wordcount: '3308'
+source-wordcount: '3277'
 ht-degree: 2%
 
 ---
@@ -377,9 +377,8 @@ Para obter mais informações, consulte [Visão geral dos campos de fórmula](/h
 
    >[!NOTE]
    >
-   > * Não é possível adicionar campos do tipo Seleção múltipla em uma fórmula.
-   >
-   > * Não é possível adicionar campos de registros vinculados em uma fórmula. Essa funcionalidade será lançada posteriormente. Para obter mais informações sobre novos lançamentos, consulte [Atividade de versão do Adobe Workfront Planning](/help/quicksilver/maestro/release-activity.md).
+   > Não é possível adicionar campos do tipo Seleção múltipla em uma fórmula.
+
 
 
 1. Clique em **Criar**.

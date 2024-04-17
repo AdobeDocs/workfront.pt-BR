@@ -6,7 +6,7 @@ description: Você pode criar filtros complexos do Modo de texto usando instruç
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 09492b2657aaf599bb31a19329d5de23791b66ec
+source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
 source-wordcount: '2649'
 ht-degree: 0%
@@ -163,7 +163,7 @@ Para criar um filtro que abrange vários níveis na hierarquia de objetos:
 
    Para obter um exemplo usando os campos identificados acima, consulte [Exemplo 1: filtrar problemas por Nome do proprietário do Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name) neste artigo.
 
-1. Clique em **Salvar Filtro**.
+1. Clique em **Salvar filtro**.
 
 ## Criar filtros de modo de texto complexo para objetos ausentes
 
@@ -209,7 +209,7 @@ Para criar um filtro que faça referência a objetos ausentes:
 
    Para obter um exemplo de relatórios sobre Campos personalizados não associados ao Forms personalizado, consulte [Exemplo 2: filtro para objetos ausentes: campos personalizados que não aparecem em nenhum formulário personalizado](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) neste artigo.
 
-1. Clique em **Salvar Filtro**.
+1. Clique em **Salvar filtro**.
 
 ## Exemplos de filtros do modo de texto que abrangem vários níveis na hierarquia do objeto
 
@@ -229,7 +229,9 @@ Para filtrar problemas pelo Nome do Proprietário do Portfolio:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
+   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>`
+
+   `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
 1. Cole o código a seguir no **Definir regras de filtro para seu relatório** para substituir o código genérico acima:
 
@@ -249,7 +251,7 @@ Para filtrar problemas pelo Nome do Proprietário do Portfolio:
    >* O Campo de vinculação exibido no Objeto original é projectID e o Campo de vinculação é ID.
 
 1. Substitua o valor do Campo de público alvo (ownerID) na última instrução por uma ID de usuário do seu ambiente.
-1. Clique em **Salvar Filtro**.
+1. Clique em **Salvar filtro**.
 
 ### Exemplo 2: filtro para objetos ausentes: campos personalizados que não aparecem em nenhum formulário personalizado {#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms}
 
@@ -288,7 +290,7 @@ Para filtrar Campos Personalizados que não estão associados a um Formulário P
    >* O Campo de Vinculação ao Objeto de Destino é parameterID, pois parameterID existe na Tabela de Objetos de Vinculação e na Tabela de Objetos de Destino.
    >* O Campo de vinculação exibido no Objeto original é a ID (do Parâmetro da categoria).
 
-1. Clique em **Salvar Filtro**.
+1. Clique em **Salvar filtro**.
 
 ### Exemplo 3: filtro para objetos ausentes: usuários que não registraram tempo por um determinado período {#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time}
 
@@ -321,7 +323,7 @@ Para filtrar usuários que não registraram horas durante a semana passada:
    >* O EXISTE:A:A instrução entryDate se refere aos campos que definem o Objeto do Target (Hora) e usa a mesma sintaxe que em uma instrução de filtro regular. Isso garante que você exiba apenas os usuários que não registraram horas por um período específico, neste caso, a semana anterior.
    >* O modificador NOTEXISTS indica que estamos procurando itens (Horas) que não existem para o objeto do relatório (Usuários).
 
-1. Clique em **Salvar Filtro**.
+1. Clique em **Salvar filtro**.
 
 ### Exemplo 4: filtrar por vários campos: tarefas por Nome do proprietário do Portfolio e ID do Scorecard do alinhamento de Portfolio {#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id}
 
@@ -360,4 +362,4 @@ Para filtrar tarefas pelo Nome do Proprietário do Portfolio e ID do Scorecard d
    >* O Campo de vinculação exibido no Objeto original é projectID.
    >* Substitua a ID do proprietário por uma ID de usuário do seu ambiente.
 
-1. Clique em **Salvar Filtro**.
+1. Clique em **Salvar filtro**.
