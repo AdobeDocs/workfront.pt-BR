@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
+source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
 workflow-type: tm+mt
 source-wordcount: '1345'
 ht-degree: 1%
@@ -172,3 +172,4 @@ Se você for um administrador de grupo (ou um administrador do Workfront), poder
    O status fica esmaecido e não fica mais visível para todos os usuários nesse grupo.
 
 1. Repita as etapas de 3 a 5 para ocultar o status personalizado de qualquer outro grupo que não precise dele.
+
