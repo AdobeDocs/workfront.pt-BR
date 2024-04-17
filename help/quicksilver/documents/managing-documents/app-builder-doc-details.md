@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: dcc9eb57eedd0517d484ece1445917f7c275a0b4
+source-git-commit: 0d9212f0719535f191e61d27a73b8f5b2ef5fb30
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 0%
@@ -348,7 +348,9 @@ Depois de aprovadas, as extensões de aplicativos publicadas devem ser carregada
 
 ## Ajuda adicional
 
-O Adobe tem excelente documentação sobre como começar a criar aplicativos para o AppBuilder e implantá-los. Estes são alguns links úteis:
+O Adobe tem excelente documentação sobre como começar a criar aplicativos para o AppBuilder e implantá-los.
+
+Estes são alguns links úteis:
 
 * [https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli)
 
