@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: d0bbb51b3f12c7f134e045d9b62814c0ed0ffb73
 workflow-type: tm+mt
-source-wordcount: '6018'
+source-wordcount: '6042'
 ht-degree: 4%
 
 ---
@@ -529,9 +529,9 @@ Para obter exemplos de como usar o campo Pesquisa externa para chamar a mesma in
 
 >[!NOTE]
 >
->A funcionalidade de pesquisa externa não está disponível em objetos Documento ou Usuário.
->
->No momento, os campos de pesquisa externa de formulários personalizados não são compatíveis com painéis. Não é possível editar o valor do campo em linha e ele pode não ser exibido corretamente em um painel.
+>* A funcionalidade de pesquisa externa não está disponível em objetos Documento ou Usuário.
+>* No momento, os campos de pesquisa externa de formulários personalizados não são compatíveis com painéis. Não é possível editar o valor do campo em linha e ele pode não ser exibido corretamente em um painel. (Campos de pesquisa externa são aceitos nos Painéis do Canvas.)
+>* Os campos de pesquisa externos estão disponíveis em listas, a menos que o campo tenha uma dependência em outro campo.
 
 Para adicionar uma pesquisa externa:
 
