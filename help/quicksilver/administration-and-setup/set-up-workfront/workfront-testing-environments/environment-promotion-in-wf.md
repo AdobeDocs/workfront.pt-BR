@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 7f6f569f5380f51494e5051443570b186b443948
+source-git-commit: 0f760710ec7ec2029c37377fc9e732870d2ca575
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '942'
 ht-degree: 1%
 
 ---
@@ -122,6 +122,10 @@ Esses status incluem o seguinte:
  <col> 
  <col> 
  <tbody> 
+  <tr> 
+   <td>NÃO MONTADO</td> 
+   <td><p>Esse status é atribuído automaticamente e representa um pacote que foi salvo, mas ainda não montado. </p><p>Este status não pode ser definido diretamente por um cliente.</p></td> 
+  </tr> 
   <tr> 
    <td>MONTAGEM</td> 
    <td><p>Esse status é atribuído automaticamente enquanto os objetos estão sendo montados. </p><p>Montagem refere-se ao processo automatizado de identificação de objetos e subobjetos a serem incluídos em um pacote e adição desses objetos e seus dados ao pacote.</p><p>Este status não pode ser definido diretamente por um cliente.</p></td> 
