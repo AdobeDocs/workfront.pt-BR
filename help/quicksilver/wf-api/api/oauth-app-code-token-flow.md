@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: 293b7354e4549e51d78ad1aa75927a21d9044c43
+source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ Para integrar ao Workfront e permitir que seu aplicativo cliente se comunique co
 ## Criar um aplicativo OAuth2
 
 Para obter instruções sobre como criar o aplicativo OAuth2, consulte [Criar um aplicativo OAuth2 usando credenciais do usuário (Fluxo de código de autorização)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) in [Criar aplicativos OAuth2 para integrações do Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+
+>[!NOTE]
+>
+>Você pode ter até dez aplicativos OAuth2 ao mesmo tempo.
 
 ## Link para a página Autorizar para seus usuários
 

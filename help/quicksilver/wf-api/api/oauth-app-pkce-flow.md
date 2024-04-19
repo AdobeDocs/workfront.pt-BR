@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,10 @@ Um fluxo PKCE tem as etapas a seguir. As etapas desta seção são apresentadas 
 Antes de implementar a autorização, é necessário registrar seu aplicativo no OAuth2 criando uma integração de aplicativo do Workfront.
 
 Para obter instruções sobre como criar o aplicativo OAuth2, consulte [Criar um aplicativo web de página única OAuth2 usando PKCE](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [Criar aplicativos OAuth2 para integrações do Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+
+>[!NOTE]
+>
+>Você pode ter até dez aplicativos OAuth2 ao mesmo tempo.
 
 
 ## Criar a chave da prova para troca de código
