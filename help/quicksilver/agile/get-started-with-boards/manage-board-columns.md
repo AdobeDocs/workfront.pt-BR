@@ -6,9 +6,9 @@ description: Um novo quadro contém três colunas por padrão. Você pode adicio
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: ade2551a82f28a41816dbf956f3a216cca07034e
+source-git-commit: 99eaafe4b2143f0e29bf677904c1caa8a19d5192
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -102,6 +102,15 @@ Se você estiver usando o limite de WIP em uma coluna, não será adicionado um 
 1. Clique em **[!UICONTROL Ocultar configuração]** para fechar o [!UICONTROL Configurar] painel.
 
 ## Definir configurações e políticas de coluna
+
+As políticas de coluna incluem a atualização automática dos valores de campo e a configuração de um limite de trabalho em andamento.
+
+A política de atualização do status funciona automaticamente para o cartão e a coluna:
+
+* Quando um cartão é movido para uma coluna com uma política, o status do cartão é atualizado para o status definido na política. Isso se aplica a placas ad hoc e conectadas.
+* Quando um status ad hoc ou cartão conectado é atualizado no cartão para corresponder ao status da coluna na política ou um status de cartão conectado é atualizado em outro lugar no Workfront, o cartão é movido automaticamente para essa coluna. Além disso, se um status personalizado em um cartão corresponder ao status do sistema atribuído à coluna, o cartão é movido para essa coluna.
+
+Um cartão permanecerá em uma coluna em que é colocado se o status do cartão não corresponder a nenhum status definido em nenhuma política de coluna existente.
 
 >[!NOTE]
 >
