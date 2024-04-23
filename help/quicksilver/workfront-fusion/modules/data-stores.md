@@ -8,9 +8,9 @@ description: Um armazenamento de dados, semelhante a um banco de dados ou a uma 
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 85e5483b7ee1433d0b1efbaa37c6d55c7c1d5bf7
+source-git-commit: 6c449b004e61048d5391a39e5adc38b05f4a3033
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1312'
 ht-degree: 1%
 
 ---
@@ -44,35 +44,56 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
-   <td> <p>[!DNL Pro] ou superior</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
-   <td> <p>[!UICONTROL Plano], [!UICONTROL Trabalho]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td> <p>Novo: [!UICONTROL Padrão]</p><p>Ou</p><p>Atual: [!UICONTROL Trabalho] ou superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença [!UICONTROL Adobe Workfront Fusion]**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
    <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   <p>Herdados: Qualquer um </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Novo:</p> <ul><li>[!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] Plano: sua organização deve comprar [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plano: [!DNL Workfront Fusion] está incluído.</li></ul>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Atual: sua organização deve comprar [!DNL Adobe Workfront Fusion].</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Espaço de dados disponível
+
+Se sua organização estiver no novo modelo de plano do Workfront (pacotes Select, Prime e Ultimate), o plano de sua organização afetará o tamanho e o número de armazenamentos de dados disponíveis na instância do Fusion.
+
+### Plano Ultimate
+
+As instâncias do Fusion no pacote Ultimate recebem:
+
+* 500 MB de espaço
+* 50 armazenamentos de dados
+
+### Planos Select e Prime
+
+As instâncias do Fusion nos pacotes Select ou Prime recebem:
+
+* 100 MB para as primeiras operações de 500K.
+
+* 10 MB para cada operação adicional de 100K.
+
+Por exemplo, uma organização com operações de 600 K recebe 110 MB.
 
 ## Criar um armazenamento de dados no [!DNL Workfront Fusion]
 
