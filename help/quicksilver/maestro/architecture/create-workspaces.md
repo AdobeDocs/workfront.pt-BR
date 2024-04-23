@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -107,15 +107,19 @@ Para obter mais informações sobre requisitos de acesso, consulte [Requisitos d
 
 ## Criar um espaço de trabalho
 
+Você pode criar um espaço de trabalho e adicionar tipos de registro a ele para organizar seus objetos no Workfront Planning. Para obter mais informações sobre a edição de um espaço de trabalho, consulte [Editar espaços de trabalho](/help/quicksilver/maestro/architecture/edit-workspaces.md).
+
 {{step1-to-maestro}}
+
+Isso abre a área Espaços de trabalho do Workfront Planning.
 
 1. (Condicional) Se você não tiver espaços de trabalho no seu ambiente, clique em **Criar espaço de trabalho**
 
-   Ou, em um espaço de trabalho existente, clique no ponto para baixo à direita do nome do espaço de trabalho e clique em **Criar espaço de trabalho**.
+   Ou, em um espaço de trabalho existente, clique na seta para baixo à direita do nome do espaço de trabalho e clique em **Criar espaço de trabalho**.
 
    ![](assets/workspace-drop-down-right-menu.png)
 
-   Isso abre a área Espaços de trabalho do Workfront Planning.
+
 1. (Opcional e condicional) Clique em **Visualizar** em qualquer um dos modelos de espaço de trabalho predefinidos a seguir:
 
    * Gerenciamento de marketing
@@ -136,14 +140,10 @@ Para obter mais informações sobre requisitos de acesso, consulte [Requisitos d
 
    Um para os seguintes tipos de espaços de trabalho é criado:
 
-   * Um espaço de trabalho vazio em que você pode começar a adicionar tipos de registro manualmente ao criar um espaço de trabalho do zero.
-   * Um espaço de trabalho preenchido com tipos de registro de amostra que você pode personalizar ainda mais, ao usar um dos modelos.
+   * Um espaço de trabalho vazio chamado **Espaço de trabalho sem título** onde você pode começar a adicionar tipos de registro manualmente ao criar um espaço de trabalho do zero.
+   * Um espaço de trabalho nomeado com base no modelo selecionado que é preenchido com tipos de registro de amostra. É possível personalizar ainda mais os tipos de registro e o espaço de trabalho.
 
-1. Clique dentro do nome do espaço de trabalho no cabeçalho do novo espaço de trabalho para renomeá-lo e pressione Enter
-
-   Ou
-
-   Clique em **Mais** menu ![](assets/more-menu.png)à direita do nome do espaço de trabalho no cabeçalho e clique em **Renomear**.
+1. Clique dentro do nome do espaço de trabalho no cabeçalho do novo espaço de trabalho para renomeá-lo e pressione Enter.
 
 1. (Opcional e condicional) Se você criou o espaço de trabalho a partir de um modelo, clique dentro do nome do **Tipos de Registro Operacional** ou **Taxonomias** seções
 
@@ -153,25 +153,14 @@ Para obter mais informações sobre requisitos de acesso, consulte [Requisitos d
 
    >[!TIP]
    >
-   >É possível renomear qualquer seção de qualquer espaço de trabalho, mesmo que a tenha criado.
+   >É possível renomear qualquer seção de qualquer espaço de trabalho, mesmo que você não tenha criado a seção.
 
-1. (Opcional) Para alterar o local de uma seção, siga um destes procedimentos:
-
-   * Passe o mouse sobre o nome de uma seção e clique no **agarrar** ícone ![](assets/grab-icon.png), em seguida, arraste e solte-o no ponto correto.
-   * Passe o mouse sobre o nome de uma seção e clique no **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Mover para cima** ou **Mover para baixo**. A seção se move para cima ou para baixo dentro do espaço de trabalho.
-
-1. (Opcional) Para adicionar uma nova seção, siga um destes procedimentos:
-
-   * Clique em **Adicionar seção** na parte inferior do espaço de trabalho.
-   * Passe o mouse sobre o nome de uma seção e clique no **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Adicionar seção acima** ou **Adicionar seção abaixo**.
+   Para obter mais informações sobre a edição de espaços de trabalho, incluindo a edição de seções do espaço de trabalho, consulte [Editar espaços de trabalho](/help/quicksilver/maestro/architecture/edit-workspaces.md).
 
 1. (Opcional) Clique em **Adicionar tipo de registro** para adicionar tipos de registro ao espaço de trabalho em qualquer seção.
 
    Para obter informações, consulte [Criar tipos de registro](../architecture/create-record-types.md).
 
-1. (Opcional) Para excluir uma seção, faça o seguinte:
+   Para obter mais informações sobre edição e exclusão de tipos de registro em um espaço de trabalho, consulte [Editar espaços de trabalho](/help/quicksilver/maestro/architecture/edit-workspaces.md).
 
-   1. Passe o mouse sobre o nome de uma seção, em seguida, clique no **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Excluir**. <!--add screen shot when UI is final?-->
-   1. Selecione uma nova seção para mover todos os tipos de registro para ela e clique em **Excluir**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
-      Todos os tipos de registro são movidos para a seção de seleção, e a seção é excluída.

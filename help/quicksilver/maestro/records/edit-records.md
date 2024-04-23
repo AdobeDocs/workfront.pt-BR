@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1495'
 ht-degree: 0%
 
 ---
@@ -103,6 +103,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 * Se os registros exibidos estiverem vinculados a outros registros, as novas informações dos registros que você está editando serão refletidas nos registros vinculados.
 * Não é possível editar registros em massa. <!--this will probably change-->
 * Os URLs são reconhecidos como links em tipos de campo de texto de linha única somente quando começam com o seguinte: http://, https://, ftp:// ou www. .
+* Você pode adicionar uma imagem de capa a cada registro. A imagem é exclusiva para cada registro e não se aplica a todos os registros do mesmo tempo.
 * É possível editar a ordem dos campos em uma página de registro e adicionar uma imagem de capa para um registro. Para obter mais informações, consulte [Gerenciar a página de registros](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## Editar registros
@@ -130,7 +131,7 @@ O espaço de trabalho que você acessou por último é aberto.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 
-   >[!NOTE]
+   >[!TIP]
    >
    >  Não é possível editar as informações dos seguintes campos, pois eles são somente leitura e o Workfront os atualiza automaticamente:
    >  
@@ -209,7 +210,18 @@ O espaço de trabalho que você acessa por último é aberto.
    >
    >É possível exibir a **Abrir detalhes** Ícone à esquerda do campo Nome de um registro em uma exibição de tabela somente quando o campo Nome é um campo primário.
 
-1. Comece a editar as informações do campo na caixa do registro. O Workfront salva suas alterações automaticamente.
+1. Comece a editar as informações do campo na caixa do registro.
+
+   >[!TIP]
+   >
+   >  Não é possível editar as informações dos seguintes campos, pois eles são somente leitura e o Workfront os atualiza automaticamente:
+   >  
+   >  * Campos vinculados criados pela conexão de tipos de registro. Para obter mais informações, consulte [Conectar tipos de registro](../architecture/connect-record-types.md).
+   >  * Campos dos seguintes tipos: Criado por, Data de criação, Última modificação por, Data da última modificação, Campos de fórmula.
+
+1. (Opcional) Clique em **Adicionar capa** para adicionar uma imagem da capa ao registro. Para obter mais informações, consulte [Adicionar uma imagem da capa a um registro](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
+
+   O Workfront salva suas alterações automaticamente.
 
 1. (Opcional) Clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> no canto superior direito da caixa do registro para abrir a página do registro em uma nova guia. Continue editando o registro conforme descrito em [Editar um registro da página do registro](#edit-a-record-from-the-records-page) neste artigo.
 
@@ -227,7 +239,7 @@ O espaço de trabalho que você acessa por último é aberto.
 
 1. Siga um destes procedimentos:
 
-   * Em qualquer exibição, acesse a caixa do registro, conforme descrito na seção [Editar um registro da caixa do registro em uma exibição](#edit-a-record-from-the-records-box-in-a-view) neste artigo. Em seguida, clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> no canto superior direito da caixa de registro para abrir a página do registro em uma nova guia.
+   * Em qualquer exibição, acesse a caixa do registro, conforme descrito na seção [Editar um registro da caixa do registro em uma exibição](#edit-a-record-from-the-records-box-in-a-view) neste artigo, em seguida, clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> no canto superior direito da caixa de registro para abrir a página do registro em uma nova guia.
 
    * No **Tabela** exibir, passe o mouse sobre o nome de um registro, em seguida, clique no **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Exibir**
 
@@ -237,12 +249,16 @@ O espaço de trabalho que você acessa por último é aberto.
 
      ![](assets/details-page.png)
 
-1. Clique em **Mais** menu ![](assets/more-menu.png) à direita do nome do registro, clique em **Editar**
+1. Clique em qualquer campo editável na página de registro para editá-lo.
 
-   Ou
+   >[!TIP]
+   >
+   >  Não é possível editar as informações dos seguintes campos, pois eles são somente leitura e o Workfront os atualiza automaticamente:
+   >  
+   >  * Campos vinculados criados pela conexão de tipos de registro. Para obter mais informações, consulte [Conectar tipos de registro](../architecture/connect-record-types.md).
+   >  * Campos dos seguintes tipos: Criado por, Data de criação, Última modificação por, Data da última modificação, Campos de fórmula.
 
-   Clique dentro de qualquer campo editável na página de registro para editar as informações.
+1. (Opcional) Clique em **Adicionar capa** para adicionar uma imagem da capa ao registro. Para obter mais informações, consulte [Adicionar uma imagem da capa a um registro](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+   O Workfront salva suas alterações automaticamente.
 
-1. Clique em **Salvar alterações**.

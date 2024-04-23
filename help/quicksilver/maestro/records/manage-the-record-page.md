@@ -4,9 +4,10 @@ description: É possível editar e gerenciar o layout da caixa de registro e da 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7d3778d52f9a3afa12a7bdf348f7400693f8f7ab
+exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -93,7 +94,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 ## Considerações sobre a edição de páginas de registro
 
 * A reorganização de campos na caixa de registro ou página reorganiza os campos para todos os registros desse tipo e para todos os usuários que acessam esses registros.
-* A adição de uma imagem de capa a um registro não faz parte do layout geral da caixa ou página do registro. Você pode adicionar imagens de capa exclusivas a cada registro.
+* A adição de uma imagem de capa a um registro não faz parte do layout geral da caixa ou página do registro. Você pode adicionar imagens de capa exclusivas a cada registro. Para obter informações, consulte [Adicionar uma imagem da capa a um registro](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
 
 ## Reorganizar campos na caixa ou página de registro
 
@@ -131,56 +132,4 @@ O espaço de trabalho que você acessa por último é aberto.
    A nova posição do campo é atualizada na caixa e na página de todos os registros do mesmo tipo para todos os usuários que visualizam os registros.
 
    Todas as alterações no layout da caixa de registro ou página são salvas automaticamente.
-
-
-## Adicionar uma imagem de capa à caixa ou página de registro
-
-É possível personalizar um registro adicionando uma imagem de capa na parte superior da caixa ou página do registro.
-
-{{step1-to-maestro}}
-
-O espaço de trabalho que você acessa por último é aberto.
-
-1. (Opcional) Clique na seta para baixo à direita do nome do espaço de trabalho para selecionar o espaço de trabalho cujos registros você deseja atualizar.
-
-1. Clique em um cartão de tipo de registro.
-
-   A página de tipo de registro é aberta.
-
-1. Em uma exibição de qualquer tipo, clique no nome de um registro
-
-   Ou
-
-   Na exibição de tabela, clique na guia **Abrir detalhes** ícone ![](assets/open-details-icon-in-table-name-field.png) à esquerda do nome de um registro.
-
-   A caixa do registro é aberta na exibição.
-
-   ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >É possível exibir a **Abrir detalhes** Ícone à esquerda do campo Nome de um registro em uma exibição de tabela somente quando o campo Nome é um campo primário.
-
-1. (Opcional) Clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> no canto superior direito da caixa de registro para abrir a página do registro em uma nova guia.
-
-   A página de registro é aberta.
-
-   ![](assets/details-page.png)
-
-1. Na caixa ou página do registro, clique em **Adicionar capa**. <!--check the casing here; I logged a bug for this-->
-A variável **Gravar capa** é aberta.
-
-1. Clique em **Selecione para fazer upload** e procure uma imagem em seu computador para selecionar, adicioná-la e, em seguida, clique em **Usar imagem**.
-
-   A imagem é carregada na parte superior da caixa ou página de registro e as alterações são salvas automaticamente.
-
-   ![](assets/record-page-with-cover-image.png)
-
-1. (Opcional) Passe o mouse sobre a imagem e clique no link **Mais** menu ![](assets/more-menu.png) no canto inferior direito da imagem da capa, siga um destes procedimentos:
-
-   * Clique em **Carregar** se quiser substituir a imagem da capa e repita o Passo 6 para carregar e salvar uma nova imagem.
-   * Clique em **Reposicionar** e use o **Reposicionar** ferramenta ![](assets/reposition-tool-icon.png) para centralizar a imagem da capa, clique em **Salvar** quando terminar.
-   * Clique em **Remover** para remover a imagem da tampa.
-
-   Todas as alterações têm efeito imediatamente.
 

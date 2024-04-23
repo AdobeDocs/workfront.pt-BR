@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ No Adobe Workfront Planning, os espaços de trabalho são locais centralizados p
 Um espaço de trabalho é uma coleção de tipos de registro usados por uma equipe e representa o ciclo de vida do trabalho da equipe. Você pode personalizar totalmente os espaços de trabalho no Adobe Workfront Planning.
 
 Para obter informações sobre como criar espaços de trabalho, consulte [Criar espaços de trabalho](/help/quicksilver/maestro/architecture/create-workspaces.md).
+
+Todas as alterações feitas em um espaço de trabalho ficam visíveis para todos aqueles que têm pelo menos permissões de Exibição para o espaço de trabalho.
 
 ## Requisitos de acesso
 
@@ -90,20 +92,52 @@ Para obter mais informações sobre requisitos de acesso, consulte [Requisitos d
 
 Isso abre a área Espaços de trabalho do Workfront Planning.
 
-1. Clique dentro do nome do espaço de trabalho no cabeçalho do novo espaço de trabalho para renomeá-lo e pressione **Enter**
+1. Clique dentro do nome do espaço de trabalho no cabeçalho do novo espaço de trabalho para renomeá-lo e pressione **Enter**.
+1. Clique em **Mais** menu ![](assets/more-menu.png)à direita do nome do espaço de trabalho no cabeçalho e clique em **Editar**.
 
-   Ou
+   ![](assets/edit-workspace-box.png)
 
-   Clique em **Mais** menu ![](assets/more-menu.png)à direita do nome do espaço de trabalho no cabeçalho e clique em **Renomear**.
+   Atualize as seguintes informações no **Editar espaço de trabalho** caixa:
+
+   * Adicione um nome ao espaço de trabalho. <!--did they add a label for this field?-->
+   * **Descrição**: adicione informações sobre o espaço de trabalho.
+   * Selecione um ícone para associar ao espaço de trabalho.
+
+1. Clique em **Salvar** para fechar a caixa Editar espaço de trabalho e aplicar as alterações.
+
+1. (Opcional) Para adicionar uma nova seção do espaço de trabalho, siga um destes procedimentos:
+
+   * Clique em **Adicionar seção** na parte inferior do espaço de trabalho.
+   * Passe o mouse sobre o nome de uma seção e clique no **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Adicionar seção acima** ou **Adicionar seção abaixo**.
+
+1. (Opcional) Para alterar o local de uma seção, siga um destes procedimentos:
+
+   * Passe o mouse sobre o nome de uma seção e clique no **agarrar** ícone ![](assets/grab-icon.png), em seguida, arraste e solte-o no ponto correto.
+   * Passe o mouse sobre o nome de uma seção e clique no **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Mover para cima** ou **Mover para baixo**. A seção se move para cima ou para baixo dentro do espaço de trabalho.
+
+1. (Opcional) Para excluir uma seção do espaço de trabalho, faça o seguinte:
+
+   1. Passe o mouse sobre o nome de uma seção, em seguida, clique no **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Excluir**. <!--add screen shot when UI is final?-->
+   1. Selecione uma nova seção para mover todos os tipos de registro para ela e clique em **Excluir**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
+
+      Todos os tipos de registro são movidos para a seção de seleção, e a seção é excluída.
 
 1. (Opcional) Clique em **Adicionar tipo de registro** para adicionar tipos de registro ao espaço de trabalho.
 
    Para obter informações, consulte [Criar tipos de registro](../architecture/create-record-types.md).
 
+1. (Opcional) Passe o mouse sobre um cartão de tipo de registro, clique no **Mais** menu ![](assets/more-menu.png) no canto superior direito e clique em **Editar** para modificar a aparência de um tipo de registro.
+
+   Para obter informações, consulte [Editar tipos de registro](/help/quicksilver/maestro/architecture/edit-record-types.md).
+
+1. (Opcional) Passe o mouse sobre um cartão de tipo de registro, clique no **Mais** menu ![](assets/more-menu.png) no canto superior direito e clique em **Excluir** para excluir um tipo de registro.
+
+   Para obter informações, consulte [Excluir tipos de registro](/help/quicksilver/maestro/architecture/delete-record-types.md).
+
 1. (Opcional) Clique no nome de uma exibição nas guias de exibição para editar uma exibição existente ou clique em **+ Exibir** para criar uma visualização.
 
    Para obter informações, consulte [Gerenciar exibições de registro](/help/quicksilver/maestro/views/manage-record-views.md).
 
-1. (Opcional) Clique em **Compartilhar** para compartilhar o espaço de trabalho com outras pessoas.
+1. (Opcional) Clique em **Compartilhar** no canto superior direito do espaço de trabalho para compartilhá-lo com outras pessoas.
 
    Para obter informações, consulte [Compartilhar espaços de trabalho](/help/quicksilver/maestro/access/share-workspaces.md).

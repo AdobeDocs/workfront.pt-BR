@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 0%
+source-wordcount: '1296'
+ht-degree: 1%
 
 ---
 
@@ -147,15 +147,17 @@ O espaço de trabalho acessado por último deve ser aberto por padrão.
 
 1. Atualize as seguintes informações:
 
-   * **Nome do tipo de registro**: substitua &quot;Tipo de registro operacional sem título&quot; pelo nome do seu tipo de registro futuro.
-   * **Aparência**: Defina a cor e a forma do ícone associado ao tipo de registro. Faça o seguinte:
+   * Substitua &quot;Tipo de registro operacional sem título&quot; pelo nome do seu tipo de registro futuro. <!--did they bring back the field label here and did they rename it to "Name"-->
+   * **Descrição**: adicione mais informações sobre o tipo de registro.
+   * Selecione uma cor e uma forma para o ícone associado ao tipo de registro. Faça o seguinte:
       * Selecione uma cor para identificar o novo tipo de registro. Esta é a cor do ícone do tipo de registro. O cinza é selecionado por padrão.
       * Selecione um ícone na lista ou comece a digitar o nome de um ícone para descrever o que ele representa e, em seguida, selecione-o quando ele for exibido. Este é o ícone do tipo de registro. Um ícone de arquivo é selecionado por padrão.
 
-1. Clique fora da **Adicionar tipo de registro** para salvar o tipo de registro.
+1. Clique em **Criar**.
 
    O cartão de tipo de registro é adicionado à seção e ao espaço de trabalho selecionados.
 O número de campos que o tipo de registro contém é exibido no cartão.
+1. (Opcional) Passe o mouse sobre o cartão de tipo de registro, clique no **Mais** ícone ![](assets/more-menu.png) no canto superior direito e clique em **Editar** para editar informações sobre o tipo de registro.
 1. (Opcional) Clique no cartão de tipo de registro para abrir a página de tipo de registro.
 
    ![](assets/operational-record-type-blank.png)
@@ -178,7 +180,7 @@ O número de campos que o tipo de registro contém é exibido no cartão.
 
    Ou
 
-   Clique em **Mais** ícone ![](assets/more-menu.png) à direita do nome do tipo de registro e clique em **Renomear** para renomeá-la.
+   Clique em **Mais** ícone ![](assets/more-menu.png) à direita do nome do tipo de registro e clique em **Editar** para renomeá-la ou alterar as informações sobre ela. Para obter mais informações, consulte [Editar tipos de registro](/help/quicksilver/maestro/architecture/edit-record-types.md).
 
 1. (Opcional) Clique em **+ Novo registro** para adicionar registros do tipo selecionado. Para obter mais informações, consulte [Criar registros](../records/create-records.md).
 1. (Opcional) Clique no link **+** ícone no canto superior direito da tabela para adicionar mais campos ao tipo de registro.

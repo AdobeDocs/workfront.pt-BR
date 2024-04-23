@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '2401'
+source-wordcount: '2403'
 ht-degree: 3%
 
 ---
@@ -228,7 +228,7 @@ As linhas de uma exibição de tabela exibem registros individuais do tipo de re
 
 1. (Opcional) Adicione uma miniatura a cada registro e clique em **Campos** no canto superior direito da tabela, selecione a alternância para a variável **Miniatura** para exibi-lo à esquerda do campo principal. Ela é desmarcada por padrão.
 
-   Para obter informações, consulte [Adicionar miniaturas aos registros](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+   Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. (Opcional) Selecione um ou vários registros em uma linha e arraste e solte a **identificador** ícone ![](assets/handle-icon.png) à esquerda do nome do registro para reordenar as linhas.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '1714'
+source-wordcount: '1716'
 ht-degree: 0%
 
 ---
@@ -255,7 +255,7 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
 
    >[!NOTE]
    >
-   >    Você deve primeiro adicionar miniaturas na exibição de tabela antes de exibi-las na exibição de linha do tempo. Para obter mais informações, consulte [Adicionar miniaturas aos registros](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+   >    Você deve primeiro adicionar miniaturas na exibição de tabela antes de exibi-las na exibição de linha do tempo. Para obter mais informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. Clique em **Adicionar campo** para adicionar até 4 campos às barras de registro.
 1. Clique dentro do **Pesquisar campos** e clique no campo que deseja adicionar.

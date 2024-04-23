@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 2%
+source-wordcount: '109'
+ht-degree: 1%
 
 ---
 
@@ -39,5 +39,6 @@ Os artigos a seguir descrevem como criar e gerenciar registros e suas informaç�
 * [Conectar registros](/help/quicksilver/maestro/records/connect-records.md)
 * [Gerenciar comentários de registro](/help/quicksilver/maestro/records/manage-record-comments.md)
 * [Visão geral da seção Histórico](/help/quicksilver/maestro/records/history-section-overview.md)
-* [Adicionar miniaturas aos registros](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)
+* [Adicionar uma miniatura a um registro](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)
+* [Adicionar uma imagem da capa a um registro](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md)
 * [Gerenciar a página de registros](/help/quicksilver/maestro/records/manage-the-record-page.md)

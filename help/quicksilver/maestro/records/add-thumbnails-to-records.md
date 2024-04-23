@@ -1,20 +1,20 @@
 ---
-title: Adicionar miniaturas aos registros
+title: Adicionar uma miniatura a um registro
 description: É possível editar informações de registro no Adobe Workfront Planning e associar cada registro a miniaturas individuais, para torná-las facilmente reconhecíveis.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
 
 <!--update the metadata with real information-->
 
-# Adicionar miniaturas aos registros
+# Adicionar uma miniatura a um registro
 
 {{maestro-important-intro}}
 

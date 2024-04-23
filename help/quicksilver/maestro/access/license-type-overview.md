@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Seu tipo de licença do Adobe Workfront funciona em conjunto com suas permissõe
 
 Os usuários com todos os tipos de licença podem exibir, criar, editar ou gerenciar exibições do Workfront Planning.
 
-Este artigo descreve os tipos de licenças necessárias no Workfront e as permissões concedidas a objetos no Workfront Planning com base em cada tipo de licença.
+Este artigo descreve os tipos de licenças necessárias no Workfront e as permissões concedidas aos espaços de trabalho no Workfront Planning com base em cada tipo de licença.
 
-Um usuário com um tipo de licença de nível inferior tem permissões restritas para objetos ao usar os recursos do Workfront Planning.
+Um usuário com um tipo de licença de nível inferior tem permissões restritas para espaços de trabalho ao usar os recursos do Workfront Planning.
 
 >[!INFO]
 >
@@ -40,11 +40,13 @@ Para obter informações sobre permissões para objetos no Workfront Planning, c
 
 ## O relacionamento entre os tipos de licença do Workfront e as permissões do Workfront Planning
 
-A tabela a seguir descreve o relacionamento entre o tipo de licença de um usuário no Adobe Workfront e o nível de permissões que você pode conceder a ele para objetos do Adobe Workfront Planning com base nessa licença:
+A tabela abaixo descreve a relação entre o tipo de licença de um usuário no Adobe Workfront e o nível de permissões que você pode conceder a ele para objetos do Adobe Workfront Planning com base nessa licença.
+
+Conceder permissões de usuário a um espaço de trabalho também concede a eles permissões para tipos de registro, registros e campos.
 
 
 | Tipo de licença do Adobe Workfront | Permissões permitidas no Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Novo: Padrão <br> ou <br>Atual: Plano | Os usuários podem criar e gerenciar espaços de trabalho, tipos de registro e registros. |
-| Novo: Claro <br> ou <br>Atual: Trabalho | Os usuários podem contribuir e exibir um espaço de trabalho compartilhado com eles, bem como os tipos de registro e registros desse espaço de trabalho.  Os usuários podem criar, editar e excluir registros nos espaços de trabalho em que têm permissões do Contribute. |
-| Novo: Colaborador <br> ou <br>Atual: Revisor ou Solicitante | Os usuários podem exibir os espaços de trabalho compartilhados com eles, bem como os tipos de registro e registros desses espaços de trabalho. Os usuários não podem criar, editar ou excluir tipos de registros ou registros. |
+| Novo: Padrão <br> ou <br>Atual: Plano | Os usuários podem criar e gerenciar espaços de trabalho, tipos de registro e registros.<br> Os administradores do sistema têm permissões de gerenciamento para todos os espaços de trabalho, incluindo aqueles que não criaram. |
+| Novo: Claro <br> ou <br>Atual: Trabalho | Os usuários podem contribuir e exibir um espaço de trabalho compartilhado com eles, bem como os tipos de registro e registros desse espaço de trabalho. <br> Os usuários podem criar, editar e excluir registros nos espaços de trabalho em que têm permissões do Contribute. |
+| Novo: Colaborador <br> ou <br>Atual: Revisor ou Solicitante | Os usuários podem exibir os espaços de trabalho compartilhados com eles, bem como os tipos de registro e registros desses espaços de trabalho. <br> Os usuários não podem criar, editar ou excluir tipos de registros ou registros. |
