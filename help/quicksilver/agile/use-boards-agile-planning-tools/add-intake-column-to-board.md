@@ -7,10 +7,10 @@ description: Opcionalmente, é possível adicionar uma coluna de entrada ao quad
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: b816f41796e33fed81b76e80823c83fcb45d2b6b
+source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 2%
+source-wordcount: '1048'
+ht-degree: 1%
 
 ---
 
@@ -34,6 +34,10 @@ Problemas:
 * Ordem principal: nome do projeto
 * Ordem secundária: número de referência
 
+>[!IMPORTANT]
+>
+>É recomendável atualizar o quadro frequentemente se vários usuários estiverem trabalhando no quadro ao mesmo tempo. Atualizar a página ajuda a manter as alterações visuais no quadro atualizadas e evita que problemas como cartões duplicados sejam movidos para o quadro a partir da coluna de entrada.
+
 Para obter mais informações sobre colunas, consulte [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Para obter informações sobre placas conectadas, consulte [Usar placas conectadas em placas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Requisitos de acesso
@@ -48,7 +52,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
@@ -83,7 +87,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Todos os objetos aparecem na coluna de entrada do quadro como cartões conectados.
 
-   ![Coluna de entrada](assets/intake-column-added3.png)
+   ![Coluna Entrada](assets/intake-column-added3.png)
 
 ## Criar uma coluna de entrada usando filtros avançados
 
@@ -136,7 +140,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. (Opcional) Para incluir tarefas e problemas na coluna de entrada, clique em **[!UICONTROL Filtrar fontes]** e selecione o outro objeto para criar outro filtro.
 1. Quando terminar de adicionar filtros, analise a coluna entrada para verificar se as tarefas e problemas corretos foram exibidos.
 
-   ![Coluna de entrada](assets/intake-column-added3.png)
+   ![Coluna Entrada](assets/intake-column-added3.png)
 
    >[!NOTE]
    >
