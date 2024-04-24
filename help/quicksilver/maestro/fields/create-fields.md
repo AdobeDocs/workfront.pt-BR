@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '3277'
+source-wordcount: '3283'
 ht-degree: 2%
 
 ---
@@ -43,11 +43,11 @@ Você pode criar campos das seguintes maneiras no Maestro:
 
 * Do zero
 * Conectando tipos de registro
-* Importando tipos de registro usando um arquivo Excel e CSV
+* Importando tipos de registro usando um arquivo Excel ou CSV
 * Criando um tipo de registro
 * Criando um espaço de trabalho a partir de um modelo
 
-Para obter mais informações sobre campos Maestro, consulte [Visão geral do campo](../fields/fields-overview.md)
+Para obter mais informações sobre campos Maestro, consulte [Visão geral do campo](/help/quicksilver/maestro/fields/fields-overview.md).
 
 ## Requisitos de acesso
 
@@ -93,7 +93,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 <tr>
    <td role="rowheader"><p>Permissões</p></td>
    <td> <p>Gerenciar permissões em um espaço de trabalho</a> </p>  
-   <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
+   <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram.</p>
 </td>
   </tr>
 <tr>
@@ -210,7 +210,7 @@ Você pode usar um campo de seleção múltipla para capturar informações adic
 1. Clique em **Adicionar opção** para adicionar quantas opções forem necessárias. Não há limite para quantas opções você pode adicionar a um campo de seleção múltipla.
 1. (Opcional) Arraste e solte manualmente cada escolha na ordem desejada ou selecione a opção
    **Classificar seleções de A a Z** opção se desejar que as opções sejam listadas automaticamente em ordem alfabética. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. Clique em **x** ícone à direita de uma opção para removê-lo.
+1. (Opcional) Para remover uma opção, clique no botão **x** ícone à direita.
 1. Clique na amostra de cores à esquerda de uma opção para expandir o seletor de cores e personalizar a cor de cada opção.
 1. Clique em **Criar**.
 
@@ -232,7 +232,7 @@ Os campos de seleção única capturam informações adicionais em qualquer form
 
 1. Clique em **Adicionar opção** para adicionar quantas opções forem necessárias. Não há limite para quantas opções você pode adicionar a um campo de seleção única.
 1. (Opcional) Arraste e solte manualmente cada escolha na ordem desejada ou selecione a opção **Classificar seleções de A a Z** opção se desejar que as opções sejam listadas automaticamente em ordem alfabética. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. Clique em **x** ícone à direita de uma opção para removê-lo.
+1. (Opcional) Para remover uma opção, clique no botão **x** ícone à direita.
 1. Clique na amostra de cores à esquerda de uma opção para expandir o seletor de cores e personalizar a cor de cada opção.
 1. Clique em **Criar**.
 
@@ -280,7 +280,7 @@ Os tipos de campo de número capturam informações em um formato de número.
 
    * **Nome**: o nome do tipo de campo, como ele aparecerá em uma tabela ou página de registro.
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
-   * **Precisão**: o número de decimais que você deseja gravar para o campo. É possível exibir até 6 decimais.
+   * **Precisão**: o número de casas decimais que você deseja registrar para o campo. É possível exibir até 6 decimais.
    * **Permitir números negativos**: selecione essa opção se desejar permitir números negativos nesse campo. Essa opção não está selecionada por padrão.
 
    >[!NOTE]
@@ -302,7 +302,7 @@ Os tipos de campo Porcentagem capturam informações em um formato de número se
 1. Adicione as seguintes informações no **Novo campo** guia:
    * **Nome**: o nome do tipo de campo, como ele aparecerá em uma tabela ou página de registro.
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
-   * **Precisão**: o número de decimais que você deseja gravar para o campo. É possível exibir até 6 decimais.
+   * **Precisão**: o número de casas decimais que você deseja registrar para o campo. É possível exibir até 6 decimais.
    * **Permitir números negativos**: selecione esta opção se desejar permitir valores percentuais negativos neste campo. Essa opção não está selecionada por padrão.
 
    >[!NOTE]
@@ -325,7 +325,7 @@ Os tipos de campo Moeda capturam as informações em um formato de número prece
    * **Nome**: o nome do tipo de campo, como ele aparecerá em uma tabela ou página de registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrição**: informações adicionais sobre o campo. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
    * **Moeda**: o tipo de moeda que você deseja exibir neste campo. Esta é uma lista de moedas de acordo com a Organização Internacional de Normalização (ISO).
-   * **Precisão**: o número de decimais que você deseja gravar para o campo. É possível exibir até 6 decimais.
+   * **Precisão**: o número de casas decimais que você deseja registrar para o campo. É possível exibir até 6 decimais.
    * **Permitir números negativos**: selecione esta opção se desejar permitir valores de moeda negativos neste campo. Essa opção não está selecionada por padrão.
 
    >[!NOTE]
@@ -373,7 +373,7 @@ Para obter mais informações, consulte [Visão geral dos campos de fórmula](/h
 
    Para obter mais informações sobre quais expressões são compatíveis, consulte [Visão geral dos campos de fórmula](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. Adicione nomes de campo conforme eles são exibidos na interface do Workfront Planning para referenciá-los em uma fórmula.
+1. Adicione nomes de campo conforme eles são exibidos no Workfront Planning para referenciá-los em uma fórmula.
 
    >[!NOTE]
    >
@@ -388,7 +388,7 @@ Para obter mais informações, consulte [Visão geral dos campos de fórmula](/h
 
 ### Pessoas
 
-Você pode usar o tipo de campo Pessoas para adicionar um usuário <!--, job role, or team--> para um registro. Este campo é do tipo digitação antecipada e só é possível adicionar usuários<!--, roles, or teams--> que já existem no Workfront.
+Você pode usar o tipo de campo Pessoas para adicionar um usuário <!--, job role, or team--> para um registro. Este campo é do tipo digitação antecipada e só é possível adicionar usuários<!--, roles, or teams--> que já existem na sua instância do Workfront.
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo, selecione a variável **Pessoas** tipo de campo.
 
@@ -427,7 +427,7 @@ Você pode usar o tipo de campo Criado por para adicionar o usuário que criou o
 
 ### Data de criação
 
-Você pode usar o tipo de campo Data de criação para adicionar a data em que um registro foi criado a um registro. Este campo é somente leitura e é preenchido automaticamente com a data (e, opcionalmente, com a hora) em que o registro foi criado.
+Você pode usar o tipo de campo Data de criação para adicionar a data em que o registro foi criado a um registro. Este campo é somente leitura e é preenchido automaticamente com a data (e, opcionalmente, com a hora) em que o registro foi criado.
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo, selecione a variável **Data de criação** tipo de campo.
 
@@ -514,7 +514,7 @@ Você pode criar campos de registro vinculados ao adicionar uma nova conexão en
 
 Para obter informações sobre como conectar tipos de registro do Workfront Planning, consulte [Conectar tipos de registro](../architecture/connect-record-types.md)
 
-## Criar campos importando tipos de registro usando um arquivo Excel e CSV
+## Criar campos importando tipos de registro usando um arquivo Excel ou CSV
 
 Para obter mais informações, consulte [Criar tipos de registro](../architecture/create-record-types.md).
 

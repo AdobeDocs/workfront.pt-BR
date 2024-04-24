@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ Um usuário com um tipo de licença de nível inferior tem permissões restritas
 
 >[!INFO]
 >
->**EXEMPLO:** Os solicitantes (ou colaboradores, de acordo com o novo modelo de licença) não podem contribuir para espaços de trabalho e seus objetos, nem gerenciá-los.
+>**EXEMPLO:**
+>
+>Os solicitantes (ou colaboradores, de acordo com o novo modelo de licença) não podem contribuir para espaços de trabalho e seus objetos, nem gerenciá-los.
 >
 >Há uma indicação na caixa de compartilhamento de que os usuários não podem receber permissões para contribuir ou gerenciar um espaço de trabalho quando possuem uma licença de nível inferior.
 >
@@ -45,8 +47,10 @@ A tabela abaixo descreve a relação entre o tipo de licença de um usuário no 
 Conceder permissões de usuário a um espaço de trabalho também concede a eles permissões para tipos de registro, registros e campos.
 
 
-| Tipo de licença do Adobe Workfront | Permissões permitidas no Adobe Workfront Planning |
+| Tipo de licença da Adobe Workfront* | Permissões permitidas no Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Novo: Padrão <br> ou <br>Atual: Plano | Os usuários podem criar e gerenciar espaços de trabalho, tipos de registro e registros.<br> Os administradores do sistema têm permissões de gerenciamento para todos os espaços de trabalho, incluindo aqueles que não criaram. |
 | Novo: Claro <br> ou <br>Atual: Trabalho | Os usuários podem contribuir e exibir um espaço de trabalho compartilhado com eles, bem como os tipos de registro e registros desse espaço de trabalho. <br> Os usuários podem criar, editar e excluir registros nos espaços de trabalho em que têm permissões do Contribute. |
 | Novo: Colaborador <br> ou <br>Atual: Revisor ou Solicitante | Os usuários podem exibir os espaços de trabalho compartilhados com eles, bem como os tipos de registro e registros desses espaços de trabalho. <br> Os usuários não podem criar, editar ou excluir tipos de registros ou registros. |
+
+*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

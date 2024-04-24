@@ -1,30 +1,30 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: Remova o alinhamento da meta nas Metas da Adobe Workfront
-description: Você pode remover o alinhamento entre duas metas se não fizer mais sentido para elas serem conectadas.
+title: Remover alinhamento de metas nas Metas do Adobe Workfront
+description: Você pode remover o alinhamento entre duas metas se não fizer mais sentido conectá-las.
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 0%
+source-wordcount: '461'
+ht-degree: 1%
 
 ---
 
-# Remova o alinhamento da meta nas Metas da Adobe Workfront
+# Remover alinhamento de metas nas Metas do Adobe Workfront
 
-Você pode remover o alinhamento entre duas metas se não fizer mais sentido para elas serem conectadas.
+Você pode remover o alinhamento entre duas metas se não fizer mais sentido conectá-las.
 
 Para obter informações sobre como alinhar metas, consulte os seguintes artigos:
 
-* [Alinhar metas ao conectá-las às metas da Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [Alinhar metas ao conectá-las às Metas do Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [Alinhar metas convertendo resultados e atividades em metas](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
 ## Requisitos de acesso
 
-<!--drafted - replace the table below with this one when P&P releases: 
+Você deve ter o seguinte:
 
 <table style="table-layout:auto">
  <col>
@@ -33,106 +33,67 @@ Para obter informações sobre como alinhar metas, consulte os seguintes artigos
  </col>
  <tbody>
   <tr>
-   <td role="rowheader">Adobe Workfront plan*</td>
+   <td role="rowheader">plano do Adobe Workfront*</td>
    <td>
-   <p>Current plan: Select or higher</p>
-   Or
-   <p>Legacy plan: Pro or higher</p>
+   <p>Novo plano: Selecione ou superior</p>
+   Ou
+   <p>Plano atual: Pro ou superior</p>
    
    </td>
   </tr>
   <tr>
-   <td role="rowheader">Adobe Workfront license*</td>
+   <td role="rowheader">Licença da Adobe Workfront*</td>
    <td>
-   <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
+   <p>Nova licença: Contributor ou superior</p>
+   Ou
+   <p>Licença atual: Solicitação ou superior</p> </td>
   </tr>
   <tr>
-   <td role="rowheader">Product</td>
+   <td role="rowheader">Produto*</td>
    <td>
-   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
-   Or
-   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+   <p> Novo requisito de produto, um dos seguintes: </p>
+<ul>
+<li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
+<li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
+   <p>Ou</p>
+   <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td>
   </tr>
   <tr>
-   <td role="rowheader">Access level*</td>
-   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
-     <ul>
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
-     </ul> </p> </td>
+   <td role="rowheader">Nível de acesso</td>
+   <td> <p>Editar acesso às Metas</p> </td>
   </tr>
   <tr data-mc-conditions="">
-   <td role="rowheader">Object permissions</td>
+   <td role="rowheader">Permissões de objeto</td>
    <td>
-    <div>
-     <p>View or higher permissions to the goal to view it</p>
-     <p>Manage permissions to the goal to edit it</p>
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
-    </div> </td>
+    <p>Exibir permissões ou mais altas para a meta para exibi-la</p>
+     <p>Gerenciar permissões para a meta para editá-la</p>
+     <p>Para obter informações sobre como compartilhar metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartilhar uma meta no Workfront Goals</a>. </p>
+    </td>
   </tr>
+   <td role="rowheader"><p>Modelo de layout</p></td>
+   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclui a área Metas no Menu principal. </p>  
+</td>
+  </tr>
  </tbody>
 </table>
--->
 
-Você deve ter o seguinte:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p>Pro ou superior</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças do Adobe Workfront</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produto</td> 
-   <td> <p>Você deve comprar uma licença adicional para a funcionalidade Metas da Adobe Workfront para acessar descrita neste artigo. </p> <p>Para obter mais informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar o acesso às Metas ou superior</p> <p><b>Nota</b>
-
-<p>Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte:</p> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Conceder acesso às Metas da Adobe Workfront</a></span> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Permissões de objeto</td> 
-   <td> 
-    <div> 
-     <p>Gerenciar permissões para a meta</p> 
-     <p>Para obter informações sobre como compartilhar metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartilhar uma meta na Workfront</a>. </p> 
-    </div> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Pré-requisitos
 
-Você deve ter o seguinte antes de começar:
+Você deve ter o seguinte antes de iniciar:
 
-* Um modelo de layout que inclui a área Metas no Menu principal.
-* Uma meta principal que tenha pelo menos uma meta secundária associada a ela. As metas das crianças são os indicadores de progresso da meta.
+* Uma meta principal que tenha pelo menos uma meta secundária associada a ela. As metas secundárias são os indicadores de progresso da meta.
 
 ## Considerações sobre a remoção do alinhamento da meta
 
 Considere o seguinte ao remover o alinhamento entre duas metas:
 
-* A meta principal deve ter outra meta, atividade ou resultado associado a ela para poder permanecer ativa.
+* A meta principal deve ter outra meta, atividade ou resultado associado para poder permanecer ativa.
 * Não é possível remover uma meta secundária alinhada de uma meta principal se ela for o único indicador de progresso da meta principal.
-* A meta-filho se torna um objetivo independente quando você remove seu alinhamento à meta-pai.
+* A meta secundária se torna uma meta independente ao remover seu alinhamento à meta principal.
 
-## Remover alinhamento da meta
+## Remover alinhamento de metas
 
 <!--
 Removing goal alignment differs depending on which environment you use.
@@ -160,12 +121,12 @@ Removing goal alignment differs depending on which environment you use.
 
    ![](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. No **Tipo: Meta** agrupamento, selecione uma meta e clique no botão **Desconectar** ícone ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) na parte superior da lista.
+1. No **Tipo: Meta** , selecione uma meta e clique no botão **Desconectar** ícone ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) no topo da lista.
 
    A caixa Desconectar é exibida.
 
-1. Clique em **Desconectar** para desconectar a meta selecionada de seu pai.
+1. Clique em **Desconectar** para desconectar a meta selecionada de sua meta principal.
 
-   A meta se torna uma meta independente e não é mais listada como um indicador de progresso da meta original. O progresso do objetivo desconectado já não influencia o progresso do objetivo original.
+   A meta se torna uma meta independente e não é mais listada como um indicador de progresso da meta original. O progresso do objetivo desconectado não influencia mais o progresso do objetivo original.
 
    Uma mensagem de sucesso é exibida no canto superior direito da página para confirmar que a meta foi desconectada.

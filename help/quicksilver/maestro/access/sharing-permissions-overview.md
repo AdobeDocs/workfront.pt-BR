@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '535'
 ht-degree: 7%
 
 ---
@@ -48,10 +48,11 @@ Você pode compartilhar os seguintes objetos:
   Para obter informações sobre como os tipos de licença afetam os níveis de permissão para o Workfront Planning, consulte [Visão geral do tipo de licença ao usar o Adobe Workfront Planning](/help/quicksilver/maestro/access/license-type-overview.md).
 * Os administradores do sistema podem gerenciar e compartilhar espaços de trabalho criados por outros usuários.
 * Se você não for um Administrador do sistema, poderá contribuir com espaços de trabalho criados por outros se eles forem compartilhados com você.
-* Não é possível compartilhar espaços de trabalho em massa.
+* Não é possível compartilhar espaços de trabalho ou exibições em massa.
 * Você pode compartilhar um espaço de trabalho ou uma exibição com as seguintes entidades:
    * Usuários
    * Grupos
+     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
 * Outros usuários, incluindo Administradores do sistema, só podem acessar as exibições que criaram ou que foram compartilhadas com eles. Os administradores do sistema só podem receber permissões para Gerenciar uma exibição.
 * É possível compartilhar um link para um espaço de trabalho ou para uma exibição de uma página do tipo record com outras pessoas. Os usuários que recebem o link devem ser usuários ativos e fazer logon no Workfront para acessar o espaço de trabalho ou a página do tipo de registro exibida na exibição selecionada.
 
@@ -114,9 +115,28 @@ As permissões a seguir se referem aos próprios campos e não aos valores assoc
 
 Você deve conceder permissões separadas para exibições de registros. A concessão de permissões para o espaço de trabalho não concede permissões para as exibições de registros no espaço de trabalho.
 
+<!--You can share views internally or publicly. -->
+
 |        | Gerenciar | Exibir |
 |--------|--------|-------|
 | Editar | ✓ µ |       |
 | Excluir | ✓ µ |       |
+| Compartilhar | ✓ µ |       |
 | Exibir | ✓ µ | ✓ µ |
 | Aplicar | ✓ µ | ✓ µ |
+
+<!--Replace the table above with the following when public sharing releases: 
+
+|   Internal sharing     | Manage | View  |
+|--------|--------|-------|
+| Edit   | ✓      |       |
+| Delete | ✓      |       |
+| Share  | ✓       |       |
+| View   | ✓      | ✓     |
+| Apply  | ✓      | ✓     |
+
+|   Public sharing      | View  |
+|--------|-------|
+| View   | ✓     |
+| Apply  | ✓     |
+-->

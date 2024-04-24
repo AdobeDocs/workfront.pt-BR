@@ -1,15 +1,17 @@
 ---
 title: Adicionar uma imagem da capa a um registro
-description: É possível editar informações de registro no Adobe Workfront Planning e associar cada registro a uma imagem de capa para personalizar a página do registro.
+description: É possível personalizar registros adicionando uma imagem de capa à página de registro no Adobe Workfront Planning, ao editar um registro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
+
 
 <!--update the metadata with real information-->
 
@@ -17,9 +19,12 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-É possível editar informações de registro no Adobe Workfront Planning e associar cada registro a uma imagem de capa para personalizar a página do registro.
+É possível personalizar registros adicionando uma imagem de capa à página de registro no Adobe Workfront Planning, ao editar um registro.
+
+Para obter informações sobre edição de registros, consulte [Editar registros](/help/quicksilver/maestro/records/edit-records.md).
 
 Você deve criar tipos de registro antes de começar a criar e editar registros.
+
 Para obter informações, consulte [Criar tipos de registro](../architecture/create-record-types.md).
 
 ## Requisitos de acesso
@@ -81,14 +86,15 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Considerações sobre imagens de capa de página de registro
 
-É possível personalizar a página de um registro adicionando uma imagem de capa a ela. A imagem é exclusiva de cada registro e não se aplica a todos os registros do mesmo tipo.
+É possível personalizar a página de um registro adicionando uma imagem de capa a ela.
 
 Considere o seguinte:
 
+* Uma imagem de capa é exclusiva a um registro e não se aplica a todos os registros do mesmo tipo.
 * Você pode adicionar somente arquivos de imagem como imagens de capa.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * Você pode adicionar uma imagem de capa a registros individuais da caixa de registro em qualquer exibição ou da página de registro.
-* Não é possível adicionar imagens de capa integradas na exibição de tabela.
+* Não é possível adicionar imagens de capa integradas de qualquer visualização de registro.
 
 ## Adicionar uma imagem da capa a um registro
 

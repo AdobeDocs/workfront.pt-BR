@@ -6,10 +6,10 @@ description: Se você for um colaborador individual com uma meta pessoal, convé
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 1%
+source-wordcount: '775'
+ht-degree: 0%
 
 ---
 
@@ -90,12 +90,6 @@ Você deve ter o seguinte:
 </table>
 
 *Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-## Pré-requisitos
-
-Você deve ter o seguinte antes de iniciar:
-
-* Um Modelo de layout que inclui a área Metas no Menu principal.
 
 ## Alinhar metas conectando-as entre si
 
