@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: ff225e6ed17c06c333806d25ed00e7f744da6f93
+source-git-commit: 4c40920028ca0b8ac797ad0854291e2ae82a07b2
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '995'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,9 @@ Você pode executar esse processo no Workfront criando um pacote de objetos para
 
 ## Objetos compatíveis com a promoção do ambiente
 
-O recurso de Promoção do ambiente tem como objetivo fornecer a capacidade de mover objetos relacionados à configuração de um ambiente para outro. Ela não oferece suporte à capacidade de mover objetos transacionais (com exceções limitadas).
+O recurso de promoção de ambiente tem como objetivo fornecer a capacidade de mover objetos relacionados à configuração de um ambiente para outro. Esses objetos podem ser configurados, como projetos, equipes ou formulários personalizados.
+
+A promoção do ambiente não oferece suporte à capacidade de mover objetos transacionais (com exceções limitadas). Não é possível configurar objetos transacionais. Os exemplos incluem atualizações de atividade do sistema e decisões de prova.
 
 * [Objetos de trabalho](#work-objects)
 * [Objetos de relatório](#reporting-objects)
@@ -124,15 +126,15 @@ Esses status incluem o seguinte:
  <tbody> 
   <tr> 
    <td>NÃO MONTADO</td> 
-   <td><p>Esse status é atribuído automaticamente e representa um pacote que foi salvo, mas ainda não montado. </p><p>Este status não pode ser definido diretamente por um cliente.</p></td> 
+   <td><p>Esse status é atribuído automaticamente e representa um pacote que foi salvo, mas ainda não montado. </p><p>Este status não pode ser definido diretamente por um usuário.</p></td> 
   </tr> 
   <tr> 
    <td>MONTAGEM</td> 
-   <td><p>Esse status é atribuído automaticamente enquanto os objetos estão sendo montados. </p><p>Montagem refere-se ao processo automatizado de identificação de objetos e subobjetos a serem incluídos em um pacote e adição desses objetos e seus dados ao pacote.</p><p>Este status não pode ser definido diretamente por um cliente.</p></td> 
+   <td><p>Esse status é atribuído automaticamente enquanto os objetos estão sendo montados. </p><p>Montagem refere-se ao processo automatizado de identificação de objetos e subobjetos a serem incluídos em um pacote e adição desses objetos e seus dados ao pacote.</p><p>Este status não pode ser definido diretamente por um usuário.</p></td> 
   </tr> 
   <tr> 
    <td>RASCUNHO</td> 
-   <td><p>Esse status é atribuído na conclusão de um processo de montagem ou ao criar um pacote de promoção vazio.</p><p>É possível que um cliente mova o pacote promocional de volta para esse status.</p><p>Enquanto estiver nesse status, o pacote de promoção não poderá ser instalado em nenhum ambiente.</p></td> 
+   <td><p>Esse status é atribuído na conclusão de um processo de montagem ou ao criar um pacote de promoção vazio.</p><p>É possível para um usuário mover o pacote promocional de volta para esse status.</p><p>Enquanto estiver nesse status, o pacote de promoção não poderá ser instalado em nenhum ambiente.</p></td> 
   </tr> 
   <tr> 
    <td>TESTE</td> 
@@ -144,11 +146,11 @@ Esses status incluem o seguinte:
   </tr> 
   <tr> 
    <td>DESATIVADO</td> 
-   <td><p>Esse status é usado para ocultar pacotes de promoção usados anteriormente que não serão instalados em nenhum ambiente no futuro.</p><p>Quando um pacote está nesse status, ele não pode ser instalado em nenhum ambiente.</p><p>Quando o status de um pacote é definido como DESATIVADO, a variável <code>retiredAt</code> A data é automaticamente definida para o carimbo de data e hora atual da solicitação.</p><p>O uso deste status é recomendado em vez do uso de<code>DELETE /package</code> endpoint porque ele é recuperável, e o histórico de instalação é retido para todas as implantações feitas com esse pacote.</p></td> 
+   <td><p>Esse status é usado para ocultar pacotes de promoção usados anteriormente que não serão instalados em nenhum ambiente no futuro.</p><p>Quando um pacote está nesse status, ele não pode ser instalado em nenhum ambiente.</p><p>Quando o status de um pacote é definido como DESATIVADO, a variável <code>retiredAt</code> A data é automaticamente definida para o carimbo de data e hora atual da solicitação.</p><p>O uso deste status é recomendado em vez do uso de <code>DELETE /package</code> endpoint porque ele é recuperável, e o histórico de instalação é retido para todas as implantações feitas com esse pacote.</p></td> 
   </tr> 
   <tr> 
    <td>FALHA_NA_MONTAGEM</td> 
-   <td><p>O pacote promocional será colocado automaticamente nesse status se a etapa MONTAGEM falhar.</p><p>Para retornar o pacote para a etapa MONTAGEM, acione o processo de extração novamente.</p></td> 
+   <td><p>O pacote promocional será colocado automaticamente nesse status se a etapa MONTAGEM falhar.</p><p>Para retornar o pacote ao estágio MONTAGEM, você deve acionar o processo de montagem novamente.</p><p>Para obter detalhes sobre como montar um pacote, consulte a seção <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Editar ou reunir um pacote existente</a> no artigo Criar ou editar um pacote de promoção de ambiente.</td> 
   </tr> 
   </tbody> 
 </table>
