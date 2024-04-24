@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 56e1ceac4f37d9789f4a3a37ee0e6a7774133bfb
+source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1238'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
        <p>Para obter informações sobre permissões em objetos, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Visão geral das permissões de compartilhamento em objetos</a>.</p> 
        <p><b>NOTA</b>:  
        <ul> 
-       <li> <p>Os usuários sem as permissões especificadas aqui não podem ver os campos e widgets personalizados na seção. </p> <p>Isso também é verdadeiro se você exibir os valores dos campos nos relatórios ou usá-los em campos calculados nos relatórios do modo de texto.</p> </li> 
+       <li> <p>Os usuários sem as permissões especificadas aqui não podem ver os campos e widgets personalizados na seção. </p> <p>Isso também é verdadeiro se você exibir os valores dos campos nos relatórios ou usá-los em campos calculados nos relatórios do modo de texto.</p> </li>
+       <li><p>Para formulários personalizados de solicitação/ocorrência: se o acesso de Exibição for necessário para ver os campos na quebra de seção, mas o acesso de Administrador for necessário para editar os campos, a seção e todos os seus campos não estarão visíveis para não administradores quando eles preencherem o formulário. Depois que a solicitação é criada, os usuários com acesso de Visualização podem exibir os campos na seção.</p></li>
        <li> <p>Associar vários tipos de objeto ao seu formulário pode alterar as permissões de exibição e edição disponíveis nessas etapas. Para obter mais informações, consulte <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Como vários tipos de objeto podem afetar as permissões de quebra de seção em um formulário personalizado</a> neste artigo.</p> </li> 
         </ul> </p> </td> 
      </tr> 
