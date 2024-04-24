@@ -9,9 +9,9 @@ description: Você pode usar o conector de placas Adobe Workfront para automatiz
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 9b4e1b4227b15a6998966838552a5058675fa9a0
+source-git-commit: 7003ea4b6daba68957ef0ec501ecfd4a8d750d4c
 workflow-type: tm+mt
-source-wordcount: '2325'
+source-wordcount: '2591'
 ht-degree: 1%
 
 ---
@@ -261,7 +261,7 @@ Este módulo de ação cria um novo cartão em um quadro Workfront.
   </tr> 
   <tr> 
    <td>[!UICONTROL Identificação de Coluna]</td> 
-   <td>Insira ou mapeie a ID da coluna à qual deseja adicionar uma subtarefa.<p>Você pode encontrar a ID da tag nas informações retornadas do módulo Leia uma placa.</p></td> 
+   <td>Insira ou mapeie a ID da coluna à qual deseja adicionar uma subtarefa.<p>Você pode encontrar a ID da coluna nas informações retornadas do módulo Leia uma placa.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Nome]</td> 
@@ -292,7 +292,7 @@ Esse módulo de ação move um cartão para uma coluna diferente no mesmo quadro
   </tr> 
   <tr> 
    <td>[!UICONTROL ID da coluna de destino]</td> 
-   <td>Insira ou mapeie a ID da coluna para a qual deseja mover o cartão.<p>Você pode encontrar a ID da tag nas informações retornadas do módulo Leia uma placa.</p></td> 
+   <td>Insira ou mapeie a ID da coluna para a qual deseja mover o cartão.<p>Você pode encontrar a ID da coluna nas informações retornadas do módulo Leia uma placa.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Para índice]</td> 
@@ -346,7 +346,7 @@ Esse módulo de ação atualiza as informações de um cartão especificado.
   </tr> 
   <tr> 
    <td>[!UICONTROL ID do Cartão]</td> 
-   <td>Insira ou mapeie uma nova descrição para o cartão/\.</p></td> 
+   <td>Insira ou mapeie uma nova descrição para o cartão.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -400,6 +400,10 @@ Esse módulo de ação retorna informações sobre um único quadro, como cartõ
 
 ### Colunas
 
+* [Criar uma coluna](#create-a-column)
+* [Pesquisar uma coluna](#search-for-a-column)
+* [Atualizar uma coluna](#update-a-column)
+
 #### Criar uma coluna
 
 Esse módulo de ação cria uma nova coluna no quadro especificado.
@@ -417,8 +421,62 @@ Esse módulo de ação cria uma nova coluna no quadro especificado.
    <td>Informe ou mapeie a ID do quadro ao qual deseja adicionar uma coluna.<p>Você pode encontrar a ID da placa no URL ao visualizar a placa no Workfront.</p></td> 
   </tr> 
   <tr> 
+   <td>[!UICONTROL Identificação de Coluna]</td> 
+   <td>Insira ou mapeie a ID da coluna que você deseja atualizar.<p>Você pode encontrar a ID da coluna nas informações retornadas do módulo Leia uma placa.</p></td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Nome da coluna]</td> 
-   <td>Insira ou mapeie um nome para a nova coluna.</td> 
+   <td>Insira ou mapeie um novo nome para a coluna.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Limite de WIP]</td> 
+   <td>Informe ou mapeie um novo limite WIP para a coluna.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Pesquisar uma coluna
+
+Este módulo de pesquisa retorna informações sobre a coluna com o nome especificado.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Conexão]</td> 
+      <td> <p>Você pode usar uma conexão Workfront existente para se conectar a Workfront Boards, ou usar uma conexão Workfront Boards específica. </p><p>Para obter instruções sobre como conectar seu [!DNL Workfront] aplicativo para [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Criar uma conexão com Workfront Boards</a> neste artigo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL ID do Quadro]</td> 
+   <td>Informe ou mapeie a ID do quadro que contém a coluna que você deseja recuperar.<p>Você pode encontrar a ID da placa no URL ao visualizar a placa no Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Nome da Coluna]</td> 
+   <td>Insira ou mapeie o nome da coluna que deseja recuperar.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Atualizar uma coluna
+
+Esse módulo de ação atualiza o nome ou o limite WIP da coluna especificada.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Conexão]</td> 
+      <td> <p>Você pode usar uma conexão Workfront existente para se conectar a Workfront Boards, ou usar uma conexão Workfront Boards específica. </p><p>Para obter instruções sobre como conectar seu [!DNL Workfront] aplicativo para [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Criar uma conexão com Workfront Boards</a> neste artigo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL ID do Quadro]</td> 
+   <td>Informe ou mapeie a ID do quadro que contém a coluna que você deseja recuperar.<p>Você pode encontrar a ID da placa no URL ao visualizar a placa no Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Nome da Coluna]</td> 
+   <td>Insira ou mapeie o nome da coluna que deseja recuperar.</td> 
   </tr> 
  </tbody> 
 </table>
