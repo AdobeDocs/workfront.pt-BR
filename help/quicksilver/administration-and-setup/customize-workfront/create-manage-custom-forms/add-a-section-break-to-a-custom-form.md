@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
+source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
 workflow-type: tm+mt
 source-wordcount: '1238'
 ht-degree: 0%
@@ -223,3 +223,4 @@ Em um formulário personalizado com uma quebra de seção configurada com a perm
 >Você adiciona o tipo de objeto Portfolio ao formulário, o que significa que a opção de permissão Edição limitada não está mais disponível para a quebra de seção no formulário.
 >
 >Uma mensagem na tela solicita que você alterne para a permissão Editar, que é a opção mais semelhante à Edição limitada, e compatível com o tipo de objeto Projeto e o tipo de objeto Portfolio.
+
