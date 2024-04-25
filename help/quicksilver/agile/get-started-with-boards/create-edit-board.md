@@ -6,9 +6,9 @@ description: No [!UICONTROL quadros] painel, é possível criar um novo painel o
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 0564fbf37b98d7c96ed9fccd832e96027562a85f
+source-git-commit: d593d288546abb4a674646519c6245563673b938
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '802'
 ht-degree: 1%
 
 ---
@@ -81,6 +81,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    1. (Opcional) Clique em [!UICONTROL **Usar filtros avançados**] para exibir opções de filtro adicionais.
 
       Esse é o mesmo processo que criar um filtro em uma coluna de entrada. Para obter mais informações, consulte [Adicionar uma coluna de entrada a um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
+      Se você atualizar os filtros em um quadro dinâmico após sua criação, as configurações do cartão que não fazem parte da tarefa ou problema do Workfront (como tags) serão redefinidas.
 
    1. Depois de adicionar os filtros, clique em [!UICONTROL **Criar quadro**].
 

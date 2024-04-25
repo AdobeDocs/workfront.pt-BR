@@ -7,9 +7,9 @@ description: Opcionalmente, é possível adicionar uma coluna de entrada ao quad
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+source-git-commit: d593d288546abb4a674646519c6245563673b938
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Opcionalmente, é possível adicionar uma coluna de entrada ao quadro que automa
 
 Somente uma coluna de entrada é permitida em um quadro e sempre aparece como a coluna mais à esquerda.
 
-A coluna de entrada não está disponível em uma placa dinâmica.
+A coluna de entrada não está disponível em uma placa dinâmica. No entanto, é possível atualizar os filtros que definem quais cartões são trazidos para um quadro dinâmico. Quando você altera esses filtros em um quadro dinâmico, as configurações do cartão que não fazem parte da tarefa ou problema do Workfront (como tags) são redefinidas.
 
 A coluna de entrada é limitada a 300 tarefas e 300 problemas. A ordem padrão dos itens na coluna de entrada é a seguinte:
 
