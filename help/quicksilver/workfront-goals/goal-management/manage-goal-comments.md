@@ -6,9 +6,9 @@ description: É possível adicionar comentários a todas as metas que você pode
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,9 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
 </td>
  </tr>
  <tr>
- <td role="rowheader">Licença da Adobe Workfront*</td>
+ <td role="rowheader">Licença do Adobe Workfront</td>
  <td>
- <p>Nova licença: Contributor ou superior</p>
- Ou
- <p>Licença atual: Solicitação ou superior</p> </td>
+ <p>Qualquer</td>
  </tr>
  <tr>
  <td role="rowheader">Produto*</td>
@@ -65,7 +63,7 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
  </tr>
  <tr>
  <td role="rowheader">Configuração do nível de acesso</td>
- <td> <p>Acesso maior ou igual a Metas</p> <p><b>Nota</b><p>Se você não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter mais informações, consulte <span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Conceder acesso ao Adobe Workfront Goals</a></span></td>
+ <td> <p>Acesso maior ou igual a Metas</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Permissões de objeto</td>
@@ -76,10 +74,15 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
  <p>Para obter informações sobre como compartilhar metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartilhar uma meta no Workfront Goals</a>. </p>
   </div> </td>
  </tr>
+ <tr>
+   <td role="rowheader"><p>Modelo de layout</p></td>
+   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclui a área Metas no Menu principal. </p>  
+</td>
+  </tr>
 </tbody>
 </table>
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront. Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Pré-requisitos
 

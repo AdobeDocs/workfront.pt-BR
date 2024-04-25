@@ -6,15 +6,14 @@ description: Se você for um colaborador individual com uma meta pessoal, convé
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 0%
+source-wordcount: '765'
+ht-degree: 1%
 
 ---
 
 # Alinhar metas ao conectá-las às Metas do Adobe Workfront
-
 
 Se você for um colaborador individual com uma meta pessoal, convém alinhá-la às metas da sua equipe para exibir efetivamente o progresso de sua própria meta no contexto maior da estratégia da organização.
 
@@ -37,56 +36,54 @@ Este artigo descreve como alinhar metas ao conectá-las umas às outras. Para ob
 Você deve ter o seguinte:
 
 <table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">plano do Adobe Workfront*</td>
-   <td>
-   <p>Novo plano: Selecione ou superior</p>
-   Ou
-   <p>Plano atual: Pro ou superior</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Licença da Adobe Workfront*</td>
-   <td>
-   <p>Licença atual: Contributor ou superior</p>
-   Ou
-   <p>Licença herdada: Solicitação ou superior</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Produto*</td>
-   <td>
-   <p> Novo requisito de produto, um dos seguintes: </p>
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">plano do Adobe Workfront</td>
+ <td>
+ <p>Qualquer</p>
+
+</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Licença da Adobe Workfront*</td>
+ <td>
+ <p>Licença atual: Contributor ou superior</p>
+ Ou
+ <p>Licença herdada: Solicitação ou superior</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Produto*</td>
+ <td>
+ <p> Novo requisito de produto, um dos seguintes: </p>
 <ul>
 <li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
 <li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
-   <p>Ou</p>
-   <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Nível de acesso</td>
-   <td> <p>Editar acesso às Metas</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Permissões de objeto</td>
-   <td>
-    
-     <p>Exibir permissões ou mais altas para a meta para exibi-la</p>
-     <p>Gerenciar permissões para a meta para editá-la</p>
-     <p>Para obter informações sobre como compartilhar metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartilhar uma meta no Workfront Goals</a>. </p>
-     </td>
-  </tr>
+ <p>Ou</p>
+ <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Nível de acesso</td>
+ <td> <p>Editar acesso às Metas</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Permissões de objeto</td>
+ <td>
+
+<p>Exibir permissões ou mais altas para a meta para exibi-la</p>
+  <p>Gerenciar permissões para a meta para editá-la</p>
+  <p>Para obter informações sobre como compartilhar metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartilhar uma meta no Workfront Goals</a>. </p>
+   </td>
+ </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
    <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclui a área Metas no Menu principal. </p>  
 </td>
   </tr>
- </tbody>
+</tbody>
 </table>
 
 *Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

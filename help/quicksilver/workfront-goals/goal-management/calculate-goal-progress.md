@@ -1,19 +1,19 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Visão geral do progresso e condição da meta nas Metas da Adobe Workfront
-description: O progresso de metas é orientado por indicadores de progresso como atividades, resultados ou metas secundárias. A condição da meta é determinada pelo progresso da meta no momento atual.
+title: Visão geral do progresso e da condição da meta no Adobe Workfront Goals
+description: O progresso da meta é orientado por indicadores de progresso como atividades, resultados ou metas secundárias. A condição da meta é determinada pelo progresso da meta no momento atual.
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 1%
+source-wordcount: '820'
+ht-degree: 0%
 
 ---
 
-# Visão geral do progresso e condição da meta nas Metas da Adobe Workfront
+# Visão geral do progresso e da condição da meta no Adobe Workfront Goals
 
 <!--drafted for P&P release: the note at the top will need to be replaced with this:
 
@@ -39,97 +39,97 @@ For additional information about access to Workfront Goals, see [Requirements to
 
 >[!NOTE]
 >
->Sua organização deve ter o seguinte para usar a funcionalidade descrita neste artigo:
+>Sua organização deve ter as seguintes opções para usar a funcionalidade descrita neste artigo:
 >
->* Um Pro ou superior [Plano Adobe Workfront](https://www.workfront.com/plans).
->* Uma licença do Adobe Workfront Metas além de uma licença da Workfront.
+>* A Pro ou superior [plano do Adobe Workfront](https://www.workfront.com/plans).
+>* Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.
 >
->Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Metas.
->Para obter informações adicionais sobre o acesso às Metas da Workfront, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals.
+>Para obter informações adicionais sobre o acesso ao Workfront Goals, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 O Adobe Workfront calcula o progresso da meta automaticamente, com base no progresso de seus indicadores de progresso.
 
 ## Pré-requisitos
 
-Você deve ter o seguinte antes de começar:
+Você deve ter o seguinte antes de iniciar:
 
-* Um modelo de layout que inclui a área Metas no Menu principal.
+* Um Modelo de layout que inclui a área Metas no Menu principal.
 
-## Visão geral do progresso e do limite da meta
+## Visão geral do progresso e limite da meta
 
-Após ativar uma meta, as Metas do Workfront começam a calcular seu progresso e condição e exibem os seguintes indicadores quando você passa o mouse sobre o campo Andamento:
+Depois de ativar uma meta, o Workfront Goals começa a calcular seu progresso e condição e exibe os seguintes indicadores quando você passa o mouse sobre o campo Progresso:
 
 | Indicador | Descrição do indicador |
 |---|---|
-| Porcentagem real concluída | Até agora, a percentagem do objetivo foi efetivamente alcançada. As Metas da Workfront calculam esse valor ao calcular a média da porcentagem completa de todos os indicadores de progresso associados à meta. |
-| Porcentagem esperada concluída | Quanta meta deve ser concluída até agora para que a meta seja concluída a tempo. As Metas da Workfront calculam esse valor observando a Duração da meta e o momento atual no tempo. O objetivo deve exibir esse valor no momento atual, se ele for concluído no momento. |
-| Progresso | Um rótulo que indica se a meta está no target para ser concluída a tempo ou se está em risco ou com problemas de não conclusão. |
+| Percentual concluído real | Quanto da meta foi realmente concluída até agora. O Workfront Goals calcula esse valor calculando a média do percentual concluído de todos os indicadores de progresso associados à meta. |
+| Porcentagem concluída esperada | Quanto da meta deve ser concluída até o momento para que seja concluída no prazo. O Workfront Goals calcula esse valor observando a Duração da meta e o momento atual no tempo. A meta deve exibir esse valor no horário atual, se for concluído a tempo. |
+| Progresso | Um rótulo que indica se a meta está no público alvo para ser concluída no prazo, ou se está em risco ou em problema de não ser concluída. |
 
 ![](assets/in-trouble-goal-progress-expanded.png)
 
 <!--drafted for the redesign: replace the screen shot above with the redesigned one which is white, not black-->
 
-* [Porcentagem real concluída](#actual-percent-complete)
-* [Porcentagem esperada concluída](#expected-percent-complete)
+* [Percentual concluído real](#actual-percent-complete)
+* [Porcentagem concluída esperada](#expected-percent-complete)
 * [Progresso e condição](#progress)
 
-### Porcentagem real concluída {#actual-percent-complete}
+### Percentual concluído real {#actual-percent-complete}
 
-As Metas do Workfront calculam automaticamente a porcentagem completa real de uma meta com base na média de porcentagem completa dos indicadores de progresso da meta.
+As Metas do Workfront calculam automaticamente o percentual de conclusão real de uma meta com base na média do percentual de conclusão dos indicadores de progresso da meta.
 
 Os itens a seguir são considerados indicadores de progresso para metas:
 
 * Resultados
 
-   Para obter informações sobre como adicionar resultados às metas, consulte [Adicionar resultados às metas em Metas da Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+  Para obter informações sobre como adicionar resultados às metas, consulte [Adicionar resultados às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
 * Atividades
 
-   Para obter informações sobre como adicionar atividades, incluindo projetos, a metas, consulte [Adicionar atividades às metas em Metas da Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  Para obter informações sobre como adicionar atividades, incluindo projetos às metas, consulte [Adicionar atividades às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
-* Objetivos de crianças alinhadas
+* Metas secundárias alinhadas
 
-   Para obter informações sobre metas pai e filho, consulte [Alinhar metas ao conectá-las às metas da Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  Para obter informações sobre metas pai e filho, consulte [Alinhar metas ao conectá-las às Metas do Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
-   As Metas do Workfront calculam a porcentagem total real usando a seguinte fórmula:
+  O Workfront Goals calcula o percentual de conclusão real usando a seguinte fórmula:
 
-   ```
-   Actual percent complete of goal = SUM(Percent complete of goal progress indicators)* 100 / Number of progress indicators
-   ```
+  ```
+  Actual percent complete of goal = SUM(Percent complete of goal progress indicators)* 100 / Number of progress indicators
+  ```
 
-   Por exemplo, se uma meta tiver um Resultado 20% concluído, uma barra de progresso manual que esteja 30% concluída, um projeto 10% concluído e uma meta para crianças que esteja 40% concluída, a porcentagem de meta concluída será 25%.
+  Por exemplo, se uma meta tiver um Resultado que esteja 20% concluído, uma Barra de progresso manual que esteja 30% concluída, um projeto que esteja 10% concluído e uma meta secundária que esteja 40% concluída, a porcentagem concluída será de 25%.
 
-### Porcentagem esperada concluída {#expected-percent-complete}
+### Porcentagem concluída esperada {#expected-percent-complete}
 
-As Metas do Workfront calculam automaticamente a porcentagem completa esperada de uma meta com base no número total de dias na duração da meta, bem como no número de dias que passaram desde a data de início da meta.
+O Workfront Goals calcula automaticamente a porcentagem concluída esperada de uma meta com base no número total de dias na duração da meta, bem como no número de dias decorridos desde a data de início da meta.
 
-As Metas do Workfront calculam a porcentagem completa esperada usando a seguinte fórmula:
+O Workfront Goals calcula o percentual de conclusão esperado usando a seguinte fórmula:
 
 ```
 Expected percent complete of goal = Number of days since the goal start date * 100/ Number of days in the goal duration
 ```
 
-Por exemplo, se uma meta deve ser concluída em 90 dias e hoje é o 45º dia dessa duração, a porcentagem esperada de conclusão é 50%.
+Por exemplo, se uma meta tiver de ser concluída em 90 dias e hoje for o 45º dia dessa duração, o percentual de conclusão esperado será de 50%.
 
 ### Progresso e condição {#progress}
 
-As Metas do Workfront calculam uma porcentagem de progresso e atribuem um rótulo de progresso a metas, com base na porcentagem da porcentagem esperada concluída que foi alcançada no momento atual. A cor da barra de porcentagem de meta concluída muda para indicar o progresso da meta.
+O Workfront Goals calcula uma porcentagem de progresso e atribui um rótulo de progresso às metas com base na porcentagem esperada de conclusão atingida no momento atual. A cor da barra de porcentagem concluída da meta muda para indicar o progresso da meta.
 
-A condição da meta também é atualizada, de acordo, para indicar se a meta está no target para ser concluída a tempo ou se está ficando para trás.
+A Condição da meta também é atualizada, de acordo, para indicar se a meta está no destino para ser concluída no prazo ou se está atrasada.
 
-As Metas do Workfront calculam a porcentagem de progresso de uma meta usando a seguinte fórmula:
+O Workfront Goals calcula a porcentagem de progresso de uma meta usando a seguinte fórmula:
 
 ```
 Goal progress percentage = Actual percent complete * 100 / Expected percent complete
 ```
 
-Por exemplo, se a porcentagem esperada de conclusão for de 53% no momento atual e a porcentagem real de conclusão for de 30%, a porcentagem de progresso da meta será de 56%. O Workfront Metas rotula essa meta com uma Condição de &quot;Em problemas&quot;.
+Por exemplo, se o percentual de conclusão esperado for 53% no momento atual e o percentual de conclusão real for 30%, o percentual de progresso de conclusão meta será 56%. O Workfront Goals rotula essa meta com uma Condição de &quot;Com Problemas&quot;.
 
 O gráfico a seguir ilustra a relação entre os rótulos de condição e a porcentagem de progresso:
 
 ![](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
 
-A tabela abaixo lista os rótulos de condição da meta e as porcentagens de progresso da meta associadas a cada rótulo.
+A tabela abaixo lista os rótulos de condição de meta e as porcentagens de progresso da meta associadas a cada rótulo.
 
 >[!TIP]
 >
@@ -143,20 +143,20 @@ A tabela abaixo lista os rótulos de condição da meta e as porcentagens de pro
  <tbody> 
   <tr> 
    <td><b>Nome do progresso da meta</b></td> 
-   <td><b>Definição de progresso de meta</b></td> 
-   <td><b>Porcentagem de progresso do objetivo</b></td> 
+   <td><b>Definição do progresso da meta</b></td> 
+   <td><b>Porcentagem de progresso da meta</b></td> 
    <td><b>Cor da barra de porcentagem concluída</b></td> 
-   <td><b>Ícone Indicador de condição</b></td> 
+   <td><b>Ícone do indicador de condição</b></td> 
   </tr> 
   <tr> 
    <td>Novo(a)</td> 
-   <td> <p>O objetivo é recém-criado e ainda não está registrando progresso. Um progresso de meta é exibido como Novo até que alguém atualize seu progresso pela primeira vez. </p> <p>Para obter informações sobre como atualizar o progresso da meta, consulte <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Atualizar o progresso da meta nas Metas da Adobe Workfront</a>.</p> </td> 
-   <td>Sem porcentagem</td> 
+   <td> <p>A meta é recém-criada e ainda não está registrando o progresso. Um progresso da meta é exibido como Novo até que alguém atualize seu progresso pela primeira vez. </p> <p>Para obter informações sobre como atualizar o progresso da meta, consulte <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Atualizar progresso da meta nas Metas do Adobe Workfront</a>.</p> </td> 
+   <td>Nenhuma porcentagem</td> 
    <td>Sem barra</td> 
-   <td><img src="assets/new-goal-icon-condition.png" alt="new_gol_icon_condition.png"></td>
+   <td><img src="assets/new-goal-icon-condition.png" alt="new_goal_icon_condition.png"></td>
   </tr> 
   <tr> 
-   <td> <p><span>No Prazo</span> </p> </td> 
+   <td> <p><span>No Destino</span> </p> </td> 
    <td>A meta está funcionando como esperado e há uma grande probabilidade de ser concluída a tempo. </td> 
    <td>90-100%</td> 
    <td>Verde</td> 
@@ -164,17 +164,17 @@ A tabela abaixo lista os rótulos de condição da meta e as porcentagens de pro
   </tr> 
   <tr> 
    <td> <p><span>Em Risco</span> </p> </td> 
-   <td>A meta está atrasada, mas ainda pode ser possível concluí-la a tempo. </td> 
-   <td>70-89.99%</td> 
+   <td>A meta está atrasada, mas ainda pode ser possível concluí-la no prazo. </td> 
+   <td>70-89,99%</td> 
    <td>Amarelo</td>
    <td><img src="assets/at-risk-icon-condition.png" alt="at_risk_icon_condition.png"></td> 
   </tr> 
   <tr> 
-   <td> <p><span>Com problemas</span> </p> </td> 
+   <td> <p><span>Com Problemas</span> </p> </td> 
    <td> <p>É muito provável que a meta não seja concluída a tempo. </p> </td> 
-   <td>0-69.99%</td> 
+   <td>0-69,99%</td> 
    <td>Vermelho</td> 
-   <td><img src="assets/in-trouble-icon-condition.png" alt="in_trouble_icon_condition.png"></td> 
+   <td><img src="assets/in-trouble-icon-condition.png" alt="in_problem_icon_condition.png"></td> 
   </tr> 
  </tbody> 
 </table>
