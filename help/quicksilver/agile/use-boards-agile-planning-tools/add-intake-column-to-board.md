@@ -7,7 +7,7 @@ description: Opcionalmente, é possível adicionar uma coluna de entrada ao quad
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: d593d288546abb4a674646519c6245563673b938
+source-git-commit: 1b91cac202151cd60f16b4ef034b60f840088aea
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 1%
@@ -162,3 +162,4 @@ Os ícones na parte superior direita da coluna de entrada mostram quantos cartõ
    Clique em **[!UICONTROL Mais]** menu ![Ícone do menu Mais](assets/more-icon-spectrum.png) no cartão e selecione **[!UICONTROL Mover]**. Em seguida, no **[!UICONTROL Mover item]** , escolha outra coluna e selecione **[!UICONTROL Mover]**.
 
 1. (Opcional) Para excluir a coluna de entrada, clique no botão **[!UICONTROL Mais]** menu ![Ícone do menu Mais](assets/more-icon-spectrum.png) e selecione **[!UICONTROL Excluir]**.
+

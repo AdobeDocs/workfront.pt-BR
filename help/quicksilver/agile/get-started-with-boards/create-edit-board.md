@@ -6,7 +6,7 @@ description: No [!UICONTROL quadros] painel, é possível criar um novo painel o
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: d593d288546abb4a674646519c6245563673b938
+source-git-commit: 1b91cac202151cd60f16b4ef034b60f840088aea
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 1%
@@ -109,3 +109,4 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 1. Clique em **[!UICONTROL Todos os painéis]** para retornar ao painel de painéis.
 
    Você também pode localizar o menu suspenso rotulado com o nome do quadro atual e clicar nele para alternar para outro quadro.
+
