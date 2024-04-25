@@ -6,10 +6,10 @@ description: A nova Página inicial é um novo recurso poderoso para gerenciar s
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 6%
+source-wordcount: '1135'
+ht-degree: 5%
 
 ---
 
@@ -67,7 +67,7 @@ Abaixo estão os dez widgets disponíveis atualmente para escolher, bem como um 
 
   >[!NOTE]
   >
-  >Você precisa ter permissão para criar tarefas para criar tarefas no widget de tarefas.
+  >Você deve ter permissão para criar tarefas para criar tarefas no widget de tarefas, e somente as tarefas pessoais inseridas pelo usuário atual aparecerão no widget.
 
 Por padrão, a Página inicial é preenchida com alguns widgets específicos com base no seu tipo de licença. As tabelas abaixo descrevem quais widgets os usuários de cada tipo de licença veem quando navegam pela primeira vez para a Nova página inicial.
 
