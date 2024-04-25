@@ -12,14 +12,22 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: bd27f98191637a3efd11c732890be0091feca89c
+source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
 
 # Instalar um pacote de promoção de ambiente
+
+Depois de criar um pacote, você pode instalá-lo em um ambiente diferente.
+
+## Pré-requisitos
+
+Você deve ter criado um pacote antes de instalá-lo.
+
+Para obter instruções, consulte [Criar ou editar um pacote de promoção de ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 
 >[!NOTE]
 >
@@ -40,7 +48,7 @@ ht-degree: 0%
 
 As colisões ocorrem quando um objeto que faz parte do pacote de instalação tem o mesmo nome de um objeto que já existe no ambiente de destino. Quando isso ocorrer, você poderá selecionar como resolver a colisão. As colisões são resolvidas no nível do objeto.
 
-Você pode ver as colisões clicando na lista suspensa ao lado de cada tipo de objeto. As colisões são exibidas na coluna Colisão.
+Você pode exibir colisões clicando na lista suspensa ao lado de cada tipo de objeto. As colisões são exibidas na coluna Colisão.
 
 Para resolver uma colisão, selecione uma ação na coluna Ação de implantação ou use a ação padrão que já está sendo exibida.
 
