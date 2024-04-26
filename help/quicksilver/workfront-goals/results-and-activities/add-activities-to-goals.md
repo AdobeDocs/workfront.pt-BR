@@ -2,131 +2,90 @@
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: Adicionar atividades às metas em Metas da Adobe Workfront
-description: As atividades avaliam o progresso de uma meta. Sem resultados, atividades ou metas alinhadas associados, uma meta não pode ser ativada e o progresso não pode ser registrado nela.
+title: Adicionar atividades às metas no Adobe Workfront Goals
+description: As atividades medem o progresso de uma meta. Sem resultados associados, atividades ou metas alinhadas, uma meta não pode ser ativada e o progresso não pode ser registrado nela.
 author: Alina
 feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '418'
 ht-degree: 1%
 
 ---
 
-# Adicionar atividades às metas em Metas da Adobe Workfront
+# Adicionar atividades às metas no Adobe Workfront Goals
 
-As atividades avaliam o progresso de uma meta. Sem associar resultados, atividades, projetos ou metas alinhadas, não é possível ativar uma meta e não é possível registrar o progresso nela.
+As atividades medem o progresso de uma meta. Sem associar resultados, atividades, projetos ou metas alinhadas, não é possível ativar uma meta e registrar o progresso nela.
 
 ## Requisitos de acesso
 
-<!--drafted - replace the table below with this one when P&P releases: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">Adobe Workfront plan*</td>
-   <td>
-   <p>Current plan: Select or higher</p>
-   Or
-   <p>Legacy plan: Pro or higher</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Adobe Workfront license*</td>
-   <td>
-   <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Product</td>
-   <td>
-   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
-   Or
-   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Access level*</td>
-   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
-     <ul>
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
-     </ul> </p> </td>
-  </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Object permissions</td>
-   <td>
-    <div>
-     <p>View or higher permissions to the goal to view it</p>
-     <p>Manage permissions to the goal to edit it</p>
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
-    </div> </td>
-  </tr>
- </tbody>
-</table>
--->
-
 Você deve ter o seguinte:
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p>Pro ou superior</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças do Adobe Workfront</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produto</td> 
-   <td> <p>Você deve comprar uma licença adicional para a funcionalidade Metas da Adobe Workfront para acessar descrita neste artigo. </p> <p>Para obter mais informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar o acesso às Metas</p> <p><b>Nota</b>
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">plano do Adobe Workfront</td>
+ <td>
+ <p>Qualquer</p>
 
-<p>Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte:</p> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Conceder acesso às Metas da Adobe Workfront</a></span> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Permissões de objeto</td> 
-   <td> 
-    <div> 
-     <p>Gerenciar permissões para a meta</p> 
-     <p>Para obter informações sobre como compartilhar metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartilhar uma meta na Workfront</a>. </p> 
-    </div> </td> 
-  </tr> 
- </tbody> 
+</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Licença da Adobe Workfront*</td>
+ <td>
+ <p>Nova licença: Contributor ou superior</p>
+ Ou
+ <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças do Adobe Workfront</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Produto*</td>
+ <td>
+ <p> Novo requisito de produto, um dos seguintes: </p>
+<ul>
+<li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
+<li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
+ <p>Ou</p>
+ <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Nível de acesso*</td>
+ <td> <p>Editar acesso às Metas</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Permissões de objeto</td>
+ <td>
+  <div>
+  <p>Exibir permissões ou mais altas para a meta para exibi-la</p>
+  <p>Gerenciar permissões para a meta para editá-la</p>
+  <p>Para obter informações sobre como compartilhar metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartilhar uma meta no Workfront Goals</a>. </p>
+  </div> </td>
+ </tr>
+ <tr>
+   <td role="rowheader"><p>Modelo de layout</p></td>
+   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclui a área Metas no Menu principal. </p>  
+</td>
+  </tr>
+</tbody>
 </table>
 
-*Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Pré-requisitos
 
-Você deve ter o seguinte antes de começar:
+Você deve ter uma meta existente para adicionar atividades a ela.
 
-* Um modelo de layout que inclui a área Metas no Menu principal.
-* Uma meta existente.
-
-   Para obter informações sobre como criar metas, consulte [Criar metas nas metas da Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
+Para obter informações sobre como criar metas, consulte [Criar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
 >[!IMPORTANT]
 >
->Uma meta não pode ter mais do que um total de 1000 atividades, resultados ou metas alinhadas.
+>Uma meta não pode ter mais de 1.000 atividades, resultados ou metas alinhadas.
 
-Para obter mais informações sobre atividades, consulte [Introdução aos resultados e atividades nas Metas da Adobe Workfront](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md).
+Para obter mais informações sobre atividades, consulte [Introdução aos resultados e atividades nos Adobe Workfront Goals](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md).
 
 ## Adicionar uma atividade a uma meta
 
@@ -181,25 +140,25 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. Clique no botão **Menu principal** ![](assets/main-menu-icon.png), em seguida **Metas**.
+1. Clique em **Menu principal** ![](assets/main-menu-icon.png), depois **Metas**.
 1. Na Lista de metas, clique no nome de uma meta para abrir a página da meta.
 1. Clique em **Indicadores de progresso** no painel esquerdo.
-1. No menu suspenso New progress indicator , clique em **Criar atividade**.
+1. No menu suspenso Novo indicador de progresso, clique em **Criar atividade**.
 
-   A caixa New activity é aberta.
+   A caixa Nova atividade é aberta.
 
    ![](assets/new-activity-box-unshimmed.png)
 
-1. Insira um nome para a atividade no campo Activity name . Este campo é obrigatório.
-1. (Opcional) Remova seu nome da função **Proprietário da atividade** se desejar atribuir a atividade a outro usuário. Por padrão, você é o proprietário de uma atividade criada.
+1. Insira um nome para a atividade no campo Nome da atividade. Este campo é obrigatório.
+1. (Opcional) Remova seu nome da lista **Proprietário da atividade** se desejar atribuir a atividade a outro usuário. Por padrão, você é o proprietário de uma atividade criada.
 
    >[!NOTE]
    >
-   >Não é possível atribuir uma equipe, um grupo ou a empresa como um proprietário de atividade.
+   >Não é possível atribuir uma equipe, um grupo ou uma empresa como um proprietário de atividade.
 
-1. Clique em **Criar atividade** para salvá-lo e adicioná-lo à meta selecionada.
+1. Clique em **Criar atividade** para salvá-la e adicioná-la à meta selecionada.
 
-   A atividade é exibida na seção Indicadores de progresso da página de meta, no agrupamento Atividade.
+   A atividade é exibida na seção Progress indicators da página de metas, no Agrupamento de atividades.
 
 
 

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
+source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 0%
+source-wordcount: '433'
+ht-degree: 8%
 
 ---
 
@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Você pode criar campos personalizados no Adobe Workfront Planning consultando campos existentes e os conectando por uma fórmula. Você pode fazer isso criando um campo personalizado do tipo Fórmula.
+Você pode criar campos personalizados no Adobe Workfront Planning fazendo referência a campos existentes e os conectando em um campo do tipo Fórmula.
 
 Os campos de fórmula geram um novo valor usando valores existentes de outros campos em um tipo de registro e uma função que indica como os valores existentes devem ser calculados.
 
@@ -100,7 +100,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 ## Considerações sobre campos de fórmula
 
 * Os campos de fórmula fazem referência a campos que pertencem ao mesmo tipo de registro. Não é possível referenciar campos de outros tipos de registro ao criar um campo de fórmula. <!--is this still accurate??-->
-* Não é possível alterar o tipo de campo de um campo Fórmula depois de salvá-lo.
+* Não é possível alterar o tipo Field de um campo Formula depois de salvá-lo.
 * É possível atualizar o cálculo de um campo de fórmula depois de salvá-lo, e os resultados do cálculo são atualizados automaticamente para todos os registros do mesmo tipo.
 * É necessário adicionar os campos que você menciona nas fórmulas à medida que são exibidos na interface do Workfront Planning.
 
@@ -154,7 +154,7 @@ Além disso, oferecemos suporte às seguintes expressões para campos de fórmul
 
 <tr> 
    <td><strong>WEEKOFYEAR</strong> </td> 
-   <td> <p>Retorna o número da semana em um ano. Como opção, você pode indicar em qual dia a semana começa (use 1 para domingo ou 2 para segunda-feira). Se omitido, as semanas começarão no domingo, por padrão.</p> <p>A expressão é formatada da seguinte maneira:
+   <td> <p>Retorna o número da semana em um ano. Como opção, é possível indicar em qual dia a semana começa (use 1 para domingo ou 2 para segunda-feira). Se omitido, as semanas começarão no domingo, por padrão.</p> <p>A expressão é formatada da seguinte maneira:
 
 <code>WEEKOFYEAR(data,2)</code>
 ou
