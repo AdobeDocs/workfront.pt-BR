@@ -6,9 +6,9 @@ description: Você pode enviar documentos do Workfront para o Experience Manager
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
+source-git-commit: 825e0a04b2a49d91f9c084fa42e876f9880b2d80
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Enviar um documento para o Experience Manager Assets ou o Assets Essentials
 
 Você pode enviar documentos do Workfront para o Experience Manager Assets ou Assets Essentials. Os documentos carregados e enviados do Workfront para o Assets Essentials ainda contam com o armazenamento geral de documentos. Os ativos vinculados a partir de Assets Essentials não contam para o armazenamento geral.
+
+Os ativos enviados ao Experience Manager por meio dessa integração têm um limite de tamanho de **5 GB**.
 
 Os campos de metadados são mapeados pela primeira vez quando você envia um ativo do Workfront para o Experience Manager Assets ou Assets Essentials. Todos os metadados configurados para mapear para objetos principais também são enviados. Para obter mais informações sobre como configurar o mapeamento de metadados, consulte [Configurar a integração as a Cloud Service do Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configurar a integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
@@ -33,7 +35,7 @@ Você deve ter o seguinte:
  <tbody> 
   <tr> 
    <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">plano do Adobe Workfront</a>*</td> 
-   <td> <p> Qualquer Um</p> </td> 
+   <td> <p> Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças herdadas</a>*</td> 
