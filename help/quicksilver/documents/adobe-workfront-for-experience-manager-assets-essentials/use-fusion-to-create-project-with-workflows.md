@@ -6,7 +6,7 @@ description: Se você estiver criando um projeto por meio do Workfront Fusion e 
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 1677ed676a5ccb4f519cc81bf3b31cc90b8326b4
+source-git-commit: 605065896263ebbb761883689668be181b5012e3
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Você deve ter o seguinte:
    <p>Você deve ter acesso de gravação ao repositório no Adobe Experience Manager.</p>
    </li>
    </ul>
-  <b>Workfront Fusion</b>:<p>Novo:</p>
+   <b>Workfront Fusion</b>:<p>Novo:</p>
    <ul>
    <li>
    <p>Selecione ou Prime Workfront Plan: sua organização deve comprar o Adobe Workfront Fusion.</p>
@@ -68,8 +68,8 @@ Você deve ter o seguinte:
    <td><strong>Configurações de nível de acesso*</strong>
    </td>
    <td>Editar acesso a documentos
-<p>
-<strong>Nota: </strong>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <strong>Criar ou modificar níveis de acesso personalizados</strong>.
+   <p>
+   <strong>Nota: </strong>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <strong>Criar ou modificar níveis de acesso personalizados</strong>.
    </td>
   </tr>
 </table>
@@ -174,4 +174,3 @@ Você deve configurar um aplicativo OAuth no Workfront para a conexão deste mó
 Você usará essa ID do cliente e o segredo do cliente ao configurar a conexão do módulo no Fusion.
 
 Para obter instruções sobre como criar uma conexão, consulte [Conectar [!DNL Workfront] para [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) no artigo módulos do Workfront.
-
