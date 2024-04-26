@@ -6,9 +6,9 @@ description: Se você estiver criando um projeto por meio do Workfront Fusion e 
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 13f689c4ee404c07be6b9cf9c526bef8dca878ff
+source-git-commit: 1677ed676a5ccb4f519cc81bf3b31cc90b8326b4
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -54,14 +54,14 @@ Você deve ter o seguinte:
   <b>Workfront Fusion</b>:<p>Novo:</p>
    <ul>
    <li>
-   <p>[!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] Plano: sua organização deve comprar [!DNL Adobe Workfront Fusion].</p>
+   <p>Selecione ou Prime Workfront Plan: sua organização deve comprar o Adobe Workfront Fusion.</p>
    </li>
    <li> 
-   <p>[!UICONTROL Ultimate] [!DNL Workfront] Plano: [!DNL Workfront Fusion] está incluído.</p>
+   <p>Plano Ultimate do Workfront: o Workfront Fusion está incluído.</p>
    </li>
    </ul>
    <p>Ou</p>
-   <p>Atual: sua organização deve comprar [!DNL Adobe Workfront Fusion].</p>
+   <p>Atual: sua organização deve comprar o Adobe Workfront Fusion.</p>
    </td>
   </tr>
   <tr>
