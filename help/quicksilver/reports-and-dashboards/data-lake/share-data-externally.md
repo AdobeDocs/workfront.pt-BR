@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
+source-git-commit: 508e3c786bc6cfe676fb2cb33080c99b76c3d6a0
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '502'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Para conectar seus dados do data lake da Workfront incluir na lista de permissõ
 
 1. Clique no link **IPs permitidos** e, em seguida, clique na guia **Adicionar um endereço IP ao seu Incluo na lista de permissões** botão.
 
-1. Insira um nome para o endereço IP em **Descrição do endereço IP** e insira o endereço IP da ferramenta que deseja usar no **Endereço IP** e, em seguida, clique em **Adicionar IP ao Incluo na lista de permissões**.
+1. Insira um nome para o endereço IP em **Descrição do endereço IP** e insira o endereço IP (ou bloco CIDR) da ferramenta que deseja usar no **Endereço IP** e, em seguida, clique em **Adicionar IP ao Incluo na lista de permissões**.
 
    ![Adicionar endereço IP](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
