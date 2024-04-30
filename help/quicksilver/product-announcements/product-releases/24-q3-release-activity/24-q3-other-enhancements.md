@@ -4,7 +4,7 @@ description: Outras melhorias durante o período do terceiro trimestre de 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d337bb199db13c17e70be7b40654be8f1a87c2db
+source-git-commit: 781dcf0fa2d5f3a3387e5e5e1e56f44669318195
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
@@ -24,3 +24,5 @@ Quando um usuário não tem acesso a um objeto, ele verá &quot;Sem acesso&quot;
 Equipes e usuários não estão incluídos com esta alteração. Os usuários ainda podem exibir nomes de equipes e usuários.
 
 Para obter mais informações, consulte a seção [Acesso restrito a objetos](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) no [!DNL Adobe Workfront] artigo de visão geral de objetos.
+
+
