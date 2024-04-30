@@ -2,57 +2,40 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Revisão de meta e as seções Metas da Adobe Workfront
-description: Saiba mais sobre como revisar metas e entenda as seções em que você pode gerenciar metas no Adobe Workfront nos artigos a seguir.
+title: Revisão de metas e as seções de Metas do Adobe Workfront
+description: Saiba mais sobre como revisar metas e entenda as seções em que é possível gerenciar metas no Adobe Workfront nos artigos a seguir.
 author: Alina
 feature: Workfront Goals
 exl-id: 81f531f7-3390-4f85-9a96-480f4e84295e
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
 
-# Revisão de meta e as seções Metas da Adobe Workfront
+# Revisão de metas e as seções de Metas do Adobe Workfront
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:
+Sua organização deve ter as seguintes opções para usar a funcionalidade descrita neste artigo:
 
-Your organization must have the following to use the functionality described in this article:
+* Para o novo plano e estrutura de licença:
 
-* For the legacy plan and license structure: 
+   * Um plano Ultimate
 
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
+     Ou
 
-* For the current plan and license structure:
+     Uma licença adicional para o Adobe Workfront Goals para os planos Prime ou Select Adobe Workfront. Para obter informações, consulte [plano do Adobe Workfront](https://www.workfront.com/plans).
 
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
+* Para o plano e a estrutura de licença atuais:
 
-Contact your Workfront account manager to learn about a Workfront Goals license.
+   * A Pro ou superior
+   * Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.
 
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
-
->[!NOTE]
->
->Sua organização deve ter o seguinte para usar a funcionalidade descrita neste artigo:
->
->* Um Pro ou superior [Plano Adobe Workfront](https://www.workfront.com/plans).
->* Uma licença do Adobe Workfront Metas além de uma licença da Workfront.
->
->Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Metas.
->
->Para obter informações adicionais sobre o acesso às Metas da Workfront, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
+Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals.
 
 Esta seção contém os seguintes artigos:
 
-* [Visão geral das seções Metas da Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
-* [Gerenciar metas na Lista de metas da Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
-* [Atualizar o progresso da meta nas Metas da Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
-* [Analise gráficos para entender as tendências de progresso da meta nas metas do Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)
+* [Visão geral das seções de Metas do Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
+* [Gerenciar metas na Lista de metas do Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
+* [Atualizar progresso da meta nas Metas do Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+* [Revise gráficos para entender as tendências de progresso das metas no Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)

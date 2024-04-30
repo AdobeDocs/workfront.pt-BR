@@ -2,71 +2,54 @@
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: Introdução aos resultados e atividades nas Metas da Adobe Workfront
+title: Introdução aos resultados e atividades nos Adobe Workfront Goals
 description: Você deve adicionar resultados, atividades ou metas alinhadas a uma meta para poder ativá-la. Isso atualiza o status da meta de Rascunho para Ativo e inicia a gravação do progresso na meta.
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
 
-# Introdução aos resultados e atividades nas Metas da Adobe Workfront
+# Introdução aos resultados e atividades nos Adobe Workfront Goals
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:    
-    
-Your organization must have the following to use the functionality described in this article:    
-    
-* For the legacy plan and license structure:     
-    
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans).     
-  * An Adobe Workfront Goals license in addition to a Workfront license.    
-    
-* For the current plan and license structure:    
-    
-  * An Ultimate plan     
-        
-    Or    
-        
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>    
-    
-Contact your Workfront account manager to learn about a Workfront Goals license.    
-    
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).    
--->
+Sua organização deve ter as seguintes opções para usar a funcionalidade descrita neste artigo:
 
->[!NOTE]
->
->Sua organização deve ter o seguinte para usar a funcionalidade descrita neste artigo:
->
->* Um Pro ou superior [Plano Adobe Workfront](https://www.workfront.com/plans).
->* Uma licença do Adobe Workfront Metas além de uma licença da Workfront.
->
->  Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Metas.
->
->Para obter informações adicionais sobre o acesso às Metas da Workfront, consulte [Requisitos para usar as metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+* Para o novo plano e estrutura de licença:
 
+   * Um plano Ultimate
 
-Quando você cria uma meta, a meta tem um status de Rascunho. Para obter informações sobre como criar metas, consulte [Criar metas nas metas da Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
+     Ou
 
-Para iniciar o registro do progresso em uma meta, você deve ativá-la. Para ativar sua meta e alterar seu status para Ativo, primeiro adicione o seguinte a ela:
+     Uma licença adicional para o Adobe Workfront Goals para os planos Prime ou Select Adobe Workfront. Para obter informações, consulte [plano do Adobe Workfront](https://www.workfront.com/plans).
+
+* Para o plano e a estrutura de licença atuais:
+
+   * A Pro ou superior
+   * Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.
+
+Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals.
+
+Ao criar uma meta, ela tem um status de Rascunho. Para obter informações sobre como criar metas, consulte [Criar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
+
+Para começar a registrar o progresso em uma meta, você deve ativá-la. Para ativar sua meta e alterar seu status para Ativo, primeiro adicione o seguinte a ela:
 
 * Um resultado
 * Uma atividade
 * Um projeto
 * Uma meta alinhada
 
-Depois que pelo menos um desses itens for adicionado, você poderá ativar a meta. Você deve atualizar os resultados e as atividades das metas para indicar progresso na meta.
+Depois que pelo menos um desses itens for adicionado, você poderá ativar a meta. Você deve atualizar os resultados e as atividades das metas para indicar o progresso na meta.
 
 
 >[!IMPORTANT]
 >
-> Uma meta não pode ter mais do que um total de 1000 atividades, resultados, projetos ou metas alinhadas.</span>
+> Uma meta não pode ter mais de 1.000 atividades, resultados, projetos ou metas alinhadas.</span>
 
-Este artigo fornece uma visão geral das atividades e resultados. Para obter informações sobre como alinhar metas, consulte [Alinhamento da meta em metas do Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment.md). Para obter informações sobre como conectar projetos a metas, consulte [Adicionar projetos às metas em Metas da Adobe Workfront](../results-and-activities/connect-projects-to-goals-overview.md).
+Este artigo fornece uma visão geral das atividades e dos resultados. Para obter informações sobre alinhamento de metas, consulte [Alinhamento de metas nas Metas do Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment.md). Para obter informações sobre como conectar projetos a metas, consulte [Adicionar projetos às metas no Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md).
 
 ## Visão geral dos resultados
 
@@ -74,18 +57,18 @@ Este artigo fornece uma visão geral das atividades e resultados. Para obter inf
 <p> This will have additional types in the future - add another section for types?)</p>
 -->
 
-Os resultados avaliam o progresso da meta ou o quanto você está perto de alcançá-la. Como proprietário da meta, você também pode ser o proprietário do resultado. Um resultado para sua meta também pode ser atribuído a um usuário diferente.
+Os resultados medem o progresso de sua meta ou o quão perto você está de atingi-la. Como proprietário da meta, você também pode ser o proprietário do resultado. Um resultado para sua meta também pode ser atribuído a um usuário diferente.
 
-Para obter informações sobre como adicionar resultados às metas, consulte [Adicionar resultados às metas em Metas da Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+Para obter informações sobre como adicionar resultados às metas, consulte [Adicionar resultados às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
 Você pode adicionar resultados às suas próprias metas ou metas que pertencem a outras entidades na organização.
 
-Considere o seguinte ao trabalhar com os resultados:
+Considere o seguinte ao trabalhar com resultados:
 
-* Eles respondem a pergunta: &quot;Como saberei quando meu objetivo estiver completo?&quot;
-* São indicadores de métrica. Você pode selecionar entre as seguintes opções para indicar um progresso para o resultado:
+* Eles respondem à pergunta: &quot;Como saberei quando meu objetivo estiver concluído?&quot;
+* Eles são indicadores de métrica. Você pode selecionar entre as seguintes opções para indicar o progresso do resultado:
 
-   <!--
+  <!--
   this might change (jira, Salesforce, etc))
   -->
 
@@ -93,7 +76,7 @@ Considere o seguinte ao trabalhar com os resultados:
    * Número
    * Percentagem
 
-Para obter mais informações sobre os resultados, consulte a lista de semelhanças entre resultados e atividades na seção . [Semelhanças entre resultados, atividades e projetos](#similarities-between-results-activities-and-projects) neste artigo.
+Para obter mais informações sobre resultados, consulte a lista de semelhanças entre resultados e atividades na seção [Semelhanças entre resultados, atividades e projetos](#similarities-between-results-activities-and-projects) neste artigo.
 
 ## Visão geral das atividades
 
@@ -101,14 +84,14 @@ Para obter mais informações sobre os resultados, consulte a lista de semelhan�
 This will have additional types in the future - add another section for types?
 -->
 
-Atividades, como resultados, são específicas e mensuráveis e geralmente incluem um indicador de porcentagem completa. Como proprietário da meta, você também pode ser o proprietário das atividades associadas à meta. Uma atividade na meta também pode ser atribuída a um usuário diferente.
+Atividades, como resultados, são específicas e mensuráveis e normalmente incluem um indicador de porcentagem concluída. Como proprietário da meta, você também pode ser o proprietário das atividades associadas à meta. Uma atividade na sua meta também pode ser atribuída a um usuário diferente.
 
-Para obter informações sobre como adicionar atividades às metas, consulte [Adicionar atividades às metas em Metas da Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+Para obter informações sobre como adicionar atividades às metas, consulte [Adicionar atividades às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
-Considere o seguinte ao associar atividades com suas metas:
+Considere o seguinte ao associar atividades às suas metas:
 
-* Eles respondem a pergunta: &quot;O que eu vou alcançar quando a meta for concluída?&quot;
-* Atividades são entradas personalizadas que podem ser consideradas mais em termos de conclusão ou incompleta. Eles devem ser atualizados manualmente para indicar qual porcentagem da atividade foi concluída até o momento.
+* Eles respondem à pergunta: &quot;O que atingirei quando a meta estiver concluída?&quot;
+* Atividades são entradas personalizadas que podem ser consideradas mais em termos de completas ou incompletas. Eles devem ser atualizados manualmente para indicar que porcentagem da atividade foi concluída até o momento.
 
 <!--
 * You can associate the following activities with goals:
@@ -132,15 +115,15 @@ Considere o seguinte ao associar atividades com suas metas:
 -->
 <!--drafted for goal redesign: For THE PRODUCTION RELEASE: remove the projects in this article altogether.-->
 
-Para obter mais informações sobre resultados e atividades, consulte a lista de semelhanças entre resultados e atividades na seção . [Semelhanças entre resultados, atividades e projetos](#similarities-between-results-activities-and-projects) neste artigo.
+Para obter mais informações sobre resultados e atividades, consulte a lista de semelhanças entre resultados e atividades na seção [Semelhanças entre resultados, atividades e projetos](#similarities-between-results-activities-and-projects) neste artigo.
 
 ## Semelhanças entre resultados, atividades e projetos {#similarities-between-results-activities-and-projects}
 
-Os resultados, as atividades e os projetos são indicadores de progresso de metas.
+Resultados, atividades e projetos são indicadores de progresso de metas.
 
-Há algumas diferenças no modo como você gerencia projetos em vez da maneira como você gerencia resultados e atividades. Para obter informações sobre como adicionar projetos às metas, consulte [Adicionar atividades às metas em Metas da Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md). Para obter informações sobre projetos relacionados a metas, consulte [Adicionar projetos às metas em Metas da Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+Há algumas diferenças no modo de gerenciar projetos em relação ao modo de gerenciar resultados e atividades. Para obter informações sobre como adicionar projetos às metas, consulte [Adicionar atividades às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md). Para obter informações sobre projetos conectados a metas, consulte [Adicionar projetos às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
-Além de resultados, atividades e projetos, você também pode associar metas secundárias a uma meta. As metas das crianças são também um tipo de indicador de progresso para uma meta. Para obter mais informações, consulte [Alinhar metas ao conectá-las às metas da Adobe Workfront](../goal-alignment/align-goals-by-connecting-them.md). O progresso dos indicadores de progresso da meta dos filhos também impulsiona o progresso da meta principal.
+Além de resultados, atividades e projetos, você também pode associar metas secundárias a uma meta. As metas secundárias também são um tipo de indicador de progresso para uma meta. Para obter informações, consulte [Alinhar metas ao conectá-las às Metas do Adobe Workfront](../goal-alignment/align-goals-by-connecting-them.md). O progresso dos indicadores de progresso da meta secundária também orienta o progresso da meta principal.
 
 A tabela a seguir exibe semelhanças e diferenças entre resultados, atividades e projetos, como indicadores de meta:
 
@@ -157,19 +140,19 @@ A tabela a seguir exibe semelhanças e diferenças entre resultados, atividades 
    <td> <p><strong>Projetos</strong> </p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td><span style="font-weight: normal;">Você pode personalizar o nome do objeto na interface do Workfront</span> </td> 
+   <td><span style="font-weight: normal;">É possível personalizar o nome do objeto na interface do Workfront</span> </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
   <tr> 
-   <td>Você pode adicioná-las a objetivos passados.</td> 
+   <td>Você pode adicioná-los às metas anteriores.</td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
   <tr> 
-   <td>Você pode associar vários resultados, atividades ou projetos com a mesma meta. </td> 
+   <td>É possível associar vários resultados, atividades ou projetos com a mesma meta. </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>✔</td> 
@@ -181,19 +164,19 @@ A tabela a seguir exibe semelhanças e diferenças entre resultados, atividades 
    <td>✔</td> 
   </tr> 
   <tr> 
-   <td>O progresso é levado em conta ao calcular o progresso do objetivo. </td> 
+   <td>Seu progresso é levado em conta ao calcular o progresso da meta. </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
   <tr> 
-   <td>Eles devem ser atualizados manualmente na Workfront Metas</td> 
+   <td>Eles devem ser atualizados manualmente no Workfront Goals</td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Eles devem ser concluídos na Data final da meta</td> 
+   <td>Eles devem ser concluídos na Data de Término da meta</td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
@@ -205,13 +188,13 @@ A tabela a seguir exibe semelhanças e diferenças entre resultados, atividades 
    <td>✔</td> 
   </tr> 
   <tr> 
-   <td>Eles são específicos e mensuráveis e geralmente incluem números de conjunto que indicam seu progresso. </td> 
+   <td>Eles são específicos e mensuráveis e normalmente incluem números definidos que indicam seu progresso. </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
   <tr> 
-   <td>Eles oferecem um intervalo de valores entre os valores inicial e final que ilustra o quão próximo você está de atingi-los. A proximidade com o valor final calcula um valor de Andamento para sua meta. </td> 
+   <td>Eles oferecem um intervalo de valores entre os valores inicial e final que ilustra o quão perto você está de atingi-los. A proximidade com o valor final calcula um valor de Progresso para a meta. </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>✔</td> 

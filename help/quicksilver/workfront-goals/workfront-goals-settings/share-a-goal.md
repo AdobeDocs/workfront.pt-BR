@@ -1,126 +1,89 @@
 ---
 product-previous: workfront-goals
 navigation-topic: workfront-goals-settings
-title: Compartilhar uma meta na Workfront
+title: Compartilhar uma meta no Workfront Goals
 description: Ao compartilhar uma meta, você dá permissões de gerenciamento a uma meta para alguém que não a criou.
 author: Alina
 feature: Workfront Goals
 exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 2%
+source-wordcount: '804'
+ht-degree: 4%
 
 ---
 
-# Compartilhar uma meta na Adobe Workfront
+# Compartilhar uma meta no Adobe Workfront Goals
 
 Ao compartilhar uma meta, você dá permissões de gerenciamento a uma meta para alguém que não a criou.
 
 ## Requisitos de acesso
 
-<!--drafted - replace the table below with this one when P&P releases: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">Adobe Workfront plan*</td>
-   <td>
-   <p>Current plan: Select or higher</p>
-   Or
-   <p>Legacy plan: Pro or higher</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Adobe Workfront license*</td>
-   <td>
-   <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Product</td>
-   <td>
-   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
-   Or
-   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Access level*</td>
-   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
-     <ul>
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
-     </ul> </p> </td>
-  </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Object permissions</td>
-   <td>
-    <div>
-     <p>View or higher permissions to the goal to view it</p>
-     <p>Manage permissions to the goal to edit it</p>
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
-    </div> </td>
-  </tr>
- </tbody>
-</table>
--->
-
 Você deve ter o seguinte:
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Plano Adobe Workfront*</td> 
-   <td> <p>Pro ou superior</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças do Adobe Workfront</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produto</td> 
-   <td> <p>Você deve comprar uma licença adicional para a funcionalidade Metas da Adobe Workfront para acessar descrita neste artigo. </p> <p>Para obter mais informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar o acesso às Metas ou superior</p> <p><b>Nota</b><p>Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte:</p> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Conceder acesso às Metas da Adobe Workfront</a></span> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Permissões de objeto</td> 
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> 
-    <div> 
-     <p>Gerenciar permissões para a meta</p> 
-     <p>Para obter informações sobre como compartilhar metas, consulte <a href="#" class="MCXref xref selected">Compartilhar uma meta na Workfront</a>. </p> 
-    </div> </td> 
-  </tr> 
- </tbody> 
+   <p>Para o novo plano e estrutura de licença:
+  <ul><li>Um plano Ultimate </li>
+  Ou
+  <li>Uma licença adicional para o Adobe Workfront Goals para os planos Prime ou Select Adobe Workfront. </li></ul> </p>
+<p>Para o plano e a estrutura de licença atuais: 
+<ul><li> A Pro ou superior </li>
+  <li>Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.</li></ul></p>
+   </td> 
+  </tr>
+ <tr>
+ <td role="rowheader">Licença da Adobe Workfront*</td>
+ <td>
+ <p>Nova licença: Contributor ou superior</p>
+ Ou
+ <p>Licença atual: Solicitação ou superior</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Produto*</td>
+ <td>
+ <p> Novo requisito de produto, um dos seguintes: </p>
+<ul>
+<li>Um plano Select ou Prime do Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
+<li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
+ <p>Ou</p>
+ <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Nível de acesso</td>
+ <td> <p>Editar acesso às Metas</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Permissões de objeto</td>
+ <td>
+  <div>
+  <p>Exibir permissões ou mais altas para a meta para exibi-la</p>
+  <p>Gerenciar permissões para a meta para editá-la</p>
+  <p>Para obter informações sobre como compartilhar metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartilhar uma meta no Workfront Goals</a>. </p>
+  </div> </td>
+ </tr>
+<tr>
+   <td role="rowheader"><p>Modelo de layout</p></td>
+   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclui a área Metas no Menu principal. </p>  
+</td>
+  </tr>
+</tbody>
 </table>
 
-*Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Pré-requisitos
-
-Antes de começar, você deve ter o seguinte:
-
-* Um modelo de layout que inclui a área Metas no Menu principal.
-
-## Considerações sobre o compartilhamento de metas
+## Considerações sobre compartilhamento de metas
 
 * Os usuários podem ter as seguintes permissões para uma meta:
 
-   <table style="table-layout:auto"> 
+  <table style="table-layout:auto"> 
    <col> 
    </col> 
    <col> 
@@ -134,14 +97,14 @@ Antes de começar, você deve ter o seguinte:
    <tr> 
       <td role="rowheader"><p>Exibir</p></td> 
       <td>
-      <p>Os usuários têm permissões para visualizar a meta, mas não podem editar informações para a meta, não podem adicionar ou editar informações para resultados ou atividades, atualizar status ou excluir a meta.</p>      
-      <p>Por padrão, todos os usuários com acesso às Metas podem visualizar todas as metas no sistema. Os usuários podem copiar a meta, se tiverem o acesso de Edição às Metas em seu nível de acesso.</p> </td> 
+      <p>Os usuários têm permissões para exibir a meta, mas não podem editar informações para a meta, não podem adicionar ou editar informações de resultados ou atividades, atualizar status ou excluir a meta.</p>      
+      <p>Por padrão, todos os usuários com acesso a Metas podem exibir todas as metas no sistema. Os usuários podem copiar a meta se tiverem acesso de Edição a Metas em seus níveis de acesso.</p> </td> 
    </tr> 
    <tr> 
       <td role="rowheader"><p>Gerenciar</p></td> 
-      <td> <p>Os usuários podem editar todas as informações para a meta, incluindo os resultados ou as atividades, incluindo excluí-las.</p> 
-      <p>Somente criadores de metas ou usuários com permissões de gerenciamento específicas a uma meta podem gerenciar uma meta.</p> 
-      Somente usuários com permissões de gerenciamento para uma meta podem compartilhar a meta com outras pessoas para conceder a elas permissões de gerenciamento para a meta. </p> </td> 
+      <td> <p>Os usuários podem editar todas as informações da meta, incluindo os resultados, ou atividades, incluindo excluí-las.</p> 
+      <p>Somente os criadores de metas ou usuários que recebem especificamente permissões para Gerenciar uma meta podem gerenciar uma meta.</p> 
+      Somente usuários com permissões para Gerenciar uma meta podem compartilhá-la com outras pessoas para que eles possam gerenciar permissões para a meta. </p> </td> 
    </tr> 
    </tbody> 
    </table>
@@ -149,13 +112,13 @@ Antes de começar, você deve ter o seguinte:
 * Você pode compartilhar os seguintes tipos de metas com outras pessoas:
 
    * Uma meta que você criou
-   * Uma meta criada por outra pessoa à qual você recebeu permissões para gerenciar.
+   * Uma meta criada por outra pessoa para a qual você recebeu permissões para gerenciar.
 
-* Se você tiver permissões de gerenciamento em uma meta, poderá alterar as permissões na meta do criador da meta. Por padrão, eles têm permissões de Gerenciamento ao criar a meta, mas você pode alterar as permissões para Exibir.
+* Se você tiver Gerenciar permissões para uma meta, poderá alterar as permissões na meta para o criador da meta. Por padrão, eles têm permissões Gerenciar ao criar a meta, mas você pode alterar as permissões para Exibir.
 
 ## Compartilhar uma meta
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) > **Metas** no canto superior direito.
+1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) > **Metas** no canto superior direito.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -164,7 +127,7 @@ Antes de começar, você deve ter o seguinte:
 
 1. Clique no nome de uma meta na lista. A página de meta é aberta.
 
-1. Clique no botão **Ícone Mais** ao lado do nome da meta, em seguida, clique em **Compartilhar**.
+1. Clique em **Ícone Mais** ao lado do nome da meta, clique em **Compartilhar**.
 
    ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
 
@@ -174,20 +137,20 @@ Antes de começar, você deve ter o seguinte:
 
 1. Siga um destes procedimentos:
 
-   * Selecione o **Gerenciar todo o sistema** configuração para conceder permissões de gerenciamento a todos no sistema que tenham o acesso de Edição a Metas em seu nível de acesso. Isso é desmarcado por padrão para todas as novas metas.
-   * Comece a digitar o nome de um usuário ao qual você deseja conceder permissões de Gerenciamento no **Conceder acesso ao Gerenciar** caixa. Selecione o nome quando ele aparecer na lista.
+   * Selecione o **Gerenciar em todo o sistema** configuração para conceder permissões de gerenciamento a todos os usuários no sistema que têm acesso de Edição a Metas em seus níveis de acesso. Esta opção fica desmarcada por padrão para todas as novas metas.
+   * Comece digitando o nome de um usuário ao qual você deseja conceder permissões de gerenciamento na **Conceder acesso de gerenciamento a** caixa. Selecione o nome quando ele aparecer na lista.
 
-      >[!TIP]
-      >
-      >Você só pode compartilhar uma meta com outros usuários. Você não pode compartilhar metas com grupos, equipes ou sua empresa.
+     >[!TIP]
+     >
+     >Você só pode compartilhar uma meta com outros usuários. Não é possível compartilhar metas com grupos, equipes ou com sua empresa.
 
 1. Clique em **Compartilhar**.
 
-   A meta é compartilhada com os usuários especificados. Um rótulo &quot;Todo o sistema&quot; ou o nome dos usuários que têm permissões de Gerenciamento para a meta são exibidos no campo Acesso a gerenciamento no painel Detalhes da meta .
+   A meta é compartilhada com os usuários especificados. Um rótulo &quot;Em todo o sistema&quot; ou o nome dos usuários que têm permissões de Gerenciamento para a meta são exibidos no campo Acesso para Gerenciar no painel Detalhes da meta.
 
-## Opções de permissão de meta
+## Opções de permissão da meta
 
-A tabela a seguir lista as permissões que você pode conceder ao compartilhar uma meta. Para obter mais informações sobre o acesso que os usuários têm com base em sua licença, consulte [Conceder acesso às Metas da Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+A tabela a seguir lista as permissões que você pode conceder ao compartilhar uma meta. Para obter mais informações sobre o acesso que os usuários obtêm com base em suas licenças, consulte [Conceder acesso ao Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -205,71 +168,71 @@ A tabela a seguir lista as permissões que você pode conceder ao compartilhar u
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Meta de visualização</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>Exibir meta</p> </td> 
+   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓ µ</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Exibir resultados ou atividades</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓ µ</p> </td> 
   </tr> 
   <tr> 
    <td>Copiar meta* </td> 
-   <td>✓ </td> 
-   <td>✓</td> 
+   <td>✓ µ </td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Converter resultados ou atividades em outras metas*</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Exibir projetos adicionados como atividades** </td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Editar meta</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Editar resultados ou atividades</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Adicionar resultados ou atividades para a meta</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Associar um projeto como uma atividade à meta**</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Excluir meta</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ µ</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Excluir resultados ou atividades</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ µ</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td>Desconectar projetos da meta</td> 
-   <td>✓</td> 
+   <td>✓ µ</td> 
    <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Você deve ter o acesso Editar às Metas em seu nível de acesso para poder converter resultados e atividades em metas.
+*Você deve ter acesso para Editar Metas no seu nível de acesso para poder converter resultados e atividades em metas.
 
-**Você deve ter acesso à permissão Exibir projetos e Exibir para os projetos adicionados ou que você deseja adicionar à meta para exibi-los.
+**É necessário ter acesso a Visualizar projetos e permissão de Visualização para os projetos adicionados ou que você deseja adicionar à meta para visualizá-los.
 
 Para obter informações sobre o nível de acesso do projeto, consulte [Conceder acesso aos projetos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 

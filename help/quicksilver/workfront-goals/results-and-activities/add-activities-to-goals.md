@@ -7,9 +7,9 @@ description: As atividades medem o progresso de uma meta. Sem resultados associa
 author: Alina
 feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
-source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '465'
 ht-degree: 1%
 
 ---
@@ -28,13 +28,18 @@ Você deve ter o seguinte:
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">plano do Adobe Workfront</td>
- <td>
- <p>Qualquer</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> 
+   <p>Para o novo plano e estrutura de licença:
+  <ul><li>Um plano Ultimate </li>
+  Ou
+  <li>Uma licença adicional para o Adobe Workfront Goals para os planos Prime ou Select Adobe Workfront. </li></ul> </p>
+<p>Para o plano e a estrutura de licença atuais: 
+<ul><li> A Pro ou superior </li>
+  <li>Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Licença da Adobe Workfront*</td>
  <td>

@@ -3,19 +3,26 @@ product-area: workfront-navigation
 navigation-topic: workfront-navigation
 title: Experiência unificada do Adobe para [!DNL Workfront]
 description: Acesso ao [!DNL Workfront] o Adobe Experience Cloud oferece uma experiência perfeita e unificada para gerenciar todos os seus aplicativos Adobe.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Unified Experience] por [!DNL Workfront]
+# [!DNL Adobe Unified Experience] para [!DNL Workfront]
 
 Acesso ao [!DNL Workfront] até [!DNL Adobe Experience Cloud] oferece uma experiência perfeita e unificada para gerenciar todos os seus [!DNL Adobe] aplicativos. O gerenciamento de identidade única fornece um local para fazer logon, sem vários URLs ou IDs de logon.
+
+Para determinar se sua organização está no Adobe Unified Experience, examine o URL que você usa para acessar o Workfront.
+
+| URL | Experiência do Adobe |
+|------------|------------|
+| (NomeEmpresa).my.workfront.com | experiência com o Workfront |
+| experience.adobe.com | Experiência unificada do Adobe |
 
 ## Requisitos de acesso
 
@@ -27,7 +34,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
@@ -51,7 +58,7 @@ Em caso de dúvidas sobre a integração ao [!DNL Adobe Admin Console], consulte
 
    ![Fazer logon em [!DNL Adobe Experience Cloud]](assets/aec-login-page.png)
 
-## Acesso [!DNL Workfront]
+## Access [!DNL Workfront]
 
 Depois de fazer logon no [!DNL Adobe Experience Cloud], você pode exibir todos os [!DNL Workfront] organizações e ambientes aos quais você tem acesso clicando no alternador de organização na área de navegação superior. Selecione o [!DNL Workfront] organização ou ambiente em que você deseja trabalhar. Os ambientes podem incluir [!UICONTROL Visualizar] e [!UICONTROL Sandbox] se sua organização as utilizar.
 

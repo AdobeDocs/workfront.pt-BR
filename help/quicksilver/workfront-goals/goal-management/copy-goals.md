@@ -6,9 +6,9 @@ description: Você pode copiar metas nas Metas do Adobe Workfront para criar uma
 author: Alina
 feature: Workfront Goals
 exl-id: 690a6030-ee29-4e50-869f-cd014050b364
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '811'
 ht-degree: 4%
 
 ---
@@ -27,13 +27,19 @@ Você deve ter o seguinte:
 <col>
 </col>
 <tbody>
+ <tr> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> 
+   <p>Para o novo plano e estrutura de licença:
+  <ul><li>Um plano Ultimate </li>
+  Ou
+  <li>Uma licença adicional para o Adobe Workfront Goals para os planos Prime ou Select Adobe Workfront. </li></ul> </p>
+<p>Para o plano e a estrutura de licença atuais: 
+<ul><li> A Pro ou superior </li>
+  <li>Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.</li></ul></p>
+   </td> 
+  </tr>
  <tr>
- <td role="rowheader">plano do Adobe Workfront</td>
- <td>
- <p>Qualquer</p>
-
-</td>
- </tr>
  <tr>
  <td role="rowheader">Licença da Adobe Workfront*</td>
  <td>

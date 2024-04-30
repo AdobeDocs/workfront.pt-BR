@@ -6,9 +6,9 @@ description: Seja você um CEO, um gerente ou um colaborador individual, é poss
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '727'
 ht-degree: 5%
 
 ---
@@ -27,14 +27,19 @@ Você deve ter o seguinte:
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">plano do Adobe Workfront</td>
- <td>
- <p>Qualquer</p>
-
-</td>
- </tr>
- <tr>
+<tr> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td> 
+   <p>Para o novo plano e estrutura de licença:
+  <ul><li>Um plano Ultimate </li>
+  Ou
+  <li>Uma licença adicional para o Adobe Workfront Goals para os planos Prime ou Select Adobe Workfront. </li></ul> </p>
+<p>Para o plano e a estrutura de licença atuais: 
+<ul><li> A Pro ou superior </li>
+  <li>Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.</li></ul></p>
+   </td> 
+  </tr>
+  <tr>
  <td role="rowheader">Licença da Adobe Workfront*</td>
  <td>
  <p>Nova licença: Contributor ou superior</p>
@@ -52,7 +57,7 @@ Você deve ter o seguinte:
  <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as metas do Workfront</a>. </p> </td>
  </tr>
 <tr>
-<td role="rowheader">Nível de acesso*</td>
+<td role="rowheader">Nível de acesso</td>
 <td> <p>Editar acesso às Metas</p> </td>
 </tr>
 <tr data-mc-conditions="">
