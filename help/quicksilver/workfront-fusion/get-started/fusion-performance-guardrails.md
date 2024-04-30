@@ -8,7 +8,7 @@ description: O Adobe Workfront Fusion exige uma licença do Adobe Workfront Fusi
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: c35b1bc54719a6c9a056d2ddd08c953c0bae03b7
+source-git-commit: 9e934a81bce632902dda97f8d79f5110df3cce92
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 1%
@@ -25,7 +25,7 @@ A automação do trabalho exige processamento rápido, de modo que [!DNL Adobe W
 
 ## Navegadores
 
-O Workfront Fusion só é compatível com navegadores baseados no Chrome.
+* O Workfront Fusion só é compatível com navegadores baseados no Chrome.
 
 ## Cenários
 
@@ -75,9 +75,9 @@ O Workfront Fusion só é compatível com navegadores baseados no Chrome.
 
 ## Execuções incompletas
 
-As execuções incompletas são limitadas a um tamanho total de **500 MB**. Se o limite de 500 MB for atingido, não serão armazenadas mais execuções incompletas.
+* As execuções incompletas são limitadas a um tamanho total de **500 MB**. Se o limite de 500 MB for atingido, não serão armazenadas mais execuções incompletas.
 
 ## Tentativas
 
-Ao usar o módulo Break e especificar a diretiva Retry, se um cenário falhar consecutivamente 10 vezes em um período de 2 minutos, o cenário será desativado automaticamente.
+* Ao usar o módulo Break e especificar a diretiva Retry, se um cenário falhar consecutivamente 10 vezes em um período de 2 minutos, o cenário será desativado automaticamente.
 
