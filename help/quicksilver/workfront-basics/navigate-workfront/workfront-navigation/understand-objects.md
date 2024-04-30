@@ -6,14 +6,16 @@ description: "As informações exibidas no [!DNL Adobe Workfront] é representad
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
+source-git-commit: d55432667aa86db3216d10d8475962d9e441648b
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2400'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront] visão geral de objetos
+
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente Visualização da sandbox.</span>
 
 <!--Audited: 12/2023-->
 
@@ -205,6 +207,18 @@ Nem todos os objetos são pesquisáveis em [!DNL Workfront]. Você pode executar
 | [!UICONTROL Notas] (ou [!UICONTROL Atualizações]) | ✓ µ |  |
 
 Para obter mais informações sobre a execução de pesquisas básicas e avançadas no [!DNL Workfront], consulte [Pesquisar [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
+
+
+## Acesso restrito a objetos
+
+<span class="preview">
+Quando um usuário não tem acesso a um objeto, o usuário vê "Sem acesso" em qualquer lugar que o nome do objeto seja exibido no Workfront.
+
+O acesso a objetos pode ser restrito no nível de acesso ou nas permissões de um objeto específico.
+
+Isso se aplica a todos os objetos e objetos filho listados na [Interdependência e hierarquia de objetos](#interdependency-and-hierarchy-of-objects) neste artigo. Isso não se aplica aos objetos Equipe e Usuário.
+
+</span>
 
 ## Relatório sobre objetos
 
