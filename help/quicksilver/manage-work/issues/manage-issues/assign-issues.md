@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: abe6d1dbd256506fd733fa626ac5907fb9c24d65
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1490'
 ht-degree: 0%
 
 ---
 
 # Atribuir problemas
+
+{{highlighted-preview}}
 
 Você pode atribuir problemas a usuários, funções e equipes para indicar quem é responsável por concluir os problemas. Para obter informações gerais sobre atribuição de problemas, consulte [Visão geral da modificação de atribuições de emissão](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -112,13 +114,17 @@ Considere o seguinte ao atribuir vários recursos a um item de trabalho:
 
    Clique no nome das atribuições atuais, se a ocorrência já tiver sido atribuída.
 
-   ![](assets/nwe-assign-to-button-in-header-350x77.png)
+   ![Botão Atribuir a](assets/assign-to-button-in-header.png)
 
 1. Siga um destes procedimentos:
 
    * Comece a digitar o nome de um usuário, função ou equipe que deseja atribuir e clique nele quando ele aparecer na lista.
 
+     Imagem de amostra no ambiente de produção:
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
+
+     <span class="preview">Imagem de exemplo no ambiente de Pré-visualização:</span>
+     ![Pesquisa de atribuições](assets/assignments-expanded-in-task-issue-header.png)
 
    * (Condicional) Clique em um dos nomes na caixa **Atribuições sugeridas** lista
    * Clique em **Atribuir a mim** para atribuir a si mesmo
@@ -161,7 +167,11 @@ Para atribuir ocorrências em uma lista:
 
    * Clique dentro do **Atribuições** e comece digitando o nome de um usuário, função de trabalho ou equipe ativa que deseja atribuir ao problema e clique nele quando ele for exibido na lista.
 
+     Imagem de amostra no ambiente de produção:
      ![](assets/assignments-field-task-list-nwe.png)
+
+     <span class="preview">Imagem de exemplo no ambiente de Pré-visualização:</span>
+     ![Campo Atribuições](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
    >

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Você pode ajustar as seguintes informações de atribuição ao fazer atribuiç
 * Ajuste e redistribua o número de horas que cada destinatário é alocado.
 * Determine qual usuário deve ser designado como o proprietário ou o Principal responsável pela tarefa ou problema.
 * Especifique qual função cada usuário está cumprindo ao trabalhar na tarefa ou problema.
-* <span class="preview">Substituir a taxa de cobrança de uma função de trabalho.</span>
+  <!--* <span class="preview">Override the billing rate for a job role.</span>-->
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -93,7 +93,11 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
 1. Clique em **Avançado**.
 
+   Imagem de amostra no ambiente de produção:
    ![](assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
+
+   <span class="preview">Imagem de exemplo no ambiente de Pré-visualização:</span>
+   ![Clique em Avançado](assets/assignments-box-in-task-header.png)
 
 1. No **Pesquisar pessoas, funções e equipes** comece digitando o nome de um usuário, função ou equipe e clique no nome quando ele aparecer na lista suspensa.
 
@@ -113,15 +117,15 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
    >Você deve ter a configuração Exibir informações de contato ativada no seu nível de acesso para que os usuários visualizem os emails dos usuários. Para obter informações, consulte [Conceder acesso aos usuários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
    >
    >
-   >* <span class="preview">Ao adicionar uma atribuição de função de trabalho, você pode pesquisar a função de trabalho ou o local. Selecione a Função de Trabalho Sistema/Padrão para usar a taxa de faturamento padrão para a atribuição ou selecione uma Função de Cartão de Taxa para substituir a taxa no nível da atribuição. Para obter mais informações sobre cartões de taxa, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
-   >
-   >
    >* Se um usuário, função de trabalho ou equipe foi atribuído antes de ser desativado, ele permanece atribuído ao item de trabalho. Nesse caso, recomendamos o seguinte:
    >   
    >   * Reatribuir o item de trabalho aos recursos ativos.
    >   * Associe os usuários de uma equipe desativada a uma equipe ativa e reatribua o item de trabalho à equipe ativa.
-   >   
    >
+
+   <!-- SHOULD BE THIRD BULLET POINT IN TIP TABLE WHEN THIS FEATURE IS RELEASED 
+    * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+    -->
 
 1. Para cada usuário na variável **Destinatário** especifique as seguintes informações:
 
@@ -151,15 +155,19 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 
    * **Função do destinatário:** Selecione a função que o usuário deve usar ao realizar esta atribuição.  A Função principal do usuário é exibida por padrão. Clique na caixa Função do responsável para selecionar outra função.  Ao atribuir a tarefa ou o problema a uma função primeiro e, em seguida, adicionar um usuário que pode desempenhar essa função como uma segunda atribuição, a lista de usuários sugeridos é filtrada para os usuários que podem desempenhar as funções já atribuídas à tarefa e ao problema.
 
+     Imagem de amostra no ambiente de produção:
      ![](assets/advanced-assignments-box-select-a-role-350x243.png)
 
-   <div class="preview">
+     <span class="preview">Imagem de exemplo no ambiente de Pré-visualização:</span>
+     ![Função do atribuidor](assets/advanced-assignments-select-role.png)
 
-   * **Localização**: A localização vem do cartão de taxa, se um cartão de taxa anexado ao projeto usar localizações com as funções de trabalho. O local não pode ser alterado.
+   <!--<div class="preview">
 
-   * **Taxas de cobrança**: A taxa de faturamento de um usuário vem da taxa do sistema do usuário ou de sua função de trabalho associada. A taxa de cobrança de uma função de trabalho vem da taxa do sistema ou do cartão de taxa, se um cartão de taxa estiver anexado ao projeto. As taxas de cobrança existentes não são exibidas nesse campo. Clique em no campo para alterar a taxa de faturamento para essa atribuição de tarefa específica.
+   * **Location**: The location comes from the rate card, if a rate card attached to the project uses locations with the job roles. The location can't be changed. 
 
-   </div>
+   * **Billing Rates**: The billing rate for a user comes from the system rate for the user or their associated job role. The billing rate for a job role comes from the system rate or from the rate card, if a rate card is attached to the project. Existing billing rates are not displayed in this field. Click in the field to change the billing rate for this specific task assignment.
+
+   </div>-->
 
    * **Tipo de Duração**: disponível somente para tarefas. Clique no nome do Tipo de duração e selecione um Tipo de duração no menu suspenso. Para obter informações sobre Tipos de duração, consulte [Visão Geral da Duração da Tarefa e do Tipo de Duração](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
@@ -170,14 +178,12 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
    * **Horas planejadas**: Quando o Tipo de duração for Atribuição calculada ou Simples, atualize o número de Horas planejadas. Como resultado, as porcentagens de alocação ou as horas de cada recurso são distribuídas uniformemente. O Workfront calcula as horas planejadas quando o tipo de duração é Trabalho calculado ou orientado pelo esforço. Para obter mais informações, consulte [Visão Geral da Duração da Tarefa e do Tipo de Duração](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
      Imagem de amostra no ambiente de produção:
-
      ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
 
      <div class="preview">
 
      Imagem de exemplo no ambiente de Pré-visualização:
-
-     ![Atribuições avançadas](assets/advanced-assignments-location-billing-rates.png)
+     ![Atribuições avançadas](assets/advanced-assignments-duration-type-allocations.png)
 
      </div>
 

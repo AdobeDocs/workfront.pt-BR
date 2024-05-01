@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 13a1d9ebee75c468ce55794db130f01ba658f125
+source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1966'
 ht-degree: 1%
 
 ---
@@ -88,7 +88,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -170,7 +170,11 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    Clique no nome das atribuições se a tarefa ou problema já estiver atribuído.
 
+   Imagem de amostra no ambiente de produção:
    ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
+
+   <span class="preview">Imagem de exemplo no ambiente de Pré-visualização:</span>
+   ![Atribuições](assets/assignments-box-in-task-header.png)
 
 1. Siga um destes procedimentos:
 
