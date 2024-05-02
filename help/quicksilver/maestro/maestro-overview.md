@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 2%
@@ -78,7 +78,7 @@ Para obter informações sobre novos recursos e quando eles são lançados, cons
 | Conectar registros do Workfront Planning a projetos, programas, portfólios, empresas e grupos do Workfront | ✓ µ |                                 |                  |
 | Conectar registros do Workfront Planning aos ativos do Adobe Experience Manager | ✓ µ |                                  |                 |
 | Registrar página com informações detalhadas | ✓ µ |                                  |                  |
-| Atualizar o layout da página do registro |                               | ✓ µ |                  |
+| Atualizar o layout da página do registro | ✓ µ |                                 |                  |
 | Compartilhar espaços de trabalho | ✓ µ | |  |
 | Compartilhar exibições | ✓ µ | |  |
 | Exibições duplicadas | ✓ µ | |  |

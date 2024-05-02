@@ -1,18 +1,18 @@
 ---
 title: Editar campos
-description: No Adobe Workfront Planning, é possível editar as configurações de campo para campos já criados.
+description: No Adobe Workfront Planning, é possível editar as configurações de campo para campos já criados. Este artigo descreve como é possível editar as configurações para campos do Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!---
 title: Edit foelds
@@ -35,18 +35,26 @@ Para obter informações sobre a criação de campos do Adobe Workfront Planning
 
 Este artigo descreve como é possível editar as configurações para campos do Workfront Planning. Para obter informações sobre edição de valores de campo para registros, consulte [Editar registros](/help/quicksilver/maestro/records/edit-records.md).
 
-## Considerações sobre a edição de informações de campo
+## Considerações sobre a edição de configurações de campo
+
+Você deve considerar o seguinte antes de fazer alterações na configuração de um campo:
 
 * É possível editar campos criados ou campos criados por outros usuários, se você tiver permissões de gerenciamento para o espaço de trabalho ao qual os campos pertencem.
 * É possível editar um campo na tabela de tipo de registro.
-* Não é possível editar um campo na página de registro ou na exibição de linha do tempo.
+* Não é possível editar um campo na página de registro ou em qualquer outra exibição fora da exibição de tabela.
 * Não é possível editar o tipo de campo depois que o campo é salvo.
 * Não é possível desmarcar a configuração Permitir números negativos que foi selecionada anteriormente para um campo Número, Porcentagem ou Moeda se já houver valores negativos armazenados nos registros aos quais está anexado.
-<!--this is not true yet; one piece of it is true and I added it as the bullet above: 
-* You cannot edit the options, or the special format of the following fields, after they are saved:
 
-    * Allow negative numbers option from a Number, Percentage, or Currency field. 
+<!--this is not true yet, but will be with the release of RTBE for field configuration changes: 
+
+* You can edit the configuration of the following fields, after they are saved:
+
+    * The Name or the Description of any field
     * The Options of a Single-select or a Multi-select field.
+    * The expression of a Formula field.-->
+
+<!--this is not yet true, but it might come later:
+* You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
 -->
 
 ## Requisitos de acesso
@@ -110,7 +118,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## Editar campos
+## Editar configurações de campo
 
 {{step1-to-maestro}}
 
@@ -122,7 +130,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Clique no cartão do tipo de registro cujos campos você deseja editar.
 
    Essa ação abre a página do tipo de registro.
-1. (Condicional) Selecione um **Visualização em tabela** do **Exibir** no canto superior direito da página tipo de registro.
+1. (Condicional) Clique na guia de um **Visualização em tabela**.
 1. Passe o mouse sobre o cabeçalho da coluna de um campo que deseja editar, clique na seta para baixo após o nome do campo e clique em **Editar campo**
 
    Ou
@@ -138,6 +146,17 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >[!TIP]
    >
    >Não é possível atualizar o tipo de campo depois que o campo é salvo.
+
+   As informações do campo são atualizadas para todos com acesso para exibir o espaço de trabalho.
+
+   <!--After the release of the RTBE for field configurations, replace the tip with this:
+
+    >[!TIP]
+    >
+    >* You cannot update the field type after the field is saved.
+    >
+    >* When you modify field configurations (field options or formula expressions), records that already contain information in the modified fields will update their values in real-time. There is no warning and no audit log for the value changes triggered by field configuration changes. All users who view the fields will immediately see the new values with the modifications. 
+    -->
 
 
 1. (Condicional) Para campos de registro vinculados, clique em **Editar campos de pesquisa** e adicionar ou remover qualquer um dos campos do tipo de registro vinculado.

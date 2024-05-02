@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1520'
 ht-degree: 0%
 
 ---
@@ -92,11 +92,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 * É possível editar registros criados ou registros criados por outras pessoas, se você tiver recebido permissões para o espaço de trabalho.
 * É possível editar campos de registro nas seguintes áreas:
 
-   * A caixa do registro em uma visualização de registro
+   * A visualização do registro em uma exibição de registro
    * A página do registro
    * Em linha, em uma exibição de tabela.
 
-<!--* When a user edits a record in a view, the changes are visible immediately in all views and the record pages to all other users. -->
+* Quando um usuário edita um registro em uma exibição, as alterações são visíveis imediatamente em todas as exibições e nas páginas de registro para todos os outros usuários.
 
 * Os seguintes tipos de campos são atualizados automaticamente e não é possível editar seus valores manualmente:
    * Campos vinculados de outros registros
@@ -113,7 +113,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 É possível editar um registro das seguintes áreas:
 
 * [Na exibição de tabela de um tipo de registro](#edit-a-record-from-the-table-view-of-a-record-type)
-* [Na caixa do registro em uma exibição](#edit-a-record-from-the-records-box-in-a-view)
+* [Da visualização do registro em uma exibição](#edit-a-record-from-the-records-box-in-a-view)
 * [Da página do registro](#edit-a-record-from-the-records-page)
 
 ### Editar um registro incorporado na exibição de tabela de um tipo de registro
@@ -188,7 +188,7 @@ O espaço de trabalho que você acessou por último é aberto.
 
 1. (Opcional) Adicione uma miniatura a um registro. Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
-### Editar um registro da caixa do registro em uma exibição
+### Editar um registro da visualização do registro em uma exibição
 
 {{step1-to-maestro}}
 
@@ -204,7 +204,7 @@ O espaço de trabalho que você acessa por último é aberto.
 
    Ou
 
-   Na exibição de tabela, clique no botão **Abrir detalhes** ícone ![](assets/open-details-icon-in-table-name-field.png) à esquerda do nome de um registro. A caixa do registro é aberta na exibição.
+   Na exibição de tabela, clique no botão **Abrir detalhes** ícone ![](assets/open-details-icon-in-table-name-field.png) à esquerda do nome de um registro. A visualização do registro é aberta na exibição.
 
    ![](assets/details-box.png)
 
@@ -212,7 +212,7 @@ O espaço de trabalho que você acessa por último é aberto.
    >
    >É possível exibir a **Abrir detalhes** Ícone à esquerda do campo Nome de um registro em uma exibição de tabela somente quando o campo Nome é um campo primário.
 
-1. Comece a editar as informações do campo na caixa do registro.
+1. Comece a editar as informações do campo na visualização do registro.
 
    >[!TIP]
    >
@@ -225,7 +225,7 @@ O espaço de trabalho que você acessa por último é aberto.
 
    O Workfront salva suas alterações automaticamente.
 
-1. (Opcional) Clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> no canto superior direito da caixa do registro para abrir a página do registro em uma nova guia. Continue editando o registro conforme descrito em [Editar um registro da página do registro](#edit-a-record-from-the-records-page) neste artigo.
+1. (Opcional) Clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia. Continue editando o registro conforme descrito em [Editar um registro da página do registro](#edit-a-record-from-the-records-page) neste artigo.
 
 ### Editar um registro da página do registro
 
@@ -241,7 +241,7 @@ O espaço de trabalho que você acessa por último é aberto.
 
 1. Siga um destes procedimentos:
 
-   * Em qualquer exibição, acesse a caixa do registro, conforme descrito na seção [Editar um registro da caixa do registro em uma exibição](#edit-a-record-from-the-records-box-in-a-view) neste artigo, em seguida, clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> no canto superior direito da caixa de registro para abrir a página do registro em uma nova guia.
+   * Em qualquer exibição, acesse a visualização do registro, conforme descrito na seção [Editar um registro da visualização do registro em uma exibição](#edit-a-record-from-the-records-preview-in-a-view) neste artigo, em seguida, clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
 
    * No **Tabela** exibir, passe o mouse sobre o nome de um registro, em seguida, clique no **Mais** menu ![](assets/more-menu.png)e, em seguida, clique em **Exibir**
 

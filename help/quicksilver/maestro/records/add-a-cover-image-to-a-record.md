@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 0%
@@ -93,12 +93,12 @@ Considere o seguinte:
 * Uma imagem de capa é exclusiva a um registro e não se aplica a todos os registros do mesmo tipo.
 * Você pode adicionar somente arquivos de imagem como imagens de capa.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
-* Você pode adicionar uma imagem de capa a registros individuais da caixa de registro em qualquer exibição ou da página de registro.
+* É possível adicionar uma imagem de capa a registros individuais a partir da pré-visualização do registro em qualquer exibição ou da página do registro.
 * Não é possível adicionar imagens de capa integradas de qualquer visualização de registro.
 
 ## Adicionar uma imagem da capa a um registro
 
-É possível personalizar um registro adicionando uma imagem de capa na parte superior da caixa ou página do registro.
+É possível personalizar um registro adicionando uma imagem de capa na parte superior da pré-visualização ou página do registro.
 
 {{step1-to-maestro}}
 
@@ -116,7 +116,7 @@ O espaço de trabalho que você acessa por último é aberto.
 
    Na exibição de tabela, clique na guia **Abrir detalhes** ícone ![](assets/open-details-icon-in-table-name-field.png) à esquerda do nome de um registro.
 
-   A caixa do registro é aberta na exibição.
+   A visualização do registro é aberta na exibição.
 
    ![](assets/details-box.png)
 
@@ -124,18 +124,18 @@ O espaço de trabalho que você acessa por último é aberto.
    >
    >É possível exibir a **Abrir detalhes** Ícone à esquerda do campo Nome de um registro em uma exibição de tabela somente quando o campo Nome é um campo primário.
 
-1. (Opcional) Clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> no canto superior direito da caixa de registro para abrir a página do registro em uma nova guia.
+1. (Opcional) Clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
 
    A página de registro é aberta.
 
    ![](assets/details-page.png)
 
-1. Na caixa ou página do registro, clique em **Adicionar capa**. <!--check the casing here; I logged a bug for this-->
+1. Na visualização ou página do registro, clique em **Adicionar capa**. <!--check the casing here; I logged a bug for this-->
 A variável **Gravar capa** é aberta.
 
 1. Clique em **Selecione para fazer upload** e procure uma imagem em seu computador para selecionar, adicioná-la e, em seguida, clique em **Usar imagem**.
 
-   A imagem é carregada na parte superior da caixa ou página de registro e as alterações são salvas automaticamente.
+   A imagem é carregada na parte superior da visualização do registro ou da página e as alterações são salvas automaticamente.
 
    ![](assets/record-page-with-cover-image.png)
 

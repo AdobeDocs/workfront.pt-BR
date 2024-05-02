@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
-source-wordcount: '5636'
+source-wordcount: '5725'
 ht-degree: 0%
 
 ---
@@ -47,8 +47,19 @@ For more information, see [Manage record views](/help/quicksilver/maestro/views/
 
 -->
 
+## Semana de 29 de abril de 2029
+
+### Atualizações em tempo real na caixa de detalhes do registro e na página após editar os registros na exibição de tabela
+
+Produção: 2 de maio de 2024
+
+Visualização: a ser determinado
+
+Quando um usuário atualiza as informações em um registro na exibição de tabela, outros usuários podem exibir as informações atualizadas na caixa de detalhes do registro (dentro de uma exibição) ou na página em tempo real. Isso garante que todos os usuários visualizem as informações atualizadas ao mesmo tempo, em sincronia com quando as alterações ocorrerem.
+
+Para obter informações sobre edição de registros, consulte [Editar registros](/help/quicksilver/maestro/records/edit-records.md).
+
 <!--
-## Week of April 29, 2029
 
 ### Add sections to the record's page 
 
@@ -77,16 +88,6 @@ If any user changes any field configuration (name, description, list of options 
 >There is no notification to other users that the field configuration has changed.  
 
 For more information, see [Edit fields](/help/quicksilver/maestro/fields/edit-fields.md).  
-
-### Real-time updates on the record details box and page after editing records in the table view
-
-Production: <date> 
-
-Preview: To be determined.  
-
-When a user updates the information on a record in the table view, other users can view the updated information in the record's details box (inside of a view) or page in real time. This ensures that all users view the updated information at the same time, in sync with when the changes happen.  
-
-For information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
 
 ### Enable Workfront Planning notifications  
 
@@ -144,7 +145,7 @@ Produção: 4 de abril de 2024
 
 Visualização: a ser determinado
 
-Como gerente do Workspace, agora é possível reordenar os campos listados na página ou caixa de registro. Atualizar a ordem dos campos altera a ordem dos campos em todos os registros do mesmo tipo, para todos que exibem a página de registro ou a caixa de registro.
+Como gerente do Workspace, agora é possível reordenar os campos listados na página de registro ou pré-visualização. Atualizar a ordem dos campos altera a ordem dos campos em todos os registros do mesmo tipo, para todos que visualizam a página de registro ou a pré-visualização do registro.
 
 Para obter mais informações, consulte [Gerenciar a página de registros](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
@@ -155,7 +156,7 @@ Produção: 4 de abril de 2024
 
 Visualização: a ser determinado
 
-Ao gerenciar páginas de registros, agora é possível adicionar, reposicionar e substituir uma imagem de capa em uma página ou caixa de registro, para enriquecer a apresentação do registro e o envolvimento da parte interessada. As imagens de capa são visíveis para todos os usuários que visualizam os registros.
+Ao gerenciar páginas de registros, agora é possível adicionar, reposicionar e substituir uma imagem de capa em uma página de registro ou pré-visualização, para enriquecer a apresentação do registro e o envolvimento da parte interessada. As imagens de capa são visíveis para todos os usuários que visualizam os registros.
 
 Para obter mais informações, consulte [Gerenciar a página de registros](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
@@ -219,15 +220,15 @@ Visualização: a ser determinado
 
 Agora você pode filtrar informações na exibição de calendário. Para obter mais informações, consulte [Gerenciar a exibição de calendário](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
-### Caixa com detalhes de registro adicionados às exibições de linha do tempo e calendário
+### Pré-visualização com detalhes do registro adicionados às exibições de linha do tempo e calendário
 
 Produção: 19 de março de 2024
 
 Visualização: a ser determinado
 
-Agora você pode acessar uma caixa com detalhes de registro das exibições de linha do tempo e calendário. É possível editar registros na caixa do registro dentro das exibições de linha do tempo e calendário.
+Agora é possível acessar a visualização com detalhes do registro das exibições de linha do tempo e calendário. É possível editar registros na caixa de visualização do registro dentro das exibições de linha do tempo e calendário.
 
-Na caixa do registro, é possível abrir a página do registro em uma nova guia do navegador.
+Na visualização do registro, é possível abrir a página do registro em uma nova guia do navegador.
 
 Para obter mais informações, consulte [Editar registros](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -247,7 +248,7 @@ Produção: 14 de março de 2024
 
 Visualização: a ser determinado
 
-Para facilitar a exibição de informações adicionais sobre registros ao usar a exibição de tabela, introduzimos uma nova caixa Detalhes que exibe uma exibição rápida dos detalhes do registro. Estas são algumas das informações incluídas nesta caixa:
+Para facilitar a exibição de informações adicionais sobre registros ao usar a exibição de tabela, introduzimos uma nova visualização de Detalhes que exibe uma exibição rápida dos detalhes do registro. Estas são algumas das informações incluídas na pré-visualização do registro:
 
 * Principais detalhes relevantes do registro
 

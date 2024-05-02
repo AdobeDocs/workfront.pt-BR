@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 Você pode compartilhar uma exibição com outras pessoas para garantir a colaboração ao trabalhar com registros no Adobe Workfront Planning.
 
 Conceder permissões a um espaço de trabalho não concede a outros usuários permissões para as exibições nas páginas do tipo de registro. Você deve conceder permissões a exibições individuais em uma página de tipo de registro para compartilhá-las com outros usuários.
+
+Ao compartilhar uma exibição, você concede a outras pessoas permissões para acessar todos os elementos da exibição. Por exemplo, se você conceder a eles permissões Gerenciar para uma exibição, eles poderão modificar a aparência do agrupamento, do filtro, da classificação ou da barra.
 
 <!--
 You can share a view with the following entities: 

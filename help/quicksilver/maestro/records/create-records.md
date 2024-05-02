@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -127,14 +127,14 @@ Todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
    Ou
 
-   Clique no nome do novo registro ou na **Abrir detalhes** ícone ![](assets/open-details-icon-in-table-name-field.png) à esquerda do nome do registro. A caixa com as informações detalhadas do registro é aberta na tabela.
+   Clique no nome do novo registro ou na **Abrir detalhes** ícone ![](assets/open-details-icon-in-table-name-field.png) à esquerda do nome do registro. Uma visualização com as informações detalhadas do registro é aberta na tabela.
 
    >[!TIP]
    >
-   >Você pode acessar a caixa Detalhes somente a partir do campo de nome do registro quando o campo Nome é um campo principal.
+   >Você pode acessar o **Abrir detalhes** ícone somente do campo name do registro quando o campo Name é um campo primário.
 
-1. Comece a editar as informações do registro na caixa do registro. O Workfront salva suas alterações automaticamente.
-1. (Opcional) Clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) no canto superior direito da caixa do registro para abrir a página do registro em uma nova guia. Continuar editando o registro na página de registro.
+1. Iniciar edição das informações do registro na visualização do registro. O Workfront salva suas alterações automaticamente.
+1. (Opcional) Clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia. Continuar editando o registro na página de registro.
 
 
 1. (Opcional) Use os seguintes atalhos de teclado para desfazer ou refazer a adição de novos registros:
