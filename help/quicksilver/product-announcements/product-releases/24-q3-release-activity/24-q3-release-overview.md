@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: d337bb199db13c17e70be7b40654be8f1a87c2db
+source-git-commit: 58c6062ef427d1ef615768a11e7dbd4835aafa5e
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 >
 >| Lançamento mensal | Versão trimestral |
 >|----|----|
->| <ul><li>24.5 (maio de 2024)</li><li>24.6 (junho de 2024)</li><li>24.7 (julho de 2024)</li></ul> | <ul><li>24.7 (julho de 2024)</li></ul> |
+>| <ul><li>24.5 (16 de maio de 2024)</li><li>24.6 (junho de 2024)</li><li>24.7 (julho de 2024)</li></ul> | <ul><li>24.7 (julho de 2024)</li></ul> |
 >
 >Para obter mais informações sobre o processo de lançamento rápido, consulte [Ativar ou desativar o processo de lançamento rápido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -136,7 +136,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
-            <tr>
+                <tr>
                     <td>
                         <p><span class="bold">Recurso</span>
                         </p>
@@ -145,8 +145,8 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                         <p><span class="bold">Datas de lançamento</span>
                         </p>
                     </td>
-                 </tr>
-                 <tr>
+                </tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Experiência de interface do usuário aprimorada para usuários com acesso limitado a objetos</a></p>
                         <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
@@ -164,26 +164,6 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                                 <p>Produção para lançamento trimestral: com a versão 24.7 </p>
                             </li>
                         </ul>
-                    </td>
-                 </tr>
-                <tr>
-                    <td>
-                        <p><span class="bold">Recurso</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Datas de lançamento</span>
-                        </p>
-                    </td>
-                 </tr>
-                <tr>
-                    <td>
-                        <p><span class="bold">Recurso</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Datas de lançamento</span>
-                        </p>
                     </td>
                 </tr>
                 <tr>
