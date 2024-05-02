@@ -1,42 +1,51 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Visão geral da revisão e aprovação de ativos
-description: Saiba mais sobre o processo formal de revisão e aprovação no Workfront.
+title: Introdução à revisão e aprovação de ativos
+description: Saiba mais sobre o processo formal de revisão e aprovação no uso do Workfront e Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: 959bd3cab0de8b76c94fad1be5b6b2b8b7ae904b
+source-git-commit: cc00cfcaf9e3abac018384e42568f635b5f70b54
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '1187'
 ht-degree: 0%
 
 ---
 
-# Visão geral da revisão e aprovação de ativos
+# Introdução à revisão e aprovação de ativos
 
-O novo fluxo de trabalho de revisão e aprovação de ativos é construído em torno de uma estreita integração entre o Workfront e o Frame.io. Essa integração tira o melhor proveito do que cada produto tem a oferecer e a combina para criar uma experiência que permite que todas as pessoas envolvidas na criação de conteúdo trabalhem em suas ferramentas de escolha, enquanto têm acesso a comentários, arquivos e atualizações de status sincronizados em ambos os sistemas em tempo real.
+O novo fluxo de trabalho de revisão e aprovação de ativos é construído em torno de uma estreita integração entre o Workfront e o Frame.io. Essa integração tira o melhor proveito do que cada produto tem a oferecer e combina-os para criar uma experiência que permita que todos os envolvidos na criação de conteúdo trabalhem com suas ferramentas de escolha, enquanto tenham acesso a comentários, arquivos e atualizações de status — tudo sincronizado em ambos os sistemas em tempo real.
 
 Para obter mais informações sobre o Frame.io, consulte [Introdução ao Frame.io](https://support.frame.io/en/collections/49298-getting-started).
 
 ## Iniciação e planejamento do trabalho no Workfront
 
-O administrador do Workfront habilita a integração entre o Workfront e o Frame.io, configurando a conta padrão Frame.io na área Configuração e designando os usuários do Frame.io no Workfront. Isso permite que o coordenador planeje e inicie o trabalho usando o Workfront Projects e workflows de revisão e aprovação formais.
+O administrador do Workfront habilita a integração entre o Workfront e o Frame.io, configurando a conta padrão Frame.io na área Configuração e designando os usuários do Frame.io no Workfront. Isso permite que o coordenador planeje e inicie o trabalho usando projetos do Workfront e workflows formais de revisão e aprovação.
 
-### Configurar uma conta padrão do Frame.io
+### Configurar a conta padrão do Frame.io [!BADGE Em breve]{type=Informative}
 
-Os administradores do Workfront iniciam a integração do Workfront e do Frame.io adicionando uma conta padrão do Frame.io na área Configuração do Workfront. Uma vez configurada uma conta padrão Frame.io, todos os projetos criados no Workfront têm um projeto espelho criado no Frame.io.
+>[!IMPORTANT]
+>
+>Esse recurso será adicionado em breve. Por enquanto, contas Frame.io são adicionadas manualmente pela equipe do Workfront. Entre em contato com seu representante de conta Adobe.
 
-Para obter mais informações, consulte [].
 
-<!-- in procedure article we need to cover how groups work with projects and how the frame account is associated with a group. And that accounts other than the default can be added on a 1:1 basis using the dev token. -->
+Os administradores do Workfront iniciam a integração do Workfront e do Frame.io adicionando uma conta padrão do Frame.io na área Configuração do Workfront. Uma vez configurada a conta padrão Frame.io, todos os projetos criados no Workfront têm um projeto espelho criado no Frame.io.
 
-### Habilitar usuários do Frame.io
+<!--For more information, see [].
+
+ in procedure article we need to cover how groups work with projects and how the frame account is associated with a group. And that accounts other than the default can be added on a 1:1 basis using the dev token. -->
+
+### Habilitar usuários do Frame.io Disponível agora
 
 Os usuários do Workfront que usam regularmente o Frame.io devem ser marcados como usuários do Frame.io. Os administradores do Workfront podem designar usuários do Frame.io no Perfil de usuário do Workfront.
+
+>[!TIP]
+>
+>Recomendamos permitir que os usuários que trabalham regularmente em ferramentas criativas e fazem upload de ativos para revisão e aprovação como usuários do Frame.io.
 
 Quando um usuário é marcado como um usuário do Frame.io no Workfront e adicionado a um projeto,
 
@@ -44,9 +53,7 @@ Quando um usuário é marcado como um usuário do Frame.io no Workfront e adicio
 * Eles podem enviar ativos do Frame.io para o Workfront para revisão e aprovação formais
 * Eles podem exibir informações na pasta de sincronização unidirecional do Workfront
 
->[!TIP]
->
->Recomendamos permitir que os usuários que trabalham regularmente em ferramentas criativas e fazem upload de ativos para revisão e aprovação como usuários do Frame.io.
+
 
 Para obter mais informações, consulte [].
 
@@ -57,10 +64,10 @@ Para obter mais informações, consulte [].
 
 Depois que a conta padrão Frame.io é adicionada e os usuários do Frame.io são designados, os coordenadores de projeto podem criar projetos do Workfront conectados ao Frame.io. Ao criar um projeto conectado, você pode
 
-* **Atribuir usuários do Frame.io a tarefas**: os usuários habilitados com Frame.io são notificados por email quando são atribuídos a uma tarefa, sinalizando que há trabalho a ser concluído.
-* **Compartilhar o projeto com usuários do Frame.io**: Projetos compartilhados com usuários habilitados para Frame.io concede a eles acesso ao projeto dentro do Frame.io.
-* **Compartilhar materiais criativos com o Frame.io**: você pode enviar instruções e materiais do Workfront diretamente para o usuário criativo no Frame.io usando uma pasta de projeto de sincronização unidirecional.
-* **Rastrear o progresso da tarefa**: os criadores podem enviar ativos concluídos e marcar tarefas como concluídas sem sair do Frame.io.
+* **Atribuir usuários do Frame.io a tarefas**: os usuários habilitados com Frame.io são notificados por email quando são atribuídos a uma tarefa do Workfront, sinalizando que há trabalho a ser concluído.
+* **Compartilhar o projeto com usuários do Frame.io**: quando um projeto é compartilhado com usuários habilitados para Frame.io, eles têm acesso ao projeto dentro do Workfront e do Frame.io.
+* **Compartilhar materiais criativos com o Frame.io**: os coordenadores de projetos podem enviar instruções e materiais do Workfront diretamente para o usuário criativo no Frame.io usando uma pasta de projeto de sincronização unidirecional. [!BADGE Em breve]{type=Informative}
+* **Rastrear o progresso da tarefa**: os criadores podem enviar ativos concluídos e marcar tarefas como concluídas, tudo sem sair do Frame.io.
 
 Para obter mais informações, consulte [].
 
@@ -71,85 +78,86 @@ Para obter mais informações, consulte [].
 
 Os criativos podem permanecer em suas ferramentas de escolha e ter a liberdade de criar, iterar e realizar revisões por pares dentro do Frame.io.
 
-Quando um criativo é adicionado a um projeto conectado, ele pode fazer o seguinte sem sair do Frame.io:
+Quando um criativo é adicionado a um projeto conectado, ele pode fazer o seguinte no Frame.io:
 
-* Acessar instruções do coordenador do projeto
+<!--* Access instructions from the project coordinator -->
 * Realizar avaliações informais pelos pares
 * Enviar ativos concluídos para a Workfront para revisão e aprovação formais
 * Alterar o status de uma tarefa ou marcá-la como concluída
-<!-- * Notification of decision
-* Upload new versions of connected assets marked as needs more work < will automatically connect>-->
+* Fazer upload de novas versões e reenviá-las para aprovação <!--do they have to send to frame.io again?-->
 
-Para obter mais informações sobre a revisão de ativos no Frame.io, consulte
+Para obter mais informações sobre a revisão de ativos no Frame.io, consulte [].
 
 ## Revisar e aprovar ativos
 
 Depois que um criativo envia um ativo concluído para o Workfront do Frame.io, o coordenador do projeto pode iniciar o processo formal de revisão e aprovação no Workfront.
 
-Após a criação da aprovação, os usuários retornam ao Frame.io para comentar e marcar o ativo. Eles também podem tomar a decisão de aprovação no visualizador Frame.io.
+Após a criação do fluxo de trabalho de aprovação, os revisores e aprovadores retornam ao Frame.io para adicionar comentários e marcar o ativo. Eles também podem tomar a decisão de aprovação no visualizador Frame.io.
 
 ### Iniciar revisões e aprovações formais no Workfront
 
-Os coordenadores de projetos podem criar revisões e aprovações únicas ou Modelos de aprovação reutilizáveis na área Configuração do Workfront. Todas as atividades de revisão e aprovação feitas no Frame.io também são registradas no Workfront.
+Os coordenadores de projetos podem criar revisões e aprovações únicas ou modelos de aprovação reutilizáveis. Todas as atividades de revisão e aprovação no Frame.io também são registradas no Workfront.
 
 #### Adicionar revisores e aprovadores
 
 Os coordenadores de projeto têm a opção de atribuir revisores, aprovadores ou uma combinação de ambos:
 
-* **Revisores** O pode comentar e marcar ativos. Depois de concluído, eles podem marcar sua revisão como concluída. <!--example of when to add reviewers-->
-* **Aprovadores** O pode comentar e marcar ativos. Eles devem tomar a decisão de mover o processo de aprovação para frente.
+* **Revisores** O pode adicionar comentários e marcar ativos. Depois de concluído, eles podem marcar sua revisão como concluída. Não é necessário marcar a revisão como concluída para que o ativo possa avançar no processo de aprovação.<!--example of when to add reviewers-->
+* **Aprovadores** O pode adicionar comentários e marcar ativos. Eles devem tomar a decisão de mover o processo de aprovação para frente.
 
 
 #### Criar um fluxo de trabalho de revisão e aprovação
 
-Revisores e aprovadores podem ser adicionados a um fluxo de trabalho de uso único, de aprovação ou a um modelo de aprovação:
+Revisores e aprovadores podem ser adicionados a um fluxo de trabalho de aprovação de uso único ou a um modelo de aprovação reutilizável:
 
-<!--can also assign teams and set deadline-->
-Email - emails do prazo 72, 24 e no prazo.
+* **Aprovações de uso único**: no projeto ou tarefa em que o ativo reside, o coordenador do projeto pode atribuir revisores e aprovadores e definir um prazo de conclusão. Revisores e aprovadores são lembrados por e-mail 72 e 24 horas antes do prazo, bem como sobre o próprio prazo.
 
-* **Aprovações de uso único**: Definir prazos de aprovação
-
-* **Modelos de aprovação**
-Na área Configuração do Workfront, os usuários com uma licença Standard podem criar Modelos de aprovação reutilizáveis. Em um modelo, os usuários podem especificar um período e adicionar revisores e aprovadores. <!--do we want to mention any upcoming plans here? -->
+* **Modelos de aprovação**: na área Configuração do Workfront, os coordenadores de projetos podem criar Modelos de aprovação reutilizáveis. Em um modelo, os usuários podem adicionar revisores e aprovadores e especificar um período de conclusão. Quando o modelo de aprovação é aplicado a um ativo, o prazo é calculado a partir do período especificado.
 
   Depois que um modelo é criado, ele pode ser aplicado a ativos enviados do Frame.io para iniciar o processo formal de revisão e aprovação no Workfront.
   ![](assets/assign-template.png)
 
-<!-- can set timreframe which calculates deadline once approval is started. >
+  Para obter mais informações, consulte [Criar e gerenciar modelos de aprovação]
+  <!--add link.-->
 
-    For more information, see [Create and manage Approval Templates](/)<!--don't forget link-->
-
-* Faça upload de um ativo do Workfront e envie-o para o quadro para revisão e aprovação - Em breve?
+* Fazer upload de um ativo do Workfront e enviá-lo ao quadro para revisão e aprovação <!-- delayed? -Need more info on this workflow -->
 
 ### Aprovar ativos no Frame.io
 
 As partes interessadas podem revisar e aprovar ativos conectados com o visualizador Frame.io.
 
+Para obter mais informações sobre a revisão de ativos no Frame.io, consulte <!-- get link from frame team?-->
+
 #### Acessar o visualizador Frame.io
 
 Os usuários podem acessar o visualizador Frame.io das seguintes maneiras:
 
+* Notificações por email do Workfront
 * O widget Aguardando minha aprovação na nova área Página inicial do Workfront
-* Notificações por email do Workfront.
+  ![](assets/awaiting-my-approval.png)
 
-Os usuários externos do Workfront serão solicitados a criar um login do Frame.io para revisar e aprovar ativos.
 
-#### Comentar e marcar ativos
+>[!NOTE]
+>
+>Os usuários externos do Workfront são notificados por email e serão solicitados a criar um logon Frame.io para revisar e aprovar ativos.
+<!-- is this right?-->
 
-Todos os comentários feitos no visualizador Frame.io também são registrados na guia Atualização do Workfront. As respostas feitas no Workfront não aparecem no Frame.io. Comentários marcados Somente para equipes não aparecerão na guia Atualizações do Workfront.
+
+#### Adicionar comentários e marcar ativos
+
+Todos os comentários feitos no visualizador Frame.io também são registrados na guia Atualizações do Workfront. As respostas feitas no Workfront não aparecem no Frame.io. Se os comentários forem marcados como &quot;Somente equipe&quot; no visualizador do Frame.io, eles não aparecerão na guia Atualizações do Workfront.
 
 #### Tomar uma decisão
 
-Os aprovadores devem tomar uma das seguintes decisões:
+Quando toda a atividade de revisão estiver concluída, os aprovadores deverão tomar uma das seguintes decisões:
 
-* Aprovar: Isso
-* Aprovar com alterações
-* Precisa do trabalho
+* Aprovar: o ativo não precisa de alterações e está pronto para uso.
+* Aprovar com alterações: o ativo precisa de alterações e está pronto para uso depois de feito. Aprovação adicional não é necessária.
+* Precisa de trabalho: o ativo precisa de alterações e não está pronto para uso. Depois que as alterações especificadas forem feitas, o ativo deverá ser carregado como uma nova versão e passar por outra rodada de aprovações. <!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
 
-Os revisores podem marcar sua revisão como concluída dentro dos visualizadores do Frame.io.
+Os revisores podem marcar sua revisão como concluída dentro do visualizador Frame.io, mas isso não é necessário para que o ativo avance no processo de aprovação. <!--check if this is accurate -->
 
-<!-- include screenshot from frame.io-->
-
+![](assets/frame-viewer-and-decision.png)
 
 
 <!-- upload assets directly to workfront to be reviewed in Frame.io/ Will have to send manually at first
@@ -160,17 +168,21 @@ Reviewer/approver needs to go through email to get to frame vier
 
 ### Rastrear métricas de revisão e aprovação
 
-Widgets no relatório Velocidade de aprovação da página inicial?
+Os coordenadores de projetos podem monitorar o progresso em todas as aprovações em andamento na área da página inicial da Workfront com o seguinte widget:
 
-<!--
-### Published approved assets to Adobe Experience Manager Assets
+* **Todas as aprovações**: exibe dois gráficos com informações sobre o tempo médio de aprovação e as decisões, bem como exibições de lista de aprovações pendentes e vencidas.
+  ![](assets/all-approvals.png)
 
-Use the native integration to send approved assets to AEM.
--->
 
+### Enviar ativos aprovados para o Adobe Experience Manager Assets
+
+<!-- deprioritized?-->
+Use a integração nativa para enviar ativos aprovados para o Adobe Experience Manager Assets.
+
+^ precisa de mais informações
 
 ## Exemplo de fluxo de trabalho de aprovação de ativo de campanha
 
-introdução para?
+<!-- do we still want something like this?-->
 
-![](assets/example-workflow.png) <!-- probbly need a different version of this but add something similar rather than typing all out?-->
+![](assets/example-workflow.png) - provavelmente precisará de uma versão diferente disso ou até mesmo de uma apresentação em vídeo
