@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: c3c3c2b7f7cf867ed98c2bbbb54d5a50980a78a0
+source-git-commit: d2baef04d0a02a2a73dbe1dd4c46cb49a75a0d5e
 workflow-type: tm+mt
-source-wordcount: '14154'
+source-wordcount: '14164'
 ht-degree: 1%
 
 ---
@@ -2180,6 +2180,7 @@ ht-degree: 1%
       * [Exibir o histórico de execução de um cenário no Adobe Workfront Fusion](workfront-fusion/scenarios/view-scenario-execution-history.md)
       * [Exibir e resolver execuções incompletas no Adobe Workfront Fusion](workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
       * [Exibir e gerenciar cenários bloqueados no [!DNL Adobe Workfront Fusion]](workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
+      * [Atualizar um módulo para uma nova versão em um [!DNL Adobe Workfront Fusion] cenário](workfront-fusion/scenarios/update-module-to-new-version.md)
       * [Programar um cenário no Adobe Workfront Fusion](workfront-fusion/scenarios/schedule-a-scenario.md)
       * [Ativar ou desativar um cenário no Adobe Workfront Fusion](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
       * [Adicionar um filtro a um cenário no Adobe Workfront Fusion](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
