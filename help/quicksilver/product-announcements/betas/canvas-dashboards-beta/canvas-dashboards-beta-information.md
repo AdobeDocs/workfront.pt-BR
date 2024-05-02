@@ -1,21 +1,81 @@
 ---
-product-area: dashboards
-navigation-topic: creating-and-managing-dashboards
+product-area: Canvas Dashboards
+navigation-topic: canvas-dashboards-beta
 title: Informações beta de Painéis do Canvas
 description: Informações gerais sobre a versão beta dos Painéis de controle do Canvas
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
+exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
+source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
 workflow-type: tm+mt
-source-wordcount: '15'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
 
 # Informações beta de Painéis do Canvas
+
+Painéis de tela é um recurso atualmente em desenvolvimento que permite visualizar facilmente os dados do Adobe Workfront adicionando vários tipos de relatório em uma tela personalizável. Observe que, embora agradecemos sua participação durante nossa fase de teste beta, partes do recurso podem não estar completas ou funcionar conforme o esperado. Envie seus comentários sobre a experiência seguindo as instruções no [Fornecer feedback](#provide-feedback) abaixo.
+
+Para obter informações básicas sobre o uso de Painéis do Canvas, consulte [Introdução aos Painéis do Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+Para obter uma lista de toda a documentação dos Painéis de controle do Canvas, consulte [Visão geral dos Painéis do Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+
+**Programação beta:**
+
+* Data de início do beta fechado - 2 de maio de 2024
+* Abrir data de início da versão beta - TBA
+* Data de lançamento planejada - TBA
+
+## Participe da versão beta
+
+### Inscrever-se
+
+Para se inscrever na versão beta:
+
+1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Painéis**.
+
+1. Clique em **Associar-se à versão beta dos Painéis do Canvas** no canto superior direito da página.
+
+1. Leia os termos e clique em **Aceitar**. Agora você está inscrito no beta; observe, no entanto, que levará alguns minutos para que seus dados do Workfront fiquem totalmente acessíveis nos Painéis do Canvas.
+
+### Fornecer feedback
+
+O feedback é apreciado à medida que desenvolvemos essa ferramenta ao longo do beta. Siga as instruções abaixo para compartilhar sua experiência conosco.
+
+1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Painéis**.
+
+1. No painel esquerdo, clique em **Painéis do Canvas**.
+
+1. Clique em **Enviar feedback** no canto inferior direito da página, digite seu feedback no formulário exibido e clique em **Enviar**.
+
+## Recursos planejados
+
+Abaixo está uma lista dos tipos de relatórios atualmente compatíveis com o beta, bem como uma lista de outros recursos que planejamos adicionar aos Painéis do Canvas ao longo do beta e além.
+
+### Tipos de relatório compatíveis
+
+* Relatórios existentes (relatórios criados usando a ferramenta de relatórios atual)
+* Relatórios de gráfico
+* Relatórios de KPI
+* Relatórios de tabela
+* Relatórios de aprovações pendentes
+
+### Recursos em desenvolvimento
+
+* Relatórios de tabela de matriz
+* Planilhas
+* Conteúdo da Web incorporado
+* Relatórios de painéis
+* Filtros de painel
+* Curingas com base em data e usuário para filtros
+
+### Recursos do futuro roteiro
+
+* Solicitações no nível do painel
+* Suporte a moeda
+
+
 
 <!--
 

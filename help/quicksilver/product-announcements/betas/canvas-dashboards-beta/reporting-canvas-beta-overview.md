@@ -6,13 +6,14 @@ description: Informações sobre o programa beta da próxima ferramenta de tela 
 author: Nolan
 feature: Product Announcements
 hidefromtoc: true
-source-git-commit: 2fa10260b54e4ba2e9ab661ac5a4985a91e69191
+hide: true
+exl-id: 5767ef7d-1bc3-40d8-abeb-02b15166a0a3
+source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1061'
 ht-degree: 1%
 
 ---
-
 
 # Versão beta do relatório do Canvas: visão geral
 
@@ -115,7 +116,7 @@ Para fornecer a versão beta a nossos clientes o mais rápido possível, lançam
 
 +++Se algo der errado no Reporting Canvas durante o beta, os dados da minha organização serão afetados?
 
-não. A versão beta usa uma cópia dos dados de sua organização que é preenchida na Tela de relatório. Embora isso signifique que você esteja seguro para experimentar durante o beta sem risco de afetar dados importantes, também significa que a edição em linha de dados na Tela de relatórios estará indisponível até o lançamento oficial.
+Não. A versão beta usa uma cópia dos dados de sua organização que é preenchida na Tela de relatório. Embora isso signifique que você esteja seguro para experimentar durante o beta sem risco de afetar dados importantes, também significa que a edição em linha de dados na Tela de relatórios estará indisponível até o lançamento oficial.
 +++
 
 +++Posso recusar o beta depois de entrar?

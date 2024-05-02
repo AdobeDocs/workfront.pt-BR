@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: d337bb199db13c17e70be7b40654be8f1a87c2db
+source-git-commit: c3c3c2b7f7cf867ed98c2bbbb54d5a50980a78a0
 workflow-type: tm+mt
-source-wordcount: '14191'
+source-wordcount: '14154'
 ht-degree: 1%
 
 ---
@@ -1512,29 +1512,20 @@ ht-degree: 1%
       * [O nome de usuário já está em uso](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * Relatórios {#reporting}
    * [Relatórios e painéis: índice do artigo](reports-and-dashboards/reports-and-dashboards-overview.md)
-   * Tela de relatório {#reporting-canvas}
-      * [Tela de relatório](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
-      * Gerenciar relatórios {#manage-reports}
-         * [Visão geral do gerenciamento de relatórios](reports-and-dashboards/reporting-canvas/manage-reports/manage-reports.md)
-         * [Criar um relatório na tela de relatórios](reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
-         * [Exportar um relatório na Tela de relatório](reports-and-dashboards/reporting-canvas/manage-reports/export-report.md)
-      * Blocos de tabela {#table-blocks}
-         * [Blocos de tabela](reports-and-dashboards/reporting-canvas/table-blocks/table-blocks.md)
-         * [Adicionar ou editar um bloco de tabela na Tela de relatório](reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
-         * [Configurar uma coluna de tabela na Tela de relatório](reports-and-dashboards/reporting-canvas/table-blocks/modify-columns-table.md)
-         * [Criar um campo de fórmula na Tela de relatório](reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md)
-         * [Agrupar linhas de tabela na Tela de relatório](reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md)
-         * [Filtrar uma tabela na Tela de relatório](reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md)
-      * Blocos de visualização {#visualization-blocks}
-         * [Blocos de visualização](reports-and-dashboards/reporting-canvas/visualization-blocks/visualization-blocks.md)
-         * [Adicionar ou editar um bloco de visualização na Tela de relatório](reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
-         * [Configurar uma visualização de barra na Tela de relatório](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md)
-         * [Configurar uma visualização de coluna na Tela de relatório](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md)
-         * [Configurar visualização de pizza na Tela de relatório](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md)
-         * [Configurar uma visualização de KPI na Tela de relatório](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md)
-      * Outros blocos {#other-blocks}
-         * [Outros blocos](reports-and-dashboards/reporting-canvas/other-blocks/other-blocks.md)
-         * [Adicionar ou editar um bloco de conteúdo da Web na Tela de relatório](reports-and-dashboards/reporting-canvas/other-blocks/add-or-edt-web-content-block.md)
+   * Painéis do Canvas {#canvas-dashboards}
+      * [Painéis de tela](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+      * Gerenciar painéis da tela de desenho {#manage-canvas-dashboards}
+         * [Gerenciar painéis da tela de desenho](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
+         * [Introdução aos Painéis do Canvas](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
+         * [Adicionar, remover ou organizar relatórios em um Painel da tela de desenho](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
+         * [Compartilhar um painel da tela](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+      * Tipos de relatório do Painel de controle do Canvas {#report-types}
+         * [Visão geral dos tipos de relatório do Painel de controle do Canvas](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
+         * [Adicionar um relatório existente a um painel da tela](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
+         * [Criar um relatório de KPI em um painel da tela](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+         * [Criar um relatório de gráfico em um painel da tela](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+         * [Criar um relatório de tabela em um painel da tela](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+         * [Adicionar um relatório de aprovações pendentes a um Painel da tela](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
    * Relatórios {#reports}
       * [Relatórios](reports-and-dashboards/reports/reports-overview.md)
       * Noções básicas de relatórios {#report-basics}
