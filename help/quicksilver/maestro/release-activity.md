@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: b9e8669c81891eeaa4c97bf8ab3ce72c02b2f62a
 workflow-type: tm+mt
-source-wordcount: '5725'
+source-wordcount: '5784'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,14 @@ Visualização: a ser determinado
 Quando um usuário atualiza as informações em um registro na exibição de tabela, outros usuários podem exibir as informações atualizadas na caixa de detalhes do registro (dentro de uma exibição) ou na página em tempo real. Isso garante que todos os usuários visualizem as informações atualizadas ao mesmo tempo, em sincronia com quando as alterações ocorrerem.
 
 Para obter informações sobre edição de registros, consulte [Editar registros](/help/quicksilver/maestro/records/edit-records.md).
+
+### Atualizações em tempo real na exibição de calendário após a edição de registros
+
+Produção: 3 de maio de 2024
+
+Visualização: a ser determinado.
+
+Quando um usuário atualiza as informações em um registro, outros usuários podem exibir as informações atualizadas na exibição do calendário do registro em tempo real. Isso garante que todos os usuários visualizem as informações atualizadas ao mesmo tempo, em sincronia com quando as alterações ocorrerem.
 
 <!--
 
