@@ -7,9 +7,10 @@ description: Um campo Pesquisa externa em um formulário personalizado chama uma
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: a082f010dbd78235aaad41a80d87d772ca77ff89
+exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
+source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Um campo Pesquisa externa em um formulário personalizado chama uma API externa 
 
 Este artigo fornece exemplos de como usar o campo Pesquisa externa para chamar a mesma instância do Workfront ou uma API pública. Você também pode usar a Pesquisa externa para se comunicar com um sistema externo, como Jira, Salesforce ou ServiceNow.
 
-Para obter mais informações sobre como adicionar um campo Pesquisa externa a um formulário personalizado e definições adicionais dos componentes de pesquisa externa, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Os campos de Pesquisa externa só estão disponíveis no novo designer de formulário, não no construtor de formulários herdado. Para obter mais informações sobre como adicionar um campo Pesquisa externa a um formulário personalizado e definições adicionais dos componentes de pesquisa externa, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Configurar um campo Pesquisa externa para a mesma instância do Workfront
 
@@ -127,4 +128,3 @@ Lista todos os países: <https://api.first.org/data/v1/countries>
    ![Formulário personalizado com campo de pesquisa externo](assets/external-lookup-countries-example1.png)
 
    ![Opções de pesquisa externa para um país com base na região](assets/external-lookup-countries-example2.png)
-
