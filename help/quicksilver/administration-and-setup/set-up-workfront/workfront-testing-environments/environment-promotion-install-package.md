@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
+source-git-commit: 66b9fc84c18bce2d0cecee9368a125570c822a54
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,26 @@ Você deve ter criado um pacote antes de instalá-lo.
 
 Para obter instruções, consulte [Criar ou editar um pacote de promoção de ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 
+## Status do pacote para instalação
+
+Um pacote deve estar com o status ATIVO para ser instalado em seu ambiente de produção.
+
+Recomendamos mover o pacote para o status TESTANDO e instalar em outra sandbox para testar o pacote.  Se esse teste for bem-sucedido, sem erros, mova o pacote para ATIVE para instalá-lo no ambiente de produção.
+
+Para editar o status de um pacote:
+
+1. Selecione o pacote conforme descrito em  [Editar ou reunir um pacote existente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package) no artigo Criar e editar pacotes de promoção de ambiente.
+1. Clique em **Editar pacote**.
+1. Clique em **Status**.
+1. Selecione o status desejado no menu suspenso.
+
+Para obter mais informações sobre status, consulte [Status de promoção do ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) no artigo Visão geral da movimentação de objetos entre ambientes do Workfront.
+
+## Instalar um pacote
+
 >[!NOTE]
 >
->Para instalar um pacote, você deve estar conectado ao ambiente em que deseja instalar o pacote. Este é o ambiente no qual você está copiando objetos **para**.
+>* Para instalar um pacote, você deve estar conectado ao ambiente em que deseja instalar o pacote. Este é o ambiente no qual você está copiando objetos **para**.
 
 1. Vá para o ambiente em que deseja instalar o pacote.
 1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Configuração]** ![Ícone de Configuração](/help/_includes/assets/gear-icon-setup.png).
