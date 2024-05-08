@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: a8608aa0db6a482570b02b8b22cac0c02f6d8a07
+source-git-commit: b3d356f514675688f8ef77343c53fef8601398ad
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%
@@ -58,10 +58,10 @@ A promoção do ambiente não oferece suporte à capacidade de mover objetos tra
 
 | Objeto promovível | Objetos vinculados promovíveis incluídos |
 | --- | --- |
-| Modelo de layout (UITMPL) | Modelo de layout<br>Painel<br>Calendário<br>Seção de calendário<br>Página externa<br>Relatório<br>Filtro<br>Agrupamento<br>Exibir<br>Parâmetro |
-| Painel (PTLTAB) | Painel<br>Calendário<br>Seção de calendário<br>Página externa<br>Relatório<br>Filtro<br>Agrupamento<br>Exibir<br>Parâmetro |
-| Calendário (CALEND) | Calendário<br>Seção de calendário |
-| Página externa (EXTSEC) | Página Externa |
+| Modelo de layout (UITMPL) | Modelo de layout<br>Painel<br>Calendário*<br>Seção de calendário*<br>Página externa*<br>Relatório<br>Filtro<br>Agrupamento<br>Exibir<br>Parâmetro |
+| Painel (PTLTAB) | Painel<br>Calendário*<br>Seção de calendário*<br>Página externa*<br>Relatório<br>Filtro<br>Agrupamento<br>Exibir<br>Parâmetro |
+| Calendário* (CALENDÁRIO) | Calendário*<br>Seção de calendário* |
+| Página externa* (EXTSEC) | Página externa* |
 | Relatório (PTLSEC) | Relatório<br>Filtro<br>Agrupamento<br>Exibir<br>Parâmetro |
 | Filtro (UIFT) | Filtro<br>Parâmetro |
 | Agrupamento (UIGB) | Agrupamento<br>Parâmetro |
