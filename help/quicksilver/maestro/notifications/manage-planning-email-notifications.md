@@ -4,9 +4,9 @@ description: Quando alguém marca você em um comentário de registro, você rec
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 0%
 {{maestro-important-intro}}
 
 Quando alguém marca você em um comentário de registro, você recebe uma notificação por email para essa tag.
+
+>[!IMPORTANT]
+>
+>Sua empresa deve ser um cliente da Experiência Unificada do Adobe para poder receber notificações do Workfront Planning.
+>
+>Para obter informações, consulte [Experiência unificada do Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Para obter informações sobre como marcar outras pessoas em um comentário de registro, consulte [Gerenciar comentários de registro](/help/quicksilver/maestro/records/manage-record-comments.md).
 
@@ -35,7 +41,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 <td>
    <p> Produto</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>Para receber notificações do Workfront Planning e gerenciar preferências de notificação, a instância da Workfront de sua organização deve ser integrada à Experiência unificada do Adobe. Para obter informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada do Adobe para Workfront</a>.</p></td>
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
@@ -78,7 +85,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Gerenciar notificações por email
 
-1. (Condicional) Depois que alguém adicionar uma tag a você em um comentário em um registro, acesse a notificação por email que informa sobre a tag e o comentário.
+1. (Condicional) Depois que alguém adicionar uma tag a você em um comentário em um registro, acesse a notificação por email que informa sobre a tag e o comentário. O remetente do email é o Adobe Experience Cloud.
 
    ![](assets/email-notification-example.png)
 
@@ -87,4 +94,4 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    A página de detalhes do registro é aberta no Workfront. Você pode fazer atualizações no registro ou responder ao comentário.
 
 1. (Condicional) Se disponível, clique em **Exibir todas as notificações**. <!--check with Lilit - do non-IMS users have this button??-->
-A página Notificações é aberta no Adobe Experience Cloud.
+A variável **Notificação** é aberta no Adobe Experience Cloud.

@@ -6,10 +6,10 @@ description: Exibir todas as atualizações em um relatório de Nota
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: 923c9e25fbd73c9d6a6a20436333c6e7969e9538
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 0%
+source-wordcount: '372'
+ht-degree: 1%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is a report and it is in the Getting Started/ Updates section because I think it makes more sense to be in this area, where people want to view updates. - added this to this section from Reporting on 7/3/2018 ) </p>
 -->
 
-A área Atualizações de um objeto exibe um número máximo de 200 atualizações por padrão. Para visualizar todas as atualizações que qualquer usuário inseriu para um objeto, é possível criar um relatório de Nota que exibe todas as atualizações.
+A área Atualizações de um objeto exibe um número máximo de 200 atualizações por padrão. Para visualizar todas as atualizações que qualquer um dos usuários inseriu para um objeto, você pode criar um relatório de Nota que exibe todas as atualizações.
 
 >[!NOTE]
 >
->Você pode criar um relatório para exibir atualizações em objetos em Visualizar com o relatório de entrada do diário. Para obter mais informações, consulte [Relatório sobre a área Atualizações](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+>Você pode criar um relatório para exibir atualizações em objetos na Pré-visualização com o relatório de Lançamento. Para obter mais informações, consulte [Relatório na área Atualizações](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,49 +36,58 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Plano Adobe Workfront*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td role="rowheader"><strong>plano do Adobe Workfront</strong></td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
-   <td> <p>Plano</p> </td> 
+   <td> <p>Novo: Padrão </p>
+   <p>Atual: Plano</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
+   <td role="rowheader"><strong>Configurações de nível de acesso</strong></td> 
    <td> <p>Editar acesso a:</p> 
     <ul> 
      <li> <p>Criar relatórios, painéis e calendários</p> </li> 
      <li> <p>Criar filtros, visualizações e agrupamentos</p> </li> 
-    </ul> <p>Observação: Caso ainda não tenha acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso.<br>Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Exibir</p> <p>Observação: Se você não tiver permissão de Exibição ou superior a um objeto, as informações desse objeto não serão exibidas no relatório.</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos </a>.</p> </td> 
+   <td> <p>Exibir</p> <p><b>Nota</b></p>
+   <p>Se você não tiver a permissão Exibir ou superior a um objeto, as informações desse objeto não serão exibidas no relatório.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com o administrador da Workfront.
+*Para obter informações, consulte [Requisitos de acesso no Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Criar um relatório de Nota
 
-A criação de um relatório para Notas para qualquer objeto é idêntica, independentemente do objeto.
+Criar um relatório para Observações para qualquer objeto é idêntico, independentemente do objeto.
 
-Por exemplo, para criar um relatório de Nota para todas as notas em um projeto:
+Por exemplo, para criar um relatório de Notas para todas as notas de um projeto:
 
-1. Clique no botão **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
+1. Clique em **Menu principal** ícone ![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
 
 1. Clique em **Relatórios**.
-1. Clique em **Novo relatório** e escolha **Observação**.
+1. Clique em **Novo Relatório** e escolha **Nota**.
 
-1. (Opcional) Clique em **Exibições**, em seguida **Adicionar coluna** para adicionar o **Nome** do **Projeto** na exibição do relatório. 
+1. (Opcional) Clique em **Visualizações**, depois **Adicionar coluna** para adicionar o **Nome** do **Projeto** do relatório. 
 
-1. (Opcional) Clique em **Agrupamentos**, em seguida **Adicionar agrupamento** para agrupar pela **Nome do projeto**, se estiver relatando vários projetos ao mesmo tempo.\
+1. (Opcional) Clique em **Agrupamentos**, depois **Adicionar Agrupamento** para agrupar pela **Nome do projeto**, se estiver relatando vários projetos ao mesmo tempo.\
    Isso garante que as notas sejam agrupadas por seus respectivos projetos, facilitando a leitura do relatório. 
 
-1. (Opcional) Clique em **Filtros,** then **Adicionar uma regra de filtro** para filtrar por apenas um projeto ou projetos específicos.
+1. (Opcional) Clique em **Filtros,** depois **Adicionar uma regra de filtro**.
+1. Adicionar um filtro para **Nota** > **Texto da Nota** > **Não está em branco**.
 
-1. (Condicional e opcional) Defina o **Nome do projeto** as **Igual** para o nome do projeto para o qual você deseja visualizar as atualizações.  
+   ![](assets/note-note-text-not-blank-filter.png)
 
+   >[!TIP]
+   >
+   >   Se um campo de projeto foi atualizado, mas nenhuma nota foi adicionada no momento da atualização, a variável **Texto da Nota** da atualização é exibida como **(Nenhum texto foi adicionado para atualização)**.
+
+
+1. (Opcional) Adicione outro filtro para **Projeto** > **Nome** > **Igual a** e adicione um ou vários nomes de projeto para os quais deseja exibir notas.
 1. Clique em **Salvar + Fechar**.\
    Todas as atualizações inseridas no projeto por todos os usuários com permissões para, pelo menos, Visualizar o projeto são exibidas no relatório.

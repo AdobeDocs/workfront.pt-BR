@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1441'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,7 @@ Para obter informações sobre como converter problemas em projetos, consulte [C
 
 ## Considerações ao converter problemas
 
+* Ao converter problemas em tarefas ou projetos, a maioria das informações do problema é transferida para a tarefa ou projeto, a menos que especificado de outra forma neste artigo.
 * O administrador do Workfront ou do grupo já definiu as preferências para o que acontece com um problema, sua resolução e o acesso do contato principal quando ele é convertido em um projeto ou uma tarefa, conforme descrito em [Configurar preferências de tarefas e problemas em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * O Workfront remove todas as aprovações associadas a problemas durante a conversão.
 * O Workfront substitui o Objeto de resolução do problema ao convertê-lo em uma tarefa ou em um projeto. A nova tarefa ou problema se torna o novo Objeto de resolução do problema após a conversão.
@@ -76,7 +77,9 @@ A tabela a seguir lista as informações do projeto e se ele é transferido do m
   </tr> 
   <tr> 
    <td>Prioridade</td> 
-   <td>Transferências do modelo. </td> 
+   <td><p>Transferências da ocorrência.</p>
+   <p>Ao usar um modelo para o projeto convertido, você tem a opção de alterar manualmente a Prioridade. Se você optar por não alterá-la, a prioridade do problema será transferida para o projeto. 
+    </td> 
   </tr> 
   <tr> 
    <td>URL</td> 
@@ -104,11 +107,11 @@ A tabela a seguir lista as informações do projeto e se ele é transferido do m
   </tr> 
   <tr> 
    <td>Portfólio</td> 
-   <td>Transferências do modelo. Caso contrário, esse campo estará vazio.</td> 
+   <td>Transferências do modelo. Caso contrário, esse campo estará vazio.</td> 
   </tr> 
   <tr> 
    <td>Programa</td> 
-   <td>Transferências do modelo. Caso contrário, esse campo estará vazio.</td> 
+   <td>Transferências do modelo. Caso contrário, esse campo estará vazio.</td> 
   </tr> 
   <tr> 
    <td>Grupo</td> 
@@ -132,7 +135,7 @@ A tabela a seguir lista as informações do projeto e se ele é transferido do m
    <td>Transferências do campo Patrocinador do modelo no modelo. Caso contrário, esse campo estará vazio.</td> 
   </tr> 
   <tr> 
-   <td>Gerenciador de recursos</td> 
+   <td>Gerenciador de Recursos</td> 
    <td>Transferências do modelo. Caso contrário, esse campo estará vazio.</td> 
   </tr> 
   <tr> 
@@ -157,7 +160,7 @@ A tabela a seguir lista as informações do projeto e se ele é transferido do m
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Convert an issue to a project</h2> 
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;moved to its own article)</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
 -->
 <!--
 <ol>
@@ -239,8 +242,8 @@ A tabela a seguir ilustra quais campos de problemas estão visíveis nas tarefas
 | Campos de problema | Campo de projeto ou tarefa | Lista ou relatório de projetos | Área Detalhes do projeto | Lista de tarefas ou relatório | Área Detalhes da tarefa |
 |---|---|---|---|---|---|
 | Nome do Problema | Nome do problema convertido | ✔ | ✔ | ✔ | ✔ |
-| Contato Primário | Nome do originador do problema convertido | ✔ | `✔` | ✔ |   |
-| Data de Entrada | Data de entrada do problema convertido | ✔ |   | ✔ |   |
+| Contato Primário | Nome do originador do problema convertido | ✔ | `✔` | ✔ |  |
+| Data de Entrada | Data de entrada do problema convertido | ✔ |  | ✔ |  |
 
 
 >[!CAUTION]

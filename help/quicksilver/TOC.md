@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: f843dca1190a0b55d00280e83b5bf28edfa5c8af
+source-git-commit: 14d9c862bee9f367d20b851254c8e55a8d08907f
 workflow-type: tm+mt
-source-wordcount: '14212'
+source-wordcount: '14239'
 ht-degree: 1%
 
 ---
@@ -2085,6 +2085,11 @@ ht-degree: 1%
       * [Gerenciar a exibição de tabela](maestro/views/manage-the-table-view.md)
       * [Gerenciar a exibição de linha do tempo](maestro/views/manage-the-timeline-view.md)
       * [Gerenciar a exibição de calendário](maestro/views/manage-the-calendar-view.md)
+   * Notificações Adobe Maestri {#adobe-maestro-notifications}
+      * [Notificações do Adobe Workfront Planning: índice do artigo](maestro/notifications/notifications-information.md)
+      * [Gerenciar preferências de notificação do Adobe Workfront Planning](maestro/notifications/manage-notification-preferences.md)
+      * [Gerenciar notificações por email do Adobe Workfront Planning](maestro/notifications/manage-planning-email-notifications.md)
+      * [Gerenciar notificações no aplicativo do Adobe Workfront Planning](maestro/notifications/manage-planning-in-app-notifications.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * [Modelo de tabela do Fusion Access](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)

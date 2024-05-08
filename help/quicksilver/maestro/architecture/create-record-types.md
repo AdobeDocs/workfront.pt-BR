@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1269'
 ht-degree: 1%
 
 ---
@@ -146,7 +146,7 @@ O espaço de trabalho acessado por último deve ser aberto por padrão.
 
 1. Atualize as seguintes informações:
 
-   * Substitua &quot;Tipo de registro operacional sem título&quot; pelo nome do seu tipo de registro futuro. <!--did they bring back the field label here and did they rename it to "Name"-->
+   * Substitua &quot;Tipo de registro sem título&quot; pelo nome do seu tipo de registro futuro. <!--did they bring back the field label here and did they rename it to "Name"-->
    * **Descrição**: adicione mais informações sobre o tipo de registro.
    * Selecione uma cor e uma forma para o ícone associado ao tipo de registro. Faça o seguinte:
       * Selecione uma cor para identificar o novo tipo de registro. Esta é a cor do ícone do tipo de registro. O cinza é selecionado por padrão.
@@ -155,8 +155,11 @@ O espaço de trabalho acessado por último deve ser aberto por padrão.
 1. Clique em **Criar**.
 
    O cartão de tipo de registro é adicionado à seção e ao espaço de trabalho selecionados.
-O número de campos que o tipo de registro contém é exibido no cartão.
-1. (Opcional) Passe o mouse sobre o cartão de tipo de registro, clique no **Mais** ícone ![](assets/more-menu.png) no canto superior direito e clique em **Editar** para editar informações sobre o tipo de registro.
+A Descrição do tipo de registro é exibida no cartão.
+
+   ![](assets/record-type-card-with-description.png)
+
+1. (Opcional) Passe o mouse sobre o cartão de tipo de registro, clique no **Mais** ícone ![](assets/more-menu.png) no canto superior direito e clique em **Editar** para modificar informações sobre o tipo de registro.
 1. (Opcional) Clique no cartão de tipo de registro para abrir a página de tipo de registro.
 
    ![](assets/operational-record-type-blank.png)
@@ -188,9 +191,9 @@ O número de campos que o tipo de registro contém é exibido no cartão.
 
 1. (Opcional) Clique na seta à esquerda do nome do tipo de registro, no cabeçalho, para voltar ao espaço de trabalho selecionado.
 
-   O cartão de tipo de registro exibe o número de campos e conexões que o tipo de registro contém.
+1. (Opcional) No espaço de trabalho, clique e mantenha pressionado um cartão de tipo de registro para arrastar e soltar o tipo de registro em um ponto desejado ou para movê-lo para outra seção.
 
-   ![](assets/campaign-card-with-fields-and-connections-highlighted.png)
+   As alterações são salvas automaticamente.
 
    Para obter informações adicionais sobre como adicionar registros, excluir ou editar tipos de registro ou atualizar a exibição na página tipo de registro, consulte os seguintes artigos:
 
@@ -198,10 +201,6 @@ O número de campos que o tipo de registro contém é exibido no cartão.
    * [Excluir tipos de registro](../architecture/delete-record-types.md)
    * [Editar tipos de registro](../architecture/edit-record-types.md)
    * [Gerenciar exibições de registro](../views/manage-record-views.md)
-
-1. (Opcional) No espaço de trabalho, clique e mantenha pressionado um cartão de tipo de registro para arrastar e soltar o tipo de registro em um ponto desejado ou para movê-lo para outra seção.
-
-   As alterações são salvas automaticamente.
 
 ## Criar tipos de registro importando um arquivo Excel ou CSV
 
