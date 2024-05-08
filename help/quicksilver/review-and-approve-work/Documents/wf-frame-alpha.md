@@ -5,22 +5,25 @@ title: Programa Beta - Workfront + Frame.io
 description: Estamos animados em anunciar o lançamento de nosso programa Beta para Workfront + Frame.io. Aqui você encontrará informações sobre a versão Beta mais recente, juntamente com uma breve apresentação em vídeo para começar.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: f3c724135ae7fa0406f178b10cb0828f978805b7
+source-git-commit: 2ea9316e8cbe4474f22028f85204f9351182ba06
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 1%
+source-wordcount: '1135'
+ht-degree: 0%
 
 ---
 
 # Programa Beta - Workfront + Frame.io
 
-Estamos animados em anunciar o lançamento de nosso programa Beta para Workfront + Frame.io. Aqui você encontrará informações sobre a versão Beta mais recente, juntamente com uma breve apresentação em vídeo para começar.
+Bem-vindo ao programa beta de integração Workfront + Frame.io! Como parte desse beta, você obterá acesso antecipado à nossa experiência de integração nativa com o Workfront + Frame.io e poderá compartilhar seus comentários que, em última análise, moldarão a experiência final que lançamos para nossa base de clientes mais ampla. Com essa integração, pretendemos criar um fluxo de trabalho completo e sem atritos entre o Workfront e o Frame.io, com foco no fornecimento de uma solução ideal e unificada de Revisão e Aprovação.
 
-Para participar desta versão beta, você deve ser habilitado pela equipe de produtos. Entre em contato com o Sucesso do cliente ou o Gerente de conta e solicite a adição.
+Aqui você encontrará informações sobre a versão Beta mais recente, juntamente com uma breve apresentação em vídeo para começar.
+
+>[!NOTE]
+>
+>Para participar desta versão beta, você deve ser habilitado pela equipe de produtos. Entre em contato com o Sucesso do cliente ou o Gerente de conta e solicite a adição.
+
 
 ## Atualizações de versão beta no Frame.io - março de 2024
 
@@ -80,6 +83,59 @@ Quando uma nova versão do documento for carregada, a próxima rodada de revisã
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428179/)
 
+## Teste de recursos
+
+Com essa integração, nosso objetivo é permitir que os criadores permaneçam em sua ferramenta de escolha (CC ou Frame.io) para conduzir a criação de conteúdo e revisões por pares, enquanto os gerentes de projeto coordenam o trabalho e inicializam e monitoram o processo de revisão formal dentro do Workfront. Isso pode ser feito utilizando o melhor das duas soluções: as novas aprovações de documentos do Workfront para gerenciar aprovações de conteúdo, juntamente com os recursos de revisão de conteúdo oferecidos pelo Frame.io. Coletivamente, as novas aprovações de documentos e o Frame.io vão formar nossa nova experiência completa de revisão e aprovação de conteúdo. 
+
+Para permitir que você teste facilmente os novos recursos do programa beta, criamos uma nova conta Frame.io de teste e a conectamos a um novo grupo chamado `Frame.io testing` em seu ambiente Workfront Preview ou Sandbox existente.
+
++++Expandir para exibir instruções de teste vasic
+
+Para testar a funcionalidade, faça logon na instância de Visualização do Workfront ou Sandbox e execute as seguintes etapas:
+
+1. **Coordenadores:** No Workfront, crie um projeto com o `Frame.io testing` grupo atribuído como o grupo de projeto.
+
+1. **Coordenadores:** No Workfront, marque as tarefas que exigem trabalho criativo como habilitadas para quadro (em detalhes da tarefa) e atribua os elementos de criação a elas (atribua a si mesmo também se desejar testar todo o fluxo de trabalho).
+
+>[!NOTE]
+>
+>Subtarefas não podem ser marcadas como Quadro habilitado.
+>
+
+1. **Coordenadores:** Faça upload do seu resumo criativo e altere o status do projeto para &quot;Atual&quot;.
+
+1. **Criativos:** Verifique se seus emails contêm um convite para o projeto Frame.io recém-criado
+
+1. **Criativos:** Clique no botão &quot;Unir projeto&quot; no email de convite para participar do projeto Frame.io, revise o resumo criativo no projeto e inicie a criação de conteúdo na ferramenta Creative Cloud de escolha.
+
+1. **Criativos:** Faça upload dos ativos criados no Frame.io e adicione-os ao projeto vinculado do Workfront selecionando uma das tarefas ativadas para Quadro atribuídas. Selecione a opção para marcar a tarefa como concluída.
+
+1. **Coordenadores:** No Workfront, encontre os ativos vinculados do Frame.io na tarefa habilitada para quadros e verifique se o status da tarefa foi alterado para &quot;concluído&quot;.
+
+1. **Coordenadores:** Atribua revisores/aprovadores ao ativo vinculado Frame.io. Atribua a si mesmo como aprovador se desejar testar todo o fluxo de trabalho. (Para obter mais informações sobre atribuição de revisões/aprovadores, consulte [Adicionar aprovadores ou revisores adicionais a um documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)).
+
+1. **Partes interessadas:** No Workfront, visualize a solicitação de aprovação na Página inicial, em Detalhes do documento ou na notificação por email recebida. Abra o ativo no Visualizador Frame.io, deixe um comentário contendo feedback e tome uma decisão.
+
+1. **Coordenadores:** No Workfront, visualize os comentários criados pela parte interessada na seção Atualizações do documento conectado ao Frame.io, bem como a decisão na seção Aprovação ou no painel de resumo do documento.
+
+1. **Criativos:** No Frame.io, observe a decisão geral de aprovação tomada para seus ativos.
+
+1. **Criativos:** No Frame.io, aplique as alterações solicitadas adicionando a versão atualizada à pilha de versão do ativo conectado.
+
+1. **Coordenadores:** No Workfront, atribua aprovadores/revisores à versão recém-carregada e monitore o progresso até que ele atinja a aprovação.
+
++++
+
++++ Expandir para exibir instruções detalhadas de teste
+
+Para os participantes que desejam testar a funcionalidade adicional, criamos um cenário de teste mais envolvido. Um guia para esse cenário de teste detalhado pode ser baixado aqui: [Apresentação do cenário de teste detalhado de WF + Frame.io](/help/quicksilver/review-and-approve-work/Documents/assets/wf-frame-detailed-walk-through-may-release.pdf).
++++
+
+<!-- 
+## Demo Video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3426406/)
+-->
 
 ## Enviar feedback
 

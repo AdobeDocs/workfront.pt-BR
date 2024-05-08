@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 14d9c862bee9f367d20b851254c8e55a8d08907f
+source-git-commit: 4564bc136576a92ddacec7116ca18ef9fb15a5bc
 workflow-type: tm+mt
-source-wordcount: '14239'
+source-wordcount: '14226'
 ht-degree: 1%
 
 ---
@@ -413,9 +413,8 @@ ht-degree: 1%
          * [Nova experiência de comentários](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [Nova atividade de lançamento de experiência de comentário](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [Perguntas frequentes sobre a nova experiência de comentários](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-      * Integração do Workfront e do Frame.io alfa {#frame-io-wf-integration-alpha}
-         * [Integração nativa do Adobe Workfront e Frame.io alfa: visão geral](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
-         * [Integração nativa alfa do Adobe Workfront e Frame.io: recursos](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
+      * Integração beta do Workfront e Frame.io {#frame-io-wf-integration-beta}
+         * [Integração nativa do Adobe Workfront e Frame.io beta](review-and-approve-work/Documents/wf-frame-alpha.md)
       * Workfront data lake beta {#data-lake-beta}
          * [Informações beta do data lake da Workfront](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * Administração e configuração {#administration-and-setup}
@@ -1792,7 +1791,6 @@ ht-degree: 1%
 * Revisar e aprovar trabalhos {#review-and-approve-work}
    * [Revisar e aprovar trabalho](review-and-approve-work/review-and-approve-work.md)
    * [Programa Alpha - Aprovações de documentos](review-and-approve-work/Documents/doc-approvals-alpha.md)
-   * [Programa Beta - Workfront + Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
    * [Visão geral de documentos e decisões de prova limitados para usuários não pagos](review-and-approve-work/proof-doc-decision-limits.md)
    * Aprovações de trabalho {#work-approvals}
       * [Aprovações de trabalho](review-and-approve-work/manage-approvals/manage-approvals.md)
