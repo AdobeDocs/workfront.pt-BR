@@ -8,9 +8,9 @@ description: Um armazenamento de dados, semelhante a um banco de dados ou a uma 
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 6c449b004e61048d5391a39e5adc38b05f4a3033
+source-git-commit: b7980d03791fe4a90bf66cebe042ed5890aaa802
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1299'
 ht-degree: 1%
 
 ---
@@ -76,24 +76,28 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
 
 ## Espaço de dados disponível
 
-Se sua organização estiver no novo modelo de plano do Workfront (pacotes Select, Prime e Ultimate), o plano de sua organização afetará o tamanho e o número de armazenamentos de dados disponíveis na instância do Fusion.
+Se sua organização estiver no novo modelo de plano do Workfront (pacotes Select, Prime e Ultimate), o tamanho total do armazenamento de dados será:
 
-### Plano Ultimate
+<!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your organization's plan affects the size and number of data stores available your Fusion instance.
 
-As instâncias do Fusion no pacote Ultimate recebem:
+### Ultimate plan
 
-* 500 MB de espaço
-* 50 armazenamentos de dados
+Fusion instances on the Ultimate package receive:
 
-### Planos Select e Prime
+* 500 MB of space
+* 50 data stores 
 
-As instâncias do Fusion nos pacotes Select ou Prime recebem:
+### Select and Prime plans
+
+Fusion instances on the Select or Prime packages receive:-->
 
 * 100 MB para as primeiras operações de 500K.
 
 * 10 MB para cada operação adicional de 100K.
 
-Por exemplo, uma organização com operações de 600 K recebe 110 MB.
+  Por exemplo, uma organização com operações de 600 K recebe 110 MB.
+
+Sua organização pode ter até 50 armazenamentos de dados. O tamanho combinado desses armazenamentos de dados não pode exceder o tamanho total do armazenamento de dados de sua organização.
 
 ## Criar um armazenamento de dados no [!DNL Workfront Fusion]
 
