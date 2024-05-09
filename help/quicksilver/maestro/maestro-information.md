@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: 32ed7c1adee51ed134e44bb4f8114c41d14cd2df
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,6 @@ hide: yes
 
 <!--remove the video at open beta or before-->
 
-Como líder em operações de marketing, você pode usar o Adobe Workfront Planning para organizar trabalhos em todo o ciclo de vida de marketing para todas as suas equipes.
-
 {{maestro-important-intro}}
 
 Você pode usar essa página como ponto de partida para toda a documentação relacionada ao Adobe Workfront Planning.
@@ -51,15 +49,17 @@ Acesse os seguintes artigos para obter uma visão geral do novo Workfront Planni
 <!--* [View a video demonstration of Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Visão geral do Adobe Workfront Planning](maestro-overview.md): uma visão geral de alto nível do Adobe Workfront Planning, incluindo a terminologia e os conceitos exclusivos dessa solução. Recomendamos que você inicie sua jornada com o Workfront Planning aqui.
-* [Atividade de versão do Adobe Workfront Planning](../maestro/release-activity.md): uma lista de todos os recursos que foram lançados desde o lançamento do programa beta fechado do Adobe Workfront Planning, em 22 de maio de 2023, com datas de lançamento exatas e uma breve visão geral de cada recurso.
+* [Atividade de versão do Adobe Workfront Planning](/help/quicksilver/maestro/release-activity.md): uma lista de todos os recursos que foram lançados desde o lançamento do programa beta fechado do Adobe Workfront Planning, em 22 de maio de 2023, com datas de lançamento exatas e uma breve visão geral de cada recurso.
 * [Módulos do Adobe Maestri para Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
 
 ## Arquitetura e funcionalidade do Workfront Planning
 
 As seções a seguir contêm artigos que descrevem em detalhes os recursos atualmente disponíveis para o Workfront Planning:
 
-* [Informações de Acesso do Adobe Workfront Planning: índice do artigo](../maestro/access/access-information.md): Informações sobre o acesso e as permissões necessárias para usar o Workfront Planning.
-* [Arquitetura: índice de artigos](../maestro/architecture/architecture-information.md): Informações detalhadas sobre a arquitetura do Workfront Planning, com instruções passo a passo sobre como criar e gerenciar espaços de trabalho e tipos de registro.
-* [Campos: índice do artigo](../maestro/fields/fields-information.md): informações detalhadas e instruções passo a passo sobre a criação de campos personalizados para tipos de registro.
-* [Registros: índice do artigo](../maestro/records/records-information.md): informações detalhadas e instruções passo a passo sobre como criar e gerenciar registros.
-* [Visualizações: índice do artigo](../maestro/views/views-information.md): informações detalhadas sobre exibições de registros e como gerenciá-las ao visualizar uma página do tipo de registro.
+* [Informações de acesso do Adobe Workfront Planning: índice do artigo](/help/quicksilver/maestro/access/access-information.md): Informações sobre o acesso e as permissões necessárias para usar o Workfront Planning.
+* [Arquitetura: índice de artigos](/help/quicksilver/maestro/architecture/architecture-information.md): Informações detalhadas sobre a arquitetura do Workfront Planning, com instruções passo a passo sobre como criar e gerenciar espaços de trabalho e tipos de registro.
+* [Campos: índice do artigo](/help/quicksilver/maestro/fields/fields-information.md): informações detalhadas e instruções passo a passo sobre a criação de campos personalizados para tipos de registro.
+* [Registros: índice do artigo](/help/quicksilver/maestro/records/records-information.md): informações detalhadas e instruções passo a passo sobre como criar e gerenciar registros.
+* [Visualizações: índice do artigo](/help/quicksilver/maestro/views/views-information.md): informações detalhadas sobre exibições de registros e como gerenciá-las ao visualizar uma página do tipo de registro.
+* [Notificações do Adobe Workfront Planning: índice do artigo](/help/quicksilver/maestro/notifications/notifications-information.md): Informações sobre emails e notificações no aplicativo geradas por eventos no Workfront Planning.
+
