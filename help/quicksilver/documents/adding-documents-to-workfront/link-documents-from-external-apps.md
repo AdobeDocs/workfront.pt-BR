@@ -6,9 +6,9 @@ description: Você pode vincular documentos e pastas ao Adobe Workfront a partir
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 9e57fa6d70e5cfe3de90a24564e76e22b82f63ff
+source-git-commit: 8aeb8c23f6eb6cf696512aaf7c6bd92b138f00cb
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2596'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,8 @@ Você pode vincular documentos ao Workfront a partir de um aplicativo externo, c
 
    >[!NOTE]
    >
-   >Para documentos vinculados a Box, o link para o documento em Box não é exibido até que você atualize a página.
+   >* Se o URL de download que é usado para vincular o documento exceder 2048 caracteres, o arquivo não poderá vincular.
+   >* Para documentos vinculados a Box, o link para o documento em Box não é exibido até que você atualize a página.
 
 ### Adicionar uma nova versão de um documento vinculado {#add-a-new-version-of-a-linked-document}
 
@@ -190,20 +191,20 @@ Você pode vincular documentos ao Workfront a partir de um aplicativo externo, c
 
 Para obter informações sobre como adicionar uma nova versão de um documento que você carregou no Workfront a partir do seu sistema de arquivos, consulte [Adicionar documentos ao Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) in [Adicionar documentos ao Adobe Workfront a partir do sistema de arquivos](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-### Vincular documentos de prova do Workfront {#link-workfront-proof-documents}
+### Vincular documentos do Workfront Proof {#link-workfront-proof-documents}
 
 Você pode vincular provas ao Workfront que existiam originalmente no Workfront Proof. Quando você vincula uma prova do Workfront Proof, todos os comentários e outros metadados associados à prova ficam disponíveis no Workfront.
 
 Você pode vincular somente as provas para as quais tem acesso de Visualização no Workfront Proof.
 
 1. Vá para a **Documentos** na Workfront onde você deseja o documento.
-1. Clique em **Adicionar novo** e, em seguida, clique em **Da prova do Workfront**.
+1. Clique em **Adicionar novo** e, em seguida, clique em **Do Workfront Proof**.
 
    >[!NOTE]
    >
    >As opções nesse menu podem variar dependendo de quais provedores de terceiros estão configurados em seu ambiente.
 
-1. No **Vincular provas da prova do Workfront** que for exibida, comece digitando o nome da prova que deseja disponibilizar no Workfront.
+1. No **Vincular provas do Workfront Proof** que for exibida, comece digitando o nome da prova que deseja disponibilizar no Workfront.
 
    A lista é filtrada à medida que você digita.
 
