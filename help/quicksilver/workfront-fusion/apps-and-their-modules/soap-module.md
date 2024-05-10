@@ -9,10 +9,10 @@ description: Você pode usar o módulo SOAP para se conectar a APIs SOAP no Adob
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: b820fb8d597205da9f2d0e5e6f5aec1056ec9a45
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 1%
+source-wordcount: '490'
+ht-degree: 0%
 
 ---
 
@@ -59,7 +59,11 @@ Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Usar o [!UICONTROL SOAP] módulo
+## Limitações da [!UICONTROL SOAP] módulo
+
+>[!NOTE]
+>
+>Os redirecionamentos são desativados durante o carregamento WDSL. Esse é um recurso de segurança, mas pode significar que redirecionamentos não verificados serão bloqueados quando o módulo for executado.
 
 A variável [!UICONTROL SOAP] no momento, o módulo está na versão beta e não oferece suporte a:
 
@@ -86,8 +90,8 @@ A variável [!UICONTROL SOAP] no momento, o módulo está na versão beta e não
 >     </complexContent>
 ></complexType>
 >```
-
-Inclui a `soapenc:Array`, `soapenc:arrayType` e `wsdl:arrayType` referências, que ainda não são compatíveis com o [!UICONTROL Workfront Fusion].
+>
+>Este exemplo inclui a variável `soapenc:Array`, `soapenc:arrayType` e `wsdl:arrayType` referências, que ainda não são compatíveis com o [!UICONTROL Workfront Fusion].
 
 ## Solução alternativa
 
