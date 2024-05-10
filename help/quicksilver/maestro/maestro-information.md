@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 32ed7c1adee51ed134e44bb4f8114c41d14cd2df
+source-git-commit: ace194b584601f9edd7862dbd74f639538891370
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -56,10 +56,10 @@ Acesse os seguintes artigos para obter uma visão geral do novo Workfront Planni
 
 As seções a seguir contêm artigos que descrevem em detalhes os recursos atualmente disponíveis para o Workfront Planning:
 
-* [Informações de acesso do Adobe Workfront Planning: índice do artigo](/help/quicksilver/maestro/access/access-information.md): Informações sobre o acesso e as permissões necessárias para usar o Workfront Planning.
+* [Informações de acesso e permissão: índice do artigo](/help/quicksilver/maestro/access/access-information.md): Informações sobre o acesso e as permissões necessárias para usar o Workfront Planning.
 * [Arquitetura: índice de artigos](/help/quicksilver/maestro/architecture/architecture-information.md): Informações detalhadas sobre a arquitetura do Workfront Planning, com instruções passo a passo sobre como criar e gerenciar espaços de trabalho e tipos de registro.
 * [Campos: índice do artigo](/help/quicksilver/maestro/fields/fields-information.md): informações detalhadas e instruções passo a passo sobre a criação de campos personalizados para tipos de registro.
 * [Registros: índice do artigo](/help/quicksilver/maestro/records/records-information.md): informações detalhadas e instruções passo a passo sobre como criar e gerenciar registros.
 * [Visualizações: índice do artigo](/help/quicksilver/maestro/views/views-information.md): informações detalhadas sobre exibições de registros e como gerenciá-las ao visualizar uma página do tipo de registro.
-* [Notificações do Adobe Workfront Planning: índice do artigo](/help/quicksilver/maestro/notifications/notifications-information.md): Informações sobre emails e notificações no aplicativo geradas por eventos no Workfront Planning.
+* [Notificações: índice do artigo](/help/quicksilver/maestro/notifications/notifications-information.md): Informações sobre emails e notificações no aplicativo geradas por eventos no Workfront Planning.
 

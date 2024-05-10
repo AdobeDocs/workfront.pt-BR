@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: ace194b584601f9edd7862dbd74f639538891370
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,9 @@ ht-degree: 0%
 
 A visualização do registro é uma exibição menor da página do registro exibida na exibição de um tipo de registro.
 
-Quando você altera o layout de uma visualização e página de registro, as alterações afetam as caixas e páginas de todos os registros do mesmo tipo.
+Quando você altera o layout de uma visualização e página de registro, as alterações afetam as caixas de visualização e as páginas de detalhes de todos os registros do mesmo tipo.
+
+Este artigo descreve como alterar o layout e a aparência de uma caixa de visualização de registro ou de uma página de registro. Para obter informações sobre edição de registros, consulte [Editar registros](/help/quicksilver/maestro/records/edit-records.md).
 
 Você deve criar tipos de registro e registros antes de começar a editar páginas de registro.
 

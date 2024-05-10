@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: ace194b584601f9edd7862dbd74f639538891370
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '623'
 ht-degree: 7%
 
 ---
@@ -69,6 +69,15 @@ As tabelas nas seções a seguir ilustram o nível de permissões que você pode
 
 ### Permissões do Workspace
 
+Você deve conceder aos usuários permissão aos espaços de trabalho para permitir que eles tenham acesso às seguintes entidades:
+
+* Espaços de trabalho
+* Tipos de registro
+* Registros
+* Campos
+
+A seguir estão os níveis de permissões para espaços de trabalho:
+
 |        | Gerenciar | Contribuir | Exibir |
 |--------|--------|------------|-------|
 | Editar | ✓ µ |            |       |
@@ -80,6 +89,9 @@ As tabelas nas seções a seguir ilustram o nível de permissões que você pode
 
 As permissões de Tipo de registro são herdadas ao conceder permissões ao espaço de trabalho.
 
+A seguir estão os níveis de permissões para tipos de registro:
+
+
 |        | Gerenciar | Contribuir | Exibir |
 |--------|--------|------------|-------|
 | Criar | ✓ µ |            |       |
@@ -90,6 +102,9 @@ As permissões de Tipo de registro são herdadas ao conceder permissões ao espa
 ### Registrar permissões
 
 As permissões de registro são herdadas ao conceder permissões ao espaço de trabalho.
+
+A seguir estão os níveis de permissões para registros:
+
 
 |        | Gerenciar | Contribuir | Exibir |
 |--------|--------|------------|-------|
@@ -115,7 +130,19 @@ As permissões a seguir se referem aos próprios campos e não aos valores assoc
 
 Você deve conceder permissões separadas para exibições de registros. A concessão de permissões para o espaço de trabalho não concede permissões para as exibições de registros no espaço de trabalho.
 
+Você deve conceder aos usuários permissão para exibições para permitir que eles tenham acesso aos seguintes elementos de exibição:
+
+* Filtros
+* Visibilidade do campo
+* Ordenar
+* Agrupamento
+* Altura da linha
+* Configurações
+
+
 <!--You can share views internally or publicly. -->
+
+A seguir estão os níveis de permissões para exibições e elementos de exibição:
 
 |        | Gerenciar | Exibir |
 |--------|--------|-------|
