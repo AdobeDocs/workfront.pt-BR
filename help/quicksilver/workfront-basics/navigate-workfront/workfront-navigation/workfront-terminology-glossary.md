@@ -6,9 +6,9 @@ description: A variável [!DNL Adobe Workfront] listas de glossário termos comu
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: b57f5038746094dde4b98bd28361e730c28ba412
 workflow-type: tm+mt
-source-wordcount: '19889'
+source-wordcount: '20060'
 ht-degree: 0%
 
 ---
@@ -252,6 +252,19 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Linha de Base]</td> 
    <td>Uma fonte de dados para medir as iterações em um ambiente ágil.</td> 
+  </tr>
+
+<tr data-mc-conditions=""> 
+   <td>[!UICONTROL Despesa Faturável]</td> 
+   <td> <p>Uma despesa marcada como faturável para o cliente. Pode ser uma despesa planejada ou uma despesa real.</p> <p>Os campos Custo de Despesas Faturáveis Planejados e Custo Efetivo de Despesas Faturáveis estão disponíveis para serem adicionados a exibições e relatórios. Eles não aparecem nas páginas de detalhes do projeto ou da tarefa.</p>
+   <p>Você pode encontrar esses campos nos seguintes tipos de relatórios:</p>
+   <ul>
+   <li>Linha de base</li>
+   <li>Modelo</li>
+   <li>Projeto (Dado Financeiro)</li>
+   </ul>
+   <p>Para obter mais informações sobre como marcar uma despesa como faturável, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Gerenciar despesas do projeto</a>.</p>
+   </td> 
   </tr>
 
 <tr data-mc-conditions=""> 
@@ -795,7 +808,7 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
      <li>[!UICONTROL Controlado pelo Esforço]</li> 
      <li>[!UICONTROL Simples]</li> 
     </ul> <p>Para obter mais informações, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Visão Geral da Tarefa [!UICONTROL Duração] e [!UICONTROL Tipo Duração]</a>.</p> 
-    —&gt; </td> 
+    --&gt; </td> 
    </tr> 
    <tr> 
    <td>[!UICONTROL Unidade de Duração]</td> 
@@ -1305,7 +1318,21 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
    <td>Em um relatório de [!UICONTROL Lançamento], é exibido o valor atualizado de um campo que substitui o [!UICONTROL Valor Velho de Número].
    Para obter mais informações, consulte "[!UICONTROL Valor Velho de Número]" neste artigo.</td> 
   </tr>
-  <tr> 
+
+<tr data-mc-conditions=""> 
+   <td>[!UICONTROL Despesa Não Faturável]</td> 
+   <td> <p>Uma despesa que não está marcada como faturável para o cliente. Pode ser uma despesa planejada ou uma despesa real.</p> <p>Os campos Custo de Despesas Não Faturáveis Planejadas e Custo Efetivo de Despesas Não Faturáveis estão disponíveis para serem adicionados a exibições e relatórios. Eles não aparecem nas páginas de detalhes do projeto ou da tarefa.</p>
+   <p>Você pode encontrar esses campos nos seguintes tipos de relatórios:</p>
+   <ul>
+   <li>Linha de base</li>
+   <li>Modelo</li>
+   <li>Projeto (Dado Financeiro)</li>
+   </ul>
+   <p>Para obter mais informações sobre como marcar uma despesa como faturável, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Gerenciar despesas do projeto</a>.</p>
+   </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Dia Não Útil]</td> 
    <td>Um dia que não está alocado para a conclusão de atribuições. Normalmente, é um dia de férias, feriado ou fim de semana. O termo é exibido no explorador de API. </td> 
   </tr> 
