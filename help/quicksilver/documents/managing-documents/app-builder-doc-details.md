@@ -8,13 +8,13 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 0d9212f0719535f191e61d27a73b8f5b2ef5fb30
+exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
+source-git-commit: 21ef9365561fca2301223ae79f6371f3c94c7313
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1334'
 ht-degree: 0%
 
 ---
-
 
 # AppBuilder nos Detalhes do documento do Workfront
 
@@ -358,3 +358,12 @@ Estes são alguns links úteis:
 
 * [https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/)
 
+## Desenvolvimento local
+
+Ao desenvolver seu aplicativo App Builder para o Workfront, talvez você precise testar seu aplicativo no Workfront sem publicá-lo. Felizmente, temos uma solução para isso.
+
+No aplicativo App Builder, é possível iniciar `aio app run` desenvolvimento local. Isso fornecerá um URL, normalmente algo como `https://localhost:9080`. Como alternativa, você pode executar `aio app deploy` para obter um domínio de Adobe estático. Anote esses URLs para uso futuro.
+
+Em seguida, acesse a página de detalhes do documento específico que deseja desenvolver no navegador. Abra as ferramentas do desenvolvedor e acesse o Armazenamento local workfront.com ou workfront.adobe.com. Aqui, você precisa adicionar uma entrada. Uso `appBuilderDocDetailsOverride` como a chave e o URL do construtor de aplicativos anotado anteriormente como o valor.
+
+Ao recarregar a página, você notará os botões do aplicativo App Builder que aparecem. Clicar nesses botões permitirá que você visualize seu aplicativo em ação.
