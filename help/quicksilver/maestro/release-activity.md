@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
 workflow-type: tm+mt
-source-wordcount: '5929'
+source-wordcount: '6045'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,39 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/maestro/notifications/notifications-information.md). 
 
+### New warning about object visibility when connecting records 
+
+Production: <date>
+
+Preview: To be determined
+
+When you create connections to object types outside of Workfront Planning, you are now notified that anyone working in the current workspace will have visibility to all the linked objects and their lookup fields, regardless of their permissions and access levels in the other application. 
+
+For example, if you link projects to Workfront Planning campaigns, everyone with access to View the campaign will also have access to view the linked projects and the information from their lookup fields, even when they don't have any permissions to the linked projects, or access to projects, in general. 
+
+For more information, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).  
+
 -->
+
+## Semana de 13 de maio de 2024
+
+### Atualizações em tempo real na exibição de linha do tempo após a edição de registros
+
+Produção: 14 de maio de 2024
+
+Visualização: a ser determinado.
+
+Quando um usuário atualiza as informações em um registro, outros usuários podem exibir as informações atualizadas na exibição da linha do tempo do registro em tempo real. Isso garante que todos os usuários visualizem as informações atualizadas ao mesmo tempo, em sincronia com quando as alterações ocorrerem.
+
+### Adicionar registro do cabeçalho de exibição
+
+Produção: 14 de maio de 2024
+
+Visualização: a ser determinado
+
+Adicionamos um botão &quot;Novo registro&quot; no cabeçalho de uma página do tipo de registro. Agora é possível criar registros de qualquer modo de exibição. Antes desse aprimoramento, você poderia criar registros somente a partir da exibição em tabela.
+
+Para obter mais informações, consulte [Criar registros](/help/quicksilver/maestro/records/create-records.md).
 
 ## Semana de 6 de maio de 2024
 

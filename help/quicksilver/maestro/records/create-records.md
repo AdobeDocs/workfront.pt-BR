@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -103,27 +103,31 @@ O espaço de trabalho acessado pela última vez é aberto por padrão. Para obte
 1. Clique em um cartão de tipo de registro. Para obter informações sobre como criar um tipo de registro, consulte [Criar tipos de registro](../architecture/create-record-types.md).
 
    A página do tipo de registro é aberta na exibição acessada pela última vez. Por padrão, uma página do tipo de registro é aberta na exibição de tabela.
-Todos os registros do tipo selecionado são exibidos na exibição de tabela.
+Todos os registros do tipo selecionado são exibidos na visualização.
 
-1. (Condicional) Se a página de tipo de registro não abrir na exibição em tabela, clique na guia de uma exibição em tabela ou clique em **+ Exibir** para criar uma visualização de tabela.
+1. (Condicional) Dependendo da exibição exibida, siga um destes procedimentos:
 
-1. Para adicionar novos registros, clique em **Novo registro** na última linha da tabela
+   * Na exibição de tabela:
 
-   Ou
+      * Clique em **Novo registro** na última linha da tabela
 
-   Clique em **Shift + Enter** no teclado a partir de qualquer coluna ou linha da tabela. Isso adiciona uma linha vazia.
+      * Clique em **Shift + Enter** no teclado a partir de qualquer coluna ou linha da tabela. Isso adiciona uma linha vazia.
 
-   ![](assets/adding-a-new-campaign-in-table-row.png)
+     ![](assets/adding-a-new-campaign-in-table-row.png)
 
-1. Comece a digitar informações na nova linha sobre o novo registro.
+   * Em qualquer modo de exibição:
+
+      * Clique em **Novo registro** no canto superior direito da página. A caixa de visualização do registro é aberta.
+
+1. Comece a digitar informações na nova linha sobre o novo registro ou nos campos que você vê na caixa de visualização.
 
    >[!NOTE]
    >
-   >  * Não há campos obrigatórios para registros. No entanto, recomendamos adicionar um Nome para o registro, pois é útil identificar registros ao vincular registros uns aos outros.
+   >  * Não há campos obrigatórios para registros. No entanto, recomendamos que você adicione um Nome para o registro, pois é útil identificar os registros por seu nome ao vincular registros uns aos outros.
    >
    >  * Os campos que se referem a outros tipos de registro ou campos calculados são campos somente leitura.
 
-1. Continue adicionando informações em cada linha e clique em **Enter** no teclado para salvar as alterações.
+1. (Condicional) Ao adicionar registros na tabela, continue adicionando informações em cada linha e clique em **Enter** no teclado para salvar as alterações.
 
    Ou
 
@@ -136,8 +140,7 @@ Todos os registros do tipo selecionado são exibidos na exibição de tabela.
 1. Iniciar edição das informações do registro na visualização do registro. O Workfront salva suas alterações automaticamente.
 1. (Opcional) Clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia. Continuar editando o registro na página de registro.
 
-
-1. (Opcional) Use os seguintes atalhos de teclado para desfazer ou refazer a adição de novos registros:
+1. (Opcional) Use os seguintes atalhos de teclado para desfazer ou refazer a adição de novos registros ou suas informações ao adicioná-los na exibição de tabela:
 
    * CTRL + Z (⌘ + Z para Mac) para desfazer uma alteração
    * CTRL + Shift + Z (⌘ + Shift + Z para Mac) para refazer uma alteração

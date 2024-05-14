@@ -4,13 +4,13 @@ description: Talvez seja possível gerenciar suas preferências de notificação
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
+source-git-commit: 0c3192599130d110572a6c1a5e93ffa47d437ac3
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
 
 ---
-
 
 # Gerenciar preferências de notificação do Adobe Workfront Planning
 
@@ -92,7 +92,7 @@ Para obter mais informações sobre notificações do Workfront Planning, consul
 
 * Para obter informações sobre comentários em registros, consulte [Gerenciar comentários de registro](/help/quicksilver/maestro/records/manage-record-comments.md).
 * Para obter informações sobre notificações no aplicativo do Workfront Planning, consulte [Gerenciar notificações no aplicativo para o Adobe Workfront Planning](/help/quicksilver/maestro/notifications/manage-planning-in-app-notifications.md).
-* Para obter informações sobre notificação por email do Workfront Planning, consulte [Gerenciar notificações por email para o Adobe Workfront Planning](/help/quicksilver/maestro/notifications/manage-planning-email-notifications.md).
+* Para obter informações sobre notificações por email do Workfront Planning, consulte [Gerenciar notificações por email para o Adobe Workfront Planning](/help/quicksilver/maestro/notifications/manage-planning-email-notifications.md).
 
 
 
