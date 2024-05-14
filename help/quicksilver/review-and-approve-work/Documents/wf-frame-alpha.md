@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 2c9d52ad5e3d330d0a183d9cef545ff6b6aed6b2
+source-git-commit: cb29d7ff4854faf50195af6916dfaa6eae588764
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,32 @@ Aqui você encontrará informações sobre a versão Beta mais recente, juntamen
 >
 >Para participar desta versão beta, você deve ser habilitado pela equipe de produtos. Entre em contato com o Sucesso do cliente ou o Gerente de conta e solicite a adição.
 
+## Maio de 2024: atualizações de versão beta no Workfront
 
-## Atualizações de versão beta no Frame.io - março de 2024
+Esta versão de maio inclui os seguintes recursos:  
 
-Nesta versão Beta, temos:
+>[!VIDEO](https://video.tv.adobe.com/v/3429129/)
+
+### Os projetos do Workfront são sincronizados automaticamente com o Frame.io
+
+Com base em seus comentários, melhoramos a experiência e reduzimos as etapas necessárias para acionar a criação de um Frame.io conectado.  Agora, ao criar um projeto no Workfront, um projeto correspondente é criado automaticamente no Frame.io. 
+
+### Atribuição aprimorada de criativos ao projeto Frame.io
+
+Agora é possível gerenciar facilmente quem deve ter acesso ao projeto Frame.io conectado. Seus usuários criativos podem ser sinalizados como &quot;Frame.io ativado&quot;, o que lhes concederá automaticamente acesso ao projeto Frame.io conectado quando atribuído ao projeto Workfront.   
+
+### O nome do projeto Frame.io é atualizado quando o nome do projeto Workfront é alterado
+
+Como parte de nossos esforços para melhorar a sincronização do projeto entre o Workfront e o Frame.io, as atualizações de nome de projeto do Workfront agora também são refletidas no Frame.io. 
+
+### Status de aprovação na lista de documentos
+
+Acompanhe facilmente o status de aprovação de qualquer arquivo diretamente da lista de documentos. Com um simples clique no status geral, acesse um detalhamento de todos os participantes envolvidos no processo de aprovação, juntamente com seus status individuais. Além disso, simplifique seu fluxo de trabalho lembrando os aprovadores pendentes com apenas um clique, garantindo respostas oportunas e um gerenciamento eficiente de documentos. 
+
+
+## Março de 2024: atualizações da versão beta no Frame.io
+
++++ Expanda para visualizar a funcionalidade lançada em março de 2024
 
 ### Adicionar vários ativos do Frame.io ao Workfront
 
@@ -39,7 +61,7 @@ Os itens de menu para adicionar um ativo ao Workfront foram atualizados, facilit
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## Atualizações de versão beta no Workfront - março de 2024
+## Março de 2024: atualizações da versão beta no Workfront
 
 Nesta versão Beta, temos:
 
@@ -82,6 +104,8 @@ Uma vez bloqueada, qualquer pessoa que revise e/ou aprove não poderá mais faze
 Quando uma nova versão do documento for carregada, a próxima rodada de revisão poderá ser iniciada, mantendo as revisões anteriores bloqueadas.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428179/)
+
++++
 
 ## Teste de recursos
 
@@ -128,14 +152,12 @@ Para testar a funcionalidade, faça logon na instância de Visualização do Wor
 
 +++ Expandir para exibir instruções detalhadas de teste
 
-Para os participantes que desejam testar a funcionalidade adicional, criamos um cenário de teste mais envolvido. Um guia para esse cenário de teste detalhado pode ser baixado aqui: [Apresentação do cenário de teste detalhado de WF + Frame.io](/help/quicksilver/review-and-approve-work/Documents/assets/wf-frame-detailed-walk-through-may-release.pdf).
+Para os participantes que desejam testar a funcionalidade adicional, criamos um cenário de teste mais envolvido. Um guia para esse cenário de teste detalhado pode ser baixado aqui: [Apresentação do cenário de teste detalhado de WF + Frame.io](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
 +++
 
-<!-- 
-## Demo Video
+## Vídeo de demonstração
 
->[!VIDEO](https://video.tv.adobe.com/v/3426406/)
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3429092/)
 
 ## Enviar feedback
 

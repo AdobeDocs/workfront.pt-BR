@@ -1,21 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Status de aprovação de documento
-description: Os status de aprovação de documento são listados e explicados
+title: Status da decisão do documento
+description: Os status de decisão do documento são listados e explicados
 author: Becky
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
+source-git-commit: ac3200b478c706194a8c8246d1754b16601d5f56
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '161'
 ht-degree: 5%
 
 ---
 
-# Status de aprovação de documento
+# Status da decisão do documento
 
-Você pode encontrar o status de aprovação de um documento no cabeçalho do documento.
+Você pode visualizar o status do documento diretamente na lista de documentos:
+
+![](assets/status-in-doc-list.png)
 
 Os seguintes status estão disponíveis:
 
