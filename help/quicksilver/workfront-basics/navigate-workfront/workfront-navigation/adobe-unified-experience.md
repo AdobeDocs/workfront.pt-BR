@@ -6,9 +6,9 @@ description: Acesso ao [!DNL Workfront] o Adobe Experience Cloud oferece uma exp
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: ca74ef02b83a76fad92d2bc8b1a9afc3927693ec
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Use o [!UICONTROL Menu principal] ícone ![](assets/main-menu-icon-left-nav.png)
 
 ## Acessar seu perfil e suas preferências
 
-Você pode acessar suas opções de perfil e preferência clicando na imagem do perfil na área de navegação superior.
+Você pode acessar suas opções de perfil e preferência clicando no menu da conta de Adobe (sua foto de perfil) na área de navegação superior.
 
 ![Menu Perfil](assets/aec-profile-picture-menu.png)
 
