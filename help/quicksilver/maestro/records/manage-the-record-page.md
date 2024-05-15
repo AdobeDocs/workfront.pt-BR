@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: ace194b584601f9edd7862dbd74f639538891370
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '1153'
 ht-degree: 0%
 
 ---
@@ -95,100 +95,95 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Considerações sobre a edição de páginas de registro
 
-* A reorganização de campos na visualização de registro ou página reorganiza os campos para todos os registros desse tipo e para todos os usuários que acessam esses registros.
+* Por padrão, os detalhes e as páginas de visualização de um registro exibem todos os campos associados ao registro.
+
+* Não é possível adicionar novos campos a um registro na página de visualização ou de detalhes. Você deve adicionar novos campos na exibição de tabela para exibi-los nas páginas de visualização e detalhes.
+
+* É possível adicionar seções a uma visualização de registro ou página de detalhes para organizar as informações por critérios comuns e facilitar a localização.
+
+* As alterações a seguir afetam todos os registros do mesmo tipo e são visíveis para todos os usuários que acessam esses registros:
+
+   * Reorganização de campos
+   * Adição ou remoção de seções
 
 * As alterações de exibição feitas na visualização do registro ficam imediatamente visíveis na página de detalhes do registro. As alterações feitas na página de registro também estão visíveis na caixa de visualização do registro.
 
-<!--Replace the first bullet with this when we add sections:
-
-* The following changes affect all the records of the same type and are visible to all users accessing those records: 
-
-   * Rearranging fields
-   * Adding or removing sections
--->
-
 * A adição de uma imagem de capa a um registro não faz parte do layout geral da pré-visualização ou página do registro. Você pode adicionar imagens de capa exclusivas a cada registro. Para obter informações, consulte [Adicionar uma imagem da capa a um registro](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
 
-<!--
+## Adicionar seções a uma visualização ou página de registro
 
-## Add sections to a record preview or page
+Considere o seguinte ao adicionar seções a uma página de registro:
 
-You can add sections to a record preview or page, to organize the information by common criteria and make it easier to find. 
+* Não há limite para quantas seções você pode ter em uma página.
+* Você não pode ter uma seção vazia. Você deve ter pelo menos um campo em uma seção.
+* Você pode arrastar e soltar campos de uma seção para outra. Para obter mais informações, consulte a seção [Reorganizar campos na página de visualização ou detalhes do registro](#rearrange-fields-in-the-record-preview-or-details-page) neste artigo.
+* Ao remover todos os campos de uma seção, ela é automaticamente excluída e não pode ser recuperada.
 
-Consider the following when adding sections to a record page:
-
-* There is no limit to how many sections you can have on a page (***************IS THIS TRUE???***********)
-* You cannot have an empty section. You must have at least one field in a section. 
-* You can drag and drop fields from one section to another. 
-* When you remove all the fields from a section, the section is automatically deleted and cannot be recovered. 
-
-To add a section to a record preview or page: 
+Para adicionar uma seção a uma visualização de registro ou página:
 
 {{step1-to-maestro}}
 
-The workspace that you access last opens. 
+O espaço de trabalho que você acessa por último é aberto.
 
-1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
-1. Click a record type card. 
+1. (Opcional) Clique na seta para baixo à direita do nome do espaço de trabalho para selecionar o espaço de trabalho cujos registros você deseja atualizar.
+1. Clique em um cartão de tipo de registro.
 
-    The record type page opens. 
+   A página de tipo de registro é aberta.
 
-1. From a view of any type, click the name of a record 
+1. Em uma exibição de qualquer tipo, clique no nome de um registro
 
-    Or 
-    
-    From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name. 
-    
-    The record's preview opens in the view.
+   Ou
 
-    ![](assets/details-box.png) 
+   Na exibição de tabela, clique na guia **Abrir detalhes** ícone ![](assets/open-details-icon-in-table-name-field.png) à esquerda do nome de um registro.
 
-    >[!TIP]
-    >
-    >You can view the **Open details** icon to the left of the Name field of a record in a table view only when the Name field is a primary field. 
+   A visualização do registro é aberta na exibição.
 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (****************check the icon; they are changing it**********)  in the upper-right corner of the record preview  to open the record's page in a new tab. 
+   ![](assets/details-box.png)
 
-    The record page opens. 
+   >[!TIP]
+   >
+   >É possível exibir a **Abrir detalhes** Ícone à esquerda do campo Nome de um registro em uma exibição de tabela somente quando o campo Nome é um campo primário.
 
-    ![](assets/details-page.png)
+1. (Opcional) Clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
 
-1. In the record preview or page, hover over the white space to the left of the fields, then click the **Add section** icon ![](assets/add-section-icon.png) to add a section. 
-1. Click inside the section's name and replace **Untitled** with a name, then click Enter. (************has this changed to Untitled section???**********)
-1. Start dragging and dropping fields to the new section, as described in the section [Rearrange fields in the record preview or page](#rearrange-fields-in-the-record-preview-or-page) in this article. 
+   A página de registro é aberta.
 
-1. (Optional) Hover over the name of a section and click the **More** menu ![](assets/more-menu.png). 
+   ![](assets/details-page.png)
+
+1. Na visualização do registro ou página, passe o mouse sobre o espaço em branco à esquerda dos campos e clique no botão **Adicionar seção** ícone ![](assets/add-section-icon.png) para adicionar uma seção.
+1. Clique dentro do nome da seção e substitua **Seção sem título** com um nome, em seguida, clique em Enter. Os campos exibidos abaixo da seção fazem parte automaticamente da nova seção.
+1. Comece a arrastar e soltar campos na nova seção, conforme descrito na seção [Reorganizar campos na página de visualização ou detalhes do registro](#rearrange-fields-in-the-record-preview-or-details-page) neste artigo.
+
+1. (Opcional) Passe o mouse sobre o nome de uma seção e clique no link **Mais** menu ![](assets/more-menu.png).
 
    ![](assets/more-menu-options-for-section-on-record-page.png)
-1. (Optional) Do one of the following to edit the section: 
+1. (Opcional) Siga um destes procedimentos para editar a seção:
 
-   * Click **Rename** to rename the section
+   * Clique em **Renomear** para renomear a seção
 
-      >[!TIP]
-      >
-      > You can rename a section inline, by clicking the name.
-   
-   * Click **Move up** to move the section up one position 
+     >[!TIP]
+     >
+     > É possível renomear uma seção em linha clicando no nome.
 
-      Or 
-      
-      Click **Move down** to move the section down one position.
-      All fields in the section move with the section. 
+   * Clique em **Mover para cima** para mover a seção uma posição acima
 
-   * Click **Delete** to delete the section. The section is deleted and it cannot be recovered. All users accessing the records of this type will no longer view the deleted section. 
+     Ou
 
-1. Click the downward-pointing arrow to the left of a section name to collapse it, or the right-pointing arrow  to expand it. 
-   All sections are expanded by default. 
+     Clique em **Mover para baixo** para mover a seção uma posição para baixo.
+Todos os campos na seção se movem com a seção.
 
-1. (Optional) Click the **grab** icon ![](assets/grab-icon.png) to the left of a section name, then drag and drop it in a desired spot. 
+   * Clique em **Excluir** para excluir a seção. A seção é excluída e não pode ser recuperada. Todos os usuários que acessarem os registros desse tipo não visualizarão mais a seção excluída.
 
-    The new position of the section updates in both the preview and the page of all records of the same type for all users viewing the records. 
+1. Clique na seta apontando para baixo à esquerda do nome de uma seção para recolhê-la ou na seta apontando para a direita para expandi-la.
+Todas as seções são expandidas por padrão.
 
-    All changes to sections and field order are saved automatically. 
+1. (Opcional) Clique no link **agarrar** ícone ![](assets/grab-icon.png) à esquerda do nome de uma seção, arraste-a e solte-a no local desejado.
 
--->
+   A nova posição da seção atualiza na pré-visualização e na página de todos os registros do mesmo tipo para todos os usuários que visualizam os registros.
 
-## Reorganizar campos na visualização ou página do registro
+   Todas as alterações nas seções e na ordem dos campos são salvas automaticamente.
+
+## Reorganizar campos na página de visualização ou detalhes do registro
 
 {{step1-to-maestro}}
 

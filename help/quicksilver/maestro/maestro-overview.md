@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1826'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 1%
 >Atualmente, o Adobe Workfront Planning faz parte de um programa beta aberto a um número limitado de clientes. Você deve ser um cliente do Workfront para usar esses recursos.
 >
 >Entre em contato com seu representante de conta para obter mais informações sobre como participar do programa beta para o Workfront Planning.
+>
+>Para obter uma lista completa de todas as seções e artigos que documentam o Workfront Planning, consulte [Adobe Workfront Planning: índice do artigo](/help/quicksilver/maestro/maestro-information.md).
 
 <!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 

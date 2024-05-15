@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1797'
 ht-degree: 0%
 
 ---
@@ -116,6 +116,10 @@ Para fazer isso:
 
 
 ## Conectar um tipo de registro do Workfront Planning a um tipo de objeto de projeto do Workfront e conectar um registro a projetos individuais
+
+>[!IMPORTANT]
+>
+>    Todos os usuários com permissões de Exibição ou superiores ao espaço de trabalho podem exibir as informações nos campos vinculados, independentemente das permissões ou do nível de acesso no Workfront.
 
 Por exemplo, você tem um tipo de registro chamado Campanha como o tipo de registro original.
 
