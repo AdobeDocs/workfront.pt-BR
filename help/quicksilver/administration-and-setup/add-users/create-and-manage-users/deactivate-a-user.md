@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: a907cd9d07a2912d42ae26d69815a05a1006a633
+source-git-commit: ece0275518169fd67708dce903b8bf46a9ee7b1b
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -83,8 +83,8 @@ Para obter mais informações, consulte [Sobre a desativação de administradore
 Esteja ciente do seguinte ao desativar um usuário:
 
 * O usuário não poderá acessar o sistema.
-* O usuário será removido dos links de revisão, ativos, projetos e contas do Frame.io.
-   * A reativação do usuário não o adiciona automaticamente de volta aos itens Frame.io. Você deve reatribuir o usuário manualmente para projetos, tarefas e ativos do Workfront que exigem colaboração do Frame.io.
+<!--* The user will be removed from Frame.io review links, assets, projects, and accounts.
+   * Reactivating the user does not automatically add them back to the Frame.io items. You must reassign the user manually to Workfront projects, tasks, and assets that require Frame.io collaboration.-->
 * Todos os dados associados ao usuário serão retidos.
 * Você pode atribuir uma licença de usuário desativada a outro usuário.
 
@@ -136,10 +136,10 @@ Recomendamos criar um relatório para os usuários que você agendou para desati
 1. Selecione um usuário, clique no ícone Mais ![](assets/more-icon.png)e, em seguida, clique em **Ativar**.
 
 1. Atribuir um novo **Nível de acesso** no menu suspenso, depois clique em **Reativar**.
+<!--
+### Asset review and approval impact when you reactivate a user
 
-### Impacto da revisão e aprovação do ativo quando você reativa um usuário
-
-Os usuários desativados perdem o acesso às contas Frame.io atribuídas, bem como aos projetos, ativos e links de revisão atribuídos. Se você optar por reativar o usuário, será necessário reatribuí-lo manualmente a projetos, tarefas e ativos que exigem colaboração no Frame.io.
+Deactivated users lose access to their assigned Frame.io accounts as well as assigned projects, assets, and review links. If you choose to reactivate the user, you must manually reassign them to projects, tasks, and assets that require Frame.io collaboration. -->
 
 ### Impacto da revisão quando você reativa um usuário
 
