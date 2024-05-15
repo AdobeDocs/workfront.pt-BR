@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 9%
+source-wordcount: '536'
+ht-degree: 7%
 
 ---
 
@@ -27,23 +27,33 @@ Esta página contém informações sobre a estrutura e o conteúdo dos dados no 
 
 Há vários tipos de tabelas que você pode utilizar para visualizar os dados do Workfront de uma maneira que forneça o maior insight.
 
-### Tabela atual
+* **Tabela atual**
 
-A tabela Atual reflete os dados de forma semelhante a como eles existem no Workfront, em cada objeto e em seu estado atual. No entanto, ela pode ser navegada com latência muito mais baixa do que no Workfront.
+  A tabela Atual reflete os dados de forma semelhante a como eles existem no Workfront, em cada objeto e em seu estado atual. No entanto, ela pode ser navegada com latência muito mais baixa do que no Workfront.
 
-### Tabela de eventos
+* **Tabela de eventos**
 
-A tabela Evento rastreia cada registro de alteração no Workfront: ou seja, sempre que um objeto muda de estado, um registro é criado para mostrar quando a alteração aconteceu, quem fez a alteração e o que foi alterado. Portanto, essa tabela é útil para comparações point-in-time. Esta tabela inclui apenas registros dos últimos três anos.
+  A tabela Evento rastreia cada registro de alteração no Workfront: ou seja, sempre que um objeto muda de estado, um registro é criado para mostrar quando a alteração aconteceu, quem fez a alteração e o que foi alterado. Portanto, essa tabela é útil para comparações point-in-time. Esta tabela inclui apenas registros dos últimos três anos.
 
-### Tabela Histórico diário
+* **Tabela Histórico diário**
 
-A tabela Histórico Diário oferece uma versão abreviada da tabela Evento, na medida em que mostra o estado de cada objeto diariamente em vez de quando cada evento individual ocorreu. Dessa forma, essa tabela é útil para a análise de tendências.
+  A tabela Histórico Diário oferece uma versão abreviada da tabela Evento, na medida em que mostra o estado de cada objeto diariamente em vez de quando cada evento individual ocorreu. Dessa forma, essa tabela é útil para a análise de tendências.
 
 <!-- Custom table -->
 
+## Diagrama de relacionamento de entidade
+
+Os objetos no Workfront (e, portanto, no data lake) são definidos não apenas por seus valores individuais, mas por suas relações com outros objetos. O diagrama de relacionamento de entidade abaixo fornece um mapeamento de alto nível de relacionamentos de objetos no data lake da Workfront. O diagrama pode ser visualizado e baixado por meio do seguinte link:
+
+[Diagrama de relacionamento de entidade do data lake da Workfront](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+
+>[!IMPORTANT]
+>
+>O diagrama de relacionamento de entidade é um trabalho em andamento, sendo assim, ele serve apenas para fins de referência e está sujeito a alterações.
+
 ## Tabela de terminologia
 
-A tabela a seguir correlaciona os nomes de objetos no Workfront (bem como seus nomes na interface e na API) com seu nome equivalente no data lake.
+A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nomes na interface e na API) com seus nomes equivalentes no data lake.
 
 <table>
 <thead>

@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: c5100faf3d29182ecf62169708d39d41542a9398
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -191,7 +191,7 @@ Se o ambiente de Produção estiver no Cluster 6, adicione os seguintes endereç
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Para usar o serviço de email do AWS</td> 
+   <td role="rowheader">Para usar o serviço de email</td> 
    <td> 
     <ul> 
      <li>54 240 60 174</li> 
@@ -202,6 +202,15 @@ Se o ambiente de Produção estiver no Cluster 6, adicione os seguintes endereç
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54 71 252 65 </li> 
+    </ul> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">Para usar o serviço de email Mailgun</td> 
+   <td> 
+    <ul> 
+     <li>143.55.228.56 </li> 
+     <li>209.61.151.229</li> 
+     <li>69.72.43.7</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -502,7 +511,7 @@ Incluir na lista de permissões Se sua organização usar filtragem de rede de s
      <li>*.workfront.com - Obrigatório para exibir provas no Workfront</li> 
      <li>*.proofhq.com - Obrigatório para exibir provas no Workfront Proof</li> 
      <li>*.proofhq.eu - obrigatório para exibir provas no Workfront Proof</li> 
-    </ul> <p><b>NOTA</b>:  <p>Não oferecemos suporte à adição de endereços IP ao seu arquivo de inclui na lista de permissões para o Workfront Proof. Eles se tornaram dinâmicos depois que o Workfront mudou para o AWS. Em vez disso, recomendamos que você permita somente domínios do Workfront Proof.</p> <p>Incluir na lista de permissões Se houver um problema com a adição desses domínios ao seu arquivo e você precisar de um endereço IP, entre em contato com o Suporte ao cliente da Workfront.</p> </p> </td> 
+    </ul> <p><b>NOTA</b>:  <p>Não oferecemos suporte à adição de endereços IP ao seu arquivo de inclui na lista de permissões para Workfront Proof. Eles se tornaram dinâmicos depois que o Workfront mudou para o AWS. Em vez disso, recomendamos que você permita somente domínios do Workfront Proof.</p> <p>Incluir na lista de permissões Se houver um problema com a adição desses domínios ao seu arquivo e você precisar de um endereço IP, entre em contato com o Suporte ao cliente da Workfront.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

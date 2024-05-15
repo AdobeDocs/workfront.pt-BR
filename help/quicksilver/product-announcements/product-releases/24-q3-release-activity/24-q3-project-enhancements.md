@@ -4,9 +4,10 @@ description: Aprimoramentos no projeto do terceiro trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bf9f524320e6c9794921fe3f865cfba964c49349
+exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -22,9 +23,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 
 >[!NOTE]
 >
->Versão de pré-visualização: 13 de fevereiro de 2024; Produção para lançamento rápido: esse recurso foi removido da Produção para clientes de lançamento rápido em 18 de março de 2024; Produção para todos os clientes: A ser determinado.
-
-<span style="color: #ff0000;">Esse recurso foi removido da produção para clientes de lançamento rápido em 18 de março de 2024.</span>
+>Versão de pré-visualização: 13 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento 24.5 (16 de maio de 2024); Produção para todos os clientes: A ser determinado.
 
 Adicionamos a mesma funcionalidade para atribuições inteligentes mais relevantes ao campo Atribuições nas seguintes áreas:
 
@@ -38,9 +37,7 @@ Para obter mais informações, consulte [Visão geral das atribuições intelige
 
 >[!NOTE]
 >
->Versão de pré-visualização: 21 de dezembro de 2023; Produção para lançamento rápido: esse recurso foi removido da Produção para clientes de lançamento rápido em 18 de março de 2024; Produção para todos os clientes: A ser determinado.
-
-<span style="color: #ff0000;">Esse recurso foi removido da produção para clientes de lançamento rápido em 18 de março de 2024.</span>
+>Versão de pré-visualização: 21 de dezembro de 2023; Produção para lançamento rápido: Com o lançamento 24.5 (16 de maio de 2024); Produção para todos os clientes: A ser determinado.
 
 Alteramos o algoritmo que o Workfront usa para calcular e sugerir atribuições inteligentes para tarefas. O novo algoritmo se aplica às seguintes áreas no Workfront em que você atribui uma tarefa: listas de tarefas, a área Atribuições no cabeçalho da tarefa, Início e o painel Resumo.
 

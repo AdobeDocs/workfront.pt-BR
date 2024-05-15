@@ -7,9 +7,9 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -38,9 +38,13 @@ No aplicativo móvel, você pode concluir itens de trabalho e visualizar informa
 * Criar e processar solicitações do Workfront
 * Registrar horas em uma folha de horas
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >A variável [!DNL Adobe Workfront] O aplicativo móvel substituiu o [!DNL Workfront Proof] aplicativo. [!DNL Workfront] agora, os clientes devem usar o [!DNL Adobe Workfront] aplicativo móvel para realizar revisões e aprovações de prova.
+
+>[!NOTE]
+>
+>Hiperlinks em campos de texto não são compatíveis com o aplicativo móvel do Workfront.
 
 Para obter mais informações sobre o [!DNL Adobe Workfront] aplicativo móvel, leia os seguintes artigos:
 
