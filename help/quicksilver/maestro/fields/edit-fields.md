@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -44,14 +44,19 @@ Você deve considerar o seguinte antes de fazer alterações na configuração d
 * Não é possível editar um campo na página de registro ou em qualquer outra exibição fora da exibição de tabela.
 * Não é possível editar o tipo de campo depois que o campo é salvo.
 * Não é possível desmarcar a configuração Permitir números negativos que foi selecionada anteriormente para um campo Número, Porcentagem ou Moeda se já houver valores negativos armazenados nos registros aos quais está anexado.
+* Você pode editar a configuração dos seguintes elementos de campo, depois de salvar o campo:
 
-<!--this is not true yet, but will be with the release of RTBE for field configuration changes: 
+   * O Nome ou a Descrição de qualquer campo
+   * As Opções de um campo de seleção única ou de seleção múltipla.
+   * A expressão de um campo Formula.
 
-* You can edit the configuration of the following fields, after they are saved:
-
-    * The Name or the Description of any field
-    * The Options of a Single-select or a Multi-select field.
-    * The expression of a Formula field.-->
+  >[!WARNING]
+  >
+  >Quando as expressões de fórmula forem alteradas ou as opções forem adicionadas ou removidas de um campo do tipo select, haverá perda de dados para os registros que já têm informações armazenadas nos campos cuja configuração é modificada.
+  >
+  >Não há aviso ou indicação de que essa perda de dados possa ocorrer ao alterar a configuração dos campos.
+  >
+  >Não há notificação para outros usuários informando que a configuração do campo foi alterada.
 
 <!--this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 

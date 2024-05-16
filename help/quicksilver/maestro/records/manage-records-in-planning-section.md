@@ -4,7 +4,7 @@ description: Você pode exibir os registros conectados a objetos do Adobe Workfr
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 1%
@@ -142,11 +142,11 @@ As seguintes situações ocorrem:
    * Os valores dos campos do Workfront conectados ao registro do Planning também são excluídos.
 1. Clique em **Conectar** para conectar mais registros.
 
-   <!--checking with the team on the below note - not sure if if should stay Manage or be changed to Contribute??-->
+   <!--checking with the team on the below note - not sure if if should stay Manage or Contribute - Lilit said Contribute??-->
 
    >[!NOTE]
    >
-   >   O botão Conectar é exibido apenas para os espaços de trabalho em que você tem permissões de Gerenciamento.
+   >   O botão Conectar é exibido apenas para os espaços de trabalho em que você tem permissões do Contribute.
 
 1. Clique nos registros que deseja conectar. As seguintes situações ocorrem:
 

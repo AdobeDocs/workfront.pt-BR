@@ -7,19 +7,20 @@ description: Ao gerenciar atribuições de tarefas e problemas, você pode usar 
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1278'
 ht-degree: 0%
 
 ---
 
 # Visão geral das atribuições inteligentes
 
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente Produção para clientes que ativaram versões rápidas.</span>
 
-<!-- {{preview-and-fast-release}} -->
+<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-{{highlighted-preview}}
+<span class="preview">Para obter informações sobre a versão atual, consulte [Visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Ao gerenciar atribuições de tarefas e problemas, você pode usar atribuições inteligentes para identificar quem é o melhor recurso para concluir o trabalho. As atribuições inteligentes são sugestões que o Adobe Workfront apresenta ao atribuir itens de trabalho a recursos com base em um algoritmo que determina o recurso mais apropriado para o trabalho. As atribuições inteligentes podem ser usuários, funções de trabalho ou equipes.
 
@@ -121,7 +122,7 @@ O cálculo da pontuação de similaridade e a ordem na qual as atribuições sã
 
   Por exemplo, se Rick foi designado a uma tarefa semelhante hoje e Jennifer foi designada a uma tarefa semelhante dois dias atrás, Rick aparece primeiro.
 
-* As atribuições identificadas nesta fase estão listadas no **Atribuições sugeridas** seção do campo Assignments.
+* As atribuições identificadas nesta fase estão listadas no    **Atribuições sugeridas**  seção do campo Assignments.
 
 * Se não houver correspondências usando esse cálculo, a segunda fase das atribuições inteligentes começa, que é calculada usando um algoritmo diferente.
 
@@ -131,7 +132,7 @@ Se a primeira etapa das atribuições inteligentes de tarefas não encontrar cor
 
 Para obter mais informações, consulte a seção [Critérios de atribuições inteligentes para tarefas e problemas](#smart-assignments-criteria-for-tasks-and-issues) neste artigo.
 
-As atribuições identificadas nesta fase estão listadas no **Outras atribuições** seção do campo Assignments para tarefas. <!--update this to "Other assignments"-->
+As atribuições identificadas nesta fase estão listadas no   **Outras atribuições** (ou a seção Usuários e equipes ou Atribuições de funções de trabalho) do campo Atribuições para tarefas.
 
 ### Critérios de atribuições inteligentes para tarefas e problemas
 

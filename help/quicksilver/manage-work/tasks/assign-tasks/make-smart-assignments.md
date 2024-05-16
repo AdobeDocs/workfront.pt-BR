@@ -6,20 +6,20 @@ description: Você pode usar atribuições inteligentes para identificar quem é
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
 
 # Fazer atribuições inteligentes
 
-<!--Audited: 02/2024-->
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente Produção para clientes que ativaram versões rápidas.</span>
 
-<!-- {{preview-and-fast-release}} -->
+<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-{{highlighted-preview}}
+<span class="preview">Para obter informações sobre a versão atual, consulte [Visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Você pode usar atribuições inteligentes para identificar quem é o melhor usuário para concluir o trabalho.
 
@@ -87,8 +87,8 @@ As atribuições inteligentes estão disponíveis na maioria dos locais onde voc
 
    Para tarefas, as atribuições inteligentes são exibidas nas seguintes seções, dependendo de qual fase do cálculo do algoritmo identificou as atribuições:
 
-   * **Atribuições sugeridas**: Atribuições identificadas na primeira fase do cálculo do algoritmo de atribuição inteligente de tarefa.
-   * <span class="preview">**Outras atribuições**: Atribuições identificadas na segunda fase do cálculo do algoritmo de atribuição inteligente de tarefa. Esta seção não está disponível para problemas. </span> <!--replace this with the new UI: "Other assignments"-->
+   * **Atribuições sugeridas**: Atribuições identificadas na primeira fase do cálculo do algoritmo de atribuição inteligente de tarefa. <span class="preview">Esta seção não está disponível para problemas.</span>
+   * <span class="preview">**Outras atribuições** (ou **Usuários e equipes** ou **Funções de trabalho**): Atribuições identificadas na segunda fase do cálculo do algoritmo de atribuição inteligente de tarefa. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
    ![](assets/smart-assignments-task-list.png)
 
