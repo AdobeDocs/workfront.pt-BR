@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 6caa46150eed42c792a01891018aaa16f8700cb9
+source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
 workflow-type: tm+mt
-source-wordcount: '14250'
+source-wordcount: '14262'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 1%
       * Versão do terceiro trimestre de 2024 {#release-24-q3}
          * [Visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
          * [Aprimoramentos do administrador do 3º trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md)
+         * [Aprimoramentos no gerenciamento financeiro do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md)
          * [Aprimoramentos do projeto do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md)
          * [Outras melhorias durante o período de lançamento do terceiro trimestre de 2024](product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md)
          * [Atualizações da aparência durante o período de lançamento do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md)
@@ -159,14 +160,15 @@ ht-degree: 1%
          * [Aprimoramentos do 21.1 Mobile](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
          * [21.1 Outras melhorias](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Atividade de lançamento do Adobe Workfront Fusion {#fusion-release}
+         * [Atividade de lançamento do Adobe Workfront Fusion](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Atividade de lançamento do Workfront Fusion: semana de 13 de maio de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-13.md)
          * [Atividade de lançamento do Workfront Fusion: semana de 6 de maio de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-6.md)
          * [Atividade de lançamento do Workfront Fusion: semana de 8 de abril de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-4-8.md)
          * [Atividade de lançamento do Workfront Fusion: semana de 11 de março de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-3-14.md)
          * [Atividade de lançamento do Workfront Fusion: semana de 26 de fevereiro de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-26.md)
          * [Atividade de lançamento do Workfront Fusion: semana de 5 de fevereiro de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-5.md)
+         * [Atividade de lançamento do Workfront Fusion: semana de 1 de janeiro de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-1-4.md)
          * [Atividade de lançamento do Workfront Fusion: semana de 27 de novembro de 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-30.md)
-         * [Atividade de lançamento do Adobe Workfront Fusion](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
-           [Atividade de lançamento do Workfront Fusion: semana de 1 de janeiro de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-1-4.md)
          * [Atividade de lançamento do Workfront Fusion: semana de 13 de novembro de 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-14.md)
          * [Atividade de lançamento do Workfront Fusion: semana de 30 de outubro de 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-10-26.md)
          * [Atividade de lançamento do Workfront Fusion: semana de 1 de setembro de 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-9-1.md)
