@@ -6,9 +6,9 @@ draft: Probably
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 83e2f884-b396-444e-9533-864fd78880f2
-source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
+source-git-commit: 8dd5e13b479bb46c982b58321d6838d7c0e64410
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -22,3 +22,4 @@ Esta seção contém os seguintes artigos:
 * [Desativar o compartilhamento da prova por meio de URL público ou código incorporado](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
 * [Perguntas frequentes: comprovação na migração do Adobe Workfront para o EMEA dos EUA](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
 * [O nome do documento alterado após o upload contém um caractere inválido](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
+* [Criar prova de um PowerPoint com um vídeo incorporado](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
