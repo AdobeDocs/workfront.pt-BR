@@ -6,9 +6,9 @@ description: "As informações exibidas no [!DNL Adobe Workfront] é representad
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: d55432667aa86db3216d10d8475962d9e441648b
+source-git-commit: ae2e8f0914e5090b9ea2605f593fcef271469c61
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2441'
 ht-degree: 1%
 
 ---
@@ -300,11 +300,12 @@ Você pode criar relatórios sobre os seguintes objetos ao usar o Report Builder
 * [!UICONTROL Grupo de Parâmetros] (ou [!UICONTROL Quebra de seção])
 * [!UICONTROL Portfolio]
 * [!UICONTROL Programa]
-* [!UICONTROL Projeto] ([!UICONTROL Dados financeiros])
+* [!UICONTROL Projeto (Dados Financeiros)]
+   * As informações financeiras são preenchidas em [!UICONTROL Projeto (Dados Financeiros)] O relata somente quando os dados associados a ele tiverem menos de cinco anos. Por exemplo, se uma função de trabalho foi alocada para uma tarefa em janeiro de 2015 e hoje é setembro de 2021, um campo financeiro como o [!UICONTROL Data de Alocação] para a função de trabalho não é preenchida na [!UICONTROL Projeto (Dados Financeiros)] relatório.
 
-  >[!NOTE]
+  >[!CAUTION]
   >
-  >As informações financeiras são preenchidas em [!UICONTROL Projeto] ([!UICONTROL Dados financeiros]) relatórios somente quando os dados associados a eles tiverem menos de cinco anos. Por exemplo, se uma função de trabalho foi alocada para uma tarefa em janeiro de 2015 e hoje é setembro de 2021, um campo financeiro como o [!UICONTROL Data de Alocação] para a função de trabalho não é preenchida na [!UICONTROL Projeto (Dados Financeiros)] relatório.
+  >A execução de um relatório de Projeto (Dados Financeiros) executa um recálculo dos dados financeiros, que podem substituir dados financeiros anteriores e levar um tempo significativo. Para obter mais informações sobre as consequências do recálculo de dados financeiros, consulte [Recalcular as finanças do projeto](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md).
 
 * [!UICONTROL Aprovação da revisão]
    * Permite exibir várias informações sobre a aprovação de prova, incluindo: a prova que foi enviada para aprovação, informações sobre a [!UICONTROL Aprovador], informações sobre o Solicitante (se o Solicitante for um licenciado [!DNL Workfront] usuário), informações de versão, a ID da prova e a data de criação da prova.\

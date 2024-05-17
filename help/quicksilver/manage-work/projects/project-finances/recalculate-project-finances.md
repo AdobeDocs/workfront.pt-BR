@@ -6,9 +6,9 @@ description: As finanças são calculadas em um projeto à medida que ocorrem al
 author: Alina
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: bfe77796863bb2d7d324901721fda7fa045c2c0b
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,9 @@ Quando a taxa de um usuário ou função é alterada durante a vida útil de um 
 
 >[!CAUTION]
 >
->Antes de recalcular manualmente as finanças de um determinado projeto, convém preservar todos os dados financeiros que já foram calculados em uma taxa anterior. Recomendamos usar a opção Recalcular Finanças somente quando tiver certeza de que não está fazendo alterações nas informações existentes ou somente quando tais alterações forem desejadas.
+>Antes de recalcular manualmente as finanças de um determinado projeto, convém preservar os dados financeiros que já foram calculados em uma taxa anterior. Recomendamos o uso da opção Recalcular Finanças somente quando tiver certeza de que não está fazendo alterações nas informações existentes ou somente quando tais alterações forem desejadas.
+>
+>Observe que a execução de um relatório de Projeto (Dados Financeiros) executa um recálculo de seus dados financeiros e, como tal, você deve fazer as mesmas considerações antes de executar o relatório.
 
 ## Preservar dados financeiros para tarefas com horas existentes {#preserve-financial-data-for-tasks-with-existing-hours}
 

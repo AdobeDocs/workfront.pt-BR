@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '14262'
+source-wordcount: '14246'
 ht-degree: 1%
 
 ---
@@ -1735,8 +1735,6 @@ ht-degree: 1%
       * [Exibir a visualização da atividade Projeto na Análise aprimorada](enhanced-analytics/project-activity-overview.md)
       * [Visualização do mapa de árvore do projeto na Análise aprimorada](enhanced-analytics/project-treemap-overview.md)
       * [Visualização da Atividade por equipe na Análise aprimorada](enhanced-analytics/activity-by-team-overview.md)
-      * [Exibir a visualização Capacidade do recurso na Análise aprimorada](enhanced-analytics/resource-capacity-overview.md)
-      * [Visualização da Capacidade da equipe na Análise aprimorada](enhanced-analytics/team-capacity-overview.md)
    * data lake do Workfront {#data-lake}
       * [Visão geral do data lake do Workfront](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [Criar uma conta de leitor](reports-and-dashboards/data-lake/create-a-reader-account.md)
