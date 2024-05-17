@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 92b02c31-7e77-4b27-9b17-d7803df2ba2d
-source-git-commit: 8de9c79f6c62b74a652482ec10bf38fada8c5fc8
+source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -29,5 +29,5 @@ Esse índice contém links para as seguintes subseções sobre o gerenciamento d
 * [Como funcionam os novos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
 * [Como os níveis de acesso funcionam](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
 * [Configuração do acesso ao Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
-* [Logon único no Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+* [Logon único no Workfront: índice do artigo](../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
 * [Criar e gerenciar equipes](../../administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)

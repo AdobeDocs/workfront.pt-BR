@@ -6,9 +6,9 @@ description: Seu [!DNL Adobe Workfront] o perfil contém informações sobre voc
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
 workflow-type: tm+mt
-source-wordcount: '3273'
+source-wordcount: '3275'
 ht-degree: 1%
 
 ---
@@ -255,7 +255,7 @@ Essas informações já devem ser configuradas pelo [!DNL Workfront] administrad
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Condicional) [!UICONTROL Permitir Somente &lt;sso configuration=""&gt; Autenticação]</strong></td> 
-   <td> <p> Se o seu [!DNL Workfront] o administrador habilitou uma integração de SSO com [!DNL Workfront] e tiver atualizado usuários para SSO, esse campo será selecionado por padrão. O tipo de configuração de SSO habilitada para o [!DNL Workfront] instância está visível neste campo.</p> <p>Quando este campo é selecionado, você precisa fazer logon no [!DNL Workfront] com suas credenciais de SSO. Ao desmarcá-la, você poderá fazer logon no [!DNL Workfront] com o seu [!DNL Workfront] credenciais.</p> <p>Para obter mais informações sobre a configuração [!DNL Workfront] com uma solução SSO, consulte <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Logon único [!DNL Adobe Workfront]</a>. Para obter mais informações sobre a atualização de usuários para SSO, consulte <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Atualizar usuários para logon único</a>.</p> </td> 
+   <td> <p> Se o seu [!DNL Workfront] o administrador habilitou uma integração de SSO com [!DNL Workfront] e tiver atualizado usuários para SSO, esse campo será selecionado por padrão. O tipo de configuração de SSO habilitada para o [!DNL Workfront] instância está visível neste campo.</p> <p>Quando este campo é selecionado, você precisa fazer logon no [!DNL Workfront] com suas credenciais de SSO. Ao desmarcá-la, você poderá fazer logon no [!DNL Workfront] com o seu [!DNL Workfront] credenciais.</p> <p>Para obter mais informações sobre a configuração [!DNL Workfront] com uma solução SSO, consulte <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Logon único [!DNL Workfront]: índice do artigo</a>. Para obter mais informações sobre a atualização de usuários para SSO, consulte <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Atualizar usuários para logon único</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -348,7 +348,7 @@ Especifique o que deseja exibir no [!DNL Workfront] nesta seção.
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Condicional) Gera provas automaticamente ao carregar documentos</strong></td> 
-   <td>Selecione este campo para começar a gerar uma prova imediatamente após o documento ser carregado no [!DNL Workfront]. Esse campo está desativado por padrão e só pode ser atualizado por um administrador do Workfront.<br>Esse campo só estará disponível se sua empresa tiver adquirido o componente Workfront Proof para o Workfront e se você estiver habilitado como usuário de prova. Para obter mais informações sobre o Workfront Proof, consulte <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Gerenciar provas no Adobe Workfront</a>.
+   <td>Selecione este campo para começar a gerar uma prova imediatamente após o documento ser carregado no [!DNL Workfront]. Esse campo está desativado por padrão e só pode ser atualizado por um administrador do Workfront.<br>Esse campo só estará disponível se sua empresa tiver comprado o componente Workfront Proof para Workfront e se você estiver habilitado como usuário de prova. Para obter mais informações sobre o Workfront Proof, consulte <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Gerenciar provas no Adobe Workfront</a>.
    <p><b>Nota:</b> Documentos carregados para uma solicitação não geram automaticamente uma prova. </p></td> 
   </tr> 
  </tbody> 

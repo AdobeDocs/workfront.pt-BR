@@ -7,9 +7,9 @@ description: Há vários tipos de datas que mostram a linha do tempo de tarefas 
 author: Alina
 feature: Work Management
 exl-id: 7cc68fc4-5f79-4ce6-a404-737ea8959ec3
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Este artigo descreve as diferenças entre as Datas estimadas e projetadas dos pr
 
 Quando a tarefa é criada pela primeira vez, as Datas Planejadas, Projetadas e Estimadas normalmente devem corresponder. Existem algumas exceções. 
 
-Para obter mais informações sobre projeto, tarefa e datas de problemas no Adobe Workfront, consulte [Visão geral das datas de Projeto, Tarefa e Problema no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
+Para obter mais informações sobre projeto, tarefa e datas de problemas no Adobe Workfront, consulte [Visão geral das datas de Projeto, Tarefa e Problema no Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
 
 ## Visão Geral das Datas Planejadas
 

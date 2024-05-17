@@ -1,18 +1,21 @@
 ---
 content-type: reference
 navigation-topic: workfront-navigation
-title: Visão geral das datas de Projeto, Tarefa e Problema no [!DNL Adobe Workfront]
-description: Visão geral das datas de Projeto, Tarefa e Problema no [!DNL Adobe Workfront]
+title: Visão geral das datas de Projeto, Tarefa e Problema no [!DNL Workfront]
+description: Este artigo fornece definições para as datas mais comuns associadas a projetos, tarefas e problemas no [!DNL Adobe Workfront].
 feature: Get Started with Workfront
+author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: db9193c7593ec6ce361c020b70ed02e79742eb9b
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1258'
 ht-degree: 0%
 
 ---
 
-# Visão geral das datas de Projeto, Tarefa e Problema no [!DNL Adobe Workfront]
+# Visão geral das datas de Projeto, Tarefa e Problema no [!DNL Workfront]
+
+<!-- Audited: 05/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider expanding on this article with ALL dates for PTIs - Hand off dates, Approval Dates, etc) </p>
@@ -35,7 +38,7 @@ Dependendo do [!UICONTROL Restrição de Tarefa], talvez não seja possível edi
 
 Para obter mais informações, consulte [Visão geral do projeto [!UICONTROL Data de Início Planejada]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
-![](assets/planned-start-date-on-edit-task-highlighted-nwe-350x249.png)
+![](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 
 ![](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
 
@@ -63,7 +66,7 @@ A variável [!UICONTROL Data de entrada] é a data em que um projeto, tarefa ou 
 
 A variável [!UICONTROL Data de entrada] O não influencia a linha do tempo de projetos, tarefas ou problemas, mas é importante para fins de rastreamento e relatórios. [!DNL Workfront] gera automaticamente a variável [!UICONTROL Data de entrada] quando o objeto é criado e não é possível editá-lo manualmente.
 
-![](assets/entry-date-in-task-details-highlighted-nwe-350x105.png)
+![](assets/entry-date-in-task-details-highlighted-nwe.png)
 
 ## [!UICONTROL Data do Início Efetivo]
 
@@ -89,7 +92,7 @@ Para obter mais informações, consulte [Visão geral do projeto [!UICONTROL Dat
 
 A variável [!UICONTROL Data de término efetivo] é a data em que um usuário realmente conclui um projeto, tarefa ou problema. A variável [!UICONTROL Data de término efetivo] está vazio quando o projeto, tarefa ou problema é criado.
 
-Você pode indicar manualmente quando o trabalho é concluído em uma tarefa ou problema, ou a variável [!UICONTROL Data de Término Efetivo] é preenchido automaticamente quando qualquer uma das situações a seguir ocorrer:
+Você pode indicar manualmente quando o trabalho é concluído em uma tarefa ou problema, ou a variável [!UICONTROL Data de término efetivo] é preenchido automaticamente quando qualquer uma das situações a seguir ocorrer:
 
 * O status do projeto, tarefa ou problema muda para [!UICONTROL Concluído], [!UICONTROL Fechado]ou [!UICONTROL Resolvido].
 * A porcentagem concluída da tarefa ou do projeto é 100%.
@@ -106,7 +109,7 @@ Para obter mais informações, consulte [Visão geral do projeto [!UICONTROL Dat
 
 ## [!UICONTROL Data de confirmação]
 
-A variável [!UICONTROL Data de confirmação] é a data em que um usuário atribuído à tarefa ou um problema se compromete a concluir a tarefa ou o problema. Isso é diferente do [!UICONTROL Data de Término Planejada], uma vez que se trata de uma estimativa mais realista da data de conclusão indicada apenas pelo utilizador responsável pelo trabalho. Para obter mais informações, consulte [[!UICONTROL Data de confirmação] visão geral](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+A variável [!UICONTROL Data de confirmação] é a data em que um usuário atribuído a uma tarefa ou um problema se compromete a concluir a tarefa ou o problema. Isso é diferente do [!UICONTROL Data de Término Planejada], uma vez que se trata de uma estimativa mais realista da data de conclusão indicada apenas pelo utilizador responsável pelo trabalho. Para obter mais informações, consulte [[!UICONTROL Data de confirmação] visão geral](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 >[!NOTE]
 >
@@ -114,7 +117,7 @@ A variável [!UICONTROL Data de confirmação] é a data em que um usuário atri
 
 ## [!UICONTROL Data de Início Projetada]
 
-A variável [!UICONTROL Data de Início Projetada] é uma data em tempo real em que o projeto, tarefa ou problema leva em conta todos os atrasos. Esta é uma Data de Início mais precisa para o projeto, tarefa ou problema do que a [!UICONTROL Data de Início Planejada]. A variável [!UICONTROL Data de Início Planejada] O não leva em conta atrasos ou datas passadas.
+A variável [!UICONTROL Data de Início Projetada] é uma data em tempo real em que o projeto, tarefa ou problema começa e leva em conta todos os atrasos. Esta é uma Data de Início mais precisa para o projeto, tarefa ou problema do que a [!UICONTROL Data de Início Planejada]. A variável [!UICONTROL Data de Início Planejada] O não leva em conta atrasos ou datas passadas.
 
 Ao planejar um projeto pela primeira vez, a variável [!UICONTROL Data de Início Planejada] e a variável [!UICONTROL Data de Início Projetada] das tarefas e do projeto são idênticas. Como podem ocorrer atrasos ou as tarefas podem ser concluídas mais cedo, o [!UICONTROL Data de Início Projetada] pode se tornar diferente do [!UICONTROL Data de Início Planejada].
 
@@ -132,7 +135,7 @@ Para obter mais informações, consulte [Visão geral do projeto [!UICONTROL Dat
 
 A variável [!UICONTROL Data de Término Projetada] é um indicador calculado em tempo real de quando o projeto, tarefa ou problema será concluído. Quando o projeto, tarefa ou problema for marcado como Concluído, a variável [!UICONTROL Data de Término Projetada] alterações à data da [!UICONTROL Data de término efetivo].
 
-Se tudo correr bem e conforme planejado, a [!UICONTROL Data de Término Projetada] deve corresponder ao [!UICONTROL Data de Término Planejada]. Caso contrário, devido aos atrasos nas tarefas do antecessor, o [!UICONTROL Data de Término Projetada] pode se tornar diferente do [!UICONTROL Data de Término Planejada].
+Se tudo correr bem e conforme planejado, a [!UICONTROL Data de Término Projetada] deve corresponder ao [!UICONTROL Data de Término Planejada]. Caso contrário, devido aos atrasos nas tarefas predecessoras, a [!UICONTROL Data de Término Projetada] pode se tornar diferente do [!UICONTROL Data de Término Planejada].
 
 Para obter mais informações, consulte [Visão geral do [!UICONTROL Data de Término Projetada] para projetos, tarefas e problemas](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
@@ -146,7 +149,7 @@ A data para a qual você registra a hora é a data [!UICONTROL Data de Entrada d
 
 >[!TIP]
 >
->A variável [!UICONTROL Data de Entrada da Hora] é diferente do [!UICONTROL Data de entrada] na medida em que não é a data em que o log de horas foi criado, mas a data à qual você deseja associar as horas.
+>A variável [!UICONTROL Data de Entrada da Hora] é diferente do [!UICONTROL Data de entrada] na medida em que não é a data em que o log de horas foi criado, mas sim a data à qual você deseja associar as horas.
 
 Você pode registrar e visualizar o tempo nas seguintes áreas do Workfront:
 

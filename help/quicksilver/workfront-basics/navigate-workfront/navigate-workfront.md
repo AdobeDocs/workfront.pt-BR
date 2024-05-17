@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
@@ -37,6 +37,6 @@ Esta seção contém as seguintes subseções e artigos:
 * [Listas em [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/use-lists/lists.md)
 * [Criar seções personalizadas](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
 * [Access [!DNL Adobe Workfront] ajuda](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
-* [Visão geral das datas de Projeto, Tarefa e Problema no [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
+* [Visão geral das datas de Projeto, Tarefa e Problema no [!DNL Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
 * [Entender a navegação de um [!UICONTROL Trabalho]-license usuário](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
 * [Entender a navegação de um [!UICONTROL Revisão]-license usuário](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
