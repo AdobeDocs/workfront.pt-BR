@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1118'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,14 @@ Depois de selecionar um tipo de registro na área Adobe Workfront Planning, voc�
 * Calendário
 
   Para obter mais informações, consulte [Gerenciar a exibição de calendário](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+
+Este artigo descreve as seguintes informações sobre visualizações de registro:
+
+* [Criar e editar uma visualização](#create-or-edit-record-views)
+* [Excluir um modo de exibição](#delete-views)
+* [Duplicar uma visualização](#duplicate-views)
+  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+
 
 ## Requisitos de acesso
 
@@ -93,7 +101,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 * As exibições no Workfront Planning são específicas do tipo de registro. Não é possível aplicar a mesma exibição a dois tipos de registro diferentes.
 * As exibições criadas estão visíveis somente para você e os usuários com os quais você compartilha as exibições.
 * Quando você modifica ou exclui uma exibição, ela é modificada e excluída para todos os usuários que têm permissões para a exibição.
-<!--* Each user can create a maximum of 100 views. -->
+* Cada usuário pode criar no máximo 100 visualizações. Você pode exibir mais de 100 visualizações para um tipo de registro, mas um usuário pode criar apenas 100 visualizações.
+* É possível compartilhar visualizações criadas com outras pessoas. Para obter informações, consulte [Compartilhar exibições](/help/quicksilver/maestro/access/share-views.md).
 * Os seguintes elementos são exclusivos para cada exibição de registro:
 
    * Filtro
@@ -108,14 +117,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   >[!NOTE]
   >
   > Como o Adobe Workfront Planning atualmente está em um estado beta, alguns elementos de exibição podem não estar disponíveis para todas as exibições.
-
-Este artigo descreve as seguintes informações sobre visualizações de registro:
-
-* [Criar e editar uma visualização](#create-or-edit-record-views)
-* [Excluir um modo de exibição](#delete-views)
-* [Duplicar uma visualização](#duplicate-views)
-* [Compartilhar uma exibição](#share-a-view)
-  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 ## Semelhanças e diferenças entre visualizações de registro
 
@@ -228,10 +229,6 @@ Primeiro, talvez seja necessário clicar em **Mais** à esquerda da última guia
 1. Clique em **Excluir** para confirmar. <!--ensure there is not another saving step here?!-->
 
    A exibição é excluída para todos os usuários que podem acessar a área de registros e não pode ser recuperada.
-
-## Compartilhar uma exibição
-
-Para obter informações sobre o compartilhamento de exibições, consulte [Compartilhar exibições](/help/quicksilver/maestro/access/share-views.md).
 
 <!--## Add a view as a favorite - this is not possible yet-->
 

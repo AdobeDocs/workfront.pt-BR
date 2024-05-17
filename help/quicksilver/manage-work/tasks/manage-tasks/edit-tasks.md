@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
-source-wordcount: '3729'
+source-wordcount: '3727'
 ht-degree: 3%
 
 ---
@@ -612,12 +612,12 @@ O administrador do sistema ou do grupo pode personalizar os campos exibidos no c
 
 ![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
-Os seguintes campos são incluídos no cabeçalho do projeto, por padrão:
+Os seguintes campos são incluídos no cabeçalho da tarefa, por padrão:
 
 * Nomes da tarefa
 * Percentual completo
 * Atribuições
-* Data e hora de conclusão planejadas
+* Data de conclusão planejada
 
   >[!CAUTION]
   >

@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr>
    <td><strong>plano do Adobe Workfront</strong>
    </td>
-   <td>Qualquer Um
+   <td>Qualquer
    </td>
   </tr>
   <tr>
