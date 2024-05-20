@@ -8,9 +8,9 @@ description: Saiba como usar o Workfront Proof para revisões fora da sua organi
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c54246e9-edb8-4d98-81e1-faf7ee75f81e
-source-git-commit: 692d0e903c1b92ad539eacf6d26e18e81530a8b0
+source-git-commit: 153951e3bba91d67bcfe5fbf22c0970743f0dc6e
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Essa opção ilustra um fluxo de trabalho em que os clientes podem ver todos os 
 
 O designer compartilha a prova com o Gerente de projetos (e quaisquer outros colegas) primeiro. Os colegas analisam a prova e, se a aprovarem, você poderá usar a função de compartilhamento para compartilhá-la com seus clientes. Para obter mais informações, consulte [Compartilhar uma prova no [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
-![internal_external_option_A.png](assets/internal-external---option-a-350x86.png)
+![internal_external_option_A.png](assets/internal_external_-_option_A.png)
 
 1. **Criar uma nova prova** - o designer cria uma nova prova no [!DNL Workfront Proof] e compartilha com os revisores internos. O designer torna o gerente do projeto o proprietário da prova.
 1. **Revisão interna** - o Gerente de projetos e outros colegas revisam a prova.
@@ -49,7 +49,7 @@ Você pode repetir esse processo até que a prova seja aprovada.
 
 Esta opção ilustra um fluxo de trabalho em que o processo de prova é gerenciado pelo Gerenciador de projetos que cria quaisquer novas versões (conforme necessário) e compartilha a prova com o cliente. O designer não precisa estar envolvido no processo de revisão.)
 
-![internal_external_option_B.png](assets/internal-external---option-b-350x86.png)
+![internal_external_option_B.png](assets/internal_external_-_option_B.png)
 
 1. **Criar uma nova prova** - O designer cria uma nova prova no [!DNL Workfront Proof] e o compartilha com revisores internos. O designer torna o Gerente de projetos o Proprietário da prova ou, como alternativa, atribui a ele a função de [!UICONTROL Autor] sobre a prova (ver [Gerenciar funções de prova no [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
