@@ -9,9 +9,9 @@ description: Você pode usar o conector do Adobe Workfront Fusion Adobe Workfron
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: ceec745097d14d30a06ec347d836b701766a4f08
+source-git-commit: 5803d21b0f606ad5beb138869a50d355d3273d4a
 workflow-type: tm+mt
-source-wordcount: '6207'
+source-wordcount: '6260'
 ht-degree: 2%
 
 ---
@@ -353,6 +353,14 @@ Esse módulo de ação faz uma das seguintes conversões:
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Opções]</td> 
    <td> <p>Ative as opções desejadas ao converter o objeto. As opções estão disponíveis dependendo do objeto para o qual você está convertendo ou a partir do.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Copiar campos nativos]</td> 
+   <td> <p>Ative esta opção para copiar quaisquer campos nativos do objeto original para o novo objeto.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Copiar formulários personalizados]</td> 
+   <td> <p>Ative esta opção para copiar quaisquer campos nativos do objeto original para o novo objeto.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1238,6 +1246,16 @@ Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usa
    <td>✓ µ</td> 
   </tr> 
   <tr> 
+   <td>Linha de base</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td> </td> 
+   <td>✓ µ</td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+   <tr> 
    <td>Registro de Cobrança</td> 
    <td>✓ µ</td> 
    <td>✓ µ</td> 
@@ -1298,6 +1316,16 @@ Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usa
    <td>✓ µ</td> 
   </tr> 
   <tr> 
+   <td>Taxa de câmbio</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td>✓ µ</td> 
+   <td> </td> 
+   <td>✓ µ</td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
    <td>Despesa</td> 
    <td>✓ µ</td> 
    <td>✓ µ</td> 
@@ -1316,6 +1344,16 @@ Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usa
    <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
+  </tr> 
+  <tr> 
+   <td>Documento externo</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓ µ</td> 
   </tr> 
   <tr> 
    <td>Grupo</td> 
@@ -1522,7 +1560,7 @@ Veja uma lista dos [!DNL Workfront] tipos de objeto para os quais você pode usa
    <td>✓ µ</td> 
    <td>✓ µ</td> 
    <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td> </td> 
    <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
