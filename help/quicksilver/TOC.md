@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 7c205d13ec12614ddae19f3a1a286fe88d80ebac
+source-git-commit: 3d9f6da7f4790015d4423bd8c83d751ec44249be
 workflow-type: tm+mt
-source-wordcount: '14265'
+source-wordcount: '14275'
 ht-degree: 1%
 
 ---
@@ -2082,6 +2082,7 @@ ht-degree: 1%
       * [Adicionar uma miniatura a um registro](maestro/records/add-thumbnails-to-records.md)
       * [Adicionar uma imagem da capa a um registro](maestro/records/add-a-cover-image-to-a-record.md)
       * [Gerenciar a página de registros](maestro/records/manage-the-record-page.md)
+      * [Gerenciar registros na seção Planning de objetos do Adobe Workfront](maestro/records/manage-records-in-planning-section.md)
    * Visualizações do Adobe Maestri {#adobe-maestro-views}
       * [Visualizações: índice do artigo](maestro/views/views-information.md)
       * [Gerenciar exibições de registro](maestro/views/manage-record-views.md)
