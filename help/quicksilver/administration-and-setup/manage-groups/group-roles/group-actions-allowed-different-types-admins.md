@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
+source-git-commit: 9dcd8dbe0474bdbb1fd50bb1f2525e03cd350559
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 2%
@@ -46,37 +46,37 @@ Esta tabela lista as atividades de administração disponíveis para:
   <tr> 
    <td>Criar e editar perfis de usuário</td> 
    <td>✓ µ</td> 
-   <td> <p>✓ µ*</p> </td> 
-   <td> <p>✓ µ*</p> </td> 
+   <td>✓ µ*</td> 
+   <td>✓ µ*</td> 
   </tr> 
   <tr> 
-   <td> <p>Criar e gerenciar subgrupos</p> </td> 
+   <td>Criar e gerenciar subgrupos</td>
    <td>✓ µ </td> 
-   <td> <p>✓ ➡***</p> </td> 
+   <td>✓ ➡***</td> 
    <td>✓ ➡***</td> 
   </tr> 
   <tr> 
-   <td> <p>Configurar preferências de projeto, tarefa e problema no nível do sistema</p> </td> 
+   <td>Configurar preferências de projeto, tarefa e problema no nível do sistema</td> 
    <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Ativar e desativar preferências de projetos, tarefas e problemas para grupos e subgrupos</p> </td> 
+   <td>Ativar e desativar preferências de projetos, tarefas e problemas para grupos e subgrupos</td> 
    <td>✓ ➡***</td> 
-   <td> <p>✓ ➡***</p> </td> 
+   <td>✓ ➡***</td> 
    <td>✓ ➡***</td> 
   </tr> 
   <tr> 
-   <td> <p>Configurar preferências de horas e planilha de horas no nível do sistema</p> </td> 
+   <td>Configurar preferências de horas e planilha de horas no nível do sistema</td> 
    <td>✓ µ </td> 
-   <td> <p> </p> </td> 
+   <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Ativar e desativar preferências de horas e planilhas de horas para grupos e subgrupos</p> </td> 
+   <td>Ativar e desativar preferências de horas e planilhas de horas para grupos e subgrupos </td> 
    <td>✓ ➡***</td> 
-   <td> <p>✓ ➡***</p> </td> 
+   <td>✓ ➡***</td> 
    <td>✓ ➡***</td> 
   </tr> 
   <tr> 
@@ -92,63 +92,63 @@ Esta tabela lista as atividades de administração disponíveis para:
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Criar e gerenciar formulários personalizados</p> </td> 
+   <td>Criar e gerenciar formulários personalizados</td> 
    <td>✓ µ </td> 
    <td>✓ ➡**</td> 
    <td>✓ ➡**</td> 
   </tr> 
   <tr> 
-   <td> <p>Criar e gerenciar modelos de layout</p> </td> 
+   <td>Criar e gerenciar modelos de layout</td> 
    <td>✓ µ </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td>✓ µ</td> 
    <td>✓ µ</td> 
   </tr> 
   <tr> 
-   <td> <p>Criar e gerenciar processos de aprovação para um grupo</p> </td> 
+   <td>Criar e gerenciar processos de aprovação para um grupo</td> 
    <td>✓ ➡*** </td> 
-   <td> <p>✓ ➡***</p> </td> 
+   <td>✓ ➡***</td> 
    <td>✓ ➡***</td> 
   </tr> 
   <tr> 
-   <td> <p>Criar e gerenciar equipes</p> </td> 
+   <td>Criar e gerenciar equipes</td> 
    <td>✓ µ </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td>✓ µ</td> 
    <td>✓ µ</td> 
   </tr> 
   <tr> 
-   <td> <p>Criar e gerenciar taxas de câmbio</p> </td> 
+   <td>Criar e gerenciar taxas de câmbio</td> 
    <td>✓ µ </td> 
    <td>✓ ➡**</td> 
    <td>✓ ➡**</td> 
   </tr> 
   <tr> 
-   <td> <p>Criar e gerenciar tipos de horas</p> </td> 
+   <td>Criar e gerenciar tipos de horas</td> 
    <td>✓ µ </td> 
    <td>✓ ➡**</td> 
    <td>✓ ➡**</td> 
   </tr> 
   <tr> 
-   <td> <p>Criar e gerenciar caminhos de etapas</p> </td> 
+   <td>Criar e gerenciar caminhos de etapas</td> 
    <td>✓ µ </td> 
    <td>✓ ➡**</td> 
    <td>✓ ➡**</td> 
   </tr> 
   <tr> 
-   <td> <p>Criar e gerenciar cronogramas</p> </td> 
+   <td>Criar e gerenciar cronogramas</td> 
    <td>✓ µ </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td>✓ µ</td> 
    <td>✓ µ</td> 
   </tr> 
   <tr> 
-   <td> <p>Criar e gerenciar empresas</p> </td> 
+   <td>Criar e gerenciar empresas</td> 
    <td>✓ µ </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td>✓ µ</td> 
    <td>✓ µ</td> 
   </tr> 
   <tr> 
-   <td> <p>Criar e gerenciar perfis de planilha de horas</p> </td> 
+   <td>Criar e gerenciar perfis de planilha de horas</td> 
    <td>✓ µ </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td>✓ µ</td> 
    <td>✓ µ</td> 
   </tr> 
   <tr> 
@@ -164,13 +164,13 @@ Esta tabela lista as atividades de administração disponíveis para:
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p> Criar e gerenciar prioridades, severidades, condições</p> </td> 
+   <td>Criar e gerenciar prioridades, severidades, condições</td> 
    <td>✓ µ</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Criar e gerenciar tipos de riscos</p> </td> 
+   <td>Criar e gerenciar tipos de riscos</td> 
    <td>✓ µ </td> 
    <td> </td> 
    <td> </td> 
