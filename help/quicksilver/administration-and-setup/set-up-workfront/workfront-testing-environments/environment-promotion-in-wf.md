@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 087e173d12e57071e77747d2150285bffb1bacae
+source-git-commit: 29e2e89d15804d6d4a5e7b0080ab91b98cf7ea2d
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1005'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ Você pode executar esse processo no Workfront criando um pacote de objetos para
 
 O recurso de promoção de ambiente tem como objetivo fornecer a capacidade de mover objetos relacionados à configuração de um ambiente para outro. Esses objetos podem ser configurados, como projetos, equipes ou formulários personalizados.
 
-A promoção do ambiente não oferece suporte à capacidade de mover objetos transacionais (com exceções limitadas). Não é possível configurar objetos transacionais. Os exemplos incluem atualizações de atividade do sistema e decisões de prova.
+Como a promoção do ambiente lida com a configuração de objetos, os objetos transacionais (objetos que mudam com frequência ou que são altamente dependentes do caso de uso) não são incluídos. Os exemplos de objetos transacionais incluem documentos, problemas, solicitações, atualizações e decisões de prova.
 
 * [Objetos de trabalho](#work-objects)
 * [Objetos de relatório](#reporting-objects)
