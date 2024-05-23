@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: bba5992184c50a159be21d78f1a9c61aa2d861d8
+source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1187'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,22 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
+>[!NOTE]
+>
+>As instruções a seguir se aplicam somente aos novos planos.
+>
+>Para o plano Select:
+>
+>1. Os administradores do sistema não podem definir limites para Grupos padrão.
+>2. Os administradores de sistema podem ver apenas o número total de licenças usadas em todos os Grupos Padrão.
+>3. Os administradores de grupo não podem acessar a página Licenças.
+>
+>Para os planos Prime e Ultimate:
+>
+>1. Os administradores do sistema podem adicionar Grupos padrão à página Licenças para visualizar a utilização de licenças nesses grupos e também podem definir limites de licença.
+>2. Os administradores de grupo podem acessar a página Licenças e visualizar a utilização de licenças nos grupos que eles gerenciam que foram adicionados à página Licenças por administradores do sistema.
+>3. Os administradores de grupo não podem visualizar informações de outros grupos padrão ou adicionar máximos.
+
 ## Exibir as licenças de sua organização
 
 O número de licenças em uso é atualizado automaticamente à medida que você atribui níveis de acesso aos usuários adicionados ao Workfront. Para obter mais informações, consulte [Adicionar usuários](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
@@ -73,7 +89,7 @@ Para exibir informações de licença em seu sistema:
 
 ## Exibir informações sobre licenças para complementos do Workfront
 
-Se sua organização tiver o complemento pago Workfront Proof, o número de licenças usadas e o número de licenças disponíveis serão exibidos. Por exemplo, **5 de 10 licenças de comprovação** indica que a organização está usando atualmente cinco das dez licenças do Workfront Proof que adquiriu.
+Se sua organização tiver o complemento Workfront Proof pago, o número de licenças usadas e o número de licenças disponíveis serão exibidos. Por exemplo, **5 de 10 licenças de comprovação** indica que a organização está usando atualmente cinco das dez licenças do Workfront Proof que adquiriu.
 
 ![Licença para complementos do Workfront](assets/updated-licenses-page.png)
 
