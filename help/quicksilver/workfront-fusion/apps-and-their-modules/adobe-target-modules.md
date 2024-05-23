@@ -9,9 +9,9 @@ description: Em um [!DNL Adobe Workfront Fusion] cenário, é possível automati
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: b20f08a3c039ac2f1ece9fc4cef7ad5f58421482
+source-git-commit: 43bd30c2db6219cd4e68380c1d9c0d1421f51592
 workflow-type: tm+mt
-source-wordcount: '2119'
+source-wordcount: '2235'
 ht-degree: 0%
 
 ---
@@ -78,6 +78,13 @@ Antes de poder usar o [!DNL Adobe Target] deve garantir que os seguintes pré-re
 
 ## Criar uma conexão com o [!DNL Adobe Target]
 
+>[!IMPORTANT]
+>
+>As conexões criadas após 3 de junho de 2024 exigem uma conexão de servidor para servidor do Adobe Target.
+>
+>* As conexões da Conta de serviço existentes continuarão funcionando até janeiro de 2025. Você deve substituir suas conexões de Conta de serviço pelas conexões servidor a servidor do Adobe Target até janeiro de 2024.
+>* Você deve ser um desenvolvedor para que sua organização crie uma conexão de servidor para servidor do Adobe Target. A função de desenvolvedor é definida na Adobe Admin Console.
+
 Para criar uma conexão para o seu [!DNL Adobe Target] módulos:
 
 1. Clique em **[!UICONTROL Adicionar]** ao lado da caixa Conexão.
@@ -94,6 +101,11 @@ Para criar uma conexão para o seu [!DNL Adobe Target] módulos:
         <td role="rowheader">[!UICONTROL Nome da Conexão]</td>
         <td>
           <p>Insira um nome para esta conexão.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Tipo de conexão]</td>
+        <td>Selecione se você está criando uma conexão de Conta de Serviço ou uma conexão de Servidor para Servidor do Adobe Target.<p><b>IMPORTANTE</b>: as conexões criadas após 3 de junho de 2024 exigem uma conexão de servidor para servidor do Adobe Target. As conexões da Conta de serviço existentes continuarão funcionando até janeiro de 2025. Você deve substituir suas conexões de Conta de serviço pelas conexões servidor a servidor do Adobe Target até janeiro de 2024.
         </td>
       </tr>
       <tr>
