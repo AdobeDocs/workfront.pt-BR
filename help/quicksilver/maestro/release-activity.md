@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: c2659e0b3f571053c1c014703103bfcc7935ff3c
 workflow-type: tm+mt
-source-wordcount: '6456'
+source-wordcount: '6471'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,8 @@ As seguintes ações estão disponíveis na seção Planejamento do Workfront:
 * Conectar registros do Workfront Planning ao objeto do Workfront
 
 * Desconectar registros
+
+* Abrir a caixa ou página de visualização de detalhes para exibir mais informações sobre os registros conectados
 
 Para obter informações, consulte [Gerenciar registros na seção Planning de objetos do Adobe Workfront](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).
 
