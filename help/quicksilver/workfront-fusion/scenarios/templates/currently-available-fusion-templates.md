@@ -7,9 +7,9 @@ description: Os seguintes modelos públicos estão disponíveis no Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
+source-git-commit: e569469c2b5e0ba40569ef86043294acae7a6aa8
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ Para exibir os modelos disponíveis, clique no link **Modelos** ícone ![](asset
 ## Modelos do Workfront
 
 Esses modelos automatizam processos e fluxos de trabalho do Workfront.
+
+### [!BADGE Novo!]{type=Informative}
+
+Este Modelo do Fusion cria uma lista de verificação padrão para todos os cartões que informam uma coluna específica em um determinado quadro de acordo com o tempo.
 
 ### Workfront - Criação de projeto a partir do CSV
 
@@ -86,7 +90,7 @@ Este modelo captura uma linha de base do projeto todas as segundas-feiras às 6h
 
 Uma vez por mês, revise os modelos de projeto usando sua própria política com esse modelo fácil de gerenciar que notifica os usuários apropriados sobre os modelos em violação de sua política.
 
-## Workfront - Modelos de prova do Workfront
+## Workfront - Modelos do Workfront Proof
 
 Esses modelos automatizam fluxos de trabalho que combinam o Workfront com o Workfront Proof.
 
