@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: fc1fc150ee869f0750f9bd4444d039be70652b74
+source-git-commit: b76a23bef00ab50dfb23c65f0570a56537ba1fec
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '61'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,6 @@ Os artigos vinculados desta página descrevem os programas beta atuais disponív
 Os artigos a seguir contêm informações sobre recursos que estão atualmente na versão beta:
 
 * [Visão geral dos Painéis do Canvas](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-* [Nova experiência beta de comentário](../betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
 * [Visão geral do designer do formulário](../../administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)
 * [Integração do Workfront e do Frame.io](/help/quicksilver/review-and-approve-work/Documents/wf-frame-alpha.md)
 
