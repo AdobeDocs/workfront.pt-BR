@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: eed1f0e5b8dfaebbfc312ba5a592a49487838b39
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Para obter uma lista de toda a documentação dos Painéis de controle do Canvas
 
 **Programação beta:**
 
-* Data de início do beta fechado - 2 de maio de 2024
+* Data de início da versão beta fechada - TBA
 * Abrir data de início da versão beta - TBA
 * Data de lançamento planejada - TBA
 
@@ -36,6 +36,10 @@ Para se inscrever na versão beta:
 1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Painéis**.
 
 1. Clique em **Associar-se à versão beta dos Painéis do Canvas** no canto superior direito da página.
+
+   >[!NOTE]
+   >
+   >Esse botão só estará disponível se sua organização tiver sido aceita no beta fechado. Quando o beta aberto começar, ele estará disponível para todas as organizações.
 
 1. Leia os termos e clique em **Aceitar**. Agora você está inscrito no beta; observe, no entanto, que levará alguns minutos para que seus dados do Workfront fiquem totalmente acessíveis nos Painéis do Canvas.
 
@@ -63,12 +67,13 @@ Abaixo está uma lista dos tipos de relatórios atualmente compatíveis com o be
 
 ### Recursos em desenvolvimento
 
-* Relatórios de tabela de matriz
+* Curingas com base em data e usuário para filtros
+* Relatórios do Workfront Planning
+* Tipos de objetos adicionais do Workfront
+* Relatórios de painéis
+* Outras melhorias de usabilidade
 * Planilhas
 * Conteúdo da Web incorporado
-* Relatórios de painéis
-* Filtros de painel
-* Curingas com base em data e usuário para filtros
 
 ### Recursos do futuro roteiro
 
