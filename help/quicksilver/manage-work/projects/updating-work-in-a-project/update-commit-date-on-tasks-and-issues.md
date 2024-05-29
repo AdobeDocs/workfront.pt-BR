@@ -6,15 +6,17 @@ description: Você pode atualizar manualmente a data de confirmação de uma tar
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
 
 
 # Atualizar datas de confirmação nas tarefas e problemas
+
+{{highlighted-preview}}
 
 Você pode atualizar manualmente a data de confirmação de uma tarefa ou problema atribuído a você. Para obter mais informações sobre Datas de confirmação no Adobe Workfront, consulte [Visão geral da data de compromisso](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
@@ -29,7 +31,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
@@ -63,9 +65,18 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Pré-requisitos
 
-Antes de começar, você deve estar atribuído à tarefa ou problema para o qual precisa atualizar a Data de confirmação.
+Antes de editar a Data de Compromisso de uma tarefa ou problema, você deve ser atribuído à tarefa ou problema cuja Data de Compromisso você precisa atualizar.
 
 ## Atualizar datas de confirmação nas tarefas e problemas
+
+
+Você pode atualizar a Data de confirmação de uma tarefa ou problema nas seguintes áreas do Workfront:
+
+* A seção Detalhes de uma tarefa ou problema
+<!--
+* <span class="preview">The task or issue header
+   Your Workfront or group administrator must add the Commit Date to the task or issue header of your layout template to view it from the task or issue page. </span>
+   For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). -->
 
 A atualização da Data de confirmação é idêntica para tarefas e problemas.
 
@@ -82,6 +93,10 @@ A atualização da Data de confirmação é idêntica para tarefas e problemas.
 1. Ir para uma tarefa ou problema atribuído como **Proprietário**.
 
    Para obter mais informações sobre descobrir quem é o Proprietário da Tarefa para um problema ou tarefa, consulte a seção [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) no artigo [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+<!--1. <span class="preview">(Conditional and optional) If your Workfront or group administrator added the Commit Date to your task or issue header, click the **Commit Date** field in the header, then select a date from the calendar. If the Commit Date is not in the header, proceed with the following steps. </span>
+
+   <span class="preview">![](assets/commit-date-task-header.png)</span>-->
 
 1. Clique em **Detalhes da tarefa** ou **Detalhes do problema** no painel esquerdo.
 1. Clique em **Visão geral** para expandi-la.

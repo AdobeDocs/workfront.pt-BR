@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '2216'
+source-wordcount: '2253'
 ht-degree: 0%
 
 ---
@@ -260,16 +260,21 @@ O espaço de trabalho acessado por último deve ser aberto por padrão.
    * **MÍN**: exibe o valor mais baixo de todos os valores que vêm de vários registros selecionados no campo de registro vinculado.
    * **SOMA**: exibe o total de todos os valores que vêm de vários registros selecionados no campo de registro vinculado.
    * **AVG**: exibe a média de todos os valores que vêm de vários registros selecionados no campo de registro vinculado.
+   * **ÚNICO**: remove as duplicatas dos valores do campo de pesquisa e mostra apenas os valores exclusivos. Isso não está disponível para os seguintes tipos de campo:
+      * Parágrafo
+      * Caixa de seleção
+      * Pessoas
 
    >[!NOTE]
    >
-   >Por exemplo, você pode vincular o registro Product (registro vinculado) do registro Campaign (registro original) e nomeá-lo como &quot;Campo de produto&quot;. Também é possível vincular o campo Budget do registro Product do registro Campaign e chamá-lo de &quot;Product Budget&quot;. Se você tiver permissão para selecionar vários registros no &quot;campo Produto&quot;, poderá selecionar o Produto 1 com um Orçamento de US$ 120.000 e o Produto 2 com um Orçamento de US$ 100.000. Você pode exibir as seguintes informações de Orçamento no campo vinculado do registro original, dependendo do agregador escolhido:
+   >Por exemplo, você pode vincular o registro Product (registro vinculado) do registro Campaign (registro original) e nomeá-lo como &quot;Campo de produto&quot;. Também é possível vincular o campo Budget do registro Product do registro Campaign e chamá-lo de &quot;Product Budget&quot;. Se você tiver permissão para selecionar vários registros no &quot;campo Produto&quot;, poderá selecionar o Produto 1 com um Orçamento de $100.000 e o Produto 2 com um Orçamento de $110.000 e o Produto 3 com um Orçamento de $100.000. Você pode exibir as seguintes informações de Orçamento no campo vinculado do registro original, dependendo do agregador escolhido:
    >
-   >* **Nenhum**: US$ 120.000, US$ 100.000
-   >* **MAX**: US$ 120.000
+   >* **Nenhum**: $100.000, $110.000, $100.000
+   >* **MAX**: US$ 110.000
    >* **MÍN**: US$ 100.000
-   >* **SOMA**: US$ 220.000
-   >* **AVG**: US$ 110.000
+   >* **SOMA**: US$ 310.000
+   >* **AVG**: US$ 103.000,33
+   >* **ÚNICO**: US$ 100.000
    >
 
 1. (Opcional) Use o **pesquisa** ícone ![](assets/search-icon.png) para procurar um campo.

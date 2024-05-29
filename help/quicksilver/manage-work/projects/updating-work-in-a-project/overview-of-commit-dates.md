@@ -7,14 +7,16 @@ description: A Data de Compromisso é a data pela qual um usuário atribuído à
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
 
 # Visão geral da data de compromisso
+
+<!--{{highlighted-preview}}-->
 
 A Data de Compromisso é a data pela qual um usuário atribuído à tarefa ou um problema se compromete a concluir a tarefa ou o problema.
 
@@ -47,6 +49,15 @@ Para obter informações, consulte [Atualizar datas de confirmação nas tarefas
 >* Qualquer outro usuário com permissões para a tarefa.
 >
 >Para obter mais informações sobre o Proprietário da Tarefa, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+## Localize a Data de confirmação das tarefas e problemas
+
+Você pode encontrar a Data de compromisso para tarefas e problemas nas seguintes áreas do Workfront:
+
+* A página Detalhes
+* O painel Resumo, depois que um administrador de Workfront ou grupo o adiciona ao modelo de layout. Para obter informações, consulte [Personalizar Início e Resumo usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+<!--
+* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span> -->
 
 ## Notificações e atualizações acionadas pela alteração da Data de confirmação {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
