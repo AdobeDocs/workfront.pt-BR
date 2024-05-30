@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,20 @@ Esta página descreve todas as melhorias de projeto feitas com a versão do terc
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do terceiro trimestre de 2024, consulte [Visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
-## Atribuições mais relevantes adicionadas ao fluxo de trabalho Nova tarefa
+## Edite a Data de confirmação e a Condição da tarefa e do problema na seção de cabeçalho ou Detalhes
 
 >[!NOTE]
 >
->Versão de pré-visualização: 13 de fevereiro de 2024; Produção para lançamento rápido: Com o lançamento 24.5 (16 de maio de 2024); Versão de produção para todos os clientes: Com o lançamento 24.7 (julho de 2024).
+>Versão de pré-visualização: 30 de maio de 2024; Produção para lançamento rápido: Com lançamento da versão 24.6 (13 de junho de 2024); Versão de produção para todos os clientes: Com lançamento da versão 24.7 (julho de 2024).
 
-Adicionamos a mesma funcionalidade para atribuições inteligentes mais relevantes ao campo Atribuições nas seguintes áreas:
+Para facilitar a atualização de tarefas e problemas, adicionamos os campos Data de confirmação e Condição como opções para adicionar à seção Cabeçalhos de tarefas e problemas e Detalhes em um modelo de layout. Os usuários agora podem atualizar esses campos a partir da seção de cabeçalho ou Detalhes de uma página, quando são atribuídos ao modelo de layout modificado. Antes desse aprimoramento, não era possível adicionar a Condição e a Data de confirmação das tarefas e problemas ao personalizar os cabeçalhos.
 
-* A caixa Nova tarefa ao adicionar uma tarefa a um projeto
+Para obter informações sobre como atualizar a Data de confirmação e a Condição, consulte os seguintes artigos:
 
-* Em uma lista de tarefas de projeto
+* [Atualizar condição para tarefas e problemas](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+* [Atualizar a data de compromisso em tarefas e problemas](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
-Para obter mais informações, consulte [Visão geral das atribuições inteligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
 ## Atribuições inteligentes mais relevantes
 
