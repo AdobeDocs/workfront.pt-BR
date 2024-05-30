@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Visão geral dos tipos de registro
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Diferentemente do Workfront, onde os tipos de objeto são predefinidos, no Adobe Workfront Planning você pode criar seus próprios tipos de objeto. Por exemplo, no Workfront, os tipos de objeto de Programa, Portfolio, Projeto, Tarefa ou Problema já foram criados.
 

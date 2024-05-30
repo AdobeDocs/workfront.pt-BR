@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Criar espaços de trabalho
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 No Adobe Workfront Planning, os espaços de trabalho são locais centralizados para as equipes planejarem o trabalho.
 

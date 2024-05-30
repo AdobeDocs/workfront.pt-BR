@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '2253'
 ht-degree: 0%
@@ -28,7 +28,7 @@ author: Alina
 
 # Conectar tipos de registro
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Você pode usar o Adobe Workfront Planning para criar espaços de trabalho totalmente personalizáveis que contenham tipos de registro necessários na organização. Uma maneira de indicar como os tipos de registro individuais se relacionam entre si é conectá-los. Além disso, é possível conectar tipos de registro do Workfront Planning a tipos de objeto de outros aplicativos para aprimorar a experiência dos usuários e manter o foco em um aplicativo.
 

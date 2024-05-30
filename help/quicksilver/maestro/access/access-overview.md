@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Visão geral do Access
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Há restrições de licença e permissão de compartilhamento para usar o Adobe Workfront Planning.
 
@@ -98,7 +98,7 @@ Depois que sua organização tiver sido inscrita no programa beta do Workfront P
 
 1. Efetue logon no **Workfront** como administrador do Workfront.
 
-1. Adicione o **Planejamento** ícone ![](assets/maestro-icon.png) para o **Menu principal** usando um **Modelo de layout**.
+1. Adicione o **Planejamento** ícone ![](assets/planning-icon.png) para o **Menu principal** usando um **Modelo de layout**.
 
    Para obter informações, consulte [Personalizar o menu principal usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 

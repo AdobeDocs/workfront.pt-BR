@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 0%
@@ -27,7 +27,7 @@ recommendations: noDisplay, noCatalog
 
 # Editar campos
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 É possível editar as configurações de campo para campos já criados no Adobe Workfront Planning.
 

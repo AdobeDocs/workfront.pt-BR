@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 3%
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 # Criar tipos de registro de taxonomia
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Quando você usa um modelo para criar um espaço de trabalho, os tipos de registro são criados nas seguintes seções:
 

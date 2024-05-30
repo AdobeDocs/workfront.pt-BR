@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '6571'
+source-wordcount: '6602'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,15 @@ ht-degree: 0%
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
-Este artigo lista os recursos que foram lançados após o lançamento do programa beta fechado de recursos do Adobe Workfront Planning, em 22 de maio de 2023.
+Este artigo lista os recursos que foram lançados após o lançamento do programa Adobe Workfront Planning, em 22 de maio de 2023.
 
-Os recursos lançados são listados na ordem de lançamento, com o mais recente primeiro. Os clientes que estão participando do programa beta fechado de recursos de planejamento podem acessar todos os recursos em seus ambientes de Produção.
-
->[!IMPORTANT]
+>[!NOTE]
 >
->Entre maio e dezembro de 2023, todos os recursos deste artigo foram lançados para o ambiente de Pré-visualização e Produção. Os recursos de planejamento foram temporariamente removidos dos ambientes Pré-visualização e Sandbox desde janeiro de 2024. Todos os recursos lançados após essa data estão disponíveis atualmente na Produção.
+>Entre maio e dezembro de 2023, todos os recursos deste artigo foram lançados para o ambiente de Pré-visualização e Produção. O Workfront Planning foi removido temporariamente dos ambientes Pré-visualização e Sandbox desde janeiro de 2024. Todos os recursos lançados após essa data estão disponíveis atualmente na Produção.
 
-Este artigo lista os recursos e patches que foram lançados após o lançamento do programa beta fechado de recursos do Adobe Workfront Planning, em 22 de maio de 2023.
-
-Os recursos são lançados semanalmente e são listados na ordem de lançamento, com o mais recente primeiro. Os clientes que estão participando do programa beta fechado de recursos de planejamento podem acessar todos os recursos em seus ambientes de Pré-visualização e Produção.
+Os recursos lançados são listados na ordem de lançamento, com o mais recente primeiro. Os clientes que estão participando do programa Workfront Planning podem acessar todos os recursos em seus ambientes de Produção.
 
 >[!IMPORTANT]
 >
@@ -57,16 +53,6 @@ Preview: To be determined
 
 Because the impact for deleting a workspace can be significant, we are adding an extra step in confirming the deletion. Users are required to type "delete" before they can complete the deletion of a workspace. For more information, see [Delete workspaces](/help/quicksilver/maestro/architecture/delete-workspaces.md).  
 
-### Share views with all members of a workspace by default
-
-Production: <date> 
-
-Preview: To be determined 
-
-We have now introduced an option where you can quickly give View permissions to a view to all members of a workspace. Prior to this enhancement, only users you specifically shared a view with could access the view. This option is not enabled by default.  
-
-For information, see [Share views](/help/quicksilver/maestro/access/share-views.md).  
-
 -->
 
 ## Semana de 27 de maio de 2024
@@ -88,6 +74,24 @@ O operador UNIQUE está disponível para todos os tipos de campo, exceto o segui
 * Campo de caixa de seleção
 
 Para obter informações, consulte [Conectar tipos de registro](/help/quicksilver/maestro/architecture/connect-record-types.md).
+
+### Compartilhar exibições com todos os membros de um espaço de trabalho por padrão
+
+Produção: 30 de maio de 2024
+
+Visualização: a ser determinado
+
+Agora introduzimos uma opção em que você pode conceder rapidamente permissões de Exibição a uma exibição para todos os membros de um espaço de trabalho. Antes desse aprimoramento, somente os usuários com os quais você compartilhou especificamente uma visualização podiam acessá-la. Essa opção não está ativada por padrão.
+
+Para obter informações, consulte [Compartilhar exibições](/help/quicksilver/maestro/access/share-views.md).
+
+### Atualização da aparência do ícone Planejamento no Menu Principal
+
+Produção: 30 de maio de 2024
+
+Visualização: a ser determinado
+
+Atualizamos a aparência do ícone do Planning na área Menu principal. Para obter informações, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/maestro/maestro-overview.md).
 
 ## Semana de 20 de maio de 2024
 
@@ -713,7 +717,7 @@ A experiência de comentários para registros de recursos de planejamento corres
 
 Para obter mais informações, consulte [Gerenciar comentários de registro](/help/quicksilver/maestro/records/manage-record-comments.md).
 
-### Conector de recursos de planejamento (beta) para Adobe Workfront Fusion
+### Conector de planejamento do Workfront para Adobe Workfront Fusion
 
 Produção: 21 de dezembro de 2023
 

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 1%
+source-wordcount: '617'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Compartilhar exibições
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Você pode compartilhar uma exibição com outras pessoas para garantir a colaboração ao trabalhar com registros no Adobe Workfront Planning.
 
@@ -24,12 +24,12 @@ Conceder permissões a um espaço de trabalho não concede a outros usuários pe
 
 Ao compartilhar uma exibição, você concede a outras pessoas permissões para acessar todos os elementos da exibição. Por exemplo, se você conceder a eles permissões Gerenciar para uma exibição, eles poderão modificar a aparência do agrupamento, do filtro, da classificação ou da barra.
 
-<!--
-You can share a view with the following entities: 
 
-* Workfront users
-* Workfront groups
-* Publicly, with users outside Workfront
+Você pode compartilhar uma exibição com as seguintes entidades:
+
+* Usuários do Workfront
+* Grupos do Workfront
+<!--* Publicly, with users outside Workfront
 -->
 
 ## Requisitos de acesso
@@ -110,14 +110,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    <!--The Internal sharing tab should be selected by default.-->
 
-<!--   
-1. (Optional) Select from the following options to share the view: 
+1. (Opcional) Selecione entre as seguintes opções para compartilhar a exibição:
 
-* **Only invited people can access**: You must specify users or groups that you want to share the view with. This is the default option.
-* **Everyone in the workspace can view**: All users that have View or higher permissions to workspaces can access the view. -->
+   * **Somente pessoas convidadas podem acessar**: você deve especificar os usuários ou grupos com os quais deseja compartilhar a exibição. Esta é a opção padrão.
+   * **Todos no espaço de trabalho podem visualizar**: todos os usuários com permissões de Exibição ou superiores para espaços de trabalho podem acessar a exibição.
 
-
-1. No **Conceder acesso de visualização a** comece digitando o nome de um usuário ou grupo e, em seguida, clique nele quando for exibido na lista.  <!--***********replace screen shot below when global sharing is released***********-->
+1. No **Conceder acesso de visualização a** comece digitando o nome de um usuário ou grupo e, em seguida, clique nele quando for exibido na lista.  <!--***********replace screen shot below when public sharing is released***********-->
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 

@@ -7,16 +7,16 @@ description: A Data de Compromisso é a data pela qual um usuário atribuído à
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
 
 # Visão geral da data de compromisso
 
-<!--{{highlighted-preview}}-->
+{{highlighted-preview}}
 
 A Data de Compromisso é a data pela qual um usuário atribuído à tarefa ou um problema se compromete a concluir a tarefa ou o problema.
 
@@ -56,8 +56,7 @@ Você pode encontrar a Data de compromisso para tarefas e problemas nas seguinte
 
 * A página Detalhes
 * O painel Resumo, depois que um administrador de Workfront ou grupo o adiciona ao modelo de layout. Para obter informações, consulte [Personalizar Início e Resumo usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
-<!--
-* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span> -->
+* <span class="preview">O cabeçalho de uma tarefa ou problema, depois que um administrador de Workfront ou grupo o adiciona ao seu modelo de layout. Para obter informações, consulte [Personalizar cabeçalhos de objetos usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
 
 ## Notificações e atualizações acionadas pela alteração da Data de confirmação {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
@@ -71,7 +70,7 @@ A definição manual da Data de confirmação para uma tarefa ou problema aciona
 
 * A alteração da Data de confirmação é preenchida na Atividade do sistema e nas guias Todos da seção Atualizar da tarefa ou problema.
 
-  ![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)
+  ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
   A alteração da Data de confirmação é exibida na área Atualizações da tarefa ou problema quando o administrador do Workfront ativa essa atualização na área Feeds de atualizações em Configuração. Para obter informações, consulte [Atualizações rastreadas pelo sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
@@ -83,12 +82,13 @@ A definição manual da Data de confirmação para uma tarefa ou problema aciona
 
   >[!TIP]
   >
-  >Você pode solicitar que o administrador do sistema ou do grupo adicione o campo Data de confirmação ao painel Resumo para facilitar a atualização em várias áreas do Workfront em que o painel Resumo é exibido.
+  >Você pode pedir ao administrador do sistema ou do grupo para adicionar o campo Data de confirmação ao painel Resumo ou ao cabeçalho para facilitar a atualização.
   >
   >Para obter mais informações, consulte os seguintes artigos:
   >
   >* [Visão geral do resumo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-  >* [Personalizar Início e Resumo usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+  >* [Personalizar Início e Resumo usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+  >* [Personalizar cabeçalhos de objetos usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 <!--this is no longer possible: 
 >[!NOTE]

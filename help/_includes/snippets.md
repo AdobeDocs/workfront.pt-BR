@@ -1,7 +1,7 @@
 ---
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2354'
 ht-degree: 1%
 
 ---
@@ -249,15 +249,17 @@ Você deve instalar o plug-in correto para o aplicativo da Adobe Creative Cloud 
 
 1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Planejamento]**.
 
-## Introdução importante do Maestro - {#maestro-important-intro}
+## Introdução importante ao Workfront Planning - {#planning-important-intro}
 
 >[!IMPORTANT]
 >
 >As informações neste artigo se referem ao Adobe Workfront Planning, uma nova oferta da Adobe Workfront.
 >
->Atualmente, o Workfront Planning faz parte de um programa beta aberto a um número limitado de clientes. Você deve ser um cliente do Workfront para usar esses recursos.
+>Atualmente, o Workfront Planning está em uma fase de acesso antecipado, aberta a um número limitado de clientes.
 >
->Entre em contato com seu representante de conta para obter mais informações sobre como participar do programa beta para o Workfront Planning.
+>Você deve ser um cliente do Workfront para usar esses recursos.
+>
+>Seu representante de conta informará se você fizer parte deste estágio.
 >
 >Para obter mais informações, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/maestro/maestro-overview.md).
 

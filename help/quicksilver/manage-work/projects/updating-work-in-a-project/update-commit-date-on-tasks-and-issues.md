@@ -6,9 +6,9 @@ description: Você pode atualizar manualmente a data de confirmação de uma tar
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -73,10 +73,10 @@ Antes de editar a Data de Compromisso de uma tarefa ou problema, você deve ser 
 Você pode atualizar a Data de confirmação de uma tarefa ou problema nas seguintes áreas do Workfront:
 
 * A seção Detalhes de uma tarefa ou problema
-<!--
-* <span class="preview">The task or issue header
-   Your Workfront or group administrator must add the Commit Date to the task or issue header of your layout template to view it from the task or issue page. </span>
-   For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). -->
+* <span class="preview">O cabeçalho da tarefa ou do problema</span>
+
+  <span class="preview">O administrador do Workfront ou do grupo deve adicionar a Data de confirmação ao cabeçalho da tarefa ou do problema do modelo de layout para exibi-la na página da tarefa ou do problema.
+Para obter informações, consulte [Personalizar cabeçalhos de objetos usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
 
 A atualização da Data de confirmação é idêntica para tarefas e problemas.
 
@@ -94,9 +94,9 @@ A atualização da Data de confirmação é idêntica para tarefas e problemas.
 
    Para obter mais informações sobre descobrir quem é o Proprietário da Tarefa para um problema ou tarefa, consulte a seção [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) no artigo [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-<!--1. <span class="preview">(Conditional and optional) If your Workfront or group administrator added the Commit Date to your task or issue header, click the **Commit Date** field in the header, then select a date from the calendar. If the Commit Date is not in the header, proceed with the following steps. </span>
+1. <span class="preview">(Condicional e opcional) Se o administrador do Workfront ou do grupo tiver adicionado a Data de confirmação ao cabeçalho da tarefa ou do problema, clique no link **Data de confirmação** no cabeçalho e selecione uma data no calendário. Se a Data de confirmação não estiver no cabeçalho, continue com as etapas a seguir. </span>
 
-   <span class="preview">![](assets/commit-date-task-header.png)</span>-->
+   <span class="preview">![](assets/commit-date-task-header.png)</span>
 
 1. Clique em **Detalhes da tarefa** ou **Detalhes do problema** no painel esquerdo.
 1. Clique em **Visão geral** para expandi-la.
@@ -106,7 +106,7 @@ A atualização da Data de confirmação é idêntica para tarefas e problemas.
 
 1. Clique em **Salvar alterações**.
 
-   Ocorre o seguinte após fazer essa alteração: 
+   Ocorre o seguinte após fazer essa alteração:
 
    * A Data de confirmação e a Data de conclusão planejada da tarefa ou problema não são mais a mesma.
 
@@ -115,10 +115,13 @@ A atualização da Data de confirmação é idêntica para tarefas e problemas.
      ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
    * O Proprietário do projeto é notificado em uma notificação no aplicativo do Workfront de que você sugeriu uma nova Data de confirmação para a tarefa ou problema.
-   <!--* The Project Owner is notified in the Updates section that you have suggested a new Commit Date and they can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested. This functionality is not supported in the new commenting experience. For information, see [The new commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). -->
+   * O Proprietário do Projeto é notificado na seção Atualizações de que você sugeriu uma nova Data de Compromisso e, nesse momento, ele pode atualizar a Data de conclusão planejada da tarefa ou problema para corresponder à Data de Compromisso sugerida.
 
-   <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
+     ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
-   Para obter informações sobre as notificações e atualizações acionadas por essa alteração, consulte a seção &quot;Notificações e atualizações acionadas pela alteração da Data de confirmação&quot; no artigo [Visão geral da data de compromisso](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+
+     <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
+
+     Para obter informações sobre as notificações e atualizações acionadas por essa alteração, consulte a seção &quot;Notificações e atualizações acionadas pela alteração da Data de confirmação&quot; no artigo [Visão geral da data de compromisso](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 <!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

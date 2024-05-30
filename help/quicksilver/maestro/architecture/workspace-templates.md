@@ -5,7 +5,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -27,7 +27,7 @@ role: User
 
 # Lista de modelos do espaço de trabalho
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 No Adobe Workfront Planning, um espaço de trabalho é uma coleção de tipos de registro usados por uma equipe e representa o ciclo de vida do trabalho da equipe.
 

@@ -5,16 +5,16 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '294'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Gerenciar notificações no aplicativo do Adobe Workfront Planning
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Quando alguém marca você em um comentário de registro, você pode receber uma notificação no aplicativo para essa tag.
 

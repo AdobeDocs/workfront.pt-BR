@@ -4,7 +4,7 @@ description: Você pode exibir os registros conectados a objetos do Adobe Workfr
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c2659e0b3f571053c1c014703103bfcc7935ff3c
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 # Gerenciar registros na seção Planning de objetos do Adobe Workfront
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Você pode exibir os registros conectados a objetos do Adobe Workfront na seção Planejamento de um objeto do Workfront, no painel esquerdo.
 
