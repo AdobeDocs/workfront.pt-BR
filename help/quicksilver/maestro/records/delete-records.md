@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '478'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>  
  <td role="rowheader"><p>contrato do Adobe Workfront</p></td>
    <td>
-<p>Sua organização deve estar inscrita no programa beta de Planejamento do Adobe Workfront. Entre em contato com seu representante de conta para obter mais informações sobre esta nova oferta. </p>
+<p>Sua organização deve estar inscrita no estágio de acesso antecipado do Workfront Planning </p>
    </td>
   </tr>
   <tr>
