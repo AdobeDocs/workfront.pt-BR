@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 96ff148ff9a05242d9ce900047d5e7d1de3f0388
+source-git-commit: b010a5126a9c7f49128c11b57e5d7b15260e691c
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '2059'
 ht-degree: 2%
 
 ---
@@ -509,7 +509,7 @@ Para cada objeto de promoção, uma das seguintes opções `actions`  será defi
   </tr> 
   <tr> 
    <td>SUBSTITUIÇÃO</td> 
-   <td><p>Esta ação não será definida automaticamente.</p><p>Esta ação fornece a capacidade de atualizar um objeto que existe no ambiente de destino. Ele permite fazer uma substituição manual de uma ação CREATE ou USEEXISTING atribuída antes de executar a <code>/install</code> chame.<ul><li>Um usuário pode atualizar um objeto no ambiente de teste e, em seguida, usar a ação SUBSTITUIR para atualizar esse objeto no ambiente de destino.</p></li><li><p>Se o usuário instalar um pacote de promoção inicialmente e, em seguida, um novo pacote (ou atualizado) no futuro contiver alterações em objetos no pacote inicial, o usuário poderá usar SUBSTITUIÇÃO para substituir (substituir) objetos instalados anteriormente. </p></li><ul></td> 
+   <td><p>Esta ação não será definida automaticamente.</p><p>Esta ação fornece a capacidade de atualizar um objeto que existe no ambiente de destino. Ele permite fazer uma substituição manual de uma ação CREATE ou USEEXISTING atribuída antes de executar a <code>/install</code> chame.<ul><li>Um usuário pode atualizar um objeto no ambiente de teste e, em seguida, usar a ação SUBSTITUIR para atualizar esse objeto no ambiente de destino.</p></li><li><p>Se o usuário instalar um pacote de promoção inicialmente e, em seguida, um novo pacote (ou atualizado) no futuro contiver alterações em objetos no pacote inicial, o usuário poderá usar SUBSTITUIÇÃO para substituir (substituir) objetos instalados anteriormente. </p><p>Para obter mais informações sobre substituição, consulte a seção [Substituição](#overwriting) neste artigo.</li><ul></td> 
   </tr> 
   <tr> 
    <td>IGNORAR</td> 
@@ -891,7 +891,209 @@ _Empty_
 }
 ```
 
+## Substituição
 
+Este é um processo de três etapas.
+
+1. Criar um mapa de tradução (análogo à fase &quot;preparar instalação&quot;)
+1. Editar o mapa de tradução gerado, definindo o `action` e `targetId` para qualquer objeto que desejem substituir. A ação deve ser `OVERWRITING`, e o `targetId` deve ser a uuid do objeto que deve ser substituído
+1. Execute a instalação.
+
+* [Etapa 1 - Criar um mapa de tradução](#step-1---create-a-translation-map)
+* [Etapa 2 - Modificar o mapa de tradução](#step-2---modify-the-translation-map)
+* [Etapa 3 - Instalar](#step-3---install)
+
+### **Etapa 1 - Criar um mapa de tradução**
+
+#### URL
+
+```
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/translation-map
+```
+
+#### Corpo
+
+Nenhum(a)
+
+#### Resposta
+
+Um mapa de tradução, com uma `202 - OK` status
+
+```json
+{
+    {objcode}: {
+        {object uuid}: {
+            "targetId": {uuid of object in destination},
+            "action": {installation action},
+            "name": {name of the object},
+            "isValid": true
+        },
+        {...more objects}
+    },
+    {...more objcodes}
+}
+```
+
+
+#### Exemplo
+
+```json
+{
+    "UIVW": {
+        "109f611680bb3a2b0c0a8c1f5ec63f6d": {
+            "targetId": "6643a26b0001401ff797ccb318f97aa6",
+            "action": "CREATE",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIGB": {
+        "edb4c6c127d38910e4860eb25569a5cc": {
+            "targetId": "6643a26b000178fb5cc27b74cc1e87ec",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIFT": {
+        "f97b662e229fd09ee595d8d359ec88bd": {
+            "targetId": "6643a26b00015cdd6727b76d6fda1d1d",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "PTLSEC": {
+        "4bb80aa88a96420296a7f47bf866f162": {
+            "targetId": "4bb80aa88a96420296a7f47bf866f162",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "EXTSEC": {
+        "65f8637900015e4dceb6fe079bd5409d": {
+            "targetId": "65f8637900015e4dceb6fe079bd5409d",
+            "action": "USEEXISTING",
+            "name": "Asnyc List",
+            "isValid": true
+        }
+    },
+    "PTLTAB": {
+        "65f8638a00016422a83ddc3508852d0f": {
+            "targetId": "65f8638a00016422a83ddc3508852d0f",
+            "action": "CREATEWITHALTNAME",
+            "name": "Cool 2.0 The Best",
+            "isValid": true
+        }
+    }
+}
+```
+
+### Etapa 2 - Modificar o mapa de tradução
+
+Não há um terminal para esta etapa.
+
+1. No mapa de tradução retornado em [Etapa 1 - Criar um mapa de tradução](#step-1---create-a-translation-map), inspecione a lista de objetos que serão instalados.
+1. Atualize o campo de ação em cada objeto para a ação de instalação desejada.
+1. Validar o `targetId` em cada objeto. Se a ação definida for `USEEXISTING` ou `OVERWRITING`, o `targetId` deve ser definido como a UUID do objeto de destino no ambiente de destino. Para qualquer outra ação, o targetId deve ser uma cadeia de caracteres vazia.
+
+   >[!NOTE]
+   >
+   >A variável `targetId` já está preenchido se uma colisão foi detectada.
+
+### **Etapa 3 - Instalar**
+
+#### URL
+
+```
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/install
+```
+
+#### Corpo
+
+Este é um objeto com um único campo `translationMap`, que deve ser igual ao mapa de tradução modificado de [Etapa 2 - Modificar o mapa de tradução](#step-2---modify-the-translation-map).
+
+```json
+{
+    "translationMap": {
+        {objcode}: {
+            {object uuid}: {
+                "targetId": {uuid of object in destination},
+                "action": {installation action},
+                "name": {name of the object},
+                "isValid": true
+            },
+            {...more objects}
+        },
+        {...more objcodes}
+    }
+}
+```
+
+
+#### Exemplo
+
+```json
+{
+    "translationMap": {
+    "UIVW": {
+        "109f611680bb3a2b0c0a8c1f5ec63f6d": {
+            "targetId": "6643a26b0001401ff797ccb318f97aa6",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIGB": {
+        "edb4c6c127d38910e4860eb25569a5cc": {
+            "targetId": "6643a26b000178fb5cc27b74cc1e87ec",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIFT": {
+        "f97b662e229fd09ee595d8d359ec88bd": {
+            "targetId": "6643a26b00015cdd6727b76d6fda1d1d",
+            "action": "OVERWRITING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "PTLSEC": {
+        "4bb80aa88a96420296a7f47bf866f162": {
+            "targetId": "4bb80aa88a96420296a7f47bf866f162",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "EXTSEC": {
+        "65f8637900015e4dceb6fe079bd5409d": {
+            "targetId": "65f8637900015e4dceb6fe079bd5409d",
+            "action": "USEEXISTING",
+            "name": "Asnyc List",
+            "isValid": true
+        }
+    },
+    "PTLTAB": {
+        "65f8638a00016422a83ddc3508852d0f": {
+            "targetId": "65f8638a00016422a83ddc3508852d0f",
+            "action": "CREATEWITHALTNAME",
+            "name": "Cool 2.0 The Best",
+            "isValid": true
+        }
+    }
+}
+}
+```
+
+#### Resposta
+
+A resposta inclui a `{uuid of the created installation}` e uma `202 - ACCEPTED` status.
+
+Exemplo: `b6aa0af8-3520-4b25-aca3-86793dff44a6`
 
 <!--table templates
 
