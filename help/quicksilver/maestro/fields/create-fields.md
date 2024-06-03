@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '3274'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 <!---
 title: Create fields
-description: In Adobe Maestro, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with Maestro records.
+description: In Adobe Workfront Planning, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with records.
 hidefromtoc: yes
 hide: yes
 author: Alina
@@ -39,7 +39,7 @@ No Adobe Workfront Planning, é possível criar campos personalizados para tipos
 
 Você deve criar tipos de registro antes de criar campos para associar a eles. Para obter informações, consulte [Criar tipos de registro](../architecture/create-record-types.md).
 
-Você pode criar campos das seguintes maneiras no Maestro:
+Você pode criar campos das seguintes maneiras no Workfront Planning:
 
 * Do zero
 * Conectando tipos de registro
@@ -47,7 +47,7 @@ Você pode criar campos das seguintes maneiras no Maestro:
 * Criando um tipo de registro
 * Criando um espaço de trabalho a partir de um modelo
 
-Para obter mais informações sobre campos Maestro, consulte [Visão geral do campo](/help/quicksilver/maestro/fields/fields-overview.md).
+Para obter mais informações sobre campos de registro, consulte [Visão geral do campo](/help/quicksilver/maestro/fields/fields-overview.md).
 
 ## Requisitos de acesso
 
@@ -106,7 +106,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -510,7 +510,7 @@ Você pode usar o tipo de campo Data da última modificação para adicionar a d
 
 ## Criar campos conectando tipos de registro
 
-Você pode criar campos de registro vinculados ao adicionar uma nova conexão entre dois tipos de registro Maestri ou um tipo de registro e tipos de objeto de outras aplicações.
+É possível criar campos de registro vinculados ao adicionar uma nova conexão entre dois tipos de registro ou um tipo de registro e tipos de objeto de outros aplicativos.
 
 Para obter informações sobre como conectar tipos de registro do Workfront Planning, consulte [Conectar tipos de registro](../architecture/connect-record-types.md)
 

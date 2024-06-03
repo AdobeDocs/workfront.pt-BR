@@ -6,7 +6,7 @@ description: Se você for um colaborador individual com uma meta pessoal, convé
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 1%
@@ -51,9 +51,9 @@ Você deve ter o seguinte:
  <tr>
  <td role="rowheader">Licença da Adobe Workfront*</td>
  <td>
- <p>Licença atual: Contributor ou superior</p>
+ <p>Nova licença: Contributor ou superior</p>
  Ou
- <p>Licença herdada: Solicitação ou superior</p> </td>
+ <p>Licença atual: Solicitação ou superior</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produto*</td>

@@ -6,7 +6,7 @@ description: Você pode alinhar duas metas manualmente ou converter os resultado
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 16%
@@ -37,9 +37,9 @@ Para obter informações sobre como alinhar duas metas manualmente, consulte [Al
  <tr>
  <td role="rowheader">Licença da Adobe Workfront*</td>
  <td>
- <p>Licença atual: Contributor ou superior</p>
+ <p>Nova licença: Contributor ou superior</p>
  Ou
- <p>Licença herdada: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças do Adobe Workfront</a>.</p> </td>
+ <p>Licença atual: Solicitação ou superior</p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças do Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produto*</td>

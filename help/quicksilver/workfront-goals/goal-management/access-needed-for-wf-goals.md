@@ -7,9 +7,9 @@ description: O administrador do Adobe Workfront deve garantir que determinadas c
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ O administrador do Adobe Workfront deve garantir que todas as condições a segu
 <!--drafted for P&P - replace the first bullet with this one when licensing changes: 
 * Your company must purchase the correct Adobe Worfront plan or Adobe Workfront Goal license. For information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access)in this article.-->
 
-* Sua organização deve adquirir a licença correta para o Workfront Goals. Para obter informações, consulte a seção [Obter acesso à organização do Workfront Goals](#obtain-workfront-goals-organization-access)neste artigo.
+* Sua organização deve adquirir a licença correta para o Workfront Goals. Para obter informações, consulte a seção [Obter acesso à organização do Workfront Goals](#obtain-workfront-goals-organization-access) neste artigo.
 
 * Atribua o tipo correto de licença da Workfront. Para obter informações sobre a atribuição de tipos de licença e níveis de acesso, consulte a seção [Atualizar tipos de licença e configurações de nível de acesso](#update-license-types-and-access-level-settings) neste artigo.
 
@@ -45,37 +45,36 @@ O administrador do Adobe Workfront deve garantir que todas as condições a segu
 
 ## Obter acesso à organização do Workfront Goals {#obtain-workfront-goals-organization-access}
 
-<!--drafted for P&P release: 
 
-If your company has a current Workfront plan, you must have one of the following:
+Dependendo do plano Workfront em que sua empresa está no momento, os seguintes cenários existem:
 
-* An Ultimate Workfront plan. Workfront Goals are included in this plan. 
-* A Select or higher Workfront plan and a separate Workfront Goals license. -->
+* Se sua empresa tiver um novo plano do Workfront, você deverá ter um dos seguintes:
 
-<!-- drafted for P&P - add this to the sentence below at release: 
+   * Um plano Ultimate Workfront. As metas do Workfront estão incluídas neste plano.
+   * Um plano Select ou superior do Workfront e uma licença separada do Workfront Goals.
 
-If your company has a legacy Workfront plan, -->
+* Se sua empresa tiver o plano atual do Workfront, sua organização deverá adquirir uma licença adicional, além da licença da Workfront, para que os usuários possam acessar o Workfront Goals.
 
-Sua organização deve comprar uma licença adicional, além da licença do Workfront, para que seus usuários possam acessar o Workfront Goals. Depois que sua organização compra a licença adicional, a Workfront ativa o Workfront Goals para sua conta. Para obter informações sobre como adquirir uma licença do Workfront Goals, entre em contato com o gerente de conta da Workfront.
+  Depois que sua organização compra a licença adicional, a Workfront ativa o Workfront Goals para sua conta. Para obter informações sobre como adquirir uma licença do Workfront Goals, entre em contato com o gerente de conta da Workfront.
+
+Para obter informações sobre os requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Atualizar tipos de licença e configurações de nível de acesso  {#update-license-types-and-access-level-settings}
 
-<!--drafted for P&P release: 
-If your company has the current access level model, your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals: 
+Dependendo do plano Workfront em que sua empresa está no momento, os seguintes cenários existem:
 
-* Contributor
-* Light
-* Standard-->
+* Se sua empresa tiver o novo modelo de nível de acesso, o administrador do Workfront deverá conceder a você um dos seguintes tipos de licença do Workfront para acessar o Workfront Goals:
 
-<!--drafted for P&P release: add this to the first sentence: 
-If your company has the legacy access level model, -->
+   * Colaborador
+   * Leve
+   * Padrão
 
-O administrador do Workfront deve conceder um dos seguintes tipos de licença do Workfront para acessar o Workfront Goals:
+* Se sua empresa tiver o modelo de nível de acesso atual, o administrador do Workfront deverá conceder a você um dos seguintes tipos de licença da Workfront para acessar o Workfront Goals:
 
-* Plano
-* Trabalho
-* Revisar
-* Solicitar
+   * Plano
+   * Trabalho
+   * Revisar
+   * Solicitar
 
 Depois que o administrador do Workfront conceder um desses tipos de licença, ele também deverá conceder acesso às Metas no seu nível de acesso. Para obter informações sobre o acesso a Metas, consulte [Conceder acesso ao Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 

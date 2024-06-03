@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 706495396b4cf733659e05e28e57c4626c104ef5
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
-source-wordcount: '6732'
+source-wordcount: '6799'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,30 @@ ht-degree: 0%
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>As informações neste artigo se referem ao Adobe Workfront Planning, uma nova oferta da Adobe Workfront.
+>
+>Atualmente, o Workfront Planning está em uma fase de acesso antecipado, aberta a um número limitado de clientes.
+>
+>Você deve ser um cliente do Workfront para usar esses recursos.
+>
+>Seu representante de conta informará se você fizer parte deste estágio.
+>
+>Para obter mais informações, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/maestro/maestro-overview.md).
+>
+>Em alguns casos, a documentação referenciada nas seções abaixo pode estar disponível depois que os recursos documentados forem lançados para produção.
 
 Este artigo lista os recursos que foram lançados após o lançamento do programa Adobe Workfront Planning, em 22 de maio de 2023.
 
->[!NOTE]
->
->Entre maio e dezembro de 2023, todos os recursos deste artigo foram lançados para o ambiente de Pré-visualização e Produção. O Workfront Planning foi removido temporariamente dos ambientes Pré-visualização e Sandbox desde janeiro de 2024. Todos os recursos lançados após essa data estão disponíveis atualmente na Produção.
-
 Os recursos lançados são listados na ordem de lançamento, com o mais recente primeiro. Os clientes que estão participando do programa Workfront Planning podem acessar todos os recursos em seus ambientes de Produção.
 
->[!IMPORTANT]
->
->A documentação referenciada nas seções abaixo estará disponível algum tempo depois que os recursos forem lançados para produção.
+Entre maio e dezembro de 2023, todos os recursos deste artigo foram lançados para o ambiente de Pré-visualização e Produção.
+
+O Workfront Planning foi removido temporariamente dos ambientes Pré-visualização e Sandbox desde janeiro de 2024. Todos os recursos lançados após essa data estão disponíveis atualmente na Produção.
+
+
+
 
 <!--
 
