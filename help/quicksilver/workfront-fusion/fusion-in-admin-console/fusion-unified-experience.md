@@ -7,14 +7,14 @@ description: Acessar o Workfront Fusion por meio do Adobe Experience Cloud ofere
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
+source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 1%
+source-wordcount: '572'
+ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Unified Experience] por [!DNL Workfront Fusion]
+# [!DNL Adobe Unified Experience] para [!DNL Workfront Fusion]
 
 Acesso ao [!DNL Workfront Fusion] até [!DNL Adobe Experience Cloud] oferece uma experiência perfeita e unificada para gerenciar todos os seus [!DNL Adobe] aplicativos. O gerenciamento de identidade única fornece um local para fazer logon, sem vários URLs ou IDs de logon.
 
@@ -41,9 +41,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
    <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
-   <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p> 
+   <p>Qualquer</p> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
@@ -68,7 +66,7 @@ A instância do Workfront Fusion da sua organização deve ser integrada ao [!DN
 
    ![Fazer logon em [!DNL Adobe Experience Cloud]](assets/aec-login-page.png)
 
-## Acesso [!DNL Workfront Fusion]
+## Access [!DNL Workfront Fusion]
 
 Depois de fazer logon no [!DNL Adobe Experience Cloud], você pode exibir todos os [!DNL Workfront Fusion] organizações e ambientes aos quais você tem acesso clicando no alternador de organização na área de navegação superior. Selecione o [!DNL Workfront Fusion] organização ou ambiente em que você deseja trabalhar.
 
@@ -86,7 +84,7 @@ Depois de fazer logon no [!DNL Adobe Experience Cloud], você pode exibir todos 
 
 Use o [!UICONTROL Menu principal] ícone ![](assets/main-menu-icon-left-nav.png) à esquerda do [!DNL Adobe] para abrir a janela [!UICONTROL Organização] e [!UICONTROL Equipe] menus. Se você é um [!DNL Workfront Fusion] administrador, seu [!UICONTROL Administração] também aparece aqui.
 
-Para trocar de equipe, clique no nome da equipe na parte superior da página e selecione a equipe. Isso aparece somente em páginas específicas de uma equipe, como um construtor de cenários ou a [!UICONTROL Conexões] página.
+Para trocar de equipe, clique no nome da equipe na parte superior da página e selecione a equipe. O seletor de equipe aparece somente nas páginas específicas de uma equipe, como um construtor de cenários ou a [!UICONTROL Conexões] página.
 
 Para alternar entre organizações, clique no nome da organização no canto superior direito da tela e selecione a organização.
 

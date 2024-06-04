@@ -7,9 +7,9 @@ description: O Adobe Workfront Fusion Devtool permite compreender e solucionar p
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 7fe35f70cfc7ef346584e3cf525c2553f867ed1f
+source-git-commit: 6edcb5b826bdcf37b62396a926c923875a3a1436
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1858'
 ht-degree: 1%
 
 ---
@@ -73,9 +73,13 @@ O acesso ao Devtool é diferente conforme você está usando o Fusion na [!DNL A
 * [Acesse o Devtool no [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
 * [Acessar o Devtool no clássico [!DNL Fusion] experiência](#access-the-devtool-in-the-classic-fusion-experience)
 
-### Acesse o Devtool no [!DNL Adobe Unified Experience]
+### Acesse o Devtool no [!DNL Adobe Unified Experience] ou a nova experiência do Fusion
 
-Se você usar o Fusion no Unified Shell do Adobe, poderá acessar a Ferramenta de desenvolvimento no editor de cenários.
+Se você usa o Fusion no Unified Shell do Adobe ou se atualizou para a nova experiência do Fusion, é possível acessar a Ferramenta de desenvolvimento no editor de cenários.
+
+1. Clique em **Ferramentas de ajuda** ![Ferramentas de ajuda](assets/debugger-icon.png) ícone próximo à parte inferior da tela.
+
+Ou:
 
 1. Vá para o Editor de cenários do cenário que deseja depurar.
 
