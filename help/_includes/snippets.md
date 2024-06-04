@@ -1,5 +1,5 @@
 ---
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
 workflow-type: tm+mt
 source-wordcount: '2354'
 ht-degree: 1%
@@ -243,9 +243,9 @@ Você deve instalar o plug-in correto para o aplicativo da Adobe Creative Cloud 
       </tr>
       </table>
 
-<!-- Maestro -->
+<!-- Workfront Planning -->
 
-## Etapa 1 - Chegando ao Maestro - {#step1-to-maestro}
+## Etapa 1 - Chegando ao Maestro - {#step1-to-planning}
 
 1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Planejamento]**.
 
@@ -261,7 +261,7 @@ Você deve instalar o plug-in correto para o aplicativo da Adobe Creative Cloud 
 >
 >Seu representante de conta informará se você fizer parte deste estágio.
 >
->Para obter mais informações, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/maestro/maestro-overview.md).
+>Para obter mais informações, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 <!-- Manage Work -->
 
