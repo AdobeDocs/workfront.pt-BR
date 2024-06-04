@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
-source-wordcount: '6799'
+source-wordcount: '6843'
 ht-degree: 0%
 
 ---
@@ -123,6 +123,12 @@ Como o impacto da exclusão de um espaço de trabalho pode ser significativo, es
 Os espaços de trabalho excluídos e suas informações não podem ser recuperados.
 
 Para obter mais informações, consulte [Excluir espaços de trabalho](/help/quicksilver/maestro/architecture/delete-workspaces.md).
+
+### Os campos de data de pesquisa agora estão disponíveis na exibição de linha do tempo
+
+Agora é possível definir as Datas de Início e Término da exibição de linha do tempo como um campo de pesquisa a partir de um registro conectado ou tipo de objeto.
+
+Para obter mais informações sobre a criação de exibições, consulte [Gerenciar exibições de registro](/help/quicksilver/maestro/views/manage-record-views.md).
 
 ## Semana de 20 de maio de 2024
 

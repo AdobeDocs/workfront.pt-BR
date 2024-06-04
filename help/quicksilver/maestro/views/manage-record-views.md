@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1124'
 ht-degree: 1%
 
 ---
@@ -192,6 +192,11 @@ O espaço de trabalho acessado pela última vez é aberto por padrão. Para obte
    O número é um incremento gerado automaticamente.
 
 1. (Condicional) Selecione a variável **Início** e **Datas finais** para os registros que serão exibidos na exibição de linha do tempo ou calendário.
+
+   >[!TIP]
+   >
+   >    Você pode selecionar campos de data de registro ou campos de data de pesquisa de registros ou objetos conectados.
+
 1. Clique em **Criar**.
 
    A visualização é exibida como uma nova guia. As exibições são exibidas na ordem cronológica de quando foram criadas ou compartilhadas com você.

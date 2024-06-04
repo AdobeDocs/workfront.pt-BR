@@ -7,7 +7,7 @@ description: O Planejador de cenários requer uma licença separada da Adobe Wor
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Você deve garantir que todas as condições a seguir sejam atendidas antes de p
 
    Dependendo de você usar o plano novo ou o atual do Workfront, sua organização deve ter um dos seguintes:
 
-   * Para os planos atuais, sua organização deve ter um dos seguintes:
+   * Para os novos planos, sua organização deve ter um dos seguintes:
 
       * A variável [!UICONTROL Ultimate] [!DNL Workfront] plano. O Planejador de cenários está incluído no plano Ultimate.
 
