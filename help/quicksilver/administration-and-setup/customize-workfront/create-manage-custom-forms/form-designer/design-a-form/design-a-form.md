@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 2f7e1bb69ad1731a626306df38e97443f75257f9
+source-git-commit: dc14f02afff58b4d6f3b48dc2da5cd706786cbb8
 workflow-type: tm+mt
-source-wordcount: '6040'
+source-wordcount: '6078'
 ht-degree: 4%
 
 ---
@@ -248,29 +248,31 @@ Para adicionar um campo calculado, consulte [Adicionar campos calculados com o d
 
 ### Adicionar botões de opção, caixas de seleção e menus suspensos
 
-Você pode adicionar botões de opção, caixas de seleção e menus suspensos a um formulário personalizado.
+Você pode adicionar botões de opção, caixas de seleção, menus suspensos e menus suspensos de seleção múltipla a um formulário personalizado.
 
 +++ **Expandir para ver descrições de campos disponíveis**
 
 * **Botões de opção**: exige que os usuários selecionem apenas uma opção.
 * **Grupo de caixas de seleção**: permite que os usuários selecionem várias opções.
 * **Lista suspensa**: fornece uma lista de opções suspensas.
+* **Lista suspensa de seleção múltipla**: permite que os usuários selecionem várias opções em uma lista suspensa.
 
 +++
 
 >[!NOTE]
 >
->Os campos que permitem várias seleções, como Grupo de caixas de seleção e Lista suspensa, são difíceis de representar em gráfico e agrupar em relatórios. Para facilitar a criação de gráficos e o agrupamento em relatórios, é possível criar campos separados para cada escolha (por exemplo, um campo de texto de linha única).
+>Os campos que permitem várias seleções, como Grupo de caixas de seleção e Lista suspensa de seleção múltipla, são difíceis de representar em gráfico e agrupar nos relatórios. Para facilitar a criação de gráficos e o agrupamento em relatórios, é possível criar campos separados para cada escolha (por exemplo, um campo de texto de linha única).
 
-Para adicionar botões de opção e caixas de seleção:
+Para adicionar botões de opção, caixas de seleção e menus suspensos:
 
 1. No lado esquerdo da tela, encontre um dos campos a seguir e arraste-o para uma seção da tela.
 
    * Botões de seleção
    * Grupo de caixas de seleção
    * Suspenso
+   * Menu suspenso com múltipla escolha
 
-   ![](assets/drag-field-to-section.png)
+   ![Arraste um campo até a tela de desenho](assets/drag-field-to-section-041524.png)
 
 1. No lado direito da tela, configure as opções disponíveis para o tipo de campo personalizado que você está adicionando:
 
@@ -288,6 +290,7 @@ Para adicionar botões de opção e caixas de seleção:
     <li>Botões de seleção</li>
     <li>Grupo de caixas de seleção</li>
     <li>Suspenso</li>
+    <li>Menu suspenso com múltipla escolha</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -303,6 +306,7 @@ Para adicionar botões de opção e caixas de seleção:
     <li>Botões de seleção</li>
     <li>Grupo de caixas de seleção</li>
     <li>Suspenso</li>
+    <li>Menu suspenso com múltipla escolha</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -314,6 +318,7 @@ Para adicionar botões de opção e caixas de seleção:
     <li>Botões de seleção</li>
     <li>Grupo de caixas de seleção</li>
     <li>Suspenso</li>
+    <li>Menu suspenso com múltipla escolha</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -328,6 +333,7 @@ Para adicionar botões de opção e caixas de seleção:
     <li>Botões de seleção</li>
     <li>Grupo de caixas de seleção</li>
     <li>Suspenso</li>
+    <li>Menu suspenso com múltipla escolha</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -337,6 +343,7 @@ Para adicionar botões de opção e caixas de seleção:
     <li>Botões de seleção</li>
     <li>Grupo de caixas de seleção</li>
     <li>Suspenso</li>
+    <li>Menu suspenso com múltipla escolha</li>
     </ul></td>
     </tr> 
      <tr> 
@@ -346,6 +353,7 @@ Para adicionar botões de opção e caixas de seleção:
     <li>Botões de seleção</li>
     <li>Grupo de caixas de seleção</li>
     <li>Suspenso</li>
+    <li>Menu suspenso com múltipla escolha</li>
     </ul></td>
      </tr> 
     <tr> 
@@ -370,6 +378,7 @@ Para adicionar botões de opção e caixas de seleção:
     <li>Botões de seleção</li>
     <li>Grupo de caixas de seleção</li>
     <li>Suspenso</li>
+    <li>Menu suspenso com múltipla escolha</li>
     </ul></td>
      </tr> 
     </tbody> 
