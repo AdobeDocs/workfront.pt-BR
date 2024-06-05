@@ -6,16 +6,17 @@ title: Navegar pela nova interface no Workfront Fusion
 description: O Workfront Fusion atualizou sua interface do usuário para usuários que não acessam o Fusion por meio da Adobe Experience Cloud. Agora, sua experiência se aproxima mais do Fusion no Adobe Experience Cloud.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
+exl-id: 2887a0e2-039e-4e29-823d-82809f217045
+source-git-commit: 2a33e997113e098d0e019c2437795ac481748fc9
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
 
 # Navegar pela nova experiência no Workfront Fusion
 
-O Workfront Fusion foi atualizado para usuários que não acessam o Fusion por meio da Adobe Experience Cloud. A nova interface do usuário do Fusion fornece uma experiência mais contínua com outros produtos de Adobe.
+O Workfront Fusion foi atualizado para usuários que não acessam o Fusion por meio da Adobe Experience Cloud. A nova interface do usuário do Fusion fornece uma experiência mais contínua com outros produtos de Adobe e suavizará a transição de seus usuários para o Adobe Experience Cloud.
 
 >[!IMPORTANT]
 >
