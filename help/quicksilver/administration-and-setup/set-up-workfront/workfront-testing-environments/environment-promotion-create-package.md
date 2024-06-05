@@ -12,14 +12,20 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
+source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
 # Criar ou editar um pacote de promoção de ambiente
+
+Você deve criar um pacote no ambiente para o qual deseja copiar objetos **de**. Por exemplo, se você estiver configurando um projeto no ambiente Personalizar atualização da sandbox e promovendo-o para o ambiente Produção, será necessário criar o pacote no ambiente Personalizar atualização da sandbox.
+
+>[!IMPORTANT]
+>
+>Se sua sandbox de atualização personalizada for atualizada enquanto você estiver configurando o objeto para promoção de ambiente, essa configuração será perdida na atualização. Recomendamos que você não atualize sua sandbox de atualização personalizada a menos que todos os objetos e pacotes de promoção de ambiente pendentes tenham sido promovidos com êxito.
 
 ## Criar um pacote
 
