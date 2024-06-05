@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Compartilhar um objeto
 description: O administrador do Adobe Workfront concede aos usuários acesso para visualizar ou editar objetos ao atribuir níveis de acesso. Para obter mais informações sobre como conceder acesso a objetos, consulte Criar ou modificar níveis de acesso personalizados.
-author: Alina
+author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1962'
 ht-degree: 0%
 
 ---
@@ -87,52 +87,34 @@ Você deve ter o seguinte para compartilhar objetos:
 
 *Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront. Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Compartilhar um único objeto {#share-a-single-object}
+## Compartilhar um projeto, tarefa ou problema da página
 
-1. Vá para o objeto que deseja compartilhar.
+1. Vá para a página do projeto, tarefa ou problema que deseja compartilhar.
 
    Para obter informações sobre quais objetos podem ser compartilhados, consulte [Visão geral das permissões de compartilhamento em objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-1. Para projetos, tarefas e problemas:
 
-   Clique em **Compartilhar** ao lado do nome do objeto.
+1. Clique em **Compartilhar** ao lado do nome do objeto.
 
    ![](assets/new-share-button.png)
 
-   Ou
+1. No **Conceder acesso a &lt; object name >** digite o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar o objeto e, em seguida, clique no nome quando ele aparecer na lista suspensa.
 
-   Para documentos, portfólios e programas:
-
-   Clique em **Mais** ícone ![](assets/more-icon.png)ao lado do nome do objeto, clique em **Compartilhamento** ou **Compartilhar.**
-
-   ![](assets/share-a-document-350x160.png)
-
-1. No **Conceder acesso a &lt; Object Name > a** (para documentos, portfólios e programas) ou a caixa **Conceder acesso a &lt; Object Name > a** (para projetos, tarefas e problemas) comece digitando o nome do usuário, equipe, função, grupo ou empresa com a qual deseja compartilhar o objeto e, em seguida, clique no nome quando ele aparecer na lista suspensa.
-
-   Por exemplo, se você estiver compartilhando um projeto, use o **Conceder acesso ao projeto a** campo.
+   ![](assets/new-share-button-add-people.png) {width=&quot;350&quot; }
 
    >[!TIP]
    >
    >Você pode compartilhar um objeto somente com usuários, equipes, funções ou empresas ativos.
 
-   ![](assets/nwe-project-sharing-modal-350x456.png)
-
    >[!TIP]
    >
    >Se você tiver várias entidades nomeadas de forma semelhante, todas serão listadas em seu tipo. Os nomes das entidades aparecem em ordem alfabética. No entanto, a ordem em que os tipos de entidade aparecem é aleatória.
    >
-   >
-   >![](assets/sharing-entities-named-similarly-in-sharing-box-350x179.png)   >
-   >
 
 1. (Opcional) Repita a etapa 3 para cada usuário, equipe, função ou grupo ao qual deseja conceder acesso ao objeto.
 
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: esnure this stays accurate; in the editor it looks like step 4 but one step is conditioned entirely for one version or another)
-   </MadCap:conditionalText>
-   -->
+1. Especifique as permissões para cada usuário, equipe, função, grupo ou empresa adicionada na Etapa 3 clicando no menu suspenso à direita do nome e selecionando o nível de permissão que deseja conceder.
 
-1. Especifique as permissões para cada usuário, equipe, função, grupo ou empresa adicionada na Etapa 3 clicando no menu suspenso e selecionando o nível de permissão que deseja conceder.
+   ![](assets/new-share-permissions-dropdown.png)
 
    Para remover permissões de um objeto, consulte [Remover permissões de objetos](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
@@ -140,39 +122,27 @@ Você deve ter o seguinte para compartilhar objetos:
 
    * **Exibir:** Os usuários podem revisar e compartilhar o item.
    * **Contribute**: os usuários podem fazer atualizações, registrar informações, fazer pequenas edições e compartilhar, além de todas as permissões de Exibição.
-
-     >[!TIP]
-     >
-     >Você pode conceder permissões do Contribute somente para os seguintes objetos:
-     >
-     >   
-     >   
-     >   * Projetos
-     >   * Tarefas
-     >   * Problemas
-     >   
-     >
-
    * **Gerenciar:** Os usuários têm acesso total ao objeto sem direitos administrativos (que são concedidos no nível de acesso). Além disso, eles também têm todas as permissões de Exibição e Contribute.
 
      >[!NOTE]
      >
      >O administrador do Workfront ou o criador do objeto tem a capacidade de remover permissões dessas entidades.
 
-     ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
+1. (Opcional) Clique no ícone de opções avançadas ao lado do nível de permissão que você concedeu para configurar permissões específicas no objeto.
 
-1. (Opcional) Clique em **Opções avançadas** para configurar permissões específicas no objeto.
+   ![](assets/new-share-advanced-permissions-dropdown.png)
 
    Exibir, Gerenciar e Contribute têm opções avançadas diferentes, dependendo do objeto selecionado.\
-   Para obter mais informações sobre os níveis de permissões, consulte [Visão geral das permissões de compartilhamento em objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   Para obter mais informações sobre níveis de permissão, consulte [Visão geral das permissões de compartilhamento em objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-   ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
+1. (Opcional) Para disponibilizar esse objeto para todos os usuários no sistema, clique no menu suspenso em **Quem tem acesso** e, no menu suspenso, clique em **Todos no sistema podem visualizar**.
 
-1. (Opcional) Para disponibilizar esse objeto a todos os usuários no sistema, clique no link **Engrenagem** ícone ![](assets/gear-icon-settings-with-dn-arrow.jpg) e, no menu suspenso, clique em **Tornar isto visível em todo o sistema**.
+   ![](assets/new-share-everyone-access.png)
 
    Todos os usuários podem ver o objeto com base nas permissões definidas.
 
-1. (Opcional e condicional) Ao compartilhar um projeto, clique no link **Engrenagem** ícone ![](assets/gear-icon-settings-with-dn-arrow.jpg)e, no menu suspenso, clique em **Definir como meu modelo de acesso ao projeto** para definir as permissões como um modelo.\
+1. (Opcional e condicional) Ao compartilhar um projeto, clique no link **Engrenagem** ícone ![](assets/gear-icon-settings.png), em seguida, marque a caixa ao lado de **Definir como meu modelo de acesso ao projeto** para definir as permissões como um modelo.
+
    Depois de definir as permissões em um projeto, essas mesmas permissões são aplicadas automaticamente na próxima vez que você criar um projeto do zero.
 
    >[!NOTE]
@@ -185,15 +155,8 @@ Você deve ter o seguinte para compartilhar objetos:
 
    Você pode especificar permissões nos projetos que serão criados a partir de um modelo quando você compartilhar o modelo. Para obter mais informações, consulte [Compartilhar modelos de projeto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-1. (Opcional) Para tornar o objeto público, clique em **Tornar público para usuários externos**.
+1. Para compartilhar o objeto com usuários externos, clique em **Copiar link**, em seguida, distribua o link para usuários externos.
 
-   >[!TIP]
-   >
-   >Esta opção não está disponível para todos os objetos.
-
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png)
-
-1. (Condicional) Se você tornou o objeto público para usuários externos, clique em **copiar link**, em seguida, distribua o link para usuários externos.\
    Qualquer usuário com o link pode visualizar o objeto.
 
    >[!CAUTION]
@@ -202,37 +165,177 @@ Você deve ter o seguinte para compartilhar objetos:
 
 1. Clique em **Salvar**.
 
-## Compartilhar objetos em massa
+## Compartilhar um documento, portfólio ou programa na página
 
-Em uma lista de objetos, você pode compartilhar vários objetos de uma vez com outros usuários, equipes, grupos, funções de trabalho ou empresas.
+1. Vá para o objeto que deseja compartilhar.
 
->[!IMPORTANT]
->
->Quando você compartilha objetos em massa, os nomes das entidades que têm permissões para os objetos individuais não são exibidos. Ao compartilhar objetos em massa, as entidades adicionadas à lista de compartilhamento são adicionadas aos objetos selecionados. Elas não substituem as entidades associadas aos objetos individuais.
+   Para obter informações sobre quais objetos podem ser compartilhados, consulte [Visão geral das permissões de compartilhamento em objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-Para compartilhar objetos em massa:
+1. Para portfólios e programas:
 
-1. Navegue até uma lista de objetos.
-1. Selecione dois ou mais objetos na lista.
-1. Clique em **Compartilhar** ícone ![](assets/share-icon.png).\
-   Os usuários que já têm acesso ao objeto não são listados como disponíveis ao compartilhar em massa.
+   Clique em **Compartilhar** ao lado do nome do objeto.
+
+   ![](assets/new-share-button.png)
+
+   Ou
+
+   Para documentos:
+
+   Clique em **Mais** ícone ![](assets/more-icon.png) ao lado do nome do objeto, clique em **Compartilhar**.
+
+   ![](assets/share-a-document-350x160.png)
+
+1. No **Conceder acesso a &lt; Object Name > a** digite o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar o objeto e, em seguida, clique no nome quando ele aparecer na lista suspensa.
+
+   ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
+
+   >[!TIP]
+   >
+   >Você pode compartilhar um objeto somente com usuários, equipes, funções ou empresas ativos.
+
+
+
+   >[!TIP]
+   >
+   >Se você tiver várias entidades nomeadas de forma semelhante, todas serão listadas em seu tipo. Os nomes das entidades aparecem em ordem alfabética. No entanto, a ordem em que os tipos de entidade aparecem é aleatória.
+   >
+
+1. (Opcional) Repita a etapa 3 para cada usuário, equipe, função ou grupo ao qual deseja conceder acesso ao objeto.
+
+1. Especifique as permissões para cada usuário, equipe, função, grupo ou empresa adicionada na Etapa 3 clicando no menu suspenso e selecionando o nível de permissão que deseja conceder.
+
+   Para remover permissões de um objeto, consulte [Remover permissões de objetos](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+
+   As seguintes opções estão disponíveis:
+
+   * **Exibir:** Os usuários podem revisar e compartilhar o item.
+   * **Gerenciar:** Os usuários têm acesso total ao objeto sem direitos administrativos (que são concedidos no nível de acesso). Além disso, eles também têm todas as permissões de Exibição e Contribute.
+
+     >[!NOTE]
+     >
+     >O administrador do Workfront ou o criador do objeto tem a capacidade de remover permissões dessas entidades.
+
+     ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
+
+1. (Opcional) Clique em **Configurações avançadas** para configurar permissões específicas no objeto.
+
+   Exibir, Gerenciar e Contribute têm opções avançadas diferentes, dependendo do objeto selecionado.\
+   Para obter mais informações sobre os níveis de permissões, consulte [Visão geral das permissões de compartilhamento em objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+
+   ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
+
+1. (Opcional) Para disponibilizar esse objeto a todos os usuários no sistema, clique no link **Engrenagem** ícone ![](assets/gear-icon-settings-with-dn-arrow.jpg)e, no menu suspenso, clique em **Tornar isto visível em todo o sistema**.
+
+   Todos os usuários podem ver o objeto com base nas permissões definidas.
+
+1. (Opcional) Para tornar o objeto público, clique em **Tornar público para usuários externos**.
+
+   >[!TIP]
+   >
+   >Esta opção não está disponível para todos os objetos.
+
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
+
+1. (Condicional) Se você tornou o objeto público para usuários externos, clique em **copiar link**, em seguida, distribua o link para usuários externos.
+
+   Qualquer usuário com o link pode visualizar o objeto.
+
+   >[!CAUTION]
+   >
+   >Recomendamos que você tenha cuidado ao compartilhar com usuários externos um objeto que contém informações confidenciais. Isso permite que eles visualizem informações sem ser um usuário da Workfront ou parte da organização.
+
+1. Clique em **Salvar**.
+
+## Compartilhar objetos únicos ou em massa de uma lista
+
+1. Vá para a lista que contém o(s) objeto(s) que deseja compartilhar.
+
+   Para obter informações sobre quais objetos podem ser compartilhados, consulte [Visão geral das permissões de compartilhamento em objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+
+1. Clique na caixa de seleção ao lado do(s) objeto(s) que você deseja compartilhar e clique na **Ícone Compartilhar** ![](assets/share-icon.png) na parte superior da página.
+
+   ![](assets/list-share-object-select.png) {width=&quot;350&quot; }
+
+1. No **&lt; Objeto > Acesso** for exibida, comece a digitar na caixa **Editar o acesso a &lt; Nome do objeto > para** caixa o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar o(s) objeto(s) e clique no nome quando ele aparecer na lista suspensa.
+
+   ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
+
+   >[!TIP]
+   >
+   >Você pode compartilhar um objeto somente com usuários, equipes, funções ou empresas ativos.
+
+   >[!TIP]
+   >
+   >Se você tiver várias entidades nomeadas de forma semelhante, todas serão listadas em seu tipo. Os nomes das entidades aparecem em ordem alfabética. No entanto, a ordem em que os tipos de entidade aparecem é aleatória.
+   >
+
+1. (Opcional) Repita a etapa 3 para cada usuário, equipe, função ou grupo ao qual deseja conceder acesso ao(s) objeto(s).
+
+1. Especifique as permissões para cada usuário, equipe, função, grupo ou empresa adicionada na Etapa 3 clicando no menu suspenso à direita do nome e selecionando o nível de permissão que deseja conceder.
+
+   Para remover permissões de um objeto, consulte [Remover permissões de objetos](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+
+   ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
+
+   As seguintes opções estão disponíveis:
+
+   * **Exibir:** Os usuários podem revisar e compartilhar o item.
+   * **Contribute**: os usuários podem fazer atualizações, registrar informações, fazer pequenas edições e compartilhar, além de todas as permissões de Exibição.
+
+     >[!TIP]
+     >
+     >Você pode conceder permissões do Contribute somente para os seguintes objetos:
+     >
+     >   * Projetos
+     >   * Tarefas
+     >   * Problemas
+     >  
+
+   * **Gerenciar:** Os usuários têm acesso total ao objeto sem direitos administrativos (que são concedidos no nível de acesso). Além disso, eles também têm todas as permissões de Exibição e Contribute.
+
+     >[!NOTE]
+     >
+     >O administrador do Workfront ou o criador do objeto tem a capacidade de remover permissões dessas entidades.
+
+1. (Opcional) Clique em **Configurações avançadas** para configurar permissões específicas no objeto.
+
+   Exibir, Gerenciar e Contribute têm opções avançadas diferentes, dependendo do objeto selecionado.\
+   Para obter mais informações sobre os níveis de permissões, consulte [Visão geral das permissões de compartilhamento em objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+
+   ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
+
+1. (Opcional) Para disponibilizar esse objeto a todos os usuários no sistema, clique no link **Engrenagem** ícone ![](assets/gear-icon-settings-with-dn-arrow.jpg) e, no menu suspenso, clique em **Tornar isto visível em todo o sistema**.
+
+   Todos os usuários podem ver os objetos com base nas permissões definidas.
+
+1. (Opcional e condicional) Ao compartilhar um projeto, clique no link **Engrenagem** ícone ![](assets/gear-icon-settings-with-dn-arrow.jpg)e, no menu suspenso, clique em **Definir como meu modelo de acesso ao projeto** para definir as permissões como um modelo.
+
+   Depois de definir as permissões em um projeto, essas mesmas permissões são aplicadas automaticamente na próxima vez que você criar um projeto do zero.
 
    >[!NOTE]
    >
-   >Se você não tiver permissões para compartilhar um objeto selecionado, a variável **Compartilhar** O botão não está visível.
-
-1. No **Editar o acesso a &lt; Nome do objeto > para** comece digitando o nome de um usuário, equipe, grupo, função de trabalho ou empresa à qual deseja conceder permissões.
-
-   Por exemplo, se você estiver compartilhando um projeto, use o **Conceder acesso ao projeto para** campo.
-
-   ![](assets/share-multiple-projects-people-box-nwe-350x480.png)
-
-1. Continue compartilhando os objetos selecionados conforme descrito nas etapas 4 a 9 da seção [Compartilhar um único objeto](#share-a-single-object) neste artigo.
+   >O modelo de acesso ao projeto substitui os padrões de compartilhamento concedidos a você pelo administrador do Workfront em seu Nível de acesso.\
+   >Para obter mais informações sobre como especificar padrões de compartilhamento para projetos no Nível de acesso, consulte [Conceder acesso aos projetos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: ensure these steps stay accurate; always look at them in the viewer; because of condiitoning, the steps numbers in the editor are different!!!!!!*****)
-   </MadCap:conditionalText>
-   -->
+   >this note also appears in Understanding Project Permissions-->
+
+   Você pode especificar permissões nos projetos que serão criados a partir de um modelo quando você compartilhar o modelo. Para obter mais informações, consulte [Compartilhar modelos de projeto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+
+1. (Opcional) Para tornar os objetos públicos, clique em **Tornar público para usuários externos**.
+
+   >[!TIP]
+   >
+   >Esta opção não está disponível para todos os objetos.
+
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
+
+1. (Condicional) Se você tornou o objeto(s) público para usuários externos, clique em **copiar link**, em seguida, distribua o link para usuários externos.
+
+   Qualquer usuário com o link pode visualizar o objeto.
+
+   >[!CAUTION]
+   >
+   >Recomendamos que você tenha cuidado ao compartilhar com usuários externos um objeto que contém informações confidenciais. Isso permite que eles visualizem informações sem ser um usuário da Workfront ou parte da organização.
 
 1. Clique em **Salvar**.
