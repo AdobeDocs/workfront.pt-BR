@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: 215f72a1619a46f28e0b3a2afb73bcb91586b15e
+source-git-commit: 2a2f6d93c916863177d7a9d2f46f8124d1430354
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '345'
 ht-degree: 1%
 
 ---
@@ -23,9 +23,9 @@ O novo designer de formulário tem um novo espaço de trabalho no estilo da tela
 
 ![Designer de formulário de exemplo](assets/form-designer-example.png)
 
-## Como acessar o novo designer de formulário
+## Como acessar o designer do formulário
 
-Há um novo botão na parte superior do novo designer de formulário e do construtor de formulários herdado. Você pode usar esse botão para alternar entre o construtor herdado e o novo designer.
+Um botão na parte superior do novo designer de formulário e do construtor de formulários herdado permite alternar entre as versões.
 
 ![Mudar para o novo designer de formulário](assets/switch-views.png)
 
@@ -43,23 +43,17 @@ Com o novo designer de formulários, adicionamos a capacidade de:
   >
   >A seção Padrão não estará visível dentro dos objetos depois que o formulário for anexado ao objeto.
 
+* **Usar um campo Pesquisa externa**: esse tipo de campo chama uma API externa e retorna valores como opções em um campo suspenso.
+
 ## Funcionalidade removida do designer do formulário
 
 Removemos as seguintes funcionalidades do designer de formulário:
 
-* Guias Configurações de formulário, Compartilhamento de formulários, Compartilhamento de campos
-
-   * As configurações de formulário agora estão disponíveis na parte superior da tela
-
-   * Guia principal Compartilhamento de formulário e subguia Compartilhamento de campo
-
-  >[!NOTE]
-  >
-  >É possível controlar o compartilhamento de formulários e campos na área Configuração > Forms personalizado > Forms ou Campos.
+* As configurações de formulário agora estão disponíveis na parte superior da tela
 
 * Rastrear alterações de campo nos campos de atualização
 
   >[!NOTE]
   >
-  >Você pode encontrar isso em Configuração > Interface > Feeds de atualização
+  >Você pode encontrar essa opção em Configurar > Interface > Atualizar feeds
 
