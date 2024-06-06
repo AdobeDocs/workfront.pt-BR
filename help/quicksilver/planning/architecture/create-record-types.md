@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1244'
 ht-degree: 1%
 
 ---
@@ -135,8 +135,6 @@ Para obter informações sobre quais tipos de registro são incluídos em cada m
 
 {{step1-to-planning}}
 
-O espaço de trabalho acessado por último deve ser aberto por padrão.
-
 1. (Opcional) Expanda a seta apontando para baixo à direita de um nome de espaço de trabalho existente e selecione o espaço de trabalho para o qual deseja criar tipos de registro.
 1. (Opcional) Clique em **Adicionar seção** para adicionar uma nova seção ao espaço de trabalho.
 1. Clique em **Adicionar tipo de registro**.
@@ -223,8 +221,6 @@ Considere o seguinte ao importar tipos de registro usando um arquivo Excel ou CS
 Para importar tipos de registro usando um arquivo do Excel:
 
 {{step1-to-planning}}
-
-O espaço de trabalho acessado por último deve ser aberto por padrão.
 
 1. (Opcional) Expanda a seta apontando para baixo à direita de um nome de espaço de trabalho existente e selecione o espaço de trabalho para o qual deseja criar tipos de registro.
 1. Clique em **Adicionar tipo de registro**.

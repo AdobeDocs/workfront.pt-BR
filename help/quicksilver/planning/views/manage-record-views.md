@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cbba9d21046d2bf05675cadea9ce706fbde6adc1
+source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1083'
 ht-degree: 1%
 
 ---
@@ -172,14 +172,12 @@ O espaço de trabalho acessado pela última vez é aberto por padrão. Para obte
 >
 >Quando você cria um tipo de registro, a exibição de tabela também é criada por padrão.
 >
->Para criar uma exibição de linha do tempo ou calendário, o tipo de registro para o qual você cria a exibição deve ter pelo menos dois campos de data. Caso contrário, as opções Linha do tempo e Calendário estarão esmaecidas.
+>Para criar uma exibição de linha do tempo ou calendário, o tipo de registro para o qual você cria a exibição deve ter pelo menos dois campos de data.
+>
+>Caso contrário, as opções Linha do tempo e Calendário estarão esmaecidas.
 >
 
 ![](assets/view-types-drop-down-from-record-type-list.png)
-
->[!NOTE]
->
->    Para criar uma exibição de linha do tempo ou calendário, o tipo de registro para o qual você cria a exibição deve ter pelo menos dois campos de data. Caso contrário, as opções Linha do tempo ou Calendário estarão esmaecidas.
 
 1. (Condicional) Clique em **Próxima**, ao criar uma exibição de linha do tempo ou calendário.
 
@@ -195,7 +193,7 @@ O espaço de trabalho acessado pela última vez é aberto por padrão. Para obte
 
    >[!TIP]
    >
-   >    Você pode selecionar campos de data de registro ou campos de data de pesquisa de registros ou objetos conectados.
+   >    Você pode selecionar entre campos de data de registro ou campos de data de pesquisa a partir de tipos de objeto ou registro conectados.
 
 1. Clique em **Criar**.
 

@@ -1,13 +1,13 @@
 ---
 title: Configurar notificações de lembrete
-description: Configurar notificações de lembrete
+description: As notificações de lembrete geram emails enviados aos usuários com base em critérios especificados. Notificações de lembrete lembram os usuários de uma ação que eles precisam tomar para uma tarefa, problema, projeto ou planilha de horas.
 author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1215'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,11 @@ ht-degree: 2%
 
 <!-- Audited: 1/2024 -->
 
-As notificações de lembrete enviam emails para recipients com base em critérios especificados. Você pode associar manualmente notificações de lembrete a seus itens de trabalho, como projetos, tarefas, problemas e planilhas de horas.
+Como administrador do Workfront, você pode criar notificações de lembrete para usuários e associá-las a objetos aos quais você deseja que os usuários prestem atenção especial.
+
+As notificações de lembrete geram emails enviados aos usuários com base em critérios especificados. Notificações de lembrete lembram os usuários de uma ação que eles precisam tomar para uma tarefa, problema, projeto ou planilha de horas.
+
+Depois de criar as notificações de lembrete, os usuários podem associá-las manualmente a itens de trabalho, como projetos, tarefas, problemas e planilhas de horas. Para obter informações, consulte [Anexar uma notificação de lembrete a um objeto](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md).
 
 <!--
 DRAFTED IN FLARE:
@@ -36,7 +40,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
@@ -53,7 +57,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Personalizar o email de lembrete
 
@@ -126,7 +130,18 @@ Para obter informações sobre como criar um template de email, consulte [Config
      </tr> 
      <tr> 
       <td role="rowheader">Recipients</td> 
-      <td>Selecione os tipos de usuários que você deseja que recebam a notificação. Selecione entre vários participantes do objeto, como proprietário, aprovador ou designado.</td> 
+      <td><p>Dependendo do objeto ao qual se destina a notificação de lembrete, selecione um dos seguintes tipos de usuários que você deseja receber a notificação:</p>
+      <ul>
+      <li>Atribuído para</li>
+      <li>Cadastrado por</li>
+      <li>Equipe do projeto (todos os usuários na equipe do projeto recebem o lembrete)</li>
+      <li>Tarefas dependentes atribuídas (os usuários atribuídos a tarefas dependentes recebem o lembrete)</li>
+      <li>Proprietário do projeto</li>
+      <li>Atribuído a (os usuários atribuídos a uma tarefa ou um problema recebem o lembrete)</li>
+      <li>Proprietário da planilha de horas</li>
+      <li>Aprovador de planilha de horas</li>
+      <li>Gerenciador do proprietário da planilha de horas</li></ul>
+      </td> 
      </tr> 
     </tbody> 
    </table>

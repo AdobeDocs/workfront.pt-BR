@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '1843'
-ht-degree: 2%
+source-wordcount: '1875'
+ht-degree: 1%
 
 ---
 
@@ -283,23 +283,35 @@ Para localizar o Workfront Planning:
 
    A área Espaços de trabalho é aberta.
 
+   <!--replace above with: The Workfront Planning landing page opens. 
+    ![](assets/planning-landing-page-admin.png)
+    1. (Conditional and optional) If you are a Workfront administrator, click one of the following tabs:
+    * **My workspaces**: Displays workspaces you created or workspaces that are shared with you.
+    * **Other workspaces**: Displays all workspaces in the system.
+    Otherwise, all workspaces display in the **Workspaces** area.-->
+
 1. (Opcional e recomendado) Continue com algumas das seguintes ações para criar sua estrutura de trabalho:
 
-   1. Crie um espaço de trabalho do zero ou usando um modelo.
+   1. Crie um espaço de trabalho do zero ou usando um modelo. Para obter informações, consulte [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-   1. Adicione seções ao novo espaço de trabalho.
+   1. Adicione seções ao novo espaço de trabalho. Para obter informações, consulte [Editar espaços de trabalho](/help/quicksilver/planning/architecture/edit-workspaces.md).
    1. Renomeie as seções existentes no novo espaço de trabalho.
-   1. Adicione tipos de registro ao novo espaço de trabalho.
+   1. Adicione tipos de registro ao novo espaço de trabalho. Para obter informações, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
 
    1. Clique no nome de um tipo de registro para abrir a página do tipo de registro. Por padrão, a página de tipo de registro é aberta na exibição Tabela.
 
-      Você também pode criar uma exibição de Linha do tempo ou Calendário.
+      Você também pode criar uma exibição de Linha do tempo ou Calendário. Para obter informações, consulte [Gerenciar exibições de registro](/help/quicksilver/planning/views/manage-record-views.md).
 
    1. Na exibição de tabela, comece a adicionar registros adicionando linhas
 
       Ou
 
       Comece a adicionar campos de registro adicionando colunas.
+
+      Para obter informações, consulte os seguintes artigos:
+
+      * [Criar registros](/help/quicksilver/planning/records/create-records.md)
+      * [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Atividade de versão do Adobe Workfront Planning
 

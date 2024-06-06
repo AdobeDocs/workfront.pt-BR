@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '2243'
+source-wordcount: '2236'
 ht-degree: 0%
 
 ---
@@ -174,8 +174,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 <!--when changes here, also update the article for "Connect records"-->
 
 {{step1-to-planning}}
-
-O espaço de trabalho acessado por último deve ser aberto por padrão.
 
 1. (Opcional) Expanda a seta apontando para baixo à direita de um nome de espaço de trabalho existente e selecione o espaço de trabalho do qual deseja conectar tipos de registro.
 1. Clique no cartão de um tipo de registro para abrir a página do tipo de registro.

@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Anexar uma notificação de lembrete a um objeto
-description: As notificações de lembrete podem ser associadas aos tipos de objeto Projetos, Tarefas, Problemas, Folhas de Horas, Modelos, Tarefas do Modelo e Perfis de Folha de Horas Recorrentes.
+description: "Você pode associar notificações de lembrete a vários tipos de objeto diferentes: Projetos, Tarefas, Problemas, Folhas de Horas, Modelos, Tarefas de Modelo e Perfis de Folhas de Horas Recorrentes."
 author: Lisa
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 0%
+source-wordcount: '286'
+ht-degree: 1%
 
 ---
 
 # Anexar uma notificação de lembrete a um objeto
 
-As notificações de lembrete podem ser associadas a vários tipos de objeto diferentes: Projetos, Tarefas, Problemas, Folhas de Horas, Modelos, Tarefas do Modelo e Perfis de Folha de Horas Recorrentes.
+Você pode associar notificações de lembrete a vários tipos de objeto diferentes: Projetos, Tarefas, Problemas, Folhas de horas, Modelos, Tarefas de modelo e Perfis de folha de horas recorrentes.
 
 Antes de poder anexar notificações de lembrete a um objeto, um [!DNL Adobe Workfront] o administrador deve criar a notificação, conforme descrito em [Configurar notificações de lembrete](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
@@ -24,7 +24,7 @@ As etapas para anexar notificações de lembrete são as mesmas, independentemen
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
@@ -42,7 +42,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>[!UICONTROL Worker] ou superior</p> <p>Observação: Se ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais em seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] ou superior</p> <p>Observação: se você ainda não tiver acesso, pergunte ao seu [!DNL Workfront] administrador se eles definirem restrições adicionais no seu nível de acesso. Para obter informações sobre como uma [!DNL Workfront] administrador pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
@@ -51,11 +51,11 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir qual plano, tipo de licença ou acesso você tem, entre em contato com seu [!DNL Workfront] administrador.
+&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
 
 ## Anexar notificações de lembrete a um objeto
 
-1. Vá para o objeto ao qual deseja anexar a notificação do lembrete.
+1. Vá para o objeto ao qual deseja anexar a notificação de lembrete.
 1. Clique no ícone Editar ![](assets/edit-icon.png).
 1. No painel esquerdo do **[!UICONTROL Editar]** for exibida, clique em **[!UICONTROL Configurações]**.
 
@@ -65,7 +65,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
    ![](assets/reminder-notification-select-one-350x213.png)
 
-   Se a variável [!DNL Workfront] O administrador criou várias notificações de lembrete, é possível anexar várias notificações a um único objeto.
+   Se a variável [!DNL Workfront] administrador criou várias notificações de lembrete, você pode anexar várias notificações a um único objeto.
 
 1. Clique em **[!UICONTROL Salvar alterações]**.
 
