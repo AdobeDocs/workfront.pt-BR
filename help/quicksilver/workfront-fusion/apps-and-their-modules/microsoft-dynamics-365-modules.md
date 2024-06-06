@@ -9,9 +9,9 @@ description: Em um [!DNL Adobe Workfront Fusion] Você pode automatizar fluxos d
 author: Becky
 feature: Workfront Fusion
 exl-id: 116df088-20a7-40a8-8880-9f422dc37632
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 46c282062ed737be860aeb4af96ac5f5efe9360d
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -186,9 +186,13 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
    <td role="rowheader">[!UICONTROL Tipo de Entidade]</td> 
    <td>Selecione o tipo de entidade que você deseja que o módulo crie.</td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Selecionar campos para mapear]</td> 
+   <td>Selecione os campos para os quais deseja incluir valores quando o registro for criado. Os campos disponíveis dependem do tipo de entidade.</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Campos de propriedade]</td> 
-   <td>Nesses campos, insira o valor que você deseja que o item de trabalho tenha para uma determinada propriedade. Os campos disponíveis dependem do tipo de entidade.</td> 
+   <td> Esses são os campos selecionados. Insira o valor que você deseja que o registro tenha para uma determinada propriedade. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -261,7 +265,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
-   <td> <p>Insira ou mapeie o único [!DNL Microsoft Dynamics 365] ID do registro que você deseja que o módulo exclua.</p> </td> 
+   <td> <p>Insira ou mapeie o [!DNL Microsoft Dynamics 365] ID do registro que você deseja que o módulo exclua.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -294,7 +298,7 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
-   <td>Insira ou mapeie o único [!DNL Microsoft Dynamics 365] ID do registro que você deseja que o módulo leia.</td> 
+   <td>Insira ou mapeie o [!DNL Microsoft Dynamics 365] ID do registro que você deseja que o módulo leia.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -321,13 +325,17 @@ Ao configurar esse módulo, os campos a seguir são exibidos.
    <td role="rowheader">[!UICONTROL Tipo de Entidade]</td> 
    <td>Selecione o tipo de entidade que você deseja que o módulo atualize.</td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Selecionar campos para mapear]</td> 
+   <td>Selecione os campos para os quais deseja incluir valores quando o registro for criado. Os campos disponíveis dependem do tipo de entidade.</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Campos de propriedade]</td> 
-   <td>Nesses campos, insira o valor que você deseja que o item de trabalho tenha para uma determinada propriedade. Os campos disponíveis dependem do tipo de entidade.</td> 
+   <td>Esses são os campos que você selecionou. Insira o valor que você deseja que o registro tenha para uma determinada propriedade.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL ID]</td> 
-   <td>Insira ou mapeie o único [!DNL Microsoft Dynamics] ID 365 do registro que você deseja que o módulo atualize.</td> 
+   <td>Insira ou mapeie o [!DNL Microsoft Dynamics] ID 365 do registro que você deseja que o módulo atualize.</td> 
   </tr> 
  </tbody> 
 </table>
