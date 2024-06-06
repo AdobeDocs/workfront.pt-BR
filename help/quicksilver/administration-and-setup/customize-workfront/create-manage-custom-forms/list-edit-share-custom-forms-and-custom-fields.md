@@ -4,9 +4,9 @@ description: Ao visualizar uma lista dos formulários personalizados de sua orga
 author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>plano do Adobe Workfront*</p> </td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -75,7 +75,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
    Para obter informações sobre o que você pode fazer ao selecionar um item na lista, consulte os seguintes artigos:
 
-   * [Editar propriedades de um campo personalizado, quebra de seção ou widget em um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+   * [Adicionar ou editar um campo personalizado, quebra de seção ou widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
    * [Configurar compartilhamento para campos e widgets personalizados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
    * [Excluir um campo ou widget personalizado do sistema](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
