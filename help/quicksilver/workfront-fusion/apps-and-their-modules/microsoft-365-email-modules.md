@@ -9,9 +9,9 @@ description: Em um [!DNL Adobe Workfront Fusion] Você pode automatizar fluxos d
 author: Becky
 feature: Workfront Fusion
 exl-id: 29b69e8c-a889-441e-a052-287f1db2052d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1886'
+source-wordcount: '1974'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,18 @@ Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte
 ## Pré-requisitos
 
 Para usar [!DNL Microsoft Office 365 Email] módulos, você deve ter uma [!DNL Microsoft Office 365 Email] conta.
+
+
+
+## Conectar o [!DNL Office 365 Email] serviço para [!DNL Workfront Fusion]
+
+Para obter instruções sobre como conectar seu [!DNL Office 365 Email] conta para [!UICONTROL Workfront Fusion], consulte [Criar uma conexão com o [!UICONTROL Adobe Workfront Fusion] - Instruções básicas](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Alguns aplicativos do Microsoft usam a mesma conexão, que está vinculada a permissões de usuário individuais. Portanto, ao criar uma conexão, a tela de consentimento de permissões exibe todas as permissões que foram concedidas anteriormente à conexão deste usuário, além de todas as novas permissões necessárias para o aplicativo atual.
+>
+>Por exemplo, se um usuário tiver permissões de &quot;Tabela de leitura&quot; concedidas por meio do conector do Excel e criar uma conexão no conector do Outlook para ler emails, a tela de consentimento de permissões mostrará a permissão &quot;Tabela de leitura&quot; já concedida e a permissão &quot;Gravar email&quot; recém-necessária.
 
 ## [!DNL Microsoft Office 365 Email] módulos e seus campos
 
@@ -357,7 +369,7 @@ Cria uma nova mensagem de email.
    <td> <p>Adicionar os recipients A mensagem que você deseja receber:</p> 
     <ul> 
      <li> <p><strong>Nome</strong> </p> <p>Insira o nome do contato</p> </li> 
-     <li> <p><strong>Endereço de email</strong> </p> <p>Insira o endereço de email do contato.</p> </li> 
+     <li> <p><strong>Endereço de e-mail</strong> </p> <p>Insira o endereço de email do contato.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
