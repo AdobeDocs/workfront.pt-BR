@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 1%
@@ -120,7 +120,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Recomendamos usar essa opção, especialmente ao adicionar várias tarefas à lista.
 
-   ![](assets/ctp4-350x26.png)
+   ![](assets/add-more-tasks-inline.png)
 
 1. (Condicional) Siga um destes procedimentos:
 
@@ -141,7 +141,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
          Isso torna a nova tarefa uma tarefa filha ou subtarefa da tarefa anterior.
 
-         Para obter mais informações sobre tarefas-filho, consulte [Visão geral das tarefas](../../../manage-work/tasks/task-information/tasks-overview.md).
+         Para obter mais informações sobre tarefas-filho, consulte [Criar subtarefas](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
       1. (Condicional) Se você desativou a variável **Salvamento automático** depois de pressionar **Adicionar mais tarefas**, você pode fazer o seguinte:
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
@@ -98,13 +98,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 {{step1-to-planning}}
 
-Essa ação abre o último espaço de trabalho acessado.
+1. Clique no espaço de trabalho que deseja deletar.
 
-1. (Opcional) Expanda a seta apontando para baixo à direita de um nome de espaço de trabalho existente e selecione o espaço de trabalho que deseja excluir.
+   A página Workspace é exibida.
+
 1. Clique em **Mais** menu ![](assets/more-menu.png) ao lado do nome do espaço de trabalho, clique em **Excluir**.
 
    ![](assets/permanently-delete-workspace-confirmation.png)
 
-1. Tipo &quot;**excluir**&quot; no espaço fornecido e clique em **Excluir permanentemente**.
+1. Tipo &quot;**excluir**&quot; no espaço fornecido e clique em **Excluir permanentemente**. Isso não diferencia maiúsculas de minúsculas.
 
    O espaço de trabalho foi excluído e não pode ser recuperado. Quaisquer tipos de registro, registros, campos e exibições associados a eles também são excluídos. <!--ensure this is right at or before GA-->

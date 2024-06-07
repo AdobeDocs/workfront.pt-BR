@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
@@ -120,9 +120,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 {{step1-to-planning}}
 
-O espaço de trabalho que você acessou por último é aberto.
+1. Clique no espaço de trabalho cujos registros você deseja editar
 
-1. (Opcional) Clique na seta para baixo à direita do nome do espaço de trabalho para selecionar o espaço de trabalho cujos registros você deseja atualizar.
+   O espaço de trabalho é aberto e os tipos de registro são exibidos como cartões.
 1. Clique em um cartão de tipo de registro.
 
    A página de tipo de registro é aberta.
@@ -192,9 +192,9 @@ O espaço de trabalho que você acessou por último é aberto.
 
 {{step1-to-planning}}
 
-O espaço de trabalho que você acessa por último é aberto.
+1. Clique no espaço de trabalho cujos registros você deseja editar
 
-1. (Opcional) Clique na seta para baixo à direita do nome do espaço de trabalho para selecionar o espaço de trabalho cujos registros você deseja atualizar.
+   O espaço de trabalho é aberto e os tipos de registro são exibidos como cartões.
 
 1. Clique em um cartão de tipo de registro.
 
@@ -231,9 +231,9 @@ O espaço de trabalho que você acessa por último é aberto.
 
 {{step1-to-planning}}
 
-O espaço de trabalho que você acessa por último é aberto.
+1. Clique no espaço de trabalho cujos registros você deseja editar
 
-1. (Opcional) Clique na seta para baixo à direita do nome do espaço de trabalho para selecionar o espaço de trabalho cujos registros você deseja atualizar.
+   O espaço de trabalho é aberto e os tipos de registro são exibidos como cartões.
 
 1. Clique em um cartão de tipo de registro.
 

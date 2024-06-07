@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '504'
 ht-degree: 2%
 
 ---
@@ -102,9 +102,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 {{step1-to-planning}}
 
-O espaço de trabalho que você acessa por último é aberto.
+1. Clique no espaço de trabalho cujos registros você deseja deletar.
 
-1. Clique em um tipo de registro.
+   O espaço de trabalho é aberto e os tipos de registro são exibidos como cartões.
+
+1. Clique em um cartão de tipo de registro.
 
    A página de tipo de registro é aberta.
 1. Siga um destes procedimentos:
@@ -126,9 +128,11 @@ O registro é excluído e não pode ser recuperado.
 
 {{step1-to-planning}}
 
-O espaço de trabalho que você acessou por último é aberto.
+1. Clique no espaço de trabalho cujos registros você deseja deletar.
 
-1. Clique em um tipo de registro.
+   O espaço de trabalho é aberto e os tipos de registro são exibidos como cartões.
+
+1. Clique em um cartão de tipo de registro.
 
    A página de tipo de registro é aberta.
 1. (Condicional) No **Exibir** no canto superior esquerdo da tabela, selecione uma visualização Tabela. Essa deve ser a exibição padrão, a menos que você tenha visualizado o tipo de registro na exibição de linha do tempo ao acessá-lo pela última vez.

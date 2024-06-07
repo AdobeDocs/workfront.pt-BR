@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -123,9 +123,10 @@ Para adicionar uma seção a uma visualização de registro ou página:
 
 {{step1-to-planning}}
 
-O espaço de trabalho que você acessa por último é aberto.
+1. Clique no cartão de um espaço de trabalho.
 
-1. (Opcional) Clique na seta para baixo à direita do nome do espaço de trabalho para selecionar o espaço de trabalho cujos registros você deseja atualizar.
+   O espaço de trabalho é aberto e os tipos de registro são exibidos como cartões.
+
 1. Clique em um cartão de tipo de registro.
 
    A página de tipo de registro é aberta.
@@ -187,9 +188,10 @@ Todas as seções são expandidas por padrão.
 
 {{step1-to-planning}}
 
-O espaço de trabalho que você acessa por último é aberto.
+1. Clique no cartão de um espaço de trabalho.
 
-1. (Opcional) Clique na seta para baixo à direita do nome do espaço de trabalho para selecionar o espaço de trabalho cujos registros você deseja atualizar.
+   O espaço de trabalho é aberto e os tipos de registro são exibidos como cartões.
+
 1. Clique em um cartão de tipo de registro.
 
    A página de tipo de registro é aberta.

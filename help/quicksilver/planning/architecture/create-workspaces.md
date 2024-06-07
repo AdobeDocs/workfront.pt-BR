@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '635'
 ht-degree: 1%
 
 ---
@@ -111,19 +111,9 @@ Você pode criar um espaço de trabalho e adicionar tipos de registro a ele para
 
 {{step1-to-planning}}
 
-<!--replace the snippet with the new snippet with the landing page The Workfront Planning landing page opens. 
-    ![](assets/planning-landing-page-admin.png)
-    1. (Optional) Click the **My workspaces** tab to view workspaces you created
-    Or
-    Click the **Other workspaces** tab to view workspaces shared with you. 
-    -->
+1. Clique em **Criar espaço de trabalho**
 
-1. (Condicional) Se você não tiver espaços de trabalho no seu ambiente, clique em **Criar espaço de trabalho**
-
-   Ou, em um espaço de trabalho existente, clique na seta para baixo à direita do nome do espaço de trabalho e clique em **Criar espaço de trabalho**.
-
-   ![](assets/workspace-drop-down-right-menu.png)
-
+   A caixa Criar espaço de trabalho é exibida. Você pode criar um espaço de trabalho do zero ou criá-lo usando um dos modelos disponíveis.
 
 1. (Opcional e condicional) Clique em **Visualizar** em qualquer um dos modelos de espaço de trabalho predefinidos a seguir:
 
@@ -131,17 +121,19 @@ Você pode criar um espaço de trabalho e adicionar tipos de registro a ele para
    * Gerenciamento de vendas
    * Gerenciamento de produtos
 
+   A caixa de pré-visualização do modelo é aberta.
+
    Há uma indicação de quais tipos de registro operacional, taxonomias e quantos campos estão associados a cada modelo.
 
    ![](assets/previewing-a-workspace-template.png)
 
    Para obter informações sobre modelos do Workfront Planning Workspace, consulte [Lista de modelos do espaço de trabalho](/help/quicksilver/planning/architecture/workspace-templates.md).
 
-1. Clique em **Usar modelo** para começar a criar o espaço de trabalho a partir do modelo selecionado
+1. Na caixa de visualização do modelo, clique em **Usar modelo** para começar a criar o espaço de trabalho a partir do modelo selecionado
 
    Ou
 
-   Clique em **Criar espaço de trabalho** para criar um espaço de trabalho do zero.
+   Clique em **Voltar** e, em seguida, clique em **Criar espaço de trabalho** para criar um espaço de trabalho do zero.
 
    Um para os seguintes tipos de espaços de trabalho é criado:
 

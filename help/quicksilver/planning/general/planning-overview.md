@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1932'
 ht-degree: 1%
 
 ---
@@ -281,14 +281,15 @@ Para localizar o Workfront Planning:
 
 1. Clique em **Planejamento** ![](assets/planning-icon.png).
 
-   A área Espaços de trabalho é aberta.
+   A página de aterrissagem do Workfront Planning é aberta.
 
-   <!--replace above with: The Workfront Planning landing page opens. 
-    ![](assets/planning-landing-page-admin.png)
-    1. (Conditional and optional) If you are a Workfront administrator, click one of the following tabs:
-    * **My workspaces**: Displays workspaces you created or workspaces that are shared with you.
-    * **Other workspaces**: Displays all workspaces in the system.
-    Otherwise, all workspaces display in the **Workspaces** area.-->
+   ![](assets/planning-landing-page-admin.png)
+
+   1. (Condicional e opcional) Se você for um administrador do Workfront, clique em uma das seguintes guias:
+   * **Meus espaços de trabalho**: exibe os espaços de trabalho que você criou.
+   * **Outros espaços de trabalho**: exibe todos os outros espaços de trabalho no sistema, incluindo aqueles compartilhados com você.
+
+   Para todos os outros usuários, todos os espaços de trabalho criados ou compartilhados com eles são exibidos no **Espaços de trabalho** área.
 
 1. (Opcional e recomendado) Continue com algumas das seguintes ações para criar sua estrutura de trabalho:
 

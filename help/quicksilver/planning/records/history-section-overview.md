@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 4%
+source-wordcount: '472'
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,12 @@ O painel direito de um registro exibe as seguintes seções:
 
 {{step1-to-planning}}
 
-O último espaço de trabalho acessado é aberto por padrão.
+1. Clique no cartão de um espaço de trabalho.
+
+   O espaço de trabalho é aberto e os tipos de registro são exibidos em cartões.
+
+1. Clique em um cartão de tipo de registro.
+A página de tipo de registro é aberta e todos os registros desse tipo são exibidos.
 
 1. Escolha uma exibição de tabela na **Exibir** menu suspenso.
 1. Clique no nome de um registro na exibição de tabela.

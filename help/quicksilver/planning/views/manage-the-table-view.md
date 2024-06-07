@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2394'
+source-wordcount: '2403'
 ht-degree: 3%
 
 ---
@@ -270,9 +270,9 @@ Para adicionar um filtro a uma exibição de tabela:
 1. Selecione uma exibição de tabela e clique em **Filtros** no canto superior direito da tabela.
 1. Clique em **Adicionar condição** e adicione as seguintes informações:
 
-   * Selecione um campo pelo qual deseja filtrar <!-- the tip below might change-->
+   * **Selecionar um campo** que você deseja filtrar por <!-- the tip below might change-->
 
-   * Selecione uma opção (ou um modificador de filtro) para definir que tipo de condição o campo deve atender
+   * **Selecione uma opção** (ou um modificador de filtro) para definir que tipo de condição o campo deve atender
 
      A tabela abaixo exibe os modificadores disponíveis para cada tipo de campo.
 
@@ -387,7 +387,7 @@ Para adicionar um agrupamento:
 
    O agrupamento é aplicado automaticamente à tabela e os registros são exibidos na linha de separação de agrupamento.
 
-1. (Opcional) Repita as etapas acima para adicionar até três agrupamentos.
+1. (Opcional) Clique em **Adicionar condição** e repita as etapas acima para adicionar até três agrupamentos.
 
    O número de campos selecionados para o agrupamento é exibido ao lado do ícone Grouping.
 
@@ -438,13 +438,13 @@ Para classificar <!--ungrouped (add this when sorting for groupings will be avai
 
    Passe o mouse sobre o nome de uma coluna na exibição de tabela, clique na seta para baixo à direita do nome do cabeçalho da coluna e clique em **Classificar por este campo**. O campo é adicionado como uma seleção de classificação no ícone Classificar no canto superior direito da exibição de tabela.
 
-1. No **Classificar registros por** clique em um dos campos sugeridos ou clique em **Escolha um campo diferente** e procure um campo diferente, em seguida, clique nele quando ele for exibido na lista.
+1. (Condicional) Na guia **Classificar registros por** clique em um dos campos sugeridos ou clique em **Escolha um campo diferente** e procure um campo diferente, em seguida, clique nele quando ele for exibido na lista.
 
    A classificação é aplicada automaticamente à exibição de tabela e os registros são classificados pelos critérios selecionados.
 
    <!-- add a step that you can rearrange the sorting fields here, when this will be possible-->
 
-1. (Opcional) Repita as etapas acima para classificar por campos adicionais.
+1. (Opcional) Clique em **Adicionar condição** e repita as etapas acima para classificar por campos adicionais.
 
    O número de campos que você está classificando é exibido à esquerda do ícone Classificar no canto superior direito da barra de ferramentas. Você pode escolher somente campos que sejam exibidos nas colunas da exibição de tabela.
 

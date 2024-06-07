@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -90,6 +90,7 @@ Para obter mais informações sobre requisitos de acesso, consulte [Requisitos d
 
 {{step1-to-planning}}
 
+1. Clique em um cartão do espaço de trabalho para abri-lo.
 1. Clique dentro do nome do espaço de trabalho no cabeçalho do novo espaço de trabalho para renomeá-lo e pressione **Enter**.
 1. Clique em **Mais** menu ![](assets/more-menu.png)à direita do nome do espaço de trabalho no cabeçalho e clique em **Editar**.
 
@@ -130,7 +131,7 @@ Para obter mais informações sobre requisitos de acesso, consulte [Requisitos d
 
 1. (Opcional) Passe o mouse sobre um cartão de tipo de registro, clique no **Mais** menu ![](assets/more-menu.png) no canto superior direito e clique em **Excluir** para excluir um tipo de registro.
 
-   Para obter informações, consulte [Excluir tipos de registro](/help/quicksilver/planning/architecture/delete-record-types.md)).
+   Para obter informações, consulte [Excluir tipos de registro](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 1. (Opcional) Pressione e clique em um cartão de tipo de registro para arrastá-lo e soltá-lo em um novo ponto. Você pode arrastar e soltar tipos de registro de uma seção do espaço de trabalho para outra.
 

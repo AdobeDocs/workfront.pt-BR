@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 0%
+source-wordcount: '404'
+ht-degree: 2%
 
 ---
 
@@ -122,13 +122,20 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 {{step1-to-planning}}
 
-1. (Opcional) Expanda a seta apontando para baixo à direita de um nome de espaço de trabalho existente e selecione o espaço de trabalho para o qual deseja excluir tipos de registro.
+1. Clique no espaço de trabalho cujos tipos de registro você deseja deletar,
+
+   Ou
+
+   Em um espaço de trabalho, expanda a seta apontando para baixo à direita de um nome de espaço de trabalho existente e selecione o espaço de trabalho do qual deseja excluir tipos de registro.
 
    O espaço de trabalho é aberto e os tipos de registro são exibidos.
-1. Clique no cartão do tipo de registro que deseja excluir.
+1. Siga um destes procedimentos:
 
-   Essa ação abre a página do tipo de registro.
-1. Clique em **Mais** menu ![](assets/more-menu.png) à direita do nome do tipo de registro e clique em **Excluir**. <!--add screen shot when they finalize the UI-->
-1. Tipo **Excluir** na caixa de confirmação e clique em **Excluir permanentemente**.
+   * Passe o mouse sobre o cartão de tipo de registro, clique no menu Mais e, em seguida, **Excluir**.
+   * Clique no cartão referente ao tipo de registro que deseja deletar e, na página Tipo de registro, clique no **Mais** menu ![](assets/more-menu.png) à direita do nome do tipo de registro e clique em **Excluir**.
+
+   ![](assets/permanently-delete-record-type-confirmation.png)
+
+1. Tipo **excluir** na caixa de confirmação e clique em **Excluir permanentemente**. Isso não diferencia maiúsculas de minúsculas.
 
    O tipo de registro selecionado, juntamente com seus campos, registros associados e exibições são excluídos.

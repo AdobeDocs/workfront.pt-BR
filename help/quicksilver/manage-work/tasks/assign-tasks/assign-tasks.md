@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2027'
+source-wordcount: '2021'
 ht-degree: 1%
 
 ---
@@ -168,16 +168,16 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## Atribuir uma única tarefa
 
 1. Vá para uma tarefa que você deseja atribuir.
-1. Clique em **Atribuir a** no **Atribuições** no cabeçalho da tarefa ou problema.
+1. Clique em **Atribuir a** no **Atribuições** no cabeçalho da tarefa
 
    Ou
 
    Clique no nome das atribuições se a tarefa ou problema já estiver atribuído.
 
-   Imagem de amostra no ambiente de produção:
+   No ambiente de produção:
    ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
-   <span class="preview">Imagem de exemplo no ambiente de Pré-visualização:</span>
+   <span class="preview">No ambiente de Pré-visualização:</span>
    ![Atribuições](assets/assignments-box-in-task-header.png)
 
 1. Siga um destes procedimentos:

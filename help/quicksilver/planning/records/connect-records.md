@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2432'
+source-wordcount: '2415'
 ht-degree: 1%
 
 ---
@@ -158,7 +158,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 {{step1-to-planning}}
 
-1. (Opcional) Expanda a seta apontando para baixo à direita de um nome de espaço de trabalho existente e selecione o espaço de trabalho do qual deseja conectar registros.
+1. Clique no espaço de trabalho cujos registros você deseja conectar
+
+   O espaço de trabalho é aberto e os tipos de registro são exibidos como cartões.
 1. Clique no cartão de um tipo de registro para abrir a página do tipo de registro.
 1. Selecione um **Tabela** exibir do **Exibir** no canto superior direito da página tipo de registro.
 1. (Opcional) Adicione registros ao tipo de registro selecionado adicionando uma nova linha à tabela. Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
@@ -223,7 +225,9 @@ Depois de criar uma conexão entre um tipo de registro e um tipo de objeto do Wo
 
 {{step1-to-planning}}
 
-1. (Opcional) Expanda a seta apontando para baixo à direita de um nome de espaço de trabalho existente e selecione o espaço de trabalho do qual deseja conectar registros.
+1. Clique no espaço de trabalho cujos registros você deseja conectar.
+
+   O espaço de trabalho é aberto e os tipos de registro são exibidos como cartões.
 1. Clique no cartão de um tipo de registro para abrir a página do tipo de registro.
 1. Selecione um **Tabela** exibir do **Exibir** menu suspenso.
 
@@ -306,7 +310,9 @@ Depois de criar uma conexão entre um tipo de registro e o Adobe Experience Mana
 
 {{step1-to-planning}}
 
-1. (Opcional) Expanda a seta apontando para baixo à direita de um nome de espaço de trabalho existente e selecione o espaço de trabalho do qual deseja conectar registros.
+1. Clique no espaço de trabalho cujos registros você deseja conectar.
+
+   O espaço de trabalho é aberto e os tipos de registro são exibidos.
 1. Clique no cartão de um tipo de registro para abrir a página do tipo de registro.
 1. Selecione um **Tabela** exibir do **Exibir** no canto superior direito da página tipo de registro.
 

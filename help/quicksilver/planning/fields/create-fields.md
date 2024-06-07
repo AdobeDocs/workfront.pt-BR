@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3287'
 ht-degree: 2%
 
 ---
@@ -117,9 +117,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 {{step1-to-planning}}
 
-O espaço de trabalho acessado por último deve ser aberto por padrão.
+1. Clique no espaço de trabalho cujos registros você deseja criar campos.
 
-1. (Opcional) Expanda a seta apontando para baixo à direita de um nome de espaço de trabalho existente e selecione o espaço de trabalho cujos tipos de registro você deseja criar campos e, em seguida, clique no tipo de registro.
+   O espaço de trabalho é aberto e os tipos de registro são exibidos.
+
+1. Clique no cartão de um tipo de registro.
 
    Todos os registros existentes associados ao tipo de registro são exibidos nas linhas da exibição de tabela.
 
@@ -127,8 +129,11 @@ O espaço de trabalho acessado por último deve ser aberto por padrão.
    >
    >    Se nenhum registro for exibido, talvez você ainda não tenha nenhum registro ou um filtro aplicado que limite o que você vê na tela.
 
-   Todos os campos existentes associados ao tipo de registro são exibidos nas colunas da exibição de tabela. <!--caveat this for when we can hide the fields; mention that they can be hidden if they are not visible by default-->
+   Todos os campos existentes associados ao tipo de registro são exibidos nas colunas da exibição de tabela.
 
+   >[!TIP]
+   >
+   >    Alguns campos podem estar ocultos. Clique em Campos e ative a alternância dos campos que deseja exibir como colunas na exibição em tabela.
 
 1. Clique em **+** ícone no canto superior direito da exibição de tabela para adicionar novos campos.
 1. No **Novo campo** , procure por um tipo de campo no campo **Tipo de campo** ou selecione um dos seguintes tipos de campo:

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -113,9 +113,16 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 {{step1-to-planning}}
 
-Isso abre o espaço de trabalho acessado por último no Workfront Planning.
-1. Clique no cartão de um tipo de registro cujos campos você deseja excluir.
-1. (Condicional) Selecione um **Visualização em tabela** do **Exibir** no canto superior direito da página tipo de registro.
+1. Clique no espaço de trabalho cujos campos de registro você deseja deletar.
+
+   O espaço de trabalho é aberto e os tipos de registro são exibidos.
+
+1. Clique no cartão de um tipo de registro.
+
+1. (Condicional) Se ainda não estiver selecionada, clique na guia de uma **Visualização em tabela** na página tipo de registro.
+
+   Todos os registros existentes associados ao tipo de registro são exibidos nas linhas da exibição de tabela.
+
 1. Localize o campo que deseja excluir nos cabeçalhos da coluna, passe o mouse sobre o cabeçalho da coluna e clique na seta para baixo após o nome do campo.
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)

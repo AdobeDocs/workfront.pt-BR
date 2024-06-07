@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
@@ -150,9 +150,13 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 {{step1-to-planning}}
 
 
-O espaço de trabalho acessado pela última vez é aberto por padrão. Para obter informações sobre como criar espaços de trabalho, consulte [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. Clique no cartão de um espaço de trabalho.
 
-1. Clique em um cartão de tipo de registro. Para obter informações sobre como criar um tipo de registro, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
+   O espaço de trabalho é aberto e os tipos de registro são exibidos como cartões.
+
+1. Clique em um cartão de tipo de registro.
+
+   A página de tipo de registro é aberta.
 
    Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
@@ -218,11 +222,13 @@ O espaço de trabalho acessado pela última vez é aberto por padrão. Para obte
 
 {{step1-to-planning}}
 
-O espaço de trabalho acessado pela última vez é aberto por padrão. Para obter informações sobre como criar espaços de trabalho, consulte [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. Clique no cartão de um espaço de trabalho.
+
+   O espaço de trabalho é aberto e os tipos de registro são exibidos como cartões.
 
 1. Clique em um cartão de tipo de registro.
 
-   Para obter informações sobre como criar um tipo de registro, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
+   A página de tipo de registro é aberta.
 
    Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
@@ -247,13 +253,14 @@ As permissões de compartilhamento da exibição original não são transferidas
 
 {{step1-to-planning}}
 
-O espaço de trabalho acessado pela última vez é aberto por padrão.
+1. Clique no cartão de um espaço de trabalho.
 
-Para obter informações sobre como criar espaços de trabalho, consulte [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md).
+   O espaço de trabalho é aberto e os tipos de registro são exibidos como cartões.
 
-1. Clique em um cartão de tipo de registro. Para obter informações sobre como criar um tipo de registro, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
+1. Clique em um cartão de tipo de registro.
 
-   Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
+   A página de tipo de registro é aberta.
+Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
 1. Passe o mouse sobre a guia da exibição que deseja duplicar e clique no ícone **Mais** menu ![](assets/more-menu.png) à direita do nome da exibição, clique em **Duplicar**.
 

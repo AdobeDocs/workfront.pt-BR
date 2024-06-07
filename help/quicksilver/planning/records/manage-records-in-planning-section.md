@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7580c7638c9e4d0f9aa53d208d9773fa1524ab54
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '683'
 ht-degree: 1%
 
 ---
@@ -109,7 +109,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 {{step1-to-planning}}
 
-O último espaço de trabalho acessado é aberto por padrão.
+1. Clique no cartão de um espaço de trabalho.
+
+   O espaço de trabalho é aberto e os tipos de registro são exibidos como cartões.
 
 1. Clique no cartão de um tipo de registro conectado a um projeto, portfólio ou programa do Workfront.
 1. Escolha uma exibição de tabela na **Exibir** menu suspenso.
