@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 7%
+source-wordcount: '725'
+ht-degree: 5%
 
 ---
 
@@ -50,6 +50,15 @@ Os objetos no Workfront (e, portanto, no data lake) são definidos não apenas p
 >[!IMPORTANT]
 >
 >O diagrama de relacionamento de entidade é um trabalho em andamento, sendo assim, ele serve apenas para fins de referência e está sujeito a alterações.
+
+## Tipos de data
+
+Há vários objetos de data que fornecem informações sobre quando eventos específicos ocorrem.
+
+* `DL_LOAD_TIMESTAMP`: Essa data é usada para referência interna e reflete quando os dados foram carregados na tabela Current, Event ou Daily History. Essa data não deve ser usada para análise de dados e deve ser removida durante a fase beta do data lake da Workfront.
+* `CALENDAR_DATE`: Essa data está presente somente na tabela Daily History. Essa tabela fornece um registro de como eram os dados às 11h59 UTC para cada data especificada em `CALENDAR_DATE`.
+* `BEGIN_EFFECTIVE_TIMESTAMP`: essa data está presente nas tabelas Evento e Histórico diário e registra exatamente quando um registro foi alterado _para_ o valor que ele tem na linha atual.
+* `END_EFFECTIVE_TIMESTAMP`: essa data está presente nas tabelas Evento e Histórico diário e registra exatamente quando um registro foi alterado _de_ o valor na linha atual para um valor em uma linha diferente. Para permitir entre consultas em `BEGIN_EFFECTIVE_TIMESTAMP` e `END_EFFECTIVE_TIMESTAMP` esse valor nunca é nulo, mesmo se não houver um novo valor. Caso um registro ainda seja válido (ou seja, o valor não foi alterado), `END_EFFECTIVE_TIMESTAMP` terá um valor de 2300-01-01.
 
 ## Tabela de terminologia
 
