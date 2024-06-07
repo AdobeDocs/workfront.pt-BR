@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1362'
 ht-degree: 0%
 
 ---
@@ -98,10 +98,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                                 <p>Versão de pré-visualização: 6 de junho de 2024</p>
                             </li>
                             <li>
-                                <p>Produção para lançamento rápido: com o lançamento do 24.6 (20 de junho de 2024)</p>
-                            </li>
-                            <li>
-                                <p>Produção para versão trimestral: com a versão 24.7 (julho de 2024)</p>
+                                <p>Versão de produção para todos os clientes: com a versão 24.7 (julho de 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -264,7 +261,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">A folga agora é refletida no Balanceador de carga de trabalho</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">A folga agora é refletida no Balanceador de carga de trabalho</a></p>
                         [!BADGE New in Preview ]{type=Negative}
                         <p>Para ajustar facilmente o trabalho quando o destinatário principal em uma tarefa tiver um tempo de folga agendado, o Balanceador de carga de trabalho agora realoca horas para os usuários principal e secundário quando a linha do tempo do projeto é recalculada.</p>
                     </td>
@@ -274,10 +271,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                                 <p>Versão de pré-visualização: 6 de junho de 2024</p>
                             </li>
                             <li>
-                                <p>Produção para lançamento rápido: com o lançamento do 24.6 (20 de junho de 2024)</p>
-                            </li>
-                            <li>
-                                <p>Produção para versão trimestral: com a versão 24.7 (julho de 2024)</p>
+                                <p>Versão de produção para todos os clientes: com a versão 24.7 (julho de 2024)</p>
                             </li>
                         </ul>
                     </td>
