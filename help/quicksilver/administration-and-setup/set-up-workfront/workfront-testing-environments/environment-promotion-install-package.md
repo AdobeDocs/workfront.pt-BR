@@ -8,13 +8,11 @@ description: O recurso de promoção de ambiente tem como objetivo fornecer a ca
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -29,9 +27,36 @@ Você deve instalar um pacote no ambiente para o qual deseja copiar objetos **pa
 >
 >Se sua sandbox de atualização personalizada for atualizada enquanto você estiver configurando o objeto para promoção de ambiente, essa configuração será perdida na atualização. Recomendamos que você não atualize sua sandbox de atualização personalizada a menos que todos os objetos e pacotes de promoção de ambiente pendentes tenham sido promovidos com êxito.
 
+## Requisitos de acesso
+
+Você deve ter o seguinte:
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] plano</strong>
+   </td>
+   <td> Sua organização deve seguir o novo modelo de preços e ter um plano Prime ou Ultimate.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] licenças</strong>
+   </td>
+   <td> [!UICONTROL Padrão]
+   </td>
+  </tr>
+   <tr>
+   <td>Configurações de nível de acesso
+   </td>
+   <td>Você deve ser um [!DNL Workfront] administrador.
+   </td>
+  </tr>
+</table>
+
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Pré-requisitos
 
-Você deve ter criado um pacote antes de instalá-lo.
+Um pacote de promoção de ambiente deve ser criado antes de ser instalado.
 
 Para obter instruções, consulte [Criar ou editar um pacote de promoção de ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 

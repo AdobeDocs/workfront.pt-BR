@@ -8,20 +8,18 @@ description: O recurso de Promoção do ambiente tem como objetivo fornecer a ca
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: b010a5126a9c7f49128c11b57e5d7b15260e691c
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '2059'
+source-wordcount: '2105'
 ht-degree: 2%
 
 ---
 
 # Mover objetos entre [!DNL Workfront] ambientes que usam o [!DNL Workfront] API de promoção do ambiente
 
-O recurso de Promoção do ambiente tem como objetivo fornecer a capacidade de mover objetos relacionados à configuração de um ambiente para outro. Você pode mover esses objetos usando a API do Workfront, conforme descrito neste artigo.
+O recurso de Promoção do ambiente permite mover objetos relacionados à configuração de um ambiente para outro. Você pode mover esses objetos usando a API do Workfront, conforme descrito neste artigo.
 
 Para obter instruções sobre como mover objetos entre ambientes usando o aplicativo Workfront, consulte:
 
@@ -29,7 +27,32 @@ Para obter instruções sobre como mover objetos entre ambientes usando o aplica
 * [Instalar um pacote de promoção de ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 
-<!-- add access req for GA-->
+## Requisitos de acesso
+
+Você deve ter o seguinte:
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] plano</strong>
+   </td>
+   <td> Sua organização deve seguir o novo modelo de preços e ter um plano Prime ou Ultimate.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] licenças</strong>
+   </td>
+   <td> [!UICONTROL Padrão]
+   </td>
+  </tr>
+   <tr>
+   <td>Configurações de nível de acesso
+   </td>
+   <td>Você deve ser um [!DNL Workfront] administrador.
+   </td>
+  </tr>
+</table>
+
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Pré-requisitos
 

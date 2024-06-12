@@ -8,13 +8,11 @@ description: O recurso de promoção de ambiente tem como objetivo fornecer a ca
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -26,6 +24,33 @@ Você deve criar um pacote no ambiente para o qual deseja copiar objetos **de**.
 >[!IMPORTANT]
 >
 >Se sua sandbox de atualização personalizada for atualizada enquanto você estiver configurando o objeto para promoção de ambiente, essa configuração será perdida na atualização. Recomendamos que você não atualize sua sandbox de atualização personalizada a menos que todos os objetos e pacotes de promoção de ambiente pendentes tenham sido promovidos com êxito.
+
+## Requisitos de acesso
+
+Você deve ter o seguinte:
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] plano</strong>
+   </td>
+   <td> Sua organização deve seguir o novo modelo de preços e ter um plano Prime ou Ultimate.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] licenças</strong>
+   </td>
+   <td> [!UICONTROL Padrão]
+   </td>
+  </tr>
+   <tr>
+   <td>Configurações de nível de acesso
+   </td>
+   <td>Você deve ser um [!DNL Workfront] administrador.
+   </td>
+  </tr>
+</table>
+
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Criar um pacote
 
