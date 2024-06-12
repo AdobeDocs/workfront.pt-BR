@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 1%
@@ -117,6 +117,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   >[!NOTE]
   >
   > Alguns elementos de visualização podem não estar disponíveis para todas as visualizações.
+
 
 ## Semelhanças e diferenças entre visualizações de registro
 

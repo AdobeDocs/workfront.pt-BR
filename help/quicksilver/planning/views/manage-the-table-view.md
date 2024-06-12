@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2619'
 ht-degree: 3%
 
 ---
@@ -264,6 +264,8 @@ Considere o seguinte ao trabalhar com filtros na exibição de tabela:
 
 * Você pode filtrar por campos de registro conectados ou campos de pesquisa, mas não pelos campos que permitem vincular a vários registros.
 
+* Você pode fazer referência a um campo que esteja a até 4 níveis de distância do tipo de registro atual. Por exemplo, se você estiver criando um filtro para um tipo de registro de Atividade e a Atividade estiver conectada ao tipo de registro de Produto que está conectado ao tipo de registro de Campanha que está conectado a um Projeto do Workfront, será possível fazer referência ao Proprietário do Projeto no filtro que você está criando para o tipo de registro de Atividade.
+
 Para adicionar um filtro a uma exibição de tabela:
 
 1. Crie uma exibição de tabela para uma página de tipo de registro, conforme descrito no artigo [Gerenciar exibições de registro](/help/quicksilver/planning/views/manage-record-views.md).
@@ -373,6 +375,7 @@ Considere o seguinte:
 * A remoção de agrupamentos os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.
 * É possível editar registros listados em um agrupamento.
 * Você pode agrupar por campos de registro conectados ou campos de pesquisa, mas não pelos campos que permitem vincular a vários registros.
+* Você pode fazer referência a um campo que esteja a até 4 níveis de distância do tipo de registro atual. Por exemplo, se você estiver criando um agrupamento para um tipo de registro de Atividade e a Atividade estiver conectada ao tipo de registro de Produto que está conectado ao tipo de registro de Campanha que está conectado a um Projeto do Workfront, será possível fazer referência ao Proprietário do Projeto no agrupamento que você está criando para o tipo de registro de Atividade.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -428,6 +431,8 @@ Considere o seguinte ao classificar registros na exibição de tabela:
 * A remoção dos critérios de classificação os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e use a mesma exibição usada.
 
 * Você pode classificar por campos de registro conectados ou campos de pesquisa, mas não pelos campos que permitem vinculação a vários registros.
+
+* Você pode fazer referência a um campo que esteja a até 4 níveis de distância do tipo de registro atual. Por exemplo, se você estiver criando uma classificação para um tipo de registro de Atividade e a Atividade estiver conectada ao tipo de registro de Produto que está conectado ao tipo de registro de Campanha que está conectado a um Projeto do Workfront, será possível fazer referência ao Proprietário do Projeto na classificação que você está criando para o tipo de registro de Atividade.
 
 Para classificar <!--ungrouped (add this when sorting for groupings will be available--> registros, faça o seguinte:
 

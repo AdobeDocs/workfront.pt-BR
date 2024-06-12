@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
 workflow-type: tm+mt
-source-wordcount: '3287'
+source-wordcount: '3360'
 ht-degree: 2%
 
 ---
@@ -382,9 +382,9 @@ Para obter mais informações, consulte [Visão geral dos campos de fórmula](/h
 
    >[!NOTE]
    >
-   > Não é possível adicionar campos do tipo Seleção múltipla em uma fórmula.
-
-
+   >* Não é possível adicionar campos do tipo Seleção múltipla em uma fórmula.
+   >
+   >* Você pode fazer referência a um campo que esteja a até 4 níveis de distância do tipo de registro atual. Por exemplo, se você estiver criando um campo de fórmula para um tipo de registro Atividade e a Atividade estiver conectada ao tipo de registro Produto que está conectado ao tipo de registro Campanha que está conectado a um Projeto Workfront, você poderá fazer referência ao Proprietário do Projeto na fórmula que está criando para o tipo de registro Atividade.
 
 1. Clique em **Criar**.
 
