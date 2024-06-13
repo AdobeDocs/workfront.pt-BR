@@ -6,16 +6,20 @@ description: A Condição de uma tarefa ou problema é um sinalizador colocado s
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
 
 # Atualizar condição para tarefas e problemas
 
-{{highlighted-preview}}
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente Produção para clientes que ativaram versões rápidas.</span>
+
+<span class="preview">Para obter informações sobre lançamentos rápidos, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Para obter informações sobre a versão atual, consulte [Visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 A Condição de uma tarefa ou problema é um sinalizador colocado sobre ele para indicar como está indo. Isso é diferente do Status do item de trabalho, que indica o estágio atual do desenvolvimento do item.
 
@@ -136,7 +140,7 @@ Para atualizar manualmente a Condição de uma tarefa ou um problema, siga um de
 
 1. Para atualizar a Condição de uma tarefa ou problema na seção Detalhes da tarefa ou problema:
 
-   1. (Condicional) Se o administrador do Workfront ou do grupo tiver adicionado o campo Condição à seção Detalhes de uma tarefa ou problema no modelo de layout, clique em **Detalhes** no painel esquerdo, clique na guia **Condição** e selecione entre as seguintes opções:
+   1. (Condicional) Se o administrador do Workfront ou do grupo tiver adicionado o campo Condição à seção Detalhes de uma tarefa ou problema no modelo de layout, clique em **Detalhes** no painel esquerdo e clique em **Condição da tarefa** ou **Condição do problema** e selecione entre as seguintes opções:
       * Indo Bem
       * Algumas Dificuldades
       * Com Problemas

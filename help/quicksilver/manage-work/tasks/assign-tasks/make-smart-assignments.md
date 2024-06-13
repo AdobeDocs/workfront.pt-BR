@@ -6,9 +6,9 @@ description: Você pode usar atribuições inteligentes para identificar quem é
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -75,22 +75,29 @@ As atribuições inteligentes estão disponíveis na maioria dos locais onde voc
 
 1. Coloque o cursor no campo de atribuição e aguarde dois segundos.
 
-   <span class="preview">A variável **Atribuições sugeridas** é exibida.</span> <!--check the casing for "assignments" should be lower case in task lists??-->
+   <div class="preview">
+   Uma ou várias das seguintes seções com sugestões de atribuição inteligente são exibidas:
 
-   >[!TIP]
-   >
-   >   O cabeçalho da lista é exibido **Aqui estão algumas recomendações** em vez de **Atribuições sugeridas** em uma lista de problemas.
+   * **Atribuições sugeridas**: exibido para tarefas.
 
-   ![](assets/smart-assignments-task-header-nwe-350x302.png)
+     >[!TIP]
+     >
+     >   O cabeçalho da lista é exibido **Aqui estão algumas recomendações** em vez de **Atribuições sugeridas** no ambiente de Produção.
+     >
+   * **Outras atribuições**: exibido para tarefas e problemas.
+   * **Usuários e equipes**: exibido para tarefas e problemas.
+   * **Funções de trabalho**: exibe tarefas e problemas.
+   </div>
 
-   Para problemas, as sugestões de atribuição inteligente são exibidas no **Atribuições sugeridas** área.
+   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+
 
    Para tarefas, as atribuições inteligentes são exibidas nas seguintes seções, dependendo de qual fase do cálculo do algoritmo identificou as atribuições:
 
    * **Atribuições sugeridas**: Atribuições identificadas na primeira fase do cálculo do algoritmo de atribuição inteligente de tarefa. <span class="preview">Esta seção não está disponível para problemas.</span>
-   * <span class="preview">**Outras atribuições** (ou **Usuários e equipes** ou **Funções de trabalho**): Atribuições identificadas na segunda fase do cálculo do algoritmo de atribuição inteligente de tarefa. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * <span class="preview">**Outras atribuições**, **Usuários e equipes** ou **Funções de trabalho**: Atribuições identificadas na segunda fase do cálculo do algoritmo de atribuição inteligente de tarefa. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
-   ![](assets/smart-assignments-task-list.png)
+   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
    Para obter mais informações, consulte [Visão geral das atribuições inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
