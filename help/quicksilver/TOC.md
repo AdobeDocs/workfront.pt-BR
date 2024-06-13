@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: ca7d1276c179ceb5517881d064e431658ea63793
+source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
 workflow-type: tm+mt
-source-wordcount: '14345'
+source-wordcount: '14351'
 ht-degree: 1%
 
 ---
@@ -2744,6 +2744,7 @@ ht-degree: 1%
       * [Configuração de opções para OPTASK copyIssue](wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
       * [Recuperar informações de moeda de um projeto quando a moeda for nula (não atribuída)](wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
       * [Não há suporte para o uso da API para adicionar uma pasta vinculada](wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
+      * [A ação moveToFolder do documento não funciona](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/error-using-movetofolder.md)
 * API ProofHQ {#proofhqpapi}
    * [API ProofHQ](proofhq-api/proofhq-api.md)
    * Geral {#general}
