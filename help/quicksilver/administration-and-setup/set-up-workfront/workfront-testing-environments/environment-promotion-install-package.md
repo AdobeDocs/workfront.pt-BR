@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 6f5da5ede6bb8c98b26d7d37366670c89ded6c49
+source-git-commit: b26f20b13a18c6e727fcf9e267ba9c53e5b566dc
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
@@ -94,9 +94,15 @@ Para obter mais informações sobre status, consulte [Status de promoção do am
 
 ## Colisões
 
-As colisões ocorrem quando um objeto que faz parte do pacote de instalação tem o mesmo nome de um objeto que já existe no ambiente de destino. Quando isso ocorrer, você poderá selecionar como resolver a colisão. As colisões são resolvidas no nível do objeto.
+Uma colisão é um objeto encontrado no ambiente de destino de uma instalação que corresponde a um dos objetos que estão sendo instalados do ambiente de origem. As colisões são detectadas comparando os nomes e as IDs dos objetos de origem com os objetos no ambiente de destino. As colisões também são detectadas comparando os objetos de origem com os registros de objetos instalados anteriormente.
+
+Quando ocorre uma colisão, você pode selecionar como resolver a colisão. As colisões são resolvidas no nível do objeto.
 
 Você pode exibir colisões clicando na lista suspensa ao lado de cada tipo de objeto. As colisões são exibidas na coluna Colisão.
+
+>[!NOTE]
+>
+>As colisões detectadas podem não ser os objetos que você deseja substituir ou usar na instalação. Recomendamos validar as colisões detectadas para garantir que os destinos de instalação estejam corretos.
 
 Para resolver uma colisão, selecione uma ação na coluna Ação de implantação ou use a ação padrão que já está sendo exibida.
 
