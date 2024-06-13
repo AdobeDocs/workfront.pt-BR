@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 6ddbe56dd187d62489c41ff721d0f071202e54e4
+source-git-commit: 6c43d836c24f893d1b7d7d01c1dd0b1cc3fba357
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 1%
@@ -16,8 +16,6 @@ ht-degree: 1%
 ---
 
 # Compartilhar um formulário personalizado
-
-{{highlighted-preview}}
 
 É possível configurar o acesso para um formulário personalizado para controlar quem — pessoa, função, grupo, equipe, empresa — pode visualizá-lo, compartilhá-lo e editá-lo.
 
@@ -109,8 +107,6 @@ Em vez de deixar um formulário personalizado no estado de compartilhamento padr
 
 1. Clique em **Salvar**.
 
-<div class="preview">
-
 ## Compartilhar um formulário personalizado do designer de formulário
 
 {{step-1-to-setup}}
@@ -160,8 +156,6 @@ Em vez de deixar um formulário personalizado no estado de compartilhamento padr
    >Se você estiver preocupado com um formulário personalizado em que os usuários podem inserir dados confidenciais quando anexado a determinados objetos, limitando o compartilhamento para esses *objetos* pode ser melhor do que limitar o acesso ao próprio formulário.
 
 1. Clique em **Salvar**.
-
-</div>
 
 ## Remover acesso a um formulário personalizado da lista de formulários
 
