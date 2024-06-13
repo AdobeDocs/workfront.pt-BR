@@ -3,7 +3,7 @@ title: '[!DNL Adobe Workfront] documentação'
 description: Documentação para [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 4608c16faa94293735360d426c6056e5f4efb2a3
+source-git-commit: 618267f23e5d080a5c0072370eb31188f86a1700
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 1%
@@ -47,12 +47,12 @@ Bem-vindo à página inicial da documentação técnica e do produto do Adobe Wo
 
 <table>
 
-<tr tr style="border: 0;">
+<tr>
     <td style="text-align: center;"><img src="assets/admin.svg" style="width: 80px; height: 80px;"><p><b>Administradores</b></p></td>
     <td colspan="2" style="text-align: center;"><img src="assets/user.svg" style="width: 75px; height: 75px;"><p><b>Usuários</b></p></td>
     <td style="text-align: center;"><img src="assets/developer.svg" style="width: 80px; height: 80px;"><p><b>Desenvolvedores</b></p></td>
   </tr>
-  <tr tr style="border: 0;">
+  <tr>
     <td>
     <ul>
     <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Introdução à administração do Workfront</a></li>
