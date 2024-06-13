@@ -7,9 +7,9 @@ description: O Workfront Fusion atualizou sua interface do usuário para usuári
 author: Becky
 feature: Workfront Fusion
 exl-id: 2887a0e2-039e-4e29-823d-82809f217045
-source-git-commit: 2a33e997113e098d0e019c2437795ac481748fc9
+source-git-commit: 5e1508e8e49a5ceb95b1524dbb23a258ab5c4e20
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,8 @@ O Workfront Fusion foi atualizado para usuários que não acessam o Fusion por m
 
 >[!IMPORTANT]
 >
->A experiência do Fusion herdada será descontinuada em 15 de agosto de 2024.
+>* A experiência do Fusion herdada será descontinuada em 15 de agosto de 2024.
+>* Ao carregar pela primeira vez, a nova experiência do Fusion pode carregar lentamente (30 a 60 segundos). Após a primeira vez, o Fusion será carregado mais rapidamente.
 
 ## Requisitos de acesso
 
