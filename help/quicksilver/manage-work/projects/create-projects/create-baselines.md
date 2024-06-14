@@ -6,9 +6,9 @@ description: Uma linha de base é um instantâneo de projeto que representa as i
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Uma linha de base é um instantâneo de projeto que representa as informações 
 Você pode usar a linha de base para comparar essas informações do plano atual com o plano original ou qualquer outro ponto no tempo, para identificar tarefas problemáticas, escopo, rastejamento e outras tendências ao longo do tempo.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <!--
 drafted for P&P:
@@ -83,6 +85,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerações para trabalhar com linhas de base
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1472'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 Uma empresa é uma unidade organizacional no [!DNL Adobe Workfront] que podem representar sua organização, um departamento dentro da organização ou um cliente com o qual você trabalha. É possível adicionar empresas a [!DNL Workfront] e usá-los para fins de planejamento financeiro, relatórios, para definir permissões sobre objetos e para manter as informações confidenciais.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para gerenciar empresas no [!DNL Workfront]:
 
@@ -62,6 +64,8 @@ Você deve ter o seguinte para gerenciar empresas no [!DNL Workfront]:
 </table>
 
 &#42;Para descobrir que plano, tipo de licença ou configurações de nível de acesso você tem, entre em contato com o [!DNL Workfront] administrador. Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Benefícios de adicionar usuários a uma empresa {#benefits-of-adding-users-to-a-company}
 

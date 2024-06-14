@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Os gerentes de Portfolio geralmente definem as perguntas e respostas do cartão 
 As perguntas e respostas escolhidas para um cartão de pontuação devem ser quantificáveis para fornecer um valor de alinhamento para comparar projetos diferentes.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para executar as etapas deste artigo:
 
@@ -51,6 +53,8 @@ Você deve ter o seguinte para executar as etapas deste artigo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Criar um cartão de pontuação
 

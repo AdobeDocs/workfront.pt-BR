@@ -6,9 +6,9 @@ description: Predecessoras são tarefas das quais outras tarefas dependem para s
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Você pode impor a relação da predecessora ao definir predecessores em um proj
 Se uma predecessora for imposta, a tarefa sucessora não poderá ser iniciada antes que a predecessora seja concluída. Por exemplo, impor uma relação Término-Início entre a Tarefa A e a Tarefa B significa que a Tarefa B não pode iniciar (o Status deve permanecer Novo e a Porcentagem Concluída deve permanecer 0%) até que a Tarefa A seja marcada como concluída. A imposição de relacionamentos se aplica a todos os tipos de predecessores.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -67,6 +69,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Forçar um predecessor no nível da tarefa
 

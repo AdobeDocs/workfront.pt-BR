@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '2021'
+source-wordcount: '2032'
 ht-degree: 1%
 
 ---
@@ -51,6 +51,8 @@ Além deste artigo, recomendamos que você leia os seguintes artigos para obter 
 * [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <!--drafted for P&P - replace table below with this:
 
@@ -112,6 +114,8 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
 </table>
 
 *Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
+
++++
 
 ## Considerações para várias atribuições para funções de trabalho, equipes e usuários
 

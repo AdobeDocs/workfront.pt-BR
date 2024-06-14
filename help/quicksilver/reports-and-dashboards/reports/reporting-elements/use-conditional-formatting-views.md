@@ -6,10 +6,10 @@ description: Ao compartilhar seus relatórios com outros usuários no Adobe Work
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 2%
+source-wordcount: '1220'
+ht-degree: 3%
 
 ---
 
@@ -36,6 +36,8 @@ Com uma view formatada condicionalmente, você pode:
 As alterações feitas na visualização do relatório só têm efeito na guia Details do relatório. Essas alterações não afetam as guias Resumo, Matriz ou Gráfico do relatório.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -70,6 +72,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+
++++
 
 ## Pré-requisitos
 
@@ -114,7 +118,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
     </tbody> 
    </table>
 
-1. Clique em **Adicionar uma Regra para esta Coluna**.
+1. Clique em **Adicionar uma regra para esta coluna**.
 
    <!--
    <note type="note">

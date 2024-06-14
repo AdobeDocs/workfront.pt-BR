@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '747'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,8 @@ Este artigo descreve como criar tarefas do zero. Você também pode criar tarefa
 * Movendo tarefas de um projeto para outro. Para obter informações, consulte [Mover tarefas](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,6 +59,8 @@ Este artigo descreve como criar tarefas do zero. Você também pode criar tarefa
 </table>
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Criar tarefas em um projeto
 

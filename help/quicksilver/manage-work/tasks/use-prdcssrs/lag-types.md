@@ -7,9 +7,9 @@ description: Atraso é o tempo que deve decorrer após a conclusão de um predec
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Atraso é a quantidade de tempo que deve transcorrer após a Conclusão Planejad
 As datas Planejada, Projetada e Estimada das tarefas sucessoras são calculadas levando em conta o atraso e as datas Planejada, Projetada e Início Estimado (Conclusão) das tarefas predecessoras.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <!--drafted - replace table at P&P:
 
@@ -82,6 +84,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Indicar Tipos de Defasagem e Defasagem em tarefas
 

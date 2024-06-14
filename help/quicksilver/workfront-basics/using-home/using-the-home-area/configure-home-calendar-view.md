@@ -6,10 +6,10 @@ description: Você pode definir as configurações do Calendário da página ini
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 2acd930b-5923-452e-9d8d-a6121d8d37ac
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 0%
+source-wordcount: '854'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Você pode configurar o [!UICONTROL Calendário da página inicial] configurações para fazer o seguinte:
 
-* Integrar a uma versão baseada na Web do [!DNL Outlook] em nuvem [!DNL Office 365] ou [!DNL Outlook Live]. Você pode exibir todos os eventos do seu calendário do Outlook e qualquer calendário associado que você selecionar no seu [!UICONTROL Calendário da página inicial] no Adobe Workfront.
+* Integre com uma versão do [!DNL Outlook] baseada na web no [!DNL Office 365] hospedado na nuvem ou [!DNL Outlook Live]. Você pode exibir todos os eventos do seu calendário do Outlook e qualquer calendário associado que você selecionar no seu [!UICONTROL Calendário da página inicial] no Adobe Workfront.
 * Ajudar a controlar a carga de trabalho em relação às horas de trabalho disponíveis na [!UICONTROL Alocação] barra.
 
 Para saber mais sobre o Calendário da página inicial, consulte [[!UICONTROL Calendário da página inicial] exibir](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
@@ -27,6 +27,8 @@ Para saber mais sobre o Calendário da página inicial, consulte [[!UICONTROL Ca
 Este artigo descreve como você pode definir as configurações do Calendário da página inicial e integrar o Calendário da página inicial ao seu calendário externo do Outlook.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -51,6 +53,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 *Para descobrir que tipo de plano ou licença você tem, entre em contato com o [!DNL Workfront] administrador. Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Sobre a integração [!DNL Microsoft Outlook] calendários
 

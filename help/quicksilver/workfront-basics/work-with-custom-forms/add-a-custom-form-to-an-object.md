@@ -7,10 +7,10 @@ description: Você pode adicionar um formulário personalizado existente a qualq
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 1%
+source-wordcount: '822'
+ht-degree: 2%
 
 ---
 
@@ -32,11 +32,13 @@ Você pode adicionar um formulário personalizado existente a qualquer um dos ob
 * Usuários
 * Iterações
 * Despesas
-* Registros de cobrança
+* Registros de faturamento
 
 Você pode adicionar um formulário personalizado somente aos tipos de objetos para os quais o formulário foi criado.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as ações descritas neste artigo:
 
@@ -68,6 +70,8 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
 </table>
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos
 

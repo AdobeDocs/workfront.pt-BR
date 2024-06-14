@@ -6,9 +6,9 @@ description: Você pode exibir a utilização de seus recursos no relatório de 
 author: Alina, Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '7243'
+source-wordcount: '7254'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ Você pode exibir a utilização de seus recursos no relatório de Utilização.
 -->
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para acessar o relatório de Utilização:
 
@@ -76,6 +78,8 @@ Você deve ter o seguinte para acessar o relatório de Utilização:
 </table>
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must have View access to the projects you want to view utilization information for as described in this section. If you are still unable to access this information, contact your Workfront administrator. (NOTE:&nbsp;replaced with above table)</p>
@@ -264,7 +268,7 @@ As seguintes informações estão disponíveis no relatório de Utilização ao 
    <td scope="col"> <p>O Custo orçado nos projetos incluídos. Você pode exibir o Custo Orçado total para a vida geral dos projetos incluídos, ou pode exibir o Custo Orçado total somente para o intervalo de datas especificado (você pode especificar uma semana ou mês individual).</p> <p>Como o Custo Orçado no Relatório de Utilização está focado no custo por função, o cálculo é o mesmo que o Custo de Mão-de-Obra Orçado em outras áreas do Workfront. Para obter informações sobre como o Custo de Mão de Obra Orçado é calculado, consulte <a href="../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Entender o custo do trabalho orçado e as horas orçadas dos projetos</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td scope="col"><strong>Custo Planejado</strong> </td> 
+   <td scope="col"><strong>Custo planejado</strong> </td> 
    <td scope="col"> <p>O custo total planejado nos projetos incluídos. Você pode exibir o custo total planejado para a vida geral dos projetos incluídos, ou pode exibir o custo total planejado somente para o intervalo de datas especificado (você pode especificar uma semana ou mês individual).</p> <p>Observe que para as exibições semana, mês e trimestral, os custos planejados são calculados como uma média do período escolhido quando as taxas de custo para funções de cargo ou usuários são efetivas por data.</p><p>Para obter informações sobre como o Custo Planejado do projeto é calculado, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">Como o Workfront calcula os custos planejados, orçados e reais</a> in <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">Rastrear custos</a>.</p> </td>
   </tr> 
   <tr> 
@@ -394,7 +398,7 @@ As seguintes informações estão disponíveis no relatório de Utilização ao 
  </thead> 
  <tbody> 
   <tr> 
-   <td scope="col"><strong>Custo Planejado</strong> </td> 
+   <td scope="col"><strong>Custo planejado</strong> </td> 
    <td scope="col"> O custo total planejado nos projetos incluídos. Você pode exibir o custo total planejado para a vida geral dos projetos incluídos, ou pode exibir o custo total planejado somente para o intervalo de datas especificado (você pode especificar uma semana ou mês individual). </td> 
   </tr> 
   <tr> 

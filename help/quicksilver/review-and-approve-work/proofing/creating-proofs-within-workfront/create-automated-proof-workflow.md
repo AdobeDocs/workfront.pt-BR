@@ -6,9 +6,9 @@ description: Um fluxo de trabalho automatizado facilita o gerenciamento do proce
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: ccfea4cdf7280f992068bc64bab27e63aaab8b74
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1831'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Um fluxo de trabalho automatizado facilita o gerenciamento do processo de revisão se o processo for complexo ou se você enviar conteúdo para revisão para as mesmas pessoas regularmente. A prova vai de estágio em estágio e o Adobe Workfront notifica cada usuário quando chegar a sua vez de revisá-la. Para obter mais informações sobre workflows automatizados, consulte [Visão geral do fluxo de trabalho automatizado](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -47,6 +49,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Criar uma prova avançada com um fluxo de trabalho automatizado
 
@@ -181,7 +185,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <td role="rowheader">Exigir logon - a prova só pode ser compartilhada com outros usuários</td> 
       <td>Quando essa opção está desativada (padrão), qualquer pessoa com o URL pode exibir a prova. <br>Quando esta opção é selecionada:
        <ul>
-        <li>Somente usuários do Workfront Proof podem visualizar a prova.</li>
+        <li>Somente usuários do Workfront Proof podem exibir a prova.</li>
         <li>Os usuários não podem fazer logon na prova a menos que tenham sido adicionados à prova.</li>
         <li>Não é possível habilitar assinaturas.</li>
        </ul></td> 

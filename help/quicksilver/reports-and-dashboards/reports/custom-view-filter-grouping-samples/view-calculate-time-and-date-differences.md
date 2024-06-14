@@ -7,9 +7,9 @@ description: Saiba como calcular diferenças de data e hora.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 4c12a692971f437a3b248e4a601d4145ce626553
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ Você pode calcular a diferença entre o seguinte:
 >Esses cálculos exibem o número de dias entre as duas datas. O resultado é exibido em dias. O carimbo de data e hora no campo de data também é levado em conta, e o número de dias pode ser seguido por decimais se os carimbos de data e hora não corresponderem. Se a tarefa foi concluída com atraso, o número de dias é exibido como um valor negativo.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -61,6 +63,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Calcular a diferença de data e hora entre dois campos de data no mesmo objeto
 

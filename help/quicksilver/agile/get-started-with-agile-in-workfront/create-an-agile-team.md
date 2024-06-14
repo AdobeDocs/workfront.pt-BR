@@ -6,10 +6,10 @@ description: O Adobe Workfront permite que equipes ágeis concluam o trabalho de
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 0%
+source-wordcount: '1012'
+ht-degree: 1%
 
 ---
 
@@ -28,6 +28,8 @@ Qualquer usuário na organização pode ver a equipe ágil e visualizar todos os
 * **[!UICONTROL Kanban]:** As equipes movem o trabalho na exibição Kanban entre status predeterminados. Os status padrão são: backlog, em andamento e concluído. Para obter informações mais detalhadas sobre o gerenciamento de uma equipe Kanban, consulte [Kanban em uma equipe ágil](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -51,7 +53,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para saber que tipo de plano ou licença você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que tipo de plano ou licença você tem, entre em contato com o [!DNL Workfront] administrador.
+
++++
 
 ## Decidir sobre uma metodologia ágil
 

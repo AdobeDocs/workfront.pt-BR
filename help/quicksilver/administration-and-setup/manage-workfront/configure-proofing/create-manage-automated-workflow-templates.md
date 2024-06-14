@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: ccfea4cdf7280f992068bc64bab27e63aaab8b74
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2056'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,9 @@ Para obter informações sobre Workflows automatizados, consulte [Visão geral d
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,6 +60,8 @@ Você deve ter o seguinte:
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Criar um modelo de fluxo de trabalho automatizado
 
 {{step1-to-proofing}}
@@ -77,7 +81,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      </tr> 
      <tr> 
       <td role="rowheader">Proprietário do modelo</td> 
-      <td>É possível selecionar o administrador do Workfront ou o administrador do Workfront Proof que gerenciará o modelo.</td> 
+      <td>Você pode selecionar o administrador do Workfront ou o administrador do Workfront Proof que gerenciará o modelo.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Grupo de modelos</td> 
@@ -170,7 +174,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Modificar um modelo de fluxo de trabalho automatizado
 
-Como administrador do Workfront Proof, você pode modificar um modelo de fluxo de trabalho automatizado. Suas alterações são salvas automaticamente à medida que são feitas.
+Como administrador do Workfront Proof, você pode modificar um modelo de Fluxo de trabalho automatizado. Suas alterações são salvas automaticamente à medida que são feitas.
 
 {{step1-to-proofing}}
 
@@ -188,7 +192,7 @@ Como administrador do Workfront Proof, você pode modificar um modelo de fluxo d
      </tr> 
      <tr> 
       <td role="rowheader">Proprietário do modelo</td> 
-      <td>É possível selecionar o administrador do Workfront ou o administrador do Workfront Proof que gerenciará o modelo.</td> 
+      <td>Você pode selecionar o administrador do Workfront ou o administrador do Workfront Proof que gerenciará o modelo.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Grupo de modelos</td> 
@@ -272,7 +276,7 @@ Você pode mover os modelos entre grupos arrastando e soltando.
 
 {{step1-to-proofing}}
 
-1. No painel esquerdo, em Workfront Proof, clique em **Fluxos de trabalho**.
+1. No painel esquerdo no Workfront Proof, clique em **Fluxos de trabalho**.
 1. No **Fluxos de trabalho** que for exibida, siga um destes procedimentos:
 
    * Adicionar um novo modelo

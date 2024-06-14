@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: f84611ef1c6ba1e5b2ec55375c4eb222bcf1cf5e
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1463'
 ht-degree: 6%
 
 ---
@@ -31,6 +31,8 @@ Como administrador do Adobe Workfront, você pode criar níveis de acesso person
 >É altamente recomendável que você deixe os níveis de acesso incorporados inalterados para que possa consultá-los após configurar os usuários. Para personalizar um nível de acesso, copie o nível de acesso padrão e modifique a cópia. Você pode fazer isso para todos os níveis de acesso, exceto para Administrador do sistema e Usuário externo.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -56,6 +58,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Criar ou editar um nível de acesso personalizado
 
@@ -104,7 +108,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <td>Adicione novas empresas e edite as existentes no Workfront.<br><p>Sem esse acesso, os usuários só poderão visualizar empresas existentes.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Formulários personalizados no meu grupo</td> 
+      <td role="rowheader">Formulários personalizados</td> 
       <td>Crie e gerencie todos os formulários personalizados dentro do grupo. <br><p>Sem esse acesso, os usuários só podem anexar formulários existentes aos objetos aos quais têm acesso para contribuir ou gerenciar.</p></td> 
      </tr> 
      <tr> 

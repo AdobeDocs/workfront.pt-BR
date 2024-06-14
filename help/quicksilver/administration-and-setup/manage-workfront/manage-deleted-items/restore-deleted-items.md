@@ -8,9 +8,9 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1082'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,8 @@ Um administrador de grupo também pode restaurar esses objetos para um grupo que
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -59,6 +61,8 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 &#42;Para descobrir o tipo de plano ou licença que você tem, entre em contato com o administrador do Workfront.
 
++++
+
 ## Informações recuperadas quando você restaura um projeto, tarefa ou problema
 
 Quando você restaura um projeto, tarefa ou problema, as seguintes informações associadas são recuperadas junto com ele:
@@ -77,7 +81,7 @@ Quando você restaura um projeto, tarefa ou problema, as seguintes informações
 * Status
 * Informações Financeiras:
 
-   * Registros de cobrança
+   * Registros de faturamento
    * Preços
    * Despesas
 

@@ -6,9 +6,9 @@ description: Com um fluxo de trabalho básico, é possível incluir vários revi
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1842'
+source-wordcount: '1853'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 Com um fluxo de trabalho básico, é possível incluir vários revisores em uma prova, mas eles não são organizados em estágios. Todos os revisores adicionados podem acessar a prova imediatamente após criá-la.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -52,6 +54,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para descobrir qual plano, função ou perfil de permissão de prova você tem, entre em contato com o administrador do Workfront ou do Workfront Proof.
+
++++
 
 ## Criar uma prova avançada com um fluxo de trabalho básico
 
@@ -298,7 +302,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
       <td role="rowheader">Exigir logon - a prova só pode ser compartilhada com outros usuários</td> 
       <td>Quando essa opção está desativada (padrão), qualquer pessoa com o URL pode exibir a prova. <br>Quando esta opção é selecionada:
        <ul>
-        <li>Somente usuários do Workfront Proof podem visualizar a prova.</li>
+        <li>Somente usuários do Workfront Proof podem exibir a prova.</li>
         <li>Os usuários não podem fazer logon na prova a menos que tenham sido adicionados à prova.</li>
         <li>Não é possível habilitar assinaturas.</li>
        </ul></td> 

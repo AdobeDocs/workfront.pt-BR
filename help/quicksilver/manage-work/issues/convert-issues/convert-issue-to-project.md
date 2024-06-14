@@ -6,10 +6,10 @@ description: Converter um problema em um projeto no Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: b091b62d3afe822c92f96641332077b5a211ee58
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1969'
-ht-degree: 0%
+source-wordcount: '1980'
+ht-degree: 1%
 
 ---
 
@@ -28,6 +28,8 @@ Você pode converter um problema em um novo projeto ou convertê-lo em um projet
 Ao criar um projeto a partir de um problema, alguns dos campos no projeto são preenchidos a partir de outros objetos. Para obter mais informações, consulte a seção &quot;Configurações padrão do novo projeto&quot; no artigo [Criar um projeto](../../../manage-work/projects/create-projects/create-project.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -57,6 +59,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Converter um problema em um projeto
 
@@ -90,7 +94,7 @@ Você pode converter um problema em um projeto em branco.
 
 1. (Opcional e condicional) Clique em [!UICONTROL **Opções**] no painel esquerdo, selecione uma das opções disponíveis:
 
-   * [!UICONTROL **Conservar o problema original e vincular a sua resolução a este projeto**]
+   * [!UICONTROL **Manter o problema original e vincular a sua resolução a este projeto**]
 
      Quando desmarcado, o problema original é excluído.
 
@@ -198,7 +202,7 @@ Você pode converter um problema em um projeto usando um modelo.
 
 1. (Opcional e condicional) Clique em [!UICONTROL **Opções**] no painel esquerdo, selecione uma das opções disponíveis:
 
-   * [!UICONTROL **Conservar o problema original e vincular a sua resolução a este projeto**]
+   * [!UICONTROL **Manter o problema original e vincular a sua resolução a este projeto**]
 
      Quando desmarcado, o problema original é excluído.
 

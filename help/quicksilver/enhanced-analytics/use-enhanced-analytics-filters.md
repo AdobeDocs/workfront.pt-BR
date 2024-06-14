@@ -6,9 +6,9 @@ description: Os filtros na área Análise aprimorada do Adobe Workfront ajudam v
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1486'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Os filtros na área Análise aprimorada do Adobe Workfront ajudam você a se con
 Você pode adicionar e remover filtros conforme necessário, e o Workfront retém os filtros que você aplica mesmo se você fizer logout.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -60,6 +62,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos
 
@@ -117,7 +121,7 @@ Os seguintes tipos de filtro de campo de projeto estão disponíveis:
 | **Condição** | Exibe dados somente para projetos que tiveram as condições selecionadas mais recentemente (no destino, em risco ou com problemas) |
 | **Status** | Exibe dados somente para projetos que tiveram os status selecionados mais recentemente (concluído, atual, em espera, cancelado, etc.) |
 | **Patrocinador** | Exibe dados somente para projetos com o(s) patrocinador(es) selecionado(s) |
-| **Proprietário do Projeto** | Exibe dados somente para projetos com o(s) proprietário(s) do projeto selecionado(s) |
+| **Proprietário do projeto** | Exibe dados somente para projetos com o(s) proprietário(s) do projeto selecionado(s) |
 
 Os filtros de formulário personalizados funcionam de forma diferente. Para obter mais informações, consulte [Adicionar um filtro de formulário personalizado de projeto](#add-a-project-custom-form-filter).
 

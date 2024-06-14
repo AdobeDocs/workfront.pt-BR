@@ -6,9 +6,9 @@ description: Você pode instalar [!DNL Adobe Workfront for design and video] do 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '536'
 ht-degree: 1%
 
 ---
@@ -39,6 +39,8 @@ Você pode instalar [!DNL Adobe Workfront for design and video] do [!DNL Adobe M
 
 ## Requisitos de acesso
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
@@ -60,7 +62,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+
++++
 
 ## Pré-requisitos
 
@@ -86,7 +90,7 @@ Você pode instalar [!DNL Adobe Workfront for design and video] para si mesmo, d
 
 1. Prossiga para a seção a seguir para obter informações sobre como abrir o [!DNL Workfront for design and video].
 
-## Aberto [!DNL Adobe Workfront for design and video]
+## Abertura [!DNL Adobe Workfront for design and video]
 
 1. Abra o plug-in Creative Cloud que deseja usar.
 

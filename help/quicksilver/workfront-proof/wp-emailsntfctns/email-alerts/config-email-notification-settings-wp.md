@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: email-alerts-workfront-proof
 title: Definir configurações de notificação por email no [!DNL Workfront Proof]
-description: As notificações por email geradas pelo Workfront Proof informam os colaboradores sobre a atividade recente de provas, como comentários, respostas ou decisões.
+description: As notificações por email geradas pelo Workfront Proof informam os colaboradores sobre atividades recentes em provas, como comentários, respostas ou decisões.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: e80a3ede9ccf6ccf9ea7777aab35cc859f13a6ac
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '2058'
+source-wordcount: '2049'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,6 @@ ht-degree: 0%
 As notificações por email informam os colaboradores sobre atividades recentes em provas, como comentários, respostas ou decisões.
 
 É possível definir notificações por email para revisores nas seguintes áreas:
-
-## Requisitos de acesso
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
-<table style="table-layout:auto"> 
-<tr> 
-   <td role="rowheader">Produto</td> 
-   <td>Workfront Proof Standalone</td> 
-  </tr> 
-</table>
 
 As notificações por email para revisores podem ser definidas na página Nova prova, [!UICONTROL Nova versão] e gerenciado na [!UICONTROL Fluxo de trabalho] seção do [!UICONTROL Detalhes da prova] página. Para obter mais informações, consulte [Gerar provas em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
@@ -63,9 +52,20 @@ Usuários com [!UICONTROL Administrador] ou [!UICONTROL Administrador de Cobran�
 
 Para obter informações sobre perfis, consulte [Perfis de permissões de prova em [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-* [Configurar padrões de prova em configurações pessoais ([!DNL Workfront Proof] somente usuários)](#configure-proof-defaults-in-personal-settings-workfront-proof-users-only)
-* [Alterar alertas de email de um destinatário](#change-email-alerts-for-a-recipient)
-* [Configurar padrões de prova para um usuário](#configure-proof-defaults-for-a-user)
+## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
+
+<table style="table-layout:auto"> 
+<tr> 
+   <td role="rowheader">Produto</td> 
+   <td>Workfront Proof standalone</td> 
+  </tr> 
+</table>
+
++++
 
 ## Configurar padrões de prova em configurações pessoais ([!DNL Workfront Proof] somente usuários)
 

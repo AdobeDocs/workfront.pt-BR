@@ -6,9 +6,9 @@ description: Usar formatação condicional no Modo de texto
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1699'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,8 @@ Você pode aplicar formatação condicional em uma view usando a interface padr�
 Para obter mais informações sobre como aplicar formatação condicional a uma view, consulte [Usar formatação condicional em exibições](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -57,6 +59,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 ## Formatação condicional no modo de texto
@@ -96,7 +100,7 @@ Você pode adicionar os seguintes componentes a uma coluna em uma exibição par
 * [Regras de coluna](#column-rules)
 * [Formatar condicionalmente uma expressão de valor](#conditionally-format-a-valueexpression)
 
-### Configurações de coluna {#column-settings}
+### Configurações da coluna {#column-settings}
 
 Familiarize-se com a interface do modo de texto antes de adicionar formatação condicional às visualizações.
 
