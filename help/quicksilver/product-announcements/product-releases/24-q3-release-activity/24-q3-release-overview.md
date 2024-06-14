@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 742de02474455f3518fb9d3422fe38dde59a076e
+source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1440'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página fornece informações sobre a funcionalidade incluída na versão do terceiro trimestre de 2024. Essas melhorias estão planejadas para serem disponibilizadas no ambiente de produção durante todo o trimestre.
 
-<!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
+O webinário da versão 24.7 será realizado em 27 de junho de 2024. Você pode [inscreva-se aqui para o webinário](https://webinars.on24.com/adobe_workfront/whatsnewin247?partnerref=releaseoverview).
 
 <span class="preview">Os recursos fora do ciclo (aqueles que foram lançados para produção antes da data de lançamento do terceiro trimestre de 2024) estão destacados em amarelo.</span>
 
@@ -59,6 +59,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Mover objetos entre ambientes do Workfront com promoção de ambiente</a></p>
+                        [!BADGE Na produção ]{type=Informative}
                         <p>A promoção de ambientes permite mover objetos de um ambiente do Workfront para outro, como de um ambiente de sandbox para um ambiente de produção. Você pode configurar e testar objetos sem qualquer risco para os dados e registros de sua organização. Você pode então mover esses objetos para produção sem precisar reconfigurá-los, economizando tempo e esforço.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -72,7 +73,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Compartilhar formulários personalizados e campos personalizados no designer de formulários personalizado</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
+                        [!BADGE Na produção ]{type=Informative}
                         <p>Agora é possível compartilhar formulários personalizados e campos personalizados com o novo designer de formulário. Isso permite maior colaboração entre usuários em formulários personalizados.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -81,7 +82,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                                 <p>Versão de pré-visualização: 6 de junho de 2024</p>
                             </li>
                             <li>
-                                <p>Versão de produção para todos os clientes: a ser definida</p>
+                                <p><span class="preview">Versão de produção para todos os clientes: 13 de junho</span></p>
                             </li>
                         </ul>
                     </td>
@@ -89,7 +90,6 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Adicionar um novo campo personalizado da área Campos</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
                         <p>Agora é possível adicionar um novo campo ou widget personalizado diretamente na área Campos do Workfront, sem precisar abrir um formulário personalizado para criar o campo. Isso permite criar rapidamente campos personalizados reutilizáveis.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -142,7 +142,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Campos de despesas faturáveis e não faturáveis disponíveis para projetos e tarefas</a></p>
-                        <p>[!BADGE Na produção ]{type=Informative}</p>
+                        [!BADGE Na produção ]{type=Informative}
                         <p>Para facilitar a visualização dos tipos de despesas, as despesas foram separadas em despesas faturáveis e não faturáveis em projetos e tarefas. Os seguintes campos estão disponíveis para adição em exibições e relatórios:</p>
                         <ul>
                             <li><p>Custo da despesa planejada e faturável</p></li>
@@ -184,7 +184,8 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Edite a Data de confirmação e a Condição da tarefa e do problema na seção de cabeçalho ou Detalhes</a></p>
-                        <p>Para facilitar a atualização de tarefas e problemas, adicionamos os campos Data de confirmação e Condição como opções para adicionar à seção Cabeçalhos de tarefas e problemas e Detalhes em um modelo de layout. Os usuários agora podem atualizar esses campos a partir da seção de cabeçalho ou Detalhes de uma página, quando são atribuídos ao modelo de layout modificado.   </p>
+                        [!BADGE Na produção para a versão rápida ]{type=Positive}
+                        <p>Para facilitar a atualização de tarefas e problemas, adicionamos os campos Data de confirmação e Condição como opções para adicionar à seção Cabeçalhos de tarefas e problemas e Detalhes em um modelo de layout. Os usuários agora podem atualizar esses campos a partir da seção de cabeçalho ou Detalhes de uma página, quando são atribuídos ao modelo de layout modificado.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -262,7 +263,6 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">A folga agora é refletida no Balanceador de carga de trabalho</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
                         <p>Para ajustar facilmente o trabalho quando o destinatário principal em uma tarefa tiver um tempo de folga agendado, o Balanceador de carga de trabalho agora realoca horas para os usuários principal e secundário quando a linha do tempo do projeto é recalculada.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -298,7 +298,6 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">A experiência unificada do Adobe agora está disponível para mais organizações da Workfront</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
                         <p>Para permitir que as organizações acessem os benefícios da Experiência unificada do Adobe, começamos a disponibilizá-la para os clientes existentes do Workfront. </p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -316,7 +315,6 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Botão Ajuda removido da barra de navegação principal</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
                         <p>Para unificar a experiência para usuários que não estão no Unified Shell, o botão Ajuda na barra de navegação principal foi removido. Esse botão, que não está presente para usuários no Unified Shell, vinculava-se à documentação do Workfront e era redundante com um botão de Ajuda semelhante disponível para todos os usuários no Menu principal.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -333,7 +331,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Experiência de interface do usuário aprimorada para usuários com acesso limitado a objetos</a></p>
-                        <p>[!BADGE Na produção para a versão rápida ]{type=Positive}</p>
+                        [!BADGE Na produção para a versão rápida ]{type=Positive}
                         <p>Quando um usuário não tem acesso a um objeto, ele verá "Sem acesso" em qualquer lugar que o nome do objeto seja exibido no Workfront. Essa experiência aprimorada também se aplica à API do Workfront.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
