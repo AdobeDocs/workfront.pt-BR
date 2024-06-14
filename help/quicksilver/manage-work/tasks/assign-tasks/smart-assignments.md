@@ -7,14 +7,16 @@ description: Ao gerenciar atribuições de tarefas e problemas, você pode usar 
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
 
 # Visão geral das atribuições inteligentes
+
+<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
 <span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente Produção para clientes que ativaram versões rápidas.</span>
 
@@ -122,7 +124,7 @@ O cálculo da pontuação de similaridade e a ordem na qual as atribuições sã
 
   Por exemplo, se Rick foi designado a uma tarefa semelhante hoje e Jennifer foi designada a uma tarefa semelhante dois dias atrás, Rick aparece primeiro.
 
-* As atribuições identificadas nesta fase estão listadas no    **Atribuições sugeridas**  seção do campo Assignments das tarefas.
+* As atribuições identificadas nesta fase estão listadas no    **Atribuições sugeridas**  seção do campo Assignments para tarefas.
 
 * Se não houver correspondências usando esse cálculo, a segunda fase das atribuições inteligentes começa, que é calculada usando um algoritmo diferente.
 
@@ -132,7 +134,7 @@ Se a primeira etapa das atribuições inteligentes de tarefas não encontrar cor
 
 Para obter mais informações, consulte a seção [Critérios de atribuições inteligentes para tarefas e problemas](#smart-assignments-criteria-for-tasks-and-issues) neste artigo.
 
-As atribuições identificadas nesta fase estão listadas no   **Outras atribuições**, **Usuários e equipes** ou **Atribuições de funções de trabalho**  do campo Assignments para tarefas.
+As atribuições identificadas nesta fase estão listadas no **Usuários e equipes**, **Atribuições de funções de trabalho**, e **Avaliar funções de cartão**  seções do campo Assignments. Para obter mais informações sobre cartões de taxa, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### Critérios de atribuições inteligentes para tarefas e problemas
 
