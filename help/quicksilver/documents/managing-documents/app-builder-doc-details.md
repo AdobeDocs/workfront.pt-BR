@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 21ef9365561fca2301223ae79f6371f3c94c7313
+source-git-commit: 04259d63523050d5bd43e5e776c21237e5a5cfe4
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1325'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Se o AppBuilder estiver configurado corretamente, você deverá ver &quot;Criar 
    >Há uma opção para adicionar espaços de trabalho adicionais nesta etapa. Foi sugerido que criássemos um espaço de trabalho para cada desenvolvedor. Isso mantém os segredos e as implantações separadas umas das outras à medida que os devs funcionam. Você deve nomear o espaço de trabalho com o nome do desenvolvedor que o utiliza. A interface AIO tem opções para alternar o espaço de trabalho, que abordaremos mais tarde.
 
 
-1. Sair **Incluir tempo de execução** selecionado. Eu não sei porque, realmente, mas não mude!
+1. Sair **Incluir tempo de execução** selecionado.
 
 1. Clique em **Salvar**.
 
