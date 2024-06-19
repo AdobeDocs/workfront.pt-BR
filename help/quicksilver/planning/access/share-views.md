@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -130,6 +130,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Clique em **Copiar link** para copiar um link para a exibição para a área de transferência.
 1. Compartilhar o link copiado com outras pessoas. Os usuários que recebem o link devem ser usuários ativos e fazer logon no Workfront para acessar a página de tipo de registro e exibi-la na exibição selecionada.
 1. Clique em **Salvar**.
+
+   >[!TIP]
+   >
+   >   As exibições compartilhadas com você têm um indicador de pessoas ![](assets/view-shared-with-others-people-icon.png) ao lado do ícone exibir. As exibições sem o indicador de pessoas são exibições que você criou.
+
+
 
 <!--
 ## Share permissions to a view publicly

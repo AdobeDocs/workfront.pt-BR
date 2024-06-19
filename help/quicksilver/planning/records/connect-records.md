@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2415'
+source-wordcount: '2573'
 ht-degree: 1%
 
 ---
@@ -106,7 +106,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 <tr>
    <td role="rowheader"><p>Permissões</p></td>
    <td> <p>Gerenciar permissões em um espaço de trabalho para conectar registros </p>  
-   <p>Permissões de exibição ou mais altas em um espaço de trabalho para exibir todas as conexões com objetos e campos de outros aplicativos, independentemente do acesso em outro aplicativo. </p>
+   <p>Permissões de exibição ou mais altas em um espaço de trabalho para exibir todas as conexões com objetos e campos de outros aplicativos, independentemente do acesso no outro aplicativo. </p>
+   <p>Visualize ou aumente as permissões para os objetos que deseja vincular a partir do Workfront ou do Experience Manager Assets. </p>
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram.</p>
 </td>
   </tr>
@@ -129,28 +130,41 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 * Depois de conectar os tipos de registro, os tipos de registro conectados são exibidos como campos de registro vinculados na tabela dos tipos de registro a partir dos quais estão vinculados e nas páginas dos registros.
 * Você pode procurar e adicionar registros e objetos do registro vinculado e tipos de objeto a partir dos campos de registro vinculados.
-* É possível adicionar campos dos tipos de registro vinculados à tabela do tipo de registro a partir do qual você está vinculando.
-* Não é possível atualizar manualmente os valores de campos vinculados nos registros a partir dos quais você está vinculando.
+* É possível adicionar campos (campos de pesquisa) dos tipos de registro vinculados na tabela do tipo de registro a partir do qual você está vinculando.
 
-  Os valores dos campos vinculados dos registros vinculados preenchem automaticamente o registro do Workfront Planning a partir do qual você está vinculando a partir do registro ou objeto original.
+  É possível adicionar campos (campos de pesquisa) dos tipos de registro que você está vinculando na tabela do tipo de registro ao qual você está vinculando.
+
+  Por exemplo, se você vincular o tipo de registro de Produto do tipo de registro de Campanha, será possível exibir campos de Produto para campanhas, bem como campos de Campanha para produtos.
+* Não é possível atualizar manualmente os valores dos campos de pesquisa nos registros a partir dos quais você está vinculando.
+
+  Os valores dos campos de pesquisa dos registros vinculados preenchem automaticamente o registro do Workfront Planning a partir do qual você está vinculando a partir do registro ou objeto original.
 
 * Todos os usuários com acesso ao Workfront Planning and View ou com permissões mais altas para o espaço de trabalho podem ver as conexões que você faz entre registros ou entre registros e objetos de outros aplicativos. Eles podem exibir registros e objetos conectados independentemente de suas permissões nos aplicativos aos quais você está se conectando.
 * Você poderá exibir e editar as conexões de todos os outros usuários se tiver permissões de Gerenciamento para o espaço de trabalho em que os registros conectados estão.
 * É possível conectar um registro a um ou vários objetos de outro aplicativo.
-* Para vincular registros a outros registros ou objetos, você deve ter o seguinte:
 
-   * Pelo menos um espaço de trabalho, tipo de registro e registro.
-
-     Para obter mais informações, consulte os seguintes artigos:
-
-      * [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md)
-      * [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md)
-      * [Criar registros](/help/quicksilver/planning/records/create-records.md)
-
-   * Conexões entre tipos de registro ou entre tipos de registro e objetos de outros aplicativos. Para obter informações, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
 * Você pode conectar objetos do Workfront aos registros do Workfront Planning nas seguintes áreas:
    * De um registro do Planning no Workfront Planning.
    * Na seção Planejamento de um objeto do Workfront.
+
+* Você pode conectar registros do Workfront Planning ao Experience Manager Assets nas seguintes áreas:
+
+   * De um registro do Planning no Workfront Planning
+
+
+## Pré-requisitos para vinculação de registros
+
+Para vincular registros a outros registros ou objetos, você deve ter o seguinte:
+
+* Pelo menos um espaço de trabalho, tipo de registro e registro.
+
+  Para obter mais informações, consulte os seguintes artigos:
+
+   * [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md)
+   * [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md)
+   * [Criar registros](/help/quicksilver/planning/records/create-records.md)
+
+* Conexões entre tipos de registro ou entre tipos de registro e objetos de outros aplicativos. Para obter informações, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Conectar registros do Workfront Planning
 
@@ -186,7 +200,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    >[!TIP]
    >
-   >    É possível abrir a página de um registro, localizar o campo de registro vinculado e clicar em **Conectar registros** no campo para adicionar registros do registro conectado ou do tipo de objeto.
+   >    É possível abrir a página de um registro, localizar o campo de registro vinculado e clicar no campo conectado (se já houver registros conectados) ou clicar em **Conectar registros** (se o campo estiver vazio) para adicionar registros do registro ou tipo de objeto conectado.
    >
    >![](assets/connect-records-from-record-page-field.png)
 
@@ -307,6 +321,11 @@ Depois de criar uma conexão entre um tipo de registro e um tipo de objeto do Wo
 >Em caso de dúvidas sobre a integração com a Adobe Admin Console, consulte [Perguntas frequentes sobre a experiência unificada do Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 Depois de criar uma conexão entre um tipo de registro e o Adobe Experience Manager Assets, você pode conectar registros individuais a ativos Experience Manager. Os campos de ativos que você conectou pelo Experience Manager Assets ao criar a conexão são preenchidos automaticamente no tipo de registro que você vinculou.
+
+>[!NOTE]
+>
+>Os registros de planejamento e seus campos podem ser acessados no Experience Manager Assets quando o administrador do Workfront configura o mapeamento de metadados por meio da integração entre o Workfront e o Adobe Experience Manager Assets. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
 
 {{step1-to-planning}}
 

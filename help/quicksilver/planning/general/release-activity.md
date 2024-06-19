@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 216ddc77c76d3e607cc56f32f347aa3544a03ebf
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '7497'
+source-wordcount: '7510'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Visualização: a ser determinado
 
 Atualizamos a experiência para adicionar uma miniatura ou uma imagem de capa a um registro da página Detalhes. Os aprimoramentos incluem as seguintes atualizações:
 
-* Uma imagem em miniatura é atribuída aleatoriamente a um registro quando você o cria. Posteriormente, você poderá editar essa imagem.
+* Uma imagem em miniatura e uma imagem de capa são automaticamente atribuídas a um registro quando você o cria. Posteriormente, você poderá editar essas imagens.
 
 * Você pode adicionar uma miniatura na página Detalhes. Antes desse aprimoramento, você poderia adicionar uma miniatura somente a partir da exibição de tabela.
 
@@ -129,7 +129,7 @@ Produção: 17 de junho de 2024
 
 Visualização: a ser determinado
 
-Adicionamos o link &quot;Mostrar mais/Mostrar menos&quot; em um campo de registro conectado, quando houver registros que seriam exibidos em mais de duas linhas.
+Adicionamos o link &quot;Mostrar mais/Mostrar menos&quot; em um campo de registro conectado, quando há registros que seriam exibidos em mais de duas linhas na página Detalhes de um registro.
 
 Para obter informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 
@@ -169,7 +169,7 @@ Estamos introduzindo uma nova página de aterrissagem para o Workfront Planning,
 
 Algumas das informações na landing page incluem o seguinte:
 
-* Uma área que exibe os espaços de trabalho e os espaços de trabalho compartilhados com você. O proprietário do espaço de trabalho é listado em cada cartão de espaço de trabalho.
+* Uma área que exibe os espaços de trabalho e os espaços de trabalho compartilhados com você. O proprietário do espaço de trabalho é exibido em cada cartão de espaço de trabalho.
 
 * Se você for um administrador do Workfront, as seguintes guias serão exibidas:
 
@@ -324,7 +324,7 @@ Visualização: a ser determinado
 
 Para organizar melhor as informações na página do registro para facilitar a leitura e a navegação, introduzimos seções à página do registro. Os títulos de seção servem como cabeçalhos que organizam os campos em categorias distintas. As seções são totalmente personalizáveis e podem ser expandidas ou recolhidas, se necessário.
 
-Para obter informações, consulte [Gerenciar a página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
+Para obter informações, consulte [Gerenciar o layout da página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ### Atualizações em tempo real para alterações de configuração de campo
 
@@ -433,7 +433,7 @@ Visualização: a ser determinado
 
 Como gerente do Workspace, agora é possível reordenar os campos listados na página de registro ou pré-visualização. Atualizar a ordem dos campos altera a ordem dos campos em todos os registros do mesmo tipo, para todos que visualizam a página de registro ou a pré-visualização do registro.
 
-Para obter mais informações, consulte [Gerenciar a página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
+Para obter mais informações, consulte [Gerenciar o layout da página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 ### Adicionar imagem de capa para gravar páginas
@@ -444,7 +444,7 @@ Visualização: a ser determinado
 
 Ao gerenciar páginas de registros, agora é possível adicionar, reposicionar e substituir uma imagem de capa em uma página de registro ou pré-visualização, para enriquecer a apresentação do registro e o envolvimento da parte interessada. As imagens de capa são visíveis para todos os usuários que visualizam os registros.
 
-Para obter mais informações, consulte [Gerenciar a página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
+Para obter mais informações, consulte [Gerenciar o layout da página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Semana de 25 de março de 2024
 

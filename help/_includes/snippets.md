@@ -1,7 +1,7 @@
 ---
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2412'
+source-wordcount: '2411'
 ht-degree: 1%
 
 ---
@@ -256,7 +256,7 @@ Você deve instalar o plug-in correto para o aplicativo da Adobe Creative Cloud 
    * **Meus espaços de trabalho**: exibe os espaços de trabalho que você criou.
    * **Outros espaços de trabalho**: exibe todos os espaços de trabalho no Workfront Planning, incluindo aqueles compartilhados com você.
 
-   Para todos os outros usuários, todos os espaços de trabalho criados ou compartilhados com eles são exibidos no **Espaços de trabalho** área.
+   Para todos os outros usuários, todos os espaços de trabalho criados ou compartilhados com você são exibidos no **Espaços de trabalho** área.
 
 ## Introdução importante ao Workfront Planning - {#planning-important-intro}
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Para obter informações, consulte [Criar tipos de registro](/help/quicksilver/p
 
 ## Requisitos de acesso
 
-<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding thumbnails-->
+<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding cover images-->
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -58,9 +58,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licença do Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td>
    <td>
-   <p>Qualquer</p> 
+   <p>Atual: trabalho ou superior</p>
+   <p>Novo: Padrão</p>  
   </td>
   </tr>
 
@@ -71,7 +72,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
 <tr>
    <td role="rowheader"><p>Permissões</p></td>
-   <td> <p>Contribuir com permissões ou mais altas para um espaço de trabalho </p>  
+   <td> <p>Gerenciar permissões em um espaço de trabalho </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
 </td>
   </tr>
@@ -84,6 +85,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </tbody>
 </table>
 
+*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Considerações sobre imagens de capa de página de registro
 
 É possível personalizar a página de um registro adicionando uma imagem de capa a ela.
@@ -94,7 +97,8 @@ Considere o seguinte:
 * Você pode adicionar somente arquivos de imagem como imagens de capa.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * É possível adicionar uma imagem de capa a registros individuais a partir da pré-visualização do registro em qualquer exibição ou da página do registro.
-* Não é possível adicionar imagens de capa integradas de qualquer visualização de registro.
+* Não é possível adicionar imagens de capa a partir de uma visualização de registro.
+* O Workfront faz o upload de uma imagem de capa automaticamente toda vez que você cria um registro. Posteriormente, você poderá modificar essa imagem.
 
 ## Adicionar uma imagem da capa a um registro
 
@@ -114,19 +118,15 @@ Considere o seguinte:
 
    A página de tipo de registro é aberta.
 
-1. Em uma exibição de qualquer tipo, clique no nome de um registro
+1. Em uma exibição de qualquer tipo, clique em um registro
 
    Ou
 
-   Na exibição de tabela, clique na guia **Abrir detalhes** ícone ![](assets/open-details-icon-in-table-name-field.png) à esquerda do nome de um registro.
+   Na exibição de tabela, clique na guia **Abrir detalhes** ícone ![](assets/open-details-icon-in-table-name-field.png) na primeira coluna.
 
    A visualização do registro é aberta na exibição.
 
    ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >É possível exibir a **Abrir detalhes** Ícone à esquerda do campo Nome de um registro em uma exibição de tabela somente quando o campo Nome é um campo primário.
 
 1. (Opcional) Clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
 
@@ -134,10 +134,25 @@ Considere o seguinte:
 
    ![](assets/details-page.png)
 
-1. Na visualização ou página do registro, clique em **Adicionar capa**. <!--check the casing here; I logged a bug for this-->
-A variável **Gravar capa** é aberta.
+1. Na visualização ou página do registro, clique em **Adicionar capa**
 
-1. Clique em **Selecione para fazer upload** e procure uma imagem em seu computador para selecionar, adicioná-la e, em seguida, clique em **Usar imagem**.
+
+   Ou
+
+   Passe o mouse sobre uma imagem de capa existente, clique no **Mais** menu ![](assets/more-menu.png) e, em seguida, clique em **Carregar**. <!--check the casing here; I logged a bug for this-->
+A variável **Gravar capa** é aberta na caixa **Carregar** guia.
+
+   ![](assets/record-cover-box-for-upload.png)
+
+1. Clique em **Procurar imagens** e procure uma imagem em seu computador para selecioná-la e adicioná-la.
+
+1. (Opcional) Para remover a imagem antes de salvá-la, clique no link **Carregar nova imagem** ícone ![](assets/upload-new-image-icon.png) e faça upload de uma nova imagem.
+
+1. (Opcional) Clique no link **Galeria** e clique em uma imagem na galeria de imagens. A galeria de imagens não pode ser modificada.
+
+   ![](assets/record-cover-box-for-gallery.png)
+
+1. Clique em **Usar imagem**.
 
    A imagem é carregada na parte superior da visualização do registro ou da página e as alterações são salvas automaticamente.
 

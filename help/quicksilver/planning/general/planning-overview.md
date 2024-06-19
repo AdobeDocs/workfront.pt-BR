@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '1932'
-ht-degree: 1%
+source-wordcount: '1965'
+ht-degree: 2%
 
 ---
 
@@ -100,6 +100,7 @@ Para obter informações sobre novos recursos e quando eles são lançados, cons
 | Módulos do Adobe Workfront Planning para Adobe Workfront Fusion | ✓ µ |                                  |                 |
 | Copiar e colar informações de um campo para outro | ✓ µ |                                  |                 |
 | Acessar registros do Planning de objetos do Workfront | ✓ µ |                                  |                 |
+| Conectar registros do Planning de objetos do Workfront | ✓ µ |                                  |                 |
 
 ## Habilitar o Adobe Workfront Planning para os usuários em sua instância do Workfront
 
@@ -208,9 +209,18 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
 
 * **Campos vinculados** (ou campos de pesquisa): depois de estabelecer a conexão entre dois tipos de registro e vincular registros individuais, é possível fazer referência aos campos dos registros vinculados no registro do qual você está se conectando.
 
-  Por exemplo, se você conectar um tipo de registro de Campanha a um tipo de objeto Projeto do Workfront, será possível exibir o campo Proprietário do projeto dos projetos conectados nos registros de campanha.
+  Por exemplo, se você conectar um tipo de registro de Campanha a um tipo de objeto Projeto do Workfront, será possível exibir o campo Orçamento dos projetos conectados nos registros da campanha.
 
   ![](assets/add-lookup-fields-modal.png)
+
+  >[!TIP]
+  >
+  > Não é possível adicionar os seguintes tipos de campo como campos de pesquisa:
+  >
+  >* Pessoas
+  >* Criado por
+  >* Modificado pela última vez por
+  >* Campos de digitação antecipada do Workfront (incluindo campos como Proprietário do projeto ou Patrocinador do projeto)
 
   Para obter informações sobre como vincular tipos de registro, registros e criar campos vinculados, consulte os seguintes artigos:
 
@@ -285,7 +295,7 @@ Para localizar o Workfront Planning:
 
    ![](assets/planning-landing-page-admin.png)
 
-   1. (Condicional e opcional) Se você for um administrador do Workfront, clique em uma das seguintes guias:
+1. (Condicional e opcional) Se você for um administrador do Workfront, clique em uma das seguintes guias:
    * **Meus espaços de trabalho**: exibe os espaços de trabalho que você criou.
    * **Outros espaços de trabalho**: exibe todos os outros espaços de trabalho no sistema, incluindo aqueles compartilhados com você.
 
