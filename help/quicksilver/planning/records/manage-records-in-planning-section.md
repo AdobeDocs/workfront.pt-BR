@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '689'
 ht-degree: 1%
 
 ---
@@ -103,7 +103,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    * [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
 * Você pode exibir a seção Planejamento em um objeto Workfront, mesmo quando não há registros associados ao objeto Workfront.
 * Você pode conectar registros do Planning a objetos do Workfront a partir do Workfront, na seção Planning quando houver pelo menos um registro conectado ao objeto do Workfront.
-* Você deve ter permissões do Contribute ou superior para um espaço de trabalho para conectar registros dos objetos do Workfront.
+* Você deve ter permissões para Gerenciar um espaço de trabalho para conectar registros dos objetos do Workfront.
 
 ## Gerenciar registros na seção Planejamento
 
@@ -138,7 +138,7 @@ A página dos objetos é aberta no Workfront Planning.
 
 1. Clique em um cartão de registro para exibir mais informações sobre o registro. A caixa de visualização do registro é exibida.
 1. (Opcional) Inicie a modificação de campos na caixa de visualização do registro. Suas alterações são salvas automaticamente.
-1. (Opcional) Clique no link **Abrir em uma nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) no canto superior direito da caixa de visualização para abrir a página de detalhes do registro.
+1. (Opcional) Clique no link **Abrir em uma nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) no canto superior direito da caixa de visualização para abrir a página de detalhes do registro. A página de detalhes do registro é aberta no Workfront Planning.
 1. Passe o mouse sobre um cartão de registro e clique no ícone desconectar registro **-** e, em seguida, clique em **Desconectar**.
 As seguintes situações ocorrem:
    * O registro não está mais conectado ao objeto Workfront.
@@ -148,7 +148,7 @@ As seguintes situações ocorrem:
 
    >[!NOTE]
    >
-   >   O botão Conectar é exibido apenas para os espaços de trabalho em que você tem permissões do Contribute.
+   >   O botão Conectar é exibido apenas para os espaços de trabalho em que você tem permissões do Contribute. <!--they might replace this with one button at the top of the page. Rephrase-->
 
 1. Clique nos registros que deseja conectar. As seguintes situações ocorrem:
 

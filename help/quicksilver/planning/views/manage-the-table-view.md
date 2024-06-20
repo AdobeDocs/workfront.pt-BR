@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '2645'
+source-wordcount: '2543'
 ht-degree: 3%
 
 ---
@@ -157,25 +157,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
    O campo se torna um campo primário, o que significa que ele é exibido como a primeira coluna da exibição de tabela. O campo principal anterior é movido para a segunda coluna.
 
-   >[!NOTE]
-   >
-   >   * Somente os campos dos seguintes tipos podem ser campos primários:
-   >
-   >       * Texto de linha única
-   >       * Número
-   >       * Fórmula
-   >
-   >   * O campo principal é sempre congelado e não pode ser movido nem oculto. O campo principal está congelado e não faz parte da rolagem horizontal. Você pode selecionar outro campo para substituir um campo principal, se precisar movê-lo para outra posição.
-   >
-   >   * Alterar o campo principal na exibição de tabela afeta a exibição de todos os outros usuários que a escolhem.
-   >
-   >   * Alterar o campo principal em uma exibição de tabela afeta todas as exibições de tabela.
-   >
-   >   * Não é possível excluir ou ocultar um campo principal.
-   >
-   >   * O valor listado no campo principal sempre tem um hiperlink para a página do registro.
-   >
-   >   * Os campos primários se tornam o título e a exibição do registro nas páginas de registro na área de cabeçalho dos registros e em todos os locais em que os registros são exibidos. Por exemplo, o título do registro é exibido em campos conectados e em todas as exibições.
+   Os campos primários se tornam o título e a exibição do registro na área de cabeçalho da página do registro e em todos os locais onde os registros são exibidos. Por exemplo, o título do registro é exibido em campos conectados e em todas as exibições. Para obter mais informações sobre campos primários, consulte [Visão geral do campo principal](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Clique e arraste as linhas de separação da coluna e solte-as no ponto desejado para aumentar a largura das colunas.
 

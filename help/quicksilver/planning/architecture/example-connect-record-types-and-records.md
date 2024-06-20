@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1834'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,8 @@ Para fazer isso:
 
    ![](assets/new-connection-with-product-record-type.png)
 
-1. (Condicional) Se você selecionou a variável **Selecionar opção de campos de pesquisa** na etapa anterior, da lista de campos associados à variável **Produto** tipo de registro, clique no botão **+** ícone para a variável **Orçamento** e clique em **Adicionar campos**. Isso cria um campo chamado **Orçamento (a partir das informações do produto)**, que é o nome do campo vinculado. Todas as informações para o Orçamento do produto serão exibidas nesse campo para os registros da campanha.
+1. (Opcional) Desmarque a opção **Título** alternar no **Gravar aparência** para exibir somente a imagem em miniatura do registro nos campos conectados. Se ativado, os registros exibem a miniatura e o título. O botão de alternância é ativado por padrão.
+1. (Condicional) Se você selecionou a variável **Selecionar opção de campos de pesquisa** na etapa anterior, da lista de campos associados à variável **Produto** tipo de registro, clique no botão **+** ícone para a variável **Orçamento** e clique em **Adicionar campos**. Isso cria um campo chamado **Orçamento (a partir das informações do produto)**, que é o nome do campo vinculado. Todas as informações para o Orçamento do produto são exibidas nesse campo para os registros da Campanha.
 
    ![](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
 
@@ -57,13 +58,13 @@ Para fazer isso:
    >
    >    Se desejar exibir o Orçamento de todos os produtos selecionados como um número total, selecione **SOMA** no menu suspenso à direita do nome do campo. Quando os usuários selecionam vários produtos na **Informações do produto** campo de registro vinculado, a variável **Orçamento (a partir das informações do produto)** O campo soma todos os valores de Orçamento e exibe o total. <!-- check the shot below - added a bug with a couple of UI changes here-->
    >
-   > Se você selecionar **Nenhum**, em vez de **SOMA**, os orçamentos individuais dos produtos selecionados serão exibidos separados por vírgulas.
+   > Se você selecionar **Nenhum**, em vez de **SOMA**, os orçamentos individuais dos produtos selecionados são exibidos separados por vírgulas.
 
    Isso gera os seguintes campos:
 
    * Na exibição da tabela de registro da Campanha e na página Registro de campanha de uma campanha:
 
-      * **Informações do produto** (o campo de registro vinculado): exibirá o nome ou os nomes dos produtos quando você os adicionar.
+      * **Informações do produto** (o campo de registro vinculado): exibe o nome ou os nomes dos produtos quando você os adiciona.
       * **Orçamento (a partir das informações do produto)** (o campo vinculado): exibirá os orçamentos dos produtos selecionados no campo Product information.
 
    * Na exibição da tabela Registro do produto e na página Registro do produto de um produto:
@@ -78,7 +79,7 @@ Para fazer isso:
 
 1. No **Campaign** exibição de tabela do tipo de registro, crie uma campanha adicionando uma nova linha na tabela da página Tipo de registro de campanha.
 
-1. Clique duas vezes dentro do  **Informações do produto** da nova campanha.
+1. Clique duas vezes dentro do **Informações do produto** da nova campanha.
 
    ![](assets/connect-other-records-smaller-box-in-table-view.png)
 
@@ -96,7 +97,7 @@ Para fazer isso:
 
    Ou
 
-   Selecione os registros Product que deseja conectar aos registros do Campaign e clique em **Conectar objetos**.
+   Selecione os registros Product que deseja conectar com os registros do Campaign e clique em **Conectar objetos**.
 
    >[!TIP]
    >
@@ -157,7 +158,7 @@ Para fazer isso:
 
    * Na exibição da tabela de registro da campanha e na página Registro da campanha:
 
-      * **Informações do projeto** (o campo de objeto vinculado): exibirá o nome ou os nomes dos Projetos.
+      * **Informações do projeto** (o campo de objeto vinculado): exibe o nome ou os nomes dos Projetos.
       * **Receita planejada (a partir de informações do projeto)** (o campo vinculado): exibirá as Receitas planejadas dos projetos selecionados no campo Informações do projeto.
 
    >[!TIP]
@@ -166,7 +167,7 @@ Para fazer isso:
 
 1. No **Campaign** para a exibição de tabela do tipo de registro, crie uma campanha adicionando uma nova linha na tabela.
 
-1. Clique duas vezes dentro do  **Informações do projeto** da nova campanha.
+1. Clique duas vezes dentro da coluna Project information** da nova campanha.
 
    ![](assets/connect-projects-smaller-box-in-table.png)
 
@@ -204,7 +205,7 @@ Para fazer isso:
 
 1. Clique no nome de um projeto no campo de registro conectado.
 
-   Isso abre a página somente leitura do projeto de Planejamento do Workfront.
+   Isso abre a página somente leitura do projeto do Workfront Planning.
 Revise as informações sobre o projeto. Somente os campos de projeto selecionados são exibidos na página do registro.
 
 1. Clique em **Ir para origem** no canto superior direito da tela para abrir o projeto no Workfront, se você tiver pelo menos permissões de Visualização para o projeto.

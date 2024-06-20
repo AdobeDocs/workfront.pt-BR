@@ -4,7 +4,7 @@ description: Como líder em operações de marketing, você pode usar o Adobe Wo
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 406cd3f929d3955d196f883bf1830fd0fffe9251
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 0%
@@ -15,5 +15,7 @@ ht-degree: 0%
 # Práticas recomendadas do Adobe Workfront Planning
 
 <!-- add to TOC and mini TOC-->
+
+{{planning-important-intro}}
 
 Como líder em operações de marketing, você pode usar o Adobe Workfront Planning para organizar trabalhos em todo o ciclo de vida de marketing para todas as suas equipes. Estas são algumas das práticas recomendadas que recomendamos ao iniciar o Workfront Planning.

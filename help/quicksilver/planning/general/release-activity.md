@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '7510'
+source-wordcount: '7684'
 ht-degree: 0%
 
 ---
@@ -132,6 +132,30 @@ Visualização: a ser determinado
 Adicionamos o link &quot;Mostrar mais/Mostrar menos&quot; em um campo de registro conectado, quando há registros que seriam exibidos em mais de duas linhas na página Detalhes de um registro.
 
 Para obter informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
+
+### Preencher automaticamente o campo Nome com o nome do registro ao conectar tipos de registro
+
+Produção: 20 de junho de 2024
+
+Visualização: a ser determinado
+
+Ao criar uma conexão entre dois registros ou entre um registro e um objeto de outro aplicativo, o campo Name of the connection é preenchido automaticamente com o nome do registro conectado. Antes desse aprimoramento, você tinha que adicionar manualmente um Nome para o campo de conexão.
+
+Para obter mais informações, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+### Definir como os registros conectados são exibidos em campos conectados
+
+Produção: 20 de junho de 2024
+
+Visualização: a ser determinado
+
+Agora é possível decidir como os registros conectados serão exibidos nos campos conectados. Ao adicionar uma nova conexão a um tipo de registro, agora há a opção de exibir o título do registro conectado e sua miniatura ou apenas a miniatura.
+
+O título de um registro é o nome do registro ou qualquer campo definido como o campo principal na exibição de tabela do tipo de registro.
+
+Esse aprimoramento está disponível para registros conectados do Workfront Planning e para ativos conectados da Adobe Experience Manager.
+
+Para obter informações, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Semana de 10 de junho de 2024
 
@@ -563,6 +587,7 @@ Produção: visualização de 14 de março de 2024: a ser determinado
 Atualizamos a aparência das exibições na página de tipo de registro. As novas visualizações são dinamicamente responsivas e se ajustam rapidamente ao tamanho da tela. Os rótulos de opção da barra de ferramentas estão ocultos em telas menores para facilitar o uso da barra de ferramentas.
 
 Para obter mais informações, consulte os seguintes artigos:
+
 * [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md)
 * [Gerenciar a exibição de linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
