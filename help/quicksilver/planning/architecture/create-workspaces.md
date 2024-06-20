@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '642'
 ht-degree: 1%
 
 ---
@@ -117,7 +117,9 @@ Você pode criar um espaço de trabalho e adicionar tipos de registro a ele para
 
 1. (Opcional e condicional) Clique em **Visualizar** em qualquer um dos modelos de espaço de trabalho predefinidos a seguir:
 
-   * Gerenciamento de marketing
+   * Básico: Gerenciamento de marketing
+   * Avançado: Gerenciamento de marketing
+   * Enterprise: Gerenciamento de marketing
    * Gerenciamento de vendas
    * Gerenciamento de produtos
 
@@ -133,7 +135,7 @@ Você pode criar um espaço de trabalho e adicionar tipos de registro a ele para
 
    Ou
 
-   Clique em **Voltar** e, em seguida, clique em **Criar espaço de trabalho** para criar um espaço de trabalho do zero.
+   Clique em **Voltar** e, em seguida, clique em **Novo espaço de trabalho** para criar um espaço de trabalho do zero.
 
    Um para os seguintes tipos de espaços de trabalho é criado:
 

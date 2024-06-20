@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '2619'
+source-wordcount: '2645'
 ht-degree: 3%
 
 ---
@@ -145,9 +145,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
      >
      >* Não é possível mover o campo Nome para outra posição, a menos que você designe outro campo como o principal. Para obter mais informações, continue com a Etapa 4. <!--accurate?-->
      >
-     >* Não é possível ocultar ou excluir um campo principal.
      >
-     >* O campo principal está congelado e não faz parte da rolagem horizontal.
 
    * Substitua o campo na primeira coluna por outro campo alterando o campo primário. Para obter mais informações, continue para a etapa 4. <!--accurate?-->
 
@@ -167,7 +165,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
    >       * Número
    >       * Fórmula
    >
-   >   * O campo principal é sempre congelado e não pode ser movido. Você pode selecionar outro campo para substituir um campo principal, se precisar movê-lo para outra posição.
+   >   * O campo principal é sempre congelado e não pode ser movido nem oculto. O campo principal está congelado e não faz parte da rolagem horizontal. Você pode selecionar outro campo para substituir um campo principal, se precisar movê-lo para outra posição.
    >
    >   * Alterar o campo principal na exibição de tabela afeta a exibição de todos os outros usuários que a escolhem.
    >
@@ -176,6 +174,8 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
    >   * Não é possível excluir ou ocultar um campo principal.
    >
    >   * O valor listado no campo principal sempre tem um hiperlink para a página do registro.
+   >
+   >   * Os campos primários se tornam o título e a exibição do registro nas páginas de registro na área de cabeçalho dos registros e em todos os locais em que os registros são exibidos. Por exemplo, o título do registro é exibido em campos conectados e em todas as exibições.
 
 1. Clique e arraste as linhas de separação da coluna e solte-as no ponto desejado para aumentar a largura das colunas.
 
@@ -230,7 +230,7 @@ As linhas de uma exibição de tabela exibem registros individuais do tipo de re
 
    Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. (Opcional) Selecione um ou vários registros em uma linha e arraste e solte a **identificador** ícone ![](assets/handle-icon.png) à esquerda do nome do registro para reordenar as linhas.
+1. (Opcional) Selecione um ou vários registros em uma linha e arraste e solte a **identificador** ícone ![](assets/handle-icon.png) à esquerda do registro para reordenar as linhas.
 
    >[!NOTE]
    >
@@ -264,7 +264,7 @@ Considere o seguinte ao trabalhar com filtros na exibição de tabela:
 
 * Você pode filtrar por campos de registro conectados ou campos de pesquisa, mas não pelos campos que permitem vincular a vários registros.
 
-* Você pode fazer referência a um campo que esteja a até 4 níveis de distância do tipo de registro atual. Por exemplo, se você estiver criando um filtro para um tipo de registro de Atividade e a Atividade estiver conectada ao tipo de registro de Produto que está conectado ao tipo de registro de Campanha que está conectado a um Projeto do Workfront, será possível fazer referência ao Proprietário do Projeto no filtro que você está criando para o tipo de registro de Atividade.
+* Você pode fazer referência a um campo que esteja a até 4 níveis de distância do tipo de registro atual. Por exemplo, se você estiver criando um filtro para um tipo de registro de Atividade e a Atividade estiver conectada ao tipo de registro de Produto que está conectado ao tipo de registro de Campanha que está conectado a um Projeto do Workfront, será possível fazer referência ao Orçamento do projeto no filtro que está sendo criado para o tipo de registro de Atividade.
 
 Para adicionar um filtro a uma exibição de tabela:
 
@@ -375,7 +375,7 @@ Considere o seguinte:
 * A remoção de agrupamentos os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.
 * É possível editar registros listados em um agrupamento.
 * Você pode agrupar por campos de registro conectados ou campos de pesquisa, mas não pelos campos que permitem vincular a vários registros.
-* Você pode fazer referência a um campo que esteja a até 4 níveis de distância do tipo de registro atual. Por exemplo, se você estiver criando um agrupamento para um tipo de registro de Atividade e a Atividade estiver conectada ao tipo de registro de Produto que está conectado ao tipo de registro de Campanha que está conectado a um Projeto do Workfront, será possível fazer referência ao Proprietário do Projeto no agrupamento que você está criando para o tipo de registro de Atividade.
+* Você pode fazer referência a um campo que esteja a até 4 níveis de distância do tipo de registro atual. Por exemplo, se você estiver criando um agrupamento para um tipo de registro de Atividade e a Atividade estiver conectada ao tipo de registro de Produto que está conectado ao tipo de registro de Campanha que está conectado a um Projeto do Workfront, você poderá fazer referência ao Status do projeto no agrupamento que está criando para o tipo de registro de Atividade.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -403,7 +403,7 @@ Para adicionar um agrupamento:
    Clique em **Limpar tudo** para remover todos os campos.
 
 1. Clique fora da **Agrupar registros por** para fechá-la.
-1. (Opcional) Clique em **+ Novo &lt; Nome do tipo de registro >** no final de qualquer agrupamento para adicionar novos registros, atualize a página para adicionar o novo registro ao agrupamento apropriado. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+1. (Opcional) Clique em **+ Novo registro** no final de qualquer agrupamento para adicionar novos registros, atualize a página para adicionar o novo registro ao agrupamento apropriado. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### Adicionar uma classificação {#sort-information}
 
@@ -432,7 +432,7 @@ Considere o seguinte ao classificar registros na exibição de tabela:
 
 * Você pode classificar por campos de registro conectados ou campos de pesquisa, mas não pelos campos que permitem vinculação a vários registros.
 
-* Você pode fazer referência a um campo que esteja a até 4 níveis de distância do tipo de registro atual. Por exemplo, se você estiver criando uma classificação para um tipo de registro de Atividade e a Atividade estiver conectada ao tipo de registro de Produto que está conectado ao tipo de registro de Campanha que está conectado a um Projeto do Workfront, será possível fazer referência ao Proprietário do Projeto na classificação que você está criando para o tipo de registro de Atividade.
+* Você pode fazer referência a um campo que esteja a até 4 níveis de distância do tipo de registro atual. Por exemplo, se você estiver criando uma classificação para um tipo de registro de Atividade e a Atividade estiver conectada ao tipo de registro de Produto que está conectado ao tipo de registro de Campanha que está conectado a um Projeto do Workfront, será possível fazer referência ao Status do projeto na classificação que você está criando para o tipo de registro de Atividade.
 
 Para classificar <!--ungrouped (add this when sorting for groupings will be available--> registros, faça o seguinte:
 

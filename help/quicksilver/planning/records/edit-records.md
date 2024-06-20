@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -106,14 +106,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 * Não é possível editar registros em massa. <!--this will probably change-->
 * Os URLs são reconhecidos como links em tipos de campo de texto de linha única somente quando começam com o seguinte: http://, https://, ftp:// ou www. .
 * Você pode adicionar uma imagem de capa a cada registro. A imagem é exclusiva para cada registro e não se aplica a todos os registros do mesmo tempo.
-* É possível editar a ordem dos campos em uma página de registro e adicionar uma imagem de capa para um registro. Para obter mais informações, consulte [Gerenciar a página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
+* É possível editar a ordem dos campos em uma página de registro e adicionar uma imagem de capa para um registro. Para obter mais informações, consulte [Gerenciar o layout da página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Editar registros
 
 É possível editar um registro das seguintes áreas:
 
-* [Na exibição de tabela de um tipo de registro](#edit-a-record-from-the-table-view-of-a-record-type)
-* [Da visualização do registro em uma exibição](#edit-a-record-from-the-records-box-in-a-view)
+* [Na exibição de tabela de um tipo de registro](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [Da visualização do registro em uma exibição](#edit-a-record-from-the-records-preview-in-a-view)
 * [Da página do registro](#edit-a-record-from-the-records-page)
 
 ### Editar um registro incorporado na exibição de tabela de um tipo de registro
@@ -200,17 +200,17 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    A página de tipo de registro é aberta.
 
-1. Em uma exibição de qualquer tipo, clique no nome de um registro
+1. Em uma exibição de qualquer tipo, clique no registro
 
    Ou
 
-   Na exibição de tabela, clique no botão **Abrir detalhes** ícone ![](assets/open-details-icon-in-table-name-field.png) à esquerda do nome de um registro. A visualização do registro é aberta na exibição.
+   Na exibição de tabela, clique no botão **Abrir detalhes** ícone ![](assets/open-details-icon-in-table-name-field.png) na primeira coluna. A visualização do registro é aberta na exibição.
 
    ![](assets/details-box.png)
 
-   >[!TIP]
-   >
-   >É possível exibir a **Abrir detalhes** Ícone à esquerda do campo Nome de um registro em uma exibição de tabela somente quando o campo Nome é um campo primário.
+1. (Opcional) Clique no link **Mais** à direita do título do registro, em seguida, clique em **Renomear**. Isso atualiza o campo que é exibido como o título do registro.
+
+   O título do registro é o campo principal do registro quando exibido em uma exibição de tabela. Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 1. Comece a editar as informações do campo na visualização do registro.
 
@@ -218,10 +218,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >
    >  Não é possível editar as informações dos seguintes campos, pois eles são somente leitura e o Workfront os atualiza automaticamente:
    >  
-   >  * Campos vinculados criados pela conexão de tipos de registro. Para obter mais informações, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >  * Campos de pesquisa de outros registros criados pela conexão de tipos de registro. Para obter mais informações, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Campos dos seguintes tipos: Criado por, Data de criação, Última modificação por, Data da última modificação, Campos de fórmula.
 
 1. (Opcional) Clique em **Adicionar capa** para adicionar uma imagem da capa ao registro. Para obter mais informações, consulte [Adicionar uma imagem da capa a um registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+
+1. (Opcional) Passe o mouse sobre o ícone de miniatura e clique em **Mais** ![](assets/more-menu.png) > **Editar miniatura** para adicionar uma imagem em miniatura. Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    O Workfront salva suas alterações automaticamente.
 
@@ -251,6 +253,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
      ![](assets/details-page.png)
 
+1. (Opcional) Clique no link **Mais** à direita do título do registro, em seguida, clique em **Renomear**. Isso atualiza o campo que é exibido como o título do registro.
+
+   O título do registro é o campo principal do registro quando exibido em uma exibição de tabela. Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
+
 1. Clique em qualquer campo editável na página de registro para editá-lo.
 
    >[!TIP]
@@ -260,7 +266,17 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >  * Campos vinculados criados pela conexão de tipos de registro. Para obter mais informações, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Campos dos seguintes tipos: Criado por, Data de criação, Última modificação por, Data da última modificação, Campos de fórmula.
 
-1. (Opcional) Clique em **Adicionar capa** para adicionar uma imagem da capa ao registro. Para obter mais informações, consulte [Adicionar uma imagem da capa a um registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+1. (Opcional) Clique em **Adicionar capa** para adicionar uma imagem da capa ao registro
+
+   Ou
+
+   Passe o mouse sobre a imagem da capa existente, em seguida clique no **Mais** menu ![](assets/more-menu.png) > **Carregar** para adicionar uma nova imagem de capa ao registro.
+
+   Para obter mais informações, consulte [Adicionar uma imagem da capa a um registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+
+1. (Opcional) Passe o mouse sobre uma miniatura existente ou a **ícone de miniatura** ![](assets/record-thumbnail-icon-on-details-page.png)e, em seguida, clique na guia **Mais** menu ![](assets/more-menu.png) > **Editar miniatura** para adicionar uma miniatura do registro.
+
+   Para obter mais informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    O Workfront salva suas alterações automaticamente.
 

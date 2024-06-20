@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -121,11 +121,16 @@ Todos os registros do tipo selecionado são exibidos na visualização.
 
       * Clique em **Novo registro** no canto superior direito da página. A caixa de visualização do registro é aberta.
 
-1. Comece a digitar informações na nova linha sobre o novo registro ou nos campos que você vê na caixa de visualização.
+     O Workfront faz o upload de uma miniatura e de uma imagem de capa automaticamente para cada novo registro. Posteriormente, você poderá modificar essas imagens. Para obter informações, consulte os seguintes artigos:
+
+      * [Adicionar uma imagem da capa a um registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+      * [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+
+1. Comece digitando informações sobre o novo registro nos campos que você vê na caixa de visualização.
 
    >[!NOTE]
    >
-   >  * Não há campos obrigatórios para registros. No entanto, recomendamos que você adicione um Nome para o registro, pois é útil identificar os registros por seu nome ao vincular registros uns aos outros.
+   >  * Não há campos obrigatórios para registros. No entanto, recomendamos adicionar informações para o campo principal de um registro, pois é útil identificar registros ao vincular registros uns aos outros. Para obter mais informações sobre campos primários, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
    >
    >  * Os campos que se referem a outros tipos de registro ou campos calculados são campos somente leitura.
 
@@ -140,7 +145,7 @@ Todos os registros do tipo selecionado são exibidos na visualização.
    >Você pode acessar o **Abrir detalhes** ícone somente do campo name do registro quando o campo Name é um campo primário.
 
 1. Iniciar edição das informações do registro na visualização do registro. O Workfront salva suas alterações automaticamente.
-1. (Opcional) Clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia. Continuar editando o registro na página de registro.
+1. (Opcional) Clique no link **Abrir em nova guia** ícone ![](assets/open-details-in-a-new-tab-icon.png) no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia. Continuar editando o registro na página de registro. Para obter informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 1. (Opcional) Use os seguintes atalhos de teclado para desfazer ou refazer a adição de novos registros ou suas informações ao adicioná-los na exibição de tabela:
 

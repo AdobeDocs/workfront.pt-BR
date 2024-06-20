@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
@@ -280,7 +280,13 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
 
    * **Padrão (cinza)**: a cor dos agrupamentos é definida como cinza. Este é o padrão.
    * **Valores do campo**: a cor dos agrupamentos corresponde à cor do campo pelo qual você faz o agrupamento.
-É possível corresponder a cor dos agrupamentos somente a campos com opções codificadas por cores.
+
+     >[!NOTE]
+     >
+     >    * É possível corresponder a cor somente a campos com opções codificadas por cores. Por exemplo, é possível corresponder a cor aos campos Status ou aos campos com opções associadas a cores.
+     >    
+     >    * Não é possível corresponder a cor a campos de pesquisa de tipos de objeto ou registro vinculado.
+
 
    Por exemplo, campos de seleção múltipla ou seleção única podem ter opções codificadas por cores.
 

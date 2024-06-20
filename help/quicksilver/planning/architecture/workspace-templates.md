@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -100,55 +100,81 @@ You must have the following:
 
 A seguir, os modelos de espaço de trabalho no Workfront Planning e o número de campos que eles incluem:
 
-* **Gerenciamento de marketing**: é possível gerenciar todas as campanhas de marketing ao usar esse template. O template vem com o seguinte:
+* **Básico: Gerenciamento de marketing**: ideal para organizações que estabelecem a base de um sistema de marketing básico. O modelo inclui os seguintes tipos de registro e número de campos, incluindo campos conectados a outros tipos de registro:
 
    * Tipos de registro operacional:
 
-      * **Plano de marketing**: 7 campos e 5 campos vinculados
-      * **Campaign**: 9 campos e 7 campos vinculados
-      * **Programa**: 9 campos e 5 campos vinculados
-      * **Atividade**: 6 campos e 5 campos vinculados
+      * **Campaign**: 15 campos
    * Taxonomias:
-      * **Público**: 3 campos e 3 campos vinculados
-      * **Segmento**: 5 campos e 1 campo vinculado
-      * **Jornada do cliente**: 4 campos
-      * **Oferta do produto**: 3 campos e 1 campo vinculado
-      * **Região**: 1 campo
-      * **Tático**: 1 campo
-      * **Canais**: 1 campo e 1 campo vinculado
-      * **Unidade de negócios**: 1 campo
-      * **Função**: 1 campo
 
-* **Gerenciamento de vendas**: você pode criar um sistema de vendas abrangente que simplifique seu processo de vendas e melhore a eficiência. O template vem com o seguinte:
+      * **Personas**: 7 campos
+      * **Marcas**: 6 campos
+      * **Produtos**: 5 campos
+
+* **Avançado: Gerenciamento de marketing**: apropriado para equipes prontas para explorar estratégias de marketing mais avançadas. O modelo inclui os seguintes tipos de registro e número de campos, incluindo campos conectados a outros tipos de registro:
 
    * Tipos de registro operacional:
 
-      * **Oportunidade**: 7 campos e 4 campos vinculados
-      * **Atividade**: 4 campos e 5 campos vinculados
-      * **Campaign**: 5 campos e 3 campos vinculados
+      * **Campanhas**: 14 campos
+      * **Programas**: 23 campos
+
    * Taxonomias:
-      * **Conta**: 4 campos e 3 campos vinculados
-      * **Lead**: 12 campos e 2 campos vinculados
-      * **Contato**: 10 campos e 2 campos vinculados
-      * **Região**: 1 campo e 2 campos vinculados
-      * **Setor**: 1 campo
+      * **Regiões**: 1 campo
+      * **Estágios de Jornada do cliente**: 4 campos
+      * **Públicos-alvo**: 8 campos
+      * **Entregáveis**: 12 campos
+      * **Marcas**: 6 campos
+
+* **Enterprise: Gerenciamento de marketing**: projetado para organizações grandes ou maduras com sistemas de marketing complexos. O modelo inclui os seguintes tipos de registro e número de campos, incluindo campos conectados a outros tipos de registro:
+
+   * Tipos de registro operacional:
+
+      * **Campanhas**: 15 campos
+      * **Programas**: 15 campos
+      * **Táticas**: 11 campos
+      * **Atividades**: 18 campos
+
+   * Taxonomias:
+
+      * **Produtos**: 10 campos
+      * **Entregáveis**: 18 campos
+      * **Públicos-alvo**: 8 campos
+      * **Regiões**: 8 campos
+      * **Sub-regiões**: 7 campos
+      * **Parceiros**: 7 campos
+      * **Casos de uso**: 7 campos
+      * **Estágios de Jornada do cliente**: 3 campos
+
+* **Gerenciamento de vendas**: você pode criar um sistema de vendas abrangente que simplifique seu processo de vendas e melhore a eficiência. O modelo inclui os seguintes tipos de registro e número de campos, incluindo campos conectados a outros tipos de registro:
+
+   * Tipos de registro operacional:
+
+      * **Oportunidade**: 11 campos
+      * **Atividade**: 9 campos
+      * **Campaign**: 8 campos
+   * Taxonomias:
+      * **Conta**: 7 campos
+      * **Lead**: 14 campos
+      * **Contato**: 12 campos
+      * **Região**: 3 campos
+      * **Setor**: campo 2
       * **Centro de compras**: 1 campo
       * **Produto/Serviço**: 1 campo
       * **Concorrência**: 1 campo
 
-* **Gerenciamento de produtos**: você pode criar um processo de gerenciamento de produtos eficiente e estruturado usando esse template. O template vem com o seguinte:
+* **Gerenciamento de produtos**: você pode criar um processo de gerenciamento de produtos eficiente e estruturado usando esse template. O modelo inclui os seguintes tipos de registro e número de campos, incluindo campos conectados a outros tipos de registro:
 
    * Tipos de registro operacional:
 
-      * **Tema**: 8 campos e 2 campos vinculados
-      * **Iniciativa**: 8 campos e 2 campos vinculados
-      * **Épico**: 9 campos e 3 campos vinculados
-      * **História de usuário**: 9 campos e 2 campos vinculados
+      * **Tema**: 10 campos
+      * **Iniciativa**: 10 campos
+      * **Épico**: 12 campos
+      * **História de usuário**: 11 campos
 
    * Taxonomias:
 
-      * **Cliente**: 6 campos e 1 campo vinculado
-      * **Sprint**: 7 campos e 1 campo vinculado
-      * **Equipe do produto**: 3 campos
-      * **Solicitações de recursos**: 8 campos e 1 campo vinculado
-      * **Setor**: 1 campo e 1 campo vinculado
+      * **Cliente**: 8 campos
+      * **Sprint**: 9 campos
+      * **Equipe do produto**: 4 campos
+      * **Solicitações de recursos**: 9 campos
+      * **Setor**: 2 campos

@@ -1,104 +1,104 @@
 ---
-title: Perguntas frequentes sobre projetos
-description: Perguntas frequentes sobre projetos
+title: Perguntas frequentes de Projetos
+description: Perguntas frequentes de Projetos
 author: Alina
 draft: Probably
 feature: Work Management
 exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 0%
+source-wordcount: '617'
+ht-degree: 1%
 
 ---
 
-# Perguntas frequentes sobre projetos
+# Perguntas frequentes de Projetos
 
-As perguntas a seguir são frequentes sobre projetos.
+Veja a seguir perguntas frequentes sobre projetos.
 
-## Por que a tarefa Inserir acima / abaixo está ausente quando eu clico com o botão direito do mouse em uma tarefa na lista de tarefas?
+## Por que a opção Inserir Tarefa Acima/ Abaixo está ausente quando eu clico com o botão direito do mouse em uma tarefa na lista de tarefas?
 
-### Resposta
+### Responder
 
-Para usar as opções de inserção, a lista de tarefas deve ser classificada por número. Para classificar a coluna por número, clique em **#** no cabeçalho da coluna à esquerda de **Nome da tarefa** para reordenar a tarefa por número.
+Para usar as opções de inserção, a lista de tarefas deve ser classificada por número. Para classificar a coluna por número, clique em **#** no cabeçalho da coluna à esquerda de **Nome da tarefa** para reclassificar a tarefa por número.
 
-## Qual é a Data de conclusão real?
+## Qual é a Data de Término Efetivo?
 
-### Resposta
+### Responder
 
-A Data de Conclusão Real representa a data e a hora em que o trabalho é concluído. Para obter mais informações, consulte [Visão geral da data de conclusão real do projeto](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
+A Data de Término Efetivo representa a data e a hora em que o trabalho foi concluído. Para obter mais informações, consulte [Visão geral da Data de Término Efetivo do projeto](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
-## Por que o botão de recuo/recuo está ausente?
+## Por que o botão recuar/ recuar está faltando?
 
-### Resposta
+### Responder
 
-Para usar o botão recuo/recuo, verifique se as tarefas são classificadas pelo número da tarefa e se não há Agrupamentos aplicados.
+Para usar o botão recuar/ recuar, certifique-se de que as tarefas estejam ordenadas pelo número da tarefa e que não haja Agrupamentos aplicados.
 
 ## Por que não posso alterar o status do projeto para Concluído?
 
-Recebo a seguinte mensagem de erro quando tento marcar meu projeto como concluído:
+Quando tento marcar meu projeto como concluído, recebo a seguinte mensagem de erro:
 
 ![Project_FAQ_Complete_Error_message.png](assets/project-faq-complete-error-message-350x138.png)
 
-### Resposta
+### Responder
 
-Não é possível alterar o status de um projeto para ser concluído se você tiver uma das opções a seguir no projeto:
+Não é possível alterar o status de um projeto para concluído se você tiver uma das seguintes opções no projeto:
 
 * Tarefas ou problemas incompletos
-* Tarefa ou problemas no status de aprovação pendente
+* Tarefa ou problemas com status de aprovação pendente
 
 ## Por que não posso alterar o status do projeto de Concluído para Atual?
 
-### Resposta
+### Responder
 
-Se o projeto tiver o Modo de conclusão definido como Automático, depois que todas as tarefas e problemas forem concluídos, o status do projeto automaticamente será Concluído e você não poderá modificá-lo para qualquer outro status. O Modo de conclusão do projeto deve ser definido como Manual para poder transformar um projeto completo em Atual. Para obter mais informações, consulte [O status do projeto não será alterado de Concluído para Atual](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
+Se o modo de conclusão do projeto estiver definido como Automático, quando todas as tarefas e problemas forem concluídas, o status do projeto automaticamente se tornará Concluído e você não poderá modificá-lo para nenhum outro status. O Modo de conclusão do projeto deve ser definido como Manual para poder transformar um projeto completo em Atual. Para obter informações, consulte [O status do projeto não será alterado de Concluído para Atual](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
 
-## Por que não posso adicionar um Projeto a um Portfolio, embora eu tenha as permissões corretas para fazer isso?
+## Por que não posso adicionar um projeto a um Portfolio, embora tenha as permissões corretas para fazer isso?
 
 Embora eu tenha as permissões corretas, o botão Adicionar projetos está ausente na guia Projetos do Portfolio.
 
-### Resposta
+### Responder
 
-Isso é causado pelo status do Portfolio sendo Inativo. Para alterar o status do Portfolio:
+Isso é causado pelo Status de Portfolio estar Inativo. Para alterar o status do Portfolio:
 
 1. Clique em **Detalhes do Portfolio > Visão geral**.
 1. Altere o **Status** para **Ativo.**
 
 1. Clique em **Salvar**.\
-   O **Adicionar projetos** O botão deve estar visível no **Projetos** guia .
+   A variável **Adicionar Projetos** O botão agora deve estar visível no **Projetos** guia.
 
 ## Que acesso um Gerenciador de recursos recebe quando adicionado a um projeto?
 
-### Resposta
+### Responder
 
-Os Gerentes de recursos recebem automaticamente o acesso de Gerenciar aos projetos. Remover o usuário da função do Gerenciador de Recursos não remove o acesso de gerenciamento de compartilhamento.
+Os gerentes de recursos recebem automaticamente o acesso Gerenciar aos projetos. Remover o usuário da função Gerenciador de Recursos não remove seu acesso Gerenciar compartilhamento.
 
-## Por que o status do projeto muda quando eu adiciono um grupo?
+## Por que o status do projeto muda quando adiciono um grupo?
 
-### Resposta
+### Responder
 
-Os status do projeto são alterados por causa dos status padrão do Grupo. Ao adicionar um grupo a um projeto, ele altera a lista de status para os status padrão definidos para o grupo.
+Os status do projeto mudam devido aos status padrão do Grupo. Quando você adiciona um grupo a um projeto, ele altera a lista de status para os status padrão definidos para o grupo.
 
 Para obter mais informações, consulte o artigo [Criar ou editar um status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 ## O que é Status do Orçamento?
 
-### Resposta
+### Responder
 
-O Status do Orçamento mostrará se o projeto está ou não adicionado ao Planejador de Capacidade e se o cálculo do orçamento foi concluído.
+O Status do Orçamento mostrará se o projeto foi adicionado atualmente ao Planejador de Capacidade e se o cálculo do orçamento foi concluído.
 
-A seguir estão os Status do Orçamento:
+A seguir estão os Status de Orçamento:
 
-* Não Incluído - O projeto não é adicionado ao planejador de capacidade.
-* Incluído, mas não calculado - o projeto é adicionado ao Planejador de Capacidade, mas é excluído do cálculo de orçamento.
+* Não incluído - O projeto não é adicionado ao planejador de capacidade.
+* Incluído mas Não Calculado - O projeto é adicionado ao Planejador de Capacidade, mas é excluído do cálculo do orçamento.
 * Incluído e Calculado - O projeto é adicionado ao Planejador de Capacidade e incluído no cálculo do orçamento.
 
-## Por que não posso compartilhar um projeto do qual sou o Proprietário e onde tenho permissões de Gerenciar com uma Equipe? Simplesmente não consigo encontrar a equipe na caixa de diálogo de compartilhamento do projeto.
+## Por que não posso compartilhar um projeto para o qual sou o Proprietário e onde tenho permissões de Gerenciamento com uma Equipe? Eu simplesmente não consigo encontrar a equipe na caixa de diálogo de compartilhamento do projeto.
 
-### Resposta
+### Responder
 
-O administrador do Adobe Workfront restringiu você a visualizar somente Empresas, Grupos e Equipes aos quais você pertence em seu Nível de acesso do. A equipe que você está procurando não é uma das equipes às quais você pertence.
+O administrador do Adobe Workfront restringiu você a visualizar somente Empresas, Grupos e equipes aos quais você pertence em seu Nível de acesso do. A equipe que você está procurando não é uma das equipes às quais você pertence.
 
 ![](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
 
-Para obter informações sobre como permitir que um usuário exiba todas as equipes no sistema, consulte [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Para obter informações sobre como permitir que um usuário visualize todas as equipes no sistema, consulte [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
