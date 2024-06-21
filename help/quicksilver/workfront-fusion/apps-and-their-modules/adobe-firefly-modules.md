@@ -9,9 +9,9 @@ description: Em um [!DNL Adobe Workfront Fusion] cenário, é possível automati
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: f1821568ea69d370dc5b2e4cbaaf6b0a72f9fe7f
+source-git-commit: 7013302a6ba903b410ed1fa8948a195083004eb9
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
@@ -241,8 +241,8 @@ Esse módulo de ação preenche a área mascarada de uma imagem, opcionalmente c
    <td>Selecione o tamanho desejado para a imagem preenchida.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Seed]</td> 
-   <td>Insira ou mapeie um inteiro. Você pode usar essa mesma semente em outro módulo Expandir uma imagem para gerar uma imagem semelhante com estilos diferentes. </td> 
+   <td role="rowheader">[!UICONTROL Seeds]</td> 
+   <td>Para cada imagem que o módulo gerará, clique em <b>Adicionar item<b> e insira ou mapeie um número inteiro. Você pode usar essa mesma semente em outro módulo Expandir uma imagem para gerar uma imagem semelhante com estilos diferentes. O número de seeds que você adicionar deve ser igual ao campo Number of variation.</td> 
   </tr> 
  </tbody> 
 </table>
