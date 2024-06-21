@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
+source-git-commit: 0479d6e2e2781acf8bb1dfbb8b70768516769d3f
 workflow-type: tm+mt
-source-wordcount: '4386'
+source-wordcount: '4384'
 ht-degree: 0%
 
 ---
@@ -363,7 +363,7 @@ Você pode recuperar campos de dados personalizados usando o prefixo &quot;DE:&q
 #### Uso de Consultas Nomeadas
 
 Alguns tipos de objeto têm pesquisas nomeadas que são executadas com frequência e estão disponíveis ao anexar o nome da consulta ao final do URI do tipo de objeto. Por exemplo, a solicitação a seguir recupera os itens de trabalho (tarefas e problemas) aos quais o usuário está atribuído no momento:
-<pre>/attask/api/v15.0/work/myWork</pre>As consultas nomeadas suportam a solicitação do parâmetro de campos para recuperar campos adicionais. Algumas consultas nomeadas também aceitam filtros adicionais. Para obter uma lista de consultas nomeadas permitidas para um objeto, consulte a guia Ação para o objeto no [API Explorer](../../wf-api/general/api-explorer.md).
+<pre>/attask/api/v15.0/work/myWork</pre>As consultas nomeadas suportam a solicitação do parâmetro de campos para recuperar campos adicionais. Algumas consultas nomeadas também aceitam filtros adicionais. Para obter uma lista de consultas nomeadas permitidas para um objeto, consulte a guia Ação para o objeto no [API Explorer](https://developer.adobe.com/workfront/api-explorer/).
 
 #### Usar `Count`
 
@@ -373,7 +373,7 @@ Você pode usar `count` para retornar o número de resultados que correspondem �
 
 ### Solicitar um relatório
 
-Você pode executar uma solicitação de relatório, onde somente a agregação de algum campo é desejada com um ou mais agrupamentos. Como mostrado no exemplo a seguir, a sintaxe do relatório é igual à sintaxe da API SOAP:
+Você pode executar uma solicitação de relatório, onde somente a agregação de algum campo é desejada com um ou mais agrupamentos. Como mostrado no exemplo a seguir, a sintaxe do relatório é igual à sintaxe da API do SOAP:
 <pre>GET /attask/api/v15.0/hour/report?project:name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>que retorna o seguinte resultado
 <pre>{<br>    "Primeiro projeto": { <br>        "sum_hours": 15 <br>    }, <br>     "Segundo projeto": { <br>        "sum_hours": 30 <br>    } <br>}</pre>A adição do parâmetro $$ROLLUP=true inclui um total em cada nível de agrupamento:
 <pre>{<br>    "Primeiro projeto": { <br>        "sum_hours": 15 <br>    }, <br>    "Segundo projeto": { <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br>}</pre>
