@@ -6,9 +6,10 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 4ab71bfa3d93da8250748ba5aaa90f01dda9d8e3
+exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
+source-git-commit: d698a0a4f262bb0b4008c18875473b63997de6ef
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '207'
 ht-degree: 1%
 
 ---
@@ -16,6 +17,31 @@ ht-degree: 1%
 # Ativar ou desativar o Assistente de IA
 
 Como administrador do Workfront, você pode controlar quais usuários em sua organização têm o Assistente de IA ativado. Isso é gerenciado pelos níveis de acesso.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td>Qualquer</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td><p>Novo: Padrão</p>
+       <p>ou</p>
+       <p>Atual: Plano</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Você deve ser um administrador do Workfront.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Ativar ou desativar o Assistente de IA no Workfront
 
 O Assistente de IA é ativado por padrão.
 
