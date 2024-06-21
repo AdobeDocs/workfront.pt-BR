@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: dc8e6f730ec88fc66c3486987e064b5f0760fb80
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 6%
+source-wordcount: '663'
+ht-degree: 7%
 
 ---
 
@@ -41,20 +41,25 @@ Você pode compartilhar os seguintes objetos:
 
 * Visualizações
 
+  Você deve fornecer aos usuários, incluindo administradores do sistema, permissões para acessar exibições separadamente de suas permissões para acessar espaços de trabalho. Para obter informações, consulte [Compartilhar exibições](/help/quicksilver/planning/access/share-views.md).
+
+Você pode compartilhar um espaço de trabalho ou uma exibição com as seguintes entidades:
+
+* Usuários
+* Grupos
+
+<!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
+
 ## Considerações sobre o compartilhamento de objetos no Adobe Workfront Planning
 
-* Seu tipo de licença do Adobe Workfront funciona em conjunto com suas permissões do Workfront Planning para fornecer acesso a visualização, contribuição ou gerenciamento de objetos ao usar o Workfront Planning.
+* Seu tipo de licença do Adobe Workfront funciona em conjunto com suas permissões do Workfront Planning para fornecer acesso a exibir, contribuir ou gerenciar espaços de trabalho e seus objetos.
 
   Para obter informações sobre como os tipos de licença afetam os níveis de permissão para o Workfront Planning, consulte [Visão geral do tipo de licença ao usar o Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
-* Os administradores do sistema podem gerenciar e compartilhar espaços de trabalho criados por outros usuários.
-* Se você não for um Administrador do sistema, poderá contribuir com espaços de trabalho criados por outros se eles forem compartilhados com você.
-* Não é possível compartilhar espaços de trabalho ou exibições em massa.
-* Você pode compartilhar um espaço de trabalho ou uma exibição com as seguintes entidades:
-   * Usuários
-   * Grupos
-     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
-* Outros usuários, incluindo Administradores do sistema, só podem acessar as exibições que criaram ou que foram compartilhadas com eles. Os administradores do sistema só podem receber permissões para Gerenciar uma exibição.
-* É possível compartilhar um link para um espaço de trabalho ou para uma exibição de uma página do tipo record com outras pessoas. Os usuários que recebem o link devem ser usuários ativos e fazer logon no Workfront para acessar o espaço de trabalho ou a página do tipo de registro exibida na exibição selecionada.
+* Os administradores do sistema podem gerenciar todos os espaços de trabalho no sistema, incluindo aqueles que não criaram.
+* Outros usuários, incluindo Administradores do sistema, só podem acessar as exibições que criaram ou que foram compartilhadas com eles. Os administradores do sistema só podem receber permissões para Gerenciar uma visualização.
+* Você pode compartilhar um link com outros usuários para um espaço de trabalho ou uma visualização.
+
+  Os usuários que recebem o link devem ser usuários ativos e fazer logon no Workfront para acessar o espaço de trabalho ou a página do tipo de registro exibida na exibição selecionada.
 
 ## Permissões de compartilhamento para objetos do Adobe Workfront Planning
 
@@ -63,6 +68,8 @@ As tabelas nas seções a seguir ilustram o nível de permissões que você pode
 >[!IMPORTANT]
 >
 >Nem todos os usuários podem ter os níveis de permissão descritos abaixo. A licença individual dos usuários determina o nível de permissões que eles podem receber para objetos do Workfront Planning.
+>
+>Somente usuários de licença Padrão (ou Plano) podem ter permissões de Contribute ou Gerenciar para espaços de trabalho.
 >
 >Para obter informações, consulte [Visão geral do tipo de licença ao usar o Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
@@ -75,9 +82,6 @@ Você deve conceder aos usuários permissão aos espaços de trabalho para permi
 * Tipos de registro
 * Registros
 * Campos
-* Exibições*
-
-  *Você pode permitir que todos os usuários com permissões de Exibição ou superiores a um espaço de trabalho também acessem as exibições no espaço de trabalho. Essa é uma permissão adicional que você deve ativar ao compartilhar uma visualização. Para obter informações, consulte [Compartilhar exibições](/help/quicksilver/planning/access/share-views.md).
 
 A seguir estão os níveis de permissões para espaços de trabalho:
 

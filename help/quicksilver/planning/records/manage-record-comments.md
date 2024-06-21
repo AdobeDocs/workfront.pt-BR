@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 0%
@@ -30,38 +30,6 @@ O painel direito de um registro exibe as seguintes seções:
 
 * **Comentários**: exibe comentários e respostas que os usuários adicionam aos registros.
 * **Histórico**: exibe as alterações registradas pelo sistema que os usuários fazem nos campos de registro. Para obter mais informações, consulte [Visão geral da seção Histórico](/help/quicksilver/planning/records/history-section-overview.md).
-
-## Considerações sobre comentários em um registro
-
-* É possível adicionar comentários e respostas a registros no Workfront Planning, na seção Comentários de um registro.
-
-* Comentários adicionados aos registros vinculados não são exibidos nos registros a partir dos quais você está vinculando. Por exemplo, se você comentar em um registro de Produto do Workfront Planning vinculado a um registro de Campanha, o comentário será exibido somente no registro de Produto no Workfront Planning e não no registro de Campanha do qual você está vinculando.
-
-* É possível adicionar comentários a registros do Workfront Planning criados como resultado de uma conexão entre um registro e um objeto de outro aplicativo.
-
-  Por exemplo, você pode comentar no registro do Project Workfront Planning depois de conectar os projetos Workfront aos registros do Workfront Planning. Para obter mais informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
-
-* Comentários adicionados a objetos vinculados em outros aplicativos não são exibidos no Workfront Planning e comentários adicionados a objetos vinculados no Workfront Planning não são exibidos em outros aplicativos.
-
-  Por exemplo, comentários adicionados a projetos no Workfront não são exibidos no mesmo projeto vinculado a uma campanha no Workfront Planning, e comentários adicionados ao registro do projeto no Workfront Planning não são exibidos no Workfront.
-
-* É possível marcar os usuários para chamar a atenção deles para uma atualização. Os usuários marcados não recebem uma notificação no aplicativo nem um email sobre a atualização. <!--this might change??-->
-
-<!--replace the bullet above with this: * You can tag users to bring their attention to an update. Tagged users receive an in-app notification or an email notification about your update. 
-   The following scenario exists:   
-
-   * Adobe Unified Experience users receive both an in-app notification and an email notification. 
-   * Users who are not in the Adobe Unified Experience receive only an email notification. 
-
-      For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/planning/notifications/notifications-information.md)
-   
-      To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-      -->
-
-* Você pode adicionar uma atualização aos registros e revisar o histórico de alterações das seguintes áreas do Workfront Planning:
-
-   * Na página de detalhes do registro.
-   * Em uma exibição, na caixa de detalhes do registro.
 
 ## Requisitos de acesso
 
@@ -117,6 +85,39 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
  </tbody>
 </table>
+
+
+## Considerações sobre comentários em um registro
+
+* É possível adicionar comentários e respostas a registros no Workfront Planning, na seção Comentários de um registro.
+
+* Comentários adicionados aos registros vinculados não são exibidos nos registros a partir dos quais você está vinculando. Por exemplo, se você comentar em um registro de Produto do Workfront Planning vinculado a um registro de Campanha, o comentário será exibido somente no registro de Produto no Workfront Planning e não no registro de Campanha do qual você está vinculando.
+
+* É possível adicionar comentários a registros do Workfront Planning criados como resultado de uma conexão entre um registro e um objeto de outro aplicativo.
+
+  Por exemplo, você pode comentar no registro do Project Workfront Planning depois de conectar os projetos Workfront aos registros do Workfront Planning. Para obter mais informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
+
+* Comentários adicionados a objetos vinculados em outros aplicativos não são exibidos no Workfront Planning e comentários adicionados a objetos vinculados no Workfront Planning não são exibidos em outros aplicativos.
+
+  Por exemplo, comentários adicionados a projetos no Workfront não são exibidos no mesmo projeto vinculado a uma campanha no Workfront Planning, e comentários adicionados ao registro do projeto no Workfront Planning não são exibidos no Workfront.
+
+* É possível marcar os usuários para chamar a atenção deles para uma atualização. Os usuários marcados não recebem uma notificação no aplicativo nem um email sobre a atualização. <!--this might change??-->
+
+<!--replace the bullet above with this: * You can tag users to bring their attention to an update. Tagged users receive an in-app notification or an email notification about your update. 
+   The following scenario exists:   
+
+   * Adobe Unified Experience users receive both an in-app notification and an email notification. 
+   * Users who are not in the Adobe Unified Experience receive only an email notification. 
+
+      For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/planning/notifications/notifications-information.md)
+   
+      To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+      -->
+
+* Você pode adicionar uma atualização aos registros e revisar o histórico de alterações das seguintes áreas do Workfront Planning:
+
+   * Na página de detalhes do registro.
+   * Em uma exibição, na caixa de detalhes do registro.
 
 ### Gerenciar comentários nos registros
 

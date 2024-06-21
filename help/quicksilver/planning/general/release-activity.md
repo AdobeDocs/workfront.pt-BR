@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '7684'
+source-wordcount: '7781'
 ht-degree: 0%
 
 ---
@@ -156,6 +156,16 @@ O título de um registro é o nome do registro ou qualquer campo definido como o
 Esse aprimoramento está disponível para registros conectados do Workfront Planning e para ativos conectados da Adobe Experience Manager.
 
 Para obter informações, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+### Somente usuários licenciados Padrão ou Plano podem ter permissões de gerenciamento para espaços de trabalho (título)
+
+Produção: 21 de junho de 2024
+
+Visualização: a ser determinado
+
+Alteramos os tipos de usuários que podem ter acesso total aos espaços de trabalho. Agora, somente os usuários licenciados do Standard ou do Plan podem ter permissões de Gerenciamento para espaços de trabalho. O acesso aos tipos de registro, registros e campos é herdado de um espaço de trabalho. Todos os outros usuários têm acesso somente para visualização a espaços de trabalho e seus tipos de objeto. Antes dessa atualização, os usuários Light e licenciados pelo Trabalhador podiam receber permissões do Contribute para espaços de trabalho.
+
+Para obter mais informações, consulte [Visão geral do tipo de licença ao usar o Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 ## Semana de 10 de junho de 2024
 
@@ -366,7 +376,7 @@ Quando um usuário altera qualquer configuração de campo (nome, descrição, l
 >
 >Não há notificação para outros usuários informando que a configuração do campo foi alterada.
 
-Para obter mais informações, consulte [Editar campos](/help/quicksilver/planning/fields/edit-fields.md).
+Para obter mais informações, consulte [Editar configurações de campo](/help/quicksilver/planning/fields/edit-fields.md).
 
 ## Semana de 6 de maio de 2024
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -65,9 +65,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr>
    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td>
    <td>
-   <p>Novo: Claro ou superior</p>
+   <p>Novo: Padrão</p>
    Ou
-   <p>Atual: trabalho ou superior</p> 
+   <p>Atual: Plano</p> 
   </td>
   </tr>
 
@@ -78,7 +78,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
 <tr>
    <td role="rowheader"><p>Permissões</p></td>
-   <td> <p>Gerenciar ou aumentar as permissões de um espaço de trabalho</a> </p>  
+   <td> <p>Gerenciar permissões em um espaço de trabalho</a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
 </td>
   </tr>

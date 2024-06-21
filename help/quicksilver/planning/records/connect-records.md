@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: b63b9bcd88eaf70c629dde264656d45567896f2e
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2585'
 ht-degree: 1%
 
 ---
@@ -92,9 +92,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licença do Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td>
    <td>
-   <p>Qualquer</p> 
+   <p>Novo: Padrão</p>
+   <p>Atual: Plano</p> 
   </td>
   </tr>
 
@@ -120,6 +121,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 </tbody>
 </table>
+
+*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]

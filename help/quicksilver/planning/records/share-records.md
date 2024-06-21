@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -135,4 +135,8 @@ O espaço de trabalho que você acessou por último é aberto.
 
 ## Compartilhar todos os registros em um espaço de trabalho compartilhando o espaço de trabalho
 
-É possível compartilhar todos os registros em um espaço de trabalho ao compartilhá-lo com outras pessoas. Para obter mais informações, consulte [Compartilhar um espaço de trabalho](/help/quicksilver/planning/access/share-workspaces.md).
+É possível compartilhar todos os registros em um espaço de trabalho ao compartilhá-lo com outras pessoas.
+
+Somente usuários com permissões para Gerenciar um espaço de trabalho podem compartilhá-lo com outras pessoas.
+
+Para obter mais informações, consulte [Compartilhar um espaço de trabalho](/help/quicksilver/planning/access/share-workspaces.md).
