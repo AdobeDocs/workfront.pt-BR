@@ -6,16 +6,14 @@ description: Você pode solicitar aprovação de outros usuários para um docume
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: e8116a6778d5952ba583cfdfb94b761757adc030
+source-git-commit: 6daf68aee442b3322d186e649e7797cc2e911145
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
 
 # Criar uma revisão de documento ou solicitação de aprovação
-
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente Visualização da sandbox.</span>
 
 Você pode solicitar aprovação de outros usuários ou equipes para um documento no Adobe Workfront ou solicitar que eles revisem um documento sem precisar aprová-lo.
 
@@ -62,7 +60,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique em **Aprovações** no painel esquerdo.
 
-1. <span class="preview">(Opcional) Defina um prazo para a aprovação. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes do prazo especificado.</span>
+1. (Opcional) Defina um prazo para a aprovação. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes do prazo especificado.
 
 1. Para adicionar um aprovador, clique no **Aprovador** e comece a digitar um nome de usuário ou de equipe.
 
@@ -84,7 +82,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ![](assets/doc-summary-add-approvers.png)
 
-1. <span class="preview">(Opcional) Defina um prazo para a aprovação. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes do prazo especificado.</span>
+1. (Opcional) Defina um prazo para a aprovação. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes do prazo especificado.
 
 1. Para adicionar um aprovador, clique no **Aprovador** e comece a digitar um nome de usuário ou de equipe.
 
