@@ -1,7 +1,7 @@
 ---
-source-git-commit: 400b10e2803e7a74e70ccd0a33e55ca7075fdfed
+source-git-commit: 9960d5a100e710afefed3036958a3435528cafa3
 workflow-type: tm+mt
-source-wordcount: '2502'
+source-wordcount: '2510'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Com a versão 24.7, o designer do formulário estará disponível para o público em geral e se tornará a experiência padrão para criar e editar formulários personalizados no Adobe Workfront. O criador de formulários herdados não estará mais disponível. Recomendamos que você alterne para o designer do formulário agora e aproveite seus recursos.
+>Com o próximo lançamento na semana de 15 de julho (a versão 24.7), o designer do formulário estará disponível no geral e se tornará a experiência padrão para criar e editar formulários personalizados no Adobe Workfront. O criador de formulários herdados não estará mais disponível. Recomendamos que você alterne para o designer do formulário agora e aproveite seus recursos.
 >
 >Para obter informações, consulte [Criar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 >
