@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Reutilizar um campo personalizado calculado existente em um formulário personalizado com o construtor de formulários herdado
 description: Você pode usar o mesmo campo personalizado calculado em formulários personalizados que pertencem a objetos diferentes. Por exemplo, você pode usar o campo calculado Lucro criado para o formulário personalizado de projeto em um formulário personalizado de tarefa.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 24482fca-94e4-406d-9d62-3db9f51481e6
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # Reutilizar um campo personalizado calculado existente em um formulário personalizado com o construtor de formulários herdado
+
+{{form-designer-default}}
 
 Você pode usar o mesmo campo personalizado calculado em formulários personalizados que pertencem a objetos diferentes. Por exemplo, você pode usar o campo calculado Lucro criado para o formulário personalizado de projeto em um formulário personalizado de tarefa.
 

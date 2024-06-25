@@ -1,18 +1,20 @@
 ---
 title: Adicione ou edite uma imagem ou outro widget de ativo em um formulário personalizado com o construtor de formulários herdado
 description: Você pode adicionar ou editar as propriedades de qualquer um dos seguintes widgets de ativos, como imagens, vídeos, arquivos PDF e arquivos Adobe XD em um formulário personalizado. Isso é útil quando você precisa incluir conteúdo visual, como imagens de marca, um vídeo de instrução ou um protótipo interativo de um aplicativo que está projetando.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1345'
 ht-degree: 1%
 
 ---
 
 # Adicione ou edite uma imagem ou outro widget de ativo em um formulário personalizado com o construtor de formulários herdado
+
+{{form-designer-default}}
 
 Você pode adicionar ou editar as propriedades de qualquer um dos seguintes widgets de ativos em um formulário personalizado:
 
@@ -46,7 +48,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>plano do Adobe Workfront*</p> </td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 

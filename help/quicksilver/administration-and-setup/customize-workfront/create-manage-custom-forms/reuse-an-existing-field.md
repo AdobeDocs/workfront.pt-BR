@@ -4,18 +4,20 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Reutilizar um campo personalizado ou widget de ativo em um formulário personalizado com o construtor de formulários herdado
 description: Ao criar ou editar um formulário personalizado, você pode adicionar um campo ou widget personalizado que já foi adicionado a outro formulário personalizado.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2c617909-48cb-4ee1-b0e8-002f2e57b0f0
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
 
 # Reutilizar um campo personalizado ou widget de ativo em um formulário personalizado com o construtor de formulários herdado
+
+{{form-designer-default}}
 
 Ao criar ou editar um formulário personalizado, você pode adicionar um campo personalizado ou widget de ativo que já foi adicionado a outro formulário personalizado.
 
@@ -33,7 +35,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>plano do Adobe Workfront*</p> </td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 

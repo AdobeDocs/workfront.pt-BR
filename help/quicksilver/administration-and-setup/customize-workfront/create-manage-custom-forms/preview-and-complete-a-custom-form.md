@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Pré-visualizar e preencher um formulário personalizado com o construtor de formulários herdado
 description: Quando terminar de criar ou editar um formulário personalizado, você poderá pré-visualizá-lo para ver como ficará para os usuários, salvá-lo e fechá-lo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6bf4e7dd-50a6-4a36-947f-326f83aeb8a4
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # Pré-visualizar e preencher um formulário personalizado com o construtor de formulários herdado
+
+{{form-designer-default}}
 
 Quando terminar de criar ou editar um formulário personalizado, você poderá pré-visualizá-lo para ver como ficará para os usuários, salvá-lo e fechá-lo.
 
@@ -29,7 +31,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>plano do Adobe Workfront*</p> </td> 
-   <td>Qualquer Um</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
