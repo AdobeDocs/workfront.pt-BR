@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 93a2630ec5c21f03643a29a8730046c8458c795f
 workflow-type: tm+mt
-source-wordcount: '2524'
+source-wordcount: '2561'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,7 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Calcular percentual concluído com base em]</td> 
-   <td> <p>O percentual de conclusão de um projeto ou tarefa pai é baseado no progresso geral das tarefas. Essas informações podem ser calculadas com base na Duração ou nas Horas planejadas das tarefas em um projeto.</p> <p>Se você selecionar [!UICONTROL Duração], a Duração de cada tarefa em um projeto determinará o percentual de conclusão geral do projeto, e a Duração de cada subtarefa determinará o percentual de conclusão geral de sua tarefa pai.</p> <p>Se você selecionar [!UICONTROL Duração], especifique as [!UICONTROL Horas típicas por dia de trabalho] e [!UICONTROL Dias de trabalho típicos por semana] na seção [!UICONTROL Linhas do tempo]. [!DNL Workfront] O usa essas informações ao calcular o percentual concluído de uma tarefa com base na Duração. </p> <p>Se você selecionar [!UICONTROL Horas Planejadas], certifique-se de que todas as tarefas em cada projeto tenham a quantidade de [!UICONTROL Horas Planejadas] definida, e que a quantidade não seja zero.</p> </td> 
+   <td> <p>O Workfront calcula o percentual concluído de um projeto ou tarefa pai usando o percentual concluído de cada tarefa no projeto e a Duração ou as Horas planejadas de cada tarefa.</p><p>O percentual concluído de cada tarefa é definido manualmente pelos atribuídos da tarefa.</p><p>Você pode selecionar aqui se o Workfront usará a duração ou o planejamento de horas de tarefas para calcular o percentual concluído dos projetos.</p> <p>Se você selecionar [!UICONTROL Duração], a Duração de cada tarefa em um projeto determinará o percentual de conclusão geral do projeto, e a Duração de cada subtarefa determinará o percentual de conclusão geral de sua tarefa pai.</p> <p>Se você selecionar [!UICONTROL Duração], especifique as [!UICONTROL Horas típicas por dia de trabalho] e [!UICONTROL Dias de trabalho típicos por semana] na seção [!UICONTROL Linhas do tempo]. [!DNL Workfront] O usa essas informações ao calcular o percentual concluído de uma tarefa com base na Duração. </p> <p>Se você selecionar [!UICONTROL Horas Planejadas], certifique-se de que todas as tarefas em cada projeto tenham a quantidade de [!UICONTROL Horas Planejadas] definida, e que a quantidade não seja zero.</p><p>Para obter mais informações, consulte <a href="/help/quicksilver/manage-work/tasks/task-information/project-percent-complete.md">Visão geral do Percentual de Término do Projeto</a>.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Definir automaticamente a Condição do projeto com base no Status de Progresso]</td> 
