@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: b7f986a6-a876-4e0d-84e5-237ec8fcf590
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -62,4 +62,4 @@ No aplicativo móvel, você pode pedir ao assistente virtual para ajudá-lo com 
 
 Esses comandos exibem uma lista das coisas diferentes sobre as quais você pode perguntar ao assistente.
 
-Para obter uma lista de comandos existentes, consulte [assistente virtual do aplicativo móvel do Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
+**Observação: o assistente virtual para dispositivos móveis foi descontinuado em abril de 2024.**

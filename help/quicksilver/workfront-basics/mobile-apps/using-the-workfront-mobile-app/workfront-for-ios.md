@@ -7,14 +7,14 @@ description: A variável [!DNL Adobe Workfront] permite acessar seu trabalho em 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: dcf52fc5-8029-49e0-bf6a-0733df334dc2
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 3%
+source-wordcount: '570'
+ht-degree: 2%
 
 ---
 
-# [!DNL Adobe Workfront] por [!DNL iOS]
+# [!DNL Adobe Workfront] para [!DNL iOS]
 
 A variável [!DNL Adobe Workfront] permite acessar seu trabalho em qualquer [!DNL iOS] dispositivo. Você pode instalar e usar o [!DNL Workfront] aplicativo móvel em telefones e tablets com iOS 10 ou posterior. Uma ferramenta [!DNL Workfront] O aplicativo móvel está disponível para o [!DNL iPhone] e a variável [!DNL iPad].
 
@@ -39,7 +39,7 @@ A variável [!UICONTROL Início] permite trabalhar diretamente em tarefas, probl
    <td> 
     <ul> 
      <li>Atualizar status de tarefas e problemas</li> 
-     <li>Publicar na área Atualizações</li> 
+     <li>Post na área Atualizações</li> 
      <li>Visualizar documentos</li> 
      <li>Anexar fotos</li> 
      <li> <p>Criar uma solicitação ou uma tarefa rápida</p> <p>Nota: As tarefas rápidas criadas na home page são tarefas pessoais, a menos que você opte por atribuir um projeto.</p> </li> 
@@ -58,7 +58,7 @@ A variável [!UICONTROL Quadros] permite acessar seu [!DNL Workfront] placas.
 
 ![Área de painéis](assets/mobile-all-boards-displayed.png)
 
-Para obter mais informações, consulte [[!DNL Adobe Workfront] [!UICONTROL Boards] para dispositivos móveis](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
+Para obter mais informações, consulte [[!DNL Adobe Workfront] [!UICONTROL Quadros] para dispositivos móveis](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
 ## [!UICONTROL Projetos]
 
@@ -73,7 +73,7 @@ A variável [!UICONTROL Projetos] permite interagir com e gerenciar [!UICONTROL 
     <ul> 
      <li>Atualizar status do projeto</li> 
      <li>Exibir detalhes importantes do projeto</li> 
-     <li>Publicar na área [!UICONTROL Atualizações]</li> 
+     <li>Post na área [!UICONTROL Atualizações]</li> 
      <li>Converter tarefas, problemas e solicitações em projetos</li> 
     </ul> </td> 
    <td> 
@@ -106,7 +106,7 @@ A variável [!UICONTROL Aprovações] permite exibir e aprovar [!UICONTROL aprov
     </ul> </td>
    <td>
     <ul>
-     <li>Folhas de horas</li>
+     <li>Planilhas de horas</li>
      <li>Solicitações de Acesso</li>
     </ul> </td>
   </tr>
@@ -145,7 +145,7 @@ A variável [!UICONTROL Solicitações] permite exibir detalhes sobre solicitaç
     </ul> </td>
    <td>
     <ul>
-     <li>Publicar na área [!UICONTROL Atualizações]</li>
+     <li>Post na área [!UICONTROL Atualizações]</li>
      <li>Visualizar documentos</li>
      <li>Anexar fotos</li>
      <li>Salvar uma solicitação como rascunho</li>
@@ -156,11 +156,11 @@ A variável [!UICONTROL Solicitações] permite exibir detalhes sobre solicitaç
 
 ![Área de solicitações](assets/mobile-requests-area.png)
 
-## Folhas de horas
+## Planilhas de horas
 
 A variável [!UICONTROL planilhas de horas] permite exibir detalhes sobre suas folhas de horas. No [!UICONTROL Planilhas de Horas] área do aplicativo, é possível:
 
-* Publicar no [!UICONTROL Atualizações] área
+* Post no [!UICONTROL Atualizações] área
 * Ajustar tipos de horas
 * Alterar o horário em que você fez logon
 * Inserir comentários em sua folha de horas
@@ -192,21 +192,3 @@ A variável [!UICONTROL Configuração] permite:
 * Logout
 
 ![Área de configuração](assets/ios-configuration-area.png)
-
-## Assistente virtual
-
-O assistente virtual permite executar as seguintes tarefas por meio do comando de voz:
-
-* [!UICONTROL Mostre-me]
-* [!UICONTROL Excluir]
-* [!UICONTROL Procurar]
-* [!UICONTROL Ajude-me com os comandos]
-
-Para obter mais informações sobre o Assistente virtual, consulte [[!DNL Adobe Workfront] assistente virtual do aplicativo móvel](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
-
-## [!UICONTROL Fixar]
-
-A variável [!UICONTROL Fixar] permite acessar os comandos do assistente virtual salvos, bem como os pins do navegador da web.
-![Fixar e salvar consulta](assets/pin-and-save-query-adobe-350x285.png)
-
-Para obter mais informações sobre o Assistente virtual, consulte [assistente virtual do aplicativo móvel do Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).

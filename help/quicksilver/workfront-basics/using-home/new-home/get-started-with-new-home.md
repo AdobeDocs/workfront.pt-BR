@@ -6,9 +6,9 @@ description: A nova Página inicial é um novo recurso poderoso para gerenciar s
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
+source-git-commit: 60ff39c7a8c4736e1a176dd22bd0be5ab804223f
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1140'
 ht-degree: 5%
 
 ---
@@ -45,7 +45,7 @@ Abaixo estão os dez widgets disponíveis atualmente para escolher, bem como um 
     Exibe tarefas que são atribuídas a você em uma lista. Você pode usar filtros, visualizações ou agrupamentos existentes para personalizar a lista ou pode criar uma tarefa diretamente do widget. Você também pode delegar suas tarefas enquanto estiver fora do escritório.
 
 * **Meus problemas**\
-    Exibe os problemas atribuídos a você em uma lista. Você pode usar filtros, visualizações ou agrupamentos existentes para personalizar a lista ou pode criar um problema diretamente do widget. Este widget inclui apenas problemas cujos projetos associados estão definidos como Atuais. Você também pode delegar seus problemas enquanto estiver fora do escritório.
+    Exibe os problemas atribuídos a você em uma lista. Você pode usar filtros, visualizações ou agrupamentos existentes para personalizar a lista ou pode criar um problema diretamente do widget. Este widget inclui apenas problemas cujos projetos associados estão definidos como Atuais e não inclui projetos concluídos. Você também pode delegar seus problemas enquanto estiver fora do escritório.
 
 * **Minhas solicitações**\
     Exibe todas as solicitações que você submeteu, um filtro para exibir somente as solicitações abertas e um botão que abre o painel de resumo de uma solicitação.

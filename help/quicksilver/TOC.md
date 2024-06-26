@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 6ae31d24aaea1d5e94301ec5fd0f840ef45927ca
+source-git-commit: c4ee5b01750d28b2715c35594123ebe8619c2508
 workflow-type: tm+mt
-source-wordcount: '14373'
+source-wordcount: '14367'
 ht-degree: 1%
 
 ---
@@ -273,7 +273,7 @@ ht-degree: 1%
             * [Atividade de lançamento do Adobe Workfront Proof 23.3: Semana de 17 de julho de 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md)
             * [Atividade de lançamento do Adobe Workfront Proof 23.3: Semana de 5 de junho de 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md)
             * [Atividade de lançamento do Adobe Workfront Proof 23.3: Semana de 8 de maio de 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
-         * [Atividade de lançamento do Workfront Proof: semana de 17 de maio de 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
+         * [Atividade de lançamento do Workfront Proof: Semana de 17 de maio de 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
          * [Atividade de lançamento do Workfront Proof: Semana de 29 de novembro de 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
       * Arquivamento de versão trimestral {#quarterly-release}
          * [Arquivamento de versão trimestral](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
@@ -341,45 +341,45 @@ ht-degree: 1%
          * Versão 2018.3 {#release-18-3}
             * [Atividade da versão 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity.md)
             * [Visão geral da atividade da versão 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)
-            * [Atividade da versão Beta 1 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md)
-            * [Atividade da versão Beta 2 de 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md)
-            * [Atividade da versão Beta 3 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-3-release-activity.md)
-            * [Atividade da versão Beta 4 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md)
-            * [Atividade da versão Beta 5 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md)
+            * [Atividade da versão 2018.3 do Beta 1](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md)
+            * [Atividade da versão 2018.3 do Beta 2](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md)
+            * [Atividade da versão 2018.3 do Beta 3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-3-release-activity.md)
+            * [Atividade da versão 2018.3 do Beta 4](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md)
+            * [Atividade da versão 2018.3 do Beta 5](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md)
             * [Final do Beta 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md)
          * Versão 2018.2 {#release-18-2}
             * [Atividade da versão 2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity.md)
             * [Visão geral da atividade da versão 2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)
-            * [Atividade da versão Beta 1 2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md)
-            * [Atividade da versão Beta 2 de 2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md)
-            * [Atividade da versão Beta 3 2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md)
-            * [Atividade da versão Beta 4 2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md)
-            * [Atividade da versão Beta 5 2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md)
-            * [Atividade de versão final Beta 2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md)
+            * [Atividade da versão 2018.2 do Beta 1](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md)
+            * [Atividade da versão 2018.2 do Beta 2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md)
+            * [Atividade da versão 2018.2 do Beta 3](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md)
+            * [Atividade da versão 2018.2 do Beta 4](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md)
+            * [Atividade da versão 2018.2 do Beta 5](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md)
+            * [Atividade de versão final do Beta 2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md)
          * Versão 2018.1 {#release-18-1}
             * [Atividade da versão 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity.md)
             * [Visão geral da atividade da versão 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)
-            * [Atividade da versão Beta 1 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-1-release-activity.md)
-            * [Atividade de versão Beta 2 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-2-release-activity.md)
-            * [Atividade da versão Beta 3 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md)
-            * [Atividade da versão Beta 4 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md)
-            * [Atividade de versão final Beta 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-final-release-activity.md)
+            * [Atividade da versão 2018.1 do Beta 1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-1-release-activity.md)
+            * [Atividade da versão 2018.1 do Beta 2](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-2-release-activity.md)
+            * [Atividade da versão 2018.1 do Beta 3](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md)
+            * [Atividade da versão 2018.1 do Beta 4](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md)
+            * [Atividade de versão final do Beta 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-final-release-activity.md)
          * Versão 2017.3 {#release-17-3}
             * [Atividade da versão 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity.md)
             * [Visão geral da atividade da versão 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)
-            * [Atividade da versão Beta 1 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md)
-            * [Atividade da versão Beta 2 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md)
-            * [Atividade da versão Beta 3 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md)
-            * [Atividade da versão Beta 4 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md)
-            * [Atividade de versão final Beta 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md)
+            * [Atividade da versão 2017.3 do Beta 1](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md)
+            * [Atividade da versão 2017.3 do Beta 2](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md)
+            * [Atividade da versão 2017.3 do Beta 3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md)
+            * [Atividade da versão 2017.3 do Beta 4](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md)
+            * [Atividade de versão final do Beta 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md)
             * [Webinários da versão 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-webinars.md)
          * Versão 2017.2 {#release-17-2}
             * [Atividade da versão 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity.md)
             * [Visão geral da atividade da versão 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md)
-            * [Atividade da versão Beta 1 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md)
-            * [Atividade da versão Beta 2 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-2-release-activity.md)
-            * [Atividade da versão Beta 3 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md)
-            * [Final da versão beta de 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md)
+            * [Atividade da versão 2017.2 do Beta 1](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md)
+            * [Atividade da versão 2017.2 do Beta 2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-2-release-activity.md)
+            * [Atividade da versão 2017.2 do Beta 3](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md)
+            * [Final do Beta 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md)
             * [Webinários da versão 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-webinars.md)
          * Versão Workfront R1 {#r1-release}
             * [A versão Workfront R1](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md)
@@ -409,8 +409,8 @@ ht-degree: 1%
          * [Falsificação de email e remoção de resposta POP](product-announcements/announcements/announcement-archive/email-spoofing-pop-reply-message.md)
          * [Os clientes nos Clusters 1, 2 e 3 devem atualizar qualquer bloco IP de inclui na lista de permissões do para evitar o bloqueio dos serviços da Adobe Workfront](product-announcements/announcements/announcement-archive/clusters-1-3-update-whitelist.md)
          * [Remover SMTP personalizado como uma opção de email de saída](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
-   * Programas Beta {#beta}
-      * [Programas Beta](product-announcements/betas/betas.md)
+   * Programas do Beta {#beta}
+      * [Programas do Beta](product-announcements/betas/betas.md)
       * Painéis do Canvas beta {#canvas-dashboards-beta}
          * [Informações beta de Painéis do Canvas](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
          * [Visão geral beta da Tela de relatório](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
@@ -990,11 +990,10 @@ ht-degree: 1%
          * [Placas Adobe Workfront para portáteis](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)
          * [Revise e tome decisões sobre provas no aplicativo móvel do Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
          * [Compartilhar e baixar provas no aplicativo móvel do Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/share-proofs-mobile.md)
-         * [Comentário sobre provas no Android](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
+         * [Comentar em provas no Android](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
          * [Comentar em provas no iOS](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
          * [Adobe Workfront para gerenciamento de dispositivos móveis (MDM)](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
          * [Configurar o Adobe Workfront para o MobileIron](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
-         * [assistente virtual do aplicativo móvel do Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
          * [Aprovações no aplicativo móvel do Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
       * Usar visualização do Adobe Workfront {#use-workfront-view}
          * [Usar visualização do Adobe Workfront](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
@@ -1175,7 +1174,7 @@ ht-degree: 1%
          * [Solução de problemas de integração do Adobe Experience Manager](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * Migrar dos conectores herdados ou aprimorados {#migrate-from-legacy-enhanced-connectors}
       * [Migrar dos conectores herdados ou aprimorados](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
-      * [Migração do conector herdado ou aprimorado para o Workfront para integração as a Cloud Service do Adobe Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
+      * [Migração do conector herdado ou aprimorado para o Workfront Adobe para integração as a Cloud Service Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
       * [Migração do conector herdado para o conector aprimorado](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
       * [Desinstale o conector herdado do Workfront com Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
       * [Desinstale o conector aprimorado do Workfront com Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
@@ -1871,7 +1870,7 @@ ht-degree: 1%
             * [Restaurar uma prova arquivada](review-and-approve-work/proofing/managing-proofs-within-workfront/restore-archived-proof.md)
             * [Exibir atividade em uma prova no Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
             * [Usar o relatório de aprovação de prova](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
-            * [Acessar o Workfront Proof da Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
+            * [Acessar o Workfront Proof pelo Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
          * Gerenciar versões de prova {#manage-proof-versions}
             * [Gerenciar versões de prova](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
             * [Criar uma nova versão de uma prova](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
@@ -2220,7 +2219,7 @@ ht-degree: 1%
          * [Modelos de cenário](workfront-fusion/scenarios/templates/fusion-templates.md)
          * [[!DNL Fusion] visão geral dos modelos](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
          * [Criar novos modelos no Adobe Workfront Fusion](workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
-         * [Publicar e compartilhar modelos do Adobe Workfront Fusion](workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
+         * [Publish e compartilhar modelos do Adobe Workfront Fusion](workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
          * [Criar cenários com modelos do Adobe Workfront Fusion](workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
          * [Exibir, editar e excluir modelos do Adobe Workfront Fusion](workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md)
          * [Administração de Modelos do Adobe Workfront Fusion](workfront-fusion/scenarios/templates/fusion-templates-adminstration.md)
@@ -2232,7 +2231,7 @@ ht-degree: 1%
    * Aplicativos Workfront Fusion e seus módulos {#fusion-apps-and-modules}
       * [Aplicativos e seus módulos](workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
       * [Módulos do Adobe Workfront](workfront-fusion/apps-and-their-modules/workfront-modules.md)
-      * [Módulos de prova do Workfront](workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
+      * [Módulos do Workfront Proof](workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
       * [Módulos do Adobe Workfront Planning](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
       * [[!DNL Workfront Boards] módulos](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-boards-modules.md)
       * [Módulo Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md)
@@ -2421,7 +2420,7 @@ ht-degree: 1%
       * [Pesquisar itens do Adobe Workfront no Slack](workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
       * [Acessar objetos Adobe Workfront de um link compartilhado no Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
       * [Acessar o Adobe Workfront do Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
-      * [Postar um comentário Slack como atualização](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
+      * [Post um comentário de Slack como atualização](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
       * [Receber notificações do Adobe Workfront no Slack](workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
    * Adobe Workfront com Anaplan {#workfront-with-anaplan}
       * [Adobe Workfront com Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)
@@ -2435,8 +2434,8 @@ ht-degree: 1%
       * [Aplicar uma alocação de orçamento Anaplan a uma solicitação de campanha ou projeto de campanha do Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 * Prova do Workfront {#workfront-proof}
    * [Workfront Proof: índice do artigo](workfront-proof/workfront-proof.md)
-   * Introdução à prova do Workfront {#get-started-wf-proof}
-      * [Introdução à prova do Workfront](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
+   * Introdução ao Workfront Proof {#get-started-wf-proof}
+      * [Introdução ao Workfront Proof](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
       * Exemplos de fluxo de trabalho {#workflow-examples}
          * [Exemplos de fluxo de trabalho](workfront-proof/wp-getstarted/workflow-examples/workflow-examples.md)
          * [Processo de prova básica no Workfront Proof](workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
@@ -2447,30 +2446,30 @@ ht-degree: 1%
          * [Configurações pessoais no Workfront Proof](workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
          * [Designação de proprietários de prova temporários no Workfront Proof](workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md)
          * [Integrações - Configuração do usuário](workfront-proof/wp-getstarted/personal-settings/integrations-user-setup.md)
-      * Informações do sistema na prova do Workfront {#system-info-wf-proof}
-         * [Informações do sistema na prova do Workfront](workfront-proof/wp-getstarted/system-information/system-information.md)
+      * Informações do sistema no Workfront Proof {#system-info-wf-proof}
+         * [Informações do sistema no Workfront Proof](workfront-proof/wp-getstarted/system-information/system-information.md)
          * [Visualizar ambiente de teste de sandbox - Workfront Proof](workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
-         * [Configurações de idioma na prova do Workfront](workfront-proof/wp-getstarted/system-information/language-settings.md)
-         * [Codecs na prova do Workfront](workfront-proof/wp-getstarted/system-information/codecs.md)
+         * [Configurações de idioma no Workfront Proof](workfront-proof/wp-getstarted/system-information/language-settings.md)
+         * [Codecs no Workfront Proof](workfront-proof/wp-getstarted/system-information/codecs.md)
       * Perguntas frequentes sobre o Workfront Proof {#wf-proof-faq}
          * [Workfront Proof - perguntas frequentes](workfront-proof/wp-getstarted/faqs/faqs.md)
          * [Perguntas frequentes: criar e compartilhar provas e arquivos](workfront-proof/wp-getstarted/faqs/faq-create-share-proofs-files.md)
          * [Perguntas frequentes - Revisar provas](workfront-proof/wp-getstarted/faqs/faq-review-proofs.md)
          * [Perguntas frequentes: conta do Workfront Proof](workfront-proof/wp-getstarted/faqs/faq-wp-account.md)
-         * [Fazer logon e alterar a senha e o email para o Workfront Proof](workfront-proof/wp-getstarted/faqs/log-in-change-password.md)
-         * [Definição de fusos horários na Prova do Workfront](workfront-proof/wp-getstarted/faqs/set-timezones-in-wp.md)
+         * [Fazer logon e alterar a senha e o email do Workfront Proof](workfront-proof/wp-getstarted/faqs/log-in-change-password.md)
+         * [Definição de fusos horários no Workfront Proof](workfront-proof/wp-getstarted/faqs/set-timezones-in-wp.md)
    * Trabalhar com provas e arquivos no Workfront Proof {#work-with-proofs-in-wf-proof}
       * [Trabalhar com provas e arquivos no Workfront Proof](workfront-proof/wp-work-proofsfiles/wp-work-proofs-files.md)
-      * Fluxo de trabalho automatizado na prova do Workfront {#automated-workflow-in-wf-proof}
-         * [Fluxo de trabalho automatizado na prova do Workfront](workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
+      * Fluxo de trabalho automatizado no Workfront Proof {#automated-workflow-in-wf-proof}
+         * [Fluxo de trabalho automatizado no Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
          * [Configurar uma prova com um fluxo de trabalho automatizado no Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
          * [Gerenciar uma prova configurada com um Fluxo de trabalho automatizado no Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md)
       * Recursos básicos no Workfront Proof {#basic-features-in-wf-proof}
          * [Recursos básicos no Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
-         * [O painel na prova do Workfront](workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
-         * [Layout de página na guia Exibições na prova do Workfront](workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)
-         * [Pesquisar prova do Workfront](workfront-proof/wp-work-proofsfiles/basic-features/search.md)
-         * [Noções básicas sobre a trilha de auditoria da atividade de prova do Workfront](workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
+         * [O painel no Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
+         * [Layout de página na guia Exibições no Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)
+         * [Pesquisar no Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/search.md)
+         * [Noções básicas sobre a trilha de auditoria de atividades do Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
       * Criar provas e arquivos {#create-proofs-and-files}
          * [Criar provas e arquivos](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
          * [Fazer upload de arquivos e conteúdo da Web para o Workfront Proof](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)
@@ -2479,29 +2478,29 @@ ht-degree: 1%
          * [A Dropzone](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md)
       * Gerenciar seu trabalho {#manage-your-work}
          * [Gerenciar seu trabalho](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
-         * [Gerenciar arquivos na prova do Workfront](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)
+         * [Gerenciar arquivos no Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)
          * [Gerenciar itens na página Exibições no Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)
          * [Gerenciamento de versões de prova no Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md)
          * [Definir configurações de prova no Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)
-         * [Criar e gerenciar exibições personalizadas na prova do Workfront](workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)
+         * [Criar e gerenciar exibições personalizadas no Workfront Proof Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)
          * [Baixar arquivos armazenados no Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md)
          * [Gerenciar detalhes da prova no Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)
          * [Visualizar o progresso e o status de uma prova no Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)
-         * [Entender o estado da prova na prova do Workfront](workfront-proof/wp-work-proofsfiles/manage-your-work/proof-state.md)
+         * [Entender o estado da prova no Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/proof-state.md)
          * [Excluir uma prova no Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/delete-proof.md)
          * [Restaurar e esvaziar a lixeira no Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)
-         * [Executar relatórios na prova do Workfront](workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)
+         * [Executar relatórios no Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)
       * Organize o seu trabalho {#organize-your-work}
          * [Organize o seu trabalho](workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)
-         * [Pastas na prova do Workfront](workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)
-         * [Criar pastas na prova do Workfront](workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)
+         * [Pastas no Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)
+         * [Criar pastas no Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)
          * [Gerenciar pastas no Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)
          * [Gerenciar pastas e seu conteúdo no Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md)
-         * [Compartilhar pastas na prova do Workfront](workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md)
+         * [Compartilhar pastas no Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md)
          * [Entender as permissões de pasta no Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md)
-         * [Criar e gerenciar tags na prova do Workfront](workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md)
-         * [Arquivar na prova do Workfront](workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)
-         * [Faça backup dos dados de prova do Workfront](workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
+         * [Criar e gerenciar tags na Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md)
+         * [Arquivar no Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)
+         * [Faça backup dos dados do Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
          * [Imprimir e exportar comentários no Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)
       * Revisar provas no Visualizador de provas da área de trabalho {#review-proofs-in-viewer}
          * [Revisar provas no Visualizador de provas da área de trabalho](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
@@ -2517,19 +2516,19 @@ ht-degree: 1%
          * [Comparar provas no visualizador de provas](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)
          * [Exibir versões de prova anteriores no Visualizador de provas da Web](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)
          * [Baixar uma prova no visualizador de provas](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
-         * [Atalhos de teclado no visualizador do Workfront Proof Proof](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
+         * [Atalhos de teclado no visualizador de provas do Workfront Proof](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
          * [Visualizador de provas herdadas removido](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)
       * Compartilhar provas e arquivos {#share-proofs-and-files}
          * [Compartilhar provas e arquivos](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)
          * [Compartilhar uma prova no Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
-         * [Compartilhar links de prova na Prova do Workfront](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof-links.md)
-         * [Compartilhar o URL público na prova do Workfront](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)
-         * [Compartilhar arquivos na prova do Workfront](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md)
+         * [Compartilhar links de prova no Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof-links.md)
+         * [Compartilhar o URL público no Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)
+         * [Compartilhar arquivos no Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md)
          * [Acessar uma prova compartilhada com você](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/access-proofs-shared-with-you.md)
          * [Assinar uma prova no Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
-         * [Criar uma miniprova no Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/create-mini-proof.md)
+         * [Criar uma Mini prova no Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/create-mini-proof.md)
          * [Incorporar uma Mini prova](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/embed-mini-proof.md)
-         * [Gerenciar funções de prova na prova do Workfront](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
+         * [Gerenciar funções de prova no Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
    * Administração da conta do Workfront Proof {#wf-proof-account-admin}
       * [Administração da conta do Workfront Proof](workfront-proof/wp-acct-admin/wp-account-admin.md)
       * Configurações de conta no Workfront Proof {#account-settings-in-wf-proof}
@@ -2537,54 +2536,54 @@ ht-degree: 1%
          * [Gerenciar usuários do Workfront Proof](workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md)
          * [Configurar o perfil de permissão de prova de um usuário no Workfront Proof](workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md)
          * [Configurar perfis personalizados no Workfront Proof](workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md)
-         * [Configurar o logon único para usuários do Workfront Proof](workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+         * [Configurar Logon Único para usuários do Workfront Proof](workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
          * [Logon único no Workfront Proof: configuração do AD FS](workfront-proof/wp-acct-admin/account-settings/sso-in-wp-adfs-configuration.md)
          * [Perfis de permissões de prova no Workfront Proof](workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)
          * [Configurar opções de decisão de aprovação no Workfront Proof](workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md)
          * [Criar e gerenciar campos personalizados no Workfront Proof](workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md)
          * [Configurar a zona de destino no Workfront Proof](workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)
          * [Configuração de conta para integrações no Workfront Proof](workfront-proof/wp-acct-admin/account-settings/integrations-account-setup.md)
-         * [Exibir logs de autenticação na prova do Workfront](workfront-proof/wp-acct-admin/account-settings/view-auth-logs-in-wp.md)
-         * [Visualize e edite os detalhes da conta de prova da Workfront de sua organização](workfront-proof/wp-acct-admin/account-settings/view-edit-org-wp-acct-details.md)
+         * [Exibir logs de autenticação no Workfront Proof](workfront-proof/wp-acct-admin/account-settings/view-auth-logs-in-wp.md)
+         * [Visualize e edite os detalhes da conta da Workfront Proof de sua organização](workfront-proof/wp-acct-admin/account-settings/view-edit-org-wp-acct-details.md)
          * [Exibir o histórico da conta de administrador do Workfront Proof da sua organização](workfront-proof/wp-acct-admin/account-settings/view-org-wp-acct-history.md)
-         * [Verifique o armazenamento do Workfront Proof](workfront-proof/wp-acct-admin/account-settings/check-workfront-proof-storage.md)
+         * [Verifique seu armazenamento do Workfront Proof](workfront-proof/wp-acct-admin/account-settings/check-workfront-proof-storage.md)
          * [Solicitar um novo backup de dados no Workfront Proof](workfront-proof/wp-acct-admin/account-settings/request-new-data-backup-in-wp.md)
-      * Prova de marca Workfront {#branding-wf-proof}
-         * [Prova de marca Workfront](workfront-proof/wp-acct-admin/branding/branding.md)
-         * [Marque o site Workfront Proof](workfront-proof/wp-acct-admin/branding/brand-wp-site.md)
-         * [Marque o site Workfront Proof - avançado](workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
+      * Workfront Proof de marca {#branding-wf-proof}
+         * [Workfront Proof de marca](workfront-proof/wp-acct-admin/branding/branding.md)
+         * [Marcar o site do Workfront Proof](workfront-proof/wp-acct-admin/branding/brand-wp-site.md)
+         * [Marque o site da Workfront Proof - avançado](workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
       * Gerenciar segurança {#manage-security}
          * [Gerenciar segurança](workfront-proof/wp-acct-admin/managing-security/manage-security.md)
          * [Segurança de prova no Workfront Proof](workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)
          * [Logon único no Workfront Proof](workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)
-         * [Como entender assinaturas eletrônicas no Workfront Proof](workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)
+         * [Noções básicas sobre assinaturas eletrônicas no Workfront Proof](workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)
       * Contas de parceiros no Workfront Proof {#partner-accounts-in-wf-proof}
          * [Contas de parceiros no Workfront Proof](workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
-         * [Gerenciar um relacionamento de parceiro entre contas de prova do Workfront](workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
-         * [Compartilhar itens com um parceiro no Workfront Proof](workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)
-      * Contas satélite na prova do Workfront {#satellite-accounts-in-wf-proof}
-         * [Contas satélite na prova do Workfront](workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
-         * [Contas satélite na prova do Workfront](workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)
+         * [Gerenciar um relacionamento de parceiro entre contas da Workfront Proof](workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
+         * [Compartilhar itens com um parceiro na Workfront Proof](workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)
+      * Contas satélite no Workfront Proof {#satellite-accounts-in-wf-proof}
+         * [Contas satélite no Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
+         * [Contas satélite no Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)
          * [Configurar uma conta satélite no Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md)
          * [Gerenciar uma conta satélite no Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/manage-sat-acct-in-wp.md)
-      * Dicas, truques e solução de problemas para administração da conta do Workfront Proof {#ttt-wf-proof-account-admin}
-         * [Dicas, truques e solução de problemas para administração da conta do Workfront Proof](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
-         * [Perguntas frequentes: Workfront Proof - Migração dos EUA para EMEA](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
-   * Configurações de cobrança da prova do Workfront {#wf-proof-billing-settings}
-      * [Configurações de cobrança da prova do Workfront](workfront-proof/wp-billingsettings/wp-billing-settings.md)
+      * Dicas, truques e solução de problemas para administração de contas do Workfront Proof {#ttt-wf-proof-account-admin}
+         * [Dicas, truques e solução de problemas para administração de contas do Workfront Proof](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
+         * [Perguntas frequentes: Workfront Proof - Migração dos EUA para a EMEA](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
+   * Configurações de faturamento do Workfront Proof {#wf-proof-billing-settings}
+      * [Configurações de faturamento do Workfront Proof](workfront-proof/wp-billingsettings/wp-billing-settings.md)
       * Gerencie seu faturamento {#manage-billing}
          * [Gerencie seu faturamento](workfront-proof/wp-billingsettings/manage-your-billing/manage-your-billing.md)
-         * [A página de faturamento da prova do Workfront](workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
-         * [Escolha do método de pagamento na prova do Workfront](workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
-         * [Baixando a fatura de prova do Workfront](workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
-         * [Feche sua conta do Workfront Proof](workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
+         * [A página de faturamento do Workfront Proof](workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+         * [Escolha do método de pagamento no Workfront Proof](workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
+         * [Fazendo download da sua fatura Workfront Proof](workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
+         * [Feche sua conta da Workfront Proof](workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
    * Notificações e lembretes de prova {#proof-notifications-and-reminders}
       * [Notificações e lembretes de prova](workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
       * Evitar filtros de spam {#avoid-spam-filters}
          * [Evitar filtros de spam](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/avoid-spam-filters.md)
          * [Definir configurações de spam para clientes de email comuns](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md)
          * [Configure emails do Workfront Proof para evitar filtros de spam](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)
-         * [Registros SPF de prova do Workfront](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)
+         * [Registros SPF do Workfront Proof](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)
       * Enviar mensagens aos revisores {#send-messages-to-reviewers}
          * [Enviar mensagens aos revisores](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-messages-to-reviewers.md)
          * [Lembrar um revisor sobre atribuições no Workfront Proof](workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md)
@@ -2603,32 +2602,32 @@ ht-degree: 1%
       * [Gerenciamento de usuários e contatos no Workfront Proof](workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
       * Usuários {#users}
          * [Usuários](workfront-proof/wp-mnguserscontacts/users/users.md)
-         * [Criar usuários usando a prova do Workfront](workfront-proof/wp-mnguserscontacts/users/create-users.md)
+         * [Criar usuários usando o Workfront Proof](workfront-proof/wp-mnguserscontacts/users/create-users.md)
          * [Configurar informações do usuário usando o Workfront Proof](workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
          * [Criar e gerenciar perfis personalizados usando o Workfront Proof](workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
-         * [Mover usuários entre contas usando a prova do Workfront](workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)
+         * [Mover usuários entre contas usando o Workfront Proof](workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)
       * Grupos {#groups}
          * [Grupos](workfront-proof/wp-mnguserscontacts/groups/groups.md)
          * [Adicionar grupos a uma prova](workfront-proof/wp-mnguserscontacts/groups/add-groups.md)
          * [Criar grupos de prova usando o Workfront Proof](workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
          * [Tornar grupos privados usando o Workfront Proof](workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
-         * [Gerenciar grupos usando a prova do Workfront](workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)
+         * [Gerenciar grupos usando o Workfront Proof](workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)
       * Contatos {#contacts}
          * [Contatos](workfront-proof/wp-mnguserscontacts/contacts/contacts.md)
-         * [Adicionar um convidado à prova do Workfront](workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
+         * [Adicionar um convidado à Workfront Proof](workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
          * [Gerenciar seus contatos no Workfront Proof](workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
          * [Entender usuários, membros e convidados no Workfront Proof](workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)
       * Dicas, truques e solução de problemas para usuários e contatos do Workfront Proof {#ttt-wf-proof-users-and-contacts}
          * [Dicas, truques e solução de problemas para usuários e contatos do Workfront Proof](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wfproof.md)
          * [Outros grupos do usuário de edição em massa](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/bulk-edit-users-other-groups.md)
-   * Workfront Proof Mobile {#wf-proof-mobile}
-      * [Workfront Proof Mobile](workfront-proof/wp-mobile/wp-mobile.md)
-      * Aplicativos móveis Workfront Proof {#wf-proof-mobile-apps}
-         * [Aplicativos móveis Workfront Proof](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
+   * Workfront Proof mobile {#wf-proof-mobile}
+      * [Workfront Proof mobile](workfront-proof/wp-mobile/wp-mobile.md)
+      * aplicativos móveis Workfront Proof {#wf-proof-mobile-apps}
+         * [aplicativos móveis Workfront Proof](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
          * [aplicativo móvel Workfront Proof](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
-         * [Aplicativo móvel Workfront Proof para tablets](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
-      * Dicas, truques e solução de problemas para o aplicativo móvel Workfront Proof {#ttt-wf-proof-mobile-apps}
-         * [Dicas, truques e solução de problemas para o aplicativo móvel Workfront Proof](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
+         * [aplicativo móvel Workfront Proof para tablets](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
+      * Dicas, truques e solução de problemas para o aplicativo móvel do Workfront Proof {#ttt-wf-proof-mobile-apps}
+         * [Dicas, truques e solução de problemas para o aplicativo móvel do Workfront Proof](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
          * [Não é possível fazer logon no aplicativo móvel do Workfront Proof](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
    * Canto técnico do Workfront Proof {#wf-proof-tech-corner}
       * [Canto técnico do Workfront Proof](workfront-proof/wp-tech-corner/tech-corner.md)
@@ -2638,26 +2637,26 @@ ht-degree: 1%
       * Solução de problemas no Workfront Proof {#troubleshooting-wf-proof}
          * [Solução de problemas no Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/troubleshooting.md)
          * [Solução de problemas - fonte de interface corrompida no visualizador de provas no Mac](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
-         * [Entender como o cache e os cookies afetam a prova do Workfront](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
+         * [Entender como o cache e os cookies afetam o Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
          * [Problemas de velocidade no Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-         * [Solução de problemas - Visualizador do Workfront Proof Proof](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
+         * [Solução de problemas - Visualizador do Workfront Proof revisores de texto](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
    * Integrações do Workfront Proof {#wf-proof-integrations}
       * [Integrações do Workfront Proof](workfront-proof/wp-integrations/wp-integrations.md)
-      * API de prova do Workfront {#wf-proof-api}
-         * [API de prova do Workfront](workfront-proof/wp-integrations/api/wp-api.md)
-         * [A API de prova do Workfront](workfront-proof/wp-integrations/api/workfront-proof-api.md)
+      * API do Workfront Proof {#wf-proof-api}
+         * [API do Workfront Proof](workfront-proof/wp-integrations/api/wp-api.md)
+         * [A API do Workfront Proof](workfront-proof/wp-integrations/api/workfront-proof-api.md)
       * Caixa {#box}
          * [Box](workfront-proof/wp-integrations/box/box.md)
-         * [Introdução à integração do Workfront Proof and Box](workfront-proof/wp-integrations/box/introduction-to-box.md)
+         * [Introdução à integração do Workfront Proof e do Box](workfront-proof/wp-integrations/box/introduction-to-box.md)
          * [Criar uma prova por meio da conta do Box](workfront-proof/wp-integrations/box/create-proof-box-account.md)
-         * [Sincronizar pastas de caixa com a prova do Workfront](workfront-proof/wp-integrations/box/sycn-box-folder.md)
+         * [Sincronizar Pastas De Caixa Com O Workfront Proof](workfront-proof/wp-integrations/box/sycn-box-folder.md)
          * [Exibir o arquivo original de uma prova na caixa](workfront-proof/wp-integrations/box/view-proof-original-file-box.md)
       * Carimbo de base {#basecamp}
          * [Carimbo de base](workfront-proof/wp-integrations/basecamp/basecamp.md)
          * [Adicionar uma prova a um projeto de carimbo de base](workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
-         * [Integrar o Workfront Proof ao Basecamp](workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
+         * [Integrar o Workfront Proof com o Basecamp](workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
          * [Revisar uma prova no Carimbo de base](workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
-         * [Entender a integração do basecamp com o Workfront Proof](workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)
+         * [Entender a integração do Basecamp com o Workfront Proof](workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)
       * Basecamp Classic {#basecamp-classic}
          * [Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/basecamp-classic.md)
          * [Adicionar uma prova a um projeto do Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
@@ -2755,7 +2754,7 @@ ht-degree: 1%
       * [Geral](proofhq-api/general/general.md)
       * [Visão geral](proofhq-api/general/overview.md)
       * [Amostras de código](proofhq-api/general/code-samples.md)
-      * [Perguntas frequentes sobre a API SOAP](proofhq-api/general/soap-api-faqs.md)
+      * [Perguntas frequentes sobre a API do SOAP](proofhq-api/general/soap-api-faqs.md)
 * [Documento de teste oculto](hidden-test.md)
 
 
