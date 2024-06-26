@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
+source-git-commit: 93c50eb6ad2e9693cd9fd104efed2763e07cd418
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '2019'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,11 @@ Este blueprint contém um modelo de [!DNL Workfront] a organização de serviço
 
 Este blueprint contém um único painel com 13 relatórios para ajudar você a localizar, reatribuir ou gerenciar os objetos e atribuições associados a um usuário que sai do Workfront. Você também pode usar esses relatórios para um usuário que está mudando para uma nova função ou grupo para reatribuir seu trabalho.
 
-**[!UICONTROL Pós-implementação: implantação de um novo caso de uso]**
+[!BADGE Novo]{type=negative}**Painel do gerente de pessoas**
+
+Este blueprint contém um único painel de controle com 12 relatórios para dar aos gerentes de pessoas visibilidade sobre o trabalho de seus subordinados diretos.
+
+**[!UICONTROL Implementação do Post: implantação de novo caso de uso]**
 Este blueprint contém um único modelo que organiza o trabalho que um [!DNL Workfront] o cliente precisará concluir o gerenciamento da expansão para os próximos processos após a implementação inicial.
 
 **[!UICONTROL Produção de ativo de impressão] (Integrado)**
@@ -133,6 +137,10 @@ Este blueprint contém um único painel com 21 relatórios para ajudar você a m
 **Percepção de valor | Fornecer painel de serviços voltado para o cliente**
 
 Este blueprint contém um único painel com 8 relatórios para ajudar você a aproveitar os benefícios do Workfront. Esses relatórios foram criados para ajudá-lo a traduzir os serviços voltados para o cliente em valores mensuráveis que você pode acompanhar ao longo do tempo para obter melhores resultados.
+
+[!BADGE Novo]{type=negative}**Percepção de valor | Painel de Controle de Workflows de Conformidade**
+
+Este blueprint contém um único painel com 7 relatórios para ajudar você a perceber o valor do Workfront. Para uso diário ou em setores altamente regulamentados, esses relatórios que economizam tempo geram responsabilidade e melhoram os resultados ao longo do tempo, ajudando a rastrear e administrar os fluxos de trabalho e as necessidades de conformidade.
 
 **Percepção de valor | Revisar e aprovar painel**
 
