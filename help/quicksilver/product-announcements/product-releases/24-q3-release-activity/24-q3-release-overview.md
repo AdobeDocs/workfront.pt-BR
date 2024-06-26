@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
+source-git-commit: 42db442966cff841774f894b6538f997de39adfb
 workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 0%
@@ -303,7 +303,7 @@ O webinário da versão 24.7 será realizado em 27 de junho de 2024. Você pode 
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão de pré-visualização: 11 de junho de 2024</p>
+                                <p>Versão de pré-visualização: 20 de junho de 2024</p>
                             </li>
                             <li>
                                 <p>Produção para clientes especificados: com a versão 24.7 (julho de 2024)</p>
@@ -377,7 +377,7 @@ Novos recursos do Workfront Fusion estão disponíveis na produção em uma cad�
 
 Não há atualizações do Planejador de cenários neste momento na versão. Esta área será atualizada quando houver atualizações disponíveis.
 
-### Aprimoramentos de prova do Workfront
+### Aprimoramentos do Workfront Proof
 
 Não há atualizações do Workfront Proof neste momento na versão. Esta área será atualizada quando houver atualizações disponíveis.
 
