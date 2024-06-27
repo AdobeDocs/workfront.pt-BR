@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 64f187ed78b69db9b9ac0259e96ef0bf47abf4f4
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '676'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 <tr>
    <td role="rowheader"><p>Permissões</p></td>
    <td> <p>No Workfront, visualize ou aumente as permissões de um projeto, portfólio ou programa</a> </p> 
-   <p>No Workfront Planning, visualize ou aumente as permissões de um espaço de trabalho</a> </p>  
+   <p>No Workfront Planning, no Contribute ou em permissões superiores para um espaço de trabalho</a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho do Workfront Planning, incluindo aqueles que eles não criaram</p>
 </td>
   </tr>
@@ -103,7 +103,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    * [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
 * Você pode exibir a seção Planejamento em um objeto Workfront, mesmo quando não há registros associados ao objeto Workfront.
 * Você pode conectar registros do Planning a objetos do Workfront a partir do Workfront, na seção Planning quando houver pelo menos um registro conectado ao objeto do Workfront.
-* Você deve ter permissões para Gerenciar um espaço de trabalho para conectar registros dos objetos do Workfront.
 
 ## Gerenciar registros na seção Planejamento
 
@@ -114,8 +113,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    O espaço de trabalho é aberto e os tipos de registro são exibidos como cartões.
 
 1. Clique no cartão de um tipo de registro conectado a um projeto, portfólio ou programa do Workfront.
-1. Escolha uma exibição de tabela na **Exibir** menu suspenso.
-1. (Condicional) Vá para o campo de registro conectado na tabela, adicione um objeto do Workfront e clique no nome do objeto do Workfront no campo. Para obter informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
+1. Vá para um campo de registro conectado que tenha uma conexão com um objeto do Workfront, na exibição de tabela ou na página de detalhes de um registro. Para obter informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
+1. Clique no nome de um objeto Workfront no campo de registro conectado.
 A página dos objetos é aberta no Workfront Planning.
 1. Clique em **Ir para origem**, no canto superior direito da tela.
 

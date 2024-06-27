@@ -1,12 +1,12 @@
 ---
 title: 'Perguntas frequentes sobre o Adobe Workfront Planning'
-description: Como líder em operações de marketing, você pode usar o Adobe Workfront Planning para organizar trabalhos em todo o ciclo de vida de marketing para todas as suas equipes. Estas são algumas perguntas frequentes sobre o Workfront Planning.
+description: Como líder em operações de marketing, você pode usar o Adobe Workfront Planning para organizar trabalhos em todo o ciclo de vida de marketing para todas as suas equipes. Este artigo contém algumas das perguntas frequentes sobre o Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 406cd3f929d3955d196f883bf1830fd0fffe9251
+source-git-commit: d052b883e47f32908e939d64c610427d4475afb3
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1674'
 ht-degree: 0%
 
 ---
@@ -30,146 +30,171 @@ Anteriormente chamado de Maestro do Projeto, o Planejamento da Workfront é um n
 
 O módulo de planejamento do Workfront é um dos três recursos distintos, mas conectados, do Workfront que, juntos, criam um sistema de marketing de registro. Os três recursos são:
 
-* Planning: os novos recursos avançados incluídos no Workfront Planning.
+* **Planejamento**: os novos recursos avançados incluídos no Workfront Planning.
 
-* Fluxo de trabalho: os recursos de gerenciamento de trabalho colaborativo que você usa atualmente no Workfront (gerenciamento de projetos, gerenciamento de recursos etc.).
+* **Fluxo de trabalho**: os recursos de gerenciamento de trabalho colaborativo que você usa atualmente no Workfront (gerenciamento de projetos, gerenciamento de recursos etc.)
 
-* Automação e integração: os recursos abrangentes de integração e automação fornecidos pelo Workfront Fusion.
+* **Automação e integração**: os recursos abrangentes de integração e automação fornecidos pelo Workfront Fusion.
 
 ## Quando o Workfront Planning será lançado?
 
-A última versão planejada do Workfront Planning para o público-alvo geral é 28 de agosto de 2024. Para obter informações atualizadas sobre quais recursos estão sendo lançados no momento, consulte [Atividade de versão do Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md).
+A versão mais recente do Workfront Planning para disponibilidade geral está planejada para 28 de agosto de 2024. Para obter informações atualizadas sobre quais recursos estão sendo lançados no momento, consulte [Atividade de versão do Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md).
 
-<!-- To verify this: are we even saying "Beta"? - What happens after the beta program concludes? 
+## O que acontece depois que o estágio inicial do Workfront Planning é concluído?
 
-Beta participants that want to leverage Planning in production will be able to purchase it at the GA date. We encourage you to reach out to your sales rep to discuss further details. The environment used for the beta program is not in production and will not be migrated. The data stored in the beta environment will be available until December 2024. -->
+Os clientes que participaram das fases beta e inicial do Workfront Planning poderão adquirir o Workfront Planning a partir de 28 de agosto de 2024. Recomendamos que você entre em contato com seu gerente de conta para saber mais detalhes.
 
+## O processo de criação breve (uso de IA para extrair vários documentos para criar dinamicamente um resumo). Isso faz parte do beta?
 
+Esse recurso estará disponível em breve.
 
-PERGUNTAS DO CLIENTE - SESSÃO #1 6/13
+## Precisamos migrar para o IMS?
 
+Sim. Os clientes que quiserem comprar o Workfront Planning terão que migrar para a Plataforma de negócios Adobe Unified Experience/ Adobe. Para obter mais informações, consulte [Experiência unificada do Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
+## Você pode fornecer exemplos de espaços de trabalho diferentes?
 
-O processo de criação de resumo (uso de IA para extrair vários documentos a fim de criar dinamicamente um resumo). Isso faz parte do beta?
+Você pode ter espaços de trabalho em diferentes níveis de sua organização. Devido à flexibilidade do sistema, ter espaços de trabalho em vários níveis pode atender a vários propósitos em uma equipe ou nível pessoal. Você pode criar espaços de trabalho para uma equipe, um departamento ou um grupo em sua organização. Os usuários podem optar por criar seu próprio espaço de trabalho, onde podem rastrear tarefas pessoais.
 
-Esperamos que esse recurso possa ser testado.
+O principal caso de uso de um espaço de trabalho é ser um espaço maior e centralizado para uma organização.
 
-Precisamos migrar para o IMS?
+Os espaços de trabalho podem ser compartilhados com grupos ou usuários individuais.
 
-Sim, os clientes que desejam comprar o Planning terão que migrar para o ABP.
+<!--## Can workspaces share funding accounts? -->
 
-Você pode fornecer exemplos de espaços de trabalho diferentes?
+## Os espaços de trabalho podem se comunicar? Ou as informações precisam ser inseridas em cada espaço de trabalho?
 
-Você pode ter espaços de trabalho em diferentes níveis e, devido à flexibilidade do sistema, isso pode realmente atender a vários propósitos em nível de equipe e pessoal. Os principais casos de uso são espaços de trabalho centralizados maiores para organizações. Alguns exemplos específicos de espaços de trabalho são: .....
+A partir de junho de 2024, os espaços de trabalho não poderão se conectar. No entanto, essa funcionalidade está planejada para uma versão futura.
 
-Os espaços de trabalho podem compartilhar contas de financiamento?
+## Há limites flexíveis ou rígidos no número de espaços de trabalho permitidos em uma organização?
 
-Os espaços de trabalho podem se comunicar? Ou as informações precisam ser inseridas em cada espaço de trabalho?
+Você pode ter até 1.000 espaços de trabalho na instância do Workfront da sua organização. Para obter mais informações sobre limites, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-No estado atual, há limites flexíveis no número de espaços de trabalho que podem ser configurados (ou seja, desempenho após este ponto)? Quaisquer limites rígidos no número de espaços de trabalho que podem ser configurados (ou seja, o sistema não permitirá mais do que este número)?
+## Os objetos atuais no sistema Workfront podem estar disponíveis no Planning ou eles precisam ser criados manualmente?
 
-Até 1.000 espaços de trabalho na instância do Workfront da sua organização. Link para documentos: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/create-workspaces
+Você pode criar conexões entre um tipo de registro do Planning e portfólios, programas, projetos, grupos e empresas do Workfront.
 
-Os objetos atuais no sistema podem ser conectados ou tudo isso precisa ser criado manualmente?
+Depois de estabelecer uma conexão, por exemplo, com projetos Workfront, você pode conectar registros no Planning com projetos Workfront.
 
-Você pode criar conexões entre tipos de registro do Planning com portfólios, programas, projetos, grupos e empresas do WF. Depois de estabelecer uma conexão, por exemplo, com projetos WF, você pode vincular para registros na tabela Planning com projetos WF. Isso significa que os objetos WF ainda serão criados e gerenciados no Workfront, mas você pode alinhá-los com os registros do Planning. Você tem algumas documentações aqui: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/connect-record-types e também estamos planejando ter uma sessão de feedback sobre Conexões!
+Isso significa que você deve continuar criando e gerenciando projetos Workfront no Workfront, mas você pode alinhá-los com registros do Planning, como campanhas, no Workfront Planning.
 
-Desde o teste, notei que, se você adicionar muitos registros, eles se tornam difíceis de distinguir entre si quando não estão na Exibição de tabela. Há uma maneira de fazer registros com cores diferentes? Seria bom se você pudesse torná-los configuráveis por cor, dessa maneira eles se destacariam mais um do outro nas visualizações Linha do tempo e Calendário.
+Para obter mais informações sobre como conectar tipos de registro a tipos de objeto do Workfront e registros a objetos do Workfront, consulte os seguintes artigos:
 
-As pessoas são do Workfront ou do IMS?
+* [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
+* [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
 
-Instância do Workfront
+Também estamos planejando ter sessões de feedback sobre conexões.
 
-Essas listas podem ser vinculadas a vários espaços de trabalho?
+## Depois de adicionar muitos registros, eles se tornam difíceis de distinguir entre si quando não estão na exibição de tabela. Há uma maneira de fazer com que os registros sejam exibidos em cores diferentes?
 
-Temos planos de vincular tipos de registro entre Espaços de trabalho! Ainda não está pronto.
+A partir de junho de 2024, os registros não poderão ser configurados por cor em nenhuma das exibições disponíveis: tabela, linha do tempo ou exibição de calendário. No entanto, você pode adicionar uma imagem em miniatura a cada registro, o que pode ajudar a identificá-los mais facilmente.
 
-Os campos personalizados adicionados estão bloqueados para o tipo de registro em que foram criados?
+## Os usuários no Planning são provenientes do Workfront ou do Adobe Admin Console (IMS)?
 
-Isso não me permite fazer uma conexão com os campos de Data de início/término que são padrão. Devo adicionar um novo se quiser me conectar a um campo que já existe?
+Os usuários do Workfront Planning são usuários do Workfront.
 
-Há planos para campos de estilo de pesquisa externos verdadeiros como um tipo de campo no Planning?
+## As listas de cada tipo de registro podem ser vinculadas entre tipos de registro em vários espaços de trabalho?
 
-Qualquer plano de ter apenas os campos &quot;Criado&quot;, &quot;Criado por&quot;, &quot;Modificado&quot; e &quot;Modificado por&quot; por padrão nos registros parece um consumo para os campos terem que adicioná-los se quisermos rastrear registros?
+A conexão de tipos de registro entre diferentes Espaços de trabalho será estabelecida em uma data posterior.
 
-Como o módulo se vincula a objetos ativos no WF, eles serão afetados pelas atividades do Planning beta?
+## Os campos personalizados adicionados estão bloqueados para o tipo de registro em que foram criados?
 
-Vamos receber atualizações para as alterações colocadas no Fusion ou isso é gerenciado separadamente?
+Por enquanto, os campos de registro são exclusivos ao registro em que foram criados. Você pode fazer referência a campos de outros registros ao conectar tipos de registro. Não é possível usar o mesmo campo criado para um tipo de registro em outro tipo de registro, mesmo que eles estejam no mesmo espaço de trabalho. Você não pode fazer referência a campos de registros que não estão no mesmo espaço de trabalho, pois não pode conectar tipos de registro de espaços de trabalho diferentes, por enquanto.
 
-Há planos para integrar ao Canvas Dashboards? Como relatar dados?
+<!--## It isn't allowing me to make a connection with the Start/End Date fields that are default. Should I add a new one if I want to connect to a field that already exists? -->
 
-Em breve, a Tela do painel estará disponível para visualizar dados de planejamento
+<!--## Any plans for true external lookup style fields as a field type in Planning? -->
 
-Poderemos criar modelos de espaço de trabalho?
+<!-- ## Any plans to just have the fields "Created" "Created by" "Modified" and "Modified by" by default in records - seems like a consumption for fields to have to add it if we want to track records? -->
 
-Essa Estrutura de Taxonomia/Registro SÓ estará disponível se você comprar o Planning?  Uma estrutura de taxonomia seria benéfica também para os usuários padrão do Workfront
+<!--## Since the module links through to live objects in WF, will they be affected by the Planning beta's activities? -->
 
-Os administradores poderão criar nossos próprios modelos?
+<!--## Are we going to be getting updates for the changes putting into Fusion or is that something that is managed separately? -->
 
-Não durante o beta.
+## Há planos para integrar ao Canvas Dashboards? De que outra forma podemos criar relatórios sobre os dados do Workfront Planning?
 
-Todos vocês têm um ERD documentado e disponível para compartilhamento para o modelo de planejamento e tipos de registro? No momento, não é um ERD, mas temos artigos de ajuda granulares que orientam você pelo processo de criação e conexão de tipos de registro: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/overview-of-record-types https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/connect-record-types
+Estamos planejando ter Painéis do Canvas disponíveis para visualizar dados do Planning em breve.
 
-Assim, a sua única vez (preços anuais) para aproveitar o PLANNING, e lá podemos adicionar quantos usuários forem necessários? ou será cobrado por usuário?
+<!--## Will we be able to create workspace templates? -->
 
-O Planning é uma oferta paga com data de disponibilidade geral em 28 de agosto, época em que você terá que comprar o Planning para poder aproveitá-lo na Produção. Entre em contato com seu representante de vendas para obter mais detalhes.
+<!--## Is this Taxonomy / Record structure ONLY available if you purchase Planning?  A taxonomy structure would be beneficial for standard Workfront users too -->
 
-A Ativação de IA está disponível apenas para Administradores de sistema do WF OU pode ser ativada em Níveis de acesso específicos OU pode ser ativada SOMENTE para usuários específicos (1 ou 2)?
+## Os administradores do Workfront poderão criar seus próprios modelos?
 
-No início, somente os administradores do sistema principal têm acesso ao para que possam configurar por meio dos Níveis de acesso quem, em sua organização, terá acesso. Depois de 21 de junho, habilitaremos a IA para o restante da organização e eles terão acesso ou não, dependendo da configuração definida pelo Administrador do sistema.
+Não durante a fase de acesso antecipado.
 
-Onde residem os CAMPOS criados aqui? Os CAMPOS existentes podem ser trazidos daqueles que criamos para outros objetos? Eles são separados de outros campos criados?
+## Você tem um ERD documentado e disponível para compartilhamento para os tipos de registro e modelo de Planejamento?
 
-Atualmente, os campos estão dentro do tipo de registro em que foram criados, mas temos uma iniciativa de alta prioridade para o segundo semestre de 2024 para reunir os campos do Planning e do Workfront em uma biblioteca de campos centralizada.
+Não temos um ERD no momento, mas temos uma documentação detalhada que o orienta por todos os detalhes relacionados ao Workfront Planning. Para obter informações, consulte [Adobe Workfront Planning: índice do artigo](/help/quicksilver/planning/planning-information.md).
 
-Será possível criar relatórios com base nos registros/campos que criamos no Planning?
+## Como a precificação do Workfront Planning é estruturada: é uma taxa anual única? Ou somos cobrados por usuário?
 
-Sim! Em breve, por meio da Tela do painel
+O Planning é uma oferta paga, além da licença da Workfront. O planejamento estará disponível para compra em 28 de agosto de 2024. Nesse momento, será necessário comprar o Planning para poder continuar usando-o na Produção. Entre em contato com seu gerente de conta para obter mais detalhes.
 
-Também poderemos obter esses dados usando a API?
+## O Assistente de IA está disponível somente para administradores de sistema da Workfront, ou pode ser ativado para níveis de acesso específicos ou somente para usuários específicos?
 
-Sim! Já temos a API disponível e o Fusion Connector.
+O Assistente de IA está disponível atualmente em beta e pode ser ativado para o seu ambiente quando você fizer uma solicitação especial ao seu gerente de conta. Depois que a solicitação é aprovada e o Assistente de IA (beta) é ativado em seu ambiente, todos no ambiente podem usar o Assistente de IA em todas as áreas do Workfront, incluindo o Planning. Os administradores do Workfront devem adicionar o Planning aos modelos de layout de todos os usuários e podem desativar o Assistente de IA para usuários, bem como em seus níveis de acesso.
 
-Em um Espaço de trabalho de marketing - é melhor ter um Espaço de trabalho principal para usar em uma equipe de Marketing global OU é melhor ter Espaços de trabalho individuais para cada Linha de negócios, País, Marca etc. vi que podemos ter até 1000 espaços de trabalho e possivelmente conectar espaços de trabalho. é possível vincular registros em espaços de trabalho btwn? Caso de uso: permita que cada produto tenha seu próprio espaço de trabalho, mas com tipos de registro compartilhados. E então eu gostaria de ver uma visão compartilhada que combinasse tudo.
+## Onde residem os campos criados aqui? Os campos existentes que criamos para outros objetos podem ser trazidos? Eles são separados de outros campos criados em outro lugar?
 
-Podemos oferecer o Portfolio e o Programa às Campanhas? Isso, por sua vez, traz projetos?
+Atualmente, os campos residem no tipo de registro a partir do qual foram criados. Eles não estão disponíveis para outros tipos de registro ou para objetos do Workfront. Os campos do Workfront também não estão disponíveis no Planning. Temos uma iniciativa em nosso roteiro para reunir os campos do Planning e do Workfront em uma biblioteca de campo centralizada.
 
-Será possível vincular projetos a registros em um espaço de trabalho após a criação do projeto, sem precisar ir para o espaço de trabalho para vinculá-lo?
+## Será possível criar relatórios com base nos registros e campos que criamos no Planning?
 
-Atualmente, temos a seção Planejamento nos projetos que exibem quaisquer registros de conexão dos tipos de registro do Planejamento. Você pode adicionar ou remover registros dessas conexões. Em breve, também adicionaremos a capacidade de vincular a registros em qualquer outro tipo de registro do Planning, mesmo que essa conexão não tenha registros vinculados no momento.
+Sim. Em breve, poderemos criar relatórios sobre informações de Planejamento usando Painéis do Canvas.
 
-Entendo que, no futuro, poderemos receber informações/dados de alguém de fora da organização. Quando esse recurso será disponibilizado na versão beta?
+## Também poderemos obter dados do Planning usando a API?
 
-O espaço de trabalho pode ser usado para o planejamento de recursos e capacidade por função de trabalho em uma campanha?
+Sim. Já temos uma API do Planning disponível, bem como um conector Fusion. Para obter informações, consulte [Módulos do Adobe Workfront Planning](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). A documentação da API de planejamento do Workfront estará disponível em breve.
 
-Poderemos vincular um registro do Espaço de trabalho para iniciar uma solicitação?
+<!--From a Marketing Workspace - is it best to have one master Workspace to use for a Global Marketing team OR is it best to have individual Workspaces for each Business Line, Country, Brand, etc. i saw that we're able to have up to 1000 Workspaces and potentially connect Workspaces. is it possible to link records btwn workspaces? Use case would be - allow each product their own workspace, but with shared record types. And then would want to see a shared view that combines everything. -->
 
-OFFICE HOURS 6/18
+## Podemos oferecer o Portfolio e o Programa para as campanhas? Isso, por sua vez, traz projetos?
 
-A capacidade de vincular datas a dados do Workfront conectados. Ele está ativo atualmente em todos os níveis (projetos, portfólios, programas etc.)?
+Sim, você pode conectar campanhas do Workfront Planning a portfólios e programas da Workfront. No entanto, os projetos não são adicionados quando você conecta portfólios e programas. Você deve conectar tipos de registro a portfólios, programas e projetos como objetos separados.
 
-Sim, é possível conectar projetos por meio de campos de pesquisa.
+## Será possível vincular projetos a registros em um espaço de trabalho após a criação do projeto, sem precisar ir para o espaço de trabalho para vinculá-lo?
 
-Como saber se há visualização pública pronta para visualização?
+Atualmente, temos a seção Planejamento nos projetos que exibe todos os registros conectados dos tipos de registros do Planning conectados aos objetos do projeto. É possível adicionar ou remover registros adicionais na seção Planning. Em breve, também adicionaremos a capacidade de vincular a registros de qualquer outro tipo de registro do Planning, mesmo quando essa conexão não tiver nenhum registro vinculado. Mas você deve vincular o tipo de registro ao tipo de objeto (projeto) do Workfront para conectar registros reais a projetos do Workfront.
 
-As exibições públicas compartilhadas estão visíveis
+<!--I'm understanding eventually we will be able to intake information/data from someone outside our organization. When will this feature be made available in beta? 
 
-Como você compartilha uma visão internamente?
+Can the workspace be used for resource and capacity planning by job role across a campaign? 
 
-Toda vez que você cria um novo espaço de trabalho, precisa recompartilhar visualizações?
+We will be able to link a Workspace record to start a request? -->
 
-Sim, sempre que você criar um novo espaço de trabalho, de modo que seja um novo tipo de registro. As exibições são específicas para tipos de registro e, portanto, você terá que compartilhar novamente.
+## É possível vincular datas de dados do Workfront conectados? Ele está ativo atualmente em todos os níveis (projetos, portfólios, programas)?
 
-As miniaturas podem ser do conteúdo? Por exemplo, defina a miniatura como o .pdf ou vídeo. Trabalhamos com pessoas criativas e ter uma visualização em miniatura selecionável seria uma ótima maneira de manter as equipes envolvidas nessas reuniões de nível superior, onde discutirão nosso Mapa de conteúdo. Um link direto para o conteúdo também seria ótimo.
+Sim, é possível conectar datas de projeto, programa ou portfólio por meio de campos de pesquisa.
 
-Você pode personalizar as permissões além do que é a base? Atualmente, com outros objetos do Workfront, você pode personalizar o que o acesso de contribuir/gerenciar/visualizar pode fazer.
+<!-- ******************not sure about the answer here: 
 
-Atualmente, temos apenas permissões de nível de espaço de trabalho e exibição, mas não de tipo de registro ou permissões de nível de registro individual.
+## How do I know there are public view ready to view? 
 
-Podemos personalizar ícones do Workspace de forma semelhante a como personalizar miniaturas?
+Public views that are shared are visible  -->
 
-Haverá APIs personalizáveis para usar nosso próprio DAM em vez de DAM de Adobe?
+## Como você compartilha uma visão internamente?
 
-Criamos uma API pública para o Planning e também temos o conector Fusion. A documentação da API será publicada e poderá ser usada para criar conexões.
+Para obter informações sobre o compartilhamento de exibições, consulte [Compartilhar exibições](/help/quicksilver/planning/access/share-views.md).
 
-Vejo o valor em Planejamento (funcionários usando Airtable). Até agora nós estivemos... conexão de back-end curiosa depois de x que se vinculará a ~10,47 am
+## Toda vez que você cria um espaço de trabalho, precisa compartilhar visualizações novamente?
+
+Sim, sempre que você criar um espaço de trabalho, também criará tipos de registro. As exibições são específicas para tipos de registro e, portanto, você terá que compartilhá-las novamente.
+
+As exibições são compartilhadas separadamente dos espaços de trabalho. Você deve compartilhar o espaço de trabalho para que os usuários possam acessar os tipos de registro e as exibições para que os usuários possam acessar os campos dos registros.
+
+<!--Can thumbnails be from the content? i.e. Set the thumbnail to the .pdf or video. We work with creative people and to have a thumbnail view that is selectable would be a great way to keep teams engaged in those higher-level meetings where they will discuss our Content Map – a link to the content directly would be great too. -->
+
+## Você pode personalizar as permissões além do que é a base? Atualmente, com outros objetos do Workfront, você pode personalizar o que as permissões do Contribute/Manage/View podem fazer.
+
+Não neste momento. Para obter informações sobre o que cada permissão permite, consulte [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+
+Atualmente, só temos permissões de espaço de trabalho e nível de visualização, mas não de tipo de registro ou permissões de nível de registro individual. Os tipos de registro e os registros herdam permissões do espaço de trabalho ao qual pertencem.
+
+## Podemos personalizar ícones do Workspace de forma semelhante a como personalizar miniaturas?
+
+Não.
+
+## Haverá APIs personalizáveis para usar nosso próprio DAM em vez de DAM de Adobe?
+
+Já temos uma API do Planning disponível, bem como um conector Fusion. Para obter informações, consulte [Módulos do Adobe Workfront Planning](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). A documentação da API de planejamento do Workfront estará disponível em breve. Você pode usar a API para criar integrações personalizadas.
