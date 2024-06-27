@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3384'
 ht-degree: 2%
 
 ---
@@ -135,7 +135,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >
    >    Alguns campos podem estar ocultos. Clique em Campos e ative a alternância dos campos que deseja exibir como colunas na exibição em tabela.
 
-1. Clique em **+** ícone no canto superior direito da exibição de tabela para adicionar novos campos.
+1. Clique em **+** ícone no canto superior direito da exibição em tabela
+
+   Ou
+
+   Passe o mouse sobre o cabeçalho de qualquer coluna, clique na seta para baixo após o nome do campo e clique em **Inserir à esquerda** ou **Inserir à direita** para adicionar o novo campo.
 1. No **Novo campo** , procure por um tipo de campo no campo **Tipo de campo** ou selecione um dos seguintes tipos de campo:
 
    * [Texto de linha única](#single-line-text)

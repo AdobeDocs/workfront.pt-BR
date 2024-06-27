@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ Considere o seguinte:
 
    Ou
 
-   Em um espaço de trabalho, expanda a seta apontando para baixo à direita de um nome de espaço de trabalho existente e selecione o espaço de trabalho cujos registros você deseja personalizar.
+   Em um espaço de trabalho, expanda a seta apontando para baixo à direita do nome de um espaço de trabalho existente, procure um espaço de trabalho e selecione-o quando ele for exibido na lista.
 
    O espaço de trabalho é aberto e os tipos de registro são exibidos.
 

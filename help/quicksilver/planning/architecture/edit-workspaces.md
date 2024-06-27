@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Para obter mais informações sobre requisitos de acesso, consulte [Requisitos d
 
 1. Clique em um cartão do espaço de trabalho para abri-lo.
 1. Clique dentro do nome do espaço de trabalho no cabeçalho do novo espaço de trabalho para renomeá-lo e pressione **Enter**.
-1. Clique em **Mais** menu ![](assets/more-menu.png)à direita do nome do espaço de trabalho no cabeçalho e clique em **Editar**.
+1. Clique em **Mais** menu ![](assets/more-menu.png) à direita do nome do espaço de trabalho no cabeçalho e clique em **Editar**.
 
    ![](assets/edit-workspace-box.png)
 

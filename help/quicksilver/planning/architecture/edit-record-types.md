@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '462'
 ht-degree: 1%
 
 ---
@@ -101,7 +101,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Ou
 
-   Em um espaço de trabalho, expanda a seta apontando para baixo à direita de um nome de espaço de trabalho existente e selecione o espaço de trabalho cujos tipos de registro você deseja editar.
+   Em um espaço de trabalho, expanda a seta apontando para baixo à direita do nome de um espaço de trabalho existente, procure um espaço de trabalho e selecione-o quando ele for exibido na lista.
 
    O espaço de trabalho é aberto e os tipos de registro são exibidos.
 1. Passe o mouse sobre o cartão de um tipo de registro e clique no **Mais** menu ![](assets/more-menu.png) no canto superior direito do cartão de tipo de registro e clique em **Editar**.
@@ -130,4 +130,4 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    <!--check this screen shot - not sure this is valid ???-->
 
-1. (Opcional) Expanda a seta apontando para baixo à direita de um nome de tipo de registro e selecione outro tipo de registro para editar.
+1. (Opcional) Para editar outro tipo de registro, expanda a seta apontando para baixo à direita de um nome de tipo de registro, procure um tipo de registro e selecione-o quando ele for exibido na lista.
