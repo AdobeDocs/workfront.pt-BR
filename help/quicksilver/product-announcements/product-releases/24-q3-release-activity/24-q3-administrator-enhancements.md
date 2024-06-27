@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 Esta página descreve todas as melhorias de administrador feitas com a versão do terceiro trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do terceiro trimestre de 2024, consulte [Visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+
+## Designer de formulários personalizados geralmente disponível no Adobe Workfront
+
+>[!NOTE]
+>
+>Versão de visualização: 19 de junho de 2024; Versão de produção para todos os clientes: com a versão 24.7 (18 de julho de 2024).
+
+O designer de formulário personalizado foi lançado para beta em abril de 2023 (a versão 23.2) e mais recursos foram adicionados a ele desde então, como campos de Pesquisa externa e campos nativos do Workfront. Em 2024, o designer de formulários atingiu a paridade funcional com o construtor de formulários herdado.
+
+Com a versão 24.7, o designer do formulário estará disponível para o público em geral e se tornará a experiência padrão para criar e editar formulários personalizados no Adobe Workfront. Ao criar um novo formulário personalizado ou abrir um formulário existente, você verá o espaço de trabalho de estilo da tela do designer de formulário.
+
+Depois dessa versão, você não terá mais a opção de reverter para o construtor de formulários herdado.
+
+Para obter detalhes sobre o designer do formulário e uma demonstração em vídeo, consulte [nota de versão beta do designer de formulário](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
 
 ## Mover objetos entre ambientes do Workfront com promoção de ambiente
 
@@ -51,7 +65,7 @@ Para obter mais informações, consulte [Compartilhar um formulário personaliza
 
 >[!NOTE]
 >
->Versão de pré-visualização: 6 de junho de 2024; Versão de produção para todos os clientes: com a versão 24.7 (julho de 2024)
+>Versão de pré-visualização: 6 de junho de 2024; Versão de produção para todos os clientes: com a versão 24.7 (18 de julho de 2024)
 
 Agora é possível adicionar um novo campo ou widget personalizado diretamente na área Campos do Workfront, sem precisar abrir um formulário personalizado para criar o campo. Isso permite criar rapidamente campos personalizados reutilizáveis.
 

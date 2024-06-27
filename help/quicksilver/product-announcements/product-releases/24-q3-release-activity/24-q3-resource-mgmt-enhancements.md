@@ -4,9 +4,10 @@ description: Aprimoramentos no gerenciamento de recursos do terceiro trimestre d
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1881803a78d1003636da558504e978316e80d064
+exl-id: 40ca0460-5a01-4df9-b3dc-72055a272072
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 
 >[!NOTE]
 >
->Versão de pré-visualização: 6 de junho de 2024; Versão de produção para todos os clientes: com a versão 24.7 (julho de 2024)
+>Versão de pré-visualização: 6 de junho de 2024; Versão de produção para todos os clientes: com a versão 24.7 (18 de julho de 2024)
 
 Para ajustar facilmente o trabalho quando o destinatário principal em uma tarefa tiver um tempo de folga agendado, o Balanceador de carga de trabalho agora realoca horas para os usuários principal e secundário quando a linha do tempo do projeto é recalculada. (Esse recurso só estará disponível se o administrador do Workfront tiver ativado a configuração Folga do usuário na área Configuração para considerar a folga do usuário.)
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6ad93735-652f-4a94-bc24-6c22bb2c8826
-source-git-commit: 58c6062ef427d1ef615768a11e7dbd4835aafa5e
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Para obter uma lista de todas as alterações disponíveis com a versão do terc
 
 >[!NOTE]
 >
->Versão de pré-visualização: 30 de abril de 2024; Produção para lançamento rápido: Com lançamento 24.5 (16 de maio de 2024); Produção para lançamento trimestral: Com lançamento 24.7 (julho de 2024)
+>Versão de pré-visualização: 30 de abril de 2024; Produção para lançamento rápido: Com lançamento 24.5 (16 de maio de 2024); Produção para lançamento trimestral: Com lançamento 24.7 (18 de julho de 2024)
 
 Atualizamos a lista de sugestões de Atribuições para um design mais moderno e consistente em todas as áreas do Workfront. Quando você adiciona uma atribuição a uma tarefa ou problema a partir da tela de cabeçalho, exibição de lista ou Atribuição avançada, a experiência é a mesma. As sugestões são divididas em seções para ajudar você a encontrar rapidamente a pessoa, a equipe ou a função de trabalho correta para a atribuição.
 
@@ -34,7 +34,7 @@ Para obter informações, consulte [Atribuir tarefas](/help/quicksilver/manage-w
 
 >[!NOTE]
 >
->Versão de pré-visualização: 29 de abril de 2024; Produção para lançamento rápido: Com lançamento 24.5 (16 de maio de 2024); Produção para lançamento trimestral: Com lançamento 24.7 (julho de 2024)
+>Versão de pré-visualização: 29 de abril de 2024; Produção para lançamento rápido: Com lançamento 24.5 (16 de maio de 2024); Produção para lançamento trimestral: Com lançamento 24.7 (18 de julho de 2024)
 
 Atualizamos a página Detalhes do documento > Forms personalizado para um design mais moderno e consistente com outras áreas do Workfront. A página agora oferece suporte a recursos avançados de formulário personalizado, como campos de Pesquisa externa.
 
@@ -44,7 +44,7 @@ Para obter informações, consulte [Visão geral dos detalhes do documento](/hel
 
 >[!NOTE]
 >
->Versão de pré-visualização: 29 de abril de 2024; Produção para lançamento rápido: Com lançamento 24.5 (16 de maio de 2024); Produção para lançamento trimestral: Com lançamento 24.7 (julho de 2024)
+>Versão de pré-visualização: 29 de abril de 2024; Produção para lançamento rápido: Com lançamento 24.5 (16 de maio de 2024); Produção para lançamento trimestral: Com lançamento 24.7 (18 de julho de 2024)
 
 Atualizamos a página Detalhes da iteração > Forms personalizado para um design mais moderno e consistente com outras áreas do Workfront. A página agora oferece suporte a recursos avançados de formulário personalizado, como campos de Pesquisa externa.
 
@@ -54,7 +54,7 @@ Para obter informações, consulte [Criar uma história ágil em uma iteração]
 
 >[!NOTE]
 >
->Versão de pré-visualização: 18 de abril de 2024; Produção para lançamento rápido: Com lançamento 24.5 (16 de maio de 2024); Produção para lançamento trimestral: Com lançamento 24.7 (julho de 2024)
+>Versão de pré-visualização: 18 de abril de 2024; Produção para lançamento rápido: Com lançamento 24.5 (16 de maio de 2024); Produção para lançamento trimestral: Com lançamento 24.7 (18 de julho de 2024)
 
 Atualizamos a lista principal de Grupos na área Configuração > Grupos para um design mais moderno que é consistente com outras áreas do Workfront. Todas as caixas de diálogo de grupos e subgrupos (adicionar, editar, copiar, desativar, excluir), acessadas na lista Grupos ou no menu Mais de um grupo ou subgrupo específico, também têm o design atualizado.
 
@@ -64,7 +64,7 @@ Para obter informações, consulte [Criar um grupo](/help/quicksilver/administra
 
 >[!NOTE]
 >
->Versão de pré-visualização: 2 de abril de 2024; Produção para lançamento rápido: Com o lançamento 24.5 (16 de maio de 2024); Produção para lançamento trimestral: Com o lançamento 24.7 (julho de 2024)
+>Versão de pré-visualização: 2 de abril de 2024; Produção para lançamento rápido: Com o lançamento 24.5 (16 de maio de 2024); Produção para lançamento trimestral: Com o lançamento 24.7 (18 de julho de 2024)
 
 Atualizamos a tela Taxas de câmbio para um design mais moderno e consistente com outras áreas do Workfront.
 
@@ -74,7 +74,7 @@ Para obter informações, consulte [Configurar taxas de câmbio](/help/quicksilv
 
 >[!NOTE]
 >
->Versão de pré-visualização: 2 de abril de 2024; Produção para lançamento rápido: Com o lançamento 24.5 (16 de maio de 2024); Produção para lançamento trimestral: Com o lançamento 24.7 (julho de 2024)
+>Versão de pré-visualização: 2 de abril de 2024; Produção para lançamento rápido: Com o lançamento 24.5 (16 de maio de 2024); Produção para lançamento trimestral: Com o lançamento 24.7 (18 de julho de 2024)
 
 Atualizamos a tela Funções de trabalho para um design mais moderno que é consistente com outras áreas do Workfront.
 

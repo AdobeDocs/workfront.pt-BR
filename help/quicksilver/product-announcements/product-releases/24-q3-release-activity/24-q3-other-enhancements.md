@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: 42db442966cff841774f894b6538f997de39adfb
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 >[!NOTE]
 >
 >* O Adobe Unified Shell está sendo disponibilizado em uma implantação em fases. Outras organizações serão integradas ao Adobe Unified Shell com as versões 24.10 e 25.1.
->* Versão de pré-visualização: 20 de junho de 2024; Versão de produção para clientes especificados: com a versão 24.7 (julho de 2024)
+>* Versão de pré-visualização: 20 de junho de 2024; Versão de produção para clientes especificados: com a versão 24.7 (18 de julho de 2024)
 
 Para permitir que as organizações acessem os benefícios da Experiência unificada do Adobe, começamos a disponibilizá-la para os clientes existentes do Workfront.
 
@@ -45,7 +45,7 @@ Para obter mais informações, consulte [Experiência unificada do Adobe para Wo
 
 >[!NOTE]
 >
->Versão de pré-visualização: 6 de junho de 2024; Produção para todos os clientes: com a versão 24.7 (julho de 2024)
+>Versão de pré-visualização: 6 de junho de 2024; Produção para todos os clientes: com a versão 24.7 (18 de julho de 2024)
 
 Para unificar a experiência para usuários que não estão no Unified Shell, o botão Ajuda na barra de navegação principal foi removido. Esse botão, que não está presente para usuários no Unified Shell, vinculava-se à documentação do Workfront e era redundante com um botão de Ajuda semelhante disponível para todos os usuários no Menu principal.
 

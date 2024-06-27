@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 
 >[!NOTE]
 >
->Versão de pré-visualização: 30 de maio de 2024; Produção para lançamento rápido: Com lançamento da versão 24.6 (13 de junho de 2024); Versão de produção para todos os clientes: Com lançamento da versão 24.7 (julho de 2024).
+>Versão de pré-visualização: 30 de maio de 2024; Produção para lançamento rápido: Com o lançamento 24.6 (13 de junho de 2024); Versão de produção para todos os clientes: Com o lançamento 24.7 (18 de julho de 2024).
 
 Para facilitar a atualização de tarefas e problemas, adicionamos os campos Data de confirmação e Condição como opções para adicionar à seção Cabeçalhos de tarefas e problemas e Detalhes em um modelo de layout. Os usuários agora podem atualizar esses campos a partir da seção de cabeçalho ou Detalhes de uma página, quando são atribuídos ao modelo de layout modificado. Antes desse aprimoramento, não era possível adicionar a Condição e a Data de confirmação das tarefas e problemas ao personalizar os cabeçalhos.
 
@@ -38,7 +38,7 @@ Para obter informações sobre como atualizar a Data de confirmação e a Condi�
 
 >[!NOTE]
 >
->Versão de pré-visualização: 21 de dezembro de 2023; Produção para lançamento rápido: Com o lançamento 24.5 (16 de maio de 2024); Versão de produção para todos os clientes: Com o lançamento 24.7 (julho de 2024).
+>Versão de pré-visualização: 21 de dezembro de 2023; Produção para lançamento rápido: Com o lançamento 24.5 (16 de maio de 2024); Versão de produção para todos os clientes: Com o lançamento 24.7 (18 de julho de 2024).
 
 Alteramos o algoritmo que o Workfront usa para calcular e sugerir atribuições inteligentes para tarefas. O novo algoritmo se aplica às seguintes áreas no Workfront em que você atribui uma tarefa: listas de tarefas, a área Atribuições no cabeçalho da tarefa, Início e o painel Resumo.
 
