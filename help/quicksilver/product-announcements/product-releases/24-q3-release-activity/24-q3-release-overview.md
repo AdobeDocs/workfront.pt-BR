@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: d53be1bfb102f4b7fb81bfc9b7dc4bb313dab421
+source-git-commit: abc172f312d9b6695fa57598c2c0396d30ff2a95
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1666'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ O webinário de lançamento do 24.7 em tempo real foi cancelado, mas você ainda
 * [Melhorias no gerenciamento financeiro](#financial-management-enhancements)
 * [Aprimoramentos de integração](#integration-enhancements)
 * [Aprimoramentos do projeto](#project-enhancements)
+* [Aprimoramentos de provas](#proofing-enhancements)
 * [Melhorias no gerenciamento de recursos](#resource-management-enhancements)
 * [Outras melhorias](#other-enhancements)
 
@@ -299,6 +300,41 @@ O webinário de lançamento do 24.7 em tempo real foi cancelado, mas você ainda
                         </ul>
                     </td>
                  </tr>
+           </tbody>
+        </table>
+
+### Aprimoramentos de provas
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Recurso</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Datas de lançamento</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Atualizações de segurança para o Visualizador de provas de desktop</a></p>
+                        <p>A atualização de segurança do Workfront Proof Desktop Proofing Viewer 2.1.35 fornece correções de bugs de segurança para vulnerabilidades identificadas em versões anteriores.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: julho de 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produção para todos os clientes: 4 de julho de 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>             
            </tbody>
         </table>
 
