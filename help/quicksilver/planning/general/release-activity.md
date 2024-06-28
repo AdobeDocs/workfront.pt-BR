@@ -1,19 +1,19 @@
 ---
-title: Atividade de versão do Adobe Workfront Planning
+title: Atividade da versão atual do Adobe Workfront Planning
 description: Os recursos do Adobe Workfront Planning estão disponíveis no momento para clientes selecionados do Workfront. Leia este artigo com frequência para saber mais sobre os recursos recém-lançados para os recursos de planejamento.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '5143'
+source-wordcount: '5234'
 ht-degree: 0%
 
 ---
 
 
-# Atividade de versão do Adobe Workfront Planning
+# Atividade da versão atual do Adobe Workfront Planning
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 Este artigo lista os recursos que foram lançados para o Workfront Planing durante 2024.
 
-O programa de planejamento do Workfront foi iniciado desde 22 de maio de 2023. Para obter uma lista de todos os recursos lançados durante 2023, consulte [Atividade de versão do Adobe Workfront Planning para 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md).
+O programa de planejamento do Workfront foi iniciado desde 22 de maio de 2023. Para obter uma lista de todos os recursos lançados durante 2023, consulte [Arquivos de atividades do Adobe Workfront Planning versão 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md).
 
 Os recursos lançados são listados na ordem de lançamento, com o mais recente primeiro. Os clientes que estão participando do programa Workfront Planning podem acessar todos os recursos em seus ambientes de Produção.
 
@@ -54,6 +54,16 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/planning/notifications/notifications-information.md). -->
 
 ## Semana de 24 de junho de 2024
+
+### Assistente de IA do Workfront (beta) agora disponível para o Workfront Planning
+
+O Assistente de IA (beta) agora está disponível para o Workfront Planning.
+
+O assistente de IA trabalha no contexto da página selecionada e com seu nível de acesso e permissões para executar as seguintes ações: gerar, atualizar, remover ou restaurar registros.
+
+O Assistente de IA está atualmente em uma fase beta e está disponível para clientes selecionados. Entre em contato com seu representante de conta para saber se você está qualificado para participar desta fase.
+
+Para obter informações, consulte [Visão geral do Assistente do Adobe Workfront Planning AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
 ### Nova caixa de pesquisa ao selecionar um espaço de trabalho ou um tipo de registro
 

@@ -1,12 +1,12 @@
 ---
-title: Atividade de versão do Adobe Workfront Planning para 2023
+title: Arquivos de atividades do Adobe Workfront Planning versão 2023
 description: Os recursos do Adobe Workfront Planning estão disponíveis no momento para clientes selecionados do Workfront. Leia este artigo com frequência para saber mais sobre os recursos recém-lançados para os recursos de planejamento.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '2987'
+source-wordcount: '2989'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 Este artigo lista os recursos que foram lançados após o lançamento do programa de planejamento da Adobe Workfront, em 22 de maio de 2023, para o ano de 2023.
 
-Para obter informações sobre os recursos lançados durante 2024, consulte [Atividade de versão do Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md).
+Para obter informações sobre os recursos lançados durante 2024, consulte [Atividade da versão atual do Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md).
 
 Os recursos lançados são listados na ordem de lançamento, com o mais recente primeiro. Os clientes que estão participando do programa Workfront Planning podem acessar todos os recursos em seus ambientes de Produção.
 

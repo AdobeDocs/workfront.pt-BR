@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1967'
 ht-degree: 2%
 
 ---
@@ -59,7 +59,7 @@ Veja a seguir alguns dos principais recursos:
 
 A tabela a seguir ilustra os principais recursos que estarão disponíveis no Workfront Planning e uma linha do tempo de sua disponibilidade. A lista não inclui todos os recursos.
 
-Para obter informações sobre novos recursos e quando eles são lançados, consulte [Atividade de versão do Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md).
+Para obter informações sobre novos recursos e quando eles são lançados, consulte [Atividade da versão atual do Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md).
 
 | Recurso | Disponível agora | Disponível em breve | Em pesquisa |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -328,5 +328,5 @@ Para localizar o Workfront Planning:
 
 Estamos lançando novos recursos regularmente no Workfront Planning.
 
-Para obter uma lista atualizada dos recursos lançados, consulte [Atividade de versão do Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md)
+Para obter uma lista atualizada dos recursos lançados, consulte [Atividade da versão atual do Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md)
 
