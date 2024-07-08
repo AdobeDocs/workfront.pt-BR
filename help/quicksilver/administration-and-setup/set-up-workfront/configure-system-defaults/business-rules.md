@@ -7,17 +7,16 @@ description: Você pode escolher se deseja receber a nova funcionalidade do Work
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-hidefromtoc: true
-hide: true
-recommendations: noDisplay, noCatalog
-source-git-commit: d96ddcc2f514d9f79e94a3437a3b66e07a270abc
+source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
 
 # Criar e editar regras de negócios
+
+{{highlighted-preview-article-level}}
 
 Uma regra de negócios permite aplicar validação a objetos do Workfront e impede que os usuários criem, editem ou excluam um objeto quando determinadas condições forem atendidas. As regras de negócios ajudam a melhorar a qualidade dos dados e a eficiência operacional, evitando ações que podem comprometer a integridade dos dados.
 
@@ -25,7 +24,7 @@ Uma única regra de negócios pode ser atribuída a apenas um objeto. Por exempl
 
 Os níveis de acesso e o compartilhamento de objetos têm uma prioridade mais alta do que as regras de negócios quando um usuário interage com um objeto. Por exemplo, se um usuário tiver um nível de acesso ou permissão que não permita a edição de um projeto, eles terão precedência sobre uma regra de negócios que permita a edição de um projeto sob determinadas condições.
 
-Uma hierarquia também existe quando mais de uma regra de negócios é aplicada a um objeto. Por exemplo, você tem duas regras de negócios. Restringe-se a criação de despesas no mês de fevereiro. O segundo impede a edição de um projeto quando o status do projeto é Concluído. Se um usuário tentar adicionar uma despesa a um projeto concluído em junho, a despesa não poderá ser adicionada porque acionou a segunda regra.
+Quando mais de uma regra de negócios se aplica a um objeto, as regras são todas seguidas, mas não são aplicadas em uma determinada ordem. Por exemplo, você tem duas regras de negócios. Restringe-se a criação de despesas no mês de fevereiro. O segundo impede a edição de um projeto quando o status do projeto é Concluído. Se um usuário tentar adicionar uma despesa a um projeto concluído em junho, a despesa não poderá ser adicionada porque acionou a segunda regra.
 
 As regras de negócios se aplicam à criação, edição e exclusão de objetos por meio da API e da interface do Workfront.
 
@@ -64,18 +63,36 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Cenários de regras de negócios
 
-Alguns cenários simples de regras de negócios são:
+O formato de uma regra de negócios é &quot;Se a condição definida for atendida, o usuário será impedido de realizar a ação no objeto e a mensagem será exibida&quot;.
 
-* Os usuários não podem adicionar novas despesas durante a última semana de fevereiro. Esta fórmula pode ser declarada como: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
-* Os usuários não podem editar um projeto com o status Concluído. Esta fórmula pode ser declarada como: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
-
-A sintaxe para criar uma regra de negócios é a mesma que criar um campo calculado em um formulário personalizado. Para obter mais informações sobre a sintaxe, consulte [Adicionar campos calculados com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+A sintaxe das propriedades e outras funções em uma regra de negócios é igual à sintaxe de um campo calculado em um formulário personalizado. Para obter mais informações sobre a sintaxe, consulte [Adicionar campos calculados com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Para obter informações sobre instruções IF, consulte [Visão geral das instruções &quot;IF&quot;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) e [Operadores de condição em campos personalizados calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 Para obter informações sobre curingas baseados no usuário, consulte [Usar curingas com base no usuário para generalizar relatórios](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
 Para obter informações sobre curingas com base em data, consulte [Usar curingas com base em data para generalizar relatórios](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+
+Um curinga de API também está disponível nas regras de negócios. Você pode usar `$$ISAPI` para acionar a regra somente na interface ou somente na API.
+
+Alguns cenários simples de regras de negócios são:
+
+* Os usuários não podem adicionar novas despesas durante a última semana de fevereiro. Esta fórmula pode ser declarada como: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* Os usuários não podem editar um projeto com o status Concluído. Esta fórmula pode ser declarada como: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+
+Um cenário com instruções IF aninhadas é:
+
+Os usuários não podem editar projetos concluídos e não podem editar projetos com uma Data de conclusão planejada para março. Esta fórmula pode ser declarada como:
+
+```
+IF(
+    {status}="CPL",
+    "You cannot edit a completed project",
+    IF(
+        MONTH({plannedCompletionDate})=3,
+        "You cannot edit a project with a planned completion date in March")
+)
+```
 
 ## Adicionar uma nova regra de negócios
 

@@ -5,24 +5,24 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: abc172f312d9b6695fa57598c2c0396d30ff2a95
+source-git-commit: 0965c9a02496127bbf9b562784ff06c295dc0cf1
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1740'
 ht-degree: 0%
 
 ---
 
 # Visão geral da versão do terceiro trimestre de 2024
 
-Esta página fornece informações sobre a funcionalidade incluída na versão do terceiro trimestre de 2024. Essas melhorias estão planejadas para serem disponibilizadas no ambiente de produção durante todo o trimestre.
+Esta página fornece informações sobre funcionalidade incluídas na versão do terceiro trimestre de 2024. Esses aprimoramentos estão planejados para se tornarem disponíveis no ambiente de produção ao longo do trimestre.
 
-O webinário de lançamento do 24.7 em tempo real foi cancelado, mas você ainda pode [assista a uma demonstração em vídeo dos recursos do 24.7 aqui](https://video.tv.adobe.com/v/3430532/%20).
+A versão 24.7 do webinário foi cancelada, mas você ainda [pode assistir a uma demonstração em vídeo dos recursos 24.7 aqui](https://video.tv.adobe.com/v/3430532/%20).
 
-<span class="preview">Os recursos fora do ciclo (aqueles que foram lançados para produção antes da data de lançamento do terceiro trimestre de 2024) estão destacados em amarelo.</span>
+<span class="preview">Os recursos fora do ciclo (aqueles que estão sendo lançados na Produção antes da data de lançamento do terceiro trimestre de 2024) são destacados em amarelo.</span>
 
 >[!IMPORTANT]
 >
->A versão 23.3 incluía a opção de mover sua organização para versões mensais. Portanto, a Workfront alterou o esquema de numeração de versões para contabilizar as faixas de lançamento mensais e trimestrais. O primeiro número designa o ano e o segundo número significa o mês do lançamento. Exemplo: a versão de abril de 2024 é 24.4.
+>A versão 23.3 incluiu a opção de mover sua organização para versões mensais. Portanto, a Workfront alterou o esquema de numeração das versões para conta para ambas as faixas de versão mensais e trimestrais. O primeiro número designa o ano e o segundo número significa o mês do lançamento. Exemplo: a versão de abril de 2024 é 24.4.
 >
 >Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira da segunda semana completa do mês, a menos que especificado de outra forma.
 >
@@ -58,9 +58,26 @@ O webinário de lançamento do 24.7 em tempo real foi cancelado, mas você ainda
                         </p>
                     </td>
                 </tr>
+                                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Regras de negócio agora estão disponíveis</a></p>
+                        <p>Agora, os administradores podem adicionar regras de negócios na área Configuração do Workfront.</p>
+                        <p>Uma regra de negócios permite aplicar validação a objetos do Workfront e impede que os usuários criem, editem ou excluam um objeto quando determinadas condições forem atendidas. As regras são criadas usando uma fórmula semelhante aos campos calculados em formulários personalizados.</p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: 4 de julho de 2024</p>
+                            </li>
+                            <li>
+                                <p>Versão de produção para todos os clientes: com a versão 24.7 (18 de julho de 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Designer de formulários personalizados geralmente disponível no Adobe Workfront</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">O designer de formulários personalizados está disponível em Adobe Systems Workfront</a></p>
                         <p>Com a versão 24.7, o designer do formulário estará disponível para o público em geral e se tornará a experiência padrão para criar e editar formulários personalizados no Adobe Workfront. Ao criar um novo formulário personalizado ou abrir um formulário existente, você verá o espaço de trabalho de estilo da tela do designer de formulário.</p>
                         <p>Depois dessa versão, você não terá mais a opção de reverter para o construtor de formulários herdado.</p>
                     </td>
@@ -128,10 +145,10 @@ O webinário de lançamento do 24.7 em tempo real foi cancelado, mas você ainda
                         [!BADGE Na produção ]{type=Informative}
                         <p>Para ajudá-lo a definir campos suspensos com mais facilidade, adicionamos o campo suspenso de seleção múltipla ao designer de formulário personalizado. Esse tipo de campo permite que os usuários escolham mais de uma opção em uma lista suspensa.</p>
                     </td>
-                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                    <td><p><b>Disponível nestas datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão de pré-visualização: 4 de junho de 2024</p>
+                                <p>Visualização versão: 4 de junho de 2024</p>
                             </li>
                             <li>
                                 <p><span class="preview">Produção para todos os clientes: 4 de junho de 2024</span></p>
@@ -142,7 +159,7 @@ O webinário de lançamento do 24.7 em tempo real foi cancelado, mas você ainda
            </tbody>
         </table>
 
-### Melhorias no gerenciamento financeiro
+### Melhorias na gestão financeira
 
 <table>
             <col style="width: 50%;" />
@@ -150,7 +167,7 @@ O webinário de lançamento do 24.7 em tempo real foi cancelado, mas você ainda
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Recurso</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -242,8 +259,8 @@ O webinário de lançamento do 24.7 em tempo real foi cancelado, mas você ainda
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Edite a Data de confirmação e a Condição da tarefa e do problema na seção de cabeçalho ou Detalhes</a></p>
-                        [!BADGE Na produção para a versão rápida ]{type=Positive}
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Editar o tarefa e emitir Data e Condição de confirmação no cabeçalho ou na seção Detalhes</a></p>
+                        [! SELO Na produção para versão rápida ]{type=Positive}
                         <p>Para facilitar a atualização de tarefas e problemas, adicionamos os campos Data de confirmação e Condição como opções para adicionar à seção Cabeçalhos de tarefas e problemas e Detalhes em um modelo de layout. Os usuários agora podem atualizar esses campos a partir da seção de cabeçalho ou Detalhes de uma página, quando são atribuídos ao modelo de layout modificado.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -346,7 +363,7 @@ O webinário de lançamento do 24.7 em tempo real foi cancelado, mas você ainda
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Recurso</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -356,8 +373,8 @@ O webinário de lançamento do 24.7 em tempo real foi cancelado, mas você ainda
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">A folga agora é refletida no Balanceador de carga de trabalho</a></p>
-                        <p>Para ajustar facilmente o trabalho quando o destinatário principal em uma tarefa tiver um tempo de folga agendado, o Balanceador de carga de trabalho agora realoca horas para os usuários principal e secundário quando a linha do tempo do projeto é recalculada.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">Tempo limite agora refletido no Balanceador de carga de trabalho</a></p>
+                        <p>Para ajustar o trabalho perfeitamente quando o destinatário principal em uma tarefa tiver horário programado de folga, o Balanceador de Carga de Trabalho agora re-aloca horas para os usuários primários e secundários quando o linha do tempo do projeto é recalculado.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
