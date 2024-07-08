@@ -5,13 +5,13 @@ title: Criar um modelo de aprovação
 description: Você pode criar Modelos de aprovação para simplificar seu processo de aprovação.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
+exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
+source-git-commit: 0d828f8dd316c332b98066a9bb797c534eeace3d
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '228'
 ht-degree: 2%
 
 ---
-
 
 # Criar um modelo de aprovação
 
@@ -37,7 +37,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Padrão</p> </td> 
+   <td> <p>Novo: Padrão</p> 
+   <p>ou</p>
+   <p>Atual: Plano</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,4 +68,3 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 <!-- Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
 ![](assets/assign-template.png)-->
-
