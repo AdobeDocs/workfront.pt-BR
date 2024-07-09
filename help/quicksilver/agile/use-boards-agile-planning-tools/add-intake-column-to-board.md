@@ -7,10 +7,10 @@ description: Opcionalmente, é possível adicionar uma coluna de entrada ao quad
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 4fd097395a3122caa5ba63765e572186c31c75ac
+source-git-commit: d2d96baa060cb3306f1767d179d514b569b0156a
 workflow-type: tm+mt
 source-wordcount: '1108'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ A coluna de entrada não está disponível em uma placa dinâmica. No entanto, �
 
 >[!NOTE]
 >
->Por motivos de segurança, somente o proprietário de uma placa pode alterar os filtros da placa no painel Configurar.
+>Por motivos de segurança, somente o proprietário de um quadro pode alterar os filtros do quadro no painel Configurar.
 
 A coluna de entrada é limitada a 300 tarefas e 300 problemas. A ordem padrão dos itens na coluna de entrada é a seguinte:
 
@@ -166,4 +166,5 @@ Os ícones na parte superior direita da coluna de entrada mostram quantos cartõ
    Clique em **[!UICONTROL Mais]** menu ![Ícone do menu Mais](assets/more-icon-spectrum.png) no cartão e selecione **[!UICONTROL Mover]**. Em seguida, no **[!UICONTROL Mover item]** , escolha outra coluna e selecione **[!UICONTROL Mover]**.
 
 1. (Opcional) Para excluir a coluna de entrada, clique no botão **[!UICONTROL Mais]** menu ![Ícone do menu Mais](assets/more-icon-spectrum.png) e selecione **[!UICONTROL Excluir]**.
+
 
