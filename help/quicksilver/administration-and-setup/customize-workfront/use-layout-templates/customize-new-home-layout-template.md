@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 9de4a3729abe0ea2ee89df0be2974b714e65332a
+source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '829'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><
 
 1. Comece a trabalhar em um modelo de layout, conforme descrito em [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Clique na seta para baixo ![](assets/dropdown-arrow.png) em **Personalize o que os usuários veem** e, em seguida, clique em **Espaço de trabalho inicial**.
+1. Clique na seta para baixo ![](assets/dropdown-arrow.png) em **Personalize o que os usuários veem** e, em seguida, clique em **Workspace inicial**.
 
 1. Nas guias exibidas à direita, clique em **Design e layout** para escolher e organizar widgets e o fundo, ou **Configurações do widget** para gerenciar configurações de widgets individuais, como filtros e grupos disponíveis.
 
@@ -132,3 +132,8 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> <p><
    Ou
 
    Se tiver terminado de personalizar, clique em **Salvar** no canto inferior esquerdo.
+
+
+>[!NOTE]
+>
+>Os administradores que personalizam seu próprio modelo de layout precisarão atualizar a página para ver as alterações.

@@ -6,9 +6,9 @@ description: Os modificadores de filtro e condição permitem criar filtros e es
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1566'
 ht-degree: 0%
 
 ---
@@ -127,16 +127,16 @@ Você pode usar os seguintes modificadores de condição em filtros e instruçõ
    <td> <p><strong>Não Igual</strong> </p> </td> 
    <td> <p><strong>not</strong> </p> </td> 
    <td> <p>Este é o <i>diferencia maiúsculas de minúsculas</i> oposto de <strong>in</strong>. Retorna apenas resultados que não estão na lista especificada.</p> <p>Esse modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo de texto em filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo de texto</a>.</p> <p>Nota: <span>Se o campo que você está filtrando tiver várias opções, o filtra os resultados que contêm tanto a escolha especificada, quanto a especificada e quaisquer opções adicionais.</span> </p> </td> 
-  </tr> 
+  </tr>
+  <tr valign="top"> 
+   <td> <p> </p> </td> 
+   <td> <p><strong>curtir</strong> </p> </td> 
+   <td> <p>Esse modificador pesquisa partes de um <i>diferencia maiúsculas de minúsculas</i> sequência de texto de maneira semelhante a <strong>contém</strong>. No entanto, <strong>curtir</strong> O fornece a capacidade de inserir caracteres curingas para dividir o texto.</p> <p>Por exemplo, ao pesquisar notas, usando <code>like %Current% %Dead%</code> retorna qualquer nota que contenha a frase "Atual para Inativo". Ela não inclui notas que contenham "Inativo para atual". Cada valor é pesquisado na ordem em que é listado. % representa um curinga para substituir caracteres ou segmentos de texto. Um sublinhado também pode ser usado para um único caractere curinga, como em <code>like Project_</code> que retorna "Projeto" e "Projetos". Se você pretende usar um <strong>curtir</strong> ou <strong>clike</strong> modificador em sua filtragem, recomendamos evitar % ou _ caracteres em nomes de campos de dados personalizados, valores de opção de parâmetro ou outros nomes de objeto.</p><p>Esse modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo de texto em filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo de texto</a>.</p> </td> 
+  </tr>  
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cilike</strong> </p> </td> 
    <td> <p>Este é o <i>não diferencia maiúsculas de minúsculas</i> versão de <strong>curtir</strong>. Por exemplo: <code>cilike %Current% %Dead%</code> retorna quaisquer notas que contenham <code>Current to Dead</code> ou <code>current to dead</code>.</p> <p>Esse modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo de texto em filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo de texto</a>.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p> </p> </td> 
-   <td> <p><strong>curtir</strong> </p> </td> 
-   <td> <p>Esse modificador pesquisa partes de um <i>diferencia maiúsculas de minúsculas</i> sequência de texto de maneira semelhante a <strong>contém</strong>. No entanto, <strong>curtir</strong> O fornece a capacidade de inserir caracteres curingas para dividir o texto.</p> <p>Por exemplo, ao pesquisar notas, usando <code>like %Current% %Dead%</code> retorna qualquer nota que contenha a frase "Atual para Inativo". Ela não inclui notas que contenham "Inativo para atual". Cada valor é pesquisado na ordem em que é listado. % representa um curinga para substituir caracteres ou segmentos de texto.</p> <p>Esse modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo de texto em filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo de texto</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td><strong>Não existe</strong> </td> 
