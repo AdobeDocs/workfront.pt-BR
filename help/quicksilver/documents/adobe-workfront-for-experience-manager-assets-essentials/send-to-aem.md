@@ -6,22 +6,20 @@ description: Você pode enviar documentos do Workfront para o Experience Manager
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 7fa4493d269862c9cdece75f0bf216931c671ea6
+source-git-commit: 65805e2ca81a46cce75610ff13b77e3748a6a810
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
 
 # Enviar um documento para o Experience Manager Assets ou o Assets Essentials
 
-<span class="preview">As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente Visualização da sandbox.</span>
-
 Você pode enviar documentos do Workfront para o Experience Manager Assets ou Assets Essentials. Os documentos carregados e enviados do Workfront para o Assets Essentials ainda contam com o armazenamento geral de documentos. O Assets vinculado ao Assets Essentials não é contabilizado no armazenamento geral.
 
 O Assets enviado para o Experience Manager por meio dessa integração tem um limite de tamanho de **5 GB**.
 
-<span class="preview">No ambiente de Pré-visualização, o Assets enviado para o Experience Manager por meio dessa integração tem um limite de tamanho de **30 GB**.</span>
+No ambiente de Pré-visualização, o Assets enviado para o Experience Manager por meio dessa integração tem um limite de tamanho de **30 GB**.
 
 Os campos de metadados são mapeados pela primeira vez quando você envia um ativo do Workfront para o Experience Manager Assets ou Assets Essentials. Todos os metadados configurados para mapear para objetos principais também são enviados. Para obter mais informações sobre como configurar o mapeamento de metadados, consulte [Configurar a integração as a Cloud Service do Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configurar a integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
@@ -31,7 +29,9 @@ Os campos de metadados são mapeados pela primeira vez quando você envia um ati
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+Você deve ter o seguinte acesso para concluir as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -62,6 +62,8 @@ Você deve ter o seguinte:
 </table>
 
 &#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
+
++++
 
 ## Pré-requisitos
 
