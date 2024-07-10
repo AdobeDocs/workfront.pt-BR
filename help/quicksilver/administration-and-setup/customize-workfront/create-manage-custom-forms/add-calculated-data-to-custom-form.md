@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 6b2a2160b5daaa94374707bad4b026daa13edf06
+source-git-commit: 02b025f228b6e2abc58dbc30f88c055c7850b803
 workflow-type: tm+mt
-source-wordcount: '2911'
+source-wordcount: '2895'
 ht-degree: 0%
 
 ---
@@ -300,7 +300,7 @@ Por exemplo, para fazer referência à opção selecionada em um campo personali
 
 ## Campos personalizados calculados em formulários personalizados de vários objetos {#calculated-custom-fields-in-multi-object-custom-forms}
 
-Em um formulário personalizado de vários objetos, os tipos de objeto selecionados devem ser compatíveis com todos os campos referenciados nos campos personalizados calculados do formulário. Se houver uma incompatibilidade, uma mensagem o alertará para fazer ajustes.
+Em um formulário personalizado de vários objetos, os tipos de objeto selecionados devem ser compatíveis com todos os campos referenciados nos campos personalizados calculados do formulário.
 
 >[!INFO]
 >
@@ -310,11 +310,11 @@ Em um formulário personalizado de vários objetos, os tipos de objeto seleciona
 >
 >`{assignedTo}.{name}`
 >
->Posteriormente, você adiciona o tipo de objeto Projeto ao formulário personalizado. Uma mensagem de aviso informa que o tipo de objeto Project é incompatível com o campo personalizado calculado.
+>Posteriormente, você adiciona o tipo de objeto Project ao formulário personalizado, mas o tipo de objeto Project é incompatível com o campo personalizado calculado.
 
 Quando isso ocorrer, você poderá executar um dos seguintes procedimentos:
 
-* Remova um dos dois itens incompatíveis do formulário personalizado, seja o tipo de objeto ou o campo personalizado calculado referenciado.
+* Remova um dos dois itens incompatíveis do formulário personalizado — o tipo de objeto ou o campo personalizado calculado referenciado.
 * Manter ambos os itens e usar a variável de filtro curinga `$$OBJCODE` como uma condição em uma expressão IF para criar duas versões diferentes do campo Encargo. Isso permite que o campo funcione com êxito, independentemente do tipo de objeto ao qual o formulário está anexado.
 
 >[!INFO]
@@ -325,7 +325,7 @@ Quando isso ocorrer, você poderá executar um dos seguintes procedimentos:
 >
 >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-Para obter mais informações sobre variáveis como `$$OBJCODE,` consulte [Visão geral das variáveis de filtro curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Para obter mais informações sobre variáveis como `$$OBJCODE,` consulte [Visão geral das variáveis de filtro curinga](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Atualizações automáticas de campos personalizados calculados
 
