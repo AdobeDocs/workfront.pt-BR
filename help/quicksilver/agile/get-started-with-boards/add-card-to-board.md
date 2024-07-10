@@ -6,9 +6,9 @@ description: Você pode adicionar rapidamente um cartão ad hoc a um quadro e at
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: b25a165dd85b64a154233b64ae2fc9b676a5aaa2
+source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
@@ -106,9 +106,9 @@ Um cartão ad hoc não está conectado a um item de trabalho no [!DNL Adobe Work
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comentários]</strong></td>
-      <td><p>Clique em <strong>[!UICONTROL Novo comentário]</strong> e digite seu comentário. Use as ferramentas de formatação para formatar o texto e clique no <strong>Adicionar anexo</strong> ícone <img src="assets/attachment-icon.png" alt="Ícone de anexo"> para anexar um arquivo ao comentário. Para marcar uma pessoa ou equipe, use a caixa de pesquisa na parte inferior da área de comentários. O usuário não precisa ser membro do painel.</p><p><strong>NOTA:</strong> No momento, os usuários marcados em comentários em cartões ad hoc não recebem uma notificação por email.
+      <td><p>Clique em <strong>[!UICONTROL Novo comentário]</strong> e digite seu comentário. Use as ferramentas de formatação para formatar o texto. Para marcar uma pessoa ou equipe, use a caixa de pesquisa na parte inferior da área de comentários. O usuário não precisa ser membro do painel.</p><p><strong>NOTA:</strong> No momento, os usuários marcados em comentários em cartões ad hoc não recebem uma notificação por email.
       </p><p>Clique em <strong>[!UICONTROL Enviar]</strong> para adicionar o comentário ao cartão.</p>
-      <p><strong>NOTA:</strong> A área de comentários nos cartões usa a nova experiência de comentários do Adobe Workfront. Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Atualizar trabalho</a>.</p></td>
+      <p>Para obter mais informações sobre comentários, consulte <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Atualizar trabalho</a>.</p></td>
      </tr>
     </tbody> 
    </table>
