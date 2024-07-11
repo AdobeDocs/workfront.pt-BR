@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Remover aprovadores ou revisores de um documento
+title: Remover aprovadores ou revisores de um ativo ou documento
 description: Você pode remover aprovadores ou revisores individuais de um documento.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 50a38ad915b639bf742a4b1f18bcb4da88e07d63
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
-# Remover aprovadores ou revisores de um documento
+# Remover aprovadores ou revisores de um ativo ou documento
 
-Você pode remover aprovadores ou revisores individuais de um documento depois que eles tiverem sido atribuídos.
+Você pode remover aprovadores ou revisores individuais de um ativo ou documento depois que eles tiverem sido atribuídos.
 
 >[!IMPORTANT]
 >
@@ -31,7 +31,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -50,7 +50,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 &#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
-## Remover aprovadores ou revisores da página do documento
+## Remover aprovadores ou revisores da página Detalhes do documento
 
 1. Vá para a página do documento clicando no nome do documento e selecione a versão do documento para a qual deseja remover uma aprovação na lista suspensa de versões. A versão mais recente será selecionada por padrão.
 
@@ -64,7 +64,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Repita a etapa anterior para remover aprovadores ou revisores adicionais.
 
-## Remover aprovadores ou revisores do painel Resumo do documento
+## Remover aprovadores ou revisores do Resumo do documento
 
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 

@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Adicionar aprovadores ou revisores adicionais a um documento
+title: Adicionar aprovadores ou revisores adicionais a um ativo ou documento
 description: Você pode adicionar outros aprovadores ou revisores a um documento que já tem aprovações pendentes.
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
-# Adicionar aprovadores ou revisores adicionais a um documento
+# Adicionar aprovadores ou revisores adicionais a um ativo ou documento
 
-Você pode adicionar outros aprovadores ou revisores a um documento que já tem aprovações pendentes.
+É possível adicionar aprovadores ou revisores adicionais a um ativo ou documento que já tenha aprovações pendentes.
 
 >[!IMPORTANT]
 >
@@ -31,7 +31,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -50,7 +50,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 &#42;Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o administrador do Workfront.
 
-## Adicionar aprovadores ou revisores adicionais da página do documento
+## Adicionar aprovadores ou revisores adicionais na página Detalhes do documento
 
 1. Vá para a página do documento clicando no nome do documento e selecione a versão do documento à qual deseja adicionar um aprovador ou revisor na lista suspensa de versões. A versão mais recente será selecionada por padrão.
 
@@ -60,7 +60,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Repita a etapa anterior para adicionar aprovadores ou revisores adicionais.
 
-## Adicionar aprovadores ou revisores adicionais do painel Resumo do documento
+## Adicionar aprovadores ou revisores adicionais do Resumo do documento
 
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 

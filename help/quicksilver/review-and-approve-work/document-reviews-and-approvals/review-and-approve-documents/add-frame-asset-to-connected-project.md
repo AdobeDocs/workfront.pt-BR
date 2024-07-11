@@ -6,9 +6,9 @@ description: Os profissionais de criação podem adicionar ativos que precisam s
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f196e56f-6e67-4d54-b36d-83bb4a3ae681
-source-git-commit: cf5e96fc1d0b2f17dcbc6f99dba2d11cc9161103
+source-git-commit: a343b8822523d48ca717c87f9ca4c51ca76abc57
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Pré-requisitos
 
-* Você deve ter um grupo do Workfront conectado a uma equipe Frame.io.
-* Você deve ter um projeto Workfront conectado a um projeto Frame.io e ser adicionado como usuário a uma tarefa Workfront habilitada para Frame.io.
-
-Para obter mais informações, consulte [Conecte o Workfront e o Frame.io.](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
-
+* Você deve configurar a integração do Workfront e do Frame.io. Para obter mais informações, consulte [Configurar a integração do Workfront e do Frame.io](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
 ## Adicionar um ativo Frame.io a um projeto conectado do Workfront
 

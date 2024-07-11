@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: a1ffd3ff488e06a10c9b418360906146c9cb3c99
+source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Revisores e aprovadores podem ser adicionados a um fluxo de trabalho de aprovaç
 
 * **Aprovações de uso único**: no projeto ou tarefa em que o ativo reside, o coordenador do projeto pode atribuir revisores e aprovadores e definir um prazo de conclusão. Revisores e aprovadores são lembrados por e-mail 72 e 24 horas antes do prazo, bem como sobre o próprio prazo.
 
-  Para obter mais informações, consulte [Criar uma revisão de documento ou solicitação de aprovação](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!--I think this needs to be renamed? -->
+  Para obter mais informações, consulte * [Criar uma solicitação de revisão ou aprovação para um ativo Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md).
 
 * **Modelos de aprovação**: na área Configuração do Workfront, os coordenadores de projetos podem criar Modelos de aprovação reutilizáveis. Em um modelo, os usuários podem adicionar revisores e aprovadores e especificar um período de conclusão. Quando o modelo de aprovação é aplicado a um ativo, o prazo é calculado a partir do período especificado.
 
