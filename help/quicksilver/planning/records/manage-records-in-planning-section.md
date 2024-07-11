@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 64f187ed78b69db9b9ac0259e96ef0bf47abf4f4
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
@@ -115,10 +115,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Clique no cartão de um tipo de registro conectado a um projeto, portfólio ou programa do Workfront.
 1. Vá para um campo de registro conectado que tenha uma conexão com um objeto do Workfront, na exibição de tabela ou na página de detalhes de um registro. Para obter informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 1. Clique no nome de um objeto Workfront no campo de registro conectado.
-A página dos objetos é aberta no Workfront Planning.
-1. Clique em **Ir para origem**, no canto superior direito da tela.
+A página dos objetos é aberta no Workfront.
 
-   A página do objeto é aberta no Workfront.
 1. Clique em **Planejamento** no painel esquerdo.
 
    >[!NOTE]

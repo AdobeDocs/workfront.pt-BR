@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: dc8e6f730ec88fc66c3486987e064b5f0760fb80
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 7%
+source-wordcount: '692'
+ht-degree: 6%
 
 ---
 
@@ -69,7 +69,9 @@ As tabelas nas seções a seguir ilustram o nível de permissões que você pode
 >
 >Nem todos os usuários podem ter os níveis de permissão descritos abaixo. A licença individual dos usuários determina o nível de permissões que eles podem receber para objetos do Workfront Planning.
 >
->Somente usuários de licença Padrão (ou Plano) podem ter permissões de Contribute ou Gerenciar para espaços de trabalho.
+>Somente usuários de licença Padrão (ou Plano) podem ter permissões do Contribute ou Gerenciar para espaços de trabalho e Gerenciar permissões para exibições.
+> 
+>Os usuários com todos os outros tipos de licença podem ter permissões de Exibição para espaços de trabalho e exibições.
 >
 >Para obter informações, consulte [Visão geral do tipo de licença ao usar o Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
@@ -157,7 +159,8 @@ A seguir estão os níveis de permissões para exibições e elementos de exibi�
 | Excluir | ✓ µ |       |                            |
 | Compartilhar | ✓ µ |       |                           |
 | Exibir | ✓ µ | ✓ µ | ✓ µ |
-| Aplicar | ✓ µ | ✓ µ | ✓ µ |
+| Acessar a visualização | ✓ µ | ✓ µ | ✓ µ |
+| Aplicar filtros temporários, agrupamentos, classificar | ✓ µ | ✓ µ | ✓ µ |
 
 *Os usuários devem ter permissões de Visualização ou superiores em um espaço de trabalho para obter esse acesso de visualização.
 

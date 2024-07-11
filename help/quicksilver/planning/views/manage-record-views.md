@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1113'
 ht-degree: 1%
 
 ---
@@ -44,6 +44,8 @@ Este artigo descreve as seguintes informações sobre visualizações de registr
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -69,32 +71,37 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licença do Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td>
    <td>
-   <p>Qualquer</p> 
-   <p>Os administradores do sistema têm acesso somente às exibições criadas ou compartilhadas com eles. </p>
+   <p>Novo: Padrão</p>
+   Ou
+   <p>Atual: Plano </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Configuração do nível de acesso</td>
-   <td> <p>Não há controles de nível de acesso para o Workfront Planning</p>  
+   <td role="rowheader"><p>Configurações de nível de acesso</p></td>
+   <td> Não há controles de acesso para o Adobe Workfront Planning</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Permissões</p></td>
-   <td> <p>Gerenciar permissões para a exibição</p>  
+   <td> <p>Gerenciar permissões para uma exibição</p>  
+   <p>Permissões de exibição para uma exibição para alterar temporariamente as configurações de exibição</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Modelo de layout</td>
-   <td> <p>O administrador do sistema deve adicionar a área Planejamento ao modelo de layout. Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p>  
+   <td role="rowheader"><p>Modelo de layout</p></td>
+   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal. </p> <p>Para obter informações, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Visão geral do Access</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Considerações ao trabalhar com visualizações de registro
 

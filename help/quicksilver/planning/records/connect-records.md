@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: b63b9bcd88eaf70c629dde264656d45567896f2e
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '2585'
+source-wordcount: '2512'
 ht-degree: 1%
 
 ---
@@ -288,19 +288,13 @@ Depois de criar uma conexão entre um tipo de registro e um tipo de objeto do Wo
 
 1. (Opcional) Clique no nome de um objeto do Workfront conectado a um registro do Workfront Planning no campo vinculado de uma exibição de tabela ou no campo vinculado na página de registro.
 
-   Isso abre a página somente leitura de registro do Workfront Planning para o objeto vinculado do Workfront. Os campos selecionados como campos de pesquisa quando você conectou o tipo de registro ao objeto do Workfront são exibidos na página de registro do Workfront Planning.
+   Essa ação abre o objeto do Workfront no Workfront, se você tiver pelo menos permissões de Exibição para o objeto.
 
    >[!TIP]
    >
    >* Quando você ativa a configuração Permitir vários registros, os valores dos campos de pesquisa são exibidos separados por vírgulas ou agregados de acordo com o agregador escolhido.
    >
    >* Um campo de registro vinculado não é criado para os objetos vinculados do Workfront no Workfront.
-
-1. (Opcional) Para abrir o objeto vinculado do Workfront no Workfront, clique em **Ir para origem** no canto superior direito da página registro do objeto do Workfront.
-
-   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
-
-   Isso abrirá a página do objeto do Workfront, se você tiver pelo menos permissões de Exibição para exibir o objeto. Você pode editar informações sobre o objeto do Workfront, se tiver permissões para isso.
 
 1. (Opcional) Na exibição de tabela do tipo de registro, passe o mouse sobre o cabeçalho da coluna do objeto vinculado do Workfront, clique no menu suspenso e, em seguida, clique em **Editar campos de pesquisa**.
 
@@ -345,7 +339,7 @@ Depois de criar uma conexão entre um tipo de registro e o Adobe Experience Mana
    >
    >  Você pode adicionar, clique no link **+** ícone no campo objeto vinculado na página registro para conectar ativos ao registro.
 
-   A variável **Selecionar ativos** é exibida. <!--we might change this to Connect assets-->
+   A variável **Selecionar Assets** é exibida. <!--we might change this to Connect assets-->
 
    ![](assets/select-assets-box-for-aem-record-connections.png)
 
@@ -391,7 +385,7 @@ Depois de criar uma conexão entre um tipo de registro e o Adobe Experience Mana
    * Data de criação
    * Data de modificação
 
-1. (Opcional) Para abrir a página de registro de ativos Experience Manager no Experience Manager, vá para a página de tipo de registro do registro que está sendo vinculado, clique no nome de um ativo no campo de registro vinculado para abrir a janela pop-up e, em seguida, clique na guia **Abertura** ícone ![](assets/open-asset-icon.png) para abrir o ativo.
+1. (Opcional) Para abrir a página de registro de ativos Experience Manager no Experience Manager, vá para a página de tipo de registro do registro que está sendo vinculado, clique no nome de um ativo no campo de registro vinculado para abrir a janela pop-up e, em seguida, clique na guia **Abrir no AEM** ícone ![](assets/open-asset-icon.png) para abrir o ativo.
 
    Isso abre o ativo Experience Manager no Adobe Experience Manager Assets.
 

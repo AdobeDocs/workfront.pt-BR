@@ -4,9 +4,9 @@ description: Os recursos do Adobe Workfront Planning estão disponíveis no mome
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '2989'
+source-wordcount: '2988'
 ht-degree: 0%
 
 ---
@@ -236,7 +236,7 @@ Para obter mais informações, consulte [Criar campos](/help/quicksilver/plannin
 
 Pré-visualização e produção: 31 de outubro de 2023
 
-Agora é possível abrir as páginas de objetos do Workfront nas seguintes áreas nos recursos de planejamento:
+Agora é possível abrir as páginas de objetos do Workfront nas seguintes áreas no Workfront Planning:
 
 * A exibição da tabela de registro de objeto vinculada ao Workfront somente leitura
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1801'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Crie um campo de conexão no tipo de registro do Campaign, no qual você possa m
 
 Para fazer isso:
 
-1. Vá para um espaço de trabalho onde deseja conectar o tipo de registro Campanha com projetos Workfront.
+1. Vá para uma Workspace onde deseja conectar o tipo de registro Campanha com projetos Workfront.
 1. Abra a exibição de tabela para o tipo de registro do Campaign no espaço de trabalho selecionado.
 1. Clique em **+** no canto superior direito da exibição de tabela para adicionar um novo campo, em seguida, clique em **Nova conexão** e, em seguida, clique em **Projeto** no **Tipos de objeto do Workfront** seção.
 1. Adicione as seguintes informações, por exemplo:
@@ -205,10 +205,7 @@ Para fazer isso:
 
 1. Clique no nome de um projeto no campo de registro conectado.
 
-   Isso abre a página somente leitura do projeto do Workfront Planning.
-Revise as informações sobre o projeto. Somente os campos de projeto selecionados são exibidos na página do registro.
-
-1. Clique em **Ir para origem** no canto superior direito da tela para abrir o projeto no Workfront, se você tiver pelo menos permissões de Visualização para o projeto.
+   Essa ação abre o projeto no Workfront, se você tiver pelo menos permissões de Exibição para o projeto.
 1. (Opcional) Atualize as informações sobre o projeto no Workfront, se você tiver permissões para isso.
 
 1. (Opcional) Na exibição de tabela do Campaign, passe o mouse sobre **Informações do projeto** cabeçalho de campo, clique na seta para baixo e clique em **Editar campos de pesquisa.**

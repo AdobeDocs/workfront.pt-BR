@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: 81118e794dca746b482b8355c24fa997a9f0edc9
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,17 @@ Para descobrir qual é o estado atual de desenvolvimento de um projeto, tarefa o
 Por exemplo, neste projeto, o status Planejamento indica que o gerente do projeto está planejando aspectos do projeto no momento, como sua linha do tempo, atribuições de tarefas e aprovações.
 
 ![Status do projeto de exemplo](assets/statuses-overview.png)
+
+Você deve ter o seguinte acesso e permissões para um projeto, tarefa ou problema para visualizar seu status:
+
+* Acesso igual ou superior em seu nível de acesso a Projetos, Tarefas e Problemas
+* Exibir permissões ou mais altas no objeto
+
+Você deve ter o seguinte acesso e permissões para um projeto, tarefa ou problema para alterar manualmente seu status:
+
+* Editar o acesso em seu nível de acesso a Projetos, Tarefas e Problemas
+* Permissões do Contribute ou superiores na tarefa ou problema
+* Gerenciar permissões no projeto.
 
 A alteração do status de um projeto, tarefa ou problema geralmente é um processo manual. No entanto, há momentos em que o status de um problema é alterado automaticamente, dependendo de outros fatores que ocorrem no sistema.
 
