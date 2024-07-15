@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 4c5a9705cf90498b08b45d85e0b4f571dc2e30f2
+source-git-commit: 706c27e611b1bd1e1c06eb3fd2e59ad0f55a6157
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1009'
 ht-degree: 1%
 
 ---
@@ -30,9 +30,9 @@ Você pode executar esse processo no Workfront criando um pacote de objetos para
    * [Criar ou editar um pacote de promoção de ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
    * [Instalar um pacote de promoção de ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-* Para obter instruções sobre como executar esse processo por meio da API do Workfront, consulte [Mover objetos entre [!DNL Workfront] ambientes que usam o [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
+* Para obter instruções sobre como executar esse processo por meio da API do Workfront, consulte [Mover objetos entre [!DNL Workfront] ambientes usando a [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
 
-[Exibir uma demonstração em vídeo desse recurso](https://video.tv.adobe.com/v/3429735/){target=_blank}
+[Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 ## Objetos compatíveis com a promoção do ambiente
 
@@ -51,40 +51,40 @@ Como a promoção do ambiente lida com a configuração de objetos, os objetos t
 
 | Objeto promovível | Objetos vinculados promovíveis incluídos |
 | --- | --- |
-| Projeto (PROJ) | Projeto<br>Tarefa<br>Atribuição<br>Predecessora<br>Empresa<br>Taxa de substituição<br>Grupo<br>Função<br>Equipe<br>Processo de aprovação<br>Caminho de aprovação<br>Etapa de aprovação<br>Aprovador da etapa<br>Agendar<br>Dia Não Útil<br>Definição da fila<br>Grupo de Tópicos de Fila<br>Enfileirar tópico<br>Regra de Encaminhamento<br>Caminho de Etapas<br>Etapa<br>Tipo de Hora<br>Conjunto de recursos<br>Categoria<br>Parâmetro da categoria<br>Parâmetro<br>Grupo de Parâmetros<br>Opção de parâmetro<br>Lógica de exibição da categoria |
-| Modelo (TMPL) | Modelo<br>Modelo de Tarefa<br>Atribuição de Modelo de Tarefa<br>Predecessora da Tarefa de Modelo<br>Empresa<br>Taxa de substituição<br>Grupo<br>Função<br>Equipe<br>Processo de aprovação<br>Caminho de aprovação<br>Etapa de aprovação<br>Aprovador da etapa<br>Agendar<br>Dia Não Útil<br>Definição da fila<br>Grupo de Tópicos de Fila<br>Enfileirar tópico<br>Regra de Encaminhamento<br>Caminho de Etapas<br>Etapa<br>Tipo de Hora<br>Conjunto de recursos<br>Categoria<br>Parâmetro da categoria<br>Parâmetro<br>Grupo de Parâmetros<br>Opção de parâmetro<br>Lógica de exibição da categoria |
+| Projeto (PROJ) | Projeto<br>Tarefa<br>Atribuição<br>Predecessora<br>Empresa<br>Taxa de Substituição<br>Grupo<br>Função<br>Equipe<br>Processo de Aprovação<br>Caminho de Aprovação<br>Etapa de Aprovação<br>Aprovador da Etapa<br>Agendar<br>Dia Não Útil<br>Definição da Fila<br>Grupo de Tópicos da Fila<br>Tópico da Fila<br>Regra de Roteamento<br>Caminho de Etapas<br>Tipo de Horas<br>Tipo de Horas<br>1}Pool de Recursos<br>Categoria<br>Parâmetro de Categoria<br>Parâmetro<br>Grupo de Parâmetros<br>Opção de Parâmetro<br>Lógica de Exibição de Categoria |
+| Modelo (TMPL) | Modelo<br>Tarefa de Modelo<br>Atribuição de Tarefa de Modelo<br>Predecessora da Tarefa de Modelo<br>Empresa<br>Taxa de Substituição<br>Grupo<br>Função<br>Equipe<br>Processo de Aprovação<br>Caminho de Aprovação<br>Etapa de Aprovação<br>Aprovador da Etapa<br>Agendar<br>Dia Não Útil<br>Definição da Fila<br>Grupo de Tópicos da Fila<br>Tópico da Fila<br>Regra de Roteamento<br>Caminho de Etapas<br>Marco<br>Marco Tipo de Hora<br>Pool de Recursos<br>Categoria<br>Parâmetro de Categoria<br>Parâmetro<br>Grupo de Parâmetros<br>Opção de Parâmetro<br>Lógica de Exibição de Categoria |
 
 ### Objetos de relatório
 
 | Objeto promovível | Objetos vinculados promovíveis incluídos |
 | --- | --- |
-| Modelo de layout (UITMPL) | Modelo de layout<br>Painel<br>Calendário<br>Seção de calendário<br>Página externa<br>Relatório<br>Filtro<br>Agrupamento<br>Exibir<br>Parâmetro |
-| Painel (PTLTAB) | Painel<br>Calendário<br>Seção de calendário<br>Página externa<br>Relatório<br>Filtro<br>Agrupamento<br>Exibir<br>Parâmetro |
-| Calendário (CALEND) | Calendário<br>Seção de calendário |
+| Modelo de layout (UITMPL) | Modelo de Layout<br>Painel<br>Calendário<br>Seção de Calendário<br>Página Externa<br>Relatório<br>Filtro<br>Agrupamento<br>Exibir<br>Parâmetro<br>Grupo |
+| Painel (PTLTAB) | Painel<br>Calendário<br>Seção do Calendário<br>Página Externa<br>Relatório<br>Filtro<br>Agrupamento<br>Exibir<br>Parâmetro |
+| Calendário (CALEND) | Seção de Calendário<br>A |
 | Página externa (EXTSEC) | Página Externa |
-| Relatório (PTLSEC) | Relatório<br>Filtro<br>Agrupamento<br>Exibir<br>Parâmetro |
-| Filtro (UIFT) | Filtro<br>Parâmetro |
+| Relatório (PTLSEC) | Relatório<br>Filtro<br>Agrupamento<br>Exibição<br>Parâmetro |
+| Filtro (UIFT) | Filtrar <br>Parâmetro |
 | Agrupamento (UIGB) | Agrupamento<br>Parâmetro |
-| Visualização (UIVW) | Exibir<br>Parâmetro |
+| Visualização (UIVW) | Exibir <br>Parâmetro |
 
 ### Objetos de dados personalizados
 
 | Objeto promovível | Objetos vinculados promovíveis incluídos |
 | --- | --- |
-| Categoria (CTGY) | Categoria<br>Parâmetro da categoria<br>Parâmetro<br>Grupo de Parâmetros<br>Opção de parâmetro<br>Lógica de exibição da categoria<br>Grupo |
-| Parâmetro (PARAM) | Parâmetro<br>Opção de parâmetro |
+| Categoria (CTGY) | Categoria<br>Parâmetro De Categoria<br>Parâmetro<br>Grupo De Parâmetros<br>Opção De Parâmetro<br>Lógica De Exibição De Categoria<br>Grupo |
+| Parâmetro (PARAM) | Opção de Parâmetro<br>Parâmetro |
 | Grupo de Parâmetros (PGRP) | Grupo de Parâmetros |
 
 ### Objetos da organização
 
 | Objeto promovível | Objetos vinculados promovíveis incluídos |
 | --- | --- |
-| Grupo (GRUPO) | Grupo <br>Subgrupos (até 5 níveis) *<br>Categoria<br>Parâmetro da categoria<br>Parâmetro<br>Grupo de Parâmetros<br>Opção de parâmetro<br>Lógica de exibição da categoria |
+| Grupo (GRUPO) | Grupo <br>Subgrupos (até 5 níveis) *<br>Categoria<br>Parâmetro de Categoria<br>Parâmetro<br>Grupo de Parâmetros<br>Opção de Parâmetro<br>Lógica de Exibição de Categoria |
 | Função (ROLE) | Função |
-| Equipe (TEAM) | Equipe<br>Grupo |
-| Empresa (CMPY) | Empresa<br>Taxa de substituição<br>Categoria<br>Parâmetro da categoria<br>Parâmetro<br>Grupo de Parâmetros<br>Parâmetro <br>Lógica de exibição da categoria<br>Grupo |
-| Portfolio (PORTA) | Portfolio<br>Programa<br>Grupo<br>Categoria<br>Parâmetro da categoria<br>Parâmetro<br>Grupo de Parâmetros<br>Opção de parâmetro<br>Lógica de exibição da categoria |
-| Programa (PRGM) | Programa<br>Portfolio<br>Grupo<br>Categoria<br>Parâmetro da categoria<br>Parâmetro<br>Grupo de Parâmetros<br>Opção de parâmetro<br>Lógica de exibição da categoria |
+| Equipe (TEAM) | Grupo<br>de Equipe |
+| Empresa (CMPY) | Empresa<br>Taxa de Substituição<br>Categoria<br>Parâmetro de Categoria<br>Parâmetro<br>Grupo de Parâmetros<br>Parâmetro <br>Lógica de Exibição de Categoria<br>Grupo |
+| Portfolio (PORTA) | Portfolio<br>Programa<br>Grupo<br>Categoria<br>Parâmetro De Categoria<br>Parâmetro<br>Grupo De Parâmetros<br>Opção De Parâmetro<br>Lógica De Exibição De Categoria |
+| Programa (PRGM) | Programa<br>Portfolio<br>Grupo<br>Categoria<br>Parâmetro De Categoria<br>Parâmetro<br>Grupo De Parâmetros<br>Opção De Parâmetro<br>Lógica De Exibição De Categoria |
 
 ### Outros objetos de configuração
 
@@ -93,7 +93,7 @@ Como a promoção do ambiente lida com a configuração de objetos, os objetos t
 | Processo de aprovação (ARVPRC) | Processo de aprovação<br>Caminho de aprovação<br>Etapa de aprovação<br>Aprovador da etapa<br>Função<br>Equipe<br>Grupo |
 | Agendamento (SCHED) | Agendar<br>Dia Não Útil<br>Grupo |
 | Caminho de Etapas (MPATH) | Caminho de Etapas<br>Etapa |
-| Perfil da planilha de horas (TSPRO) | Perfil da Planilha de Horas<br>Tipo de Hora |
+| Perfil da planilha de horas (TSPRO) | Perfil de Planilha de Horas<br>Tipo de Hora |
 | Tipo de Hora (HOURT) | Tipo de hora |
 | Tipo de Despesa (EXPTYP) | Tipo de Despesa |
 | Tipo de Risco (RSKTYP) | Tipo de Risco |
@@ -142,15 +142,15 @@ Esses status incluem o seguinte:
   </tr> 
   <tr> 
    <td>ATIVO</td> 
-   <td><p>Esse status permite que um pacote de promoção seja instalado em qualquer ambiente, incluindo Produção.</p><p>Quando o status de um pacote é definido como ATIVO, a variável <code>publishedAt</code> A data é automaticamente definida para o carimbo de data e hora atual da solicitação.</p></td> 
+   <td><p>Esse status permite que um pacote de promoção seja instalado em qualquer ambiente, incluindo Produção.</p><p>Quando o status de um pacote é definido como ATIVO, a data <code>publishedAt</code> é automaticamente definida como o carimbo de data e hora atual da solicitação.</p></td> 
   </tr> 
   <tr> 
    <td>DESATIVADO</td> 
-   <td><p>Esse status é usado para ocultar pacotes de promoção usados anteriormente que não serão instalados em nenhum ambiente no futuro.</p><p>Quando um pacote está nesse status, ele não pode ser instalado em nenhum ambiente.</p><p>Quando o status de um pacote é definido como DESATIVADO, a variável <code>retiredAt</code> A data é automaticamente definida para o carimbo de data e hora atual da solicitação.</p><p>O uso deste status é recomendado em vez do uso de <code>DELETE /package</code> endpoint porque ele é recuperável, e o histórico de instalação é retido para todas as implantações feitas com esse pacote.</p></td> 
+   <td><p>Esse status é usado para ocultar pacotes de promoção usados anteriormente que não serão instalados em nenhum ambiente no futuro.</p><p>Quando um pacote está nesse status, ele não pode ser instalado em nenhum ambiente.</p><p>Quando o status de um pacote é definido como DESABILITADO, a data <code>retiredAt</code> é automaticamente definida como o carimbo de data e hora atual da solicitação.</p><p>Recomendamos o uso desse status em vez do endpoint <code>DELETE /package</code>, pois ele é recuperável e o histórico de instalação é retido para todas as implantações feitas com esse pacote.</p></td> 
   </tr> 
   <tr> 
    <td>FALHA_NA_MONTAGEM</td> 
-   <td><p>O pacote promocional será colocado automaticamente nesse status se a etapa MONTAGEM falhar.</p><p>Para retornar o pacote ao estágio MONTAGEM, você deve acionar o processo de montagem novamente.</p><p>Para obter detalhes sobre como montar um pacote, consulte a seção <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Editar ou reunir um pacote existente</a> no artigo Criar ou editar um pacote de promoção de ambiente.</td> 
+   <td><p>O pacote promocional será colocado automaticamente nesse status se a etapa MONTAGEM falhar.</p><p>Para retornar o pacote ao estágio MONTAGEM, você deve acionar o processo de montagem novamente.</p><p>Para obter detalhes sobre como montar um pacote, consulte a seção <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Editar ou montar um pacote existente</a> no artigo Criar ou editar um pacote de promoção de ambiente.</td> 
   </tr> 
   </tbody> 
 </table>
