@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 3b3dd815b5618853bdf8fc29304ed60d686195c3
+source-git-commit: d38dbad360db7317e05d4b9829c574596cca1c34
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,11 @@ O Adobe Workfront Fusion conecta perfeitamente seus aplicativos e serviços da W
 Para obter informações sobre como usar o Workfront Fusion, consulte [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
 ## Versões da fusão em 2024
+
+### Julho de 2024
+
+* [Atividade de lançamento do Workfront Fusion: semana de 8 de julho de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-11.md)
+
 
 ### Junho de 2024
 
@@ -239,7 +244,7 @@ Para obter informações sobre como usar o Workfront Fusion, consulte [Adobe Wor
 
 ### Novembro de 2020
 
-* [Atividade de lançamento do Workfront Fusion: semana de 30 de novembro de 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-30.md)
+* [Atividade de lançamento do Workfront Fusion: Semana de 30 de novembro de 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-30.md)
 * [Atividade de lançamento do Workfront Fusion: semana de 16 de novembro de 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-16.md)
 * [Atividade de lançamento do Workfront Fusion: semana de 2 de novembro de 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-2.md)
 
