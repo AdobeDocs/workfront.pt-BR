@@ -5,28 +5,28 @@ product-area: workfront-integrations;agile-and-teams;user-management
 keywords: conector
 navigation-topic: apps-and-their-modules
 title: Módulos do Google Team Drive
-description: A variável [!DNL Adobe Workfront Fusion Google Team Drive] Os módulos do permitem monitorar, fazer upload, atualizar, copiar, excluir ou recuperar arquivos e criar pastas no [!DNL Google Shared] Dirija.
+description: Os  [!DNL Adobe Workfront Fusion Google Team Drive] módulos permitem que você monitore, carregue, atualize, copie, exclua ou recupere arquivos e crie pastas em sua  [!DNL Google Shared] unidade.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8b4c057f-bb98-44d1-9b71-cbeaa402a1c3
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1297'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Team Drive] módulos
 
-A variável [!DNL Adobe Workfront Fusion] [!DNL Google Team Drive] Os módulos do permitem monitorar, fazer upload, atualizar, copiar, excluir ou recuperar arquivos e criar pastas no [!DNL Google Shared Drive].
+Os módulos do [!DNL Adobe Workfront Fusion] [!DNL Google Team Drive] permitem que você monitore, carregue, atualize, copie, exclua ou recupere arquivos e crie pastas no [!DNL Google Shared Drive].
 
-Para utilizar [!DNL Google Team Drive] com [!DNL Adobe Workfront Fusion], é necessário dispor de um [!DNL G Suite] conta. Se você não tiver um, poderá criar um [!DNL G Suite] conta no [[!DNL G Suite] site de inscrição](https://gsuite.google.com/signup/businessstarter/welcome).
+Para usar [!DNL Google Team Drive] com [!DNL Adobe Workfront Fusion], é necessário ter uma conta [!DNL Google Workspace]. Se você não tiver uma, poderá criar uma conta do [!DNL Google Workspace] no [[!DNL Google Workspace] site de inscrição](https://workspace.google.com/business/signup/welcome).
 
-Em um [!DNL Adobe Workfront Fusion] cenário, é possível automatizar workflows que usam [!DNL Google Team Drive], bem como conectá-lo a vários aplicativos e serviços de terceiros.
+Em um cenário [!DNL Adobe Workfront Fusion], você pode automatizar fluxos de trabalho que usam [!DNL Google Team Drive], bem como conectá-los a vários aplicativos e serviços de terceiros.
 
-Se precisar de instruções sobre como criar um cenário, consulte [Criar um cenário no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Se você precisar de instruções sobre como criar um cenário, consulte [Criar um cenário [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Para obter informações sobre módulos, consulte [Módulos no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Para obter informações sobre módulos, consulte [Módulos em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Requisitos de acesso
 
@@ -47,37 +47,37 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
    <td>
-   <p>Requisito de licença atual: Não [!DNL Workfront Fusion] requisito de licença.</p>
+   <p>Requisito de licença atual: nenhum requisito de licença [!DNL Workfront Fusion].</p>
    <p>Ou</p>
-   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e integração do trabalho] </p>
+   <p>Requisito de licença herdada: [!UICONTROL [!DNL Workfront Fusion] para Automação e Integração do Trabalho] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Requisito atual do produto: se você tiver o [!UICONTROL Select] ou o [!UICONTROL Prime] [!DNL Adobe Workfront] Planejar, sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no [!UICONTROL Ultimate] [!DNL Workfront] plano.</p>
+   <p>Requisito atual do produto: se você tiver o Plano [!DNL Adobe Workfront] da [!UICONTROL Select] ou da [!UICONTROL Prime], sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo. [!DNL Workfront Fusion] está incluído no plano [!DNL Workfront] do [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Requisito de produto herdado: sua organização deve comprar [!DNL Adobe Workfront Fusion] bem como [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
+   <p>Requisito de produto herdado: sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+Para saber que plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 Para obter informações sobre [!DNL Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Pré-requisitos
 
-Para usar [!DNL Google Team Drive] módulos, você deve ter uma [!DNL Google Team Drive].
+Para usar módulos [!DNL Google Team Drive], você deve ter um [!DNL Google Team Drive].
 
 ## [!DNL Google Team Drive] módulos e seus campos
 
-Ao configurar [!DNL Google Team Drive] módulos, [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, [!DNL Google Team Drive] Os campos podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
+Ao configurar módulos do [!DNL Google Team Drive], o [!DNL Workfront Fusion] exibe os campos listados abaixo. Junto com esses, campos [!DNL Google Team Drive] adicionais podem ser exibidos, dependendo de fatores como seu nível de acesso no aplicativo ou serviço. Um título em negrito em um módulo indica um campo obrigatório.
 
-Os campos da caixa de diálogo do módulo exibidos em **negrito** (na caixa [!DNL Workfront Fusion] cenário, **não** neste artigo de documentação) são obrigatórios.
+Os campos de diálogo do módulo exibidos em **bold** (no cenário [!DNL Workfront Fusion], **não** neste artigo de documentação) são obrigatórios.
 
-Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro no [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se você vir o botão de mapa acima de um campo ou função, poderá usá-lo para definir variáveis e funções para esse campo. Para obter mais informações, consulte [Mapear informações de um módulo para outro em [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -93,7 +93,7 @@ Retorna os detalhes do arquivo quando um novo arquivo é adicionado e/ou modific
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Google Team Drive] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Unidade de Equipe]</td> 
@@ -108,20 +108,20 @@ Retorna os detalhes do arquivo quando um novo arquivo é adicionado e/ou modific
    <td> <p> Selecione o tipo de arquivo que deseja observar.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Converter [!DNL Google Documents] arquivos a serem formatados] </td> 
-   <td> <p>Selecione o formato que deseja observar [!DNL Google Documents] arquivos convertidos em.</p> </td> 
+   <td>[!UICONTROL Converter [!DNL Google Documents] arquivos no formato] </td> 
+   <td> <p>Selecione o formato para o qual você deseja converter os [!DNL Google Documents] arquivos observados.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Converter [!DNL Google Sheets] arquivos a serem formatados] </td> 
-   <td> <p>Selecione o formato que deseja observar [!DNL Google Sheets] arquivos convertidos em.</p> </td> 
+   <td>[!UICONTROL Converter [!DNL Google Sheets] arquivos no formato] </td> 
+   <td> <p>Selecione o formato para o qual você deseja converter os [!DNL Google Sheets] arquivos observados.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Converter [!DNL Google Slides] arquivos a serem formatados] </td> 
-   <td> <p>Selecione o formato que deseja observar [!DNL Google Slides] arquivos convertidos em.</p> </td> 
+   <td>[!UICONTROL Converter [!DNL Google Slides] arquivos no formato] </td> 
+   <td> <p>Selecione o formato para o qual você deseja converter os [!DNL Google Slides] arquivos observados.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Converter [!DNL Google Drawings] arquivos a serem formatados] </td> 
-   <td> <p>Selecione o formato que deseja observar [!DNL Google Drawings] arquivos convertidos em.</p> </td> 
+   <td>[!UICONTROL Converter [!DNL Google Drawings] arquivos no formato] </td> 
+   <td> <p>Selecione o formato para o qual você deseja converter os [!DNL Google Drawings] arquivos observados.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Observar]</td> 
@@ -129,7 +129,7 @@ Retorna os detalhes do arquivo quando um novo arquivo é adicionado e/ou modific
   </tr> 
   <tr> 
    <td>[!UICONTROL Número máximo de arquivos baixados]</td> 
-   <td> <p> Definir o número máximo de arquivos [!DNL Workfront Fusion] retornará durante um ciclo de execução.</p> </td> 
+   <td> <p> Defina o número máximo de arquivos que [!DNL Workfront Fusion] retornará durante um ciclo de execução.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -137,13 +137,13 @@ Retorna os detalhes do arquivo quando um novo arquivo é adicionado e/ou modific
 ### Ações
 
 * [[!UICONTROL Carregar um arquivo]](#upload-a-file)
-* [[!UICONTROL Atualizar um arquivo]](#update-a-file)
-* [[!UICONTROL Copiar um arquivo]](#copy-a-file)
+* [[!UICONTROL Atualizar um Arquivo]](#update-a-file)
+* [[!UICONTROL Copiar um Arquivo]](#copy-a-file)
 * [[!UICONTROL Excluir um arquivo]](#delete-a-file)
 * [[!UICONTROL Mover um arquivo para a lixeira]](#move-a-file-to-trash)
-* [[!UICONTROL Obter um arquivo]](#get-a-file)
-* [[!UICONTROL Obter uma lista de arquivos]](#get-a-file-list)
-* [[!UICONTROL Criar uma pasta]](#create-a-folder)
+* [[!UICONTROL Obter um Arquivo]](#get-a-file)
+* [[!UICONTROL Obter uma Lista de Arquivos]](#get-a-file-list)
+* [[!UICONTROL Criar uma Pasta]](#create-a-folder)
 
 #### [!UICONTROL Carregar um arquivo]
 
@@ -155,7 +155,7 @@ Faz upload de um arquivo para a unidade compartilhada especificada.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Google Team Drive] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Unidade de Equipe] </td> 
@@ -166,7 +166,7 @@ Faz upload de um arquivo para a unidade compartilhada especificada.
    <td> <p>Selecione a pasta na unidade compartilhada.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Arquivo de Origem]</p> </td> 
+   <td> <p>[!UICONTROL Arquivo Source]</p> </td> 
    <td> <p>Especifique o arquivo que deseja fazer upload na unidade compartilhada.</p> <p>Mapeie o arquivo que você deseja fazer upload do módulo anterior (por exemplo, [!UICONTROL HTTP] &gt;[!UICONTROL Obter um Arquivo] ou [!UICONTROL Dropbox] &gt;[!UICONTROL Obter um arquivo)], ou insira o nome do arquivo e os dados do arquivo manualmente.</p> </td> 
   </tr> 
   <tr> 
@@ -180,7 +180,7 @@ Faz upload de um arquivo para a unidade compartilhada especificada.
  </tbody> 
 </table>
 
-#### [!UICONTROL Atualizar um arquivo]
+#### [!UICONTROL Atualizar um Arquivo]
 
 Permite alterar o nome e/ou o conteúdo do arquivo.
 
@@ -190,7 +190,7 @@ Permite alterar o nome e/ou o conteúdo do arquivo.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Google Team Drive] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Unidade de Equipe]</td> 
@@ -205,7 +205,7 @@ Permite alterar o nome e/ou o conteúdo do arquivo.
    <td> <p> Insira (mapeie) a ID do arquivo que você deseja atualizar.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Arquivo de Origem]</p> </td> 
+   <td> <p>[!UICONTROL Arquivo Source]</p> </td> 
    <td>Selecione um arquivo de origem de um módulo anterior ou mapeie o nome e os dados do arquivo de origem.</td> 
   </tr> 
   <tr> 
@@ -214,12 +214,12 @@ Permite alterar o nome e/ou o conteúdo do arquivo.
   </tr> 
   <tr> 
    <td>[!UICONTROL Converter um Arquivo]</td> 
-   <td> <p> Habilite esta opção para converter o arquivo para o [!DNL Google] formato na sua pasta compartilhada.</p> </td> 
+   <td> <p> Habilite esta opção para converter o arquivo para o formato [!DNL Google] correspondente na pasta compartilhada.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Copiar um arquivo]
+#### [!UICONTROL Copiar um Arquivo]
 
 Copia um arquivo especificado para a pasta selecionada.
 
@@ -229,7 +229,7 @@ Copia um arquivo especificado para a pasta selecionada.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Google Team Drive] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Unidade de Equipe]</td> 
@@ -260,7 +260,7 @@ Exclui um arquivo especificado.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Google Team Drive] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID de Arquivo]</td> 
@@ -279,7 +279,7 @@ Move um arquivo especificado para a lixeira.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Google Team Drive] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID de Arquivo]</td> 
@@ -288,7 +288,7 @@ Move um arquivo especificado para a lixeira.
  </tbody> 
 </table>
 
-#### [!UICONTROL Obter um arquivo]
+#### [!UICONTROL Obter um Arquivo]
 
 Recupera detalhes sobre o arquivo especificado.
 
@@ -298,23 +298,23 @@ Recupera detalhes sobre o arquivo especificado.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Google Team Drive] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Converter [!DNL Google Documents] arquivos a serem formatados] </td> 
-   <td> <p>Selecione o formato que deseja para o [!DNL Google Documents] arquivos convertidos em.</p> </td> 
+   <td>[!UICONTROL Converter [!DNL Google Documents] arquivos no formato] </td> 
+   <td> <p>Selecione o formato para o qual você deseja converter os arquivos [!DNL Google Documents].</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Converter [!DNL Google Sheets] arquivos a serem formatados] </td> 
-   <td> <p>Selecione o formato que deseja para o [!DNL Google Sheets] arquivos convertidos em.</p> </td> 
+   <td>[!UICONTROL Converter [!DNL Google Sheets] arquivos no formato] </td> 
+   <td> <p>Selecione o formato para o qual você deseja converter os arquivos [!DNL Google Sheets].</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Converter [!DNL Google Slides] arquivos a serem formatados] </td> 
-   <td> <p>Selecione o formato que deseja para o [!DNL Google Slides] arquivos convertidos em.</p> </td> 
+   <td>[!UICONTROL Converter [!DNL Google Slides] arquivos no formato] </td> 
+   <td> <p>Selecione o formato para o qual você deseja converter os arquivos [!DNL Google Slides].</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Converter [!DNL Google Drawings] arquivos a serem formatados] </td> 
-   <td> <p>Selecione o formato que deseja para o [!DNL Google Drawings] arquivos convertidos em.</p> </td> 
+   <td>[!UICONTROL Converter [!DNL Google Drawings] arquivos no formato] </td> 
+   <td> <p>Selecione o formato para o qual você deseja converter os arquivos [!DNL Google Drawings].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID de Arquivo]</td> 
@@ -323,7 +323,7 @@ Recupera detalhes sobre o arquivo especificado.
  </tbody> 
 </table>
 
-#### [!UICONTROL Obter uma lista de arquivos]
+#### [!UICONTROL Obter uma Lista de Arquivos]
 
 Recupera detalhes de arquivos e/ou pastas com base no termo de pesquisa.
 
@@ -333,7 +333,7 @@ Recupera detalhes de arquivos e/ou pastas com base no termo de pesquisa.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Google Team Drive] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Unidade de Equipe]</td> 
@@ -353,7 +353,7 @@ Recupera detalhes de arquivos e/ou pastas com base no termo de pesquisa.
     <ul> 
      <li style="font-weight: bold;"> <p>[!UICONTROL Pesquisar em nomes de arquivo]</p> <p style="font-weight: normal;">Insira o nome do arquivo (incluindo a extensão de arquivo) quando a opção [!UICONTROL Pesquisar termo exato] for selecionada ou insira a parte do nome quando a opção [!UICONTROL Pesquisar nomes contendo o termo pesquisado] for selecionada.</p> </li> 
      <li> <p style="font-weight: bold;">[!UICONTROL Pesquisa de texto completo]</p> <p>Insira o termo de pesquisa para pesquisar pelos nomes de arquivo, descrições e conteúdo.</p> </li> 
-     <li> <p style="font-weight: bold;">[!UICONTROL Consulta de pesquisa personalizada]</p> <p>Insira o [!DNL Google] termo de consulta de pesquisa. Para obter mais detalhes, consulte [!DNL Google]do <a href="https://developers.google.com/drive/api/v2/ref-search-terms">Pesquisar documentação de consulta</a>. Exemplo: <code>fullText contains '"Hello world"'</code></p> </li> 
+     <li> <p style="font-weight: bold;">[!UICONTROL Consulta de pesquisa personalizada]</p> <p>Insira o termo de consulta de pesquisa [!DNL Google]. Para obter mais detalhes, consulte a <a href="https://developers.google.com/drive/api/v2/ref-search-terms">Documentação de Consulta de Pesquisa</a> de [!DNL Google]. Exemplo: <code>fullText contains '"Hello world"'</code></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -362,12 +362,12 @@ Recupera detalhes de arquivos e/ou pastas com base no termo de pesquisa.
   </tr> 
   <tr> 
    <td>[!UICONTROL Número máximo de resultados retornados]</td> 
-   <td> <p> Definir o número máximo de arquivos ou pastas [!DNL Workfront Fusion] retornará durante um ciclo de execução.</p> </td> 
+   <td> <p> Defina o número máximo de arquivos ou pastas que [!DNL Workfront Fusion] retornará durante um ciclo de execução.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Criar uma pasta]
+#### [!UICONTROL Criar uma Pasta]
 
 Cria uma nova pasta.
 
@@ -377,7 +377,7 @@ Cria uma nova pasta.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexão] </td> 
-   <td> <p>Para obter instruções sobre como conectar seu [!DNL Google Team Drive] conta para [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
+   <td> <p>Para obter instruções sobre como conectar sua conta do [!DNL Google Team Drive] ao [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Criar uma conexão com o [!DNL Adobe Workfront Fusion] - Instruções básicas</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Unidade de Equipe]</td> 

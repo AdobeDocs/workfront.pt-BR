@@ -2,30 +2,30 @@
 product-area: workfront-integrations
 keywords: google,doc,documento,planilha,slide
 navigation-topic: workfront-for-g-suite
-title: Privacidade e permissões no Workfront para G Suite
-description: Privacidade e permissões no Workfront para G Suite
+title: Privacidade e permissões no Workfront para Google Workspace
+description: Privacidade e permissões no Workfront para Google Workspace
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: abb8ffa1-1da6-46dd-a929-18b17014839a
-source-git-commit: bd9fb14b99886f4a514c4d37ad9d93be7a051858
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
 
-# Privacidade e permissões no Workfront para G Suite
+# Privacidade e permissões no Workfront para Google Workspace
 
-Como a privacidade do cliente é importante, a Adobe Workfront não armazena nem coleta dados de identificação do cliente que resultem da autorização de terceiros de um aplicativo de plug-in do Google. O Workfront for G Suite, para uso e transferência de informações recebidas das APIs da Google para qualquer outro aplicativo, seguirá com o [Política de dados do usuário dos serviços de API da Google](https://developers.google.com/terms/api-services-user-data-policy), incluindo os requisitos de uso limitado.
+Como a privacidade do cliente é importante, a Adobe Workfront não armazena nem coleta dados de identificação do cliente que resultem da autorização de terceiros de um aplicativo de plug-in do Google. O uso do Workfront para Google Workspace e a transferência de informações recebidas das APIs do Google para qualquer outro aplicativo seguirão a [Política de dados do usuário dos Serviços de API da Google](https://developers.google.com/terms/api-services-user-data-policy), incluindo os requisitos de uso limitado.
 
-Precisamos das seguintes permissões para que o plug-in Workfront for G Suite possa fornecer seu valor máximo:
+São necessárias as seguintes permissões para que o plug-in Workfront para Google Workspace possa fornecer seu valor máximo:
 
-* **Exibir suas mensagens de email quando o complemento estiver em execução**: O plug-in Workfront for G Suite pode salvar inúmeras horas de trabalho duplicado para usuários, convertendo emails em novas tarefas no Workfront e preenchendo automaticamente o título e a descrição da tarefa com o assunto e o corpo do email. O plug-in também permite publicar seus emails no Workfront como novos comentários. O plug-in precisa exibir suas mensagens de email quando o complemento estiver em execução para fornecer esse valor.
-* **Executar como um complemento Gmail / não sensível**: As permissões são necessárias para que o complemento Workfront for G Suite funcione no ambiente Gmail. O plug-in requer um ambiente Gmail para funcionar, portanto, requer o `Run as a Gmail add-on / non-sensitive` permissão.
-* **Exibir os metadados da mensagem de email quando o complemento estiver em execução**: Para melhorar os fluxos de trabalho, o plug-in do Workfront for G Suite confirma se um email é uma notificação do Workfront e identifica o tipo de notificação do Workfront (nova solicitação de trabalho, solicitação de aprovação, novo comentário etc.). O plug-in exige que o `View your email message metadata when the add-on is running` permissão para fornecer esse valor.
-* **O plug-in precisa ser executado como um complemento de calendário/não sensível**: O plug-in Workfront for G Suite se conecta ao seu calendário, para que você possa visualizar como as tarefas afetam os agendamentos. O plug-in precisa da função `Run as a Calendar add-on / non-sensitive` permissão para fazer isso.
-* **Conexão com uma permissão de serviço externo:** Em última análise, o plug-in precisa se conectar à API do Workfront, que é a espinha dorsal do valor do plug-in. A API do Workfront é um serviço externo ao Google, portanto, o plug-in requer o `Connect to an external service permission` para fazer o plug-in funcionar.
+* **Exibir suas mensagens de email quando o complemento estiver em execução**: o plug-in Workfront para Google Workspace pode salvar inúmeras horas de trabalho duplicado para os usuários, convertendo emails em novas tarefas no Workfront e preenchendo automaticamente o título e a descrição da tarefa com o assunto e o corpo do email. O plug-in também permite publicar seus emails no Workfront como novos comentários. O plug-in precisa exibir suas mensagens de email quando o complemento estiver em execução para fornecer esse valor.
+* **Executar como um complemento do Gmail/não confidencial**: são necessárias permissões para que o complemento Workfront for Google Workspace funcione no ambiente do Gmail. O plug-in requer um ambiente do Gmail para funcionar, portanto, ele requer a permissão `Run as a Gmail add-on / non-sensitive`.
+* **Exibir os metadados da mensagem de email quando o complemento estiver em execução**: para melhorar os fluxos de trabalho, o plug-in Workfront para Google Workspace confirma se um email é uma notificação do Workfront e identifica o tipo de notificação do Workfront (nova solicitação de trabalho, solicitação de aprovação, novo comentário etc.). O plug-in requer a permissão `View your email message metadata when the add-on is running` para fornecer esse valor.
+* **O plug-in precisa ser executado como um complemento do Calendário/não confidencial**: o plug-in Workfront para Google Workspace se conecta ao seu calendário para que você possa visualizar como as tarefas afetam os agendamentos. O plug-in precisa da permissão `Run as a Calendar add-on / non-sensitive` para fazer isso.
+* **Permissão de conexão com um serviço externo:** Em última análise, o plug-in precisa se conectar à API do Workfront, que é o backbone do valor do plug-in. A API do Workfront é um serviço externo ao Google, portanto, o plug-in requer o `Connect to an external service permission` para funcionar.
 
-Para obter mais informações sobre a dedicação da Adobe Workfront à privacidade do cliente, consulte [Aviso de privacidade da Workfront](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Privacy-Notice-and-Privacy-Shield-Statement-Adobe-Workfront.pdf).
+Para obter mais informações sobre a dedicação da Adobe Workfront à privacidade do cliente, consulte o [Aviso de Privacidade da Workfront](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Privacy-Notice-and-Privacy-Shield-Statement-Adobe-Workfront.pdf).
 
-Para obter mais informações, consulte [Política de dados do usuário dos serviços de API da Google](https://developers.google.com/terms/api-services-user-data-policy).
+Para obter mais informações, consulte [Política de Dados de Usuário dos Serviços de API da Google](https://developers.google.com/terms/api-services-user-data-policy).

@@ -2,25 +2,25 @@
 product-area: workfront-integrations
 keywords: google,doc,documento,planilha,slide
 navigation-topic: workfront-for-g-suite
-title: Responder a um [!DNL Adobe Workfront] atualizar notificação do G Suite
-description: Ao receber uma notificação sobre uma atualização no [!DNL Adobe] [!DNL Workfront], você pode postar rapidamente uma resposta do Workfront para o G Suite.
+title: Responder a uma notificação de atualização do  [!DNL Adobe Workfront] Google Workspace
+description: Ao receber uma notificação sobre uma atualização no  [!DNL Adobe] [!DNL Workfront], você pode postar rapidamente uma resposta do Workfront para o Google Workspace.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 1%
+source-wordcount: '210'
+ht-degree: 0%
 
 ---
 
-# Responder a um [!DNL Adobe Workfront] atualizar notificação de [!DNL G Suite]
+# Responder a uma notificação de atualização do [!DNL Adobe Workfront] de [!DNL Google Workspace]
 
 >[!NOTE]
 >
 >A versão mais recente do plug-in do Adobe Workfront para Google foi lançada em 26 de junho de 2023.
 
-Ao receber uma notificação sobre uma atualização no [!DNL Adobe Workfront], você pode postar uma resposta rapidamente do [!DNL Workfront for G Suite].
+Ao receber uma notificação sobre uma atualização no [!DNL Adobe Workfront], você pode postar rapidamente uma resposta do [!DNL Workfront for Google Workspace].
 
 ## Requisitos de acesso
 
@@ -32,7 +32,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
-   <td> <p>Qualquer Um</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
@@ -41,21 +41,21 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tbody> 
 </table>
 
-&#42;Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o [!DNL Workfront] administrador.
+&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
 ## Pré-requisitos
 
-Antes de criar um [!DNL Workfront] tarefa em [!DNL G Suite], você deve
+Antes de criar uma tarefa [!DNL Workfront] em [!DNL Google Workspace], você deve
 
-* Instalar [!DNL Workfront for G suite]\
-   Para obter instruções, consulte [Instalar [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Instalar [!DNL Workfront for Google Workspace]\
+   Para obter instruções, consulte [Instalar [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Responder a uma notificação de atualização de [!DNL G Suite]
+## Responder a uma notificação de atualização de [!DNL Google Workspace]
 
-1. Se a variável [!UICONTROL Workfront para G Suite] não for exibido, clique na guia [!DNL Workfront] ícone ![](assets/wf-lion-icon.png) no [!DNL G Suite] barra lateral de complementos na extremidade direita da página.
-1. Abra o [!DNL Workfront] notificação por email contendo a atualização.
-1. Próximo à parte inferior do [!UICONTROL Workfront para G Suite] clique em **[!UICONTROL Postar um comentário]** e digite sua resposta.
-1. (Opcional) Para notificar usuários específicos sobre sua resposta, clique em **[!DNL Notify people and teams]**, comece digitando um nome e, em seguida, clique no nome quando ele aparecer na lista suspensa.
+1. Se o painel [!UICONTROL Workfront para Google Workspace] não for exibido, clique no ícone [!DNL Workfront] ![](assets/wf-lion-icon.png) na barra lateral de complementos [!DNL Google Workspace] na extremidade direita da página.
+1. Abra a notificação por email [!DNL Workfront] que contém a atualização.
+1. Próximo à parte inferior do painel [!UICONTROL Workfront para Google Workspace], clique em **[!UICONTROL Post para fazer um comentário]** e digite sua resposta.
+1. (Opcional) Para notificar usuários específicos sobre sua resposta, clique em **[!DNL Notify people and teams]**, comece a digitar um nome e, em seguida, clique no nome quando ele aparecer na lista suspensa.
 
    Você pode repetir essa etapa para qualquer outro nome que desejar adicionar.
 

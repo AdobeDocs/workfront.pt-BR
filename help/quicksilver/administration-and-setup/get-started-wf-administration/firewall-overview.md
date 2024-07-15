@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Como a Adobe Workfront se comunica com a rede de sua organização, o firewall d
 Isso é feito por meio de uma inclui na lista de permissões, que é essencialmente uma &quot;lista&quot; de sites que têm &quot;permissão&quot; para enviar ou receber dados por meio do firewall. Os sites podem ser identificados de uma das duas formas a seguir:
 
 * **Endereço IP**: uma série de números, como 52.31.132.175
-* **Domínio**: parte de um URL, como &quot;este domínio&quot; em www.thisdomain.com
+* **Domínio**: parte de uma URL, como &quot;este domínio&quot; em www.thisdomain.com
 
 O Workfront usa domínios e endereços IP específicos para comunicação na Web. Eles devem ser adicionados ao arquivo de inclui na lista de permissões da sua organização antes de você poder usar o Workfront na organização.
 
@@ -49,19 +49,19 @@ Forneça ao administrador de rede as seguintes informações:
  <tbody> 
   <tr> 
    <td role="rowheader">Endereços IP e domínios específicos a serem permitidos</td> 
-   <td> <p>O artigo <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">Incluir na lista de permissões Configurar o arquivo de pesquisa do firewall</a> O contém a lista de endereços IP e domínios que sua organização deve adicionar ao seu incluo na lista de permissões de pesquisa. </p> <p>O administrador de rede talvez não tenha acesso ao artigo "Configurar a inclui na lista de permissões do firewall". Nesse caso, você deve fornecê-lo a eles. Não é recomendável imprimir uma cópia impressa (papel). Uma cópia digital permite que o administrador da rede copie e cole os endereços, o que é mais rápido e preciso do que digitar de uma cópia impressa.</p> </td> 
+   <td> <p>Incluir na lista de permissões O artigo <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">Configurar a inclui na lista de permissões do firewall</a> contém a lista de endereços IP e domínios que sua organização deve adicionar ao seu arquivo de. </p> <p>O administrador de rede talvez não tenha acesso ao artigo "Configurar a inclui na lista de permissões do firewall". Nesse caso, você deve fornecê-lo a eles. Não é recomendável imprimir uma cópia impressa (papel). Uma cópia digital permite que o administrador da rede copie e cole os endereços, o que é mais rápido e preciso do que digitar de uma cópia impressa.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Seu cluster</td> 
-   <td>Para localizar o cluster da organização, consulte <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Exibir o cluster da sua organização e o plano da Workfront</a>.</td> 
+   <td>Para localizar o cluster da sua organização, consulte <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Exibir o cluster da sua organização e o plano da Workfront</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Seu plano do Workfront</td> 
-   <td> <p>Para localizar o plano de sua organização, consulte <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Visualize o cluster da sua organização e o plano da Workfront.</a></p> </td> 
+   <td> <p>Para localizar o plano da sua organização, consulte <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Exibir o cluster da sua organização e o plano da Workfront.</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Seu domínio</td> 
-   <td> <p>Para localizar seu domínio, verifique o endereço da Web usado para se conectar ao Workfront.</p> <p>Exemplo: no endereço da Web <code>greatcompany.my.workfront.com</code>, o domínio é "grande empresa"</p> </td> 
+   <td> <p>Para localizar seu domínio, verifique o endereço da Web usado para se conectar ao Workfront.</p> <p>Exemplo: no endereço Web <code>greatcompany.my.workfront.com</code>, o domínio é "grande empresa"</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Outros produtos da Adobe Workfront</td> 
@@ -76,7 +76,7 @@ Forneça ao administrador de rede as seguintes informações:
    <td>Informe o administrador da rede se você usar uma das seguintes opções:
     <ul>
      <li><p>Workfront para Jira</p></li>
-     <li><p>Workfront para G Suite</p></li>
+     <li><p>Workfront para Google Workspace</p></li>
      <li><p>Workfront para Microsoft Teams</p></li>
      <li><p>Workfront para Outlook</p></li>
      <li><p>Workfront para Salesforce</p></li>
@@ -98,12 +98,12 @@ Forneça ao administrador de rede as seguintes informações:
 
 ### Exibir o cluster da sua organização e o plano da Workfront {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. Clique em **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível), clique no link **[!UICONTROL Menu principal]** ícone ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Configuração]** ![Ícone de Configuração](/help/_includes/assets/gear-icon-setup.png).
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique no ícone **[!UICONTROL Instalação]** ![Instalação](/help/_includes/assets/gear-icon-setup.png).
 
 1. Clique em **Sistema** no painel esquerdo
-1. Para exibir seu cluster, Selecione **Informações do cliente**.
+1. Para exibir seu cluster, Selecione **Informações do Cliente**.
 
-   Seu cluster é exibido próximo ao canto superior direito do **Informações básicas** seção.
+   Seu cluster é exibido próximo ao canto superior direito da seção **Informações Básicas**.
 
    ![](assets/locate-cluster.png)
 

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 5e841349-7d76-4ab9-9625-a0c53111bf35
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -25,7 +25,7 @@ in January 2022
 
 a semana de 4 de abril de 2022.
 
-Para obter uma lista de todas as alterações disponíveis com a versão 22.2, consulte [Visão geral da versão 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão 22.2, consulte a [Visão geral da versão 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## A integração do Adobe Workfront com Anaplan já está disponível
 
@@ -51,11 +51,11 @@ O conector aprimorado do Workfront para Experience Manager agora inclui as segui
 * Adição de suporte para ambientes proxy
 * Várias correções de bugs com base no feedback do parceiro e do cliente
 
-Para obter mais informações, consulte [Visão geral do conector aprimorado do Workfront for Experience Manager](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md).
+Para obter mais informações, consulte [visão geral do conector aprimorado Workfront for Experience Manager](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md).
 
 >[!NOTE]
 >
->A implantação e a configuração deste conector exigem um parceiro certificado. Consulte [Instale o conector aprimorado do Workfront para Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install.html?lang=en#) para obter mais informações.
+>A implantação e a configuração deste conector exigem um parceiro certificado. Consulte [Instalar o Workfront para o conector aprimorado do Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install.html?lang=en#) para obter mais informações.
 
 ## As integrações do Adobe Creative Cloud agora usam OAuth2
 
@@ -69,7 +69,7 @@ Para fornecer transparência no uso das integrações OAuth2 e JWT personalizada
 
 Anteriormente, esses detalhes estavam indisponíveis.
 
-Para obter mais informações sobre Segredos do cliente em integrações personalizadas OAuth2 ou JWT, consulte [Criar aplicativos OAuth2 para integrações do Workfront](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+Para obter mais informações sobre Segredos do cliente em integrações OAuth2 ou JWT personalizadas, consulte [Criar aplicativos OAuth2 para integrações do Workfront](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
 
 ## Consulte o tipo de autenticação na lista de aplicativos OAuth2 personalizados
 
@@ -93,8 +93,8 @@ Anteriormente, todas as autenticações nos aplicativos OAuth2 personalizados us
 
 Para obter mais informações, consulte [Criar aplicativos OAuth2 para integrações do Workfront](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
 
-## A integração do Google G Suite agora usa OAuth2
+## A integração do Google Google Workspace agora usa OAuth2
 
-Para maior segurança e para tornar uma experiência mais consistente em todas as integrações, atualizamos a integração do Google G Suite para usar a autenticação OAuth2, uma maneira padrão do setor para autenticar usuários. Agora, quando os usuários fizerem logon, eles poderão ver as ações e áreas específicas às quais as integrações têm acesso e permitir acesso. Depois disso, eles não precisarão fazer logon com a mesma frequência.
+Para maior segurança e para tornar uma experiência mais consistente em todas as integrações, atualizamos a integração do Google Google Workspace para usar a autenticação OAuth2, uma maneira padrão do setor para autenticar usuários. Agora, quando os usuários fizerem logon, eles poderão ver as ações e áreas específicas às quais as integrações têm acesso e permitir acesso. Depois disso, eles não precisarão fazer logon com a mesma frequência.
 
-Para obter mais informações, consulte [Faça logon e logout do Adobe Workfront para G Suite](../../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).
+Para obter mais informações, consulte [Fazer logon e logoff da Adobe Workfront para o Google Workspace](../../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).

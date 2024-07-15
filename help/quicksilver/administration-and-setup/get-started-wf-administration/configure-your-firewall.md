@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d85898a74991b2c634d8bd33c81c127321617cf9
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '1635'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >Para configurar sua inclui na lista de permissões se sua organização foi integrada à Adobe Admin Console, consulte [Domínios a serem permitidos para Aplicativos e Serviços Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
->Para obter uma lista de procedimentos que diferem dependendo de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Para obter uma lista de procedimentos que diferem com base no fato de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Incluir na lista de permissões Se o firewall ou o servidor de e-mail estiver co
 * Uso de webhooks de documentos ao configurar integrações de documentos personalizadas
 * Uso de assinaturas de evento do Workfront
 
-  Para obter mais informações, consulte [API de assinatura de evento](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
+  Para obter mais informações, consulte [API de Assinatura de Evento](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
 
 Você também precisa abrir determinadas portas para que as mensagens de email sejam criptografadas quando forem entregues.
 
@@ -50,8 +50,8 @@ Você também precisa abrir determinadas portas para que as mensagens de email s
 
 Se sua organização tiver o plano Enterprise, você também poderá configurar duas Workfront do incluir na lista de permissões:
 
-* **Email ➡ incluir na lista de permissões**: permite controlar onde os usuários podem enviar dados de email armazenados no Workfront. Para obter mais informações, consulte [Configurar a inclui na lista de permissões por email](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-* **INCLUIR NA LISTA DE PERMISSÕES IP**: limita o acesso ao Workfront a 45 endereços IP ou intervalos de endereços IP especificados, fornecendo uma camada adicional de segurança para o aplicativo do Workfront. Para obter mais informações, consulte [Restringir o acesso ao Adobe Workfront pelo endereço IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+* **inclui na lista de permissões por email**: permite que você controle onde os usuários podem enviar dados de email armazenados no Workfront. Incluir na lista de permissões Para obter mais informações, consulte [Configurar a pesquisa de email](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+* **inclui na lista de permissões de IP**: limita o acesso ao Workfront a 45 endereços IP ou intervalos de endereços IP especificados, fornecendo uma camada adicional de segurança para o aplicativo Workfront. Para obter mais informações, consulte [Restringir acesso ao Adobe Workfront pelo endereço IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
 
 ## Localizar o cluster do Workfront
 
@@ -59,13 +59,13 @@ Os endereços IP que você deve adicionar ao arquivo de inclui na lista de permi
 
 Para localizar o cluster da organização:
 
-1. Como administrador do Workfront, clique no link **Menu principal** ícone ![Menu principal](assets/main-menu-icon.png)e, em seguida, clique em **Configuração**.
+1. Como administrador do Workfront, clique no ícone **Menu Principal** ![Menu Principal](assets/main-menu-icon.png) e em **Instalação**.
 1. Na navegação à esquerda, clique em **Sistema** e selecione **Informações do cliente**.
-1. Localize o **Configuração de Cluster** no canto superior direito da página. O cluster da sua organização está listado aqui.
+1. Localize o campo **Configuração do Cluster** no canto superior direito da página. O cluster da sua organização está listado aqui.
 
    CL01 refere-se ao Cluster 1, CL02 é Cluster 2 e assim por diante.
 
-Para obter mais informações, consulte a seção [Exibir o cluster da sua organização e o plano da Workfront](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) no artigo [Visão geral do firewall](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
+Para obter mais informações, consulte a seção [Exibir o cluster da sua organização e o plano do Workfront](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) no artigo [Visão geral do firewall](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
 
 ## Endereços IP a serem adicionados ao incluo na lista de permissões
 
@@ -73,13 +73,13 @@ Para obter mais informações, consulte a seção [Exibir o cluster da sua organ
 >
 >Algumas integrações do Workfront não funcionam quando a inclui na lista de permissões é ativada porque não podem ser configuradas com um endereço IP estático. Para usar as integrações a seguir, é necessário desativar a inclui na lista de permissões.
 >
->* Workfront para G Suite
+>* Workfront para Google Workspace
 >* Workfront para Outlook
 >* Workfront para Salesforce
 
 * [Endereços IP para permitir Clusters 1, 2, 3, 5, 7, 8 e 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
-* [Endereços IP a serem permitidos para Cluster 4](#ip-addresses-to-allow-for-cluster-4)
-* [Endereços IP a serem permitidos para Cluster 6](#ip-addresses-to-allow-for-cluster-6)
+* [Endereços IP para permitir para o Cluster 4](#ip-addresses-to-allow-for-cluster-4)
+* [Endereços IP para permitir para o Cluster 6](#ip-addresses-to-allow-for-cluster-6)
 * [Endereços IP para permitir uma Unidade de Teste](#IP%20Addre2)
 * [Endereços IP permitidos ao implementar assinaturas de evento](#ip-addresses-to-allow-when-implementing-event-subscriptions)
 * [Endereços IP para permitir autenticação aprimorada](#ip-addresses-to-allow-for-enhanced-authentication)
@@ -573,7 +573,7 @@ Você deve adicionar os seguintes endereços IP ao seu arquivo de inclui na list
      <li>52.30.133.50</li> 
      <li>54.220.93.204</li> 
      <li>34 254 76 122</li> 
-    </ul> <p><b>NOTA</b>: as opções do servidor DNS não são mais compatíveis.</p> </td> 
+    </ul> <p><b>OBSERVAÇÃO</b>: não há mais suporte para opções de servidor DNS.</p> </td> 
   </tr> 
  </tbody> 
 </table>

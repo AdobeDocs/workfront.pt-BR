@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '2798'
 ht-degree: 0%
@@ -16,16 +16,16 @@ ht-degree: 0%
 
 Esta página fornece informações sobre a funcionalidade incluída na versão 23.3 do. Essas melhorias foram disponibilizadas no ambiente de Produção com a versão 23.3 do em 20 e 21 de julho de 2023.
 
-O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2023. Você pode [cadastre-se no webinário para ver uma gravação sob demanda aqui](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
+O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2023. Você pode [registrar-se no webinário para exibir uma gravação sob demanda aqui](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
-<span class="preview">Os recursos fora do ciclo (aqueles que estão sendo lançados para produção antes da data de lançamento da versão 23.3) estão destacados em amarelo.</span>
+<span class="preview">Os recursos fora do ciclo (aqueles que foram lançados para produção antes da data de lançamento da versão 23.3) estão destacados em amarelo.</span>
 
 >[!IMPORTANT]
 >
 >A versão 23.3 inclui a opção de mover sua organização para versões mensais. Portanto, a Workfront está alterando o esquema de numeração de versões para contabilizar as faixas de lançamento mensais e trimestrais.
 >
->* Se você estiver no estado **versão rápida (mensal)** rastreamento, a versão após a 23.3 será **23,8**, em 31 de agosto de 2023.
-> * Se você estiver no estado **trimestral** faixa de lançamento, a versão após a 23.3 será **23.10**, na semana de 26 de outubro de 2023.
+>* Se você estiver na faixa de **lançamento rápido (mensal)**, o lançamento após a versão 23.3 será **23.8**, em 31 de agosto de 2023.
+> * Se você estiver na faixa de lançamento **trimestral**, o lançamento após a versão 23.3 será **23.10**, na semana de 26 de outubro de 2023.
 > 
 > As versões trimestrais incluirão a funcionalidade de três versões mensais. Por exemplo, a versão trimestral 23.10 incluirá funcionalidades lançadas nas versões mensais 23.8, 23.9 e 23.10.
 >
@@ -36,7 +36,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
 >| <ul><li>23.8 (31 de agosto de 2023)</li><li>23.9 (28 de setembro de 2023)</li><li>23.10 (26 de outubro de 2023)</li></ul> | <ul><li>23.10 (Semana de 26 de outubro de 2023)</li></ul> |
 >| <ul><li>Nenhuma versão (novembro de 2023)</li><li>Nenhuma versão (dezembro de 2023)</li><li>24.1 (janeiro de 2024)</li></ul> | <ul><li>24.1 (janeiro de 2024)</li></ul> |
 >
->Para obter mais informações sobre o processo de lançamento rápido, consulte [Ativar ou desativar o processo de lançamento rápido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Para obter mais informações sobre o processo de lançamento rápido, consulte [Habilitar ou desabilitar o processo de lançamento rápido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Aprimoramentos do Adobe Workfront
 
@@ -66,7 +66,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Possibilitar ciclos de lançamento mais rápidos do Workfront</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Habilitar ciclos de lançamento mais rápidos do Workfront</a></p>
                         <p>Para permitir que você receba novos recursos e atualizações de produtos da Workfront com mais rapidez, adicionamos a capacidade de ativar ciclos de lançamento mais rápidos. Agora, você pode optar por fazer com que sua organização receba versões do Workfront com mais frequência do que uma vez por trimestre. O ciclo de lançamento trimestral ainda estará disponível para organizações que preferem versões menos frequentes.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -165,13 +165,13 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                 </tr>                             
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">O modo escuro agora está disponível em placas Adobe Workfront</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Modo escuro agora disponível em Adobe Workfront Boards</a></p>
                         <p>Agora é possível exibir todas as placas e fluxos de trabalho no modo escuro. A nova configuração está disponível por meio das preferências no painel Quadros.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão de pré-visualização: 22 de junho de 2023<span style="color: #ff0000;"> Este recurso foi removido da Visualização e não será lançado com a versão 23.3.</span></p>
+                                <p>Versão de visualização: 22 de junho de 2023<span style="color: #ff0000;"> Esse recurso foi removido da Visualização e não será lançado com a versão 23.3.</span></p>
                             </li>
                             <li>
                                 <p>Versão de produção para todos os clientes: N/D</p>
@@ -187,7 +187,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
                             <li>
-                                <p>Versão de pré-visualização: 22 de junho de 2023<span style="color: #ff0000;"> Este recurso foi removido da Visualização e não será lançado com a versão 23.3.</span></p>
+                                <p>Versão de visualização: 22 de junho de 2023<span style="color: #ff0000;"> Esse recurso foi removido da Visualização e não será lançado com a versão 23.3.</span></p>
                             </li>
                             <li>
                                 <p>Versão de produção para todos os clientes: N/D</p>
@@ -197,7 +197,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adicionar comentários a cartões em quadros</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adicionar comentários aos cartões nos quadros</a></p>
                         <p>Agora é possível adicionar comentários a cartões ad hoc e conectados em quadros e marcar outros usuários nos comentários. Os comentários estão disponíveis nos detalhes do cartão. O recurso de comentário para quadros usa a nova experiência de comentário do Adobe Workfront.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -206,7 +206,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                                 <p>Versão de pré-visualização: 15 de junho de 2023</p>
                             </li>
                             <li>
-                                 <p>Versão de produção para aceitação antecipada: 22 de junho de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na Produção nessa data somente por meio da aceitação antecipada do recurso para placas Workfront.</span></p>
+                                 <p>Versão de produção para aceitação antecipada: 22 de junho de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na Produção nesta data somente por meio da aceitação antecipada de recursos para Workfront Boards.</span></p>
                                 <p>Versão de produção para todos os clientes: com a versão 23.3</p>
                             </li>
                         </ul>
@@ -214,7 +214,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Melhorias no gerenciador de tags das placas</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Melhorias no gerenciador de tags do Boards</a></p>
                         <p>A interface do gerenciador de tags foi aprimorada, permitindo criar novas tags rapidamente e aplicá-las a cartões. Você também pode criar tags para fluxos de trabalho.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -230,7 +230,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Filtros simples disponíveis nas colunas de entrada a bordo</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Filtros simples disponíveis nas colunas de entrada da placa</a></p>
                         <p>Filtros simplificados foram adicionados à configuração da coluna de entrada para permitir que você defina a coluna de entrada mais rapidamente. Os filtros disponíveis são projetos do Workfront e atribuições por equipe ou usuário. Você pode alternar para os filtros avançados, se preferir.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -239,7 +239,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                                 <p>Versão de pré-visualização: 10 de maio de 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Versão de produção para aceitação antecipada: 10 de maio de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na Produção nessa data somente por meio da aceitação antecipada do recurso para placas Workfront.</span></p>
+                                 <p>Versão de produção para aceitação antecipada: 10 de maio de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na Produção nesta data somente por meio da aceitação antecipada de recursos para Workfront Boards.</span></p>
                                 <p>Versão de produção para todos os clientes: com a versão 23.3</p>
                             </li>
                         </ul>
@@ -256,7 +256,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                                 <p>Versão de pré-visualização: 27 de abril de 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Versão de produção para aceitação antecipada: 28 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na Produção nessa data somente por meio da aceitação antecipada do recurso para placas Workfront.</span></p>
+                                 <p>Versão de produção para aceitação antecipada: 28 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na Produção nesta data somente por meio da aceitação antecipada de recursos para Workfront Boards.</span></p>
                                 <p>Versão de produção para todos os clientes: com a versão 23.3</p>
                             </li>
                         </ul>
@@ -273,7 +273,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                                 <p>Versão de pré-visualização: 20 de abril de 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Versão de produção para aceitação antecipada: 28 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na Produção nessa data somente por meio da aceitação antecipada do recurso para placas Workfront.</span></p>
+                                 <p>Versão de produção para aceitação antecipada: 28 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na Produção nesta data somente por meio da aceitação antecipada de recursos para Workfront Boards.</span></p>
                                 <p>Versão de produção para todos os clientes: com a versão 23.3</p>
                             </li>
                         </ul>
@@ -282,7 +282,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Migrar cartões Kanban da Equipe Ágil para Quadros</a></p>
-                        <p>Um novo <b>Adicionar a painéis</b> O botão em quadros Kanban de equipe ágil permite adicionar todos os cartões do quadro Kanban a um quadro Workfront. Você pode optar por criar um novo quadro do Workfront ou adicionar os cartões a um quadro existente.</p>
+                        <p>Um novo botão <b>Adicionar aos quadros</b> em quadros Kanban de equipes ágeis permite adicionar todos os cartões do quadro Kanban a um quadro Workfront. Você pode optar por criar um novo quadro do Workfront ou adicionar os cartões a um quadro existente.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -290,7 +290,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                                 <p>Versão de pré-visualização: 20 de abril de 2023<br /></p>
                             </li>
                             <li>
-                                 <s><p>Versão de produção para aceitação antecipada: 28 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na Produção nessa data somente por meio da aceitação antecipada do recurso para placas Workfront.</span></p></s>
+                                 <s><p>Versão de produção para aceitação antecipada: 28 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na Produção nesta data somente por meio da aceitação antecipada de recursos para Workfront Boards.</span></p></s>
                                  </li>
                                  <li>
                                 <p><span class="preview">Versão de produção para todos os clientes: 18 de maio de 2023</span></p>
@@ -316,7 +316,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Notificações e preferências de email dos painéis</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Preferências e notificações por email dos painéis</a></p>
                         <p>As notificações por email agora estão disponíveis para painéis do Adobe Workfront. As notificações estão ativadas por padrão e você pode selecionar em suas preferências quais emails deseja receber. Você receberá um email quando for adicionado a um quadro e quando um cartão for atribuído a você.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -325,7 +325,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                                 <p>Versão de pré-visualização: 13 de abril de 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Versão de produção para aceitação antecipada: 13 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na Produção nessa data somente por meio da aceitação antecipada do recurso para placas Workfront.</p>
+                                 <p>Versão de produção para aceitação antecipada: 13 de abril de 2023 <span style="color: #ff0000;"> Esse recurso está disponível na Produção nesta data somente através da aceitação antecipada de recursos para placas Workfront.</p>
                                 <p>Versão de produção para todos os clientes: com a versão 23.3</p>
                             </li>
                         </ul>
@@ -352,7 +352,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Taxas de custo e faturamento efetivas na data</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Taxas de custo efetivo e de cobrança</a> por data</p>
                         <p>As taxas de custo e cobrança com data efetiva estão agora disponíveis nos objetos de empresa, usuário e função de trabalho na Workfront. Quando taxas de efetivação de data são aplicadas a um projeto e horas são registradas em tarefas do projeto, os custos e a receita são calculados usando as taxas especificadas para cada período.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -389,8 +389,8 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Nova integração do G Suite disponível</a></p> 
-                        <p>Uma nova integração do G Suite agora está disponível no Google Marketplace. A nova integração é autenticada usando o OAuth2 e substitui a integração anterior.</p><p>A integração G Suite anterior agora está obsoleta e será automaticamente desinstalada.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Nova integração do Google Workspace já disponível</a></p> 
+                        <p>Uma nova integração do Google Workspace agora está disponível no Google Marketplace. A nova integração é autenticada usando o OAuth2 e substitui a integração anterior.</p><p>A integração anterior do Google Workspace agora está obsoleta e será automaticamente desinstalada.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -421,7 +421,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Exibir e gerenciar notificações do Workfront na Workfront para plug-ins do Creative Cloud</a></p> 
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Exibir e gerenciar notificações do Workfront na Workfront para plug-ins de Creative Cloud</a></p> 
                         <p>Para facilitar o recebimento das notificações necessárias, possibilitamos a exibição e o gerenciamento das notificações do Workfront sem sair da Adobe Creative Cloud. Agora, você pode visualizar as notificações e acessar os itens de trabalho e comentários relacionados a essas notificações diretamente da janela de plug-in do Workfront no aplicativo Creative Cloud.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -469,7 +469,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Mapear valores de campo do Workfront para tags na Experience Manager Assets</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Mapear valores de campo do Workfront para marcas na Experience Manager Assets</a></p>
                         <p>Agora, você pode categorizar e encontrar rapidamente ativos com base em dados da Workfront. Você pode mapear esses dados como parte da configuração de metadados na integração do Workfront para Experience Manager Assets.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -501,7 +501,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Ajustar as configurações do modelo de fluxo de trabalho de prova automatizada usando Adobe Workfront for Creative Cloud</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Ajuste as configurações do modelo de fluxo de trabalho de prova automatizada usando o Adobe Workfront para Creative Cloud</a></p>
                         <p>Agora você pode ajustar as configurações existentes do modelo de fluxo de trabalho automatizado diretamente no Creative Cloud.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -536,7 +536,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Novas aprovações de documentos</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Aprovações de novos documentos</a> </p>
                         <p>As aprovações de documentos estão sendo reprojetadas em uma implantação em fases que será disponibilizada para mais usuários com cada versão.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -589,7 +589,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Nova funcionalidade de prova no aplicativo móvel do Workfront</a> </p>
-                        <p>Com a descontinuação do aplicativo Workfront Proof independente na versão 23.10 (outubro de 2023), o aplicativo móvel Workfront principal teve recursos de prova adicionados para permitir que a prova em dispositivos móveis continue.</p>
+                        <p>Com a descontinuação do aplicativo Workfront Proof independente na versão 23.10 (outubro de 2023), o aplicativo móvel Workfront principal teve recursos de comprovação adicionados para permitir que a comprovação em dispositivos móveis continue.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -623,7 +623,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                 </tr>
             <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nova experiência na página inicial</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nova experiência na Página Inicial</a></p>
                         <p>Para capacitar melhor os usuários de todos os tipos a utilizar o Workfront para suas necessidades específicas, a Página inicial recebeu uma atualização importante! A nova experiência da Página inicial oferece personalização visual e de conteúdo para sua Página inicial, proporcionando flexibilidade para exibir somente as informações mais relevantes ao seu trabalho.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -656,8 +656,8 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                  </tr>                
             <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Novo comentário sobre experiência beta para projetos, tarefas e documentos</a> </p>
-                        <p>A nova experiência de comentário Beta agora está disponível para projetos, tarefas e documentos. Antes desta atualização, a experiência beta de comentários estava disponível somente para problemas e metas.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nova experiência de comentários do Beta para projetos, tarefas e documentos</a> </p>
+                        <p>A nova experiência de comentários no Beta agora está disponível para projetos, tarefas e documentos. Antes desta atualização, a experiência de comentários no Beta estava disponível somente para problemas e metas.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -672,7 +672,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Perfis sem avatares agora exibem as iniciais do usuário</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Perfis sem avatares agora exibem as iniciais de usuário</a></p>
                         <p>Para facilitar a localização de usuários específicos em listas grandes, os perfis sem avatares personalizados agora exibem as iniciais do usuário em um plano de fundo colorido em listas e relatórios herdados. Essa é uma pequena alteração cosmética e não se aplica se uma foto de avatar já estiver sendo usada ou se o usuário estiver desativado.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -704,7 +704,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">Novas melhorias na experiência do Canvas Dashboard</a></p>
+                        <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">Novos aprimoramentos na experiência do Painel da Tela</a></p>
                         <p>As melhorias no Painel de controle do Canvas estão sendo disponibilizadas no período da versão 23.3. Esses aprimoramentos serão disponibilizados no ambiente de Produção com a versão 23.3, a menos que especificado de outra forma. 
  </p>
                     </td>
@@ -721,7 +721,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Atualizações de aparência durante o período de lançamento da versão 23.3</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Atualizações de aparência durante o período da versão 23.3</a></p>
                         <p>Pequenas atualizações na aparência de várias áreas do aplicativo Adobe Workfront estão sendo feitas dentro do período da versão 23.3. Essas melhorias serão disponibilizadas no ambiente de Produção no mínimo 2 semanas após o lançamento para Pré-visualização.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -744,15 +744,15 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
 
 ### Aprimoramentos do Workfront Fusion
 
-Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento da versão 23.3. Para obter mais informações sobre os recursos mais recentes, consulte [Atividade de lançamento do Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento da versão 23.3. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Aprimoramentos no Planejador de cenários do Workfront
 
 Não há atualizações do Planejador de cenários neste momento na versão. Esta área será atualizada quando houver atualizações disponíveis.
 
-### Aprimoramentos de prova do Workfront
+### Aprimoramentos do Workfront Proof
 
-Novos recursos chegando ao Workfront Proof no período da versão 23.3. Para obter informações sobre esses novos recursos agora disponíveis na Pré-visualização, consulte [Adobe Workfront Proof com a versão 23.3](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md).
+Novos recursos chegando à versão do Workfront Proof dentro do período da versão 23.3. Para obter informações sobre esses novos recursos agora disponíveis na Pré-visualização, consulte [Adobe Workfront Proof com a versão 23.3](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md).
 
 ### Aprimoramentos das metas do Workfront
 
@@ -762,9 +762,9 @@ Novos recursos chegando à versão do Workfront Goals dentro do período da vers
 
 Para a API versão 16, modificamos alguns recursos e endpoints. Algumas das alterações são compatíveis com a nova funcionalidade, enquanto outras facilitam o uso das informações disponíveis por meio da API.
 
-Para obter informações sobre novidades e atualizações, consulte [Novidades da API versão 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
+Para obter informações sobre novidades e atualizações, consulte [Novidades na API versão 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
 
-Para obter informações sobre versões da API, consulte [Controle de versão da API e programação de suporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Para obter informações sobre versões de API, consulte [Controle de versão de API e agendamento de suporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Atualizações de manutenção do Workfront 
 
@@ -772,7 +772,7 @@ Para obter informações sobre as atualizações de manutenção feitas durante 
 
 ### Atualizações de treinamento
 
-Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; do [Página do Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página Tutorials do Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=pt-BR).
 
 ### Funcionalidade que será removida em breve do Workfront
 

@@ -5,7 +5,7 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24ddc8a-fe96-4e9b-8186-0b54ab9ab213
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 0%
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de integração feitas com a versão 23.3 do. Essas melhorias foram disponibilizadas no ambiente de Produção com a versão 23.3 do em 20 e 21 de julho de 2023.
 
-Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo de versão 23.3, consulte [23.3 Visão geral da versão](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo da versão 23.3, consulte a [Visão geral da versão 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
-## Nova integração do G Suite disponível
+## Nova integração do Google Workspace já disponível
 
-Uma nova integração do G Suite agora está disponível no Google Marketplace. A nova integração é autenticada usando o OAuth2 e substitui a integração anterior.
+Uma nova integração do Google Workspace agora está disponível no Google Marketplace. A nova integração é autenticada usando o OAuth2 e substitui a integração anterior.
 
-A integração G Suite anterior agora está obsoleta e será automaticamente desinstalada.
+A integração anterior do Google Workspace agora está obsoleta e será automaticamente desinstalada.
 
-Para obter instruções sobre como instalar a nova integração, consulte [Instalar [!DNL Adobe Workfront for G Suite]](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+Para obter instruções sobre como instalar a nova integração, consulte [Instalar [!DNL Adobe Workfront for Google Workspace]](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-Para obter mais informações sobre o Workfront para G Suite, consulte [Workfront para G Suite](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md).
+Para obter mais informações sobre o Workfront para Google Workspace, consulte [Workfront para Google Workspace](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md).
 
 ## As integrações do Adobe Creative Cloud agora oferecem suporte a vários usuários atribuídos
 
@@ -48,7 +48,7 @@ Anteriormente, as notificações só estavam disponíveis no Workfront e por ema
 
 Para aproveitar essa funcionalidade, baixe e instale os plug-ins mais recentes do Workfront for Creative Cloud.
 
-Para obter mais informações, consulte [Exibir e gerenciar [!DNL Adobe Workfront] notificações do Adobe Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md).
+Para obter mais informações, consulte [Exibir e gerenciar [!DNL Adobe Workfront] notificações da Adobe Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md).
 
 Para obter informações sobre como instalar os plug-ins do Workfront para Creative Cloud, consulte [Instalar o plug-in do Adobe Workfront para aplicativos Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
 
@@ -72,7 +72,7 @@ Anteriormente, a criação de pastas vinculadas exigia uma ação por parte do u
 
 Essa funcionalidade só está disponível com uma integração do Adobe Experience Manager as a Cloud Service no Workfront. Isso não está disponível no conector aprimorado do Adobe Experience Manager.
 
-Para obter mais informações, consulte [Usar fluxos de trabalho na integração do Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
+Para obter mais informações, consulte [Usar fluxos de trabalho na integração com o Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
 
 ## Mapear valores de campo do Workfront para tags na Experience Manager Assets
 
@@ -80,15 +80,15 @@ Agora, você pode categorizar e encontrar rapidamente ativos com base em dados d
 
 Anteriormente, o mapeamento de dados do Workfront para tags da Experience Manager Assets não estava disponível.
 
-Para obter mais informações sobre essa funcionalidade no Experience Manager Assets as a Cloud Service, consulte [Configure o [!UICONTROL Experience Manager Assets as a Cloud Service] integração](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
-Para obter mais informações sobre essa funcionalidade no Experience Manager Assets Essentials, consulte [Configurar a integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Para obter mais informações sobre esta funcionalidade no Experience Manager Assets as a Cloud Service, consulte [Configurar a [!UICONTROL integração as a Cloud Service] do Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Para obter mais informações sobre esta funcionalidade no Experience Manager Assets Essentials, consulte [Configurar a integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Mapear campos do Workfront para campos de metadados personalizados do Experience Manager Assets
 
 Com a integração nativa, agora é possível mapear campos nativos e integrados do Workfront para campos de esquema de metadados personalizados no Experience Manager Assets as a Cloud Service.
 
-Para obter mais informações sobre essa funcionalidade no Experience Manager Assets as a Cloud Service, consulte [Configure o [!UICONTROL Experience Manager Assets as a Cloud Service] integração](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
-Para obter mais informações sobre essa funcionalidade no Experience Manager Assets Essentials, consulte [Configurar a integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Para obter mais informações sobre esta funcionalidade no Experience Manager Assets as a Cloud Service, consulte [Configurar a [!UICONTROL integração as a Cloud Service] do Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Para obter mais informações sobre esta funcionalidade no Experience Manager Assets Essentials, consulte [Configurar a integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Ajustar as configurações do modelo de fluxo de trabalho de prova automatizada usando Adobe Workfront for Creative Cloud
 
@@ -101,7 +101,7 @@ Agora você pode ajustar as configurações existentes do modelo de fluxo de tra
 * Atualizar notificações por email
 * E muito mais!
 
-Para obter mais informações, consulte [Fazer upload de documentos e provas com o [!DNL Adobe Workfront] plug-in para [!DNL Creative Cloud] Aplicativos](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md).
+Para obter mais informações, consulte [Carregar documentos e provas com o [!DNL Adobe Workfront] plug-in para [!DNL Creative Cloud] Aplicativos](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md).
 
 Esses aprimoramentos estão disponíveis para os seguintes aplicativos Creative Cloud:
 
