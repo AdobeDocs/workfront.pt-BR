@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: dc14f02afff58b4d6f3b48dc2da5cd706786cbb8
+source-git-commit: 6b9d3c2c87dd20da7dd357c108046311bbbb90a2
 workflow-type: tm+mt
-source-wordcount: '6078'
+source-wordcount: '6081'
 ht-degree: 4%
 
 ---
@@ -51,7 +51,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step-1-to-setup}}
 
-1. Clique em **Forms personalizado** no painel esquerdo.
+1. Clique em **Forms Personalizado** no painel esquerdo.
 
    <!-- >[!TIP]
     >
@@ -62,8 +62,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    ![](assets/choose-object-type.jpg)
 
-1. No **O título é obrigatório** digite o título do formulário personalizado.
-1. (Opcional) Se quiser adicionar mais tipos de objeto ao formulário para que ele possa ser anexado a mais objetos, clique no link **Adicionar** ícone ![](assets/add-objects-icon.png) após **Tipos de objeto** e, em seguida, selecione o tipo desejado no menu exibido. Você pode repetir isso para adicionar quantos tipos de objetos desejar.
+1. Na área **Título obrigatório**, digite o título do formulário personalizado.
+1. (Opcional) Se quiser adicionar mais tipos de objeto ao formulário para que ele possa ser anexado a mais objetos, clique no ícone **Adicionar** ![](assets/add-objects-icon.png) depois de **Tipos de Objeto** e selecione o tipo desejado no menu exibido. Você pode repetir isso para adicionar quantos tipos de objetos desejar.
 
    Você também pode clicar no X em um tipo de objeto para excluí-lo do formulário.
 
@@ -78,7 +78,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    * [Reutilizar um campo ou widget existente já usado em outro formulário personalizado](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
    * [Adicionar campos de texto](#add-text-fields)
    * [Adicionar campos calculados](#add-calculated-fields)
-   * [Adicionar botões de opção, grupo de caixas de seleção e menus suspensos](#add-radio-buttons-checkboxes-and-dropdowns)
+   * [Adicionar botões de opção, grupos de caixas de seleção e menus suspensos](#add-radio-buttons-checkboxes-and-dropdowns)
    * [Adicionar campos de digitação antecipada e data](#add-typeahead-and-date-fields)
    * [Adicionar campos de pesquisa externos](#add-external-lookup-fields)
    * [Adicionar imagens, PDF e vídeos](#add-images-pdfs-and-videos)
@@ -91,7 +91,7 @@ Você pode usar campos novos ou existentes ao criar o formulário personalizado.
 
 ## Reutilizar um campo ou widget existente já usado em outro formulário personalizado
 
-1. No lado superior esquerdo da tela, clique em **Biblioteca de campos**.
+1. Na parte superior esquerda da tela, clique em **Biblioteca de campos**.
 
 1. Arraste o campo ou widget aqui que você deseja no formulário personalizado.
 1. (Opcional) Repita a etapa anterior para adicionar outros campos ou widgets.
@@ -103,7 +103,7 @@ Você pode usar campos novos ou existentes ao criar o formulário personalizado.
    >
    >Exemplos de formulários complexos incluem formulários com parâmetros em cascata, campos de dados personalizados calculados e várias opções de valor em um único campo.
 
-1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando seu formulário.
+1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
    ou
 
@@ -113,15 +113,15 @@ Você pode usar campos novos ou existentes ao criar o formulário personalizado.
 
 É possível adicionar vários campos de texto diferentes a um formulário personalizado.
 
-+++ **Expandir para ver descrições de campos de texto disponíveis**
++++ **Expanda para ver descrições de campos de texto disponíveis**
 
-* **Campo de texto de uma linha**: permite que os usuários digitem uma única linha de texto no campo.
-* **Campo de texto de parágrafo**: permite que os usuários digitem várias linhas de texto no campo.
-* **Campo de texto com formatação**: permite que os usuários digitem várias linhas de texto no campo e formatem o texto com negrito, itálico, sublinhado, marcadores, numeração, hiperlinks e aspas de bloco. Um limite de 15.000 caracteres permite bastante texto e formatação.
+* **Campo de Texto de Linha Única**: permite que os usuários digitem uma única linha de texto no campo.
+* **Campo de texto do parágrafo**: permite que os usuários digitem várias linhas de texto no campo.
+* **Campo de Texto com Formatação**: permite que os usuários digitem várias linhas de texto no campo e formatem o texto com negrito, itálico, sublinhado, marcadores, numeração, hiperlinks e aspas de bloco. Um limite de 15.000 caracteres permite bastante texto e formatação.
 
   Esse tipo de campo personalizado não é compatível com filtros em listas e relatórios.
 
-  Para obter informações sobre como acessar esse campo por meio da API, consulte [Armazenamento de campo Rich Text na API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
+  Para obter informações sobre como acessar este campo por meio da API, consulte [Armazenamento de campo Rich Text na API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
 
   >[!NOTE]
   >
@@ -232,9 +232,9 @@ Para adicionar um campo de texto:
 
    Para copiar um campo, passe o mouse sobre um campo e clique no ícone de cópia.
 
-   ![ícone copiar](assets/copy-field.png)
+   ![ícone de cópia](assets/copy-field.png)
 
-1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando seu formulário.
+1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
    ou
 
@@ -246,16 +246,16 @@ Em um formulário personalizado, você pode adicionar um campo personalizado cal
 
 Para adicionar um campo calculado, consulte [Adicionar campos calculados com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-### Adicionar botões de opção, caixas de seleção e menus suspensos
+### Adicionar botões de opção, grupos de caixas de seleção e menus suspensos
 
-Você pode adicionar botões de opção, caixas de seleção, menus suspensos e menus suspensos de seleção múltipla a um formulário personalizado.
+Você pode adicionar botões de opção, grupos de caixas de seleção, menus suspensos e menus suspensos de seleção múltipla em um formulário personalizado.
 
-+++ **Expandir para ver descrições de campos disponíveis**
++++ **Expanda para ver descrições dos campos disponíveis**
 
-* **Botões de opção**: exige que os usuários selecionem apenas uma opção.
+* **Botões de opção**: requer que os usuários selecionem apenas uma opção.
 * **Grupo de caixas de seleção**: permite que os usuários selecionem várias opções.
 * **Lista suspensa**: fornece uma lista de opções suspensas.
-* **Lista suspensa de seleção múltipla**: permite que os usuários selecionem várias opções em uma lista suspensa.
+* **Lista suspensa de várias seleções**: permite que os usuários selecionem várias opções em uma lista suspensa.
 
 +++
 
@@ -263,7 +263,7 @@ Você pode adicionar botões de opção, caixas de seleção, menus suspensos e 
 >
 >Os campos que permitem várias seleções, como Grupo de caixas de seleção e Lista suspensa de seleção múltipla, são difíceis de representar em gráfico e agrupar nos relatórios. Para facilitar a criação de gráficos e o agrupamento em relatórios, é possível criar campos separados para cada escolha (por exemplo, um campo de texto de linha única).
 
-Para adicionar botões de opção, caixas de seleção e menus suspensos:
+Para adicionar botões de opção, grupos de caixas de seleção e menus suspensos:
 
 1. No lado esquerdo da tela, encontre um dos campos a seguir e arraste-o para uma seção da tela.
 
@@ -272,7 +272,7 @@ Para adicionar botões de opção, caixas de seleção e menus suspensos:
    * Suspenso
    * Menu suspenso com múltipla escolha
 
-   ![Arraste um campo até a tela de desenho](assets/drag-field-to-section-041524.png)
+   ![Arraste um campo até a tela](assets/drag-field-to-section-041524.png)
 
 1. No lado direito da tela, configure as opções disponíveis para o tipo de campo personalizado que você está adicionando:
 
@@ -360,17 +360,17 @@ Para adicionar botões de opção, caixas de seleção e menus suspensos:
     <td role="rowheader">Seleções </td> 
     <td> 
     <ol> 
-    <li> <p>Clique em <b>Opções</b>, ative uma das opções a seguir:</p> 
+    <li> <p>Clique em <b>Opções</b> e habilite qualquer um dos itens a seguir:</p> 
     <ul> 
-    <li><strong>Mostrar valores</strong>: mostra os valores de cada escolha no campo. O rótulo de cada opção é exibido por padrão.</li> 
-     <li><strong>Classificar seleções de A a Z</strong>: classifica as opções adicionadas em ordem alfabética no campo.</li> 
+    <li><strong>Mostrar Valores</strong>: mostra os valores de cada escolha no campo. O rótulo de cada opção é exibido por padrão.</li> 
+     <li><strong>Classificar seleções de A a Z</strong>: classifica as seleções adicionadas em ordem alfabética no campo.</li> 
     </ul> 
     </li> 
-    <li> <p>Para cada opção adicionada para o usuário, clique no ícone de engrenagem <img src="assets/gear-icon-settings.png">, em seguida, selecione uma das seguintes opções:</p> 
+    <li> <p>Para cada opção adicionada para o usuário, clique no ícone de engrenagem <img src="assets/gear-icon-settings.png"> e selecione uma das seguintes opções:</p> 
     <ul> 
     <li><strong>Selecionar por padrão</strong>: selecione a opção por padrão no campo.</li> 
-    <li> <p><strong>Ocultar seleção</strong>: oculte a escolha no campo. As opções ocultas permanecem acessíveis nos relatórios.</p> </li> 
-    <li> <p><strong>Remover seleção</strong>: remova a escolha do campo.</p> <p><b>AVISO</b>: se você tiver objetos atuais usando essa opção, não remova-a do campo. Sua remoção fará com que os dados do histórico sejam perdidos. Em vez disso, selecione a opção para ocultá-la, o que impede que os usuários a selecionem no futuro.</p> </li> 
+    <li> <p><strong>Ocultar opção</strong>: oculta a opção no campo. As opções ocultas permanecem acessíveis nos relatórios.</p> </li> 
+    <li> <p><strong>Remover Opção</strong>: remova a opção do campo.</p> <p><b>AVISO</b>: se você tiver objetos atuais usando essa opção, não remova-a do campo. Sua remoção fará com que os dados do histórico sejam perdidos. Em vez disso, selecione a opção para ocultá-la, o que impede que os usuários a selecionem no futuro.</p> </li> 
     </ul> 
      </li> 
     </ol> </td> 
@@ -390,9 +390,9 @@ Para adicionar botões de opção, caixas de seleção e menus suspensos:
 
    Para copiar um campo, passe o mouse sobre um campo e clique no ícone de cópia.
 
-   ![ícone copiar](assets/copy-field.png)
+   ![ícone de cópia](assets/copy-field.png)
 
-1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando seu formulário.
+1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
    ou
 
@@ -402,7 +402,7 @@ Para adicionar botões de opção, caixas de seleção e menus suspensos:
 
 Você pode adicionar campos de digitação antecipada e data a um formulário personalizado.
 
-+++ **Expandir para ver descrições de campos disponíveis**
++++ **Expanda para ver descrições dos campos disponíveis**
 
 * **Typeahead**: permite que os usuários digitem o nome de um objeto que existe no Workfront. Uma lista de sugestões é exibida quando o usuário começa a digitar. Esse tipo de campo oferece suporte aos seguintes objetos:
    * Usuário
@@ -414,7 +414,7 @@ Você pode adicionar campos de digitação antecipada e data a um formulário pe
    * Equipe
    * Modelo
    * Empresa
-* **Campo de data**: exibe um calendário em que os usuários podem selecionar uma data e hora.
+* **Campo de Data**: exibe um calendário no qual os usuários podem selecionar uma data e hora.
 
 +++
 
@@ -480,7 +480,7 @@ Para adicionar campos de digitação antecipada e data:
       <td> <p>Selecione o tipo de objeto que deseja associar ao campo.</p> <p>Depois de clicar em Aplicar ou Salvar+Fechar, não é possível alterar o tipo de objeto do campo.</p> <p><b>NOTA</b>:   
         <ul> 
          <li>Se o administrador do Workfront personalizou o nome de Portfolio, Programas ou Projetos na interface do usuário do Workfront, o nome padrão do Workfront para o objeto será exibido nessa lista suspensa, não no nome personalizado. Consulte o administrador do Workfront se precisar de ajuda com isso.<br></li> 
-         <li>Os seguintes tipos de objeto são compatíveis com os aplicativos móveis Workfront para iOS e Android: usuário, empresa, grupo, função de trabalho, Portfolio, programa, projeto e modelo.</li> 
+         <li>Os seguintes tipos de objetos são suportados nos aplicativos móveis iOS e Android Workfront: usuário, empresa, grupo, função de trabalho, Portfolio, programa, projeto e modelo.</li> 
         </ul> </p> </td> 
          <td><ul>
     <li>Typeahead</li>
@@ -493,7 +493,7 @@ Para adicionar campos de digitação antecipada e data:
         <li>Eles pertencem a um ou mais grupos especificados por você</li> 
         <li>Eles estão associados a uma função ou a um cargo especificado por você</li> 
         <li>Eles pertencem ao mesmo grupo que a pessoa que está usando o campo</li> 
-       </ul> <p>Você deve definir o filtro para o tipo de objeto selecionado usando a sintaxe do Modo de texto. Para obter informações sobre como criar um filtro usando o Modo de texto, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Editar um filtro usando o modo de texto</a>.</p>
+       </ul> <p>Você deve definir o filtro para o tipo de objeto selecionado usando a sintaxe do Modo de texto. Para obter informações sobre como criar um filtro usando o Modo Texto, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Editar um filtro usando o modo texto</a>.</p>
        <p><b>NOTA</b>:
        <ul> 
         <li>Se você estiver editando um formulário personalizado existente, adicionar um filtro a um campo Digitação antecipada não removerá nenhum objeto (fora do escopo do filtro) que os usuários já tenham adicionado usando o campo.</li> 
@@ -522,9 +522,9 @@ Para adicionar campos de digitação antecipada e data:
 
    Para copiar um campo, passe o mouse sobre um campo e clique no ícone de cópia.
 
-   ![ícone copiar](assets/copy-field.png)
+   ![ícone de cópia](assets/copy-field.png)
 
-1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando seu formulário.
+1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
    ou
 
@@ -534,7 +534,7 @@ Para adicionar campos de digitação antecipada e data:
 
 Um campo de pesquisa externo chama uma API externa e retorna valores como opções em um campo suspenso. Os usuários que trabalham com o objeto ao qual o formulário personalizado está anexado podem selecionar uma ou mais dessas opções na lista suspensa. O campo de pesquisa externo também está disponível em listas e relatórios.
 
-Para obter exemplos de como usar o campo Pesquisa externa para chamar a mesma instância do Workfront ou uma API pública, consulte [Exemplos do campo Pesquisa externa em um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
+Para obter exemplos de como usar o campo Pesquisa Externa para chamar a mesma instância do Workfront ou uma API pública, consulte [Exemplos do campo Pesquisa Externa em um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
 >[!NOTE]
 >
@@ -544,7 +544,7 @@ Para obter exemplos de como usar o campo Pesquisa externa para chamar a mesma in
 
 Para adicionar uma pesquisa externa:
 
-1. No lado esquerdo da tela, localize **Pesquisa externa** e arraste-a para uma seção na tela.
+1. No lado esquerdo da tela, encontre **Pesquisa externa** e arraste-a para uma seção da tela.
 1. No lado direito da tela, configure as opções do campo personalizado:
 
    <table style="table-layout:auto"> 
@@ -581,31 +581,36 @@ Para adicionar uma pesquisa externa:
       <td role="rowheader">URL da API base</td> 
       <td><p>Digite ou cole o URL da API.</p><p>O URL da API deve retornar um conteúdo JSON das opções que você deseja mostrar na lista suspensa. Você pode usar o campo Caminho JSON para selecionar os valores específicos das opções suspensas do JSON retornado.</p><p>Ao inserir o URL da API, você pode passar os seguintes valores no URL:</p>
       <ul>
-      <li>$$HOST - representa o host atual do Workfront e pode ser usado para fazer chamadas de API /search para a API do Workfront. Quando esse curinga é usado, a autenticação é tratada e os usuários não precisam enviar cabeçalhos de autenticação. (Por exemplo, os usuários podem pesquisar tarefas usando o URL de base <code>$$HOST/attask/api/task/search</code> e permitirá pesquisar tarefas e selecionar valores de uma lista de tarefas retornada.)</li>
+      <li>$$HOST - representa o host atual do Workfront e pode ser usado para fazer chamadas de API /search para a API do Workfront. Quando esse curinga é usado, a autenticação é tratada e os usuários não precisam enviar cabeçalhos de autenticação. (Por exemplo, os usuários podem pesquisar tarefas usando a URL base <code>$$HOST/attask/api/task/search</code> e isso permitirá pesquisar tarefas e selecionar valores de uma lista de tarefas retornada.)</li>
       <li><p>$$QUERY - Representa o texto de pesquisa que o usuário final digita no campo e permite implementar a filtragem de consultas para seus usuários finais. (O usuário pesquisará pelo valor na lista suspensa.)</p>
-      <p>Se a API à qual você está fazendo referência permitir, também será possível incluir modificadores na consulta de pesquisa para identificar como a pesquisa deve funcionar. Por exemplo, você pode usar o seguinte como o URL da API base para permitir que as pessoas pesquisem qualquer projeto do Workfront que contenha texto específico: <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Saiba mais sobre os modificadores de pesquisa do Workfront em <a href="/help/quicksilver/wf-api/general/api-basics.md">Noções básicas sobre API</a>.</p>
-      <p><strong>NOTA:</strong> Se você não estiver usando $$QUERY e o usuário digitar o texto na caixa de pesquisa, ele restringirá as opções que você já tem. No entanto, se você usar $$QUERY e o usuário digitar algo, uma nova chamada de rede para sua API será executada. Portanto, se você tiver mais de 2000 valores em sua API e a API for compatível com consultas, será possível utilizar o $$QUERY não apenas para pesquisar a partir dos valores de 2000 existentes, mas a partir da API original com as opções limitadas.</p></li>
+      <p>Se a API à qual você está fazendo referência permitir, também será possível incluir modificadores na consulta de pesquisa para identificar como a pesquisa deve funcionar. Por exemplo, você pode usar o seguinte como a URL da API Base para permitir que as pessoas pesquisem por qualquer projeto do Workfront que contenha texto específico: <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Saiba mais sobre os modificadores de pesquisa do Workfront em <a href="/help/quicksilver/wf-api/general/api-basics.md">Noções básicas sobre API</a>.</p>
+      <p><strong>OBSERVAÇÃO:</strong> se você não estiver usando o $$QUERY e o usuário digitar o texto na caixa de pesquisa, ele restringirá as opções que você já tem. No entanto, se você usar $$QUERY e o usuário digitar algo, uma nova chamada de rede para sua API será executada. Portanto, se você tiver mais de 2000 valores em sua API e a API for compatível com consultas, será possível utilizar o $$QUERY não apenas para pesquisar a partir dos valores de 2000 existentes, mas a partir da API original com as opções limitadas.</p></li>
       <li><p>{fieldName} - Onde fieldName é qualquer campo personalizado ou nativo no Workfront. Dessa forma, você pode implementar filtros de opção de lista suspensa em cascata ao passar o valor de um campo já selecionado para o campo Pesquisa externa para filtrar opções. (Por exemplo, o campo Região já existe no formulário e você está restringindo uma lista de países da API para aqueles que estão em uma região específica.)</p>
-      <p>Para um campo de pesquisa externo que tenha uma dependência em outros campos (usando o {fieldName} sintaxe), as opções retornadas pela API são limitadas àquelas que correspondem a qualquer string ou valor inserido em outros campos. (Essa funcionalidade não é compatível com listas e relatórios.)</p></li>
-      <li>{referenceObject}.{fieldName} - Sempre que o campo fizer parte de um objeto. Essa sintaxe é semelhante às expressões personalizadas. (Por exemplo, portfolioID={project}.{portfolioID})</li></ul>
-      <p><strong>NOTA:</strong> Revise a documentação da API com a qual você está trabalhando para as consultas específicas que você pode definir.</p></td>
+      <p>Para um campo de pesquisa externo que tem uma dependência em outros campos (usando a sintaxe {fieldName}), as opções retornadas da API são limitadas àquelas que correspondem a qualquer cadeia de caracteres ou valor inserido em outros campos. (Essa funcionalidade não é compatível com listas e relatórios.)</p></li>
+      <li>{referenceObject}.{fieldName} - Onde o campo faz parte de um objeto. Essa sintaxe é semelhante às expressões personalizadas. (Por exemplo, portfolioID={project}.{portfolioID})</li></ul>
+      <p><strong>OBSERVAÇÃO:</strong> revise a documentação da API com a qual você está trabalhando para as consultas específicas que você pode definir.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Método HTTP</td> 
-      <td>Selecionar <strong>Obter</strong>, <strong>Publicar</strong>ou <strong>Put</strong> para o método.</td> 
+      <td>Selecione <strong>Obter</strong>, <strong>Post</strong> ou <strong>Colocar</strong> para o método.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Caminho JSON</td>
-      <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções suspensas.</p><p>Por exemplo, se o URL da API retornar JSON neste formato:</br>
+      <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções suspensas.</p><p>Por exemplo, se a URL da API retornar JSON neste formato:</br>
       <pre>
-      { data: { { name: "EUA"}, { name: "Canadá"} } }
+      {
+       dados: {
+         { name: "USA"},
+         { name: "Canada"}
+       }
+      }
       </pre>
       </p>
-      <p>em seguida, use "$.data[*].name" para selecionar EUA e Canadá como opções suspensas.</p> <p>Para obter mais informações sobre o Caminho JSON e garantir que você escreva o Caminho JSON correto, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
+      <p>em seguida, use "$.data[*].name" para selecionar EUA e Canadá como opções suspensas.</p> <p>Para obter mais informações sobre o Caminho JSON e verificar se você grava o Caminho JSON correto, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Cabeçalhos</td>
-      <td><p>Clique em <strong>Adicionar cabeçalho</strong>e digite ou cole o par de valores chave necessário para autenticação com a API.</p><p><strong>NOTA:</strong> Os campos de Cabeçalho não são um local seguro para armazenar credenciais, e você deve ter cuidado com o que digitar e salvar.</p></td>
+      <td><p>Clique em <strong>Adicionar Cabeçalho</strong> e digite ou cole o par de valores chave necessário para autenticação com a API.</p><p><strong>OBSERVAÇÃO:</strong> os campos de Cabeçalho não são um local seguro para armazenar credenciais, e você deve ter cuidado com o que inseriu e salvou.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Menu suspenso com múltipla escolha</td>
@@ -619,7 +624,7 @@ Para adicionar uma pesquisa externa:
     </tbody>
    </table>
 
-1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando seu formulário.
+1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
    ou
 
@@ -649,10 +654,10 @@ Home and Summary
 The Edit box for the object, if it doesn't have the new Adobe Workfront experience look and feel (for example, the Edit Expense box)
 The Workfront Mobile app -->
 
-+++ **Expandir para ver descrições de campos disponíveis**
++++ **Expanda para ver descrições dos campos disponíveis**
 
-* **Imagem**: permite que os usuários adicionem arquivos de imagem.
-* **PDF**: permite que os usuários adicionem PDF
+* **Imagem**: permite que usuários adicionem arquivos de imagem.
+* **PDF**: permite que usuários adicionem PDF
 * **Vídeos**: permite que os usuários adicionem arquivos de vídeo.
 
 +++
@@ -679,7 +684,7 @@ Para adicionar imagens, PDF ou vídeos:
      </tr> 
      <tr> 
       <td role="rowheader">Nome</td> 
-      <td> <p>(Obrigatório) Esse nome é como o sistema identifica o widget.</p> <p>Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Mas os campos Label e Name não são sincronizados — isso dá a você a liberdade de alterar o rótulo que seus usuários veem sem precisar alterar o nome que o sistema vê.</p> <p><b>IMPORTANTE</b>: Embora seja possível fazer isso, recomendamos que você não altere esse nome depois que você ou outros usuários começarem a usar o formulário personalizado no Workfront. Se você fizer isso, o sistema não reconhecerá mais o widget, onde ele pode agora ser referenciado em outras áreas do Workfront. </p> <p>Cada nome de widget deve ser exclusivo na instância do Workfront da sua organização. Dessa forma, é possível reutilizar um que já foi criado para outro formulário personalizado. </p> </td> 
+      <td> <p>(Obrigatório) Esse nome é como o sistema identifica o widget.</p> <p>Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Mas os campos Label e Name não são sincronizados — isso dá a você a liberdade de alterar o rótulo que seus usuários veem sem precisar alterar o nome que o sistema vê.</p> <p><b>IMPORTANTE</b>: embora seja possível fazer isso, recomendamos que você não altere esse nome depois que você ou outros usuários começarem a usar o formulário personalizado no Workfront. Se você fizer isso, o sistema não reconhecerá mais o widget, onde ele pode agora ser referenciado em outras áreas do Workfront. </p> <p>Cada nome de widget deve ser exclusivo na instância do Workfront da sua organização. Dessa forma, é possível reutilizar um que já foi criado para outro formulário personalizado. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -710,9 +715,9 @@ Para adicionar imagens, PDF ou vídeos:
 
    Para copiar um campo, passe o mouse sobre um campo e clique no ícone de cópia.
 
-   ![ícone copiar](assets/copy-field.png)
+   ![ícone de cópia](assets/copy-field.png)
 
-1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando seu formulário.
+1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
    ou
 
@@ -724,11 +729,11 @@ Para adicionar imagens, PDF ou vídeos:
 >
 >Ao adicionar um vídeo a um formulário personalizado dessa maneira, somente as permissões definidas para o formulário personalizado se aplicam ao vídeo quando os usuários acessam o formulário em um objeto, não as permissões definidas para o vídeo na área Documentos.
 
-1. Acesse o vídeo na área Documentos e gere uma prova para ele, conforme descrito em [Criar uma prova interativa para um site ou outro conteúdo da Web](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
+1. Vá para o vídeo na área Documentos e gere uma prova para ele, conforme descrito em [Criar uma prova interativa para um site ou outro conteúdo da Web](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
 1. Abra a prova.
-1. Clique com o botão direito do mouse em qualquer lugar no vídeo e selecione **Copiar endereço de vídeo**.
-1. No formulário personalizado onde você está adicionando o widget de vídeo, cole o endereço copiado no **URL** caixa.
-1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando seu formulário.
+1. Clique com o botão direito do mouse em qualquer lugar do vídeo e selecione **Copiar Endereço de Vídeo**.
+1. No formulário personalizado ao qual você está adicionando o widget de vídeo, cole o endereço copiado na caixa **URL**.
+1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
    ou
 
@@ -738,7 +743,7 @@ Para adicionar imagens, PDF ou vídeos:
 
 Você pode adicionar campos nativos Workfront aos seus formulários personalizados. Quando o formulário personalizado é anexado a um objeto, o campo é preenchido a partir dos dados do objeto. Por exemplo, o campo Descrição em um formulário personalizado anexado a um projeto extrairá a descrição do projeto. (O campo pode mostrar &quot;N/D&quot; se nenhum dado estiver disponível.)
 
-+++ **Expandir para ver a lista de campos nativos compatíveis**
++++ **Expanda para ver a lista de campos nativos com suporte**
 
 Esta tabela lista os campos nativos disponíveis para objetos Workfront específicos em um formulário personalizado.
 
@@ -785,7 +790,7 @@ Esta tabela lista os campos nativos disponíveis para objetos Workfront específ
 
 +++
 
-1. No lado esquerdo da tela, localize **Campo nativo** e arraste-a para uma seção na tela.
+1. No lado esquerdo da tela, localize o **Campo nativo** e arraste-o para uma seção da tela.
 1. No lado direito da tela, configure as opções do campo personalizado:
 
    <table style="table-layout:auto"> 
@@ -820,7 +825,7 @@ Esta tabela lista os campos nativos disponíveis para objetos Workfront específ
     </tbody> 
    </table>
 
-1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando seu formulário.
+1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
    ou
 
@@ -835,7 +840,7 @@ Você pode adicionar um protótipo do Adobe XD diretamente a um formulário pers
 
 Para adicionar um arquivo Adobe XD:
 
-1. No lado esquerdo da tela, localize **Adobe XD** e arraste-a para uma seção na tela.
+1. No lado esquerdo da tela, localize o **Adobe XD** e arraste-o para uma seção da tela.
 1. Digite ou edite qualquer uma das seguintes propriedades do widget:
 
    <table style="table-layout:auto"> 
@@ -879,9 +884,9 @@ Para adicionar um arquivo Adobe XD:
 
    Para copiar um campo, passe o mouse sobre um campo e clique no ícone de cópia.
 
-   ![ícone copiar](assets/copy-field.png)
+   ![ícone de cópia](assets/copy-field.png)
 
-1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando seu formulário.
+1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
    ou
 
@@ -889,4 +894,4 @@ Para adicionar um arquivo Adobe XD:
 
 ## Organizar e visualizar um formulário com o designer de formulário
 
-Para obter informações sobre como organizar e pré-visualizar um formulário, consulte [Organizar e visualizar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+Para obter informações sobre como organizar e visualizar um formulário, consulte [Organizar e visualizar um formulário com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
