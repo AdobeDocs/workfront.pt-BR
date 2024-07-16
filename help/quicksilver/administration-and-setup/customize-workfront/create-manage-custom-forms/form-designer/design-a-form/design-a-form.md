@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 6b9d3c2c87dd20da7dd357c108046311bbbb90a2
+source-git-commit: 96653b1375afd49c09ea91cf3816107a302640d2
 workflow-type: tm+mt
-source-wordcount: '6081'
+source-wordcount: '6091'
 ht-degree: 4%
 
 ---
@@ -540,6 +540,7 @@ Para obter exemplos de como usar o campo Pesquisa Externa para chamar a mesma in
 >
 >* No momento, a funcionalidade de pesquisa externa não é compatível com formulários personalizados de documento.
 >* No momento, os campos de pesquisa externa de formulários personalizados não são compatíveis com painéis. Não é possível editar o valor do campo em linha e ele pode não ser exibido corretamente em um painel. (Campos de pesquisa externa são aceitos nos Painéis do Canvas.)
+>* Não há suporte para campos de pesquisa externos no plug-in do Outlook.
 >* Os campos de pesquisa externos estão disponíveis em listas, a menos que o campo tenha uma dependência em outro campo.
 
 Para adicionar uma pesquisa externa:
