@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: 0dd0230fd0a986276f775a00f1f23332373daf6f
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,15 @@ ht-degree: 0%
 
 Esta página descreve as melhorias feitas com a versão do terceiro trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
-Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do terceiro trimestre de 2024, consulte [Visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do terceiro trimestre de 2024, consulte [Visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+
+## Alteração de backend nos guias no produto
+
+>[!NOTE]
+>
+>Produção para todos os clientes: incrementalmente até meados de agosto de 2024
+
+Estamos implementando uma mudança de tecnologia para nossos guias no produto nas próximas semanas. Embora tenhamos tentado minimizar o impacto dessa transição, alguns usuários podem encontrar guias que já viram.
 
 ## A experiência unificada do Adobe agora está disponível para mais organizações da Workfront
 
@@ -39,7 +47,7 @@ Anteriormente, a Experiência unificada do Adobe estava disponível somente para
 
 Para obter mais informações, consulte [Experiência unificada do Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Veja uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Exibir uma demonstração em vídeo desse recurso.](https://video.tv.adobe.com/v/3412388/){target=_blank}
 
 ## Botão Ajuda removido da barra de navegação principal
 
@@ -55,4 +63,4 @@ Quando um usuário não tem acesso a um objeto, ele verá &quot;Sem acesso&quot;
 
 Equipes e usuários não estão incluídos com esta alteração. Os usuários ainda podem exibir nomes de equipes e usuários.
 
-Para obter mais informações, consulte a seção [Acesso restrito a objetos](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) no [!DNL Adobe Workfront] artigo de visão geral de objetos.
+Para obter mais informações, consulte a seção [Acesso restrito a objetos](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) no artigo de visão geral de objetos [!DNL Adobe Workfront].
